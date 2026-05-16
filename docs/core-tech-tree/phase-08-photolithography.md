@@ -3,6 +3,7 @@
 **Timeline**: Years 40–70  
 **Goal**: Patterned devices and early integrated circuits. This is where complexity explodes.  
 **Dependencies**: [Phase 3](phase-03-machine-tools.md) (stages, aligners), [Phase 5](phase-05-chemistry.md) (resists, etchants, gases), [Phase 6](phase-06-vacuum-optics.md) (vacuum, optics), [Phase 7](phase-07-silicon.md) (wafers, basic processes)
+Specialty Gases, Consumables & Packaging ([Side Quest 6](../side-quests/sq-06-gases-packaging-testing.md)) — the fab cannot operate without ultra-pure gases, cleanroom consumables, and packaging/test infrastructure
 
 ## Objectives
 
@@ -114,5 +115,9 @@ Contamination is the enemy of yield. Even microscopic particles destroy chips.
 - Arsine, phosphine (dopant gases): Extremely toxic — ppb-level lethal
 - High-temperature furnaces: Burn hazards
 - Vacuum systems: Implosion risk
+
+## Side Quest Dependencies
+
+- **Specialty Gases, Consumables & Packaging** ([SQ 6](../side-quests/sq-06-gases-packaging-testing.md)) — THE critical side quest dependency. Photoresist solvents, dopant gases (PH₃, AsH₃, B₂H₆), etch gases (CF₄, SF₆, Cl₂), CVD precursors (SiH₄, TEOS), cleanroom consumables (garments, wipes, gloves), die packaging, and wafer testing all depend on this supply chain. This is the one side quest that is a hard blocker, not merely a supporting track.
 
 [← Phase 7](phase-07-silicon.md) | [Overview](overview.md) | [Phase 9: VLSI →](phase-09-scaling.md)

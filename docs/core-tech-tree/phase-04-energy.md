@@ -45,6 +45,18 @@
 - Electrolytic cells for: chlorine, caustic soda, hydrogen, oxygen
 - Later: aluminum (Hall-Héroult process), magnesium, sodium
 
+### Wire Drawing Bootstrap
+- **Chicken-and-egg problem**: you need wire for generators, but hardened steel dies for drawing that wire require decent steel, which itself needs powered machinery
+- First wire: hammered or swaged copper rod pulled through hand-punched holes in hardened steel plates, iterating through successively smaller die openings
+- Lubrication is critical at every pass (tallow or soap solution; see [SQ 10](../side-quests/sq-10-lubricants-oils.md)); without it the wire galls and snaps
+- Wire annealing between passes restores ductility lost from cold working
+- Insulation (rubber, varnished cloth, gutta-percha) is applied after drawing, not during
+
+### Permanent Magnets
+- **Lodestone** (naturally magnetized magnetite) for early compasses and basic magnetic experiments
+- **Magnetized iron/steel bars**: stroking with lodestone or placing in Earth's magnetic field yields magnets for early generator field poles and galvanometers
+- **Later materials** (Alnico, ferrite) arrive with Phase 5 chemistry and alloy development
+
 ## Enables (Downstream)
 
 | Output | Used By |
@@ -76,5 +88,9 @@ Electricity → powers arc furnaces → better steel → better machines
 - Electrical shock and electrocution
 - Coal mine hazards (collapse, gas, flooding)
 - Arc furnace UV radiation and high temperatures
+
+## Side Quest Dependencies
+
+- **Lubricants & Oils ([SQ 10](../side-quests/sq-10-lubricants-oils.md))** — critical for wire drawing (soap/tallow lubrication) and cylinder lubrication in steam engines
 
 [← Phase 3](phase-03-machine-tools.md) | [Overview](overview.md) | [Phase 5: Chemistry →](phase-05-chemistry.md)

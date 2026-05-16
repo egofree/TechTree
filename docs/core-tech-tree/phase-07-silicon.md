@@ -105,4 +105,18 @@ This positive feedback loop is one of the most important in the entire tech tree
 - Molten silicon: ~1415°C — severe burn hazard
 - Chlorosilane gases (if chemical purification): flammable, corrosive, toxic
 
+## Resource Quantities
+
+Order-of-magnitude estimates for planning purposes. Actual values depend on process maturity and scale.
+
+- **MG-Si energy**: ~11-13 kWh per kg (arc furnace)
+- **CZ crystal growth**: ~30-50 kWh per kg of single-crystal silicon (puller, heater, cooling)
+- **Wafer cleaning (RCA clean)**: ~50-100 liters of ultra-pure water per wafer
+- **Quartz crucible**: ~1 crucible per crystal pull (consumable; fused silica)
+- **Argon gas**: continuous flow during CZ growth (~10-20 liters/minute)
+
+## Side Quest Dependencies
+
+- **[SQ 6: Specialty Gases, Consumables & Packaging](../side-quests/sq-06-gases-packaging-testing.md)** — argon for CZ growth atmosphere, silane and dopant gases for CVD, etch gases for wafer processing. The silicon supply chain cannot operate at any scale without these gases.
+
 [← Phase 6](phase-06-vacuum-optics.md) | [Overview](overview.md) | [Phase 8: Lithography →](phase-08-photolithography.md)

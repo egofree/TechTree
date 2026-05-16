@@ -70,4 +70,9 @@ None — this is the starting point.
 - Kiln/fire burns
 - Charcoal production CO hazards
 
+## Side Quest Dependencies
+
+- Mining Engineering ([SQ 11](../side-quests/sq-11-mining-engineering.md)) expands the Mining & Prospecting section with underground techniques, shaft construction, ventilation, drainage, and the critical mine drainage → steam engine feedback loop.
+- Textiles & Cordage ([SQ 9](../side-quests/sq-09-textiles-fiber.md)) provides rope for mining hoists and basic cordage needed from the earliest stages.
+
 [← Overview](overview.md) | [Phase 2: Metallurgy →](phase-02-metallurgy.md)

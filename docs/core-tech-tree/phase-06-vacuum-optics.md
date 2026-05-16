@@ -77,4 +77,8 @@
 - Glass cuts and burns during glassblowing
 - High voltage if vacuum tubes are attempted
 
+## Side Quest Dependencies
+
+- **[SQ 10 — Lubricants & Oils](../side-quests/sq-10-lubricants-oils.md)**: Oil-sealed rotary vane pumps require lubricants with low vapor pressure. Early pumps may use specially refined animal or vegetable oils; mineral oils become available with petroleum chemistry (SQ12). Vacuum pump oil quality directly impacts achievable vacuum levels.
+
 [← Phase 5](phase-05-chemistry.md) | [Overview](overview.md) | [Phase 7: Silicon →](phase-07-silicon.md)

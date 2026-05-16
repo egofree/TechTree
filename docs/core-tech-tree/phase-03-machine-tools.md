@@ -51,6 +51,12 @@ This is NOT optional — you cannot build what you cannot measure.
 - Angle measurement tools
 - Iterative improvement of leadscrews, bearings, and ways
 
+### Abrasives & Grinding Media
+Natural abrasives bridge the gap until synthetic production becomes available. Emery, pumice, sandstone, and quartz sand cover most grinding and polishing needs. Jeweler's rouge (iron oxide) handles fine polishing work. Grit grading by sieving through woven screens gives repeatable surface finishes. Abrasive stones, dressed to shape, sharpen lathe bits and milling cutters. For lapping, mix graded abrasive with oil or water into a slurry and work it between two surfaces. Synthetic abrasives like silicon carbide (Acheson process) and aluminum oxide need electric arc furnaces, so they land in Phase 4.
+
+### Lubrication & Coolants
+Tallow and lard grease plain bearings. Vegetable oil works as a cutting fluid for turning and milling. Water, applied copiously, cools grinding operations. See [SQ 10](../side-quests/sq-10-lubricants-oils.md) for the full production chain.
+
 ## Enables (Downstream)
 
 | Output | Used By |
@@ -94,5 +100,11 @@ This compounding improvement is the most powerful feedback loop in the entire te
 
 - Dave Gingery, *Build Your Own Metal Working Shop from Scrap* (7-volume series)
 - L. T. C. Rolt, *Tools for the Job* (history of machine tools)
+
+## Side Quest Dependencies
+
+- **[SQ 2: Measurement & Metrology](../side-quests/sq-02-measurement-metrology.md)** — deeply intertwined; you cannot build what you cannot measure
+- **[SQ 9: Textiles & Cordage](../side-quests/sq-09-textiles-fiber.md)** — drive belts for line shafts powering machine tools
+- **[SQ 10: Lubricants & Oils](../side-quests/sq-10-lubricants-oils.md)** — bearing lubrication and cutting fluids essential for precision work
 
 [← Phase 2](phase-02-metallurgy.md) | [Overview](overview.md) | [Phase 4: Energy →](phase-04-energy.md)

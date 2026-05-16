@@ -46,6 +46,11 @@
 - **Heat exchangers**: For process efficiency
 - **Gas handling**: Compression, storage, purification (drying, scrubbing)
 
+### Cement & Concrete
+- **Portland cement**: Limestone + clay heated in kilns (~1450°C) → clinker → ground with gypsum → cement. Both limestone and clay are available from Phase 1–2 quarrying.
+- **Concrete**: Cement + sand + gravel + water. The single most versatile structural material once you have it.
+- **Uses**: Factory foundations, dam construction (hydroelectric — SQ7), vibration isolation pads for precision equipment (Phase 3, 7), road surfaces (SQ3).
+
 ## Enables (Downstream)
 
 | Output | Used By |
@@ -74,5 +79,9 @@
 ## Purity Note
 
 Start with industrial-grade purity for bulk chemicals. Semiconductor-grade purity requires additional distillation, filtration, and handling protocols that come later. This is an iterative process.
+
+## Side Quest Dependencies
+
+- **SQ12**: Petroleum & Alternative Chemistry ([SQ 12](../side-quests/sq-12-petrochemicals.md)) — provides organic solvents, polymer precursors for corrosion-resistant coatings, and alternative feedstocks when petroleum is unavailable
 
 [← Phase 4](phase-04-energy.md) | [Overview](overview.md) | [Phase 6: Vacuum & Optics →](phase-06-vacuum-optics.md)

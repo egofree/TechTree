@@ -40,6 +40,13 @@
 - Windmills where water power unavailable
 - Mechanical transmission (gears, cams, cranks from wood → iron)
 
+### Power Transmission
+- Flat belts (leather, later canvas) carry rotational power over distance
+- Line shafts run the length of a workshop, distributing water-wheel power to multiple machines
+- Pulleys and gear trains convert speed/torque for different tasks
+- Counter shafts allow individual machines to be engaged or disengaged
+- This is how ALL factories were powered before electricity
+
 ### Basic Chemistry Precursors
 - Glass: sand + plant ash (potash) + lime, melted in furnaces
 - Lime production: limestone heated in kilns (CaCO₃ → CaO + CO₂)
@@ -73,5 +80,11 @@ Hand-forged iron tools → better mining → more ore → better tools → impro
 - CO poisoning from furnaces
 - Eye damage from intense furnace light
 - Heavy lifting injuries
+
+## Side Quest Dependencies
+
+- SQ9: Textiles & Cordage ([SQ 9](../side-quests/sq-09-textiles-fiber.md)) — leather belting and rope for mechanical power transmission from water wheels to machine tools via line shafts
+- SQ10: Lubricants & Oils ([SQ 10](../side-quests/sq-10-lubricants-oils.md)) — animal fats/tallow for bellows bearings and water wheel shafts
+- SQ11: Mining Engineering ([SQ 11](../side-quests/sq-11-mining-engineering.md)) — underground mining for deeper ore access; mine drainage needs drove steam engine development
 
 [← Phase 1](phase-01-foundations.md) | [Overview](overview.md) | [Phase 3: Machine Tools →](phase-03-machine-tools.md)

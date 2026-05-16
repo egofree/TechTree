@@ -59,6 +59,7 @@ This combines the core path with the most helpful side quests into tiers. Focus 
 - [ ] Knowledge/education system scaling (SQ1) — trade schools, libraries
 - [ ] Petroleum distillation or alternative organic chemistry feedstocks available (SQ12)
 - [ ] Aircraft capability — small piston engine, airframe assembly, fabric covering (SQ13)
+- [ ] Polymer capability — vulcanization, Bakelite molding, fiberglass production, epoxy formulation (SQ14)
 
 ## Tier 3: Advanced and Self-Sustaining (Years 30–100+)
 

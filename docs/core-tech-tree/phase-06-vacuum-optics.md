@@ -80,5 +80,6 @@
 ## Side Quest Dependencies
 
 - **[SQ 10 — Lubricants & Oils](../side-quests/sq-10-lubricants-oils.md)**: Oil-sealed rotary vane pumps require lubricants with low vapor pressure. Early pumps may use specially refined animal or vegetable oils; mineral oils become available with petroleum chemistry (SQ12). Vacuum pump oil quality directly impacts achievable vacuum levels.
+- **[SQ 14: Polymers & Composites](../side-quests/sq-14-polymers-composites.md)** — polymer seals, gaskets, and O-rings needed for vacuum systems; cleanroom materials
 
 [← Phase 5](phase-05-chemistry.md) | [Overview](overview.md) | [Phase 7: Silicon →](phase-07-silicon.md)

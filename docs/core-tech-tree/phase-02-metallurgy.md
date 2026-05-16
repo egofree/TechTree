@@ -86,5 +86,6 @@ Hand-forged iron tools → better mining → more ore → better tools → impro
 - SQ9: Textiles & Cordage ([SQ 9](../side-quests/sq-09-textiles-fiber.md)) — leather belting and rope for mechanical power transmission from water wheels to machine tools via line shafts
 - SQ10: Lubricants & Oils ([SQ 10](../side-quests/sq-10-lubricants-oils.md)) — animal fats/tallow for bellows bearings and water wheel shafts
 - SQ11: Mining Engineering ([SQ 11](../side-quests/sq-11-mining-engineering.md)) — underground mining for deeper ore access; mine drainage needs drove steam engine development
+- **[SQ 14: Polymers & Composites](../side-quests/sq-14-polymers-composites.md)** — polymer curing and molding relies on high-temperature furnace capability from Phase 2
 
 [← Phase 1](phase-01-foundations.md) | [Overview](overview.md) | [Phase 3: Machine Tools →](phase-03-machine-tools.md)

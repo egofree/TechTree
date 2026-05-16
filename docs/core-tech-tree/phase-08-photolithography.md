@@ -33,6 +33,12 @@ Contamination is the enemy of yield. Even microscopic particles destroy chips.
 - **Application**: Spin coating for uniform thin films
 - **Development**: Aqueous base developer (TMAH or NaOH solution)
 
+### Polymer Packaging Materials
+- **Epoxy encapsulation**: Two-part epoxy for die attach and hermetic sealing — see [SQ 14](../side-quests/sq-14-polymers-composites.md) and [SQ 06](sq-06-gases-packaging-testing.md)
+- **Plastic substrates and lead frames**: Molded plastic packages for integrated circuits
+- **Phenolic laminate (FR-4)**: PCB substrate material from phenolic or epoxy resin impregnated glass fabric — see [SQ 14](../side-quests/sq-14-polymers-composites.md)
+- **Photoresist dependency**: Novolac resin (phenol + formaldehyde condensation polymer) production path documented in [SQ 14](../side-quests/sq-14-polymers-composites.md), with monomer feedstocks from [SQ 12](sq-12-petrochemicals.md)
+
 ### Mask Making
 - **Pattern generation**: Large-scale drawings → optical reduction onto photosensitive plates
 - **Mask substrates**: Glass (or fused silica for UV transmission) + chrome or emulsion layer
@@ -119,5 +125,6 @@ Contamination is the enemy of yield. Even microscopic particles destroy chips.
 ## Side Quest Dependencies
 
 - **Specialty Gases, Consumables & Packaging** ([SQ 6](../side-quests/sq-06-gases-packaging-testing.md)) — THE critical side quest dependency. Photoresist solvents, dopant gases (PH₃, AsH₃, B₂H₆), etch gases (CF₄, SF₆, Cl₂), CVD precursors (SiH₄, TEOS), cleanroom consumables (garments, wipes, gloves), die packaging, and wafer testing all depend on this supply chain. This is the one side quest that is a hard blocker, not merely a supporting track.
+- **[SQ 14: Polymers & Composites](../side-quests/sq-14-polymers-composites.md)** — photoresist binders (novolac), packaging materials (epoxy, FR-4), cleanroom consumables
 
 [← Phase 7](phase-07-silicon.md) | [Overview](overview.md) | [Phase 9: VLSI →](phase-09-scaling.md)

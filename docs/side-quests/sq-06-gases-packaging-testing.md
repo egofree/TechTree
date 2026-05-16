@@ -49,6 +49,7 @@ Semiconductor fabrication requires ultra-pure gases, specialized consumables, an
 | Phase 5 | Bulk gas production, purification infrastructure |
 | Phase 7 | Gas supply for CZ growth (argon), CVD precursors |
 | Phase 8 | Complete gas/consumable supply chain for fab, packaging, testing |
+| SQ 14 | Epoxy encapsulation, fiberglass filters, nitrile gloves, cleanroom garment materials |
 
 ## Key Deliverables
 

@@ -65,6 +65,12 @@
 - **Magnetized iron/steel bars**: stroking with lodestone or placing in Earth's magnetic field yields magnets for early generator field poles and galvanometers
 - **Later materials** (Alnico, ferrite) arrive with Phase 5 chemistry and alloy development
 
+### Elastomer Processing
+- **Natural rubber vulcanization**: latex from *Hevea brasiliensis* or temperate alternatives (guayule, Russian dandelion) is coagulated, masticated on a two-roll mill, then compounded with sulfur (1.5-3 phr) and zinc oxide as activator
+- **Heat curing** at 140-180°C in electric vulcanizing presses or steam autoclaves (3-10 bar) using Phase 4 electric heating and boiler steam; cycle times 5-30 minutes depending on thickness
+- **Applications beyond wire insulation**: shaft seals, gaskets, flat belts and V-belts for power transmission, hoses, vibration dampers, and tire construction for wheeled vehicles
+- **Synthetic rubbers** (nitrile, neoprene) are Phase 5+ materials requiring petrochemical feedstocks from [SQ 12](../side-quests/sq-12-petrochemicals.md); see [SQ 14](../side-quests/sq-14-polymers-composites.md) for the full elastomer development roadmap
+
 ## Enables (Downstream)
 
 | Output | Used By |
@@ -101,5 +107,6 @@ Electricity → powers arc furnaces → better steel → better machines
 
 - **Lubricants & Oils ([SQ 10](../side-quests/sq-10-lubricants-oils.md))** — critical for wire drawing (soap/tallow lubrication) and cylinder lubrication in steam engines
 - **[SQ 13: Aircraft Development](../side-quests/sq-13-aircraft-development.md)** — ICE provides propulsion; aircraft is the most demanding mobile power application
+- **[SQ 14: Polymers & Composites](../side-quests/sq-14-polymers-composites.md)** — elastomer processing (vulcanization, molding) uses Phase 4 electric heating; synthetic rubber requires Phase 5 feedstocks
 
 [← Phase 3](phase-03-machine-tools.md) | [Overview](overview.md) | [Phase 5: Chemistry →](phase-05-chemistry.md)

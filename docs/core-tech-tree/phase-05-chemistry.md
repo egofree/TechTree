@@ -51,6 +51,11 @@
 - **Concrete**: Cement + sand + gravel + water. The single most versatile structural material once you have it.
 - **Uses**: Factory foundations, dam construction (hydroelectric — SQ7), vibration isolation pads for precision equipment (Phase 3, 7), road surfaces (SQ3).
 
+### Polymer Feedstock Production
+- Phase 5's chemical industry enables production of key polymer feedstocks: phenol, formaldehyde, ethylene, propylene, styrene.
+- See [SQ 12](../side-quests/sq-12-petrochemicals.md) for feedstock production and [SQ 14](../side-quests/sq-14-polymers-composites.md) for polymerization.
+- This bridges inorganic chemistry to the organic polymer industry.
+
 ## Enables (Downstream)
 
 | Output | Used By |
@@ -84,5 +89,6 @@ Start with industrial-grade purity for bulk chemicals. Semiconductor-grade purit
 
 - **SQ12**: Petroleum & Alternative Chemistry ([SQ 12](../side-quests/sq-12-petrochemicals.md)) — provides organic solvents, polymer precursors for corrosion-resistant coatings, and alternative feedstocks when petroleum is unavailable
 - **[SQ 13: Aircraft Development](../side-quests/sq-13-aircraft-development.md)** — nitrocellulose dope from Phase 5 chemistry enables aircraft fabric covering; aluminum (later duralumin) enables lightweight airframes
+- **[SQ 14: Polymers & Composites](../side-quests/sq-14-polymers-composites.md)** — polymerization of chemical feedstocks into elastomers, thermosets, thermoplastics, and composites
 
 [← Phase 4](phase-04-energy.md) | [Overview](overview.md) | [Phase 6: Vacuum & Optics →](phase-06-vacuum-optics.md)

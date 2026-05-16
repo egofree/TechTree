@@ -1,0 +1,18 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk"}}}%%
+graph TD
+    Feedstocks[Core Organic Feedstocks — Benzene, Phenol, Ethylene]
+    Monomers[Monomers — Styrene, Butadiene, Formaldehyde, Acrylics]
+    Elastomers[Elastomers — Natural and Synthetic Rubbers]
+    Thermosets[Thermosets — Bakelite, Epoxy, Polyester Resin]
+    Thermoplastics[Thermoplastics — Polyethylene, PVC, Nylon]
+    Composites[Composites — Fiber-Reinforced Polymer Parts]
+    Apps[Applications — Seals, Tanks, Insulators, Adhesives, Panels]
+    Feedstocks --> Monomers
+    Monomers --> Elastomers
+    Monomers --> Thermosets
+    Monomers --> Thermoplastics
+    Thermosets --> Composites
+    Thermoplastics --> Composites
+    Elastomers --> Apps
+    Thermosets --> Apps
+    Composites --> Apps

@@ -172,6 +172,21 @@ tier_1_industrial:
       side_quest: sq-13
       completed: false
 
+    - id: natural_rubber_vulcanization
+      name: "Natural rubber vulcanization capability"
+      side_quest: sq-14
+      completed: false
+
+    - id: bakelite_molding
+      name: "First molded Bakelite (phenol-formaldehyde) parts"
+      side_quest: sq-14
+      completed: false
+
+    - id: fiberglass_hand_layup
+      name: "Basic fiberglass panel production (hand layup)"
+      side_quest: sq-14
+      completed: false
+
 tier_2_semiconductor:
   timeline: "Years 15-40"
   items:
@@ -247,7 +262,77 @@ tier_2_semiconductor:
 
     - id: early_polymers
       name: "Early synthetic polymers (Bakelite, celluloid)"
-      side_quest: sq-12
+      side_quest: sq-14
+      completed: false
+
+    - id: epoxy_resin_formulation
+      name: "Epoxy resin formulation for adhesives and encapsulation"
+      side_quest: sq-14
+      completed: false
+
+    - id: phenolic_laminate_fr4
+      name: "Phenolic laminate (FR-4) production for PCB substrates"
+      side_quest: sq-14
+      completed: false
+
+    - id: silicone_seal_production
+      name: "Silicone seal production for high-temperature applications"
+      side_quest: sq-14
+      completed: false
+
+    - id: ptfe_teflon_production
+      name: "PTFE (Teflon) production capability"
+      side_quest: sq-14
+      completed: false
+
+    - id: nitrile_rubber_nbr
+      name: "Nitrile rubber (NBR) production for gloves and seals"
+      side_quest: sq-14
+      completed: false
+
+    - id: neoprene_production
+      name: "Neoprene (chloroprene) production for wire insulation"
+      side_quest: sq-14
+      completed: false
+
+    - id: unsaturated_polyester_resin
+      name: "Unsaturated polyester resin formulation"
+      side_quest: sq-14
+      completed: false
+
+    - id: polyurethane_foam
+      name: "Polyurethane foam production (insulation, cushioning)"
+      side_quest: sq-14
+      completed: false
+
+    - id: nylon_polyamide_extrusion
+      name: "Nylon (polyamide) extrusion capability"
+      side_quest: sq-14
+      completed: false
+
+    - id: polyethylene_film_containers
+      name: "Polyethylene film and container production"
+      side_quest: sq-14
+      completed: false
+
+    - id: pvc_pipe_production
+      name: "PVC pipe and tubing production"
+      side_quest: sq-14
+      completed: false
+
+    - id: vacuum_bagging_composites
+      name: "Vacuum bagging composite manufacturing"
+      side_quest: sq-14
+      completed: false
+
+    - id: resin_transfer_molding
+      name: "Resin transfer molding (RTM) capability"
+      side_quest: sq-14
+      completed: false
+
+    - id: first_composite_structural_part
+      name: "First composite layup structural part"
+      side_quest: sq-14
       completed: false
 
     - id: sq13-aircraft
@@ -301,4 +386,19 @@ tier_3_advanced:
     - id: gpu_capability
       name: "GPU-scale VLSI design capability"
       phase: phase-09
+      completed: false
+
+    - id: carbon_fiber_precursor
+      name: "Carbon fiber precursor development (Phase 7+)"
+      side_quest: sq-14
+      completed: false
+
+    - id: aramid_kevlar_precursor
+      name: "Aramid/Kevlar fiber precursor development (Phase 7+)"
+      side_quest: sq-14
+      completed: false
+
+    - id: advanced_composite_manufacturing
+      name: "Advanced composite manufacturing (filament winding, pultrusion)"
+      side_quest: sq-14
       completed: false

@@ -1,0 +1,25 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk"}}}%%
+graph TD
+    Phenol[Phenol — from Coal Tar or Cumene Process]
+    Formaldehyde[Formaldehyde — from Methanol Oxidation]
+    BisphenolA[Bisphenol-A — Phenol + Acetone Condensation]
+    Epichlor[Epichlorohydrin — from Propylene + Chlorine]
+    UnsPoly[Unsaturated Polyester — Glycol + Dibasic Acid]
+    Bakelite[Bakelite — Phenolic Resin]
+    Epoxy[Epoxy Resin]
+    PESter[Polyester Casting Resin]
+    Molded[Molded Parts and Handles]
+    Insulators[Electrical Insulators and Switchgear]
+    Adhesives[Structural Adhesives]
+    PCB[PCB Substrates and Encapsulation]
+    Fiberglass[Fiberglass Matrix]
+    Phenol --> Bakelite
+    Formaldehyde --> Bakelite
+    BisphenolA --> Epoxy
+    Epichlor --> Epoxy
+    UnsPoly --> PESter
+    Bakelite --> Molded
+    Bakelite --> Insulators
+    Epoxy --> Adhesives
+    Epoxy --> PCB
+    PESter --> Fiberglass

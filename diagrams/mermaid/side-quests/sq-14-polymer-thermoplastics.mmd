@@ -1,0 +1,22 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk"}}}%%
+graph TD
+    Ethylene[High-Pressure Ethylene Polymerization]
+    VC[Vinyl Chloride — Ethylene + Chlorine]
+    Caprolactam[Caprolactam — Cyclohexane Oximation]
+    PE[Polyethylene PE — film, containers, insulation]
+    PVC[PVC — pipe, conduit, wire jacketing]
+    Nylon[Nylon-6 — fibers, bearings, gears]
+    Extrusion[Extrusion — profiles, tubing, sheet]
+    Injection[Injection Molding — complex 3D parts]
+    Film[Film Blowing — bags, sheeting]
+    Containers[Containers and Housewares]
+    Ethylene --> PE
+    VC --> PVC
+    Caprolactam --> Nylon
+    PE --> Extrusion
+    PE --> Film
+    PVC --> Extrusion
+    Nylon --> Injection
+    Extrusion --> Containers
+    Injection --> Containers
+    Film --> Containers

@@ -83,6 +83,27 @@
       "used_in": ["sq-12 (benzene, phenol, solvents, polymers)"],
       "criticality": "medium",
       "notes": "Historical source of organic chemicals before petroleum"
+    },
+    {
+      "name": "Natural rubber (latex)",
+      "source": "Rubber tree (Hevea brasiliensis) tapping or guayule shrub",
+      "used_in": ["sq-14 (vulcanized rubber, seals, tires)"],
+      "criticality": "medium",
+      "notes": "Essential for gaskets, seals, and flexible components; guayule is a temperate-climate alternative"
+    },
+    {
+      "name": "Sulfur",
+      "source": "Volcanic deposits / Frasch process / smelter offgas",
+      "used_in": ["sq-14 (rubber vulcanization)", "phase-05 (sulfuric acid)"],
+      "criticality": "high",
+      "notes": "Dual-use: vulcanizing agent for rubber and feedstock for sulfuric acid"
+    },
+    {
+      "name": "Glass fiber raw materials (silica sand, limestone, borax)",
+      "source": "Mining / evaporite deposits",
+      "used_in": ["sq-14 (fiberglass composites)", "phase-06 (glass production)"],
+      "criticality": "medium",
+      "notes": "Borosilicate glass fiber for structural composites; borax may be a bottleneck"
     }
   ],
   "bottleneck_materials": [

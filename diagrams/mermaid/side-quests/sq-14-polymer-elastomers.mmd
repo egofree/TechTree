@@ -1,0 +1,24 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk"}}}%%
+graph TD
+    Latex[Natural Latex — Rubber Tree Tapping]
+    Butadiene[Butadiene — from Petroleum Cracking]
+    Chloroprene[Chloroprene — Chlorinated Butadiene]
+    Siloxane[Siloxane Monomers — from Silica + Methyl Chloride]
+    Vulcanize[Vulcanization — Sulfur Cross-Linking]
+    NR[Natural Rubber — general-purpose]
+    NBR[Nitrile Rubber NBR — oil-resistant]
+    Neoprene[Neoprene — chemical-resistant]
+    Silicone[Silicone Rubber — heat-resistant]
+    Seals[Seals and Gaskets]
+    Tires[Tires and Belting]
+    Insulation[Wire Insulation and Tubing]
+    Latex --> Vulcanize
+    Butadiene --> NBR
+    Chloroprene --> Neoprene
+    Siloxane --> Silicone
+    Vulcanize --> NR
+    NR --> Seals
+    NR --> Tires
+    NBR --> Seals
+    Neoprene --> Insulation
+    Silicone --> Insulation

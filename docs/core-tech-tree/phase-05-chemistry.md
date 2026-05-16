@@ -83,5 +83,6 @@ Start with industrial-grade purity for bulk chemicals. Semiconductor-grade purit
 ## Side Quest Dependencies
 
 - **SQ12**: Petroleum & Alternative Chemistry ([SQ 12](../side-quests/sq-12-petrochemicals.md)) — provides organic solvents, polymer precursors for corrosion-resistant coatings, and alternative feedstocks when petroleum is unavailable
+- **[SQ 13: Aircraft Development](../side-quests/sq-13-aircraft-development.md)** — nitrocellulose dope from Phase 5 chemistry enables aircraft fabric covering; aluminum (later duralumin) enables lightweight airframes
 
 [← Phase 4](phase-04-energy.md) | [Overview](overview.md) | [Phase 6: Vacuum & Optics →](phase-06-vacuum-optics.md)

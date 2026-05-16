@@ -106,5 +106,6 @@ This compounding improvement is the most powerful feedback loop in the entire te
 - **[SQ 2: Measurement & Metrology](../side-quests/sq-02-measurement-metrology.md)** — deeply intertwined; you cannot build what you cannot measure
 - **[SQ 9: Textiles & Cordage](../side-quests/sq-09-textiles-fiber.md)** — drive belts for line shafts powering machine tools
 - **[SQ 10: Lubricants & Oils](../side-quests/sq-10-lubricants-oils.md)** — bearing lubrication and cutting fluids essential for precision work
+- **[SQ 13: Aircraft Development](../side-quests/sq-13-aircraft-development.md)** — precision cylinders, gear cutting (dividing head), and crankshaft machining from Phase 3 directly enable aircraft piston engines
 
 [← Phase 2](phase-02-metallurgy.md) | [Overview](overview.md) | [Phase 4: Energy →](phase-04-energy.md)

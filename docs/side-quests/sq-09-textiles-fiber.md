@@ -36,6 +36,7 @@ Civilization runs on string. Rope hauls stone, cordage binds tools, cloth protec
 - Filter cloth for chemical filtration (Phase 5)
 - Protective clothing for foundry and chemical work
 - Fireproofed textiles for furnace proximity
+- Aircraft fabric covering: Grade A cotton or linen stretched over airframe, treated with nitrocellulose dope (Phase 5 / [SQ 12](sq-12-petrochemicals.md)) for weatherproofing and structural rigidity — see [SQ 13](sq-13-aircraft-development.md)
 
 ## Integration Points
 

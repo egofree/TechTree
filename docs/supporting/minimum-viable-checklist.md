@@ -58,6 +58,7 @@ This combines the core path with the most helpful side quests into tiers. Focus 
 - [ ] Energy storage — lead-acid battery banks (SQ7)
 - [ ] Knowledge/education system scaling (SQ1) — trade schools, libraries
 - [ ] Petroleum distillation or alternative organic chemistry feedstocks available (SQ12)
+- [ ] Aircraft capability — small piston engine, airframe assembly, fabric covering (SQ13)
 
 ## Tier 3: Advanced and Self-Sustaining (Years 30–100+)
 

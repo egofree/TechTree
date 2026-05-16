@@ -51,6 +51,7 @@
 | SQ10: Lubricants, Oils & Fluid Mechanics | Phase 1+, Phase 3-4 machinery | Animal fats, oil seeds, petroleum | Bearing and cutting fluid supply |
 | SQ11: Mining Engineering | Phase 1+, Phase 3 machine tools | Timber, iron, pumps, ventilation | Deep drainage drives steam engine development |
 | SQ12: Petroleum &amp; Alt Chemistry | Phase 2 coke ovens, Phase 5 distillation | Coal tar, petroleum, fermentation substrates | Feedstock availability and dual-path planning |
+| SQ13: Aircraft Development | Phase 2-4, SQ9, SQ10, SQ12 | Steel tube/wood, fabric, precision engine parts | Power-to-weight ratio and precision machining |
 
 ## General Resource Themes
 

@@ -28,6 +28,7 @@ The main sequence is strong on technical dependencies but under-emphasizes:
 | [SQ 10](sq-10-lubricants-oils.md) | Lubricants, Oils &amp; Fluid Mechanics | Phase 1+ | Bearing and cutting fluid supply for all machinery |
 | [SQ 11](sq-11-mining-engineering.md) | Mining Engineering &amp; Extractive Metallurgy | Phase 1+ | Ore access, mine drainage drives steam engine development |
 | [SQ 12](sq-12-petrochemicals.md) | Petroleum &amp; Alternative Chemistry | Phase 2+ | Organic solvents, polymer feedstocks, alternative chemistry path |
+| [SQ 13](sq-13-aircraft-development.md) | Aircraft Development | Phase 2+ | Propulsion, airframe, and aviation from mature machine tools |
 
 ## Priority Order
 
@@ -39,5 +40,6 @@ The main sequence is strong on technical dependencies but under-emphasizes:
 6. **Infrastructure**: [SQ 9](sq-09-textiles-fiber.md) (Textiles) — rope, belting, and protective cloth from day one
 7. **Material gateway**: [SQ 11](sq-11-mining-engineering.md) (Mining Engineering) — the feedback loop from mine drainage to the steam engine is historically foundational
 8. **Accelerating**: [SQ 12](sq-12-petrochemicals.md) (Petroleum/Alt Chemistry) — dual-path organic feedstocks for solvents, polymers, fuels
+9. **Transport enabler**: [SQ 13](sq-13-aircraft-development.md) (Aircraft) — powered flight from Phase 3-4 machine tools and engines
 
 [← Back to Docs](../index.md)

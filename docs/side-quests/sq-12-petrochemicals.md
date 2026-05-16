@@ -38,6 +38,7 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 - From fermentation ethanol: **celluloid**, **ethyl acetate**, **acetic anhydride**
 - From wood chemistry: **cellulose derivatives**, **lignin-based resins**
 - Early polymers are good enough for gaskets, insulation, packaging, coatings
+- Aircraft fuels and dopes: gasoline distillation fraction for piston engines; acetone for nitrocellulose dope production — see [SQ 13](sq-13-aircraft-development.md)
 
 ### The Dual Path Principle
 - **Petroleum available**: everything accelerates. Cheap solvents, fuels, monomers, polymers. Decades saved.
@@ -53,6 +54,7 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 | Phase 5 | Fractional distillation columns; bulk organic solvents and acids |
 | SQ 8 | Feedstocks for advanced polymers, high-temp resins, composites |
 | SQ 6 | Solvents, photoresist precursors, packaging polymers |
+| SQ 13 | Gasoline fuel, acetone for dope, solvents for aircraft finishes |
 | Phase 7-8 | Ultra-pure solvents for wafer cleaning and processing |
 
 ## Key Deliverables

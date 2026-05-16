@@ -1,0 +1,204 @@
+# Minimum Viable Civilization Checklist
+# Tier-based progression from stone age to semiconductors
+
+tier_0_survival:
+  timeline: "Years 0-5"
+  items:
+    - id: fire_making
+      name: "Fire-making (friction, later flint-and-steel)"
+      phase: phase-01
+      completed: false
+
+    - id: charcoal_production
+      name: "Charcoal production (controlled pyrolysis)"
+      phase: phase-01
+      completed: false
+
+    - id: stone_wood_tools
+      name: "Basic stone and wood tools"
+      phase: phase-01
+      completed: false
+
+    - id: agriculture_surplus
+      name: "Agriculture surplus established"
+      phase: phase-01
+      completed: false
+
+    - id: animal_domestication
+      name: "Animal domestication for labor"
+      phase: phase-01
+      completed: false
+
+    - id: mining_prospecting
+      name: "Basic mining and prospecting"
+      phase: phase-01
+      completed: false
+
+    - id: pottery_kilns
+      name: "Pottery and kilns"
+      phase: phase-01
+      completed: false
+
+    - id: writing_system
+      name: "Writing system developed"
+      side_quest: sq-01
+      completed: false
+
+    - id: basic_measurements
+      name: "Standardized basic measurements"
+      side_quest: sq-02
+      completed: false
+
+    - id: sanitation_health
+      name: "Sanitation and basic health practices"
+      side_quest: sq-05
+      completed: false
+
+tier_1_industrial:
+  timeline: "Years 5-20"
+  items:
+    - id: copper_bronze
+      name: "Copper smelting and bronze alloying"
+      phase: phase-02
+      completed: false
+
+    - id: iron_steel
+      name: "Iron smelting to wrought iron to steel"
+      phase: phase-02
+      completed: false
+
+    - id: metalworking_tools
+      name: "Basic metalworking tools"
+      phase: phase-02
+      completed: false
+
+    - id: foundry_operational
+      name: "Charcoal foundry operational"
+      phase: phase-03
+      completed: false
+
+    - id: first_lathe
+      name: "First crude lathe built"
+      phase: phase-03
+      completed: false
+
+    - id: steam_power
+      name: "Steam power developed"
+      phase: phase-04
+      completed: false
+
+    - id: electricity_generation
+      name: "First generators operational"
+      phase: phase-04
+      completed: false
+
+    - id: sulfuric_acid
+      name: "Sulfuric acid production"
+      phase: phase-05
+      completed: false
+
+    - id: printing_press
+      name: "Printing press operational"
+      side_quest: sq-03
+      completed: false
+
+    - id: mechanical_aids
+      name: "Mechanical computing aids (slide rules)"
+      side_quest: sq-04
+      completed: false
+
+tier_2_semiconductor:
+  timeline: "Years 15-40"
+  items:
+    - id: full_machine_shop
+      name: "Full machine shop operational"
+      phase: phase-03
+      completed: false
+
+    - id: reliable_electricity
+      name: "Reliable electricity generation and distribution"
+      phase: phase-04
+      completed: false
+
+    - id: bulk_chemicals
+      name: "Bulk chemical production (acids, alkalis)"
+      phase: phase-05
+      completed: false
+
+    - id: vacuum_systems
+      name: "Vacuum pumps and chambers operational"
+      phase: phase-06
+      completed: false
+
+    - id: mg_silicon
+      name: "Metallurgical-grade silicon produced"
+      phase: phase-07
+      completed: false
+
+    - id: crystal_growth
+      name: "Czochralski crystal growth producing ingots"
+      phase: phase-07
+      completed: false
+
+    - id: first_solar_cells
+      name: "First solar cells fabricated and generating power"
+      phase: phase-07
+      completed: false
+
+    - id: basic_cleanroom
+      name: "Basic cleanroom or glovebox capability"
+      phase: phase-08
+      completed: false
+
+    - id: specialty_gases
+      name: "Specialty gases supply chain"
+      side_quest: sq-06
+      completed: false
+
+    - id: energy_storage
+      name: "Lead-acid battery banks"
+      side_quest: sq-07
+      completed: false
+
+tier_3_advanced:
+  timeline: "Years 30-100+"
+  items:
+    - id: photolithography
+      name: "Photolithography capability"
+      phase: phase-08
+      completed: false
+
+    - id: first_ics
+      name: "First integrated circuits (SSI/MSI)"
+      phase: phase-08
+      completed: false
+
+    - id: wafer_packaging
+      name: "Wafer packaging and testing"
+      phase: phase-08
+      completed: false
+
+    - id: early_computers
+      name: "Early computers from own ICs"
+      phase: phase-08
+      completed: false
+
+    - id: vlsi_scaling
+      name: "VLSI scaling in progress"
+      phase: phase-09
+      completed: false
+
+    - id: high_end_solar
+      name: "High-end solar cells in production"
+      phase: phase-09
+      completed: false
+
+    - id: nuclear_research
+      name: "Nuclear power research underway"
+      side_quest: sq-07
+      completed: false
+
+    - id: gpu_capability
+      name: "GPU-scale VLSI design capability"
+      phase: phase-09
+      completed: false

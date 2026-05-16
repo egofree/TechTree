@@ -1,0 +1,103 @@
+{
+  "raw_materials": [
+    {
+      "name": "Quartz (SiO2)",
+      "source": "Mining (surface deposits, quartz veins)",
+      "used_in": ["phase-06 (glass)", "phase-07 (silicon production)"],
+      "criticality": "critical",
+      "notes": "High-purity quartz needed for crucibles and electronics"
+    },
+    {
+      "name": "Iron ore (hematite, magnetite)",
+      "source": "Mining (surface and subsurface deposits)",
+      "used_in": ["phase-02 (iron/steel)", "all phases (tools, equipment)"],
+      "criticality": "critical",
+      "notes": "Most-used metal throughout the entire sequence"
+    },
+    {
+      "name": "Copper ore (malachite, chalcopyrite)",
+      "source": "Mining",
+      "used_in": ["phase-02 (copper)", "phase-04 (wire, generators)"],
+      "criticality": "critical",
+      "notes": "Electrical applications make copper indispensable"
+    },
+    {
+      "name": "Carbon (charcoal/coke)",
+      "source": "Wood pyrolysis / coal distillation",
+      "used_in": ["phase-02 to phase-07 (reducing agent, fuel, electrodes)"],
+      "criticality": "critical",
+      "notes": "Essential reducing agent for metallurgy and silicon production"
+    },
+    {
+      "name": "Coal",
+      "source": "Mining (sedimentary deposits)",
+      "used_in": ["phase-04 (coke, steam)", "phase-07 (electrodes)"],
+      "criticality": "high",
+      "notes": "Superior to charcoal for high-temperature processes"
+    },
+    {
+      "name": "Limestone (CaCO3)",
+      "source": "Mining (sedimentary deposits)",
+      "used_in": ["phase-02 (flux)", "phase-05 (Solvay process)"],
+      "criticality": "high",
+      "notes": "Flux for smelting, key input for alkali production"
+    },
+    {
+      "name": "Sulfur / Pyrite (FeS2)",
+      "source": "Mining (volcanic deposits, sulfide ores)",
+      "used_in": ["phase-05 (sulfuric acid)"],
+      "criticality": "critical",
+      "notes": "Sulfuric acid is the foundation of chemical industry"
+    },
+    {
+      "name": "Fluorite (CaF2)",
+      "source": "Mining (hydrothermal veins)",
+      "used_in": ["phase-05 (HF production)"],
+      "criticality": "critical",
+      "notes": "Source of HF for silicon etching; may be geographically limited"
+    },
+    {
+      "name": "Tin ore (cassiterite, SnO2)",
+      "source": "Mining (alluvial and vein deposits)",
+      "used_in": ["phase-02 (bronze)"],
+      "criticality": "medium",
+      "notes": "Only needed for bronze; can skip to iron if unavailable"
+    },
+    {
+      "name": "Clay",
+      "source": "Surface deposits",
+      "used_in": ["phase-01 (pottery)", "phase-02 (crucibles, molds)", "phase-05 (vessels)"],
+      "criticality": "high",
+      "notes": "Containers, molds, refractories throughout"
+    },
+    {
+      "name": "Aluminum ore (bauxite)",
+      "source": "Mining (lateritic deposits)",
+      "used_in": ["phase-05 (aluminum via Hall-Heroult)", "phase-08 (metallization)"],
+      "criticality": "medium",
+      "notes": "Not needed until electrolysis scale-up; useful for lightweight applications"
+    }
+  ],
+  "bottleneck_materials": [
+    {
+      "material": "High-purity quartz",
+      "reason": "Required for fused silica crucibles; natural deposits of sufficient purity are rare",
+      "mitigation": "Zone refining or chemical purification of available quartz"
+    },
+    {
+      "material": "Fluorite",
+      "reason": "Source of HF for silicon etching; may not be locally available",
+      "mitigation": "Alternative etching chemistries (KOH, TMAH) for some steps; fluorite trade if possible"
+    },
+    {
+      "material": "Copper (large quantities)",
+      "reason": "Wire production for generators, motors, and distribution requires tons of copper",
+      "mitigation": "Aluminum wire as substitute where acceptable; aggressive recycling"
+    },
+    {
+      "material": "Catalyst materials (V2O5, Pt, etc.)",
+      "reason": "Required for contact process and other catalytic reactions",
+      "mitigation": "Lead chamber process as fallback; alternative catalysts research"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# Rendered diagrams (optional - commit or ignore as preferred)
+diagrams/rendered/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Python / future tooling
+__pycache__/
+*.py[cod]
+.env
+node_modules/

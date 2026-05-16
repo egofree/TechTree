@@ -1,0 +1,14 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk"}}}%%
+graph TD
+    subgraph Phase8 ["Phase 8: IC Fabrication + Side Quests"]
+        Cleanroom[Cleanrooms]
+        Litho[Lithography]
+        CoreProc[Core Processes]
+        SQ6[SQ6: Specialty Gases + Packaging + Testing + Advanced Metrology]
+        SQ1[SQ1: Knowledge and Documentation]
+        SQ4[SQ4: Computing for Design and Control]
+        
+        Cleanroom --> Litho --> CoreProc
+        CoreProc --> SQ6
+        SQ1 & SQ4 -.-> CoreProc
+    end

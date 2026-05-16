@@ -15,6 +15,7 @@ This combines the core path with the most helpful side quests into tiers. Focus 
 - [ ] Standardized basic measurements (SQ2)
 - [ ] Sanitation and basic health practices (SQ5)
 - [ ] Basic shelters and organization
+- [ ] Basic cordage and rope from natural fibers (SQ9)
 
 ## Tier 1: Industrial Base (Years 5–20)
 
@@ -34,6 +35,9 @@ This combines the core path with the most helpful side quests into tiers. Focus 
 - [ ] Advanced ceramics and refractories (SQ8)
 - [ ] Printing press operational (SQ3)
 - [ ] Roads and basic transport infrastructure
+- [ ] Lubrication with animal fats and vegetable oils established (SQ10)
+- [ ] Underground mining techniques developed — ventilation, drainage (SQ11)
+- [ ] Basic textile production — spinning, weaving, canvas (SQ9)
 
 ## Tier 2: Semiconductor Capability (Years 15–40)
 
@@ -53,6 +57,7 @@ This combines the core path with the most helpful side quests into tiers. Focus 
 - [ ] Basic cleanroom or glovebox capability
 - [ ] Energy storage — lead-acid battery banks (SQ7)
 - [ ] Knowledge/education system scaling (SQ1) — trade schools, libraries
+- [ ] Petroleum distillation or alternative organic chemistry feedstocks available (SQ12)
 
 ## Tier 3: Advanced and Self-Sustaining (Years 30–100+)
 

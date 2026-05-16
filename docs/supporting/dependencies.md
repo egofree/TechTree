@@ -47,6 +47,8 @@
 | SQ6: Specialty Gases + Packaging | Phase 5, Phase 7-8 | Gas plants, cleanrooms, chemicals | High purity and capital |
 | SQ7: Energy Storage | Phase 4 electricity | Lead, acids, mechanical components | Material availability |
 | SQ8: Advanced Materials | Phase 2 kilns, Phase 5 chemistry | High-purity clays/silica, organics | High-temperature processing |
+| SQ9: Textiles, Fiber & Cordage | Phase 1+, Phase 2 water power | Flax, hemp, wool, cotton | Belt and rope supply for power transmission |
+| SQ10: Lubricants, Oils & Fluid Mechanics | Phase 1+, Phase 3-4 machinery | Animal fats, oil seeds, petroleum | Bearing and cutting fluid supply |
 | SQ11: Mining Engineering | Phase 1+, Phase 3 machine tools | Timber, iron, pumps, ventilation | Deep drainage drives steam engine development |
 | SQ12: Petroleum &amp; Alt Chemistry | Phase 2 coke ovens, Phase 5 distillation | Coal tar, petroleum, fermentation substrates | Feedstock availability and dual-path planning |
 

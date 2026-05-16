@@ -1,0 +1,16 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk"}}}%%
+graph TD
+    subgraph Phase5 ["Phase 5: Chemical Industry + Side Quests"]
+        Acid[Sulfuric Acid]
+        OtherAcid[Other Mineral Acids]
+        Alkali[Alkali Production]
+        ElectroScale[Electrolysis Scale-Up]
+        Infra[Infrastructure]
+        Cement[Cement & Concrete]
+        SQ12[SQ12: Petroleum & Alt Chemistry]
+        
+        Acid --> OtherAcid & Alkali
+        ElectroScale --> Infra
+        Infra --> Cement
+        SQ12 -.-> OtherAcid & Alkali
+    end

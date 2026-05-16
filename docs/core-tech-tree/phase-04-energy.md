@@ -41,6 +41,14 @@
 - **Submerged arc furnace**: Used for silicon production from quartz + carbon
 - **Resistance heating**: For furnaces, ovens, crystal growth heaters
 
+### Internal Combustion Engines
+- **Otto-cycle piston engines**: Precision cylinder boring from Phase 3 + spark ignition + carburetion
+- **Power-to-weight advantage**: ICE achieves far higher power density than steam — enabling mobile and airborne applications
+- **Fuel**: Gasoline from petroleum distillation (see [SQ 12](../side-quests/sq-12-petrochemicals.md)) or ethanol from fermentation
+- **Lubrication**: Castor oil or mineral oil (see [SQ 10](../side-quests/sq-10-lubricants-oils.md))
+- **Ignition**: Magneto (self-contained, no battery required) or early coil-and-points systems
+- **This is the key enabling technology for aircraft propulsion** (see [SQ 13](../side-quests/sq-13-aircraft-development.md))
+
 ### Electrolysis Foundations
 - Electrolytic cells for: chlorine, caustic soda, hydrogen, oxygen
 - Later: aluminum (Hall-Héroult process), magnesium, sodium
@@ -92,5 +100,6 @@ Electricity → powers arc furnaces → better steel → better machines
 ## Side Quest Dependencies
 
 - **Lubricants & Oils ([SQ 10](../side-quests/sq-10-lubricants-oils.md))** — critical for wire drawing (soap/tallow lubrication) and cylinder lubrication in steam engines
+- **[SQ 13: Aircraft Development](../side-quests/sq-13-aircraft-development.md)** — ICE provides propulsion; aircraft is the most demanding mobile power application
 
 [← Phase 3](phase-03-machine-tools.md) | [Overview](overview.md) | [Phase 5: Chemistry →](phase-05-chemistry.md)

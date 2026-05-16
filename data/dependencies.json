@@ -151,6 +151,12 @@
       "name": "Petroleum & Alternative Chemistry",
       "starts": "phase-02",
       "priority": "medium"
+    },
+    {
+      "id": "sq-13",
+      "name": "Aircraft Development",
+      "starts": "phase-02",
+      "priority": "medium"
     }
   ]
 }

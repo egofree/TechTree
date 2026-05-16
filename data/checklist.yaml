@@ -157,6 +157,21 @@ tier_1_industrial:
       side_quest: sq-11
       completed: false
 
+    - id: sq13-airframe
+      name: "Airframe construction capability (steel tube welding or wood spar)"
+      side_quest: sq-13
+      completed: false
+
+    - id: sq13-engine
+      name: "Small piston engine operational (20+ HP)"
+      side_quest: sq-13
+      completed: false
+
+    - id: sq13-propeller
+      name: "Carved and balanced wooden propeller"
+      side_quest: sq-13
+      completed: false
+
 tier_2_semiconductor:
   timeline: "Years 15-40"
   items:
@@ -233,6 +248,16 @@ tier_2_semiconductor:
     - id: early_polymers
       name: "Early synthetic polymers (Bakelite, celluloid)"
       side_quest: sq-12
+      completed: false
+
+    - id: sq13-aircraft
+      name: "Flyable ultralight aircraft test flight completed"
+      side_quest: sq-13
+      completed: false
+
+    - id: sq13-aviation-fuel
+      name: "Aviation fuel supply chain (gasoline distillation or ethanol)"
+      side_quest: sq-13
       completed: false
 
 tier_3_advanced:

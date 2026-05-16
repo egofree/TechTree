@@ -51,7 +51,7 @@ done
 # Check side quest docs
 echo
 echo "--- Checking side quest docs ---"
-for i in 01-knowledge-preservation 02-measurement-metrology 03-transport-logistics 04-mechanical-computing 05-public-health 06-gases-packaging-testing 07-energy-storage 08-advanced-materials 09-textiles-fiber 10-lubricants-oils 11-mining-engineering 12-petrochemicals; do
+for i in 01-knowledge-preservation 02-measurement-metrology 03-transport-logistics 04-mechanical-computing 05-public-health 06-gases-packaging-testing 07-energy-storage 08-advanced-materials 09-textiles-fiber 10-lubricants-oils 11-mining-engineering 12-petrochemicals 13-aircraft-development; do
     f="docs/side-quests/sq-${i}.md"
     if [ -f "$PROJECT_DIR/$f" ]; then
         echo "  OK: $f"

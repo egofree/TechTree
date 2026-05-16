@@ -18,7 +18,7 @@ Every machine with moving parts generates friction and heat. Without lubrication
 - Castor oil: high-viscosity lubricant for high-speed bearings and early engines
 
 ### Mineral Oils
-- Petroleum-derived lubricants (see [SQ 12](sq-12-petroleum-chemicals.md)): paraffinic and naphthenic base oils
+- Petroleum-derived lubricants (see [SQ 12](sq-12-petrochemicals.md)): paraffinic and naphthenic base oils
 - Distillation cuts tailored to viscosity grade (spindle oil, machine oil, gear oil)
 
 ### Lubrication Regimes & Cutting Fluids

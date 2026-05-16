@@ -24,17 +24,20 @@ The main sequence is strong on technical dependencies but under-emphasizes:
 | [SQ 6](sq-06-gases-packaging-testing.md) | Specialty Gases, Consumables &amp; Packaging | Phase 5–8 | Essential for semiconductor fabrication |
 | [SQ 7](sq-07-energy-storage.md) | Energy Storage &amp; Diversification | Phase 4+ | Smooths power supply, enables redundancy |
 | [SQ 8](sq-08-advanced-materials.md) | Advanced Materials | Phase 2+ | Better furnaces, insulation, seals, cleanrooms |
+| [SQ 9](sq-09-textiles-fiber.md) | Textiles, Fiber &amp; Cordage | Phase 1+ | Rope, belting, canvas, protective clothing from day one |
+| [SQ 10](sq-10-lubricants-oils.md) | Lubricants, Oils &amp; Fluid Mechanics | Phase 1+ | Bearing and cutting fluid supply for all machinery |
 | [SQ 11](sq-11-mining-engineering.md) | Mining Engineering &amp; Extractive Metallurgy | Phase 1+ | Ore access, mine drainage drives steam engine development |
+| [SQ 12](sq-12-petrochemicals.md) | Petroleum &amp; Alternative Chemistry | Phase 2+ | Organic solvents, polymer feedstocks, alternative chemistry path |
 
 ## Priority Order
 
-1. **Highest leverage**: SQ 1 (Knowledge) + SQ 2 (Measurement) + SQ 10 (Lubricants) — start immediately
-2. **Enabling**: SQ 3 (Transport) + SQ 5 (Health) — ongoing from early phases
-3. **Accelerating**: SQ 4 (Computing) + SQ 8 (Materials) — ramp with machine tools
-4. **Semiconductor-critical**: SQ 6 (Gases/Packaging) — required for Phase 7–8
-5. **Sustaining**: SQ 7 (Energy Storage) — grows in importance over time
-6. **Material gateway**: SQ 11 (Mining Engineering) — the feedback loop from mine drainage to the steam engine is historically foundational
-6. **Accelerating**: SQ 12 (Petroleum/Alt Chemistry) — dual-path organic feedstocks for solvents, polymers, fuels
-6. **Infrastructure**: SQ 9 (Textiles) — rope, belting, and protective cloth from day one
+1. **Highest leverage**: [SQ 1](sq-01-knowledge-preservation.md) (Knowledge) + [SQ 2](sq-02-measurement-metrology.md) (Measurement) + [SQ 10](sq-10-lubricants-oils.md) (Lubricants) — start immediately
+2. **Enabling**: [SQ 3](sq-03-transport-logistics.md) (Transport) + [SQ 5](sq-05-public-health.md) (Health) — ongoing from early phases
+3. **Accelerating**: [SQ 4](sq-04-mechanical-computing.md) (Computing) + [SQ 8](sq-08-advanced-materials.md) (Materials) — ramp with machine tools
+4. **Semiconductor-critical**: [SQ 6](sq-06-gases-packaging-testing.md) (Gases/Packaging) — required for Phase 7–8
+5. **Sustaining**: [SQ 7](sq-07-energy-storage.md) (Energy Storage) — grows in importance over time
+6. **Infrastructure**: [SQ 9](sq-09-textiles-fiber.md) (Textiles) — rope, belting, and protective cloth from day one
+7. **Material gateway**: [SQ 11](sq-11-mining-engineering.md) (Mining Engineering) — the feedback loop from mine drainage to the steam engine is historically foundational
+8. **Accelerating**: [SQ 12](sq-12-petrochemicals.md) (Petroleum/Alt Chemistry) — dual-path organic feedstocks for solvents, polymers, fuels
 
 [← Back to Docs](../index.md)

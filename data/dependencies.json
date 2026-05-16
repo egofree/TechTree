@@ -157,6 +157,12 @@
       "name": "Aircraft Development",
       "starts": "phase-02",
       "priority": "medium"
+    },
+    {
+      "id": "sq-14",
+      "name": "Polymers & Composites",
+      "starts": "phase-05",
+      "priority": "high"
     }
   ]
 }

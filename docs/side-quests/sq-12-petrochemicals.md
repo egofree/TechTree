@@ -34,10 +34,7 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 - Works anywhere trees grow; no mining required
 
 ### Synthetic Polymers
-- From petroleum aromatics or coal tar: **phenol-formaldehyde** (Bakelite), **nylon precursors**
-- From fermentation ethanol: **celluloid**, **ethyl acetate**, **acetic anhydride**
-- From wood chemistry: **cellulose derivatives**, **lignin-based resins**
-- Early polymers are good enough for gaskets, insulation, packaging, coatings
+SQ 12 produces the chemical feedstocks (phenol, formaldehyde, ethanol, acetone, cellulose, lignin) that serve as monomer and resin precursors. Polymerization processes, material properties, and end-use applications are covered in [**SQ 14: Polymers & Composites**](sq-14-polymers-composites.md).
 - Aircraft fuels and dopes: gasoline distillation fraction for piston engines; acetone for nitrocellulose dope production — see [SQ 13](sq-13-aircraft-development.md)
 
 ### The Dual Path Principle
@@ -55,6 +52,7 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 | SQ 8 | Feedstocks for advanced polymers, high-temp resins, composites |
 | SQ 6 | Solvents, photoresist precursors, packaging polymers |
 | SQ 13 | Gasoline fuel, acetone for dope, solvents for aircraft finishes |
+| SQ 14 | Polymerization of feedstocks into engineering materials |
 | Phase 7-8 | Ultra-pure solvents for wafer cleaning and processing |
 
 ## Key Deliverables

@@ -1,0 +1,14 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk"}}}%%
+graph TD
+    Petroleum[Petroleum Extraction and Refining — Seeps to Drilling to Distillation]
+    CoalTar[Coal Tar Chemistry — Coke Ovens to BTX to Phenol to Creosote]
+    Fermentation[Fermentation Chemistry — Ethanol to Acetone-Butanol to Acetic Acid]
+    WoodGas[Wood Gasification — Producer Gas, Charcoal Gas, Wood Tar]
+    Polymers[Synthetic Polymers — Bakelite, Celluloid, Cellulose Derivatives]
+    Feedstocks[Core Organic Feedstocks — Benzene, Phenol, Ethanol, Acetone, Methanol]
+    
+    Petroleum --> Feedstocks
+    CoalTar --> Feedstocks
+    Fermentation --> Feedstocks
+    WoodGas --> Feedstocks
+    Feedstocks --> Polymers

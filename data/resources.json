@@ -29,53 +29,60 @@
       "notes": "Essential reducing agent for metallurgy and silicon production"
     },
     {
-      "name": "Coal",
-      "source": "Mining (sedimentary deposits)",
-      "used_in": ["phase-04 (coke, steam)", "phase-07 (electrodes)"],
-      "criticality": "high",
-      "notes": "Superior to charcoal for high-temperature processes"
-    },
-    {
-      "name": "Limestone (CaCO3)",
-      "source": "Mining (sedimentary deposits)",
-      "used_in": ["phase-02 (flux)", "phase-05 (Solvay process)"],
-      "criticality": "high",
-      "notes": "Flux for smelting, key input for alkali production"
-    },
-    {
-      "name": "Sulfur / Pyrite (FeS2)",
-      "source": "Mining (volcanic deposits, sulfide ores)",
-      "used_in": ["phase-05 (sulfuric acid)"],
-      "criticality": "critical",
-      "notes": "Sulfuric acid is the foundation of chemical industry"
-    },
-    {
-      "name": "Fluorite (CaF2)",
-      "source": "Mining (hydrothermal veins)",
-      "used_in": ["phase-05 (HF production)"],
-      "criticality": "critical",
-      "notes": "Source of HF for silicon etching; may be geographically limited"
-    },
-    {
-      "name": "Tin ore (cassiterite, SnO2)",
-      "source": "Mining (alluvial and vein deposits)",
-      "used_in": ["phase-02 (bronze)"],
+      "name": "Wool",
+      "source": "Animal husbandry (sheep, goats)",
+      "used_in": ["sq-09 (warm clothing, blankets, felt)"],
       "criticality": "medium",
-      "notes": "Only needed for bronze; can skip to iron if unavailable"
+      "notes": "Warmth and insulation; fire-resistant when treated"
     },
     {
-      "name": "Clay",
-      "source": "Surface deposits",
-      "used_in": ["phase-01 (pottery)", "phase-02 (crucibles, molds)", "phase-05 (vessels)"],
+      "name": "Timber (mine shoring)",
+      "source": "Forestry (hardwood preferred)",
+      "used_in": ["sq-11 (shaft supports, cribbing, lagging)"],
       "criticality": "high",
-      "notes": "Containers, molds, refractories throughout"
+      "notes": "Structural support for underground mines; straight-grained hardwoods preferred"
     },
     {
-      "name": "Aluminum ore (bauxite)",
-      "source": "Mining (lateritic deposits)",
-      "used_in": ["phase-05 (aluminum via Hall-Heroult)", "phase-08 (metallization)"],
+      "name": "Flax",
+      "source": "Agriculture (annual crop)",
+      "used_in": ["sq-09 (linen fiber, rope, canvas)"],
+      "criticality": "high",
+      "notes": "Primary fiber crop for temperate climates; retting yields long fibers"
+    },
+    {
+      "name": "Hemp",
+      "source": "Agriculture (annual crop)",
+      "used_in": ["sq-09 (rope, canvas, coarse cloth)"],
+      "criticality": "high",
+      "notes": "Extremely versatile fiber; also provides seed oil"
+    },
+    {
+      "name": "Oil seeds (rapeseed, castor, linseed)",
+      "source": "Agriculture",
+      "used_in": ["sq-10 (vegetable lubricants, cutting fluids)"],
       "criticality": "medium",
-      "notes": "Not needed until electrolysis scale-up; useful for lightweight applications"
+      "notes": "Source of vegetable oils for lubrication and coatings"
+    },
+    {
+      "name": "Animal fats (tallow, lard)",
+      "source": "Animal husbandry / butchering",
+      "used_in": ["sq-10 (grease, bearing lubrication, cutting fluid)"],
+      "criticality": "high",
+      "notes": "First lubricant source; tallow for heavy bearings, lard for light mechanisms"
+    },
+    {
+      "name": "Petroleum (crude oil)",
+      "source": "Surface seeps / drilling",
+      "used_in": ["sq-12 (fuels, solvents, lubricants, polymers)", "sq-10 (mineral oils)"],
+      "criticality": "medium",
+      "notes": "Massive accelerator if available; not required if absent"
+    },
+    {
+      "name": "Coal tar",
+      "source": "Coke oven byproduct",
+      "used_in": ["sq-12 (benzene, phenol, solvents, polymers)"],
+      "criticality": "medium",
+      "notes": "Historical source of organic chemicals before petroleum"
     }
   ],
   "bottleneck_materials": [

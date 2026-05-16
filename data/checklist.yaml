@@ -54,6 +54,26 @@ tier_0_survival:
       side_quest: sq-05
       completed: false
 
+    - id: fiber_crops_cultivation
+      name: "Fiber crop cultivation (flax, hemp)"
+      side_quest: sq-09
+      completed: false
+
+    - id: drop_spindle_rope
+      name: "Drop spindle spinning and hand-laid rope"
+      side_quest: sq-09
+      completed: false
+
+    - id: surface_mining_prospecting
+      name: "Surface mining, prospecting, and ore identification"
+      side_quest: sq-11
+      completed: false
+
+    - id: timber_shoring_mining
+      name: "Timber shoring and basic shaft mining"
+      side_quest: sq-11
+      completed: false
+
 tier_1_industrial:
   timeline: "Years 5-20"
   items:
@@ -107,6 +127,36 @@ tier_1_industrial:
       side_quest: sq-04
       completed: false
 
+    - id: animal_fat_lubricants
+      name: "Animal fat lubricant supply (tallow, lard)"
+      side_quest: sq-10
+      completed: false
+
+    - id: cutting_fluids
+      name: "Cutting fluid production for machining"
+      side_quest: sq-10
+      completed: false
+
+    - id: grease_production
+      name: "Grease production (soap-thickened)"
+      side_quest: sq-10
+      completed: false
+
+    - id: hydraulic_fluid
+      name: "Hydraulic fluid for presses and machine tools"
+      side_quest: sq-10
+      completed: false
+
+    - id: mine_pumping_hoisting
+      name: "Mine pumping (chain pumps) and hoisting (whim)"
+      side_quest: sq-11
+      completed: false
+
+    - id: ore_dressing_crushing
+      name: "Ore dressing: crushing, washing, gravity separation"
+      side_quest: sq-11
+      completed: false
+
 tier_2_semiconductor:
   timeline: "Years 15-40"
   items:
@@ -158,6 +208,31 @@ tier_2_semiconductor:
     - id: energy_storage
       name: "Lead-acid battery banks"
       side_quest: sq-07
+      completed: false
+
+    - id: coal_tar_collection
+      name: "Coke oven operation with coal tar collection"
+      side_quest: sq-12
+      completed: false
+
+    - id: fractional_distillation
+      name: "Fractional distillation (crude oil or coal tar)"
+      side_quest: sq-12
+      completed: false
+
+    - id: fermentation_solvents
+      name: "Fermentation-derived solvents (ethanol, acetone, acetic acid)"
+      side_quest: sq-12
+      completed: false
+
+    - id: producer_gas
+      name: "Producer gas or wood gas for engines and heating"
+      side_quest: sq-12
+      completed: false
+
+    - id: early_polymers
+      name: "Early synthetic polymers (Bakelite, celluloid)"
+      side_quest: sq-12
       completed: false
 
 tier_3_advanced:

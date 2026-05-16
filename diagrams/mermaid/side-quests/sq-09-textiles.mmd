@@ -1,0 +1,16 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk"}}}%%
+graph LR
+    Fiber[Fiber Crops — Flax, Hemp, Wool, Cotton]
+    Retting[Retting and Scutching]
+    Spinning[Spinning — Drop Spindle to Wheel]
+    Rope[Rope-Making — Hand-Laid to Rope Walk]
+    Weaving[Weaving — Frame Loom to Treadle Loom]
+    Industrial[Industrial Output — Belts, Canvas, Filters]
+    Cleanroom[Cleanroom Garments and Protective Clothing]
+    
+    Fiber --> Retting --> Spinning
+    Spinning --> Rope
+    Spinning --> Weaving
+    Rope --> Industrial
+    Weaving --> Industrial
+    Industrial --> Cleanroom

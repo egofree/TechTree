@@ -56,7 +56,7 @@ ICs + Iteration + Compute → VLSI/GPUs + Advanced Solar
 
 ## Side Quests
 
-The core tech tree is necessary but not sufficient. Eight parallel "side quest" tracks provide the supporting infrastructure that prevents the effort from collapsing:
+The core tech tree is necessary but not sufficient. Nine parallel "side quest" tracks provide the supporting infrastructure that prevents the effort from collapsing:
 
 1. [Knowledge Preservation &amp; Education](side-quests/sq-01-knowledge-preservation.md)
 2. [Measurement, Timekeeping &amp; Metrology](side-quests/sq-02-measurement-metrology.md)
@@ -66,6 +66,7 @@ The core tech tree is necessary but not sufficient. Eight parallel "side quest" 
 6. [Specialty Gases, Consumables &amp; Packaging](side-quests/sq-06-gases-packaging-testing.md)
 7. [Energy Storage &amp; Diversification](side-quests/sq-07-energy-storage.md)
 8. [Advanced Materials](side-quests/sq-08-advanced-materials.md)
+9. [Mining Engineering &amp; Extractive Metallurgy](side-quests/sq-11-mining-engineering.md)
 
 ## Navigation
 

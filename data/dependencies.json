@@ -127,6 +127,30 @@
       "name": "Advanced Materials",
       "starts": "phase-02",
       "priority": "medium"
+    },
+    {
+      "id": "sq-09",
+      "name": "Textiles, Fiber & Cordage",
+      "starts": "phase-01",
+      "priority": "critical"
+    },
+    {
+      "id": "sq-10",
+      "name": "Lubricants, Oils and Fluid Mechanics",
+      "starts": "phase-01",
+      "priority": "critical"
+    },
+    {
+      "id": "sq-11",
+      "name": "Mining Engineering & Extractive Metallurgy",
+      "starts": "phase-01",
+      "priority": "high"
+    },
+    {
+      "id": "sq-12",
+      "name": "Petroleum & Alternative Chemistry",
+      "starts": "phase-02",
+      "priority": "medium"
     }
   ]
 }

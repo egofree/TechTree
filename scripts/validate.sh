@@ -51,7 +51,7 @@ done
 # Check side quest docs
 echo
 echo "--- Checking side quest docs ---"
-for i in 01-knowledge-preservation 02-measurement-metrology 03-transport-logistics 04-mechanical-computing 05-public-health 06-gases-packaging-testing 07-energy-storage 08-advanced-materials; do
+for i in 01-knowledge-preservation 02-measurement-metrology 03-transport-logistics 04-mechanical-computing 05-public-health 06-gases-packaging-testing 07-energy-storage 08-advanced-materials 09-textiles-fiber 10-lubricants-oils 11-mining-engineering 12-petrochemicals; do
     f="docs/side-quests/sq-${i}.md"
     if [ -f "$PROJECT_DIR/$f" ]; then
         echo "  OK: $f"
@@ -96,8 +96,8 @@ echo
 echo "--- Checking Mermaid diagrams ---"
 mmd_count=$(find "$PROJECT_DIR/diagrams/mermaid" -name "*.mmd" -type f | wc -l)
 echo "  Found $mmd_count .mmd files"
-if [ "$mmd_count" -lt 5 ]; then
-    echo "  WARNING: Expected at least 10 diagram files, found $mmd_count"
+if [ "$mmd_count" -lt 20 ]; then
+    echo "  WARNING: Expected at least 20 diagram files, found $mmd_count"
 fi
 
 # Check scripts

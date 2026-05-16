@@ -24,13 +24,17 @@ The main sequence is strong on technical dependencies but under-emphasizes:
 | [SQ 6](sq-06-gases-packaging-testing.md) | Specialty Gases, Consumables &amp; Packaging | Phase 5–8 | Essential for semiconductor fabrication |
 | [SQ 7](sq-07-energy-storage.md) | Energy Storage &amp; Diversification | Phase 4+ | Smooths power supply, enables redundancy |
 | [SQ 8](sq-08-advanced-materials.md) | Advanced Materials | Phase 2+ | Better furnaces, insulation, seals, cleanrooms |
+| [SQ 11](sq-11-mining-engineering.md) | Mining Engineering &amp; Extractive Metallurgy | Phase 1+ | Ore access, mine drainage drives steam engine development |
 
 ## Priority Order
 
-1. **Highest leverage**: SQ 1 (Knowledge) + SQ 2 (Measurement) — start immediately
+1. **Highest leverage**: SQ 1 (Knowledge) + SQ 2 (Measurement) + SQ 10 (Lubricants) — start immediately
 2. **Enabling**: SQ 3 (Transport) + SQ 5 (Health) — ongoing from early phases
 3. **Accelerating**: SQ 4 (Computing) + SQ 8 (Materials) — ramp with machine tools
 4. **Semiconductor-critical**: SQ 6 (Gases/Packaging) — required for Phase 7–8
 5. **Sustaining**: SQ 7 (Energy Storage) — grows in importance over time
+6. **Material gateway**: SQ 11 (Mining Engineering) — the feedback loop from mine drainage to the steam engine is historically foundational
+6. **Accelerating**: SQ 12 (Petroleum/Alt Chemistry) — dual-path organic feedstocks for solvents, polymers, fuels
+6. **Infrastructure**: SQ 9 (Textiles) — rope, belting, and protective cloth from day one
 
 [← Back to Docs](../index.md)

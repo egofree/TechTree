@@ -1,0 +1,16 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk"}}}%%
+graph LR
+    AnimalFats[Animal Fats — Tallow, Lard, Whale Oil]
+    VegOils[Vegetable Oils — Olive, Linseed, Castor]
+    MineralOils[Mineral Oils — Petroleum Derived]
+    CuttingFluids[Cutting Fluids for Machining]
+    Grease[Grease — Soap and Clay Thickened]
+    Hydraulics[Hydraulic Fluids]
+    VacuumOil[Vacuum Pump Oil — Low Vapor Pressure]
+    
+    AnimalFats --> CuttingFluids
+    VegOils --> CuttingFluids
+    MineralOils --> Grease
+    MineralOils --> Hydraulics
+    MineralOils --> VacuumOil
+    Grease --> Hydraulics

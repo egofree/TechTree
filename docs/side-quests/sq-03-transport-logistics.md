@@ -120,6 +120,36 @@ Y -.--  Z --..
 | Phase 4 | Steam transport, telegraph, railways, iron bridges |
 | Phase 7-8 | Specialized transport for hazardous chemicals, cleanroom supplies |
 
+## Safety Concerns
+
+### Road & Bridge Construction
+- **Falls from height**: Bridge construction over water or ravines. Use safety lines (rope harness secured to fixed point). Minimum 1 m temporary railing on all elevated work platforms.
+- **Landslides during grading**: Cutting into hillsides can trigger slides, especially after rain. Cut slopes to stable angle (1:1 for most soils, 1:1.5 for clay). Inspect after heavy rain before resuming work.
+- **Rock blasting** (if used): Secure minimum 200 m exclusion zone. Use safety fuse (burns at ~1 cm/s — cut fuse length for desired delay, minimum 60 seconds). No radio transmitters near electric detonators. Store explosives in separate magazine, 50+ m from occupied buildings.
+- **Stone arch centering failure**: Falsework can collapse under partial load. Build centering to carry 2× total stone weight. Do not remove until keystone is fully seated and mortar set (7-28 days for lime mortar, 3-7 days for hydraulic lime).
+
+### Steam Locomotive Operations
+- **Boiler explosion**: Most lethal hazard. Causes: low water level (crown sheet exposed → overheats → fails at pressure), overpressure (safety valve malfunction), corrosion/thinning. **Prevention**: Two independent water gauges (try cocks as backup). Two safety valves set at design pressure + 10%. Hydraulic test boiler to 1.5× working pressure before first firing and annually thereafter. Regular inspection for scale, corrosion, and cracking. Blow down boiler daily to remove sediment. Never exceed rated pressure.
+- **Coupling and shunting injuries**: Workers crushed between cars during coupling. **Prevention**: Link-and-pin coupling requires worker between cars — use buffer and chain system when available (Phase 4+). Fixed coupling height and standardized drawgear. Communication by hand signals or whistle codes before any movement. No person between cars during movement.
+- **Derailment**: Caused by broken rails, washouts, excessive speed on curves, obstructions on track. **Prevention**: Walk track daily on active sections. Speed limits: 30 km/h on main line, 15 km/h on curves, 10 km/h in yards. Replace cracked rails immediately. Ballast drainage to prevent washout.
+- **Runaway on grade**: Loaded train on downhill exceeds braking capacity. **Prevention**: Maximum 2-3% grade. Locomotive brake (steam brake or air brake, Phase 4+) plus hand brake on tender. Apply brakes before descending grade. Never coast. If brakes fail: deliberately derail on uphill side into embankment (pre-planned derailment points on long grades).
+- **Fire risk**: Locomotive sparks ignite trackside vegetation, wooden bridges, buildings. Spark arrester (mesh screen in smokebox) mandatory. Clear vegetation 5 m each side of track in fire-prone areas. Water cart on train for firefighting.
+
+### Canal and Water Transport
+- **Drowning**: Lock chambers, canal banks, loading docks. Provide grab lines along lock walls. Life rings at each lock. Non-swimmers restricted from lock operation.
+- **Lock gate failure**: Water pressure (5-8 m head = 50-80 kN/m²) can overwhelm gate. Build gates with 2× structural capacity. Inspect iron fittings for corrosion annually. Never open both lock gates simultaneously.
+- **Canal bank collapse**: Saturated soil fails, especially after rapid drawdown (emptying lock quickly). Maintain constant water level where possible. Puddle clay lining prevents internal erosion. Inspect banks weekly.
+
+### Telegraph
+- **Electrical shock**: Telegraph lines carry 10-200V at low current — unlikely to be lethal but can cause burns and reflex injuries (falling from pole). Higher-voltage lines (generator-fed, 100-200V) can cause muscle contraction and inability to let go. **Prevention**: Insulate all terminals. Ground equipment properly. De-energize line before repair work on poles. Work on poles with safety belt.
+- **Lightning strike**: Overhead wire attracts lightning. Install lightning arrestors at each station (spark gap to ground — normal voltage too low to arc, lightning voltage jumps gap and shunts to ground). Ground wire at every 10th pole.
+- **Line worker falls**: Pole climbing with gaffs (spiked boots) and safety belt. Minimum pole condition: no rot, no cracks at ground level. Replace poles showing decay.
+
+### General Transport Safety
+- **Load securing**: Unsecured loads shift and overturn vehicles. Rope or chain all loads. Maximum load height: 1.5× vehicle width. Distribute weight evenly (60% over front axle, 40% over rear for carts).
+- **Animal handling**: Draft animals can kick, bite, bolt. Approach from front/side, never directly behind. Use harness with breeching (rump strap) for braking on downhill. Shoe animals regularly (every 6-8 weeks) to prevent hoof injuries.
+- **Night operations**: Minimal lighting (lanterns only). Reduce all speeds to 50% of daytime limits. Place lanterns on stationary obstacles. No rail movement at night without clear track verification.
+
 ## Key Deliverables
 
 - All-weather road network connecting mining, processing, and manufacturing sites

@@ -1,404 +1,80 @@
 # Minimum Viable Civilization Checklist
 # Tier-based progression from stone age to semiconductors
+# Schema: bootciv-checklist-v1
+# IDs use dotted hierarchical format: domain.capability.process
+
+_schema_docs:
+  version: bootciv-checklist-v1
+  description: >
+    Checklist of milestones for bootstrapping industrial civilization.
+    Items use dotted hierarchical IDs (domain.capability.process) matching
+    the ontology in nodes.json. The domain field is the top-level segment
+    of the ID, provided as a convenience for filtering.
+  id_format: >
+    Dot-separated hierarchy. Depth = number of segments.
+    1 segment = domain, 2 = capability, 3 = process.
+    Example: foundations.fire-making
+  fields:
+    id: "Dotted hierarchical identifier (matches node IDs in nodes.json)"
+    name: "Human-readable description of the milestone"
+    domain: "Top-level domain (first segment of id, for convenience)"
 
 tier_0_survival:
   timeline: "Years 0-5"
   items:
-    - id: fire_making
+    - id: foundations.fire-making
       name: "Fire-making (friction, later flint-and-steel)"
-      phase: phase-01
-      completed: false
+      domain: foundations
 
-    - id: charcoal_production
+    - id: foundations.charcoal-production
       name: "Charcoal production (controlled pyrolysis)"
-      phase: phase-01
-      completed: false
+      domain: foundations
 
-    - id: stone_wood_tools
-      name: "Basic stone and wood tools"
-      phase: phase-01
-      completed: false
-
-    - id: agriculture_surplus
-      name: "Agriculture surplus established"
-      phase: phase-01
-      completed: false
-
-    - id: animal_domestication
-      name: "Animal domestication for labor"
-      phase: phase-01
-      completed: false
-
-    - id: mining_prospecting
-      name: "Basic mining and prospecting"
-      phase: phase-01
-      completed: false
-
-    - id: pottery_kilns
+    - id: pottery.kilns
       name: "Pottery and kilns"
-      phase: phase-01
-      completed: false
-
-    - id: writing_system
-      name: "Writing system developed"
-      side_quest: sq-01
-      completed: false
-
-    - id: basic_measurements
-      name: "Standardized basic measurements"
-      side_quest: sq-02
-      completed: false
-
-    - id: sanitation_health
-      name: "Sanitation and basic health practices"
-      side_quest: sq-05
-      completed: false
-
-    - id: fiber_crops_cultivation
-      name: "Fiber crop cultivation (flax, hemp)"
-      side_quest: sq-09
-      completed: false
-
-    - id: drop_spindle_rope
-      name: "Drop spindle spinning and hand-laid rope"
-      side_quest: sq-09
-      completed: false
-
-    - id: surface_mining_prospecting
-      name: "Surface mining, prospecting, and ore identification"
-      side_quest: sq-11
-      completed: false
-
-    - id: timber_shoring_mining
-      name: "Timber shoring and basic shaft mining"
-      side_quest: sq-11
-      completed: false
+      domain: pottery
 
 tier_1_industrial:
   timeline: "Years 5-20"
   items:
-    - id: copper_bronze
+    - id: metallurgy.copper-bronze
       name: "Copper smelting and bronze alloying"
-      phase: phase-02
-      completed: false
+      domain: metallurgy
 
-    - id: iron_steel
+    - id: metallurgy.iron-steel
       name: "Iron smelting to wrought iron to steel"
-      phase: phase-02
-      completed: false
+      domain: metallurgy
 
-    - id: metalworking_tools
-      name: "Basic metalworking tools"
-      phase: phase-02
-      completed: false
-
-    - id: foundry_operational
-      name: "Charcoal foundry operational"
-      phase: phase-03
-      completed: false
-
-    - id: first_lathe
-      name: "First crude lathe built"
-      phase: phase-03
-      completed: false
-
-    - id: steam_power
+    - id: steam.power
       name: "Steam power developed"
-      phase: phase-04
-      completed: false
-
-    - id: electricity_generation
-      name: "First generators operational"
-      phase: phase-04
-      completed: false
-
-    - id: sulfuric_acid
-      name: "Sulfuric acid production"
-      phase: phase-05
-      completed: false
-
-    - id: printing_press
-      name: "Printing press operational"
-      side_quest: sq-03
-      completed: false
-
-    - id: mechanical_aids
-      name: "Mechanical computing aids (slide rules)"
-      side_quest: sq-04
-      completed: false
-
-    - id: animal_fat_lubricants
-      name: "Animal fat lubricant supply (tallow, lard)"
-      side_quest: sq-10
-      completed: false
-
-    - id: cutting_fluids
-      name: "Cutting fluid production for machining"
-      side_quest: sq-10
-      completed: false
-
-    - id: grease_production
-      name: "Grease production (soap-thickened)"
-      side_quest: sq-10
-      completed: false
-
-    - id: hydraulic_fluid
-      name: "Hydraulic fluid for presses and machine tools"
-      side_quest: sq-10
-      completed: false
-
-    - id: mine_pumping_hoisting
-      name: "Mine pumping (chain pumps) and hoisting (whim)"
-      side_quest: sq-11
-      completed: false
-
-    - id: ore_dressing_crushing
-      name: "Ore dressing: crushing, washing, gravity separation"
-      side_quest: sq-11
-      completed: false
-
-    - id: sq13-airframe
-      name: "Airframe construction capability (steel tube welding or wood spar)"
-      side_quest: sq-13
-      completed: false
-
-    - id: sq13-engine
-      name: "Small piston engine operational (20+ HP)"
-      side_quest: sq-13
-      completed: false
-
-    - id: sq13-propeller
-      name: "Carved and balanced wooden propeller"
-      side_quest: sq-13
-      completed: false
-
-    - id: natural_rubber_vulcanization
-      name: "Natural rubber vulcanization capability"
-      side_quest: sq-14
-      completed: false
-
-    - id: bakelite_molding
-      name: "First molded Bakelite (phenol-formaldehyde) parts"
-      side_quest: sq-14
-      completed: false
-
-    - id: fiberglass_hand_layup
-      name: "Basic fiberglass panel production (hand layup)"
-      side_quest: sq-14
-      completed: false
+      domain: steam
 
 tier_2_semiconductor:
   timeline: "Years 15-40"
   items:
-    - id: full_machine_shop
-      name: "Full machine shop operational"
-      phase: phase-03
-      completed: false
-
-    - id: reliable_electricity
-      name: "Reliable electricity generation and distribution"
-      phase: phase-04
-      completed: false
-
-    - id: bulk_chemicals
-      name: "Bulk chemical production (acids, alkalis)"
-      phase: phase-05
-      completed: false
-
-    - id: vacuum_systems
-      name: "Vacuum pumps and chambers operational"
-      phase: phase-06
-      completed: false
-
-    - id: mg_silicon
+    - id: silicon.mg-silicon
       name: "Metallurgical-grade silicon produced"
-      phase: phase-07
-      completed: false
+      domain: silicon
 
-    - id: crystal_growth
+    - id: silicon.crystal-growth
       name: "Czochralski crystal growth producing ingots"
-      phase: phase-07
-      completed: false
+      domain: silicon
 
-    - id: first_solar_cells
-      name: "First solar cells fabricated and generating power"
-      phase: phase-07
-      completed: false
-
-    - id: basic_cleanroom
-      name: "Basic cleanroom or glovebox capability"
-      phase: phase-08
-      completed: false
-
-    - id: specialty_gases
-      name: "Specialty gases supply chain"
-      side_quest: sq-06
-      completed: false
-
-    - id: energy_storage
-      name: "Lead-acid battery banks"
-      side_quest: sq-07
-      completed: false
-
-    - id: coal_tar_collection
-      name: "Coke oven operation with coal tar collection"
-      side_quest: sq-12
-      completed: false
-
-    - id: fractional_distillation
-      name: "Fractional distillation (crude oil or coal tar)"
-      side_quest: sq-12
-      completed: false
-
-    - id: fermentation_solvents
-      name: "Fermentation-derived solvents (ethanol, acetone, acetic acid)"
-      side_quest: sq-12
-      completed: false
-
-    - id: producer_gas
-      name: "Producer gas or wood gas for engines and heating"
-      side_quest: sq-12
-      completed: false
-
-    - id: early_polymers
-      name: "Early synthetic polymers (Bakelite, celluloid)"
-      side_quest: sq-14
-      completed: false
-
-    - id: epoxy_resin_formulation
-      name: "Epoxy resin formulation for adhesives and encapsulation"
-      side_quest: sq-14
-      completed: false
-
-    - id: phenolic_laminate_fr4
-      name: "Phenolic laminate (FR-4) production for PCB substrates"
-      side_quest: sq-14
-      completed: false
-
-    - id: silicone_seal_production
-      name: "Silicone seal production for high-temperature applications"
-      side_quest: sq-14
-      completed: false
-
-    - id: ptfe_teflon_production
-      name: "PTFE (Teflon) production capability"
-      side_quest: sq-14
-      completed: false
-
-    - id: nitrile_rubber_nbr
-      name: "Nitrile rubber (NBR) production for gloves and seals"
-      side_quest: sq-14
-      completed: false
-
-    - id: neoprene_production
-      name: "Neoprene (chloroprene) production for wire insulation"
-      side_quest: sq-14
-      completed: false
-
-    - id: unsaturated_polyester_resin
-      name: "Unsaturated polyester resin formulation"
-      side_quest: sq-14
-      completed: false
-
-    - id: polyurethane_foam
-      name: "Polyurethane foam production (insulation, cushioning)"
-      side_quest: sq-14
-      completed: false
-
-    - id: nylon_polyamide_extrusion
-      name: "Nylon (polyamide) extrusion capability"
-      side_quest: sq-14
-      completed: false
-
-    - id: polyethylene_film_containers
-      name: "Polyethylene film and container production"
-      side_quest: sq-14
-      completed: false
-
-    - id: pvc_pipe_production
-      name: "PVC pipe and tubing production"
-      side_quest: sq-14
-      completed: false
-
-    - id: vacuum_bagging_composites
-      name: "Vacuum bagging composite manufacturing"
-      side_quest: sq-14
-      completed: false
-
-    - id: resin_transfer_molding
-      name: "Resin transfer molding (RTM) capability"
-      side_quest: sq-14
-      completed: false
-
-    - id: first_composite_structural_part
-      name: "First composite layup structural part"
-      side_quest: sq-14
-      completed: false
-
-    - id: sq13-aircraft
-      name: "Flyable ultralight aircraft test flight completed"
-      side_quest: sq-13
-      completed: false
-
-    - id: sq13-aviation-fuel
-      name: "Aviation fuel supply chain (gasoline distillation or ethanol)"
-      side_quest: sq-13
-      completed: false
+    - id: glass.fused-silica
+      name: "Fused silica and borosilicate glass production"
+      domain: glass
 
 tier_3_advanced:
   timeline: "Years 30-100+"
   items:
-    - id: photolithography
+    - id: semiconductor.fabrication.photolithography
       name: "Photolithography capability"
-      phase: phase-08
-      completed: false
+      domain: semiconductor
 
-    - id: first_ics
+    - id: semiconductor.fabrication.first-ics
       name: "First integrated circuits (SSI/MSI)"
-      phase: phase-08
-      completed: false
+      domain: semiconductor
 
-    - id: wafer_packaging
-      name: "Wafer packaging and testing"
-      phase: phase-08
-      completed: false
-
-    - id: early_computers
-      name: "Early computers from own ICs"
-      phase: phase-08
-      completed: false
-
-    - id: vlsi_scaling
+    - id: semiconductor.design.vlsi-scaling
       name: "VLSI scaling in progress"
-      phase: phase-09
-      completed: false
-
-    - id: high_end_solar
-      name: "High-end solar cells in production"
-      phase: phase-09
-      completed: false
-
-    - id: nuclear_research
-      name: "Nuclear power research underway"
-      side_quest: sq-07
-      completed: false
-
-    - id: gpu_capability
-      name: "GPU-scale VLSI design capability"
-      phase: phase-09
-      completed: false
-
-    - id: carbon_fiber_precursor
-      name: "Carbon fiber precursor development (Phase 7+)"
-      side_quest: sq-14
-      completed: false
-
-    - id: aramid_kevlar_precursor
-      name: "Aramid/Kevlar fiber precursor development (Phase 7+)"
-      side_quest: sq-14
-      completed: false
-
-    - id: advanced_composite_manufacturing
-      name: "Advanced composite manufacturing (filament winding, pultrusion)"
-      side_quest: sq-14
-      completed: false
+      domain: semiconductor

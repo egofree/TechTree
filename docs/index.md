@@ -54,29 +54,29 @@ Silicon + Chemistry + Precision + Cleanrooms → Photolithography + ICs
 ICs + Iteration + Compute → VLSI/GPUs + Advanced Solar
 ```
 
-## Side Quests
+## Parallel Technology Domains
 
-The core tech tree is necessary but not sufficient. Fourteen parallel "side quest" tracks provide the supporting infrastructure that prevents the effort from collapsing:
+The core tech tree is necessary but not sufficient. Parallel technology domains provide the supporting infrastructure that prevents the effort from collapsing:
 
-1. [Knowledge Preservation &amp; Education](side-quests/sq-01-knowledge-preservation.md)
-2. [Measurement, Timekeeping &amp; Metrology](side-quests/sq-02-measurement-metrology.md)
-3. [Transportation, Logistics &amp; Communication](side-quests/sq-03-transport-logistics.md)
-4. [Mechanical Computing &amp; Automation](side-quests/sq-04-mechanical-computing.md)
-5. [Public Health &amp; Medicine](side-quests/sq-05-public-health.md)
-6. [Specialty Gases, Consumables &amp; Packaging](side-quests/sq-06-gases-packaging-testing.md)
-7. [Energy Storage &amp; Diversification](side-quests/sq-07-energy-storage.md)
-8. [Advanced Materials](side-quests/sq-08-advanced-materials.md)
-9. [Textiles, Fiber &amp; Cordage](side-quests/sq-09-textiles-fiber.md)
-10. [Lubricants, Oils &amp; Fluid Mechanics](side-quests/sq-10-lubricants-oils.md)
-11. [Mining Engineering &amp; Extractive Metallurgy](side-quests/sq-11-mining-engineering.md)
-12. [Petroleum &amp; Alternative Chemistry](side-quests/sq-12-petrochemicals.md)
-13. [Aircraft Development](side-quests/sq-13-aircraft-development.md)
-14. [Polymers &amp; Composites](side-quests/sq-14-polymers-composites.md)
+| Domain | Description |
+|--------|-------------|
+| [Knowledge Preservation](knowledge/writing-education.md) | Writing systems, printing, education |
+| [Metrology](metrology/standards-instruments.md) | Base units, timekeeping, precision instruments |
+| [Transport](transport/roads-railways-communication.md) | Roads, railways, telegraph, logistics |
+| [Computing](computing/mechanical-computing.md) | Calculators, automation, punch cards |
+| [Public Health](health/sanitation-medicine.md) | Water, sanitation, medicine, safety |
+| [Specialty Gases](specialty-gases/gases-packaging-testing.md) | Air separation, dopant gases, packaging |
+| [Energy Storage](energy-storage/storage-batteries.md) | Batteries, grid, pumped hydro |
+| [Advanced Materials](ceramics/refractories-advanced.md) | Refractories, technical ceramics |
+| [Textiles](textiles/fiber-cordage.md) | Fiber, spinning, weaving, rope |
+| [Lubricants](lubricants/oils-fluid-mechanics.md) | Oils, grease, cutting fluid |
+| [Mining](mining/engineering.md) | Underground mining, ventilation, drainage |
+| [Petrochemicals](petrochemicals/petroleum-alternatives.md) | Oil, coal tar, fermentation |
+| [Aircraft](aircraft/development.md) | Engines, airframes, propellers |
+| [Polymers](polymers/overview.md) | Rubber, thermosets, thermoplastics, composites |
 
 ## Navigation
 
-- [Core Tech Tree Overview →](core-tech-tree/overview.md)
-- [Side Quests Index →](side-quests/index.md)
 - [Minimum Viable Civilization Checklist →](supporting/minimum-viable-checklist.md)
 - [Dependencies &amp; Resources →](supporting/dependencies.md)
 - [Diagram Gallery →](../diagrams/mermaid/)

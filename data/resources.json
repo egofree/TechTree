@@ -3,105 +3,143 @@
     {
       "name": "Quartz (SiO2)",
       "source": "Mining (surface deposits, quartz veins)",
-      "used_in": ["phase-06 (glass)", "phase-07 (silicon production)"],
+      "used_in": [
+        "vacuum-optics.glass-advanced",
+        "silicon.mg-si-production"
+      ],
       "criticality": "critical",
       "notes": "High-purity quartz needed for crucibles and electronics"
     },
     {
       "name": "Iron ore (hematite, magnetite)",
       "source": "Mining (surface and subsurface deposits)",
-      "used_in": ["phase-02 (iron/steel)", "all phases (tools, equipment)"],
+      "used_in": [
+        "metallurgy.iron-steel"
+      ],
       "criticality": "critical",
       "notes": "Most-used metal throughout the entire sequence"
     },
     {
       "name": "Copper ore (malachite, chalcopyrite)",
       "source": "Mining",
-      "used_in": ["phase-02 (copper)", "phase-04 (wire, generators)"],
+      "used_in": [
+        "metallurgy.copper-bronze",
+        "energy.electricity"
+      ],
       "criticality": "critical",
       "notes": "Electrical applications make copper indispensable"
     },
     {
       "name": "Carbon (charcoal/coke)",
       "source": "Wood pyrolysis / coal distillation",
-      "used_in": ["phase-02 to phase-07 (reducing agent, fuel, electrodes)"],
+      "used_in": [
+        "metallurgy.copper-bronze",
+        "metallurgy.iron-steel",
+        "energy.coal-coke",
+        "silicon.mg-si-production"
+      ],
       "criticality": "critical",
       "notes": "Essential reducing agent for metallurgy and silicon production"
     },
     {
       "name": "Wool",
       "source": "Animal husbandry (sheep, goats)",
-      "used_in": ["sq-09 (warm clothing, blankets, felt)"],
+      "used_in": [
+        "textiles"
+      ],
       "criticality": "medium",
       "notes": "Warmth and insulation; fire-resistant when treated"
     },
     {
       "name": "Timber (mine shoring)",
       "source": "Forestry (hardwood preferred)",
-      "used_in": ["sq-11 (shaft supports, cribbing, lagging)"],
+      "used_in": [
+        "mining"
+      ],
       "criticality": "high",
       "notes": "Structural support for underground mines; straight-grained hardwoods preferred"
     },
     {
       "name": "Flax",
       "source": "Agriculture (annual crop)",
-      "used_in": ["sq-09 (linen fiber, rope, canvas)"],
+      "used_in": [
+        "textiles"
+      ],
       "criticality": "high",
       "notes": "Primary fiber crop for temperate climates; retting yields long fibers"
     },
     {
       "name": "Hemp",
       "source": "Agriculture (annual crop)",
-      "used_in": ["sq-09 (rope, canvas, coarse cloth)"],
+      "used_in": [
+        "textiles"
+      ],
       "criticality": "high",
       "notes": "Extremely versatile fiber; also provides seed oil"
     },
     {
       "name": "Oil seeds (rapeseed, castor, linseed)",
       "source": "Agriculture",
-      "used_in": ["sq-10 (vegetable lubricants, cutting fluids)"],
+      "used_in": [
+        "lubricants"
+      ],
       "criticality": "medium",
       "notes": "Source of vegetable oils for lubrication and coatings"
     },
     {
       "name": "Animal fats (tallow, lard)",
       "source": "Animal husbandry / butchering",
-      "used_in": ["sq-10 (grease, bearing lubrication, cutting fluid)"],
+      "used_in": [
+        "lubricants"
+      ],
       "criticality": "high",
       "notes": "First lubricant source; tallow for heavy bearings, lard for light mechanisms"
     },
     {
       "name": "Petroleum (crude oil)",
       "source": "Surface seeps / drilling",
-      "used_in": ["sq-12 (fuels, solvents, lubricants, polymers)", "sq-10 (mineral oils)"],
+      "used_in": [
+        "petrochemicals",
+        "lubricants"
+      ],
       "criticality": "medium",
       "notes": "Massive accelerator if available; not required if absent"
     },
     {
       "name": "Coal tar",
       "source": "Coke oven byproduct",
-      "used_in": ["sq-12 (benzene, phenol, solvents, polymers)"],
+      "used_in": [
+        "petrochemicals"
+      ],
       "criticality": "medium",
       "notes": "Historical source of organic chemicals before petroleum"
     },
     {
       "name": "Natural rubber (latex)",
       "source": "Rubber tree (Hevea brasiliensis) tapping or guayule shrub",
-      "used_in": ["sq-14 (vulcanized rubber, seals, tires)"],
+      "used_in": [
+        "polymers.natural-rubber"
+      ],
       "criticality": "medium",
       "notes": "Essential for gaskets, seals, and flexible components; guayule is a temperate-climate alternative"
     },
     {
       "name": "Sulfur",
       "source": "Volcanic deposits / Frasch process / smelter offgas",
-      "used_in": ["sq-14 (rubber vulcanization)", "phase-05 (sulfuric acid)"],
+      "used_in": [
+        "polymers.natural-rubber",
+        "chemistry.acids"
+      ],
       "criticality": "high",
       "notes": "Dual-use: vulcanizing agent for rubber and feedstock for sulfuric acid"
     },
     {
       "name": "Glass fiber raw materials (silica sand, limestone, borax)",
       "source": "Mining / evaporite deposits",
-      "used_in": ["sq-14 (fiberglass composites)", "phase-06 (glass production)"],
+      "used_in": [
+        "polymers.composites",
+        "vacuum-optics.glass-advanced"
+      ],
       "criticality": "medium",
       "notes": "Borosilicate glass fiber for structural composites; borax may be a bottleneck"
     }

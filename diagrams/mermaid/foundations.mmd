@@ -1,0 +1,69 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Foundations
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph foundations_internal ["Foundations — Internal Structure"]
+        direction TB
+        foundations_fire-charcoal["Fire-Making & Charcoal Production"]
+        foundations_tools-basic["Stone & Wood Tools"]
+        foundations_food-agriculture["Agriculture & Food Production"]
+        foundations_kilns-pottery["Pottery & Kilns"]
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    foundations["Foundations"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    advanced-materials("Advanced Materials — Ceramics & Refractories")
+    chemistry_cement("Cement & Concrete")
+    energy_coal-coke("Coal & Coke Production")
+    health("Public Health, Sanitation & Medicine")
+    knowledge("Knowledge Preservation & Education")
+    lubricants("Lubricants, Oils & Fluid Mechanics")
+    metallurgy("Metallurgy")
+    metrology("Measurement, Timekeeping & Metrology")
+    mining("Mining Engineering & Extractive Metallurgy")
+    petrochemicals("Petroleum & Alternative Chemistry")
+    polymers("Polymers & Composites")
+    textiles("Textiles, Fiber & Cordage")
+
+    %% ==================== EDGES ====================
+    metallurgy -.-> foundations
+    energy_coal-coke -.-> foundations_kilns-pottery
+    chemistry_cement -.-> foundations_kilns-pottery
+    knowledge -.-> foundations
+    metrology -.-> foundations
+    health -.-> foundations
+    advanced-materials -.-> foundations
+    textiles -.-> foundations
+    lubricants -.-> foundations
+    mining -.-> foundations
+    petrochemicals -.-> foundations
+    polymers -.-> foundations
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    class foundations domain
+    class foundations_fire-charcoal capability
+    class foundations_tools-basic capability
+    class foundations_food-agriculture capability
+    class foundations_kilns-pottery capability
+    class advanced-materials external
+    class chemistry_cement external
+    class energy_coal-coke external
+    class health external
+    class knowledge external
+    class lubricants external
+    class metallurgy external
+    class metrology external
+    class mining external
+    class petrochemicals external
+    class polymers external
+    class textiles external

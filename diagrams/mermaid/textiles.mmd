@@ -1,0 +1,37 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Textiles, Fiber & Cordage
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph textiles_internal ["Textiles, Fiber & Cordage — Internal Structure"]
+        direction TB
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    textiles["Textiles, Fiber & Cordage"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    aircraft("Aircraft Development")
+    foundations("Foundations")
+    machine-tools("Machine Tools Bootstrap")
+    metallurgy_water-wind-power("Water & Wind Power")
+
+    %% ==================== EDGES ====================
+    metallurgy_water-wind-power -.-> textiles
+    machine-tools -.-> textiles
+    textiles -.-> foundations
+    aircraft -.-> textiles
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    class textiles domain
+    class aircraft external
+    class foundations external
+    class machine-tools external
+    class metallurgy_water-wind-power external

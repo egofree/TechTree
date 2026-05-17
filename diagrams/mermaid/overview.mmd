@@ -1,156 +1,123 @@
 %%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
 graph TD
-    %% ==================== START ====================
-    Start[Start: Stone Age — Fire, Stone Tools, Wood, Foraging, Basic Shelter] --> Phase1
+    %% ==================== DOMAIN NODES ====================
+    foundations["Foundations"]
+    metallurgy["Metallurgy"]
+    machine-tools["Machine Tools Bootstrap"]
+    energy["Energy"]
+    chemistry["Chemistry"]
+    vacuum-optics["Vacuum, Optics & Advanced Glass"]
+    silicon["Silicon"]
+    photolithography["Photolithography & IC Fabrication"]
+    vlsi-scaling["VLSI Scaling & Advanced Semiconductor"]
+    knowledge["Knowledge Preservation & Education"]
+    metrology["Measurement, Timekeeping & Metrology"]
+    transport["Transportation, Logistics & Communication"]
+    computing["Mechanical Computing & Automation"]
+    health["Public Health, Sanitation & Medicine"]
+    specialty-gases["Specialty Gases, Consumables, Packaging & Testing"]
+    energy-storage["Energy Storage & Diversification"]
+    advanced-materials["Advanced Materials — Ceramics & Refractories"]
+    textiles["Textiles, Fiber & Cordage"]
+    lubricants["Lubricants, Oils & Fluid Mechanics"]
+    mining["Mining Engineering & Extractive Metallurgy"]
+    petrochemicals["Petroleum & Alternative Chemistry"]
+    aircraft["Aircraft Development"]
+    polymers["Polymers & Composites"]
 
-    %% ==================== PHASE 1 ====================
-    subgraph Phase1 ["Phase 1: Foundations — Surplus and Basics"]
-        direction TB
-        Agri[Agriculture + Animal Domestication — Food and Labor Surplus]
-        Charcoal[Charcoal Production — Pyrolysis]
-        Mining[Mining and Prospecting — Quartz, Iron Ore, Copper Ore, Limestone, Clays, Fluorite]
-        Pottery[Pottery, Kilns, Early Refractories]
-        Agri & Charcoal & Mining --> Pottery
-    end
+    %% ==================== DOMAIN-LEVEL EDGES ====================
+    metallurgy --> foundations
+    metallurgy --> mining
+    machine-tools --> metallurgy
+    machine-tools --> textiles
+    machine-tools --> lubricants
+    energy --> metallurgy
+    chemistry --> metallurgy
+    chemistry --> energy
+    vacuum-optics --> machine-tools
+    vacuum-optics --> energy
+    vacuum-optics --> chemistry
+    silicon --> machine-tools
+    silicon --> energy
+    silicon --> chemistry
+    silicon --> vacuum-optics
+    photolithography --> machine-tools
+    photolithography --> chemistry
+    photolithography --> vacuum-optics
+    photolithography --> silicon
+    photolithography --> specialty-gases
+    vlsi-scaling --> photolithography
+    knowledge --> foundations
+    metrology --> foundations
+    metrology --> metallurgy
+    health --> foundations
+    health --> chemistry
+    specialty-gases --> chemistry
+    specialty-gases --> energy
+    energy-storage --> energy
+    energy-storage --> chemistry
+    energy-storage --> metallurgy
+    advanced-materials --> foundations
+    advanced-materials --> metallurgy
+    textiles --> foundations
+    lubricants --> foundations
+    lubricants --> petrochemicals
+    mining --> foundations
+    petrochemicals --> foundations
+    transport --> metallurgy
+    transport --> energy
+    transport --> mining
+    transport --> machine-tools
+    computing --> machine-tools
+    aircraft --> machine-tools
+    aircraft --> textiles
+    aircraft --> petrochemicals
+    polymers --> foundations
 
-    Phase1 --> Phase2
+    %% ==================== CROSS-DOMAIN EDGES ====================
+    chemistry -.-> foundations
+    chemistry -.-> mining
+    energy -.-> chemistry
+    energy -.-> foundations
+    energy -.-> machine-tools
+    energy -.-> mining
+    energy -.-> petrochemicals
+    metallurgy -.-> lubricants
+    metallurgy -.-> textiles
+    photolithography -.-> advanced-materials
+    photolithography -.-> polymers
+    polymers -.-> chemistry
+    polymers -.-> machine-tools
+    polymers -.-> petrochemicals
+    silicon -.-> mining
+    silicon -.-> specialty-gases
+    specialty-gases -.-> machine-tools
+    specialty-gases -.-> photolithography
+    specialty-gases -.-> polymers
+    vacuum-optics -.-> metallurgy
+    vlsi-scaling -.-> computing
+    vlsi-scaling -.-> vacuum-optics
 
-    %% ==================== PHASE 2 ====================
-    subgraph Phase2 ["Phase 2: Early Metallurgy"]
-        direction TB
-        Copper[Copper Smelting + Bronze Alloying]
-        Iron[Iron Bloomery to Wrought Iron to Steel — Carburization, Quench, Temper]
-        MetalTools[Anvils, Hammers, Files, Tongs, Casting, Bellows]
-        WaterWind[Water/Wind Power — Mills, Bellows]
-        Copper & Iron --> MetalTools
-    end
-
-    Phase2 --> Phase3
-
-    %% ==================== PHASE 3: MACHINE TOOLS ====================
-    subgraph Phase3 ["Phase 3: Machine Tools Bootstrap — Gingery-style Iterative"]
-        direction TB
-        Foundry[Charcoal Foundry — Bucket/Sand Molds, Crucibles]
-        Lathe1[First Crude Lathe — Wood + Early Cast Metal]
-        Iterate[Iterative Self-Bootstrap — Lathe machines better parts for improved Lathe]
-        Shop[Full Machine Shop — Shaper, Mill/Planer, Drill Press, Grinder, Dividing Head]
-        Metrology[Precision Metrology — Surface Plates, Micrometers, Thread Standards, Go/No-Go]
-        Foundry --> Lathe1 --> Iterate --> Shop
-        Iterate --> Metrology
-    end
-
-    Phase3 -.->|Enables all precision parts| Phase4
-    Phase3 -.->|Enables pullers, saws, stages| Phase7
-    Phase3 -.->|Enables lithography stages, pumps| Phase8
-
-    %% ==================== PHASE 4 ====================
-    subgraph Phase4 ["Phase 4: Energy Revolution"]
-        direction TB
-        Coal[Coke Production + Coal Mining]
-        Steam[Steam Engines — Watt, Precision Cylinder Boring Critical]
-        Electricity[Electricity Generation — Generators, Motors, Transformers, Batteries]
-        ArcPower[Electric Arc and Submerged Arc Furnaces]
-        Coal --> Steam --> Electricity --> ArcPower
-    end
-
-    Phase4 --> Phase5
-    Phase4 -.->|Power for furnaces and heating| Phase7
-    Phase4 -.->|Power for cleanrooms and tools| Phase8
-
-    %% ==================== PHASE 5 ====================
-    subgraph Phase5 ["Phase 5: Chemical Industry Scale-Up"]
-        direction TB
-        Acids[Sulfuric Acid, Nitric, Hydrofluoric HF — Lead Chamber to Contact Process]
-        Alkalis[Alkalis: Soda Ash, Caustic Soda — Leblanc / Solvay]
-        Electrolysis[Electrolysis Scale-Up — Chlorine, Hydrogen, Aluminum, Oxygen]
-        Distill[Distillation Columns, Reactors, Piping, Valves — Corrosion-Resistant Materials]
-        Gases[Industrial Gases Handling and Purification]
-        Acids & Alkalis --> Electrolysis --> Distill
-    end
-
-    Phase5 --> Phase6
-    Phase5 -.->|Reagents, Etchants, Precursors, Dopants| Phase7
-    Phase5 -.->|Photoresists, Etchants, Cleaning| Phase8
-
-    %% ==================== PHASE 6 ====================
-    subgraph Phase6 ["Phase 6: Vacuum, Optics and Glass"]
-        direction TB
-        Glass[Advanced Glassblowing and Tubing]
-        Vacuum[Mechanical Vacuum Pumps to Chambers]
-        Optics[Lens Grinding/Polishing, Microscopes for Inspection and Alignment]
-        Glass --> Vacuum & Optics
-    end
-
-    Phase6 --> Phase7
-
-    %% ==================== PHASE 7: SILICON ====================
-    subgraph Phase7 ["Phase 7: Silicon Production, Crystals, Wafers and Basic Devices"]
-        direction TB
-        MG_Si[MG-Si Production — Quartz SiO2 + Carbon in Electric Arc Furnace]
-        Purification[Higher Purity Paths — Chemical Chlorosilane Distillation or Zone Refining]
-        CZ[Czochralski Crystal Growth — Quartz Crucible, Graphite Heater, Seed Crystal, Argon]
-        Wafering[Wafer Slicing Wire Saw, Lapping, CMP Polishing]
-        SolarCells[Basic Solar Cells and pn Junctions — Early Practical Output, Power Feedback]
-        BasicSemi[Basic Diodes and Transistors]
-        
-        MG_Si --> Purification --> CZ --> Wafering
-        Wafering --> SolarCells & BasicSemi
-    end
-
-    Phase7 --> Phase8
-    SolarCells -.->|Supplemental Power| Phase4
-
-    %% ==================== PHASE 8: FABRICATION ====================
-    subgraph Phase8 ["Phase 8: Photolithography, Cleanrooms and Integrated Circuits"]
-        direction TB
-        Cleanroom[Progressive Cleanrooms — Gloveboxes to Laminar Flow to Full Protocol, Ultra-Pure Water]
-        Photoresist[Photoresists — Early Bitumen to Novolac + Sensitizers, Organic Chemistry Scale]
-        Mask[Mask Making — Large Drawings to Optical Reduction]
-        Lithography[Lithography Tools — Contact/Projection to Steppers and Aligners]
-        CoreProc[Core Fab Processes — Pattern, Thermal Oxidation, Etch HF/KOH/Plasma, CVD/Deposition, Doping Diffusion, Metallization]
-        EarlyIC[Early ICs, Planar Process, MSI]
-        Compute[Early Computers / Controllers from ICs — Feedback Loop: Design Automation and Process Control]
-        
-        Cleanroom --> Photoresist --> Mask --> Lithography
-        Lithography --> CoreProc --> EarlyIC --> Compute
-    end
-
-    Phase8 --> Phase9
-    Compute -.->|Design and Control Feedback| Phase8
-    Phase3 -.->|Precision stages and metrology| Lithography
-
-    %% ==================== PHASE 9: ADVANCED ====================
-    subgraph Phase9 ["Phase 9: Scaling to VLSI, High-End GPUs and Solar"]
-        direction TB
-        Scaling[Continuous Iteration — Larger Wafers, More Layers, Higher Yield, Smaller Features, Better Metrology]
-        AdvLitho[Advanced Lithography Scaling — Contact to DUV Excimer to EUV Plasma]
-        VLSI[VLSI, Complex Logic, Multi-Level Interconnect]
-        GPU[High-End GPUs — Billions of Transistors, Advanced Packaging]
-        HighSolar[High-End Solar Cells — PERC-like, Optimized Efficiency, Modules]
-        
-        Scaling --> AdvLitho --> VLSI --> GPU
-        Scaling --> HighSolar
-    end
-
-    %% ==================== KEY DEPENDENCIES ====================
-    Phase3 -.->|Master Enabler: All Precision Equipment| Phase7
-    Phase3 -.->|Master Enabler: Stages, Saws, Pullers| Phase8
-    Phase4 -.->|Abundant Power| Phase7
-    Phase4 -.->|Abundant Power| Phase8
-    Phase5 -.->|Critical Chemicals| Phase7
-    Phase5 -.->|Critical Chemicals| Phase8
-    Phase6 -.->|Vacuum and Inspection| Phase7
-    Phase6 -.->|Vacuum and Inspection| Phase8
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    class foundations earlyWin
+    class machine-tools critical
+    class silicon earlyWin
+    class vlsi-scaling pinnacle
+    class knowledge critical
+    class specialty-gases critical
+    class textiles critical
+    class lubricants critical
+    class mining critical
 
     %% ==================== LEGEND ====================
-    Legend[Legend and Key Insights]
-    Legend --> Note1[Machine Tools Phase is the single most important bootstrap. Every later stage depends on precision parts.]
-    Legend --> Note2[Iteration is everywhere: Tools make better tools. Crude silicon enables better equipment to purer silicon.]
-    Legend --> Note3[Solar Cells are an early practical win that can feedback into energy production.]
-    Legend --> Note4[High-end GPUs are the long-term pinnacle. They require the entire mature ecosystem plus generations of refinement.]
-    Legend --> Note5[Realistic timeline: Basic solar cells in decades after solid machine tools + energy + chem. Full high-end GPU capability: 50 to 200+ years even with perfect knowledge.]
-
-    classDef phase fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
-    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
-    class Phase3 critical
-    class Phase1,Phase2,Phase4,Phase5,Phase6,Phase7,Phase8,Phase9 phase
+    Legend["Legend and Key Insights"]
+    Legend --> Note1["Machine Tools is the master enabler: every later stage depends on precision parts"]
+    Legend --> Note2["Iteration is everywhere: tools make better tools, crude silicon enables purer silicon"]
+    Legend --> Note3["Solar cells create a critical power feedback loop — the most important positive feedback in the tree"]
+    Legend --> Note4["High-end GPUs are the long-term pinnacle: requires the entire mature ecosystem + generations of refinement"]
+    Legend --> Note5["Realistic timeline: basic solar cells in decades. Full GPU capability: 50 to 200+ years"]
+    class Legend,Note1,Note2,Note3,Note4,Note5 domain

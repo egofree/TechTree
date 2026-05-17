@@ -22,17 +22,53 @@ _schema_docs:
 tier_0_survival:
   timeline: "Years 0-5"
   items:
-    - id: foundations.fire-making
-      name: "Fire-making (friction, later flint-and-steel)"
+    - id: foundations.fire-charcoal
+      name: "Fire-making and charcoal production (combined: friction/flint ignition + controlled pyrolysis)"
       domain: foundations
 
-    - id: foundations.charcoal-production
-      name: "Charcoal production (controlled pyrolysis)"
+    - id: foundations.tools-basic
+      name: "Basic stone and wood tools"
       domain: foundations
 
-    - id: pottery.kilns
+    - id: foundations.food-agriculture
+      name: "Agriculture surplus and animal domestication for labor"
+      domain: foundations
+
+    - id: mining
+      name: "Basic mining and prospecting"
+      domain: mining
+
+    - id: foundations.kilns-pottery
       name: "Pottery and kilns"
-      domain: pottery
+      domain: foundations
+
+    - id: knowledge
+      name: "Writing system developed"
+      domain: knowledge
+
+    - id: metrology
+      name: "Standardized basic measurements"
+      domain: metrology
+
+    - id: health
+      name: "Sanitation and basic health practices"
+      domain: health
+
+    - id: textiles
+      name: "Fiber crop cultivation (flax, hemp)"
+      domain: textiles
+
+    - id: textiles
+      name: "Drop spindle spinning and hand-laid rope"
+      domain: textiles
+
+    - id: mining
+      name: "Surface mining, prospecting, and ore identification"
+      domain: mining
+
+    - id: mining
+      name: "Timber shoring and basic shaft mining"
+      domain: mining
 
 tier_1_industrial:
   timeline: "Years 5-20"
@@ -45,14 +81,106 @@ tier_1_industrial:
       name: "Iron smelting to wrought iron to steel"
       domain: metallurgy
 
-    - id: steam.power
+    - id: metallurgy.metalworking
+      name: "Basic metalworking tools"
+      domain: metallurgy
+
+    - id: machine-tools.foundry
+      name: "Charcoal foundry operational"
+      domain: machine-tools
+
+    - id: machine-tools.iterative-bootstrap
+      name: "First crude lathe built"
+      domain: machine-tools
+
+    - id: energy.steam-power
       name: "Steam power developed"
-      domain: steam
+      domain: energy
+
+    - id: energy.electricity
+      name: "First generators operational"
+      domain: energy
+
+    - id: chemistry.acids
+      name: "Sulfuric acid production"
+      domain: chemistry
+
+    - id: knowledge
+      name: "Printing press operational"
+      domain: knowledge
+
+    - id: computing
+      name: "Mechanical computing aids (slide rules)"
+      domain: computing
+
+    - id: lubricants
+      name: "Animal fat lubricant supply (tallow, lard)"
+      domain: lubricants
+
+    - id: lubricants
+      name: "Cutting fluid production for machining"
+      domain: lubricants
+
+    - id: lubricants
+      name: "Grease production (soap-thickened)"
+      domain: lubricants
+
+    - id: lubricants
+      name: "Hydraulic fluid for presses and machine tools"
+      domain: lubricants
+
+    - id: mining
+      name: "Mine pumping and hoisting"
+      domain: mining
+
+    - id: mining
+      name: "Ore dressing: crushing, washing, gravity separation"
+      domain: mining
+
+    - id: aircraft
+      name: "Airframe construction capability"
+      domain: aircraft
+
+    - id: aircraft
+      name: "Small piston engine operational (20+ HP)"
+      domain: aircraft
+
+    - id: aircraft
+      name: "Carved and balanced wooden propeller"
+      domain: aircraft
+
+    - id: polymers.natural-rubber
+      name: "Natural rubber vulcanization capability"
+      domain: polymers
+
+    - id: polymers.thermosets
+      name: "First molded Bakelite parts"
+      domain: polymers
+
+    - id: polymers.composites
+      name: "Basic fiberglass panel production (hand layup)"
+      domain: polymers
 
 tier_2_semiconductor:
   timeline: "Years 15-40"
   items:
-    - id: silicon.mg-silicon
+    - id: machine-tools.iterative-bootstrap
+      name: "Full machine shop operational"
+      domain: machine-tools
+
+    - id: energy.electricity
+      name: "Reliable electricity generation and distribution"
+      domain: energy
+
+    - id: chemistry.acids
+      name: "Bulk chemical production (acids, alkalis)"
+      domain: chemistry
+
+    - id: vacuum-optics.vacuum-systems
+      name: "Vacuum pumps and chambers operational"
+      domain: vacuum-optics
+
+    - id: silicon.mg-si-production
       name: "Metallurgical-grade silicon produced"
       domain: silicon
 
@@ -60,21 +188,149 @@ tier_2_semiconductor:
       name: "Czochralski crystal growth producing ingots"
       domain: silicon
 
-    - id: glass.fused-silica
-      name: "Fused silica and borosilicate glass production"
-      domain: glass
+    - id: silicon.basic-devices
+      name: "First solar cells fabricated and generating power"
+      domain: silicon
+
+    - id: photolithography.cleanrooms
+      name: "Basic cleanroom or glovebox capability"
+      domain: photolithography
+
+    - id: specialty-gases
+      name: "Specialty gases supply chain"
+      domain: specialty-gases
+
+    - id: energy-storage
+      name: "Lead-acid battery banks"
+      domain: energy-storage
+
+    - id: petrochemicals
+      name: "Coke oven operation with coal tar collection"
+      domain: petrochemicals
+
+    - id: petrochemicals
+      name: "Fractional distillation (crude oil or coal tar)"
+      domain: petrochemicals
+
+    - id: petrochemicals
+      name: "Fermentation-derived solvents"
+      domain: petrochemicals
+
+    - id: petrochemicals
+      name: "Producer gas or wood gas for engines and heating"
+      domain: petrochemicals
+
+    - id: polymers.thermosets
+      name: "Early synthetic polymers (Bakelite, celluloid)"
+      domain: polymers
+
+    - id: polymers.thermosets
+      name: "Epoxy resin formulation for adhesives and encapsulation"
+      domain: polymers
+
+    - id: polymers.thermosets
+      name: "Phenolic laminate (FR-4) production for PCB substrates"
+      domain: polymers
+
+    - id: polymers.synthetic-rubbers
+      name: "Silicone seal production for high-temperature applications"
+      domain: polymers
+
+    - id: polymers.thermoplastics
+      name: "PTFE (Teflon) production capability"
+      domain: polymers
+
+    - id: polymers.synthetic-rubbers
+      name: "Nitrile rubber (NBR) production"
+      domain: polymers
+
+    - id: polymers.synthetic-rubbers
+      name: "Neoprene (chloroprene) production"
+      domain: polymers
+
+    - id: polymers.thermosets
+      name: "Unsaturated polyester resin formulation"
+      domain: polymers
+
+    - id: polymers.thermoplastics
+      name: "Polyurethane foam production"
+      domain: polymers
+
+    - id: polymers.thermoplastics
+      name: "Nylon (polyamide) extrusion capability"
+      domain: polymers
+
+    - id: polymers.thermoplastics
+      name: "Polyethylene film and container production"
+      domain: polymers
+
+    - id: polymers.thermoplastics
+      name: "PVC pipe and tubing production"
+      domain: polymers
+
+    - id: polymers.composites
+      name: "Vacuum bagging composite manufacturing"
+      domain: polymers
+
+    - id: polymers.composites
+      name: "Resin transfer molding (RTM) capability"
+      domain: polymers
+
+    - id: polymers.composites
+      name: "First composite layup structural part"
+      domain: polymers
+
+    - id: aircraft
+      name: "Flyable ultralight aircraft test flight completed"
+      domain: aircraft
+
+    - id: petrochemicals
+      name: "Aviation fuel supply chain"
+      domain: petrochemicals
 
 tier_3_advanced:
   timeline: "Years 30-100+"
   items:
-    - id: semiconductor.fabrication.photolithography
+    - id: photolithography.resists-masks
       name: "Photolithography capability"
-      domain: semiconductor
+      domain: photolithography
 
-    - id: semiconductor.fabrication.first-ics
+    - id: photolithography.fab-processes
       name: "First integrated circuits (SSI/MSI)"
-      domain: semiconductor
+      domain: photolithography
 
-    - id: semiconductor.design.vlsi-scaling
+    - id: specialty-gases.packaging-testing
+      name: "Wafer packaging and testing"
+      domain: specialty-gases
+
+    - id: computing
+      name: "Early computers from own ICs"
+      domain: computing
+
+    - id: vlsi-scaling.continuous-scaling
       name: "VLSI scaling in progress"
-      domain: semiconductor
+      domain: vlsi-scaling
+
+    - id: vlsi-scaling.advanced-processes
+      name: "High-end solar cells in production"
+      domain: vlsi-scaling
+
+    - id: energy-storage
+      name: "Nuclear power research underway"
+      domain: energy-storage
+
+    - id: vlsi-scaling.eda-design
+      name: "GPU-scale VLSI design capability"
+      domain: vlsi-scaling
+
+    - id: polymers.composites
+      name: "Carbon fiber precursor development"
+      domain: polymers
+
+    - id: polymers.composites
+      name: "Aramid/Kevlar fiber precursor development"
+      domain: polymers
+
+    - id: polymers.composites
+      name: "Advanced composite manufacturing (filament winding, pultrusion)"
+      domain: polymers

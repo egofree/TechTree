@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Machine Tools Bootstrap</title>
+<link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+<div class="layout">
+<nav class="sidebar">
+<input type="text" id="search-input" placeholder="Search..." autocomplete="off" />
+<div id="search-results"></div>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/ceramics/refractories-advanced.html" class="sidebar__domain-link">Advanced Materials — Ceramics & Refractories</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/aircraft/development.html" class="sidebar__domain-link">Aircraft Development</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/chemistry/index.html" class="sidebar__domain-link">Chemistry</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/chemistry/alkalis-electrolysis.html">Alkali Production </a></li>
+<li><a href="../../docs/chemistry/distillation-gas-handling.html">Cement & Concrete </a></li>
+<li><a href="../../docs/chemistry/distillation-gas-handling.html">Distillation & Gas Handling </a></li>
+<li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/energy/index.html" class="sidebar__domain-link">Energy</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/energy/electricity-generation.html">Advanced Welding </a></li>
+<li><a href="../../docs/energy/coal-coke.html">Coal & Coke Production </a></li>
+<li><a href="../../docs/energy/electricity-generation.html">Electric Furnaces </a></li>
+<li><a href="../../docs/energy/electricity-generation.html">Electricity Generation & Distribution </a></li>
+<li><a href="../../docs/energy/electricity-generation.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity-generation.html">Internal Combustion Engines </a></li>
+<li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/energy-storage/storage-batteries.html" class="sidebar__domain-link">Energy Storage & Diversification</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/foundations/index.html" class="sidebar__domain-link">Foundations</a> <span class="badge badge--critical">★</span><span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/foundations/food-agriculture.html">Agriculture & Food Production </a></li>
+<li><a href="../../docs/foundations/fire-charcoal-tools.html">Fire-Making & Charcoal Production </a></li>
+<li><a href="../../docs/foundations/containers-refractories.html">Pottery & Kilns </a></li>
+<li><a href="../../docs/foundations/fire-charcoal-tools.html">Stone & Wood Tools </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/knowledge/writing-education.html" class="sidebar__domain-link">Knowledge Preservation & Education</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/lubricants/oils-fluid-mechanics.html" class="sidebar__domain-link">Lubricants, Oils & Fluid Mechanics</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain" open>
+<summary class="sidebar__domain-title"><a href="../../docs/machine-tools/iterative-bootstrap.html" class="sidebar__domain-link">Machine Tools Bootstrap</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li class="active"><a href="../../docs/machine-tools/iterative-bootstrap.html">Bearings, Abrasives & Cutting Tools </a></li>
+<li class="active"><a href="../../docs/machine-tools/iterative-bootstrap.html">Charcoal Foundry </a></li>
+<li class="active"><a href="../../docs/machine-tools/iterative-bootstrap.html">Iterative Machine Bootstrap </a></li>
+<li class="active"><a href="../../docs/machine-tools/iterative-bootstrap.html">Precision Metrology & Standards </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/metrology/standards-instruments.html" class="sidebar__domain-link">Measurement, Timekeeping & Metrology</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/computing/mechanical-computing.html" class="sidebar__domain-link">Mechanical Computing & Automation</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/metallurgy/index.html" class="sidebar__domain-link">Metallurgy</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/metallurgy/glass-lime.html">Basic Glass & Lime </a></li>
+<li><a href="../../docs/metallurgy/copper-bronze.html">Copper & Bronze Production </a></li>
+<li><a href="../../docs/metallurgy/iron-steel.html">Iron & Steel Production <span class="badge badge--critical">★</span></a></li>
+<li><a href="../../docs/metallurgy/iron-steel.html">Metalworking & Joining </a></li>
+<li><a href="../../docs/metallurgy/glass-lime.html">Water & Wind Power </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/mining/engineering.html" class="sidebar__domain-link">Mining Engineering & Extractive Metallurgy</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/petrochemicals/petroleum-alternatives.html" class="sidebar__domain-link">Petroleum & Alternative Chemistry</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/photolithography/index.html" class="sidebar__domain-link">Photolithography & IC Fabrication</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/photolithography/cleanrooms.html">Cleanrooms </a></li>
+<li><a href="../../docs/photolithography/fab-processes.html">Core Fab Processes </a></li>
+<li><a href="../../docs/photolithography/resists-masks-lithography.html">Photoresists, Masks & Lithography </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/polymers/overview.html" class="sidebar__domain-link">Polymers & Composites</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Composite Materials </a></li>
+<li><a href="../../">Natural Rubber & Vulcanization </a></li>
+<li><a href="../../">Synthetic Rubbers </a></li>
+<li><a href="../../">Thermoplastic Polymers </a></li>
+<li><a href="../../">Thermosetting Polymers </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/health/sanitation-medicine.html" class="sidebar__domain-link">Public Health, Sanitation & Medicine</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/silicon/index.html" class="sidebar__domain-link">Silicon</a> <span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/silicon/solar-cells-basic-devices.html">Basic Semiconductor Devices </a></li>
+<li><a href="../../docs/silicon/purification-crystal-growth.html">Crystal Growth & Wafering </a></li>
+<li><a href="../../docs/silicon/mg-si-production.html">Metallurgical-Grade Silicon Production </a></li>
+<li><a href="../../docs/silicon/purification-crystal-growth.html">Silicon Purification </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/specialty-gases/gases-packaging-testing.html" class="sidebar__domain-link">Specialty Gases, Consumables, Packaging & Testing</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Air Separation & Bulk Gas Production </a></li>
+<li><a href="../../">Dopant & Etch Gases </a></li>
+<li><a href="../../">Hydrogen & Silane Production </a></li>
+<li><a href="../../">Semiconductor Packaging & Testing </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/textiles/fiber-cordage.html" class="sidebar__domain-link">Textiles, Fiber & Cordage</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/transport/roads-railways-communication.html" class="sidebar__domain-link">Transportation, Logistics & Communication</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/vlsi-scaling/index.html" class="sidebar__domain-link">VLSI Scaling & Advanced Semiconductor</a> <span class="badge badge--pinnacle">🔺</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/vlsi-scaling/advanced-lithography.html">Advanced Lithography </a></li>
+<li><a href="../../docs/vlsi-scaling/vlsi-design-eda.html">Advanced Processes </a></li>
+<li><a href="../../docs/vlsi-scaling/continuous-scaling.html">Continuous Scaling </a></li>
+<li><a href="../../docs/vlsi-scaling/vlsi-design-eda.html">EDA, GPU Design & Advanced Packaging </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/vacuum-optics/index.html" class="sidebar__domain-link">Vacuum, Optics & Advanced Glass</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/vacuum-optics/glass-advanced.html">Advanced Glass Production </a></li>
+<li><a href="../../docs/vacuum-optics/optics-metrology.html">Optics & Inspection </a></li>
+<li><a href="../../docs/vacuum-optics/vacuum-systems.html">Vacuum Technology </a></li>
+</ul>
+</details>
+</nav>
+<main class="content">
+<h1>Machine Tools Bootstrap</h1>
+<div class="metadata-card">
+<h2 class="metadata-card__title">Machine Tools Bootstrap <span class="badge badge--critical" title="Master enabler: every later stage depends on precision parts — cylinders, leadscrews, slides, seals">★</span></h2>
+<div class="metadata-card__field"><span class="metadata-card__label">Node ID</span><span class="metadata-card__value"><code>machine-tools</code></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Domain</span><span class="metadata-card__value">machine-tools</span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Timeline</span><span class="metadata-card__value">Years 10-25</span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Outputs</span><span class="metadata-card__value"><code>lathe</code>, <code>shaper</code>, <code>mill</code>, <code>drill_press</code>, <code>grinder</code>, <code>precision_metrology</code>, <code>gears</code>, <code>screws</code>, <code>bearings</code>, <code>thread_standards</code>, <code>gauge_blocks</code>, <code>micrometers</code></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Dependencies</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/aircraft/development.html">aircraft</a> <a class="metadata-card__link" href="../../docs/computing/mechanical-computing.html">computing</a> <a class="metadata-card__link" href="../../docs/energy/electricity-generation.html">energy.electric-furnaces</a> <a class="metadata-card__link" href="../../docs/energy/electricity-generation.html">energy.ice</a> <a class="metadata-card__link" href="../../docs/energy/steam-power.html">energy.steam-power</a> <a class="metadata-card__link" href="../../docs/photolithography/index.html">photolithography</a> <a class="metadata-card__link" href="../../#">polymers.composites</a> <a class="metadata-card__link" href="../../#">polymers.synthetic-rubbers</a> <a class="metadata-card__link" href="../../#">polymers.thermoplastics</a> <a class="metadata-card__link" href="../../#">polymers.thermosets</a> <a class="metadata-card__link" href="../../docs/silicon/index.html">silicon</a> <a class="metadata-card__link" href="../../#">specialty-gases.packaging-testing</a> <a class="metadata-card__link" href="../../docs/transport/roads-railways-communication.html">transport</a> <a class="metadata-card__link" href="../../docs/vacuum-optics/index.html">vacuum-optics</a></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Enables</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/lubricants/oils-fluid-mechanics.html">lubricants</a> <a class="metadata-card__link" href="../../docs/metallurgy/index.html">metallurgy</a> <a class="metadata-card__link" href="../../docs/textiles/fiber-cordage.html">textiles</a></span></div>
+<div class="metadata-card__flags"><span class="metadata-card__flag"><span class="badge badge--critical" title="Master enabler: every later stage depends on precision parts — cylinders, leadscrews, slides, seals">★</span> Critical</span></div>
+</div>
+<h1>Machine Tools Bootstrap</h1>
+<blockquote>
+<p><strong>Node ID</strong>: <code>machine-tools</code>
+<strong>Also covers</strong>: <a class="node-ref" href="../../docs/machine-tools/iterative-bootstrap.html">machine-tools.foundry</a>, <a class="node-ref" href="../../docs/machine-tools/iterative-bootstrap.html">machine-tools.iterative-bootstrap</a>, <a class="node-ref" href="../../docs/machine-tools/iterative-bootstrap.html">machine-tools.precision-metrology</a>, <a class="node-ref" href="../../docs/machine-tools/iterative-bootstrap.html">machine-tools.bearings-abrasives</a>
+<strong>Domain</strong>: <a href="./">Machine Tools Bootstrap</a>
+<strong>Dependencies</strong>: <code>lubricants</code>, <a class="node-ref" href="../../docs/machine-tools/iterative-bootstrap.html">machine-tools.foundry</a>, <a class="node-ref" href="../../docs/machine-tools/iterative-bootstrap.html">machine-tools.iterative-bootstrap</a>, <code>metallurgy</code>, <a class="node-ref" href="../../docs/metallurgy/iron-steel.html">metallurgy.iron-steel</a>, <code>textiles</code>
+<strong>Enables</strong>: <code>aircraft</code>, <code>computing</code>, <a class="node-ref" href="../../docs/energy/electricity-generation.html">energy.electric-furnaces</a>, <a class="node-ref" href="../../docs/energy/electricity-generation.html">energy.ice</a>, <a class="node-ref" href="../../docs/energy/steam-power.html">energy.steam-power</a>, <a class="node-ref" href="../../docs/machine-tools/iterative-bootstrap.html">machine-tools.bearings-abrasives</a>, <a class="node-ref" href="../../docs/machine-tools/iterative-bootstrap.html">machine-tools.iterative-bootstrap</a>, <a class="node-ref" href="../../docs/machine-tools/iterative-bootstrap.html">machine-tools.precision-metrology</a>, <code>photolithography</code>, <code>polymers.composites</code>, <code>polymers.synthetic-rubbers</code>, <code>polymers.thermoplastics</code>, <code>polymers.thermosets</code>, <code>silicon</code>, <a class="node-ref" href="../../docs/silicon/purification-crystal-growth.html">silicon.crystal-growth</a>, <code>specialty-gases.packaging-testing</code>, <code>transport</code>, <code>vacuum-optics</code>
+<strong>Timeline</strong>: Years 10-25
+<strong>Outputs</strong>: lathe, shaper, mill, drill_press, grinder, precision_metrology, gears, screws, bearings, thread_standards, ...</p>
+</blockquote>
+<blockquote>
+<p><strong>This phase is the master enabler.</strong> Without precision machine tools, you cannot build the equipment for silicon processing, crystal pullers, vacuum pumps, lithography stages, or any semiconductor fabrication equipment. Everything from the Energy stage onward depends on this capability.</p>
+</blockquote>
+<h2>Philosophy: Gingery-Style Iterative Bootstrap</h2>
+<p>The approach follows Dave Gingery's proven method: build a crude foundry, cast a lathe, use the lathe to build better machines, and iterate. Each generation of machines produces parts for the next.</p>
+<pre><code>Hand tools → Foundry → Crude Lathe → Better Lathe → Shaper → Mill → Full Shop
+</code></pre>
+<h2>Key Technologies</h2>
+<h3>Charcoal Foundry (Scale-up from the Metallurgy stage)</h3>
+<p>The foundry is step zero. Every machine tool starts as a sand-cast iron or aluminum casting.</p>
+<p><strong>Crucible furnace for aluminum</strong>:</p>
+<ul>
+<li><strong>Crucible</strong>: Steel pipe with welded bottom, or fired clay-graphite crucible. 5-15 kg capacity for startup.</li>
+<li><strong>Fuel</strong>: Charcoal + forced air (electric blower or hand-cranked fan). Temperature needed: ~660°C (aluminum melts at 660°C, need ~750°C for fluidity).</li>
+<li><strong>Melting time</strong>: 20-40 minutes for 5 kg charge. Skim dross (aluminum oxide skin) before pouring.</li>
+<li><strong>Aluminum sourcing</strong>: Scrap aluminum (post-collapse salvage), or bauxite smelting (the Chemistry stage (Hall-Héroult — much harder). For bootstrap purposes, scrap or salvage is assumed available.</li>
+</ul>
+<p><strong>Crucible furnace for cast iron</strong> (for machine beds and heavy parts):</p>
+<ul>
+<li><strong>Temperature needed</strong>: ~1200-1400°C (cast iron melts ~1150-1250°C depending on carbon content). Requires significant forced air and good insulation.</li>
+<li><strong>Charge</strong>: Pig iron, scrap iron, or iron bloom + 2-4% carbon (coke/charcoal). Add limestone flux (CaCO₃) to form slag.</li>
+<li><strong>Crucible</strong>: Clay-graphite (withstands higher temps). Silicon carbide crucible if available.</li>
+<li><strong>Pouring</strong>: Preheat molds to 200-400°C. Pour steadily, keep sprue full to prevent shrinkage defects.</li>
+</ul>
+<p><strong>Sand molding (green sand)</strong>:</p>
+<ul>
+<li><strong>Sand</strong>: Fine silica sand (60-120 mesh, 90-95% SiO₂). River sand works if clean and fine.</li>
+<li><strong>Binder</strong>: Bentonite clay (8-12% by weight). If not available naturally, use any clay that provides bond strength.</li>
+<li><strong>Water</strong>: 3-6% by weight. Too much = steam explosions, gas porosity. Too little = sand crumbles, won't hold shape.</li>
+<li><strong>Mixing</strong>: Mull (knead) sand thoroughly — muller is a heavy wheel that grinds clay onto sand grains. Can be done by foot-treading for small batches. Test: squeeze sand in hand — should form a coherent cylinder that doesn't crumble, but breaks cleanly when snapped.</li>
+<li><strong>Mold boxes (flasks)</strong>: Two-part wooden frames (cope = top, drag = bottom). Sizes: 20×20 cm to 60×60 cm for startup work.</li>
+<li><strong>Pattern making</strong>: Carve wooden patterns ~1-2% oversize (shrinkage allowance — cast iron shrinks ~1%, aluminum ~1.3%). Add draft angles (1-3°) on vertical surfaces so pattern releases from sand. Include cores for internal passages (sand shapes held in place during pour).</li>
+<li><strong>Molding process</strong>: Place pattern in drag, ram sand around it (firm but not rock-hard — use peen end of rammer near pattern, flat end elsewhere). Flip drag, place cope on top, ram sand. Cut sprue (pouring channel) and risers (vent/feeding channels). Separate flasks, remove pattern carefully, close mold, pour.</li>
+</ul>
+<h3>The First Lathe (Gingery Lathe)</h3>
+<p>The first lathe is built from castings and hand-scraped flat surfaces. It doesn't need to be precise — it needs to exist.</p>
+<p><strong>Bed</strong>: Cast iron (or aluminum for very first version, though it flexes more). Length 60-90 cm, cross-section I-beam or box. Cast in sand mold, hand-scrape the top surfaces flat using:</p>
+<ul>
+<li><strong>Surface plate</strong> (first reference flat): Three plates, scraped alternately against each other (Whitworth's three-plate method). Start with a known-flat granite surface plate if available, or generate flats from scratch:
+<ol>
+<li>Scrape plate A against plate B until they show even bearing (red marking compound shows contact points).</li>
+<li>Scrape plate C against A.</li>
+<li>Scrape B against C.</li>
+<li>Repeat. After 3-5 iterations, all three converge to truly flat.</li>
+</ol>
+</li>
+<li><strong>Scraping technique</strong>: Use hand scraper (hardened steel blade, 15-25° cutting edge). Remove high spots identified by marking compound. Target: 20-30 contact points per 25×25 mm area. A skilled scraper covers ~0.5 m²/hour.</li>
+</ul>
+<p><strong>Headstock</strong>: Cast iron housing containing spindle. Spindle turned between centers on the lathe itself (bootstrap!). Or use a pre-made steel shaft, carefully aligned.</p>
+<ul>
+<li><strong>Spindle bearing</strong>: Initially plain bronze bushings (cast from the Metallurgy stage copper + tin). Bore to fit spindle using adjustable reamer.</li>
+<li><strong>Bearing clearance</strong>: 0.02-0.05 mm for smooth rotation without excessive play.</li>
+</ul>
+<p><strong>Tailstock</strong>: Cast iron body with sliding barrel (MT2 or MT3 taper for center/drill chuck). Locks to bed via clamp plate. Align tailstock center with headstock center by turning a test bar between centers — if diameter varies, adjust tailstock laterally.</p>
+<p><strong>Carriage/Toolpost</strong>: Initially a simple sliding rest (hand-fed). Leadscrew arrives later.</p>
+<ul>
+<li><strong>Tool post</strong>: Clamp-type holds square high-speed steel or carbon steel tool bits.</li>
+<li><strong>Cross slide</strong>: Screw-driven, perpendicular to spindle axis. Enables facing cuts and diameter control.</li>
+</ul>
+<p><strong>Power source</strong>: Foot treadle (bicycle-style mechanism via crank and flywheel) or water wheel via belt drive. Minimum 0.25 HP for useful work.</p>
+<h3>Iterative Self-Bootstrap Sequence</h3>
+<p>This is the heart of the Machine Tools stage. Each machine enables the next:</p>
+<p><strong>Step 1: Crude lathe</strong> (tolerance ~0.5 mm)</p>
+<ul>
+<li>Capable of: turning shafts, boring holes, facing flanges</li>
+<li>Use it to make: better bearings, true-running pulleys, leadscrew nuts</li>
+</ul>
+<p><strong>Step 2: Improved lathe with leadscrew</strong> (tolerance ~0.1 mm)</p>
+<ul>
+<li><strong>Leadscrew</strong>: First leadscrew is hand-cut (file or chisel into round bar, using thread gauge for checking). Not precise, but functional.</li>
+<li><strong>Half-nut mechanism</strong>: Split nut that engages/disengages leadscrew for threading.</li>
+<li><strong>Thread cutting</strong>: Mount change gears between spindle and leadscrew. Gear ratio determines thread pitch. Start with standard metric or imperial pitches.</li>
+<li>Use it to make: leadscrew for shaper, accurate threaded fasteners, taps and dies</li>
+</ul>
+<p><strong>Step 3: Shaper</strong> (tolerance ~0.05 mm)</p>
+<ul>
+<li><strong>Function</strong>: Single-point cutting tool reciprocates horizontally while work feeds laterally. Produces flat surfaces, keyways, slots, dovetails.</li>
+<li><strong>Construction</strong>: Cast iron body, ram driven by slotted crank (adjustable stroke length), automatic table feed (ratchet and pawl).</li>
+<li><strong>Key operation</strong>: Machining the flat ways for the mill, planing mating surfaces for machine slides.</li>
+<li><strong>Cutting speed</strong>: 10-30 m/min for cast iron with HSS tool. Stroke rate 20-60 per minute.</li>
+</ul>
+<p><strong>Step 4: Milling machine</strong> (tolerance ~0.025 mm)</p>
+<ul>
+<li><strong>Function</strong>: Rotating multi-tooth cutter removes material. More versatile than shaper — handles pockets, profiles, helical surfaces (gears).</li>
+<li><strong>Spindle</strong>: Driven by belt or gear from motor/line shaft. Speed 50-2000 RPM (adjustable via pulley changes).</li>
+<li><strong>Table</strong>: X-Y movement via leadscrews with graduated dials (0.025 mm divisions = &quot;one thou&quot;).</li>
+<li><strong>Use it to make</strong>: gear blanks, slots, flat reference surfaces, precision holes via boring head.</li>
+</ul>
+<p><strong>Step 5: Drill press</strong> (tolerance ~0.1 mm for hole location)</p>
+<ul>
+<li><strong>Spindle</strong>: Vertical, driven by belt. Morse taper (MT2) for drill chucks.</li>
+<li><strong>Table</strong>: Adjustable height. Angle plate for angled holes.</li>
+<li><strong>Speed range</strong>: 200-3000 RPM via step pulleys.</li>
+<li><strong>Critical for</strong>: Every subsequent machine and mechanism needs holes.</li>
+</ul>
+<p><strong>Step 6: Surface grinder</strong> (tolerance ~0.005 mm, surface finish ~0.4 μm Ra)</p>
+<ul>
+<li><strong>Requires</strong>: Abrasive wheel (aluminum oxide or silicon carbide — the Energy stage electric arc furnace needed for synthetic abrasives, or use natural emery/quartz wheels for cruder work).</li>
+<li><strong>Function</strong>: Spinning abrasive wheel removes microscopic amounts of material. Produces optically flat surfaces.</li>
+<li><strong>Essential for</strong>: Gauge blocks, machine ways, precision sealing surfaces (vacuum flanges, cylinder bores).</li>
+</ul>
+<h3>Precision Metrology</h3>
+<p>This is NOT optional — you cannot build what you cannot measure.</p>
+<p><strong>Surface plates</strong> (master reference flat):</p>
+<ul>
+<li>Cast iron (heavily ribbed underside to prevent warpage), aged 6+ months to relieve casting stresses before finishing. Hand-scraped to flatness ~0.005 mm over 300 mm length.</li>
+<li>OR granite (naturally stable, doesn't rust). Needs diamond abrasive to flatten — harder to produce from scratch but superior once made.</li>
+</ul>
+<p><strong>Straight edges</strong> (reference for checking flatness):</p>
+<ul>
+<li>Cast iron, 300-1000 mm long, I-beam cross-section. Scraped flat against surface plate.</li>
+<li>Test by placing on workpiece, checking light gap (0.01 mm gap visible as light line against dark background), or using marking compound.</li>
+</ul>
+<p><strong>Squares</strong> (reference for checking perpendicularity):</p>
+<ul>
+<li>Cast iron or steel. Blade and beam. Check by: place square against straight edge on surface plate, flip 180°, check if gap appears. If gap doubles, square is out by half the gap.</li>
+</ul>
+<p><strong>Calipers and dividers</strong>:</p>
+<ul>
+<li><strong>Outside calipers</strong>: Bow-shaped steel, adjustable via knurled nut. Transfer dimensions from workpiece to rule.</li>
+<li><strong>Inside calipers</strong>: Reverse bow for measuring bores.</li>
+<li><strong>Vernier calipers</strong>: Steel rule with sliding jaw and vernier scale (reads to 0.02 mm). Requires engraved graduations — use dividing head on mill.</li>
+<li><strong>Dividers</strong>: Two-legged steel tool for scribing circles and transferring distances.</li>
+</ul>
+<p><strong>Micrometers</strong> (iterative improvement):</p>
+<ul>
+<li><strong>Principle</strong>: Threaded spindle advances 0.5 mm per revolution. Thimble divided into 50 divisions = 0.01 mm resolution.</li>
+<li><strong>First micrometer</strong>: Make screw thread as accurately as possible on lathe. Lap the thread (run nut back and forth with grinding compound) to smooth errors. Calibrate against gauge blocks.</li>
+<li><strong>Frame</strong>: Steel or cast iron C-frame, rigid enough that 1 kg hand pressure doesn't deflect more than 0.001 mm.</li>
+<li><strong>Accuracy</strong>: First attempts ~0.05 mm. Iterate to ~0.01 mm. Production micrometers: 0.005 mm.</li>
+</ul>
+<p><strong>Gauge blocks (Jo-blocks)</strong>:</p>
+<ul>
+<li><strong>Material</strong>: Hardened and ground tool steel (or tungsten carbide for ultimate stability).</li>
+<li><strong>Manufacturing</strong>: Surface grind to rough size, then lap (rub against flat cast iron lap with fine abrasive paste) to final dimension. Requires temperature-controlled room (20°C ±0.5°C).</li>
+<li><strong>Accuracy grades</strong>: Workshop grade ±0.5 μm, inspection grade ±0.2 μm, master grade ±0.1 μm.</li>
+<li><strong>Wringing</strong>: Gauge blocks adhere when slid together (molecular attraction of ultra-flat surfaces). Stack to create any dimension.</li>
+</ul>
+<p><strong>Thread standards and gauges</strong>:</p>
+<ul>
+<li><strong>Go/No-Go gauges</strong>: Two-end gauge — &quot;Go&quot; end fits into proper thread (minimum material), &quot;No-Go&quot; end does not (maximum material). Verifies thread is within tolerance.</li>
+<li><strong>Thread pitch gauge</strong>: Set of toothed blades matching standard pitches. Identify unknown threads by matching.</li>
+</ul>
+<h3>Abrasives &amp; Grinding Media</h3>
+<p><strong>Natural abrasives (available immediately)</strong>:</p>
+<ul>
+<li><strong>Emery</strong>: Natural aluminum oxide (50-80% Al₂O₃) + iron oxide. Found in Greece, Turkey. Grit grades: coarse (24-60), medium (80-120), fine (150-240). For grinding and polishing.</li>
+<li><strong>Pumice</strong>: Volcanic glass, porous. Fine polishing.</li>
+<li><strong>Sandstone</strong>: Natural grinding wheels. Dress to shape with iron dresser.</li>
+<li><strong>Quartz sand</strong>: Ground to powder, sieved. Lapping and grinding compound.</li>
+<li><strong>Jeweler's rouge</strong> (iron oxide, Fe₂O₃): Fine polishing compound. Heat steel wool or iron filings in open air until red-hot. Grind resulting oxide to fine powder.</li>
+<li><strong>Tripoli</strong>: Silica-based polishing compound. Fine finish on soft metals.</li>
+</ul>
+<p><strong>Grit grading</strong>: Sieve abrasive through woven wire screens. Screen mesh number = grit number (60 mesh = 60 grit, particles ~250 μm). Stack sieves coarse to fine, shake, weigh fractions.</p>
+<p><strong>Synthetic abrasives (require the Energy stage electric arc furnace)</strong>:</p>
+<ul>
+<li><strong>Silicon carbide (SiC)</strong> — Acheson process: Silica sand + petroleum coke, heat in electric furnace to 2200-2500°C for 36-48 hours. SiO₂ + 3C → SiC + 2CO. Green to black crystalline mass. Crush, grade. Harder than aluminum oxide, sharp fracture.</li>
+<li><strong>Aluminum oxide (Al₂O₃)</strong> — Bauxite fused in electric arc furnace at 2000-2200°C. Cool, crush, grade. Tougher than SiC, better for steel grinding.</li>
+</ul>
+<p><strong>Lapping</strong>: Mix graded abrasive (600-1200 grit, ~5-25 μm) with oil or water into slurry. Place slurry between two flat surfaces, rub in figure-8 pattern. Removes ~0.001-0.01 mm per hour. Produces optically flat surfaces. Essential for gauge blocks, valve seats, bearing surfaces.</p>
+<h3>Thread Standards &amp; Fastener Production</h3>
+<p><strong>Thread profile standard</strong> (choose ONE system and standardize immediately):</p>
+<ul>
+<li><strong>Metric (ISO)</strong>: 60° thread angle, flat crests and roots. Designated M×pitch (e.g., M8×1.25 = 8 mm major diameter, 1.25 mm pitch). Coarse pitch series is default (M8 coarse = 1.25 mm pitch).</li>
+<li><strong>Unified (UNC/UNF)</strong>: 60° thread angle, flat crests, rounded roots. Designated by diameter + TPI (e.g., 5/16-18 UNC = 5/16&quot; diameter, 18 threads per inch, coarse series).</li>
+<li><strong>CRITICAL</strong>: Pick metric OR unified and commit. Mixing thread standards is a disaster for interchangeable parts. All taps, dies, gauges, and screws must match.</li>
+</ul>
+<p><strong>Thread cutting on lathe</strong>:</p>
+<ul>
+<li><strong>Setup</strong>: Mount workpiece in chuck. Install correct change gears between spindle and leadscrew for desired pitch. Gear ratio = (pitch to cut / leadscrew pitch) × (stud gear teeth / lead gear teeth).</li>
+<li><strong>Procedure</strong>: Engage half-nut on leadscrew. First pass at 0.1-0.2 mm depth. Disengage half-nut at end of cut, return carriage to start. Re-engage on SAME thread (use thread dial indicator). Increase depth 0.1-0.2 mm per pass. Total depth for 60° thread = 0.614 × pitch. Final pass at full depth with light cut for smooth finish.</li>
+</ul>
+<p><strong>Tap and die production</strong>:</p>
+<ul>
+<li><strong>Taps</strong> (cut internal threads): Turn HSS rod to diameter, cut 3-4 flutes with mill, thread between flutes on lathe, harden and temper. Three-tap set: taper tap (starts easily), plug tap (general use), bottoming tap (threads to bottom of blind hole).</li>
+<li><strong>Dies</strong> (cut external threads): Hardened steel plate with threaded hole and 3-4 cutting edges, split by adjustable slot. Die stock holds die and provides leverage.</li>
+</ul>
+<p><strong>Bolt making</strong>: Heat rod end, upset in heading tool to form hex/square head. Turn shank to diameter, cut threads with die. Heat treatment for high-strength bolts: harden at 820°C, quench in oil, temper at 400-500°C (~800 MPa tensile).</p>
+<h3>Bearing Design &amp; Production</h3>
+<p><strong>Plain (journal) bearings</strong>:</p>
+<ul>
+<li><strong>Construction</strong>: Cylindrical housing with removable babbitt liner. Babbitt metal: Sn-Sb-Cu alloy (88/8/4 typical) — soft, embeds dirt, conforms to shaft. Pour molten babbitt into shell around mandrel.</li>
+<li><strong>Clearance</strong>: 0.001-0.002 × shaft diameter (50 mm shaft = 0.05-0.10 mm radial clearance). Too tight → seizure. Too loose → vibration.</li>
+<li><strong>Load capacity</strong>: Allowable bearing pressure 2-8 MPa for babbitt on steel.</li>
+</ul>
+<p><strong>Rolling element bearings</strong> (Machine Tools+ precision):</p>
+<ul>
+<li><strong>Ball bearing</strong>: Inner ring, outer ring (hardened 52100 steel, 1% C, 1.5% Cr), balls, cage (brass or stamped steel). Standard 6200 series (light): e.g., 6205 = 25 mm bore × 52 mm OD × 15 mm width.</li>
+<li><strong>Ball production</strong>: Cut wire → cold head into rough spheres → grind between grooved ring plates → lap to 1-5 μm variation. Harden 820-860°C, oil quench, temper 150-200°C.</li>
+<li><strong>Ring production</strong>: Forge from bearing steel → turn → heat treat (58-62 HRC) → grind raceways → super-finish to 0.05 μm Ra.</li>
+<li><strong>Assembly</strong>: Press balls into cage between races, rivet cage, pack with grease.</li>
+</ul>
+<h3>Lubrication &amp; Coolants</h3>
+<ul>
+<li><strong>Tallow and lard</strong>: Grease plain bearings (apply by hand or oil cup). Lard oil as cutting fluid for turning and threading — reduces friction, improves finish.</li>
+<li><strong>Vegetable oil</strong> (linseed, castor): Cutting fluid for brass and aluminum. Not ideal for steel (polymerizes and gums).</li>
+<li><strong>Water with soluble oil</strong>: Best for heavy machining (grinding, milling). 20:1 water-to-emulsifiable-oil ratio. Cools AND lubricates.</li>
+<li><strong>Sulfurized cutting oil</strong>: For heavy turning and gear cutting. Add flowers of sulfur (5-10%) to mineral oil or lard oil. Extreme pressure lubrication.</li>
+<li>See <a href="../lubricants/oils-fluid-mechanics.html">Lubricants</a> for the full production chain.</li>
+</ul>
+<h3>Cutting Tool Materials</h3>
+<p><strong>Carbon steel tool bits</strong> (first available, the Metallurgy stage steel):</p>
+<ul>
+<li>Composition: 0.8-1.3% carbon steel. Harden by heating to 780-820°C and quenching, temper at 200-250°C.</li>
+<li>Cutting speed: 5-10 m/min for steel, 15-30 m/min for cast iron and brass.</li>
+<li>Loses hardness above ~200°C — limited to light cuts and slow speeds.</li>
+</ul>
+<p><strong>High-speed steel (HSS)</strong> (the Energy-Chemistry stage transition, needs alloy elements):</p>
+<ul>
+<li>Composition: Tungsten (18%), chromium (4%), vanadium (1%), carbon (0.7-0.8%) — classic T1 grade. M2 grade: 6% W, 5% Mo, 4% Cr, 2% V.</li>
+<li>Hardness retained to ~600°C — 3-5x faster cutting than carbon steel.</li>
+<li>Manufacturing: Melt alloy in electric furnace (Energy), cast, forge, heat treat (austenitize at 1250-1300°C, quench in oil, triple temper at 540-570°C).</li>
+</ul>
+<p><strong>Tool grinding</strong>: Grind tool bits on abrasive wheel to correct geometry:</p>
+<ul>
+<li><strong>Rake angle</strong>: Positive (5-15°) for aluminum/brass, neutral to negative for steel/heavy cuts.</li>
+<li><strong>Relief/clearance angle</strong>: 6-12° below cutting edge.</li>
+<li><strong>Nose radius</strong>: 0.5-2 mm for finishing, sharp for roughing.</li>
+</ul>
+<h2>Enables (Downstream)</h2>
+<table>
+<thead>
+<tr>
+<th>Output</th>
+<th>Used By</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Precision cylinders (bored true)</td>
+<td>Energy (steam engine cylinders — the critical part)</td>
+</tr>
+<tr>
+<td>Screws, gears, bearings</td>
+<td>Energy (generators, motors), Chemistry (pumps, valves, reactors)</td>
+</tr>
+<tr>
+<td>Flat surfaces (scraped/lapped)</td>
+<td>Vacuum &amp; Optics (optical benches, vacuum seals, gauge blocks)</td>
+</tr>
+<tr>
+<td>Wire drawing dies</td>
+<td>Energy (wire for generators, motors, transformers)</td>
+</tr>
+<tr>
+<td>Crystal puller mechanics</td>
+<td>Silicon (Czochralski growth — precision leadscrew for pull mechanism)</td>
+</tr>
+<tr>
+<td>Wafer saws, polishers</td>
+<td>Silicon (wafer slicing and CMP)</td>
+</tr>
+<tr>
+<td>Lithography stages/aligners</td>
+<td>Photolithography (X-Y-θ stages with μm precision)</td>
+</tr>
+<tr>
+<td>Vacuum pump parts</td>
+<td>Vacuum &amp; Optics (precision cylinders, vanes, valves for rotary pumps)</td>
+</tr>
+<tr>
+<td>Thread standards</td>
+<td>ALL subsequent manufacturing (every bolt, screw, pipe fitting)</td>
+</tr>
+</tbody>
+</table>
+<h2>The Iteration Loop</h2>
+<pre><code>Lathe → makes parts for Shaper
+Shaper → makes flat surfaces for Mill
+Mill → makes parts for better Lathe
+Better Lathe → makes parts for Grinder
+Grinder → makes parts for everything better
+</code></pre>
+<p>This compounding improvement is the most powerful feedback loop in the entire tech tree. Each machine roughly doubles the precision achievable with the previous generation.</p>
+<h2>Precision Achievement Milestones</h2>
+<table>
+<thead>
+<tr>
+<th>Generation</th>
+<th>Best Tolerance</th>
+<th>Surface Finish</th>
+<th>Achievable With</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 (hand tools)</td>
+<td>~1 mm</td>
+<td>Rough</td>
+<td>File, scraper</td>
+</tr>
+<tr>
+<td>1 (crude lathe)</td>
+<td>~0.5 mm</td>
+<td>10 μm Ra</td>
+<td>Hand-fed, no leadscrew</td>
+</tr>
+<tr>
+<td>2 (leadscrew lathe)</td>
+<td>~0.1 mm</td>
+<td>3 μm Ra</td>
+<td>Screw-driven feed</td>
+</tr>
+<tr>
+<td>3 (shaper + mill)</td>
+<td>~0.05 mm</td>
+<td>1.5 μm Ra</td>
+<td>Rigid machines, HSS tools</td>
+</tr>
+<tr>
+<td>4 (surface grinder)</td>
+<td>~0.005 mm</td>
+<td>0.4 μm Ra</td>
+<td>Abrasive wheel, solid base</td>
+</tr>
+<tr>
+<td>5 (lapped/gauge block)</td>
+<td>~0.001 mm</td>
+<td>0.1 μm Ra</td>
+<td>Hand lapping, temperature control</td>
+</tr>
+</tbody>
+</table>
+<h2>Practical Bottlenecks</h2>
+<ul>
+<li><strong>First precision</strong>: The gap between &quot;hand-made&quot; and &quot;machine-made&quot; is the hardest to bridge. Expect weeks of scraping to get the first truly flat surface.</li>
+<li><strong>Flatness and straightness</strong>: Surface plate scraping is tedious (50-100 hours for a 300×450 mm plate) but essential. No shortcut exists.</li>
+<li><strong>Thread cutting</strong>: Accurate leadscrews require patience and iterative improvement. First leadscrew may have 0.1-0.2 mm pitch error. Use it to make a better one. Each generation halves the error.</li>
+<li><strong>Materials</strong>: Need consistent cast iron for beds and slideways. Cast iron machines well, absorbs vibration, holds dimension. Aluminum is too flexible for precision machines.</li>
+<li><strong>Flat belt slipping</strong>: Leather belts slip under heavy load. Keep belts clean, apply belt dressing (rosin/beeswax mixture). Tighten adequately. Toothed belts arrive much later.</li>
+</ul>
+<h2>Safety Concerns</h2>
+<ul>
+<li><strong>Rotating machinery</strong>: Entanglement hazard — no loose clothing, tie back hair, remove rings and jewelry. Lathe chucks can grab and pull in entire arm.</li>
+<li><strong>Hot metal and burns</strong>: Casting involves 660°C (aluminum) to 1250°C (cast iron) metal. Use tongs, leather aprons, face shields. Preheat molds to prevent steam explosions.</li>
+<li><strong>Metal chips and eye protection</strong>: Turning produces sharp, hot chips (especially steel — blue-hot spirals). Safety glasses mandatory. Chip guards on lathes.</li>
+<li><strong>Heavy castings</strong>: Machine beds weigh 50-200 kg. Use hoists, rollers, team lifts. Never lift alone.</li>
+<li><strong>Abrasive wheels</strong>: Can explode if damaged or oversped. Ring test new wheels (suspend and tap — clear ring = good, dull thud = cracked). Never exceed rated RPM. Use wheel guards.</li>
+</ul>
+<h2>References</h2>
+<ul>
+<li>Dave Gingery, <em>Build Your Own Metal Working Shop from Scrap</em> (7-volume series) — the definitive bootstrap guide</li>
+<li>L. T. C. Rolt, <em>Tools for the Job</em> (history of machine tools)</li>
+<li>Moltrecht, <em>Machine Shop Practice</em> (practical machining reference)</li>
+</ul>
+<h2>parallel technology Dependencies</h2>
+<ul>
+<li><strong><a href="../metrology/standards-instruments.html">Metrology</a></strong> — deeply intertwined; you cannot build what you cannot measure. Every tolerance in this phase requires calibrated instruments.</li>
+<li><strong><a href="../textiles/fiber-cordage.html">Textiles</a></strong> — drive belts for line shafts powering machine tools. Canvas or leather belts transmit water wheel or steam engine power to every machine.</li>
+<li><strong><a href="../lubricants/oils-fluid-mechanics.html">Lubricants: Lubricants &amp; Oils</a></strong> — bearing lubrication (tallow, lard) and cutting fluids essential for precision work and tool life.</li>
+<li><strong><a href="../aircraft/development.html">Aircraft</a></strong> — precision cylinders, gear cutting (dividing head), and crankshaft machining from the Machine Tools stage directly enable aircraft piston engines.</li>
+</ul>
+<hr />
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="../">All Domains</a></em></p>
+
+</main>
+</div>
+<footer class="footer">
+<p>Part of the Bootciv Tech Tree</p>
+</footer>
+<script src="../../assets/mermaid.min.js"></script>
+<script src="../../assets/search-index.js"></script>
+<script src="../../assets/search.js"></script>
+<script src="../../assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bootciv Tech Tree</title>
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<div class="layout">
+<nav class="sidebar">
+<input type="text" id="search-input" placeholder="Search..." autocomplete="off" />
+<div id="search-results"></div>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/ceramics/refractories-advanced.html" class="sidebar__domain-link">Advanced Materials — Ceramics & Refractories</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/aircraft/development.html" class="sidebar__domain-link">Aircraft Development</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/chemistry/index.html" class="sidebar__domain-link">Chemistry</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="docs/chemistry/alkalis-electrolysis.html">Alkali Production </a></li>
+<li><a href="docs/chemistry/distillation-gas-handling.html">Cement & Concrete </a></li>
+<li><a href="docs/chemistry/distillation-gas-handling.html">Distillation & Gas Handling </a></li>
+<li><a href="docs/chemistry/acids.html">Mineral Acid Production </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/energy/index.html" class="sidebar__domain-link">Energy</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="docs/energy/electricity-generation.html">Advanced Welding </a></li>
+<li><a href="docs/energy/coal-coke.html">Coal & Coke Production </a></li>
+<li><a href="docs/energy/electricity-generation.html">Electric Furnaces </a></li>
+<li><a href="docs/energy/electricity-generation.html">Electricity Generation & Distribution </a></li>
+<li><a href="docs/energy/electricity-generation.html">Electrolysis </a></li>
+<li><a href="docs/energy/electricity-generation.html">Internal Combustion Engines </a></li>
+<li><a href="docs/energy/steam-power.html">Steam Power </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/energy-storage/storage-batteries.html" class="sidebar__domain-link">Energy Storage & Diversification</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/foundations/index.html" class="sidebar__domain-link">Foundations</a> <span class="badge badge--critical">★</span><span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="docs/foundations/food-agriculture.html">Agriculture & Food Production </a></li>
+<li><a href="docs/foundations/fire-charcoal-tools.html">Fire-Making & Charcoal Production </a></li>
+<li><a href="docs/foundations/containers-refractories.html">Pottery & Kilns </a></li>
+<li><a href="docs/foundations/fire-charcoal-tools.html">Stone & Wood Tools </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/knowledge/writing-education.html" class="sidebar__domain-link">Knowledge Preservation & Education</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/lubricants/oils-fluid-mechanics.html" class="sidebar__domain-link">Lubricants, Oils & Fluid Mechanics</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/machine-tools/iterative-bootstrap.html" class="sidebar__domain-link">Machine Tools Bootstrap</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="docs/machine-tools/iterative-bootstrap.html">Bearings, Abrasives & Cutting Tools </a></li>
+<li><a href="docs/machine-tools/iterative-bootstrap.html">Charcoal Foundry </a></li>
+<li><a href="docs/machine-tools/iterative-bootstrap.html">Iterative Machine Bootstrap </a></li>
+<li><a href="docs/machine-tools/iterative-bootstrap.html">Precision Metrology & Standards </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/metrology/standards-instruments.html" class="sidebar__domain-link">Measurement, Timekeeping & Metrology</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/computing/mechanical-computing.html" class="sidebar__domain-link">Mechanical Computing & Automation</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/metallurgy/index.html" class="sidebar__domain-link">Metallurgy</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="docs/metallurgy/glass-lime.html">Basic Glass & Lime </a></li>
+<li><a href="docs/metallurgy/copper-bronze.html">Copper & Bronze Production </a></li>
+<li><a href="docs/metallurgy/iron-steel.html">Iron & Steel Production <span class="badge badge--critical">★</span></a></li>
+<li><a href="docs/metallurgy/iron-steel.html">Metalworking & Joining </a></li>
+<li><a href="docs/metallurgy/glass-lime.html">Water & Wind Power </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/mining/engineering.html" class="sidebar__domain-link">Mining Engineering & Extractive Metallurgy</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/petrochemicals/petroleum-alternatives.html" class="sidebar__domain-link">Petroleum & Alternative Chemistry</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/photolithography/index.html" class="sidebar__domain-link">Photolithography & IC Fabrication</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="docs/photolithography/cleanrooms.html">Cleanrooms </a></li>
+<li><a href="docs/photolithography/fab-processes.html">Core Fab Processes </a></li>
+<li><a href="docs/photolithography/resists-masks-lithography.html">Photoresists, Masks & Lithography </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/polymers/overview.html" class="sidebar__domain-link">Polymers & Composites</a> </summary>
+<ul class="sidebar__capabilities">
+<li>Composite Materials </li>
+<li>Natural Rubber & Vulcanization </li>
+<li>Synthetic Rubbers </li>
+<li>Thermoplastic Polymers </li>
+<li>Thermosetting Polymers </li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/health/sanitation-medicine.html" class="sidebar__domain-link">Public Health, Sanitation & Medicine</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/silicon/index.html" class="sidebar__domain-link">Silicon</a> <span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="docs/silicon/solar-cells-basic-devices.html">Basic Semiconductor Devices </a></li>
+<li><a href="docs/silicon/purification-crystal-growth.html">Crystal Growth & Wafering </a></li>
+<li><a href="docs/silicon/mg-si-production.html">Metallurgical-Grade Silicon Production </a></li>
+<li><a href="docs/silicon/purification-crystal-growth.html">Silicon Purification </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/specialty-gases/gases-packaging-testing.html" class="sidebar__domain-link">Specialty Gases, Consumables, Packaging & Testing</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li>Air Separation & Bulk Gas Production </li>
+<li>Dopant & Etch Gases </li>
+<li>Hydrogen & Silane Production </li>
+<li>Semiconductor Packaging & Testing </li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/textiles/fiber-cordage.html" class="sidebar__domain-link">Textiles, Fiber & Cordage</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/transport/roads-railways-communication.html" class="sidebar__domain-link">Transportation, Logistics & Communication</a> </summary>
+<ul class="sidebar__capabilities">
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/vlsi-scaling/index.html" class="sidebar__domain-link">VLSI Scaling & Advanced Semiconductor</a> <span class="badge badge--pinnacle">🔺</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="docs/vlsi-scaling/advanced-lithography.html">Advanced Lithography </a></li>
+<li><a href="docs/vlsi-scaling/vlsi-design-eda.html">Advanced Processes </a></li>
+<li><a href="docs/vlsi-scaling/continuous-scaling.html">Continuous Scaling </a></li>
+<li><a href="docs/vlsi-scaling/vlsi-design-eda.html">EDA, GPU Design & Advanced Packaging </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="docs/vacuum-optics/index.html" class="sidebar__domain-link">Vacuum, Optics & Advanced Glass</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="docs/vacuum-optics/glass-advanced.html">Advanced Glass Production </a></li>
+<li><a href="docs/vacuum-optics/optics-metrology.html">Optics & Inspection </a></li>
+<li><a href="docs/vacuum-optics/vacuum-systems.html">Vacuum Technology </a></li>
+</ul>
+</details>
+</nav>
+<main class="content">
+<h1>Bootciv Tech Tree</h1>
+
+<h1>Bootciv Tech Tree</h1>
+<blockquote>
+<p>A complete dependency chain for bootstrapping industrial civilization from stone-age materials to semiconductor manufacturing (GPUs, solar cells, ICs).</p>
+</blockquote>
+<p>The tree maps every technology, material, and process needed to go from fire and stone tools to integrated circuit fabrication. It assumes a knowledgeable group starting in a resource-rich area with access to quartz, iron ore, coal, and limestone, but no pre-existing tools or infrastructure.</p>
+<h2>How to Read This Tree</h2>
+<p>Three levels, top to bottom:</p>
+<p><strong>Domain</strong> — a broad technology area like metallurgy, energy, or silicon. Each domain is a self-contained world of related processes. Domains are the navigation units for this tree.</p>
+<p><strong>Capability</strong> — a specific achievement within a domain, like iron smelting or crystal growth. Capabilities have dotted IDs showing their parent: <a class="node-ref" href="docs/metallurgy/iron-steel.html">metallurgy.iron-steel</a>, <a class="node-ref" href="docs/silicon/purification-crystal-growth.html">silicon.crystal-growth</a>.</p>
+<p><strong>Process</strong> — a detailed method or operation, like Czochralski pulling or blast furnace operation. These carry two dots: <code>silicon.crystal-growth.cz-pulling</code>.</p>
+<p>Dependencies use these dotted IDs. When photolithography requires silicon, the edge reads <code>{from: &quot;photolithography&quot;, to: &quot;silicon&quot;}</code>. The full graph lives in edges.json.</p>
+<h2>Quick Start Path</h2>
+<p>The critical path through the tree, in rough chronological order. These domains form the spine: each depends on those before it.</p>
+<ol>
+<li><strong><a href="docs/foundations/index.html">Foundations</a></strong> — fire, charcoal, food surplus, kilns, pottery</li>
+<li><strong>Mining</strong> — ore access for every metallurgical process</li>
+<li><strong><a href="docs/metallurgy/index.html">Metallurgy</a></strong> — copper, bronze, iron, steel, basic glass</li>
+<li><strong>Machine Tools</strong> — the master enabler: lathe, shaper, mill, grinder</li>
+<li><strong><a href="docs/energy/index.html">Energy</a></strong> — coal, coke, steam engines, electricity, arc furnaces</li>
+<li><strong><a href="docs/chemistry/index.html">Chemistry</a></strong> — mineral acids, alkalis, distillation, gas handling</li>
+<li><strong><a href="docs/vacuum-optics/index.html">Vacuum &amp; Optics</a></strong> — vacuum pumps, advanced glass, microscopes</li>
+<li><strong><a href="docs/silicon/index.html">Silicon</a></strong> — MG-Si production, crystal growth, solar cells</li>
+<li><strong><a href="docs/photolithography/index.html">Photolithography</a></strong> — cleanrooms, lithography, IC fabrication</li>
+<li><strong><a href="docs/vlsi-scaling/index.html">VLSI Scaling</a></strong> — continuous improvement toward GPUs and advanced solar</li>
+</ol>
+<p>Several other domains are also marked critical because their absence blocks downstream work: knowledge, textiles, lubricants, specialty gases.</p>
+<h2>Domain Listing</h2>
+<table>
+<thead>
+<tr>
+<th>Domain</th>
+<th style="text-align:center">Capabilities</th>
+<th style="text-align:center">Critical?</th>
+<th>Key Outputs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="docs/foundations/index.html">Foundations</a></td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">Yes</td>
+<td>food surplus, charcoal, kilns, pottery</td>
+</tr>
+<tr>
+<td>Mining</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">Yes</td>
+<td>copper ore, iron ore, coal, quartz</td>
+</tr>
+<tr>
+<td><a href="docs/metallurgy/index.html">Metallurgy</a></td>
+<td style="text-align:center">5</td>
+<td style="text-align:center"></td>
+<td>copper, iron, steel, glass, lime</td>
+</tr>
+<tr>
+<td>Machine Tools</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">Yes</td>
+<td>lathe, mill, grinder, precision metrology</td>
+</tr>
+<tr>
+<td><a href="docs/energy/index.html">Energy</a></td>
+<td style="text-align:center">7</td>
+<td style="text-align:center"></td>
+<td>steam engines, electricity, arc furnaces</td>
+</tr>
+<tr>
+<td><a href="docs/chemistry/index.html">Chemistry</a></td>
+<td style="text-align:center">4</td>
+<td style="text-align:center"></td>
+<td>mineral acids, alkalis, cement, gas handling</td>
+</tr>
+<tr>
+<td><a href="docs/vacuum-optics/index.html">Vacuum &amp; Optics</a></td>
+<td style="text-align:center">3</td>
+<td style="text-align:center"></td>
+<td>vacuum pumps, fused silica, microscopes</td>
+</tr>
+<tr>
+<td><a href="docs/silicon/index.html">Silicon</a></td>
+<td style="text-align:center">4</td>
+<td style="text-align:center"></td>
+<td>MG-Si, wafers, solar cells, transistors</td>
+</tr>
+<tr>
+<td><a href="docs/photolithography/index.html">Photolithography</a></td>
+<td style="text-align:center">3</td>
+<td style="text-align:center"></td>
+<td>cleanrooms, lithography, ICs</td>
+</tr>
+<tr>
+<td><a href="docs/vlsi-scaling/index.html">VLSI Scaling</a></td>
+<td style="text-align:center">4</td>
+<td style="text-align:center"></td>
+<td>GPUs, advanced solar, EDA tools</td>
+</tr>
+<tr>
+<td>Knowledge</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">Yes</td>
+<td>writing, printing, education, libraries</td>
+</tr>
+<tr>
+<td>Metrology</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center"></td>
+<td>length standards, timekeeping, calibration</td>
+</tr>
+<tr>
+<td>Textiles</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">Yes</td>
+<td>cordage, cloth, rope, drive belts</td>
+</tr>
+<tr>
+<td>Lubricants</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">Yes</td>
+<td>oils, grease, cutting fluid, vacuum oil</td>
+</tr>
+<tr>
+<td>Petrochemicals</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center"></td>
+<td>fuels, solvents, ethanol, coal tar</td>
+</tr>
+<tr>
+<td>Computing</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center"></td>
+<td>slide rules, calculators, automation</td>
+</tr>
+<tr>
+<td>Health</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center"></td>
+<td>clean water, sanitation, pharmaceuticals</td>
+</tr>
+<tr>
+<td>Transport</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center"></td>
+<td>roads, railways, telegraph, logistics</td>
+</tr>
+<tr>
+<td>Specialty Gases</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">Yes</td>
+<td>argon, silane, dopant gases, etch gases</td>
+</tr>
+<tr>
+<td>Energy Storage</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center"></td>
+<td>batteries, grid infrastructure, UPS</td>
+</tr>
+<tr>
+<td>Advanced Materials</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center"></td>
+<td>refractories, technical ceramics</td>
+</tr>
+<tr>
+<td>Aircraft</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center"></td>
+<td>engines, airframes, propellers</td>
+</tr>
+<tr>
+<td>Polymers</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center"></td>
+<td>rubber, FR-4, PTFE, fiberglass</td>
+</tr>
+</tbody>
+</table>
+<h2>Dependency Overview</h2>
+<p>See the full dependency diagram for the complete directed acyclic graph of all domain-level dependencies.</p>
+<h2>Parallel Opportunities</h2>
+<p>These domains can begin early, independent of the main critical path. Starting them in parallel accelerates the whole effort.</p>
+<ul>
+<li><strong>Knowledge</strong> — writing, printing, education. Start Day 1. The 50-200 year bootstrapping effort dies with the first generation without knowledge transmission.</li>
+<li><strong>Textiles</strong> — fiber, spinning, rope. Start Day 1. Cordage and cloth underpin mining hoists, tool hafting, and power transmission.</li>
+<li><strong>Lubricants</strong> — oils from animal fats and vegetable sources. Start Day 1. Without lubrication, every bearing and slide seizes.</li>
+<li><strong>Petrochemicals</strong> — fermentation produces ethanol, acetone, and acetic acid without petroleum. Start Day 1.</li>
+<li><strong>Computing</strong> — mechanical calculation with slide rules and nomograms. Start as soon as marking tools exist.</li>
+<li><strong>Health</strong> — sanitation, water purification, quarantine protocols. Start Day 1. Skilled workers are the scarcest resource.</li>
+<li><strong>Transport</strong> — road construction and basic bridges expand the reachable resource base early on.</li>
+<li><strong>Metrology</strong> — base unit standards and basic measuring instruments. Start alongside early toolmaking.</li>
+</ul>
+<h2>Data Layer</h2>
+<p>Structured data files backing this tree:</p>
+<ul>
+<li>nodes.json — complete node definitions (23 domains, 47 capabilities, 1 process)</li>
+<li>edges.json — dependency graph (directed, acyclic)</li>
+<li>checklist.yaml — milestone checklist with progression tracking</li>
+<li>resources.json — raw material catalog with criticality ratings</li>
+<li>dependencies.json — legacy dependency matrix</li>
+</ul>
+<h2>Supporting Docs</h2>
+<ul>
+<li>Minimum Viable Civilization Checklist</li>
+<li>Dependencies &amp; Resources</li>
+<li>Resource Catalog</li>
+</ul>
+<h2>Contributing</h2>
+<p>See AGENTS.md for project conventions and file structure.</p>
+
+<h2>Milestone Tiers</h2>
+<h2>Tier 0 Survival (Years 0-5)</h2>
+<ul>
+<li><a href="docs/foundations/fire-charcoal-tools.html">Fire-making and charcoal production (combined: friction/flint ignition + controlled pyrolysis)</a></li>
+<li><a href="docs/foundations/fire-charcoal-tools.html">Basic stone and wood tools</a></li>
+<li><a href="docs/foundations/food-agriculture.html">Agriculture surplus and animal domestication for labor</a></li>
+<li><a href="docs/mining/engineering.html">Basic mining and prospecting</a></li>
+<li><a href="docs/foundations/containers-refractories.html">Pottery and kilns</a></li>
+<li><a href="docs/knowledge/writing-education.html">Writing system developed</a></li>
+<li><a href="docs/metrology/standards-instruments.html">Standardized basic measurements</a></li>
+<li><a href="docs/health/sanitation-medicine.html">Sanitation and basic health practices</a></li>
+<li><a href="docs/textiles/fiber-cordage.html">Fiber crop cultivation (flax, hemp)</a></li>
+<li><a href="docs/textiles/fiber-cordage.html">Drop spindle spinning and hand-laid rope</a></li>
+<li><a href="docs/mining/engineering.html">Surface mining, prospecting, and ore identification</a></li>
+<li><a href="docs/mining/engineering.html">Timber shoring and basic shaft mining</a></li>
+</ul>
+<h2>Tier 1 Industrial (Years 5-20)</h2>
+<ul>
+<li><a href="docs/metallurgy/copper-bronze.html">Copper smelting and bronze alloying</a></li>
+<li><a href="docs/metallurgy/iron-steel.html">Iron smelting to wrought iron to steel</a></li>
+<li><a href="docs/metallurgy/iron-steel.html">Basic metalworking tools</a></li>
+<li><a href="docs/machine-tools/iterative-bootstrap.html">Charcoal foundry operational</a></li>
+<li><a href="docs/machine-tools/iterative-bootstrap.html">First crude lathe built</a></li>
+<li><a href="docs/energy/steam-power.html">Steam power developed</a></li>
+<li><a href="docs/energy/electricity-generation.html">First generators operational</a></li>
+<li><a href="docs/chemistry/acids.html">Sulfuric acid production</a></li>
+<li><a href="docs/knowledge/writing-education.html">Printing press operational</a></li>
+<li><a href="docs/computing/mechanical-computing.html">Mechanical computing aids (slide rules)</a></li>
+<li><a href="docs/lubricants/oils-fluid-mechanics.html">Animal fat lubricant supply (tallow, lard)</a></li>
+<li><a href="docs/lubricants/oils-fluid-mechanics.html">Cutting fluid production for machining</a></li>
+<li><a href="docs/lubricants/oils-fluid-mechanics.html">Grease production (soap-thickened)</a></li>
+<li><a href="docs/lubricants/oils-fluid-mechanics.html">Hydraulic fluid for presses and machine tools</a></li>
+<li><a href="docs/mining/engineering.html">Mine pumping and hoisting</a></li>
+<li><a href="docs/mining/engineering.html">Ore dressing: crushing, washing, gravity separation</a></li>
+<li><a href="docs/aircraft/development.html">Airframe construction capability</a></li>
+<li><a href="docs/aircraft/development.html">Small piston engine operational (20+ HP)</a></li>
+<li><a href="docs/aircraft/development.html">Carved and balanced wooden propeller</a></li>
+<li>Natural rubber vulcanization capability</li>
+<li>First molded Bakelite parts</li>
+<li>Basic fiberglass panel production (hand layup)</li>
+</ul>
+<h2>Tier 2 Semiconductor (Years 15-40)</h2>
+<ul>
+<li><a href="docs/machine-tools/iterative-bootstrap.html">Full machine shop operational</a></li>
+<li><a href="docs/energy/electricity-generation.html">Reliable electricity generation and distribution</a></li>
+<li><a href="docs/chemistry/acids.html">Bulk chemical production (acids, alkalis)</a></li>
+<li><a href="docs/vacuum-optics/vacuum-systems.html">Vacuum pumps and chambers operational</a></li>
+<li><a href="docs/silicon/mg-si-production.html">Metallurgical-grade silicon produced</a></li>
+<li><a href="docs/silicon/purification-crystal-growth.html">Czochralski crystal growth producing ingots</a></li>
+<li><a href="docs/silicon/solar-cells-basic-devices.html">First solar cells fabricated and generating power</a></li>
+<li><a href="docs/photolithography/cleanrooms.html">Basic cleanroom or glovebox capability</a></li>
+<li><a href="docs/specialty-gases/gases-packaging-testing.html">Specialty gases supply chain</a></li>
+<li><a href="docs/energy-storage/storage-batteries.html">Lead-acid battery banks</a></li>
+<li><a href="docs/petrochemicals/petroleum-alternatives.html">Coke oven operation with coal tar collection</a></li>
+<li><a href="docs/petrochemicals/petroleum-alternatives.html">Fractional distillation (crude oil or coal tar)</a></li>
+<li><a href="docs/petrochemicals/petroleum-alternatives.html">Fermentation-derived solvents</a></li>
+<li><a href="docs/petrochemicals/petroleum-alternatives.html">Producer gas or wood gas for engines and heating</a></li>
+<li>Early synthetic polymers (Bakelite, celluloid)</li>
+<li>Epoxy resin formulation for adhesives and encapsulation</li>
+<li>Phenolic laminate (FR-4) production for PCB substrates</li>
+<li>Silicone seal production for high-temperature applications</li>
+<li>PTFE (Teflon) production capability</li>
+<li>Nitrile rubber (NBR) production</li>
+<li>Neoprene (chloroprene) production</li>
+<li>Unsaturated polyester resin formulation</li>
+<li>Polyurethane foam production</li>
+<li>Nylon (polyamide) extrusion capability</li>
+<li>Polyethylene film and container production</li>
+<li>PVC pipe and tubing production</li>
+<li>Vacuum bagging composite manufacturing</li>
+<li>Resin transfer molding (RTM) capability</li>
+<li>First composite layup structural part</li>
+<li><a href="docs/aircraft/development.html">Flyable ultralight aircraft test flight completed</a></li>
+<li><a href="docs/petrochemicals/petroleum-alternatives.html">Aviation fuel supply chain</a></li>
+</ul>
+<h2>Tier 3 Advanced (Years 30-100+)</h2>
+<ul>
+<li><a href="docs/photolithography/resists-masks-lithography.html">Photolithography capability</a></li>
+<li><a href="docs/photolithography/fab-processes.html">First integrated circuits (SSI/MSI)</a></li>
+<li>Wafer packaging and testing</li>
+<li><a href="docs/computing/mechanical-computing.html">Early computers from own ICs</a></li>
+<li><a href="docs/vlsi-scaling/continuous-scaling.html">VLSI scaling in progress</a></li>
+<li><a href="docs/vlsi-scaling/vlsi-design-eda.html">High-end solar cells in production</a></li>
+<li><a href="docs/energy-storage/storage-batteries.html">Nuclear power research underway</a></li>
+<li><a href="docs/vlsi-scaling/vlsi-design-eda.html">GPU-scale VLSI design capability</a></li>
+<li>Carbon fiber precursor development</li>
+<li>Aramid/Kevlar fiber precursor development</li>
+<li>Advanced composite manufacturing (filament winding, pultrusion)</li>
+</ul><h2>Dependency Overview</h2><div class="mermaid-container"><pre class="mermaid">%%{init: {&quot;flowchart&quot;: {&quot;defaultRenderer&quot;: &quot;dagre&quot;, &quot;htmlLabels&quot;: true}}}%%
+graph TD
+    %% ==================== DOMAIN NODES ====================
+    foundations[&quot;Foundations&quot;]
+    metallurgy[&quot;Metallurgy&quot;]
+    machine-tools[&quot;Machine Tools Bootstrap&quot;]
+    energy[&quot;Energy&quot;]
+    chemistry[&quot;Chemistry&quot;]
+    vacuum-optics[&quot;Vacuum, Optics &amp; Advanced Glass&quot;]
+    silicon[&quot;Silicon&quot;]
+    photolithography[&quot;Photolithography &amp; IC Fabrication&quot;]
+    vlsi-scaling[&quot;VLSI Scaling &amp; Advanced Semiconductor&quot;]
+    knowledge[&quot;Knowledge Preservation &amp; Education&quot;]
+    metrology[&quot;Measurement, Timekeeping &amp; Metrology&quot;]
+    transport[&quot;Transportation, Logistics &amp; Communication&quot;]
+    computing[&quot;Mechanical Computing &amp; Automation&quot;]
+    health[&quot;Public Health, Sanitation &amp; Medicine&quot;]
+    specialty-gases[&quot;Specialty Gases, Consumables, Packaging &amp; Testing&quot;]
+    energy-storage[&quot;Energy Storage &amp; Diversification&quot;]
+    advanced-materials[&quot;Advanced Materials — Ceramics &amp; Refractories&quot;]
+    textiles[&quot;Textiles, Fiber &amp; Cordage&quot;]
+    lubricants[&quot;Lubricants, Oils &amp; Fluid Mechanics&quot;]
+    mining[&quot;Mining Engineering &amp; Extractive Metallurgy&quot;]
+    petrochemicals[&quot;Petroleum &amp; Alternative Chemistry&quot;]
+    aircraft[&quot;Aircraft Development&quot;]
+    polymers[&quot;Polymers &amp; Composites&quot;]
+
+    %% ==================== DOMAIN-LEVEL EDGES ====================
+    metallurgy --&gt; foundations
+    metallurgy --&gt; mining
+    machine-tools --&gt; metallurgy
+    machine-tools --&gt; textiles
+    machine-tools --&gt; lubricants
+    energy --&gt; metallurgy
+    chemistry --&gt; metallurgy
+    chemistry --&gt; energy
+    vacuum-optics --&gt; machine-tools
+    vacuum-optics --&gt; energy
+    vacuum-optics --&gt; chemistry
+    silicon --&gt; machine-tools
+    silicon --&gt; energy
+    silicon --&gt; chemistry
+    silicon --&gt; vacuum-optics
+    photolithography --&gt; machine-tools
+    photolithography --&gt; chemistry
+    photolithography --&gt; vacuum-optics
+    photolithography --&gt; silicon
+    photolithography --&gt; specialty-gases
+    vlsi-scaling --&gt; photolithography
+    knowledge --&gt; foundations
+    metrology --&gt; foundations
+    metrology --&gt; metallurgy
+    health --&gt; foundations
+    health --&gt; chemistry
+    specialty-gases --&gt; chemistry
+    specialty-gases --&gt; energy
+    energy-storage --&gt; energy
+    energy-storage --&gt; chemistry
+    energy-storage --&gt; metallurgy
+    advanced-materials --&gt; foundations
+    advanced-materials --&gt; metallurgy
+    textiles --&gt; foundations
+    lubricants --&gt; foundations
+    lubricants --&gt; petrochemicals
+    mining --&gt; foundations
+    petrochemicals --&gt; foundations
+    transport --&gt; metallurgy
+    transport --&gt; energy
+    transport --&gt; mining
+    transport --&gt; machine-tools
+    computing --&gt; machine-tools
+    aircraft --&gt; machine-tools
+    aircraft --&gt; textiles
+    aircraft --&gt; petrochemicals
+    polymers --&gt; foundations
+
+    %% ==================== CROSS-DOMAIN EDGES ====================
+    chemistry -.-&gt; foundations
+    chemistry -.-&gt; mining
+    energy -.-&gt; chemistry
+    energy -.-&gt; foundations
+    energy -.-&gt; machine-tools
+    energy -.-&gt; mining
+    energy -.-&gt; petrochemicals
+    metallurgy -.-&gt; lubricants
+    metallurgy -.-&gt; textiles
+    photolithography -.-&gt; advanced-materials
+    photolithography -.-&gt; polymers
+    polymers -.-&gt; chemistry
+    polymers -.-&gt; machine-tools
+    polymers -.-&gt; petrochemicals
+    silicon -.-&gt; mining
+    silicon -.-&gt; specialty-gases
+    specialty-gases -.-&gt; machine-tools
+    specialty-gases -.-&gt; photolithography
+    specialty-gases -.-&gt; polymers
+    vacuum-optics -.-&gt; metallurgy
+    vlsi-scaling -.-&gt; computing
+    vlsi-scaling -.-&gt; vacuum-optics
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    class foundations earlyWin
+    class machine-tools critical
+    class silicon earlyWin
+    class vlsi-scaling pinnacle
+    class knowledge critical
+    class specialty-gases critical
+    class textiles critical
+    class lubricants critical
+    class mining critical
+
+    %% ==================== LEGEND ====================
+    Legend[&quot;Legend and Key Insights&quot;]
+    Legend --&gt; Note1[&quot;Machine Tools is the master enabler: every later stage depends on precision parts&quot;]
+    Legend --&gt; Note2[&quot;Iteration is everywhere: tools make better tools, crude silicon enables purer silicon&quot;]
+    Legend --&gt; Note3[&quot;Solar cells create a critical power feedback loop — the most important positive feedback in the tree&quot;]
+    Legend --&gt; Note4[&quot;High-end GPUs are the long-term pinnacle: requires the entire mature ecosystem + generations of refinement&quot;]
+    Legend --&gt; Note5[&quot;Realistic timeline: basic solar cells in decades. Full GPU capability: 50 to 200+ years&quot;]
+    class Legend,Note1,Note2,Note3,Note4,Note5 domain
+</pre></div>
+</main>
+</div>
+<footer class="footer">
+<p>Part of the Bootciv Tech Tree</p>
+</footer>
+<script src="assets/mermaid.min.js"></script>
+<script src="assets/search-index.js"></script>
+<script src="assets/search.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>

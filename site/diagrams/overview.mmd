@@ -1,0 +1,123 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% ==================== DOMAIN NODES ====================
+    foundations["Foundations"]
+    metallurgy["Metallurgy"]
+    machine-tools["Machine Tools Bootstrap"]
+    energy["Energy"]
+    chemistry["Chemistry"]
+    vacuum-optics["Vacuum, Optics & Advanced Glass"]
+    silicon["Silicon"]
+    photolithography["Photolithography & IC Fabrication"]
+    vlsi-scaling["VLSI Scaling & Advanced Semiconductor"]
+    knowledge["Knowledge Preservation & Education"]
+    metrology["Measurement, Timekeeping & Metrology"]
+    transport["Transportation, Logistics & Communication"]
+    computing["Mechanical Computing & Automation"]
+    health["Public Health, Sanitation & Medicine"]
+    specialty-gases["Specialty Gases, Consumables, Packaging & Testing"]
+    energy-storage["Energy Storage & Diversification"]
+    advanced-materials["Advanced Materials — Ceramics & Refractories"]
+    textiles["Textiles, Fiber & Cordage"]
+    lubricants["Lubricants, Oils & Fluid Mechanics"]
+    mining["Mining Engineering & Extractive Metallurgy"]
+    petrochemicals["Petroleum & Alternative Chemistry"]
+    aircraft["Aircraft Development"]
+    polymers["Polymers & Composites"]
+
+    %% ==================== DOMAIN-LEVEL EDGES ====================
+    metallurgy --> foundations
+    metallurgy --> mining
+    machine-tools --> metallurgy
+    machine-tools --> textiles
+    machine-tools --> lubricants
+    energy --> metallurgy
+    chemistry --> metallurgy
+    chemistry --> energy
+    vacuum-optics --> machine-tools
+    vacuum-optics --> energy
+    vacuum-optics --> chemistry
+    silicon --> machine-tools
+    silicon --> energy
+    silicon --> chemistry
+    silicon --> vacuum-optics
+    photolithography --> machine-tools
+    photolithography --> chemistry
+    photolithography --> vacuum-optics
+    photolithography --> silicon
+    photolithography --> specialty-gases
+    vlsi-scaling --> photolithography
+    knowledge --> foundations
+    metrology --> foundations
+    metrology --> metallurgy
+    health --> foundations
+    health --> chemistry
+    specialty-gases --> chemistry
+    specialty-gases --> energy
+    energy-storage --> energy
+    energy-storage --> chemistry
+    energy-storage --> metallurgy
+    advanced-materials --> foundations
+    advanced-materials --> metallurgy
+    textiles --> foundations
+    lubricants --> foundations
+    lubricants --> petrochemicals
+    mining --> foundations
+    petrochemicals --> foundations
+    transport --> metallurgy
+    transport --> energy
+    transport --> mining
+    transport --> machine-tools
+    computing --> machine-tools
+    aircraft --> machine-tools
+    aircraft --> textiles
+    aircraft --> petrochemicals
+    polymers --> foundations
+
+    %% ==================== CROSS-DOMAIN EDGES ====================
+    chemistry -.-> foundations
+    chemistry -.-> mining
+    energy -.-> chemistry
+    energy -.-> foundations
+    energy -.-> machine-tools
+    energy -.-> mining
+    energy -.-> petrochemicals
+    metallurgy -.-> lubricants
+    metallurgy -.-> textiles
+    photolithography -.-> advanced-materials
+    photolithography -.-> polymers
+    polymers -.-> chemistry
+    polymers -.-> machine-tools
+    polymers -.-> petrochemicals
+    silicon -.-> mining
+    silicon -.-> specialty-gases
+    specialty-gases -.-> machine-tools
+    specialty-gases -.-> photolithography
+    specialty-gases -.-> polymers
+    vacuum-optics -.-> metallurgy
+    vlsi-scaling -.-> computing
+    vlsi-scaling -.-> vacuum-optics
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    class foundations earlyWin
+    class machine-tools critical
+    class silicon earlyWin
+    class vlsi-scaling pinnacle
+    class knowledge critical
+    class specialty-gases critical
+    class textiles critical
+    class lubricants critical
+    class mining critical
+
+    %% ==================== LEGEND ====================
+    Legend["Legend and Key Insights"]
+    Legend --> Note1["Machine Tools is the master enabler: every later stage depends on precision parts"]
+    Legend --> Note2["Iteration is everywhere: tools make better tools, crude silicon enables purer silicon"]
+    Legend --> Note3["Solar cells create a critical power feedback loop — the most important positive feedback in the tree"]
+    Legend --> Note4["High-end GPUs are the long-term pinnacle: requires the entire mature ecosystem + generations of refinement"]
+    Legend --> Note5["Realistic timeline: basic solar cells in decades. Full GPU capability: 50 to 200+ years"]
+    class Legend,Note1,Note2,Note3,Note4,Note5 domain

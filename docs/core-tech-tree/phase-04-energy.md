@@ -156,6 +156,40 @@ Coke is to coal what charcoal is to wood — the refined, high-energy, low-impur
 - Wire annealing between passes restores ductility lost from cold working
 - Insulation (rubber, varnished cloth, gutta-percha) is applied after drawing, not during
 
+### Electrical Engineering Reference
+
+**Copper wire gauge table** (practical reference for all electrical work):
+| Diameter (mm) | Cross-section (mm²) | Resistance (Ω/km) | Max current (A) | Typical use |
+|---------------|---------------------|--------------------|-----------------|-------------|
+| 0.1 | 0.008 | 2,200 | 0.05 | Fine coils, instruments |
+| 0.2 | 0.031 | 560 | 0.15 | Meter movements |
+| 0.5 | 0.20 | 88 | 1.0 | Small transformers |
+| 1.0 | 0.79 | 22 | 5 | Motor windings, generator coils |
+| 1.5 | 1.8 | 12 | 10 | Lighting circuits |
+| 2.0 | 3.1 | 7.0 | 15 | Power outlets |
+| 2.5 | 4.9 | 4.5 | 20 | Branch circuits |
+| 4.0 | 12.6 | 1.7 | 40 | Sub-main feeds |
+| 6.0 | 28.3 | 0.77 | 70 | Main distribution |
+| 10.0 | 78.5 | 0.28 | 130 | Service entrance, bus bars |
+
+- Max current assumes 3-5 A/mm² for enclosed wiring (derate for bundling or high ambient temperature). Open air or short runs can carry more.
+- Voltage drop: ΔV = I × R = I × (ρ × L / A), where ρ = 0.0175 Ω·mm²/m for copper, L = length (m), A = cross-section (mm²). Keep voltage drop under 3-5% for efficient operation.
+- Example: 10 A load, 100 m run, 110V supply, max 5% drop (5.5V): Wire resistance = 5.5V / 10A = 0.55Ω. R per conductor = 0.275Ω for 100m = 2.75 Ω/km. From table: ~2.0 mm diameter wire (1.8 mm² cross-section, 12 Ω/km × 0.1 km = 1.2 Ω per conductor... need 2 conductors → 2.4 Ω total, voltage drop = 24V. Too much. Need 6 mm wire: 0.77 Ω/km × 0.2 km = 0.154 Ω per conductor → 0.31 Ω total → 3.1V drop = 2.8%. OK.)
+
+**Motor and generator sizing**:
+- **Motor power**: Mechanical power P = T × ω (torque × angular velocity). At 1500 RPM (157 rad/s), 1 Nm torque = 157W. A 1 kW motor at 1500 RPM delivers ~6.4 Nm.
+- **Motor current**: I = P / (V × η × PF), where η = efficiency (0.7-0.9), PF = power factor (1.0 for DC, 0.7-0.85 for AC induction motors). Example: 1 kW motor at 220V AC, η=0.8, PF=0.8: I = 1000/(220 × 0.8 × 0.8) = 7.1A.
+- **Generator sizing**: Must match peak load + 20% margin. If total connected load = 5 kW with 60% diversity factor (not all running simultaneously), generator needs 5 × 0.6 × 1.2 = 3.6 kW minimum. Round up to nearest available size.
+
+**Fuse and circuit breaker selection**:
+- **Fuse**: Short piece of wire or strip that melts at a known current, breaking the circuit. Lead-tin alloy for low-current fuses (1-15A), copper or silver for higher currents. Enclose in ceramic or glass tube with filler (sand) to quench arc when fuse blows. Rating: fuse should carry 100% rated current indefinitely, blow within 1 hour at 135% rated current, blow quickly at 200%+ rated current.
+- **Fuse sizing**: Fuse rating ≥ full-load current of device, but ≤ ampacity of wiring. Example: motor drawing 7A on 2.5 mm² wire (20A capacity) → use 10A fuse. The fuse protects the WIRE, not the device.
+- **Circuit breaker** (Phase 4+): Bimetallic strip heated by current bends and trips latch, opening contacts. Resettable. More convenient than fuses. Calibrate by adjusting strip tension.
+
+**Battery sizing** (lead-acid, see SQ 07):
+- **Capacity**: C = P × t / V, where P = load (W), t = backup time (hours), V = system voltage. Example: 500W load, 4-hour backup, 48V system: C = 500 × 4 / 48 = 41.7 Ah. Add 50% margin for depth-of- discharge limit: 62.5 Ah bank.
+- **Charging current**: C/10 rate (capacity ÷ 10 hours) for maximum battery life. For 62.5 Ah bank: charge at ~6.25A, 48V = 300W charger needed. Charge time: ~12-14 hours from fully discharged.
+
 ### Permanent Magnets
 
 - **Lodestone** (naturally magnetized magnetite) for early compasses and basic magnetic experiments

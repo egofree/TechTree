@@ -157,7 +157,37 @@ This is NOT optional — you cannot build what you cannot measure.
 
 **Lapping**: Mix graded abrasive (600-1200 grit, ~5-25 μm) with oil or water into slurry. Place slurry between two flat surfaces, rub in figure-8 pattern. Removes ~0.001-0.01 mm per hour. Produces optically flat surfaces. Essential for gauge blocks, valve seats, bearing surfaces.
 
-### Lubrication & Coolants
+### Thread Standards &amp; Fastener Production
+
+**Thread profile standard** (choose ONE system and standardize immediately):
+- **Metric (ISO)**: 60° thread angle, flat crests and roots. Designated M×pitch (e.g., M8×1.25 = 8 mm major diameter, 1.25 mm pitch). Coarse pitch series is default (M8 coarse = 1.25 mm pitch).
+- **Unified (UNC/UNF)**: 60° thread angle, flat crests, rounded roots. Designated by diameter + TPI (e.g., 5/16-18 UNC = 5/16" diameter, 18 threads per inch, coarse series).
+- **CRITICAL**: Pick metric OR unified and commit. Mixing thread standards is a disaster for interchangeable parts. All taps, dies, gauges, and screws must match.
+
+**Thread cutting on lathe**:
+- **Setup**: Mount workpiece in chuck. Install correct change gears between spindle and leadscrew for desired pitch. Gear ratio = (pitch to cut / leadscrew pitch) × (stud gear teeth / lead gear teeth).
+- **Procedure**: Engage half-nut on leadscrew. First pass at 0.1-0.2 mm depth. Disengage half-nut at end of cut, return carriage to start. Re-engage on SAME thread (use thread dial indicator). Increase depth 0.1-0.2 mm per pass. Total depth for 60° thread = 0.614 × pitch. Final pass at full depth with light cut for smooth finish.
+
+**Tap and die production**:
+- **Taps** (cut internal threads): Turn HSS rod to diameter, cut 3-4 flutes with mill, thread between flutes on lathe, harden and temper. Three-tap set: taper tap (starts easily), plug tap (general use), bottoming tap (threads to bottom of blind hole).
+- **Dies** (cut external threads): Hardened steel plate with threaded hole and 3-4 cutting edges, split by adjustable slot. Die stock holds die and provides leverage.
+
+**Bolt making**: Heat rod end, upset in heading tool to form hex/square head. Turn shank to diameter, cut threads with die. Heat treatment for high-strength bolts: harden at 820°C, quench in oil, temper at 400-500°C (~800 MPa tensile).
+
+### Bearing Design &amp; Production
+
+**Plain (journal) bearings**:
+- **Construction**: Cylindrical housing with removable babbitt liner. Babbitt metal: Sn-Sb-Cu alloy (88/8/4 typical) — soft, embeds dirt, conforms to shaft. Pour molten babbitt into shell around mandrel.
+- **Clearance**: 0.001-0.002 × shaft diameter (50 mm shaft = 0.05-0.10 mm radial clearance). Too tight → seizure. Too loose → vibration.
+- **Load capacity**: Allowable bearing pressure 2-8 MPa for babbitt on steel.
+
+**Rolling element bearings** (Phase 3+ precision):
+- **Ball bearing**: Inner ring, outer ring (hardened 52100 steel, 1% C, 1.5% Cr), balls, cage (brass or stamped steel). Standard 6200 series (light): e.g., 6205 = 25 mm bore × 52 mm OD × 15 mm width.
+- **Ball production**: Cut wire → cold head into rough spheres → grind between grooved ring plates → lap to 1-5 μm variation. Harden 820-860°C, oil quench, temper 150-200°C.
+- **Ring production**: Forge from bearing steel → turn → heat treat (58-62 HRC) → grind raceways → super-finish to 0.05 μm Ra.
+- **Assembly**: Press balls into cage between races, rivet cage, pack with grease.
+
+### Lubrication &amp; Coolants
 
 - **Tallow and lard**: Grease plain bearings (apply by hand or oil cup). Lard oil as cutting fluid for turning and threading — reduces friction, improves finish.
 - **Vegetable oil** (linseed, castor): Cutting fluid for brass and aluminum. Not ideal for steel (polymerizes and gums).

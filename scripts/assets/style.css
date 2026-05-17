@@ -1,0 +1,156 @@
+:root {
+  --color-bg: #fff;
+  --color-text: #1a1a1a;
+  --color-sidebar-bg: #f5f5f5;
+  --color-accent: #2563eb;
+  --color-border: #e5e5e5;
+  --color-critical: #dc2626;
+  --color-early-win: #16a34a;
+  --color-pinnacle: #d97706;
+  --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: var(--font-stack);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+  display: flex;
+}
+/* ── Sidebar ── */
+.sidebar {
+  position: fixed; top: 0; left: 0; width: 280px; height: 100vh;
+  overflow-y: auto; background: var(--color-sidebar-bg);
+  border-right: 1px solid var(--color-border);
+  padding: 16px 0; font-size: 14px;
+}
+.sidebar .sidebar-title {
+  font-size: 18px; font-weight: 700;
+  padding: 0 16px 12px; border-bottom: 1px solid var(--color-border); margin-bottom: 8px;
+}
+#search-input {
+  display: block; width: calc(100% - 32px); margin: 0 16px 8px;
+  padding: 6px 10px; font: inherit; font-size: 13px;
+  border: 1px solid var(--color-border); border-radius: 4px; outline: none;
+}
+#search-input:focus { border-color: var(--color-accent); }
+#search-results {
+  margin: 0 16px 8px; max-height: 240px; overflow-y: auto;
+  background: var(--color-bg); border: 1px solid var(--color-border);
+  border-radius: 4px; display: none;
+}
+#search-results:empty { display: none; }
+#search-results.active { display: block; }
+#search-results a {
+  display: block; padding: 6px 10px; color: var(--color-text);
+  text-decoration: none; font-size: 13px;
+}
+#search-results a:hover { background: var(--color-sidebar-bg); }
+details { margin: 0; }
+details summary {
+  cursor: pointer; font-weight: 700; padding: 8px 16px;
+  list-style: none; user-select: none;
+}
+details summary::before { content: "▸ "; display: inline-block; font-size: 12px; }
+details[open] summary::before { content: "▾ "; }
+details summary:hover { background: rgba(0,0,0,0.04); }
+details ul { list-style: none; padding: 0 0 4px 28px; }
+details ul li a {
+  display: block; padding: 4px 8px; color: var(--color-text);
+  text-decoration: none; border-radius: 3px;
+}
+details ul li a:hover { background: rgba(0,0,0,0.04); }
+details ul li a.active { background: var(--color-accent); color: #fff; }
+/* ── Main content ── */
+main { margin-left: 280px; padding: 32px 40px 64px; max-width: 800px; min-height: 100vh; }
+h1 { font-size: 28px; margin: 0 0 16px; line-height: 1.3; }
+h2 { font-size: 22px; margin: 32px 0 12px; line-height: 1.3; border-bottom: 1px solid var(--color-border); padding-bottom: 6px; }
+h3 { font-size: 18px; margin: 24px 0 8px; line-height: 1.3; }
+h4 { font-size: 16px; margin: 20px 0 6px; font-weight: 700; }
+p { margin: 0 0 12px; }
+a { color: var(--color-accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+strong { font-weight: 700; }
+em { font-style: italic; }
+/* ── Metadata card ── */
+.metadata-card {
+  background: var(--color-sidebar-bg); border: 1px solid var(--color-border);
+  border-radius: 6px; padding: 14px 18px; margin: 0 0 20px; font-size: 14px; line-height: 1.5;
+}
+.metadata-card p { margin: 0 0 4px; }
+.metadata-card p:last-child { margin-bottom: 0; }
+.metadata-card code { background: #e8e8e8; padding: 1px 5px; border-radius: 3px; font-size: 13px; }
+/* ── Badges ── */
+.badge {
+  display: inline-block; font-size: 12px; font-weight: 700;
+  padding: 2px 8px; border-radius: 10px; color: #fff; vertical-align: middle;
+}
+.badge--critical { background: var(--color-critical); }
+.badge--early-win { background: var(--color-early-win); }
+.badge--pinnacle { background: var(--color-pinnacle); }
+/* ── Dependency chips ── */
+.dep-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 12px; }
+.dep-chip {
+  display: inline-block; background: var(--color-sidebar-bg);
+  border: 1px solid var(--color-border); border-radius: 4px;
+  padding: 2px 8px; font-size: 13px; color: var(--color-accent); text-decoration: none;
+}
+.dep-chip:hover { background: var(--color-border); text-decoration: none; }
+/* ── Blockquotes ── */
+blockquote {
+  border-left: 3px solid var(--color-accent); background: var(--color-sidebar-bg);
+  padding: 10px 16px; margin: 0 0 12px; font-size: 14px;
+}
+/* ── Code ── */
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 14px; background: #e8e8e8; padding: 1px 5px; border-radius: 3px;
+}
+pre {
+  background: var(--color-sidebar-bg); border: 1px solid var(--color-border);
+  border-radius: 4px; padding: 14px 18px; overflow-x: auto;
+  margin: 0 0 12px; font-size: 14px; line-height: 1.5;
+}
+pre code { background: none; padding: 0; font-size: inherit; }
+/* ── Lists ── */
+ul, ol { margin: 0 0 12px 24px; }
+ul { list-style: disc; }
+ul ul { list-style: circle; }
+ul ul ul { list-style: square; }
+ol { list-style: decimal; }
+li { margin: 0 0 4px; }
+li > strong:first-child { font-weight: 700; }
+/* ── Tables ── */
+table { width: 100%; border-collapse: collapse; margin: 0 0 16px; font-size: 14px; }
+th, td { border: 1px solid var(--color-border); padding: 8px 12px; text-align: left; }
+th { background: var(--color-sidebar-bg); font-weight: 700; }
+tr:nth-child(even) td { background: #fafafa; }
+/* ── Mermaid diagram ── */
+.mermaid-container {
+  text-align: center; border: 1px solid var(--color-border);
+  border-radius: 6px; padding: 16px; margin: 0 0 16px; overflow-x: auto;
+}
+/* ── Diagram toggle ── */
+.diagram-wrapper { position: relative; }
+.diagram-toggle {
+  display: block; margin: 0 auto 8px; padding: 4px 12px;
+  font: inherit; font-size: 13px; cursor: pointer;
+  background: var(--color-sidebar-bg); border: 1px solid var(--color-border);
+  border-radius: 4px; color: var(--color-accent);
+}
+.diagram-toggle:hover { background: var(--color-border); }
+.diagram-source {
+  background: var(--color-sidebar-bg); border: 1px solid var(--color-border);
+  border-radius: 4px; padding: 14px 18px; overflow-x: auto;
+  margin: 0 0 12px; font-size: 13px; line-height: 1.4;
+}
+.diagram-source code { background: none; padding: 0; font-size: inherit; }
+/* ── Multimedia ── */
+img { display: block; max-width: 100%; height: auto; margin: 12px auto; }
+video { display: block; max-width: 100%; margin: 12px auto; }
+audio { display: block; margin: 12px 0; }
+/* ── Horizontal rule ── */
+hr { border: none; border-top: 1px solid var(--color-border); margin: 24px 0; }
+.text-center { text-align: center; }
+.muted { color: #888; font-size: 14px; }

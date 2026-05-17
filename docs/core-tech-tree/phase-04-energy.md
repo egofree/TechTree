@@ -170,6 +170,25 @@ Coke is to coal what charcoal is to wood — the refined, high-energy, low-impur
 - **Applications beyond wire insulation**: shaft seals, gaskets, flat belts and V-belts for power transmission, hoses, vibration dampers, and tire construction for wheeled vehicles
 - **Synthetic rubbers** (nitrile, neoprene) are Phase 5+ materials requiring petrochemical feedstocks from [SQ 12](../side-quests/sq-12-petrochemicals.md); see [SQ 14](../side-quests/sq-14-polymers-composites.md) for the full elastomer development roadmap
 
+### Advanced Welding (Phase 4+)
+
+**Oxy-acetylene welding and cutting**:
+- **Acetylene production**: Calcium carbide (CaC₂, from CaO + 3C at ~2000°C in electric arc furnace) + water → C₂H₂ + Ca(OH)₂. Generate acetylene on demand in gas generator (water dripped onto carbide in closed vessel). NEVER store acetylene under pressure >0.15 MPa — it detonates spontaneously. Store dissolved in acetone in porous-filled cylinder (acetylene cylinders — safe storage at ~1.5 MPa).
+- **Oxygen supply**: From air separation (cryogenic distillation — see SQ 06) or from chemical generation (barium oxide process: heat BaO in air → BaO₂, then heat BaO₂ → BaO + ½O₂). Compressed into steel cylinders at 15-20 MPa.
+- **Torch construction**: Brass body with two control valves (oxygen and acetylene), mixing chamber, and copper tip (various sizes — tip orifice 0.5-3 mm). Hoses: rubber with fabric reinforcement, color-coded (red = fuel, blue/green = oxygen).
+- **Welding procedure**: Open acetylene valve, ignite (sooty flame). Open oxygen valve — flame becomes blue-white inner cone surrounded by pale blue outer envelope. Neutral flame (equal O₂ and C₂H₂): inner cone ~2-5 mm, temperature ~3100°C. Reducing flame (excess acetylene): longer inner cone, carburizing — for brazing and certain metals. Oxidizing flame (excess O₂): shorter, noisier — for brass/copper brazing only. Hold torch at ~45° angle, move steadily along joint. Add filler rod (matching base metal composition, 1.5-3 mm diameter) to leading edge of puddle. Joint types: butt, lap, fillet.
+- **Cutting**: Cutting torch has additional oxygen lever. Heat steel to bright red (~900°C) with acetylene flame, then press oxygen lever — pure O₂ jet reacts with hot steel exothermically (iron burns in oxygen). Blow molten slag through cut. Kerf (cut width) 1-3 mm. Cuts steel up to 300+ mm thick. CANNOT cut non-ferrous metals (copper, aluminum — they conduct heat away too fast, don't oxidize exothermically).
+- **Applications**: Repair welding, pipe joining, sheet metal fabrication, cutting steel plate, heating for bending/forming. THE primary metal joining method from ~1900 until arc welding dominated ~1940.
+
+**Arc welding (stick/SMAW — Shielded Metal Arc Welding)**:
+- **Principle**: Electric arc between consumable electrode (welding rod) and workpiece melts both, creating a weld pool. Electrode coating provides shielding gas and slag to protect molten metal from atmospheric contamination (oxygen and nitrogen cause porosity and embrittlement).
+- **Power source**: DC or AC, 50-100 amps, 20-30 volts open circuit. DC: generator or rectified AC (smoother arc, directional — electrode positive = deeper penetration, electrode negative = faster deposition). AC: transformer (simpler, no rectifier needed, but arc less stable).
+- **Electrodes**: Mild steel core wire (2.5-5 mm diameter) with flux coating. Flux composition: cellulose (gas shield), rutile (TiO₂ — slag former, arc stabilizer), limestone (CaCO₃ — additional shielding gas when decomposed by heat), iron powder (increases deposition rate), binders (sodium silicate). Coat by dipping wire in wet flux slurry, or extrude flux around wire. Dry/bake at 100-200°C.
+- **Procedure**: Clamp workpiece to metal table (ground/return connection). Insert electrode in holder (insulated handle). Strike arc by scraping electrode across work (like a match) then lifting ~2-3 mm. Maintain arc length ~equal to electrode diameter. Move steadily along joint at ~2-5 mm/second. Electrode melts and deposits filler metal. Slag forms on top of weld — chip off with hammer after cooling. Multi-pass for thicker joints.
+- **Joint preparation**: Bevel edges of thick plates (>6 mm) to 30-60° with grinder or torch, leaving 1-3 mm root gap. Clean to bare metal (no rust, oil, paint — all cause defects).
+- **Safety**: UV radiation from arc causes "welder's flash" (sunburn of cornea — extremely painful, temporary blindness for 24-48 hours). ALWAYS use welding helmet with proper shade lens (#10-14 shade). Leather gloves, long sleeves (UV burns exposed skin). Sparks and spatter — fire hazard, clear combustibles 10+ m away. Ventilation — welding fumes contain metal oxides, especially hazardous with galvanized steel (zinc fume fever). NEVER weld in confined spaces without forced ventilation.
+- **Applications**: Structural steel construction, pressure vessels, shipbuilding, pipe welding, machinery repair. Stronger and faster than oxy-acetylene for steel fabrication.
+
 ## Enables (Downstream)
 
 | Output | Used By |

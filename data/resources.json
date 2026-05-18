@@ -14,7 +14,7 @@
       "name": "Iron ore (hematite, magnetite)",
       "source": "Mining (surface and subsurface deposits)",
       "used_in": [
-        "metallurgy.iron-steel"
+        "metals.iron-steel"
       ],
       "criticality": "critical",
       "notes": "Most-used metal throughout the entire sequence"
@@ -23,7 +23,7 @@
       "name": "Copper ore (malachite, chalcopyrite)",
       "source": "Mining",
       "used_in": [
-        "metallurgy.copper-bronze",
+        "metals.copper-bronze",
         "energy.electricity"
       ],
       "criticality": "critical",
@@ -33,9 +33,9 @@
       "name": "Carbon (charcoal/coke)",
       "source": "Wood pyrolysis / coal distillation",
       "used_in": [
-        "metallurgy.copper-bronze",
-        "metallurgy.iron-steel",
-        "energy.coal-coke",
+        "metals.copper-bronze",
+        "metals.iron-steel",
+        "energy.fuels.coke",
         "silicon.mg-si-production"
       ],
       "criticality": "critical",
@@ -81,7 +81,7 @@
       "name": "Oil seeds (rapeseed, castor, linseed)",
       "source": "Agriculture",
       "used_in": [
-        "lubricants"
+        "chemistry.lubricants"
       ],
       "criticality": "medium",
       "notes": "Source of vegetable oils for lubrication and coatings"
@@ -90,7 +90,7 @@
       "name": "Animal fats (tallow, lard)",
       "source": "Animal husbandry / butchering",
       "used_in": [
-        "lubricants"
+        "chemistry.lubricants"
       ],
       "criticality": "high",
       "notes": "First lubricant source; tallow for heavy bearings, lard for light mechanisms"
@@ -99,8 +99,8 @@
       "name": "Petroleum (crude oil)",
       "source": "Surface seeps / drilling",
       "used_in": [
-        "petrochemicals",
-        "lubricants"
+        "chemistry.petroleum-alternatives",
+        "chemistry.lubricants"
       ],
       "criticality": "medium",
       "notes": "Massive accelerator if available; not required if absent"
@@ -109,7 +109,7 @@
       "name": "Coal tar",
       "source": "Coke oven byproduct",
       "used_in": [
-        "petrochemicals"
+        "chemistry.petroleum-alternatives"
       ],
       "criticality": "medium",
       "notes": "Historical source of organic chemicals before petroleum"
@@ -118,7 +118,7 @@
       "name": "Natural rubber (latex)",
       "source": "Rubber tree (Hevea brasiliensis) tapping or guayule shrub",
       "used_in": [
-        "polymers.natural-rubber"
+        "polymers.rubber.natural"
       ],
       "criticality": "medium",
       "notes": "Essential for gaskets, seals, and flexible components; guayule is a temperate-climate alternative"
@@ -127,7 +127,7 @@
       "name": "Sulfur",
       "source": "Volcanic deposits / Frasch process / smelter offgas",
       "used_in": [
-        "polymers.natural-rubber",
+        "polymers.rubber.natural",
         "chemistry.acids"
       ],
       "criticality": "high",

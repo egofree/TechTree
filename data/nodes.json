@@ -3,7 +3,11 @@
   "_schema_docs": {
     "description": "Technology tree nodes for bootstrapping industrial civilization from stone-age materials to semiconductor manufacturing. Replaces the former dependencies.json with a unified, hierarchy-aware structure that merges core phases and side quests into a single ontology.",
     "hierarchy": {
-      "levels": ["domain", "capability", "process"],
+      "levels": [
+        "domain",
+        "capability",
+        "process"
+      ],
       "domain": "Top-level technology area (e.g., 'metallurgy', 'textiles', 'silicon'). Has no parent.",
       "capability": "Major skill or process family within a domain (e.g., 'metallurgy.smelting', 'textiles.spinning'). Parent is a domain.",
       "process": "Specific technique or operation (e.g., 'metallurgy.smelting.blast-furnace', 'textiles.spinning.drop-spindle'). Parent is a capability."
@@ -39,12 +43,30 @@
       "parent": null,
       "description": "Fire-making, stone and wood tools, and agriculture. The starting point for all civilization bootstrapping — no surplus means no specialist labor means no industry.",
       "timeline": "Years 0-10+",
-      "outputs": ["fire", "stone_tools", "food_surplus", "raw_materials", "fire-hardened_wood"],
+      "outputs": [
+        "fire",
+        "stone_tools",
+        "food_surplus",
+        "raw_materials",
+        "fire-hardened_wood"
+      ],
       "critical": true,
       "critical_note": "Everything depends on food surplus to free specialist labor and fire for all thermal processes",
       "early_win": true,
       "early_win_note": "Fire + food surplus → specialist labor → better tools → more surplus",
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "wood",
+          "stone",
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": true,
+        "early-win": true,
+        "pinnacle": false
+      }
     },
     {
       "id": "foundations.fire",
@@ -53,10 +75,25 @@
       "parent": "foundations",
       "description": "Fire-making techniques: friction fire, flint-and-steel ignition, fire maintenance, and heat management.",
       "timeline": "Years 0-5",
-      "outputs": ["fire"],
+      "outputs": [
+        "fire"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "wood",
+          "biomass"
+        ],
+        "capability": [
+          "energy"
+        ],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "foundations.tools-basic",
@@ -65,10 +102,26 @@
       "parent": "foundations",
       "description": "Flint knapping (hard hammer, soft hammer, pressure flaking), ground stone tools, and wooden implements with hafting using birch tar adhesive. Produces scrapers, axes, drills, and digging sticks for all early construction and material extraction.",
       "timeline": "Years 0-5",
-      "outputs": ["stone_tools", "wooden_tools", "birch_tar", "hafted_tools"],
+      "outputs": [
+        "stone_tools",
+        "wooden_tools",
+        "birch_tar",
+        "hafted_tools"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "stone",
+          "wood"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "foundations.food-agriculture",
@@ -77,10 +130,28 @@
       "parent": "foundations",
       "description": "Grain cultivation, animal domestication, food preservation (drying, smoking, salting, fermentation), and irrigation. The food surplus loop — more food → more specialists → better tools → more food — is the engine that drives all subsequent development.",
       "timeline": "Years 0-10+",
-      "outputs": ["food_surplus", "grain", "animal_power", "leather", "tallow", "wool", "preserved_food"],
+      "outputs": [
+        "food_surplus",
+        "grain",
+        "animal_power",
+        "leather",
+        "tallow",
+        "wool",
+        "preserved_food"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "metals",
@@ -89,10 +160,29 @@
       "parent": null,
       "description": "Extraction and working of metals from ore. Spans copper, bronze, iron, and steel production with increasingly complex smelting. Also covers basic glass production from silica sand.",
       "timeline": "Years 5-15",
-      "outputs": ["copper", "bronze", "wrought_iron", "steel", "metal_tools", "basic_glass", "potash"],
+      "outputs": [
+        "copper",
+        "bronze",
+        "wrought_iron",
+        "steel",
+        "metal_tools",
+        "basic_glass",
+        "potash"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals",
+          "glass"
+        ],
+        "capability": [],
+        "era": "copper-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "metals.copper-bronze",
@@ -101,10 +191,25 @@
       "parent": "metals",
       "description": "Copper smelting from malachite, azurite, and chalcopyrite in forced-draft charcoal furnaces at 1085-1200°C. Bronze alloying with 5-12% tin for harder, more castable tools. Sand, clay, and stone mold casting techniques.",
       "timeline": "Years 5-10",
-      "outputs": ["copper", "bronze", "castings", "ingots"],
+      "outputs": [
+        "copper",
+        "bronze",
+        "castings",
+        "ingots"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [],
+        "era": "copper-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "metals.iron-steel",
@@ -113,11 +218,26 @@
       "parent": "metals",
       "description": "Bloomery smelting of iron ore at 1200-1400°C producing wrought iron, carburization for steel, and crucible steel (Wootz method). Heat treatment: annealing, quenching, and tempering. This is the critical metallurgical capability that enables all subsequent domains.",
       "timeline": "Years 5-15",
-      "outputs": ["wrought_iron", "steel", "iron_bloom", "heat_treated_steel"],
+      "outputs": [
+        "wrought_iron",
+        "steel",
+        "iron_bloom",
+        "heat_treated_steel"
+      ],
       "critical": true,
       "critical_note": "Iron and steel are essential for machine tool beds, cutting tools, boilers, generators, and all precision machinery",
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [],
+        "era": "iron-age",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "metals.glass",
@@ -126,10 +246,23 @@
       "parent": "metals",
       "description": "Basic glass production from silica sand, potash, and limestone at 1100-1400°C for vessels, beads, and window panes.",
       "timeline": "Years 5-15",
-      "outputs": ["basic_glass", "potash"],
+      "outputs": [
+        "basic_glass",
+        "potash"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "glass"
+        ],
+        "capability": [],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "machine-tools",
@@ -138,11 +271,47 @@
       "parent": null,
       "description": "Precision manufacturing capability built via Gingery-style iterative bootstrap: casting → crude lathe → improved lathe → shaper → mill → drill press → surface grinder. Covers metal forming, machining, joining, and casting. The single most important parallel track — without machine tools, no semiconductor equipment can be built.",
       "timeline": "Years 10-25",
-      "outputs": ["lathe", "shaper", "mill", "drill_press", "grinder", "precision_metrology", "gears", "screws", "bearings", "thread_standards", "gauge_blocks", "micrometers", "formed_metal_parts", "machined_parts", "forge_welds", "brazed_joints", "soldered_joints", "riveted_joints", "welded_joints", "acetylene", "cast_iron_parts", "cast_aluminum_parts", "sand_molds"],
+      "outputs": [
+        "lathe",
+        "shaper",
+        "mill",
+        "drill_press",
+        "grinder",
+        "precision_metrology",
+        "gears",
+        "screws",
+        "bearings",
+        "thread_standards",
+        "gauge_blocks",
+        "micrometers",
+        "formed_metal_parts",
+        "machined_parts",
+        "forge_welds",
+        "brazed_joints",
+        "soldered_joints",
+        "riveted_joints",
+        "welded_joints",
+        "acetylene",
+        "cast_iron_parts",
+        "cast_aluminum_parts",
+        "sand_molds"
+      ],
       "critical": true,
       "critical_note": "Master enabler: every later stage depends on precision parts — cylinders, leadscrews, slides, seals",
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "iron-age",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "machine-tools.casting",
@@ -151,10 +320,26 @@
       "parent": "machine-tools",
       "description": "Crucible furnaces for aluminum (660°C) and cast iron (1200-1400°C), green sand molding with bentonite binder, pattern making with shrinkage allowance, flask-based casting, and investment casting. Every machine tool starts as a sand-cast iron or aluminum casting.",
       "timeline": "Years 10-15",
-      "outputs": ["cast_iron_parts", "cast_aluminum_parts", "sand_molds"],
+      "outputs": [
+        "cast_iron_parts",
+        "cast_aluminum_parts",
+        "sand_molds"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "machine-tools.iterative-bootstrap",
@@ -163,10 +348,28 @@
       "parent": "machine-tools",
       "description": "The core self-improving sequence: crude lathe (0.5 mm tolerance) → improved lathe with leadscrew (0.1 mm) → shaper (0.05 mm) → milling machine (0.025 mm) → drill press → surface grinder (0.005 mm). Each machine doubles precision achievable with the previous generation.",
       "timeline": "Years 10-25",
-      "outputs": ["lathe", "shaper", "mill", "drill_press", "grinder"],
+      "outputs": [
+        "lathe",
+        "shaper",
+        "mill",
+        "drill_press",
+        "grinder"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "machine-tools.precision-metrology",
@@ -175,10 +378,34 @@
       "parent": "machine-tools",
       "description": "Surface plates via Whitworth three-plate method, hand scraping, straight edges, squares, vernier calipers (0.02 mm), micrometers (0.01 mm), gauge blocks (Jo-blocks), go/no-go gauges, and thread standards. Includes base unit standards, timekeeping, calibration infrastructure, electrical standards, and optical metrology. You cannot build what you cannot measure.",
       "timeline": "Years 10-25",
-      "outputs": ["precision_metrology", "gauge_blocks", "micrometers", "calipers", "thread_standards", "go_no_go_gauges", "surface_plates", "length_standards", "mass_standards", "timekeeping", "calibration_chain", "electrical_standards"],
+      "outputs": [
+        "precision_metrology",
+        "gauge_blocks",
+        "micrometers",
+        "calipers",
+        "thread_standards",
+        "go_no_go_gauges",
+        "surface_plates",
+        "length_standards",
+        "mass_standards",
+        "timekeeping",
+        "calibration_chain",
+        "electrical_standards"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "precision",
+          "measurement"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "machine-tools.bearings-abrasives",
@@ -187,10 +414,30 @@
       "parent": "machine-tools",
       "description": "Plain journal bearings (babbitt metal), rolling element ball bearings (52100 steel), natural abrasives (emery, sandstone) and synthetic abrasives (SiC, Al₂O₃ from electric arc furnace), cutting tool materials (carbon steel, HSS), thread cutting on lathe, and tap and die production.",
       "timeline": "Years 10-25",
-      "outputs": ["bearings", "ball_bearings", "abrasives", "cutting_tools", "taps", "dies", "hss_tool_bits"],
+      "outputs": [
+        "bearings",
+        "ball_bearings",
+        "abrasives",
+        "cutting_tools",
+        "taps",
+        "dies",
+        "hss_tool_bits"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "machine-tools.forming",
@@ -199,10 +446,24 @@
       "parent": "machine-tools",
       "description": "Forge work, hammer forming, rolling, and drawing of metals into shapes.",
       "timeline": "Years 5-15",
-      "outputs": ["formed_metal_parts"],
+      "outputs": [
+        "formed_metal_parts"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "machine-tools.machining",
@@ -211,10 +472,24 @@
       "parent": "machine-tools",
       "description": "Lathe turning, milling, drilling, and grinding of metal parts to precise dimensions.",
       "timeline": "Years 10-25",
-      "outputs": ["machined_parts"],
+      "outputs": [
+        "machined_parts"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "machine-tools.joining",
@@ -223,10 +498,27 @@
       "parent": "machine-tools",
       "description": "Forge welding, brazing, soldering, and riveting of metal components. Also covers oxy-acetylene welding and cutting (3100°C flame) and arc welding (SMAW/stick) with flux-coated electrodes.",
       "timeline": "Years 5-30",
-      "outputs": ["forge_welds", "brazed_joints", "soldered_joints", "riveted_joints", "welded_joints", "acetylene"],
+      "outputs": [
+        "forge_welds",
+        "brazed_joints",
+        "soldered_joints",
+        "riveted_joints",
+        "welded_joints",
+        "acetylene"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "energy",
@@ -235,10 +527,40 @@
       "parent": null,
       "description": "Water and wind power, solid fuel production, steam engines, electromagnetic generation, electric furnaces, cooling and refrigeration, and energy storage. The energy revolution transforms manufacturing from muscle-powered to machine-powered industry.",
       "timeline": "Years 5-30",
-      "outputs": ["water_power", "wind_power", "steam_engines", "boilers", "generators", "motors", "transformers", "wire_cables", "electricity", "electric_arc_furnaces", "charcoal", "coke", "coal", "coal_gas", "coal_tar", "refrigeration", "lead_acid_batteries", "grid_infrastructure", "ups_systems"],
+      "outputs": [
+        "water_power",
+        "wind_power",
+        "steam_engines",
+        "boilers",
+        "generators",
+        "motors",
+        "transformers",
+        "wire_cables",
+        "electricity",
+        "electric_arc_furnaces",
+        "charcoal",
+        "coke",
+        "coal",
+        "coal_gas",
+        "coal_tar",
+        "refrigeration",
+        "lead_acid_batteries",
+        "grid_infrastructure",
+        "ups_systems"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "energy"
+        ],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "energy.gravity",
@@ -247,10 +569,22 @@
       "parent": "energy",
       "description": "Undershot and overshot water wheels (1-5 HP) using gravitational water flow for mechanical power.",
       "timeline": "Years 5-15",
-      "outputs": ["water_power"],
+      "outputs": [
+        "water_power"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "energy"
+        ],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "energy.wind",
@@ -259,10 +593,22 @@
       "parent": "energy",
       "description": "Windmills for mechanical power: grain grinding, sawing, and water pumping.",
       "timeline": "Years 5-15",
-      "outputs": ["wind_power"],
+      "outputs": [
+        "wind_power"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "energy"
+        ],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "energy.fuels",
@@ -271,10 +617,27 @@
       "parent": "energy",
       "description": "Solid, liquid, and gaseous fuel production from coal, coke, charcoal, and petroleum sources.",
       "timeline": "Years 0-25",
-      "outputs": ["solid_fuels", "liquid_fuels", "gaseous_fuels"],
+      "outputs": [
+        "solid_fuels",
+        "liquid_fuels",
+        "gaseous_fuels"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass",
+          "chemicals"
+        ],
+        "capability": [
+          "energy"
+        ],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "energy.fuels.charcoal",
@@ -283,10 +646,23 @@
       "parent": "energy.fuels",
       "description": "Charcoal production via earth-covered pit and simple kiln methods. Primary fuel for all metallurgy until coke arrives.",
       "timeline": "Years 0-10",
-      "outputs": ["charcoal", "char_cloth"],
+      "outputs": [
+        "charcoal",
+        "char_cloth"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "energy.fuels.coal",
@@ -295,10 +671,22 @@
       "parent": "energy.fuels",
       "description": "Bituminous and anthracite coal mining, preparation, and combustion for steam generation and industrial heating.",
       "timeline": "Years 15-25",
-      "outputs": ["coal"],
+      "outputs": [
+        "coal"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "energy.fuels.coke",
@@ -307,10 +695,25 @@
       "parent": "energy.fuels",
       "description": "Beehive and by-product recovery coke ovens converting bituminous coal to coke (60-70% yield). Coke burns at 1800-2100°C.",
       "timeline": "Years 15-25",
-      "outputs": ["coke", "coal_gas", "coal_tar", "ammonia_liquor"],
+      "outputs": [
+        "coke",
+        "coal_gas",
+        "coal_tar",
+        "ammonia_liquor"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "energy.steam-power",
@@ -319,10 +722,24 @@
       "parent": "energy",
       "description": "Newcomen atmospheric engine (5-15 HP, 0.5-1% efficiency), Watt separate condenser engine (10-100+ HP, 3-5% efficiency), boiler construction from riveted iron plate, safety valves, and power transmission from reciprocating to rotary motion.",
       "timeline": "Years 15-25",
-      "outputs": ["steam_engines", "boilers", "rotary_power"],
+      "outputs": [
+        "steam_engines",
+        "boilers",
+        "rotary_power"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "energy"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "energy.electricity",
@@ -331,10 +748,27 @@
       "parent": "energy",
       "description": "Voltaic piles and Daniell cells, wire drawing, generators (Faraday magneto → self-exciting dynamo), DC and AC motors, transformers for voltage step-up/step-down, and power distribution (AC wins long-term). Copper wire gauge reference and motor/generator sizing included.",
       "timeline": "Years 15-30",
-      "outputs": ["generators", "motors", "transformers", "wire_cables", "electricity", "insulated_wire"],
+      "outputs": [
+        "generators",
+        "motors",
+        "transformers",
+        "wire_cables",
+        "electricity",
+        "insulated_wire"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "energy"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "energy.electric-furnaces",
@@ -343,10 +777,24 @@
       "parent": "energy",
       "description": "Electric arc furnace (EAF) for steelmaking and silicon reduction, submerged arc furnace for continuous production, and resistance heating elements (Nichrome, Kanthal, SiC). Arc temperatures reach 3000-3500°C. EAF is critical for MG-Si production and specialty steel.",
       "timeline": "Years 20-30",
-      "outputs": ["electric_arc_furnaces", "resistance_heaters", "eaf_steel"],
+      "outputs": [
+        "electric_arc_furnaces",
+        "resistance_heaters",
+        "eaf_steel"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "energy"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "energy.cooling",
@@ -355,10 +803,25 @@
       "parent": "energy",
       "description": "Refrigeration cycles, ice production, cooling systems for industrial processes and climate control.",
       "timeline": "Years 20-30",
-      "outputs": ["refrigeration", "industrial_cooling", "ice_production"],
+      "outputs": [
+        "refrigeration",
+        "industrial_cooling",
+        "ice_production"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "cooling",
+          "energy"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "energy.storage",
@@ -367,10 +830,26 @@
       "parent": "energy",
       "description": "Lead-acid batteries, nickel-iron batteries, mechanical storage (pumped hydro, flywheels, compressed air), energy diversification (hydroelectric, wind, solar PV, biomass), grid infrastructure, and UPS systems for semiconductor fab equipment. Semiconductor fabrication cannot tolerate power interruptions.",
       "timeline": "Years 15-200+",
-      "outputs": ["lead_acid_batteries", "grid_infrastructure", "ups_systems", "hydroelectric_power", "wind_power"],
+      "outputs": [
+        "lead_acid_batteries",
+        "grid_infrastructure",
+        "ups_systems",
+        "hydroelectric_power",
+        "wind_power"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "energy"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "chemistry",
@@ -379,10 +858,59 @@
       "parent": null,
       "description": "Bulk mineral acids, alkalis, industrial gases, distillation infrastructure, cement production, air separation, specialty gases for semiconductor fabrication, petroleum alternatives and coal tar chemistry, lubricants and cutting fluids, and electrolytic processes. A civilization's industrial maturity can be measured by its sulfuric acid production. Provides the etchants, solvents, reagents, and purification infrastructure needed for semiconductor fabrication.",
       "timeline": "Years 20-35",
-      "outputs": ["sulfuric_acid", "nitric_acid", "hydrofluoric_acid", "hydrochloric_acid", "soda_ash", "caustic_soda", "chlorine", "hydrogen", "oxygen", "nitrogen", "aluminum", "cement", "concrete", "argon", "silane", "dopant_gases", "etch_gases", "gas_distribution", "packaged_ics", "tested_ics", "gasoline", "kerosene", "diesel", "lubricating_oil", "benzene", "phenol", "ethanol", "acetone", "methanol", "producer_gas", "coal_tar", "grease", "cutting_fluid", "hydraulic_fluid", "vacuum_oil", "electrolysis", "pure_copper"],
+      "outputs": [
+        "sulfuric_acid",
+        "nitric_acid",
+        "hydrofluoric_acid",
+        "hydrochloric_acid",
+        "soda_ash",
+        "caustic_soda",
+        "chlorine",
+        "hydrogen",
+        "oxygen",
+        "nitrogen",
+        "aluminum",
+        "cement",
+        "concrete",
+        "argon",
+        "silane",
+        "dopant_gases",
+        "etch_gases",
+        "gas_distribution",
+        "packaged_ics",
+        "tested_ics",
+        "gasoline",
+        "kerosene",
+        "diesel",
+        "lubricating_oil",
+        "benzene",
+        "phenol",
+        "ethanol",
+        "acetone",
+        "methanol",
+        "producer_gas",
+        "coal_tar",
+        "grease",
+        "cutting_fluid",
+        "hydraulic_fluid",
+        "vacuum_oil",
+        "electrolysis",
+        "pure_copper"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals",
+          "gases"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "chemistry.acids",
@@ -391,10 +919,26 @@
       "parent": "chemistry",
       "description": "Sulfuric acid (lead chamber process 65-70%, contact process 96-98%), nitric acid (from nitrates + H₂SO₄, later Ostwald process), hydrochloric acid (NaCl + H₂SO₄ or direct H₂ + Cl₂ synthesis), and hydrofluoric acid (CaF₂ + H₂SO₄, extremely hazardous). HF is uniquely dangerous and essential for glass and silicon etching.",
       "timeline": "Years 20-35",
-      "outputs": ["sulfuric_acid", "nitric_acid", "hydrochloric_acid", "hydrofluoric_acid", "oleum"],
+      "outputs": [
+        "sulfuric_acid",
+        "nitric_acid",
+        "hydrochloric_acid",
+        "hydrofluoric_acid",
+        "oleum"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "chemistry.alkalis",
@@ -403,10 +947,24 @@
       "parent": "chemistry",
       "description": "Leblanc process (first synthetic soda ash) and Solvay process (more efficient, later) for Na₂CO₃, lime-soda process and chlor-alkali electrolysis for NaOH. Soda ash and caustic soda are essential for glass making, soap production, paper pulping, and chemical processing.",
       "timeline": "Years 20-35",
-      "outputs": ["soda_ash", "caustic_soda", "sodium_carbonate"],
+      "outputs": [
+        "soda_ash",
+        "caustic_soda",
+        "sodium_carbonate"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "chemistry.distillation-gas-handling",
@@ -415,10 +973,25 @@
       "parent": "chemistry",
       "description": "Distillation columns (2-10 m, copper or steel, packed with ceramic Raschig rings), batch and continuous flow reactors, piping/valves/pumps for corrosive service, shell-and-tube heat exchangers, gas compression and storage, and purification by scrubbing, molecular sieves, and catalytic getters.",
       "timeline": "Years 20-35",
-      "outputs": ["distillation_capability", "gas_handling", "compressed_gases", "purified_gases"],
+      "outputs": [
+        "distillation_capability",
+        "gas_handling",
+        "compressed_gases",
+        "purified_gases"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "gases"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "chemistry.cement",
@@ -427,10 +1000,26 @@
       "parent": "chemistry",
       "description": "Portland cement from limestone + clay heated to 1450°C, ground with gypsum. Concrete (1:2:4 cement:sand:gravel mix), reinforced concrete with steel rebar, and curing protocols. Dominant building material for factory foundations, dams, roads, and vibration isolation pads.",
       "timeline": "Years 20-35",
-      "outputs": ["cement", "concrete", "reinforced_concrete"],
+      "outputs": [
+        "cement",
+        "concrete",
+        "reinforced_concrete"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "stone"
+        ],
+        "capability": [
+          "construction"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "chemistry.electrolysis",
@@ -439,10 +1028,29 @@
       "parent": "chemistry",
       "description": "Electrolytic cells for chlor-alkali (NaCl → Cl₂ + NaOH), water splitting (H₂ + O₂), aluminum Hall-Héroult process, and copper refining. DC power at 2-5V per cell, industrial current 100-10,000+ A. Enables production of ultra-pure hydrogen, chlorine, and aluminum.",
       "timeline": "Years 20-30",
-      "outputs": ["electrolysis", "chlorine", "hydrogen", "oxygen", "aluminum", "caustic_soda", "pure_copper"],
+      "outputs": [
+        "electrolysis",
+        "chlorine",
+        "hydrogen",
+        "oxygen",
+        "aluminum",
+        "caustic_soda",
+        "pure_copper"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "gases",
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "chemistry.air-separation",
@@ -451,10 +1059,24 @@
       "parent": "chemistry",
       "description": "Linde fractional distillation of liquid air producing nitrogen (99-99.99%), oxygen (95-99.5%), and argon (99-99.999%). Argon is critical for CZ crystal growth inert atmosphere. Double-column distillation at cryogenic temperatures with Joule-Thomson cooling.",
       "timeline": "Years 20-40",
-      "outputs": ["argon", "nitrogen", "oxygen"],
+      "outputs": [
+        "argon",
+        "nitrogen",
+        "oxygen"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "gases"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "chemistry.hydrogen-silane",
@@ -463,10 +1085,25 @@
       "parent": "chemistry",
       "description": "Hydrogen via electrolysis (4-5 kWh/Nm³) with Pd membrane purification, steam reforming of methane, and silane (SiH₄) production from MG-Si via trichlorosilane redistribution. Silane is pyrophoric — rigorous handling protocols required.",
       "timeline": "Years 25-50",
-      "outputs": ["hydrogen", "silane", "trichlorosilane"],
+      "outputs": [
+        "hydrogen",
+        "silane",
+        "trichlorosilane"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "gases",
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "chemistry.dopant-etch-gases",
@@ -475,10 +1112,25 @@
       "parent": "chemistry",
       "description": "Dopant gases (PH₃, AsH₃, B₂H₆ — extremely toxic, lethal at ppm concentrations) and etch gases (CF₄, SF₆, Cl₂, F₂). Fluorine production by KF·2HF electrolysis. Exhaust gas abatement via thermal oxidation and wet scrubbing mandatory for all dopant gas use.",
       "timeline": "Years 30-70",
-      "outputs": ["dopant_gases", "etch_gases", "fluorine"],
+      "outputs": [
+        "dopant_gases",
+        "etch_gases",
+        "fluorine"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "gases",
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "chemistry.packaging-testing",
@@ -487,10 +1139,22 @@
       "parent": "chemistry",
       "description": "Wafer backgrinding, die singulation (diamond blade dicing), die attach (eutectic or epoxy), wire bonding (Au ball bonding, Al wedge), encapsulation (transfer molding with epoxy-silica compound), lead forming, wafer probing (DC parametric + functional), burn-in, and final test.",
       "timeline": "Years 40-70",
-      "outputs": ["packaged_ics", "tested_ics", "yield_data"],
+      "outputs": [
+        "packaged_ics",
+        "tested_ics",
+        "yield_data"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "chemistry.petroleum-alternatives",
@@ -499,10 +1163,32 @@
       "parent": "chemistry",
       "description": "Petroleum extraction (surface seeps → cable-tool → rotary drilling), refining (batch distillation → fractional distillation → thermal cracking), coal tar chemistry (benzene, phenol, naphthalene from coke ovens), fermentation (ethanol, acetone, acetic acid, methanol), and wood gasification. Dual-path strategy: petroleum accelerates everything, but coal tar + fermentation covers the same molecules.",
       "timeline": "Years 5-50+",
-      "outputs": ["gasoline", "kerosene", "diesel", "lubricating_oil", "benzene", "phenol", "ethanol", "acetone", "methanol", "producer_gas", "coal_tar"],
+      "outputs": [
+        "gasoline",
+        "kerosene",
+        "diesel",
+        "lubricating_oil",
+        "benzene",
+        "phenol",
+        "ethanol",
+        "acetone",
+        "methanol",
+        "producer_gas",
+        "coal_tar"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "chemistry.lubricants",
@@ -511,11 +1197,27 @@
       "parent": "chemistry",
       "description": "Animal fats and vegetable oils, lubrication regimes (boundary, hydrodynamic, EHL), cutting fluids for machining, grease production (calcium, sodium, lithium soap), bearing lubrication methods, hydraulic fluids, vacuum oils (mineral, silicone), and cleanroom-compatible lubricants. Without lubrication, every moving part seizes.",
       "timeline": "Years 0-200+",
-      "outputs": ["lubricating_oil", "grease", "cutting_fluid", "hydraulic_fluid", "vacuum_oil"],
+      "outputs": [
+        "lubricating_oil",
+        "grease",
+        "cutting_fluid",
+        "hydraulic_fluid",
+        "vacuum_oil"
+      ],
       "critical": true,
       "critical_note": "Without lubrication, bearings gall, slides bind, gears wear out in hours, and cutting tools destroy both workpiece and themselves",
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "iron-age",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "vacuum-optics",
@@ -524,10 +1226,34 @@
       "parent": null,
       "description": "Controlled environments and inspection capability. Vacuum pumps and chambers for deposition and evaporation, advanced glass production (borosilicate, fused silica, tubing), optical inspection tools (microscopes, comparators, spectroscopes), and precision temperature/pressure measurement.",
       "timeline": "Years 25-40",
-      "outputs": ["vacuum_pumps", "vacuum_chambers", "glass_apparatus", "lenses", "microscopes", "quartz_crucibles", "fused_silica", "borosilicate_glass", "thermocouples", "temperature_measurement"],
+      "outputs": [
+        "vacuum_pumps",
+        "vacuum_chambers",
+        "glass_apparatus",
+        "lenses",
+        "microscopes",
+        "quartz_crucibles",
+        "fused_silica",
+        "borosilicate_glass",
+        "thermocouples",
+        "temperature_measurement"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "glass"
+        ],
+        "capability": [
+          "vacuum",
+          "optics"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "vacuum-optics.glass-advanced",
@@ -536,10 +1262,28 @@
       "parent": "vacuum-optics",
       "description": "Borosilicate glass (Pyrex-type, thermal shock resistant), fused silica/quartz glass (1700°C+, critical for CZ crucibles), glass tubing production, glassworking techniques (lampworking, sealing), and quartz crucible fabrication for semiconductor use.",
       "timeline": "Years 25-40",
-      "outputs": ["borosilicate_glass", "fused_silica", "quartz_crucibles", "glass_tubing", "glass_apparatus"],
+      "outputs": [
+        "borosilicate_glass",
+        "fused_silica",
+        "quartz_crucibles",
+        "glass_tubing",
+        "glass_apparatus"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "glass"
+        ],
+        "capability": [
+          "optics"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "vacuum-optics.vacuum-systems",
@@ -548,10 +1292,25 @@
       "parent": "vacuum-optics",
       "description": "Piston pumps (rough vacuum 10-50 Torr), rotary vane pumps (workhorse, 10⁻²-10⁻³ Torr), diffusion pumps (high vacuum 10⁻⁶-10⁻⁸ Torr), vacuum chambers (steel or glass), vacuum measurement (Bourdon, Pirani, ion gauges), and leak detection (bubble test, helium leak detector).",
       "timeline": "Years 25-40",
-      "outputs": ["vacuum_pumps", "vacuum_chambers", "vacuum_measurement", "leak_detection"],
+      "outputs": [
+        "vacuum_pumps",
+        "vacuum_chambers",
+        "vacuum_measurement",
+        "leak_detection"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "vacuum"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "vacuum-optics.optics-inspection",
@@ -560,10 +1319,30 @@
       "parent": "vacuum-optics",
       "description": "Lens grinding and polishing (rough grind → fine grind → polish with cerium oxide), compound microscopes (40x-1000x), optical comparators, spectroscopes, thermocouples, RTDs, pressure gauges, and electrical measurement (galvanometers, Wheatstone bridges). Essential for crystal defect inspection and lithography alignment.",
       "timeline": "Years 25-40",
-      "outputs": ["lenses", "microscopes", "optical_comparators", "thermocouples", "temperature_measurement", "electrical_measurement"],
+      "outputs": [
+        "lenses",
+        "microscopes",
+        "optical_comparators",
+        "thermocouples",
+        "temperature_measurement",
+        "electrical_measurement"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "glass"
+        ],
+        "capability": [
+          "optics",
+          "measurement"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "silicon",
@@ -572,11 +1351,29 @@
       "parent": null,
       "description": "Production of metallurgical-grade silicon, purification to semiconductor grade, Czochralski crystal growth, wafer slicing and polishing, and fabrication of basic solar cells and semiconductor devices. Solar cells are the primary early target — far simpler than logic chips and creating a critical positive feedback loop.",
       "timeline": "Years 30-50",
-      "outputs": ["mg_silicon", "purified_silicon", "single_crystal_ingots", "wafers", "solar_cells", "diodes", "transistors"],
+      "outputs": [
+        "mg_silicon",
+        "purified_silicon",
+        "single_crystal_ingots",
+        "wafers",
+        "solar_cells",
+        "diodes",
+        "transistors"
+      ],
       "critical": false,
       "early_win": true,
       "early_win_note": "Solar cells produce power to make more solar cells — the most important positive feedback loop in the entire tech tree",
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "silicon"
+        ],
+        "capability": [],
+        "era": "electronic",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      }
     },
     {
       "id": "silicon.mg-si-production",
@@ -585,10 +1382,22 @@
       "parent": "silicon",
       "description": "Carbothermic reduction of quartz (SiO₂ + 2C → Si + 2CO) in submerged arc electric furnace at 1800-2100°C. Requires 5-30 MW power, produces 97-99% purity MG-Si. Energy consumption: ~11-13 kWh/kg. The starting material for all semiconductor-grade silicon.",
       "timeline": "Years 30-40",
-      "outputs": ["mg_silicon"],
+      "outputs": [
+        "mg_silicon"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "silicon"
+        ],
+        "capability": [],
+        "era": "electronic",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "silicon.purification",
@@ -597,10 +1406,24 @@
       "parent": "silicon",
       "description": "Chemical purification via Siemens-like process (hydrochlorination → fractional distillation of chlorosilanes → CVD deposition, 9N-11N purity) and physical purification via directional solidification and zone refining (5-9N). Siemens process achieves electronic grade but consumes ~100-200 kWh/kg.",
       "timeline": "Years 30-50",
-      "outputs": ["purified_silicon", "polysilicon", "chlorosilanes"],
+      "outputs": [
+        "purified_silicon",
+        "polysilicon",
+        "chlorosilanes"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "silicon"
+        ],
+        "capability": [],
+        "era": "electronic",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "silicon.crystal-growth",
@@ -609,10 +1432,24 @@
       "parent": "silicon",
       "description": "Czochralski (CZ) crystal pulling from quartz crucibles with precision motion control, wire saw wafering, lapping (2-5 μm TTV), and CMP polishing (<0.5 nm Ra). RCA clean standard for wafer preparation. CZ puller is the most mechanically demanding equipment in the silicon path.",
       "timeline": "Years 30-50",
-      "outputs": ["single_crystal_ingots", "wafers", "polished_wafers"],
+      "outputs": [
+        "single_crystal_ingots",
+        "wafers",
+        "polished_wafers"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "silicon"
+        ],
+        "capability": [],
+        "era": "electronic",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "silicon.crystal-growth.cz-pulling",
@@ -621,10 +1458,22 @@
       "parent": "silicon.crystal-growth",
       "description": "Pulling single-crystal silicon ingots from molten polysilicon using a seed crystal in a quartz crucible at ~1415°C. Requires precision leadscrew (±0.5% speed stability), argon atmosphere, and temperature control ±0.5°C. Dash process eliminates dislocations via thin neck growth.",
       "timeline": "Years 30-50",
-      "outputs": ["single_crystal_ingots"],
+      "outputs": [
+        "single_crystal_ingots"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "silicon"
+        ],
+        "capability": [],
+        "era": "electronic",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "silicon.basic-devices",
@@ -633,10 +1482,26 @@
       "parent": "silicon",
       "description": "Solar cell fabrication (p-type wafer → phosphorus diffusion → SiNₓ AR coating → screen-printed metallization, targeting 15-18% efficiency), point-contact diodes, alloy junction transistors, and diffused transistors. Vacuum evaporation and screen printing for metallization.",
       "timeline": "Years 30-50",
-      "outputs": ["solar_cells", "diodes", "transistors"],
+      "outputs": [
+        "solar_cells",
+        "diodes",
+        "transistors"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "silicon"
+        ],
+        "capability": [
+          "energy"
+        ],
+        "era": "electronic",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "photolithography",
@@ -645,10 +1510,28 @@
       "parent": null,
       "description": "Cleanrooms, photoresist chemistry, mask making, lithography exposure tools, and core fab processes (etch, deposition, doping, metallization). The planar process enables integrated circuits. Expect <1% yield on first IC runs — iteration is essential.",
       "timeline": "Years 40-70",
-      "outputs": ["cleanrooms", "photoresists", "masks", "lithography_tools", "fab_processes", "early_ics", "msi"],
+      "outputs": [
+        "cleanrooms",
+        "photoresists",
+        "masks",
+        "lithography_tools",
+        "fab_processes",
+        "early_ics",
+        "msi"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "precision"
+        ],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "photolithography.cleanrooms",
@@ -657,10 +1540,22 @@
       "parent": "photolithography",
       "description": "Cleanroom construction (ISO 6-4, HEPA/ULPA filtration, laminar flow, positive pressure, gowning protocols), ultra-pure water systems (RO + DI + UV + membrane filtration to 18 MΩ·cm), and cleanroom consumables (garments, wipers, gloves). A single 1 μm particle on a wafer can kill an entire chip.",
       "timeline": "Years 40-70",
-      "outputs": ["cleanrooms", "ultra_pure_water", "cleanroom_consumables"],
+      "outputs": [
+        "cleanrooms",
+        "ultra_pure_water",
+        "cleanroom_consumables"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "photolithography.resists-masks",
@@ -669,10 +1564,25 @@
       "parent": "photolithography",
       "description": "Photoresist progression from bitumen (100 μm+) to dichromated gelatin (10-50 μm) to novolac+DNQ (0.5-3 μm, positive tone). Spin coating, exposure (mercury lamp g/h/i-line), development in TMAH, and hard bake. Mask making via photoreduction. Contact/proximity and projection printing tools.",
       "timeline": "Years 40-70",
-      "outputs": ["photoresists", "masks", "lithography_tools", "patterned_wafers"],
+      "outputs": [
+        "photoresists",
+        "masks",
+        "lithography_tools",
+        "patterned_wafers"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "precision"
+        ],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "photolithography.fab-processes",
@@ -681,10 +1591,27 @@
       "parent": "photolithography",
       "description": "Thermal oxidation (dry and wet), wet etching (HF for SiO₂, KOH for Si) and dry/plasma etching (RIE), CVD deposition (poly-Si, SiO₂, Si₃N₄), PVD (sputtering, evaporation), doping (diffusion and later ion implantation), metallization (Al, later Cu), and the planar process integration for IC fabrication. Example NMOS flow with 7 mask layers.",
       "timeline": "Years 40-70",
-      "outputs": ["fab_processes", "early_ics", "msi", "patterned_oxide", "doped_regions", "metal_interconnects"],
+      "outputs": [
+        "fab_processes",
+        "early_ics",
+        "msi",
+        "patterned_oxide",
+        "doped_regions",
+        "metal_interconnects"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "precision"
+        ],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "vlsi-scaling",
@@ -693,11 +1620,30 @@
       "parent": null,
       "description": "Continuous improvement of wafer size (2\" → 12\"), feature size (10 μm → 7 nm), layer count (1-2 → 10+), and yield (10% → 90%+). Advanced lithography (DUV, eventually EUV), ion implantation, ALD, CMP planarization, copper damascene interconnects, EDA tools, and high-end solar optimization. The pinnacle requiring a mature, self-sustaining industrial ecosystem.",
       "timeline": "Years 70-200+",
-      "outputs": ["vlsi", "advanced_lithography", "high_end_solar", "gpus", "eda_tools", "advanced_packaging"],
+      "outputs": [
+        "vlsi",
+        "advanced_lithography",
+        "high_end_solar",
+        "gpus",
+        "eda_tools",
+        "advanced_packaging"
+      ],
       "critical": false,
       "early_win": false,
       "pinnacle": true,
-      "pinnacle_note": "Requires the entire mature ecosystem, generations of accumulated knowledge, and massive capital investment. EUV alone took 20+ years and $10B+ by ASML."
+      "pinnacle_note": "Requires the entire mature ecosystem, generations of accumulated knowledge, and massive capital investment. EUV alone took 20+ years and $10B+ by ASML.",
+      "tags": {
+        "material": [
+          "silicon"
+        ],
+        "capability": [
+          "computing"
+        ],
+        "era": "advanced",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": true
+      }
     },
     {
       "id": "vlsi-scaling.continuous-scaling",
@@ -706,10 +1652,26 @@
       "parent": "vlsi-scaling",
       "description": "Wafer size progression (2\" → 4\" → 6\" → 8\" → 12\"), feature size reduction (10 μm → 3 μm → 1 μm → 0.35 μm → 0.13 μm → 7 nm), and metal layer progression (1-2 → 10+). Each generation doubles transistor count and requires better process uniformity, larger equipment, and higher yield.",
       "timeline": "Years 70-200+",
-      "outputs": ["larger_wafers", "finer_features", "higher_yield"],
+      "outputs": [
+        "larger_wafers",
+        "finer_features",
+        "higher_yield"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "silicon"
+        ],
+        "capability": [
+          "computing"
+        ],
+        "era": "advanced",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "vlsi-scaling.advanced-lithography",
@@ -718,10 +1680,25 @@
       "parent": "vlsi-scaling",
       "description": "Projection steppers/scanners (i-line 365 nm → 0.35 μm), DUV excimer lasers (KrF 248 nm, ArF 193 nm with immersion → 0.07 μm), and EUV (13.5 nm from Sn plasma, reflective Mo/Si optics, high vacuum beam path). Chemically amplified resists for DUV. EUV is one of the last achievements — incredibly demanding.",
       "timeline": "Years 70-200+",
-      "outputs": ["advanced_lithography", "euv_capability", "duv_capability"],
+      "outputs": [
+        "advanced_lithography",
+        "euv_capability",
+        "duv_capability"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "precision",
+          "optics"
+        ],
+        "era": "advanced",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "vlsi-scaling.advanced-processes",
@@ -730,10 +1707,28 @@
       "parent": "vlsi-scaling",
       "description": "Ion implantation (precise doping control), RIE and DRIE etching (Bosch process), atomic layer deposition (ALD, Angstrom-level control), CMP for global planarization, copper damascene interconnects with low-k dielectrics, multi-level metallization, and advanced solar cells (PERC, bifacial, fine-line metallization).",
       "timeline": "Years 70-200+",
-      "outputs": ["ion_implantation", "ald_films", "copper_interconnects", "cmp_planarization", "high_end_solar"],
+      "outputs": [
+        "ion_implantation",
+        "ald_films",
+        "copper_interconnects",
+        "cmp_planarization",
+        "high_end_solar"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "silicon"
+        ],
+        "capability": [
+          "computing"
+        ],
+        "era": "advanced",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "vlsi-scaling.eda-design",
@@ -742,10 +1737,25 @@
       "parent": "vlsi-scaling",
       "description": "Electronic Design Automation (logic synthesis, place and route, SPICE simulation, DRC), GPU architecture with billions of transistors, advanced packaging (wire bonding, flip-chip, chiplets, 3D stacking with TSVs), and software stack (drivers, compilers, libraries).",
       "timeline": "Years 70-200+",
-      "outputs": ["eda_tools", "gpus", "advanced_packaging", "vlsi_designs"],
+      "outputs": [
+        "eda_tools",
+        "gpus",
+        "advanced_packaging",
+        "vlsi_designs"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "computing"
+        ],
+        "era": "advanced",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "knowledge",
@@ -754,11 +1764,27 @@
       "parent": null,
       "description": "Writing system development, paper production, movable type printing press, record keeping, technical drawings, education system (apprenticeships → trade schools → universities), library construction, and digital knowledge storage. Without systematic knowledge transmission across 50-200+ years, the entire effort dies with the first generation.",
       "timeline": "Years 0-200+",
-      "outputs": ["writing_system", "paper", "printed_books", "technical_drawings", "education_system", "libraries", "failure_logs"],
+      "outputs": [
+        "writing_system",
+        "paper",
+        "printed_books",
+        "technical_drawings",
+        "education_system",
+        "libraries",
+        "failure_logs"
+      ],
       "critical": true,
       "critical_note": "Without knowledge preservation, the 50-200 year bootstrapping effort dies with the first generation. Every process recipe, ore location, and failure mode must be recorded.",
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [],
+        "era": "stone-age",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "knowledge.writing",
@@ -767,10 +1793,20 @@
       "parent": "knowledge",
       "description": "Development of writing systems, ink production, and record-keeping materials.",
       "timeline": "Years 0-10",
-      "outputs": ["writing_system"],
+      "outputs": [
+        "writing_system"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "knowledge.education",
@@ -779,10 +1815,20 @@
       "parent": "knowledge",
       "description": "Apprenticeships, trade schools, universities, and systematic knowledge transmission.",
       "timeline": "Years 5-200+",
-      "outputs": ["education_system"],
+      "outputs": [
+        "education_system"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "knowledge.libraries",
@@ -791,10 +1837,20 @@
       "parent": "knowledge",
       "description": "Library construction, cataloging, preservation, and information retrieval systems.",
       "timeline": "Years 10-200+",
-      "outputs": ["libraries"],
+      "outputs": [
+        "libraries"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "transport",
@@ -803,10 +1859,31 @@
       "parent": null,
       "description": "Road construction, bridge building, railway systems, water transport, and aviation. Industrial-scale operations require moving materials, people, and information across distances.",
       "timeline": "Years 5-50+",
-      "outputs": ["roads", "bridges", "vehicles", "canals", "railways", "telegraph", "logistics_systems", "aircraft", "aircraft_engines", "propellers"],
+      "outputs": [
+        "roads",
+        "bridges",
+        "vehicles",
+        "canals",
+        "railways",
+        "telegraph",
+        "logistics_systems",
+        "aircraft",
+        "aircraft_engines",
+        "propellers"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "transport"
+        ],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "transport.roads",
@@ -815,10 +1892,26 @@
       "parent": "transport",
       "description": "Road construction from dirt tracks to paved highways, bridge building, and route planning.",
       "timeline": "Years 5-30",
-      "outputs": ["roads", "bridges"],
+      "outputs": [
+        "roads",
+        "bridges"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "stone"
+        ],
+        "capability": [
+          "construction",
+          "transport"
+        ],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "transport.railways",
@@ -827,10 +1920,24 @@
       "parent": "transport",
       "description": "Steam locomotive railways, track construction, signaling, and freight/passenger operations.",
       "timeline": "Years 20-50+",
-      "outputs": ["railways"],
+      "outputs": [
+        "railways"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "transport"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "transport.shipping",
@@ -839,10 +1946,23 @@
       "parent": "transport",
       "description": "Water transport: boats, barges, canals, and maritime shipping infrastructure.",
       "timeline": "Years 5-50+",
-      "outputs": ["canals", "water_transport"],
+      "outputs": [
+        "canals",
+        "water_transport"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "transport"
+        ],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "transport.aviation",
@@ -851,10 +1971,24 @@
       "parent": "transport",
       "description": "Aircraft development, tube-and-fabric airframes, propellers, and flight testing. (Absorbed from former aircraft domain.)",
       "timeline": "Years 10-50+",
-      "outputs": ["aircraft", "aircraft_engines", "propellers"],
+      "outputs": [
+        "aircraft",
+        "aircraft_engines",
+        "propellers"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "transport"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "computing",
@@ -863,10 +1997,26 @@
       "parent": null,
       "description": "Manual and mechanical calculation aids (abacus, slide rules, nomograms, mathematical tables), mechanical calculators (Pascaline, stepped drum, difference engine), automation (cams, linkages, governors, feedback control), automated machine tools (turret lathe, screw machine), and punch card data processing. Bridges the gap until electronic computers arrive.",
       "timeline": "Years 10-70+",
-      "outputs": ["slide_rules", "mechanical_calculators", "automated_machines", "punch_cards", "feedback_control"],
+      "outputs": [
+        "slide_rules",
+        "mechanical_calculators",
+        "automated_machines",
+        "punch_cards",
+        "feedback_control"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "computing"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "computing.mechanical",
@@ -875,10 +2025,22 @@
       "parent": "computing",
       "description": "Manual and mechanical calculation aids: abacus, slide rules, nomograms, mathematical tables, Pascaline, stepped drum calculators.",
       "timeline": "Years 10-40",
-      "outputs": ["calculation_aids"],
+      "outputs": [
+        "calculation_aids"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "computing"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "computing.electromechanical",
@@ -887,10 +2049,23 @@
       "parent": "computing",
       "description": "Difference engines, automated machine tools (turret lathe, screw machine), punch card data processing, and tabulating machines.",
       "timeline": "Years 30-50",
-      "outputs": ["automated_machines", "punch_cards"],
+      "outputs": [
+        "automated_machines",
+        "punch_cards"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "computing"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "computing.electronic",
@@ -899,10 +2074,22 @@
       "parent": "computing",
       "description": "Vacuum tube and early transistor computing, stored-program architecture, and electronic data processing.",
       "timeline": "Years 50-70+",
-      "outputs": ["electronic_computers"],
+      "outputs": [
+        "electronic_computers"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "computing"
+        ],
+        "era": "electronic",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "health",
@@ -911,10 +2098,28 @@
       "parent": null,
       "description": "Water supply and purification (wells, slow sand filters, chlorination), sewage treatment, hygiene and quarantine protocols, pharmaceutical production (plant-derived and synthetic), PPE fabrication, surgical capability, and gas detection. Skilled workers are the most valuable and irreplaceable resource.",
       "timeline": "Years 0-200+",
-      "outputs": ["clean_water", "sanitation", "pharmaceuticals", "ppe", "surgical_capability", "gas_detection", "quarantine_protocols"],
+      "outputs": [
+        "clean_water",
+        "sanitation",
+        "pharmaceuticals",
+        "ppe",
+        "surgical_capability",
+        "gas_detection",
+        "quarantine_protocols"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "health"
+        ],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "health.sanitation",
@@ -923,10 +2128,25 @@
       "parent": "health",
       "description": "Water supply, purification, sewage treatment, hygiene protocols, and quarantine systems.",
       "timeline": "Years 0-50+",
-      "outputs": ["clean_water", "sanitation"],
+      "outputs": [
+        "clean_water",
+        "sanitation"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "water"
+        ],
+        "capability": [
+          "health"
+        ],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "health.medicine",
@@ -935,10 +2155,23 @@
       "parent": "health",
       "description": "Surgical capability, wound treatment, infection control, and basic medical diagnostics.",
       "timeline": "Years 5-100+",
-      "outputs": ["surgical_capability", "medical_treatment"],
+      "outputs": [
+        "surgical_capability",
+        "medical_treatment"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "health"
+        ],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "health.pharmacology",
@@ -947,10 +2180,24 @@
       "parent": "health",
       "description": "Plant-derived and synthetic pharmaceutical production, dosage forms, and drug delivery.",
       "timeline": "Years 10-100+",
-      "outputs": ["pharmaceuticals"],
+      "outputs": [
+        "pharmaceuticals"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [
+          "health"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "textiles",
@@ -959,11 +2206,31 @@
       "parent": null,
       "description": "Fiber cultivation (flax, hemp, cotton, wool), spinning (drop spindle → treadle wheel), weaving (frame loom → treadle loom), rope-making (hand-laid → rope walk), canvas and sailcloth production, drive belts for power transmission, filter cloth, and protective clothing. Civilization runs on string.",
       "timeline": "Years 0-10",
-      "outputs": ["cordage", "yarn", "thread", "cloth", "canvas", "rope", "drive_belts", "filter_cloth", "protective_clothing"],
+      "outputs": [
+        "cordage",
+        "yarn",
+        "thread",
+        "cloth",
+        "canvas",
+        "rope",
+        "drive_belts",
+        "filter_cloth",
+        "protective_clothing"
+      ],
       "critical": true,
       "critical_note": "Rope, cordage, and cloth are foundational for all pre-industrial infrastructure — mining hoists, tool hafting, power transmission, and worker protection",
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "fibers"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "textiles.fibers",
@@ -972,10 +2239,22 @@
       "parent": "textiles",
       "description": "Cultivation and preparation of natural fibers including flax, hemp, cotton, and wool.",
       "timeline": "Years 0-5",
-      "outputs": ["prepared_fibers"],
+      "outputs": [
+        "prepared_fibers"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "fibers"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "textiles.spinning",
@@ -984,10 +2263,23 @@
       "parent": "textiles",
       "description": "Drop spindle and treadle wheel spinning of fibers into yarn and thread.",
       "timeline": "Years 0-5",
-      "outputs": ["yarn", "thread"],
+      "outputs": [
+        "yarn",
+        "thread"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "fibers"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "textiles.weaving",
@@ -996,10 +2288,23 @@
       "parent": "textiles",
       "description": "Frame loom and treadle loom weaving of yarn into cloth, canvas, and sailcloth.",
       "timeline": "Years 0-10",
-      "outputs": ["cloth", "canvas"],
+      "outputs": [
+        "cloth",
+        "canvas"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "fibers"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "textiles.dyeing",
@@ -1008,10 +2313,23 @@
       "parent": "textiles",
       "description": "Natural and synthetic dye preparation and application to textiles.",
       "timeline": "Years 5-10",
-      "outputs": ["dyed_cloth"],
+      "outputs": [
+        "dyed_cloth"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "fibers",
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "mining",
@@ -1020,11 +2338,31 @@
       "parent": null,
       "description": "Surface and underground mining methods, rock breaking (hand tools, fire-setting, black powder blasting), mine ventilation, water pumping (manual → water wheel → Newcomen engine), hoisting and transport, and ore dressing (crushing, gravity separation, magnetic separation). Ore access is the hard constraint on every metallurgical process.",
       "timeline": "Years 0-50+",
-      "outputs": ["copper_ore", "iron_ore", "tin_ore", "coal", "quartz", "sulfur", "fluorite", "concentrated_ore"],
+      "outputs": [
+        "copper_ore",
+        "iron_ore",
+        "tin_ore",
+        "coal",
+        "quartz",
+        "sulfur",
+        "fluorite",
+        "concentrated_ore"
+      ],
       "critical": true,
       "critical_note": "Ore access is the hard constraint on every metallurgical process — the mine drainage → steam engine feedback loop drove all of industrialization",
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "stone",
+          "metals"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "mining.extraction",
@@ -1033,10 +2371,23 @@
       "parent": "mining",
       "description": "Surface and underground mining methods for extracting ore from deposits.",
       "timeline": "Years 0-20",
-      "outputs": ["raw_ore"],
+      "outputs": [
+        "raw_ore"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "stone",
+          "metals"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "mining.processing",
@@ -1045,10 +2396,23 @@
       "parent": "mining",
       "description": "Ore crushing, grinding, gravity separation, and concentration to produce marketable ore products.",
       "timeline": "Years 0-20",
-      "outputs": ["concentrated_ore"],
+      "outputs": [
+        "concentrated_ore"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "stone",
+          "metals"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "mining.prospecting",
@@ -1057,10 +2421,23 @@
       "parent": "mining",
       "description": "Geological survey, ore body identification, and deposit evaluation techniques.",
       "timeline": "Years 0-10",
-      "outputs": ["ore_locations", "assay_data"],
+      "outputs": [
+        "ore_locations",
+        "assay_data"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "measurement"
+        ],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "ceramics",
@@ -1069,10 +2446,38 @@
       "parent": null,
       "description": "Refractory materials (fireclay, high-alumina, silica, magnesia, zirconia, carbon), technical ceramics (alumina, silicon carbide), ceramic processing (ball milling, pressing, sintering, slip casting), ceramic insulation (fiber blanket, insulating firebrick), and semiconductor-specific ceramics (fused silica crucibles, alumina furnace components, ceramic IC packages). Also covers pottery, kilns, and lime production.",
       "timeline": "Years 0-70+",
-      "outputs": ["refractory_bricks", "alumina_ceramics", "silicon_carbide", "ceramic_insulation", "ceramic_packages", "pottery", "crucibles", "refractory_linings", "kilns", "lime", "quicklime", "mortar", "fired_ceramics"],
+      "outputs": [
+        "refractory_bricks",
+        "alumina_ceramics",
+        "silicon_carbide",
+        "ceramic_insulation",
+        "ceramic_packages",
+        "pottery",
+        "crucibles",
+        "refractory_linings",
+        "kilns",
+        "lime",
+        "quicklime",
+        "mortar",
+        "fired_ceramics"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "ceramics",
+          "clay",
+          "stone"
+        ],
+        "capability": [
+          "construction"
+        ],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "ceramics.pottery",
@@ -1081,10 +2486,25 @@
       "parent": "ceramics",
       "description": "Clay identification, processing, tempering, forming (pinch, coil, slab), and basic firing. Produces containers, cooking vessels, and refractory linings.",
       "timeline": "Years 0-10",
-      "outputs": ["pottery", "crucibles", "refractory_linings"],
+      "outputs": [
+        "pottery",
+        "crucibles",
+        "refractory_linings"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "ceramics",
+          "clay"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "ceramics.pottery.kiln-firing",
@@ -1093,10 +2513,23 @@
       "parent": "ceramics.pottery",
       "description": "Controlled kiln firing reaching 800-900°C for pottery and up to 1400°C for refractory ceramics.",
       "timeline": "Years 0-10",
-      "outputs": ["fired_ceramics"],
+      "outputs": [
+        "fired_ceramics"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "ceramics",
+          "clay"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "ceramics.kilns",
@@ -1105,10 +2538,22 @@
       "parent": "ceramics",
       "description": "Kiln construction: updraft, downdraft, and tunnel kilns for ceramic and lime firing.",
       "timeline": "Years 0-10",
-      "outputs": ["kilns"],
+      "outputs": [
+        "kilns"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "ceramics"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "ceramics.lime",
@@ -1117,10 +2562,26 @@
       "parent": "ceramics",
       "description": "Lime production by calcining limestone at 900-1000°C for mortar, whitewash, plaster, and chemical feedstock.",
       "timeline": "Years 5-15",
-      "outputs": ["lime", "quicklime", "mortar"],
+      "outputs": [
+        "lime",
+        "quicklime",
+        "mortar"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "stone"
+        ],
+        "capability": [
+          "construction"
+        ],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "polymers",
@@ -1129,10 +2590,30 @@
       "parent": null,
       "description": "Natural rubber vulcanization, synthetic rubbers (nitrile/NBR, neoprene, silicone), thermosetting polymers (Bakelite, epoxy, phenolic/FR-4 laminates, polyester, polyurethane), thermoplastic polymers (polyethylene, PVC, nylon, polystyrene, PTFE), polymer processing equipment (extruders, injection molding), and composite materials (fiberglass, carbon fiber). Provides seals, gaskets, insulation, packaging, and structural materials.",
       "timeline": "Years 5-70+",
-      "outputs": ["rubber", "elastomers", "thermoset_resins", "thermoplastics", "epoxy", "ptfe", "fr4_laminate", "fiberglass", "injection_molded_parts"],
+      "outputs": [
+        "rubber",
+        "elastomers",
+        "thermoset_resins",
+        "thermoplastics",
+        "epoxy",
+        "ptfe",
+        "fr4_laminate",
+        "fiberglass",
+        "injection_molded_parts"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "polymers"
+        ],
+        "capability": [],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "polymers.rubber",
@@ -1141,10 +2622,25 @@
       "parent": "polymers",
       "description": "Natural and synthetic rubber production, vulcanization, and rubber product manufacturing.",
       "timeline": "Years 5-50",
-      "outputs": ["rubber", "elastomers", "gaskets", "seals"],
+      "outputs": [
+        "rubber",
+        "elastomers",
+        "gaskets",
+        "seals"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "polymers"
+        ],
+        "capability": [],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "polymers.rubber.natural",
@@ -1153,10 +2649,24 @@
       "parent": "polymers.rubber",
       "description": "Latex collection, coagulation, mastication, compounding with sulfur and carbon black, and vulcanization.",
       "timeline": "Years 5-30",
-      "outputs": ["vulcanized_rubber", "tires", "drive_belts"],
+      "outputs": [
+        "vulcanized_rubber",
+        "tires",
+        "drive_belts"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "polymers"
+        ],
+        "capability": [],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "polymers.rubber.synthetic",
@@ -1165,10 +2675,24 @@
       "parent": "polymers.rubber",
       "description": "Nitrile rubber (NBR), neoprene, and silicone elastomers for oil resistance, wire insulation, and high-temperature seals.",
       "timeline": "Years 20-50",
-      "outputs": ["nitrile_rubber", "neoprene", "silicone_elastomers"],
+      "outputs": [
+        "nitrile_rubber",
+        "neoprene",
+        "silicone_elastomers"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "polymers"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "polymers.thermosets",
@@ -1177,10 +2701,26 @@
       "parent": "polymers",
       "description": "Phenol-formaldehyde (Bakelite — electrical insulators, photoresist binders), epoxy resins (structural adhesive, die attach, IC encapsulation), phenolic/epoxy FR-4 laminate (PCB substrate), unsaturated polyester resin (fiberglass matrix), and polyurethane (foams, elastomers).",
       "timeline": "Years 20-50",
-      "outputs": ["bakelite", "epoxy", "fr4_laminate", "polyester_resin", "polyurethane_foam"],
+      "outputs": [
+        "bakelite",
+        "epoxy",
+        "fr4_laminate",
+        "polyester_resin",
+        "polyurethane_foam"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "polymers"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "polymers.thermoplastics",
@@ -1189,10 +2729,27 @@
       "parent": "polymers",
       "description": "Polyethylene (LDPE/HDPE — films, containers, wire insulation), PVC (rigid pipe, flexible tubing, requires heat stabilizers), nylon (bearings, gears, engineering components), polystyrene (labware, insulation foam), and PTFE/Teflon (chemically inert, ultra-low friction, -200°C to +260°C, for seals and non-stick surfaces).",
       "timeline": "Years 20-50",
-      "outputs": ["polyethylene", "pvc", "nylon", "polystyrene", "ptfe", "thermoplastic_parts"],
+      "outputs": [
+        "polyethylene",
+        "pvc",
+        "nylon",
+        "polystyrene",
+        "ptfe",
+        "thermoplastic_parts"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "polymers"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     },
     {
       "id": "polymers.composites",
@@ -1201,10 +2758,27 @@
       "parent": "polymers",
       "description": "Fiberglass production (E-glass fiber from silica/boron batch, 5-25 μm filaments), hand layup, vacuum bagging, resin transfer molding, and filament winding. Carbon fiber (PAN precursor, aspiration). Polymer processing equipment: extruders, injection molding machines, compression presses, and calenders.",
       "timeline": "Years 25-70+",
-      "outputs": ["fiberglass", "composite_panels", "carbon_fiber", "extruded_parts", "injection_molded_parts"],
+      "outputs": [
+        "fiberglass",
+        "composite_panels",
+        "carbon_fiber",
+        "extruded_parts",
+        "injection_molded_parts"
+      ],
       "critical": false,
       "early_win": false,
-      "pinnacle": false
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "polymers",
+          "fibers"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     }
   ]
 }

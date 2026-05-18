@@ -47,3 +47,51 @@ Lower purity than Siemens, but much simpler chemistry. Sufficient for solar cell
 ### Czochralski (CZ) Crystal Growth
 
 See [Crystal Growth & Wafering](crystal-growth.md) for CZ pulling details.
+
+### Hydrogen Sourcing for Trichlorosilane Route
+
+The Siemens process requires large volumes of H₂ for both the hydrochlorination step and the CVD deposition:
+- **Electrolysis of water**: H₂O → H₂ + ½O₂. Most common source for high-purity H₂. Requires ~4.5-5.5 kWh per Nm³ H₂ (alkaline electrolysis at 70-80% efficiency). A polysilicon plant producing 1000 tonnes/year needs ~3,000-5,000 Nm³ H₂/hour — a dedicated electrolysis plant.
+- **Chlor-alkali byproduct**: NaCl + H₂O → Cl₂ + H₂ + NaOH. The H₂ is a co-product. If a chlor-alkali plant exists (needed for HCl production anyway), its H₂ output can feed the silicon purification line. Synergy: Cl₂ from chlor-alkali is burned with H₂ to make HCl → HCl reacts with MG-Si → trichlorosilane.
+- **Storage and delivery**: H₂ stored as compressed gas (200-350 bar) or cryogenic liquid (-253°C). Piping must be stainless steel (H₂ embrittlement of carbon steel is a long-term failure risk).
+
+### SiCl₄ Byproduct Management
+
+The Siemens process generates ~3-5 kg SiCl₄ per kg of polysilicon. This is a significant waste stream that must be managed:
+- **Recycle to trichlorosilane**: React SiCl₄ with MG-Si powder and H₂ in a fluidized bed (hydrogenation): 3SiCl₄ + Si + 2H₂ → 4SiHCl₃. Converts low-value SiCl₄ back to useful trichlorosilane. This is the preferred route — most modern plants are closed-loop.
+- **Convert to fumed silica**: Burn SiCl₄ in H₂/O₂ flame: SiCl₄ + 2H₂ + O₂ → SiO₂ + 4HCl. Produces fumed silica (Aerosil) — extremely fine amorphous SiO₂ particles (7-40 nm). Used as thickening agent, desiccant, and CMP slurry component. Valuable co-product.
+- **Sell as feedstock**: SiCl₄ is used in optical fiber production (SiO₂ deposition) and as a raw material for other silicon chemicals.
+
+### Waste Handling
+
+The chlorosilane purification process generates several hazardous waste streams:
+- **HCl neutralization**: Scrubber systems (packed column, caustic recirculation) neutralize HCl gas from CVD reactor exhaust. NaOH or Ca(OH)₂ scrubbing solution absorbs HCl → NaCl or CaCl₂ brine. Brine is disposed as industrial wastewater or evaporated to dry salt.
+- **Chlorosilane disposal**: Unreacted or off-spec chlorosilanes cannot be dumped — they react violently with water. Controlled hydrolysis in a dedicated treatment system: spray chlorosilane into a controlled excess of water in a sealed, vented vessel. Products: SiO₂ sludge + HCl solution. Neutralize HCl, filter and dispose SiO₂ sludge as non-hazardous waste.
+- **Heavy metal chlorides**: Distillation bottoms contain FeCl₃, AlCl₃, CuCl₂ collected from impurity removal. These are hazardous — treat with caustic to precipitate metal hydroxides, then dispose as hazardous waste. Recover copper from CuCl₂ if economically viable.
+
+### Energy Comparison
+
+Energy consumption varies dramatically across the silicon processing chain. Approximate values per kg of product:
+
+| Process | Product | Energy (kWh/kg) | Notes |
+|---------|---------|-----------------|-------|
+| Submerged arc furnace | MG-Si (97-99%) | 11-13 | See [mg-si-production.md](mg-si-production.md) |
+| Directional solidification | Solar-grade Si (~6N) | 15-25 | Includes melting + controlled cooling |
+| Zone refining | High-purity Si (~8-9N) | 50-100 | Many slow passes, low throughput |
+| Siemens CVD | Polysilicon (9-11N) | 100-200 | Dominated by rod heating + H₂ production |
+| Czochralski pulling | Single crystal ingot | 200-400 | From polysilicon to crystal (see [crystal-growth.md](crystal-growth.md)) |
+| Float zone (FZ) | Single crystal ingot | 300-500 | RF heating, slower but no crucible contamination |
+
+The energy intensification from MG-Si to single-crystal wafers is roughly 20-40×. A polysilicon plant is fundamentally an energy conversion facility — cheap, abundant electricity is the primary siting requirement.
+
+### Safety Hazards
+
+Silicon purification involves some of the most dangerous chemicals in semiconductor manufacturing:
+- **Pyrophoric SiHCl₃**: Trichlorosilane ignites spontaneously on contact with air (autoignition ~185°C, but can flash at room temperature if warm or in fine mist). All handling must be under inert atmosphere (N₂ or Ar) in sealed systems. Leaks produce dense white HCl/SiO₂ smoke and fire. Firefighting: CO₂ or dry chemical. Do NOT use water — it accelerates decomposition and generates HCl.
+- **HCl gas**: Corrosive, causes severe respiratory burns. Concentrations >50 ppm are immediately dangerous. Scrubber systems on all vent lines. HCl monitors with automatic ventilation shutdown. Full-face respirator with acid gas cartridge for emergency entry.
+- **H₂ explosion risk**: Hydrogen has an extremely wide flammable range (4-75% in air) and very low ignition energy (0.017 mJ — a static spark is sufficient). All H₂ piping must be purged with N₂ before opening. Explosion-proof electrical equipment in H₂ areas. Hydrogen detectors with automatic shutdown and ventilation.
+- **Chlorosilane water reactivity**: All chlorosilanes (SiHCl₃, SiCl₄, SiH₂Cl₂) react violently with water, producing HCl gas and heat. The reaction can be explosive if water contacts bulk liquid chlorosilane. Strict segregation of water lines from chlorosilane lines. Double-walled piping for chlorosilane transfer. Secondary containment for storage tanks.
+- **Personal protective equipment**: Chemical splash suit (PVC or butyl rubber), face shield, chemical-resistant gloves, self-contained breathing apparatus (SCBA) for emergency response. Standard PPE is insufficient for a major chlorosilane release — SCBA is mandatory.
+
+---
+*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*

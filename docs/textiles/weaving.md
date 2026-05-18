@@ -24,7 +24,5 @@
 **Fulling** (finishing woven cloth):
 - Beat cloth in warm water with fuller's earth (clay) or stale urine (ammonia source). Felt the fibers slightly → cloth shrinks 15-25%, becomes denser and warmer. Fuller's earth absorbs oils. Rinse, stretch on tenter frame (hooks on adjustable bars), dry. Napping (raising surface fibers with teasels or wire cards) for fuzzy surface.
 
-**Dyeing**:
-- **Plant dyes**: Madder (red — Rubia tinctorum roots), woad/indigo (blue — Isatis tinctoria leaves, fermented), weld (yellow — Reseda luteola), walnut hulls (brown), onion skins (gold/yellow). Mordant (fixative) needed for most: alum (KAl(SO₄)₂) most common, iron (darkens/saddens), copper (brightens green), tin (brightens red/yellow).
-- **Process**: Soak cloth in mordant bath (alum 10-20% of fiber weight, 60-80°C, 1 hour). Rinse. Immerse in dye bath (extract dye from plant material by boiling, strain, add cloth, simmer 1-2 hours). Rinse, dry.
+For dyeing processes (mordanting, indigo vat, dye plant cultivation, fastness testing), see [Dyeing](dyeing.md).
 

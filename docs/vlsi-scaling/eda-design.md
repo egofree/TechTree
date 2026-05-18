@@ -63,7 +63,7 @@
 - **Architecture design**: Parallel processing units, memory hierarchy (register file → L1 cache → L2 cache → DRAM), I/O interfaces. Hardware description language (HDL) specifies behavior.
 - **Billions of transistors**: Requires mature VLSI processes (sub-100 nm), high yield (>80%), large die (100-800 mm²) or chiplet architectures.
 - **Advanced packaging**:
-  - **Wire bonding**: Traditional — fine Au or Al wire connects die pads to package leads. 25-50 μm wire.数千 connections per chip.
+  - **Wire bonding**: Traditional — fine Au or Al wire connects die pads to package leads. 25-50 μm wire. Thousands of connections per chip.
   - **Flip-chip**: Solder bumps on die face-down onto substrate. Shorter interconnects, better electrical performance, higher I/O density. Requires: solder bumping, underfill epoxy, fine-pitch substrate.
   - **Chiplets**: Multiple smaller dies on shared substrate (silicon interposer or organic substrate). Each die optimized for its function. Assembled with micro-bumps. Enables mixing process nodes.
   - **3D stacking**: Through-silicon vias (TSVs) connect stacked dies vertically. Extreme density but thermal management is critical.

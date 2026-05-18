@@ -42,8 +42,6 @@ The CZ puller is the most mechanically demanding piece of equipment in the silic
 
 ### Wafer Production
 
-### Wafer Production
-
 
 **Slicing (wire saw)**:
 - **Equipment**: Wire saw — thin steel wire (140-180 μm diameter) wound on grooved wire guides in a web pattern. Wire travels at 5-15 m/s. Abrasive slurry (SiC or diamond particles 5-20 μm in oil or water-based carrier) fed onto wire.

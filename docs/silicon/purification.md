@@ -45,3 +45,5 @@ Lower purity than Siemens, but much simpler chemistry. Sufficient for solar cell
 - **Limitation**: Still cannot remove boron effectively (k ≈ 0.8). Combine with another boron removal step (slag treatment: add CaO-Na₂O flux to molten Si, B partitions into slag).
 
 ### Czochralski (CZ) Crystal Growth
+
+See [Crystal Growth & Wafering](crystal-growth.md) for CZ pulling details.

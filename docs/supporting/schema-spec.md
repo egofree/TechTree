@@ -48,7 +48,7 @@ Every edge in `edges.json` has these fields today:
 | `to` | string | Node ID of the prerequisite (thing needed first) |
 | `type` | string | Currently always `"required"` — hard prerequisite |
 
-Direction convention: `from` depends on `to`. Example: `{ from: "metallurgy", to: "foundations" }` means metallurgy requires foundations.
+Direction convention: `from` depends on `to`. Example: `{ from: "metals", to: "foundations" }` means metals requires foundations.
 
 ---
 
@@ -64,19 +64,19 @@ Classifies the primary physical substances a node produces or transforms.
 
 | Tag | Definition | Example Nodes |
 |-----|-----------|---------------|
-| `metals` | Metallic elements and alloys | `metallurgy.copper-bronze`, `metallurgy.iron-steel` |
+| `metals` | Metallic elements and alloys | `metals.copper-bronze`, `metals.iron-steel` |
 | `silicon` | Silicon and silicon compounds | `silicon.mg-si-production`, `silicon.purification` |
-| `glass` | Amorphous silica-based materials | `metallurgy.glass-lime`, `vacuum-optics.glass-advanced` |
-| `ceramics` | Crystalline inorganic non-metals | `advanced-materials`, `foundations.kilns-pottery` |
+| `glass` | Amorphous silica-based materials | `glass.basic`, `glass.advanced` |
+| `ceramics` | Crystalline inorganic non-metals | `ceramics`, `ceramics.pottery` |
 | `polymers` | Organic macromolecular materials | `polymers`, `polymers.thermosets` |
 | `chemicals` | Industrial chemicals, acids, alkalis | `chemistry.acids`, `chemistry.alkalis` |
 | `wood` | Lumber, timber, wooden implements | `foundations.tools-basic` |
 | `stone` | Stone and mineral materials | `foundations.tools-basic` |
-| `clay` | Clay and earthen materials | `foundations.kilns-pottery` |
+| `clay` | Clay and earthen materials | `ceramics.pottery` |
 | `fibers` | Natural and synthetic fibers | `textiles`, `polymers.composites` |
-| `gases` | Industrial and specialty gases | `specialty-gases`, `specialty-gases.air-separation` |
+| `gases` | Industrial and specialty gases | `gas-handling`, `chemistry.air-separation` |
 | `water` | Water supply, purification, hydraulic systems | `health` |
-| `biomass` | Plant and animal-derived materials | `foundations.food-agriculture`, `petrochemicals` |
+| `biomass` | Plant and animal-derived materials | `foundations.food-agriculture`, `chemistry` |
 
 **Rules:**
 - Assign the material tag(s) for substances the node **primarily produces**, not all substances it touches.
@@ -90,14 +90,14 @@ Classifies the primary functional capability a node provides.
 | Tag | Definition | Example Nodes |
 |-----|-----------|---------------|
 | `energy` | Power generation, conversion, distribution | `energy`, `energy.steam-power`, `energy.electricity` |
-| `precision` | Precision manufacturing, metrology | `machine-tools`, `machine-tools.precision-metrology` |
+| `precision` | Precision manufacturing, metrology | `machine-tools`, `measurement.precision-metrology` |
 | `computing` | Calculation, automation, data processing | `computing`, `vlsi-scaling.eda-design` |
-| `transport` | Movement of materials, people, information | `transport`, `aircraft` |
+| `transport` | Movement of materials, people, information | `transport`, `transport.aviation` |
 | `health` | Medical, sanitation, safety | `health` |
-| `measurement` | Sensors, instruments, calibration | `metrology`, `vacuum-optics.optics-inspection` |
-| `cooling` | Refrigeration, thermal management | `energy-storage` (UPS/thermal) |
-| `vacuum` | Vacuum systems, controlled atmospheres | `vacuum-optics.vacuum-systems` |
-| `optics` | Lenses, microscopy, lithographic imaging | `vacuum-optics.optics-inspection`, `vlsi-scaling.advanced-lithography` |
+| `measurement` | Sensors, instruments, calibration | `measurement`, `optics.inspection` |
+| `cooling` | Refrigeration, thermal management | `energy.storage` (UPS/thermal) |
+| `vacuum` | Vacuum systems, controlled atmospheres | `gas-handling.vacuum` |
+| `optics` | Lenses, microscopy, lithographic imaging | `optics.inspection`, `vlsi-scaling.advanced-lithography` |
 | `construction` | Building, structural engineering | `chemistry.cement`, `transport` (roads/bridges) |
 
 **Rules:**
@@ -184,10 +184,10 @@ Examples:
 
 | Edge | Rationale |
 |------|-----------|
-| `foundations` → `foundations.kilns-pottery` (charcoal consumed in firing) | Charcoal is burned as fuel — consumed |
-| `mining` → `metallurgy.iron-steel` (iron ore consumed in smelting) | Ore is reduced to metal — consumed |
+| `foundations` → `ceramics.pottery` (charcoal consumed in firing) | Charcoal is burned as fuel — consumed |
+| `mining` → `metals.iron-steel` (iron ore consumed in smelting) | Ore is reduced to metal — consumed |
 | `chemistry.acids` → `silicon.basic-devices` (HF for wafer etching) | Acid chemically reacts — consumed |
-| `foundations.kilns-pottery` → `chemistry` (crucibles and vessels) | Refractory vessels wear out and are replaced — consumed over time |
+| `ceramics.pottery` → `chemistry` (crucibles and vessels) | Refractory vessels wear out and are replaced — consumed over time |
 
 #### `tool`
 
@@ -199,17 +199,17 @@ Examples:
 
 | Edge | Rationale |
 |------|-----------|
-| `foundations` → `metallurgy` (stone tools used for mining) | Tools persist — reusable |
+| `foundations` → `metals` (stone tools used for mining) | Tools persist — reusable |
 | `machine-tools` → `energy.steam-power` (lathes for cylinder boring) | Lathe is not consumed — reusable |
-| `energy.electricity` → `chemistry.distillation-gas-handling` (electric motors) | Motor persists — reusable |
-| `metallurgy.iron-steel` → `machine-tools.foundry` (steel for machine castings) | Cast machine frame persists — reusable infrastructure |
+| `energy.electricity` → `chemistry.distillation` (electric motors) | Motor persists — reusable |
+| `metals.iron-steel` → `machine-tools.casting` (steel for machine castings) | Cast machine frame persists — reusable infrastructure |
 
 ### 4.3 Ambiguity Resolution
 
 Some edges are ambiguous — the prerequisite provides both a substance AND a tool. For example:
 
-- `metallurgy.iron-steel` → `energy.steam-power`: Steel is a material consumed to build the boiler, but the boiler becomes reusable infrastructure.
-- `foundations.kilns-pottery` → `chemistry.acids`: Kilns produce refractory vessels (tool) but also consume charcoal (material) to fire them.
+- `metals.iron-steel` → `energy.steam-power`: Steel is a material consumed to build the boiler, but the boiler becomes reusable infrastructure.
+- `ceramics.pottery` → `chemistry.acids`: Kilns produce refractory vessels (tool) but also consume charcoal (material) to fire them.
 
 **Resolution rule: When an edge could be classified as both `material` and `tool`, classify it as `tool`.**
 
@@ -221,12 +221,12 @@ The `type` field in `edges.json` changes from its current single value:
 
 **Before:**
 ```json
-{ "from": "metallurgy", "to": "foundations", "type": "required" }
+{ "from": "metals", "to": "foundations", "type": "required" }
 ```
 
 **After:**
 ```json
-{ "from": "metallurgy", "to": "foundations", "type": "tool" }
+{ "from": "metals", "to": "foundations", "type": "tool" }
 ```
 
 The `type` field becomes required and takes one of two values:
@@ -254,17 +254,17 @@ Walk through classification of representative edges from the current data:
 - Quartz is consumed in the carbothermic reduction — it becomes silicon.
 - Classification: **`material`**
 
-**Example 3: `{ from: "machine-tools.foundry", to: "metallurgy.iron-steel" }`**
+**Example 3: `{ from: "machine-tools.casting", to: "metals.iron-steel" }`**
 - The foundry needs iron/steel as the material to cast machine parts.
 - Iron/steel is the substance being melted and cast — consumed.
 - Classification: **`material`**
 
-**Example 4: `{ from: "silicon.basic-devices", to: "vacuum-optics.vacuum-systems" }`**
+**Example 4: `{ from: "silicon.basic-devices", to: "gas-handling.vacuum" }`**
 - Basic devices need vacuum systems for deposition processes.
 - The vacuum chamber and pumps are reusable infrastructure.
 - Classification: **`tool`**
 
-**Example 5: `{ from: "energy.steam-power", to: "metallurgy.iron-steel" }`**
+**Example 5: `{ from: "energy.steam-power", to: "metals.iron-steel" }`**
 - Steam power needs iron/steel for boilers, cylinders, and pistons.
 - Steel is consumed as construction material (ambiguous — could argue the built boiler becomes a tool).
 - Ambiguity rule applies: classify as **`tool`** because the infrastructure aspect (a boiler that lasts decades) dominates.
@@ -300,33 +300,33 @@ Each domain MUST declare its **internal organizing axis** — the primary princi
 
 | Axis | Description | Example Domain |
 |------|-------------|---------------|
-| Chronological | Capabilities ordered by when they become achievable | `metallurgy` (copper → bronze → iron → steel) |
+| Chronological | Capabilities ordered by when they become achievable | `metals` (copper → bronze → iron → steel) |
 | Process Chain | Capabilities ordered by material flow | `silicon` (MG-Si → purification → crystal growth → devices) |
 | Functional | Capabilities grouped by function | `energy` (coal → steam → electricity → furnaces → ICE) |
-| Precision Ladder | Capabilities ordered by increasing precision | `machine-tools` (foundry → bootstrap → metrology → bearings) |
+| Precision Ladder | Capabilities ordered by increasing precision | `machine-tools` (foundry → bootstrap → measurement → bearings) |
 | Complexity | Capabilities ordered by increasing system complexity | `photolithography` (cleanrooms → resists → fab processes) |
 
 The organizing axis is documented in the domain node's `description` or a dedicated `organizing_axis` field (implementation decision for T2+).
 
 ### 5.5 Worked SIK Examples
 
-**Example 1: Should `metallurgy.glass-lime` stay in `metallurgy`?**
+**Example 1: Glass production — should it stay in `metals`?**
 
 - Infrastructure overlap: Glass/lime production uses kilns and furnaces similar to smelting. ~60% overlap.
 - Knowledge overlap: Glass chemistry is distinct from metal smelting chemistry. ~30% overlap.
 - Practitioner overlap: Glass blowers and smelters are different trades. ~20% overlap.
 
-Result: Low knowledge and practitioner overlap. Glass-lime is a **split candidate**. However, it has only 1 capability — too small to standalone. Keep in `metallurgy` but note the low cohesion. In practice, glass advanced already split off to `vacuum-optics.glass-advanced`.
+Result: Below 50% on two of three dimensions. The SIK test correctly identified glass as a split candidate. Initially, glass production remained in `metals` because it had only one capability — too small to form its own domain. Later, when glass accumulated a second capability (advanced glass from the dissolved `vacuum-optics` domain), it was promoted to a standalone `glass` domain with `glass.basic` and `glass.advanced`. This demonstrates that the SIK test can identify split candidates early, even if the split is deferred until the subgroup reaches sufficient size.
 
-**Example 2: Should `vacuum-optics` be one domain or two (vacuum + optics)?**
+**Example 2: `vacuum-optics` — should vacuum and optics be separate domains?**
 
 - Infrastructure overlap: Vacuum chambers are used for optical coating. Precision grinding equipment is distinct. ~40% overlap.
 - Knowledge overlap: Vacuum physics and optical engineering share some physics fundamentals but diverge significantly. ~35% overlap.
 - Practitioner overlap: Vacuum engineers and optical engineers are different specialists. ~25% overlap.
 
-Result: Below 50% on all three dimensions. However, vacuum and optics are tightly coupled in semiconductor fab — vacuum is required for deposition, optics is required for lithography. The coupling argument keeps them together despite SIK split candidacy. This is a case where **inter-domain coupling** overrides the SIK test.
+Result: Below 50% on all three dimensions. The inter-domain coupling override was initially considered — semiconductor fab tightly couples vacuum systems and optics (both needed for lithography). However, closer analysis revealed that vacuum belongs with gas manipulation (`gas-handling`) — a bamboo pump proves gas handling is independent of both chemistry and optics. The domain was ultimately dissolved into four standalone domains: `optics` (lenses, microscopy), `gas-handling` (vacuum, gas compression), `glass` (material science), and `measurement` (instruments). This shows the coupling override should be applied conservatively — apparent coupling may reflect shared downstream consumers rather than shared infrastructure or knowledge.
 
-**Example 3: Should `polymers.natural-rubber` and `polymers.composites` be in the same domain?**
+**Example 3: Should `polymers.rubber.natural` and `polymers.composites` be in the same domain?**
 
 - Infrastructure overlap: Both use compression molding, both use two-roll mills for compounding. ~55% overlap.
 - Knowledge overlap: Polymer chemistry fundamentals are shared. Vulcanization and composite layup are different but share matrix chemistry. ~60% overlap.
@@ -353,10 +353,10 @@ A `tags` object is added to each node with the structure defined in §3.6:
 
 ```json
 {
-  "id": "metallurgy.iron-steel",
+  "id": "metals.iron-steel",
   "name": "Iron & Steel Production",
   "level": "capability",
-  "parent": "metallurgy",
+  "parent": "metals",
   "description": "...",
   "timeline": "Years 5-15",
   "outputs": ["wrought_iron", "steel", "iron_bloom", "heat_treated_steel"],
@@ -393,7 +393,7 @@ The `parent` field value is auto-derived from the node ID:
 - For all others: everything before the last dot
 
 Examples:
-- `metallurgy.iron-steel` → parent = `"metallurgy"`
+- `metals.iron-steel` → parent = `"metals"`
 - `silicon.crystal-growth.cz-pulling` → parent = `"silicon.crystal-growth"`
 
 ### 6.4 Backward Compatibility

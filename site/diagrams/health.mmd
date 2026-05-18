@@ -14,12 +14,22 @@ graph TD
     health["Public Health, Sanitation & Medicine"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    ceramics("Ceramics & Refractories")
     chemistry("Chemistry")
+    chemistry_distillation("Distillation")
     foundations("Foundations")
+    knowledge_writing("Writing & Record-Keeping")
+    polymers_rubber("Rubber Production")
 
     %% ==================== EDGES ====================
+    health_medicine -.-> health_sanitation
+    health_pharmacology -.-> health_medicine
     health -.-> foundations
     health --> chemistry
+    health_sanitation -.-> ceramics
+    health_medicine -.-> knowledge_writing
+    health_pharmacology -.-> chemistry_distillation
+    health --> polymers_rubber
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -39,6 +49,10 @@ graph TD
     class health_sanitation capability
     class health_medicine capability
     class health_pharmacology capability
+    class ceramics external
     class chemistry external
+    class chemistry_distillation external
     class foundations external
+    class knowledge_writing external
+    class polymers_rubber external
     class EdgeLegend,MatNote,ToolNote legend

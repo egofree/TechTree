@@ -35,6 +35,7 @@ graph TD
     glass("Glass")
     glass_basic("Basic Glass Production")
     health("Public Health, Sanitation & Medicine")
+    health_pharmacology("Pharmacology")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_joining("Metal Joining")
     measurement("Measurement & Instrumentation")
@@ -51,6 +52,7 @@ graph TD
     silicon_basic-devices("Basic Semiconductor Devices")
     silicon_crystal-growth("Crystal Growth & Wafering")
     silicon_purification("Silicon Purification")
+    textiles_dyeing("Dyeing")
     transport_aviation("Aviation")
 
     %% ==================== EDGES ====================
@@ -100,6 +102,8 @@ graph TD
     polymers_thermosets --> chemistry
     polymers_thermoplastics --> chemistry_petroleum-alternatives
     polymers_thermoplastics --> chemistry
+    health_pharmacology -.-> chemistry_distillation
+    textiles_dyeing --> chemistry
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -140,6 +144,7 @@ graph TD
     class glass external
     class glass_basic external
     class health external
+    class health_pharmacology external
     class machine-tools external
     class machine-tools_joining external
     class measurement external
@@ -156,5 +161,6 @@ graph TD
     class silicon_basic-devices external
     class silicon_crystal-growth external
     class silicon_purification external
+    class textiles_dyeing external
     class transport_aviation external
     class EdgeLegend,MatNote,ToolNote legend

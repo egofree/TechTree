@@ -15,18 +15,27 @@ graph TD
     textiles["Textiles, Fiber & Cordage"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    chemistry("Chemistry")
     energy_gravity("Water Power")
     energy_wind("Wind Power")
     foundations("Foundations")
+    foundations_tools-basic("Stone & Wood Tools")
     machine-tools("Machine Tools Bootstrap")
     transport_aviation("Aviation")
+    transport_shipping("Water Transport")
 
     %% ==================== EDGES ====================
+    textiles_spinning --> textiles_fibers
+    textiles_weaving --> textiles_spinning
+    textiles_dyeing --> textiles_weaving
     energy_gravity -.-> textiles
     energy_wind -.-> textiles
     machine-tools -.-> textiles
     textiles -.-> foundations
     transport_aviation --> textiles
+    textiles_fibers -.-> foundations_tools-basic
+    textiles_dyeing --> chemistry
+    transport_shipping --> textiles
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -47,9 +56,12 @@ graph TD
     class textiles_spinning capability
     class textiles_weaving capability
     class textiles_dyeing capability
+    class chemistry external
     class energy_gravity external
     class energy_wind external
     class foundations external
+    class foundations_tools-basic external
     class machine-tools external
     class transport_aviation external
+    class transport_shipping external
     class EdgeLegend,MatNote,ToolNote legend

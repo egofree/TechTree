@@ -20,10 +20,15 @@ graph TD
     energy_fuels_coal("Coal Mining & Combustion")
     energy_fuels_coke("Coke Production")
     foundations("Foundations")
+    foundations_fire("Fire-Making")
+    foundations_tools-basic("Stone & Wood Tools")
+    health_sanitation("Water Supply & Sanitation")
     metals("Metals")
+    mining("Mining Engineering & Extractive Metallurgy")
     photolithography_cleanrooms("Cleanrooms")
 
     %% ==================== EDGES ====================
+    ceramics_lime -.-> ceramics_kilns
     energy_fuels_coal -.-> ceramics_kilns
     energy_fuels_coke -.-> ceramics_kilns
     chemistry_cement -.-> ceramics_kilns
@@ -31,6 +36,10 @@ graph TD
     ceramics -.-> foundations
     ceramics -.-> metals
     ceramics_pottery_kiln-firing --> energy_fuels_charcoal
+    ceramics_pottery --> foundations_fire
+    ceramics_pottery -.-> foundations_tools-basic
+    health_sanitation -.-> ceramics
+    ceramics_lime --> mining
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -56,6 +65,10 @@ graph TD
     class energy_fuels_coal external
     class energy_fuels_coke external
     class foundations external
+    class foundations_fire external
+    class foundations_tools-basic external
+    class health_sanitation external
     class metals external
+    class mining external
     class photolithography_cleanrooms external
     class EdgeLegend,MatNote,ToolNote legend

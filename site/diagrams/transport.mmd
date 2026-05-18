@@ -17,8 +17,11 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
     energy("Energy")
+    energy_steam-power("Steam Power")
+    foundations_tools-basic("Stone & Wood Tools")
     machine-tools("Machine Tools Bootstrap")
     metals("Metals")
+    metals_iron-steel("Iron & Steel Production")
     mining("Mining Engineering & Extractive Metallurgy")
     textiles("Textiles, Fiber & Cordage")
 
@@ -30,6 +33,11 @@ graph TD
     transport_aviation -.-> machine-tools
     transport_aviation --> textiles
     transport_aviation --> chemistry_petroleum-alternatives
+    transport_roads -.-> foundations_tools-basic
+    transport_roads --> mining
+    transport_railways -.-> energy_steam-power
+    transport_railways --> metals_iron-steel
+    transport_shipping --> textiles
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -52,8 +60,11 @@ graph TD
     class transport_aviation capability
     class chemistry_petroleum-alternatives external
     class energy external
+    class energy_steam-power external
+    class foundations_tools-basic external
     class machine-tools external
     class metals external
+    class metals_iron-steel external
     class mining external
     class textiles external
     class EdgeLegend,MatNote,ToolNote legend

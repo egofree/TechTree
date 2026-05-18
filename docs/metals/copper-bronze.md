@@ -27,11 +27,43 @@ Copper was the first metal smelted (~5000 BCE). It requires temperatures of ~108
 5. **Tapping or recovery**: Copper collects in crucible/hearth. Break open furnace (destructive for early furnaces) or tilt/tap molten copper into mold. Slag (iron silicate, calcium silicate) floats on top — skim off before pouring.
 6. **Yield**: 20-40% copper by weight from good malachite ore. Lower from sulfide ores (8-15%).
 
-**Casting**:
-- **Sand molds**: Fine, damp silica sand packed around wooden pattern. Pattern removed, copper poured into cavity. Good for simple shapes (ingots, flat tools). withstands single pour.
+**Crucible design**: Clay-graphite crucibles (~60% fire clay + ~40% powdered graphite or charcoal dust) resist thermal shock and last through many heats. Form over a core, dry slowly, fire to harden. A 10 cm dia × 12 cm tall crucible holds ~2-3 kg molten copper. Always preheat crucibles before adding metal — a cold crucible in molten copper may shatter.
+
+### Casting
+
+- **Sand molds**: Fine, damp silica sand packed around wooden pattern. Pattern removed, copper poured into cavity. Good for simple shapes (ingots, flat tools). Withstands single pour.
 - **Clay molds**: Fired clay investment around wax model (lost-wax method) or carved directly. More durable, reusable 1-3 times. Better detail than sand.
 - **Stone molds**: Carved soapstone or fine-grained stone. Reusable dozens of times. Best for standardized items (axe heads, ingots).
 - **Pouring temperature**: ~1150-1250°C (copper melts at 1085°C, needs superheat for fluidity). Preheat molds to ~200-400°C to prevent thermal shock and improve fill.
+
+**Lost-wax casting** (complex shapes — tools, ornaments):
+1. **Wax model**: Sculpt in beeswax or tallow. Attach wax sprue and vents.
+2. **Clay investment**: Coat in thin clay slip, build up 2-4 layers of clay + grog (~1-3 cm thick). Dry thoroughly (days).
+3. **Burnout**: Heat to 400-600°C to melt and drain wax. Raise to ~800-900°C to fire clay hard and burn residual wax.
+4. **Pour**: Pour molten copper/bronze at 1080-1150°C into hot mold (improves flow, reduces defects).
+5. **Finish**: Cool slowly, break away investment, cut sprues, file and polish.
+
+### Work-Hardening & Annealing
+
+Pure copper annealed state is ~50 Vickers hardness — too soft for tools. Cold hammering work-hardens it to ~150 HV (comparable to mild steel) but reduces ductility. Heavily work-hardened copper cracks if bent further.
+
+**Annealing** (restores ductility): Heat to 400-650°C (dull to cherry red), hold 30-60 min. Cool in air or quench — unlike steel, quenching does not harden copper. The work-harden → anneal cycle repeats indefinitely.
+
+**Temperature estimation by color** (no instruments): Dark red ~550°C, cherry red ~650°C, bright cherry ~750°C, dark orange ~850°C, orange ~950°C, light yellow ~1050°C, white ~1150°C+.
+
+### Forging & Forming Copper
+
+Copper and bronze can be hot-forged like iron, but at lower temperatures.
+
+**Hot forging**:
+- Heat billet to 700-900°C (dark orange range). Copper is very malleable at this temperature.
+- **Drawing out**: Hammer along the length to stretch and thin the stock. Rotate 90° between passes to keep section roughly square.
+- **Upsetting**: Heat end, stand vertically on anvil, hammer the top to thicken and shorten.
+- **Bending**: Hot copper bends easily over anvil edge or in a forked fixture. For sharp bends, use a bending jig.
+
+**Wire and sheet production**:
+- **Wire**: Start with a square rod (~1 cm section). Swage (hammer) corners down to round. Anneal. Draw through successively smaller holes in a steel or hardened bronze draw plate. Anneal every 2-3 passes. Target: wire down to 1-2 mm diameter for electrical use.
+- **Sheet**: Begin with a thick slab. Hammer flat with overlapping blows, working from center outward. Anneal frequently (every few minutes of hammering). Target: sheet of 0.5-2 mm thickness. Thinner sheet requires more annealing cycles. Support on a flat anvil or stake while planishing (smooth hammering for flat, uniform surface).
 
 ### Bronze Alloying
 

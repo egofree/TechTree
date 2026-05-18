@@ -33,3 +33,15 @@
 **Wagon** (heavier, the Metallurgy-Machine Tools stage transition):
 - Larger version of cart, 2-4 wheels, covered or open. Leaf spring suspension (Machine Tools+ — stacked steel strips, improve ride over rough roads). Load 2-5 tonnes. Four-horse team typical for long-distance freight.
 
+### Tunnels & Drainage
+
+**Tunnel construction**:
+- **Heading and bench method**: Advance a small heading (1.5 × 2 m pilot tunnel) first, then widen by removing bench below. Heading provides advance knowledge of ground conditions. Timber support sets (posts + cap + lagging boards) installed immediately after excavation. Spacing 0.5-1.5 m depending on rock quality. In solid rock, support may be unnecessary.
+- **Ventilation**: Forced air through canvas duct (bellows or fan at portal). Minimum 0.05 m³/second per worker. More during blasting. Shaft ventilation every 100-200 m for long tunnels.
+- **Lining**: For permanent tunnels in unstable ground — stone or brick lining (2-3 courses thick) bearing on invert (floor arch). Circular or horseshoe cross-section. Void behind lining grouted with cement to fill gaps.
+
+**Road drainage design**:
+- **Crowned surface**: Center of road 10-15 cm higher than edges (2-4% cross-slope). Water sheds to ditches. Re-grade annually as surface deforms.
+- **Side ditches**: V-shaped or trapezoidal, 30-50 cm deep, 50-80 cm top width. Minimum 1% longitudinal slope for flow. Line with stone in erodible soils. Ditch outlets every 100-200 m.
+- **Culverts**: Pipe or box drain under road at low points and stream crossings. Size: diameter ≥ 2× expected peak flow width. Minimum 30 cm diameter for small drainage. Construct from stone slabs (box culvert), iron pipe, or concrete pipe (Chemistry+). Install with 2-5% gradient, compacted base, headwall at inlet and outlet to prevent erosion.
+

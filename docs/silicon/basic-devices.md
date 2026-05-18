@@ -53,6 +53,15 @@
 - **Process**: Argon plasma bombards target material → atoms ejected → deposit on substrate. Works for any material (metals, insulators, alloys). Better step coverage than evaporation. Requires: RF or DC power supply, vacuum system, target material, argon gas.
 - **DC sputtering**: Conductive targets only (metals). 200-1000V, 0.1-10 Torr Ar.
 - **RF sputtering**: Any target material (including insulators). 13.56 MHz standard frequency.
+
+### Safety Hazards
+
+Semiconductor device fabrication uses some of the most dangerous chemicals in industrial processing:
+- **Hydrofluoric acid (HF)**: Used at 5-10% concentration for phosphorus glass removal and oxide etching. HF penetrates skin painlessly, attacks deep tissue and bone, and causes systemic fluoride poisoning. A splash covering ~2.5% of body surface area (palm-sized) from 50% HF can be lethal; even 5-10% solutions cause serious burns. **Calcium gluconate gel (2.5%) must be on-site and accessible before any HF work begins.** Apply to exposed area immediately and seek emergency medical treatment — do not wait for pain. PPE: neoprene or thick nitrile gloves (double-gloving recommended), face shield, chemical splash apron, closed-toe shoes. Work in fume hood with local exhaust. Never store or handle HF in glass containers — use PTFE or polyethylene only.
+- **POCl₃ (phosphorus oxychloride)**: Used for n-type emitter diffusion. Reacts violently with moisture in air, releasing HCl gas and phosphoric acid mist. Toxic by inhalation — causes severe respiratory burns and pulmonary edema. Handle in sealed gas delivery system with nitrogen purge. Leak detection: HCl monitor in furnace area. PPE: full-face respirator with acid gas cartridge for cylinder changes, chemical splash suit.
+- **NaOH / KOH (caustic etchants)**: 20-40% solutions at 80°C for saw-damage removal and texturing. Causes deep caustic burns on skin and permanent eye damage. Heat increases severity. PPE: chemical splash goggles (not just safety glasses), nitrile gloves, apron. Eye wash station within 10 seconds travel. If splashed in eyes, flush with water for 15+ minutes immediately.
+- **Belt furnace burn hazard**: Metal contacts are fired at 700-800°C on a moving belt. Exposed hot surfaces, infrared radiation. Thermal gloves and face shield for loading/unloading. Belt pinch points — keep hands clear of moving belt edges.
+- **Vacuum chamber implosion**: Evaporation and sputtering chambers are evacuated to 10⁻⁵-10⁻⁶ Torr. A flawed glass viewport or corroded chamber wall can implode violently. Inspect viewports for scratches or star cracks before each pump-down. Safety glasses at all times near evacuated chambers. Never exceed rated pressure differential.
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [All Domains](../)*

@@ -78,3 +78,23 @@
 - **Draeger-style tubes**: Glass tube filled with chemical reagent, calibrated markings. Draw known air volume through tube with hand pump. Color change length indicates gas concentration. Available for CO, H₂S, Cl₂, NH₃, NO₂, SO₂, and many others.
 - **Limulus paper for CO**: Palladium chloride paper turns dark when CO present. Imprecise but gives warning.
 
+### Dental Care
+
+**Basic procedures**:
+- **Extraction**: Extraction forceps (forged steel, angled jaws shaped to grip tooth root). Rock tooth buccolingually to widen socket, then lift. Control bleeding with gauze pressure pack. Indicated for gross decay, abscess, or crowding.
+- **Fillings**: Clean decayed cavity with hand instruments (excavators, probes). Fill with softened gutta-percha (natural latex from Palaquium trees, softens at 70°C, sets rigid at body temperature) or beeswax (temporary). For permanent fillings: tin foil or gold foil (malleted into cavity — requires precision). Amalgam (mercury + silver-tin alloy) available at advanced Chemistry stage — durable but mercury toxicity requires careful handling.
+- **Prevention**: Twigs of neem or willow for chewing (antibacterial, mechanical cleaning). Salt water rinse (9 g/L NaCl, warm) reduces gum inflammation.
+
+### Basic Diagnostics
+
+**Vital signs**:
+- **Pulse**: Rate (beats/minute), rhythm (regular/irregular), strength (thready/bounding). Normal resting: 60-80 bpm. Fast (>100) = fever, blood loss, shock. Slow (<50) = hypothermia, certain poisonings. Irregular = heart disease.
+- **Temperature**: Hand on forehead for rough check. Mercury thermometer (Chemistry+): 35-42°C range, 0.1°C graduations. Normal: 36.5-37.5°C (oral). >38°C = fever. >40°C = hyperthermia (cool immediately — wet sheets, fanning). <35°C = hypothermia (warm gradually).
+- **Urine analysis**: Color (dark = dehydration, red = blood, cloudy = infection). Odor. Volume. Dipstick tests (Chemistry+): pH, protein, glucose, blood, nitrites. Sweet-smelling urine = diabetes (glucose — test with Benedict's solution, turns orange-red if sugar present).
+
+**Triage categories**:
+- **Immediate** (red): Airway obstruction, massive hemorrhage, severe burns (>20% body surface), shock, tension pneumothorax. Treat within minutes.
+- **Urgent** (yellow): Fractures (open), moderate burns, significant bleeding (controlled), severe pain. Treat within 1-2 hours.
+- **Delayed** (green): Minor fractures, minor burns, superficial lacerations. Treat within 4-6 hours.
+- **Expectant** (black): Injuries incompatible with survival given available resources. Comfort measures only. Difficult but necessary when resources are limited.
+

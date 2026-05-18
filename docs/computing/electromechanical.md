@@ -49,3 +49,15 @@
 - **Tabulating machine**: Reads punch cards, counts, sorts, and accumulates data. Electromagnetic counters and relays perform basic arithmetic and logical operations. Herman Hollerith's 1890 census machine was the breakthrough — processed 1890 US census data in months vs. years.
 - **Application**: Census data, inventory tracking, payroll, process recipes (encode process parameters on cards → feed into machine that controls cam timing), and later (Photolithography) as program input for early computers.
 
+### Relay Logic & Switching
+
+**Relay logic circuits**:
+- **AND circuit**: Two relay coils in series (both must energize to complete circuit). Output on only when both inputs are active. Used for safety interlocks (e.g., door closed AND guard in place before machine starts).
+- **OR circuit**: Two relay coils in parallel (either energizes output). Output on when any input is active. Used for alarm systems (any sensor triggers alert).
+- **NOT circuit**: Normally-closed relay contact. When coil energizes, contact opens (output off). When coil de-energized, contact closed (output on). Inversion for alarm cutoffs, safety resets.
+- **Latching relay**: Relay with second coil (or mechanical latch) that holds state after trigger pulse removed. Used for memory — the basis of sequential logic and early computer memory. One relay = one bit.
+
+**Strowger switch** (telephone switching):
+- **Design**: Two-motion selector — vertical (10 levels) then horizontal (10 positions) = 100-contact array per switch. Input pulse train from rotary dial: first digit selects vertical level, second digit selects horizontal position. Routes one telephone line to any of 100 destination lines automatically.
+- **Application**: Automatic telephone exchanges eliminating human operators. Hundreds of Strowger switches per exchange, cascaded for multi-digit numbers (10,000 subscribers with 4-digit dialing). Electromechanical switching enabled communications networks before transistor electronics.
+

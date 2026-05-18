@@ -89,3 +89,14 @@
 - Chemical resistance data
 - Process parameters for production
 
+### Ink Formulation & Technical Drawing
+
+**Ink production**:
+- **Iron gall ink** (permanent, archival): Dissolve 40 g iron sulfate (FeSO₄·7H₂O, green vitriol) in 200 mL water. Separately, extract tannic acid by soaking 30 g crushed oak galls in 200 mL warm water for 24 hours. Mix solutions. Add 20 g gum arabic (acacia tree sap — binder, controls flow and adhesion). Ink starts pale gray, darkens to deep black as iron-tannate complex oxidizes over 1-2 days. Permanent on parchment and paper — chemically bonds to cellulose. THE standard writing ink of Western civilization for 1500+ years.
+- **Carbon ink** (India ink): Soot (lampblack from burning oil or resin) + gum arabic + water. Grind soot with gum in mortar to ultra-fine suspension. Waterproof when dry. Does not fade. Used for permanent records, drawing, and later for printing.
+
+**Technical drawing instruments**:
+- **Pencil grades**: Graphite-clay mixture fired at varying temperatures. Hard (H, 2H, 4H — light lines for construction lines). Medium (HB, F — general writing). Soft (B, 2B, 4B — dark lines for visible outlines). Harder clay ratio = harder pencil, lighter line.
+- **Ruling pen**: Two adjustable steel jaws with screw gap setting. Dip in ink, draw straight lines along straightedge. Gap width controls line weight. Essential for technical drawings before fountain pens.
+- **Compass and dividers**: Compass for circles and arcs (pivot leg + pencil/pen leg, adjustable radius). Dividers (two sharp points) for transferring measurements, dividing lines into equal parts, stepping off distances on maps. Both with friction hinge to hold setting.
+

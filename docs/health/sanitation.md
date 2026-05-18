@@ -49,3 +49,12 @@
 - **Water for food prep**: Always use treated/boiled water. Cook meat thoroughly (internal temperature ≥70°C). Keep food covered. Consume prepared food within 4-6 hours or reheat to ≥70°C.
 - **Storage**: Dry, cool, pest-proof (sealed clay jars, raised platforms). Rotate stock (first in, first out).
 
+**Water hardness treatment**:
+- **Temporary hardness** (bicarbonates): Removed by boiling — Ca(HCO₃)₂ → CaCO₃↓ + H₂O + CO₂. Scale precipitates. Simple but fuel-intensive.
+- **Lime softening** (permanent + temporary): Add slaked lime Ca(OH)₂ to hard water. Ca(HCO₃)₂ + Ca(OH)₂ → 2CaCO₃↓ + 2H₂O. Magnesium hardness: Mg(HCO₃)₂ + 2Ca(OH)₂ → Mg(OH)₂↓ + 2CaCO₃↓ + 2H₂O. Settle, filter. Reduces total hardness significantly. Essential for boiler feedwater to prevent scale buildup.
+- **Soap test for hardness**: Dissolve soap in water sample. Hard water produces scum (calcium/magnesium stearate precipitate) instead of lather. Compare lather height to distilled water standard.
+
+**Pest control**:
+- **Insect control**: Diatomaceous earth (abrasive to insect exoskeletons, causes dehydration). Plant-derived insecticides: pyrethrin (from chrysanthemum flowers, 0.1-0.5% spray), nicotine sulfate (tobacco extract, toxic to insects and humans — handle with gloves). Boric acid powder for cockroach control (ingestion poison, low mammalian toxicity). Remove standing water to control mosquito breeding.
+- **Rodent control**: Metal traps (snap traps). Keep food in rodent-proof containers (metal or heavy ceramic with tight lids). Cats as biological control. Eliminate nesting sites (rubbish piles, tall grass near buildings). Poison: phosphorus paste or arsenic — use with extreme caution, keep away from children and livestock.
+

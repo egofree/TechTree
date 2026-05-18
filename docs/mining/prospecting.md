@@ -33,6 +33,17 @@
 | Fluorite | Purple/green/clear cubes | Fluorine | Fluoresces under UV, scratches calcite |
 | Galena | Silver-gray, metallic cubes | Lead | Very heavy (SG 7.5), cubic cleavage |
 | Pyrite | Brass-yellow ("fool's gold") | Sulfur/Iron | Streak greenish-black, brittle |
+
+**Geological indicators for ore deposits**:
+- **Quartz veins**: White, glassy veins cutting through rock. Often associated with gold, copper, and other hydrothermal minerals. Sample and pan every quartz vein encountered.
+- **Gossan (iron cap)**: Rusty, reddish-brown, porous rock at surface above sulfide ore deposits. Sulfide minerals (pyrite, chalcopyrite) weather to iron oxides at surface. Gossan = reliable indicator of sulfide mineralization at depth. Look beneath the iron cap for primary sulfide ore.
+- **Malachite staining**: Green staining on rock faces and in stream beds indicates copper mineralization. Follow stain uphill to source. Azurite (blue) serves the same purpose.
+- **Vegetation changes**: Stunted, discolored, or absent vegetation in otherwise healthy area may indicate toxic minerals at shallow depth (copper, arsenic, sulfur). "Indicator plants": certain species thrive in metal-rich soils (e.g., Viola calaminaria for zinc). Conversely, dead zones in wet ground may indicate sulfide oxidation producing acid soils.
+
+**Magnetic surveying**:
+- **Dip needle (dipping compass)**: Freely pivoting magnetic needle that measures inclination (vertical angle) of Earth's magnetic field. Anomalies (deviations from expected inclination) indicate subsurface magnetic bodies — magnetite ore bodies, buried iron objects. Survey on a grid (10-50 m spacing). Contour the anomaly values. Positive anomaly = magnetic mass below.
+- **Fluxgate magnetometer** (Electronics+): Electronic sensor measuring magnetic field intensity directly. Resolution: 1 nT (nanotesla). Faster and more precise than dip needle. Portable, battery-operated. Map field variations over survey area.
+- **Anomaly interpretation**: Sharp, narrow anomaly = shallow source. Broad, low anomaly = deep source. Elongated anomaly = linear ore body (vein). Circular anomaly = pipe-like body. Estimate depth = half-width of anomaly profile. Magnetic surveys are the most cost-effective method for locating iron ore deposits.
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [All Domains](../)*

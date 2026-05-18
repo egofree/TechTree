@@ -22,4 +22,23 @@
 
 **Caustic soda (NaOH)**:
 - **Lime-soda process**: Na₂CO₃ + Ca(OH)₂ → 2NaOH + CaCO₃ (precipitates). Filter, evaporate to 50% NaOH solution. Simple but produces CaCO₃ sludge.
-- **Electrolysis of brine** (preferred): See Electrolysis Scale-Up section below. Produces Cl₂ + H₂ + NaOH simultaneously. Most efficient route.
+- **Electrolysis of brine** (preferred): See [Electrolysis](electrolysis.md). Produces Cl₂ + H₂ + NaOH simultaneously. Most efficient route.
+
+**Potash (K₂CO₃) — pre-industrial alkali**:
+- **Source**: Plant ashes, especially hardwood (oak, beech, maple). Land plants concentrate potassium from soil.
+- **Process**: Leach wood ash with water → dissolve K₂CO₃ (sodium and calcium salts are less soluble). Filter through cloth or sand bed. Evaporate filtrate in iron or clay pots → crude potash (brown, 50-70% K₂CO₃). Calcine (heat to 800-900°C) to burn off organic impurities → pearl ash (white, 80-95% K₂CO₃).
+- **Yield**: 5-10% of dry wood weight. One hectare of forest yields ~1-2 tonnes potash. Very land-intensive.
+- **Uses**: Glass making (K₂CO₃ lowers melting point of silica), soap (potash + fat → soft soap), fertilizer (potassium source).
+
+**Baking soda (NaHCO₃) via Solvay intermediates**:
+- The Solvay process precipitates NaHCO₃ before thermal decomposition. Divert this intermediate: NaCl + NH₃ + CO₂ + H₂O → NaHCO₃↓ + NH₄Cl. Filter, wash, dry at low temperature (<50°C to prevent decomposition). Food-grade NaHCO₃ requires additional purification.
+- **Thermal decomposition**: Heat NaHCO₃ to 80-100°C → Na₂CO₃ + CO₂ + H₂O. This is the route to soda ash from baking soda. Both directions are useful depending on which product is needed.
+
+### Alkali Uses Summary
+
+| Product | Chemical | Primary Uses |
+|---------|----------|-------------|
+| Caustic soda | NaOH | Soap and detergent production, paper pulping, chemical processing, drain cleaner |
+| Potash | K₂CO₃ | Glass making (lowers SiO₂ melting point), soft soap, fertilizer (potassium source) |
+| Soda ash | Na₂CO₃ | Glass making, chemical feedstock, water softening, detergent builder |
+| Slaked lime | Ca(OH)₂ | Mortar and plaster (sets by CO₂ absorption), water treatment, ammonia recovery in Solvay |

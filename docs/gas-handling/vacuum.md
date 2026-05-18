@@ -43,6 +43,38 @@
 - **Bubble test**: Pressurize system, spray soap solution on exterior, watch for bubbles. Finds large leaks.
 - **Helium leak detector** (Photolithography+): Mass spectrometer tuned to He. Spray He on exterior, detect He entering vacuum system. Sensitivity ~10⁻¹² atm·cc/s. The gold standard.
 - **Tesla coil**: High-frequency spark probe. Spark penetrates small holes in glass apparatus (visible discharge inside). Glass systems only.
+
+### Vacuum System Design
+
+**Two-stage pump system** (standard for high vacuum):
+- **Roughing pump** (rotary vane or diaphragm): Pulls system from atmospheric pressure (~10⁵ Pa) down to ~0.1-1 Pa. This is the "rough vacuum" phase. The roughing pump handles the bulk of the gas load — most of the air molecules are removed in this stage.
+- **High-vacuum pump** (turbomolecular or diffusion pump): Takes over at the **crossover pressure** (~1 Pa, or ~10⁻² Torr). Below this pressure, molecular flow dominates and the high-vacuum pump becomes effective. Crossover too early → gas load overloads the high-vacuum pump. Crossover too late → wastes time and risks oil backstreaming from roughing pump.
+- **Pump-down sequence**: Open roughing valve, close high-vacuum valve. Rough to ~1 Pa. Close roughing valve, open high-vacuum valve. Continue pumping to target base pressure (10⁻⁴ to 10⁻⁶ Pa for most semiconductor processes).
+- **Turbomolecular pump vs. diffusion pump**: Turbo pump — fast startup (1-3 min), clean (no oil vapor), expensive to build (precision rotor at 30,000-90,000 RPM). Diffusion pump — slower startup (15-30 min), requires cold trap to prevent oil backstreaming, simpler construction, lower cost.
+
+### Outgassing Rates by Material
+
+Every surface in a vacuum system releases adsorbed gas molecules — this is outgassing, and it dominates pump-down time below ~1 Pa.
+
+| Material | Outgassing Rate (Pa·m³/s·m²) | Conditions |
+|----------|-------------------------------|------------|
+| **Stainless steel** (electropolished) | ~10⁻⁸ after bake | Standard for vacuum chambers. Improves 10-100× with bake-out. |
+| **Stainless steel** (unbaked) | ~10⁻⁶ | Freshly manufactured, exposed to air. Mainly H₂O desorption. |
+| **Viton** (unbaked) | ~10⁻⁶ | Elastomer O-ring seals. Major gas source. Bake reduces by 10-100×. |
+| **Viton** (baked) | ~10⁻⁷ to 10⁻⁸ | After 24h at 150°C. Still higher than metal. |
+| **Copper** (OFHC, baked) | ~10⁻⁹ | Lowest outgassing of practical materials. Used for CF flange gaskets. |
+| **PTFE** | ~10⁻⁶ | Good chemical resistance but high outgassing. Avoid in UHV. |
+| **Aluminum** (baked) | ~10⁻⁹ | Good if surface oxide is controlled. Porous to He — problematic for leak detection. |
+
+Design rule: minimize internal surface area, avoid elastomers where possible, bake if target pressure is below 10⁻⁵ Pa.
+
+### Bake-Out Procedures
+
+- **Purpose**: Accelerate desorption of water vapor, dissolved gases, and volatile contaminants from vacuum chamber walls. A system that takes 2 weeks to reach 10⁻⁶ Pa without bake-out can reach it in 24-48 hours with bake-out.
+- **Temperature**: 150-300°C depending on chamber materials and seals. Stainless steel chambers with copper CF gaskets: 250-300°C. Viton-sealed chambers: 150°C maximum (Viton degrades above 200°C). Glass systems: 200-300°C.
+- **Duration**: 24-48 hours at temperature while continuously pumping. Longer bake for lower target pressures.
+- **Method**: Wrap chamber with heating tape (nichrome or silicone rubber insulated) or use custom-fitted band heaters. Cover with aluminum foil or fiberglass insulation to maintain uniform temperature. Monitor with thermocouples taped to multiple points on the chamber surface (top, bottom, side, ports). Avoid hot spots — local overheating warps flanges and ruins sealing surfaces.
+- **Cool-down**: After bake, turn off heaters. Allow system to cool naturally while still under vacuum. Do not vent until below 50°C — rapid cooling with air exposure re-adsorbs moisture, undoing much of the bake-out benefit.
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [All Domains](../)*

@@ -33,3 +33,22 @@
 - Leak detection: silane sniffers (thermal conductivity sensors). If silane leaks and ignites, water spray to cool surroundings — do not attempt to extinguish burning silane (let it burn off, the alternative is accumulating explosive gas).
 - **NEVER** allow silane to accumulate in confined spaces. Even 2-3% concentration in air can auto-detonate.
 
+### Storage & Distribution
+
+**Hydrogen storage**:
+- **Compressed gas**: Steel or composite cylinders at 200-700 bar. Simple and widely used. Energy density: 0.8-2.7 MJ/L at 200-700 bar. Heavier than other options per unit energy stored.
+- **Metal hydrides**: LaNi₅ (lanthanum-nickel) or FeTi (iron-titanium) alloys absorb H₂ at moderate pressure (2-10 bar), release on heating (50-100°C). Safe — no high-pressure gas. Heavy (2-5% H₂ by weight). Good for stationary storage.
+- **Cryogenic liquid H₂**: Liquefy at −253°C (20 K). Density 0.071 kg/L (much higher than compressed gas). Requires vacuum-insulated dewar. Boil-off 0.5-1%/day. Energy cost to liquefy: ~30% of H₂ energy content.
+
+**Pipeline materials**:
+- **Hydrogen**: Stainless steel 316L preferred. Carbon steel susceptible to hydrogen embrittlement (H₂ atoms diffuse into steel lattice, cause cracking under stress). Welded joints only — no threaded connections. Design for low stress. For low-pressure distribution: copper or polyethylene tubing acceptable.
+- **Silane**: Electropolished stainless steel (316L or 304L) with PTFE-lined valves. VCR-type face-seal fittings — no elastomer O-rings (silane attacks many organics). All lines purged with N₂ or Ar before introducing silane. Minimum dead legs (pockets where gas can stagnate).
+- **Leak detection**: Thermal conductivity sensors (silane has different thermal conductivity than air). Hydrogen: catalytic sensors or electrochemical cells. Ultrasonic leak detectors for high-pressure lines. Check all joints with helium mass spectrometer during commissioning.
+
+### Quality Analysis
+
+- **Gas chromatography (GC)**: Separate gas mixture on packed column (molecular sieve or porous polymer), detect with thermal conductivity detector (TCD). Quantifies impurities to ppm levels. Essential for H₂ purity (N₂, O₂, CO, CO₂, CH₄ contaminants) and SiH₄ purity (Si₂H₆, Si₃H₈, chlorosilanes, hydrocarbons).
+- **Dew point measurement**: Quantifies moisture content. Aluminum oxide or capacitive sensor. Moisture is critical contaminant — causes oxidation in semiconductor processes. H₂ dew point must be below −70°C (<2.6 ppm H₂O).
+- **Oxygen analyzer**: Electrochemical or zirconia sensor. O₂ in H₂ must be <1 ppm for semiconductor use.
+- **Purity grades**: Semiconductor-grade H₂ requires >99.9999% (6N) purity. Silane for CVD requires >99.9% (3N) minimum, preferably >99.99% (4N). Each "N" represents an order of magnitude reduction in total impurities.
+

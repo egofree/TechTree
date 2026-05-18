@@ -28,6 +28,32 @@
 
 **Wool**:
 - **Shearing**: Clip fleece from sheep annually (spring). 2-5 kg fleece per sheep. Sorted by quality — shoulder and sides are finest, breech (hindquarters) coarsest.
-- **Washing**: Remove lanolin (natural wool grease), dirt, vegetable matter. Wash in hot water (~50°C) with soap or alkali. Multiple washes. Lanolin recovered from wash water (useful for waterproofing and cosmetics).
-- **Carding**: Tease washed wool between two carding paddles (leather pads covered with bent wire teeth). Disentangles fibers, removes remaining debris, aligns roughly for spinning. Produces rolag (rolled cylinder of aligned fiber).
+- **Scouring**: Remove lanolin (natural wool grease, ~30-50% of greasy fleece weight), dirt, vegetable matter. Wash in hot water (50-60°C) with potash (potassium carbonate) or soap. Multiple washes until water runs clear. Lanolin recovered from wash water by skimming cooled surface — useful for waterproofing, lubricants, and skin protection.
+- **Carding vs combing**: Two distinct preparation methods yielding different yarn types. **Carding**: Tease scoured wool between two carding paddles (leather pads covered with bent wire teeth). Disentangles fibers, removes remaining debris, aligns roughly for spinning. Produces rolag (rolled cylinder of fiber) → woolen yarn (fluffy, warm, fuzzy surface, shorter fibers). **Combing**: Draw long-staple wool through metal comb rows (wool combs). Aligns fibers parallel, removes short noils. Produces top (parallel fiber strand) → worsted yarn (smooth, dense, strong, lustrous, longer fibers).
+
+**Silk** (*Bombyx mori*):
+- **Cultivation**: Domesticated silkworms fed exclusively on white mulberry leaves. Larvae spin cocoons over 3-4 days. Each cocoon contains a single continuous filament 600-900 m long. Requires controlled temperature (23-25°C) and humidity.
+- **Cocoon processing**: Kill pupae by steaming or baking cocoons at 60-80°C (prevents moth from emerging and breaking filament). Sort cocoons by quality — discard stained, pierced, or double cocoons.
+- **Degumming**: Boil cocoons in water with sodium carbonate (Na₂CO₃, 5-10 g/L) at 80-90°C for 1-2 hours. Removes sericin (gummy protein binding filaments, ~20-30% of raw weight). Fibers become lustrous and soft. Degumming waste (sericin) recoverable as adhesive.
+- **Properties**: Extremely fine — individual fiber 0.3-0.5 dtex (decitex, grams per 10,000 m). Tensile strength ~500 MPa. Smooth, triangular cross-section refracts light → characteristic luster. Poor wet strength (loses ~15-20% when damp). Damaged by strong alkalis and prolonged sunlight.
+
+**Nettle fiber** (common stinging nettle, *Urtica dioica*):
+- **Harvesting**: Cut stems in late summer when mature but before heavy frost. Strip leaves (wear gloves — stinging hairs contain formic acid and histamine).
+- **Retting**: Bundle stems and submerge in water for 2-4 weeks (or dew-ret on grass for 4-6 weeks). Bacteria decompose pectin binding bark fibers to woody core. Test by checking if fibers peel away cleanly from stem.
+- **Decortication**: Beat or crush dried retted stems to break woody core. Peel bark strips containing fiber bundles. Scrape away remaining woody fragments with blunt blade.
+- **Properties**: Similar to linen — strong, long-staple fiber. Traditionally used for sailcloth, fishing nets, and coarse cloth in northern Europe before flax became dominant. Yields less than flax per hectare but grows wild without cultivation.
+
+**Sinew** (animal tendon):
+- **Source**: Leg tendons and long backstrap tendons from deer, elk, cattle. Harvest from fresh carcass — peel away surrounding tissue while tendon is still wet.
+- **Processing**: Dry tendons completely (air dry or by low heat). Pound dried tendon with smooth stone or wooden mallet until it separates into individual fibers. Fibers are white, translucent, and extremely strong in tension.
+- **Use**: Not spun conventionally — dampen to make flexible, then wrap around bindings (arrow fletching, tool hafting, seam reinforcement). Dries hard and shrinks tight, creating extremely strong join. Primary sewing thread for leather before manufactured thread.
+
+### Fiber Identification Tests
+
+Quick field tests to identify unknown fibers:
+
+- **Burn test**: Hold fiber to flame, observe behavior, smell smoke, examine ash.
+  - **Cellulose fibers** (cotton, linen, hemp): Ignite quickly, burn with bright flame, smell like burning paper. Leave light, fluffy gray ash that crumbles.
+  - **Protein fibers** (wool, silk): Curl away from flame, burn slowly with sputtering, smell like burning hair or feathers. Leave dark, brittle bead that crushes to powder.
+  - **Synthetic fibers** (not applicable at bootstrap stage, but for reference): Melt and bead up. Nylon smells like celery; polyester smells sweet. Hard bead residue.
 

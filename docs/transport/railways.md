@@ -67,3 +67,16 @@ Y -.--  Z --..
 **Warehouse design**:
 - Dry, well-ventilated building. Organized by material type. Heavy materials on ground floor (structural load). Flammables in separate fireproof building. Chemicals in ventilated, bunded (liquid-tight containment) area. Shelving for small items. Open floor for bulk materials. Loading dock for vehicle access. Inventory control at entry/exit.
 
+### Signaling & Rolling Stock
+
+**Railway signaling**:
+- **Semaphore signals**: Blade (arm) pivoted on mast. Horizontal = stop (danger). Angled down 45° = proceed (clear). Night indication: red lamp (stop), green lamp (clear). Operated by wire pull from signal box (lever frame). Visible 300-500 m in daylight.
+- **Block system**: Divide track into blocks (1-3 km sections). Only one train permitted in each block at a time. Block instruments (telegraph-based) at each block post — operator confirms train has cleared before allowing next entry. Prevents rear-end collisions. Absolute block: next train must wait for clear signal. Permissive block: following train may enter at restricted speed (lower capacity, used on lightly trafficked lines).
+- **Interlocking**: Mechanical linkage between signals and points (switches) in lever frame. Prevents conflicting routes — operator physically cannot pull lever to set conflicting signal/point combination. Crush prevention built into the mechanism. Essential for junction safety.
+
+**Freight and passenger car design**:
+- **Flat car**: Simple wooden or steel deck on bogie (truck) frame. 10-20 tonne capacity. For timber, machinery, vehicles. Stake pockets for load securing.
+- **Box car**: Enclosed wooden or steel body, sliding door. 15-30 tonne capacity. For bagged grain, manufactured goods, anything needing weather protection.
+- **Tank car**: Cylindrical tank on frame. For liquids (water, oil, chemicals). Fill dome on top, drain valve at bottom. 15-30 m³ capacity.
+- **Passenger coach**: Wooden or steel body with bench or individual seating. Sprung suspension (leaf springs or elliptic springs on bogies). 40-80 passengers per coach. Oil lamp lighting (later electric). Hardy vacuum or air brake system continuous through train — brake applies automatically if train parts or air pressure is lost.
+

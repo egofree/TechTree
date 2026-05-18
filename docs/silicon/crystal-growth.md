@@ -67,5 +67,16 @@ The CZ puller is the most mechanically demanding piece of equipment in the silic
 3. **HF dip** (optional): Dilute HF (1-2%) for 15-30 seconds. Removes oxide (hydrogen-terminates surface). Skip if oxide desired.
 4. **SC-2 (Standard Clean 2)**: HCl:H₂O₂:H₂O = 1:1:6 at 75-80°C for 10-15 min. Removes metallic contaminants (Fe, Au, Cu, Ni).
 5. **DI water rinse + spin dry** or **Marangoni dry** (IPA vapor, surface tension gradient pulls water off).
+
+### Safety Hazards
+
+Crystal growth and wafering involve extreme temperatures, toxic chemicals, and high-current electrical systems:
+- **Molten silicon**: Pours and splashes at ~1420-1430°C. Contact causes instantaneous deep burns. Any moisture on crucible surfaces, tools, or charge material causes violent steam explosions. Pre-dry all tooling. No water in the furnace area during charging or tapping.
+- **Quartz crucible softening**: Fused silica softens above 1600°C. If heater control fails and temperature overshoots, the crucible can deform or rupture, spilling 10-30 kg of molten silicon. Temperature interlocks with automatic power cutoff are mandatory.
+- **Argon asphyxiation**: CZ pullers flow 10-30 L/min of argon continuously. In confined or poorly ventilated spaces, argon (heavier than air) pools at floor level and displaces oxygen. O₂ monitors with audible alarms required in puller rooms. Exhaust must vent outside. Never enter a puller enclosure after argon backfill without forced ventilation.
+- **High-current electrical hazard**: Graphite heaters draw 500-3000 A at 10-40 V (20-100 kW). Bus bar connections must be shrouded. Arc flash risk during maintenance. Lock-out/tag-out procedures before any electrical work. Insulating gloves and face shield for bus bar inspection.
+- **HF acid burns (RCA clean)**: Dilute HF (1-2%) used in wafer cleaning penetrates skin, attacks bone, causes systemic fluoride poisoning. **Calcium gluconate gel must be on-site before any HF use** — apply immediately to exposed skin and seek emergency treatment. Chemical-resistant gloves (neoprene or nitrile), face shield, and apron required for all HF work. Work in fume hood or with local exhaust ventilation.
+- **Wire saw hazards**: 140-180 μm steel wire under tension (15-30 N) traveling at 5-15 m/s can snap and lash. Wire guard mandatory. Abrasive slurry (SiC or diamond) is an eye irritant — safety goggles required during slurry handling.
+- **Dust inhalation**: Silicon dust from sawing, lapping, and crushing is a respiratory irritant. Local exhaust ventilation at cutting stations. P100 respirator in dusty areas.
 ---
 

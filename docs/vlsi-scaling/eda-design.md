@@ -68,6 +68,14 @@
   - **Chiplets**: Multiple smaller dies on shared substrate (silicon interposer or organic substrate). Each die optimized for its function. Assembled with micro-bumps. Enables mixing process nodes.
   - **3D stacking**: Through-silicon vias (TSVs) connect stacked dies vertically. Extreme density but thermal management is critical.
 - **Software stack**: Drivers, compilers (HLS — high-level synthesis), programming models (CUDA/OpenCL equivalents), libraries (BLAS, FFT, neural network primitives).
+
+### Hazards & Safety
+
+- **Ion implanter high voltage (100-500 kV)**: Lethal electrocution hazard. Enclose the accelerator column and beamline with interlocked safety shields — beam stops if any access door opens. Capacitor banks store dangerous energy; implement automatic shorting bars and grounding hooks. Only trained high-voltage personnel may perform maintenance. Post arc-flash boundary markings per NFPA 70E.
+- **Toxic dopant gases (AsH₃, PH₃, BF₃)**: Arsine and phosphine are immediately dangerous to life or health (IDLH) at concentrations of only a few ppm — they cause hemolysis (AsH₃) or respiratory failure (PH₃) with rapid onset. Store cylinders in ventilated, gas-cabinet enclosures with continuous toxic-gas monitoring (electrochemical sensors, alarm at 0.5× PEL). Automatic cylinder shutoff valves on alarm. Emergency response: evacuate, ventilate, SCBA for reentry. BF₃ is a severe respiratory irritant and reacts with moisture to form corrosive boric acid.
+- **RIE gases**: SF₆ (GWP 23,900× CO₂), CF₄ (GWP 6,630× CO₂), and NF₃ (GWP 17,200× CO₂) are among the most potent greenhouse gases. Point-of-use abatement (thermal or plasma destruct units with >99 % DRE) is mandatory on all RIE exhaust lines. Plasma byproducts include HF and COF₂ — downstream wet scrubbing required.
+- **ALD precursors**: Trimethylaluminum (TMA) is pyrophoric — ignites spontaneously on contact with air. Use in closed, nitrogen-purged delivery systems with leak detection. Tetrakis(dimethylamido)hafnium (TDMAHf) is moisture-sensitive and decomposes to toxic amine vapors. Handle in glove boxes or ventilated enclosures. In case of TMA fire, use Class D (dry powder) extinguisher — never water.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [All Domains](../)*

@@ -15,6 +15,16 @@
 - **Operation**: Feed mixture enters at middle height. Reboiler vaporizes components. Vapor rises through packing/plates, contacting descending liquid (reflux). More volatile components concentrate at top, less volatile at bottom. Temperature gradient along column indicates separation.
 - **Fractional distillation** for petroleum (see [Petrochemicals](../chemistry/petroleum-alternatives.md)): Multiple fractions drawn at different heights corresponding to different boiling ranges.
 
+**Column design fundamentals**:
+- **Minimum reflux ratio**: The lowest reflux ratio (L/D, liquid returned to column ÷ distillate drawn off) that achieves the desired separation. Operating below this makes separation impossible regardless of column height. Typically operate at 1.2-1.5× minimum reflux.
+- **Theoretical plates**: Each ideal equilibrium stage (one vapor-liquid contact achieving thermodynamic equilibrium). More plates = sharper separation. Estimate via McCabe-Thiele method: plot equilibrium curve (vapor composition vs. liquid composition at boiling), draw operating lines for rectifying and stripping sections, step off plates between curve and 45° line. Number of steps = number of theoretical plates.
+- **HETP** (Height Equivalent to a Theoretical Plate): For packed columns, the packing height needed for one theoretical plate. Raschig rings: 0.3-0.6 m HETP. Structured packing: 0.1-0.3 m HETP. Multiply HETP by required plates for total column packing height.
+
+**Specific distillation setups**:
+- **Simple pot still**: Heated vessel + condenser. Batch operation. 1 theoretical plate (single vaporization-condensation). Sufficient for rough separations (water from salt, alcohol concentration to ~40-50%).
+- **Fractional column**: Packed column (Raschig rings or structured packing) between boiler and condenser. 5-50 theoretical plates depending on height and packing. Batch or continuous. Used for petroleum fractions, alcohol purification, chlorosilane separation (see [Hydrogen & Silane](hydrogen-silane.md)).
+- **Continuous distillation**: Feed enters at a middle tray (feed tray). Above: rectifying section (enriches light component). Below: stripping section (removes light component from bottoms). Reflux ratio controls product purity vs. energy consumption. Industrial standard for large-scale chemical and petroleum processing.
+
 **Reactors**:
 - **Batch reactors**: Jacketed steel or glass-lined vessels, 100-5000 liters. Heating/cooling via jacket (steam for heating, water for cooling). Agitator (motor-driven paddle or propeller). Charge reactants, react, discharge products.
 - **Continuous flow reactors**: Tube or pipe reactors for large-scale continuous production. Better temperature control, higher throughput.

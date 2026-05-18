@@ -18,7 +18,20 @@
   - **Temperature indicators**: Smoke color, color of pots (red-orange glow visible through spy hole ≈ 800°C), color of chimney gases, Seger cones (pyramids of known melting clay placed inside — they slump at rated temperature).
   - **Fuel consumption**: ~2-4 kg wood per kg of pottery.
 
+**Downdraft kiln** (higher temperature, more uniform firing):
+- **Design**: Rectangular or round chamber, 1-2 m³ ware capacity. Firebox at one side. Hot gases rise to crown (domed roof), then deflect downward through ware, exit through floor-level flues to chimney. The downdraft path ensures even heat distribution — ware near firebox and far side receive similar temperatures.
+- **Temperature**: Reaches 1200-1300°C consistently. Required for stoneware and porcelain.
+- **Chimney design**: Draft pressure (Pa) ≈ 0.0342 × chimney height (m) × (ambient temperature K⁻¹ − flue gas temperature K⁻¹). Practical rule: 3-5 m chimney height for temperatures up to 1000°C; 5-8 m for 1200°C+. Chimney cross-section: 1/15 to 1/20 of kiln floor area. Round chimneys draft more evenly than square.
+
+**Climbing kiln (anagama / dragon kiln)**:
+- Built on hillside slope (10-20° incline). Long tunnel (10-30+ m), 1.5-2 m wide. Fire at lower end, chimney at upper. Ware stacked along interior walls. Heat rises naturally through the slope. Upper chambers reach higher temperatures due to preheated air. Single firing cycle: 3-7 days of continuous stoking. Produces dramatic ash-glaze effects (wood ash lands on pots, fluxes into natural glaze at 1200°C+). Very fuel-efficient per volume of ware — the slope provides natural draft, reducing chimney requirements.
+
 **Early refractory clay linings**:
 - Fire clay (kaolin-rich, high alumina, low iron) withstands 1200-1400°C+ when fired. Found near coal measures, in weathered granite, or as residual clay deposits.
 - For furnace linings: mix fire clay with 30-50% grog (crushed fired fire clay), form into shape, dry slowly, fire. Produces linings that survive multiple smelting cycles.
+- **Insulating firebrick**: Mix fire clay with sawdust or combustible filler (30-40% by volume). During firing, filler burns out leaving porous brick. Lower thermal conductivity than solid firebrick — reduces heat loss through kiln walls. Use as backup layer behind dense firebrick hot-face lining.
+
+**Kiln furniture and loading**:
+- **Shelves and supports**: Kiln shelves (flat fired clay slabs, 1-2 cm thick) supported on stilts (tripod clay posts). Stack multiple layers within ware chamber. Maximize loading density while maintaining flame path around each piece.
+- **Saggars** (for glaze firing): Fired clay boxes that enclose individual pots. Protect glaze from direct flame contact and ash deposit. Stack saggar towers inside kiln. Essential for clean glazed ware in wood-fired kilns.
 ---

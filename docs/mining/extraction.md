@@ -88,3 +88,14 @@
 - **Wheelbarrows**: 50-100 kg capacity. One man. For short distances.
 - **Mine carts on rails**: Iron or wooden wheeled carts (200-500 kg capacity) on wooden or iron rails (wooden rails with iron strapping initially). Pushed by hand or pulled by pit pony. 0.5-1 m gauge. Rails enable 10x easier movement vs dragging.
 
+### Mine Safety & Operations
+
+**Ground control**:
+- **Rock bolting** (Machine Tools+): Steel rod (2-3 m long, 20-25 mm diameter) inserted into drilled hole, anchored mechanically (expanding shell) or with cement grout. Supplements timber support in hard rock. Plate washer on exposed end distributes load.
+- **Roof inspection**: Sound the roof with a bar — solid rock rings, loose rock thuds. Scale (knock down) loose rock before working. Torch inspection for cracks, water seepage, joint separation. Daily checks at working faces.
+- **Cribbing**: Square timber frames stacked like a pyramid to support voids and stabilize large openings. Used at shaft stations, junctions, and wide chambers.
+
+**Operational practices**:
+- **Scaling**: After each blast, bar down loose rock from roof and walls before crew re-enters. The single most important safety practice underground.
+- **Water control**: Grade all tunnels 1-3° toward shaft for gravity drainage. Sumps at shaft bottom. Pump capacity must exceed maximum inflow rate. Monitor water levels in worked-out areas — sudden inrush is a major hazard.
+

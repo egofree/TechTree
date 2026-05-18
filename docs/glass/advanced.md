@@ -52,8 +52,19 @@
   - **Vacuum manifold**: Complex assembly with multiple ports, stopcocks, and connection points for vacuum line distribution.
 - **Annealing**: ALL glass apparatus must be annealed after working. Residual stress from uneven cooling causes spontaneous fracture (sometimes weeks later). Place in annealing oven at appropriate temperature (560°C for borosilicate), hold 30-60 minutes, cool at 1-2°C/minute to below strain point.
 
-**Quartz crucible production** (for CZ crystal growth):
-- Fabricate from fused silica using one of: (a) arc-melted fused quartz — mold shape from quartz powder in graphite mold, arc-melt surfaces to fuse; (b) slip-cast — pour quartz powder slurry into plaster mold, dry, sinter at 1700°C. Wall thickness 5-10 mm. Diameter 200-450 mm for semiconductor use.
+**Quartz crucible manufacturing** (for CZ crystal growth):
+- **Raw material**: High-purity SiO₂ (>99.99%) from refined quartz crystal or synthetic fused silica. Impurities (especially Al, Fe, Na) must be below ppm levels — they dissolve into molten silicon and dope the crystal uncontrollably.
+- **Slip casting method**: Prepare quartz powder slurry (SiO₂ + water + deflocculant). Pour into porous plaster mold shaped as crucible interior. Water absorbed by plaster leaves dense powder shell. Demold after 1-4 hours. Air dry 24-48 hours.
+- **Isostatic pressing method**: Fill quartz powder into rubber bag shaped as crucible exterior. Apply hydraulic pressure (100-200 MPa) uniformly. Produces denser, more uniform green body than slip casting.
+- **Sintering**: Fire dried green body in electric furnace at 1700-1800°C under vacuum or inert atmosphere. Holds 2-8 hours. Shrinkage ~15-20%. Transparency of finished crucible directly indicates purity — cloudy or opaque regions contain bubbles, crystalline inclusions, or impurities.
+- **Final dimensions**: Wall thickness 5-10 mm, diameter 200-450 mm for semiconductor use. Thicker walls last longer in CZ pull but reduce thermal responsiveness. Handle with clean gloves — surface contamination transfers to silicon melt.
+
+**Glass tubing production — Danner process** (continuous, Energy+ powered):
+- Molten glass flows from furnace forehearth onto a rotating inclined refractory mandrel (hollow ceramic cylinder, tilted ~15° from horizontal, rotating at 5-20 RPM). Glass wraps around mandrel forming a ribbon.
+- Air blown through hollow mandrel center inflates the glass ribbon into a tube. Air pressure and draw speed control inner diameter. Mandrel diameter sets minimum bore.
+- Tube drawn off continuously by tractor belts or rollers at controlled speed (1-20 m/min). Speed determines wall thickness — faster draw = thinner walls.
+- Tube cools while being drawn (10+ meters of travel). Cut to length by scoring and snapping. Annealed in lehr before packaging.
+- Produces tubing 3-50 mm OD in continuous lengths. Wall thickness tolerance ±0.1 mm with good process control.
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [All Domains](../)*

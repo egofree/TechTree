@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Fiber Preparation</title>
+<link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+<div class="layout">
+<nav class="sidebar">
+<input type="text" id="search-input" placeholder="Search..." autocomplete="off" />
+<div id="search-results"></div>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
+<li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
+<li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/chemistry/index.html" class="sidebar__domain-link">Chemistry</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/chemistry/air-separation.html">Air Separation & Bulk Gas Production </a></li>
+<li><a href="../../docs/chemistry/alkalis.html">Alkali Production </a></li>
+<li><a href="../../docs/chemistry/distillation.html">Cement & Concrete </a></li>
+<li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
+<li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
+<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
+<li><a href="../../">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
+<li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
+<li><a href="../../">Petroleum & Alternative Chemistry </a></li>
+<li><a href="../../docs/chemistry/packaging-testing.html">Semiconductor Packaging & Testing </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/computing/index.html" class="sidebar__domain-link">Computing & Automation</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/computing/electromechanical.html">Electromechanical Computing </a></li>
+<li><a href="../../docs/computing/electronic.html">Electronic Computing </a></li>
+<li><a href="../../docs/computing/mechanical.html">Mechanical Calculation </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/energy/index.html" class="sidebar__domain-link">Energy</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/energy/cooling.html">Cooling Systems & Refrigeration </a></li>
+<li><a href="../../docs/energy/electricity.html">Electric Furnaces </a></li>
+<li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
+<li><a href="../../">Energy Storage & Diversification </a></li>
+<li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
+<li><a href="../../docs/energy/gravity.html">Water Power </a></li>
+<li><a href="../../docs/energy/wind.html">Wind Power </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/foundations/index.html" class="sidebar__domain-link">Foundations</a> <span class="badge badge--critical">★</span><span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/foundations/food-agriculture.html">Agriculture & Food Production </a></li>
+<li><a href="../../docs/foundations/fire.html">Fire-Making </a></li>
+<li><a href="../../docs/foundations/tools-basic.html">Stone & Wood Tools </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/gas-handling/gas-handling.html" class="sidebar__domain-link">Gas Handling</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/gas-handling/basic.html">Basic Gas Handling </a></li>
+<li><a href="../../docs/gas-handling/vacuum.html">Vacuum Technology </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/glass/glass.html" class="sidebar__domain-link">Glass</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/glass/advanced.html">Advanced Glass Production </a></li>
+<li><a href="../../docs/glass/basic.html">Basic Glass Production </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/knowledge/index.html" class="sidebar__domain-link">Knowledge Preservation & Education</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
+<li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/machine-tools/index.html" class="sidebar__domain-link">Machine Tools Bootstrap</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/machine-tools/bearings-abrasives.html">Bearings, Abrasives & Cutting Tools </a></li>
+<li><a href="../../docs/machine-tools/iterative-bootstrap.html">Iterative Machine Bootstrap </a></li>
+<li><a href="../../docs/machine-tools/machining.html">Machining </a></li>
+<li><a href="../../docs/machine-tools/casting.html">Metal Casting </a></li>
+<li><a href="../../docs/machine-tools/forming.html">Metal Forming </a></li>
+<li><a href="../../docs/machine-tools/joining.html">Metal Joining </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/measurement/measurement.html" class="sidebar__domain-link">Measurement & Instrumentation</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/measurement/precision-metrology.html">Precision Metrology & Standards </a></li>
+<li><a href="../../docs/measurement/temperature-pressure.html">Temperature & Pressure Measurement </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/metals/index.html" class="sidebar__domain-link">Metals</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Copper & Bronze Production </a></li>
+<li><a href="../../">Iron & Steel Production <span class="badge badge--critical">★</span></a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/mining/prospecting.html" class="sidebar__domain-link">Mining Engineering & Extractive Metallurgy</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/mining/extraction.html">Mining Extraction </a></li>
+<li><a href="../../docs/mining/processing.html">Ore Processing </a></li>
+<li><a href="../../">Prospecting & Surveying </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/optics/optics.html" class="sidebar__domain-link">Optics</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/optics/inspection.html">Optical Inspection </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/photolithography/index.html" class="sidebar__domain-link">Photolithography & IC Fabrication</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/photolithography/cleanrooms.html">Cleanrooms </a></li>
+<li><a href="../../docs/photolithography/fab-processes.html">Core Fab Processes </a></li>
+<li><a href="../../docs/photolithography/resists-masks.html">Photoresists, Masks & Lithography </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/polymers/index.html" class="sidebar__domain-link">Polymers & Composites</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Composite Materials </a></li>
+<li><a href="../../docs/polymers/rubber.html">Rubber Production </a></li>
+<li><a href="../../">Thermoplastic Polymers </a></li>
+<li><a href="../../">Thermosetting Polymers </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/health/index.html" class="sidebar__domain-link">Public Health, Sanitation & Medicine</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/health/medicine.html">Medicine & Surgery </a></li>
+<li><a href="../../docs/health/pharmacology.html">Pharmacology </a></li>
+<li><a href="../../docs/health/sanitation.html">Water Supply & Sanitation </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/silicon/index.html" class="sidebar__domain-link">Silicon</a> <span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/silicon/basic-devices.html">Basic Semiconductor Devices </a></li>
+<li><a href="../../docs/silicon/crystal-growth.html">Crystal Growth & Wafering </a></li>
+<li><a href="../../docs/silicon/mg-si-production.html">Metallurgical-Grade Silicon Production </a></li>
+<li><a href="../../docs/silicon/purification.html">Silicon Purification </a></li>
+</ul>
+</details>
+<details class="sidebar__domain" open>
+<summary class="sidebar__domain-title"><a href="../../docs/textiles/index.html" class="sidebar__domain-link">Textiles, Fiber & Cordage</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
+<li class="active"><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
+<li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/transport/index.html" class="sidebar__domain-link">Transportation & Logistics</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Aviation </a></li>
+<li><a href="../../docs/transport/railways.html">Railways </a></li>
+<li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/vlsi-scaling/index.html" class="sidebar__domain-link">VLSI Scaling & Advanced Semiconductor</a> <span class="badge badge--pinnacle">🔺</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/vlsi-scaling/advanced-lithography.html">Advanced Lithography </a></li>
+<li><a href="../../docs/vlsi-scaling/eda-design.html">Advanced Processes </a></li>
+<li><a href="../../docs/vlsi-scaling/continuous-scaling.html">Continuous Scaling </a></li>
+<li><a href="../../docs/vlsi-scaling/eda-design.html">EDA, GPU Design & Advanced Packaging </a></li>
+</ul>
+</details>
+</nav>
+<main class="content">
+<h1>Fiber Preparation</h1>
+<div class="metadata-card">
+<h2 class="metadata-card__title">Fiber Preparation </h2>
+<div class="metadata-card__field"><span class="metadata-card__label">Node ID</span><span class="metadata-card__value"><code>textiles.fibers</code></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Domain</span><span class="metadata-card__value">textiles</span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Timeline</span><span class="metadata-card__value">Years 0-5</span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Outputs</span><span class="metadata-card__value"><code>prepared_fibers</code></span></div>
+</div>
+<h1>Fiber Preparation</h1>
+<blockquote>
+<p><strong>Node ID</strong>: textiles.fibers
+<strong>Domain</strong>: Textiles, Fiber &amp; Cordage
+<strong>Timeline</strong>: Years 0-5
+<strong>Outputs</strong>: prepared_fibers</p>
+</blockquote>
+<h3>Fiber Sources</h3>
+<p><strong>Flax (linen)</strong>:</p>
+<ul>
+<li><strong>Cultivation</strong>: Annual plant, ~1 m tall. Sow in spring, harvest ~100 days later when stalks yellow at bottom third. Pull entire plant (don't cut — longer fibers from root end).</li>
+<li><strong>Retting</strong> (separating fiber from stem): Submerge flax stalks in water (pond, stream, or dew-retting on grass) for 5-14 days. Bacteria decompose pectin binding fibers to woody core (shives). Test: when fibers separate easily from stem, retting is complete. Over-retting weakens fibers.</li>
+<li><strong>Breaking</strong>: Crush dried retted stalks with wooden breaker (flax brake — hinged wooden blades that snap the woody core). Shives break into short pieces, fibers remain long.</li>
+<li><strong>Scutching</strong>: Beat broken stalks with flat wooden knife against vertical board. Knock away remaining woody fragments.</li>
+<li><strong>Hackling (combing)</strong>: Draw fibers through graduated iron or thorn combs (hackles). Coarse hackle removes remaining shives. Fine hackle separates long line fibers (30-90 cm) from short tow (5-15 cm). Line fibers become high-quality linen; tow becomes coarse cloth or rope.</li>
+<li><strong>Yield</strong>: ~200-400 kg fiber per hectare. Long line fiber ~30% of total; tow ~20%.</li>
+</ul>
+<p><strong>Hemp</strong>:</p>
+<ul>
+<li><strong>Cultivation</strong>: Annual, 2-4 m tall. Extremely hardy, minimal water. Harvest at pollen shedding (before seeds mature for best fiber). Processing identical to flax: ret (5-10 days in water), break, scutch, hackle.</li>
+<li><strong>Properties</strong>: Stronger than flax, more rot-resistant, coarser. Best for rope, canvas, and heavy cloth. Historically the primary cordage fiber before synthetic ropes.</li>
+<li><strong>Yield</strong>: ~1-3 tonnes dry stalk per hectare → ~300-800 kg fiber.</li>
+</ul>
+<p><strong>Cotton</strong>:</p>
+<ul>
+<li><strong>Cultivation</strong>: Requires 150-180 frost-free days + moderate water. Warm climate crop. Harvest bolls when they open (fibers emerge white and fluffy).</li>
+<li><strong>Ginning</strong>: Separate seeds from fiber. Simple single-roller gin (wooden roller rotates against fixed blade — fiber passes, seeds are crushed and fall away). Whitney-style saw gin (circular saw teeth pull fiber through grid too narrow for seeds — much faster but damages fibers).</li>
+<li><strong>Properties</strong>: Soft, comfortable, absorbs moisture. Moderate strength when dry, weaker when wet (opposite of linen and hemp). Poor mildew resistance.</li>
+<li><strong>Yield</strong>: ~500-1000 kg lint cotton per hectare.</li>
+</ul>
+<p><strong>Wool</strong>:</p>
+<ul>
+<li><strong>Shearing</strong>: Clip fleece from sheep annually (spring). 2-5 kg fleece per sheep. Sorted by quality — shoulder and sides are finest, breech (hindquarters) coarsest.</li>
+<li><strong>Washing</strong>: Remove lanolin (natural wool grease), dirt, vegetable matter. Wash in hot water (~50°C) with soap or alkali. Multiple washes. Lanolin recovered from wash water (useful for waterproofing and cosmetics).</li>
+<li><strong>Carding</strong>: Tease washed wool between two carding paddles (leather pads covered with bent wire teeth). Disentangles fibers, removes remaining debris, aligns roughly for spinning. Produces rolag (rolled cylinder of aligned fiber).</li>
+</ul>
+
+</main>
+</div>
+<footer class="footer">
+<p>Part of the Bootciv Tech Tree</p>
+</footer>
+<script src="../../assets/mermaid.min.js"></script>
+<script src="../../assets/search-index.js"></script>
+<script src="../../assets/search.js"></script>
+<script src="../../assets/main.js"></script>
+</body>
+</html>

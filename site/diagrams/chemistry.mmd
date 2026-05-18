@@ -7,60 +7,104 @@ graph TD
         direction TB
         chemistry_acids["Mineral Acid Production"]
         chemistry_alkalis["Alkali Production"]
-        chemistry_distillation-gas-handling["Distillation & Gas Handling"]
         chemistry_cement["Cement & Concrete"]
+        chemistry_electrolysis["Electrolysis"]
+        chemistry_air-separation["Air Separation & Bulk Gas Production"]
+        chemistry_hydrogen-silane["Hydrogen & Silane Production"]
+        chemistry_dopant-etch-gases["Dopant & Etch Gases"]
+        chemistry_packaging-testing["Semiconductor Packaging & Testing"]
+        chemistry_petroleum-alternatives["Petroleum & Alternative Chemistry"]
+        chemistry_lubricants["Lubricants, Oils & Fluid Mechanics"]
+        chemistry_distillation["Distillation"]
     end
 
     %% ==================== DOMAIN NODE ====================
     chemistry["Chemistry"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    ceramics_kilns("Kiln Construction")
     energy("Energy")
-    energy-storage("Energy Storage & Diversification")
-    energy_welding("Advanced Welding")
-    foundations_kilns-pottery("Pottery & Kilns")
+    energy_cooling("Cooling Systems & Refrigeration")
+    energy_electricity("Electricity Generation & Distribution")
+    energy_gravity("Water Power")
+    energy_storage("Energy Storage & Diversification")
+    energy_wind("Wind Power")
+    foundations("Foundations")
+    gas-handling("Gas Handling")
+    gas-handling_basic("Basic Gas Handling")
+    glass("Glass")
+    glass_basic("Basic Glass Production")
     health("Public Health, Sanitation & Medicine")
-    metallurgy("Metallurgy")
-    metallurgy_glass-lime("Basic Glass & Lime")
+    machine-tools("Machine Tools Bootstrap")
+    machine-tools_joining("Metal Joining")
+    measurement("Measurement & Instrumentation")
+    metals("Metals")
     mining("Mining Engineering & Extractive Metallurgy")
     photolithography("Photolithography & IC Fabrication")
+    photolithography_cleanrooms("Cleanrooms")
+    photolithography_fab-processes("Core Fab Processes")
     photolithography_resists-masks("Photoresists, Masks & Lithography")
-    polymers_synthetic-rubbers("Synthetic Rubbers")
+    polymers_rubber_synthetic("Synthetic Rubbers")
     polymers_thermoplastics("Thermoplastic Polymers")
     polymers_thermosets("Thermosetting Polymers")
     silicon("Silicon")
     silicon_basic-devices("Basic Semiconductor Devices")
+    silicon_crystal-growth("Crystal Growth & Wafering")
     silicon_purification("Silicon Purification")
-    specialty-gases("Specialty Gases, Consumables, Packaging & Testing")
-    specialty-gases_air-separation("Air Separation & Bulk Gas Production")
-    specialty-gases_dopant-etch-gases("Dopant & Etch Gases")
-    specialty-gases_hydrogen-silane("Hydrogen & Silane Production")
-    vacuum-optics("Vacuum, Optics & Advanced Glass")
+    transport_aviation("Aviation")
 
     %% ==================== EDGES ====================
-    energy_welding -.-> chemistry
-    chemistry -.-> metallurgy
-    chemistry -.-> energy
-    chemistry_acids -.-> mining
-    chemistry_acids -.-> metallurgy_glass-lime
-    chemistry_alkalis -.-> mining
-    chemistry_cement -.-> foundations_kilns-pottery
-    chemistry_cement -.-> mining
-    vacuum-optics -.-> chemistry
-    silicon -.-> chemistry
-    silicon_purification -.-> chemistry_distillation-gas-handling
-    silicon_basic-devices -.-> chemistry_acids
-    photolithography -.-> chemistry
-    photolithography_resists-masks -.-> chemistry
-    health -.-> chemistry
-    specialty-gases -.-> chemistry
-    specialty-gases_air-separation -.-> chemistry_distillation-gas-handling
-    specialty-gases_hydrogen-silane -.-> chemistry_distillation-gas-handling
-    specialty-gases_dopant-etch-gases -.-> chemistry
-    energy-storage -.-> chemistry
-    polymers_synthetic-rubbers -.-> chemistry
-    polymers_thermosets -.-> chemistry
-    polymers_thermoplastics -.-> chemistry
+    chemistry_hydrogen-silane --> chemistry_electrolysis
+    chemistry_dopant-etch-gases --> chemistry_electrolysis
+    chemistry_dopant-etch-gases -.-> chemistry
+    chemistry_lubricants --> chemistry_petroleum-alternatives
+    energy_gravity --> chemistry_lubricants
+    energy_wind --> chemistry_lubricants
+    machine-tools --> chemistry_lubricants
+    energy_cooling --> chemistry_petroleum-alternatives
+    chemistry_electrolysis --> energy_electricity
+    machine-tools_joining --> chemistry
+    chemistry -.-> metals
+    chemistry --> energy
+    chemistry_acids --> mining
+    chemistry_acids -.-> glass_basic
+    chemistry_alkalis --> mining
+    chemistry_cement -.-> ceramics_kilns
+    chemistry_cement --> mining
+    glass --> chemistry
+    gas-handling --> chemistry
+    measurement --> chemistry
+    silicon --> chemistry
+    silicon_purification -.-> chemistry_distillation
+    silicon_purification --> chemistry_hydrogen-silane
+    silicon_crystal-growth --> chemistry_air-separation
+    silicon_basic-devices --> chemistry_acids
+    photolithography --> chemistry
+    photolithography_cleanrooms --> chemistry
+    photolithography_resists-masks --> chemistry
+    photolithography_fab-processes --> chemistry_dopant-etch-gases
+    health --> chemistry
+    chemistry_air-separation --> energy_electricity
+    chemistry_air-separation -.-> gas-handling_basic
+    chemistry_hydrogen-silane -.-> gas-handling_basic
+    chemistry_packaging-testing --> photolithography_fab-processes
+    chemistry_packaging-testing -.-> machine-tools
+    chemistry_packaging-testing --> polymers_thermosets
+    energy_storage --> chemistry
+    chemistry_lubricants -.-> foundations
+    chemistry_petroleum-alternatives -.-> foundations
+    transport_aviation --> chemistry_petroleum-alternatives
+    polymers_rubber_synthetic --> chemistry_petroleum-alternatives
+    polymers_rubber_synthetic --> chemistry
+    polymers_thermosets --> chemistry_petroleum-alternatives
+    polymers_thermosets --> chemistry
+    polymers_thermoplastics --> chemistry_petroleum-alternatives
+    polymers_thermoplastics --> chemistry
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
 
     %% ==================== STYLING ====================
     classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
@@ -70,29 +114,47 @@ graph TD
     classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
     classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class chemistry domain
     class chemistry_acids capability
     class chemistry_alkalis capability
-    class chemistry_distillation-gas-handling capability
     class chemistry_cement capability
+    class chemistry_electrolysis capability
+    class chemistry_air-separation capability
+    class chemistry_hydrogen-silane capability
+    class chemistry_dopant-etch-gases capability
+    class chemistry_packaging-testing capability
+    class chemistry_petroleum-alternatives capability
+    class chemistry_lubricants critical
+    class chemistry_distillation capability
+    class ceramics_kilns external
     class energy external
-    class energy-storage external
-    class energy_welding external
-    class foundations_kilns-pottery external
+    class energy_cooling external
+    class energy_electricity external
+    class energy_gravity external
+    class energy_storage external
+    class energy_wind external
+    class foundations external
+    class gas-handling external
+    class gas-handling_basic external
+    class glass external
+    class glass_basic external
     class health external
-    class metallurgy external
-    class metallurgy_glass-lime external
+    class machine-tools external
+    class machine-tools_joining external
+    class measurement external
+    class metals external
     class mining external
     class photolithography external
+    class photolithography_cleanrooms external
+    class photolithography_fab-processes external
     class photolithography_resists-masks external
-    class polymers_synthetic-rubbers external
+    class polymers_rubber_synthetic external
     class polymers_thermoplastics external
     class polymers_thermosets external
     class silicon external
     class silicon_basic-devices external
+    class silicon_crystal-growth external
     class silicon_purification external
-    class specialty-gases external
-    class specialty-gases_air-separation external
-    class specialty-gases_dopant-etch-gases external
-    class specialty-gases_hydrogen-silane external
-    class vacuum-optics external
+    class transport_aviation external
+    class EdgeLegend,MatNote,ToolNote legend

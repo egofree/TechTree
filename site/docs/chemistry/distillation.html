@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Distillation</title>
+<link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+<div class="layout">
+<nav class="sidebar">
+<input type="text" id="search-input" placeholder="Search..." autocomplete="off" />
+<div id="search-results"></div>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
+<li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
+<li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
+</ul>
+</details>
+<details class="sidebar__domain" open>
+<summary class="sidebar__domain-title"><a href="../../docs/chemistry/index.html" class="sidebar__domain-link">Chemistry</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/chemistry/air-separation.html">Air Separation & Bulk Gas Production </a></li>
+<li><a href="../../docs/chemistry/alkalis.html">Alkali Production </a></li>
+<li class="active"><a href="../../docs/chemistry/distillation.html">Cement & Concrete </a></li>
+<li class="active"><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
+<li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
+<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
+<li><a href="../../">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
+<li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
+<li><a href="../../">Petroleum & Alternative Chemistry </a></li>
+<li><a href="../../docs/chemistry/packaging-testing.html">Semiconductor Packaging & Testing </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/computing/index.html" class="sidebar__domain-link">Computing & Automation</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/computing/electromechanical.html">Electromechanical Computing </a></li>
+<li><a href="../../docs/computing/electronic.html">Electronic Computing </a></li>
+<li><a href="../../docs/computing/mechanical.html">Mechanical Calculation </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/energy/index.html" class="sidebar__domain-link">Energy</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/energy/cooling.html">Cooling Systems & Refrigeration </a></li>
+<li><a href="../../docs/energy/electricity.html">Electric Furnaces </a></li>
+<li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
+<li><a href="../../">Energy Storage & Diversification </a></li>
+<li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
+<li><a href="../../docs/energy/gravity.html">Water Power </a></li>
+<li><a href="../../docs/energy/wind.html">Wind Power </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/foundations/index.html" class="sidebar__domain-link">Foundations</a> <span class="badge badge--critical">★</span><span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/foundations/food-agriculture.html">Agriculture & Food Production </a></li>
+<li><a href="../../docs/foundations/fire.html">Fire-Making </a></li>
+<li><a href="../../docs/foundations/tools-basic.html">Stone & Wood Tools </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/gas-handling/gas-handling.html" class="sidebar__domain-link">Gas Handling</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/gas-handling/basic.html">Basic Gas Handling </a></li>
+<li><a href="../../docs/gas-handling/vacuum.html">Vacuum Technology </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/glass/glass.html" class="sidebar__domain-link">Glass</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/glass/advanced.html">Advanced Glass Production </a></li>
+<li><a href="../../docs/glass/basic.html">Basic Glass Production </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/knowledge/index.html" class="sidebar__domain-link">Knowledge Preservation & Education</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
+<li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/machine-tools/index.html" class="sidebar__domain-link">Machine Tools Bootstrap</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/machine-tools/bearings-abrasives.html">Bearings, Abrasives & Cutting Tools </a></li>
+<li><a href="../../docs/machine-tools/iterative-bootstrap.html">Iterative Machine Bootstrap </a></li>
+<li><a href="../../docs/machine-tools/machining.html">Machining </a></li>
+<li><a href="../../docs/machine-tools/casting.html">Metal Casting </a></li>
+<li><a href="../../docs/machine-tools/forming.html">Metal Forming </a></li>
+<li><a href="../../docs/machine-tools/joining.html">Metal Joining </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/measurement/measurement.html" class="sidebar__domain-link">Measurement & Instrumentation</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/measurement/precision-metrology.html">Precision Metrology & Standards </a></li>
+<li><a href="../../docs/measurement/temperature-pressure.html">Temperature & Pressure Measurement </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/metals/index.html" class="sidebar__domain-link">Metals</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Copper & Bronze Production </a></li>
+<li><a href="../../">Iron & Steel Production <span class="badge badge--critical">★</span></a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/mining/prospecting.html" class="sidebar__domain-link">Mining Engineering & Extractive Metallurgy</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/mining/extraction.html">Mining Extraction </a></li>
+<li><a href="../../docs/mining/processing.html">Ore Processing </a></li>
+<li><a href="../../">Prospecting & Surveying </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/optics/optics.html" class="sidebar__domain-link">Optics</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/optics/inspection.html">Optical Inspection </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/photolithography/index.html" class="sidebar__domain-link">Photolithography & IC Fabrication</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/photolithography/cleanrooms.html">Cleanrooms </a></li>
+<li><a href="../../docs/photolithography/fab-processes.html">Core Fab Processes </a></li>
+<li><a href="../../docs/photolithography/resists-masks.html">Photoresists, Masks & Lithography </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/polymers/index.html" class="sidebar__domain-link">Polymers & Composites</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Composite Materials </a></li>
+<li><a href="../../docs/polymers/rubber.html">Rubber Production </a></li>
+<li><a href="../../">Thermoplastic Polymers </a></li>
+<li><a href="../../">Thermosetting Polymers </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/health/index.html" class="sidebar__domain-link">Public Health, Sanitation & Medicine</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/health/medicine.html">Medicine & Surgery </a></li>
+<li><a href="../../docs/health/pharmacology.html">Pharmacology </a></li>
+<li><a href="../../docs/health/sanitation.html">Water Supply & Sanitation </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/silicon/index.html" class="sidebar__domain-link">Silicon</a> <span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/silicon/basic-devices.html">Basic Semiconductor Devices </a></li>
+<li><a href="../../docs/silicon/crystal-growth.html">Crystal Growth & Wafering </a></li>
+<li><a href="../../docs/silicon/mg-si-production.html">Metallurgical-Grade Silicon Production </a></li>
+<li><a href="../../docs/silicon/purification.html">Silicon Purification </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/textiles/index.html" class="sidebar__domain-link">Textiles, Fiber & Cordage</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
+<li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
+<li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/transport/index.html" class="sidebar__domain-link">Transportation & Logistics</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Aviation </a></li>
+<li><a href="../../docs/transport/railways.html">Railways </a></li>
+<li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/vlsi-scaling/index.html" class="sidebar__domain-link">VLSI Scaling & Advanced Semiconductor</a> <span class="badge badge--pinnacle">🔺</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/vlsi-scaling/advanced-lithography.html">Advanced Lithography </a></li>
+<li><a href="../../docs/vlsi-scaling/eda-design.html">Advanced Processes </a></li>
+<li><a href="../../docs/vlsi-scaling/continuous-scaling.html">Continuous Scaling </a></li>
+<li><a href="../../docs/vlsi-scaling/eda-design.html">EDA, GPU Design & Advanced Packaging </a></li>
+</ul>
+</details>
+</nav>
+<main class="content">
+<h1>Distillation</h1>
+<div class="metadata-card">
+<h2 class="metadata-card__title">Distillation </h2>
+<div class="metadata-card__field"><span class="metadata-card__label">Node ID</span><span class="metadata-card__value"><code>chemistry.distillation</code></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Domain</span><span class="metadata-card__value">chemistry</span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Timeline</span><span class="metadata-card__value">Years 20-35</span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Outputs</span><span class="metadata-card__value"><code>distillation_capability</code></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Dependencies</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/silicon/purification.html">silicon.purification</a></span></div>
+</div>
+<h1>Distillation</h1>
+<blockquote>
+<p><strong>Node ID</strong>: <a class="node-ref" href="../../docs/chemistry/distillation.html">chemistry.distillation</a>
+<strong>Also covers</strong>: <a class="node-ref" href="../../docs/chemistry/distillation.html">chemistry.cement</a>
+<strong>Domain</strong>: <a href="./">Chemistry</a>
+<strong>Dependencies</strong>: <code>foundations.kilns-pottery</code>, <code>mining</code>
+<strong>Enables</strong>: <a class="node-ref" href="../../docs/silicon/purification.html">silicon.purification</a>
+<strong>Timeline</strong>: Years 20-35
+<strong>Outputs</strong>: distillation_capability, cement, concrete, reinforced_concrete</p>
+</blockquote>
+<h3>Infrastructure</h3>
+<p><strong>Distillation columns</strong>:</p>
+<ul>
+<li><strong>Construction</strong>: Copper or steel shell, 2-10 m tall, 20-100 cm diameter. Internal plates or packing (ceramic Raschig rings, ceramic saddles, or structured packing). Reboiler (heated kettle at bottom), condenser (cooled coil at top — water-cooled copper coil).</li>
+<li><strong>Operation</strong>: Feed mixture enters at middle height. Reboiler vaporizes components. Vapor rises through packing/plates, contacting descending liquid (reflux). More volatile components concentrate at top, less volatile at bottom. Temperature gradient along column indicates separation.</li>
+<li><strong>Fractional distillation</strong> for petroleum (see <a href="../chemistry/petroleum-alternatives.html">Petrochemicals</a>): Multiple fractions drawn at different heights corresponding to different boiling ranges.</li>
+</ul>
+<p><strong>Reactors</strong>:</p>
+<ul>
+<li><strong>Batch reactors</strong>: Jacketed steel or glass-lined vessels, 100-5000 liters. Heating/cooling via jacket (steam for heating, water for cooling). Agitator (motor-driven paddle or propeller). Charge reactants, react, discharge products.</li>
+<li><strong>Continuous flow reactors</strong>: Tube or pipe reactors for large-scale continuous production. Better temperature control, higher throughput.</li>
+<li><strong>Materials</strong>: Glass-lined steel (good for acids), lead-lined (for H₂SO₄), nickel or Monel (for HF), copper (for organic reactions), stainless steel (later, for many applications).</li>
+</ul>
+<p><strong>Heat exchangers</strong>:</p>
+<ul>
+<li><strong>Shell and tube</strong>: Tube bundle inside cylindrical shell. One fluid inside tubes, other in shell. Countercurrent flow maximizes heat transfer. Copper tubes for good thermal conductivity. Steel shell.</li>
+<li><strong>Sizing</strong>: Heat transfer area 1-50 m² depending on duty. Temperature approach (minimum ΔT between fluids) typically 5-20°C.</li>
+</ul>
+<h3>Cement &amp; Concrete</h3>
+<ul>
+<li><strong>Portland cement</strong>: Limestone + clay heated in kilns (~1450°C) → clinker (gray nodules 1-30 mm) → ground with gypsum (CaSO₄·2H₂O, 3-5%) in ball mill → cement powder. Kiln: rotating steel tube 30-60 m long, 2-4 m diameter, lined with refractory brick. Fuel: coal, gas, or oil. 3-5 kg fuel per kg cement.</li>
+<li><strong>Hydration</strong>: Cement + water → calcium silicate hydrate gel (the binding matrix). Heat of hydration raises temperature significantly (important for mass concrete pours). Mix ratio: ~25-35% water by weight of cement.</li>
+<li><strong>Concrete</strong>: Cement + sand + gravel + water. Typical mix 1:2:4 (cement:sand:gravel by volume) for structural concrete. Compressive strength 20-40 MPa at 28 days. Cure: keep moist for 7+ days (critical — early drying weakens concrete dramatically).</li>
+<li><strong>Reinforced concrete</strong>: Steel rebar embedded in concrete. Steel handles tension, concrete handles compression. The dominant modern building material once you have both steel and cement.</li>
+<li><strong>Uses</strong>: Factory foundations, dam construction (hydroelectric — Energy Storage), vibration isolation pads for precision equipment (Machine Tools, Silicon stages), road surfaces (Transport), chemical plant flooring.</li>
+</ul>
+<h3>Polymer Feedstock Production</h3>
+<ul>
+<li>The Chemistry stage's chemical industry enables production of key polymer feedstocks: phenol, formaldehyde, ethylene, propylene, styrene.</li>
+<li>See <a href="../chemistry/petroleum-alternatives.html">Petrochemicals</a> for feedstock production and <a href="../polymers/overview.html">Polymers</a> for polymerization.</li>
+<li>This bridges inorganic chemistry to the organic polymer industry.</li>
+</ul>
+<hr />
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="../">All Domains</a></em></p>
+
+</main>
+</div>
+<footer class="footer">
+<p>Part of the Bootciv Tech Tree</p>
+</footer>
+<script src="../../assets/mermaid.min.js"></script>
+<script src="../../assets/search-index.js"></script>
+<script src="../../assets/search.js"></script>
+<script src="../../assets/main.js"></script>
+</body>
+</html>

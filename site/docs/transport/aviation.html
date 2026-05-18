@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>aviation.html</title>
+<link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+<div class="layout">
+<nav class="sidebar">
+<input type="text" id="search-input" placeholder="Search..." autocomplete="off" />
+<div id="search-results"></div>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
+<li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
+<li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/chemistry/index.html" class="sidebar__domain-link">Chemistry</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/chemistry/air-separation.html">Air Separation & Bulk Gas Production </a></li>
+<li><a href="../../docs/chemistry/alkalis.html">Alkali Production </a></li>
+<li><a href="../../docs/chemistry/distillation.html">Cement & Concrete </a></li>
+<li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
+<li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
+<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
+<li><a href="../../">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
+<li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
+<li><a href="../../">Petroleum & Alternative Chemistry </a></li>
+<li><a href="../../docs/chemistry/packaging-testing.html">Semiconductor Packaging & Testing </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/computing/index.html" class="sidebar__domain-link">Computing & Automation</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/computing/electromechanical.html">Electromechanical Computing </a></li>
+<li><a href="../../docs/computing/electronic.html">Electronic Computing </a></li>
+<li><a href="../../docs/computing/mechanical.html">Mechanical Calculation </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/energy/index.html" class="sidebar__domain-link">Energy</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/energy/cooling.html">Cooling Systems & Refrigeration </a></li>
+<li><a href="../../docs/energy/electricity.html">Electric Furnaces </a></li>
+<li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
+<li><a href="../../">Energy Storage & Diversification </a></li>
+<li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
+<li><a href="../../docs/energy/gravity.html">Water Power </a></li>
+<li><a href="../../docs/energy/wind.html">Wind Power </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/foundations/index.html" class="sidebar__domain-link">Foundations</a> <span class="badge badge--critical">★</span><span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/foundations/food-agriculture.html">Agriculture & Food Production </a></li>
+<li><a href="../../docs/foundations/fire.html">Fire-Making </a></li>
+<li><a href="../../docs/foundations/tools-basic.html">Stone & Wood Tools </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/gas-handling/gas-handling.html" class="sidebar__domain-link">Gas Handling</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/gas-handling/basic.html">Basic Gas Handling </a></li>
+<li><a href="../../docs/gas-handling/vacuum.html">Vacuum Technology </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/glass/glass.html" class="sidebar__domain-link">Glass</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/glass/advanced.html">Advanced Glass Production </a></li>
+<li><a href="../../docs/glass/basic.html">Basic Glass Production </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/knowledge/index.html" class="sidebar__domain-link">Knowledge Preservation & Education</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
+<li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/machine-tools/index.html" class="sidebar__domain-link">Machine Tools Bootstrap</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/machine-tools/bearings-abrasives.html">Bearings, Abrasives & Cutting Tools </a></li>
+<li><a href="../../docs/machine-tools/iterative-bootstrap.html">Iterative Machine Bootstrap </a></li>
+<li><a href="../../docs/machine-tools/machining.html">Machining </a></li>
+<li><a href="../../docs/machine-tools/casting.html">Metal Casting </a></li>
+<li><a href="../../docs/machine-tools/forming.html">Metal Forming </a></li>
+<li><a href="../../docs/machine-tools/joining.html">Metal Joining </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/measurement/measurement.html" class="sidebar__domain-link">Measurement & Instrumentation</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/measurement/precision-metrology.html">Precision Metrology & Standards </a></li>
+<li><a href="../../docs/measurement/temperature-pressure.html">Temperature & Pressure Measurement </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/metals/index.html" class="sidebar__domain-link">Metals</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Copper & Bronze Production </a></li>
+<li><a href="../../">Iron & Steel Production <span class="badge badge--critical">★</span></a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/mining/prospecting.html" class="sidebar__domain-link">Mining Engineering & Extractive Metallurgy</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/mining/extraction.html">Mining Extraction </a></li>
+<li><a href="../../docs/mining/processing.html">Ore Processing </a></li>
+<li><a href="../../">Prospecting & Surveying </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/optics/optics.html" class="sidebar__domain-link">Optics</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/optics/inspection.html">Optical Inspection </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/photolithography/index.html" class="sidebar__domain-link">Photolithography & IC Fabrication</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/photolithography/cleanrooms.html">Cleanrooms </a></li>
+<li><a href="../../docs/photolithography/fab-processes.html">Core Fab Processes </a></li>
+<li><a href="../../docs/photolithography/resists-masks.html">Photoresists, Masks & Lithography </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/polymers/index.html" class="sidebar__domain-link">Polymers & Composites</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Composite Materials </a></li>
+<li><a href="../../docs/polymers/rubber.html">Rubber Production </a></li>
+<li><a href="../../">Thermoplastic Polymers </a></li>
+<li><a href="../../">Thermosetting Polymers </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/health/index.html" class="sidebar__domain-link">Public Health, Sanitation & Medicine</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/health/medicine.html">Medicine & Surgery </a></li>
+<li><a href="../../docs/health/pharmacology.html">Pharmacology </a></li>
+<li><a href="../../docs/health/sanitation.html">Water Supply & Sanitation </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/silicon/index.html" class="sidebar__domain-link">Silicon</a> <span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/silicon/basic-devices.html">Basic Semiconductor Devices </a></li>
+<li><a href="../../docs/silicon/crystal-growth.html">Crystal Growth & Wafering </a></li>
+<li><a href="../../docs/silicon/mg-si-production.html">Metallurgical-Grade Silicon Production </a></li>
+<li><a href="../../docs/silicon/purification.html">Silicon Purification </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/textiles/index.html" class="sidebar__domain-link">Textiles, Fiber & Cordage</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
+<li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
+<li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/transport/index.html" class="sidebar__domain-link">Transportation & Logistics</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Aviation </a></li>
+<li><a href="../../docs/transport/railways.html">Railways </a></li>
+<li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/vlsi-scaling/index.html" class="sidebar__domain-link">VLSI Scaling & Advanced Semiconductor</a> <span class="badge badge--pinnacle">🔺</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/vlsi-scaling/advanced-lithography.html">Advanced Lithography </a></li>
+<li><a href="../../docs/vlsi-scaling/eda-design.html">Advanced Processes </a></li>
+<li><a href="../../docs/vlsi-scaling/continuous-scaling.html">Continuous Scaling </a></li>
+<li><a href="../../docs/vlsi-scaling/eda-design.html">EDA, GPU Design & Advanced Packaging </a></li>
+</ul>
+</details>
+</nav>
+<main class="content">
+<h1>aviation.html</h1>
+
+<h1>Aircraft Development</h1>
+<blockquote>
+<p><strong>Node ID</strong>: <code>aircraft</code>
+<strong>Domain</strong>: <a href="./">Aircraft Development</a>
+<strong>Dependencies</strong>: <code>machine-tools</code>, <code>petrochemicals</code>, <code>textiles</code>
+<strong>Timeline</strong>: Years 10-50+
+<strong>Outputs</strong>: aircraft, aircraft_engines, propellers, aviation_fuel</p>
+</blockquote>
+<h2>Problem</h2>
+<p>Without propulsion technology, civilization is limited to ground and water transport. Aircraft enable rapid reconnaissance, cargo delivery over difficult terrain, and serve as a powerful morale boost for the entire project. The Wright brothers flew in 1903 with bicycle-shop tools and a custom engine. With modern ultralight plans in hand, the challenge is manufacturing capability, not invention.</p>
+<h2>Technologies &amp; Systems</h2>
+<h3>Internal Combustion Engine for Aircraft</h3>
+<p><strong>Engine design</strong> (single-cylinder or twin-cylinder, air-cooled):</p>
+<ul>
+<li><strong>Configuration</strong>: Horizontally opposed twin (boxer) — compact, good balance, air cooling. Displacement 500-1200 cc. Power target 20-65 HP at 2000-3500 RPM. Weight target &lt;30 kg (power-to-weight &gt;0.5 HP/kg).</li>
+<li><strong>Bore and stroke</strong>: Bore 80-100 mm, stroke 70-90 mm. Undersquare (stroke &lt; bore) favors higher RPM. Compression ratio 6:1 to 8:1 (limited by fuel octane — see fuel section).</li>
+</ul>
+<p><strong>Cylinder and head</strong>:</p>
+<ul>
+<li><strong>Cylinder barrel</strong>: Cast iron liner (3-5 mm wall) pressed into aluminum finned barrel (aluminum fins increase cooling surface area 10-20x). Alternately, machine fins directly into cast iron cylinder. Inside diameter bored and honed to ±0.01 mm tolerance. Surface finish 0.2-0.4 μm Ra (honed crosshatch pattern retains oil film).</li>
+<li><strong>Cylinder head</strong>: Aluminum alloy casting (Al + 8-12% Si — aluminum-silicon alloy, good fluidity for casting, good thermal conductivity for cooling). Cast in sand mold. Machine combustion chamber, valve seats, spark plug hole, and bolt holes. Large cooling fins cast integral with head. Bolt to cylinder barrel via studs (steel studs threaded into barrel, nuts on top of head — allows thermal expansion).</li>
+<li><strong>Combustion chamber</strong>: Hemispherical or wedge shape. Spark plug positioned near center for even flame propagation. Valve arrangement: overhead valves (OHV) — intake and exhaust valves in cylinder head, operated by pushrods from camshaft in crankcase.</li>
+</ul>
+<p><strong>Crankshaft and connecting rod</strong>:</p>
+<ul>
+<li><strong>Crankshaft</strong>: Forge from medium-carbon steel (0.4-0.5% C). Machine main bearing journals and crankpins to ±0.01 mm tolerance, surface finish &lt;0.2 μm Ra. Induction harden journal surfaces (heat surface layer to 850°C with induction coil, quench → hard surface, tough core). Balance dynamically (add or remove metal from counterweights until no vibration at operating RPM).</li>
+<li><strong>Connecting rod</strong>: Forge from steel. I-beam cross-section (stiff, light). Big end (crankpin end): split, with bearing cap bolted on. Bearing: replaceable babbitt-lined bearing shells (babbitt = Sn + Cu + Sb alloy — soft, embeds particles, conformable) or bronze bushings. Small end (piston pin end): bronze bushing. Piston pin: hardened steel, 15-20 mm diameter, floating (rotates in both piston and rod).</li>
+</ul>
+<p><strong>Piston and rings</strong>:</p>
+<ul>
+<li><strong>Piston</strong>: Cast iron or aluminum alloy. Aluminum lighter (reciprocating weight matters at high RPM) but expands more (require larger clearance: 0.05-0.10 mm at skirt vs. 0.02-0.05 mm for cast iron). Machine ring grooves (2-3 compression rings + 1 oil control ring). Crown shape matches combustion chamber.</li>
+<li><strong>Piston rings</strong>: Cast iron split rings (expand against cylinder wall). Compression rings (top 1-2): rectangular or barrel-faced cross-section, 2-3 mm thick, gap 0.3-0.5 mm when installed. Seal combustion pressure. Oil control ring (bottom): slotted, scrapes excess oil off cylinder wall, vents oil back to crankcase through holes in piston.</li>
+<li><strong>Cylinder bore clearance</strong>: 0.05-0.10 mm (aluminum piston in iron liner). Too tight → seizure when hot. Too loose → piston slap (noise, blow-by gas, oil consumption).</li>
+</ul>
+<p><strong>Valve train</strong>:</p>
+<ul>
+<li><strong>Valves</strong>: Intake valve — stainless steel or nickel alloy (lower temperature, ~300-400°C). Exhaust valve — high-nickel alloy (Inconel-type, withstands 700-900°C exhaust gas). Stem diameter 7-9 mm. Head diameter: intake 30-40 mm (larger — more flow area for intake), exhaust 25-35 mm. Face angle 45°. Seat width 1.5-2.5 mm. Machine seat and face to gas-tight fit (grind with lapping compound).</li>
+<li><strong>Valve springs</strong>: Steel wire coil springs (spring steel: 0.6-0.7% C, heat-treated). Keep valves closed and following cam profile at maximum RPM. Spring force 100-300 N at installed height. Prevent valve float (spring cannot follow cam at excessive RPM → valves don't close → loss of compression → engine damage).</li>
+<li><strong>Camshaft</strong>: Cast iron or forged steel. Cam lobes hardened (induction hardening). Machine cam profile on lathe with template follower (or grind on cam grinder). Profile designed for specified valve timing: open intake at 5-25° before top dead center (BTDC), close 40-60° after bottom dead center (ABDC). Open exhaust 40-60° BBDC, close 5-25° ATDC. Duration ~240-280° of crank rotation.</li>
+<li><strong>Pushrods and rockers</strong>: Steel pushrods (6-8 mm diameter, tubular for lightness). Rocker arms: stamped or forged steel, ratio 1.2-1.5:1 (multiply cam lift for valve lift). Valve clearance (lash): 0.15-0.30 mm cold (allows for thermal expansion — too tight → valve doesn't close, too loose → noisy, reduced lift).</li>
+</ul>
+<p><strong>Carburetor</strong>:</p>
+<ul>
+<li><strong>Principle</strong>: Venturi effect — air flows through constriction (venturi), velocity increases, pressure drops. Fuel nozzle at venturi throat — low pressure draws fuel from float bowl. Fuel atomizes in air stream → combustible mixture.</li>
+<li><strong>Construction</strong>: Aluminum or zinc alloy body. Brass venturi (20-30 mm throat diameter). Float chamber (brass float maintains constant fuel level). Main jet (brass orifice, 0.8-1.5 mm diameter — controls fuel flow at full throttle). Idle circuit (separate small orifice for idle mixture). Throttle plate (butterfly valve — controls airflow). Choke (restricts airflow when cold → richer mixture for starting).</li>
+<li><strong>Tuning</strong>: Adjust main jet size for correct air-fuel ratio (stoichiometric: 14.7:1 for gasoline, slightly rich 12-13:1 for maximum power). Read spark plug color: white/gray = too lean (hot, engine damage), dark brown = correct, black/sooty = too rich (wasteful, fouls plugs). Adjust idle mixture screw for smooth idle.</li>
+</ul>
+<p><strong>Ignition system</strong>:</p>
+<ul>
+<li><strong>Magneto</strong> (self-contained, no battery needed — critical for aircraft reliability):
+<ul>
+<li>Rotating magnet (mounted on engine camshaft or accessory drive) induces current in primary coil. Interrupter (points — mechanical switch, opened by cam on magneto shaft) breaks primary current → rapid magnetic field collapse → high voltage (10,000-30,000V) induced in secondary coil → current jumps spark plug gap → spark ignites mixture.</li>
+<li>Spark plug: Steel shell with ceramic insulator (alumina). Center electrode (nickel alloy). Ground electrode (nickel alloy). Gap: 0.5-0.8 mm. Thread: 14 mm × 1.25 mm pitch (common size).</li>
+<li><strong>Timing</strong>: Spark occurs 20-35° before top dead center (BTDC) — flame front needs time to propagate across combustion chamber before piston reaches TDC for maximum pressure on power stroke. Adjustable via magneto-to-engine timing. Too advanced → detonation (knock — uncontrolled combustion, can destroy engine). Too retarded → loss of power, overheating.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Fuel</strong>:</p>
+<ul>
+<li><strong>Gasoline</strong> (ideal): From petroleum distillation (Petrochemicals), 30-200°C fraction. Octane rating important — higher octane resists detonation at higher compression ratios. Early gasoline: 40-60 octane (limit compression to ~5:1). Tetraethyl lead (Pb(C₂H₅)₄) additive raises octane (lead deposits lubricate valves — but lead is toxic. Use only if necessary for engine reliability).</li>
+<li><strong>Ethanol</strong> (alternative): From fermentation (Petrochemicals). Octane ~100 (excellent anti-knock). Energy density ~60% of gasoline by volume → larger fuel tank needed. Hygroscopic (absorbs water). Attacks some rubber and metals. Carburetor jets must be enlarged ~30% (ethanol requires richer mixture — 9:1 stoichiometric vs. 14.7:1 for gasoline).</li>
+<li><strong>Fuel consumption</strong>: 200-300 g/HP/hour (specific fuel consumption). 40 HP engine burns 8-12 kg/hour gasoline. For 2-hour flight: 16-24 kg fuel.</li>
+</ul>
+<p><strong>Lubrication</strong>: Total-loss splash system (simplest for aircraft). Oil reservoir in crankcase. Splash from crankshaft dipping in oil or oil slinger throws oil onto cylinder walls, bearings, cam. Oil eventually burns or leaks out — add oil periodically. Use castor oil (high-temperature stability, excellent lubricity, doesn't break down at engine temperatures) or mineral engine oil (SAE 30 or 40 weight).</p>
+<h3>Airframe Construction</h3>
+<p><strong>Design</strong> (tube-and-fabric ultralight):</p>
+<ul>
+<li><strong>Wingspan</strong>: 8-12 m. <strong>Wing area</strong>: 12-20 m². <strong>Wing loading</strong>: 20-40 kg/m² (lower = lower stall speed, gentler handling). <strong>Empty weight</strong>: 150-250 kg. <strong>Gross weight</strong>: 250-400 kg. <strong>Stall speed</strong>: 35-50 km/h. <strong>Cruise speed</strong>: 70-120 km/h. <strong>Range</strong>: 100-300 km.</li>
+<li><strong>Wing</strong>: High-wing or low-wing configuration. High-wing: better ground clearance, better downward visibility, simpler strut bracing. Low-wing: shorter landing gear, better crash protection, easier fueling. Choose based on construction preference.</li>
+<li><strong>Lift</strong>: L = ½ρv²SCL, where ρ = air density (1.225 kg/m³ at sea level), v = airspeed, S = wing area, CL = lift coefficient (0.5-1.5 depending on angle of attack and airfoil). At 80 km/h (22.2 m/s), 15 m² wing, CL = 0.8: L = ½ × 1.225 × 22.2² × 15 × 0.8 = ~3620 N (~370 kg force). Sufficient to lift ultralight aircraft.</li>
+<li><strong>Airfoil</strong>: Clark Y or similar flat-bottom airfoil (easy to build — flat lower surface simplifies rib construction). Thickness 12-15% of chord. CLmax ~1.5 with plain flaps.</li>
+</ul>
+<p><strong>Structure</strong>:</p>
+<ul>
+<li><strong>Fuselage</strong>: Steel tube (seamless mild steel or 4130 chromoly, 15-25 mm diameter × 0.9-1.5 mm wall) truss framework. Cut tubes to length, fit, weld joints (oxy-acetylene or oxy-propane brazing/welding). triangulated structure — every bay is a triangle for rigidity. Engine mount: heavier steel tubes (25-35 mm) at front, bolted to engine crankcase via rubber vibration isolators.</li>
+<li><strong>Wing spars</strong>: Wood (Sitka spruce or Douglas fir — high strength-to-weight ratio, straight grain). Main spar: 50-80 mm × 25-40 mm rectangular cross-section (dimensions sized by bending load — must support aircraft weight + 3-4g maneuver loads). Rear spar: smaller (40-60 mm × 20-30 mm). Spars run full wingspan. Plywood shear web between spars (transfers loads between top and bottom spar caps → box spar construction, stronger than solid spar for same weight).</li>
+<li><strong>Wing ribs</strong>: Thin plywood (2-3 mm) or built-up wood (capstrips + gussets). Airfoil shape cut into rib. Spars pass through notches in ribs. Ribs spaced 200-400 mm along span. Maintain airfoil shape between spars. Attach fabric covering to rib flanges.</li>
+<li><strong>Struts and bracing</strong>: Steel tube lift struts (20-25 mm diameter) from fuselage to wing spar — carry wing loads to fuselage. Flying wires (steel piano wire, 3-5 mm diameter, in tension) brace wings against positive and negative g-loads. Landing wires brace against negative loads. Turnbuckles on all wires for tension adjustment and rigging (set wing incidence and dihedral angle).</li>
+</ul>
+<p><strong>Control surfaces</strong>:</p>
+<ul>
+<li><strong>Ailerons</strong>: On outer portion of trailing edge, one on each wing. Move differentially (one up, other down) → roll the aircraft. Construction: wood or aluminum frame, fabric-covered. Hinged to wing rear spar. Cable-and-pulley linkage to control stick.</li>
+<li><strong>Elevator</strong>: On horizontal tail, trailing edge. Move together (both up or both down) → pitch nose up or down. Construction similar to ailerons. Pushrod or cable linkage to control stick.</li>
+<li><strong>Rudder</strong>: On vertical tail, trailing edge. Moves left/right → yaw the aircraft. Cable linkage to foot pedals.</li>
+<li><strong>Control forces</strong>: 20-50 N stick force for normal maneuvers. Cable-and-pulley system: 2-3 mm steel cables run in nylon or brass sheaves (low friction pulleys). Cables tensioned to 100-200 N (prevents slack and sloppy response).</li>
+</ul>
+<p><strong>Landing gear</strong>:</p>
+<ul>
+<li><strong>Tricycle or tailwheel</strong>: Tailwheel simpler, lighter, more demanding to ground-handle (tends to ground-loop — uncontrolled swerve on landing). Tricycle: steerable nosewheel, more stable, easier to land. Choose based on pilot experience.</li>
+<li><strong>Main gear</strong>: Steel tube struts with bungee cord or rubber spring shock absorption (bungee cord: multiple wraps of rubber rope absorbing vertical impact). Axle: steel tube, 20-25 mm diameter. Wheels: 350-500 mm diameter, spoked or solid disc. Tires: pneumatic, 2-4 bar pressure, 150-250 mm wide. Brake: drum brake on main wheels (mechanical — cable operated, differential braking for steering on tailwheel type).</li>
+</ul>
+<h3>Propeller</h3>
+<p><strong>Design</strong>:</p>
+<ul>
+<li><strong>Diameter</strong>: 1.5-2.0 m. <strong>Pitch</strong>: 800-1200 mm (theoretical forward travel per revolution). <strong>Blades</strong>: 2. <strong>RPM</strong>: 2000-3000 (direct drive from engine, or reduction gear for larger prop at lower RPM).</li>
+<li><strong>Blade design</strong>: Airfoil cross-section (Clark Y or similar). Blade angle (pitch) decreases from hub to tip — outer portions travel faster and need lower angle of attack to maintain optimal lift (thrust). Width 100-150 mm at widest point, tapering toward tip.</li>
+<li><strong>Thrust</strong>: T = (η × P) / v, where η = propeller efficiency (0.6-0.8 for well-designed prop), P = engine power (W), v = forward speed (m/s). At 40 HP (30 kW) and 25 m/s (90 km/h): T = 0.7 × 30000 / 25 = 840 N (~86 kgf thrust). This accelerates aircraft to cruise speed and maintains flight.</li>
+</ul>
+<p><strong>Construction</strong>:</p>
+<ul>
+<li><strong>Wood</strong>: Hardwood (birch, maple, or oak). Laminate 5-7 layers of wood (alternating grain direction — prevents warping, increases strength) with waterproof glue (casein glue or, later, epoxy). Rough-carve on bandsaw. Finish-carve with drawknife, spokeshave, and rasp. Balance statically (hang on horizontal axle — heavy side drops → remove material until balanced) and dynamically (spin and check for vibration at operating RPM).</li>
+<li><strong>Protection</strong>: Apply multiple coats of linseed oil or varnish (waterproof, prevent moisture absorption → weight change and imbalance). Leading edge protection: brass or copper tipping strip (screws + epoxy) — protects against stone/erosion damage.</li>
+<li><strong>Finish</strong>: Sand smooth (120 → 220 → 400 grit). Final coat of clear varnish or paint. Check balance after finishing. Mark tracking marks (chalk on each blade tip — spin and observe marks should overlap perfectly from the side).</li>
+</ul>
+<h3>Fabric Covering &amp; Finishing</h3>
+<p><strong>Fabric</strong>:</p>
+<ul>
+<li>Cotton or linen fabric (Textiles), tightly woven, ~100-200 g/m². Grade A aircraft cotton (Mercerized — treated with NaOH to increase strength and dye affinity) or linen. Modern alternative: Dacron (polyester — much stronger, more durable, but requires the Chemistry stage+ polymer chemistry). Cut fabric panels with 5-10 cm overlap at edges.</li>
+</ul>
+<p><strong>Covering process</strong>:</p>
+<ol>
+<li><strong>Attach fabric</strong>: Lay fabric over airframe. Tack edges with copper rivets or fabric nails (small nails with broad heads). Pull fabric taut (hand-tension — no wrinkles). Overlap seams by 3-5 cm. Stitch through fabric and rib caps with waxed linen thread (rib-stitching — prevents fabric from billowing in flight). Stitch spacing: 25-50 mm.</li>
+<li><strong>Shrinking</strong>: Dampen cotton fabric with water → tightens as it dries (natural cotton shrinks ~5%). For Dacron: heat with iron (150-200°C) → fabric shrinks ~10% → drum-tight. Creates smooth aerodynamic surface.</li>
+<li><strong>Dope application</strong>: Apply nitrocellulose dope (see below) in multiple thin coats. First coat (clear dope): saturates fabric, bonds to structure. Subsequent coats: build film thickness, fill weave. Aluminum-pigmented dope (silver): UV barrier — prevents sunlight from degrading fabric. Final coat: colored dope for visibility and identification. Total: 6-10 coats, ~100 g/m² dope applied.</li>
+</ol>
+<p><strong>Nitrocellulose dope</strong>:</p>
+<ul>
+<li><strong>Chemistry</strong>: Cellulose (cotton linters or wood pulp) + nitric acid + sulfuric acid → nitrocellulose (cellulose nitrate, 10-12% nitrogen). Dissolve nitrocellulose in acetone + butyl acetate (solvent blend) + plasticizer (dibutyl phthalate — prevents dope film from becoming brittle) + aluminum pigment (for UV barrier coat).</li>
+<li><strong>Manufacture</strong>: Soak cellulose in mixed acid (HNO₃ + H₂SO₄) at 20-30°C for 30-60 minutes. Nitration is exothermic — cool to prevent runaway. Dump into large volume of water to quench. Wash extensively (remove all acid — residual acid degrades nitrocellulose). Boil in water (stabilization — removes unstable nitrated products). Dry. Dissolve in solvent blend. This is the SAME chemistry used for smokeless powder (gunpowder) — handle with care.</li>
+<li><strong>Properties</strong>: Dope shrinks as solvent evaporates → further tightens fabric. Forms hard, waterproof, taut skin. Nitrocellulose is flammable — apply in well-ventilated area, no ignition sources. Acetone fumes are heavier than air — explosive mixture. Fire hazard is REAL — many early aircraft were lost to hangar fires from dope fumes.</li>
+<li><strong>Alternative dope</strong>: Cellulose acetate butyrate (CAB) dope — less flammable than nitrocellulose. Requires cellulose acetate (from cellulose + acetic anhydride + acetic acid — see Petrochemicals, Polymers).</li>
+</ul>
+<h3>Flight Testing</h3>
+<p><strong>Ground testing first</strong>:</p>
+<ul>
+<li><strong>Engine test stand</strong>: Bolt engine to heavy wooden or steel test stand. Run at varying throttle for hours. Monitor temperature (cylinder head &lt;250°C for air-cooled), oil pressure, fuel consumption, spark plug condition. Fix all issues before installing on aircraft.</li>
+<li><strong>Taxi tests</strong>: With aircraft fully assembled, taxi at increasing speeds on smooth runway. Check control surface response, engine performance under load (prop provides thrust and load — engine must maintain RPM), braking effectiveness, structural integrity (no excessive vibration, no loose wires or fittings).</li>
+<li><strong>Ground resonance</strong>: Run engine at full power, aircraft held by ground crew. Check for resonance vibrations in structure. If resonant frequency of structure matches engine RPM → catastrophic vibration → stiffen structure or add damping.</li>
+</ul>
+<p><strong>First flight</strong>:</p>
+<ul>
+<li>Choose calm day (wind &lt;10 km/h). Long, smooth runway (grass or packed earth, 300+ m). Emergency landing fields along expected flight path. Pilot experienced (ideally — but in a bootstrapping scenario, this may be the first pilot. Accept the risk. The Wright brothers taught themselves).</li>
+<li><strong>Flight plan</strong>: Take off, climb to 30-50 m altitude, fly one circuit of the field, land. Total flight time: 1-5 minutes. If anything feels wrong → land immediately.</li>
+<li><strong>Post-flight inspection</strong>: Check every bolt, wire, weld, and fabric attachment. Look for cracks, loose fittings, elongated bolt holes, fretting marks. Fix everything before next flight. Progressive envelope expansion: longer flights, higher altitude, steeper turns, with careful inspection between each expansion.</li>
+</ul>
+<h2>Integration Points</h2>
+<table>
+<thead>
+<tr>
+<th>Phase/SQ</th>
+<th>Contribution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metallurgy</td>
+<td>Steel tubing and wire for airframe structure</td>
+</tr>
+<tr>
+<td>Machine Tools</td>
+<td>Machine tools for precision engine parts, propeller carving</td>
+</tr>
+<tr>
+<td>Energy</td>
+<td>Internal combustion engine development, spark ignition</td>
+</tr>
+<tr>
+<td>Chemistry</td>
+<td>Nitrocellulose dope for fabric, aluminum for later airframes</td>
+</tr>
+<tr>
+<td>Textiles</td>
+<td>Fabric for aircraft covering (cotton, linen)</td>
+</tr>
+<tr>
+<td>Lubricants</td>
+<td>Castor oil and mineral oil for engine lubrication</td>
+</tr>
+<tr>
+<td>Petrochemicals</td>
+<td>Gasoline fuel, acetone for dope, solvents for finishes</td>
+</tr>
+</tbody>
+</table>
+<h2>Key Deliverables</h2>
+<ul>
+<li>Flyable ultralight airframe (tube-and-fabric or wood-and-fabric)</li>
+<li>Reliable small internal combustion engine (20-65 HP, air-cooled)</li>
+<li>Carved and balanced wooden propeller</li>
+<li>Doped fabric covering system</li>
+<li>Fuel supply chain (gasoline or ethanol)</li>
+<li>Ground test infrastructure (engine test stand, runway)</li>
+<li>Progressive flight test program with inspection protocol</li>
+</ul>
+<h2>Safety Concerns</h2>
+<ul>
+<li><strong>Engine failure in flight</strong>: Plan glide approaches (identify emergency landing spots). Aircraft must be able to glide without engine (glide ratio 8:1 typical for ultralight — at 50 m altitude, can glide 400 m to landing).</li>
+<li><strong>Structural failure</strong>: Do not exceed design load limits (typically +4g / -2g). Avoid steep spirals, high-speed dives, abrupt control inputs. Progressive flight envelope expansion.</li>
+<li><strong>Fire</strong>: Fuel + hot engine + air. Firewal (steel sheet between engine and cockpit). Fuel lines routed away from exhaust. No fuel leaks tolerated. Fire extinguisher accessible in cockpit.</li>
+<li><strong>Dope fumes</strong>: Highly flammable. Apply outdoors or in well-ventilated hangar. No smoking, no sparks. Ground aircraft during doping (static electricity ignites fumes).</li>
+</ul>
+<hr />
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="../">All Domains</a></em></p>
+
+</main>
+</div>
+<footer class="footer">
+<p>Part of the Bootciv Tech Tree</p>
+</footer>
+<script src="../../assets/mermaid.min.js"></script>
+<script src="../../assets/search-index.js"></script>
+<script src="../../assets/search.js"></script>
+<script src="../../assets/main.js"></script>
+</body>
+</html>

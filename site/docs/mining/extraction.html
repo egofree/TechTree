@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mining Extraction</title>
+<link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+<div class="layout">
+<nav class="sidebar">
+<input type="text" id="search-input" placeholder="Search..." autocomplete="off" />
+<div id="search-results"></div>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
+<li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
+<li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/chemistry/index.html" class="sidebar__domain-link">Chemistry</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/chemistry/air-separation.html">Air Separation & Bulk Gas Production </a></li>
+<li><a href="../../docs/chemistry/alkalis.html">Alkali Production </a></li>
+<li><a href="../../docs/chemistry/distillation.html">Cement & Concrete </a></li>
+<li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
+<li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
+<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
+<li><a href="../../">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
+<li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
+<li><a href="../../">Petroleum & Alternative Chemistry </a></li>
+<li><a href="../../docs/chemistry/packaging-testing.html">Semiconductor Packaging & Testing </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/computing/index.html" class="sidebar__domain-link">Computing & Automation</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/computing/electromechanical.html">Electromechanical Computing </a></li>
+<li><a href="../../docs/computing/electronic.html">Electronic Computing </a></li>
+<li><a href="../../docs/computing/mechanical.html">Mechanical Calculation </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/energy/index.html" class="sidebar__domain-link">Energy</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/energy/cooling.html">Cooling Systems & Refrigeration </a></li>
+<li><a href="../../docs/energy/electricity.html">Electric Furnaces </a></li>
+<li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
+<li><a href="../../">Energy Storage & Diversification </a></li>
+<li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
+<li><a href="../../docs/energy/gravity.html">Water Power </a></li>
+<li><a href="../../docs/energy/wind.html">Wind Power </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/foundations/index.html" class="sidebar__domain-link">Foundations</a> <span class="badge badge--critical">★</span><span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/foundations/food-agriculture.html">Agriculture & Food Production </a></li>
+<li><a href="../../docs/foundations/fire.html">Fire-Making </a></li>
+<li><a href="../../docs/foundations/tools-basic.html">Stone & Wood Tools </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/gas-handling/gas-handling.html" class="sidebar__domain-link">Gas Handling</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/gas-handling/basic.html">Basic Gas Handling </a></li>
+<li><a href="../../docs/gas-handling/vacuum.html">Vacuum Technology </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/glass/glass.html" class="sidebar__domain-link">Glass</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/glass/advanced.html">Advanced Glass Production </a></li>
+<li><a href="../../docs/glass/basic.html">Basic Glass Production </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/knowledge/index.html" class="sidebar__domain-link">Knowledge Preservation & Education</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
+<li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/machine-tools/index.html" class="sidebar__domain-link">Machine Tools Bootstrap</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/machine-tools/bearings-abrasives.html">Bearings, Abrasives & Cutting Tools </a></li>
+<li><a href="../../docs/machine-tools/iterative-bootstrap.html">Iterative Machine Bootstrap </a></li>
+<li><a href="../../docs/machine-tools/machining.html">Machining </a></li>
+<li><a href="../../docs/machine-tools/casting.html">Metal Casting </a></li>
+<li><a href="../../docs/machine-tools/forming.html">Metal Forming </a></li>
+<li><a href="../../docs/machine-tools/joining.html">Metal Joining </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/measurement/measurement.html" class="sidebar__domain-link">Measurement & Instrumentation</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/measurement/precision-metrology.html">Precision Metrology & Standards </a></li>
+<li><a href="../../docs/measurement/temperature-pressure.html">Temperature & Pressure Measurement </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/metals/index.html" class="sidebar__domain-link">Metals</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Copper & Bronze Production </a></li>
+<li><a href="../../">Iron & Steel Production <span class="badge badge--critical">★</span></a></li>
+</ul>
+</details>
+<details class="sidebar__domain" open>
+<summary class="sidebar__domain-title"><a href="../../docs/mining/prospecting.html" class="sidebar__domain-link">Mining Engineering & Extractive Metallurgy</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li class="active"><a href="../../docs/mining/extraction.html">Mining Extraction </a></li>
+<li><a href="../../docs/mining/processing.html">Ore Processing </a></li>
+<li><a href="../../">Prospecting & Surveying </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/optics/optics.html" class="sidebar__domain-link">Optics</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/optics/inspection.html">Optical Inspection </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/photolithography/index.html" class="sidebar__domain-link">Photolithography & IC Fabrication</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/photolithography/cleanrooms.html">Cleanrooms </a></li>
+<li><a href="../../docs/photolithography/fab-processes.html">Core Fab Processes </a></li>
+<li><a href="../../docs/photolithography/resists-masks.html">Photoresists, Masks & Lithography </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/polymers/index.html" class="sidebar__domain-link">Polymers & Composites</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Composite Materials </a></li>
+<li><a href="../../docs/polymers/rubber.html">Rubber Production </a></li>
+<li><a href="../../">Thermoplastic Polymers </a></li>
+<li><a href="../../">Thermosetting Polymers </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/health/index.html" class="sidebar__domain-link">Public Health, Sanitation & Medicine</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/health/medicine.html">Medicine & Surgery </a></li>
+<li><a href="../../docs/health/pharmacology.html">Pharmacology </a></li>
+<li><a href="../../docs/health/sanitation.html">Water Supply & Sanitation </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/silicon/index.html" class="sidebar__domain-link">Silicon</a> <span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/silicon/basic-devices.html">Basic Semiconductor Devices </a></li>
+<li><a href="../../docs/silicon/crystal-growth.html">Crystal Growth & Wafering </a></li>
+<li><a href="../../docs/silicon/mg-si-production.html">Metallurgical-Grade Silicon Production </a></li>
+<li><a href="../../docs/silicon/purification.html">Silicon Purification </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/textiles/index.html" class="sidebar__domain-link">Textiles, Fiber & Cordage</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
+<li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
+<li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/transport/index.html" class="sidebar__domain-link">Transportation & Logistics</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Aviation </a></li>
+<li><a href="../../docs/transport/railways.html">Railways </a></li>
+<li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/vlsi-scaling/index.html" class="sidebar__domain-link">VLSI Scaling & Advanced Semiconductor</a> <span class="badge badge--pinnacle">🔺</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/vlsi-scaling/advanced-lithography.html">Advanced Lithography </a></li>
+<li><a href="../../docs/vlsi-scaling/eda-design.html">Advanced Processes </a></li>
+<li><a href="../../docs/vlsi-scaling/continuous-scaling.html">Continuous Scaling </a></li>
+<li><a href="../../docs/vlsi-scaling/eda-design.html">EDA, GPU Design & Advanced Packaging </a></li>
+</ul>
+</details>
+</nav>
+<main class="content">
+<h1>Mining Extraction</h1>
+<div class="metadata-card">
+<h2 class="metadata-card__title">Mining Extraction </h2>
+<div class="metadata-card__field"><span class="metadata-card__label">Node ID</span><span class="metadata-card__value"><code>mining.extraction</code></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Domain</span><span class="metadata-card__value">mining</span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Timeline</span><span class="metadata-card__value">Years 0-20</span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Outputs</span><span class="metadata-card__value"><code>raw_ore</code></span></div>
+</div>
+<h1>Mining Extraction</h1>
+<blockquote>
+<p><strong>Node ID</strong>: mining.extraction
+<strong>Domain</strong>: Mining Engineering &amp; Extractive Metallurgy
+<strong>Timeline</strong>: Years 0-20
+<strong>Outputs</strong>: raw_ore</p>
+</blockquote>
+<h3>Mining Methods</h3>
+<p><strong>Surface mining (open pit)</strong>:</p>
+<ul>
+<li><strong>Planning</strong>: Strip overburden (soil + useless rock) to expose ore body. Bench height 5-15 m. Bench width = height × slope angle (typically 45-70°). Road access on each bench for haulage.</li>
+<li><strong>Overburden removal</strong>: Hand shovels and wheelbarrows (Foundations), animal-drawn scrapers (Metallurgy), steam or diesel shovels (Energy+). Ratio: overburden-to-ore should be &lt;3:1 for economic viability.</li>
+<li><strong>Ore extraction</strong>: Break rock with wedges, fire-setting, or explosives (black powder from the Chemistry stage: KNO₃ + S + C at 75:10:15 ratio). Load into carts by hand. Haul to processing area.</li>
+<li><strong>Reclamation</strong>: Backfill exhausted pits with overburden. Re-contour and re-vegetate to prevent erosion.</li>
+</ul>
+<p><strong>Placer mining (stream deposits)</strong>:</p>
+<ul>
+<li><strong>Panning</strong>: Fill shallow pan with gravel, agitate underwater. Heavy minerals settle to bottom. Gold, cassiterite (tin), magnetite (iron) concentrate. One pan processes ~10 kg gravel in 5-10 minutes.</li>
+<li><strong>Sluice box</strong>: Wooden trough 2-5 m long, 30-50 cm wide, with riffles (cross-bars) on bottom. Gravel shoveled in at head, water carries material through. Heavy particles trap behind riffles. Clean riffles periodically. 50-100x faster than panning.</li>
+<li><strong>Hydraulic mining</strong> (Energy+): Direct high-pressure water jet at hillside to wash gold-bearing gravel through sluice. Requires significant water supply and pressure (20-50 m head).</li>
+</ul>
+<p><strong>Shaft mining</strong> (underground):</p>
+<ul>
+<li><strong>Shaft sinking</strong>: Dig vertical shaft, typically 2-3 m × 1.5-2 m (enough for one-way traffic + bucket winding). Line walls with timber (oak or pine, 15-25 cm diameter) or stone/brick for permanent shafts. Shaft compartments: one for winding (ore/people), one for ventilation, one for pumping.</li>
+<li><strong>Timber framing</strong>: Posts (vertical, 15-25 cm), caps (horizontal across top), and sill pieces (across bottom). Frame every 1.5-2 m along shaft. Secure with wooden wedges. Fill space between timber and rock wall with waste rock (gob) for support.</li>
+<li><strong>Levels (adits)</strong>: Horizontal tunnels driven from shaft at ore-bearing depths. Typical dimensions 1.5-2 m wide × 2-2.5 m high. Timber-supported with sets (posts + cap + sill). Grade slight upward incline (1-3°) toward shaft for water drainage.</li>
+<li><strong>Stoping</strong> (ore extraction): Extract ore between levels. Overhand stoping: work upward from level. Underhand: work downward. Shrinkage: leave broken ore in stope as working platform. Cut-and-fill: backfill with waste as you go (better ground control).</li>
+</ul>
+<p><strong>Drift/adit mining</strong> (horizontal entry from hillside):</p>
+<ul>
+<li>Drive horizontal tunnel into hillside at or slightly above valley floor level. Gravity drainage — no pumping needed. Most economical method for hillslope deposits. Minimum 1.5 m wide × 2 m tall. Timber supports every 1-2 m in unstable ground.</li>
+</ul>
+<h3>Rock Breaking Techniques</h3>
+<p><strong>Hand tools</strong>:</p>
+<ul>
+<li><strong>Chisel and hammer</strong>: Steel chisel (2-5 cm wide), 2-4 kg hammer. Strike chisel to create groove or hole. Slow but precise. For soft rock (limestone, shale): 0.5-2 m³/shift. Hard rock (granite, quartz): 0.1-0.5 m³/shift.</li>
+<li><strong>Wedge and feather</strong>: Drill hole (2-3 cm diameter, 10-20 cm deep) with hand drill (steel bar, struck with hammer). Insert two feathers (thin curved shims) and one wedge between them. Strike wedge → splits rock along line of holes. Space holes 15-30 cm apart for controlled break.</li>
+</ul>
+<p><strong>Fire-setting</strong> (ancient technique for hard rock):</p>
+<ul>
+<li>Build hot fire against rock face. Burn 2-4 hours. Rock face reaches 400-600°C. Dash with cold water (or let air cool). Thermal shock cracks rock 5-15 cm deep. Break weakened rock with picks and wedges. Very effective on granite, quartz, hard ores. Consumes enormous wood/charcoal — use sparingly.</li>
+</ul>
+<p><strong>Black powder blasting</strong> (Chemistry+):</p>
+<ul>
+<li><strong>Composition</strong>: 75% KNO₃ (potassium nitrate), 15% charcoal, 10% sulfur. Grind each component separately (NEVER together), mix by tumbling in cloth bag. KNO₃ from cave deposits, saltpeter beds (nitrate-rich soil + urine/manure + lime, leach and crystallize), or guano.</li>
+<li><strong>Black powder manufacture</strong>:
+<ol>
+<li>Pulverize each ingredient separately to fine powder (~100 mesh).</li>
+<li>Mix thoroughly: layer ingredients on cloth, roll/tumble for 30+ minutes.</li>
+<li>Moisten slightly with water, press into cakes (corning mill or screw press).</li>
+<li>Dry cakes, crush and sieve to desired grain size (coarse = slower burn, more lifting power; fine = faster burn, more shattering).</li>
+</ol>
+</li>
+<li><strong>Blasting procedure</strong>: Drill hole (2.5-4 cm diameter, 0.5-2 m deep) with jumper drill (steel bar, 1-3 m long, struck with 4-8 kg hammer). Clean hole with scraper. Fill bottom 1/3 with powder. Insert safety fuse (black powder core in tarred cotton sheath) — cut to length for 30-60 second delay. Tamp remaining hole with clay or damp sand (NOT dry sand — sparks from tamping rod ignite powder). Light fuse, retreat. 1-2 kg powder breaks 2-10 m³ rock depending on placement.</li>
+<li><strong>Safety</strong>: NO smoking, open flames, or spark-producing tools near powder. Store in dry, cool location away from mine. Use non-sparking tools (copper or bronze) for loading. Multiple shots wired to single fuse for simultaneous blast.</li>
+</ul>
+<h3>Ventilation</h3>
+<p><strong>Natural ventilation</strong> (single shaft):</p>
+<ul>
+<li>Single shaft with partition (brattice — wooden or canvas wall dividing shaft into upcast and downcast). Warm air (heated by mine lights and geothermal) rises in one side, cool air descends in other. Limited to ~100 m depth. Seasonal — reverses in winter.</li>
+</ul>
+<p><strong>Dual-shaft ventilation</strong>:</p>
+<ul>
+<li>Separate intake shaft (downcast) and exhaust shaft (upcast). Connect at depth by levels. Intake positioned upwind. Exhaust may be heated by furnace at shaft bottom (warm air rises faster → stronger draft). Effective to ~200-300 m depth.</li>
+</ul>
+<p><strong>Mechanical ventilation</strong>:</p>
+<ul>
+<li><strong>Bellows</strong>: Large forge bellows at shaft entrance force air underground. Intermittent flow, limited volume.</li>
+<li><strong>Fan ventilation</strong> (Machine Tools+): Centrifugal fan (wooden or iron blades in scroll housing), driven by water wheel or steam engine. 5-50 m³/second airflow. Adjustable louvers control flow. Much more reliable than natural ventilation.</li>
+<li><strong>Air requirements</strong>: Minimum 0.05 m³/second per underground worker. More if blasting (fumes clearance). Replace total mine air volume every 10-30 minutes.</li>
+</ul>
+<p><strong>Gas detection</strong>:</p>
+<ul>
+<li><strong>Fire damp (methane, CH₄)</strong>: Flammable at 5-15% concentration. Detected by safety lamp (Davy lamp — flame enclosed in fine wire gauze that cools flame below ignition temperature. If methane present, blue halo appears above flame. If air is unsafe, flame extinguishes). Test at floor level (methane lighter than air, accumulates at roof).</li>
+<li><strong>Choke damp (CO₂)</strong>: Heavier than air, accumulates at floor. Detected by candle flame (extinguishes at ~8% CO₂ — leave immediately). Or bring small animal (bird in cage — more sensitive to bad air).</li>
+<li><strong>After-damp (CO)</strong>: After explosion or fire. Invisible, odorless, lethal. Detected by chemical indicator or canary (collapses before humans affected). Evacuate immediately if suspected.</li>
+<li><strong>Hydrogen sulfide (H₂S)</strong>: Rotten egg smell at low concentration, but paralyzes olfactory nerve at higher concentrations so smell disappears. Lethal at 300+ ppm. Chemical detector or lead acetate paper (turns black in H₂S).</li>
+</ul>
+<h3>Water Pumping (critical escalation path)</h3>
+<p><strong>Manual methods</strong>:</p>
+<ul>
+<li><strong>Bailing</strong>: Bucket on windlass (hand-cranked drum). One man lifts ~20 liters per bucket, 10-20 buckets/hour. Emergency only.</li>
+<li><strong>Chain pump</strong>: Endless chain with attached buckets or disks, running in wooden trough. Lifts water 5-15 m. Powered by hand crank or water wheel. 500-2000 liters/hour.</li>
+</ul>
+<p><strong>Powered drainage</strong>:</p>
+<ul>
+<li><strong>Buddle/water wheel pump</strong>: Water wheel operates crank → piston pump (cast iron cylinder, leather piston seal). Lift height 15-30 m per stage. Multiple stages for deeper mines. 5,000-20,000 liters/hour per pump.</li>
+<li><strong>Savery engine</strong> (~1698, first practical steam-powered pump): Boil water → fill chamber with steam → condense with cold water injection → vacuum → atmospheric pressure forces water up suction pipe. Lift: ~6-9 m suction + ~10-15 m pressure head. Efficiency ~0.5%. Simpler than Newcomen but limited lift and very wasteful.</li>
+<li><strong>Newcomen engine</strong> (~1712, atmospheric engine): Steam in cylinder → condense → vacuum pulls piston down → pump rod lifted on other end of beam. Lift: 30-50+ m (pump at bottom of shaft, engine at surface). Power: 5-15 HP. THE KEY FEEDBACK LOOP — mine drainage drove steam engine development, which enabled all of the Energy stage.</li>
+</ul>
+<h3>Hoisting &amp; Transport</h3>
+<p><strong>Windlass</strong>: Horizontal drum, hand-cranked. Rope wound on drum. Simple, limited to ~30 m depth, ~100 kg load. One-man operation.</p>
+<p><strong>Whim (horse whim)</strong>: Vertical drum (6-10 m diameter) turned by horse walking in circle. Rope winds on drum, lifts bucket from shaft. Depth 50-100 m. Load 200-500 kg. One horse provides ~3-4 HP.</p>
+<p><strong>Steam winding engine</strong> (Energy+): Horizontal steam engine drives winding drum. Speed 5-15 m/second. Depth 200-500+ m. Load 1-5 tonnes per skip. Guides (wooden or iron rails in shaft) prevent cage rotation. Safety brake (friction brake on drum, held off by steam pressure — loss of pressure = automatic brake application).</p>
+<p><strong>Underground transport</strong>:</p>
+<ul>
+<li><strong>Wheelbarrows</strong>: 50-100 kg capacity. One man. For short distances.</li>
+<li><strong>Mine carts on rails</strong>: Iron or wooden wheeled carts (200-500 kg capacity) on wooden or iron rails (wooden rails with iron strapping initially). Pushed by hand or pulled by pit pony. 0.5-1 m gauge. Rails enable 10x easier movement vs dragging.</li>
+</ul>
+
+</main>
+</div>
+<footer class="footer">
+<p>Part of the Bootciv Tech Tree</p>
+</footer>
+<script src="../../assets/mermaid.min.js"></script>
+<script src="../../assets/search-index.js"></script>
+<script src="../../assets/search.js"></script>
+<script src="../../assets/main.js"></script>
+</body>
+</html>

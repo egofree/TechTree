@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Electricity Generation &amp; Distribution</title>
+<link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+<div class="layout">
+<nav class="sidebar">
+<input type="text" id="search-input" placeholder="Search..." autocomplete="off" />
+<div id="search-results"></div>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
+<li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
+<li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/chemistry/index.html" class="sidebar__domain-link">Chemistry</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/chemistry/air-separation.html">Air Separation & Bulk Gas Production </a></li>
+<li><a href="../../docs/chemistry/alkalis.html">Alkali Production </a></li>
+<li><a href="../../docs/chemistry/distillation.html">Cement & Concrete </a></li>
+<li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
+<li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
+<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
+<li><a href="../../">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
+<li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
+<li><a href="../../">Petroleum & Alternative Chemistry </a></li>
+<li><a href="../../docs/chemistry/packaging-testing.html">Semiconductor Packaging & Testing </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/computing/index.html" class="sidebar__domain-link">Computing & Automation</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/computing/electromechanical.html">Electromechanical Computing </a></li>
+<li><a href="../../docs/computing/electronic.html">Electronic Computing </a></li>
+<li><a href="../../docs/computing/mechanical.html">Mechanical Calculation </a></li>
+</ul>
+</details>
+<details class="sidebar__domain" open>
+<summary class="sidebar__domain-title"><a href="../../docs/energy/index.html" class="sidebar__domain-link">Energy</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/energy/cooling.html">Cooling Systems & Refrigeration </a></li>
+<li class="active"><a href="../../docs/energy/electricity.html">Electric Furnaces </a></li>
+<li class="active"><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
+<li><a href="../../">Energy Storage & Diversification </a></li>
+<li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
+<li><a href="../../docs/energy/gravity.html">Water Power </a></li>
+<li><a href="../../docs/energy/wind.html">Wind Power </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/foundations/index.html" class="sidebar__domain-link">Foundations</a> <span class="badge badge--critical">★</span><span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/foundations/food-agriculture.html">Agriculture & Food Production </a></li>
+<li><a href="../../docs/foundations/fire.html">Fire-Making </a></li>
+<li><a href="../../docs/foundations/tools-basic.html">Stone & Wood Tools </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/gas-handling/gas-handling.html" class="sidebar__domain-link">Gas Handling</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/gas-handling/basic.html">Basic Gas Handling </a></li>
+<li><a href="../../docs/gas-handling/vacuum.html">Vacuum Technology </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/glass/glass.html" class="sidebar__domain-link">Glass</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/glass/advanced.html">Advanced Glass Production </a></li>
+<li><a href="../../docs/glass/basic.html">Basic Glass Production </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/knowledge/index.html" class="sidebar__domain-link">Knowledge Preservation & Education</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
+<li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/machine-tools/index.html" class="sidebar__domain-link">Machine Tools Bootstrap</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/machine-tools/bearings-abrasives.html">Bearings, Abrasives & Cutting Tools </a></li>
+<li><a href="../../docs/machine-tools/iterative-bootstrap.html">Iterative Machine Bootstrap </a></li>
+<li><a href="../../docs/machine-tools/machining.html">Machining </a></li>
+<li><a href="../../docs/machine-tools/casting.html">Metal Casting </a></li>
+<li><a href="../../docs/machine-tools/forming.html">Metal Forming </a></li>
+<li><a href="../../docs/machine-tools/joining.html">Metal Joining </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/measurement/measurement.html" class="sidebar__domain-link">Measurement & Instrumentation</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/measurement/precision-metrology.html">Precision Metrology & Standards </a></li>
+<li><a href="../../docs/measurement/temperature-pressure.html">Temperature & Pressure Measurement </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/metals/index.html" class="sidebar__domain-link">Metals</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Copper & Bronze Production </a></li>
+<li><a href="../../">Iron & Steel Production <span class="badge badge--critical">★</span></a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/mining/prospecting.html" class="sidebar__domain-link">Mining Engineering & Extractive Metallurgy</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/mining/extraction.html">Mining Extraction </a></li>
+<li><a href="../../docs/mining/processing.html">Ore Processing </a></li>
+<li><a href="../../">Prospecting & Surveying </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/optics/optics.html" class="sidebar__domain-link">Optics</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/optics/inspection.html">Optical Inspection </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/photolithography/index.html" class="sidebar__domain-link">Photolithography & IC Fabrication</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/photolithography/cleanrooms.html">Cleanrooms </a></li>
+<li><a href="../../docs/photolithography/fab-processes.html">Core Fab Processes </a></li>
+<li><a href="../../docs/photolithography/resists-masks.html">Photoresists, Masks & Lithography </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/polymers/index.html" class="sidebar__domain-link">Polymers & Composites</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Composite Materials </a></li>
+<li><a href="../../docs/polymers/rubber.html">Rubber Production </a></li>
+<li><a href="../../">Thermoplastic Polymers </a></li>
+<li><a href="../../">Thermosetting Polymers </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/health/index.html" class="sidebar__domain-link">Public Health, Sanitation & Medicine</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/health/medicine.html">Medicine & Surgery </a></li>
+<li><a href="../../docs/health/pharmacology.html">Pharmacology </a></li>
+<li><a href="../../docs/health/sanitation.html">Water Supply & Sanitation </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/silicon/index.html" class="sidebar__domain-link">Silicon</a> <span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/silicon/basic-devices.html">Basic Semiconductor Devices </a></li>
+<li><a href="../../docs/silicon/crystal-growth.html">Crystal Growth & Wafering </a></li>
+<li><a href="../../docs/silicon/mg-si-production.html">Metallurgical-Grade Silicon Production </a></li>
+<li><a href="../../docs/silicon/purification.html">Silicon Purification </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/textiles/index.html" class="sidebar__domain-link">Textiles, Fiber & Cordage</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
+<li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
+<li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/transport/index.html" class="sidebar__domain-link">Transportation & Logistics</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../">Aviation </a></li>
+<li><a href="../../docs/transport/railways.html">Railways </a></li>
+<li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/vlsi-scaling/index.html" class="sidebar__domain-link">VLSI Scaling & Advanced Semiconductor</a> <span class="badge badge--pinnacle">🔺</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/vlsi-scaling/advanced-lithography.html">Advanced Lithography </a></li>
+<li><a href="../../docs/vlsi-scaling/eda-design.html">Advanced Processes </a></li>
+<li><a href="../../docs/vlsi-scaling/continuous-scaling.html">Continuous Scaling </a></li>
+<li><a href="../../docs/vlsi-scaling/eda-design.html">EDA, GPU Design & Advanced Packaging </a></li>
+</ul>
+</details>
+</nav>
+<main class="content">
+<h1>Electricity Generation &amp; Distribution</h1>
+<div class="metadata-card">
+<h2 class="metadata-card__title">Electricity Generation & Distribution </h2>
+<div class="metadata-card__field"><span class="metadata-card__label">Node ID</span><span class="metadata-card__value"><code>energy.electricity</code></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Domain</span><span class="metadata-card__value">energy</span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Timeline</span><span class="metadata-card__value">Years 15-30</span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Outputs</span><span class="metadata-card__value"><code>generators</code>, <code>motors</code>, <code>transformers</code>, <code>wire_cables</code>, <code>electricity</code>, <code>insulated_wire</code></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Dependencies</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/chemistry/air-separation.html">chemistry.air-separation</a> <a class="metadata-card__link" href="../../docs/chemistry/electrolysis.html">chemistry.electrolysis</a> <a class="metadata-card__link" href="../../docs/energy/electricity.html">energy.electric-furnaces</a> <a class="metadata-card__link" href="../../docs/machine-tools/joining.html">machine-tools.joining</a></span></div>
+</div>
+<h1>Electricity Generation &amp; Distribution</h1>
+<blockquote>
+<p><strong>Node ID</strong>: <a class="node-ref" href="../../docs/energy/electricity.html">energy.electricity</a>
+<strong>Also covers</strong>: <a class="node-ref" href="../../docs/energy/electricity.html">energy.electric-furnaces</a>, <a class="node-ref" href="../../docs/energy/electricity.html">energy.ice</a>, <a class="node-ref" href="../../docs/energy/electricity.html">energy.electrolysis</a>, <a class="node-ref" href="../../docs/energy/electricity.html">energy.welding</a>
+<strong>Domain</strong>: <a href="./">Energy</a>
+<strong>Dependencies</strong>: <code>chemistry</code>, <a class="node-ref" href="../../docs/energy/electricity.html">energy.electricity</a>, <code>machine-tools</code>, <a class="node-ref" href="../../docs/metals/iron-steel.html">metallurgy.iron-steel</a>, <code>petrochemicals</code>
+<strong>Enables</strong>: <a class="node-ref" href="../../docs/energy/electricity.html">energy.electric-furnaces</a>, <a class="node-ref" href="../../docs/energy/electricity.html">energy.electrolysis</a>, <a class="node-ref" href="../../docs/energy/electricity.html">energy.welding</a>, <a class="node-ref" href="../../docs/silicon/mg-si-production.html">silicon.mg-si-production</a>, <code>specialty-gases.air-separation</code>, <code>specialty-gases.dopant-etch-gases</code>, <code>specialty-gases.hydrogen-silane</code>
+<strong>Timeline</strong>: Years 15-30
+<strong>Outputs</strong>: generators, motors, transformers, wire_cables, electricity, insulated_wire, electric_arc_furnaces, resistance_heaters, eaf_steel, internal_combustion_engines, ...</p>
+</blockquote>
+<h3>Electricity Generation</h3>
+<p><strong>Voltaic piles / batteries</strong> (first electrical source):</p>
+<ul>
+<li><strong>Construction</strong>: Stack alternating disks: copper plate → cardboard soaked in brine (or sulfuric acid) → zinc plate → repeat. 10-20 cells produce 10-20V DC at low current.</li>
+<li><strong>Output</strong>: ~1V per cell, ~50-100 mA. Sufficient for early electroplating experiments, telegraph operation, electrochemistry exploration. Not sufficient for industrial power.</li>
+<li><strong>Daniell cell</strong> (improved): Copper electrode in CuSO₄ solution, separated by porous pot from zinc electrode in ZnSO₄ or dilute H₂SO₄. 1.1V, more stable voltage, longer life. Standard for telegraph systems.</li>
+</ul>
+<p><strong>Wire drawing</strong> (essential for all electrical work):</p>
+<ul>
+<li><strong>Starting material</strong>: Cast copper ingot, hot-forged to rod (~10 mm diameter), then cold-drawn.</li>
+<li><strong>Drawing process</strong>: Pull copper rod through successively smaller hardened steel dies (tungsten carbide or tool steel). Each pass reduces diameter ~20-30%. Anneal between passes (heat to 400-600°C to restore ductility lost from cold work). Repeat until target gauge reached.</li>
+<li><strong>Common gauges</strong>: 1 mm diameter for winding (≈ 18 AWG), 0.1 mm for fine coils (≈ 38 AWG). Length from 1 kg of copper: ~130 m at 1 mm diameter.</li>
+<li><strong>Lubrication</strong>: Tallow or soap solution on wire as it enters die. Essential — without it, wire galls and snaps.</li>
+<li><strong>Insulation</strong>: Dip drawn wire in rubber solution (natural rubber dissolved in naphtha), wrap with cotton thread, or varnish with shellac. Multiple layers for higher voltage. Gutta-percha (natural thermoplastic) for underwater/underground cables.</li>
+</ul>
+<p><strong>Generators</strong> (Faraday principle — rotating coil in magnetic field):</p>
+<ul>
+<li><strong>First generator (magneto)</strong>: Permanent magnets (lodestones or magnetized steel bars) provide field. Rotating coil (armature) wound on iron core, turned by hand, water wheel, or steam engine. Output: pulsed DC.</li>
+<li><strong>Winding</strong>: Copper wire, enamel or shellac insulated. Number of turns determines voltage. Wire gauge determines current capacity. Typical early generator: 500-2000 turns of 0.5-1 mm wire on iron core.</li>
+<li><strong>Commutator</strong>: Split copper ring with brushes (carbon or copper gauze) to convert AC to DC. For AC generators (alternators): slip rings instead.</li>
+<li><strong>Self-exciting generator</strong> (dynamo): Electromagnets (iron core + coil) replace permanent magnets for stronger field. Uses residual magnetism in iron to bootstrap, then feeds some output current back to field coils → positive feedback → full excitation.</li>
+<li><strong>Performance targets</strong>: First generators: 100W-1kW. Mature dynamo: 1-50 kW. Efficiency 70-90%.</li>
+</ul>
+<p><strong>Motors</strong> (reverse of generators):</p>
+<ul>
+<li><strong>DC motor</strong>: Current through armature coils in magnetic field creates torque. Commutator reverses current direction each half-turn for continuous rotation.</li>
+<li><strong>Series-wound</strong>: Field and armature in series. High starting torque, speed varies with load. Good for traction (trams, trains, starter motors).</li>
+<li><strong>Shunt-wound</strong>: Field and armature in parallel. More constant speed, lower starting torque. Good for machine tools, fans, pumps.</li>
+<li><strong>Construction</strong>: Identical mechanical parts to generators — a dynamo run backwards as a motor.</li>
+</ul>
+<p><strong>Transformers</strong> (voltage step-up/step-down):</p>
+<ul>
+<li><strong>Principle</strong>: Two coils on shared iron core. Alternating current in primary creates changing magnetic flux, inducing voltage in secondary. Turns ratio determines voltage ratio (V₂/V₁ = N₂/N₁).</li>
+<li><strong>Construction</strong>: Laminated iron core (thin iron sheets, 0.3-0.5 mm, insulated with shellac or paper — prevents eddy current losses). Primary and secondary windings of insulated copper wire.</li>
+<li><strong>Essential for</strong>: Power distribution (step up voltage for transmission → lower current → less I²R loss in wires, step down at destination).</li>
+</ul>
+<p><strong>Power distribution</strong>:</p>
+<ul>
+<li><strong>DC system</strong> (Edison): 110V DC. Limited range (~1-2 km) due to voltage drop in wires. Requires many small generators.</li>
+<li><strong>AC system</strong> (Westinghouse/Tesla): 110-220V AC, stepped up to 1000-10000V for transmission, stepped down at load. Much longer range. Requires alternators and transformers. Eventually wins.</li>
+<li><strong>Wire sizing</strong>: Copper wire, sized by current capacity. Rule of thumb: 3-5 A per mm² of cross-section for acceptable heating. Example: 10 A load at 110V over 100 m needs ~6 mm² wire (≈ 2.8 mm diameter) to keep voltage drop under 5%.</li>
+</ul>
+<h3>Electric Furnaces</h3>
+<p><strong>Electric arc furnace (EAF)</strong>:</p>
+<ul>
+<li><strong>Construction</strong>: Cylindrical steel shell, lined with refractory brick (magnesite or dolomite). Three graphite electrodes (50-200 mm diameter) inserted through roof. Hydraulic or screw mechanism raises/lowers electrodes.</li>
+<li><strong>Electrode manufacturing</strong>: Mix petroleum coke + coal tar pitch, extrude, bake at 800-1200°C (carbonization). Graphitize at 2500-3000°C (requires existing EAF or resistive heating — bootstrapping challenge). Early electrodes can be amorphous carbon (lower conductivity, but functional).</li>
+<li><strong>Operation</strong>: Contact electrodes to scrap/material, withdraw to strike arc. Arc temperature ~3000-3500°C. Material heats by radiation and resistance. Charge 1-50 tonnes. Cycle time 30-90 minutes.</li>
+<li><strong>Power requirements</strong>: 300-600 kWh per tonne of steel. Requires dedicated generator or grid connection. NOT a casual power load.</li>
+<li><strong>Critical for</strong>: Steelmaking (recycling scrap → quality steel), silicon reduction (the Silicon stage — SiO₂ + 2C → Si + 2CO at ~2000°C), calcium carbide production (CaO + 3C → CaC₂ + CO at ~2000°C).</li>
+</ul>
+<p><strong>Submerged arc furnace</strong> (for silicon, ferroalloys):</p>
+<ul>
+<li>Similar to EAF but electrodes submerged in raw material charge. Heat generated by resistance of the charge itself. More efficient for continuous production than batch EAF.</li>
+</ul>
+<p><strong>Resistance heating</strong>:</p>
+<ul>
+<li><strong>Principle</strong>: Current through resistive element generates heat (P = I²R).</li>
+<li><strong>Heating elements</strong>: Nichrome (Ni-Cr alloy, resists oxidation to ~1100°C), Kanthal (Fe-Cr-Al, ~1400°C), silicon carbide (SiC, ~1600°C), molybdenum disilicide (MoSi₂, ~1700°C). For early work: iron wire in reducing atmosphere, or graphite rod.</li>
+<li><strong>Applications</strong>: Furnaces for crystal growth, annealing, heat treatment, laboratory furnaces.</li>
+</ul>
+<h3>Internal Combustion Engines</h3>
+<p><strong>Otto-cycle piston engines</strong> (the technology that enables mobile power and aviation):</p>
+<ul>
+<li><strong>Principle</strong>: Intake (fuel-air mix drawn in) → Compression (piston compresses mixture ~8-12:1) → Power (spark ignites, rapid combustion pushes piston down) → Exhaust (burned gases expelled). Four strokes per power cycle.</li>
+<li><strong>Critical components</strong>:
+<ul>
+<li><strong>Cylinder</strong>: Cast iron or steel, bored to 0.02-0.05 mm tolerance. Requires the Machine Tools stage boring capability. Honed to mirror finish.</li>
+<li><strong>Piston</strong>: Cast iron or aluminum alloy (Chemistry+). Cast iron piston rings (2-3) provide gas seal against cylinder wall. Ring gap ~0.3-0.5 mm when installed.</li>
+<li><strong>Crankshaft</strong>: Forged steel, ground journals. Counterweights for balance. Requires lathe, grinder, and balancing.</li>
+<li><strong>Connecting rod</strong>: Forged or machined steel I-beam section. Big end (crank end) with split bearing shells (babbitt metal: tin-antimony-copper alloy, 80/10/10 typical). Small end (piston end) with bronze bushing.</li>
+<li><strong>Valves</strong>: Poppet valves (intake and exhaust). Machined from heat-resistant steel. Seat angle 45°. Springs return valves to closed position. Operated by camshaft (gear or chain driven from crankshaft at half crank speed for 4-stroke).</li>
+<li><strong>Camshaft</strong>: Cast iron or steel. Cam lobes ground to precise profile controlling valve timing and lift duration.</li>
+</ul>
+</li>
+<li><strong>Carburetor</strong>: Venturi — air flows through constriction, creating low pressure that draws fuel through metering jet. Adjustable needle valve controls fuel-air ratio (~12-15:1 by weight for gasoline). Simpler than fuel injection and sufficient for early engines.</li>
+<li><strong>Ignition</strong>: Magneto (permanent magnet + coil generates high voltage pulse when triggered by cam — self-contained, no battery). Spark plug (steel shell, ceramic insulator, center electrode, ground electrode, ~0.6-0.8 mm gap). Secondary voltage ~10,000-30,000V.</li>
+<li><strong>Lubrication</strong>: Splash system (rod dips into oil sump, splashes oil onto cylinder walls and bearings) or pressurized (gear pump circulates oil through galleries). Oil: castor oil or mineral oil (see <a href="../chemistry/lubricants.html">Lubricants</a>).</li>
+<li><strong>Cooling</strong>: Water jacket around cylinder, thermosiphon circulation (hot water rises to radiator, cools, returns) or pump-forced circulation. Finned air cooling for small engines.</li>
+<li><strong>Power output</strong>: 5-65 HP for 1-4 cylinders, 1000-3000 RPM. Power-to-weight ratio is THE critical metric for aircraft (see <a href="../transport/aviation.html">Aircraft</a>).</li>
+</ul>
+<h3>Electrolysis Foundations</h3>
+<p><strong>Electrolytic cells</strong>:</p>
+<ul>
+<li><strong>Principle</strong>: Pass DC current through ionic solution or molten salt → chemical decomposition at electrodes. Anode (+) attracts anions (oxidation). Cathode (-) attracts cations (reduction).</li>
+<li><strong>Power requirements</strong>: DC supply (battery, dynamo, or rectified AC). Voltage 2-5V per cell (depends on reaction). Current 100-10,000+ A for industrial scale.</li>
+<li><strong>Cell construction</strong>: Tank (lead-lined wood, concrete, or plastic), electrodes (carbon, lead, titanium), electrolyte (aqueous solution or molten salt), bus bars (copper or aluminum connecting electrodes to power supply).</li>
+<li><strong>Applications</strong>:
+<ul>
+<li><strong>Chlor-alkali</strong>: NaCl brine → Cl₂ (anode) + H₂ + NaOH (cathode). Diaphragm or membrane cell. Voltage ~3.5-4V. Current efficiency ~90-95%.</li>
+<li><strong>Water electrolysis</strong>: H₂O → H₂ (cathode) + ½O₂ (anode). Electrolyte: 25-30% KOH. Voltage ~1.8-2.2V. Produces ultra-pure gases.</li>
+<li><strong>Aluminum</strong> (Hall-Héroult, later): Al₂O₃ dissolved in molten cryolite (Na₃AlF₆) at 950-1000°C. Carbon anodes. Aluminum deposits at carbon-lined cathode. 4-5V, 100,000+ A. ~13-15 kWh/kg Al. Requires enormous power.</li>
+<li><strong>Copper refining</strong>: Impure copper anode → pure copper cathode (99.99%) in CuSO₄/H₂SO₄ electrolyte. Voltage ~0.3V. Gold, silver, platinum collect in anode slimes — valuable byproducts.</li>
+</ul>
+</li>
+</ul>
+<h3>Wire Drawing Bootstrap</h3>
+<ul>
+<li><strong>Chicken-and-egg problem</strong>: you need wire for generators, but hardened steel dies for drawing that wire require decent steel, which itself needs powered machinery</li>
+<li>First wire: hammered or swaged copper rod pulled through hand-punched holes in hardened steel plates, iterating through successively smaller die openings</li>
+<li>Lubrication is critical at every pass (tallow or soap solution; see <a href="../chemistry/lubricants.html">Lubricants</a>); without it the wire galls and snaps</li>
+<li>Wire annealing between passes restores ductility lost from cold working</li>
+<li>Insulation (rubber, varnished cloth, gutta-percha) is applied after drawing, not during</li>
+</ul>
+<h3>Electrical Engineering Reference</h3>
+<p><strong>Copper wire gauge table</strong> (practical reference for all electrical work):</p>
+<table>
+<thead>
+<tr>
+<th>Diameter (mm)</th>
+<th>Cross-section (mm²)</th>
+<th>Resistance (Ω/km)</th>
+<th>Max current (A)</th>
+<th>Typical use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.1</td>
+<td>0.008</td>
+<td>2,200</td>
+<td>0.05</td>
+<td>Fine coils, instruments</td>
+</tr>
+<tr>
+<td>0.2</td>
+<td>0.031</td>
+<td>560</td>
+<td>0.15</td>
+<td>Meter movements</td>
+</tr>
+<tr>
+<td>0.5</td>
+<td>0.20</td>
+<td>88</td>
+<td>1.0</td>
+<td>Small transformers</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>0.79</td>
+<td>22</td>
+<td>5</td>
+<td>Motor windings, generator coils</td>
+</tr>
+<tr>
+<td>1.5</td>
+<td>1.8</td>
+<td>12</td>
+<td>10</td>
+<td>Lighting circuits</td>
+</tr>
+<tr>
+<td>2.0</td>
+<td>3.1</td>
+<td>7.0</td>
+<td>15</td>
+<td>Power outlets</td>
+</tr>
+<tr>
+<td>2.5</td>
+<td>4.9</td>
+<td>4.5</td>
+<td>20</td>
+<td>Branch circuits</td>
+</tr>
+<tr>
+<td>4.0</td>
+<td>12.6</td>
+<td>1.7</td>
+<td>40</td>
+<td>Sub-main feeds</td>
+</tr>
+<tr>
+<td>6.0</td>
+<td>28.3</td>
+<td>0.77</td>
+<td>70</td>
+<td>Main distribution</td>
+</tr>
+<tr>
+<td>10.0</td>
+<td>78.5</td>
+<td>0.28</td>
+<td>130</td>
+<td>Service entrance, bus bars</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Max current assumes 3-5 A/mm² for enclosed wiring (derate for bundling or high ambient temperature). Open air or short runs can carry more.</li>
+<li>Voltage drop: ΔV = I × R = I × (ρ × L / A), where ρ = 0.0175 Ω·mm²/m for copper, L = length (m), A = cross-section (mm²). Keep voltage drop under 3-5% for efficient operation.</li>
+<li>Example: 10 A load, 100 m run, 110V supply, max 5% drop (5.5V): Wire resistance = 5.5V / 10A = 0.55Ω. R per conductor = 0.275Ω for 100m = 2.75 Ω/km. From table: ~2.0 mm diameter wire (1.8 mm² cross-section, 12 Ω/km × 0.1 km = 1.2 Ω per conductor... need 2 conductors → 2.4 Ω total, voltage drop = 24V. Too much. Need 6 mm wire: 0.77 Ω/km × 0.2 km = 0.154 Ω per conductor → 0.31 Ω total → 3.1V drop = 2.8%. OK.)</li>
+</ul>
+<p><strong>Motor and generator sizing</strong>:</p>
+<ul>
+<li><strong>Motor power</strong>: Mechanical power P = T × ω (torque × angular velocity). At 1500 RPM (157 rad/s), 1 Nm torque = 157W. A 1 kW motor at 1500 RPM delivers ~6.4 Nm.</li>
+<li><strong>Motor current</strong>: I = P / (V × η × PF), where η = efficiency (0.7-0.9), PF = power factor (1.0 for DC, 0.7-0.85 for AC induction motors). Example: 1 kW motor at 220V AC, η=0.8, PF=0.8: I = 1000/(220 × 0.8 × 0.8) = 7.1A.</li>
+<li><strong>Generator sizing</strong>: Must match peak load + 20% margin. If total connected load = 5 kW with 60% diversity factor (not all running simultaneously), generator needs 5 × 0.6 × 1.2 = 3.6 kW minimum. Round up to nearest available size.</li>
+</ul>
+<p><strong>Fuse and circuit breaker selection</strong>:</p>
+<ul>
+<li><strong>Fuse</strong>: Short piece of wire or strip that melts at a known current, breaking the circuit. Lead-tin alloy for low-current fuses (1-15A), copper or silver for higher currents. Enclose in ceramic or glass tube with filler (sand) to quench arc when fuse blows. Rating: fuse should carry 100% rated current indefinitely, blow within 1 hour at 135% rated current, blow quickly at 200%+ rated current.</li>
+<li><strong>Fuse sizing</strong>: Fuse rating ≥ full-load current of device, but ≤ ampacity of wiring. Example: motor drawing 7A on 2.5 mm² wire (20A capacity) → use 10A fuse. The fuse protects the WIRE, not the device.</li>
+<li><strong>Circuit breaker</strong> (Energy+): Bimetallic strip heated by current bends and trips latch, opening contacts. Resettable. More convenient than fuses. Calibrate by adjusting strip tension.</li>
+</ul>
+<p><strong>Battery sizing</strong> (lead-acid, see SQ 07):</p>
+<ul>
+<li><strong>Capacity</strong>: C = P × t / V, where P = load (W), t = backup time (hours), V = system voltage. Example: 500W load, 4-hour backup, 48V system: C = 500 × 4 / 48 = 41.7 Ah. Add 50% margin for depth-of- discharge limit: 62.5 Ah bank.</li>
+<li><strong>Charging current</strong>: C/10 rate (capacity ÷ 10 hours) for maximum battery life. For 62.5 Ah bank: charge at ~6.25A, 48V = 300W charger needed. Charge time: ~12-14 hours from fully discharged.</li>
+</ul>
+<h3>Permanent Magnets</h3>
+<ul>
+<li><strong>Lodestone</strong> (naturally magnetized magnetite) for early compasses and basic magnetic experiments</li>
+<li><strong>Magnetized iron/steel bars</strong>: Stroke with lodestone or place in Earth's magnetic field yields magnets for early generator field poles and galvanometers. For stronger magnets: place steel bar inside coil, pass DC current (electromagnet method) — steel retains magnetism after current removed.</li>
+<li><strong>Keeper</strong>: Store magnets with soft iron bar across poles (keeper) to prevent demagnetization over time.</li>
+<li><strong>Later materials</strong> (Alnico, ferrite) arrive with the Chemistry stage chemistry and alloy development</li>
+</ul>
+<h3>Elastomer Processing</h3>
+<ul>
+<li><strong>Natural rubber vulcanization</strong>: latex from <em>Hevea brasiliensis</em> or temperate alternatives (guayule, Russian dandelion) is coagulated, masticated on a two-roll mill, then compounded with sulfur (1.5-3 phr) and zinc oxide as activator</li>
+<li><strong>Heat curing</strong> at 140-180°C in electric vulcanizing presses or steam autoclaves (3-10 bar) using the Energy stage electric heating and boiler steam; cycle times 5-30 minutes depending on thickness</li>
+<li><strong>Applications beyond wire insulation</strong>: shaft seals, gaskets, flat belts and V-belts for power transmission, hoses, vibration dampers, and tire construction for wheeled vehicles</li>
+<li><strong>Synthetic rubbers</strong> (nitrile, neoprene) are Chemistry+ materials requiring petrochemical feedstocks from <a href="../chemistry/petroleum-alternatives.html">Petrochemicals</a>; see <a href="../polymers/overview.html">Polymers</a> for the full elastomer development roadmap</li>
+</ul>
+<h3>Advanced Welding (Energy+)</h3>
+<p><strong>Oxy-acetylene welding and cutting</strong>:</p>
+<ul>
+<li><strong>Acetylene production</strong>: Calcium carbide (CaC₂, from CaO + 3C at ~2000°C in electric arc furnace) + water → C₂H₂ + Ca(OH)₂. Generate acetylene on demand in gas generator (water dripped onto carbide in closed vessel). NEVER store acetylene under pressure &gt;0.15 MPa — it detonates spontaneously. Store dissolved in acetone in porous-filled cylinder (acetylene cylinders — safe storage at ~1.5 MPa).</li>
+<li><strong>Oxygen supply</strong>: From air separation (cryogenic distillation — see SQ 06) or from chemical generation (barium oxide process: heat BaO in air → BaO₂, then heat BaO₂ → BaO + ½O₂). Compressed into steel cylinders at 15-20 MPa.</li>
+<li><strong>Torch construction</strong>: Brass body with two control valves (oxygen and acetylene), mixing chamber, and copper tip (various sizes — tip orifice 0.5-3 mm). Hoses: rubber with fabric reinforcement, color-coded (red = fuel, blue/green = oxygen).</li>
+<li><strong>Welding procedure</strong>: Open acetylene valve, ignite (sooty flame). Open oxygen valve — flame becomes blue-white inner cone surrounded by pale blue outer envelope. Neutral flame (equal O₂ and C₂H₂): inner cone ~2-5 mm, temperature ~3100°C. Reducing flame (excess acetylene): longer inner cone, carburizing — for brazing and certain metals. Oxidizing flame (excess O₂): shorter, noisier — for brass/copper brazing only. Hold torch at ~45° angle, move steadily along joint. Add filler rod (matching base metal composition, 1.5-3 mm diameter) to leading edge of puddle. Joint types: butt, lap, fillet.</li>
+<li><strong>Cutting</strong>: Cutting torch has additional oxygen lever. Heat steel to bright red (~900°C) with acetylene flame, then press oxygen lever — pure O₂ jet reacts with hot steel exothermically (iron burns in oxygen). Blow molten slag through cut. Kerf (cut width) 1-3 mm. Cuts steel up to 300+ mm thick. CANNOT cut non-ferrous metals (copper, aluminum — they conduct heat away too fast, don't oxidize exothermically).</li>
+<li><strong>Applications</strong>: Repair welding, pipe joining, sheet metal fabrication, cutting steel plate, heating for bending/forming. THE primary metal joining method from ~1900 until arc welding dominated ~1940.</li>
+</ul>
+<p><strong>Arc welding (stick/SMAW — Shielded Metal Arc Welding)</strong>:</p>
+<ul>
+<li><strong>Principle</strong>: Electric arc between consumable electrode (welding rod) and workpiece melts both, creating a weld pool. Electrode coating provides shielding gas and slag to protect molten metal from atmospheric contamination (oxygen and nitrogen cause porosity and embrittlement).</li>
+<li><strong>Power source</strong>: DC or AC, 50-100 amps, 20-30 volts open circuit. DC: generator or rectified AC (smoother arc, directional — electrode positive = deeper penetration, electrode negative = faster deposition). AC: transformer (simpler, no rectifier needed, but arc less stable).</li>
+<li><strong>Electrodes</strong>: Mild steel core wire (2.5-5 mm diameter) with flux coating. Flux composition: cellulose (gas shield), rutile (TiO₂ — slag former, arc stabilizer), limestone (CaCO₃ — additional shielding gas when decomposed by heat), iron powder (increases deposition rate), binders (sodium silicate). Coat by dipping wire in wet flux slurry, or extrude flux around wire. Dry/bake at 100-200°C.</li>
+<li><strong>Procedure</strong>: Clamp workpiece to metal table (ground/return connection). Insert electrode in holder (insulated handle). Strike arc by scraping electrode across work (like a match) then lifting ~2-3 mm. Maintain arc length ~equal to electrode diameter. Move steadily along joint at ~2-5 mm/second. Electrode melts and deposits filler metal. Slag forms on top of weld — chip off with hammer after cooling. Multi-pass for thicker joints.</li>
+<li><strong>Joint preparation</strong>: Bevel edges of thick plates (&gt;6 mm) to 30-60° with grinder or torch, leaving 1-3 mm root gap. Clean to bare metal (no rust, oil, paint — all cause defects).</li>
+<li><strong>Safety</strong>: UV radiation from arc causes &quot;welder's flash&quot; (sunburn of cornea — extremely painful, temporary blindness for 24-48 hours). ALWAYS use welding helmet with proper shade lens (#10-14 shade). Leather gloves, long sleeves (UV burns exposed skin). Sparks and spatter — fire hazard, clear combustibles 10+ m away. Ventilation — welding fumes contain metal oxides, especially hazardous with galvanized steel (zinc fume fever). NEVER weld in confined spaces without forced ventilation.</li>
+<li><strong>Applications</strong>: Structural steel construction, pressure vessels, shipbuilding, pipe welding, machinery repair. Stronger and faster than oxy-acetylene for steel fabrication.</li>
+</ul>
+<hr />
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="../">All Domains</a></em></p>
+
+</main>
+</div>
+<footer class="footer">
+<p>Part of the Bootciv Tech Tree</p>
+</footer>
+<script src="../../assets/mermaid.min.js"></script>
+<script src="../../assets/search-index.js"></script>
+<script src="../../assets/search.js"></script>
+<script src="../../assets/main.js"></script>
+</body>
+</html>

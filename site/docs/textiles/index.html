@@ -226,9 +226,9 @@ graph TD
     transport_shipping(&quot;Water Transport&quot;)
 
     %% ==================== EDGES ====================
-    textiles_spinning --&gt; textiles_fibers
-    textiles_weaving --&gt; textiles_spinning
-    textiles_dyeing --&gt; textiles_weaving
+    textiles_fibers --&gt; textiles_spinning
+    textiles_spinning --&gt; textiles_weaving
+    textiles_weaving --&gt; textiles_dyeing
     energy_gravity -.-&gt; textiles
     energy_wind -.-&gt; textiles
     machine-tools -.-&gt; textiles

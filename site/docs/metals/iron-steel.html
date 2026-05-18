@@ -188,7 +188,6 @@
 </details>
 </nav>
 <main class="content">
-<h1>Iron &amp; Steel Production</h1>
 <div class="metadata-card">
 <h2 class="metadata-card__title">Iron & Steel Production <span class="badge badge--critical" title="Iron and steel are essential for machine tool beds, cutting tools, boilers, generators, and all precision machinery">★</span></h2>
 <div class="metadata-card__field"><span class="metadata-card__label">Node ID</span><span class="metadata-card__value"><code>metals.iron-steel</code></span></div>
@@ -202,10 +201,9 @@
 <h1>Iron &amp; Steel Production</h1>
 <blockquote>
 <p><strong>Node ID</strong>: metals.iron-steel
-<strong>Also covers</strong>: <a class="node-ref" href="../../docs/metals/iron-steel.html">metallurgy.metalworking</a>
 <strong>Domain</strong>: <a href="./">Metallurgy</a>
-<strong>Dependencies</strong>: <code>metallurgy.iron-steel</code>
-<strong>Enables</strong>: <a class="node-ref" href="../../docs/energy/electricity.html">energy.ice</a>, <a class="node-ref" href="../../docs/energy/steam-power.html">energy.steam-power</a>, <code>machine-tools.foundry</code>, <a class="node-ref" href="../../docs/metals/iron-steel.html">metallurgy.metalworking</a>
+<strong>Dependencies</strong>: <a class="node-ref" href="../../docs/metals/iron-steel.html">metals.iron-steel</a>
+<strong>Enables</strong>: <a class="node-ref" href="../../docs/energy/steam-power.html">energy.steam-power</a>, <a class="node-ref" href="../../docs/machine-tools/casting.html">machine-tools.casting</a>, <a class="node-ref" href="../../docs/machine-tools/joining.html">machine-tools.joining</a>
 <strong>Timeline</strong>: Years 5-15
 <strong>Outputs</strong>: wrought_iron, steel, iron_bloom, heat_treated_steel, forge_welds, brazed_joints, soldered_joints, springs, bellows, tongs, ...</p>
 </blockquote>
@@ -237,7 +235,7 @@
 <p><strong>Steel production (carburization)</strong>:</p>
 <ul>
 <li><strong>Pack carburizing</strong>: Pack wrought iron bars in charcoal dust inside sealed clay box. Heat to 900-950°C for 4-12 hours. Carbon from charcoal diffuses into iron surface. Produces 1-2 mm case depth per 4 hours. Result: low-carbon steel skin on wrought iron core.</li>
-<li>**Crucible steel (Wootz/Bulat method)****: Place wrought iron + 1-3% carbon (charcoal powder or cast iron) in sealed clay crucible. Heat to 1450-1550°C (requires very good furnace + forced air) for 2-4 hours. Cool slowly. Produces homogeneous medium-to-high carbon steel (~0.8-1.5% C). This is the path to quality cutting tools and springs.</li>
+<li><strong>Crucible steel (Wootz/Bulat method):</strong> Place wrought iron + 1-3% carbon (charcoal powder or cast iron) in sealed clay crucible. Heat to 1450-1550°C (requires very good furnace + forced air) for 2-4 hours. Cool slowly. Produces homogeneous medium-to-high carbon steel (~0.8-1.5% C). This is the path to quality cutting tools and springs.</li>
 </ul>
 <p><strong>Heat treatment</strong>:</p>
 <ul>
@@ -273,7 +271,7 @@
 <li>Slack tub (water barrel for quenching, ~50 liters)</li>
 </ul>
 <h3>Joining Metals — Forge Welding, Brazing &amp; Soldering</h3>
-<p><strong>Forge welding</strong> (the oldest welding method, (Metallurgy stage):</p>
+<p><strong>Forge welding</strong> (the oldest welding method, (earliest method):</p>
 <ul>
 <li><strong>Principle</strong>: Heat two pieces of iron/steel to bright yellow-white (~1300-1400°C) where the surface becomes pasty. Place together and hammer forcefully. The combination of heat, pressure, and clean surfaces causes a solid-state weld (atomic diffusion across interface).</li>
 <li><strong>Flux</strong>: Sprinkle clean silica sand or borite on joint surfaces before welding. Flux melts, dissolves surface oxide (scale), and prevents oxidation during heating — allowing metal-to-metal contact. Without flux, scale prevents a sound weld.</li>
@@ -282,7 +280,7 @@
 <li><strong>Quality test</strong>: Bend test — a good weld bends without opening at the joint. Poor welds crack at the seam (oxide inclusion or insufficient heat).</li>
 <li><strong>Applications</strong>: Welding iron bars into longer bars, making composite steel (pattern-welded blades), building up large forgings from smaller pieces, repairing broken tools, making chain links, hoop iron for barrels and wagon wheels.</li>
 </ul>
-<p><strong>Brazing</strong> (joining with filler metal, Metallurgy+):</p>
+<p><strong>Brazing</strong> (joining with filler metal, later stages):</p>
 <ul>
 <li><strong>Principle</strong>: Heat base metals to above the melting point of filler (but below their own melting point). Capillary action draws molten filler into the joint gap. On cooling, filler solidifies — strong joint without melting base metal.</li>
 <li><strong>Brass brazing (spelter brazing)</strong>: Filler = brass alloy (Cu + Zn, typically 60/40, melts ~900°C). Flux = borax (sodium borate) paste. Heat joint to bright red (~950°C). Apply brazing rod — brass melts, flows into joint by capillary action. Strong joint, higher temperature than soldering.</li>

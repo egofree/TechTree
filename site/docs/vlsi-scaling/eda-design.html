@@ -188,7 +188,6 @@
 </details>
 </nav>
 <main class="content">
-<h1>EDA, GPU Design &amp; Advanced Packaging</h1>
 <div class="metadata-card">
 <h2 class="metadata-card__title">EDA, GPU Design & Advanced Packaging </h2>
 <div class="metadata-card__field"><span class="metadata-card__label">Node ID</span><span class="metadata-card__value"><code>vlsi-scaling.eda-design</code></span></div>
@@ -205,49 +204,8 @@
 <p><strong>Domain</strong>: <a href="./">VLSI Scaling &amp; Advanced Semiconductor</a>
 <strong>Dependencies</strong>: <code>computing</code>, <a class="node-ref" href="../../docs/photolithography/fab-processes.html">photolithography.fab-processes</a>
 <strong>Timeline</strong>: Years 70-200+
-<strong>Outputs</strong>: eda_tools, gpus, advanced_packaging, vlsi_designs, ion_implantation, ald_films, copper_interconnects, cmp_planarization, high_end_solar</p>
+<strong>Outputs</strong>: eda_tools, gpus, advanced_packaging, vlsi_designs</p>
 </blockquote>
-<h3>Advanced Processes</h3>
-<p><strong>Ion implantation</strong> (precise doping control):</p>
-<ul>
-<li><strong>Equipment</strong>: Ion source (gas or solid), extraction electrode, mass analyzer (magnetic sector — separates ions by mass/charge ratio), acceleration column (10-500 keV), beam scanning (electrostatic deflection), end station (wafer handling).</li>
-<li><strong>Process</strong>: Generate dopant ions (P⁺, As⁺, B⁺, BF₂⁺), accelerate to desired energy, implant into wafer. Energy determines depth (10-1000 nm). Dose controls concentration (10¹²-10¹⁶/cm²).</li>
-<li><strong>Advantages over diffusion</strong>: Precise dose and profile control, low-temperature process, any dopant pattern possible, no lateral diffusion under mask.</li>
-<li><strong>Damage annealing</strong>: Ion implant damages crystal lattice. Anneal at 800-1050°C for 10-60 min restores crystallinity and activates dopants (moves to substitutional lattice sites). Rapid thermal anneal (RTA: ramp to 1000°C in seconds, hold 10-30 sec, cool) minimizes dopant diffusion during anneal.</li>
-</ul>
-<p><strong>Plasma/RIE etching</strong> (anisotropic, high-fidelity pattern transfer):</p>
-<ul>
-<li><strong>Reactive Ion Etching (RIE)</strong>: RF plasma (13.56 MHz) generates reactive ions. Chemical reaction + physical ion bombardment = anisotropic etching. Etch gases: CF₄/O₂ (Si, SiO₂), Cl₂/BCl₃ (Al, Si), HBr/Cl₂ (Si).</li>
-<li><strong>Deep RIE (DRIE)</strong>: Alternating etch/passivate cycles (Bosch process). Etch: SF₆ plasma (isotropic). Passivate: C₄F₈ plasma (deposits fluorocarbon polymer on sidewalls). Repeat 10-100 cycles. Creates vertical sidewalls, high aspect ratio trenches. Used for MEMS, through-silicon vias (TSV).</li>
-<li><strong>Selectivity</strong>: Etch rate ratio of target material vs. mask. Typical 5:1 to 50:1. Critical for preserving features during overetch.</li>
-</ul>
-<p><strong>Atomic Layer Deposition (ALD)</strong> (Angstrom-level thickness control):</p>
-<ul>
-<li><strong>Principle</strong>: Self-limiting surface reaction. Pulse precursor A → saturates surface with monolayer → purge → pulse precursor B → reacts with A layer → forms one atomic layer of product → purge. Repeat. Each cycle deposits exactly one atomic layer (0.05-0.15 nm).</li>
-<li><strong>Materials</strong>: Al₂O₃ (TMA + H₂O), HfO₂ (TDMAH + H₂O), SiO₂ (various precursors). Used for: high-k gate dielectrics, spacer deposition, conformal coatings in high-aspect-ratio structures.</li>
-<li><strong>Speed</strong>: Very slow (0.1 nm/cycle, 1-5 sec/cycle). Not suitable for thick films. But unmatched for ultra-thin conformal layers.</li>
-</ul>
-<p><strong>Chemical-Mechanical Polishing (CMP)</strong> (global planarization):</p>
-<ul>
-<li>See Silicon for CMP basics. In VLSI Scaling, CMP enables multi-level metallization by planarizing each dielectric layer before patterning the next metal layer. Without CMP, topography accumulates and subsequent layers cannot resolve fine features.</li>
-<li><strong>Slurries</strong>: SiO₂ removal: colloidal silica + KOH. Cu removal: alumina + oxidizer (H₂O₂) + corrosion inhibitor (BTA). W removal: alumina + KIO₃.</li>
-<li><strong>Process control</strong>: Endpoint detection (motor current changes when reaching underlying layer), in-situ thickness monitoring.</li>
-</ul>
-<p><strong>Multi-level interconnects</strong>:</p>
-<ul>
-<li><strong>Copper damascene process</strong> (replaces Al for lower resistance):
-<ol>
-<li>Deposit SiO₂ (inter-layer dielectric). CMP planarize.</li>
-<li>Etch trenches and vias in SiO₂ (dual damascene — trenches and vias patterned simultaneously with two lithography steps, one etch).</li>
-<li>Deposit Ta/TaN barrier layer (prevents Cu diffusion into SiO₂).</li>
-<li>Deposit Cu seed layer (PVD).</li>
-<li>Electroplate Cu to fill trenches/vias.</li>
-<li>CMP remove excess Cu (planarize to top of dielectric).</li>
-<li>Repeat for next metal layer.</li>
-</ol>
-</li>
-<li><strong>Low-k dielectrics</strong>: Replace SiO₂ (k ≈ 4.0) with porous organosilicate glass (k ≈ 2.5-3.0) or polymer (k ≈ 2.0-2.7). Reduces interconnect capacitance → faster switching, lower power. Mechanical fragility is a challenge.</li>
-</ul>
 <h3>Electronic Design Automation (EDA)</h3>
 <ul>
 <li>Requires: computers (from the Photolithography stage ICs), display technology, storage, software engineering</li>

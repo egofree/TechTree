@@ -188,7 +188,6 @@
 </details>
 </nav>
 <main class="content">
-<h1>Electricity Generation &amp; Distribution</h1>
 <div class="metadata-card">
 <h2 class="metadata-card__title">Electricity Generation & Distribution </h2>
 <div class="metadata-card__field"><span class="metadata-card__label">Node ID</span><span class="metadata-card__value"><code>energy.electricity</code></span></div>
@@ -202,8 +201,8 @@
 <p><strong>Node ID</strong>: energy.electricity
 <strong>Also covers</strong>: <a class="node-ref" href="../../docs/energy/electricity.html">energy.ice</a>, <a class="node-ref" href="../../docs/energy/electricity.html">energy.electrolysis</a>, <a class="node-ref" href="../../docs/energy/electricity.html">energy.welding</a>
 <strong>Domain</strong>: <a href="./">Energy</a>
-<strong>Dependencies</strong>: <code>chemistry</code>, <a class="node-ref" href="../../docs/energy/electricity.html">energy.electricity</a>, <code>machine-tools</code>, <code>metallurgy.iron-steel</code>, <code>petrochemicals</code>
-<strong>Enables</strong>: <a class="node-ref" href="../../docs/energy/electric-furnaces.html">energy.electric-furnaces</a>, <a class="node-ref" href="../../docs/energy/electricity.html">energy.electrolysis</a>, <a class="node-ref" href="../../docs/energy/electricity.html">energy.welding</a>, <a class="node-ref" href="../../docs/silicon/mg-si-production.html">silicon.mg-si-production</a>, <code>specialty-gases.air-separation</code>, <code>specialty-gases.dopant-etch-gases</code>, <code>specialty-gases.hydrogen-silane</code>
+<strong>Dependencies</strong>: <code>chemistry</code>, <code>machine-tools</code>, <a class="node-ref" href="../../docs/metals/iron-steel.html">metals.iron-steel</a>, <a class="node-ref" href="../../docs/chemistry/petroleum-alternatives.html">chemistry.petroleum-alternatives</a>
+<strong>Enables</strong>: <a class="node-ref" href="../../docs/energy/electric-furnaces.html">energy.electric-furnaces</a>, <a class="node-ref" href="../../docs/energy/electricity.html">energy.electrolysis</a>, <a class="node-ref" href="../../docs/energy/electricity.html">energy.welding</a>, <a class="node-ref" href="../../docs/silicon/mg-si-production.html">silicon.mg-si-production</a>, <a class="node-ref" href="../../docs/chemistry/air-separation.html">chemistry.air-separation</a>, <a class="node-ref" href="../../docs/chemistry/dopant-etch-gases.html">chemistry.dopant-etch-gases</a>, <a class="node-ref" href="../../docs/chemistry/hydrogen-silane.html">chemistry.hydrogen-silane</a>
 <strong>Timeline</strong>: Years 15-30
 <strong>Outputs</strong>: generators, motors, transformers, wire_cables, electricity, insulated_wire, electric_arc_furnaces, resistance_heaters, eaf_steel, internal_combustion_engines, ...</p>
 </blockquote>
@@ -413,7 +412,7 @@
 <li><strong>Fuse sizing</strong>: Fuse rating ≥ full-load current of device, but ≤ ampacity of wiring. Example: motor drawing 7A on 2.5 mm² wire (20A capacity) → use 10A fuse. The fuse protects the WIRE, not the device.</li>
 <li><strong>Circuit breaker</strong> (Energy+): Bimetallic strip heated by current bends and trips latch, opening contacts. Resettable. More convenient than fuses. Calibrate by adjusting strip tension.</li>
 </ul>
-<p><strong>Battery sizing</strong> (lead-acid, see SQ 07):</p>
+<p><strong>Battery sizing</strong> (lead-acid, see Energy Storage):</p>
 <ul>
 <li><strong>Capacity</strong>: C = P × t / V, where P = load (W), t = backup time (hours), V = system voltage. Example: 500W load, 4-hour backup, 48V system: C = 500 × 4 / 48 = 41.7 Ah. Add 50% margin for depth-of- discharge limit: 62.5 Ah bank.</li>
 <li><strong>Charging current</strong>: C/10 rate (capacity ÷ 10 hours) for maximum battery life. For 62.5 Ah bank: charge at ~6.25A, 48V = 300W charger needed. Charge time: ~12-14 hours from fully discharged.</li>
@@ -436,7 +435,7 @@
 <p><strong>Oxy-acetylene welding and cutting</strong>:</p>
 <ul>
 <li><strong>Acetylene production</strong>: Calcium carbide (CaC₂, from CaO + 3C at ~2000°C in electric arc furnace) + water → C₂H₂ + Ca(OH)₂. Generate acetylene on demand in gas generator (water dripped onto carbide in closed vessel). NEVER store acetylene under pressure &gt;0.15 MPa — it detonates spontaneously. Store dissolved in acetone in porous-filled cylinder (acetylene cylinders — safe storage at ~1.5 MPa).</li>
-<li><strong>Oxygen supply</strong>: From air separation (cryogenic distillation — see SQ 06) or from chemical generation (barium oxide process: heat BaO in air → BaO₂, then heat BaO₂ → BaO + ½O₂). Compressed into steel cylinders at 15-20 MPa.</li>
+<li><strong>Oxygen supply</strong>: From air separation (cryogenic distillation — see Air Separation) or from chemical generation (barium oxide process: heat BaO in air → BaO₂, then heat BaO₂ → BaO + ½O₂). Compressed into steel cylinders at 15-20 MPa.</li>
 <li><strong>Torch construction</strong>: Brass body with two control valves (oxygen and acetylene), mixing chamber, and copper tip (various sizes — tip orifice 0.5-3 mm). Hoses: rubber with fabric reinforcement, color-coded (red = fuel, blue/green = oxygen).</li>
 <li><strong>Welding procedure</strong>: Open acetylene valve, ignite (sooty flame). Open oxygen valve — flame becomes blue-white inner cone surrounded by pale blue outer envelope. Neutral flame (equal O₂ and C₂H₂): inner cone ~2-5 mm, temperature ~3100°C. Reducing flame (excess acetylene): longer inner cone, carburizing — for brazing and certain metals. Oxidizing flame (excess O₂): shorter, noisier — for brass/copper brazing only. Hold torch at ~45° angle, move steadily along joint. Add filler rod (matching base metal composition, 1.5-3 mm diameter) to leading edge of puddle. Joint types: butt, lap, fillet.</li>
 <li><strong>Cutting</strong>: Cutting torch has additional oxygen lever. Heat steel to bright red (~900°C) with acetylene flame, then press oxygen lever — pure O₂ jet reacts with hot steel exothermically (iron burns in oxygen). Blow molten slag through cut. Kerf (cut width) 1-3 mm. Cuts steel up to 300+ mm thick. CANNOT cut non-ferrous metals (copper, aluminum — they conduct heat away too fast, don't oxidize exothermically).</li>

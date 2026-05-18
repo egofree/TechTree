@@ -2,101 +2,99 @@
 graph TD
     %% ==================== DOMAIN NODES ====================
     foundations["Foundations"]
-    metallurgy["Metallurgy"]
+    metals["Metals"]
     machine-tools["Machine Tools Bootstrap"]
     energy["Energy"]
     chemistry["Chemistry"]
-    vacuum-optics["Vacuum, Optics & Advanced Glass"]
     silicon["Silicon"]
     photolithography["Photolithography & IC Fabrication"]
     vlsi-scaling["VLSI Scaling & Advanced Semiconductor"]
     knowledge["Knowledge Preservation & Education"]
-    metrology["Measurement, Timekeeping & Metrology"]
-    transport["Transportation, Logistics & Communication"]
-    computing["Mechanical Computing & Automation"]
+    transport["Transportation & Logistics"]
+    computing["Computing & Automation"]
     health["Public Health, Sanitation & Medicine"]
-    specialty-gases["Specialty Gases, Consumables, Packaging & Testing"]
-    energy-storage["Energy Storage & Diversification"]
-    advanced-materials["Advanced Materials — Ceramics & Refractories"]
     textiles["Textiles, Fiber & Cordage"]
-    lubricants["Lubricants, Oils & Fluid Mechanics"]
     mining["Mining Engineering & Extractive Metallurgy"]
-    petrochemicals["Petroleum & Alternative Chemistry"]
-    aircraft["Aircraft Development"]
+    ceramics["Ceramics & Refractories"]
     polymers["Polymers & Composites"]
+    glass["Glass"]
+    optics["Optics"]
+    gas-handling["Gas Handling"]
+    measurement["Measurement & Instrumentation"]
 
     %% ==================== DOMAIN-LEVEL EDGES ====================
-    metallurgy --> foundations
-    metallurgy --> mining
-    machine-tools --> metallurgy
-    machine-tools --> textiles
-    machine-tools --> lubricants
-    energy --> metallurgy
-    chemistry --> metallurgy
+    metals -.-> foundations
+    metals --> mining
+    machine-tools -.-> metals
+    machine-tools -.-> textiles
+    energy -.-> metals
+    chemistry -.-> metals
     chemistry --> energy
-    vacuum-optics --> machine-tools
-    vacuum-optics --> energy
-    vacuum-optics --> chemistry
-    silicon --> machine-tools
+    glass -.-> machine-tools
+    optics -.-> machine-tools
+    gas-handling -.-> machine-tools
+    measurement -.-> machine-tools
+    glass --> energy
+    gas-handling --> energy
+    glass --> chemistry
+    gas-handling --> chemistry
+    measurement --> chemistry
+    silicon -.-> machine-tools
     silicon --> energy
     silicon --> chemistry
-    silicon --> vacuum-optics
-    photolithography --> machine-tools
+    silicon -.-> glass
+    silicon -.-> gas-handling
+    photolithography -.-> machine-tools
     photolithography --> chemistry
-    photolithography --> vacuum-optics
+    photolithography -.-> gas-handling
+    photolithography -.-> optics
     photolithography --> silicon
-    photolithography --> specialty-gases
-    vlsi-scaling --> photolithography
-    knowledge --> foundations
-    metrology --> foundations
-    metrology --> metallurgy
-    health --> foundations
+    vlsi-scaling -.-> photolithography
+    knowledge -.-> foundations
+    health -.-> foundations
     health --> chemistry
-    specialty-gases --> chemistry
-    specialty-gases --> energy
-    energy-storage --> energy
-    energy-storage --> chemistry
-    energy-storage --> metallurgy
-    advanced-materials --> foundations
-    advanced-materials --> metallurgy
-    textiles --> foundations
-    lubricants --> foundations
-    lubricants --> petrochemicals
-    mining --> foundations
-    petrochemicals --> foundations
-    transport --> metallurgy
+    ceramics -.-> foundations
+    ceramics -.-> metals
+    textiles -.-> foundations
+    mining -.-> foundations
+    transport -.-> metals
     transport --> energy
     transport --> mining
-    transport --> machine-tools
-    computing --> machine-tools
-    aircraft --> machine-tools
-    aircraft --> textiles
-    aircraft --> petrochemicals
-    polymers --> foundations
+    transport -.-> machine-tools
+    computing -.-> machine-tools
+    polymers -.-> foundations
 
     %% ==================== CROSS-DOMAIN EDGES ====================
+    ceramics -.-> energy
+    chemistry -.-> ceramics
     chemistry -.-> foundations
+    chemistry -.-> gas-handling
+    chemistry -.-> glass
+    chemistry -.-> machine-tools
     chemistry -.-> mining
+    chemistry -.-> photolithography
+    chemistry -.-> polymers
+    energy -.-> ceramics
     energy -.-> chemistry
     energy -.-> foundations
     energy -.-> machine-tools
     energy -.-> mining
-    energy -.-> petrochemicals
-    metallurgy -.-> lubricants
-    metallurgy -.-> textiles
-    photolithography -.-> advanced-materials
+    energy -.-> textiles
+    glass -.-> mining
+    machine-tools -.-> chemistry
+    machine-tools -.-> energy
+    measurement -.-> foundations
+    measurement -.-> metals
+    photolithography -.-> ceramics
     photolithography -.-> polymers
     polymers -.-> chemistry
     polymers -.-> machine-tools
-    polymers -.-> petrochemicals
+    silicon -.-> measurement
     silicon -.-> mining
-    silicon -.-> specialty-gases
-    specialty-gases -.-> machine-tools
-    specialty-gases -.-> photolithography
-    specialty-gases -.-> polymers
-    vacuum-optics -.-> metallurgy
+    transport -.-> chemistry
+    transport -.-> textiles
     vlsi-scaling -.-> computing
-    vlsi-scaling -.-> vacuum-optics
+    vlsi-scaling -.-> optics
 
     %% ==================== STYLING ====================
     classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
@@ -108,16 +106,16 @@ graph TD
     class silicon earlyWin
     class vlsi-scaling pinnacle
     class knowledge critical
-    class specialty-gases critical
     class textiles critical
-    class lubricants critical
     class mining critical
 
     %% ==================== LEGEND ====================
     Legend["Legend and Key Insights"]
+    Legend --> Note0["──▶ Solid arrows = material prerequisites (physical inputs consumed)"]
+    Legend --> Note0b["- - ▶ Dashed arrows = tool prerequisites (equipment/infrastructure needed)"]
     Legend --> Note1["Machine Tools is the master enabler: every later stage depends on precision parts"]
     Legend --> Note2["Iteration is everywhere: tools make better tools, crude silicon enables purer silicon"]
     Legend --> Note3["Solar cells create a critical power feedback loop — the most important positive feedback in the tree"]
     Legend --> Note4["High-end GPUs are the long-term pinnacle: requires the entire mature ecosystem + generations of refinement"]
     Legend --> Note5["Realistic timeline: basic solar cells in decades. Full GPU capability: 50 to 200+ years"]
-    class Legend,Note1,Note2,Note3,Note4,Note5 domain
+    class Legend,Note0,Note0b,Note1,Note2,Note3,Note4,Note5 domain

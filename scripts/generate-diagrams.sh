@@ -106,6 +106,7 @@ HEADER
     echo "    %% ==================== DOMAIN-LEVEL EDGES ===================="
 
     # Collect edges where both from and to are domain-level nodes
+    # Use edge type: material → solid (-->)  tool → dashed (-.->)
     jq -r '
         .edges[] |
         .from as $f | .to as $t |
@@ -114,12 +115,16 @@ HEADER
         select(
             (($fd == $f) and ($td == $t))
         ) |
-        "\($f)|\($t)"
-    ' "$EDGES_FILE" | while IFS='|' read -r from to; do
+        "\($f)|\($t)|\(.type)"
+    ' "$EDGES_FILE" | while IFS='|' read -r from to etype; do
         local safe_from safe_to
         safe_from=$(sanitize_id "$from")
         safe_to=$(sanitize_id "$to")
-        echo "    ${safe_from} --> ${safe_to}"
+        local arrow="-->"
+        if [[ "$etype" == "tool" ]]; then
+            arrow="-.->"
+        fi
+        echo "    ${safe_from} ${arrow} ${safe_to}"
     done
 
     # Also collect edges where from is a capability/process but to is a domain,
@@ -201,12 +206,14 @@ HEADER
     echo ""
     echo "    %% ==================== LEGEND ===================="
     echo "    Legend[\"Legend and Key Insights\"]"
+    echo "    Legend --> Note0[\"──▶ Solid arrows = material prerequisites (physical inputs consumed)\"]"
+    echo "    Legend --> Note0b[\"- - ▶ Dashed arrows = tool prerequisites (equipment/infrastructure needed)\"]"
     echo "    Legend --> Note1[\"Machine Tools is the master enabler: every later stage depends on precision parts\"]"
     echo "    Legend --> Note2[\"Iteration is everywhere: tools make better tools, crude silicon enables purer silicon\"]"
     echo "    Legend --> Note3[\"Solar cells create a critical power feedback loop — the most important positive feedback in the tree\"]"
     echo "    Legend --> Note4[\"High-end GPUs are the long-term pinnacle: requires the entire mature ecosystem + generations of refinement\"]"
     echo "    Legend --> Note5[\"Realistic timeline: basic solar cells in decades. Full GPU capability: 50 to 200+ years\"]"
-    echo "    class Legend,Note1,Note2,Note3,Note4,Note5 domain"
+    echo "    class Legend,Note0,Note0b,Note1,Note2,Note3,Note4,Note5 domain"
 }
 
 generate_domain_diagram() {
@@ -283,22 +290,26 @@ HEADER
     echo ""
     echo "    %% ==================== EDGES ===================="
 
-    # Internal edges
+    # Internal edges — typed: material -->  tool -.->
     jq -r --arg domain "$domain_id" '
         .[] |
         select(
             ((.from == $domain) or (.from | startswith($domain + "."))) and
             ((.to == $domain) or (.to | startswith($domain + ".")))
         ) |
-        "\(.from)|\(.to)"
-    ' "$temp_edges" | while IFS='|' read -r from to; do
+        "\(.from)|\(.to)|\(.type)"
+    ' "$temp_edges" | while IFS='|' read -r from to etype; do
         local safe_from safe_to
         safe_from=$(sanitize_id "$from")
         safe_to=$(sanitize_id "$to")
-        echo "    ${safe_from} --> ${safe_to}"
+        local arrow="-->"
+        if [[ "$etype" == "tool" ]]; then
+            arrow="-.->"
+        fi
+        echo "    ${safe_from} ${arrow} ${safe_to}"
     done
 
-    # External edges
+    # External edges — typed: material -->  tool -.->
     jq -r --arg domain "$domain_id" '
         .[] |
         select(
@@ -308,15 +319,25 @@ HEADER
             (((.to == $domain) or (.to | startswith($domain + "."))) and
              (.from != $domain) and ((.from | startswith($domain + ".")) | not))
         ) |
-        "\(.from)|\(.to)"
-    ' "$temp_edges" | while IFS='|' read -r from to; do
+        "\(.from)|\(.to)|\(.type)"
+    ' "$temp_edges" | while IFS='|' read -r from to etype; do
         local safe_from safe_to
         safe_from=$(sanitize_id "$from")
         safe_to=$(sanitize_id "$to")
-        echo "    ${safe_from} -.-> ${safe_to}"
+        local arrow="-->"
+        if [[ "$etype" == "tool" ]]; then
+            arrow="-.->"
+        fi
+        echo "    ${safe_from} ${arrow} ${safe_to}"
     done
 
     rm -f "$temp_edges"
+
+    echo ""
+    echo "    %% ==================== EDGE TYPE LEGEND ===================="
+    echo "    EdgeLegend[\"Edge Types\"]"
+    echo "    EdgeLegend --> MatNote[\"──▶ Solid = material prerequisite (physical input consumed)\"]"
+    echo "    EdgeLegend --> ToolNote[\"- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)\"]"
 
     # --- Styling ---
     echo ""
@@ -328,6 +349,7 @@ HEADER
     echo "    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px"
     echo "    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px"
     echo "    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px"
+    echo "    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px"
 
     echo "    class ${safe_domain_id} domain"
 
@@ -360,6 +382,8 @@ HEADER
         safe_ext=$(sanitize_id "$ext_id")
         echo "    class ${safe_ext} external"
     done <<< "$external_ids"
+
+    echo "    class EdgeLegend,MatNote,ToolNote legend"
 }
 
 # --- Main ---

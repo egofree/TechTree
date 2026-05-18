@@ -1,58 +1,106 @@
 # Dependencies and Resource Requirements
 
-## Cross-Phase Dependency Matrix
+## Cross-Domain Dependency Matrix
 
-| From Phase | To Phase | Key Dependency |
-|------------|----------|---------------|
-| Phase 1 | Phase 2 | Charcoal, ores, kilns, food surplus |
-| Phase 2 | Phase 3 | Iron/steel, casting capability, hand tools |
-| Phase 3 | Phase 4 | Precision cylinders (steam), wire dies (electricity) |
-| Phase 3 | Phase 7 | Crystal puller mechanics, wafer saws |
-| Phase 3 | Phase 8 | Lithography stages, precision alignment |
-| Phase 4 | Phase 5 | Energy for chemical processes, electrolysis |
-| Phase 4 | Phase 7 | Arc furnace power, electric heating |
-| Phase 4 | Phase 8 | Fab equipment power, cleanroom HVAC |
-| Phase 5 | Phase 7 | Etchants (HF), cleaning acids, dopant sources |
-| Phase 5 | Phase 8 | Photoresists, etchants, CVD precursors |
-| Phase 6 | Phase 7 | Quartz crucibles, inspection microscopes |
-| Phase 6 | Phase 8 | Vacuum systems, lithography optics |
-| Phase 7 | Phase 8 | Wafers, oxidation/diffusion capability |
-| Phase 8 | Phase 9 | Working ICs, fab processes, design knowledge |
+Key domain-to-domain dependencies derived from [edges.json](../../data/edges.json). Each row shows a dependent domain and the prerequisite it requires.
+
+| From Domain | To Domain | Key Dependency |
+|------------|-----------|---------------|
+| Metals | Foundations | Fire, food surplus, stone tools |
+| Metals | Mining | Copper ore, iron ore, quartz |
+| Machine Tools | Metals | Iron/steel for machine beds and cutting tools |
+| Machine Tools | Textiles | Cordage and cloth for power transmission |
+| Energy | Metals | Iron/steel for boilers, generators |
+| Ceramics | Foundations | Clay, fire for kilns |
+| Ceramics | Metals | Metal tools for kiln construction |
+| Chemistry | Metals | Metal vessels, piping |
+| Chemistry | Energy | Electricity for electrolysis, heat for reactions |
+| Glass | Machine Tools | Precision-machined parts |
+| Glass | Chemistry | Glass feedstock, chemical processing |
+| Glass | Energy | Furnace power |
+| Gas Handling | Machine Tools | Precision-machined parts |
+| Gas Handling | Energy | Compressor power |
+| Gas Handling | Chemistry | Gas purification chemicals |
+| Measurement | Machine Tools | Precision instruments |
+| Measurement | Metals | Standard artifacts |
+| Optics | Machine Tools | Precision lens grinding |
+| Optics | Glass | Optical glass |
+| Silicon | Machine Tools | Precision-machined equipment |
+| Silicon | Energy | Electric arc furnaces, process power |
+| Silicon | Chemistry | Acids, gases, purification chemicals |
+| Silicon | Glass | Quartz crucibles |
+| Silicon | Gas Handling | Vacuum systems, inert atmosphere |
+| Silicon | Measurement | Precision metrology |
+| Photolithography | Machine Tools | Precision equipment |
+| Photolithography | Chemistry | Photoresists, etchants, solvents |
+| Photolithography | Gas Handling | Vacuum systems |
+| Photolithography | Optics | Alignment optics |
+| Photolithography | Silicon | Wafers |
+| Photolithography | Ceramics | Cleanroom construction materials |
+| VLSI Scaling | Photolithography | Working ICs and fab processes |
+| Knowledge | Foundations | Writing media, surplus labor |
+| Textiles | Foundations | Natural fibers, spinning tools |
+| Mining | Foundations | Stone tools, fire-setting |
+| Health | Foundations | Basic hygiene, shelter |
+| Health | Chemistry | Pharmaceuticals, water treatment chemicals |
+| Transport | Metals | Iron/steel for vehicles, rails |
+| Transport | Energy | Steam, fuel, electricity |
+| Transport | Mining | Iron ore, coal |
+| Transport | Machine Tools | Precision-machined parts |
+| Computing | Machine Tools | Gears, precision mechanisms |
+| Polymers | Foundations | Natural rubber, basic chemistry |
+
+## Critical Capability Dependencies
+
+Capabilities whose outputs are hard prerequisites for downstream work.
+
+| Capability | Depends On | Enables | Edge Type |
+|-----------|-----------|---------|-----------|
+| `metals.iron-steel` | `mining`, `foundations` | `machine-tools`, `energy`, `chemistry`, `transport` | material |
+| `machine-tools.iterative-bootstrap` | `machine-tools.casting` | `silicon`, `glass`, `gas-handling`, `photolithography` | tool |
+| `energy.electricity` | `metals`, `machine-tools` | `chemistry.electrolysis`, `energy.electric-furnaces`, `silicon` | material |
+| `chemistry.acids` | `mining`, `energy` | `silicon.basic-devices`, `glass.basic`, `chemistry.dopant-etch-gases` | material |
+| `chemistry.air-separation` | `energy.electricity`, `chemistry.distillation` | `silicon.crystal-growth` (argon) | material |
+| `silicon.crystal-growth` | `glass.advanced`, `chemistry.air-separation`, `measurement.precision-metrology` | `silicon.basic-devices` | material, tool |
+| `photolithography.fab-processes` | `chemistry.dopant-etch-gases`, `gas-handling.vacuum` | `chemistry.packaging-testing`, `vlsi-scaling` | material, tool |
+| `chemistry.lubricants` | `foundations`, `chemistry.petroleum-alternatives` | `machine-tools`, `energy` (bearing and machine operation) | material |
 
 ## Critical Raw Materials
 
 | Material | Source | Used In | Criticality |
 |----------|--------|---------|-------------|
-| Quartz (SiO₂) | Mining | Phase 7 (silicon), Phase 6 (glass) | Critical |
-| Iron ore | Mining | Phase 2 (iron/steel), all phases | Critical |
-| Copper ore | Mining | Phase 2 (copper), Phase 4 (wire) | Critical |
-| Carbon (charcoal/coke) | Wood/coal | Phase 2-7 (reducing agent, fuel) | Critical |
-| Coal | Mining | Phase 4 (coke, steam), Phase 7 (electrodes) | High |
-| Limestone | Mining | Phase 2 (flux), Phase 5 (Solvay) | High |
-| Sulfur/pyrite | Mining | Phase 5 (sulfuric acid) | Critical |
-| Fluorite (CaF₂) | Mining | Phase 5 (HF production) | Critical |
-| Tin ore (cassiterite) | Mining | Phase 2 (bronze) | Medium |
-| Clay | Mining | Phase 1 (pottery), Phase 2 (crucibles) | High |
-| Aluminum ore (bauxite) | Mining | Phase 5 (aluminum), Phase 8 (metallization) | Medium |
+| Quartz (SiO₂) | Mining | `silicon.mg-si-production`, `glass.advanced` | Critical |
+| Iron ore | Mining | `metals.iron-steel`, all downstream domains | Critical |
+| Copper ore | Mining | `metals.copper-bronze`, `energy.electricity` (wire) | Critical |
+| Carbon (charcoal/coke) | `energy.fuels` | Reducing agent and fuel for metals through silicon | Critical |
+| Coal | Mining | `energy.fuels.coal`, `energy.fuels.coke` (electrodes) | High |
+| Limestone | Mining | `metals` (flux), `chemistry.alkalis` (Solvay) | High |
+| Sulfur/pyrite | Mining | `chemistry.acids` (sulfuric acid) | Critical |
+| Fluorite (CaF₂) | Mining | `chemistry.acids` (HF production) | Critical |
+| Tin ore (cassiterite) | Mining | `metals.copper-bronze` (bronze) | Medium |
+| Clay | Mining | `ceramics.pottery`, `ceramics.kilns` | High |
+| Aluminum ore (bauxite) | Mining | `chemistry.electrolysis`, `machine-tools.casting` | Medium |
 
-## Side Quest Dependency Table
+## Parallel Domain Dependency Table
 
-| Side Quest | Key Dependencies | Critical Resources | Main Bottleneck |
-|------------|-----------------|-------------------|-----------------|
-| SQ1: Knowledge Preservation | Phase 1 surplus | Scribes, durable media, storage | Time and specialists |
-| SQ2: Measurement and Metrology | Phase 3 machine tools | Stable references, skilled craftsmen | Precision machining |
-| SQ3: Transport and Logistics | Phase 2 metallurgy, Phase 4 energy | Wood, iron, later copper and fuel | Scale of construction |
-| SQ4: Mechanical Computing | Phase 3 high precision | Gears, springs, clockmaking skills | Extreme precision early on |
-| SQ5: Public Health | Phase 5 chemistry | Clean water, soap, basic drugs | Cultural adoption |
-| SQ6: Specialty Gases + Packaging | Phase 5, Phase 7-8 | Gas plants, cleanrooms, chemicals | High purity and capital |
-| SQ7: Energy Storage | Phase 4 electricity | Lead, acids, mechanical components | Material availability |
-| SQ8: Advanced Materials | Phase 2 kilns, Phase 5 chemistry | High-purity clays/silica, organics | High-temperature processing |
-| SQ9: Textiles, Fiber & Cordage | Phase 1+, Phase 2 water power | Flax, hemp, wool, cotton | Belt and rope supply for power transmission |
-| SQ10: Lubricants, Oils & Fluid Mechanics | Phase 1+, Phase 3-4 machinery | Animal fats, oil seeds, petroleum | Bearing and cutting fluid supply |
-| SQ11: Mining Engineering | Phase 1+, Phase 3 machine tools | Timber, iron, pumps, ventilation | Deep drainage drives steam engine development |
-| SQ12: Petroleum &amp; Alt Chemistry | Phase 2 coke ovens, Phase 5 distillation | Coal tar, petroleum, fermentation substrates | Feedstock availability and dual-path planning |
-| SQ13: Aircraft Development | Phase 2-4, SQ9, SQ10, SQ12 | Steel tube/wood, fabric, precision engine parts | Power-to-weight ratio and precision machining |
-| SQ14: Polymers &amp; Composites | Phase 5+ | Phenol, formaldehyde, ethylene, propylene (SQ12) | Polymerization, curing, composite layup |
+Domains and capabilities that can begin independently of the main critical path, with their key dependencies and bottlenecks.
+
+| Domain/Capability | Key Dependencies | Critical Resources | Main Bottleneck |
+|-------------------|-----------------|-------------------|-----------------|
+| `knowledge` | `foundations` | Scribes, durable media, storage | Time and specialists |
+| `measurement.precision-metrology` | `machine-tools.casting`, `metals` | Stable references, skilled craftsmen | Precision machining |
+| `transport` | `metals`, `energy`, `machine-tools` | Wood, iron, later copper and fuel | Scale of construction |
+| `computing.mechanical` | `machine-tools` (high precision) | Gears, springs, clockmaking skills | Extreme precision early on |
+| `health.sanitation` | `chemistry` | Clean water, soap, basic drugs | Cultural adoption |
+| `chemistry.air-separation` | `chemistry.distillation`, `energy.electricity` | Gas plants, cleanrooms, chemicals | High purity and capital |
+| `energy.storage` | `energy`, `chemistry`, `metals` | Lead, acids, mechanical components | Material availability |
+| `ceramics` | `foundations`, `metals` | High-purity clays/silica, organics | High-temperature processing |
+| `textiles` | `foundations`, water power | Flax, hemp, wool, cotton | Belt and rope supply for power transmission |
+| `chemistry.lubricants` | `foundations`, `chemistry.petroleum-alternatives` | Animal fats, oil seeds, petroleum | Bearing and cutting fluid supply |
+| `mining` | `foundations`, `machine-tools` | Timber, iron, pumps, ventilation | Deep drainage drives steam engine development |
+| `chemistry.petroleum-alternatives` | `foundations`, `chemistry.distillation` | Coal tar, petroleum, fermentation substrates | Feedstock availability and dual-path planning |
+| `transport.aviation` | `machine-tools`, `textiles`, `chemistry.petroleum-alternatives` | Steel tube/wood, fabric, precision engine parts | Power-to-weight ratio and precision machining |
+| `polymers` | `chemistry`, `machine-tools` | Phenol, formaldehyde, ethylene, propylene | Polymerization, curing, composite layup |
 
 ## General Resource Themes
 

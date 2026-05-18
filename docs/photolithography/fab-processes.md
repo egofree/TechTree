@@ -2,7 +2,7 @@
 
 > **Node ID**: `photolithography.fab-processes`
 > **Domain**: [Photolithography & IC Fabrication](./)
-> **Dependencies**: `specialty-gases.dopant-etch-gases`, `vacuum-optics.vacuum-systems`
+> **Dependencies**: `specialty-gases.dopant-etch-gases`, `gas-handling.vacuum`
 > **Enables**: `specialty-gases.packaging-testing`, `vlsi-scaling.advanced-processes`, `vlsi-scaling.continuous-scaling`
 > **Timeline**: Years 40-70
 > **Outputs**: fab_processes, early_ics, msi, patterned_oxide, doped_regions, metal_interconnects
@@ -59,7 +59,7 @@
 7. **Mask 5 — Metal**: Deposit 1 μm aluminum (evaporation or sputtering). Spin resist, expose Mask 5 (interconnect pattern). Wet etch Al (H₃PO₄:CH₃COOH:HNO₃ at 40-50°C, ~1 μm/min). Strip resist.
 8. **Mask 6 — Passivation**: Deposit 1 μm SiO₂ or SiNₓ (CVD). Expose Mask 6 (bond pad openings). Etch. Strip resist.
 9. **Alloy/anneal**: 400-450°C in forming gas (N₂/H₂ 90/10) for 30 min. Improves Al-Si contact, passivates dangling bonds with hydrogen.
-10. **Test, dice, package, wire bond**: See [Specialty Gases](../specialty-gases/gases-packaging-testing.md).
+10. **Test, dice, package, wire bond**: See [Specialty Gases](../chemistry/packaging-testing.md).
 
 **Yield expectations**: First IC runs will have <1% yield. Iteration is essential. Defect density, contamination control, and process uniformity all improve with practice. A mature process might achieve 50-90% yield on simple circuits.
 ---

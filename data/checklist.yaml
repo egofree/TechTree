@@ -32,9 +32,9 @@ tier_0_survival:
   - id: knowledge
     name: Writing system developed
     domain: knowledge
-  - id: machine-tools.precision-metrology
+  - id: measurement.precision-metrology
     name: Standardized basic measurements
-    domain: machine-tools
+    domain: measurement
   - id: health
     name: Sanitation and basic health practices
     domain: health
@@ -131,9 +131,9 @@ tier_2_semiconductor:
   - id: chemistry.acids
     name: Bulk chemical production (acids, alkalis)
     domain: chemistry
-  - id: vacuum-optics.vacuum-systems
+  - id: gas-handling.vacuum
     name: Vacuum pumps and chambers operational
-    domain: vacuum-optics
+    domain: gas-handling
   - id: silicon.mg-si-production
     name: Metallurgical-grade silicon produced
     domain: silicon

@@ -1,6 +1,6 @@
 # Thermosetting Polymers
 
-Process-level reference for thermosetting polymers in the tech tree. Thermosets cross-link irreversibly during cure; they cannot be remelted or reformed. This makes them dimensionally stable, heat-resistant, and chemically durable. Feedstocks come from [Petrochemicals](../petrochemicals/petroleum-alternatives.md).
+Process-level reference for thermosetting polymers in the tech tree. Thermosets cross-link irreversibly during cure; they cannot be remelted or reformed. This makes them dimensionally stable, heat-resistant, and chemically durable. Feedstocks come from [Petrochemicals](../chemistry/petroleum-alternatives.md).
 
 ## Materials and Processes
 
@@ -16,7 +16,7 @@ First synthetic plastic (commercialized 1909). Phenol + formaldehyde condensatio
 - Pressure: 15–30 MPa in compression press
 - Properties: hard, rigid, excellent electrical insulator, heat-resistant to ~200°C, chemically inert to most solvents
 - Applications: electrical insulators, switchgear components, distributor caps, molded fittings, early plastic goods
-- Note: novolac resins are also the basis for positive-tone photoresist binders in [Photolithography](../photolithography/resists-masks-lithography.md)
+- Note: novolac resins are also the basis for positive-tone photoresist binders in [Photolithography](../photolithography/resists-masks.md)
 
 ### Epoxy Resins
 
@@ -33,7 +33,7 @@ Process conditions vary by application:
 
 Properties: high adhesive strength, excellent chemical resistance, low shrinkage on cure (<2%), good electrical insulation.
 
-Applications: die attach adhesive ([SQ 06](../specialty-gases/gases-packaging-testing.md)), IC encapsulation, composite matrix resin, structural adhesive, PCB substrate bonding, protective coatings.
+Applications: die attach adhesive ([SQ 06](../chemistry/packaging-testing.md)), IC encapsulation, composite matrix resin, structural adhesive, PCB substrate bonding, protective coatings.
 
 ### Phenolic Laminates (FR-4 / G-10)
 
@@ -46,7 +46,7 @@ Process: stack resin-impregnated fabric sheets (prepreg), press at 150–170°C 
 
 Properties: excellent electrical insulation, dimensional stability, moisture resistance, flame resistance (FR-4), mechanical strength.
 
-Applications: **PCB substrates** (critical dependency for [Photolithography](../photolithography/resists-masks-lithography.md) semiconductor path), electrical panels, terminal boards, brake linings, bearing retainers, structural insulating panels.
+Applications: **PCB substrates** (critical dependency for [Photolithography](../photolithography/resists-masks.md) semiconductor path), electrical panels, terminal boards, brake linings, bearing retainers, structural insulating panels.
 
 ### Unsaturated Polyester Resin
 

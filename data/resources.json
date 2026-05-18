@@ -4,7 +4,7 @@
       "name": "Quartz (SiO2)",
       "source": "Mining (surface deposits, quartz veins)",
       "used_in": [
-        "vacuum-optics.glass-advanced",
+        "glass.advanced",
         "silicon.mg-si-production"
       ],
       "criticality": "critical",
@@ -138,7 +138,7 @@
       "source": "Mining / evaporite deposits",
       "used_in": [
         "polymers.composites",
-        "vacuum-optics.glass-advanced"
+        "glass.advanced"
       ],
       "criticality": "medium",
       "notes": "Borosilicate glass fiber for structural composites; borax may be a bottleneck"

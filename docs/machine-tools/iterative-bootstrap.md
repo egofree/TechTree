@@ -1,14 +1,9 @@
-# Machine Tools Bootstrap
+# Machine Tool Bootstrap Sequence
 
-> **Node ID**: `machine-tools`
-> **Also covers**: `machine-tools.foundry`, `machine-tools.iterative-bootstrap`, `machine-tools.precision-metrology`, `machine-tools.bearings-abrasives`
-> **Domain**: [Machine Tools Bootstrap](./)
-> **Dependencies**: `lubricants`, `machine-tools.foundry`, `machine-tools.iterative-bootstrap`, `metallurgy`, `metallurgy.iron-steel`, `textiles`
-> **Enables**: `aircraft`, `computing`, `energy.electric-furnaces`, `energy.ice`, `energy.steam-power`, `machine-tools.bearings-abrasives`, `machine-tools.iterative-bootstrap`, `machine-tools.precision-metrology`, `photolithography`, `polymers.composites`, `polymers.synthetic-rubbers`, `polymers.thermoplastics`, `polymers.thermosets`, `silicon`, `silicon.crystal-growth`, `specialty-gases.packaging-testing`, `transport`, `vacuum-optics`
+> **Node ID**: machine-tools.iterative-bootstrap
+> **Domain**: Machine Tools Bootstrap
 > **Timeline**: Years 10-25
-> **Outputs**: lathe, shaper, mill, drill_press, grinder, precision_metrology, gears, screws, bearings, thread_standards, ...
-
-> **This phase is the master enabler.** Without precision machine tools, you cannot build the equipment for silicon processing, crystal pullers, vacuum pumps, lithography stages, or any semiconductor fabrication equipment. Everything from the Energy stage onward depends on this capability.
+> **Outputs**: lathe, shaper, mill, drill_press, leadscrew, half_nut, change_gears
 
 ## Philosophy: Gingery-Style Iterative Bootstrap
 
@@ -17,33 +12,6 @@ The approach follows Dave Gingery's proven method: build a crude foundry, cast a
 ```
 Hand tools → Foundry → Crude Lathe → Better Lathe → Shaper → Mill → Full Shop
 ```
-
-## Key Technologies
-
-### Charcoal Foundry (Scale-up from the Metallurgy stage)
-
-The foundry is step zero. Every machine tool starts as a sand-cast iron or aluminum casting.
-
-**Crucible furnace for aluminum**:
-- **Crucible**: Steel pipe with welded bottom, or fired clay-graphite crucible. 5-15 kg capacity for startup.
-- **Fuel**: Charcoal + forced air (electric blower or hand-cranked fan). Temperature needed: ~660°C (aluminum melts at 660°C, need ~750°C for fluidity).
-- **Melting time**: 20-40 minutes for 5 kg charge. Skim dross (aluminum oxide skin) before pouring.
-- **Aluminum sourcing**: Scrap aluminum (post-collapse salvage), or bauxite smelting (the Chemistry stage (Hall-Héroult — much harder). For bootstrap purposes, scrap or salvage is assumed available.
-
-**Crucible furnace for cast iron** (for machine beds and heavy parts):
-- **Temperature needed**: ~1200-1400°C (cast iron melts ~1150-1250°C depending on carbon content). Requires significant forced air and good insulation.
-- **Charge**: Pig iron, scrap iron, or iron bloom + 2-4% carbon (coke/charcoal). Add limestone flux (CaCO₃) to form slag.
-- **Crucible**: Clay-graphite (withstands higher temps). Silicon carbide crucible if available.
-- **Pouring**: Preheat molds to 200-400°C. Pour steadily, keep sprue full to prevent shrinkage defects.
-
-**Sand molding (green sand)**:
-- **Sand**: Fine silica sand (60-120 mesh, 90-95% SiO₂). River sand works if clean and fine.
-- **Binder**: Bentonite clay (8-12% by weight). If not available naturally, use any clay that provides bond strength.
-- **Water**: 3-6% by weight. Too much = steam explosions, gas porosity. Too little = sand crumbles, won't hold shape.
-- **Mixing**: Mull (knead) sand thoroughly — muller is a heavy wheel that grinds clay onto sand grains. Can be done by foot-treading for small batches. Test: squeeze sand in hand — should form a coherent cylinder that doesn't crumble, but breaks cleanly when snapped.
-- **Mold boxes (flasks)**: Two-part wooden frames (cope = top, drag = bottom). Sizes: 20×20 cm to 60×60 cm for startup work.
-- **Pattern making**: Carve wooden patterns ~1-2% oversize (shrinkage allowance — cast iron shrinks ~1%, aluminum ~1.3%). Add draft angles (1-3°) on vertical surfaces so pattern releases from sand. Include cores for internal passages (sand shapes held in place during pour).
-- **Molding process**: Place pattern in drag, ram sand around it (firm but not rock-hard — use peen end of rammer near pattern, flat end elsewhere). Flip drag, place cope on top, ram sand. Cut sprue (pouring channel) and risers (vent/feeding channels). Separate flasks, remove pattern carefully, close mold, pour.
 
 ### The First Lathe (Gingery Lathe)
 
@@ -106,116 +74,6 @@ This is the heart of the Machine Tools stage. Each machine enables the next:
 - **Function**: Spinning abrasive wheel removes microscopic amounts of material. Produces optically flat surfaces.
 - **Essential for**: Gauge blocks, machine ways, precision sealing surfaces (vacuum flanges, cylinder bores).
 
-### Precision Metrology
-
-This is NOT optional — you cannot build what you cannot measure.
-
-**Surface plates** (master reference flat):
-- Cast iron (heavily ribbed underside to prevent warpage), aged 6+ months to relieve casting stresses before finishing. Hand-scraped to flatness ~0.005 mm over 300 mm length.
-- OR granite (naturally stable, doesn't rust). Needs diamond abrasive to flatten — harder to produce from scratch but superior once made.
-
-**Straight edges** (reference for checking flatness):
-- Cast iron, 300-1000 mm long, I-beam cross-section. Scraped flat against surface plate.
-- Test by placing on workpiece, checking light gap (0.01 mm gap visible as light line against dark background), or using marking compound.
-
-**Squares** (reference for checking perpendicularity):
-- Cast iron or steel. Blade and beam. Check by: place square against straight edge on surface plate, flip 180°, check if gap appears. If gap doubles, square is out by half the gap.
-
-**Calipers and dividers**:
-- **Outside calipers**: Bow-shaped steel, adjustable via knurled nut. Transfer dimensions from workpiece to rule.
-- **Inside calipers**: Reverse bow for measuring bores.
-- **Vernier calipers**: Steel rule with sliding jaw and vernier scale (reads to 0.02 mm). Requires engraved graduations — use dividing head on mill.
-- **Dividers**: Two-legged steel tool for scribing circles and transferring distances.
-
-**Micrometers** (iterative improvement):
-- **Principle**: Threaded spindle advances 0.5 mm per revolution. Thimble divided into 50 divisions = 0.01 mm resolution.
-- **First micrometer**: Make screw thread as accurately as possible on lathe. Lap the thread (run nut back and forth with grinding compound) to smooth errors. Calibrate against gauge blocks.
-- **Frame**: Steel or cast iron C-frame, rigid enough that 1 kg hand pressure doesn't deflect more than 0.001 mm.
-- **Accuracy**: First attempts ~0.05 mm. Iterate to ~0.01 mm. Production micrometers: 0.005 mm.
-
-**Gauge blocks (Jo-blocks)**:
-- **Material**: Hardened and ground tool steel (or tungsten carbide for ultimate stability).
-- **Manufacturing**: Surface grind to rough size, then lap (rub against flat cast iron lap with fine abrasive paste) to final dimension. Requires temperature-controlled room (20°C ±0.5°C).
-- **Accuracy grades**: Workshop grade ±0.5 μm, inspection grade ±0.2 μm, master grade ±0.1 μm.
-- **Wringing**: Gauge blocks adhere when slid together (molecular attraction of ultra-flat surfaces). Stack to create any dimension.
-
-**Thread standards and gauges**:
-- **Go/No-Go gauges**: Two-end gauge — "Go" end fits into proper thread (minimum material), "No-Go" end does not (maximum material). Verifies thread is within tolerance.
-- **Thread pitch gauge**: Set of toothed blades matching standard pitches. Identify unknown threads by matching.
-
-### Abrasives & Grinding Media
-
-**Natural abrasives (available immediately)**:
-- **Emery**: Natural aluminum oxide (50-80% Al₂O₃) + iron oxide. Found in Greece, Turkey. Grit grades: coarse (24-60), medium (80-120), fine (150-240). For grinding and polishing.
-- **Pumice**: Volcanic glass, porous. Fine polishing.
-- **Sandstone**: Natural grinding wheels. Dress to shape with iron dresser.
-- **Quartz sand**: Ground to powder, sieved. Lapping and grinding compound.
-- **Jeweler's rouge** (iron oxide, Fe₂O₃): Fine polishing compound. Heat steel wool or iron filings in open air until red-hot. Grind resulting oxide to fine powder.
-- **Tripoli**: Silica-based polishing compound. Fine finish on soft metals.
-
-**Grit grading**: Sieve abrasive through woven wire screens. Screen mesh number = grit number (60 mesh = 60 grit, particles ~250 μm). Stack sieves coarse to fine, shake, weigh fractions.
-
-**Synthetic abrasives (require the Energy stage electric arc furnace)**:
-- **Silicon carbide (SiC)** — Acheson process: Silica sand + petroleum coke, heat in electric furnace to 2200-2500°C for 36-48 hours. SiO₂ + 3C → SiC + 2CO. Green to black crystalline mass. Crush, grade. Harder than aluminum oxide, sharp fracture.
-- **Aluminum oxide (Al₂O₃)** — Bauxite fused in electric arc furnace at 2000-2200°C. Cool, crush, grade. Tougher than SiC, better for steel grinding.
-
-**Lapping**: Mix graded abrasive (600-1200 grit, ~5-25 μm) with oil or water into slurry. Place slurry between two flat surfaces, rub in figure-8 pattern. Removes ~0.001-0.01 mm per hour. Produces optically flat surfaces. Essential for gauge blocks, valve seats, bearing surfaces.
-
-### Thread Standards &amp; Fastener Production
-
-**Thread profile standard** (choose ONE system and standardize immediately):
-- **Metric (ISO)**: 60° thread angle, flat crests and roots. Designated M×pitch (e.g., M8×1.25 = 8 mm major diameter, 1.25 mm pitch). Coarse pitch series is default (M8 coarse = 1.25 mm pitch).
-- **Unified (UNC/UNF)**: 60° thread angle, flat crests, rounded roots. Designated by diameter + TPI (e.g., 5/16-18 UNC = 5/16" diameter, 18 threads per inch, coarse series).
-- **CRITICAL**: Pick metric OR unified and commit. Mixing thread standards is a disaster for interchangeable parts. All taps, dies, gauges, and screws must match.
-
-**Thread cutting on lathe**:
-- **Setup**: Mount workpiece in chuck. Install correct change gears between spindle and leadscrew for desired pitch. Gear ratio = (pitch to cut / leadscrew pitch) × (stud gear teeth / lead gear teeth).
-- **Procedure**: Engage half-nut on leadscrew. First pass at 0.1-0.2 mm depth. Disengage half-nut at end of cut, return carriage to start. Re-engage on SAME thread (use thread dial indicator). Increase depth 0.1-0.2 mm per pass. Total depth for 60° thread = 0.614 × pitch. Final pass at full depth with light cut for smooth finish.
-
-**Tap and die production**:
-- **Taps** (cut internal threads): Turn HSS rod to diameter, cut 3-4 flutes with mill, thread between flutes on lathe, harden and temper. Three-tap set: taper tap (starts easily), plug tap (general use), bottoming tap (threads to bottom of blind hole).
-- **Dies** (cut external threads): Hardened steel plate with threaded hole and 3-4 cutting edges, split by adjustable slot. Die stock holds die and provides leverage.
-
-**Bolt making**: Heat rod end, upset in heading tool to form hex/square head. Turn shank to diameter, cut threads with die. Heat treatment for high-strength bolts: harden at 820°C, quench in oil, temper at 400-500°C (~800 MPa tensile).
-
-### Bearing Design &amp; Production
-
-**Plain (journal) bearings**:
-- **Construction**: Cylindrical housing with removable babbitt liner. Babbitt metal: Sn-Sb-Cu alloy (88/8/4 typical) — soft, embeds dirt, conforms to shaft. Pour molten babbitt into shell around mandrel.
-- **Clearance**: 0.001-0.002 × shaft diameter (50 mm shaft = 0.05-0.10 mm radial clearance). Too tight → seizure. Too loose → vibration.
-- **Load capacity**: Allowable bearing pressure 2-8 MPa for babbitt on steel.
-
-**Rolling element bearings** (Machine Tools+ precision):
-- **Ball bearing**: Inner ring, outer ring (hardened 52100 steel, 1% C, 1.5% Cr), balls, cage (brass or stamped steel). Standard 6200 series (light): e.g., 6205 = 25 mm bore × 52 mm OD × 15 mm width.
-- **Ball production**: Cut wire → cold head into rough spheres → grind between grooved ring plates → lap to 1-5 μm variation. Harden 820-860°C, oil quench, temper 150-200°C.
-- **Ring production**: Forge from bearing steel → turn → heat treat (58-62 HRC) → grind raceways → super-finish to 0.05 μm Ra.
-- **Assembly**: Press balls into cage between races, rivet cage, pack with grease.
-
-### Lubrication &amp; Coolants
-
-- **Tallow and lard**: Grease plain bearings (apply by hand or oil cup). Lard oil as cutting fluid for turning and threading — reduces friction, improves finish.
-- **Vegetable oil** (linseed, castor): Cutting fluid for brass and aluminum. Not ideal for steel (polymerizes and gums).
-- **Water with soluble oil**: Best for heavy machining (grinding, milling). 20:1 water-to-emulsifiable-oil ratio. Cools AND lubricates.
-- **Sulfurized cutting oil**: For heavy turning and gear cutting. Add flowers of sulfur (5-10%) to mineral oil or lard oil. Extreme pressure lubrication.
-- See [Lubricants](../lubricants/oils-fluid-mechanics.md) for the full production chain.
-
-### Cutting Tool Materials
-
-**Carbon steel tool bits** (first available, the Metallurgy stage steel):
-- Composition: 0.8-1.3% carbon steel. Harden by heating to 780-820°C and quenching, temper at 200-250°C.
-- Cutting speed: 5-10 m/min for steel, 15-30 m/min for cast iron and brass.
-- Loses hardness above ~200°C — limited to light cuts and slow speeds.
-
-**High-speed steel (HSS)** (the Energy-Chemistry stage transition, needs alloy elements):
-- Composition: Tungsten (18%), chromium (4%), vanadium (1%), carbon (0.7-0.8%) — classic T1 grade. M2 grade: 6% W, 5% Mo, 4% Cr, 2% V.
-- Hardness retained to ~600°C — 3-5x faster cutting than carbon steel.
-- Manufacturing: Melt alloy in electric furnace (Energy), cast, forge, heat treat (austenitize at 1250-1300°C, quench in oil, triple temper at 540-570°C).
-
-**Tool grinding**: Grind tool bits on abrasive wheel to correct geometry:
-- **Rake angle**: Positive (5-15°) for aluminum/brass, neutral to negative for steel/heavy cuts.
-- **Relief/clearance angle**: 6-12° below cutting edge.
-- **Nose radius**: 0.5-2 mm for finishing, sharp for roughing.
-
 ## Enables (Downstream)
 
 | Output | Used By |
@@ -268,19 +126,3 @@ This compounding improvement is the most powerful feedback loop in the entire te
 - **Metal chips and eye protection**: Turning produces sharp, hot chips (especially steel — blue-hot spirals). Safety glasses mandatory. Chip guards on lathes.
 - **Heavy castings**: Machine beds weigh 50-200 kg. Use hoists, rollers, team lifts. Never lift alone.
 - **Abrasive wheels**: Can explode if damaged or oversped. Ring test new wheels (suspend and tap — clear ring = good, dull thud = cracked). Never exceed rated RPM. Use wheel guards.
-
-## References
-
-- Dave Gingery, *Build Your Own Metal Working Shop from Scrap* (7-volume series) — the definitive bootstrap guide
-- L. T. C. Rolt, *Tools for the Job* (history of machine tools)
-- Moltrecht, *Machine Shop Practice* (practical machining reference)
-
-## parallel technology Dependencies
-
-- **[Metrology](../metrology/standards-instruments.md)** — deeply intertwined; you cannot build what you cannot measure. Every tolerance in this phase requires calibrated instruments.
-- **[Textiles](../textiles/fiber-cordage.md)** — drive belts for line shafts powering machine tools. Canvas or leather belts transmit water wheel or steam engine power to every machine.
-- **[Lubricants: Lubricants & Oils](../lubricants/oils-fluid-mechanics.md)** — bearing lubrication (tallow, lard) and cutting fluids essential for precision work and tool life.
-- **[Aircraft](../aircraft/development.md)** — precision cylinders, gear cutting (dividing head), and crankshaft machining from the Machine Tools stage directly enable aircraft piston engines.
----
-
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*

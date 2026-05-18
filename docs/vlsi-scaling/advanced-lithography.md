@@ -2,7 +2,7 @@
 
 > **Node ID**: `vlsi-scaling.advanced-lithography`
 > **Domain**: [VLSI Scaling & Advanced Semiconductor](./)
-> **Dependencies**: `photolithography.resists-masks`, `vacuum-optics.optics-inspection`
+> **Dependencies**: `photolithography.resists-masks`, `optics.inspection`
 > **Timeline**: Years 70-200+
 > **Outputs**: advanced_lithography, euv_capability, duv_capability
 

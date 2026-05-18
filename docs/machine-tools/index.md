@@ -1,0 +1,12 @@
+# Machine Tools Bootstrap
+
+Capabilities in this domain:
+
+- [Bearings, Abrasives & Cutting Tools](bearings-abrasives.md) — Plain journal bearings (babbitt metal), rolling element ball bearings (52100 steel), natural abrasives (emery, sandstone) and synthetic abrasives (SiC, Al₂O₃ from electric arc furnace), cutting tool materials (carbon steel, HSS), thread cutting on lathe, and tap and die production.
+- [Metal Casting](casting.md) — Crucible furnaces for aluminum (660°C) and cast iron (1200-1400°C), green sand molding with bentonite binder, pattern making with shrinkage allowance, flask-based casting, and investment casting.
+- [Metal Forming](forming.md) — Forge work, hammer forming, rolling, and drawing of metals into shapes.
+- [Iterative Machine Bootstrap](iterative-bootstrap.md) — The core self-improving sequence: crude lathe (0.
+- [Metal Joining](joining.md) — Forge welding, brazing, soldering, and riveting of metal components.
+- [Machining](machining.md) — Lathe turning, milling, drilling, and grinding of metal parts to precise dimensions.
+
+[↑ Back to Tech Tree](../index.md)

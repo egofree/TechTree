@@ -5,59 +5,77 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph machine-tools_internal ["Machine Tools Bootstrap — Internal Structure"]
         direction TB
-        machine-tools_foundry["Charcoal Foundry"]
+        machine-tools_casting["Metal Casting"]
         machine-tools_iterative-bootstrap["Iterative Machine Bootstrap"]
-        machine-tools_precision-metrology["Precision Metrology & Standards"]
         machine-tools_bearings-abrasives["Bearings, Abrasives & Cutting Tools"]
+        machine-tools_forming["Metal Forming"]
+        machine-tools_machining["Machining"]
+        machine-tools_joining["Metal Joining"]
     end
 
     %% ==================== DOMAIN NODE ====================
     machine-tools["Machine Tools Bootstrap"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
-    aircraft("Aircraft Development")
-    computing("Mechanical Computing & Automation")
+    chemistry("Chemistry")
+    chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
+    chemistry_packaging-testing("Semiconductor Packaging & Testing")
+    computing("Computing & Automation")
+    energy_cooling("Cooling Systems & Refrigeration")
     energy_electric-furnaces("Electric Furnaces")
-    energy_ice("Internal Combustion Engines")
+    energy_electricity("Electricity Generation & Distribution")
     energy_steam-power("Steam Power")
-    lubricants("Lubricants, Oils & Fluid Mechanics")
-    metallurgy("Metallurgy")
-    metallurgy_iron-steel("Iron & Steel Production")
+    gas-handling("Gas Handling")
+    glass("Glass")
+    measurement("Measurement & Instrumentation")
+    measurement_precision-metrology("Precision Metrology & Standards")
+    metals("Metals")
+    metals_iron-steel("Iron & Steel Production")
+    optics("Optics")
     photolithography("Photolithography & IC Fabrication")
     polymers_composites("Composite Materials")
-    polymers_synthetic-rubbers("Synthetic Rubbers")
+    polymers_rubber_synthetic("Synthetic Rubbers")
     polymers_thermoplastics("Thermoplastic Polymers")
     polymers_thermosets("Thermosetting Polymers")
     silicon("Silicon")
-    silicon_crystal-growth("Crystal Growth & Wafering")
-    specialty-gases_packaging-testing("Semiconductor Packaging & Testing")
     textiles("Textiles, Fiber & Cordage")
-    transport("Transportation, Logistics & Communication")
-    vacuum-optics("Vacuum, Optics & Advanced Glass")
+    transport("Transportation & Logistics")
+    transport_aviation("Aviation")
 
     %% ==================== EDGES ====================
-    machine-tools_iterative-bootstrap --> machine-tools_foundry
-    machine-tools_precision-metrology --> machine-tools_foundry
-    machine-tools_bearings-abrasives --> machine-tools_iterative-bootstrap
-    machine-tools -.-> metallurgy
+    machine-tools_iterative-bootstrap -.-> machine-tools_casting
+    machine-tools_bearings-abrasives -.-> machine-tools_iterative-bootstrap
+    machine-tools_joining --> metals_iron-steel
+    machine-tools -.-> metals
     machine-tools -.-> textiles
-    machine-tools -.-> lubricants
-    machine-tools_foundry -.-> metallurgy_iron-steel
+    machine-tools --> chemistry_lubricants
+    machine-tools_casting --> metals_iron-steel
+    measurement_precision-metrology -.-> machine-tools_casting
     energy_steam-power -.-> machine-tools
+    energy_steam-power -.-> machine-tools_joining
     energy_electric-furnaces -.-> machine-tools
-    energy_ice -.-> machine-tools
-    vacuum-optics -.-> machine-tools
+    energy_cooling -.-> machine-tools
+    machine-tools_joining --> energy_electricity
+    machine-tools_joining --> chemistry
+    glass -.-> machine-tools
+    optics -.-> machine-tools
+    gas-handling -.-> machine-tools
+    measurement -.-> machine-tools
     silicon -.-> machine-tools
-    silicon_crystal-growth -.-> machine-tools_precision-metrology
     photolithography -.-> machine-tools
-    specialty-gases_packaging-testing -.-> machine-tools
+    chemistry_packaging-testing -.-> machine-tools
     transport -.-> machine-tools
     computing -.-> machine-tools
-    aircraft -.-> machine-tools
-    polymers_synthetic-rubbers -.-> machine-tools
+    transport_aviation -.-> machine-tools
+    polymers_rubber_synthetic -.-> machine-tools
     polymers_thermosets -.-> machine-tools
     polymers_thermoplastics -.-> machine-tools
     polymers_composites -.-> machine-tools
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
 
     %% ==================== STYLING ====================
     classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
@@ -67,27 +85,36 @@ graph TD
     classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
     classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class machine-tools domain
-    class machine-tools_foundry capability
+    class machine-tools_casting capability
     class machine-tools_iterative-bootstrap capability
-    class machine-tools_precision-metrology capability
     class machine-tools_bearings-abrasives capability
-    class aircraft external
+    class machine-tools_forming capability
+    class machine-tools_machining capability
+    class machine-tools_joining capability
+    class chemistry external
+    class chemistry_lubricants external
+    class chemistry_packaging-testing external
     class computing external
+    class energy_cooling external
     class energy_electric-furnaces external
-    class energy_ice external
+    class energy_electricity external
     class energy_steam-power external
-    class lubricants external
-    class metallurgy external
-    class metallurgy_iron-steel external
+    class gas-handling external
+    class glass external
+    class measurement external
+    class measurement_precision-metrology external
+    class metals external
+    class metals_iron-steel external
+    class optics external
     class photolithography external
     class polymers_composites external
-    class polymers_synthetic-rubbers external
+    class polymers_rubber_synthetic external
     class polymers_thermoplastics external
     class polymers_thermosets external
     class silicon external
-    class silicon_crystal-growth external
-    class specialty-gases_packaging-testing external
     class textiles external
     class transport external
-    class vacuum-optics external
+    class transport_aviation external
+    class EdgeLegend,MatNote,ToolNote legend

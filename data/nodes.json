@@ -158,24 +158,21 @@
       "name": "Metals",
       "level": "domain",
       "parent": null,
-      "description": "Extraction and working of metals from ore. Spans copper, bronze, iron, and steel production with increasingly complex smelting. Also covers basic glass production from silica sand.",
+      "description": "Extraction and working of metals from ore. Spans copper, bronze, iron, and steel production with increasingly complex smelting.",
       "timeline": "Years 5-15",
       "outputs": [
         "copper",
         "bronze",
         "wrought_iron",
         "steel",
-        "metal_tools",
-        "basic_glass",
-        "potash"
+        "metal_tools"
       ],
       "critical": false,
       "early_win": false,
       "pinnacle": false,
       "tags": {
         "material": [
-          "metals",
-          "glass"
+          "metals"
         ],
         "capability": [],
         "era": "copper-age",
@@ -240,10 +237,10 @@
       }
     },
     {
-      "id": "metals.glass",
+      "id": "glass.basic",
       "name": "Basic Glass Production",
       "level": "capability",
-      "parent": "metals",
+      "parent": "glass",
       "description": "Basic glass production from silica sand, potash, and limestone at 1100-1400°C for vessels, beads, and window panes.",
       "timeline": "Years 5-15",
       "outputs": [
@@ -277,13 +274,9 @@
         "mill",
         "drill_press",
         "grinder",
-        "precision_metrology",
         "gears",
         "screws",
         "bearings",
-        "thread_standards",
-        "gauge_blocks",
-        "micrometers",
         "formed_metal_parts",
         "machined_parts",
         "forge_welds",
@@ -372,10 +365,10 @@
       }
     },
     {
-      "id": "machine-tools.precision-metrology",
+      "id": "measurement.precision-metrology",
       "name": "Precision Metrology & Standards",
       "level": "capability",
-      "parent": "machine-tools",
+      "parent": "measurement",
       "description": "Surface plates via Whitworth three-plate method, hand scraping, straight edges, squares, vernier calipers (0.02 mm), micrometers (0.01 mm), gauge blocks (Jo-blocks), go/no-go gauges, and thread standards. Includes base unit standards, timekeeping, calibration infrastructure, electrical standards, and optical metrology. You cannot build what you cannot measure.",
       "timeline": "Years 10-25",
       "outputs": [
@@ -967,33 +960,6 @@
       }
     },
     {
-      "id": "chemistry.distillation-gas-handling",
-      "name": "Distillation & Gas Handling",
-      "level": "capability",
-      "parent": "chemistry",
-      "description": "Distillation columns (2-10 m, copper or steel, packed with ceramic Raschig rings), batch and continuous flow reactors, piping/valves/pumps for corrosive service, shell-and-tube heat exchangers, gas compression and storage, and purification by scrubbing, molecular sieves, and catalytic getters.",
-      "timeline": "Years 20-35",
-      "outputs": [
-        "distillation_capability",
-        "gas_handling",
-        "compressed_gases",
-        "purified_gases"
-      ],
-      "critical": false,
-      "early_win": false,
-      "pinnacle": false,
-      "tags": {
-        "material": [
-          "gases"
-        ],
-        "capability": [],
-        "era": "industrial",
-        "critical": false,
-        "early-win": false,
-        "pinnacle": false
-      }
-    },
-    {
       "id": "chemistry.cement",
       "name": "Cement & Concrete",
       "level": "capability",
@@ -1220,46 +1186,10 @@
       }
     },
     {
-      "id": "vacuum-optics",
-      "name": "Vacuum, Optics & Advanced Glass",
-      "level": "domain",
-      "parent": null,
-      "description": "Controlled environments and inspection capability. Vacuum pumps and chambers for deposition and evaporation, advanced glass production (borosilicate, fused silica, tubing), optical inspection tools (microscopes, comparators, spectroscopes), and precision temperature/pressure measurement.",
-      "timeline": "Years 25-40",
-      "outputs": [
-        "vacuum_pumps",
-        "vacuum_chambers",
-        "glass_apparatus",
-        "lenses",
-        "microscopes",
-        "quartz_crucibles",
-        "fused_silica",
-        "borosilicate_glass",
-        "thermocouples",
-        "temperature_measurement"
-      ],
-      "critical": false,
-      "early_win": false,
-      "pinnacle": false,
-      "tags": {
-        "material": [
-          "glass"
-        ],
-        "capability": [
-          "vacuum",
-          "optics"
-        ],
-        "era": "industrial",
-        "critical": false,
-        "early-win": false,
-        "pinnacle": false
-      }
-    },
-    {
-      "id": "vacuum-optics.glass-advanced",
+      "id": "glass.advanced",
       "name": "Advanced Glass Production",
       "level": "capability",
-      "parent": "vacuum-optics",
+      "parent": "glass",
       "description": "Borosilicate glass (Pyrex-type, thermal shock resistant), fused silica/quartz glass (1700°C+, critical for CZ crucibles), glass tubing production, glassworking techniques (lampworking, sealing), and quartz crucible fabrication for semiconductor use.",
       "timeline": "Years 25-40",
       "outputs": [
@@ -1286,10 +1216,10 @@
       }
     },
     {
-      "id": "vacuum-optics.vacuum-systems",
+      "id": "gas-handling.vacuum",
       "name": "Vacuum Technology",
       "level": "capability",
-      "parent": "vacuum-optics",
+      "parent": "gas-handling",
       "description": "Piston pumps (rough vacuum 10-50 Torr), rotary vane pumps (workhorse, 10⁻²-10⁻³ Torr), diffusion pumps (high vacuum 10⁻⁶-10⁻⁸ Torr), vacuum chambers (steel or glass), vacuum measurement (Bourdon, Pirani, ion gauges), and leak detection (bubble test, helium leak detector).",
       "timeline": "Years 25-40",
       "outputs": [
@@ -1305,38 +1235,6 @@
         "material": [],
         "capability": [
           "vacuum"
-        ],
-        "era": "industrial",
-        "critical": false,
-        "early-win": false,
-        "pinnacle": false
-      }
-    },
-    {
-      "id": "vacuum-optics.optics-inspection",
-      "name": "Optics & Inspection",
-      "level": "capability",
-      "parent": "vacuum-optics",
-      "description": "Lens grinding and polishing (rough grind → fine grind → polish with cerium oxide), compound microscopes (40x-1000x), optical comparators, spectroscopes, thermocouples, RTDs, pressure gauges, and electrical measurement (galvanometers, Wheatstone bridges). Essential for crystal defect inspection and lithography alignment.",
-      "timeline": "Years 25-40",
-      "outputs": [
-        "lenses",
-        "microscopes",
-        "optical_comparators",
-        "thermocouples",
-        "temperature_measurement",
-        "electrical_measurement"
-      ],
-      "critical": false,
-      "early_win": false,
-      "pinnacle": false,
-      "tags": {
-        "material": [
-          "glass"
-        ],
-        "capability": [
-          "optics",
-          "measurement"
         ],
         "era": "industrial",
         "critical": false,
@@ -2772,6 +2670,238 @@
         "material": [
           "polymers",
           "fibers"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "glass",
+      "name": "Glass",
+      "level": "domain",
+      "parent": null,
+      "description": "Glass production from basic soda-lime through advanced specialty glasses. Spans natural glass and simple melt forming, borosilicate for thermal shock resistance, fused silica for optical purity, and quartz crucibles for semiconductor crystal growth. Glass is both a structural material (vessels, tubing) and a functional enabler (optical elements, semiconductor consumables).",
+      "timeline": "Years 5-40",
+      "outputs": [
+        "basic_glass",
+        "potash",
+        "borosilicate_glass",
+        "fused_silica",
+        "quartz_crucibles",
+        "glass_tubing",
+        "glass_apparatus"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "glass"
+        ],
+        "capability": [],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "optics",
+      "name": "Optics",
+      "level": "domain",
+      "parent": null,
+      "description": "Optical component manufacturing and inspection systems. Spans lens grinding and polishing, compound microscopes for defect inspection, optical comparators for dimensional measurement, and spectroscopes for material analysis. Optics enables both quality inspection of manufactured parts and the projection imaging essential for photolithography alignment.",
+      "timeline": "Years 25-40",
+      "outputs": [
+        "lenses",
+        "microscopes",
+        "optical_comparators"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "glass"
+        ],
+        "capability": [
+          "optics"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "gas-handling",
+      "name": "Gas Handling",
+      "level": "domain",
+      "parent": null,
+      "description": "Gas compression, storage, purification, and vacuum systems. Spans basic gas handling with piping and compression, through vacuum pumps and chambers, to leak detection and controlled atmosphere environments. Essential for semiconductor fabrication processes requiring inert atmospheres, vacuum deposition, and precise gas delivery.",
+      "timeline": "Years 20-40",
+      "outputs": [
+        "gas_handling",
+        "compressed_gases",
+        "purified_gases",
+        "vacuum_pumps",
+        "vacuum_chambers",
+        "vacuum_measurement",
+        "leak_detection"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "gases"
+        ],
+        "capability": [
+          "vacuum"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "measurement",
+      "name": "Measurement & Instrumentation",
+      "level": "domain",
+      "parent": null,
+      "description": "Precision measurement, instrumentation, and calibration systems. Spans temperature and pressure sensing, dimensional metrology via the Whitworth three-plate method, gauge blocks and micrometers, electrical standards and calibration chains. You cannot build what you cannot measure — this domain provides the quantitative foundation for all precision manufacturing.",
+      "timeline": "Years 10-40",
+      "outputs": [
+        "precision_metrology",
+        "gauge_blocks",
+        "micrometers",
+        "calipers",
+        "thread_standards",
+        "go_no_go_gauges",
+        "surface_plates",
+        "length_standards",
+        "mass_standards",
+        "timekeeping",
+        "calibration_chain",
+        "electrical_standards",
+        "thermocouples",
+        "temperature_measurement",
+        "electrical_measurement"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "measurement"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "optics.inspection",
+      "name": "Optical Inspection",
+      "level": "capability",
+      "parent": "optics",
+      "description": "Lens grinding and polishing (rough grind → fine grind → polish with cerium oxide), compound microscopes (40x-1000x), optical comparators, and spectroscopes. Essential for crystal defect inspection and lithography alignment.",
+      "timeline": "Years 25-40",
+      "outputs": [
+        "lenses",
+        "microscopes",
+        "optical_comparators"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "glass"
+        ],
+        "capability": [
+          "optics"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "measurement.temperature-pressure",
+      "name": "Temperature & Pressure Measurement",
+      "level": "capability",
+      "parent": "measurement",
+      "description": "Thermocouples, RTDs, pressure gauges, and electrical measurement instruments (galvanometers, Wheatstone bridges). Provides the thermal and pressure sensing needed for furnace control, crystal growth, and process monitoring.",
+      "timeline": "Years 25-40",
+      "outputs": [
+        "thermocouples",
+        "temperature_measurement",
+        "electrical_measurement"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "measurement"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "chemistry.distillation",
+      "name": "Distillation",
+      "level": "capability",
+      "parent": "chemistry",
+      "description": "Distillation columns (2-10 m, copper or steel, packed with ceramic Raschig rings), batch and continuous flow reactors, and shell-and-tube heat exchangers. Separates liquid mixtures by boiling point for chemical purification and petroleum refining.",
+      "timeline": "Years 20-35",
+      "outputs": [
+        "distillation_capability"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "gas-handling.basic",
+      "name": "Basic Gas Handling",
+      "level": "capability",
+      "parent": "gas-handling",
+      "description": "Piping, valves, and pumps for corrosive service, gas compression and storage, and purification by scrubbing, molecular sieves, and catalytic getters. Provides the gas distribution infrastructure needed across chemical processing and semiconductor fabrication.",
+      "timeline": "Years 20-35",
+      "outputs": [
+        "gas_handling",
+        "compressed_gases",
+        "purified_gases"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "gases"
         ],
         "capability": [],
         "era": "industrial",

@@ -1,0 +1,75 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Metals
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph metals_internal ["Metals — Internal Structure"]
+        direction TB
+        metals_copper-bronze["Copper & Bronze Production"]
+        metals_iron-steel["Iron & Steel Production"]
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    metals["Metals"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    ceramics("Ceramics & Refractories")
+    chemistry("Chemistry")
+    energy("Energy")
+    energy_cooling("Cooling Systems & Refrigeration")
+    energy_steam-power("Steam Power")
+    energy_storage("Energy Storage & Diversification")
+    foundations("Foundations")
+    machine-tools("Machine Tools Bootstrap")
+    machine-tools_casting("Metal Casting")
+    machine-tools_joining("Metal Joining")
+    measurement_precision-metrology("Precision Metrology & Standards")
+    mining("Mining Engineering & Extractive Metallurgy")
+    transport("Transportation & Logistics")
+
+    %% ==================== EDGES ====================
+    metals -.-> foundations
+    metals --> mining
+    machine-tools_joining --> metals_iron-steel
+    machine-tools -.-> metals
+    machine-tools_casting --> metals_iron-steel
+    energy -.-> metals
+    energy_steam-power -.-> metals_iron-steel
+    energy_cooling -.-> metals_iron-steel
+    chemistry -.-> metals
+    measurement_precision-metrology -.-> metals
+    energy_storage -.-> metals
+    ceramics -.-> metals
+    transport -.-> metals
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
+    class metals domain
+    class metals_copper-bronze capability
+    class metals_iron-steel critical
+    class ceramics external
+    class chemistry external
+    class energy external
+    class energy_cooling external
+    class energy_steam-power external
+    class energy_storage external
+    class foundations external
+    class machine-tools external
+    class machine-tools_casting external
+    class machine-tools_joining external
+    class measurement_precision-metrology external
+    class mining external
+    class transport external
+    class EdgeLegend,MatNote,ToolNote legend

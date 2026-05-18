@@ -7,17 +7,13 @@ This project documents the complete dependency chain from fire and stone tools t
 ## Quick Navigation
 
 - [Overview & Introduction](docs/index.md)
-- [Core Tech Tree (Phases 1–9)](docs/core-tech-tree/overview.md)
-  - [Phase 1: Foundations](docs/core-tech-tree/phase-01-foundations.md)
-  - [Phase 2: Early Metallurgy](docs/core-tech-tree/phase-02-metallurgy.md)
-  - [Phase 3: Machine Tools Bootstrap](docs/core-tech-tree/phase-03-machine-tools.md)
-  - [Phase 4: Energy Revolution](docs/core-tech-tree/phase-04-energy.md)
-  - [Phase 5: Chemical Industry](docs/core-tech-tree/phase-05-chemistry.md)
-  - [Phase 6: Vacuum, Optics & Glass](docs/core-tech-tree/phase-06-vacuum-optics.md)
-  - [Phase 7: Silicon & Basic Devices](docs/core-tech-tree/phase-07-silicon.md)
-  - [Phase 8: Photolithography & ICs](docs/core-tech-tree/phase-08-photolithography.md)
-  - [Phase 9: VLSI, GPUs & Advanced Solar](docs/core-tech-tree/phase-09-scaling.md)
-- [Side Quests (Parallel Tracks)](docs/side-quests/index.md)
+- **Domains** (20):
+  - [Foundations](docs/foundations/) · [Metals](docs/metals/) · [Machine Tools](docs/machine-tools/) · [Energy](docs/energy/)
+  - [Chemistry](docs/chemistry/) · [Silicon](docs/silicon/) · [Photolithography](docs/photolithography/) · [VLSI Scaling](docs/vlsi-scaling/)
+  - [Ceramics](docs/ceramics/) · [Glass](docs/glass/) · [Optics](docs/optics/) · [Gas Handling](docs/gas-handling/) · [Measurement](docs/measurement/)
+  - [Mining](docs/mining/) · [Polymers](docs/polymers/) · [Textiles](docs/textiles/)
+  - [Knowledge](docs/knowledge/) · [Transport](docs/transport/) · [Health](docs/health/)
+  - [Computing](docs/computing/)
 - [Minimum Viable Civilization Checklist](docs/supporting/minimum-viable-checklist.md)
 - [Dependencies & Resources](docs/supporting/dependencies.md)
 - [All Diagrams](diagrams/mermaid/)
@@ -25,10 +21,9 @@ This project documents the complete dependency chain from fire and stone tools t
 ## How to Use
 
 1. Start with the [Overview](docs/index.md) to understand the full scope
-2. Follow the Core Phases in order — each depends on prior phases
-3. Explore Side Quests in parallel with the main phases
-4. Use the Mermaid diagrams for visual understanding (render at [mermaid.live](https://mermaid.live))
-5. Check the [Checklist](docs/supporting/minimum-viable-checklist.md) for prioritization
+2. Explore domains in dependency order (see [overview diagram](diagrams/mermaid/overview.mmd))
+3. Use the Mermaid diagrams for visual understanding (render at [mermaid.live](https://mermaid.live))
+4. Check the [Checklist](docs/supporting/minimum-viable-checklist.md) for prioritization
 
 ## Core Principles
 

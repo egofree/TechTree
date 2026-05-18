@@ -8,9 +8,9 @@ The tree maps every technology, material, and process needed to go from fire and
 
 Three levels, top to bottom:
 
-**Domain** — a broad technology area like metallurgy, energy, or silicon. Each domain is a self-contained world of related processes. Domains are the navigation units for this tree.
+**Domain** — a broad technology area like metals, energy, or silicon. Each domain is a self-contained world of related processes. Domains are the navigation units for this tree.
 
-**Capability** — a specific achievement within a domain, like iron smelting or crystal growth. Capabilities have dotted IDs showing their parent: `metallurgy.iron-steel`, `silicon.crystal-growth`.
+**Capability** — a specific achievement within a domain, like iron smelting or crystal growth. Capabilities have dotted IDs showing their parent: `metals.iron-steel`, `silicon.crystal-growth`.
 
 **Process** — a detailed method or operation, like Czochralski pulling or blast furnace operation. These carry two dots: `silicon.crystal-growth.cz-pulling`.
 
@@ -20,46 +20,46 @@ Dependencies use these dotted IDs. When photolithography requires silicon, the e
 
 The critical path through the tree, in rough chronological order. These domains form the spine: each depends on those before it.
 
-1. **[Foundations](foundations/)** — fire, charcoal, food surplus, kilns, pottery
+1. **[Foundations](foundations/)** — fire, charcoal, food surplus, stone tools
 2. **[Mining](mining/)** — ore access for every metallurgical process
-3. **[Metallurgy](metallurgy/)** — copper, bronze, iron, steel, basic glass
+3. **[Metals](metals/)** — copper, bronze, iron, steel
 4. **[Machine Tools](machine-tools/)** — the master enabler: lathe, shaper, mill, grinder
-5. **[Energy](energy/)** — coal, coke, steam engines, electricity, arc furnaces
-6. **[Chemistry](chemistry/)** — mineral acids, alkalis, distillation, gas handling
-7. **[Vacuum & Optics](vacuum-optics/)** — vacuum pumps, advanced glass, microscopes
-8. **[Silicon](silicon/)** — MG-Si production, crystal growth, solar cells
-9. **[Photolithography](photolithography/)** — cleanrooms, lithography, IC fabrication
-10. **[VLSI Scaling](vlsi-scaling/)** — continuous improvement toward GPUs and advanced solar
+5. **[Energy](energy/)** — water/wind power, steam engines, electricity, arc furnaces
+6. **[Ceramics](ceramics/)** — refractories, kilns, pottery, lime
+7. **[Chemistry](chemistry/)** — mineral acids, alkalis, distillation, oils & grease
+8. **[Glass](glass/)** — basic and advanced glass production, crucibles
+9. **[Gas Handling](gas-handling/)** — vacuum pumps, gas compression, purification
+10. **[Measurement](measurement/)** — precision metrology, measurement standards
+11. **[Silicon](silicon/)** — MG-Si production, crystal growth, solar cells
+12. **[Photolithography](photolithography/)** — cleanrooms, lithography, IC fabrication
+13. **[VLSI Scaling](vlsi-scaling/)** — continuous improvement toward GPUs and advanced solar
 
-Several other domains are also marked critical because their absence blocks downstream work: [knowledge](knowledge/), [textiles](textiles/), [lubricants](lubricants/), [specialty gases](specialty-gases/).
+Several capabilities in other domains are also critical because their absence blocks downstream work: [knowledge](knowledge/) (writing, education), [textiles](textiles/) (cordage, drive belts), [chemistry.lubricants](chemistry/) (oils, grease, cutting fluid), [optics](optics/) (microscopes, lens grinding).
 
 ## Domain Listing
 
 | Domain | Capabilities | Critical? | Key Outputs |
 |--------|:------------:|:---------:|-------------|
-| [Foundations](foundations/) | 4 | Yes | food surplus, charcoal, kilns, pottery |
-| [Mining](mining/) | 0 | Yes | copper ore, iron ore, coal, quartz |
-| [Metallurgy](metallurgy/) | 5 | | copper, iron, steel, glass, lime |
-| [Machine Tools](machine-tools/) | 4 | Yes | lathe, mill, grinder, precision metrology |
-| [Energy](energy/) | 7 | | steam engines, electricity, arc furnaces |
-| [Chemistry](chemistry/) | 4 | | mineral acids, alkalis, cement, gas handling |
-| [Vacuum & Optics](vacuum-optics/) | 3 | | vacuum pumps, fused silica, microscopes |
+| [Foundations](foundations/) | 3 | Yes | food surplus, fire, stone tools, agriculture |
+| [Mining](mining/) | 3 | Yes | copper ore, iron ore, coal, quartz, sulfur |
+| [Metals](metals/) | 2 | | copper, iron, steel |
+| [Machine Tools](machine-tools/) | 6 | Yes | lathe, mill, grinder, bearings |
+| [Energy](energy/) | 8 | | steam engines, electricity, arc furnaces, charcoal, coke |
+| [Ceramics](ceramics/) | 3 | | refractories, kilns, lime, pottery, crucibles |
+| [Chemistry](chemistry/) | 11 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
+| [Glass](glass/) | 2 | | basic glass, borosilicate glass, fused silica, quartz crucibles |
+| [Gas Handling](gas-handling/) | 2 | | vacuum pumps, gas compression, purification |
+| [Measurement](measurement/) | 2 | | precision instruments, gauge blocks, calibration |
 | [Silicon](silicon/) | 4 | | MG-Si, wafers, solar cells, transistors |
 | [Photolithography](photolithography/) | 3 | | cleanrooms, lithography, ICs |
 | [VLSI Scaling](vlsi-scaling/) | 4 | | GPUs, advanced solar, EDA tools |
-| [Knowledge](knowledge/) | 0 | Yes | writing, printing, education, libraries |
-| [Metrology](metrology/) | 0 | | length standards, timekeeping, calibration |
-| [Textiles](textiles/) | 0 | Yes | cordage, cloth, rope, drive belts |
-| [Lubricants](lubricants/) | 0 | Yes | oils, grease, cutting fluid, vacuum oil |
-| [Petrochemicals](petrochemicals/) | 0 | | fuels, solvents, ethanol, coal tar |
-| [Computing](computing/) | 0 | | slide rules, calculators, automation |
-| [Health](health/) | 0 | | clean water, sanitation, pharmaceuticals |
-| [Transport](transport/) | 0 | | roads, railways, telegraph, logistics |
-| [Specialty Gases](specialty-gases/) | 4 | Yes | argon, silane, dopant gases, etch gases |
-| [Energy Storage](energy-storage/) | 0 | | batteries, grid infrastructure, UPS |
-| [Advanced Materials](ceramics/) | 0 | | refractories, technical ceramics |
-| [Aircraft](aircraft/) | 0 | | engines, airframes, propellers |
-| [Polymers](polymers/) | 5 | | rubber, FR-4, PTFE, fiberglass |
+| [Knowledge](knowledge/) | 3 | Yes | writing, printing, education, libraries |
+| [Textiles](textiles/) | 4 | Yes | cordage, cloth, rope, drive belts |
+| [Transport](transport/) | 4 | | roads, railways, aviation, logistics |
+| [Computing](computing/) | 3 | | slide rules, calculators, automation |
+| [Health](health/) | 3 | | clean water, sanitation, pharmaceuticals |
+| [Polymers](polymers/) | 4 | | rubber, FR-4, PTFE, fiberglass |
+| [Optics](optics/) | 1 | | lenses, microscopes, optical comparators |
 
 ## Dependency Overview
 
@@ -67,26 +67,26 @@ See the [full dependency diagram](../diagrams/mermaid/overview.mmd) for the comp
 
 ## Parallel Opportunities
 
-These domains can begin early, independent of the main critical path. Starting them in parallel accelerates the whole effort.
+These domains and capabilities can begin early, independent of the main critical path. Starting them in parallel accelerates the whole effort.
 
-- **[Knowledge](knowledge/)** — writing, printing, education. Start Day 1. The 50-200 year bootstrapping effort dies with the first generation without knowledge transmission.
-- **[Textiles](textiles/)** — fiber, spinning, rope. Start Day 1. Cordage and cloth underpin mining hoists, tool hafting, and power transmission.
-- **[Lubricants](lubricants/)** — oils from animal fats and vegetable sources. Start Day 1. Without lubrication, every bearing and slide seizes.
-- **[Petrochemicals](petrochemicals/)** — fermentation produces ethanol, acetone, and acetic acid without petroleum. Start Day 1.
-- **[Computing](computing/)** — mechanical calculation with slide rules and nomograms. Start as soon as marking tools exist.
-- **[Health](health/)** — sanitation, water purification, quarantine protocols. Start Day 1. Skilled workers are the scarcest resource.
-- **[Transport](transport/)** — road construction and basic bridges expand the reachable resource base early on.
-- **[Metrology](metrology/)** — base unit standards and basic measuring instruments. Start alongside early toolmaking.
+- **[Knowledge](knowledge/)** (`knowledge.writing`) — writing, printing, education. Start Day 1. The 50-200 year bootstrapping effort dies with the first generation without knowledge transmission.
+- **[Textiles](textiles/)** (`textiles`) — fiber, spinning, rope. Start Day 1. Cordage and cloth underpin mining hoists, tool hafting, and power transmission.
+- **[Chemistry](chemistry/) lubricants** (`chemistry.lubricants`) — oils from animal fats and vegetable sources. Start Day 1. Without lubrication, every bearing and slide seizes.
+- **[Chemistry](chemistry/) petroleum alternatives** (`chemistry.petroleum-alternatives`) — fermentation produces ethanol, acetone, and acetic acid without petroleum. Start Day 1.
+- **[Computing](computing/)** (`computing.mechanical`) — mechanical calculation with slide rules and nomograms. Start as soon as marking tools exist.
+- **[Health](health/)** (`health.sanitation`) — sanitation, water purification, quarantine protocols. Start Day 1. Skilled workers are the scarcest resource.
+- **[Transport](transport/)** (`transport.roads`) — road construction and basic bridges expand the reachable resource base early on.
+- **[Machine Tools](machine-tools/) precision metrology** → now in **[Measurement](measurement/)** (`measurement.precision-metrology`) — base unit standards and basic measuring instruments. Start alongside early toolmaking.
+- **[Optics](optics/)** (`optics.inspection`) — lens grinding, microscopes, optical comparators. Start once glass production is established.
 
 ## Data Layer
 
 Structured data files backing this tree:
 
-- [nodes.json](../data/nodes.json) — complete node definitions (23 domains, 47 capabilities, 1 process)
+- [nodes.json](../data/nodes.json) — complete node definitions (20 domains, 75 capabilities, 7 processes)
 - [edges.json](../data/edges.json) — dependency graph (directed, acyclic)
 - [checklist.yaml](../data/checklist.yaml) — milestone checklist with progression tracking
 - [resources.json](../data/resources.json) — raw material catalog with criticality ratings
-- [dependencies.json](../data/dependencies.json) — legacy dependency matrix
 
 ## Supporting Docs
 

@@ -1,6 +1,6 @@
 # Optics & Inspection
 
-> **Node ID**: `optics.inspection`
+> **Node ID**: optics.inspection
 > **Domain**: [Optics](./)
 > **Enables**: `vlsi-scaling.advanced-lithography`
 > **Timeline**: Years 25-40

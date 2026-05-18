@@ -1,6 +1,6 @@
 # Steam Power
 
-> **Node ID**: `energy.steam-power`
+> **Node ID**: energy.steam-power
 > **Domain**: [Energy](./)
 > **Dependencies**: `machine-tools`, `metallurgy.iron-steel`, `metallurgy.metalworking`
 > **Timeline**: Years 15-25

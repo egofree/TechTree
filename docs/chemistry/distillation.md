@@ -1,7 +1,7 @@
 # Distillation
 
-> **Node ID**: `chemistry.distillation`
-> **Also covers**: `chemistry.cement`
+> **Node ID**: chemistry.distillation
+
 > **Domain**: [Chemistry](./)
 > **Dependencies**: `foundations.kilns-pottery`, `mining`
 > **Enables**: `silicon.purification`
@@ -45,7 +45,7 @@
 ### Polymer Feedstock Production
 
 - The Chemistry stage's chemical industry enables production of key polymer feedstocks: phenol, formaldehyde, ethylene, propylene, styrene.
-- See [Petrochemicals](../chemistry/petroleum-alternatives.md) for feedstock production and [Polymers](../polymers/overview.md) for polymerization.
+- See [Petrochemicals](../chemistry/petroleum-alternatives.md) for feedstock production and [Polymers](../polymers/index.md) for polymerization.
 - This bridges inorganic chemistry to the organic polymer industry.
 ---
 

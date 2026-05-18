@@ -1,6 +1,6 @@
 # Lubricants, Oils & Fluid Mechanics
 
-> **Node ID**: `lubricants`
+> **Node ID**: chemistry.lubricants
 > **Domain**: [Lubricants, Oils & Fluid Mechanics](./)
 > **Dependencies**: `foundations`, `petrochemicals`
 > **Enables**: `machine-tools`, `metallurgy.water-wind-power`

@@ -1,7 +1,7 @@
 # EDA, GPU Design & Advanced Packaging
 
-> **Node ID**: `vlsi-scaling.eda-design`
-> **Also covers**: `vlsi-scaling.advanced-processes`
+> **Node ID**: vlsi-scaling.eda-design
+
 > **Domain**: [VLSI Scaling & Advanced Semiconductor](./)
 > **Dependencies**: `computing`, `photolithography.fab-processes`
 > **Timeline**: Years 70-200+

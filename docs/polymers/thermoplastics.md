@@ -1,5 +1,7 @@
 # Thermoplastic Polymers
 
+> **Node ID**: polymers.thermoplastics
+
 Process-level reference for thermoplastics relevant to the tech tree. Covers synthesis routes, processing conditions, properties, and key applications. Feedstocks come from [Petrochemicals](../chemistry/petroleum-alternatives.md); polymerization reactors and extruders rely on the Machine Tools stage.
 
 ## Polymer Processes

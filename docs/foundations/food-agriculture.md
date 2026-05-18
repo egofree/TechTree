@@ -1,6 +1,6 @@
 # Agriculture & Food Production
 
-> **Node ID**: `foundations.food-agriculture`
+> **Node ID**: foundations.food-agriculture
 > **Domain**: [Foundations](./)
 > **Timeline**: Years 0-10+
 > **Outputs**: food_surplus, grain, animal_power, leather, tallow, wool, preserved_food

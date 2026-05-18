@@ -1,6 +1,6 @@
 # Continuous Scaling
 
-> **Node ID**: `vlsi-scaling.continuous-scaling`
+> **Node ID**: vlsi-scaling.continuous-scaling
 > **Domain**: [VLSI Scaling & Advanced Semiconductor](./)
 > **Dependencies**: `photolithography.fab-processes`
 > **Timeline**: Years 70-200+
@@ -55,7 +55,7 @@ As transistors shrink, interconnects become the performance bottleneck — RC de
 
 **Aluminum → Copper transition (~180 nm node, ~1997)**:
 - Aluminum (ρ = 2.65 μΩ·cm) with W (tungsten) vias was standard through the 350 nm node.
-- Copper (ρ = 1.68 μΩ·cm, 37% lower resistance) cannot be plasma-etched — copper chlorides/fluorides are not volatile at reasonable temperatures. Instead, a damascene process etches trenches in dielectric, then fills with Cu by electroplating (see [Advanced Processes](advanced-processs.md) for full process details).
+- Copper (ρ = 1.68 μΩ·cm, 37% lower resistance) cannot be plasma-etched — copper chlorides/fluorides are not volatile at reasonable temperatures. Instead, a damascene process etches trenches in dielectric, then fills with Cu by electroplating (see [Advanced Processes](advanced-processes.md) for full process details).
 - Barrier layers: Ta/TaN (5-20 nm) line every trench to prevent Cu diffusion into SiO₂, which poisons devices. Barrier becomes a larger fraction of wire cross-section at each node, partially offsetting Cu's resistivity advantage.
 
 **Low-κ dielectrics**: SiO₂ (κ ≈ 4.0) inter-layer dielectric causes high inter-wire capacitance. Replacement progression: F-doped SiO₂ (κ ≈ 3.5) → organosilicate glass (κ ≈ 2.5-3.0) → porous OSG (κ ≈ 2.0-2.5). Each step reduces RC delay but trades mechanical strength — porous dielectrics crack during CMP and packaging. Air gaps (κ ≈ 1.0) in research.

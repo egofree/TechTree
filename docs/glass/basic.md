@@ -1,6 +1,6 @@
 # Basic Glass Production
 
-> **Node ID**: `glass.basic`
+> **Node ID**: glass.basic
 > **Domain**: [Glass](./)
 > **Timeline**: Years 5-15
 > **Outputs**: basic_glass, potash

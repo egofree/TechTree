@@ -1,6 +1,6 @@
 # Wind Power
 
-> **Node ID**: `energy.wind`
+> **Node ID**: energy.wind
 > **Domain**: [Energy](./)
 > **Dependencies**: `foundations`, `metallurgy.bronze` or `metallurgy.iron-steel`
 > **Enables**: `energy.steam-power` (millwright skills transfer), `agriculture` (grain milling), `water-systems` (pumping)

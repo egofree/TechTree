@@ -1,6 +1,7 @@
 # Synthetic Polymers & Elastomers
 
-> **Domain**: Polymers | **Node ID**: polymers.rubber.synthetic
+> **Node ID**: polymers.rubber.synthetic
+> **Domain**: Polymers
 > **Timeline**: Years 20-50
 > **Outputs**: nitrile_rubber, neoprene, silicone_elastomers, polyurethane
 

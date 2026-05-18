@@ -1,6 +1,6 @@
 # Metallurgical-Grade Silicon Production
 
-> **Node ID**: `silicon.mg-si-production`
+> **Node ID**: silicon.mg-si-production
 > **Domain**: [Silicon](./)
 > **Dependencies**: `energy.electric-furnaces`, `mining`
 > **Timeline**: Years 30-40

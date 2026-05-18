@@ -1,6 +1,6 @@
 # Measurement, Timekeeping & Metrology
 
-> **Node ID**: `measurement.precision-metrology`
+> **Node ID**: measurement.precision-metrology
 > **Domain**: [Measurement](./)
 > **Dependencies**: `foundations`, `metallurgy`
 > **Timeline**: Years 0-40+

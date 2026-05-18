@@ -1,6 +1,6 @@
 # Temperature & Pressure Measurement
 
-> **Node ID**: `measurement.temperature-pressure`
+> **Node ID**: measurement.temperature-pressure
 > **Domain**: [Measurement](./)
 > **Dependencies**: `foundations`, `metallurgy`, `energy`
 > **Timeline**: Years 25-40

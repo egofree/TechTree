@@ -1,6 +1,6 @@
 # Mining Engineering & Extractive Metallurgy
 
-> **Node ID**: `mining`
+> **Node ID**: mining.prospecting
 > **Domain**: [Foundations](./)
 > **Dependencies**: `foundations`
 > **Enables**: `chemistry.acids`, `chemistry.alkalis`, `chemistry.cement`, `energy.coal-coke`, `metallurgy`, `metallurgy.glass-lime`, `silicon.mg-si-production`, `transport`

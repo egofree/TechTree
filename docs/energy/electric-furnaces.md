@@ -1,6 +1,6 @@
 # Electric Furnaces
 
-> **Node ID**: `energy.electric-furnaces`
+> **Node ID**: energy.electric-furnaces
 > **Domain**: [Energy](./)
 > **Dependencies**: `energy.electricity`, `metallurgy.iron-steel`, `machine-tools`
 > **Enables**: `silicon.mg-si-production`, `metallurgy.iron-steel` (recycled), `chemistry.calcium-carbide`, `glass.advanced-glass`

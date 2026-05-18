@@ -1,6 +1,6 @@
 # Petroleum & Alternative Chemistry
 
-> **Node ID**: `petrochemicals`
+> **Node ID**: chemistry.petroleum-alternatives
 > **Domain**: [Petroleum & Alternative Chemistry](./)
 > **Dependencies**: `foundations`
 > **Enables**: `aircraft`, `energy.ice`, `lubricants`, `polymers.synthetic-rubbers`, `polymers.thermoplastics`, `polymers.thermosets`

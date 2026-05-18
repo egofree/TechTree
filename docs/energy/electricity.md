@@ -1,7 +1,7 @@
 # Electricity Generation & Distribution
 
-> **Node ID**: `energy.electricity`
-> **Also covers**: `energy.electric-furnaces`, `energy.ice`, `energy.electrolysis`, `energy.welding`
+> **Node ID**: energy.electricity
+> **Also covers**: `energy.ice`, `energy.electrolysis`, `energy.welding`
 > **Domain**: [Energy](./)
 > **Dependencies**: `chemistry`, `energy.electricity`, `machine-tools`, `metallurgy.iron-steel`, `petrochemicals`
 > **Enables**: `energy.electric-furnaces`, `energy.electrolysis`, `energy.welding`, `silicon.mg-si-production`, `specialty-gases.air-separation`, `specialty-gases.dopant-etch-gases`, `specialty-gases.hydrogen-silane`
@@ -145,7 +145,7 @@
 - **Natural rubber vulcanization**: latex from *Hevea brasiliensis* or temperate alternatives (guayule, Russian dandelion) is coagulated, masticated on a two-roll mill, then compounded with sulfur (1.5-3 phr) and zinc oxide as activator
 - **Heat curing** at 140-180°C in electric vulcanizing presses or steam autoclaves (3-10 bar) using the Energy stage electric heating and boiler steam; cycle times 5-30 minutes depending on thickness
 - **Applications beyond wire insulation**: shaft seals, gaskets, flat belts and V-belts for power transmission, hoses, vibration dampers, and tire construction for wheeled vehicles
-- **Synthetic rubbers** (nitrile, neoprene) are Chemistry+ materials requiring petrochemical feedstocks from [Petrochemicals](../chemistry/petroleum-alternatives.md); see [Polymers](../polymers/overview.md) for the full elastomer development roadmap
+- **Synthetic rubbers** (nitrile, neoprene) are Chemistry+ materials requiring petrochemical feedstocks from [Petrochemicals](../chemistry/petroleum-alternatives.md); see [Polymers](../polymers/index.md) for the full elastomer development roadmap
 
 ### Advanced Welding (Energy+)
 

@@ -1,6 +1,6 @@
 # Iron & Steel Production
 
-> **Node ID**: `metallurgy.iron-steel`
+> **Node ID**: metals.iron-steel
 > **Also covers**: `metallurgy.metalworking`
 > **Domain**: [Metallurgy](./)
 > **Dependencies**: `metallurgy.iron-steel`

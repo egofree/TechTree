@@ -1,6 +1,6 @@
 # Basic Semiconductor Devices
 
-> **Node ID**: `silicon.basic-devices`
+> **Node ID**: silicon.basic-devices
 > **Domain**: [Silicon](./)
 > **Dependencies**: `chemistry.acids`, `silicon.crystal-growth`, `gas-handling.vacuum`
 > **Timeline**: Years 30-50

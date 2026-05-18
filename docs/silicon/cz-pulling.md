@@ -1,6 +1,7 @@
 # Czochralski Crystal Pulling — Equipment & Construction
 
-> **Domain**: Silicon | **Node ID**: silicon.crystal-growth.cz-pulling
+> **Node ID**: silicon.crystal-growth.cz-pulling
+> **Domain**: Silicon
 > **Timeline**: Years 30-50
 > **Outputs**: single_crystal_ingots
 

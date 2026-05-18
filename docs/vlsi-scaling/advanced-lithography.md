@@ -1,6 +1,6 @@
 # Advanced Lithography
 
-> **Node ID**: `vlsi-scaling.advanced-lithography`
+> **Node ID**: vlsi-scaling.advanced-lithography
 > **Domain**: [VLSI Scaling & Advanced Semiconductor](./)
 > **Dependencies**: `photolithography.resists-masks`, `optics.inspection`
 > **Timeline**: Years 70-200+

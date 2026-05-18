@@ -1,6 +1,6 @@
 # Cleanrooms
 
-> **Node ID**: `photolithography.cleanrooms`
+> **Node ID**: photolithography.cleanrooms
 > **Domain**: [Photolithography & IC Fabrication](./)
 > **Dependencies**: `advanced-materials`, `specialty-gases`
 > **Timeline**: Years 40-70

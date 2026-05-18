@@ -1,5 +1,7 @@
 # Thermosetting Polymers
 
+> **Node ID**: polymers.thermosets
+
 Process-level reference for thermosetting polymers in the tech tree. Thermosets cross-link irreversibly during cure; they cannot be remelted or reformed. This makes them dimensionally stable, heat-resistant, and chemically durable. Feedstocks come from [Petrochemicals](../chemistry/petroleum-alternatives.md).
 
 ## Materials and Processes

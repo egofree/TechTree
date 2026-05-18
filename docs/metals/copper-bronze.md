@@ -1,6 +1,6 @@
 # Copper & Bronze Production
 
-> **Node ID**: `metallurgy.copper-bronze`
+> **Node ID**: metals.copper-bronze
 > **Domain**: [Metallurgy](./)
 > **Timeline**: Years 5-10
 > **Outputs**: copper, bronze, castings, ingots

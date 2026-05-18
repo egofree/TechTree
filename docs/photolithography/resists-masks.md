@@ -1,6 +1,6 @@
 # Photoresists, Masks & Lithography
 
-> **Node ID**: `photolithography.resists-masks`
+> **Node ID**: photolithography.resists-masks
 > **Domain**: [Photolithography & IC Fabrication](./)
 > **Dependencies**: `chemistry`, `polymers.thermosets`
 > **Enables**: `vlsi-scaling.advanced-lithography`

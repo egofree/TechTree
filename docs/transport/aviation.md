@@ -1,6 +1,6 @@
 # Aircraft Development
 
-> **Node ID**: `aircraft`
+> **Node ID**: transport.aviation
 > **Domain**: [Aircraft Development](./)
 > **Dependencies**: `machine-tools`, `petrochemicals`, `textiles`
 > **Timeline**: Years 10-50+

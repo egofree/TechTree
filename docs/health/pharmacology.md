@@ -1,6 +1,7 @@
 # Pharmacology
 
-> **Domain**: Health | **Node ID**: health.pharmacology
+> **Node ID**: health.pharmacology
+> **Domain**: Health
 > **Timeline**: Years 10-100+
 > **Outputs**: pharmaceuticals
 

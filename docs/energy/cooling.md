@@ -1,6 +1,6 @@
 # Cooling Systems & Refrigeration
 
-> **Node ID**: `energy.cooling`
+> **Node ID**: energy.cooling
 > **Domain**: [Energy](./)
 > **Dependencies**: `energy.electricity`, `machine-tools`, `chemistry`, `metals.iron-steel`
 > **Enables**: `chemistry.air-separation`, `photolithography.cleanrooms`, `silicon.crystal-growth`

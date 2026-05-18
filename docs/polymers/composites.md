@@ -1,5 +1,7 @@
 # Polymer Composites — Process Reference
 
+> **Node ID**: polymers.composites
+
 Fiber-reinforced polymer composites combine high-strength fibers with a binding
 matrix resin to produce materials stronger and lighter than either component
 alone. Processes, materials, and phase dependencies for each family.

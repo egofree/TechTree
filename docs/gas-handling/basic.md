@@ -1,6 +1,6 @@
 # Basic Gas Handling
 
-> **Node ID**: `gas-handling.basic`
+> **Node ID**: gas-handling.basic
 > **Domain**: [Gas Handling](./)
 > **Enables**: `specialty-gases.air-separation`, `specialty-gases.hydrogen-silane`
 > **Timeline**: Years 20-35

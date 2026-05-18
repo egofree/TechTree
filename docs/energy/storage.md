@@ -1,6 +1,6 @@
 # Energy Storage & Diversification
 
-> **Node ID**: `energy-storage`
+> **Node ID**: energy.storage
 > **Domain**: [Energy Storage & Diversification](./)
 > **Dependencies**: `chemistry`, `energy`, `metallurgy`
 > **Timeline**: Years 15-200+

@@ -1,6 +1,6 @@
 # Advanced Processes
 
-> **Node ID**: `vlsi-scaling.advanced-processes`
+> **Node ID**: vlsi-scaling.advanced-processes
 > **Domain**: [VLSI Scaling & Advanced Semiconductor](./)
 > **Dependencies**: `photolithography.fab-processes`, `specialty-gases.dopant-etch-gases`, `gas-handling.vacuum`
 > **Timeline**: Years 70-200+

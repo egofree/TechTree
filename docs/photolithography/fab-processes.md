@@ -1,6 +1,6 @@
 # Core Fab Processes
 
-> **Node ID**: `photolithography.fab-processes`
+> **Node ID**: photolithography.fab-processes
 > **Domain**: [Photolithography & IC Fabrication](./)
 > **Dependencies**: `specialty-gases.dopant-etch-gases`, `gas-handling.vacuum`
 > **Enables**: `specialty-gases.packaging-testing`, `vlsi-scaling.advanced-processes`, `vlsi-scaling.continuous-scaling`

@@ -1,6 +1,6 @@
 # Advanced Glass Production
 
-> **Node ID**: `glass.advanced`
+> **Node ID**: glass.advanced
 > **Domain**: [Glass](./)
 > **Dependencies**: `metallurgy.glass-lime`
 > **Enables**: `silicon.crystal-growth`

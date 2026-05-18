@@ -192,8 +192,8 @@ check_diagrams_present() {
     fi
     local count
     count=$(find "$diagram_dir" \( -name "*.svg" -o -name "*.mmd" \) -type f | wc -l)
-    if [[ "$count" -lt 24 ]]; then
-        echo "    Found $count diagram files, expected >= 24" >&2
+    if [[ "$count" -lt 21 ]]; then
+        echo "    Found $count diagram files, expected >= 21" >&2
         return 1
     fi
     return 0

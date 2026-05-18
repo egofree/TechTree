@@ -1,6 +1,6 @@
 # Mineral Acid Production
 
-> **Node ID**: `chemistry.acids`
+> **Node ID**: chemistry.acids
 > **Domain**: [Chemistry](./)
 > **Dependencies**: `metallurgy.glass-lime`, `mining`
 > **Enables**: `silicon.basic-devices`

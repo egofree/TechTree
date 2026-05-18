@@ -1,6 +1,6 @@
 # Water Power
 
-> **Node ID**: `energy.gravity`
+> **Node ID**: energy.gravity
 > **Domain**: [Energy](./)
 > **Dependencies**: `foundations`, `metals.copper-bronze` or `metals.iron-steel`
 > **Enables**: `energy.steam-power` (boiler feedwater pumping, mechanical skills), `agriculture` (grain milling), `water-systems` (pumping), `energy.electricity` (prime mover for generators)

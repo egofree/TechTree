@@ -1,6 +1,6 @@
 # Vacuum Technology
 
-> **Node ID**: `gas-handling.vacuum`
+> **Node ID**: gas-handling.vacuum
 > **Domain**: [Gas Handling](./)
 > **Enables**: `photolithography.fab-processes`, `silicon.basic-devices`
 > **Timeline**: Years 25-40

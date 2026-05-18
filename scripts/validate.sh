@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Data-driven validator for tech-tree-bootstrap
 # Reads all structure from data files — no hardcoded filenames
-# Checks: 9 validation passes covering data integrity, DAG, cross-refs, terminology, diagrams
+# Checks: 15 validation passes covering data integrity, DAG, cross-refs, terminology, diagrams, tags, edge types, hierarchy
 
 set -euo pipefail
 
@@ -416,6 +416,263 @@ check_mermaid_syntax() {
     $ok
 }
 
+# --- Check 10: Tag completeness ---
+
+check_tag_completeness() {
+    local ok=true
+    local violations
+
+    # Every node must have a tags object
+    violations=$(jq -r '.nodes[] | select(.tags == null or (.tags | type) != "object") | .id' "$DATA_DIR/nodes.json")
+    if [[ -n "$violations" ]]; then
+        echo "$violations" | while IFS= read -r nid; do
+            echo "    Missing or non-object 'tags' on node: $nid" >&2
+        done
+        ok=false
+    fi
+
+    # Every node must have tags.material (array)
+    violations=$(jq -r '.nodes[] | select(.tags.material == null or (.tags.material | type) != "array") | .id' "$DATA_DIR/nodes.json")
+    if [[ -n "$violations" ]]; then
+        echo "$violations" | while IFS= read -r nid; do
+            echo "    Missing or non-array 'tags.material' on node: $nid" >&2
+        done
+        ok=false
+    fi
+
+    # Every node must have tags.era (string, non-null)
+    violations=$(jq -r '.nodes[] | select(.tags.era == null or (.tags.era | type) != "string") | .id' "$DATA_DIR/nodes.json")
+    if [[ -n "$violations" ]]; then
+        echo "$violations" | while IFS= read -r nid; do
+            echo "    Missing or non-string 'tags.era' on node: $nid" >&2
+        done
+        ok=false
+    fi
+
+    # Every node must have tags.critical, tags."early-win", tags.pinnacle as booleans
+    local bool_fields=("critical" "early-win" "pinnacle")
+    for field in "${bool_fields[@]}"; do
+        violations=$(jq -r --arg f "$field" '.nodes[] | select(.tags[$f] == null or (.tags[$f] | type) != "boolean") | .id' "$DATA_DIR/nodes.json")
+        if [[ -n "$violations" ]]; then
+            echo "$violations" | while IFS= read -r nid; do
+                echo "    Missing or non-boolean 'tags.$field' on node: $nid" >&2
+            done
+            ok=false
+        fi
+    done
+
+    $ok
+}
+
+# --- Check 11: Tag value validity ---
+
+check_tag_value_validity() {
+    local ok=true
+    local invalid
+
+    local valid_materials='["metals","silicon","glass","ceramics","polymers","chemicals","wood","stone","clay","fibers","gases","water","biomass"]'
+    local valid_capabilities='["energy","precision","computing","transport","health","measurement","cooling","vacuum","optics","construction"]'
+    local valid_eras='["stone-age","copper-age","bronze-age","iron-age","industrial","electronic","semiconductor","advanced"]'
+
+    # tags.material values must be from allowed list
+    invalid=$(jq -r --argjson valid "$valid_materials" '
+        .nodes[] | .id as $nid | .tags.material[] | select(. as $v | $valid | index($v) | not) | "\($nid): \(.): invalid material tag"
+    ' "$DATA_DIR/nodes.json")
+    if [[ -n "$invalid" ]]; then
+        echo "$invalid" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    # tags.capability values must be from allowed list
+    invalid=$(jq -r --argjson valid "$valid_capabilities" '
+        .nodes[] | .id as $nid | .tags.capability[]? | select(. as $v | $valid | index($v) | not) | "\($nid): \(.): invalid capability tag"
+    ' "$DATA_DIR/nodes.json")
+    if [[ -n "$invalid" ]]; then
+        echo "$invalid" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    # tags.era must be from allowed list
+    invalid=$(jq -r --argjson valid "$valid_eras" '
+        .nodes[] | select(.tags.era as $v | $valid | index($v) | not) | "\(.id): \(.tags.era): invalid era tag"
+    ' "$DATA_DIR/nodes.json")
+    if [[ -n "$invalid" ]]; then
+        echo "$invalid" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    $ok
+}
+
+# --- Check 12: Edge type validity ---
+
+check_edge_type_validity() {
+    local ok=true
+    local invalid
+
+    # Every edge must have a type field
+    invalid=$(jq -r '.edges[] | select(.type == null) | "\(.from) -> \(.to): missing type field"' "$DATA_DIR/edges.json")
+    if [[ -n "$invalid" ]]; then
+        echo "$invalid" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    # type must be "material" or "tool" (not "required" or anything else)
+    invalid=$(jq -r '.edges[] | select(.type != null and .type != "material" and .type != "tool") | "\(.from) -> \(.to): invalid type " + .type' "$DATA_DIR/edges.json")
+    if [[ -n "$invalid" ]]; then
+        echo "$invalid" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    # Specifically flag "required" as retired
+    invalid=$(jq -r '.edges[] | select(.type == "required") | "\(.from) -> \(.to): type=required is retired, use material or tool"' "$DATA_DIR/edges.json")
+    if [[ -n "$invalid" ]]; then
+        echo "$invalid" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    $ok
+}
+
+# --- Check 13: Parent chain consistency ---
+
+check_parent_chain() {
+    local ok=true
+    local violations
+
+    # Every non-null parent must reference an existing node ID
+    violations=$(jq -r '
+        (.nodes | map(.id)) as $ids |
+        .nodes[] | select(.parent != null) | select(.parent as $p | $ids | index($p) | not) |
+        "\(.id): parent=" + .parent + " does not exist"
+    ' "$DATA_DIR/nodes.json")
+    if [[ -n "$violations" ]]; then
+        echo "$violations" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    # Full chain must resolve to a domain node (no orphan chains)
+    violations=$(python3 -c "
+import json, sys
+
+with open('$DATA_DIR/nodes.json') as f:
+    nodes = json.load(f)['nodes']
+
+node_map = {n['id']: n for n in nodes}
+
+for node in nodes:
+    nid = node['id']
+    parent = node.get('parent')
+    visited = set()
+    current = nid
+    while current in node_map and node_map[current].get('parent') is not None:
+        if current in visited:
+            print(f'    {nid}: circular parent chain detected at {current}', file=sys.stderr)
+            break
+        visited.add(current)
+        current = node_map[current]['parent']
+    else:
+        # Chain ended — check it ended at a domain (no parent) or dangling
+        if current not in node_map:
+            if current is not None:
+                print(f'    {nid}: parent chain ends at non-existent node {current}', file=sys.stderr)
+        elif node_map[current].get('parent') is not None:
+            # This shouldn't happen if loop exited normally, but just in case
+            pass
+")
+    if [[ -n "$violations" ]]; then
+        ok=false
+    fi
+
+    $ok
+}
+
+# --- Check 14: Level-dot depth consistency ---
+
+check_level_dot_depth() {
+    local ok=true
+    local invalid
+
+    # 0 dots in ID -> level must be "domain"
+    invalid=$(jq -r '.nodes[] | select((.id | split(".") | length) == 1 and .level != "domain") | "\(.id): has 0 dots but level=" + .level + " (expected domain)"' "$DATA_DIR/nodes.json")
+    if [[ -n "$invalid" ]]; then
+        echo "$invalid" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    # 1 dot in ID -> level must be "capability" (2 segments)
+    invalid=$(jq -r '.nodes[] | select((.id | split(".") | length) == 2 and .level != "capability") | "\(.id): has 1 dot but level=" + .level + " (expected capability)"' "$DATA_DIR/nodes.json")
+    if [[ -n "$invalid" ]]; then
+        echo "$invalid" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    # 2+ dots in ID -> level must be "process" (3+ segments)
+    invalid=$(jq -r '.nodes[] | select((.id | split(".") | length) >= 3 and .level != "process") | "\(.id): has 2+ dots but level=" + .level + " (expected process)"' "$DATA_DIR/nodes.json")
+    if [[ -n "$invalid" ]]; then
+        echo "$invalid" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    $ok
+}
+
+# --- Check 15: Boolean consistency (tags vs top-level) ---
+
+check_boolean_consistency() {
+    local ok=true
+    local mismatches
+
+    # tags.critical must match top-level critical
+    mismatches=$(jq -r '.nodes[] | select(.tags.critical != .critical) | "\(.id): tags.critical=\(.tags.critical) but critical=\(.critical)"' "$DATA_DIR/nodes.json")
+    if [[ -n "$mismatches" ]]; then
+        echo "$mismatches" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    # tags."early-win" must match top-level early_win
+    mismatches=$(jq -r '.nodes[] | select(.tags["early-win"] != .early_win) | "\(.id): tags.early-win=\(.tags["early-win"]) but early_win=\(.early_win)"' "$DATA_DIR/nodes.json")
+    if [[ -n "$mismatches" ]]; then
+        echo "$mismatches" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    # tags.pinnacle must match top-level pinnacle
+    mismatches=$(jq -r '.nodes[] | select(.tags.pinnacle != .pinnacle) | "\(.id): tags.pinnacle=\(.tags.pinnacle) but pinnacle=\(.pinnacle)"' "$DATA_DIR/nodes.json")
+    if [[ -n "$mismatches" ]]; then
+        echo "$mismatches" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    $ok
+}
+
 # ============================================================
 # Main
 # ============================================================
@@ -459,6 +716,21 @@ echo ""
 echo "--- Diagrams ---"
 check "Diagrams generated and present" check_diagrams_generated
 check "Mermaid syntax valid (basic)" check_mermaid_syntax
+
+echo ""
+echo "--- Schema: Tags ---"
+check "Tag completeness (tags object, material, era, booleans)" check_tag_completeness
+check "Tag value validity (material, capability, era vocabularies)" check_tag_value_validity
+
+echo ""
+echo "--- Schema: Edge types ---"
+check "Edge type validity (material/tool only, no 'required')" check_edge_type_validity
+
+echo ""
+echo "--- Schema: Hierarchy ---"
+check "Parent chain consistency (all parents exist, chain resolves)" check_parent_chain
+check "Level-dot depth consistency (0 dots=domain, 1=capability, 2+=process)" check_level_dot_depth
+check "Boolean consistency (tags booleans match top-level fields)" check_boolean_consistency
 
 echo ""
 echo "=== Results: $PASSED/$TOTAL passed, $FAILED failed ==="

@@ -1,7 +1,7 @@
 # TECH-TREE-BOOTSTRAP KNOWLEDGE BASE
 
-**Generated:** 2026-05-16
-**Commit:** ef4ee29
+**Generated:** 2026-05-18
+**Commit:** c29cc63
 **Branch:** master
 
 ## OVERVIEW
@@ -14,34 +14,45 @@ Unified hierarchical ontology for bootstrapping industrial civilization from sto
 tech-tree-bootstrap/
 ├── docs/
 │   ├── index.md            # Unified entry point
-│   ├── {domain}/           # 23 domain directories with capability .md files
-│   └── supporting/         # Reference materials (checklist, dependencies, resources)
+│   ├── {domain}/           # 20 domain directories with capability .md files
+│   └── supporting/         # Schema spec, dependencies, checklist, resources
 ├── diagrams/mermaid/
 │   ├── overview.mmd        # Master dependency graph
-│   └── {domain}.mmd        # 23 domain flowcharts (auto-generated)
+│   └── {domain}.mmd        # 20 domain flowcharts (auto-generated)
 ├── data/                   # nodes.json, edges.json, checklist.yaml, resources.json
-└── scripts/                # generate-diagrams.sh, validate.sh, render-mermaid.sh
+├── scripts/                # Shell + Python toolchain (see COMMANDS)
+└── site/                   # Generated static site (HTML, tracked in git)
 ```
 
 ## WHERE TO LOOK
 
 | Task | Location | Notes |
 |------|----------|-------|
-| Domain content | `docs/{domain}/` | 23 domains, each with capability .md files |
+| Domain content | `docs/{domain}/` | 20 domains, each with capability .md files |
 | Mermaid diagrams | `diagrams/mermaid/` | Auto-generated from data, DO NOT hand-edit |
-| Structured data | `data/` | nodes.json (71 nodes), edges.json (115 edges), checklist.yaml, resources.json |
+| Structured data | `data/` | nodes.json (102 nodes), edges.json (128 edges), checklist.yaml, resources.json |
 | Diagram generator | `scripts/generate-diagrams.sh` | Auto-generates all .mmd from data |
-| Validation | `scripts/validate.sh` | Data-driven, checks cross-refs and DAG integrity |
+| Data validation | `scripts/validate.sh` | 15 checks: DAG, cross-refs, tags, edge types, hierarchy |
+| Site builder | `scripts/build-site.sh` | Generates `site/` from docs + data |
+| Site validation | `scripts/validate-site.sh` | Checks links, offline-first compliance |
+| Schema reference | `docs/supporting/schema-spec.md` | Normative spec for tags, edge types, SIK test |
 
 ## CONVENTIONS
 
 - Node IDs use dotted hierarchical format: `domain.capability.process`
+- Edge types: `material` (consumed substance) or `tool` (reusable infrastructure). No other values
+- Tags: `material[]`, `capability[]`, `era`, `critical`, `early-win`, `pinnacle` on every node
+- Tag vocabularies are closed sets (12 materials, 10 capabilities, 8 eras — see schema-spec.md)
 - Diagrams are auto-generated. Run `generate-diagrams.sh` after data changes, never hand-edit .mmd files
-- Domain directories and file names: lowercase, hyphenated
+- Domain directories and file names: lowercase, hyphenated (kebab-case)
 - Data format: JSON (machine data) + YAML (human config)
-- Mermaid init block: `%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%`
+- Content metadata: blockquote headers (`> **Field**: value`), NOT YAML frontmatter
+- Domain index.md template: H1 + "Capabilities in this domain:" + bullet list + back link
 - All links between docs are relative Markdown links
 - Prose style: clear, direct, avoid jargon, include dependency chains and safety concerns
+- Site is offline-first: no external URLs, no fetch(), no ES modules (enforced by validate-site.sh)
+- Mermaid init block: `%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%`
+- Edge rendering: material=solid (`-->`), tool=dashed (`-.->`)
 
 ## ANTI-PATTERNS (THIS PROJECT)
 
@@ -49,6 +60,9 @@ tech-tree-bootstrap/
 - **DO NOT** add phase/SQ terminology (old naming scheme, no longer used)
 - **DO NOT** modify `supporting/` without updating corresponding data files
 - **DO NOT** commit to `diagrams/rendered/` (gitignored)
+- **DO NOT** use `type: "required"` in edges.json — retired, use `"material"` or `"tool"`
+- **DO NOT** add tags outside the controlled vocabulary defined in schema-spec.md
+- **DO NOT** create new domains without passing the SIK Placement Test (schema-spec.md §5)
 
 ## COMMANDS
 
@@ -56,8 +70,14 @@ tech-tree-bootstrap/
 # Auto-generate all Mermaid diagrams from data layer
 bash scripts/generate-diagrams.sh
 
-# Validate repo structure (data-driven)
+# Validate repo structure (data-driven, 15 checks)
 bash scripts/validate.sh
+
+# Build static site to site/
+bash scripts/build-site.sh
+
+# Validate site build (links, offline-first)
+bash scripts/validate-site.sh
 
 # Render all diagrams to SVG (requires: npm i -g @mermaid-js/mermaid-cli)
 bash scripts/render-mermaid.sh svg
@@ -65,7 +85,12 @@ bash scripts/render-mermaid.sh svg
 
 ## NOTES
 
+- Current data: 102 nodes, 20 domains, 128 edges, 21 .mmd diagrams
 - All diagrams auto-generated from `data/nodes.json` + `data/edges.json`
 - `validate.sh` is data-driven. Reads nodes/edges to check cross-references and DAG integrity
-- Old `dependencies.json` superseded by `nodes.json` + `edges.json`
+- Schema specification: `docs/supporting/schema-spec.md` defines tag taxonomy, edge type rules, SIK placement test
+- SIK Placement Test determines domain boundaries (infrastructure/knowledge/practitioner overlap >50%)
+- `site/` is generated output but tracked in git (not gitignored)
+- `tech-tree-bootstrap/` has its own `.git/` — independent repo, NOT a submodule of parent
+- Scripts use bash (`set -euo pipefail`) + Python (generate-pages.py with lib/build_utils.py)
 - No CI/CD, no remote configured. Purely manual workflow

@@ -28,152 +28,915 @@
     }
   },
   "edges": [
-    { "from": "metals", "to": "foundations", "type": "tool" },
-    { "from": "metals", "to": "mining", "type": "material" },
-
-    { "from": "energy.gravity", "to": "textiles", "type": "tool" },
-    { "from": "energy.wind", "to": "textiles", "type": "tool" },
-    { "from": "energy.gravity", "to": "chemistry.lubricants", "type": "material" },
-    { "from": "energy.wind", "to": "chemistry.lubricants", "type": "material" },
-
-    { "from": "machine-tools.joining", "to": "metals.iron-steel", "type": "material" },
-    { "from": "glass.basic", "to": "mining", "type": "material" },
-
-    { "from": "machine-tools", "to": "metals", "type": "tool" },
-    { "from": "machine-tools", "to": "textiles", "type": "tool" },
-    { "from": "machine-tools", "to": "chemistry.lubricants", "type": "material" },
-    { "from": "machine-tools.casting", "to": "metals.iron-steel", "type": "material" },
-    { "from": "machine-tools.iterative-bootstrap", "to": "machine-tools.casting", "type": "tool" },
-    { "from": "measurement.precision-metrology", "to": "machine-tools.casting", "type": "tool" },
-    { "from": "machine-tools.bearings-abrasives", "to": "machine-tools.iterative-bootstrap", "type": "tool" },
-
-    { "from": "energy", "to": "metals", "type": "tool" },
-    { "from": "energy.fuels.coal", "to": "ceramics.kilns", "type": "tool" },
-    { "from": "energy.fuels.coke", "to": "ceramics.kilns", "type": "tool" },
-    { "from": "energy.fuels.coal", "to": "mining", "type": "material" },
-    { "from": "energy.fuels.coke", "to": "mining", "type": "material" },
-    { "from": "energy.steam-power", "to": "machine-tools", "type": "tool" },
-    { "from": "energy.steam-power", "to": "metals.iron-steel", "type": "tool" },
-    { "from": "energy.steam-power", "to": "machine-tools.joining", "type": "tool" },
-    { "from": "energy.electric-furnaces", "to": "machine-tools", "type": "tool" },
-    { "from": "energy.electric-furnaces", "to": "energy.electricity", "type": "material" },
-    { "from": "energy.cooling", "to": "machine-tools", "type": "tool" },
-    { "from": "energy.cooling", "to": "metals.iron-steel", "type": "tool" },
-    { "from": "energy.cooling", "to": "chemistry.petroleum-alternatives", "type": "material" },
-    { "from": "chemistry.electrolysis", "to": "energy.electricity", "type": "material" },
-    { "from": "machine-tools.joining", "to": "energy.electricity", "type": "material" },
-    { "from": "machine-tools.joining", "to": "chemistry", "type": "material" },
-
-    { "from": "chemistry", "to": "metals", "type": "tool" },
-    { "from": "chemistry", "to": "energy", "type": "material" },
-    { "from": "chemistry.acids", "to": "mining", "type": "material" },
-    { "from": "chemistry.acids", "to": "glass.basic", "type": "tool" },
-    { "from": "chemistry.alkalis", "to": "mining", "type": "material" },
-    { "from": "chemistry.cement", "to": "ceramics.kilns", "type": "tool" },
-    { "from": "chemistry.cement", "to": "mining", "type": "material" },
-
-    { "from": "glass", "to": "machine-tools", "type": "tool" },
-    { "from": "optics", "to": "machine-tools", "type": "tool" },
-    { "from": "gas-handling", "to": "machine-tools", "type": "tool" },
-    { "from": "measurement", "to": "machine-tools", "type": "tool" },
-    { "from": "glass", "to": "energy", "type": "material" },
-    { "from": "gas-handling", "to": "energy", "type": "material" },
-    { "from": "glass", "to": "chemistry", "type": "material" },
-    { "from": "gas-handling", "to": "chemistry", "type": "material" },
-    { "from": "measurement", "to": "chemistry", "type": "material" },
-    { "from": "glass.advanced", "to": "glass.basic", "type": "tool" },
-
-    { "from": "silicon", "to": "machine-tools", "type": "tool" },
-    { "from": "silicon", "to": "energy", "type": "material" },
-    { "from": "silicon", "to": "chemistry", "type": "material" },
-    { "from": "silicon", "to": "glass", "type": "tool" },
-    { "from": "silicon", "to": "gas-handling", "type": "tool" },
-    { "from": "silicon.mg-si-production", "to": "energy.electric-furnaces", "type": "tool" },
-    { "from": "silicon.mg-si-production", "to": "mining", "type": "material" },
-    { "from": "silicon.purification", "to": "chemistry.distillation", "type": "tool" },
-    { "from": "silicon.purification", "to": "gas-handling.basic", "type": "tool" },
-    { "from": "silicon.purification", "to": "chemistry.hydrogen-silane", "type": "material" },
-    { "from": "silicon.crystal-growth", "to": "glass.advanced", "type": "material" },
-    { "from": "silicon.crystal-growth", "to": "chemistry.air-separation", "type": "material" },
-    { "from": "silicon.crystal-growth", "to": "measurement.precision-metrology", "type": "tool" },
-    { "from": "silicon.basic-devices", "to": "silicon.crystal-growth", "type": "material" },
-    { "from": "silicon.basic-devices", "to": "gas-handling.vacuum", "type": "tool" },
-    { "from": "silicon.basic-devices", "to": "chemistry.acids", "type": "material" },
-
-    { "from": "photolithography", "to": "machine-tools", "type": "tool" },
-    { "from": "photolithography", "to": "chemistry", "type": "material" },
-    { "from": "photolithography", "to": "gas-handling", "type": "tool" },
-    { "from": "photolithography", "to": "optics", "type": "tool" },
-    { "from": "photolithography", "to": "silicon", "type": "material" },
-    { "from": "photolithography.cleanrooms", "to": "chemistry", "type": "material" },
-    { "from": "photolithography.cleanrooms", "to": "ceramics", "type": "tool" },
-    { "from": "photolithography.resists-masks", "to": "chemistry", "type": "material" },
-    { "from": "photolithography.resists-masks", "to": "polymers.thermosets", "type": "material" },
-    { "from": "photolithography.fab-processes", "to": "chemistry.dopant-etch-gases", "type": "material" },
-    { "from": "photolithography.fab-processes", "to": "gas-handling.vacuum", "type": "tool" },
-
-    { "from": "vlsi-scaling", "to": "photolithography", "type": "tool" },
-    { "from": "vlsi-scaling.continuous-scaling", "to": "photolithography.fab-processes", "type": "tool" },
-    { "from": "vlsi-scaling.advanced-lithography", "to": "photolithography.resists-masks", "type": "tool" },
-    { "from": "vlsi-scaling.advanced-lithography", "to": "optics.inspection", "type": "tool" },
-    { "from": "vlsi-scaling.advanced-processes", "to": "photolithography.fab-processes", "type": "tool" },
-    { "from": "vlsi-scaling.eda-design", "to": "computing", "type": "tool" },
-
-    { "from": "knowledge", "to": "foundations", "type": "tool" },
-    { "from": "measurement.precision-metrology", "to": "foundations", "type": "tool" },
-    { "from": "measurement.precision-metrology", "to": "metals", "type": "tool" },
-    { "from": "health", "to": "foundations", "type": "tool" },
-    { "from": "health", "to": "chemistry", "type": "material" },
-
-    { "from": "chemistry.air-separation", "to": "energy.electricity", "type": "material" },
-    { "from": "chemistry.air-separation", "to": "gas-handling.basic", "type": "tool" },
-    { "from": "chemistry.hydrogen-silane", "to": "chemistry.electrolysis", "type": "material" },
-    { "from": "chemistry.hydrogen-silane", "to": "gas-handling.basic", "type": "tool" },
-    { "from": "chemistry.dopant-etch-gases", "to": "chemistry.electrolysis", "type": "material" },
-    { "from": "chemistry.dopant-etch-gases", "to": "chemistry", "type": "tool" },
-    { "from": "chemistry.packaging-testing", "to": "photolithography.fab-processes", "type": "material" },
-    { "from": "chemistry.packaging-testing", "to": "machine-tools", "type": "tool" },
-    { "from": "chemistry.packaging-testing", "to": "polymers.thermosets", "type": "material" },
-
-    { "from": "energy.storage", "to": "energy", "type": "tool" },
-    { "from": "energy.storage", "to": "chemistry", "type": "material" },
-    { "from": "energy.storage", "to": "metals", "type": "tool" },
-
-    { "from": "ceramics", "to": "foundations", "type": "tool" },
-    { "from": "ceramics", "to": "metals", "type": "tool" },
-
-    { "from": "textiles", "to": "foundations", "type": "tool" },
-    { "from": "chemistry.lubricants", "to": "foundations", "type": "tool" },
-    { "from": "chemistry.lubricants", "to": "chemistry.petroleum-alternatives", "type": "material" },
-    { "from": "mining", "to": "foundations", "type": "tool" },
-    { "from": "chemistry.petroleum-alternatives", "to": "foundations", "type": "tool" },
-
-    { "from": "transport", "to": "metals", "type": "tool" },
-    { "from": "transport", "to": "energy", "type": "material" },
-    { "from": "transport", "to": "mining", "type": "material" },
-    { "from": "transport", "to": "machine-tools", "type": "tool" },
-
-    { "from": "computing", "to": "machine-tools", "type": "tool" },
-
-    { "from": "transport.aviation", "to": "machine-tools", "type": "tool" },
-    { "from": "transport.aviation", "to": "textiles", "type": "material" },
-    { "from": "transport.aviation", "to": "chemistry.petroleum-alternatives", "type": "material" },
-
-    { "from": "polymers", "to": "foundations", "type": "tool" },
-    { "from": "polymers.rubber.synthetic", "to": "chemistry.petroleum-alternatives", "type": "material" },
-    { "from": "polymers.rubber.synthetic", "to": "chemistry", "type": "material" },
-    { "from": "polymers.rubber.synthetic", "to": "machine-tools", "type": "tool" },
-    { "from": "polymers.thermosets", "to": "chemistry.petroleum-alternatives", "type": "material" },
-    { "from": "polymers.thermosets", "to": "chemistry", "type": "material" },
-    { "from": "polymers.thermosets", "to": "machine-tools", "type": "tool" },
-    { "from": "polymers.thermoplastics", "to": "chemistry.petroleum-alternatives", "type": "material" },
-    { "from": "polymers.thermoplastics", "to": "chemistry", "type": "material" },
-    { "from": "polymers.thermoplastics", "to": "machine-tools", "type": "tool" },
-    { "from": "polymers.composites", "to": "polymers.thermosets", "type": "material" },
-    { "from": "polymers.composites", "to": "machine-tools", "type": "tool" },
-
-    { "from": "energy.fuels.charcoal", "to": "foundations", "type": "tool" },
-    { "from": "ceramics.pottery.kiln-firing", "to": "energy.fuels.charcoal", "type": "material" },
-    { "from": "polymers.rubber.natural", "to": "foundations", "type": "tool" }
+    {
+      "from": "metals",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "metals",
+      "to": "mining",
+      "type": "material"
+    },
+    {
+      "from": "energy.gravity",
+      "to": "textiles",
+      "type": "tool"
+    },
+    {
+      "from": "energy.wind",
+      "to": "textiles",
+      "type": "tool"
+    },
+    {
+      "from": "energy.gravity",
+      "to": "chemistry.lubricants",
+      "type": "material"
+    },
+    {
+      "from": "energy.wind",
+      "to": "chemistry.lubricants",
+      "type": "material"
+    },
+    {
+      "from": "machine-tools.joining",
+      "to": "metals.iron-steel",
+      "type": "material"
+    },
+    {
+      "from": "glass.basic",
+      "to": "mining",
+      "type": "material"
+    },
+    {
+      "from": "machine-tools",
+      "to": "metals",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools",
+      "to": "textiles",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools",
+      "to": "chemistry.lubricants",
+      "type": "material"
+    },
+    {
+      "from": "machine-tools.casting",
+      "to": "metals.iron-steel",
+      "type": "material"
+    },
+    {
+      "from": "machine-tools.iterative-bootstrap",
+      "to": "machine-tools.casting",
+      "type": "tool"
+    },
+    {
+      "from": "measurement.precision-metrology",
+      "to": "machine-tools.casting",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.bearings-abrasives",
+      "to": "machine-tools.iterative-bootstrap",
+      "type": "tool"
+    },
+    {
+      "from": "energy",
+      "to": "metals",
+      "type": "tool"
+    },
+    {
+      "from": "energy.fuels.coal",
+      "to": "ceramics.kilns",
+      "type": "tool"
+    },
+    {
+      "from": "energy.fuels.coke",
+      "to": "ceramics.kilns",
+      "type": "tool"
+    },
+    {
+      "from": "energy.fuels.coal",
+      "to": "mining",
+      "type": "material"
+    },
+    {
+      "from": "energy.fuels.coke",
+      "to": "mining",
+      "type": "material"
+    },
+    {
+      "from": "energy.steam-power",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "energy.steam-power",
+      "to": "metals.iron-steel",
+      "type": "tool"
+    },
+    {
+      "from": "energy.steam-power",
+      "to": "machine-tools.joining",
+      "type": "tool"
+    },
+    {
+      "from": "energy.electric-furnaces",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "energy.electric-furnaces",
+      "to": "energy.electricity",
+      "type": "material"
+    },
+    {
+      "from": "energy.cooling",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "energy.cooling",
+      "to": "metals.iron-steel",
+      "type": "tool"
+    },
+    {
+      "from": "energy.cooling",
+      "to": "chemistry.petroleum-alternatives",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.electrolysis",
+      "to": "energy.electricity",
+      "type": "material"
+    },
+    {
+      "from": "machine-tools.joining",
+      "to": "energy.electricity",
+      "type": "material"
+    },
+    {
+      "from": "machine-tools.joining",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "chemistry",
+      "to": "metals",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry",
+      "to": "energy",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.acids",
+      "to": "mining",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.acids",
+      "to": "glass.basic",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.alkalis",
+      "to": "mining",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.cement",
+      "to": "ceramics.kilns",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.cement",
+      "to": "mining",
+      "type": "material"
+    },
+    {
+      "from": "glass",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "optics",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "gas-handling",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "measurement",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "glass",
+      "to": "energy",
+      "type": "material"
+    },
+    {
+      "from": "gas-handling",
+      "to": "energy",
+      "type": "material"
+    },
+    {
+      "from": "glass",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "gas-handling",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "measurement",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "glass.advanced",
+      "to": "glass.basic",
+      "type": "tool"
+    },
+    {
+      "from": "silicon",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "silicon",
+      "to": "energy",
+      "type": "material"
+    },
+    {
+      "from": "silicon",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "silicon",
+      "to": "glass",
+      "type": "tool"
+    },
+    {
+      "from": "silicon",
+      "to": "gas-handling",
+      "type": "tool"
+    },
+    {
+      "from": "silicon.mg-si-production",
+      "to": "energy.electric-furnaces",
+      "type": "tool"
+    },
+    {
+      "from": "silicon.mg-si-production",
+      "to": "mining",
+      "type": "material"
+    },
+    {
+      "from": "silicon.purification",
+      "to": "chemistry.distillation",
+      "type": "tool"
+    },
+    {
+      "from": "silicon.purification",
+      "to": "gas-handling.basic",
+      "type": "tool"
+    },
+    {
+      "from": "silicon.purification",
+      "to": "chemistry.hydrogen-silane",
+      "type": "material"
+    },
+    {
+      "from": "silicon.crystal-growth",
+      "to": "glass.advanced",
+      "type": "material"
+    },
+    {
+      "from": "silicon.crystal-growth",
+      "to": "chemistry.air-separation",
+      "type": "material"
+    },
+    {
+      "from": "silicon.crystal-growth",
+      "to": "measurement.precision-metrology",
+      "type": "tool"
+    },
+    {
+      "from": "silicon.basic-devices",
+      "to": "silicon.crystal-growth",
+      "type": "material"
+    },
+    {
+      "from": "silicon.basic-devices",
+      "to": "gas-handling.vacuum",
+      "type": "tool"
+    },
+    {
+      "from": "silicon.basic-devices",
+      "to": "chemistry.acids",
+      "type": "material"
+    },
+    {
+      "from": "photolithography",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "photolithography",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "photolithography",
+      "to": "gas-handling",
+      "type": "tool"
+    },
+    {
+      "from": "photolithography",
+      "to": "optics",
+      "type": "tool"
+    },
+    {
+      "from": "photolithography",
+      "to": "silicon",
+      "type": "material"
+    },
+    {
+      "from": "photolithography.cleanrooms",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "photolithography.cleanrooms",
+      "to": "ceramics",
+      "type": "tool"
+    },
+    {
+      "from": "photolithography.resists-masks",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "photolithography.resists-masks",
+      "to": "polymers.thermosets",
+      "type": "material"
+    },
+    {
+      "from": "photolithography.fab-processes",
+      "to": "chemistry.dopant-etch-gases",
+      "type": "material"
+    },
+    {
+      "from": "photolithography.fab-processes",
+      "to": "gas-handling.vacuum",
+      "type": "tool"
+    },
+    {
+      "from": "vlsi-scaling",
+      "to": "photolithography",
+      "type": "tool"
+    },
+    {
+      "from": "vlsi-scaling.continuous-scaling",
+      "to": "photolithography.fab-processes",
+      "type": "tool"
+    },
+    {
+      "from": "vlsi-scaling.advanced-lithography",
+      "to": "photolithography.resists-masks",
+      "type": "tool"
+    },
+    {
+      "from": "vlsi-scaling.advanced-lithography",
+      "to": "optics.inspection",
+      "type": "tool"
+    },
+    {
+      "from": "vlsi-scaling.advanced-processes",
+      "to": "photolithography.fab-processes",
+      "type": "tool"
+    },
+    {
+      "from": "vlsi-scaling.eda-design",
+      "to": "computing",
+      "type": "tool"
+    },
+    {
+      "from": "knowledge",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "measurement.precision-metrology",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "measurement.precision-metrology",
+      "to": "metals",
+      "type": "tool"
+    },
+    {
+      "from": "health",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "health",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.air-separation",
+      "to": "energy.electricity",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.air-separation",
+      "to": "gas-handling.basic",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.hydrogen-silane",
+      "to": "chemistry.electrolysis",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.hydrogen-silane",
+      "to": "gas-handling.basic",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.dopant-etch-gases",
+      "to": "chemistry.electrolysis",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.dopant-etch-gases",
+      "to": "chemistry",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.packaging-testing",
+      "to": "photolithography.fab-processes",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.packaging-testing",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.packaging-testing",
+      "to": "polymers.thermosets",
+      "type": "material"
+    },
+    {
+      "from": "energy.storage",
+      "to": "energy",
+      "type": "tool"
+    },
+    {
+      "from": "energy.storage",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "energy.storage",
+      "to": "metals",
+      "type": "tool"
+    },
+    {
+      "from": "ceramics",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "ceramics",
+      "to": "metals",
+      "type": "tool"
+    },
+    {
+      "from": "textiles",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.lubricants",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.lubricants",
+      "to": "chemistry.petroleum-alternatives",
+      "type": "material"
+    },
+    {
+      "from": "mining",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.petroleum-alternatives",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "transport",
+      "to": "metals",
+      "type": "tool"
+    },
+    {
+      "from": "transport",
+      "to": "energy",
+      "type": "material"
+    },
+    {
+      "from": "transport",
+      "to": "mining",
+      "type": "material"
+    },
+    {
+      "from": "transport",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "computing",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "transport.aviation",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "transport.aviation",
+      "to": "textiles",
+      "type": "material"
+    },
+    {
+      "from": "transport.aviation",
+      "to": "chemistry.petroleum-alternatives",
+      "type": "material"
+    },
+    {
+      "from": "polymers",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "polymers.rubber.synthetic",
+      "to": "chemistry.petroleum-alternatives",
+      "type": "material"
+    },
+    {
+      "from": "polymers.rubber.synthetic",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "polymers.rubber.synthetic",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "polymers.thermosets",
+      "to": "chemistry.petroleum-alternatives",
+      "type": "material"
+    },
+    {
+      "from": "polymers.thermosets",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "polymers.thermosets",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "polymers.thermoplastics",
+      "to": "chemistry.petroleum-alternatives",
+      "type": "material"
+    },
+    {
+      "from": "polymers.thermoplastics",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "polymers.thermoplastics",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "polymers.composites",
+      "to": "polymers.thermosets",
+      "type": "material"
+    },
+    {
+      "from": "polymers.composites",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "energy.fuels.charcoal",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "ceramics.pottery.kiln-firing",
+      "to": "energy.fuels.charcoal",
+      "type": "material"
+    },
+    {
+      "from": "polymers.rubber.natural",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "energy.fuels",
+      "to": "foundations.fire",
+      "type": "tool"
+    },
+    {
+      "from": "ceramics.pottery",
+      "to": "foundations.fire",
+      "type": "material"
+    },
+    {
+      "from": "metals.copper-bronze",
+      "to": "foundations.fire",
+      "type": "material"
+    },
+    {
+      "from": "machine-tools.forming",
+      "to": "foundations.fire",
+      "type": "tool"
+    },
+    {
+      "from": "foundations.food-agriculture",
+      "to": "foundations.tools-basic",
+      "type": "tool"
+    },
+    {
+      "from": "mining.extraction",
+      "to": "foundations.tools-basic",
+      "type": "tool"
+    },
+    {
+      "from": "ceramics.pottery",
+      "to": "foundations.tools-basic",
+      "type": "tool"
+    },
+    {
+      "from": "textiles.fibers",
+      "to": "foundations.tools-basic",
+      "type": "tool"
+    },
+    {
+      "from": "knowledge.writing",
+      "to": "foundations.tools-basic",
+      "type": "tool"
+    },
+    {
+      "from": "transport.roads",
+      "to": "foundations.tools-basic",
+      "type": "tool"
+    },
+    {
+      "from": "knowledge.writing",
+      "to": "foundations.food-agriculture",
+      "type": "tool"
+    },
+    {
+      "from": "metals.copper-bronze",
+      "to": "mining",
+      "type": "material"
+    },
+    {
+      "from": "metals.iron-steel",
+      "to": "metals.copper-bronze",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.forming",
+      "to": "metals.iron-steel",
+      "type": "material"
+    },
+    {
+      "from": "machine-tools.forming",
+      "to": "energy.fuels",
+      "type": "material"
+    },
+    {
+      "from": "machine-tools.machining",
+      "to": "machine-tools.iterative-bootstrap",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.machining",
+      "to": "machine-tools.bearings-abrasives",
+      "type": "tool"
+    },
+    {
+      "from": "knowledge.education",
+      "to": "knowledge.writing",
+      "type": "tool"
+    },
+    {
+      "from": "knowledge.libraries",
+      "to": "knowledge.writing",
+      "type": "tool"
+    },
+    {
+      "from": "knowledge.libraries",
+      "to": "knowledge.education",
+      "type": "tool"
+    },
+    {
+      "from": "computing.mechanical",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "computing.mechanical",
+      "to": "metals",
+      "type": "material"
+    },
+    {
+      "from": "computing.electromechanical",
+      "to": "computing.mechanical",
+      "type": "tool"
+    },
+    {
+      "from": "computing.electromechanical",
+      "to": "energy.electricity",
+      "type": "material"
+    },
+    {
+      "from": "computing.electronic",
+      "to": "computing.electromechanical",
+      "type": "tool"
+    },
+    {
+      "from": "computing.electronic",
+      "to": "silicon.basic-devices",
+      "type": "material"
+    },
+    {
+      "from": "health.sanitation",
+      "to": "ceramics",
+      "type": "tool"
+    },
+    {
+      "from": "health.medicine",
+      "to": "health.sanitation",
+      "type": "tool"
+    },
+    {
+      "from": "health.medicine",
+      "to": "knowledge.writing",
+      "type": "tool"
+    },
+    {
+      "from": "health.pharmacology",
+      "to": "health.medicine",
+      "type": "tool"
+    },
+    {
+      "from": "health.pharmacology",
+      "to": "chemistry.distillation",
+      "type": "tool"
+    },
+    {
+      "from": "textiles.spinning",
+      "to": "textiles.fibers",
+      "type": "material"
+    },
+    {
+      "from": "textiles.weaving",
+      "to": "textiles.spinning",
+      "type": "material"
+    },
+    {
+      "from": "textiles.dyeing",
+      "to": "textiles.weaving",
+      "type": "material"
+    },
+    {
+      "from": "textiles.dyeing",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "mining.prospecting",
+      "to": "knowledge.writing",
+      "type": "tool"
+    },
+    {
+      "from": "mining.extraction",
+      "to": "mining.prospecting",
+      "type": "tool"
+    },
+    {
+      "from": "mining.processing",
+      "to": "mining.extraction",
+      "type": "material"
+    },
+    {
+      "from": "mining.processing",
+      "to": "energy.fuels",
+      "type": "tool"
+    },
+    {
+      "from": "energy.fuels.charcoal",
+      "to": "energy.fuels",
+      "type": "tool"
+    },
+    {
+      "from": "energy.fuels.coal",
+      "to": "energy.fuels",
+      "type": "tool"
+    },
+    {
+      "from": "energy.fuels.coke",
+      "to": "energy.fuels",
+      "type": "tool"
+    },
+    {
+      "from": "ceramics.lime",
+      "to": "ceramics.kilns",
+      "type": "tool"
+    },
+    {
+      "from": "ceramics.lime",
+      "to": "mining",
+      "type": "material"
+    },
+    {
+      "from": "health",
+      "to": "polymers.rubber",
+      "type": "material"
+    },
+    {
+      "from": "energy.storage",
+      "to": "polymers.rubber",
+      "type": "material"
+    },
+    {
+      "from": "silicon.crystal-growth.cz-pulling",
+      "to": "silicon.crystal-growth",
+      "type": "tool"
+    },
+    {
+      "from": "silicon.crystal-growth.cz-pulling",
+      "to": "measurement.temperature-pressure",
+      "type": "tool"
+    },
+    {
+      "from": "transport.roads",
+      "to": "mining",
+      "type": "material"
+    },
+    {
+      "from": "transport.railways",
+      "to": "energy.steam-power",
+      "type": "tool"
+    },
+    {
+      "from": "transport.railways",
+      "to": "metals.iron-steel",
+      "type": "material"
+    },
+    {
+      "from": "transport.shipping",
+      "to": "textiles",
+      "type": "material"
+    },
+    {
+      "from": "measurement.temperature-pressure",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "measurement.temperature-pressure",
+      "to": "metals",
+      "type": "material"
+    }
   ]
 }

@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.electric-furnaces
 > **Domain**: [Energy](./)
-> **Dependencies**: `energy.electricity`, `metallurgy.iron-steel`, `machine-tools`
-> **Enables**: `silicon.mg-si-production`, `metallurgy.iron-steel` (recycled), `chemistry.calcium-carbide`, `glass.advanced-glass`
+> **Dependencies**: `energy.electricity`, `metals.iron-steel`, `machine-tools`
+> **Enables**: `silicon.mg-si-production`, `metals.iron-steel` (recycled), `glass.advanced`
 > **Timeline**: Years 20-30
 > **Outputs**: electric_arc_furnaces, resistance_heaters, eaf_steel
 

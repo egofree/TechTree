@@ -1,4 +1,4 @@
-# Machine Tool Bootstrap Sequence
+# Iterative Machine Bootstrap
 
 > **Node ID**: machine-tools.iterative-bootstrap
 > **Domain**: Machine Tools Bootstrap
@@ -26,7 +26,7 @@ The first lathe is built from castings and hand-scraped flat surfaces. It doesn'
 - **Scraping technique**: Use hand scraper (hardened steel blade, 15-25° cutting edge). Remove high spots identified by marking compound. Target: 20-30 contact points per 25×25 mm area. A skilled scraper covers ~0.5 m²/hour.
 
 **Headstock**: Cast iron housing containing spindle. Spindle turned between centers on the lathe itself (bootstrap!). Or use a pre-made steel shaft, carefully aligned.
-- **Spindle bearing**: Initially plain bronze bushings (cast from the Metallurgy stage copper + tin). Bore to fit spindle using adjustable reamer.
+- **Spindle bearing**: Initially plain bronze bushings (cast from metals-stage copper + tin). Bore to fit spindle using adjustable reamer.
 - **Bearing clearance**: 0.02-0.05 mm for smooth rotation without excessive play.
 
 **Tailstock**: Cast iron body with sliding barrel (MT2 or MT3 taper for center/drill chuck). Locks to bed via clamp plate. Align tailstock center with headstock center by turning a test bar between centers — if diameter varies, adjust tailstock laterally.

@@ -5,7 +5,7 @@
 > **Timeline**: Years 10-15
 > **Outputs**: cast_iron_parts, cast_aluminum_parts, sand_molds
 
-### Charcoal Foundry (Scale-up from the Metallurgy stage)
+### Charcoal Foundry (Scale-up from basic foundry)
 
 The foundry is step zero. Every machine tool starts as a sand-cast iron or aluminum casting.
 
@@ -13,7 +13,7 @@ The foundry is step zero. Every machine tool starts as a sand-cast iron or alumi
 - **Crucible**: Steel pipe with welded bottom, or fired clay-graphite crucible. 5-15 kg capacity for startup.
 - **Fuel**: Charcoal + forced air (electric blower or hand-cranked fan). Temperature needed: ~660°C (aluminum melts at 660°C, need ~750°C for fluidity).
 - **Melting time**: 20-40 minutes for 5 kg charge. Skim dross (aluminum oxide skin) before pouring.
-- **Aluminum sourcing**: Scrap aluminum (post-collapse salvage), or bauxite smelting (the Chemistry stage (Hall-Héroult — much harder). For bootstrap purposes, scrap or salvage is assumed available.
+- **Aluminum sourcing**: Scrap aluminum (post-collapse salvage), or bauxite smelting (Hall-Héroult process — much harder, needs chemistry). For bootstrap purposes, scrap or salvage is assumed available.
 
 **Crucible furnace for cast iron** (for machine beds and heavy parts):
 - **Temperature needed**: ~1200-1400°C (cast iron melts ~1150-1250°C depending on carbon content). Requires significant forced air and good insulation.

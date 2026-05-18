@@ -31,7 +31,7 @@
 - **Isoprene-based** (historical): Cyclized polyisoprene + bis-azide sensitizer. UV exposure causes azide to form nitrene radicals, cross-linking the rubber. Unexposed regions dissolve in xylene. Swelling during development limits resolution to ~2-3 μm. Historically important (Kodak KTFR, early IC production in 1960s-70s). Largely replaced by positive resists due to swelling artifacts.
 
 ### Polymer Packaging Materials
-- **Epoxy encapsulation**: Two-part epoxy for die attach and hermetic sealing — see [Polymers](../polymers/index.md) and [Specialty Gases](../specialty-gases/gases-packaging-testing.md)
+- **Epoxy encapsulation**: Two-part epoxy for die attach and hermetic sealing — see [Polymers](../polymers/index.md) and [Semiconductor Packaging & Testing](../chemistry/packaging-testing.md)
 - **Plastic substrates and lead frames**: Molded plastic packages for integrated circuits
 - **Phenolic laminate (FR-4)**: PCB substrate material from phenolic or epoxy resin impregnated glass fabric — see [Polymers](../polymers/index.md)
 - **Photoresist dependency**: Novolac resin (phenol + formaldehyde condensation polymer) production path documented in [Polymers](../polymers/index.md), with monomer feedstocks from [Petrochemicals](../petrochemicals/petroleum-alternatives.md)

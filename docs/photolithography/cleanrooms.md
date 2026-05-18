@@ -2,7 +2,7 @@
 
 > **Node ID**: photolithography.cleanrooms
 > **Domain**: [Photolithography & IC Fabrication](./)
-> **Dependencies**: `advanced-materials`, `specialty-gases`
+> **Dependencies**: `machine-tools`, `chemistry`
 > **Timeline**: Years 40-70
 > **Outputs**: cleanrooms, ultra_pure_water, cleanroom_consumables
 

@@ -2,7 +2,7 @@
 
 > **Node ID**: glass.advanced
 > **Domain**: [Glass](./)
-> **Dependencies**: `metallurgy.glass-lime`
+> **Dependencies**: `glass.basic`
 > **Enables**: `silicon.crystal-growth`
 > **Timeline**: Years 25-40
 > **Outputs**: borosilicate_glass, fused_silica, quartz_crucibles, glass_tubing, glass_apparatus

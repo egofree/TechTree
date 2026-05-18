@@ -35,7 +35,7 @@ Process conditions vary by application:
 
 Properties: high adhesive strength, excellent chemical resistance, low shrinkage on cure (<2%), good electrical insulation.
 
-Applications: die attach adhesive ([SQ 06](../chemistry/packaging-testing.md)), IC encapsulation, composite matrix resin, structural adhesive, PCB substrate bonding, protective coatings.
+Applications: die attach adhesive ([Semiconductor Packaging](../chemistry/packaging-testing.md)), IC encapsulation, composite matrix resin, structural adhesive, PCB substrate bonding, protective coatings.
 
 ### Phenolic Laminates (FR-4 / G-10)
 
@@ -81,14 +81,14 @@ Material forms:
 
 Ordered by approximate phase availability:
 
-- [ ] **Chemistry stage**: Bakelite compression molding operational (electrical insulators, molded fittings)
-- [ ] **Chemistry stage**: Phenolic resin synthesis (novolac and resole routes)
-- [ ] **Chemistry stage**: Urea-formaldehyde molding compounds for housings and fixtures
-- [ ] **Chemistry-Vacuum Optics stage**: Unsaturated polyester + fiberglass hand layup (panels, tanks, enclosures)
-- [ ] **Vacuum & Optics stage**: Epoxy resin formulation for structural adhesives and composite matrix
-- [ ] **Vacuum & Optics stage**: G-10 epoxy-glass laminate production (electrical insulation panels)
-- [ ] **Vacuum & Optics stage**: Polyurethane flexible and rigid foam production
-- [ ] **Silicon stage**: FR-4 brominated epoxy-glass laminate for PCB substrates
-- [ ] **Silicon stage**: Polyurea spray coating capability
-- [ ] **Photolithography stage**: Novolac-based photoresist resin for photolithography (same chemistry as Bakelite novolac route)
-- [ ] **Photolithography stage**: Epoxy die attach and IC encapsulation materials qualified for fab use
+- ☐ **Chemistry stage**: Bakelite compression molding operational (electrical insulators, molded fittings)
+- ☐ **Chemistry stage**: Phenolic resin synthesis (novolac and resole routes)
+- ☐ **Chemistry stage**: Urea-formaldehyde molding compounds for housings and fixtures
+- ☐ **Chemistry-Vacuum Optics stage**: Unsaturated polyester + fiberglass hand layup (panels, tanks, enclosures)
+- ☐ **Vacuum & Optics stage**: Epoxy resin formulation for structural adhesives and composite matrix
+- ☐ **Vacuum & Optics stage**: G-10 epoxy-glass laminate production (electrical insulation panels)
+- ☐ **Vacuum & Optics stage**: Polyurethane flexible and rigid foam production
+- ☐ **Silicon stage**: FR-4 brominated epoxy-glass laminate for PCB substrates
+- ☐ **Silicon stage**: Polyurea spray coating capability
+- ☐ **Photolithography stage**: Novolac-based photoresist resin for photolithography (same chemistry as Bakelite novolac route)
+- ☐ **Photolithography stage**: Epoxy die attach and IC encapsulation materials qualified for fab use

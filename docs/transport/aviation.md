@@ -122,7 +122,7 @@ Without propulsion technology, civilization is limited to ground and water trans
 
 ## Integration Points
 
-| Phase/SQ | Contribution |
+| Stage | Contribution |
 |----------|-------------|
 | Metallurgy | Steel tubing and wire for airframe structure |
 | Machine Tools | Machine tools for precision engine parts, propeller carving |

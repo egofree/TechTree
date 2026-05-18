@@ -39,7 +39,7 @@
 - **Polymerization**: Emulsion polymerization in water. Monomers + surfactant (sodium dodecyl sulfate) + free-radical initiator (potassium persulfate, 0.1-0.5%). React at 30-50°C ("cold NBR" — better properties) for 6-12 hours to ~70-80% conversion. Add short-stopping agent (hydroquinone) to terminate. Coagulate with salt/acid → rubber crumb. Wash, dry.
 - **Compounding and cure**: Same sulfur vulcanization as natural rubber. 150-180°C, 5-20 minutes.
 - **Properties**: Oil and fuel resistance (acrylonitrile content 18-50% — higher = more oil resistant but less flexible at low temperature). Tensile strength 10-25 MPa. THE rubber for fuel hoses, O-rings, oil seals, chemical-resistant gloves.
-- **Critical application**: Nitrile gloves for cleanroom (SQ 06) and HF acid handling (SQ 05).
+- **Critical application**: Nitrile gloves for cleanroom (Semiconductor Packaging) and HF acid handling (Silicon Processing).
 
 **Neoprene (polychloroprene, CR)**:
 - **Monomer**: Chloroprene (CH₂=CCl-CH=CH₂). From butadiene + Cl₂ at ~250°C → dichlorobutene → dehydrochlorination with NaOH → chloroprene.

@@ -271,6 +271,10 @@ def render_page(
     if search_index_js:
         search_index_block = f"<script>{search_index_js}</script>"
 
+    h1_block = ""
+    if not content.lstrip().startswith("<h1>"):
+        h1_block = f"<h1>{_esc(title)}</h1>\n"
+
     return f"""\
 <!DOCTYPE html>
 <html lang="en">
@@ -284,8 +288,7 @@ def render_page(
 <div class="layout">
 {sidebar_html}
 <main class="content">
-<h1>{_esc(title)}</h1>
-{meta_block}
+{h1_block}{meta_block}
 {content}
 </main>
 </div>

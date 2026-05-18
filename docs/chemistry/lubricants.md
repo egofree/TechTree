@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.lubricants
 > **Domain**: [Lubricants, Oils & Fluid Mechanics](./)
-> **Dependencies**: `foundations`, `petrochemicals`
-> **Enables**: `machine-tools`, `metallurgy.water-wind-power`
+> **Dependencies**: `foundations`, `chemistry.petroleum-alternatives`
+> **Enables**: `machine-tools`, `energy.gravity`
 > **Timeline**: Years 0-200+
 > **Outputs**: lubricating_oil, grease, cutting_fluid, hydraulic_fluid, vacuum_oil
 

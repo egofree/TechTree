@@ -3,8 +3,8 @@
 > **Node ID**: energy.electricity
 > **Also covers**: `energy.ice`, `energy.electrolysis`, `energy.welding`
 > **Domain**: [Energy](./)
-> **Dependencies**: `chemistry`, `energy.electricity`, `machine-tools`, `metallurgy.iron-steel`, `petrochemicals`
-> **Enables**: `energy.electric-furnaces`, `energy.electrolysis`, `energy.welding`, `silicon.mg-si-production`, `specialty-gases.air-separation`, `specialty-gases.dopant-etch-gases`, `specialty-gases.hydrogen-silane`
+> **Dependencies**: `chemistry`, `machine-tools`, `metals.iron-steel`, `chemistry.petroleum-alternatives`
+> **Enables**: `energy.electric-furnaces`, `energy.electrolysis`, `energy.welding`, `silicon.mg-si-production`, `chemistry.air-separation`, `chemistry.dopant-etch-gases`, `chemistry.hydrogen-silane`
 > **Timeline**: Years 15-30
 > **Outputs**: generators, motors, transformers, wire_cables, electricity, insulated_wire, electric_arc_furnaces, resistance_heaters, eaf_steel, internal_combustion_engines, ...
 
@@ -129,7 +129,7 @@
 - **Fuse sizing**: Fuse rating ≥ full-load current of device, but ≤ ampacity of wiring. Example: motor drawing 7A on 2.5 mm² wire (20A capacity) → use 10A fuse. The fuse protects the WIRE, not the device.
 - **Circuit breaker** (Energy+): Bimetallic strip heated by current bends and trips latch, opening contacts. Resettable. More convenient than fuses. Calibrate by adjusting strip tension.
 
-**Battery sizing** (lead-acid, see SQ 07):
+**Battery sizing** (lead-acid, see Energy Storage):
 - **Capacity**: C = P × t / V, where P = load (W), t = backup time (hours), V = system voltage. Example: 500W load, 4-hour backup, 48V system: C = 500 × 4 / 48 = 41.7 Ah. Add 50% margin for depth-of- discharge limit: 62.5 Ah bank.
 - **Charging current**: C/10 rate (capacity ÷ 10 hours) for maximum battery life. For 62.5 Ah bank: charge at ~6.25A, 48V = 300W charger needed. Charge time: ~12-14 hours from fully discharged.
 
@@ -151,7 +151,7 @@
 
 **Oxy-acetylene welding and cutting**:
 - **Acetylene production**: Calcium carbide (CaC₂, from CaO + 3C at ~2000°C in electric arc furnace) + water → C₂H₂ + Ca(OH)₂. Generate acetylene on demand in gas generator (water dripped onto carbide in closed vessel). NEVER store acetylene under pressure >0.15 MPa — it detonates spontaneously. Store dissolved in acetone in porous-filled cylinder (acetylene cylinders — safe storage at ~1.5 MPa).
-- **Oxygen supply**: From air separation (cryogenic distillation — see SQ 06) or from chemical generation (barium oxide process: heat BaO in air → BaO₂, then heat BaO₂ → BaO + ½O₂). Compressed into steel cylinders at 15-20 MPa.
+- **Oxygen supply**: From air separation (cryogenic distillation — see Air Separation) or from chemical generation (barium oxide process: heat BaO in air → BaO₂, then heat BaO₂ → BaO + ½O₂). Compressed into steel cylinders at 15-20 MPa.
 - **Torch construction**: Brass body with two control valves (oxygen and acetylene), mixing chamber, and copper tip (various sizes — tip orifice 0.5-3 mm). Hoses: rubber with fabric reinforcement, color-coded (red = fuel, blue/green = oxygen).
 - **Welding procedure**: Open acetylene valve, ignite (sooty flame). Open oxygen valve — flame becomes blue-white inner cone surrounded by pale blue outer envelope. Neutral flame (equal O₂ and C₂H₂): inner cone ~2-5 mm, temperature ~3100°C. Reducing flame (excess acetylene): longer inner cone, carburizing — for brazing and certain metals. Oxidizing flame (excess O₂): shorter, noisier — for brass/copper brazing only. Hold torch at ~45° angle, move steadily along joint. Add filler rod (matching base metal composition, 1.5-3 mm diameter) to leading edge of puddle. Joint types: butt, lap, fillet.
 - **Cutting**: Cutting torch has additional oxygen lever. Heat steel to bright red (~900°C) with acetylene flame, then press oxygen lever — pure O₂ jet reacts with hot steel exothermically (iron burns in oxygen). Blow molten slag through cut. Kerf (cut width) 1-3 mm. Cuts steel up to 300+ mm thick. CANNOT cut non-ferrous metals (copper, aluminum — they conduct heat away too fast, don't oxidize exothermically).

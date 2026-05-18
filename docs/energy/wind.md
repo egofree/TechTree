@@ -2,7 +2,7 @@
 
 > **Node ID**: energy.wind
 > **Domain**: [Energy](./)
-> **Dependencies**: `foundations`, `metallurgy.bronze` or `metallurgy.iron-steel`
+> **Dependencies**: `foundations`, `metals.copper-bronze` or `metals.iron-steel`
 > **Enables**: `energy.steam-power` (millwright skills transfer), `agriculture` (grain milling), `water-systems` (pumping)
 > **Timeline**: Years 5-15
 > **Outputs**: wind_power, mechanical_rotation, ground_grain, pumped_water

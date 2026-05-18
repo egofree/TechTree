@@ -1,9 +1,9 @@
-# Mining Engineering & Extractive Metallurgy
+# Prospecting & Surveying
 
 > **Node ID**: mining.prospecting
 > **Domain**: [Foundations](./)
 > **Dependencies**: `foundations`
-> **Enables**: `chemistry.acids`, `chemistry.alkalis`, `chemistry.cement`, `energy.coal-coke`, `metallurgy`, `metallurgy.glass-lime`, `silicon.mg-si-production`, `transport`
+> **Enables**: `chemistry.acids`, `chemistry.alkalis`, `chemistry.cement`, `energy.fuels`, `metals`, `glass.basic`, `silicon.mg-si-production`, `transport`
 > **Timeline**: Years 0-50+
 > **Outputs**: copper_ore, iron_ore, tin_ore, coal, quartz, sulfur, fluorite, concentrated_ore
 > **Note**: Mining is a separate domain; this file covers early surface prospecting techniques.

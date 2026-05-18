@@ -1,4 +1,4 @@
-# Measurement, Timekeeping & Metrology
+# Precision Metrology & Standards
 
 > **Node ID**: measurement.precision-metrology
 > **Domain**: [Measurement](./)

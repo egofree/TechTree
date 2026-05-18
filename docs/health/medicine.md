@@ -29,7 +29,7 @@
 ### PPE Fabrication
 
 **Eye protection**:
-- **Safety glasses**: Flat glass lenses (from the Metallurgy stage glass production) in wire or stamped metal frames. Side shields from leather or sheet metal. For grinding and cutting operations — prevent flying particles.
+- **Safety glasses**: Flat glass lenses (from glass production) in wire or stamped metal frames. Side shields from leather or sheet metal. For grinding and cutting operations — prevent flying particles.
 - **Goggles**: Soft leather or rubber frame with glass lenses. Seal against face. For chemical splash protection. Ventilated (small holes) to prevent fogging, but holes small enough to block splashes.
 - **Welding goggles**: Very dark glass (didymium glass or smoke-tinted glass). Shields eyes from UV and intense visible light during welding/brazing.
 

@@ -63,11 +63,11 @@ Properties: chemically inert (resists nearly all solvents, acids, and bases), ve
 
 ## Key Milestones
 
-- [ ] **Chemistry stage**: LDPE production via high-pressure autoclave (requires pressure vessel capability)
-- [ ] **Chemistry stage**: Suspension PVC from ethylene/chlorine feedstocks (ties to chlorine plant from the Chemistry stage chemistry)
-- [ ] **Chemistry stage**: Crystal PS from styrene monomer (simplest thermoplastic to start with)
-- [ ] **Chemistry stage**: Nylon 6,6 condensation polymerization (requires vacuum-capable autoclave)
-- [ ] **Chemistry stage**: HDPE via Ziegler-Natta catalyst (requires TiCl₄ from the Chemistry stage chlorosilane chemistry)
-- [ ] **Chemistry stage**: PTFE precursor chain (R-22 from chloroform + HF; HF available from the Chemistry stage fluorspar processing)
-- [ ] **Vacuum & Optics stage**: PTFE sintering at 380°C (requires furnace control beyond typical polymer processing)
-- [ ] **Vacuum & Optics+**: EPS foam production (requires pentane recovery and steam molding)
+- ☐ **Chemistry stage**: LDPE production via high-pressure autoclave (requires pressure vessel capability)
+- ☐ **Chemistry stage**: Suspension PVC from ethylene/chlorine feedstocks (ties to chlorine plant from the Chemistry stage chemistry)
+- ☐ **Chemistry stage**: Crystal PS from styrene monomer (simplest thermoplastic to start with)
+- ☐ **Chemistry stage**: Nylon 6,6 condensation polymerization (requires vacuum-capable autoclave)
+- ☐ **Chemistry stage**: HDPE via Ziegler-Natta catalyst (requires TiCl₄ from the Chemistry stage chlorosilane chemistry)
+- ☐ **Chemistry stage**: PTFE precursor chain (R-22 from chloroform + HF; HF available from the Chemistry stage fluorspar processing)
+- ☐ **Vacuum & Optics stage**: PTFE sintering at 380°C (requires furnace control beyond typical polymer processing)
+- ☐ **Vacuum & Optics+**: EPS foam production (requires pentane recovery and steam molding)

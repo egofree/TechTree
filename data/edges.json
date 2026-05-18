@@ -824,18 +824,18 @@
       "type": "tool"
     },
     {
-      "from": "textiles.spinning",
-      "to": "textiles.fibers",
-      "type": "material"
-    },
-    {
-      "from": "textiles.weaving",
+      "from": "textiles.fibers",
       "to": "textiles.spinning",
       "type": "material"
     },
     {
-      "from": "textiles.dyeing",
+      "from": "textiles.spinning",
       "to": "textiles.weaving",
+      "type": "material"
+    },
+    {
+      "from": "textiles.weaving",
+      "to": "textiles.dyeing",
       "type": "material"
     },
     {

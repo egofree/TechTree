@@ -12,8 +12,7 @@ alone. Processes, materials, and phase dependencies for each family.
 
 Raw materials: silica sand (~60%), limestone (~20%), borax (~10%), alumina,
 soda ash. Batch melted at ~1400°C, drawn through platinum-rhodium bushings
-into filaments 5–25 µm diameter, coated with sizing (silane coupling compound
-+ film former) for protection and resin adhesion.
+into filaments 5–25 µm diameter, coated with sizing (silane coupling compound + film former) for protection and resin adhesion.
 - **E-glass** (electrical): alumino-borosilicate, most common, cheaper
 - **S-glass** (structural): magnesia-alumina-silicate, ~30% higher tensile
   strength, higher melt temperature

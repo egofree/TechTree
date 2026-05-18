@@ -1,10 +1,9 @@
 # Iron & Steel Production
 
 > **Node ID**: metals.iron-steel
-> **Also covers**: `metallurgy.metalworking`
 > **Domain**: [Metallurgy](./)
-> **Dependencies**: `metallurgy.iron-steel`
-> **Enables**: `energy.ice`, `energy.steam-power`, `machine-tools.foundry`, `metallurgy.metalworking`
+> **Dependencies**: `metals.iron-steel`
+> **Enables**: `energy.steam-power`, `machine-tools.casting`, `machine-tools.joining`
 > **Timeline**: Years 5-15
 > **Outputs**: wrought_iron, steel, iron_bloom, heat_treated_steel, forge_welds, brazed_joints, soldered_joints, springs, bellows, tongs, ...
 
@@ -32,7 +31,7 @@ Iron requires higher temperatures than copper (melting point 1538°C, but bloome
 
 **Steel production (carburization)**:
 - **Pack carburizing**: Pack wrought iron bars in charcoal dust inside sealed clay box. Heat to 900-950°C for 4-12 hours. Carbon from charcoal diffuses into iron surface. Produces 1-2 mm case depth per 4 hours. Result: low-carbon steel skin on wrought iron core.
-- **Crucible steel (Wootz/Bulat method)****: Place wrought iron + 1-3% carbon (charcoal powder or cast iron) in sealed clay crucible. Heat to 1450-1550°C (requires very good furnace + forced air) for 2-4 hours. Cool slowly. Produces homogeneous medium-to-high carbon steel (~0.8-1.5% C). This is the path to quality cutting tools and springs.
+- **Crucible steel (Wootz/Bulat method):** Place wrought iron + 1-3% carbon (charcoal powder or cast iron) in sealed clay crucible. Heat to 1450-1550°C (requires very good furnace + forced air) for 2-4 hours. Cool slowly. Produces homogeneous medium-to-high carbon steel (~0.8-1.5% C). This is the path to quality cutting tools and springs.
 
 **Heat treatment**:
 - **Annealing**: Heat to 700-900°C (bright red), cool slowly (bury in ashes or lime). Softens steel for shaping. Essential after forging.
@@ -65,7 +64,7 @@ Iron requires higher temperatures than copper (melting point 1538°C, but bloome
 
 ### Joining Metals — Forge Welding, Brazing &amp; Soldering
 
-**Forge welding** (the oldest welding method, (Metallurgy stage):
+**Forge welding** (the oldest welding method, (earliest method):
 - **Principle**: Heat two pieces of iron/steel to bright yellow-white (~1300-1400°C) where the surface becomes pasty. Place together and hammer forcefully. The combination of heat, pressure, and clean surfaces causes a solid-state weld (atomic diffusion across interface).
 - **Flux**: Sprinkle clean silica sand or borite on joint surfaces before welding. Flux melts, dissolves surface oxide (scale), and prevents oxidation during heating — allowing metal-to-metal contact. Without flux, scale prevents a sound weld.
 - **Procedure**: Stack or overlap the pieces to be joined. Heat both evenly in forge fire. When metal reaches bright yellow-white (visible through scale breaking surface), quickly remove, brush off loose scale, apply flux if needed, position pieces on anvil, and strike firmly with hammer. Multiple rapid blows. Reheat and re-strike if needed for longer joints.
@@ -73,7 +72,7 @@ Iron requires higher temperatures than copper (melting point 1538°C, but bloome
 - **Quality test**: Bend test — a good weld bends without opening at the joint. Poor welds crack at the seam (oxide inclusion or insufficient heat).
 - **Applications**: Welding iron bars into longer bars, making composite steel (pattern-welded blades), building up large forgings from smaller pieces, repairing broken tools, making chain links, hoop iron for barrels and wagon wheels.
 
-**Brazing** (joining with filler metal, Metallurgy+):
+**Brazing** (joining with filler metal, later stages):
 - **Principle**: Heat base metals to above the melting point of filler (but below their own melting point). Capillary action draws molten filler into the joint gap. On cooling, filler solidifies — strong joint without melting base metal.
 - **Brass brazing (spelter brazing)**: Filler = brass alloy (Cu + Zn, typically 60/40, melts ~900°C). Flux = borax (sodium borate) paste. Heat joint to bright red (~950°C). Apply brazing rod — brass melts, flows into joint by capillary action. Strong joint, higher temperature than soldering.
 - **Silver brazing (silver soldering)**: Filler = Ag-Cu-Zn alloy (melts 620-750°C depending on composition). Lower temperature than brass brazing, stronger than soft solder. Used for jewelry, instrument work, fine mechanisms. More expensive filler (requires silver).

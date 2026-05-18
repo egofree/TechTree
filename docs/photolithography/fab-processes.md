@@ -2,8 +2,8 @@
 
 > **Node ID**: photolithography.fab-processes
 > **Domain**: [Photolithography & IC Fabrication](./)
-> **Dependencies**: `specialty-gases.dopant-etch-gases`, `gas-handling.vacuum`
-> **Enables**: `specialty-gases.packaging-testing`, `vlsi-scaling.advanced-processes`, `vlsi-scaling.continuous-scaling`
+> **Dependencies**: `chemistry.dopant-etch-gases`, `gas-handling.vacuum`
+> **Enables**: `chemistry.packaging-testing`, `vlsi-scaling.advanced-processes`, `vlsi-scaling.continuous-scaling`
 > **Timeline**: Years 40-70
 > **Outputs**: fab_processes, early_ics, msi, patterned_oxide, doped_regions, metal_interconnects
 

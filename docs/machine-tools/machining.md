@@ -1,4 +1,4 @@
-# Machining Operations
+# Machining
 
 > **Node ID**: machine-tools.machining
 > **Domain**: Machine Tools Bootstrap

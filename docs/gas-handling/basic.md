@@ -2,7 +2,7 @@
 
 > **Node ID**: gas-handling.basic
 > **Domain**: [Gas Handling](./)
-> **Enables**: `specialty-gases.air-separation`, `specialty-gases.hydrogen-silane`
+> **Enables**: `chemistry.air-separation`, `chemistry.hydrogen-silane`
 > **Timeline**: Years 20-35
 > **Outputs**: gas_handling, compressed_gases, purified_gases
 

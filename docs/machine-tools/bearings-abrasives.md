@@ -63,12 +63,12 @@
 
 ### Cutting Tool Materials
 
-**Carbon steel tool bits** (first available, the Metallurgy stage steel):
+**Carbon steel tool bits** (first available, basic carbon steel):
 - Composition: 0.8-1.3% carbon steel. Harden by heating to 780-820°C and quenching, temper at 200-250°C.
 - Cutting speed: 5-10 m/min for steel, 15-30 m/min for cast iron and brass.
 - Loses hardness above ~200°C — limited to light cuts and slow speeds.
 
-**High-speed steel (HSS)** (the Energy-Chemistry stage transition, needs alloy elements):
+**High-speed steel (HSS)** (later, needs alloy elements from chemistry):
 - Composition: Tungsten (18%), chromium (4%), vanadium (1%), carbon (0.7-0.8%) — classic T1 grade. M2 grade: 6% W, 5% Mo, 4% Cr, 2% V.
 - Hardness retained to ~600°C — 3-5x faster cutting than carbon steel.
 - Manufacturing: Melt alloy in electric furnace (Energy), cast, forge, heat treat (austenitize at 1250-1300°C, quench in oil, triple temper at 540-570°C).

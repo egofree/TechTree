@@ -5,41 +5,7 @@
 > **Domain**: [VLSI Scaling & Advanced Semiconductor](./)
 > **Dependencies**: `computing`, `photolithography.fab-processes`
 > **Timeline**: Years 70-200+
-> **Outputs**: eda_tools, gpus, advanced_packaging, vlsi_designs, ion_implantation, ald_films, copper_interconnects, cmp_planarization, high_end_solar
-
-### Advanced Processes
-
-**Ion implantation** (precise doping control):
-- **Equipment**: Ion source (gas or solid), extraction electrode, mass analyzer (magnetic sector — separates ions by mass/charge ratio), acceleration column (10-500 keV), beam scanning (electrostatic deflection), end station (wafer handling).
-- **Process**: Generate dopant ions (P⁺, As⁺, B⁺, BF₂⁺), accelerate to desired energy, implant into wafer. Energy determines depth (10-1000 nm). Dose controls concentration (10¹²-10¹⁶/cm²).
-- **Advantages over diffusion**: Precise dose and profile control, low-temperature process, any dopant pattern possible, no lateral diffusion under mask.
-- **Damage annealing**: Ion implant damages crystal lattice. Anneal at 800-1050°C for 10-60 min restores crystallinity and activates dopants (moves to substitutional lattice sites). Rapid thermal anneal (RTA: ramp to 1000°C in seconds, hold 10-30 sec, cool) minimizes dopant diffusion during anneal.
-
-**Plasma/RIE etching** (anisotropic, high-fidelity pattern transfer):
-- **Reactive Ion Etching (RIE)**: RF plasma (13.56 MHz) generates reactive ions. Chemical reaction + physical ion bombardment = anisotropic etching. Etch gases: CF₄/O₂ (Si, SiO₂), Cl₂/BCl₃ (Al, Si), HBr/Cl₂ (Si).
-- **Deep RIE (DRIE)**: Alternating etch/passivate cycles (Bosch process). Etch: SF₆ plasma (isotropic). Passivate: C₄F₈ plasma (deposits fluorocarbon polymer on sidewalls). Repeat 10-100 cycles. Creates vertical sidewalls, high aspect ratio trenches. Used for MEMS, through-silicon vias (TSV).
-- **Selectivity**: Etch rate ratio of target material vs. mask. Typical 5:1 to 50:1. Critical for preserving features during overetch.
-
-**Atomic Layer Deposition (ALD)** (Angstrom-level thickness control):
-- **Principle**: Self-limiting surface reaction. Pulse precursor A → saturates surface with monolayer → purge → pulse precursor B → reacts with A layer → forms one atomic layer of product → purge. Repeat. Each cycle deposits exactly one atomic layer (0.05-0.15 nm).
-- **Materials**: Al₂O₃ (TMA + H₂O), HfO₂ (TDMAH + H₂O), SiO₂ (various precursors). Used for: high-k gate dielectrics, spacer deposition, conformal coatings in high-aspect-ratio structures.
-- **Speed**: Very slow (0.1 nm/cycle, 1-5 sec/cycle). Not suitable for thick films. But unmatched for ultra-thin conformal layers.
-
-**Chemical-Mechanical Polishing (CMP)** (global planarization):
-- See Silicon for CMP basics. In VLSI Scaling, CMP enables multi-level metallization by planarizing each dielectric layer before patterning the next metal layer. Without CMP, topography accumulates and subsequent layers cannot resolve fine features.
-- **Slurries**: SiO₂ removal: colloidal silica + KOH. Cu removal: alumina + oxidizer (H₂O₂) + corrosion inhibitor (BTA). W removal: alumina + KIO₃.
-- **Process control**: Endpoint detection (motor current changes when reaching underlying layer), in-situ thickness monitoring.
-
-**Multi-level interconnects**:
-- **Copper damascene process** (replaces Al for lower resistance):
-  1. Deposit SiO₂ (inter-layer dielectric). CMP planarize.
-  2. Etch trenches and vias in SiO₂ (dual damascene — trenches and vias patterned simultaneously with two lithography steps, one etch).
-  3. Deposit Ta/TaN barrier layer (prevents Cu diffusion into SiO₂).
-  4. Deposit Cu seed layer (PVD).
-  5. Electroplate Cu to fill trenches/vias.
-  6. CMP remove excess Cu (planarize to top of dielectric).
-  7. Repeat for next metal layer.
-- **Low-k dielectrics**: Replace SiO₂ (k ≈ 4.0) with porous organosilicate glass (k ≈ 2.5-3.0) or polymer (k ≈ 2.0-2.7). Reduces interconnect capacitance → faster switching, lower power. Mechanical fragility is a challenge.
+> **Outputs**: eda_tools, gpus, advanced_packaging, vlsi_designs
 
 ### Electronic Design Automation (EDA)
 

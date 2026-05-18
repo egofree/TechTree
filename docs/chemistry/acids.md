@@ -2,7 +2,7 @@
 
 > **Node ID**: chemistry.acids
 > **Domain**: [Chemistry](./)
-> **Dependencies**: `metallurgy.glass-lime`, `mining`
+> **Dependencies**: `glass.basic`, `mining`
 > **Enables**: `silicon.basic-devices`
 > **Timeline**: Years 20-35
 > **Outputs**: sulfuric_acid, nitric_acid, hydrochloric_acid, hydrofluoric_acid, oleum

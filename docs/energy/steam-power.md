@@ -2,7 +2,7 @@
 
 > **Node ID**: energy.steam-power
 > **Domain**: [Energy](./)
-> **Dependencies**: `machine-tools`, `metallurgy.iron-steel`, `metallurgy.metalworking`
+> **Dependencies**: `machine-tools`, `metals.iron-steel`
 > **Timeline**: Years 15-25
 > **Outputs**: steam_engines, boilers, rotary_power
 

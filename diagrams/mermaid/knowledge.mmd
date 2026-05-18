@@ -15,9 +15,20 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     foundations("Foundations")
+    foundations_food-agriculture("Agriculture & Food Production")
+    foundations_tools-basic("Stone & Wood Tools")
+    health_medicine("Medicine & Surgery")
+    mining_prospecting("Prospecting & Surveying")
 
     %% ==================== EDGES ====================
+    knowledge_education -.-> knowledge_writing
+    knowledge_libraries -.-> knowledge_writing
+    knowledge_libraries -.-> knowledge_education
     knowledge -.-> foundations
+    knowledge_writing -.-> foundations_tools-basic
+    knowledge_writing -.-> foundations_food-agriculture
+    health_medicine -.-> knowledge_writing
+    mining_prospecting -.-> knowledge_writing
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -38,4 +49,8 @@ graph TD
     class knowledge_education capability
     class knowledge_libraries capability
     class foundations external
+    class foundations_food-agriculture external
+    class foundations_tools-basic external
+    class health_medicine external
+    class mining_prospecting external
     class EdgeLegend,MatNote,ToolNote legend

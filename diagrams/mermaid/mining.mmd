@@ -14,18 +14,26 @@ graph TD
     mining["Mining Engineering & Extractive Metallurgy"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    ceramics_lime("Lime Production")
     chemistry_acids("Mineral Acid Production")
     chemistry_alkalis("Alkali Production")
     chemistry_cement("Cement & Concrete")
+    energy_fuels("Fuel Production")
     energy_fuels_coal("Coal Mining & Combustion")
     energy_fuels_coke("Coke Production")
     foundations("Foundations")
+    foundations_tools-basic("Stone & Wood Tools")
     glass_basic("Basic Glass Production")
+    knowledge_writing("Writing & Record-Keeping")
     metals("Metals")
+    metals_copper-bronze("Copper & Bronze Production")
     silicon_mg-si-production("Metallurgical-Grade Silicon Production")
     transport("Transportation & Logistics")
+    transport_roads("Road & Bridge Construction")
 
     %% ==================== EDGES ====================
+    mining_extraction -.-> mining_prospecting
+    mining_processing --> mining_extraction
     metals --> mining
     glass_basic --> mining
     energy_fuels_coal --> mining
@@ -36,6 +44,12 @@ graph TD
     silicon_mg-si-production --> mining
     mining -.-> foundations
     transport --> mining
+    mining_extraction -.-> foundations_tools-basic
+    metals_copper-bronze --> mining
+    mining_prospecting -.-> knowledge_writing
+    mining_processing -.-> energy_fuels
+    ceramics_lime --> mining
+    transport_roads --> mining
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -55,14 +69,20 @@ graph TD
     class mining_extraction capability
     class mining_processing capability
     class mining_prospecting capability
+    class ceramics_lime external
     class chemistry_acids external
     class chemistry_alkalis external
     class chemistry_cement external
+    class energy_fuels external
     class energy_fuels_coal external
     class energy_fuels_coke external
     class foundations external
+    class foundations_tools-basic external
     class glass_basic external
+    class knowledge_writing external
     class metals external
+    class metals_copper-bronze external
     class silicon_mg-si-production external
     class transport external
+    class transport_roads external
     class EdgeLegend,MatNote,ToolNote legend

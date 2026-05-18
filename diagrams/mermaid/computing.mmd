@@ -14,12 +14,21 @@ graph TD
     computing["Computing & Automation"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    energy_electricity("Electricity Generation & Distribution")
     machine-tools("Machine Tools Bootstrap")
+    metals("Metals")
+    silicon_basic-devices("Basic Semiconductor Devices")
     vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
 
     %% ==================== EDGES ====================
+    computing_electromechanical -.-> computing_mechanical
+    computing_electronic -.-> computing_electromechanical
     vlsi-scaling_eda-design -.-> computing
     computing -.-> machine-tools
+    computing_mechanical -.-> machine-tools
+    computing_mechanical --> metals
+    computing_electromechanical --> energy_electricity
+    computing_electronic --> silicon_basic-devices
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -39,6 +48,9 @@ graph TD
     class computing_mechanical capability
     class computing_electromechanical capability
     class computing_electronic capability
+    class energy_electricity external
     class machine-tools external
+    class metals external
+    class silicon_basic-devices external
     class vlsi-scaling_eda-design external
     class EdgeLegend,MatNote,ToolNote legend

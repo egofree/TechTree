@@ -21,6 +21,7 @@ graph TD
     chemistry_air-separation("Air Separation & Bulk Gas Production")
     chemistry_distillation("Distillation")
     chemistry_hydrogen-silane("Hydrogen & Silane Production")
+    computing_electronic("Electronic Computing")
     energy("Energy")
     energy_electric-furnaces("Electric Furnaces")
     gas-handling("Gas Handling")
@@ -30,11 +31,13 @@ graph TD
     glass_advanced("Advanced Glass Production")
     machine-tools("Machine Tools Bootstrap")
     measurement_precision-metrology("Precision Metrology & Standards")
+    measurement_temperature-pressure("Temperature & Pressure Measurement")
     mining("Mining Engineering & Extractive Metallurgy")
     photolithography("Photolithography & IC Fabrication")
 
     %% ==================== EDGES ====================
     silicon_basic-devices --> silicon_crystal-growth
+    silicon_crystal-growth_cz-pulling -.-> silicon_crystal-growth
     silicon -.-> machine-tools
     silicon --> energy
     silicon --> chemistry
@@ -51,6 +54,8 @@ graph TD
     silicon_basic-devices -.-> gas-handling_vacuum
     silicon_basic-devices --> chemistry_acids
     photolithography --> silicon
+    computing_electronic --> silicon_basic-devices
+    silicon_crystal-growth_cz-pulling -.-> measurement_temperature-pressure
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -77,6 +82,7 @@ graph TD
     class chemistry_air-separation external
     class chemistry_distillation external
     class chemistry_hydrogen-silane external
+    class computing_electronic external
     class energy external
     class energy_electric-furnaces external
     class gas-handling external
@@ -86,6 +92,7 @@ graph TD
     class glass_advanced external
     class machine-tools external
     class measurement_precision-metrology external
+    class measurement_temperature-pressure external
     class mining external
     class photolithography external
     class EdgeLegend,MatNote,ToolNote legend

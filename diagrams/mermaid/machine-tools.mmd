@@ -21,10 +21,13 @@ graph TD
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
     chemistry_packaging-testing("Semiconductor Packaging & Testing")
     computing("Computing & Automation")
+    computing_mechanical("Mechanical Calculation")
     energy_cooling("Cooling Systems & Refrigeration")
     energy_electric-furnaces("Electric Furnaces")
     energy_electricity("Electricity Generation & Distribution")
+    energy_fuels("Fuel Production")
     energy_steam-power("Steam Power")
+    foundations_fire("Fire-Making")
     gas-handling("Gas Handling")
     glass("Glass")
     measurement("Measurement & Instrumentation")
@@ -45,6 +48,8 @@ graph TD
     %% ==================== EDGES ====================
     machine-tools_iterative-bootstrap -.-> machine-tools_casting
     machine-tools_bearings-abrasives -.-> machine-tools_iterative-bootstrap
+    machine-tools_machining -.-> machine-tools_iterative-bootstrap
+    machine-tools_machining -.-> machine-tools_bearings-abrasives
     machine-tools_joining --> metals_iron-steel
     machine-tools -.-> metals
     machine-tools -.-> textiles
@@ -71,6 +76,10 @@ graph TD
     polymers_thermosets -.-> machine-tools
     polymers_thermoplastics -.-> machine-tools
     polymers_composites -.-> machine-tools
+    machine-tools_forming -.-> foundations_fire
+    machine-tools_forming --> metals_iron-steel
+    machine-tools_forming --> energy_fuels
+    computing_mechanical -.-> machine-tools
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -97,10 +106,13 @@ graph TD
     class chemistry_lubricants external
     class chemistry_packaging-testing external
     class computing external
+    class computing_mechanical external
     class energy_cooling external
     class energy_electric-furnaces external
     class energy_electricity external
+    class energy_fuels external
     class energy_steam-power external
+    class foundations_fire external
     class gas-handling external
     class glass external
     class measurement external

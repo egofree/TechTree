@@ -66,6 +66,7 @@ graph TD
 
     %% ==================== CROSS-DOMAIN EDGES ====================
     ceramics -.-> energy
+    ceramics -.-> mining
     chemistry -.-> ceramics
     chemistry -.-> foundations
     chemistry -.-> gas-handling
@@ -74,24 +75,37 @@ graph TD
     chemistry -.-> mining
     chemistry -.-> photolithography
     chemistry -.-> polymers
+    computing -.-> energy
+    computing -.-> metals
+    computing -.-> silicon
     energy -.-> ceramics
     energy -.-> chemistry
     energy -.-> foundations
     energy -.-> machine-tools
     energy -.-> mining
+    energy -.-> polymers
     energy -.-> textiles
     glass -.-> mining
+    health -.-> ceramics
+    health -.-> knowledge
+    health -.-> polymers
     machine-tools -.-> chemistry
     machine-tools -.-> energy
+    machine-tools -.-> foundations
+    measurement -.-> energy
     measurement -.-> foundations
     measurement -.-> metals
+    mining -.-> energy
+    mining -.-> knowledge
     photolithography -.-> ceramics
     photolithography -.-> polymers
     polymers -.-> chemistry
     polymers -.-> machine-tools
     silicon -.-> measurement
     silicon -.-> mining
+    textiles -.-> chemistry
     transport -.-> chemistry
+    transport -.-> foundations
     transport -.-> textiles
     vlsi-scaling -.-> computing
     vlsi-scaling -.-> optics

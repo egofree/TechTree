@@ -29,22 +29,32 @@ graph TD
     chemistry_electrolysis("Electrolysis")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
+    computing_electromechanical("Electromechanical Computing")
     foundations("Foundations")
+    foundations_fire("Fire-Making")
     gas-handling("Gas Handling")
     glass("Glass")
     machine-tools("Machine Tools Bootstrap")
+    machine-tools_forming("Metal Forming")
     machine-tools_joining("Metal Joining")
+    measurement_temperature-pressure("Temperature & Pressure Measurement")
     metals("Metals")
     metals_iron-steel("Iron & Steel Production")
     mining("Mining Engineering & Extractive Metallurgy")
+    mining_processing("Ore Processing")
+    polymers_rubber("Rubber Production")
     silicon("Silicon")
     silicon_mg-si-production("Metallurgical-Grade Silicon Production")
     textiles("Textiles, Fiber & Cordage")
     transport("Transportation & Logistics")
+    transport_railways("Railways")
 
     %% ==================== EDGES ====================
     energy_electric-furnaces --> energy_electricity
     energy_storage -.-> energy
+    energy_fuels_charcoal -.-> energy_fuels
+    energy_fuels_coal -.-> energy_fuels
+    energy_fuels_coke -.-> energy_fuels
     energy_gravity -.-> textiles
     energy_wind -.-> textiles
     energy_gravity --> chemistry_lubricants
@@ -74,6 +84,13 @@ graph TD
     transport --> energy
     energy_fuels_charcoal -.-> foundations
     ceramics_pottery_kiln-firing --> energy_fuels_charcoal
+    energy_fuels -.-> foundations_fire
+    machine-tools_forming --> energy_fuels
+    computing_electromechanical --> energy_electricity
+    mining_processing -.-> energy_fuels
+    energy_storage --> polymers_rubber
+    transport_railways -.-> energy_steam-power
+    measurement_temperature-pressure -.-> energy_electricity
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -108,16 +125,23 @@ graph TD
     class chemistry_electrolysis external
     class chemistry_lubricants external
     class chemistry_petroleum-alternatives external
+    class computing_electromechanical external
     class foundations external
+    class foundations_fire external
     class gas-handling external
     class glass external
     class machine-tools external
+    class machine-tools_forming external
     class machine-tools_joining external
+    class measurement_temperature-pressure external
     class metals external
     class metals_iron-steel external
     class mining external
+    class mining_processing external
+    class polymers_rubber external
     class silicon external
     class silicon_mg-si-production external
     class textiles external
     class transport external
+    class transport_railways external
     class EdgeLegend,MatNote,ToolNote legend

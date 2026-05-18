@@ -20,7 +20,9 @@ graph TD
     chemistry("Chemistry")
     chemistry_packaging-testing("Semiconductor Packaging & Testing")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
+    energy_storage("Energy Storage & Diversification")
     foundations("Foundations")
+    health("Public Health, Sanitation & Medicine")
     machine-tools("Machine Tools Bootstrap")
     photolithography_resists-masks("Photoresists, Masks & Lithography")
 
@@ -40,6 +42,8 @@ graph TD
     polymers_thermoplastics -.-> machine-tools
     polymers_composites -.-> machine-tools
     polymers_rubber_natural -.-> foundations
+    health --> polymers_rubber
+    energy_storage --> polymers_rubber
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -65,7 +69,9 @@ graph TD
     class chemistry external
     class chemistry_packaging-testing external
     class chemistry_petroleum-alternatives external
+    class energy_storage external
     class foundations external
+    class health external
     class machine-tools external
     class photolithography_resists-masks external
     class EdgeLegend,MatNote,ToolNote legend

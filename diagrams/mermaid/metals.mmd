@@ -15,19 +15,25 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     ceramics("Ceramics & Refractories")
     chemistry("Chemistry")
+    computing_mechanical("Mechanical Calculation")
     energy("Energy")
     energy_cooling("Cooling Systems & Refrigeration")
     energy_steam-power("Steam Power")
     energy_storage("Energy Storage & Diversification")
     foundations("Foundations")
+    foundations_fire("Fire-Making")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_casting("Metal Casting")
+    machine-tools_forming("Metal Forming")
     machine-tools_joining("Metal Joining")
     measurement_precision-metrology("Precision Metrology & Standards")
+    measurement_temperature-pressure("Temperature & Pressure Measurement")
     mining("Mining Engineering & Extractive Metallurgy")
     transport("Transportation & Logistics")
+    transport_railways("Railways")
 
     %% ==================== EDGES ====================
+    metals_iron-steel -.-> metals_copper-bronze
     metals -.-> foundations
     metals --> mining
     machine-tools_joining --> metals_iron-steel
@@ -41,6 +47,12 @@ graph TD
     energy_storage -.-> metals
     ceramics -.-> metals
     transport -.-> metals
+    metals_copper-bronze --> foundations_fire
+    metals_copper-bronze --> mining
+    machine-tools_forming --> metals_iron-steel
+    computing_mechanical --> metals
+    transport_railways --> metals_iron-steel
+    measurement_temperature-pressure --> metals
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -61,15 +73,20 @@ graph TD
     class metals_iron-steel critical
     class ceramics external
     class chemistry external
+    class computing_mechanical external
     class energy external
     class energy_cooling external
     class energy_steam-power external
     class energy_storage external
     class foundations external
+    class foundations_fire external
     class machine-tools external
     class machine-tools_casting external
+    class machine-tools_forming external
     class machine-tools_joining external
     class measurement_precision-metrology external
+    class measurement_temperature-pressure external
     class mining external
     class transport external
+    class transport_railways external
     class EdgeLegend,MatNote,ToolNote legend

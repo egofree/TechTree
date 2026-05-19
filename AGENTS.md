@@ -30,7 +30,7 @@ tech-tree-bootstrap/
 |------|----------|-------|
 | Domain content | `docs/{domain}/` | 20 domains, each with capability .md files |
 | Mermaid diagrams | `diagrams/mermaid/` | Auto-generated from data, DO NOT hand-edit |
-| Structured data | `data/` | nodes.json (102 nodes), edges.json (128 edges), checklist.yaml, resources.json |
+| Structured data | `data/` | nodes.json (104 nodes), edges.json (191 edges), checklist.yaml, resources.json |
 | Diagram generator | `scripts/generate-diagrams.sh` | Auto-generates all .mmd from data |
 | Data validation | `scripts/validate.sh` | 15 checks: DAG, cross-refs, tags, edge types, hierarchy |
 | Site builder | `scripts/build-site.sh` | Generates `site/` from docs + data |
@@ -85,7 +85,7 @@ bash scripts/render-mermaid.sh svg
 
 ## NOTES
 
-- Current data: 102 nodes, 20 domains, 128 edges, 21 .mmd diagrams
+- Current data: 104 nodes, 20 domains, 191 edges, 21 .mmd diagrams
 - All diagrams auto-generated from `data/nodes.json` + `data/edges.json`
 - `validate.sh` is data-driven. Reads nodes/edges to check cross-references and DAG integrity
 - Schema specification: `docs/supporting/schema-spec.md` defines tag taxonomy, edge type rules, SIK placement test

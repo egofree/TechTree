@@ -88,6 +88,13 @@
 
 **Word sizes**: Define data width and address space. 8-bit (microcontrollers, early hobby computers), 12-bit (PDP-8), 16-bit (PDP-11, early minicomputers), 32-bit (IBM System/360, VAX). Larger word = larger directly-addressable memory (16-bit → 64 KB, 32-bit → 4 GB) and wider arithmetic. Word size determines ALU width, register width, data bus width, and memory alignment.
 
+### Safety & Hazards
+
+- **CRT high voltage (25-30 kV)**: Cathode ray tubes and large vacuum tube circuits operate at lethal potentials. The CRT envelope and its anode connection carry 25-30 kV during operation, and the tube's internal capacitance can retain a dangerous charge for hours or days after power-off. Always discharge CRT anodes and high-voltage capacitors to chassis ground using a properly insulated discharge tool before servicing. Observe the one-hand rule: keep one hand behind your back when probing live high-voltage circuits to prevent current across the chest.
+- **Vacuum tube implosion**: Large vacuum tubes (especially CRTs) hold a hard vacuum behind a glass envelope. Atmospheric pressure (~101 kPa) loads every square centimeter of the glass. A crack or impact can cause sudden violent implosion, launching glass fragments at high velocity. Wear eye protection (safety goggles or face shield) when handling vacuum tubes. Handle tubes by their bases, not the glass envelope. Dispose of cracked tubes by contained implosion in a heavy cloth bag or puncture the anode button to equalize pressure slowly.
+- **Solder fumes (lead-based solder)**: Traditional tin-lead solder (60/40 or 63/37 Sn-Pb) generates fumes during soldering — primarily from the rosin flux core, which releases formaldehyde and other irritants. Lead itself does not vaporize at soldering temperatures (~230°C) but accumulates on surfaces and hands as oxide dust. Use local exhaust ventilation (fume extractor or open window). Wash hands thoroughly after soldering, especially before eating. Lead-free solders (SAC305: Sn-Ag-Cu) eliminate lead exposure but produce similar flux fumes.
+- **Stored energy in capacitors**: Power supply filter capacitors in tube-era and transistor-era equipment store lethal energy — a 100 µF capacitor charged to 300 V holds 4.5 J, enough to cause ventricular fibrillation. Large high-voltage capacitors in CRT circuits store far more. Charge can persist for hours after power-off due to low leakage paths. Always discharge all capacitors with a bleed resistor (100 Ω to 1 kΩ, 2 W minimum) before touching any circuitry. Never short capacitor terminals with a screwdriver — the arc damages components and can spray molten metal.
+
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Computing](./) • [All Domains](../)*

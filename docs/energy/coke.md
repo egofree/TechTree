@@ -74,3 +74,7 @@ Coal tar (~3-5% of coal weight) is a valuable chemical feedstock:
 - **Charcoal** (alternative for early smelting): [charcoal.md](charcoal.md)
 - **Fuel comparison table**: [fuels.md](fuels.md)
 - **Petrochemical processing**: [petroleum-alternatives.md](../chemistry/petroleum-alternatives.md)
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*

@@ -78,5 +78,8 @@ Crystal growth and wafering involve extreme temperatures, toxic chemicals, and h
 - **HF acid burns (RCA clean)**: Dilute HF (1-2%) used in wafer cleaning penetrates skin, attacks bone, causes systemic fluoride poisoning. **Calcium gluconate gel must be on-site before any HF use** — apply immediately to exposed skin and seek emergency treatment. Chemical-resistant gloves (neoprene or nitrile), face shield, and apron required for all HF work. Work in fume hood or with local exhaust ventilation.
 - **Wire saw hazards**: 140-180 μm steel wire under tension (15-30 N) traveling at 5-15 m/s can snap and lash. Wire guard mandatory. Abrasive slurry (SiC or diamond) is an eye irritant — safety goggles required during slurry handling.
 - **Dust inhalation**: Silicon dust from sawing, lapping, and crushing is a respiratory irritant. Local exhaust ventilation at cutting stations. P100 respirator in dusty areas.
+
 ---
+
+*Part of the [Bootciv Tech Tree](../) • [Silicon](./) • [All Domains](../)*
 

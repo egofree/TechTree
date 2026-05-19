@@ -16,7 +16,7 @@
 - **Ephedra (ephedrine)**: Bronchodilator (asthma treatment), decongestant, vasoconstrictor. Extract by water decoction. Later synthesized chemically.
 - **Digitalis (foxglove)**: Heart medication (increases contractility, slows rate). VERY narrow therapeutic window — easy to overdose. Use only under experienced guidance. Extract by steeping leaves in alcohol.
 
-**Synthetic pharmaceuticals** (Chemistry+):
+**Synthetic pharmaceuticals**:
 - **Ether (diethyl ether)**: Anesthetic. Synthesize from ethanol + sulfuric acid at 130-140°C.
   - C₂H₅OH + H₂SO₄ → C₂H₅OSO₃H + H₂O (ethanol + sulfuric acid → ethyl hydrogen sulfate)
   - C₂H₅OSO₃H + C₂H₅OH → (C₂H₅)₂O + H₂SO₄ (ethyl hydrogen sulfate + ethanol → diethyl ether + sulfuric acid)
@@ -35,16 +35,16 @@
 
 **Respiratory protection**:
 - **Simple cloth mask**: Multiple layers of tightly woven cotton over nose and mouth. Tie behind head. Reduces inhalation of dust and large particles. Not adequate for toxic gases or fine particulates.
-- **Charcoal filter respirator** (Chemistry+): Canister filled with activated charcoal granules (wood charcoal heated to 800-900°C in steam → porous, enormous surface area). Charcoal adsorbs organic vapors and many toxic gases. Rubber or leather face mask with exhale valve. Replace canister when breathing becomes difficult or odor detected inside mask.
+- **Charcoal filter respirator**: Canister filled with activated charcoal granules (wood charcoal heated to 800-900°C in steam → porous, enormous surface area). Charcoal adsorbs organic vapors and many toxic gases. Rubber or leather face mask with exhale valve. Replace canister when breathing becomes difficult or odor detected inside mask.
 - **HF-specific protection**: Full-face shield + rubber apron + neoprene or nitrile gloves (from Polymers polymer production). Respiratory protection mandatory. Calcium gluconate gel (2.5%) stations at every HF work area — apply immediately to any skin exposure, massaging into affected area for 15+ minutes. HF penetrates skin, binds calcium → cardiac arrest. Even small exposures can be lethal without treatment.
 
 **Hand protection**:
 - **Leather gloves**: Chrome-tanned or oil-tanned leather for mechanical protection (handling sharp metal, hot objects). Welding gloves: heavy leather, gauntlet length to elbow.
-- **Chemical-resistant gloves** (Chemistry+): Rubber (natural rubber latex or synthetic nitrile — see Polymers). Thickness 0.2-0.5 mm for dexterity, 0.5-1.0 mm for chemical handling. Check for pinholes before each use (inflate with air, submerge in water — bubbles indicate holes).
+- **Chemical-resistant gloves**: Rubber (natural rubber latex or synthetic nitrile — see Polymers). Thickness 0.2-0.5 mm for dexterity, 0.5-1.0 mm for chemical handling. Check for pinholes before each use (inflate with air, submerge in water — bubbles indicate holes).
 
 **Body protection**:
 - **Leather aprons**: For blacksmithing, foundry work, welding. Heavy cowhide, waist to knee length.
-- **Rubber aprons** (Chemistry+): For chemical handling. Sheet rubber with neck loop and waist ties.
+- **Rubber aprons**: For chemical handling. Sheet rubber with neck loop and waist ties.
 - **Cleanroom garments** (Photolithography): Woven synthetic coveralls, hoods, booties (from Polymers polymer fibers). Lint-free. Washed in ultra-pure water. Worn over street clothes. Changed every entry to cleanroom.
 
 ### Surgical Capability
@@ -66,14 +66,14 @@
 - **Procedures**: Amputation (last resort — guillotine method, tie off major vessels with catgut ligatures, flap skin over stump), abscess drainage (incise, pack with iodoform gauze), wound debridement (remove dead tissue), foreign body removal.
 - **Post-operative**: Monitor for hemorrhage and infection. Keep wound clean and dry. Antibiotics not available until advanced microbiology — rely on antisepsis and natural healing.
 
-### Gas Detection &amp; Monitoring
+### Gas Detection & Monitoring
 
 **Simple detectors**:
 - **Candle/flame test**: If flame flickers, dims, or extinguishes → oxygen displacement or toxic gas. Evacuate.
 - **Canary/finch in cage**: Birds more sensitive to toxic gases (higher metabolic rate). Unconscious or dead bird → evacuate immediately. Morbid but effective.
 - **Smell**: H₂S (rotten eggs), Cl₂ (pungent, bleach-like), NH₃ (sharp, irritating). BUT many dangerous gases are odorless (CO, CH₄ at low concentrations) or paralyze olfactory nerve at high concentrations (H₂S).
 
-**Chemical detectors** (Chemistry+):
+**Chemical detectors**:
 - **Lead acetate paper**: Turns black in H₂S. Tape to hard hat or clip at breathing zone.
 - **Draeger-style tubes**: Glass tube filled with chemical reagent, calibrated markings. Draw known air volume through tube with hand pump. Color change length indicates gas concentration. Available for CO, H₂S, Cl₂, NH₃, NO₂, SO₂, and many others.
 - **Limulus paper for CO**: Palladium chloride paper turns dark when CO present. Imprecise but gives warning.
@@ -82,15 +82,15 @@
 
 **Basic procedures**:
 - **Extraction**: Extraction forceps (forged steel, angled jaws shaped to grip tooth root). Rock tooth buccolingually to widen socket, then lift. Control bleeding with gauze pressure pack. Indicated for gross decay, abscess, or crowding.
-- **Fillings**: Clean decayed cavity with hand instruments (excavators, probes). Fill with softened gutta-percha (natural latex from Palaquium trees, softens at 70°C, sets rigid at body temperature) or beeswax (temporary). For permanent fillings: tin foil or gold foil (malleted into cavity — requires precision). Amalgam (mercury + silver-tin alloy) available at advanced Chemistry stage — durable but mercury toxicity requires careful handling.
+- **Fillings**: Clean decayed cavity with hand instruments (excavators, probes). Fill with softened gutta-percha (trans-polyisoprene from Palaquium gutta trees — a hard, non-elastic natural thermoplastic, not to be confused with elastic natural latex, softens at 70°C, sets rigid at body temperature) or beeswax (temporary). For permanent fillings: tin foil or gold foil (malleted into cavity — requires precision). Amalgam (mercury + silver-tin alloy) available at advanced Chemistry stage — durable but mercury toxicity requires careful handling.
 - **Prevention**: Twigs of neem or willow for chewing (antibacterial, mechanical cleaning). Salt water rinse (9 g/L NaCl, warm) reduces gum inflammation.
 
 ### Basic Diagnostics
 
 **Vital signs**:
 - **Pulse**: Rate (beats/minute), rhythm (regular/irregular), strength (thready/bounding). Normal resting: 60-80 bpm. Fast (>100) = fever, blood loss, shock. Slow (<50) = hypothermia, certain poisonings. Irregular = heart disease.
-- **Temperature**: Hand on forehead for rough check. Mercury thermometer (Chemistry+): 35-42°C range, 0.1°C graduations. Normal: 36.5-37.5°C (oral). >38°C = fever. >40°C = hyperthermia (cool immediately — wet sheets, fanning). <35°C = hypothermia (warm gradually).
-- **Urine analysis**: Color (dark = dehydration, red = blood, cloudy = infection). Odor. Volume. Dipstick tests (Chemistry+): pH, protein, glucose, blood, nitrites. Sweet-smelling urine = diabetes (glucose — test with Benedict's solution, turns orange-red if sugar present).
+- **Temperature**: Hand on forehead for rough check. Mercury thermometer: 35-42°C range, 0.1°C graduations. Normal: 36.5-37.5°C (oral). >38°C = fever. >40°C = hyperthermia (cool immediately — wet sheets, fanning). <35°C = hypothermia (warm gradually).
+- **Urine analysis**: Color (dark = dehydration, red = blood, cloudy = infection). Odor. Volume. Dipstick tests: pH, protein, glucose, blood, nitrites. Sweet-smelling urine = diabetes (glucose — test with Benedict's solution, turns orange-red if sugar present).
 
 **Triage categories**:
 - **Immediate** (red): Airway obstruction, massive hemorrhage, severe burns (>20% body surface), shock, tension pneumothorax. Treat within minutes.
@@ -98,3 +98,15 @@
 - **Delayed** (green): Minor fractures, minor burns, superficial lacerations. Treat within 4-6 hours.
 - **Expectant** (black): Injuries incompatible with survival given available resources. Comfort measures only. Difficult but necessary when resources are limited.
 
+
+### Safety & Hazards
+
+- **Infection risk**: Surgical and wound care procedures carry infection risk. Sterilize instruments (boil 20+ minutes minimum, or autoclave at 121°C for 15 minutes). Wash hands before any wound contact. Clean wounds thoroughly before dressing.
+- **Drug overdose**: Many pharmaceutical compounds have narrow therapeutic windows. Weigh all drugs on accurate scales. Start with lowest effective dose. Digitalis, morphine, and ether have particularly dangerous overdose profiles.
+- **Surgical complications**: Amputation and major procedures risk hemorrhage and shock. Apply tourniquet before amputation (release every 30 minutes to prevent tissue death). Have ligatures ready for major vessels. Monitor for shock (pale, cold, rapid pulse — treat with warmth, head-down position, fluid replacement).
+- **Mercury toxicity**: If mercury compounds are used (topical antiseptics, syphilis treatment), they are cumulative neurotoxins. Limit exposure. Never heat mercury. Use in ventilated areas.
+- **Ether explosion risk**: Ether is highly flammable and forms explosive peroxides on storage. No flames, sparks, or electrical equipment in anesthesia area. Ventilate to prevent vapor accumulation.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Health](./) • [All Domains](../)*

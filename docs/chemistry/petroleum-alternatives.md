@@ -3,7 +3,7 @@
 > **Node ID**: chemistry.petroleum-alternatives
 > **Domain**: [Petroleum & Alternative Chemistry](./)
 > **Dependencies**: `foundations`
-> **Enables**: `aircraft`, `energy.ice`, `lubricants`, `polymers.synthetic-rubbers`, `polymers.thermoplastics`, `polymers.thermosets`
+> **Enables**: `transport.aviation`, `energy.cooling`, `chemistry.lubricants`, `polymers.rubber.synthetic`, `polymers.thermoplastics`, `polymers.thermosets`
 > **Timeline**: Years 5-50+
 > **Outputs**: gasoline, kerosene, diesel, lubricating_oil, benzene, phenol, ethanol, acetone, methanol, producer_gas, ...
 
@@ -11,7 +11,7 @@
 
 Organic chemistry feedstocks fuel the entire materials chain: solvents for semiconductor processing, polymers for packaging and cleanrooms, fuels for transport and furnaces. Without them, the chemical industry stalls at inorganic bulk chemicals. The good news is that there are two independent paths to these molecules. Petroleum is the fast lane; coal tar and fermentation are the reliable fallback.
 
-## Technologies &amp; Systems
+## Technologies & Systems
 
 ### Petroleum Extraction
 
@@ -26,7 +26,7 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 - **Depth**: 50-500 m practical. Penetration rate: 3-10 m/day in soft rock, 0.5-2 m/day in hard rock.
 - **Oil recovery**: Once oil-bearing formation is reached, oil flows into well (if under pressure) or must be bailed. Place screen (perforated pipe section) at production depth. Oil flows through perforations, is pumped to surface.
 
-**Rotary drilling** (Energy+):
+**Rotary drilling**:
 - **Principle**: Rotating drill bit (tri-cone or diamond-studded) grinds rock. Continuous circulation of drilling mud (water + bentonite clay + barite weighting agent) carries cuttings to surface, cools bit, and holds back formation pressure.
 - **Advantages over cable-tool**: Faster (10-50 m/day), reaches deeper (1000-5000+ m), handles soft formations better, continuous mud prevents blowouts.
 - **Equipment**: Rotary table (turns drill string), mud pumps (triplex piston pumps, 5-20 MPa pressure), blowout preventer (hydraulic ram seals wellhead in emergency), drill pipe (seamless steel tube, 5-10 m joints screwed together).
@@ -46,7 +46,7 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 - **Yield**: ~40-60% usable products from simple distillation. Residue can be cracked thermally (heat to 450-500°C in closed vessel → breaks large molecules into smaller ones, yields more gasoline/kerosene).
 - **Safety**: NEVER distill in sealed vessel — pressure explosion risk. Use open system with vent. Fire risk extreme — have sand and fire blankets ready. No open flames near crude oil. Work outdoors or in well-ventilated shed.
 
-**Fractional distillation column** (continuous, Chemistry+):
+**Fractional distillation column** (continuous):
 - **Construction**: Vertical column 5-20 m tall, 0.3-1.5 m diameter. Iron or steel construction. Internal trays (bubble-cap or sieve trays) every 0.3-0.6 m — each tray is a theoretical separation stage. 15-40 trays typical. Reboiler at bottom (steam-heated or oil-fired). Condenser at top (water-cooled).
 - **Operation**: Preheated crude oil fed into column at midpoint (~tray 10-15 of 30). Hot vapors rise through trays. Each tray holds a liquid layer. Rising vapors bubble through liquid — heavier components condense, lighter components strip out. Temperature gradient from bottom (~350°C) to top (~30°C). Draw products at appropriate side ports. Continuous operation — feed in, multiple products out.
 - **Control**: Monitor temperature at each draw point. Adjust reboiler heat rate and reflux ratio (fraction of condensed top product returned to column — higher reflux = better separation, lower throughput). Typical reflux ratio 2:1 to 5:1.
@@ -94,9 +94,9 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 
 **Methanol production** (CH₃OH, wood alcohol):
 - **Wood pyrolysis**: Heat hardwood in closed iron retort to 400-500°C. Destructive distillation produces: charcoal (solid), wood tar (liquid), pyroligneous acid (aqueous condensate containing methanol, acetic acid, acetone). Distill pyroligneous acid — methanol boils at 64.7°C. Yield: ~1-2% methanol by weight of wood. Low yield but works with the Metallurgy stage technology.
-- **Synthetic methanol** (Chemistry+): React CO + 2H₂ over ZnO/Cr₂O₃ catalyst at 300-400°C, 20-30 MPa. Requires purified synthesis gas (from coal gasification or natural gas reforming). Much higher yield and purity.
+- **Synthetic methanol**: React CO + 2H₂ over ZnO/Cr₂O₃ catalyst at 300-400°C, 20-30 MPa. Requires purified synthesis gas (from coal gasification or natural gas reforming). Much higher yield and purity.
 
-### Wood Gasification &amp; Pyrolysis
+### Wood Gasification & Pyrolysis
 
 **Producer gas** (CO + H₂ + N₂):
 - **Gas producer**: Cylindrical shaft 1-3 m diameter × 2-5 m tall, lined with refractory brick. Fill with lump charcoal or coke. Ignite bottom. Blow limited air upward through bed. Incomplete combustion produces CO (carbon monoxide) instead of CO₂.
@@ -149,4 +149,4 @@ Petrochemicals produces the chemical feedstocks (phenol, formaldehyde, ethanol, 
 - **Distillation fires**: Have sand, fire blankets, and water spray. Never distill in sealed vessels. Pressure relief valves on all heated vessels.
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*

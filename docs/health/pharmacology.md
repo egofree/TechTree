@@ -73,3 +73,29 @@
 - **Conditions**: Cool (below 25°C), dry, dark. Refrigerate tinctures and perishable preparations (2-8°C) if possible.
 - **Expiration**: Assign based on stability testing. General guidance: water-based preparations 1-2 weeks (refrigerated), tinctures 2-5 years, dried herbs 1-2 years, tablets 2-3 years. Mark date clearly on label. Discard expired drugs — degraded compounds may be toxic (e.g., degraded tetracycline causes kidney damage).
 - **Special hazards**: Ether → store in dark, sealed containers, test for peroxides. Opium/morphine → secure storage, inventory control. Iodine → sealed glass (sublimes at room temperature).
+
+### Dosing Reference Table
+
+> **WARNING**: These dosages are rough historical references for educational and bootstrap-context use only. Clinical expertise is irreplaceable. Many of these drugs have narrow therapeutic windows and serious side effects. Weigh all compounds on an accurate balance (0.1 g minimum precision). When in doubt, underdose and observe rather than overdose.
+
+| Drug | Dose | Route | Onset | Duration | Key Warning |
+|------|------|-------|-------|----------|-------------|
+| Morphine | 10-30 mg | Oral, IM | 15-60 min | 4-6 hr | Respiratory depression — have naloxone if available; do not give to head injury patients |
+| Aspirin (salicylate) | 300-900 mg | Oral | 30 min | 4-6 hr | Gastric irritation, bleeding risk; avoid in children (Reye's syndrome) |
+| Quinine | 600 mg every 8 hr | Oral | 1-3 hr | 8 hr | Cinchonism (tinnitus, nausea) at high dose; treat for 7 days minimum |
+| Ether (anesthesia) | 10-15% vapor induction, 2-4% maintenance | Inhalation | 3-5 min | — | Explosive — no flames or sparks; slow induction; airway must be maintained |
+| Penicillin (if achievable) | 300-600 mg every 6 hr | IM, Oral | 30 min | 4-6 hr | Anaphylaxis possible — test dose first; requires sterile production |
+| Digitalis (foxglove) | 0.125-0.25 mg | Oral | 30-120 min | 2-4 days | NARROW THERAPEUTIC WINDOW — toxicity causes fatal arrhythmia; cumulative; start low |
+| Epinephrine (adrenaline) | 0.3-0.5 mg (1:1000) | IM | 2-5 min | 10-30 min | For anaphylaxis and cardiac arrest; do not give IV unless cardiac arrest |
+| Sulfonamide (prontosil/sulfa) | 2-4 g initial, then 1 g every 6 hr | Oral | 1-2 hr | 6 hr | Adequate fluid intake required (crystalluria risk); first synthetic antibiotic |
+
+### Safety & Hazards
+
+- **Drug toxicity and overdose**: Many pharmaceutical compounds have narrow therapeutic windows (e.g., digitalis: therapeutic dose 0.125 mg, toxic dose close above). Weigh all compounds on accurate balance (0.1 g minimum precision). When uncertain, underdose and observe. Start with lowest effective dose.
+- **Mercury and arsenic compounds**: Historical pharmaceutical ingredients (mercury for syphilis, arsenic for various treatments) are highly toxic. Mercury is a cumulative neurotoxin. Arsenic is acutely lethal at ~100 mg. Avoid if safer alternatives exist.
+- **Ether anesthesia**: Explosive. No flames, sparks, or electrical equipment that could spark in the operating area. Use in well-ventilated space to prevent vapor accumulation.
+- **Contamination**: Pharmaceutical production requires clean conditions. Contaminated drugs cause infections or unpredictable effects. Sterilize equipment and containers.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Health](./) • [All Domains](../)*

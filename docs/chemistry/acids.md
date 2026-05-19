@@ -46,7 +46,7 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 **Nitric acid** (HNO₃):
 - **Process**: NaNO₃ or KNO₃ (Chile saltpeter or synthetic nitrates) + concentrated H₂SO₄ → HNO₃ + NaHSO₄. Heat gently (60-80°C — higher temperatures decompose HNO₃). Distill off HNO₃ vapor (boiling point 83°C for 68% azeotrope). Condense in glass or ceramic receiver.
 - **Concentration**: 68% azeotrope from simple distillation. Higher concentrations (90-100% "fuming nitric acid") require: (a) distill with concentrated H₂SO₄ as dehydrating agent, or (b) absorb NO₂ gas in water at high pressure and low temperature.
-- **Later route** (Ostwald process, requires ammonia from Haber-Bosch): NH₃ + air over Pt-Rh catalyst at 850°C → NO → NO₂ → H₂SO₄ absorption → HNO₃. Much larger scale but requires the Energy stage+ ammonia synthesis.
+- **Later route** (Ostwald process, requires ammonia from Haber-Bosch): NH₃ + air over Pt-Rh catalyst at 850°C → NO → NO₂ → H₂SO₄ absorption → HNO₃. Much larger scale but requires ammonia synthesis via the Haber-Bosch process.
 - **Storage**: Glass carboys or aluminum tanks (aluminum passivates in concentrated HNO₃ — forms protective oxide). Do NOT store in steel (vigorous reaction).
 
 **Hydrochloric acid** (HCl):
@@ -57,10 +57,18 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 
 **Hydrofluoric acid** (HF) — EXTREMELY HAZARDOUS:
 - **Process**: CaF₂ (fluorite/fluorspar) + H₂SO₄ (conc.) → 2HF + CaSO₄. Heat to 200-300°C in lead or steel retort (HF attacks glass — NEVER use glass apparatus). HF gas distilled off (bp 19.5°C).
-- **Absorption**: Dissolve HF gas in water in lead or plastic (PTFE, polyethylene — Chemistry+ polymer) vessels. Aqueous HF: 48-50% commercial concentration.
+- **Absorption**: Dissolve HF gas in water in lead or plastic (PTFE, polyethylene) vessels. Aqueous HF: 48-50% commercial concentration.
 - **Hazards**: HF penetrates skin, attacks bone, causes systemic fluoride poisoning. Lethal at ~2.5% body surface area exposure (a hand-sized splash of 50% HF can kill). **Calcium gluconate gel MUST be on-site before any HF work.** Apply to exposed area immediately, seek emergency treatment. HF burns may not be immediately painful — the delay makes them more dangerous.
 - **Uses**: Glass etching, silicon wafer etching (the Silicon-Photolithography stage transition), fluoride chemistry, aluminum production (synthetic cryolite).
 - **Storage**: PTFE or polyethylene containers. Lead containers for concentrated acid. NEVER glass.
+### Safety & Hazards
+
+- **Sulfuric acid (H₂SO₄)**: Concentrated acid causes severe chemical burns and is intensely dehydrating (chars organic matter on contact). Dilution is highly exothermic — ALWAYS add acid to water, NEVER water to acid (violent boiling/splattering). Wear acid-resistant gloves, face shield, chemical apron. Emergency: flush with copious water for 15+ minutes.
+- **Nitric acid (HNO₃)**: Strong oxidizer. Contact with organic materials can cause fire. Fumes are toxic (NO₂ — brown gas, lung damage). Store away from organics. Same PPE as sulfuric acid.
+- **Hydrochloric acid (HCl)**: Fumes are corrosive to respiratory tract. Concentrated acid causes burns. Use in ventilated area. Eye protection critical.
+- **Hydrofluoric acid (HF)**: EXCEPTIONALLY DANGEROUS. Dissolves bone. Penetrates skin without immediate pain. Lethal at small exposure area. ANTIDOTE: Calcium gluconate gel — must be on hand before ANY HF handling. Absolutely requires HF-specific training. PPE: neoprene gloves, face shield, apron.
+- **Oleum (fuming sulfuric acid, H₂SO₄ + SO₃)**: More hazardous than concentrated sulfuric. Releases corrosive SO₃ fumes. Handle only in well-ventilated areas with full acid PPE.
+
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*

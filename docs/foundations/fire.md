@@ -40,3 +40,13 @@
 - **Dakota fire pit**: Dig two holes connected by a tunnel — one for the fire, one for airflow. Burns hot and clean with minimal smoke. Very fuel-efficient. Ideal for cooking and heat conservation.
 - **Reflector wall**: Stack logs or stones behind fire to reflect heat toward shelter. Wall should be ~1 m tall, positioned ~1 m from fire.
 - **Lean-to fire lay**: Place a large log as windbreak, lay kindling against it at an angle. Protects flame from wind while allowing airflow. Good starting configuration in windy conditions.
+
+### Safety & Hazards
+
+- **Burn injuries**: All friction-fire methods generate embers at 300-500°C and open flames shortly after. Hand drill and bow drill methods place hands and face close to the ember point. Flint-and-steel sparks reach ~800°C. Keep tinder bundles on a non-combustible surface (bare earth, flat stone). Have water or sand ready to extinguish accidental fires. Tie back long hair and secure loose clothing before friction fire practice. Treat all ember contact as a burn risk — first aid is immediate cool water immersion for 10-20 minutes.
+- **Carbon monoxide poisoning**: Indoor fires (hearths, fire-banked coals in shelters) produce carbon monoxide. CO is odorless and causes headache, drowsiness, confusion, and death at sustained high concentration. Never burn charcoal or use a Dakota fire pit inside an enclosed shelter. Ensure ventilation — at minimum a high vent and a low vent for airflow. Fire banking (coals buried in ash at 300-500°C for 8-12 hours) inside a shelter requires careful venting; the smoldering coals continue to produce CO. If occupants wake with headache or nausea, evacuate immediately and ventilate.
+- **Wildfire risk**: Fire-making in dry grassland, forest, or brush carries significant wildfire risk. Clear a fire ring to bare mineral soil at least 1 m in all directions. Keep the fire small and attended at all times. Extinguish completely before leaving — drown with water, stir ashes, drown again. In windy conditions, use the Dakota fire pit or a rock-ringed fire sheltered from wind. Be aware of local dry-season fire danger before striking sparks or building any fire.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Foundations](./) • [All Domains](../)*

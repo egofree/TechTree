@@ -68,3 +68,16 @@ Indigo pigment (indigotin) is insoluble in water. It must be chemically reduced 
 
 ---
 *Dependencies: [Spinning](spinning.md) for yarn, [Weaving](weaving.md) for cloth, [Chemistry](../chemistry/index.md) for alum and iron sulfate production at scale*
+
+---
+
+### Safety & Hazards
+
+- **Toxic mordants**: Alum (aluminum potassium sulfate) is relatively safe. Iron sulfate is a mild irritant. Copper sulfate is toxic if ingested. Chrome alum (potassium dichromate) is a known carcinogen and must be handled with gloves. Tin chloride is toxic. Wear gloves when handling mordants.
+- **Dye chemical hazards**: Some natural dyes contain toxic compounds. Logwood contains hematoxylin (moderately toxic). Indigo processing uses strong alkalis (slaked lime, NaOH). Weld and other plant dyes are generally safe.
+- **Hot liquid burns**: Dye vats are heated to near-boiling (80-100°C). Splashes cause scald burns. Use long stirring sticks. Face protection when adding materials to hot vats.
+- **Urine fermentation**: Historical indigo vats use fermented urine (ammonia source). Unpleasant odor, ammonia fumes irritating to eyes and respiratory tract. Ventilate dye work areas.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Textiles](./) • [All Domains](../)*

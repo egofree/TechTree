@@ -45,3 +45,14 @@ Adjust proportions within these ranges based on raw material purity and desired 
 - **Lehr furnace**: Long tunnel furnace with controlled temperature gradient. For batch production, use a brick kiln with separate heating zone.
 - **Annealing schedule**: Heat to annealing point (~500°C for soda-lime glass). Hold until temperature is uniform throughout the piece (30 min per 6 mm thickness). Cool at 1-5°C/min through the strain point (~450°C). Below strain point, faster cooling is safe (5-10°C/min to room temperature).
 - **Stress checking**: View finished glass between crossed polarizers (polarizing film or calcite crystals). Colored fringes indicate residual stress — uniform dark field indicates well-annealed glass.
+
+### Safety & Hazards
+
+- **Molten glass burns**: Glass batch melts at 1100-1400°C and working temperatures reach 1500-1600°C during fining. Molten glass adheres to skin and causes severe deep burns that are extremely difficult to remove. Wear heat-resistant gloves, arm protection, face shield, and closed-toe boots at all times near the furnace. Use properly sized gathering irons and blowing pipes — a dropped gather of molten glass splatters widely. Never use wet or damp tools to contact molten glass; trapped moisture causes steam explosions.
+- **Silica dust inhalation**: Raw silica sand (SiO₂, >95% purity) produces respirable crystalline silica dust during weighing, sieving (60-100 mesh), mixing, and crushing cullet. Inhalation of crystalline silica causes silicosis — an irreversible, progressive lung disease. Wear a particulate respirator (P100 or equivalent) when handling dry silica powder. Mix batch ingredients wet when possible. Use local exhaust ventilation at mixing stations.
+- **Toxic fining agents**: Arsenic trioxide and antimony trioxide are listed as fining agents (0.1-0.5% addition) used during the fining stage at 1500-1600°C. Both are toxic by inhalation and ingestion. Arsenic trioxide is a known carcinogen. Handle as sealed, pre-weighed additions whenever possible. Avoid creating dust. Use gloves and respiratory protection when measuring and adding fining agents to the melt.
+- **Thermal stress fracture**: Unannealed or improperly annealed glass can shatter spontaneously, sometimes hours or days after cooling, sending sharp fragments at high velocity. Always follow the annealing schedule (500°C hold, cool at 1-5°C/min through strain point). Never skip annealing for any glass item intended for use or handling.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Glass](./) • [All Domains](../)*

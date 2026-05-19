@@ -63,5 +63,16 @@
 - **Honey extraction**: Smoke hive entrance to calm bees (burn dried dung or rotten wood for cool smoke). Cut honeycomb with knife. Crush comb and strain through woven cloth. Yield: 10-20 kg honey per hive per year.
 - **Wax harvesting**: Melt crushed comb in water — wax floats to surface. Pour into molds. Beeswax used for candles, waterproofing, bronze casting investment, and sealant.
 - **Pollination value**: One hive pollinates crops in ~1 km radius. Crop yield increases of 20-30% near hives. Bees are the single most valuable livestock for agriculture per unit of care invested.
+
+### Safety & Hazards
+
+- **Grain dust explosions**: Suspended grain dust explodes at 50-100 g/m³. Ventilation, dust collection, no ignition sources, brass tools, ground equipment.
+- **Machinery entanglement**: Threshers, mills — rotating shafts catch clothing. Guard moving parts. Tie back hair. No loose sleeves. Emergency stop within reach.
+- **Animal handling**: Large animals can crush or trample. Use halters and restraints. Approach from side.
+- **Silo hazards**: Crusted grain hides voids — walking on surface leads to engulfment and suffocation. Never enter alone. Phosphine fumigants are lethal — ventilate thoroughly before entry.
 ---
 
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Foundations](./) • [All Domains](../)*

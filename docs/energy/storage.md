@@ -2,7 +2,7 @@
 
 > **Node ID**: energy.storage
 > **Domain**: [Energy Storage & Diversification](./)
-> **Dependencies**: `chemistry`, `energy`, `metallurgy`
+> **Dependencies**: `chemistry`, `energy`, `metals`
 > **Timeline**: Years 15-200+
 > **Outputs**: lead_acid_batteries, grid_infrastructure, ups_systems, hydroelectric_power, wind_power
 
@@ -10,7 +10,7 @@
 
 Semiconductor fabrication equipment cannot tolerate power interruptions — a power glitch during a crystal growth run or lithography exposure destroys expensive work-in-progress. Energy storage provides buffer capacity, and diversification prevents single-source dependency.
 
-## Technologies &amp; Systems
+## Technologies & Systems
 
 ### Lead-Acid Battery
 
@@ -62,19 +62,19 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 - **Principle**: During surplus power, pump water from lower reservoir to upper reservoir (elevation gain). During demand, release water through turbine → generate electricity. Round-trip efficiency: 70-85%.
 - **Requirements**: Two reservoirs with elevation difference (minimum 50-100 m head for useful energy density). Upper reservoir: natural lake or constructed reservoir. Lower reservoir: river, lake, or constructed. Penstock (pipe or tunnel connecting reservoirs) sized for maximum flow rate. Pump/turbine (reversible Francis turbine — acts as pump in one direction, turbine in reverse).
 - **Energy storage**: E = ρ × g × h × V × η, where ρ = water density (1000 kg/m³), g = 9.81 m/s², h = head (m), V = volume (m³), η = efficiency. Example: 100 m head, 10,000 m³ upper reservoir = 1000 × 9.81 × 100 × 10000 × 0.75 / 3.6 × 10⁶ = ~2044 kWh. This is substantial.
-- **Construction**: Major civil engineering project. Dam construction, tunnel boring, powerhouse. Energy+ capability. Payback: decades of service. Most cost-effective large-scale storage.
+- **Construction**: Major civil engineering project. Dam construction, tunnel boring, powerhouse. Requires powered machinery. Payback: decades of service. Most cost-effective large-scale storage.
 
 **Flywheel energy storage**:
 - **Principle**: Rotating mass stores kinetic energy: E = ½Iω², where I = moment of inertia, ω = angular velocity. Energy proportional to mass × radius² × RPM². Double RPM → 4× energy.
 - **Construction**: Heavy steel rotor (solid cylinder or rim-weighted) on precision bearings. 100-500 kg, 0.3-1 m diameter, 3000-10000 RPM. Motor/generator couples to flywheel shaft — accelerates to store energy, decelerates to release.
-- **Bearings**: Precision ball bearings (Machine Tools) minimum. Magnetic bearings (Vacuum & Optics+ — electromagnetic levitation, zero friction) for high-RPM, long-duration storage.
+- **Bearings**: Precision ball bearings (Machine Tools) minimum. Magnetic bearings (electromagnetic levitation, zero friction) for high-RPM, long-duration storage.
 - **Enclosure**: Vacuum chamber (Vacuum & Optics) to eliminate air friction — at high RPM, air drag is enormous. Safety: containment vessel must withstand rotor burst (kinetic energy equivalent to explosion if rotor fails).
 - **Energy density**: 5-50 Wh/kg (depending on RPM and material strength). Short discharge duration (seconds to minutes). Best for power quality (voltage/frequency stabilization), not long-duration energy storage.
 
 **Compressed air energy storage (CAES)**:
 - **Principle**: Compress air into storage vessel or underground cavern during surplus. Release through turbine during demand. Compression heats air → must cool (waste heat). Expansion cools air → must reheat (recover waste heat or burn fuel). Round-trip efficiency: 40-70% depending on heat recovery.
-- **Storage vessel**: Steel pressure vessel (2-5 MPa rated). Underground salt cavern (solution-mined by dissolving salt with water — Energy+ capability, cheapest large-scale option). Abandoned mine workings (if gas-tight).
-- **Compressor**: Multi-stage reciprocating or centrifugal compressor. Intercoolers between stages (remove heat of compression → less work required for next stage). Energy+ technology.
+- **Storage vessel**: Steel pressure vessel (2-5 MPa rated). Underground salt cavern (solution-mined by dissolving salt with water — powered machinery, cheapest large-scale option). Abandoned mine workings (if gas-tight).
+- **Compressor**: Multi-stage reciprocating or centrifugal compressor. Intercoolers between stages (remove heat of compression → less work required for next stage).
 - **Applications**: Grid-scale energy storage (100+ MWh), industrial compressed air systems (pneumatic tools, actuators, instrument air).
 
 ### Energy Diversification
@@ -133,6 +133,14 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 - Grid infrastructure with transmission, distribution, and load management
 - Online UPS for semiconductor fabrication equipment (zero transfer time)
 - Pumped hydro for large-scale storage (if geography permits)
+
+### Safety & Hazards
+
+- **Lead-acid batteries**: Sulfuric acid electrolyte (30-40%) causes severe chemical burns. Wear acid-resistant gloves and eye protection when handling cells. Spills neutralized with baking soda (NaHCO₃). Lead exposure risk during plate manufacturing — wash hands, avoid inhalation of lead oxide dust.
+- **Hydrogen gas explosion**: Charging above 2.4V/cell electrolyzes water, producing H₂ + O₂. Hydrogen is explosive at 4-74% concentration in air. Battery rooms require forced ventilation (minimum 2 air changes/hour), no open flames, explosion-proof electrical fittings.
+- **Short-circuit fire**: Lead-acid batteries can deliver hundreds of amps into a short circuit — instant arc, molten metal, fire. Insulate all tools when working near battery terminals. Install fuses or circuit breakers on every battery string.
+- **Lithium thermal runaway** (later chemistries): Lithium-ion cells can enter self-sustaining overheating if overcharged, punctured, or shorted. Fire burns without external oxygen (self-oxidizing). Requires Class D fire extinguisher or sand — water may worsen lithium fires. Not applicable to lead-acid/nickel-iron bootstrap phase.
+
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*

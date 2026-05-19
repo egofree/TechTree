@@ -5,7 +5,7 @@
 > **Timeline**: Years 30-50
 > **Outputs**: automated_machines, punch_cards
 
-### Automation &amp; Control
+### Automation & Control
 
 **Cams and followers**:
 - **Cam**: Rotating or sliding piece with shaped profile. **Follower**: lever or rod that moves in response to cam profile. Convert continuous rotary motion into complex, pre-programmed linear or oscillating motion.
@@ -60,4 +60,12 @@
 **Strowger switch** (telephone switching):
 - **Design**: Two-motion selector — vertical (10 levels) then horizontal (10 positions) = 100-contact array per switch. Input pulse train from rotary dial: first digit selects vertical level, second digit selects horizontal position. Routes one telephone line to any of 100 destination lines automatically.
 - **Application**: Automatic telephone exchanges eliminating human operators. Hundreds of Strowger switches per exchange, cascaded for multi-digit numbers (10,000 subscribers with 4-digit dialing). Electromechanical switching enabled communications networks before transistor electronics.
+
+### Safety & Hazards
+
+- **Moving machinery pinch points**: Relays, gears, cam followers, and Strowger switches have moving parts that can crush or amputate fingers. Install physical guards over exposed mechanisms. Use interlocks that disconnect power when guard panels are opened. Never reach into operating machinery.
+- **High-voltage relay contacts**: Electromechanical relays switching inductive loads (motors, solenoids) produce arc flash across contact gaps — temperatures exceed 10,000°C at the arc root. Risk of electrocution and flash burns. Always disconnect and lock out power before servicing relay panels. Use insulated tools rated for the circuit voltage. Wear safety glasses when working near energized contacts.
+- **Fire from relay contact arcing**: Repeated arcing at relay contacts generates metal vapors and carbon deposits that accumulate as combustible dust. Combined with the arc's ignition energy, this causes fires in relay cabinets. Keep relay panels clean and dust-free. Use arc suppressors (RC snubber circuits or diodes across inductive loads) to reduce arcing. Maintain smoke detection in equipment rooms.
+
+*Part of the [Bootciv Tech Tree](../) • [Computing](./) • [All Domains](../)*
 

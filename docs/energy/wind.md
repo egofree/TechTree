@@ -3,7 +3,7 @@
 > **Node ID**: energy.wind
 > **Domain**: [Energy](./)
 > **Dependencies**: `foundations`, `metals.copper-bronze` or `metals.iron-steel`
-> **Enables**: `energy.steam-power` (millwright skills transfer), `agriculture` (grain milling), `water-systems` (pumping)
+> **Enables**: `energy.steam-power` (millwright skills transfer), `foundations.food-agriculture` (grain milling), `health.sanitation` (pumping)
 > **Timeline**: Years 5-15
 > **Outputs**: wind_power, mechanical_rotation, ground_grain, pumped_water
 
@@ -85,7 +85,7 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 
 1. **Select site**: Elevated, unobstructed, prevailing wind direction. Measure wind for months if possible.
 2. **Build tower/foundation**: Stone or timber. Must withstand full wind load on furled sails — worst case. Guy wires or struts for post mill.
-3. **Fabricate windshaft**: Oak trunk (0.2-0.3 m diameter, 3-5 m long) or forged iron. Iron windshaft far superior — stronger, smaller, longer-lived. Requires `metallurgy.iron-steel`.
+3. **Fabricate windshaft**: Oak trunk (0.2-0.3 m diameter, 3-5 m long) or forged iron. Iron windshaft far superior — stronger, smaller, longer-lived. Requires `metals.iron-steel`.
 4. **Build sail frames and install canvas or shutters**: Balance all sails — uneven weight causes destructive vibration.
 5. **Install gear train**: Brake wheel on windshaft, wallower on upright shaft. Mesh carefully — backlash causes hammering and rapid wear.
 6. **Connect to load**: Millstones, saw, pump, or generator.
@@ -106,5 +106,14 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+### Safety & Hazards
+
+- **Structural failure**: Windmill towers and rotors are subject to extreme forces in high winds. Overspeed in storms can destroy rotors and throw debris hundreds of meters. Furling mechanism (turns rotor out of wind) or brakes must be functional. Never approach a windmill in high winds.
+- **Height hazards**: Windmill towers require climbing for maintenance. Fall protection needed. Ladders with rest platforms every 10m. Never climb in icy or high-wind conditions.
+- **Rotating machinery**: Windmill main shaft, gear train, and machinery move with significant force. Guard all rotating components. Disconnect or brake before maintenance.
+- **Lightning**: Tall windmill towers attract lightning. Ground the structure. Do not approach during electrical storms.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
 

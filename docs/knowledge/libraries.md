@@ -8,16 +8,16 @@
 ### Library Construction
 
 **Building design**:
-- **Structural requirements**: Load-bearing masonry walls (stone or brick, minimum 300 mm thick). Reinforced concrete or vaulted ceiling for fire resistance. Iron or steel framing for multi-story stacks (Machine Tools+). Floor loading: books average ~1 kg each; full shelving runs 200-300 kg per linear meter — design floors for 5-7 kN/m² minimum.
-- **Climate control**: Maintain 18-22°C and 45-55% relative humidity. Passive methods: thick walls for thermal mass, earth-sheltered construction (stable ground temperature ~10-15°C), ventilated stack aisles. Active methods (Energy+): steam-heated radiators for heating, evaporative cooling or compressor-based dehumidifiers for humidity. Install hygrometers (hair-tension or wet-bulb type) and thermometers at multiple points; log readings daily.
-- **Lighting**: Natural light via north-facing clerestory windows (diffuse, no direct UV). Oil lamps for early libraries — enclosed glass-body lamps reduce fire risk. Electric lighting (Energy+): incandescent bulbs, low UV output, positioned to avoid heat buildup near shelves.
+- **Structural requirements**: Load-bearing masonry walls (stone or brick, minimum 300 mm thick). Reinforced concrete or vaulted ceiling for fire resistance. Iron or steel framing for multi-story stacks. Floor loading: books average ~1 kg each; full shelving runs 200-300 kg per linear meter — design floors for 5-7 kN/m² minimum.
+- **Climate control**: Maintain 18-22°C and 45-55% relative humidity. Passive methods: thick walls for thermal mass, earth-sheltered construction (stable ground temperature ~10-15°C), ventilated stack aisles. Active methods: steam-heated radiators for heating, evaporative cooling or compressor-based dehumidifiers for humidity. Install hygrometers (hair-tension or wet-bulb type) and thermometers at multiple points; log readings daily.
+- **Lighting**: Natural light via north-facing clerestory windows (diffuse, no direct UV). Oil lamps for early libraries — enclosed glass-body lamps reduce fire risk. Electric lighting: incandescent bulbs, low UV output, positioned to avoid heat buildup near shelves.
 - **Fire protection**: No open flames, no combustible finishes on walls or ceilings. Lightning rod (copper strip to ground). Sand buckets and water pumps at each floor. Fire doors (iron-clad wood or solid iron). Stone or tile floors only — no wood in stack areas.
 
 ### Shelving & Storage
 
 **Shelf design**:
 - **Wooden shelving**: Dressed hardwood (oak, ash) boards, 20-25 mm thick, 200-250 mm deep, spans up to 900 mm between uprights. Uprights: 50×75 mm posts with routed dadoes for adjustable shelf placement at 25 mm increments. Back panel prevents items falling behind. Load test each shelf to 50 kg before committing to layout.
-- **Steel shelving** (Machine Tools+): Angle-iron uprights with clip-in shelf brackets. Thinner shelves (1.5 mm sheet steel) hold more weight per unit than wood. Corrosion-resistant paint or galvanized finish.
+- **Steel shelving**: Angle-iron uprights with clip-in shelf brackets. Thinner shelves (1.5 mm sheet steel) hold more weight per unit than wood. Corrosion-resistant paint or galvanized finish.
 - **Aisle width**: Minimum 900 mm for single-person access, 1200 mm for two-way traffic or cart passage.
 - **Compact storage**: For high-density archival storage, use sliding (mobile) shelving on floor rails — halves the aisle space required.
 
@@ -57,7 +57,7 @@
 
 ### Digital Storage Considerations
 
-Once semiconductor manufacturing is available (Photolithography+):
+Once semiconductor manufacturing is available:
 - **Punched cards** (pre-electronic): 80 characters/card, ~150 cards/kg. Robust but extremely low density. Useful as a bridge technology for numerical data.
 - **Magnetic tape**: High capacity, 10-30 year reliable lifespan before bit rot demands refresh. Store at 18-22°C, 40-50% RH. Rewind annually to prevent adhesive bleed-through.
 - **Optical media** (CD-ROM, later DVD): 50-100 year claimed lifespan for gold-reflector discs. Read-only after mastering — immune to accidental overwrite. Requires precise manufacturing tolerances (see Photolithography domain).
@@ -75,3 +75,7 @@ Once semiconductor manufacturing is available (Photolithography+):
 2. Industrial bootstrap: Metallurgy, chemistry, energy, machine tools
 3. Advanced capability: Electronics, semiconductors, telecommunications
 4. Cultural: History, literature, philosophy — preserve but not at the expense of technical works
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Knowledge](./) • [All Domains](../)*

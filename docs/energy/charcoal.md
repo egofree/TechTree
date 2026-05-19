@@ -66,3 +66,7 @@ Higher fixed carbon = hotter, cleaner burn. Metallurgical grade requires hardwoo
 - **Coal & coke** (later fuel progression): [coal.md](coal.md), [coke.md](coke.md)
 - **Fuel comparison table**: [fuels.md](fuels.md)
 - **Early iron smelting** (primary consumer): [iron-steel.md](../metals/iron-steel.md)
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*

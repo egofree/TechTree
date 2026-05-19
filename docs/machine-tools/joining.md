@@ -178,4 +178,4 @@ Shielded Metal Arc Welding uses an electric arc to melt both the consumable elec
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Machine Tools](./) • [All Domains](../)*

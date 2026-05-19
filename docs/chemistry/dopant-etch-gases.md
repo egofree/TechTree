@@ -50,3 +50,14 @@
 
 **Mass flow controllers (MFCs)**: Thermal measurement of gas flow. Heated sensor tube — gas flowing carries heat downstream. Temperature difference between upstream and downstream sensors proportional to mass flow. Control valve adjusts to maintain setpoint. Accuracy ±1% of full scale. Calibrate for each specific gas (heat capacity differs). Essential for semiconductor process control — gas flow determines deposition rates, etch rates, doping levels.
 
+### Safety & Hazards
+
+- **Hydrofluoric acid (HF)**: Dissolves bone. Lethal at low exposure. ANTIDOTE: Calcium gluconate gel — must be on hand before ANY HF handling.
+- **Phosgene (COCl₂)**: WWI weapon. Lethal at 3 ppm, delayed onset. Sealed systems only.
+- **Silane (SiH₄)**: Pyrophoric, ignites in air. Cannot extinguish with water/CO₂.
+- **Arsine (AsH₃)**: Lethal at 50 ppb. Continuous monitoring required.
+
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*

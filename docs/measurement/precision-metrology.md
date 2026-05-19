@@ -2,7 +2,7 @@
 
 > **Node ID**: measurement.precision-metrology
 > **Domain**: [Measurement](./)
-> **Dependencies**: `foundations`, `metallurgy`
+> **Dependencies**: `foundations`, `metals`
 > **Timeline**: Years 0-40+
 > **Outputs**: length_standards, mass_standards, timekeeping, precision_instruments, calibration_chain, electrical_standards
 
@@ -10,7 +10,7 @@
 
 Precision manufacturing (Machine Tools) and all semiconductor work requires consistent, calibrated measurement. Without standardized units and measuring instruments, interchangeable parts and repeatable processes are impossible.
 
-## Technologies &amp; Systems
+## Technologies & Systems
 
 ### Base Unit Standards
 
@@ -31,7 +31,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 **Temperature standard**:
 - **Reference points**: Ice point (0.00°C — ice/water mixture at 1 atm), steam point (100.00°C — boiling water at 1 atm), triple point of water (0.01°C — simultaneous ice/water/vapor equilibrium — more precise than ice point).
 - **Mercury-in-glass thermometer**: Capillary tube (0.1-0.3 mm bore) with bulb, filled with mercury. Mercury expands linearly with temperature (over range -38°C to +357°C). Mark scale by immersing in reference point baths. Divide scale by precision dividing engine. Accuracy: ±0.1°C for well-made thermometers. Read to 0.01°C with magnifier and etched scale.
-- **Thermocouple** (Energy+): Two dissimilar metals joined at measurement junction. Voltage generated proportional to temperature difference between measurement junction and reference junction. Type K (chromel/alumel): -200°C to +1300°C, ~41 μV/°C. Type S (Pt/Pt-10%Rh): 0°C to +1600°C, ~6 μV/°C. Read with precision millivoltmeter or potentiometer. Accuracy ±1-2°C with reference junction compensation.
+- **Thermocouple**: Two dissimilar metals joined at measurement junction. Voltage generated proportional to temperature difference between measurement junction and reference junction. Type K (chromel/alumel): -200°C to +1300°C, ~41 μV/°C. Type S (Pt/Pt-10%Rh): 0°C to +1600°C, ~6 μV/°C. Read with precision millivoltmeter or potentiometer. Accuracy ±1-2°C with reference junction compensation.
 
 ### Timekeeping
 
@@ -45,7 +45,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - **Accuracy**: ±5-10 seconds per day with careful construction and temperature compensation. Regulate by comparing with astronomical observation (transit of a star — sidereal time is extremely regular).
 - **Marine chronometer** (the Machine Tools-Energy stage transition): For navigation. Spring-driven (no gravity dependence). Balance wheel with helical balance spring replaces pendulum (not affected by ship motion). Temperature compensation (bimetallic balance wheel). Accuracy: ±1-2 seconds per day. Historically took decades to perfect — Harrison's H4 (1761) was the breakthrough.
 
-**Electrical clocks** (Energy+):
+**Electrical clocks**:
 - Synchronous motor clock: AC synchronous motor runs at speed locked to AC line frequency (3600 RPM at 60 Hz, 3000 RPM at 50 Hz). Gear train reduces to drive hands. Accuracy limited only by power grid frequency stability (typically ±0.02 Hz → ±30 seconds/day long-term, but short-term accuracy excellent). Main problem: power interruptions stop clock.
 
 ### Precision Instruments
@@ -59,7 +59,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - **Inside caliper**: Two legs with outward-facing tips. Adjust to fit bore. Measure span with rule or micrometer. Transfer measurement method — indirect but effective for internal diameters.
 - **Outside caliper**: Two legs with inward-facing tips. Adjust to fit over workpiece. Measure span.
 
-**Micrometer** (Machine Tools+):
+**Micrometer**:
 - **Principle**: Thread of precise, known pitch (0.5 mm standard). Thimble rotates → spindle advances 0.5 mm per revolution. Thimble has 50 divisions → 0.01 mm resolution. With vernier on sleeve: 0.001 mm resolution.
 - **Construction**: C-frame (cast iron or steel) — one side has anvil (fixed, tungsten carbide face), other side has spindle (hardened steel, ground and lapped cylindrical, tungsten carbide measuring face). Spindle advances through internal thread in barrel (precision-ground thread, 0.5 mm pitch). Thimble rotates over barrel. Ratchet stop or friction thimble ensures consistent measuring force (5-10 N) — prevents over-tightening which distorts reading and damages instrument.
 - **Calibration**: Check zero point (close micrometer gently — should read 0.000). Check with gauge blocks at several points (5 mm, 10 mm, 25 mm). Plot error curve. Apply corrections. Recalibrate monthly.
@@ -96,11 +96,11 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - **Method**: Compare instrument readings against more accurate reference standards. Record deviations. Apply correction factors if within tolerance. Remove from service if out of tolerance. Label with calibration sticker (date calibrated, next due date, calibration status).
 - **Traceability chain**: Working micrometer → calibrated against inspection gauge blocks → calibrated against master gauge blocks → calibrated against length standard. Each step adds uncertainty. Total uncertainty = root-sum-square of all contributing uncertainties.
 
-### Electrical Standards (Energy+)
+### Electrical Standards
 
 **Voltage standard**:
 - **Weston standard cell**: Cd-Hg amalgam anode | CdSO₄ solution | Hg₂SO₄ paste | Hg cathode. Voltage: 1.01864V at 20°C (temperature coefficient ~-40 μV/°C). Stable to ±10 μV/year. Used as voltage reference for potentiometer measurements. NEVER draw current from standard cell (even 1 μA polarizes cell, takes hours to recover). Use in null-balance (potentiometer) circuit only.
-- **Alternative (Chemistry+)**: Zener diode reference (temperature-compensated Zener, 6.95V, stability ~1-10 ppm/year in oven-controlled enclosure). Solid-state, more robust than standard cell.
+- **Alternative**: Zener diode reference (temperature-compensated Zener, 6.95V, stability ~1-10 ppm/year in oven-controlled enclosure). Solid-state, more robust than standard cell.
 
 **Resistance standard**:
 - **Standard resistor**: Manganin wire (84% Cu, 12% Mn, 4% Ni — near-zero temperature coefficient of resistance, ~20 ppm/°C) wound bifilar (folded back on itself to cancel inductance) on brass bobbin. Sealed in oil-filled container (oil provides thermal mass and insulation from humidity). Values: 0.001 Ω to 100,000 Ω. Stability: ±10 ppm/year.
@@ -108,16 +108,16 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 
 **Current measurement**: Derived from voltage and resistance via Ohm's law (I = V/R). No independent current standard needed if voltage and resistance standards are maintained.
 
-**Frequency standard** (Silicon+):
+**Frequency standard**:
 - **Quartz crystal oscillator**: AT-cut quartz crystal resonates at precise frequency (32,768 Hz for watches, 1-10 MHz for instrumentation). Frequency stability: ±10-50 ppm over -40°C to +85°C (uncompensated), ±0.1-1 ppm with temperature compensation (TCXO), ±0.001-0.01 ppm in oven-controlled enclosure (OCXO). Requires quartz crystal production from the Silicon stage.
 - Used for: clock references, timer circuits, frequency counters, telecommunications timing.
 
-### Optical Metrology (Vacuum & Optics+)
+### Optical Metrology
 
 **Interferometry**:
 - **Flatness measurement**: Place optical flat (quartz or glass, flat to λ/10) on surface to be measured. Illuminate with monochromatic light (sodium lamp, λ = 589 nm). Interference fringes appear between flat and test surface. Straight, equally-spaced fringes = flat surface. Curved fringes = surface deviation. One fringe deviation = λ/2 = 295 nm flatness error.
 - **Gauge block calibration**: Interferometric comparison against reference block. Resolution: ~0.02 μm.
-- **Length measurement**: Laser interferometer (Photolithography+) measures distance by counting wavelengths of laser light. Resolution: λ/4 ≈ 158 nm (HeNe laser, λ = 633 nm). With interpolation: 1-10 nm resolution. THE most precise length measurement method available.
+- **Length measurement**: Laser interferometer measures distance by counting wavelengths of laser light. Resolution: λ/4 ≈ 158 nm (HeNe laser, λ = 633 nm). With interpolation: 1-10 nm resolution. THE most precise length measurement method available.
 
 ## Integration Points
 
@@ -140,6 +140,13 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - Temperature measurement (mercury thermometers → thermocouples)
 - Calibration laboratory with temperature control and traceability chain
 - Electrical standards (voltage, resistance) and measurement instruments
+
+### Safety & Hazards
+
+- **Laser safety**: Laser interferometers (HeNe, Class II/IIIa) can cause retinal damage from direct or specular beam exposure. Never look directly into beam. Use beam stops and enclosures where possible. Label all laser equipment with class rating.
+- **Mercury exposure**: Broken mercury thermometers release toxic mercury vapor (IDLH 10 mg/m³). Clean spills with mercury absorbent sponge or zinc dust — never vacuum. Use mercury-free alternatives (alcohol thermometers, thermocouples) where precision permits.
+- **Calibration fluids**: Some calibration standards (acids for pH, solvent-based density fluids) are corrosive or toxic. Handle in fume hood with gloves. Label all calibration chemicals with hazard information.
+
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Measurement](./) • [All Domains](../)*

@@ -81,3 +81,14 @@ The fuel chain is also a dependency chain: charcoal requires wood pyrolysis know
 - **Coke production**: [coke.md](coke.md)
 - **Petroleum refining & liquid fuels**: [petroleum-alternatives.md](../chemistry/petroleum-alternatives.md)
 - **Mining infrastructure**: [extraction.md](../mining/extraction.md)
+
+### Safety & Hazards
+
+- **Flammability and explosion**: All liquid and gaseous fuels form explosive mixtures with air. Gasoline vapor ignites at 1.4-7.6% concentration. Natural gas (methane) at 5-15%. Never store fuels near ignition sources. Use in well-ventilated areas.
+- **Carbon monoxide (CO)**: Incomplete combustion of any carbon fuel produces CO — odorless, colorless, lethal. Never burn fuels in enclosed spaces without ventilation. CO detectors where fuel-burning equipment operates. Symptoms: headache, nausea, dizziness → evacuate to fresh air.
+- **Fuel storage**: Store liquid fuels in approved containers away from heat. Gasoline and light fractions have low flash points (-40°C for gasoline). Static electricity can ignite fuel vapors during transfer — ground containers. Store gaseous fuels in pressure-rated cylinders.
+- **Wood/coal dust**: Suspended dust at sufficient concentration is explosive. Ventilation in fuel storage areas.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*

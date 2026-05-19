@@ -11,9 +11,9 @@
 
 Every machine with moving parts generates friction and heat. Without lubrication, bearings gall, slides bind, gears wear out in hours, and cutting tools destroy both themselves and the workpiece. A civilization rebuilding its industrial base needs lubricants from day one, starting with animal fats and evolving toward refined mineral oils and synthetic hydraulic fluids.
 
-## Technologies &amp; Systems
+## Technologies & Systems
 
-### Animal Fats &amp; Vegetable Oils
+### Animal Fats & Vegetable Oils
 
 **Rendering animal fat**:
 - **Tallow** (beef/mutton fat): Cut fat into small pieces. Heat in iron pot with water (prevents scorching) at 80-100°C for 2-4 hours. Fat melts out, floats on water. Skim off, filter through cloth. Repeat pressing of cracklings (solid residue) in screw press to extract remaining fat. Yield: 70-85% of raw fat weight. Melting point: 40-45°C. At room temperature: semi-solid, waxy.
@@ -82,11 +82,11 @@ Every machine with moving parts generates friction and heat. Without lubrication
 - **Oil-ring lubrication**: Brass or steel ring (20-40 mm diameter) rides on shaft, dips into oil reservoir below bearing. Shaft rotation carries ring → ring drags oil up to shaft top → oil flows along shaft into bearing. Continuous, automatic, self-contained. For horizontal shafts at moderate speed (100-3000 RPM).
 - **Wick lubrication**: Felt or cotton wick submerged in oil reservoir, other end contacts shaft or bearing surface. Capillary action draws oil to bearing. Low flow rate — for light-duty bearings. Quiet, simple.
 - **Splash lubrication**: Gear or rotating element in oil bath throws oil onto bearing. Common in gearboxes — no separate oiling system needed. Oil level: gears dip 1-2 tooth depths.
-- **Forced lubrication** (Energy+): Gear pump draws oil from reservoir, forces through filter, delivers to bearing under pressure (0.1-0.5 MPa). Oil flows through bearing, drains back to reservoir. Provides positive, controlled oil supply regardless of speed. Essential for high-speed or heavily loaded bearings (steam turbine bearings, large generators).
+- **Forced lubrication**: Gear pump draws oil from reservoir, forces through filter, delivers to bearing under pressure (0.1-0.5 MPa). Oil flows through bearing, drains back to reservoir. Provides positive, controlled oil supply regardless of speed. Essential for high-speed or heavily loaded bearings (steam turbine bearings, large generators).
 
 **Rolling element bearings**:
 - **Grease-packed**: Fill bearing cavity 30-50% with grease (do not overfill — churning generates heat). Grease lasts months-years depending on speed and temperature. Sealed bearings (rubber seals) retain grease for life. Shielded bearings (metal shields) allow some grease exchange.
-- **Oil mist lubrication** (Energy+): Atomize oil with compressed air, pipe mist to bearing. Continuous fine lubrication. Excellent for high-speed spindle bearings. Requires clean, dry compressed air.
+- **Oil mist lubrication**: Atomize oil with compressed air, pipe mist to bearing. Continuous fine lubrication. Excellent for high-speed spindle bearings. Requires clean, dry compressed air.
 
 ### Hydraulic Fluids
 
@@ -94,7 +94,7 @@ Every machine with moving parts generates friction and heat. Without lubrication
 
 **Fluid types**:
 - **Vegetable oil-based**: Rapeseed or castor oil. Biodegradable, good lubricity. Limited temperature range (thickens when cold, thins when hot). Oxidizes over time. For the Metallurgy-Machine Tools stage transition hydraulic presses.
-- **Mineral oil-based** (Chemistry+): Refined petroleum oil (see Petrochemicals — distillation). ISO VG 32 or 46 most common. Add anti-wear agents (ZDDP), antioxidants, rust inhibitors, anti-foam agents. Operating temperature range -10°C to +70°C. Most common hydraulic fluid.
+- **Mineral oil-based**: Refined petroleum oil (see Petrochemicals — distillation). ISO VG 32 or 46 most common. Add anti-wear agents (ZDDP), antioxidants, rust inhibitors, anti-foam agents. Operating temperature range -10°C to +70°C. Most common hydraulic fluid.
 - **Water-glycol** (fire-resistant): Water + glycol (40-60%) + thickener + additives. Fire-resistant (water content). Lower lubricity than oil — need harder pump and valve materials. For locations with fire risk (furnaces, welding areas).
 
 **Hydraulic system**:
@@ -110,8 +110,8 @@ Every machine with moving parts generates friction and heat. Without lubrication
 
 **Types**:
 - **Mineral vacuum oil**: Highly refined, distilled mineral oil with narrow boiling range. Achieves ultimate vacuum ~10⁻² to 10⁻³ Pa. For mechanical roughing pumps (rotary vane, piston).
-- **Silicone vacuum oil** (Vacuum & Optics+): Polydimethylsiloxane (PDMS) — from silicon + methyl chloride chemistry. Very low vapor pressure (~10⁻⁶ Pa at 25°C). Chemically inert. For diffusion pumps (see Vacuum & Optics) — achieves ultimate vacuum ~10⁻⁶ to 10⁻⁸ Pa.
-- **Synthetic hydrocarbon oil** (Chemistry+): Polyalphaolefin (PAO). Low vapor pressure, excellent lubricity, wide temperature range. For high-performance mechanical pumps.
+- **Silicone vacuum oil**: Polydimethylsiloxane (PDMS) — from silicon + methyl chloride chemistry. Very low vapor pressure (~10⁻⁶ Pa at 25°C). Chemically inert. For diffusion pumps (see Vacuum & Optics) — achieves ultimate vacuum ~10⁻⁶ to 10⁻⁸ Pa.
+- **Synthetic hydrocarbon oil**: Polyalphaolefin (PAO). Low vapor pressure, excellent lubricity, wide temperature range. For high-performance mechanical pumps.
 
 **Oil purification** (for extending vacuum oil life):
 - **Filtration**: Pass oil through 1-5 μm filter to remove particulates.
@@ -124,7 +124,7 @@ Every machine with moving parts generates friction and heat. Without lubrication
 - Low outgassing (do not contaminate cleanroom air or wafer surfaces).
 - Non-particulating (do not shed particles into cleanroom).
 - Vacuum-compatible (for equipment inside vacuum chambers — load locks, wafer transfer robots).
-- Specialty perfluoropolyether (PFPE) greases — extremely inert, wide temperature range, ultra-low vapor pressure. Synthesized from HF + olefins under controlled conditions (Photolithography+ chemistry).
+- Specialty perfluoropolyether (PFPE) greases — extremely inert, wide temperature range, ultra-low vapor pressure. Synthesized from HF + olefins under controlled conditions (semiconductor chemistry).
 
 ## Integration Points
 
@@ -145,9 +145,16 @@ Every machine with moving parts generates friction and heat. Without lubrication
 - Cutting fluid formulations: soluble oil emulsion for general machining, straight oil for threading/tapping
 - Grease production capability: calcium soap (water-resistant), sodium soap (general), lithium soap (multi-purpose)
 - Hydraulic fluid supply for presses and machine tools (vegetable oil → mineral oil)
-- Vacuum-compatible oils for Vacuum & Optics+ pump systems (mineral → silicone)
+- Vacuum-compatible oils for vacuum pump systems (mineral → silicone)
 - Bearing lubrication protocols for plain and rolling-element bearings
 - Lubrication schedules and maintenance procedures for all machinery
+
+### Safety & Hazards
+
+- **Hot oil (200°C+)**: Severe splash burns. Face shield, long gloves. Pour slowly.
+- **Caustic soda (NaOH/KOH)**: Chemical burns, eye damage. Goggles, gloves. Eye wash station.
+- **Oil fires**: NEVER use water. Sand, fire blanket, or smother with lid.
+- **Oil mists**: Respiratory irritant. Ventilation required.
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*

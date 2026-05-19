@@ -1,7 +1,7 @@
 # Prospecting & Surveying
 
 > **Node ID**: mining.prospecting
-> **Domain**: [Foundations](./)
+> **Domain**: [Mining](./)
 > **Dependencies**: `foundations`
 > **Enables**: `chemistry.acids`, `chemistry.alkalis`, `chemistry.cement`, `energy.fuels`, `metals`, `glass.basic`, `silicon.mg-si-production`, `transport`
 > **Timeline**: Years 0-50+
@@ -42,8 +42,15 @@
 
 **Magnetic surveying**:
 - **Dip needle (dipping compass)**: Freely pivoting magnetic needle that measures inclination (vertical angle) of Earth's magnetic field. Anomalies (deviations from expected inclination) indicate subsurface magnetic bodies — magnetite ore bodies, buried iron objects. Survey on a grid (10-50 m spacing). Contour the anomaly values. Positive anomaly = magnetic mass below.
-- **Fluxgate magnetometer** (Electronics+): Electronic sensor measuring magnetic field intensity directly. Resolution: 1 nT (nanotesla). Faster and more precise than dip needle. Portable, battery-operated. Map field variations over survey area.
+- **Fluxgate magnetometer**: Electronic sensor measuring magnetic field intensity directly. Resolution: 1 nT (nanotesla). Faster and more precise than dip needle. Portable, battery-operated. Map field variations over survey area.
 - **Anomaly interpretation**: Sharp, narrow anomaly = shallow source. Broad, low anomaly = deep source. Elongated anomaly = linear ore body (vein). Circular anomaly = pipe-like body. Estimate depth = half-width of anomaly profile. Magnetic surveys are the most cost-effective method for locating iron ore deposits.
+### Safety & Hazards
+
+- **Terrain hazards**: Prospecting involves traversing rugged, unstable terrain. Rockfalls, loose scree, steep slopes. Sturdy boots, careful footing. Never prospect alone in remote areas.
+- **Water hazards**: River banks and lake shores (where minerals concentrate) are slippery and subject to flash floods. Be aware of upstream weather. Never wade in fast-moving water above knee depth.
+- **Toxic minerals**: Some ore minerals contain arsenic (arsenopyrite), mercury (cinnabar), or lead (galena). Handle with gloves. Do not inhale dust from crushing test samples. Wash hands before eating.
+- **Underground hazards**: If test pits or adits are dug, ensure roof support. Bad air (low oxygen, methane, CO₂) in enclosed spaces — ventilate before entering. Never enter alone.
+
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Mining](./) • [All Domains](../)*

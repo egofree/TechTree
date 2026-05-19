@@ -75,7 +75,7 @@ Material forms:
 - **Elastomers**: wheels, belts, bushings, wear pads (cast or injection molded)
 - **Spray coatings**: polyurea for fast-cure protective linings (reaction time <10 seconds)
 
-**Complexity warning**: isocyanate production is non-trivial. The industrial route reacts primary amines with phosgene (COCl₂), which itself requires chlorine + carbon monoxide. Non-phosgene routes exist (thermal cleavage of urethane, or carbonylation of nitroaromatics) but are less mature. <!-- TODO: verify non-phosgene isocyanate routes for bootstrapping feasibility --> Isocyanates are also toxic and require careful handling, ventilation, and PPE.
+**Complexity warning**: isocyanate production is non-trivial. The industrial route reacts primary amines with phosgene (COCl₂), which itself requires chlorine + carbon monoxide. Non-phosgene routes exist (thermal cleavage of urethane, or carbonylation of nitroaromatics) but are less mature. Isocyanates are also toxic and require careful handling, ventilation, and PPE.
 
 ## Key Milestones
 
@@ -92,3 +92,14 @@ Ordered by approximate phase availability:
 - ☐ **Silicon stage**: Polyurea spray coating capability
 - ☐ **Photolithography stage**: Novolac-based photoresist resin for photolithography (same chemistry as Bakelite novolac route)
 - ☐ **Photolithography stage**: Epoxy die attach and IC encapsulation materials qualified for fab use
+
+### Safety & Hazards
+
+- **Formaldehyde (IARC Group 1 carcinogen)**: A confirmed human carcinogen used in both phenol-formaldehyde (Bakelite) and urea-formaldehyde resin production. Inhalation of formaldehyde vapor causes nasal and respiratory tract irritation; chronic exposure increases cancer risk. Use in well-ventilated areas with local exhaust. Wear chemical splash goggles and a respirator with formaldehyde cartridge when handling formaldehyde solutions or during resin synthesis. Monitor airborne concentrations — OSHA PEL is 0.75 ppm (8-hour TWA).
+- **Phenol (chemical burns, skin absorption)**: Causes severe chemical burns on contact — initially painless because it simultaneously anesthetizes tissue, leading to deeper injury before the victim notices. Absorbed rapidly through intact skin; systemic toxicity targets the liver and kidneys. Wear nitrile or neoprylene gloves (not latex — phenol penetrates latex), chemical splash goggles, and a face shield during phenol handling. In case of skin contact, flush with large amounts of water immediately and seek medical attention — do not rely on pain as an indicator of exposure severity.
+- **Epoxy sensitization**: Repeated skin contact with uncured epoxy resin or amine hardeners causes allergic contact dermatitis that becomes permanent once sensitized — even trace future exposure triggers severe rash. Once sensitized, a worker may be unable to continue any epoxy-related work. Wear nitrile gloves, change gloves if contaminated, and minimize all skin contact. Use barrier creams as a supplement, never a substitute for gloves.
+- **Ammonia (respiratory irritant)**: Used as a base catalyst in the resole route for phenol-formaldehyde. Ammonia gas is a powerful respiratory and eye irritant — 300 ppm is immediately dangerous to life. Handle concentrated ammonia solutions in ventilated areas. Wear eye protection and a respirator if ventilation is insufficient.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Polymers](./) • [All Domains](../)*

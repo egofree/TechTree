@@ -49,7 +49,7 @@ properties across all systems.
 Storage tanks, chemical-resistant piping, boat hulls, architectural panels,
 electrical enclosures, corrosion-resistant housings, vehicle body panels.
 
-## Carbon Fiber (Silicon+ Aspiration)
+## Carbon Fiber
 
 Requires sustained advanced petrochemical industry (PAN from acrylonitrile),
 controlled-atmosphere furnaces at 1500°C+ under inert gas, multi-hour thermal
@@ -73,7 +73,7 @@ less common for high-performance grades.
 Applications: aerospace frames, lightweight structural components, sporting
 goods, robotic limbs.
 
-## Aramid Fiber / Kevlar (Silicon+ Aspiration)
+## Aramid Fiber / Kevlar
 
 Requires exotic aromatic monomers (paraphenylene diamine, terephthaloyl
 chloride) from multi-step organic synthesis, plus NMP/CaCl₂ solvent recovery.
@@ -114,5 +114,16 @@ structural reinforcement in hybrid composites.
    bagging for improved laminate quality.
 3. **Vacuum & Optics stage**: Filament winding for cylinders. RTM for repeatability.
    Pultrusion for profiles.
-4. **Silicon+**: Carbon fiber (PAN or pitch route). Aramid/Kevlar. Compression
+4. **Silicon**: Carbon fiber (PAN or pitch route). Aramid/Kevlar. Compression
    molding at scale. Hybrid composites combining fiber types.
+
+### Safety & Hazards
+
+- **Fiberglass dust**: Glass fiber fragments from cutting, sanding, or trimming are skin and respiratory irritants. Fine airborne fibers cause itching, rash, and long-term respiratory damage with chronic exposure. Wear gloves and long sleeves when handling fiberglass. Use a NIOSH-approved respirator (N95 minimum, P100 preferred) when cutting, sanding, or grinding cured fiberglass composites. Clean up dust with HEPA vacuum — never dry-sweep, which resuspends fibers.
+- **Styrene from polyester resin**: The reactive diluent in unsaturated polyester resin (30-40% by weight). Styrene vapor is a central nervous system depressant (dizziness, headache, nausea at 100 ppm) and a possible human carcinogen (IARC Group 2A). Room-temperature layup with open molds produces significant styrene emissions. Use local exhaust ventilation at the work surface. Wear respiratory protection (organic vapor cartridge) during layup and until resin gels. Keep ignition sources away — styrene is flammable (flash point 31°C).
+- **Epoxy sensitization**: Uncured epoxy resin and amine hardeners cause allergic contact dermatitis after repeated skin exposure. Once sensitized, the allergy is permanent. Wear nitrile gloves and change them immediately if contaminated with resin. Minimize all skin contact with uncured materials.
+- **Carbon fiber dust**: Electrically conductive — airborne carbon fiber dust can short-circuit electronic equipment, including control systems and computers in the workshop. Also a respiratory irritant and potential lung hazard. Use respiratory protection when machining carbon fiber composites. Isolate carbon fiber cutting/sanding from electronic equipment. Clean with HEPA vacuum. Use sealed enclosures for CNC machining of carbon fiber parts.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Polymers](./) • [All Domains](../)*

@@ -2,7 +2,7 @@
 
 > **Node ID**: metals.iron-steel
 > **Domain**: [Metallurgy](./)
-> **Dependencies**: `metals.iron-steel`
+> **Dependencies**: `metals.copper-bronze`
 > **Enables**: `energy.steam-power`, `machine-tools.casting`, `machine-tools.joining`
 > **Timeline**: Years 5-15
 > **Outputs**: wrought_iron, steel, iron_bloom, heat_treated_steel, forge_welds, brazed_joints, soldered_joints, springs, bellows, tongs, ...
@@ -28,6 +28,35 @@ Iron requires higher temperatures than copper (melting point 1538°C, but bloome
 2. **Reheating**: Bloom cools quickly. Reheat in forge (charcoal + bellows, ~1100-1200°C) every 2-3 minutes of hammering. Repeat 10-30 cycles.
 3. **Folding and welding**: Heat to bright yellow-orange (~1200-1300°C). Fold iron on itself, hammer to weld the layers together (the heat and pressure cause solid-state welding). This homogenizes the metal and works out remaining slag. Each fold doubles the layers. 6-8 folds = well-consolidated bar.
 4. **Result**: Wrought iron bar — soft, ductile, fibrous fracture surface, ~0.02-0.08% carbon. Excellent for forging. Not suitable for edge tools without further treatment.
+
+### Cast Iron
+
+Iron with 2-4.3% carbon — significantly more than wrought iron (<0.1% C) and steel (0.1-2% C). This is what blast furnaces naturally produce when iron is fully melted in contact with carbon fuel. Cast iron is not forgeable (too brittle), but it excels at being cast into complex shapes in sand molds.
+
+**Production — pig iron from blast furnace**:
+Blast furnace smelting produces pig iron with typical composition: ~4% C, ~1% Si, ~0.5% Mn, ~0.1% S, ~0.1% P. The high carbon content lowers the melting point from pure iron's 1538°C to ~1150-1200°C, making it fully liquid in the furnace. Pig iron is too brittle for most direct uses — it must be remelted and cast, or refined further into steel.
+
+**Cupola furnace** (for remelting pig iron and scrap):
+- **Construction**: Cylindrical steel shell (~1-3 m diameter), lined with refractory brick. Charging door at middle height. Tuyeres (air nozzles) near the bottom connected to blower. Tap hole at the very bottom for molten iron. Slag hole slightly above the tap hole (slag floats on iron).
+- **Operation**: Layer coke (fuel) and pig iron/scrap (metal charge) alternately through the charging door. Ignite the coke bed, then turn on the air blast. Metal melts, drips down through coke, and accumulates in the well at the bottom. Open tap hole periodically to let iron flow into ladles for pouring into molds. Slag is tapped separately.
+- **Capacity**: Simple, fast, cheap — can melt 1-30 tons/hour depending on size. The workhorse of iron foundries. Can be operated intermittently — start and stop as needed.
+
+**Types of cast iron**:
+- **Gray cast iron**: Carbon present as graphite flakes in a matrix of iron. The graphite gives gray color to the fracture surface. Excellent machinability (graphite acts as built-in chip breaker), superior vibration damping (graphite absorbs vibration — ideal for machine bases), good wear resistance, and good thermal conductivity. Tensile strength 150-400 MPa. Casts easily — good fluidity, minimal shrinkage. Used for: machine tool bases and frames, engine blocks, cookware, pipes and fittings, fire hydrants, manhole covers.
+- **White cast iron**: Carbon present as cementite (Fe₃C, iron carbide) rather than graphite. Very hard and wear-resistant, but extremely brittle and unmachinable. Chilled castings (rapid cooling against metal mold) produce a white iron surface. Used as intermediate for malleable iron production, or in applications requiring abrasion resistance (rock crusher jaws, mill liners).
+- **Malleable iron**: Heat white iron castings at ~900°C for 40-80 hours (annealing). Cementite decomposes → graphite forms as discrete nodules (temper carbon) rather than flakes. The rounded nodules don't act as stress concentrators the way graphite flakes do → improved ductility and toughness vs. gray iron. Can handle moderate impact and bending. Used for pipe fittings, brackets, agricultural implements, hardware.
+
+**Sand casting** (the primary molding method for cast iron):
+1. Make a wooden pattern (slightly oversized to account for shrinkage — ~1% for cast iron).
+2. Pack molding sand (silica sand + 5-10% clay binder + 3-5% water) around the pattern in a two-part flask (cope and drag).
+3. Separate flask halves, remove pattern → cavity remains.
+4. Create sprue (pouring channel) and risers (reservoirs to feed shrinkage). Add cores (baked sand shapes) for internal cavities if needed.
+5. Close flask, clamp halves together.
+6. Pour molten iron from ladle into sprue.
+7. Allow to cool (30 minutes to several hours depending on casting size).
+8. Break away sand mold, cut off sprue and risers, clean casting. Sand is reusable (recondition by adding fresh clay and water).
+
+**Why cast iron matters**: It bridges the gap between wrought iron and steel. Easier to cast into complex shapes than either (lower melting point, excellent fluidity). Good enough for many structural and machine applications. The dominant structural metal from ~1700 to ~1850 — cast iron bridges (Iron Bridge, Shropshire, 1779), building columns, steam engine cylinders, machine frames, pipes. Superseded by steel for structural use after the Bessemer process (1856) made cheap steel available, but remains indispensable for machine bases, engine blocks, cookware, and pipes.
 
 **Steel production (carburization)**:
 - **Pack carburizing**: Pack wrought iron bars in charcoal dust inside sealed clay box. Heat to 900-950°C for 4-12 hours. Carbon from charcoal diffuses into iron surface. Produces 1-2 mm case depth per 4 hours. Result: low-carbon steel skin on wrought iron core.
@@ -62,11 +91,11 @@ Iron requires higher temperatures than copper (melting point 1538°C, but bloome
 - Fuller (round-nosed tool for grooving/necking stock)
 - Slack tub (water barrel for quenching, ~50 liters)
 
-### Joining Metals — Forge Welding, Brazing &amp; Soldering
+### Joining Metals — Forge Welding, Brazing & Soldering
 
-**Forge welding** (the oldest welding method, (earliest method):
+**Forge welding** (the oldest welding method):
 - **Principle**: Heat two pieces of iron/steel to bright yellow-white (~1300-1400°C) where the surface becomes pasty. Place together and hammer forcefully. The combination of heat, pressure, and clean surfaces causes a solid-state weld (atomic diffusion across interface).
-- **Flux**: Sprinkle clean silica sand or borite on joint surfaces before welding. Flux melts, dissolves surface oxide (scale), and prevents oxidation during heating — allowing metal-to-metal contact. Without flux, scale prevents a sound weld.
+- **Flux**: Sprinkle clean silica sand or borax on joint surfaces before welding. Flux melts, dissolves surface oxide (scale), and prevents oxidation during heating — allowing metal-to-metal contact. Without flux, scale prevents a sound weld.
 - **Procedure**: Stack or overlap the pieces to be joined. Heat both evenly in forge fire. When metal reaches bright yellow-white (visible through scale breaking surface), quickly remove, brush off loose scale, apply flux if needed, position pieces on anvil, and strike firmly with hammer. Multiple rapid blows. Reheat and re-strike if needed for longer joints.
 - **Joint types**: Lap joint (overlapping flat pieces — easiest), scarf joint (diagonal taper on both pieces, overlapped — stronger for bars), faggot weld (bundle of bars welded together for composite billets — used in Damascus/pattern-welded steel).
 - **Quality test**: Bend test — a good weld bends without opening at the joint. Poor welds crack at the seam (oxide inclusion or insufficient heat).
@@ -91,6 +120,14 @@ Iron requires higher temperatures than copper (melting point 1538°C, but bloome
 - **Torsion spring**: Wound wire that stores energy through twisting rather than bending. Heat treatment same as coil spring. Used in clothes pins, mouse traps, clock mechanisms, door hinges.
 - **Flat spring**: Thin strip of hardened and tempered spring steel. Used in locks, snaps, electrical contacts, measuring instruments (galvanometer springs). File to consistent thickness, bend to shape, heat treat.
 - **Testing**: Compress/bend spring and measure recovery. Spring should return to original shape without permanent deformation. Fatigue test: cycle spring many times (1000+) — if it breaks, temper at slightly higher temperature to increase toughness.
+
+### Safety & Hazards
+
+- **Extreme heat and burn risk**: Bloomery furnaces reach 1200-1400°C; extracted blooms glow white-hot at ~1200°C. Forge welding requires heating iron to 1300-1400°C (bright yellow-white). At these temperatures, radiation burns occur within seconds of close proximity. Wear heavy leather apron, gloves, face shield, and closed-toe boots. Use tongs sized to the work — dropping white-hot iron causes severe burns and fires. Maintain a clear, dry floor around the forge (no water puddles — steam explosions from spilled molten slag).
+- **Carbon monoxide from charcoal combustion**: Bloomery smelting consumes charcoal at high rates, producing large volumes of carbon monoxide. CO is colorless, odorless, and causes headache, confusion, loss of consciousness, and death. Never operate a bloomery or forge in an enclosed space. Ensure cross-ventilation. If an operator becomes confused or lethargic, move them to fresh air immediately and monitor breathing.
+- **Spark and slag spray during bloom consolidation**: Hammering the white-hot bloom ejects slag particles and sparks at temperatures exceeding 1000°C. Eye protection is explicitly essential — the text notes "eye protection essential" for this operation. Use safety glasses or a full face shield. Long sleeves and leather gloves prevent spark burns on forearms and hands.
+- **Lead and zinc fume hazards from soldering and brazing**: Soft solder (60/40 tin-lead alloy) produces lead fumes above 500°C; brass brazing filler (60/40 copper-zinc) produces zinc oxide fumes at ~900°C. Zinc oxide fume causes "metal fume fever" (flu-like symptoms: chills, fever, muscle ache, 4-8 hours after exposure). Lead fume causes cumulative neurological and organ damage. Solder and braze with local exhaust ventilation. Avoid breathing fumes directly. Wash hands after handling solder materials.
+- **Quenching hazards**: Plunging hot steel (780-850°C) into water produces violent boiling and steam splash. Oil quenching (used for springs and high-carbon steel to prevent cracking) creates risk of oil ignition — the oil can flash if the workpiece is too hot. Use a deep quench tank, lower the workpiece quickly and completely, and keep a lid nearby to smother oil fires. Do not use oil quenching near open flames.
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Metals](./) • [All Domains](../)*

@@ -3,7 +3,7 @@
 > **Node ID**: energy.gravity
 > **Domain**: [Energy](./)
 > **Dependencies**: `foundations`, `metals.copper-bronze` or `metals.iron-steel`
-> **Enables**: `energy.steam-power` (boiler feedwater pumping, mechanical skills), `agriculture` (grain milling), `water-systems` (pumping), `energy.electricity` (prime mover for generators)
+> **Enables**: `energy.steam-power` (boiler feedwater pumping, mechanical skills), `foundations.food-agriculture` (grain milling), `health.sanitation` (pumping), `energy.electricity` (prime mover for generators)
 > **Timeline**: Years 5-15
 > **Outputs**: water_power, mechanical_rotation, ground_grain, pumped_water
 
@@ -118,6 +118,14 @@ Water turbines replace water wheels where higher heads and efficiencies are avai
 | Construction | Wood | Wood/iron | Wood/iron | Iron/steel | Iron/steel | Iron/steel |
 | Precision required | Low | Low | Moderate | Moderate | High | Very high |
 
+### Safety & Hazards
+
+- **Dam failure**: Dam breaches release catastrophic flood waves. Historical death tolls in thousands. Proper dam construction: wide base, compacted earth or masonry, overflow spillway for flood events, regular inspection for seepage and cracking. Never build large dams on unstable foundations.
+- **Water wheel entanglement**: Water wheels and turbines have powerful rotating components. Guard all accessible moving parts. Never approach a running water wheel — the force can pull a person under. Emergency stop mechanism for maintenance.
+- **Penstock pressure**: Pressurized water pipes (penstocks) can burst if over-pressured or corroded. Pressure relief valves. Regular inspection. Never stand in front of penstock fittings under pressure.
+- **Flash floods**: Water-powered installations on rivers are vulnerable to flash floods. Monitor upstream conditions. Emergency shutdown procedure. Evacuation plan for flood events.
+- **Drowning**: Working near water intakes, dams, and mill races. Drowning risk. Safety ropes. Never work alone near water installations. Life jackets when working on or near water.
+
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*

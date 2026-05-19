@@ -38,6 +38,22 @@
 
 **Diffused transistor**: Phosphorus diffused into p-type wafer through oxide mask window to form base and emitter. More controlled geometry. Requires: oxidation furnace, photolithography (or shadow masking), diffusion furnace. Bridge to the Photolithography stage planar process.
 
+#### MOSFETs & CMOS
+
+**MOSFET structure**: Metal-Oxide-Semiconductor Field-Effect Transistor. A gate electrode insulated from the semiconductor channel by a thin layer of SiO₂ (gate oxide). Source and drain regions are doped opposite to the substrate. Voltage on the gate creates an electric field that induces a conductive channel between source and drain — no current flows through the gate itself (unlike bipolar transistors). Two modes: **enhancement mode** (normally off, channel forms when gate voltage applied — the standard for logic) and **depletion mode** (normally on, channel forms at zero gate voltage, requires gate voltage to turn off — used for load resistors and analog switches).
+
+**NMOS** (N-channel MOSFET): Electrons carry current in n-type channel induced in p-type substrate. Higher electron mobility (~2.5× hole mobility) means NMOS is faster and lower resistance than PMOS for the same geometry. Substrate is p-type silicon, source and drain are n+ doped regions. Gate voltage above threshold induces n-type inversion layer (channel) connecting source to drain. Dominant transistor for 1970s microprocessors (Intel 4004, 8080).
+
+**PMOS** (P-channel MOSFET): Holes carry current in p-type channel induced in n-type substrate. Slower than NMOS due to lower hole mobility, but was actually developed first because it was easier to manufacture with early processing (contamination issues favored p-channel operation). Substrate is n-type silicon, source and drain are p+ doped regions. Used in combination with NMOS to form CMOS circuits.
+
+**CMOS** (Complementary MOS): The key breakthrough that enabled VLSI. Uses NMOS and PMOS transistors in complementary pairs. In a CMOS inverter: when input is high, NMOS turns on and PMOS turns off → output pulled low. When input is low, PMOS turns on and NMOS turns off → output pulled high. In either steady state, only one transistor is on and there is no DC path from power to ground — **near-zero static power dissipation**. This is the fundamental advantage over NMOS-only logic (which draws static power through load transistors). Power consumption scales with switching frequency and capacitance only (P = fCV²). CMOS enabled billion-transistor chips that would be thermally impossible with NMOS alone.
+
+**Gate oxide**: SiO₂ grown by thermal oxidation of silicon (dry O₂ at 900-1100°C or wet O₂/H₂O at 800-950°C). Thickness 5-50 nm depending on technology generation. Thinner oxide → stronger gate coupling → faster switching, but exponentially higher gate leakage current (quantum tunneling through oxide). Oxide quality is critical — even a single defect in the gate oxide can cause catastrophic breakdown (short circuit from gate to channel). Oxide integrity requires ultra-clean processing and careful handling.
+
+**Threshold voltage** (Vth): Minimum gate-to-source voltage required to induce a conductive channel. Typically 0.5-1.5V. Controlled by substrate doping concentration (higher doping → higher Vth), oxide thickness (thinner oxide → lower Vth), and gate electrode material. Matching Vth between NMOS and PMOS transistors is essential for symmetric CMOS switching characteristics. Process variations in threshold voltage are a major yield limiter.
+
+**Scaling** (Dennard scaling rules): Shrink all device dimensions (channel length, oxide thickness, junction depth) by factor k while scaling voltage by k. Result: transistors are k² times smaller (2× per generation → 4× more per chip), k times faster, and power density remains constant. This held from the 1970s to ~2006. Breakdown cause: as oxide thickness approached a few nm, gate leakage current from quantum tunneling became unacceptable. Voltage could no longer scale proportionally → power density increased → the "power wall." Modern scaling continues geometry reduction but requires architectural workarounds (finFETs, multi-core, dark silicon).
+
 ### Metallization & Contacts
 
 **Vacuum evaporation** (simplest deposition method):
@@ -64,4 +80,4 @@ Semiconductor device fabrication uses some of the most dangerous chemicals in in
 - **Vacuum chamber implosion**: Evaporation and sputtering chambers are evacuated to 10⁻⁵-10⁻⁶ Torr. A flawed glass viewport or corroded chamber wall can implode violently. Inspect viewports for scratches or star cracks before each pump-down. Safety glasses at all times near evacuated chambers. Never exceed rated pressure differential.
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Silicon](./) • [All Domains](../)*

@@ -44,6 +44,29 @@ Lower purity than Siemens, but much simpler chemistry. Sufficient for solar cell
 - **Equipment**: RF induction coil or focused IR lamp creates moving molten zone. Rod rotates slowly. Under inert atmosphere (Ar) or vacuum. Very slow — ~1-5 cm/hour travel speed.
 - **Limitation**: Still cannot remove boron effectively (k ≈ 0.8). Combine with another boron removal step (slag treatment: add CaO-Na₂O flux to molten Si, B partitions into slag).
 
+#### Boron Removal via Slag Treatment
+
+Directional solidification and zone refining effectively remove most metallic impurities (Fe, Al, Ca — segregation coefficients << 1), but **boron** is uniquely difficult because its segregation coefficient in silicon is ~0.8 (close to 1.0). This means boron distributes almost equally between solid and liquid phases during crystallization, making segregation-based methods nearly useless for boron. Since boron is a compensating dopant that degrades solar cell efficiency, dedicated removal is essential for solar-grade silicon.
+
+**Method**: Oxidizing slag treatment — boron is oxidized to B₂O₃ at the silicon–slag interface and dissolves into the slag phase.
+
+**Slag systems**:
+- **CaO-SiO₂**: Most common. Weight ratio CaO:SiO₂ = 40:60 to 60:40. Basicity (CaO/SiO₂) ~0.7-1.5. Additives of CaF₂ (5-15 wt%) reduce slag viscosity and improve kinetics. This system requires only lime and silica — both available early in the bootstrap chain.
+- **Na₂O-SiO₂**: Alternative. Weight ratio Na₂O:SiO₂ = 20:80 to 40:60. Lower operating temperature but more aggressive toward refractory linings. Requires soda ash (Na₂CO₃), which adds a supply-chain dependency.
+
+**Process**:
+- **Temperature**: 1450-1600°C (above silicon melting point of 1414°C). Higher temperature increases boron oxidation rate and slag fluidity but also accelerates refractory erosion.
+- **Slag-to-silicon ratio**: 0.5:1 to 2:1 by weight. Higher ratios increase removal but also silicon losses and energy consumption.
+- **Atmosphere**: Argon or Ar/O₂ mix (0-5% O₂). Small oxygen partial pressure accelerates boron oxidation. Pure inert atmosphere relies on SiO₂ in the slag as the oxidant.
+- **Contact time**: 1-4 hours with stirring (mechanical or gas bubbling). Without stirring, diffusion-limited times extend to 6+ hours.
+- **Equipment**: Graphite crucible with SiC coating (resists slag corrosion) or alumina crucible. Induction heating preferred for stirring via electromagnetic forces.
+
+**Reaction**: 2[B in Si] + 3(SiO₂ in slag) → 3Si + 2(B₂O₃ in slag). Boron partitions into slag as B₂O₃. The distribution ratio L_B = (wt% B in slag)/(wt% B in Si) typically reaches 2-5 under optimal conditions.
+
+**Expected removal efficiency**: 70-90% per pass for CaO-SiO₂ systems. Multiple passes (2-3) can reduce boron from ~15-40 ppm in MG-Si to <1 ppm, sufficient for solar-grade silicon. Silicon yield loss to slag entrainment is typically 3-8% per pass.
+
+**Integration with directional solidification**: Slag treatment is performed first on molten MG-Si to remove boron, followed by directional solidification to remove remaining metallic impurities. This two-step sequence produces solar-grade silicon (~5-6N) without requiring the energy-intensive Siemens chemical route.
+
 ### Czochralski (CZ) Crystal Growth
 
 See [Crystal Growth & Wafering](crystal-growth.md) for CZ pulling details.
@@ -94,4 +117,4 @@ Silicon purification involves some of the most dangerous chemicals in semiconduc
 - **Personal protective equipment**: Chemical splash suit (PVC or butyl rubber), face shield, chemical-resistant gloves, self-contained breathing apparatus (SCBA) for emergency response. Standard PPE is insufficient for a major chlorosilane release — SCBA is mandatory.
 
 ---
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Silicon](./) • [All Domains](../)*

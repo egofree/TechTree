@@ -105,3 +105,15 @@ Cooling is as critical as heating. All ceramics undergo a reverse quartz inversi
 - **Slow cool through 650-500°C**: The quartz inversion zone. Large or thick pieces are most vulnerable. Close all dampers and let the kiln cool by its own thermal mass.
 - **Crack prevention**: Even wall thickness, proper drying before firing, and controlled cooling eliminate 90%+ of firing failures.
 - **Crazing vs. shivering**: If glaze cools with fine crackle lines (crazing), the glaze contracts more than the body — adjust glaze recipe (increase silica, decrease flux). If glaze flakes off (shivering), the body contracts more — decrease silica in glaze or increase in body.
+
+### Safety & Hazards
+
+- **Thermal burns (600-1700°C)**: Kiln interiors reach extreme temperatures during all firing cycles. Wear heat-resistant gloves (leather or Kevlar) and a face shield when loading, adjusting dampers, or checking cones through spy holes. Assume all kiln surfaces are hot until confirmed otherwise.
+- **Thermal shock cracking**: Rapid temperature changes through the quartz inversion zone (~573°C) cause catastrophic cracking of ware and kiln furniture. Follow controlled heating and cooling schedules strictly — never rush the ramp through 500-650°C.
+- **Kiln gases (CO, SO₂, fluorine)**: Fuel-burning kilns produce carbon monoxide — odorless, colorless, and lethal at sustained concentrations above 400 ppm. Sulfur-bearing clays and glazes release SO₂ (respiratory irritant). Some clays release fluorine compounds. Fire kilns in well-ventilated spaces or outdoors; never in enclosed unventilated rooms. A CO detector near the firing area is strongly recommended.
+- **Kiln structural failure**: Poorly constructed kilns (inadequate mortar, insufficient wall thickness, missing expansion joints) can collapse under thermal cycling. Inspect kiln structure before each firing campaign. Never stand on or lean against a kiln during firing.
+- **Steam explosions from greenware**: Incompletely dried clay contains residual mechanical water. If heated too rapidly during the water-smoke phase (ambient → 150°C), trapped water flashes to steam and violently shatters the piece — potentially ejecting sharp ceramic fragments. Ensure greenware is fully air-dried (1-2 weeks minimum for thick pieces) before loading, and never skip the slow candle phase.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Ceramics & Refractories](./) • [All Domains](../)*

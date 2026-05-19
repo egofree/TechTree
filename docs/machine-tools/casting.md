@@ -77,5 +77,5 @@ Foundry work involves the highest temperatures in the machine shop. Safety disci
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Machine Tools](./) • [All Domains](../)*
 

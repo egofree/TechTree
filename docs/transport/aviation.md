@@ -2,7 +2,7 @@
 
 > **Node ID**: transport.aviation
 > **Domain**: [Aircraft Development](./)
-> **Dependencies**: `machine-tools`, `petrochemicals`, `textiles`
+> **Dependencies**: `machine-tools`, `chemistry.petroleum-alternatives`, `textiles`
 > **Timeline**: Years 10-50+
 > **Outputs**: aircraft, aircraft_engines, propellers, aviation_fuel
 
@@ -10,7 +10,7 @@
 
 Without propulsion technology, civilization is limited to ground and water transport. Aircraft enable rapid reconnaissance, cargo delivery over difficult terrain, and serve as a powerful morale boost for the entire project. The Wright brothers flew in 1903 with bicycle-shop tools and a custom engine. With modern ultralight plans in hand, the challenge is manufacturing capability, not invention.
 
-## Technologies &amp; Systems
+## Technologies & Systems
 
 ### Internal Combustion Engine for Aircraft
 
@@ -92,10 +92,10 @@ Without propulsion technology, civilization is limited to ground and water trans
 - **Protection**: Apply multiple coats of linseed oil or varnish (waterproof, prevent moisture absorption → weight change and imbalance). Leading edge protection: brass or copper tipping strip (screws + epoxy) — protects against stone/erosion damage.
 - **Finish**: Sand smooth (120 → 220 → 400 grit). Final coat of clear varnish or paint. Check balance after finishing. Mark tracking marks (chalk on each blade tip — spin and observe marks should overlap perfectly from the side).
 
-### Fabric Covering &amp; Finishing
+### Fabric Covering & Finishing
 
 **Fabric**:
-- Cotton or linen fabric (Textiles), tightly woven, ~100-200 g/m². Grade A aircraft cotton (Mercerized — treated with NaOH to increase strength and dye affinity) or linen. Modern alternative: Dacron (polyester — much stronger, more durable, but requires the Chemistry stage+ polymer chemistry). Cut fabric panels with 5-10 cm overlap at edges.
+- Cotton or linen fabric (Textiles), tightly woven, ~100-200 g/m². Grade A aircraft cotton (Mercerized — treated with NaOH to increase strength and dye affinity) or linen. Modern alternative: Dacron (polyester — much stronger, more durable, but requires advanced polymer chemistry). Cut fabric panels with 5-10 cm overlap at edges.
 
 **Covering process**:
 1. **Attach fabric**: Lay fabric over airframe. Tack edges with copper rivets or fabric nails (small nails with broad heads). Pull fabric taut (hand-tension — no wrinkles). Overlap seams by 3-5 cm. Stitch through fabric and rib caps with waxed linen thread (rib-stitching — prevents fabric from billowing in flight). Stitch spacing: 25-50 mm.
@@ -150,4 +150,4 @@ Without propulsion technology, civilization is limited to ground and water trans
 - **Dope fumes**: Highly flammable. Apply outdoors or in well-ventilated hangar. No smoking, no sparks. Ground aircraft during doping (static electricity ignites fumes).
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Transport](./) • [All Domains](../)*

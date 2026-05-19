@@ -5,23 +5,23 @@
 > **Timeline**: Years 0-50+
 > **Outputs**: clean_water, sanitation
 
-### Water Supply &amp; Purification
+### Water Supply & Purification
 
 **Well construction**:
 - **Dug wells**: Hand-dug 1-2 m diameter, 5-20 m deep. Line with stone or brick (dry-laid, mortar at top to prevent surface contamination). Cover with wooden or stone cap. Rope and bucket for drawing. Locate uphill and ≥30 m from latrines, graves, animal pens.
-- **Driven wells** (Machine Tools+): Drive steel pipe (3-5 cm diameter) with pointed screen tip into ground using sledge hammer or drop weight. Fast, works in sandy/gravelly soil. Depth 5-15 m. Attach hand pump.
+- **Driven wells**: Drive steel pipe (3-5 cm diameter) with pointed screen tip into ground using sledge hammer or drop weight. Fast, works in sandy/gravelly soil. Depth 5-15 m. Attach hand pump.
 - **Water testing**: Simple clarity test (clear jar — no cloudiness). Boil sample — no unusual smell. Soap test — if soap lathers easily, water is relatively soft (low calcium/magnesium). If scum forms, water is hard (not dangerous but affects washing and boiler operation).
 
 **Filtration**:
 - **Slow sand filter**: Large watertight tank (2-4 m deep). Bottom layer: graded gravel (30 cm). Top layer: fine sand (1-1.5 m). Pour raw water on top. Water percolates down through sand. Biological layer (schmutzdecke) forms on sand surface — microorganisms consume bacteria and organic matter. Flow rate: 0.1-0.4 m/hour. Output: 2-4 liters/minute per m² of filter surface. Very effective — removes 95-99% of bacteria. Clean periodically by scraping top 1-2 cm of sand, wash and replace.
-- **Rapid sand filter** (Chemistry+): Coarser sand, higher flow rate (5-15 m/hour). Requires chemical pre-treatment (coagulation with alum — aluminum sulfate, then settling). Less biological, more physical filtration. Backwash with compressed air and water to clean.
+- **Rapid sand filter**: Coarser sand, higher flow rate (5-15 m/hour). Requires chemical pre-treatment (coagulation with alum — aluminum sulfate, then settling). Less biological, more physical filtration. Backwash with compressed air and water to clean.
 
-**Chlorination** (Chemistry+):
+**Chlorination**:
 - **Bleach production**: Pass chlorine gas (from electrolysis of NaCl — chlor-alkali process) through cold NaOH solution → sodium hypochlorite (NaOCl, bleach). 5-15% concentration.
 - **Dosage**: 1-3 mg/L free chlorine residual. Test with starch-iodide paper or orthotolidine reagent (turns yellow in presence of chlorine). Contact time ≥30 minutes. Chlorine kills bacteria and most viruses.
 - **Alternative**: Boil water vigorously for 1+ minute (5+ minutes at altitude >2000 m). Simple, effective, fuel-intensive.
 
-### Sewage &amp; Waste Disposal
+### Sewage & Waste Disposal
 
 **Latrines**:
 - **Pit latrine**: Dig pit 1 m diameter × 3-5 m deep. Platform with hole on top. Privacy enclosure. Add lime or ash after each use to reduce odor and flies. When pit is ½ full, fill with soil, relocate. Simple, effective for small populations.
@@ -36,7 +36,7 @@
 - **Heavy metals**: Precipitate with NaOH or Na₂S → metal hydroxide or sulfide sludge. Collect, store, potentially recover metal.
 - **Never discharge** HF, cyanide, or strong oxidizers to waterways. Neutralize or contain in sealed vessels.
 
-### Hygiene &amp; Prevention
+### Hygiene & Prevention
 
 **Handwashing**: Soap + running water. Scrub all surfaces for 20+ seconds. Dry with clean cloth or air dry. Required before eating, after latrine use, before wound care, before food preparation. Soap making: animal fat + lye (NaOH from leached wood ash — see Chemistry) → soap + glycerol. Saponification at 60-80°C for 1-2 hours. Pour into molds. Cure 4-6 weeks.
 
@@ -58,3 +58,14 @@
 - **Insect control**: Diatomaceous earth (abrasive to insect exoskeletons, causes dehydration). Plant-derived insecticides: pyrethrin (from chrysanthemum flowers, 0.1-0.5% spray), nicotine sulfate (tobacco extract, toxic to insects and humans — handle with gloves). Boric acid powder for cockroach control (ingestion poison, low mammalian toxicity). Remove standing water to control mosquito breeding.
 - **Rodent control**: Metal traps (snap traps). Keep food in rodent-proof containers (metal or heavy ceramic with tight lids). Cats as biological control. Eliminate nesting sites (rubbish piles, tall grass near buildings). Poison: phosphorus paste or arsenic — use with extreme caution, keep away from children and livestock.
 
+
+### Safety & Hazards
+
+- **Sewage pathogen exposure**: Raw sewage contains bacteria (cholera, typhoid, dysentery), viruses (hepatitis), and parasites. Avoid direct contact. Wear waterproof gloves and boots when handling sewage or maintaining latrines. Wash hands thoroughly after any contact. Disinfect with bleach solution.
+- **Water contamination**: Untreated water carries disease. Always treat drinking water (boil 1+ minute, chlorinate, or filter). Test water quality regularly. Contaminated wells must be sealed and abandoned or disinfected (shock chlorination with concentrated bleach solution, flush before reuse).
+- **Gas hazards in enclosed spaces**: Sewers, septic tanks, and enclosed latrines can accumulate methane (explosive) and hydrogen sulfide (toxic — lethal at 100 ppm, paralyzes olfactory nerve so you stop smelling it at dangerous concentrations). Never enter enclosed sewage spaces without ventilation and gas testing. Multiple fatalities common when rescuers enter without protection.
+- **Solid waste hazards**: Burning waste produces toxic fumes (dioxins from plastics, heavy metals). Landfill leachate contaminates groundwater. Site landfills away from water sources, line with clay, monitor groundwater.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Health](./) • [All Domains](../)*

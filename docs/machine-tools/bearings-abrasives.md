@@ -23,7 +23,7 @@
 
 **Lapping**: Mix graded abrasive (600-1200 grit, ~5-25 μm) with oil or water into slurry. Place slurry between two flat surfaces, rub in figure-8 pattern. Removes ~0.001-0.01 mm per hour. Produces optically flat surfaces. Essential for gauge blocks, valve seats, bearing surfaces.
 
-### Thread Standards &amp; Fastener Production
+### Thread Standards & Fastener Production
 
 **Thread profile standard** (choose ONE system and standardize immediately):
 - **Metric (ISO)**: 60° thread angle, flat crests and roots. Designated M×pitch (e.g., M8×1.25 = 8 mm major diameter, 1.25 mm pitch). Coarse pitch series is default (M8 coarse = 1.25 mm pitch).
@@ -40,20 +40,20 @@
 
 **Bolt making**: Heat rod end, upset in heading tool to form hex/square head. Turn shank to diameter, cut threads with die. Heat treatment for high-strength bolts: harden at 820°C, quench in oil, temper at 400-500°C (~800 MPa tensile).
 
-### Bearing Design &amp; Production
+### Bearing Design & Production
 
 **Plain (journal) bearings**:
 - **Construction**: Cylindrical housing with removable babbitt liner. Babbitt metal: Sn-Sb-Cu alloy (88/8/4 typical) — soft, embeds dirt, conforms to shaft. Pour molten babbitt into shell around mandrel.
 - **Clearance**: 0.001-0.002 × shaft diameter (50 mm shaft = 0.05-0.10 mm radial clearance). Too tight → seizure. Too loose → vibration.
 - **Load capacity**: Allowable bearing pressure 2-8 MPa for babbitt on steel.
 
-**Rolling element bearings** (Machine Tools+ precision):
+**Rolling element bearings** (precision):
 - **Ball bearing**: Inner ring, outer ring (hardened 52100 steel, 1% C, 1.5% Cr), balls, cage (brass or stamped steel). Standard 6200 series (light): e.g., 6205 = 25 mm bore × 52 mm OD × 15 mm width.
 - **Ball production**: Cut wire → cold head into rough spheres → grind between grooved ring plates → lap to 1-5 μm variation. Harden 820-860°C, oil quench, temper 150-200°C.
 - **Ring production**: Forge from bearing steel → turn → heat treat (58-62 HRC) → grind raceways → super-finish to 0.05 μm Ra.
 - **Assembly**: Press balls into cage between races, rivet cage, pack with grease.
 
-### Lubrication &amp; Coolants
+### Lubrication & Coolants
 
 - **Tallow and lard**: Grease plain bearings (apply by hand or oil cup). Lard oil as cutting fluid for turning and threading — reduces friction, improves finish.
 - **Vegetable oil** (linseed, castor): Cutting fluid for brass and aluminum. Not ideal for steel (polymerizes and gums).
@@ -78,3 +78,14 @@
 - **Relief/clearance angle**: 6-12° below cutting edge.
 - **Nose radius**: 0.5-2 mm for finishing, sharp for roughing.
 
+
+### Safety & Hazards
+
+- **Abrasives dust inhalation**: Grinding and polishing generates fine dust from both the abrasive and the workpiece. Silica dust from sandstone wheels causes silicosis. Aluminum oxide and silicon carbide dust are respiratory irritants. Wear respirators during dry grinding. Wet grinding preferred.
+- **High-speed machinery**: Grinding wheels and machine tools rotate at high speeds (1000-3000 RPM). Loose clothing, long hair, or jewelry can be caught. Guard all rotating parts. Eye protection mandatory — grinding wheels can shatter and eject fragments at high velocity.
+- **Cutting tool hazards**: Sharp cutting tools (taps, dies, tool bits) can cause severe lacerations. Handle with care. Use tool holders, not bare hands, when possible. Cut away from body.
+- **Hot metal chips**: Machining metal produces hot, sharp chips. Do not handle with bare hands. Clear chips with brush, not hands or compressed air (compressed air blows chips into eyes and skin).
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Machine Tools](./) • [All Domains](../)*

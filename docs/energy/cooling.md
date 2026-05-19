@@ -118,4 +118,4 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 - Stoecker, W.F., *Industrial Refrigeration Handbook* (ammonia systems, ice plants)
 - Hodge, B.K., *Analysis and Design of Energy Systems* (absorption cycle thermodynamics)
 ---
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*

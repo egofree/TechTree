@@ -73,3 +73,13 @@ Synthetic polymers fill gaps natural rubber cannot: oil resistance (NBR), flame 
 - **MG-Si for silicones**: [MG-Si Production](../silicon/mg-si-production.md)
 - **Phosgene for isocyanates**: CO + Cl₂ over activated carbon — requires [chlor-alkali electrolysis](../chemistry/electrolysis.md) and CO from producer gas.
 - **Vulcanization equipment**: Two-roll mills, Banbury mixers, compression molds — shared with [Rubber Production](./rubber.md)
+
+### Safety & Hazards
+
+- **Phosgene (COCl₂) for polycarbonate and isocyanate production**: A WWI chemical weapon. Odorless at low concentrations or faintly smells of newly mown hay. Causes delayed pulmonary edema — symptoms may not appear for 2-24 hours after exposure, by which time lung damage may be irreversible. Lethal at 1 ppm sustained exposure. All phosgene handling must use sealed, leak-tested systems with gas scrubbers (caustic soda NaOH scrubbers destroy phosgene). Continuous gas monitoring with alarms at 0.1 ppm. Emergency response: evacuate immediately on any leak, administer oxygen, seek medical care regardless of symptoms.
+- **Isocyanates (TDI, MDI) for polyurethane**: The Bhopal disaster (1984) involved methyl isocyanate release killing thousands. TDI and MDI are potent respiratory sensitizers — repeated inhalation causes permanent occupational asthma. Skin contact causes sensitization and dermatitis. Use respiratory protection (supplied air or full-face respirator with organic vapor/P100 cartridge). Handle in sealed systems with local exhaust ventilation. Air monitoring required — OSHA PEL for TDI is 0.02 ppm (ceiling). Emergency response for exposure: move to fresh air, seek medical attention immediately, do not return to isocyanate work if sensitized.
+- **Vinyl chloride monomer (VCM) for PVC**: A confirmed human carcinogen (IARC Group 1) causing angiosarcoma of the liver. Also flammable/explosive (LEL 3.6% in air). Monomer handling requires closed systems with leak detection, continuous air monitoring, and explosion-proof electrical equipment. Ventilation must prevent accumulation of heavier-than-air VCM gas. Workers require periodic liver function monitoring. Any VCM leak is both a toxic exposure and an explosion hazard — evacuate, isolate ignition sources, and ventilate.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Polymers](./) • [All Domains](../)*

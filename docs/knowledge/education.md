@@ -17,7 +17,7 @@
 - Standardized curriculum ensures consistent skill level across practitioners.
 - Courses: mathematics (arithmetic through calculus), physics (mechanics, thermodynamics, electromagnetism), chemistry (inorganic, organic, analytical), engineering drawing, materials science.
 
-**Universities** (Energy+):
+**Universities**:
 - Theoretical foundations: advanced mathematics, physics, chemistry, engineering disciplines.
 - Research capability: systematic investigation of phenomena, publication of results, peer review.
 - Library: comprehensive collection of all technical knowledge accumulated to date.
@@ -29,7 +29,7 @@
 - **Year 5-6**: Calculus, thermodynamics, electromagnetism, analytical chemistry, material properties
 - **Year 7+**: Specialization (metallurgy, semiconductor physics, chemical engineering, electrical engineering)
 
-### Libraries &amp; Archives
+### Libraries & Archives
 
 **Central library requirements**:
 - Fireproof construction (stone or brick walls, vaulted ceiling, iron doors). No open flames. Lightning protection.
@@ -49,9 +49,9 @@
 | Parchment | 500-1000 years | Stable if kept cool and dry |
 | Acid-free paper | 200-500 years | Kraft process paper |
 | Acidic paper (groundwood) | 50-100 years | Yellowing, brittleness |
-| Microfilm (Photolithography+) | 100-500 years | Requires reader |
+| Microfilm | 100-500 years | Requires reader |
 
-### Digital Knowledge Storage (Photolithography+)
+### Digital Knowledge Storage
 - Once semiconductor capability exists, transition critical knowledge to digital format.
 - **Encoding**: Binary representation of text (ASCII or UTF-8), images, and data.
 - **Storage media progression**: Magnetic tape → floppy disk → hard drive → optical disc → flash memory.
@@ -64,9 +64,13 @@
 **Safety training curriculum**:
 - **Shop safety**: Eye protection mandatory for all machining, grinding, chipping. No loose clothing or jewelry near rotating machinery. Lockout/tagout before maintenance (physically disconnect power, attach tag). Fire extinguisher training (sand bucket for metal fires, water for wood/paper, CO₂ or dry chemical for electrical and oil fires). First aid for cuts, burns, eye injuries.
 - **Chemical safety**: Label every container with contents and hazard. Work with acids/bases in ventilated area. Always add acid to water (never reverse). Emergency eyewash station (clean water at low pressure, 15-minute flush). MSDS equivalent: known hazards, first aid, storage requirements for every chemical produced.
-- **Electrical safety** (Energy+): Assume all circuits are live until verified. Insulated tools. One-hand rule when working on live circuits (other hand in pocket — prevents current across chest). Ground fault protection. No work on energized high-voltage equipment (>600V) without specific training and protective equipment.
+- **Electrical safety**: Assume all circuits are live until verified. Insulated tools. One-hand rule when working on live circuits (other hand in pocket — prevents current across chest). Ground fault protection. No work on energized high-voltage equipment (>600V) without specific training and protective equipment.
 
 **Competency testing**:
 - **Practical exams**: Demonstrate skill under observation. Blacksmithing: forge a specified tool to dimension. Machining: turn a shaft to ±0.05 mm tolerance. Chemistry: prepare a solution of specified molarity and titrate to verify. Welding: produce test joint, inspect for penetration and porosity.
 - **Journeyman testing**: After apprenticeship, produce a "master piece" — a complete, functional artifact demonstrating full command of the trade. Evaluated by two or more masters. Pass = independent practitioner certification. Fail = continue apprenticeship. Standard ensures quality across the civilization.
 
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Knowledge](./) • [All Domains](../)*

@@ -26,7 +26,7 @@
 **Mechanical pulping** (groundwood):
 - debark logs. Press against rotating grindstone under water spray. Friction separates fibers. Pulp contains lignin (causes yellowing and degradation over time — acceptable for newsprint, not for archival documents). Yield: ~90-95% of wood mass becomes pulp. Simple equipment (water-wheel-powered grindstone).
 
-**Chemical pulping** (kraft process, Chemistry+):
+**Chemical pulping** (kraft process):
 - Cook wood chips in "white liquor" (NaOH + Na₂S solution) at 150-170°C, 0.8-1.0 MPa for 2-4 hours in pressure vessel (digester). Dissolves lignin, releases cellulose fibers. Wash, bleach (chlorine dioxide or hydrogen peroxide). Kraft pulp is strong and permanent (cellulose only, no lignin). Yield: ~45-55% of wood mass.
 
 **Papermaking** (hand process, the Metallurgy-Machine Tools stage transition):
@@ -34,10 +34,10 @@
 2. **Vat preparation**: Suspend pulp in water (0.5-1% consistency). Add sizing agent (rosin soap + alum — makes paper water-resistant so ink doesn't feather). Optional: fillers (clay, calcium carbonate — smoother surface, whiter, less transparent).
 3. **Sheet formation**: Dip mould (wooden frame with wire mesh screen) into vat. Lift and shake side-to-side, front-to-back → fibers interlock evenly across sheet. Water drains through screen. Couch (pronounced "kooch") — transfer wet sheet onto felt blanket.
 4. **Pressing**: Stack alternating sheets and felts (post). Press in screw press or hydraulic press at 0.5-2 MPa. Remove 50-60% of water. Separate sheets from felts.
-5. **Drying**: Hang sheets in drying loft (warm, ventilated room) for 12-24 hours. Or pass through heated dryer cans (Energy+ — steam-heated iron cylinders, paper passes over surface, moisture evaporates).
+5. **Drying**: Hang sheets in drying loft (warm, ventilated room) for 12-24 hours. Or pass through steam-heated iron cylinders, paper passes over surface, moisture evaporates.
 6. **Sizing and finishing**: Dip dried sheets in tub of gelatin or starch solution (tub sizing for high-quality paper). Re-dry. Calender (press between polished iron rollers) for smooth surface. Cut to standard sizes.
 
-**Production rate**: Hand process: 100-300 sheets/day per worker. Machine process (Energy+): 100-1000 m/minute — essentially unlimited.
+**Production rate**: Hand process: 100-300 sheets/day per worker. Machine process: 100-1000 m/minute — essentially unlimited.
 
 ### Printing Press
 
@@ -51,7 +51,7 @@
 1. **Make-ready**: Position forme on press bed. Adjust platen height for even impression across entire page. Pack tympan (paper packing behind printing sheet) for correct pressure distribution.
 2. **Inking**: Roll ink (linseed oil + carbon black + rosin, boiled to thick consistency) onto ink balls. Beat ink balls together to distribute evenly. Pounce ink balls on type → thin, even ink film on raised letter surfaces.
 3. **Printing**: Place dampened paper on tympan. Lower frisket (frame holding paper). Roll bed under platen. Pull lever → platen presses paper against inked type. Release. Remove printed sheet. Hang to dry.
-4. **Production**: 200-500 impressions/hour for hand press. 1000-4000 impressions/hour for rotary press (Energy+). Print one side (folio), let dry, print other side. Multiple colors require separate press runs with different type formes, registered to align.
+4. **Production**: 200-500 impressions/hour for hand press. 1000-4000 impressions/hour for rotary press. Print one side (folio), let dry, print other side. Multiple colors require separate press runs with different type formes, registered to align.
 
 **Bookbinding**:
 - Fold printed sheets into gatherings (signatures — typically 4, 8, or 16 pages per gathering). Nest gatherings in order. Sew through fold with linen thread onto hemp cords (sewing supports). Glue spine with animal hide glue. Round and back spine (hammer spine into rounded shape). Attach boards (cardboard or wooden covers). Cover with leather, cloth, or paper. Stamp title on spine. End result: durable, readable book that lasts decades to centuries.
@@ -100,3 +100,7 @@
 - **Ruling pen**: Two adjustable steel jaws with screw gap setting. Dip in ink, draw straight lines along straightedge. Gap width controls line weight. Essential for technical drawings before fountain pens.
 - **Compass and dividers**: Compass for circles and arcs (pivot leg + pencil/pen leg, adjustable radius). Dividers (two sharp points) for transferring measurements, dividing lines into equal parts, stepping off distances on maps. Both with friction hinge to hold setting.
 
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Knowledge](./) • [All Domains](../)*

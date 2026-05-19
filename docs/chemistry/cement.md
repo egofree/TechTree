@@ -91,3 +91,14 @@ Concrete excels in compression but fails in tension at only 2-5 MPa (roughly 10%
 - **Roads and runways**: Pavement-quality concrete (35-40 MPa), air-entrained (4-6% microscopic air bubbles) for freeze-thaw resistance.
 - **Chemical plant flooring**: Acid-resistant concrete (use calcium aluminate cement + acid-resistant aggregate).
 - **Vibration isolation**: Inertia blocks for precision equipment (silicon wafer processing stages, precision grinders). Heavy concrete masses on isolation pads.
+
+### Safety & Hazards
+
+- **Kiln temperatures (1450°C)**: Severe thermal burns. Insulated clothing, face shield, heat-resistant gloves.
+- **Silica dust**: Raw material crushing generates crystalline silica dust causing silicosis. Respirators, wet methods.
+- **Wet cement (pH 12-13)**: Caustic burns with prolonged skin contact. Waterproof gloves, eye protection. Wash immediately.
+- **Lime (CaO)**: Reacts exothermically with moisture including sweat. Handle with gloves.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*

@@ -31,5 +31,31 @@
 - **Cold process**: Heat animal fat (tallow or lard) to 40-50°C. Slowly add lye solution (KOH or NaOH) with stirring. Ratio: ~1 kg fat to 130-150 g KOH (or 100-120 g NaOH). Stir to trace (mixture thickens, drips leave visible marks). Pour into mold, cure 4-6 weeks. Result: soft soap (KOH) or hard soap (NaOH).
 - **Hot process and graining out**: Heat fat to 38°C (saponification temperature). Add lye gradually with constant stirring. Continue heating for 2-3 hours until mixture thickens. Add salt (NaCl) to "grain out" — salt causes soap to separate and float to top as curds (graining). Remove soap curds, press to remove excess liquid, mold and dry. Glycerol remains in the lye solution (recoverable by distillation). Salt addition: ~100 g per kg of fat. Produces harder, longer-lasting soap than cold process.
 - **Lye safety**: NaOH and concentrated KOH cause severe chemical burns. Wear eye protection and gloves when handling. If skin contact occurs, flush with copious water for 15+ minutes. Never add water to solid lye (vigorous spattering) — add lye to water slowly.
+
+### Safety & Hazards
+
+- **Quicklime (CaO) burns**: Adding water to quicklime releases intense heat (~150°C). Steam and splattering lime cause severe thermal and chemical burns. Always add quicklime to water slowly, never the reverse. Wear eye protection, leather gloves, and long sleeves during slaking.
+- **Caustic burns from slaked lime**: Ca(OH)₂ is strongly alkaline (pH ~12.4). Prolonged skin contact causes chemical burns; eye contact can cause blindness. Rinse immediately with copious water. Wear goggles and gloves when mixing mortar or limewash.
+- **Dust inhalation**: Quicklime and slaked lime powders are respiratory irritants. Inhaling lime dust damages mucous membranes. Use dust masks or respirators when handling dry lime. Perform lime operations in well-ventilated areas or outdoors.
+- **Lye (NaOH/KOH) burns**: Concentrated alkali solutions cause deep, slow-healing chemical burns. Dissolution is exothermic — always add alkali to water, never water to solid alkali. Eye protection mandatory; chemical splash goggles for solution handling. Flush skin/eye contact with water for 15+ minutes.
+
+### Lime in Industry
+
+**Steel and metallurgy**:
+- Quicklime (CaO) is a critical flux in basic oxygen steelmaking and electric arc furnaces (~40-50 kg CaO per tonne of steel). The lime reacts with silica, phosphorus, and sulfur impurities to form a basic slag that floats on molten steel and is skimmed off. Dolomitic lime (CaO·MgO, from dolomite CaCO₃·MgCO₃ fired at 1600-1800°C) lines the refractory vessels themselves.
+
+**Agriculture**:
+- Agricultural lime (ground limestone, CaCO₃) and quicklime are spread on acidic soils at 2-5 tonnes/hectare to raise pH toward neutral (6.0-7.0). Most crops yield best at pH 6.0-7.5. Lime also improves soil structure in clay soils (flocculates clay particles → better drainage and aeration) and supplies calcium, an essential plant nutrient.
+
+**Water and sewage treatment**:
+- Add hydrated lime Ca(OH)₂ to raise pH of acidic water to 8.5-9.0, causing dissolved heavy metals (Fe, Mn, Al) to precipitate as hydroxides. In sewage treatment, lime raises pH above 11, killing pathogens and reducing odor. The resulting sludge is stable and can be landfilled.
+
+**Sugar refining**:
+- In the carbonation process, add lime (Ca(OH)₂) to raw sugar juice, then bubble CO₂ through the mixture. CaCO₃ precipitates, entrapping impurities (wax, protein, colloids). Filter the CaCO₃ cake to obtain clarified juice.
+
 ---
 
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Ceramics & Refractories](./) • [All Domains](../)*

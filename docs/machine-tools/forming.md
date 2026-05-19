@@ -122,4 +122,4 @@ Cold working accumulates strain, increasing hardness and reducing ductility. Ann
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Machine Tools](./) • [All Domains](../)*

@@ -5,7 +5,7 @@
 > **Timeline**: Years 20-50+
 > **Outputs**: railways
 
-### Railways (Energy+)
+### Railways
 
 **Track construction**:
 - **Subgrade**: Graded and compacted earth foundation. Ballast: crushed stone (10-15 cm layer) for drainage and load distribution.
@@ -38,7 +38,7 @@
 - **Range**: Direct current from batteries effective to ~50-100 km (voltage drop in wire limits range). For longer distances: relay stations every 50-100 km (incoming signal activates relay → re-transmits on fresh battery to next station). Or use higher voltage (100-200V from generator). Transcontinental telegraph: ~5000 km with ~50-100 relay stations.
 
 **Battery for telegraph**:
-- **Daniell cell**: Copper electrode in CuSO₄ solution | unglazed porcelain separator | zinc electrode in ZnSO₄ or dilute H₂SO₄ solution. Voltage: 1.1V per cell. Stack 10-50 cells in series for desired line voltage (10-50V). Stable output, long life. Or use DC generator (Energy+) for higher voltage.
+- **Daniell cell**: Copper electrode in CuSO₄ solution | unglazed porcelain separator | zinc electrode in ZnSO₄ or dilute H₂SO₄ solution. Voltage: 1.1V per cell. Stack 10-50 cells in series for desired line voltage (10-50V). Stable output, long life. Or use DC generator for higher voltage.
 
 **Morse code** (standardized):
 ```
@@ -79,4 +79,13 @@ Y -.--  Z --..
 - **Box car**: Enclosed wooden or steel body, sliding door. 15-30 tonne capacity. For bagged grain, manufactured goods, anything needing weather protection.
 - **Tank car**: Cylindrical tank on frame. For liquids (water, oil, chemicals). Fill dome on top, drain valve at bottom. 15-30 m³ capacity.
 - **Passenger coach**: Wooden or steel body with bench or individual seating. Sprung suspension (leaf springs or elliptic springs on bogies). 40-80 passengers per coach. Oil lamp lighting (later electric). Hardy vacuum or air brake system continuous through train — brake applies automatically if train parts or air pressure is lost.
+
+### Safety & Hazards
+
+- **Boiler explosions**: Steam locomotive boilers can explode from low water, overpressure, or corrosion. Two safety valves, water gauge, regular inspection required.
+- **Runaway trains**: Brake failure on gradients. Dead-man's control. Fail-safe brakes.
+- **Coupling injuries**: Manual coupling crushes fingers. Use coupler bars. Never stand between cars on grade.
+- **Derailment**: Speed, track condition, broken rails. Regular inspection. Speed limits.
+
+*Part of the [Bootciv Tech Tree](../) • [Transport](./) • [All Domains](../)*
 

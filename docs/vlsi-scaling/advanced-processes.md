@@ -138,4 +138,4 @@ Advanced processes enable significant efficiency gains over baseline screen-prin
 - **Ion implantation and RIE gases**: Dopant gases (AsH₃, PH₃, BF₃) are immediately dangerous to life at ppm concentrations. RIE gases (SF₆, CF₄, NF₃) are potent greenhouse gases requiring point-of-use abatement. Full hazard details and emergency procedures are documented in [EDA & GPU Design](eda-design.md).
 
 ---
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [VLSI Scaling](./) • [All Domains](../)*

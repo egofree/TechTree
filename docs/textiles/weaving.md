@@ -55,3 +55,16 @@ Hemp canvas preferred for sails (rot-resistant, strong when wet) until cotton ca
 
 For dyeing processes (mordanting, indigo vat, dye plant cultivation, fastness testing), see [Dyeing](dyeing.md).
 
+
+---
+
+### Safety & Hazards
+
+- **Loom machinery**: Power looms have numerous pinch points where warp threads, heddles, and shuttle mechanisms move rapidly. Guard moving parts. Keep hands clear during operation. Emergency stop mechanism required.
+- **Shuttle injuries**: Flying shuttles move at speed and can injure if loom is improperly adjusted or shuttle escapes track. Maintain shuttle race in good condition.
+- **Dust and fiber inhalation**: Cotton and fiber dust generated during weaving causes respiratory irritation (byssinosis — "brown lung" — with chronic cotton dust exposure). Ventilation in enclosed weaving areas.
+- **Repetitive strain**: Hand loom weaving involves repetitive motion. Take breaks. Vary posture. Ergonomic bench height reduces back strain.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Textiles](./) • [All Domains](../)*

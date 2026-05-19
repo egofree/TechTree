@@ -1,10 +1,10 @@
 # Electricity Generation & Distribution
 
 > **Node ID**: energy.electricity
-> **Also covers**: `energy.ice`, `energy.electrolysis`, `energy.welding`
+> **Also covers**: `chemistry.electrolysis`, `machine-tools.joining`
 > **Domain**: [Energy](./)
 > **Dependencies**: `chemistry`, `machine-tools`, `metals.iron-steel`, `chemistry.petroleum-alternatives`
-> **Enables**: `energy.electric-furnaces`, `energy.electrolysis`, `energy.welding`, `silicon.mg-si-production`, `chemistry.air-separation`, `chemistry.dopant-etch-gases`, `chemistry.hydrogen-silane`
+> **Enables**: `energy.electric-furnaces`, `chemistry.electrolysis`, `machine-tools.joining`, `silicon.mg-si-production`, `chemistry.air-separation`, `chemistry.dopant-etch-gases`, `chemistry.hydrogen-silane`
 > **Timeline**: Years 15-30
 > **Outputs**: generators, motors, transformers, wire_cables, electricity, insulated_wire, electric_arc_furnaces, resistance_heaters, eaf_steel, internal_combustion_engines, ...
 
@@ -68,7 +68,7 @@
 - **Principle**: Intake (fuel-air mix drawn in) → Compression (piston compresses mixture ~8-12:1) → Power (spark ignites, rapid combustion pushes piston down) → Exhaust (burned gases expelled). Four strokes per power cycle.
 - **Critical components**:
   - **Cylinder**: Cast iron or steel, bored to 0.02-0.05 mm tolerance. Requires the Machine Tools stage boring capability. Honed to mirror finish.
-  - **Piston**: Cast iron or aluminum alloy (Chemistry+). Cast iron piston rings (2-3) provide gas seal against cylinder wall. Ring gap ~0.3-0.5 mm when installed.
+  - **Piston**: Cast iron or aluminum alloy (from metallurgy). Cast iron piston rings (2-3) provide gas seal against cylinder wall. Ring gap ~0.3-0.5 mm when installed.
   - **Crankshaft**: Forged steel, ground journals. Counterweights for balance. Requires lathe, grinder, and balancing.
   - **Connecting rod**: Forged or machined steel I-beam section. Big end (crank end) with split bearing shells (babbitt metal: tin-antimony-copper alloy, 80/10/10 typical). Small end (piston end) with bronze bushing.
   - **Valves**: Poppet valves (intake and exhaust). Machined from heat-resistant steel. Seat angle 45°. Springs return valves to closed position. Operated by camshaft (gear or chain driven from crankshaft at half crank speed for 4-stroke).
@@ -127,7 +127,7 @@
 **Fuse and circuit breaker selection**:
 - **Fuse**: Short piece of wire or strip that melts at a known current, breaking the circuit. Lead-tin alloy for low-current fuses (1-15A), copper or silver for higher currents. Enclose in ceramic or glass tube with filler (sand) to quench arc when fuse blows. Rating: fuse should carry 100% rated current indefinitely, blow within 1 hour at 135% rated current, blow quickly at 200%+ rated current.
 - **Fuse sizing**: Fuse rating ≥ full-load current of device, but ≤ ampacity of wiring. Example: motor drawing 7A on 2.5 mm² wire (20A capacity) → use 10A fuse. The fuse protects the WIRE, not the device.
-- **Circuit breaker** (Energy+): Bimetallic strip heated by current bends and trips latch, opening contacts. Resettable. More convenient than fuses. Calibrate by adjusting strip tension.
+- **Circuit breaker**: Bimetallic strip heated by current bends and trips latch, opening contacts. Resettable. More convenient than fuses. Calibrate by adjusting strip tension.
 
 **Battery sizing** (lead-acid, see Energy Storage):
 - **Capacity**: C = P × t / V, where P = load (W), t = backup time (hours), V = system voltage. Example: 500W load, 4-hour backup, 48V system: C = 500 × 4 / 48 = 41.7 Ah. Add 50% margin for depth-of- discharge limit: 62.5 Ah bank.
@@ -145,9 +145,9 @@
 - **Natural rubber vulcanization**: latex from *Hevea brasiliensis* or temperate alternatives (guayule, Russian dandelion) is coagulated, masticated on a two-roll mill, then compounded with sulfur (1.5-3 phr) and zinc oxide as activator
 - **Heat curing** at 140-180°C in electric vulcanizing presses or steam autoclaves (3-10 bar) using the Energy stage electric heating and boiler steam; cycle times 5-30 minutes depending on thickness
 - **Applications beyond wire insulation**: shaft seals, gaskets, flat belts and V-belts for power transmission, hoses, vibration dampers, and tire construction for wheeled vehicles
-- **Synthetic rubbers** (nitrile, neoprene) are Chemistry+ materials requiring petrochemical feedstocks from [Petrochemicals](../chemistry/petroleum-alternatives.md); see [Polymers](../polymers/index.md) for the full elastomer development roadmap
+- **Synthetic rubbers** (nitrile, neoprene) require petrochemical feedstocks from [Petrochemicals](../chemistry/petroleum-alternatives.md); see [Polymers](../polymers/index.md) for the full elastomer development roadmap
 
-### Advanced Welding (Energy+)
+### Advanced Welding
 
 **Oxy-acetylene welding and cutting**:
 - **Acetylene production**: Calcium carbide (CaC₂, from CaO + 3C at ~2000°C in electric arc furnace) + water → C₂H₂ + Ca(OH)₂. Generate acetylene on demand in gas generator (water dripped onto carbide in closed vessel). NEVER store acetylene under pressure >0.15 MPa — it detonates spontaneously. Store dissolved in acetone in porous-filled cylinder (acetylene cylinders — safe storage at ~1.5 MPa).
@@ -165,6 +165,14 @@
 - **Joint preparation**: Bevel edges of thick plates (>6 mm) to 30-60° with grinder or torch, leaving 1-3 mm root gap. Clean to bare metal (no rust, oil, paint — all cause defects).
 - **Safety**: UV radiation from arc causes "welder's flash" (sunburn of cornea — extremely painful, temporary blindness for 24-48 hours). ALWAYS use welding helmet with proper shade lens (#10-14 shade). Leather gloves, long sleeves (UV burns exposed skin). Sparks and spatter — fire hazard, clear combustibles 10+ m away. Ventilation — welding fumes contain metal oxides, especially hazardous with galvanized steel (zinc fume fever). NEVER weld in confined spaces without forced ventilation.
 - **Applications**: Structural steel construction, pressure vessels, shipbuilding, pipe welding, machinery repair. Stronger and faster than oxy-acetylene for steel fabrication.
+### Safety & Hazards
+
+- **Electrocution**: Electrical current through the body causes death at surprisingly low levels — 100 mA across the chest can cause ventricular fibrillation. Even "low" voltages (50V+) can be lethal under wet conditions. ALWAYS de-energize circuits before working on them (lock-out/tag-out). Use insulated tools. One-hand rule when working near live circuits (keep one hand in pocket — prevents current across chest).
+- **Arc flash**: Short circuits can produce arcs reaching 20,000°C. Arc blast pressure can throw a person across a room. Arc-rated face shield and flame-resistant clothing for any work on energized panels. Minimum approach distances based on voltage level.
+- **High voltage**: Transformers and distribution systems operate at thousands of volts. Treat all high-voltage equipment as energized until proven otherwise. Grounding sticks for discharge before approach. Warning signs and barriers. Only qualified personnel near HV equipment.
+- **Fire risk**: Electrical faults (short circuits, overloaded wiring, poor connections) are a leading cause of industrial fires. Proper fusing and circuit breakers on all circuits. No overloaded outlets. Inspect wiring for damage regularly.
+- **Generator mechanical hazards**: Generators have rotating shafts and belts. Guard all moving parts. Entanglement hazard — no loose clothing near running generators.
+
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*

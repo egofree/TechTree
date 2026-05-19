@@ -204,3 +204,7 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 - Cutting tool materials and abrasives: [Bearings & Abrasives](./bearings-abrasives.md)
 - Cutting fluid production and properties: [Lubricants](../chemistry/lubricants.md)
 - Precision achievement milestones: See [Iterative Bootstrap](./iterative-bootstrap.md) precision table
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Machine Tools](./) • [All Domains](../)*

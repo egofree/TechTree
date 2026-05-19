@@ -78,6 +78,13 @@ Adding tin to copper produces bronze: harder, lower melting point (~950°C for 1
 4. Pour into preheated mold immediately — bronze fluidity degrades with time as it oxidizes.
 
 **Tin sourcing challenge**: Cassiterite (SnO₂) is geologically rare. If unavailable locally, copper-only tools (softer, need frequent work-hardening by hammering) or arsenical bronze (copper + arsenic-bearing ores, ~1-5% As — effective but toxic during smelting) are alternatives.
+
+### Safety & Hazards
+
+- **Molten metal burns**: Copper and bronze melt at 1085-1200°C and cause devastating deep-tissue burns on skin contact. Molten metal splashes readily when poured into damp or cold molds. Wear heavy leather apron, gauntlet gloves, face shield, and closed-toe boots. Preheat all molds and crucibles to 200-400°C before contact with molten metal — a cold or damp crucible may shatter violently, spraying molten copper. Never pour molten metal into wet molds; trapped moisture flashes to steam and ejects metal explosively.
+- **Toxic fumes from arsenical ores**: Arsenic-bearing copper ores (ennargite, tennantite) release arsenic trioxide vapor during roasting (400-600°C) and smelting. Arsenic fumes cause nausea, vomiting, abdominal pain, and long-term nerve and organ damage. Arsenical bronze production (~1-5% As) is particularly hazardous. Smelt in well-ventilated areas or under a hood. Respiratory protection (particulate filter) required when roasting sulfide or arsenic-bearing ores. Lead, often present as a trace impurity in copper ores, vaporizes above 500°C — lead fume inhalation causes cumulative neurological damage.
+- **Carbon monoxide poisoning**: Charcoal-fueled shaft furnaces produce substantial carbon monoxide, especially during the full-blast smelting phase (1100-1300°C). CO is odorless and causes headache, dizziness, confusion, and death at high concentration. Never operate furnaces in enclosed spaces. Ensure through-draft ventilation. Operators showing confusion or dizziness should be moved to fresh air immediately.
+- **Slag and spark injuries**: During bloom consolidation and hot forging, slag inclusions spray out as bright sparks at ~1200°C. Eye protection (safety glasses or face shield) is essential when hammering hot metal. Slag skimmed from molten copper retains dangerous heat for extended periods — set aside on dry sand or refractory surface, never on combustible material.
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Metals](./) • [All Domains](../)*

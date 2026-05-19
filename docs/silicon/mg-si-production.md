@@ -71,4 +71,4 @@ Operating a submerged arc furnace for silicon production involves severe hazards
 - **Cooling water hazard**: Furnace components (electrode clamps, shell panels) are water-cooled. A cooling water leak into the furnace causes immediate steam explosion. Monitor cooling water flow and temperature continuously. Automatic shutdown on flow loss.
 
 ---
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Silicon](./) • [All Domains](../)*

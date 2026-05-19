@@ -34,6 +34,81 @@
 - The Solvay process precipitates NaHCO₃ before thermal decomposition. Divert this intermediate: NaCl + NH₃ + CO₂ + H₂O → NaHCO₃↓ + NH₄Cl. Filter, wash, dry at low temperature (<50°C to prevent decomposition). Food-grade NaHCO₃ requires additional purification.
 - **Thermal decomposition**: Heat NaHCO₃ to 80-100°C → Na₂CO₃ + CO₂ + H₂O. This is the route to soda ash from baking soda. Both directions are useful depending on which product is needed.
 
+### Solvay Process — Detailed Step-by-Step
+
+The Solvay (ammonia-soda) process produces sodium carbonate (Na₂CO₃, soda ash) from salt (NaCl) and limestone (CaCO₃), with ammonia (NH₃) as a recyclable intermediate. It displaced the Leblanc process in the late 19th century due to lower cost and pollution:
+
+**Step 1: Ammonia absorption in brine**
+- Saturated brine (NaCl solution, ~300 g/L at 20°C) flows down through an absorption tower countercurrent to rising NH₃ gas. The brine absorbs ammonia exothermically (ΔH = -35 kJ/mol), forming ammoniated brine (NaCl + NH₃ in solution).
+- Cooling is necessary — the absorption tower uses water jackets or internal cooling coils to keep temperature below 30°C. Higher temperature reduces NH₃ solubility and shifts equilibrium against carbonation.
+- The ammoniated brine also absorbs some CO₂ from the ammonia recovery section (see Step 5), forming small amounts of ammonium carbonate ((NH₄)₂CO₃). This is acceptable — it decomposes in the next step.
+
+**Step 2: Carbonation — NaHCO₃ precipitation**
+- CO₂ gas (from lime kiln, ~35-40% CO₂) is bubbled up through the ammoniated brine in a carbonation tower (series of bubble-cap trays or packed sections).
+- **Reaction**: NH₃ + CO₂ + NaCl + H₂O → NaHCO₃↓ + NH₄Cl
+- Sodium bicarbonate (NaHCO₃) precipitates because it has low solubility in the concentrated brine at the process temperature (15-20°C is optimal — higher temperature increases NaHCO₃ solubility, reducing yield).
+- Carbonation proceeds in two stages: First pass with weaker CO₂ (from the calciner, ~70% CO₂), then a second pass with kiln CO₂. Total residence time: 1.5-3 hours.
+- NaCl conversion efficiency: ~72-75%. The remaining NaCl stays in solution and is recycled with the mother liquor.
+
+**Step 3: Filtration**
+- The NaHCO₃ slurry from the carbonation tower is filtered on rotary vacuum filters or centrifuges. The filter cake is crude NaHCO₃ (contains ~15% moisture, plus traces of NH₄Cl and NaCl).
+- Wash with cold water to remove adhering mother liquor (which contains NH₄Cl — too valuable to waste). Wash water joins the mother liquor for ammonia recovery.
+- Mother liquor (filtrate) contains: NH₄Cl, unreacted NaCl, some (NH₄)₂CO₃. This is the feed for ammonia recovery (Step 5).
+
+**Step 4: Calcination (thermal decomposition)**
+- Wet NaHCO₃ cake is heated in a rotary kiln or fluidized-bed calciner at 160-230°C.
+- **Reaction**: 2NaHCO₃ → Na₂CO₃ + CO₂↑ + H₂O↑
+- The CO₂ and steam driven off are recovered — CO₂ is recycled to the carbonation tower (it's concentrated, ~90%+ CO₂ after condensing out water vapor). Heat recovery: hot flue gases from the calciner furnace preheat incoming NaHCO₃.
+- Product: light soda ash (Na₂CO₃, density ~500 kg/m³) or dense soda ash (if the light ash is further processed by rehydration and recalcination to increase bulk density to ~1000 kg/m³ for easier shipping).
+
+**Step 5: Ammonia recovery (the key to process economics)**
+- Mother liquor from filtration is mixed with slaked lime (Ca(OH)₂) in a distillation column (ammonia still).
+- **Reaction**: 2NH₄Cl + Ca(OH)₂ → 2NH₃↑ + CaCl₂ + 2H₂O
+- Steam strips NH₃ from the solution. Recovered NH₃ gas is recycled to Step 1 (ammonia absorption). NH₃ makeup requirement: ~1-2 kg per tonne Na₂CO₃ (small losses from the closed loop).
+- **Ca(OH)₂ source**: Limestone (CaCO₃) is calcined in a lime kiln: CaCO₃ → CaO + CO₂. The CaO is slaked with water: CaO + H₂O → Ca(OH)₂. The CO₂ from the lime kiln is the CO₂ source for Step 2.
+- **Waste**: Calcium chloride (CaCl₂) solution is the main waste stream — ~10 tonnes of CaCl₂ per tonne of Na₂CO₃. Uses for CaCl₂: de-icing, dust control, concrete additive. Historically discharged to waterways (causes salinity problems).
+
+**Raw materials balance** (per tonne Na₂CO₃ produced):
+- NaCl: ~1.5 tonnes (at 72% conversion efficiency)
+- CaCO₃ (limestone): ~1.2 tonnes
+- Coke/coal (for lime kiln): ~0.1 tonnes
+- Steam: ~1.5 tonnes
+- NH₃ makeup: ~1-2 kg
+- Energy: ~7-10 GJ/tonne Na₂CO₃
+
+### Leblanc Process — Detailed Steps
+
+The Leblanc process was the first industrial method for producing soda ash from salt (patented 1791). It is more polluting and less efficient than Solvay but requires no ammonia, making it potentially relevant for bootstrapping:
+
+- **Step 1 (Salt cake)**: NaCl + H₂SO₄ → NaHSO₄ + HCl (150-200°C), then NaHSO₄ + NaCl → Na₂SO₄ + HCl (550-600°C). Product: sodium sulfate (salt cake). HCl gas captured as hydrochloric acid (useful byproduct for pickling steel, chemical synthesis).
+- **Step 2 (Black ash)**: Na₂SO₄ + 2C (coke/charcoal) + CaCO₃ (limestone) → Na₂CO₃ + CaS + 2CO₂. Rotary furnace or reverberatory furnace at 900-1000°C. Mix and roast for 1-2 hours. The coal reduces Na₂SO₄ to Na₂S, which reacts with CaCO₃.
+- **Step 3 (Leaching)**: Crush and leach black ash with water. Na₂CO₃ dissolves (soluble). CaS and unreacted solids remain as residue. Crystallize Na₂CO₃·10H₂O (washing soda) by cooling, or calcine to anhydrous Na₂CO₃ (soda ash) by heating to 150°C.
+- **Pollution**: CaS waste (~4 tonnes per tonne Na₂CO₃) creates H₂S (toxic, rotten-egg gas) when exposed to rainwater. Historically caused massive environmental damage. Mitigation: oxidize CaS waste with air to CaSO₄ (gypsum — useful for plaster and wallboard).
+
+### Causticization — Converting Soda Ash to Caustic Soda
+
+Sodium hydroxide (NaOH, caustic soda) is produced from sodium carbonate by reaction with slaked lime:
+
+**Lime-soda (causticization) process**:
+- **Reaction**: Na₂CO₃ (aq) + Ca(OH)₂ (slaked lime) → 2NaOH (aq) + CaCO₃↓
+- Conducted in agitated steel tanks at 80-90°C. The reaction is an equilibrium — NaOH conversion is typically 85-92% depending on concentrations and temperature.
+- **Filtration**: CaCO₃ precipitate filtered off (filter press or rotary vacuum filter). CaCO₃ is washed and sent to the lime kiln for reburning (CaCO₃ → CaO → Ca(OH)₂), closing the calcium loop.
+- **Evaporation**: The dilute NaOH solution (10-12%) is concentrated by evaporation in multiple-effect vacuum evaporators (steam-heated) to produce 50% NaOH solution (standard commercial grade). Further concentration to 73% or solid NaOH flakes requires higher-temperature evaporation in nickel-clad vessels (NaOH attacks steel above ~60% concentration at elevated temperatures).
+- **Energy**: ~2-3 tonnes steam per tonne NaOH (50% solution).
+- This route is simpler than electrolysis but produces CaCO₃ sludge and is less economical at large scale. For bootstrapping without electrolysis infrastructure, causticization provides NaOH from Solvay soda ash.
+
+### Potash from Wood Ashes — Pre-Industrial Alkali
+
+Before synthetic alkalis, potash (K₂CO₃) was the primary alkali source for glassmaking, soap, and textile processing:
+
+**Detailed process**:
+1. **Harvest and burn**: Burn hardwood (oak, beech, maple preferred — conifers give lower K₂CO₃ yield) to complete combustion. The ash contains 5-15% K₂CO₃, plus CaCO₃, K₂SO₄, KCl, silica, and trace elements.
+2. **Leach**: Pack ash into a wooden or stone leaching vat with a drain at the bottom. Pour hot water over ash repeatedly until the lye (leachate) tests at sufficient density (~20° Baumé, ~1.16 g/mL). The K₂CO₃ dissolves; insoluble CaCO₃, SiO₂, and char remain. Filter through cloth or sand bed.
+3. **Evaporate**: Boil the lye in iron or clay pots to concentrate. Crude potash crystallizes out — brown color from organic impurities and iron contamination. Yield: ~100 kg K₂CO₃ per tonne of hardwood ash.
+4. **Calcine (optional purification)**: Heat crude potash to 800-900°C in a reverberatory furnace to burn off organic impurities. Product: pearl ash (white to grey, 80-95% K₂CO₃). Further purification by recrystallization from water achieves >98% purity.
+- **Land intensity**: One hectare of mature hardwood forest yields ~1-2 tonnes of potash per harvest cycle (decades of regrowth required). This is a hunter-gatherer approach to alkali — useful for bootstrapping but not scalable to industrial volumes.
+- **Industrial potash**: Modern K₂CO₃ is produced from mined potassium minerals (e.g., reaction of KCl with MgCO₃, or electrolysis of KCl).
+
 ### Alkali Uses Summary
 
 | Product | Chemical | Primary Uses |
@@ -42,3 +117,16 @@
 | Potash | K₂CO₃ | Glass making (lowers SiO₂ melting point), soft soap, fertilizer (potassium source) |
 | Soda ash | Na₂CO₃ | Glass making, chemical feedstock, water softening, detergent builder |
 | Slaked lime | Ca(OH)₂ | Mortar and plaster (sets by CO₂ absorption), water treatment, ammonia recovery in Solvay |
+
+### Safety & Hazards
+
+- **Caustic chemical burns**: NaOH and KOH solutions cause severe, deep-tissue chemical burns that may not be immediately painful (alkali numbs nerve endings). Concentrated solutions dissolve skin and eye tissue. Wear chemical splash goggles, rubber gloves, and aprons. Eye wash stations mandatory in alkali handling areas.
+- **Exothermic dissolution**: Dissolving NaOH or KOH in water releases significant heat. Solution can boil if added too quickly. Always add alkali to water slowly with stirring — never add water to solid alkali (violent spattering). Use heat-resistant containers.
+- **Lime hazards**: Quicklime (CaO) reacts violently with water — CaO + H₂O → Ca(OH)₂ releases 65 kJ/mol. The reaction can generate temperatures above 150°C, causing steam explosions if water is added too quickly to large quantities. Always add lime to water (not water to lime). The resulting slaked lime (Ca(OH)₂) is also caustic — causes chemical burns on skin and eyes. PPE: long sleeves, gloves, eye protection.
+- **Hydrogen chloride gas**: The Leblanc process produces HCl gas at 150-600°C. HCl is corrosive to respiratory tract and metal equipment. Scrub exhaust gases with water or alkali solution. Ventilate salt cake furnaces to outdoors.
+- **Eye damage**: Even dilute caustic splashes can cause permanent corneal damage. Safety goggles (not just glasses) are mandatory for all alkali operations. Flush eye contact immediately with water for 15+ minutes and seek medical attention.
+- **Ammonia hazards** (Solvay process): NH₃ gas is a severe respiratory irritant. TLV: 25 ppm. Ammonia absorption towers and distillation columns must be in well-ventilated areas. Emergency shower and eye wash required near ammonia-handling equipment.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*

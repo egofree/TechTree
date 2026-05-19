@@ -38,8 +38,17 @@
 **Propulsion evolution**:
 - **Oars**: Direct muscle power. Speed 3-5 knots, limited range. Galley slaves or crew. Effective for combat and calm conditions.
 - **Sails**: Wind power, free energy. Speed 5-12 knots depending on rig and wind. Transforms bulk transport economics — one crew moves 100+ tonnes.
-- **Steam** (Energy+): Paddle wheel or screw propeller driven by steam engine. Independent of wind. Power-to-weight initially poor (early engines ~20 kg/HP). Coal bunkers limit range. Revolutionizes river and coastal transport.
-- **Diesel** (Chemistry+): Internal combustion engine. Far better power-to-weight (~5 kg/HP). Liquid fuel — higher energy density than coal. Enables ocean-going freighters of 5,000-50,000+ tonnes.
+- **Steam**: Paddle wheel or screw propeller driven by steam engine. Independent of wind. Power-to-weight initially poor (early engines ~20 kg/HP). Coal bunkers limit range. Revolutionizes river and coastal transport.
+- **Diesel**: Internal combustion engine. Far better power-to-weight (~5 kg/HP). Liquid fuel — higher energy density than coal. Enables ocean-going freighters of 5,000-50,000+ tonnes.
 
 **Port facilities**:
 - Wharf or pier: timber or stone construction. Crane for loading/unloading (wooden derrick with hand-winch or horse whim, lift 1-5 tonnes). Warehouse adjacent. 100-500 tonnes/day throughput for well-equipped port.
+
+### Safety & Hazards
+
+- **Drowning**: The primary hazard of all water transport. All crew should be competent swimmers. Life jackets or flotation devices (cork, balsa wood, inflated animal bladders) mandatory for deck work and harbor operations. Rescue lines and ring buoys at rail.
+- **Cargo handling injuries**: Loading/unloading heavy crates, barrels, and sacks causes crush injuries, hernias, and musculoskeletal damage. Use block-and-tackle or derricks for loads >25 kg. Train crew in proper lifting technique. Stack cargo to prevent shifting in rough seas — secure with rope lashings.
+- **Heavy lift hazards**: Cargo booms and cranes under load can drop or swing loads if rigging fails. Inspect ropes, chains, and tackle before each lift. Never stand under suspended loads. Use tag lines to control swing. Retire manila rope at 10% visible wear or any broken strands.
+- **Confined space entry**: Ship holds, bilges, and cargo tanks can accumulate toxic gases (CO from engines, H₂S from decomposing cargo, low O₂ from rusting steel). Ventilate before entry. Use gas detectors. Never enter alone — station a safety watch at the hatch.
+
+*Part of the [Bootciv Tech Tree](../) • [Transport](./) • [All Domains](../)*

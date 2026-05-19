@@ -94,4 +94,4 @@ Continuous scaling does not introduce fundamentally new hazard categories beyond
 - [Core Fab Processes](../photolithography/fab-processes.md) — HF acid, furnace temperatures, forming gas.
 
 ---
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [VLSI Scaling](./) • [All Domains](../)*

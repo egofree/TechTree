@@ -119,6 +119,13 @@ Electric furnaces are among the most demanding electrical loads in any industria
 
 The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you need it to make quality steel from scrap. Early EAFs can use lower-grade materials (carbon electrodes, thinner linings, smaller capacity) and upgrade as production improves.
 
+### Safety & Hazards
+
+- **Arc flash (30,000°C)**: Arc-rated face shield, FR clothing, leather gloves. 1m minimum boundary.
+- **Electrocution (100-800V, kA)**: Ground equipment. Lock-out/tag-out. Insulated tools.
+- **Molten metal splash**: Pre-dry all charge. Face shield, leather apron.
+- **IR radiation cataracts**: Shaded lenses for furnace viewing.
+
 ---
 
-*Part of the [Bootciv Tech Tree](../) · [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*

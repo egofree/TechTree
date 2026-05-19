@@ -21,7 +21,7 @@
 - **Objective design**: Achromatic doublet (crown + flint glass, corrects chromatic aberration at two wavelengths) or apochromatic (three-element, three-wavelength correction — better, harder to make).
 - **Illumination**: Brightfield (transmitted light through sample), darkfield (oblique illumination — edges glow, defects visible). Later: phase contrast, DIC (differential interference contrast).
 - **Mechanical stage**: X-Y movement with graduated drums (0.01 mm resolution). Focus: coarse + fine (0.001 mm resolution). Requires Machine Tools stage precision machining.
-- **Applications**: Crystal defect inspection (Silicon), lithography alignment (Photolithography), defect analysis (Photolithography+), biological specimens (SQ5).
+- **Applications**: Crystal defect inspection (Silicon), lithography alignment (Photolithography), defect analysis, biological specimens (SQ5).
 
 **Optical comparators** (shadow projection for dimensional measurement):
 - Light source projects silhouette of part onto screen. Magnification 10-50x. Compare shadow against overlay drawing (mylar with tolerance bands). Quick, non-contact measurement of external dimensions.
@@ -94,6 +94,13 @@
   - Understanding of electron physics
 - **Requires**: Glass envelopes (glassblowing capability above), vacuum (rotary vane pump sufficient), cathode material (tungsten or thoriated tungsten — heated to emit electrons), anode (nickel plate), grid (fine wire spiral for triode), base and pins (glass-to-metal seals).
 - **Evacuation**: Pump down to 10⁻⁴ Torr, bake tube to 300-400°C during pumping to drive off adsorbed gases, seal off. Getter (barium or magnesium flash strip) inside tube — flashes during initial activation, absorbs residual gases.
+
+### Safety & Hazards
+
+- **Laser eye hazards**: Alignment and testing lasers (even low-power HeNe at 1-5 mW) can cause permanent retinal burns from direct or reflected beam exposure. Never look into beam path. Use laser safety goggles matched to wavelength. Enclose beam paths where feasible.
+- **Chemical etchants**: Lens and prism preparation may use hydrofluoric acid (HF) for glass etching — HF penetrates skin, attacks bone, causes delayed deep-tissue necrosis. Calcium gluconate gel must be available as first aid. Cerium oxide and rouge (Fe₂O₃) polishing slurries are low hazard but avoid inhalation of dried powders.
+- **Vacuum chamber implosion**: Glass vacuum tubes and bell jars under vacuum can collapse violently. Wrap with tape or mesh, wear face shield during evacuation. Never use chipped or scratched glassware under vacuum.
+
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Optics](./) • [All Domains](../)*

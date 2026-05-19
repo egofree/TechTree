@@ -46,7 +46,7 @@ Every edge in `edges.json` has these fields today:
 |-------|------|-------------|
 | `from` | string | Node ID of the dependent (thing that needs something) |
 | `to` | string | Node ID of the prerequisite (thing needed first) |
-| `type` | string | Currently always `"required"` — hard prerequisite |
+| `type` | string | `"material"` or `"tool"` — consumed substance vs. reusable infrastructure |
 
 Direction convention: `from` depends on `to`. Example: `{ from: "metals", to: "foundations" }` means metals requires foundations.
 
@@ -170,7 +170,7 @@ The top-level `critical`, `early_win`, `pinnacle` fields and their associated `_
 
 ### 4.1 Motivation
 
-The current `edges.json` uses a single type: `"required"`. This loses the distinction between edges where the prerequisite provides a **consumed substance** versus a **reusable apparatus**. Adding a `type` field with values `"material"` and `"tool"` enables richer queries and diagram rendering.
+The current `edges.json` uses two types: `"material"` and `"tool"`, distinguishing edges where the prerequisite provides a **consumed substance** versus a **reusable apparatus**. This classification enables richer queries and diagram rendering.
 
 ### 4.2 Classification Definitions
 

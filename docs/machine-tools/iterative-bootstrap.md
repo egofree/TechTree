@@ -126,3 +126,7 @@ This compounding improvement is the most powerful feedback loop in the entire te
 - **Metal chips and eye protection**: Turning produces sharp, hot chips (especially steel — blue-hot spirals). Safety glasses mandatory. Chip guards on lathes.
 - **Heavy castings**: Machine beds weigh 50-200 kg. Use hoists, rollers, team lifts. Never lift alone.
 - **Abrasive wheels**: Can explode if damaged or oversped. Ring test new wheels (suspend and tap — clear ring = good, dull thud = cracked). Never exceed rated RPM. Use wheel guards.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Machine Tools](./) • [All Domains](../)*

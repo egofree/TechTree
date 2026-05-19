@@ -41,7 +41,7 @@
 
 **Leak detection**:
 - **Bubble test**: Pressurize system, spray soap solution on exterior, watch for bubbles. Finds large leaks.
-- **Helium leak detector** (Photolithography+): Mass spectrometer tuned to He. Spray He on exterior, detect He entering vacuum system. Sensitivity ~10⁻¹² atm·cc/s. The gold standard.
+- **Helium leak detector**: Mass spectrometer tuned to He. Spray He on exterior, detect He entering vacuum system. Sensitivity ~10⁻¹² atm·cc/s. The gold standard.
 - **Tesla coil**: High-frequency spark probe. Spark penetrates small holes in glass apparatus (visible discharge inside). Glass systems only.
 
 ### Vacuum System Design
@@ -75,6 +75,16 @@ Design rule: minimize internal surface area, avoid elastomers where possible, ba
 - **Duration**: 24-48 hours at temperature while continuously pumping. Longer bake for lower target pressures.
 - **Method**: Wrap chamber with heating tape (nichrome or silicone rubber insulated) or use custom-fitted band heaters. Cover with aluminum foil or fiberglass insulation to maintain uniform temperature. Monitor with thermocouples taped to multiple points on the chamber surface (top, bottom, side, ports). Avoid hot spots — local overheating warps flanges and ruins sealing surfaces.
 - **Cool-down**: After bake, turn off heaters. Allow system to cool naturally while still under vacuum. Do not vent until below 50°C — rapid cooling with air exposure re-adsorbs moisture, undoing much of the bake-out benefit.
+### Safety & Hazards
+
+**Implosion risk from glass vacuum chambers**: Glass bell jars and glass vacuum apparatus are under ~1 atmosphere (14.7 psi) of external pressure when evacuated. A flaw, scratch, or star crack concentrates stress and can cause sudden catastrophic implosion — the glass fragments are accelerated inward by atmospheric pressure, then bounce outward at high velocity. Risk mitigation: inspect all glassware for scratches, chips, and internal stresses before each use. Wrap glass chambers with adhesive-backed shatter film or multiple layers of tape (contains fragments if implosion occurs). Use polycarbonate safety shields between the operator and the glass chamber. Wear safety glasses at all times near evacuated glass systems. For larger chambers, prefer steel or stainless steel construction over glass.
+
+**Vacuum chamber overpressure protection**: If a vacuum system is accidentally connected to a pressure source (wrong valve opened, gas line backfeed), the chamber can be pressurized beyond its design limit. Steel vacuum chambers are designed for external pressure (vacuum) and may have thin walls that fail under internal pressure. Install pressure relief valves (set slightly above atmospheric, typically 1.1-1.5 bar absolute) on all vacuum chambers. Never pressurize a vacuum vessel beyond its rated pressure. If using a chamber for both vacuum and positive pressure, ensure it is rated for both conditions.
+
+**Oil diffusion pump fire hazard**: Diffusion pump oil is heated to 150-200°C in the boiler. If the cooling water fails (or was never turned on), oil temperature rises uncontrollably — silicone oil decomposes above ~250-300°C, producing flammable decomposition gases. If air leaks into a hot diffusion pump, the mixture of hot oil vapor and oxygen can ignite. Prevention: interlock cooling water flow to pump heater — if water flow stops, heater must shut off automatically. Never vent a hot diffusion pump to air; always cool the boiler below 50°C before venting. Use high-thermal-stability oils (Santovac, DC-705) that resist decomposition. Keep a Class B fire extinguisher nearby.
+
+**Cryogenic trap handling**: Cold traps cooled with liquid nitrogen (LN₂, -196°C) present cold burn and condensation hazards. Skin contact with LN₂-cooled surfaces causes immediate frostbite (tissue destruction identical to burns). Wear insulated cryogenic gloves (not just leather work gloves — cold penetrates thin gloves rapidly) and face shield when handling LN₂ or manipulating cold traps. When filling a cold trap, add LN₂ slowly — rapid pouring causes violent boiling and splashing. **Critical hazard**: if a cold trap is left filled with LN₂ after the vacuum system is vented to air, the trap will condense liquid oxygen from the air (LOX boils at -183°C, warmer than LN₂ at -196°C). LOX is a powerful oxidizer — contact with any organic material (oil, grease, vacuum grease, O-rings) can cause spontaneous ignition or explosion. Always empty cold traps before venting the vacuum system, or warm the trap to above -183°C before air exposure.
+
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Gas Handling](./) • [All Domains](../)*

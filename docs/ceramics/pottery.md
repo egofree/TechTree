@@ -35,135 +35,139 @@ Pottery provides containers for storage, transport, cooking, and — critically 
 **Drying**:
 - Air dry slowly for 3-7 days (longer for thick walls). Cover loosely to prevent uneven drying. Rapid drying causes cracking. Bone-dry clay is lighter in color and cool to touch.
 
-## Advanced Ceramics & Refractories
+### Potter's Wheel
 
-## Problem
+The potter's wheel enables rapid, symmetrical vessel production — transforming pottery from a hand-building craft into a production-capable technology.
 
-Metal and glass alone cannot solve every engineering challenge. High-temperature furnaces need refractory linings, and many processes require ceramics that withstand extreme conditions. Advanced ceramics and refractories fill these gaps.
+**Kick wheel (simplest, no metal required)**:
+- **Flywheel**: Heavy stone or thick wooden disk, 60-80 cm diameter, 5-10 kg. Mounted on a vertical wooden shaft (5 cm diameter, 30-40 cm tall) resting in a stone or wooden bearing (cup-shaped depression greased with animal fat).
+- **Wheel head**: Flat wooden or stone disk, 20-25 cm diameter, attached to top of shaft. Clay is thrown on this surface.
+- **Operation**: Potter sits at bench height. Kicks flywheel with foot to maintain 30-60 RPM. Both hands free to shape clay.
+- **Dimensions**: Total height ~70 cm (flywheel at floor level, wheel head at seated lap height). Bearing must be precisely centered — any wobble transfers to the pot.
 
-## Technologies &amp; Systems
+**Treadle wheel (higher speed, more sustained rotation)**:
+- **Mechanism**: Foot treadle (like a sewing machine) connected to crank on flywheel shaft via connecting rod. Push-pull motion of foot converts to continuous rotation.
+- **Flywheel**: 40-50 cm diameter cast iron or heavy wood disk. Iron preferred — higher momentum sustains rotation between treadle strokes.
+- **Speed**: 60-120 RPM sustained. Allows throwing larger vessels and thinner walls.
+- **Construction**: Requires basic metalworking for crank and connecting rod. Wooden frame, iron shaft (2-3 cm diameter), bronze or oiled hardwood bearings.
 
-### Refractory Materials
+**Throwing technique**:
+- Center clay on spinning wheel head. Press down and inward simultaneously. Open center with thumbs. Pull walls upward between thumb and fingers. Shape with ribs (wood or metal scrapers). Wire-cut from wheel head. Dry slowly.
 
-**Fireclay refractories** (Metallurgy stage, most basic):
-- **Raw material**: Fireclay (aluminosilicate clay, 25-45% Al₂O₃). Found near coal deposits. Mine, crush, grind.
-- **Forming**: Mix fireclay with water and grog (pre-fired crushed clay — reduces shrinkage and cracking). Press into molds for bricks or hand-form for custom shapes. Dry slowly (days) to prevent cracking.
-- **Firing**: Stack in kiln. Fire to 1200-1400°C for 24-48 hours. Cool slowly (24+ hours). The clay partially vitrifies (glass phase forms between particles) → strong, dense, heat-resistant.
-- **Properties**: Service temperature 1200-1500°C. Thermal conductivity 1-2 W/(m·K). Thermal shock resistance: moderate (thinner sections survive thermal cycling better). Porosity 15-25% (absorbs some molten metal splash — doesn't spall).
-- **Applications**: Furnace linings, kiln interiors, forge hearths, crucible stands, chimney flues.
+### Firing Methods
 
-**High-alumina refractories** (Machine Tools-Chemistry stages):
-- **Raw material**: Bauxite (Al₂O₃·2H₂O) or diaspore, calcined (heated to drive off water → α-Al₂O₃). Higher Al₂O₃ content (50-95%) → higher refractoriness.
-- **Forming**: Press calcined alumina with small amount of clay binder in hydraulic press at 20-50 MPa. Or slip-cast (pour aqueous suspension into plaster mold → water absorbed → solid cast forms).
-- **Firing**: 1500-1700°C for 12-24 hours. Above 1600°C, mullite (3Al₂O₃·2SiO₂) forms — excellent high-temperature phase.
-- **Properties**: Service temperature 1500-1800°C. Higher strength, better slag resistance, lower porosity than fireclay. Used where fireclay softens.
-- **Applications**: Steel furnace linings, glass tank furnaces, ceramic kilns for high-fire porcelain, silicon processing furnace linings (CZ crystal growth furnaces).
+**Bonfire / open firing** (simplest, earliest — temperatures 600-900°C):
+1. **Air dry** pots for 3-7 days until bone dry. Any moisture causes steam explosions.
+2. **Pre-heat**: Place pots around edge of small kindling fire for 30-60 minutes. Warm slowly to drive off residual moisture.
+3. **Build fuel bed**: Layer dry wood, straw, or dung in a circle ~1 m diameter, 20-30 cm tall. Leave gaps for air.
+4. **Set pots**: Place pots on fuel bed, upside down or on side. Small pots toward center, larger ones outside.
+5. **Cover**: Heap more fuel over and around pots. Add larger branches on top.
+6. **Ignite**: Light from multiple points around the base. Fire burns 1-3 hours depending on fuel quantity.
+7. **Results**: Earthenware. Red, orange, brown, or black depending on clay iron content and oxygen supply. Pottery is porous (10-25% water absorption). Low strength but functional for storage and cooking. Many pots crack from thermal shock — expect 30-60% loss rate initially.
 
-**Silica refractories** (the Machine Tools-Energy stage transition):
-- **Raw material**: Quartzite (≥95% SiO₂). Crush, grind. Add 2-3% lime (CaO) as binder.
-- **Firing**: 1450-1500°C. Quartz converts to cristobalite and tridymite (high-temperature SiO₂ polymorphs). Volume expansion during conversion (~15%) — must be completed during manufacture, not in service.
-- **Properties**: Service temperature up to 1650°C. Very low thermal expansion above 600°C (cristobalite stable → excellent volume stability at high temperature). Good acid slag resistance. Poor thermal shock below 600°C (α-β quartz inversion at 573°C causes sudden 0.8% volume change → cracking).
-- **Applications**: Coke oven walls, glass furnace crowns (roofs), acid steelmaking furnaces.
+**Pit firing** (slightly higher temperature, 700-1000°C, more controlled):
+1. **Dig pit**: 50-80 cm deep, 60-100 cm diameter. Line bottom with dry grass or leaves.
+2. **Layer fuel**: Sawdust or fine wood chips on bottom (provides long, slow heat). Layer of sticks.
+3. **Place pots**: Arrange pots on their sides on fuel layer, not touching each other or pit walls.
+4. **Cover and fill**: More sawdust around and over pots. Layer of larger wood on top. Fill pit to ground level.
+5. **Ignite top**: Fire burns downward through the fuel bed over 4-8 hours. Slow heating and cooling reduces thermal shock.
+6. **Retrieve**: Let cool 12-24 hours. Dig out carefully. Better color variation from reduction/oxidation patterns.
 
-**Magnesia refractories** (Chemistry):
-- **Raw material**: Magnesite (MgCO₃) → calcine at 1800-2000°C → periclase (MgO). Or from seawater/brine: add Ca(OH)₂ to precipitate Mg(OH)₂ → calcine → MgO.
-- **Properties**: Service temperature 1800-2000°C+. Excellent basic slag resistance. High thermal expansion (~13.5 × 10⁻⁶/°C — poor thermal shock). High thermal conductivity.
-- **Applications**: Basic oxygen steelmaking furnaces, cement rotary kiln linings, copper smelting furnaces.
+**Updraft kiln** (first true kiln — temperatures 900-1200°C):
+1. **Construction**: Build cylindrical or box structure from fireclay bricks or puddled clay. **Firebox** at bottom (30-40 cm tall chamber with grate for fuel, ash pit below). **Ware chamber** above (40-60 cm tall, shelves or kiln furniture to stack pots). **Flue** opening at top center.
+2. **Dimensions**: Total height 1-1.5 m. Internal diameter 50-80 cm. Walls 10-15 cm thick (clay/brick). Dome or flat top with central flue hole (10-15 cm diameter).
+3. **Loading**: Stack pots in ware chamber. Leave space between pots for hot gas circulation. Use clay stilts or shelves.
+4. **Firing schedule**:
+   - **0-200°C** (1-2 hours): Very slow. Drive off remaining mechanical water. Smoke and steam visible.
+   - **200-600°C** (1-2 hours): Moderate rate. Chemical water driven off. Organic matter burns out (smoking phase).
+   - **600-900°C** (2-3 hours): Faster rate allowed. Quartz inversion at 573°C — rapid volume change, go slowly through this range.
+   - **900-1200°C** (2-4 hours): Soak at peak temperature. Vitrification begins. Clay body becomes less porous, stronger.
+5. **Cooling**: Seal kiln (block flue and firebox). Cool slowly over 12-24 hours. Rapid cooling cracks pots.
+6. **Fuel**: Wood (hardwood preferred — longer burn, more consistent heat). 20-50 kg wood per firing depending on kiln size.
 
-**Zirconia refractories** (Chemistry+):
-- **Raw material**: Zircon sand (ZrSiO₄) or baddeleyite (ZrO₂). Chemically process to pure ZrO₂. Stabilize with 5-15% CaO, MgO, or Y₂O₃ (prevents destructive phase transformation at ~1170°C — pure ZrO₃ transforms monoclinic → tetragonal with ~4% volume change → catastrophic cracking. Stabilized zirconia remains cubic → stable).
-- **Properties**: Service temperature up to 2200°C+. Very low thermal conductivity (excellent insulator). Good thermal shock resistance (when stabilized). Chemically inert.
-- **Applications**: Crucibles for melting specialty alloys and glass, thermal barrier coatings, oxygen sensor electrolyte (zirconia conducts O²⁻ ions at high temperature → measure oxygen partial pressure).
+**Downdraft kiln** (highest temperature, 1200-1400°C):
+- **Design**: Fireboxes on sides. Hot gases rise to crown (dome), deflect downward through ware chamber, exit through floor-level flue (damper-controlled). Longer gas path = more heat transfer to ware.
+- **Advantage**: More uniform temperature throughout ware chamber. Reaches stoneware temperatures (1200-1300°C) where clay vitrifies fully — non-porous, very strong.
+- **Construction**: Requires fireclay bricks for interior. Larger than updraft kiln — typically 1.5-2 m interior height.
 
-**Carbon refractories** (Energy+):
-- **Raw material**: Coke or graphite. Mix with pitch binder. Press and fire at 1000-1300°C in reducing atmosphere (no oxygen — carbon oxidizes above 400°C in air). Graphitize at 2500-3000°C if graphite refractory desired.
-- **Properties**: Service temperature 2000-3000°C+ in reducing or inert atmosphere. NOT usable in oxidizing atmosphere. High thermal conductivity, excellent thermal shock resistance, non-wetting by most metals and slags.
-- **Applications**: Blast furnace hearth linings, silicon carbide furnaces, electric arc furnace electrodes, crucibles for melting reactive metals.
+### Glazing Methods
 
-### Technical Ceramics
+Glazes seal pottery surfaces — making vessels waterproof, easier to clean, and decorative.
 
-**Alumina (Al₂O₃) ceramics**:
-- **Processing**: Start with high-purity alumina powder (≥99.5% Al₂O₃, from Bayer process bauxite → calcined alumina). Ball mill powder to 1-5 μm particle size. Form by pressing (dry press at 50-100 MPa), extrusion (wet mix, force through die), or slip casting (aqueous slurry in plaster mold). Sinter at 1600-1800°C for 2-4 hours. Shrinkage 15-20% during sintering — oversize green (unfired) body accordingly.
-- **Properties**: Hardness 9 Mohs (second only to diamond and SiC). Compressive strength 2000-3000 MPa. Flexural strength 300-400 MPa. Electrical resistivity >10¹⁴ Ω·cm (excellent insulator). Dielectric constant ~10. Thermal conductivity 25-35 W/(m·K). Maximum service temperature 1700-1900°C.
-- **Applications**: Electrical insulators (spark plugs, high-voltage insulators, substrate for hybrid circuits), wear parts (valve seats, seals, bearings), cutting tool inserts (alumina + TiC), chemical-resistant linings, ballistic armor, dental/medical implants. THE most widely used technical ceramic.
+**Ash glaze** (simplest, earliest — wood ash + clay):
+- **Composition**: Mix 50-70% wood ash (sieved) with 30-50% clay (same clay body or kaolin). Ash provides flux (K₂O, CaO, MgO from dissolved minerals). Add water to creamy consistency.
+- **Application**: Dip pot or brush on. Fire to 1100-1250°C. Ash glazes produce earthy greens, browns, and glossy surfaces depending on ash source.
+- **Variation**: Different tree species produce different glazes. Oak and hardwood ashes are high in calcium → glossy, runny glazes. Pine ash is higher in potassium → more matte finishes.
 
-**Silicon carbide (SiC)**:
-- **Synthesis** (Acheson process): Mix silica sand (SiO₂) with petroleum coke (C). Heat in resistance furnace to 2200-2500°C. Reaction: SiO₂ + 3C → SiC + 2CO. Takes 12-36 hours. Product: intergrown SiC crystals (green to black depending on purity). Crush, classify by grain size.
-- **Sintered SiC**: Fine SiC powder + sintering aid (B₄C or Al₂O₃ + Y₂O₃) → press → sinter at 2100-2200°C in argon. Or reaction-bond: SiC powder + carbon → infiltrate with molten silicon → Si + C → SiC (reaction bonding — lower temperature, near-net shape).
-- **Properties**: Hardness 9.5 Mohs. Flexural strength 400-600 MPa. Thermal conductivity 80-120 W/(m·K) — excellent heat conductor (better than most metals). Thermal shock resistance: exceptional (high thermal conductivity + low expansion coefficient). Chemical resistance: inert to most acids, alkalis, and molten metals.
-- **Applications**: Heating elements (SiC conducts electricity at high temperature — glow-bar furnace elements), kiln furniture, abrasives (SiC grinding wheels, sandpaper), body armor, mechanical seals, high-temperature heat exchangers, semiconductor furnace components.
+**Salt glaze**:
+- **Process**: During kiln firing at 1100-1250°C, throw damp salt (NaCl, 0.5-2 kg per cubic meter of kiln space) into firebox. Salt vaporizes, sodium reacts with silica and alumina in clay surface → thin glassy layer forms on all exposed pot surfaces.
+- **Characteristics**: Orange-peel texture, translucent, often gray-brown or blue-gray. Very durable. Traditional for stoneware jugs, crocks, sewer pipes.
+- **Kiln damage**: Salt attacks kiln bricks over time. Use a dedicated salt kiln or accept rapid kiln degradation.
 
-**Alumina cement (calcium aluminate cement)**:
-- **Manufacture**: Mix bauxite (Al₂O₃) and limestone (CaCO₃). Fuse in electric arc furnace or sinter in rotary kiln at 1400-1600°C. Grind to fine powder.
-- **Composition**: Primarily monocalcium aluminate (CaO·Al₂O₃). Sets rapidly (2-6 hours). Develops high early strength. Heat resistant — service temperature up to 1600°C when mixed with alumina aggregate.
-- **Applications**: Refractory castables (pourable refractory concrete for furnace linings — mix cement + alumina aggregate + water, pour, cure), high-temperature mortars, chemical-resistant concrete, rapid-repair concrete.
+**Slip decoration**:
+- **Slip**: Liquid clay (same body or contrasting color) thinned to cream consistency. Applied to leather-hard or bone-dry pot by dipping, trailing, brushing, or splattering.
+- **Engobe**: Colored slip with added colorants (iron oxide for red/brown, manganese for black/brown, white clay for light). Can be carved through (sgraffito) to reveal contrasting body color beneath.
+- **Not a glaze**: Slip does not melt and seal — remains porous. Often combined with a clear or translucent glaze over top.
 
-### Ceramic Processing Techniques
+**Lead glaze** (⚠️ TOXIC):
+- **Composition**: 50-80% lead oxide (PbO, from galena — lead sulfide mineral, roasted to oxide) mixed with silica sand and clay. Melts at 700-900°C — very low temperature, easy to fire.
+- **Produces**: Brilliant, glossy, transparent glaze. Bright colors with added copper (green) or iron (amber/brown). Historically widespread because it fires at earthenware temperatures.
+- **WARNING**: Lead is a cumulative neurotoxin. Lead glazes on food-contact surfaces cause lead poisoning. **Never use lead-glazed vessels for food or drink.** Lead glaze production also hazards workers (inhalation of lead dust, fumes during firing). Use only for non-food decorative ware or industrial containers, with respiratory protection during manufacture.
 
-**Powder preparation**:
-- **Ball milling**: Rotate cylindrical mill (porcelain or rubber-lined steel) filled with grinding media (alumina or zirconia balls) and raw material powder. Mill for 12-72 hours. Reduces particle size to sub-micron. Wet milling (add water or solvent) prevents agglomeration and produces finer powder than dry milling.
-- **Spray drying**: Pump slurry (powder + water + binder) through atomizing nozzle into hot air chamber. Droplets dry into spherical granules (50-200 μm) with good flow properties. For automated pressing operations.
-- **Calcination**: Heat powder below sintering temperature to drive off volatiles, decompose precursors, and initiate solid-state reactions. Example: Al(OH)₃ → Al₂O₃ + H₂O at 1200°C.
+### Crucible Production
 
-**Forming methods**:
-- **Dry pressing**: Fill steel die with powder. Apply uniaxial pressure 50-200 MPa via hydraulic press. Simple shapes (tiles, plates, disks). Fast (10-20 parts/minute). Green density 55-65% theoretical. Density variation across part (more pressure near punch, less at bottom) — limit aspect ratio (height/width < 3).
-- **Isostatic pressing**: Fill flexible rubber mold with powder. Immerse in oil in pressure vessel. Apply hydrostatic pressure 100-300 MPa. Uniform pressure from all sides → uniform density. Complex shapes possible. Batch process (slower). Used for spark plug insulators, radome domes, large tubes.
-- **Extrusion**: Mix powder with plasticizers (clay + water, or organic binders + solvents) to form plastic mass. Force through die via screw extruder or hydraulic ram. Continuous lengths (tubes, rods, honeycomb structures). Cut to length. Dry slowly. Fire. Used for kiln furniture, catalytic converter substrates, ceramic tubes.
-- **Slip casting**: Deflocculate powder in water (add sodium silicate or other dispersant → particles repel each other → stable suspension). Pour slip into plaster of Paris mold. Water absorbs into plaster → solid layer builds on mold surface. Drain excess slip when wall thickness sufficient. Dry, remove from mold, fire. For complex hollow shapes (saggars, crucibles, thin-walled vessels).
+Clay crucibles are essential for melting and casting metals — one of pottery's most critical industrial applications.
 
-**Sintering**:
-- **Process**: Heat green (unfired) ceramic body to 0.7-0.9 × melting temperature. Atomic diffusion causes particles to bond → porosity decreases → density increases → strength increases. Shrinkage 10-20%. Grain growth occurs simultaneously (larger grains → stronger but more brittle — control by limiting temperature and time).
-- **Atmosphere**: Air (for oxides). Reducing atmosphere (H₂/N₂ or CO — for non-oxides like SiC, Si₃N₄). Inert atmosphere (Ar — prevent oxidation). Vacuum (remove evolved gases, achieve highest density).
-- **Temperature control**: Critical ±5-10°C at peak. Ramp up slowly (1-5°C/minute) to avoid thermal shock in green body. Soak at peak for 1-4 hours. Cool slowly (1-5°C/minute) through critical temperature ranges to avoid cracking. Total cycle: 12-48 hours.
-- **Kiln types**: Periodic kiln (batch — load, fire, cool, unload). Tunnel kiln (continuous — ware moves on kiln cars through preheat zone, firing zone, cooling zone. 24-72 hour transit. Much more fuel-efficient for high volume).
+**Clay-graphite crucible** (standard for non-ferrous metals):
+- **Composition**: 30-50% plastic fireclay, 30-50% flake graphite, 10-20% grog (crushed fired clay) or silicon sand.
+- **Forming**: Press mixture into two-part mold (creates consistent wall thickness 8-15 mm). Ram firmly. Dry slowly 3-5 days.
+- **Firing**: Fire to 1200-1400°C in reducing atmosphere (bury in charcoal inside kiln — prevents graphite from burning away). Fire 4-8 hours.
+- **Properties**: Withstands 1600°C+. Good thermal shock resistance (graphite provides thermal conductivity). Graphite creates non-wetting surface — molten metal releases cleanly. Sizes from 50 g to 50 kg capacity.
+- **Use life**: 5-20 melts depending on metal type and temperature. Copper alloys are gentle; iron and steel erode faster.
 
-**Glazing** (optional surface treatment):
-- Apply thin layer of glass-forming composition to ceramic surface before final firing. Composition: silica (glass former) + flux (Na₂O, K₂O, PbO — lower melting point) + stabilizer (Al₂O₃ — prevents dissolution) + colorants (metal oxides: Fe₂O₃ brown, CuO blue/green, CoO blue, MnO₂ purple). Fire to melt glaze → viscous glass flows → smooth, impermeable surface.
-- **Purpose**: Waterproofing (especially for food vessels), chemical resistance, ease of cleaning, decoration.
+**Simple clay crucible** (for lower temperatures):
+- **Composition**: Fireclay + 30% grog. Form by coil or press-mold. Fire to 1200°C.
+- **Adequate for**: Copper (1085°C), bronze (950°C), tin (232°C), lead (327°C). Not suitable for iron (1538°C — softens clay).
 
-### Ceramic Insulation
+### Brick and Tile Production
 
-**Thermal insulation**:
-- **Firebrick (insulating)**: Low-density fireclay brick (porosity 60-80%, density 0.5-1.0 g/cm³). Made by adding sawdust or vermiculite to clay mix — organics burn out during firing, leaving pores. Thermal conductivity 0.15-0.4 W/(m·K) vs. 1-2 for dense firebrick. Lower temperature rating (max 1200-1400°C) but much better insulation. Use as backup layer behind dense hot-face refractory.
-- **Ceramic fiber**: Al₂O₃-SiO₂ fiber blanket (melt aluminosilicate, spin or blow into fibers, collect as blanket). Density 0.1-0.3 g/cm³. Thermal conductivity 0.05-0.15 W/(m·K) — excellent insulator. Service temperature 1200-1600°C. Easy to install (cut with scissors, wrap around furnace). Replaces massive brick linings with lightweight blanket → faster heat-up, less fuel, smaller furnace structure.
+**Mud brick (sun-dried)**:
+- Mix clay-rich soil with temper (straw, 10-20%). Press into wooden mold (typical 25 × 12 × 8 cm). Dry in sun 2-4 weeks. No firing required. Adequate for dry climates. Deteriorates in rain. Oldest building material.
 
-**Electrical insulation**:
-- **Porcelain**: High-fired ceramic (kaolin + feldspar + quartz, fired 1250-1400°C). Dense, vitrified body. Excellent insulator (resistivity >10¹² Ω·cm). Good mechanical strength. Used for high-voltage insulators (power line insulators, spark plug bodies, circuit breaker components).
-- **Steatite**: Magnesium silicate (MgSiO₃) ceramic. Low dielectric loss at high frequency. Used for RF insulators, antenna components, capacitor dielectrics.
+**Fired brick**:
+- **Clay**: Same clay as pottery but less refined — moderate plasticity, moderate sand content (reduces shrinkage). Too plastic → excessive shrinkage and warping.
+- **Forming**: Press into wooden mold (25 × 12 × 6.5 cm standard, or local dimensions). Wire-cut extruded brick for mass production (requires extrusion press).
+- **Drying**: 3-7 days protected from sun and wind (uneven drying warps bricks).
+- **Firing**: Stack bricks in clamp or scove kiln (temporary structure of raw bricks with fuel channels). Fire to 900-1100°C for 24-48 hours. Cool 2-3 days. Under-fired bricks are soft and crumbly ("salmon bricks"). Over-fired bricks vitrify and distort ("clinker").
 
-### Ceramic Applications in Semiconductor Manufacturing
+**Roof tile**:
+- **Flat tile (slab method)**: Press clay into wooden form (25 × 15 × 1.5 cm). Dry on flat surface. Fire to 1000-1100°C. Overlap when installing.
+- **Pantile**: Form over curved mold to create S-shaped cross-section. Interlocks with adjacent tiles — more waterproof.
+- **Firing**: Same temperature as brick. Tiles must be flat (no warping) — dry and fire on edge or on setters.
 
-**Furnace components**:
-- **CZ crystal growth furnace hot zone**: Fused silica crucible (SiO₂ — chemically compatible with molten silicon, Vacuum & Optics stage production). Graphite susceptor (supports crucible, heats by induction). Alumina or zirconia insulation (thermal). Argon atmosphere (prevents oxidation of graphite and silicon).
-- **Diffusion/oxidation furnace**: Fused silica process tube (1100-1200°C operating temperature, chemically inert to O₂, N₂, H₂, Cl₂). Alumina or mullite liner and support furniture. Silicon carbide heating elements.
-- **Wafer handling**: Alumina or silicon carbide wafer boats (hold wafers during furnace processing), paddles (push boats into furnace), end caps.
+**Drain pipe**:
+- Extrude clay through die (circular cross-section, 10-30 cm diameter). Cut to length (30-60 cm). Socket end formed by reaming. Fire to 1000-1100°C. Vitreous, non-porous pipes for drainage and sewage.
 
-**Substrates and packages**:
-- **Alumina substrates**: 96% Al₂O₃, 0.5-1.0 mm thick, cofired with tungsten metallization traces. Used for hybrid circuit substrates, resistor networks, capacitor chips. Excellent thermal conductivity (dissipates heat from components).
-- **Ceramic IC packages**: Multilayer alumina with internal metallization (tungsten or molybdenum traces). Cofired at 1600°C in reducing atmosphere (prevents oxidation of W/Mo metallization). Hermetic seal with metal lid (Au-Sn solder). Superior to plastic packages for high-reliability applications (military, aerospace, high-temperature).
-
-**Seals and components**:
-- **Mechanical seals**: Silicon carbide or alumina seal faces (hard, wear-resistant, chemically inert). For pumps handling corrosive chemicals (HF, HNO₃, solvents in semiconductor fab).
-- **Vacuum components**: Alumina insulators (feedthroughs — carry electrical conductors through vacuum chamber wall while maintaining vacuum seal). Alumina or boron nitride (BN) supports for hot filaments.
-
-## Integration Points
+### Integration Points
 
 | Phase | Contribution |
 |-------|-------------|
-| Metallurgy | Fireclay refractories for kilns, furnaces, crucibles; basic pottery |
-| Machine Tools | Improved refractories (high-alumina), precision ceramic forming, insulators for electrical equipment |
-| Energy | Carbon/graphite refractories, ceramic insulation for steam boilers |
-| Chemistry | Magnesia, zirconia, silicon carbide refractories; alumina cement; advanced ceramic processing |
-| Vacuum & Optics | Fused silica crucibles, vacuum-compatible ceramics, ceramic fiber insulation |
-| Silicon | High-purity alumina furnace components, CZ hot zone insulation |
-| Photolithography | Ceramic IC packages, alumina substrates, cleanroom-compatible ceramic seals |
+| Stone Tools | Basic pottery for storage, cooking, water transport |
+| Agriculture | Storage vessels for grain, oil, wine; irrigation pipes |
+| Metallurgy | Crucibles for metal melting; fireclay bricks for furnaces and kilns; furnace linings |
+| Machine Tools | Precision-molded refractory shapes; kiln furniture; insulators for early electrical work |
+| Energy | Fireclay boiler linings; chimney flues; insulating brick for steam plant construction |
+| Chemistry | Acid-resistant containers; distillation apparatus; reaction vessels; retorts |
+| Glass & Optics | Kiln furniture for glass annealing; refractory pots for glass melting |
 
-## Key Deliverables
+### Safety & Hazards
 
-- Fireclay refractory brick production for all furnace and kiln construction
-- High-alumina refractories for silicon processing temperatures (>1500°C)
-- Silicon carbide heating elements for electric furnaces
-- Alumina technical ceramics (insulators, substrates, wear parts)
-- Fused silica crucibles for CZ crystal growth (from the Vacuum & Optics stage)
-- Ceramic fiber insulation for lightweight, efficient furnace construction
-- Alumina multilayer ceramic IC packages (Photolithography)
+- **Silica dust inhalation**: Clay processing (drying, crushing, grinding) and tempering with sand or grog generates respirable crystalline silica dust. Silicosis is an irreversible, progressive lung disease. Wear particulate respirators (P100) during dry clay processing. Use wet methods (slaking, wet grinding) whenever possible. Work outdoors or with ventilation.
+- **Kiln burns and heat exposure**: Pottery kilns fire at 900-1400°C. Loading/unloading even warm kilns causes severe contact burns. Wear heavy leather or heat-resistant gloves. Allow adequate cooling before handling ware.
+- **Steam explosions**: Moisture trapped in green (unfired) ware expands violently when heated. If pots are not fully bone-dry before firing, trapped water flashes to steam and shatters the pot — ejecting sharp fragments. Pre-heat slowly and never load wet ware.
+- **Carbon monoxide**: Wood and charcoal-fired kilns produce CO, especially during reduction firing (deliberately fuel-rich atmosphere). CO is odorless and lethal. Fire kilns in open or well-ventilated areas. Use CO detectors in enclosed spaces. Headache, nausea, or dizziness near a firing kiln = evacuate immediately.
+- **Lead glaze toxicity**: Lead oxide (PbO) is a cumulative neurotoxin affecting the nervous system, kidneys, and reproductive system. Inhalation of lead dust during glaze mixing and lead fumes during firing are both hazardous. **Never use lead glazes on food-contact surfaces.** Use respiratory protection and gloves when handling lead compounds. Wash hands thoroughly after any contact.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Ceramics & Refractories](./) • [All Domains](../)*

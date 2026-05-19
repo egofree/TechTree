@@ -49,3 +49,13 @@
 - **Thatched roof**: Bundle reed, straw, or long grass (~60 cm bundles). Tie to roof poles with cordage, overlapping from eave to ridge like shingles. 30-40 cm thatch depth sheds water for 20-30 years. Roof pitch minimum 45° for water run-off.
 ---
 
+### Safety & Hazards
+
+- **Sharp tool injuries**: Stone and metal edges cause lacerations. Always cut away from body. Keep edges sharp (dull tools require more force and slip more often). Leather hand protection for chopping/splitting.
+- **Birch tar burns**: Birch tar production involves heating bark to 300-400°C. Hot tar causes severe burns — it sticks to skin and continues burning. Handle with long tools. Cool burns with water.
+- **Eye protection**: Stone knapping produces sharp flakes that fly in unpredictable directions. Eye protection essential during flintknapping. Work in clear area.
+- **Fire hazards**: Birch tar is flammable. Hafting involves heating pitch near open flame. Keep water or sand nearby for fire suppression.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Foundations](./) • [All Domains](../)*

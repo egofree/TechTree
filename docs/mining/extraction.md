@@ -9,14 +9,14 @@
 
 **Surface mining (open pit)**:
 - **Planning**: Strip overburden (soil + useless rock) to expose ore body. Bench height 5-15 m. Bench width = height × slope angle (typically 45-70°). Road access on each bench for haulage.
-- **Overburden removal**: Hand shovels and wheelbarrows (Foundations), animal-drawn scrapers (Metallurgy), steam or diesel shovels (Energy+). Ratio: overburden-to-ore should be <3:1 for economic viability.
+- **Overburden removal**: Hand shovels and wheelbarrows (Foundations), animal-drawn scrapers (Metallurgy), steam or diesel shovels. Ratio: overburden-to-ore should be <3:1 for economic viability.
 - **Ore extraction**: Break rock with wedges, fire-setting, or explosives (black powder from the Chemistry stage: KNO₃ + S + C at 75:10:15 ratio). Load into carts by hand. Haul to processing area.
 - **Reclamation**: Backfill exhausted pits with overburden. Re-contour and re-vegetate to prevent erosion.
 
 **Placer mining (stream deposits)**:
 - **Panning**: Fill shallow pan with gravel, agitate underwater. Heavy minerals settle to bottom. Gold, cassiterite (tin), magnetite (iron) concentrate. One pan processes ~10 kg gravel in 5-10 minutes.
 - **Sluice box**: Wooden trough 2-5 m long, 30-50 cm wide, with riffles (cross-bars) on bottom. Gravel shoveled in at head, water carries material through. Heavy particles trap behind riffles. Clean riffles periodically. 50-100x faster than panning.
-- **Hydraulic mining** (Energy+): Direct high-pressure water jet at hillside to wash gold-bearing gravel through sluice. Requires significant water supply and pressure (20-50 m head).
+- **Hydraulic mining**: Direct high-pressure water jet at hillside to wash gold-bearing gravel through sluice. Requires significant water supply and pressure (20-50 m head).
 
 **Shaft mining** (underground):
 - **Shaft sinking**: Dig vertical shaft, typically 2-3 m × 1.5-2 m (enough for one-way traffic + bucket winding). Line walls with timber (oak or pine, 15-25 cm diameter) or stone/brick for permanent shafts. Shaft compartments: one for winding (ore/people), one for ventilation, one for pumping.
@@ -36,7 +36,7 @@
 **Fire-setting** (ancient technique for hard rock):
 - Build hot fire against rock face. Burn 2-4 hours. Rock face reaches 400-600°C. Dash with cold water (or let air cool). Thermal shock cracks rock 5-15 cm deep. Break weakened rock with picks and wedges. Very effective on granite, quartz, hard ores. Consumes enormous wood/charcoal — use sparingly.
 
-**Black powder blasting** (Chemistry+):
+**Black powder blasting**:
 - **Composition**: 75% KNO₃ (potassium nitrate), 15% charcoal, 10% sulfur. Grind each component separately (NEVER together), mix by tumbling in cloth bag. KNO₃ from cave deposits, saltpeter beds (nitrate-rich soil + urine/manure + lime, leach and crystallize), or guano.
 - **Black powder manufacture**:
   1. Pulverize each ingredient separately to fine powder (~100 mesh).
@@ -56,7 +56,7 @@
 
 **Mechanical ventilation**:
 - **Bellows**: Large forge bellows at shaft entrance force air underground. Intermittent flow, limited volume.
-- **Fan ventilation** (Machine Tools+): Centrifugal fan (wooden or iron blades in scroll housing), driven by water wheel or steam engine. 5-50 m³/second airflow. Adjustable louvers control flow. Much more reliable than natural ventilation.
+- **Fan ventilation**: Centrifugal fan (wooden or iron blades in scroll housing), driven by water wheel or steam engine. 5-50 m³/second airflow. Adjustable louvers control flow. Much more reliable than natural ventilation.
 - **Air requirements**: Minimum 0.05 m³/second per underground worker. More if blasting (fumes clearance). Replace total mine air volume every 10-30 minutes.
 
 **Gas detection**:
@@ -82,7 +82,7 @@
 
 **Whim (horse whim)**: Vertical drum (6-10 m diameter) turned by horse walking in circle. Rope winds on drum, lifts bucket from shaft. Depth 50-100 m. Load 200-500 kg. One horse provides ~3-4 HP.
 
-**Steam winding engine** (Energy+): Horizontal steam engine drives winding drum. Speed 5-15 m/second. Depth 200-500+ m. Load 1-5 tonnes per skip. Guides (wooden or iron rails in shaft) prevent cage rotation. Safety brake (friction brake on drum, held off by steam pressure — loss of pressure = automatic brake application).
+**Steam winding engine**: Horizontal steam engine drives winding drum. Speed 5-15 m/second. Depth 200-500+ m. Load 1-5 tonnes per skip. Guides (wooden or iron rails in shaft) prevent cage rotation. Safety brake (friction brake on drum, held off by steam pressure — loss of pressure = automatic brake application).
 
 **Underground transport**:
 - **Wheelbarrows**: 50-100 kg capacity. One man. For short distances.
@@ -91,7 +91,7 @@
 ### Mine Safety & Operations
 
 **Ground control**:
-- **Rock bolting** (Machine Tools+): Steel rod (2-3 m long, 20-25 mm diameter) inserted into drilled hole, anchored mechanically (expanding shell) or with cement grout. Supplements timber support in hard rock. Plate washer on exposed end distributes load.
+- **Rock bolting**: Steel rod (2-3 m long, 20-25 mm diameter) inserted into drilled hole, anchored mechanically (expanding shell) or with cement grout. Supplements timber support in hard rock. Plate washer on exposed end distributes load.
 - **Roof inspection**: Sound the roof with a bar — solid rock rings, loose rock thuds. Scale (knock down) loose rock before working. Torch inspection for cracks, water seepage, joint separation. Daily checks at working faces.
 - **Cribbing**: Square timber frames stacked like a pyramid to support voids and stabilize large openings. Used at shaft stations, junctions, and wide chambers.
 
@@ -99,3 +99,7 @@
 - **Scaling**: After each blast, bar down loose rock from roof and walls before crew re-enters. The single most important safety practice underground.
 - **Water control**: Grade all tunnels 1-3° toward shaft for gravity drainage. Sumps at shaft bottom. Pump capacity must exceed maximum inflow rate. Monitor water levels in worked-out areas — sudden inrush is a major hazard.
 
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Mining](./) • [All Domains](../)*

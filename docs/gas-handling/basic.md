@@ -45,6 +45,17 @@
 - **Hydrostatic testing**: Pressurize cylinder with water to 5/3 of working pressure every 5-10 years. Measure permanent expansion (<10% of total expansion). Reject if exceeds limit or if visual inspection finds corrosion, dents, or fire damage.
 - **Valve types**: CGA (Compressed Gas Association) standard connections — each gas type has a unique thread/pin pattern to prevent cross-connection (e.g., CGA 580 for inert gases, CGA 350 for flammable gases, CGA 540 for oxygen). Valve outlet threads are right-hand for non-fuel gases and left-hand for fuel gases as an additional safety check.
 - **Filling procedure**: Weigh cylinder to determine empty weight (tare). Fill by weight or pressure, accounting for gas compressibility factor. Never exceed stamped fill pressure.
+### Safety & Hazards
+
+**Compressed gas cylinder safety**:
+- **Securing cylinders**: Cylinders must be chained or strapped to a wall, bench, or cylinder cart at all times — both in storage and in use. An unsecured cylinder knocked over can snap the valve off, turning the cylinder into an unguided projectile (a 50 kg cylinder at 200 bar contains enough energy to penetrate a concrete wall). Use two chains: one at upper third, one at lower third of cylinder body.
+- **Pressure regulator use**: Always use the correct regulator for the gas type (CGA connection matching). Never force a regulator onto a mismatched fitting. Open cylinder valve slowly — sudden pressurization can damage the regulator diaphragm or cause adiabatic compression heating (fire hazard with oxygen). Stand to the side of the regulator when opening the cylinder valve, not in front of the gauge face (glasses can blow out). Never use oil or grease on oxygen fittings — spontaneous ignition. Release adjusting screw (close regulator) before opening cylinder valve, then set downstream pressure.
+- **Ventilation for toxic gases**: Gases like CO, H₂S, NOx, and chlorine require use in ventilated enclosures or gas cabinets with continuous exhaust. Gas detection alarms for the specific gas must be installed. Scrubbers or absorbers on exhaust for toxic gas cylinders. Emergency shutoff valves accessible from outside the work area.
+
+**Asphyxiation risk from inert gases**: Nitrogen, argon, helium, and CO₂ are inert to chemical interaction but displace oxygen in confined spaces. A nitrogen leak in an unventilated room can reduce O₂ from 21% to below 10% without any sensation of breathlessness (the human breathing reflex is triggered by CO₂ buildup, not O₂ depletion — inert gas asphyxiation causes euphoria, confusion, and unconsciousness with no warning signs). At <6% O₂, loss of consciousness in seconds, death in minutes. O₂ monitoring alarms required in confined spaces and rooms with large inert gas storage. Never enter a confined space where inert gas may be present without atmospheric testing.
+
+**Gas identification and labeling**: Every cylinder must be clearly labeled with contents, hazard class, and NFPA diamond. Color-coding alone is unreliable — different suppliers use different color schemes. Never assume cylinder contents from color; always read the label. Store incompatible gases separately (flammables from oxidizers, toxics from everything). Empty cylinders should be marked "MT" and returned to supplier — never mix gases by refilling with a different product.
+
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Gas Handling](./) • [All Domains](../)*

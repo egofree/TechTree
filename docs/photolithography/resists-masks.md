@@ -76,4 +76,4 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../) • [Photolithography](./) • [All Domains](../)*

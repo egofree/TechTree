@@ -22,15 +22,10 @@
 - **Production methods**:
   - **Type I (fused quartz)**: Melt natural quartz crystal in electric furnace (resistance-heated graphite or tungsten crucible, 1700-2000°C) under vacuum or inert atmosphere. Produces translucent or transparent fused silica. Bubble-free material requires vacuum degassing during melt.
   - **Type II (fused silica from flame)**: Feed quartz powder into hydrogen-oxygen flame (~2000°C). Particles fuse into clear boule. Very pure (flame volatilizes some impurities). Requires H₂ and O₂ (from the Energy stage electrolysis).
-  - **Synthetic fused silica** (highest purity, Photolithography+): Burn SiCl₄ in H₂/O₂ flame → SiO₂ deposits as soot → consolidate at 1500°C. 99.9999%+ purity. Requires chlorosilane chemistry from the Silicon stage.
+  - **Synthetic fused silica** (highest purity): Burn SiCl₄ in H₂/O₂ flame → SiO₂ deposits as soot → consolidate at 1500°C. 99.9999%+ purity. Requires chlorosilane chemistry from the Silicon stage.
 - **Properties**: Thermal expansion 0.5×10⁻⁶/°C (virtually immune to thermal shock — can be heated red-hot and plunged into water). Transparent from UV (180 nm) through visible to IR (3.5 μm). Softening point ~1600°C. Working range 1800-2100°C.
 - **Working**: Requires hydrogen-oxygen torch (3400°C flame temperature). Oxy-acetylene barely sufficient. Graphite tools for shaping (won't stick to silica). Patience — silica is very viscous even at working temperature.
 - **Applications**: CZ crystal growth crucibles (consumable — dissolves slowly in molten silicon), UV optics, high-temperature windows, optical fiber preforms (much later).
-
-**Glass tubing production**:
-- **Drawing from molten glass**: Gather molten glass on hollow iron blowpipe. Blow initial bubble. While rotating, pull the bubble to draw tube of desired diameter (~5-30 mm OD). Cool while rotating to maintain roundness. Cut to length. Anneal.
-- **Danner machine** (continuous tube drawing, Energy+ powered): Molten glass flows onto rotating inclined mandrel. Glass forms tube around mandrel. Drawn off by tractor belts at controlled speed. Speed determines wall thickness. Diameter 3-50 mm. Continuous lengths 10+ meters.
-- **Applications**: Thermometer tubing, condenser tubes, vacuum tube envelopes, chemical apparatus, fluorescent lamp tubes.
 
 **Glassworking techniques**:
 - **Cutting**: Score with diamond or hardened steel wheel, snap. Or hot-wire cut (nichrome wire heated to ~600°C — thermal stress cracks glass along wire line).
@@ -59,12 +54,18 @@
 - **Sintering**: Fire dried green body in electric furnace at 1700-1800°C under vacuum or inert atmosphere. Holds 2-8 hours. Shrinkage ~15-20%. Transparency of finished crucible directly indicates purity — cloudy or opaque regions contain bubbles, crystalline inclusions, or impurities.
 - **Final dimensions**: Wall thickness 5-10 mm, diameter 200-450 mm for semiconductor use. Thicker walls last longer in CZ pull but reduce thermal responsiveness. Handle with clean gloves — surface contamination transfers to silicon melt.
 
-**Glass tubing production — Danner process** (continuous, Energy+ powered):
+**Glass tubing production — Danner process** (continuous):
 - Molten glass flows from furnace forehearth onto a rotating inclined refractory mandrel (hollow ceramic cylinder, tilted ~15° from horizontal, rotating at 5-20 RPM). Glass wraps around mandrel forming a ribbon.
 - Air blown through hollow mandrel center inflates the glass ribbon into a tube. Air pressure and draw speed control inner diameter. Mandrel diameter sets minimum bore.
 - Tube drawn off continuously by tractor belts or rollers at controlled speed (1-20 m/min). Speed determines wall thickness — faster draw = thinner walls.
 - Tube cools while being drawn (10+ meters of travel). Cut to length by scoring and snapping. Annealed in lehr before packaging.
 - Produces tubing 3-50 mm OD in continuous lengths. Wall thickness tolerance ±0.1 mm with good process control.
----
 
-*Part of the [Bootciv Tech Tree](../) • [All Domains](../)*
+### Safety & Hazards
+
+- **Extreme-temperature glassworking**: Borosilicate melts at 1500-1600°C; fused silica requires 1700-2100°C working temperatures. Hydrogen-oxygen torches produce flame temperatures of ~3400°C. At these temperatures, severe burns occur on brief skin contact and radiation burns are possible at close range. Wear heat-resistant gloves, arm guards, face shield, and closed-toe boots. Use appropriate eye protection — intense visible and infrared radiation from molten silica and oxy-hydrogen flames can cause retinal damage (welding-grade shaded lenses for fused silica work).
+- **Lead and heavy metal toxicity from glass additives**: Glazes and specialty glasses use lead oxide (PbO) as a flux, along with cobalt, manganese, and other metal oxide colorants. Lead oxide is toxic by inhalation (dust) and ingestion — causes cumulative neurological, renal, and reproductive damage. Handle all glass batch powders containing lead, cobalt, or barium with gloves and respiratory protection. Weigh and mix in ventilated areas. Wash hands thoroughly before eating or drinking.
+- **Chlorosilane hazards in synthetic fused silica**: The synthetic fused silica process burns SiCl₄ in a hydrogen-oxygen flame. Silicon tetrachloride is corrosive, reacts violently with moisture to produce hydrochloric acid fumes, and causes severe respiratory damage. Handle only in closed, well-ventilated systems with acid-resistant equipment. Emergency response: flood exposed skin or eyes with copious water for 15+ minutes; move to fresh air if inhaled.
+- **Hydrogen gas explosion risk**: Hydrogen-oxygen torch systems and furnaces used for fused silica work involve stored or piped hydrogen gas. Hydrogen forms explosive mixtures with air at 4-75% concentration and ignites with very low energy. Leak-test all connections before each use. Store cylinders away from heat and ignition sources. Never use hydrogen in unventilated spaces. In case of hydrogen fire, shut off gas supply if safely possible — do not attempt to extinguish a hydrogen flame without stopping the gas flow.
+
+*Part of the [Bootciv Tech Tree](../) • [Glass](./) • [All Domains](../)*

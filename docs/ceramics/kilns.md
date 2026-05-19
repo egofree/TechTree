@@ -34,4 +34,47 @@
 **Kiln furniture and loading**:
 - **Shelves and supports**: Kiln shelves (flat fired clay slabs, 1-2 cm thick) supported on stilts (tripod clay posts). Stack multiple layers within ware chamber. Maximize loading density while maintaining flame path around each piece.
 - **Saggars** (for glaze firing): Fired clay boxes that enclose individual pots. Protect glaze from direct flame contact and ash deposit. Stack saggar towers inside kiln. Essential for clean glazed ware in wood-fired kilns.
+
+### Temperature Measurement & Control
+
+**Pyrometric cones (Seger cones / Orton cones)**:
+- Small triangular pyramids (~6 cm tall) made from calibrated clay-glass mixtures with known softening temperatures. Numbered in a standard series (cone 022 ≈ 600°C through cone 42 ≈ 2000°C). Place 3-4 cones of successive ratings in the kiln near spy hole. As each cone bends (tip touches base), the corresponding temperature has been reached. Cone deformation depends on both temperature and time-at-temperature (heat work), making them more relevant to actual ceramic firing than spot temperature measurements.
+- **Digital pyrometry**: Type K thermocouple (chromel-alumel) reads up to 1250°C, Type S (platinum-rhodium) reads up to 1600°C. Insert probe through kiln wall into ware chamber. Millivolt signal proportional to temperature.
+
+**Firing schedule thermodynamics**:
+- Heat input must overcome three sinks: heating the ware (specific heat ~0.8-1.0 kJ/kg·°C for dry clay), driving off chemically combined water (endothermic, 100-600°C, ~500 kJ/kg of clay), and radiation/convection losses through kiln walls. Wall losses dominate above 800°C — a poorly insulated kiln at 1200°C may lose 60-70% of heat input through the walls.
+- **Reduction atmosphere**: Restrict air supply during high-fire phase (close dampers partially). CO and unburned hydrocarbons reduce iron oxides from Fe₂O₃ (red/brown) to FeO (gray/black, melts at lower temperature). Used in stoneware and celadon glazes. Detect by flame color: yellow-orange with smoky tips = reducing.
+
+### Tunnel Kiln (Continuous Firing)
+
+**Tunnel kiln design**: Long horizontal tunnel (20-100+ m long, 1-3 m wide, 1-2 m high). Ware travels on kiln cars (refractory-topped rail carts) through three zones:
+- **Preheat zone** (first 1/3): Waste heat from cooling zone preheats incoming ware via counterflow. Recuperative design dramatically reduces fuel consumption. Temperature ramps from ambient to ~800°C.
+- **Firing zone** (middle 1/3): Burners (gas, oil, or solid fuel) along sides and top. Peak temperature 900-1400°C depending on product. Atmosphere control (oxidizing or reducing) via air/fuel ratio.
+- **Cooling zone** (final 1/3): Ambient air enters at exit, cools ware progressively. Heated air from cooling is ducted to preheat zone or used for drying rooms. Total cycle: 12-48 hours depending on product.
+
+**Advantages over batch kilns**:
+- Continuous production — not batch. Higher throughput.
+- Fuel efficiency: 30-50% less fuel per kg of product vs batch kilns (heat recovery from cooling zone).
+- Uniform temperature profile — every piece gets identical firing schedule.
+- Automated or semi-automated operation with kiln car pusher mechanism.
+
+**Construction requirements**:
+- Refractory brick lining (firebrick or insulating firebrick). Steel outer shell with structural supports.
+- Kiln cars with refractory deck and steel frame. Rails through the tunnel.
+- Burner system: gas burners preferred (precise control). Oil burners possible. Solid fuel requires grate design.
+- Damper sections between zones to control atmosphere and heat flow.
+- This is an industrial-scale investment — requires significant refractory brick production and mechanical engineering.
+- **Throughput**: A medium tunnel kiln (30 m) can fire 5-15 tonnes of brick or tile per day. Car spacing and push rate determine total cycle time.
+- **Products**: Ideal for standardized products — bricks, roof tiles, sanitary ware, tableware. Less suitable for one-off art pieces (batch kilns better for variable loads).
+- **Sealing**: Kiln car sand seals (sand trough around car base, sand poured into gap) prevent air infiltration between cars. Loss of seal = uneven firing and excess fuel use.
+
+### Safety & Hazards
+
+- **Carbon monoxide poisoning**: Wood and charcoal-fueled kilns produce CO in enclosed spaces. CO is odorless and lethal at 0.1% concentration. Ventilate all kiln areas — work outdoors or with forced draft. Install CO detectors in enclosed firing spaces.
+- **Thermal burns**: Kiln surfaces exceed 1000°C internally and outer surfaces can reach 200-400°C. Use long tongs and heat-resistant gloves for loading/unloading. Allow adequate cooling before opening. Mark hot zones clearly.
+- **Silica dust (silicosis)**: Dry clay mixing, grog crushing, and fireclay handling generate respirable crystalline silica. Prolonged inhalation causes irreversible lung scarring (silicosis). Wear particulate respirators (P100), wet-mix clays when possible, use local exhaust ventilation for dry processing.
+- **Fuel hazards**: Wood and charcoal stores are fire risks. Keep fuel separated from kilns by clear distance. Have sand and water buckets for fire suppression. Never use liquid accelerants.
+
 ---
+
+*Part of the [Bootciv Tech Tree](../) • [Ceramics & Refractories](./) • [All Domains](../)*

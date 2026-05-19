@@ -104,3 +104,7 @@ The CZ puller combines extreme heat, high electrical current, precision mechanis
 - **Pull rod mechanical failure**: The seed holder and pull rod support the full crystal weight (10-30 kg) at up to 1200 mm from the drive mechanism. A rod fracture or collet slip drops the crystal into the melt — causes splashing of molten silicon and potential crucible fracture. Rod straightness and thread integrity must be inspected before each run. Pull rod fatigue limit: replace after manufacturer-specified number of cycles.
 - **Rotation mechanism hazards**: Counter-rotating seed (5-15 RPM) and crucible (3-10 RPM) create pinch points. The crucible rotation drive is below the furnace — access during operation is prohibited. Guards on all rotating components. Emergency stop accessible from operator position.
 - **Burn hazards**: Chamber walls are water-cooled but internal graphite components remain at >1400°C. Even after power-off, thermal mass keeps the hot zone above 1000°C for hours. Cool-down period mandatory before chamber entry. Thermal gloves rated to 500°C for any post-run internal access.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Silicon](./) • [All Domains](../)*

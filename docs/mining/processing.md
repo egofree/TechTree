@@ -14,7 +14,7 @@
 
 **Classification equipment**:
 - **Vibrating screens**: Perforated plate or wire mesh on vibrating frame. Classify crushed ore into size fractions. Inclined deck, eccentric drive mechanism. Screen aperture 1-50 mm. Oversize returns to crusher, undersize proceeds to next stage.
-- **Hydrocyclones** (Machine Tools+): Cone-shaped vessel. Pulp fed tangentially under pressure — centrifugal force throws coarse particles to wall (underflow), fine particles exit center (overflow). Cut point 5-250 μm, adjustable by feed pressure and vortex finder diameter. No moving parts. Compact and high-capacity.
+- **Hydrocyclones**: Cone-shaped vessel. Pulp fed tangentially under pressure — centrifugal force throws coarse particles to wall (underflow), fine particles exit center (overflow). Cut point 5-250 μm, adjustable by feed pressure and vortex finder diameter. No moving parts. Compact and high-capacity.
 - **Spiral classifiers**: Wide inclined trough with rotating spiral blade. Pulp flows in at lower end. Coarse particles settle and are screw-conveyed uphill (sands product). Fine particles remain suspended and overflow the weir (slimes product). Settling velocity separation by particle size and density.
 
 **Gravity separation**:
@@ -24,14 +24,14 @@
 - **Panning**: Final concentration. Same technique as placer mining.
 - **Jig**: Piston-driven water pulsation through a screen bed of ore. Stroke 2-6 mm, 100-300 cycles/min. Upstroke lifts bed, particles settle by specific gravity on downstroke. Heavy ore collects through screen into hutch, light gangue overflows. Suitable for coarse ore 2-20 mm. Recovery 85-95% for dense minerals.
 
-**Flotation** (Chemistry+):
+**Flotation**:
 - Crush and grind ore to 50-200 μm. Mix with water to form slurry (25-40% solids). Add collector chemicals — xanthates for sulfide minerals (attach to mineral surface, make it hydrophobic). Add frother (pine oil or MIBC) to stabilize bubbles. Inject air — bubbles carry hydrophobic mineral particles to surface, forming mineralized froth. Skim froth as concentrate. Gangue remains in slurry (tailings). Recovery rates 85-95% for sulfide ores (copper, lead, zinc). Requires multiple cleaning stages for high grade. pH control with lime critical for selectivity.
 
-**Leaching methods** (Chemistry+):
+**Leaching methods**:
 - **Heap leaching**: Stack crushed ore (5-25 mm) on impermeable pad (clay + plastic membrane). Drip cyanide solution (0.01-0.05% NaCN) for gold, or sulfuric acid for copper oxide ores. Solution percolates through heap over weeks to months. Pregnant solution collected at base. Recovery 70-85%. Low capital cost, slow processing.
 - **Tank leaching**: Agitated tanks (pachuca or mechanical agitator) with finely ground ore. Faster kinetics — hours to days vs weeks. Higher recovery 85-90% but more expensive (grinding, tank construction, agitator power). Carbon adsorption (activated carbon) or solvent extraction to recover dissolved metals.
 
-**Magnetic separation** (Energy+): Magnetite (Fe₃O₄) is naturally magnetic. Pass crushed ore past electromagnet or permanent magnet — magnetic particles deflect, non-magnetic waste continues straight. Effective for iron ore beneficiation.
+**Magnetic separation**: Magnetite (Fe₃O₄) is naturally magnetic. Pass crushed ore past electromagnet or permanent magnet — magnetic particles deflect, non-magnetic waste continues straight. Effective for iron ore beneficiation.
 
 **Tailings management**:
 - Tailings pond: Excavated or dammed basin downstream of processing plant. Fine waste slurry pumped in, solids settle, clarified water decanted and recycled. Dam construction from compacted earth or mine waste — engineered for stability. Water recycling critical — processing uses 2-10 m³ water per tonne ore.
@@ -43,3 +43,23 @@
 - **Iron ore**: Crush → magnetic separation (for magnetite) or gravity concentration (for hematite) → pelletize (roll fines into 10-15 mm balls with bentonite binder, fire at 1250°C) → feed blast furnace.
 - **Gold**: Crush → grind → cyanide leach (tank or heap) → carbon adsorption → desorption with hot caustic solution → electrowinning (plate gold onto steel wool cathodes) → smelt to doré bullion.
 - **Tin (cassiterite)**: Crush → gravity separation (jigs, sluices) → concentrate (60-70% Sn) → smelt with charcoal at 1200-1300°C.
+
+### Grinding Circuits
+
+**Ball mill**: Rotating cylinder (1-3 m diameter, 2-5 m length) loaded with steel or cast iron balls (25-100 mm diameter). Ore fed at one end, discharged at the other. Rotation speed: 60-80% of critical speed (speed at which centrifugal force holds balls against shell — calculated as 42.3/√D RPM where D = diameter in meters). Impact and attrition grind ore to 50-200 μm. Power consumption: 10-30 kWh per tonne. Operate in closed circuit with classifier — oversize returns to mill, undersize proceeds to concentration.
+
+**Rod mill**: Similar to ball mill but uses long steel rods instead of balls. Produces less slime (over-ground fines) than ball mills. Preferred for coarse grinding (feed 5-20 mm, product 0.5-5 mm). Rods cascade rather than cataract, giving more uniform grinding with less over-grinding of already-fine particles.
+
+### Electrostatic Separation
+
+- Used for separating minerals with different electrical conductivity or surface charge behavior. Feed dry, sized ore (75-500 μm) onto rotating drum charged to 20-40 kV. Conductive minerals (ilmenite, rutile, magnetite) acquire charge, repelled from drum surface and follow a different trajectory than non-conductive minerals (quartz, feldspar, zircon). Splitter plate divides the two streams. Effective for heavy mineral sand deposits (ilmenite, rutile, zircon, monazite). Multiple passes required for clean separation. Requires dry feed — moisture interferes with charging.
+
+### Safety & Hazards
+
+- **Cyanide (NaCN/KCN)**: Lethal dose ~200-300 mg oral. Blocks cellular respiration. Symptoms: headache, dizziness, seizures, cardiac arrest in 15-30 min. ANTIDOTE: Hydroxocobalamin or sodium thiosulfate + sodium nitrite. MUST have antidote available before handling. NEVER allow acid contact with cyanide (generates lethal HCN gas at 100 ppm). Keep process pH above 10.
+- **Mercury (Hg)**: Cumulative neurotoxin from amalgamation. Vaporizes at room temperature. Use in sealed retort. Never heat in open air.
+- **Silica dust**: Crushing/grinding ore generates crystalline silica dust causing silicosis. Respirators required. Wet methods preferred.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Mining](./) • [All Domains](../)*

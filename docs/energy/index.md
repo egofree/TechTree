@@ -10,8 +10,13 @@ Capabilities in this domain:
 - [Coal Mining & Combustion](coal.md) — Bituminous and anthracite coal mining, preparation, and combustion for steam generation and industrial heating.
 - [Coke Production](coke.md) — Beehive and by-product recovery coke ovens converting bituminous coal to coke (60-70% yield).
 - [Water Power](gravity.md) — Undershot and overshot water wheels (1-5 HP) using gravitational water flow for mechanical power.
-- [Steam Power](steam-power.md) — Newcomen atmospheric engine (5-15 HP, 0.
+- [Steam Power](steam-power.md) — Newcomen atmospheric engine (5-15 HP, 0.5-1% efficiency) and Watt separate condenser engine (10-100+ HP, 3-5% efficiency).
+- [Heat Engines](engine.md) — Internal and external combustion engines for mechanical power generation. Otto cycle (gasoline), diesel cycle, and gas turbine engines.
 - [Energy Storage & Diversification](storage.md) — Lead-acid batteries, nickel-iron batteries, mechanical storage (pumped hydro, flywheels, compressed air), energy diversification (hydroelectric, wind, solar PV, biomass), grid infrastructure, and UPS systems for semiconductor fab equipment.
 - [Wind Power](wind.md) — Windmills for mechanical power: grain grinding, sawing, and water pumping.
+- [Steam Turbines](steam-turbines.md) — Impulse and reaction steam turbines for large-scale continuous power generation at 30-40% thermal efficiency.
+- [Water Turbines](water-turbines.md) — Pelton, Francis, and Kaplan hydraulic turbines for efficient water power conversion.
+- [Pumped Hydroelectric Storage](pumped-hydro.md) — Reversible pump-turbine systems for grid-scale energy storage with 70-85% round-trip efficiency.
+- [Graphite Electrode Manufacturing](electrode-manufacturing.md) — Production of graphite electrodes for electric arc furnaces from petroleum coke and coal tar pitch.
 
 [↑ Back to Tech Tree](../index.md)

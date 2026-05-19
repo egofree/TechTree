@@ -41,3 +41,28 @@ The amount of twist directly determines yarn properties. Twist angle (angle betw
 - **High twist** (25-45°): Very strong, smooth, hard yarn. Used for warp (must withstand loom tension) and sewing thread. Crepe yarns use extremely high twist (60°+) to create lively, elastic fabrics.
 - **Rule of thumb**: Finer fibers and finer yarns require more turns per inch. A 2-ply yarn for general weaving: 8-12 tpi for wool, 12-20 tpi for cotton, 15-25 tpi for linen.
 
+### Fiber Preparation Before Spinning
+
+Before fiber can be spun, it must be cleaned, opened, and aligned:
+
+- **Wool**: Shear fleece → sort by quality (shoulder and back = finest, britch and belly = coarsest) → wash in warm water (40-50°C) with mild alkali (soap or ammonia) to remove lanolin (wool grease, ~10-30% of raw fleece weight) and dirt → rinse thoroughly → dry → tease (pull apart by hand to open locks). Lanolin recovered from wash water is useful for waterproofing and lubrication.
+- **Cotton**: Ginned (seeds removed by roller gin or saw gin) → willowed (beaten to open compressed bales and remove trash) → carded (see below).
+- **Flax (linen)**: Retted (soak stalks in water 5-14 days — bacteria dissolve pectin binding fibers to woody core) → break (crush woody core with flax brake) → scutch (beat with wooden blade to remove broken woody shives) → hackle (draw through iron combs to separate long line fibers from short tow). Line fibers produce fine, strong linen; tow produces coarse yarn for rope and sacking.
+
+**Carding** (aligning fibers for spinning):
+- **Hand cards**: Pair of rectangular paddles (10 × 20 cm) covered in card cloth (stiff wire teeth, 1-2 cm long, set in leather or rubber backing). Charge one card with teased fiber. Brush cards together — teeth pull fibers into parallel alignment. Transfer rolled rolag (cylindrical roll of carded fiber, 10-15 cm long, 3-5 cm diameter) from card. Each rolag feeds one spindle-full of yarn. Rate: 0.5-1 kg of carded fiber per hour.
+- **Drum carder** (Machine Tools): Rotating drum (20-40 cm diameter) covered with card cloth feeds against smaller roller. Continuous output as carded batt (flat sheet of aligned fiber). 5-10 kg/hour throughput. Significantly faster than hand carding.
+
+
+---
+
+### Safety & Hazards
+
+- **Spinning wheel injuries**: Rotating wheel and spindle can catch loose clothing, hair, or jewelry. Tie back long hair. No loose sleeves near wheel. Keep fingers clear of drive band and spindle.
+- **Fiber dust**: Carding and spinning generate fine fiber dust. Chronic inhalation of cotton dust causes byssinosis ("brown lung"). Work in ventilated areas. Respirator for cotton processing.
+- **Repetitive strain**: Spinning involves repetitive hand and arm motions. Take frequent breaks. Alternate tasks to prevent overuse injuries.
+- **Sharp carding tools**: Hand carders and drum carders have sharp wire teeth. Handle carefully. Use gloves when cleaning drum carders.
+
+---
+
+*Part of the [Bootciv Tech Tree](../) • [Textiles](./) • [All Domains](../)*

@@ -14,6 +14,7 @@
 <details class="sidebar__domain" open>
 <summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
 <ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
 <li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
 <li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
@@ -27,7 +28,8 @@
 <li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
 <li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
 <li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
-<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
 <li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
 <li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
@@ -51,6 +53,7 @@
 <li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
 <li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
 <li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
 <li><a href="../../docs/energy/gravity.html">Water Power </a></li>
 <li><a href="../../docs/energy/wind.html">Wind Power </a></li>
@@ -83,6 +86,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
 <li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
 <li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
 </ul>
 </details>
@@ -164,6 +168,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
 <li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
 <li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
 <li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
 </ul>
@@ -174,6 +179,7 @@
 <li><a href="../../docs/transport/aviation.html">Aviation </a></li>
 <li><a href="../../docs/transport/railways.html">Railways </a></li>
 <li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
 <li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
 </ul>
 </details>
@@ -193,6 +199,7 @@
 <p>Refractory materials (fireclay, high-alumina, silica, magnesia, zirconia, carbon), technical ceramics (alumina, silicon carbide), ceramic processing (ball milling, pressing, sintering, slip casting), ceramic insulation (fiber blanket, insulating firebrick), and semiconductor-specific ceramics (fused silica crucibles, alumina furnace components, ceramic IC packages). Also covers pottery, kilns, and lime production.</p>
 <h2>Capabilities</h2>
 <ul class="capability-list">
+<li><a href="../../docs/ceramics/advanced-ceramics.html"><strong>Advanced Ceramics & Refractories</strong></a><p>High-performance technical ceramics (alumina, zirconia, silicon carbide, silicon nitride) and refractory linings for furnaces, kilns, and high-temperature industrial processes</p></li>
 <li><a href="../../docs/ceramics/kilns.html"><strong>Kiln Construction</strong></a><p>Kiln construction: updraft, downdraft, and tunnel kilns for ceramic and lime firing.</p></li>
 <li><a href="../../docs/ceramics/lime.html"><strong>Lime Production</strong></a><p>Lime production by calcining limestone at 900-1000°C for mortar, whitewash, plaster, and chemical feedstock.</p></li>
 <li><a href="../../docs/ceramics/pottery.html"><strong>Pottery & Clay Products</strong></a><p>Clay identification, processing, tempering, forming (pinch, coil, slab), and basic firing. Produces containers, cooking vessels, and refractory linings.</p></li>
@@ -209,6 +216,7 @@ graph TD
         ceramics_pottery_kiln-firing[&quot;Kiln Firing&quot;]
         ceramics_kilns[&quot;Kiln Construction&quot;]
         ceramics_lime[&quot;Lime Production&quot;]
+        ceramics_advanced-ceramics[&quot;Advanced Ceramics &amp; Refractories&quot;]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -224,11 +232,15 @@ graph TD
     foundations_tools-basic(&quot;Stone &amp; Wood Tools&quot;)
     health_sanitation(&quot;Water Supply &amp; Sanitation&quot;)
     metals(&quot;Metals&quot;)
+    metals_iron-steel_blast-furnace(&quot;Blast Furnace and Cast Iron&quot;)
     mining(&quot;Mining Engineering &amp; Extractive Metallurgy&quot;)
     photolithography_cleanrooms(&quot;Cleanrooms&quot;)
+    silicon(&quot;Silicon&quot;)
 
     %% ==================== EDGES ====================
     ceramics_lime -.-&gt; ceramics_kilns
+    ceramics_advanced-ceramics -.-&gt; ceramics_pottery
+    ceramics_advanced-ceramics -.-&gt; ceramics_kilns
     energy_fuels_coal -.-&gt; ceramics_kilns
     energy_fuels_coke -.-&gt; ceramics_kilns
     chemistry_cement -.-&gt; ceramics_kilns
@@ -240,6 +252,9 @@ graph TD
     ceramics_pottery -.-&gt; foundations_tools-basic
     health_sanitation -.-&gt; ceramics
     ceramics_lime --&gt; mining
+    ceramics_advanced-ceramics --&gt; mining
+    silicon -.-&gt; ceramics_advanced-ceramics
+    metals_iron-steel_blast-furnace -.-&gt; ceramics_kilns
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend[&quot;Edge Types&quot;]
@@ -260,6 +275,7 @@ graph TD
     class ceramics_pottery_kiln-firing process
     class ceramics_kilns capability
     class ceramics_lime capability
+    class ceramics_advanced-ceramics critical
     class chemistry_cement external
     class energy_fuels_charcoal external
     class energy_fuels_coal external
@@ -269,8 +285,10 @@ graph TD
     class foundations_tools-basic external
     class health_sanitation external
     class metals external
+    class metals_iron-steel_blast-furnace external
     class mining external
     class photolithography_cleanrooms external
+    class silicon external
     class EdgeLegend,MatNote,ToolNote legend
 </pre></div>
 </main>

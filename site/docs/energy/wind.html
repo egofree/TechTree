@@ -14,6 +14,7 @@
 <details class="sidebar__domain">
 <summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
 <ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
 <li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
 <li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
@@ -27,7 +28,8 @@
 <li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
 <li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
 <li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
-<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
 <li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
 <li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
@@ -51,6 +53,7 @@
 <li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
 <li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
 <li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
 <li><a href="../../docs/energy/gravity.html">Water Power </a></li>
 <li class="active"><a href="../../docs/energy/wind.html">Wind Power </a></li>
@@ -83,6 +86,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
 <li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
 <li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
 </ul>
 </details>
@@ -164,6 +168,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
 <li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
 <li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
 <li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
 </ul>
@@ -174,6 +179,7 @@
 <li><a href="../../docs/transport/aviation.html">Aviation </a></li>
 <li><a href="../../docs/transport/railways.html">Railways </a></li>
 <li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
 <li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
 </ul>
 </details>
@@ -201,7 +207,7 @@
 <p><strong>Node ID</strong>: energy.wind
 <strong>Domain</strong>: <a href="./">Energy</a>
 <strong>Dependencies</strong>: <code>foundations</code>, <a class="node-ref" href="../../docs/metals/copper-bronze.html">metals.copper-bronze</a> or <a class="node-ref" href="../../docs/metals/iron-steel.html">metals.iron-steel</a>
-<strong>Enables</strong>: <a class="node-ref" href="../../docs/energy/steam-power.html">energy.steam-power</a> (millwright skills transfer), <code>agriculture</code> (grain milling), <code>water-systems</code> (pumping)
+<strong>Enables</strong>: <a class="node-ref" href="../../docs/energy/steam-power.html">energy.steam-power</a> (millwright skills transfer), <a class="node-ref" href="../../docs/foundations/food-agriculture.html">foundations.food-agriculture</a> (grain milling), <a class="node-ref" href="../../docs/health/sanitation.html">health.sanitation</a> (pumping)
 <strong>Timeline</strong>: Years 5-15
 <strong>Outputs</strong>: wind_power, mechanical_rotation, ground_grain, pumped_water</p>
 </blockquote>
@@ -286,7 +292,7 @@
 <ol>
 <li><strong>Select site</strong>: Elevated, unobstructed, prevailing wind direction. Measure wind for months if possible.</li>
 <li><strong>Build tower/foundation</strong>: Stone or timber. Must withstand full wind load on furled sails — worst case. Guy wires or struts for post mill.</li>
-<li><strong>Fabricate windshaft</strong>: Oak trunk (0.2-0.3 m diameter, 3-5 m long) or forged iron. Iron windshaft far superior — stronger, smaller, longer-lived. Requires <code>metallurgy.iron-steel</code>.</li>
+<li><strong>Fabricate windshaft</strong>: Oak trunk (0.2-0.3 m diameter, 3-5 m long) or forged iron. Iron windshaft far superior — stronger, smaller, longer-lived. Requires <a class="node-ref" href="../../docs/metals/iron-steel.html">metals.iron-steel</a>.</li>
 <li><strong>Build sail frames and install canvas or shutters</strong>: Balance all sails — uneven weight causes destructive vibration.</li>
 <li><strong>Install gear train</strong>: Brake wheel on windshaft, wallower on upright shaft. Mesh carefully — backlash causes hammering and rapid wear.</li>
 <li><strong>Connect to load</strong>: Millstones, saw, pump, or generator.</li>
@@ -354,7 +360,15 @@
 </tbody>
 </table>
 <hr />
-<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="../">All Domains</a></em></p>
+<h3>Safety &amp; Hazards</h3>
+<ul>
+<li><strong>Structural failure</strong>: Windmill towers and rotors are subject to extreme forces in high winds. Overspeed in storms can destroy rotors and throw debris hundreds of meters. Furling mechanism (turns rotor out of wind) or brakes must be functional. Never approach a windmill in high winds.</li>
+<li><strong>Height hazards</strong>: Windmill towers require climbing for maintenance. Fall protection needed. Ladders with rest platforms every 10m. Never climb in icy or high-wind conditions.</li>
+<li><strong>Rotating machinery</strong>: Windmill main shaft, gear train, and machinery move with significant force. Guard all rotating components. Disconnect or brake before maintenance.</li>
+<li><strong>Lightning</strong>: Tall windmill towers attract lightning. Ground the structure. Do not approach during electrical storms.</li>
+</ul>
+<hr />
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="./">Energy</a> • <a href="../">All Domains</a></em></p>
 
 </main>
 </div>

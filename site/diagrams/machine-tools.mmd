@@ -26,10 +26,13 @@ graph TD
     energy_electric-furnaces("Electric Furnaces")
     energy_electricity("Electricity Generation & Distribution")
     energy_fuels("Fuel Production")
+    energy_gravity_water-turbines("Water Turbines")
     energy_steam-power("Steam Power")
+    energy_steam-power_steam-turbines("Steam Turbines")
     foundations_fire("Fire-Making")
     gas-handling("Gas Handling")
     glass("Glass")
+    knowledge_printing("Paper and Printing Press")
     measurement("Measurement & Instrumentation")
     measurement_precision-metrology("Precision Metrology & Standards")
     metals("Metals")
@@ -80,6 +83,9 @@ graph TD
     machine-tools_forming --> metals_iron-steel
     machine-tools_forming --> energy_fuels
     computing_mechanical -.-> machine-tools
+    energy_steam-power_steam-turbines -.-> machine-tools_machining
+    energy_gravity_water-turbines -.-> machine-tools_machining
+    knowledge_printing -.-> machine-tools_machining
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -111,10 +117,13 @@ graph TD
     class energy_electric-furnaces external
     class energy_electricity external
     class energy_fuels external
+    class energy_gravity_water-turbines external
     class energy_steam-power external
+    class energy_steam-power_steam-turbines external
     class foundations_fire external
     class gas-handling external
     class glass external
+    class knowledge_printing external
     class measurement external
     class measurement_precision-metrology external
     class metals external

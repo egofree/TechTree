@@ -16,6 +16,9 @@ graph TD
         chemistry_petroleum-alternatives["Petroleum & Alternative Chemistry"]
         chemistry_lubricants["Lubricants, Oils & Fluid Mechanics"]
         chemistry_distillation["Distillation"]
+        chemistry_explosives["Explosives and Propellants"]
+        chemistry_petroleum-alternatives_fermentation["Fermentation Chemistry"]
+        chemistry_petroleum-alternatives_wood-gasification["Wood Gasification"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -25,7 +28,9 @@ graph TD
     ceramics_kilns("Kiln Construction")
     energy("Energy")
     energy_cooling("Cooling Systems & Refrigeration")
+    energy_electric-furnaces_electrode-manufacturing("Graphite Electrode Manufacturing")
     energy_electricity("Electricity Generation & Distribution")
+    energy_fuels_charcoal("Charcoal Production")
     energy_gravity("Water Power")
     energy_storage("Energy Storage & Diversification")
     energy_wind("Wind Power")
@@ -41,10 +46,12 @@ graph TD
     measurement("Measurement & Instrumentation")
     metals("Metals")
     mining("Mining Engineering & Extractive Metallurgy")
+    mining_extraction_black-powder("Black Powder Explosives")
     photolithography("Photolithography & IC Fabrication")
     photolithography_cleanrooms("Cleanrooms")
     photolithography_fab-processes("Core Fab Processes")
     photolithography_resists-masks("Photoresists, Masks & Lithography")
+    polymers_rubber_shellac("Shellac Production")
     polymers_rubber_synthetic("Synthetic Rubbers")
     polymers_thermoplastics("Thermoplastic Polymers")
     polymers_thermosets("Thermosetting Polymers")
@@ -54,12 +61,17 @@ graph TD
     silicon_purification("Silicon Purification")
     textiles_dyeing("Dyeing")
     transport_aviation("Aviation")
+    transport_telegraph("Telegraph Communication")
 
     %% ==================== EDGES ====================
     chemistry_hydrogen-silane --> chemistry_electrolysis
     chemistry_dopant-etch-gases --> chemistry_electrolysis
     chemistry_dopant-etch-gases -.-> chemistry
     chemistry_lubricants --> chemistry_petroleum-alternatives
+    chemistry_explosives --> chemistry_acids
+    chemistry_explosives --> chemistry_alkalis
+    chemistry_petroleum-alternatives_fermentation -.-> chemistry_petroleum-alternatives
+    chemistry_petroleum-alternatives_wood-gasification -.-> chemistry_petroleum-alternatives
     energy_gravity --> chemistry_lubricants
     energy_wind --> chemistry_lubricants
     machine-tools --> chemistry_lubricants
@@ -104,6 +116,11 @@ graph TD
     polymers_thermoplastics --> chemistry
     health_pharmacology -.-> chemistry_distillation
     textiles_dyeing --> chemistry
+    energy_electric-furnaces_electrode-manufacturing --> chemistry_petroleum-alternatives
+    mining_extraction_black-powder --> chemistry_explosives
+    transport_telegraph -.-> chemistry_acids
+    chemistry_explosives --> energy_fuels_charcoal
+    polymers_rubber_shellac --> chemistry_distillation
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -131,10 +148,15 @@ graph TD
     class chemistry_petroleum-alternatives capability
     class chemistry_lubricants critical
     class chemistry_distillation capability
+    class chemistry_explosives capability
+    class chemistry_petroleum-alternatives_fermentation process
+    class chemistry_petroleum-alternatives_wood-gasification process
     class ceramics_kilns external
     class energy external
     class energy_cooling external
+    class energy_electric-furnaces_electrode-manufacturing external
     class energy_electricity external
+    class energy_fuels_charcoal external
     class energy_gravity external
     class energy_storage external
     class energy_wind external
@@ -150,10 +172,12 @@ graph TD
     class measurement external
     class metals external
     class mining external
+    class mining_extraction_black-powder external
     class photolithography external
     class photolithography_cleanrooms external
     class photolithography_fab-processes external
     class photolithography_resists-masks external
+    class polymers_rubber_shellac external
     class polymers_rubber_synthetic external
     class polymers_thermoplastics external
     class polymers_thermosets external
@@ -163,4 +187,5 @@ graph TD
     class silicon_purification external
     class textiles_dyeing external
     class transport_aviation external
+    class transport_telegraph external
     class EdgeLegend,MatNote,ToolNote legend

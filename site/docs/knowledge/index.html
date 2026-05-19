@@ -14,6 +14,7 @@
 <details class="sidebar__domain">
 <summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
 <ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
 <li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
 <li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
@@ -27,7 +28,8 @@
 <li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
 <li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
 <li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
-<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
 <li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
 <li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
@@ -51,6 +53,7 @@
 <li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
 <li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
 <li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
 <li><a href="../../docs/energy/gravity.html">Water Power </a></li>
 <li><a href="../../docs/energy/wind.html">Wind Power </a></li>
@@ -83,6 +86,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
 <li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
 <li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
 </ul>
 </details>
@@ -164,6 +168,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
 <li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
 <li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
 <li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
 </ul>
@@ -174,6 +179,7 @@
 <li><a href="../../docs/transport/aviation.html">Aviation </a></li>
 <li><a href="../../docs/transport/railways.html">Railways </a></li>
 <li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
 <li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
 </ul>
 </details>
@@ -195,6 +201,7 @@
 <ul class="capability-list">
 <li><a href="../../docs/knowledge/education.html"><strong>Education & Training</strong></a><p>Apprenticeships, trade schools, universities, and systematic knowledge transmission.</p></li>
 <li><a href="../../docs/knowledge/libraries.html"><strong>Libraries & Information Systems</strong></a><p>Library construction, cataloging, preservation, and information retrieval systems.</p></li>
+<li><a href="../../docs/knowledge/printing.html"><strong>Paper and Printing Press</strong></a><p>Paper production from wood pulp or cotton/linen rag, and movable-type printing press for mass reproduction of text. Gutenberg-style press produces 200-500 impressions per hour. Essential for distributing technical knowledge: process recipes, engineering drawings, failure logs, educational materials across settlements and generations.</p></li>
 <li><a href="../../docs/knowledge/writing.html"><strong>Writing & Record-Keeping</strong></a><p>Development of writing systems, ink production, and record-keeping materials.</p></li>
 </ul>
 <h2>Dependency Diagram</h2>
@@ -208,6 +215,7 @@ graph TD
         knowledge_writing[&quot;Writing &amp; Record-Keeping&quot;]
         knowledge_education[&quot;Education &amp; Training&quot;]
         knowledge_libraries[&quot;Libraries &amp; Information Systems&quot;]
+        knowledge_printing[&quot;Paper and Printing Press&quot;]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -218,7 +226,10 @@ graph TD
     foundations_food-agriculture(&quot;Agriculture &amp; Food Production&quot;)
     foundations_tools-basic(&quot;Stone &amp; Wood Tools&quot;)
     health_medicine(&quot;Medicine &amp; Surgery&quot;)
+    machine-tools_machining(&quot;Machining&quot;)
+    metals_iron-steel(&quot;Iron &amp; Steel Production&quot;)
     mining_prospecting(&quot;Prospecting &amp; Surveying&quot;)
+    textiles_fibers(&quot;Fiber Preparation&quot;)
 
     %% ==================== EDGES ====================
     knowledge_education -.-&gt; knowledge_writing
@@ -229,6 +240,9 @@ graph TD
     knowledge_writing -.-&gt; foundations_food-agriculture
     health_medicine -.-&gt; knowledge_writing
     mining_prospecting -.-&gt; knowledge_writing
+    knowledge_printing -.-&gt; metals_iron-steel
+    knowledge_printing --&gt; textiles_fibers
+    knowledge_printing -.-&gt; machine-tools_machining
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend[&quot;Edge Types&quot;]
@@ -248,11 +262,15 @@ graph TD
     class knowledge_writing capability
     class knowledge_education capability
     class knowledge_libraries capability
+    class knowledge_printing earlyWin
     class foundations external
     class foundations_food-agriculture external
     class foundations_tools-basic external
     class health_medicine external
+    class machine-tools_machining external
+    class metals_iron-steel external
     class mining_prospecting external
+    class textiles_fibers external
     class EdgeLegend,MatNote,ToolNote legend
 </pre></div>
 </main>

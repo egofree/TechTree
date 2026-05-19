@@ -18,6 +18,7 @@ graph TD
     chemistry_hydrogen-silane("Hydrogen & Silane Production")
     energy("Energy")
     machine-tools("Machine Tools Bootstrap")
+    optics_inspection_optical-coatings("Optical Coatings")
     photolithography("Photolithography & IC Fabrication")
     photolithography_fab-processes("Core Fab Processes")
     silicon("Silicon")
@@ -35,6 +36,7 @@ graph TD
     photolithography_fab-processes -.-> gas-handling_vacuum
     chemistry_air-separation -.-> gas-handling_basic
     chemistry_hydrogen-silane -.-> gas-handling_basic
+    optics_inspection_optical-coatings -.-> gas-handling_vacuum
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -58,6 +60,7 @@ graph TD
     class chemistry_hydrogen-silane external
     class energy external
     class machine-tools external
+    class optics_inspection_optical-coatings external
     class photolithography external
     class photolithography_fab-processes external
     class silicon external

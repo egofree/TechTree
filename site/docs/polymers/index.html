@@ -14,6 +14,7 @@
 <details class="sidebar__domain">
 <summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
 <ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
 <li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
 <li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
@@ -27,7 +28,8 @@
 <li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
 <li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
 <li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
-<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
 <li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
 <li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
@@ -51,6 +53,7 @@
 <li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
 <li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
 <li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
 <li><a href="../../docs/energy/gravity.html">Water Power </a></li>
 <li><a href="../../docs/energy/wind.html">Wind Power </a></li>
@@ -83,6 +86,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
 <li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
 <li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
 </ul>
 </details>
@@ -164,6 +168,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
 <li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
 <li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
 <li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
 </ul>
@@ -174,6 +179,7 @@
 <li><a href="../../docs/transport/aviation.html">Aviation </a></li>
 <li><a href="../../docs/transport/railways.html">Railways </a></li>
 <li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
 <li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
 </ul>
 </details>
@@ -212,6 +218,8 @@ graph TD
         polymers_thermosets[&quot;Thermosetting Polymers&quot;]
         polymers_thermoplastics[&quot;Thermoplastic Polymers&quot;]
         polymers_composites[&quot;Composite Materials&quot;]
+        polymers_rubber_gutta-percha[&quot;Gutta-Percha Processing&quot;]
+        polymers_rubber_shellac[&quot;Shellac Production&quot;]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -219,6 +227,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry(&quot;Chemistry&quot;)
+    chemistry_distillation(&quot;Distillation&quot;)
     chemistry_packaging-testing(&quot;Semiconductor Packaging &amp; Testing&quot;)
     chemistry_petroleum-alternatives(&quot;Petroleum &amp; Alternative Chemistry&quot;)
     energy_storage(&quot;Energy Storage &amp; Diversification&quot;)
@@ -229,6 +238,8 @@ graph TD
 
     %% ==================== EDGES ====================
     polymers_composites --&gt; polymers_thermosets
+    polymers_rubber_gutta-percha -.-&gt; polymers_rubber
+    polymers_rubber_shellac -.-&gt; polymers_rubber
     photolithography_resists-masks --&gt; polymers_thermosets
     chemistry_packaging-testing --&gt; polymers_thermosets
     polymers -.-&gt; foundations
@@ -245,6 +256,7 @@ graph TD
     polymers_rubber_natural -.-&gt; foundations
     health --&gt; polymers_rubber
     energy_storage --&gt; polymers_rubber
+    polymers_rubber_shellac --&gt; chemistry_distillation
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend[&quot;Edge Types&quot;]
@@ -267,7 +279,10 @@ graph TD
     class polymers_thermosets capability
     class polymers_thermoplastics capability
     class polymers_composites capability
+    class polymers_rubber_gutta-percha process
+    class polymers_rubber_shellac process
     class chemistry external
+    class chemistry_distillation external
     class chemistry_packaging-testing external
     class chemistry_petroleum-alternatives external
     class energy_storage external

@@ -14,6 +14,7 @@
 <details class="sidebar__domain">
 <summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
 <ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
 <li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
 <li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
@@ -27,7 +28,8 @@
 <li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
 <li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
 <li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
-<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
 <li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
 <li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
@@ -51,6 +53,7 @@
 <li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
 <li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
 <li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
 <li><a href="../../docs/energy/gravity.html">Water Power </a></li>
 <li><a href="../../docs/energy/wind.html">Wind Power </a></li>
@@ -83,6 +86,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
 <li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
 <li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
 </ul>
 </details>
@@ -164,6 +168,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
 <li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
 <li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
 <li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
 </ul>
@@ -174,6 +179,7 @@
 <li><a href="../../docs/transport/aviation.html">Aviation </a></li>
 <li><a href="../../docs/transport/railways.html">Railways </a></li>
 <li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
 <li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
 </ul>
 </details>
@@ -231,6 +237,14 @@
 <p><strong>Point-contact diode</strong>: Sharpened tungsten or phosphor-bronze wire whisker pressed against n-type silicon crystal. Forms small p-type region at contact point (metal-semiconductor junction). Simple, requires no processing. Used for: rectifiers, radio detectors.</p>
 <p><strong>Alloy junction transistor</strong>: Place indium dots on both sides of thin n-type germanium or silicon wafer (~100-200 μm). Heat to 500-600°C. Indium alloys into semiconductor, creating p-type regions. Result: pnp transistor. Simple but low performance (low frequency, high leakage). Historically important (first transistors, 1950s).</p>
 <p><strong>Diffused transistor</strong>: Phosphorus diffused into p-type wafer through oxide mask window to form base and emitter. More controlled geometry. Requires: oxidation furnace, photolithography (or shadow masking), diffusion furnace. Bridge to the Photolithography stage planar process.</p>
+<h4>MOSFETs &amp; CMOS</h4>
+<p><strong>MOSFET structure</strong>: Metal-Oxide-Semiconductor Field-Effect Transistor. A gate electrode insulated from the semiconductor channel by a thin layer of SiO₂ (gate oxide). Source and drain regions are doped opposite to the substrate. Voltage on the gate creates an electric field that induces a conductive channel between source and drain — no current flows through the gate itself (unlike bipolar transistors). Two modes: <strong>enhancement mode</strong> (normally off, channel forms when gate voltage applied — the standard for logic) and <strong>depletion mode</strong> (normally on, channel forms at zero gate voltage, requires gate voltage to turn off — used for load resistors and analog switches).</p>
+<p><strong>NMOS</strong> (N-channel MOSFET): Electrons carry current in n-type channel induced in p-type substrate. Higher electron mobility (~2.5× hole mobility) means NMOS is faster and lower resistance than PMOS for the same geometry. Substrate is p-type silicon, source and drain are n+ doped regions. Gate voltage above threshold induces n-type inversion layer (channel) connecting source to drain. Dominant transistor for 1970s microprocessors (Intel 4004, 8080).</p>
+<p><strong>PMOS</strong> (P-channel MOSFET): Holes carry current in p-type channel induced in n-type substrate. Slower than NMOS due to lower hole mobility, but was actually developed first because it was easier to manufacture with early processing (contamination issues favored p-channel operation). Substrate is n-type silicon, source and drain are p+ doped regions. Used in combination with NMOS to form CMOS circuits.</p>
+<p><strong>CMOS</strong> (Complementary MOS): The key breakthrough that enabled VLSI. Uses NMOS and PMOS transistors in complementary pairs. In a CMOS inverter: when input is high, NMOS turns on and PMOS turns off → output pulled low. When input is low, PMOS turns on and NMOS turns off → output pulled high. In either steady state, only one transistor is on and there is no DC path from power to ground — <strong>near-zero static power dissipation</strong>. This is the fundamental advantage over NMOS-only logic (which draws static power through load transistors). Power consumption scales with switching frequency and capacitance only (P = fCV²). CMOS enabled billion-transistor chips that would be thermally impossible with NMOS alone.</p>
+<p><strong>Gate oxide</strong>: SiO₂ grown by thermal oxidation of silicon (dry O₂ at 900-1100°C or wet O₂/H₂O at 800-950°C). Thickness 5-50 nm depending on technology generation. Thinner oxide → stronger gate coupling → faster switching, but exponentially higher gate leakage current (quantum tunneling through oxide). Oxide quality is critical — even a single defect in the gate oxide can cause catastrophic breakdown (short circuit from gate to channel). Oxide integrity requires ultra-clean processing and careful handling.</p>
+<p><strong>Threshold voltage</strong> (Vth): Minimum gate-to-source voltage required to induce a conductive channel. Typically 0.5-1.5V. Controlled by substrate doping concentration (higher doping → higher Vth), oxide thickness (thinner oxide → lower Vth), and gate electrode material. Matching Vth between NMOS and PMOS transistors is essential for symmetric CMOS switching characteristics. Process variations in threshold voltage are a major yield limiter.</p>
+<p><strong>Scaling</strong> (Dennard scaling rules): Shrink all device dimensions (channel length, oxide thickness, junction depth) by factor k while scaling voltage by k. Result: transistors are k² times smaller (2× per generation → 4× more per chip), k times faster, and power density remains constant. This held from the 1970s to ~2006. Breakdown cause: as oxide thickness approached a few nm, gate leakage current from quantum tunneling became unacceptable. Voltage could no longer scale proportionally → power density increased → the &quot;power wall.&quot; Modern scaling continues geometry reduction but requires architectural workarounds (finFETs, multi-core, dark silicon).</p>
 <h3>Metallization &amp; Contacts</h3>
 <p><strong>Vacuum evaporation</strong> (simplest deposition method):</p>
 <ul>
@@ -259,7 +273,7 @@
 <li><strong>Vacuum chamber implosion</strong>: Evaporation and sputtering chambers are evacuated to 10⁻⁵-10⁻⁶ Torr. A flawed glass viewport or corroded chamber wall can implode violently. Inspect viewports for scratches or star cracks before each pump-down. Safety glasses at all times near evacuated chambers. Never exceed rated pressure differential.</li>
 </ul>
 <hr />
-<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="../">All Domains</a></em></p>
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="./">Silicon</a> • <a href="../">All Domains</a></em></p>
 
 </main>
 </div>

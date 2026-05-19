@@ -14,6 +14,7 @@
 <details class="sidebar__domain">
 <summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
 <ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
 <li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
 <li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
@@ -27,7 +28,8 @@
 <li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
 <li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
 <li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
-<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
 <li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
 <li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
@@ -51,6 +53,7 @@
 <li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
 <li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
 <li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
 <li><a href="../../docs/energy/gravity.html">Water Power </a></li>
 <li><a href="../../docs/energy/wind.html">Wind Power </a></li>
@@ -83,6 +86,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
 <li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
 <li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
 </ul>
 </details>
@@ -164,6 +168,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
 <li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
 <li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
 <li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
 </ul>
@@ -174,6 +179,7 @@
 <li><a href="../../docs/transport/aviation.html">Aviation </a></li>
 <li><a href="../../docs/transport/railways.html">Railways </a></li>
 <li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
 <li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
 </ul>
 </details>
@@ -194,7 +200,7 @@
 <div class="metadata-card__field"><span class="metadata-card__label">Domain</span><span class="metadata-card__value">optics</span></div>
 <div class="metadata-card__field"><span class="metadata-card__label">Timeline</span><span class="metadata-card__value">Years 25-40</span></div>
 <div class="metadata-card__field"><span class="metadata-card__label">Outputs</span><span class="metadata-card__value"><code>lenses</code>, <code>microscopes</code>, <code>optical_comparators</code></span></div>
-<div class="metadata-card__field"><span class="metadata-card__label">Dependencies</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/vlsi-scaling/advanced-lithography.html">vlsi-scaling.advanced-lithography</a></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Dependencies</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/optics/optical-coatings.html">optics.inspection.optical-coatings</a> <a class="metadata-card__link" href="../../docs/vlsi-scaling/advanced-lithography.html">vlsi-scaling.advanced-lithography</a></span></div>
 </div>
 <h1>Optics &amp; Inspection</h1>
 <blockquote>
@@ -220,7 +226,7 @@
 <li><strong>Objective design</strong>: Achromatic doublet (crown + flint glass, corrects chromatic aberration at two wavelengths) or apochromatic (three-element, three-wavelength correction — better, harder to make).</li>
 <li><strong>Illumination</strong>: Brightfield (transmitted light through sample), darkfield (oblique illumination — edges glow, defects visible). Later: phase contrast, DIC (differential interference contrast).</li>
 <li><strong>Mechanical stage</strong>: X-Y movement with graduated drums (0.01 mm resolution). Focus: coarse + fine (0.001 mm resolution). Requires Machine Tools stage precision machining.</li>
-<li><strong>Applications</strong>: Crystal defect inspection (Silicon), lithography alignment (Photolithography), defect analysis (Photolithography+), biological specimens (SQ5).</li>
+<li><strong>Applications</strong>: Crystal defect inspection (Silicon), lithography alignment (Photolithography), defect analysis, biological specimens (SQ5).</li>
 </ul>
 <p><strong>Optical comparators</strong> (shadow projection for dimensional measurement):</p>
 <ul>
@@ -310,8 +316,14 @@
 <li><strong>Requires</strong>: Glass envelopes (glassblowing capability above), vacuum (rotary vane pump sufficient), cathode material (tungsten or thoriated tungsten — heated to emit electrons), anode (nickel plate), grid (fine wire spiral for triode), base and pins (glass-to-metal seals).</li>
 <li><strong>Evacuation</strong>: Pump down to 10⁻⁴ Torr, bake tube to 300-400°C during pumping to drive off adsorbed gases, seal off. Getter (barium or magnesium flash strip) inside tube — flashes during initial activation, absorbs residual gases.</li>
 </ul>
+<h3>Safety &amp; Hazards</h3>
+<ul>
+<li><strong>Laser eye hazards</strong>: Alignment and testing lasers (even low-power HeNe at 1-5 mW) can cause permanent retinal burns from direct or reflected beam exposure. Never look into beam path. Use laser safety goggles matched to wavelength. Enclose beam paths where feasible.</li>
+<li><strong>Chemical etchants</strong>: Lens and prism preparation may use hydrofluoric acid (HF) for glass etching — HF penetrates skin, attacks bone, causes delayed deep-tissue necrosis. Calcium gluconate gel must be available as first aid. Cerium oxide and rouge (Fe₂O₃) polishing slurries are low hazard but avoid inhalation of dried powders.</li>
+<li><strong>Vacuum chamber implosion</strong>: Glass vacuum tubes and bell jars under vacuum can collapse violently. Wrap with tape or mesh, wear face shield during evacuation. Never use chipped or scratched glassware under vacuum.</li>
+</ul>
 <hr />
-<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="../">All Domains</a></em></p>
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="./">Optics</a> • <a href="../">All Domains</a></em></p>
 
 </main>
 </div>

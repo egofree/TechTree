@@ -14,6 +14,7 @@
 <details class="sidebar__domain">
 <summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
 <ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
 <li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
 <li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
@@ -27,7 +28,8 @@
 <li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
 <li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
 <li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
-<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
 <li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
 <li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
@@ -51,6 +53,7 @@
 <li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
 <li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
 <li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
 <li class="active"><a href="../../docs/energy/gravity.html">Water Power </a></li>
 <li><a href="../../docs/energy/wind.html">Wind Power </a></li>
@@ -83,6 +86,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
 <li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
 <li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
 </ul>
 </details>
@@ -164,6 +168,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
 <li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
 <li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
 <li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
 </ul>
@@ -174,6 +179,7 @@
 <li><a href="../../docs/transport/aviation.html">Aviation </a></li>
 <li><a href="../../docs/transport/railways.html">Railways </a></li>
 <li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
 <li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
 </ul>
 </details>
@@ -194,6 +200,7 @@
 <div class="metadata-card__field"><span class="metadata-card__label">Domain</span><span class="metadata-card__value">energy</span></div>
 <div class="metadata-card__field"><span class="metadata-card__label">Timeline</span><span class="metadata-card__value">Years 5-15</span></div>
 <div class="metadata-card__field"><span class="metadata-card__label">Outputs</span><span class="metadata-card__value"><code>water_power</code></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Dependencies</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/energy/water-turbines.html">energy.gravity.water-turbines</a> <a class="metadata-card__link" href="../../docs/energy/pumped-hydro.html">energy.storage.pumped-hydro</a></span></div>
 <div class="metadata-card__field"><span class="metadata-card__label">Enables</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/chemistry/lubricants.html">chemistry.lubricants</a> <a class="metadata-card__link" href="../../docs/textiles/index.html">textiles</a></span></div>
 </div>
 <h1>Water Power</h1>
@@ -201,7 +208,7 @@
 <p><strong>Node ID</strong>: energy.gravity
 <strong>Domain</strong>: <a href="./">Energy</a>
 <strong>Dependencies</strong>: <code>foundations</code>, <a class="node-ref" href="../../docs/metals/copper-bronze.html">metals.copper-bronze</a> or <a class="node-ref" href="../../docs/metals/iron-steel.html">metals.iron-steel</a>
-<strong>Enables</strong>: <a class="node-ref" href="../../docs/energy/steam-power.html">energy.steam-power</a> (boiler feedwater pumping, mechanical skills), <code>agriculture</code> (grain milling), <code>water-systems</code> (pumping), <a class="node-ref" href="../../docs/energy/electricity.html">energy.electricity</a> (prime mover for generators)
+<strong>Enables</strong>: <a class="node-ref" href="../../docs/energy/steam-power.html">energy.steam-power</a> (boiler feedwater pumping, mechanical skills), <a class="node-ref" href="../../docs/foundations/food-agriculture.html">foundations.food-agriculture</a> (grain milling), <a class="node-ref" href="../../docs/health/sanitation.html">health.sanitation</a> (pumping), <a class="node-ref" href="../../docs/energy/electricity.html">energy.electricity</a> (prime mover for generators)
 <strong>Timeline</strong>: Years 5-15
 <strong>Outputs</strong>: water_power, mechanical_rotation, ground_grain, pumped_water</p>
 </blockquote>
@@ -377,8 +384,16 @@
 </tr>
 </tbody>
 </table>
+<h3>Safety &amp; Hazards</h3>
+<ul>
+<li><strong>Dam failure</strong>: Dam breaches release catastrophic flood waves. Historical death tolls in thousands. Proper dam construction: wide base, compacted earth or masonry, overflow spillway for flood events, regular inspection for seepage and cracking. Never build large dams on unstable foundations.</li>
+<li><strong>Water wheel entanglement</strong>: Water wheels and turbines have powerful rotating components. Guard all accessible moving parts. Never approach a running water wheel — the force can pull a person under. Emergency stop mechanism for maintenance.</li>
+<li><strong>Penstock pressure</strong>: Pressurized water pipes (penstocks) can burst if over-pressured or corroded. Pressure relief valves. Regular inspection. Never stand in front of penstock fittings under pressure.</li>
+<li><strong>Flash floods</strong>: Water-powered installations on rivers are vulnerable to flash floods. Monitor upstream conditions. Emergency shutdown procedure. Evacuation plan for flood events.</li>
+<li><strong>Drowning</strong>: Working near water intakes, dams, and mill races. Drowning risk. Safety ropes. Never work alone near water installations. Life jackets when working on or near water.</li>
+</ul>
 <hr />
-<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="../">All Domains</a></em></p>
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="./">Energy</a> • <a href="../">All Domains</a></em></p>
 
 </main>
 </div>

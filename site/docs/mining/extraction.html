@@ -14,6 +14,7 @@
 <details class="sidebar__domain">
 <summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
 <ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
 <li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
 <li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
@@ -27,7 +28,8 @@
 <li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
 <li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
 <li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
-<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
 <li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
 <li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
@@ -51,6 +53,7 @@
 <li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
 <li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
 <li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
 <li><a href="../../docs/energy/gravity.html">Water Power </a></li>
 <li><a href="../../docs/energy/wind.html">Wind Power </a></li>
@@ -83,6 +86,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
 <li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
 <li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
 </ul>
 </details>
@@ -164,6 +168,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
 <li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
 <li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
 <li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
 </ul>
@@ -174,6 +179,7 @@
 <li><a href="../../docs/transport/aviation.html">Aviation </a></li>
 <li><a href="../../docs/transport/railways.html">Railways </a></li>
 <li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
 <li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
 </ul>
 </details>
@@ -194,7 +200,7 @@
 <div class="metadata-card__field"><span class="metadata-card__label">Domain</span><span class="metadata-card__value">mining</span></div>
 <div class="metadata-card__field"><span class="metadata-card__label">Timeline</span><span class="metadata-card__value">Years 0-20</span></div>
 <div class="metadata-card__field"><span class="metadata-card__label">Outputs</span><span class="metadata-card__value"><code>raw_ore</code></span></div>
-<div class="metadata-card__field"><span class="metadata-card__label">Dependencies</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/mining/processing.html">mining.processing</a></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Dependencies</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/mining/black-powder.html">mining.extraction.black-powder</a> <a class="metadata-card__link" href="../../docs/mining/processing.html">mining.processing</a></span></div>
 <div class="metadata-card__field"><span class="metadata-card__label">Enables</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/foundations/tools-basic.html">foundations.tools-basic</a> <a class="metadata-card__link" href="../../docs/mining/prospecting.html">mining.prospecting</a></span></div>
 </div>
 <h1>Mining Extraction</h1>
@@ -208,7 +214,7 @@
 <p><strong>Surface mining (open pit)</strong>:</p>
 <ul>
 <li><strong>Planning</strong>: Strip overburden (soil + useless rock) to expose ore body. Bench height 5-15 m. Bench width = height × slope angle (typically 45-70°). Road access on each bench for haulage.</li>
-<li><strong>Overburden removal</strong>: Hand shovels and wheelbarrows (Foundations), animal-drawn scrapers (Metallurgy), steam or diesel shovels (Energy+). Ratio: overburden-to-ore should be &lt;3:1 for economic viability.</li>
+<li><strong>Overburden removal</strong>: Hand shovels and wheelbarrows (Foundations), animal-drawn scrapers (Metallurgy), steam or diesel shovels. Ratio: overburden-to-ore should be &lt;3:1 for economic viability.</li>
 <li><strong>Ore extraction</strong>: Break rock with wedges, fire-setting, or explosives (black powder from the Chemistry stage: KNO₃ + S + C at 75:10:15 ratio). Load into carts by hand. Haul to processing area.</li>
 <li><strong>Reclamation</strong>: Backfill exhausted pits with overburden. Re-contour and re-vegetate to prevent erosion.</li>
 </ul>
@@ -216,7 +222,7 @@
 <ul>
 <li><strong>Panning</strong>: Fill shallow pan with gravel, agitate underwater. Heavy minerals settle to bottom. Gold, cassiterite (tin), magnetite (iron) concentrate. One pan processes ~10 kg gravel in 5-10 minutes.</li>
 <li><strong>Sluice box</strong>: Wooden trough 2-5 m long, 30-50 cm wide, with riffles (cross-bars) on bottom. Gravel shoveled in at head, water carries material through. Heavy particles trap behind riffles. Clean riffles periodically. 50-100x faster than panning.</li>
-<li><strong>Hydraulic mining</strong> (Energy+): Direct high-pressure water jet at hillside to wash gold-bearing gravel through sluice. Requires significant water supply and pressure (20-50 m head).</li>
+<li><strong>Hydraulic mining</strong>: Direct high-pressure water jet at hillside to wash gold-bearing gravel through sluice. Requires significant water supply and pressure (20-50 m head).</li>
 </ul>
 <p><strong>Shaft mining</strong> (underground):</p>
 <ul>
@@ -239,7 +245,7 @@
 <ul>
 <li>Build hot fire against rock face. Burn 2-4 hours. Rock face reaches 400-600°C. Dash with cold water (or let air cool). Thermal shock cracks rock 5-15 cm deep. Break weakened rock with picks and wedges. Very effective on granite, quartz, hard ores. Consumes enormous wood/charcoal — use sparingly.</li>
 </ul>
-<p><strong>Black powder blasting</strong> (Chemistry+):</p>
+<p><strong>Black powder blasting</strong>:</p>
 <ul>
 <li><strong>Composition</strong>: 75% KNO₃ (potassium nitrate), 15% charcoal, 10% sulfur. Grind each component separately (NEVER together), mix by tumbling in cloth bag. KNO₃ from cave deposits, saltpeter beds (nitrate-rich soil + urine/manure + lime, leach and crystallize), or guano.</li>
 <li><strong>Black powder manufacture</strong>:
@@ -265,7 +271,7 @@
 <p><strong>Mechanical ventilation</strong>:</p>
 <ul>
 <li><strong>Bellows</strong>: Large forge bellows at shaft entrance force air underground. Intermittent flow, limited volume.</li>
-<li><strong>Fan ventilation</strong> (Machine Tools+): Centrifugal fan (wooden or iron blades in scroll housing), driven by water wheel or steam engine. 5-50 m³/second airflow. Adjustable louvers control flow. Much more reliable than natural ventilation.</li>
+<li><strong>Fan ventilation</strong>: Centrifugal fan (wooden or iron blades in scroll housing), driven by water wheel or steam engine. 5-50 m³/second airflow. Adjustable louvers control flow. Much more reliable than natural ventilation.</li>
 <li><strong>Air requirements</strong>: Minimum 0.05 m³/second per underground worker. More if blasting (fumes clearance). Replace total mine air volume every 10-30 minutes.</li>
 </ul>
 <p><strong>Gas detection</strong>:</p>
@@ -290,7 +296,7 @@
 <h3>Hoisting &amp; Transport</h3>
 <p><strong>Windlass</strong>: Horizontal drum, hand-cranked. Rope wound on drum. Simple, limited to ~30 m depth, ~100 kg load. One-man operation.</p>
 <p><strong>Whim (horse whim)</strong>: Vertical drum (6-10 m diameter) turned by horse walking in circle. Rope winds on drum, lifts bucket from shaft. Depth 50-100 m. Load 200-500 kg. One horse provides ~3-4 HP.</p>
-<p><strong>Steam winding engine</strong> (Energy+): Horizontal steam engine drives winding drum. Speed 5-15 m/second. Depth 200-500+ m. Load 1-5 tonnes per skip. Guides (wooden or iron rails in shaft) prevent cage rotation. Safety brake (friction brake on drum, held off by steam pressure — loss of pressure = automatic brake application).</p>
+<p><strong>Steam winding engine</strong>: Horizontal steam engine drives winding drum. Speed 5-15 m/second. Depth 200-500+ m. Load 1-5 tonnes per skip. Guides (wooden or iron rails in shaft) prevent cage rotation. Safety brake (friction brake on drum, held off by steam pressure — loss of pressure = automatic brake application).</p>
 <p><strong>Underground transport</strong>:</p>
 <ul>
 <li><strong>Wheelbarrows</strong>: 50-100 kg capacity. One man. For short distances.</li>
@@ -299,7 +305,7 @@
 <h3>Mine Safety &amp; Operations</h3>
 <p><strong>Ground control</strong>:</p>
 <ul>
-<li><strong>Rock bolting</strong> (Machine Tools+): Steel rod (2-3 m long, 20-25 mm diameter) inserted into drilled hole, anchored mechanically (expanding shell) or with cement grout. Supplements timber support in hard rock. Plate washer on exposed end distributes load.</li>
+<li><strong>Rock bolting</strong>: Steel rod (2-3 m long, 20-25 mm diameter) inserted into drilled hole, anchored mechanically (expanding shell) or with cement grout. Supplements timber support in hard rock. Plate washer on exposed end distributes load.</li>
 <li><strong>Roof inspection</strong>: Sound the roof with a bar — solid rock rings, loose rock thuds. Scale (knock down) loose rock before working. Torch inspection for cracks, water seepage, joint separation. Daily checks at working faces.</li>
 <li><strong>Cribbing</strong>: Square timber frames stacked like a pyramid to support voids and stabilize large openings. Used at shaft stations, junctions, and wide chambers.</li>
 </ul>
@@ -308,6 +314,8 @@
 <li><strong>Scaling</strong>: After each blast, bar down loose rock from roof and walls before crew re-enters. The single most important safety practice underground.</li>
 <li><strong>Water control</strong>: Grade all tunnels 1-3° toward shaft for gravity drainage. Sumps at shaft bottom. Pump capacity must exceed maximum inflow rate. Monitor water levels in worked-out areas — sudden inrush is a major hazard.</li>
 </ul>
+<hr />
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="./">Mining</a> • <a href="../">All Domains</a></em></p>
 
 </main>
 </div>

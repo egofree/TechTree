@@ -8,16 +8,19 @@ graph TD
         mining_extraction["Mining Extraction"]
         mining_processing["Ore Processing"]
         mining_prospecting["Prospecting & Surveying"]
+        mining_extraction_black-powder["Black Powder Explosives"]
     end
 
     %% ==================== DOMAIN NODE ====================
     mining["Mining Engineering & Extractive Metallurgy"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    ceramics_advanced-ceramics("Advanced Ceramics & Refractories")
     ceramics_lime("Lime Production")
     chemistry_acids("Mineral Acid Production")
     chemistry_alkalis("Alkali Production")
     chemistry_cement("Cement & Concrete")
+    chemistry_explosives("Explosives and Propellants")
     energy_fuels("Fuel Production")
     energy_fuels_coal("Coal Mining & Combustion")
     energy_fuels_coke("Coke Production")
@@ -34,6 +37,7 @@ graph TD
     %% ==================== EDGES ====================
     mining_extraction -.-> mining_prospecting
     mining_processing --> mining_extraction
+    mining_extraction_black-powder -.-> mining_extraction
     metals --> mining
     glass_basic --> mining
     energy_fuels_coal --> mining
@@ -50,6 +54,8 @@ graph TD
     mining_processing -.-> energy_fuels
     ceramics_lime --> mining
     transport_roads --> mining
+    ceramics_advanced-ceramics --> mining
+    mining_extraction_black-powder --> chemistry_explosives
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -69,10 +75,13 @@ graph TD
     class mining_extraction capability
     class mining_processing capability
     class mining_prospecting capability
+    class mining_extraction_black-powder process
+    class ceramics_advanced-ceramics external
     class ceramics_lime external
     class chemistry_acids external
     class chemistry_alkalis external
     class chemistry_cement external
+    class chemistry_explosives external
     class energy_fuels external
     class energy_fuels_coal external
     class energy_fuels_coke external

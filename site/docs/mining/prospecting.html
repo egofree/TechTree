@@ -14,6 +14,7 @@
 <details class="sidebar__domain">
 <summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
 <ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
 <li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
 <li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
@@ -27,7 +28,8 @@
 <li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
 <li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
 <li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
-<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
 <li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
 <li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
@@ -51,6 +53,7 @@
 <li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
 <li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
 <li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
 <li><a href="../../docs/energy/gravity.html">Water Power </a></li>
 <li><a href="../../docs/energy/wind.html">Wind Power </a></li>
@@ -83,6 +86,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
 <li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
 <li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
 </ul>
 </details>
@@ -164,6 +168,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
 <li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
 <li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
 <li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
 </ul>
@@ -174,6 +179,7 @@
 <li><a href="../../docs/transport/aviation.html">Aviation </a></li>
 <li><a href="../../docs/transport/railways.html">Railways </a></li>
 <li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
 <li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
 </ul>
 </details>
@@ -200,7 +206,7 @@
 <h1>Prospecting &amp; Surveying</h1>
 <blockquote>
 <p><strong>Node ID</strong>: mining.prospecting
-<strong>Domain</strong>: <a href="./">Foundations</a>
+<strong>Domain</strong>: <a href="./">Mining</a>
 <strong>Dependencies</strong>: <code>foundations</code>
 <strong>Enables</strong>: <a class="node-ref" href="../../docs/chemistry/acids.html">chemistry.acids</a>, <a class="node-ref" href="../../docs/chemistry/alkalis.html">chemistry.alkalis</a>, <a class="node-ref" href="../../docs/chemistry/cement.html">chemistry.cement</a>, <a class="node-ref" href="../../docs/energy/fuels.html">energy.fuels</a>, <code>metals</code>, <a class="node-ref" href="../../docs/glass/basic.html">glass.basic</a>, <a class="node-ref" href="../../docs/silicon/mg-si-production.html">silicon.mg-si-production</a>, <code>transport</code>
 <strong>Timeline</strong>: Years 0-50+
@@ -298,11 +304,18 @@
 <p><strong>Magnetic surveying</strong>:</p>
 <ul>
 <li><strong>Dip needle (dipping compass)</strong>: Freely pivoting magnetic needle that measures inclination (vertical angle) of Earth's magnetic field. Anomalies (deviations from expected inclination) indicate subsurface magnetic bodies — magnetite ore bodies, buried iron objects. Survey on a grid (10-50 m spacing). Contour the anomaly values. Positive anomaly = magnetic mass below.</li>
-<li><strong>Fluxgate magnetometer</strong> (Electronics+): Electronic sensor measuring magnetic field intensity directly. Resolution: 1 nT (nanotesla). Faster and more precise than dip needle. Portable, battery-operated. Map field variations over survey area.</li>
+<li><strong>Fluxgate magnetometer</strong>: Electronic sensor measuring magnetic field intensity directly. Resolution: 1 nT (nanotesla). Faster and more precise than dip needle. Portable, battery-operated. Map field variations over survey area.</li>
 <li><strong>Anomaly interpretation</strong>: Sharp, narrow anomaly = shallow source. Broad, low anomaly = deep source. Elongated anomaly = linear ore body (vein). Circular anomaly = pipe-like body. Estimate depth = half-width of anomaly profile. Magnetic surveys are the most cost-effective method for locating iron ore deposits.</li>
 </ul>
+<h3>Safety &amp; Hazards</h3>
+<ul>
+<li><strong>Terrain hazards</strong>: Prospecting involves traversing rugged, unstable terrain. Rockfalls, loose scree, steep slopes. Sturdy boots, careful footing. Never prospect alone in remote areas.</li>
+<li><strong>Water hazards</strong>: River banks and lake shores (where minerals concentrate) are slippery and subject to flash floods. Be aware of upstream weather. Never wade in fast-moving water above knee depth.</li>
+<li><strong>Toxic minerals</strong>: Some ore minerals contain arsenic (arsenopyrite), mercury (cinnabar), or lead (galena). Handle with gloves. Do not inhale dust from crushing test samples. Wash hands before eating.</li>
+<li><strong>Underground hazards</strong>: If test pits or adits are dug, ensure roof support. Bad air (low oxygen, methane, CO₂) in enclosed spaces — ventilate before entering. Never enter alone.</li>
+</ul>
 <hr />
-<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="../">All Domains</a></em></p>
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="./">Mining</a> • <a href="../">All Domains</a></em></p>
 
 </main>
 </div>

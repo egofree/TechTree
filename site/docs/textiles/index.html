@@ -14,6 +14,7 @@
 <details class="sidebar__domain">
 <summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
 <ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
 <li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
 <li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
@@ -27,7 +28,8 @@
 <li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
 <li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
 <li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
-<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
 <li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
 <li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
@@ -51,6 +53,7 @@
 <li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
 <li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
 <li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
 <li><a href="../../docs/energy/gravity.html">Water Power </a></li>
 <li><a href="../../docs/energy/wind.html">Wind Power </a></li>
@@ -83,6 +86,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
 <li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
 <li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
 </ul>
 </details>
@@ -164,6 +168,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
 <li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
 <li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
 <li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
 </ul>
@@ -174,6 +179,7 @@
 <li><a href="../../docs/transport/aviation.html">Aviation </a></li>
 <li><a href="../../docs/transport/railways.html">Railways </a></li>
 <li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
 <li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
 </ul>
 </details>
@@ -195,6 +201,7 @@
 <ul class="capability-list">
 <li><a href="../../docs/textiles/dyeing.html"><strong>Dyeing</strong></a><p>Natural and synthetic dye preparation and application to textiles.</p></li>
 <li><a href="../../docs/textiles/fibers.html"><strong>Fiber Preparation</strong></a><p>Cultivation and preparation of natural fibers including flax, hemp, cotton, and wool.</p></li>
+<li><a href="../../docs/textiles/rope-making.html"><strong>Rope and Cordage</strong></a><p>Manufacture of rope from natural and synthetic fibers via ropewalk or mechanized spinner. 3-strand twist rope construction: fibers → yarn → strand → rope. Splicing techniques (eye splice, back splice, short splice) stronger than knots. Tarring for weather resistance. Breaking strength tables for hemp, manila, nylon. Essential for construction hoisting, sailing, mining, and all mechanical handling.</p></li>
 <li><a href="../../docs/textiles/spinning.html"><strong>Spinning</strong></a><p>Drop spindle and treadle wheel spinning of fibers into yarn and thread.</p></li>
 <li><a href="../../docs/textiles/weaving.html"><strong>Weaving</strong></a><p>Frame loom and treadle loom weaving of yarn into cloth, canvas, and sailcloth.</p></li>
 </ul>
@@ -210,6 +217,7 @@ graph TD
         textiles_spinning[&quot;Spinning&quot;]
         textiles_weaving[&quot;Weaving&quot;]
         textiles_dyeing[&quot;Dyeing&quot;]
+        textiles_rope-making[&quot;Rope and Cordage&quot;]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -221,6 +229,7 @@ graph TD
     energy_wind(&quot;Wind Power&quot;)
     foundations(&quot;Foundations&quot;)
     foundations_tools-basic(&quot;Stone &amp; Wood Tools&quot;)
+    knowledge_printing(&quot;Paper and Printing Press&quot;)
     machine-tools(&quot;Machine Tools Bootstrap&quot;)
     transport_aviation(&quot;Aviation&quot;)
     transport_shipping(&quot;Water Transport&quot;)
@@ -229,6 +238,8 @@ graph TD
     textiles_fibers --&gt; textiles_spinning
     textiles_spinning --&gt; textiles_weaving
     textiles_weaving --&gt; textiles_dyeing
+    textiles_rope-making --&gt; textiles_fibers
+    textiles_rope-making --&gt; textiles_spinning
     energy_gravity -.-&gt; textiles
     energy_wind -.-&gt; textiles
     machine-tools -.-&gt; textiles
@@ -237,6 +248,7 @@ graph TD
     textiles_fibers -.-&gt; foundations_tools-basic
     textiles_dyeing --&gt; chemistry
     transport_shipping --&gt; textiles
+    knowledge_printing --&gt; textiles_fibers
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend[&quot;Edge Types&quot;]
@@ -257,11 +269,13 @@ graph TD
     class textiles_spinning capability
     class textiles_weaving capability
     class textiles_dyeing capability
+    class textiles_rope-making capability
     class chemistry external
     class energy_gravity external
     class energy_wind external
     class foundations external
     class foundations_tools-basic external
+    class knowledge_printing external
     class machine-tools external
     class transport_aviation external
     class transport_shipping external

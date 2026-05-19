@@ -14,6 +14,7 @@
 <details class="sidebar__domain">
 <summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
 <ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
 <li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
 <li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
@@ -27,7 +28,8 @@
 <li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
 <li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
 <li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
-<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
 <li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
 <li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
@@ -51,6 +53,7 @@
 <li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
 <li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
 <li class="active"><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
 <li><a href="../../docs/energy/gravity.html">Water Power </a></li>
 <li><a href="../../docs/energy/wind.html">Wind Power </a></li>
@@ -83,6 +86,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
 <li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
 <li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
 </ul>
 </details>
@@ -164,6 +168,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
 <li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
 <li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
 <li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
 </ul>
@@ -174,6 +179,7 @@
 <li><a href="../../docs/transport/aviation.html">Aviation </a></li>
 <li><a href="../../docs/transport/railways.html">Railways </a></li>
 <li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
 <li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
 </ul>
 </details>
@@ -194,7 +200,7 @@
 <div class="metadata-card__field"><span class="metadata-card__label">Domain</span><span class="metadata-card__value">energy</span></div>
 <div class="metadata-card__field"><span class="metadata-card__label">Timeline</span><span class="metadata-card__value">Years 0-25</span></div>
 <div class="metadata-card__field"><span class="metadata-card__label">Outputs</span><span class="metadata-card__value"><code>solid_fuels</code>, <code>liquid_fuels</code>, <code>gaseous_fuels</code></span></div>
-<div class="metadata-card__field"><span class="metadata-card__label">Dependencies</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/energy/charcoal.html">energy.fuels.charcoal</a> <a class="metadata-card__link" href="../../docs/energy/coal.html">energy.fuels.coal</a> <a class="metadata-card__link" href="../../docs/energy/coke.html">energy.fuels.coke</a> <a class="metadata-card__link" href="../../docs/machine-tools/forming.html">machine-tools.forming</a> <a class="metadata-card__link" href="../../docs/mining/processing.html">mining.processing</a></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Dependencies</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/energy/engine.html">energy.engine</a> <a class="metadata-card__link" href="../../docs/energy/charcoal.html">energy.fuels.charcoal</a> <a class="metadata-card__link" href="../../docs/energy/coal.html">energy.fuels.coal</a> <a class="metadata-card__link" href="../../docs/energy/coke.html">energy.fuels.coke</a> <a class="metadata-card__link" href="../../docs/glass/glassblowing.html">glass.advanced.glassblowing</a> <a class="metadata-card__link" href="../../docs/machine-tools/forming.html">machine-tools.forming</a> <a class="metadata-card__link" href="../../docs/mining/processing.html">mining.processing</a></span></div>
 <div class="metadata-card__field"><span class="metadata-card__label">Enables</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/foundations/fire.html">foundations.fire</a></span></div>
 </div>
 <h1>Fuel Production</h1>
@@ -396,6 +402,15 @@
 <li><strong>Petroleum refining &amp; liquid fuels</strong>: <a href="../chemistry/petroleum-alternatives.html">petroleum-alternatives.md</a></li>
 <li><strong>Mining infrastructure</strong>: <a href="../mining/extraction.html">extraction.md</a></li>
 </ul>
+<h3>Safety &amp; Hazards</h3>
+<ul>
+<li><strong>Flammability and explosion</strong>: All liquid and gaseous fuels form explosive mixtures with air. Gasoline vapor ignites at 1.4-7.6% concentration. Natural gas (methane) at 5-15%. Never store fuels near ignition sources. Use in well-ventilated areas.</li>
+<li><strong>Carbon monoxide (CO)</strong>: Incomplete combustion of any carbon fuel produces CO — odorless, colorless, lethal. Never burn fuels in enclosed spaces without ventilation. CO detectors where fuel-burning equipment operates. Symptoms: headache, nausea, dizziness → evacuate to fresh air.</li>
+<li><strong>Fuel storage</strong>: Store liquid fuels in approved containers away from heat. Gasoline and light fractions have low flash points (-40°C for gasoline). Static electricity can ignite fuel vapors during transfer — ground containers. Store gaseous fuels in pressure-rated cylinders.</li>
+<li><strong>Wood/coal dust</strong>: Suspended dust at sufficient concentration is explosive. Ventilation in fuel storage areas.</li>
+</ul>
+<hr />
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="./">Energy</a> • <a href="../">All Domains</a></em></p>
 
 </main>
 </div>

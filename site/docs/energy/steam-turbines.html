@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Steam Turbines</title>
+<link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+<div class="layout">
+<nav class="sidebar">
+<input type="text" id="search-input" placeholder="Search..." autocomplete="off" />
+<div id="search-results"></div>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
+<li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
+<li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
+<li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/chemistry/index.html" class="sidebar__domain-link">Chemistry</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/chemistry/air-separation.html">Air Separation & Bulk Gas Production </a></li>
+<li><a href="../../docs/chemistry/alkalis.html">Alkali Production </a></li>
+<li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
+<li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
+<li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
+<li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
+<li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
+<li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
+<li><a href="../../docs/chemistry/petroleum-alternatives.html">Petroleum & Alternative Chemistry </a></li>
+<li><a href="../../docs/chemistry/packaging-testing.html">Semiconductor Packaging & Testing </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/computing/index.html" class="sidebar__domain-link">Computing & Automation</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/computing/electromechanical.html">Electromechanical Computing </a></li>
+<li><a href="../../docs/computing/electronic.html">Electronic Computing </a></li>
+<li><a href="../../docs/computing/mechanical.html">Mechanical Calculation </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/energy/index.html" class="sidebar__domain-link">Energy</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/energy/cooling.html">Cooling Systems & Refrigeration </a></li>
+<li><a href="../../docs/energy/electric-furnaces.html">Electric Furnaces </a></li>
+<li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
+<li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
+<li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
+<li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
+<li><a href="../../docs/energy/gravity.html">Water Power </a></li>
+<li><a href="../../docs/energy/wind.html">Wind Power </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/foundations/index.html" class="sidebar__domain-link">Foundations</a> <span class="badge badge--critical">★</span><span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/foundations/food-agriculture.html">Agriculture & Food Production </a></li>
+<li><a href="../../docs/foundations/fire.html">Fire-Making </a></li>
+<li><a href="../../docs/foundations/tools-basic.html">Stone & Wood Tools </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/gas-handling/index.html" class="sidebar__domain-link">Gas Handling</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/gas-handling/basic.html">Basic Gas Handling </a></li>
+<li><a href="../../docs/gas-handling/vacuum.html">Vacuum Technology </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/glass/index.html" class="sidebar__domain-link">Glass</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/glass/advanced.html">Advanced Glass Production </a></li>
+<li><a href="../../docs/glass/basic.html">Basic Glass Production </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/knowledge/index.html" class="sidebar__domain-link">Knowledge Preservation & Education</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
+<li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
+<li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/machine-tools/index.html" class="sidebar__domain-link">Machine Tools Bootstrap</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/machine-tools/bearings-abrasives.html">Bearings, Abrasives & Cutting Tools </a></li>
+<li><a href="../../docs/machine-tools/iterative-bootstrap.html">Iterative Machine Bootstrap </a></li>
+<li><a href="../../docs/machine-tools/machining.html">Machining </a></li>
+<li><a href="../../docs/machine-tools/casting.html">Metal Casting </a></li>
+<li><a href="../../docs/machine-tools/forming.html">Metal Forming </a></li>
+<li><a href="../../docs/machine-tools/joining.html">Metal Joining </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/measurement/index.html" class="sidebar__domain-link">Measurement & Instrumentation</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/measurement/precision-metrology.html">Precision Metrology & Standards </a></li>
+<li><a href="../../docs/measurement/temperature-pressure.html">Temperature & Pressure Measurement </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/metals/index.html" class="sidebar__domain-link">Metals</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/metals/copper-bronze.html">Copper & Bronze Production </a></li>
+<li><a href="../../docs/metals/iron-steel.html">Iron & Steel Production <span class="badge badge--critical">★</span></a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/mining/index.html" class="sidebar__domain-link">Mining Engineering & Extractive Metallurgy</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/mining/extraction.html">Mining Extraction </a></li>
+<li><a href="../../docs/mining/processing.html">Ore Processing </a></li>
+<li><a href="../../docs/mining/prospecting.html">Prospecting & Surveying </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/optics/index.html" class="sidebar__domain-link">Optics</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/optics/inspection.html">Optical Inspection </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/photolithography/index.html" class="sidebar__domain-link">Photolithography & IC Fabrication</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/photolithography/cleanrooms.html">Cleanrooms </a></li>
+<li><a href="../../docs/photolithography/fab-processes.html">Core Fab Processes </a></li>
+<li><a href="../../docs/photolithography/resists-masks.html">Photoresists, Masks & Lithography </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/polymers/index.html" class="sidebar__domain-link">Polymers & Composites</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/polymers/composites.html">Composite Materials </a></li>
+<li><a href="../../docs/polymers/rubber.html">Rubber Production </a></li>
+<li><a href="../../docs/polymers/thermoplastics.html">Thermoplastic Polymers </a></li>
+<li><a href="../../docs/polymers/thermosets.html">Thermosetting Polymers </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/health/index.html" class="sidebar__domain-link">Public Health, Sanitation & Medicine</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/health/medicine.html">Medicine & Surgery </a></li>
+<li><a href="../../docs/health/pharmacology.html">Pharmacology </a></li>
+<li><a href="../../docs/health/sanitation.html">Water Supply & Sanitation </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/silicon/index.html" class="sidebar__domain-link">Silicon</a> <span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/silicon/basic-devices.html">Basic Semiconductor Devices </a></li>
+<li><a href="../../docs/silicon/crystal-growth.html">Crystal Growth & Wafering </a></li>
+<li><a href="../../docs/silicon/mg-si-production.html">Metallurgical-Grade Silicon Production </a></li>
+<li><a href="../../docs/silicon/purification.html">Silicon Purification </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/textiles/index.html" class="sidebar__domain-link">Textiles, Fiber & Cordage</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
+<li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
+<li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
+<li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/transport/index.html" class="sidebar__domain-link">Transportation & Logistics</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/transport/aviation.html">Aviation </a></li>
+<li><a href="../../docs/transport/railways.html">Railways </a></li>
+<li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
+<li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/vlsi-scaling/index.html" class="sidebar__domain-link">VLSI Scaling & Advanced Semiconductor</a> <span class="badge badge--pinnacle">🔺</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/vlsi-scaling/advanced-lithography.html">Advanced Lithography </a></li>
+<li><a href="../../docs/vlsi-scaling/advanced-processes.html">Advanced Processes </a></li>
+<li><a href="../../docs/vlsi-scaling/continuous-scaling.html">Continuous Scaling </a></li>
+<li><a href="../../docs/vlsi-scaling/eda-design.html">EDA, GPU Design & Advanced Packaging </a></li>
+</ul>
+</details>
+</nav>
+<main class="content">
+<div class="metadata-card">
+<h2 class="metadata-card__title">Steam Turbines </h2>
+<div class="metadata-card__field"><span class="metadata-card__label">Node ID</span><span class="metadata-card__value"><code>energy.steam-power.steam-turbines</code></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Domain</span><span class="metadata-card__value">energy</span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Timeline</span><span class="metadata-card__value">Years 25-50+</span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Outputs</span><span class="metadata-card__value"><code>steam_turbine_power</code>, <code>turbine_generators</code></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Enables</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/energy/steam-power.html">energy.steam-power</a> <a class="metadata-card__link" href="../../docs/machine-tools/machining.html">machine-tools.machining</a> <a class="metadata-card__link" href="../../docs/metals/iron-steel.html">metals.iron-steel</a></span></div>
+</div>
+<h1>Steam Turbines</h1>
+<blockquote>
+<p><strong>Node ID</strong>: energy.steam-power.steam-turbines
+<strong>Domain</strong>: <a href="./">Energy</a>
+<strong>Dependencies</strong>: <a class="node-ref" href="../../docs/energy/steam-power.html">energy.steam-power</a>, <a class="node-ref" href="../../docs/metals/iron-steel.html">metals.iron-steel</a>, <code>machine-tools</code>
+<strong>Timeline</strong>: Years 20-35
+<strong>Outputs</strong>: turbine_power, electrical_generation, rotary_power</p>
+</blockquote>
+<h3>Overview</h3>
+<p>Steam turbines replace reciprocating engines for power generation by converting the thermal energy of expanding steam directly into continuous rotary motion. No pistons, no crankshaft, no valve gear — just rows of blades spinning in a steam flow. They operate at far higher speeds and efficiencies than any reciprocating steam engine, and they are the reason large-scale electrical generation became practical. A single turbine-generator unit can deliver 50-500+ MW at 30-40% thermal efficiency, dwarfing the 5-15% efficiency and 1000-5000 HP ceiling of triple-expansion engines.</p>
+<h3>Impulse Turbines (De Laval)</h3>
+<p><strong>Principle</strong>: Steam expands entirely through stationary nozzles, converting pressure energy into kinetic energy (high-velocity jet). The jet impinges on bucket-shaped blades on the rotor. All pressure drop occurs at the nozzle — the rotor blades experience only the impulse (momentum transfer) of the jet. No pressure drop across the moving blades; the rotor casing operates at essentially atmospheric pressure.</p>
+<p><strong>Construction</strong>:</p>
+<ul>
+<li><strong>Nozzle</strong>: Converging-diverging (de Laval) nozzle shape for supersonic steam velocities. Machined from bronze or steel. Steam exits at 500-1200 m/s depending on inlet conditions.</li>
+<li><strong>Rotor</strong>: Single disc with bucket-shaped blades around the perimeter. Blades have a splitter ridge that divides the jet, redirecting each half ~165° for maximum momentum transfer.</li>
+<li><strong>Speed</strong>: Single-stage impulse turbines run at 10,000-30,000 RPM. This is far too fast for direct generator coupling — requires reduction gearing (helical or epicyclic gears, 10:1 to 50:1 ratio).</li>
+<li><strong>Applications</strong>: Small units (0.5-10 MW) for industrial power, marine propulsion (turbo-electric drives), and mechanical drives (compressors, pumps).</li>
+</ul>
+<p><strong>Multi-stage impulse (Curtis / Rateau)</strong>:</p>
+<ul>
+<li>Single-stage impulse wastes energy — the exhaust jet still carries significant velocity. Multi-stage designs arrange multiple rows of nozzles and blades in series.</li>
+<li><strong>Curtis staging</strong>: Velocity-compound — one nozzle feeds a row of moving blades, then a row of fixed guide blades redirect the steam into a second row of moving blades on the same disc. Extracts more energy per disc but adds complexity.</li>
+<li><strong>Rateau staging</strong>: Pressure-compound — multiple nozzles in series, each expanding the steam through a pressure drop, each feeding its own row of moving blades. Each row runs at lower steam velocity than a single-stage design.</li>
+<li><strong>Combined</strong>: Large turbines use Curtis stages at the high-pressure end (compact, handle high energy density) and Rateau stages for intermediate and low-pressure sections.</li>
+</ul>
+<h3>Reaction Turbines (Parsons)</h3>
+<p><strong>Principle</strong>: Steam expands through both stationary guide blades (nozzles) AND rotating blades. The rotating blades act as moving nozzles — pressure drops continuously across both fixed and moving rows. The rotor is pushed both by impulse (velocity change) and reaction (pressure difference across the blade).</p>
+<p><strong>Construction</strong>:</p>
+<ul>
+<li><strong>Blading</strong>: Alternating rows of fixed stator blades (mounted in the casing) and moving rotor blades (mounted on the rotor disc or drum). Each blade row has an airfoil profile optimized for the local steam conditions.</li>
+<li><strong>Rotor</strong>: Drum-type (long cylinder with blades mounted along its length) or disc-type (individual discs shrunk onto a shaft). Drum-type handles thermal expansion better for large units.</li>
+<li><strong>Casing</strong>: Heavy cast or fabricated steel shell containing the stator blades. Must withstand full steam pressure at the HP inlet.</li>
+<li><strong>Speed</strong>: 1,500-3,600 RPM (direct drive to 50/60 Hz generators is practical). Lower speed than impulse because each stage extracts only a fraction of the energy — many stages in series.</li>
+</ul>
+<p><strong>Multi-stage design</strong>:</p>
+<ul>
+<li>A typical large turbine has 20-50 stages. Steam conditions progress from high-pressure, high-temperature, low-volume at the inlet to low-pressure, low-temperature, high-volume at the exhaust.</li>
+<li><strong>HP section</strong>: Small blade heights (50-150 mm), high pressure (10-100+ bar), high temperature (400-540°C). Materials: 12% chromium steel or austenitic stainless.</li>
+<li><strong>IP section</strong>: Medium blade heights (200-400 mm), moderate conditions. Materials: chromium-molybdenum steel.</li>
+<li><strong>LP section</strong>: Very long blades (300-1200 mm, last-row blades are the longest precision blades ever manufactured), near-vacuum exhaust (0.05-0.1 bar absolute). Materials: precipitation-hardened stainless steel or titanium for last-row blades.</li>
+<li><strong>Double-flow LP</strong>: The low-pressure section is often split into two flows (steam enters the center and exits both ends) to keep blade lengths manageable and reduce thrust bearing loads.</li>
+</ul>
+<h3>Impulse-Reaction Combination</h3>
+<p>Modern utility turbines use impulse stages at the HP end and reaction stages in the LP end:</p>
+<ul>
+<li><strong>HP impulse stages</strong>: High steam density means partial admission (only some nozzle arcs are open) is efficient — impulse handles this well. Impulse stages are shorter and more robust against erosion from water droplets in the steam.</li>
+<li><strong>LP reaction stages</strong>: Steam volume is enormous — full admission across the entire annulus. Reaction blading provides better efficiency at large volume flows and lower pressures.</li>
+<li><strong>Transition</strong>: The crossover from impulse to reaction is gradual — intermediate stages often have a mix of characteristics.</li>
+</ul>
+<h3>Condenser Systems</h3>
+<p><strong>Surface condenser</strong> (standard for power generation):</p>
+<ul>
+<li>Exhaust steam enters a shell-and-tube heat exchanger. Cooling water flows through thousands of tubes (20-30 mm diameter, brass or titanium). Steam condenses on the tube outer surfaces, dripping to a hotwell for recovery as feed water.</li>
+<li><strong>Vacuum</strong>: Condenser operates at 0.03-0.1 bar absolute pressure (96-97% vacuum). This dramatically increases the pressure differential across the turbine — the LP stages extract energy down to this vacuum rather than exhausting to atmosphere. Improves efficiency by 8-12 percentage points.</li>
+<li><strong>Cooling water</strong>: River water, sea water, or cooling tower circulation. Flow rate: ~50-100 m³ per MW of turbine output. Temperature rise across condenser: 8-12°C.</li>
+<li><strong>Air ejector</strong>: Small steam jet or mechanical vacuum pump removes non-condensable gases (air leaked in through seals). Even small air accumulations degrade vacuum and reduce efficiency.</li>
+</ul>
+<p><strong>Feed water recovery</strong>: Condensed steam is pumped back to the boiler as feed water. This is critical — returning hot, deaerated feed water saves 10-15% on fuel compared to feeding cold raw water.</p>
+<h3>Blade Materials</h3>
+<p>Blades operate under extreme conditions — centrifugal stress, steam erosion, corrosion, and thermal cycling:</p>
+<ul>
+<li><strong>HP blades (400-540°C)</strong>: 12-25% chromium martensitic stainless steel. Good creep resistance at temperature. Precipitation-hardening grades (17-4PH) for highest-stress locations.</li>
+<li><strong>IP blades (200-400°C)</strong>: Chromium-molybdenum steel (1-2.25% Cr, 0.5-1% Mo). Good strength and fatigue resistance.</li>
+<li><strong>LP last-row blades</strong>: Precipitation-hardened stainless steel or titanium alloy (Ti-6Al-4V). Titanium preferred for the longest blades (&gt;900 mm) due to its high strength-to-weight ratio — reduces centrifugal stress on the rotor. Titanium also resists water-droplet erosion better than steel.</li>
+<li><strong>Erosion protection</strong>: LP blades suffer erosion from water droplets condensing in the expanding steam. Hard-facing (stellite, tungsten carbide) on leading edges extends blade life. Moisture-recovery stages (water extraction slots in the casing) reduce the problem upstream.</li>
+</ul>
+<h3>Governor Mechanisms</h3>
+<ul>
+<li><strong>Mechanical-hydraulic governor</strong>: Centrifugal flyballs or flyweights sense turbine speed. Displacement of the flyweights controls a pilot valve, which modulates hydraulic oil pressure to the main steam valve servomotor. Proportional control with adjustable droop (typically 4-5% speed drop from no-load to full-load). Self-contained, reliable, no external power required for basic operation.</li>
+<li><strong>Electro-hydraulic governor</strong>: Electronic speed sensor (magnetic pickup on a gear tooth) provides speed signal to an electronic controller, which drives hydraulic servo valves. More precise than mechanical, supports complex control modes (load sharing between multiple turbines, frequency regulation, isochronous operation).</li>
+<li><strong>Overspeed trip</strong>: Independent mechanical bolt (emergency trip) mounted on the rotor shaft. At 110-115% of rated speed, centrifugal force flings the bolt outward, tripping a latch that dumps hydraulic oil from the steam valve actuators — valves slam shut under spring force. This is the last line of defense against runaway. Test the overspeed trip regularly by tripping it electrically.</li>
+</ul>
+<h3>Power Output Ranges</h3>
+<table>
+<thead>
+<tr>
+<th>Size Class</th>
+<th>Power Output</th>
+<th>Steam Conditions</th>
+<th>Application</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Small industrial</td>
+<td>0.5-10 MW</td>
+<td>10-40 bar, 300-400°C</td>
+<td>Factory cogeneration, mechanical drives</td>
+</tr>
+<tr>
+<td>Medium utility</td>
+<td>10-100 MW</td>
+<td>40-100 bar, 400-480°C</td>
+<td>Regional power plants</td>
+</tr>
+<tr>
+<td>Large utility</td>
+<td>100-500 MW</td>
+<td>100-165 bar, 480-540°C</td>
+<td>Baseload generation</td>
+</tr>
+<tr>
+<td>Ultra-supercritical</td>
+<td>500-1000+ MW</td>
+<td>250-350 bar, 580-620°C</td>
+<td>Most efficient baseload</td>
+</tr>
+</tbody>
+</table>
+<h3>Thermal Efficiency</h3>
+<ul>
+<li><strong>Simple non-condensing</strong>: 15-20% (exhausts to atmosphere, no condenser). Simple but wasteful.</li>
+<li><strong>Condensing turbine</strong>: 30-40% (with condenser vacuum). Standard for power generation.</li>
+<li><strong>Superheat</strong>: Each 50°C of superheat above saturation improves efficiency by ~2 percentage points.</li>
+<li><strong>Reheat</strong>: Extract steam after the HP section, route back through the boiler for additional superheating, then return to the IP section. Adds 4-5 percentage points of efficiency.</li>
+<li><strong>Regenerative feedwater heating</strong>: Bleed steam from intermediate turbine stages to preheat boiler feed water through a series of shell-and-tube heaters. Recovers energy that would otherwise be lost to the condenser. Adds 5-8 percentage points of efficiency.</li>
+<li><strong>Combined cycle</strong>: Turbine exhaust heat generates steam for a second (bottoming) turbine. Combined efficiencies reach 55-62%.</li>
+</ul>
+<h3>Safety and Hazards</h3>
+<ul>
+<li><strong>Overspeed failure</strong>: If the turbine loses its load (generator disconnects) and the governor fails to close the steam valves, the rotor accelerates until centrifugal forces tear the blades from the disc. Blade fragments become lethal projectiles. Prevention: redundant governor systems, tested overspeed trip bolt, regular testing of all protection systems.</li>
+<li><strong>Steam leaks</strong>: High-pressure steam (100+ bar, 500+°C) leaks from flanges, valve packing, or casing cracks are invisible and instantly fatal. Infrared thermography for leak detection. Regular inspection of all bolted joints. Never approach a pressurized steam turbine without verifying isolation and depressurization.</li>
+<li><strong>Lubricating oil fires</strong>: Turbine bearings are lubricated with large volumes of oil (hundreds of liters). An oil leak onto hot steam piping ignites spontaneously. Oil-fire detection and suppression systems required. Fire-resistant hydraulic fluids available but expensive.</li>
+<li><strong>Condenser vacuum failure</strong>: If cooling water flow is lost, vacuum collapses, exhaust pressure rises, and the last LP stages operate in choked, overheated flow. Automatic trip on low vacuum protects the turbine. Never override vacuum trip.</li>
+</ul>
+<h3>Cross-References</h3>
+<ul>
+<li><strong>Boilers providing steam</strong>: <a href="steam-power.html">steam-power.md</a></li>
+<li><strong>Electricity generation from turbines</strong>: <a href="electricity.html">electricity.md</a></li>
+<li><strong>Graphite for turbine seals/lubricants</strong>: <a href="electric-furnaces.html">electric-furnaces.md</a></li>
+<li><strong>Metals for blades and casings</strong>: <a href="../metals/iron-steel.html">iron-steel.md</a></li>
+</ul>
+<hr />
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="./">Energy</a> • <a href="../">All Domains</a></em></p>
+
+</main>
+</div>
+<footer class="footer">
+<p>Part of the Bootciv Tech Tree</p>
+</footer>
+<script src="../../assets/mermaid.min.js"></script>
+<script src="../../assets/search-index.js"></script>
+<script src="../../assets/search.js"></script>
+<script src="../../assets/main.js"></script>
+</body>
+</html>

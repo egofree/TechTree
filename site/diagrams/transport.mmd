@@ -9,14 +9,18 @@ graph TD
         transport_railways["Railways"]
         transport_shipping["Water Transport"]
         transport_aviation["Aviation"]
+        transport_telegraph["Telegraph Communication"]
     end
 
     %% ==================== DOMAIN NODE ====================
     transport["Transportation & Logistics"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    chemistry_acids("Mineral Acid Production")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
     energy("Energy")
+    energy_electricity("Electricity Generation & Distribution")
+    energy_engine("Heat Engines")
     energy_steam-power("Steam Power")
     foundations_tools-basic("Stone & Wood Tools")
     machine-tools("Machine Tools Bootstrap")
@@ -38,6 +42,11 @@ graph TD
     transport_railways -.-> energy_steam-power
     transport_railways --> metals_iron-steel
     transport_shipping --> textiles
+    transport_aviation -.-> energy_engine
+    transport -.-> energy_engine
+    transport_telegraph -.-> energy_electricity
+    transport_telegraph --> metals_iron-steel
+    transport_telegraph -.-> chemistry_acids
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -58,8 +67,12 @@ graph TD
     class transport_railways capability
     class transport_shipping capability
     class transport_aviation capability
+    class transport_telegraph capability
+    class chemistry_acids external
     class chemistry_petroleum-alternatives external
     class energy external
+    class energy_electricity external
+    class energy_engine external
     class energy_steam-power external
     class foundations_tools-basic external
     class machine-tools external

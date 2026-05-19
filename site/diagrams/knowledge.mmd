@@ -8,6 +8,7 @@ graph TD
         knowledge_writing["Writing & Record-Keeping"]
         knowledge_education["Education & Training"]
         knowledge_libraries["Libraries & Information Systems"]
+        knowledge_printing["Paper and Printing Press"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -18,7 +19,10 @@ graph TD
     foundations_food-agriculture("Agriculture & Food Production")
     foundations_tools-basic("Stone & Wood Tools")
     health_medicine("Medicine & Surgery")
+    machine-tools_machining("Machining")
+    metals_iron-steel("Iron & Steel Production")
     mining_prospecting("Prospecting & Surveying")
+    textiles_fibers("Fiber Preparation")
 
     %% ==================== EDGES ====================
     knowledge_education -.-> knowledge_writing
@@ -29,6 +33,9 @@ graph TD
     knowledge_writing -.-> foundations_food-agriculture
     health_medicine -.-> knowledge_writing
     mining_prospecting -.-> knowledge_writing
+    knowledge_printing -.-> metals_iron-steel
+    knowledge_printing --> textiles_fibers
+    knowledge_printing -.-> machine-tools_machining
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -48,9 +55,13 @@ graph TD
     class knowledge_writing capability
     class knowledge_education capability
     class knowledge_libraries capability
+    class knowledge_printing earlyWin
     class foundations external
     class foundations_food-agriculture external
     class foundations_tools-basic external
     class health_medicine external
+    class machine-tools_machining external
+    class metals_iron-steel external
     class mining_prospecting external
+    class textiles_fibers external
     class EdgeLegend,MatNote,ToolNote legend

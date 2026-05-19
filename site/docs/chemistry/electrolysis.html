@@ -14,12 +14,13 @@
 <details class="sidebar__domain">
 <summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
 <ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
 <li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
 <li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
 </ul>
 </details>
-<details class="sidebar__domain" open>
+<details class="sidebar__domain">
 <summary class="sidebar__domain-title"><a href="../../docs/chemistry/index.html" class="sidebar__domain-link">Chemistry</a> </summary>
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/chemistry/air-separation.html">Air Separation & Bulk Gas Production </a></li>
@@ -27,7 +28,8 @@
 <li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
 <li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
 <li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
-<li class="active"><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
 <li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
 <li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
@@ -51,6 +53,7 @@
 <li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
 <li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
 <li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
 <li><a href="../../docs/energy/gravity.html">Water Power </a></li>
 <li><a href="../../docs/energy/wind.html">Wind Power </a></li>
@@ -83,6 +86,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
 <li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
 <li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
 </ul>
 </details>
@@ -164,6 +168,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
 <li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
 <li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
 <li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
 </ul>
@@ -174,6 +179,7 @@
 <li><a href="../../docs/transport/aviation.html">Aviation </a></li>
 <li><a href="../../docs/transport/railways.html">Railways </a></li>
 <li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
 <li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
 </ul>
 </details>
@@ -210,7 +216,7 @@
 <li><strong>Cell types</strong>:
 <ul>
 <li><strong>Diaphragm cell</strong>: Asbestos or polymer diaphragm separates anode and cathode compartments. Prevents Cl₂ and NaOH from mixing (would form NaOCl — bleach). Products: Cl₂ gas, H₂ gas, 10-12% NaOH solution (requires evaporation to 50%).</li>
-<li><strong>Membrane cell</strong> (modern): Ion-exchange membrane (Nafion or equivalent — perfluorinated polymer, Chemistry+ chemistry). More efficient, produces directly 30-35% NaOH. But membrane requires PTFE-like fluoropolymer.</li>
+<li><strong>Membrane cell</strong> (modern): Ion-exchange membrane (Nafion or equivalent — perfluorinated polymer chemistry). More efficient, produces directly 30-35% NaOH. But membrane requires PTFE-like fluoropolymer.</li>
 </ul>
 </li>
 <li><strong>Anode</strong>: Dimensionally stable anode (DSA) — titanium coated with RuO₂/IrO₂. Or graphite (cheaper, consumed slowly ~2-5 kg/tonne Cl₂). Carbon anodes work for startup.</li>
@@ -218,11 +224,45 @@
 <li><strong>Operating conditions</strong>: 3.2-3.8V per cell, 2-5 kA/m² current density. Temperature 80-90°C. NaCl concentration ~25%.</li>
 <li><strong>Energy consumption</strong>: ~2,100-2,500 kWh per tonne of Cl₂. Major power load.</li>
 </ul>
+<p><strong>Chlor-alkali diaphragm cell — detailed construction and operation</strong>:</p>
+<p>The chlor-alkali process produces three critical products simultaneously: chlorine gas, hydrogen gas, and sodium hydroxide (caustic soda). The overall reaction is 2NaCl + 2H₂O → Cl₂ + 2NaOH + H₂.</p>
+<ul>
+<li><strong>Cell body</strong>: Rectangular steel or concrete tank, typically 1-2 m wide × 0.5-1 m deep × 2-3 m long. Steel is preferred for durability; concrete is acceptable for initial construction. The cell must be electrically insulated from ground.</li>
+<li><strong>Anode compartment</strong>: Saturated brine (NaCl solution, ~310 g/L at 25°C, maintained at 25-26% by weight) fed continuously to the anode side. Anodes are vertical plates of graphite (50-100 mm thick, 300-600 mm wide, 600-1200 mm tall) or dimensionally stable anodes (DSA — titanium substrate coated with 5-15 µm layer of RuO₂/IrO₂ mixed metal oxide). DSA anodes last 5-8 years; graphite anodes consume at 2-5 kg per tonne of Cl₂ produced. Multiple anode plates mounted in parallel on a copper or titanium bus bar.</li>
+<li><strong>Diaphragm</strong>: Deposited asbestos fiber layer (1-3 mm thick) on the cathode mesh, or modern polymer membrane (perfluorinated sulfonic acid, 100-200 µm thick). The diaphragm allows Na⁺ ions and water to pass but retards back-migration of OH⁻ ions and prevents Cl₂ and H₂ from mixing. Asbestos diaphragm deposited by vacuum-drawing an asbestos slurry onto the cathode screen. Service life: 6-12 months before replating needed.</li>
+<li><strong>Cathode compartment</strong>: Perforated steel mesh or screen (2-3 mm wire, 3-5 mm openings) acts as both cathode and diaphragm support. Hydrogen gas evolves at the cathode surface: 2H₂O + 2e⁻ → H₂↑ + 2OH⁻. The NaOH solution (10-12% from diaphragm cell) drains from the cathode compartment by gravity.</li>
+<li><strong>Gas handling</strong>: Cl₂ gas (anode) is hot, wet, and contains traces of oxygen and carbon dioxide. Route through titanium or glass-fiber-reinforced plastic (FRP) ducting to a cooling tower (water-cooled, condenses water vapor), then through a drying tower (concentrated H₂SO₄, 93-98%, as desiccant), then to compressors for liquefaction (compress to 5-8 bar, cool to -10 to -20°C) or direct pipeline use. H₂ gas (cathode) is separately collected, cooled, and can be used as fuel or chemical feedstock. <strong>Never allow Cl₂ and H₂ to mix — the mixture is explosive over a wide range (4-93% H₂ in Cl₂).</strong></li>
+<li><strong>Cell stacking</strong>: Individual cells produce at 3.5-4.0V. Stack 50-100 cells in electrical series (bipolar configuration) to match available DC supply voltage (200-400V). Each cell operates independently hydraulically. A single electrolyzer may draw 50-200 kA total current.</li>
+<li><strong>NaOH concentration</strong>: Diaphragm cell effluent is only 10-12% NaOH (contaminated with 15-17% unreacted NaCl). Evaporate in triple-effect vacuum evaporators to 50% NaOH (NaCl crystallizes out during evaporation and is recycled to brine feed). Membrane cells produce 30-35% NaOH directly with minimal salt contamination — a major advantage.</li>
+<li><strong>Brine purification</strong>: Raw salt solution contains Ca²⁺, Mg²⁺, SO₄²⁻, and heavy metals that poison electrodes and clog diaphragms. Treatment: add Na₂CO₃ to precipitate CaCO₃, add NaOH to precipitate Mg(OH)₂, add BaCO₃ or BaCl₂ to precipitate BaSO₄ if sulfate exceeds 5 g/L. Filter through sand or leaf filters before feeding cells.</li>
+</ul>
 <p><strong>Water electrolysis</strong>:</p>
 <ul>
 <li><strong>Alkaline electrolyzer</strong>: 25-30% KOH electrolyte. Nickel electrodes. Temperature 60-80°C. Cell voltage 1.8-2.2V. Current efficiency ~95-99%.</li>
 <li><strong>Products</strong>: Ultra-pure H₂ and O₂. H₂ purity critical for semiconductor processes (see <a href="hydrogen-silane.html">Hydrogen &amp; Silane Production</a>).</li>
 <li><strong>Energy</strong>: ~50-55 kWh per kg H₂ (thermodynamic minimum 33 kWh/kg).</li>
+</ul>
+<p><strong>Water electrolysis — detailed procedures</strong>:</p>
+<ul>
+<li><strong>Alkaline electrolysis (most practical for bootstrap)</strong>:
+<ul>
+<li><strong>Cell construction</strong>: Two nickel-plated steel or pure nickel electrode plates separated by 2-5 mm gap. Diaphragm of asbestos or polymer fabric (polypropylene, polysulfone) prevents gas mixing. Electrolyte: 25-30% KOH in deionized water (specific gravity ~1.23-1.28). Cell body: carbon steel (KOH is less corrosive than NaOH to steel at operating temperature). Gasket: EPDM rubber.</li>
+<li><strong>Operating conditions</strong>: 1.8-2.2V per cell, current density 2-4 kA/m², temperature 60-90°C. Higher temperature reduces cell voltage (thermodynamic advantage) but increases corrosion and electrolyte vaporization. Pressure: atmospheric or slightly elevated (1-30 bar for pressurized systems — reduces downstream compression energy).</li>
+<li><strong>Reactions</strong>: Cathode: 2H₂O + 2e⁻ → H₂ + 2OH⁻. Anode: 2OH⁻ → ½O₂ + H₂O + 2e⁻. Net: H₂O → H₂ + ½O₂. Thermoneutral voltage: 1.48V at 25°C.</li>
+<li><strong>Gas quality</strong>: H₂ &gt;99.5% pure (main impurity: traces of O₂ and KOH mist). O₂ &gt;99.0% pure. Further purification by catalytic recombination (remove trace O₂ from H₂ by passing over Pt catalyst with excess H₂) and molecular sieve drying.</li>
+<li><strong>Stack design</strong>: 50-200 cells in filter-press configuration (bipolar plates between cells). Active area per cell: 0.5-4 m². Total stack: 100-400V DC input, 2-20 kA. Production rate: ~0.4-0.5 Nm³ H₂ per kWh.</li>
+<li><strong>Electrolyte management</strong>: KOH is not consumed — only water is split. Feed deionized or distilled water continuously to maintain electrolyte level. Monitor KOH concentration (refractometer or density measurement). Replace electrolyte every 5-10 years due to impurity accumulation.</li>
+</ul>
+</li>
+<li><strong>PEM (proton exchange membrane) electrolysis</strong>:
+<ul>
+<li><strong>Principle</strong>: Solid polymer electrolyte (Nafion membrane, 50-175 µm thick) conducts protons (H⁺) from anode to cathode. No liquid electrolyte needed. Platinum catalyst (0.5-2 mg/cm²) on both electrodes as thin-film coating on the membrane (catalyst-coated membrane, CCM).</li>
+<li><strong>Advantages</strong>: Higher current density (5-20 kA/m² — 3-5× alkaline), more compact, produces very high purity H₂ (&gt;99.99%), operates under differential pressure (H₂ at 30-80 bar, O₂ at atmospheric), rapid response to variable power input (good for renewable integration).</li>
+<li><strong>Disadvantages</strong>: Requires Nafion or equivalent perfluorinated membrane (complex fluoropolymer chemistry — not available until polymer industry is mature). Platinum catalyst is expensive and scarce. Titanium current collectors and flow fields required for anode side (acidic environment). Membrane degradation: 40,000-80,000 hours typical life.</li>
+<li><strong>Operating conditions</strong>: 1.8-2.2V per cell, 50-80°C, water fed to anode side.</li>
+<li><strong>Verdict for bootstrap</strong>: Alkaline electrolysis is the only practical route until fluoropolymer chemistry is established. PEM is documented here as the advanced target.</li>
+</ul>
+</li>
 </ul>
 <p><strong>Aluminum production</strong> (Hall-Héroult process — enormous power consumer):</p>
 <ul>
@@ -231,12 +271,34 @@
 <li><strong>Operating conditions</strong>: 4.0-4.5V, 150-400 kA per cell, ~13-15 kWh/kg Al.</li>
 <li><strong>Power requirement</strong>: A small aluminum plant (10,000 tonnes/year) needs ~15 MW continuous. This is why aluminum was more expensive than gold before cheap electricity.</li>
 </ul>
+<p><strong>Hall-Héroult process — detailed cell construction and operation</strong>:</p>
+<p>The overall cell reaction is 2Al₂O₃ + 3C → 4Al + 3CO₂. The carbon anode is consumed as a reactant, not merely as an electrode.</p>
+<ul>
+<li><strong>Cell shell</strong>: Rectangular steel box (10-15 mm plate), typically 8-12 m long × 3-4 m wide × 1-1.5 m deep. Externally reinforced with steel cradle. Shell sits on electrically insulated supports. Thermal insulation (firebrick, calcium silicate board) between shell and carbon lining to reduce heat loss.</li>
+<li><strong>Cathode lining</strong>: Bottom and lower sides lined with prebaked carbon cathode blocks (anthracite + 25-30% coal tar pitch, baked at 1000-1200°C). Blocks typically 400-700 mm × 400-600 mm × 1200-2500 mm, joined with carbonaceous ramming paste. Steel current-collector bars (100-200 mm diameter round or rectangular) embedded in grooves in the cathode blocks, sealed with cast iron or carbonaceous paste. Cathode life: 3-8 years before relining required (failure mode: sodium penetration cracks blocks, bath leaks to steel shell).</li>
+<li><strong>Anodes</strong>: Prebaked carbon anodes (petroleum coke + 13-16% coal tar pitch, baked at 1100-1200°C for 2-3 weeks). Typical dimensions: 400-800 mm wide × 500-600 mm tall × 1500-2000 mm long, each weighing 800-1200 kg. Multiple anodes per cell (12-40 anodes), each suspended from an anode bus bar by steel stubs (rodded into the anode with cast iron). Anodes are consumed at 0.4-0.5 kg carbon per kg Al produced. Lowered continuously (hydraulic or jack mechanism, 10-20 mm/day) to maintain 40-50 mm anode-cathode distance (ACD) as they burn away.</li>
+<li><strong>Bath composition</strong>: Primary solvent: cryolite (Na₃AlF₆), 80-90% of bath by weight. Additives: 5-10% excess AlF₃ (lowers melting point from 1012°C to 960°C, reduces sodium co-deposition), 2-5% CaF₂ (further lowers melting point, reduces bath volatility). Alumina feed maintained at 2-5% dissolved in bath (must not exceed ~8% — forms a frozen sludge on cell bottom; must not fall below ~1.5% — triggers &quot;anode effect&quot; where voltage spikes to 20-40V, CF₄ and C₂F₆ greenhouse gases evolve). Bath temperature: 960-980°C.</li>
+<li><strong>Alumina feeding</strong>: Automatic point feeders (crust breaker + alumina hopper) punch through the frozen bath crust and dump 1-2 kg alumina per feed event every 1-5 minutes. Alternatively, batch feeding (larger additions, less frequent) for simpler cells. Alumina must be well-calcined (α-Al₂O₃, &lt;0.04% moisture) — moisture in the bath causes HF generation.</li>
+<li><strong>Metal tapping</strong>: Molten aluminum (density 2.3 g/cm³ at 960°C) pools beneath the bath (density ~2.1 g/cm³). Tap every 24-48 hours by inserting a steel or refractory siphon tube through the crust and vacuum-siphoning 1-5 tonnes of aluminum into a refractory-lined ladle. Typical cell holds 5-15 tonnes of molten aluminum at steady state.</li>
+<li><strong>Electrical</strong>: 4.0-5.0V per cell at 100-500 kA (modern cells). Cells connected in series (potline) — 200-300 cells per potline. Total potline voltage: 800-1200V DC. Current supplied by silicon diode rectifiers from AC power. Energy consumption: 13-15 kWh/kg Al (theoretical minimum: 6.3 kWh/kg for Al₂O₃ → Al, but carbon anode reduces electrical energy needed — total energy includes anode combustion heat). Heat balance: ~50% of electrical input is heat — must be dissipated to maintain 960-980°C bath temperature. Cell designed so heat loss through sides, bottom, and top crust matches internal heat generation.</li>
+<li><strong>Emissions</strong>: CO₂ from anode consumption (~1.5 t CO₂ per t Al), plus CO₂ from electricity generation (if fossil-fueled). Fluoride emissions (HF, CF₄, C₂F₆) controlled by dry scrubbing (alumina absorbs HF, then fed to cells — closing the fluoride loop). CF₄ and C₂F₆ are extremely potent greenhouse gases (GWP 6,620 and 11,100 respectively) — minimize anode effects.</li>
+</ul>
 <p><strong>Copper electrorefining</strong> (produces 99.99% pure Cu from impure anodes):</p>
 <ul>
 <li><strong>Cell</strong>: Impure copper cast anode (from smelter, ~98-99% Cu). Pure copper starter sheet cathode (thin Cu foil). Electrolyte: CuSO₄ (150-200 g/L) + H₂SO₄ (150-200 g/L) in aqueous solution. Temperature 50-65°C.</li>
 <li><strong>Reaction</strong>: Cu (anode) → Cu²⁺ + 2e⁻ (dissolution). Cu²⁺ + 2e⁻ → Cu (cathode, pure deposit). Cell voltage only 0.2-0.3 V (very low — most energy goes to pumping electrolyte, not overcoming thermodynamics). Current density: 200-300 A/m².</li>
 <li><strong>Impurities</strong>: Ag, Au, Pt, Se, Te do not dissolve — settle as &quot;anode slime&quot; (valuable byproduct, recovered for precious metals). Ni, Fe, Zn dissolve but do not plate at cathode with proper voltage control. As, Sb, Bi must be controlled — can co-deposit.</li>
 <li><strong>Anode slime recovery</strong>: Collect slime, treat with H₂SO₄ + oxidant → dissolve Cu, Se, Te. Melt residual → Doré metal (Ag + Au). Electrorefine silver. Gold and PGMs recovered from silver cell slimes. Revenue from precious metals often exceeds cost of copper refining.</li>
+</ul>
+<p><strong>Copper electrorefining — detailed cell design and operation</strong>:</p>
+<ul>
+<li><strong>Tank construction</strong>: Concrete or polymer-lined (PVC, polyethylene) rectangular tank, typically 3-5 m long × 1-1.2 m wide × 1.2-1.5 m deep. Multiple anodes and cathodes hang in parallel, alternating, with 80-120 mm gap between anode and cathode surfaces. A single tank holds 30-50 anode-cathode pairs.</li>
+<li><strong>Anode</strong>: Cast blister copper slabs (~98-99% Cu, containing Ag, Au, Ni, Se, Te, As, Sb, Bi, Fe, Zn, Pb, Sn as impurities). Dimensions: 800-1000 mm × 800-1000 mm × 30-50 mm thick, weighing 250-400 kg each. Suspended from copper bus bars by cast-in lugs. Anode life: 20-28 days (dissolved to ~15% residual — &quot;anode scrap&quot; recycled to smelter).</li>
+<li><strong>Cathode</strong>: Thin copper starter sheet (0.5-1 mm thick) produced on titanium or stainless steel blanks (deposit copper for 1-2 days, strip off). Alternatively, stainless steel blanks (reusable — copper deposits on both sides, stripped off mechanically after 7-14 days). Cathode dimensions similar to anode but slightly wider to prevent edge growth short-circuiting. Pure copper deposits over 7-14 days to 5-10 mm thickness, weighing 80-160 kg per cathode.</li>
+<li><strong>Electrolyte circulation</strong>: CuSO₄ + H₂SO₄ solution continuously pumped through tanks (20-30 L/min per tank) to maintain uniform temperature (50-65°C — warmed by steam heat exchangers) and composition, and to prevent stratification. Additives (glue, thiourea, chloride ions at 20-40 mg/L) promote smooth, dense cathode deposits and suppress dendritic growth that causes short circuits.</li>
+<li><strong>Tankhouse layout</strong>: Hundreds to thousands of tanks arranged in rows. Electrical connection: tanks in series, anodes and cathodes within each tank in parallel. Total tankhouse voltage: 100-200V DC at 10,000-30,000 A. Current per cathode: 200-350 A/m² × cathode area (~0.8-1 m²) = 160-350 A per cathode.</li>
+<li><strong>Anode slime processing</strong>: Slime (0.1-0.5% of anode weight) settles to tank bottom, collected every anode change cycle (3-4 weeks). Composition: 10-30% Ag, 0.5-5% Au, plus Se, Te, Pt, Pd. Processing: pressure-leach with H₂SO₄ + O₂ to dissolve Cu, Se, Te. Smelt residual in precious metals furnace → Doré bullion (95%+ Ag + Au). Electrorefine silver in Balbach-Thum cells (Ag → 99.99% pure). Gold and PGMs recovered from silver refining slimes by aqua regia dissolution and selective precipitation.</li>
+<li><strong>Energy</strong>: Very low — only 250-350 kWh per tonne of refined copper (vs. ~13,000-15,000 kWh/t for aluminum). The dominant cost is labor and working capital (metal tied up in process), not electricity.</li>
 </ul>
 <h3>Electrode Materials &amp; Cell Design</h3>
 <p><strong>Electrode materials by process</strong>:</p>
@@ -285,6 +347,89 @@
 <li><strong>Filter press cell</strong>: Flat electrodes and separators clamped together like a stack. Electrolyte flows through channels between plates. Continuous operation, compact, good heat removal. Used for chlor-alkali and advanced water electrolysis. Higher manufacturing precision required.</li>
 <li><strong>Membrane cell</strong> (chlor-alkali specific): Ion-exchange membrane (Nafion) replaces diaphragm. Allows Na⁺ through but blocks Cl⁻ and OH⁻. Produces higher-purity NaOH directly at 30-35% concentration. Requires fluoropolymer chemistry.</li>
 </ul>
+<h3>Power Supply for Electrolysis</h3>
+<p>All electrolysis processes require <strong>direct current (DC)</strong>. The conversion from AC grid power to DC is itself a significant engineering challenge.</p>
+<ul>
+<li><strong>Rectifiers</strong>: Modern systems use silicon diode or thyristor (SCR) rectifiers. For bootstrap: mercury-arc rectifiers (historical, 1920s-1960s) or mechanical rotary converters (AC motor driving DC generator). Simplest: DC generator directly driven by steam engine or water wheel (low efficiency but workable).</li>
+<li><strong>Voltage and current</strong>: Different processes need different supplies:
+<ul>
+<li>Chlor-alkali: 200-400V DC at 50-200 kA</li>
+<li>Aluminum potline: 800-1200V DC at 100-500 kA</li>
+<li>Water electrolysis: 100-400V DC at 2-20 kA</li>
+<li>Copper refining: 100-200V DC at 10,000-30,000 A</li>
+</ul>
+</li>
+<li><strong>Bus bar design</strong>: Massive copper or aluminum bus bars carry current between rectifier and cells. At 200 kA, even 0.001 Ω resistance dissipates 40 kW as heat. Bus bars must be short, thick, and well-cooled. Typical cross-section: 200-1000 mm² per 1000 A.</li>
+</ul>
+<h3>Safety</h3>
+<ul>
+<li><strong>Chlorine gas</strong>: Toxic (IDLH 10 ppm). Fatal at 1000 ppm. Chlor-alkali plants require gas detection, ventilation, emergency scrubbers (NaOH solution absorbs Cl₂), and full-face supplied-air respirators for emergency response. Chlorine is heavier than air — accumulates in low points.</li>
+<li><strong>Hydrogen gas</strong>: Explosive in air at 4-75% concentration. Ignition energy very low (0.017 mJ). All hydrogen systems must be purged with inert gas (N₂) before introduction of H₂. No open flames, sparks, or static discharge near hydrogen equipment.</li>
+<li><strong>Molten salt hazards</strong> (aluminum): Bath at 960°C — severe burn risk. Molten aluminum contacting moisture causes explosive steam generation. Carbon dust (anode manufacturing) is a respiratory hazard and explosion risk. Magnetic fields around potlines (100-500 kA) can affect pacemakers and steel tools.</li>
+<li><strong>Electrical</strong>: All electrolysis uses high DC currents at potentially lethal voltages. Insulation, grounding, and lockout/tagout procedures mandatory. Electrolyte is conductive — wet surfaces near cells are shock hazards.</li>
+<li><strong>Asbestos</strong> (diaphragm cells): Known carcinogen. Handling asbestos fiber for diaphragm deposition requires respiratory protection, enclosure, and wet methods. Modern plants have replaced asbestos with polymer diaphragms.</li>
+</ul>
+<h3>Other Electrolysis Processes</h3>
+<p><strong>Sodium production (Downs cell)</strong>:</p>
+<ul>
+<li>Molten NaCl electrolysis at 580-600°C (NaCl-CaCl₂ eutectic mixture lowers melting point from 801°C). Steel cell, carbon anode, iron or copper cathode. 4-6V, 30-40 kA. Products: sodium metal (cathode) + chlorine gas (anode). Na rises to surface (density 0.97 g/cm³), collected under inert atmosphere. CaCl₂ addition (58-59% NaCl / 41-42% CaCl₂) reduces operating temperature below Na boiling point (883°C), preventing sodium vapor loss. Sodium metal used for titanium reduction (Kroll process), organic synthesis, and as coolant in fast breeder nuclear reactors.</li>
+</ul>
+<p><strong>Electroplating</strong>:</p>
+<ul>
+<li><strong>Principle</strong>: Same as electrorefining but deposits metal onto a substrate for coating (decorative, corrosion-resistant, or functional). Workpiece is the cathode; metal anode dissolves to replenish electrolyte. Common plating metals: chromium (decorative/hard wear, from CrO₃ + H₂SO₄ bath), nickel (corrosion barrier, from NiSO₄ + NiCl₂ + H₃BO₃ bath), zinc (galvanizing, from cyanide or acid zinc baths), copper (electronics, from CuSO₄ + H₂SO₄ or CuCN + KCN baths), gold and silver (electronics, jewelry).</li>
+<li><strong>Operating conditions</strong>: Low current density (10-500 A/m² depending on metal), near-ambient temperature (25-60°C most baths), cell voltage 0.5-6V. Plating thickness controlled by time and current (Faraday's law: 1 Faraday = 96,485 coulombs deposits 1 equivalent weight of metal).</li>
+<li><strong>Surface preparation</strong>: Critical step — poor adhesion results from oily or oxidized surfaces. Sequence: degrease (alkaline soak or solvent), acid pickle (remove oxide), acid dip (activate surface), rinse between each step, then plate immediately.</li>
+</ul>
+<p><strong>Electrowinning</strong> (extracting metal from leach solutions):</p>
+<ul>
+<li>Used when metal is dissolved in solution (heap leaching of copper ores, zinc roaster leach). Electrolyte contains metal ions (Cu²⁺, Zn²⁺) in H₂SO₄ solution. Inert anode (Pb-Sn-Ca alloy, oxygen-evolving). Cathode: aluminum or stainless steel blank. Metal plates on cathode, O₂ evolves at anode. Higher voltage than electrorefining (1.8-3.5V per cell vs. 0.3V) because the anode reaction is water oxidation rather than metal dissolution.</li>
+</ul>
+<h3>Scale and Economics</h3>
+<p>Electrolysis is among the most electricity-intensive industrial processes. Approximate energy costs per kg of product:</p>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Energy (kWh/kg)</th>
+<th>Primary Cost Driver</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aluminum</td>
+<td>13-15</td>
+<td>Electricity (60-70% of production cost)</td>
+</tr>
+<tr>
+<td>Chlorine</td>
+<td>2.1-2.5 (per kg Cl₂)</td>
+<td>Electricity + brine</td>
+</tr>
+<tr>
+<td>Hydrogen (alkaline)</td>
+<td>50-55</td>
+<td>Electricity (~70% of cost)</td>
+</tr>
+<tr>
+<td>Refined copper</td>
+<td>0.25-0.35</td>
+<td>Electricity is minor; labor and capital dominate</td>
+</tr>
+<tr>
+<td>Sodium</td>
+<td>10-12</td>
+<td>Electricity + heat maintenance</td>
+</tr>
+<tr>
+<td>Chromium plate</td>
+<td>30-70</td>
+<td>Electricity + chemicals (inefficient deposition)</td>
+</tr>
+</tbody>
+</table>
+<p>Cheap, abundant electricity is the prerequisite for all electrolysis. Without reliable power at competitive rates, none of these processes are economically viable. This constraint is why aluminum smelting historically locates near hydroelectric dams, and why the chlor-alkali industry tracks electricity prices closely.</p>
+<hr />
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="./">Chemistry</a> • <a href="../">All Domains</a></em></p>
 
 </main>
 </div>

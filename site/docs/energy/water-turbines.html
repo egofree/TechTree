@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Water Turbines</title>
+<link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+<div class="layout">
+<nav class="sidebar">
+<input type="text" id="search-input" placeholder="Search..." autocomplete="off" />
+<div id="search-results"></div>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
+<li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
+<li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
+<li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/chemistry/index.html" class="sidebar__domain-link">Chemistry</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/chemistry/air-separation.html">Air Separation & Bulk Gas Production </a></li>
+<li><a href="../../docs/chemistry/alkalis.html">Alkali Production </a></li>
+<li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
+<li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
+<li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
+<li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
+<li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
+<li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
+<li><a href="../../docs/chemistry/petroleum-alternatives.html">Petroleum & Alternative Chemistry </a></li>
+<li><a href="../../docs/chemistry/packaging-testing.html">Semiconductor Packaging & Testing </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/computing/index.html" class="sidebar__domain-link">Computing & Automation</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/computing/electromechanical.html">Electromechanical Computing </a></li>
+<li><a href="../../docs/computing/electronic.html">Electronic Computing </a></li>
+<li><a href="../../docs/computing/mechanical.html">Mechanical Calculation </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/energy/index.html" class="sidebar__domain-link">Energy</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/energy/cooling.html">Cooling Systems & Refrigeration </a></li>
+<li><a href="../../docs/energy/electric-furnaces.html">Electric Furnaces </a></li>
+<li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
+<li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
+<li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
+<li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
+<li><a href="../../docs/energy/gravity.html">Water Power </a></li>
+<li><a href="../../docs/energy/wind.html">Wind Power </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/foundations/index.html" class="sidebar__domain-link">Foundations</a> <span class="badge badge--critical">★</span><span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/foundations/food-agriculture.html">Agriculture & Food Production </a></li>
+<li><a href="../../docs/foundations/fire.html">Fire-Making </a></li>
+<li><a href="../../docs/foundations/tools-basic.html">Stone & Wood Tools </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/gas-handling/index.html" class="sidebar__domain-link">Gas Handling</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/gas-handling/basic.html">Basic Gas Handling </a></li>
+<li><a href="../../docs/gas-handling/vacuum.html">Vacuum Technology </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/glass/index.html" class="sidebar__domain-link">Glass</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/glass/advanced.html">Advanced Glass Production </a></li>
+<li><a href="../../docs/glass/basic.html">Basic Glass Production </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/knowledge/index.html" class="sidebar__domain-link">Knowledge Preservation & Education</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
+<li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
+<li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/machine-tools/index.html" class="sidebar__domain-link">Machine Tools Bootstrap</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/machine-tools/bearings-abrasives.html">Bearings, Abrasives & Cutting Tools </a></li>
+<li><a href="../../docs/machine-tools/iterative-bootstrap.html">Iterative Machine Bootstrap </a></li>
+<li><a href="../../docs/machine-tools/machining.html">Machining </a></li>
+<li><a href="../../docs/machine-tools/casting.html">Metal Casting </a></li>
+<li><a href="../../docs/machine-tools/forming.html">Metal Forming </a></li>
+<li><a href="../../docs/machine-tools/joining.html">Metal Joining </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/measurement/index.html" class="sidebar__domain-link">Measurement & Instrumentation</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/measurement/precision-metrology.html">Precision Metrology & Standards </a></li>
+<li><a href="../../docs/measurement/temperature-pressure.html">Temperature & Pressure Measurement </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/metals/index.html" class="sidebar__domain-link">Metals</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/metals/copper-bronze.html">Copper & Bronze Production </a></li>
+<li><a href="../../docs/metals/iron-steel.html">Iron & Steel Production <span class="badge badge--critical">★</span></a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/mining/index.html" class="sidebar__domain-link">Mining Engineering & Extractive Metallurgy</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/mining/extraction.html">Mining Extraction </a></li>
+<li><a href="../../docs/mining/processing.html">Ore Processing </a></li>
+<li><a href="../../docs/mining/prospecting.html">Prospecting & Surveying </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/optics/index.html" class="sidebar__domain-link">Optics</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/optics/inspection.html">Optical Inspection </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/photolithography/index.html" class="sidebar__domain-link">Photolithography & IC Fabrication</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/photolithography/cleanrooms.html">Cleanrooms </a></li>
+<li><a href="../../docs/photolithography/fab-processes.html">Core Fab Processes </a></li>
+<li><a href="../../docs/photolithography/resists-masks.html">Photoresists, Masks & Lithography </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/polymers/index.html" class="sidebar__domain-link">Polymers & Composites</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/polymers/composites.html">Composite Materials </a></li>
+<li><a href="../../docs/polymers/rubber.html">Rubber Production </a></li>
+<li><a href="../../docs/polymers/thermoplastics.html">Thermoplastic Polymers </a></li>
+<li><a href="../../docs/polymers/thermosets.html">Thermosetting Polymers </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/health/index.html" class="sidebar__domain-link">Public Health, Sanitation & Medicine</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/health/medicine.html">Medicine & Surgery </a></li>
+<li><a href="../../docs/health/pharmacology.html">Pharmacology </a></li>
+<li><a href="../../docs/health/sanitation.html">Water Supply & Sanitation </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/silicon/index.html" class="sidebar__domain-link">Silicon</a> <span class="badge badge--early-win">⚡</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/silicon/basic-devices.html">Basic Semiconductor Devices </a></li>
+<li><a href="../../docs/silicon/crystal-growth.html">Crystal Growth & Wafering </a></li>
+<li><a href="../../docs/silicon/mg-si-production.html">Metallurgical-Grade Silicon Production </a></li>
+<li><a href="../../docs/silicon/purification.html">Silicon Purification </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/textiles/index.html" class="sidebar__domain-link">Textiles, Fiber & Cordage</a> <span class="badge badge--critical">★</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
+<li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
+<li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
+<li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/transport/index.html" class="sidebar__domain-link">Transportation & Logistics</a> </summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/transport/aviation.html">Aviation </a></li>
+<li><a href="../../docs/transport/railways.html">Railways </a></li>
+<li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
+<li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
+</ul>
+</details>
+<details class="sidebar__domain">
+<summary class="sidebar__domain-title"><a href="../../docs/vlsi-scaling/index.html" class="sidebar__domain-link">VLSI Scaling & Advanced Semiconductor</a> <span class="badge badge--pinnacle">🔺</span></summary>
+<ul class="sidebar__capabilities">
+<li><a href="../../docs/vlsi-scaling/advanced-lithography.html">Advanced Lithography </a></li>
+<li><a href="../../docs/vlsi-scaling/advanced-processes.html">Advanced Processes </a></li>
+<li><a href="../../docs/vlsi-scaling/continuous-scaling.html">Continuous Scaling </a></li>
+<li><a href="../../docs/vlsi-scaling/eda-design.html">EDA, GPU Design & Advanced Packaging </a></li>
+</ul>
+</details>
+</nav>
+<main class="content">
+<div class="metadata-card">
+<h2 class="metadata-card__title">Water Turbines </h2>
+<div class="metadata-card__field"><span class="metadata-card__label">Node ID</span><span class="metadata-card__value"><code>energy.gravity.water-turbines</code></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Domain</span><span class="metadata-card__value">energy</span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Timeline</span><span class="metadata-card__value">Years 20-40</span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Outputs</span><span class="metadata-card__value"><code>water_turbine_power</code>, <code>hydro_generators</code></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Enables</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/energy/gravity.html">energy.gravity</a> <a class="metadata-card__link" href="../../docs/machine-tools/machining.html">machine-tools.machining</a> <a class="metadata-card__link" href="../../docs/metals/iron-steel.html">metals.iron-steel</a></span></div>
+</div>
+<h1>Water Turbines</h1>
+<blockquote>
+<p><strong>Node ID</strong>: energy.gravity.water-turbines
+<strong>Domain</strong>: <a href="./">Energy</a>
+<strong>Dependencies</strong>: <a class="node-ref" href="../../docs/energy/gravity.html">energy.gravity</a>, <a class="node-ref" href="../../docs/metals/iron-steel.html">metals.iron-steel</a>, <code>machine-tools</code>
+<strong>Enables</strong>: <a class="node-ref" href="../../docs/energy/electricity.html">energy.electricity</a> (prime mover for generators), <a class="node-ref" href="../../docs/energy/storage.html">energy.storage</a> (reversible pump-turbines)
+<strong>Timeline</strong>: Years 12-25
+<strong>Outputs</strong>: hydraulic_power, electrical_generation, high_rpm_rotation</p>
+</blockquote>
+<h3>Overview</h3>
+<p>Water turbines replace water wheels where higher heads, higher efficiencies, and faster rotation speeds are needed. They convert the gravitational potential energy of falling water into continuous rotary motion at 100-1000+ RPM — directly usable for electrical generators without the massive gear reductions that water wheels require. All turbine types require iron or steel construction and precision machining, making them dependent on the machine-tools stage. For lower-head applications with simpler construction, see <a href="gravity.html">gravity.md</a> for water wheel types.</p>
+<h3>Pelton Wheel (Impulse Turbine)</h3>
+<p><strong>Principle</strong>: One or more high-velocity water jets from a nozzle strike spoon-shaped buckets mounted on the perimeter of a runner. All pressure conversion to kinetic energy happens at the nozzle — the runner operates in atmospheric pressure (not submerged). The jet's momentum transfers to the bucket, spinning the runner.</p>
+<p><strong>Construction</strong>:</p>
+<ul>
+<li><strong>Runner</strong>: Cast iron or bronze hub with forged steel buckets bolted or cast integrally. Each bucket has a central splitter ridge that divides the incoming jet in half, redirecting each half through approximately 165° for maximum momentum transfer. Buckets are shaped to avoid interfering with the preceding bucket's exhaust.</li>
+<li><strong>Nozzle</strong>: Converging needle nozzle — a conical needle (spear) moves in and out to vary the jet diameter and thus the flow rate. Needle actuated by a governor for speed regulation. Nozzle interior machined smooth to minimize turbulence.</li>
+<li><strong>Jet deflector</strong>: A hinged plate that can swing into the jet path to deflect water away from the runner without closing the nozzle (rapid power reduction without water hammer in the penstock). Used for load rejection protection.</li>
+<li><strong>Casing</strong>: Minimal — open housing since runner operates in air. A collector at the bottom returns spent water to the tailrace.</li>
+</ul>
+<p><strong>Head range</strong>: 30-1000+ m. Best suited for mountain streams with steep gradients. At 100 m head, jet velocity ≈ √(2 × 9.81 × 100) ≈ 44 m/s. The bucket tip speed is designed for approximately half the jet velocity for maximum efficiency.</p>
+<p><strong>Efficiency</strong>: 85-91% at design flow. Remains above 80% down to ~30% of rated flow (with proper nozzle regulation). Degrades at very low flows where nozzle losses become significant relative to power output.</p>
+<p><strong>Power output</strong>: 1-500+ HP. Small Pelton units (5-20 HP) are practical for remote mountainous sites with minimal infrastructure. Large installations in alpine regions reach hundreds of MW.</p>
+<p><strong>Multi-jet arrangements</strong>: 2-6 nozzles arranged around a single runner increase power without increasing runner diameter or speed. Each nozzle independently regulated for partial-load efficiency. Horizontal shaft (1-2 jets) or vertical shaft (4-6 jets) configurations.</p>
+<h3>Francis Turbine (Reaction Turbine)</h3>
+<p><strong>Principle</strong>: Water enters the runner radially from a spiral casing (volute), passes through adjustable guide vanes (wicket gates) that direct flow at the optimal angle, then flows through the curved runner blades and exits axially downward through a draft tube. Both pressure and velocity drop across the runner — it is a true reaction machine. The runner is fully submerged in water; the entire casing is pressurized.</p>
+<p><strong>Construction</strong>:</p>
+<ul>
+<li><strong>Spiral casing (volute)</strong>: Cast iron or welded steel scroll-shaped casing of decreasing cross-section. Distributes water uniformly around the entire runner circumference. Design ensures constant velocity at the wicket gate entrance at all points around the circumference.</li>
+<li><strong>Wicket gates</strong>: 12-24 adjustable guide vanes arranged in a circle around the runner. Each vane rotates on its own pivot. Connected by linkage to a single servomotor (hydraulic cylinder) for synchronized opening/closing. Controls both flow rate and flow angle — the primary speed regulation mechanism.</li>
+<li><strong>Runner</strong>: Cast steel (small units) or fabricated/ welded steel (large units) with complex curved blade profiles. Blades are three-dimensionally curved — the water follows a spiral path from radial entry to axial exit. For small heads, the runner may have 8-12 blades; for large heads, 12-20 blades with longer, more closely spaced profiles.</li>
+<li><strong>Draft tube</strong>: Conical tube extending from the runner exit downward to the tailrace. Its purpose is twofold: recover kinetic energy from the exiting water (acts as a diffuser, slowing the water and converting velocity to pressure), and allow the runner to be set above tailwater level for maintenance access while maintaining a pressure head at the runner exit. Draft tube must be carefully designed — poorly shaped tubes cause flow separation and energy loss.</li>
+<li><strong>Shaft</strong>: Vertical configuration most common (runner at bottom, generator above waterline). Horizontal configurations exist for smaller units.</li>
+</ul>
+<p><strong>Head range</strong>: 3-300 m. The most versatile turbine type — the Francis turbine covers the widest range of heads and flows of any hydraulic turbine. Optimal for medium-head sites (30-200 m).</p>
+<p><strong>Efficiency</strong>: 80-94% at design flow. Francis turbines achieve the highest peak efficiency of any hydraulic turbine type. However, efficiency drops off more steeply at partial flow than Pelton or Kaplan (because the wicket gate angle becomes suboptimal at partial opening). Maintains above 80% from roughly 50-110% of rated flow.</p>
+<p><strong>Power output</strong>: 10-100,000+ HP. Scalable from small village installations to the largest hydroelectric stations in the world.</p>
+<p><strong>Cavitation</strong>: The primary operational hazard. As water accelerates through the runner, local pressure can drop below vapor pressure — microscopic bubbles form and then collapse violently against blade surfaces, pitting and eroding the metal. Prevention: install the runner sufficiently below tailwater level (submergence margin), keep runner surfaces smooth, avoid operating at very low flows where flow angles cause local low-pressure zones. Stainless steel runner blades resist cavitation damage better than carbon steel.</p>
+<h3>Kaplan Turbine (Axial-Flow Reaction Turbine)</h3>
+<p><strong>Principle</strong>: Propeller-type runner with adjustable blade pitch. Water flows axially (horizontally or vertically) through the runner — no radial component. The blade pitch adjusts automatically to match the flow angle for maximum efficiency across a wide range of flows. Conceptually similar to an outboard motor propeller running in reverse.</p>
+<p><strong>Construction</strong>:</p>
+<ul>
+<li><strong>Runner</strong>: Hub containing the blade-pitch mechanism with 3-8 propeller blades bolted to the hub. Each blade rotates on its own axis within the hub. Internal linkage (levers or hydraulic piston) connects all blades so they pitch in unison. The mechanism must operate underwater under pressure — sealed bearings and a rotating oil feed through the hollow shaft.</li>
+<li><strong>Wicket gates</strong>: Similar to Francis — adjustable guide vanes upstream of the runner. The Kaplan has both wicket gate adjustment AND blade pitch adjustment, coordinated by a cam mechanism to maintain optimal angles across the operating range.</li>
+<li><strong>Draft tube</strong>: Essential — the entire pressure recovery happens in the draft tube. S-shaped (elbow) draft tube for horizontal shaft configurations. Vertical configurations use a straight conical draft tube.</li>
+<li><strong>Bulb turbine variant</strong>: For very low-head river installations, the turbine and generator are housed in a streamlined underwater bulb (steel enclosure) placed directly in the river channel. Water flows around and through the bulb. Eliminates the spiral casing and reduces civil works.</li>
+</ul>
+<p><strong>Head range</strong>: 1-15 m. Designed for large rivers with low dams or run-of-river installations where the Francis turbine would require an impractically large runner diameter.</p>
+<p><strong>Efficiency</strong>: 80-92% at design flow. The key advantage is that efficiency remains high over a wide flow range — 85%+ from roughly 30-100% of rated flow — because the blade pitch continuously adapts. This makes Kaplan turbines ideal for rivers with significant seasonal flow variation.</p>
+<p><strong>Power output</strong>: 50-100,000+ HP. Typically installed in large run-of-river or low-head dam sites where enormous flow volumes are available.</p>
+<p><strong>Precision requirements</strong>: Kaplan turbines require the highest manufacturing precision of any turbine type. The blade-to-hub seals must be watertight under pressure. The blade pitch mechanism must move smoothly and synchronously. Cavitation risk is high at low heads — runner submergence is critical.</p>
+<h3>Material Requirements</h3>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Pelton</th>
+<th>Francis</th>
+<th>Kaplan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Runner</td>
+<td>Cast iron/steel hub, forged steel buckets</td>
+<td>Cast or fabricated steel, curved blades</td>
+<td>Cast steel hub, forged steel blades</td>
+</tr>
+<tr>
+<td>Casing</td>
+<td>Minimal (open)</td>
+<td>Cast iron or welded steel volute</td>
+<td>Cast iron or steel, often concrete-embedded</td>
+</tr>
+<tr>
+<td>Guide vanes</td>
+<td>N/A</td>
+<td>Bronze or stainless steel</td>
+<td>Bronze or stainless steel</td>
+</tr>
+<tr>
+<td>Shaft</td>
+<td>Carbon steel</td>
+<td>Carbon or alloy steel</td>
+<td>Alloy steel (hollow for blade linkage)</td>
+</tr>
+<tr>
+<td>Draft tube</td>
+<td>N/A</td>
+<td>Steel plate or concrete</td>
+<td>Steel plate or concrete</td>
+</tr>
+</tbody>
+</table>
+<h3>Site Selection</h3>
+<p>Choosing the correct turbine type depends entirely on the site's head and flow characteristics:</p>
+<ul>
+<li><strong>High head (&gt;100 m), low flow</strong>: Pelton wheel. The only practical choice. Mountain streams, penstock-fed from reservoirs.</li>
+<li><strong>Medium head (10-300 m), medium flow</strong>: Francis turbine. The dominant choice for most hydroelectric sites. Dam-fed or run-of-river with moderate head.</li>
+<li><strong>Low head (1-15 m), high flow</strong>: Kaplan turbine. Large rivers, low dams, tidal barrages. Francis turbines are impractical here because the runner diameter would be enormous.</li>
+<li><strong>Very low head (&lt;3 m), variable flow</strong>: Bulb turbine (Kaplan variant). Run-of-river on large flat rivers.</li>
+</ul>
+<h3>Safety and Hazards</h3>
+<ul>
+<li><strong>Cavitation damage</strong>: Causes pitting of runner blades, vibration, and eventual structural failure. Monitor for noise (sounds like gravel in the turbine), vibration, and performance drop. Repair pitted surfaces promptly — cavitation accelerates once pits form (they act as nucleation sites for more bubbles).</li>
+<li><strong>Water hammer</strong>: Rapid valve closure on a long penstock creates a pressure shock wave that travels at the speed of sound in water (~1400 m/s). The resulting pressure spike can burst pipes or damage turbine casings. Prevention: surge tanks (standpipe on the penstock that absorbs the shock), slow-closing valves, jet deflectors (Pelton) that reduce power without closing the nozzle.</li>
+<li><strong>Runner runaway</strong>: If the generator disconnects from the grid (load rejection) and the wicket gates fail to close, the turbine accelerates to runaway speed — typically 1.8-2.5× rated speed. Centrifugal forces scale with the square of speed — a 2× overspeed quadruples stress. Structural failure is possible. Prevention: governor-closed wicket gates with independent overspeed trip, jet deflectors (Pelton), and emergency gate upstream that can drop closed.</li>
+<li><strong>Entrapment and drowning</strong>: Turbine pits and draft tube areas are confined spaces with water hazards. Lock-out/tag-out before entering. Ventilate confined spaces. Never enter a turbine pit without verifying isolation.</li>
+</ul>
+<h3>Cross-References</h3>
+<ul>
+<li><strong>Water wheels (simpler predecessors)</strong>: <a href="gravity.html">gravity.md</a></li>
+<li><strong>Pumped hydro (reversible turbines)</strong>: <a href="storage.html">storage.md</a>, <a href="pumped-hydro.html">pumped-hydro.md</a></li>
+<li><strong>Electrical generators driven by turbines</strong>: <a href="electricity.html">electricity.md</a></li>
+<li><strong>Machine tools required for precision components</strong>: <a href="../machine-tools/forming.html">forming.md</a></li>
+</ul>
+<hr />
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="./">Energy</a> • <a href="../">All Domains</a></em></p>
+
+</main>
+</div>
+<footer class="footer">
+<p>Part of the Bootciv Tech Tree</p>
+</footer>
+<script src="../../assets/mermaid.min.js"></script>
+<script src="../../assets/search-index.js"></script>
+<script src="../../assets/search.js"></script>
+<script src="../../assets/main.js"></script>
+</body>
+</html>

@@ -14,6 +14,7 @@
 <details class="sidebar__domain">
 <summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
 <ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
 <li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
 <li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
@@ -27,7 +28,8 @@
 <li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
 <li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
 <li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
-<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
 <li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
 <li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
@@ -51,6 +53,7 @@
 <li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
 <li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
 <li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
 <li><a href="../../docs/energy/gravity.html">Water Power </a></li>
 <li><a href="../../docs/energy/wind.html">Wind Power </a></li>
@@ -83,6 +86,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
 <li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
 <li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
 </ul>
 </details>
@@ -164,6 +168,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
 <li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
 <li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
 <li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
 </ul>
@@ -174,6 +179,7 @@
 <li><a href="../../docs/transport/aviation.html">Aviation </a></li>
 <li><a href="../../docs/transport/railways.html">Railways </a></li>
 <li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
 <li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
 </ul>
 </details>
@@ -259,7 +265,7 @@
 <li><strong>Elastomers</strong>: wheels, belts, bushings, wear pads (cast or injection molded)</li>
 <li><strong>Spray coatings</strong>: polyurea for fast-cure protective linings (reaction time &lt;10 seconds)</li>
 </ul>
-<p><strong>Complexity warning</strong>: isocyanate production is non-trivial. The industrial route reacts primary amines with phosgene (COCl₂), which itself requires chlorine + carbon monoxide. Non-phosgene routes exist (thermal cleavage of urethane, or carbonylation of nitroaromatics) but are less mature. <!-- TODO: verify non-phosgene isocyanate routes for bootstrapping feasibility --> Isocyanates are also toxic and require careful handling, ventilation, and PPE.</p>
+<p><strong>Complexity warning</strong>: isocyanate production is non-trivial. The industrial route reacts primary amines with phosgene (COCl₂), which itself requires chlorine + carbon monoxide. Non-phosgene routes exist (thermal cleavage of urethane, or carbonylation of nitroaromatics) but are less mature. Isocyanates are also toxic and require careful handling, ventilation, and PPE.</p>
 <h2>Key Milestones</h2>
 <p>Ordered by approximate phase availability:</p>
 <ul>
@@ -275,6 +281,15 @@
 <li>☐ <strong>Photolithography stage</strong>: Novolac-based photoresist resin for photolithography (same chemistry as Bakelite novolac route)</li>
 <li>☐ <strong>Photolithography stage</strong>: Epoxy die attach and IC encapsulation materials qualified for fab use</li>
 </ul>
+<h3>Safety &amp; Hazards</h3>
+<ul>
+<li><strong>Formaldehyde (IARC Group 1 carcinogen)</strong>: A confirmed human carcinogen used in both phenol-formaldehyde (Bakelite) and urea-formaldehyde resin production. Inhalation of formaldehyde vapor causes nasal and respiratory tract irritation; chronic exposure increases cancer risk. Use in well-ventilated areas with local exhaust. Wear chemical splash goggles and a respirator with formaldehyde cartridge when handling formaldehyde solutions or during resin synthesis. Monitor airborne concentrations — OSHA PEL is 0.75 ppm (8-hour TWA).</li>
+<li><strong>Phenol (chemical burns, skin absorption)</strong>: Causes severe chemical burns on contact — initially painless because it simultaneously anesthetizes tissue, leading to deeper injury before the victim notices. Absorbed rapidly through intact skin; systemic toxicity targets the liver and kidneys. Wear nitrile or neoprylene gloves (not latex — phenol penetrates latex), chemical splash goggles, and a face shield during phenol handling. In case of skin contact, flush with large amounts of water immediately and seek medical attention — do not rely on pain as an indicator of exposure severity.</li>
+<li><strong>Epoxy sensitization</strong>: Repeated skin contact with uncured epoxy resin or amine hardeners causes allergic contact dermatitis that becomes permanent once sensitized — even trace future exposure triggers severe rash. Once sensitized, a worker may be unable to continue any epoxy-related work. Wear nitrile gloves, change gloves if contaminated, and minimize all skin contact. Use barrier creams as a supplement, never a substitute for gloves.</li>
+<li><strong>Ammonia (respiratory irritant)</strong>: Used as a base catalyst in the resole route for phenol-formaldehyde. Ammonia gas is a powerful respiratory and eye irritant — 300 ppm is immediately dangerous to life. Handle concentrated ammonia solutions in ventilated areas. Wear eye protection and a respirator if ventilation is insufficient.</li>
+</ul>
+<hr />
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="./">Polymers</a> • <a href="../">All Domains</a></em></p>
 
 </main>
 </div>

@@ -9,6 +9,7 @@ graph TD
         ceramics_pottery_kiln-firing["Kiln Firing"]
         ceramics_kilns["Kiln Construction"]
         ceramics_lime["Lime Production"]
+        ceramics_advanced-ceramics["Advanced Ceramics & Refractories"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -24,11 +25,15 @@ graph TD
     foundations_tools-basic("Stone & Wood Tools")
     health_sanitation("Water Supply & Sanitation")
     metals("Metals")
+    metals_iron-steel_blast-furnace("Blast Furnace and Cast Iron")
     mining("Mining Engineering & Extractive Metallurgy")
     photolithography_cleanrooms("Cleanrooms")
+    silicon("Silicon")
 
     %% ==================== EDGES ====================
     ceramics_lime -.-> ceramics_kilns
+    ceramics_advanced-ceramics -.-> ceramics_pottery
+    ceramics_advanced-ceramics -.-> ceramics_kilns
     energy_fuels_coal -.-> ceramics_kilns
     energy_fuels_coke -.-> ceramics_kilns
     chemistry_cement -.-> ceramics_kilns
@@ -40,6 +45,9 @@ graph TD
     ceramics_pottery -.-> foundations_tools-basic
     health_sanitation -.-> ceramics
     ceramics_lime --> mining
+    ceramics_advanced-ceramics --> mining
+    silicon -.-> ceramics_advanced-ceramics
+    metals_iron-steel_blast-furnace -.-> ceramics_kilns
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -60,6 +68,7 @@ graph TD
     class ceramics_pottery_kiln-firing process
     class ceramics_kilns capability
     class ceramics_lime capability
+    class ceramics_advanced-ceramics critical
     class chemistry_cement external
     class energy_fuels_charcoal external
     class energy_fuels_coal external
@@ -69,6 +78,8 @@ graph TD
     class foundations_tools-basic external
     class health_sanitation external
     class metals external
+    class metals_iron-steel_blast-furnace external
     class mining external
     class photolithography_cleanrooms external
+    class silicon external
     class EdgeLegend,MatNote,ToolNote legend

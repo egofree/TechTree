@@ -9,6 +9,7 @@ graph TD
         textiles_spinning["Spinning"]
         textiles_weaving["Weaving"]
         textiles_dyeing["Dyeing"]
+        textiles_rope-making["Rope and Cordage"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -20,6 +21,7 @@ graph TD
     energy_wind("Wind Power")
     foundations("Foundations")
     foundations_tools-basic("Stone & Wood Tools")
+    knowledge_printing("Paper and Printing Press")
     machine-tools("Machine Tools Bootstrap")
     transport_aviation("Aviation")
     transport_shipping("Water Transport")
@@ -28,6 +30,8 @@ graph TD
     textiles_fibers --> textiles_spinning
     textiles_spinning --> textiles_weaving
     textiles_weaving --> textiles_dyeing
+    textiles_rope-making --> textiles_fibers
+    textiles_rope-making --> textiles_spinning
     energy_gravity -.-> textiles
     energy_wind -.-> textiles
     machine-tools -.-> textiles
@@ -36,6 +40,7 @@ graph TD
     textiles_fibers -.-> foundations_tools-basic
     textiles_dyeing --> chemistry
     transport_shipping --> textiles
+    knowledge_printing --> textiles_fibers
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -56,11 +61,13 @@ graph TD
     class textiles_spinning capability
     class textiles_weaving capability
     class textiles_dyeing capability
+    class textiles_rope-making capability
     class chemistry external
     class energy_gravity external
     class energy_wind external
     class foundations external
     class foundations_tools-basic external
+    class knowledge_printing external
     class machine-tools external
     class transport_aviation external
     class transport_shipping external

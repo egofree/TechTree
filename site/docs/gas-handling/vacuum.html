@@ -14,6 +14,7 @@
 <details class="sidebar__domain">
 <summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
 <ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
 <li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
 <li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
@@ -27,7 +28,8 @@
 <li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
 <li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
 <li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
-<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
 <li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
 <li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
@@ -51,6 +53,7 @@
 <li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
 <li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
 <li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
 <li><a href="../../docs/energy/gravity.html">Water Power </a></li>
 <li><a href="../../docs/energy/wind.html">Wind Power </a></li>
@@ -83,6 +86,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
 <li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
 <li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
 </ul>
 </details>
@@ -164,6 +168,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
 <li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
 <li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
 <li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
 </ul>
@@ -174,6 +179,7 @@
 <li><a href="../../docs/transport/aviation.html">Aviation </a></li>
 <li><a href="../../docs/transport/railways.html">Railways </a></li>
 <li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
 <li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
 </ul>
 </details>
@@ -194,7 +200,7 @@
 <div class="metadata-card__field"><span class="metadata-card__label">Domain</span><span class="metadata-card__value">gas-handling</span></div>
 <div class="metadata-card__field"><span class="metadata-card__label">Timeline</span><span class="metadata-card__value">Years 25-40</span></div>
 <div class="metadata-card__field"><span class="metadata-card__label">Outputs</span><span class="metadata-card__value"><code>vacuum_pumps</code>, <code>vacuum_chambers</code>, <code>vacuum_measurement</code>, <code>leak_detection</code></span></div>
-<div class="metadata-card__field"><span class="metadata-card__label">Dependencies</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/photolithography/fab-processes.html">photolithography.fab-processes</a> <a class="metadata-card__link" href="../../docs/silicon/basic-devices.html">silicon.basic-devices</a></span></div>
+<div class="metadata-card__field"><span class="metadata-card__label">Dependencies</span><span class="metadata-card__value"><a class="metadata-card__link" href="../../docs/optics/optical-coatings.html">optics.inspection.optical-coatings</a> <a class="metadata-card__link" href="../../docs/photolithography/fab-processes.html">photolithography.fab-processes</a> <a class="metadata-card__link" href="../../docs/silicon/basic-devices.html">silicon.basic-devices</a></span></div>
 </div>
 <h1>Vacuum Technology</h1>
 <blockquote>
@@ -243,7 +249,7 @@
 <p><strong>Leak detection</strong>:</p>
 <ul>
 <li><strong>Bubble test</strong>: Pressurize system, spray soap solution on exterior, watch for bubbles. Finds large leaks.</li>
-<li><strong>Helium leak detector</strong> (Photolithography+): Mass spectrometer tuned to He. Spray He on exterior, detect He entering vacuum system. Sensitivity ~10⁻¹² atm·cc/s. The gold standard.</li>
+<li><strong>Helium leak detector</strong>: Mass spectrometer tuned to He. Spray He on exterior, detect He entering vacuum system. Sensitivity ~10⁻¹² atm·cc/s. The gold standard.</li>
 <li><strong>Tesla coil</strong>: High-frequency spark probe. Spark penetrates small holes in glass apparatus (visible discharge inside). Glass systems only.</li>
 </ul>
 <h3>Vacuum System Design</h3>
@@ -311,8 +317,13 @@
 <li><strong>Method</strong>: Wrap chamber with heating tape (nichrome or silicone rubber insulated) or use custom-fitted band heaters. Cover with aluminum foil or fiberglass insulation to maintain uniform temperature. Monitor with thermocouples taped to multiple points on the chamber surface (top, bottom, side, ports). Avoid hot spots — local overheating warps flanges and ruins sealing surfaces.</li>
 <li><strong>Cool-down</strong>: After bake, turn off heaters. Allow system to cool naturally while still under vacuum. Do not vent until below 50°C — rapid cooling with air exposure re-adsorbs moisture, undoing much of the bake-out benefit.</li>
 </ul>
+<h3>Safety &amp; Hazards</h3>
+<p><strong>Implosion risk from glass vacuum chambers</strong>: Glass bell jars and glass vacuum apparatus are under ~1 atmosphere (14.7 psi) of external pressure when evacuated. A flaw, scratch, or star crack concentrates stress and can cause sudden catastrophic implosion — the glass fragments are accelerated inward by atmospheric pressure, then bounce outward at high velocity. Risk mitigation: inspect all glassware for scratches, chips, and internal stresses before each use. Wrap glass chambers with adhesive-backed shatter film or multiple layers of tape (contains fragments if implosion occurs). Use polycarbonate safety shields between the operator and the glass chamber. Wear safety glasses at all times near evacuated glass systems. For larger chambers, prefer steel or stainless steel construction over glass.</p>
+<p><strong>Vacuum chamber overpressure protection</strong>: If a vacuum system is accidentally connected to a pressure source (wrong valve opened, gas line backfeed), the chamber can be pressurized beyond its design limit. Steel vacuum chambers are designed for external pressure (vacuum) and may have thin walls that fail under internal pressure. Install pressure relief valves (set slightly above atmospheric, typically 1.1-1.5 bar absolute) on all vacuum chambers. Never pressurize a vacuum vessel beyond its rated pressure. If using a chamber for both vacuum and positive pressure, ensure it is rated for both conditions.</p>
+<p><strong>Oil diffusion pump fire hazard</strong>: Diffusion pump oil is heated to 150-200°C in the boiler. If the cooling water fails (or was never turned on), oil temperature rises uncontrollably — silicone oil decomposes above ~250-300°C, producing flammable decomposition gases. If air leaks into a hot diffusion pump, the mixture of hot oil vapor and oxygen can ignite. Prevention: interlock cooling water flow to pump heater — if water flow stops, heater must shut off automatically. Never vent a hot diffusion pump to air; always cool the boiler below 50°C before venting. Use high-thermal-stability oils (Santovac, DC-705) that resist decomposition. Keep a Class B fire extinguisher nearby.</p>
+<p><strong>Cryogenic trap handling</strong>: Cold traps cooled with liquid nitrogen (LN₂, -196°C) present cold burn and condensation hazards. Skin contact with LN₂-cooled surfaces causes immediate frostbite (tissue destruction identical to burns). Wear insulated cryogenic gloves (not just leather work gloves — cold penetrates thin gloves rapidly) and face shield when handling LN₂ or manipulating cold traps. When filling a cold trap, add LN₂ slowly — rapid pouring causes violent boiling and splashing. <strong>Critical hazard</strong>: if a cold trap is left filled with LN₂ after the vacuum system is vented to air, the trap will condense liquid oxygen from the air (LOX boils at -183°C, warmer than LN₂ at -196°C). LOX is a powerful oxidizer — contact with any organic material (oil, grease, vacuum grease, O-rings) can cause spontaneous ignition or explosion. Always empty cold traps before venting the vacuum system, or warm the trap to above -183°C before air exposure.</p>
 <hr />
-<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="../">All Domains</a></em></p>
+<p><em>Part of the <a href="../">Bootciv Tech Tree</a> • <a href="./">Gas Handling</a> • <a href="../">All Domains</a></em></p>
 
 </main>
 </div>

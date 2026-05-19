@@ -14,6 +14,7 @@
 <details class="sidebar__domain">
 <summary class="sidebar__domain-title"><a href="../../docs/ceramics/index.html" class="sidebar__domain-link">Ceramics & Refractories</a> </summary>
 <ul class="sidebar__capabilities">
+<li><a href="../../docs/ceramics/advanced-ceramics.html">Advanced Ceramics & Refractories <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/ceramics/kilns.html">Kiln Construction </a></li>
 <li><a href="../../docs/ceramics/lime.html">Lime Production </a></li>
 <li><a href="../../docs/ceramics/pottery.html">Pottery & Clay Products </a></li>
@@ -27,7 +28,8 @@
 <li><a href="../../docs/chemistry/cement.html">Cement & Concrete </a></li>
 <li><a href="../../docs/chemistry/distillation.html">Distillation </a></li>
 <li><a href="../../docs/chemistry/dopant-etch-gases.html">Dopant & Etch Gases </a></li>
-<li><a href="../../docs/chemistry/electrolysis.html">Electrolysis </a></li>
+<li><a href="../../docs/energy/electricity.html">Electrolysis </a></li>
+<li><a href="../../docs/chemistry/explosives.html">Explosives and Propellants </a></li>
 <li><a href="../../docs/chemistry/hydrogen-silane.html">Hydrogen & Silane Production </a></li>
 <li><a href="../../docs/chemistry/lubricants.html">Lubricants, Oils & Fluid Mechanics <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/chemistry/acids.html">Mineral Acid Production </a></li>
@@ -51,6 +53,7 @@
 <li><a href="../../docs/energy/electricity.html">Electricity Generation & Distribution </a></li>
 <li><a href="../../docs/energy/storage.html">Energy Storage & Diversification </a></li>
 <li><a href="../../docs/energy/fuels.html">Fuel Production </a></li>
+<li><a href="../../docs/energy/engine.html">Heat Engines <span class="badge badge--critical">★</span></a></li>
 <li><a href="../../docs/energy/steam-power.html">Steam Power </a></li>
 <li><a href="../../docs/energy/gravity.html">Water Power </a></li>
 <li><a href="../../docs/energy/wind.html">Wind Power </a></li>
@@ -83,6 +86,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/knowledge/education.html">Education & Training </a></li>
 <li><a href="../../docs/knowledge/libraries.html">Libraries & Information Systems </a></li>
+<li><a href="../../docs/knowledge/printing.html">Paper and Printing Press <span class="badge badge--early-win">⚡</span></a></li>
 <li><a href="../../docs/knowledge/writing.html">Writing & Record-Keeping </a></li>
 </ul>
 </details>
@@ -164,6 +168,7 @@
 <ul class="sidebar__capabilities">
 <li><a href="../../docs/textiles/dyeing.html">Dyeing </a></li>
 <li><a href="../../docs/textiles/fibers.html">Fiber Preparation </a></li>
+<li><a href="../../docs/textiles/rope-making.html">Rope and Cordage </a></li>
 <li><a href="../../docs/textiles/spinning.html">Spinning </a></li>
 <li><a href="../../docs/textiles/weaving.html">Weaving </a></li>
 </ul>
@@ -174,6 +179,7 @@
 <li><a href="../../docs/transport/aviation.html">Aviation </a></li>
 <li><a href="../../docs/transport/railways.html">Railways </a></li>
 <li><a href="../../docs/transport/roads.html">Road & Bridge Construction </a></li>
+<li><a href="../../docs/transport/telegraph.html">Telegraph Communication </a></li>
 <li><a href="../../docs/transport/shipping.html">Water Transport </a></li>
 </ul>
 </details>
@@ -206,6 +212,7 @@ graph TD
         direction TB
         metals_copper-bronze[&quot;Copper &amp; Bronze Production&quot;]
         metals_iron-steel[&quot;Iron &amp; Steel Production&quot;]
+        metals_iron-steel_blast-furnace[&quot;Blast Furnace and Cast Iron&quot;]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -213,14 +220,20 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     ceramics(&quot;Ceramics &amp; Refractories&quot;)
+    ceramics_kilns(&quot;Kiln Construction&quot;)
     chemistry(&quot;Chemistry&quot;)
     computing_mechanical(&quot;Mechanical Calculation&quot;)
     energy(&quot;Energy&quot;)
     energy_cooling(&quot;Cooling Systems &amp; Refrigeration&quot;)
+    energy_engine(&quot;Heat Engines&quot;)
+    energy_fuels_coke(&quot;Coke Production&quot;)
+    energy_gravity_water-turbines(&quot;Water Turbines&quot;)
     energy_steam-power(&quot;Steam Power&quot;)
+    energy_steam-power_steam-turbines(&quot;Steam Turbines&quot;)
     energy_storage(&quot;Energy Storage &amp; Diversification&quot;)
     foundations(&quot;Foundations&quot;)
     foundations_fire(&quot;Fire-Making&quot;)
+    knowledge_printing(&quot;Paper and Printing Press&quot;)
     machine-tools(&quot;Machine Tools Bootstrap&quot;)
     machine-tools_casting(&quot;Metal Casting&quot;)
     machine-tools_forming(&quot;Metal Forming&quot;)
@@ -230,9 +243,11 @@ graph TD
     mining(&quot;Mining Engineering &amp; Extractive Metallurgy&quot;)
     transport(&quot;Transportation &amp; Logistics&quot;)
     transport_railways(&quot;Railways&quot;)
+    transport_telegraph(&quot;Telegraph Communication&quot;)
 
     %% ==================== EDGES ====================
     metals_iron-steel -.-&gt; metals_copper-bronze
+    metals_iron-steel_blast-furnace -.-&gt; metals_iron-steel
     metals -.-&gt; foundations
     metals --&gt; mining
     machine-tools_joining --&gt; metals_iron-steel
@@ -252,6 +267,13 @@ graph TD
     computing_mechanical --&gt; metals
     transport_railways --&gt; metals_iron-steel
     measurement_temperature-pressure --&gt; metals
+    energy_engine -.-&gt; metals
+    energy_steam-power_steam-turbines -.-&gt; metals_iron-steel
+    energy_gravity_water-turbines -.-&gt; metals_iron-steel
+    metals_iron-steel_blast-furnace --&gt; energy_fuels_coke
+    metals_iron-steel_blast-furnace -.-&gt; ceramics_kilns
+    transport_telegraph --&gt; metals_iron-steel
+    knowledge_printing -.-&gt; metals_iron-steel
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend[&quot;Edge Types&quot;]
@@ -270,15 +292,22 @@ graph TD
     class metals domain
     class metals_copper-bronze capability
     class metals_iron-steel critical
+    class metals_iron-steel_blast-furnace process
     class ceramics external
+    class ceramics_kilns external
     class chemistry external
     class computing_mechanical external
     class energy external
     class energy_cooling external
+    class energy_engine external
+    class energy_fuels_coke external
+    class energy_gravity_water-turbines external
     class energy_steam-power external
+    class energy_steam-power_steam-turbines external
     class energy_storage external
     class foundations external
     class foundations_fire external
+    class knowledge_printing external
     class machine-tools external
     class machine-tools_casting external
     class machine-tools_forming external
@@ -288,6 +317,7 @@ graph TD
     class mining external
     class transport external
     class transport_railways external
+    class transport_telegraph external
     class EdgeLegend,MatNote,ToolNote legend
 </pre></div>
 </main>

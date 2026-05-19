@@ -7,6 +7,7 @@ graph TD
         direction TB
         metals_copper-bronze["Copper & Bronze Production"]
         metals_iron-steel["Iron & Steel Production"]
+        metals_iron-steel_blast-furnace["Blast Furnace and Cast Iron"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -14,14 +15,20 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     ceramics("Ceramics & Refractories")
+    ceramics_kilns("Kiln Construction")
     chemistry("Chemistry")
     computing_mechanical("Mechanical Calculation")
     energy("Energy")
     energy_cooling("Cooling Systems & Refrigeration")
+    energy_engine("Heat Engines")
+    energy_fuels_coke("Coke Production")
+    energy_gravity_water-turbines("Water Turbines")
     energy_steam-power("Steam Power")
+    energy_steam-power_steam-turbines("Steam Turbines")
     energy_storage("Energy Storage & Diversification")
     foundations("Foundations")
     foundations_fire("Fire-Making")
+    knowledge_printing("Paper and Printing Press")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_casting("Metal Casting")
     machine-tools_forming("Metal Forming")
@@ -31,9 +38,11 @@ graph TD
     mining("Mining Engineering & Extractive Metallurgy")
     transport("Transportation & Logistics")
     transport_railways("Railways")
+    transport_telegraph("Telegraph Communication")
 
     %% ==================== EDGES ====================
     metals_iron-steel -.-> metals_copper-bronze
+    metals_iron-steel_blast-furnace -.-> metals_iron-steel
     metals -.-> foundations
     metals --> mining
     machine-tools_joining --> metals_iron-steel
@@ -53,6 +62,13 @@ graph TD
     computing_mechanical --> metals
     transport_railways --> metals_iron-steel
     measurement_temperature-pressure --> metals
+    energy_engine -.-> metals
+    energy_steam-power_steam-turbines -.-> metals_iron-steel
+    energy_gravity_water-turbines -.-> metals_iron-steel
+    metals_iron-steel_blast-furnace --> energy_fuels_coke
+    metals_iron-steel_blast-furnace -.-> ceramics_kilns
+    transport_telegraph --> metals_iron-steel
+    knowledge_printing -.-> metals_iron-steel
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -71,15 +87,22 @@ graph TD
     class metals domain
     class metals_copper-bronze capability
     class metals_iron-steel critical
+    class metals_iron-steel_blast-furnace process
     class ceramics external
+    class ceramics_kilns external
     class chemistry external
     class computing_mechanical external
     class energy external
     class energy_cooling external
+    class energy_engine external
+    class energy_fuels_coke external
+    class energy_gravity_water-turbines external
     class energy_steam-power external
+    class energy_steam-power_steam-turbines external
     class energy_storage external
     class foundations external
     class foundations_fire external
+    class knowledge_printing external
     class machine-tools external
     class machine-tools_casting external
     class machine-tools_forming external
@@ -89,4 +112,5 @@ graph TD
     class mining external
     class transport external
     class transport_railways external
+    class transport_telegraph external
     class EdgeLegend,MatNote,ToolNote legend

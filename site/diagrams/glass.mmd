@@ -7,6 +7,7 @@ graph TD
         direction TB
         glass_basic["Basic Glass Production"]
         glass_advanced["Advanced Glass Production"]
+        glass_advanced_glassblowing["Glassblowing and Scientific Apparatus"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -16,6 +17,7 @@ graph TD
     chemistry("Chemistry")
     chemistry_acids("Mineral Acid Production")
     energy("Energy")
+    energy_fuels("Fuel Production")
     machine-tools("Machine Tools Bootstrap")
     mining("Mining Engineering & Extractive Metallurgy")
     silicon("Silicon")
@@ -23,6 +25,7 @@ graph TD
 
     %% ==================== EDGES ====================
     glass_advanced -.-> glass_basic
+    glass_advanced_glassblowing -.-> glass_advanced
     glass_basic --> mining
     chemistry_acids -.-> glass_basic
     glass -.-> machine-tools
@@ -30,6 +33,7 @@ graph TD
     glass --> chemistry
     silicon -.-> glass
     silicon_crystal-growth --> glass_advanced
+    glass_advanced_glassblowing -.-> energy_fuels
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -48,9 +52,11 @@ graph TD
     class glass domain
     class glass_basic capability
     class glass_advanced capability
+    class glass_advanced_glassblowing process
     class chemistry external
     class chemistry_acids external
     class energy external
+    class energy_fuels external
     class machine-tools external
     class mining external
     class silicon external

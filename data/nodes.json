@@ -29,9 +29,9 @@
       "pinnacle_note": "String. Why this is a pinnacle achievement. Only present when pinnacle=true."
     },
     "notes": [
-      "Outputs are orphan tokens — they become meaningful when edges.json (Task 3) connects them via 'requires' and 'produces' relationships.",
+      "Outputs are orphan tokens \u2014 they become meaningful when edges.json (Task 3) connects them via 'requires' and 'produces' relationships.",
       "The schema unifies former 'phases' and 'side quests' into a single hierarchy. No phase_type, phase_number, sq_number, or main_quest/side_quest fields exist.",
-      "Binary dependencies only (required/not) — no soft/optional dependency grading.",
+      "Binary dependencies only (required/not) \u2014 no soft/optional dependency grading.",
       "When populating (Task 6), ensure every capability.process parent chain resolves to an existing node."
     ]
   },
@@ -41,7 +41,7 @@
       "name": "Foundations",
       "level": "domain",
       "parent": null,
-      "description": "Fire-making, stone and wood tools, and agriculture. The starting point for all civilization bootstrapping — no surplus means no specialist labor means no industry.",
+      "description": "Fire-making, stone and wood tools, and agriculture. The starting point for all civilization bootstrapping \u2014 no surplus means no specialist labor means no industry.",
       "timeline": "Years 0-10+",
       "outputs": [
         "fire",
@@ -53,7 +53,7 @@
       "critical": true,
       "critical_note": "Everything depends on food surplus to free specialist labor and fire for all thermal processes",
       "early_win": true,
-      "early_win_note": "Fire + food surplus → specialist labor → better tools → more surplus",
+      "early_win_note": "Fire + food surplus \u2192 specialist labor \u2192 better tools \u2192 more surplus",
       "pinnacle": false,
       "tags": {
         "material": [
@@ -128,7 +128,7 @@
       "name": "Agriculture & Food Production",
       "level": "capability",
       "parent": "foundations",
-      "description": "Grain cultivation, animal domestication, food preservation (drying, smoking, salting, fermentation), and irrigation. The food surplus loop — more food → more specialists → better tools → more food — is the engine that drives all subsequent development.",
+      "description": "Grain cultivation, animal domestication, food preservation (drying, smoking, salting, fermentation), and irrigation. The food surplus loop \u2014 more food \u2192 more specialists \u2192 better tools \u2192 more food \u2014 is the engine that drives all subsequent development.",
       "timeline": "Years 0-10+",
       "outputs": [
         "food_surplus",
@@ -186,7 +186,7 @@
       "name": "Copper & Bronze Production",
       "level": "capability",
       "parent": "metals",
-      "description": "Copper smelting from malachite, azurite, and chalcopyrite in forced-draft charcoal furnaces at 1085-1200°C. Bronze alloying with 5-12% tin for harder, more castable tools. Sand, clay, and stone mold casting techniques.",
+      "description": "Copper smelting from malachite, azurite, and chalcopyrite in forced-draft charcoal furnaces at 1085-1200\u00b0C. Bronze alloying with 5-12% tin for harder, more castable tools. Sand, clay, and stone mold casting techniques.",
       "timeline": "Years 5-10",
       "outputs": [
         "copper",
@@ -213,7 +213,7 @@
       "name": "Iron & Steel Production",
       "level": "capability",
       "parent": "metals",
-      "description": "Bloomery smelting of iron ore at 1200-1400°C producing wrought iron, carburization for steel, and crucible steel (Wootz method). Heat treatment: annealing, quenching, and tempering. This is the critical metallurgical capability that enables all subsequent domains.",
+      "description": "Bloomery smelting of iron ore at 1200-1400\u00b0C producing wrought iron, carburization for steel, and crucible steel (Wootz method). Heat treatment: annealing, quenching, and tempering. This is the critical metallurgical capability that enables all subsequent domains.",
       "timeline": "Years 5-15",
       "outputs": [
         "wrought_iron",
@@ -241,7 +241,7 @@
       "name": "Basic Glass Production",
       "level": "capability",
       "parent": "glass",
-      "description": "Basic glass production from silica sand, potash, and limestone at 1100-1400°C for vessels, beads, and window panes.",
+      "description": "Basic glass production from silica sand, potash, and limestone at 1100-1400\u00b0C for vessels, beads, and window panes.",
       "timeline": "Years 5-15",
       "outputs": [
         "basic_glass",
@@ -266,7 +266,7 @@
       "name": "Machine Tools Bootstrap",
       "level": "domain",
       "parent": null,
-      "description": "Precision manufacturing capability built via Gingery-style iterative bootstrap: casting → crude lathe → improved lathe → shaper → mill → drill press → surface grinder. Covers metal forming, machining, joining, and casting. The single most important parallel track — without machine tools, no semiconductor equipment can be built.",
+      "description": "Precision manufacturing capability built via Gingery-style iterative bootstrap: casting \u2192 crude lathe \u2192 improved lathe \u2192 shaper \u2192 mill \u2192 drill press \u2192 surface grinder. Covers metal forming, machining, joining, and casting. The single most important parallel track \u2014 without machine tools, no semiconductor equipment can be built.",
       "timeline": "Years 10-25",
       "outputs": [
         "lathe",
@@ -290,7 +290,7 @@
         "sand_molds"
       ],
       "critical": true,
-      "critical_note": "Master enabler: every later stage depends on precision parts — cylinders, leadscrews, slides, seals",
+      "critical_note": "Master enabler: every later stage depends on precision parts \u2014 cylinders, leadscrews, slides, seals",
       "early_win": false,
       "pinnacle": false,
       "tags": {
@@ -311,7 +311,7 @@
       "name": "Metal Casting",
       "level": "capability",
       "parent": "machine-tools",
-      "description": "Crucible furnaces for aluminum (660°C) and cast iron (1200-1400°C), green sand molding with bentonite binder, pattern making with shrinkage allowance, flask-based casting, and investment casting. Every machine tool starts as a sand-cast iron or aluminum casting.",
+      "description": "Crucible furnaces for aluminum (660\u00b0C) and cast iron (1200-1400\u00b0C), green sand molding with bentonite binder, pattern making with shrinkage allowance, flask-based casting, and investment casting. Every machine tool starts as a sand-cast iron or aluminum casting.",
       "timeline": "Years 10-15",
       "outputs": [
         "cast_iron_parts",
@@ -339,7 +339,7 @@
       "name": "Iterative Machine Bootstrap",
       "level": "capability",
       "parent": "machine-tools",
-      "description": "The core self-improving sequence: crude lathe (0.5 mm tolerance) → improved lathe with leadscrew (0.1 mm) → shaper (0.05 mm) → milling machine (0.025 mm) → drill press → surface grinder (0.005 mm). Each machine doubles precision achievable with the previous generation.",
+      "description": "The core self-improving sequence: crude lathe (0.5 mm tolerance) \u2192 improved lathe with leadscrew (0.1 mm) \u2192 shaper (0.05 mm) \u2192 milling machine (0.025 mm) \u2192 drill press \u2192 surface grinder (0.005 mm). Each machine doubles precision achievable with the previous generation.",
       "timeline": "Years 10-25",
       "outputs": [
         "lathe",
@@ -405,7 +405,7 @@
       "name": "Bearings, Abrasives & Cutting Tools",
       "level": "capability",
       "parent": "machine-tools",
-      "description": "Plain journal bearings (babbitt metal), rolling element ball bearings (52100 steel), natural abrasives (emery, sandstone) and synthetic abrasives (SiC, Al₂O₃ from electric arc furnace), cutting tool materials (carbon steel, HSS), thread cutting on lathe, and tap and die production.",
+      "description": "Plain journal bearings (babbitt metal), rolling element ball bearings (52100 steel), natural abrasives (emery, sandstone) and synthetic abrasives (SiC, Al\u2082O\u2083 from electric arc furnace), cutting tool materials (carbon steel, HSS), thread cutting on lathe, and tap and die production.",
       "timeline": "Years 10-25",
       "outputs": [
         "bearings",
@@ -489,7 +489,7 @@
       "name": "Metal Joining",
       "level": "capability",
       "parent": "machine-tools",
-      "description": "Forge welding, brazing, soldering, and riveting of metal components. Also covers oxy-acetylene welding and cutting (3100°C flame) and arc welding (SMAW/stick) with flux-coated electrodes.",
+      "description": "Forge welding, brazing, soldering, and riveting of metal components. Also covers oxy-acetylene welding and cutting (3100\u00b0C flame) and arc welding (SMAW/stick) with flux-coated electrodes.",
       "timeline": "Years 5-30",
       "outputs": [
         "forge_welds",
@@ -686,7 +686,7 @@
       "name": "Coke Production",
       "level": "process",
       "parent": "energy.fuels",
-      "description": "Beehive and by-product recovery coke ovens converting bituminous coal to coke (60-70% yield). Coke burns at 1800-2100°C.",
+      "description": "Beehive and by-product recovery coke ovens converting bituminous coal to coke (60-70% yield). Coke burns at 1800-2100\u00b0C.",
       "timeline": "Years 15-25",
       "outputs": [
         "coke",
@@ -735,11 +735,42 @@
       }
     },
     {
+      "id": "energy.engine",
+      "name": "Heat Engines",
+      "level": "capability",
+      "parent": "energy",
+      "description": "Internal and external combustion engines for mechanical power generation. Otto cycle (gasoline) and diesel cycle engines convert fuel combustion into rotary mechanical power with higher power-to-weight ratios than steam engines. Enables motorized transport, aviation, and portable power generation.",
+      "timeline": "Years 20-50",
+      "outputs": [
+        "internal_combustion_engines",
+        "gasoline_engines",
+        "diesel_engines",
+        "mechanical_power"
+      ],
+      "critical": true,
+      "critical_note": "Internal combustion engines enable motorized transport, aviation, and portable power generation that steam engines cannot practically provide",
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "energy",
+          "precision"
+        ],
+        "era": "industrial",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
       "id": "energy.electricity",
       "name": "Electricity Generation & Distribution",
       "level": "capability",
       "parent": "energy",
-      "description": "Voltaic piles and Daniell cells, wire drawing, generators (Faraday magneto → self-exciting dynamo), DC and AC motors, transformers for voltage step-up/step-down, and power distribution (AC wins long-term). Copper wire gauge reference and motor/generator sizing included.",
+      "description": "Voltaic piles and Daniell cells, wire drawing, generators (Faraday magneto \u2192 self-exciting dynamo), DC and AC motors, transformers for voltage step-up/step-down, and power distribution (AC wins long-term). Copper wire gauge reference and motor/generator sizing included.",
       "timeline": "Years 15-30",
       "outputs": [
         "generators",
@@ -768,7 +799,7 @@
       "name": "Electric Furnaces",
       "level": "capability",
       "parent": "energy",
-      "description": "Electric arc furnace (EAF) for steelmaking and silicon reduction, submerged arc furnace for continuous production, and resistance heating elements (Nichrome, Kanthal, SiC). Arc temperatures reach 3000-3500°C. EAF is critical for MG-Si production and specialty steel.",
+      "description": "Electric arc furnace (EAF) for steelmaking and silicon reduction, submerged arc furnace for continuous production, and resistance heating elements (Nichrome, Kanthal, SiC). Arc temperatures reach 3000-3500\u00b0C. EAF is critical for MG-Si production and specialty steel.",
       "timeline": "Years 20-30",
       "outputs": [
         "electric_arc_furnaces",
@@ -910,7 +941,7 @@
       "name": "Mineral Acid Production",
       "level": "capability",
       "parent": "chemistry",
-      "description": "Sulfuric acid (lead chamber process 65-70%, contact process 96-98%), nitric acid (from nitrates + H₂SO₄, later Ostwald process), hydrochloric acid (NaCl + H₂SO₄ or direct H₂ + Cl₂ synthesis), and hydrofluoric acid (CaF₂ + H₂SO₄, extremely hazardous). HF is uniquely dangerous and essential for glass and silicon etching.",
+      "description": "Sulfuric acid (lead chamber process 65-70%, contact process 96-98%), nitric acid (from nitrates + H\u2082SO\u2084, later Ostwald process), hydrochloric acid (NaCl + H\u2082SO\u2084 or direct H\u2082 + Cl\u2082 synthesis), and hydrofluoric acid (CaF\u2082 + H\u2082SO\u2084, extremely hazardous). HF is uniquely dangerous and essential for glass and silicon etching.",
       "timeline": "Years 20-35",
       "outputs": [
         "sulfuric_acid",
@@ -938,7 +969,7 @@
       "name": "Alkali Production",
       "level": "capability",
       "parent": "chemistry",
-      "description": "Leblanc process (first synthetic soda ash) and Solvay process (more efficient, later) for Na₂CO₃, lime-soda process and chlor-alkali electrolysis for NaOH. Soda ash and caustic soda are essential for glass making, soap production, paper pulping, and chemical processing.",
+      "description": "Leblanc process (first synthetic soda ash) and Solvay process (more efficient, later) for Na\u2082CO\u2083, lime-soda process and chlor-alkali electrolysis for NaOH. Soda ash and caustic soda are essential for glass making, soap production, paper pulping, and chemical processing.",
       "timeline": "Years 20-35",
       "outputs": [
         "soda_ash",
@@ -964,7 +995,7 @@
       "name": "Cement & Concrete",
       "level": "capability",
       "parent": "chemistry",
-      "description": "Portland cement from limestone + clay heated to 1450°C, ground with gypsum. Concrete (1:2:4 cement:sand:gravel mix), reinforced concrete with steel rebar, and curing protocols. Dominant building material for factory foundations, dams, roads, and vibration isolation pads.",
+      "description": "Portland cement from limestone + clay heated to 1450\u00b0C, ground with gypsum. Concrete (1:2:4 cement:sand:gravel mix), reinforced concrete with steel rebar, and curing protocols. Dominant building material for factory foundations, dams, roads, and vibration isolation pads.",
       "timeline": "Years 20-35",
       "outputs": [
         "cement",
@@ -992,7 +1023,7 @@
       "name": "Electrolysis",
       "level": "capability",
       "parent": "chemistry",
-      "description": "Electrolytic cells for chlor-alkali (NaCl → Cl₂ + NaOH), water splitting (H₂ + O₂), aluminum Hall-Héroult process, and copper refining. DC power at 2-5V per cell, industrial current 100-10,000+ A. Enables production of ultra-pure hydrogen, chlorine, and aluminum.",
+      "description": "Electrolytic cells for chlor-alkali (NaCl \u2192 Cl\u2082 + NaOH), water splitting (H\u2082 + O\u2082), aluminum Hall-H\u00e9roult process, and copper refining. DC power at 2-5V per cell, industrial current 100-10,000+ A. Enables production of ultra-pure hydrogen, chlorine, and aluminum.",
       "timeline": "Years 20-30",
       "outputs": [
         "electrolysis",
@@ -1049,7 +1080,7 @@
       "name": "Hydrogen & Silane Production",
       "level": "capability",
       "parent": "chemistry",
-      "description": "Hydrogen via electrolysis (4-5 kWh/Nm³) with Pd membrane purification, steam reforming of methane, and silane (SiH₄) production from MG-Si via trichlorosilane redistribution. Silane is pyrophoric — rigorous handling protocols required.",
+      "description": "Hydrogen via electrolysis (4-5 kWh/Nm\u00b3) with Pd membrane purification, steam reforming of methane, and silane (SiH\u2084) production from MG-Si via trichlorosilane redistribution. Silane is pyrophoric \u2014 rigorous handling protocols required.",
       "timeline": "Years 25-50",
       "outputs": [
         "hydrogen",
@@ -1076,7 +1107,7 @@
       "name": "Dopant & Etch Gases",
       "level": "capability",
       "parent": "chemistry",
-      "description": "Dopant gases (PH₃, AsH₃, B₂H₆ — extremely toxic, lethal at ppm concentrations) and etch gases (CF₄, SF₆, Cl₂, F₂). Fluorine production by KF·2HF electrolysis. Exhaust gas abatement via thermal oxidation and wet scrubbing mandatory for all dopant gas use.",
+      "description": "Dopant gases (PH\u2083, AsH\u2083, B\u2082H\u2086 \u2014 extremely toxic, lethal at ppm concentrations) and etch gases (CF\u2084, SF\u2086, Cl\u2082, F\u2082). Fluorine production by KF\u00b72HF electrolysis. Exhaust gas abatement via thermal oxidation and wet scrubbing mandatory for all dopant gas use.",
       "timeline": "Years 30-70",
       "outputs": [
         "dopant_gases",
@@ -1127,7 +1158,7 @@
       "name": "Petroleum & Alternative Chemistry",
       "level": "capability",
       "parent": "chemistry",
-      "description": "Petroleum extraction (surface seeps → cable-tool → rotary drilling), refining (batch distillation → fractional distillation → thermal cracking), coal tar chemistry (benzene, phenol, naphthalene from coke ovens), fermentation (ethanol, acetone, acetic acid, methanol), and wood gasification. Dual-path strategy: petroleum accelerates everything, but coal tar + fermentation covers the same molecules.",
+      "description": "Petroleum extraction (surface seeps \u2192 cable-tool \u2192 rotary drilling), refining (batch distillation \u2192 fractional distillation \u2192 thermal cracking), coal tar chemistry (benzene, phenol, naphthalene from coke ovens), fermentation (ethanol, acetone, acetic acid, methanol), and wood gasification. Dual-path strategy: petroleum accelerates everything, but coal tar + fermentation covers the same molecules.",
       "timeline": "Years 5-50+",
       "outputs": [
         "gasoline",
@@ -1190,7 +1221,7 @@
       "name": "Advanced Glass Production",
       "level": "capability",
       "parent": "glass",
-      "description": "Borosilicate glass (Pyrex-type, thermal shock resistant), fused silica/quartz glass (1700°C+, critical for CZ crucibles), glass tubing production, glassworking techniques (lampworking, sealing), and quartz crucible fabrication for semiconductor use.",
+      "description": "Borosilicate glass (Pyrex-type, thermal shock resistant), fused silica/quartz glass (1700\u00b0C+, critical for CZ crucibles), glass tubing production, glassworking techniques (lampworking, sealing), and quartz crucible fabrication for semiconductor use.",
       "timeline": "Years 25-40",
       "outputs": [
         "borosilicate_glass",
@@ -1220,7 +1251,7 @@
       "name": "Vacuum Technology",
       "level": "capability",
       "parent": "gas-handling",
-      "description": "Piston pumps (rough vacuum 10-50 Torr), rotary vane pumps (workhorse, 10⁻²-10⁻³ Torr), diffusion pumps (high vacuum 10⁻⁶-10⁻⁸ Torr), vacuum chambers (steel or glass), vacuum measurement (Bourdon, Pirani, ion gauges), and leak detection (bubble test, helium leak detector).",
+      "description": "Piston pumps (rough vacuum 10-50 Torr), rotary vane pumps (workhorse, 10\u207b\u00b2-10\u207b\u00b3 Torr), diffusion pumps (high vacuum 10\u207b\u2076-10\u207b\u2078 Torr), vacuum chambers (steel or glass), vacuum measurement (Bourdon, Pirani, ion gauges), and leak detection (bubble test, helium leak detector).",
       "timeline": "Years 25-40",
       "outputs": [
         "vacuum_pumps",
@@ -1247,7 +1278,7 @@
       "name": "Silicon",
       "level": "domain",
       "parent": null,
-      "description": "Production of metallurgical-grade silicon, purification to semiconductor grade, Czochralski crystal growth, wafer slicing and polishing, and fabrication of basic solar cells and semiconductor devices. Solar cells are the primary early target — far simpler than logic chips and creating a critical positive feedback loop.",
+      "description": "Production of metallurgical-grade silicon, purification to semiconductor grade, Czochralski crystal growth, wafer slicing and polishing, and fabrication of basic solar cells and semiconductor devices. Solar cells are the primary early target \u2014 far simpler than logic chips and creating a critical positive feedback loop.",
       "timeline": "Years 30-50",
       "outputs": [
         "mg_silicon",
@@ -1260,7 +1291,7 @@
       ],
       "critical": false,
       "early_win": true,
-      "early_win_note": "Solar cells produce power to make more solar cells — the most important positive feedback loop in the entire tech tree",
+      "early_win_note": "Solar cells produce power to make more solar cells \u2014 the most important positive feedback loop in the entire tech tree",
       "pinnacle": false,
       "tags": {
         "material": [
@@ -1278,7 +1309,7 @@
       "name": "Metallurgical-Grade Silicon Production",
       "level": "capability",
       "parent": "silicon",
-      "description": "Carbothermic reduction of quartz (SiO₂ + 2C → Si + 2CO) in submerged arc electric furnace at 1800-2100°C. Requires 5-30 MW power, produces 97-99% purity MG-Si. Energy consumption: ~11-13 kWh/kg. The starting material for all semiconductor-grade silicon.",
+      "description": "Carbothermic reduction of quartz (SiO\u2082 + 2C \u2192 Si + 2CO) in submerged arc electric furnace at 1800-2100\u00b0C. Requires 5-30 MW power, produces 97-99% purity MG-Si. Energy consumption: ~11-13 kWh/kg. The starting material for all semiconductor-grade silicon.",
       "timeline": "Years 30-40",
       "outputs": [
         "mg_silicon"
@@ -1302,7 +1333,7 @@
       "name": "Silicon Purification",
       "level": "capability",
       "parent": "silicon",
-      "description": "Chemical purification via Siemens-like process (hydrochlorination → fractional distillation of chlorosilanes → CVD deposition, 9N-11N purity) and physical purification via directional solidification and zone refining (5-9N). Siemens process achieves electronic grade but consumes ~100-200 kWh/kg.",
+      "description": "Chemical purification via Siemens-like process (hydrochlorination \u2192 fractional distillation of chlorosilanes \u2192 CVD deposition, 9N-11N purity) and physical purification via directional solidification and zone refining (5-9N). Siemens process achieves electronic grade but consumes ~100-200 kWh/kg.",
       "timeline": "Years 30-50",
       "outputs": [
         "purified_silicon",
@@ -1328,7 +1359,7 @@
       "name": "Crystal Growth & Wafering",
       "level": "capability",
       "parent": "silicon",
-      "description": "Czochralski (CZ) crystal pulling from quartz crucibles with precision motion control, wire saw wafering, lapping (2-5 μm TTV), and CMP polishing (<0.5 nm Ra). RCA clean standard for wafer preparation. CZ puller is the most mechanically demanding equipment in the silicon path.",
+      "description": "Czochralski (CZ) crystal pulling from quartz crucibles with precision motion control, wire saw wafering, lapping (2-5 \u03bcm TTV), and CMP polishing (<0.5 nm Ra). RCA clean standard for wafer preparation. CZ puller is the most mechanically demanding equipment in the silicon path.",
       "timeline": "Years 30-50",
       "outputs": [
         "single_crystal_ingots",
@@ -1354,7 +1385,7 @@
       "name": "Czochralski Crystal Pulling",
       "level": "process",
       "parent": "silicon.crystal-growth",
-      "description": "Pulling single-crystal silicon ingots from molten polysilicon using a seed crystal in a quartz crucible at ~1415°C. Requires precision leadscrew (±0.5% speed stability), argon atmosphere, and temperature control ±0.5°C. Dash process eliminates dislocations via thin neck growth.",
+      "description": "Pulling single-crystal silicon ingots from molten polysilicon using a seed crystal in a quartz crucible at ~1415\u00b0C. Requires precision leadscrew (\u00b10.5% speed stability), argon atmosphere, and temperature control \u00b10.5\u00b0C. Dash process eliminates dislocations via thin neck growth.",
       "timeline": "Years 30-50",
       "outputs": [
         "single_crystal_ingots"
@@ -1378,7 +1409,7 @@
       "name": "Basic Semiconductor Devices",
       "level": "capability",
       "parent": "silicon",
-      "description": "Solar cell fabrication (p-type wafer → phosphorus diffusion → SiNₓ AR coating → screen-printed metallization, targeting 15-18% efficiency), point-contact diodes, alloy junction transistors, and diffused transistors. Vacuum evaporation and screen printing for metallization.",
+      "description": "Solar cell fabrication (p-type wafer \u2192 phosphorus diffusion \u2192 SiN\u2093 AR coating \u2192 screen-printed metallization, targeting 15-18% efficiency), point-contact diodes, alloy junction transistors, and diffused transistors. Vacuum evaporation and screen printing for metallization.",
       "timeline": "Years 30-50",
       "outputs": [
         "solar_cells",
@@ -1406,7 +1437,7 @@
       "name": "Photolithography & IC Fabrication",
       "level": "domain",
       "parent": null,
-      "description": "Cleanrooms, photoresist chemistry, mask making, lithography exposure tools, and core fab processes (etch, deposition, doping, metallization). The planar process enables integrated circuits. Expect <1% yield on first IC runs — iteration is essential.",
+      "description": "Cleanrooms, photoresist chemistry, mask making, lithography exposure tools, and core fab processes (etch, deposition, doping, metallization). The planar process enables integrated circuits. Expect <1% yield on first IC runs \u2014 iteration is essential.",
       "timeline": "Years 40-70",
       "outputs": [
         "cleanrooms",
@@ -1436,7 +1467,7 @@
       "name": "Cleanrooms",
       "level": "capability",
       "parent": "photolithography",
-      "description": "Cleanroom construction (ISO 6-4, HEPA/ULPA filtration, laminar flow, positive pressure, gowning protocols), ultra-pure water systems (RO + DI + UV + membrane filtration to 18 MΩ·cm), and cleanroom consumables (garments, wipers, gloves). A single 1 μm particle on a wafer can kill an entire chip.",
+      "description": "Cleanroom construction (ISO 6-4, HEPA/ULPA filtration, laminar flow, positive pressure, gowning protocols), ultra-pure water systems (RO + DI + UV + membrane filtration to 18 M\u03a9\u00b7cm), and cleanroom consumables (garments, wipers, gloves). A single 1 \u03bcm particle on a wafer can kill an entire chip.",
       "timeline": "Years 40-70",
       "outputs": [
         "cleanrooms",
@@ -1460,7 +1491,7 @@
       "name": "Photoresists, Masks & Lithography",
       "level": "capability",
       "parent": "photolithography",
-      "description": "Photoresist progression from bitumen (100 μm+) to dichromated gelatin (10-50 μm) to novolac+DNQ (0.5-3 μm, positive tone). Spin coating, exposure (mercury lamp g/h/i-line), development in TMAH, and hard bake. Mask making via photoreduction. Contact/proximity and projection printing tools.",
+      "description": "Photoresist progression from bitumen (100 \u03bcm+) to dichromated gelatin (10-50 \u03bcm) to novolac+DNQ (0.5-3 \u03bcm, positive tone). Spin coating, exposure (mercury lamp g/h/i-line), development in TMAH, and hard bake. Mask making via photoreduction. Contact/proximity and projection printing tools.",
       "timeline": "Years 40-70",
       "outputs": [
         "photoresists",
@@ -1487,7 +1518,7 @@
       "name": "Core Fab Processes",
       "level": "capability",
       "parent": "photolithography",
-      "description": "Thermal oxidation (dry and wet), wet etching (HF for SiO₂, KOH for Si) and dry/plasma etching (RIE), CVD deposition (poly-Si, SiO₂, Si₃N₄), PVD (sputtering, evaporation), doping (diffusion and later ion implantation), metallization (Al, later Cu), and the planar process integration for IC fabrication. Example NMOS flow with 7 mask layers.",
+      "description": "Thermal oxidation (dry and wet), wet etching (HF for SiO\u2082, KOH for Si) and dry/plasma etching (RIE), CVD deposition (poly-Si, SiO\u2082, Si\u2083N\u2084), PVD (sputtering, evaporation), doping (diffusion and later ion implantation), metallization (Al, later Cu), and the planar process integration for IC fabrication. Example NMOS flow with 7 mask layers.",
       "timeline": "Years 40-70",
       "outputs": [
         "fab_processes",
@@ -1516,7 +1547,7 @@
       "name": "VLSI Scaling & Advanced Semiconductor",
       "level": "domain",
       "parent": null,
-      "description": "Continuous improvement of wafer size (2\" → 12\"), feature size (10 μm → 7 nm), layer count (1-2 → 10+), and yield (10% → 90%+). Advanced lithography (DUV, eventually EUV), ion implantation, ALD, CMP planarization, copper damascene interconnects, EDA tools, and high-end solar optimization. The pinnacle requiring a mature, self-sustaining industrial ecosystem.",
+      "description": "Continuous improvement of wafer size (2\" \u2192 12\"), feature size (10 \u03bcm \u2192 7 nm), layer count (1-2 \u2192 10+), and yield (10% \u2192 90%+). Advanced lithography (DUV, eventually EUV), ion implantation, ALD, CMP planarization, copper damascene interconnects, EDA tools, and high-end solar optimization. The pinnacle requiring a mature, self-sustaining industrial ecosystem.",
       "timeline": "Years 70-200+",
       "outputs": [
         "vlsi",
@@ -1548,7 +1579,7 @@
       "name": "Continuous Scaling",
       "level": "capability",
       "parent": "vlsi-scaling",
-      "description": "Wafer size progression (2\" → 4\" → 6\" → 8\" → 12\"), feature size reduction (10 μm → 3 μm → 1 μm → 0.35 μm → 0.13 μm → 7 nm), and metal layer progression (1-2 → 10+). Each generation doubles transistor count and requires better process uniformity, larger equipment, and higher yield.",
+      "description": "Wafer size progression (2\" \u2192 4\" \u2192 6\" \u2192 8\" \u2192 12\"), feature size reduction (10 \u03bcm \u2192 3 \u03bcm \u2192 1 \u03bcm \u2192 0.35 \u03bcm \u2192 0.13 \u03bcm \u2192 7 nm), and metal layer progression (1-2 \u2192 10+). Each generation doubles transistor count and requires better process uniformity, larger equipment, and higher yield.",
       "timeline": "Years 70-200+",
       "outputs": [
         "larger_wafers",
@@ -1576,7 +1607,7 @@
       "name": "Advanced Lithography",
       "level": "capability",
       "parent": "vlsi-scaling",
-      "description": "Projection steppers/scanners (i-line 365 nm → 0.35 μm), DUV excimer lasers (KrF 248 nm, ArF 193 nm with immersion → 0.07 μm), and EUV (13.5 nm from Sn plasma, reflective Mo/Si optics, high vacuum beam path). Chemically amplified resists for DUV. EUV is one of the last achievements — incredibly demanding.",
+      "description": "Projection steppers/scanners (i-line 365 nm \u2192 0.35 \u03bcm), DUV excimer lasers (KrF 248 nm, ArF 193 nm with immersion \u2192 0.07 \u03bcm), and EUV (13.5 nm from Sn plasma, reflective Mo/Si optics, high vacuum beam path). Chemically amplified resists for DUV. EUV is one of the last achievements \u2014 incredibly demanding.",
       "timeline": "Years 70-200+",
       "outputs": [
         "advanced_lithography",
@@ -1660,7 +1691,7 @@
       "name": "Knowledge Preservation & Education",
       "level": "domain",
       "parent": null,
-      "description": "Writing system development, paper production, movable type printing press, record keeping, technical drawings, education system (apprenticeships → trade schools → universities), library construction, and digital knowledge storage. Without systematic knowledge transmission across 50-200+ years, the entire effort dies with the first generation.",
+      "description": "Writing system development, paper production, movable type printing press, record keeping, technical drawings, education system (apprenticeships \u2192 trade schools \u2192 universities), library construction, and digital knowledge storage. Without systematic knowledge transmission across 50-200+ years, the entire effort dies with the first generation.",
       "timeline": "Years 0-200+",
       "outputs": [
         "writing_system",
@@ -2102,7 +2133,7 @@
       "name": "Textiles, Fiber & Cordage",
       "level": "domain",
       "parent": null,
-      "description": "Fiber cultivation (flax, hemp, cotton, wool), spinning (drop spindle → treadle wheel), weaving (frame loom → treadle loom), rope-making (hand-laid → rope walk), canvas and sailcloth production, drive belts for power transmission, filter cloth, and protective clothing. Civilization runs on string.",
+      "description": "Fiber cultivation (flax, hemp, cotton, wool), spinning (drop spindle \u2192 treadle wheel), weaving (frame loom \u2192 treadle loom), rope-making (hand-laid \u2192 rope walk), canvas and sailcloth production, drive belts for power transmission, filter cloth, and protective clothing. Civilization runs on string.",
       "timeline": "Years 0-10",
       "outputs": [
         "cordage",
@@ -2116,7 +2147,7 @@
         "protective_clothing"
       ],
       "critical": true,
-      "critical_note": "Rope, cordage, and cloth are foundational for all pre-industrial infrastructure — mining hoists, tool hafting, power transmission, and worker protection",
+      "critical_note": "Rope, cordage, and cloth are foundational for all pre-industrial infrastructure \u2014 mining hoists, tool hafting, power transmission, and worker protection",
       "early_win": false,
       "pinnacle": false,
       "tags": {
@@ -2234,7 +2265,7 @@
       "name": "Mining Engineering & Extractive Metallurgy",
       "level": "domain",
       "parent": null,
-      "description": "Surface and underground mining methods, rock breaking (hand tools, fire-setting, black powder blasting), mine ventilation, water pumping (manual → water wheel → Newcomen engine), hoisting and transport, and ore dressing (crushing, gravity separation, magnetic separation). Ore access is the hard constraint on every metallurgical process.",
+      "description": "Surface and underground mining methods, rock breaking (hand tools, fire-setting, black powder blasting), mine ventilation, water pumping (manual \u2192 water wheel \u2192 Newcomen engine), hoisting and transport, and ore dressing (crushing, gravity separation, magnetic separation). Ore access is the hard constraint on every metallurgical process.",
       "timeline": "Years 0-50+",
       "outputs": [
         "copper_ore",
@@ -2247,7 +2278,7 @@
         "concentrated_ore"
       ],
       "critical": true,
-      "critical_note": "Ore access is the hard constraint on every metallurgical process — the mine drainage → steam engine feedback loop drove all of industrialization",
+      "critical_note": "Ore access is the hard constraint on every metallurgical process \u2014 the mine drainage \u2192 steam engine feedback loop drove all of industrialization",
       "early_win": false,
       "pinnacle": false,
       "tags": {
@@ -2409,7 +2440,7 @@
       "name": "Kiln Firing",
       "level": "process",
       "parent": "ceramics.pottery",
-      "description": "Controlled kiln firing reaching 800-900°C for pottery and up to 1400°C for refractory ceramics.",
+      "description": "Controlled kiln firing reaching 800-900\u00b0C for pottery and up to 1400\u00b0C for refractory ceramics.",
       "timeline": "Years 0-10",
       "outputs": [
         "fired_ceramics"
@@ -2458,7 +2489,7 @@
       "name": "Lime Production",
       "level": "capability",
       "parent": "ceramics",
-      "description": "Lime production by calcining limestone at 900-1000°C for mortar, whitewash, plaster, and chemical feedstock.",
+      "description": "Lime production by calcining limestone at 900-1000\u00b0C for mortar, whitewash, plaster, and chemical feedstock.",
       "timeline": "Years 5-15",
       "outputs": [
         "lime",
@@ -2477,6 +2508,39 @@
         ],
         "era": "iron-age",
         "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "ceramics.advanced-ceramics",
+      "name": "Advanced Ceramics & Refractories",
+      "level": "capability",
+      "parent": "ceramics",
+      "description": "High-performance technical ceramics (alumina, zirconia, silicon carbide, silicon nitride) and refractory linings for furnaces, kilns, and high-temperature industrial processes",
+      "timeline": "Years 15-50",
+      "outputs": [
+        "alumina_ceramics",
+        "zirconia_ceramics",
+        "silicon_carbide",
+        "silicon_nitride",
+        "refractory_linings",
+        "ceramic_insulation",
+        "technical_ceramics"
+      ],
+      "critical": true,
+      "critical_note": "Advanced ceramics provide the furnace linings, crucibles, and high-temperature components that make silicon processing and industrial-scale metallurgy possible",
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "ceramics"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "industrial",
+        "critical": true,
         "early-win": false,
         "pinnacle": false
       }
@@ -2597,7 +2661,7 @@
       "name": "Thermosetting Polymers",
       "level": "capability",
       "parent": "polymers",
-      "description": "Phenol-formaldehyde (Bakelite — electrical insulators, photoresist binders), epoxy resins (structural adhesive, die attach, IC encapsulation), phenolic/epoxy FR-4 laminate (PCB substrate), unsaturated polyester resin (fiberglass matrix), and polyurethane (foams, elastomers).",
+      "description": "Phenol-formaldehyde (Bakelite \u2014 electrical insulators, photoresist binders), epoxy resins (structural adhesive, die attach, IC encapsulation), phenolic/epoxy FR-4 laminate (PCB substrate), unsaturated polyester resin (fiberglass matrix), and polyurethane (foams, elastomers).",
       "timeline": "Years 20-50",
       "outputs": [
         "bakelite",
@@ -2625,7 +2689,7 @@
       "name": "Thermoplastic Polymers",
       "level": "capability",
       "parent": "polymers",
-      "description": "Polyethylene (LDPE/HDPE — films, containers, wire insulation), PVC (rigid pipe, flexible tubing, requires heat stabilizers), nylon (bearings, gears, engineering components), polystyrene (labware, insulation foam), and PTFE/Teflon (chemically inert, ultra-low friction, -200°C to +260°C, for seals and non-stick surfaces).",
+      "description": "Polyethylene (LDPE/HDPE \u2014 films, containers, wire insulation), PVC (rigid pipe, flexible tubing, requires heat stabilizers), nylon (bearings, gears, engineering components), polystyrene (labware, insulation foam), and PTFE/Teflon (chemically inert, ultra-low friction, -200\u00b0C to +260\u00b0C, for seals and non-stick surfaces).",
       "timeline": "Years 20-50",
       "outputs": [
         "polyethylene",
@@ -2654,7 +2718,7 @@
       "name": "Composite Materials",
       "level": "capability",
       "parent": "polymers",
-      "description": "Fiberglass production (E-glass fiber from silica/boron batch, 5-25 μm filaments), hand layup, vacuum bagging, resin transfer molding, and filament winding. Carbon fiber (PAN precursor, aspiration). Polymer processing equipment: extruders, injection molding machines, compression presses, and calenders.",
+      "description": "Fiberglass production (E-glass fiber from silica/boron batch, 5-25 \u03bcm filaments), hand layup, vacuum bagging, resin transfer molding, and filament winding. Carbon fiber (PAN precursor, aspiration). Polymer processing equipment: extruders, injection molding machines, compression presses, and calenders.",
       "timeline": "Years 25-70+",
       "outputs": [
         "fiberglass",
@@ -2773,7 +2837,7 @@
       "name": "Measurement & Instrumentation",
       "level": "domain",
       "parent": null,
-      "description": "Precision measurement, instrumentation, and calibration systems. Spans temperature and pressure sensing, dimensional metrology via the Whitworth three-plate method, gauge blocks and micrometers, electrical standards and calibration chains. You cannot build what you cannot measure — this domain provides the quantitative foundation for all precision manufacturing.",
+      "description": "Precision measurement, instrumentation, and calibration systems. Spans temperature and pressure sensing, dimensional metrology via the Whitworth three-plate method, gauge blocks and micrometers, electrical standards and calibration chains. You cannot build what you cannot measure \u2014 this domain provides the quantitative foundation for all precision manufacturing.",
       "timeline": "Years 10-40",
       "outputs": [
         "precision_metrology",
@@ -2811,7 +2875,7 @@
       "name": "Optical Inspection",
       "level": "capability",
       "parent": "optics",
-      "description": "Lens grinding and polishing (rough grind → fine grind → polish with cerium oxide), compound microscopes (40x-1000x), optical comparators, and spectroscopes. Essential for crystal defect inspection and lithography alignment.",
+      "description": "Lens grinding and polishing (rough grind \u2192 fine grind \u2192 polish with cerium oxide), compound microscopes (40x-1000x), optical comparators, and spectroscopes. Essential for crystal defect inspection and lithography alignment.",
       "timeline": "Years 25-40",
       "outputs": [
         "lenses",
@@ -2905,6 +2969,446 @@
         ],
         "capability": [],
         "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "energy.steam-power.steam-turbines",
+      "name": "Steam Turbines",
+      "level": "process",
+      "parent": "energy.steam-power",
+      "description": "Continuous rotary power from expanding steam via impulse (De Laval) and reaction (Parsons) turbine stages. 50-500+ MW output at 30-40% thermal efficiency with superheat and condenser. Replaces reciprocating engines for all large-scale power generation beyond ~5 MW.",
+      "timeline": "Years 25-50+",
+      "outputs": [
+        "steam_turbine_power",
+        "turbine_generators"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "energy"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "energy.gravity.water-turbines",
+      "name": "Water Turbines",
+      "level": "process",
+      "parent": "energy.gravity",
+      "description": "Rotary hydraulic turbines converting water head to shaft power: Pelton (impulse, 30-1000+ m head, 85-91% efficient), Francis (reaction, 3-300 m head, 80-94%), Kaplan (axial-flow, 1-15 m head, 80-92%). Require iron/steel and precision machining — qualitatively different technology from water wheels.",
+      "timeline": "Years 20-40",
+      "outputs": [
+        "water_turbine_power",
+        "hydro_generators"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals",
+          "water"
+        ],
+        "capability": [
+          "energy"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "energy.storage.pumped-hydro",
+      "name": "Pumped Hydroelectric Storage",
+      "level": "process",
+      "parent": "energy.storage",
+      "description": "Reversible pump-turbine systems storing energy by pumping water uphill to a reservoir, recovering 70-85% via turbine generation on release. The most mature grid-scale energy storage technology, essential for matching intermittent supply with demand.",
+      "timeline": "Years 25-50",
+      "outputs": [
+        "grid_energy_storage",
+        "peak_power"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "water",
+          "metals"
+        ],
+        "capability": [
+          "energy"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "energy.electric-furnaces.electrode-manufacturing",
+      "name": "Graphite Electrode Manufacturing",
+      "level": "process",
+      "parent": "energy.electric-furnaces",
+      "description": "Manufacturing of graphite electrodes from petroleum coke and coal tar pitch via extrusion, baking (800-1200°C), and graphitization (2500-3000°C). Bootstrapping challenge: need electrodes for EAF but need EAF for graphitization. Amorphous carbon electrodes bridge the gap.",
+      "timeline": "Years 30-50",
+      "outputs": [
+        "graphite_electrodes",
+        "amorphous_carbon_electrodes"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals",
+          "chemicals"
+        ],
+        "capability": [
+          "energy"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "metals.iron-steel.blast-furnace",
+      "name": "Blast Furnace and Cast Iron",
+      "level": "process",
+      "parent": "metals.iron-steel",
+      "description": "Continuous iron smelting in tall shaft furnaces producing liquid pig iron (~4% C, ~1% Si) at 1200-1500°C. Cupola furnace remelts pig iron for casting. Three cast iron types: gray (excellent castability, machinable), white (hard, wear-resistant), malleable (heat-treated white iron, tougher). Produces 10-1000+ tonnes per day versus 5-20 kg per bloomery cycle.",
+      "timeline": "Years 15-30",
+      "outputs": [
+        "pig_iron",
+        "cast_iron",
+        "blast_furnace_slag"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "mining.extraction.black-powder",
+      "name": "Black Powder Explosives",
+      "level": "process",
+      "parent": "mining.extraction",
+      "description": "Gunpowder manufacture (75% KNO₃, 15% charcoal, 10% sulfur) for mining blasting. Process: pulverize ingredients separately, wet-mix, press into cakes, crumble and sieve to grain sizes. Corning process ensures uniform burn rate. Enables breaking rock far beyond fire-setting and hand-tool limits.",
+      "timeline": "Years 15-30",
+      "outputs": [
+        "black_powder",
+        "blasting_capability"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "transport.telegraph",
+      "name": "Telegraph Communication",
+      "level": "capability",
+      "parent": "transport",
+      "description": "Electrical telegraph systems using Morse code over iron or copper wire for long-distance communication. Hub-and-spoke networks with relay stations every 50-100 km. Components: telegraph key, sounder, Daniell cell batteries, pole-line construction. Transforms coordination from days-by-courier to minutes-by-wire. Critical for railway block signaling.",
+      "timeline": "Years 20-40",
+      "outputs": [
+        "telegraph",
+        "communication_networks",
+        "block_signaling"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "energy",
+          "transport"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "knowledge.printing",
+      "name": "Paper and Printing Press",
+      "level": "capability",
+      "parent": "knowledge",
+      "description": "Paper production from wood pulp or cotton/linen rag, and movable-type printing press for mass reproduction of text. Gutenberg-style press produces 200-500 impressions per hour. Essential for distributing technical knowledge: process recipes, engineering drawings, failure logs, educational materials across settlements and generations.",
+      "timeline": "Years 5-25",
+      "outputs": [
+        "paper",
+        "printed_books",
+        "technical_manuals"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Printing press multiplies knowledge distribution speed by 100-500x, enabling rapid dissemination of process recipes, engineering drawings, and failure logs across all settlements",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "wood",
+          "fibers"
+        ],
+        "capability": [],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "chemistry.explosives",
+      "name": "Explosives and Propellants",
+      "level": "capability",
+      "parent": "chemistry",
+      "description": "Manufacture of explosive and propellant compounds: black powder (KNO₃/charcoal/sulfur), nitrocellulose/guncotton (cellulose + nitric acid), dynamite (nitroglycerin absorbed in diatomaceous earth), and smokeless powders. Enables efficient mining beyond hand tools, civil engineering (tunnels, canals), and military applications.",
+      "timeline": "Years 15-50",
+      "outputs": [
+        "black_powder",
+        "nitrocellulose",
+        "dynamite",
+        "smokeless_powder"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "chemistry.petroleum-alternatives.fermentation",
+      "name": "Fermentation Chemistry",
+      "level": "process",
+      "parent": "chemistry.petroleum-alternatives",
+      "description": "Microbial and chemical production of solvents and fuels without petroleum: ethanol via grain malting/mashing/fermentation/distillation, acetone-butanol via Weizmann process (Clostridium acetobutylicum), acetic acid via vinegar oxidation or catalytic route, methanol from wood pyrolysis or synthesis gas. Critical non-petroleum chemical feedstock path.",
+      "timeline": "Years 10-30",
+      "outputs": [
+        "ethanol",
+        "acetone",
+        "butanol",
+        "acetic_acid",
+        "methanol"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass",
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "chemistry.petroleum-alternatives.wood-gasification",
+      "name": "Wood Gasification",
+      "level": "process",
+      "parent": "chemistry.petroleum-alternatives",
+      "description": "Producer gas generation from biomass via shaft gasifier: partial combustion produces CO+H₂+N₂ mixture (~5-6 MJ/m³). Gas cleaning via water scrubbing, sawdust filter, cyclone. Can power internal combustion engines directly. Powered vehicles during WWII fuel shortages. Bridge technology before natural gas infrastructure.",
+      "timeline": "Years 15-40",
+      "outputs": [
+        "producer_gas",
+        "syngas"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass",
+          "gases"
+        ],
+        "capability": [
+          "energy"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "glass.advanced.glassblowing",
+      "name": "Glassblowing and Scientific Apparatus",
+      "level": "process",
+      "parent": "glass.advanced",
+      "description": "Lampworking and freehand glassblowing for laboratory and technical apparatus. Torch types (Bunsen, gas-oxygen, hydrogen-oxygen). Standard products: round-bottom flasks, condensers, distillation columns, thermometers, vacuum manifolds, ampoules. Glass-to-metal seals for electrical feedthroughs. Essential for ALL chemistry lab work beyond test tubes.",
+      "timeline": "Years 10-25",
+      "outputs": [
+        "scientific_glassware",
+        "glass_apparatus",
+        "glass_to_metal_seals"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "glass"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "polymers.rubber.gutta-percha",
+      "name": "Gutta-Percha Processing",
+      "level": "process",
+      "parent": "polymers.rubber",
+      "description": "Trans-1,4-polyisoprene from Palaquium tree latex. Hard, horn-like thermoplastic at room temperature, softens at 60-80°C. Harvested by felling trees and collecting coagulated latex. Processing: wash, masticate, roll into sheets. The ONLY practical underwater electrical insulation until polyethylene (1940s). Used for submarine telegraph cables, dental fillings, tool handles, electrical insulation.",
+      "timeline": "Years 15-30",
+      "outputs": [
+        "gutta_percha",
+        "underwater_insulation",
+        "dental_fillings"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "polymers"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "polymers.rubber.shellac",
+      "name": "Shellac Production",
+      "level": "process",
+      "parent": "polymers.rubber",
+      "description": "Lac bug (Kerria lacca) secretion resin, dissolved in ethanol. Harvested as sticklac from host trees, washed to remove dye (yielding seedlac), melted and filtered into buttonlac or flake shellac. French polish for wood finishing. Uses: phonograph records (before vinyl), electrical insulation, primer/sealer, food coating, gasket material. Fastest-drying natural finish.",
+      "timeline": "Years 10-25",
+      "outputs": [
+        "shellac",
+        "shellac_varnish",
+        "phonograph_records"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "polymers",
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "textiles.rope-making",
+      "name": "Rope and Cordage",
+      "level": "capability",
+      "parent": "textiles",
+      "description": "Manufacture of rope from natural and synthetic fibers via ropewalk or mechanized spinner. 3-strand twist rope construction: fibers → yarn → strand → rope. Splicing techniques (eye splice, back splice, short splice) stronger than knots. Tarring for weather resistance. Breaking strength tables for hemp, manila, nylon. Essential for construction hoisting, sailing, mining, and all mechanical handling.",
+      "timeline": "Years 3-20",
+      "outputs": [
+        "rope",
+        "cordage",
+        "tension_members"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "fibers"
+        ],
+        "capability": [
+          "construction",
+          "transport"
+        ],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "optics.inspection.optical-coatings",
+      "name": "Optical Coatings",
+      "level": "process",
+      "parent": "optics.inspection",
+      "description": "Thin-film deposition for optical enhancement: MgF₂ anti-reflection coating (quarter-wave, ~100 nm, thermal evaporation at 10⁻⁴ Pa) and aluminum mirror coating (vacuum evaporation, ~100 nm, 88-92% reflectance). Requires vacuum deposition chamber, tungsten/tantalum boats, thickness monitoring. Enables multi-element lens systems and protected mirrors.",
+      "timeline": "Years 35-50+",
+      "outputs": [
+        "ar_coatings",
+        "mirror_coatings",
+        "optical_filters"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "glass"
+        ],
+        "capability": [
+          "optics",
+          "vacuum"
+        ],
+        "era": "electronic",
         "critical": false,
         "early-win": false,
         "pinnacle": false

@@ -12,10 +12,15 @@ graph TD
         energy_fuels_coal["Coal Mining & Combustion"]
         energy_fuels_coke["Coke Production"]
         energy_steam-power["Steam Power"]
+        energy_engine["Heat Engines"]
         energy_electricity["Electricity Generation & Distribution"]
         energy_electric-furnaces["Electric Furnaces"]
         energy_cooling["Cooling Systems & Refrigeration"]
         energy_storage["Energy Storage & Diversification"]
+        energy_steam-power_steam-turbines["Steam Turbines"]
+        energy_gravity_water-turbines["Water Turbines"]
+        energy_storage_pumped-hydro["Pumped Hydroelectric Storage"]
+        energy_electric-furnaces_electrode-manufacturing["Graphite Electrode Manufacturing"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -27,6 +32,7 @@ graph TD
     chemistry("Chemistry")
     chemistry_air-separation("Air Separation & Bulk Gas Production")
     chemistry_electrolysis("Electrolysis")
+    chemistry_explosives("Explosives and Propellants")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
     computing_electromechanical("Electromechanical Computing")
@@ -34,12 +40,15 @@ graph TD
     foundations_fire("Fire-Making")
     gas-handling("Gas Handling")
     glass("Glass")
+    glass_advanced_glassblowing("Glassblowing and Scientific Apparatus")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_forming("Metal Forming")
     machine-tools_joining("Metal Joining")
+    machine-tools_machining("Machining")
     measurement_temperature-pressure("Temperature & Pressure Measurement")
     metals("Metals")
     metals_iron-steel("Iron & Steel Production")
+    metals_iron-steel_blast-furnace("Blast Furnace and Cast Iron")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_processing("Ore Processing")
     polymers_rubber("Rubber Production")
@@ -47,7 +56,9 @@ graph TD
     silicon_mg-si-production("Metallurgical-Grade Silicon Production")
     textiles("Textiles, Fiber & Cordage")
     transport("Transportation & Logistics")
+    transport_aviation("Aviation")
     transport_railways("Railways")
+    transport_telegraph("Telegraph Communication")
 
     %% ==================== EDGES ====================
     energy_electric-furnaces --> energy_electricity
@@ -55,6 +66,12 @@ graph TD
     energy_fuels_charcoal -.-> energy_fuels
     energy_fuels_coal -.-> energy_fuels
     energy_fuels_coke -.-> energy_fuels
+    energy_engine --> energy_fuels
+    energy_steam-power_steam-turbines -.-> energy_steam-power
+    energy_gravity_water-turbines -.-> energy_gravity
+    energy_storage_pumped-hydro -.-> energy_gravity
+    energy_storage_pumped-hydro -.-> energy_electricity
+    energy_electric-furnaces_electrode-manufacturing --> energy_electric-furnaces
     energy_gravity -.-> textiles
     energy_wind -.-> textiles
     energy_gravity --> chemistry_lubricants
@@ -91,6 +108,18 @@ graph TD
     energy_storage --> polymers_rubber
     transport_railways -.-> energy_steam-power
     measurement_temperature-pressure -.-> energy_electricity
+    energy_engine -.-> metals
+    transport_aviation -.-> energy_engine
+    transport -.-> energy_engine
+    energy_steam-power_steam-turbines -.-> metals_iron-steel
+    energy_steam-power_steam-turbines -.-> machine-tools_machining
+    energy_gravity_water-turbines -.-> metals_iron-steel
+    energy_gravity_water-turbines -.-> machine-tools_machining
+    energy_electric-furnaces_electrode-manufacturing --> chemistry_petroleum-alternatives
+    metals_iron-steel_blast-furnace --> energy_fuels_coke
+    transport_telegraph -.-> energy_electricity
+    chemistry_explosives --> energy_fuels_charcoal
+    glass_advanced_glassblowing -.-> energy_fuels
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -114,15 +143,21 @@ graph TD
     class energy_fuels_coal process
     class energy_fuels_coke process
     class energy_steam-power capability
+    class energy_engine critical
     class energy_electricity capability
     class energy_electric-furnaces capability
     class energy_cooling capability
     class energy_storage capability
+    class energy_steam-power_steam-turbines process
+    class energy_gravity_water-turbines process
+    class energy_storage_pumped-hydro process
+    class energy_electric-furnaces_electrode-manufacturing process
     class ceramics_kilns external
     class ceramics_pottery_kiln-firing external
     class chemistry external
     class chemistry_air-separation external
     class chemistry_electrolysis external
+    class chemistry_explosives external
     class chemistry_lubricants external
     class chemistry_petroleum-alternatives external
     class computing_electromechanical external
@@ -130,12 +165,15 @@ graph TD
     class foundations_fire external
     class gas-handling external
     class glass external
+    class glass_advanced_glassblowing external
     class machine-tools external
     class machine-tools_forming external
     class machine-tools_joining external
+    class machine-tools_machining external
     class measurement_temperature-pressure external
     class metals external
     class metals_iron-steel external
+    class metals_iron-steel_blast-furnace external
     class mining external
     class mining_processing external
     class polymers_rubber external
@@ -143,5 +181,7 @@ graph TD
     class silicon_mg-si-production external
     class textiles external
     class transport external
+    class transport_aviation external
     class transport_railways external
+    class transport_telegraph external
     class EdgeLegend,MatNote,ToolNote legend

@@ -16,6 +16,7 @@ graph TD
     silicon["Silicon"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    ceramics_advanced-ceramics("Advanced Ceramics & Refractories")
     chemistry("Chemistry")
     chemistry_acids("Mineral Acid Production")
     chemistry_air-separation("Air Separation & Bulk Gas Production")
@@ -56,6 +57,7 @@ graph TD
     photolithography --> silicon
     computing_electronic --> silicon_basic-devices
     silicon_crystal-growth_cz-pulling -.-> measurement_temperature-pressure
+    silicon -.-> ceramics_advanced-ceramics
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -77,6 +79,7 @@ graph TD
     class silicon_crystal-growth capability
     class silicon_crystal-growth_cz-pulling process
     class silicon_basic-devices capability
+    class ceramics_advanced-ceramics external
     class chemistry external
     class chemistry_acids external
     class chemistry_air-separation external

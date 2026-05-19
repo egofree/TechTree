@@ -11,6 +11,8 @@ graph TD
         polymers_thermosets["Thermosetting Polymers"]
         polymers_thermoplastics["Thermoplastic Polymers"]
         polymers_composites["Composite Materials"]
+        polymers_rubber_gutta-percha["Gutta-Percha Processing"]
+        polymers_rubber_shellac["Shellac Production"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -18,6 +20,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry("Chemistry")
+    chemistry_distillation("Distillation")
     chemistry_packaging-testing("Semiconductor Packaging & Testing")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
     energy_storage("Energy Storage & Diversification")
@@ -28,6 +31,8 @@ graph TD
 
     %% ==================== EDGES ====================
     polymers_composites --> polymers_thermosets
+    polymers_rubber_gutta-percha -.-> polymers_rubber
+    polymers_rubber_shellac -.-> polymers_rubber
     photolithography_resists-masks --> polymers_thermosets
     chemistry_packaging-testing --> polymers_thermosets
     polymers -.-> foundations
@@ -44,6 +49,7 @@ graph TD
     polymers_rubber_natural -.-> foundations
     health --> polymers_rubber
     energy_storage --> polymers_rubber
+    polymers_rubber_shellac --> chemistry_distillation
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -66,7 +72,10 @@ graph TD
     class polymers_thermosets capability
     class polymers_thermoplastics capability
     class polymers_composites capability
+    class polymers_rubber_gutta-percha process
+    class polymers_rubber_shellac process
     class chemistry external
+    class chemistry_distillation external
     class chemistry_packaging-testing external
     class chemistry_petroleum-alternatives external
     class energy_storage external

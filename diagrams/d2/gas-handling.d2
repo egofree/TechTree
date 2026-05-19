@@ -1,0 +1,175 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  domain: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+      border-radius: 4
+    }
+  }
+  capability: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  process: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  critical: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  earlyWin: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 3
+    }
+  }
+  pinnacle: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  external: {
+    style: {
+      fill: "#f5f5f5"
+      stroke: "#9e9e9e"
+      stroke-width: 1
+    }
+  }
+  legend: {
+    style: {
+      fill: "#fafafa"
+      stroke: "#bdbdbd"
+      stroke-width: 1
+      font-size: 13
+    }
+  }
+  material-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-width: 1
+      stroke-dash: 3
+    }
+  }
+}
+
+# ==================== INTERNAL NODES ====================
+gas-handling_internal: "Gas Handling — Internal Structure" {
+  gas-handling_vacuum: Vacuum Technology
+  gas-handling_basic: Basic Gas Handling
+}
+
+# ==================== DOMAIN NODE ====================
+gas-handling: Gas Handling
+
+# ==================== EXTERNAL DEPENDENCIES ====================
+chemistry: Chemistry {
+  shape: rectangle
+}
+chemistry_air-separation: "Air Separation & Bulk Gas Production" {
+  shape: rectangle
+}
+chemistry_hydrogen-silane: "Hydrogen & Silane Production" {
+  shape: rectangle
+}
+energy: Energy {
+  shape: rectangle
+}
+machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+optics_inspection_optical-coatings: Optical Coatings {
+  shape: rectangle
+}
+photolithography: "Photolithography & IC Fabrication" {
+  shape: rectangle
+}
+photolithography_fab-processes: Core Fab Processes {
+  shape: rectangle
+}
+silicon: Silicon {
+  shape: rectangle
+}
+silicon_basic-devices: Basic Semiconductor Devices {
+  shape: rectangle
+}
+silicon_purification: Silicon Purification {
+  shape: rectangle
+}
+
+# ==================== EDGES ====================
+gas-handling -> machine-tools: { class: tool-edge }
+gas-handling -> energy: { class: material-edge }
+gas-handling -> chemistry: { class: material-edge }
+silicon -> gas-handling: { class: tool-edge }
+silicon_purification -> gas-handling_basic: { class: tool-edge }
+silicon_basic-devices -> gas-handling_vacuum: { class: tool-edge }
+photolithography -> gas-handling: { class: tool-edge }
+photolithography_fab-processes -> gas-handling_vacuum: { class: tool-edge }
+chemistry_air-separation -> gas-handling_basic: { class: tool-edge }
+chemistry_hydrogen-silane -> gas-handling_basic: { class: tool-edge }
+optics_inspection_optical-coatings -> gas-handling_vacuum: { class: tool-edge }
+
+# ==================== STYLING ====================
+gas-handling.class: domain
+gas-handling_vacuum.class: capability
+gas-handling_basic.class: capability
+chemistry.class: external
+chemistry_air-separation.class: external
+chemistry_hydrogen-silane.class: external
+energy.class: external
+machine-tools.class: external
+optics_inspection_optical-coatings.class: external
+photolithography.class: external
+photolithography_fab-processes.class: external
+silicon.class: external
+silicon_basic-devices.class: external
+silicon_purification.class: external
+
+# ==================== LEGEND ====================
+d2-legend: "Edge Types" {
+  class: legend
+  mat: "Solid arrow = material prerequisite (physical input consumed)" {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool: "Dashed arrow = tool prerequisite (equipment/infrastructure needed)" {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}

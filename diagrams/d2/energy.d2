@@ -1,0 +1,335 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  domain: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+      border-radius: 4
+    }
+  }
+  capability: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  process: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  critical: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  earlyWin: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 3
+    }
+  }
+  pinnacle: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  external: {
+    style: {
+      fill: "#f5f5f5"
+      stroke: "#9e9e9e"
+      stroke-width: 1
+    }
+  }
+  legend: {
+    style: {
+      fill: "#fafafa"
+      stroke: "#bdbdbd"
+      stroke-width: 1
+      font-size: 13
+    }
+  }
+  material-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-width: 1
+      stroke-dash: 3
+    }
+  }
+}
+
+# ==================== INTERNAL NODES ====================
+energy_internal: "Energy — Internal Structure" {
+  energy_gravity: Water Power
+  energy_wind: Wind Power
+  energy_fuels: Fuel Production
+  energy_fuels_charcoal: Charcoal Production
+  energy_fuels_coal: "Coal Mining & Combustion"
+  energy_fuels_coke: Coke Production
+  energy_steam-power: Steam Power
+  energy_engine: Heat Engines
+  energy_electricity: "Electricity Generation & Distribution"
+  energy_electric-furnaces: Electric Furnaces
+  energy_cooling: "Cooling Systems & Refrigeration"
+  energy_storage: "Energy Storage & Diversification"
+  energy_steam-power_steam-turbines: Steam Turbines
+  energy_gravity_water-turbines: Water Turbines
+  energy_storage_pumped-hydro: Pumped Hydroelectric Storage
+  energy_electric-furnaces_electrode-manufacturing: Graphite Electrode Manufacturing
+}
+
+# ==================== DOMAIN NODE ====================
+energy: Energy
+
+# ==================== EXTERNAL DEPENDENCIES ====================
+ceramics_kilns: Kiln Construction {
+  shape: rectangle
+}
+ceramics_pottery_kiln-firing: Kiln Firing {
+  shape: rectangle
+}
+chemistry: Chemistry {
+  shape: rectangle
+}
+chemistry_air-separation: "Air Separation & Bulk Gas Production" {
+  shape: rectangle
+}
+chemistry_electrolysis: Electrolysis {
+  shape: rectangle
+}
+chemistry_explosives: Explosives and Propellants {
+  shape: rectangle
+}
+chemistry_lubricants: "Lubricants, Oils & Fluid Mechanics" {
+  shape: rectangle
+}
+chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry" {
+  shape: rectangle
+}
+computing_electromechanical: Electromechanical Computing {
+  shape: rectangle
+}
+foundations: Foundations {
+  shape: rectangle
+}
+foundations_fire: Fire-Making {
+  shape: rectangle
+}
+gas-handling: Gas Handling {
+  shape: rectangle
+}
+glass: Glass {
+  shape: rectangle
+}
+glass_advanced_glassblowing: Glassblowing and Scientific Apparatus {
+  shape: rectangle
+}
+machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+machine-tools_forming: Metal Forming {
+  shape: rectangle
+}
+machine-tools_joining: Metal Joining {
+  shape: rectangle
+}
+machine-tools_machining: Machining {
+  shape: rectangle
+}
+measurement_temperature-pressure: "Temperature & Pressure Measurement" {
+  shape: rectangle
+}
+metals: Metals {
+  shape: rectangle
+}
+metals_iron-steel: "Iron & Steel Production" {
+  shape: rectangle
+}
+metals_iron-steel_blast-furnace: Blast Furnace and Cast Iron {
+  shape: rectangle
+}
+mining: "Mining Engineering & Extractive Metallurgy" {
+  shape: rectangle
+}
+mining_processing: Ore Processing {
+  shape: rectangle
+}
+polymers_rubber: Rubber Production {
+  shape: rectangle
+}
+silicon: Silicon {
+  shape: rectangle
+}
+silicon_mg-si-production: Metallurgical-Grade Silicon Production {
+  shape: rectangle
+}
+textiles: "Textiles, Fiber & Cordage" {
+  shape: rectangle
+}
+transport: "Transportation & Logistics" {
+  shape: rectangle
+}
+transport_aviation: Aviation {
+  shape: rectangle
+}
+transport_railways: Railways {
+  shape: rectangle
+}
+transport_telegraph: Telegraph Communication {
+  shape: rectangle
+}
+
+# ==================== EDGES ====================
+energy_electric-furnaces -> energy_electricity: { class: material-edge }
+energy_storage -> energy: { class: tool-edge }
+energy_fuels_charcoal -> energy_fuels: { class: tool-edge }
+energy_fuels_coal -> energy_fuels: { class: tool-edge }
+energy_fuels_coke -> energy_fuels: { class: tool-edge }
+energy_engine -> energy_fuels: { class: material-edge }
+energy_steam-power_steam-turbines -> energy_steam-power: { class: tool-edge }
+energy_gravity_water-turbines -> energy_gravity: { class: tool-edge }
+energy_storage_pumped-hydro -> energy_gravity: { class: tool-edge }
+energy_storage_pumped-hydro -> energy_electricity: { class: tool-edge }
+energy_electric-furnaces_electrode-manufacturing -> energy_electric-furnaces: { class: material-edge }
+energy_gravity -> textiles: { class: tool-edge }
+energy_wind -> textiles: { class: tool-edge }
+energy_gravity -> chemistry_lubricants: { class: material-edge }
+energy_wind -> chemistry_lubricants: { class: material-edge }
+energy -> metals: { class: tool-edge }
+energy_fuels_coal -> ceramics_kilns: { class: tool-edge }
+energy_fuels_coke -> ceramics_kilns: { class: tool-edge }
+energy_fuels_coal -> mining: { class: material-edge }
+energy_fuels_coke -> mining: { class: material-edge }
+energy_steam-power -> machine-tools: { class: tool-edge }
+energy_steam-power -> metals_iron-steel: { class: tool-edge }
+energy_steam-power -> machine-tools_joining: { class: tool-edge }
+energy_electric-furnaces -> machine-tools: { class: tool-edge }
+energy_cooling -> machine-tools: { class: tool-edge }
+energy_cooling -> metals_iron-steel: { class: tool-edge }
+energy_cooling -> chemistry_petroleum-alternatives: { class: material-edge }
+chemistry_electrolysis -> energy_electricity: { class: material-edge }
+machine-tools_joining -> energy_electricity: { class: material-edge }
+chemistry -> energy: { class: material-edge }
+glass -> energy: { class: material-edge }
+gas-handling -> energy: { class: material-edge }
+silicon -> energy: { class: material-edge }
+silicon_mg-si-production -> energy_electric-furnaces: { class: tool-edge }
+chemistry_air-separation -> energy_electricity: { class: material-edge }
+energy_storage -> chemistry: { class: material-edge }
+energy_storage -> metals: { class: tool-edge }
+transport -> energy: { class: material-edge }
+energy_fuels_charcoal -> foundations: { class: tool-edge }
+ceramics_pottery_kiln-firing -> energy_fuels_charcoal: { class: material-edge }
+energy_fuels -> foundations_fire: { class: tool-edge }
+machine-tools_forming -> energy_fuels: { class: material-edge }
+computing_electromechanical -> energy_electricity: { class: material-edge }
+mining_processing -> energy_fuels: { class: tool-edge }
+energy_storage -> polymers_rubber: { class: material-edge }
+transport_railways -> energy_steam-power: { class: tool-edge }
+measurement_temperature-pressure -> energy_electricity: { class: tool-edge }
+energy_engine -> metals: { class: tool-edge }
+transport_aviation -> energy_engine: { class: tool-edge }
+transport -> energy_engine: { class: tool-edge }
+energy_steam-power_steam-turbines -> metals_iron-steel: { class: tool-edge }
+energy_steam-power_steam-turbines -> machine-tools_machining: { class: tool-edge }
+energy_gravity_water-turbines -> metals_iron-steel: { class: tool-edge }
+energy_gravity_water-turbines -> machine-tools_machining: { class: tool-edge }
+energy_electric-furnaces_electrode-manufacturing -> chemistry_petroleum-alternatives: { class: material-edge }
+metals_iron-steel_blast-furnace -> energy_fuels_coke: { class: material-edge }
+transport_telegraph -> energy_electricity: { class: tool-edge }
+chemistry_explosives -> energy_fuels_charcoal: { class: material-edge }
+glass_advanced_glassblowing -> energy_fuels: { class: tool-edge }
+
+# ==================== STYLING ====================
+energy.class: domain
+energy_gravity.class: capability
+energy_wind.class: capability
+energy_fuels.class: capability
+energy_fuels_charcoal.class: process
+energy_fuels_coal.class: process
+energy_fuels_coke.class: process
+energy_steam-power.class: capability
+energy_engine.class: critical
+energy_electricity.class: capability
+energy_electric-furnaces.class: capability
+energy_cooling.class: capability
+energy_storage.class: capability
+energy_steam-power_steam-turbines.class: process
+energy_gravity_water-turbines.class: process
+energy_storage_pumped-hydro.class: process
+energy_electric-furnaces_electrode-manufacturing.class: process
+ceramics_kilns.class: external
+ceramics_pottery_kiln-firing.class: external
+chemistry.class: external
+chemistry_air-separation.class: external
+chemistry_electrolysis.class: external
+chemistry_explosives.class: external
+chemistry_lubricants.class: external
+chemistry_petroleum-alternatives.class: external
+computing_electromechanical.class: external
+foundations.class: external
+foundations_fire.class: external
+gas-handling.class: external
+glass.class: external
+glass_advanced_glassblowing.class: external
+machine-tools.class: external
+machine-tools_forming.class: external
+machine-tools_joining.class: external
+machine-tools_machining.class: external
+measurement_temperature-pressure.class: external
+metals.class: external
+metals_iron-steel.class: external
+metals_iron-steel_blast-furnace.class: external
+mining.class: external
+mining_processing.class: external
+polymers_rubber.class: external
+silicon.class: external
+silicon_mg-si-production.class: external
+textiles.class: external
+transport.class: external
+transport_aviation.class: external
+transport_railways.class: external
+transport_telegraph.class: external
+
+# ==================== LEGEND ====================
+d2-legend: "Edge Types" {
+  class: legend
+  mat: "Solid arrow = material prerequisite (physical input consumed)" {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool: "Dashed arrow = tool prerequisite (equipment/infrastructure needed)" {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}

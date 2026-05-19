@@ -1,0 +1,217 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  domain: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+      border-radius: 4
+    }
+  }
+  capability: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  process: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  critical: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  earlyWin: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 3
+    }
+  }
+  pinnacle: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  external: {
+    style: {
+      fill: "#f5f5f5"
+      stroke: "#9e9e9e"
+      stroke-width: 1
+    }
+  }
+  legend: {
+    style: {
+      fill: "#fafafa"
+      stroke: "#bdbdbd"
+      stroke-width: 1
+      font-size: 13
+    }
+  }
+  material-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-width: 1
+      stroke-dash: 3
+    }
+  }
+}
+
+# ==================== INTERNAL NODES ====================
+mining_internal: "Mining Engineering & Extractive Metallurgy — Internal Structure" {
+  mining_extraction: Mining Extraction
+  mining_processing: Ore Processing
+  mining_prospecting: "Prospecting & Surveying"
+  mining_extraction_black-powder: Black Powder Explosives
+}
+
+# ==================== DOMAIN NODE ====================
+mining: "Mining Engineering & Extractive Metallurgy"
+
+# ==================== EXTERNAL DEPENDENCIES ====================
+ceramics_advanced-ceramics: "Advanced Ceramics & Refractories" {
+  shape: rectangle
+}
+ceramics_lime: Lime Production {
+  shape: rectangle
+}
+chemistry_acids: Mineral Acid Production {
+  shape: rectangle
+}
+chemistry_alkalis: Alkali Production {
+  shape: rectangle
+}
+chemistry_cement: "Cement & Concrete" {
+  shape: rectangle
+}
+chemistry_explosives: Explosives and Propellants {
+  shape: rectangle
+}
+energy_fuels: Fuel Production {
+  shape: rectangle
+}
+energy_fuels_coal: "Coal Mining & Combustion" {
+  shape: rectangle
+}
+energy_fuels_coke: Coke Production {
+  shape: rectangle
+}
+foundations: Foundations {
+  shape: rectangle
+}
+foundations_tools-basic: "Stone & Wood Tools" {
+  shape: rectangle
+}
+glass_basic: Basic Glass Production {
+  shape: rectangle
+}
+knowledge_writing: "Writing & Record-Keeping" {
+  shape: rectangle
+}
+metals: Metals {
+  shape: rectangle
+}
+metals_copper-bronze: "Copper & Bronze Production" {
+  shape: rectangle
+}
+silicon_mg-si-production: Metallurgical-Grade Silicon Production {
+  shape: rectangle
+}
+transport: "Transportation & Logistics" {
+  shape: rectangle
+}
+transport_roads: "Road & Bridge Construction" {
+  shape: rectangle
+}
+
+# ==================== EDGES ====================
+mining_extraction -> mining_prospecting: { class: tool-edge }
+mining_processing -> mining_extraction: { class: material-edge }
+mining_extraction_black-powder -> mining_extraction: { class: tool-edge }
+metals -> mining: { class: material-edge }
+glass_basic -> mining: { class: material-edge }
+energy_fuels_coal -> mining: { class: material-edge }
+energy_fuels_coke -> mining: { class: material-edge }
+chemistry_acids -> mining: { class: material-edge }
+chemistry_alkalis -> mining: { class: material-edge }
+chemistry_cement -> mining: { class: material-edge }
+silicon_mg-si-production -> mining: { class: material-edge }
+mining -> foundations: { class: tool-edge }
+transport -> mining: { class: material-edge }
+mining_extraction -> foundations_tools-basic: { class: tool-edge }
+metals_copper-bronze -> mining: { class: material-edge }
+mining_prospecting -> knowledge_writing: { class: tool-edge }
+mining_processing -> energy_fuels: { class: tool-edge }
+ceramics_lime -> mining: { class: material-edge }
+transport_roads -> mining: { class: material-edge }
+ceramics_advanced-ceramics -> mining: { class: material-edge }
+mining_extraction_black-powder -> chemistry_explosives: { class: material-edge }
+
+# ==================== STYLING ====================
+mining.class: domain
+mining_extraction.class: capability
+mining_processing.class: capability
+mining_prospecting.class: capability
+mining_extraction_black-powder.class: process
+ceramics_advanced-ceramics.class: external
+ceramics_lime.class: external
+chemistry_acids.class: external
+chemistry_alkalis.class: external
+chemistry_cement.class: external
+chemistry_explosives.class: external
+energy_fuels.class: external
+energy_fuels_coal.class: external
+energy_fuels_coke.class: external
+foundations.class: external
+foundations_tools-basic.class: external
+glass_basic.class: external
+knowledge_writing.class: external
+metals.class: external
+metals_copper-bronze.class: external
+silicon_mg-si-production.class: external
+transport.class: external
+transport_roads.class: external
+
+# ==================== LEGEND ====================
+d2-legend: "Edge Types" {
+  class: legend
+  mat: "Solid arrow = material prerequisite (physical input consumed)" {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool: "Dashed arrow = tool prerequisite (equipment/infrastructure needed)" {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}

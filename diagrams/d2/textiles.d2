@@ -1,0 +1,176 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  domain: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+      border-radius: 4
+    }
+  }
+  capability: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  process: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  critical: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  earlyWin: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 3
+    }
+  }
+  pinnacle: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  external: {
+    style: {
+      fill: "#f5f5f5"
+      stroke: "#9e9e9e"
+      stroke-width: 1
+    }
+  }
+  legend: {
+    style: {
+      fill: "#fafafa"
+      stroke: "#bdbdbd"
+      stroke-width: 1
+      font-size: 13
+    }
+  }
+  material-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-width: 1
+      stroke-dash: 3
+    }
+  }
+}
+
+# ==================== INTERNAL NODES ====================
+textiles_internal: "Textiles, Fiber & Cordage — Internal Structure" {
+  textiles_fibers: Fiber Preparation
+  textiles_spinning: Spinning
+  textiles_weaving: Weaving
+  textiles_dyeing: Dyeing
+  textiles_rope-making: Rope and Cordage
+}
+
+# ==================== DOMAIN NODE ====================
+textiles: "Textiles, Fiber & Cordage"
+
+# ==================== EXTERNAL DEPENDENCIES ====================
+chemistry: Chemistry {
+  shape: rectangle
+}
+energy_gravity: Water Power {
+  shape: rectangle
+}
+energy_wind: Wind Power {
+  shape: rectangle
+}
+foundations: Foundations {
+  shape: rectangle
+}
+foundations_tools-basic: "Stone & Wood Tools" {
+  shape: rectangle
+}
+knowledge_printing: Paper and Printing Press {
+  shape: rectangle
+}
+machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+transport_aviation: Aviation {
+  shape: rectangle
+}
+transport_shipping: Water Transport {
+  shape: rectangle
+}
+
+# ==================== EDGES ====================
+textiles_fibers -> textiles_spinning: { class: material-edge }
+textiles_spinning -> textiles_weaving: { class: material-edge }
+textiles_weaving -> textiles_dyeing: { class: material-edge }
+textiles_rope-making -> textiles_fibers: { class: material-edge }
+textiles_rope-making -> textiles_spinning: { class: material-edge }
+energy_gravity -> textiles: { class: tool-edge }
+energy_wind -> textiles: { class: tool-edge }
+machine-tools -> textiles: { class: tool-edge }
+textiles -> foundations: { class: tool-edge }
+transport_aviation -> textiles: { class: material-edge }
+textiles_fibers -> foundations_tools-basic: { class: tool-edge }
+textiles_dyeing -> chemistry: { class: material-edge }
+transport_shipping -> textiles: { class: material-edge }
+knowledge_printing -> textiles_fibers: { class: material-edge }
+
+# ==================== STYLING ====================
+textiles.class: domain
+textiles_fibers.class: capability
+textiles_spinning.class: capability
+textiles_weaving.class: capability
+textiles_dyeing.class: capability
+textiles_rope-making.class: capability
+chemistry.class: external
+energy_gravity.class: external
+energy_wind.class: external
+foundations.class: external
+foundations_tools-basic.class: external
+knowledge_printing.class: external
+machine-tools.class: external
+transport_aviation.class: external
+transport_shipping.class: external
+
+# ==================== LEGEND ====================
+d2-legend: "Edge Types" {
+  class: legend
+  mat: "Solid arrow = material prerequisite (physical input consumed)" {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool: "Dashed arrow = tool prerequisite (equipment/infrastructure needed)" {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}

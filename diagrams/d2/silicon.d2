@@ -1,0 +1,223 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  domain: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+      border-radius: 4
+    }
+  }
+  capability: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  process: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  critical: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  earlyWin: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 3
+    }
+  }
+  pinnacle: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  external: {
+    style: {
+      fill: "#f5f5f5"
+      stroke: "#9e9e9e"
+      stroke-width: 1
+    }
+  }
+  legend: {
+    style: {
+      fill: "#fafafa"
+      stroke: "#bdbdbd"
+      stroke-width: 1
+      font-size: 13
+    }
+  }
+  material-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-width: 1
+      stroke-dash: 3
+    }
+  }
+}
+
+# ==================== INTERNAL NODES ====================
+silicon_internal: "Silicon — Internal Structure" {
+  silicon_mg-si-production: Metallurgical-Grade Silicon Production
+  silicon_purification: Silicon Purification
+  silicon_crystal-growth: "Crystal Growth & Wafering"
+  silicon_crystal-growth_cz-pulling: Czochralski Crystal Pulling
+  silicon_basic-devices: Basic Semiconductor Devices
+}
+
+# ==================== DOMAIN NODE ====================
+silicon: Silicon
+
+# ==================== EXTERNAL DEPENDENCIES ====================
+ceramics_advanced-ceramics: "Advanced Ceramics & Refractories" {
+  shape: rectangle
+}
+chemistry: Chemistry {
+  shape: rectangle
+}
+chemistry_acids: Mineral Acid Production {
+  shape: rectangle
+}
+chemistry_air-separation: "Air Separation & Bulk Gas Production" {
+  shape: rectangle
+}
+chemistry_distillation: Distillation {
+  shape: rectangle
+}
+chemistry_hydrogen-silane: "Hydrogen & Silane Production" {
+  shape: rectangle
+}
+computing_electronic: Electronic Computing {
+  shape: rectangle
+}
+energy: Energy {
+  shape: rectangle
+}
+energy_electric-furnaces: Electric Furnaces {
+  shape: rectangle
+}
+gas-handling: Gas Handling {
+  shape: rectangle
+}
+gas-handling_basic: Basic Gas Handling {
+  shape: rectangle
+}
+gas-handling_vacuum: Vacuum Technology {
+  shape: rectangle
+}
+glass: Glass {
+  shape: rectangle
+}
+glass_advanced: Advanced Glass Production {
+  shape: rectangle
+}
+machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+measurement_precision-metrology: "Precision Metrology & Standards" {
+  shape: rectangle
+}
+measurement_temperature-pressure: "Temperature & Pressure Measurement" {
+  shape: rectangle
+}
+mining: "Mining Engineering & Extractive Metallurgy" {
+  shape: rectangle
+}
+photolithography: "Photolithography & IC Fabrication" {
+  shape: rectangle
+}
+
+# ==================== EDGES ====================
+silicon_basic-devices -> silicon_crystal-growth: { class: material-edge }
+silicon_crystal-growth_cz-pulling -> silicon_crystal-growth: { class: tool-edge }
+silicon -> machine-tools: { class: tool-edge }
+silicon -> energy: { class: material-edge }
+silicon -> chemistry: { class: material-edge }
+silicon -> glass: { class: tool-edge }
+silicon -> gas-handling: { class: tool-edge }
+silicon_mg-si-production -> energy_electric-furnaces: { class: tool-edge }
+silicon_mg-si-production -> mining: { class: material-edge }
+silicon_purification -> chemistry_distillation: { class: tool-edge }
+silicon_purification -> gas-handling_basic: { class: tool-edge }
+silicon_purification -> chemistry_hydrogen-silane: { class: material-edge }
+silicon_crystal-growth -> glass_advanced: { class: material-edge }
+silicon_crystal-growth -> chemistry_air-separation: { class: material-edge }
+silicon_crystal-growth -> measurement_precision-metrology: { class: tool-edge }
+silicon_basic-devices -> gas-handling_vacuum: { class: tool-edge }
+silicon_basic-devices -> chemistry_acids: { class: material-edge }
+photolithography -> silicon: { class: material-edge }
+computing_electronic -> silicon_basic-devices: { class: material-edge }
+silicon_crystal-growth_cz-pulling -> measurement_temperature-pressure: { class: tool-edge }
+silicon -> ceramics_advanced-ceramics: { class: tool-edge }
+
+# ==================== STYLING ====================
+silicon.class: domain
+silicon_mg-si-production.class: capability
+silicon_purification.class: capability
+silicon_crystal-growth.class: capability
+silicon_crystal-growth_cz-pulling.class: process
+silicon_basic-devices.class: capability
+ceramics_advanced-ceramics.class: external
+chemistry.class: external
+chemistry_acids.class: external
+chemistry_air-separation.class: external
+chemistry_distillation.class: external
+chemistry_hydrogen-silane.class: external
+computing_electronic.class: external
+energy.class: external
+energy_electric-furnaces.class: external
+gas-handling.class: external
+gas-handling_basic.class: external
+gas-handling_vacuum.class: external
+glass.class: external
+glass_advanced.class: external
+machine-tools.class: external
+measurement_precision-metrology.class: external
+measurement_temperature-pressure.class: external
+mining.class: external
+photolithography.class: external
+
+# ==================== LEGEND ====================
+d2-legend: "Edge Types" {
+  class: legend
+  mat: "Solid arrow = material prerequisite (physical input consumed)" {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool: "Dashed arrow = tool prerequisite (equipment/infrastructure needed)" {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}

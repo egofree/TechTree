@@ -1,0 +1,167 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  domain: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+      border-radius: 4
+    }
+  }
+  capability: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  process: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  critical: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  earlyWin: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 3
+    }
+  }
+  pinnacle: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  external: {
+    style: {
+      fill: "#f5f5f5"
+      stroke: "#9e9e9e"
+      stroke-width: 1
+    }
+  }
+  legend: {
+    style: {
+      fill: "#fafafa"
+      stroke: "#bdbdbd"
+      stroke-width: 1
+      font-size: 13
+    }
+  }
+  material-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-width: 1
+      stroke-dash: 3
+    }
+  }
+}
+
+# ==================== INTERNAL NODES ====================
+knowledge_internal: "Knowledge Preservation & Education — Internal Structure" {
+  knowledge_writing: "Writing & Record-Keeping"
+  knowledge_education: "Education & Training"
+  knowledge_libraries: "Libraries & Information Systems"
+  knowledge_printing: Paper and Printing Press
+}
+
+# ==================== DOMAIN NODE ====================
+knowledge: "Knowledge Preservation & Education"
+
+# ==================== EXTERNAL DEPENDENCIES ====================
+foundations: Foundations {
+  shape: rectangle
+}
+foundations_food-agriculture: "Agriculture & Food Production" {
+  shape: rectangle
+}
+foundations_tools-basic: "Stone & Wood Tools" {
+  shape: rectangle
+}
+health_medicine: "Medicine & Surgery" {
+  shape: rectangle
+}
+machine-tools_machining: Machining {
+  shape: rectangle
+}
+metals_iron-steel: "Iron & Steel Production" {
+  shape: rectangle
+}
+mining_prospecting: "Prospecting & Surveying" {
+  shape: rectangle
+}
+textiles_fibers: Fiber Preparation {
+  shape: rectangle
+}
+
+# ==================== EDGES ====================
+knowledge_education -> knowledge_writing: { class: tool-edge }
+knowledge_libraries -> knowledge_writing: { class: tool-edge }
+knowledge_libraries -> knowledge_education: { class: tool-edge }
+knowledge -> foundations: { class: tool-edge }
+knowledge_writing -> foundations_tools-basic: { class: tool-edge }
+knowledge_writing -> foundations_food-agriculture: { class: tool-edge }
+health_medicine -> knowledge_writing: { class: tool-edge }
+mining_prospecting -> knowledge_writing: { class: tool-edge }
+knowledge_printing -> metals_iron-steel: { class: tool-edge }
+knowledge_printing -> textiles_fibers: { class: material-edge }
+knowledge_printing -> machine-tools_machining: { class: tool-edge }
+
+# ==================== STYLING ====================
+knowledge.class: domain
+knowledge_writing.class: capability
+knowledge_education.class: capability
+knowledge_libraries.class: capability
+knowledge_printing.class: earlyWin
+foundations.class: external
+foundations_food-agriculture.class: external
+foundations_tools-basic.class: external
+health_medicine.class: external
+machine-tools_machining.class: external
+metals_iron-steel.class: external
+mining_prospecting.class: external
+textiles_fibers.class: external
+
+# ==================== LEGEND ====================
+d2-legend: "Edge Types" {
+  class: legend
+  mat: "Solid arrow = material prerequisite (physical input consumed)" {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool: "Dashed arrow = tool prerequisite (equipment/infrastructure needed)" {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}

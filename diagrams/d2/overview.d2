@@ -1,0 +1,247 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  domain: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+      border-radius: 4
+    }
+  }
+  capability: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  process: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  critical: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  earlyWin: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 3
+    }
+  }
+  pinnacle: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  external: {
+    style: {
+      fill: "#f5f5f5"
+      stroke: "#9e9e9e"
+      stroke-width: 1
+    }
+  }
+  legend: {
+    style: {
+      fill: "#fafafa"
+      stroke: "#bdbdbd"
+      stroke-width: 1
+      font-size: 13
+    }
+  }
+  material-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-width: 1
+      stroke-dash: 3
+    }
+  }
+}
+
+# ==================== DOMAIN NODES ====================
+foundations: Foundations
+metals: Metals
+machine-tools: Machine Tools Bootstrap
+energy: Energy
+chemistry: Chemistry
+silicon: Silicon
+photolithography: "Photolithography & IC Fabrication"
+vlsi-scaling: "VLSI Scaling & Advanced Semiconductor"
+knowledge: "Knowledge Preservation & Education"
+transport: "Transportation & Logistics"
+computing: "Computing & Automation"
+health: "Public Health, Sanitation & Medicine"
+textiles: "Textiles, Fiber & Cordage"
+mining: "Mining Engineering & Extractive Metallurgy"
+ceramics: "Ceramics & Refractories"
+polymers: "Polymers & Composites"
+glass: Glass
+optics: Optics
+gas-handling: Gas Handling
+measurement: "Measurement & Instrumentation"
+
+# ==================== DOMAIN-LEVEL EDGES ====================
+metals -> foundations: { class: tool-edge }
+metals -> mining: { class: material-edge }
+machine-tools -> metals: { class: tool-edge }
+machine-tools -> textiles: { class: tool-edge }
+energy -> metals: { class: tool-edge }
+chemistry -> metals: { class: tool-edge }
+chemistry -> energy: { class: material-edge }
+glass -> machine-tools: { class: tool-edge }
+optics -> machine-tools: { class: tool-edge }
+gas-handling -> machine-tools: { class: tool-edge }
+measurement -> machine-tools: { class: tool-edge }
+glass -> energy: { class: material-edge }
+gas-handling -> energy: { class: material-edge }
+glass -> chemistry: { class: material-edge }
+gas-handling -> chemistry: { class: material-edge }
+measurement -> chemistry: { class: material-edge }
+silicon -> machine-tools: { class: tool-edge }
+silicon -> energy: { class: material-edge }
+silicon -> chemistry: { class: material-edge }
+silicon -> glass: { class: tool-edge }
+silicon -> gas-handling: { class: tool-edge }
+photolithography -> machine-tools: { class: tool-edge }
+photolithography -> chemistry: { class: material-edge }
+photolithography -> gas-handling: { class: tool-edge }
+photolithography -> optics: { class: tool-edge }
+photolithography -> silicon: { class: material-edge }
+vlsi-scaling -> photolithography: { class: tool-edge }
+knowledge -> foundations: { class: tool-edge }
+health -> foundations: { class: tool-edge }
+health -> chemistry: { class: material-edge }
+ceramics -> foundations: { class: tool-edge }
+ceramics -> metals: { class: tool-edge }
+textiles -> foundations: { class: tool-edge }
+mining -> foundations: { class: tool-edge }
+transport -> metals: { class: tool-edge }
+transport -> energy: { class: material-edge }
+transport -> mining: { class: material-edge }
+transport -> machine-tools: { class: tool-edge }
+computing -> machine-tools: { class: tool-edge }
+polymers -> foundations: { class: tool-edge }
+
+# ==================== CROSS-DOMAIN EDGES ====================
+ceramics -> energy: { class: tool-edge }
+ceramics -> mining: { class: tool-edge }
+chemistry -> ceramics: { class: tool-edge }
+chemistry -> foundations: { class: tool-edge }
+chemistry -> gas-handling: { class: tool-edge }
+chemistry -> glass: { class: tool-edge }
+chemistry -> machine-tools: { class: tool-edge }
+chemistry -> mining: { class: tool-edge }
+chemistry -> photolithography: { class: tool-edge }
+chemistry -> polymers: { class: tool-edge }
+computing -> energy: { class: tool-edge }
+computing -> metals: { class: tool-edge }
+computing -> silicon: { class: tool-edge }
+energy -> ceramics: { class: tool-edge }
+energy -> chemistry: { class: tool-edge }
+energy -> foundations: { class: tool-edge }
+energy -> machine-tools: { class: tool-edge }
+energy -> mining: { class: tool-edge }
+energy -> polymers: { class: tool-edge }
+energy -> textiles: { class: tool-edge }
+glass -> mining: { class: tool-edge }
+health -> ceramics: { class: tool-edge }
+health -> knowledge: { class: tool-edge }
+health -> polymers: { class: tool-edge }
+knowledge -> machine-tools: { class: tool-edge }
+knowledge -> metals: { class: tool-edge }
+knowledge -> textiles: { class: tool-edge }
+machine-tools -> chemistry: { class: tool-edge }
+machine-tools -> energy: { class: tool-edge }
+machine-tools -> foundations: { class: tool-edge }
+measurement -> energy: { class: tool-edge }
+measurement -> foundations: { class: tool-edge }
+measurement -> metals: { class: tool-edge }
+metals -> ceramics: { class: tool-edge }
+metals -> energy: { class: tool-edge }
+mining -> chemistry: { class: tool-edge }
+mining -> energy: { class: tool-edge }
+mining -> knowledge: { class: tool-edge }
+optics -> gas-handling: { class: tool-edge }
+photolithography -> ceramics: { class: tool-edge }
+photolithography -> polymers: { class: tool-edge }
+polymers -> chemistry: { class: tool-edge }
+polymers -> machine-tools: { class: tool-edge }
+silicon -> ceramics: { class: tool-edge }
+silicon -> measurement: { class: tool-edge }
+silicon -> mining: { class: tool-edge }
+textiles -> chemistry: { class: tool-edge }
+transport -> chemistry: { class: tool-edge }
+transport -> foundations: { class: tool-edge }
+transport -> textiles: { class: tool-edge }
+vlsi-scaling -> computing: { class: tool-edge }
+vlsi-scaling -> optics: { class: tool-edge }
+
+# ==================== STYLING ====================
+foundations.class: earlyWin
+metals.class: domain
+machine-tools.class: critical
+energy.class: domain
+chemistry.class: domain
+silicon.class: earlyWin
+photolithography.class: domain
+vlsi-scaling.class: pinnacle
+knowledge.class: critical
+transport.class: domain
+computing.class: domain
+health.class: domain
+textiles.class: critical
+mining.class: critical
+ceramics.class: domain
+polymers.class: domain
+glass.class: domain
+optics.class: domain
+gas-handling.class: domain
+measurement.class: domain
+
+# ==================== LEGEND ====================
+d2-legend: "Legend and Key Insights" {
+  class: legend
+  mat: "Solid arrow = material prerequisite (physical input consumed)" {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool: "Dashed arrow = tool prerequisite (equipment/infrastructure needed)" {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+  note1: "Machine Tools is the master enabler: every later stage depends on precision parts"
+  note2: "Iteration is everywhere: tools make better tools, crude silicon enables purer silicon"
+  note3: "Solar cells create a critical power feedback loop — the most important positive feedback in the tree"
+  note4: "High-end GPUs are the long-term pinnacle: requires the entire mature ecosystem + generations of refinement"
+  note5: "Realistic timeline: basic solar cells in decades. Full GPU capability: 50 to 200+ years"
+}

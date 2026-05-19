@@ -1,0 +1,250 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  domain: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+      border-radius: 4
+    }
+  }
+  capability: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  process: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  critical: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  earlyWin: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 3
+    }
+  }
+  pinnacle: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  external: {
+    style: {
+      fill: "#f5f5f5"
+      stroke: "#9e9e9e"
+      stroke-width: 1
+    }
+  }
+  legend: {
+    style: {
+      fill: "#fafafa"
+      stroke: "#bdbdbd"
+      stroke-width: 1
+      font-size: 13
+    }
+  }
+  material-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-width: 1
+      stroke-dash: 3
+    }
+  }
+}
+
+# ==================== INTERNAL NODES ====================
+metals_internal: "Metals — Internal Structure" {
+  metals_copper-bronze: "Copper & Bronze Production"
+  metals_iron-steel: "Iron & Steel Production"
+  metals_iron-steel_blast-furnace: Blast Furnace and Cast Iron
+}
+
+# ==================== DOMAIN NODE ====================
+metals: Metals
+
+# ==================== EXTERNAL DEPENDENCIES ====================
+ceramics: "Ceramics & Refractories" {
+  shape: rectangle
+}
+ceramics_kilns: Kiln Construction {
+  shape: rectangle
+}
+chemistry: Chemistry {
+  shape: rectangle
+}
+computing_mechanical: Mechanical Calculation {
+  shape: rectangle
+}
+energy: Energy {
+  shape: rectangle
+}
+energy_cooling: "Cooling Systems & Refrigeration" {
+  shape: rectangle
+}
+energy_engine: Heat Engines {
+  shape: rectangle
+}
+energy_fuels_coke: Coke Production {
+  shape: rectangle
+}
+energy_gravity_water-turbines: Water Turbines {
+  shape: rectangle
+}
+energy_steam-power: Steam Power {
+  shape: rectangle
+}
+energy_steam-power_steam-turbines: Steam Turbines {
+  shape: rectangle
+}
+energy_storage: "Energy Storage & Diversification" {
+  shape: rectangle
+}
+foundations: Foundations {
+  shape: rectangle
+}
+foundations_fire: Fire-Making {
+  shape: rectangle
+}
+knowledge_printing: Paper and Printing Press {
+  shape: rectangle
+}
+machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+machine-tools_casting: Metal Casting {
+  shape: rectangle
+}
+machine-tools_forming: Metal Forming {
+  shape: rectangle
+}
+machine-tools_joining: Metal Joining {
+  shape: rectangle
+}
+measurement_precision-metrology: "Precision Metrology & Standards" {
+  shape: rectangle
+}
+measurement_temperature-pressure: "Temperature & Pressure Measurement" {
+  shape: rectangle
+}
+mining: "Mining Engineering & Extractive Metallurgy" {
+  shape: rectangle
+}
+transport: "Transportation & Logistics" {
+  shape: rectangle
+}
+transport_railways: Railways {
+  shape: rectangle
+}
+transport_telegraph: Telegraph Communication {
+  shape: rectangle
+}
+
+# ==================== EDGES ====================
+metals_iron-steel -> metals_copper-bronze: { class: tool-edge }
+metals_iron-steel_blast-furnace -> metals_iron-steel: { class: tool-edge }
+metals -> foundations: { class: tool-edge }
+metals -> mining: { class: material-edge }
+machine-tools_joining -> metals_iron-steel: { class: material-edge }
+machine-tools -> metals: { class: tool-edge }
+machine-tools_casting -> metals_iron-steel: { class: material-edge }
+energy -> metals: { class: tool-edge }
+energy_steam-power -> metals_iron-steel: { class: tool-edge }
+energy_cooling -> metals_iron-steel: { class: tool-edge }
+chemistry -> metals: { class: tool-edge }
+measurement_precision-metrology -> metals: { class: tool-edge }
+energy_storage -> metals: { class: tool-edge }
+ceramics -> metals: { class: tool-edge }
+transport -> metals: { class: tool-edge }
+metals_copper-bronze -> foundations_fire: { class: material-edge }
+metals_copper-bronze -> mining: { class: material-edge }
+machine-tools_forming -> metals_iron-steel: { class: material-edge }
+computing_mechanical -> metals: { class: material-edge }
+transport_railways -> metals_iron-steel: { class: material-edge }
+measurement_temperature-pressure -> metals: { class: material-edge }
+energy_engine -> metals: { class: tool-edge }
+energy_steam-power_steam-turbines -> metals_iron-steel: { class: tool-edge }
+energy_gravity_water-turbines -> metals_iron-steel: { class: tool-edge }
+metals_iron-steel_blast-furnace -> energy_fuels_coke: { class: material-edge }
+metals_iron-steel_blast-furnace -> ceramics_kilns: { class: tool-edge }
+transport_telegraph -> metals_iron-steel: { class: material-edge }
+knowledge_printing -> metals_iron-steel: { class: tool-edge }
+
+# ==================== STYLING ====================
+metals.class: domain
+metals_copper-bronze.class: capability
+metals_iron-steel.class: critical
+metals_iron-steel_blast-furnace.class: process
+ceramics.class: external
+ceramics_kilns.class: external
+chemistry.class: external
+computing_mechanical.class: external
+energy.class: external
+energy_cooling.class: external
+energy_engine.class: external
+energy_fuels_coke.class: external
+energy_gravity_water-turbines.class: external
+energy_steam-power.class: external
+energy_steam-power_steam-turbines.class: external
+energy_storage.class: external
+foundations.class: external
+foundations_fire.class: external
+knowledge_printing.class: external
+machine-tools.class: external
+machine-tools_casting.class: external
+machine-tools_forming.class: external
+machine-tools_joining.class: external
+measurement_precision-metrology.class: external
+measurement_temperature-pressure.class: external
+mining.class: external
+transport.class: external
+transport_railways.class: external
+transport_telegraph.class: external
+
+# ==================== LEGEND ====================
+d2-legend: "Edge Types" {
+  class: legend
+  mat: "Solid arrow = material prerequisite (physical input consumed)" {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool: "Dashed arrow = tool prerequisite (equipment/infrastructure needed)" {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}

@@ -1,0 +1,191 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  domain: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+      border-radius: 4
+    }
+  }
+  capability: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  process: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  critical: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  earlyWin: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 3
+    }
+  }
+  pinnacle: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  external: {
+    style: {
+      fill: "#f5f5f5"
+      stroke: "#9e9e9e"
+      stroke-width: 1
+    }
+  }
+  legend: {
+    style: {
+      fill: "#fafafa"
+      stroke: "#bdbdbd"
+      stroke-width: 1
+      font-size: 13
+    }
+  }
+  material-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-width: 1
+      stroke-dash: 3
+    }
+  }
+}
+
+# ==================== INTERNAL NODES ====================
+transport_internal: "Transportation & Logistics — Internal Structure" {
+  transport_roads: "Road & Bridge Construction"
+  transport_railways: Railways
+  transport_shipping: Water Transport
+  transport_aviation: Aviation
+  transport_telegraph: Telegraph Communication
+}
+
+# ==================== DOMAIN NODE ====================
+transport: "Transportation & Logistics"
+
+# ==================== EXTERNAL DEPENDENCIES ====================
+chemistry_acids: Mineral Acid Production {
+  shape: rectangle
+}
+chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry" {
+  shape: rectangle
+}
+energy: Energy {
+  shape: rectangle
+}
+energy_electricity: "Electricity Generation & Distribution" {
+  shape: rectangle
+}
+energy_engine: Heat Engines {
+  shape: rectangle
+}
+energy_steam-power: Steam Power {
+  shape: rectangle
+}
+foundations_tools-basic: "Stone & Wood Tools" {
+  shape: rectangle
+}
+machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+metals: Metals {
+  shape: rectangle
+}
+metals_iron-steel: "Iron & Steel Production" {
+  shape: rectangle
+}
+mining: "Mining Engineering & Extractive Metallurgy" {
+  shape: rectangle
+}
+textiles: "Textiles, Fiber & Cordage" {
+  shape: rectangle
+}
+
+# ==================== EDGES ====================
+transport -> metals: { class: tool-edge }
+transport -> energy: { class: material-edge }
+transport -> mining: { class: material-edge }
+transport -> machine-tools: { class: tool-edge }
+transport_aviation -> machine-tools: { class: tool-edge }
+transport_aviation -> textiles: { class: material-edge }
+transport_aviation -> chemistry_petroleum-alternatives: { class: material-edge }
+transport_roads -> foundations_tools-basic: { class: tool-edge }
+transport_roads -> mining: { class: material-edge }
+transport_railways -> energy_steam-power: { class: tool-edge }
+transport_railways -> metals_iron-steel: { class: material-edge }
+transport_shipping -> textiles: { class: material-edge }
+transport_aviation -> energy_engine: { class: tool-edge }
+transport -> energy_engine: { class: tool-edge }
+transport_telegraph -> energy_electricity: { class: tool-edge }
+transport_telegraph -> metals_iron-steel: { class: material-edge }
+transport_telegraph -> chemistry_acids: { class: tool-edge }
+
+# ==================== STYLING ====================
+transport.class: domain
+transport_roads.class: capability
+transport_railways.class: capability
+transport_shipping.class: capability
+transport_aviation.class: capability
+transport_telegraph.class: capability
+chemistry_acids.class: external
+chemistry_petroleum-alternatives.class: external
+energy.class: external
+energy_electricity.class: external
+energy_engine.class: external
+energy_steam-power.class: external
+foundations_tools-basic.class: external
+machine-tools.class: external
+metals.class: external
+metals_iron-steel.class: external
+mining.class: external
+textiles.class: external
+
+# ==================== LEGEND ====================
+d2-legend: "Edge Types" {
+  class: legend
+  mat: "Solid arrow = material prerequisite (physical input consumed)" {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool: "Dashed arrow = tool prerequisite (equipment/infrastructure needed)" {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}

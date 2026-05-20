@@ -13,7 +13,7 @@ The blast furnace is the key advancement from bloomery smelting. Where a bloomer
 
 **Construction**:
 - **Shell**: Cylindrical shaft of stone or brick, typically 6-10 m tall, widening from throat (top, ~2 m diameter) to bosh (widest part, ~4 m diameter), then narrowing to the hearth (bottom, ~1.5 m diameter). The bosh angle (the outward slope of the walls) is critical — typically 20-25° from vertical — to allow the solid charge to descend as it shrinks during melting.
-- **Tuyeres**: Water-cooled copper or cast iron nozzles near the bottom of the bosh, connected to blowing engine (bellows or, later, steam-driven blower). Deliver preheated air blast into the furnace. Multiple tuyeres (4-8) evenly spaced around circumference for uniform blast distribution.
+- **Tuyeres**: Water-cooled copper or cast iron nozzles near the bottom of the bosh, connected to a blowing engine (bellows or, later, steam-driven blower). Deliver preheated air blast into the furnace. Multiple tuyeres (4-8) evenly spaced around circumference for uniform blast distribution.
 - **Hearth**: Below the tuyeres, lined with refractory clay or carbon blocks. Collects molten iron and slag. Tap hole at one side near the bottom for iron, slag notch slightly above for slag removal (slag floats on denser molten iron).
 - **Charging apparatus**: Double bell or skip hoist at top to charge raw materials while sealing against gas escape.
 

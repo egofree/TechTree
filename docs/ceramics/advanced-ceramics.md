@@ -326,7 +326,7 @@ Advanced ceramics are indispensable in semiconductor fabrication:
 ### Dust Hazards (Silicosis)
 
 Many ceramic raw materials produce fine dust during crushing, grinding, and powder handling:
-- **Crystalline silica** (quartz, cristobalite, tridymite): Causes silicosis — irreversible lung scarring. Use at 0.025 mg/m³ respirable limit (OSHA). Wet grinding wherever possible. Respiratory protection (P100 mask minimum) during all dry powder handling.
+- **Crystalline silica** (quartz, cristobalite, tridymite): Causes silicosis — irreversible lung scarring. Exposure limit: 0.025 mg/m³ respirable (ACGIH TLV). Wet grinding wherever possible. Respiratory protection (P100 mask minimum) during all dry powder handling.
 - **Alumina dust**: Less hazardous than silica but still a respiratory irritant. Maintain <5 mg/m³.
 - **Ceramic fiber**: Suspected carcinogen. Handle with full respiratory protection and protective clothing.
 

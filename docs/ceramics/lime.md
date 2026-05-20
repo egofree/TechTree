@@ -55,7 +55,4 @@
 
 ---
 
-
----
-
 *Part of the [Bootciv Tech Tree](../) • [Ceramics & Refractories](./) • [All Domains](../)*

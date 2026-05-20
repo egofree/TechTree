@@ -122,6 +122,79 @@ def strip_html(text):
     return re.sub(r"<[^>]+>", "", text).strip()
 
 
+GENERIC_WORDS = {"file", "image", "photo", "commons", "wikimedia", "upload", "default", "thumbnail", "icon", "logo", "banner"}
+
+
+def score_relevance(node_name, search_queries, candidate_title):
+    """Score how relevant a candidate image title is to the node.
+
+    Higher score = more relevant. Scoring:
+    - +2 per word from node name found in candidate title (exact or stem match)
+    - +5 bonus if full node name appears in candidate title
+    - -1 per generic word found in candidate title
+    - -3 penalty for very short titles (< 3 words)
+    """
+    title = candidate_title
+    if title.startswith("File:"):
+        title = title[5:]
+    title = re.sub(r"\.\w{1,5}$", "", title)
+    title_lower = title.lower().replace("_", " ")
+
+    name_lower = node_name.lower()
+    name_words = set(re.findall(r"[a-z0-9]+", name_lower))
+
+    query_words = set()
+    for q in search_queries:
+        query_words.update(re.findall(r"[a-z0-9]+", q.lower()))
+
+    title_words = re.findall(r"[a-z0-9]+", title_lower)
+    title_word_set = set(title_words)
+
+    score = 0.0
+
+    for word in name_words:
+        if word in title_word_set:
+            score += 2.0
+        else:
+            for tw in title_word_set:
+                overlap_len = 0
+                for a, b in zip(word, tw):
+                    if a == b:
+                        overlap_len += 1
+                    else:
+                        break
+                if overlap_len >= 4:
+                    score += 1.0
+                    break
+
+    if name_lower in title_lower:
+        score += 5.0
+
+    for word in query_words:
+        if word in title_word_set and word not in name_words:
+            score += 0.5
+
+    for word in title_word_set:
+        if word in GENERIC_WORDS:
+            score -= 1.0
+    if len(title_words) < 3:
+        score -= 3.0
+
+    return score
+
+
+def is_pdf_candidate(file_title):
+    return ".pdf" in file_title.lower()
+
+
+def is_too_small(candidate, min_dim=200):
+    w = candidate.get("width", 0)
+    h = candidate.get("height", 0)
+    if w and h:
+        return w < min_dim or h < min_dim
+    return False
+
+
 def sanitize_filename(node_id):
     return node_id.replace(".", "_")
 
@@ -235,9 +308,22 @@ def process_node(node, manifest, args, index, total):
                 all_candidates.append(c)
         time.sleep(1)
 
-    clean_candidates = []
+    filtered = []
     for c in all_candidates:
-        clean_candidates.append({
+        if is_pdf_candidate(c["file_title"]):
+            continue
+        if is_too_small(c):
+            continue
+        filtered.append(c)
+
+    for c in filtered:
+        c["_relevance"] = score_relevance(node_name, queries, c["file_title"])
+
+    filtered.sort(key=lambda c: c["_relevance"], reverse=True)
+
+    clean_candidates = []
+    for c in filtered:
+        entry_data = {
             "file_title": c["file_title"],
             "url": c["url"],
             "thumbnail_url": c["thumbnail_url"],
@@ -252,7 +338,8 @@ def process_node(node, manifest, args, index, total):
             "author": strip_html(c["author"]),
             "author_html": c.get("author_html", ""),
             "page_url": c["page_url"],
-        })
+        }
+        clean_candidates.append(entry_data)
 
     if not clean_candidates:
         status = "no_results"
@@ -270,8 +357,8 @@ def process_node(node, manifest, args, index, total):
         "attribution": None,
     }
 
-    if not args.dry_run and clean_candidates:
-        best = all_candidates[0] if all_candidates else None
+    if not args.dry_run and filtered:
+        best = filtered[0]
         if best:
             thumb_url = best.get("thumbnail_url") or best.get("url", "")
             mime = best.get("mime", "image/jpeg")

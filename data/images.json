@@ -36310,6 +36310,816 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Optical_coating_-_Thin_film_coating_-_Stripe_filters_-_CILAS.jpg",
         "attribution_md": "Optical coating - Thin film coating - Stripe filters - CILAS\nOptical coating - Thin film coating - Stripe filters - CILAS\n\nImage: CILAS ([source](https://commons.wikimedia.org/wiki/File:Optical_coating_-_Thin_film_coating_-_Stripe_filters_-_CILAS.jpg))\nLicense: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)"
       }
+    },
+    "plants": {
+      "node_name": "Plants & Botanical Resources",
+      "domain": "plants",
+      "search_queries": [
+        "Plants Botanical Resources",
+        "biomass health construction"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Innovative Microscale Biomass Gasifier Combined Cooling, Heating, and Power System CEC-500-2021-026.pdf",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Innovative_Microscale_Biomass_Gasifier_Combined_Cooling%2C_Heating%2C_and_Power_System_CEC-500-2021-026.pdf",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Innovative_Microscale_Biomass_Gasifier_Combined_Cooling%2C_Heating%2C_and_Power_System_CEC-500-2021-026.pdf/page1-960px-Innovative_Microscale_Biomass_Gasifier_Combined_Cooling%2C_Heating%2C_and_Power_System_CEC-500-2021-026.pdf.jpg",
+          "width": 1275,
+          "height": 1650,
+          "mime": "application/pdf",
+          "description": "Many light industrial and commercial markets considered as potential users for combined\ncooling, heating, and power (CCHP) are underserved and unserved because of its\ntechnological and economic challenges, and largely because of the existing natural gas\ninfrastructure and current competitive advantages. The primary barrier to adopting micro-scale\nCCHP with adsorption chillers relate to limited effectiveness and high costs.\nThis project devised a novel solution for CCHP that has at least 80 percent total system\nefficiency, reduces natural gas consumption, provides thermal and electricity ratepayer\nbenefits, and lowers greenhouse gas emissions. The project team achieved these goals by\ndeveloping a cost-effective, bankable, 20-kilowatt electric packaged CCHP system, powered by\na biomass gasification waste-to-energy platform and demonstrated its use in a real-world\nsituation.\nThe project team conducted pilot testing and demonstrations, with one facility located at a\nfire-risk community in southern California, used mainly woody biomass, and the second one at\nAll Power Labs workshop in Berkeley, used woody biomass and walnut shells, to power the\nbiomass gasifier CCHP units. The team tested and validated the CCHP systems, demonstrating\n\na replicable, scalable model for use in the commercial and light industrial sectors.",
+          "object_name": "Innovative Microscale Biomass Gasifier Combined Cooling, Heating, and Power System CEC-500-2021-026",
+          "categories": "Justin Anthony Knapp|All Power Labs|2021-04-09|PD California|2021 works in the United States|California Energy Commission reports|English-language PDF files",
+          "license": "Public domain",
+          "license_url": "",
+          "author": "Justin Anthony Knapp",
+          "author_html": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Justin_Knapp\" class=\"extiw\" title=\"w:en:Justin Knapp\"><span title=\"first person to log more than 1 million edits to the English Wikipedia\">Justin Anthony Knapp</span></a></bdi>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Innovative_Microscale_Biomass_Gasifier_Combined_Cooling,_Heating,_and_Power_System_CEC-500-2021-026.pdf"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.edible-plants": {
+      "node_name": "Edible Plants",
+      "domain": "plants",
+      "search_queries": [
+        "Edible Plants",
+        "biomass health"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Allium ochotense, edible wild plants, Hokkaido Japan.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Allium_ochotense%2C_edible_wild_plants%2C_Hokkaido_Japan.jpg",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Allium_ochotense%2C_edible_wild_plants%2C_Hokkaido_Japan.jpg",
+          "width": 650,
+          "height": 432,
+          "mime": "image/jpeg",
+          "description": "These are the Japanese wild herbs called \"Gyoujya-ninniku\", \"Hitobiro\" or \"Ainu-negi\" (Allium ochotense Prokh.). These wild herbs were gathered in Hokkaido, Japan. They are natural edible wild plants.",
+          "object_name": "Allium ochotense, edible wild plants, Hokkaido Japan",
+          "categories": "Allium ochotense|PD-user|Ainu food|Edible wild plants",
+          "license": "Public domain",
+          "license_url": "",
+          "author": "Carbon",
+          "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Carbon&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Carbon (page does not exist)\">Carbon</a>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Allium_ochotense,_edible_wild_plants,_Hokkaido_Japan.jpg"
+        },
+        {
+          "file_title": "File:Biodiesel-3.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Biodiesel-3.png",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Biodiesel-3.png/960px-Biodiesel-3.png",
+          "width": 1458,
+          "height": 1944,
+          "mime": "image/png",
+          "description": "Biodiesel sample",
+          "object_name": "Biodiesel-3",
+          "categories": "GFDL|Retouched pictures|Biodiesel|License migration redundant|Self-published work|Uploaded with derivativeFX",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "author": "Biodiesel.JPG: Shizhao拍摄\nderivative work: Hic et nunc (talk)",
+          "author_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Biodiesel.JPG\" title=\"File:Biodiesel.JPG\">Biodiesel.JPG</a>: <a href=\"//commons.wikimedia.org/wiki/User:Shizhao\" title=\"User:Shizhao\">Shizhao</a>拍摄</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Hic_et_nunc\" title=\"User:Hic et nunc\">Hic et nunc</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Hic_et_nunc\" title=\"User talk:Hic et nunc\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Biodiesel-3.png"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.medicinal-plants": {
+      "node_name": "Medicinal Plants",
+      "domain": "plants",
+      "search_queries": [
+        "Medicinal Plants",
+        "biomass health"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Medicinal Herbs Poisonous Plants-136.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Medicinal_Herbs_Poisonous_Plants-136.png",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medicinal_Herbs_Poisonous_Plants-136.png/960px-Medicinal_Herbs_Poisonous_Plants-136.png",
+          "width": 1443,
+          "height": 2406,
+          "mime": "image/png",
+          "description": "Deadly Nightshade Plate No. 80, from Medicinal herbs and poisonous plants, 1918 or Medicinal herbs and poisonous plants",
+          "object_name": "Medicinal Herbs Poisonous Plants-136",
+          "categories": "PD-old-70-expired|Atropa belladonna - botanical illustrations|Medicinal Herbs and Poisonous Plants, 1918|PD-scan (PD-old-70-expired)|Files from the Biodiversity Heritage Library|CC-PD-Mark|PD-old missing SDC copyright status",
+          "license": "Public domain",
+          "license_url": "",
+          "author": "David Ellis",
+          "author_html": "David Ellis",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Medicinal_Herbs_Poisonous_Plants-136.png"
+        },
+        {
+          "file_title": "File:Biodiesel-3.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Biodiesel-3.png",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Biodiesel-3.png/960px-Biodiesel-3.png",
+          "width": 1458,
+          "height": 1944,
+          "mime": "image/png",
+          "description": "Biodiesel sample",
+          "object_name": "Biodiesel-3",
+          "categories": "GFDL|Retouched pictures|Biodiesel|License migration redundant|Self-published work|Uploaded with derivativeFX",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "author": "Biodiesel.JPG: Shizhao拍摄\nderivative work: Hic et nunc (talk)",
+          "author_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Biodiesel.JPG\" title=\"File:Biodiesel.JPG\">Biodiesel.JPG</a>: <a href=\"//commons.wikimedia.org/wiki/User:Shizhao\" title=\"User:Shizhao\">Shizhao</a>拍摄</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Hic_et_nunc\" title=\"User:Hic et nunc\">Hic et nunc</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Hic_et_nunc\" title=\"User talk:Hic et nunc\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Biodiesel-3.png"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.fiber-plants": {
+      "node_name": "Fiber Plants",
+      "domain": "plants",
+      "search_queries": [
+        "Fiber Plants",
+        "biomass fibers"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Afrik.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Afrik.JPG",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Afrik.JPG/960px-Afrik.JPG",
+          "width": 1024,
+          "height": 768,
+          "mime": "image/jpeg",
+          "description": "Plucked, loose palm fiber",
+          "object_name": "Afrik",
+          "categories": "GFDL|Taken with Nikon Coolpix 4300|Plant fibers|License migration completed|Self-published work",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "author": "Uwe Besendörfer",
+          "author_html": "<a href=\"https://de.wikipedia.org/wiki/User:Uwe_Besend%C3%B6rfer\" class=\"extiw\" title=\"de:User:Uwe Besendörfer\">Uwe Besendörfer</a>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Afrik.JPG"
+        },
+        {
+          "file_title": "File:American Heritage Biomass.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/American_Heritage_Biomass.jpg",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/American_Heritage_Biomass.jpg",
+          "width": 548,
+          "height": 364,
+          "mime": "image/jpeg",
+          "description": "Wood Pellets are low-moisture, energy-dense pellets made from fine wood fiber.\nThe fiber from all parts of the trees is harvested and reduced into fine sawdust. From there, our “pelletization” process compacts and seals the wood material into wood pellets. These pellets are extremely dense and because the natural elements of the wood create a “glue” that holds them together, they are 100% natural.",
+          "object_name": "American Heritage Biomass",
+          "categories": "Biomass|Self-published work",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "author": "Americanheritagebiomass",
+          "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Americanheritagebiomass&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Americanheritagebiomass (page does not exist)\">Americanheritagebiomass</a>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:American_Heritage_Biomass.jpg"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.structural-plants": {
+      "node_name": "Structural Plants",
+      "domain": "plants",
+      "search_queries": [
+        "Structural Plants",
+        "biomass wood construction"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Leopard Tree AdF.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Leopard_Tree_AdF.jpg",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Leopard_Tree_AdF.jpg/960px-Leopard_Tree_AdF.jpg",
+          "width": 3000,
+          "height": 2000,
+          "mime": "image/jpeg",
+          "description": "Leopard (Panthera pardus) Female leopard descending from its favourite tree, where it spent the warmest hours of the day. Londolozi, Sabi Sand, South Africa",
+          "object_name": "Leopard Tree AdF",
+          "categories": "Trees in South Africa|Breonadia salicina|Self-published work|Commons featured widescreen desktop backgrounds|Featured pictures of South Africa|June 2007 in Africa|Gentianales in Mpumalanga|Featured pictures of Panthera pardus|Leopards in trees|Panthera pardus at Sabi Sand Private Game Reserve|Panthera pardus (female)|Mammals of Londolozi Game Reserve",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "author": "Arturo de Frias Marques",
+          "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Arturo_de_Frias_Marques\" title=\"User:Arturo de Frias Marques\">Arturo de Frias Marques</a>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Leopard_Tree_AdF.jpg"
+        },
+        {
+          "file_title": "File:Wood Vault - remove atmospheric CO2 with trees, store wood for carbon sequestration for now and as biomass, bioenergy and carbon reserve for the future.pdf",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Wood_Vault_-_remove_atmospheric_CO2_with_trees%2C_store_wood_for_carbon_sequestration_for_now_and_as_biomass%2C_bioenergy_and_carbon_reserve_for_the_future.pdf",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Wood_Vault_-_remove_atmospheric_CO2_with_trees%2C_store_wood_for_carbon_sequestration_for_now_and_as_biomass%2C_bioenergy_and_carbon_reserve_for_the_future.pdf/page1-960px-Wood_Vault_-_remove_atmospheric_CO2_with_trees%2C_store_wood_for_carbon_sequestration_for_now_and_as_biomass%2C_bioenergy_and_carbon_reserve_for_the_future.pdf.jpg",
+          "width": 1239,
+          "height": 1645,
+          "mime": "application/pdf",
+          "description": "===Background===\nWood harvesting and storage (WHS) is a hybrid Nature-Engineering combination method to combat climate change by harvesting wood sustainably and storing it semi-permanently for carbon sequestration. To date, the technology has only been purposefully tested in small-scale demonstration projects. This study aims to develop a concrete way to carry out WHS at large-scale.\n\nResults\nWe describe a method of constructing a wood storage facility, named Wood Vault, that can bury woody biomass on a mega-tonne scale in specially engineered enclosures to ensure anaerobic environments, thus preventing wood decay. The buried wood enters a quasi-geological reservoir that is expected to stay intact semi-permanently. Storing wood in many environments is possible, leading to seven versions of Wood Vault: (1) Burial Mound (Tumulus or Barrow), (2) Underground (Pit, Quarry, or Mine), (3) Super Vault, (4) Shelter, (5) AquaOpen or AquaVault with wood submerged under water, (6) DesertOpen or DesertVault in dry regions, (7) FreezeVault in cold regions such as Antarctica. Smaller sizes are also possible, named Baby Vault. A prototype Wood Vault Unit (WVU) occupies 1 hectare (ha, 100 m by 100 m) of surface land, 20 m tall, stores up to 100,000 m 3 of wood, sequestering 0.1 MtCO2. A 1 MtCO2 y −1 sequestration rate can be achieved by collecting currently unused wood residuals (WR) on an area of 25,000 km 2, the size of 10 typical counties in the eastern US, corresponding to an average transportation distance of less than 100 km. After 30 years of operation, such a Wood Vault facility would have sequestered 30 MtCO2, stored in 300 WVUs, occupying a land surface of 300 ha. The cost is estimated at $10–50/tCO2 with a mid-point price of $30/tCO2. To sequester 1 GtCO2 y −1, wood can be sourced from currently unexploited wood residuals on an area of 9 Mkm 2 forested land (9 million square kilometers, size of the US), corresponding to a low areal harvesting intensity of 1.1 tCO2 ha −1 y −1. Alternatively, giga-tonne scale carbon removal can be achieved by harvesting wood at a medium harvesting intensity of 4 tCO2 ha −1 y −1 on 3 Mkm 2 of forest (equivalent to increasing current world wood harvest rate by 25%), or harvest on 0.8 Mkm 2 forest restored from past Amazon deforestation at high harvest intensity, or many combinations of these and other possibilities. It takes 1000 facilities as discussed above to store 1 GtCO2 y −1, compared to more than 6000 landfills currently in operation in the US. After full closure of a Wood Vault, the land can be utilized for recreation, agriculture, solar farm, or agrivoltaics. A more distributed small operator model (Baby Vault) has somewhat different operation and economic constraints. A 10 giga-tonne sequestration rate siphons off only 5% of total terrestrial net primary production, thus possible with WHS, but extreme caution needs to be taken to ensure sustainable wood sourcing.\n\nConclusions\nOur technical and economic analysis shows that Wood Vault can be a powerful tool to sequester carbon reliably, using a variety of wood sources. Most pieces of the technology already exist, but they need to be put together efficiently in practice. Some uncertainties need to be addressed, including how durability of buried wood depends on detailed storage methods and burial environment, but the science and technology are known well enough to believe the practicality of the method. The high durability, verifiability and low-cost makes it already an attractive option in the current global carbon market. Woody biomass stored in Wood Vaults is not only a carbon sink to combat current climate crisis, but also a valuable resource for the future that can be used as biomass/bioenergy and carbon supply. The quantity of this wood utilization can be controlled carefully to maintain a desired amount of CO2 in the atmosphere to keep the Earth’s climate from diving into the next ice age, acting as a climate thermostat. The CO2 drawdown time is on the order of 100 years while the ramp-up time is a decade. A sense of urgency is warranted because the CO2 removal rate is limited by biosphere productivity, thus delayed action means a loss of opportunity. In conclusion, WHS provides a tool for managing our Earth system, which will likely remain forever in the Anthropocene.",
+          "object_name": "Wood Vault - remove atmospheric CO2 with trees, store wood for carbon sequestration for now and as biomass, bioenergy and carbon reserve for the future",
+          "categories": "Carbon|Trees|2022-04-01|English-language PDF files",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "author": "Ning Zeng &amp; Henry Hausmann",
+          "author_html": "Ning Zeng &amp; Henry Hausmann",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Wood_Vault_-_remove_atmospheric_CO2_with_trees,_store_wood_for_carbon_sequestration_for_now_and_as_biomass,_bioenergy_and_carbon_reserve_for_the_future.pdf"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.dye-plants": {
+      "node_name": "Dye Plants",
+      "domain": "plants",
+      "search_queries": [
+        "Dye Plants",
+        "biomass chemicals"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Indian indigo dye lump.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Indian_indigo_dye_lump.jpg",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Indian_indigo_dye_lump.jpg",
+          "width": 800,
+          "height": 600,
+          "mime": "image/jpeg",
+          "description": "Piece of indigo plant dye from India, c. 6.35 cm (2.5 in) square.",
+          "object_name": "Indian indigo dye lump",
+          "categories": "Indigo dye|Indigo|Self-published work|Objects with white background|Dyes in India",
+          "license": "CC BY-SA 2.5",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+          "author": "Photo by Evan Izer (Palladian)",
+          "author_html": "Photo by Evan Izer (<a href=\"https://en.wikipedia.org/wiki/User:Palladian\" class=\"extiw\" title=\"en:User:Palladian\">Palladian</a>)",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Indian_indigo_dye_lump.jpg"
+        },
+        {
+          "file_title": "File:Pueblo Chemical Agent-Destruction Pilot Plant Biomass (27967250195).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Pueblo_Chemical_Agent-Destruction_Pilot_Plant_Biomass_%2827967250195%29.jpg",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Pueblo_Chemical_Agent-Destruction_Pilot_Plant_Biomass_%2827967250195%29.jpg/960px-Pueblo_Chemical_Agent-Destruction_Pilot_Plant_Biomass_%2827967250195%29.jpg",
+          "width": 4928,
+          "height": 3264,
+          "mime": "image/jpeg",
+          "description": "A delivery of biomass from the Pueblo Wastewater Reclamation Facility arrives at the PCAPP site June 1. The biomass is used to seed the biotreatment process for destruction of thiodiglycol, the main ingredient of mustard agent hydrolysate.",
+          "object_name": "Pueblo Chemical Agent-Destruction Pilot Plant Biomass (27967250195)",
+          "categories": "Pueblo Chemical Agent-Destruction Pilot Plant|Flickr images reviewed by FlickreviewR 2",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "author": "PEO ACWA",
+          "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/39388148@N04\">PEO ACWA</a>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Pueblo_Chemical_Agent-Destruction_Pilot_Plant_Biomass_(27967250195).jpg"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.edible-plants.allium-ampeloprasum": {
+      "node_name": "Allium ampeloprasum",
+      "domain": "plants",
+      "search_queries": [
+        "Allium ampeloprasum",
+        "biomass health"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Allium ampeloprasum MHNT.BOT.2006.46.12.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Allium_ampeloprasum_MHNT.BOT.2006.46.12.jpg",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Allium_ampeloprasum_MHNT.BOT.2006.46.12.jpg/960px-Allium_ampeloprasum_MHNT.BOT.2006.46.12.jpg",
+          "width": 3850,
+          "height": 2958,
+          "mime": "image/jpeg",
+          "description": "leek , fruits and seeds",
+          "object_name": "Allium ampeloprasum MHNT.BOT.2006.46.12",
+          "categories": "Supported by Wikimedia France|Capsule (fruit)|Self-published work|Supported by Projet Phoebus|Media supported by Wikimedia France|Collection of botany of the Muséum de Toulouse|Fruits on white background|Files with coordinates missing SDC location of creation|Allium seed|Focus stacking images of fruit and seeds|Allium ampeloprasum (fruit)|Images by Ercé Botanique",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "author": "Roger Culos",
+          "author_html": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User:Erc%C3%A9\" title=\"User:Ercé\">Roger Culos</a></div>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Allium_ampeloprasum_MHNT.BOT.2006.46.12.jpg"
+        },
+        {
+          "file_title": "File:Biodiesel-3.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Biodiesel-3.png",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Biodiesel-3.png/960px-Biodiesel-3.png",
+          "width": 1458,
+          "height": 1944,
+          "mime": "image/png",
+          "description": "Biodiesel sample",
+          "object_name": "Biodiesel-3",
+          "categories": "GFDL|Retouched pictures|Biodiesel|License migration redundant|Self-published work|Uploaded with derivativeFX",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "author": "Biodiesel.JPG: Shizhao拍摄\nderivative work: Hic et nunc (talk)",
+          "author_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Biodiesel.JPG\" title=\"File:Biodiesel.JPG\">Biodiesel.JPG</a>: <a href=\"//commons.wikimedia.org/wiki/User:Shizhao\" title=\"User:Shizhao\">Shizhao</a>拍摄</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Hic_et_nunc\" title=\"User:Hic et nunc\">Hic et nunc</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Hic_et_nunc\" title=\"User talk:Hic et nunc\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Biodiesel-3.png"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.edible-plants.artemisia-absinthium": {
+      "node_name": "Artemisia absinthium",
+      "domain": "plants",
+      "search_queries": [
+        "Artemisia absinthium",
+        "biomass health"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Artemisia absinthium P1210748.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Artemisia_absinthium_P1210748.jpg",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Artemisia_absinthium_P1210748.jpg/960px-Artemisia_absinthium_P1210748.jpg",
+          "width": 1920,
+          "height": 2560,
+          "mime": "image/jpeg",
+          "description": "Artemisia absinthium, jardin du musée de l'absinthe, Auvers-sur-Oise, France",
+          "object_name": "Artemisia absinthium P1210748",
+          "categories": "Artemisia absinthium|GFDL|Taken with Panasonic Lumix DMC-FZ20|License migration redundant|Self-published work|Photographs and images by David Monniaux|Photographs taken on 2007-06-03",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "author": "David Monniaux",
+          "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:David.Monniaux\" title=\"User:David.Monniaux\">David Monniaux</a>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Artemisia_absinthium_P1210748.jpg"
+        },
+        {
+          "file_title": "File:Biodiesel-3.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Biodiesel-3.png",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Biodiesel-3.png/960px-Biodiesel-3.png",
+          "width": 1458,
+          "height": 1944,
+          "mime": "image/png",
+          "description": "Biodiesel sample",
+          "object_name": "Biodiesel-3",
+          "categories": "GFDL|Retouched pictures|Biodiesel|License migration redundant|Self-published work|Uploaded with derivativeFX",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "author": "Biodiesel.JPG: Shizhao拍摄\nderivative work: Hic et nunc (talk)",
+          "author_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Biodiesel.JPG\" title=\"File:Biodiesel.JPG\">Biodiesel.JPG</a>: <a href=\"//commons.wikimedia.org/wiki/User:Shizhao\" title=\"User:Shizhao\">Shizhao</a>拍摄</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Hic_et_nunc\" title=\"User:Hic et nunc\">Hic et nunc</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Hic_et_nunc\" title=\"User talk:Hic et nunc\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Biodiesel-3.png"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.edible-plants.agave": {
+      "node_name": "Agave",
+      "domain": "plants",
+      "search_queries": [
+        "Agave",
+        "biomass health"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Agave field in Jalisco, Mexico.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Agave_field_in_Jalisco%2C_Mexico.jpg",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Agave_field_in_Jalisco%2C_Mexico.jpg/960px-Agave_field_in_Jalisco%2C_Mexico.jpg",
+          "width": 5651,
+          "height": 4050,
+          "mime": "image/jpeg",
+          "description": "Agave field in Jalisco, Mexico",
+          "object_name": "Agave field in Jalisco, Mexico",
+          "categories": "Agave tequilana|Self-published work|Information field template with formatting|Featured pictures on Wikipedia, Spanish|Agave fields in Mexico|Rows of plants",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "author": "Tomascastelazo",
+          "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Tomascastelazo\" title=\"User:Tomascastelazo\">Tomascastelazo</a>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Agave_field_in_Jalisco,_Mexico.jpg"
+        },
+        {
+          "file_title": "File:Biodiesel-3.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Biodiesel-3.png",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Biodiesel-3.png/960px-Biodiesel-3.png",
+          "width": 1458,
+          "height": 1944,
+          "mime": "image/png",
+          "description": "Biodiesel sample",
+          "object_name": "Biodiesel-3",
+          "categories": "GFDL|Retouched pictures|Biodiesel|License migration redundant|Self-published work|Uploaded with derivativeFX",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "author": "Biodiesel.JPG: Shizhao拍摄\nderivative work: Hic et nunc (talk)",
+          "author_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Biodiesel.JPG\" title=\"File:Biodiesel.JPG\">Biodiesel.JPG</a>: <a href=\"//commons.wikimedia.org/wiki/User:Shizhao\" title=\"User:Shizhao\">Shizhao</a>拍摄</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Hic_et_nunc\" title=\"User:Hic et nunc\">Hic et nunc</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Hic_et_nunc\" title=\"User talk:Hic et nunc\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Biodiesel-3.png"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.edible-plants.bitter-orange": {
+      "node_name": "Bitter orange",
+      "domain": "plants",
+      "search_queries": [
+        "Bitter orange",
+        "biomass health"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Citrus aurantium - Köhler–s Medizinal-Pflanzen-042.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Citrus_aurantium_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-042.jpg",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Citrus_aurantium_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-042.jpg",
+          "width": 473,
+          "height": 577,
+          "mime": "image/jpeg",
+          "description": "Pomeranze. A blühender und fruchtender Zweig, natürl. Grösse; B Frucht, desgl.; 1 Blüthe nach Entfernung der Kronblätter, vergrössert; 2 Blüthe im Längsschnitt, desgl.; 3 Kronblatt, desgl.; 4 Staubgefässbündel, desgl.; 5 Stempel mit Staubgefässbündel, desgl.; 6 reife Frucht im Querschnitt, natürl. Grösse; 7 unreife Fruchtrinde im mikroskopischen Querschnitt;",
+          "object_name": "Citrus aurantium - Köhler–s Medizinal-Pflanzen-042",
+          "categories": "Köhlers Medizinal-Pflanzen|PD Old|CC-PD-Mark|Citrus × aurantium - botanical illustrations|PD-old missing SDC copyright status",
+          "license": "Public domain",
+          "license_url": "",
+          "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+          "author_html": "Franz Eugen Köhler, <i>Köhler's Medizinal-Pflanzen</i>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Citrus_aurantium_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-042.jpg"
+        },
+        {
+          "file_title": "File:Biodiesel-3.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Biodiesel-3.png",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Biodiesel-3.png/960px-Biodiesel-3.png",
+          "width": 1458,
+          "height": 1944,
+          "mime": "image/png",
+          "description": "Biodiesel sample",
+          "object_name": "Biodiesel-3",
+          "categories": "GFDL|Retouched pictures|Biodiesel|License migration redundant|Self-published work|Uploaded with derivativeFX",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "author": "Biodiesel.JPG: Shizhao拍摄\nderivative work: Hic et nunc (talk)",
+          "author_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Biodiesel.JPG\" title=\"File:Biodiesel.JPG\">Biodiesel.JPG</a>: <a href=\"//commons.wikimedia.org/wiki/User:Shizhao\" title=\"User:Shizhao\">Shizhao</a>拍摄</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Hic_et_nunc\" title=\"User:Hic et nunc\">Hic et nunc</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Hic_et_nunc\" title=\"User talk:Hic et nunc\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Biodiesel-3.png"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.edible-plants.balanites-aegyptiaca": {
+      "node_name": "Balanites aegyptiaca",
+      "domain": "plants",
+      "search_queries": [
+        "Balanites aegyptiaca",
+        "biomass health"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Balanites aegyptiaca MHNT.BOT.2009.13.5.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Balanites_aegyptiaca_MHNT.BOT.2009.13.5.jpg",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Balanites_aegyptiaca_MHNT.BOT.2009.13.5.jpg/960px-Balanites_aegyptiaca_MHNT.BOT.2009.13.5.jpg",
+          "width": 3256,
+          "height": 2373,
+          "mime": "image/jpeg",
+          "description": "Balanites aegyptiacus , fruits and seeds",
+          "object_name": "Balanites aegyptiaca MHNT.BOT.2009.13.5",
+          "categories": "Supported by Wikimedia France|Drupe|Self-published work|Supported by Projet Phoebus|Media supported by Wikimedia France|Collection of botany of the Muséum de Toulouse|Fruits on white background|Files with coordinates missing SDC location of creation|Specimen missing SDC depicts|Plants on white background|Focus stacking images of fruit and seeds|Images by Ercé Botanique|Balanites aegyptiaca (fruit)",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "author": "Roger Culos",
+          "author_html": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User:Erc%C3%A9\" title=\"User:Ercé\">Roger Culos</a></div>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Balanites_aegyptiaca_MHNT.BOT.2009.13.5.jpg"
+        },
+        {
+          "file_title": "File:Biodiesel-3.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Biodiesel-3.png",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Biodiesel-3.png/960px-Biodiesel-3.png",
+          "width": 1458,
+          "height": 1944,
+          "mime": "image/png",
+          "description": "Biodiesel sample",
+          "object_name": "Biodiesel-3",
+          "categories": "GFDL|Retouched pictures|Biodiesel|License migration redundant|Self-published work|Uploaded with derivativeFX",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "author": "Biodiesel.JPG: Shizhao拍摄\nderivative work: Hic et nunc (talk)",
+          "author_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Biodiesel.JPG\" title=\"File:Biodiesel.JPG\">Biodiesel.JPG</a>: <a href=\"//commons.wikimedia.org/wiki/User:Shizhao\" title=\"User:Shizhao\">Shizhao</a>拍摄</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Hic_et_nunc\" title=\"User:Hic et nunc\">Hic et nunc</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Hic_et_nunc\" title=\"User talk:Hic et nunc\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Biodiesel-3.png"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.medicinal-plants.agrimonia-pilosa": {
+      "node_name": "Agrimonia pilosa",
+      "domain": "plants",
+      "search_queries": [
+        "Agrimonia pilosa",
+        "biomass health"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Agrimonia pilosa.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Agrimonia_pilosa.jpg",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Agrimonia_pilosa.jpg",
+          "width": 800,
+          "height": 532,
+          "mime": "image/jpeg",
+          "description": "Described as Agrimonia pilosa, but probably wrong – base of leaflets should be narrow (100 % yes, grown from seeds from the botanical garden).",
+          "object_name": "Agrimonia pilosa",
+          "categories": "GFDL|Taken with Nikon D70s|License migration redundant|Self-published work|Agrimonia pilosa",
+          "license": "CC BY 2.5",
+          "license_url": "https://creativecommons.org/licenses/by/2.5",
+          "author": "Doronenko",
+          "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Doronenko\" title=\"User:Doronenko\">Doronenko</a>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Agrimonia_pilosa.jpg"
+        },
+        {
+          "file_title": "File:Biodiesel-3.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Biodiesel-3.png",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Biodiesel-3.png/960px-Biodiesel-3.png",
+          "width": 1458,
+          "height": 1944,
+          "mime": "image/png",
+          "description": "Biodiesel sample",
+          "object_name": "Biodiesel-3",
+          "categories": "GFDL|Retouched pictures|Biodiesel|License migration redundant|Self-published work|Uploaded with derivativeFX",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "author": "Biodiesel.JPG: Shizhao拍摄\nderivative work: Hic et nunc (talk)",
+          "author_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Biodiesel.JPG\" title=\"File:Biodiesel.JPG\">Biodiesel.JPG</a>: <a href=\"//commons.wikimedia.org/wiki/User:Shizhao\" title=\"User:Shizhao\">Shizhao</a>拍摄</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Hic_et_nunc\" title=\"User:Hic et nunc\">Hic et nunc</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Hic_et_nunc\" title=\"User talk:Hic et nunc\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Biodiesel-3.png"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.medicinal-plants.aloe-officinalis": {
+      "node_name": "Aloe officinalis",
+      "domain": "plants",
+      "search_queries": [
+        "Aloe officinalis",
+        "biomass health"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Aloe officinalis (inflorescence) 01.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Aloe_officinalis_%28inflorescence%29_01.JPG",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Aloe_officinalis_%28inflorescence%29_01.JPG/960px-Aloe_officinalis_%28inflorescence%29_01.JPG",
+          "width": 2816,
+          "height": 2112,
+          "mime": "image/jpeg",
+          "description": "Greenhouses of the Botanical garden (Saint Petersburg). Aloe officinalis var. angustifolia",
+          "object_name": "Aloe officinalis (inflorescence) 01",
+          "categories": "Aloe officinalis|GFDL|Taken with Canon PowerShot S3 IS|Yellow flowers|License migration redundant|Self-published work|Images by Andrey Korzun|Photographs taken on 2007-06-11|Monocot inflorescences|Greenhouse N16 of Saint Petersburg Botanical Garden",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "author": "Kor!An (Корзун Андрей)",
+          "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kor!An\" class=\"mw-redirect\" title=\"User:Kor!An\">Kor!An (Корзун Андрей)</a>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Aloe_officinalis_(inflorescence)_01.JPG"
+        },
+        {
+          "file_title": "File:Biodiesel-3.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Biodiesel-3.png",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Biodiesel-3.png/960px-Biodiesel-3.png",
+          "width": 1458,
+          "height": 1944,
+          "mime": "image/png",
+          "description": "Biodiesel sample",
+          "object_name": "Biodiesel-3",
+          "categories": "GFDL|Retouched pictures|Biodiesel|License migration redundant|Self-published work|Uploaded with derivativeFX",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "author": "Biodiesel.JPG: Shizhao拍摄\nderivative work: Hic et nunc (talk)",
+          "author_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Biodiesel.JPG\" title=\"File:Biodiesel.JPG\">Biodiesel.JPG</a>: <a href=\"//commons.wikimedia.org/wiki/User:Shizhao\" title=\"User:Shizhao\">Shizhao</a>拍摄</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Hic_et_nunc\" title=\"User:Hic et nunc\">Hic et nunc</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Hic_et_nunc\" title=\"User talk:Hic et nunc\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Biodiesel-3.png"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.medicinal-plants.artemisia-douglasiana": {
+      "node_name": "Artemisia douglasiana",
+      "domain": "plants",
+      "search_queries": [
+        "Artemisia douglasiana",
+        "biomass health"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Artemisia douglasiana 1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Artemisia_douglasiana_1.jpg",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Artemisia_douglasiana_1.jpg/960px-Artemisia_douglasiana_1.jpg",
+          "width": 2304,
+          "height": 3072,
+          "mime": "image/jpeg",
+          "description": "Artemisia douglasiana",
+          "object_name": "Artemisia douglasiana 1",
+          "categories": "Artemisia douglasiana|Flickr images reviewed by FlickreviewR",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "author": "stonebird from inglewood, california, usa",
+          "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/73431753@N00\">stonebird</a> from inglewood, california, usa",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Artemisia_douglasiana_1.jpg"
+        },
+        {
+          "file_title": "File:Biodiesel-3.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Biodiesel-3.png",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Biodiesel-3.png/960px-Biodiesel-3.png",
+          "width": 1458,
+          "height": 1944,
+          "mime": "image/png",
+          "description": "Biodiesel sample",
+          "object_name": "Biodiesel-3",
+          "categories": "GFDL|Retouched pictures|Biodiesel|License migration redundant|Self-published work|Uploaded with derivativeFX",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "author": "Biodiesel.JPG: Shizhao拍摄\nderivative work: Hic et nunc (talk)",
+          "author_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Biodiesel.JPG\" title=\"File:Biodiesel.JPG\">Biodiesel.JPG</a>: <a href=\"//commons.wikimedia.org/wiki/User:Shizhao\" title=\"User:Shizhao\">Shizhao</a>拍摄</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Hic_et_nunc\" title=\"User:Hic et nunc\">Hic et nunc</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Hic_et_nunc\" title=\"User talk:Hic et nunc\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Biodiesel-3.png"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.medicinal-plants.artemisia-inculta": {
+      "node_name": "Artemisia inculta",
+      "domain": "plants",
+      "search_queries": [
+        "Artemisia inculta",
+        "biomass health"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Botanique. 1. Artemisia monosperma; 2. Artemisia inculta; 3. Artemisia judaica (NYPL b14212718-1268675).tiff",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Botanique._1._Artemisia_monosperma%3B_2._Artemisia_inculta%3B_3._Artemisia_judaica_%28NYPL_b14212718-1268675%29.tiff",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Botanique._1._Artemisia_monosperma%3B_2._Artemisia_inculta%3B_3._Artemisia_judaica_%28NYPL_b14212718-1268675%29.tiff/lossy-page1-960px-Botanique._1._Artemisia_monosperma%3B_2._Artemisia_inculta%3B_3._Artemisia_judaica_%28NYPL_b14212718-1268675%29.tiff.jpg",
+          "width": 6299,
+          "height": 4912,
+          "mime": "image/tiff",
+          "description": "Botanique. 1. Artemisia monosperma; 2. Artemisia inculta; 3. Artemisia judaica.",
+          "object_name": "Botanique. 1. Artemisia monosperma; 2. Artemisia inculta; 3. Artemisia judaica (NYPL b14212718-1268675)",
+          "categories": "Images uploaded by Fæ|PD-old-100-expired|PD-scan (PD-old-auto-expired)|Images from the New York Public Library|CC-PD-Mark|PD-old missing SDC copyright status|Artemisia judaica - botanical illustrations|Description de l'Egypte. Histoire naturelle. Tome deuxième|Artemisia inculta - botanical illustrations|Artemisia monosperma - botanical illustrations",
+          "license": "Public domain",
+          "license_url": "",
+          "author": "Scan by NYPL",
+          "author_html": "Scan by NYPL",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Botanique._1._Artemisia_monosperma;_2._Artemisia_inculta;_3._Artemisia_judaica_(NYPL_b14212718-1268675).tiff"
+        },
+        {
+          "file_title": "File:Biodiesel-3.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Biodiesel-3.png",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Biodiesel-3.png/960px-Biodiesel-3.png",
+          "width": 1458,
+          "height": 1944,
+          "mime": "image/png",
+          "description": "Biodiesel sample",
+          "object_name": "Biodiesel-3",
+          "categories": "GFDL|Retouched pictures|Biodiesel|License migration redundant|Self-published work|Uploaded with derivativeFX",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "author": "Biodiesel.JPG: Shizhao拍摄\nderivative work: Hic et nunc (talk)",
+          "author_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Biodiesel.JPG\" title=\"File:Biodiesel.JPG\">Biodiesel.JPG</a>: <a href=\"//commons.wikimedia.org/wiki/User:Shizhao\" title=\"User:Shizhao\">Shizhao</a>拍摄</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Hic_et_nunc\" title=\"User:Hic et nunc\">Hic et nunc</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Hic_et_nunc\" title=\"User talk:Hic et nunc\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Biodiesel-3.png"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.medicinal-plants.botryodiscia": {
+      "node_name": "Botryodiscia",
+      "domain": "plants",
+      "search_queries": [
+        "Botryodiscia",
+        "biomass health"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Biodiesel-3.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Biodiesel-3.png",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Biodiesel-3.png/960px-Biodiesel-3.png",
+          "width": 1458,
+          "height": 1944,
+          "mime": "image/png",
+          "description": "Biodiesel sample",
+          "object_name": "Biodiesel-3",
+          "categories": "GFDL|Retouched pictures|Biodiesel|License migration redundant|Self-published work|Uploaded with derivativeFX",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "author": "Biodiesel.JPG: Shizhao拍摄\nderivative work: Hic et nunc (talk)",
+          "author_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Biodiesel.JPG\" title=\"File:Biodiesel.JPG\">Biodiesel.JPG</a>: <a href=\"//commons.wikimedia.org/wiki/User:Shizhao\" title=\"User:Shizhao\">Shizhao</a>拍摄</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Hic_et_nunc\" title=\"User:Hic et nunc\">Hic et nunc</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Hic_et_nunc\" title=\"User talk:Hic et nunc\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Biodiesel-3.png"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.fiber-plants.allium-paniculatum": {
+      "node_name": "Allium paniculatum",
+      "domain": "plants",
+      "search_queries": [
+        "Allium paniculatum",
+        "biomass"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Allium paniculatum var paniculatum NY-dist-map.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Allium_paniculatum_var_paniculatum_NY-dist-map.png",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Allium_paniculatum_var_paniculatum_NY-dist-map.png",
+          "width": 500,
+          "height": 375,
+          "mime": "image/png",
+          "description": "New York distribution map for Allium paniculatum var paniculatum",
+          "object_name": "Allium paniculatum var paniculatum NY-dist-map",
+          "categories": "Allium paniculatum|PD US Government|CC-PD-Mark|NRCS New York (state) distribution maps",
+          "license": "Public domain",
+          "license_url": "",
+          "author": "USDA Natural Resources Conservation Service (NRCS)",
+          "author_html": "USDA Natural Resources Conservation Service (NRCS)",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Allium_paniculatum_var_paniculatum_NY-dist-map.png"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.fiber-plants.amaranthus-albus": {
+      "node_name": "Amaranthus albus",
+      "domain": "plants",
+      "search_queries": [
+        "Amaranthus albus",
+        "biomass"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Amaranthus albus sl14.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Amaranthus_albus_sl14.jpg",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Amaranthus_albus_sl14.jpg/960px-Amaranthus_albus_sl14.jpg",
+          "width": 3096,
+          "height": 4128,
+          "mime": "image/jpeg",
+          "description": "Habitus\nTaxonym: Amaranthus albus ss Fischer et al. EfÖLS 2008 ISBN 978-3-85474-187-9\nLocation: Floridsdorf rail station, Vienna-Floridsdorf - ca. 160 m a.s.l.\n\nHabitat: sleeper",
+          "object_name": "Amaranthus albus sl14",
+          "categories": "Amaranthus albus|Self-published work|Caryophyllales in Vienna in July|Files with coordinates missing SDC location of creation|Austria photographs taken on 2015-07-28|Amaranthoideae in Vienna|Amaranthoideae in the Northern Hemisphere in July|Pannonian Flora|Caryophyllales at Bahnhof Wien-Floridsdorf|Flora of sleepers",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "author": "Stefan.lefnaer",
+          "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Stefan.lefnaer\" title=\"User:Stefan.lefnaer\">Stefan.lefnaer</a>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Amaranthus_albus_sl14.jpg"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
+    },
+    "plants.structural-plants.artemisia-capillaris": {
+      "node_name": "Artemisia capillaris",
+      "domain": "plants",
+      "search_queries": [
+        "Artemisia capillaris",
+        "biomass construction"
+      ],
+      "status": "has_candidates",
+      "candidates": [
+        {
+          "file_title": "File:Artemisia capillaris 1.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Artemisia_capillaris_1.JPG",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Artemisia_capillaris_1.JPG/960px-Artemisia_capillaris_1.JPG",
+          "width": 3264,
+          "height": 2448,
+          "mime": "image/jpeg",
+          "description": "Artemisia capillaris, Syonai area, Yamagata pref., Japan",
+          "object_name": "Artemisia capillaris 1",
+          "categories": "Artemisia capillaris|Taken with Canon PowerShot G9|Self-published work",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "author": "Qwert1234",
+          "author_html": "Qwert1234",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Artemisia_capillaris_1.JPG"
+        },
+        {
+          "file_title": "File:Biomass Power on the Way (12663115744).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Biomass_Power_on_the_Way_%2812663115744%29.jpg",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Biomass_Power_on_the_Way_%2812663115744%29.jpg/960px-Biomass_Power_on_the_Way_%2812663115744%29.jpg",
+          "width": 4256,
+          "height": 2832,
+          "mime": "image/jpeg",
+          "description": "A construction worker in last minute preparations at the project site where the new biomass energy power plant will be built in Marigat, Baringo County Kenya. \nThis USAID fostered project is a public-private partnership between the Cummins Cogeneration Kenya Limited and the Government of Kenya with support from the World Bank and the African Development Bank. It is part of an electricity generation plan which will add more than 10,000 mega¬watts of clean, efficient electricity generation capacity for 20 million new businesses and households in sub-Saharan Africa with some access to electrical power.\n\nPhoto credit: Alex Kamweru, USAID/Kenya",
+          "object_name": "Biomass Power on the Way (12663115744)",
+          "categories": "PD USAID|Biomass-fired power plants|Baringo County|Energy in Uganda|Construction in Uganda|People at work in Uganda|Flickr images reviewed by FlickreviewR 2|Construction workers in Uganda|USGov images uploaded by Hiàn|US Aid Africa",
+          "license": "Public domain",
+          "license_url": "",
+          "author": "USAID in Africa",
+          "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/57424551@N06\">USAID in Africa</a>",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Biomass_Power_on_the_Way_(12663115744).jpg"
+        }
+      ],
+      "selected": null,
+      "local_path": null,
+      "attribution": null
     }
   }
 }

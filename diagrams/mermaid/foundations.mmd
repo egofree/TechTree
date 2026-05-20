@@ -29,6 +29,8 @@ graph TD
     metals_copper-bronze("Copper & Bronze Production")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_extraction("Mining Extraction")
+    plants("Plants & Botanical Resources")
+    plants_edible-plants("Edible Plants")
     polymers("Polymers & Composites")
     polymers_rubber_natural("Natural Rubber & Vulcanization")
     textiles("Textiles, Fiber & Cordage")
@@ -59,6 +61,8 @@ graph TD
     knowledge_writing -.-> foundations_tools-basic
     transport_roads -.-> foundations_tools-basic
     knowledge_writing -.-> foundations_food-agriculture
+    plants -.-> foundations_fire
+    foundations_food-agriculture --> plants_edible-plants
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -93,6 +97,8 @@ graph TD
     class metals_copper-bronze external
     class mining external
     class mining_extraction external
+    class plants external
+    class plants_edible-plants external
     class polymers external
     class polymers_rubber_natural external
     class textiles external

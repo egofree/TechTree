@@ -1,0 +1,1908 @@
+{
+  "$schema": "bootciv-plants-catalog-v1",
+  "domain": "plants",
+  "generated": "2026-05-19T22:41:49.697437+00:00",
+  "source_stats": {
+    "wikipedia": 200
+  },
+  "species": [
+    {
+      "id": "plant",
+      "title": "Plant",
+      "common_names": [
+        "Plant"
+      ],
+      "scientific_name": "",
+      "primary_use": "uncategorized",
+      "family": "",
+      "order": "",
+      "native_region": "",
+      "uses": [],
+      "description": "",
+      "source_url": "https://en.wikipedia.org/wiki/Plant",
+      "extraction_quality": "minimal",
+      "needs_research": true,
+      "source": "wikipedia"
+    },
+    {
+      "id": "medicinal-plants",
+      "title": "Medicinal plants",
+      "common_names": [
+        "Medicinal plants"
+      ],
+      "scientific_name": "Medicinal plants",
+      "primary_use": "edible",
+      "family": "",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "dye",
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Medicinal plants , also called medicinal herbs , have been discovered and used in traditional medicine practices since prehistoric times. Plants synthesize hundreds of chemical compounds for various functions, including defense and protection against insects , fungi , diseases , against parasites [ 2 ] and herbivorous mammals . [ 3 ] The earliest historical records of herbs are found from the Sumerian civilization, where hundreds of medicinal plants including opium are listed ...",
+      "source_url": "https://en.wikipedia.org/wiki/Medicinal_plants",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "list-of-edible-seeds",
+      "title": "List of edible seeds",
+      "common_names": [
+        "List of edible seeds"
+      ],
+      "scientific_name": "An edible seed",
+      "primary_use": "edible",
+      "family": "",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "dye",
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "An edible seed [ n 1 ] is a seed that is suitable for human consumption. Of the six major plant parts, [ n 2 ] seeds are the dominant source of human calories and protein . [ 1 ] A wide variety of plant species provide edible seeds; most are angiosperms , while a few are gymnosperms . As a global food source, the most important edible seeds by weight are cereals , followed by legumes , nuts , [ 2 ] and spices . Grain crops (cereals and millets ) and legumes cor...",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_edible_seeds",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "herbal-medicine",
+      "title": "Herbal medicine",
+      "common_names": [
+        "Herbal medicine"
+      ],
+      "scientific_name": "Herbal medicine",
+      "primary_use": "edible",
+      "family": "",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Herbal medicine (also called herbalism , phytomedicine or phytotherapy ) is the study of pharmacognosy and the use of medicinal plants , which are a basis of traditional medicine . [ 1 ] Scientific evidence for the effectiveness of many herbal treatments remains limited, prompting ongoing regulatory evaluation and research into their safety and efficacy. Standards for purity or dosage are generally not provided. [ 1 ] [ 2 ] The scope of herbal medicine sometimes includ...",
+      "source_url": "https://en.wikipedia.org/wiki/Herbal_medicine",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "edible-plants",
+      "title": "Edible plants",
+      "common_names": [
+        "Edible plants"
+      ],
+      "scientific_name": "Edible plants include",
+      "primary_use": "edible",
+      "family": "",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Edible plants include: This food -related article is a stub . You can help Wikipedia by adding missing information .",
+      "source_url": "https://en.wikipedia.org/wiki/Edible_plants",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "list-of-edible-cacti",
+      "title": "List of edible cacti",
+      "common_names": [
+        "List of edible cacti"
+      ],
+      "scientific_name": "This is a",
+      "primary_use": "edible",
+      "family": "",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "structural"
+      ],
+      "description": "This is a list [ 1 ] of edible plants in the family Cactaceae .",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_edible_cacti",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "root-vegetable",
+      "title": "Root vegetable",
+      "common_names": [
+        "Root vegetable"
+      ],
+      "scientific_name": "Root vegetables are",
+      "primary_use": "edible",
+      "family": "",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible"
+      ],
+      "description": "Root vegetables are underground plant parts eaten by humans and other animals as food . In agricultural and culinary terminology, the term applies to true roots , such as taproots and root tubers , as well as non-roots such as bulbs , corms , rhizomes , and stem tubers . [ 1 ] Root vegetables are generally energy storage organs containing carbohydrates such as starches and sugars . [ 2 ]",
+      "source_url": "https://en.wikipedia.org/wiki/Root_vegetable",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "edible-plant-stem",
+      "title": "Edible plant stem",
+      "common_names": [
+        "Edible plant stem"
+      ],
+      "scientific_name": "Edible plant stems",
+      "primary_use": "edible",
+      "family": "",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "structural"
+      ],
+      "description": "Edible plant stems are a part of plants eaten by humans . Most plants are made up of stems , roots , leaves , flowers , and produce fruits containing seeds . Humans most commonly eat the seeds (e.g. maize , wheat ), fruit (e.g. tomato , avocado , banana ), flowers (e.g. broccoli ), leaves (e.g. lettuce , spinach , and cabbage ), roots (e.g. carrots , beets ), and stems (e.g. asparagus of many plants. There are also a few edible petioles (also known as leaf stems) such as celery or rhubarb . P...",
+      "source_url": "https://en.wikipedia.org/wiki/Edible_plant_stem",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "achyranthes-japonica",
+      "title": "Achyranthes japonica",
+      "common_names": [
+        "Achyranthes japonica"
+      ],
+      "scientific_name": "Achyranthes japonica",
+      "primary_use": "edible",
+      "family": "Amaranthaceae",
+      "order": "Caryophyllales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Achyranthes japonica , commonly known as Oriental chaff flower [ 1 ] or Japanese chaff flower , is a perennial member of the genus Achyranthes in the family Amaranthaceae . It can be discovered on the roadside and its main distribution is in Korea and Japan. [ 2 ] A. japonica is a perennial plant growing to 50–150 cm (20–59 in) in height [ 3 ] with thickened roots. Stems are quadrangular, branched, and glabrous or slightly pubescent . [ 2 ] Stem nodes...",
+      "source_url": "https://en.wikipedia.org/wiki/Achyranthes_japonica",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "acorus",
+      "title": "Acorus",
+      "common_names": [
+        "Acorus"
+      ],
+      "scientific_name": "Acorus is a",
+      "primary_use": "edible",
+      "family": "Acoraceae Martinov [ 1 ]",
+      "order": "Acorales Reveal [ 1 ]",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal"
+      ],
+      "description": "Acorus is a genus of monocot flowering plants . This genus was once placed within the family Araceae (aroids), but more recent classifications place it in its own family Acoraceae and order Acorales , of which it is the sole genus of the oldest surviving line of monocots. Some older studies indicated that it was placed in a lineage (the order Alismatales), that also includes aroids (Araceae), Tofieldiaceae , and several families of aquatic monocots (e.g., Alismataceae, Posidoniaceae ). Howeve...",
+      "source_url": "https://en.wikipedia.org/wiki/Acorus",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "acrostichum-aureum",
+      "title": "Acrostichum aureum",
+      "common_names": [
+        "Acrostichum aureum"
+      ],
+      "scientific_name": "Acrostichum aureum",
+      "primary_use": "edible",
+      "family": "Pteridaceae",
+      "order": "Polypodiales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "structural"
+      ],
+      "description": "Acrostichum aureum , the golden leather fern , is a large species of fern that grows in mangrove swamps and other wet locations. Other common names include swamp fern and mangrove fern . The golden leather fern has large fronds growing to a length of 1.8 metres (5 ft 11 in). The leaves are glossy, broad and pinnate, the pinnae being dark green, leathery, alternate and widely spaced. The outer fronds arch over sideways but the central ones are nearly straight. Some of the larger fron...",
+      "source_url": "https://en.wikipedia.org/wiki/Acrostichum_aureum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "actephila-excelsa",
+      "title": "Actephila excelsa",
+      "common_names": [
+        "Actephila excelsa"
+      ],
+      "scientific_name": "Actephila excelsa is",
+      "primary_use": "edible",
+      "family": "Phyllanthaceae",
+      "order": "Malpighiales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "structural"
+      ],
+      "description": "Actephila excelsa is a species of shrub in the family Phyllanthaceae . It is native to an area in Tropical Asia and Zhōngguó /China, from Sulawesi to India and Guangxi . It is a highly variable species and leaf forms vary across adjacent ecozones. The plant is used in building houses and as a vegetable. Grey-shanked douc langurs eat the leaves. It is noted that this is a highly variable species. [ 2 ]",
+      "source_url": "https://en.wikipedia.org/wiki/Actephila_excelsa",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "adenophora-triphylla",
+      "title": "Adenophora triphylla",
+      "common_names": [
+        "Adenophora triphylla"
+      ],
+      "scientific_name": "Adenophora triphylla",
+      "primary_use": "edible",
+      "family": "Campanulaceae",
+      "order": "Asterales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Adenophora triphylla , also known as Japanese lady bell , is one of the 62 species of Adenophora . [ 3 ] It is a flowering plant in the family Campanulaceae that is distributed mainly over the Korean Peninsula , Japan , and China . [ 4 ] Adenophora triphylla is an erect, perennial herb growing to 100 centimetres (39 in) in height. [ 4 ] It has a white and thickened taproot , shaped like a carrot , 7–16 centimetres (2.8–6.3 in) by 1.5–1.8 centimetres (0.59–0.7...",
+      "source_url": "https://en.wikipedia.org/wiki/Adenophora_triphylla",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "agrimonia-pilosa",
+      "title": "Agrimonia pilosa",
+      "common_names": [
+        "Agrimonia pilosa"
+      ],
+      "scientific_name": "Agrimonia pilosa also",
+      "primary_use": "medicinal",
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "native_region": "",
+      "uses": [
+        "fiber",
+        "medicinal"
+      ],
+      "description": "Agrimonia pilosa also known as hairy agrimony , is a flowering plant in the family Rosaceae . It is distributed primarily over the Korean Peninsula , Japan, China, Siberia , and Eastern Europe . [ 2 ] Agrimonia pilosa is a perennial herb with erect stem growing 30–120 cm (12–47 in) in height. [ 3 ] It grows along roadsides or in grassy areas at diverse altitudes. [ 2 ] It can grow in light sandy, loamy , or heavy soils. Its suitable pH for growing properly is...",
+      "source_url": "https://en.wikipedia.org/wiki/Agrimonia_pilosa",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "list-of-edible-plants-and-mushrooms-of-southeast-alaska",
+      "title": "List of edible plants and mushrooms of southeast Alaska",
+      "common_names": [
+        "List of edible plants and mushrooms of southeast Alaska"
+      ],
+      "scientific_name": "Alaska has an",
+      "primary_use": "edible",
+      "family": "",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "dye",
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Southeast Alaska has an unusual climate that allows a large number of edible plant and edible mushroom species to grow. The area consists primarily of the Tongass National Forest , which is a temperate rainforest . This rainforest has plenty of precipitation and the temperature remains relatively constant, therefore many plant and fungi species flourish there. On a geological time scale, fairly recently during the Little Ice Age , glaciers were abundant in southeast Alaska. The ice age's last...",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_edible_plants_and_mushrooms_of_southeast_Alaska",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "albizia-zygia",
+      "title": "Albizia zygia",
+      "common_names": [
+        "Albizia zygia"
+      ],
+      "scientific_name": "Albizia zygia is",
+      "primary_use": "edible",
+      "family": "Caesalpinioideae",
+      "order": "Fabales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Albizia zygia is a fast growing medium-sized tree species within the Fabaceae family that is commonly found in West and Central Africa . [ 2 ] The species grows up to 30 meters tall. Its branches are ascending and wide spreading forming an open crown, the bark is greyish and fairly smooth. Leaves are pinnately compound, leaflets are obovate in shape, with the terminal pairs usually the largest. [ 2 ] Flowers are often white to reddish and its fruits are papery and brownish bla...",
+      "source_url": "https://en.wikipedia.org/wiki/Albizia_zygia",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "alliaria-petiolata",
+      "title": "Alliaria petiolata",
+      "common_names": [
+        "Alliaria petiolata"
+      ],
+      "scientific_name": "Alliaria petiolata",
+      "primary_use": "edible",
+      "family": "Brassicaceae",
+      "order": "Brassicales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Alliaria petiolata , or garlic mustard , [ 2 ] is a biennial flowering plant in the mustard family ( Brassicaceae ). It is native to Europe, western and central Asia, north-western Africa, Morocco , Iberia and the British Isles , north to northern Scandinavia , [ 3 ] and east to northern Pakistan and Xinjiang in western China. [ 1 ] It has now become a tenacious invasive plant across the northern U.S., in particular because of its earlier springtime emergence than many...",
+      "source_url": "https://en.wikipedia.org/wiki/Alliaria_petiolata",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "allium-ampeloprasum",
+      "title": "Allium ampeloprasum",
+      "common_names": [
+        "Allium ampeloprasum"
+      ],
+      "scientific_name": "Allium ampeloprasum is",
+      "primary_use": "edible",
+      "family": "Allioideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber"
+      ],
+      "description": "Allium ampeloprasum is a member of the onion genus Allium . The wild plant is commonly known as wild leek or broadleaf wild leek . Its native range includes southern Europe, southwestern Asia and North Africa, but it has been cultivated and naturalized in many other countries. Allium ampeloprasum has been differentiated into five cultivated vegetables: leek , elephant garlic , pearl onion , kurrat, and Persian leek.",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_ampeloprasum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "allium-angulosum",
+      "title": "Allium angulosum",
+      "common_names": [
+        "Allium angulosum"
+      ],
+      "scientific_name": "Allium angulosum",
+      "primary_use": "edible",
+      "family": "Allioideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber"
+      ],
+      "description": "Allium angulosum , the mouse garlic , is a species of garlic native to a wide region of central Europe and northern Asia, from France and Italy to Siberia and Kazakhstan. [ 2 ] [ 3 ] Allium angulosum is a perennial herb up to 50 cm tall. Bulbs are narrow and elongated, about 5 mm in diameter. The plant produces a hemispherical umbel of small pink flowers on long pedicels . [ 3 ] [ 4 ]",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_angulosum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "allium-atroviolaceum",
+      "title": "Allium atroviolaceum",
+      "common_names": [
+        "Allium atroviolaceum"
+      ],
+      "scientific_name": "Allium atroviolaceum is",
+      "primary_use": "edible",
+      "family": "Allioideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber"
+      ],
+      "description": "Allium atroviolaceum is a species of flowering plant in the Amaryllidaceae family. [ 1 ] it is commonly called the broadleaf wild leek , and is native to Iran, Iraq, Afghanistan, Syria, Lebanon, Saudi Arabia, Turkmenistan, Turkey, Georgia, Armenia, Azerbaijan, southern European Russia and the Caucasus , but widely cultivated in other regions as a food source and for its ornamental value. The species is sparingly naturalized in parts of the United States (Illinois, Kentucky, Virginia, ...",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_atroviolaceum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "allium-bisceptrum",
+      "title": "Allium bisceptrum",
+      "common_names": [
+        "Allium bisceptrum"
+      ],
+      "scientific_name": "Allium bisceptrum",
+      "primary_use": "edible",
+      "family": "Allioideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "dye",
+        "edible",
+        "fiber",
+        "structural"
+      ],
+      "description": "Allium bisceptrum , also known as the twincrest onion or aspen onion , is a high elevation plant native to western United States. It is a perennial that thrives under damp and shady conditions or open meadows in California , Arizona , New Mexico , Nevada , Oregon , Washington , Idaho , and Utah . [ 4 ] Allium bisceptrum is used sometimes as food flavoring as their leaves may be very strong and odorous. Natives pray before picking the leaves of this plant. Many animals in the region, i...",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_bisceptrum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "allium-carinatum",
+      "title": "Allium carinatum",
+      "common_names": [
+        "Allium carinatum"
+      ],
+      "scientific_name": "Allium carinatum",
+      "primary_use": "edible",
+      "family": "Allioideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber"
+      ],
+      "description": "Allium carinatum , the keeled garlic [ 4 ] or witch's garlic , is a bulbous perennial flowering plant in the family Amaryllidaceae . It is widespread across central and southern Europe , with some populations in Asiatic Turkey . It is cultivated in many places as an ornamental and also for its potently aromatic bulbs used as a food flavoring. [ 5 ] Numerous botanical names have been coined within the species at the subspecies level, but only two are recognized: [ 6 ]",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_carinatum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "allium-chinense",
+      "title": "Allium chinense",
+      "common_names": [
+        "Allium chinense"
+      ],
+      "scientific_name": "Allium chinense",
+      "primary_use": "edible",
+      "family": "Allioideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal"
+      ],
+      "description": "Allium chinense (also known as Chinese onion , [ 3 ] [ 4 ] Chinese scallion , [ 3 ] glittering chive , [ 5 ] Japanese scallion , [ 3 ] Kiangsi scallion , [ 4 ] and Oriental onion [ 3 ] ) is an edible species of Allium , native to China , [ 3 ] and cultivated in many other countries. [ 6 ] Its close relatives include the onion , scallion , leek , chive , and garlic . [ 7 ] Allium chinense is native to China (in Anh...",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_chinense",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "allium-galanthum",
+      "title": "Allium galanthum",
+      "common_names": [
+        "Allium galanthum"
+      ],
+      "scientific_name": "Allium galanthum is",
+      "primary_use": "edible",
+      "family": "Allioideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Allium galanthum is an Asian species of onion in the amaryllis family , commonly called the snowdrop onion . [ 2 ] It is native to Xinjiang , Mongolia , Altay Krai , and Kazakhstan . It grows at elevations of 500–1,500 m (1,600–4,900 ft). [ 3 ] [ 4 ] [ 5 ] [ 6 ] Allium galanthum forms a cluster of bulbs, each up to 3 cm (1.2 in) in diameter. Scapes are up to 60 cm (24 in) tall. Leaves are tubular, about half as long as the ...",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_galanthum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "allium-hookeri",
+      "title": "Allium hookeri",
+      "common_names": [
+        "Allium hookeri"
+      ],
+      "scientific_name": "Allium hookeri is",
+      "primary_use": "edible",
+      "family": "Allioideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "edible"
+      ],
+      "description": "Allium hookeri is a plant species native to India , Sri Lanka , Myanmar ( Burma ), Bhutan , and southwestern China ( Sichuan , Tibet and Yunnan ). Common names include Hooker chives and garlic chives. Allium hookeri produces thick, fleshy roots and a cluster of thin bulbs. Scapes are up top 60 cm tall. Leaves are flat and narrow, about the same length as the scapes but only 1 cm across. Umbels are crowded with many white or greenish-yellow flowers. [ 2 ] [ 3 ] [ ...",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_hookeri",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "allium-paniculatum",
+      "title": "Allium paniculatum",
+      "common_names": [
+        "Allium paniculatum"
+      ],
+      "scientific_name": "Allium paniculatum",
+      "primary_use": "fiber",
+      "family": "Allioideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "fiber"
+      ],
+      "description": "Allium paniculatum , common name pale garlic , [ 2 ] is a species of monocot in the family Amaryllidaceae . It is widely cultivated and is now naturalized in several places outside its native range. [ 3 ] Allium paniculatum produces several egg-shaped bulbs, each up to 1.5 cm across. It has no rhizomes. Leaves are tubular and hollow, up to 35 cm long. Scape is round in cross-section, solid, up to 75 cm tall. Inflorescence is (despite the name of the species refe...",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_paniculatum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "allium-paradoxum",
+      "title": "Allium paradoxum",
+      "common_names": [
+        "Allium paradoxum"
+      ],
+      "scientific_name": "Allium paradoxum",
+      "primary_use": "edible",
+      "family": "Allioideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "structural"
+      ],
+      "description": "Allium paradoxum , the few-flowered garlic [ 2 ] or few-flowered leek , is an Asian species of wild onion in the Amaryllis family . It is native to mountainous regions of Iran , Caucasus , and Turkmenistan and invasive in Europe. Allium paradoxum is a herbaceous perennial growing from a small solitary bulb to about 20–40 cm (7.9–15.7 in) in height. It has much narrower leaves, from 5 to 25 mm (0.20 to 0.98 in) wide, than Allium ursinum but a similar 'garlicky' smel...",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_paradoxum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "allium-polyanthum",
+      "title": "Allium polyanthum",
+      "common_names": [
+        "Allium polyanthum"
+      ],
+      "scientific_name": "Allium polyanthum",
+      "primary_use": "edible",
+      "family": "Allioideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "edible"
+      ],
+      "description": "Allium polyanthum , called the many-flowered garlic , is a Mediterranean species of wild onion native to Spain , France , Italy , Morocco , and Tunisia . [ 2 ] It is widely cultivated for its edible and potently aromatic bulbs and foliage. [ 3 ] Allium polyanthum produces an egg-shaped bulb, often with small bulblets around the base. Scape can be up to 80 cm tall. Leaves are flat and broadly linear, tapering at the tip. Flowers are numerous and small, white or pink. [...",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_polyanthum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "allium-scorodoprasum",
+      "title": "Allium scorodoprasum",
+      "common_names": [
+        "Allium scorodoprasum"
+      ],
+      "scientific_name": "The sand leek",
+      "primary_use": "edible",
+      "family": "Allioideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "structural"
+      ],
+      "description": "The sand leek ( Allium scorodoprasum ), also known as rocambole and Korean pickled-peel garlic , [ 4 ] is a Eurasian species of wild onion with a native range extending across much of Europe , Middle East , and Korea . [ 3 ] [ 5 ] [ 6 ] [ 7 ] [ 8 ] [ 9 ] The species should not be confused with rocambole garlic, which is A. sativum var. ophioscorodon .",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_scorodoprasum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "allium-siculum",
+      "title": "Allium siculum",
+      "common_names": [
+        "Allium siculum"
+      ],
+      "scientific_name": "Allium siculum",
+      "primary_use": "edible",
+      "family": "Allioideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "structural"
+      ],
+      "description": "Allium siculum ( syn. Nectaroscordum siculum ), known as honey garlic , [ 4 ] Sicilian honey lily , Sicilian honey garlic , or Mediterranean bells , is a species of plant in the genus Allium . Native to parts of Europe and the Middle East , the species is grown commercially as an ornamental and culinary herb. [ 1 ] It has showy clusters of gracefully drooping bell-shaped blossoms produced in May to early June sitting atop a tall green stem, up to 1.2 metres (3.9 ft) in he...",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_siculum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "allium-stellatum",
+      "title": "Allium stellatum",
+      "common_names": [
+        "Allium stellatum"
+      ],
+      "scientific_name": "Allium stellatum",
+      "primary_use": "edible",
+      "family": "Allioideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber"
+      ],
+      "description": "Allium stellatum , commonly known as the autumn onion , prairie onion , [ 1 ] cliff onion , [ 2 ] or glade onion , [ 3 ] is a North American species of wild onion in the Amaryllidaceae family that is native to central Canada and the central United States . Allium stellatum is a perennial forming a bulb underground. An erect, leafless scape up to 30–60 centimetres (1–2 ft) tall arises from grass-like basal leaves that are up to 30 centimetres (1 ft) long. [...",
+      "source_url": "https://en.wikipedia.org/wiki/Allium_stellatum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "amaranthus-albus",
+      "title": "Amaranthus albus",
+      "common_names": [
+        "Amaranthus albus"
+      ],
+      "scientific_name": "Amaranthus albus is",
+      "primary_use": "fiber",
+      "family": "Amaranthaceae",
+      "order": "Caryophyllales",
+      "native_region": "",
+      "uses": [
+        "fiber"
+      ],
+      "description": "Amaranthus albus is an annual species of flowering plant native to the Americas. Its common names include common tumbleweed , [ 2 ] tumble pigweed , [ 2 ] tumbleweed , [ 2 ] prostrate pigweed , [ 3 ] pigweed amaranth , white amaranth [ 2 ] and white pigweed . [ 2 ] Amaranthus albus is an annual herb growing up to 50 centimetres (20 in) tall, forming many branches. Larger specimens turn into tumbleweeds when they die and dry out. The plant c...",
+      "source_url": "https://en.wikipedia.org/wiki/Amaranthus_albus",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "amaranthus-hybridus",
+      "title": "Amaranthus hybridus",
+      "common_names": [
+        "Amaranthus hybridus"
+      ],
+      "scientific_name": "Amaranthus hybridus",
+      "primary_use": "edible",
+      "family": "Amaranthaceae",
+      "order": "Caryophyllales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal"
+      ],
+      "description": "Amaranthus hybridus , commonly called green amaranth , [ 2 ] slim amaranth , [ 3 ] smooth amaranth , smooth pigweed , or red amaranth , is a species of annual flowering plant . It is a weedy species found now over much of North America and introduced into Europe and Eurasia. Amaranthus hybridus grows from a short taproot and can be up to 2.5 m in height. It is a glabrous or glabrescent plant.",
+      "source_url": "https://en.wikipedia.org/wiki/Amaranthus_hybridus",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "ampelocissus-martini",
+      "title": "Ampelocissus martini",
+      "common_names": [
+        "Ampelocissus martini"
+      ],
+      "scientific_name": "Ampelocissus martini is",
+      "primary_use": "edible",
+      "family": "Vitaceae",
+      "order": "Vitales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Ampelocissus martini is a species of climber or shrub in the Vitaceae family. Some sources use the spelling Ampelocissus martinii . [ 2 ] It is native to an area of Mainland Southeast Asia . The fruit are eaten by people and by several species of Pangasiidae shark catfish of the Mekong river. Chloroplast DNA analysis indicates that A. martini is in a clade with sisters Ampelocissus elephantina and Ampelocissus latifolia . [ 3 ]",
+      "source_url": "https://en.wikipedia.org/wiki/Ampelocissus_martini",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "andrographis-paniculata",
+      "title": "Andrographis paniculata",
+      "common_names": [
+        "Andrographis paniculata"
+      ],
+      "scientific_name": "Andrographis paniculata",
+      "primary_use": "edible",
+      "family": "Acanthaceae",
+      "order": "Lamiales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal"
+      ],
+      "description": "Andrographis paniculata , commonly known as creat or green chiretta , [ 2 ] is an annual herbaceous plant in the family Acanthaceae , native to India and Sri Lanka. It is widely cultivated in Southern and Southeastern Asia, where it has been believed to be a treatment for bacterial infections and some diseases. Mostly the leaves and roots have been used for such purposes; the whole plant is also used, in some cases. [ 3 ]",
+      "source_url": "https://en.wikipedia.org/wiki/Andrographis_paniculata",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "aniseia-martinicensis",
+      "title": "Aniseia martinicensis",
+      "common_names": [
+        "Aniseia martinicensis"
+      ],
+      "scientific_name": "Aniseia martinicensis is",
+      "primary_use": "edible",
+      "family": "Convolvulaceae",
+      "order": "Solanales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Aniseia martinicensis is a species of herb climber in the Convolvulaceae family. Native to subtropical and tropical America, it has been introduced to the tropics and sub-tropics of the Pacific Islands, Australia, Asia, and Africa. It is usually eaten as a supplementary vegetable. Even though it grows around the world, in a variety of habitats, it is a rare plant. The taxon grows as a vine, with a herbaceous stem. [ 3 ] The stem can be smooth to sparsely hairy. The hairless leaves are...",
+      "source_url": "https://en.wikipedia.org/wiki/Aniseia_martinicensis",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "antidesma-acidum",
+      "title": "Antidesma acidum",
+      "common_names": [
+        "Antidesma acidum"
+      ],
+      "scientific_name": "Antidesma acidum is",
+      "primary_use": "edible",
+      "family": "Phyllanthaceae",
+      "order": "Malpighiales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Antidesma acidum is a shrub or small tree that is native to an area from Java to Southwestern China and Pakistan. It is a long-lived, shade-tolerant species that is usually found under closed-canopy. The fruit is eaten in many places, the leaves in some locations. In Luang Prabang ( Laos ) open-air markets, the leaves are only sold alongside Russula mushrooms, to give a sour flavour to soup made from the fungi. The species grows as a shrub or small tree, usually up to 6 m (20 ft) ta...",
+      "source_url": "https://en.wikipedia.org/wiki/Antidesma_acidum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "apodanthera-mandonii",
+      "title": "Apodanthera mandonii",
+      "common_names": [
+        "Apodanthera mandonii"
+      ],
+      "scientific_name": "Apodanthera mandonii",
+      "primary_use": "edible",
+      "family": "Cucurbitaceae",
+      "order": "Cucurbitales",
+      "native_region": "",
+      "uses": [
+        "edible"
+      ],
+      "description": "Apodanthera mandonii , known as ckoto-ckoto , is grown for its edible tuber . [ 3 ] [ 4 ] It is native to the Andes , ranging from Ecuador ( Chimborazo Province ) to Peru and Bolivia . [ 2 ] This Cucurbitales article is a stub . You can help Wikipedia by adding missing information .",
+      "source_url": "https://en.wikipedia.org/wiki/Apodanthera_mandonii",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "aponogeton-lakhonensis",
+      "title": "Aponogeton lakhonensis",
+      "common_names": [
+        "Aponogeton lakhonensis"
+      ],
+      "scientific_name": "Aponogeton lakhonensis is",
+      "primary_use": "edible",
+      "family": "Aponogetonaceae",
+      "order": "Alismatales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "structural"
+      ],
+      "description": "Aponogeton lakhonensis is a species of an aquatic plant in the Aponogetonaceae family. This species with a yellow-flowered single spike rising above the water, is found in ricefields, ponds and slow-moving streams of tropical and sub-tropical Asia. An outlier population occurs in Sulawesi, the main area of occurrence is from Thailand to China and Assam in India. It is more closely related to tropical Australian species of Aponogeton than it is to other Southeast Asian species. In Thailand the...",
+      "source_url": "https://en.wikipedia.org/wiki/Aponogeton_lakhonensis",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "arabidopsis-thaliana",
+      "title": "Arabidopsis thaliana",
+      "common_names": [
+        "Arabidopsis thaliana"
+      ],
+      "scientific_name": "Arabidopsis thaliana",
+      "primary_use": "edible",
+      "family": "Brassicaceae",
+      "order": "Brassicales",
+      "native_region": "",
+      "uses": [
+        "dye",
+        "edible",
+        "fiber",
+        "structural"
+      ],
+      "description": "Arabidopsis thaliana , the thale cress , mouse-ear cress or arabidopsis , is a small plant from the mustard family ( Brassicaceae ), native to Eurasia and Africa. [ 2 ] [ 3 ] [ 4 ] [ 5 ] [ 6 ] [ 7 ] Commonly found along the shoulders of roads and in disturbed land, it is generally considered a weed. A winter annual with a relatively short lifecycle, A. thaliana is a popular model organism in plant biology and genetics. For a complex multicellula...",
+      "source_url": "https://en.wikipedia.org/wiki/Arabidopsis_thaliana",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "aralia-elata",
+      "title": "Aralia elata",
+      "common_names": [
+        "Aralia elata"
+      ],
+      "scientific_name": "Aralia elata",
+      "primary_use": "edible",
+      "family": "Araliaceae",
+      "order": "Apiales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Aralia elata , also known as the Japanese angelica tree , [ 2 ] Chinese angelica-tree , [ 3 ] or Korean angelica-tree , [ 4 ] is a species of woody plant in the family Araliaceae native to eastern Asia (in Russia, China, Taiwan, the Korean Peninsula, and Japan). It is an upright deciduous small tree or shrub growing up to 10 m (33 ft) in height. [ 5 ]",
+      "source_url": "https://en.wikipedia.org/wiki/Aralia_elata",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "arctium-minus",
+      "title": "Arctium minus",
+      "common_names": [
+        "Arctium minus"
+      ],
+      "scientific_name": "Arctium minus",
+      "primary_use": "edible",
+      "family": "Asteraceae",
+      "order": "Asterales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Arctium minus , commonly known as lesser burdock , [ 2 ] little burdock , louse-bur , common burdock , [ 3 ] button-bur , cuckoo-button , [ 3 ] or wild rhubarb , [ 4 ] is a biennial plant native to Europe. Arctium minus is a biennial plant growing up to 1.8 metres (6 ft) tall [ 5 ] [ 6 ] and form multiple branches. It is large and bushy. The leaves are up to 50 cm (20 in) long and ovate. The lower leaves are heart-shaped and have ...",
+      "source_url": "https://en.wikipedia.org/wiki/Arctium_minus",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "arisaema-flavum",
+      "title": "Arisaema flavum",
+      "common_names": [
+        "Arisaema flavum"
+      ],
+      "scientific_name": "Arisaema flavum is",
+      "primary_use": "edible",
+      "family": "Araceae",
+      "order": "Alismatales",
+      "native_region": "",
+      "uses": [
+        "edible"
+      ],
+      "description": "Arisaema flavum is a species of flowering plant widespread across north-eastern Africa and southern Asia . It is native to Ethiopia , Somalia , the Arabian Peninsula , Pakistan , Afghanistan , Nepal , Assam , Himalayas , Tibet , Yunnan , and Sichuan . [ 1 ] [ 2 ] [ 3 ] [ 4 ] The species epithet flavum is Latin for yellow and indicates its flower colour. [ 5 ] [ 6 ] The plant is 0.4 metres (1 ft 4 in) [ 7 ] with its tuber being ...",
+      "source_url": "https://en.wikipedia.org/wiki/Arisaema_flavum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "artemisia-absinthium",
+      "title": "Artemisia absinthium",
+      "common_names": [
+        "Artemisia absinthium"
+      ],
+      "scientific_name": "Artemisia absinthium",
+      "primary_use": "edible",
+      "family": "Asteraceae",
+      "order": "Asterales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Artemisia absinthium , otherwise known as common wormwood , is a species of Artemisia native to North Africa and temperate regions of Eurasia , [ 4 ] and widely naturalized in Canada and the northern United States. [ 5 ] It is grown as an ornamental plant and is used as an ingredient in the spirit absinthe and some other alcoholic beverages. Wormwood's relative mugwort was traditionally used as a remedy for a variety of complaints, especially those of a gynaecological nature, ...",
+      "source_url": "https://en.wikipedia.org/wiki/Artemisia_absinthium",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "aster-arenarius",
+      "title": "Aster arenarius",
+      "common_names": [
+        "Aster arenarius"
+      ],
+      "scientific_name": "Aster arenarius",
+      "primary_use": "edible",
+      "family": "Asteraceae",
+      "order": "Asterales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Aster arenarius , commonly known as the beach sand aster , is a species of aster endemic to southeast China, Japan, and Korea. [ 1 ] Aster arenarius is a herbaceous biennial or perennial plant, which grows to a height of 15–70 cm (5.9–27.6 in). Stems are branched from the base, with spatulate leaves measuring between 1.5 and 3 cm (0.59 and 1.18 in). Leaves are alternate, entire or dentate. Roots are tuberous or woody rhizomes. [ 2 ] Flowers are typically bl...",
+      "source_url": "https://en.wikipedia.org/wiki/Aster_arenarius",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "balanites-aegyptiaca",
+      "title": "Balanites aegyptiaca",
+      "common_names": [
+        "Balanites aegyptiaca"
+      ],
+      "scientific_name": "Balanites aegyptiaca",
+      "primary_use": "edible",
+      "family": "Zygophyllaceae",
+      "order": "Zygophyllales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Balanites aegyptiaca (also known as the Desert date , Egyptian balsam and Lalob in Sudan [ 3 ] ) is a species of tree, classified as a member of either the Zygophyllaceae or the Balanitaceae. [ 4 ] This tree is native to much of Africa (excluding South Africa, Namibia, Madagascar, Senegal and Tunisia) [ 2 ] and parts of the Middle East (from Syria south to Yemen). [ 5 ] It can be found in many kinds of habitat, tolerating a wide variety of soil types, from sand...",
+      "source_url": "https://en.wikipedia.org/wiki/Balanites_aegyptiaca",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "balanites-angolensis",
+      "title": "Balanites angolensis",
+      "common_names": [
+        "Balanites angolensis"
+      ],
+      "scientific_name": "Balanites angolensis",
+      "primary_use": "edible",
+      "family": "Zygophyllaceae",
+      "order": "Zygophyllales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "structural"
+      ],
+      "description": "Balanites angolensis , or Angolan green-thorn , is a species of tree from southern Africa, it is a member of the caltrop family, Zygophyllaceae . Balanites angolensis is a small semi- deciduous tree or shrub which grows to up to 8m in height. It has rough, corrugated bark which is green or greenish yellow on young shoots which are covered in dense hairs with yellow or green thorns which are up to 9 cm long. The flowers are greenish-yellow to whitish and are borne in small axillary cluste...",
+      "source_url": "https://en.wikipedia.org/wiki/Balanites_angolensis",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "balanites-glabra",
+      "title": "Balanites glabra",
+      "common_names": [
+        "Balanites glabra"
+      ],
+      "scientific_name": "Balanites glabra is",
+      "primary_use": "edible",
+      "family": "Zygophyllaceae",
+      "order": "Zygophyllales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Balanites glabra is a species of tree or shrub , classified either as a member of the Zygophyllaceae or the Balanitaceae. [ 2 ] This tree is native to East Africa . Balanites glabra is a spiny shrub or tree growing to a maximum height of 9m. The bark is grey or greyish green and is rough, cork-like and fissured on the trunk but greener and smoother on the branches, the spines and young shoots are green and glabrous, becoming greyer and hairier by their second year. The leaves are tear...",
+      "source_url": "https://en.wikipedia.org/wiki/Balanites_glabra",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "balanites-pedicellaris",
+      "title": "Balanites pedicellaris",
+      "common_names": [
+        "Balanites pedicellaris"
+      ],
+      "scientific_name": "Balanites pedicellaris",
+      "primary_use": "edible",
+      "family": "Zygophyllaceae",
+      "order": "Zygophyllales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Balanites pedicellaris , the small green-thorn or small torchwood is a small tree or shrub from Sub-Saharan Africa . It is a member of the caltrop family Zygophyllaceae . Balanites pedicellaris is a multi-stemmed shrub or small tree, although some specimens may have a single fluted trunk. [ 2 ] The branches are yellowish or greyish-green, bearing simple green spines. The leaves are alternate or grow on the spines, bifoliolate ; the leaflets obovate , pale green, rather fleshy, down co...",
+      "source_url": "https://en.wikipedia.org/wiki/Balanites_pedicellaris",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "balanites-rotundifolia",
+      "title": "Balanites rotundifolia",
+      "common_names": [
+        "Balanites rotundifolia"
+      ],
+      "scientific_name": "Balanites rotundifolia",
+      "primary_use": "edible",
+      "family": "Zygophyllaceae",
+      "order": "Zygophyllales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Balanites rotundifolia , known in Swahili as Mbamba ngoma is a spiny bush or small tree from eastern Africa and southern Arabia . It is a member of the caltrop family, Zygophyllaceae . [ citation needed ] Balanites rotundifolia is a small tree or shrub with a multi-stemmed growth form and spiny branches which grows to 2-5m. The small, round or heart shaped leaves are green, rather hairy, grow in pairs and lack stalks. The stout thorns are green, straight and grow to 3 cm in lengt...",
+      "source_url": "https://en.wikipedia.org/wiki/Balanites_rotundifolia",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "balanites-wilsoniana",
+      "title": "Balanites wilsoniana",
+      "common_names": [
+        "Balanites wilsoniana"
+      ],
+      "scientific_name": "Balanites wilsoniana is",
+      "primary_use": "edible",
+      "family": "Zygophyllaceae",
+      "order": "Zygophyllales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Balanites wilsoniana is a species of fruit-bearing tree from west and central Africa in the caltrop family Zygophyllaceae . Balanites wilsoniana , commonly called the Boko Tree , is a tall rainforest tree to 35 m (115 ft) tall [ 2 ] with high \"lion's paw\" buttresses, [ 3 ] which continue up on the trunk as twisted fluting. The deep fluting may offer some defense against stranglers. The young trees have forked spines; If the bark is cut the tree exudes copious, scente...",
+      "source_url": "https://en.wikipedia.org/wiki/Balanites_wilsoniana",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "plant-sources-of-anti-cancer-agents",
+      "title": "Plant sources of anti-cancer agents",
+      "common_names": [
+        "Plant sources of anti-cancer agents"
+      ],
+      "scientific_name": "Plant sources of",
+      "primary_use": "edible",
+      "family": "",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal"
+      ],
+      "description": "Plant sources of anti-cancer agents are plants, the derivatives of which have been shown to be usable for the treatment or prevention of cancer in humans. [ 1 ] [ 2 ] In the 1950s, scientists began systematically examining natural organisms as a source of useful anti-cancer substances. [ 1 ] It has been argued that \"the use of natural products has been the single most successful strategy in the discovery of novel medicines\". [ 3 ]",
+      "source_url": "https://en.wikipedia.org/wiki/Plant_sources_of_anti-cancer_agents",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "list-of-plants-used-in-herbalism",
+      "title": "List of plants used in herbalism",
+      "common_names": [
+        "List of plants used in herbalism"
+      ],
+      "scientific_name": "This is an",
+      "primary_use": "edible",
+      "family": "",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "dye",
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "This is an alphabetical list of plants used in herbalism . Phytochemicals possibly involved in biological functions are the basis of herbalism, and may be grouped as:",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_plants_used_in_herbalism",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "iberogast",
+      "title": "Iberogast",
+      "common_names": [
+        "Iberogast"
+      ],
+      "scientific_name": "Germany in",
+      "primary_use": "edible",
+      "family": "",
+      "order": "",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal"
+      ],
+      "description": "Iberogast , also known as STW5 , is a liquid formulation of nine herbs used for functional dyspepsia and irritable bowel syndrome . A proprietary blend, it was developed in Germany in 1961 and is available (without prescription) in other countries. Named after the genus ( Iberis ) of one of its ingredients, it is also claimed to possess anti-inflammatory , antioxidative and free radical –inhibiting properties as well as the ability to reduce gastric acid secretion. [ 1 ] Iberogast is ...",
+      "source_url": "https://en.wikipedia.org/wiki/Iberogast",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "acacia-sensu-lato",
+      "title": "Acacia sensu lato",
+      "common_names": [
+        "Acacia sensu lato"
+      ],
+      "scientific_name": "Mimosoideae of the",
+      "primary_use": "edible",
+      "family": "Caesalpinioideae",
+      "order": "Fabales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Acacia s.l. (pronounced / ə ˈ k eɪ ʃ ə / or / ə ˈ k eɪ s i ə / ), known commonly as mimosa , acacia , thorntree or wattle , [ 2 ] is a polyphyletic genus of shrubs and trees belonging to the subfamily Mimosoideae of the family Fabaceae . It was described by the Swedish botanist Carl Linnaeus in 1773 based on the African species Acacia nilotica , now classified as Vachellia nilotica . Many non- Australian species tend to be thorny . Most Australian acacias are not. All species are pod-...",
+      "source_url": "https://en.wikipedia.org/wiki/Acacia_sensu_lato",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "adenia-hondala",
+      "title": "Adenia hondala",
+      "common_names": [
+        "Adenia hondala"
+      ],
+      "scientific_name": "Adenia hondala",
+      "primary_use": "edible",
+      "family": "Passifloraceae",
+      "order": "Malpighiales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Adenia hondala , commonly known as hondala is a large, tuberous, woody climber which scrambles over other plants. It is found in the Indian subcontinent, including Sri Lanka , and in southeastern Asia. The tuber and the fruit are used as herbal remedies and the plant is used as a cure for snake bites. The caterpillars of several species of butterfly feed on this plant; these include the tawny coster , the clipper , the common cruiser and the Tamil lacewing . Adenia hondala is a climbing plant...",
+      "source_url": "https://en.wikipedia.org/wiki/Adenia_hondala",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "agave",
+      "title": "Agave",
+      "common_names": [
+        "Agave"
+      ],
+      "scientific_name": "The genus is",
+      "primary_use": "edible",
+      "family": "Agavoideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "dye",
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Agave ( / ə ˈ ɡ ɑː v i / ; .mw-parser-output .IPA-label-small{font-size:85%}.mw-parser-output .references .IPA-label-small,.mw-parser-output .infobox .IPA-label-small,.mw-parser-output .navbox .IPA-label-small{font-size:100%} also UK : / ə ˈ ɡ eɪ v i / ; [ 3 ] Anglo-Hispanic, also US : / ə ˈ ɡ ɑː v eɪ / ) [ 4 ] is a genus of monocots native to the arid regions of the Americas . The genus is primarily known for its succulent and xerophytic species that typically form large rose...",
+      "source_url": "https://en.wikipedia.org/wiki/Agave",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "ageratina-glabrata",
+      "title": "Ageratina glabrata",
+      "common_names": [
+        "Ageratina glabrata"
+      ],
+      "scientific_name": "Ageratina glabrata is",
+      "primary_use": "edible",
+      "family": "Asteraceae",
+      "order": "Asterales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Ageratina glabrata is a flowering plant belonging to the family Asteraceae . [ 1 ] Ageratina glabrata displays these main distinguishing features: [ 2 ] [ 3 ]",
+      "source_url": "https://en.wikipedia.org/wiki/Ageratina_glabrata",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "agrimonia",
+      "title": "Agrimonia",
+      "common_names": [
+        "Agrimonia"
+      ],
+      "scientific_name": "The species grow",
+      "primary_use": "edible",
+      "family": "Rosoideae",
+      "order": "Rosales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal"
+      ],
+      "description": "Agrimonia (from the Greek ἀργεμώνη ), [ 1 ] commonly known as agrimony , is a genus of 12–15 species of perennial herbaceous flowering plants in the family Rosaceae , [ 1 ] native to the temperate regions of the Northern Hemisphere , with one species also in Africa . The species grow to between 0.5–2 m (1.6–6.6 ft) tall, with interrupted pinnate leaves , and tiny yellow flowers borne on a single (usually unbranched) spike . Agrimonia species are used as food plants b...",
+      "source_url": "https://en.wikipedia.org/wiki/Agrimonia",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "alchemilla-arvensis",
+      "title": "Alchemilla arvensis",
+      "common_names": [
+        "Alchemilla arvensis"
+      ],
+      "scientific_name": "Alchemilla arvensis",
+      "primary_use": "edible",
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal"
+      ],
+      "description": "Alchemilla arvensis (syn. Aphanes arvensis ), known as parsley-piert , [ 2 ] is a sprawling, downy plant common all over the British Isles where It grows on arable fields and bare wastelands, particularly in dry sites. The short-stalked leaves have three segments each lobed at the tip. It flowers from April to September. The tiny green flower has four sepals and no petals; stipules form a leaf-like cup, enclosing the flower. The name of parsley piert has nothing to do with parsley . I...",
+      "source_url": "https://en.wikipedia.org/wiki/Alchemilla_arvensis",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "aloe-officinalis",
+      "title": "Aloe officinalis",
+      "common_names": [
+        "Aloe officinalis"
+      ],
+      "scientific_name": "Aloe officinalis is",
+      "primary_use": "medicinal",
+      "family": "Asphodeloideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "medicinal"
+      ],
+      "description": "Aloe officinalis is a species of aloe in the Asphodelaceae family. [ 1 ] The species is native to the Arabian Peninsula , from Yemen to Saudi Arabia . The plant has become naturalized in Somalia and has medicinal value. [ 2 ] The plant also has two varieties:",
+      "source_url": "https://en.wikipedia.org/wiki/Aloe_officinalis",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "anagyris-foetida",
+      "title": "Anagyris foetida",
+      "common_names": [
+        "Anagyris foetida"
+      ],
+      "scientific_name": "Anagyris foetida",
+      "primary_use": "edible",
+      "family": "Faboideae",
+      "order": "Fabales",
+      "native_region": "",
+      "uses": [
+        "dye",
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Anagyris foetida (English common name stinking bean trefoil ), is a species of flowering plant in the family Fabaceae , forming a malodorous, Summer- deciduous [ 1 ] [ 2 ] shrub or small tree 2–4 m in height with green twigs bearing grey-green trifoliate leaves clad beneath in silvery hairs . The red-tinged, yellow, Laburnum -like flowers are borne on the previous season's growth and are pollinated mainly by birds [ 3 ] and bees - notably the buff-tailed bumblebee .The...",
+      "source_url": "https://en.wikipedia.org/wiki/Anagyris_foetida",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "anisomeles-malabarica",
+      "title": "Anisomeles malabarica",
+      "common_names": [
+        "Anisomeles malabarica"
+      ],
+      "scientific_name": "Anisomeles malabarica",
+      "primary_use": "edible",
+      "family": "Lamiaceae",
+      "order": "Lamiales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal"
+      ],
+      "description": "Anisomeles malabarica , more commonly known as the Malabar catmint , [ 2 ] is a species of herbaceous shrub in the family Lamiaceae . [ 3 ] [ 4 ] [ 5 ] It is native to tropical and subtropical regions of India , and Sri Lanka , but can also be found in Malaysia , Bangladesh , Myanmar , Bismarck Archipelago , Mauritius , Andaman Islands and Réunion . [ 4 ] [ 1 ] [ 6 ] Growing up to 2 m high, it has narrow green leaves 3–8 cm in lengt...",
+      "source_url": "https://en.wikipedia.org/wiki/Anisomeles_malabarica",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "annonaceae",
+      "title": "Annonaceae",
+      "common_names": [
+        "Annonaceae"
+      ],
+      "scientific_name": "Annonaceae are a",
+      "primary_use": "edible",
+      "family": "Annonaceae Juss.",
+      "order": "Magnoliales",
+      "native_region": "",
+      "uses": [
+        "dye",
+        "edible",
+        "fiber",
+        "structural"
+      ],
+      "description": "The Annonaceae are a family of flowering plants consisting of trees, shrubs, or rarely lianas [ 3 ] commonly known as the custard apple family [ 4 ] [ 3 ] or soursop family . With 108 accepted genera and about 2400 known species, [ 5 ] it is the largest family in the Magnoliales . Several genera produce edible fruit, most notably Annona , Anonidium , Asimina , Rollinia , and Uvaria . Its type genus is Annona . The family is concentrated in the tropics , with fe...",
+      "source_url": "https://en.wikipedia.org/wiki/Annonaceae",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "apoplanesia-paniculata",
+      "title": "Apoplanesia paniculata",
+      "common_names": [
+        "Apoplanesia paniculata"
+      ],
+      "scientific_name": "Apoplanesia paniculata is",
+      "primary_use": "edible",
+      "family": "Faboideae",
+      "order": "Fabales",
+      "native_region": "",
+      "uses": [
+        "dye",
+        "edible",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Apoplanesia paniculata is a flowering plant belonging to the family Fabaceae . Apoplanesia paniculata is a shrub or small tree up to 15 m (49 ft) tall. Its leaves arise singly along the stem, or sometimes almost opposite one another. They are once divided (imparipinnate), up to 20 cm (7.9 in) long, and have petioles up to 3 cm (1.2 in) long. Leaflets usually number 15-21, though there may be fewer, and are covered with short hairs on both surfaces; their lower su...",
+      "source_url": "https://en.wikipedia.org/wiki/Apoplanesia_paniculata",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "archidasyphyllum-diacanthoides",
+      "title": "Archidasyphyllum diacanthoides",
+      "common_names": [
+        "Archidasyphyllum diacanthoides"
+      ],
+      "scientific_name": "Archidasyphyllum diacanthoides",
+      "primary_use": "edible",
+      "family": "Asteraceae",
+      "order": "Asterales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Archidasyphyllum diacanthoides , ( syn. Dasyphyllum diacanthoides ) is a species of flowering plant belonging to the family Asteraceae native to Chile and Argentina . In Chile, it occurs from Curico to Chiloe (35 to 42°S) between 200 and 800 m above sea level. It grows in both moist and shaded sites and more open and arid areas. Common names in Mapudungun are trevo and tayu and in Spanish palo santo ('holy tree') and palo blanco ('white tree'). Archidasyphyllum diacanthoides is an evergreen t...",
+      "source_url": "https://en.wikipedia.org/wiki/Archidasyphyllum_diacanthoides",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "arctostaphylos-uva-ursi",
+      "title": "Arctostaphylos uva-ursi",
+      "common_names": [
+        "Arctostaphylos uva-ursi"
+      ],
+      "scientific_name": "Arctostaphylos uva",
+      "primary_use": "edible",
+      "family": "Ericaceae",
+      "order": "Ericales",
+      "native_region": "",
+      "uses": [
+        "dye",
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Arctostaphylos uva-ursi is a plant species of the genus Arctostaphylos widely distributed across circumboreal regions of the subarctic Northern Hemisphere . [ 3 ] Kinnikinnick (from the Unami language for smoking \"mixture\") is a common name in Canada and the United States. [ 3 ] [ 4 ] [ 5 ] Growing up to 30 centimetres (12 inches) in height, the leaves are evergreen . The flowers are white to pink and the fruit is a red berry . One of several related species re...",
+      "source_url": "https://en.wikipedia.org/wiki/Arctostaphylos_uva-ursi",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "argentina-anserina",
+      "title": "Argentina anserina",
+      "common_names": [
+        "Argentina anserina"
+      ],
+      "scientific_name": "Argentina anserina",
+      "primary_use": "edible",
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber"
+      ],
+      "description": "Argentina anserina (synonym Potentilla anserina ) is a perennial flowering plant in the rose family, Rosaceae . It is known by the common names silverweed , common silverweed or silver cinquefoil . It is native throughout the temperate Northern Hemisphere , often on river shores and in grassy habitats such as meadows and road-sides. Silverweed is a perennial low-growing herbaceous plant growing up to 20 centimetres (8 in) tall. [ 2 ] It has creeping red stolons that can be up to ...",
+      "source_url": "https://en.wikipedia.org/wiki/Argentina_anserina",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "aristolochia",
+      "title": "Aristolochia",
+      "common_names": [
+        "Aristolochia"
+      ],
+      "scientific_name": "Its members are",
+      "primary_use": "edible",
+      "family": "Aristolochioideae",
+      "order": "Piperales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Aristolochia ( .mw-parser-output .IPA-label-small{font-size:85%}.mw-parser-output .references .IPA-label-small,.mw-parser-output .infobox .IPA-label-small,.mw-parser-output .navbox .IPA-label-small{font-size:100%} English: / ə ˌ r ɪ s t ə ˈ l oʊ k i ə / ) is a large plant genus with over 500 species that is the type genus of the family Aristolochiaceae . Its members are commonly known as birthwort , pipevine or Dutchman's pipe and are widespread and occur in diverse climates. Some species, li...",
+      "source_url": "https://en.wikipedia.org/wiki/Aristolochia",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "arnica",
+      "title": "Arnica",
+      "common_names": [
+        "Arnica"
+      ],
+      "scientific_name": "The genus name",
+      "primary_use": "edible",
+      "family": "Asteroideae",
+      "order": "Asterales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal"
+      ],
+      "description": "Arnica / ˈ ɑːr n ɪ k ə / is a genus of perennial , herbaceous plants in the sunflower family ( Asteraceae ). The genus name Arnica may be derived from the Greek arni , \"lamb\", in reference to the plants' soft, hairy leaves. Arnica is also known by the names mountain tobacco and, confusingly, leopard's bane and wolfsbane —two names that it shares with the entirely unrelated genus Aconitum . This circumboreal and montane (subalpine) genus occurs mostly in the temperate regions of western North ...",
+      "source_url": "https://en.wikipedia.org/wiki/Arnica",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "artemisia-plant",
+      "title": "Artemisia (plant)",
+      "common_names": [
+        "Artemisia (plant)"
+      ],
+      "scientific_name": "Common names for",
+      "primary_use": "edible",
+      "family": "Asteroideae",
+      "order": "Asterales",
+      "native_region": "",
+      "uses": [
+        "dye",
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Artemisia ( / ˌ ɑːr t ə ˈ m iː z i ə / art-ə- MEE -zee-ə ) [ 3 ] is a large, diverse genus of plants belonging to the daisy family, Asteraceae , with almost 500 species. Common names for various species in the genus include mugwort , wormwood , and sagebrush . Some botanists split the genus into several genera, but DNA analysis [ 4 ] does not support the maintenance of the genera Crossostephium , Filifolium , Neopallasia , Seriphidium , and Sphaeromeria ; three other segregate...",
+      "source_url": "https://en.wikipedia.org/wiki/Artemisia_(plant)",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "artemisia-capillaris",
+      "title": "Artemisia capillaris",
+      "common_names": [
+        "Artemisia capillaris"
+      ],
+      "scientific_name": "Artemisia capillaris",
+      "primary_use": "structural",
+      "family": "Asteraceae",
+      "order": "Asterales",
+      "native_region": "",
+      "uses": [
+        "fiber",
+        "structural"
+      ],
+      "description": "Artemisia capillaris , (Chinese: 茵陈蒿 yīn chén hāo), the capillary wormwood , [ 2 ] is a species of flowering plant in the wormwood genus Artemisia , family Asteraceae . [ 3 ] Artemisia capillaris is biennial or perennial herb, 30-80(100) cm tall with vertical, woody rootstock and usually a single to few, slender, erect, pale purplish or reddish brown, glabrous stems. Leaves are silky hairy, basal ones shortly petiolate, middle stem leaves almost sessile. Synflorescence is ...",
+      "source_url": "https://en.wikipedia.org/wiki/Artemisia_capillaris",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "artemisia-douglasiana",
+      "title": "Artemisia douglasiana",
+      "common_names": [
+        "Artemisia douglasiana"
+      ],
+      "scientific_name": "Artemisia douglasiana",
+      "primary_use": "medicinal",
+      "family": "Asteraceae",
+      "order": "Asterales",
+      "native_region": "",
+      "uses": [
+        "medicinal"
+      ],
+      "description": "Artemisia douglasiana , known as California mugwort , Douglas's sagewort , or dream plant , is a western North American species of aromatic herb in the sunflower family . [ 4 ] The herbaceous perennial is native to the Western United States in California , Idaho , Nevada , Oregon , and Washington ; and in northwestern Baja California , Mexico . [ 5 ] [ 6 ] [ 7 ] [ 8 ]",
+      "source_url": "https://en.wikipedia.org/wiki/Artemisia_douglasiana",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "artemisia-inculta",
+      "title": "Artemisia inculta",
+      "common_names": [
+        "Artemisia inculta"
+      ],
+      "scientific_name": "Artemisia inculta is",
+      "primary_use": "medicinal",
+      "family": "Asteraceae",
+      "order": "Asterales",
+      "native_region": "",
+      "uses": [
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Artemisia inculta is a rare perennial species of aromatic undershrub in the family Asteraceae , native to North Africa and select regions of the Middle East . [ 2 ] Artemisia inculta is a suffrutescent perennial herb distinguished by its woody lower stems and finely divided, pinnatisect foliage. It reaches heights of approximately 60 cm. The inflorescences consist of small, tightly clustered capitula, typically forming at terminal or upper axillary positions. [ 3 ]",
+      "source_url": "https://en.wikipedia.org/wiki/Artemisia_inculta",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "artemisia-kawakamii",
+      "title": "Artemisia kawakamii",
+      "common_names": [
+        "Artemisia kawakamii"
+      ],
+      "scientific_name": "Artemisia kawakamii",
+      "primary_use": "edible",
+      "family": "Asteraceae",
+      "order": "Asterales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "structural"
+      ],
+      "description": "Artemisia kawakamii , commonly known as Kawakami's mugwort , is a plant in the Artemisia genus under the Asteraceae family that is endemic to Taiwan . The plant is distributed on the Taiwan island, growing at elevations from 2,700 to 3,300 m (8,900 to 10,800 ft). It is commonly found in gravelly, open, and arid slopes. The species has yet to be cultivated. [ 1 ] [ 2 ] [ 3 ] First published by Bunzō Hayata in Volume 8 of the Icones Plantarum Formosanarum on Ma...",
+      "source_url": "https://en.wikipedia.org/wiki/Artemisia_kawakamii",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "arum-italicum",
+      "title": "Arum italicum",
+      "common_names": [
+        "Arum italicum"
+      ],
+      "scientific_name": "Arum italicum is",
+      "primary_use": "edible",
+      "family": "Araceae",
+      "order": "Alismatales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Arum italicum is a species of flowering herbaceous perennial plant in the family Araceae , also known as Italian arum and Italian lords-and-ladies . [ 2 ] It is native to the British Isles [ 3 ] and much of the Mediterranean region , the Caucasus , Canary Islands , Madeira and northern Africa. It is also naturalized in Belgium, the Netherlands, Austria, Argentina, North Island New Zealand and scattered locations in North America. [ 1 ] [ 4 ] [ 5 ] [...",
+      "source_url": "https://en.wikipedia.org/wiki/Arum_italicum",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "asparagus-africanus",
+      "title": "Asparagus africanus",
+      "common_names": [
+        "Asparagus africanus"
+      ],
+      "scientific_name": "Asparagus africanus",
+      "primary_use": "edible",
+      "family": "Asparagoideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal"
+      ],
+      "description": "Asparagus africanus , also known as African asparagus , bush asparagus , wild asparagus , climbing asparagus fern , ornamental asparagus and sparrow grass , is an African species of plant that is found in a variety of habitats. It has multiple medicinal properties and is used to treat various ailments. Asparagus africanus is a spiny shrub up to 1 m (3.3 ft) tall or a climbing plant with stems up to 3 m (9.8 ft) long. [ 2 ] Stems of up to 12 m (39 ft) long...",
+      "source_url": "https://en.wikipedia.org/wiki/Asparagus_africanus",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "aster-ageratoides",
+      "title": "Aster ageratoides",
+      "common_names": [
+        "Aster ageratoides"
+      ],
+      "scientific_name": "Aster ageratoides",
+      "primary_use": "edible",
+      "family": "Asteraceae",
+      "order": "Asterales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Aster ageratoides ( common name , balsam aster ) [ 2 ] is a perennial flowering plant in the family Asteraceae . It is endemic to eastern Asia. [ 1 ] A. ageratoides is a clump-forming, herbaceous perennial growing to a height of approximately 75–90 cm (30–35 in). Leaves are dark green, toothed, lanceolate and entire. [ 3 ] Flowers are stellate, generally violet, pink or bluish in colour, with yellow centres, flowering from early to late autumn. [ 2 ] ...",
+      "source_url": "https://en.wikipedia.org/wiki/Aster_ageratoides",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "aster-hayatae",
+      "title": "Aster hayatae",
+      "common_names": [
+        "Aster hayatae"
+      ],
+      "scientific_name": "Aster hayatae is",
+      "primary_use": "edible",
+      "family": "Asteraceae",
+      "order": "Asterales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal"
+      ],
+      "description": "Aster hayatae is a species of flowering plant in the family Asteraceae . It is native to South Korea . [ 1 ] Aster hayatae is a herbaceous perennial , growing from 15 to 25 cm in height. Stems are branching and erect, with basal leaves spatulate , toothed and lightly pubescent , and upper leaves linear and close together. Flowers are purple or violet in colour, and bloom between June and October. Fruit is an achene , ovoid, brown, measuring 3mm – 2mm. [ citation needed ]",
+      "source_url": "https://en.wikipedia.org/wiki/Aster_hayatae",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "astragalus-plant",
+      "title": "Astragalus (plant)",
+      "common_names": [
+        "Astragalus (plant)"
+      ],
+      "scientific_name": "Astragalus is a",
+      "primary_use": "edible",
+      "family": "Faboideae",
+      "order": "Fabales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Astragalus is a large genus of over 3,000 species [ 2 ] of herbs and small shrubs , belonging to the legume family Fabaceae and the subfamily Faboideae . It is the largest genus of plants in terms of described species. [ 3 ] [ 4 ] The genus is native to temperate regions of the Northern Hemisphere . Common names include milkvetch (most species), locoweed (in North America, some species) [ 5 ] and goat's-thorn ( A. gummifer , A. tragacantha ). Some pal...",
+      "source_url": "https://en.wikipedia.org/wiki/Astragalus_(plant)",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "atropa-pallidiflora",
+      "title": "Atropa pallidiflora",
+      "common_names": [
+        "Atropa pallidiflora"
+      ],
+      "scientific_name": "Atropa pallidiflora is",
+      "primary_use": "edible",
+      "family": "Solanaceae",
+      "order": "Solanales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "structural"
+      ],
+      "description": "Atropa pallidiflora is a close relative of the infamous deadly nightshade [ 1 ] and, like it, is an extremely poisonous plant , containing a variety of tropane alkaloids valued in medicine for their anticholinergic , antispasmodic and mydriatic properties and deliriant in excess. [ 2 ] Atropa pallidiflora is the least well-known of the four currently accepted species of Atropa and is endemic to the remarkable Caspian Hyrcanian mixed forests of Northern Iran , which can boast a...",
+      "source_url": "https://en.wikipedia.org/wiki/Atropa_pallidiflora",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "bitter-orange",
+      "title": "Bitter orange",
+      "common_names": [
+        "Bitter orange"
+      ],
+      "scientific_name": "The bitter orange",
+      "primary_use": "edible",
+      "family": "Rutaceae",
+      "order": "Sapindales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "The bitter orange , sour orange , Seville orange , bigarade orange , or marmalade orange is the hybrid citrus tree species Citrus × aurantium , and its fruit. It is native to Southeast Asia and has been spread by humans to many parts of the world. It is a cross between the pomelo, Citrus maxima , and the wild type mandarin orange, Citrus reticulata . The bitter orange is used to make essential oil , used in foods, drinks, and pharmaceuticals. The Seville orange is prized for making British or...",
+      "source_url": "https://en.wikipedia.org/wiki/Bitter_orange",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "botryodiscia",
+      "title": "Botryodiscia",
+      "common_names": [
+        "Botryodiscia"
+      ],
+      "scientific_name": "Botryodiscia is a",
+      "primary_use": "medicinal",
+      "family": "Menispermaceae",
+      "order": "Ranunculales",
+      "native_region": "",
+      "uses": [
+        "medicinal",
+        "structural"
+      ],
+      "description": "Botryodiscia is a genus of flowering plants in the family Menispermaceae . It includes a single species, Botryodiscia tetrandra , is a herbaceous perennial vine or scrambling subshrub native native to southern China, Hainan, Taiwan, and Vietnam. [ 1 ] It grows from a short, woody caudex , climbing to a height of around three meters. The leaves are arranged spirally on the stem, and are peltate, i.e. with the leaf petiole attached near the centre of the leaf. [ 2 ] Its root is ...",
+      "source_url": "https://en.wikipedia.org/wiki/Botryodiscia",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "bowiea",
+      "title": "Bowiea",
+      "common_names": [
+        "Bowiea"
+      ],
+      "scientific_name": "Uganda to",
+      "primary_use": "edible",
+      "family": "Scilloideae",
+      "order": "Asparagales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "fiber",
+        "medicinal",
+        "structural"
+      ],
+      "description": "Bowiea , commonly known as climbing-onion , is a genus of extremely poisonous, bulbous, perennial, succulent plants which thrive in dry and desert regions of eastern and southern Africa , ranging from Uganda to South Africa . [ 1 ] [ 2 ] It is native to a region stretching from Kenya to Cape Province . [ 3 ] It is the 14th most commonly sold medicinal plant in South Africa, used to treat various health conditions. Due to massive harvesting, populations of this plant ha...",
+      "source_url": "https://en.wikipedia.org/wiki/Bowiea",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "bridelia-retusa",
+      "title": "Bridelia retusa",
+      "common_names": [
+        "Bridelia retusa"
+      ],
+      "scientific_name": "Bridelia retusa is",
+      "primary_use": "edible",
+      "family": "Phyllanthaceae",
+      "order": "Malpighiales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Bridelia retusa is a plant found in Bangladesh , Nepal , [ 2 ] India , Sri Lanka , southern China , Indochina , Thailand and Sumatra . [ 3 ] [ 4 ] [ 5 ] This is the most common Indian species of Bridelia , found in dry deciduous to moist deciduous forests, mixed forest, riverbanks, rocky places, up to 2,000 m (6,560 ft) in South India, 600 m (1,970 ft) in central and Central-East India, 1,600 m (5,250 ft) on the Himalayas and 1,000...",
+      "source_url": "https://en.wikipedia.org/wiki/Bridelia_retusa",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    },
+    {
+      "id": "bridelia-stipularis",
+      "title": "Bridelia stipularis",
+      "common_names": [
+        "Bridelia stipularis"
+      ],
+      "scientific_name": "Bridelia stipularis is",
+      "primary_use": "edible",
+      "family": "Phyllanthaceae",
+      "order": "Malpighiales",
+      "native_region": "",
+      "uses": [
+        "edible",
+        "medicinal"
+      ],
+      "description": "Bridelia stipularis is a perennial evergreen climber grows over hedges and bushes and sometimes on bigger trees. [ 2 ] It is native to Southeast Asia , southern China , and the Indian subcontinent . [ 1 ] [ 3 ] Used as medicines in Malaysia and the Philippines . [ medical citation needed ] Bridelia stipularis , as other Bridelia species, used as food plants by the larvae of some Lepidoptera species including Endoclita malabaricus . This Phyllanthaceae article i...",
+      "source_url": "https://en.wikipedia.org/wiki/Bridelia_stipularis",
+      "extraction_quality": "complete",
+      "needs_research": false,
+      "source": "wikipedia"
+    }
+  ],
+  "needs_research": [
+    "acorus-calamus",
+    "aleurites-moluccanus",
+    "alkekengi",
+    "amorphophallus-konjac",
+    "angelica",
+    "aquilegia",
+    "arctium",
+    "aspen",
+    "blackberry",
+    "cereal",
+    "fiber-crop",
+    "lumber",
+    "plant"
+  ]
+}

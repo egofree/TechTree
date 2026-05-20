@@ -21,6 +21,7 @@ graph TD
     optics["Optics"]
     gas-handling["Gas Handling"]
     measurement["Measurement & Instrumentation"]
+    plants["Plants & Botanical Resources"]
 
     %% ==================== DOMAIN-LEVEL EDGES ====================
     metals -.-> foundations
@@ -85,6 +86,7 @@ graph TD
     energy -.-> mining
     energy -.-> polymers
     energy -.-> textiles
+    foundations -.-> plants
     glass -.-> mining
     health -.-> ceramics
     health -.-> knowledge
@@ -106,12 +108,14 @@ graph TD
     optics -.-> gas-handling
     photolithography -.-> ceramics
     photolithography -.-> polymers
+    plants -.-> foundations
     polymers -.-> chemistry
     polymers -.-> machine-tools
     silicon -.-> ceramics
     silicon -.-> measurement
     silicon -.-> mining
     textiles -.-> chemistry
+    textiles -.-> plants
     transport -.-> chemistry
     transport -.-> foundations
     transport -.-> textiles
@@ -130,6 +134,7 @@ graph TD
     class knowledge critical
     class textiles critical
     class mining critical
+    class plants earlyWin
 
     %% ==================== LEGEND ====================
     Legend["Legend and Key Insights"]

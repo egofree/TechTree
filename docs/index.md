@@ -41,6 +41,7 @@ Several capabilities in other domains are also critical because their absence bl
 | Domain | Capabilities | Critical? | Key Outputs |
 |--------|:------------:|:---------:|-------------|
 | [Foundations](foundations/) | 3 | Yes | food surplus, fire, stone tools, agriculture |
+| [Plants & Botany](plants/) | 5 | | food crops, medicine, timber, fiber, natural dyes |
 | [Mining](mining/) | 3 | Yes | copper ore, iron ore, coal, quartz, sulfur |
 | [Metals](metals/) | 2 | | copper, iron, steel |
 | [Machine Tools](machine-tools/) | 6 | Yes | lathe, mill, grinder, bearings |

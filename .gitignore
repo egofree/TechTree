@@ -16,3 +16,10 @@ node_modules/
 # Transient artifacts from rollback/testing
 data/.backups/
 *.bak
+test-results/
+
+# Agent working state
+.sisyphus/
+
+# Generated static site
+site/

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Data-driven validator for tech-tree-bootstrap
 # Reads all structure from data files — no hardcoded filenames
-# Checks: 15 validation passes covering data integrity, DAG, cross-refs, terminology, diagrams, tags, edge types, hierarchy
+# Checks: 16 validation passes covering data integrity, DAG, cross-refs, terminology, diagrams, tags, edge types, hierarchy, taxonomy
 
 set -euo pipefail
 
@@ -673,6 +673,86 @@ check_boolean_consistency() {
     $ok
 }
 
+# --- Check 16: Taxonomy field validity ---
+
+check_taxonomy_validity() {
+    local ok=true
+    local violations
+
+    local valid_roots='["biomass","mineral","synthetic"]'
+    local segment_pattern='^[a-z][a-z0-9-]*$'
+
+    # If taxonomy is present, it must be a non-empty array of strings
+    violations=$(jq -r '
+        .nodes[] | select(.taxonomy != null) |
+        select((.taxonomy | type) != "array" or (.taxonomy | length) == 0) |
+        "\(.id): taxonomy must be a non-empty array"
+    ' "$DATA_DIR/nodes.json")
+    if [[ -n "$violations" ]]; then
+        echo "$violations" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    # Each taxonomy value must have ≥2 segments (at least one dot)
+    violations=$(jq -r '
+        .nodes[] | select(.taxonomy != null) | .id as $nid |
+        .taxonomy[] | select(split(".") | length < 2) |
+        "\($nid): taxonomy value has fewer than 2 segments"
+    ' "$DATA_DIR/nodes.json")
+    if [[ -n "$violations" ]]; then
+        echo "$violations" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    # Each segment must be kebab-case (lowercase, digits, hyphens)
+    violations=$(jq -r '
+        .nodes[] | select(.taxonomy != null) | .id as $nid |
+        .taxonomy[] | split(".")[] | select(test("^[a-z][a-z0-9-]*$") | not) |
+        "\($nid): invalid taxonomy segment (must be kebab-case)"
+    ' "$DATA_DIR/nodes.json")
+    if [[ -n "$violations" ]]; then
+        echo "$violations" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    # First segment must be a known root
+    violations=$(jq -r --argjson valid "$valid_roots" '
+        .nodes[] | select(.taxonomy != null) | .id as $nid |
+        .taxonomy[] | split(".") | .[0] as $root |
+        select($valid | index($root) | not) |
+        "\($nid): unknown taxonomy root, must be one of: biomass, mineral, synthetic"
+    ' "$DATA_DIR/nodes.json")
+    if [[ -n "$violations" ]]; then
+        echo "$violations" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    # No duplicate values within a single node
+    violations=$(jq -r '
+        .nodes[] | select(.taxonomy != null) | .id as $nid |
+        (.taxonomy | length) as $total |
+        (.taxonomy | unique | length) as $unique |
+        select($total != $unique) |
+        "\($nid): duplicate values in taxonomy array"
+    ' "$DATA_DIR/nodes.json")
+    if [[ -n "$violations" ]]; then
+        echo "$violations" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    $ok
+}
+
 # ============================================================
 # Main
 # ============================================================
@@ -731,6 +811,10 @@ echo "--- Schema: Hierarchy ---"
 check "Parent chain consistency (all parents exist, chain resolves)" check_parent_chain
 check "Level-dot depth consistency (0 dots=domain, 1=capability, 2+=process)" check_level_dot_depth
 check "Boolean consistency (tags booleans match top-level fields)" check_boolean_consistency
+
+echo ""
+echo "--- Schema: Taxonomy ---"
+check "Taxonomy validity (optional field, root/segment/duplicate rules)" check_taxonomy_validity
 
 echo ""
 echo "=== Results: $PASSED/$TOTAL passed, $FAILED failed ==="

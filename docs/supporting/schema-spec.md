@@ -166,13 +166,77 @@ The top-level `critical`, `early_win`, `pinnacle` fields and their associated `_
 
 ---
 
-## 4. Edge Type Classification Rules
+## 4. Taxonomy Field
 
-### 4.1 Motivation
+### 4.1 Overview
+
+The `taxonomy` field provides a **hierarchical classification** of nodes by material origin, complementary to the flat tag system defined in §3. Where tags use closed vocabularies with fixed values (§3.2–§3.4), taxonomy uses an open dotted notation that supports deeper categorization within broad material families.
+
+Taxonomy is **optional** on all nodes. Nodes without a `taxonomy` field are valid. When present, `taxonomy` provides additional query and grouping capability without replacing the existing tag system.
+
+### 4.2 Format
+
+The `taxonomy` field is a JSON array of dotted hierarchical strings:
+
+```json
+{
+  "taxonomy": ["biomass.plant.wood", "biomass.plant.fiber"]
+}
+```
+
+**Structural rules:**
+
+- Each taxonomy value is a dot-separated string of **two or more segments**: `root.branch`, `root.branch.leaf`, etc.
+- Segments use **kebab-case**: lowercase letters, digits, and hyphens. No uppercase, no underscores, no spaces.
+- The **first segment** (root) must be one of the three known roots (§4.3).
+- Additional segments provide increasingly specific classification. Depth is unbounded.
+- Duplicate values within a single node's `taxonomy` array are not allowed.
+
+### 4.3 Root Vocabulary
+
+Three top-level roots are defined:
+
+| Root | Definition | Examples |
+|------|-----------|----------|
+| `biomass` | Materials derived from living organisms (plants, animals, fungi) | `biomass.plant.wood`, `biomass.animal.meat`, `biomass.plant.fiber` |
+| `mineral` | Inorganic materials extracted from the earth | `mineral.ore.iron`, `mineral.stone.flint`, `mineral.clay.kaolin` |
+| `synthetic` | Materials produced through industrial processing, not found in nature | `synthetic.polymer.thermoset`, `synthetic.alloy.steel`, `synthetic.semiconductor.silicon` |
+
+**Rules:**
+
+- The root vocabulary is a **closed set**. Only `biomass`, `mineral`, and `synthetic` are valid first segments.
+- New branches beneath existing roots may be created as needed without spec changes.
+- A node may carry multiple taxonomy values from different roots (e.g., a composite material node might have both `biomass.plant.fiber` and `synthetic.polymer.thermoset`).
+
+### 4.4 Relationship to Tags
+
+Taxonomy and tags are **independent classification systems**:
+
+- **Tags** (§3): Closed vocabularies for material, capability, era dimensions. Required on all nodes.
+- **Taxonomy** (§4): Open hierarchical classification by material origin. Optional on all nodes.
+- Taxonomy values are NOT validated against tag values. A node may have `tags.material: ["wood"]` and `taxonomy: ["biomass.plant.wood"]` — the systems use independent vocabularies.
+- Taxonomy does not replace or deprecate any existing tag. It provides a supplementary dimension for material-origin queries.
+
+### 4.5 Validation Rules
+
+Automated validation (check 16 in `validate.sh`) enforces:
+
+1. If `taxonomy` is present, it must be a non-empty array of strings.
+2. Each string must contain at least one dot (≥2 segments).
+3. Each segment must match `[a-z][a-z0-9-]*` (kebab-case, lowercase).
+4. The first segment must be one of: `biomass`, `mineral`, `synthetic`.
+5. No duplicate values within a single node's `taxonomy` array.
+6. Nodes without `taxonomy` are valid — no error.
+
+---
+
+## 5. Edge Type Classification Rules
+
+### 5.1 Motivation
 
 The current `edges.json` uses two types: `"material"` and `"tool"`, distinguishing edges where the prerequisite provides a **consumed substance** versus a **reusable apparatus**. This classification enables richer queries and diagram rendering.
 
-### 4.2 Classification Definitions
+### 5.2 Classification Definitions
 
 #### `material`
 
@@ -204,7 +268,7 @@ Examples:
 | `energy.electricity` → `chemistry.distillation` (electric motors) | Motor persists — reusable |
 | `metals.iron-steel` → `machine-tools.casting` (steel for machine castings) | Cast machine frame persists — reusable infrastructure |
 
-### 4.3 Ambiguity Resolution
+### 5.3 Ambiguity Resolution
 
 Some edges are ambiguous — the prerequisite provides both a substance AND a tool. For example:
 
@@ -215,7 +279,7 @@ Some edges are ambiguous — the prerequisite provides both a substance AND a to
 
 Rationale: The infrastructure aspect dominates in the technology tree context. The enduring capability (the existence of a forge, a lathe, a kiln) matters more for dependency analysis than the consumable inputs. Consumables are tracked through the `outputs` field on nodes.
 
-### 4.4 Edge Schema Change
+### 5.4 Edge Schema Change
 
 The `type` field in `edges.json` changes from its current single value:
 
@@ -240,7 +304,7 @@ The old value `"required"` is **retired**. All edges are implicitly required —
 - `from`: String. Node ID of the dependent. Unchanged.
 - `to`: String. Node ID of the prerequisite. Unchanged.
 
-### 4.5 Worked Classification Examples
+### 5.5 Worked Classification Examples
 
 Walk through classification of representative edges from the current data:
 
@@ -271,13 +335,13 @@ Walk through classification of representative edges from the current data:
 
 ---
 
-## 5. SIK Placement Test
+## 6. SIK Placement Test
 
-### 5.1 Definition
+### 6.1 Definition
 
 **SIK** = Shared Infrastructure & Knowledge. The SIK test determines whether technologies belong in the same domain or should be split into separate domains.
 
-### 5.2 The Test
+### 6.2 The Test
 
 A set of technologies belongs in the same domain if and only if **all three** of the following conditions hold:
 
@@ -285,7 +349,7 @@ A set of technologies belongs in the same domain if and only if **all three** of
 2. **Knowledge Base Overlap >50%**: The practitioners working on these technologies share more than half of their theoretical and practical knowledge (chemistry, physics, engineering principles).
 3. **Practitioner Profile Overlap >50%**: The skills, training, and working methods of practitioners are substantially the same. A practitioner trained in one sub-area could transition to another with reasonable retraining (<1 year).
 
-### 5.3 Split Rule
+### 6.3 Split Rule
 
 When identifiable subgroups within a domain share **<50%** infrastructure with the rest of the domain, consider splitting:
 
@@ -294,7 +358,7 @@ When identifiable subgroups within a domain share **<50%** infrastructure with t
 - Evaluate whether the subgroup is large enough to constitute its own domain (minimum: 2-3 capabilities with at least 1 process each).
 - If the subgroup is too small to standalone, keep it in the parent domain but note the low cohesion.
 
-### 5.4 Internal Organizing Axis
+### 6.4 Internal Organizing Axis
 
 Each domain MUST declare its **internal organizing axis** — the primary principle by which its capabilities are arranged. Common axes:
 
@@ -308,7 +372,7 @@ Each domain MUST declare its **internal organizing axis** — the primary princi
 
 The organizing axis is documented in the domain node's `description` or a dedicated `organizing_axis` field (implementation decision for T2+).
 
-### 5.5 Worked SIK Examples
+### 6.5 Worked SIK Examples
 
 **Example 1: Glass production — should it stay in `metals`?**
 
@@ -334,7 +398,21 @@ Result: Below 50% on all three dimensions. The inter-domain coupling override wa
 
 Result: All dimensions >50%. Confirmed: natural rubber and composites belong in `polymers`.
 
-### 5.6 Override Conditions
+**Example 4: Should `plants` be a distinct domain rather than part of `foundations`?**
+
+- Infrastructure overlap with foundations: Plants use gardens, fields, and simple harvesting tools. Foundations uses fire pits, knapping floors, and foraging grounds. ~30% overlap.
+- Knowledge overlap with foundations: Botany, cultivation timing, and fiber processing vs. fire-making and stone knapping. ~25% overlap.
+- Practitioner overlap with foundations: Farmers and botanists vs. toolmakers and fire-keepers. ~20% overlap.
+
+Result: Below 50% on all three dimensions when compared to `foundations`. Plants is justified as a distinct domain because:
+
+1. **Distinct human needs and processing chains.** The five capability groupings (edible, medicinal, structural, fiber, dye) each map to a fundamentally different human need — food security, health, shelter, clothing, and aesthetics — with independent processing chains (cultivation → harvest → preservation; harvest → preparation → application; fell → season → shape; ret → spin → weave; extract → mordant → dye).
+
+2. **Stone-age Industrial Kit component.** Plants require minimal processing — harvesting, drying, and basic cultivation are achievable from Year 0 with zero tooling. Yet they enable critical capabilities: food surplus (the engine of specialization), structural timber, cordage fibers, and medicinal compounds. This makes plants the quintessential SIK resource: shared knowledge of local flora underpins every subsequent domain.
+
+3. **Sufficient domain size.** With 19 tech-tree nodes across 5 capabilities plus 86 species catalog entries, the plants domain comfortably exceeds the minimum domain size threshold (2-3 capabilities with at least 1 process each). The internal organizing axis is **functional** — capabilities grouped by the human need they serve.
+
+### 6.6 Override Conditions
 
 The SIK test is the default decision framework, but two conditions can override:
 
@@ -345,9 +423,9 @@ Both overrides must be documented with a justification when applied.
 
 ---
 
-## 6. Node Schema Changes — Summary
+## 7. Node Schema Changes — Summary
 
-### 6.1 New `tags` Field
+### 7.1 New `tags` Field
 
 A `tags` object is added to each node with the structure defined in §3.6:
 
@@ -375,7 +453,7 @@ A `tags` object is added to each node with the structure defined in §3.6:
 }
 ```
 
-### 6.2 `level` Field — Auto-Derivation
+### 7.2 `level` Field — Auto-Derivation
 
 The `level` field remains part of the schema but its value is auto-derived from the node ID:
 
@@ -385,7 +463,7 @@ The `level` field remains part of the schema but its value is auto-derived from 
 
 Supports arbitrary depth: `domain.capability.sub-process.sub-sub-process` is valid. The `level` field value for 2+ dots is always `"process"` regardless of how many levels deep.
 
-### 6.3 `parent` Field — Auto-Derivation
+### 7.3 `parent` Field — Auto-Derivation
 
 The `parent` field value is auto-derived from the node ID:
 
@@ -396,15 +474,15 @@ Examples:
 - `metals.iron-steel` → parent = `"metals"`
 - `silicon.crystal-growth.cz-pulling` → parent = `"silicon.crystal-growth"`
 
-### 6.4 Backward Compatibility
+### 7.4 Backward Compatibility
 
 The existing top-level boolean fields (`critical`, `early_win`, `pinnacle`) and their `_note` counterparts remain in place. Tooling SHOULD read from both locations during the transition period. Eventually the `_note` fields may be folded into the `tags` object, but this spec does not mandate that migration.
 
 ---
 
-## 7. Edge Schema Changes — Summary
+## 8. Edge Schema Changes — Summary
 
-### 7.1 `type` Field Redefined
+### 8.1 `type` Field Redefined
 
 | Property | Before | After |
 |----------|--------|-------|
@@ -412,19 +490,19 @@ The existing top-level boolean fields (`critical`, `early_win`, `pinnacle`) and 
 | Semantics | Binary dependency exists | Nature of dependency: consumed substance vs. reusable apparatus |
 | Required | Yes | Yes |
 
-### 7.2 Migration
+### 8.2 Migration
 
 Every existing edge with `type: "required"` must be reclassified as either `"material"` or `"tool"` using the rules in §4. There is no `"required"` value in the new schema. This is a breaking change — all consumers of `edges.json` must be updated.
 
-### 7.3 `from` / `to` Semantics
+### 8.3 `from` / `to` Semantics
 
 Unchanged. `from` = dependent, `to` = prerequisite. Direction convention: `from` depends on `to`.
 
 ---
 
-## 8. Validation Rules
+## 9. Validation Rules
 
-### 8.1 Tag Validation
+### 9.1 Tag Validation
 
 - Every node MUST have a `tags` object.
 - `tags.material` MUST contain only values from §3.2 allowed list.
@@ -433,21 +511,30 @@ Unchanged. `from` = dependent, `to` = prerequisite. Direction convention: `from`
 - `tags.critical`, `tags.early-win`, `tags.pinnacle` MUST be boolean.
 - The values in `tags` booleans MUST match the top-level boolean fields.
 
-### 8.2 Edge Type Validation
+### 9.2 Edge Type Validation
 
 - Every edge MUST have a `type` field.
 - `type` MUST be exactly `"material"` or `"tool"`.
 - The value `"required"` is invalid in the new schema.
 
-### 8.3 Auto-Derivation Validation
+### 9.3 Auto-Derivation Validation
 
 - For every node, `level` MUST be consistent with dot count in `id`.
 - For every node, `parent` MUST be consistent with `id` (everything before last dot, or null for domains).
 - Every `parent` value (when non-null) MUST reference an existing node `id`.
 
+### 9.4 Taxonomy Validation
+
+- `taxonomy` is optional. Nodes without it are valid.
+- If present, `taxonomy` MUST be a non-empty array of strings.
+- Each string MUST contain at least one dot (≥2 segments).
+- Each segment MUST be kebab-case: lowercase letters, digits, and hyphens (`[a-z][a-z0-9-]*`).
+- The first segment MUST be one of: `biomass`, `mineral`, `synthetic`.
+- No duplicate values within a single node's `taxonomy` array.
+
 ---
 
-## 9. Glossary
+## 10. Glossary
 
 | Term | Definition |
 |------|-----------|

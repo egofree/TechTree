@@ -16,7 +16,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 
 **Length standard**:
 - Define the base unit of length as a physical artifact: a bar of low-expansion alloy (invar — 64% Fe, 36% Ni, thermal expansion coefficient ~1.2 × 10⁻⁶/°C, Chemistry stage) or, before invar, well-annealed steel bar stored at constant temperature.
-- Mark two fine lines on the neutral plane (plane of minimum bending when bar is supported at Airy points — points 0.577 × length from each end). Distance between lines = 1 unit exactly.
+- Mark two fine lines on the neutral plane (plane of minimum bending when bar is supported at Airy points — points 0.289 × length from each end). Distance between lines = 1 unit exactly.
 - Subdivide by precision dividing engine (Machine Tools): Lead screw of known pitch rotates → carriage moves linearly → scribe marks at known intervals. Calibrate lead screw error by comparing with standard. Apply corrections.
 - **Temperature control**: All precision length measurements must account for thermal expansion. Steel expands ~12 μm per meter per °C. Measure at 20°C reference temperature, or apply correction: L_actual = L_measured × (1 + α × ΔT), where α = coefficient of thermal expansion, ΔT = deviation from 20°C.
 

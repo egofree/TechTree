@@ -21,7 +21,7 @@
 - **Objective design**: Achromatic doublet (crown + flint glass, corrects chromatic aberration at two wavelengths) or apochromatic (three-element, three-wavelength correction — better, harder to make).
 - **Illumination**: Brightfield (transmitted light through sample), darkfield (oblique illumination — edges glow, defects visible). Later: phase contrast, DIC (differential interference contrast).
 - **Mechanical stage**: X-Y movement with graduated drums (0.01 mm resolution). Focus: coarse + fine (0.001 mm resolution). Requires Machine Tools stage precision machining.
-- **Applications**: Crystal defect inspection (Silicon), lithography alignment (Photolithography), defect analysis, biological specimens (SQ5).
+- **Applications**: Crystal defect inspection (Silicon), lithography alignment (Photolithography), defect analysis, biological specimens.
 
 **Optical comparators** (shadow projection for dimensional measurement):
 - Light source projects silhouette of part onto screen. Magnification 10-50x. Compare shadow against overlay drawing (mylar with tolerance bands). Quick, non-contact measurement of external dimensions.
@@ -90,7 +90,7 @@
 
 - Not strictly required for semiconductor path, but provides:
   - Amplification experience (useful for test equipment)
-  - Radio communication capability (valuable for coordination, SQ3)
+  - Radio communication capability (valuable for coordination)
   - Understanding of electron physics
 - **Requires**: Glass envelopes (glassblowing capability above), vacuum (rotary vane pump sufficient), cathode material (tungsten or thoriated tungsten — heated to emit electrons), anode (nickel plate), grid (fine wire spiral for triode), base and pins (glass-to-metal seals).
 - **Evacuation**: Pump down to 10⁻⁴ Torr, bake tube to 300-400°C during pumping to drive off adsorbed gases, seal off. Getter (barium or magnesium flash strip) inside tube — flashes during initial activation, absorbs residual gases.

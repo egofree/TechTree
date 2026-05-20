@@ -45,7 +45,7 @@ Cuts helical grooves on the workpiece surface. See [Bearings & Abrasives](./bear
 Severs the finished part from the bar stock using a narrow parting tool (2-4 mm wide). Highest-risk lathe operation — tool is deeply embedded, prone to jamming and chatter.
 
 - **Technique**: Feed steadily and slowly. Do not stop mid-cut (work hardens). Apply flood coolant. Reduce speed as tool approaches center.
-- **RPM**: Use lowest spindle speed setting. For 25 mm bar in steel: ~100-150 RPM.
+- **RPM**: Use the lowest spindle speed setting. For 25 mm bar in steel: ~100-150 RPM.
 
 ## Milling Operations
 

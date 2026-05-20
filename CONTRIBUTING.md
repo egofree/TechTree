@@ -29,7 +29,7 @@
 
 ### Style
 
-- Use clear, direct prose, avoiding jargon where possible where possible
+- Use clear, direct prose, avoiding jargon where possible
 - Include dependency chains and prerequisite references
 - Note practical bottlenecks and safety concerns
 - Use relative links between documents

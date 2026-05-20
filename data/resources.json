@@ -142,6 +142,184 @@
       ],
       "criticality": "medium",
       "notes": "Borosilicate glass fiber for structural composites; borax may be a bottleneck"
+    },
+    {
+      "name": "Copper wire stock",
+      "source": "Copper smelting and wire drawing",
+      "used_in": [
+        "computing.electronic",
+        "computing.electromechanical"
+      ],
+      "criticality": "critical",
+      "notes": "Winding wire for electromagnets, transformers, motors, and magnetic core memory; enameled for insulation"
+    },
+    {
+      "name": "Type metal (lead-antimony-tin alloy)",
+      "source": "Metallurgical alloying (80-85% Pb, 10-15% Sb, 3-5% Sn)",
+      "used_in": [
+        "knowledge.printing"
+      ],
+      "criticality": "high",
+      "notes": "Movable type casting; antimony provides hardness and reduces shrinkage; tin improves fluidity for casting"
+    },
+    {
+      "name": "Gum arabic / acacia resin",
+      "source": "Acacia tree sap (wild harvest or cultivation)",
+      "used_in": [
+        "knowledge.writing"
+      ],
+      "criticality": "medium",
+      "notes": "Binder for iron gall ink and carbon ink; controls flow and adhesion on parchment and paper"
+    },
+    {
+      "name": "Medicinal plants (willow, cinchona, opium poppy, ephedra, foxglove)",
+      "source": "Wild harvesting / cultivation",
+      "used_in": [
+        "health.pharmacology",
+        "health.medicine"
+      ],
+      "criticality": "high",
+      "notes": "Primary source of analgesics (salicin), antimalarials (quinine), anesthetics (morphine), bronchodilators (ephedrine), cardiac drugs (digitalis)"
+    },
+    {
+      "name": "Ethanol (grain alcohol)",
+      "source": "Fermentation of sugars + fractional distillation",
+      "used_in": [
+        "health.pharmacology",
+        "health.medicine"
+      ],
+      "criticality": "high",
+      "notes": "Solvent for drug extraction (tinctures), antiseptic (60-70%), preservative, and precursor for diethyl ether anesthetic"
+    },
+    {
+      "name": "Gauge block steel (hardened chrome alloy / tungsten carbide)",
+      "source": "Precision metallurgy (alloying + heat treatment + grinding)",
+      "used_in": [
+        "measurement.precision-metrology"
+      ],
+      "criticality": "high",
+      "notes": "Fundamental length reference for precision manufacturing; must be dimensionally stable, wear-resistant, and low thermal expansion"
+    },
+    {
+      "name": "Manganin wire (84% Cu, 12% Mn, 4% Ni)",
+      "source": "Alloy smelting and wire drawing",
+      "used_in": [
+        "measurement.precision-metrology"
+      ],
+      "criticality": "medium",
+      "notes": "Resistance standard wire with near-zero temperature coefficient (~20 ppm/°C); bifilar wound on brass bobbin for standard resistors"
+    },
+    {
+      "name": "Novolac resin precursors (phenol, formaldehyde)",
+      "source": "Coal tar distillation (phenol) / methanol oxidation (formaldehyde)",
+      "used_in": [
+        "photolithography.resists-masks"
+      ],
+      "criticality": "critical",
+      "notes": "Base resin for standard positive-tone photoresist (novolac + DNQ); phenol-formaldehyde condensation polymer"
+    },
+    {
+      "name": "Fused quartz mask blanks",
+      "source": "High-purity silica melting / synthetic silica deposition",
+      "used_in": [
+        "photolithography.resists-masks"
+      ],
+      "criticality": "critical",
+      "notes": "Photomask substrate; must transmit i-line (365 nm) — soda-lime glass absorbs below 350 nm; polished to λ/4 flatness"
+    },
+    {
+      "name": "Specialty etching gases (CF₄, SF₆, Cl₂, BCl₃)",
+      "source": "Chemical synthesis from elemental feedstocks (fluorite, salt, sulfur)",
+      "used_in": [
+        "vlsi-scaling.advanced-processes"
+      ],
+      "criticality": "high",
+      "notes": "RIE and DRIE process gases; CF₄/SF₆ for silicon etching, Cl₂/BCl₃ for aluminum; potent greenhouse gases requiring abatement"
+    },
+    {
+      "name": "ALD precursors (trimethylaluminum, TiCl₄, TDMAH)",
+      "source": "Organometallic synthesis from aluminum/metal chlorides + methylation",
+      "used_in": [
+        "vlsi-scaling.advanced-processes"
+      ],
+      "criticality": "medium",
+      "notes": "Atomic layer deposition precursors for high-k dielectrics (HfO₂), barrier layers (TiN), and gate oxides (Al₂O₃); self-limiting reactions"
+    },
+    {
+      "name": "Seamless steel tubing and PTFE sealant",
+      "source": "Steel piercing/extrusion + fluoropolymer synthesis",
+      "used_in": [
+        "gas-handling.basic",
+        "gas-handling.vacuum"
+      ],
+      "criticality": "high",
+      "notes": "High-pressure gas piping and chemically inert gasket/seal material; PTFE for corrosive gas service and ultra-pure gas lines"
+    },
+    {
+      "name": "Clay minerals (kaolin, fireclay, ball clay)",
+      "source": "Surface mining (river banks, floodplains, clay pits)",
+      "used_in": [
+        "ceramics.pottery",
+        "ceramics.kilns"
+      ],
+      "criticality": "critical",
+      "notes": "Foundation of all ceramic production — pottery, crucibles, refractory bricks, and kiln linings; fireclay essential for furnace temperatures above 1200°C"
+    },
+    {
+      "name": "Limestone (CaCO₃)",
+      "source": "Quarrying (surface deposits)",
+      "used_in": [
+        "ceramics.lime"
+      ],
+      "criticality": "high",
+      "notes": "Source of quicklime (CaO) for mortar, plaster, whitewash, soil amendment, hide processing, and sewage treatment; also glass batch ingredient"
+    },
+    {
+      "name": "Rail steel (wrought iron or steel T-rails)",
+      "source": "Iron rolling mill (from metals.iron-steel)",
+      "used_in": [
+        "transport.railways"
+      ],
+      "criticality": "high",
+      "notes": "Inverted-T cross-section rails (15-30 kg/m); initially iron straps on timber, progressing to rolled steel rail"
+    },
+    {
+      "name": "Treated timber (sleepers, telegraph poles, shoring)",
+      "source": "Forestry + creosote/tar treatment",
+      "used_in": [
+        "transport.railways",
+        "transport.roads",
+        "mining"
+      ],
+      "criticality": "high",
+      "notes": "Railroad sleepers, telegraph poles, mine shoring, and bridge timbers; creosote or tar treatment prevents decay"
+    },
+    {
+      "name": "Optical glass blanks (crown glass, flint glass, borosilicate)",
+      "source": "Glass melting and casting (from glass production)",
+      "used_in": [
+        "optics.inspection"
+      ],
+      "criticality": "high",
+      "notes": "Lens and prism blanks for microscopes, telescopes, and spectroscopes; crown + flint glass pair corrects chromatic aberration"
+    },
+    {
+      "name": "Polishing compounds (cerium oxide, iron oxide rouge)",
+      "source": "Mineral processing (rare earth concentrates / hematite grinding)",
+      "used_in": [
+        "optics.inspection"
+      ],
+      "criticality": "medium",
+      "notes": "CeO₂ slurry for final optical polish (faster, cleaner); Fe₂O₃ rouge as alternative; also used for CMP in semiconductor fabrication"
+    },
+    {
+      "name": "Seeds and planting stock (staple crops, medicinal herbs, fiber plants)",
+      "source": "Wild collection / seed saving / selective breeding",
+      "used_in": [
+        "plants"
+      ],
+      "criticality": "critical",
+      "notes": "Foundation of agricultural civilization — grain staples, legumes, medicinal species, fiber crops (flax, hemp), and dye plants; seed viability declines over years without replanting"
     }
   ],
   "bottleneck_materials": [

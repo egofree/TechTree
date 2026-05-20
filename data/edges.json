@@ -1257,6 +1257,51 @@
       "from": "foundations.food-agriculture",
       "to": "plants.edible-plants",
       "type": "material"
+    },
+    {
+      "from": "knowledge.writing",
+      "to": "chemistry",
+      "type": "tool"
+    },
+    {
+      "from": "knowledge.writing",
+      "to": "health.sanitation",
+      "type": "tool"
+    },
+    {
+      "from": "transport",
+      "to": "mining.extraction",
+      "type": "tool"
+    },
+    {
+      "from": "transport",
+      "to": "energy.fuels",
+      "type": "tool"
+    },
+    {
+      "from": "plants.edible-plants",
+      "to": "health",
+      "type": "material"
+    },
+    {
+      "from": "plants.medicinal-plants",
+      "to": "health.pharmacology",
+      "type": "material"
+    },
+    {
+      "from": "plants.fiber-plants",
+      "to": "textiles.spinning",
+      "type": "material"
+    },
+    {
+      "from": "plants.dye-plants",
+      "to": "textiles.dyeing",
+      "type": "material"
+    },
+    {
+      "from": "plants",
+      "to": "energy.fuels",
+      "type": "material"
     }
   ]
 }

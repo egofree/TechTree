@@ -84,7 +84,7 @@ These domains and capabilities can begin early, independent of the main critical
 
 Structured data files backing this tree:
 
-- [nodes.json](../data/nodes.json) — complete node definitions (20 domains, 75 capabilities, 7 processes)
+- [nodes.json](../data/nodes.json) — complete node definitions (21 domains, 75 capabilities, 7 processes)
 - [edges.json](../data/edges.json) — dependency graph (directed, acyclic)
 - [checklist.yaml](../data/checklist.yaml) — milestone checklist with progression tracking
 - [resources.json](../data/resources.json) — raw material catalog with criticality ratings

@@ -12,3 +12,7 @@ __pycache__/
 *.py[cod]
 .env
 node_modules/
+
+# Transient artifacts from rollback/testing
+data/.backups/
+*.bak

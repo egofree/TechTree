@@ -71,7 +71,7 @@ This combines the core path with the most helpful parallel capabilities into tie
 - [ ] Wafer packaging, wire bonding, encapsulation (`chemistry.packaging-testing`)
 - [ ] Wafer probing and parametric testing (`chemistry.packaging-testing`)
 - [ ] Early computers/controllers operational from own ICs (`computing.electronic`)
-- [ ] Cleanrooms at laminar flow level with UPW (`photolithography.cleanrooms`)
+- [ ] Cleanrooms at laminar flow level with ultrapure water (UPW) (`photolithography.cleanrooms`)
 - [ ] VLSI scaling in progress — smaller features, more layers (`vlsi-scaling.continuous-scaling`)
 - [ ] Advanced lithography scaling — DUV development (`vlsi-scaling.advanced-lithography`)
 - [ ] High-end solar cells (PERC-like) in production (`vlsi-scaling.advanced-processes`)

@@ -492,7 +492,7 @@ The existing top-level boolean fields (`critical`, `early_win`, `pinnacle`) and 
 
 ### 8.2 Migration
 
-Every existing edge with `type: "required"` must be reclassified as either `"material"` or `"tool"` using the rules in §4. There is no `"required"` value in the new schema. This is a breaking change — all consumers of `edges.json` must be updated.
+Every existing edge with `type: "required"` must be reclassified as either `"material"` or `"tool"` using the rules in §5. There is no `"required"` value in the new schema. This is a breaking change — all consumers of `edges.json` must be updated.
 
 ### 8.3 `from` / `to` Semantics
 

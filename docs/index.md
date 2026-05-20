@@ -45,18 +45,18 @@ Several capabilities in other domains are also critical because their absence bl
 | [Mining](mining/) | 3 | Yes | copper ore, iron ore, coal, quartz, sulfur |
 | [Metals](metals/) | 2 | | copper, iron, steel |
 | [Machine Tools](machine-tools/) | 6 | Yes | lathe, mill, grinder, bearings |
-| [Energy](energy/) | 8 | | steam engines, electricity, arc furnaces, charcoal, coke |
-| [Ceramics](ceramics/) | 3 | | refractories, kilns, lime, pottery, crucibles |
-| [Chemistry](chemistry/) | 11 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
+| [Energy](energy/) | 9 | | steam engines, electricity, arc furnaces, charcoal, coke |
+| [Ceramics](ceramics/) | 4 | | refractories, kilns, lime, pottery, crucibles |
+| [Chemistry](chemistry/) | 12 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
 | [Glass](glass/) | 2 | | basic glass, borosilicate glass, fused silica, quartz crucibles |
 | [Gas Handling](gas-handling/) | 2 | | vacuum pumps, gas compression, purification |
 | [Measurement](measurement/) | 2 | | precision instruments, gauge blocks, calibration |
 | [Silicon](silicon/) | 4 | | MG-Si, wafers, solar cells, transistors |
 | [Photolithography](photolithography/) | 3 | | cleanrooms, lithography, ICs |
 | [VLSI Scaling](vlsi-scaling/) | 4 | | GPUs, advanced solar, EDA tools |
-| [Knowledge](knowledge/) | 3 | Yes | writing, printing, education, libraries |
-| [Textiles](textiles/) | 4 | Yes | cordage, cloth, rope, drive belts |
-| [Transport](transport/) | 4 | | roads, railways, aviation, logistics |
+| [Knowledge](knowledge/) | 4 | Yes | writing, printing, education, libraries |
+| [Textiles](textiles/) | 5 | Yes | cordage, cloth, rope, drive belts |
+| [Transport](transport/) | 5 | | roads, railways, aviation, logistics |
 | [Computing](computing/) | 3 | | slide rules, calculators, automation |
 | [Health](health/) | 3 | | clean water, sanitation, pharmaceuticals |
 | [Polymers](polymers/) | 4 | | rubber, FR-4, PTFE, fiberglass |
@@ -84,7 +84,7 @@ These domains and capabilities can begin early, independent of the main critical
 
 Structured data files backing this tree:
 
-- [nodes.json](../data/nodes.json) — complete node definitions (21 domains, 75 capabilities, 7 processes)
+- [nodes.json](../data/nodes.json) — complete node definitions (21 domains, 86 capabilities, 32 processes)
 - [edges.json](../data/edges.json) — dependency graph (directed, acyclic)
 - [checklist.yaml](../data/checklist.yaml) — milestone checklist with progression tracking
 - [resources.json](../data/resources.json) — raw material catalog with criticality ratings

@@ -1,7 +1,6 @@
 # EDA, GPU Design & Advanced Packaging
 
 > **Node ID**: vlsi-scaling.eda-design
-
 > **Domain**: [VLSI Scaling & Advanced Semiconductor](./)
 > **Dependencies**: `computing`, `photolithography.fab-processes`
 > **Timeline**: Years 70-200+
@@ -97,7 +96,7 @@ Making the manufactured IC testable — ensuring defective chips can be identifi
 - **Automatic test pattern generation (ATPG)**: Algorithms generate the minimum set of test patterns to detect all manufacturing defects. Stuck-at fault model: each net is assumed to be stuck at 0 or stuck at 1. ATPG generates patterns that propagate each fault to an observable output. Transition fault model: tests for slow-to-rise and slow-to-fall defects (timing-related failures). Fault coverage target: >99% for stuck-at, >95% for transition.
 - **Boundary scan (JTAG)**: IEEE 1149.1 standard. Adds scan cells at every I/O pin for board-level interconnect testing. TAP (Test Access Port) controller with 4 mandatory pins (TCK, TMS, TDI, TDO). Used for in-system programming, debug, and board-level connectivity verification.
 - **Yield and test cost**: Test time directly impacts cost — every second of automatic test equipment (ATE) time costs money. At $0.01-0.10 per second of ATE time, a 10-second test adds $0.10-1.00 per chip. DFT engineering optimizes test coverage per second. Defective chips escaping test (test escape rate) must be <100 DPM (defective parts per million) for consumer electronics, <10 DPM for automotive.
-- ** IDDQ testing**: Measures quiescent power supply current (IDD when all gates are static — the Q in IDDQ). A defect-free CMOS IC draws only leakage current (nA-μA range) when static. A defective IC with a bridge fault or gate oxide short draws abnormally high current. IDDQ testing catches defects that functional tests miss — particularly effective for detecting subtle manufacturing defects that don't cause immediate functional failure but cause reliability problems later.
+- **IDDQ testing**: Measures quiescent power supply current (IDD when all gates are static — the Q in IDDQ). A defect-free CMOS IC draws only leakage current (nA-μA range) when static. A defective IC with a bridge fault or gate oxide short draws abnormally high current. IDDQ testing catches defects that functional tests miss — particularly effective for detecting subtle manufacturing defects that don't cause immediate functional failure but cause reliability problems later.
 - **Burn-in testing**: Accelerated life screening that operates chips at elevated temperature (125-150°C) and elevated voltage (1.2-1.5× nominal) for 4-48 hours. Infant mortality defects (weak gate oxides, marginal via contacts, contamination) fail during burn-in rather than in the field. Burn-in is expensive (dedicated ovens, powered boards, handling equipment) but necessary for high-reliability applications. Monitoring burn-in current per chip detects failing devices without running functional tests.
 
 ### High-End Solar Cells

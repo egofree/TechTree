@@ -49,7 +49,7 @@
 - **Principle**: Finite differences — any polynomial of degree n can be computed by repeated addition using n+1 columns of differences. Example: for quadratic ax² + bx + c, maintain three columns: value, first difference, second difference. Add second difference to first difference, then first difference to value. Repeat. Each step = next table entry.
 - **Construction**: Columns of toothed wheels (31 digits per column, 7 columns for 6th-order polynomial). Each column adds to next via intricate carry mechanism. Crank handle drives all additions simultaneously. Automatic printing of results (inked type wheels impress onto paper, also into plaster or soft metal for stereotype printing plates).
 - **Capability**: Tabulate any polynomial to 31-digit precision. Compute tables of logarithms, trigonometric functions, actuarial tables, ballistic trajectories. Eliminate human calculation errors from published tables.
-- **Manufacturing challenge**: Requires thousands of parts with tolerances of ±0.025 mm. Precision casting, gear-cutting, milling, grinding. the Machine Tools stage are sufficient. Assembly and adjustment by skilled mechanic over weeks-months.
+- **Manufacturing challenge**: Requires thousands of parts with tolerances of ±0.025 mm. Precision casting, gear-cutting, milling, grinding. The Machine Tools stage is sufficient. Assembly and adjustment by skilled mechanic over weeks-months.
 
 **Babbage Analytical Engine** (conceptual, requires advanced Machine Tools):
 - **Store**: Columns of toothed wheels representing variable values (1000 columns × 50 digits each proposed). Memory for data and intermediate results — the conceptual ancestor of RAM.

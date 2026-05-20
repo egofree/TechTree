@@ -78,6 +78,7 @@ Semiconductor device fabrication uses some of the most dangerous chemicals in in
 - **NaOH / KOH (caustic etchants)**: 20-40% solutions at 80°C for saw-damage removal and texturing. Causes deep caustic burns on skin and permanent eye damage. Heat increases severity. PPE: chemical splash goggles (not just safety glasses), nitrile gloves, apron. Eye wash station within 10 seconds travel. If splashed in eyes, flush with water for 15+ minutes immediately.
 - **Belt furnace burn hazard**: Metal contacts are fired at 700-800°C on a moving belt. Exposed hot surfaces, infrared radiation. Thermal gloves and face shield for loading/unloading. Belt pinch points — keep hands clear of moving belt edges.
 - **Vacuum chamber implosion**: Evaporation and sputtering chambers are evacuated to 10⁻⁵-10⁻⁶ Torr. A flawed glass viewport or corroded chamber wall can implode violently. Inspect viewports for scratches or star cracks before each pump-down. Safety glasses at all times near evacuated chambers. Never exceed rated pressure differential.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [Silicon](./) • [All Domains](../)*

@@ -72,7 +72,7 @@ At 193 nm (ArF), dry lithography hits a numerical aperture ceiling of ~0.93 due 
 
 ### Resolution Enhancement Techniques (RET)
 
-Lithography at k₁ < 0.5 (well below the Rayleigh limit of k₁ = 0.25 for coherent illumination) requires aggressive optical tricks to print features that the raw lens cannot resolve.
+Lithography at k₁ < 0.5 (well below the coherent imaging limit of k₁ = 0.5, approaching the theoretical minimum of k₁ = 0.25) requires aggressive optical tricks to print features that the raw lens cannot resolve.
 
 **Optical Proximity Correction (OPC)**: Pre-distorts mask shapes to compensate for diffraction-induced pattern distortions. Lines that are too close together print wider than isolated lines (proximity effect) — OPC adds serifs, hammerheads, and sub-resolution assist features to equalize printed linewidths across all pattern densities. Modern OPC is computed by full-chip simulation on large compute clusters.
 
@@ -96,6 +96,7 @@ Lithography is typically the throughput bottleneck and cost driver of a semicond
 | EUV scanner | 300 mm | 100-180 wafers/hr | $200-350M |
 
 **Cost impact**: Lithography capital accounts for 30-50% of total fab equipment cost. At nodes below 45 nm using 193 nm ArF immersion, features smaller than the ~38 nm half-pitch limit require double, triple, or quadruple patterning — each additional pattern needs a full litho-etch cycle, multiplying process steps, mask count, and defect risk. EUV's value proposition is collapsing multiple patterning passes back to a single exposure, but at $200-350M per scanner, only the highest-volume fabs can justify it.
+
 ### Hazards & Safety
 
 - **F₂ gas (157 nm lithography)**: Molecular fluorine is extremely reactive — etches glass, ignites organic materials on contact, and causes severe chemical burns to lungs and skin. Storage and delivery require passivated nickel or Monel plumbing; no glass or elastomer components in the gas path. F₂ scrubbers (soda-lime or activated alumina) mandatory on all exhaust. Never deployed in volume production partly due to these handling difficulties.

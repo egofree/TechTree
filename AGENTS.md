@@ -14,11 +14,11 @@ Unified hierarchical ontology for bootstrapping industrial civilization from sto
 tech-tree-bootstrap/
 ├── docs/
 │   ├── index.md            # Unified entry point
-│   ├── {domain}/           # 20 domain directories with capability .md files
+│   ├── {domain}/           # 21 domain directories with capability .md files
 │   └── supporting/         # Schema spec, dependencies, checklist, resources
 ├── diagrams/mermaid/
 │   ├── overview.mmd        # Master dependency graph
-│   └── {domain}.mmd        # 20 domain flowcharts (auto-generated)
+│   └── {domain}.mmd        # 21 domain flowcharts (auto-generated)
 ├── data/                   # nodes.json, edges.json, checklist.yaml, resources.json
 ├── scripts/                # Shell + Python toolchain (see COMMANDS)
 └── site/                   # Generated static site (HTML, tracked in git)
@@ -28,11 +28,11 @@ tech-tree-bootstrap/
 
 | Task | Location | Notes |
 |------|----------|-------|
-| Domain content | `docs/{domain}/` | 20 domains, each with capability .md files |
+| Domain content | `docs/{domain}/` | 21 domains (incl. plants), each with capability .md files |
 | Mermaid diagrams | `diagrams/mermaid/` | Auto-generated from data, DO NOT hand-edit |
-| Structured data | `data/` | nodes.json (104 nodes), edges.json (191 edges), checklist.yaml, resources.json |
+| Structured data | `data/` | nodes.json (139 nodes), edges.json (255 edges), checklist.yaml, resources.json, plants.json |
 | Diagram generator | `scripts/generate-diagrams.sh` | Auto-generates all .mmd from data |
-| Data validation | `scripts/validate.sh` | 15 checks: DAG, cross-refs, tags, edge types, hierarchy |
+| Data validation | `scripts/validate.sh` | 16 checks: DAG, cross-refs, tags, edge types, hierarchy, taxonomy |
 | Site builder | `scripts/build-site.sh` | Generates `site/` from docs + data |
 | Site validation | `scripts/validate-site.sh` | Checks links, offline-first compliance |
 | Schema reference | `docs/supporting/schema-spec.md` | Normative spec for tags, edge types, SIK test |
@@ -70,7 +70,7 @@ tech-tree-bootstrap/
 # Auto-generate all Mermaid diagrams from data layer
 bash scripts/generate-diagrams.sh
 
-# Validate repo structure (data-driven, 15 checks)
+# Validate repo structure (data-driven, 16 checks)
 bash scripts/validate.sh
 
 # Build static site to site/
@@ -85,7 +85,8 @@ bash scripts/render-mermaid.sh svg
 
 ## NOTES
 
-- Current data: 104 nodes, 20 domains, 191 edges, 21 .mmd diagrams
+- Current data: 139 nodes, 21 domains, 255 edges, 22 .mmd diagrams
+- Plants domain added via config-driven Wikipedia crawler: 86 species catalog, 19 tech-tree nodes, 21 edges
 - All diagrams auto-generated from `data/nodes.json` + `data/edges.json`
 - `validate.sh` is data-driven. Reads nodes/edges to check cross-references and DAG integrity
 - Schema specification: `docs/supporting/schema-spec.md` defines tag taxonomy, edge type rules, SIK placement test

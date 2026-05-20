@@ -7,7 +7,7 @@
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/my-addition`)
 3. Make your changes
-4. Ensure Mermaid diagrams are valid (use [mermaid.live](https://mermaid.live))
+4. Run validation: `bash scripts/validate.sh` (must pass all 16 checks)
 5. Submit a pull request
 
 ### What We're Looking For
@@ -20,15 +20,16 @@
 
 ### File Conventions
 
-- Phase docs go in `docs/core-tech-tree/phase-XX-name.md`
-- Side quest docs go in `docs/side-quests/sq-XX-name.md`
-- Mermaid source files use `.mmd` extension in `diagrams/mermaid/`
-- Structured data goes in `data/` as JSON or YAML
-- Keep diagrams and text in sync — update both when changing content
+- Domain content lives in `docs/{domain}/` (one directory per domain, lowercase, hyphenated)
+- Each domain has an `index.md` and individual capability `.md` files
+- Structured data goes in `data/` as JSON (`nodes.json`, `edges.json`) or YAML (`checklist.yaml`)
+- Mermaid diagrams in `diagrams/mermaid/` are auto-generated. Never edit them by hand.
+- After changing data files, regenerate diagrams: `bash scripts/generate-diagrams.sh`
+- Keep diagrams and text in sync. Update both data and prose when changing content
 
 ### Style
 
-- Use clear, direct prose — avoid jargon where possible
+- Use clear, direct prose, avoiding jargon where possible where possible
 - Include dependency chains and prerequisite references
 - Note practical bottlenecks and safety concerns
 - Use relative links between documents

@@ -1,17 +1,17 @@
 # From Stone to Silicon: Civilization Bootstrap Tech Tree
 
-A structured, visual guide to bootstrapping modern industrial civilization — starting from stone-age materials and reaching high-end semiconductors (GPUs) and solar cells.
+A structured, visual guide to bootstrapping modern industrial civilization, starting from stone-age materials and reaching high-end semiconductors (GPUs) and solar cells.
 
 This project documents the complete dependency chain from fire and stone tools through metallurgy, machine tools, chemistry, and silicon fabrication to advanced integrated circuits. It includes parallel "side quest" tracks for the supporting infrastructure that makes long-term technological development sustainable across generations.
 
 ## Quick Navigation
 
 - [Overview & Introduction](docs/index.md)
-- **Domains** (20):
+- **Domains** (21):
   - [Foundations](docs/foundations/) · [Metals](docs/metals/) · [Machine Tools](docs/machine-tools/) · [Energy](docs/energy/)
   - [Chemistry](docs/chemistry/) · [Silicon](docs/silicon/) · [Photolithography](docs/photolithography/) · [VLSI Scaling](docs/vlsi-scaling/)
   - [Ceramics](docs/ceramics/) · [Glass](docs/glass/) · [Optics](docs/optics/) · [Gas Handling](docs/gas-handling/) · [Measurement](docs/measurement/)
-  - [Mining](docs/mining/) · [Polymers](docs/polymers/) · [Textiles](docs/textiles/)
+  - [Mining](docs/mining/) · [Polymers](docs/polymers/) · [Textiles](docs/textiles/) · [Plants](docs/plants/)
   - [Knowledge](docs/knowledge/) · [Transport](docs/transport/) · [Health](docs/health/)
   - [Computing](docs/computing/)
 - [Minimum Viable Civilization Checklist](docs/supporting/minimum-viable-checklist.md)
@@ -40,7 +40,7 @@ Basic solar cells are achievable within decades of establishing solid machine to
 
 ## License
 
-[CC0 1.0 Universal](LICENSE) — Public Domain dedication.
+[CC0 1.0 Universal](LICENSE), a Public Domain dedication.
 
 ## Contributing
 

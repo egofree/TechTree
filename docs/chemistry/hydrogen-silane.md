@@ -118,7 +118,6 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 - **Purity grades**: Semiconductor-grade H₂ requires >99.9999% (6N) purity. Silane for CVD requires >99.9% (3N) minimum, preferably >99.99% (4N). Each "N" represents an order of magnitude reduction in total impurities.
 - **Mass spectrometry**: For the most critical purity verification (especially SiH₄), quadrupole mass spectrometry detects impurities at ppb (parts per billion) levels. Can distinguish SiH₄ (mass 32) from O₂ (also mass 32) by fragmentation pattern. Required for semiconductor-grade qualification of silane batches.
 
-
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*

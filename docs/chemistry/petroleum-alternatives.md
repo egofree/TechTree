@@ -85,7 +85,7 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 - **Organism**: Clostridium acetobutylicum (anaerobic bacterium). Can be isolated from soil or preserved culture.
 - **Process**: Ferment starch (corn, potato, or grain mash) at 35-37°C for 48-72 hours. Products: acetone (~30%), n-butanol (~60%), ethanol (~10%) by volume, plus CO₂ and H₂ gases.
 - **Distillation**: Separate by fractional distillation. Acetone bp 56°C, ethanol bp 78°C, n-butanol bp 118°C.
-- **Applications**: Acetone — solvent for resins, fats, plastics; key ingredient in nitrocellulose dope (Aircraft aircraft). n-Butanol — solvent, feedstock for butyl rubber and esters.
+- **Applications**: Acetone — solvent for resins, fats, plastics; key ingredient in nitrocellulose dope (aircraft fabric). n-Butanol — solvent, feedstock for butyl rubber and esters.
 
 **Acetic acid production** (CH₃COOH):
 - **Vinegar method**: Expose ethanol solution to air with Acetobacter bacteria (present on fruit surfaces). Aerobic fermentation at 25-30°C for days-weeks. Produces 5-12% acetic acid. Slow but simple.

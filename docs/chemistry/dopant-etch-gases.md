@@ -55,7 +55,7 @@
 - **Hydrofluoric acid (HF)**: Dissolves bone. Lethal at low exposure. ANTIDOTE: Calcium gluconate gel — must be on hand before ANY HF handling.
 - **Phosgene (COCl₂)**: WWI weapon. Lethal at 3 ppm, delayed onset. Sealed systems only.
 - **Silane (SiH₄)**: Pyrophoric, ignites in air. Cannot extinguish with water/CO₂.
-- **Arsine (AsH₃)**: Lethal at 50 ppb. Continuous monitoring required.
+- **Arsine (AsH₃)**: TLV 50 ppb; lethal at low ppm concentrations. Continuous monitoring required.
 
 
 ---

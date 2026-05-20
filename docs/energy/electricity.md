@@ -117,7 +117,7 @@
 
 - Max current assumes 3-5 A/mm² for enclosed wiring (derate for bundling or high ambient temperature). Open air or short runs can carry more.
 - Voltage drop: ΔV = I × R = I × (ρ × L / A), where ρ = 0.0175 Ω·mm²/m for copper, L = length (m), A = cross-section (mm²). Keep voltage drop under 3-5% for efficient operation.
-- Example: 10 A load, 100 m run, 110V supply, max 5% drop (5.5V): Wire resistance = 5.5V / 10A = 0.55Ω. R per conductor = 0.275Ω for 100m = 2.75 Ω/km. From table: ~2.0 mm diameter wire (1.8 mm² cross-section, 12 Ω/km × 0.1 km = 1.2 Ω per conductor... need 2 conductors → 2.4 Ω total, voltage drop = 24V. Too much. Need 6 mm wire: 0.77 Ω/km × 0.2 km = 0.154 Ω per conductor → 0.31 Ω total → 3.1V drop = 2.8%. OK.)
+ - Example: 10 A load, 100 m run, 110V supply, max 5% drop (5.5V): Wire resistance = 5.5V / 10A = 0.55Ω. R per conductor = 0.275Ω for 100m = 2.75 Ω/km. From table: ~2.0 mm diameter wire (1.8 mm² cross-section, 12 Ω/km × 0.1 km = 1.2 Ω per conductor... need 2 conductors → 2.4 Ω total, voltage drop = 24V. Too much. Need 6 mm wire: 0.77 Ω/km × 0.1 km = 0.077 Ω per conductor → 0.154 Ω total → 1.54V drop = 1.4%. OK.)
 
 **Motor and generator sizing**:
 - **Motor power**: Mechanical power P = T × ω (torque × angular velocity). At 1500 RPM (157 rad/s), 1 Nm torque = 157W. A 1 kW motor at 1500 RPM delivers ~6.4 Nm.
@@ -138,7 +138,7 @@
 - **Lodestone** (naturally magnetized magnetite) for early compasses and basic magnetic experiments
 - **Magnetized iron/steel bars**: Stroke with lodestone or place in Earth's magnetic field yields magnets for early generator field poles and galvanometers. For stronger magnets: place steel bar inside coil, pass DC current (electromagnet method) — steel retains magnetism after current removed.
 - **Keeper**: Store magnets with soft iron bar across poles (keeper) to prevent demagnetization over time.
-- **Later materials** (Alnico, ferrite) arrive with the Chemistry stage chemistry and alloy development
+ - **Later materials** (Alnico, ferrite) arrive with Chemistry stage alloy development
 
 ### Elastomer Processing
 
@@ -164,7 +164,8 @@
 - **Procedure**: Clamp workpiece to metal table (ground/return connection). Insert electrode in holder (insulated handle). Strike arc by scraping electrode across work (like a match) then lifting ~2-3 mm. Maintain arc length ~equal to electrode diameter. Move steadily along joint at ~2-5 mm/second. Electrode melts and deposits filler metal. Slag forms on top of weld — chip off with hammer after cooling. Multi-pass for thicker joints.
 - **Joint preparation**: Bevel edges of thick plates (>6 mm) to 30-60° with grinder or torch, leaving 1-3 mm root gap. Clean to bare metal (no rust, oil, paint — all cause defects).
 - **Safety**: UV radiation from arc causes "welder's flash" (sunburn of cornea — extremely painful, temporary blindness for 24-48 hours). ALWAYS use welding helmet with proper shade lens (#10-14 shade). Leather gloves, long sleeves (UV burns exposed skin). Sparks and spatter — fire hazard, clear combustibles 10+ m away. Ventilation — welding fumes contain metal oxides, especially hazardous with galvanized steel (zinc fume fever). NEVER weld in confined spaces without forced ventilation.
-- **Applications**: Structural steel construction, pressure vessels, shipbuilding, pipe welding, machinery repair. Stronger and faster than oxy-acetylene for steel fabrication.
+ - **Applications**: Structural steel construction, pressure vessels, shipbuilding, pipe welding, machinery repair. Stronger and faster than oxy-acetylene for steel fabrication.
+
 ### Safety & Hazards
 
 - **Electrocution**: Electrical current through the body causes death at surprisingly low levels — 100 mA across the chest can cause ventricular fibrillation. Even "low" voltages (50V+) can be lethal under wet conditions. ALWAYS de-energize circuits before working on them (lock-out/tag-out). Use insulated tools. One-hand rule when working near live circuits (keep one hand in pocket — prevents current across chest).

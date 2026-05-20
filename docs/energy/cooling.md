@@ -116,6 +116,8 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 - Dossat, R.J., *Principles of Refrigeration*, 5th ed.
 - ASHRAE Handbook — Fundamentals (refrigerant properties, load calculations)
 - Stoecker, W.F., *Industrial Refrigeration Handbook* (ammonia systems, ice plants)
-- Hodge, B.K., *Analysis and Design of Energy Systems* (absorption cycle thermodynamics)
+ - Hodge, B.K., *Analysis and Design of Energy Systems* (absorption cycle thermodynamics)
+
 ---
+
 *Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*

@@ -120,7 +120,7 @@ Where:
 - **Water turbines for generating mode**: [water-turbines.md](water-turbines.md)
 - **Energy storage overview**: [storage.md](storage.md)
 - **Grid infrastructure**: [electricity.md](electricity.md)
-- **Dam and civil engineering foundations**: [foundations.md](../foundations/)
+ - **Dam and civil engineering foundations**: [Foundations](../foundations/)
 
 ---
 

@@ -69,9 +69,7 @@
 - **Grain dust explosions**: Suspended grain dust explodes at 50-100 g/m³. Ventilation, dust collection, no ignition sources, brass tools, ground equipment.
 - **Machinery entanglement**: Threshers, mills — rotating shafts catch clothing. Guard moving parts. Tie back hair. No loose sleeves. Emergency stop within reach.
 - **Animal handling**: Large animals can crush or trample. Use halters and restraints. Approach from side.
-- **Silo hazards**: Crusted grain hides voids — walking on surface leads to engulfment and suffocation. Never enter alone. Phosphine fumigants are lethal — ventilate thoroughly before entry.
----
-
+ - **Silo hazards**: Crusted grain hides voids — walking on surface leads to engulfment and suffocation. Never enter alone. Phosphine fumigants are lethal — ventilate thoroughly before entry.
 
 ---
 

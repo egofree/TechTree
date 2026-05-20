@@ -43,7 +43,10 @@
 **Magnetic surveying**:
 - **Dip needle (dipping compass)**: Freely pivoting magnetic needle that measures inclination (vertical angle) of Earth's magnetic field. Anomalies (deviations from expected inclination) indicate subsurface magnetic bodies — magnetite ore bodies, buried iron objects. Survey on a grid (10-50 m spacing). Contour the anomaly values. Positive anomaly = magnetic mass below.
 - **Fluxgate magnetometer**: Electronic sensor measuring magnetic field intensity directly. Resolution: 1 nT (nanotesla). Faster and more precise than dip needle. Portable, battery-operated. Map field variations over survey area.
-- **Anomaly interpretation**: Sharp, narrow anomaly = shallow source. Broad, low anomaly = deep source. Elongated anomaly = linear ore body (vein). Circular anomaly = pipe-like body. Estimate depth = half-width of anomaly profile. Magnetic surveys are the most cost-effective method for locating iron ore deposits.
+ - **Anomaly interpretation**: Sharp, narrow anomaly = shallow source. Broad, low anomaly = deep source. Elongated anomaly = linear ore body (vein). Circular anomaly = pipe-like body. Estimate depth = half-width of anomaly profile. Magnetic surveys are the most cost-effective method for locating iron ore deposits.
+
+---
+
 ### Safety & Hazards
 
 - **Terrain hazards**: Prospecting involves traversing rugged, unstable terrain. Rockfalls, loose scree, steep slopes. Sturdy boots, careful footing. Never prospect alone in remote areas.

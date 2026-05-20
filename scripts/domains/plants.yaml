@@ -1,0 +1,100 @@
+domain: plants
+name: "Plants & Botany"
+organizing_axis: functional
+
+sources:
+  - name: wikipedia
+    type: wikipedia_api
+    seeds:
+      - "https://en.wikipedia.org/wiki/Plant"
+      - "https://en.wikipedia.org/wiki/Medicinal_plants"
+      - "https://en.wikipedia.org/wiki/List_of_edible_seeds"
+      - "https://en.wikipedia.org/wiki/Cereal"
+      - "https://en.wikipedia.org/wiki/Fiber_crop"
+      - "https://en.wikipedia.org/wiki/Timber"
+      - "https://en.wikipedia.org/wiki/Herbalism"
+    follow_categories:
+      - "Category:Edible plants"
+      - "Category:Medicinal plants"
+      - "Category:Fiber plants"
+      - "Category:Timber trees"
+      - "Category:Cereals"
+      - "Category:Leaf vegetables"
+      - "Category:Root vegetables"
+      - "Category:Fruit"
+      - "Category:Dye plants"
+    max_depth: 2
+
+  - name: wikidata
+    type: sparql
+    query_template: "plants_sparql"
+    filters:
+      - property: "P31"
+        value: "Q16521"
+      - property: "P2293"
+        optional: true
+
+  - name: edibleplantdb
+    type: external_api
+    url: "https://edibleplantdb.org/"
+    fallback: wikipedia
+    status: unavailable
+    status_detail: "HTTP 403 — site behind Cloudflare challenge, not programmatically accessible"
+
+extraction:
+  article_patterns:
+    - template: "Taxobox"
+      fields: [scientific_name, family, order, native_region]
+    - template: "Infobox plant"
+      fields: [scientific_name, family, common_names, uses]
+    - template: "Infobox cultivated plant"
+      fields: [scientific_name, family, origin, uses, harvest_time]
+    - fallback: "section_text"
+      sections: ["Uses", "Cultivation", "Description", "Distribution"]
+
+  use_categories:
+    - id: edible
+      keywords: ["edible", "food", "fruit", "vegetable", "grain", "cereal", "nut"]
+      tags: {material: biomass, capability: health}
+      taxonomy_prefix: "biomass.plant.edible"
+
+    - id: medicinal
+      keywords: ["medicinal", "herbal", "pharmaceutical", "remedy", "traditional medicine"]
+      tags: {material: biomass, capability: health}
+      taxonomy_prefix: "biomass.plant.medicinal"
+
+    - id: structural
+      keywords: ["timber", "wood", "construction", "building", "structural", "lumber"]
+      tags: {material: biomass, capability: construction}
+      taxonomy_prefix: "biomass.plant.structural"
+
+    - id: fiber
+      keywords: ["fiber", "fibre", "cordage", "rope", "textile", "weaving"]
+      tags: {material: biomass, capability: construction}
+      taxonomy_prefix: "biomass.plant.fiber"
+
+    - id: dye
+      keywords: ["dye", "pigment", "colorant", "stain"]
+      tags: {material: biomass, capability: construction}
+      taxonomy_prefix: "biomass.plant.dye"
+
+output:
+  catalog: "data/plants.json"
+  nodes_patch: "data/patches/plants-nodes-patch.json"
+  edges_patch: "data/patches/plants-edges-patch.json"
+
+node_mapping:
+  group_by: use_category
+  capability_template: "{category}-plants"
+  process_template: "{category}-plants.{species-kebab}"
+
+defaults:
+  era: stone-age
+  critical: false
+  early_win: true
+  early_win_note: "Plants provide food, medicine, and materials from Year 0"
+  pinnacle: false
+
+limits:
+  max_species: 100
+  rate_limit_rps: 1

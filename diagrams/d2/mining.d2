@@ -114,6 +114,9 @@ chemistry_cement: "Cement & Concrete" {
 chemistry_explosives: Explosives and Propellants {
   shape: rectangle
 }
+chemistry_refractories: Refractory Materials {
+  shape: rectangle
+}
 energy_fuels: Fuel Production {
   shape: rectangle
 }
@@ -173,6 +176,8 @@ ceramics_lime -> mining: { class: material-edge }
 transport_roads -> mining: { class: material-edge }
 ceramics_advanced-ceramics -> mining: { class: material-edge }
 mining_extraction_black-powder -> chemistry_explosives: { class: material-edge }
+transport -> mining_extraction: { class: tool-edge }
+chemistry_refractories -> mining: { class: material-edge }
 
 # ==================== STYLING ====================
 mining.class: domain
@@ -186,6 +191,7 @@ chemistry_acids.class: external
 chemistry_alkalis.class: external
 chemistry_cement.class: external
 chemistry_explosives.class: external
+chemistry_refractories.class: external
 energy_fuels.class: external
 energy_fuels_coal.class: external
 energy_fuels_coke.class: external

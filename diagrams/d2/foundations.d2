@@ -140,6 +140,12 @@ mining: "Mining Engineering & Extractive Metallurgy" {
 mining_extraction: Mining Extraction {
   shape: rectangle
 }
+plants: "Plants & Botanical Resources" {
+  shape: rectangle
+}
+plants_edible-plants: Edible Plants {
+  shape: rectangle
+}
 polymers: "Polymers & Composites" {
   shape: rectangle
 }
@@ -180,6 +186,8 @@ textiles_fibers -> foundations_tools-basic: { class: tool-edge }
 knowledge_writing -> foundations_tools-basic: { class: tool-edge }
 transport_roads -> foundations_tools-basic: { class: tool-edge }
 knowledge_writing -> foundations_food-agriculture: { class: tool-edge }
+plants -> foundations_fire: { class: tool-edge }
+foundations_food-agriculture -> plants_edible-plants: { class: material-edge }
 
 # ==================== STYLING ====================
 foundations.class: domain
@@ -201,6 +209,8 @@ metals.class: external
 metals_copper-bronze.class: external
 mining.class: external
 mining_extraction.class: external
+plants.class: external
+plants_edible-plants.class: external
 polymers.class: external
 polymers_rubber_natural.class: external
 textiles.class: external

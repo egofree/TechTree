@@ -16,6 +16,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry("Chemistry")
+    chemistry_pulp-chemicals("Pulp & Paper Chemicals")
     foundations("Foundations")
     foundations_food-agriculture("Agriculture & Food Production")
     foundations_tools-basic("Stone & Wood Tools")
@@ -40,6 +41,7 @@ graph TD
     knowledge_printing -.-> machine-tools_machining
     knowledge_writing -.-> chemistry
     knowledge_writing -.-> health_sanitation
+    knowledge --> chemistry_pulp-chemicals
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -61,6 +63,7 @@ graph TD
     class knowledge_libraries capability
     class knowledge_printing earlyWin
     class chemistry external
+    class chemistry_pulp-chemicals external
     class foundations external
     class foundations_food-agriculture external
     class foundations_tools-basic external

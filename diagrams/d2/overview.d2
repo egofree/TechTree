@@ -105,6 +105,7 @@ glass: Glass
 optics: Optics
 gas-handling: Gas Handling
 measurement: "Measurement & Instrumentation"
+plants: "Plants & Botanical Resources"
 
 # ==================== DOMAIN-LEVEL EDGES ====================
 metals -> foundations: { class: tool-edge }
@@ -169,10 +170,13 @@ energy -> machine-tools: { class: tool-edge }
 energy -> mining: { class: tool-edge }
 energy -> polymers: { class: tool-edge }
 energy -> textiles: { class: tool-edge }
+foundations -> plants: { class: tool-edge }
 glass -> mining: { class: tool-edge }
 health -> ceramics: { class: tool-edge }
 health -> knowledge: { class: tool-edge }
 health -> polymers: { class: tool-edge }
+knowledge -> chemistry: { class: tool-edge }
+knowledge -> health: { class: tool-edge }
 knowledge -> machine-tools: { class: tool-edge }
 knowledge -> metals: { class: tool-edge }
 knowledge -> textiles: { class: tool-edge }
@@ -183,6 +187,7 @@ measurement -> energy: { class: tool-edge }
 measurement -> foundations: { class: tool-edge }
 measurement -> metals: { class: tool-edge }
 metals -> ceramics: { class: tool-edge }
+metals -> chemistry: { class: tool-edge }
 metals -> energy: { class: tool-edge }
 mining -> chemistry: { class: tool-edge }
 mining -> energy: { class: tool-edge }
@@ -190,12 +195,17 @@ mining -> knowledge: { class: tool-edge }
 optics -> gas-handling: { class: tool-edge }
 photolithography -> ceramics: { class: tool-edge }
 photolithography -> polymers: { class: tool-edge }
+plants -> energy: { class: tool-edge }
+plants -> foundations: { class: tool-edge }
+plants -> health: { class: tool-edge }
+plants -> textiles: { class: tool-edge }
 polymers -> chemistry: { class: tool-edge }
 polymers -> machine-tools: { class: tool-edge }
 silicon -> ceramics: { class: tool-edge }
 silicon -> measurement: { class: tool-edge }
 silicon -> mining: { class: tool-edge }
 textiles -> chemistry: { class: tool-edge }
+textiles -> plants: { class: tool-edge }
 transport -> chemistry: { class: tool-edge }
 transport -> foundations: { class: tool-edge }
 transport -> textiles: { class: tool-edge }
@@ -223,6 +233,7 @@ glass.class: domain
 optics.class: domain
 gas-handling.class: domain
 measurement.class: domain
+plants.class: earlyWin
 
 # ==================== LEGEND ====================
 d2-legend: "Legend and Key Insights" {

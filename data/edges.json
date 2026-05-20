@@ -1302,6 +1302,126 @@
       "from": "plants",
       "to": "energy.fuels",
       "type": "material"
+    },
+    {
+      "from": "chemistry.ammonia",
+      "to": "chemistry.air-separation",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.ammonia",
+      "to": "chemistry.electrolysis",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.ammonia",
+      "to": "energy",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.ammonia",
+      "to": "metals",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.acids",
+      "to": "chemistry.ammonia",
+      "type": "material"
+    },
+    {
+      "from": "health",
+      "to": "chemistry.ammonia",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.soap",
+      "to": "chemistry.alkalis",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.soap",
+      "to": "chemistry.petroleum-alternatives",
+      "type": "material"
+    },
+    {
+      "from": "health",
+      "to": "chemistry.soap",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.solvents",
+      "to": "chemistry.petroleum-alternatives",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.solvents",
+      "to": "chemistry.distillation",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.solvents",
+      "to": "chemistry.petroleum-alternatives.fermentation",
+      "type": "material"
+    },
+    {
+      "from": "health",
+      "to": "chemistry.solvents",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.refractories",
+      "to": "mining",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.refractories",
+      "to": "ceramics.kilns",
+      "type": "tool"
+    },
+    {
+      "from": "metals",
+      "to": "chemistry.refractories",
+      "type": "material"
+    },
+    {
+      "from": "glass",
+      "to": "chemistry.refractories",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.coatings",
+      "to": "chemistry.petroleum-alternatives",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.coatings",
+      "to": "chemistry.acids",
+      "type": "material"
+    },
+    {
+      "from": "transport",
+      "to": "chemistry.coatings",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.pulp-chemicals",
+      "to": "chemistry.alkalis",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.pulp-chemicals",
+      "to": "chemistry.electrolysis",
+      "type": "material"
+    },
+    {
+      "from": "knowledge",
+      "to": "chemistry.pulp-chemicals",
+      "type": "material"
+    },
+    {
+      "from": "textiles",
+      "to": "chemistry.pulp-chemicals",
+      "type": "material"
     }
   ]
 }

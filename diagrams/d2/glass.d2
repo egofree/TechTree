@@ -101,6 +101,9 @@ chemistry: Chemistry {
 chemistry_acids: Mineral Acid Production {
   shape: rectangle
 }
+chemistry_refractories: Refractory Materials {
+  shape: rectangle
+}
 energy: Energy {
   shape: rectangle
 }
@@ -131,6 +134,7 @@ glass -> chemistry: { class: material-edge }
 silicon -> glass: { class: tool-edge }
 silicon_crystal-growth -> glass_advanced: { class: material-edge }
 glass_advanced_glassblowing -> energy_fuels: { class: tool-edge }
+glass -> chemistry_refractories: { class: material-edge }
 
 # ==================== STYLING ====================
 glass.class: domain
@@ -139,6 +143,7 @@ glass_advanced.class: capability
 glass_advanced_glassblowing.class: process
 chemistry.class: external
 chemistry_acids.class: external
+chemistry_refractories.class: external
 energy.class: external
 energy_fuels.class: external
 machine-tools.class: external

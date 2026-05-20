@@ -62,6 +62,62 @@
 
 **Storage**: Explosives magazine — dry, cool, well-ventilated, earth-bermed building away from other structures. Separate storage for detonators and main charges (minimum 15 m between magazines). Inventory log for every item in, out, and on hand. Lock and key controlled. Limited access. No smoking within 50 m of magazine.
 
+### TNT (Trinitrotoluene)
+
+**Chemistry**: Toluene nitrated in three stages with mixed acid (HNO₃ + H₂SO₄), progressively increasing acid strength and temperature. Toluene → mononitrotoluene (MNT, 30-40°C) → dinitrotoluene (DNT, 60-70°C) → trinitrotoluene (TNT, 80-110°C). Each nitration stage uses stronger acid and higher temperature. Overall: C₇H₈ + 3HNO₃ → C₇H₅N₃O₆ + 3H₂O.
+
+**Properties**: Yellow crystalline solid, mp 80°C. Stable under normal handling — can be melted and poured into shells (melt-cast filling). Insensitive to shock and friction (safe to handle, transport, and press into munitions). Detonation velocity: 6,900 m/s. Energy release: 4.6 MJ/kg. Burns without detonation if unconfined — can be extinguished with water.
+
+**Production**: Three-stage batch nitration in cast iron nitrators with acid-resistant brick lining. Each stage: add toluene/DNT to mixed acid, agitate 1-2 hours, separate organic layer, wash with water and sodium sulfite solution (removes isomers and colored impurities). Final product crystallized from wash. Yield: ~2 kg TNT per kg toluene (theoretical). Purity verified by mp test (pure TNT melts at 80.8°C, impurities lower melting point).
+
+**Applications**: Military shells, bombs, demolition charges. Industrial: mixed with ammonium nitrate as amatol (TNT shortage substitute). Melt-cast filling: heat TNT to 85-90°C, pour into shell casing, insert booster charge, cool slowly.
+
+### ANFO (Ammonium Nitrate / Fuel Oil)
+
+The most widely used industrial explosive worldwide — cheap, safe, effective for mining and quarrying.
+
+**Composition**: 94% ammonium nitrate (NH₄NO₃) + 6% fuel oil (diesel or No. 2 fuel oil). The AN provides oxygen (positive oxygen balance), the fuel oil provides carbon and hydrogen. Overall: 3NH₄NO₃ + CH₂ → 3N₂ + 7H₂O + CO₂ (simplified).
+
+**Manufacture**: Mix prilled (porous spherical pellets, 2-4 mm) ammonium nitrate with diesel fuel on-site. AN prills absorb the oil into their porous structure. Mix in a concrete mixer or purpose-built ANFO mixer. Use within 24 hours (oil separates over time). Alternatively, pre-packaged in polyethylene bags or bulk-loaded via pneumatic truck into boreholes.
+
+**Properties**: Detonation velocity: 2,500-4,000 m/s (density dependent). Very insensitive — requires a booster charge (dynamite or cast booster) to initiate. Cannot be detonated by blasting cap alone. Safe to transport (classified as oxidizer, not explosive, until mixed with fuel). Energy: 3.7 MJ/kg. Cost: 5-10× cheaper than dynamite per unit energy.
+
+**Safety concern — ammonium nitrate disasters**: Pure NH₄NO₃ can decompose explosively under confinement and intense heat. Texas City disaster (1947): 2,300 tonnes AN on ship caught fire → detonation killed 581 people. Beirut explosion (2020): 2,750 tonnes AN stored unsafely → 218 dead. AN must be stored away from heat, fuels, and confined spaces. Contamination with organics or metals increases sensitivity.
+
+### Detonation Physics
+
+**Detonation velocity**: Speed of the supersonic shockwave through the explosive. Higher velocity = more brisant (shattering) effect. Key comparison:
+
+| Explosive | Det. Velocity (m/s) | Density (g/cm³) | Energy (MJ/kg) |
+|-----------|---------------------|-----------------|----------------|
+| Black powder | 400 | 1.0-1.2 | 2.6 |
+| ANFO | 2,500-4,000 | 0.8-1.0 | 3.7 |
+| Dynamite (60%) | 4,500-5,500 | 1.3-1.5 | 4.0 |
+| TNT | 6,900 | 1.6 | 4.6 |
+| Nitroglycerin | 7,700 | 1.6 | 6.4 |
+| RDX | 8,750 | 1.8 | 5.6 |
+
+**Brisance vs heaving force**: Brisance is the shattering effect (ability to pulverize rock) — related to detonation velocity and pressure. Heaving force is the gas expansion effect (ability to move/throw material) — related to total gas volume produced. For hard rock: high brisance (TNT, RDX). For soft rock/coal: high heaving force (ANFO, black powder). Dynamite is a good compromise.
+
+**Critical diameter**: Minimum diameter of explosive charge that sustains stable detonation. Below this diameter, the shockwave loses energy to the charge surface faster than the chemical reaction generates it — detonation fails. ANFO: 50-100 mm (large boreholes). TNT: 5-10 mm. Lead azide: <1 mm (used in blasting caps).
+
+### Blasting Caps Evolution
+
+1. **Mercury fulminate caps** (1860s-1920s): Hg(ONC)₂ primary explosive pressed into copper or aluminum shell. Initiated by safety fuse. Unstable in hot climates (decomposes above 50°C). Mercury toxicity.
+2. **Lead azide caps** (1920s-present): Pb(N₃)₂ primary explosive. More stable than mercury fulminate. Higher initiating energy. Slightly hygroscopic. Sometimes combined with lead styphnate as "spotting charge" for more reliable ignition from flame. Standard blasting cap filling.
+3. **Electric caps** (1900s-present): Bridge wire heated by electric current ignites primary charge. Precise timing — delay elements (pyrotechnic delay compositions) provide 25 ms to 1000 ms delays for sequential blasting. Enables controlled blasts with dozens of holes detonated in precise sequence.
+4. **Non-electric (shock tube)** (1970s-present): Hollow plastic tube (3 mm OD) with thin coating of explosive dust (HMX + aluminum) on inner wall. Initiated by starter, propagates shock at ~2,000 m/s to detonator. Immune to radio frequency, static electricity, and stray currents. Safer than electric caps near power lines.
+
+### Applications by Sector
+
+| Sector | Primary Explosive | Typical Charge | Notes |
+|--------|-------------------|----------------|-------|
+| Mining (quarrying) | ANFO | 50-500 kg/hole | Large-diameter boreholes (100-300 mm), bench blasting |
+| Mining (underground) | ANFO or dynamite | 5-50 kg/hole | Smaller holes (50-100 mm), controlled fragmentation |
+| Construction (tunneling) | Dynamite + ANFO | 20-200 kg/round | Sequential delay blasting for smooth walls |
+| Construction (dams) | ANFO | 1-100 tonnes total | Mass blasts for foundation excavation |
+| Military | TNT, RDX compositions | Variable | Shell filling, demolition charges, shaped charges |
+
 ### Safety & Hazards
 
 - **Explosion**: Black powder deflagrates rapidly. Nitroglycerin, dynamite, and guncotton detonate (supersonic shockwave). Respect the destructive potential of every explosive. Treat all materials as if they could initiate accidentally.

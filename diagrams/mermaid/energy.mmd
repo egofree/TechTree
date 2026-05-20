@@ -31,6 +31,7 @@ graph TD
     ceramics_pottery_kiln-firing("Kiln Firing")
     chemistry("Chemistry")
     chemistry_air-separation("Air Separation & Bulk Gas Production")
+    chemistry_ammonia("Ammonia & Fertilizer Production")
     chemistry_electrolysis("Electrolysis")
     chemistry_explosives("Explosives and Propellants")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
@@ -123,6 +124,7 @@ graph TD
     glass_advanced_glassblowing -.-> energy_fuels
     transport -.-> energy_fuels
     plants --> energy_fuels
+    chemistry_ammonia --> energy
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -159,6 +161,7 @@ graph TD
     class ceramics_pottery_kiln-firing external
     class chemistry external
     class chemistry_air-separation external
+    class chemistry_ammonia external
     class chemistry_electrolysis external
     class chemistry_explosives external
     class chemistry_lubricants external

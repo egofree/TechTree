@@ -96,6 +96,12 @@ knowledge_internal: "Knowledge Preservation & Education — Internal Structure" 
 knowledge: "Knowledge Preservation & Education"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+chemistry: Chemistry {
+  shape: rectangle
+}
+chemistry_pulp-chemicals: "Pulp & Paper Chemicals" {
+  shape: rectangle
+}
 foundations: Foundations {
   shape: rectangle
 }
@@ -106,6 +112,9 @@ foundations_tools-basic: "Stone & Wood Tools" {
   shape: rectangle
 }
 health_medicine: "Medicine & Surgery" {
+  shape: rectangle
+}
+health_sanitation: "Water Supply & Sanitation" {
   shape: rectangle
 }
 machine-tools_machining: Machining {
@@ -133,6 +142,9 @@ mining_prospecting -> knowledge_writing: { class: tool-edge }
 knowledge_printing -> metals_iron-steel: { class: tool-edge }
 knowledge_printing -> textiles_fibers: { class: material-edge }
 knowledge_printing -> machine-tools_machining: { class: tool-edge }
+knowledge_writing -> chemistry: { class: tool-edge }
+knowledge_writing -> health_sanitation: { class: tool-edge }
+knowledge -> chemistry_pulp-chemicals: { class: material-edge }
 
 # ==================== STYLING ====================
 knowledge.class: domain
@@ -140,10 +152,13 @@ knowledge_writing.class: capability
 knowledge_education.class: capability
 knowledge_libraries.class: capability
 knowledge_printing.class: earlyWin
+chemistry.class: external
+chemistry_pulp-chemicals.class: external
 foundations.class: external
 foundations_food-agriculture.class: external
 foundations_tools-basic.class: external
 health_medicine.class: external
+health_sanitation.class: external
 machine-tools_machining.class: external
 metals_iron-steel.class: external
 mining_prospecting.class: external

@@ -80,6 +80,28 @@ Fermentation is exothermic — uncontrolled temperature kills yeast or produces 
 - **Methods**: Submerge fermentation vessel in cold water bath. Wrap with wet cloth (evaporative cooling). For large-scale: water jacket or cooling coil with circulating cold water. Monitor with thermometer twice daily minimum.
 - **Kill temperature**: >45°C kills *Saccharomyces* within minutes. >35°C promotes production of fusel alcohols and esters (irrelevant for industrial ethanol, but wastes sugar carbon).
 
+### Butanol and Biobutanol (ABE Fermentation)
+
+The **Weizmann process** (Clostridium acetobutylicum) produces acetone, butanol, and ethanol in a 3:6:1 ratio. Butanol (C₄H₉OH) is a superior fuel to ethanol: higher energy density (29.2 MJ/L vs 21.2 MJ/L), miscible with gasoline at any ratio, lower hygroscopicity (doesn't absorb water), usable in unmodified engines. Feedstocks: corn starch, molasses, cellulose hydrolysate. Conditions: 30-37°C, anaerobic, pH controlled (switches from acidogenesis to solventogenesis at pH ~5). Yield: 10-20 g/L total solvents (low — product toxicity limits concentration). Modern strain improvement targets: higher tolerance (butanol inhibits growth above 12-15 g/L), continuous product removal by gas stripping or pervaporation membranes.
+
+### Lactic Acid Fermentation
+
+Lactic acid bacteria (Lactobacillus, Streptococcus, Pediococcus) convert sugars to lactic acid (C₃H₆O₃) via homofermentative pathway (2 mol lactic acid per mol glucose, yield >90%) or heterofermentative pathway (lactic acid + ethanol + CO₂). Industrial production: 30-45°C, pH 5-7 (neutralized with CaCO₃ or NaOH to prevent acid inhibition). Feedstock: glucose from corn starch or cane sugar. Downstream: calcium lactate filtered, acidified with H₂SO₄ to free lactic acid, purified. **Polylactic acid (PLA)**: Lactic acid oligomerized to lactide (cyclic dimer), then ring-opening polymerized to PLA — biodegradable thermoplastic for packaging, textiles, 3D printing filament. NatureWorks (USA) produces 150,000 tonnes/year PLA.
+
+### Citric Acid Production
+
+*Aspergillus niger* mold produces citric acid from sucrose or glucose at 25-30°C, pH 2-3 (acidic conditions suppress oxalic acid byproduct). The key industrial fermentation by volume (~2 million tonnes/year). Process: submerged fermentation in 100-200 m³ stirred tanks, 5-7 days. Yield: 80-95% of theoretical (1 mol citric acid per mol glucose). Downstream: filter mycelium, precipitate calcium citrate with Ca(OH)₂, redissolve with H₂SO₄, crystallize. Applications: food acidulant (60%), detergent builder (chelates Ca²⁺/Mg²⁺ — replaces phosphates), pharmaceutical effervescent tablets, metal cleaning.
+
+### Biogas (Anaerobic Digestion)
+
+Organic waste (manure, food waste, sewage sludge, agricultural residues) decomposed by mixed microbial consortium in the absence of oxygen. Four stages: (1) hydrolysis — complex polymers → monomers, (2) acidogenesis — monomers → volatile fatty acids, (3) acetogenesis — fatty acids → acetic acid + H₂ + CO₂, (4) methanogenesis — acetic acid → CH₄ + CO₂ (aceticlastic), H₂ + CO₂ → CH₄ (hydrogenotrophic). Product: biogas (55-70% CH₄, 30-45% CO₂, trace H₂S). Operating temperature: mesophilic (35-40°C, stable, most common) or thermophilic (50-60°C, faster, higher gas yield but less stable). Hydraulic retention time: 15-30 days (mesophilic). CSTR (completely stirred tank reactor) is standard design. Biogas upgraded to biomethane (>95% CH₄) by removing CO₂ (water scrubbing, PSA, or membrane separation) — can substitute for natural gas. Energy yield: 0.3-0.5 m³ biogas per kg volatile solids added. Small-scale: 2-50 kW digesters for farm or village use. Large-scale: 1-10 MW plants processing municipal waste.
+
+### Fermentation Equipment Design
+
+**Bioreactor types**: (1) **Stirred tank** — impeller (Rushton turbine or marine blade) provides mixing and O₂ transfer, baffles prevent vortexing. Standard for aerobic fermentations (citric acid, antibiotics). (2) **Air-lift** — rising bubbles in the riser section create circulation through the downcomer — no mechanical seals, lower shear. Used for shear-sensitive cells and large-scale single-cell protein. (3) **Bubble column** — simplest: sparge air at the bottom, bubbles rise through liquid. Low cost, good for viscous broths. (4) **Packed bed / fluidized bed** — immobilized cells on solid support (ceramic, alginate beads). Continuous operation. (5) **Anaerobic digester** — CSTR with gas-tight cover, heating jacket or heat exchanger (maintain 35°C), gas collection system.
+
+**Sterilization**: Critical for pure-culture fermentations (contaminants compete for substrate and may produce toxins). Methods: (1) **Heat** — steam at 121°C for 15-30 minutes (batch sterilization of medium in the vessel). (2) **Continuous HTST** — 140°C for 5-10 seconds in a heat exchanger, then flash-cooled. More energy-efficient for large volumes. (3) **Filter sterilization** — 0.2 µm membrane filters for heat-sensitive components (vitamins, some growth factors). Equipment sterilization: steam all pipes, valves, and seals before filling — any dead leg or unsterilized pocket becomes a contamination source.
+
 ### Safety & Hazards
 
 - **Ethanol fire**: Ethanol burns with nearly invisible blue flame. Cannot be seen in daylight. Keep away from open flames and sparks. Store in sealed metal containers. Fire extinguisher (CO₂ or dry chemical) required near distillation equipment.

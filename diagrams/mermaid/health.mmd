@@ -16,7 +16,10 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     ceramics("Ceramics & Refractories")
     chemistry("Chemistry")
+    chemistry_ammonia("Ammonia & Fertilizer Production")
     chemistry_distillation("Distillation")
+    chemistry_soap("Soap & Detergent Production")
+    chemistry_solvents("Solvent Production")
     foundations("Foundations")
     knowledge_writing("Writing & Record-Keeping")
     plants_edible-plants("Edible Plants")
@@ -35,6 +38,9 @@ graph TD
     knowledge_writing -.-> health_sanitation
     plants_edible-plants --> health
     plants_medicinal-plants --> health_pharmacology
+    health --> chemistry_ammonia
+    health --> chemistry_soap
+    health --> chemistry_solvents
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -56,7 +62,10 @@ graph TD
     class health_pharmacology capability
     class ceramics external
     class chemistry external
+    class chemistry_ammonia external
     class chemistry_distillation external
+    class chemistry_soap external
+    class chemistry_solvents external
     class foundations external
     class knowledge_writing external
     class plants_edible-plants external

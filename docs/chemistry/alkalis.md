@@ -109,6 +109,40 @@ Before synthetic alkalis, potash (K₂CO₃) was the primary alkali source for g
 - **Land intensity**: One hectare of mature hardwood forest yields ~1-2 tonnes of potash per harvest cycle (decades of regrowth required). This is a hunter-gatherer approach to alkali — useful for bootstrapping but not scalable to industrial volumes.
 - **Industrial potash**: Modern K₂CO₃ is produced from mined potassium minerals (e.g., reaction of KCl with MgCO₃, or electrolysis of KCl).
 
+### Lime Chemistry Detail
+
+**Quicklime (CaO) production**: Limestone (CaCO₃) heated in a lime kiln to 900-1200°C. CaCO₃ → CaO + CO₂. The reaction is endothermic (ΔH = +178 kJ/mol) — requires substantial fuel. Shaft kiln (vertical, continuous): limestone fed at top, fuel (coke, gas, wood) burned in middle, quicklime drawn at bottom. Temperature gradient: top 400°C (preheat), middle 1100°C (calcination zone), bottom 100°C (cooling). Rotary kiln: inclined rotating cylinder 30-60 m long. Better heat transfer, higher throughput, but higher capital cost. Yield: 56 kg CaO per 100 kg CaCO₃ (theoretical — practical yield ~95%).
+
+**Slaked lime (Ca(OH)₂)**: CaO + H₂O → Ca(OH)₂. Highly exothermic (65 kJ/mol). Add quicklime to water in a slaking tank — never water to quicklime. The resulting lime putty or milk of lime (slurry) is used directly in Solvay ammonia recovery, mortar making, water treatment, and causticization.
+
+**Lime mortar setting**: Ca(OH)₂ + CO₂ (from air) → CaCO₃ + H₂O. Sets by carbonation — absorbs CO₂ from atmosphere over weeks to months. Hydraulic lime (containing clay impurities) also sets by hydration of calcium silicates — sets underwater. Roman concrete (opus caecementicium) used hydraulic lime + volcanic ash (pozzolana) — 2000-year durability.
+
+**Lime kiln designs**: (1) Flare kiln (batch): stone arch with fuel underneath, limestone stacked above. Simple, labor-intensive. (2) Shaft kiln (continuous): feed at top, discharge at bottom, fuel injected at middle. Most common for moderate scale. (3) Rotary kiln: inclined rotating tube 30-60 m long. Fuel and limestone enter same end, product exits the other. Best quality and throughput.
+
+### Ammonia Sources for Solvay
+
+The Solvay process requires ~1-2 kg NH₃ makeup per tonne Na₂CO₃. But the ammonia still must be continuously operated, requiring a steady supply:
+
+1. **Coke oven gas**: Coal carbonization in coke ovens produces gas containing ~1% NH₃. Scrub with sulfuric acid to produce (NH₄)₂SO₄ (ammonium sulfate fertilizer). The NH₃ can be liberated by reaction with Ca(OH)₂ for Solvay use. This was the primary ammonia source before Haber-Bosch.
+2. **Haber-Bosch synthesis**: N₂ + 3H₂ → 2NH₃ at 400-500°C, 15-30 MPa. Provides pure, abundant NH₃. See [Ammonia Production](ammonia.md). The modern route.
+3. **Calcium cyanamide**: CaC₂ + N₂ → CaCN₂ + C. CaCN₂ + H₂O → CaCO₃ + 2NH₃. Used in early 20th century before Haber-Bosch scaled.
+
+### Environmental Impact
+
+**Leblanc pollution**: The Leblanc process was notorious. CaS waste (4 tonnes per tonne soda ash) released H₂S gas. HCl emissions killed vegetation around plants. The Alkali Act of 1863 (UK) forced producers to absorb HCl in water (creating a market for hydrochloric acid). This was the first modern environmental legislation.
+
+**Solvay waste**: Calcium chloride (CaCl₂) waste — 10 tonnes per tonne soda ash. Historically discharged to rivers, causing salinity. Modern uses: de-icing roads, dust control, concrete accelerator. Some plants achieve zero liquid discharge.
+
+**Electrolysis mercury pollution**: Mercury cell chlor-alkali plants lost Hg to waterways — caused Minamata disease. Largely phased out under Minamata Convention (2017). Membrane cells produce no mercury waste.
+
+### Bootstrap Sequence
+
+1. **Wood ash potash** (Year 1-5): Burn hardwood, leach ash with water, evaporate to K₂CO₃. For glass and soft soap. Land-intensive, not scalable.
+2. **Leblanc process** (Year 10-20): Salt + H₂SO₄ → soda ash. Heavy pollution (HCl, CaS waste). Captures HCl for acid production. Provides both Na₂CO₃ and HCl.
+3. **Lime-soda causticization** (Year 15-25): Na₂CO₃ + Ca(OH)₂ → NaOH. For soap, paper chemicals. Requires lime kiln.
+4. **Solvay process** (Year 20-35): Continuous, efficient, less waste. Requires ammonia (coke oven or Haber-Bosch). Displaces Leblanc.
+5. **Electrolytic NaOH** (Year 25+): Chlor-alkali membrane cells produce NaOH + Cl₂ + H₂. Most efficient. See [Electrolysis](electrolysis.md).
+
 ### Alkali Uses Summary
 
 | Product | Chemical | Primary Uses |

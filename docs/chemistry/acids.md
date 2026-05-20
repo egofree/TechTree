@@ -62,6 +62,66 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 - **Uses**: Glass etching, silicon wafer etching (the Silicon-Photolithography stage transition), fluoride chemistry, aluminum production (synthetic cryolite).
 - **Storage**: PTFE or polyethylene containers. Lead containers for concentrated acid. NEVER glass.
 
+### Aqua Regia
+
+A mixture of concentrated nitric acid and hydrochloric acid (typically 1:3 by volume HNO₃:HCl). The only common reagent that dissolves gold and platinum group metals. Critical for precious metal refining and electrorefining anode slime processing.
+
+**Chemistry**: HNO₃ oxidizes HCl to generate chlorine (Cl₂) and nitrosyl chloride (NOCl) in situ. These reactive species attack gold: Au + 3Cl₂ → AuCl₃ (soluble chloroauric acid H[AuCl₄]). Platinum dissolves similarly as H₂[PtCl₆]. The combination works because nitric acid provides the oxidizing power while chloride ions complex the dissolved metal ions, shifting equilibrium toward dissolution.
+
+**Preparation**: Mix immediately before use — aqua regia loses potency within hours as chlorine and NOCl evaporate. Add HNO₃ to HCl slowly in a glass vessel under a fume hood. The mixture turns orange-yellow from dissolved Cl₂ and NOCl gases. **Never store aqua regia in sealed containers** — decomposition produces gas pressure that ruptures glass.
+
+**Applications**: Dissolving gold from electronic scrap, recovering platinum from catalytic converters, processing anode slime from copper electrorefining. After dissolution, gold is recovered by precipitation with ferrous sulfate (FeSO₄) or sodium metabisulfite (Na₂S₂O₅), or by solvent extraction with dibutyl carbitol.
+
+### Phosphoric Acid
+
+Phosphoric acid (H₃PO₄) bridges mineral acid production to fertilizer chemistry. Two production routes of very different complexity.
+
+**Wet process** (fertilizer-grade, 85% of production):
+- Phosphate rock (Ca₃(PO₄)₂, fluorapatite Ca₅(PO₄)₃F) reacted with concentrated sulfuric acid (93-98%) in a stirred tank at 70-80°C: Ca₃(PO₄)₂ + 3H₂SO₄ → 2H₃PO₄ + 3CaSO₄.
+- Filter calcium sulfate (phosphogypsum) — massive byproduct (~5 tonnes per tonne P₂O₅ produced, often stacked in waste piles). The filtrate is 25-30% H₃PO₄ (green acid), concentrated to 40-54% P₂O₅ by vacuum evaporation.
+- Impurities: fluorine (as HF and SiF₄ — recovered as Na₂SiF₆ for fluoride salts), cadmium, uranium, and rare earth elements (sometimes recovered). Wet-process acid is not pure enough for food or semiconductor use.
+
+**Thermal process** (pure-grade, 15% of production):
+- Burn elemental white phosphorus (P₄) in excess air → P₄O₁₀ (phosphorus pentoxide). P₄O₁₀ + 6H₂O → 4H₃PO₄.
+- Produces very pure acid suitable for food additives, pharmaceuticals, and semiconductor etching. White phosphorus is produced by reducing phosphate rock with coke in an electric arc furnace at 1500°C: Ca₃(PO₄)₂ + 3SiO₂ + 5C → 3CaSiO₃ + 5CO + 2P₄. The P₄ vapor condenses under water (pyrophoric — ignites in air).
+
+**Fertilizer bridge**: Phosphoric acid is reacted with ammonia to produce monoammonium phosphate (MAP, 11-52-0) and diammonium phosphate (DAP, 18-46-0) — the world's most important phosphate fertilizers. Reacted with phosphate rock to produce superphosphate (single: Ca(H₂PO₄)₂, or triple: higher P content).
+
+### Pickling Acids
+
+Steel pickling removes oxide scale (mill scale, rust) from steel surfaces before further processing (galvanizing, plating, cold rolling, welding).
+
+**Sulfuric acid pickling** (traditional):
+- 10-25% H₂SO₄ at 60-80°C. Soak steel 5-30 minutes. Scale dissolves: Fe₂O₃ + 3H₂SO₄ → Fe₂(SO₄)₃ + 3H₂O. Base metal also dissolves slowly: Fe + H₂SO₄ → FeSO₄ + H₂↑ (hydrogen embrittlement risk — bake out at 200°C after pickling).
+- Spent acid: FeSO₄ concentration reaches 15-25%, acid depleted to <5%. Recovery: chill to crystallize FeSO₄·7H₂O (copperas), regenerate acid by adding concentrated H₂SO₄. Or spray roast: atomize spent acid into a furnace at 800-1000°C → Fe₂O₃ + SO₂ + H₂O. SO₂ captured for sulfuric acid production (closed loop). HCl roaster produces HCl gas for acid regeneration.
+
+**Hydrochloric acid pickling** (modern, dominant):
+- 15-20% HCl at 35-40°C. Faster than sulfuric (2-10 minutes). Less base metal attack, less hydrogen embrittlement, better surface finish. Scale dissolves: Fe₂O₃ + 6HCl → 2FeCl₃ + 3H₂O.
+- Spent acid recovery: spray roaster produces Fe₂O₃ (sellable pigment) and HCl gas (absorbed in water → regenerated acid). Closed-loop acid recovery is standard in modern steel plants.
+
+### Semiconductor-Grade Acid Production
+
+Semiconductor processing requires ultra-pure acids (trace metal impurities at ppb — parts per billion — levels). Standard industrial acids contain Fe, Cu, Pb, As at ppm levels — unsuitable for wafer processing.
+
+**Purification methods**:
+- **Distillation**: Fractional distillation in quartz or PTFE equipment removes most metal contaminants. H₂SO₄ distilled at 337°C under reduced pressure. HCl distilled as gas from azeotropic solution. HF distilled at 112°C (under pressure). Multi-pass distillation achieves <1 ppb metal content.
+- **Sub-boiling distillation**: Heat acid below its boiling point in a PTFE or quartz still. Only the purest vapor fraction condenses on a cooled surface. Slow (days per batch) but achieves ultra-trace purity (<0.1 ppb for most metals). Used for ACS reagent-grade and semiconductor-grade acids.
+- **Ion exchange**: Pass acid through chelating resin columns that selectively adsorb metal ions. Effective for HCl, HNO₃, and HF. Resin regenerated with acid or chelating solution.
+- **Containers**: PTFE (Teflon) bottles for storage and transport. Quartz for distillation. Stainless steel only for concentrated HNO₃ (passivated) and H₂SO₄ (>90%). All wetted surfaces must not leach contaminants.
+
+**Grade specifications**: SEMI Grade (semiconductor): <10 ppb each for 30+ trace metals. Trace metal analysis by ICP-MS (inductively coupled plasma mass spectrometry). Each batch certified with certificate of analysis.
+
+### Historical Development Timeline
+
+1. **Pre-1700 (alchemy)**: "Oil of vitriol" (dilute H₂SO₄) by distilling green vitriol (FeSO₄·7H₂O). "Aqua fortis" (HNO₃) from saltpeter + vitriol. "Spirit of salt" (HCl) from salt + vitriol.
+2. **1746**: Joshua Ward's lead chamber process — first industrial H₂SO₄. Lead chambers, 6×6×6 feet.
+3. **1791**: Leblanc process drives massive H₂SO₄ demand (for salt → soda ash). Lead chambers scaled to industrial size.
+4. **1831**: Peregrine Phillips patents contact process (Pt catalyst). Not commercially viable until V₂O₅ catalyst (1920s) — platinum poisoned by arsenic in sulfur feed.
+5. **1900s**: Haber-Bosch ammonia → Ostwald nitric acid. Transforms HNO₃ from scarce luxury chemical to bulk commodity.
+6. **1930s**: Fluorite mining enables HF production → aluminum industry, petroleum alkylation, semiconductor etching.
+7. **1960s**: Semiconductor-grade acid purification begins. Sub-boiling distillation, PTFE containers, ppb trace metal specifications.
+8. **Present**: Global H₂SO₄ production ~250 million tonnes/year (largest-volume chemical). Most goes to fertilizer production (phosphoric acid, ammonium sulfate).
+
 ### Safety & Hazards
 
 - **Sulfuric acid (H₂SO₄)**: Concentrated acid causes severe chemical burns and is intensely dehydrating (chars organic matter on contact). Dilution is highly exothermic — ALWAYS add acid to water, NEVER water to acid (violent boiling/splattering). Wear acid-resistant gloves, face shield, chemical apron. Emergency: flush with copious water for 15+ minutes.

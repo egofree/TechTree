@@ -16,5 +16,11 @@ Capabilities in this domain:
 - [Explosives & Propellants](explosives.md) — Black powder, nitrocellulose, dynamite, and smokeless powder manufacture for mining and industrial applications.
 - [Fermentation Chemistry](fermentation.md) — Microbial production of ethanol, acetone, butanol, acetic acid, and methanol from biomass feedstocks.
 - [Wood Gasification](wood-gasification.md) — Producer gas generation from biomass via partial combustion for engine fuel and chemical feedstock.
+- [Ammonia & Fertilizer Production](ammonia.md) — Haber-Bosch synthesis (N₂ + 3H₂ → 2NH₃), Ostwald nitric acid, fertilizer production (ammonium nitrate, urea, superphosphate).
+- [Soap & Detergent Production](soap.md) — Saponification of fats with NaOH/KOH, glycerol recovery, synthetic detergents.
+- [Solvent Production](solvents.md) — Ethanol, methanol, ether, turpentine, hydrogen peroxide, chlorinated solvents, and solvent selection guide.
+- [Refractory Materials](refractories.md) — Firebrick, alumina, magnesite, and insulating refractories for furnace linings above 1500°C.
+- [Paints, Coatings & Inks](coatings.md) — Paint chemistry, nitrocellulose dope, varnishes, ink chemistry, rust prevention.
+- [Pulp & Paper Chemicals](pulp-chemicals.md) — Kraft pulping white liquor, bleaching chemistry, sizing agents, recovery boiler cycle.
 
 [↑ Back to Tech Tree](../index.md)

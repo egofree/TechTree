@@ -149,6 +149,32 @@ Every machine with moving parts generates friction and heat. Without lubrication
 - Bearing lubrication protocols for plain and rolling-element bearings
 - Lubrication schedules and maintenance procedures for all machinery
 
+### Solid Lubricants
+
+**Graphite**: Layered carbon structure — weak van der Waals forces between layers allow easy shear. Effective in air (adsorbed water film aids layer sliding) but poor in vacuum or dry environments. Withstands temperatures to 450°C in air (oxidizes above this). Used in: packings, gaskets, high-temperature bearings, lock mechanisms, mold release agents. Applied as powder, dispersion in oil/grease ("graphited grease"), or bonded coating (graphite + sodium silicate binder).
+
+**Molybdenum disulfide (MoS₂)**: Similar layered structure to graphite but effective in vacuum and dry environments — the dominant solid lubricant for space applications. Coefficient of friction: 0.02-0.1. Temperature range: -180 to +350°C in air (oxidizes to MoO₃ above 350°C), up to 800°C in vacuum. Applied by: burnishing (rubbing powder into surface), sputtering (PVD thin film 0.5-2 µm), or bonded coating (MoS₂ + epoxy/phenolic binder + solvent). MoS₂ coatings are standard for spacecraft mechanisms, satellite deployment hinges, and vacuum-chamber bearings.
+
+**PTFE (Teflon)**: Polytetrafluoroethylene — ultra-low coefficient of friction (0.04-0.10). Chemically inert, temperature range -200 to +260°C. Used as: bearing liners, sliding plates (bridge expansion bearings), piston rings (non-lubricated compressors), tape (thread sealing). Limitations: poor wear resistance (filled with glass fiber, bronze, or carbon to improve), creep under load ("cold flow"), cannot be melt-processed like typical plastics (sintered from powder).
+
+**Polymer bearings**: Acetal (Delrin), nylon, ultra-high-molecular-weight polyethylene (UHMWPE) — self-lubricating, no external lubricant needed. UHMWPE: used in artificial hip joints, conveyor wear strips, marine bearings (water-lubricated). Nylon: gear wheels, low-load bearings, sprockets. Acetal: precision gears, valve seats, food-processing bearings (no lubricant contamination).
+
+### Synthetic Lubricants
+
+**Polyalphaolefin (PAO)**: Hydrocarbon synthetic — made by oligomerizing α-olefins (primarily decene, C₁₀) with BF₃ catalyst, then hydrogenating. Uniform molecular weight distribution (no light or heavy fractions) gives: better low-temperature fluidity (pour point -50 to -65°C vs -15°C for mineral oil), higher viscosity index (130-150 vs 95-105), better oxidation stability (2-3× longer oil life). Used in: jet engine oils, Arctic machinery, long-drain automotive oils.
+
+**Ester oils**: Diesters and polyol esters — synthesized from organic acids and alcohols. Excellent lubricity (polar ester groups adsorb strongly to metal surfaces), good thermal stability (200-250°C continuous), biodegradable. Used in: jet engine oils (MIL-PRF-23699), compressor oils, biodegradable hydraulic fluids (forestry, marine), two-stroke engine oils.
+
+**Silicone oils**: Polydimethylsiloxane (PDMS) — extremely wide temperature range (-70 to +250°C), chemically inert, excellent dielectric properties. Poor lubricity for metal-on-metal (low load-carrying capacity) — used where temperature stability or chemical inertness matters more than extreme pressure performance: diffusion pump fluids, dashpot dampers, electrical insulation, mold release, medical devices.
+
+**Perfluoropolyether (PFPE)**: Fluorinated synthetic — the most chemically resistant lubricant. Inert to oxygen, fuels, solvents, acids, and bases. Temperature range: -80 to +300°C. Ultra-low vapor pressure — no outgassing in vacuum. Used in: spacecraft mechanisms, semiconductor manufacturing equipment, oxygen compressors (mineral oil + high-pressure O₂ = explosion), chemical processing valves.
+
+### Oil Analysis and Condition Monitoring
+
+**Regime**: Industrial plants monitor lubricant condition to schedule oil changes based on actual condition, not fixed intervals. Key tests: (1) **Viscosity**: Change >10% indicates oxidation, contamination, or wrong oil grade. (2) **Acid number**: Increase indicates oxidation — acidic byproducts corrode bearings. (3) **Particle count**: ISO 4406 cleanliness code — critical for hydraulic systems (target: 16/14/11 for servo valves). (4) **Spectrometric analysis**: ICP or atomic absorption detects wear metals (Fe, Cu, Pb, Sn, Cr) at ppm levels — trending indicates which component is wearing. (5) **Water content**: Karl Fischer titration — water causes rust, reduces film strength, promotes microbial growth. Limits: <0.1% for most systems, <0.03% for turbine oils.
+
+**Sampling**: Always sample from live oil stream (not from drain plug or static reservoir). Use clean sample bottles. Sample frequency: monthly for critical equipment (turbines, large gearboxes), quarterly for general plant equipment.
+
 ### Safety & Hazards
 
 - **Hot oil (200°C+)**: Severe splash burns. Face shield, long gloves. Pour slowly.

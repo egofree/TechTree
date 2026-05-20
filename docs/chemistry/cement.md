@@ -92,6 +92,68 @@ Concrete excels in compression but fails in tension at only 2-5 MPa (roughly 10%
 - **Chemical plant flooring**: Acid-resistant concrete (use calcium aluminate cement + acid-resistant aggregate).
 - **Vibration isolation**: Inertia blocks for precision equipment (silicon wafer processing stages, precision grinders). Heavy concrete masses on isolation pads.
 
+### Raw Material Preparation
+
+**Limestone quarrying**: Open-pit mining of high-calcium limestone (CaCO₃ >90%). Drill and blast, then load into trucks with excavators. Primary crushing to <150 mm (jaw crusher), secondary crushing to <25 mm (hammer or cone crusher). Typical limestone consumption: 1.3-1.5 tonnes per tonne of clinker.
+
+**Clay/shale extraction**: Clay provides silica (SiO₂), alumina (Al₂O₃), and iron oxide (Fe₂O₃). Dug from nearby clay pits, crushed to <50 mm. Alternative raw materials: bauxite (alumina source), iron ore (Fe₂O₃), sand (silica) — added to adjust chemistry.
+
+**Proportioning and grinding**: Raw materials weighed and mixed in correct proportions to achieve target clinker chemistry: CaO 60-67%, SiO₂ 17-25%, Al₂O₃ 3-8%, Fe₂O₃ 0.5-6%. The four main clinker phases are: C₃S (alite, 45-65%), C₂S (belite, 15-30%), C₃A (tricalcium aluminate, 6-14%), C₄AF (tetracalcium aluminoferrite, 6-10%). Raw mix ground in ball mill or vertical roller mill to fineness of 10-15% residue on 90 µm sieve (Blaine surface area 300-400 m²/kg). In the dry process, grinding produces raw meal (fine powder). In the wet process (older), water is added to form slurry (30-40% moisture).
+
+**Homogenization**: Raw meal stored in silos with air-fluidized mixing to ensure chemical uniformity. Variations in CaCO₃ content cause kiln instability and clinker quality problems.
+
+### Rotary Kiln Detail
+
+**Kiln design**: The heart of cement production. A steel tube 50-80 m long, 3-5 m diameter, lined with refractory brick, rotating at 1-4 RPM (supported on rollers at 2-3 points), inclined 3-4° from horizontal. Feed enters the upper (cold) end, flame and combustion gases enter the lower (hot) end. Material moves through by gravity and rotation.
+
+**Wet vs dry process**: Wet process pumps slurry (30-40% water) into kiln — simpler raw material handling but wastes 30-40% of fuel energy evaporating water. Dry process uses preheater tower (4-6 stages of cyclone heat exchangers): hot kiln exhaust gases preheat raw meal to 800°C before it enters the kiln, reducing fuel consumption 30-40%. Modern plants are all dry process with preheater + precalciner.
+
+**Temperature zones** (material traveling from cold to hot end):
+1. **Drying zone** (100-200°C): Residual moisture evaporates (dry process: minimal; wet process: 30-40% water removed).
+2. **Preheating** (200-800°C): In preheater tower, not in kiln itself (dry process). Raw meal heated by countercurrent exhaust gases.
+3. **Calcination zone** (800-1000°C): CaCO₃ → CaO + CO₂. This is the most energy-intensive step (ΔH = +178 kJ/mol). In modern precalciner kilns, 60-90% of calcination occurs in a separate vessel (precalciner) between preheater and kiln, burning additional fuel. This dramatically reduces kiln thermal load.
+4. **Burning zone / sintering zone** (1400-1500°C): CaO reacts with SiO₂, Al₂O₃, Fe₂O₃ to form clinker minerals (C₃S, C₂S, C₃A, C₄AF). Material becomes partially liquid (20-30% melt) — nodules form by agglomeration. Residence time in burning zone: 10-20 minutes. Temperature controlled by fuel rate and raw meal feed rate.
+5. **Cooling zone**: Clinker exits kiln at ~1300°C into a clinker cooler (grate cooler — ambient air blows upward through falling clinker bed). Clinker cooled to 100-200°C in 20-30 minutes. The heated air (800-1000°C) is recovered as combustion air for the kiln burner — essential for fuel efficiency.
+
+**Fuel options**: Coal (pulverized, most common globally), natural gas, heavy fuel oil, petroleum coke, waste tires, municipal solid waste-derived fuel. Fuel consumption: 3.0-3.5 GJ/tonne clinker (modern dry process), 5.0-6.5 GJ/tonne (wet process). Kiln burner: 40-120 MW thermal input for a 3000 tonnes/day kiln.
+
+### Clinker Grinding
+
+Clinker is cooled, stored, then ground with 3-5% gypsum (CaSO₄·2H₂O) in a cement mill (ball mill or vertical roller mill). Gypsum controls setting time — without it, C₃A reacts rapidly with water, causing flash set (concrete hardens in minutes instead of hours). Grinding to Blaine fineness 300-400 m²/kg (ordinary Portland cement). Finer grinding (500+ m²/kg) produces rapid-hardening cement. Particle size distribution: 1-100 µm, median ~15 µm. Energy: 30-50 kWh/tonne cement.
+
+### Concrete Technology
+
+**Admixtures** (chemical additives mixed into concrete to modify properties):
+- **Plasticizers** (water reducers): Lignosulfonates or polycarboxylate ethers. Reduce water content 5-15% while maintaining workability → higher strength (lower water/cement ratio).
+- **Superplasticizers** (high-range water reducers): Polycarboxylate ethers. Reduce water 20-40%. Enable self-compacting concrete (flows without vibration).
+- **Accelerators**: Calcium chloride (CaCl₂) or calcium nitrate — speed up setting and early strength gain. Used in cold weather concreting.
+- **Retarders**: Sucrose, citric acid, or lignosulfonates — slow setting for hot weather or long transport times.
+- **Air-entraining agents**: Vinsol resin or synthetic surfactants — introduce 4-8% microscopic air bubbles. Critical for freeze-thaw resistance in cold climates.
+
+**Curing**: Concrete gains strength by hydration of clinker minerals with water. C₃S + H₂O → C-S-H gel (calcium silicate hydrate — the binding phase) + Ca(OH)₂. Proper curing requires moisture retention for 7-28 days. Methods: water ponding, wet burlap, plastic sheeting, or spray-on curing compounds. Compressive strength development: 40% at 3 days, 65% at 7 days, 100% at 28 days (for OPC).
+
+**Mix design**: Typical 25 MPa concrete: 350 kg cement, 180 kg water (w/c = 0.51), 700 kg fine aggregate (sand), 1100 kg coarse aggregate (gravel) per m³. Higher strength (50 MPa): reduce w/c to 0.35-0.40, increase cement to 400-450 kg/m³, use superplasticizer.
+
+### Specialty Cements
+
+- **Oil-well cement**: Retarded setting (downhole temperatures 50-200°C, pressures up to 100 MPa). Class G or H cement with retarders (lignosulfonate, cellulose derivatives).
+- **White cement**: Made from pure white limestone and kaolin clay (low Fe₂O₃ <0.4%). Fired with natural gas or oil (no coal ash contamination). 3× cost of OPC. Architectural applications.
+- **Rapid-hardening cement**: Finer grinding (Blaine 500+ m²/kg), higher C₃S content. Reaches 28-day strength in 3 days. For emergency repairs, precast concrete.
+- **Sulfate-resistant cement**: Low C₃A content (<5%). Resists sulfate attack from groundwater and seawater. For foundations in sulfate-bearing soils.
+- **Low-heat cement**: High C₂S, low C₃S and C₃A. Slower hydration generates less heat — prevents thermal cracking in mass concrete pours (dams, large foundations).
+
+### Construction Applications
+
+- **Foundations**: Machine pads (vibrate-isolated, precision-leveled), building footings, bridge abutments.
+- **Dams**: Mass concrete (low-heat cement, aggregate cooling with ice water, post-cooling with embedded water pipes to control thermal cracking). Hoover Dam: 3.25 million m³ concrete.
+- **Roads**: Rigid pavement — 200-300 mm slab on prepared subbase. Joints at 3-5 m intervals for thermal expansion.
+- **Tanks and pipes**: Water tanks, sewage digesters, pressure pipes — often prestressed concrete (steel tendons under tension compress the concrete, preventing cracking under internal pressure).
+- **Reinforced concrete**: Steel rebar embedded in concrete provides tensile strength (concrete alone has ~10× higher compressive than tensile strength). Rebar: 10-40 mm diameter deformed bars, yield strength 400-500 MPa. Cover depth: 25-50 mm (protects steel from corrosion).
+
+### Environmental Impact
+
+Cement production is responsible for ~8% of global CO₂ emissions. Sources: calcination (CaCO₃ → CaO + CO₂) produces ~50% of emissions (process-inherent, cannot be eliminated without alternative chemistry). Fuel combustion: ~40%. Electricity: ~10%. Mitigation strategies: (1) clinker substitution with fly ash (coal power plant waste), slag (steel mill waste), or limestone filler — reduces clinker factor from 0.95 to 0.60-0.70. (2) Alternative fuels (waste-derived). (3) Carbon capture and storage (CCS) on kiln exhaust — technically feasible but not yet economic. (4) Alternative cements (geopolymers, calcium sulfoaluminate) — lower temperature processing.
+
 ### Safety & Hazards
 
 - **Kiln temperatures (1450°C)**: Severe thermal burns. Insulated clothing, face shield, heat-resistant gloves.

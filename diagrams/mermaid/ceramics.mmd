@@ -17,6 +17,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry_cement("Cement & Concrete")
+    chemistry_refractories("Refractory Materials")
     energy_fuels_charcoal("Charcoal Production")
     energy_fuels_coal("Coal Mining & Combustion")
     energy_fuels_coke("Coke Production")
@@ -48,6 +49,7 @@ graph TD
     ceramics_advanced-ceramics --> mining
     silicon -.-> ceramics_advanced-ceramics
     metals_iron-steel_blast-furnace -.-> ceramics_kilns
+    chemistry_refractories -.-> ceramics_kilns
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -70,6 +72,7 @@ graph TD
     class ceramics_lime capability
     class ceramics_advanced-ceramics critical
     class chemistry_cement external
+    class chemistry_refractories external
     class energy_fuels_charcoal external
     class energy_fuels_coal external
     class energy_fuels_coke external

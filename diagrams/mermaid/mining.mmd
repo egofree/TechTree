@@ -21,6 +21,7 @@ graph TD
     chemistry_alkalis("Alkali Production")
     chemistry_cement("Cement & Concrete")
     chemistry_explosives("Explosives and Propellants")
+    chemistry_refractories("Refractory Materials")
     energy_fuels("Fuel Production")
     energy_fuels_coal("Coal Mining & Combustion")
     energy_fuels_coke("Coke Production")
@@ -57,6 +58,7 @@ graph TD
     ceramics_advanced-ceramics --> mining
     mining_extraction_black-powder --> chemistry_explosives
     transport -.-> mining_extraction
+    chemistry_refractories --> mining
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -83,6 +85,7 @@ graph TD
     class chemistry_alkalis external
     class chemistry_cement external
     class chemistry_explosives external
+    class chemistry_refractories external
     class energy_fuels external
     class energy_fuels_coal external
     class energy_fuels_coke external

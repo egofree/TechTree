@@ -101,13 +101,28 @@ ceramics: "Ceramics & Refractories" {
 chemistry: Chemistry {
   shape: rectangle
 }
+chemistry_ammonia: "Ammonia & Fertilizer Production" {
+  shape: rectangle
+}
 chemistry_distillation: Distillation {
+  shape: rectangle
+}
+chemistry_soap: "Soap & Detergent Production" {
+  shape: rectangle
+}
+chemistry_solvents: Solvent Production {
   shape: rectangle
 }
 foundations: Foundations {
   shape: rectangle
 }
 knowledge_writing: "Writing & Record-Keeping" {
+  shape: rectangle
+}
+plants_edible-plants: Edible Plants {
+  shape: rectangle
+}
+plants_medicinal-plants: Medicinal Plants {
   shape: rectangle
 }
 polymers_rubber: Rubber Production {
@@ -123,6 +138,12 @@ health_sanitation -> ceramics: { class: tool-edge }
 health_medicine -> knowledge_writing: { class: tool-edge }
 health_pharmacology -> chemistry_distillation: { class: tool-edge }
 health -> polymers_rubber: { class: material-edge }
+knowledge_writing -> health_sanitation: { class: tool-edge }
+plants_edible-plants -> health: { class: material-edge }
+plants_medicinal-plants -> health_pharmacology: { class: material-edge }
+health -> chemistry_ammonia: { class: material-edge }
+health -> chemistry_soap: { class: material-edge }
+health -> chemistry_solvents: { class: material-edge }
 
 # ==================== STYLING ====================
 health.class: domain
@@ -131,9 +152,14 @@ health_medicine.class: capability
 health_pharmacology.class: capability
 ceramics.class: external
 chemistry.class: external
+chemistry_ammonia.class: external
 chemistry_distillation.class: external
+chemistry_soap.class: external
+chemistry_solvents.class: external
 foundations.class: external
 knowledge_writing.class: external
+plants_edible-plants.class: external
+plants_medicinal-plants.class: external
 polymers_rubber.class: external
 
 # ==================== LEGEND ====================

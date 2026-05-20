@@ -112,6 +112,22 @@ Beyond the three main products, air contains trace noble gases recoverable with 
 
 - Cryogenic ASU is economical above ~500 Nm³/hour output. Below this, PSA units are more cost-effective despite higher per-unit energy. For bootstrapping, a PSA unit can provide process nitrogen (for inerting furnaces, purging equipment) while cryogenic capability is developed for high-purity applications (argon for crystal growth, liquid oxygen for steelmaking). A small cryogenic plant producing 1-5 tonnes/day of liquid O₂ requires ~200-500 kW electrical power and represents the minimum viable scale for liquid gas production.
 
+### Cryogenic Column Internals
+
+**Double column system**: Modern air separation units (ASUs) use a double-column arrangement — a high-pressure column (operating at 5-6 bar) sitting directly above a low-pressure column (1.2-1.5 bar) with a common condenser-reboiler between them. The high-pressure column produces oxygen-enriched liquid (~35% O₂) at its bottom and nitrogen-rich vapor at its top. The nitrogen condenser provides heat to reboil the low-pressure column — thermal coupling reduces energy consumption by 30-40% vs single column.
+
+**Low-pressure column**: Produces pure nitrogen gas (99.999%) at the top and pure liquid oxygen (99.5%+) at the bottom. Structured packing (corrugated metal sheets with specific surface area 250-500 m²/m³) replaces traditional sieve trays in modern columns — lower pressure drop (0.1-0.3 kPa per theoretical stage vs 0.7-1.0 kPa for trays), higher capacity, and better turndown ratio. Typical column: 40-70 theoretical stages, 2-4 m diameter, 25-40 m height.
+
+**Argon side-draw**: A side stream from the low-pressure column (where argon concentration peaks at ~10-12%) feeds an additional argon column. Argon boils between oxygen (-183°C) and nitrogen (-196°C) at 1 atm (bp -186°C). The argon column produces crude argon (95-98% Ar, remainder O₂ and N₂), which is further purified by catalytic deoxidation (H₂ + O₂ → H₂O over Pd catalyst) and cryogenic distillation to remove nitrogen. Final purity: 99.999% Ar.
+
+### Non-Cryogenic Alternatives
+
+**Pressure Swing Adsorption (PSA) nitrogen**: Carbon molecular sieve (CMS) adsorbs O₂ faster than N₂. Compressed air (7-10 bar) passes through a CMS bed — O₂ is adsorbed, N₂ passes through as product. When bed saturates, switch to second bed while first regenerates by depressurizing. Cycle time: 60-120 seconds. Purity: 95-99.5% N₂. Flow: 1-3000 Nm³/h. Energy: 0.3-0.5 kWh/Nm³ N₂. Used for inerting, blanketing, food packaging.
+
+**Vacuum Swing Adsorption (VSA) oxygen**: Lithium-exchanged zeolite (LiLSX) selectively adsorbs N₂ from air at near-ambient pressure (1.2-1.5 bar). Desorption by applying vacuum (50-100 mbar). Simpler than PSA (no compressor — blower only), lower energy. Purity: 90-93% O₂. Flow: 5-150 tonnes/day. Suitable for steelmaking, glass furnaces, wastewater treatment.
+
+**Membrane separation**: Hollow fiber polymer membranes (polyimide or polysulfone) — O₂ permeates faster than N₂ due to smaller molecular size and higher solubility. Compressed air (7-12 bar) flows through fiber bores; O₂-rich permeate exits the shell side. No moving parts, modular, compact. N₂ purity: 95-99% (higher purity = lower recovery = higher energy). Typical: 500 Nm³/h N₂ at 97% purity, energy 0.4-1.0 kWh/Nm³. Used for tire inflation, fuel tank inerting, small-scale chemical processing.
+
 ### Bootstrap Sequence
 
 For a civilization rebuilding industrial chemistry from scratch, air separation capability develops in stages:

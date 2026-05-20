@@ -100,6 +100,12 @@ chemistry_internal: "Chemistry — Internal Structure" {
   chemistry_explosives: Explosives and Propellants
   chemistry_petroleum-alternatives_fermentation: Fermentation Chemistry
   chemistry_petroleum-alternatives_wood-gasification: Wood Gasification
+  chemistry_ammonia: "Ammonia & Fertilizer Production"
+  chemistry_soap: "Soap & Detergent Production"
+  chemistry_solvents: Solvent Production
+  chemistry_refractories: Refractory Materials
+  chemistry_coatings: "Paints, Coatings & Inks"
+  chemistry_pulp-chemicals: "Pulp & Paper Chemicals"
 }
 
 # ==================== DOMAIN NODE ====================
@@ -152,6 +158,12 @@ health: "Public Health, Sanitation & Medicine" {
   shape: rectangle
 }
 health_pharmacology: Pharmacology {
+  shape: rectangle
+}
+knowledge: "Knowledge Preservation & Education" {
+  shape: rectangle
+}
+knowledge_writing: "Writing & Record-Keeping" {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
@@ -208,7 +220,13 @@ silicon_crystal-growth: "Crystal Growth & Wafering" {
 silicon_purification: Silicon Purification {
   shape: rectangle
 }
+textiles: "Textiles, Fiber & Cordage" {
+  shape: rectangle
+}
 textiles_dyeing: Dyeing {
+  shape: rectangle
+}
+transport: "Transportation & Logistics" {
   shape: rectangle
 }
 transport_aviation: Aviation {
@@ -227,6 +245,18 @@ chemistry_explosives -> chemistry_acids: { class: material-edge }
 chemistry_explosives -> chemistry_alkalis: { class: material-edge }
 chemistry_petroleum-alternatives_fermentation -> chemistry_petroleum-alternatives: { class: tool-edge }
 chemistry_petroleum-alternatives_wood-gasification -> chemistry_petroleum-alternatives: { class: tool-edge }
+chemistry_ammonia -> chemistry_air-separation: { class: material-edge }
+chemistry_ammonia -> chemistry_electrolysis: { class: material-edge }
+chemistry_acids -> chemistry_ammonia: { class: material-edge }
+chemistry_soap -> chemistry_alkalis: { class: material-edge }
+chemistry_soap -> chemistry_petroleum-alternatives: { class: material-edge }
+chemistry_solvents -> chemistry_petroleum-alternatives: { class: material-edge }
+chemistry_solvents -> chemistry_distillation: { class: tool-edge }
+chemistry_solvents -> chemistry_petroleum-alternatives_fermentation: { class: material-edge }
+chemistry_coatings -> chemistry_petroleum-alternatives: { class: material-edge }
+chemistry_coatings -> chemistry_acids: { class: material-edge }
+chemistry_pulp-chemicals -> chemistry_alkalis: { class: material-edge }
+chemistry_pulp-chemicals -> chemistry_electrolysis: { class: material-edge }
 energy_gravity -> chemistry_lubricants: { class: material-edge }
 energy_wind -> chemistry_lubricants: { class: material-edge }
 machine-tools -> chemistry_lubricants: { class: material-edge }
@@ -276,6 +306,19 @@ mining_extraction_black-powder -> chemistry_explosives: { class: material-edge }
 transport_telegraph -> chemistry_acids: { class: tool-edge }
 chemistry_explosives -> energy_fuels_charcoal: { class: material-edge }
 polymers_rubber_shellac -> chemistry_distillation: { class: material-edge }
+knowledge_writing -> chemistry: { class: tool-edge }
+chemistry_ammonia -> energy: { class: material-edge }
+chemistry_ammonia -> metals: { class: tool-edge }
+health -> chemistry_ammonia: { class: material-edge }
+health -> chemistry_soap: { class: material-edge }
+health -> chemistry_solvents: { class: material-edge }
+chemistry_refractories -> mining: { class: material-edge }
+chemistry_refractories -> ceramics_kilns: { class: tool-edge }
+metals -> chemistry_refractories: { class: material-edge }
+glass -> chemistry_refractories: { class: material-edge }
+transport -> chemistry_coatings: { class: material-edge }
+knowledge -> chemistry_pulp-chemicals: { class: material-edge }
+textiles -> chemistry_pulp-chemicals: { class: material-edge }
 
 # ==================== STYLING ====================
 chemistry.class: domain
@@ -293,6 +336,12 @@ chemistry_distillation.class: capability
 chemistry_explosives.class: capability
 chemistry_petroleum-alternatives_fermentation.class: process
 chemistry_petroleum-alternatives_wood-gasification.class: process
+chemistry_ammonia.class: critical
+chemistry_soap.class: earlyWin
+chemistry_solvents.class: capability
+chemistry_refractories.class: earlyWin
+chemistry_coatings.class: capability
+chemistry_pulp-chemicals.class: capability
 ceramics_kilns.class: external
 energy.class: external
 energy_cooling.class: external
@@ -309,6 +358,8 @@ glass.class: external
 glass_basic.class: external
 health.class: external
 health_pharmacology.class: external
+knowledge.class: external
+knowledge_writing.class: external
 machine-tools.class: external
 machine-tools_joining.class: external
 measurement.class: external
@@ -327,7 +378,9 @@ silicon.class: external
 silicon_basic-devices.class: external
 silicon_crystal-growth.class: external
 silicon_purification.class: external
+textiles.class: external
 textiles_dyeing.class: external
+transport.class: external
 transport_aviation.class: external
 transport_telegraph.class: external
 

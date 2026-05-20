@@ -100,6 +100,9 @@ textiles: "Textiles, Fiber & Cordage"
 chemistry: Chemistry {
   shape: rectangle
 }
+chemistry_pulp-chemicals: "Pulp & Paper Chemicals" {
+  shape: rectangle
+}
 energy_gravity: Water Power {
   shape: rectangle
 }
@@ -116,6 +119,12 @@ knowledge_printing: Paper and Printing Press {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+plants_dye-plants: Dye Plants {
+  shape: rectangle
+}
+plants_fiber-plants: Fiber Plants {
   shape: rectangle
 }
 transport_aviation: Aviation {
@@ -140,6 +149,10 @@ textiles_fibers -> foundations_tools-basic: { class: tool-edge }
 textiles_dyeing -> chemistry: { class: material-edge }
 transport_shipping -> textiles: { class: material-edge }
 knowledge_printing -> textiles_fibers: { class: material-edge }
+textiles_fibers -> plants_fiber-plants: { class: material-edge }
+plants_fiber-plants -> textiles_spinning: { class: material-edge }
+plants_dye-plants -> textiles_dyeing: { class: material-edge }
+textiles -> chemistry_pulp-chemicals: { class: material-edge }
 
 # ==================== STYLING ====================
 textiles.class: domain
@@ -149,12 +162,15 @@ textiles_weaving.class: capability
 textiles_dyeing.class: capability
 textiles_rope-making.class: capability
 chemistry.class: external
+chemistry_pulp-chemicals.class: external
 energy_gravity.class: external
 energy_wind.class: external
 foundations.class: external
 foundations_tools-basic.class: external
 knowledge_printing.class: external
 machine-tools.class: external
+plants_dye-plants.class: external
+plants_fiber-plants.class: external
 transport_aviation.class: external
 transport_shipping.class: external
 

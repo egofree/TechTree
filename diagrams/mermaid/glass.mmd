@@ -16,6 +16,7 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry("Chemistry")
     chemistry_acids("Mineral Acid Production")
+    chemistry_refractories("Refractory Materials")
     energy("Energy")
     energy_fuels("Fuel Production")
     machine-tools("Machine Tools Bootstrap")
@@ -34,6 +35,7 @@ graph TD
     silicon -.-> glass
     silicon_crystal-growth --> glass_advanced
     glass_advanced_glassblowing -.-> energy_fuels
+    glass --> chemistry_refractories
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -55,6 +57,7 @@ graph TD
     class glass_advanced_glassblowing process
     class chemistry external
     class chemistry_acids external
+    class chemistry_refractories external
     class energy external
     class energy_fuels external
     class machine-tools external

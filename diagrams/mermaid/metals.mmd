@@ -17,6 +17,8 @@ graph TD
     ceramics("Ceramics & Refractories")
     ceramics_kilns("Kiln Construction")
     chemistry("Chemistry")
+    chemistry_ammonia("Ammonia & Fertilizer Production")
+    chemistry_refractories("Refractory Materials")
     computing_mechanical("Mechanical Calculation")
     energy("Energy")
     energy_cooling("Cooling Systems & Refrigeration")
@@ -69,6 +71,8 @@ graph TD
     metals_iron-steel_blast-furnace -.-> ceramics_kilns
     transport_telegraph --> metals_iron-steel
     knowledge_printing -.-> metals_iron-steel
+    chemistry_ammonia -.-> metals
+    metals --> chemistry_refractories
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -91,6 +95,8 @@ graph TD
     class ceramics external
     class ceramics_kilns external
     class chemistry external
+    class chemistry_ammonia external
+    class chemistry_refractories external
     class computing_mechanical external
     class energy external
     class energy_cooling external

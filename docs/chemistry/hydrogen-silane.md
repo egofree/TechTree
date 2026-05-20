@@ -103,6 +103,30 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 - **Silane**: Electropolished stainless steel (316L or 304L) with PTFE-lined valves. VCR-type face-seal fittings — no elastomer O-rings (silane attacks many organics). All lines purged with N₂ or Ar before introducing silane. Minimum dead legs (pockets where gas can stagnate).
 - **Leak detection**: Thermal conductivity sensors (silane has different thermal conductivity than air). Hydrogen: catalytic sensors or electrochemical cells. Ultrasonic leak detectors for high-pressure lines. Check all joints with helium mass spectrometer during commissioning.
 
+### Hydrogen Purification Methods
+
+**Pressure Swing Adsorption (PSA)**: The standard method for purifying SMR-derived hydrogen. Four to twelve adsorption vessels in parallel, filled with layered beds: activated carbon (removes H₂O, CO₂), zeolite 5A (removes CH₄, CO), and zeolite 13X (final polishing). Feed gas (SMR output shifted to maximize H₂, CO₂ removed) at 15-30 bar passes through beds — impurities adsorbed, H₂ passes through at 99.97-99.999% purity. Recovery: 75-90% of feed hydrogen. Cycle: 3-10 minutes per vessel. PSA tail gas (containing CO, CO₂, CH₄) used as fuel for the SMR furnace — improves overall thermal efficiency to 70-80%.
+
+**Palladium membrane diffusion**: Hydrogen dissociates on a Pd or Pd-Ag alloy surface, diffuses through the metal lattice as atomic H, and recombines on the permeate side. Only hydrogen passes — impurities blocked. Purity: 99.99999% (7 nines). Flow: proportional to membrane area and √(pressure difference). Operating temperature: 300-400°C. Pd-Ag alloy (23% Ag) preferred — pure Pd suffers hydrogen embrittlement below 300°C. Membrane thickness: 20-100 µm (thinner = higher flux but mechanically fragile). Used for semiconductor-grade hydrogen where ultra-high purity is critical.
+
+**Cryogenic separation**: Not common for H₂ purification alone, but used in syngas plants to recover H₂ and CO separately. Hydrogen (bp -253°C) is the most volatile component — remains as gas while CO, CH₄, CO₂ condense. Purity: 95-98% H₂. Used in refinery and methanol plants.
+
+### Silane Production — Detailed Process Routes
+
+**Metallurgical-grade silicon route** (dominant): (1) MG-Si (98-99% Si, produced from quartz + carbon in electric arc furnace at 1900°C) ground to powder <150 µm. (2) React with HCl gas at 300-400°C in a fluidized bed: Si + 3HCl → SiHCl₃ + H₂ (trichlorosilane, TCS). (3) Purify TCS by distillation (bp 31.8°C) — multiple distillation columns remove Fe, Al, B, P chlorides. (4) Reduce TCS with hydrogen in a Siemens reactor: SiHCl₃ + H₂ → Si + 3HCl. Polysilicon rods heated to 1100-1200°C by direct current; TCS + H₂ gas flows over rods; silicon deposits on rod surface. Rods grow from 8 mm to 150-200 mm over 5-7 days. Energy: 100-200 kWh/kg polysilicon (traditional Siemens).
+
+**Fluidized bed reactor (FBR)**: Alternative to Siemens — TCS or silane gas injected into a fluidized bed of silicon seed particles at 600-800°C. Silicon deposits on seed particles, which grow from 0.1 mm to 1-2 mm and are continuously withdrawn. Energy: 15-30 kWh/kg — 5-10× more efficient than Siemens. REC Silicon, Hemlock Semiconductor operate FBR plants. Challenge: maintaining uniform particle size and avoiding agglomeration.
+
+**Direct silane route**: TCS further converted to silane by catalytic disproportionation: 4SiHCl₃ → SiH₄ + 3SiCl₄ (over amine catalyst, 60-80°C). Silane purified by cryogenic distillation (bp -112°C). Silane is pyrophoric (ignites spontaneously in air) — handling requires extreme care. Used primarily in FBR polysilicon production and semiconductor CVD (chemical vapor deposition) for epitaxial silicon and silicon nitride (Si₃N₄) layers.
+
+### Semiconductor-Grade Gases Beyond Silane
+
+**Dopant gases**: Arsine (AsH₃) and phosphine (PH₃) — extremely toxic (IDLH 3 ppm and 50 ppm respectively). Used in ion implantation and epitaxial doping. Stored in cylinder cabinets with gas detectors, automatic shutoff valves, and scrubbers (thermal oxidation or wet chemical). Boron trifluoride (BF₃) — p-type dopant, less toxic but corrosive.
+
+**Etch gases**: Perfluorocarbons (CF₄, C₂F₆, C₃F₈, C₄F₈) and chlorofluorocarbons (CHF₃, SF₆). Generate reactive fluorine radicals in plasma for silicon and silicon dioxide etching. Environmental concern: very high global warming potential (CF₄: 6500× CO₂). Nitrogen trifluoride (NF₃) increasingly used — can be abated in exhaust with higher destruction efficiency (>99%) than CF₄.
+
+**CVD precursor gases**: Tungsten hexafluoride (WF₆) for tungsten metallization. Tetraethylorthosilicate (TEOS, Si(OC₂H₅)₄) for oxide deposition. Trimethylaluminum (TMA, Al(CH₃)₃) for Al₂O₃ dielectric — pyrophoric. Tetramethylammonium hydroxide (TMAH) for silicon etching.
+
 ### Safety
 
 - **Hydrogen flammability**: H₂ has an extremely wide explosive range in air — 4-75% concentration (by volume). The lower explosive limit (LEL) of 4% is the primary concern; even small leaks can create explosive atmospheres in confined spaces. Hydrogen flames are nearly invisible in daylight — detect by thermal imaging, not visual observation. Minimum ignition energy: 0.017 mJ (10× lower than gasoline vapor — static electricity sparks can ignite H₂). All H₂ systems must be electrically bonded and grounded.

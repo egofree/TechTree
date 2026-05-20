@@ -104,6 +104,12 @@ ceramics_kilns: Kiln Construction {
 chemistry: Chemistry {
   shape: rectangle
 }
+chemistry_ammonia: "Ammonia & Fertilizer Production" {
+  shape: rectangle
+}
+chemistry_refractories: Refractory Materials {
+  shape: rectangle
+}
 computing_mechanical: Mechanical Calculation {
   shape: rectangle
 }
@@ -200,6 +206,8 @@ metals_iron-steel_blast-furnace -> energy_fuels_coke: { class: material-edge }
 metals_iron-steel_blast-furnace -> ceramics_kilns: { class: tool-edge }
 transport_telegraph -> metals_iron-steel: { class: material-edge }
 knowledge_printing -> metals_iron-steel: { class: tool-edge }
+chemistry_ammonia -> metals: { class: tool-edge }
+metals -> chemistry_refractories: { class: material-edge }
 
 # ==================== STYLING ====================
 metals.class: domain
@@ -209,6 +217,8 @@ metals_iron-steel_blast-furnace.class: process
 ceramics.class: external
 ceramics_kilns.class: external
 chemistry.class: external
+chemistry_ammonia.class: external
+chemistry_refractories.class: external
 computing_mechanical.class: external
 energy.class: external
 energy_cooling.class: external

@@ -3983,6 +3983,167 @@
       "taxonomy": [
         "biomass.plant.structural.artemisia-capillaris"
       ]
+    },
+    {
+      "id": "chemistry.ammonia",
+      "name": "Ammonia & Fertilizer Production",
+      "level": "capability",
+      "parent": "chemistry",
+      "description": "Haber-Bosch synthesis of ammonia (N2 + 3H2 → 2NH3) at 400-500°C, 15-30 MPa over Fe catalyst. Ostwald process oxidation to nitric acid. Fertilizer production: ammonium nitrate, urea, ammonium sulfate, superphosphate. Feeds half the world's population.",
+      "timeline": "Years 20-50",
+      "outputs": [
+        "ammonia",
+        "ammonium_nitrate",
+        "urea",
+        "fertilizers"
+      ],
+      "critical": true,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals",
+          "gases"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "chemistry.soap",
+      "name": "Soap & Detergent Production",
+      "level": "capability",
+      "parent": "chemistry",
+      "description": "Saponification of fats/oils with NaOH or KOH to produce soap and glycerol. Industrial continuous saponification, spray drying, synthetic detergents (LAS). Glycerol recovery for explosives and pharmaceuticals.",
+      "timeline": "Years 5-30",
+      "outputs": [
+        "soap",
+        "detergents",
+        "glycerol"
+      ],
+      "critical": false,
+      "early_win": true,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "chemistry.solvents",
+      "name": "Solvent Production",
+      "level": "capability",
+      "parent": "chemistry",
+      "description": "Industrial solvents: ethanol, methanol, diethyl ether, turpentine, benzene/toluene/xylene, hydrogen peroxide (anthraquinone process), chlorinated solvents, carbon disulfide. Solvent selection by polarity, boiling point, toxicity. Recovery via distillation.",
+      "timeline": "Years 15-40",
+      "outputs": [
+        "solvents",
+        "hydrogen_peroxide"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "chemistry.refractories",
+      "name": "Refractory Materials",
+      "level": "capability",
+      "parent": "chemistry",
+      "description": "Firebrick, alumina, magnesite, and insulating refractories for furnace linings above 1500°C. Crucible production (clay-graphite, SiC). Castable refractories and kiln furniture. Essential for metals, glass, cement, and ceramic kilns.",
+      "timeline": "Years 10-30",
+      "outputs": [
+        "refractories",
+        "firebrick",
+        "crucibles"
+      ],
+      "critical": true,
+      "early_win": true,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "ceramics",
+          "stone"
+        ],
+        "capability": [
+          "construction"
+        ],
+        "era": "industrial",
+        "critical": true,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "chemistry.coatings",
+      "name": "Paints, Coatings & Inks",
+      "level": "capability",
+      "parent": "chemistry",
+      "description": "Paint chemistry (pigment + binder + solvent), nitrocellulose dope for aircraft fabric, varnishes and lacquers, ink chemistry (iron gall, carbon, printing inks), rust prevention primers, heat-resistant coatings.",
+      "timeline": "Years 15-50",
+      "outputs": [
+        "paints",
+        "coatings",
+        "inks",
+        "varnishes"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "chemistry.pulp-chemicals",
+      "name": "Pulp & Paper Chemicals",
+      "level": "capability",
+      "parent": "chemistry",
+      "description": "Kraft pulping chemistry (white liquor NaOH+Na2S), bleaching (ClO2, H2O2), sizing agents (alum, AKD, rosin), fillers (CaCO3, kaolin, TiO2). Recovery boiler cycle: black liquor → green liquor → white liquor.",
+      "timeline": "Years 15-40",
+      "outputs": [
+        "white_liquor",
+        "bleaching_chemicals",
+        "sizing_agents"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     }
   ]
 }

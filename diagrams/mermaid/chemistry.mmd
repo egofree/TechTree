@@ -19,6 +19,12 @@ graph TD
         chemistry_explosives["Explosives and Propellants"]
         chemistry_petroleum-alternatives_fermentation["Fermentation Chemistry"]
         chemistry_petroleum-alternatives_wood-gasification["Wood Gasification"]
+        chemistry_ammonia["Ammonia & Fertilizer Production"]
+        chemistry_soap["Soap & Detergent Production"]
+        chemistry_solvents["Solvent Production"]
+        chemistry_refractories["Refractory Materials"]
+        chemistry_coatings["Paints, Coatings & Inks"]
+        chemistry_pulp-chemicals["Pulp & Paper Chemicals"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -41,6 +47,7 @@ graph TD
     glass_basic("Basic Glass Production")
     health("Public Health, Sanitation & Medicine")
     health_pharmacology("Pharmacology")
+    knowledge("Knowledge Preservation & Education")
     knowledge_writing("Writing & Record-Keeping")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_joining("Metal Joining")
@@ -60,7 +67,9 @@ graph TD
     silicon_basic-devices("Basic Semiconductor Devices")
     silicon_crystal-growth("Crystal Growth & Wafering")
     silicon_purification("Silicon Purification")
+    textiles("Textiles, Fiber & Cordage")
     textiles_dyeing("Dyeing")
+    transport("Transportation & Logistics")
     transport_aviation("Aviation")
     transport_telegraph("Telegraph Communication")
 
@@ -73,6 +82,18 @@ graph TD
     chemistry_explosives --> chemistry_alkalis
     chemistry_petroleum-alternatives_fermentation -.-> chemistry_petroleum-alternatives
     chemistry_petroleum-alternatives_wood-gasification -.-> chemistry_petroleum-alternatives
+    chemistry_ammonia --> chemistry_air-separation
+    chemistry_ammonia --> chemistry_electrolysis
+    chemistry_acids --> chemistry_ammonia
+    chemistry_soap --> chemistry_alkalis
+    chemistry_soap --> chemistry_petroleum-alternatives
+    chemistry_solvents --> chemistry_petroleum-alternatives
+    chemistry_solvents -.-> chemistry_distillation
+    chemistry_solvents --> chemistry_petroleum-alternatives_fermentation
+    chemistry_coatings --> chemistry_petroleum-alternatives
+    chemistry_coatings --> chemistry_acids
+    chemistry_pulp-chemicals --> chemistry_alkalis
+    chemistry_pulp-chemicals --> chemistry_electrolysis
     energy_gravity --> chemistry_lubricants
     energy_wind --> chemistry_lubricants
     machine-tools --> chemistry_lubricants
@@ -123,6 +144,18 @@ graph TD
     chemistry_explosives --> energy_fuels_charcoal
     polymers_rubber_shellac --> chemistry_distillation
     knowledge_writing -.-> chemistry
+    chemistry_ammonia --> energy
+    chemistry_ammonia -.-> metals
+    health --> chemistry_ammonia
+    health --> chemistry_soap
+    health --> chemistry_solvents
+    chemistry_refractories --> mining
+    chemistry_refractories -.-> ceramics_kilns
+    metals --> chemistry_refractories
+    glass --> chemistry_refractories
+    transport --> chemistry_coatings
+    knowledge --> chemistry_pulp-chemicals
+    textiles --> chemistry_pulp-chemicals
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -153,6 +186,12 @@ graph TD
     class chemistry_explosives capability
     class chemistry_petroleum-alternatives_fermentation process
     class chemistry_petroleum-alternatives_wood-gasification process
+    class chemistry_ammonia critical
+    class chemistry_soap earlyWin
+    class chemistry_solvents capability
+    class chemistry_refractories earlyWin
+    class chemistry_coatings capability
+    class chemistry_pulp-chemicals capability
     class ceramics_kilns external
     class energy external
     class energy_cooling external
@@ -169,6 +208,7 @@ graph TD
     class glass_basic external
     class health external
     class health_pharmacology external
+    class knowledge external
     class knowledge_writing external
     class machine-tools external
     class machine-tools_joining external
@@ -188,7 +228,9 @@ graph TD
     class silicon_basic-devices external
     class silicon_crystal-growth external
     class silicon_purification external
+    class textiles external
     class textiles_dyeing external
+    class transport external
     class transport_aviation external
     class transport_telegraph external
     class EdgeLegend,MatNote,ToolNote legend

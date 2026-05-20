@@ -17,6 +17,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry("Chemistry")
+    chemistry_pulp-chemicals("Pulp & Paper Chemicals")
     energy_gravity("Water Power")
     energy_wind("Wind Power")
     foundations("Foundations")
@@ -46,6 +47,7 @@ graph TD
     textiles_fibers --> plants_fiber-plants
     plants_fiber-plants --> textiles_spinning
     plants_dye-plants --> textiles_dyeing
+    textiles --> chemistry_pulp-chemicals
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -68,6 +70,7 @@ graph TD
     class textiles_dyeing capability
     class textiles_rope-making capability
     class chemistry external
+    class chemistry_pulp-chemicals external
     class energy_gravity external
     class energy_wind external
     class foundations external

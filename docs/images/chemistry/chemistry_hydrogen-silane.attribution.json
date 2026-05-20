@@ -1,10 +1,10 @@
 {
-  "title": "OJ L 335 of 2019 - EN English",
-  "description": "Official Journal of the European Union - L 335 of 27 December 2019 - English edition",
-  "author": "Publications Office of the European Union",
-  "license": "Public domain",
-  "license_url": "",
-  "source_url": "https://commons.wikimedia.org/wiki/File:OJ_L_335_of_2019_-_EN_English.pdf",
-  "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/OJ_L_335_of_2019_-_EN_English.pdf",
-  "attribution_md": "OJ L 335 of 2019 - EN English\nOfficial Journal of the European Union - L 335 of 27 December 2019 - English edition\n\nImage: Publications Office of the European Union ([source](https://commons.wikimedia.org/wiki/File:OJ_L_335_of_2019_-_EN_English.pdf))\nLicense: Public domain"
+  "title": "Calculation of the chemical potential of hypothetical Van der Waals gases",
+  "description": "This is a Maple code leading to the calculation of the expression of the chemical potential of Van der Waals gases as functions of pressure and temperature.",
+  "author": "E-gabrielyan",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Calculation_of_the_chemical_potential_of_hypothetical_Van_der_Waals_gases.png",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Calculation_of_the_chemical_potential_of_hypothetical_Van_der_Waals_gases.png",
+  "attribution_md": "Calculation of the chemical potential of hypothetical Van der Waals gases\nThis is a Maple code leading to the calculation of the expression of the chemical potential of Van der Waals gases as functions of pressure and temperature.\n\nImage: E-gabrielyan ([source](https://commons.wikimedia.org/wiki/File:Calculation_of_the_chemical_potential_of_hypothetical_Van_der_Waals_gases.png))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
 }

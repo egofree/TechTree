@@ -1,10 +1,9 @@
 {
-  "title": "Planewave at an interface 0 degrees TIR",
-  "description": "Reflection and transmission of a plane wave from an interface of materials with refractive indices of n1=1.5 and n2=1.0. Notice how wavelength of the wave changes when the wave is pasing from high index to low index side.",
-  "author": "TapioKNiemi",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "source_url": "https://commons.wikimedia.org/wiki/File:Planewave_at_an_interface_0_degrees_TIR.gif",
-  "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Planewave_at_an_interface_0_degrees_TIR.gif",
-  "attribution_md": "Planewave at an interface 0 degrees TIR\nReflection and transmission of a plane wave from an interface of materials with refractive indices of n1=1.5 and n2=1.0. Notice how wavelength of the wave changes when the wave is pasing from high index to low index side.\n\nImage: TapioKNiemi ([source](https://commons.wikimedia.org/wiki/File:Planewave_at_an_interface_0_degrees_TIR.gif))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
+  "title": "Google Glass Explorer Optics Schematic",
+  "description": "Cross section of an eyepiece (200), for use in a head mounted display (HMD) with components:\n120 - viewer's eye\n200 - heads-up display eyepiece including:\n201 - ambient scene side of eyepiece\n202 - eyeward side of eyepiece\n203 - forward light propagation path\n204 - reverse light propagation path\n205 - frame holding components\n210 - in-coupling Polarizing Beam Splitter (PBS)\n215 - out-coupling partially reflecting half-silvered mirror\n230 - illumination region\n235 - viewing region\n240 - illumination assembly including an LED array with red, green, and blue LEDs and a polarization conversion system composed of a reflector, a wedge with a microlens array, a polarizing diffuser, and a crossed wire-grid polarizer.[1]\n245 - Liquid Crystal on Silicon (LCoS) display\n250 - plano-convex collimating lens with astigmatism correction; 81.87mm vertical radius, 83.20mm horizontal radius\n255 - reflector; formed using a reflective coating on lens 250\n270 - external scene",
+  "author": "Gupta, Anurag.; Amirparviz, Babak; Sharma, Sumit; Raffle, Hayes S.; Wang, Chia-Jean",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Google_Glass_Explorer_Optics_Schematic.png",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Google_Glass_Explorer_Optics_Schematic.png"
 }

@@ -1,10 +1,9 @@
 {
-  "title": "Energy carrier",
-  "description": "Types of energy carriers",
-  "author": "Timgan",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "source_url": "https://commons.wikimedia.org/wiki/File:Energy_carrier.jpg",
-  "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Energy_carrier.jpg",
-  "attribution_md": "Energy carrier\nTypes of energy carriers\n\nImage: Timgan ([source](https://commons.wikimedia.org/wiki/File:Energy_carrier.jpg))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
+  "title": "Employment in selected energy subsectors, 2019",
+  "description": "The power grids section includes transmission, distribution, and storage. Low-carbon power generation includes nuclear and renewables. EV's includes the manufacturing of batteries. This graphic was published as part of the World Energy Employment report.",
+  "author": "International Energy Agency",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Employment_in_selected_energy_subsectors,_2019.png",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Employment_in_selected_energy_subsectors%2C_2019.png"
 }

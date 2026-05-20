@@ -1,10 +1,10 @@
 {
-  "title": "Semi-automated testing of reproducibility and robustness of the cancer biology literature by robot",
-  "description": "\"The overall process of testing the reproducibility and robustness of the cancer biology literature by robot. First, text mining is used to extract statements about the effect of drugs on gene expression in breast cancer. Then two different teams semi-automatically tested these statements using two different protocols, and two different cell lines (MCF7 and MDA-MB-231) using the laboratory automation system Eve.\"",
-  "author": "Authors of the study: Katherine Roper, A. Abdel-Rehim, Sonya Hubbard, Martin Carpenter, Andrey Rzhetsky, Larisa Soldatova and Ross D. King",
-  "license": "CC BY 4.0",
-  "license_url": "https://creativecommons.org/licenses/by/4.0",
-  "source_url": "https://commons.wikimedia.org/wiki/File:Semi-automated_testing_of_reproducibility_and_robustness_of_the_cancer_biology_literature_by_robot.jpg",
-  "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Semi-automated_testing_of_reproducibility_and_robustness_of_the_cancer_biology_literature_by_robot.jpg",
-  "attribution_md": "Semi-automated testing of reproducibility and robustness of the cancer biology literature by robot\n\"The overall process of testing the reproducibility and robustness of the cancer biology literature by robot. First, text mining is used to extract statements about the effect of drugs on gene expression in breast cancer. Then two different teams semi-automatically tested these statements using two different protocols, and two different cell lines (MCF7 and MDA-MB-231) using the laboratory automation system Eve.\"\n\nImage: Authors of the study: Katherine Roper, A. Abdel-Rehim, Sonya Hubbard, Martin Carpenter, Andrey Rzhetsky, Larisa Soldatova and Ross D. King ([source](https://commons.wikimedia.org/wiki/File:Semi-automated_testing_of_reproducibility_and_robustness_of_the_cancer_biology_literature_by_robot.jpg))\nLicense: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)"
+  "title": "Introduction to malayalam computing by santhosh thottingal",
+  "description": "kerala university malayalam computing workshop",
+  "author": "Indurema",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Introduction_to_malayalam_computing_by_santhosh_thottingal.jpg",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Introduction_to_malayalam_computing_by_santhosh_thottingal.jpg",
+  "attribution_md": "Introduction to malayalam computing by santhosh thottingal\nkerala university malayalam computing workshop\n\nImage: Indurema ([source](https://commons.wikimedia.org/wiki/File:Introduction_to_malayalam_computing_by_santhosh_thottingal.jpg))\nLicense: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
 }

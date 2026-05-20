@@ -1,10 +1,10 @@
 {
-  "title": "Sanitation and Drinking Water Global Map",
-  "description": "The 2022 EPI sanitation and drinking water issue category includes the following indicators: unsafe sanitation and unsafe drinking water. All indicators and composite indices in the EPI are normalized as a 0–100 proximity-to-target score, with 100 representing \"at target\" and 0 being furthest from the target.",
-  "author": "SEDACMaps",
+  "title": "World map of total official financial flows for water supply and sanitation, by recipient, 2020, OWID",
+  "description": "water supply",
+  "author": "MDWiki(from Our World In Data)",
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0",
-  "source_url": "https://commons.wikimedia.org/wiki/File:Sanitation_and_Drinking_Water_Global_Map.jpg",
-  "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sanitation_and_Drinking_Water_Global_Map.jpg",
-  "attribution_md": "Sanitation and Drinking Water Global Map\nThe 2022 EPI sanitation and drinking water issue category includes the following indicators: unsafe sanitation and unsafe drinking water. All indicators and composite indices in the EPI are normalized as a 0–100 proximity-to-target score, with 100 representing \"at target\" and 0 being furthest from the target.\n\nImage: SEDACMaps ([source](https://commons.wikimedia.org/wiki/File:Sanitation_and_Drinking_Water_Global_Map.jpg))\nLicense: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)"
+  "source_url": "https://commons.wikimedia.org/wiki/File:World_map_of_total_official_financial_flows_for_water_supply_and_sanitation,_by_recipient,_2020,_OWID.png",
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/World_map_of_total_official_financial_flows_for_water_supply_and_sanitation%2C_by_recipient%2C_2020%2C_OWID.png",
+  "attribution_md": "World map of total official financial flows for water supply and sanitation, by recipient, 2020, OWID\nwater supply\n\nImage: MDWiki(from Our World In Data) ([source](https://commons.wikimedia.org/wiki/File:World_map_of_total_official_financial_flows_for_water_supply_and_sanitation,_by_recipient,_2020,_OWID.png))\nLicense: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)"
 }

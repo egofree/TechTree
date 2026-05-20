@@ -9,10 +9,10 @@ import json
 import re
 import sys
 import time
-import urllib.error
-import urllib.parse
-import urllib.request
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.wiki_client import WikiClient
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = SCRIPT_DIR.parent
@@ -21,11 +21,8 @@ NODES_FILE = DATA_DIR / "nodes.json"
 MANIFEST_FILE = DATA_DIR / "images.json"
 IMAGES_DIR = PROJECT_DIR / "docs" / "images"
 
-API_URL = "https://commons.wikimedia.org/w/api.php"
+wiki = WikiClient()
 
-HEADERS = {
-    "User-Agent": "BootCivImageBot/1.0 (https://github.com/bootciv; educational CC0 project)"
-}
 
 SAFE_LICENSES = {
     "cc0", "public domain", "public domain mark", "pd-old-70", "pd-old-100",
@@ -42,22 +39,6 @@ MIME_EXT = {
     "image/webp": ".webp",
     "image/tiff": ".tiff",
 }
-
-
-def api_request(params, retry=True):
-    qs = urllib.parse.urlencode(params)
-    url = "{}?{}".format(API_URL, qs)
-    req = urllib.request.Request(url, headers=HEADERS)
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return json.loads(resp.read().decode("utf-8"))
-    except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as exc:
-        if retry:
-            print("    Retry after error: {}".format(exc))
-            time.sleep(5)
-            return api_request(params, retry=False)
-        print("    Skipping due to error: {}".format(exc))
-        return None
 
 
 def license_is_safe(license_short):
@@ -165,15 +146,11 @@ def download_image(url, dest_path):
     if dest_path.exists():
         return True
     dest_path.parent.mkdir(parents=True, exist_ok=True)
-    req = urllib.request.Request(url, headers=HEADERS)
-    try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            data = resp.read()
-        dest_path.write_bytes(data)
-        return True
-    except (urllib.error.URLError, urllib.error.HTTPError, OSError) as exc:
-        print("    Download failed: {}".format(exc))
+    data = wiki.get(url=url)
+    if data is None:
         return False
+    dest_path.write_bytes(data)
+    return True
 
 
 def build_attribution_md(candidate):
@@ -250,7 +227,7 @@ def process_node(node, manifest, args, index, total):
             "iiextmetadatafilter": "LicenseShortName|License|LicenseUrl|Artist|ImageDescription|ObjectName|Categories",
             "iiurlwidth": "800",
         }
-        data = api_request(params)
+        data = wiki.get_json(params=params)
         candidates = parse_candidates(data, args.limit)
         for c in candidates:
             if c["file_title"] not in seen_titles:

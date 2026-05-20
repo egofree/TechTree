@@ -59,7 +59,7 @@ This capability covers the selection, harvesting, processing, and structural use
 - **Elevated foundations**: Set posts on flat stones rather than directly in soil. Stone capillary break prevents rot at the critical ground-line zone. Simplest and most effective preservation method.
 
 **Thatch roofing**:
-- **Materials**: Reed (Phragmites), long straw (wheat, rye), heather, bracken, palm fronds. Reeds last 50-80 years; straw thatch lasts 15-25 years.
+- **Materials**: Reed (*Phragmites*), long straw (wheat, rye), heather, bracken, palm fronds. Reeds last 50-80 years; straw thatch lasts 15-25 years.
 - **Technique**: Bundle stems, lay in courses 300 mm thick, secure with hazel or willow spars (split rods twisted into staples). Layer from eaves to ridge, each course overlapping the one below. Ridge capped with woven turves or a decorative top layer.
 - **Pitch**: Minimum 45° slope for water shedding. Steeper is better — 50-55° is ideal.
 - **Fire risk**: Thatch is extremely flammable. Spark arrestors on chimneys are mandatory. Lime wash or alum treatment provides marginal fire retardancy. Keep open flames and sparks well away.

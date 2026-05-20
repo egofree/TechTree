@@ -85,7 +85,7 @@ Most dye plants tolerate poor soils and require minimal inputs beyond weeding an
 
 Timing affects dye yield significantly:
 
-- **Leaves** (indigo, woad): Harvest before flowering when indican/g lucosinolate levels peak. Multiple harvests per season possible.
+- **Leaves** (indigo, woad): Harvest before flowering when indican/glucosinolate levels peak. Multiple harvests per season possible.
 - **Roots** (madder, bedstraw): Dig in autumn after 2-3 years of growth when pigment concentration is highest. Wash, dry, and store whole; chop just before use.
 - **Flowers** (weld, coreopsis, chamomile): Pick at full bloom. Dry in shade to preserve color.
 - **Hulls and bark** (walnut, oak): Collect green walnut hulls at nut harvest. Bark from pruned branches — never strip bark from live trees in rings.

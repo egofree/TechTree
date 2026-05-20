@@ -3536,7 +3536,9 @@
           "biomass",
           "fibers"
         ],
-        "capability": ["construction"],
+        "capability": [
+          "construction"
+        ],
         "era": "stone-age",
         "critical": false,
         "early-win": false,
@@ -3597,7 +3599,9 @@
           "biomass",
           "chemicals"
         ],
-        "capability": ["construction"],
+        "capability": [
+          "construction"
+        ],
         "era": "stone-age",
         "critical": false,
         "early-win": false,
@@ -3612,7 +3616,7 @@
       "name": "Allium ampeloprasum",
       "level": "process",
       "parent": "plants.edible-plants",
-      "description": "Allium ampeloprasum is a member of the onion genus Allium . The wild plant is commonly known as wild leek or broadleaf wild leek . Its native range includes southern Europe, southwestern Asia and North Africa, but it has been cultivated and naturalized in many other countries.",
+      "description": "Allium ampeloprasum is a member of the onion genus Allium . The wild plant is commonly known as wild leek or broadleaf wild leek . Its native range includes southern Europe, southwestern Asia and North Africa, but it has been cultivated and naturalized in many other countries",
       "timeline": "Years 0-10",
       "outputs": [
         "edible_plant_material"
@@ -3641,7 +3645,7 @@
       "name": "Artemisia absinthium",
       "level": "process",
       "parent": "plants.edible-plants",
-      "description": "Artemisia absinthium , otherwise known as common wormwood , is a species of Artemisia native to North Africa and temperate regions of Eurasia , and widely naturalized in Canada and the northern United States.",
+      "description": "Artemisia absinthium , otherwise known as common wormwood , is a species of Artemisia native to North Africa and temperate regions of Eurasia , and widely naturalized in Canada and the northern United States",
       "timeline": "Years 0-10",
       "outputs": [
         "edible_plant_material"
@@ -3670,7 +3674,7 @@
       "name": "Agave",
       "level": "process",
       "parent": "plants.edible-plants",
-      "description": "Agave ( / ə ˈ ɡ ɑː v i / ; .mw-parser-output .IPA-label-small{font-size:85%}.mw-parser-output .references .IPA-label-small,.mw-parser-output .infobox .IPA-label-small,.mw-parser-output .navbox .",
+      "description": "Agave",
       "timeline": "Years 0-10",
       "outputs": [
         "edible_plant_material"
@@ -3699,7 +3703,7 @@
       "name": "Bitter orange",
       "level": "process",
       "parent": "plants.edible-plants",
-      "description": "The bitter orange , sour orange , Seville orange , bigarade orange , or marmalade orange is the hybrid citrus tree species Citrus × aurantium , and its fruit. It is native to Southeast Asia and has been spread by humans to many parts of the world.",
+      "description": "The bitter orange , sour orange , Seville orange , bigarade orange , or marmalade orange is the hybrid citrus tree species Citrus × aurantium , and its fruit. It is native to Southeast Asia and has been spread by humans to many parts of the world",
       "timeline": "Years 0-10",
       "outputs": [
         "edible_plant_material"
@@ -3728,7 +3732,7 @@
       "name": "Balanites aegyptiaca",
       "level": "process",
       "parent": "plants.edible-plants",
-      "description": "Balanites aegyptiaca (also known as the Desert date , Egyptian balsam and Lalob in Sudan ) is a species of tree, classified as a member of either the Zygophyllaceae or the Balanitaceae.",
+      "description": "Balanites aegyptiaca (also known as the Desert date , Egyptian balsam and Lalob in Sudan ) is a species of tree, classified as a member of either the Zygophyllaceae or the Balanitaceae",
       "timeline": "Years 0-10",
       "outputs": [
         "edible_plant_material"
@@ -3757,7 +3761,7 @@
       "name": "Agrimonia pilosa",
       "level": "process",
       "parent": "plants.medicinal-plants",
-      "description": "Agrimonia pilosa also known as hairy agrimony , is a flowering plant in the family Rosaceae . It is distributed primarily over the Korean Peninsula , Japan, China, Siberia , and Eastern Europe .",
+      "description": "Agrimonia pilosa also known as hairy agrimony , is a flowering plant in the family Rosaceae . It is distributed primarily over the Korean Peninsula , Japan, China, Siberia , and Eastern Europe",
       "timeline": "Years 0-10",
       "outputs": [
         "medicinal_compounds"
@@ -3815,7 +3819,7 @@
       "name": "Artemisia douglasiana",
       "level": "process",
       "parent": "plants.medicinal-plants",
-      "description": "Artemisia douglasiana , known as California mugwort , Douglas's sagewort , or dream plant , is a western North American species of aromatic herb in the sunflower family .",
+      "description": "Artemisia douglasiana , known as California mugwort , Douglas's sagewort , or dream plant , is a western North American species of aromatic herb in the sunflower family",
       "timeline": "Years 0-10",
       "outputs": [
         "medicinal_compounds"
@@ -3844,7 +3848,7 @@
       "name": "Artemisia inculta",
       "level": "process",
       "parent": "plants.medicinal-plants",
-      "description": "Artemisia inculta is a rare perennial species of aromatic undershrub in the family Asteraceae , native to North Africa and select regions of the Middle East .",
+      "description": "Artemisia inculta is a rare perennial species of aromatic undershrub in the family Asteraceae , native to North Africa and select regions of the Middle East",
       "timeline": "Years 0-10",
       "outputs": [
         "medicinal_compounds"
@@ -3873,7 +3877,7 @@
       "name": "Botryodiscia",
       "level": "process",
       "parent": "plants.medicinal-plants",
-      "description": "Botryodiscia is a genus of flowering plants in the family Menispermaceae . It includes a single species, Botryodiscia tetrandra , is a herbaceous perennial vine or scrambling subshrub native native to southern China, Hainan, Taiwan, and Vietnam.",
+      "description": "Botryodiscia is a genus of flowering plants in the family Menispermaceae . It includes a single species, Botryodiscia tetrandra , is a herbaceous perennial vine or scrambling subshrub native native to southern China, Hainan, Taiwan, and Vietnam",
       "timeline": "Years 0-10",
       "outputs": [
         "medicinal_compounds"
@@ -3902,7 +3906,7 @@
       "name": "Allium paniculatum",
       "level": "process",
       "parent": "plants.fiber-plants",
-      "description": "Allium paniculatum , common name pale garlic , is a species of monocot in the family Amaryllidaceae . It is widely cultivated and is now naturalized in several places outside its native range. Allium paniculatum produces several egg-shaped bulbs, each up to 1.",
+      "description": "Allium paniculatum , common name pale garlic , is a species of monocot in the family Amaryllidaceae . It is widely cultivated and is now naturalized in several places outside its native range. Allium paniculatum produces several egg-shaped bulbs, each up to 1",
       "timeline": "Years 0-10",
       "outputs": [
         "plant_fiber"
@@ -3929,7 +3933,7 @@
       "name": "Amaranthus albus",
       "level": "process",
       "parent": "plants.fiber-plants",
-      "description": "Amaranthus albus is an annual species of flowering plant native to the Americas. Its common names include common tumbleweed , tumble pigweed , tumbleweed , prostrate pigweed , pigweed amaranth , white amaranth and white pigweed .",
+      "description": "Amaranthus albus is an annual species of flowering plant native to the Americas. Its common names include common tumbleweed , tumble pigweed , tumbleweed , prostrate pigweed , pigweed amaranth , white amaranth and white pigweed",
       "timeline": "Years 0-10",
       "outputs": [
         "plant_fiber"
@@ -3956,7 +3960,7 @@
       "name": "Artemisia capillaris",
       "level": "process",
       "parent": "plants.structural-plants",
-      "description": "Artemisia capillaris , (Chinese: 茵陈蒿 yīn chén hāo), the capillary wormwood , is a species of flowering plant in the wormwood genus Artemisia , family Asteraceae .",
+      "description": "Artemisia capillaris , (Chinese: 茵陈蒿 yīn chén hāo), the capillary wormwood , is a species of flowering plant in the wormwood genus Artemisia , family Asteraceae",
       "timeline": "Years 0-10",
       "outputs": [
         "structural_material"

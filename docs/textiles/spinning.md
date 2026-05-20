@@ -14,7 +14,7 @@
 
 **Spinning wheel** (the Metallurgy-Machine Tools stage transition, 10x throughput):
 - **Great wheel (walking wheel)**: Large (1-1.5 m) wheel turned by hand. Drive band (cord or leather belt) connects wheel groove to spindle assembly. Wheel rotation spins spindle at high speed — typical drive ratio 30:1 to 80:1. Spinner walks backward while drafting fiber away from spindle, then reverses direction to wind yarn onto spindle. No treadle — one hand turns wheel, other drafts fiber. Best for woolen spinning. Production: 200-500 m/hour.
-- **Treadle wheel (Saxony/flax wheel)**: Foot treadle drives wheel via crank, leaving both hands free for fiber control. Flyer and bobbin assembly: flyer (U-shaped bracket with hooks) adds twist, bobbin winds yarn at slightly different speed (controlled by Scotch tension or double-drive band). Ratios 8:1 to 20:1 (wheel revolutions per spindle revolution). Fine linen requires high ratio. Production: 300-800 m/hour. Requires precision woodwork and iron fittings for bearings.
+- **Treadle wheel (Saxony/flax wheel)**: Foot treadle drives wheel via crank, leaving both hands free for fiber control. Flyer and bobbin assembly: flyer (U-shaped bracket with hooks) adds twist, bobbin winds yarn at slightly different speed (controlled by Scotch tension or double-drive band). Ratios 8:1 to 20:1 (spindle revolutions per wheel revolution). Fine linen requires high ratio. Production: 300-800 m/hour. Requires precision woodwork and iron fittings for bearings.
 - **Charka (book charka)**: Small portable wheel, hand-cranked. For cotton. High speed, fine yarn.
 
 ### Thread Sizing Systems
@@ -45,7 +45,7 @@ The amount of twist directly determines yarn properties. Twist angle (angle betw
 
 Before fiber can be spun, it must be cleaned, opened, and aligned:
 
-- **Wool**: Shear fleece → sort by quality (shoulder and back = finest, britch and belly = coarsest) → wash in warm water (40-50°C) with mild alkali (soap or ammonia) to remove lanolin (wool grease, ~10-30% of raw fleece weight) and dirt → rinse thoroughly → dry → tease (pull apart by hand to open locks). Lanolin recovered from wash water is useful for waterproofing and lubrication.
+- **Wool**: Shear fleece → sort by quality (shoulder and back = finest, breech and belly = coarsest) → wash in warm water (40-50°C) with mild alkali (soap or ammonia) to remove lanolin (wool grease, ~10-30% of raw fleece weight) and dirt → rinse thoroughly → dry → tease (pull apart by hand to open locks). Lanolin recovered from wash water is useful for waterproofing and lubrication.
 - **Cotton**: Ginned (seeds removed by roller gin or saw gin) → willowed (beaten to open compressed bales and remove trash) → carded (see below).
 - **Flax (linen)**: Retted (soak stalks in water 5-14 days — bacteria dissolve pectin binding fibers to woody core) → break (crush woody core with flax brake) → scutch (beat with wooden blade to remove broken woody shives) → hackle (draw through iron combs to separate long line fibers from short tow). Line fibers produce fine, strong linen; tow produces coarse yarn for rope and sacking.
 

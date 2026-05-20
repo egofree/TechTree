@@ -64,7 +64,7 @@ Brushing hot pine tar onto finished rope preserves it against moisture, rot, and
 - **Tar source**: Pine tar produced by destructive distillation of pine wood (heartwood of Pinus species). Slow heating in a retort or covered pit drives off volatile compounds, leaving a dark, viscous tar.
 - **Application**: Heat tar to ~60-80°C (fluid but not smoking). Lay finished rope over a tarring kettle and brush hot tar along the length, working it into the rope strands with a tar brush. Ensure full penetration — surface coating alone is insufficient for long-term protection.
 - **Effects**: Tar saturates the fibers, making the rope water-repellent and rot-resistant. Significantly extends rope service life in marine environments (2-5x untreated rope life). Trade-offs: tarred rope is darker, stiffer, heavier, and rougher on hands. Tar makes rope harder to splice and knot (tar stiffens the strands).
-- **Wire rope transition**: In the late 19th century, steel wire rope progressively replaced fiber rope for standing rigging and heavy lifting. Tarred hemp/manila fiber rope continued for running rigging, mooring lines, and applications where flexibility and floatation were required.
+- **Wire rope transition**: In the late 19th century, steel wire rope progressively replaced fiber rope for standing rigging and heavy lifting. Tarred hemp/manila fiber rope continued for running rigging, mooring lines, and applications where flexibility and flotation were required.
 
 ### Breaking Strength
 

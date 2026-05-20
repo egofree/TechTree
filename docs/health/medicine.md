@@ -45,7 +45,7 @@
 **Body protection**:
 - **Leather aprons**: For blacksmithing, foundry work, welding. Heavy cowhide, waist to knee length.
 - **Rubber aprons**: For chemical handling. Sheet rubber with neck loop and waist ties.
-- **Cleanroom garments** (Photolithography): Woven synthetic coveralls, hoods, booties (from Polymers polymer fibers). Lint-free. Washed in ultra-pure water. Worn over street clothes. Changed every entry to cleanroom.
+- **Cleanroom garments** (Photolithography): Woven synthetic coveralls, hoods, booties (from synthetic polymer fibers — see Polymers). Lint-free. Washed in ultra-pure water. Worn over street clothes. Changed every entry to cleanroom.
 
 ### Surgical Capability
 
@@ -76,7 +76,7 @@
 **Chemical detectors**:
 - **Lead acetate paper**: Turns black in H₂S. Tape to hard hat or clip at breathing zone.
 - **Draeger-style tubes**: Glass tube filled with chemical reagent, calibrated markings. Draw known air volume through tube with hand pump. Color change length indicates gas concentration. Available for CO, H₂S, Cl₂, NH₃, NO₂, SO₂, and many others.
-- **Limulus paper for CO**: Palladium chloride paper turns dark when CO present. Imprecise but gives warning.
+- **Palladium chloride paper for CO**: Palladium chloride paper turns dark when CO present. Imprecise but gives warning.
 
 ### Dental Care
 

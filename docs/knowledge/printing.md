@@ -61,7 +61,7 @@
 
 ### Knowledge Distribution Impact
 
-Printing enables mass distribution of technical knowledge — process recipes, engineering drawings, scientific observations. Before printing, knowledge propagation was limited by the number of scribes (geometric growth — each copy requires full manual reproduction). After printing, exponential growth — each press run produces hundreds of identical copies from a single typesetting effort.
+Printing enables mass distribution of technical knowledge — process recipes, engineering drawings, scientific observations. Before printing, knowledge propagation was limited by the number of scribes (linear growth — each copy requires full manual reproduction). After printing, exponential growth — each press run produces hundreds of identical copies from a single typesetting effort.
 
 **Critical publications for civilization bootstrap**:
 - Process recipe compilations (metallurgy, glass, chemical recipes)

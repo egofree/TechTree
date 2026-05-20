@@ -65,7 +65,7 @@ Without propulsion technology, civilization is limited to ground and water trans
 - **Airfoil**: Clark Y or similar flat-bottom airfoil (easy to build — flat lower surface simplifies rib construction). Thickness 12-15% of chord. CLmax ~1.5 with plain flaps.
 
 **Structure**:
-- **Fuselage**: Steel tube (seamless mild steel or 4130 chromoly, 15-25 mm diameter × 0.9-1.5 mm wall) truss framework. Cut tubes to length, fit, weld joints (oxy-acetylene or oxy-propane brazing/welding). triangulated structure — every bay is a triangle for rigidity. Engine mount: heavier steel tubes (25-35 mm) at front, bolted to engine crankcase via rubber vibration isolators.
+- **Fuselage**: Steel tube (seamless mild steel or 4130 chromoly, 15-25 mm diameter × 0.9-1.5 mm wall) truss framework. Cut tubes to length, fit, weld joints (oxy-acetylene or oxy-propane brazing/welding). Triangulated structure — every bay is a triangle for rigidity. Engine mount: heavier steel tubes (25-35 mm) at front, bolted to engine crankcase via rubber vibration isolators.
 - **Wing spars**: Wood (Sitka spruce or Douglas fir — high strength-to-weight ratio, straight grain). Main spar: 50-80 mm × 25-40 mm rectangular cross-section (dimensions sized by bending load — must support aircraft weight + 3-4g maneuver loads). Rear spar: smaller (40-60 mm × 20-30 mm). Spars run full wingspan. Plywood shear web between spars (transfers loads between top and bottom spar caps → box spar construction, stronger than solid spar for same weight).
 - **Wing ribs**: Thin plywood (2-3 mm) or built-up wood (capstrips + gussets). Airfoil shape cut into rib. Spars pass through notches in ribs. Ribs spaced 200-400 mm along span. Maintain airfoil shape between spars. Attach fabric covering to rib flanges.
 - **Struts and bracing**: Steel tube lift struts (20-25 mm diameter) from fuselage to wing spar — carry wing loads to fuselage. Flying wires (steel piano wire, 3-5 mm diameter, in tension) brace wings against positive and negative g-loads. Landing wires brace against negative loads. Turnbuckles on all wires for tension adjustment and rigging (set wing incidence and dihedral angle).
@@ -146,7 +146,7 @@ Without propulsion technology, civilization is limited to ground and water trans
 
 - **Engine failure in flight**: Plan glide approaches (identify emergency landing spots). Aircraft must be able to glide without engine (glide ratio 8:1 typical for ultralight — at 50 m altitude, can glide 400 m to landing).
 - **Structural failure**: Do not exceed design load limits (typically +4g / -2g). Avoid steep spirals, high-speed dives, abrupt control inputs. Progressive flight envelope expansion.
-- **Fire**: Fuel + hot engine + air. Firewal (steel sheet between engine and cockpit). Fuel lines routed away from exhaust. No fuel leaks tolerated. Fire extinguisher accessible in cockpit.
+- **Fire**: Fuel + hot engine + air. Firewall (steel sheet between engine and cockpit). Fuel lines routed away from exhaust. No fuel leaks tolerated. Fire extinguisher accessible in cockpit.
 - **Dope fumes**: Highly flammable. Apply outdoors or in well-ventilated hangar. No smoking, no sparks. Ground aircraft during doping (static electricity ignites fumes).
 ---
 

@@ -23,6 +23,7 @@ graph TD
     foundations_tools-basic("Stone & Wood Tools")
     knowledge_printing("Paper and Printing Press")
     machine-tools("Machine Tools Bootstrap")
+    plants_dye-plants("Dye Plants")
     plants_fiber-plants("Fiber Plants")
     transport_aviation("Aviation")
     transport_shipping("Water Transport")
@@ -43,6 +44,8 @@ graph TD
     transport_shipping --> textiles
     knowledge_printing --> textiles_fibers
     textiles_fibers --> plants_fiber-plants
+    plants_fiber-plants --> textiles_spinning
+    plants_dye-plants --> textiles_dyeing
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -71,6 +74,7 @@ graph TD
     class foundations_tools-basic external
     class knowledge_printing external
     class machine-tools external
+    class plants_dye-plants external
     class plants_fiber-plants external
     class transport_aviation external
     class transport_shipping external

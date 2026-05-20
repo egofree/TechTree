@@ -29,9 +29,14 @@ graph TD
     plants["Plants & Botanical Resources"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    energy_fuels("Fuel Production")
     foundations_fire("Fire-Making")
     foundations_food-agriculture("Agriculture & Food Production")
+    health("Public Health, Sanitation & Medicine")
+    health_pharmacology("Pharmacology")
+    textiles_dyeing("Dyeing")
     textiles_fibers("Fiber Preparation")
+    textiles_spinning("Spinning")
 
     %% ==================== EDGES ====================
     plants_edible-plants -.-> plants
@@ -55,6 +60,11 @@ graph TD
     plants -.-> foundations_fire
     textiles_fibers --> plants_fiber-plants
     foundations_food-agriculture --> plants_edible-plants
+    plants_edible-plants --> health
+    plants_medicinal-plants --> health_pharmacology
+    plants_fiber-plants --> textiles_spinning
+    plants_dye-plants --> textiles_dyeing
+    plants --> energy_fuels
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -89,7 +99,12 @@ graph TD
     class plants_fiber-plants_allium-paniculatum process
     class plants_fiber-plants_amaranthus-albus process
     class plants_structural-plants_artemisia-capillaris process
+    class energy_fuels external
     class foundations_fire external
     class foundations_food-agriculture external
+    class health external
+    class health_pharmacology external
+    class textiles_dyeing external
     class textiles_fibers external
+    class textiles_spinning external
     class EdgeLegend,MatNote,ToolNote legend

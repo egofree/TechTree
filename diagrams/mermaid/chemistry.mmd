@@ -41,6 +41,7 @@ graph TD
     glass_basic("Basic Glass Production")
     health("Public Health, Sanitation & Medicine")
     health_pharmacology("Pharmacology")
+    knowledge_writing("Writing & Record-Keeping")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_joining("Metal Joining")
     measurement("Measurement & Instrumentation")
@@ -121,6 +122,7 @@ graph TD
     transport_telegraph -.-> chemistry_acids
     chemistry_explosives --> energy_fuels_charcoal
     polymers_rubber_shellac --> chemistry_distillation
+    knowledge_writing -.-> chemistry
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -167,6 +169,7 @@ graph TD
     class glass_basic external
     class health external
     class health_pharmacology external
+    class knowledge_writing external
     class machine-tools external
     class machine-tools_joining external
     class measurement external

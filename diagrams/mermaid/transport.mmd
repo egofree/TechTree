@@ -21,12 +21,14 @@ graph TD
     energy("Energy")
     energy_electricity("Electricity Generation & Distribution")
     energy_engine("Heat Engines")
+    energy_fuels("Fuel Production")
     energy_steam-power("Steam Power")
     foundations_tools-basic("Stone & Wood Tools")
     machine-tools("Machine Tools Bootstrap")
     metals("Metals")
     metals_iron-steel("Iron & Steel Production")
     mining("Mining Engineering & Extractive Metallurgy")
+    mining_extraction("Mining Extraction")
     textiles("Textiles, Fiber & Cordage")
 
     %% ==================== EDGES ====================
@@ -47,6 +49,8 @@ graph TD
     transport_telegraph -.-> energy_electricity
     transport_telegraph --> metals_iron-steel
     transport_telegraph -.-> chemistry_acids
+    transport -.-> mining_extraction
+    transport -.-> energy_fuels
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -73,11 +77,13 @@ graph TD
     class energy external
     class energy_electricity external
     class energy_engine external
+    class energy_fuels external
     class energy_steam-power external
     class foundations_tools-basic external
     class machine-tools external
     class metals external
     class metals_iron-steel external
     class mining external
+    class mining_extraction external
     class textiles external
     class EdgeLegend,MatNote,ToolNote legend

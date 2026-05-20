@@ -19,6 +19,8 @@ graph TD
     chemistry_distillation("Distillation")
     foundations("Foundations")
     knowledge_writing("Writing & Record-Keeping")
+    plants_edible-plants("Edible Plants")
+    plants_medicinal-plants("Medicinal Plants")
     polymers_rubber("Rubber Production")
 
     %% ==================== EDGES ====================
@@ -30,6 +32,9 @@ graph TD
     health_medicine -.-> knowledge_writing
     health_pharmacology -.-> chemistry_distillation
     health --> polymers_rubber
+    knowledge_writing -.-> health_sanitation
+    plants_edible-plants --> health
+    plants_medicinal-plants --> health_pharmacology
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -54,5 +59,7 @@ graph TD
     class chemistry_distillation external
     class foundations external
     class knowledge_writing external
+    class plants_edible-plants external
+    class plants_medicinal-plants external
     class polymers_rubber external
     class EdgeLegend,MatNote,ToolNote legend

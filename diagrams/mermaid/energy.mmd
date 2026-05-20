@@ -51,6 +51,7 @@ graph TD
     metals_iron-steel_blast-furnace("Blast Furnace and Cast Iron")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_processing("Ore Processing")
+    plants("Plants & Botanical Resources")
     polymers_rubber("Rubber Production")
     silicon("Silicon")
     silicon_mg-si-production("Metallurgical-Grade Silicon Production")
@@ -120,6 +121,8 @@ graph TD
     transport_telegraph -.-> energy_electricity
     chemistry_explosives --> energy_fuels_charcoal
     glass_advanced_glassblowing -.-> energy_fuels
+    transport -.-> energy_fuels
+    plants --> energy_fuels
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -176,6 +179,7 @@ graph TD
     class metals_iron-steel_blast-furnace external
     class mining external
     class mining_processing external
+    class plants external
     class polymers_rubber external
     class silicon external
     class silicon_mg-si-production external

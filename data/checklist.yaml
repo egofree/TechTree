@@ -23,6 +23,21 @@ tier_0_survival:
   - id: foundations.food-agriculture
     name: Agriculture surplus and animal domestication for labor
     domain: foundations
+  - id: plants.edible-plants
+    name: Cultivation of edible plants for food security
+    domain: plants
+  - id: plants.medicinal-plants
+    name: Medicinal plant identification and preparation
+    domain: plants
+  - id: plants.fiber-plants
+    name: Fiber crop cultivation and processing
+    domain: plants
+  - id: plants.structural-plants
+    name: Structural and timber plant harvesting
+    domain: plants
+  - id: plants.dye-plants
+    name: Dye plant extraction for textiles and inks
+    domain: plants
   - id: mining
     name: Basic mining and prospecting
     domain: mining
@@ -119,6 +134,15 @@ tier_1_industrial:
   - id: polymers.composites
     name: Basic fiberglass panel production (hand layup)
     domain: polymers
+  - id: glass.basic
+    name: Basic glass production from sand
+    domain: glass
+  - id: glass.advanced.glassblowing
+    name: Glassblowing and container production
+    domain: glass
+  - id: glass.advanced
+    name: Optical and laboratory glass
+    domain: glass
 tier_2_semiconductor:
   timeline: Years 15-40
   items:
@@ -146,6 +170,12 @@ tier_2_semiconductor:
   - id: photolithography.cleanrooms
     name: Basic cleanroom or glovebox capability
     domain: photolithography
+  - id: optics.inspection
+    name: Lens grinding and optical instruments
+    domain: optics
+  - id: optics.inspection.optical-coatings
+    name: Optical coatings and filters
+    domain: optics
   - id: chemistry.air-separation
     name: Specialty gases supply chain
     domain: chemistry

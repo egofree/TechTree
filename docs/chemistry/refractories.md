@@ -1,9 +1,9 @@
 # Refractory Materials
 
-**Node ID**: `chemistry.refractories`
-**Parent**: [Chemistry](index.md)
-**Era**: Early Industrial
-**Tags**: `material`, `capability`, `critical`
+> **Node ID**: `chemistry.refractories`
+> **Parent**: [Chemistry](index.md)
+> **Era**: Early Industrial
+> **Tags**: `material`, `capability`, `critical`
 
 ## Overview
 

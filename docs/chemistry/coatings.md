@@ -1,9 +1,9 @@
 # Paints, Coatings & Inks
 
-**Node ID**: `chemistry.coatings`
-**Parent**: [Chemistry](index.md)
-**Era**: Early Industrial
-**Tags**: `material`, `capability`, `early-win`
+> **Node ID**: `chemistry.coatings`
+> **Parent**: [Chemistry](index.md)
+> **Era**: Early Industrial
+> **Tags**: `material`, `capability`, `early-win`
 
 ## Overview
 

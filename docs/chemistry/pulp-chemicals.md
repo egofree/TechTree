@@ -1,9 +1,9 @@
 # Pulp & Paper Chemicals
 
-**Node ID**: `chemistry.pulp-chemicals`
-**Parent**: [Chemistry](index.md)
-**Era**: Early Industrial
-**Tags**: `material`, `capability`, `early-win`
+> **Node ID**: `chemistry.pulp-chemicals`
+> **Parent**: [Chemistry](index.md)
+> **Era**: Early Industrial
+> **Tags**: `material`, `capability`, `early-win`
 
 ## Overview
 

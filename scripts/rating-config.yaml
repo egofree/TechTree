@@ -1,0 +1,221 @@
+# Rating Configuration: Term Tier Classification
+#
+# Source-of-truth config for classifying extracted Wikipedia terms into three
+# tiers (critical, important, supporting). Used by the term extraction and
+# rating pipeline to decide which terms warrant full tech-tree node entries.
+#
+# All criteria are automatable — no subjective human judgment required.
+# Matching follows the same controlled-vocabulary approach as schema-spec.md §3.
+
+_schema_docs:
+  version: bootciv-rating-v1
+  description: >
+    Automatable criteria for classifying extracted terms into three tiers.
+    This config is the single source of truth — pipeline scripts MUST read
+    from here, never hardcode thresholds in Python.
+  id_format: "References node IDs in nodes.json (dotted kebab-case: domain.capability.process)"
+
+# ---------------------------------------------------------------------------
+# TIER DEFINITIONS
+# ---------------------------------------------------------------------------
+# Three tiers, ordered by importance. A term is assigned the highest tier whose
+# numeric thresholds are ALL met. If no tier matches, the term falls to
+# "supporting" (the default).
+
+tiers:
+
+  critical:
+    description: >
+      Term has its own dedicated Wikipedia article AND appears in multiple
+      domain contexts. These become top-level or capability-level nodes
+      (e.g., "smelting", "blast furnace", "electrolysis").
+    min_articles: 3              # e.g., "smelting" appears in metallurgy, chemistry, mining articles
+    min_domains: 2               # Must span at least 2 of the 21 bootciv domains
+    min_definition_words: 30     # Wikipedia lead paragraph ≥ 30 words of definition
+    needs_standalone_article: true  # Term MUST have its own Wikipedia page (not just a redirect)
+    examples:
+      - "blast furnace — appears in metallurgy, iron-steel, chemistry; full article; 200+ word lead"
+      - "electrolysis — appears in chemistry, silicon, gas-handling; full article; 150+ word lead"
+
+  important:
+    description: >
+      Term is defined inline in at least one article but doesn't have (or need)
+      its own dedicated page. These become capability or process-level nodes
+      (e.g., "crucible", "flux", "roasting").
+    min_articles: 1              # Appears in at least one relevant article
+    min_domains: 0               # May be domain-specific (no cross-domain requirement)
+    min_definition_words: 15     # At least 15 words of inline definition
+    needs_inline_definition: true  # Must have a substantive inline definition, not just a mention
+    examples:
+      - "crucible — defined inline in metallurgy.smelting article; 20-word definition"
+      - "roasting — defined in copper-bronze article; 18-word definition"
+
+  supporting:
+    description: >
+      Default tier for terms that are mentioned but not substantively defined.
+      These get a hyperlink in prose but do NOT become tech-tree nodes. Useful
+      for context and discoverability (e.g., "tuyere", "bellows", "slag pit").
+    min_articles: 0              # May appear zero times (discovered via redirects/links)
+    min_domains: 0
+    min_definition_words: 0
+    needs_hyperlink_only: true   # Just link to Wikipedia, no node creation
+    examples:
+      - "tuyere — mentioned once in blast-furnace article, no definition"
+      - "slag pit — passing mention, no standalone coverage"
+
+# ---------------------------------------------------------------------------
+# STOP WORDS
+# ---------------------------------------------------------------------------
+# Generic process/material words that appear in almost every technical article.
+# These are NOT meaningful tech-tree terms — they are too broad to be useful.
+# Matched case-insensitively against extracted term candidates.
+# Requirement: ≥ 20 entries.
+
+stop_words:
+  - "cooling"        # "Cooling is applied after heat treatment" — too generic
+  - "storage"        # "Storage of materials is important" — every industry stores things
+  - "extraction"     # "Extraction of metals" — could mean mining OR chemistry
+  - "heating"        # "Heating the ore" — every thermal process involves heating
+  - "mixing"         # "Mixing the ingredients" — too vague without specifics
+  - "cutting"        # "Cutting the metal" — generic, not a distinct technology
+  - "drying"         # "Drying the bricks" — trivial step, not a node
+  - "filtering"      # "Filtering the solution" — generic lab technique
+  - "pouring"        # "Pouring molten metal" — trivial action, not a process
+  - "pressing"       # "Pressing the clay" — could be ceramics, textiles, etc.
+  - "building"       # "Building a furnace" — meta-term, not a specific tech
+  - "making"         # "Making steel" — too vague, use specific process name
+  - "production"     # "Production of iron" — generic wrapper, not specific
+  - "result"         # "The result is steel" — not a term
+  - "output"         # "The output of smelting" — meta-term
+  - "process"        # "The process involves..." — meta-term
+  - "step"           # "The next step is..." — meta-term
+  - "method"         # "The method used is..." — meta-term
+  - "material"       # "The material is..." — meta-term
+  - "equipment"      # "Equipment needed includes..." — meta-term
+  - "tool"           # "Tools required are..." — meta-term
+  - "product"        # "The product is copper" — meta-term
+  - "handling"       # "Handling of materials" — generic
+  - "preparation"    # "Preparation of the ore" — could be any domain
+
+# ---------------------------------------------------------------------------
+# PER-ARTICLE RELEVANCE
+# ---------------------------------------------------------------------------
+# Classifies how substantively a term appears within a single Wikipedia article.
+# A term may have different relevance levels across different articles.
+# The pipeline uses the HIGHEST relevance across all articles for tier assignment.
+
+per_article_relevance:
+
+  primary:
+    description: >
+      Term is the subject of substantial discussion in this article. Either
+      bold-defined in the lead paragraph OR appears ≥ 3 times as a technical
+      term with substantive context.
+    criteria:
+      - "Term is bold-defined in the article's lead sentence (Wikipedia convention for article subject)"
+      - "Term appears ≥ 3 times in technical context (not in navboxes, footnotes, or see-also)"
+    example: >
+      "smelting" in the "Copper metallurgy" article: bold-defined in lead,
+      appears 7 times with process details, diagrams, and historical context.
+
+  secondary:
+    description: >
+      Term appears 1-2 times in a technical context such as dependency lists,
+      prerequisite chains, or cross-references to related processes.
+    criteria:
+      - "Term appears 1-2 times in technical paragraphs (not just navigation)"
+      - "Appears in dependency lists, cross-reference tables, or 'See also' with context"
+    example: >
+      "roasting" in the "Bronze age metallurgy" article: mentioned twice in
+      the processing section as a prerequisite step before smelting.
+
+  mentioned:
+    description: >
+      Term appears once in passing without substantive discussion. No definition,
+      no technical context, just a hyperlink or parenthetical reference.
+    criteria:
+      - "Term appears exactly once"
+      - "No definition, no technical explanation, just a link or name-drop"
+    example: >
+      "tuyere" in the "Blast furnace" article: single mention as "the air inlet
+      (tuyere) directs forced air" — no further discussion.
+
+# ---------------------------------------------------------------------------
+# TYPE CLASSIFICATION
+# ---------------------------------------------------------------------------
+# Heuristics for classifying a term's type based on its definition text.
+# Used to suggest node tags (material[], capability[]) and edge types.
+# Evaluated in order — first match wins.
+
+type_classification:
+
+  process:
+    description: "A technique, method, or series of actions that transforms inputs to outputs."
+    patterns:
+      - "process of"         # "the process of extracting metal from ore"
+      - "act of"             # "the act of heating metal beyond its melting point"
+      - "method for"         # "a method for purifying silicon"
+      - "technique of"       # "a technique of joining two metals"
+      - "procedure for"      # "a procedure for refining crude oil"
+    suffix_heuristic: "-ing" # Gerund forms: smelting, forging, casting, roasting
+    example: >
+      "smelting" → definition contains "process of extracting" + "-ing" suffix
+      → classified as process. Tagged with capability:processing.
+
+  equipment:
+    description: "A physical device, apparatus, or vessel used in a process."
+    patterns:
+      - "device"             # "a device used for heating"
+      - "apparatus"          # "an apparatus for distillation"
+      - "vessel"             # "a vessel that holds molten metal"
+      - "container"          # "a container for storing acids"
+      - "chamber"            # "a sealed chamber for heat treatment"
+      - "furnace"            # "a furnace designed for..."
+      - "kiln"               # "a kiln used for firing"
+    example: >
+      "blast furnace" → definition contains "furnace" and "vessel"
+      → classified as equipment.
+
+  material:
+    description: "A physical substance, compound, alloy, or mixture."
+    patterns:
+      - "substance"          # "a substance composed of..."
+      - "compound"           # "a chemical compound with formula..."
+      - "alloy"              # "an alloy of copper and tin"
+      - "mixture"            # "a mixture of silica and..."
+      - "element"            # "a chemical element with symbol..."
+      - "mineral"            # "a mineral found in..."
+      - "ore"                # "an ore containing..."
+    example: >
+      "bronze" → definition contains "alloy of copper and tin"
+      → classified as material.
+
+  noun:
+    description: "Default fallback — a concept, role, or named entity not matching other types."
+    patterns: []             # No patterns — this is the fallback
+    example: >
+      "metallurgy" → definition is "the field of study..." — not a process,
+      equipment, or material → classified as noun (concept/field).
+
+# ---------------------------------------------------------------------------
+# THRESHOLDS
+# ---------------------------------------------------------------------------
+# Global thresholds applied before tier assignment. Terms that don't meet
+# these minimums are discarded entirely (not even supporting tier).
+
+thresholds:
+  min_term_length: 3           # Terms shorter than 3 chars are discarded (e.g., "al", "Fe")
+                               # Example: "Si" → discarded; "silicon" → kept
+
+  min_frequency_for_nlp: 2     # Term must appear ≥ 2 times across all crawled articles
+                               # to warrant NLP processing. Exception: terms with 4+ words
+                               # (long compounds like "basic oxygen furnace") only need 1 occurrence.
+                               # Rationale: long compounds are specific enough that a single
+                               # mention is meaningful.
+    # long_compound_exception: 4  # words → frequency threshold drops to 1
+
+  stop_word_tier_penalty: downgrade_one  # If a term matches a stop word, downgrade by one tier
+                                          # critical → important, important → supporting
+                                          # supporting → discarded
+                                          # Example: "cooling process" matches stop_word "cooling"
+                                          # → penalty applies

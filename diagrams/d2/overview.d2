@@ -106,7 +106,9 @@ optics: Optics
 gas-handling: Gas Handling
 measurement: "Measurement & Instrumentation"
 plants: "Plants & Botanical Resources"
+agriculture: Agriculture
 animals: "Animals & Animal Husbandry"
+water: Water
 
 # ==================== DOMAIN-LEVEL EDGES ====================
 metals -> foundations: { class: tool-edge }
@@ -155,6 +157,7 @@ animals -> foundations: { class: tool-edge }
 animals -> ceramics: { class: tool-edge }
 ceramics -> energy: { class: tool-edge }
 ceramics -> mining: { class: tool-edge }
+chemistry -> agriculture: { class: tool-edge }
 chemistry -> animals: { class: tool-edge }
 chemistry -> ceramics: { class: tool-edge }
 chemistry -> foundations: { class: tool-edge }
@@ -164,10 +167,12 @@ chemistry -> machine-tools: { class: tool-edge }
 chemistry -> mining: { class: tool-edge }
 chemistry -> photolithography: { class: tool-edge }
 chemistry -> polymers: { class: tool-edge }
+chemistry -> water: { class: tool-edge }
 computing -> energy: { class: tool-edge }
 computing -> metals: { class: tool-edge }
 computing -> polymers: { class: tool-edge }
 computing -> silicon: { class: tool-edge }
+energy -> agriculture: { class: tool-edge }
 energy -> ceramics: { class: tool-edge }
 energy -> chemistry: { class: tool-edge }
 energy -> foundations: { class: tool-edge }
@@ -175,6 +180,7 @@ energy -> machine-tools: { class: tool-edge }
 energy -> mining: { class: tool-edge }
 energy -> polymers: { class: tool-edge }
 energy -> textiles: { class: tool-edge }
+energy -> water: { class: tool-edge }
 foundations -> animals: { class: tool-edge }
 foundations -> plants: { class: tool-edge }
 glass -> mining: { class: tool-edge }
@@ -254,7 +260,9 @@ optics.class: domain
 gas-handling.class: domain
 measurement.class: domain
 plants.class: earlyWin
+agriculture.class: earlyWin
 animals.class: earlyWin
+water.class: domain
 
 # ==================== LEGEND ====================
 d2-legend: "Legend and Key Insights" {

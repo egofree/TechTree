@@ -21,21 +21,30 @@ graph TD
         energy_gravity_water-turbines["Water Turbines"]
         energy_storage_pumped-hydro["Pumped Hydroelectric Storage"]
         energy_electric-furnaces_electrode-manufacturing["Graphite Electrode Manufacturing"]
+        energy_redox-flow-battery["Redox Flow Battery"]
+        energy_fuel-cell["Fuel Cell"]
+        energy_blue-energy["Blue Energy (Osmotic Power)"]
     end
 
     %% ==================== DOMAIN NODE ====================
     energy["Energy"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    agriculture_hydroponic-ph-control("Hydroponic pH Control")
     ceramics_kilns("Kiln Construction")
     ceramics_pottery_kiln-firing("Kiln Firing")
     chemistry("Chemistry")
+    chemistry_acid-regeneration("Acid Regeneration")
     chemistry_air-separation("Air Separation & Bulk Gas Production")
     chemistry_ammonia("Ammonia & Fertilizer Production")
+    chemistry_e-methanol("E-Methanol Synthesis")
+    chemistry_electrodialysis("Electrodialysis")
     chemistry_electrolysis("Electrolysis")
     chemistry_explosives("Explosives and Propellants")
+    chemistry_lithium-separation("Lithium Separation")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
+    chemistry_water-electrolysis("Water Electrolysis")
     computing_electromechanical("Electromechanical Computing")
     foundations("Foundations")
     foundations_fire("Fire-Making")
@@ -70,6 +79,7 @@ graph TD
     transport_aviation("Aviation")
     transport_railways("Railways")
     transport_telegraph("Telegraph Communication")
+    water_desalination("Desalination")
 
     %% ==================== EDGES ====================
     energy_electric-furnaces --> energy_electricity
@@ -83,6 +93,7 @@ graph TD
     energy_storage_pumped-hydro -.-> energy_gravity
     energy_storage_pumped-hydro -.-> energy_electricity
     energy_electric-furnaces_electrode-manufacturing --> energy_electric-furnaces
+    energy_electricity --> energy_redox-flow-battery
     energy_gravity -.-> textiles
     energy_wind -.-> textiles
     energy_gravity --> chemistry_lubricants
@@ -144,6 +155,17 @@ graph TD
     mining_ventilation -.-> energy_steam-power
     measurement_electrical-instruments -.-> energy_electricity
     health_medical-instruments -.-> energy_steam-power
+    chemistry_electrolysis -.-> energy_redox-flow-battery
+    chemistry_electrolysis -.-> energy_fuel-cell
+    energy_electricity --> chemistry_water-electrolysis
+    energy_electricity --> chemistry_e-methanol
+    energy_electricity --> chemistry_electrodialysis
+    energy_electricity --> water_desalination
+    energy_electricity --> agriculture_hydroponic-ph-control
+    energy_electricity --> chemistry_lithium-separation
+    energy_electricity --> chemistry_acid-regeneration
+    chemistry_water-electrolysis --> energy_fuel-cell
+    chemistry_electrodialysis -.-> energy_blue-energy
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -176,15 +198,24 @@ graph TD
     class energy_gravity_water-turbines process
     class energy_storage_pumped-hydro process
     class energy_electric-furnaces_electrode-manufacturing process
+    class energy_redox-flow-battery capability
+    class energy_fuel-cell capability
+    class energy_blue-energy capability
+    class agriculture_hydroponic-ph-control external
     class ceramics_kilns external
     class ceramics_pottery_kiln-firing external
     class chemistry external
+    class chemistry_acid-regeneration external
     class chemistry_air-separation external
     class chemistry_ammonia external
+    class chemistry_e-methanol external
+    class chemistry_electrodialysis external
     class chemistry_electrolysis external
     class chemistry_explosives external
+    class chemistry_lithium-separation external
     class chemistry_lubricants external
     class chemistry_petroleum-alternatives external
+    class chemistry_water-electrolysis external
     class computing_electromechanical external
     class foundations external
     class foundations_fire external
@@ -219,4 +250,5 @@ graph TD
     class transport_aviation external
     class transport_railways external
     class transport_telegraph external
+    class water_desalination external
     class EdgeLegend,MatNote,ToolNote legend

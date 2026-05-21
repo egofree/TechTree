@@ -106,12 +106,21 @@ chemistry_internal: "Chemistry — Internal Structure" {
   chemistry_refractories: Refractory Materials
   chemistry_coatings: "Paints, Coatings & Inks"
   chemistry_pulp-chemicals: "Pulp & Paper Chemicals"
+  chemistry_electrolysis_sem-tech: Semiconductor-Grade Electrolysis
+  chemistry_water-electrolysis: Water Electrolysis
+  chemistry_e-methanol: E-Methanol Synthesis
+  chemistry_electrodialysis: Electrodialysis
+  chemistry_lithium-separation: Lithium Separation
+  chemistry_acid-regeneration: Acid Regeneration
 }
 
 # ==================== DOMAIN NODE ====================
 chemistry: Chemistry
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+agriculture_hydroponic-ph-control: Hydroponic pH Control {
+  shape: rectangle
+}
 animals_animal-materials: Animal-Derived Materials Processing {
   shape: rectangle
 }
@@ -119,6 +128,9 @@ ceramics_kilns: Kiln Construction {
   shape: rectangle
 }
 energy: Energy {
+  shape: rectangle
+}
+energy_blue-energy: "Blue Energy (Osmotic Power)" {
   shape: rectangle
 }
 energy_cooling: "Cooling Systems & Refrigeration" {
@@ -130,10 +142,16 @@ energy_electric-furnaces_electrode-manufacturing: Graphite Electrode Manufacturi
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
+energy_fuel-cell: Fuel Cell {
+  shape: rectangle
+}
 energy_fuels_charcoal: Charcoal Production {
   shape: rectangle
 }
 energy_gravity: Water Power {
+  shape: rectangle
+}
+energy_redox-flow-battery: Redox Flow Battery {
   shape: rectangle
 }
 energy_storage: "Energy Storage & Diversification" {
@@ -259,6 +277,9 @@ transport_aviation: Aviation {
 transport_telegraph: Telegraph Communication {
   shape: rectangle
 }
+water_desalination: Desalination {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
 chemistry_hydrogen-silane -> chemistry_electrolysis: { class: material-edge }
@@ -281,6 +302,11 @@ chemistry_coatings -> chemistry_petroleum-alternatives: { class: material-edge }
 chemistry_coatings -> chemistry_acids: { class: material-edge }
 chemistry_pulp-chemicals -> chemistry_alkalis: { class: material-edge }
 chemistry_pulp-chemicals -> chemistry_electrolysis: { class: material-edge }
+chemistry_electrolysis -> chemistry_water-electrolysis: { class: tool-edge }
+chemistry_electrolysis -> chemistry_electrodialysis: { class: tool-edge }
+chemistry_electrolysis -> chemistry_lithium-separation: { class: tool-edge }
+chemistry_water-electrolysis -> chemistry_e-methanol: { class: material-edge }
+chemistry_electrodialysis -> chemistry_acid-regeneration: { class: tool-edge }
 energy_gravity -> chemistry_lubricants: { class: material-edge }
 energy_wind -> chemistry_lubricants: { class: material-edge }
 machine-tools -> chemistry_lubricants: { class: material-edge }
@@ -355,6 +381,17 @@ metals_powder-metallurgy -> chemistry_hydrogen-silane: { class: tool-edge }
 chemistry_lubricants -> animals_animal-materials: { class: material-edge }
 textiles_finishing -> chemistry_alkalis: { class: tool-edge }
 health_occupational-health -> chemistry_acids: { class: material-edge }
+chemistry_electrolysis -> energy_redox-flow-battery: { class: tool-edge }
+chemistry_electrolysis -> energy_fuel-cell: { class: tool-edge }
+energy_electricity -> chemistry_water-electrolysis: { class: material-edge }
+energy_electricity -> chemistry_e-methanol: { class: material-edge }
+energy_electricity -> chemistry_electrodialysis: { class: material-edge }
+energy_electricity -> chemistry_lithium-separation: { class: material-edge }
+energy_electricity -> chemistry_acid-regeneration: { class: material-edge }
+chemistry_water-electrolysis -> energy_fuel-cell: { class: material-edge }
+chemistry_electrodialysis -> water_desalination: { class: tool-edge }
+chemistry_electrodialysis -> energy_blue-energy: { class: tool-edge }
+chemistry_electrodialysis -> agriculture_hydroponic-ph-control: { class: tool-edge }
 
 # ==================== STYLING ====================
 chemistry.class: domain
@@ -378,14 +415,24 @@ chemistry_solvents.class: capability
 chemistry_refractories.class: earlyWin
 chemistry_coatings.class: capability
 chemistry_pulp-chemicals.class: capability
+chemistry_electrolysis_sem-tech.class: process
+chemistry_water-electrolysis.class: capability
+chemistry_e-methanol.class: capability
+chemistry_electrodialysis.class: capability
+chemistry_lithium-separation.class: capability
+chemistry_acid-regeneration.class: capability
+agriculture_hydroponic-ph-control.class: external
 animals_animal-materials.class: external
 ceramics_kilns.class: external
 energy.class: external
+energy_blue-energy.class: external
 energy_cooling.class: external
 energy_electric-furnaces_electrode-manufacturing.class: external
 energy_electricity.class: external
+energy_fuel-cell.class: external
 energy_fuels_charcoal.class: external
 energy_gravity.class: external
+energy_redox-flow-battery.class: external
 energy_storage.class: external
 energy_wind.class: external
 foundations.class: external
@@ -427,6 +474,7 @@ textiles_finishing.class: external
 transport.class: external
 transport_aviation.class: external
 transport_telegraph.class: external
+water_desalination.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

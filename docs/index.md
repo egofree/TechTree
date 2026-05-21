@@ -40,28 +40,36 @@ Several capabilities in other domains are also critical because their absence bl
 
 | Domain | Capabilities | Critical? | Key Outputs |
 |--------|:------------:|:---------:|-------------|
-| [Foundations](foundations/) | 4 | Yes | food surplus, fire, stone tools, agriculture |
+| [Agriculture](agriculture/) | — | Yes | mechanized farming, soil science, hydroponics, greenhouses |
 | [Animals](animals/) | 7 | | draft power, wool, leather, dairy, eggs, meat, hunting |
-| [Plants & Botany](plants/) | 5 | | food crops, medicine, timber, fiber, natural dyes |
-| [Mining](mining/) | 5 | Yes | copper ore, iron ore, coal, quartz, sulfur |
-| [Metals](metals/) | 9 | | copper, iron, steel |
-| [Machine Tools](machine-tools/) | 6 | Yes | lathe, mill, grinder, bearings |
-| [Energy](energy/) | 9 | | steam engines, electricity, arc furnaces, charcoal, coke |
 | [Ceramics](ceramics/) | 4 | | refractories, kilns, lime, pottery, crucibles |
 | [Chemistry](chemistry/) | 18 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
-| [Glass](glass/) | 3 | | basic glass, borosilicate glass, fused silica, quartz crucibles |
+| [Computing](computing/) | 5 | | slide rules, calculators, automation |
+| [Construction](construction/) | — | | structural engineering, concrete, dams, tunnels |
+| [Defense & Military](defense/) | — | | weapons, fortifications, military engineering |
+| [Energy](energy/) | 9 | | steam engines, electricity, arc furnaces, charcoal, coke |
+| [Food Processing](food-processing/) | — | | milling, canning, pasteurization, preservation |
+| [Foundations](foundations/) | 4 | Yes | food surplus, fire, stone tools, agriculture |
 | [Gas Handling](gas-handling/) | 2 | | vacuum pumps, gas compression, purification |
-| [Measurement](measurement/) | 4 | | precision instruments, gauge blocks, calibration |
-| [Silicon](silicon/) | 5 | | MG-Si, wafers, solar cells, transistors |
-| [Photolithography](photolithography/) | 3 | | cleanrooms, lithography, ICs |
-| [VLSI Scaling](vlsi-scaling/) | 4 | | GPUs, advanced solar, EDA tools |
+| [Glass](glass/) | 3 | | basic glass, borosilicate glass, fused silica, quartz crucibles |
+| [Health](health/) | 5 | | clean water, sanitation, pharmaceuticals |
 | [Knowledge](knowledge/) | 4 | Yes | writing, printing, education, libraries |
+| [Machine Tools](machine-tools/) | 6 | Yes | lathe, mill, grinder, bearings |
+| [Marine & Naval](marine/) | — | | shipbuilding, navigation, maritime engineering |
+| [Materials Science](materials/) | — | | composites, adhesives, coatings, material testing |
+| [Measurement](measurement/) | 4 | | precision instruments, gauge blocks, calibration |
+| [Metals](metals/) | 9 | | copper, iron, steel |
+| [Mining](mining/) | 5 | Yes | copper ore, iron ore, coal, quartz, sulfur |
+| [Optics](optics/) | 2 | | lenses, microscopes, optical comparators |
+| [Photolithography](photolithography/) | 3 | | cleanrooms, lithography, ICs |
+| [Plants & Botany](plants/) | 5 | | food crops, medicine, timber, fiber, natural dyes |
+| [Polymers](polymers/) | 4 | | rubber, FR-4, PTFE, fiberglass |
+| [Silicon](silicon/) | 5 | | MG-Si, wafers, solar cells, transistors |
+| [Telecommunications](telecommunications/) | — | | telegraph, telephone, radio, fiber optics |
 | [Textiles](textiles/) | 7 | Yes | cordage, cloth, rope, drive belts |
 | [Transport](transport/) | 5 | | roads, railways, aviation, logistics |
-| [Computing](computing/) | 5 | | slide rules, calculators, automation |
-| [Health](health/) | 5 | | clean water, sanitation, pharmaceuticals |
-| [Polymers](polymers/) | 4 | | rubber, FR-4, PTFE, fiberglass |
-| [Optics](optics/) | 2 | | lenses, microscopes, optical comparators |
+| [VLSI Scaling](vlsi-scaling/) | 4 | | GPUs, advanced solar, EDA tools |
+| [Water Infrastructure](water/) | — | | water treatment, desalination, distribution, sewage |
 
 ## Dependency Overview
 

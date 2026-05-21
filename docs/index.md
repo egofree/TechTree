@@ -40,27 +40,28 @@ Several capabilities in other domains are also critical because their absence bl
 
 | Domain | Capabilities | Critical? | Key Outputs |
 |--------|:------------:|:---------:|-------------|
-| [Foundations](foundations/) | 3 | Yes | food surplus, fire, stone tools, agriculture |
+| [Foundations](foundations/) | 4 | Yes | food surplus, fire, stone tools, agriculture |
+| [Animals](animals/) | 7 | | draft power, wool, leather, dairy, eggs, meat, hunting |
 | [Plants & Botany](plants/) | 5 | | food crops, medicine, timber, fiber, natural dyes |
-| [Mining](mining/) | 3 | Yes | copper ore, iron ore, coal, quartz, sulfur |
-| [Metals](metals/) | 2 | | copper, iron, steel |
+| [Mining](mining/) | 5 | Yes | copper ore, iron ore, coal, quartz, sulfur |
+| [Metals](metals/) | 9 | | copper, iron, steel |
 | [Machine Tools](machine-tools/) | 6 | Yes | lathe, mill, grinder, bearings |
 | [Energy](energy/) | 9 | | steam engines, electricity, arc furnaces, charcoal, coke |
 | [Ceramics](ceramics/) | 4 | | refractories, kilns, lime, pottery, crucibles |
-| [Chemistry](chemistry/) | 12 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
-| [Glass](glass/) | 2 | | basic glass, borosilicate glass, fused silica, quartz crucibles |
+| [Chemistry](chemistry/) | 18 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
+| [Glass](glass/) | 3 | | basic glass, borosilicate glass, fused silica, quartz crucibles |
 | [Gas Handling](gas-handling/) | 2 | | vacuum pumps, gas compression, purification |
-| [Measurement](measurement/) | 2 | | precision instruments, gauge blocks, calibration |
-| [Silicon](silicon/) | 4 | | MG-Si, wafers, solar cells, transistors |
+| [Measurement](measurement/) | 4 | | precision instruments, gauge blocks, calibration |
+| [Silicon](silicon/) | 5 | | MG-Si, wafers, solar cells, transistors |
 | [Photolithography](photolithography/) | 3 | | cleanrooms, lithography, ICs |
 | [VLSI Scaling](vlsi-scaling/) | 4 | | GPUs, advanced solar, EDA tools |
 | [Knowledge](knowledge/) | 4 | Yes | writing, printing, education, libraries |
-| [Textiles](textiles/) | 5 | Yes | cordage, cloth, rope, drive belts |
+| [Textiles](textiles/) | 7 | Yes | cordage, cloth, rope, drive belts |
 | [Transport](transport/) | 5 | | roads, railways, aviation, logistics |
-| [Computing](computing/) | 3 | | slide rules, calculators, automation |
-| [Health](health/) | 3 | | clean water, sanitation, pharmaceuticals |
+| [Computing](computing/) | 5 | | slide rules, calculators, automation |
+| [Health](health/) | 5 | | clean water, sanitation, pharmaceuticals |
 | [Polymers](polymers/) | 4 | | rubber, FR-4, PTFE, fiberglass |
-| [Optics](optics/) | 1 | | lenses, microscopes, optical comparators |
+| [Optics](optics/) | 2 | | lenses, microscopes, optical comparators |
 
 ## Dependency Overview
 
@@ -84,8 +85,9 @@ These domains and capabilities can begin early, independent of the main critical
 
 Structured data files backing this tree:
 
-- [nodes.json](../data/nodes.json) — complete node definitions (21 domains, 86 capabilities, 32 processes)
+- [nodes.json](../data/nodes.json) — complete node definitions (domains, capabilities, processes)
 - [edges.json](../data/edges.json) — dependency graph (directed, acyclic)
+- [glossary.json](../data/glossary.json) — glossary terms with relevance ratings and cross-references
 - [checklist.yaml](../data/checklist.yaml) — milestone checklist with progression tracking
 - [resources.json](../data/resources.json) — raw material catalog with criticality ratings
 

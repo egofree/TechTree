@@ -1,7 +1,7 @@
 # TECH-TREE-BOOTSTRAP KNOWLEDGE BASE
 
-**Generated:** 2026-05-18
-**Commit:** c29cc63
+**Generated:** 2026-05-21
+**Commit:** 80e0e4e
 **Branch:** master
 
 ## OVERVIEW
@@ -14,12 +14,12 @@ Unified hierarchical ontology for bootstrapping industrial civilization from sto
 tech-tree-bootstrap/
 ├── docs/
 │   ├── index.md            # Unified entry point
-│   ├── {domain}/           # 21 domain directories with capability .md files
+│   ├── {domain}/           # domain directories with capability .md files
 │   └── supporting/         # Schema spec, dependencies, checklist, resources
 ├── diagrams/mermaid/
 │   ├── overview.mmd        # Master dependency graph
-│   └── {domain}.mmd        # 21 domain flowcharts (auto-generated)
-├── data/                   # nodes.json, edges.json, checklist.yaml, resources.json
+│   └── {domain}.mmd        # domain flowcharts (auto-generated)
+├── data/                   # nodes.json, edges.json, glossary.json, checklist.yaml, resources.json
 ├── scripts/                # Shell + Python toolchain (see COMMANDS)
 └── site/                   # Generated static site (HTML, tracked in git)
 ```
@@ -28,9 +28,9 @@ tech-tree-bootstrap/
 
 | Task | Location | Notes |
 |------|----------|-------|
-| Domain content | `docs/{domain}/` | 21 domains (incl. plants), each with capability .md files |
+| Domain content | `docs/{domain}/` | domains with capability .md files |
 | Mermaid diagrams | `diagrams/mermaid/` | Auto-generated from data, DO NOT hand-edit |
-| Structured data | `data/` | nodes.json (139 nodes), edges.json (255 edges), checklist.yaml, resources.json, plants.json |
+| Structured data | `data/` | nodes.json, edges.json, checklist.yaml, resources.json, plants.json, glossary.json |
 | Diagram generator | `scripts/generate-diagrams.sh` | Auto-generates all .mmd from data |
 | Data validation | `scripts/validate.sh` | 16 checks: DAG, cross-refs, tags, edge types, hierarchy, taxonomy |
 | Site builder | `scripts/build-site.sh` | Generates `site/` from docs + data |
@@ -85,13 +85,13 @@ bash scripts/render-mermaid.sh svg
 
 ## NOTES
 
-- Current data: 139 nodes, 21 domains, 255 edges, 22 .mmd diagrams
+- Data files in `data/` define the complete node graph, edges, glossary, and supporting catalogs.
 - Plants domain added via config-driven Wikipedia crawler: 86 species catalog, 19 tech-tree nodes, 21 edges
 - All diagrams auto-generated from `data/nodes.json` + `data/edges.json`
 - `validate.sh` is data-driven. Reads nodes/edges to check cross-references and DAG integrity
 - Schema specification: `docs/supporting/schema-spec.md` defines tag taxonomy, edge type rules, SIK placement test
 - SIK Placement Test determines domain boundaries (infrastructure/knowledge/practitioner overlap >50%)
-- `site/` is generated output but tracked in git (not gitignored)
+- `site/` is generated output (gitignored in inner repo since commit 8322222)
 - `tech-tree-bootstrap/` has its own `.git/` — independent repo, NOT a submodule of parent
 - Scripts use bash (`set -euo pipefail`) + Python (generate-pages.py with lib/build_utils.py)
-- No CI/CD, no remote configured. Purely manual workflow
+- No CI/CD. Inner repo has public GitHub remote. Manual workflow.

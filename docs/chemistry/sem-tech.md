@@ -147,21 +147,21 @@ The rhodium recovery claim is particularly notable. Rhodium is one of the rarest
 
 The low-cost SEM Tech membrane enables electrochemical applications that are economically prohibitive with conventional membranes:
 
-**Redox flow batteries**: SEM Tech membranes could reduce battery stack costs dramatically. Target cost: approximately $5/kWh versus $100+/kWh for lithium-ion systems. Flow batteries are the leading candidate for grid-scale energy storage, but membrane cost has been a major barrier to commercialization.
+**Redox flow batteries**: SEM Tech membranes could reduce battery stack costs dramatically. Target cost: approximately $5/kWh versus $100+/kWh for lithium-ion systems. Flow batteries are the leading candidate for grid-scale energy storage, but membrane cost has been a major barrier to commercialization. → See [Redox Flow Batteries](../energy/sem-tech-redox-flow-batteries.md)
 
-**Fuel cells**: Hydrogen, ethanol, methanol, and ammonia fuel cells all require ion exchange membranes. SEM Tech membranes could serve as the electrolyte separator in any of these configurations at a fraction of conventional cost.
+**Fuel cells**: Hydrogen, ethanol, methanol, and ammonia fuel cells all require ion exchange membranes. SEM Tech membranes could serve as the electrolyte separator in any of these configurations at a fraction of conventional cost. → See [Fuel Cells](../energy/sem-tech-fuel-cells.md)
 
-**e-Methanol synthesis**: Power-to-liquids technology that converts captured CO2 and green hydrogen into methanol using electrochemical processes. Membrane cost reduction enables smaller, distributed production units.
+**e-Methanol synthesis**: Power-to-liquids technology that converts captured CO2 and green hydrogen into methanol using electrochemical processes. Membrane cost reduction enables smaller, distributed production units. → See [e-Methanol Synthesis](sem-tech-e-methanol.md)
 
-**Mining and mineral extraction**: The primary non-chlor-alkali application. Precious metals, rare earth elements, and critical minerals can be extracted from ore, tailings, electronic waste, and liquid waste streams using the CMU/CRU closed-loop system.
+**Mining and mineral extraction**: The primary non-chlor-alkali application. Precious metals, rare earth elements, and critical minerals can be extracted from ore, tailings, electronic waste, and liquid waste streams using the CMU/CRU closed-loop system. → See also [Lithium Separation](sem-tech-lithium-separation.md) and [Acid Regeneration](sem-tech-acid-regeneration.md)
 
-**Water treatment and desalination**: Electrodialysis using ion exchange membranes can remove dissolved salts, heavy metals, and other contaminants from water. Low membrane cost makes this viable for small-scale and developing-world applications.
+**Water treatment and desalination**: Electrodialysis using ion exchange membranes can remove dissolved salts, heavy metals, and other contaminants from water. Low membrane cost makes this viable for small-scale and developing-world applications. → See [Electrodialysis](sem-tech-electrodialysis.md) and [Water Treatment](../water/sem-tech-water-treatment.md)
 
-**Hydroponic nutrient and pH control**: Ion exchange membranes enable precise control of nutrient ion concentrations in hydroponic growing systems.
+**Hydroponic nutrient and pH control**: Ion exchange membranes enable precise control of nutrient ion concentrations in hydroponic growing systems. → See [Hydroponics](../agriculture/sem-tech-hydroponics.md)
 
-**Salinity-gradient power (blue energy)**: Energy generation from the mixing of fresh and salt water using reverse electrodialysis. Membrane cost is the primary barrier to commercialization; SEM Tech could make this viable.
+**Salinity-gradient power (blue energy)**: Energy generation from the mixing of fresh and salt water using reverse electrodialysis. Membrane cost is the primary barrier to commercialization; SEM Tech could make this viable. → See [Blue Energy](../energy/sem-tech-blue-energy.md)
 
-**Electroplating and electrorefining**: See [Electrolysis](electrolysis.md) for conventional electroplating and electrorefining processes. SEM Tech membranes enable selective ion transport in plating baths, improving deposit quality and reducing waste.
+**Electroplating and electrorefining**: See [Electrolysis](electrolysis.md) for conventional electroplating and electrorefining processes. SEM Tech membranes enable selective ion transport in plating baths, improving deposit quality and reducing waste. → See also [Water Electrolysis](sem-tech-water-electrolysis.md)
 
 ## Safety
 
@@ -228,6 +228,22 @@ The SEM Tech membrane occupies a unique position: far cheaper and more accessibl
 
 - [Electrolysis](electrolysis.md) -- parent article covering all industrial electrolysis processes
 - [Alkali Production](alkalis.md) -- NaOH production and uses
+
+**Energy Applications**:
+- [Redox Flow Batteries](../energy/sem-tech-redox-flow-batteries.md) -- grid-scale energy storage using SEM Tech membranes
+- [Fuel Cells](../energy/sem-tech-fuel-cells.md) -- hydrogen and alcohol fuel cells with low-cost membranes
+- [Blue Energy](../energy/sem-tech-blue-energy.md) -- salinity-gradient power generation via reverse electrodialysis
+
+**Chemical Production**:
+- [Water Electrolysis](sem-tech-water-electrolysis.md) -- green hydrogen production using ion exchange membranes
+- [e-Methanol Synthesis](sem-tech-e-methanol.md) -- power-to-liquids CO2 conversion
+- [Electrodialysis](sem-tech-electrodialysis.md) -- ion separation and salt splitting
+- [Lithium Separation](sem-tech-lithium-separation.md) -- selective lithium extraction from brines
+- [Acid Regeneration](sem-tech-acid-regeneration.md) -- electrochemical acid recovery and recycling
+
+**Water & Agriculture**:
+- [Water Treatment](../water/sem-tech-water-treatment.md) -- desalination and contaminant removal
+- [Hydroponics](../agriculture/sem-tech-hydroponics.md) -- nutrient and pH control in soilless growing
 
 ---
 

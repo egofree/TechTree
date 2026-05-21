@@ -2,6 +2,6 @@
 
 Capabilities in this domain:
 
-*(Domain content to be added in future work.)*
+- [SEM Tech Hydroponics](sem-tech-hydroponics.md) — electromembrane nutrient and pH control
 
 [↑ Back to Tech Tree](../index.md)

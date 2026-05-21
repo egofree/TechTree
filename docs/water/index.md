@@ -2,6 +2,6 @@
 
 Capabilities in this domain:
 
-*(Domain content to be added in future work.)*
+- [SEM Tech Water Treatment](sem-tech-water-treatment.md) — membrane desalination and purification
 
 [↑ Back to Tech Tree](../index.md)

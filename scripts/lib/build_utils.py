@@ -76,10 +76,13 @@ def read_all_markdown(docs_dir: str) -> list[dict]:
 
         if parts[0] == "supporting":
             continue
+        if parts[0] == "glossary":
+            continue
 
         content = md_file.read_text(encoding="utf-8")
         metadata = extract_metadata(content)
-        html_body = render_markdown(content)
+        stripped = re.sub(r'^>\s+\*\*[^*]+\*\*:\s+.+$', '', content, flags=re.MULTILINE)
+        html_body = render_markdown(stripped)
 
         if len(parts) == 1:
             domain = ""
@@ -121,6 +124,8 @@ def build_node_page_map(docs_dir: str, nodes_json: dict) -> dict[str, str]:
         parts = rel.parts
 
         if parts[0] == "supporting":
+            continue
+        if parts[0] == "glossary":
             continue
 
         content = md_file.read_text(encoding="utf-8")

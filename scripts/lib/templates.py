@@ -106,6 +106,15 @@ def render_sidebar(
         parts.append('</ul>')
         parts.append('</details>')
 
+    parts.append('<div class="sidebar__section">')
+    is_glossary_active = current_path.startswith("glossary/")
+    active_class = ' class="active"' if is_glossary_active else ""
+    parts.append(
+        f'<a href="{link_prefix}glossary/index.html"{active_class}>'
+        f'Glossary</a>'
+    )
+    parts.append('</div>')
+
     parts.append('</nav>')
     return "\n".join(parts)
 

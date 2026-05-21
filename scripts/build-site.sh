@@ -157,6 +157,74 @@ python3 "$SCRIPT_DIR/generate-pages.py" \
     "$VERBOSE" \
     "false"
 
+# --- Generate glossary pages ---
+
+log "Generating glossary pages..."
+
+mkdir -p "$SITE_DIR/glossary"
+
+python3 "$SCRIPT_DIR/generate-glossary-pages.py" \
+    "$PROJECT_DIR" \
+    "$SITE_DIR" \
+    "$VERBOSE"
+
+GLOSSARY_COUNT=$(find "$SITE_DIR/glossary" -name "*.html" -type f 2>/dev/null | wc -l)
+
+# --- Add glossary entries to search index ---
+
+log "Adding glossary entries to search index..."
+
+python3 - "$DATA_DIR/glossary.json" "$SITE_DIR/assets/search-index.js" "$VERBOSE" <<'PYEOF'
+import json, sys
+
+glossary_path = sys.argv[1]
+search_index_path = sys.argv[2]
+verbose = sys.argv[3] == "true"
+
+try:
+    glossary_data = json.loads(open(glossary_path, encoding="utf-8").read())
+except FileNotFoundError:
+    sys.exit(0)
+
+glossary_entries = []
+for term in glossary_data.get("terms", []):
+    slug = term["slug"]
+    if term.get("created"):
+        url = "glossary/" + slug + ".html"
+    else:
+        url = "glossary/index.html"
+    glossary_entries.append({
+        "title": term["term"],
+        "url": url,
+        "content": term.get("definition", ""),
+    })
+
+if not glossary_entries:
+    sys.exit(0)
+
+with open(search_index_path, "r", encoding="utf-8") as f:
+    content = f.read()
+
+json_str = content[len("window.SEARCH_INDEX = "):-len(";")]
+existing = json.loads(json_str)
+existing.extend(glossary_entries)
+
+with open(search_index_path, "w", encoding="utf-8") as f:
+    f.write("window.SEARCH_INDEX = " + json.dumps(existing, ensure_ascii=False) + ";")
+
+if verbose:
+    print(f"  Added {len(glossary_entries)} glossary entries to search index")
+PYEOF
+
+# --- Linkify glossary terms ---
+
+log "Adding glossary hyperlinks..."
+
+python3 "$SCRIPT_DIR/link-glossary.py" \
+    --site-dir "$SITE_DIR" \
+    --glossary "$DATA_DIR/glossary.json" \
+    $([ "$VERBOSE" = true ] && echo "--verbose")
+
 HTML_COUNT=$(find "$SITE_DIR" -name "*.html" -type f | wc -l)
 
 # --- Summary ---
@@ -165,6 +233,7 @@ echo ""
 echo "=== Build Summary ==="
 echo "  Domain directories: $DOMAIN_COUNT"
 echo "  HTML pages:         $HTML_COUNT"
+echo "  Glossary pages:     $GLOSSARY_COUNT"
 echo "  Mermaid diagrams:   $MMD_COPIED"
 if $NO_SVG; then
     echo "  SVG renders:        skipped (--no-svg or mmdc unavailable)"

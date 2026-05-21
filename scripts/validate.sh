@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Data-driven validator for tech-tree-bootstrap
 # Reads all structure from data files — no hardcoded filenames
-# Checks: 16 validation passes covering data integrity, DAG, cross-refs, terminology, diagrams, tags, edge types, hierarchy, taxonomy
+# Checks: 17 validation passes covering data integrity, DAG, cross-refs, terminology, diagrams, tags, edge types, hierarchy, taxonomy, glossary
 
 set -euo pipefail
 
@@ -753,6 +753,136 @@ check_taxonomy_validity() {
     $ok
 }
 
+# --- Check 17: Glossary cross-references ---
+
+check_glossary_crossrefs() {
+    local ok=true
+    local glossary_file="$DATA_DIR/glossary.json"
+
+    if [[ ! -f "$glossary_file" ]]; then
+        echo "WARN (glossary is optional)" >&2
+        return 0
+    fi
+
+    if ! jq empty "$glossary_file" 2>/dev/null; then
+        echo "    INVALID JSON: data/glossary.json" >&2
+        return 1
+    fi
+
+    local node_ids_file
+    node_ids_file=$(mktemp)
+    all_node_ids > "$node_ids_file"
+
+    local slugs_file
+    slugs_file=$(mktemp)
+    jq -r '.terms[].slug' "$glossary_file" > "$slugs_file"
+
+    # source_articles[] reference valid node IDs
+    local dangling_source
+    dangling_source=$(jq -r '.terms[] | .id as $term | .source_articles[]?' "$glossary_file" | sort -u | while IFS= read -r ref; do
+        if ! grep -qx "$ref" "$node_ids_file"; then
+            echo "$ref"
+        fi
+    done)
+    if [[ -n "$dangling_source" ]]; then
+        echo "$dangling_source" | while IFS= read -r ref; do
+            echo "    Dangling glossary source_articles: $ref" >&2
+        done
+        ok=false
+    fi
+
+    # node_refs[] reference valid node IDs
+    local dangling_refs
+    dangling_refs=$(jq -r '.terms[] | .node_refs[]?' "$glossary_file" | sort -u | while IFS= read -r ref; do
+        if ! grep -qx "$ref" "$node_ids_file"; then
+            echo "$ref"
+        fi
+    done)
+    if [[ -n "$dangling_refs" ]]; then
+        echo "$dangling_refs" | while IFS= read -r ref; do
+            echo "    Dangling glossary node_refs: $ref" >&2
+        done
+        ok=false
+    fi
+
+    # see_also[] slugs reference existing glossary terms
+    local dangling_see
+    dangling_see=$(jq -r '.terms[] | .see_also[]?' "$glossary_file" | sort -u | while IFS= read -r slug; do
+        if ! grep -qx "$slug" "$slugs_file"; then
+            echo "$slug"
+        fi
+    done)
+    if [[ -n "$dangling_see" ]]; then
+        echo "$dangling_see" | while IFS= read -r slug; do
+            echo "    Dangling glossary see_also: $slug" >&2
+        done
+        ok=false
+    fi
+
+    # No duplicate slugs
+    local dup_slugs
+    dup_slugs=$(jq -r '.terms | group_by(.slug) | map(select(length > 1)) | map(.[0].slug)[]' "$glossary_file")
+    if [[ -n "$dup_slugs" ]]; then
+        echo "$dup_slugs" | while IFS= read -r slug; do
+            echo "    Duplicate glossary slug: $slug" >&2
+        done
+        ok=false
+    fi
+
+    # No empty definitions (supporting tier OK if ≥5 words)
+    local empty_defs
+    empty_defs=$(jq -r '
+        .terms[] |
+        .slug as $s |
+        .tier as $t |
+        .definition as $d |
+        select(
+            ($t == "critical" or $t == "important") and
+            (($d == null or $d == "") or ($d | split(" ") | length) < 3)
+        ) |
+        "\($s)"
+    ' "$glossary_file")
+    if [[ -n "$empty_defs" ]]; then
+        echo "$empty_defs" | while IFS= read -r slug; do
+            echo "    Empty or too-short definition for: $slug" >&2
+        done
+        ok=false
+    fi
+
+    # type values from controlled vocabulary
+    local valid_types='["noun","verb","process","material","equipment"]'
+    local invalid_types
+    invalid_types=$(jq -r --argjson valid "$valid_types" '
+        .terms[] | .slug as $s | .type as $t |
+        select($valid | index($t) | not) |
+        "\($s): invalid type \($t)"
+    ' "$glossary_file")
+    if [[ -n "$invalid_types" ]]; then
+        echo "$invalid_types" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    # tier values from controlled vocabulary
+    local valid_tiers='["critical","important","supporting"]'
+    local invalid_tiers
+    invalid_tiers=$(jq -r --argjson valid "$valid_tiers" '
+        .terms[] | .slug as $s | .tier as $t |
+        select($valid | index($t) | not) |
+        "\($s): invalid tier \($t)"
+    ' "$glossary_file")
+    if [[ -n "$invalid_tiers" ]]; then
+        echo "$invalid_tiers" | while IFS= read -r line; do
+            echo "    $line" >&2
+        done
+        ok=false
+    fi
+
+    rm -f "$node_ids_file" "$slugs_file"
+    $ok
+}
+
 # ============================================================
 # Main
 # ============================================================
@@ -815,6 +945,10 @@ check "Boolean consistency (tags booleans match top-level fields)" check_boolean
 echo ""
 echo "--- Schema: Taxonomy ---"
 check "Taxonomy validity (optional field, root/segment/duplicate rules)" check_taxonomy_validity
+
+echo ""
+echo "--- Glossary ---"
+check "Glossary cross-references" check_glossary_crossrefs
 
 echo ""
 echo "=== Results: $PASSED/$TOTAL passed, $FAILED failed ==="

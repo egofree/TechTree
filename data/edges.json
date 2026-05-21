@@ -1882,6 +1882,101 @@
       "from": "silicon.basic-devices",
       "to": "silicon.wafering",
       "type": "material"
+    },
+    {
+      "from": "chemistry.electrolysis",
+      "to": "chemistry.water-electrolysis",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.electrolysis",
+      "to": "energy.redox-flow-battery",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.electrolysis",
+      "to": "energy.fuel-cell",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.electrolysis",
+      "to": "chemistry.electrodialysis",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.electrolysis",
+      "to": "chemistry.lithium-separation",
+      "type": "tool"
+    },
+    {
+      "from": "energy.electricity",
+      "to": "chemistry.water-electrolysis",
+      "type": "material"
+    },
+    {
+      "from": "energy.electricity",
+      "to": "energy.redox-flow-battery",
+      "type": "material"
+    },
+    {
+      "from": "energy.electricity",
+      "to": "chemistry.e-methanol",
+      "type": "material"
+    },
+    {
+      "from": "energy.electricity",
+      "to": "chemistry.electrodialysis",
+      "type": "material"
+    },
+    {
+      "from": "energy.electricity",
+      "to": "water.desalination",
+      "type": "material"
+    },
+    {
+      "from": "energy.electricity",
+      "to": "agriculture.hydroponic-ph-control",
+      "type": "material"
+    },
+    {
+      "from": "energy.electricity",
+      "to": "chemistry.lithium-separation",
+      "type": "material"
+    },
+    {
+      "from": "energy.electricity",
+      "to": "chemistry.acid-regeneration",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.water-electrolysis",
+      "to": "energy.fuel-cell",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.water-electrolysis",
+      "to": "chemistry.e-methanol",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.electrodialysis",
+      "to": "water.desalination",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.electrodialysis",
+      "to": "energy.blue-energy",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.electrodialysis",
+      "to": "agriculture.hydroponic-ph-control",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.electrodialysis",
+      "to": "chemistry.acid-regeneration",
+      "type": "tool"
     }
   ]
 }

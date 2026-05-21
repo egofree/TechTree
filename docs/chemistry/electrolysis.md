@@ -169,6 +169,21 @@ The membrane cell is the modern standard for chlor-alkali electrolysis, replacin
 
 **Cell operating conditions**: Cell voltage 2.9-3.5 V (decomposition voltage 2.2 V + overpotentials + membrane resistance + solution resistance + hardware resistance). Current density 2-5 kA/m². Operating temperature 85-95°C. Current efficiency 95-97% (3-5% of current produces O₂ at the anode instead of Cl₂, and some OH⁻ back-migrates through the membrane). Energy consumption: 2,100-2,400 kWh per tonne Cl₂. Individual cell area 1-4 m². Electrolyzer with 50-150 cells in series, drawing 5-30 kA total current at 200-400 V DC.
 
+## SEM Tech Membrane Cell
+
+**SEM Tech** (Salt Electro Mining Technology) is an open-source approach to ion exchange membrane manufacturing, developed by **Robert Karas** (Rowow LLC). The core innovation uses off-the-shelf water softener resin beads, pulverized and dispersed in a PVC/CPVC binder matrix, to form homogeneous ion exchange membranes at **less than $1/sq ft** — compared to $100-400/sq ft for conventional perfluorinated membranes (Nafion).
+
+**Key differences from conventional membrane cells**:
+- **Membrane composition**: Pulverized pre-functionalized ion exchange resin (particle size <200μm) in PVC or CPVC matrix. No post-functionalization (sulfonation, amination) required.
+- **Manufacturing**: Blender/ball mill to pulverize resin → dissolve PVC/CPVC in solvent (THF, cyclohexanone, or MEK) → mix → spread on surface → dry → peel. All at ambient conditions with household equipment.
+- **Membrane cost**: <$1/sq ft (thin spray films can achieve <$1/sq yard) vs $500-2,000/m² for Nafion.
+- **Durability**: Months to nearly a year of continuous use at pH 0, ORP >1.5V. Shorter than Nafion (2-4 years) but far cheaper to replace.
+- **Applications beyond chlor-alkali**: Closed-loop mining (53 elements extractable), redox flow batteries, fuel cells, water treatment.
+
+**Performance**: >99% metal recovery for many targets. Energy consumption $50-400/ton of ore processed. Lab-demonstrated at 10-50 lb scale (TRL 5). Patent application (not granted), released under CC0 1.0 Universal.
+
+For complete technical details including membrane manufacturing process, cell architecture (CMU/CRU), operating parameters, all 10 patent claims, and comparison tables, see **[SEM Tech: Full Technical Details](sem-tech.md)**.
+
 ## Copper Electrorefining: Detailed Parameters
 
 **Electrolyte composition**: CuSO₄·5H₂O (150-200 g/L Cu²⁺, equivalent to 38-50 g/L Cu) + H₂SO₄ (150-200 g/L) in aqueous solution. Temperature 50-55°C (reduces viscosity and resistance, improves Cu²⁺ diffusion). The sulfuric acid increases solution conductivity and prevents CuSO₄ precipitation. Electrolyte density ~1.2 g/mL.

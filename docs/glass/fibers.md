@@ -2,7 +2,7 @@
 
 > **Node ID**: glass.fibers
 > **Domain**: [Glass](./)
-> **Dependencies**: `glass.melting`, `metals.platinum`, `polymers.resins`
+> **Dependencies**: `glass.basic`, `metals.non-ferrous`, `polymers.thermosets`
 > **Timeline**: Years 30-45
 > **Outputs**: fiberglass, insulation_wool, optical_fiber, composite_reinforcement
 
@@ -186,12 +186,12 @@ Fiberglass is rarely used as bare fiber. Its value is as reinforcement in a poly
 
 ### Cross-References
 
-- **Glass melting furnaces**: [glass melting](melting.md)
-- **Platinum for bushings**: [precious metals](../metals/precious-metals.md)
-- **Phenolic resin for wool binder**: [polymers](../polymers/resins.md)
+- **Glass melting furnaces**: [Glass Production](basic.md)
+- **Platinum for bushings**: platinum bushings (see [Metals](../metals/non-ferrous.md))
+- **Phenolic resin for wool binder**: phenolic resin (see [Polymers](../polymers/thermosets.md))
 - **Composite manufacturing with fiberglass**: [composites](../polymers/composites.md)
 - **Chemical precursors (SiCl₄, GeCl₄)**: [silicon processing](../silicon/)
-- **Silica raw material**: [glass composition](composition.md)
+- **Silica raw material**: [Glass Composition](basic.md)
 
 ### Fiberglass Composite Manufacturing Detail
 

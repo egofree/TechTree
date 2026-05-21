@@ -180,7 +180,7 @@
 - [Ceramics → Pottery](../ceramics/pottery.md) for wheel-thrown pottery, glazes, and kiln firing beyond pit firing
 - [Machine Tools](../machine-tools/) for precision tools, lathes, and metalworking equipment
 - [Animals → Animal Materials](../animals/animal-materials.md) for leather, bone, and horn tool-making
-- [Chemistry → Charcoal & Tar](../chemistry/charcoal-tar.md) for adhesives, sealants, and fuel processing
+- [Chemistry → Charcoal & Tar](../energy/charcoal.md) for adhesives, sealants, and fuel processing
 
 ---
 

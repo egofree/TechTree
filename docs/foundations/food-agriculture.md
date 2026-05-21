@@ -34,7 +34,7 @@
 - **Watermill** (if water power available): Overshot water wheel 2-4 m diameter drives a
   horizontal millstone 0.8-1.2 m diameter through a gear train.
   Output: 50-100 kg flour/hour, feeding a whole settlement from one mill.
-  Requires [Machine Tools](../machine-tools/machine-tools.md)-level gearing and precision construction.
+  Requires [Machine Tools](../machine-tools/machining.md)-level gearing and precision construction.
   Water flow of 100-300 liters/second with 2-4 m head drives the wheel.
   The watermill frees enormous human labor and is one of the highest-return investments
   in a growing community.
@@ -177,8 +177,8 @@ Bee pollination increases crop yields 20-30%.
   Oil drains through gaps or a filter into a collection vessel.
   Yield: 25-35% oil by weight for most seeds.
   The remaining seed cake is high-protein animal feed.
-  A screw press can be built with [Woodworking](../foundations/woodworking.md)
-  and basic [Metallurgy](../metals/metallurgy.md) for the screw thread.
+  A screw press can be built with [Woodworking](../foundations/tools-basic.md)
+  and basic [Metallurgy](../metals/iron-steel.md) for the screw thread.
 - **Flax/linseed oil**: 30-35% oil content.
   Dual purpose, serving as both food oil and industrial material.
   As a drying oil, it polymerizes on exposure to air, making it useful as a paint binder,
@@ -230,8 +230,8 @@ Bee pollination increases crop yields 20-30%.
 - **[Textiles → Fibers](../textiles/fibers.md)** — Fiber crop cultivation (flax, hemp) for oil and textiles
 - **[Plants → Edible Plants](../plants/edible-plants.md)** — Wild and cultivated food plants
 - **[Ceramics → Pottery](../ceramics/pottery.md)** — Storage vessels for grain and preserved food
-- **[Woodworking](../foundations/woodworking.md)** — Wooden press construction, tool handles, churns
-- **[Machine Tools](../machine-tools/machine-tools.md)** — Precision gearing for watermills
+- **[Woodworking](../foundations/tools-basic.md)** — Wooden press construction, tool handles, churns
+- **[Machine Tools](../machine-tools/machining.md)** — Precision gearing for watermills
 
 ### Safety & Hazards
 

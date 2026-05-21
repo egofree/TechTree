@@ -190,7 +190,7 @@ Every point where personnel must cross between intake and return airways needs a
 - **Compressed air for drills**: [drilling](drilling.md)
 - **Steam or electric power for fans**: [steam power](../energy/steam-power.md), [electricity](../energy/electricity.md)
 - **Mine extraction layout**: [extraction](extraction.md)
-- **Explosive fume clearance**: [explosives](explosives.md)
+- **Explosive fume clearance**: [Black Powder](black-powder.md)
 
 ### Heat Stress Limits
 

@@ -114,7 +114,7 @@ Reciprocal counting: instead of gating the input signal, the counter gates by th
 
 ### Galvanometer Movement
 
-Wind the moving coil on an aluminum former (the former also acts as an eddy-current damper, slowing the pointer to prevent overshoot). Wire gauge and turns are chosen for the desired sensitivity: a 50 μA movement uses ~200 turns of 50 AWG wire on a 15 × 20 mm former. The coil assembly must be lightweight (50-200 mg) for responsive deflection. The permanent magnet is alnico (see [Magnetic Materials](../magnetics/)) or ferrite, shaped with pole pieces to create a uniform radial field in the air gap where the coil rotates. The return springs are phosphor bronze, 0.01-0.02 mm thick, providing 5-20 μN·cm/degree of restoring torque.
+Wind the moving coil on an aluminum former (the former also acts as an eddy-current damper, slowing the pointer to prevent overshoot). Wire gauge and turns are chosen for the desired sensitivity: a 50 μA movement uses ~200 turns of 50 AWG wire on a 15 × 20 mm former. The coil assembly must be lightweight (50-200 mg) for responsive deflection. The permanent magnet is alnico (see [Magnetic Materials](—alnico or ferrite magnet)) or ferrite, shaped with pole pieces to create a uniform radial field in the air gap where the coil rotates. The return springs are phosphor bronze, 0.01-0.02 mm thick, providing 5-20 μN·cm/degree of restoring torque.
 
 ### Shunt Resistor Construction
 

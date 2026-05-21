@@ -207,7 +207,7 @@ Unlike percussive drilling (which chips rock by impact), rotary drilling grinds 
 ### Cross-References
 
 - **Compressed air supply**: [steam power](../energy/steam-power.md)
-- **Explosives for blast holes**: [explosives](explosives.md)
+- **Explosives for blast holes**: [Black Powder](black-powder.md)
 - **Drill steel material**: [iron and steel](../metals/iron-steel.md)
 - **Machine tools for bit sharpening**: [machine tools](../machine-tools/)
 - **Mine ventilation (dust control)**: [ventilation](ventilation.md)

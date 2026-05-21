@@ -9,39 +9,107 @@
 
 Fuels are the energy carriers that convert stored chemical energy into heat, motion, and light. Every industrial process — smelting iron, firing ceramics, generating electricity, powering engines — requires a fuel matched to its temperature, cleanliness, and energy-density requirements. Selecting the wrong fuel wastes effort and limits output; selecting the right one unlocks the next capability tier.
 
-The bootstrap sequence progresses through fuels in rough order of refinement: wood → charcoal → coal → coke → petroleum fractions → synthetic gases and liquids. Each step increases energy density, burns hotter or cleaner, and enables processes the previous fuel could not sustain.
+The bootstrap sequence progresses through fuels in rough order of refinement: wood → charcoal → coal → coke → petroleum fractions → synthetic gases and liquids. Each step increases energy density, burns hotter or cleaner, and enables processes the previous fuel could not sustain. The chain is also a dependency chain: charcoal requires wood pyrolysis knowledge; coke requires coal mining and oven construction; petroleum fractions require drilling and distillation. The bootstrap cannot skip steps — you cannot run a blast furnace on wood any more than you can distill gasoline without first building a still.
 
 ## Solid Fuels
 
-**Charcoal** — produced by pyrolysis of hardwood in earth-covered pits or simple kilns. The first high-grade fuel for metallurgy. Burns at ~1100°C unforced, up to ~1300°C with bellows. Calorific value: ~29 MJ/kg. Yield: 20-40% by weight from wood. Essential for all early iron smelting. Production detail: [Charcoal](charcoal.md).
+### Wood
 
-**Coal** — mined bituminous and anthracite coal. Bituminous: 24-35 MJ/kg, widely available, good for steam boilers and coking. Anthracite: 32-36 MJ/kg, highest carbon coal, cleanest burn, but harder and less common. Coal enables steam power and is the feedstock for coke. Mining and selection: [Coal](coal.md).
+- **Seasoned hardwood**: ~16-18 MJ/kg, 15-25% moisture. The universal starting fuel. Burns at 700-900°C with natural draft. Adequate for space heating, cooking, brick firing, and small-scale copper/bronze smelting.
+- **Softwood**: ~15-17 MJ/kg. Burns faster and produces more creosote in chimneys. Acceptable for heating but less suitable for industrial use.
+- **Limitations**: Low energy density per unit mass. High moisture content in green wood reduces effective heat output by 20-40%. Bulk — transporting enough wood for industrial operations requires enormous logistical effort.
+- **Wood as industrial fuel**: Used for pottery kilns, brick kilns, lime burning, and copper/bronze smelting. Not adequate for iron smelting (temperature too low without forced draft, and wood's volatiles contaminate the metal).
 
-**Coke** — distilled from bituminous coal in beehive or by-product ovens. Hard, porous, nearly pure carbon. Burns at 1800-2100°C with forced air — the only solid fuel hot enough for blast furnaces and silicon reduction. Calorific value: ~28-31 MJ/kg. By-product ovens also yield coal gas, coal tar, and ammonia. Production detail: [Coke](coke.md).
+### Charcoal
+
+Produced by pyrolysis of hardwood in earth-covered pits or simple kilns. The first high-grade fuel for metallurgy:
+
+- **Properties**: Burns at ~1100°C unforced, up to ~1300°C with bellows. Calorific value: ~29 MJ/kg. Nearly pure carbon.
+- **Yield**: 20-40% by weight from wood. Energy loss during pyrolysis is significant — roughly half the wood's energy content is lost as volatile gases and tar.
+- **Critical role**: Essential for all early iron smelting. The only solid fuel that can sustain the reducing atmosphere and temperature needed for bloomery iron production before coke is available.
+- **Production detail**: [Charcoal](charcoal.md)
+
+### Coal
+
+Mined bituminous and anthracite coal. The transition fuel that enables steam power and coke production:
+
+- **Bituminous coal**: 24-35 MJ/kg, widely available, good for steam boilers and coking. Contains 15-30% volatile matter. Burns with long, smoky flame.
+- **Anthracite**: 32-36 MJ/kg, highest carbon coal, cleanest burn (very low volatiles), but harder and less common. Burns with short, blue flame. Difficult to ignite but burns very hot once established.
+- **Lignite (brown coal)**: 10-20 MJ/kg, high moisture (20-45%), high ash. Lowest rank coal. Burns with heavy smoke. Acceptable for power generation near the mine but poor for transport or metallurgy.
+- **Coal mining and selection**: [Coal](coal.md)
+
+### Coke
+
+Distilled from bituminous coal in beehive or by-product ovens. Hard, porous, nearly pure carbon:
+
+- **Properties**: Burns at 1800-2100°C with forced air — the only solid fuel hot enough for blast furnaces and silicon reduction. Calorific value: ~28-31 MJ/kg.
+- **By-products**: By-product ovens also yield coal gas, coal tar, ammonia, benzol, and sulfur — each a valuable chemical feedstock.
+- **Production detail**: [Coke](coke.md)
+
+### Peat
+
+An intermediate fuel between wood and coal, formed from partially decomposed plant matter in wetlands:
+
+- **Properties**: ~6-14 MJ/kg (air-dried). Burns at lower temperature than coal. High ash content.
+- **Use**: Fuel for heating and small boilers where coal is not available. Historically important in Ireland, Scotland, Scandinavia, and Russia.
+- **Processing**: Cut from bogs, air-dry 4-8 weeks, stack and further dry. Can be compressed into briquettes for higher density.
 
 ## Liquid Fuels
 
 Petroleum distillation yields a spectrum of liquid fuels, each tuned to a boiling range and application. See [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md) for refining processes.
 
-- **Gasoline** (30-150°C fraction): ~46 MJ/kg. Spark-ignition engines, the highest energy-density liquid fuel commonly available.
-- **Kerosene** (150-250°C fraction): ~43-46 MJ/kg. Lamp fuel, heating, jet engine precursor.
-- **Diesel / gas oil** (250-350°C fraction): ~45 MJ/kg. Compression-ignition engines, industrial heating.
-- **Fuel oil / residual** (>350°C): ~40-42 MJ/kg. Boiler fuel, large-scale heat.
+### Petroleum-Derived Fuels
 
-**Ethanol** (C₂H₅OH): ~26 MJ/kg. Fermented from grain, sugar, or starch feedstocks and distilled to 95%+ purity. Burns cleanly in lamps, stoves, and modified engines. Independent of petroleum — producible from agriculture alone. Production: [Fermentation Chemistry](../chemistry/petroleum-alternatives.md).
+- **Gasoline** (30-150°C fraction): ~46 MJ/kg. Spark-ignition engines, the highest energy-density liquid fuel commonly available. Highly volatile, low flash point (-40°C). Vapors form explosive mixtures with air.
+- **Kerosene** (150-250°C fraction): ~43-46 MJ/kg. Lamp fuel, heating, jet engine precursor. Higher flash point (37-65°C) — safer to store and handle than gasoline. The first petroleum product widely commercialized (illumination).
+- **Diesel / gas oil** (250-350°C fraction): ~45 MJ/kg. Compression-ignition engines, industrial heating. Flash point >52°C. Lubricating and stable.
+- **Fuel oil / residual** (>350°C): ~40-42 MJ/kg. Boiler fuel, large-scale industrial heat. Viscous — may require preheating for atomization in burners.
 
-**Methanol** (CH₃OH): ~20 MJ/kg. Obtained from wood pyrolysis (low yield, ~1-2%) or synthesized from CO + H₂ over catalyst. Solvent and fuel extender.
+### Bio-Derived Liquid Fuels
+
+- **Ethanol** (C₂H₅OH): ~26 MJ/kg. Fermented from grain, sugar, or starch feedstocks and distilled to 95%+ purity. Burns cleanly in lamps, stoves, and modified engines. Independent of petroleum — producible from agriculture alone. Production: [Fermentation Chemistry](../chemistry/petroleum-alternatives.md).
+- **Methanol** (CH₃OH): ~20 MJ/kg. Obtained from wood pyrolysis (low yield, ~1-2%) or synthesized from CO + H₂ over catalyst. Solvent and fuel extender. Highly toxic if ingested — causes blindness.
+- **Vegetable oil**: ~37-40 MJ/kg. Pressed from oil seeds (rapeseed, sunflower, palm). Can be used directly in diesel engines (with preheating and filtration) or transesterified to biodiesel. Also used for lamps in the absence of kerosene.
+
+### Liquid Fuel Comparison
+
+| Fuel | Energy Density | Flash Point | Auto-Ignition | Primary Engine |
+|------|---------------|-------------|---------------|----------------|
+| Gasoline | ~46 MJ/kg | -40°C | ~280°C | Spark-ignition |
+| Kerosene | ~43-46 MJ/kg | 37-65°C | ~210°C | Jet turbine |
+| Diesel | ~45 MJ/kg | >52°C | ~250°C | Compression-ignition |
+| Ethanol | ~26 MJ/kg | 13°C | ~365°C | Modified spark-ignition |
+| Vegetable oil | ~37-40 MJ/kg | ~315°C | — | Modified diesel |
+| Fuel oil (heavy) | ~40-42 MJ/kg | >65°C | — | Boiler |
 
 ## Gaseous Fuels
 
-**Producer gas / wood gas** (CO + H₂ + N₂): ~5-6 MJ/m³. Generated by passing limited air through a hot bed of charcoal or coke. Low energy density per volume, but can fuel internal combustion engines and furnaces directly. Powered vehicles during WWII petroleum shortages. Must be scrubbed of tars before engine use. Composition: ~25% CO, ~10% H₂, ~60% N₂, ~5% CO₂.
+### Producer Gas / Wood Gas
 
-**Coal gas** (from coke ovens): ~18 MJ/m³. Richer than producer gas due to high H₂ and CH₄ content. Can be captured and burned for oven heating or distributed for lighting.
+- **Composition**: CO + H₂ + N₂. Approximate: ~25% CO, ~10% H₂, ~60% N₂, ~5% CO₂.
+- **Energy density**: ~5-6 MJ/m³ (low — about 1/6 of natural gas). Bulkier per unit energy than any other fuel.
+- **Generation**: Pass limited air through a hot bed of charcoal or coke. The partial combustion produces CO (carbon monoxide, combustible). Add steam to the air blast to increase H₂ yield (water-gas reaction: C + H₂O → CO + H₂).
+- **Engine use**: Can fuel internal combustion engines and furnaces directly. Powered vehicles during WWII petroleum shortages (wood gas generators on cars and trucks). Must be scrubbed of tars and particulates before engine use — tar deposits destroy engine valves and cylinders.
+- **Advantage**: Producible from any solid carbon fuel (charcoal, coke, coal, even wood). Independent of petroleum or natural gas.
+
+### Coal Gas
+
+- **Source**: From coke ovens (by-product of coke production).
+- **Composition**: ~50-60% H₂, 20-30% CH₄, 5-8% CO, balance N₂ and CO₂.
+- **Energy density**: ~18 MJ/m³ (richer than producer gas due to high H₂ and CH₄ content).
+- **Uses**: Coke oven heating, steelworks furnaces, town gas (lighting and heating). Must be cooled and scrubbed of tar and naphthalene before distribution.
+
+### Natural Gas
+
+- **Composition**: Primarily methane (CH₄), with minor ethane, propane, and butane.
+- **Energy density**: ~35-40 MJ/m³ (highest of common gaseous fuels).
+- **Requires**: Gas well drilling and pipeline infrastructure. Not available in the early bootstrap. When available, it is the most convenient and cleanest-burning gaseous fuel.
 
 ## Calorific Value Comparison
 
 | Fuel | Form | Energy Density | Flame Temp (forced air) | Key Use |
 |------|------|---------------|------------------------|---------|
+| Peat (air-dried) | Solid | ~6-14 MJ/kg | ~500-700°C | Heating, small boilers |
 | Wood (seasoned hardwood) | Solid | ~16-18 MJ/kg | ~700-900°C | Heating, early smelting |
 | Charcoal | Solid | ~29 MJ/kg | ~1100-1300°C | Iron smelting, forging |
 | Bituminous coal | Solid | ~24-35 MJ/kg | ~1200-1400°C | Steam boilers, coking |
@@ -55,6 +123,7 @@ Petroleum distillation yields a spectrum of liquid fuels, each tuned to a boilin
 | Fuel oil (heavy) | Liquid | ~40-42 MJ/kg | ~1700°C | Boilers, industrial heat |
 | Producer gas | Gas | ~5-6 MJ/m³ | ~800-1000°C | Engines, furnace heat |
 | Coal gas | Gas | ~18 MJ/m³ | ~1800°C | Lighting, oven fuel |
+| Natural gas | Gas | ~35-40 MJ/m³ | ~1900°C | Heating, electricity |
 
 ## Fuel Selection by Application
 
@@ -69,10 +138,21 @@ Petroleum distillation yields a spectrum of liquid fuels, each tuned to a boilin
 | Lamp / lighting | Kerosene | Ethanol, coal gas, vegetable oil |
 | Furnace heating | Producer gas, fuel oil | Coal, charcoal |
 | Ceramics / brick kiln | Coal, charcoal | Wood, producer gas |
+| Lime burning | Wood, charcoal | Coal, coke |
+| Domestic heating | Wood, coal | Peat, charcoal |
 
 ## Progression Logic
 
-The fuel chain is also a dependency chain: charcoal requires wood pyrolysis knowledge; coke requires coal mining and oven construction; petroleum fractions require drilling and distillation. Each fuel unlocks higher temperatures and cleaner combustion, which in turn enable the next tier of metallurgy and chemistry. The bootstrap cannot skip steps — you cannot run a blast furnace on wood any more than you can distill gasoline without first building a still.
+The fuel chain is a dependency chain, and each fuel unlocks higher temperatures and cleaner combustion:
+
+1. **Wood** → heating, cooking, pottery (600-900°C)
+2. **Charcoal** → copper/bronze smelting, iron smelting (1100-1300°C)
+3. **Coal** → steam boilers, coking feedstock (1200-1400°C)
+4. **Coke** → blast furnace iron, silicon reduction (1800-2100°C)
+5. **Petroleum fractions** → internal combustion engines, high-energy-density transport
+6. **Synthetic gases** → chemical feedstock, flexible fuel supply
+
+The bootstrap cannot skip steps. Each fuel requires the infrastructure of the previous stage: you need kilns to make charcoal before you can smelt iron; you need iron tools to mine coal before you can make coke; you need coke-fired furnaces before you can reduce silicon.
 
 ## Cross-References
 
@@ -81,13 +161,45 @@ The fuel chain is also a dependency chain: charcoal requires wood pyrolysis know
 - **Coke production**: [coke.md](coke.md)
 - **Petroleum refining & liquid fuels**: [petroleum-alternatives.md](../chemistry/petroleum-alternatives.md)
 - **Mining infrastructure**: [extraction.md](../mining/extraction.md)
+- **Steam power** (major coal consumer): [steam-power.md](steam-power.md)
+- **Internal combustion engine**: [engine.md](engine.md)
 
-### Safety & Hazards
+## Safety & Hazards
 
-- **Flammability and explosion**: All liquid and gaseous fuels form explosive mixtures with air. Gasoline vapor ignites at 1.4-7.6% concentration. Natural gas (methane) at 5-15%. Never store fuels near ignition sources. Use in well-ventilated areas.
-- **Carbon monoxide (CO)**: Incomplete combustion of any carbon fuel produces CO — odorless, colorless, lethal. Never burn fuels in enclosed spaces without ventilation. CO detectors where fuel-burning equipment operates. Symptoms: headache, nausea, dizziness → evacuate to fresh air.
-- **Fuel storage**: Store liquid fuels in approved containers away from heat. Gasoline and light fractions have low flash points (-40°C for gasoline). Static electricity can ignite fuel vapors during transfer — ground containers. Store gaseous fuels in pressure-rated cylinders.
-- **Wood/coal dust**: Suspended dust at sufficient concentration is explosive. Ventilation in fuel storage areas.
+- **Flammability and explosion**: All liquid and gaseous fuels form explosive mixtures with air. Gasoline vapor ignites at 1.4-7.6% concentration. Natural gas (methane) at 5-15%. Never store fuels near ignition sources. Use in well-ventilated areas. Bond and ground containers during transfer to prevent static discharge ignition.
+- **Carbon monoxide (CO)**: Incomplete combustion of any carbon fuel produces CO — odorless, colorless, lethal at 400 ppm sustained concentration. Symptoms: headache (mild), nausea and dizziness (moderate), unconsciousness and death (severe). Never burn fuels in enclosed spaces without ventilation. CO detectors where fuel-burning equipment operates.
+- **Fuel storage**: Store liquid fuels in approved containers away from heat and ignition sources. Gasoline and light fractions have very low flash points — vapors ignite from distant sparks. Store gaseous fuels in pressure-rated cylinders with pressure relief valves. Separate fuel storage from oxidizer storage (never store fuels and oxidizers together).
+- **Wood/coal dust**: Suspended dust at sufficient concentration (>20-60 g/m³ for coal dust) is explosive. Ventilation in fuel storage and handling areas. No smoking, open flames, or spark sources in dusty environments. Wet down coal piles to suppress dust.
+
+## Fuel Energy Density Comparison
+
+Energy density determines how much energy a given mass or volume of fuel delivers. This affects storage, transport, and engine design throughout the bootstrap:
+
+| Fuel | Energy Density | Form | Notes |
+|------|---------------|------|-------|
+| Wood (seasoned hardwood) | 15-20 MJ/kg | Solid | Baseline fuel, widely available |
+| Charcoal | 28-33 MJ/kg | Solid | Nearly pure carbon, low ash |
+| Bituminous coal | 24-35 MJ/kg | Solid | Variable by rank and ash content |
+| Coke | 28-31 MJ/kg | Solid | Hard, porous, high-temperature fuel |
+| Fuel oil (heavy) | 40-45 MJ/kg | Liquid | Residual petroleum fraction |
+| Natural gas | 38-50 MJ/m³ | Gas | Highest energy density gaseous fuel |
+| Hydrogen | 120 MJ/kg | Gas | By mass; only 3 MJ/m³ by volume at STP |
+
+Cost per delivered MJ depends on production method, transport distance, and conversion efficiency. A rough comparison at early bootstrap costs: wood at 15 MJ/kg and local sourcing delivers energy at the lowest cost per MJ despite its lower energy density, because no processing is required. Coke at 28-31 MJ/kg costs more per MJ when the capital cost of coke ovens is amortized, but enables processes (blast furnaces, silicon reduction) that no amount of cheap wood can achieve.
+
+## Wood Gas as Petroleum Substitute
+
+Producer gas (wood gas) enables internal combustion engines to run without liquid petroleum. Gasification of 1 kg of dry wood yields approximately 2.5 m³ of producer gas at 5-6 MJ/m³, for a total of 12.5-15 MJ of gaseous fuel per kg of wood input. This is less than the 15-18 MJ/kg available from direct combustion, because gasification is inherently a partial combustion process.
+
+A wood gas generator consists of a fuel hopper, a reaction chamber (fire tube) where limited air passes through a hot charcoal bed, a crude cleaning section (cyclone separator and fabric filter for tar and particulate removal), and a cooling radiator to bring the gas below 40°C before it enters the engine intake. The gas must be scrubbed below 50 mg/m³ tar content to protect engine valves and cylinder walls. Typical wood consumption: 1-1.5 kg of wood per kWh of electricity generated via gas engine.
+
+Wood gas was used extensively during WWII petroleum shortages. Sweden operated over 70,000 wood gas vehicles. The technology requires dry wood (below 20% moisture) and regular maintenance (ash removal, filter cleaning every 8-12 hours of operation), but needs no petroleum infrastructure whatsoever.
+
+## Vegetable Oil as Diesel Substitute
+
+Straight vegetable oil (SVO) can run in modified diesel engines, but its high viscosity (30-40 cSt at 40°C vs. 2-4 cSt for diesel fuel) causes poor atomization, carbon buildup on injectors, and ring sticking. Preheating SVO to 70-90°C reduces viscosity to near-diesel levels, enabling short-term operation in unmodified engines.
+
+Transesterification produces biodiesel with properties much closer to petroleum diesel. The reaction uses 1 kg of vegetable oil (triglyceride), 100-200 g of methanol (6:1 molar ratio, excess drives reaction to completion), and 3-8 g of sodium hydroxide (NaOH) or potassium hydroxide (KOH) as catalyst. The reaction proceeds at 50-65°C for 1-3 hours with continuous stirring. Products separate into two layers: biodiesel (methyl esters, upper layer, ~95% yield) and glycerol (lower layer, byproduct with value as a chemical feedstock). Biodiesel cetane number: 48-65 (vs. 40-55 for petroleum diesel). Viscosity: 4-5 cSt at 40°C (close to diesel). Energy density: 37-40 MJ/kg (about 8-10% lower than petroleum diesel). Biodiesel can be blended with petroleum diesel at any ratio or used neat (B100) in compatible engines.
 
 ---
 

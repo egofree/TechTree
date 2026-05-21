@@ -135,10 +135,6 @@
       "outputs": [
         "food_surplus",
         "grain",
-        "animal_power",
-        "leather",
-        "tallow",
-        "wool",
         "preserved_food"
       ],
       "critical": false,
@@ -4140,6 +4136,808 @@
         ],
         "capability": [],
         "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "metals.steelmaking",
+      "name": "Modern Steelmaking",
+      "level": "capability",
+      "parent": "metals",
+      "description": "Conversion of pig iron and scrap into steel via Bessemer, open-hearth, basic oxygen furnace (BOF), and electric arc furnace (EAF). Ladle metallurgy for secondary refining. Continuous casting for near-net-shape solidification. The dominant process chain for producing 1.9 billion tonnes of steel annually.",
+      "timeline": "Years 15-30",
+      "outputs": [
+        "steel_billets",
+        "steel_slabs",
+        "steel_blooms",
+        "flat_products",
+        "long_products"
+      ],
+      "critical": true,
+      "critical_note": "Modern steelmaking produces the structural material for machinery, construction, transport, and all industrial infrastructure",
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "metals.aluminum",
+      "name": "Aluminum Production",
+      "level": "capability",
+      "parent": "metals",
+      "description": "Bayer process converts bauxite to alumina; Hall-Héroult electrolytic reduction of alumina in molten cryolite at 960-980°C produces aluminum at 13-15 kWh/kg. Aluminum alloys (1xxx-8xxx series) for structural, aerospace, electrical, and packaging applications. Extrusion, die casting, and 95% energy savings from recycling.",
+      "timeline": "Years 20-40",
+      "outputs": [
+        "aluminum_ingots",
+        "aluminum_extrusions",
+        "aluminum_castings",
+        "aluminum_sheet"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "metals.non-ferrous",
+      "name": "Non-Ferrous Metal Production",
+      "level": "capability",
+      "parent": "metals",
+      "description": "Industrial production of zinc, lead, tin, nickel, magnesium, and titanium from their ores. Processes include roasting, reduction, electrolysis, distillation (zinc), and the Kroll process (titanium). Enables galvanizing (zinc), batteries (lead), solder (tin), stainless steel and superalloys (nickel), lightweight structural parts (magnesium), and aerospace/medical implants (titanium).",
+      "timeline": "Years 15-40",
+      "outputs": [
+        "zinc",
+        "lead",
+        "tin",
+        "nickel",
+        "magnesium",
+        "titanium_sponge"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "metals.alloys",
+      "name": "Specialty Alloys",
+      "level": "capability",
+      "parent": "metals",
+      "description": "Alloy steels (stainless, tool steels, Hadfield manganese), superalloys (Ni-based Inconel, Co-based Stellite), titanium alloys (Ti-6Al-4V), and specialty copper alloys (beryllium copper, phosphor bronze). Alloy design principles: solid solution strengthening, precipitation hardening, Hall-Petch grain size relationship. Enables gas turbine blades, cutting tools, chemical plant equipment, and aerospace structures.",
+      "timeline": "Years 20-50",
+      "outputs": [
+        "stainless_steel",
+        "tool_steel",
+        "superalloys",
+        "titanium_alloys",
+        "specialty_copper_alloys"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "metals.forming",
+      "name": "Primary Metal Forming",
+      "level": "capability",
+      "parent": "metals",
+      "description": "Bulk primary forming at the smelter and mill: continuous casting (strand solidification from molten steel), hot rolling (slab/billet to sheet/plate/structural), extrusion (aluminum profiles), wire rod rolling, forging at scale (open-die hydraulic press, closed-die), and structural section rolling (I-beams, rails). Transforms raw metal into stock shapes for downstream manufacturing.",
+      "timeline": "Years 15-30",
+      "outputs": [
+        "steel_slab",
+        "steel_plate",
+        "steel_sheet",
+        "steel_bar",
+        "steel_structural",
+        "aluminum_profiles",
+        "forgings"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "metals.finishing",
+      "name": "Metal Finishing & Surface Treatment",
+      "level": "capability",
+      "parent": "metals",
+      "description": "Surface treatment processes for corrosion protection and functional properties: galvanizing (hot-dip zinc), electroplating (Cr, Ni, Cu, Sn, Au), electroless plating (Ni-P), anodizing (aluminum oxide), phosphating (steel conversion coating), case hardening (carburizing, nitriding), passivation (stainless steel), thermal spraying (HVOF, plasma), and pickling/descaling.",
+      "timeline": "Years 15-40",
+      "outputs": [
+        "galvanized_steel",
+        "plated_parts",
+        "anodized_aluminum",
+        "hardened_surfaces",
+        "coated_components"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "metals.powder-metallurgy",
+      "name": "Powder Metallurgy & Advanced Materials",
+      "level": "capability",
+      "parent": "metals",
+      "description": "Production of metal powders (atomization, reduction, carbonyl), consolidation (pressing, sintering), and advanced processes including cemented carbides (WC-Co cutting tools), tungsten and refractory metals, metal injection molding (MIM), hot isostatic pressing (HIP), and additive manufacturing (laser powder bed fusion, electron beam melting). Enables impossible-to-cast alloys, near-net-shape parts, and highest-performance cutting tools.",
+      "timeline": "Years 30-60",
+      "outputs": [
+        "tungsten_products",
+        "cemented_carbides",
+        "PM_structural_parts",
+        "MIM_components",
+        "additive_manufactured_parts"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": true,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [],
+        "era": "advanced",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": true
+      }
+    },
+    {
+      "id": "animals",
+      "name": "Animals & Animal Husbandry",
+      "level": "domain",
+      "parent": null,
+      "description": "Domestication, husbandry, and utilization of animals for food, fiber, motive power, transport, and materials. Animals provide critical inputs across the tech tree: draft power (the primary motive force before steam), leather (durable flexible material), wool (insulating fiber), tallow (first lubricant and candle fuel), bone and horn (tool materials), sinew (high-tensile cordage), and dairy products.",
+      "timeline": "Years 0-50+",
+      "outputs": [
+        "animal_power",
+        "livestock",
+        "leather",
+        "tallow",
+        "wool",
+        "horn",
+        "bone",
+        "sinew",
+        "dairy",
+        "honey",
+        "beeswax",
+        "manure",
+        "pollination_services"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Hunting and trapping provide immediate food and materials; domestication creates the surplus engine that drives civilization",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [
+          "transport"
+        ],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      },
+      "taxonomy": [
+        "biomass.animal"
+      ]
+    },
+    {
+      "id": "animals.domestication",
+      "name": "Livestock Domestication & Husbandry",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Selective capture, taming, breeding, and management of cattle, sheep, goats, pigs, poultry, horses, and donkeys. Each species provides distinct products: cattle (draft power, milk, leather, tallow), sheep (wool, milk, meat), goats (milk, hides, brush clearing), pigs (meat, tallow, waste conversion), poultry (eggs, pest control, meat), horses and donkeys (fast transport, heavy draft).",
+      "timeline": "Years 1-30+",
+      "outputs": [
+        "livestock",
+        "breeding_stock",
+        "manure",
+        "dairy",
+        "meat",
+        "eggs"
+      ],
+      "critical": true,
+      "critical_note": "Without animal domestication, plowing and transport are limited to human muscle until steam engines arrive; manure is essential for sustained agriculture",
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": false
+      },
+      "taxonomy": [
+        "biomass.animal.livestock"
+      ]
+    },
+    {
+      "id": "animals.draft-power",
+      "name": "Animal Draft Power & Harnessing",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Yoke and harness systems for oxen, horses, and mules. Applications: plowing (ox-drawn plow breaks sod that hand tools cannot), cart and wagon pulling (500-1500 kg per animal), water lifting (animal-powered sakia), grain milling (horse or ox-powered millstones), mining hoisting (horse whim: 3-4 HP). Primary motive power source until steam engines.",
+      "timeline": "Years 2-30+",
+      "outputs": [
+        "animal_power",
+        "plowing_capability",
+        "cart_draft",
+        "animal_milling"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Draft animals multiply human labor 5-10x for plowing and transport, creating surplus with minimal technology",
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "transport"
+        ],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      },
+      "taxonomy": [
+        "biomass.animal.draft"
+      ]
+    },
+    {
+      "id": "animals.animal-materials",
+      "name": "Animal-Derived Materials Processing",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Processing animal products into useful materials: leather (dehairing with lime, tanning with oak bark tannins, oil tanning, currying), tallow and lard rendering (fat melted at 80-100°C, clarified), wool preparation (shearing, scouring, carding), horn and bone working (heat-softening, carving, boiling for glue), sinew processing (drying, pounding into fibers), hide glue production, and blood processing.",
+      "timeline": "Years 1-30+",
+      "outputs": [
+        "leather",
+        "tallow",
+        "wool",
+        "horn",
+        "bone",
+        "sinew",
+        "hide_glue",
+        "blood",
+        "feathers"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      },
+      "taxonomy": [
+        "biomass.animal.materials"
+      ]
+    },
+    {
+      "id": "animals.beekeeping",
+      "name": "Apiculture (Beekeeping)",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Log hive and skep beekeeping for honey and beeswax production. Honey serves as food preservative, antibacterial wound treatment, fermentation substrate for mead, and pill binder. Beeswax is critical for investment casting (enabling precision bronze parts), writing tablets, candle fuel, waterproofing, belt dressing, and dental fillings. Pollination services increase crop yields 20-30%.",
+      "timeline": "Years 1-20+",
+      "outputs": [
+        "honey",
+        "beeswax",
+        "pollination_services"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Pollination alone increases crop yields 20-30%, and beeswax is critical for investment casting enabling precision bronze parts",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      },
+      "taxonomy": [
+        "biomass.animal.insect"
+      ]
+    },
+    {
+      "id": "animals.aquaculture",
+      "name": "Aquaculture & Fisheries",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Fish farming and capture fisheries including pond construction, fish stocking, net making, trap construction, and fish processing (drying, smoking, salting). Provides high-quality protein from aquatic systems that do not compete with land-based agriculture.",
+      "timeline": "Years 2-30+",
+      "outputs": [
+        "fish",
+        "shellfish",
+        "fish_oil",
+        "fishmeal"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      },
+      "taxonomy": [
+        "biomass.animal.aquatic"
+      ]
+    },
+    {
+      "id": "animals.sericulture",
+      "name": "Sericulture (Silkworm Rearing)",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Rearing silkworms (Bombyx mori) on mulberry leaves, cocoon harvesting, and silk thread production. Silk is the strongest natural fiber by weight, used for high-value textiles, medical sutures, and parachutes. Requires established domestication skills and controlled feeding.",
+      "timeline": "Years 10-50+",
+      "outputs": [
+        "silk_thread",
+        "silk_cloth",
+        "pupa_protein"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      },
+      "taxonomy": [
+        "biomass.animal.insect"
+      ]
+    },
+    {
+      "id": "animals.pest-management",
+      "name": "Biological Pest Management",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Biological pest control using domesticated animals: cats for rodent control in granaries, geese for weed control in crops, ducks for insect pest control in rice paddies, and guardian dogs for livestock protection from predators. Integrated approach combining animal behavior with crop protection.",
+      "timeline": "Years 2-30+",
+      "outputs": [
+        "pest_control",
+        "predator_protection",
+        "crop_protection"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      },
+      "taxonomy": [
+        "biomass.animal.guardian"
+      ]
+    },
+    {
+      "id": "foundations.water-procurement",
+      "name": "Water Procurement",
+      "level": "capability",
+      "parent": "foundations",
+      "description": "Finding, collecting, storing, and transporting water for drinking, sanitation, and agriculture. Water finding by vegetation and geological indicators, rainwater harvesting, spring development, and basic transport infrastructure predating pumped distribution systems.",
+      "timeline": "Years 0-5",
+      "outputs": [
+        "fresh_water",
+        "stored_water"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "textiles.finishing",
+      "name": "Fabric Finishing",
+      "level": "capability",
+      "parent": "textiles",
+      "description": "Post-weaving fabric treatments including fulling, napping, calendering, singeing, mercerization, waterproofing, and fireproofing. Transforms raw cloth into functional textiles for specific applications.",
+      "timeline": "Years 5-30+",
+      "outputs": [
+        "finished_cloth",
+        "waterproof_fabric",
+        "felt"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "textiles.sewing-tailoring",
+      "name": "Sewing & Tailoring",
+      "level": "capability",
+      "parent": "textiles",
+      "description": "Garment construction, needle making, thread selection, seam types, and industrial sewing techniques. Converts raw cloth into clothing, bags, belts, tents, sails, and technical textile products.",
+      "timeline": "Years 2-30+",
+      "outputs": [
+        "clothing",
+        "bags",
+        "tents",
+        "sails",
+        "belts"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "mining.drilling",
+      "name": "Mechanical Drilling",
+      "level": "capability",
+      "parent": "mining",
+      "description": "Mechanical drilling techniques for production blast holes and exploration core sampling. Jackhammer drilling, diamond core drilling, and rotary drilling for both mining operations and geological survey.",
+      "timeline": "Years 30-100+",
+      "outputs": [
+        "blast_holes",
+        "core_samples"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "mining.ventilation",
+      "name": "Mine Ventilation",
+      "level": "capability",
+      "parent": "mining",
+      "description": "Underground ventilation engineering for air supply, gas dilution, heat management, and dust control. Furnace ventilation, fan ventilation, and ventilation network design using Atkinson's equation.",
+      "timeline": "Years 10-50+",
+      "outputs": [
+        "ventilated_mine",
+        "fresh_air_supply"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "glass.fibers",
+      "name": "Glass Fiber Production",
+      "level": "capability",
+      "parent": "glass",
+      "description": "Glass fiber production for insulation wool and textile-grade fiberglass reinforcement. Rotary fiberization for insulation, bushing drawing for continuous filaments, and sizing application for composite reinforcement.",
+      "timeline": "Years 50-100+",
+      "outputs": [
+        "glass_fiber",
+        "fiberglass_insulation",
+        "fiberglass_roving"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "glass"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "measurement.electrical-instruments",
+      "name": "Electrical Measurement Instruments",
+      "level": "capability",
+      "parent": "measurement",
+      "description": "Voltmeters, ammeters, ohmmeters, Wheatstone bridges, galvanometers, oscilloscopes, and signal generators. Essential for energy, chemistry, and semiconductor domains.",
+      "timeline": "Years 30-100+",
+      "outputs": [
+        "electrical_measurement",
+        "voltage_measurement",
+        "current_measurement"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "measurement.optical-instruments",
+      "name": "Optical Measurement Instruments",
+      "level": "capability",
+      "parent": "measurement",
+      "description": "Microscopes, telescopes, spectrometers, autocollimators, and interferometers used as precision measurement tools. Bridges optics domain to measurement for semiconductor inspection and scientific instrumentation.",
+      "timeline": "Years 30-100+",
+      "outputs": [
+        "optical_measurement",
+        "microscopy",
+        "spectroscopy"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "optics.precision-instruments",
+      "name": "Precision Optical Instruments",
+      "level": "capability",
+      "parent": "optics",
+      "description": "Interferometers, autocollimators, optical flats, and spherometers for precision optical metrology. Used for lens testing, flatness verification, and angular measurement in semiconductor and scientific applications.",
+      "timeline": "Years 40-100+",
+      "outputs": [
+        "interferometry",
+        "flatness_measurement",
+        "angular_measurement"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "health.occupational-health",
+      "name": "Occupational Health & Industrial Hygiene",
+      "level": "capability",
+      "parent": "health",
+      "description": "Industrial hygiene, workplace exposure limits, noise control, ergonomics, respiratory protection, and occupational disease prevention. Essential for workforce survival in industrial environments.",
+      "timeline": "Years 10-50+",
+      "outputs": [
+        "workplace_safety",
+        "exposure_limits",
+        "respiratory_protection"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "health"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "health.medical-instruments",
+      "name": "Medical Instrument Manufacturing",
+      "level": "capability",
+      "parent": "health",
+      "description": "Surgical instrument manufacturing, autoclave design and operation, suture production, and basic medical equipment fabrication. Bridges metals and health domains for healthcare tooling.",
+      "timeline": "Years 15-50+",
+      "outputs": [
+        "surgical_instruments",
+        "sterilization_equipment",
+        "sutures"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "computing.digital-logic",
+      "name": "Digital Logic Design",
+      "level": "capability",
+      "parent": "computing",
+      "description": "Boolean algebra, combinational logic gates, sequential logic, state machines, and register transfer level design. Foundation for all digital computing from relay logic to integrated circuits.",
+      "timeline": "Years 40-100+",
+      "outputs": [
+        "logic_circuits",
+        "state_machines",
+        "digital_design"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [],
+        "era": "electronic",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "computing.data-storage",
+      "name": "Data Storage Systems",
+      "level": "capability",
+      "parent": "computing",
+      "description": "Evolution of data storage from punch cards and paper tape through magnetic tape, magnetic drum, disk storage, and core memory. Each technology provides increasing density and access speed.",
+      "timeline": "Years 40-100+",
+      "outputs": [
+        "data_storage",
+        "punch_cards",
+        "magnetic_storage"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "silicon.wafering",
+      "name": "Wafer Slicing & Polishing",
+      "level": "capability",
+      "parent": "silicon",
+      "description": "Wafer production from crystal ingots: wire saw slicing, lapping, chemical mechanical polishing (CMP), and RCA cleaning. Transforms grown crystals into device-ready wafers with mirror-smooth surfaces.",
+      "timeline": "Years 60-150+",
+      "outputs": [
+        "silicon_wafers",
+        "polished_wafers"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "silicon"
+        ],
+        "capability": [],
+        "era": "electronic",
         "critical": false,
         "early-win": false,
         "pinnacle": false

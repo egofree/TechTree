@@ -16,6 +16,7 @@ graph TD
     transport["Transportation & Logistics"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    animals_draft-power("Animal Draft Power & Harnessing")
     chemistry_acids("Mineral Acid Production")
     chemistry_coatings("Paints, Coatings & Inks")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
@@ -27,6 +28,8 @@ graph TD
     foundations_tools-basic("Stone & Wood Tools")
     machine-tools("Machine Tools Bootstrap")
     metals("Metals")
+    metals_aluminum("Aluminum Production")
+    metals_forming("Primary Metal Forming")
     metals_iron-steel("Iron & Steel Production")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_extraction("Mining Extraction")
@@ -53,6 +56,9 @@ graph TD
     transport -.-> mining_extraction
     transport -.-> energy_fuels
     transport --> chemistry_coatings
+    transport_aviation --> metals_aluminum
+    transport_railways --> metals_forming
+    transport_roads -.-> animals_draft-power
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -74,6 +80,7 @@ graph TD
     class transport_shipping capability
     class transport_aviation capability
     class transport_telegraph capability
+    class animals_draft-power external
     class chemistry_acids external
     class chemistry_coatings external
     class chemistry_petroleum-alternatives external
@@ -85,6 +92,8 @@ graph TD
     class foundations_tools-basic external
     class machine-tools external
     class metals external
+    class metals_aluminum external
+    class metals_forming external
     class metals_iron-steel external
     class mining external
     class mining_extraction external

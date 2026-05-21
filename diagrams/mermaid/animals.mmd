@@ -1,0 +1,100 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Animals & Animal Husbandry
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph animals_internal ["Animals & Animal Husbandry — Internal Structure"]
+        direction TB
+        animals_domestication["Livestock Domestication & Husbandry"]
+        animals_draft-power["Animal Draft Power & Harnessing"]
+        animals_animal-materials["Animal-Derived Materials Processing"]
+        animals_beekeeping["Apiculture (Beekeeping)"]
+        animals_aquaculture["Aquaculture & Fisheries"]
+        animals_sericulture["Sericulture (Silkworm Rearing)"]
+        animals_pest-management["Biological Pest Management"]
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    animals["Animals & Animal Husbandry"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    ceramics_lime("Lime Production")
+    chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
+    foundations("Foundations")
+    foundations_fire("Fire-Making")
+    foundations_food-agriculture("Agriculture & Food Production")
+    foundations_tools-basic("Stone & Wood Tools")
+    health_medicine("Medicine & Surgery")
+    health_pharmacology("Pharmacology")
+    knowledge_writing("Writing & Record-Keeping")
+    machine-tools_forming("Metal Forming")
+    machine-tools_iterative-bootstrap("Iterative Machine Bootstrap")
+    metals_copper-bronze("Copper & Bronze Production")
+    mining_extraction("Mining Extraction")
+    textiles_fibers("Fiber Preparation")
+    transport_roads("Road & Bridge Construction")
+
+    %% ==================== EDGES ====================
+    animals_domestication -.-> animals
+    animals_draft-power -.-> animals_domestication
+    animals_animal-materials --> animals_domestication
+    animals_sericulture --> animals_domestication
+    animals_pest-management -.-> animals_domestication
+    animals -.-> foundations
+    animals --> foundations_food-agriculture
+    animals_draft-power -.-> foundations_tools-basic
+    animals_animal-materials -.-> ceramics_lime
+    animals_beekeeping -.-> foundations_fire
+    animals_beekeeping -.-> foundations_tools-basic
+    animals_aquaculture -.-> foundations_tools-basic
+    textiles_fibers --> animals_animal-materials
+    chemistry_lubricants --> animals_animal-materials
+    transport_roads -.-> animals_draft-power
+    mining_extraction -.-> animals_draft-power
+    knowledge_writing --> animals_animal-materials
+    knowledge_writing --> animals_beekeeping
+    metals_copper-bronze --> animals_beekeeping
+    machine-tools_forming --> animals_animal-materials
+    machine-tools_iterative-bootstrap --> animals_animal-materials
+    health_pharmacology --> animals_beekeeping
+    health_medicine --> animals_beekeeping
+    foundations_food-agriculture --> animals_beekeeping
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
+    class animals domain
+    class animals_domestication critical
+    class animals_draft-power earlyWin
+    class animals_animal-materials capability
+    class animals_beekeeping earlyWin
+    class animals_aquaculture capability
+    class animals_sericulture capability
+    class animals_pest-management capability
+    class ceramics_lime external
+    class chemistry_lubricants external
+    class foundations external
+    class foundations_fire external
+    class foundations_food-agriculture external
+    class foundations_tools-basic external
+    class health_medicine external
+    class health_pharmacology external
+    class knowledge_writing external
+    class machine-tools_forming external
+    class machine-tools_iterative-bootstrap external
+    class metals_copper-bronze external
+    class mining_extraction external
+    class textiles_fibers external
+    class transport_roads external
+    class EdgeLegend,MatNote,ToolNote legend

@@ -31,6 +31,7 @@ graph TD
     chemistry["Chemistry"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    animals_animal-materials("Animal-Derived Materials Processing")
     ceramics_kilns("Kiln Construction")
     energy("Energy")
     energy_cooling("Cooling Systems & Refrigeration")
@@ -46,6 +47,7 @@ graph TD
     glass("Glass")
     glass_basic("Basic Glass Production")
     health("Public Health, Sanitation & Medicine")
+    health_occupational-health("Occupational Health & Industrial Hygiene")
     health_pharmacology("Pharmacology")
     knowledge("Knowledge Preservation & Education")
     knowledge_writing("Writing & Record-Keeping")
@@ -53,6 +55,11 @@ graph TD
     machine-tools_joining("Metal Joining")
     measurement("Measurement & Instrumentation")
     metals("Metals")
+    metals_aluminum("Aluminum Production")
+    metals_finishing("Metal Finishing & Surface Treatment")
+    metals_non-ferrous("Non-Ferrous Metal Production")
+    metals_powder-metallurgy("Powder Metallurgy & Advanced Materials")
+    metals_steelmaking("Modern Steelmaking")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_extraction_black-powder("Black Powder Explosives")
     photolithography("Photolithography & IC Fabrication")
@@ -69,6 +76,7 @@ graph TD
     silicon_purification("Silicon Purification")
     textiles("Textiles, Fiber & Cordage")
     textiles_dyeing("Dyeing")
+    textiles_finishing("Fabric Finishing")
     transport("Transportation & Logistics")
     transport_aviation("Aviation")
     transport_telegraph("Telegraph Communication")
@@ -156,6 +164,18 @@ graph TD
     transport --> chemistry_coatings
     knowledge --> chemistry_pulp-chemicals
     textiles --> chemistry_pulp-chemicals
+    metals_steelmaking --> chemistry_refractories
+    metals_aluminum -.-> chemistry_electrolysis
+    metals_aluminum --> chemistry_alkalis
+    metals_non-ferrous --> chemistry_acids
+    chemistry_soap --> metals_non-ferrous
+    metals_finishing --> chemistry_acids
+    metals_finishing -.-> chemistry_electrolysis
+    metals_finishing --> chemistry_coatings
+    metals_powder-metallurgy -.-> chemistry_hydrogen-silane
+    chemistry_lubricants --> animals_animal-materials
+    textiles_finishing -.-> chemistry_alkalis
+    health_occupational-health --> chemistry_acids
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -192,6 +212,7 @@ graph TD
     class chemistry_refractories earlyWin
     class chemistry_coatings capability
     class chemistry_pulp-chemicals capability
+    class animals_animal-materials external
     class ceramics_kilns external
     class energy external
     class energy_cooling external
@@ -207,6 +228,7 @@ graph TD
     class glass external
     class glass_basic external
     class health external
+    class health_occupational-health external
     class health_pharmacology external
     class knowledge external
     class knowledge_writing external
@@ -214,6 +236,11 @@ graph TD
     class machine-tools_joining external
     class measurement external
     class metals external
+    class metals_aluminum external
+    class metals_finishing external
+    class metals_non-ferrous external
+    class metals_powder-metallurgy external
+    class metals_steelmaking external
     class mining external
     class mining_extraction_black-powder external
     class photolithography external
@@ -230,6 +257,7 @@ graph TD
     class silicon_purification external
     class textiles external
     class textiles_dyeing external
+    class textiles_finishing external
     class transport external
     class transport_aviation external
     class transport_telegraph external

@@ -7,6 +7,8 @@ graph TD
         direction TB
         measurement_precision-metrology["Precision Metrology & Standards"]
         measurement_temperature-pressure["Temperature & Pressure Measurement"]
+        measurement_electrical-instruments["Electrical Measurement Instruments"]
+        measurement_optical-instruments["Optical Measurement Instruments"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -19,10 +21,15 @@ graph TD
     machine-tools("Machine Tools Bootstrap")
     machine-tools_casting("Metal Casting")
     metals("Metals")
+    metals_powder-metallurgy("Powder Metallurgy & Advanced Materials")
+    optics_inspection("Optical Inspection")
+    optics_precision-instruments("Precision Optical Instruments")
     silicon_crystal-growth("Crystal Growth & Wafering")
     silicon_crystal-growth_cz-pulling("Czochralski Crystal Pulling")
 
     %% ==================== EDGES ====================
+    measurement_electrical-instruments -.-> measurement
+    measurement_optical-instruments -.-> measurement
     measurement_precision-metrology -.-> machine-tools_casting
     measurement -.-> machine-tools
     measurement --> chemistry
@@ -32,6 +39,10 @@ graph TD
     silicon_crystal-growth_cz-pulling -.-> measurement_temperature-pressure
     measurement_temperature-pressure -.-> energy_electricity
     measurement_temperature-pressure --> metals
+    measurement -.-> metals_powder-metallurgy
+    measurement_electrical-instruments -.-> energy_electricity
+    measurement_optical-instruments -.-> optics_inspection
+    measurement_precision-metrology -.-> optics_precision-instruments
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -50,12 +61,17 @@ graph TD
     class measurement domain
     class measurement_precision-metrology capability
     class measurement_temperature-pressure capability
+    class measurement_electrical-instruments capability
+    class measurement_optical-instruments capability
     class chemistry external
     class energy_electricity external
     class foundations external
     class machine-tools external
     class machine-tools_casting external
     class metals external
+    class metals_powder-metallurgy external
+    class optics_inspection external
+    class optics_precision-instruments external
     class silicon_crystal-growth external
     class silicon_crystal-growth_cz-pulling external
     class EdgeLegend,MatNote,ToolNote legend

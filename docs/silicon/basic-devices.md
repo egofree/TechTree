@@ -70,6 +70,39 @@
 - **DC sputtering**: Conductive targets only (metals). 200-1000V, 0.1-10 Torr Ar.
 - **RF sputtering**: Any target material (including insulators). 13.56 MHz standard frequency.
 
+### Semiconductor Device Physics
+
+**P-N junction**:
+- **Depletion region**: At the junction between p-type and n-type silicon, electrons diffuse from the n-side into the p-side and recombine with holes. This creates a region depleted of free carriers (the depletion region), leaving behind fixed ionized dopant atoms: negative acceptor ions on the p-side, positive donor ions on the n-side. The resulting electric field (built-in potential, Vbi ≈ 0.7V for silicon) opposes further diffusion.
+- **Depletion width**: W = √(2εᵣε₀(Vbi - V)/(qN)), where εᵣ = 11.7 for silicon, ε₀ = 8.854×10⁻¹² F/m, q = 1.6×10⁻¹⁹ C, and N is the dopant concentration on the lightly-doped side. For a typical junction with N = 10¹⁶/cm³ and zero bias: W ≈ 0.3 μm. Under reverse bias, W increases as √V.
+- **Forward bias I-V characteristic**: I = I₀(e^(qV/nkT) - 1), where I₀ is the reverse saturation current (typically 10⁻¹² to 10⁻⁹ A for small diodes), n is the ideality factor (1.0-2.0, where n=1 is ideal diffusion current and n=2 indicates recombination current), k is Boltzmann's constant (1.38×10⁻²³ J/K), and T is absolute temperature. At room temperature, kT/q ≈ 26 mV.
+- **Reverse bias breakdown**: When reverse voltage exceeds a threshold, current increases dramatically. **Avalanche breakdown** (dominant for breakdown voltages >7V): accelerated carriers collide with lattice atoms, ionizing them and creating more carriers (chain reaction). **Zener breakdown** (dominant for breakdown voltages <5V): quantum mechanical tunneling of carriers through the narrow depletion region in heavily-doped junctions.
+
+**Diode types**:
+- **Rectifier diode**: General purpose. Forward voltage drop 0.6-0.7V (silicon). Reverse breakdown 50-2000V depending on design. Recovery time: fast (Schottky) to slow (standard rectifier). Used for AC-to-DC conversion, reverse polarity protection, signal clamping.
+- **Zener diode**: Designed to operate in reverse breakdown. Breakdown voltage specified from 2.7V to 200V in standard values. Tolerance ±5% (tighter available). At breakdown, voltage remains nearly constant over a wide current range (dynamic impedance 1-100 Ω). Used for voltage regulation and reference. Requires series resistor to limit current: R = (Vin - Vz)/Iz.
+- **Schottky diode**: Metal-semiconductor junction (not a p-n junction). Lower forward voltage drop (0.2-0.4V, depending on the metal). Faster switching (no minority carrier storage — majority carrier device). Higher reverse leakage current than silicon p-n diodes. Used in high-frequency rectifiers, power supply OR-ing, RF detectors.
+- **LED (light-emitting diode)**: Forward-biased p-n junction where electron-hole recombination produces photons. Photon energy ≈ bandgap energy. GaAs: infrared (~870 nm). GaAsP: red (~630 nm). GaP: green (~555 nm). GaN: blue (~450 nm). External quantum efficiency: 1-30% depending on material and structure.
+
+**Bipolar Junction Transistor (BJT) operation**:
+- **Current gain**: β = Ic/Ib, typically 50-300 for small-signal transistors, 10-50 for power transistors. The base current controls a much larger collector current. Small changes in base current cause large changes in collector current, which is the amplification mechanism.
+- **Operating regions**: **Cutoff** (base-emitter junction not forward biased: Ic ≈ 0). **Active** (base-emitter forward biased, base-collector reverse biased: Ic = β·Ib, amplifier operation). **Saturation** (both junctions forward biased: Vce ≈ 0.2V, switch "on" state). **Reverse active** (junctions reversed, β very low, rarely used).
+- **Bias circuits**: Operating point (quiescent point) set by base bias resistors. Fixed bias (single base resistor, β-dependent). Voltage divider bias (two resistors from Vcc to ground with base at junction, most stable against β variation). Emitter resistor provides negative feedback: if Ic increases → Ie increases → Ve increases → Vbe decreases → Ic decreases. Self-stabilizing.
+
+**MOSFET device parameters**:
+- **Gate oxide**: 5-100 nm thickness (5-10 nm for modern logic, 50-100 nm for power MOSFETs). Grown by thermal oxidation. Breakdown field ~10 MV/cm. A 10 nm oxide breaks down at ~10V. Oxide integrity is the single most critical fabrication parameter.
+- **Threshold voltage (Vth)**: 0.5-2V for enhancement-mode. Vth = 2φF + (√(2εs·q·Na·(2φF)))/Cox, where φF is the Fermi potential, Na is substrate doping, and Cox is oxide capacitance per unit area. Vth increases with substrate doping and oxide thickness.
+- **On-resistance (RDS(on))**: 0.01-10 Ω depending on device size and voltage rating. For power MOSFETs: RDS(on) × area ≈ constant for a given voltage rating. Higher voltage devices have higher specific on-resistance (more drift region to sustain voltage).
+- **Gate charge (Qg)**: Total charge that must be supplied to the gate to turn the device fully on. Determines switching speed: ton ≈ Qg/Ig where Ig is the gate driver current. Typical values: 1-100 nC depending on device size. Gate charge is a key parameter for switching loss calculation: Pswitch = Qg × Vgs × f.
+
+### Simple Circuit Building Blocks
+
+**Full-wave bridge rectifier**: Four diodes in a bridge configuration. AC input across two opposite corners, DC output across the other two. Converts AC to pulsating DC. Output voltage = |Vac| - 2×Vd (two diode drops, ~1.4V for silicon). With a filter capacitor: Vdc ≈ Vpeak - 1.4V - (Iload)/(2·f·C). The capacitor smooths the pulsating DC; larger capacitance gives less ripple.
+
+**Zener voltage regulator**: Zener diode in reverse bias with series resistor. Input voltage Vin through resistor R to Zener cathode. Zener maintains approximately constant voltage Vz across the load. Design: R = (Vin_min - Vz)/(Iz_min + Iload_max). Power dissipation in Zener: Pz = Vz × Iz. Must keep Pz below Zener's rated dissipation (typically 0.4-1.5W for small devices).
+
+**Astable multivibrator**: Two transistors, two collector resistors, two base resistors, and two coupling capacitors. Each transistor alternately turns on and off. Frequency: f = 1/(1.4·R·C) where R is the base resistor and C is the coupling capacitor (symmetric circuit). Used as a simple clock oscillator. Output: square wave at the collector of either transistor. Duty cycle ~50% with equal R and C values.
+
 ### Safety Hazards
 
 Semiconductor device fabrication uses some of the most dangerous chemicals in industrial processing:
@@ -78,6 +111,142 @@ Semiconductor device fabrication uses some of the most dangerous chemicals in in
 - **NaOH / KOH (caustic etchants)**: 20-40% solutions at 80°C for saw-damage removal and texturing. Causes deep caustic burns on skin and permanent eye damage. Heat increases severity. PPE: chemical splash goggles (not just safety glasses), nitrile gloves, apron. Eye wash station within 10 seconds travel. If splashed in eyes, flush with water for 15+ minutes immediately.
 - **Belt furnace burn hazard**: Metal contacts are fired at 700-800°C on a moving belt. Exposed hot surfaces, infrared radiation. Thermal gloves and face shield for loading/unloading. Belt pinch points — keep hands clear of moving belt edges.
 - **Vacuum chamber implosion**: Evaporation and sputtering chambers are evacuated to 10⁻⁵-10⁻⁶ Torr. A flawed glass viewport or corroded chamber wall can implode violently. Inspect viewports for scratches or star cracks before each pump-down. Safety glasses at all times near evacuated chambers. Never exceed rated pressure differential.
+
+### Process Integration for Simple Devices
+
+**Rectifier diode fabrication flow** (simplest discrete device):
+1. **Starting wafer**: n-type <111> silicon, 5-20 Ω·cm, 300-500 μm thick.
+2. **Boron diffusion**: Spin boron dopant source (BBr₃ in N₂ carrier) onto wafer surface. Load in diffusion furnace at 1000-1100°C for 30-120 minutes. Drive-in at 1100°C for 30-60 minutes to deepen junction. Result: p-type layer ~1-5 μm deep on one surface, forming p-n junction.
+3. **Oxide removal**: Strip the boron glass (SiO₂-B₂O₃) in dilute HF (5%, 30-60 seconds).
+4. **Back side etch**: Remove p-type layer from the back side using wax masking (paint wax on the front, etch back with HF:HNO₃ mixture).
+5. **Metallization**: Evaporate aluminum on both sides (1-2 μm front, 2-5 μm back). Front contact: small dot or ring pattern defined by shadow mask. Back contact: full area.
+6. **Alloy**: Heat to 450°C for 15 minutes in forming gas (N₂/H₂). Aluminum alloys with silicon at the contact, forming a low-resistance ohmic contact.
+7. **Scribe and break**: Separate individual diodes from the wafer by diamond scribing and snapping. Typical die size: 1×1 mm to 5×5 mm depending on current rating.
+8. **Package**: Solder die into metal-glass or plastic package. Wire bond from package lead to front contact. Seal.
+
+**Solar cell process optimization**:
+- **Gettering**: Phosphorus diffusion for the n+ emitter also acts as a gettering step (phosphorus atoms in the near-surface region attract and trap metallic impurities from the bulk silicon). This improves minority carrier lifetime in the base, increasing open-circuit voltage. Process: extend the POCl₃ pre-deposition time by 10-15 minutes beyond what is needed for junction depth alone.
+- **Surface passivation**: The SiNₓ anti-reflection coating deposited by PECVD also provides surface passivation. Hydrogen atoms in the SiNₓ film diffuse to the silicon surface during the firing step, terminating dangling bonds that would otherwise act as recombination centers. This passivation is critical for achieving >16% efficiency.
+- **Firing optimization**: The rapid thermal processing (belt furnace, 700-800°C peak, ~30 seconds) serves three purposes simultaneously: (1) Ag paste etches through SiNₓ to contact the n+ emitter, (2) Al alloys with silicon to form the p+ back surface field, and (3) hydrogen from SiNₓ passivates surface and bulk defects. Temperature must be precisely controlled: too low → poor contact, too high → junction degradation.
+
+### Device Testing
+
+**I-V characterization**:
+- **Diode testing**: Measure forward voltage at a specified current (e.g., Vf at 1 mA, 10 mA, 100 mA). Normal silicon diode: Vf ≈ 0.6-0.7V at 1 mA. Higher Vf indicates poor contact or high series resistance. Measure reverse leakage at rated voltage (e.g., leakage at 50V). Good rectifier diode: leakage <1 μA at rated voltage.
+- **Solar cell I-V curve**: Illuminate cell with standard solar spectrum (AM1.5, 1000 W/m²). Measure open-circuit voltage (Voc), short-circuit current (Isc), and maximum power point (Pmax). Fill factor FF = Pmax/(Voc × Isc). Efficiency η = Pmax/(incident power × cell area). A good 156×156 mm cell: Voc ~0.62V, Isc ~9A, FF ~0.78, η ~17%.
+
+**Transistor testing**:
+- **BJT gain measurement**: Apply known base current (e.g., 10 μA), measure collector current. β = Ic/Ib. Test at multiple base currents (1 μA to 10 mA) to characterize gain variation. Plot gain vs. collector current (gain peaks at intermediate current, falls at both extremes).
+- **MOSFET threshold voltage**: Apply gate voltage sweep from 0 to 5V with drain at 0.1V. Plot Id vs. Vg. Threshold voltage Vth = gate voltage where drain current reaches a specified value (e.g., 1 μA × W/L). Check that Vth is within specification (typically 0.5-2V for enhancement mode).
+
+### Reliability and Failure Modes
+
+**Common failure mechanisms for semiconductor devices**:
+- **Electrostatic discharge (ESD)**: A static discharge as low as 50-100V can puncture the thin gate oxide of a MOSFET, creating a short circuit from gate to channel. Even non-catastrophic ESD events degrade oxide integrity, leading to premature failure weeks or months later. Prevention: grounded wrist straps, conductive flooring, ionizers, ESD-safe packaging (conductive foam or bags).
+- **Electromigration**: High current density in metal interconnect lines causes metal atoms to migrate in the direction of electron flow. Over time, this thins the conductor until it opens (open circuit) or forms a hillock that shorts to an adjacent line. MTTF ∝ J⁻² × exp(Ea/kT), where J is current density and Ea is activation energy (~0.5-0.7 eV for Al). Design rule: keep current density below 1 mA/μm² for aluminum interconnects.
+- **Hot carrier injection**: High electric fields near the drain end of short-channel MOSFETs accelerate electrons to high energy. These "hot carriers" can be injected into the gate oxide, causing threshold voltage shift and transconductance degradation over time. Worse at higher drain voltages and lower temperatures. Mitigated by lightly-doped drain (LDD) structures that reduce the peak electric field.
+- **Oxide breakdown**: Gate oxide fails when the electric field exceeds the breakdown strength (~10 MV/cm for SiO₂). Time-dependent dielectric breakdown (TDDB) occurs at fields well below the instantaneous breakdown threshold: defects in the oxide accumulate charge over time until a conductive path forms through the oxide. Accelerated by voltage stress and temperature.
+
+**Simple device qualification tests**:
+- **Temperature cycling**: Cycle devices between -40°C and +125°C (or wider range) for 100-1000 cycles. Checks for thermal expansion mismatch failures (wire bond lifting, die attach cracking, package delamination).
+- **Burn-in**: Operate devices at elevated temperature (125-150°C) and maximum rated voltage for 24-168 hours. Weeds out "infant mortality" failures (devices with latent defects that fail early in life). The bathtub curve: high failure rate in the first few hundred hours (infant mortality), low constant rate during operational life, rising rate at end of life (wearout).
+- **High temperature operating life (HTOL)**: Operate at maximum rated temperature and voltage for 1000 hours. Measures long-term reliability and extracts failure rate data for lifetime predictions.
+
+### Device Packaging
+
+**Discrete device packages**:
+- **DO-41 (axial lead)**: Glass-sealed cylindrical package for small-signal and rectifier diodes. Glass body (2-4 mm diameter, 4-6 mm long) with axial metal leads (copper or steel, 0.5-0.8 mm diameter). Glass-to-metal seal hermetically seals the die. Rated to 500V-1000V, 1A average forward current. The simplest and cheapest diode package. Color band on cathode end indicates polarity.
+- **TO-220 (through-hole, power)**: Plastic-molded package (10×15×5 mm) with a metal tab for heat sink mounting. Three leads (for transistors) or two leads (for diodes). Rated for 1-50A, up to 1000V. The metal tab is electrically connected to the device (collector for BJT, drain for MOSFET, cathode for diode) — requires electrical insulation (mica washer or thermal pad) when mounting to a grounded heat sink.
+- **TO-92 (through-hole, small signal)**: Plastic-molded package (3×5 mm body, 3 leads). For low-power transistors and sensors. Rated to 350 mW dissipation, 200 mA collector current. Inexpensive and widely used for small-signal applications.
+
+**Wire bonding**:
+- **Purpose**: Electrically connect the silicon die to the package leads with fine wire (25 μm gold or 25-50 μm aluminum).
+- **Ball bonding** (gold wire): Flame-off creates a small ball at the wire tip. Thermosonic bonding (heat + ultrasonic vibration + pressure) attaches the ball to the aluminum bond pad on the die. Wire is looped to the package lead, where a second bond (wedge) is made. Ball bonding is the dominant method for ICs and most discrete devices.
+- **Wedge bonding** (aluminum wire): Ultrasonic energy and pressure form a wedge bond at both die and lead. No heat required (can be done at room temperature). Used for power devices (thicker aluminum wire, 100-500 μm, carries higher current) and for devices sensitive to gold contamination.
+
+**Die attach**:
+- **Solder attach**: Eutectic solder (Au-Si at 363°C, or soft solder Sn-Pb at 183°C) bonds the die to the package header or lead frame. Good thermal and electrical conductivity. The die back side is metallized (Ti/Ni/Ag or Ti/Pd/Au) for solder wetting.
+- **Epoxy attach**: Conductive epoxy (silver-filled) or non-conductive epoxy bonds the die at lower temperature (150°C cure). Simpler process, lower cost. Used for plastic packages where hermeticity is not required.
+
+**Hermetic vs. non-hermetic packages**:
+- **Hermetic (metal or ceramic)**: Metal can (TO-3, TO-5, TO-99) with glass-to-metal seal feedthroughs, or ceramic dual-in-line package (CERDIP) with glass-sealed lid. Gas-tight seal protects the die from moisture and contaminants. Required for military, aerospace, and high-reliability applications. Leak tested with helium mass spectrometer (reject rate >10⁻⁸ atm·cc/s). Shelf life: unlimited in dry storage.
+- **Non-hermetic (plastic)**: Epoxy or silicone resin molded around the die and lead frame (transfer molding at 175°C, 5-10 MPa). Lower cost (10-100× cheaper than ceramic). Moisture can penetrate plastic over time (absorption rate ~0.1-1% by weight at 85°C/85% RH). Moisture inside the package causes corrosion of aluminum bond wires and die metallization, especially during solder reflow (popcorn cracking: absorbed moisture vaporizes explosively during reflow heating, cracking the package). Mitigated by: moisture barrier bags for storage, bake-out before soldering, and moisture-absorbing die attach materials.
+
+### Semiconductor Process Flow Summary
+
+**Solar cell process flow** (simplest useful semiconductor device):
+1. Wafer incoming inspection (resistivity, thickness, TTV, particles)
+2. Saw damage etch (NaOH 20%, 80°C, 5 min)
+3. Texturing (KOH/IPA, 75°C, 25 min)
+4. Phosphorus diffusion (POCl₃, 850°C, 30 min)
+5. PSG removal (HF 5%, 60 sec)
+6. SiNₓ AR coating (PECVD, 350°C)
+7. Front contact print (Ag paste, screen print)
+8. Rear contact print (Al paste, screen print)
+9. Co-firing (belt furnace, 780°C peak, 30 sec)
+10. Edge isolation (laser scribe or plasma etch)
+11. I-V testing and sorting
+
+**Typical yield**: First runs 30-50%, improving to 80-95% with process optimization. Key yield limiters: contamination (particles on wafer surface kill cells), uniformity (non-uniform diffusion creates shunts), and mechanical breakage (thin wafers are fragile). Each step requires process control and monitoring to maintain yield. For integrated circuits, typical IC yield at the 180nm node runs 80-90% for simple logic and 50-70% for large SoC designs. Yield follows the Poisson model: yield = (1-D×A)^N, where D is defect density (defects/cm² per masking level), A is chip area (cm²), and N is the number of masking levels. Cost per good die = wafer cost / (dies per wafer × yield), which means yield improvement has a direct, leveraged impact on cost.
+
+**Solar cell parameter relationships**:
+- **Efficiency**: η = (Voc × Jsc × FF) / Pin, where Voc is open-circuit voltage (V), Jsc is short-circuit current density (mA/cm²), FF is fill factor (dimensionless, 0.7-0.85), and Pin is incident power density (100 mW/cm² at AM1.5).
+- **Voc**: Typically 0.55-0.72V for crystalline silicon. Increases with: higher base resistivity (lower doping → less Auger recombination), better surface passivation, and lower temperature (Voc decreases ~2.2 mV/°C).
+- **Jsc**: Typically 30-42 mA/cm² for crystalline silicon. Increases with: better light trapping (texturing, anti-reflection coating), higher minority carrier lifetime in the base, and thinner metal grid lines (less shading).
+- **Temperature sensitivity**: Solar cell efficiency decreases ~0.3-0.5% per °C above 25°C. A module at 60°C produces ~10-15% less power than at 25°C. This is a fundamental semiconductor property (increased temperature increases dark current, reducing Voc).
+
+### Circuit Design Examples
+
+#### Rectifier Bridge
+
+Four diodes arranged in a bridge convert AC to DC. During the positive half-cycle of the AC input, two diagonally opposite diodes conduct. During the negative half-cycle, the other two conduct. Current through the load flows in the same direction in both half-cycles.
+
+- **Voltage drop**: 2× Vf ≈ 1.4V for silicon diodes (two diodes conduct in series during each half-cycle). For a 12V AC input, the DC output is Vpeak - 1.4V = 17V - 1.4V ≈ 15.6V after peak rectification.
+- **PIV rating**: Each diode must withstand a peak inverse voltage equal to the peak AC input voltage. In practice, select diodes rated for 2× peak input voltage to handle line transients and voltage spikes safely.
+- **Filter capacitor**: Add a reservoir capacitor across the DC output to smooth the 120 Hz (or 100 Hz) ripple. Size: C ≥ Iload/(2·f·ΔV), where ΔV is the allowable ripple voltage. For 1A load and 2V ripple at 60 Hz: C ≥ 1/(2·60·2) = 4,200 μF. Use a 4,700 μF/25V electrolytic capacitor.
+- **Ripple current**: The capacitor carries large AC ripple current (2-3× DC load current). Select capacitors rated for the ripple current at the operating temperature. Overheated capacitors vent electrolyte and fail.
+
+#### Voltage Regulator (Zener Shunt)
+
+A Zener diode in reverse breakdown maintains a nearly constant voltage across the load. A series resistor drops the excess voltage.
+
+- **Series resistor**: R = (Vin - Vz) / (Iz + Iload). Choose Iz to be at least 5-10 mA to keep the Zener in its regulation region. For Vin = 12V, Vz = 5.1V, Iload = 20 mA, Iz = 10 mA: R = (12 - 5.1)/(0.03) = 230 Ω. Use 220 Ω standard value.
+- **Power dissipation**: In the Zener: Pz = Vz × Iz = 5.1 × 0.03 = 0.153W. In the resistor: Pr = (Vin - Vz) × Itotal = 6.9 × 0.03 = 0.207W. Use at least 0.5W rated components.
+- **Regulation quality**: Output voltage varies with load current because the Zener dynamic impedance (typically 5-50 Ω) forms a voltage divider with the series resistor. For better regulation, use a series pass transistor (emitter follower driven by the Zener) to amplify the Zener's current capability.
+
+#### LED Driver
+
+An LED is a current-driven device. A series resistor sets the operating current.
+
+- **Series resistor**: R = (Vs - Vf) / If, where Vs is the supply voltage, Vf is the LED forward voltage, and If is the desired forward current.
+- **Forward voltages by color**: Red GaAsP: 1.8-2.2V. Green GaP: 2.0-2.4V. Blue/white GaN: 3.0-3.6V. Infrared GaAs: 1.2-1.5V.
+- **Typical operating current**: 10-20 mA for standard indicator LEDs. 350-700 mA for high-power illumination LEDs. 1-5 mA sufficient for low-brightness indicators.
+- **Example**: Blue LED (Vf = 3.2V) from 5V supply at 15 mA: R = (5 - 3.2)/0.015 = 120 Ω. Power in resistor: P = I²R = 0.015² × 120 = 0.027W. A 0.125W (1/8W) resistor is adequate.
+
+#### Transistor Switch
+
+A BJT used as a switch operates in cutoff (off) or saturation (on). The base resistor must supply enough base current to drive the transistor into saturation under worst-case conditions.
+
+- **Base resistor**: Rb = (Vin - 0.7) / Ib, where 0.7V is the base-emitter forward voltage drop and Ib = Ic / β. Use the minimum β from the datasheet (βmin) to ensure saturation even with the lowest-gain transistor.
+- **Saturation requirement**: βforced = Ic / Ib must be less than βmin (typically βforced of 10-20 ensures hard saturation). At saturation, Vce ≈ 0.1-0.3V (not zero). This residual voltage is the saturation voltage, Vce(sat).
+- **Example**: Switch a 500 mA load from a 5V logic signal using a transistor with βmin = 50. Ib = 500/50 = 10 mA. Rb = (5 - 0.7)/0.01 = 430 Ω. Use 390 Ω standard value for extra margin.
+
+#### Oscillator Circuits
+
+**Astable multivibrator**: Two cross-coupled transistor switches that alternate on/off. Each collector drives the opposite base through an RC network. Frequency: f = 1/(1.4 × R × C) for a symmetric circuit (R = base resistor, C = coupling capacitor). Duty cycle ≈ 50% with matched components. Output: square wave, amplitude ≈ Vcc. Frequency stability: poor (±20% with temperature), but sufficient for blinking LEDs, clock generation for simple digital circuits, and tone generation.
+
+**Colpitts oscillator**: Single transistor with capacitive voltage divider feedback. Two capacitors in series form the resonant circuit with an inductor. Oscillation frequency: f = 1/(2π√(L·Cseries)), where Cseries = C1·C2/(C1+C2). Feedback ratio: C1/C2 sets the loop gain. Typical values: C1 = C2 = 100 pF, L = 10 μH → f ≈ 7 MHz. Used for RF oscillators and local oscillators in radio receivers.
+
+**Crystal oscillator**: A quartz crystal resonator replaces the LC tank. The crystal's piezoelectric resonance provides extremely high Q (10,000-100,000), giving frequency stability of ±0.01% (100 ppm) over temperature. Basic Pierce circuit: one inverting amplifier (transistor or logic gate), two load capacitors (10-30 pF each), and the crystal. Frequency range: 32.768 kHz (real-time clocks) to 50 MHz (microcontroller clocks). The crystal oscillator is the timing backbone of every digital system.
+
+#### Operational Amplifier Basics
+
+The op-amp is a high-gain differential amplifier with two inputs (inverting -, non-inverting +) and one output. Negative feedback trades open-loop gain (100,000-1,000,000×) for predictable, stable closed-loop gain set by external resistors.
+
+- **Inverting amplifier**: Output = -(Rf/Rin) × Vin. Input impedance = Rin. Signal is inverted (180° phase shift). Gain accuracy depends only on resistor ratio, not the op-amp's internal gain. Example: Rf = 100 kΩ, Rin = 10 kΩ → gain = -10.
+- **Non-inverting amplifier**: Output = (1 + Rf/Rin) × Vin. Input impedance >1 MΩ (depends on op-amp input stage, >10¹² Ω for FET-input op-amps). No phase inversion. Minimum gain = 1 (voltage follower: Rf = 0, Rin = ∞). The voltage follower buffers high-impedance sources without loading them.
+- **Practical limits**: Input offset voltage (1-5 mV for general-purpose op-amps like LM741) adds a DC error. Input bias current (100 nA for bipolar, 1 pA for FET-input) flows through input resistors, creating additional offset. Bandwidth: 1-10 MHz gain-bandwidth product for general-purpose parts. At gain = 100, bandwidth = GBW/100 = 10-100 kHz.
+- **Output drive**: Output impedance <100 Ω at DC (with feedback), rising at higher frequencies. Maximum output current: 20-40 mA for general-purpose op-amps. Output voltage swing: within 1-2V of the supply rails (0-5V swing from ±15V supplies). Rail-to-rail output op-amps swing to within millivolts of the supply rails.
 
 ---
 

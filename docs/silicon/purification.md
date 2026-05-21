@@ -116,5 +116,88 @@ Silicon purification involves some of the most dangerous chemicals in semiconduc
 - **Chlorosilane water reactivity**: All chlorosilanes (SiHCl₃, SiCl₄, SiH₂Cl₂) react violently with water, producing HCl gas and heat. The reaction can be explosive if water contacts bulk liquid chlorosilane. Strict segregation of water lines from chlorosilane lines. Double-walled piping for chlorosilane transfer. Secondary containment for storage tanks.
 - **Personal protective equipment**: Chemical splash suit (PVC or butyl rubber), face shield, chemical-resistant gloves, self-contained breathing apparatus (SCBA) for emergency response. Standard PPE is insufficient for a major chlorosilane release — SCBA is mandatory.
 
+### Siemens Process Detail
+
+**Reactor construction**:
+- **Bell jar**: Quartz (fused silica) or stainless steel cylindrical vessel, 500-1000 mm diameter, 1-2 m tall. Quartz is preferred for purity (no metal contamination) but is fragile and expensive. The jar must withstand atmospheric pressure on the outside when evacuated, then contain inert gas at slightly above atmospheric pressure during deposition.
+- **Silicon rod assembly**: Thin silicon seed rods (~5 mm diameter, inverted U-shape) mounted on electrode feedthroughs at the base of the bell jar. Typical configurations: 2-12 rods per reactor. Each rod pair forms a U-shape with the base of the U at the top. Electrical current passes through the rods to heat them.
+- **Power supply**: Direct current supply, 50-200 kW per reactor. Current passes through the silicon rods, heating them by resistive heating. As rods grow thicker, resistance decreases and current must increase to maintain temperature. Power control: ±1% stability required for uniform deposition.
+- **Gas distribution**: TCS (SiHCl₃) mixed with H₂ enters the bell jar through inlet ports at the base. Gas flows upward around the heated rods. Unreacted gas and HCl byproduct exit through ports at the top. Flow rate: 50-200 g/h TCS per rod, with H₂ carrier at 2-10× stoichiometric excess.
+
+**Deposition parameters**:
+- **Temperature**: 1100-1200°C rod surface temperature. Temperature must be uniform along the rod length — hot spots grow faster (thicker), cold spots grow slower (thinner). Non-uniform growth leads to stress and potential rod fracture.
+- **Deposition rate**: 5-8 μm/min. Rods grow from ~5 mm to 100-200 mm diameter over 50-100 hours. Total deposition time depends on target rod diameter and power availability. Longer runs produce larger rods but with increasing risk of fracture as the rod becomes heavier.
+- **Energy consumption**: 100-200 kWh/kg polysilicon. This is the highest energy consumption step in the entire silicon production chain. The electricity heats the rods and drives the chemical reaction. A single reactor producing 50-200 kg per run (50-100 hours) draws 50-200 kW continuously.
+- **Gas conversion efficiency**: ~20-30% of TCS fed to the reactor deposits as silicon on the rods. The remainder exits as unreacted TCS and intermediate species. Exhaust gas is recovered, condensed, and recycled through the distillation columns for purification and reuse. Closed-loop operation recovers >98% of the TCS.
+
+### Alternative Purification Methods
+
+**Fluidized bed reactor (FBR)**:
+- **Principle**: Silicon seed particles (100-500 μm diameter) are suspended in an upward gas flow of silane (SiH₄) or TCS + H₂. Silane decomposes on the heated particle surfaces, depositing silicon. Particles grow larger over time, eventually becoming too heavy for the gas flow and falling to the product collection zone. New seed particles are added continuously.
+- **Energy**: 30-50 kWh/kg polysilicon, roughly 3-5× lower than Siemens process. The fluidized bed is more thermally efficient because individual particles have high surface-area-to-volume ratio, and the reactor operates as a continuous process rather than batch.
+- **Product form**: Granular polysilicon (0.5-2 mm beads) rather than rods. Easier to handle and load into CZ crucibles (beads pack more densely than crushed rod chunks, reducing voids in the melt charge). But higher surface area means more potential for surface contamination.
+- **Challenges**: Fine silicon dust generation (silane pyrolysis produces silicon fines that escape the reactor and plug filters). Particle agglomeration (particles stick together when they collide at high temperature). Process control is more complex than Siemens.
+
+**Upgraded metallurgical grade (UMG-Si)**:
+- **Goal**: Produce solar-grade silicon (~4N, 99.99%) at lower cost than the Siemens chemical route, using physical and chemical refining steps applied directly to MG-Si.
+- **Acid leaching**: Crush MG-Si to 50-200 μm powder. Treat with HCl (hydrochloric acid) at 60-80°C for 2-6 hours. Acid dissolves metallic impurities (Fe, Al, Ca) from the grain boundaries and inclusions in the silicon particles. Filter, wash with water, dry. Removes 60-80% of Fe, 40-60% of Al, 70-90% of Ca. Multiple leach cycles improve removal.
+- **Directional solidification**: Melt leached MG-Si and directionally solidify (see Option B above). Most remaining metallic impurities segregate to the last-to-freeze region (segregation coefficient k << 1 for Fe, Al, Ca). Cut off and discard the impure tail. Multiple passes improve purity.
+- **Plasma refining**: Pass argon-oxygen plasma over molten silicon. The reactive plasma oxidizes boron and phosphorus (the two most difficult impurities to remove by solidification, since k ≈ 0.8 and 0.35 respectively). Boron oxidizes to B₂O₃ and evaporates; phosphorus oxidizes to P₂O₅ and evaporates. Removal efficiency: 50-80% per pass for B and P. Requires plasma torch equipment (RF or DC arc, 10-50 kW).
+- **Result**: 99.99% (4N) silicon at roughly half the cost of Siemens polysilicon, sufficient for standard-efficiency solar cells (14-16%). Not pure enough for semiconductor devices.
+
+### Analytical Methods for Silicon Purity
+
+**ICP-MS (Inductively Coupled Plasma Mass Spectrometry)**:
+- **Principle**: Dissolve a silicon sample in HF/HNO₃ mixture. Introduce the solution into an argon plasma (~7000°C) that ionizes all elements. Ions pass through a mass spectrometer that separates them by mass-to-charge ratio. Count individual ions.
+- **Detection limits**: 0.1-10 parts per billion (ppb) for most metallic impurities (Fe, Al, Ca, Cu, Ni, Na, K). The workhorse technique for monitoring impurity levels at every stage of the silicon purification chain.
+- **Sample preparation**: Critical. Silicon dissolution is slow and hazardous (HF + HNO₃). Contamination from reagents, containers, and the laboratory environment is a constant concern. Use ultra-pure acids, PTFE containers, and cleanroom conditions for sample prep.
+
+**FTIR (Fourier Transform Infrared Spectroscopy)**:
+- **Principle**: Infrared light transmitted through a silicon wafer. Impurities absorb at characteristic infrared frequencies. Measure absorption peak intensities to determine impurity concentrations.
+- **Interstitial oxygen**: Absorption peak at 1107 cm⁻¹. Measures dissolved oxygen (from CZ crucible dissolution) with detection limit ~10¹⁵ atoms/cm³ (0.01 ppma). Essential for characterizing CZ-grown wafers.
+- **Substitutional carbon**: Absorption peak at 605 cm⁻¹. Detection limit ~5×10¹⁵ atoms/cm³. Carbon from graphite furnace components is a persistent concern in crystal growth.
+
+**Four-point probe (resistivity and doping)**:
+- **Measurement**: Four collinear tungsten probes contact the silicon surface. Outer probes pass constant current I; inner probes measure voltage V. Sheet resistance Rs ≈ 4.532 × (V/I) Ω/sq. For bulk silicon: resistivity ρ = Rs × t (wafer thickness).
+- **Accuracy**: ±2% for uniform samples. Doping concentration calculated from resistivity: N ≈ 1/(q·μ·ρ), where μ is carrier mobility. Maps wafer uniformity (49 or 121 point contour maps reveal doping variations across the ingot cross-section).
+- **Doping type test**: Hot probe (heated probe at one contact point, cold at another) generates a thermoelectric voltage whose polarity indicates n-type (negative voltage at hot probe) or p-type (positive voltage at hot probe).
+
+**Glow discharge mass spectrometry (GDMS)**:
+- **Principle**: Argon plasma sputters atoms directly from a solid silicon sample. Sputtered atoms ionized in the plasma and analyzed by mass spectrometer. Measures bulk impurity content without dissolution.
+- **Detection limits**: 1-100 ppb for most elements. Broader elemental coverage than ICP-MS (measures everything simultaneously). Used for certification of polysilicon purity grades (6N, 9N, 11N).
+
+### Purity Requirements by Application
+
+**Solar grade silicon (5-7N)**:
+- **Metals**: Total metallic impurities <1 ppm (Fe <0.1 ppm, Al <0.1 ppm, Ti <0.01 ppm). Metallic impurities form recombination centers that reduce minority carrier lifetime and solar cell efficiency.
+- **Boron**: <0.3 ppm. Boron is a p-type dopant; excess boron compensates the intended doping and reduces cell voltage.
+- **Phosphorus**: <0.5 ppm. Phosphorus is an n-type dopant with the same compensating effect as boron.
+- **Carbon**: <3 ppm. Excess carbon forms SiC precipitates that disrupt crystal growth and act as recombination centers.
+- **Oxygen**: <10 ppm (from CZ crystal growth). Oxygen can form thermal donors that shift resistivity, but is managed by wafer annealing.
+- **Source**: Directional solidification of MG-Si (with slag treatment for boron removal), or lower-grade Siemens polysilicon.
+
+**Electronic grade silicon (9-11N)**:
+- **Total impurities**: <1 ppb for all metallic species. Individual element limits: Fe <0.1 ppb, Cu <0.1 ppb, Na <0.05 ppb, Ni <0.1 ppb, Cr <0.1 ppb. These metals diffuse rapidly in silicon and contaminate device junctions even at ppb levels.
+- **Boron and phosphorus**: Each <0.1 ppb. Electrically active at concentrations far below metals (one boron atom per 10¹⁰ silicon atoms shifts resistivity measurably).
+- **Carbon**: <0.5 ppm. Carbon forms SiC precipitates that act as nucleation sites for oxidation-induced stacking faults.
+- **Oxygen**: 10-20 ppma for CZ-grown (inherent from crucible dissolution). For FZ-grown: <1 ppma.
+- **Source**: Siemens process polysilicon only, followed by CZ or FZ crystal growth.
+
+### Chlorosilane Chemistry
+
+**Key compounds and properties**:
+
+| Compound | Formula | Boiling Point | Key Property |
+|----------|---------|---------------|--------------|
+| Silane | SiH₄ | -112°C | Pyrophoric (ignites on air contact), used in FBR and epitaxy |
+| Dichlorosilane | SiH₂Cl₂ | 8.2°C | Pyrophoric, used in LPCVD epitaxy and SiO₂ deposition |
+| Trichlorosilane | SiHCl₃ | 31.8°C | Main feedstock for Siemens CVD, pyrophoric |
+| Silicon tetrachloride | SiCl₄ | 57.6°C | Byproduct, recycled or sold, reacts violently with water |
+
+**Distillation challenges**:
+- **SiHCl₃ / BCl₃ separation**: BCl₃ boils at 12.5°C, only 19.3°C below SiHCl₃ at 31.8°C. This close boiling point difference requires a distillation column with many theoretical plates (>50) and high reflux ratio (>50:1) to achieve the separation needed for electronic-grade purity. The column height for this separation alone can exceed 30 m.
+- **SiHCl₃ / PCl₃ separation**: PCl₃ boils at 76°C, 44°C above SiHCl₃. Easier separation but still requires careful fractionation.
+- **SiHCl₃ / SiCl₄ separation**: 25.8°C boiling point difference. Straightforward separation in a moderate-height column.
+
 ---
 *Part of the [Bootciv Tech Tree](../) • [Silicon](./) • [All Domains](../)*

@@ -161,6 +161,52 @@ The Solvay process requires ~1-2 kg NH₃ makeup per tonne Na₂CO₃. But the a
 - **Eye damage**: Even dilute caustic splashes can cause permanent corneal damage. Safety goggles (not just glasses) are mandatory for all alkali operations. Flush eye contact immediately with water for 15+ minutes and seek medical attention.
 - **Ammonia hazards** (Solvay process): NH₃ gas is a severe respiratory irritant. TLV: 25 ppm. Ammonia absorption towers and distillation columns must be in well-ventilated areas. Emergency shower and eye wash required near ammonia-handling equipment.
 
----
+ ---
 
 *Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*
+
+## Causticization Detail
+
+The lime-soda process converts sodium carbonate to sodium hydroxide, the stronger alkali needed for soap making, paper pulping, and chemical processing.
+
+**Reaction equilibrium**: Na₂CO₃(aq) + Ca(OH)₂(s) ⇌ 2NaOH(aq) + CaCO₃(s). The equilibrium constant K = [NaOH]² / [Na₂CO₃]. At 80-90°C, conversion reaches 85-92% depending on initial concentrations. Higher temperature increases reaction rate but shifts equilibrium slightly toward reactants (the reaction is mildly exothermic). Typical operating conditions: 10-12% Na₂CO₃ feed solution, 80-90°C, 1-2 hours residence time with agitation. The CaCO₃ precipitate particle size (10-50 μm) affects filtration rate and washing efficiency.
+
+**Separation**: CaCO₃ sludge is separated by vacuum filtration or pressure filtration. The filter cake is washed with hot water to recover entrained NaOH (each tonne of CaCO₃ retains 0.3-0.5 tonnes of solution in the filter cake). The washed CaCO₃ is reburned in the lime kiln (CaCO₃ → CaO + CO₂ at 900-1000°C, ΔH = +178 kJ/mol), closing the calcium loop. Lime kiln fuel: natural gas, coal, or coke. The CO₂ from the kiln can be captured and used for carbonation in the Solvay process.
+
+**NaOH concentration**: The dilute caustic solution (10-12% NaOH from the causticizer) is concentrated by evaporation. Multiple-effect vacuum evaporators (typically triple-effect) use steam to boil off water at progressively lower pressures and temperatures (first effect at 100-120°C, third effect at 50-70°C). Energy consumption: 2-3 tonnes steam per tonne of NaOH (as 50% solution). Commercial caustic soda is sold as 50% aqueous solution (standard grade), 73% solution, or solid flakes/particles (>98% NaOH). Solid NaOH production requires further evaporation in nickel-clad equipment at 400-500°C to remove the last water (steel corrodes above ~60% NaOH at elevated temperatures).
+
+## Solvay Process Economics
+
+**Raw material balance**: Per tonne of Na₂CO₃ produced, the Solvay process consumes approximately 2.2 tonnes of NaCl (at 72% conversion efficiency in the carbonation tower, accounting for recycle) and 2.0 tonnes of limestone (CaCO₃). Ammonia makeup is only 1-2 kg per tonne Na₂CO₃ due to efficient recovery. Steam consumption: 1.5-3.0 tonnes per tonne Na₂CO₃. Electrical power: 50-100 kWh per tonne. Total energy: 7-10 GJ per tonne Na₂CO₃.
+
+**Capital and scale**: A Solvay plant is capital-intensive (carbonation towers, calciner, ammonia still, lime kiln, multiple heat exchangers) but has low operating costs. Economical at 100+ tonnes/day. The Leblanc process requires less capital but higher operating costs and generates far more waste. Modern Solvay plants produce 500-3,000 tonnes/day of soda ash.
+
+## Lime Cycle
+
+The lime cycle (CaCO₃ → CaO → Ca(OH)₂ → CaCO₃) is central to alkali production, cement manufacture, steelmaking (flux), and many other processes.
+
+**Calcination**: CaCO₃ → CaO + CO₂ at 900-1000°C. ΔH = +178 kJ/mol (strongly endothermic). This is the most energy-intensive step. In a shaft kiln: limestone (50-150 mm pieces) fed at the top descends through three zones. Preheating zone (200-800°C): kiln exhaust gases preheat stone. Calcination zone (900-1000°C): fuel (coke, gas) burns and decomposes the stone. Cooling zone (100-400°C): rising combustion air cools the quicklime product, preheating the air for combustion. Residence time: 12-24 hours. Kiln thermal efficiency: 50-70%. Yield: 56 kg CaO per 100 kg CaCO₃ (theoretical, based on molecular weights 56/100). Practical yield 90-95% of theoretical, depending on kiln temperature uniformity and stone size.
+
+**Slaking**: CaO + H₂O → Ca(OH)₂. ΔH = -64 kJ/mol (exothermic, can raise slurry temperature to 90-100°C). Add quicklime to water (never water to quicklime: the violent reaction can cause steam explosions with large quantities). The resulting slaked lime (Ca(OH)₂, also called milk of lime when suspended in water) is a soft white powder, slightly soluble in water (1.73 g/L at 20°C, solubility decreases with temperature). Particle size after slaking: 1-20 μm. Used as slurry (milk of lime at 15-25% solids) for causticization, mortar, water softening, and flue gas desulfurization.
+
+## Alkali Safety
+
+**NaOH hazard detail**: A 50% NaOH solution causes immediate, severe chemical burns on skin contact. The alkali dissolves skin lipids and saponifies tissue proteins, creating a deep, penetrating injury that may not be immediately painful (alkali anesthetizes nerve endings). Eye contact with concentrated NaOH causes immediate corneal damage and potential blindness. Required PPE: chemical splash goggles (not safety glasses), face shield, neoprene or nitrile gloves, rubber apron, long sleeves. Emergency shower and eyewash within 10 seconds travel distance.
+
+**Dissolution exotherm**: Dissolving solid NaOH in water releases 44.5 kJ/mol. Adding 1 kg NaOH to 1 L water generates enough heat to raise the solution temperature above 90°C. Always add solid to water slowly with stirring. Never add water to solid NaOH in a container (the concentrated solution at the contact point can boil violently, spraying caustic). Use heat-resistant containers (polyethylene, polypropylene, or stainless steel, not glass which may crack from thermal shock).
+
+**Environmental hazard**: NaOH solutions are highly toxic to aquatic life (pH >10 is lethal to most fish and invertebrates). Neutralize waste caustic solutions with dilute HCl or H₂SO₄ to pH 6-9 before discharge. Spill response: contain, dilute with water, neutralize with weak acid, then flush.
+
+## Alkali Applications in Industry
+
+**Soap making**: Saponification of fats and oils with NaOH produces sodium salts of fatty acids (soap) and glycerol. Typical formula: 100 kg tallow (or coconut/palm oil blend) + 14-16 kg NaOH (as 50% solution) → 100 kg soap + 10-12 kg glycerol. Temperature: 60-80°C. The reaction is exothermic (ΔH ≈ -10 kJ/mol). Cold process (artisan): mix NaOH solution with melted oils at 35-40°C, pour into molds, cure 4-6 weeks. Hot process (industrial): heat to 80-100°C with continuous agitation in a crutcher (mixing vessel), add salt (NaCl) to salt out the soap (graining), separate glycerol-rich lye, wash and dry the soap base, mill with perfume and color, extrude and stamp into bars.
+
+**Textile processing**: Scouring: cotton fibers treated with 1-3% NaOH at 80-100°C to remove natural waxes, pectins, and impurities before dyeing. Mercerization: cotton fabric treated with 20-25% NaOH at 15-20°C under tension. The alkali swells the cotton fibers, converting cellulose I to cellulose II crystal structure, increasing dye uptake 20-30%, adding silk-like luster, and improving tensile strength 10-20%. The fabric must be held under tension during treatment and rinsing to prevent shrinkage.
+
+### Alkali Waste Management
+
+**Caustic soda waste**: Dilute NaOH rinse water and spent solutions must be neutralized with dilute hydrochloric acid to pH 6-9 before discharge to waterways. The neutralization reaction NaOH + HCl → NaCl + H₂O produces common salt, which is non-toxic at moderate concentrations but can cause freshwater salinity problems if discharged in large volumes.
+
+**Soda ash waste**: Spent or off-spec Na₂CO₃ can be redirected to glass batch as a cullet replacement, where it serves as the flux to lower silica melting temperature. Soda ash waste is also usable in water softening (precipitates Ca²⁺ and Mg²⁺ as carbonates). This circular routing avoids disposal entirely.
+
+**Lime sludge from causticization**: The CaCO₃ sludge from the lime-soda process can be reburned in the lime kiln at 900-1000°C to regenerate CaO (CaCO₃ → CaO + CO₂), which is then slaked back to Ca(OH)₂ for reuse, closing the lime loop. This recycling reduces limestone consumption by 80-90% and eliminates the disposal problem for the largest waste stream in alkali production.

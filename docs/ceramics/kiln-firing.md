@@ -114,6 +114,91 @@ Cooling is as critical as heating. All ceramics undergo a reverse quartz inversi
 - **Kiln structural failure**: Poorly constructed kilns (inadequate mortar, insufficient wall thickness, missing expansion joints) can collapse under thermal cycling. Inspect kiln structure before each firing campaign. Never stand on or lean against a kiln during firing.
 - **Steam explosions from greenware**: Incompletely dried clay contains residual mechanical water. If heated too rapidly during the water-smoke phase (ambient → 150°C), trapped water flashes to steam and violently shatters the piece — potentially ejecting sharp ceramic fragments. Ensure greenware is fully air-dried (1-2 weeks minimum for thick pieces) before loading, and never skip the slow candle phase.
 
+### Detailed Firing Schedules by Ware Type
+
+**Earthenware bisque** (Cone 06-04, 980-1000°C):
+- Total firing time: 6-8 hours. Fuel: 15-30 kg hardwood.
+- Ramp: 60°C/hr to 150°C, 100°C/hr to 600°C, 150°C/hr to peak. Soak 20 min.
+- This is the most forgiving schedule. Earthenware bodies have wide vitrification ranges and tolerate imprecise temperature control. Target a temperature where the body rings when tapped (not a dull thud) but remains porous enough to absorb glaze.
+
+**Stoneware bisque** (Cone 08-06, 950-1000°C):
+- Total firing time: 8-10 hours. Fuel: 25-50 kg hardwood.
+- Ramp: 50°C/hr to 200°C, 80°C/hr to 600°C, 120°C/hr to peak. Soak 30 min.
+- Bisque to a lower temperature than the final glaze fire. This leaves the body porous for glaze absorption while still developing enough strength to survive handling and glaze application without chipping.
+
+**Stoneware glaze fire** (Cone 8-10, 1220-1280°C):
+- Total firing time: 10-14 hours. Fuel: 40-80 kg hardwood (or 15-25 kg charcoal for more controllable heat). 30-minute soak at peak temperature is critical for glaze maturation and body vitrification.
+- Ramp: 60°C/hr to 200°C, 100°C/hr to 600°C, 150°C/hr to 1100°C, 100°C/hr to peak. Soak 30 min.
+- Reduction firing: Begin reducing at 1000°C by dampering down (restricting air intake). The kiln atmosphere shifts from clear exhaust to smoky. Maintain reduction through peak. Reduction affects glaze color dramatically: iron-bearing glazes turn celadon green or tenmoku black instead of amber brown.
+
+**Porcelain** (Cone 10-12, 1280-1300°C):
+- Total firing time: 12-16 hours. Fuel: 60-120 kg hardwood or 25-40 kg charcoal.
+- Ramp: 40°C/hr to 200°C, 60°C/hr to 600°C, 100°C/hr to 1100°C, 80°C/hr to peak. Soak 45-60 min.
+- Porcelain demands the most precise temperature control. Under-firing leaves the body opaque and porous. Over-firing causes bloating, slumping, and warping. The body vitrifies within a narrow range of ~30°C. Pyrometric cones are essential — do not fire porcelain by visual estimate alone.
+
+### Glaze Chemistry
+
+**Unity formula** (Seger formula): The standard method for expressing glaze composition. Recalculates raw material percentages into molar ratios of three component groups: fluxes (RO/R₂O), alumina (Al₂O₃), and silica (SiO₂). The flux sum is normalized to 1.0. This allows direct comparison of glazes regardless of which raw materials supply the oxides.
+
+**Limit formulas** per temperature range define the safe working zone for glaze composition:
+- **Earthenware (Cone 06-04)**: Flux 1.0, Al₂O₃ 0.1-0.4, SiO₂ 1.5-3.0. Low alumina and silica because the glaze must melt at relatively low temperature. Leaching risk if silica is too low (glaze dissolves slowly in acidic liquids).
+- **Stoneware (Cone 8-10)**: Flux 1.0, Al₂O₃ 0.3-0.7, SiO₂ 3.0-6.0. Higher alumina and silica create a more viscous, durable melt. Well-formulated stoneware glazes resist scratching and chemical attack.
+- **Porcelain (Cone 10-12)**: Flux 1.0, Al₂O₃ 0.4-0.8, SiO₂ 4.0-8.0. The highest silica levels produce a hard, glassy surface. The high firing temperature ensures complete melting even with these refractory proportions.
+
+### Glaze Defects and Corrections
+
+**Crawling**: Glaze pulls back from the surface during firing, leaving bare patches. Causes: glaze applied too thick, dusty or oily bisque surface, glaze shrinkage too high during drying. Fix: thin the glaze (lower SG to 1.3-1.4), clean bisque with a damp sponge before glazing, ensure bisque is fully fired (underfired bisque is dusty).
+
+**Pinholing**: Small holes in the glaze surface where gas bubbles formed and burst but the glaze was too viscous to heal. Causes: trapped gas from decomposing impurities in the body, glaze applied over dusty bisque, firing too fast through the glaze maturation range. Fix: fire slower through the final 100°C to peak, extend the soak time, ensure bisque is clean and fully fired.
+
+**Crazing**: Fine network of crackle lines in the glaze after cooling. The glaze has a higher thermal expansion coefficient than the body, so it contracts more on cooling and cracks. Fix: increase silica in the glaze recipe (lowers thermal expansion), decrease feldspar, or add a small amount of boron (B₂O₃ acts as a flux that also reduces expansion). Crazing weakens the glaze-body bond and allows moisture penetration, though it is sometimes desirable as a decorative effect.
+
+**Shivering**: Glaze flakes off the body in chips. Opposite of crazing — the body contracts more than the glaze on cooling, putting the glaze in compression until it pops off. Fix: decrease silica in the glaze, or increase it in the body. Also check that the glaze is not applied too thick.
+
+### Raku Firing
+
+Raku is a rapid, dramatic firing technique that produces unique surface effects:
+
+- **Process**: Heat glazed ware rapidly to 950-1000°C in a small kiln (typically gas-fired, 15-20 minutes to temperature). When the glaze melts and appears glossy, remove the piece with tongs while still glowing hot. Place immediately into a metal container filled with combustible material (sawdust, newspaper, dried leaves). Cover the container. The combustibles ignite from the hot pottery and then smolder in an oxygen-starved atmosphere (post-fire reduction).
+- **Effects**: The reduction atmosphere causes metallic lusters, copper flash (metallic red patches from copper glazes), and carbon trapping in the glaze crackle pattern. Unglazed areas turn black from absorbed carbon. Each piece is unique and unpredictable.
+- **Safety**: Raku involves handling pottery at 1000°C with tongs. Serious burn risk. Wear full heat protection: Kevlar gloves, face shield, long sleeves. The rapid thermal shock destroys most pots that are not specifically formulated for raku (use a grogged, open body with 20-30% grog to resist thermal shock). Fire outdoors only — the reduction smoke is copious and contains CO. Never use raku-fired vessels for food or drink.
+
+### Kiln Loading Best Practices
+
+How ware is placed in the kiln affects heat distribution, air flow, and the final result:
+
+- **Kiln furniture**: Use stilts, posts, and shelves made from the same refractory material as the kiln lining. Cordierite shelves (thermal shock resistant) are standard for stoneware. For basic operations, fireclay slabs supported on firebrick posts work.
+- **Spacing**: Leave 1-2 cm between pieces for hot gas circulation. Pieces placed too close together shield each other from heat, producing underfired spots. Stack bowls and cups using bisque wads (small balls of fired clay, 5-8 mm) at 3 points to separate nesting pieces. Wads leave small scars on the glaze — place them where the mark will not show.
+- **Height distribution**: Place large, thick pieces near the bottom of the kiln (hotter zone in an updraft kiln). Place small, thin pieces higher. Glazed pieces must not touch each other or the shelves — fused pieces are total losses.
+- **Witness cones**: Place cone packs (3 cones: one below target, one at target, one above) at top, middle, and bottom of the kiln. Read through spy holes during firing to monitor temperature distribution. A difference of more than 2 cone numbers between top and bottom indicates uneven heating — adjust damper settings, fuel distribution, or kiln design.
+
+### Glaze Calculation
+
+Developing a glaze recipe from raw materials requires understanding the unity (Seger) formula:
+
+- **Step 1**: Choose a target unity formula appropriate for the firing temperature and desired surface (glossy, matte, satin). Published limit formulas provide safe starting ranges.
+- **Step 2**: Select raw materials to supply each oxide. Common sources: feldspar (K₂O, Na₂O, Al₂O₃, SiO₂), whiting (CaO from CaCO₃), talc (MgO from Mg₃Si₄O₁₀(OH)₂), kaolin (Al₂O₃, SiO₂), silica (SiO₂), and bone ash (Ca₃(PO₄)₂ for calcium phosphate glazes).
+- **Step 3**: Calculate the batch recipe by converting the unity formula molar proportions to raw material weights. Use a spreadsheet or glaze calculation software. The calculation iterates: assign each oxide to a raw material, check that the totals match the target formula, adjust.
+- **Step 4**: Test fire the glaze on small test tiles (2 × 5 cm bisque tiles dipped in glaze). Evaluate at 3 different temperatures (below, at, and above target) to determine the melting range. Adjust the recipe based on results: too runny → increase alumina; too matte → decrease alumina or increase flux; crawling → thin the glaze or clean the bisque surface.
+
+### Kiln Thermometry
+
+Accurate temperature measurement transforms firing from guesswork into a repeatable process:
+
+**Pyrometric cones** (Seger cones): The most reliable indicator for ceramics firing. Each cone is a small pyramid (25 mm tall) made from a specific ceramic composition calibrated to deform at a known temperature when heated at a standard rate (150°C/hour). The cone bends as it softens: tip bending to 3 o'clock = temperature reached; tip touching the base = temperature exceeded by ~10-15°C. Use three cones per pack: one grade below target, target, and one above. This shows whether the kiln has reached, is at, or has exceeded the desired temperature.
+
+**Thermocouple (Type K)**: Chromel-alumel thermocouple generates a voltage proportional to temperature (41 μV/°C). Read with a millivoltmeter or digital pyrometer. Range: -200°C to +1260°C. Insert the junction into the kiln through a protective ceramic sheath. Thermocouples are more precise than cones but can drift over time (calibrate periodically against cones). Type K is the standard for kiln use. Type S (platinum-rhodium) extends the range to 1450°C for porcelain and refractory firing.
+
+**Optical pyrometer**: Measures temperature by comparing the color of the kiln interior to a calibrated filament. No contact with the kiln required — read from outside through the spy hole. Range: 700-3000°C. Accuracy: ±10-20°C. Good for high-temperature refractory firing where thermocouple life is limited. Requires a clear line of sight to the hot zone.
+
+### Firing Fuel Consumption
+
+Estimating fuel requirements before a firing prevents running out mid-fire:
+
+- **Wood-fired updraft kiln** (0.5 m³ chamber): 20-50 kg hardwood per bisque firing, 40-80 kg for stoneware glaze. Softwoods burn faster and produce less heat per kg — use hardwood (oak, ash, maple) for sustained high temperatures.
+- **Charcoal-fired kiln**: 15-40 kg for stoneware temperatures. Charcoal burns hotter and cleaner than wood but costs more (wood → charcoal conversion loses 60-70% of the energy content). Charcoal is preferred for reduction firing because the fuel-to-air ratio is easier to control.
+- **Gas-fired kiln**: Propane or natural gas. Consumption: 2-5 kg propane per hour for a 0.5 m³ kiln at stoneware temperatures. Gas provides the most precise temperature control and is easiest to regulate for reduction/oxidation atmosphere switching.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [Ceramics & Refractories](./) • [All Domains](../)*

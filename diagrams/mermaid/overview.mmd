@@ -22,6 +22,7 @@ graph TD
     gas-handling["Gas Handling"]
     measurement["Measurement & Instrumentation"]
     plants["Plants & Botanical Resources"]
+    animals["Animals & Animal Husbandry"]
 
     %% ==================== DOMAIN-LEVEL EDGES ====================
     metals -.-> foundations
@@ -64,10 +65,13 @@ graph TD
     transport -.-> machine-tools
     computing -.-> machine-tools
     polymers -.-> foundations
+    animals -.-> foundations
 
     %% ==================== CROSS-DOMAIN EDGES ====================
+    animals -.-> ceramics
     ceramics -.-> energy
     ceramics -.-> mining
+    chemistry -.-> animals
     chemistry -.-> ceramics
     chemistry -.-> foundations
     chemistry -.-> gas-handling
@@ -78,6 +82,7 @@ graph TD
     chemistry -.-> polymers
     computing -.-> energy
     computing -.-> metals
+    computing -.-> polymers
     computing -.-> silicon
     energy -.-> ceramics
     energy -.-> chemistry
@@ -86,28 +91,39 @@ graph TD
     energy -.-> mining
     energy -.-> polymers
     energy -.-> textiles
+    foundations -.-> animals
     foundations -.-> plants
     glass -.-> mining
+    health -.-> animals
     health -.-> ceramics
+    health -.-> energy
     health -.-> knowledge
+    health -.-> metals
     health -.-> polymers
+    knowledge -.-> animals
     knowledge -.-> chemistry
     knowledge -.-> health
     knowledge -.-> machine-tools
     knowledge -.-> metals
     knowledge -.-> textiles
+    machine-tools -.-> animals
     machine-tools -.-> chemistry
     machine-tools -.-> energy
     machine-tools -.-> foundations
     measurement -.-> energy
     measurement -.-> foundations
     measurement -.-> metals
+    measurement -.-> optics
+    metals -.-> animals
     metals -.-> ceramics
     metals -.-> chemistry
     metals -.-> energy
+    metals -.-> machine-tools
+    mining -.-> animals
     mining -.-> chemistry
     mining -.-> energy
     mining -.-> knowledge
+    mining -.-> machine-tools
     optics -.-> gas-handling
     photolithography -.-> ceramics
     photolithography -.-> polymers
@@ -116,12 +132,16 @@ graph TD
     plants -.-> health
     plants -.-> textiles
     polymers -.-> chemistry
+    polymers -.-> glass
     polymers -.-> machine-tools
     silicon -.-> ceramics
     silicon -.-> measurement
     silicon -.-> mining
+    textiles -.-> animals
     textiles -.-> chemistry
+    textiles -.-> metals
     textiles -.-> plants
+    transport -.-> animals
     transport -.-> chemistry
     transport -.-> foundations
     transport -.-> textiles
@@ -141,6 +161,7 @@ graph TD
     class textiles critical
     class mining critical
     class plants earlyWin
+    class animals earlyWin
 
     %% ==================== LEGEND ====================
     Legend["Legend and Key Insights"]

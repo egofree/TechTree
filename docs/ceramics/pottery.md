@@ -168,6 +168,54 @@ Clay crucibles are essential for melting and casting metals — one of pottery's
 - **Carbon monoxide**: Wood and charcoal-fired kilns produce CO, especially during reduction firing (deliberately fuel-rich atmosphere). CO is odorless and lethal. Fire kilns in open or well-ventilated areas. Use CO detectors in enclosed spaces. Headache, nausea, or dizziness near a firing kiln = evacuate immediately.
 - **Lead glaze toxicity**: Lead oxide (PbO) is a cumulative neurotoxin affecting the nervous system, kidneys, and reproductive system. Inhalation of lead dust during glaze mixing and lead fumes during firing are both hazardous. **Never use lead glazes on food-contact surfaces.** Use respiratory protection and gloves when handling lead compounds. Wash hands thoroughly after any contact.
 
+### Clay Body Formulation
+
+Specific clay recipes for each major ware type:
+
+**Earthenware** (low-fire, 980-1100°C):
+- Simplest body: 100% earthenware clay as dug, or 80% earthenware clay + 20% grog (for thermal shock resistance and reduced shrinkage). Earthenware remains porous after firing (10-25% water absorption), making it unsuitable for holding liquids without a glaze.
+- Working properties: very plastic, easy to form, forgiving of rough handling. Shrinks 8-12% from wet to fired.
+
+**Stoneware** (high-fire, 1200-1300°C):
+- 50% ball clay (plasticity), 25% feldspar (flux — promotes vitrification at high temperature), 25% silica (glass former — fills pores during vitrification). Ball clay alone fires too dense; feldspar and silica adjust the melt composition so the body vitrifies fully without bloating or warping.
+- When fired above 1200°C, stoneware vitrifies: clay minerals melt partially, forming a glassy matrix that bonds the crystalline particles and seals the pores. Water absorption drops below 2%. The body becomes very strong and non-porous even without glaze.
+
+**Porcelain** (highest-fire, 1260-1300°C+):
+- 50% kaolin (pure white clay, low plasticity), 25% feldspar (flux), 25% silica. Kaolin (Al₂Si₂O₅(OH)₄) fires pure white, unlike ball clay which contains iron impurities that darken the body.
+- Porcelain vitrifies completely at peak temperature, becoming translucent in thin sections (1-3 mm). The challenge is reaching 1300°C without deforming the ware. Supports (saggar firing, kiln furniture) prevent slumping.
+- Porcelain is the most demanding clay body to work with: low plasticity makes it difficult to throw, and the high firing temperature means warping and bloating defects are common. Practice with stoneware before attempting porcelain.
+
+### Forming Detail
+
+**Coil building**: Build walls 15-20 cm in height per session, then let the clay firm to leather-hard before adding more coils. Adding too much height at once causes slumping under the weight of wet clay. Blend each new coil into the one below by smoothing inside and out with a wooden rib or fingers. A 30 cm tall vessel typically requires 3-4 coil-building sessions over 2-3 days.
+
+**Slab building**: Roll clay to 5-8 mm wall thickness for most vessels. Thicker than 10 mm risks trapping moisture that causes explosions during firing. Score and slip all joining surfaces (scratch with a fork, apply water-clay paste) to create a strong bond. Slab-built corners are the weakest point — reinforce with a thin coil of clay pressed into the interior joint.
+
+### Trimming
+
+Trim the foot ring and refine the profile when the pot reaches leather-hard stage (15-20% moisture content — firm but yields to a thumbnail). The pot should hold its shape when inverted but still be cuttable:
+
+- **Foot ring dimensions**: Ring width 5-8 mm, height 3-5 mm, inner diameter 50-70% of base diameter. A well-cut foot ring elevates the pot, prevents base wobble, and allows glaze to pool attractively inside.
+- Secure the leather-hard pot to the wheel head with three small dabs of clay (wads). Center carefully. Trim with a loop tool (steel ribbon), working from the center outward. Cut the foot ring last, defining it with a square-tipped trimming tool.
+
+### Bisque Firing Schedule Detail
+
+A precise bisque schedule prevents loss and produces optimal absorbency for glazing:
+
+1. **Room temperature to 100°C** (2 hours): Very slow. All physically adsorbed water must evaporate before the temperature rises further. If the kiln is loaded with thick-walled pieces, extend this phase to 3 hours.
+2. **100-600°C** (4 hours): The chemically bound water (hydroxyl groups in clay minerals) is released between 450-600°C. Organic matter burns out. Smoke and steam from the chimney are normal. Vent the kiln during this phase.
+3. **600-1000°C** (3 hours): Quartz inversion at 573°C causes a sudden 0.8% volume expansion. Move through 550-600°C slowly. Above 600°C, the rate can increase. The clay body sinters (particles bond at contact points) and becomes permanent ceramic.
+4. **Soak at peak** (30 minutes): Ensures uniform temperature throughout the kiln.
+5. **Cool to room temperature** (8-12 hours): Do not open the kiln until below 200°C. Rapid cooling through quartz inversion on the way down causes dunting (cracking).
+
+### Glaze Application Methods
+
+**Dipping**: Submerge the bisqued pot in glaze slurry, lift out in one smooth motion, drain for 3-5 seconds, then set aside. Specific gravity of the glaze slurry: 1.4-1.6 (measured with a hydrometer). A 3-second dip in a glaze at SG 1.5 typically deposits a 0.3-0.5 mm glaze layer, which fires to a smooth coating. Fast, consistent, good for production.
+
+**Pouring**: Pour glaze over the interior of bowls and jars. Rotate the piece to coat evenly, then pour out the excess. Good for pieces too large or awkwardly shaped for dipping. Use the same SG range.
+
+**Spraying**: Spray glaze with an airbrush or spray gun at 15-25 psi. Build the coating in 3-4 light passes rather than one heavy pass (runs and drips are unrecoverable after firing). Requires a spray booth with exhaust ventilation. Best for large pieces, multi-color effects, and precise layering.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [Ceramics & Refractories](./) • [All Domains](../)*

@@ -8,21 +8,38 @@ graph TD
         metals_copper-bronze["Copper & Bronze Production"]
         metals_iron-steel["Iron & Steel Production"]
         metals_iron-steel_blast-furnace["Blast Furnace and Cast Iron"]
+        metals_steelmaking["Modern Steelmaking"]
+        metals_aluminum["Aluminum Production"]
+        metals_non-ferrous["Non-Ferrous Metal Production"]
+        metals_alloys["Specialty Alloys"]
+        metals_forming["Primary Metal Forming"]
+        metals_finishing["Metal Finishing & Surface Treatment"]
+        metals_powder-metallurgy["Powder Metallurgy & Advanced Materials"]
     end
 
     %% ==================== DOMAIN NODE ====================
     metals["Metals"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    animals_beekeeping("Apiculture (Beekeeping)")
     ceramics("Ceramics & Refractories")
     ceramics_kilns("Kiln Construction")
     chemistry("Chemistry")
+    chemistry_acids("Mineral Acid Production")
+    chemistry_alkalis("Alkali Production")
     chemistry_ammonia("Ammonia & Fertilizer Production")
+    chemistry_coatings("Paints, Coatings & Inks")
+    chemistry_electrolysis("Electrolysis")
+    chemistry_hydrogen-silane("Hydrogen & Silane Production")
     chemistry_refractories("Refractory Materials")
+    chemistry_soap("Soap & Detergent Production")
     computing_mechanical("Mechanical Calculation")
     energy("Energy")
     energy_cooling("Cooling Systems & Refrigeration")
+    energy_electric-furnaces("Electric Furnaces")
+    energy_electricity("Electricity Generation & Distribution")
     energy_engine("Heat Engines")
+    energy_fuels("Fuel Production")
     energy_fuels_coke("Coke Production")
     energy_gravity_water-turbines("Water Turbines")
     energy_steam-power("Steam Power")
@@ -30,21 +47,35 @@ graph TD
     energy_storage("Energy Storage & Diversification")
     foundations("Foundations")
     foundations_fire("Fire-Making")
+    health_medical-instruments("Medical Instrument Manufacturing")
     knowledge_printing("Paper and Printing Press")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_casting("Metal Casting")
     machine-tools_forming("Metal Forming")
     machine-tools_joining("Metal Joining")
+    measurement("Measurement & Instrumentation")
     measurement_precision-metrology("Precision Metrology & Standards")
     measurement_temperature-pressure("Temperature & Pressure Measurement")
     mining("Mining Engineering & Extractive Metallurgy")
+    textiles_sewing-tailoring("Sewing & Tailoring")
     transport("Transportation & Logistics")
+    transport_aviation("Aviation")
     transport_railways("Railways")
     transport_telegraph("Telegraph Communication")
 
     %% ==================== EDGES ====================
     metals_iron-steel -.-> metals_copper-bronze
     metals_iron-steel_blast-furnace -.-> metals_iron-steel
+    metals_steelmaking -.-> metals_iron-steel_blast-furnace
+    metals_steelmaking --> metals_iron-steel
+    metals_forming --> metals_steelmaking
+    metals_alloys -.-> metals_steelmaking
+    metals_non-ferrous -.-> metals_copper-bronze
+    metals_alloys --> metals_non-ferrous
+    metals_finishing --> metals_non-ferrous
+    metals_alloys --> metals_iron-steel
+    metals_forming --> metals_aluminum
+    metals_powder-metallurgy --> metals_alloys
     metals -.-> foundations
     metals --> mining
     machine-tools_joining --> metals_iron-steel
@@ -73,6 +104,31 @@ graph TD
     knowledge_printing -.-> metals_iron-steel
     chemistry_ammonia -.-> metals
     metals --> chemistry_refractories
+    metals_steelmaking --> chemistry_refractories
+    metals_steelmaking --> energy_fuels
+    metals_aluminum -.-> chemistry_electrolysis
+    metals_aluminum --> chemistry_alkalis
+    metals_aluminum -.-> energy_electricity
+    metals_aluminum --> mining
+    transport_aviation --> metals_aluminum
+    metals_non-ferrous --> mining
+    metals_non-ferrous --> chemistry_acids
+    chemistry_soap --> metals_non-ferrous
+    energy_steam-power_steam-turbines --> metals_alloys
+    machine-tools_joining --> metals_alloys
+    metals_forming -.-> machine-tools
+    transport_railways --> metals_forming
+    energy_steam-power --> metals_forming
+    metals_finishing --> chemistry_acids
+    metals_finishing -.-> chemistry_electrolysis
+    metals_finishing --> chemistry_coatings
+    metals_powder-metallurgy -.-> chemistry_hydrogen-silane
+    metals_powder-metallurgy -.-> energy_electric-furnaces
+    measurement -.-> metals_powder-metallurgy
+    metals_alloys -.-> energy_fuels
+    metals_copper-bronze --> animals_beekeeping
+    textiles_sewing-tailoring -.-> metals_copper-bronze
+    health_medical-instruments --> metals_copper-bronze
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -92,15 +148,32 @@ graph TD
     class metals_copper-bronze capability
     class metals_iron-steel critical
     class metals_iron-steel_blast-furnace process
+    class metals_steelmaking critical
+    class metals_aluminum capability
+    class metals_non-ferrous capability
+    class metals_alloys capability
+    class metals_forming capability
+    class metals_finishing capability
+    class metals_powder-metallurgy pinnacle
+    class animals_beekeeping external
     class ceramics external
     class ceramics_kilns external
     class chemistry external
+    class chemistry_acids external
+    class chemistry_alkalis external
     class chemistry_ammonia external
+    class chemistry_coatings external
+    class chemistry_electrolysis external
+    class chemistry_hydrogen-silane external
     class chemistry_refractories external
+    class chemistry_soap external
     class computing_mechanical external
     class energy external
     class energy_cooling external
+    class energy_electric-furnaces external
+    class energy_electricity external
     class energy_engine external
+    class energy_fuels external
     class energy_fuels_coke external
     class energy_gravity_water-turbines external
     class energy_steam-power external
@@ -108,15 +181,19 @@ graph TD
     class energy_storage external
     class foundations external
     class foundations_fire external
+    class health_medical-instruments external
     class knowledge_printing external
     class machine-tools external
     class machine-tools_casting external
     class machine-tools_forming external
     class machine-tools_joining external
+    class measurement external
     class measurement_precision-metrology external
     class measurement_temperature-pressure external
     class mining external
+    class textiles_sewing-tailoring external
     class transport external
+    class transport_aviation external
     class transport_railways external
     class transport_telegraph external
     class EdgeLegend,MatNote,ToolNote legend

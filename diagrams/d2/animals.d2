@@ -1,0 +1,214 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  domain: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+      border-radius: 4
+    }
+  }
+  capability: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  process: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  critical: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  earlyWin: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 3
+    }
+  }
+  pinnacle: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  external: {
+    style: {
+      fill: "#f5f5f5"
+      stroke: "#9e9e9e"
+      stroke-width: 1
+    }
+  }
+  legend: {
+    style: {
+      fill: "#fafafa"
+      stroke: "#bdbdbd"
+      stroke-width: 1
+      font-size: 13
+    }
+  }
+  material-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-width: 1
+      stroke-dash: 3
+    }
+  }
+}
+
+# ==================== INTERNAL NODES ====================
+animals_internal: "Animals & Animal Husbandry — Internal Structure" {
+  animals_domestication: "Livestock Domestication & Husbandry"
+  animals_draft-power: "Animal Draft Power & Harnessing"
+  animals_animal-materials: Animal-Derived Materials Processing
+  animals_beekeeping: "Apiculture (Beekeeping)"
+  animals_aquaculture: "Aquaculture & Fisheries"
+  animals_sericulture: "Sericulture (Silkworm Rearing)"
+  animals_pest-management: Biological Pest Management
+}
+
+# ==================== DOMAIN NODE ====================
+animals: "Animals & Animal Husbandry"
+
+# ==================== EXTERNAL DEPENDENCIES ====================
+ceramics_lime: Lime Production {
+  shape: rectangle
+}
+chemistry_lubricants: "Lubricants, Oils & Fluid Mechanics" {
+  shape: rectangle
+}
+foundations: Foundations {
+  shape: rectangle
+}
+foundations_fire: Fire-Making {
+  shape: rectangle
+}
+foundations_food-agriculture: "Agriculture & Food Production" {
+  shape: rectangle
+}
+foundations_tools-basic: "Stone & Wood Tools" {
+  shape: rectangle
+}
+health_medicine: "Medicine & Surgery" {
+  shape: rectangle
+}
+health_pharmacology: Pharmacology {
+  shape: rectangle
+}
+knowledge_writing: "Writing & Record-Keeping" {
+  shape: rectangle
+}
+machine-tools_forming: Metal Forming {
+  shape: rectangle
+}
+machine-tools_iterative-bootstrap: Iterative Machine Bootstrap {
+  shape: rectangle
+}
+metals_copper-bronze: "Copper & Bronze Production" {
+  shape: rectangle
+}
+mining_extraction: Mining Extraction {
+  shape: rectangle
+}
+textiles_fibers: Fiber Preparation {
+  shape: rectangle
+}
+transport_roads: "Road & Bridge Construction" {
+  shape: rectangle
+}
+
+# ==================== EDGES ====================
+animals_domestication -> animals: { class: tool-edge }
+animals_draft-power -> animals_domestication: { class: tool-edge }
+animals_animal-materials -> animals_domestication: { class: material-edge }
+animals_sericulture -> animals_domestication: { class: material-edge }
+animals_pest-management -> animals_domestication: { class: tool-edge }
+animals -> foundations: { class: tool-edge }
+animals -> foundations_food-agriculture: { class: material-edge }
+animals_draft-power -> foundations_tools-basic: { class: tool-edge }
+animals_animal-materials -> ceramics_lime: { class: tool-edge }
+animals_beekeeping -> foundations_fire: { class: tool-edge }
+animals_beekeeping -> foundations_tools-basic: { class: tool-edge }
+animals_aquaculture -> foundations_tools-basic: { class: tool-edge }
+textiles_fibers -> animals_animal-materials: { class: material-edge }
+chemistry_lubricants -> animals_animal-materials: { class: material-edge }
+transport_roads -> animals_draft-power: { class: tool-edge }
+mining_extraction -> animals_draft-power: { class: tool-edge }
+knowledge_writing -> animals_animal-materials: { class: material-edge }
+knowledge_writing -> animals_beekeeping: { class: material-edge }
+metals_copper-bronze -> animals_beekeeping: { class: material-edge }
+machine-tools_forming -> animals_animal-materials: { class: material-edge }
+machine-tools_iterative-bootstrap -> animals_animal-materials: { class: material-edge }
+health_pharmacology -> animals_beekeeping: { class: material-edge }
+health_medicine -> animals_beekeeping: { class: material-edge }
+foundations_food-agriculture -> animals_beekeeping: { class: material-edge }
+
+# ==================== STYLING ====================
+animals.class: domain
+animals_domestication.class: critical
+animals_draft-power.class: earlyWin
+animals_animal-materials.class: capability
+animals_beekeeping.class: earlyWin
+animals_aquaculture.class: capability
+animals_sericulture.class: capability
+animals_pest-management.class: capability
+ceramics_lime.class: external
+chemistry_lubricants.class: external
+foundations.class: external
+foundations_fire.class: external
+foundations_food-agriculture.class: external
+foundations_tools-basic.class: external
+health_medicine.class: external
+health_pharmacology.class: external
+knowledge_writing.class: external
+machine-tools_forming.class: external
+machine-tools_iterative-bootstrap.class: external
+metals_copper-bronze.class: external
+mining_extraction.class: external
+textiles_fibers.class: external
+transport_roads.class: external
+
+# ==================== LEGEND ====================
+d2-legend: "Edge Types" {
+  class: legend
+  mat: "Solid arrow = material prerequisite (physical input consumed)" {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool: "Dashed arrow = tool prerequisite (equipment/infrastructure needed)" {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}

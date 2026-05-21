@@ -15,6 +15,8 @@ graph TD
     knowledge["Knowledge Preservation & Education"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    animals_animal-materials("Animal-Derived Materials Processing")
+    animals_beekeeping("Apiculture (Beekeeping)")
     chemistry("Chemistry")
     chemistry_pulp-chemicals("Pulp & Paper Chemicals")
     foundations("Foundations")
@@ -42,6 +44,8 @@ graph TD
     knowledge_writing -.-> chemistry
     knowledge_writing -.-> health_sanitation
     knowledge --> chemistry_pulp-chemicals
+    knowledge_writing --> animals_animal-materials
+    knowledge_writing --> animals_beekeeping
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -62,6 +66,8 @@ graph TD
     class knowledge_education capability
     class knowledge_libraries capability
     class knowledge_printing earlyWin
+    class animals_animal-materials external
+    class animals_beekeeping external
     class chemistry external
     class chemistry_pulp-chemicals external
     class foundations external

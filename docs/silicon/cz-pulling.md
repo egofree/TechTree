@@ -105,6 +105,151 @@ The CZ puller combines extreme heat, high electrical current, precision mechanis
 - **Rotation mechanism hazards**: Counter-rotating seed (5-15 RPM) and crucible (3-10 RPM) create pinch points. The crucible rotation drive is below the furnace — access during operation is prohibited. Guards on all rotating components. Emergency stop accessible from operator position.
 - **Burn hazards**: Chamber walls are water-cooled but internal graphite components remain at >1400°C. Even after power-off, thermal mass keeps the hot zone above 1000°C for hours. Cool-down period mandatory before chamber entry. Thermal gloves rated to 500°C for any post-run internal access.
 
+### Czochralski Process Detail
+
+#### Apparatus Configuration
+
+The CZ puller integrates five subsystems into one machine: thermal, mechanical, atmospheric, control, and structural. Each must work within spec for the crystal to be device-grade.
+
+**Crucible assembly**:
+- Fused silica crucible, 200-450 mm diameter, 200-300 mm tall, 5-10 mm wall thickness. Wall dissolves into the melt at 0.01-0.03 mm/hour, introducing 5-20 ppma oxygen. Crucible is single-use. After one pull, the thinned wall risks rupture if reused.
+- Graphite susceptor sleeve, 2-5 mm wall, supports the crucible mechanically and distributes heat evenly from the resistance heater. Reusable for 50-100 pulls before thermal cycling cracks it.
+- Water-cooled copper hearth plate under the susceptor provides the thermal boundary. Cooling water at 2-4 bar, 5-15 L/min. The hearth plate must be flat to within 0.1 mm, or the crucible sits crooked and the crystal grows eccentric.
+- Crucible lift platform (hydraulic or screw-driven) adjusts height during growth to keep the melt surface at the optimal position relative to the heater as silicon is consumed.
+
+**Heating**:
+- Two options: graphite resistance heating (most common) or RF induction heating (requires a water-cooled copper coil around the susceptor, 10-50 kHz, 20-80 kW).
+- Resistance heater: cylindrical graphite element, 300-450 mm inner diameter, 250-400 mm tall, 15-25 mm wall. Slotted with 8-16 vertical cuts to create a long current path. Power supply: SCR or IGBT, 20-100 kW, 10-40 V, 500-3000 A. Power stability ±0.1% for ±0.5°C melt temperature control.
+- RF heating: faster response but requires an RF generator (more complex to build from scratch). Graphite susceptor couples to the RF field, heats by eddy currents, radiates to crucible. Used in some small pullers.
+
+**Pull shaft and seed holder**:
+- Seed holder: three- or four-jaw collet machined from high-purity graphite or molybdenum, gripping a 5-10 mm square, 50-80 mm long seed crystal oriented <100> or <111>.
+- Pull rod: stainless steel or molybdenum, 15-25 mm diameter, 800-1200 mm long. Straightness within 0.05 mm over full length. Connects seed holder to the rotation/lift mechanism through a vacuum feedthrough.
+- Seed rotation: 5-20 RPM via stepper motor or DC servo with encoder. Crucible counter-rotation: 3-15 RPM. Counter-rotation mixes the melt, homogenizing both temperature and dopant distribution.
+
+**Argon atmosphere**:
+- Chamber backfilled with argon after 3× purge cycle (evacuate to <1 mbar, backfill with Ar). Operating pressure 5-20 mbar (slight positive pressure prevents air ingress).
+- Argon flow 20-60 L/min sweeps SiO and CO away from the crystal. Flow enters above the crystal, passes down past the melt surface, exits at the furnace bottom.
+- Gas purity: >99.999% Ar, with O₂ and H₂O each <1 ppm. Residual oxygen in the hot zone forms CO from graphite, which dissolves carbon into the melt.
+
+#### Pulling Procedure
+
+The pull cycle runs 24-48 hours for a single crystal. Each phase has specific speed and temperature requirements.
+
+**Melt phase**:
+- Load 5-50 kg polysilicon chunks into the crucible. Larger charges need multiple loading steps (melt a partial charge, add more chunks) to avoid bridging, where solid silicon forms an arch above the melt and collapses unpredictably.
+- Heat to 1420-1430°C. Silicon melts at 1414°C. Full melt takes 3-6 hours for a 10-30 kg charge. Monitor through the viewport: the charge should collapse into a flat, mirror-like liquid surface.
+
+**Seed contact and meniscus**:
+- Lower the seed crystal until it contacts the melt surface. The seed partially melts, establishing a liquid-solid interface. A meniscus forms at the contact point, shaped by surface tension and the temperature gradient. Meniscus height 2-5 mm. Its shape is the primary indicator of crystal diameter.
+
+**Dash neck**:
+- Pull at 3-5 mm/min to form a thin neck, ~3 mm diameter, 50-100 mm long. This is the most critical step for crystal quality. Dislocations from the seed cannot propagate through such a thin cross-section. They grow out to the free surface within the first 20-30 mm of neck. If the neck is too thick (>5 mm), dislocations survive and thread into the crystal body, ruining it for semiconductor use.
+
+**Diameter control**:
+- After the neck, reduce pull speed to grow the shoulder and then the body. Pull speed during body growth: 0.5-2.0 mm/min.
+- Diameter is controlled by a PID loop that adjusts pull speed and heater power simultaneously. If the crystal grows too thick, the PID increases pull speed (pulls faster, less time for radial growth) and/or raises heater power slightly (melts more material at the interface). If too thin, the opposite. Feedback comes from either optical meniscus observation through the viewport or load cell weight measurement on the pull rod.
+- Target diameter stability: ±1 mm over the full body length.
+
+#### Dopant Addition and Resistivity Control
+
+**Doping methods**:
+- Add doped polysilicon chunks to the initial charge. For p-type: boron-doped polysilicon, or add SiO₂+B₂O₃ pellets to the melt. For n-type: phosphorus-doped polysilicon, or add SiPO₄ (silicon phosphate) to the melt.
+- Target resistivity 1-100 Ω·cm depending on application (1-10 Ω·cm for solar cells, 5-50 Ω·cm for power devices, 1-20 Ω·cm for CMOS).
+- Dopant concentration in the melt is not constant throughout the pull. Segregation coefficient k = C_solid/C_liquid at the interface determines how the dopant partitions. Boron has k ≈ 0.8, close to unity, so p-type crystals are relatively uniform axially (resistivity varies ±5-10% from seed to tail). Phosphorus has k ≈ 0.35, meaning the solid rejects P into the melt, enriching it over time. The tail end of an n-type crystal has lower resistivity (more P) than the seed end. This limits the usable length of n-type CZ crystals.
+
+**Dopant addition timing**:
+- For boron: add at the start, dissolved boron distributes uniformly in the melt before pulling begins.
+- For phosphorus: add at the start, but expect axial variation. Alternatively, use co-rotation/counter-rotation melt stirring to homogenize, but the segregation effect at the interface is fundamental and cannot be eliminated.
+
+#### Crystal Properties and Grading
+
+**Oxygen content**: 5-20 ppma, introduced by crucible dissolution. Oxygen is higher at the seed end (crucible wall is thickest) and decreases toward the tail. Oxygen forms thermal donors (electrically active complexes) if the crystal is not annealed. Standard practice: heat-treat wafers at 600-800°C to precipitate oxygen into inert SiO₂ particles.
+
+**Carbon content**: <1 ppma target, from CO produced by graphite heater/insulation. Carbon above 5 ppma forms SiC precipitates, hard particles that damage wire saw blades and disrupt device fabrication.
+
+**Dislocation density**: <100/cm² for electronic grade (ideally zero after Dash necking). Solar grade crystals tolerate >5000/cm² because grain boundaries in solar cells already dominate recombination.
+
+#### Hot Zone Design
+
+The hot zone is everything inside the furnace chamber between the heater and the chamber walls: insulation, radiation shields, gas flow channels, and structural supports.
+
+**Radiation shields**: Graphite or molybdenum discs and cylinders positioned above the crucible to trap heat and create a uniform thermal environment around the crystal. Without shields, the crystal radiates heat to the cold chamber walls, creating steep axial temperature gradients that cause thermal stress and dislocations.
+
+**Argon flow design**: Gas enters above the crystal, flows down past the crystal and melt, exits at the bottom. Flow rate 20-60 L/min. The flow path must avoid dead zones where SiO or CO accumulates and re-deposits on the crystal surface. Baffles direct flow along the crucible wall to sweep SiO downward and away.
+
+**Crucible life**: 100-300 hours of cumulative hot time before the thinned wall cracks under thermal stress or the weight of a fresh charge. Some operations track crucible hours and retire them on a schedule. A crucible failure during a pull is catastrophic: molten silicon spills onto the susceptor and heater, destroying the hot zone and requiring a full rebuild (days of downtime).
+
+### Pulling Procedure, Step by Step
+
+Every CZ pull follows the same sequence. Timing and temperature control at each stage determine whether the result is a device-grade ingot or scrap silicon.
+
+**Charging and melting**:
+Polysilicon chunks (5-50 kg depending on crucible size) are loaded into the fused silica crucible. The charge is often topped with dopant material at this stage (see Dopant Addition below). The chamber is sealed, evacuated to <1 mbar with a rotary vane pump, then backfilled with argon. This purge cycle repeats three times to drive residual oxygen and moisture below 1 ppm. Once purged, heater power ramps up over 4-8 hours to bring the charge to 1420°C, fully melting the silicon. Melt stabilization follows: hold at target temperature for 30-60 minutes while the melt homogenizes thermally and chemically. Temperature must settle within ±0.1°C before seeding begins.
+
+**Seeding**:
+The seed crystal (5-10 mm square, oriented <100> or <111>) is lowered on the pull rod until it contacts the melt surface. This is the most delicate moment in the entire cycle. Contact too fast and thermal shock spawns dislocations through the seed. The operator watches through the viewport for the melt meniscus to wrap around the seed edge, confirming wetting. Melt temperature is adjusted ±0.5°C until the meniscus is stable.
+
+**Dash neck**:
+After seed contact, pull speed increases to 3-5 mm/min and the crystal diameter is reduced to roughly 3 mm. This narrow neck, 50-100 mm long, is where dislocations die. Any dislocation propagating from the seed cannot fit through a 3 mm cross section and instead grows out to the surface. Without Dash necking, the entire crystal inherits dislocations from the seed. It takes steady hand-eye coordination or a well-tuned closed-loop controller to maintain this diameter without the neck snapping.
+
+**Shoulder (crown) growth**:
+Once the neck is established, pull speed drops to 0.2-0.5 mm/min and the crystal diameter expands outward to the target body diameter (100-300 mm). The transition from neck to full diameter looks like a cone or rounded shoulder. If the shoulder grows too fast, new dislocations nucleate at the convex growth interface. The shoulder angle is typically 45-60° from the vertical axis. This phase takes 1-3 hours depending on target diameter.
+
+**Body growth**:
+At full diameter, pull speed settles to 0.5-2.0 mm/min. This is the longest phase: 12-36 hours for a typical 15-30 kg crystal. Diameter is held constant by a PID control loop that adjusts pull speed based on either a load cell measuring crystal weight (weight increase rate corresponds to diameter) or an optical sensor measuring diameter directly through the viewport. Setpoint: ±1 mm on diameter. The PID loop responds every 1-5 seconds. Melt temperature drifts by less than ±0.5°C during the entire body pull.
+
+**Tail-out**:
+Near the end of the pull, melt volume is low and thermal gradients steepen. Rather than yanking the crystal free (which causes thermal shock dislocations in the last 20-30 mm of ingot), pull speed is gradually increased to narrow the crystal into a tail. Diameter shrinks over 10-30 minutes until the crystal detaches naturally from the melt. The finished ingot is lifted into the upper chamber, the gate valve closes, and the crystal cools under argon before removal.
+
+### Dopant Addition and Resistivity Control
+
+Electrical properties of the crystal come from dopants added to the melt before pulling. The choice of dopant and its concentration determine resistivity, which in turn determines whether the wafer works for a given device.
+
+**Dopant types and delivery**:
+Boron (p-type) is added as boron-doped polysilicon chips, or as a mixture of SiO₂ and B₂O₃ that dissolves into the melt. Phosphorus (n-type) is added as phosphorus-doped polysilicon or as silicon phosphate (SiPO₄). Antimony and arsenic are alternatives for n-type but have lower segregation coefficients and are harder to control. For bootstrap production, boron is the easiest dopant: it is chemically stable, readily available as borax (Na₂B₄O₇·10H₂O), and has a segregation coefficient close to unity.
+
+**Segregation and axial uniformity**:
+As the crystal grows, dopant concentration in the melt changes because the solid incorporates dopant at a different rate than the liquid supplies it. The segregation coefficient k = C_solid / C_liquid determines this behavior. Boron has k ≈ 0.8, meaning the crystal takes up 80% of the melt concentration. This makes boron-doped crystals remarkably uniform along their length. Phosphorus has k ≈ 0.35, so the crystal initially rejects phosphorus and the melt enriches over time. A phosphorus-doped crystal shows significant resistivity gradient from seed end (higher resistivity, less P) to tail end (lower resistivity, more P). For tight resistivity tolerances with phosphorus, melt replenishment systems add doped silicon during the pull to maintain constant melt composition.
+
+**Target resistivity**:
+Typical targets: 1-100 Ω·cm. Solar cells use 1-10 Ω·cm (moderately doped for good carrier lifetime). Logic devices might target 10-50 Ω·cm. Resistivity maps to carrier concentration through ρ = 1/(q·n·μ), where q is electron charge, n is carrier density, and μ is mobility. A resistivity of 10 Ω·cm corresponds to roughly 1.5×10¹⁵ boron atoms/cm³.
+
+**Oxygen from crucible dissolution**:
+Fused silica crucibles slowly dissolve into the melt during growth, introducing 5-20 ppma (parts per million atomic) of oxygen into the crystal. This is not purely harmful. When wafers are heat-treated at 600-800°C in subsequent processing, interstitial oxygen precipitates as SiO₂ clusters in the wafer bulk. These clusters act as gettering sites: they trap metallic impurities (iron, copper, nickel) that would otherwise degrade device performance in the active surface region. This "internal gettering" is a deliberate feature of CZ-grown silicon. Float-zone silicon, by contrast, has oxygen below 1 ppma and lacks this built-in gettering.
+
+### Crystal Properties and Defect Classification
+
+Not all crystals are created equal. The defect density determines whether an ingot is electronic grade, solar grade, or scrap.
+
+**Dislocation density**:
+Electronic grade silicon requires dislocation density below 100 per cm². Modern production CZ crystals with proper Dash necking achieve near-zero dislocations (<10/cm²). Solar grade tolerates higher dislocation density (>5000/cm²) because solar cells are less sensitive to individual defects than integrated circuits. Dislocations act as recombination centers that reduce minority carrier lifetime, and in extreme cases provide electrical short-circuit paths through p-n junctions.
+
+**Slip lines**:
+Thermal stress during cooling generates slip, a plastic deformation where crystal planes shear along specific crystallographic directions. Slip appears as visible lines on etched wafer surfaces. The danger zone is 800-1200°C, where silicon is hot enough for dislocations to move under stress but cool enough that applied stress is significant. Cooling faster than 5°C/min through this range almost guarantees slip. In practice, the ingot cools inside the puller upper chamber under argon for 2-4 hours after tail-out before removal.
+
+**Vacancy clusters (COP)**:
+Crystal originated particles (COP) are tiny octahedral voids, 50-200 nm in size, formed by vacancy aggregation during crystal growth. Vacancies are thermally generated point defects (empty lattice sites) that exist in equilibrium at the melting point. As the crystal cools, vacancies become supersaturated and cluster together. COPs are a problem for gate oxide integrity in advanced ICs (they cause localized oxide thinning and breakdown). In nitrogen-free pulls, vacancy concentration can reach 10¹⁰-10¹² per cm³.
+
+**Nitrogen doping for COP suppression**:
+Adding 1-5×10¹⁴ nitrogen atoms/cm³ to the melt suppresses COP formation. Nitrogen atoms bind to vacancies during growth, preventing them from clustering into voids. The nitrogen is introduced as Si₃N₄ powder mixed into the polysilicon charge. For bootstrap production targeting solar cells rather than sub-micron ICs, COP suppression is a low priority. But if the goal is CMOS logic at 1 μm or below, nitrogen-doped CZ silicon is worth the added process complexity.
+
+### Hot Zone Design and Maintenance
+
+The "hot zone" is everything inside the furnace chamber that is not the crystal or the melt: heater, insulation, susceptor, radiation shields, gas flow channels, and structural supports. Hot zone design determines temperature uniformity, power consumption, crystal quality, and operational lifetime.
+
+**Radiation shielding**:
+At 1420°C, radiation is the dominant mode of heat transfer. Without shielding above the crucible, the melt surface radiates directly toward the cold chamber lid and the growing crystal, creating steep thermal gradients that cause thermal stress in the crystal. Radiation shields made of graphite felt or molybdenum sheets are positioned above the crucible to reflect heat back toward the melt. A well-designed shield array reduces heat loss by 30-50% and cuts power consumption from 80-100 kW down to 50-70 kW for a 200 mm pull.
+
+**SiO vapor management**:
+Silicon reacts with oxygen from the dissolving crucible at 1420°C to form silicon monoxide vapor (Si + ½O₂ → SiO). This volatile gas condenses on cooler surfaces inside the chamber: the pull rod, radiation shields, chamber walls. SiO deposits are brownish and powdery, and over many runs they build up and flake off, falling back into the melt as particulate contamination. The argon flow (20-60 L/min, directed from the top of the pull chamber downward past the crystal and out the bottom) carries SiO vapor away before it condenses on critical surfaces. The exhaust gas passes through a particulate filter or cold trap before venting.
+
+**Crucible lifetime and hot zone rebuild**:
+The fused silica crucible dissolves at 0.01-0.03 mm per hour into the melt. A crucible starting at 8 mm wall thickness and running a 30-hour pull ends with walls roughly 7.1-7.7 mm thick. After 100-300 hours of cumulative use (including the susceptor and insulation), the hot zone requires a full rebuild: new crucible, inspection and possible replacement of the graphite susceptor (checking for cracks from thermal cycling), replacement of contaminated insulation felt, and cleaning of SiO deposits from all surfaces. Hot zone rebuild takes 8-16 hours and is scheduled between pulls.
+
+**Power efficiency and thermal balance**:
+A 200 mm CZ puller running a 20 kg crystal consumes roughly 200-400 kWh over its 24-48 hour cycle. Of the total heater input power (50-100 kW), only about 10-15 kW goes into maintaining the melt at 1420°C. The rest is lost to radiation, convection in the argon, and conduction through supports. Good insulation and radiation shielding are not luxury features; they are the difference between a puller that runs on 50 kW and one that needs 100 kW, which matters enormously when your electricity supply is limited. Every kilowatt saved on the puller is a kilowatt available for another furnace, another process step, another step up the production curve.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [Silicon](./) • [All Domains](../)*

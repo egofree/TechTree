@@ -52,6 +52,98 @@ This capability covers the selection, harvesting, processing, and structural use
 - **Bending strength**: 40-80 MPa for structural hardwoods. Determines beam and rafter sizing. A 150×150 mm oak beam spans ~4 m under typical floor loads.
 - **Weakness**: Shear strength across the grain is only 5-15 MPa. Failures occur at joints, not in mid-span. Connection design is more critical than member sizing.
 
+### Timber Properties by Species
+
+Approximate mechanical and physical properties of key structural timbers:
+
+| Species | Density (kg/m³) | Compressive Strength (MPa) | Bending Strength (MPa) | Tensile Strength (MPa) | Best Uses | Notes |
+|---------|----------------|---------------------------|----------------------|----------------------|-----------|-------|
+| Oak (*Quercus robur*) | 600-900 | 40-55 | 65-90 | 80-110 | Beams, posts, ship frames, barrel staves | Extremely durable heartwood; slow-growing; seasons slowly; highest structural value European hardwood |
+| Pine (*Pinus sylvestris*) | 350-500 | 30-45 | 40-65 | 60-90 | Framing, flooring, general construction | Fast-growing; widely available; easy to work; moderate decay resistance in heartwood |
+| Ash (*Fraxinus excelsior*) | 590-820 | 40-50 | 70-100 | 90-130 | Tool handles, wagon parts, sports equipment | Exceptional impact resistance; flexible; steam-bends well; poor decay resistance — indoor use only |
+| Elm (*Ulmus* spp.) | 530-680 | 35-45 | 55-75 | 70-95 | Wheel hubs, coffins, chair seats | Interlocking grain resists splitting; excellent for turning; moderately durable |
+| Chestnut (*Castanea sativa*) | 520-620 | 30-40 | 50-65 | 55-80 | Fencing, shingles, structural posts | Naturally durable heartwood; coppices vigorously; used for vineyard stakes |
+| Beech (*Fagus sylvatica*) | 640-720 | 38-48 | 65-85 | 80-110 | Furniture, tool handles, flooring | Hard, even texture; bends well with steam; perishable outdoors without treatment |
+| Larch (*Larix decidua*) | 500-650 | 35-50 | 55-80 | 70-100 | Exterior framing, bridge beams, pilings | Naturally durable; resistant to rot; difficult to work but extremely strong for a conifer |
+| Acacia (*Acacia* spp.) | 650-900 | 45-60 | 70-95 | 85-120 | Fencing, tool handles, furniture | Extremely hard and durable; fast-growing in warm climates; excellent fuelwood |
+| Teak (*Tectona grandis*) | 550-700 | 40-55 | 65-90 | 80-110 | Shipbuilding, outdoor furniture | Naturally oily — exceptional decay and insect resistance; plantation-grown in 20-25 years |
+| Spruce (*Picea abies*) | 350-470 | 28-40 | 40-60 | 55-80 | Sounding boards, light framing | Low density; excellent strength-to-weight ratio; resonant — preferred for musical instruments |
+
+**Wood moisture and shrinkage**: All wood shrinks as it dries. Tangential shrinkage (around growth rings): 6-12%. Radial shrinkage (across rings): 2-6%. Longitudinal (along grain): <0.3%. Differential shrinkage between tangential and radial planes causes warping and checking. Heartwood shrinks less than sapwood.
+
+### Bamboo Construction
+
+Bamboo (*Bambusa*, *Dendrocalamus*, *Phyllostachys* spp.) is a grass, not a tree, but provides structural material rivaling timber:
+
+**Properties**: Tensile strength up to 350 MPa (comparable to mild steel at 400 MPa). Density 600-800 kg/m³. Compressive strength 60-80 MPa. Weight-to-strength ratio exceeds most structural timbers. Hollow culm provides excellent moment of inertia per unit weight — structurally efficient as a column or beam.
+
+**Harvesting**: Cut mature culms (3-5 years old) at ground level during dry season (lower starch content reduces insect attack). Culms grow to full height in a single growing season (60-120 days) and mature over 2-4 subsequent years. A managed bamboo grove yields 10-30 tonnes/ha/year of usable culm.
+
+**Treatment for preservation**: Bamboo is susceptible to powder-post beetles and fungal decay. Treatment methods:
+- Soak in water (immersion) for 4-6 weeks to leach starches that attract insects
+- Borax/boric acid solution (5-10% concentration, 1-2 weeks immersion) — most effective chemical treatment available with minimal chemistry
+- Smoke treatment over slow fire for 1-2 weeks (traditional method in tropical Asia)
+
+**Joinery**: Bamboo cannot be nailed or screwed (splitting). Traditional joints use lashing (rattan or cordage), dowels (bamboo pins through pre-drilled holes), and notching (cutting fish-mouth joints where horizontal members meet verticals). Steel banding or wire ties become possible once metal is available.
+
+### Thatching Detail
+
+**Reed thatch (*Phragmites australis*)**:
+- Roof lifespan: 30-40 years for a well-laid reed thatch (up to 50-80 years with maintenance and proper pitch)
+- Harvest reeds in winter when dead and dry (December-February). Cut with sickle or scythe at water's edge. Bundle into yealms (tight bundles ~60 cm diameter at the butt). Combed to remove leaves and straighten
+- Ridge requires replacement every 10-15 years; main coat lasts 30-40 years. A reed thatch on a 45-55° pitch sheds water without any waterproof membrane
+- Reed yield: approximately 500-800 bundles per hectare of managed reed bed; ~4-5 bundles per m² of roof
+
+**Straw thatch (wheat, rye)**:
+- Roof lifespan: 15-25 years (shorter than reed because straw decays faster)
+- Use long-stem heritage varieties (modern short-straw wheat is unsuitable). Cut with a binder that preserves full straw length
+- Straw must be threshed carefully (flailing, not machine-threshing) to avoid breaking stems. Soak briefly before thatching to restore flexibility
+- Spar coating: Fix bundles with hazel or willow spars (split rods ~1 m long, twisted into U-shaped staples driven into the coat)
+
+** Heather thatch (*Calluna vulgaris*)**:
+- Used in upland Britain and Scandinavia where reeds are scarce. Creates a dense, springy roof. Lifespan: 20-30 years. Harvested in late summer when flowering.
+
+### Willow Withies and Basketry
+
+Willow (*Salix* spp.) provides flexible rods (withies) essential for basketry, wattle panels, and structural ties:
+
+**Coppicing for withies**: Cut willow stools annually to produce long, straight, flexible rods (1.5-3 m). *Salix viminalis* (basket willow) is the preferred species, producing 20-40 rods per stool per year. Plant 40-60 cm cuttings at 30-50 cm spacing in damp ground. First harvestable crop in year 2.
+
+**Sorting by use**: Rods sorted by length and diameter. Long, thin rods (2-3 m, <8 mm) for fine basketry. Medium rods for wattle panels. Thick rods (>15 mm) for structural ties and furniture frames.
+
+**Soaking**: Dry withies are brittle. Soak in water for 3-7 days before working to restore full flexibility. Mellow (wrap in damp cloth) for an additional 12-24 hours after soaking for optimal pliability.
+
+**Basketry structures**: Woven baskets use a simple over-under pattern on a rigid framework (stakes). Randing (single-rod weaving), pairing (two-rod twist), and waling (three-rod weave) produce progressively stronger baskets. A skilled basket-maker produces 2-4 medium baskets per day.
+
+### Coppicing Cycles
+
+Managed coppice woodland provides a perpetual supply of straight poles and withies without replanting:
+
+| Species | Rotation (years) | Products | Notes |
+|---------|-----------------|----------|-------|
+| Hazel (*Corylus avellana*) | 7 | Wattle stakes, thatching spars, hurdles, bean poles | Most versatile coppice species; produces dense, straight rods |
+| Willow (*Salix* spp.) | 1-3 | Withies, baskets, wattle, ties | Shortest rotation; grows in wet ground |
+| Ash (*Fraxinus excelsior*) | 10-15 | Tool handles, poles, firewood | Excellent for handles due to impact resistance |
+| Chestnut (*Castanea sativa*) | 12-18 | Fencing posts, shingles, poles | Produces naturally durable heartwood at this rotation |
+| Oak (*Quercus robur*) | 20-30 | Bark (tannin), small timber, firewood | Long rotation; bark stripped for leather tanning |
+| Alder (*Alnus glutinosa*) | 10-15 | Piles, underwater foundations | Resists rot when permanently waterlogged |
+
+A hectare of mixed coppice (hazel-ash-chestnut) yields 2-5 tonnes of air-dry wood per rotation. Managed coppice stools can be productive for 500+ years — some medieval English coppice stools are documented at over 1,000 years old.
+
+### Wood Seasoning Detail
+
+**Air drying**: Stack lumber with stickers (thin cross-battens, 20-25 mm thick) between each layer for airflow. Protect from rain with a roof or tarp (do not enclose sides — airflow is essential). General rule: **1 year per 25 mm of thickness** for hardwoods; half that for softwoods. A 50 mm oak board air-dries in 2 years. A 100 mm pine beam in 1 year.
+
+**Kiln drying**: Once ceramics technology provides a kiln (or a purpose-built drying kiln from brick), drying accelerates to 3-6 weeks at 60-80°C. Requires careful control — too-fast drying causes:
+- Surface checking (cracks on the surface as it dries faster than the core)
+- Case hardening (surface dries and seals, trapping moisture in the core)
+- Honeycombing (internal checking from trapped moisture stress)
+- Solution: start at lower temperature (40-50°C), increase gradually. Monitor weight loss to track moisture content.
+
+**Moisture content targets**: Green wood: 30-80% moisture (hardwood higher than softwood). Structural use (framing): 15-20%. Interior furniture: 8-12%. Wood in heated buildings equilibrates to ~8-12% EMC (equilibrium moisture content). Wood exposed to outdoor air: 12-18%.
+
+**Testing dryness without instruments**: Weigh a sample piece, dry it further in an oven or over a fire, re-weigh. When weight stops decreasing, it's at oven-dry. Compare original weight to oven-dry: moisture content = (wet weight - dry weight) / dry weight × 100%.
+
 **Weather resistance and treatment**:
 - **Natural durability**: Heartwood of durable species (acacia, oak, chestnut, teak-family) resists decay for 15-50+ years in ground contact. Sapwood of all species rots within 2-5 years.
 - **Charring**: Lightly char the surface of posts to be buried in ground. The carbonized layer resists moisture absorption and fungal attack. Extends ground-contact life from 3-5 years to 10-15 years.
@@ -109,4 +201,4 @@ Wall thickness: 100-150 mm. Insulation value: moderate (poorer than solid masonr
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Plants](./) • [All Domains](../)*
+[← Back to Plants](index.md)

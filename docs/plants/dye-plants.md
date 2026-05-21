@@ -70,6 +70,100 @@ Well-known dye plants that should be prioritized for cultivation in a bootstrap 
 
 Note: The current plants species catalog (plants.json) does not yet include dedicated dye plant entries. The species listed above are documented from general botanical and historical knowledge. Adding targeted dye species to the catalog is a future data-enrichment task.
 
+### Woad — *Isatis tinctoria* (Brassicaceae)
+
+Woad is the only practical source of blue dye in temperate climates. It was the primary blue dye plant of Europe from the Iron Age through the Middle Ages, until supplanted by imported indigo in the 16th century.
+
+**Cultivation**: Hardy biennial. Sow seeds in spring (2-3 kg/ha), thin to 20 cm spacing. First-year rosette leaves harvested for dye. Overwinters as a rosette, flowers and sets seed in year two. Tolerates poor, alkaline soils. Yield: 3-5 tonnes fresh leaves/ha from first-year plants.
+
+**Indigo extraction (fermentation process)**:
+1. Harvest first-year leaves (June-September). Crush or grind fresh leaves to break cell walls
+2. Pack crushed leaves into a wooden vat or clay-lined pit. Add warm (25-30°C) water to cover. Add alkali: wood ash lye (potassium carbonate, pH 9-10) or stale urine (ammonia)
+3. Ferment for 12-15 days at 25-30°C. The glucoside isatan B hydrolyzes to indoxyl. Stir every 2-3 days. The liquor turns yellow-green and develops a characteristic sharp smell
+4. Beat the fermented liquor vigorously with paddles for 15-30 minutes to introduce air. Indoxyl oxidizes to insoluble blue indigo pigment (indigotin). Blue froth forms on the surface
+5. Allow pigment to settle (2-4 hours). Decant supernatant liquid. Collect blue sludge, press into cakes, dry
+6. **Yield**: approximately 1-2 g indigo pigment per kg fresh woad leaves (0.1-0.2% extraction rate). This is 5-10x lower than true indigo (*Indigofera tinctoria*, which yields 0.5-2% indigo from leaves)
+
+**Application**: Indigo pigment is insoluble in water. To dye fiber, the pigment must be reduced (indigo vat) using a reducing agent (fermented bran, urine, or later, sodium hydrosulfite). The reduced form (leuco-indigo, yellow-green) is water-soluble and penetrates fiber. Upon exposure to air, it re-oxidizes to blue indigo, trapped permanently within the fiber. No mordant required — indigo is a substantive (vat) dye.
+
+### Madder — *Rubia tinctorum* (Rubiaceae)
+
+Madder roots produce the most important natural red dye, used since antiquity (evidence from 3,000 BCE Egypt). The active dye compound is alizarin (1,2-dihydroxyanthraquinone), along with purpurin and other anthraquinones.
+
+**Cultivation**: Perennial climbing plant. Sow seeds in spring or plant root cuttings. Requires support (trellis or poles) — stems reach 1-2 m. Prefers deep, well-drained, slightly alkaline soil (pH 7.0-8.0). Roots need 2-3 years to accumulate sufficient dye content. Plants are productive for 5-10 years.
+
+**Harvesting**: Dig roots in autumn (September-November) after 2-3 years' growth. Autumn harvest yields highest alizarin concentration (peaks as top growth dies back). Wash thoroughly, dry slowly in shade. Roots may be used whole, chopped, or ground to powder. Dried roots store for 2+ years. Yield: 2,000-4,000 kg dried root/ha from a 3-year-old planting.
+
+**Dye extraction**: Simmer dried, chopped roots in water at 70-80°C (do not boil — temperatures above 85°C degrade alizarin and produce duller browns) for 60-90 minutes. Strain. The dye bath is deep red-orange. Multiple extractions from the same roots (3-4 baths of decreasing intensity) maximize yield.
+
+**Mordant requirements**: Madder requires alum mordant on protein fibers (wool, silk) for bright red. On cellulose fibers (cotton, linen), use tannin pre-mordant followed by alum. Iron mordant shifts color toward deep purple-brown. Tin mordant brightens to orange-red (but tin is harsh on fibers and rarely available early).
+
+**Colorfastness**: Excellent lightfastness (rating 6-7 on 8-point blue wool scale). Good wash-fastness when properly mordanted. Alizarin is one of the most stable natural dye compounds — madder-dyed textiles from ancient Egypt retain visible red color after 5,000 years.
+
+### Weld — *Reseda luteola* (Resedaceae)
+
+Weld produces the clearest, most lightfast yellow of any natural dye plant. Known since the Neolithic (identified on Iron Age textile finds from Hallstatt, Austria).
+
+**Cultivation**: Biennial or annual. Sow in spring on well-drained soil. Tolerates poor, chalky, marginal land unsuitable for food crops. First year produces a rosette; second year sends up flower spikes to 1.5 m. Harvest entire aerial parts at full flower (June-July) when luteolin concentration peaks. Yield: 1,500-3,000 kg fresh aerial parts/ha.
+
+**Active compound**: Luteolin (a flavone) and derivatives. Concentration peaks at flowering — earlier harvest gives pale yellow; later (seed set) gives duller color. Leaves and flower spikes both contain dye; stems contain less.
+
+**Dye extraction**: Simmer fresh or dried aerial parts in water at 80-90°C for 45-60 minutes. Strain. Dye bath is bright yellow-green. Use at 50-100% weight of fiber (WOF) for dried plant material; 200% WOF for fresh. Alum mordant produces clear, bright yellow. Iron mordant shifts to olive green.
+
+**Colorfastness**: Best lightfastness of any natural yellow dye (rated 6-7 on blue wool scale). This is why weld was the primary yellow dye of the European textile industry for over 2,000 years, used for the yellow component of the Lincoln Green (weld yellow + woad blue).
+
+### Walnut — *Juglans regia* (Juglandaceae)
+
+Walnut hulls produce a rich, lightfast brown dye that requires no mordant — one of the few substantive non-indigo natural dyes.
+
+**Cultivation**: Deciduous tree, 15-25 m. Requires 180+ frost-free days; deep, well-drained soil. Begins producing nuts at 5-8 years; full production at 15-20 years. A mature tree yields 50-100 kg nuts/year. The green hulls surrounding the shell are the dye source — a dual-purpose crop (food + dye).
+
+**Harvesting for dye**: Collect green hulls at nut harvest (autumn). Hulls must be processed green (before they turn black and decompose). Each nut yields 15-25 g of green hull material. A tree yielding 80 kg nuts produces approximately 15-25 kg green hulls for dye.
+
+**Dye extraction**: Simmer green hulls in water at 80-90°C for 60 minutes. Strain. The dye bath is deep brown. No mordant needed — juglone (5-hydroxy-1,4-naphthoquinone) bonds directly to protein fibers. On wool, produces medium to dark brown depending on concentration (30-60% WOF). On cotton, produces lighter tan. Iron mordant deepens to near-black.
+
+**Colorfastness**: Excellent lightfastness and wash-fastness. Juglone is chemically stable and forms covalent bonds with protein fiber. One of the most reliable and easy-to-use natural dyes. Also functions as a mild insect repellent on dyed fabric.
+
+### Cultivation Yields per Hectare
+
+Approximate annual dry dye material yields under hand cultivation:
+
+| Plant | Dry Material Yield (kg/ha) | Dye Extraction Rate | Dye per ha (kg) | Primary Color |
+|-------|---------------------------|-------------------|-----------------|---------------|
+| Woad (fresh leaves) | 3,000-5,000 | 0.1-0.2% indigo | 3-10 | Blue |
+| True indigo (fresh leaves) | 4,000-6,000 | 0.5-2.0% indigo | 20-120 | Blue |
+| Madder (dried root, 3-yr) | 2,000-4,000 | 2-4% alizarin | 40-160 | Red |
+| Weld (dried aerial parts) | 1,000-2,000 | 1-2% luteolin | 10-40 | Yellow |
+| Walnut (green hulls, mature trees) | 1,500-3,000 (mixed orchard) | 5-10% juglone | 75-300 | Brown |
+
+True indigo is the most productive blue dye source by 5-10x over woad. Where climate permits (frost-free tropical/subtropical), indigo (*Indigofera tinctoria*) should always be preferred over woad for blue.
+
+### Mordant Requirements by Plant and Fiber
+
+| Dye Plant | Wool (protein) | Cotton/Linen (cellulose) | Notes |
+|-----------|---------------|--------------------------|-------|
+| Woad/indigo | None (vat dye) | None (vat dye) | Substantive — no mordant needed |
+| Madder | Alum (15-20% WOF) | Tannin + Alum (10% tannin, 15-20% alum) | Cellulose requires tannin pre-mordant |
+| Weld | Alum (15-20% WOF) | Tannin + Alum | Alum brightens; iron shifts to olive |
+| Walnut | None (substantive) | Alum optional (deepens) | One of few substantive brown dyes |
+| Coreopsis | Alum (15-20% WOF) | Tannin + Alum | Tin shifts to bright orange |
+| Pomegranate rind | None (high tannin) | None (acts as own mordant) | Produces yellow-brown; tannin-rich |
+| Oak galls | Iron (5-10% WOF) | Iron | Produces blue-black; tannin content very high |
+
+### Colorfastness Reference
+
+Lightfastness and wash-fastness ratings for key natural dyes (8-point scale; 8 = excellent):
+
+| Dye Source | Color | Lightfastness (protein fiber) | Wash-fastness | Notes |
+|-----------|-------|------------------------------|---------------|-------|
+| Indigo (woad/indigo) | Blue | 7-8 | 4-5 | Excellent lightfastness; moderate wash-fastness (gradual fading with repeated washing) |
+| Madder (alizarin) | Red | 6-7 | 4-5 | Best red lightfastness of any natural dye |
+| Weld (luteolin) | Yellow | 6-7 | 4 | Best yellow lightfastness; natural yellows generally fade faster than blues/reds |
+| Walnut (juglone) | Brown | 7-8 | 5 | Excellent both; substantive dye bonds tightly |
+| Oak gall + iron | Black | 6-7 | 4-5 | Iron-tannate black; slight browning over decades |
+| Coreopsis | Orange | 4-5 | 3-4 | Moderate lightfastness — fades to lighter orange with UV exposure |
+| Safflower (carthamin) | Pink | 2-3 | 2-3 | Poor lightfastness — fades significantly within months. Not suitable for permanent color |
+
 ### Cultivation Considerations
 
 Dye plant cultivation integrates into existing agricultural patterns without requiring specialized equipment:
@@ -112,4 +206,4 @@ Indigo is the most labor-intensive dye per unit color — roughly 4-5 kg of fres
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Plants](./) • [All Domains](../)*
+[← Back to Plants](index.md)

@@ -98,6 +98,9 @@ machine-tools_internal: "Machine Tools Bootstrap — Internal Structure" {
 machine-tools: Machine Tools Bootstrap
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+animals_animal-materials: Animal-Derived Materials Processing {
+  shape: rectangle
+}
 chemistry: Chemistry {
   shape: rectangle
 }
@@ -155,7 +158,16 @@ measurement_precision-metrology: "Precision Metrology & Standards" {
 metals: Metals {
   shape: rectangle
 }
+metals_alloys: Specialty Alloys {
+  shape: rectangle
+}
+metals_forming: Primary Metal Forming {
+  shape: rectangle
+}
 metals_iron-steel: "Iron & Steel Production" {
+  shape: rectangle
+}
+mining_drilling: Mechanical Drilling {
   shape: rectangle
 }
 optics: Optics {
@@ -227,6 +239,11 @@ computing_mechanical -> machine-tools: { class: tool-edge }
 energy_steam-power_steam-turbines -> machine-tools_machining: { class: tool-edge }
 energy_gravity_water-turbines -> machine-tools_machining: { class: tool-edge }
 knowledge_printing -> machine-tools_machining: { class: tool-edge }
+machine-tools_joining -> metals_alloys: { class: material-edge }
+metals_forming -> machine-tools: { class: tool-edge }
+machine-tools_forming -> animals_animal-materials: { class: material-edge }
+machine-tools_iterative-bootstrap -> animals_animal-materials: { class: material-edge }
+mining_drilling -> machine-tools_machining: { class: tool-edge }
 
 # ==================== STYLING ====================
 machine-tools.class: domain
@@ -236,6 +253,7 @@ machine-tools_bearings-abrasives.class: capability
 machine-tools_forming.class: capability
 machine-tools_machining.class: capability
 machine-tools_joining.class: capability
+animals_animal-materials.class: external
 chemistry.class: external
 chemistry_lubricants.class: external
 chemistry_packaging-testing.class: external
@@ -255,7 +273,10 @@ knowledge_printing.class: external
 measurement.class: external
 measurement_precision-metrology.class: external
 metals.class: external
+metals_alloys.class: external
+metals_forming.class: external
 metals_iron-steel.class: external
+mining_drilling.class: external
 optics.class: external
 photolithography.class: external
 polymers_composites.class: external

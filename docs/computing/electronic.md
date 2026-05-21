@@ -55,10 +55,49 @@
 - **Performance**: 1-10 μs cycle time. Non-volatile (retains data without power). Capacity: 4-32 KB typical per installation. Cost: ~$1 per bit in 1960 (the dominant memory technology 1955-1975).
 - **Manufacturing**: Threading cores by hand or semi-automated machines. 1 MB system = ~8 million cores, each hand-threaded with 3-4 wires. Labor-intensive.
 
+**Mercury delay line memory** (EDVAC, early stored-program machines):
+- **Principle**: Electrical signal converted to acoustic pulse in mercury-filled tube. Pulse travels length of tube at ~1,450 m/s (speed of sound in mercury). At far end, transducer converts back to electrical signal, amplifies, and retransmits. Data circulates as a continuous stream of pulses.
+- **Capacity**: ~500-1,000 bits per tube. Multiple tubes per machine. EDVAC design: 1,000 words of 44 bits = 44 tubes.
+- **Access time**: ~0.5-1 ms per bit (must wait for desired pulse to reach the read end). Sequential access, not random.
+- **Disadvantages**: Heavy (mercury is 13.6 g/cm³), temperature-sensitive (mercury velocity changes with temperature, requiring thermostatic control at 40°C ±0.1°C), mechanical fragility. Replaced by magnetic core as soon as core became available.
+
+**Plated wire memory** (later improvement):
+- **Structure**: Thin copper wire (0.1 mm diameter) electroplated with permalloy (Ni-Fe alloy, ~1 μm thick). Wires woven through ferrite keeper planes. Magnetic domains along the wire store bits. Non-destructive read (unlike core memory) — the sense signal is proportional to the stored bit without flipping it.
+- **Advantages**: Faster read cycle (no rewrite needed), lower power, radiation-hard (used in space and military applications when core was being phased out elsewhere).
+
 **Early DRAM** (Dynamic Random Access Memory):
 - **Cell**: One transistor + one capacitor. Charge on capacitor = stored bit. Capacitor leaks — must be refreshed (read and rewritten) every 2-64 ms. Circuit simplicity enables high density.
 - **Intel 1103** (1970): 1 Kbit chip. First commercially successful DRAM. Replaced core memory in most systems by 1974. Access time: 300-600 ns.
 - **Scaling**: DRAM density doubles roughly every 3 years (1 Kbit → 4 Kbit → 16 Kbit → 64 Kbit...). Each generation uses finer photolithography. DRAM becomes the technology driver for semiconductor manufacturing.
+
+### Transistor Revolution: From Tubes to Solid State
+
+**Point-contact transistor** (Bardeen and Brattain, December 1947):
+- **Structure**: Two fine gold contacts (~50 μm spacing) pressed against a germanium crystal surface. The germanium slab sits on a metal base. One contact is the emitter, one is the collector, the base is the crystal itself.
+- **Operation**: Small current at the emitter contact modulates a larger current at the collector contact. Current gain ~2-20. Fragile and difficult to reproduce consistently. Noisy and unstable over temperature.
+- **Significance**: The first solid-state amplifier. Proved that semiconductor amplification was possible. Not practical for mass production but launched the entire transistor industry.
+
+**Junction transistor** (Shockley, 1951):
+- **Structure**: Three-layer semiconductor sandwich: n-p-n or p-n-p. The narrow middle layer (base, ~10-50 μm thick) controls current flow between emitter and collector.
+- **Advantages over point-contact**: More reproducible, higher gain (β = 50-300), lower noise, better temperature stability. Manufacturable by alloy or grown-junction techniques.
+- **Fabrication**: Alloy junction: place indium dots on both sides of thin n-type germanium wafer, heat to form p-type alloyed regions → pnp transistor. Grown junction: pull crystal from melt while changing dopant type during growth.
+
+**Advantages over vacuum tubes**: 100× smaller, 1000× more reliable (no filament burnout), 10-100× lower power, instant-on (no warm-up), compatible with printed circuit boards. Enables computers that run for months without hardware failure.
+
+### Logic Families
+
+**Direct-coupled transistor logic (DCTL)**:
+- Simplest transistor logic. Output of one transistor directly drives base of the next. No resistors between stages. Minimal component count. Poor noise margin and severe fanout limitation (current hogging: one transistor with slightly lower Vbe steals base current from paralleled transistors). Obsolete for practical systems.
+
+**Resistor-transistor logic (RTL)**:
+- Base resistor on each transistor input. Multiple inputs through separate base resistors = NOR gate. Simple, few components, easy to design. Used in early ICs (Fairchild μL900 series, 1961). Poor noise margin (~0.2 V), low fanout (~5), slow (~50 ns propagation at best). Supplanted by DTL and TTL by the mid-1960s.
+
+**Diode-transistor logic (DTL)**:
+- Input diodes perform AND function. Transistor inverts → NAND gate. Better noise margin than RTL (~0.5 V), higher fanout (~8). Propagation delay ~25-50 ns. Required more diodes per gate but diodes were cheap. Popular in early 1960s before TTL took over.
+
+**Transistor-transistor logic (TTL)** (the dominant logic family 1965-1985):
+- **7400 series**: 5 V supply, 10 ns typical propagation delay, 10 mW per gate, fanout 10. Multi-emitter input transistor replaces DTL input diodes. Totem-pole output stage provides active pull-up and pull-down for fast edges.
+- **Variants**: Low-power TTL (74L series, 1 mW/gate, 33 ns), high-speed TTL (74H, 22 mW, 6 ns), Schottky TTL (74S, 19 mW, 3 ns — Schottky clamped transistor prevents deep saturation, faster turn-off), low-power Schottky (74LS, 2 mW, 9 ns — the most popular variant).
 
 ### Input/Output Systems
 
@@ -94,6 +133,88 @@
 - **Vacuum tube implosion**: Large vacuum tubes (especially CRTs) hold a hard vacuum behind a glass envelope. Atmospheric pressure (~101 kPa) loads every square centimeter of the glass. A crack or impact can cause sudden violent implosion, launching glass fragments at high velocity. Wear eye protection (safety goggles or face shield) when handling vacuum tubes. Handle tubes by their bases, not the glass envelope. Dispose of cracked tubes by contained implosion in a heavy cloth bag or puncture the anode button to equalize pressure slowly.
 - **Solder fumes (lead-based solder)**: Traditional tin-lead solder (60/40 or 63/37 Sn-Pb) generates fumes during soldering — primarily from the rosin flux core, which releases formaldehyde and other irritants. Lead itself does not vaporize at soldering temperatures (~230°C) but accumulates on surfaces and hands as oxide dust. Use local exhaust ventilation (fume extractor or open window). Wash hands thoroughly after soldering, especially before eating. Lead-free solders (SAC305: Sn-Ag-Cu) eliminate lead exposure but produce similar flux fumes.
 - **Stored energy in capacitors**: Power supply filter capacitors in tube-era and transistor-era equipment store lethal energy — a 100 µF capacitor charged to 300 V holds 4.5 J, enough to cause ventricular fibrillation. Large high-voltage capacitors in CRT circuits store far more. Charge can persist for hours after power-off due to low leakage paths. Always discharge all capacitors with a bleed resistor (100 Ω to 1 kΩ, 2 W minimum) before touching any circuitry. Never short capacitor terminals with a screwdriver — the arc damages components and can spray molten metal.
+
+### EDVAC Architecture: Stored-Program Design
+
+The EDVAC (Electronic Discrete Variable Automatic Computer), described in John von Neumann's 1945 "First Draft" report, established the architecture that nearly all subsequent computers follow:
+
+**Key principles**:
+- **Binary representation**: All data and instructions represented in binary (0 and 1), not decimal as in ENIAC. Binary simplifies arithmetic circuitry (two-state devices like relays, tubes, and transistors map naturally to binary). A single bit is stored as one flip-flop or one magnetic core.
+- **Stored program**: Instructions stored in the same memory as data. The CPU fetches instructions from memory, decodes them, and executes them. To change the program, change the contents of memory rather than rewire patch cables. This is the single most important architectural insight in computing.
+- **Serial arithmetic**: Numbers processed one bit at a time through a single arithmetic unit, reducing hardware at the cost of speed. Serial addition of two 40-bit numbers takes 40 clock cycles. Parallel arithmetic (processing all bits simultaneously) is faster but requires 40× more hardware.
+
+**Memory: mercury delay lines**:
+- Mercury-filled steel tubes, ~1 m long. Electrical pulses converted to sound waves travel through the mercury at ~1,450 m/s. At the far end, the signal is amplified and re-circulated. Each tube stores a sequence of pulses (a "word") that cycles through continuously. Access time: the average wait for a particular word to reach the read end (~0.5 ms for a 1 m tube).
+- Capacity: ~1,000 words of 40-44 bits. Multiple tubes provide additional storage.
+
+**I/O and peripheral devices**:
+- **Magnetic tape**: Early magnetic tape systems recorded data on paper or plastic tape coated with iron oxide particles. Recording density: 100-500 bits per inch. Read/write speed: 50-150 inches per second. Replaced paper tape and punch cards for program and data storage due to higher capacity and rewritability.
+- **Magnetic drum**: Rotating drum (see Electromechanical Computing) served as random-access secondary storage. Capacity: 1,000-16,000 words. Access time: 8-50 ms. Used for programs, subroutines, and data files too large for main memory.
+
+### Software Development on Early Machines
+
+**Program loading**: On stored-program machines, a small "bootstrap" program is entered by hand via front-panel switches (toggle binary instructions directly into memory addresses). This bootstrap program reads a larger loader program from paper tape or magnetic drum, which in turn loads the user's application program. The term "bootstrapping" (later shortened to "booting") comes from this sequence: the computer pulls itself up by its own bootstraps.
+
+**Subroutine libraries**: Common mathematical functions (sine, cosine, logarithm, square root) are coded as subroutines and stored on paper tape or magnetic drum. The programmer calls a subroutine by inserting a jump instruction at the appropriate point in the main program. The subroutine executes, stores its result, and jumps back to the instruction following the call. Reusable subroutines are the earliest form of software reuse.
+
+**Error detection**: Parity bits appended to each memory word detect single-bit errors (if the parity is wrong, the word is corrupt). Hamming codes detect and correct single-bit errors while detecting double-bit errors. These coding schemes become essential as memory sizes increase and error rates become statistically significant.
+
+### Printed Circuit Board Technology
+
+**Board construction**:
+- **Substrate**: FR-4 (flame-retardant epoxy resin reinforced with woven fiberglass cloth). Thickness: 0.8-3.2 mm (1.6 mm most common). Copper foil (35 μm thick, "1 oz copper") laminated to one or both surfaces.
+- **Patterning**: Photoresist applied to copper surface. UV exposure through artwork (negative or positive). Develop. Etch exposed copper in ferric chloride (FeCl₃) or ammonium persulfate. Strip resist. Result: copper traces (tracks) forming the circuit interconnections.
+- **Plated through-holes**: Drill holes through the board at component lead locations. Electroless copper plating deposits a thin copper layer on the hole walls, connecting top and bottom copper layers. Followed by electrolytic copper plating to build up thickness (~25 μm). This creates vias (vertical interconnections) between layers.
+- **Solder mask**: Green epoxy coating over the entire board except component pads and vias. Prevents solder bridges between adjacent traces during wave soldering.
+- **Silkscreen**: White text printed on solder mask, showing component outlines, reference designators (R1, C2, U3), and polarity markings.
+
+**Assembly**:
+- **Through-hole**: Component leads inserted through drilled holes, soldered on the opposite side. Wave soldering: board passes over a wave of molten solder (260°C Sn-Pb or Sn-Ag-Cu) that contacts the bottom surface, soldering all joints simultaneously. Manual soldering for prototypes and rework.
+- **Surface mount (SMT)**: Components soldered directly to surface pads (no through-holes). Smaller components, higher density. Solder paste (solder powder + flux, printed onto pads through a stainless steel stencil). Components placed by pick-and-place machine. Reflow soldering: board passes through a conveyor oven with temperature profile (preheat 150°C, ramp to 250°C peak, cool). The solder paste melts, wets the pads and component leads, and solidifies on cooling.
+
+### Power Supply Design
+
+**Linear power supply**:
+- **Transformer**: Steps AC mains voltage down to the desired level (e.g., 120V AC → 12V AC). Laminated iron core transformer, efficiency 85-95%. Output is isolated from mains (safety).
+- **Rectification**: Full-wave bridge rectifier (4 diodes) converts AC to pulsating DC. Ripple frequency: 120 Hz (for 60 Hz mains, 100 Hz for 50 Hz).
+- **Filtering**: Large electrolytic capacitor (1000-10,000 μF) smooths the pulsating DC. Ripple voltage: Vr = Iload/(f × C). For 1A load, 4700 μF capacitor, 120 Hz: Vr ≈ 1.8V peak-to-peak.
+- **Regulation**: Series pass transistor (or IC regulator like 7805 for +5V, 7812 for +12V) maintains constant output voltage despite input variation and load changes. Dropout voltage: 2-3V (input must be at least 2-3V above output). Efficiency: Output power / Input power ≈ Vout/Vin (typically 30-60% — the rest is dissipated as heat in the pass transistor). Heat sinking required.
+
+**Switching power supply** (higher efficiency):
+- **Principle**: Convert DC to high-frequency AC (20-200 kHz), transform to desired voltage, rectify and filter. The high frequency allows a much smaller transformer than a 50/60 Hz linear supply. Regulation by pulse-width modulation (PWM): vary the duty cycle of the switching transistor to maintain constant output voltage.
+- **Efficiency**: 75-95%. Much less waste heat than linear supplies.
+- **Complexity**: Requires high-speed switching transistors, fast diodes, PWM controller IC, and careful EMI suppression (the fast switching edges generate radio-frequency interference that must be filtered at the input and output).
+
+**Oscillator circuits**:
+- **RC relaxation oscillator**: Capacitor charges through resistor toward supply voltage. When capacitor voltage reaches a threshold, a discharge path activates, discharging the capacitor rapidly. The cycle repeats. Frequency: f ≈ 1/(2RC × ln(3)) for a simple Schmitt trigger oscillator. Stability: poor (±10-20% with temperature and supply variation). Adequate for clock generation where precise frequency is not critical.
+- **Crystal oscillator**: Piezoelectric quartz crystal resonates at a precise frequency determined by its physical dimensions (thickness for AT-cut crystals). Frequency stability: ±10-50 ppm over temperature (-40°C to +85°C). Used for all precision timing: CPU clocks, real-time clocks, communication system frequency references. Standard frequencies: 32.768 kHz (real-time clocks, 2¹⁵ = 32768), 3.579545 MHz (NTSC color burst), 10 MHz (frequency standard). The crystal operates as a very high-Q (10,000-1,000,000) resonant element in the feedback loop of an amplifier.
+
+### Memory Evolution: From Cores to Chips
+
+**Magnetic core memory (4-wire threading detail)**:
+- **Wire functions**: Each core is threaded with four wires: X select and Y select (each carries half-switching current, addressing a specific core at the intersection), sense wire (detects the voltage pulse when a core flips state during read), and inhibit wire (carries opposing current during write to prevent unwanted switching of cores on the same X or Y line). Threading requires high dexterity or semi-automated machines.
+- **Cycle timing**: 0.5-5 μs full read-write cycle. Read is destructive (flips the core to "0"), so every read must be followed by a rewrite of the original value. Non-destructive read variants exist but add complexity.
+- **Plane organization**: A 256 × 256 core plane stores 64 Kbit. Planes are stacked to form words: a 16-bit memory at 64K addresses requires 16 planes, each with 65,536 cores, totaling 1,048,576 individually threaded cores.
+- **Cost trajectory**: ~$1 per bit in 1960, falling to ~$0.01 per bit by 1975.
+
+**Semiconductor memory arrival**:
+- **Intel 1103 DRAM** (1970): 1 Kbit organized as 1,024 × 1 bit. Three-transistor cell design. Access time 300-600 ns. Replaced magnetic core in most new designs by 1974.
+- **Intel 1702 EPROM** (1971): 2 Kbit (256 × 8) erasable programmable read-only memory. Program via 25-50 V pulses injecting charge onto floating gates. Erase by UV exposure through a quartz window in the ceramic package for 15-20 minutes. Rewritable firmware storage for microcode and bootstrap programs.
+- **Intel 2816 EEPROM** (1978): 16 Kbit (2K × 8) electrically erasable PROM. Byte-level erasure using on-chip charge pumps, no UV source needed. The ancestor of modern Flash memory. Write endurance ~10⁴ cycles for early devices.
+
+**Storage hierarchy (latency range)**:
+- **CPU registers**: <1 ns. Dozens to hundreds of bytes, integrated into the processor core.
+- **Cache (SRAM)**: 1-10 ns. KB to MB. Six-transistor cells, fast but expensive per bit. L1/L2/L3 levels with increasing size and latency.
+- **Main memory (DRAM)**: 50-100 ns. MB to GB. One-transistor, one-capacitor cells requiring periodic refresh. Orders of magnitude cheaper than SRAM.
+- **Solid-state storage (flash)**: 10-100 μs. GB to TB. Non-volatile, block-erase architecture.
+- **Hard disk drive**: 5-15 ms seek + rotational latency. TB scale. Mechanical positioning, persistent, cheapest per bit for online storage.
+- **Magnetic tape**: 10-100 seconds (sequential access). TB to PB. Lowest cost per bit, used for archival backup.
+
+**I/O evolution timeline**:
+- **Teletype** (1940s-1960s): 10 characters/second (110 baud). Electromechanical, printed on paper roll. Interactive computing at human typing speed.
+- **Line printer** (1960s): 300-1,000 lines/minute, 80-132 characters per line. Impact printing, batch output.
+- **Video display terminal** (1970s): 9,600 baud serial, 24 × 80 character CRT display. Cursor addressing enables full-screen editing.
+- **Graphics display** (1970s-1980s): Bitmapped 1024 × 768 pixels. Frame buffer memory maps to screen. Enables CAD, visualization, GUIs.
 
 ---
 

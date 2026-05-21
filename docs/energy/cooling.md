@@ -111,12 +111,92 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 | Refrigerant cost | Low (NH₃ from coke ovens) | Low |
 | Noise | Low | Moderate to high |
 
+### Absorption Cycle: Detailed Operating Parameters
+
+The ammonia absorption cycle runs on four main temperature zones, each corresponding to a major component. Getting these zones right determines whether the cycle produces ice or wastes fuel.
+
+**Generator (desorber) at 120-150°C**: Heat input drives ammonia vapor out of the ammonia-water solution. The generator temperature must be high enough to liberate ammonia but not so high that water vapor carries over (water contamination in the refrigerant circuit reduces efficiency and can freeze in the evaporator). A rectifier (fractionating column) above the generator strips water vapor from the ammonia. Generator heat input for a 100 kW cooling plant: roughly 140-250 kW of thermal energy, depending on COP.
+
+**Condenser at 30-40°C**: Ammonia vapor condenses at the pressure maintained in the high-side circuit (10-15 bar, corresponding to a saturation temperature of 25-40°C). Cooling water at 20-30°C removes the latent heat. Condenser heat rejection equals the sum of evaporator cooling load plus generator heat input.
+
+**Evaporator at -10 to 0°C**: Liquid ammonia evaporates at 1-3 bar, absorbing heat from the brine or air surrounding the coils. For ice production, the evaporator cools brine to -10 to -15°C, which in turn freezes water in the ice cans. The temperature difference between evaporating refrigerant and the brine (approach temperature) is typically 3-8°C.
+
+**Absorber at 30-40°C**: Weak solution returning from the generator absorbs ammonia vapor from the evaporator. This process is exothermic and must be cooled, typically with the same cooling water supply as the condenser. Absorber cooling load is roughly equal to the evaporator cooling load.
+
+**COP range**: Single-effect ammonia absorption achieves COP of 0.5-0.7 under design conditions. This means 100 kW of cooling requires 140-200 kW of heat input. Lower than vapor-compression, but the heat can come from waste sources: engine exhaust, boiler flue gas, solar thermal collectors, or process steam.
+
+### Ice Block Production Details
+
+**Ice can sizing**: Standard can sizes produce blocks from 25 kg to 135 kg. A 25 kg block (roughly 250 × 150 × 250 mm) freezes in 12-18 hours. A 135 kg block (roughly 550 × 250 × 350 mm) takes 36-48 hours. Larger blocks are more energy-efficient per kilogram (lower surface-to-volume ratio means less brine circulation needed per unit of ice).
+
+**Brine tank layout**: A typical production tank measures 3 × 6 m with 100-200 cans arranged in rows. Agitators (propeller-type stirrers) circulate brine at 0.3-0.6 m/s around the cans to maintain uniform temperature. Without agitation, warm brine stratifies near the cans, slowing freezing.
+
+**Clear ice production**: Trapped air bubbles and dissolved minerals make ice cloudy. To produce clear blocks (preferred for food display and transport), compressed air is bubbled through the water in each can during freezing. This pushes dissolved air and minerals toward the last-unfrozen center. Some producers also pre-boil the water to remove dissolved gases. The center core, where impurities concentrate, can be reamed out and discarded after harvesting.
+
+**Harvesting cycle**: After the freeze period, an overhead hoist lifts can racks from the brine. Each can is dipped in a warm water trough (40-50°C) for 30-60 seconds, melting a thin layer against the can wall. The block slides out onto a gravity conveyor. Cans are refilled with fresh water and returned to the brine tank. A well-run plant turns over cans 1-2 times per day.
+
+### Cold Storage Room Construction
+
+**Wall assembly (cold store at -18°C)**: A typical wall section from inside to outside consists of the inner cladding (galvanized steel or aluminum sheet, 0.5-1.0 mm), insulation layer, vapor barrier, structural wall, and outer cladding. The insulation is the critical element.
+
+**Cork insulation**: The traditional choice for cold storage from the 1890s through the 1950s. Cork board panels 100-150 mm thick provide R-value of roughly 3-4 per inch (thermal conductivity 0.035-0.045 W/m·K). Cork is naturally rot-resistant, dimensionally stable, and does not absorb moisture readily. Panels are bonded with hot asphalt or bituminous adhesive. For -18°C storage, total wall insulation thickness of 150-200 mm of cork is standard.
+
+**Expanded polystyrene (EPS)**: Modern replacement for cork, with similar thermal conductivity (0.030-0.040 W/m·K). EPS panels 150-200 mm thick are standard for frozen storage. Available as plain board or as factory-laminated sandwich panels (steel facings with EPS core) that serve as both insulation and structural wall. EPS must be kept away from heat sources above 75°C.
+
+**Vapor barrier placement**: The vapor barrier always goes on the warm side of the insulation. In a cold store, that means the exterior side. Without it, warm humid air migrates through the wall, condenses inside the cold insulation, freezes, and gradually destroys the insulation value. Materials: 0.1 mm polyethylene film (modern), asphalt-impregnated building paper, or continuous galvanized steel sheet with sealed joints. Lap all seams at least 100 mm and seal with compatible mastic.
+
+**Insulated doors**: Cold store doors are a major source of heat gain. Standard construction: 100 mm thick insulated panel (same material as walls), clad in steel or aluminum on both faces. Magnetic or compression gaskets around the perimeter maintain an air-tight seal when closed. Sliding doors preferred (no swing clearance needed). Door heaters (low-wattage electric resistance wires in the frame) prevent ice buildup on the gasket at temperatures below -10°C.
+
+### Refrigeration Load Calculation
+
+The total refrigeration load for a cold storage room has four components that must be calculated independently and summed.
+
+**Transmission load (Q_transmission)**: Heat conducting through walls, floor, and ceiling. Q = U × A × ΔT, where U is the overall heat transfer coefficient (W/m²·K) of the wall assembly, A is the surface area (m²), and ΔT is the temperature difference between inside and outside. Example: a 10 × 8 × 4 m room at -18°C in a 30°C ambient. Walls + ceiling + floor area ≈ 304 m². With 150 mm cork (U ≈ 0.25 W/m²·K), Q = 0.25 × 304 × 48 ≈ 3,648 W ≈ 3.6 kW continuous.
+
+**Product load**: Heat that must be removed from goods entering the room to cool or freeze them to storage temperature. Includes sensible heat above freezing, latent heat of fusion (for freezing), and sensible heat below freezing. Example: 5,000 kg of beef entering at 10°C, frozen to -18°C. Specific heat above freezing ≈ 3.2 kJ/kg·K (cool 10°C to -1°C = 35.2 kJ/kg). Latent heat of fusion ≈ 230 kJ/kg. Specific heat below freezing ≈ 1.7 kJ/kg·K (cool -1°C to -18°C = 28.9 kJ/kg). Total per kg = 294.1 kJ. Total = 1,471 MJ. If this must occur in 24 hours: 1,471 MJ / 86,400 s ≈ 17 kW average.
+
+**Infiltration load**: Warm air entering through door openings. Each air change introduces warm, humid air that must be cooled and dehumidified. Estimate: 1-2 air changes per hour for rooms with moderate door traffic. The enthalpy difference between outside and inside air determines the load. At 30°C ambient and -18°C room temperature, each kilogram of infiltrated air carries roughly 60-80 kJ of heat that the refrigeration system must remove.
+
+**Equipment load**: Heat from lights, motors, and people inside the room. Electric lights: 10-20 W/m² of floor area. Fan motors on evaporator coils: 0.5-2 kW each. Workers: each person contributes roughly 250-300 W of sensible and latent heat. Sum all internal heat sources.
+
+### Ammonia Absorption Cycle Temperature Zones
+
+The ammonia absorption cycle runs on four main temperature zones, each corresponding to a major component. Getting these zones right determines whether the cycle produces ice or wastes fuel.
+
+**Generator (desorber) at 120-150°C**: Heat input drives ammonia vapor out of the ammonia-water solution. The generator temperature must be high enough to liberate ammonia but not so high that water vapor carries over (water contamination in the refrigerant circuit reduces efficiency and can freeze in the evaporator). A rectifier (fractionating column) above the generator strips water vapor from the ammonia. Generator heat input for a 100 kW cooling plant: roughly 140-250 kW of thermal energy, depending on COP.
+
+**Condenser at 30-40°C**: Ammonia vapor condenses at the pressure maintained in the high-side circuit (10-15 bar, corresponding to a saturation temperature of 25-40°C). Cooling water at 20-30°C removes the latent heat. Condenser heat rejection equals the sum of evaporator cooling load plus generator heat input.
+
+**Evaporator at -10 to 0°C**: Liquid ammonia evaporates at 1-3 bar, absorbing heat from the brine or air surrounding the coils. For ice production, the evaporator cools brine to -10 to -15°C, which in turn freezes water in the ice cans. The temperature difference between evaporating refrigerant and the brine (approach temperature) is typically 3-8°C.
+
+**Absorber at 30-40°C**: Weak solution returning from the generator absorbs ammonia vapor from the evaporator. This process is exothermic and must be cooled, typically with the same cooling water supply as the condenser. Absorber cooling load is roughly equal to the evaporator cooling load.
+
+**COP range**: Single-effect ammonia absorption achieves COP of 0.5-0.7 under design conditions. This means 100 kW of cooling requires 140-200 kW of heat input.
+
+### Ice Block Production Details
+
+**Ice can sizing and freeze time**: Standard can sizes produce blocks from 25 kg to 135 kg. A 25 kg block (roughly 250 × 150 × 250 mm) freezes in 12-18 hours. A 135 kg block (roughly 550 × 250 × 350 mm) takes 36-48 hours. Larger blocks are more energy-efficient per kilogram because the lower surface-to-volume ratio means less brine circulation needed per unit of ice produced.
+
+**Clear ice production**: Trapped air bubbles and dissolved minerals make ice cloudy. To produce clear blocks (preferred for food display and transport), compressed air is bubbled through the water in each can during freezing. This pushes dissolved air and minerals toward the last-unfrozen center. Some producers also pre-boil the water to remove dissolved gases. The center core, where impurities concentrate, can be reamed out and discarded after harvesting.
+
+### Cold Storage Room Construction
+
+**Wall assembly (cold store at -18°C)**: A typical wall section from inside to outside consists of the inner cladding (galvanized steel or aluminum sheet, 0.5-1.0 mm), insulation layer, vapor barrier, structural wall, and outer cladding. The insulation is the critical element.
+
+**Cork insulation**: The traditional choice for cold storage from the 1890s through the 1950s. Cork board panels 100-150 mm thick provide R-value of roughly 3-4 per inch (thermal conductivity 0.035-0.045 W/m·K). Cork is naturally rot-resistant, dimensionally stable, and does not absorb moisture readily. Panels are bonded with hot asphalt or bituminous adhesive.
+
+**Expanded polystyrene (EPS)**: Modern replacement for cork, with similar thermal conductivity (0.030-0.040 W/m·K). EPS panels 150-200 mm thick are standard for frozen storage. Available as plain board or as factory-laminated sandwich panels (steel facings with EPS core) that serve as both insulation and structural wall.
+
+**Vapor barrier placement**: The vapor barrier always goes on the warm side of the insulation. In a cold store, that means the exterior side. Without it, warm humid air migrates through the wall, condenses inside the cold insulation, freezes, and gradually destroys the insulation value. Materials: 0.1 mm polyethylene film, asphalt-impregnated building paper, or continuous galvanized steel sheet with sealed joints.
+
+**Insulated doors**: Cold store doors are a major source of heat gain. Standard construction: 100 mm thick insulated panel, clad in steel or aluminum on both faces, with magnetic or compression gaskets around the perimeter. Door heaters (low-wattage electric resistance wires in the frame) prevent ice buildup on the gasket at temperatures below -10°C.
+
 ### References
 
 - Dossat, R.J., *Principles of Refrigeration*, 5th ed.
 - ASHRAE Handbook — Fundamentals (refrigerant properties, load calculations)
 - Stoecker, W.F., *Industrial Refrigeration Handbook* (ammonia systems, ice plants)
- - Hodge, B.K., *Analysis and Design of Energy Systems* (absorption cycle thermodynamics)
+- Hodge, B.K., *Analysis and Design of Energy Systems* (absorption cycle thermodynamics)
 
 ---
 

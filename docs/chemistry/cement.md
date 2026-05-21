@@ -161,6 +161,56 @@ Cement production is responsible for ~8% of global CO₂ emissions. Sources: cal
 - **Wet cement (pH 12-13)**: Caustic burns with prolonged skin contact. Waterproof gloves, eye protection. Wash immediately.
 - **Lime (CaO)**: Reacts exothermically with moisture including sweat. Handle with gloves.
 
----
+ ---
 
 *Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*
+
+## Hydration Chemistry
+
+The four clinker minerals hydrate at different rates and contribute to concrete strength at different ages.
+
+**Alite (C₃S) hydration**: Ca₃SiO₅ + 5.3H₂O → 3CaO·2SiO₂·4.3H₂O (C-S-H gel) + 1.3Ca(OH)₂. This is the dominant reaction, contributing 50-60% of total heat of hydration and most early strength (1-7 days). C₃S reacts rapidly: initial set within 2-4 hours, significant strength by 1 day. The C-S-H gel is the binding matrix that gives concrete its strength. Ca(OH)₂ (portlandite) is a crystalline byproduct that occupies ~20% of the hydrated cement paste volume but contributes little to strength. Portlandite is readily soluble in soft water and reacts with atmospheric CO₂ (carbonation).
+
+**Belite (C₂S) hydration**: Ca₂SiO₄ + 4.3H₂O → 2CaO·SiO₂·4.3H₂O (C-S-H) + Ca(OH)₂. Similar reaction products to C₃S but much slower kinetics. C₂S contributes little to early strength but dominates long-term strength gain (28 days to years). Portland cement gains strength for months and years as C₂S slowly continues hydrating, which is why concrete strength increases with age beyond 28 days.
+
+**Aluminate (C₃A) hydration**: Ca₃Al₂O₆ + 3CaSO₄·2H₂O + 26H₂O → 3CaO·Al₂O₃·3CaSO₄·32H₂O (ettringite). Without gypsum, C₃A reacts almost instantaneously with water, causing "flash set" (irreversible stiffening within minutes, making the concrete unworkable). Gypsum (CaSO₄·2H₂O) controls C₃A hydration by forming a protective ettringite layer around C₃A particles that slows further reaction. When gypsum is consumed (typically after 1-2 hours), the ettringite layer converts to monosulfoaluminate, and remaining C₃A hydrates directly. This conversion can cause delayed ettringite formation (DEF) in concrete exposed to high early temperatures (>70°C), a durability concern in precast and steam-cured concrete.
+
+**Heat of hydration**: Type I (ordinary Portland cement) generates 350-500 kJ/kg total heat over 7 days. This heat is beneficial in cold weather (prevents freezing) but problematic in mass concrete (dams, large foundations) where temperature differentials between the hot interior and cool exterior cause thermal cracking. Type IV (low-heat cement) generates only 250-350 kJ/kg by reducing C₃S and C₃A content and increasing C₂S. Peak adiabatic temperature rise in a 2 m thick pour can reach 50-70°C above ambient for Type I cement, requiring embedded cooling pipes or ice-water mixing to control.
+
+## Cement Testing
+
+**Compressive strength testing**: 40×40×160 mm mortar prisms (cement + standard sand + water at 1:3:0.5 ratio by weight) cast in steel molds, cured in water at 20°C, and tested in compression at 1, 3, 7, and 28 days. Type I OPC typical strengths: 10-20 MPa at 3 days, 30-40 MPa at 7 days, 42-52 MPa at 28 days. The 28-day strength is the design strength used in all structural calculations. EN 197-1 standard requires minimum 42.5 MPa at 28 days for CEM I 42.5 class cement. Testing machine: constant loading rate 2.4 kN/s.
+
+**Setting time (Vicat test)**: A 1 mm diameter needle penetrates a cement paste sample (500 g cement + water at standard consistency, typically 25-30% water by weight). Initial set: needle penetration ≤ 5 mm from the base plate (typically 45-120 minutes for OPC). Final set: needle makes no visible impression on the surface (typically 2-5 hours). EN 197-1 requires initial set >45 minutes. Accelerators (CaCl₂) reduce setting time; retarders (sugar, citric acid) extend it. Setting time is critical for construction logistics: concrete must be placed and finished before initial set.
+
+**Soundness (Le Chatelier test)**: Detects excessive free lime (CaO) or magnesia (MgO) in cement that would cause delayed expansion and cracking in hardened concrete. Cement paste placed in a Le Chatelier mold, immersed in water at 20°C for 24 hours, then boiled for 3 hours. Expansion must not exceed 10 mm. Free CaO hydrates slowly (CaO + H₂O → Ca(OH)₂, volume increase ~100%) after the concrete has hardened, causing disruptive expansion.
+
+## Special Cements
+
+**White Portland cement**: Made from pure white limestone (CaCO₃ >97%) and kaolin clay (low Fe₂O₃, <0.4%). Fired at 1500-1600°C (higher temperature than grey OPC because the low iron content raises the liquid phase temperature). Cooled rapidly under reducing conditions (quenching with water) to prevent Fe²⁺ oxidation (which would cause grey-green discoloration). Fuel must be clean (natural gas or oil, not coal which introduces iron and carbon ash). Cost: 2-3× ordinary Portland cement. Used for architectural concrete, terrazzo flooring, and colored concrete (pigments show true colors against a white base).
+
+**Oil well cement**: Class G or H Portland cement per API Spec 10A. Ground coarser than OPC (Blaine 260-320 m²/kg, lower surface area slows hydration). Very low C₃A content (<3%) for sulfate resistance against formation waters. Retarded with lignosulfonate or cellulose derivatives to prevent setting at downhole temperatures (50-200°C at depths of 1,000-5,000+ m) and pressures (up to 100 MPa). Thickening time (the working time before the cement becomes unpumpable) must exceed the placement time by a safety margin. After setting, the cement must develop compressive strength rapidly to support the casing.
+
+**Expansive cement**: Forms ettringite (3CaO·Al₂O₃·3CaSO₄·32H₂O) or CaO hydration products that expand during early curing, compensating for the normal drying shrinkage of concrete. Type K expansive cement: an expansive clinker (containing free CaO, C₃A, and CaSO₄) is interground with OPC clinker and gypsum. Controlled expansion of 0.03-0.10% counteracts drying shrinkage of 0.03-0.08%, resulting in crack-free concrete with no net dimensional change. Used for water-retaining structures, industrial floors, and precast elements where dimensional stability is critical.
+
+## Concrete Mix Design Calculations
+
+**Absolute volume method**: The standard approach to designing a concrete mix. The sum of the absolute volumes of all components equals 1 m³ of concrete. Absolute volume = weight / (specific gravity × 1000). For a 25 MPa mix: cement 350 kg (SG 3.15, volume 0.111 m³), water 180 kg (SG 1.00, volume 0.180 m³), fine aggregate 700 kg (SG 2.65, volume 0.264 m³), coarse aggregate 1100 kg (SG 2.70, volume 0.407 m³), entrapped air 2% (0.020 m³), total = 0.982 m³ (adjust quantities to reach exactly 1.000 m³).
+
+**Trial batch verification**: Calculate the mix design on paper, then produce a small trial batch (10-20 L) to verify workability (slump test: cone 300 mm tall × 200 mm top diameter × 100 mm base, fill in 3 layers, rod each 25 times, lift cone, measure slump. Target: 50-150 mm for most structural work), air content (pressure method: 1-6% depending on exposure), unit weight (density check: theoretical vs actual, discrepancy indicates air or batching error), and 28-day compressive strength (cast test cylinders, cure in water at 20°C, test at 7 and 28 days). Adjust water, aggregate proportions, or admixture dosages based on trial batch results before full production.
+
+## Concrete Construction Practices
+
+**Placement**: Concrete must be placed before initial set (typically 45-120 minutes after mixing, depending on temperature and admixtures). In hot weather (>30°C), set time shortens and workability decreases. In cold weather (<5°C), set time extends and early strength gain is slow. Pumping: concrete pumped through 100-150 mm diameter steel or rubber pipeline at 5-10 MPa pressure. Maximum horizontal distance: 300-500 m; vertical: 50-100 m. Pump mix design requires well-graded aggregate and sufficient fines (paste volume >30%) to lubricate the pipeline.
+
+**Vibration**: Internal vibrators (poker vibrators, 25-75 mm diameter, 10,000-18,000 vibrations/min) consolidate concrete by eliminating air voids. Insert vibrator vertically, withdraw slowly (25-50 mm/s), overlap radius of influence (100-300 mm depending on vibrator size). Over-vibration causes segregation (heavy aggregate sinks, paste rises). Under-vibration leaves honeycombing (voids that weaken the structure and expose rebar to corrosion). Vibration time per insertion: 5-15 seconds. Surface vibrators (screed vibrators) used for slabs and flatwork.
+
+**Curing methods**: Proper curing maintains moisture in the concrete during the critical first 7-28 days. Methods: (1) Water curing: ponding, spraying, or wet burlap continuously for 7 days. (2) Membrane curing: spray-on curing compound (wax or resin emulsion) that forms a vapor barrier on the surface, applied immediately after finishing. (3) Plastic sheeting: polyethylene film sealed at edges, trapping evaporation moisture. (4) Steam curing: for precast concrete, steam at 60-80°C accelerates strength gain to achieve 28-day strength in 16-24 hours (but may reduce ultimate strength by 10-15% compared to moist curing).
+
+### Cement Testing Standards
+
+**Blaine fineness**: Measured by air permeability (Wagner turbidimeter or Blaine apparatus). Air is drawn through a compacted bed of cement powder at controlled pressure; the time to pass a fixed volume of air is inversely proportional to specific surface area. OPC Type I: 300-500 m²/kg. Finer grinding (500+ m²/kg) produces rapid-hardening cement with higher early strength but also higher heat of hydration and faster workability loss.
+
+**Setting time (Vicat needle)**: A 1 mm diameter needle with 300 g total load penetrates a cement paste sample at standard consistency. Initial set: penetration ≤ 5 mm from base plate. Final set: needle makes no visible impression. ASTM C150 / EN 197-1 require initial set ≥ 45 minutes and final set ≤ 375 minutes for Type I OPC. Accelerators (CaCl₂ at 1-2% by cement weight) reduce initial set to 15-30 minutes for cold weather concreting.
+
+**Soundness (expansion testing)**: Le Chatelier method: cement paste placed in a split brass mold (indicator needles 170 mm apart), cured 24 hours in water at 20°C, then boiled 3 hours. Expansion must not exceed 10 mm. Autoclave method (ASTM C151): cement paste bars steamed at 2.0 MPa (215°C) for 3 hours; expansion must not exceed 0.8%. These tests detect excessive free lime (CaO) or periclase (MgO) that hydrate slowly in hardened concrete, causing delayed expansion and cracking months or years after placement.

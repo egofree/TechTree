@@ -89,6 +89,7 @@ glass_internal: "Glass — Internal Structure" {
   glass_basic: Basic Glass Production
   glass_advanced: Advanced Glass Production
   glass_advanced_glassblowing: Glassblowing and Scientific Apparatus
+  glass_fibers: Glass Fiber Production
 }
 
 # ==================== DOMAIN NODE ====================
@@ -116,6 +117,9 @@ machine-tools: Machine Tools Bootstrap {
 mining: "Mining Engineering & Extractive Metallurgy" {
   shape: rectangle
 }
+polymers_composites: Composite Materials {
+  shape: rectangle
+}
 silicon: Silicon {
   shape: rectangle
 }
@@ -126,6 +130,8 @@ silicon_crystal-growth: "Crystal Growth & Wafering" {
 # ==================== EDGES ====================
 glass_advanced -> glass_basic: { class: tool-edge }
 glass_advanced_glassblowing -> glass_advanced: { class: tool-edge }
+glass_fibers -> glass: { class: tool-edge }
+glass_fibers -> glass_advanced: { class: material-edge }
 glass_basic -> mining: { class: material-edge }
 chemistry_acids -> glass_basic: { class: tool-edge }
 glass -> machine-tools: { class: tool-edge }
@@ -135,12 +141,14 @@ silicon -> glass: { class: tool-edge }
 silicon_crystal-growth -> glass_advanced: { class: material-edge }
 glass_advanced_glassblowing -> energy_fuels: { class: tool-edge }
 glass -> chemistry_refractories: { class: material-edge }
+polymers_composites -> glass_fibers: { class: material-edge }
 
 # ==================== STYLING ====================
 glass.class: domain
 glass_basic.class: capability
 glass_advanced.class: capability
 glass_advanced_glassblowing.class: process
+glass_fibers.class: capability
 chemistry.class: external
 chemistry_acids.class: external
 chemistry_refractories.class: external
@@ -148,6 +156,7 @@ energy.class: external
 energy_fuels.class: external
 machine-tools.class: external
 mining.class: external
+polymers_composites.class: external
 silicon.class: external
 silicon_crystal-growth.class: external
 

@@ -96,6 +96,12 @@ knowledge_internal: "Knowledge Preservation & Education — Internal Structure" 
 knowledge: "Knowledge Preservation & Education"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+animals_animal-materials: Animal-Derived Materials Processing {
+  shape: rectangle
+}
+animals_beekeeping: "Apiculture (Beekeeping)" {
+  shape: rectangle
+}
 chemistry: Chemistry {
   shape: rectangle
 }
@@ -145,6 +151,8 @@ knowledge_printing -> machine-tools_machining: { class: tool-edge }
 knowledge_writing -> chemistry: { class: tool-edge }
 knowledge_writing -> health_sanitation: { class: tool-edge }
 knowledge -> chemistry_pulp-chemicals: { class: material-edge }
+knowledge_writing -> animals_animal-materials: { class: material-edge }
+knowledge_writing -> animals_beekeeping: { class: material-edge }
 
 # ==================== STYLING ====================
 knowledge.class: domain
@@ -152,6 +160,8 @@ knowledge_writing.class: capability
 knowledge_education.class: capability
 knowledge_libraries.class: capability
 knowledge_printing.class: earlyWin
+animals_animal-materials.class: external
+animals_beekeeping.class: external
 chemistry.class: external
 chemistry_pulp-chemicals.class: external
 foundations.class: external

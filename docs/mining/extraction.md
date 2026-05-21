@@ -99,6 +99,109 @@
 - **Scaling**: After each blast, bar down loose rock from roof and walls before crew re-enters. The single most important safety practice underground.
  - **Water control**: Grade all tunnels 1-3° toward shaft for gravity drainage. Sumps at shaft bottom. Pump capacity must exceed maximum inflow rate. Monitor water levels in worked-out areas — sudden inrush is a major hazard.
 
+### Underground Mining Methods
+
+**Room and pillar**: Used for flat-lying, relatively uniform deposits (salt, potash, coal, limestone).
+- Mine rooms 6-8 m wide, separated by pillars of unmined ore 6-8 m square. Room height matches the ore body thickness (typically 2-4 m).
+- Recovery: 50-60% of the ore (the pillars remain in place to support the roof). In some operations, pillars are extracted ("retreated") on the way out, but this risks roof collapse and is only done with careful planning.
+- Equipment: continuous miners (rotating drum on tracked machine) in modern operations, or drill-and-blast in bootstrap scenarios. Roof bolting required in every room for safety.
+- Ventilation: air flows through the rooms in a systematic pattern (intake on one side, exhaust on the other). Large room-and-pillar mines can extend over several square kilometers.
+
+**Shrinkage stoping**: Used for steeply dipping, narrow veins (gold, silver, copper).
+- Mine the ore in horizontal slices 2-3 m thick, working upward from the bottom level. Each blast breaks ore downward, where it accumulates in the stope. The broken ore provides a working platform for the miners and supports the stope walls.
+- Draw off ~40% of the broken ore after each blast (the ore expands 40-50% when broken, so the stope fills up if no ore is drawn). After the stope is fully mined, draw the remaining broken ore from draw points at the bottom.
+- Recovery: 70-85%. Dilution from wall rock sloughing can be significant in wide stopes. Best suited for veins 1-3 m wide with competent wall rock.
+- Access: raise (vertical or inclined passage) from the level below provides access to the stope floor. Miners work standing on the broken ore surface, drilling upward into the ore above their heads.
+
+**Cut and fill**: Used for irregular ore bodies, steeply dipping deposits with weak walls, or where surface subsidence must be minimized.
+- Mine a 2-3 m horizontal slice of ore from the stope floor. Remove the broken ore. Backfill the void with waste rock, mill tailings, or a cemented fill mixture. The fill provides a solid working floor for the next slice and supports the stope walls.
+- Repeat upward, slice by slice. Each cycle: drill → blast → muck (remove ore) → fill.
+- Recovery: 85-95% (very high because the fill supports the walls and allows complete ore extraction). Selective mining is possible — uneven ore body boundaries can be followed precisely.
+- Cemented fill (mill tailings + Portland cement, 3-6% cement by weight) creates a strong, self-supporting mass that allows adjacent stopes to be mined without wall collapse. Uncemented fill (waste rock) is cheaper but provides less support.
+
+**Longwall mining** (coal): The most productive underground coal method.
+- A 150-250 m long coal face is mined by a shearer (rotating drum on an armored face conveyor) that cuts the coal in a single pass. Hydraulic shields (steel canopies supported by hydraulic legs) support the roof directly behind the shearer. As the shearer advances, the shields advance with it, and the roof behind the shields collapses into the void (goaf).
+- Recovery: 80-90% of the coal seam, far higher than room and pillar.
+- Production: 2,000-5,000 tonnes per day from a single face. Requires continuous conveyor belt transport along the face and in the gate roads.
+- Subsidence: the surface above a longwall panel subsides predictably (1-2 m for a 2 m seam at moderate depth). Plan surface use accordingly.
+
+### Surface Mining Detail
+
+**Open pit design**:
+- Bench height: 10-15 m for large operations (matches the reach of large excavators). Smaller operations use 5-10 m benches.
+- Haul road gradient: <10% (6°). Loaded trucks climb slowly; steeper grades increase fuel consumption, tire wear, and cycle time dramatically. Road width: 3-4× the width of the largest haul truck for two-way traffic.
+- Overall pit slope: 35-55° depending on rock strength and geologic structure. Steeper slopes reduce the amount of waste rock that must be removed but increase the risk of slope failure. Install slope monitoring (prisms surveyed by total station, or crack meters on tension cracks) for pits deeper than 100 m.
+- Stripping ratio: the ratio of waste rock to ore. Economic limit varies by commodity: iron ore mines operate at 1:1 to 3:1, copper mines at 2:1 to 5:1, gold mines may tolerate 5:1 to 10:1 for high-grade ore.
+
+### Timber Support Systems
+
+**Square set timbering**: Used for wide, irregular stopes in weak ground. Build a framework of timber sets (posts + cap + sill) in a 1.5-2 m grid, stacking each level on the one below. Each set is a rectangular frame: two vertical posts (15-20 cm diameter, 1.5-2 m tall) capped by a horizontal cap (15-20 cm diameter). Fill the space between the timber and the rock walls with waste rock. Provides positive support for the entire stope roof. Timber-intensive — a large stope may consume thousands of cubic meters of lumber. Use only where ground conditions demand it.
+
+**Stulls**: Horizontal timber beams wedged between the two walls of a narrow stope or drift. Used for localized wall support in narrow openings. Stull diameter: 15-25 cm depending on span. Wedge each end firmly into a hitch (notch cut into the rock wall) to prevent slippage.
+
+**Shaft timbering**: Line shafts with timber frames at 1.5-2 m intervals. Each frame consists of two vertical posts, two horizontal caps, and sometimes sills at the base. The compartment dividers (brattice) are horizontal planks separating the winding, ventilation, and pumping compartments. For permanent shafts in stable ground, brick or stone lining replaces timber (longer lifespan, fire-resistant). In wet ground, use concrete lining with waterproofing.
+
+### Shaft Sinking
+
+**Hand-drill and blast method**: The bootstrap approach to sinking a shaft.
+1. At the bottom of the shaft, drill 6-12 holes (25-35 mm diameter, 0.8-1.5 m deep) in a pattern (V-cut or burn cut) using a hand jumper drill (steel bar struck with a sledgehammer). Two-man team: one holds and rotates the drill, one swings the hammer.
+2. Load holes with black powder and safety fuse. Stem with clay. Retract all equipment. Fire the round.
+3. After the blast, wait 15-30 minutes for fumes to clear (longer in deep shafts with poor ventilation). Muck (remove) the broken rock by shoveling into a bucket, which is hoisted to surface by windlass or whim.
+4. Install timber framing at the new depth. Repeat.
+5. Progress: 0.5-2 m per day in hard rock, 2-5 m in soft rock, depending on crew size, shaft dimensions, and ground conditions.
+6. Water: as the shaft deepens, water inflow increases. Install a chain pump or bucket bailing system at the shaft bottom. Grade the shaft bottom slightly to direct water to a sump.
+
+**Lining**: As the shaft deepens past the weathered surface rock and into solid ground, install permanent lining. Brick lining: lay courses of firebrick or common brick with Portland cement mortar, starting from the bottom and working upward. The lining provides a smooth surface for airflow (reduces ventilation resistance) and prevents loose rock from falling into the shaft. In wet ground, install a concrete lining (150-300 mm thick) with waterproofing admixture to keep the shaft dry.
+
+---
+
+### Mine Planning and Development
+
+**Exploration sampling** before mining determines ore location, grade, and extent:
+- **Trench sampling**: Dig trenches across the ore body at regular intervals. Sample the exposed rock at 1-2 m intervals. Analyze each sample for metal content. This establishes the surface trace of the ore body and the lateral variation in grade.
+- **Channel sampling**: Cut a narrow channel (10 cm wide, 2-3 cm deep) across the ore face with a chisel. Collect all cuttings as a single sample representing that section. Channel spacing: 2-5 m along strike.
+- **Diamond drilling**: Core drilling with a diamond-tipped bit produces a cylindrical rock core (25-50 mm diameter) from depth. The core is logged (geologically described) and split for assay. Drill spacing: 50-200 m between holes for initial resource estimation. The core provides the most reliable subsurface information available.
+
+**Development sequence** for an underground mine:
+1. **Decline or shaft**: Access from surface to the ore body. A decline (inclined tunnel, 15-20% grade) allows rubber-tired equipment access. A vertical shaft is cheaper per vertical meter but requires winding equipment for all transport.
+2. **Level development**: Drive horizontal tunnels (drifts) along the ore body at regular vertical intervals (40-80 m between levels). These provide access for drilling, blasting, mucking (ore removal), and ventilation.
+3. **Raise development**: Drive vertical or inclined openings between levels for ventilation, ore passes (gravity chutes), and emergency escape routes. Raises are the most dangerous development heading — miners work underneath unsupported rock.
+4. **Stope preparation**: Once levels and raises are established, the stope (the production opening where ore is extracted) can be prepared and production blasting begins.
+
+### Ground Control Methods
+
+**Rock bolting**: The primary method for stabilizing rock in modern mines. A steel bolt (2-3 m long, 20-25 mm diameter) is inserted into a drill hole and anchored:
+- **Mechanical anchor**: An expanding shell at the bolt tip grips the rock when the bolt is rotated. Fast to install, but the anchor can slip in weak rock.
+- **Resin-grouted**: Polyester resin cartridges are inserted into the hole before the bolt. Spinning the bolt mixes the resin, which sets in 30-60 seconds. Provides full-length anchorage along the bolt. Most common method in modern mining.
+- **Cable bolting**: Steel cables (15-25 mm diameter, 4-10 m long) grouted into deep holes for reinforcing large spans (intersection support, stope hanging walls). Higher capacity than rock bolts.
+
+**Shotcrete**: Spray concrete (wet-mix or dry-mix) onto the rock surface immediately after excavation. Provides immediate support and seals the rock from air and moisture (which weaken some rock types). Typical thickness: 50-100 mm. Often reinforced with steel fiber or welded wire mesh. Shotcrete allows mining in ground that would otherwise require heavy timber support.
+
+**Backfill**: Fill mined-out stopes with waste material to provide wall support and allow extraction of adjacent ore:
+- **Hydraulic fill**: Mill tailings mixed with water (70-80% solids) pumped into the stope. Water drains out through a filter wall, leaving a solid fill mass. Add Portland cement (3-5% by weight) to create a strong, self-supporting fill (cemented paste fill).
+- **Rock fill**: Waste rock dropped into the stope from the level above. Cheaper than hydraulic fill but provides less support. Used where cemented fill is not required.
+
+### Mine Drainage Systems
+
+Water management is often the limiting factor in mine depth and production capacity:
+
+**Gravity drainage**: The simplest and most energy-efficient method. Drive adits (horizontal tunnels) from the nearest valley at a slight upward grade (1-3°) to intercept the mine workings. Water flows out by gravity. Effective for hillside mines where the valley floor is below the workings. Many historical mines were drained this way — the adit serves double duty as both drain and access.
+
+**Sump pumping**: At the lowest point of the mine (the shaft bottom), excavate a sump (collection basin, 2-3 m deep, lined with concrete or brick). Install a pump intake in the sump. The sump provides buffer capacity — if pump flow exceeds inflow, the sump fills; if inflow exceeds pumping, the sump provides warning time before flooding. Sump capacity should hold at least 2-4 hours of normal water inflow to allow time for pump maintenance without flooding.
+
+**Pump types for mine drainage**:
+- **Piston pump** (Cornish pump): Cast iron cylinder with leather-packed piston, driven by a surface steam engine through flat rod linkages (rod runs down the shaft). Lift capacity: 50-200 m per stage. Multiple stages for deeper mines. Flow rate: 500-5,000 liters/minute. The Cornish pumping engine was the technology that enabled deep mining in Cornwall and elsewhere from the 18th century onward.
+- **Centrifugal pump**: Electrically driven (requires electrical infrastructure). Multi-stage designs lift water 100-500+ m. Flow rates up to 10,000 liters/minute. More efficient than piston pumps but requires reliable electric power. Modern standard for mine dewatering.
+- **Air-lift pump**: Inject compressed air into the bottom of a water-filled pipe. The air-water mixture is less dense than the surrounding water column, so it rises by buoyancy. Simple, no moving parts underground (compressor is at surface). Lift: 20-50 m per stage. Efficiency: 20-40%. Useful for sumps where installing a mechanical pump is impractical.
+
+### Mine Communications
+
+Communication between surface and underground is essential for safety and operations:
+
+- **Bell signals**: The oldest method. A system of bell codes (bell pulls on a wire rope running down the shaft) between the banksman (surface) and the onsetter (underground shaft station). Standard signals: 1 bell = stop, 2 bells = lower, 3 bells = raise, 4 bells = men riding (slow and careful), emergency = continuous ringing. Still used as backup in modern mines.
+- **Voice pipe**: A steel or brass pipe (25-50 mm diameter) running from surface to underground stations. Sound travels through the pipe with surprising clarity over 100-200 m. Requires no power. Limited to one conversation at a time and one pipe per station.
+- **Electrical telephone** (requires electrical infrastructure): Magneto telephones (hand-cranked ring generator) connected by cable. The standard method in 20th-century mines. Explosion-proof housings required in gassy mines. Cables vulnerable to damage from blasting and rock falls — run through protected conduits.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [Mining](./) • [All Domains](../)*

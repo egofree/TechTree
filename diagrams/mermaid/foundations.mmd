@@ -8,12 +8,17 @@ graph TD
         foundations_fire["Fire-Making"]
         foundations_tools-basic["Stone & Wood Tools"]
         foundations_food-agriculture["Agriculture & Food Production"]
+        foundations_water-procurement["Water Procurement"]
     end
 
     %% ==================== DOMAIN NODE ====================
     foundations["Foundations"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    animals("Animals & Animal Husbandry")
+    animals_aquaculture("Aquaculture & Fisheries")
+    animals_beekeeping("Apiculture (Beekeeping)")
+    animals_draft-power("Animal Draft Power & Harnessing")
     ceramics("Ceramics & Refractories")
     ceramics_pottery("Pottery & Clay Products")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
@@ -21,6 +26,7 @@ graph TD
     energy_fuels("Fuel Production")
     energy_fuels_charcoal("Charcoal Production")
     health("Public Health, Sanitation & Medicine")
+    health_sanitation("Water Supply & Sanitation")
     knowledge("Knowledge Preservation & Education")
     knowledge_writing("Writing & Record-Keeping")
     machine-tools_forming("Metal Forming")
@@ -39,6 +45,8 @@ graph TD
 
     %% ==================== EDGES ====================
     foundations_food-agriculture -.-> foundations_tools-basic
+    foundations_water-procurement -.-> foundations
+    foundations_water-procurement -.-> foundations_tools-basic
     metals -.-> foundations
     knowledge -.-> foundations
     measurement_precision-metrology -.-> foundations
@@ -63,6 +71,14 @@ graph TD
     knowledge_writing -.-> foundations_food-agriculture
     plants -.-> foundations_fire
     foundations_food-agriculture --> plants_edible-plants
+    animals -.-> foundations
+    animals --> foundations_food-agriculture
+    animals_draft-power -.-> foundations_tools-basic
+    animals_beekeeping -.-> foundations_fire
+    animals_beekeeping -.-> foundations_tools-basic
+    animals_aquaculture -.-> foundations_tools-basic
+    foundations_food-agriculture --> animals_beekeeping
+    health_sanitation --> foundations_water-procurement
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -82,6 +98,11 @@ graph TD
     class foundations_fire capability
     class foundations_tools-basic capability
     class foundations_food-agriculture capability
+    class foundations_water-procurement capability
+    class animals external
+    class animals_aquaculture external
+    class animals_beekeeping external
+    class animals_draft-power external
     class ceramics external
     class ceramics_pottery external
     class chemistry_lubricants external
@@ -89,6 +110,7 @@ graph TD
     class energy_fuels external
     class energy_fuels_charcoal external
     class health external
+    class health_sanitation external
     class knowledge external
     class knowledge_writing external
     class machine-tools_forming external

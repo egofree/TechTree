@@ -8,6 +8,32 @@
 
 The CZ puller is the most mechanically demanding piece of equipment in the silicon path. It requires precision motion control, high-temperature furnace, and contamination control.
 
+### Why Single Crystal Silicon
+
+Polycrystalline silicon contains grain boundaries between individual crystal grains. These boundaries are electrically active: they act as recombination centers where electron-hole pairs recombine without contributing to current flow. In polycrystalline silicon, minority carrier lifetime drops from >1,000 μs (single crystal) to <10 μs. For solar cells, this means lower efficiency (10-12% for poly-Si vs. 15-20% for single crystal). For semiconductor devices, grain boundaries are fatal: they cause unpredictable leakage currents, threshold voltage shifts, and junction shorts.
+
+Dislocations within the crystal have a similar effect. Even a single dislocation threading through a transistor's active region can cause device failure. This is why the Dash necking process (described below) is so critical: it eliminates dislocations from the growing crystal.
+
+### Crystal Growth Methods Overview
+
+Three principal methods produce single crystal silicon ingots. Each trades off purity, cost, and complexity differently:
+
+**Czochralski (CZ) pulling**: The dominant method, producing >90% of all single crystal silicon. Crystal is pulled from a melt in a fused silica crucible. See detailed CZ puller construction in [CZ Pulling](./cz-pulling.md) and the process description below. Key limitation: oxygen incorporation from the dissolving quartz crucible (10-20 ppma O). This oxygen is manageable for most devices but limits certain high-power and radiation-hard applications.
+
+**Float zone (FZ)**: No crucible contact. Highest purity silicon. Described in detail below. Used for power devices where high resistivity (>10,000 Ω·cm) and low oxygen content are required.
+
+**Bridgman**: Directional solidification in a shaped mold. Simpler but produces more defects. Described below. Common for III-V compound semiconductors (GaAs, InP) where CZ pulling is impractical.
+
+### Seed Crystal Preparation
+
+The seed crystal initiates the single-crystal structure in all growth methods:
+- **Source**: Cut from a previously grown high-quality ingot (initially obtained from a laboratory or produced by slow directional solidification and selection of single-grain regions).
+- **Orientation**: Determine crystal orientation using X-ray Laue diffraction. Expose the seed to an X-ray beam; the diffraction pattern (spots on film) reveals the crystal orientation relative to the seed surface. For <100> orientation, the surface is cut perpendicular to the [100] direction. For <111>, perpendicular to the [111] direction.
+- **Etching**: After cutting, chemically etch the seed in a CP4-type etch (HNO₃:HF:CH₃COOH mixture) to remove mechanical damage from the cutting process. Damaged crystal in the seed propagates dislocations into the growing crystal. Target surface: smooth, pit-free, and damage-free to a depth of at least 50 μm.
+- **Dimensions**: Typically 5-10 mm square cross-section, 50-80 mm long. The seed must be large enough to handle without breaking but small enough that the Dash neck can effectively eliminate its dislocations.
+
+### Czochralski Process Detail
+
 **Puller construction**:
 - **Chamber**: Water-cooled stainless steel vacuum chamber. Diameter 300-600 mm. Viewport for observation. Sealed with Viton or copper gaskets.
 - **Crucible**: Fused silica (SiO₂), 200-450 mm diameter, 200-300 mm tall. Supported by graphite susceptor (cylindrical sleeve). Crucible is CONSUMABLE — slowly dissolves into silicon melt (oxygen incorporation into crystal, ~10-20 ppma O). Rotates at 2-15 RPM.
@@ -39,6 +65,51 @@ The CZ puller is the most mechanically demanding piece of equipment in the silic
 - Electricity: ~200-400 kWh (heater + motors + cooling)
 - Quartz crucible: 1 (consumed — partially dissolved)
 - Graphite susceptor: lasts ~50-100 pulls before replacement
+
+### Float Zone (FZ) Crystal Growth
+
+**Principle**: A narrow molten zone is passed along a solid polysilicon rod. No crucible contacts the silicon, so there is no oxygen contamination. The molten zone is supported entirely by surface tension of the silicon melt.
+
+**Equipment**:
+- **RF coil**: Water-cooled copper induction coil (single-turn or multi-turn) wrapped around the polysilicon rod. RF power (50-500 kHz, 20-100 kW) induces eddy currents in the silicon, heating the narrow zone to >1414°C. The coil geometry defines the molten zone width (~10-20 mm).
+- **Rod mounting**: Polysilicon rod (50-200 mm diameter, 1-2 m long) held vertically, clamped at both ends in a stainless steel vacuum chamber. Top end rotates slowly (2-5 RPM) for thermal uniformity.
+- **Atmosphere**: Argon at atmospheric pressure or slight overpressure. Some FZ processes use vacuum for impurity removal.
+- **Seed crystal**: Affixed to the bottom of the polysilicon rod. When the molten zone first passes the seed, it recrystallizes as single crystal following the seed orientation.
+
+**Process**:
+- Pass the RF coil slowly along the rod from bottom to top at 1-3 mm/min. The molten zone travels with the coil. Each pass purifies the silicon (impurities segregate into the molten zone and are swept to one end). 10-15 passes for uniform doping distribution.
+- Zone pass speed is critical. Too fast (>5 mm/min) and the solidification front cannot maintain single-crystal growth. Too slow (<0.5 mm/min) and the molten zone becomes unstable (drips from the rod).
+
+**Results**:
+- **Resistivity**: >10,000 Ω·cm achievable (ultra-high purity, essentially intrinsic silicon). This is 100× higher resistivity than CZ silicon.
+- **Oxygen content**: <1 ppma (no crucible contact). Much lower than CZ's 10-20 ppma.
+- **Carbon content**: <0.1 ppma.
+- **Dislocation density**: Zero (with proper seed and stable zone).
+- **Applications**: Power semiconductors (thyristors, IGBTs for high-voltage switching), radiation detectors, specialized devices requiring the highest purity.
+- **Limitation**: Maximum diameter ~200 mm (molten zone stability limits diameter; surface tension cannot support larger melt columns). CZ is preferred for 200-300 mm production.
+
+### Bridgman Growth
+
+**Principle**: Directional solidification in a shaped mold. The entire charge is melted, then cooled from one end so that solidification proceeds directionally. A seed crystal at the cool end initiates single-crystal growth.
+
+**Equipment**:
+- **Ampoule/mold**: Quartz or graphite crucible with a pointed bottom (seed well). Sealed under vacuum or inert atmosphere. The pointed geometry ensures that only a single crystal grain survives the initial solidification (grain selection by competitive growth in the narrow tip).
+- **Furnace**: Two-zone vertical furnace with independent temperature control. Hot zone above (holds melt at ~1420-1500°C for Si, higher for III-V materials), cold zone below (below melting point). A controlled temperature gradient between zones (10-50°C/cm) drives directional solidification.
+- **Translation mechanism**: The ampoule moves slowly downward through the furnace (or the furnace moves upward over the ampoule). Speed: 0.5-5 mm/hour. Slower translation produces fewer defects.
+
+**Applications for III-V compounds**:
+- **GaAs (gallium arsenide)**: Melts at 1238°C. Bridgman growth in sealed quartz ampoules (arsenic overpressure prevents decomposition). Used for high-frequency devices, LEDs, laser diodes, and solar cells. The primary method for GaAs substrate production.
+- **InP (indium phosphide)**: Melts at 1062°C. Similar sealed-ampoule Bridgman process. Used for photonics and high-frequency electronics.
+- **Why not CZ for III-V?**: CZ pulling requires the crucible to rotate in the melt. For III-V compounds, the group V element (As, P) has high vapor pressure at the melting point and would evaporate if the melt were open to the atmosphere. The sealed Bridgman ampoule contains the vapor pressure.
+
+### Edge-Defined Film-Fed Growth (EFG)
+
+**Principle**: A shaped die (usually graphite) is immersed in the silicon melt. Capillary action draws silicon up through a narrow slot in the die. A seed crystal contacts the silicon at the top of the die and is pulled upward, crystallizing the silicon in the shape defined by the die opening.
+
+**Applications**:
+- **Ribbons**: Thin silicon sheets (100-300 μm thick, 50-100 mm wide, meters long) produced directly without wafering. Eliminates the kerf loss of wire saw slicing (~40-50% of silicon in conventional wafering is lost as kerf). Ribbon silicon is lower quality (more grain boundaries and defects) but suitable for low-cost solar cells.
+- **Tubes**: Hollow octagonal tubes pulled and then cut into wafers by laser slicing. Multiple wafers from one tube. Higher throughput than single-ribbon pulling.
+- **Limitation**: Die material (graphite) slowly dissolves into the silicon, introducing carbon contamination. The silicon-carbon interaction limits crystal quality. EFG wafers typically achieve 12-15% solar cell efficiency, lower than CZ wafers (15-20%) but with much lower silicon consumption per watt of solar output.
 
 ### Wafer Production
 
@@ -78,6 +149,81 @@ Crystal growth and wafering involve extreme temperatures, toxic chemicals, and h
 - **HF acid burns (RCA clean)**: Dilute HF (1-2%) used in wafer cleaning penetrates skin, attacks bone, causes systemic fluoride poisoning. **Calcium gluconate gel must be on-site before any HF use** — apply immediately to exposed skin and seek emergency treatment. Chemical-resistant gloves (neoprene or nitrile), face shield, and apron required for all HF work. Work in fume hood or with local exhaust ventilation.
 - **Wire saw hazards**: 140-180 μm steel wire under tension (15-30 N) traveling at 5-15 m/s can snap and lash. Wire guard mandatory. Abrasive slurry (SiC or diamond) is an eye irritant — safety goggles required during slurry handling.
 - **Dust inhalation**: Silicon dust from sawing, lapping, and crushing is a respiratory irritant. Local exhaust ventilation at cutting stations. P100 respirator in dusty areas.
+
+### Wafer Specifications and Quality
+
+**Standard wafer dimensions**:
+
+| Diameter | Thickness | Primary Flat | Typical Weight |
+|----------|-----------|-------------|----------------|
+| 100 mm (4") | 500-525 μm | 32.5 mm | ~10 g |
+| 150 mm (6") | 625-675 μm | 57.5 mm | ~28 g |
+| 200 mm (8") | 725-775 μm | Notched | ~53 g |
+| 300 mm (12") | 775-775 μm | Notched | ~128 g |
+
+**Flat and notch**:
+- **Primary flat**: Ground flat along one edge of the wafer, indicating crystal orientation. For <100> wafers, the flat is along the {110} plane. For <111> wafers, the flat indicates the <110> direction. Used for alignment in processing equipment.
+- **Secondary flat**: A smaller flat on the opposite edge indicates wafer doping type. One secondary flat = n-type. Two secondary flats = p-type. No secondary flat = <111> n-type reference. This coding system allows operators to identify wafer type visually.
+- **Notch** (200 mm and larger): V-shaped notch replaces flats on larger wafers, providing the same orientation information with less wasted silicon at the wafer edge.
+
+**Wafer quality parameters**:
+- **Total thickness variation (TTV)**: Maximum difference between thickest and thinnest points on the wafer. After lapping: 2-5 μm. After CMP: <1 μm. Excessive TTV causes focus problems in photolithography.
+- **Bow and warp**: Deviation of the wafer center from a reference plane (bow) and the difference between maximum positive and negative deviations (warp). After polishing: bow <25 μm, warp <30 μm for 150 mm wafers. Thermal processing (oxidation, diffusion) can increase warp if thermal stress is non-uniform.
+- **Surface particles**: After final clean, particle count target: <10 particles ≥0.3 μm per wafer (for 150 mm). Each particle is a potential device-killing defect. Particle inspection by laser scanning surface inspection system.
+- **Surface metal contamination**: <10¹⁰ atoms/cm² for critical metals (Fe, Cu, Ni, Na). Measured by TXRF (total reflection X-ray fluorescence) or VPD-ICP-MS (vapor phase decomposition followed by ICP-MS). Metals at the surface degrade gate oxide integrity and minority carrier lifetime.
+
+### Ingot Shaping and Cropping
+
+**Ingot processing before wafering**:
+- **Cropping**: Cut off the seed, neck, shoulder (crown), and tail portions of the pulled crystal with a band saw or diamond wire saw. These portions are either off-spec (neck too thin, tail has high impurity concentration) or not cylindrical (shoulder). Cropped sections are returned to the polysilicon recycle stream.
+- **Grinding to diameter**: Grind the cylindrical body to the exact target diameter (e.g., 150.00 ±0.25 mm) on a centerless grinding machine. Diamond grinding wheel removes 0.5-2 mm from the surface. This also removes the outer layer of the crystal, which has higher impurity concentration from crucible contact and surface defects.
+- **Orientation flat grinding**: Grind the primary and secondary orientation flats along the crystal length. X-ray diffraction aligns the crystal lattice before grinding to ensure the flat is within ±0.5° of the target crystallographic plane.
+
+### Wafer Sorting and Packaging
+
+**Ingot quality mapping**:
+- **Resistivity mapping**: Four-point probe measurement at multiple positions along the ingot length (every 10-25 mm) before slicing. Identifies regions where resistivity is out of specification (high at the seed end due to initial dopant fluctuations, and at the tail end where impurity segregation concentrates dopants). These regions are cropped and discarded or recycled.
+- **Minority carrier lifetime measurement**: Microwave photoconductance decay (μ-PCD) or surface photovoltage (SPV) scans the ingot surface. Low lifetime regions indicate high defect density or metallic contamination, which must be excluded from device-grade wafers.
+- **Oxygen measurement**: FTIR mapping of the ingot cross-section at several positions along its length. Oxygen varies axially (higher at the seed end, lower at the tail due to progressive crucible thinning).
+
+**Wafer packaging**:
+- **Cleanroom packaging**: Wafers are cleaned (RCA clean), inspected, and packaged in a Class 100 (ISO 5) environment. Each wafer is placed in an individual slot of a fluoropolymer wafer carrier (25-wafer cassette is standard). The cassette is sealed in two nested bags (inner bag nitrogen-purged, outer bag for mechanical protection) with a desiccant packet and a cleanliness certificate.
+- **Labeling**: Each cassette is labeled with: crystal number, wafer count, diameter, thickness, orientation, dopant type, resistivity range, oxygen range, and batch number for traceability.
+
+**Wafer shipping and handling**:
+- Wafers are extremely fragile (silicon is a brittle ceramic). Handle with wafer tweezers or vacuum wands only. Never stack wafers without separators (they scratch each other). Fluoropolymer wafer dividers separate wafers in cassettes. Transport cassettes in padded containers. Open cassette packaging only in a clean environment. Wafers that contact non-clean surfaces or bare hands are permanently contaminated and must be re-cleaned (or discarded if the contamination is embedded).
+
+### Float Zone Detail for Higher Purity
+
+The float zone process produces the purest silicon available, because nothing touches the molten zone. No crucible means no oxygen or carbon contamination from SiO₂ dissolution or graphite outgassing. This makes FZ silicon essential for devices where CZ silicon's 10-20 ppma oxygen is unacceptable.
+
+**RF coil design**:
+- 3-turn pancake coil wound from water-cooled copper tube (6-10 mm OD). Coil inner diameter matches the rod diameter with 5-15 mm clearance. Power: 8-15 kW at 2-4 MHz. The molten zone length is 15-25 mm, controlled by coil geometry and RF power. A shorter zone is more stable (less prone to dripping) but limits throughput. A longer zone increases throughput but risks zone collapse under surface tension failure.
+- Multiple passes (10-15) are standard for uniform doping distribution. Each pass sweeps the molten zone from bottom to top. Impurities with segregation coefficient k < 1 (most metals) are swept to the top end of the rod with each pass. After all passes, the contaminated top is cropped off.
+
+**Vacuum vs. inert gas operation**:
+- Vacuum (10⁻⁵ mbar): volatile impurities (Na, K, S, some metals) evaporate from the molten zone and are pumped away. Best for achieving the highest purity. Requires a vacuum chamber and diffusion or turbomolecular pump capable of handling the outgassing load.
+- Argon at 1-3 bar: controlled atmosphere that suppresses evaporation of silicon itself (Si has significant vapor pressure at 1414°C). Used when gas-phase doping is required. The argon pressure also stabilizes the molten zone against convection disturbances.
+
+**Gas doping during FZ**:
+- Add PH₃ (phosphine) or B₂H₆ (diborane) to the argon carrier gas flowing through the chamber. The dopant gas dissolves into the molten zone, incorporating into the recrystallized silicon. Concentration controlled by gas flow ratio: ppm-level dopant in argon gives ppm-level doping in the crystal.
+- Precise resistivity control: ±5% variation along the rod length, better than CZ's ±10% for n-type. This is because FZ doping is set by gas flow rate (easily controlled) rather than segregation from a finite melt volume.
+
+**FZ advantages over CZ**:
+- No crucible contact means oxygen <1 ppma (vs. 10-20 ppma for CZ) and carbon <0.1 ppma (vs. <1 ppma for CZ). This purity translates directly into higher resistivity (up to 50,000 Ω·cm, vs. <100 Ω·cm for standard CZ) and longer minority carrier lifetime (>1000 μs, vs. 100-500 μs for CZ).
+- Required for: power semiconductors (thyristors, IGBTs blocking >3 kV), radiation detectors (high purity needed for depletion widths of millimeters), and space-grade components (radiation-hard devices need low oxygen to prevent defect formation under particle bombardment).
+- Limitation: maximum diameter ~200 mm. Surface tension cannot stabilize a molten zone larger than this without electromagnetic confinement or other assistance. CZ is used for all 300 mm production.
+
+### Alternative Wafering Methods
+
+**Inner diameter (ID) saw**:
+- **Design**: Circular steel blade with diamond-coated inner edge (the blade is a ring, the cutting edge is on the inside of the hole). Blade rotates at 1500-3000 RPM. Ingot pushed through the blade center, one wafer cut at a time.
+- **Advantages**: Simpler than wire saw. Each wafer is independent (no wire break ruins a whole batch). Good for small-scale or prototype production.
+- **Disadvantages**: Slower than wire saw (1-2 wafers/hour for 150 mm). Kerf loss ~200-300 μm (thicker blade than wire). Blade wear requires periodic redressing. Surface damage layer slightly deeper than wire saw.
+
+**Laser slicing** (advanced, later stage):
+- **Principle**: High-power laser (typically Nd:YAG, 1064 nm) creates a stress crack along a defined plane in the ingot. Subsequent mechanical stress separates the wafer along the crack. No abrasive contact, so surface damage is minimal.
+- **Status**: Still in development for mainstream silicon wafering. Used for some hard, brittle materials (SiC, sapphire) where wire saw cutting is extremely slow. Kerf loss is theoretically zero (no material removed by the laser, just a crack initiated).
 
 ---
 

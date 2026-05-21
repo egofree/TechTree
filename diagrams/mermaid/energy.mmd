@@ -42,16 +42,25 @@ graph TD
     gas-handling("Gas Handling")
     glass("Glass")
     glass_advanced_glassblowing("Glassblowing and Scientific Apparatus")
+    health_medical-instruments("Medical Instrument Manufacturing")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_forming("Metal Forming")
     machine-tools_joining("Metal Joining")
     machine-tools_machining("Machining")
+    measurement_electrical-instruments("Electrical Measurement Instruments")
     measurement_temperature-pressure("Temperature & Pressure Measurement")
     metals("Metals")
+    metals_alloys("Specialty Alloys")
+    metals_aluminum("Aluminum Production")
+    metals_forming("Primary Metal Forming")
     metals_iron-steel("Iron & Steel Production")
     metals_iron-steel_blast-furnace("Blast Furnace and Cast Iron")
+    metals_powder-metallurgy("Powder Metallurgy & Advanced Materials")
+    metals_steelmaking("Modern Steelmaking")
     mining("Mining Engineering & Extractive Metallurgy")
+    mining_drilling("Mechanical Drilling")
     mining_processing("Ore Processing")
+    mining_ventilation("Mine Ventilation")
     plants("Plants & Botanical Resources")
     polymers_rubber("Rubber Production")
     silicon("Silicon")
@@ -125,6 +134,16 @@ graph TD
     transport -.-> energy_fuels
     plants --> energy_fuels
     chemistry_ammonia --> energy
+    metals_steelmaking --> energy_fuels
+    metals_aluminum -.-> energy_electricity
+    energy_steam-power_steam-turbines --> metals_alloys
+    energy_steam-power --> metals_forming
+    metals_powder-metallurgy -.-> energy_electric-furnaces
+    metals_alloys -.-> energy_fuels
+    mining_drilling -.-> energy_steam-power
+    mining_ventilation -.-> energy_steam-power
+    measurement_electrical-instruments -.-> energy_electricity
+    health_medical-instruments -.-> energy_steam-power
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -172,16 +191,25 @@ graph TD
     class gas-handling external
     class glass external
     class glass_advanced_glassblowing external
+    class health_medical-instruments external
     class machine-tools external
     class machine-tools_forming external
     class machine-tools_joining external
     class machine-tools_machining external
+    class measurement_electrical-instruments external
     class measurement_temperature-pressure external
     class metals external
+    class metals_alloys external
+    class metals_aluminum external
+    class metals_forming external
     class metals_iron-steel external
     class metals_iron-steel_blast-furnace external
+    class metals_powder-metallurgy external
+    class metals_steelmaking external
     class mining external
+    class mining_drilling external
     class mining_processing external
+    class mining_ventilation external
     class plants external
     class polymers_rubber external
     class silicon external

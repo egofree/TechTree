@@ -123,6 +123,84 @@ Finished electrodes are machined to precise tolerances:
 - **Coal tar pitch source**: [coke.md](coke.md)
 - **Petroleum refining source for coke**: [fuels.md](fuels.md)
 
+### Electrode Baking in Detail
+
+The baking process transforms green (unbaked) electrodes from a pitch-bound soft body into a rigid carbon-carbon composite. Two main furnace types are used:
+
+**Ring furnace**: A long rectangular structure divided into sections (chambers) separated by flue walls. Green electrodes are loaded vertically into the chambers, packed in metallurgical coke breeze (packing coke) that supports them mechanically and provides uniform heat transfer. Fuel gas (natural gas, coke oven gas, or producer gas) is fired in the flue walls, heating the chambers indirectly through the refractory. A "ring" of fire moves progressively along the furnace. Chambers ahead of the fire are preheated by exhaust gases from the burning zone; chambers behind the fire cool slowly, transferring heat to the incoming combustion air. This counter-current heat recovery makes the ring furnace thermally efficient (specific energy consumption: 1.5-3.0 GJ per tonne of baked electrode).
+
+**Car-bottom kiln**: A batch furnace where electrodes are loaded onto a refractory-lined rail car that is pushed into a stationary kiln. Fuel burners heat the kiln directly or indirectly. Simpler to build and operate than a ring furnace, suitable for lower production volumes. Less thermally efficient (3-5 GJ per tonne) due to lack of heat recovery.
+
+**Temperature profile and volatile release**: The heating rate must be precisely controlled to avoid electrode failure. Between 200°C and 500°C, the coal tar pitch binder undergoes pyrolytic decomposition, releasing 25-35% of its mass as volatile gases (hydrogen, methane, aromatic vapors). If the heating rate exceeds 2-5°C per hour in this range, volatile generation outpaces the permeability of the electrode body. Internal pressure builds, causing fissures, blisters, or catastrophic cracking. Above 500°C, the rate of volatile release drops sharply and the heating rate can increase to 10-15°C per hour. Above 800°C, the electrode is mechanically stable and the remaining volatile content is negligible. The total baking cycle from ambient to 800-1000°C takes 2-4 weeks, followed by 1-2 weeks of controlled cooling.
+
+### Graphitization: Acheson Furnace
+
+The Acheson furnace converts baked amorphous carbon electrodes to crystalline graphite. The process runs at 2500-3000°C, among the highest sustained industrial temperatures:
+
+- **Furnace construction**: A long rectangular bed (15-25 m long, 3-5 m wide) of refractory brick. Electrodes are laid lengthwise in the bed, surrounded by a packing mixture of petroleum coke granules and sand. This packing serves as a resistive heating element and thermal insulation. The whole assembly is covered with a layer of insulating material (coke breeze, sand, or slag wool).
+- **Electrical supply**: Large DC or low-frequency AC current is passed through the electrode column via water-cooled copper bus bars clamped to the ends. Typical parameters: 1000-5000 A at 30-80 V initially, increasing to 50-150 V as the bed resistance changes during heating. Total power: 1000-5000 kW depending on furnace size. The electrodes themselves are the primary resistive load: as they heat, their resistance decreases (semiconductor behavior), requiring voltage adjustment to maintain power input.
+- **Temperature progression**: The bed heats from ambient to 2500-3000°C over 2-4 weeks. Crystallographic transformation occurs above ~2000°C, where disordered turbostratic carbon layers align into the ordered hexagonal lattice of graphite. This transformation is marked by a sharp drop in electrical resistivity (from 40-60 μΩ·m for baked carbon to 5-10 μΩ·m for graphite) and a large increase in thermal conductivity (from 5-30 W/m·K to 80-180 W/m·K along the electrode axis).
+- **Energy consumption**: 3000-5000 kWh per tonne of electrode graphitized. At industrial electricity rates, energy cost alone accounts for 30-50% of the total graphite electrode production cost.
+- **Quality verification**: Measure electrical resistivity (target: <10 μΩ·m), bulk density (>1.60 g/cm³), and flexural strength (>8 MPa). X-ray diffraction confirms the degree of graphitization by measuring the d002 interlayer spacing (graphite: 3.354 Å; amorphous carbon: >3.44 Å).
+
+### Electrode Consumption in Smelting
+
+Electrode consumption varies by furnace type and product. In steel arc furnaces, consumption is 2-5 kg of graphite electrode per tonne of steel. Breakdown: ~40% tip sublimation (carbon oxidizes and sublimes in the 3000°C arc), ~35% sidewall oxidation (exposed electrode above the furnace roof oxidizes in air at 500-800°C), ~15% mechanical breakage and thermal spalling, ~10% tip fracture. Consumption can be reduced by spraying the electrode sidewalls with an anti-oxidation coating (silicon carbide slurry or aluminum-containing spray) that forms a protective glaze in service.
+
+In aluminum smelting (Hall-Héroult cells), carbon anode consumption is 400-500 kg per tonne of aluminum produced. The anode is consumed electrochemically: the carbon reacts with the oxygen liberated from Al₂O₃ during electrolysis (C + O₂ → CO₂). This is not an impurity, it is the process. Aluminum smelting therefore requires a continuous supply of prebaked carbon anodes or Söderberg self-baking paste.
+
+In silicon production (submerged arc furnace), electrode consumption runs 30-60 kg of graphite per tonne of metallurgical-grade silicon, with the carbon participating in the reduction reaction (SiO₂ + C → Si + CO) alongside the carbon reductant in the charge.
+
+### Söderberg Self-Baking Electrodes
+
+For submerged arc furnaces producing silicon, ferroalloys, and calcium carbide, the Söderberg electrode avoids the separate baking and graphitization steps entirely:
+
+- **Paste composition**: Calcined petroleum coke (75-80% by weight) mixed with coal tar pitch (20-25%). The paste is a soft, pliable mass at ambient temperature that can be formed into blocks or cylinders for shipping.
+- **Construction**: A steel casing (1.5-3 mm sheet steel, 0.8-2.0 m diameter) extends from above the furnace roof down into the furnace charge. Paste blocks are loaded into the top of the casing. As the electrode is consumed at the bottom, the casing and paste descend. Heat from the furnace (waste heat from the smelting process, typically 400-800°C at the casing midpoint) bakes the paste in situ. The pitch softens at ~120°C, flows to fill voids, then carbonizes at 400-600°C into a solid carbon electrode body. The steel casing softens and oxidizes away at the lower end, leaving the baked carbon electrode in direct contact with the charge.
+- **Advantage**: No separate baking furnace, no graphitization furnace, no electrode joining (nipples). Continuous operation: just keep adding paste blocks at the top. Capital cost is a fraction of prebaked electrode manufacture.
+- **Limitation**: Lower quality than prebaked graphite electrodes. The in-situ baking produces amorphous carbon with higher resistivity (50-80 μΩ·m) and higher consumption rate. Not suitable for electric arc furnaces where the electrode tip is exposed to air at arc temperatures (oxidation would be too rapid). Restricted to submerged arc applications where the electrode is surrounded by charge material that limits oxygen access.
+
+### Impregnation (Densification)
+
+After baking and before graphitization, electrodes can be impregnated with additional pitch to increase density and mechanical strength:
+
+- **Process**: Baked electrodes are loaded into an autoclave. The vessel is evacuated (vacuum to <50 mbar) to remove air from the open pores of the electrode body. Hot liquid coal tar pitch (~180-200°C) is then introduced under pressure (0.5-1.5 MPa) and held for 2-6 hours, forcing pitch into the pores. The impregnated electrodes are then re-baked (second baking cycle, same conditions as the first) to carbonize the impregnated pitch.
+- **Effect**: Density increases from ~1.55 g/cm³ to ~1.70 g/cm³. Mechanical strength improves 30-50%. Electrical resistivity decreases ~15-20%. The impregnation-rebake cycle can be repeated for ultra-high-density electrodes (triple-impregnated), though diminishing returns set in after the second cycle.
+- **When required**: High-power electrodes for ultra-high-power (UHP) EAFs operating above 500 A/cm² current density. Standard-power electrodes may skip impregnation to reduce cost.
+
+### Quality Control and Testing
+
+Finished graphite electrodes must meet dimensional and physical property specifications before shipment:
+
+- **Dimensional inspection**: Diameter tolerance ±1-2 mm. Length tolerance ±5-10 mm. Straightness (bow) less than 3-5 mm over the full length. Thread gauge fit on tapered connections (go/no-go gauge).
+- **Electrical resistivity**: Measured by four-point probe or volt-ampere method along the electrode axis. Target: <10 μΩ·m for graphitized electrodes. Resistivity above 12 μΩ·m indicates incomplete graphitization.
+- **Bulk density**: Measured by water displacement (Archimedes method). Target: 1.60-1.75 g/cm³. Density below 1.55 g/cm³ indicates excessive porosity from under-impregnation or baking defects.
+- **Flexural strength**: Three-point bending test on sample cores. Target: >8 MPa for standard electrodes, >12 MPa for high-power grades. Low strength predicts high breakage rate in service.
+- **Coefficient of thermal expansion (CTE)**: Measured by dilatometer. Target: <2.5 × 10⁻⁶/°C along the electrode axis. High CTE causes thermal stress cracking during rapid heating in the arc furnace. Needle coke electrodes achieve lower CTE due to the oriented crystal structure.
+
+### Electrode Handling and Storage
+
+Graphite electrodes are brittle and easily damaged by impact. Proper handling prevents costly breakage:
+
+- **Lifting**: Use fabric slings or padded chain slings around the electrode body, never steel chains directly on the electrode surface (causes nicks that propagate into cracks under thermal cycling in the furnace). Lift from the center of gravity to prevent the electrode from swinging and striking adjacent objects. For electrodes >400 mm diameter, use a lifting nipple (threaded graphite rod screwed into one end) with an overhead crane.
+- **Storage**: Store vertically on a flat, level surface in a covered, dry area. Stack horizontally only with wooden dunnage between layers (never directly on each other). Protect thread connections with thread protectors (plastic or wooden caps). Moisture absorption is not a concern for graphite, but thermal shock from cold storage to hot furnace is: allow electrodes to acclimate to ambient furnace-area temperature for 24+ hours before installation.
+- **Joining**: Screw electrodes together using graphite nipples. Apply a thin film of graphite paste (pitch + graphite powder) to the threads to improve electrical contact and prevent seizing. Tighten to specified torque (500-3000 N·m depending on diameter) using a calibrated torque wrench or power tong. Undertightened joints cause high electrical resistance at the connection, leading to local overheating and nipple breakage. Overtightened joints crack the nipple or the electrode thread.
+- **Column management**: In the furnace, the electrode column is consumed from the bottom and new electrodes are screwed on at the top. Track column length and consumption rate to plan electrode changes during scheduled furnace downtime rather than mid-heat. A typical EAF consumes 0.5-1.5 m of electrode column per heat (depending on furnace size and steel grade).
+
+### Electrode Grades and Classification
+
+Graphite electrodes are classified by their power rating and application:
+
+| Grade | Power Density | Current Density | Typical Diameter | Application |
+|-------|-------------|-----------------|-----------------|-------------|
+| Regular power (RP) | <15 W/cm² | <17 A/cm² | 200-600 mm | Small EAF, foundries |
+| High power (HP) | 15-20 W/cm² | 17-25 A/cm² | 300-700 mm | Medium EAF |
+| Ultra-high power (UHP) | 20-30 W/cm² | 25-40 A/cm² | 350-750 mm | Large EAF, long arc |
+
+Higher power grades require needle coke (not regular sponge coke) to achieve the necessary thermal conductivity and low CTE. UHP electrodes typically undergo two impregnation-rebake cycles and longer graphitization times to reach the required density and crystallinity. The cost premium for UHP over RP is 2-3×, justified by lower consumption rate and higher furnace productivity.
+
+Electrode nipple design also varies by grade. RP electrodes use standard four-start threads with 3 pins per inch. HP and UHP electrodes use longer nipples (200-400 mm engagement length) with finer threads (4-6 pins per inch) and tapered profiles that distribute mechanical load more evenly. Nipple material is high-density graphite (bulk density >1.72 g/cm³, flexural strength >15 MPa), manufactured separately from the electrode body under tighter quality controls.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*

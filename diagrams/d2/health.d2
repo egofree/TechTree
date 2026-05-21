@@ -89,16 +89,24 @@ health_internal: "Public Health, Sanitation & Medicine — Internal Structure" {
   health_sanitation: "Water Supply & Sanitation"
   health_medicine: "Medicine & Surgery"
   health_pharmacology: Pharmacology
+  health_occupational-health: "Occupational Health & Industrial Hygiene"
+  health_medical-instruments: Medical Instrument Manufacturing
 }
 
 # ==================== DOMAIN NODE ====================
 health: "Public Health, Sanitation & Medicine"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+animals_beekeeping: "Apiculture (Beekeeping)" {
+  shape: rectangle
+}
 ceramics: "Ceramics & Refractories" {
   shape: rectangle
 }
 chemistry: Chemistry {
+  shape: rectangle
+}
+chemistry_acids: Mineral Acid Production {
   shape: rectangle
 }
 chemistry_ammonia: "Ammonia & Fertilizer Production" {
@@ -113,10 +121,19 @@ chemistry_soap: "Soap & Detergent Production" {
 chemistry_solvents: Solvent Production {
   shape: rectangle
 }
+energy_steam-power: Steam Power {
+  shape: rectangle
+}
 foundations: Foundations {
   shape: rectangle
 }
+foundations_water-procurement: Water Procurement {
+  shape: rectangle
+}
 knowledge_writing: "Writing & Record-Keeping" {
+  shape: rectangle
+}
+metals_copper-bronze: "Copper & Bronze Production" {
   shape: rectangle
 }
 plants_edible-plants: Edible Plants {
@@ -132,6 +149,8 @@ polymers_rubber: Rubber Production {
 # ==================== EDGES ====================
 health_medicine -> health_sanitation: { class: tool-edge }
 health_pharmacology -> health_medicine: { class: tool-edge }
+health_occupational-health -> health: { class: tool-edge }
+health_medical-instruments -> health: { class: tool-edge }
 health -> foundations: { class: tool-edge }
 health -> chemistry: { class: material-edge }
 health_sanitation -> ceramics: { class: tool-edge }
@@ -144,20 +163,33 @@ plants_medicinal-plants -> health_pharmacology: { class: material-edge }
 health -> chemistry_ammonia: { class: material-edge }
 health -> chemistry_soap: { class: material-edge }
 health -> chemistry_solvents: { class: material-edge }
+health_pharmacology -> animals_beekeeping: { class: material-edge }
+health_medicine -> animals_beekeeping: { class: material-edge }
+health_sanitation -> foundations_water-procurement: { class: material-edge }
+health_occupational-health -> chemistry_acids: { class: material-edge }
+health_medical-instruments -> metals_copper-bronze: { class: material-edge }
+health_medical-instruments -> energy_steam-power: { class: tool-edge }
 
 # ==================== STYLING ====================
 health.class: domain
 health_sanitation.class: capability
 health_medicine.class: capability
 health_pharmacology.class: capability
+health_occupational-health.class: capability
+health_medical-instruments.class: capability
+animals_beekeeping.class: external
 ceramics.class: external
 chemistry.class: external
+chemistry_acids.class: external
 chemistry_ammonia.class: external
 chemistry_distillation.class: external
 chemistry_soap.class: external
 chemistry_solvents.class: external
+energy_steam-power.class: external
 foundations.class: external
+foundations_water-procurement.class: external
 knowledge_writing.class: external
+metals_copper-bronze.class: external
 plants_edible-plants.class: external
 plants_medicinal-plants.class: external
 polymers_rubber.class: external

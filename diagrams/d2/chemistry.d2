@@ -112,6 +112,9 @@ chemistry_internal: "Chemistry — Internal Structure" {
 chemistry: Chemistry
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+animals_animal-materials: Animal-Derived Materials Processing {
+  shape: rectangle
+}
 ceramics_kilns: Kiln Construction {
   shape: rectangle
 }
@@ -157,6 +160,9 @@ glass_basic: Basic Glass Production {
 health: "Public Health, Sanitation & Medicine" {
   shape: rectangle
 }
+health_occupational-health: "Occupational Health & Industrial Hygiene" {
+  shape: rectangle
+}
 health_pharmacology: Pharmacology {
   shape: rectangle
 }
@@ -176,6 +182,21 @@ measurement: "Measurement & Instrumentation" {
   shape: rectangle
 }
 metals: Metals {
+  shape: rectangle
+}
+metals_aluminum: Aluminum Production {
+  shape: rectangle
+}
+metals_finishing: "Metal Finishing & Surface Treatment" {
+  shape: rectangle
+}
+metals_non-ferrous: Non-Ferrous Metal Production {
+  shape: rectangle
+}
+metals_powder-metallurgy: "Powder Metallurgy & Advanced Materials" {
+  shape: rectangle
+}
+metals_steelmaking: Modern Steelmaking {
   shape: rectangle
 }
 mining: "Mining Engineering & Extractive Metallurgy" {
@@ -224,6 +245,9 @@ textiles: "Textiles, Fiber & Cordage" {
   shape: rectangle
 }
 textiles_dyeing: Dyeing {
+  shape: rectangle
+}
+textiles_finishing: Fabric Finishing {
   shape: rectangle
 }
 transport: "Transportation & Logistics" {
@@ -319,6 +343,18 @@ glass -> chemistry_refractories: { class: material-edge }
 transport -> chemistry_coatings: { class: material-edge }
 knowledge -> chemistry_pulp-chemicals: { class: material-edge }
 textiles -> chemistry_pulp-chemicals: { class: material-edge }
+metals_steelmaking -> chemistry_refractories: { class: material-edge }
+metals_aluminum -> chemistry_electrolysis: { class: tool-edge }
+metals_aluminum -> chemistry_alkalis: { class: material-edge }
+metals_non-ferrous -> chemistry_acids: { class: material-edge }
+chemistry_soap -> metals_non-ferrous: { class: material-edge }
+metals_finishing -> chemistry_acids: { class: material-edge }
+metals_finishing -> chemistry_electrolysis: { class: tool-edge }
+metals_finishing -> chemistry_coatings: { class: material-edge }
+metals_powder-metallurgy -> chemistry_hydrogen-silane: { class: tool-edge }
+chemistry_lubricants -> animals_animal-materials: { class: material-edge }
+textiles_finishing -> chemistry_alkalis: { class: tool-edge }
+health_occupational-health -> chemistry_acids: { class: material-edge }
 
 # ==================== STYLING ====================
 chemistry.class: domain
@@ -342,6 +378,7 @@ chemistry_solvents.class: capability
 chemistry_refractories.class: earlyWin
 chemistry_coatings.class: capability
 chemistry_pulp-chemicals.class: capability
+animals_animal-materials.class: external
 ceramics_kilns.class: external
 energy.class: external
 energy_cooling.class: external
@@ -357,6 +394,7 @@ gas-handling_basic.class: external
 glass.class: external
 glass_basic.class: external
 health.class: external
+health_occupational-health.class: external
 health_pharmacology.class: external
 knowledge.class: external
 knowledge_writing.class: external
@@ -364,6 +402,11 @@ machine-tools.class: external
 machine-tools_joining.class: external
 measurement.class: external
 metals.class: external
+metals_aluminum.class: external
+metals_finishing.class: external
+metals_non-ferrous.class: external
+metals_powder-metallurgy.class: external
+metals_steelmaking.class: external
 mining.class: external
 mining_extraction_black-powder.class: external
 photolithography.class: external
@@ -380,6 +423,7 @@ silicon_crystal-growth.class: external
 silicon_purification.class: external
 textiles.class: external
 textiles_dyeing.class: external
+textiles_finishing.class: external
 transport.class: external
 transport_aviation.class: external
 transport_telegraph.class: external

@@ -148,6 +148,54 @@ Closed-cycle external combustion engine. Working gas (air, helium, or hydrogen) 
 - **Aviation applications**: [Aviation](../transport/aviation.md)
 - **Electrical generation**: [Electricity Generation & Distribution](electricity.md)
 
+### Diesel Engine Operating Parameters
+
+**Compression ignition detail**: The diesel engine compresses air alone to 14:1 to 24:1 ratio, raising the charge temperature to 700-900°C at top dead center. Fuel is then injected directly into this hot compressed air. The auto-ignition temperature of diesel fuel is roughly 210°C, so the compressed air is well above the threshold. Ignition occurs within 1-4 milliseconds of injection start (ignition delay period), followed by rapid premixed combustion of the fuel that vaporized during the delay, then diffusion-controlled combustion as the remaining fuel mixes with air.
+
+**Fuel injection timing**: Injection begins 5-15° of crankshaft rotation before TDC. The timing is critical: too early and peak cylinder pressure rises excessively (mechanical stress, knocking); too late and the fuel burns late in the expansion stroke, reducing efficiency and raising exhaust temperature. Injection duration: 20-40° of crankshaft rotation at full load. At 1500 RPM, 40° of rotation takes roughly 4.4 milliseconds.
+
+**Injection pressure**: Modern common-rail systems operate at 100-200 MPa (1000-2000 bar). The high pressure forces fuel through nozzle orifices 0.1-0.3 mm in diameter, atomizing it into droplets of 5-50 micrometers. Smaller droplets evaporate and mix faster, enabling more complete combustion. Older mechanical injection pumps (jerk pump or distributor pump) achieve 30-100 MPa. Pilot injection (a small initial fuel quantity 2-5° before the main injection) reduces combustion noise and peak pressure in modern engines.
+
+**Fuel quality requirements**: Cetane number ≥40 (preferably 45-55). Cetane number measures ignition quality: higher values mean shorter ignition delay and smoother combustion. Viscosity: 2.0-4.5 cSt at 40°C. Too viscous and the injection pump cannot deliver fuel at the required rate; too thin and pump lubrication suffers. Sulfur content: historically up to 2%, now limited to 10-50 ppm in most jurisdictions due to emissions concerns. Lubricity additives compensate for the lubricating properties lost with sulfur removal.
+
+### Gas Turbine Operating Parameters
+
+**Brayton cycle performance**: The compressor pressure ratio is the primary determinant of thermal efficiency. Early industrial gas turbines operated at 4:1 to 8:1 pressure ratio, achieving 20-28% thermal efficiency. Modern units at 20:1 to 30:1 reach 35-40% simple-cycle efficiency. The specific power output (power per unit of air mass flow) increases with both pressure ratio and turbine inlet temperature.
+
+**Turbine inlet temperature (TIT)**: The gas temperature entering the first turbine stage is the single most important performance parameter. Early gas turbines: 800-900°C. Modern industrial units: 1200-1400°C. Advanced aero engines: 1500-1700°C (above the melting point of the blade alloy, requiring internal cooling). Each 50°C increase in TIT improves thermal efficiency by roughly 1-2 percentage points and specific power by 5-10%.
+
+**Specific power**: Modern gas turbines produce 100-300 kW per kg/s of air mass flow. A 100 MW industrial gas turbine processes roughly 300-400 kg/s of air. The compressor absorbs 60-75% of the turbine's gross power output, leaving 25-40% as net useful shaft power. This is why combined-cycle operation is so attractive: the exhaust gas at 450-600°C still carries enormous energy that can drive a steam bottoming cycle.
+
+### Stirling Engine Operating Parameters
+
+**External combustion advantage**: Unlike internal combustion engines, the Stirling engine's working gas never contacts combustion products. The heat source warms the hot heat exchanger from outside, and the working gas (sealed permanently inside the engine) transfers that thermal energy into mechanical work. This means any heat source at sufficient temperature works: concentrated solar, biomass combustion, waste heat from industrial processes, geothermal, even radioisotope decay (as in space probes).
+
+**Working gas and pressure**: Helium and hydrogen are the preferred working gases due to their high thermal conductivity and low viscosity, which minimize heat exchanger losses. Operating pressures of 5-20 MPa mean the engine casing must be a pressure vessel. Air at atmospheric pressure works for simple demonstration engines but produces very low power density (roughly 1/10 the output of helium at equivalent pressure). Hydrogen offers the best thermodynamic performance but permeates steel at high temperature and is flammable if it leaks.
+
+**Temperature and efficiency**: Heater temperature typically 650-800°C, cooler temperature 20-60°C. Theoretical Carnot efficiency for 700°C heater and 40°C cooler: η_Carnot = 1 - 313/973 = 67.8%. Practical Stirling engines achieve 30-40% of thermal efficiency, meaning real-world output is roughly half the theoretical maximum. The gap comes from heat exchanger temperature differences, regenerator ineffectiveness, mechanical friction, and pressure drop through heat exchangers.
+
+### Diesel Engine Operating Parameters
+
+**Compression ignition detail**: The diesel engine compresses air alone to 14:1 to 24:1 ratio, raising the charge temperature to 700-900°C at top dead center. Fuel is injected directly into this hot compressed air. The auto-ignition temperature of diesel fuel is roughly 210°C, so the compressed air is well above the threshold. Ignition delay: 1-4 milliseconds. Injection begins 5-15° before TDC and continues 20-40° of crank rotation.
+
+**Injection pressure**: Modern common-rail systems operate at 100-200 MPa (1000-2000 bar). The high pressure atomizes fuel through orifices 0.1-0.3 mm in diameter into droplets of 5-50 μm. Older mechanical pumps achieve 30-100 MPa. Pilot injection (a small initial fuel quantity 2-5° before main injection) reduces combustion noise and peak pressure.
+
+**Fuel quality**: Cetane number ≥40 (preferably 45-55) for ignition quality. Viscosity: 2.0-4.5 cSt at 40°C. Sulfur: historically up to 2%, now limited to 10-50 ppm. Lubricity additives compensate for lubricating properties lost with sulfur removal.
+
+### Gas Turbine Operating Parameters
+
+**Brayton cycle**: Compressor pressure ratio 4:1 to 30:1. Early turbines at 4:1 to 8:1 achieved 20-28% efficiency. Modern units at 20:1 to 30:1 reach 35-40% simple-cycle. Turbine inlet temperature: 800-900°C (early), 1200-1400°C (modern industrial), 1500-1700°C (advanced aero). Each 50°C increase in TIT improves efficiency by roughly 1-2 percentage points.
+
+**Specific power**: Modern gas turbines produce 100-300 kW per kg/s of air mass flow. The compressor absorbs 60-75% of turbine gross power. Thermal efficiency: 25-40% simple cycle, 55-60% combined cycle (with steam bottoming cycle). Combined cycle is the most efficient commercial power generation cycle.
+
+**Diesel fuel injection timing**: Injection begins 5-15° before TDC. Timing is critical: too early causes excessive peak pressure and mechanical stress; too late reduces efficiency and raises exhaust temperature. At 1500 RPM, 40° of crank rotation takes roughly 4.4 milliseconds. Modern common-rail systems adjust timing electronically across the operating range for optimal emissions and efficiency at each load point.
+
+**Turbocharger boost and intercooling**: Turbocharger compressors spin at 80,000-250,000 RPM on precision oil-lubricated bearings. Boost pressure: 0.5-2.5 bar gauge, increasing power 30-100% for the same displacement. Intercoolers cool the compressed air (which heats during compression) back toward ambient, increasing air density and oxygen mass per cylinder fill. Intercooler effectiveness of 70-85% is typical with air-to-air or water-to-air designs.
+
+**Marine diesel engines**: Low-speed two-stroke diesels (50-250 RPM) directly coupled to the ship's propeller are the standard for commercial shipping. Thermal efficiency of 45-50% makes them the most efficient internal combustion engines in production. Cylinder bore up to 960 mm, stroke up to 2500 mm, individual cylinder output up to 7,000 kW. These engines burn heavy fuel oil (bunker fuel, viscosity up to 700 cSt at 50°C, requiring heated fuel systems).
+
+**Alternative fuels for IC engines**: Producer gas (wood gasification, CO + H₂ + N₂ mixture at ~5-6 MJ/m³) can power gasoline engines with carburetor modification, though at 40-60% of gasoline power output. Biodiesel from vegetable oil transesterification substitutes directly for petroleum diesel. Ethanol from fermentation can replace or blend with gasoline. These alternatives are critical for bootstrap economies without petroleum access.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*

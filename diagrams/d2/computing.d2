@@ -89,6 +89,8 @@ computing_internal: "Computing & Automation — Internal Structure" {
   computing_mechanical: Mechanical Calculation
   computing_electromechanical: Electromechanical Computing
   computing_electronic: Electronic Computing
+  computing_digital-logic: Digital Logic Design
+  computing_data-storage: Data Storage Systems
 }
 
 # ==================== DOMAIN NODE ====================
@@ -104,6 +106,9 @@ machine-tools: Machine Tools Bootstrap {
 metals: Metals {
   shape: rectangle
 }
+polymers_thermoplastics: Thermoplastic Polymers {
+  shape: rectangle
+}
 silicon_basic-devices: Basic Semiconductor Devices {
   shape: rectangle
 }
@@ -114,21 +119,28 @@ vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
 # ==================== EDGES ====================
 computing_electromechanical -> computing_mechanical: { class: tool-edge }
 computing_electronic -> computing_electromechanical: { class: tool-edge }
+computing_digital-logic -> computing: { class: tool-edge }
+computing_digital-logic -> computing_electronic: { class: material-edge }
+computing_data-storage -> computing: { class: tool-edge }
 vlsi-scaling_eda-design -> computing: { class: tool-edge }
 computing -> machine-tools: { class: tool-edge }
 computing_mechanical -> machine-tools: { class: tool-edge }
 computing_mechanical -> metals: { class: material-edge }
 computing_electromechanical -> energy_electricity: { class: material-edge }
 computing_electronic -> silicon_basic-devices: { class: material-edge }
+computing_data-storage -> polymers_thermoplastics: { class: material-edge }
 
 # ==================== STYLING ====================
 computing.class: domain
 computing_mechanical.class: capability
 computing_electromechanical.class: capability
 computing_electronic.class: capability
+computing_digital-logic.class: capability
+computing_data-storage.class: capability
 energy_electricity.class: external
 machine-tools.class: external
 metals.class: external
+polymers_thermoplastics.class: external
 silicon_basic-devices.class: external
 vlsi-scaling_eda-design.class: external
 

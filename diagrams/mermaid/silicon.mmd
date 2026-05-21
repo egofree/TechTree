@@ -10,6 +10,7 @@ graph TD
         silicon_crystal-growth["Crystal Growth & Wafering"]
         silicon_crystal-growth_cz-pulling["Czochralski Crystal Pulling"]
         silicon_basic-devices["Basic Semiconductor Devices"]
+        silicon_wafering["Wafer Slicing & Polishing"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -39,6 +40,9 @@ graph TD
     %% ==================== EDGES ====================
     silicon_basic-devices --> silicon_crystal-growth
     silicon_crystal-growth_cz-pulling -.-> silicon_crystal-growth
+    silicon_wafering -.-> silicon
+    silicon_wafering --> silicon_crystal-growth
+    silicon_basic-devices --> silicon_wafering
     silicon -.-> machine-tools
     silicon --> energy
     silicon --> chemistry
@@ -79,6 +83,7 @@ graph TD
     class silicon_crystal-growth capability
     class silicon_crystal-growth_cz-pulling process
     class silicon_basic-devices capability
+    class silicon_wafering capability
     class ceramics_advanced-ceramics external
     class chemistry external
     class chemistry_acids external

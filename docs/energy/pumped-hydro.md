@@ -122,6 +122,81 @@ Where:
 - **Grid infrastructure**: [electricity.md](electricity.md)
  - **Dam and civil engineering foundations**: [Foundations](../foundations/)
 
+### Reversible Pump-Turbine Design
+
+The Francis-type reversible pump-turbine is the standard machine for pumped hydro. The runner (3-6 m diameter for medium installations) has curved vanes that function efficiently in both directions of rotation. In generating mode, water enters radially through a spiral casing, passes through adjustable guide vanes (wicket gates) that control flow, turns 90° through the runner, and exits axially into the draft tube. In pumping mode, the sequence reverses: the motor drives the runner in the opposite direction, drawing water up through the draft tube and discharging radially through the spiral casing into the penstock.
+
+Operating speed for grid-connected units must be synchronous: 300, 333, 375, 428, 500, 600, 750, or 1000 RPM for 50 Hz systems (360, 400, 450, 514, 600, 720, 900, 1200 RPM for 60 Hz), determined by the formula N = 120f/p where f is grid frequency and p is number of pole pairs. The choice of speed depends on head and flow: high-head sites use higher-speed, smaller runners; low-head sites need slower, larger-diameter runners to avoid cavitation.
+
+Generator-motor efficiency runs 95-98% in both modes. Combined with hydraulic efficiency of 85-92% for the pump-turbine, this gives the overall round-trip efficiency of 70-85%. Large units (100+ MW) tend toward the upper end of each range due to reduced relative losses. The motor-generator is typically a vertical-shaft synchronous machine mounted directly above the pump-turbine, with the shaft running through the bearing housing. Thrust bearing (supports the entire rotating mass plus hydraulic downthrust) is one of the most critical components: Kingsbury or tilting-pad type, oil-lubricated, rated for loads of 500-5000 tonnes depending on unit size.
+
+### Penstock Construction
+
+The penstock carries water between the upper reservoir and the powerhouse under full static head pressure. Material and construction depend on head and diameter:
+
+**Wooden stave pipe** (suitable for low to medium head, up to 50-100 m):
+- Construction: Douglas fir or redwood staves (tangential-cut boards), 75-150 mm thick, assembled into a circular pipe with flat steel bands tightened around the exterior. Band spacing: 150-300 mm for low pressure, 75-150 mm for higher pressure. Diameter up to 3 m practical.
+- Joints between staves swell when wet, creating a watertight seal. The wood must be kept moist to maintain the seal; drying causes leakage.
+- Advantages: No steel required for the pipe body (only bands). Low friction coefficient (Hazen-Williams C = 110-120). Resistant to corrosion and mild acidic water.
+- Limitations: Maximum pressure limited by band strength and stave thickness. Not suitable above ~1 MPa internal pressure. Requires continuous maintenance of bands and protective coating.
+
+**Steel penstock** (medium to high head, standard for most installations):
+- Welded steel plate construction, 6-25 mm wall thickness depending on diameter and head. Steel grade: mild steel (yield strength 250-350 MPa) or high-strength low-alloy steel (yield 350-550 MPa) for high-head applications.
+- Wall thickness calculation: t = P × D / (2 × σ × η + P), where P = internal pressure (static head × 0.0098 MPa/m + water hammer allowance), D = diameter, σ = allowable stress (yield / safety factor, typically 1.5-2.0), η = weld joint efficiency (0.85-1.0).
+- Concrete anchor blocks every 30-50 m on sloped sections to prevent penstock movement from thermal expansion, water hammer, and gravity loads. Expansion joints or telescopic sleeves accommodate longitudinal thermal movement (0.012 mm/m/°C for steel).
+- Corrosion protection: Interior coating with coal tar epoxy or cement mortar lining. Exterior painting or wrapping. Cathodic protection (sacrificial zinc or magnesium anodes, or impressed current) for buried sections.
+- Pressure rating must include water hammer allowance. Sudden closure of turbine guide vanes can generate a pressure surge of 10-50% above static head, depending on closure time and penstock length. Surge tanks or pressure relief valves mitigate this.
+
+### Surge Tank
+
+A surge tank is a vertical shaft or standpipe connected to the penstock near the powerhouse, designed to absorb pressure transients from rapid load changes:
+
+- **Simple surge tank**: Vertical cylindrical shaft, 2-5 m diameter, extending 10-30 m above the headwater level (maximum surge height). Open to atmosphere at the top. When turbine load is suddenly rejected (guide vanes close), the water column in the penstock decelerates. Without a surge tank, the kinetic energy of the decelerating water column converts to a pressure spike (water hammer) that can rupture the penstock. The surge tank provides an expansion volume: water rises in the shaft, absorbing the transient, then oscillates back and forth with decreasing amplitude until friction damps the oscillation (typically 2-5 minutes to settle).
+- **Sizing**: Surge tank cross-sectional area must be large enough to keep the maximum surge level below the tank top and the minimum surge level above the penstock connection. A rule of thumb: the surge tank area should be 1.5-3× the penstock cross-sectional area. The volume between maximum and minimum surge levels should accommodate the full kinetic energy of the water column in the penstock (½ρALv², where A is penstock area, L is penstock length, v is water velocity).
+- **Restricted orifice surge tank**: An orifice plate at the base of the surge tank throttles flow in and out, providing additional damping. The orifice area is typically 30-50% of the penstock area. Higher damping means faster oscillation decay but more energy loss during transients.
+
+### Head Loss Calculation
+
+Friction losses in the penstock reduce the effective head available at the turbine. The Hazen-Williams formula provides a practical estimate:
+
+h_f = 10.67 × Q^1.852 / (C^1.852 × D^4.87)
+
+Where:
+- h_f = friction head loss per meter of penstock length (m/m)
+- Q = flow rate (m³/s)
+- C = Hazen-Williams roughness coefficient (100 for old steel, 120 for new steel, 140 for smooth concrete, 110-120 for wooden stave)
+- D = internal pipe diameter (m)
+
+For a penstock of total length L, total head loss: H_f = h_f × L. The net effective head at the turbine is H_gross - H_f, where H_gross is the elevation difference between reservoir surfaces. Penstock design targets head loss below 5-10% of gross head to maintain acceptable efficiency. Increasing diameter reduces head loss but raises material and construction costs. The economic diameter is the point where the present value of energy lost to friction equals the incremental cost of a larger pipe.
+
+Minor losses from bends, valves, and transitions add 5-15% to the straight-pipe friction loss. Each bend contributes a loss of K × v² / (2g), where K = 0.1-0.5 depending on bend angle and radius.
+
+### Site Selection Criteria
+
+Practical pumped hydro site evaluation requires matching four parameters:
+
+- **Head**: 50-1000 m. Higher head is better: energy stored per unit volume scales linearly with head, so a 500 m head site stores 5× the energy of a 100 m site per cubic meter of water. Sites below 50 m require impractically large reservoir volumes. Above 700 m, single-stage pump-turbines reach their limits and multi-stage machines are needed.
+- **Flow / storage volume**: Minimum continuous flow of 0.1 m³/s for initial filling and makeup water. Storage volume determined by upper reservoir surface area × drawdown depth. A 10-hectare reservoir (100,000 m²) with 5 m drawdown holds 500,000 m³ of usable storage.
+- **Horizontal distance between reservoirs**: Shorter is better. The ratio of head to horizontal distance (the "head-to-distance ratio") determines penstock length and cost. A site with 300 m head over 1 km horizontal distance (ratio 0.3) is far more economical than 300 m over 5 km (ratio 0.06). Steep terrain near river valleys or coastal cliffs offers the best ratios.
+- **Geological stability**: Bedrock capable of supporting dam foundations and (for underground powerhouses) stable rock for tunneling. No active faulting. Low permeability for the upper reservoir basin (or economically amendable with clay or geomembrane lining). Seismic risk assessment mandatory.
+
+### Powerhouse Design
+
+The powerhouse houses the pump-turbine, motor-generator, and associated equipment. For a pumped hydro installation, it is typically located at the lower reservoir level, either surface or underground:
+
+- **Surface powerhouse**: Concrete structure at the base of the head. Lower construction cost than underground. Suitable when the lower reservoir has suitable terrain adjacent to the penstock outlet. The turbine pit, generator floor, and auxiliary equipment rooms are arranged vertically. Crane capacity: 50-200 tonnes for installing and maintaining the rotating assembly.
+- **Underground powerhouse**: Excavated cavern in stable rock, accessible by tunnel. Unaffected by surface weather, flooding, or landslides. Permits shorter penstock runs (the tunnel to the upper reservoir can follow the most direct underground route). Common for high-head installations in mountainous terrain. Cavern dimensions for a 100 MW unit: approximately 20 m wide × 40 m tall × 50 m long. Requires ventilation shaft and access tunnel.
+- **Auxiliary systems**: Cooling water system for generator bearings and transformers (heat exchanger using lower reservoir water). Compressed air system for turbine dewatering (blowing water out of the runner to reduce drag when spinning in air during pump startup). Governor system (hydraulic actuator controlling wicket gate position to regulate turbine speed and power output).
+
+### Environmental Considerations
+
+Pumped hydro storage has a large physical footprint and several environmental impacts to manage:
+
+- **Reservoir footprint**: Upper and lower reservoirs inundate land. A 1 million m³ reservoir covering 10 hectares displaces that land from other use. Reservoir banks must be stabilized against erosion from daily water level fluctuations (the upper reservoir cycles through its full drawdown range daily, creating a 5-15 m "bathtub ring" of exposed shoreline susceptible to wave erosion).
+- **Water temperature and quality**: Pumped storage operation mixes water between reservoirs, potentially transferring warm surface water to deeper, cooler zones. Stratification patterns in the lower reservoir may be disrupted, affecting aquatic ecosystems. In tropical or temperate climates, the mixing can increase dissolved oxygen in deeper water (beneficial) or redistribute nutrients and sediment (potentially harmful).
+- **Evaporation losses**: Open reservoirs lose water to evaporation at 2-6 mm per day depending on climate (arid regions lose more). For a 10-hectare upper reservoir in a semi-arid climate: 10,000 m² × 4 mm/day = 40 m³/day lost, or ~14,600 m³/year. This must be replaced from a water source at the lower reservoir level. Net consumptive water use is modest compared to thermal power plant cooling but is not zero.
+- **Fish passage**: If the lower reservoir is on a river, fish passage (fish ladders or lifts) around the lower dam may be required to maintain migratory fish populations. Pump intakes must have screens to prevent fish entrainment.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*

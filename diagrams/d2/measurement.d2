@@ -88,6 +88,8 @@ classes: {
 measurement_internal: "Measurement & Instrumentation — Internal Structure" {
   measurement_precision-metrology: "Precision Metrology & Standards"
   measurement_temperature-pressure: "Temperature & Pressure Measurement"
+  measurement_electrical-instruments: Electrical Measurement Instruments
+  measurement_optical-instruments: Optical Measurement Instruments
 }
 
 # ==================== DOMAIN NODE ====================
@@ -112,6 +114,15 @@ machine-tools_casting: Metal Casting {
 metals: Metals {
   shape: rectangle
 }
+metals_powder-metallurgy: "Powder Metallurgy & Advanced Materials" {
+  shape: rectangle
+}
+optics_inspection: Optical Inspection {
+  shape: rectangle
+}
+optics_precision-instruments: Precision Optical Instruments {
+  shape: rectangle
+}
 silicon_crystal-growth: "Crystal Growth & Wafering" {
   shape: rectangle
 }
@@ -120,6 +131,8 @@ silicon_crystal-growth_cz-pulling: Czochralski Crystal Pulling {
 }
 
 # ==================== EDGES ====================
+measurement_electrical-instruments -> measurement: { class: tool-edge }
+measurement_optical-instruments -> measurement: { class: tool-edge }
 measurement_precision-metrology -> machine-tools_casting: { class: tool-edge }
 measurement -> machine-tools: { class: tool-edge }
 measurement -> chemistry: { class: material-edge }
@@ -129,17 +142,26 @@ measurement_precision-metrology -> metals: { class: tool-edge }
 silicon_crystal-growth_cz-pulling -> measurement_temperature-pressure: { class: tool-edge }
 measurement_temperature-pressure -> energy_electricity: { class: tool-edge }
 measurement_temperature-pressure -> metals: { class: material-edge }
+measurement -> metals_powder-metallurgy: { class: tool-edge }
+measurement_electrical-instruments -> energy_electricity: { class: tool-edge }
+measurement_optical-instruments -> optics_inspection: { class: tool-edge }
+measurement_precision-metrology -> optics_precision-instruments: { class: tool-edge }
 
 # ==================== STYLING ====================
 measurement.class: domain
 measurement_precision-metrology.class: capability
 measurement_temperature-pressure.class: capability
+measurement_electrical-instruments.class: capability
+measurement_optical-instruments.class: capability
 chemistry.class: external
 energy_electricity.class: external
 foundations.class: external
 machine-tools.class: external
 machine-tools_casting.class: external
 metals.class: external
+metals_powder-metallurgy.class: external
+optics_inspection.class: external
+optics_precision-instruments.class: external
 silicon_crystal-growth.class: external
 silicon_crystal-growth_cz-pulling.class: external
 

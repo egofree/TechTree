@@ -126,6 +126,78 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 - **Molten metal splash**: Pre-dry all charge. Face shield, leather apron.
 - **IR radiation cataracts**: Shaded lenses for furnace viewing.
 
+### EAF Construction Details
+
+**Shell geometry**: The EAF shell is a deep bowl-shaped cylindrical vessel, typically 3-8 m in diameter for commercial units. The bottom section is spherical or conical to collect molten steel. Shell construction is thick steel plate (25-50 mm) with external reinforcement rings. Water-cooled panels replace refractory on the upper sidewalls in modern designs: pipe coils (50-80 mm diameter copper or steel tube) welded to a steel backing plate, with water flowing through at 20-40 L/min per panel. These panels absorb the intense radiation from the arc zone and dramatically reduce refractory consumption.
+
+**Roof and charging**: The roof is either a swing-away or lift-off design to allow scrap charging via overhead crane and drop-bottom charging basket. A typical charge involves 2-3 basket loads to fill the furnace. The roof contains three electrode ports (water-cooled copper or steel rings) and a fourth port for off-gas extraction. Roof life: 500-2000 heats for water-cooled panel roofs.
+
+**Graphite electrodes**: Three electrodes, 200-700 mm diameter, suspended in a triangular (delta) arrangement from the roof. Electrode current: 20-80 kA at 200-800 V. Electrode consumption: 2-8 kg per tonne of steel, from oxidation, sublimation at the arc tip, and mechanical breakage. Electrodes are made in segments (1.5-2.5 m each) and joined with threaded nipples (carbon or graphite) as they are consumed from the bottom. Electrode regulation systems maintain arc impedance by adjusting electrode height at 2-5 mm/s response speed.
+
+**Tap-to-tap cycle**: A complete heat cycle (tap-to-tap time) runs 45-90 minutes. Breakdown: charging (5-10 min), melting (20-40 min at full power), refining and temperature adjustment (5-15 min), tapping (3-5 min). Productivity: 20-30 heats per day for a well-run furnace. Modern high-power EAFs with scrap preheating and oxygen lancing approach 45-minute cycles.
+
+### Submerged Arc Furnace Detail
+
+**Shell and lining**: The SAF shell is a large-diameter (3-12 m), relatively shallow steel cylinder lined with carbon blocks or rammed carbon mass. The carbon lining withstands the strongly reducing environment and temperatures above 1800°C that would destroy MgO or Al₂O₃ refractories. Lining life: 2-5 years for the sidewalls, though the hearth may last 10+ years. The shell is often open-top or semi-covered, with fume extraction hoods above.
+
+**Electrode systems**: Two main types. Söderberg self-baking electrodes: a steel casing (1-2 mm thick) is continuously filled with a paste of calcined anthracite, coal tar pitch, and petroleum coke. As the electrode descends through the furnace roof, the heat from the furnace bakes the paste into a solid carbon electrode in place. Diameter: 600-1500 mm. This avoids the expensive separate graphitization step. Prebaked electrodes: manufactured off-site like EAF electrodes, used for silicon and aluminum production where purity matters. Electrode consumption: 3-5 kg/MWh of electrical input for Söderberg systems in ferroalloy production.
+
+**Electrical system**: Three-phase AC power at 50-60 Hz, with 1-3 electrodes arranged in a line or triangle. Furnace transformer secondary voltage: 100-250 V. Current: 20-150 kA. Power factor is low (0.65-0.85) due to the long arc and resistance path; capacitor banks are required for correction. Electrode positioning controls power distribution across the charge bed.
+
+### Resistance Furnace Construction
+
+**Heating element materials in detail**:
+
+**Nichrome 80/20** (80% nickel, 20% chromium): The workhorse for furnaces up to 1150°C. Forms a thin, adherent Cr₂O₃ scale that protects the underlying alloy from further oxidation. Ductile when new, easily wound into coils or bent into zigzag elements. Resistivity: 1.08 Ω·mm²/m at 20°C. Life at 1100°C in air: 5,000-20,000 hours depending on duty cycle. Element temperature should be kept 50-100°C above furnace chamber temperature to maintain heat transfer.
+
+**Kanthal APM** (Fe-22Cr-5.8Al, with additions): Operates to 1400°C in air. Forms a protective Al₂O₃ scale instead of Cr₂O₃, which is more stable at high temperature. Higher resistivity (1.45 Ω·mm²/m) than Nichrome, meaning shorter elements for the same power. Becomes brittle after prolonged high-temperature exposure due to aluminum precipitation, making element replacement the norm rather than repair.
+
+**Molybdenum disilicide (MoSi₂)**: Operates to 1700-1800°C in oxidizing atmospheres. At high temperature, silicon oxidizes to form a viscous SiO₂ glass layer that self-heals cracks. This glassy coating is what makes MoSi₂ viable despite molybdenum's tendency to oxidize catastrophically. Brittle at all temperatures, requiring careful mounting and protection from mechanical shock. Often supplied as hairpin-shaped elements that hang from the furnace roof.
+
+**Silicon carbide (SiC)**: Rod or tubular elements operating to 1600°C. Non-metallic. Electrical resistance increases with age (silicon oxidation changes the composition), requiring periodic voltage adjustment to maintain power output. Very long service life under proper conditions (10,000+ hours at 1400°C). Silicon carbide has high thermal conductivity, reducing thermal gradients in the element.
+
+### Induction Heating
+
+**Coreless induction furnace**: A water-cooled copper coil surrounds a ceramic crucible containing the metal charge. Alternating current in the coil generates an oscillating magnetic field, inducing eddy currents in the conductive charge. The eddy currents heat the metal by I²R losses. No electrodes, no combustion gases, no contamination of the melt.
+
+**Frequency selection**: Lower frequency penetrates deeper into the charge. Mains frequency (50-60 Hz) suits large furnaces (1-30 tonnes) for iron and steel melting. Medium frequency (150-1000 Hz) suits smaller furnaces (0.1-5 tonnes) and provides better stirring. High frequency (1-10 kHz) for surface hardening and brazing of small parts.
+
+**Skin depth formula**: The effective penetration depth of the induced current is δ = 5030 × √(ρ / (μ × f)) mm, where ρ is the resistivity of the charge (Ω·mm²/m), μ is the relative magnetic permeability, and f is the frequency (Hz). For mild steel at room temperature (ρ ≈ 0.17 Ω·mm²/m, μ ≈ 100) at 50 Hz: δ ≈ 5030 × √(0.17 / (100 × 50)) ≈ 2.9 mm. At 1000 Hz: δ ≈ 0.65 mm. The charge diameter should be at least 3-4× the skin depth for efficient coupling.
+
+**Power density**: Coreless furnaces operate at 200-800 kW per tonne of capacity. A 1-tonne steel furnace at 500 kW melts cold scrap to 1600°C in roughly 45-60 minutes. Electrical efficiency: 60-75% (coil losses, thermal losses account for the rest).
+
+### EAF Shell and Electrode Construction
+
+**Shell geometry**: The EAF shell is a deep bowl-shaped cylindrical vessel, typically 3-8 m diameter for commercial units. The bottom section is spherical or conical to collect molten steel. Shell construction is thick steel plate (25-50 mm) with external reinforcement rings. Water-cooled panels replace refractory on the upper sidewalls: pipe coils (50-80 mm diameter copper or steel tube) welded to a steel backing plate, with water flowing at 20-40 L/min per panel. These panels absorb intense radiation from the arc zone and reduce refractory consumption.
+
+**Roof and charging**: The roof swings away or lifts off for scrap charging via overhead crane and drop-bottom basket. A typical charge involves 2-3 basket loads. The roof contains three electrode ports (water-cooled copper rings) and a fourth port for off-gas extraction. Roof life: 500-2000 heats for water-cooled panel roofs.
+
+**Graphite electrodes**: Three electrodes, 200-700 mm diameter, suspended in a delta arrangement. Electrode current: 20-80 kA at 200-800 V. Consumption: 2-8 kg per tonne of steel from oxidation and sublimation. Electrodes are made in segments (1.5-2.5 m each) joined with threaded nipples. Electrode regulation systems adjust height at 2-5 mm/s to maintain arc impedance.
+
+**Tap-to-tap cycle**: A complete heat cycle runs 45-90 minutes. Breakdown: charging (5-10 min), melting (20-40 min at full power), refining (5-15 min), tapping (3-5 min). Productivity: 20-30 heats per day.
+
+### Submerged Arc Furnace Detail
+
+**Shell and lining**: The SAF shell is a large-diameter (3-12 m), shallow steel cylinder lined with carbon blocks or rammed carbon. The carbon lining withstands the reducing environment and temperatures above 1800°C that would destroy MgO or Al₂O₃ refractories. Lining life: 2-5 years for sidewalls, 10+ years for the hearth.
+
+**Söderberg self-baking electrodes**: A steel casing (1-2 mm thick) is continuously filled with paste of calcined anthracite, coal tar pitch, and petroleum coke. As the electrode descends through the furnace roof, heat bakes the paste into solid carbon in place. Diameter: 600-1500 mm. Electrode consumption: 3-5 kg/MWh of electrical input for ferroalloy production. This avoids the expensive separate graphitization step required for prebaked electrodes.
+
+**Electrical system**: Three-phase AC at 50-60 Hz, with 1-3 electrodes. Furnace transformer secondary: 100-250 V, 20-150 kA. Power factor is low (0.65-0.85); capacitor banks required for correction.
+
+### Resistance Heating Elements in Detail
+
+**Nichrome 80/20** (80% nickel, 20% chromium): Workhorse for furnaces up to 1150°C. Forms a thin Cr₂O₃ scale protecting the alloy from further oxidation. Ductile when new, easily wound into coils. Resistivity: 1.08 Ω·mm²/m at 20°C. Life at 1100°C in air: 5,000-20,000 hours.
+
+**Kanthal APM** (Fe-22Cr-5.8Al): Operates to 1400°C in air. Forms protective Al₂O₃ scale, more stable than Cr₂O₃ at high temperature. Resistivity: 1.45 Ω·mm²/m. Becomes brittle after prolonged high-temperature exposure.
+
+**Molybdenum disilicide (MoSi₂)**: Operates to 1700-1800°C in oxidizing atmospheres. At high temperature, silicon oxidizes to form a viscous SiO₂ glass layer that self-heals cracks. Brittle at all temperatures, requiring careful mounting.
+
+**Silicon carbide (SiC)**: Rod elements operating to 1600°C. Non-metallic. Resistance increases with age, requiring periodic voltage adjustment. Service life: 10,000+ hours at 1400°C.
+
+### Induction Heating
+
+**Skin depth formula**: δ = 5030 × √(ρ / (μ × f)) mm, where ρ is resistivity (Ω·mm²/m), μ is relative magnetic permeability, f is frequency (Hz). For mild steel at room temperature at 50 Hz: δ ≈ 2.9 mm. Charge diameter should be at least 3-4× skin depth for efficient coupling.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*

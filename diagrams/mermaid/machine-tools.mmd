@@ -17,6 +17,7 @@ graph TD
     machine-tools["Machine Tools Bootstrap"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    animals_animal-materials("Animal-Derived Materials Processing")
     chemistry("Chemistry")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
     chemistry_packaging-testing("Semiconductor Packaging & Testing")
@@ -36,7 +37,10 @@ graph TD
     measurement("Measurement & Instrumentation")
     measurement_precision-metrology("Precision Metrology & Standards")
     metals("Metals")
+    metals_alloys("Specialty Alloys")
+    metals_forming("Primary Metal Forming")
     metals_iron-steel("Iron & Steel Production")
+    mining_drilling("Mechanical Drilling")
     optics("Optics")
     photolithography("Photolithography & IC Fabrication")
     polymers_composites("Composite Materials")
@@ -86,6 +90,11 @@ graph TD
     energy_steam-power_steam-turbines -.-> machine-tools_machining
     energy_gravity_water-turbines -.-> machine-tools_machining
     knowledge_printing -.-> machine-tools_machining
+    machine-tools_joining --> metals_alloys
+    metals_forming -.-> machine-tools
+    machine-tools_forming --> animals_animal-materials
+    machine-tools_iterative-bootstrap --> animals_animal-materials
+    mining_drilling -.-> machine-tools_machining
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -108,6 +117,7 @@ graph TD
     class machine-tools_forming capability
     class machine-tools_machining capability
     class machine-tools_joining capability
+    class animals_animal-materials external
     class chemistry external
     class chemistry_lubricants external
     class chemistry_packaging-testing external
@@ -127,7 +137,10 @@ graph TD
     class measurement external
     class measurement_precision-metrology external
     class metals external
+    class metals_alloys external
+    class metals_forming external
     class metals_iron-steel external
+    class mining_drilling external
     class optics external
     class photolithography external
     class polymers_composites external

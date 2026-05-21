@@ -23,8 +23,10 @@ graph TD
     chemistry_distillation("Distillation")
     chemistry_packaging-testing("Semiconductor Packaging & Testing")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
+    computing_data-storage("Data Storage Systems")
     energy_storage("Energy Storage & Diversification")
     foundations("Foundations")
+    glass_fibers("Glass Fiber Production")
     health("Public Health, Sanitation & Medicine")
     machine-tools("Machine Tools Bootstrap")
     photolithography_resists-masks("Photoresists, Masks & Lithography")
@@ -50,6 +52,8 @@ graph TD
     health --> polymers_rubber
     energy_storage --> polymers_rubber
     polymers_rubber_shellac --> chemistry_distillation
+    polymers_composites --> glass_fibers
+    computing_data-storage --> polymers_thermoplastics
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -78,8 +82,10 @@ graph TD
     class chemistry_distillation external
     class chemistry_packaging-testing external
     class chemistry_petroleum-alternatives external
+    class computing_data-storage external
     class energy_storage external
     class foundations external
+    class glass_fibers external
     class health external
     class machine-tools external
     class photolithography_resists-masks external

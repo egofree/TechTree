@@ -97,6 +97,9 @@ transport_internal: "Transportation & Logistics — Internal Structure" {
 transport: "Transportation & Logistics"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+animals_draft-power: "Animal Draft Power & Harnessing" {
+  shape: rectangle
+}
 chemistry_acids: Mineral Acid Production {
   shape: rectangle
 }
@@ -128,6 +131,12 @@ machine-tools: Machine Tools Bootstrap {
   shape: rectangle
 }
 metals: Metals {
+  shape: rectangle
+}
+metals_aluminum: Aluminum Production {
+  shape: rectangle
+}
+metals_forming: Primary Metal Forming {
   shape: rectangle
 }
 metals_iron-steel: "Iron & Steel Production" {
@@ -164,6 +173,9 @@ transport_telegraph -> chemistry_acids: { class: tool-edge }
 transport -> mining_extraction: { class: tool-edge }
 transport -> energy_fuels: { class: tool-edge }
 transport -> chemistry_coatings: { class: material-edge }
+transport_aviation -> metals_aluminum: { class: material-edge }
+transport_railways -> metals_forming: { class: material-edge }
+transport_roads -> animals_draft-power: { class: tool-edge }
 
 # ==================== STYLING ====================
 transport.class: domain
@@ -172,6 +184,7 @@ transport_railways.class: capability
 transport_shipping.class: capability
 transport_aviation.class: capability
 transport_telegraph.class: capability
+animals_draft-power.class: external
 chemistry_acids.class: external
 chemistry_coatings.class: external
 chemistry_petroleum-alternatives.class: external
@@ -183,6 +196,8 @@ energy_steam-power.class: external
 foundations_tools-basic.class: external
 machine-tools.class: external
 metals.class: external
+metals_aluminum.class: external
+metals_forming.class: external
 metals_iron-steel.class: external
 mining.class: external
 mining_extraction.class: external

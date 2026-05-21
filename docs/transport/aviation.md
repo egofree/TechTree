@@ -142,12 +142,65 @@ Without propulsion technology, civilization is limited to ground and water trans
 - Ground test infrastructure (engine test stand, runway)
 - Progressive flight test program with inspection protocol
 
+## Flight Instruments & Navigation
+
+### Basic Instruments
+
+**Altimeter** (barometric):
+- An aneroid barometer calibrated in altitude. A sealed metal capsule (thin-walled brass or beryllium copper, partially evacuated) expands as atmospheric pressure decreases with altitude. A mechanical linkage converts capsule expansion to needle rotation on a dial marked 0-3000 m (or higher). Sensitivity: 10 m per hPa pressure change near sea level.
+- Setting: the altimeter reads correctly only if set to the local barometric pressure at the departure airfield before flight (QFE setting gives height above the airfield; QNH setting gives altitude above mean sea level). Forgetting to set the altimeter is a leading cause of controlled-flight-into-terrain accidents. Altimeter error in non-standard temperatures: cold air (denser than standard) causes the altimeter to over-read (aircraft is lower than indicated). Rule of thumb: 4% error per 10°C deviation from standard temperature.
+
+**Airspeed indicator** (pitot-static):
+- A pitot tube (open-ended tube facing forward into the airstream) measures total pressure (static + dynamic). A static port (flush opening on the fuselage side) measures ambient static pressure. The instrument subtracts static from total pressure to obtain dynamic pressure: q = ½ρv². The dial is calibrated in km/h (or knots) assuming standard sea-level air density (1.225 kg/m³).
+- At altitude, air density is lower than at sea level, so the indicated airspeed reads lower than true airspeed. At 2000 m altitude (ρ = 1.0 kg/m³), an indicated airspeed of 80 km/h corresponds to a true airspeed of 80 × √(1.225/1.0) = 89 km/h. The pilot must apply a density altitude correction to get groundspeed for navigation.
+- Stalling speed, maneuvering speed, and structural limits are all functions of indicated airspeed, not true airspeed. The pilot flies by indicated airspeed regardless of altitude.
+
+**Magnetic compass**:
+- A magnetized needle or card pivoting on a jewel bearing in a fluid-filled case (mineral oil dampens oscillation). Reads magnetic heading relative to Earth's magnetic field. Errors: deviation (magnetic fields from the engine and steel airframe distort the compass reading; compensate with small corrector magnets, and record residual deviation on a correction card mounted next to the compass, e.g., "for N steer 358°, for E steer 092°").
+- Acceleration error: on east/west headings, accelerating makes the compass swing toward north, decelerating toward south. Turning error: during a banked turn, the compass lags on northerly headings and leads on southerly headings. The rule "north lags, south leads" reminds pilots to roll out of turns early on cardinal headings.
+
+### Navigation Calculations
+
+**Wind triangle**:
+- Three vectors: heading/airspeed (the direction the aircraft points and its speed through the air), wind direction/speed (the movement of the air mass), and track/groundspeed (the actual path over the ground). The heading vector plus the wind vector equals the track vector.
+- Wind correction angle (WCA): the angular difference between heading and track. If wind blows from the left, the pilot steers into the wind (right of the desired track) to maintain the desired ground track. WCA = arcsin(wind_speed × sin(wind_angle) / true_airspeed). For a 30 km/h crosswind component at 90 km/h true airspeed: WCA = arcsin(30/90 × sin(90°)) = arcsin(0.33) = 19°.
+- Groundspeed: true airspeed adjusted for the headwind or tailwind component along the track. Groundspeed = √(TAS² + wind_speed² - 2 × TAS × wind_speed × cos(wind_angle_to_track)). A 15 km/h headwind at 90 km/h TAS gives 75 km/h groundspeed. Over a 150 km leg, flight time = 150/75 = 2.0 hours. A 15 km/h tailwind gives 105 km/h groundspeed and 1.43 hours for the same leg.
+
+**Dead reckoning for aircraft**:
+- Plot the intended course on a map. Measure distance and true heading. Apply magnetic variation (difference between true north and magnetic north, varies by location, shown on aviation charts) to get magnetic heading. Apply compass deviation from the correction card to get compass heading.
+- Calculate groundspeed from TAS and wind. Divide leg distance by groundspeed to get estimated time en route (ETE). Multiply fuel consumption rate (8-12 kg/hour for a 40 HP engine) by ETE to get fuel required. Add 30 minutes reserve fuel (mandatory for VFR flight).
+
+### Doped Fabric Construction
+
+**Fabric shrinkage and tensioning**:
+- Cotton and linen fabric shrinks when treated with nitrocellulose dope. The dope solvent (acetone + butyl acetate) evaporates and the nitrocellulose film contracts, pulling the fabric drum-tight. Cotton shrinks approximately 5-10% overall through the doping process. This tension is what gives the fabric covering its aerodynamic smoothness and structural contribution (a doped fabric panel resists air loads in the same way a drum head resists a drumstick).
+- A typical covering sequence: 2 coats of clear dope (saturates fabric, bonds to airframe), 2-3 coats of aluminum-pigmented dope (UV barrier), 2-3 coats of colored finish dope. Total applied weight: 80-120 g/m² of dope on top of 100-200 g/m² of base fabric. A 15 m² wing panel therefore carries 3-5 kg of doped fabric.
+- Inspection: tap the fabric with a light fingertip. A drum-tight "ping" sound indicates good tension. A dull "thud" means the fabric has lost tension (dope aging, moisture damage) and needs re-doping or replacement. Fabric tension test: a standard probe (3 mm diameter rod under 1.5 kg load) should not depress the fabric more than 15 mm at mid-bay between ribs.
+
+**Wood spar design considerations**:
+- Spruce and Douglas fir are the preferred spar materials because of their high specific strength (strength-to-weight ratio). Sitka spruce: density 450 kg/m³, bending strength 75 MPa, modulus of elasticity 11 GPa. Specific strength = 75 × 10⁶ / 450 = 167 kN·m/kg. By comparison, mild steel: density 7850 kg/m³, bending strength 250 MPa, specific strength = 32 kN·m/kg. Spruce is 5× better than steel per unit mass in bending.
+- I-beam spar: two flanges (top and bottom, bearing the bending loads) separated by a web (bearing shear loads). Flange area sized by maximum bending moment: M = (load × span²) / 8 for a uniformly loaded beam. For a 10 m wing spar carrying 2000 N/m lift load: M = 2000 × 10² / 8 = 25,000 N·m. Required section modulus Z = M / σ_allowable = 25,000 / (10 × 10⁶) = 0.0025 m³ (using allowable stress of 10 MPa with safety factor applied to the 75 MPa ultimate).
+- Box spar: two vertical plywood webs between upper and lower spruce cap strips. The plywood web carries shear; the cap strips carry bending. Box spars resist torsion better than I-beams because the closed cross-section has much higher torsional stiffness. Glue joints between web and caps are critical: any gap or poor glue bond creates a stress concentration and potential failure origin.
+
 ## Safety Concerns
 
 - **Engine failure in flight**: Plan glide approaches (identify emergency landing spots). Aircraft must be able to glide without engine (glide ratio 8:1 typical for ultralight — at 50 m altitude, can glide 400 m to landing).
 - **Structural failure**: Do not exceed design load limits (typically +4g / -2g). Avoid steep spirals, high-speed dives, abrupt control inputs. Progressive flight envelope expansion.
 - **Fire**: Fuel + hot engine + air. Firewall (steel sheet between engine and cockpit). Fuel lines routed away from exhaust. No fuel leaks tolerated. Fire extinguisher accessible in cockpit.
 - **Dope fumes**: Highly flammable. Apply outdoors or in well-ventilated hangar. No smoking, no sparks. Ground aircraft during doping (static electricity ignites fumes).
+- **Spatial disorientation**: Without visual reference to the horizon (clouds, fog, darkness), pilots lose sense of up and within 60 seconds. Trust instruments, not sensations. If caught in cloud, maintain wings-level attitude by reference to the turn needle (or compass rate of change) and descend gently straight ahead. Do not turn without visual reference.
+- **Carburetor icing**: Moist air passing through the venturi cools by expansion (adiabatic cooling). At temperatures between -5°C and +25°C with high humidity, ice can form in the carburetor throat, gradually choking the airflow until the engine stops. Indicated by a gradual RPM decrease. Preventive action: apply carburetor heat (duct warm air from around the exhaust manifold into the carburetor intake) before ice forms in suspected conditions. Carb heat causes a temporary RPM drop (less dense warm air) but prevents engine failure.
+- **Weather minimums**: Fly only in visual meteorological conditions (VMC): visibility ≥1.5 km, clear of clouds, in sight of the ground. Cloud base above 300 m for safe terrain clearance. Do not launch into fog, low overcast, heavy rain, or thunderstorms. Ultralight aircraft have no de-icing capability and minimal structural margin for turbulence. A cumulonimbus (thunderstorm) can produce updrafts and downdrafts exceeding 20 m/s, far beyond the structural capability of a light airframe.
+- **Fuel exhaustion**: The most preventable cause of forced landings. Calculate fuel required for each leg plus 30-minute reserve. Visually verify fuel quantity before flight (dip the tank with a calibrated stick or sight gauge). Do not rely on memory of the last refueling. A 40 HP engine at cruise consumes 8-12 kg/hour. A 20 kg fuel tank gives 1.5-2.5 hours endurance.
+- **Midair collision**: See and avoid other aircraft. Scan the sky in 10° sectors, pausing at each sector for 1-2 seconds to detect traffic. Blind spots below the nose and behind the tail. Fly standard traffic patterns (left-hand circuits at 300-400 m altitude, downwind leg parallel to runway) at designated airfields to maintain predictable separation.
+- **Bird strike**: Birds can shatter propellers, puncture fabric covering, or jam control surfaces. A 1 kg bird at 90 km/h relative speed delivers 312 J of kinetic energy, enough to dent sheet metal or tear fabric. Avoid flying at dawn and dusk when birds are most active near rivers and coastlines. If a bird strikes the propeller, land and inspect before continuing flight (hairline cracks in wooden propellers propagate to catastrophic failure under centrifugal load).
+
+### Aviation Fuel Specifications
+
+**Avgas 80/87**: The standard low-lead aviation gasoline for low-compression engines. Octane rating 80 (lean mixture) / 87 (rich mixture). Leaded with tetraethyl lead (TEL) at 0.5 mL/L to boost octane and lubricate valves. Color: red dye. Suitable for engines with compression ratios up to 7:1. Phased out in many countries but still the simplest aviation fuel to refine from petroleum.
+
+**Aviation kerosene (Jet A / Jet A-1)**: The standard turbine fuel. Flash point 38°C minimum (safe handling). Freeze point: -40°C for Jet A, -47°C for Jet A-1 (the lower freeze point enables long-range high-altitude flight where fuel temperatures drop below -30°C). Energy density: 43.15 MJ/kg (higher than gasoline at 43.0 MJ/kg by mass, though lower by volume due to higher density). Specific gravity: 0.775-0.840 at 15°C. Distillation range: 150-300°C boiling fraction from petroleum crude.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [Transport](./) • [All Domains](../)*

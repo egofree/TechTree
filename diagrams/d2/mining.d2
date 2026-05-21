@@ -90,12 +90,17 @@ mining_internal: "Mining Engineering & Extractive Metallurgy — Internal Struct
   mining_processing: Ore Processing
   mining_prospecting: "Prospecting & Surveying"
   mining_extraction_black-powder: Black Powder Explosives
+  mining_drilling: Mechanical Drilling
+  mining_ventilation: Mine Ventilation
 }
 
 # ==================== DOMAIN NODE ====================
 mining: "Mining Engineering & Extractive Metallurgy"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+animals_draft-power: "Animal Draft Power & Harnessing" {
+  shape: rectangle
+}
 ceramics_advanced-ceramics: "Advanced Ceramics & Refractories" {
   shape: rectangle
 }
@@ -126,6 +131,9 @@ energy_fuels_coal: "Coal Mining & Combustion" {
 energy_fuels_coke: Coke Production {
   shape: rectangle
 }
+energy_steam-power: Steam Power {
+  shape: rectangle
+}
 foundations: Foundations {
   shape: rectangle
 }
@@ -138,10 +146,19 @@ glass_basic: Basic Glass Production {
 knowledge_writing: "Writing & Record-Keeping" {
   shape: rectangle
 }
+machine-tools_machining: Machining {
+  shape: rectangle
+}
 metals: Metals {
   shape: rectangle
 }
+metals_aluminum: Aluminum Production {
+  shape: rectangle
+}
 metals_copper-bronze: "Copper & Bronze Production" {
+  shape: rectangle
+}
+metals_non-ferrous: Non-Ferrous Metal Production {
   shape: rectangle
 }
 silicon_mg-si-production: Metallurgical-Grade Silicon Production {
@@ -158,6 +175,8 @@ transport_roads: "Road & Bridge Construction" {
 mining_extraction -> mining_prospecting: { class: tool-edge }
 mining_processing -> mining_extraction: { class: material-edge }
 mining_extraction_black-powder -> mining_extraction: { class: tool-edge }
+mining_drilling -> mining: { class: tool-edge }
+mining_ventilation -> mining: { class: tool-edge }
 metals -> mining: { class: material-edge }
 glass_basic -> mining: { class: material-edge }
 energy_fuels_coal -> mining: { class: material-edge }
@@ -178,6 +197,12 @@ ceramics_advanced-ceramics -> mining: { class: material-edge }
 mining_extraction_black-powder -> chemistry_explosives: { class: material-edge }
 transport -> mining_extraction: { class: tool-edge }
 chemistry_refractories -> mining: { class: material-edge }
+metals_aluminum -> mining: { class: material-edge }
+metals_non-ferrous -> mining: { class: material-edge }
+mining_extraction -> animals_draft-power: { class: tool-edge }
+mining_drilling -> energy_steam-power: { class: tool-edge }
+mining_drilling -> machine-tools_machining: { class: tool-edge }
+mining_ventilation -> energy_steam-power: { class: tool-edge }
 
 # ==================== STYLING ====================
 mining.class: domain
@@ -185,6 +210,9 @@ mining_extraction.class: capability
 mining_processing.class: capability
 mining_prospecting.class: capability
 mining_extraction_black-powder.class: process
+mining_drilling.class: capability
+mining_ventilation.class: capability
+animals_draft-power.class: external
 ceramics_advanced-ceramics.class: external
 ceramics_lime.class: external
 chemistry_acids.class: external
@@ -195,12 +223,16 @@ chemistry_refractories.class: external
 energy_fuels.class: external
 energy_fuels_coal.class: external
 energy_fuels_coke.class: external
+energy_steam-power.class: external
 foundations.class: external
 foundations_tools-basic.class: external
 glass_basic.class: external
 knowledge_writing.class: external
+machine-tools_machining.class: external
 metals.class: external
+metals_aluminum.class: external
 metals_copper-bronze.class: external
+metals_non-ferrous.class: external
 silicon_mg-si-production.class: external
 transport.class: external
 transport_roads.class: external

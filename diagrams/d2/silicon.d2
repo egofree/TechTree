@@ -91,6 +91,7 @@ silicon_internal: "Silicon — Internal Structure" {
   silicon_crystal-growth: "Crystal Growth & Wafering"
   silicon_crystal-growth_cz-pulling: Czochralski Crystal Pulling
   silicon_basic-devices: Basic Semiconductor Devices
+  silicon_wafering: "Wafer Slicing & Polishing"
 }
 
 # ==================== DOMAIN NODE ====================
@@ -158,6 +159,9 @@ photolithography: "Photolithography & IC Fabrication" {
 # ==================== EDGES ====================
 silicon_basic-devices -> silicon_crystal-growth: { class: material-edge }
 silicon_crystal-growth_cz-pulling -> silicon_crystal-growth: { class: tool-edge }
+silicon_wafering -> silicon: { class: tool-edge }
+silicon_wafering -> silicon_crystal-growth: { class: material-edge }
+silicon_basic-devices -> silicon_wafering: { class: material-edge }
 silicon -> machine-tools: { class: tool-edge }
 silicon -> energy: { class: material-edge }
 silicon -> chemistry: { class: material-edge }
@@ -185,6 +189,7 @@ silicon_purification.class: capability
 silicon_crystal-growth.class: capability
 silicon_crystal-growth_cz-pulling.class: process
 silicon_basic-devices.class: capability
+silicon_wafering.class: capability
 ceramics_advanced-ceramics.class: external
 chemistry.class: external
 chemistry_acids.class: external

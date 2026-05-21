@@ -153,6 +153,9 @@ glass: Glass {
 glass_advanced_glassblowing: Glassblowing and Scientific Apparatus {
   shape: rectangle
 }
+health_medical-instruments: Medical Instrument Manufacturing {
+  shape: rectangle
+}
 machine-tools: Machine Tools Bootstrap {
   shape: rectangle
 }
@@ -165,10 +168,22 @@ machine-tools_joining: Metal Joining {
 machine-tools_machining: Machining {
   shape: rectangle
 }
+measurement_electrical-instruments: Electrical Measurement Instruments {
+  shape: rectangle
+}
 measurement_temperature-pressure: "Temperature & Pressure Measurement" {
   shape: rectangle
 }
 metals: Metals {
+  shape: rectangle
+}
+metals_alloys: Specialty Alloys {
+  shape: rectangle
+}
+metals_aluminum: Aluminum Production {
+  shape: rectangle
+}
+metals_forming: Primary Metal Forming {
   shape: rectangle
 }
 metals_iron-steel: "Iron & Steel Production" {
@@ -177,10 +192,22 @@ metals_iron-steel: "Iron & Steel Production" {
 metals_iron-steel_blast-furnace: Blast Furnace and Cast Iron {
   shape: rectangle
 }
+metals_powder-metallurgy: "Powder Metallurgy & Advanced Materials" {
+  shape: rectangle
+}
+metals_steelmaking: Modern Steelmaking {
+  shape: rectangle
+}
 mining: "Mining Engineering & Extractive Metallurgy" {
   shape: rectangle
 }
+mining_drilling: Mechanical Drilling {
+  shape: rectangle
+}
 mining_processing: Ore Processing {
+  shape: rectangle
+}
+mining_ventilation: Mine Ventilation {
   shape: rectangle
 }
 plants: "Plants & Botanical Resources" {
@@ -274,6 +301,16 @@ glass_advanced_glassblowing -> energy_fuels: { class: tool-edge }
 transport -> energy_fuels: { class: tool-edge }
 plants -> energy_fuels: { class: material-edge }
 chemistry_ammonia -> energy: { class: material-edge }
+metals_steelmaking -> energy_fuels: { class: material-edge }
+metals_aluminum -> energy_electricity: { class: tool-edge }
+energy_steam-power_steam-turbines -> metals_alloys: { class: material-edge }
+energy_steam-power -> metals_forming: { class: material-edge }
+metals_powder-metallurgy -> energy_electric-furnaces: { class: tool-edge }
+metals_alloys -> energy_fuels: { class: tool-edge }
+mining_drilling -> energy_steam-power: { class: tool-edge }
+mining_ventilation -> energy_steam-power: { class: tool-edge }
+measurement_electrical-instruments -> energy_electricity: { class: tool-edge }
+health_medical-instruments -> energy_steam-power: { class: tool-edge }
 
 # ==================== STYLING ====================
 energy.class: domain
@@ -308,16 +345,25 @@ foundations_fire.class: external
 gas-handling.class: external
 glass.class: external
 glass_advanced_glassblowing.class: external
+health_medical-instruments.class: external
 machine-tools.class: external
 machine-tools_forming.class: external
 machine-tools_joining.class: external
 machine-tools_machining.class: external
+measurement_electrical-instruments.class: external
 measurement_temperature-pressure.class: external
 metals.class: external
+metals_alloys.class: external
+metals_aluminum.class: external
+metals_forming.class: external
 metals_iron-steel.class: external
 metals_iron-steel_blast-furnace.class: external
+metals_powder-metallurgy.class: external
+metals_steelmaking.class: external
 mining.class: external
+mining_drilling.class: external
 mining_processing.class: external
+mining_ventilation.class: external
 plants.class: external
 polymers_rubber.class: external
 silicon.class: external

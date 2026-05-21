@@ -101,6 +101,101 @@
 - **Chemical etchants**: Lens and prism preparation may use hydrofluoric acid (HF) for glass etching — HF penetrates skin, attacks bone, causes delayed deep-tissue necrosis. Calcium gluconate gel must be available as first aid. Cerium oxide and rouge (Fe₂O₃) polishing slurries are low hazard but avoid inhalation of dried powders.
 - **Vacuum chamber implosion**: Glass vacuum tubes and bell jars under vacuum can collapse violently. Wrap with tape or mesh, wear face shield during evacuation. Never use chipped or scratched glassware under vacuum.
 
+### Visual Inspection Standards
+
+**Scratch and dig classification (MIL-PRF-13830)**:
+- The military specification for optical component surface quality. Every polished optical surface has minor imperfections. Scratch/dig specifies the maximum allowable size.
+- **Scratch number**: 10, 20, 40, 60, 80. The number is NOT a physical dimension in any unit. It is a brightness comparison: a scratch of number S has the same scattering brightness as a standard scratch of width S μm when viewed under specified illumination. A scratch of number 10 is barely visible under 10× magnification; scratch 80 is visible to the naked eye.
+- **Dig number**: Directly specifies the maximum dig (pit) diameter in hundredths of a millimeter. Dig 5 means pits no larger than 0.5 mm diameter. Dig 0.2 means pits no larger than 0.02 mm (20 μm).
+- **Typical specifications**: 60/40 for general visual optics (eyepieces, finderscopes). 40/20 for camera lenses and binoculars. 20/10 for imaging optics and precision instruments. 10/5 for laser optics and photolithography lenses (any defect scatters laser energy or creates imaging artifacts).
+- **Inspection method**: View the surface against a dark background with a bright, collimated light source at 5-10× magnification for routine inspection. Use 20-50× magnification for scratch/dig 20/10 and better. Compare suspect features against certified standard scratches on a reference piece. The inspection is subjective and requires trained operators.
+
+### Interferometric Flatness Measurement
+
+**Fizeau interferometer**:
+- The workhorse instrument for measuring surface flatness and transmitted wavefront quality of optical components. A laser beam (typically HeNe, 632.8 nm) is expanded and collimated, then directed through a reference flat (a fused silica reference surface of known flatness, typically λ/20 or better). The reference flat and the test surface are placed in close proximity with a small wedge angle. Reflected beams from the two surfaces interfere, producing fringe patterns.
+- **Fringe interpretation**: Each fringe represents one wavelength (632.8 nm) of height difference between the reference and test surfaces. Straight, equally-spaced fringes indicate a flat surface. Curved or irregular fringes indicate surface errors. A deviation of one fringe from straightness = λ (632.8 nm or ~0.63 μm) surface error. Modern digital interferometers capture fringe images and compute surface maps automatically.
+- **Accuracy**: λ/20 (~32 nm) for a good Fizeau interferometer with a λ/20 reference flat. The reference flat is the accuracy limiter. For higher accuracy, use a calibrated reference and subtract its known errors from the measurement.
+- **Applications**: Measure flatness of optical flats, mirror substrates, prism faces, and semiconductor wafer chucks. Measure parallelism of windows (transmitted wavefront). Measure radius of curvature of lenses (by measuring test plate contact fringes).
+
+**Twyman-Green interferometer**:
+- A variant suited for testing transmitted wavefront through a complete optical system (lenses, prisms, windows). The beam is split into reference and test arms. The test arm passes through the optic under test. The recombined beams form interference fringes that reveal the total wavefront error (surface figure + internal homogeneity + refractive index variations).
+- Used to certify complete lens assemblies and imaging systems. A camera lens specified as λ/4 wavefront error is tested on a Twyman-Green or similar interferometer.
+
+### Surface Roughness Measurement
+
+**Stylus profilometer**:
+- A diamond-tipped stylus (tip radius 2-5 μm) is drawn across the surface at constant speed (10-100 μm/s) with a light contact force (0.5-1.0 mg). The stylus rides over surface irregularities, and its vertical displacement is measured by an inductive or capacitive transducer. The vertical signal is recorded as a profile of surface height vs. position.
+- **Vertical resolution**: 0.1 nm (1 Å) for a good stylus profilometer. Horizontal resolution limited by stylus tip radius (~2 μm). Features smaller than the tip radius are averaged out.
+- **Scan length**: 50 μm to several millimeters. Longer scans average over larger areas. Short scans capture fine structure.
+- **Output parameters**: Ra (arithmetic average roughness, typically 0.5-10 nm for polished optics), Rq (RMS roughness), Rz (average peak-to-valley height). For a well-polished optical surface, Ra < 1 nm.
+- **Limitations**: The stylus contacts the surface, risking damage on soft coatings. Slow (one profile at a time). Does not provide a 2D surface map without repeated scans.
+
+**White light interferometer (optical profilometer)**:
+- Non-contact surface measurement using white light interferometry. A Michelson or Mirau interferometer objective focuses on the test surface. When the surface is at the exact focal position of the reference mirror, interference fringes appear with maximum contrast. A vertical scan maps the fringe contrast vs. height position at each pixel, producing a 3D surface height map.
+- **Vertical resolution**: 0.01 nm (0.1 Å). Lateral resolution: ~0.5 μm (limited by microscope objective NA). Field of view: 50-500 μm depending on objective magnification.
+- **Advantage over stylus**: non-contact (no damage risk), fast (full 3D map in seconds), higher vertical resolution. Especially suited for measuring polished optical surfaces, thin film step heights, and MEMS devices.
+- **Limitation**: requires a reflective surface (transparent samples may need a thin metallic coating). Vibration-sensitive during measurement.
+
+### Dimensional Inspection
+
+**Optical comparator**:
+- Projects a magnified silhouette of the part onto a screen (10-100× magnification). The operator compares the shadow against a mylar overlay drawing with tolerance bands, or measures dimensions directly on the screen with digital readout.
+- Applications: thread profiles, gear tooth profiles, small machined parts, stamped components. Quick, non-contact, and suited for production floor inspection where coordinate measuring machines are too slow or expensive. Accuracy: ±0.01 mm at 20× magnification.
+- Chart projection: the screen is a ground glass disk. A collimated light source illuminates the part from behind, casting a sharp shadow. The lens system determines magnification. Longer working distance objectives measure thicker parts. Helix adjustment on the stage tilts screw threads to present a true profile.
+
+**Toolmaker's microscope**:
+- A precision measuring microscope with a coordinate stage (X-Y travel 50-150 mm, readout resolution 0.001 mm). The stage uses linear encoder scales for direct digital position readout. Crosshair eyepiece or video camera with on-screen measurement cursors. Magnification: 10-200×.
+- Applications: measure small feature dimensions (hole diameters, thread pitch, gear tooth spacing), angles (rotary stage or protractor eyepiece with 1 arc-minute resolution), and distances between features. The 0.001 mm (1 μm) resolution makes it suitable for inspecting precision machined parts, gauge blocks, and small optical components.
+
+### Defect Classification for Optical Glass
+
+Per MIL-G-174B (military specification for optical glass), defects are classified by type:
+
+- **Scratches**: Linear marks on the polished surface from grinding, polishing, or handling. Classified by length and visibility. Long scratches (>10 mm) are more serious than short scratches of equal brightness because they intercept a larger portion of the light path.
+- **Digs (pits)**: Circular or irregular depressions in the surface. Caused by abrasive inclusions, bubble exposure during polishing, or impact. Classified by diameter. Multiple small digs are less harmful than one large dig of equivalent total area.
+- **Bubbles**: Internal gas-filled voids trapped during glass melting. Appear as bright spots when viewed with side illumination. Classified by diameter and number per unit volume. Small bubbles (<0.1 mm) scatter some light but are acceptable in most visual optics. Large bubbles (>0.5 mm) are rejectable for precision lenses.
+- **Inclusions (stones, cords)**: Solid particles (unmelted batch material, refractory fragments) or streaks (composition variation from incomplete mixing) within the glass body. Stones scatter light and cause localized stress. Cords produce refractive index variations that distort transmitted wavefront. Both detected by schlieren or shadowgraph inspection.
+- **Striae**: Thread-like regions of slightly different refractive index, caused by incomplete homogenization during melting. Visible as wavy distortions when viewing a grid pattern through the glass. Grade A striae (none visible) required for precision lenses. Grade B (minor striae) acceptable for illumination and condenser optics.
+
+### Optical Assembly and Alignment
+
+Building functional optical instruments from individual components requires systematic alignment:
+
+- **Lens centering**: A lens must be mounted so that its mechanical axis coincides with its optical axis. Mount the lens in a precision cell on a lathe. Shine a laser through the lens while rotating the cell. If the reflected or transmitted beam wobbles, the lens is decentered. Adjust until the beam is stationary during rotation. Centration tolerance: 0.01-0.1 mm depending on the application.
+- **Collimation testing**: Point a laser through the assembled optical system. Project the output beam onto a distant wall (10-30 m). A collimated beam maintains constant diameter at all distances. A converging beam shrinks; a diverging beam expands. Adjust spacing between lens elements until the beam diameter is constant across the test distance.
+- **Star test**: Observe a point source (distant star or artificial pinhole) through the completed optical instrument. A perfect optical system produces a clean Airy disk (bright central spot surrounded by concentric diffraction rings). Aberrations distort the pattern: spherical aberration shows rings that are too bright; astigmatism shows a cross pattern; coma shows an asymmetric comet-shaped flare. This is the most sensitive test for overall image quality, capable of detecting wavefront errors of λ/10 or less.
+
+### Environmental Testing of Optical Components
+
+Optical components used in field instruments, military systems, and industrial environments must maintain performance under harsh conditions. Environmental testing verifies that coatings, cements, and substrate materials survive thermal, humidity, and mechanical stress without degradation.
+
+**Temperature cycling**: Subject the optical component to repeated cycles between temperature extremes (typically -40°C to +80°C for military specification, 0°C to +60°C for commercial). Each cycle: ramp to cold extreme, hold 1 hour, ramp to hot extreme, hold 1 hour, return to ambient. Typical test: 20-100 cycles. Inspect after test for coating crazing (fine crack network caused by differential thermal expansion between coating and substrate), cement failure (Canada balsam or synthetic cement separating in doublet lenses), and glass fracture from residual stress. Measure transmitted wavefront before and after to detect figure distortion from thermal stress relief.
+
+**Humidity resistance**: Expose the component to 95% relative humidity at 40-50°C for 24-96 hours (per MIL-STD-810). Tests coating adhesion and corrosion resistance. Moisture penetrates porous films (thermally evaporated coatings without IAD), causing optical performance to shift. Salt spray exposure (5% NaCl fog at 35°C, per ASTM B117) tests corrosion resistance of mirror coatings and metal housings. Bare aluminum mirrors corrode rapidly in salt spray; protected mirrors (SiO₂ overcoat) survive 48-96 hours without degradation.
+
+**Abrasion testing**: Coating durability tested by rubbing with standard abrasive media under controlled conditions. Cheesecloth test (MIL-C-675): rub coated surface with cheesecloth pad (50 g force applied through a 6 mm diameter pad) for 25 cycles. Eraser test (MIL-C-48497): rub with standard eraser under 500-1000 g force for 20-50 cycles. Inspect for coating removal, scratching, or haze. Hard coatings (MgF₂, SiO₂) pass both tests easily. Soft coatings (silver, gold without overcoat) fail abrasion tests and require protective overcoats for any application involving handling.
+
+**Adhesion testing**: Cross-hatch tape test per ASTM D3359: score a grid pattern (11 cuts in each direction, 1 mm spacing) through the coating to the substrate. Apply pressure-sensitive tape over the grid. Rub to ensure contact. Pull tape off rapidly at 180° angle. Inspect grid squares for coating removal. Rating 5B (no removal) required for military optics. Rating 3B or below indicates adhesion failure requiring process correction (typically insufficient substrate cleaning or missing plasma pretreatment step).
+
+### Acceptance Sampling and Quality Assurance
+
+Not every optical component can be inspected 100% (batch sizes in the hundreds or thousands make full inspection impractical). Statistical acceptance sampling determines how many pieces from a lot to inspect and what defect rate is acceptable.
+
+**MIL-STD-105 (now ASTM E2234 / ISO 2859)**: The standard acceptance sampling system for attribute inspection. Given a lot size and an acceptable quality level (AQL), the standard specifies the sample size and the acceptance/rejection criteria (maximum number of defects allowed in the sample).
+
+- **AQL selection**: AQL 0.65% for critical optics (laser lenses, photolithography elements, where any defect causes system failure). AQL 1.0% for imaging optics (camera lenses, telescope objectives). AQL 2.5% for general visual optics (viewfinders, illumination lenses, magnifiers). AQL 4.0% for non-critical components (windows, protective covers).
+- **Inspection levels**: Normal inspection for routine production. Tightened inspection (larger sample, stricter criteria) when 2 of 5 consecutive lots are rejected. Reduced inspection (smaller sample) when 5 consecutive lots pass, indicating a stable, capable process.
+- **Lot disposition**: If the number of defective units in the sample does not exceed the acceptance number, the lot passes. If it exceeds the acceptance number but not the rejection number, the lot is held for further review. If it exceeds the rejection number, the lot is rejected and returned for 100% screening or rework.
+
+**Measurement system verification**: Before any acceptance inspection, verify that the measurement instruments themselves are accurate. Interferometers checked with certified reference flats (λ/20 traceable to national standards). Profilometers calibrated with step height standards (NIST-traceable). Microscopes verified with stage micrometers. Comparator magnification checked with glass scale standards. A measurement system analysis (Gage R&R) quantifies how much of the observed variation comes from the instrument vs. the part. If the measurement system contributes more than 10-30% of total observed variation, the instrument needs recalibration or replacement before it can reliably accept or reject parts.
+
+**Documentation and traceability**: Each inspected component receives an inspection record documenting: part number, serial number, lot number, inspection date, inspector identity, instruments used (with calibration dates and serial numbers), measurements taken (with actual values and pass/fail against specification), and any deviations or non-conformances. This traceability is essential for high-reliability applications (aerospace, military, medical) where a component failure must be traceable back to its inspection records. Non-conforming parts are tagged, segregated from conforming inventory, and dispositioned by a review board (rework, use-as-is with engineering approval, or scrap).
+
+**First-article inspection**: When a new optical component enters production, the first produced unit (or first three units from a new batch) undergoes complete dimensional, optical, and environmental inspection against the full specification. This first-article inspection verifies that the production process (tooling, machine settings, coating parameters) produces parts that meet every requirement, not just the ones checked during routine production sampling. Any out-of-tolerance dimension or optical parameter requires a process correction before production continues. First-article approval is a prerequisite for production release in military and aerospace contracts.
+
+**Certificate of conformance**: Each lot of optical components ships with a certificate listing the measured values of all specified parameters (surface figure, scratch/dig, transmitted wavefront error, coating reflectance or transmittance curve, dimensional measurements). The certificate references the applicable drawing, specification, and purchase order. The inspector who performed the final inspection signs the certificate. For critical components (laser optics, lithography lenses), individual serialized test data accompanies each piece rather than a lot-level summary.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [Optics](./) • [All Domains](../)*

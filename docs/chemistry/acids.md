@@ -130,6 +130,76 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 - **Hydrofluoric acid (HF)**: EXCEPTIONALLY DANGEROUS. Dissolves bone. Penetrates skin without immediate pain. Lethal at small exposure area. ANTIDOTE: Calcium gluconate gel — must be on hand before ANY HF handling. Absolutely requires HF-specific training. PPE: neoprene gloves, face shield, apron.
 - **Oleum (fuming sulfuric acid, H₂SO₄ + SO₃)**: More hazardous than concentrated sulfuric. Releases corrosive SO₃ fumes. Handle only in well-ventilated areas with full acid PPE.
 
----
+ ---
 
 *Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*
+
+## Lead Chamber Process Detail
+
+The lead chamber process was the first industrial method for sulfuric acid production, operating from the mid-18th century until largely displaced by the contact process in the early 20th century. Its chemistry relies on nitrogen oxides as homogeneous catalysts that shuttle oxygen from air to sulfur dioxide.
+
+**Chemistry**: SO₂ + NO₂ + H₂O → H₂SO₄ + NO. The nitric oxide (NO) product is reoxidized by atmospheric oxygen: 2NO + O₂ → 2NO₂, and the NO₂ re-enters the cycle. The nitrogen oxides thus act as an oxygen carrier, regenerating continuously. This cycle allows the overall reaction SO₂ + ½O₂ + H₂O → H₂SO₄ to proceed at moderate temperature in the gas phase.
+
+**Acid concentration limit**: The process produces 62-70% H₂SO₄. Above 70%, the NOx gases dissolve in the acid rather than remaining in the gas phase, breaking the catalytic cycle. Further concentration requires separate evaporation in platinum or silica vessels (lead corrodes above 80% H₂SO₄ concentration). The product "chamber acid" at 65-70% is adequate for many industrial applications but insufficient for nitrations, petroleum alkylation, and other processes requiring >90% acid.
+
+**Gay-Lussac tower and Glover tower**: The lead chamber system evolved to include two absorption/recovery towers. The Gay-Lussac tower (cooling and absorption) captures NOx gases from the chamber exhaust in 50-60% H₂SO₄, forming nitrosylsulfuric acid (NOHSO₄). The Glover tower (denitration) releases these captured NOx back into the chamber system by heating with hot SO₂ gas. This NOx recovery reduced makeup sodium nitrate consumption from 5-10% to <1% of acid produced.
+
+## Contact Process Detail
+
+The contact process replaced lead chambers by achieving higher acid concentration (96-98%) and purity through heterogeneous catalysis.
+
+**V₂O₅ catalyst**: Vanadium pentoxide on a silica (SiO₂) support, promoted with potassium sulfate (K₂SO₄). The catalyst is a porous extrudate or ring shape (5-10 mm diameter, 10-20 mm length) to minimize pressure drop. Operating temperature 400-600°C. The mechanism involves a molten salt phase (V₂O₅-K₂SO₄ eutectic) on the silica surface that absorbs and releases SO₂ and O₂. Conversion of SO₂ to SO₃ is thermodynamically favored at lower temperature but kinetically faster at higher temperature. Multiple catalyst beds (typically 4) with inter-stage cooling optimize the tradeoff: first bed at 550-600°C for fast kinetics, subsequent beds at progressively lower temperatures (450-400°C) to push equilibrium toward SO₃.
+
+**Double absorption (double contact)**: After 3 catalyst beds, SO₃ is absorbed in 98% H₂SO₄ (intermediate absorption). The remaining gas (containing unconverted SO₂) is reheated and passed through a 4th catalyst bed, achieving 99.5-99.9% overall SO₂ conversion. Environmental regulations in most countries require >99% conversion, making double absorption standard for new plants. Single absorption achieves only 97-98% conversion, emitting 20-60 kg SO₂ per tonne H₂SO₄ produced.
+
+## Nitric Acid: Ostwald Process
+
+The Ostwald process converts ammonia to nitric acid in three steps, forming the downstream partner to the Haber-Bosch process.
+
+**Ammonia oxidation**: NH₃ + 5/4 O₂ → NO + 3/2 H₂O over a Pt/Rh (90/10 or 95/5) gauze catalyst at 850-900°C, 0.1-1.0 MPa. The gauze consists of multiple layers of fine woven wire mesh (0.06 mm wire diameter, 1024 mesh/cm²). Contact time: 0.1-1.0 milliseconds (extremely short). Conversion efficiency: 95-98%. Side reaction: 4NH₃ + 3O₂ → 2N₂ + 6H₂O (wastes ammonia, minimized by proper temperature and contact time). The gauze slowly loses platinum by volatilization (as PtO₂) — recovered by palladium-based "catchment" gauzes placed downstream.
+
+**NO oxidation**: 2NO + O₂ → 2NO₂. This reaction is unique: it is third-order (second order in NO, first order in O₂) and is favored by low temperature and high pressure. It is the rate-limiting step in the overall process. The gas is cooled to 40-60°C and given residence time in large absorption towers. The brown NO₂ gas is clearly visible in process equipment.
+
+**Absorption**: NO₂ absorbed in water in a bubble-cap or sieve-tray absorption tower (10-30 trays) operating at 0.5-1.0 MPa. 3NO₂ + H₂O → 2HNO₃ + NO. The NO released is reoxidized and recycled. Concentration limit: 68% HNO₃ (azeotrope at atmospheric pressure). To reach 98% HNO₃ (fuming nitric acid), extractive distillation with magnesium nitrate (Mg(NO₃)₂, 72% solution) or concentrated H₂SO₄ as dehydrating agent breaks the azeotrope.
+
+## Hydrochloric Acid Production
+
+**Direct synthesis**: H₂ + Cl₂ → 2HCl (ΔH = -184.6 kJ/mol) in a quartz or graphite combustion chamber. The reactants burn with a characteristic flame (hydrogen in chlorine). Product gas at 2000°C is cooled in a graphite heat exchanger, then absorbed in water in a falling-film absorber (graphite tube, water flows down the inner surface, HCl gas flows upward counter-current). Absorption is highly exothermic (1.6 MJ/kg HCl dissolved), requiring cooled graphite equipment. Product: 32-38% HCl (azeotropic composition at 20.2% HCl, bp 108.6°C). Higher concentrations achievable by absorbing HCl gas in chilled water (solubility increases at lower temperature).
+
+**Byproduct HCl**: The largest source of hydrochloric acid is organic chemical manufacturing. Chlorination of hydrocarbons (e.g., benzene + Cl₂ → chlorobenzene + HCl, PVC production from acetylene + HCl) liberates HCl as a byproduct. This byproduct acid often contains organic impurities (traces of chlorinated hydrocarbons) requiring distillation or activated carbon treatment for purification.
+
+## Pickling Applications
+
+**Steel pickling**: Hot-rolled steel carries a layer of mill scale (FeO, Fe₃O₄, Fe₂O₃, 50-100 μm thick) that must be removed before cold rolling, galvanizing, or plating. Sulfuric acid pickling: 10-15% H₂SO₄ at 60-80°C, 5-30 minutes immersion. Scale dissolution rate 25-50 μm/min. Base metal loss 2-5 μm (minor compared to scale thickness). Hydrochloric acid pickling: 15-20% HCl at 25-40°C, 2-10 minutes. Faster action, better surface finish, less hydrogen embrittlement. HCl accounts for >75% of steel pickling worldwide. Continuous pickling lines run strip steel through 3-5 sequential acid tanks at 30-200 m/min line speed, achieving complete scale removal in 30-90 seconds total contact time.
+
+## Acid Storage and Handling
+
+**Sulfuric acid storage**: Concentrated H₂SO₄ (93-98%) is stored in mild steel tanks (the concentrated acid passivates steel by forming a thin FeSO₄ layer). Dilute acid (<70%) is more corrosive and requires rubber-lined steel, FRP (fiberglass reinforced plastic), or 316L stainless steel tanks. Tank venting: a breathing vent with acid mist eliminator prevents atmospheric moisture from diluting the acid (which would accelerate corrosion). Secondary containment (bund or dike) sized for 110% of the largest tank volume. Loading/unloading via dip pipe (extends to near tank bottom) to prevent free-fall splashing and acid mist generation.
+
+**Nitric acid storage**: Concentrated HNO₃ stored in aluminum tanks (aluminum passivates in HNO₃, forming a thin, inert Al₂O₃ film). Dilute HNO₃ stored in 304L or 316L stainless steel, or glass-lined steel. Never store in carbon steel (rapid, violent reaction). Tank design: vented to atmosphere through an acid mist eliminator and NOx scrubber. Color-coded labeling: red for HNO₃, yellow for HCl, white for H₂SO₄ (in most international systems).
+
+**Hydrofluoric acid storage**: Only PTFE (Teflon), polyethylene (HDPE), or Monel metal containers. NEVER glass, ceramics, or silica-containing materials (HF etches glass: SiO₂ + 4HF → SiF₄ + 2H₂O). Double-contained: primary HDPE carboy inside a secondary containment tray. Labeled with HF-specific warnings and calcium gluconate antidote location posted on the container. Inventory control: track every container from receipt to empty disposal.
+
+## Acid Production Scale
+
+**Sulfuric acid plant scale**: World production ~250 million tonnes/year. A single modern contact process plant produces 1,000-5,000 tonnes/day H₂SO₄. The plant is typically integrated with a smelter (capturing SO₂ from copper or nickel smelting) or a sulfur combustion source. Capital cost: $100-300 million for a 2000 t/d plant. Energy balance: the contact process is a net exporter of energy. SO₂ oxidation (2SO₂ + O₂ → 2SO₃, ΔH = -198 kJ/mol) releases heat recovered as steam in the converter intercoolers and absorption tower. A 2000 t/d plant generates 30-50 tonnes/hour of steam, sufficient for 10-20 MW electricity generation.
+
+**Nitric acid plant scale**: Typical capacity 500-3,000 tonnes/day (as 100% HNO₃). Integrated with an ammonia plant (Haber-Bosch). Energy balance: ammonia oxidation is highly exothermic (NH₃ + 5/4 O₂ → NO + 3/2 H₂O, ΔH = -226 kJ/mol). The hot process gases generate steam in waste heat boilers (recovering 60-70% of the reaction heat). A 1000 t/d nitric acid plant produces 25-40 MW of exportable power from steam turbines. NOx emissions from the plant tail gas are the primary environmental concern, typically controlled to <200 ppm by catalytic reduction (using NH₃ or natural gas as reductant) or extended absorption.
+
+**Hydrochloric acid production**: Global ~20 million tonnes/year (as 100% HCl). Most HCl is produced as a byproduct of organic chemical manufacturing (chlorination reactions). Direct synthesis (H₂ + Cl₂) accounts for a smaller share but produces higher purity acid. A synthesis burner producing 100 tonnes/day HCl gas requires 2.7 tonnes/day H₂ and 97.3 tonnes/day Cl₂, consuming about 500 kW for compression and absorption equipment.
+
+## Sulfuric Acid Concentration and Properties
+
+**Concentration grades**: Battery acid: 29-32% H₂SO₄ (specific gravity 1.20-1.24). Chamber acid: 62-70% (historical, sg ~1.52). Tower acid (Glover): 78% (sg 1.70). Concentrated acid: 93-98% (sg 1.83-1.84). Oleum: 20-65% free SO₃ dissolved in H₂SO₄ (fuming, releases SO₃ on exposure to air). The relationship between concentration and boiling point is critical: 10% H₂SO₄ boils at 102°C, 50% at 124°C, 80% at 198°C, 98% at 337°C (constant boiling azeotrope at 98.3% at atmospheric pressure).
+
+**Heat of dilution**: Mixing concentrated H₂SO₄ with water releases substantial heat: 74 kJ/mol for diluting 100% H₂SO₄ to infinite dilution. Diluting 1 kg of 98% H₂SO₄ to 50% releases ~420 kJ, enough to raise the solution temperature by over 80°C. This is why acid must always be added to water slowly (never water to acid): the large water volume absorbs the heat safely. Adding water to concentrated acid creates a small volume of very hot, concentrated solution at the addition point that can boil and violently spatter.
+
+**Materials of construction**: Concentrated H₂SO₄ (>85%): carbon steel (forms protective FeSO₄ film, corrosion rate <0.5 mm/year). Cast iron: suitable for >65% at ambient temperature. 316L stainless steel: good for all concentrations up to 60°C (above 60°C, corrosion accelerates). PTFE, polypropylene, and PVDF: excellent chemical resistance for all concentrations at moderate temperatures. Glass-lined steel: for high-temperature service and high-purity applications. Dilute acid (<50%) is MORE corrosive than concentrated because the protective iron sulfate film dissolves. Rubber-lined steel for dilute acid storage and piping.
+
+## Acid Handling Best Practices
+
+**Secondary containment**: All acid storage tanks must have secondary containment sized for 110% of the largest tank volume. Concrete dike or bund with acid-resistant coating (epoxy novolac or vinyl ester). Containment floor sloped to a collection sump with level alarm. Rainwater that accumulates within the containment must be tested for pH before discharge (contaminated rainwater is treated as waste acid). Tank truck unloading areas must also have containment and spill collection.
+
+**Personal protective equipment (PPE)**: Acid splash suit (PVC or neoprene), chemical splash goggles (not safety glasses — goggles seal around the eyes), face shield over goggles for high-splash-risk operations, acid-resistant gloves (nitrile or neoprene, inspected for holes before each use), chemical apron for additional torso protection, rubber boots with pant legs outside the boots (acid running into boots is a severe burn hazard). Emergency shower and eyewash: within 10 seconds travel distance, tested weekly (verify flow and clean nozzles). PPE must be stored outside the acid area (not contaminated by acid vapors before donning).
+
+**Spill response**: Small acid spill (<5 L): contain with absorbent material (vermiculite, sand, or commercial acid absorbent pads), neutralize with sodium bicarbonate or lime (Ca(OH)₂), collect residue, dispose as hazardous waste. Large spill: evacuate area, establish perimeter, notify emergency response team. Do NOT flush large spills with water (generates heat and spreads the acid). Dam and contain, then neutralize gradually. For HF spills: calcium gluconate gel must be applied to any exposed skin immediately (within 60 seconds for best outcome). HF spill response kits (with Ca gluconate, CaCO₃ absorbent, and HF-specific instructions) staged at every location where HF is handled.

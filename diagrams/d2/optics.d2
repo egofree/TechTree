@@ -88,6 +88,7 @@ classes: {
 optics_internal: "Optics — Internal Structure" {
   optics_inspection: Optical Inspection
   optics_inspection_optical-coatings: Optical Coatings
+  optics_precision-instruments: Precision Optical Instruments
 }
 
 # ==================== DOMAIN NODE ====================
@@ -100,6 +101,12 @@ gas-handling_vacuum: Vacuum Technology {
 machine-tools: Machine Tools Bootstrap {
   shape: rectangle
 }
+measurement_optical-instruments: Optical Measurement Instruments {
+  shape: rectangle
+}
+measurement_precision-metrology: "Precision Metrology & Standards" {
+  shape: rectangle
+}
 photolithography: "Photolithography & IC Fabrication" {
   shape: rectangle
 }
@@ -109,17 +116,24 @@ vlsi-scaling_advanced-lithography: Advanced Lithography {
 
 # ==================== EDGES ====================
 optics_inspection_optical-coatings -> optics_inspection: { class: tool-edge }
+optics_precision-instruments -> optics: { class: tool-edge }
+optics_precision-instruments -> optics_inspection: { class: material-edge }
 optics -> machine-tools: { class: tool-edge }
 photolithography -> optics: { class: tool-edge }
 vlsi-scaling_advanced-lithography -> optics_inspection: { class: tool-edge }
 optics_inspection_optical-coatings -> gas-handling_vacuum: { class: tool-edge }
+measurement_optical-instruments -> optics_inspection: { class: tool-edge }
+measurement_precision-metrology -> optics_precision-instruments: { class: tool-edge }
 
 # ==================== STYLING ====================
 optics.class: domain
 optics_inspection.class: capability
 optics_inspection_optical-coatings.class: process
+optics_precision-instruments.class: capability
 gas-handling_vacuum.class: external
 machine-tools.class: external
+measurement_optical-instruments.class: external
+measurement_precision-metrology.class: external
 photolithography.class: external
 vlsi-scaling_advanced-lithography.class: external
 

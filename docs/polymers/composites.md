@@ -6,6 +6,113 @@ Fiber-reinforced polymer composites combine high-strength fibers with a binding
 matrix resin to produce materials stronger and lighter than either component
 alone. Processes, materials, and phase dependencies for each family.
 
+## Fiber Properties
+
+### Fiberglass Properties
+
+| Property | E-glass | S-glass |
+|---|---|---|
+| Tensile strength (single filament) | 3400 MPa | 4600 MPa |
+| Tensile modulus | 72 GPa | 86 GPa |
+| Elongation at break | 4.8% | 5.4% |
+| Density | 2.54 g/cm³ | 2.48 g/cm³ |
+| Filament diameter | 10-25 μm | 10-25 μm |
+| Softening point | 840°C | 970°C |
+| Cost relative to E-glass | 1× | 3-5× |
+
+E-glass (electrical grade, alumino-borosilicate) is the workhorse composite fiber — 90%+ of all fiberglass production. S-glass (structural grade, magnesia-alumina-silicate) provides 30-40% higher tensile strength at 3-5× the cost, used primarily in aerospace and ballistic applications.
+
+### Carbon Fiber Properties
+
+| Property | Standard Modulus | Intermediate Modulus | High Modulus |
+|---|---|---|---|
+| Tensile strength | 3500 MPa | 4500-7000 MPa | 2500-3500 MPa |
+| Tensile modulus | 230 GPa | 290-300 GPa | 500-600 GPa |
+| Density | 1.78 g/cm³ | 1.80 g/cm³ | 1.85 g/cm³ |
+| Elongation at break | 1.5% | 1.7-2.0% | 0.5-0.7% |
+
+All values are PAN-based carbon fiber (polyacrylonitrile precursor). Carbon fiber is 5× stronger than steel at roughly ¼ the weight (steel: tensile 400-800 MPa, density 7.8 g/cm³; standard modulus carbon: 3500 MPa, 1.78 g/cm³ — specific strength ~17× steel).
+
+### Aramid Fiber Properties
+
+| Property | Kevlar 29 | Kevlar 49 | Kevlar 149 |
+|---|---|---|---|
+| Tensile strength | 2900 MPa | 3600 MPa | 3400 MPa |
+| Tensile modulus | 70 GPa | 130 GPa | 185 GPa |
+| Density | 1.44 g/cm³ | 1.44 g/cm³ | 1.47 g/cm³ |
+| Elongation at break | 3.6% | 2.5% | 1.5% |
+
+Kevlar 49 is the standard composite reinforcement grade. Outstanding impact resistance — absorbs 3-5× more energy per unit weight than steel. Flame resistant (chars above 400°C, does not melt or drip). Negative coefficient of thermal expansion in fiber direction (contracts when heated) — useful for dimensional stability in space structures.
+
+## Layup Methods Detail
+
+### Hand Layup
+
+The simplest composite manufacturing method, achievable at minimal technology level. Sequence:
+
+1. **Mold preparation**: Apply release agent (paste wax, PVA film, or silicone spray) to mold surface to prevent cured part from sticking.
+2. **Gel coat** (optional): Apply a thin layer (0.3-0.5 mm) of pigmented, unreinforced resin directly to the mold surface. This becomes the cosmetic outer surface of the finished part. Cure until tacky (30-60 minutes for polyester).
+3. **Layup**: Cut fiberglass mat or fabric to shape. Place on mold. Apply resin by brush or roller. Work resin into the fiber with a consolidation roller (serrated aluminum or nylon roller) to wet out the fiber and remove entrapped air. Add additional layers, alternating fiber direction (0°/90°/±45° orientations typical), with resin between each layer.
+4. **Cure**: Allow to cure at ambient temperature (20-30°C, 24 hours for full cure). Post-cure at 60-80°C for 2-4 hours to improve properties if oven is available.
+
+Typical fiber volume fraction: 20-30% (random chopped strand mat) to 30-45% (woven fabric). Hand layup produces laminates with 2-5% void content (air bubbles trapped between layers) — acceptable for many applications but not for structural or aerospace use.
+
+### Vacuum Bagging
+
+Improves hand layup quality by applying uniform consolidation pressure and removing trapped air.
+
+1. Complete hand layup as above on mold surface.
+2. Place a porous release film (perforated nylon) over the wet laminate — allows air and excess resin to pass but prevents bag from sticking.
+3. Place bleeder/breather cloth (non-woven polyester felt, 2-5 mm thick) over release film — provides a path for air evacuation and absorbs excess resin.
+4. Seal vacuum bag (nylon film, 0.05-0.1 mm thick) around the mold perimeter with mastic sealant tape.
+5. Attach vacuum pump to the bag via a fitting. Evacuate to 0.5-1.0 bar vacuum (85-95% of atmospheric pressure). This applies ~0.08-0.10 MPa consolidation pressure uniformly over the entire laminate.
+6. Maintain vacuum during cure (room temperature 24 hours, or elevated temperature in an oven — the vacuum bag withstands 80-120°C).
+
+Vacuum bagging reduces void content from 2-5% (hand layup) to <1%, improves fiber volume fraction to 50-55% (woven fabric), and produces consistent, repeatable laminate quality with minimal voids.
+
+### Pultrusion
+
+Continuous process for producing constant cross-section profiles (rods, tubes, angles, I-beams, channels). Product speeds 0.5-2.0 m/minute.
+
+1. **Fiber creels**: Continuous roving or unidirectional tow pulled from racks of fiber spools. Additional fiber mats or fabrics added for transverse strength.
+2. **Resin bath**: Fibers pass through an open bath of catalyzed polyester or vinyl ester resin. Rollers or pins guide the fibers through the bath, ensuring complete wetting. Resin content controlled by wiper dies or rollers after the bath.
+3. **Preformer**: A series of guide plates that gradually shape the wet fiber bundle from a flat tape into the approximate final cross-section.
+4. **Heated die**: Chrome-plated steel die with internal heating elements (electric cartridge heaters). Temperature profile: 90°C → 150°C → 180°C along die length (progressive cure). Resin gels and cures as the profile passes through the 0.5-1.0 m long die.
+5. **Puller**: Reciprocating clamp or caterpillar belt that grips the cured profile and pulls it at constant speed (0.5-2 m/min).
+6. **Cutoff saw**: Cuts continuous profile to desired length.
+
+Fiber volume fraction: 60-70% (highest of any composite process due to unidirectional fiber alignment and die consolidation). Used for: structural profiles (grating, handrails, structural angles), electrical insulation rods, tent poles, fishing rods, reinforcing bars for concrete.
+
+### Fiber Volume Fraction Optimization
+
+The mechanical properties of a composite laminate are dominated by fiber volume fraction (Vf, the percentage of the laminate volume occupied by fiber rather than matrix resin).
+
+| Fiber Format | Typical Vf | Notes |
+|---|---|---|
+| Random chopped strand mat | 20-30% | Lowest properties, easiest to process |
+| Unidirectional tape (hand layup) | 50-60% | Maximum properties in fiber direction |
+| Woven fabric (hand layup) | 40-50% | Balanced 0°/90° properties |
+| Woven fabric (vacuum bag) | 50-55% | Improved by consolidation pressure |
+| Pultruded unidirectional | 60-70% | Highest Vf achievable |
+| Filament wound | 60-65% | High Vf on cylindrical shapes |
+
+Rule of mixtures estimate (longitudinal tensile modulus): Ec = Vf × Ef + (1-Vf) × Em. For E-glass/Epoxy: Ec = 0.50 × 72 + 0.50 × 3.5 = 37.75 GPa (vs. aluminum 69 GPa, steel 200 GPa — but at 2.0 g/cm³ vs. 2.7 and 7.8, the specific stiffness is competitive).
+
+### Matrix Selection Guide
+
+| Matrix | Cost | Tensile Strength | Cure | Best Application |
+|---|---|---|---|---|
+| Polyester | Low ($2-4/kg) | 40-90 MPa | RT, MEKP | Marine, general purpose, tanks |
+| Vinyl ester | Medium ($4-8/kg) | 70-80 MPa | RT, MEKP | Corrosion-resistant, chemical tanks |
+| Epoxy | High ($8-20/kg) | 55-130 MPa | RT-80°C, amine | Aerospace, high-performance, tooling |
+| Phenolic | Medium ($5-10/kg) | 30-60 MPa | Heat, acid | Fire-resistant panels, transit interiors |
+
+Polyester: cheapest, most widely used, adequate for 90% of fiberglass applications. Room temperature cure with MEKP catalyst — no oven needed. Shrinkage during cure: 5-8% (higher than epoxy, can cause warpage in thin laminates). Styrene emission during open-mold layup is the primary health concern.
+
+Epoxy: highest mechanical properties, lowest shrinkage (<2%), best adhesion to fibers, longest pot life flexibility. But 3-5× more expensive than polyester. Used where performance justifies cost: aerospace, high-performance sporting goods, tooling (molds for other composites), structural repairs.
+
+Vinyl ester: hybrid chemistry — epoxy backbone with unsaturated ester end-groups. Combines epoxy's chemical resistance with polyester's room-temperature MEKP cure. Best choice for corrosion-resistant tanks, pipes, and chemical equipment. Cost: 2× polyester, 0.5× epoxy.
+
 ## Fiberglass (Glass Fiber Reinforced Polymer)
 
 ### Fiber Production
@@ -126,4 +233,8 @@ structural reinforcement in hybrid composites.
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Polymers](./) • [All Domains](../)*
+### Cross-Domain Dependencies
+
+- Fiber from [Glass Fibers](../glass/fibers.md) or [Textile Fibers](../textiles/fibers.md). Matrix from [Thermosets](../polymers/thermosets.md) or [Thermoplastics](../polymers/thermoplastics.md). [Coatings](../chemistry/coatings.md) for gel coat.
+
+[← Back to Polymers](index.md)

@@ -7,6 +7,7 @@ graph TD
         direction TB
         optics_inspection["Optical Inspection"]
         optics_inspection_optical-coatings["Optical Coatings"]
+        optics_precision-instruments["Precision Optical Instruments"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -15,15 +16,21 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     gas-handling_vacuum("Vacuum Technology")
     machine-tools("Machine Tools Bootstrap")
+    measurement_optical-instruments("Optical Measurement Instruments")
+    measurement_precision-metrology("Precision Metrology & Standards")
     photolithography("Photolithography & IC Fabrication")
     vlsi-scaling_advanced-lithography("Advanced Lithography")
 
     %% ==================== EDGES ====================
     optics_inspection_optical-coatings -.-> optics_inspection
+    optics_precision-instruments -.-> optics
+    optics_precision-instruments --> optics_inspection
     optics -.-> machine-tools
     photolithography -.-> optics
     vlsi-scaling_advanced-lithography -.-> optics_inspection
     optics_inspection_optical-coatings -.-> gas-handling_vacuum
+    measurement_optical-instruments -.-> optics_inspection
+    measurement_precision-metrology -.-> optics_precision-instruments
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -42,8 +49,11 @@ graph TD
     class optics domain
     class optics_inspection capability
     class optics_inspection_optical-coatings process
+    class optics_precision-instruments capability
     class gas-handling_vacuum external
     class machine-tools external
+    class measurement_optical-instruments external
+    class measurement_precision-metrology external
     class photolithography external
     class vlsi-scaling_advanced-lithography external
     class EdgeLegend,MatNote,ToolNote legend

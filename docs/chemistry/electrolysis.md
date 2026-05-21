@@ -151,6 +151,52 @@ Electrolysis is among the most electricity-intensive industrial processes. Appro
 
 Cheap, abundant electricity is the prerequisite for all electrolysis. Without reliable power at competitive rates, none of these processes are economically viable. This constraint is why aluminum smelting historically locates near hydroelectric dams, and why the chlor-alkali industry tracks electricity prices closely.
 
----
+ ---
 
 *Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*
+
+## Chlor-Alkali Membrane Cell: Detailed Parameters
+
+The membrane cell is the modern standard for chlor-alkali electrolysis, replacing both diaphragm and mercury cells.
+
+**Feed preparation**: Saturated NaCl brine (25-28% NaCl, 310-340 g/L) must be ultra-purified before entering the membrane cell. Calcium and magnesium ions (even at ppm levels) irreversibly damage the Nafion membrane by forming insoluble hydroxides within the membrane structure. Purification sequence: (1) Na₂CO₃ addition to precipitate CaCO₃, (2) NaOH addition to precipitate Mg(OH)₂, (3) BaCO₃ addition if sulfate >5 g/L to precipitate BaSO₄, (4) leaf filter or precoat filter to remove all precipitates, (5) ion exchange polishing (chelating resin) to reduce Ca²⁺ and Mg²⁺ to <20 ppb. Final brine specification: Ca²⁺ + Mg²⁺ < 0.02 mg/L, SO₄²⁻ < 5 g/L, free Cl₂ < 1 mg/L.
+
+**Anode**: Dimensionally stable anode (DSA) — titanium substrate (expanded metal or mesh) coated with 5-15 μm mixed metal oxide layer (RuO₂/IrO₂/TiO₂, typically 60-80 mol% RuO₂). The coating catalyzes chlorine evolution: 2Cl⁻ → Cl₂ + 2e⁻ at ~1.36 V (reversible potential at 25°C). Overpotential on DSA: 30-80 mV at 2-5 kA/m². DSA lifetime: 5-8 years before recoating. Graphite anodes (historical alternative) consume at 2-5 kg per tonne Cl₂ produced (anode carbon oxidizes to CO₂), requiring frequent gap adjustment as the anode thins.
+
+**Cathode**: Nickel or low-carbon steel mesh with catalytic coating (Ni-Al or Raney nickel) to reduce hydrogen overpotential. Hydrogen evolution: 2H₂O + 2e⁻ → H₂ + 2OH⁻ at -0.83 V (reversible). Cathode overpotential on activated Ni: 50-150 mV at 2-5 kA/m². The cathode compartment produces NaOH solution (30-33% concentration) and H₂ gas.
+
+**Membrane**: Perfluorinated sulfonic acid membrane (Nafion or Flemion), 100-200 μm thick. The membrane is a cation exchanger: Na⁺ ions pass through the hydrated sulfonic acid groups, while Cl⁻ and OH⁻ anions are blocked. This selectivity prevents NaCl contamination of the NaOH product and Cl₂/H₂ mixing. Operating temperature 85-95°C (higher temperature reduces cell voltage by improving kinetics and membrane conductivity, but accelerates membrane degradation). Membrane life: 2-4 years, limited by mechanical damage, Ca/Mg fouling, and chemical degradation. Cost: $500-2000 per m² of active area.
+
+**Cell operating conditions**: Cell voltage 2.9-3.5 V (decomposition voltage 2.2 V + overpotentials + membrane resistance + solution resistance + hardware resistance). Current density 2-5 kA/m². Operating temperature 85-95°C. Current efficiency 95-97% (3-5% of current produces O₂ at the anode instead of Cl₂, and some OH⁻ back-migrates through the membrane). Energy consumption: 2,100-2,400 kWh per tonne Cl₂. Individual cell area 1-4 m². Electrolyzer with 50-150 cells in series, drawing 5-30 kA total current at 200-400 V DC.
+
+## Copper Electrorefining: Detailed Parameters
+
+**Electrolyte composition**: CuSO₄·5H₂O (150-200 g/L Cu²⁺, equivalent to 38-50 g/L Cu) + H₂SO₄ (150-200 g/L) in aqueous solution. Temperature 50-55°C (reduces viscosity and resistance, improves Cu²⁺ diffusion). The sulfuric acid increases solution conductivity and prevents CuSO₄ precipitation. Electrolyte density ~1.2 g/mL.
+
+**Current density and voltage**: 200-300 A/m² (cathode current density). Cell voltage only 0.2-0.3 V (very low because the thermodynamic potentials of anode dissolution and cathode deposition are nearly equal). Energy consumption: 250-350 kWh per tonne of refined copper — among the lowest of all electrolytic processes. Daily cathode production: ~0.8 kg Cu per m² of cathode area at 250 A/m².
+
+**Cathode purity**: 99.99%+ Cu. Impurity limits for Grade A copper (LME standard): Ag <15 ppm, As <3 ppm, Sb <2 ppm, Bi <1 ppm, Se <1 ppm, Te <1 ppm, Fe <5 ppm, Pb <5 ppm, Ni <5 ppm, Sn <3 ppm, S <15 ppm, O <20 ppm (for cathode, before melting). Higher purity (99.999%, 5N) achievable with careful anode selection and electrolyte purification, required for electronic applications.
+
+## Faraday's Law Applications
+
+Faraday's first law of electrolysis: the mass of substance deposited or dissolved at an electrode is proportional to the quantity of electricity passed. m = Q × M / (n × F), where m = mass (g), Q = total charge (coulombs), M = molar mass (g/mol), n = number of electrons transferred per ion, F = Faraday constant = 96,485 C/mol.
+
+**Production rate calculations**: For chlor-alkali: Cl₂ production rate = I × M / (n × F) = current × 35.45 / (2 × 96485) = 1.839 × 10⁻⁴ g Cl₂ per ampere-second = 0.662 kg Cl₂ per kA·hour. A cell drawing 200 kA produces 132.4 kg Cl₂ per hour, or 3,178 kg/day. For aluminum: Al production rate = I × 27.0 / (3 × 96485) = 9.328 × 10⁻⁵ g Al per ampere-second = 0.336 kg Al per kA·hour. A potline drawing 300 kA produces 100.7 kg Al per hour, or 2,417 kg/day per cell.
+
+**Energy consumption**: Specific energy = n × F × V_cell / M, where V_cell is the operating voltage. For aluminum at 4.2V: (3 × 96485 × 4.2) / 27.0 = 45,054 J/g = 12.5 kWh/kg. For chlorine at 3.2V: (2 × 96485 × 3.2) / 35.45 = 17,414 J/g = 4.8 kWh/kg Cl₂. These calculations allow direct comparison of process efficiency across different electrolytic industries.
+
+## Electrolysis Plant Design Considerations
+
+**Rectifier selection**: Silicon diode rectifiers are standard for modern electrolysis plants. Input: 3-phase AC at 6-35 kV. Output: DC at the required voltage and current. Rectifier transformer steps down to the cell operating voltage (200-1200V DC depending on process). Rectifier efficiency: 97-99%. Cooling: water-cooled diode heat sinks. Harmonic filtering required on the AC side (rectifiers draw non-sinusoidal current, creating harmonics that affect power quality). Thyristor (SCR) rectifiers provide variable DC output voltage by controlling firing angle, but have lower power factor at partial load.
+
+**Bus bar design**: Current-carrying bus bars (copper or aluminum flat bars) connect rectifier to cell stack and between cells. At 200 kA, even 0.001 Ω resistance dissipates 40 kW as heat. Bus bars must be short, thick, and well-cooled. Copper bus bar: current density 1.0-1.5 A/mm² (above this, excessive heating). Aluminum bus bar: 0.6-0.8 A/mm². Typical cross-section for 200 kA: 200,000 mm² copper (approximately 200 × 1000 mm bar, or multiple bars in parallel). Bolted joints with silver-plated contact surfaces to minimize contact resistance. Thermal expansion accommodated with flexible connectors.
+
+**Cell room ventilation**: Chlor-alkali cell rooms require forced ventilation to prevent chlorine accumulation. Air changes: 6-12 per hour. Chlorine detection: continuous monitoring at low points (Cl₂ is 2.5× heavier than air, accumulates at floor level). Emergency scrubber: standby NaOH scrubber on automatic activation by Cl₂ detector, capable of absorbing the entire cell room chlorine inventory in 30 minutes. The cell room is maintained at slight negative pressure relative to surrounding areas to prevent chlorine escape.
+
+## Electrolysis Environmental Considerations
+
+**Mercury cell legacy**: The mercury cell process (cathode: flowing mercury amalgam, Na-Hg) was historically a major source of mercury pollution. Each tonne of Cl₂ produced lost 2-50 g of mercury to wastewater and air. The Minamata Convention (2017) mandates phaseout of mercury cell chlor-alkali plants. Conversion to membrane cells eliminates mercury emissions entirely. Contaminated sites require soil remediation (activated carbon, ion exchange, or excavation).
+
+**Chlor-alkali hydrogen utilization**: The H₂ byproduct (0.028 tonnes H₂ per tonne Cl₂) is a valuable co-product. Uses: HCl synthesis (H₂ + Cl₂ → 2HCl), fuel for boiler or furnace (lower heating value 120 MJ/kg), hydrogenation reactions in chemical synthesis, or purified for semiconductor use. In many plants, H₂ provides a significant portion of the total site fuel requirement. Failure to utilize H₂ wastes energy and creates a flammable gas disposal problem (flaring).
+
+**Aluminum smelter fluoride emissions**: HF, CF₄, and C₂F₆ emissions from Hall-Héroult cells are controlled by dry scrubbing: alumina (Al₂O₃) is injected into the cell exhaust gas, where it reacts with HF to form aluminum fluoride (AlF₃). The fluoridated alumina is then fed to the cells (closing the fluoride loop). CF₄ and C₂F₆ are formed during anode effects (voltage spikes from low alumina concentration) and are extremely potent greenhouse gases (GWP₁₀₀: CF₄ = 6,630, C₂F₆ = 11,100). Modern potlines minimize anode effects through automated alumina feeding and computer control, reducing PFC emissions to <0.1 kg CF₄ per tonne Al.

@@ -121,6 +121,113 @@ Blast furnace smelting produces pig iron with typical composition: ~4% C, ~1% Si
 - **Flat spring**: Thin strip of hardened and tempered spring steel. Used in locks, snaps, electrical contacts, measuring instruments (galvanometer springs). File to consistent thickness, bend to shape, heat treat.
 - **Testing**: Compress/bend spring and measure recovery. Spring should return to original shape without permanent deformation. Fatigue test: cycle spring many times (1000+) — if it breaks, temper at slightly higher temperature to increase toughness.
 
+### Carbon Steel Grades
+
+Plain carbon steels are classified by the SAE/AISI 10xx system, where "10" denotes plain carbon steel and "xx" gives the carbon content in hundredths of a percent (e.g., 1020 = 0.20% C). Carbon is the dominant alloying element — each 0.1% increase in carbon raises tensile strength by ~70-80 MPa and hardness by ~15-20 HRC (after quenching), but reduces ductility and weldability. Manganese (0.3-0.6% in most grades) provides deoxidation and moderate solid-solution strengthening. Phosphorus and sulfur are impurities kept below 0.05% and 0.05% respectively — they cause temper brittleness and hot shortness.
+
+**Low carbon steel (mild steel, 0.05-0.25% C)**:
+- **Grades**: 1006, 1008, 1010, 1015, 1018, 1020, 1025.
+- **Properties**: Tensile strength 300-500 MPa (yield 180-350 MPa). Elongation 20-35%. Excellent ductility and formability — can be cold-rolled, deep-drawn, bent, and stamped without cracking. Good weldability (no preheat required for most thicknesses). Low hardenability — does not respond significantly to quenching.
+- **Uses**: Structural shapes (I-beams, channels, angles — A36 specification at 0.26% C max), sheet and plate (automotive body panels, appliance housings, ductwork), wire (fencing, nails, baling wire), pipe and tubing, cold-headed fasteners (bolts, rivets). The workhorse of civilization — ~90% of all steel produced is mild steel.
+- **Heat treatment response**: Negligible hardening from quenching. Case hardening (carburizing) used when a hard wear surface is needed on a tough core.
+
+**Medium carbon steel (0.25-0.60% C)**:
+- **Grades**: 1030, 1035, 1040, 1045, 1050, 1055, 1060.
+- **Properties**: Tensile strength 500-900 MPa (quenched and tempered). Elongation 10-20% (heat-treated). Moderate hardenability — can be through-hardened in sections up to ~25-50 mm diameter by oil quenching. Good balance of strength, toughness, and wear resistance. Weldability decreases with carbon content — preheat to 150-250°C for >0.35% C to prevent hydrogen cracking.
+- **Uses**: Forgings (crankshafts, connecting rods, gear blanks, axle shafts), machined components (shafts, spindles, couplings, hydraulic cylinder rods), railway rails and wheels (1080-1100 MPa tensile), high-strength bolts (Grade 5 and Grade 8), agricultural implements (plowshares, cultivator tines).
+- **Heat treatment**: Quench and temper is the standard processing route. Austenitize at 820-870°C, quench in oil (or water for simple shapes <25 mm), temper at 400-650°C to achieve target strength-toughness combination. Normalizing (air cool from 850-900°C) used for uniform fine-grained structure before machining.
+
+**High carbon steel (0.60-1.00% C)**:
+- **Grades**: 1060, 1070, 1080, 1084, 1090, 1095.
+- **Properties**: Tensile strength 700-1300 MPa (heat-treated). Elongation 5-12%. Very high hardness and wear resistance after quenching (55-65 HRC for 0.8-1.0% C). Low ductility — cannot be cold-formed extensively. Poor weldability — requires careful preheat and post-weld heat treatment. High spring properties (high elastic limit, good fatigue resistance).
+- **Uses**: Springs (leaf, coil, flat — see Spring Making above), cutting tools (chisels, plane blades, knives, axes), wire (music wire, piano wire at 0.8-0.9% C — tensile strength up to 3000 MPa as cold-drawn), saw blades, files, rasps, agricultural cutting edges (scythes, sickles), wear plates.
+- **Eutectoid composition**: At 0.76-0.83% C, the steel is exactly at the eutectoid point. Slow cooling produces 100% pearlite (alternating lamellae of ferrite and cementite, spacing ~0.1-1 μm). This composition has the finest pearlite and the most uniform response to heat treatment — preferred for blades and springs.
+
+### Heat Treatment in Depth
+
+The iron-carbon phase diagram defines the transformations that make steel uniquely versatile among structural metals. Steel can be hardened because iron undergoes an allotropic transformation: ferrite (BCC, α-iron) transforms to austenite (FCC, γ-iron) at 727°C (the eutectoid temperature) in the presence of carbon. The FCC structure dissolves up to 2.14% carbon; the BCC structure dissolves only 0.022%. This difference is the engine of heat treatment.
+
+**TTT (Time-Temperature-Transformation) diagrams**:
+- Also called IT (isothermal transformation) or C-curve diagrams. Plot transformation products vs. time at constant temperature for a given composition and austenite grain size.
+- **Upper region (550-727°C)**: Austenite transforms to **pearlite**. At higher temperatures (~650-727°C), coarse pearlite forms (lamellar spacing ~0.5-1 μm, hardness ~15-25 HRC). At lower temperatures (~550-650°C), fine pearlite or sorbite forms (spacing ~0.1-0.3 μm, hardness ~30-40 HRC). Transformation starts in seconds to minutes.
+- **Lower region (200-550°C)**: Austenite transforms to **bainite**. Upper bainite (350-550°C) consists of laths of ferrite with discrete cementite particles — moderate hardness (~40-50 HRC), good toughness. Lower bainite (200-350°C) has acicular (needle-like) ferrite plates with fine epsilon-carbide precipitates within the plates — high hardness (~45-55 HRC) with better toughness than martensite at equivalent hardness. Bainite forms over minutes to hours.
+- **Martensite region (below ~200°C for most carbon steels)**: If austenite is cooled fast enough to miss the pearlite and bainite noses on the TTT diagram, it transforms to **martensite** by a diffusionless shear mechanism. Carbon atoms are trapped in the BCT (body-centered tetragonal) lattice, causing severe lattice strain — this is what makes martensite hard (50-65 HRC depending on carbon content). Martensite starts forming at the Ms temperature (~200-350°C depending on carbon content) and finishes at Mf (~-50 to 150°C). Transformation is instantaneous at each temperature — no holding time needed.
+- **Critical cooling rate**: The minimum cooling rate that avoids the pearlite nose entirely. For plain carbon steels, this is very fast (~100-600°C/second), requiring water quenching. This is why plain carbon steels have poor hardenability — only thin sections can be through-hardened.
+
+**Hardenability — Jominy end-quench test**:
+- A standardized test (ASTM A255) that measures how deep hardness penetrates into a steel section. A cylindrical specimen (25 mm diameter × 100 mm long) is austenitized at a standard temperature, then one end is quenched with a controlled water jet. This produces a continuous gradient of cooling rates from the quenched end (fastest) to the far end (slowest).
+- After quenching, a flat is ground along the length and Rockwell hardness measured every 1.5 mm. The resulting Jominy curve (hardness vs. distance from quenched end) characterizes the steel's hardenability.
+- Plain carbon steels (10xx) show steep hardness drop-off — the quenched end is hard martensite but within 5-10 mm the hardness drops to pearlite levels. Alloy steels (41xx, 51xx, 86xx) maintain hardness much further from the quenched end due to alloying elements shifting the TTT curves to longer times (slower critical cooling rate).
+- **Practical significance**: Hardenability determines the maximum section size that can be through-hardened. A steel with high hardenability can be oil-quenched (less distortion, lower cracking risk) in larger sections and still achieve full martensite through the core.
+
+**Surface hardening methods** (hard surface + tough core):
+- **Carburizing**: Pack the part in carbonaceous material (charcoal + energizer like BaCO₃ or Na₂CO₃) and heat to 900-950°C for 4-12 hours. Carbon diffuses into the low-carbon steel surface, producing a high-carbon case (0.7-1.0% C) over a tough low-carbon core. Case depth: 0.5-2 mm (roughly 0.5 mm per 4 hours at 925°C). After carburizing, quench to harden the case. Used for: gears, camshafts, bearings, pins — any part requiring wear-resistant surface with impact-resistant core.
+- **Nitriding**: Heat medium-carbon steel (containing nitride-forming elements Al, Cr, Mo, V) to 500-590°C in ammonia gas (NH₃) atmosphere for 20-100 hours. Nitrogen from dissociated NH₃ diffuses into the surface and forms hard nitride precipitates (AlN, VN, CrN). Surface hardness 65-70 HRC (harder than carburized case). No quenching required — minimal distortion. Excellent fatigue life. Slow process but produces the hardest surface of any common treatment. Used for: precision gears, valve seats, injector nozzles, die surfaces.
+- **Induction hardening**: Place steel part inside water-cooled copper induction coil. High-frequency alternating current (10-500 kHz) induces eddy currents in the part surface, heating it to austenitizing temperature (850-950°C) within seconds. Immediately spray-quench with water. Only the surface layer transforms to martensite; the core remains unaffected. Case depth controlled by frequency: higher frequency = shallower case (0.5-2 mm at 200-500 kHz; 2-5 mm at 10-50 kHz). Fast, localized, repeatable — ideal for high-volume production. Used for: shaft journals, gear teeth, cam lobes, bearing seats, piston rods.
+- **Flame hardening**: Oxy-acetylene or oxy-propane torch heats the surface to austenitizing temperature, followed immediately by water spray quench. Manual or mechanized. Less precise than induction but requires no special equipment beyond a torch and water spray. Used for: large gears, crane wheels, rail ends, wear plates — parts too large for induction coils.
+
+### Quality and Testing
+
+The mechanical properties of iron and steel must be verified at every stage — from incoming raw material to finished component. The following test methods form the core of ferrous metallurgical quality control.
+
+**Tensile testing**:
+- **Method**: Universal Testing Machine (UTM) pulls a standardized specimen (typically 12.5 mm or 6.25 mm diameter gauge section, 50 mm gauge length) at a constant crosshead speed until fracture. Load and extension are continuously recorded.
+- **Stress-strain curve interpretation**:
+  - **Elastic region**: Linear stress-strain relationship (Hooke's law). Slope = Young's modulus (~200 GPa for steel). Reversible deformation.
+  - **Yield point**: For low-carbon steel, a distinct upper yield point followed by a lower yield point and a yield point elongation (Lüders bands). For higher-carbon and alloy steels, the offset method (0.2% offset) defines yield strength. This is the practical limit for structural design — stresses below yield produce no permanent deformation.
+  - **Strain hardening region**: Between yield and UTS, the steel strengthens by dislocation multiplication and pileup. The slope decreases as necking approaches.
+  - **Ultimate Tensile Strength (UTS)**: Maximum load divided by original cross-sectional area. The peak of the engineering stress-strain curve.
+  - **Elongation and reduction of area**: After fracture, fit the broken ends together and measure final gauge length. Elongation = (final - initial) / initial × 100%. Reduction of area = (original area - fracture area) / original area × 100%. These measure ductility — critical for forming operations and structural safety.
+- **Typical values**: A36 structural steel: yield 250 MPa, UTS 400-550 MPa, elongation 20-23%. 1045 Q&T: yield 530 MPa, UTS 700 MPa, elongation 15%. 1095 quenched: UTS 1100+ MPa, elongation <10%.
+
+**Impact testing (Charpy V-notch)**:
+- **Method**: A notched bar specimen (10 × 10 × 55 mm, 2 mm deep 45° V-notch) is struck by a swinging pendulum. The energy absorbed in fracturing the specimen is measured by the height the pendulum reaches after breaking the sample.
+- **Ductile-to-brittle transition temperature (DBTT)**: Test specimens at a range of temperatures (-80 to +100°C). BCC metals (ferritic steel) exhibit a sharp transition from ductile (high energy absorption, ~100-200 J) to brittle (low energy, ~5-30 J) fracture over a narrow temperature range. The DBTT is the temperature at which the fracture appearance is 50% ductile (fibrous) and 50% brittle (cleavage). For mild steel, DBTT is typically -20 to +20°C depending on composition and grain size.
+- **Significance**: The DBTT must be well below the minimum service temperature. Liberty ship failures (1942-1944) were caused by welds with DBTT above the North Atlantic water temperature — ships literally cracked in half. Grain refinement (killed steel practice, normalizing, microalloy additions of Nb, V, Ti) lowers DBTT. Higher carbon and phosphorus raise DBTT.
+- **FCC metals** (austenitic stainless, aluminum, copper) do not exhibit a DBTT — they remain ductile to cryogenic temperatures.
+
+**Hardness testing**:
+- **Brinell (HBW)**: 10 mm tungsten carbide ball pressed into the surface at 3000 kgf (for steel). Measure the indentation diameter with a low-power microscope. HBW = load / indentation area. Good for castings and forgings (large indentation averages out local variations). Range: 50-600 HBW.
+- **Rockwell**: Minor load (10 kgf) seats the indenter, then major load (60, 100, or 150 kgf depending on scale) is applied. Hardness read directly from the dial or display — measures depth of penetration, not area. Fast, no optical measurement needed. Common scales: HRC (150 kgf, diamond cone, for hardened steel, range 20-70), HRB (100 kgf, 1/16" ball, for soft steel, range 60-100), HRA (60 kgf, diamond cone, for carbides and thin hard cases).
+- **Vickers (HV)**: Diamond pyramid indenter, any load from 10 gf (microhardness) to 100 kgf. Measure diagonal of the square indentation. HV = 1.854 × load / diagonal². One continuous scale covers all metals. Ideal for microstructural analysis (hardness of individual phases, case depth measurement, heat-affected zone mapping). Range: 5-2000 HV.
+- **Practical correlations**: For carbon steels, approximate UTS (MPa) ≈ 3.45 × HBW ≈ 3.55 × HRC (for HRC > 20). These correlations allow non-destructive strength estimation in the field.
+
+**Metallography**:
+- Cut, mount (in bakelite or epoxy), grind (120-600 grit SiC paper), polish (diamond paste 6 → 1 → 0.25 μm), etch (2% nital — nitric acid in ethanol — for carbon steels; reveals grain boundaries, ferrite/pearlite distribution, martensite, bainite). Examine under optical microscope at 100-1000×. Grain size measured by ASTM grain size number (G = 1 at ~15 grains/mm² to G = 8 at ~2000 grains/mm²). Finer grain size (higher G) means higher yield strength (Hall-Petch relationship: σ_y = σ₀ + k / √d) and lower DBTT.
+
+**Non-destructive testing (NDT)**:
+- **Ultrasonic testing (UT)**: High-frequency sound waves (1-10 MHz) transmitted through the part. Internal defects (cracks, inclusions, porosity) reflect the sound back to the transducer. Pulse-echo technique: time delay = distance to defect, amplitude = defect size. Portable flaw detectors for field inspection of shafts, pressure vessels, welds. Can detect defects as small as 0.5 mm in favorable geometry.
+- **Magnetic particle inspection (MPI)**: Applicable only to ferromagnetic materials (iron and steel). Magnetize the part with a portable yoke or coil. Apply magnetic particles (dry powder or wet fluorescent suspension). Particles accumulate at surface and near-surface defects (cracks, seams, laps) where magnetic flux leaks out. Under UV light (fluorescent method), indications glow brightly. Fast, inexpensive — the standard method for inspecting welds, shafts, forgings, and castings in the field.
+- **Dye penetrant testing (PT)**: Clean the surface, apply red dye penetrant (let dwell 10-30 minutes to seep into surface defects), wipe off excess, apply white developer (draws dye back out of defects). Red indications on white background show surface-breaking cracks, porosity, laps. Works on any non-porous material. Simpler than MPI but detects only surface-breaking defects.
+- **Radiographic testing (RT)**: X-ray or gamma ray (Ir-192 or Co-60 source) passes through the part onto film or digital detector. Internal defects (porosity, slag inclusions, incomplete fusion, cracks oriented parallel to the beam) appear as density variations on the radiograph. The most expensive and slowest NDT method but the only one that provides a permanent visual record of internal condition. Standard for pressure vessel welds and critical structural castings.
+
+### Wrought Iron vs Steel vs Cast Iron
+
+These three forms of iron-carbon alloy represent fundamentally different material classes, each suited to different applications. The carbon content — and the form that carbon takes — is the primary differentiator.
+
+| Property | Wrought Iron | Carbon Steel | Gray Cast Iron |
+|---|---|---|---|
+| **Carbon content** | 0.02-0.08% | 0.05-1.0% | 2.5-4.0% |
+| **Carbon form** | Slag inclusions (fibrous) | Dissolved in ferrite + cementite (Fe₃C) | Graphite flakes in iron matrix |
+| **Melting range** | ~1500-1538°C (nearly pure iron) | 1400-1520°C (decreases with C) | 1150-1250°C (low due to high C) |
+| **Tensile strength** | 200-350 MPa | 300-1300 MPa (depends on grade/heat treatment) | 150-400 MPa |
+| **Yield strength** | 150-250 MPa | 180-1000+ MPa | No definite yield point |
+| **Elongation** | 15-25% | 5-35% (depends on grade/heat treatment) | <1% (brittle) |
+| **Hardness (HBW)** | 100-120 | 120-650 (heat-treated) | 150-280 |
+| **Ductility** | Excellent — can be hot- and cold-worked extensively | Good (low C) to poor (high C) | Nil — cannot be forged or rolled |
+| **Castability** | Poor — cannot be cast into shapes (too high melting point, no fluidity) | Moderate — limited casting applications | Excellent — low melting point, high fluidity, minimal shrinkage |
+| **Weldability** | Excellent forge welding (the traditional method) | Good (low C) to poor (high C); arc welding universal | Difficult — requires preheat, special electrodes, or brazing |
+| **Machinability** | Poor — gummy, tears easily (slag stringers) | Good to moderate (depends on hardness) | Excellent — graphite acts as chip breaker and lubricant |
+| **Corrosion resistance** | Good — slag inclusions interrupt corrosion paths | Moderate — rusts without protection | Good — graphite provides some barrier; alloyed grades very resistant |
+| **Vibration damping** | Poor | Poor | Excellent — graphite absorbs vibration |
+| **Typical uses** | Decorative ironwork, chains, anchors, historic structures | Structures, machines, tools, fasteners, springs, vehicles, pipes | Machine bases, engine blocks, pipes, cookware, manhole covers |
+| **Historical period** | Ancient to ~1860 (replaced by steel for most uses) | 1856-present (Bessemer process onward) | ~1700-present (blast furnace + cupola) |
+
+**Key distinctions**:
+- Wrought iron's fibrous slag inclusions give it a wood-like grain structure. It is remarkably resistant to fatigue and corrosion — Victorian wrought iron structures survive after 150+ years with minimal maintenance. However, it cannot be hardened by heat treatment and is labor-intensive to produce (bloomery + extensive forging). Obsolete for structural use but still made in small quantities for restoration and decorative work.
+- Steel is the chameleon material — its properties can be tuned across an enormous range by varying carbon content, heat treatment, and alloying. Mild steel (0.15-0.25% C) is ductile and weldable for structures. Medium carbon (0.35-0.50% C) quenched and tempered provides the best balance for machine parts. High carbon (0.70-1.0% C) hardened and tempered gives maximum hardness for tools and springs.
+- Cast iron's advantage is economy — it can be poured directly into complex shapes from a cupola furnace at relatively low temperature. Its disadvantages (brittleness, no ductility) limit it to compressive-load applications and situations where vibration damping outweighs strength requirements. Ductile iron (spheroidal graphite — produced by Mg or Ce inoculation of the melt) bridges the gap: 350-700 MPa tensile strength with 2-10% elongation.
+
 ### Safety & Hazards
 
 - **Extreme heat and burn risk**: Bloomery furnaces reach 1200-1400°C; extracted blooms glow white-hot at ~1200°C. Forge welding requires heating iron to 1300-1400°C (bright yellow-white). At these temperatures, radiation burns occur within seconds of close proximity. Wear heavy leather apron, gloves, face shield, and closed-toe boots. Use tongs sized to the work — dropping white-hot iron causes severe burns and fires. Maintain a clear, dry floor around the forge (no water puddles — steam explosions from spilled molten slag).

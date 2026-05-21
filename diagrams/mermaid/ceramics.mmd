@@ -16,6 +16,7 @@ graph TD
     ceramics["Ceramics & Refractories"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    animals_animal-materials("Animal-Derived Materials Processing")
     chemistry_cement("Cement & Concrete")
     chemistry_refractories("Refractory Materials")
     energy_fuels_charcoal("Charcoal Production")
@@ -50,6 +51,7 @@ graph TD
     silicon -.-> ceramics_advanced-ceramics
     metals_iron-steel_blast-furnace -.-> ceramics_kilns
     chemistry_refractories -.-> ceramics_kilns
+    animals_animal-materials -.-> ceramics_lime
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -71,6 +73,7 @@ graph TD
     class ceramics_kilns capability
     class ceramics_lime capability
     class ceramics_advanced-ceramics critical
+    class animals_animal-materials external
     class chemistry_cement external
     class chemistry_refractories external
     class energy_fuels_charcoal external

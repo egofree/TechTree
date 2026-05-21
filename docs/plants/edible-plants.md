@@ -65,6 +65,114 @@ Species cataloged in the tech tree with confirmed edible use from the plants dat
 
 Additional edible species in the broader catalog include representatives from Amaranthaceae (*Amaranthus hybridus* — edible leaves and seeds, high-protein grain), Brassicaceae (*Alliaria petiolata* — garlic mustard, edible leaves with garlic flavor), and many Allium species (wild onions and garlics) providing reliable flavor and nutrition across temperate zones.
 
+### Calorie Crops: Staple Grains and Tubers
+
+Staple crops provide the caloric foundation for agricultural societies. Yields vary enormously by crop, climate, and cultivation intensity:
+
+**Wheat (*Triticum aestivum*)**:
+- Yield: 2-3 tonnes/ha under hand cultivation; up to 5-6 tonnes/ha with intensive management
+- Nutrition: ~340 kcal/100g (whole grain); 11-14% protein; rich in gluten for bread-making
+- Growing cycle: 120-180 days depending on winter vs. spring variety
+- Winter wheat sown in autumn, overwinters as seedling, harvests early summer. Spring wheat sown after last frost, harvests late summer
+- Requires 400-600 mm annual rainfall or equivalent irrigation; pH 6.0-7.5
+- Thousand kernel weight: 30-45 g; seeding rate 100-150 kg/ha
+
+**Rice (*Oryza sativa*)**:
+- Yield: 3-5 tonnes/ha (paddy rice under flooded conditions); 1.5-2.5 tonnes/ha (upland rainfed)
+- Nutrition: ~360 kcal/100g (unpolished); 6-8% protein; primary calorie source for >3 billion people
+- Growing cycle: 90-150 days depending on variety (short-season vs. long-season)
+- Flooded paddy cultivation suppresses weeds and increases yield 2-3x over dryland rice
+- Requires 1,000-2,000 mm water over growing season; minimum 20°C during tillering
+- Seed rate: 40-60 kg/ha transplanted; 80-100 kg/ha direct-seeded
+
+**Potato (*Solanum tuberosum*)**:
+- Yield: 20-40 tonnes/ha (highest calorie yield per unit area of any staple crop)
+- Nutrition: ~77 kcal/100g (boiled); 2% protein; high in vitamin C (20 mg/100g) and potassium
+- Growing cycle: 75-130 days depending on variety
+- Propagated vegetatively from seed tubers (tuber pieces with 2-3 eyes); 1.5-2.5 tonnes seed tubers/ha
+- Tolerates poor soils and cool climates; grows at 1,500-4,000 m altitude in Andes
+- Store at 2-4°C in dark conditions; light exposure produces toxic solanine (green skin — do not eat)
+
+**Maize (*Zea mays*)**:
+- Yield: 2-5 tonnes/ha (open-pollinated varieties); grain protein 8-10%
+- Nutrition: ~365 kcal/100g (dry grain); niacin bound as niacytin — treat with alkali (nixtamalization: soak in lime water) to release
+- Growing cycle: 90-120 days; requires 500-800 mm water; warm-season (frost-sensitive)
+- Plant in hills (3-5 seeds per hill, 75-100 cm spacing) or rows; detassel for cross-pollination control
+
+### Root Crops and Cyanide Detoxification
+
+Root crops are critical calorie sources in tropical and subtropical zones where grain cultivation is difficult:
+
+**Cassava (*Manihot esculenta*)**:
+- Yield: 10-25 tonnes/ha fresh roots; 30-35% dry matter
+- Nutrition: ~160 kcal/100g (fresh root, cooked); 1-2% protein; extremely drought-tolerant
+- **Critical hazard**: Contains cyanogenic glycosides (linamarin, lotaustralin). Bitter varieties contain 50-400 mg HCN equivalent/kg; sweet varieties 15-50 mg/kg. Lethal dose: ~0.5-3.5 mg HCN/kg body weight
+- **Detoxification process**: Peel roots (cyanogens concentrated in skin). Grate or chip finely. Soak in water for 24-48 hours (hydrolyzes linamarin to HCN, which volatilizes). Alternatively, ferment grated pulp for 3-5 days, then press and toast into farinha flour. Heap fermentation (pile grated roots 30-50 cm deep, cover with leaves, ferment 48-72 hours) is the traditional West African method
+- Cooking alone does not fully detoxify cassava — enzymatic breakdown must occur before heating inactivates the linamarase enzyme at ~75°C
+
+**Sweet potato (*Ipomoea batatas*)**:
+- Yield: 10-20 tonnes/ha; grows in 90-150 days
+- Nutrition: ~86 kcal/100g (baked); beta-carotene in orange-fleshed varieties provides vitamin A precursor (up to 14 mg β-carotene/100g)
+- Propagated from vine cuttings (20-30 cm slips); 25,000-40,000 slips/ha
+- Tolerates poor, acidic soils; drought-resistant once established
+
+**Taro (*Colocasia esculenta*)**:
+- Yield: 5-12 tonnes/ha corms; 100-200 days to maturity
+- Nutrition: ~112 kcal/100g; 1-2% protein; high in starch (easily digestible — infant food)
+- Contains calcium oxalate crystals (raphides) causing severe throat irritation if eaten raw
+- **Must be cooked**: Boil 20-30 minutes or bake thoroughly to dissolve oxalate crystals. Adding a pinch of baking soda (sodium bicarbonate) accelerates oxalate breakdown
+
+### Grain Processing
+
+Post-harvest processing converts standing grain into storable, edible flour:
+
+**Threshing**: Separate grain from stalks and chaff. Methods in order of mechanization:
+- Hand beating: Flail stalks against a hard surface or beat with a wooden flail (two sticks joined by leather thong). Throughput: 20-50 kg/hour
+- Treading: Drive oxen or horses in circles over spread stalks. Throughput: 100-200 kg/hour
+- Threshing sledge (tribulum): Wooden board with embedded flint chips, dragged by animal over grain. Used since Bronze Age in Mediterranean
+
+**Winnowing**: Separate grain from chaff using air. Toss threshed grain mixture into a light breeze from a basket or flat tray. Chaff blows away; heavy grain falls straight down. Repeat 3-5 times until grain is clean. Requires a steady breeze (2-5 m/s). Winnowing trays are wide, shallow baskets ~60-80 cm diameter.
+
+**Milling**: Grind grain into flour. Progressive improvements in grinding technology:
+- Saddle quern (metate): Flat stone with handheld rubbing stone. 1-2 kg flour/hour. Oldest method, still used for dehulling
+- Rotary quern: Two circular stones, upper rotates on lower. 3-5 kg flour/hour. Invented ~300 BCE Mediterranean
+- Water mill: Overshot wheel drives stone pair. 50-100 kg flour/hour. Requires water wheel infrastructure
+
+### Seed Saving
+
+Maintaining viable seed stock is essential for agricultural continuity. Seeds are living organisms in dormant state:
+
+- **Selection**: Save seed from the healthiest, most productive plants — not from the bulk harvest. Mark superior plants in the field before harvest with colored cord. Select for disease resistance, yield, and adaptation to local conditions
+- **Drying**: Seeds must reach 8-12% moisture content for storage. Test by biting — a properly dry seed cracks rather than dents. Spread thin on screens in warm (30-35°C), dry, shaded location for 1-2 weeks
+- **Storage**: Cool, dry, dark. Clay jars with tight lids, sealed with wax. Add powdered neem leaves or ash as insect repellent. Viability declines ~1-3% per year at ambient temperature; frozen seed retains >90% viability for decades
+- **Viability testing**: Place 10 seeds between damp cloth in a warm location. Count germination after 7-14 days. Below 50% germination — sow seed more densely or obtain fresh stock
+
+### Crop Rotation
+
+Sustained productivity requires rotating crop families to break pest cycles and manage soil nutrients. The classic four-course rotation (Norfolk system, developed 18th century England):
+
+1. **Legume year**: Clovers, beans, peas, or vetch. Rhizobium bacteria in root nodules fix 50-200 kg N/ha. Plow under as green manure or harvest grain
+2. **Cereal year**: Wheat, barley, or oats. Exploits nitrogen fixed by preceding legume
+3. **Root crop year**: Turnips, potatoes, or beets. Deep rooting breaks plow pan; cultivation suppresses weeds
+4. **Fallow or cereal**: Rest the land, or plant a second cereal (rye or oats) if fertility permits
+
+Simpler two-field rotation (grain-fallow) is the starting point; three-field (winter grain / spring grain / fallow) is the medieval standard. Each improvement increases effective land utilization by reducing fallow fraction.
+
+### Nutrition Reference
+
+Approximate composition of major staple crops (per 100g edible portion, cooked unless noted):
+
+| Crop | Calories (kcal) | Protein (g) | Fat (g) | Carbohydrate (g) | Key Micronutrients |
+|------|----------------|-------------|---------|-------------------|-------------------|
+| Wheat flour (whole) | 340 | 13 | 2.5 | 72 | Iron (3.9 mg), B vitamins, phosphorus |
+| Rice (brown, cooked) | 112 | 2.6 | 0.9 | 24 | Manganese, selenium, magnesium |
+| Potato (baked, skin) | 93 | 2.5 | 0.1 | 21 | Vitamin C (13 mg), potassium (535 mg) |
+| Maize (nixtamalized) | 95 | 3.5 | 1.2 | 20 | Niacin (released), calcium (from lime) |
+| Cassava (cooked) | 112 | 0.9 | 0.2 | 27 | Vitamin C (21 mg); very low protein |
+| Sweet potato (baked) | 90 | 2.0 | 0.1 | 21 | Vitamin A (β-carotene), vitamin C |
+| Taro (cooked) | 112 | 1.5 | 0.2 | 26 | Vitamin E, potassium, magnesium |
+| Soybean (cooked) | 173 | 17 | 9 | 10 | Complete protein, iron (5.1 mg), calcium |
+
 ### Safety & Hazards
 
 - **Toxicity from misidentification**: Many edible plants have toxic lookalikes. Never eat a plant you cannot identify with certainty. Learn 10-20 local species thoroughly before expanding your foraging range. When uncertain, apply the universal edibility test: fast for 8 hours, then rub the plant on inner wrist, wait 15 minutes for irritation. Place on lips, wait 3 minutes. Hold on tongue for 15 seconds without chewing. Chew briefly, hold in mouth 15 minutes. If no burning or nausea, swallow. Wait 8 hours. If no ill effects, the plant is likely safe.
@@ -80,6 +188,16 @@ Additional edible species in the broader catalog include representatives from Am
 - **Enables**: [Health](../health/) (material) — adequate nutrition from edible plants is prerequisite for population health and labor capacity
 - **Uses**: [Fire-Making](../foundations/fire.md) (tool) — cooking, drying, roasting, and smoke-preservation all depend on controlled fire
 
+### Climate-Adapted Staple Selection
+
+Choosing the right staple crop for the local climate is the single most important agricultural decision:
+
+- **Temperate (4-season, 400-800 mm rainfall)**: Wheat, barley, potato, rye, oats. Wheat and potato together provide complete nutrition (wheat: protein and calories; potato: vitamin C, potassium, calories). Rye (*Secale cereale*) is the fallback — tolerates poor acid soils and late planting that would fail for wheat. Yield: 1.5-2.5 tonnes/ha rye on marginal land
+- **Mediterranean (hot dry summer, mild wet winter)**: Wheat, barley, olive, grape, chickpea. Winter-sown cereals exploit rainy season. Olive (*Olea europaea*) provides long-lived fat source — trees produce 20-50 kg olives/year at 15-40 years of age, pressing 15-20% oil by weight
+- **Subtropical/tropical wet**: Rice (paddy), cassava, sweet potato, taro, banana. Rice in flooded paddies produces the highest reliable calorie yield per hectare in warm climates. Cassava is the drought-insurance crop — survives 6-month dry seasons that kill other staples
+- **Semi-arid (250-500 mm rainfall)**: Sorghum (*Sorghum bicolor*, 1-3 tonnes/ha), pearl millet (*Pennisetum glaucum*, 0.5-2 tonnes/ha), cowpea (*Vigna unguiculata*). These C4 grasses use water more efficiently than wheat or rice. Sorghum grain: ~340 kcal/100g, 10% protein; also yields sweet stalk syrup
+- **Highland tropical (>1,500 m)**: Potato (native to Andes at 2,000-4,000 m), oca (*Oxalis tuberosa*), quinoa (*Chenopodium quinoa*, 4-8% protein, complete amino acid profile), kiwicha (*Amaranthus caudatus*)
+
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Plants](./) • [All Domains](../)*
+[← Back to Plants](index.md)

@@ -112,10 +112,16 @@ chemistry_packaging-testing: "Semiconductor Packaging & Testing" {
 chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry" {
   shape: rectangle
 }
+computing_data-storage: Data Storage Systems {
+  shape: rectangle
+}
 energy_storage: "Energy Storage & Diversification" {
   shape: rectangle
 }
 foundations: Foundations {
+  shape: rectangle
+}
+glass_fibers: Glass Fiber Production {
   shape: rectangle
 }
 health: "Public Health, Sanitation & Medicine" {
@@ -149,6 +155,8 @@ polymers_rubber_natural -> foundations: { class: tool-edge }
 health -> polymers_rubber: { class: material-edge }
 energy_storage -> polymers_rubber: { class: material-edge }
 polymers_rubber_shellac -> chemistry_distillation: { class: material-edge }
+polymers_composites -> glass_fibers: { class: material-edge }
+computing_data-storage -> polymers_thermoplastics: { class: material-edge }
 
 # ==================== STYLING ====================
 polymers.class: domain
@@ -164,8 +172,10 @@ chemistry.class: external
 chemistry_distillation.class: external
 chemistry_packaging-testing.class: external
 chemistry_petroleum-alternatives.class: external
+computing_data-storage.class: external
 energy_storage.class: external
 foundations.class: external
+glass_fibers.class: external
 health.class: external
 machine-tools.class: external
 photolithography_resists-masks.class: external

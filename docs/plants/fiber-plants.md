@@ -105,6 +105,107 @@ Approximate dry fiber yields under hand-cultivation conditions:
 
 Labor requirements vary enormously. Cotton requires the most hand-labor per unit fiber (picking individual bolls). Hemp and jute are the most labor-efficient per hectare for bulk fiber. Nettle is free but yields the least per area.
 
+### Flax Processing Detail
+
+Flax (*Linum usitatissimum*) produces the finest plant fiber — linen — and warrants detailed treatment of each processing stage:
+
+**Retting**: The critical step. Bundle stalks in handful-sized sheaves (12-15 cm diameter). Submerge in still water (pond, retting tank) at 15-25°C:
+- At 15°C: 10-14 days to full ret
+- At 20°C: 7-10 days
+- At 25°C: 5-7 days (risk of over-retting increases)
+- Test readiness: Snap a stalk — fibers should separate cleanly from the woody shive core without manual pulling. Under-retted stalks resist separation; over-retted fibers are weak and discolored
+- Dew retting alternative: Spread stalks on grass field, turn every 2-3 days. Takes 3-5 weeks. Produces coarser, darker fiber but requires no water infrastructure
+
+**Breaking**: Pass dried, retted stalks through a flax break (wooden cradle with hinged blades). Crushes the brittle woody shive into fragments while leaving flexible fiber bundles intact. Break each handful 3-5 times.
+
+**Scutching**: Beat the broken stalks against a flat wooden blade (scutching knife) or scutching mill. Knocks loose shive fragments free from fiber bundles. Yields: approximately 20-25% of retted stalk weight becomes clean fiber; the remainder is shive (usable as fuel or building material).
+
+**Hackling**: Draw scutched fiber through graduated combs (hackles) — coarse (8-12 teeth/dm), medium (15-20), fine (25-35). Longer fibers (line) pass through; shorter broken fibers (tow) are caught in the comb teeth. Hackling grades:
+- Rough hackle: Removes remaining shive, aligns fibers. Line fiber length: 30-90 cm
+- Fine hackle: Splits fiber bundles, produces smooth, aligned sliver. Tow (short fiber, 5-15 cm) collected separately — spun into coarse yarn for sacking and tow cloth
+- Line fiber yield: ~15% of dry stalk weight. Tow fiber yield: ~5-8%
+
+### Hemp Processing
+
+Hemp (*Cannabis sativa*) is the most productive and forgiving bast fiber crop:
+
+**Dew retting** (preferred for hemp): Cut stalks at ground level (hemp grows 2-4 m tall). Leave in the field in rows, turn weekly. Retting takes 3-5 weeks depending on rainfall and temperature. Hemp's thick, woody core requires longer retting than flax. Advantages: no water infrastructure, no pollution, minimal labor. Disadvantage: weather-dependent, coarser fiber.
+
+**Water retting** (higher quality): Submerge bundled hemp stalks in water for 4-8 days at 20°C. Hemp rets faster than flax due to higher pectin content. Produces lighter-colored, stronger fiber. The retting water becomes highly polluted — must be isolated from drinking supply.
+
+**Decortication for hemp**: For coarse applications (rope, sacking), mechanical decortication bypasses retting entirely. Crush green stalks between fluted rollers, then scrape away woody core with a blade. Produces coarse, green-tinted fiber suitable for rope and industrial textiles. Less labor than retting but lower quality.
+
+Hemp fiber length: 0.5-5.5 m (bundle length); individual fiber cells 0.5-5.0 cm long, 10-50 μm diameter. Tensile strength: 550-900 MPa (fiber bundle). Hemp produces 2-3x more fiber per hectare than flax under equivalent conditions.
+
+### Cotton Cultivation Detail
+
+Cotton (*Gossypium* spp.) is unique as a seed fiber — the only widely cultivated plant fiber that does not require retting or decortication:
+
+**Climate requirements**:
+- 150-200 frost-free days minimum (optimal: 180+ days)
+- 600-1,200 mm water during growing season (or equivalent irrigation)
+- Mean temperature 20-30°C during boll development; below 15°C growth stops
+- Well-drained, slightly alkaline soil (pH 6.0-8.0); sensitive to waterlogging
+
+**Cultivation cycle**:
+- Sow when soil temperature reaches 16°C for 3 consecutive days (typically 2-3 weeks after last frost)
+- Row spacing: 75-100 cm; plant density: 80,000-120,000 plants/ha
+- First flowers appear 60-70 days after planting; bolls open 50-70 days after flowering
+- Hand-picking: 20-50 kg seed cotton per person per day. Multiple passes through field as bolls open progressively over 4-6 weeks
+- Gin turnout: 30-42% lint by weight (remainder is cottonseed — press for oil yielding 15-20% by weight)
+
+**Varieties by climate**: Upland cotton (*G. hirsutum*) — temperate/subtropical, 90% of world production; Pima/Egyptian (*G. barbadense*) — hot arid, extra-long staple (33-38 mm); Tree cotton (*G. arboreum*) — tropical, drought-tolerant, short staple.
+
+### Jute, Ramie, and Sisal
+
+**Jute (*Corchorus capsularis*, *C. olitorius*)**:
+- Highest yielding bast fiber: 1,500-2,500 kg/ha dry fiber
+- Growing cycle: 90-120 days; requires warm (25-35°C), humid climate with 1,500-2,500 mm rainfall
+- Harvest: cut stalks at ground level before pod formation. Retting 8-20 days in slow-moving water. Strip fiber from stalk by hand under water
+- Jute fiber: 1-4 m long, relatively weak (tensile strength ~400 MPa) but inexpensive. Primary use: sacking (burlap), carpet backing, erosion control fabric
+- Jute sticks (woody core after retting): 4-5 tonnes/ha, used as fuel and fencing
+
+**Ramie (*Boehmeria nivea*)**:
+- Strongest natural bast fiber: tensile strength 870-1,100 MPa (fiber cell), 5-6x stronger than cotton
+- Perennial: harvest 3-6 times/year from established stands; productive for 6-8 years
+- Yield: 800-1,200 kg/ha dry fiber per year
+- **Degumming requirement**: Raw ramie contains 20-30% gum (pectin and hemicellulose). Must be degummed before spinning. Chemical degumming: boil in 1-2% NaOH solution for 1-2 hours. Biological degumming: ferment in water 24-48 hours
+- Fiber length: 10-20 cm individual cells; white, silky luster. Used for fishing nets (resists rot in water), fine cloth
+
+**Sisal (*Agave sisalana*)**:
+- Leaf fiber: decorticate fresh leaves by crushing between rollers and scraping
+- Yield: 600-1,000 kg/ha dry fiber from mature plantation; 25-30 leaves/plant/year; 2-3% fiber by leaf weight
+- Plantation life: 7-12 years productive. First harvest 2-3 years after planting
+- Tensile strength: 350-600 MPa. Resists degradation in saltwater — used for marine rope, twine
+- Drought-tolerant; grows in semi-arid tropical regions on poor soils
+
+### Fiber Testing and Quality
+
+Assessing fiber quality without modern laboratory equipment:
+
+**Tensile strength (simple test)**: Hang a known weight from a single fiber bundle of measured cross-section. Compare breaking weight to diameter. Relative ranking: ramie > hemp > flax > nettle > jute > sisal > coir.
+
+**Fineness ( tactile assessment)**: Rub fiber between thumb and forefinger. Finer fiber (flax line, cotton) feels smooth and silky; coarse fiber (sisal, coir) feels scratchy and stiff. Fineness correlates with spinnability — finer fibers produce finer yarn.
+
+**Length distribution**: Separate a handful of hackled fiber. Measure longest fiber (line) and note proportion of short fiber (tow). High line-to-tow ratio indicates better processing quality. Flax line: 30-90 cm; tow: 5-15 cm. Hemp line: 50-150 cm.
+
+**Color and cleanliness**: Clean, well-retted fiber is pale (flax: light gold; hemp: light gray-brown). Dark, muddy fiber indicates over-retting or dirty retting water. Green patches indicate under-retting.
+
+### Fiber Blending for Application
+
+Different applications benefit from combining fibers with complementary properties:
+
+| Application | Blend | Rationale |
+|-------------|-------|-----------|
+| General rope | Hemp + jute (70:30) | Hemp provides strength; jute adds bulk at lower cost |
+| Marine rope | Abacá or sisal (100%) | Saltwater resistance; abacá preferred for highest strength |
+| Fine cloth | Flax line (100%) | Longest, finest bast fiber produces smooth linen |
+| Coarse sacking | Jute (100%) or hemp tow | Economical, adequate strength for bags |
+| Fishing nets | Ramie (100%) or hemp | Rot resistance in water; ramie preferred where available |
+| Canvas/tent cloth | Hemp (100%) | Water resistance, durability, mildew resistance |
+- Cotton-linen blends (50:50) combine cotton's softness with linen's strength for clothing
+- Nettle fiber can substitute for flax in any application with comparable results; nettle cloth historically called " Scots cloth"
+
 ### Safety & Hazards
 
 - **Skin irritation**: Nettle stems and leaves cause contact dermatitis (urticaria) from formic acid and histamine in trichomes. Wear thick gloves when harvesting. The irritation fades within hours and does not cause lasting damage.
@@ -122,4 +223,4 @@ Labor requirements vary enormously. Cotton requires the most hand-labor per unit
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Plants](./) • [All Domains](../)*
+[← Back to Plants](index.md)

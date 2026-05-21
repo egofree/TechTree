@@ -8,20 +8,27 @@ graph TD
         health_sanitation["Water Supply & Sanitation"]
         health_medicine["Medicine & Surgery"]
         health_pharmacology["Pharmacology"]
+        health_occupational-health["Occupational Health & Industrial Hygiene"]
+        health_medical-instruments["Medical Instrument Manufacturing"]
     end
 
     %% ==================== DOMAIN NODE ====================
     health["Public Health, Sanitation & Medicine"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    animals_beekeeping("Apiculture (Beekeeping)")
     ceramics("Ceramics & Refractories")
     chemistry("Chemistry")
+    chemistry_acids("Mineral Acid Production")
     chemistry_ammonia("Ammonia & Fertilizer Production")
     chemistry_distillation("Distillation")
     chemistry_soap("Soap & Detergent Production")
     chemistry_solvents("Solvent Production")
+    energy_steam-power("Steam Power")
     foundations("Foundations")
+    foundations_water-procurement("Water Procurement")
     knowledge_writing("Writing & Record-Keeping")
+    metals_copper-bronze("Copper & Bronze Production")
     plants_edible-plants("Edible Plants")
     plants_medicinal-plants("Medicinal Plants")
     polymers_rubber("Rubber Production")
@@ -29,6 +36,8 @@ graph TD
     %% ==================== EDGES ====================
     health_medicine -.-> health_sanitation
     health_pharmacology -.-> health_medicine
+    health_occupational-health -.-> health
+    health_medical-instruments -.-> health
     health -.-> foundations
     health --> chemistry
     health_sanitation -.-> ceramics
@@ -41,6 +50,12 @@ graph TD
     health --> chemistry_ammonia
     health --> chemistry_soap
     health --> chemistry_solvents
+    health_pharmacology --> animals_beekeeping
+    health_medicine --> animals_beekeeping
+    health_sanitation --> foundations_water-procurement
+    health_occupational-health --> chemistry_acids
+    health_medical-instruments --> metals_copper-bronze
+    health_medical-instruments -.-> energy_steam-power
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -60,14 +75,21 @@ graph TD
     class health_sanitation capability
     class health_medicine capability
     class health_pharmacology capability
+    class health_occupational-health capability
+    class health_medical-instruments capability
+    class animals_beekeeping external
     class ceramics external
     class chemistry external
+    class chemistry_acids external
     class chemistry_ammonia external
     class chemistry_distillation external
     class chemistry_soap external
     class chemistry_solvents external
+    class energy_steam-power external
     class foundations external
+    class foundations_water-procurement external
     class knowledge_writing external
+    class metals_copper-bronze external
     class plants_edible-plants external
     class plants_medicinal-plants external
     class polymers_rubber external

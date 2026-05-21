@@ -9,12 +9,15 @@ graph TD
         mining_processing["Ore Processing"]
         mining_prospecting["Prospecting & Surveying"]
         mining_extraction_black-powder["Black Powder Explosives"]
+        mining_drilling["Mechanical Drilling"]
+        mining_ventilation["Mine Ventilation"]
     end
 
     %% ==================== DOMAIN NODE ====================
     mining["Mining Engineering & Extractive Metallurgy"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    animals_draft-power("Animal Draft Power & Harnessing")
     ceramics_advanced-ceramics("Advanced Ceramics & Refractories")
     ceramics_lime("Lime Production")
     chemistry_acids("Mineral Acid Production")
@@ -25,12 +28,16 @@ graph TD
     energy_fuels("Fuel Production")
     energy_fuels_coal("Coal Mining & Combustion")
     energy_fuels_coke("Coke Production")
+    energy_steam-power("Steam Power")
     foundations("Foundations")
     foundations_tools-basic("Stone & Wood Tools")
     glass_basic("Basic Glass Production")
     knowledge_writing("Writing & Record-Keeping")
+    machine-tools_machining("Machining")
     metals("Metals")
+    metals_aluminum("Aluminum Production")
     metals_copper-bronze("Copper & Bronze Production")
+    metals_non-ferrous("Non-Ferrous Metal Production")
     silicon_mg-si-production("Metallurgical-Grade Silicon Production")
     transport("Transportation & Logistics")
     transport_roads("Road & Bridge Construction")
@@ -39,6 +46,8 @@ graph TD
     mining_extraction -.-> mining_prospecting
     mining_processing --> mining_extraction
     mining_extraction_black-powder -.-> mining_extraction
+    mining_drilling -.-> mining
+    mining_ventilation -.-> mining
     metals --> mining
     glass_basic --> mining
     energy_fuels_coal --> mining
@@ -59,6 +68,12 @@ graph TD
     mining_extraction_black-powder --> chemistry_explosives
     transport -.-> mining_extraction
     chemistry_refractories --> mining
+    metals_aluminum --> mining
+    metals_non-ferrous --> mining
+    mining_extraction -.-> animals_draft-power
+    mining_drilling -.-> energy_steam-power
+    mining_drilling -.-> machine-tools_machining
+    mining_ventilation -.-> energy_steam-power
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -79,6 +94,9 @@ graph TD
     class mining_processing capability
     class mining_prospecting capability
     class mining_extraction_black-powder process
+    class mining_drilling capability
+    class mining_ventilation capability
+    class animals_draft-power external
     class ceramics_advanced-ceramics external
     class ceramics_lime external
     class chemistry_acids external
@@ -89,12 +107,16 @@ graph TD
     class energy_fuels external
     class energy_fuels_coal external
     class energy_fuels_coke external
+    class energy_steam-power external
     class foundations external
     class foundations_tools-basic external
     class glass_basic external
     class knowledge_writing external
+    class machine-tools_machining external
     class metals external
+    class metals_aluminum external
     class metals_copper-bronze external
+    class metals_non-ferrous external
     class silicon_mg-si-production external
     class transport external
     class transport_roads external

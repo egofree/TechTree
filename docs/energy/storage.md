@@ -141,6 +141,62 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 - **Short-circuit fire**: Lead-acid batteries can deliver hundreds of amps into a short circuit — instant arc, molten metal, fire. Insulate all tools when working near battery terminals. Install fuses or circuit breakers on every battery string.
 - **Lithium thermal runaway** (later chemistries): Lithium-ion cells can enter self-sustaining overheating if overcharged, punctured, or shorted. Fire burns without external oxygen (self-oxidizing). Requires Class D fire extinguisher or sand — water may worsen lithium fires. Not applicable to lead-acid/nickel-iron bootstrap phase.
 
+## Lead-Acid Battery Construction Detail
+
+### Paste Mixing
+
+The active material for each plate type requires a different paste formulation:
+
+- **Positive paste**: Mix lead oxide (PbO, litharge) with sulfuric acid (H₂SO₄) and water. Typical ratio: 100 kg PbO, 6-8 L H₂SO₄ (SG 1.40), 8-12 L water. The acid reacts exothermically with PbO, forming a stiff gray-brown paste of lead sulfates and oxides. Mixing temperature must stay below 65°C (cooling jacket on mixer) to prevent premature hardening. Paste consistency: putty-like, must hold shape when pressed but flow under the paster roller.
+- **Negative paste**: Same base (PbO + H₂SO₄ + water) but with expanders added: barium sulfate (BaSO₄, 0.3-1.0% by weight, acts as nucleation sites for lead sulfate crystals during discharge), carbon black (0.1-0.5%, improves conductivity), and lignin or organic expander (0.2-0.6%, prevents sintering of the spongy lead active material during cycling). Without expanders, the negative paste densifies over 100-200 cycles and loses capacity.
+- **Paste application (pasting)**: Feed lead grids through a belt pasting machine. A hopper deposits paste onto the grid, and a roller or trowel presses paste into the lattice openings. Excess paste is scraped off. Pasted plates are flash-dried at 60-80°C for 1-2 hours to develop handling strength. Plate weight after pasting: 2-5 kg per plate depending on size.
+
+### Curing
+
+Freshly pasted plates undergo a controlled curing process that converts the paste from a soft mass into a hard, porous, mechanically robust active material:
+
+- **Conditions**: 3-7 days at 30-40°C, 90-95% relative humidity. Humidity is critical. Too dry and the paste cracks and loses adhesion. Too wet and it stays soft.
+- **Chemical changes during cure**: Free lead oxide in the paste reacts with CO₂ from the air to form lead carbonate (PbCO₃). Remaining PbO undergoes crystal growth, forming interlocking 3BS (3PbO·PbSO₄·H₂O) or 4BS (4PbO·PbSO₄) crystals that mechanically bind the paste to the grid. The grid-paste bond strength after curing should exceed 1.5 MPa.
+- **Formation charging**: Cured plates are assembled into cells with dilute electrolyte (SG 1.05-1.10) and connected to a DC power supply. The formation process is a controlled first charge that electrochemically converts the paste: positive plates oxidize to PbO₂ (chocolate brown), negative plates reduce to spongy lead (gray). Formation protocol: 3-stage charging. Stage 1: constant current at C/20 rate (capacity divided by 20 hours) until cell voltage reaches 2.35V. Stage 2: constant voltage at 2.4V per cell, current tapers. Stage 3: finish at 2.5V per cell until specific gravity stabilizes and gas evolution is steady. Total formation time: 24-72 hours depending on plate thickness.
+- **Electrolyte**: After formation, electrolyte is adjusted to its operating specific gravity: 1.25-1.28 SG (30-40% H₂SO₄ by weight) for flooded lead-acid batteries. The acid concentration corresponds to approximately 4.2-4.5 molar H₂SO₄. Freezing point of fully charged electrolyte (SG 1.28): approximately -70°C. Discharged electrolyte (SG 1.12): freezes near -10°C, a critical winter failure mode for undercharged batteries.
+
+### Performance Specifications
+
+- **Specific energy**: 30-40 Wh/kg (flooded), 25-35 Wh/kg (deep-cycle with thicker plates). A 12V, 100 Ah automotive battery weighs approximately 25-30 kg.
+- **Cycle life**: 200-500 cycles for automotive starting batteries (thin plates, optimized for high current bursts not deep cycling). 500-1500 cycles for deep-cycle traction batteries (thick plates, 3-5 mm active material, designed for 80% depth of discharge). Cycle life degrades sharply below 20% state of charge, where irreversible lead sulfate crystallization (sulfation) accelerates.
+- **Self-discharge**: 3-5% per month at 25°C. Doubles for every 10°C temperature increase. Batteries stored above 35°C self-discharge fast enough to sulfate in weeks if not periodically recharged.
+
+## Nickel-Iron (Edison) Battery Construction Detail
+
+The nickel-iron cell, patented by Thomas Edison in 1901, uses rugged materials suited to harsh industrial environments:
+
+- **Positive plates**: Nickel hydroxide (Ni(OH)₂) active material mixed with graphite (20-30% by weight for conductivity) and nickel flake (5-10%), packed into perforated nickel-plated steel tubes or flat pockets. Tube diameter: 6-12 mm. Each tube is crimped or welded shut after filling. 20-50 tubes per plate, depending on cell size. The graphite and nickel flake form a conductive network through the poorly conducting Ni(OH)₂.
+- **Negative plates**: Iron powder (electrolytic or reduced iron oxide) mixed with small amounts of mercury (0.1-0.5% to reduce passivation of iron by oxide films) in perforated nickel-plated steel pockets. Iron particle size: 50-200 μm.
+- **Electrolyte**: 20-25% potassium hydroxide (KOH) solution, specific gravity 1.19-1.21. The electrolyte serves only as an ion conductor and does not participate in the overall cell reaction (unlike lead-acid where H₂SO₄ is consumed during discharge). This means electrolyte SG does not change with state of charge, so a hydrometer cannot be used to monitor charge state. Lithium hydroxide (LiOH, 5-15 g/L) is added to improve cycle life by retarding iron electrode degradation.
+- **Cell voltage**: 1.2V nominal (1.3V at full charge, declining to 1.0V at end of discharge).
+- **Specific energy**: 30-50 Wh/kg (improved designs with tubular positives reach the upper end).
+- **Cycle life**: 3000-10,000+ cycles. Some Edison battery installations from the 1920s were still operational 40+ years later. The extraordinary longevity comes from the mechanical stability of the pocket plate construction and the benign chemistry (no irreversible sulfation as in lead-acid).
+- **Temperature tolerance**: -40°C to +60°C. The alkaline electrolyte does not freeze as readily as sulfuric acid, and the iron electrode tolerates cold operation better than lead.
+- **Overcharge/overdischarge tolerance**: The nickel-iron cell can be overcharged indefinitely (excess current electrolyzes water, but the electrodes are not damaged) and can be fully discharged to 0V without permanent damage. This makes the battery nearly indestructible in service, a major advantage for remote or unattended installations.
+- **Disadvantage**: High self-discharge (20-40% per month). Not suitable for standby applications where the battery sits idle for months. Best used in daily cycling applications (solar off-grid, traction, mine locomotives) where the battery is continuously charged and discharged.
+
+### Battery Bank Configuration
+
+Individual cells are connected in series and parallel to achieve the required system voltage and capacity:
+
+- **Series connection**: Adds voltages. Six 2V lead-acid cells in series = 12V battery. Twenty-four cells in series = 48V system (common for telecom and UPS). Current capacity remains that of a single cell.
+- **Parallel connection**: Adds capacity. Two 100 Ah batteries in parallel = 200 Ah at the same voltage. Voltage remains that of a single battery string. Parallel strings should be identical (same age, same capacity, same manufacturer) to prevent circulating currents between mismatched strings.
+- **Series-parallel**: For a 48V, 200 Ah system: two parallel strings of 24 series-connected 2V, 100 Ah cells. Total: 48 cells, weight approximately 800-1000 kg for lead-acid.
+- **Battery room requirements**: Level floor capable of supporting 500-1500 kg/m² (battery racks are heavy). Temperature maintained at 20-25°C (capacity drops ~1% per °C below 25°C; life drops ~50% for every 8°C sustained above 25°C). Forced ventilation at minimum 2 air changes per hour for hydrogen removal. Acid-resistant flooring (epoxy paint or ceramic tile) with a containment berm to catch electrolyte spills. No open flames, no spark-producing equipment within the battery room.
+
+### Charging System Design
+
+Battery charging requires a DC power source matched to the battery bank voltage and capacity:
+
+- **Rectifier-charger**: AC mains (or generator) → transformer → rectifier (full-wave bridge using silicon diodes) → filter (capacitor + inductor for ripple reduction) → battery. Output voltage regulated to ±1% of setpoint. Current limited to the maximum charge rate (C/10 for lead-acid, C/5 for nickel-iron). A 48V, 200 Ah battery bank requires a charger capable of 54-58 VDC output at 20 A (C/10), or about 1.2 kW.
+- **Temperature compensation**: Lead-acid charge voltage must decrease by 3-4 mV per cell per °C above 25°C (and increase by the same amount below 25°C). Without compensation, a battery at 40°C will be overcharged at the 25°C voltage setting, accelerating water loss and grid corrosion. Most commercial chargers include a temperature probe that plugs into the battery and adjusts voltage automatically.
+- **Equalizing charge**: Performed monthly on flooded lead-acid batteries to reverse stratification (dense acid settles to the bottom of the cell, dilute acid floats to the top). Apply 2.5V per cell (30V for a 24-cell 48V bank) for 2-4 hours after reaching full charge. The elevated voltage drives gas evolution, which physically mixes the electrolyte. Specific gravity should be measured in each cell after equalizing and should read within 0.020 of the average. Cells more than 0.030 below average may be failing.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*

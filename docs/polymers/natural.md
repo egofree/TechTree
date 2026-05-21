@@ -97,22 +97,109 @@
 - **Primer/sealer**: Seals porous surfaces before painting. "Knotting" — shellac seals resinous knots in softwood to prevent bleed-through.
 - **Food coating**: Glaze on candies and pills (pharmaceutical "confectioner's glaze").
 
+### Amber
+
+Amber is fossilized conifer resin, typically 30-90 million years old. It is found in sedimentary deposits worldwide, with major sources in the Baltic region (succinite, ~90% of world supply), Dominican Republic, and Myanmar. Baltic amber contains 3-8% succinic acid (C₄H₆O₄), which distinguishes it from other natural resins.
+
+**Properties**: Density 1.05-1.10 g/cm³, Mohs hardness 2-2.5. Softens at 150-180°C, melts at 250-300°C. Amorphous, transparent to translucent, yellow-orange to brown. Refractive index 1.53-1.55. Electrical properties: becomes electrostatically charged when rubbed (the Greek name *elektron* gives us "electricity").
+
+**Processing**: Amber can be pressed and molded when heated above 150°C. "Pressed amber" (Ambroid) is made by fusing small amber fragments under heat and pressure — a technique developed in the 1880s to utilize scrap pieces. Heat to 180-200°C under 10-20 MPa pressure in a steel mold. The resulting block can be carved, turned on a lathe, or polished like natural amber. Amber also dissolves in ether, chloroform, and hot linseed oil for varnish formulations.
+
+**Applications**: Historically used for jewelry, decorative items, and as a component in varnishes. Amber varnish (amber dissolved in boiled linseed oil) produces a hard, durable, golden-brown coating for fine woodwork and oil paintings. Also used for early electrical experimentation due to its electrostatic properties.
+
+### Horn and Tortoiseshell
+
+**Horn** from cattle, sheep, and goats is composed of keratin — the same protein family as hair, nails, and feathers. Keratin is thermoplastic above ~150°C: the hydrogen bonds and disulfide cross-links between protein chains relax, allowing the material to be shaped.
+
+- **Processing**: Soak horn in warm water (60-80°C) for several hours to soften. Split longitudinally using a sharp knife — horn naturally separates into layers. Press split sheets between heated platens at 150-170°C to flatten and shape. Trim and polish. Multiple sheets can be welded together by applying heat and pressure at the overlap.
+- **Applications**: Lantern windows (transparent horn sheets, used before flat glass was widely available), drinking vessels, powder flasks, combs, buttons, shoe horns. Replaced by celluloid and later plastics in the late 19th century.
+
+**Tortoiseshell** from the hawksbill sea turtle (*Eretmochelys imbricata*, now critically endangered and CITES Appendix I) was historically prized for its beautiful mottled brown and amber patterning. The material is thermoplastic at 120-150°C and can be pressed into sheets, molded, and welded similarly to horn.
+
+- **Processing**: Heat to 120-150°C in boiling water or oil bath. Press between polished metal plates to form flat sheets. Multiple pieces fuse together under heat and pressure — the basis for "genuine" tortoiseshell laminates. Can be carved, engraved, and polished to a high gloss.
+- **Applications**: Combs, hair accessories, eyeglass frames, decorative inlays, jewelry boxes.IMITATION: Celluloid dyed to match tortoiseshell patterns replaced the genuine material from the 1870s onward — celluloid is colored with pigment blends (amber, brown, black) to mimic the natural mottling.
+
+### Bitumen and Asphalt
+
+Natural bitumen deposits occur worldwide. The most significant is Trinidad Lake Asphalt — a natural deposit containing 70-80% bitumen, 20-30% mineral matter (fine clay, silica), and 2-5% water. The lake covers ~40 hectares and is estimated to contain 10-15 million tonnes of asphalt.
+
+**Properties**: Softening point 80-100°C (varies with grade and mineral content). Density 1.05-1.40 g/cm³ (higher than pure bitumen due to mineral content). Water-resistant, adhesive, thermoplastic. Penetration at 25°C: 1-5 mm (Trinidad Lake Asphalt is harder than refined bitumen).
+
+**Processing**: Heat to 150-200°C to melt and fluidize. Mix with mineral aggregates (sand, gravel, crushed stone) for road paving. Mix with fine fillers (lime, limestone dust) for mastic asphalt — a dense, waterproof material used for flat roofs, tank linings, and hydraulic structures. Pure bitumen refined from natural deposits can be mixed with solvents (mineral spirits, naphtha) for cutback asphalt coatings, or emulsified with soap solution for cold-applied road construction.
+
+**Historical uses**: Mesopotamian construction mortar (3000 BCE), Egyptian mummification (as a waterproofing agent), waterproofing for ships' hulls, early road surfaces (macadam with bitumen binder from the 1830s), pipe joint sealing, roofing felt impregnation.
+
+### Rosin (Colophony)
+
+Rosin is the solid residue remaining after turpentine (the volatile component) is distilled from pine resin (oleoresin). Pine trees of the genus *Pinus* are tapped similarly to rubber trees — V-shaped cuts in the bark exude oleoresin containing ~70% rosin and ~30% turpentine by weight.
+
+**Properties**: Amber-colored, brittle solid. Density 1.07-1.09 g/cm³. Melting point 70-80°C. Acid number 150-180 mg KOH/g. Soluble in ethanol, ether, acetone, and turpentine. Insoluble in water. Chief component: abietic acid (C₂₀H₃₀O₂, ~50-70% of total resin acids).
+
+**Grades**: Gum rosin (from tapping living trees), wood rosin (extracted from pine stumps with hexane or toluene — lower quality, darker). Water-white (WW) grade is the highest purity for electrical and adhesive applications.
+
+**Applications**: Soldering flux (rosin-core solder wire — rosin removes oxide films from metal surfaces at soldering temperatures, ~250°C, enabling wetting), varnish and lacquer formulation (rosin esterified with glycerol or pentaerythritol to form hard resin), printing inks (rosin esters as binder), adhesive tackifier (improves pressure-sensitive adhesive performance), violin bow treatment (rosin provides friction between bow hair and strings).
+
+### Dammar Resin
+
+Dammar (also spelled damar) is a natural resin obtained from trees of the family Dipterocarpaceae, primarily *Shorea* and *Hopea* species, native to Southeast Asia and Indonesia. The resin exudes from wounds in the bark and hardens into pale yellow to colorless nodules on the tree surface.
+
+**Properties**: Melting point 85-100°C. Density 1.04-1.12 g/cm³. Soluble in turpentine and ethanol. Forms clear, colorless films with excellent UV resistance (less yellowing than most natural resins). Acid number 20-30 mg KOH/g (lower than rosin, making it more stable).
+
+**Applications**: Varnish for oil paintings (dammar varnish: 1 part dammar to 3 parts turpentine by weight — produces a clear, glossy, removable conservation-grade varnish that does not yellow significantly over decades), wood finishing, paper coating, and as a component in lithographic printing inks. Dammar is the preferred varnish resin for art conservation because it remains soluble in mild solvents (turpentine, white spirit) even after decades of aging, allowing removal and reapplication without damaging the underlying paint.
+
+### Natural Latex Processing (Concentrated Latex)
+
+For many applications (dipped goods like gloves, condoms, balloons; foam rubber; latex adhesive), raw field latex (30-40% dry rubber content, DRC) must be concentrated to 60%+ DRC. This concentrated latex is preserved against bacterial coagulation and stored for months.
+
+**Preservation**: Add ammonia (NH₃) to 0.5-0.7% concentration within hours of tapping. Ammonia raises pH to 10-11, inhibiting bacterial growth and preventing premature coagulation. Secondary preservatives (zinc diethyldithiocarbamate, ZDEC, at 0.02-0.05%) provide additional protection for long-term storage.
+
+**Concentration methods**:
+- **Centrifugation** (most common): Feed preserved latex into a creaming centrifuge (similar to a dairy cream separator) spinning at 5,000-8,000 RPM. Rubber particles (density ~0.92 g/cm³) separate from the lighter serum (density ~1.02 g/cm³). Concentrated fraction (cream) exits at ~60% DRC. Skim fraction (~5% DRC) is processed into low-grade rubber. Throughput: 500-2000 L/hour.
+- **Creaming**: Add sodium alginate or polyvinyl alcohol (0.1-0.3%) as creaming agent. Rubber particles aggregate and rise to the top over 24-48 hours. Drain bottom serum. Less capital-intensive than centrifugation but slower.
+- **Evaporation**: Heat field latex to 50-60°C under reduced pressure to evaporate water. Produces highest DRC (75-80%) but risks thermal degradation.
+
+**Compounding concentrated latex**: Add sulfur (1-2 phr as aqueous dispersion), zinc oxide (1-3 phr), accelerators (ZDEC, ZMBT at 0.5-2 phr as dispersion), and antioxidants directly to concentrated latex with stirring. The compounded latex is matured (aged) for 6-24 hours at ambient temperature to allow pre-vulcanization — partial crosslinking occurs in the latex particle before the product is formed. This "pre-vulcanized latex" produces stronger dipped goods.
+
+### Natural Rubber Latex Allergy
+
+Natural rubber latex contains residual plant proteins (Hev b 1-14 allergen panel) that can sensitize susceptible individuals. The allergy develops in two forms:
+
+- **Type I (immediate hypersensitivity)**: IgE-mediated reaction to specific latex proteins (Hev b 6.02 — hevein, is the major allergen). Symptoms appear within minutes: contact urticaria (hives at contact site), rhinitis, conjunctivitis, asthma. In severe cases: anaphylactic shock (airway constriction, blood pressure drop — potentially fatal). Prevalence: 1-6% general population, 8-17% in healthcare workers with frequent latex exposure, up to 67% in spina bifida patients (due to repeated catheterization). Treatment: epinephrine auto-injector for anaphylaxis. Prevention: use powder-free, low-protein latex gloves (protein content <50 μg/g vs. standard gloves 200-1000 μg/g), or substitute nitrile (NBR) gloves for latex-allergic workers.
+- **Type IV (delayed hypersensitivity)**: T-cell mediated reaction to rubber chemical additives (accelerators like thiurams and carbamates). Symptoms appear 24-48 hours after exposure: eczematous dermatitis at contact sites. Not life-threatening but chronically debilitating. Prevalence: 2-8% in rubber industry workers. Prevention: use accelerator-free glove formulations (chloroprene or polyurethane gloves for sensitized workers).
+
+### Smokehouse Operation
+
+The traditional ribbed smoked sheet (RSS) smokehouse is a simple structure designed to provide consistent, low-temperature drying with smoke exposure:
+
+**Construction**: A rectangular shed (3×4 m floor plan, 2-3 m high) with a sloping roof. Walls of bamboo matting or corrugated iron with ventilation openings near the top. Earthen floor with a fire pit at one end. Horizontal bamboo poles or wooden racks mounted at 30-50 cm intervals along the walls for hanging rubber sheets. The smokehouse must be located at least 10 m from other structures due to fire risk.
+
+**Fire management**: The fire uses green wood (hardwood preferred — produces dense, creosote-rich smoke). The fire smolders rather than burns vigorously — temperature must stay in the 60-70°C range. Temperature control is by adjusting the fire size and the ventilation openings. Too hot (>80°C) causes surface oxidation and darkening of the rubber. Too cool (<50°C) allows mold growth. The fire must be tended continuously — a 2-4 week drying cycle requires 24-hour fire attendance.
+
+**Smoke composition and preservation**: The smoke deposits creosote (a complex mixture of phenols, guaiacols, and syringols) on the rubber surface. These phenolic compounds have antifungal and antibacterial properties — they prevent mold and bacterial growth during the extended drying period. Without smoke exposure, rubber sheets in tropical humidity would mold within 3-5 days. The smoke also imparts the characteristic amber color and smoky odor to RSS grades.
+
 ### Natural Adhesives
 
 Beyond rubber and shellac, several natural materials provide adhesive properties:
 
 - **Casein glue**: Curdle milk with acid (vinegar) to precipitate casein protein. Mix casein curds with lime (calcium hydroxide) and water. The alkaline lime denatures the protein, creating a strong, water-resistant bond as it dries. Used for woodworking (especially aircraft construction in WWII — casein-bonded plywood), label adhesives, and paint binder (casein paint). Moderate water resistance but not fully waterproof.
 - **Hide glue (animal glue)**: Boil animal hides, bones, or connective tissue in water → collagen denatures → gelatin. Concentrate by evaporation → solid glue cakes or liquid glue. Reversible with heat and water — a advantage for furniture repair (joints can be disassembled by applying hot water and steam). Used for millennia in woodworking, musical instrument construction, bookbinding, and sizing paper. Strong bond on wood but poor water resistance.
+- **Blood glue**: Animal blood (albumin) mixed with lime and water. Heat-cured at 70-80°C in a press. Used historically for plywood — blood-glued plywood was waterproof enough for boat building. The albumin proteins coagulate irreversibly on heating, creating a water-resistant bond. Production declined after synthetic adhesives (phenol-formaldehyde, urea-formaldehyde) became available.
 - **Starch paste**: Mix flour (wheat, rice) or starch with cold water, then heat to gelatinize. Weak adhesive but very cheap and non-toxic. Used for paper (wallpaper paste, papier-mâché, bookbinding), textile sizing, and corrugated cardboard. Not water-resistant.
 - **Resin adhesives**: Dissolve pine rosin (colophony) in alcohol → sticky adhesive. Used for temporary bonds, sealant, and as a component in other adhesive formulations. Rosin is also the flux core in solder wire.
+- **Bitumen adhesive**: Natural asphalt or refined bitumen heated to 150-200°C and applied as a hot-melt adhesive. Used for waterproofing, pipe joint sealing, and as a binder in composite building materials. Ancient Egyptians used bitumen to join wood in ship construction (2500 BCE).
 
 ### Safety & Hazards
 
-- **Latex allergies**: Natural rubber latex proteins sensitize some individuals, causing allergic reactions ranging from skin irritation to anaphylactic shock. Use nitrile alternatives for allergic workers. Monitor for sensitization in repeated-exposure settings.
-- **Chemical sensitizers**: Vulcanization accelerators (mercaptobenzothiazole, thiurams) and antioxidants are skin sensitizers that cause occupational dermatitis with repeated contact. Handle compounding ingredients with gloves. Minimize dust generation during weighing and mixing.
-- **Dust explosion risk**: Fine rubber crumb, carbon black, and sulfur powder form explosive dust-air mixtures at sufficient concentration. Use local exhaust ventilation during mixing and milling. Ground equipment to prevent static ignition. Keep sulfur stores away from heat sources (sulfur dust ignites at ~190°C).
-- **Vulcanization burns**: Autoclave steam at 3-10 bar causes severe scalds on contact. Press platens at 140-180°C cause thermal burns. Use thermal gloves and face shields when loading/unloading presses. Depressurize autoclaves fully before opening.
+- **Latex allergies**: Natural rubber latex proteins sensitize some individuals, causing allergic reactions ranging from skin irritation to anaphylactic shock. Use nitrile alternatives for allergic workers. Monitor for sensitization in repeated-exposure settings. Prevalence: 1-6% of general population, up to 17% in healthcare workers with frequent latex glove use.
+- **Chemical sensitizers**: Vulcanization accelerators (mercaptobenzothiazole, thiurams) and antioxidants are skin sensitizers that cause occupational dermatitis with repeated contact. Handle compounding ingredients with gloves. Minimize dust generation during weighing and mixing. MBT is also a suspected endocrine disruptor — EU classification as SVHC (Substance of Very High Concern).
+- **Dust explosion risk**: Fine rubber crumb, carbon black, and sulfur powder form explosive dust-air mixtures at sufficient concentration. Use local exhaust ventilation during mixing and milling. Ground equipment to prevent static ignition. Keep sulfur stores away from heat sources (sulfur dust ignites at ~190°C). Carbon black dust MEC (minimum explosive concentration): 50-100 g/m³ — readily achieved in enclosed mixing areas.
+- **Vulcanization burns**: Autoclave steam at 3-10 bar causes severe scalds on contact. Press platens at 140-180°C cause thermal burns. Use thermal gloves and face shields when loading/unloading presses. Depressurize autoclaves fully before opening. Steam burns are particularly severe because the latent heat of condensation (2260 kJ/kg at 1 atm) transfers far more energy than an equivalent mass of hot water.
+- **Nitrosamine formation**: Certain rubber accelerators (particularly nitrosatable secondary amines like TMTD and DTDM) can form N-nitrosamines during vulcanization. Several nitrosamines are confirmed carcinogens (IARC Group 2A). Monitor airborne nitrosamine levels during mixing and curing operations. Use nitrosamine-safe accelerator systems (TBzTD, ZBEC) where possible — they generate non-carcinogenic nitrosamines.
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Polymers](./) • [All Domains](../)*
+### Cross-Domain Dependencies
+
+- Natural rubber from plantation agriculture. Shellac from lac insects, related to [Animals](../animals/domestication.md). Cellulose from [Pulp Chemicals](../chemistry/pulp-chemicals.md). Supplemented by [Synthetic](../polymers/synthetic.md) polymers.
+
+[← Back to Polymers](index.md)

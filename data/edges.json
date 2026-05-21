@@ -1422,6 +1422,466 @@
       "from": "textiles",
       "to": "chemistry.pulp-chemicals",
       "type": "material"
+    },
+    {
+      "from": "metals.steelmaking",
+      "to": "metals.iron-steel.blast-furnace",
+      "type": "tool"
+    },
+    {
+      "from": "metals.steelmaking",
+      "to": "chemistry.refractories",
+      "type": "material"
+    },
+    {
+      "from": "metals.steelmaking",
+      "to": "energy.fuels",
+      "type": "material"
+    },
+    {
+      "from": "metals.steelmaking",
+      "to": "metals.iron-steel",
+      "type": "material"
+    },
+    {
+      "from": "metals.forming",
+      "to": "metals.steelmaking",
+      "type": "material"
+    },
+    {
+      "from": "metals.alloys",
+      "to": "metals.steelmaking",
+      "type": "tool"
+    },
+    {
+      "from": "metals.aluminum",
+      "to": "chemistry.electrolysis",
+      "type": "tool"
+    },
+    {
+      "from": "metals.aluminum",
+      "to": "chemistry.alkalis",
+      "type": "material"
+    },
+    {
+      "from": "metals.aluminum",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "metals.aluminum",
+      "to": "mining",
+      "type": "material"
+    },
+    {
+      "from": "transport.aviation",
+      "to": "metals.aluminum",
+      "type": "material"
+    },
+    {
+      "from": "metals.non-ferrous",
+      "to": "mining",
+      "type": "material"
+    },
+    {
+      "from": "metals.non-ferrous",
+      "to": "chemistry.acids",
+      "type": "material"
+    },
+    {
+      "from": "metals.non-ferrous",
+      "to": "metals.copper-bronze",
+      "type": "tool"
+    },
+    {
+      "from": "metals.alloys",
+      "to": "metals.non-ferrous",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.soap",
+      "to": "metals.non-ferrous",
+      "type": "material"
+    },
+    {
+      "from": "metals.finishing",
+      "to": "metals.non-ferrous",
+      "type": "material"
+    },
+    {
+      "from": "metals.alloys",
+      "to": "metals.iron-steel",
+      "type": "material"
+    },
+    {
+      "from": "energy.steam-power.steam-turbines",
+      "to": "metals.alloys",
+      "type": "material"
+    },
+    {
+      "from": "machine-tools.joining",
+      "to": "metals.alloys",
+      "type": "material"
+    },
+    {
+      "from": "metals.forming",
+      "to": "metals.aluminum",
+      "type": "material"
+    },
+    {
+      "from": "metals.forming",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "transport.railways",
+      "to": "metals.forming",
+      "type": "material"
+    },
+    {
+      "from": "energy.steam-power",
+      "to": "metals.forming",
+      "type": "material"
+    },
+    {
+      "from": "metals.finishing",
+      "to": "chemistry.acids",
+      "type": "material"
+    },
+    {
+      "from": "metals.finishing",
+      "to": "chemistry.electrolysis",
+      "type": "tool"
+    },
+    {
+      "from": "metals.finishing",
+      "to": "chemistry.coatings",
+      "type": "material"
+    },
+    {
+      "from": "metals.powder-metallurgy",
+      "to": "metals.alloys",
+      "type": "material"
+    },
+    {
+      "from": "metals.powder-metallurgy",
+      "to": "chemistry.hydrogen-silane",
+      "type": "tool"
+    },
+    {
+      "from": "metals.powder-metallurgy",
+      "to": "energy.electric-furnaces",
+      "type": "tool"
+    },
+    {
+      "from": "measurement",
+      "to": "metals.powder-metallurgy",
+      "type": "tool"
+    },
+    {
+      "from": "metals.alloys",
+      "to": "energy.fuels",
+      "type": "tool"
+    },
+    {
+      "from": "animals",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "animals",
+      "to": "foundations.food-agriculture",
+      "type": "material"
+    },
+    {
+      "from": "animals.domestication",
+      "to": "animals",
+      "type": "tool"
+    },
+    {
+      "from": "animals.draft-power",
+      "to": "animals.domestication",
+      "type": "tool"
+    },
+    {
+      "from": "animals.draft-power",
+      "to": "foundations.tools-basic",
+      "type": "tool"
+    },
+    {
+      "from": "animals.animal-materials",
+      "to": "animals.domestication",
+      "type": "material"
+    },
+    {
+      "from": "animals.animal-materials",
+      "to": "ceramics.lime",
+      "type": "tool"
+    },
+    {
+      "from": "animals.beekeeping",
+      "to": "foundations.fire",
+      "type": "tool"
+    },
+    {
+      "from": "animals.beekeeping",
+      "to": "foundations.tools-basic",
+      "type": "tool"
+    },
+    {
+      "from": "animals.aquaculture",
+      "to": "foundations.tools-basic",
+      "type": "tool"
+    },
+    {
+      "from": "animals.sericulture",
+      "to": "animals.domestication",
+      "type": "material"
+    },
+    {
+      "from": "animals.pest-management",
+      "to": "animals.domestication",
+      "type": "tool"
+    },
+    {
+      "from": "textiles.fibers",
+      "to": "animals.animal-materials",
+      "type": "material"
+    },
+    {
+      "from": "chemistry.lubricants",
+      "to": "animals.animal-materials",
+      "type": "material"
+    },
+    {
+      "from": "transport.roads",
+      "to": "animals.draft-power",
+      "type": "tool"
+    },
+    {
+      "from": "mining.extraction",
+      "to": "animals.draft-power",
+      "type": "tool"
+    },
+    {
+      "from": "knowledge.writing",
+      "to": "animals.animal-materials",
+      "type": "material"
+    },
+    {
+      "from": "knowledge.writing",
+      "to": "animals.beekeeping",
+      "type": "material"
+    },
+    {
+      "from": "metals.copper-bronze",
+      "to": "animals.beekeeping",
+      "type": "material"
+    },
+    {
+      "from": "machine-tools.forming",
+      "to": "animals.animal-materials",
+      "type": "material"
+    },
+    {
+      "from": "machine-tools.iterative-bootstrap",
+      "to": "animals.animal-materials",
+      "type": "material"
+    },
+    {
+      "from": "health.pharmacology",
+      "to": "animals.beekeeping",
+      "type": "material"
+    },
+    {
+      "from": "health.medicine",
+      "to": "animals.beekeeping",
+      "type": "material"
+    },
+    {
+      "from": "foundations.food-agriculture",
+      "to": "animals.beekeeping",
+      "type": "material"
+    },
+    {
+      "from": "foundations.water-procurement",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "foundations.water-procurement",
+      "to": "foundations.tools-basic",
+      "type": "tool"
+    },
+    {
+      "from": "health.sanitation",
+      "to": "foundations.water-procurement",
+      "type": "material"
+    },
+    {
+      "from": "textiles.finishing",
+      "to": "textiles",
+      "type": "tool"
+    },
+    {
+      "from": "textiles.finishing",
+      "to": "textiles.weaving",
+      "type": "material"
+    },
+    {
+      "from": "textiles.finishing",
+      "to": "chemistry.alkalis",
+      "type": "tool"
+    },
+    {
+      "from": "textiles.sewing-tailoring",
+      "to": "textiles",
+      "type": "tool"
+    },
+    {
+      "from": "textiles.sewing-tailoring",
+      "to": "textiles.weaving",
+      "type": "material"
+    },
+    {
+      "from": "textiles.sewing-tailoring",
+      "to": "metals.copper-bronze",
+      "type": "tool"
+    },
+    {
+      "from": "mining.drilling",
+      "to": "mining",
+      "type": "tool"
+    },
+    {
+      "from": "mining.drilling",
+      "to": "energy.steam-power",
+      "type": "tool"
+    },
+    {
+      "from": "mining.drilling",
+      "to": "machine-tools.machining",
+      "type": "tool"
+    },
+    {
+      "from": "mining.ventilation",
+      "to": "mining",
+      "type": "tool"
+    },
+    {
+      "from": "mining.ventilation",
+      "to": "energy.steam-power",
+      "type": "tool"
+    },
+    {
+      "from": "glass.fibers",
+      "to": "glass",
+      "type": "tool"
+    },
+    {
+      "from": "glass.fibers",
+      "to": "glass.advanced",
+      "type": "material"
+    },
+    {
+      "from": "polymers.composites",
+      "to": "glass.fibers",
+      "type": "material"
+    },
+    {
+      "from": "measurement.electrical-instruments",
+      "to": "measurement",
+      "type": "tool"
+    },
+    {
+      "from": "measurement.electrical-instruments",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "measurement.optical-instruments",
+      "to": "measurement",
+      "type": "tool"
+    },
+    {
+      "from": "measurement.optical-instruments",
+      "to": "optics.inspection",
+      "type": "tool"
+    },
+    {
+      "from": "optics.precision-instruments",
+      "to": "optics",
+      "type": "tool"
+    },
+    {
+      "from": "optics.precision-instruments",
+      "to": "optics.inspection",
+      "type": "material"
+    },
+    {
+      "from": "measurement.precision-metrology",
+      "to": "optics.precision-instruments",
+      "type": "tool"
+    },
+    {
+      "from": "health.occupational-health",
+      "to": "health",
+      "type": "tool"
+    },
+    {
+      "from": "health.occupational-health",
+      "to": "chemistry.acids",
+      "type": "material"
+    },
+    {
+      "from": "health.medical-instruments",
+      "to": "health",
+      "type": "tool"
+    },
+    {
+      "from": "health.medical-instruments",
+      "to": "metals.copper-bronze",
+      "type": "material"
+    },
+    {
+      "from": "health.medical-instruments",
+      "to": "energy.steam-power",
+      "type": "tool"
+    },
+    {
+      "from": "computing.digital-logic",
+      "to": "computing",
+      "type": "tool"
+    },
+    {
+      "from": "computing.digital-logic",
+      "to": "computing.electronic",
+      "type": "material"
+    },
+    {
+      "from": "computing.data-storage",
+      "to": "computing",
+      "type": "tool"
+    },
+    {
+      "from": "computing.data-storage",
+      "to": "polymers.thermoplastics",
+      "type": "material"
+    },
+    {
+      "from": "silicon.wafering",
+      "to": "silicon",
+      "type": "tool"
+    },
+    {
+      "from": "silicon.wafering",
+      "to": "silicon.crystal-growth",
+      "type": "material"
+    },
+    {
+      "from": "silicon.basic-devices",
+      "to": "silicon.wafering",
+      "type": "material"
     }
   ]
 }

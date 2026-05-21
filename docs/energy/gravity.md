@@ -126,6 +126,76 @@ Water turbines replace water wheels where higher heads and efficiencies are avai
 - **Flash floods**: Water-powered installations on rivers are vulnerable to flash floods. Monitor upstream conditions. Emergency shutdown procedure. Evacuation plan for flood events.
 - **Drowning**: Working near water intakes, dams, and mill races. Drowning risk. Safety ropes. Never work alone near water installations. Life jackets when working on or near water.
 
+### Dam Construction in Detail
+
+**Earth dam cross-section**: A small earth dam for a mill pond (2-10 m height) follows a standard profile. The clay core is the waterproof barrier, 1-2 m wide at the crest and expanding to 3-5 m at the base in a trapezoidal shape. The core is keyed into the natural subsoil or bedrock (a trench cut below the dam base and filled with puddled clay) to prevent under-seepage. On both sides of the core, compacted earth shoulders provide structural mass.
+
+**Compaction method**: Earth is placed in lifts (layers) of 200-300 mm thickness. Each lift is compacted at optimum moisture content (the water content at which the soil achieves maximum density for a given compaction effort, typically 12-18% for clay soils). Compaction methods: hand tamper, animal-drawn roller, or mechanized vibratory roller. Too dry and the soil won't compact; too wet and it becomes plastic and squashes rather than densifies. The Proctor compaction test determines optimum moisture for each soil type.
+
+**Slope ratios**: Upstream face slopes at 1:2.5 to 1:3 (horizontal:vertical) to resist wave erosion and sudden drawdown slumping. Downstream face slopes at 1:2 to 1:2.5. Flatter slopes are more stable but require more material. The crest width (3-5 m) allows vehicle access for maintenance and provides additional structural mass.
+
+**Overflow spillway**: A concrete or masonry spillway with an ogee crest (S-shaped profile matching the underside of a nappe of falling water) is the safest flood passage. The spillway is sized for the maximum probable flood, not the average flood. For small dams, a broad-crested weir or drop-inlet spillway may substitute. The spillway must be separate from the dam embankment if possible (cut into the adjacent hillside) so that overflow never flows over the earth dam itself, which would erode it rapidly.
+
+### Water Wheel Efficiency Comparison
+
+**Undershot wheel (20-30% efficient)**: The simplest construction but least efficient. Flat paddles dip into the current and the wheel is driven entirely by the impulse of flowing water. Most energy is lost to turbulence as water deflects around the paddles without doing work. Improved versions use a close-fitting stone or timber channel (mill race) that concentrates flow onto the paddles, raising efficiency to perhaps 30%. Best for flat terrain with no available head.
+
+**Breastshot wheel (35-55% efficient)**: Water enters at roughly axle height, filling buckets. The combined effect of water impact (impulse) and the weight of water in descending buckets (gravity) drives the wheel. The closely fitted breast wall (stone or timber curving around the lower arc) prevents water from spilling out of buckets before they reach the bottom. Efficiency depends heavily on how well the breast wall seals against the wheel. A well-built breastshot wheel with iron buckets and tight breast wall reaches 55%.
+
+**Overshot wheel (60-75% efficient)**: Water is delivered to the top of the wheel via a headrace and flume, filling buckets at the crown. This is primarily a gravity machine: the weight of water in the descending half of the wheel provides the driving force. The buckets must be closely spaced with retaining lips to hold water during the descent, and the wheel must be sized so buckets empty cleanly at the bottom without dragging water back up. The headrace requires its own engineering: a wooden flume or stone-lined channel delivering water from the mill pond to the wheel crown, with a sluice gate for flow control.
+
+### Power Transmission with Wooden Gear Trains
+
+**Lantern pinion and crown gear**: The standard gear pair for converting slow wheel rotation to faster output speeds. The crown gear (also called the wallower or face gear) is a flat disc with wooden or iron teeth pegged around its circumference. The lantern pinion is a pair of flanged discs connected by iron or hardwood staves (round pins). The two mesh at 90° to transfer motion between horizontal wheel shaft and vertical millstone shaft. A single stage achieves 3-5:1 speed ratio.
+
+**Wooden teeth**: Apple, hornbeam, or ironbark (dense, close-grained hardwoods) are turned or carved into gear teeth. Wooden teeth absorb shock loads that would break cast iron teeth, a significant advantage in water-powered machinery where flow variations cause torque spikes. The teeth are designed to be the sacrificial element: when a tooth breaks, a new one is pegged into the hub in minutes. Grease with tallow or tar to reduce wear. Expected tooth life: 1-5 years depending on load and lubrication.
+
+**Iron teeth for heavy duty**: When the load exceeds what wooden teeth can reliably carry (above roughly 5-10 HP), cast iron gear rims with machined teeth are substituted. Iron teeth last decades rather than years but transmit shock directly to the shaft and bearings. The gear blank is a cast iron rim shrunk onto a wooden or iron hub, with teeth cut by milling or planing. Requires a foundry and machine tools.
+
+**Multi-stage gearing**: For applications needing higher speed ratios (such as driving a generator from a slow water wheel), two or more gear stages are cascaded. Each stage adds a 3-5:1 ratio, so two stages yield 9-25:1 and three stages yield 27-125:1. Each stage introduces friction losses of 2-5%, so total transmission efficiency drops with each added stage. A well-maintained two-stage wooden gear train transmits power at roughly 85-90% efficiency.
+
+### Specific Power Calculation Examples
+
+The fundamental hydraulic power formula P = η × ρ × g × Q × H applies to every water power installation.
+
+**Example 1, overshot wheel**: A stream delivers 50 L/s (0.05 m³/s) with 5 m of head. Using an overshot wheel at 65% efficiency: P = 0.65 × 1000 × 9.81 × 0.05 × 5 = 1,595 W ≈ 2.1 HP. This drives a single pair of millstones (typical requirement: 1.5-3 HP).
+
+**Example 2, undershot wheel**: A river with no head but 1.5 m/s flow velocity, channel width 1.5 m, paddle depth 0.3 m. Effective flow area: 0.45 m². Flow intercepted: 0.45 × 1.5 = 0.675 m³/s. Equivalent head from velocity: H = v²/(2g) = 1.5²/19.62 = 0.115 m. At 25% efficiency: P = 0.25 × 1000 × 9.81 × 0.675 × 0.115 = 190 W ≈ 0.25 HP. Marginal but usable for small tasks.
+
+**Example 3, Pelton turbine**: Mountain stream with 80 m head and 10 L/s (0.01 m³/s) flow. Pelton efficiency 88%: P = 0.88 × 1000 × 9.81 × 0.01 × 80 = 6,906 W ≈ 9.3 HP. Enough to drive a small generator producing 5-6 kW of electricity.
+
+### Dam Construction in Detail
+
+**Earth dam cross-section**: A small earth dam for a mill pond (2-10 m height) follows a standard profile. The clay core is the waterproof barrier, 1-2 m wide at the crest and expanding to 3-5 m at the base in a trapezoidal shape. The core is keyed into the natural subsoil or bedrock (a trench cut below the dam base and filled with puddled clay) to prevent under-seepage. On both sides of the core, compacted earth shoulders provide structural mass.
+
+**Compaction method**: Earth is placed in lifts of 200-300 mm thickness. Each lift is compacted at optimum moisture content (typically 12-18% for clay soils). The Proctor compaction test determines optimum moisture for each soil type. Too dry and the soil won't compact; too wet and it squashes rather than densifies. Compaction methods: hand tamper, animal-drawn roller, or mechanized vibratory roller.
+
+**Slope ratios**: Upstream face slopes at 1:2.5 to 1:3 (horizontal:vertical) to resist wave erosion and drawdown slumping. Downstream face slopes at 1:2 to 1:2.5. The crest width (3-5 m) allows vehicle access for maintenance.
+
+**Overflow spillway**: A concrete or masonry spillway with an ogee crest (S-shaped profile matching the underside of falling water) is the safest flood passage. The spillway is sized for the maximum probable flood, not the average flood. For small dams, a broad-crested weir or drop-inlet spillway substitutes. The spillway should be cut into the adjacent hillside so overflow never flows over the earth dam itself.
+
+### Water Wheel Efficiency Comparison
+
+**Undershot wheel (20-30% efficient)**: The simplest construction but least efficient. Flat paddles dip into the current. Improved versions use a close-fitting stone or timber channel that concentrates flow onto the paddles, raising efficiency to perhaps 30%. Best for flat terrain with no available head.
+
+**Breastshot wheel (35-55% efficient)**: Water enters at roughly axle height, filling buckets. The closely fitted breast wall prevents water from spilling out before the bottom. Efficiency depends heavily on breast wall seal quality. A well-built iron-bucket wheel with tight breast wall reaches 55%.
+
+**Overshot wheel (60-75% efficient)**: Water delivered to the top via headrace and flume fills buckets at the crown. Primarily a gravity machine. Buckets must be closely spaced with retaining lips and sized to empty cleanly at the bottom.
+
+### Power Transmission with Wooden Gear Trains
+
+**Lantern pinion and crown gear**: The standard gear pair for converting slow wheel rotation to faster output. The crown gear (face gear) is a flat disc with wooden or iron teeth pegged around its circumference. The lantern pinion is a pair of flanged discs connected by iron or hardwood staves. The two mesh at 90°. A single stage achieves 3-5:1 speed ratio.
+
+**Wooden teeth**: Apple, hornbeam, or ironbark (dense, close-grained hardwoods) are carved into gear teeth. Wooden teeth absorb shock loads that would break cast iron teeth. They are designed to be sacrificial: when a tooth breaks, a new one is pegged in minutes. Grease with tallow or tar. Tooth life: 1-5 years depending on load and lubrication.
+
+**Iron teeth for heavy duty**: Above roughly 5-10 HP, cast iron gear rims with machined teeth are substituted. Iron teeth last decades but transmit shock directly to shafts and bearings. The gear blank is a cast iron rim shrunk onto a wooden or iron hub.
+
+**Multi-stage gearing**: For applications needing higher speed ratios (such as driving a generator from a slow water wheel), two or more gear stages are cascaded. Each stage adds a 3-5:1 ratio. Two stages yield 9-25:1, three stages yield 27-125:1. Each stage introduces 2-5% friction loss. A well-maintained two-stage wooden gear train transmits power at roughly 85-90% overall efficiency.
+
+**Belt drive addition**: Flat leather or canvas belts (50-200 mm wide) connecting pulleys of different diameters provide additional speed changes with built-in slip protection. Speed ratio equals driven pulley diameter divided by driver pulley diameter. Slip of 2-5% is normal and acts as a safety clutch, preventing catastrophic damage if the driven machine jams. Minimum pulley diameter is roughly 30× belt thickness to avoid cracking the leather.
+
+**Line shaft distribution**: A single water wheel of 10 HP can drive an entire small workshop of 5-8 machines simultaneously via a horizontal line shaft. The iron shaft (50-100 mm diameter) runs the length of the workshop, supported by hung bearings from ceiling joists. Each machine connects via its own belt drive from a countershaft, with cone pulleys providing 2-4 speed ranges.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*

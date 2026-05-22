@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: important | **Domains**: energy
 
-[water-turbines.md](water-turbines.md) - **Energy storage overview**: [storage.md](storage.md) - **Grid infrastructure**: [electricity.md](electricity.md) - **Dam and civil engineering foundations**: [Foundations](../foundations/)
+Water turbines for generating mode refers to water-turbines.md and related processes. Energy storage overview**: storage.md - **Grid infrastructure**: electricity.md - **Dam and civil engineering foundations**: Foundations. See: [Pumped Hydroelectric Storage](../energy/pumped-hydro.md)

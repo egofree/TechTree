@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: polymers
 
-(~5-10% each): Additional sesquiterpene acids.
+jukeric acid (~5-10% each) — Additional sesquiterpene acids. See: [Shellac Production](../polymers/shellac.md)

@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: textiles
 
-(new rope, dry conditions):
+Minimum breaking strength tables, specified as (new rope, dry conditions), is a noun in textiles. See: [Rope and Cordage](../textiles/rope-making.md)

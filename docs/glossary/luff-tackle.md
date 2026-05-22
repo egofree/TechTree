@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: textiles
 
-(double block + single block, 3 rope parts): MA = 3:1.
+Luff tackle (double block + single block, 3 rope parts) — MA = 3:1. See: [Rope and Cordage](../textiles/rope-making.md)

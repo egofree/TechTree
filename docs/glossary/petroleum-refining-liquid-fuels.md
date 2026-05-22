@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: important | **Domains**: energy
 
-[petroleum-alternatives.md](../chemistry/petroleum-alternatives.md) - **Mining infrastructure**: [extraction.md](../mining/extraction.md) - **Steam power** (major coal consumer): [steam-power.md](steam-power.md) - **Internal combustion engine**: [engine.md](engine.md)
+Petroleum refining & liquid fuels refers to petroleum-alternatives.md and related processes. Mining infrastructure**: extraction.md - **Steam power** (major coal consumer): steam-power.md - **Internal combustion engine**: engine.md. See: [Fuel Production](../energy/fuels.md)

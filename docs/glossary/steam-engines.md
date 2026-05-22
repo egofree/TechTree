@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: important | **Domains**: energy
 
-(external combustion predecessor): [Steam Power](steam-power.md) - **Aviation applications**: [Aviation](../transport/aviation.md) - **Electrical generation**: [Electricity Generation & Distribution](electricity.md)
+Steam engines (external combustion predecessor) — Steam Power - **Aviation applications**: Aviation - **Electrical generation**: Electricity Generation & Distribution. See: [Heat Engines](../energy/engine.md)

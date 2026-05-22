@@ -2,4 +2,4 @@
 
 > **Type**: equipment | **Tier**: supporting | **Domains**: energy
 
-[electric-furnaces.md](electric-furnaces.md) - **Metals for blades and casings**: [iron-steel.md](../metals/iron-steel.md)
+Graphite for turbine seals/lubricants (electric-furnaces.md) — **Metals for blades and casings**: [iron-steel.md](../metals/iron-steel.md). See: [Steam Turbines](../energy/steam-turbines.md)

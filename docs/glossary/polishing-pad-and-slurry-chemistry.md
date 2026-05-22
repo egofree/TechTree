@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: silicon
 
-[polymers](../polymers/)
+Polishing pad and slurry chemistry involves polymers in the silicon domain. See: [Wafer Slicing & Polishing](../silicon/wafering.md)

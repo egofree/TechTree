@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: textiles
 
-[acids and bases](../chemicals/acids-bases.md) - **Rubber processing**: [rubber](../polymers/rubber.md) - **Dyeing finished cloth**: [dyeing](dyeing.md)
+Caustic soda for mercerization (acids and bases) — **Rubber processing**: [rubber](../polymers/rubber.md) - **Dyeing finished cloth**: [dyeing](../textiles/dyeing.md). See: [Fabric Finishing](../textiles/finishing.md)

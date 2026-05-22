@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: important | **Domains**: computing
 
-(ancient to present): Requires zero manufacturing infrastructure. Wood, beads, and cord. Remains competitive for certain calculations well into the electronic age.
+Abacus and counting board (ancient to present) — requires zero manufacturing infrastructure. Wood, beads, and cord. Remains competitive for certain calculations well into the electronic age. See: [Mechanical Calculation](../computing/mechanical.md)

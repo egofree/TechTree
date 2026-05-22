@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: machine-tools
 
-1-2 chamfered threads — threads to the bottom of blind holes.
+Bottoming tap: 1-2 chamfered threads — threads to the bottom of blind holes. See: [Bearings, Abrasives & Cutting Tools](../machine-tools/bearings-abrasives.md)

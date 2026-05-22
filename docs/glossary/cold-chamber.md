@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: metals
 
-(molten Al ladled into shot sleeve, then injected — standard for aluminum).
+cold chamber (molten Al ladled into shot sleeve, then injected — standard for aluminum). See: [Aluminum Production](../metals/aluminum.md)

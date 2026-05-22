@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: silicon
 
-Within ±0.5° of target
+Crystal orientation is a noun used in silicon. Within ±0.5° of target. See: [Crystal Growth & Wafering](../silicon/crystal-growth.md)

@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: silicon
 
-(junctions reversed, β very low, rarely used).
+Reverse active (junctions reversed, β very low, rarely used) — . See: [Basic Semiconductor Devices](../silicon/basic-devices.md)

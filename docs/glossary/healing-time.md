@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: health
 
-6-8 weeks for simple fractures, 12+ weeks for weight-bearing bones.
+Healing time: 6-8 weeks for simple fractures, 12+ weeks for weight-bearing bones. See: [Medicine & Surgery](../health/medicine.md)

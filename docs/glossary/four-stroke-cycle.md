@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: energy
 
-(two crankshaft revolutions per power stroke):
+Four-stroke cycle, denoted as (two crankshaft revolutions per power stroke), is a noun used in energy. See: [Heat Engines](../energy/engine.md)

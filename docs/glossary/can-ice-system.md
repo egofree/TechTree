@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: energy
 
-(the earliest industrial ice production method):
+Can ice system, denoted as (the earliest industrial ice production method), is a noun used in energy. See: [Cooling Systems & Refrigeration](../energy/cooling.md)

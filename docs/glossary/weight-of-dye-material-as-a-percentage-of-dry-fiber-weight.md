@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: textiles
 
-(WOF).
+weight of dye material as a percentage of dry fiber weight (WOF) — . See: [Dyeing](../textiles/dyeing.md)

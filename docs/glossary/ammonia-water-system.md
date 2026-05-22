@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: energy
 
-(the first practical refrigeration cycle, industrially deployed from the 1850s):
+Ammonia-water system, denoted as (the first practical refrigeration cycle, industrially deployed from the 1850s), is a noun used in energy. See: [Cooling Systems & Refrigeration](../energy/cooling.md)

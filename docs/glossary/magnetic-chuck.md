@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: important | **Domains**: machine-tools
 
-(surface grinder): Electromagnetic or permanent magnet. Holds ferrous workpieces flat without mechanical clamps. Demagnetize workpiece after grinding.
+Magnetic chuck (surface grinder) — Electromagnetic or permanent magnet. Holds ferrous workpieces flat without mechanical clamps. Demagnetize workpiece after grinding. See: [Machining](../machine-tools/machining.md)

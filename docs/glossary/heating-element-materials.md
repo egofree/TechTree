@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: energy
 
-(ordered by maximum operating temperature):
+Heating element materials, specified as (ordered by maximum operating temperature), is a noun in energy. See: [Electric Furnaces](../energy/electric-furnaces.md)

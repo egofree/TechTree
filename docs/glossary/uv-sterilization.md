@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: photolithography
 
-254 nm UV lamp kills bacteria and algae.
+UV sterilization refers to 254 nm UV lamp kills bacteria and algae. See: [Cleanrooms](../photolithography/cleanrooms.md)

@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: important | **Domains**: animals
 
-200-400 kg draw for an ox pair in average soil. A single ox can pull an ard in light soil.
+Draft requirement: 200-400 kg draw for an ox pair in average soil. A single ox can pull an ard in light soil. See: [Animal Draft Power & Harnessing](../animals/draft-power.md)

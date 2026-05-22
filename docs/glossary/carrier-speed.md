@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: vlsi-scaling
 
-30-80 rpm (counter-rotation for uniformity).
+Carrier speed: 30-80 rpm (counter-rotation for uniformity). See: [Advanced Processes](../vlsi-scaling/advanced-processes.md)

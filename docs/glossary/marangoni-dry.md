@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: silicon
 
-(IPA vapor, surface tension gradient pulls water off).
+Marangoni dry (IPA vapor, surface tension gradient pulls water off) — . See: [Crystal Growth & Wafering](../silicon/crystal-growth.md)

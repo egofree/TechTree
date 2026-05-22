@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: important | **Domains**: ceramics
 
-(flux and refractory): [iron-steel.md](../metals/iron-steel.md) - **Glass** (limestone as raw material): [glass.md](../glass/) - **Chemistry** (alkali production): [alkalis.md](../chemistry/)
+Iron & Steel (flux and refractory) — iron-steel.md - **Glass** (limestone as raw material): glass.md - **Chemistry** (alkali production): alkalis.md. See: [Lime Production](../ceramics/lime.md)

@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: polymers
 
-(uPVC): no plasticizer. Pipes, fittings, valves, chemical-resistant ductwork.
+Rigid PVC (uPVC) — no plasticizer. Pipes, fittings, valves, chemical-resistant ductwork. See: [Thermoplastic Polymers](../polymers/thermoplastics.md)

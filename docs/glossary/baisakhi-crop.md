@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: polymers
 
-(October-November): Harvested in the post-monsoon period. Generally larger yield than Katki.
+Baisakhi crop (October-November) — harvested in the post-monsoon period. Generally larger yield than Katki. See: [Shellac Production](../polymers/shellac.md)

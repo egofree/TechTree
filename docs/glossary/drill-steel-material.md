@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: important | **Domains**: mining
 
-[iron and steel](../metals/iron-steel.md) - **Machine tools for bit sharpening**: [machine tools](../machine-tools/) - **Mine ventilation (dust control)**: [ventilation](ventilation.md)
+Drill steel material (iron and steel) — **Machine tools for bit sharpening**: [machine tools](../machine-tools/index.md) - **Mine ventilation (dust control)**: [ventilation](../mining/ventilation.md). See: [Mechanical Drilling](../mining/drilling.md)

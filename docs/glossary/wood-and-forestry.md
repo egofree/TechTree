@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: energy
 
-(feedstock supply): [plants.md](../plants/)
+Wood and forestry (feedstock supply) — plants.md. See: [Charcoal Production](../energy/charcoal.md)

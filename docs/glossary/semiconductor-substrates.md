@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: ceramics
 
-96% Al₂O₃ substrates cofired with tungsten metallization for hybrid circuit packages
+Semiconductor substrates refers to 96% Al₂O₃ substrates cofired with tungsten metallization for hybrid circuit packages. See: [Advanced Ceramics & Refractories](../ceramics/advanced-ceramics.md)

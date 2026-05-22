@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: energy
 
-E = ρ × g × h × V × η
+Energy stored is a noun used in energy. E = ρ × g × h × V × η. See: [Pumped Hydroelectric Storage](../energy/pumped-hydro.md)

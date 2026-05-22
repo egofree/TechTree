@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: energy
 
-(in order of availability):
+Insulation materials, specified as (in order of availability), is a noun in energy. See: [Cooling Systems & Refrigeration](../energy/cooling.md)

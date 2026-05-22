@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: photolithography
 
-50-200 nm/min depending on power, pressure, and gas ratio.
+Etch rate: 50-200 nm/min depending on power, pressure, and gas ratio. See: [Core Fab Processes](../photolithography/fab-processes.md)

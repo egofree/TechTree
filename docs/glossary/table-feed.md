@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: machine-tools
 
-15-30 m/min cross-feed rate.
+Table feed refers to 15-30 m/min cross-feed rate. See: [Machining](../machine-tools/machining.md)

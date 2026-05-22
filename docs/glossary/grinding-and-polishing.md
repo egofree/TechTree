@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: glass
 
-See Optics section below.
+Grinding and polishing is related to Optics section below. See: [Advanced Glass Production](../glass/advanced.md)

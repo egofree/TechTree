@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: important | **Domains**: textiles
 
-[weaving](weaving.md) - **Caustic soda for mercerization**: [acids and bases](../chemicals/acids-bases.md) - **Rubber processing**: [rubber](../polymers/rubber.md) - **Dyeing finished cloth**: [dyeing](dyeing.md)
+Woven cloth input refers to weaving and related processes. Caustic soda for mercerization**: acids and bases - **Rubber processing**: rubber - **Dyeing finished cloth**: dyeing. See: [Fabric Finishing](../textiles/finishing.md)

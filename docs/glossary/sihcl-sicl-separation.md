@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: silicon
 
-25.8°C boiling point difference. Straightforward separation in a moderate-height column.
+SiHCl₃ / SiCl₄ separation refers to 25.8°C boiling point difference. Straightforward separation in a moderate-height column. See: [Silicon Purification](../silicon/purification.md)

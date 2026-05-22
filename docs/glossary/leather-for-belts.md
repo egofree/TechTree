@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: textiles
 
-[leather](../materials/leather.md) - **Sewn products used in mining**: [mining equipment](../mining/)
+Leather for belts refers to leather and related processes. Sewn products used in mining**: mining equipment. See: [Sewing & Tailoring](../textiles/sewing-tailoring.md)

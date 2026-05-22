@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: textiles
 
-[rubber](../polymers/rubber.md) - **Dyeing finished cloth**: [dyeing](dyeing.md)
+Rubber processing refers to rubber and related processes. Dyeing finished cloth**: dyeing. See: [Fabric Finishing](../textiles/finishing.md)

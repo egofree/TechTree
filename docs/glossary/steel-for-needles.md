@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: important | **Domains**: textiles
 
-[iron and steel](../metals/iron-steel.md) - **Canvas and fabric**: [weaving](weaving.md) - **Leather for belts**: [leather](../materials/leather.md) - **Sewn products used in mining**: [mining equipment](../mining/)
+Steel for needles refers to iron and steel and related processes. Canvas and fabric**: weaving - **Leather for belts**: leather - **Sewn products used in mining**: mining equipment. See: [Sewing & Tailoring](../textiles/sewing-tailoring.md)

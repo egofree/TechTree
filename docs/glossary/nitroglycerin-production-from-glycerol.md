@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: chemistry
 
-See [Explosives](explosives.md) — nitroglycerin is shock-sensitive and extremely dangerous to manufacture.
+Nitroglycerin production from glycerol refers to Explosives — nitroglycerin is shock-sensitive and extremely dangerous to manufacture. See: [Soap & Detergent Production](../chemistry/soap.md)

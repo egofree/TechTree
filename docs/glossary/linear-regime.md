@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: photolithography
 
-(thin oxide, surface-reaction limited): x ≈ (B/A)·t. B/A is the linear rate constant.
+Linear regime (thin oxide, surface-reaction limited) — x ≈ (B/A)·t. B/A is the linear rate constant. See: [Core Fab Processes](../photolithography/fab-processes.md)

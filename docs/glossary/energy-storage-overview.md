@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: supporting | **Domains**: energy
 
-[storage.md](storage.md) - **Grid infrastructure**: [electricity.md](electricity.md) - **Dam and civil engineering foundations**: [Foundations](../foundations/)
+Energy storage overview (storage.md) — **Grid infrastructure**: [electricity.md](../energy/electricity.md) - **Dam and civil engineering foundations**: [Foundations](../foundations/index.md). See: [Pumped Hydroelectric Storage](../energy/pumped-hydro.md)

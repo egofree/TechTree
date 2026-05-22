@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: important | **Domains**: textiles
 
-[weaving](weaving.md) - **Steel for needles**: [iron and steel](../metals/iron-steel.md) - **Canvas and fabric**: [weaving](weaving.md) - **Leather for belts**: [leather](../materials/leather.md) - **Sewn products used in mining**: [mining equipment](../mining/)
+Woven cloth refers to weaving and related processes. Steel for needles**: iron and steel - **Canvas and fabric**: weaving - **Leather for belts**: leather - **Sewn products used in mining**: mining equipment. See: [Sewing & Tailoring](../textiles/sewing-tailoring.md)

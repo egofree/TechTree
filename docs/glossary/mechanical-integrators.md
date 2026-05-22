@@ -2,4 +2,4 @@
 
 > **Type**: noun | **Tier**: important | **Domains**: computing
 
-(analog computing): - **Ball-and-disk integrator**: A steel ball sits between a rotating disk and a cylindrical output roller. The ball contacts the disk at a radial position set by an input shaft. The disk rotates at constant speed. The ball transmits rotation to the output roller at a rate proportional to the ball's radial position (distance from disk center). Moving the ball outward increases the output roller speed. This multiplies a continuous variable (ball position = input) by another ...
+Mechanical integrators (analog computing) — Ball-and-disk integrator**: A steel ball sits between a rotating disk and a cylindrical output roller. The ball contacts the disk at a radial position set by an input shaft. The disk rotates at constant speed. The ball transmits rotation to the output roller at a rate proportional to the ball's radial position (distance from disk center). Moving the ball outward increases the output roller speed. This multiplies a continuous variable (ball position = input) by another ... See: [Mechanical Calculation](../computing/mechanical.md)

@@ -10,39 +10,39 @@
 
 ### Electricity Generation
 
-**[Voltaic piles / batteries](../glossary/voltaic-piles-batteries.html)** (first electrical source):
+**[Voltaic piles / batteries](../glossary/voltaic-piles-batteries.md)** (first electrical source):
 - **Construction**: Stack alternating disks: copper plate → cardboard soaked in brine (or sulfuric acid) → zinc plate → repeat. 10-20 cells produce 10-20V DC at low current.
 - **Output**: ~1V per cell, ~50-100 mA. Sufficient for early electroplating experiments, telegraph operation, electrochemistry exploration. Not sufficient for industrial power.
-- **[Daniell cell](../glossary/daniell-cell.html)** (improved): Copper electrode in CuSO₄ solution, separated by porous pot from zinc electrode in ZnSO₄ or dilute H₂SO₄. 1.1V, more stable voltage, longer life. Standard for telegraph systems.
+- **[Daniell cell](../glossary/daniell-cell.md)** (improved): Copper electrode in CuSO₄ solution, separated by porous pot from zinc electrode in ZnSO₄ or dilute H₂SO₄. 1.1V, more stable voltage, longer life. Standard for telegraph systems.
 
-**[Wire drawing](../glossary/wire-drawing.html)** (essential for all electrical work):
+**[Wire drawing](../glossary/wire-drawing.md)** (essential for all electrical work):
 - **Starting material**: Cast copper ingot, hot-forged to rod (~10 mm diameter), then cold-drawn.
 - **Drawing process**: Pull copper rod through successively smaller hardened steel dies (tungsten carbide or tool steel). Each pass reduces diameter ~20-30%. Anneal between passes (heat to 400-600°C to restore ductility lost from cold work). Repeat until target gauge reached.
 - **Common gauges**: 1 mm diameter for winding (≈ 18 AWG), 0.1 mm for fine coils (≈ 38 AWG). Length from 1 kg of copper: ~130 m at 1 mm diameter.
 - **Lubrication**: Tallow or soap solution on wire as it enters die. Essential — without it, wire galls and snaps.
 - **Insulation**: Dip drawn wire in rubber solution (natural rubber dissolved in naphtha), wrap with cotton thread, or varnish with shellac. Multiple layers for higher voltage. Gutta-percha (natural thermoplastic) for underwater/underground cables.
 
-**[Generators](../glossary/generators.html)** (Faraday principle — rotating coil in magnetic field):
+**[Generators](../glossary/generators.md)** (Faraday principle — rotating coil in magnetic field):
 - **First generator (magneto)**: Permanent magnets (lodestones or magnetized steel bars) provide field. Rotating coil (armature) wound on iron core, turned by hand, water wheel, or steam engine. Output: pulsed DC.
 - **Winding**: Copper wire, enamel or shellac insulated. Number of turns determines voltage. Wire gauge determines current capacity. Typical early generator: 500-2000 turns of 0.5-1 mm wire on iron core.
 - **Commutator**: Split copper ring with brushes (carbon or copper gauze) to convert AC to DC. For AC generators (alternators): slip rings instead.
-- **[Self-exciting generator](../glossary/self-exciting-generator.html)** (dynamo): Electromagnets (iron core + coil) replace permanent magnets for stronger field. Uses residual magnetism in iron to bootstrap, then feeds some output current back to field coils → positive feedback → full excitation.
+- **[Self-exciting generator](../glossary/self-exciting-generator.md)** (dynamo): Electromagnets (iron core + coil) replace permanent magnets for stronger field. Uses residual magnetism in iron to bootstrap, then feeds some output current back to field coils → positive feedback → full excitation.
 - **Performance targets**: First generators: 100W-1kW. Mature dynamo: 1-50 kW. Efficiency 70-90%.
 
-**[Motors](../glossary/motors.html)** (reverse of generators):
+**[Motors](../glossary/motors.md)** (reverse of generators):
 - **DC motor**: Current through armature coils in magnetic field creates torque. Commutator reverses current direction each half-turn for continuous rotation.
 - **Series-wound**: Field and armature in series. High starting torque, speed varies with load. Good for traction (trams, trains, starter motors).
 - **Shunt-wound**: Field and armature in parallel. More constant speed, lower starting torque. Good for machine tools, fans, pumps.
 - **Construction**: Identical mechanical parts to generators — a dynamo run backwards as a motor.
 
-**[Transformers](../glossary/transformers.html)** (voltage step-up/step-down):
+**[Transformers](../glossary/transformers.md)** (voltage step-up/step-down):
 - **Principle**: Two coils on shared iron core. Alternating current in primary creates changing magnetic flux, inducing voltage in secondary. Turns ratio determines voltage ratio (V₂/V₁ = N₂/N₁).
 - **Construction**: Laminated iron core (thin iron sheets, 0.3-0.5 mm, insulated with shellac or paper — prevents eddy current losses). Primary and secondary windings of insulated copper wire.
 - **Essential for**: Power distribution (step up voltage for transmission → lower current → less I²R loss in wires, step down at destination).
 
 **Power distribution**:
-- **[DC system](../glossary/dc-system.html)** (Edison): 110V DC. Limited range (~1-2 km) due to voltage drop in wires. Requires many small generators.
-- **[AC system](../glossary/ac-system.html)** (Westinghouse/Tesla): 110-220V AC, stepped up to 1000-10000V for transmission, stepped down at load. Much longer range. Requires alternators and transformers. Eventually wins.
+- **[DC system](../glossary/dc-system.md)** (Edison): 110V DC. Limited range (~1-2 km) due to voltage drop in wires. Requires many small generators.
+- **[AC system](../glossary/ac-system.md)** (Westinghouse/Tesla): 110-220V AC, stepped up to 1000-10000V for transmission, stepped down at load. Much longer range. Requires alternators and transformers. Eventually wins.
 - **Wire sizing**: Copper wire, sized by current capacity. Rule of thumb: 3-5 A per mm² of cross-section for acceptable heating. Example: 10 A load at 110V over 100 m needs ~6 mm² wire (≈ 2.8 mm diameter) to keep voltage drop under 5%.
 
 ### Electric Furnaces
@@ -75,7 +75,7 @@ Otto-cycle piston engines, diesel engines, and their critical components (cylind
 
 ### Electrical Engineering Reference
 
-**[Copper wire gauge table](../glossary/copper-wire-gauge-table.html)** (practical reference for all electrical work):
+**[Copper wire gauge table](../glossary/copper-wire-gauge-table.md)** (practical reference for all electrical work):
 | Diameter (mm) | Cross-section (mm²) | Resistance (Ω/km) | Max current (A) | Typical use |
 |---------------|---------------------|--------------------|-----------------|-------------|
 | 0.1 | 0.008 | 2,200 | 0.05 | Fine coils, instruments |
@@ -103,21 +103,21 @@ Otto-cycle piston engines, diesel engines, and their critical components (cylind
 - **Fuse sizing**: Fuse rating ≥ full-load current of device, but ≤ ampacity of wiring. Example: motor drawing 7A on 2.5 mm² wire (20A capacity) → use 10A fuse. The fuse protects the WIRE, not the device.
 - **Circuit breaker**: Bimetallic strip heated by current bends and trips latch, opening contacts. Resettable. More convenient than fuses. Calibrate by adjusting strip tension.
 
-**[Battery sizing](../glossary/battery-sizing.html)** (lead-acid, see Energy Storage):
+**[Battery sizing](../glossary/battery-sizing.md)** (lead-acid, see Energy Storage):
 - **Capacity**: C = P × t / V, where P = load (W), t = backup time (hours), V = system voltage. Example: 500W load, 4-hour backup, 48V system: C = 500 × 4 / 48 = 41.7 Ah. Add 50% margin for depth-of- discharge limit: 62.5 Ah bank.
 - **Charging current**: C/10 rate (capacity ÷ 10 hours) for maximum battery life. For 62.5 Ah bank: charge at ~6.25A, 48V = 300W charger needed. Charge time: ~12-14 hours from fully discharged.
 
 ### Permanent Magnets
 
-- **[Lodestone](../glossary/lodestone.html)** (naturally magnetized magnetite) for early compasses and basic magnetic experiments
+- **[Lodestone](../glossary/lodestone.md)** (naturally magnetized magnetite) for early compasses and basic magnetic experiments
 - **Magnetized iron/steel bars**: Stroke with lodestone or place in Earth's magnetic field yields magnets for early generator field poles and galvanometers. For stronger magnets: place steel bar inside coil, pass DC current (electromagnet method) — steel retains magnetism after current removed.
 - **Keeper**: Store magnets with soft iron bar across poles (keeper) to prevent demagnetization over time.
- - **[Later materials](../glossary/later-materials.html)** (Alnico, ferrite) arrive with Chemistry stage alloy development
+ - **[Later materials](../glossary/later-materials.md)** (Alnico, ferrite) arrive with Chemistry stage alloy development
 
 ### Elastomer Processing
 
 - **Natural rubber vulcanization**: latex from *Hevea brasiliensis* or temperate alternatives (guayule, Russian dandelion) is coagulated, masticated on a two-roll mill, then compounded with sulfur (1.5-3 phr) and zinc oxide as activator
-- **[Heat curing](../glossary/heat-curing.html)** at 140-180°C in electric vulcanizing presses or steam autoclaves (3-10 bar) using the Energy stage electric heating and boiler steam; cycle times 5-30 minutes depending on thickness
+- **[Heat curing](../glossary/heat-curing.md)** at 140-180°C in electric vulcanizing presses or steam autoclaves (3-10 bar) using the Energy stage electric heating and boiler steam; cycle times 5-30 minutes depending on thickness
 - **Applications beyond wire insulation**: shaft seals, gaskets, flat belts and V-belts for power transmission, hoses, vibration dampers, and tire construction for wheeled vehicles
 - **[Synthetic rubbers](../polymers/synthetic.md)** (nitrile, neoprene) require petrochemical feedstocks from [Petrochemicals](../chemistry/petroleum-alternatives.md); see [Polymers](../polymers/index.md) for the full elastomer development roadmap
 

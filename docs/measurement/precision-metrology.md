@@ -38,12 +38,12 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 **Water clock (clepsydra)**:
 - Regulated outflow vessel — water flows through small orifice at bottom of conical vessel. Water level drops linearly with time (if vessel is conical with correct taper) or marks on vessel indicate elapsed time. Accuracy: ±5-15 minutes per day. Adequate for process timing (reaction durations, firing cycles).
 
-**[Pendulum clock](../glossary/pendulum-clock.html)** (Machine Tools):
+**[Pendulum clock](../glossary/pendulum-clock.md)** (Machine Tools):
 - **Principle**: Pendulum period T = 2π√(L/g), where L = pendulum length, g = gravitational acceleration. A 1-meter pendulum has period ~2.000 seconds (each swing = 1 second). Period is independent of amplitude (for small angles <5°).
 - **Escapement**: Anchor escapement or dead-beat escapement converts continuous pendulum swing into discrete tick-tock while maintaining pendulum oscillation. Escapement wheel (brass, 30 teeth) driven by weight or spring. Each tick advances wheel by one tooth. Wheel drives gear train → clock hands.
 - **Construction**: Brass gears (cut on dividing engine from the Machine Tools stage). Steel pivots in brass or jeweled bearings (agate or synthetic ruby jewels reduce friction). Steel or Invar pendulum rod (Invar minimizes thermal expansion effect on period — length change alters period). Pendulum bob: heavy brass or lead lens, adjustable rating nut for fine time adjustment (turn nut → raise/lower bob → change effective length → change rate).
 - **Accuracy**: ±5-10 seconds per day with careful construction and temperature compensation. Regulate by comparing with astronomical observation (transit of a star — sidereal time is extremely regular).
-- **[Marine chronometer](../glossary/marine-chronometer.html)** (the Machine Tools-Energy stage transition): For navigation. Spring-driven (no gravity dependence). Balance wheel with helical balance spring replaces pendulum (not affected by ship motion). Temperature compensation (bimetallic balance wheel). Accuracy: ±1-2 seconds per day. Historically took decades to perfect — Harrison's H4 (1761) was the breakthrough.
+- **[Marine chronometer](../glossary/marine-chronometer.md)** (the Machine Tools-Energy stage transition): For navigation. Spring-driven (no gravity dependence). Balance wheel with helical balance spring replaces pendulum (not affected by ship motion). Temperature compensation (bimetallic balance wheel). Accuracy: ±1-2 seconds per day. Historically took decades to perfect — Harrison's H4 (1761) was the breakthrough.
 
 **Electrical clocks**:
 - Synchronous motor clock: AC synchronous motor runs at speed locked to AC line frequency (3600 RPM at 60 Hz, 3000 RPM at 50 Hz). Gear train reduces to drive hands. Accuracy limited only by power grid frequency stability (typically ±0.02 Hz → ±30 seconds/day long-term, but short-term accuracy excellent). Main problem: power interruptions stop clock.
@@ -151,14 +151,14 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 
 **Autocollimator flatness scan**:
 - Measure flatness at 50-100 mm grid intervals across the plate surface using an autocollimator (optical instrument that measures small angular changes by reflecting a light beam off a flat mirror target placed on the plate). At each grid point, record the angular deviation in two perpendicular directions. Plot a contour map with 0.5 μm resolution showing the complete surface topology of the plate.
-- **[Flatness grades](../glossary/flatness-grades.html)** (per ISO 8512): Grade AA plates — flat to ±2.5 μm per 1000 mm, used as laboratory reference standards. Grade A — flat to ±5 μm per 1000 mm, used for precision inspection work. Grade B — flat to ±10 μm per 1000 mm, used for general shop inspection. Most workshop surface plates are Grade B; calibration laboratories maintain Grade AA plates as references.
+- **[Flatness grades](../glossary/flatness-grades.md)** (per ISO 8512): Grade AA plates — flat to ±2.5 μm per 1000 mm, used as laboratory reference standards. Grade A — flat to ±5 μm per 1000 mm, used for precision inspection work. Grade B — flat to ±10 μm per 1000 mm, used for general shop inspection. Most workshop surface plates are Grade B; calibration laboratories maintain Grade AA plates as references.
 
 **Three-plate method maintenance**:
 - Surface plates are re-scraped to restore flatness as they wear from use. Shop plates (Grade B, daily use): re-scrape annually. Laboratory plates (Grade A, careful use): re-scrape every 5 years. Reference plates (Grade AA, minimal contact): re-scrape every 10 years or when calibration reveals deviation exceeding grade tolerance. Re-scraping is performed by hand using a hardened steel scraper — the operator applies marking compound (Prussian blue), rubs the plate against a master reference, then scrapes the high spots (blue contact points) until uniform contact is achieved across the entire surface.
 
 ### Thread Measurement
 
-**[Three-wire method](../glossary/three-wire-method.html)** (pitch diameter measurement):
+**[Three-wire method](../glossary/three-wire-method.md)** (pitch diameter measurement):
 - Place three precision wires of calculated diameter d into the thread grooves — two wires on one side, one on the opposite side. Measure the distance M over the wires with a precision micrometer. The wire diameter is chosen so the wires contact the thread flanks at the pitch line: d = 0.57735 × pitch (for 60° metric threads). For example, an M10 × 1.5 thread uses wires of d = 0.866 mm diameter.
 - Calculate pitch diameter E from the measurement: E = M - 1.5155 × d (for 60° threads). This formula accounts for the geometry of the wire sitting in the V-shaped thread groove. The pitch diameter is the most critical thread parameter — it determines whether two threaded parts will mate correctly. Wire accuracy: ±0.0001 mm for precision wire sets (tungsten carbide or hardened steel wires, lapped to size).
 
@@ -166,9 +166,9 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 
 **Tooth thickness**: Measure with a gear tooth vernier caliper at the pitch circle — the caliper has two scales, one setting the vertical distance from the tooth tip to the pitch line (chordal addendum), the other measuring the chordal tooth thickness at that height. Tolerance: ±0.02 mm for quality 6 gears. Tooth thickness directly controls backlash and load-carrying capacity of the gear mesh.
 
-**[Lead checking](../glossary/lead-checking.html)** (helix angle verification for helical gears): Measure the helix angle with a sine bar setup or dedicated lead checker instrument. Tolerance: ±0.01 mm lead deviation over 25 mm face width. Incorrect lead causes concentrated tooth contact at one end of the gear, leading to premature failure from localized overloading.
+**[Lead checking](../glossary/lead-checking.md)** (helix angle verification for helical gears): Measure the helix angle with a sine bar setup or dedicated lead checker instrument. Tolerance: ±0.01 mm lead deviation over 25 mm face width. Incorrect lead causes concentrated tooth contact at one end of the gear, leading to premature failure from localized overloading.
 
-**[Composite error](../glossary/composite-error.html)** (double-flank rolling test): Mesh the test gear with a precision master gear on a rolling test fixture. Rotate through one full revolution while measuring the center distance variation between the two gear shafts. Total composite error ≤0.05 mm for quality 6 gears per ISO 1328. This test catches a range of errors simultaneously — tooth profile, pitch, runout, and eccentricity — making it the most practical single test for incoming gear inspection.
+**[Composite error](../glossary/composite-error.md)** (double-flank rolling test): Mesh the test gear with a precision master gear on a rolling test fixture. Rotate through one full revolution while measuring the center distance variation between the two gear shafts. Total composite error ≤0.05 mm for quality 6 gears per ISO 1328. This test catches a range of errors simultaneously — tooth profile, pitch, runout, and eccentricity — making it the most practical single test for incoming gear inspection.
 
 ### Angle Standards
 
@@ -180,7 +180,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 
 ### Roundness & Form Measurement
 
-**[Roundness measurement](../glossary/roundness-measurement.html)** (out-of-roundness):
+**[Roundness measurement](../glossary/roundness-measurement.md)** (out-of-roundness):
 - Rotate the part on a precision spindle (radial error ≤0.1 μm) while a displacement transducer (LVDT or capacitance probe) contacts the surface. Record the radial deviation at hundreds of points around one complete revolution. Plot the polar profile — deviations from a perfect circle appear as lobing or irregularity. Evaluate against a reference circle (least-squares circle, minimum zone circle, or maximum inscribed/minimum circumscribed circle per ASME B89.3.1). Typical roundness tolerance for precision shafts: 2-5 μm total out-of-roundness.
 
 **Cylindricity**: Combination of roundness, straightness, and taper measured over the full length of a cylindrical feature. Measure roundness at multiple cross-sections along the cylinder length, then evaluate the envelope of all measurements. Cylindricity tolerance for precision bores (e.g., hydraulic cylinder bores): 5-10 μm total. Requires a cylindricity measuring instrument (precision spindle + vertical column with linear scale) or can be approximated with multiple roundness traces on a standard roundness meter.
@@ -191,7 +191,7 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 
 ### Measurement Uncertainty
 
-**[Every measurement has uncertainty](../glossary/every-measurement-has-uncertainty.html)** — the true value lies within a range around the reported value. Understanding and quantifying this uncertainty is essential for making reliable engineering decisions based on measurement data.
+**[Every measurement has uncertainty](../glossary/every-measurement-has-uncertainty.md)** — the true value lies within a range around the reported value. Understanding and quantifying this uncertainty is essential for making reliable engineering decisions based on measurement data.
 - **Sources of uncertainty**: Instrument resolution (± half the smallest division), instrument calibration error (traceable to calibration certificate), thermal expansion effects (if temperature deviates from 20°C reference), operator repeatability (different operators obtain different readings from the same instrument), and workpiece geometry (form errors, surface finish effects on contact measurement).
 - **Combining uncertainties**: For independent sources, the combined standard uncertainty is the root-sum-square of individual contributions: u_combined = √(u₁² + u₂² + ... + uₙ²). Expand to a 95% confidence interval by multiplying by a coverage factor k = 2: U = 2 × u_combined. Example: a 25.000 mm gauge block measured with a micrometer (resolution ±0.005 mm, calibration ±0.002 mm, thermal ±0.003 mm at 22°C) has combined uncertainty u = √(0.005² + 0.002² + 0.003²) = 0.006 mm, expanded uncertainty U = ±0.012 mm (95% confidence).
 - **Decision rule**: Accept a part if the measurement plus its uncertainty falls entirely within the tolerance zone. Reject if the measurement minus its uncertainty falls entirely outside. If uncertainty overlaps the tolerance boundary, the result is inconclusive — use a more precise instrument or accept the risk of misclassification.

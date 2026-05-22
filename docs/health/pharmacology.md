@@ -20,7 +20,7 @@
 
 ### Dosage Forms
 
-**[Tinctures](../glossary/tinctures.html)** (ethanol-based extracts):
+**[Tinctures](../glossary/tinctures.md)** (ethanol-based extracts):
 - Prepare by maceration or percolation with 40-70% ethanol. Standard ratios: 1:5 (1 g plant per 5 mL solvent) for dried herbs; 1:2 for fresh herbs (higher water content). Let steep 14+ days, shake daily. Decant, press residue, filter. Dose: typically 1-5 mL diluted in water. Example: iodine tincture (5% I₂, 10% KI in 70% ethanol).
 
 **Powders**:
@@ -36,7 +36,7 @@
 
 ### Key Drug Categories
 
-**[Analgesics](../glossary/analgesics.html)** (see medicine.md for clinical use):
+**[Analgesics](../glossary/analgesics.md)** (see medicine.md for clinical use):
 - Willow bark: salicin extraction by water decoction (30 g bark per 500 mL). Later acetylated to aspirin at 85°C with acetic anhydride.
 - Opium: morphine extraction — dissolve opium in hot water, precipitate with NaOH, re-dissolve in HCl, recrystallize morphine hydrochloride. Highly addictive — controlled use only.
 
@@ -44,7 +44,7 @@
 - Cinchona bark: quinine extracted by hot water decoction. Dose 8-10 g bark daily for malaria. Later purified to quinine sulfate tablets.
 - Artemisinin: from Artemisia annua (sweet wormwood). Extract with low-polarity solvent at <60°C (compound degrades with heat). Potent antimalarial — Nobel Prize 2015.
 
-**[Antiseptics](../glossary/antiseptics.html)** (see medicine.md for clinical application):
+**[Antiseptics](../glossary/antiseptics.md)** (see medicine.md for clinical application):
 - Ethanol: 60-70% concentration optimal (denatures proteins, disrupts cell membranes). 95% ethanol less effective — insufficient water penetration into cells.
 - Iodine: 2-7% I₂ in ethanol with KI (potassium iodide keeps iodine in solution). Broad-spectrum antiseptic.
 - Hydrogen peroxide: 3% solution for wound cleaning. Produced by electrolysis of sulfuric acid followed by vacuum distillation.
@@ -58,7 +58,7 @@
 - **Oral**: Simplest. Tinctures, powders, pills, decoctions. First-pass metabolism reduces bioavailability (drug passes through liver before systemic circulation).
 - **Topical**: Ointments, salves, tinctures applied to skin or mucous membranes. Local effect. Limited systemic absorption.
 - **Inhalation**: Volatile anesthetics (ether, chloroform) via cloth mask or vaporizer. Rapid onset — direct to lungs to blood to brain.
-- **[Injection](../glossary/injection.html)** (advanced — requires glass syringes + needles): Intravenous (immediate onset), intramuscular (sustained release). Sterile technique mandatory. Hypodermic needle: drawn-glass syringe + steel needle (requires precision metalworking).
+- **[Injection](../glossary/injection.md)** (advanced — requires glass syringes + needles): Intravenous (immediate onset), intramuscular (sustained release). Sterile technique mandatory. Hypodermic needle: drawn-glass syringe + steel needle (requires precision metalworking).
 
 ### Quality Control
 
@@ -136,11 +136,11 @@
 - **Base selection**: Cocoa butter (theobroma oil) melts at 30-35°C (just below body temperature). Pour melted base into molds, refrigerate to set. For drugs that interact with cocoa butter, use glycerinated gelatin (gelatin + glycerin + water, dissolves rather than melts at body temperature).
 - **Drug incorporation**: Dissolve or disperse the drug in the melted base at the lowest temperature that keeps the base liquid. Pour into metal or plastic molds. Each mold cavity holds 1-2 g. Cool rapidly to prevent drug settling. Wrap individually in foil or wax paper.
 
-**[Capsule preparation](../glossary/capsule-preparation.html)** (requires gelatin):
+**[Capsule preparation](../glossary/capsule-preparation.md)** (requires gelatin):
 - **Hard gelatin capsules**: Two-piece cylindrical shells (cap and body) made from gelatin, water, and plasticizer. Fill body with powdered drug mixture by hand or semi-automatic machine. Cap slips over body to seal. Available in sizes 000 (largest, ~1.4 mL) to 5 (smallest, ~0.13 mL). For doses too large for one capsule, divide into multiple capsules.
 - **Gelatin production**: Hydrolyze animal collagen (skin, bone, connective tissue) in dilute acid (Type A, porcine) or dilute alkali (Type B, bovine) for 12-48 hours. Extract gelatin by heating the treated collagen in water at 60-80°C. Filter, concentrate, dry to sheets or powder.
 
-**[Sterile preparation](../glossary/sterile-preparation.html)** (for injectable drugs):
+**[Sterile preparation](../glossary/sterile-preparation.md)** (for injectable drugs):
 - **Glass ampoules**: Seal drug solution in glass ampoules (drawn glass tube, flame-sealed). Autoclave at 121°C for 15 minutes to sterilize. Break ampoule neck to open. Use once, discard.
 - **Rubber-stoppered vials**: Multi-dose vials with rubber stopper penetrated by hypodermic needle. Preservative (benzyl alcohol 0.9% or phenol 0.5%) prevents bacterial growth after first puncture. Sterilize by autoclaving after filling and sealing.
 

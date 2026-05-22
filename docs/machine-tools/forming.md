@@ -9,7 +9,7 @@
 
 Metal forming reshapes solid metal through plastic deformation — applying force at controlled temperatures to change cross-section, bend, or elongate stock without removing material. Forming retains nearly 100% of the workpiece mass and produces the bar stock, sheet, wire, and shaped blanks that feed every downstream process: machine tools, construction, electrical wiring, and mechanisms.
 
-The critical variables are **temperature** (hot vs cold working), **[force](../glossary/force.html)** (hammer, press, or roll), and **[reduction ratio](../glossary/reduction-ratio.html)** (how much cross-section changes per pass). Metals deform more easily when hot — yield strength drops by 60-80% above recrystallization temperature.
+The critical variables are **temperature** (hot vs cold working), **[force](../glossary/force.md)** (hammer, press, or roll), and **[reduction ratio](../glossary/reduction-ratio.md)** (how much cross-section changes per pass). Metals deform more easily when hot — yield strength drops by 60-80% above recrystallization temperature.
 
 ### Forging Temperatures by Metal
 
@@ -28,41 +28,41 @@ Below these ranges, metal work-hardens rapidly and may crack. Above them, the me
 
 ### Forge Work
 
-**[Open-die forging](../glossary/open-die-forging.html)** (hand forging): Smith heats stock in a charcoal forge, positions on anvil, strikes with hammers or sledges. Shape controlled by hammer placement, stock rotation, and tooling (swages, fullers, flatters).
+**[Open-die forging](../glossary/open-die-forging.md)** (hand forging): Smith heats stock in a charcoal forge, positions on anvil, strikes with hammers or sledges. Shape controlled by hammer placement, stock rotation, and tooling (swages, fullers, flatters).
 - **Drawing out**: Hammer along the length to reduce cross-section and elongate. Rotate 90° every few blows for square section.
 - **Upsetting**: Hammer on end to thicken cross-section. Risk of buckling if length > 3× diameter.
 - **Bending**: Heat bend zone, hammer over anvil horn. Minimum radius ~2× stock thickness.
 - **Punching and drifting**: Drive punch through hot metal, enlarge with drift. Punch from both sides to meet in middle for cleaner holes.
 
-**[Closed-die forging](../glossary/closed-die-forging.html)** (impression forging): Metal compressed between shaped dies containing the negative of the desired part. Flash (excess) squeezes out at parting line and is trimmed. Requires dies machined to tolerance (see [Iterative Bootstrap](./iterative-bootstrap.md)). Advantages: repeatable parts, good grain flow, near-net shape. Used for connecting rods, gear blanks, wrenches.
+**[Closed-die forging](../glossary/closed-die-forging.md)** (impression forging): Metal compressed between shaped dies containing the negative of the desired part. Flash (excess) squeezes out at parting line and is trimmed. Requires dies machined to tolerance (see [Iterative Bootstrap](./iterative-bootstrap.md)). Advantages: repeatable parts, good grain flow, near-net shape. Used for connecting rods, gear blanks, wrenches.
 
 ### Hammer Forming
 
-**[Sledge hammer](../glossary/sledge-hammer.html)** (4–8 kg, two-handed): The fundamental heavy forging tool. One person holds work with tongs; a striker delivers sledge blows. Effective for drawing out bars 25–75 mm square, upsetting ends, driving punches. Blow force: ~10–25 kN.
+**[Sledge hammer](../glossary/sledge-hammer.md)** (4–8 kg, two-handed): The fundamental heavy forging tool. One person holds work with tongs; a striker delivers sledge blows. Effective for drawing out bars 25–75 mm square, upsetting ends, driving punches. Blow force: ~10–25 kN.
 
-**[Power hammer](../glossary/power-hammer.html)** (mechanized forging):
+**[Power hammer](../glossary/power-hammer.md)** (mechanized forging):
 - **Helve hammer**: Beam pivoted at one end, hammer head at the other. Raised by cam on water-wheel shaft, falls by gravity. Stroke 30–60 cm, 50–150 kg blow equivalent. The first mechanized forging tool.
 - **Tilt hammer**: Similar but tail is lifted. 80–200 blows/minute in early water-powered forges.
-- **[Spring helve hammer](../glossary/spring-helve-hammer.html)** (intermediate build): Heavy timber frame, 15–40 kg head on leaf spring. Crank-driven, 150–300 blows/minute. Constructable with basic machine tools.
-- **[Steam or air hammer](../glossary/steam-or-air-hammer.html)** (later): 500–5000 kg capacity. Requires [Steam Power](../energy/steam-power.md).
+- **[Spring helve hammer](../glossary/spring-helve-hammer.md)** (intermediate build): Heavy timber frame, 15–40 kg head on leaf spring. Crank-driven, 150–300 blows/minute. Constructable with basic machine tools.
+- **[Steam or air hammer](../glossary/steam-or-air-hammer.md)** (later): 500–5000 kg capacity. Requires [Steam Power](../energy/steam-power.md).
 
 ### Rolling Mill
 
 Rolling reduces cross-section of heated metal by passing it between counter-rotating rolls. Each pass reduces thickness 10–30% and elongates proportionally.
 
-**[Hand-operated rolling mill](../glossary/hand-operated-rolling-mill.html)** (the bootstrap starting point):
+**[Hand-operated rolling mill](../glossary/hand-operated-rolling-mill.md)** (the bootstrap starting point):
 - Two hardened steel or cast iron rolls, 75–150 mm diameter, 150–300 mm face length. Mounted in a cast iron or fabricated steel frame with adjustable gap (screw-down mechanism).
 - Drive: hand crank or foot treadle through gear reduction (3:1 to 6:1). Two operators — one cranks, one feeds stock.
 - Capacity: hot rolling of copper, bronze, and soft iron bar up to ~10 mm thick. Cold rolling of copper and brass sheet to ~1 mm.
 - Roll pressure: 50–150 kN for hot steel at 15–20% reduction.
 
-**[Powered rolling mill](../glossary/powered-rolling-mill.html)** (water wheel or engine):
+**[Powered rolling mill](../glossary/powered-rolling-mill.md)** (water wheel or engine):
 - Rolls 200–400 mm diameter, 400–800 mm face. Drive via gears or belt from water wheel (3–10 HP minimum).
 - Can roll iron bar from 50 mm square bloom down to 10 mm round in 6–10 passes, reheating between passes.
 - **Reduction per pass**: 15–25% for hot steel. Greater reduction causes excessive roll force and uneven deformation.
 - **Roll material**: Cast iron for copper/brass. Forged or cast steel for iron/steel. Rolls must be harder than the workpiece.
 
-**[Sheet rolling](../glossary/sheet-rolling.html)** (flat sheet from ingot):
+**[Sheet rolling](../glossary/sheet-rolling.md)** (flat sheet from ingot):
 1. Cast ingot (copper, brass, or steel) 20–40 mm thick. Soak at forging temperature 30–60 min.
 2. Pass through rolls, reduce 2–3 mm per pass. Rotate 180° between passes for even reduction.
 3. Reheat every 4–6 passes. Anneal at 500–700°C when reduction exceeds 40–50% from last anneal.
@@ -72,16 +72,16 @@ Rolling reduces cross-section of heated metal by passing it between counter-rota
 
 Wire drawing pulls metal rod through progressively smaller dies, reducing diameter and increasing length. Unlike rolling, wire drawing is done cold.
 
-**[Draw plate](../glossary/draw-plate.html)** (the bootstrap tool): Hardened high-carbon steel (0.8–1.0% C) plate, 10–25 mm thick, with tapered holes graduating in size (e.g., 8.0 mm down to 1.0 mm in 0.5 mm steps). Each hole: ~30° included angle entrance, short straight bearing section (~1× diameter), back-relief.
+**[Draw plate](../glossary/draw-plate.md)** (the bootstrap tool): Hardened high-carbon steel (0.8–1.0% C) plate, 10–25 mm thick, with tapered holes graduating in size (e.g., 8.0 mm down to 1.0 mm in 0.5 mm steps). Each hole: ~30° included angle entrance, short straight bearing section (~1× diameter), back-relief.
 
 **Procedure**:
 1. **Point the rod**: File one end to a taper that fits through the first die.
 2. **Lubricate**: Apply tallow, beeswax, or soap solution. Without lubrication, rod galls and sticks in die.
-3. **[Pull through die](../glossary/pull-through-die.html)** with tongs or draw bench hook (chain drive with 0.5–1 m lever arm for wire > 2 mm). Pull force: 5–30 kN.
+3. **[Pull through die](../glossary/pull-through-die.md)** with tongs or draw bench hook (chain drive with 0.5–1 m lever arm for wire > 2 mm). Pull force: 5–30 kN.
 4. **Anneal** every 3–5 passes at 500–700°C for copper, 650–800°C for iron. Work hardening makes wire brittle without annealing.
 5. **Reduction per pass**: 15–25% area reduction. Total from rod to finished wire: 80–95% area reduction.
 
-**[Fine wire](../glossary/fine-wire.html)** (< 1 mm): Use draw bench with capstan (rotating drum). Speed 30–100 m/min for copper. Dies are tungsten carbide inserts. Copper wire down to 0.1 mm achievable — the wire for [electromagnetic coils](../energy/electricity.md).
+**[Fine wire](../glossary/fine-wire.md)** (< 1 mm): Use draw bench with capstan (rotating drum). Speed 30–100 m/min for copper. Dies are tungsten carbide inserts. Copper wire down to 0.1 mm achievable — the wire for [electromagnetic coils](../energy/electricity.md).
 
 ### Sheet Metal Forming
 
@@ -115,7 +115,7 @@ Cold working accumulates strain, increasing hardness and reducing ductility. Ann
 
 ### Press Brake Forming
 
-**[Tonnage calculation](../glossary/tonnage-calculation.html)** for V-die bending: P = 650 × S² × L / V, where P = bending force (kN), S = sheet thickness (mm), L = bend length (mm), V = V-die opening width (mm). For example, bending 3 mm mild steel sheet 1000 mm long in a 24 mm V-die requires P = 650 × 9 × 1000 / 24 = 243.75 kN (~25 tonnes). The V-die opening is selected as V = 6-12 × S for mild steel; wider openings reduce tonnage but increase the inside bend radius.
+**[Tonnage calculation](../glossary/tonnage-calculation.md)** for V-die bending: P = 650 × S² × L / V, where P = bending force (kN), S = sheet thickness (mm), L = bend length (mm), V = V-die opening width (mm). For example, bending 3 mm mild steel sheet 1000 mm long in a 24 mm V-die requires P = 650 × 9 × 1000 / 24 = 243.75 kN (~25 tonnes). The V-die opening is selected as V = 6-12 × S for mild steel; wider openings reduce tonnage but increase the inside bend radius.
 
 **Springback compensation**: After bending, elastic recovery causes the actual bend angle to spring back 2-5° from the formed angle in mild steel and 5-10° in aluminum alloys. Compensate by overbending past the target angle. For a 90° bend in aluminum, set the ram to approximately 97°. Higher yield strength materials exhibit more springback; the effect decreases with larger bend radius relative to sheet thickness.
 
@@ -125,19 +125,19 @@ Cold working accumulates strain, increasing hardness and reducing ductility. Ann
 
 ### Roll Forming
 
-**[Progressive roll forming](../glossary/progressive-roll-forming.html)** produces long, continuous profiles from flat strip stock. The strip passes through 3-20 paired roller stations arranged in line, each station making a small incremental bend of 10-20°. Line speed: 1-2 m/min for heavy gauge material, up to 30 m/min for light gauge. The process suits high-volume production of uniform cross-sections: C-channels, hat sections, corrugated roofing panel profiles. Tooling cost is high (each station requires a matched pair of profiled rolls machined to match the incremental bend angle), but per-part cost drops rapidly once the line is set up and running.
+**[Progressive roll forming](../glossary/progressive-roll-forming.md)** produces long, continuous profiles from flat strip stock. The strip passes through 3-20 paired roller stations arranged in line, each station making a small incremental bend of 10-20°. Line speed: 1-2 m/min for heavy gauge material, up to 30 m/min for light gauge. The process suits high-volume production of uniform cross-sections: C-channels, hat sections, corrugated roofing panel profiles. Tooling cost is high (each station requires a matched pair of profiled rolls machined to match the incremental bend angle), but per-part cost drops rapidly once the line is set up and running.
 
 **Roll design considerations**: Each station pair consists of a top roll and bottom roll with matching profile contours. The strip enters flat at station 1 and exits fully formed at the last station. Roll material is hardened tool steel (D2 or equivalent) for wear resistance on long production runs. Roller alignment is critical: lateral misalignment exceeding 0.1 mm per station accumulates through the line and produces a twisted profile at exit. Straightening rolls at the end of the line correct minor angular and curvature deviations in the finished section.
 
 ### Stamping Press Types
 
-**[Mechanical press](../glossary/mechanical-press.html)** (crank or eccentric drive): A flywheel stores rotational energy, and a crank mechanism converts it to a linear ram stroke. Tonnage range: 10-2,000 tons. Stroke rate: 30-600 strokes per minute for progressive die work. The crank press delivers peak force at bottom dead center; the eccentric gear press provides a more uniform force curve through the stroke. Mechanical presses suit blanking, piercing, bending, and shallow drawing where cycle speed is more important than full-stroke force control.
+**[Mechanical press](../glossary/mechanical-press.md)** (crank or eccentric drive): A flywheel stores rotational energy, and a crank mechanism converts it to a linear ram stroke. Tonnage range: 10-2,000 tons. Stroke rate: 30-600 strokes per minute for progressive die work. The crank press delivers peak force at bottom dead center; the eccentric gear press provides a more uniform force curve through the stroke. Mechanical presses suit blanking, piercing, bending, and shallow drawing where cycle speed is more important than full-stroke force control.
 
 **Hydraulic press**: Oil at 100-300 bar drives one or more pistons. Tonnage range: 20-10,000 tons. Full rated tonnage is available at any point in the stroke, not just at bottom dead center. Ram speed is adjustable from 0.5-50 mm/s. Slower cycle times than mechanical presses but superior for deep drawing and forming operations that require controlled force over a long distance. The hydraulic system provides inherent overload protection: a relief valve opens at a set pressure, preventing die damage from accidental overload.
 
 **Die materials matched to production volume**:
-- **[A2 tool steel](../glossary/a2-tool-steel.html)** (air-hardening, 5% chromium): Balanced toughness and wear resistance. Die life approximately 50,000 parts. Suitable for medium production runs where the cost of higher-grade tool steel is not justified. Air hardening minimizes distortion during heat treatment, simplifying post-hardening finishing.
-- **[D2 tool steel](../glossary/d2-tool-steel.html)** (high-carbon, high-chromium: 1.5% C, 12% Cr): Hard chromium carbides provide excellent abrasive wear resistance. Hardened to 58-62 HRC after austenitizing at 1010-980°C and air quenching. Die life 100,000+ parts. The standard choice for most production stamping dies. Machining is difficult in the hardened state; all shaping is done before heat treatment, with only grinding and lapping after hardening.
+- **[A2 tool steel](../glossary/a2-tool-steel.md)** (air-hardening, 5% chromium): Balanced toughness and wear resistance. Die life approximately 50,000 parts. Suitable for medium production runs where the cost of higher-grade tool steel is not justified. Air hardening minimizes distortion during heat treatment, simplifying post-hardening finishing.
+- **[D2 tool steel](../glossary/d2-tool-steel.md)** (high-carbon, high-chromium: 1.5% C, 12% Cr): Hard chromium carbides provide excellent abrasive wear resistance. Hardened to 58-62 HRC after austenitizing at 1010-980°C and air quenching. Die life 100,000+ parts. The standard choice for most production stamping dies. Machining is difficult in the hardened state; all shaping is done before heat treatment, with only grinding and lapping after hardening.
 - **Tungsten carbide inserts**: Used for high-wear die components (punch tips, die bushings). Hardness 85-92 HRA, far exceeding any steel. Die life 1,000,000+ parts. Carbide is brittle and requires steel backup plates to absorb shock. The high material cost and grinding-intensive fabrication justify carbide tooling only at production volumes above 500,000 parts.
 
 ### Deep Drawing

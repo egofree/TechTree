@@ -1,0 +1,5 @@
+# Year 3-4
+
+> **Type**: material | **Tier**: important | **Domains**: knowledge
+
+Advanced algebra, trigonometry, basic chemistry (elements, compounds, reactions), mechanics (forces, levers, pulleys) - **Year 5-6**: Calculus, thermodynamics, electromagnetism, analytical chemistry, material properties - **Year 7+**: Specialization (metallurgy, semiconductor physics, chemical engineering, electrical engineering)

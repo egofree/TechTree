@@ -9,20 +9,20 @@
 
 ### Advanced Glass Production
 
-**[Borosilicate glass](../glossary/borosilicate-glass.html)** (Pyrex-type — thermal shock resistant):
+**[Borosilicate glass](../glossary/borosilicate-glass.md)** (Pyrex-type — thermal shock resistant):
 - **Composition**: 70-80% SiO₂, 7-13% B₂O₃ (boron trioxide from borax or boric acid), 4-8% Na₂O, 2-7% Al₂O₃. Thermal expansion coefficient ~3×10⁻⁶/°C (vs. soda-lime glass ~9×10⁻⁶/°C — 3x more resistant to thermal shock).
 - **Boron sources**: Borax (Na₂B₄O₇·10H₂O) from dry lake deposits (Turkey, California, Tibet). Dissolve in water, crystallize. Or boric acid (H₃BO₃) from borax + acid.
 - **Melting**: Mix batch, melt in covered crucible at 1500-1600°C (higher than soda-lime glass). Requires gas or oil-fired furnace with forced air, or electric furnace. 12-24 hours for complete homogenization. Stir with fired clay rod.
 - **Working properties**: Stiffer than soda-lime glass. Working range 800-1100°C. Annealing at 560°C. Cool slowly (6-12 hours from annealing to room temperature).
 - **Applications**: Laboratory glassware (beakers, flasks, distillation columns), chemical apparatus (resists most acids, alkalis at moderate temperatures), telescope mirror blanks, bakeware.
 
-**[Fused silica / quartz glass](../glossary/fused-silica-quartz-glass.html)** (critical for semiconductor crucibles):
+**[Fused silica / quartz glass](../glossary/fused-silica-quartz-glass.md)** (critical for semiconductor crucibles):
 - **Composition**: 100% SiO₂. No flux. Melting point ~1700°C (actually softens gradually, no sharp melting point — it's a glass).
 - **Raw material**: High-purity quartz crystal (>99.5% SiO₂). Clear, inclusion-free. Mine from pegmatite veins or high-grade quartzite.
 - **Production methods**:
   - **Type I (fused quartz)**: Melt natural quartz crystal in electric furnace (resistance-heated graphite or tungsten crucible, 1700-2000°C) under vacuum or inert atmosphere. Produces translucent or transparent fused silica. Bubble-free material requires vacuum degassing during melt.
   - **Type II (fused silica from flame)**: Feed quartz powder into hydrogen-oxygen flame (~2000°C). Particles fuse into clear boule. Very pure (flame volatilizes some impurities). Requires H₂ and O₂ (from the Energy stage electrolysis).
-  - **[Synthetic fused silica](../glossary/synthetic-fused-silica.html)** (highest purity): Burn SiCl₄ in H₂/O₂ flame → SiO₂ deposits as soot → consolidate at 1500°C. 99.9999%+ purity. Requires chlorosilane chemistry from the Silicon stage.
+  - **[Synthetic fused silica](../glossary/synthetic-fused-silica.md)** (highest purity): Burn SiCl₄ in H₂/O₂ flame → SiO₂ deposits as soot → consolidate at 1500°C. 99.9999%+ purity. Requires chlorosilane chemistry from the Silicon stage.
 - **Properties**: Thermal expansion 0.5×10⁻⁶/°C (virtually immune to thermal shock — can be heated red-hot and plunged into water). Transparent from UV (180 nm) through visible to IR (3.5 μm). Softening point ~1600°C. Working range 1800-2100°C.
 - **Working**: Requires hydrogen-oxygen torch (~2800°C flame temperature). Oxy-acetylene produces a hotter flame (~3100°C) but introduces carbon contamination; hydrogen-oxygen is preferred for purity (only combustion product is water vapor). Graphite tools for shaping (won't stick to silica). Patience — silica is very viscous even at working temperature.
 - **Applications**: CZ crystal growth crucibles (consumable — dissolves slowly in molten silicon), UV optics, high-temperature windows, optical fiber preforms (much later).
@@ -36,7 +36,7 @@
 
 ### Glassblowing & Scientific Apparatus
 
-**[Lampworking](../glossary/lampworking.html)** (bench-scale glassblowing with torch):
+**[Lampworking](../glossary/lampworking.md)** (bench-scale glassblowing with torch):
 - **Torch**: Gas-air (moderate temperature, ~1200°C) for soft glass. Gas-oxygen (~2000°C) for borosilicate. Propane-oxygen for quartz.
 - **Basic operations**: Rotate tubing in flame to heat evenly. Pull to draw thin walls or capillary. Push to thicken. Blow (by mouth through tube) to expand. Score and break to cut. Fuse joints by heating overlapping pieces.
 - **Standard apparatus**:
@@ -47,14 +47,14 @@
   - **Vacuum manifold**: Complex assembly with multiple ports, stopcocks, and connection points for vacuum line distribution.
 - **Annealing**: ALL glass apparatus must be annealed after working. Residual stress from uneven cooling causes spontaneous fracture (sometimes weeks later). Place in annealing oven at appropriate temperature (560°C for borosilicate), hold 30-60 minutes, cool at 1-2°C/minute to below strain point.
 
-**[Quartz crucible manufacturing](../glossary/quartz-crucible-manufacturing.html)** (for CZ crystal growth):
+**[Quartz crucible manufacturing](../glossary/quartz-crucible-manufacturing.md)** (for CZ crystal growth):
 - **Raw material**: High-purity SiO₂ (>99.99%) from refined quartz crystal or synthetic fused silica. Impurities (especially Al, Fe, Na) must be below ppm levels — they dissolve into molten silicon and dope the crystal uncontrollably.
 - **Slip casting method**: Prepare quartz powder slurry (SiO₂ + water + deflocculant). Pour into porous plaster mold shaped as crucible interior. Water absorbed by plaster leaves dense powder shell. Demold after 1-4 hours. Air dry 24-48 hours.
 - **Isostatic pressing method**: Fill quartz powder into rubber bag shaped as crucible exterior. Apply hydraulic pressure (100-200 MPa) uniformly. Produces denser, more uniform green body than slip casting.
 - **Sintering**: Fire dried green body in electric furnace at 1700-1800°C under vacuum or inert atmosphere. Holds 2-8 hours. Shrinkage ~15-20%. Transparency of finished crucible directly indicates purity — cloudy or opaque regions contain bubbles, crystalline inclusions, or impurities.
 - **Final dimensions**: Wall thickness 5-10 mm, diameter 200-450 mm for semiconductor use. Thicker walls last longer in CZ pull but reduce thermal responsiveness. Handle with clean gloves — surface contamination transfers to silicon melt.
 
-**[Glass tubing production — Danner process](../glossary/glass-tubing-production-danner-process.html)** (continuous):
+**[Glass tubing production — Danner process](../glossary/glass-tubing-production-danner-process.md)** (continuous):
 - Molten glass flows from furnace forehearth onto a rotating inclined refractory mandrel (hollow ceramic cylinder, tilted ~15° from horizontal, rotating at 5-20 RPM). Glass wraps around mandrel forming a ribbon.
 - Air blown through hollow mandrel center inflates the glass ribbon into a tube. Air pressure and draw speed control inner diameter. Mandrel diameter sets minimum bore.
 - Tube drawn off continuously by tractor belts or rollers at controlled speed (1-20 m/min). Speed determines wall thickness — faster draw = thinner walls.
@@ -72,7 +72,7 @@
 
 Optical glass demands exceptional homogeneity (no striae, bubbles, or compositional variation) and precisely controlled refractive index. The tolerances are far tighter than for container or window glass.
 
-**[Continuous melting](../glossary/continuous-melting.html)** (production method for optical glass):
+**[Continuous melting](../glossary/continuous-melting.md)** (production method for optical glass):
 - Raw materials batched to ±0.01% accuracy (vs. ±2% for container glass). Weighing errors shift the refractive index outside specification.
 - Melt in a platinum-lined tank furnace. Platinum is inert and introduces no contamination, unlike clay crucibles which dissolve slowly into the glass. Tank capacity: 100-500 liters for optical grades.
 - Mechanical stirring throughout the melt: platinum paddle stirrer at 5-20 RPM, run continuously for 8-24 hours. Stirring eliminates striae (compositional layers that refract light unevenly). Without stirring, convection currents in the melt create layers of slightly different composition.
@@ -114,7 +114,7 @@ Concave mirrors for telescopes and reflectors require a parabolic surface (or sp
 Prisms require flat surfaces at precise angles:
 
 - **Right-angle prism**: Two 45° faces and one 90° face. Grind each face flat (see flat surface production below), then bevel the edges at 45° to form the hypotenuse face. Angular tolerance: ±5 arc-minutes for standard work, ±30 arc-seconds for precision optics.
-- **[Equilateral prism](../glossary/equilateral-prism.html)** (60° angles): Used for dispersion spectroscopy. The three faces must be flat to λ/4 and angles equal to within ±2 arc-minutes.
+- **[Equilateral prism](../glossary/equilateral-prism.md)** (60° angles): Used for dispersion spectroscopy. The three faces must be flat to λ/4 and angles equal to within ±2 arc-minutes.
 - **Testing**: Measure angles with an autocollimator (telescope with a built-in light source that reflects off the prism face). Check flatness by placing the prism face against an optical flat (see below) and counting interference fringes under monochromatic light.
 
 ### Flat Surface Production
@@ -154,9 +154,9 @@ Glass-to-metal seals are critical for vacuum tubes, electrical feedthroughs, and
 
 Different glass compositions serve different optical purposes. The key properties are refractive index (RI) and dispersion (Abbe number):
 
-- **[Crown glass](../glossary/crown-glass.html)** (low dispersion): Soda-lime or borosilicate base, RI 1.50-1.54, Abbe number 55-65. Used for the convex (positive) elements in achromatic lens doublets. The low dispersion means it bends different wavelengths of light nearly equally, reducing chromatic aberration.
-- **[Flint glass](../glossary/flint-glass.html)** (high dispersion): Lead glass base, RI 1.58-1.72, Abbe number 25-40. Used for the concave (negative) element in achromatic doublets. The high RI allows a shallower curve for the same optical power, reducing spherical aberration. The combination of a crown convex and flint concave element, cemented together, produces an achromatic lens that focuses two wavelengths to the same point.
-- **[ED glass](../glossary/ed-glass.html)** (extra-low dispersion): Borosilicate with rare earth oxides (lanthanum, La₂O₃), RI 1.65-1.80, Abbe number 45-55. Further reduces chromatic aberration in apochromatic lens designs. Requires rare earth element extraction from monazite or bastnäsite ores.
+- **[Crown glass](../glossary/crown-glass.md)** (low dispersion): Soda-lime or borosilicate base, RI 1.50-1.54, Abbe number 55-65. Used for the convex (positive) elements in achromatic lens doublets. The low dispersion means it bends different wavelengths of light nearly equally, reducing chromatic aberration.
+- **[Flint glass](../glossary/flint-glass.md)** (high dispersion): Lead glass base, RI 1.58-1.72, Abbe number 25-40. Used for the concave (negative) element in achromatic doublets. The high RI allows a shallower curve for the same optical power, reducing spherical aberration. The combination of a crown convex and flint concave element, cemented together, produces an achromatic lens that focuses two wavelengths to the same point.
+- **[ED glass](../glossary/ed-glass.md)** (extra-low dispersion): Borosilicate with rare earth oxides (lanthanum, La₂O₃), RI 1.65-1.80, Abbe number 45-55. Further reduces chromatic aberration in apochromatic lens designs. Requires rare earth element extraction from monazite or bastnäsite ores.
 
 ### Glass Storage and Handling
 

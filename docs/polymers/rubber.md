@@ -16,8 +16,8 @@ Rubber is unique among engineering materials — it combines high elasticity (el
 Latex from the rubber tree (*Hevea brasiliensis*) is the primary commercial source. Trees are tapped by making a diagonal spiral cut through the bark to the cambium layer, and the milky latex (30-40% rubber hydrocarbon) drips into collection cups. Each tapping yields 20-50 g of dry rubber; a productive plantation tree gives 2-5 kg/year over a 20-30 year productive life.
 
 Temperate alternatives exist where *Hevea* cannot grow:
-- **[Guayule](../glossary/guayule.html)** (*Parthenium argentatum*): Shrub of the arid southwestern US and Mexico. Harvest whole shrubs, crush, and extract rubber by flotation in water.
-- **[Russian dandelion](../glossary/russian-dandelion.html)** (*Taraxacum kok-saghyz*): Rubber extracted from roots. Small-scale but viable in temperate climates.
+- **[Guayule](../glossary/guayule.md)** (*Parthenium argentatum*): Shrub of the arid southwestern US and Mexico. Harvest whole shrubs, crush, and extract rubber by flotation in water.
+- **[Russian dandelion](../glossary/russian-dandelion.md)** (*Taraxacum kok-saghyz*): Rubber extracted from roots. Small-scale but viable in temperate climates.
 
 See [Natural Rubber & Vulcanization](./natural.md) for detailed tapping techniques, alternative sources, and latex chemistry.
 
@@ -79,7 +79,7 @@ The rubber tree (*Hevea brasiliensis*) is native to the Amazon basin but is cult
 
 ### Coagulation Detail
 
-**[Formic acid coagulation](../glossary/formic-acid-coagulation.html)** is the standard industrial method. Add formic acid (HCOOH) at 0.5% by weight of the latex. The acid neutralizes the negatively charged protein layer surrounding each rubber particle (pH drops from ~6.5 to ~4.5-5.0), destabilizing the colloidal emulsion. Rubber particles agglomerate into a coherent soft mass (coagulum).
+**[Formic acid coagulation](../glossary/formic-acid-coagulation.md)** is the standard industrial method. Add formic acid (HCOOH) at 0.5% by weight of the latex. The acid neutralizes the negatively charged protein layer surrounding each rubber particle (pH drops from ~6.5 to ~4.5-5.0), destabilizing the colloidal emulsion. Rubber particles agglomerate into a coherent soft mass (coagulum).
 
 - **Process**: Add acid to latex in long rectangular coagulation tanks (aluminum or ceramic-lined). Stir briefly to distribute acid evenly. Let stand 4-6 hours (accelerated method) or 12-16 hours (traditional overnight method). The coagulum floats as a solid slab above the serum.
 - **Alternative coagulants**: Acetic acid (CH₃COOH, white vinegar) at equivalent concentration — slower coagulation but more widely available. Alum (aluminum potassium sulfate) is used in some regions. Sodium metabisulfite produces pale-colored rubber for premium grades.
@@ -138,8 +138,8 @@ After coagulation, the rubber slab is passed through a sheeting mill — a serie
 **Labor**: Tapping is labor-intensive and resists full mechanization — the precision cut must be made by a skilled worker who adjusts depth and angle to avoid damaging the cambium. A tapper processes 200-300 trees in a 3-4 hour morning shift. Labor costs represent 50-60% of total rubber production cost in most producing regions.
 
 **Alternative rubber sources** for non-tropical latitudes:
-- **[Guayule](../glossary/guayule.html)** (*Parthenium argentatum*): Perennial shrub, 60-100 cm tall, native to the Chihuahuan Desert (US Southwest, northern Mexico). Whole shrub harvested every 2-3 years (regrows from root crown). Rubber content: 5-10% of dry weight in bark tissue. Extraction: grind whole shrub, float rubber in water (density separation — rubber floats at ~0.92, plant material sinks). Yield: 500-1000 kg/ha/year (lower than Hevea but achievable in arid, non-tropical regions). Guayule rubber has nearly identical properties to Hevea rubber — both are cis-1,4-polyisoprene.
-- **[Russian dandelion](../glossary/russian-dandelion.html)** (*Taraxacum kok-saghyz*): Rubber extracted from roots (5-15% rubber by dry weight). Annual crop, harvest roots after 1-2 growing seasons. Small-scale but proven — the USSR produced ~3000 tonnes/year from dandelion during WWII when Hevea supplies were cut off. Yield: 150-500 kg/ha/year (much lower than Hevea). Root processing: grind, extract rubber with solvent or mechanical separation.
+- **[Guayule](../glossary/guayule.md)** (*Parthenium argentatum*): Perennial shrub, 60-100 cm tall, native to the Chihuahuan Desert (US Southwest, northern Mexico). Whole shrub harvested every 2-3 years (regrows from root crown). Rubber content: 5-10% of dry weight in bark tissue. Extraction: grind whole shrub, float rubber in water (density separation — rubber floats at ~0.92, plant material sinks). Yield: 500-1000 kg/ha/year (lower than Hevea but achievable in arid, non-tropical regions). Guayule rubber has nearly identical properties to Hevea rubber — both are cis-1,4-polyisoprene.
+- **[Russian dandelion](../glossary/russian-dandelion.md)** (*Taraxacum kok-saghyz*): Rubber extracted from roots (5-15% rubber by dry weight). Annual crop, harvest roots after 1-2 growing seasons. Small-scale but proven — the USSR produced ~3000 tonnes/year from dandelion during WWII when Hevea supplies were cut off. Yield: 150-500 kg/ha/year (much lower than Hevea). Root processing: grind, extract rubber with solvent or mechanical separation.
 
 ### Dry Rubber Grades
 

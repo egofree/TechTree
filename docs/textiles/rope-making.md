@@ -12,13 +12,13 @@
 Rope quality depends on fiber choice. The ideal rope fiber is strong, long-staple, flexible, and resistant to degradation. No single fiber excels at all criteria — selection depends on application.
 
 - **Hemp**: Strongest traditional rope fiber (~50 MPa tensile strength). Long staple length allows tight twisting. Becomes stronger when wet (swells, fibers pack tighter — unique among plant fibers). Excellent resistance to rot and UV. Historically the dominant rope fiber for maritime, construction, and industrial applications. Primary rope fiber of the Age of Sail. Requires retting, breaking, scutching, and hackling before spinning (same processing as linen).
-- **[Manila/abaca](../glossary/manilaabaca.html)** (*Musa textilis*): Leaf fiber of a banana relative, grown primarily in the Philippines. Strong (slightly less than hemp, ~45 MPa), flexible, and excellent salt-water resistance. Does not swell significantly when wet (maintains dimensions and handling). Lighter than hemp for the same strength — the preferred maritime rope fiber where available. Fiber extracted by stripping the outer leaf sheath, scraping to separate fibers, and drying.
-- **[Sisal](../glossary/sisal.html)** (*Agave sisalana*): Leaf fiber of agave, widely grown in tropical and subtropical regions (Brazil, East Africa, Mexico). Moderate strength (~35 MPa), stiff and less flexible than hemp or manila. Shorter fiber length limits rope quality. Readily available and cheap. Acceptable for general-purpose rope, agricultural uses, and temporary applications. Degrades faster than hemp in outdoor exposure.
-- **[Coir](../glossary/coir.html)** (coconut fiber): Extracted from coconut husk. Very coarse, stiff, and rough. Moderate strength but highly resistant to saltwater and rot. Used for matting, padding, and very coarse rope (ship's mooring cables, decorative work). Not suitable for fine or load-bearing rope.
+- **[Manila/abaca](../glossary/manilaabaca.md)** (*Musa textilis*): Leaf fiber of a banana relative, grown primarily in the Philippines. Strong (slightly less than hemp, ~45 MPa), flexible, and excellent salt-water resistance. Does not swell significantly when wet (maintains dimensions and handling). Lighter than hemp for the same strength — the preferred maritime rope fiber where available. Fiber extracted by stripping the outer leaf sheath, scraping to separate fibers, and drying.
+- **[Sisal](../glossary/sisal.md)** (*Agave sisalana*): Leaf fiber of agave, widely grown in tropical and subtropical regions (Brazil, East Africa, Mexico). Moderate strength (~35 MPa), stiff and less flexible than hemp or manila. Shorter fiber length limits rope quality. Readily available and cheap. Acceptable for general-purpose rope, agricultural uses, and temporary applications. Degrades faster than hemp in outdoor exposure.
+- **[Coir](../glossary/coir.md)** (coconut fiber): Extracted from coconut husk. Very coarse, stiff, and rough. Moderate strength but highly resistant to saltwater and rot. Used for matting, padding, and very coarse rope (ship's mooring cables, decorative work). Not suitable for fine or load-bearing rope.
 - **Cotton**: Soft and comfortable to handle, but weak for rope applications (~15-20 MPa). Degrades quickly when wet. Used for clothesline, light duty, and decorative cordage where softness matters more than strength.
 - **Jute**: Weakest common rope fiber (~20 MPa). Biodegrades rapidly in moisture. Suitable for sacking, twine, and temporary bindings. Cheap and widely available in India and Bangladesh.
 
-**Fiber preparation**: Before ropemaking, fibers must be hackled or combed to align them parallel and remove short pieces and debris. Spin the prepared fibers into yarn by twisting — use a spinning wheel, drop spindle, or mechanical spinner. Conventional yarn twist for Western ropemaking is Z-twist (clockwise when viewed from above). Multiple yarns are twisted together to form a **[strand](../glossary/strand.html)** — the intermediate building block between yarn and rope.
+**Fiber preparation**: Before ropemaking, fibers must be hackled or combed to align them parallel and remove short pieces and debris. Spin the prepared fibers into yarn by twisting — use a spinning wheel, drop spindle, or mechanical spinner. Conventional yarn twist for Western ropemaking is Z-twist (clockwise when viewed from above). Multiple yarns are twisted together to form a **[strand](../glossary/strand.md)** — the intermediate building block between yarn and rope.
 
 ### 3-Strand Rope Laying
 
@@ -35,7 +35,7 @@ The 3-strand laid rope is the most common rope construction, used for millennia 
 6. Continue until the full length is laid. Secure the rope end (back splice or seizing) to prevent unraveling.
 7. Two-person operation minimum — one cranking, one walking back and guiding.
 
-**[Ropewalk method](../glossary/ropewalk-method.html)** (for long ropes):
+**[Ropewalk method](../glossary/ropewalk-method.md)** (for long ropes):
 - Purpose-built long building (historically up to 370 m at Portsmouth Royal Dockyard). Yarns are stretched the full length of the ropewalk and laid by walking the length while turning. The ropewalk allows production of the longest continuous ropes — limited only by building length. Essential for ship rigging, where a single continuous rope (no splices) is strongest. Historically, naval ropewalks were the longest industrial buildings of their era.
 
 ### Ropewalk Facility Design
@@ -54,18 +54,18 @@ A ropewalk is a specialized long, narrow building for producing continuous rope 
 
 A splice joins rope to rope, or creates a permanent loop (eye), by interweaving the strands. Splices are dramatically stronger than knots — a proper splice retains 80-95% of rope strength, while a knot reduces strength by 30-50% due to sharp bends and fiber compression at the knot.
 
-**[Eye splice](../glossary/eye-splice.html)** (creating a permanent loop):
+**[Eye splice](../glossary/eye-splice.md)** (creating a permanent loop):
 - Unlay (untwist) the rope end for a length of approximately 10-12 rope diameters (e.g., ~30 cm for 25 mm rope). This exposes the three individual strands.
 - Form the desired loop size by bending the rope. Tuck each strand over and under through the body of the rope at the base of the loop, following the natural lay direction.
 - Continue tucking each strand over one and under one, working it through the rope body. 3-4 full tucks per strand (9-12 total tucks) are standard.
 - Pull each strand tight after each tuck. Trim strand ends close to the rope surface.
 - Result: a permanent, strong loop — stronger than any knot. Essential for attaching rope to fittings (thimbles, hooks, rings, shackles). A thimble (metal loop) inside the eye protects the rope from chafe at the attachment point.
 
-**[Back splice](../glossary/back-splice.html)** (preventing rope end unraveling):
+**[Back splice](../glossary/back-splice.md)** (preventing rope end unraveling):
 - Unlay rope end for ~10 rope diameters. Form a crown knot with the three strands (each strand passes over its neighbor in sequence). Then tuck each strand back down through the rope body, following the lay.
 - Result: a thickened, sealed end that cannot unravel. Adds bulk — the spliced end will not pass through pulleys or fairleads.
 
-**[Short splice](../glossary/short-splice.html)** (joining two rope ends permanently):
+**[Short splice](../glossary/short-splice.md)** (joining two rope ends permanently):
 - Unlay both rope ends for ~10 rope diameters. Interleave the 6 strands (3 from each end) by alternating them. Tuck each strand through the opposing rope body, following the lay.
 - Result: a permanent join. Doubles the diameter at the splice — will not pass through pulleys or fairleads. Used where a strong join is needed and rope does not need to run through blocks.
 
@@ -87,7 +87,7 @@ Knots reduce rope strength by 30-50% at the knot location, but some retain more 
 | Square knot (reef) | 45-55% | Binding, joining equal-diameter rope; can jam |
 | Granny knot | 40-45% | **Never use** — slips and jams unpredictably |
 
-**[Splicing](../glossary/splicing.html)** retains 80-95% strength — always preferred for permanent connections.
+**[Splicing](../glossary/splicing.md)** retains 80-95% strength — always preferred for permanent connections.
 
 ### Tarring
 
@@ -122,10 +122,10 @@ Breaking strength scales with cross-sectional area (πr²). Approximate values f
 Blocks (pulleys) multiply the pulling force on a load. A tackle is a rope reeved through one or more blocks. Mechanical advantage (MA) equals the number of rope parts (line segments) supporting the load:
 
 - **Single fixed block**: MA = 1:1 (changes direction only, no force multiplication). Useful for redirecting pull.
-- **[Gun tackle](../glossary/gun-tackle.html)** (1 sheave per block, 2 rope parts): MA = 2:1. Pull 2 m to lift 1 m. Lifts 2× the pulling force (minus friction, ~10% per sheave).
-- **[Luff tackle](../glossary/luff-tackle.html)** (double block + single block, 3 rope parts): MA = 3:1.
-- **[Double tackle](../glossary/double-tackle.html)** (double blocks, 4 rope parts): MA = 4:1. Pull 4 m to lift 1 m. Standard for moderate hoisting.
-- **[Threefold purchase](../glossary/threefold-purchase.html)** (triple blocks, 6 rope parts): MA = 6:1. Heavy lifting.
+- **[Gun tackle](../glossary/gun-tackle.md)** (1 sheave per block, 2 rope parts): MA = 2:1. Pull 2 m to lift 1 m. Lifts 2× the pulling force (minus friction, ~10% per sheave).
+- **[Luff tackle](../glossary/luff-tackle.md)** (double block + single block, 3 rope parts): MA = 3:1.
+- **[Double tackle](../glossary/double-tackle.md)** (double blocks, 4 rope parts): MA = 4:1. Pull 4 m to lift 1 m. Standard for moderate hoisting.
+- **[Threefold purchase](../glossary/threefold-purchase.md)** (triple blocks, 6 rope parts): MA = 6:1. Heavy lifting.
 - **Friction losses**: Each sheave adds ~5-15% friction loss due to rope bending and bearing resistance. A 6:1 tackle with hemp rope on wooden sheaves may deliver only 4.5-5:1 effective advantage. Greased iron-bushed sheaves reduce friction to ~5% per sheave.
 
 **Block construction**: Wooden shell (elm or ash, carved in two halves, bolted around the sheave). Sheave (pulley wheel) turned from lignum vitae (self-lubricating hardwood) or iron. Pin (iron axle) through shell and sheave. Hook or becket (attachment fitting) at the top. Size rated by rope diameter — sheave groove must match rope to prevent excessive bending and wear.

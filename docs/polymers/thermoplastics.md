@@ -10,9 +10,9 @@ Process-level reference for thermoplastics relevant to the tech tree. Covers syn
 
 Ethylene gas polymerization. Two industrial routes with very different conditions:
 
-**[LDPE](../glossary/ldpe.html)** (low-density): High-pressure free radical process. 1000-3000 atm, 100-300°C, peroxide initiator (e.g., benzoyl peroxide). Tubular or autoclave reactor. Branched chain structure gives flexible, transparent material.
+**[LDPE](../glossary/ldpe.md)** (low-density): High-pressure free radical process. 1000-3000 atm, 100-300°C, peroxide initiator (e.g., benzoyl peroxide). Tubular or autoclave reactor. Branched chain structure gives flexible, transparent material.
 
-**[HDPE](../glossary/hdpe.html)** (high-density): Low-pressure Ziegler-Natta process. 1-20 atm, 50-80°C, TiCl₄/AlEt₃ catalyst system. Linear chain structure yields stiffer, stronger material with higher crystallinity.
+**[HDPE](../glossary/hdpe.md)** (high-density): Low-pressure Ziegler-Natta process. 1-20 atm, 50-80°C, TiCl₄/AlEt₃ catalyst system. Linear chain structure yields stiffer, stronger material with higher crystallinity.
 
 Properties: chemically resistant, easy processing, inexpensive, good electrical insulator. Applications: containers, piping, cable insulation, moisture barriers, blown film, geomembranes.
 
@@ -22,7 +22,7 @@ Monomer route: ethylene + Cl₂ → 1,2-dichloroethane (EDC) → thermal pyrolys
 
 Polymerization: suspension process. Water continuous phase, 40-70°C, peroxide initiator (e.g., lauroyl peroxide). PVC powder recovered by centrifugation and drying.
 
-- **[Rigid PVC](../glossary/rigid-pvc.html)** (uPVC): no plasticizer. Pipes, fittings, valves, chemical-resistant ductwork.
+- **[Rigid PVC](../glossary/rigid-pvc.md)** (uPVC): no plasticizer. Pipes, fittings, valves, chemical-resistant ductwork.
 - **Flexible PVC**: add plasticizers (DOP, DINP at 20-50 phr) for tubing, wire insulation, flooring, sheet goods.
 
 Note: VCM is a confirmed human carcinogen. Monomer handling requires closed systems, leak detection, and exposure monitoring. Residual VCM in finished product must meet regulatory limits.
@@ -51,7 +51,7 @@ Precursor chain (requires careful temperature control at each stage):
 
 TFE polymerization: aqueous dispersion or granular process, 20-80°C, persulfate initiator (ammonium persulfate). High molecular weight achieved rapidly.
 
-PTFE does not melt-flow like other thermoplastics. It must be **[sintered](../glossary/sintered.html)** above its melting point (~380°C, well above most thermoplastics) in a controlled cycle, or paste-extruded with a lubricant carrier that is later evaporated off.
+PTFE does not melt-flow like other thermoplastics. It must be **[sintered](../glossary/sintered.md)** above its melting point (~380°C, well above most thermoplastics) in a controlled cycle, or paste-extruded with a lubricant carrier that is later evaporated off.
 
 Properties: chemically inert (resists nearly all solvents, acids, and bases), very low coefficient of friction, service temperature range -200 to +260°C, excellent dielectric. Applications: chemically inert seals and gaskets, non-stick surfaces, wire insulation, bearing surfaces, diaphragm pump membranes.
 
@@ -105,7 +105,7 @@ Converting raw thermoplastic granules or powder into finished products requires 
 
 **Equipment**: Infrared or radiant heaters above the sheet (heat to ~110-160°C depending on polymer — PS, PE, ABS, PVC common). Vacuum table below sheet. Mold (male or female — male = drape over convex shape, female = suck into concave cavity).
 
-**[Vacuum forming](../glossary/vacuum-forming.html)** (simplest method): Clamp heated sheet over mold. Apply vacuum through small holes drilled in mold surface (0.5-1 mm holes, closely spaced at 10-20 mm centers). Atmospheric pressure (0.1 MPa) pushes softened sheet onto mold. Simple, low-cost. Mold can be wood, plaster, cast aluminum — no steel tooling required. Products: trays, containers, signs, blister packs, boat hulls (large molds — a 3 m boat hull can be vacuum-formed from 6 mm HDPE sheet over a wooden male mold), aircraft fairings.
+**[Vacuum forming](../glossary/vacuum-forming.md)** (simplest method): Clamp heated sheet over mold. Apply vacuum through small holes drilled in mold surface (0.5-1 mm holes, closely spaced at 10-20 mm centers). Atmospheric pressure (0.1 MPa) pushes softened sheet onto mold. Simple, low-cost. Mold can be wood, plaster, cast aluminum — no steel tooling required. Products: trays, containers, signs, blister packs, boat hulls (large molds — a 3 m boat hull can be vacuum-formed from 6 mm HDPE sheet over a wooden male mold), aircraft fairings.
 
 **Pressure forming**: Apply compressed air above sheet (0.3-0.7 MPa) in addition to vacuum below — higher forming pressure for sharper detail and deeper draws. Pressure forming produces parts with detail resolution approaching injection molding at a fraction of the tooling cost.
 
@@ -129,11 +129,11 @@ Converting raw thermoplastic granules or powder into finished products requires 
 
 ### Polyethylene Grades
 
-**[HDPE](../glossary/hdpe.html)** (high-density polyethylene): Density 0.94-0.97 g/cm³. Melt temperature 130-135°C. Tensile strength 25-45 MPa. Modulus 0.8-1.5 GPa. High crystallinity (70-90%) gives stiffness, chemical resistance, and low moisture absorption (<0.01% water absorption at 24 hours). ESCR (environmental stress crack resistance): 10-1000+ hours (F50, bent strip test in Igepal surfactant — critical for chemical tank and pipe applications where stress cracking is the primary failure mode). Used for: chemical storage tanks (rotational molding — HDPE powder tumbled in a heated mold at 250-300°C, wall thickness 3-10 mm), pipes (gas distribution SDR 11 — Standard Dimension Ratio 11, meaning wall thickness = OD/11; working pressure up to 0.4 MPa for gas; water supply SDR 17, up to 1.0 MPa), bottles (blow-molded milk jugs, detergent containers — 30-60 g weight), geomembranes (landfill liners, 1-2.5 mm thickness, welded with hot air or extrusion welder), wire and cable insulation.
+**[HDPE](../glossary/hdpe.md)** (high-density polyethylene): Density 0.94-0.97 g/cm³. Melt temperature 130-135°C. Tensile strength 25-45 MPa. Modulus 0.8-1.5 GPa. High crystallinity (70-90%) gives stiffness, chemical resistance, and low moisture absorption (<0.01% water absorption at 24 hours). ESCR (environmental stress crack resistance): 10-1000+ hours (F50, bent strip test in Igepal surfactant — critical for chemical tank and pipe applications where stress cracking is the primary failure mode). Used for: chemical storage tanks (rotational molding — HDPE powder tumbled in a heated mold at 250-300°C, wall thickness 3-10 mm), pipes (gas distribution SDR 11 — Standard Dimension Ratio 11, meaning wall thickness = OD/11; working pressure up to 0.4 MPa for gas; water supply SDR 17, up to 1.0 MPa), bottles (blow-molded milk jugs, detergent containers — 30-60 g weight), geomembranes (landfill liners, 1-2.5 mm thickness, welded with hot air or extrusion welder), wire and cable insulation.
 
-**[LDPE](../glossary/ldpe.html)** (low-density polyethylene): Density 0.91-0.93 g/cm³. Melt temperature 105-115°C. Tensile strength 8-25 MPa. Long-chain branching from the high-pressure free-radical process reduces crystallinity (40-60%), giving a flexible, transparent material. Melt flow index (MFI): 0.1-50 g/10 min (lower MFI = higher molecular weight = tougher but harder to process). Used for: film (packaging, agricultural mulch — 15-200 μm thickness, production rate 50-200 m/min on blown film line), squeeze bottles, bread bags, moisture barriers, ice cube trays, heat-shrink tubing (cross-linked LDPE expands when heated above 100°C — used for electrical insulation splices and battery terminal covers).
+**[LDPE](../glossary/ldpe.md)** (low-density polyethylene): Density 0.91-0.93 g/cm³. Melt temperature 105-115°C. Tensile strength 8-25 MPa. Long-chain branching from the high-pressure free-radical process reduces crystallinity (40-60%), giving a flexible, transparent material. Melt flow index (MFI): 0.1-50 g/10 min (lower MFI = higher molecular weight = tougher but harder to process). Used for: film (packaging, agricultural mulch — 15-200 μm thickness, production rate 50-200 m/min on blown film line), squeeze bottles, bread bags, moisture barriers, ice cube trays, heat-shrink tubing (cross-linked LDPE expands when heated above 100°C — used for electrical insulation splices and battery terminal covers).
 
-**[LLDPE](../glossary/lldpe.html)** (linear low-density polyethylene): Density 0.915-0.925 g/cm³. Produced with Ziegler-Natta or metallocene catalysts at low pressure, copolymerizing ethylene with butene, hexene, or octene (2-8% comonomer). Combines the strength of HDPE with the flexibility of LDPE. Metallocene-catalyzed LLDPE (mLLDPE) has narrower molecular weight distribution (Mw/Mn ~2 vs. 4-6 for Ziegler-Natta), giving better optical clarity and more consistent sealing performance. Used for: stretch wrap (cling film — LLDPE's high elongation and puncture resistance make it ideal), heavy-duty sacks, agricultural film, multilayer packaging sealant layers.
+**[LLDPE](../glossary/lldpe.md)** (linear low-density polyethylene): Density 0.915-0.925 g/cm³. Produced with Ziegler-Natta or metallocene catalysts at low pressure, copolymerizing ethylene with butene, hexene, or octene (2-8% comonomer). Combines the strength of HDPE with the flexibility of LDPE. Metallocene-catalyzed LLDPE (mLLDPE) has narrower molecular weight distribution (Mw/Mn ~2 vs. 4-6 for Ziegler-Natta), giving better optical clarity and more consistent sealing performance. Used for: stretch wrap (cling film — LLDPE's high elongation and puncture resistance make it ideal), heavy-duty sacks, agricultural film, multilayer packaging sealant layers.
 
 ### Polypropylene (PP)
 

@@ -23,13 +23,13 @@
 
 ### Library Classification Systems
 
-**[Dewey Decimal Classification](../glossary/dewey-decimal-classification.html)** (Melvil Dewey, 1876):
+**[Dewey Decimal Classification](../glossary/dewey-decimal-classification.md)** (Melvil Dewey, 1876):
 - Organizes all knowledge into ten main classes, each subdivided decimally: 000 Computer science/information/general works, 100 Philosophy/psychology, 200 Religion, 300 Social sciences, 400 Language, 500 Pure science, 600 Technology/applied science, 700 Arts/recreation, 800 Literature, 900 History/geography. Subdivision by additional digits: 540 = Chemistry, 546 = Inorganic chemistry, 546.3 = Specific elements. For a bootstrap technical library, classes 500-600 are the most densely populated. The system is simple to implement and well-suited for collections under 100,000 volumes.
 
-**[Library of Congress Classification](../glossary/library-of-congress-classification.html)** (developed 1897-1901):
+**[Library of Congress Classification](../glossary/library-of-congress-classification.md)** (developed 1897-1901):
 - Uses alphanumeric notation: single or double letters for main classes (T = Technology, TA = Engineering, TF = Railroad engineering), followed by numbers for subdivision, then a Cutter number (derived from author name) for shelf order. Example: TA405 .C35 = Structural engineering, author with surname starting "Ca". More expressive than Dewey for large, specialized collections — accommodates millions of unique shelf positions. Preferred for research libraries and collections exceeding 100,000 volumes.
 
-**[Purpose-built technical classification](../glossary/purpose-built-technical-classification.html)** (for bootstrap context):
+**[Purpose-built technical classification](../glossary/purpose-built-technical-classification.md)** (for bootstrap context):
 - Top-level divisions: 100 Mathematics, 200 Physics, 300 Chemistry, 400 Materials, 500 Engineering (Mechanical), 600 Engineering (Electrical), 700 Mining & Metallurgy, 800 Manufacturing, 900 Reference (dictionaries, indexes, standards). Subdivide with decimal notation (e.g., 310.5 = Inorganic Chemistry → Electrochemistry).
 - Each book receives a class mark (e.g., "510.2 CLA" = Mechanical Engineering, Bearings, author Clarke). Print class mark on spine label and title page.
 
@@ -50,7 +50,7 @@
 - **Target range**: Temperature 18-22°C, relative humidity 40-55%. Fluctuation is more damaging than steady-state conditions outside the ideal range — avoid daily swings exceeding ±2°C or ±5% RH. Hygroscopic materials (paper, parchment, leather, glue) expand and contract with humidity changes, causing mechanical stress → cracking, warping, delamination.
 - **Monitoring**: Install recording hygrothermographs (drum chart recorders or digital data loggers) at multiple points throughout storage areas — near floor, at shelf height, near ceiling, near exterior walls. Log readings continuously. Review weekly. Investigate any reading outside 16-24°C or 35-60% RH within 48 hours.
 - **Passive climate control**: Thick masonry walls (≥400 mm stone or brick) provide thermal mass that damps daily temperature fluctuations. Earth-sheltered or bermed construction leverages stable ground temperature (~10-15°C year-round at 2 m depth). Ventilation: stack effect (low intake vents, high exhaust vents) provides air circulation without powered fans. Dehumidification: calcium chloride or silica gel desiccant trays in enclosed storage areas (regenerate CaCl₂ by heating to 200°C; regenerate silica gel at 120°C for 2 hours).
-- **[Active climate control](../glossary/active-climate-control.html)** (when electricity available): Thermostatically controlled heating (electric resistance or steam radiators). Dehumidifier (refrigerant-type — cools air below dew point to condense moisture, then reheats). Humidifier (evaporative pan — needed only in very dry climates or heated winter buildings).
+- **[Active climate control](../glossary/active-climate-control.md)** (when electricity available): Thermostatically controlled heating (electric resistance or steam radiators). Dehumidifier (refrigerant-type — cools air below dew point to condense moisture, then reheats). Humidifier (evaporative pan — needed only in very dry climates or heated winter buildings).
 
 **Light exposure**:
 - Ultraviolet light is the primary agent of paper degradation — it breaks cellulose chains (photochemical degradation), causing yellowing, embrittlement, and loss of tensile strength. Keep light exposure below 50 lux (5 foot-candles) for sensitive materials, below 300 lux for general collections. Filter UV from all light sources (UV-absorbing sleeves on fluorescent tubes, UV-filtering glazing on windows). Store most sensitive items (manuscripts, photographs, early printed books) in opaque enclosures — light damage is cumulative and irreversible.
@@ -62,7 +62,7 @@
 - **Leather bindings**: Condition with lanolin-based dressing annually. Keep away from direct light (UV bleaches and cracks leather). **Vellum/parchment**: Maintain above 40% RH — below this, vellum curls and cracks; above 60%, gelatin softens and mold risk rises.
 - **Binding repair**: Japanese tissue (kozo fiber) and wheat starch paste for page tears. Re-sew broken signatures with linen thread. Re-back with matching leather or archival cloth. Document all repairs in conservation log.
 
-**[Deacidification](../glossary/deacidification.html)** (for acidic paper, pH below 6):
+**[Deacidification](../glossary/deacidification.md)** (for acidic paper, pH below 6):
 - Acidic paper (groundwood pulp, alum-rosin sized, produced 1850-1990) self-destructs — the acid catalyzes hydrolysis of cellulose chains, reducing paper strength until it crumbles. Detect with pH indicator pen (chlorophenol red: yellow = acidic pH < 5.5, orange = borderline, blue = neutral/alkaline pH > 6.5).
 - **Single-item treatment**: Spray or brush with alkaline buffer solution — magnesium bicarbonate or calcium bicarbonate in water or ethanol. The alkaline reserve neutralizes existing acid and provides ongoing protection. Wei T'o process: non-aqueous deacidification using magnesium methoxide in methanol and fluorocarbon solvent — penetrates paper without wetting or distorting it.
 - **Mass deacidification**: For large collections, commercial processes (Bookkeeper, Sabathe) treat hundreds of volumes per day by immersing books in alkaline dispersion. Cost: $10-30 per volume. Requires industrial-scale chemical processing capability.
@@ -74,7 +74,7 @@
 - **Readers**: Microfilm reader = light source + lens + projection screen. Can be built with early optical manufacturing capability (ground glass lens, incandescent lamp, folding mirror). No electronics required.
 - **Longevity**: Silver halide microfilm stored properly lasts 100-500 years. Polyester-base film is more stable than acetate-base (acetate develops "vinegar syndrome" — acetic acid release that destroys the emulsion).
 
-**[Digitization workflow](../glossary/digitization-workflow.html)** (once semiconductor capability exists):
+**[Digitization workflow](../glossary/digitization-workflow.md)** (once semiconductor capability exists):
 - **Scanning**: Flatbed or planetary scanner (camera mounted above book cradle, face-up capture avoids spine stress). Resolution: minimum 300 dpi for text, 600 dpi for images and maps. Color mode: 24-bit RGB for full reproduction; 8-bit grayscale sufficient for most text.
 - **File format**: Master images in TIFF (uncompressed, lossless). Derivative copies in JPEG (lossy, small file) for web access. OCR (optical character recognition) software converts page images to searchable text — accuracy 95-99% for clean printed text, 70-90% for degraded or handwritten materials.
 - **Metadata**: Record for each item: title, author, date, page count, scan date, scanner operator, resolution, file format, file size, checksum (MD5 or SHA-256 for integrity verification). Dublin Core metadata standard provides 15 elements for resource description.
@@ -84,7 +84,7 @@
 
 **Mold**: Spores activate above 65% RH. Prevention: maintain ventilation (2-4 air changes/hour), use silica gel desiccant canisters in enclosed cases (indicator beads turn from blue to pink when saturated — regenerate at 120°C for 2 hours). If mold appears: isolate affected items, dry thoroughly, brush spores outdoors (wear mask), wipe shelves with 70% ethanol.
 
-**[Insects](../glossary/insects.html)** (silverfish, booklice, beetles): Maintain temperature below 20°C where possible. Cedar lining in storage cabinets repels some insects. Periodic inspection: look for frass (insect droppings), exit holes in wood, feeding damage on paper edges. Freezing treatment: bag item, freeze at -20°C for 72 hours, thaw slowly — kills all life stages without chemicals.
+**[Insects](../glossary/insects.md)** (silverfish, booklice, beetles): Maintain temperature below 20°C where possible. Cedar lining in storage cabinets repels some insects. Periodic inspection: look for frass (insect droppings), exit holes in wood, feeding damage on paper edges. Freezing treatment: bag item, freeze at -20°C for 72 hours, thaw slowly — kills all life stages without chemicals.
 
 **Disaster recovery**:
 - **Water damage**: Freeze wet items within 48 hours to halt mold. Freeze-dry (sublimation under vacuum) or air-dry with fans. Interleave pages with blotting paper, replace as saturated.
@@ -100,15 +100,15 @@
 - **Controlled vocabulary**: Maintain a standardized list of subject terms (thesaurus) used in indexing. Each concept gets one preferred term (e.g., "iron smelting" not "iron production" or "making iron"). Cross-reference synonyms and related terms. Prevents fragmentation of the literature under variant terminology.
 
 **Physical access systems**:
-- **[Closed stacks](../glossary/closed-stacks.html)** (staff retrieves books): Maximum preservation — no public access to shelves, reduced theft risk, controlled environment. Slower access (request → retrieve → read → return). Preferred for rare and archival materials.
-- **[Open stacks](../glossary/open-stacks.html)** (browsing): Users access shelves directly. Faster access, encourages discovery. Requires wider aisles, more robust shelving, security measures (exit checks). Preferred for general circulating collections.
+- **[Closed stacks](../glossary/closed-stacks.md)** (staff retrieves books): Maximum preservation — no public access to shelves, reduced theft risk, controlled environment. Slower access (request → retrieve → read → return). Preferred for rare and archival materials.
+- **[Open stacks](../glossary/open-stacks.md)** (browsing): Users access shelves directly. Faster access, encourages discovery. Requires wider aisles, more robust shelving, security measures (exit checks). Preferred for general circulating collections.
 
 ### Digital Storage Considerations
 
 Once semiconductor manufacturing is available:
-- **[Punched cards](../glossary/punched-cards.html)** (pre-electronic): 80 characters/card, ~150 cards/kg. Robust but extremely low density. Useful as a bridge technology for numerical data.
+- **[Punched cards](../glossary/punched-cards.md)** (pre-electronic): 80 characters/card, ~150 cards/kg. Robust but extremely low density. Useful as a bridge technology for numerical data.
 - **Magnetic tape**: High capacity, 10-30 year reliable lifespan before bit rot demands refresh. Store at 18-22°C, 40-50% RH. Rewind annually to prevent adhesive bleed-through.
-- **[Optical media](../glossary/optical-media.html)** (CD-ROM, later DVD): 50-100 year claimed lifespan for gold-reflector discs. Read-only after mastering — immune to accidental overwrite. Requires precise manufacturing tolerances (see Photolithography domain).
+- **[Optical media](../glossary/optical-media.md)** (CD-ROM, later DVD): 50-100 year claimed lifespan for gold-reflector discs. Read-only after mastering — immune to accidental overwrite. Requires precise manufacturing tolerances (see Photolithography domain).
 - **Migration strategy**: Refresh all digital media every 10-15 years onto current format. Maintain format documentation with every archive. Use open, self-describing formats (plain text ASCII/UTF-8, TIFF for images, CSV for tabular data).
 
 ### Library Network & Acquisition
@@ -161,7 +161,7 @@ Once semiconductor manufacturing is available:
 - **Inactive records**: Documents with permanent historical or legal value — transfer to permanent archive after 10-25 years. Full preservation conditions (climate control, acid-free enclosures). These include: founding documents, property records, major engineering drawings, research notebooks, financial records (for legal accountability periods of 30+ years).
 - **Destruction schedule**: Not every document is worth keeping forever. Establish retention schedules: routine correspondence — destroy after 5 years; routine financial records — destroy after 10 years; engineering drawings — retain permanently; research data — retain permanently. Uncontrolled accumulation of records is as much a problem as loss — it buries valuable information in a mass of trivia, making retrieval impossible.
 
-**[Archival organization](../glossary/archival-organization.html)** (original order principle):
+**[Archival organization](../glossary/archival-organization.md)** (original order principle):
 - Maintain records in the order created by their originating office — this order carries information about organizational structure and work processes that reorganization destroys. Do not rearrange files by subject (that is the catalog's job, not the shelf arrangement's job). Describe each file unit (folder, box, series) in the finding aid — a structured guide listing: originating office, date range, contents summary, physical extent (number of boxes, linear meters of shelf space), access restrictions.
 
 ### Statistical Records & Collection Metrics
@@ -174,14 +174,14 @@ Once semiconductor manufacturing is available:
 
 ### Conservation & Book Repair
 
-**[Rebacking](../glossary/rebacking.html)** (restoring a deteriorated spine):
+**[Rebacking](../glossary/rebacking.md)** (restoring a deteriorated spine):
 - Remove the old spine material carefully with a thin lifting knife, preserving any spine lettering or decoration. Clean the exposed spine and sewing supports. Reinforce the spine with muslin cloth adhered with pH-neutral PVA (polyvinyl acetate) adhesive, extending the muslin 25-30 mm onto each board to create new hinge material. Reattach the original spine material (if salvageable) over the muslin with PVA, aligning it carefully. Dry under weight (boards and weights or a nipping press) for 24 hours to prevent warping. Rebacking extends the service life of a heavily used binding by 20-50 years.
 
 **Paper repair**:
 - **Tears and splits**: Use Japanese tissue (kozo fiber, long-fibered and strong) applied with wheat starch paste (cooked 1:5 starch:water, cooled to thin gel). The tissue bridges the tear with minimal bulk — Japanese tissue can be split to match the thickness of the damaged paper. Feather the edges of the tissue patch to avoid a visible ridge.
-- **[Leaf-casting](../glossary/leaf-casting.html)** (for losses — holes and missing areas): Suspend the damaged leaf in a leaf-casting tank filled with paper pulp slurry. Vacuum draws pulp through the hole, depositing fibers that interlock with the original paper edges. The resulting fill matches the thickness and texture of the surrounding paper. Requires specialized equipment but produces nearly invisible repairs.
+- **[Leaf-casting](../glossary/leaf-casting.md)** (for losses — holes and missing areas): Suspend the damaged leaf in a leaf-casting tank filled with paper pulp slurry. Vacuum draws pulp through the hole, depositing fibers that interlock with the original paper edges. The resulting fill matches the thickness and texture of the surrounding paper. Requires specialized equipment but produces nearly invisible repairs.
 
-**[Mass deacidification](../glossary/mass-deacidification.html)** (Wei T'o process):
+**[Mass deacidification](../glossary/mass-deacidification.md)** (Wei T'o process):
 - Spray or immerse acidic paper items in a solution of magnesium methoxy carbonate in a fluorocarbon or alcohol carrier solvent. The magnesium compound penetrates the paper, neutralizing existing acid and depositing an alkaline reserve (magnesium carbonate) that provides ongoing protection. The treatment raises paper pH to 7.5-9.0 (from acidic pH 4-5), extending paper life by 3-5× — a book with 50 years of remaining life gains 150-250 years. Non-aqueous formulation avoids wetting and distortion of the paper.
 
 ### Disaster Recovery Procedures

@@ -29,8 +29,8 @@ South American camelids — alpacas (*Vicugna pacos*) and llamas (*Lama glama*) 
 
 #### Alpaca Breeds
 
-- **[Huacaya](../glossary/huacaya.html)** (90% of alpacas): Fluffy, crimped fleece that grows perpendicular to the skin. Crimp (wave pattern) gives the fiber natural elasticity and loft, making it ideal for knitting and felting. Fiber diameter 20-30 microns. 22 recognized natural colors from white through fawn, brown, grey, and black. Hardier and easier to manage than Suri.
-- **[Suri](../glossary/suri-alpaca.html)** (10% of alpacas): Long, lustrous fleece that hangs in pencil-like locks (dreadlocks), growing parallel to the body. No crimp — the fiber is straight with a silky handle. Fiber diameter 18-28 microns (often finer than Huacaya). More delicate constitution — requires more shelter and attention. Fiber is prized for weaving and produces fabric with exceptional drape.
+- **[Huacaya](../glossary/huacaya.md)** (90% of alpacas): Fluffy, crimped fleece that grows perpendicular to the skin. Crimp (wave pattern) gives the fiber natural elasticity and loft, making it ideal for knitting and felting. Fiber diameter 20-30 microns. 22 recognized natural colors from white through fawn, brown, grey, and black. Hardier and easier to manage than Suri.
+- **[Suri](../glossary/suri-alpaca.md)** (10% of alpacas): Long, lustrous fleece that hangs in pencil-like locks (dreadlocks), growing parallel to the body. No crimp — the fiber is straight with a silky handle. Fiber diameter 18-28 microns (often finer than Huacaya). More delicate constitution — requires more shelter and attention. Fiber is prized for weaving and produces fabric with exceptional drape.
 
 #### Llama Types
 

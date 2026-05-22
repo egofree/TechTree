@@ -27,14 +27,14 @@
 - **Pit latrine**: Dig pit 1 m diameter × 3-5 m deep. Platform with hole on top. Privacy enclosure. Add lime or ash after each use to reduce odor and flies. When pit is ½ full, fill with soil, relocate. Simple, effective for small populations.
 - **Aqua privy**: Watertight tank with water seal. Waste drops into water, anaerobically decomposes. Effluent drains to soakaway. Better odor control. Requires water supply.
 
-**[Sewage treatment](../glossary/sewage-treatment.html)** (larger settlements):
+**[Sewage treatment](../glossary/sewage-treatment.md)** (larger settlements):
 - **Settling tanks (primary treatment)**: Large tank, 2-4 hour retention. Solids settle to bottom as sludge. Remove sludge periodically via valve at bottom. Sludge dries on sand beds, used as fertilizer (after composting to kill pathogens — 6+ months).
 - **Biological treatment (secondary)**: Trickling filter — wastewater sprinkled over bed of rocks (1-3 m deep). Biofilm on rocks consumes organic matter. Or activated sludge — aerate wastewater in tank (blow air through diffusers). Microorganisms consume organics. Settle, return some sludge to tank, discharge clear effluent.
 
 **Industrial waste**:
 - **Acid/alkali neutralization**: Acid waste + limestone (CaCO₃) or lime (CaO) → neutral salt + CO₂. Alkaline waste + dilute acid → neutral salt. Always add acid TO water, never water TO acid (violent boiling/splashing).
 - **Heavy metals**: Precipitate with NaOH or Na₂S → metal hydroxide or sulfide sludge. Collect, store, potentially recover metal.
-- **[Never discharge](../glossary/never-discharge.html)** HF, cyanide, or strong oxidizers to waterways. Neutralize or contain in sealed vessels.
+- **[Never discharge](../glossary/never-discharge.md)** HF, cyanide, or strong oxidizers to waterways. Neutralize or contain in sealed vessels.
 
 ### Hygiene & Prevention
 
@@ -50,8 +50,8 @@
 - **Storage**: Dry, cool, pest-proof (sealed clay jars, raised platforms). Rotate stock (first in, first out).
 
 **Water hardness treatment**:
-- **[Temporary hardness](../glossary/temporary-hardness.html)** (bicarbonates): Removed by boiling — Ca(HCO₃)₂ → CaCO₃↓ + H₂O + CO₂. Scale precipitates. Simple but fuel-intensive.
-- **[Lime softening](../glossary/lime-softening.html)** (permanent + temporary): Add slaked lime Ca(OH)₂ to hard water. Ca(HCO₃)₂ + Ca(OH)₂ → 2CaCO₃↓ + 2H₂O. Magnesium hardness: Mg(HCO₃)₂ + 2Ca(OH)₂ → Mg(OH)₂↓ + 2CaCO₃↓ + 2H₂O. Settle, filter. Reduces total hardness significantly. Essential for boiler feedwater to prevent scale buildup.
+- **[Temporary hardness](../glossary/temporary-hardness.md)** (bicarbonates): Removed by boiling — Ca(HCO₃)₂ → CaCO₃↓ + H₂O + CO₂. Scale precipitates. Simple but fuel-intensive.
+- **[Lime softening](../glossary/lime-softening.md)** (permanent + temporary): Add slaked lime Ca(OH)₂ to hard water. Ca(HCO₃)₂ + Ca(OH)₂ → 2CaCO₃↓ + 2H₂O. Magnesium hardness: Mg(HCO₃)₂ + 2Ca(OH)₂ → Mg(OH)₂↓ + 2CaCO₃↓ + 2H₂O. Settle, filter. Reduces total hardness significantly. Essential for boiler feedwater to prevent scale buildup.
 - **Soap test for hardness**: Dissolve soap in water sample. Hard water produces scum (calcium/magnesium stearate precipitate) instead of lather. Compare lather height to distilled water standard.
 
 **Pest control**:
@@ -179,20 +179,20 @@
 
 ### Decentralized Wastewater Treatment
 
-**[Septic tank systems](../glossary/septic-tank-systems.html)** (individual households or small clusters):
+**[Septic tank systems](../glossary/septic-tank-systems.md)** (individual households or small clusters):
 - **Design**: Rectangular or cylindrical watertight tank (concrete, fiberglass, or brick with cement mortar). Minimum 2-day hydraulic retention time. For a household of 5: tank volume 2.5-3.5 m³ (sizing rule: 1 m³ base + 0.2 m³ per person). Inlet and outlet T-pipes (or baffles) prevent short-circuiting and retain floating scum. Two-compartment design (first chamber ⅔ of total volume) improves settling.
 - **Operation**: Wastewater enters the first chamber. Solids settle as sludge, fats and oils float as scum. Anaerobic digestion slowly breaks down organic matter (reduces volume by 40-60%). Liquid flows through the baffle to the second chamber for further settling. Effluent (still high in dissolved organics and pathogens) discharges to a drainfield for soil treatment.
 - **Drainfield (soil absorption system)**: Network of perforated pipes (100 mm diameter) in gravel-filled trenches (0.3-0.6 m wide, 0.6-1.0 m deep). Effluent percolates into surrounding soil, which provides final treatment through filtration, adsorption, and biological oxidation. Soil percolation rate must be tested before construction (dig 0.3 m hole, fill with water, measure drop in level over time). Unsuitable for clay soils (percolation rate <15 mm/hour) or areas with high water table (minimum 1.2 m to seasonal high water table).
 - **Maintenance**: Pump out accumulated sludge and scum every 3-5 years (when sludge + scum depth reaches 25-33% of tank liquid depth). Do not use chemical drain cleaners or large amounts of bleach, which kill the anaerobic bacteria essential to the process. Do not pour grease or cooking oil down drains.
 
-**[UV disinfection](../glossary/uv-disinfection.html)** (requires electricity):
+**[UV disinfection](../glossary/uv-disinfection.md)** (requires electricity):
 - **Principle**: Ultraviolet light at 254 nm wavelength penetrates microorganism cell walls and damages DNA/RNA, preventing reproduction. Effective against bacteria, viruses, and protozoan cysts (including *Cryptosporidium* and *Giardia*, which resist chlorination). No chemical residue, no taste or odor, no disinfection byproducts.
 - **Requirements**: Water must have low turbidity (<1 NTU) for UV light to penetrate effectively. Pre-filtration is mandatory. Low-pressure mercury vapor lamps produce UV-C at 254 nm. Lamp life: 8,000-12,000 hours. Dose: 30-40 mJ/cm² for most pathogens. No residual disinfectant remains in the water (unlike chlorine), so treated water should be consumed promptly or stored in sealed, clean containers.
 - **Limitations**: Requires reliable electricity. Turbidity-sensitive. Does not provide residual protection in distribution systems. Best suited for point-of-use treatment rather than community-scale distribution.
 
 ### Water Treatment Process Integration
 
-**[Conventional water treatment train](../glossary/conventional-water-treatment-train.html)** (for surface water sources):
+**[Conventional water treatment train](../glossary/conventional-water-treatment-train.md)** (for surface water sources):
 1. **Coagulation and flocculation**: Add alum (Al₂(SO₄)₃, 10-50 mg/L) to raw water. Rapid mix (300-500 RPM, 30-60 seconds) disperses coagulant. Slow mix (20-40 RPM, 15-30 minutes) allows floc particles to grow.
 2. **Sedimentation**: Settling basin, 2-4 hour retention. Removes bulk of floc and suspended solids (50-70% TSS, 25-40% BOD).
 3. **Filtration**: Rapid sand filter (5-15 m/h, 0.6-1.0 m coarse sand bed) removes remaining floc particles. Backwash every 24-48 hours.

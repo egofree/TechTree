@@ -18,7 +18,7 @@ Hand tools → Foundry → Crude Lathe → Better Lathe → Shaper → Mill → 
 The first lathe is built from castings and hand-scraped flat surfaces. It doesn't need to be precise — it needs to exist.
 
 **Bed**: Cast iron (or aluminum for very first version, though it flexes more). Length 60-90 cm, cross-section I-beam or box. Cast in sand mold, hand-scrape the top surfaces flat using:
-- **[Surface plate](../glossary/surface-plate.html)** (first reference flat): Three plates, scraped alternately against each other (Whitworth's three-plate method). Start with a known-flat granite surface plate if available, or generate flats from scratch:
+- **[Surface plate](../glossary/surface-plate.md)** (first reference flat): Three plates, scraped alternately against each other (Whitworth's three-plate method). Start with a known-flat granite surface plate if available, or generate flats from scratch:
   1. Scrape plate A against plate B until they show even bearing (red marking compound shows contact points).
   2. Scrape plate C against A.
   3. Scrape B against C.
@@ -41,35 +41,35 @@ The first lathe is built from castings and hand-scraped flat surfaces. It doesn'
 
 This is the heart of the Machine Tools stage. Each machine enables the next:
 
-**[Step 1: Crude lathe](../glossary/step-1-crude-lathe.html)** (tolerance ~0.5 mm)
+**[Step 1: Crude lathe](../glossary/step-1-crude-lathe.md)** (tolerance ~0.5 mm)
 - Capable of: turning shafts, boring holes, facing flanges
 - Use it to make: better bearings, true-running pulleys, leadscrew nuts
 
-**[Step 2: Improved lathe with leadscrew](../glossary/step-2-improved-lathe-with-leadscrew.html)** (tolerance ~0.1 mm)
+**[Step 2: Improved lathe with leadscrew](../glossary/step-2-improved-lathe-with-leadscrew.md)** (tolerance ~0.1 mm)
 - **Leadscrew**: First leadscrew is hand-cut (file or chisel into round bar, using thread gauge for checking). Not precise, but functional.
 - **Half-nut mechanism**: Split nut that engages/disengages leadscrew for threading.
 - **Thread cutting**: Mount change gears between spindle and leadscrew. Gear ratio determines thread pitch. Start with standard metric or imperial pitches.
 - Use it to make: leadscrew for shaper, accurate threaded fasteners, taps and dies
 
-**[Step 3: Shaper](../glossary/step-3-shaper.html)** (tolerance ~0.05 mm)
+**[Step 3: Shaper](../glossary/step-3-shaper.md)** (tolerance ~0.05 mm)
 - **Function**: Single-point cutting tool reciprocates horizontally while work feeds laterally. Produces flat surfaces, keyways, slots, dovetails.
 - **Construction**: Cast iron body, ram driven by slotted crank (adjustable stroke length), automatic table feed (ratchet and pawl).
 - **Key operation**: Machining the flat ways for the mill, planing mating surfaces for machine slides.
 - **Cutting speed**: 10-30 m/min for cast iron with HSS tool. Stroke rate 20-60 per minute.
 
-**[Step 4: Milling machine](../glossary/step-4-milling-machine.html)** (tolerance ~0.025 mm)
+**[Step 4: Milling machine](../glossary/step-4-milling-machine.md)** (tolerance ~0.025 mm)
 - **Function**: Rotating multi-tooth cutter removes material. More versatile than shaper — handles pockets, profiles, helical surfaces (gears).
 - **Spindle**: Driven by belt or gear from motor/line shaft. Speed 50-2000 RPM (adjustable via pulley changes).
 - **Table**: X-Y movement via leadscrews with graduated dials (0.025 mm divisions = "one thou").
 - **Use it to make**: gear blanks, slots, flat reference surfaces, precision holes via boring head.
 
-**[Step 5: Drill press](../glossary/step-5-drill-press.html)** (tolerance ~0.1 mm for hole location)
+**[Step 5: Drill press](../glossary/step-5-drill-press.md)** (tolerance ~0.1 mm for hole location)
 - **Spindle**: Vertical, driven by belt. Morse taper (MT2) for drill chucks.
 - **Table**: Adjustable height. Angle plate for angled holes.
 - **Speed range**: 200-3000 RPM via step pulleys.
 - **Critical for**: Every subsequent machine and mechanism needs holes.
 
-**[Step 6: Surface grinder](../glossary/step-6-surface-grinder.html)** (tolerance ~0.005 mm, surface finish ~0.4 μm Ra)
+**[Step 6: Surface grinder](../glossary/step-6-surface-grinder.md)** (tolerance ~0.005 mm, surface finish ~0.4 μm Ra)
 - **Requires**: Abrasive wheel (aluminum oxide or silicon carbide — the Energy stage electric arc furnace needed for synthetic abrasives, or use natural emery/quartz wheels for cruder work).
 - **Function**: Spinning abrasive wheel removes microscopic amounts of material. Produces optically flat surfaces.
 - **Essential for**: Gauge blocks, machine ways, precision sealing surfaces (vacuum flanges, cylinder bores).

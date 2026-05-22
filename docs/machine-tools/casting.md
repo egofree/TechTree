@@ -43,8 +43,8 @@ The standard furnace for cast iron melting in the bootstrap sequence. A small, s
 
 ## Bronze and Copper Casting
 
-- **[Bronze](../glossary/bronze.html)** (copper-tin alloy, typically 88-92% Cu, 8-12% Sn): Melts at ~950°C. Easier to cast than iron — lower temperature, more fluid, less shrinkage. Ideal for bearings, bushings, gears, decorative hardware, and marine fittings. Very low shrinkage (~1%) reduces casting defects.
-- **[Brass](../glossary/brass.html)** (copper-zinc alloy, typically 60-70% Cu, 30-40% Zn): Melts at ~900-940°C. Zinc boils at 907°C — generates zinc vapor (toxic, causes "brass founder's ague"). Requires forced ventilation. Used for valves, fittings, decorative hardware.
+- **[Bronze](../glossary/bronze.md)** (copper-tin alloy, typically 88-92% Cu, 8-12% Sn): Melts at ~950°C. Easier to cast than iron — lower temperature, more fluid, less shrinkage. Ideal for bearings, bushings, gears, decorative hardware, and marine fittings. Very low shrinkage (~1%) reduces casting defects.
+- **[Brass](../glossary/brass.md)** (copper-zinc alloy, typically 60-70% Cu, 30-40% Zn): Melts at ~900-940°C. Zinc boils at 907°C — generates zinc vapor (toxic, causes "brass founder's ague"). Requires forced ventilation. Used for valves, fittings, decorative hardware.
 - **Copper**: Melts at 1085°C. Used for electrical components, heat exchangers, and roofing. More difficult to cast than bronze (higher melting point, more reactive with oxygen — forms Cu₂O inclusions). Use charcoal cover on melt to prevent oxidation.
 
 ## Sand Molding (Green Sand)
@@ -73,21 +73,21 @@ The pattern is the master shape that creates the cavity in the sand. Pattern qua
 
 ### Mold Making Process
 
-1. **[Place pattern](../glossary/place-pattern.html)** on the drag (bottom flask half) with the parting face down.
-2. **[Ram sand](../glossary/ram-sand.html)** around pattern — firm but not rock-hard. Use peen end of rammer near pattern (concentrates force), flat end elsewhere (uniform compaction). Add sand in layers, ram each layer.
-3. **[Strike off](../glossary/strike-off.html)** excess sand level with the top of the flask.
-4. **[Flip drag](../glossary/flip-drag.html)** over. The pattern face is now facing up.
-5. **[Apply parting compound](../glossary/apply-parting-compound.html)** (dry silica flour or talc) to prevent cope sand from sticking to drag sand.
-6. **[Place cope](../glossary/place-cope.html)** (top flask half) on the drag. Align with locating pins.
-7. **[Set sprue pin](../glossary/set-sprue-pin.html)** (vertical round stick, 20-30 mm diameter) where you want the pouring hole. Set riser pins (slightly smaller) at the highest points of the casting to feed shrinkage.
-8. **[Ram sand](../glossary/ram-sand.html)** in cope around pattern, sprue, and risers.
+1. **[Place pattern](../glossary/place-pattern.md)** on the drag (bottom flask half) with the parting face down.
+2. **[Ram sand](../glossary/ram-sand.md)** around pattern — firm but not rock-hard. Use peen end of rammer near pattern (concentrates force), flat end elsewhere (uniform compaction). Add sand in layers, ram each layer.
+3. **[Strike off](../glossary/strike-off.md)** excess sand level with the top of the flask.
+4. **[Flip drag](../glossary/flip-drag.md)** over. The pattern face is now facing up.
+5. **[Apply parting compound](../glossary/apply-parting-compound.md)** (dry silica flour or talc) to prevent cope sand from sticking to drag sand.
+6. **[Place cope](../glossary/place-cope.md)** (top flask half) on the drag. Align with locating pins.
+7. **[Set sprue pin](../glossary/set-sprue-pin.md)** (vertical round stick, 20-30 mm diameter) where you want the pouring hole. Set riser pins (slightly smaller) at the highest points of the casting to feed shrinkage.
+8. **[Ram sand](../glossary/ram-sand.md)** in cope around pattern, sprue, and risers.
 9. **Remove sprue and riser pins**. Cut a pouring basin (funnel shape) at the top of the sprue.
-10. **[Separate flask halves](../glossary/separate-flask-halves.html)** (lift cope off drag carefully).
+10. **[Separate flask halves](../glossary/separate-flask-halves.md)** (lift cope off drag carefully).
 11. **Remove pattern**: Rap (tap gently) to loosen, then lift straight up with draw screws or lifting hooks. Do not tilt or drag — it tears the mold cavity.
 12. **Cut gates**: Carve channels in the drag connecting the sprue base to the mold cavity. Gate should enter the cavity at the thickest section. Gate cross-section should be smaller than the sprue to ensure the gate freezes first (prevents back-feeding of shrinkage).
-13. **[Place cores](../glossary/place-cores.html)** (if any) in the mold cavity, supported by core prints.
+13. **[Place cores](../glossary/place-cores.md)** (if any) in the mold cavity, supported by core prints.
 14. **Close mold**: Place cope back on drag. Weight down or clamp — the buoyant force of molten metal on a large core can lift the cope off (a "floating" or "runout" disaster).
-15. **[Pour](../glossary/pour.html)**.
+15. **[Pour](../glossary/pour.md)**.
 
 ### Gating System Design
 
@@ -96,7 +96,7 @@ The gating system (sprue, runners, gates, and risers) controls how molten metal 
 - **Sprue**: Vertical channel from pouring basin to runner. Tapered (wider at top, narrower at bottom) to prevent air aspiration — a straight sprue draws in air as the metal stream accelerates downward.
 - **Runner**: Horizontal channel at the parting line distributing metal from sprue to gates. Should be in the drag (bottom) so metal fills from the bottom up.
 - **Gates**: Connections from runner to mold cavity. Should enter at thick sections of the casting. Multiple gates for large or thin-walled castings to fill uniformly.
-- **[Risers](../glossary/risers.html)** (feeders): Vertical reservoirs of molten metal connected to the casting at the top. As the casting solidifies and shrinks, the riser supplies liquid metal to compensate. Risers must be larger than the casting section they feed (so they freeze last). Top risers are most common; side risers for horizontal sections.
+- **[Risers](../glossary/risers.md)** (feeders): Vertical reservoirs of molten metal connected to the casting at the top. As the casting solidifies and shrinks, the riser supplies liquid metal to compensate. Risers must be larger than the casting section they feed (so they freeze last). Top risers are most common; side risers for horizontal sections.
 - **Chills**: Metal inserts (cast iron or copper) placed in the mold at thick sections to accelerate local solidification. Direct solidification toward the riser. Prevents shrinkage porosity in heavy sections.
 
 ## Investment Casting (Lost-Wax)

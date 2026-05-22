@@ -8,24 +8,24 @@
 ### Writing System Development
 
 **Alphabet design**:
-- Create a **[phonetic alphabet](../glossary/phonetic-alphabet.html)** of 20-30 symbols, each representing one sound (consonant or vowel). Phonetic systems are far more compact and learnable than logographic systems (one symbol per word) or syllabic systems (one symbol per syllable).
+- Create a **[phonetic alphabet](../glossary/phonetic-alphabet.md)** of 20-30 symbols, each representing one sound (consonant or vowel). Phonetic systems are far more compact and learnable than logographic systems (one symbol per word) or syllabic systems (one symbol per syllable).
 - **Symbol design criteria**: Each symbol must be easily distinguishable from all others, even when hastily written, weathered, or poorly carved. Avoid rotational symmetry (b/d, p/q confusion). Use straight lines and simple curves — these are easier to carve in stone/wood and write with a stylus.
 - **Numerals**: Separate symbol set for digits 0-9 (positional notation with zero — critical for engineering calculations). Decimal point symbol. Plus, minus, multiply, divide, equals symbols.
 - **Technical notation**: Standardize symbols for units (°C, mm, kg, MPa, A, V, Ω, Hz, mol), chemical elements (H, C, O, Fe, Cu, Si, etc. — use the modern abbreviation system), mathematical operations, electrical circuits, and process diagrams.
 
 ### Historical Development of Writing Systems
 
-**[Cuneiform development](../glossary/cuneiform-development.html)** (Mesopotamia, ~3400 BCE onward):
-- **[Proto-cuneiform](../glossary/proto-cuneiform.html)** (~3400-3000 BCE): Sumerian pictographic impressions on clay tablets for administrative record-keeping — livestock counts, grain disbursements, tax receipts. Approximately 900 distinct signs, each representing a commodity or numeric concept. Stylus: reed cut to produce wedge-shaped impressions (Latin *cuneus* = wedge).
-- **[Early dynastic cuneiform](../glossary/early-dynastic-cuneiform.html)** (~2900-2600 BCE): Signs became abstract, losing pictographic origin. Sumerian scribes developed syllabic values — signs could represent sounds, not just things. This allowed writing of names, grammar, and abstract concepts. Sign inventory reduced to ~600 common signs.
-- **[Akkadian adaptation](../glossary/akkadian-adaptation.html)** (~2500 BCE): Semitic-speaking Akkadians repurposed Sumerian cuneiform signs to write their own language. Each Sumerian sign acquired an Akkadian phonetic reading. Bilingual scribes were essential. Akkadian cuneiform became the *lingua franca* of Near Eastern diplomacy and trade for 2000 years — used by Babylonians, Assyrians, Hittites, and Elamites.
-- **[Babylonian standardization](../glossary/babylonian-standardization.html)** (~1800 BCE): Under Hammurabi's empire, scribal schools (*eduba*) trained scribes in standardized sign forms, orthography, and literary composition. Curriculum: sign lists, vocabulary exercises, model contracts, literary texts. Training took 5-10 years beginning in childhood.
+**[Cuneiform development](../glossary/cuneiform-development.md)** (Mesopotamia, ~3400 BCE onward):
+- **[Proto-cuneiform](../glossary/proto-cuneiform.md)** (~3400-3000 BCE): Sumerian pictographic impressions on clay tablets for administrative record-keeping — livestock counts, grain disbursements, tax receipts. Approximately 900 distinct signs, each representing a commodity or numeric concept. Stylus: reed cut to produce wedge-shaped impressions (Latin *cuneus* = wedge).
+- **[Early dynastic cuneiform](../glossary/early-dynastic-cuneiform.md)** (~2900-2600 BCE): Signs became abstract, losing pictographic origin. Sumerian scribes developed syllabic values — signs could represent sounds, not just things. This allowed writing of names, grammar, and abstract concepts. Sign inventory reduced to ~600 common signs.
+- **[Akkadian adaptation](../glossary/akkadian-adaptation.md)** (~2500 BCE): Semitic-speaking Akkadians repurposed Sumerian cuneiform signs to write their own language. Each Sumerian sign acquired an Akkadian phonetic reading. Bilingual scribes were essential. Akkadian cuneiform became the *lingua franca* of Near Eastern diplomacy and trade for 2000 years — used by Babylonians, Assyrians, Hittites, and Elamites.
+- **[Babylonian standardization](../glossary/babylonian-standardization.md)** (~1800 BCE): Under Hammurabi's empire, scribal schools (*eduba*) trained scribes in standardized sign forms, orthography, and literary composition. Curriculum: sign lists, vocabulary exercises, model contracts, literary texts. Training took 5-10 years beginning in childhood.
 
 **Alphabet development**:
-- **[Proto-Sinaitic script](../glossary/proto-sinaitic-script.html)** (~1800 BCE): Semitic workers in Egyptian turquoise mines adapted Egyptian hieroglyphic symbols to represent Semitic consonantal sounds (acrophonic principle — the word for "house" *bayt* → the symbol for /b/). Approximately 27 consonant signs. No vowel notation. This was the first true alphabet — one symbol per phoneme.
-- **[Phoenician alphabet](../glossary/phoenician-alphabet.html)** (~1050 BCE): Standardized 22-consonant alphabet developed in the Phoenician city-states (Tyre, Sidon, Byblos). Written right-to-left. Letter names: *aleph* (ox), *bet* (house), *gimel* (camel), *dalet* (door) — each derived from the pictograph it originally represented. Phoenician merchants carried this script across the entire Mediterranean — found in inscriptions from Lebanon to Spain. Direct ancestor of nearly every alphabet in use today.
-- **[Greek alphabet](../glossary/greek-alphabet.html)** (~800 BCE): Greeks adopted the Phoenician alphabet, adding symbols for vowels (Phoenician *aleph* → Greek *alpha*, *he* → *epsilon*, *ayin* → *omega*). Added letters for sounds absent in Semitic languages (phi, chi, psi). Letter order and names closely preserved from Phoenician. First alphabet to fully represent both consonants and vowels — unambiguous phonetic notation.
-- **[Latin alphabet](../glossary/latin-alphabet.html)** (~600 BCE): Derived from Greek via Etruscan intermediaries. Early Latin: 21 letters. Classical Latin added G (modified C) and differentiated Y and Z for Greek loanwords. Modern Latin alphabet: 26 letters. Worldwide standard for technical notation and international communication.
+- **[Proto-Sinaitic script](../glossary/proto-sinaitic-script.md)** (~1800 BCE): Semitic workers in Egyptian turquoise mines adapted Egyptian hieroglyphic symbols to represent Semitic consonantal sounds (acrophonic principle — the word for "house" *bayt* → the symbol for /b/). Approximately 27 consonant signs. No vowel notation. This was the first true alphabet — one symbol per phoneme.
+- **[Phoenician alphabet](../glossary/phoenician-alphabet.md)** (~1050 BCE): Standardized 22-consonant alphabet developed in the Phoenician city-states (Tyre, Sidon, Byblos). Written right-to-left. Letter names: *aleph* (ox), *bet* (house), *gimel* (camel), *dalet* (door) — each derived from the pictograph it originally represented. Phoenician merchants carried this script across the entire Mediterranean — found in inscriptions from Lebanon to Spain. Direct ancestor of nearly every alphabet in use today.
+- **[Greek alphabet](../glossary/greek-alphabet.md)** (~800 BCE): Greeks adopted the Phoenician alphabet, adding symbols for vowels (Phoenician *aleph* → Greek *alpha*, *he* → *epsilon*, *ayin* → *omega*). Added letters for sounds absent in Semitic languages (phi, chi, psi). Letter order and names closely preserved from Phoenician. First alphabet to fully represent both consonants and vowels — unambiguous phonetic notation.
+- **[Latin alphabet](../glossary/latin-alphabet.md)** (~600 BCE): Derived from Greek via Etruscan intermediaries. Early Latin: 21 letters. Classical Latin added G (modified C) and differentiated Y and Z for Greek loanwords. Modern Latin alphabet: 26 letters. Worldwide standard for technical notation and international communication.
 
 ### Writing Surfaces & Materials
 
@@ -38,23 +38,23 @@
 **Waxed wooden tablets**:
 - Recessed wooden board (typically beech or oak) filled with colored beeswax. Write with metal or bone stylus (pointed end for writing, flat end for erasing). Erasable by smoothing wax with the flat end or gentle warming. Reusable indefinitely — the wax can be re-melted and re-poured. Good for drafts, calculations, temporary records, and teaching exercises. Widely used in antiquity through the medieval period. Often bound in diptych (two panels hinged) or polyptych (multiple panels) format.
 
-**[Papyrus](../glossary/papyrus.html)** (Egypt, ~3000 BCE):
+**[Papyrus](../glossary/papyrus.md)** (Egypt, ~3000 BCE):
 - **Manufacture**: Harvest papyrus reeds (*Cyperus papyrus*). Peel outer rind. Cut pith into thin strips 30-40 cm long. Lay strips side-by-side on flat surface. Lay second layer at 90° on top. Press and beat layers together — the pith's natural sap (cellulose and starch) acts as adhesive. Dry under weight for 7-14 days. Trim edges, polish surface with stone or ivory. Result: flexible sheet 20-45 cm wide, up to 50 cm tall.
 - **Quality grades**: *Charta hieratica* (finest, for religious texts), *charta augusta* (high quality, for official documents), *charta emporetica* (coarse, for wrapping). Sheets glued end-to-end into rolls (*volumen*) up to 30 meters long.
 - **Writing instrument**: Calamus — reed pen cut to chisel point. Dip in ink, write on the smooth side (horizontal fiber direction). Roll for storage. Papyrus is flexible but fragile when dry; breaks along folds. Does not survive in damp climates (mold and rot).
 - **Limitation**: Papyrus grows only in the Nile Valley and a few other marshes. Supply is geographically constrained. This motivated the development of parchment as an alternative.
 
-**[Parchment](../glossary/parchment.html)** (Pergamon, ~200 BCE onward):
+**[Parchment](../glossary/parchment.md)** (Pergamon, ~200 BCE onward):
 - **Preparation** (animal skin — sheep, goat, or calf):
   1. Soak skin in running water 12-24 hours to soften. Immerse in lime pit (Ca(OH)₂ slurry, pH 12-13) for 3-10 days to loosen hair and epidermis.
   2. Remove from lime. Scrape hair off flesh side with long curved knife over a beam. De-lime by rinsing in clean water.
   3. Stretch skin on wooden frame (*herse*), tensioning evenly with pegs and cords. Scrape flesh side with lunellar knife (crescent-shaped blade) to uniform thickness. Repeat scraping on both sides as skin dries and tightens.
   4. While still damp, dust hair side with fine chalk (calcium carbonate) to absorb residual grease and create a smooth writing surface. Rub with pumice stone to even the surface.
   5. Trim edges. Cut to sheets (typically 40×55 cm for standard pages). One sheep yields approximately 2-4 pages of usable parchment.
-- **[Vellum](../glossary/vellum.html)** (specifically calfskin): Finest grade — thinner, smoother, whiter than sheep or goat parchment. Preferred for luxury manuscripts and important documents.
+- **[Vellum](../glossary/vellum.md)** (specifically calfskin): Finest grade — thinner, smoother, whiter than sheep or goat parchment. Preferred for luxury manuscripts and important documents.
 - **Durability**: Centuries to millennia if kept cool and dry. Parchment is hygroscopic — it curls below 40% RH and softens above 60% RH. Stable storage requires controlled humidity.
 
-**[Paper](../glossary/paper.html)** (China, ~100 CE; Islamic world ~750 CE; Europe ~1150 CE):
+**[Paper](../glossary/paper.md)** (China, ~100 CE; Islamic world ~750 CE; Europe ~1150 CE):
 - For detailed paper production processes (mechanical pulping, chemical pulping, hand papermaking, sizing), see [Printing & Book Production](printing.md).
 - **Advantages over parchment**: Lower cost (plant fiber vs. animal skin), higher production rate, lighter weight, foldable without cracking. Rag paper (cotton/linen fiber) is archival-quality (pH neutral, long cellulose fibers). Wood pulp paper varies: kraft process (chemical) produces archival paper; groundwood process (mechanical) produces acidic, short-lived paper.
 
@@ -69,14 +69,14 @@
 **Brush writing**:
 - Animal hair (goat, rabbit, wolf, horse) bound into a bamboo or wooden handle. Ink on paper or silk. Allows maximum expressive range in stroke width and character. Standard writing instrument in East Asian calligraphic traditions (Chinese brush, Japanese *fude*). Also used for large-format technical drawings and signage.
 
-**[Steel nib pen](../glossary/steel-nib-pen.html)** (requires wire-drawing and stamping capability):
+**[Steel nib pen](../glossary/steel-nib-pen.md)** (requires wire-drawing and stamping capability):
 - Press-formed steel nib with slit, vent hole (prevents cracking and regulates ink flow), and shaped point. Fitted into wooden or metal holder. Mass-produced from the 1820s onward. More durable and consistent than quill — no resharpening. Could be dipped in ink (dip pen) or fitted with a rubber sac reservoir (fountain pen, patented 1884 by Lewis Waterman).
 
 ### Ink Formulation & Technical Drawing
 
 **Ink production**:
-- **[Iron gall ink](../glossary/iron-gall-ink.html)** (permanent, archival): Dissolve 40 g iron sulfate (FeSO₄·7H₂O, green vitriol) in 200 mL water. Separately, extract tannic acid by soaking 30 g crushed oak galls in 200 mL warm water for 24 hours. Mix solutions. Add 20 g gum arabic (acacia tree sap — binder, controls flow and adhesion). Ink starts pale gray, darkens to deep black as iron-tannate complex oxidizes over 1-2 days. Permanent on parchment and paper — chemically bonds to cellulose. THE standard writing ink of Western civilization for 1500+ years.
-- **[Carbon ink](../glossary/carbon-ink.html)** (India ink): Soot (lampblack from burning oil or resin) + gum arabic + water. Grind soot with gum in mortar to ultra-fine suspension. Waterproof when dry. Does not fade. Used for permanent records, drawing, and later for printing.
+- **[Iron gall ink](../glossary/iron-gall-ink.md)** (permanent, archival): Dissolve 40 g iron sulfate (FeSO₄·7H₂O, green vitriol) in 200 mL water. Separately, extract tannic acid by soaking 30 g crushed oak galls in 200 mL warm water for 24 hours. Mix solutions. Add 20 g gum arabic (acacia tree sap — binder, controls flow and adhesion). Ink starts pale gray, darkens to deep black as iron-tannate complex oxidizes over 1-2 days. Permanent on parchment and paper — chemically bonds to cellulose. THE standard writing ink of Western civilization for 1500+ years.
+- **[Carbon ink](../glossary/carbon-ink.md)** (India ink): Soot (lampblack from burning oil or resin) + gum arabic + water. Grind soot with gum in mortar to ultra-fine suspension. Waterproof when dry. Does not fade. Used for permanent records, drawing, and later for printing.
 - **Sepia ink**: Extracted from the ink sac of cuttlefish (*Sepia officinalis*). Warm brown color. Used for drawing and manuscript decoration. Limited supply (requires fishing), but produces an attractive, permanent brown tone.
 
 **Technical drawing instruments**:
@@ -119,17 +119,17 @@
 
 ### Early Record-Keeping Systems
 
-**[Clay token system](../glossary/clay-token-system.html)** (~8000 BCE, Near East):
+**[Clay token system](../glossary/clay-token-system.md)** (~8000 BCE, Near East):
 - Before writing, Mesopotamian communities used small clay tokens (geometric shapes — spheres, cones, disks, tetrahedra) to represent commodities: one sphere = one measure of grain, one cone = one jar of oil, one cylinder = one animal. Tokens sealed inside a hollow clay envelope (*bulla*) served as a contract or receipt — the tokens inside recorded the quantity, and the bulla's exterior could be impressed with the seals of the parties involved.
 - Problem: the contents of a sealed bulla cannot be verified without breaking it. Solution: impress the tokens on the wet clay surface of the bulla before sealing them inside. This created a visible record of the contents — the first written symbols.
 
-**[From tokens to tablets](../glossary/from-tokens-to-tablets.html)** (~3400 BCE):
+**[From tokens to tablets](../glossary/from-tokens-to-tablets.md)** (~3400 BCE):
 - The impressions on bullae evolved into systematic marks on flat clay tablets — the beginning of proto-cuneiform. The transition from three-dimensional tokens to two-dimensional impressed marks is the origin of abstract written numbers and commodity symbols. Within 300 years, these marks evolved from simple quantity records to full administrative accounts listing commodities, parties, dates, and transactions.
 - **Administrative revolution**: Writing enabled the management of large-scale economies — temple granaries distributing rations to thousands of workers, taxation of agricultural production, long-distance trade contracts. Without writing, societies larger than a few thousand people cannot maintain complex economic organization. Writing is therefore not merely a cultural achievement but a prerequisite for urban civilization.
 
 ### Scribal Training & Literacy
 
-**[Scribal education](../glossary/scribal-education.html)** (ancient model):
+**[Scribal education](../glossary/scribal-education.md)** (ancient model):
 - Training began in childhood (age 8-12). Student copied model texts repeatedly: first individual signs, then sign combinations, then complete compositions. Progressed from simple lists (vocabulary, metrological tables) to complex documents (legal contracts, mathematical problems, literary works).
 - **Materials**: Clay tablets for permanent exercises. Wax tablets for practice (erasable, reusable). Reference tablets: teacher writes model on left column, student copies on right column. Errors corrected by teacher's mark.
 - **Duration**: 5-10 years to achieve full scribal competence. Scribes held high social status — literacy was a rare, valuable technical skill. In ancient Mesopotamia, roughly 1-5% of the population was literate; in medieval Europe, similar rates until the printing press.
@@ -138,22 +138,22 @@
 ### Numeracy & Mathematical Notation
 
 **Development of numerical systems**:
-- **[Tally marks](../glossary/tally-marks.html)** (~40,000 BCE): Notched bones (Ishango bone, Lebombo bone) — earliest known counting records. One mark per item. Limited to small numbers, no arithmetic.
-- **[Clay token numerals](../glossary/clay-token-numerals.html)** (~8000-3500 BCE): Distinct token shapes for distinct commodities and quantities. Spherical token = "10", cone = "1" (small measure of grain). These tokens and their impressions on bullae are the direct ancestors of both writing and abstract numerals.
-- **[Sexagesimal system](../glossary/sexagesimal-system.html)** (Sumerian/Babylonian, ~3000 BCE): Base-60 number system. 60 is divisible by 2, 3, 4, 5, 6, 10, 12, 15, 20, 30 — convenient for fractions. Survives today in 60-second minutes, 60-minute hours, 360-degree circles. Written with two cuneiform signs: a vertical wedge for 1, a sideways wedge for 10. Place-value notation (position determines magnitude) — the earliest known positional number system. Lacked a zero symbol, causing ambiguity (e.g., "1 3" could be 1×60 + 3 = 63 or 1×3600 + 3 = 3603).
-- **[Egyptian hieratic numerals](../glossary/egyptian-hieratic-numerals.html)** (~3000 BCE): Base-10, additive notation (each symbol repeated — III = 3). Separate symbols for 1, 10, 100, 1000, 10,000, 100,000. Simple for recording quantities, cumbersome for calculation (no place value).
-- **[Hindu-Arabic numerals](../glossary/hindu-arabic-numerals.html)** (India ~500 CE, transmitted via Islamic world ~800 CE, Europe ~1200 CE): Base-10 positional notation with zero. The single most important mathematical notation ever developed. Zero serves dual function: as a placeholder (distinguishing 1, 10, 100) and as a number in its own right (enabling negative numbers and algebra). With this system, any number can be written with just 10 symbols, and arithmetic operations (addition, subtraction, multiplication, division) become mechanical procedures — impossible with Roman numerals or other additive systems.
+- **[Tally marks](../glossary/tally-marks.md)** (~40,000 BCE): Notched bones (Ishango bone, Lebombo bone) — earliest known counting records. One mark per item. Limited to small numbers, no arithmetic.
+- **[Clay token numerals](../glossary/clay-token-numerals.md)** (~8000-3500 BCE): Distinct token shapes for distinct commodities and quantities. Spherical token = "10", cone = "1" (small measure of grain). These tokens and their impressions on bullae are the direct ancestors of both writing and abstract numerals.
+- **[Sexagesimal system](../glossary/sexagesimal-system.md)** (Sumerian/Babylonian, ~3000 BCE): Base-60 number system. 60 is divisible by 2, 3, 4, 5, 6, 10, 12, 15, 20, 30 — convenient for fractions. Survives today in 60-second minutes, 60-minute hours, 360-degree circles. Written with two cuneiform signs: a vertical wedge for 1, a sideways wedge for 10. Place-value notation (position determines magnitude) — the earliest known positional number system. Lacked a zero symbol, causing ambiguity (e.g., "1 3" could be 1×60 + 3 = 63 or 1×3600 + 3 = 3603).
+- **[Egyptian hieratic numerals](../glossary/egyptian-hieratic-numerals.md)** (~3000 BCE): Base-10, additive notation (each symbol repeated — III = 3). Separate symbols for 1, 10, 100, 1000, 10,000, 100,000. Simple for recording quantities, cumbersome for calculation (no place value).
+- **[Hindu-Arabic numerals](../glossary/hindu-arabic-numerals.md)** (India ~500 CE, transmitted via Islamic world ~800 CE, Europe ~1200 CE): Base-10 positional notation with zero. The single most important mathematical notation ever developed. Zero serves dual function: as a placeholder (distinguishing 1, 10, 100) and as a number in its own right (enabling negative numbers and algebra). With this system, any number can be written with just 10 symbols, and arithmetic operations (addition, subtraction, multiplication, division) become mechanical procedures — impossible with Roman numerals or other additive systems.
 
-**[Mathematical and scientific notation](../glossary/mathematical-and-scientific-notation.html)** (essential for technical civilization):
-- **[Equals sign](../glossary/equals-sign.html)** (=): Robert Recorde, 1557 — "noe .2. thynges, can be moare equalle."
-- **[Decimal point](../glossary/decimal-point.html)** (or comma): Simon Stevin, 1585 — unified whole numbers and fractions into a single notation.
+**[Mathematical and scientific notation](../glossary/mathematical-and-scientific-notation.md)** (essential for technical civilization):
+- **[Equals sign](../glossary/equals-sign.md)** (=): Robert Recorde, 1557 — "noe .2. thynges, can be moare equalle."
+- **[Decimal point](../glossary/decimal-point.md)** (or comma): Simon Stevin, 1585 — unified whole numbers and fractions into a single notation.
 - **Exponential notation**: Descartes, 1637 — x², x³ for powers. Enables compact representation of physical laws (F = ma, E = mc²).
 - **Chemical notation**: Berzelius, 1814 — letter symbols for elements (H, O, C, Fe), subscript numbers for proportions (H₂O, Fe₂O₃). Molecular formulas convey exact chemical composition in minimal space. Structural formulas (Kekulé, 1865) add spatial arrangement — essential for organic chemistry.
 - **Engineering drawing conventions**: Third-angle or first-angle projection (standardize one — third-angle is conventional in North America, first-angle in Europe). Hatching for section cuts. Dimension lines with arrows. Tolerance notation (±0.05 mm). Surface finish symbols (Ra values). All of these must be standardized before any two workshops can exchange manufacturing specifications.
 
 ### Writing Systems Comparison
 
-**[Logographic vs. syllabic vs. alphabetic](../glossary/logographic-vs-syllabic-vs-alphabetic.html)** — choosing a system for bootstrap:
+**[Logographic vs. syllabic vs. alphabetic](../glossary/logographic-vs-syllabic-vs-alphabetic.md)** — choosing a system for bootstrap:
 
 | Feature | Logographic | Syllabic | Alphabetic |
 |---------|------------|----------|------------|
@@ -173,8 +173,8 @@
 ### Sealing, Authentication & Documents
 
 **Seal systems**:
-- **[Cylinder seals](../glossary/cylinder-seals.html)** (Mesopotamia, ~3500 BCE): Small cylinder of stone or shell (~2-3 cm long, 1-1.5 cm diameter) carved in reverse with a unique design. Rolled across wet clay to leave a continuous impressed frieze — serves as signature, authentication mark, and tamper evidence. Each seal is unique to its owner. Seals were worn on a cord around the neck and were among the most valued personal possessions. Applied to clay tablet envelopes, jar stoppers, and door lugs (clay tags sealing doors — if the seal is broken, the room has been entered).
-- **[Signet rings](../glossary/signet-rings.html)** (later development): Seal engraved on a metal ring — always available, cannot be misplaced. Used with wax seals on letters and documents. The impression in wax authenticates the document's origin and proves it has not been opened (broken wax = tampered document).
+- **[Cylinder seals](../glossary/cylinder-seals.md)** (Mesopotamia, ~3500 BCE): Small cylinder of stone or shell (~2-3 cm long, 1-1.5 cm diameter) carved in reverse with a unique design. Rolled across wet clay to leave a continuous impressed frieze — serves as signature, authentication mark, and tamper evidence. Each seal is unique to its owner. Seals were worn on a cord around the neck and were among the most valued personal possessions. Applied to clay tablet envelopes, jar stoppers, and door lugs (clay tags sealing doors — if the seal is broken, the room has been entered).
+- **[Signet rings](../glossary/signet-rings.md)** (later development): Seal engraved on a metal ring — always available, cannot be misplaced. Used with wax seals on letters and documents. The impression in wax authenticates the document's origin and proves it has not been opened (broken wax = tampered document).
 
 **Document formats for a bootstrap civilization**:
 - **Standard form design**: Every common document type should have a pre-printed (or pre-drawn) form with labeled fields — spaces for date, originator, recipient, subject, quantities, signatures/witnesses. Forms reduce ambiguity, ensure completeness, and speed up recording. Critical form types: work orders, material requisitions, inspection reports, inventory tallies, property records, contracts.

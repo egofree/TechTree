@@ -52,7 +52,7 @@ Modern utility turbines use impulse stages at the HP end and reaction stages in 
 
 ### Condenser Systems
 
-**[Surface condenser](../glossary/surface-condenser.html)** (standard for power generation):
+**[Surface condenser](../glossary/surface-condenser.md)** (standard for power generation):
 - Exhaust steam enters a shell-and-tube heat exchanger. Cooling water flows through thousands of tubes (20-30 mm diameter, brass or titanium). Steam condenses on the tube outer surfaces, dripping to a hotwell for recovery as feed water.
 - **Vacuum**: Condenser operates at 0.03-0.1 bar absolute pressure (96-97% vacuum). This dramatically increases the pressure differential across the turbine — the LP stages extract energy down to this vacuum rather than exhausting to atmosphere. Improves efficiency by 8-12 percentage points.
 - **Cooling water**: River water, sea water, or cooling tower circulation. Flow rate: ~50-100 m³ per MW of turbine output. Temperature rise across condenser: 8-12°C.

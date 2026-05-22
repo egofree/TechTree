@@ -15,7 +15,7 @@ Anti-reflection (AR) coatings reduce surface reflections, increasing light trans
 
 ### Vacuum Deposition Fundamentals
 
-Optical coatings are applied by **[thermal evaporation](../glossary/thermal-evaporation.html)** in a vacuum chamber — the most accessible deposition technology at bootstrap stage.
+Optical coatings are applied by **[thermal evaporation](../glossary/thermal-evaporation.md)** in a vacuum chamber — the most accessible deposition technology at bootstrap stage.
 
 **Vacuum requirements**:
 - Base pressure: 10⁻³ to 10⁻⁴ Pa (10⁻⁵ to 10⁻⁶ Torr). This ensures evaporated coating material travels in a straight line from source to substrate without scattering off residual gas molecules. Higher pressures cause porous, poorly adherent films with reduced optical quality.

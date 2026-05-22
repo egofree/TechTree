@@ -13,16 +13,16 @@ Beekeeping (apiculture) is the managed cultivation of honey bees (*Apis mellifer
 
 ### Hive Construction
 
-**[Log hive](../glossary/log-hive.html)** (simplest):
+**[Log hive](../glossary/log-hive.md)** (simplest):
 Hollow section of tree trunk 60-100 cm long, 30-50 cm diameter. Close both ends with fitted wooden discs secured with wedges or clay. Bore a single entrance hole 2-3 cm diameter near one end. Harvest by removing one end disc and cutting out comb — destructive to the colony. Requires no tools beyond axe, auger, and knife. Suitable for capturing wild swarms in forested areas. Yield: 5-10 kg honey per year.
 
-**[Skep](../glossary/skep.html)** (woven basket hive):
+**[Skep](../glossary/skep.md)** (woven basket hive):
 Inverted basket 30-40 cm diameter at base, 25-35 cm height. Woven from straw or willow withies reinforced with hazel sticks for rigidity. Coat exterior with cow dung mixed with clay for weatherproofing — dries to a hard, water-resistant shell. No internal structure; bees build comb freely attached to the interior walls. Harvest requires cutting comb out, which damages the colony. Skeps are portable and cheap to make — a skilled basket weaver produces one in 2-3 hours. Yield: 5-10 kg honey per year.
 
-**[Top-bar hive](../glossary/top-bar-hive.html)** (intermediate):
+**[Top-bar hive](../glossary/top-bar-hive.md)** (intermediate):
 Horizontal trough 80-120 cm long, 30-40 cm wide, with removable wooden bars 3-3.5 cm wide laid across the top as comb attachment points. Bees build comb downward from each bar. Allows non-destructive inspection and harvest by lifting individual bars. Constructed from planks (requires sawn lumber). Legs or elevated stand keeps hive 50-80 cm above ground for predator protection and ergonomics. Roof is a separate removable panel, tilted for rain runoff. Yield: 10-25 kg honey per year. The key advantage: colony survives harvest because individual combs can be removed without destroying the brood nest.
 
-**[Frame hive](../glossary/frame-hive.html)** (advanced — Langstroth design):
+**[Frame hive](../glossary/frame-hive.md)** (advanced — Langstroth design):
 Stackable rectangular boxes (supers) with precisely spaced removable frames. Each frame holds a sheet of wax or plastic foundation embossed with hexagonal cell pattern (5.2-5.4 mm cell diameter) that guides comb construction. Critical dimension: 7-9 mm bee space between frames and walls — bees respect this gap and do not glue surfaces together with propolis or comb. Requires precision woodworking (table saw or router for consistent dimensions). Expandable by adding supers above the brood chamber during honey flow; remove and extract honey without disturbing the brood. Yield: 15-25 kg honey per year. Standard frame sizes: deep (24 × 43 cm), medium (17 × 43 cm), shallow (14 × 43 cm).
 
 **Hive type comparison**:
@@ -52,12 +52,12 @@ The queen is 20-25 mm long (longer than workers at 12-15 mm), with a tapered abd
 **Worker lifecycle**:
 Egg (3 days) → larva (6 days, fed by nurse bees) → pupa (12 days, sealed in capped cell) → adult worker. Total development: 21 days from egg to emergence. Workers progress through age-based roles: nurse (days 1-10, tend brood), builder (days 10-18, secrete wax, build comb), guard (days 18-21, defend entrance), forager (days 21+, collect nectar, pollen, water, propolis). Summer workers live 4-6 weeks (foraging is fatal work — worn wings, predation). Winter workers (diutinus bees) live 4-6 months, surviving on stored honey in a tight cluster that maintains 20-35°C core temperature even when outside temperature drops below -20°C.
 
-**[Colony splitting](../glossary/colony-splitting.html)** (artificial swarm prevention):
+**[Colony splitting](../glossary/colony-splitting.md)** (artificial swarm prevention):
 When a colony is strong with 8+ frames of brood in spring, split into two colonies. Method: move 3-4 frames of brood, honey, and bees (including the old queen) to a new hive at least 3 m away. Leave the original hive with remaining frames; it will raise a new queen from a young larva (workers build an emergency queen cell and feed larva exclusively royal jelly — development to queen takes 16 days vs 21 for workers). Alternatively, introduce a purchased or reared mated queen to the queenless half for faster buildup. Splitting doubles hive count and prevents natural swarming.
 
 **Disease monitoring**:
-- **[Varroa destructor](../glossary/varroa-destructor.html)** mite: Primary threat to managed bees worldwide. External parasite that attaches to bees and feeds on fat body tissue. Weakens adults, transmits viruses (deformed wing virus). Monitor with sugar roll or alcohol wash — sample 300 bees, count mites. Treatment threshold: 2-3 mites per 100 bees. Treatments: oxalic acid drip (2-3% solution, applied in broodless period), formic acid pad, thymol crystals. Without treatment, most colonies collapse within 2-3 years.
-- **[American foulbrood](../glossary/american-foulbrood.html)** (AFB): Bacterial disease (*Paenibacillus larvae*) that kills bee larvae. Sunken, perforated cappings; ropiness test (toothpick in cell, draw out — infected larvae string out 2+ cm). Spores persist 50+ years in equipment. Treatment in most jurisdictions: burn infected hive and equipment. No cure once established — prevention by hygiene and not transferring contaminated frames between hives.
+- **[Varroa destructor](../glossary/varroa-destructor.md)** mite: Primary threat to managed bees worldwide. External parasite that attaches to bees and feeds on fat body tissue. Weakens adults, transmits viruses (deformed wing virus). Monitor with sugar roll or alcohol wash — sample 300 bees, count mites. Treatment threshold: 2-3 mites per 100 bees. Treatments: oxalic acid drip (2-3% solution, applied in broodless period), formic acid pad, thymol crystals. Without treatment, most colonies collapse within 2-3 years.
+- **[American foulbrood](../glossary/american-foulbrood.md)** (AFB): Bacterial disease (*Paenibacillus larvae*) that kills bee larvae. Sunken, perforated cappings; ropiness test (toothpick in cell, draw out — infected larvae string out 2+ cm). Spores persist 50+ years in equipment. Treatment in most jurisdictions: burn infected hive and equipment. No cure once established — prevention by hygiene and not transferring contaminated frames between hives.
 - **Nosema**: Fungal gut parasite (*Nosema apis*, *N. ceranae*). Dysentery (brown spotting on hive front), reduced lifespan. Treat with fumagillin or re-queen with resistant stock.
 
 **Colony size**:
@@ -110,7 +110,7 @@ Re-melt the rendered wax and filter through activated charcoal or fine filter pa
 - **Wound treatment**: Osmotic effect draws moisture from bacteria (dehydrating them). Glucose oxidase enzyme produces low levels of hydrogen peroxide (antiseptic). Low pH (3.2-4.5) inhibits microbial growth. Apply medical-grade honey directly to wounds — Manuka-type honey (high methylglyoxal content) is particularly effective.
 - **Mead fermentation**: 1 kg honey + 4 L water + yeast (*Saccharomyces cerevisiae*) → ~5 L mead at 8-12% ABV. Fermentation time: 2-6 weeks at 18-22°C. Honey's antimicrobial properties require adequate yeast pitching and nutrient supplements (fermentation nutrients, or add fruit juice for tannins and acids). Mead is the oldest fermented beverage — evidence dates to 7000 BCE in China.
 
-**[Beeswax](../glossary/beeswax.html)** (melting point 62-64°C, density 0.95 g/cm³):
+**[Beeswax](../glossary/beeswax.md)** (melting point 62-64°C, density 0.95 g/cm³):
 - **Investment casting (lost-wax method)**: Critical application for metallurgy — see [metals.copper-bronze](../metals/copper-bronze.md). Wax pattern → ceramic shell mold → melt out wax → pour molten metal. Enables complex shapes impossible with sand casting.
 - **Writing tablets**: Wooden frame filled with beeswax, inscribed with stylus, smoothed by gentle heating. Reusable writing surface — standard in antiquity before cheap paper.
 - **Candles**: Beeswax burns cleaner than tallow (no smoke, no rancid odor, brighter flame). Burn rate: 8-10 hours per 100 g. Dip wick (cotton or linen) repeatedly in melted wax to build up diameter.
@@ -123,10 +123,10 @@ Re-melt the rendered wax and filter through activated charcoal or fine filter pa
 **Propolis**:
 Resin mixture collected by bees from tree buds (especially poplar and birch), mixed with beeswax and enzymes. Bees use it to seal gaps and sterilize the hive interior. Antimicrobial (flavonoids, caffeic acid phenethyl ester). Human applications: wound treatment (antibacterial/antifungal), wood varnish (hard, water-resistant finish), tincture (propolis dissolved in alcohol for medicinal use). Yield: 50-100 g per hive per year.
 
-**[Royal jelly](../glossary/royal-jelly.html)** (advanced):
+**[Royal jelly](../glossary/royal-jelly.md)** (advanced):
 Secreted by nurse bees, fed exclusively to queen larvae. Nutritional supplement — contains proteins, fatty acids, B vitamins. Harvest requires specialized queen-rearing techniques. Limited yield and high labor.
 
-**[Venom](../glossary/venom.html)** (advanced):
+**[Venom](../glossary/venom.md)** (advanced):
 Bee venom (apitoxin) contains melittin (50% of dry weight), phospholipase A₂, and hyaluronidase. Used in immunotherapy for bee sting allergy (desensitization protocols). Collection requires electric stimulus frames. Yield: ~0.1 μg venom per bee per stimulation.
 
 ### Pollination Services
@@ -159,10 +159,10 @@ Minimal intervention. Bees form a tight cluster around the queen, maintaining 20
 
 ### Bootstrap Sequence
 
-1. **[Log hive / tree colony](../glossary/log-hive-tree-colony.html)** (Year 0-2): Harvest honey from wild colonies in hollow trees. Observe bee behavior. Learn to use smoke. Minimal investment — follow bees to their nests, cut out comb. Establish first managed log hives near settlements. Risk: destructive harvest weakens or kills colonies.
-2. **[Skep beekeeping](../glossary/skep-beekeeping.html)** (Year 2-5): Construct woven skeps. Bait and capture swarms. Learn seasonal management by observation. Harvest by cutting comb — accept colony losses. Begin rendering beeswax. Multiply colonies by collecting multiple swarms each spring.
-3. **[Top-bar hive](../glossary/top-bar-hive.html)** (Year 5-8): Construct top-bar hives from sawn lumber. Transfer colonies from skeps. Non-destructive inspection enables disease monitoring and swarm prevention. Honey yields double. Begin systematic pollination of adjacent crops. Select calm colonies for breeding.
-4. **[Frame hive with extraction](../glossary/frame-hive-with-extraction.html)** (Year 8-10+): Precision woodworking enables Langstroth-style frame hives. Centrifugal extractor preserves comb. Multiple supers per colony. Maximum yield. Queen rearing and colony multiplication under control. Pollination contracts for agriculture. Full product range (honey, wax, propolis) at commercial scale.
+1. **[Log hive / tree colony](../glossary/log-hive-tree-colony.md)** (Year 0-2): Harvest honey from wild colonies in hollow trees. Observe bee behavior. Learn to use smoke. Minimal investment — follow bees to their nests, cut out comb. Establish first managed log hives near settlements. Risk: destructive harvest weakens or kills colonies.
+2. **[Skep beekeeping](../glossary/skep-beekeeping.md)** (Year 2-5): Construct woven skeps. Bait and capture swarms. Learn seasonal management by observation. Harvest by cutting comb — accept colony losses. Begin rendering beeswax. Multiply colonies by collecting multiple swarms each spring.
+3. **[Top-bar hive](../glossary/top-bar-hive.md)** (Year 5-8): Construct top-bar hives from sawn lumber. Transfer colonies from skeps. Non-destructive inspection enables disease monitoring and swarm prevention. Honey yields double. Begin systematic pollination of adjacent crops. Select calm colonies for breeding.
+4. **[Frame hive with extraction](../glossary/frame-hive-with-extraction.md)** (Year 8-10+): Precision woodworking enables Langstroth-style frame hives. Centrifugal extractor preserves comb. Multiple supers per colony. Maximum yield. Queen rearing and colony multiplication under control. Pollination contracts for agriculture. Full product range (honey, wax, propolis) at commercial scale.
 
 ### Cross-Domain Links
 

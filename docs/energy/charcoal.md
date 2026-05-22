@@ -60,7 +60,7 @@ A permanent or semi-permanent kiln structure that significantly improves yield a
 - **Loading**: Pack wood tightly from bottom to top through the top opening. Close the top with an iron sheet or stone slab once loaded (leave a small vent).
 - **Ignition**: Ignite from bottom through the grate using kindling. The fire spreads upward through the wood charge.
 - **Air control**: Adjust air intake with a door or sliding damper at the base. More air = faster burn but more complete combustion (less yield). Less air = slower, more efficient carbonization.
-- **[Cover top](../glossary/cover-top.html)** with iron sheet or stone slab when smoking properly.
+- **[Cover top](../glossary/cover-top.md)** with iron sheet or stone slab when smoking properly.
 - **Yield**: ~30-40% by weight. Can be reused hundreds of times. More consistent quality than pit method.
 - **Cycle time**: 8-24 hours for firing, 12-24 hours cooling.
 
@@ -177,11 +177,11 @@ Different metallurgical processes require different charcoal grades, optimized f
 
 ## Cross-References
 
-- **[Coal & coke](../glossary/coal-coke.html)** (later fuel progression): [coal.md](coal.md), [coke.md](coke.md)
+- **[Coal & coke](../glossary/coal-coke.md)** (later fuel progression): [coal.md](coal.md), [coke.md](coke.md)
 - **Fuel comparison table**: [fuels.md](fuels.md)
-- **[Early iron smelting](../glossary/early-iron-smelting.html)** (primary consumer): [iron-steel.md](../metals/iron-steel.md)
+- **[Early iron smelting](../glossary/early-iron-smelting.md)** (primary consumer): [iron-steel.md](../metals/iron-steel.md)
 - **[Kiln construction](../ceramics/kilns.md)** (firing infrastructure): [kilns.md](../ceramics/kilns.md)
-- **[Wood and forestry](../glossary/wood-and-forestry.html)** (feedstock supply): [plants.md](../plants/index.md)
+- **[Wood and forestry](../glossary/wood-and-forestry.md)** (feedstock supply): [plants.md](../plants/index.md)
 
 ## Charcoal Gasification for Vehicle Fuel
 

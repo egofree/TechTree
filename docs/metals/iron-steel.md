@@ -36,7 +36,7 @@ Iron with 2-4.3% carbon — significantly more than wrought iron (<0.1% C) and s
 **Production — pig iron from blast furnace**:
 Blast furnace smelting produces pig iron with typical composition: ~4% C, ~1% Si, ~0.5% Mn, ~0.1% S, ~0.1% P. The high carbon content lowers the melting point from pure iron's 1538°C to ~1150-1200°C, making it fully liquid in the furnace. Pig iron is too brittle for most direct uses — it must be remelted and cast, or refined further into steel.
 
-**[Cupola furnace](../glossary/cupola-furnace.html)** (for remelting pig iron and scrap):
+**[Cupola furnace](../glossary/cupola-furnace.md)** (for remelting pig iron and scrap):
 - **Construction**: Cylindrical steel shell (~1-3 m diameter), lined with refractory brick. Charging door at middle height. Tuyeres (air nozzles) near the bottom connected to blower. Tap hole at the very bottom for molten iron. Slag hole slightly above the tap hole (slag floats on iron).
 - **Operation**: Layer coke (fuel) and pig iron/scrap (metal charge) alternately through the charging door. Ignite the coke bed, then turn on the air blast. Metal melts, drips down through coke, and accumulates in the well at the bottom. Open tap hole periodically to let iron flow into ladles for pouring into molds. Slag is tapped separately.
 - **Capacity**: Simple, fast, cheap — can melt 1-30 tonnes/hour depending on size. The workhorse of iron foundries. Can be operated intermittently — start and stop as needed.
@@ -46,7 +46,7 @@ Blast furnace smelting produces pig iron with typical composition: ~4% C, ~1% Si
 - **White cast iron**: Carbon present as cementite (Fe₃C, iron carbide) rather than graphite. Very hard and wear-resistant, but extremely brittle and unmachinable. Chilled castings (rapid cooling against metal mold) produce a white iron surface. Used as intermediate for malleable iron production, or in applications requiring abrasion resistance (rock crusher jaws, mill liners).
 - **Malleable iron**: Heat white iron castings at ~900°C for 40-80 hours (annealing). Cementite decomposes → graphite forms as discrete nodules (temper carbon) rather than flakes. The rounded nodules don't act as stress concentrators the way graphite flakes do → improved ductility and toughness vs. gray iron. Can handle moderate impact and bending. Used for pipe fittings, brackets, agricultural implements, hardware.
 
-**[Sand casting](../glossary/sand-casting.html)** (the primary molding method for cast iron):
+**[Sand casting](../glossary/sand-casting.md)** (the primary molding method for cast iron):
 1. Make a wooden pattern (slightly oversized to account for shrinkage — ~1% for cast iron).
 2. Pack molding sand (silica sand + 5-10% clay binder + 3-5% water) around the pattern in a two-part flask (cope and drag).
 3. Separate flask halves, remove pattern → cavity remains.
@@ -60,7 +60,7 @@ Blast furnace smelting produces pig iron with typical composition: ~4% C, ~1% Si
 
 **Steel production (carburization)**:
 - **Pack carburizing**: Pack wrought iron bars in charcoal dust inside sealed clay box. Heat to 900-950°C for 4-12 hours. Carbon from charcoal diffuses into iron surface. Produces 1-2 mm case depth per 4 hours. Result: low-carbon steel skin on wrought iron core.
-- **[Crucible steel (Wootz/Bulat method):](../glossary/crucible-steel-wootzbulat-method.html)** Place wrought iron + 1-3% carbon (charcoal powder or cast iron) in sealed clay crucible. Heat to 1450-1550°C (requires very good furnace + forced air) for 2-4 hours. Cool slowly. Produces homogeneous medium-to-high carbon steel (~0.8-1.5% C). This is the path to quality cutting tools and springs.
+- **[Crucible steel (Wootz/Bulat method):](../glossary/crucible-steel-wootzbulat-method.md)** Place wrought iron + 1-3% carbon (charcoal powder or cast iron) in sealed clay crucible. Heat to 1450-1550°C (requires very good furnace + forced air) for 2-4 hours. Cool slowly. Produces homogeneous medium-to-high carbon steel (~0.8-1.5% C). This is the path to quality cutting tools and springs.
 
 **Heat treatment**:
 - **Annealing**: Heat to 700-900°C (bright red), cool slowly (bury in ashes or lime). Softens steel for shaping. Essential after forging.
@@ -93,7 +93,7 @@ Blast furnace smelting produces pig iron with typical composition: ~4% C, ~1% Si
 
 ### Joining Metals — Forge Welding, Brazing & Soldering
 
-**[Forge welding](../glossary/forge-welding.html)** (the oldest welding method):
+**[Forge welding](../glossary/forge-welding.md)** (the oldest welding method):
 - **Principle**: Heat two pieces of iron/steel to bright yellow-white (~1300-1400°C) where the surface becomes pasty. Place together and hammer forcefully. The combination of heat, pressure, and clean surfaces causes a solid-state weld (atomic diffusion across interface).
 - **Flux**: Sprinkle clean silica sand or borax on joint surfaces before welding. Flux melts, dissolves surface oxide (scale), and prevents oxidation during heating — allowing metal-to-metal contact. Without flux, scale prevents a sound weld.
 - **Procedure**: Stack or overlap the pieces to be joined. Heat both evenly in forge fire. When metal reaches bright yellow-white (visible through scale breaking surface), quickly remove, brush off loose scale, apply flux if needed, position pieces on anvil, and strike firmly with hammer. Multiple rapid blows. Reheat and re-strike if needed for longer joints.
@@ -101,19 +101,19 @@ Blast furnace smelting produces pig iron with typical composition: ~4% C, ~1% Si
 - **Quality test**: Bend test — a good weld bends without opening at the joint. Poor welds crack at the seam (oxide inclusion or insufficient heat).
 - **Applications**: Welding iron bars into longer bars, making composite steel (pattern-welded blades), building up large forgings from smaller pieces, repairing broken tools, making chain links, hoop iron for barrels and wagon wheels.
 
-**[Brazing](../glossary/brazing.html)** (joining with filler metal, later stages):
+**[Brazing](../glossary/brazing.md)** (joining with filler metal, later stages):
 - **Principle**: Heat base metals to above the melting point of filler (but below their own melting point). Capillary action draws molten filler into the joint gap. On cooling, filler solidifies — strong joint without melting base metal.
 - **Brass brazing (spelter brazing)**: Filler = brass alloy (Cu + Zn, typically 60/40, melts ~900°C). Flux = borax (sodium borate) paste. Heat joint to bright red (~950°C). Apply brazing rod — brass melts, flows into joint by capillary action. Strong joint, higher temperature than soldering.
 - **Silver brazing (silver soldering)**: Filler = Ag-Cu-Zn alloy (melts 620-750°C depending on composition). Lower temperature than brass brazing, stronger than soft solder. Used for jewelry, instrument work, fine mechanisms. More expensive filler (requires silver).
 - **Applications**: Joining dissimilar metals, joining cast iron (difficult to forge weld), making watertight joints (pipes, tanks, heat exchangers), bicycle frames, tool joints.
 
-**[Soft soldering](../glossary/soft-soldering.html)** (lowest temperature joining):
+**[Soft soldering](../glossary/soft-soldering.md)** (lowest temperature joining):
 - **Solder**: Tin-lead alloy (60/40 Sn/Pb melts at ~190°C; 50/50 melts at ~215°C). Lead-free alternatives: tin-silver (Sn-3.5Ag, melts ~221°C), tin-copper (Sn-0.7Cu, melts ~227°C). Produce by melting tin and lead together in iron ladle.
 - **Flux**: Rosin (pine resin — dissolves oxides at soldering temperature), or zinc chloride solution (acidic — more aggressive cleaning, must be washed off after soldering to prevent corrosion). Make zinc chloride by dissolving zinc in hydrochloric acid.
 - **Procedure**: Clean joint surfaces to bare metal (file, sand, scrape). Apply flux. Heat joint with copper soldering iron (copper bit heated in flame or on stove, holds heat well due to high thermal conductivity — tip temperature ~250-350°C). Touch solder to heated joint — solder melts, flows into joint by capillary action. Remove heat, hold still until solidified.
 - **Applications**: Electrical connections (wire splices, terminals), plumbing (lead pipe joints, later copper pipe), tin-plated food containers, sheet metal seams (lanterns, ductwork), jewelry.
 
-**[Spring making](../glossary/spring-making.html)** (critical for mechanisms, locks, suspensions, valves):
+**[Spring making](../glossary/spring-making.md)** (critical for mechanisms, locks, suspensions, valves):
 - **Material**: High-carbon steel (0.6-1.0% C) or spring steel (silicon-manganese steel 0.5-0.7% C + 1.5-2% Si). Higher carbon = harder spring, but more brittle.
 - **Leaf spring**: Forge steel bar to flat taper. Heat to bright cherry red (~820°C). Bend over form or anvil horn to desired curve. Quench in oil (not water — water quenching high-carbon steel causes cracking). Temper at 350-450°C (light straw to brown oxide color) to relieve brittleness while maintaining elasticity. Stack multiple leaves (graduated lengths) for progressive spring rate. Bolt together with center bolt. For vehicle suspensions, the dominant spring type until coil springs.
 - **Coil spring**: Wind high-carbon steel wire (drawn through successively smaller dies) around mandrel of desired diameter. Heat to austenitizing temperature (~820°C for 0.8% C steel). Quench in oil. Temper at 300-400°C. Compression springs: closed and ground ends. Extension springs: hooks formed at ends.
@@ -151,7 +151,7 @@ The iron-carbon phase diagram defines the transformations that make steel unique
 - Also called IT (isothermal transformation) or C-curve diagrams. Plot transformation products vs. time at constant temperature for a given composition and austenite grain size.
 - **Upper region (550-727°C)**: Austenite transforms to **pearlite**. At higher temperatures (~650-727°C), coarse pearlite forms (lamellar spacing ~0.5-1 μm, hardness ~15-25 HRC). At lower temperatures (~550-650°C), fine pearlite or sorbite forms (spacing ~0.1-0.3 μm, hardness ~30-40 HRC). Transformation starts in seconds to minutes.
 - **Lower region (200-550°C)**: Austenite transforms to **bainite**. Upper bainite (350-550°C) consists of laths of ferrite with discrete cementite particles — moderate hardness (~40-50 HRC), good toughness. Lower bainite (200-350°C) has acicular (needle-like) ferrite plates with fine epsilon-carbide precipitates within the plates — high hardness (~45-55 HRC) with better toughness than martensite at equivalent hardness. Bainite forms over minutes to hours.
-- **Martensite region (below ~200°C for most carbon steels)**: If austenite is cooled fast enough to miss the pearlite and bainite noses on the TTT diagram, it transforms to **[martensite](../glossary/martensite.html)** by a diffusionless shear mechanism. Carbon atoms are trapped in the BCT (body-centered tetragonal) lattice, causing severe lattice strain — this is what makes martensite hard (50-65 HRC depending on carbon content). Martensite starts forming at the Ms temperature (~200-350°C depending on carbon content) and finishes at Mf (~-50 to 150°C). Transformation is instantaneous at each temperature — no holding time needed.
+- **Martensite region (below ~200°C for most carbon steels)**: If austenite is cooled fast enough to miss the pearlite and bainite noses on the TTT diagram, it transforms to **[martensite](../glossary/martensite.md)** by a diffusionless shear mechanism. Carbon atoms are trapped in the BCT (body-centered tetragonal) lattice, causing severe lattice strain — this is what makes martensite hard (50-65 HRC depending on carbon content). Martensite starts forming at the Ms temperature (~200-350°C depending on carbon content) and finishes at Mf (~-50 to 150°C). Transformation is instantaneous at each temperature — no holding time needed.
 - **Critical cooling rate**: The minimum cooling rate that avoids the pearlite nose entirely. For plain carbon steels, this is very fast (~100-600°C/second), requiring water quenching. This is why plain carbon steels have poor hardenability — only thin sections can be through-hardened.
 
 **Hardenability — Jominy end-quench test**:
@@ -160,7 +160,7 @@ The iron-carbon phase diagram defines the transformations that make steel unique
 - Plain carbon steels (10xx) show steep hardness drop-off — the quenched end is hard martensite but within 5-10 mm the hardness drops to pearlite levels. Alloy steels (41xx, 51xx, 86xx) maintain hardness much further from the quenched end due to alloying elements shifting the TTT curves to longer times (slower critical cooling rate).
 - **Practical significance**: Hardenability determines the maximum section size that can be through-hardened. A steel with high hardenability can be oil-quenched (less distortion, lower cracking risk) in larger sections and still achieve full martensite through the core.
 
-**[Surface hardening methods](../glossary/surface-hardening-methods.html)** (hard surface + tough core):
+**[Surface hardening methods](../glossary/surface-hardening-methods.md)** (hard surface + tough core):
 - **Carburizing**: Pack the part in carbonaceous material (charcoal + energizer like BaCO₃ or Na₂CO₃) and heat to 900-950°C for 4-12 hours. Carbon diffuses into the low-carbon steel surface, producing a high-carbon case (0.7-1.0% C) over a tough low-carbon core. Case depth: 0.5-2 mm (roughly 0.5 mm per 4 hours at 925°C). After carburizing, quench to harden the case. Used for: gears, camshafts, bearings, pins — any part requiring wear-resistant surface with impact-resistant core.
 - **Nitriding**: Heat medium-carbon steel (containing nitride-forming elements Al, Cr, Mo, V) to 500-590°C in ammonia gas (NH₃) atmosphere for 20-100 hours. Nitrogen from dissociated NH₃ diffuses into the surface and forms hard nitride precipitates (AlN, VN, CrN). Surface hardness 65-70 HRC (harder than carburized case). No quenching required — minimal distortion. Excellent fatigue life. Slow process but produces the hardest surface of any common treatment. Used for: precision gears, valve seats, injector nozzles, die surfaces.
 - **Induction hardening**: Place steel part inside water-cooled copper induction coil. High-frequency alternating current (10-500 kHz) induces eddy currents in the part surface, heating it to austenitizing temperature (850-950°C) within seconds. Immediately spray-quench with water. Only the surface layer transforms to martensite; the core remains unaffected. Case depth controlled by frequency: higher frequency = shallower case (0.5-2 mm at 200-500 kHz; 2-5 mm at 10-50 kHz). Fast, localized, repeatable — ideal for high-volume production. Used for: shaft journals, gear teeth, cam lobes, bearing seats, piston rods.
@@ -184,7 +184,7 @@ The mechanical properties of iron and steel must be verified at every stage — 
 - **Method**: A notched bar specimen (10 × 10 × 55 mm, 2 mm deep 45° V-notch) is struck by a swinging pendulum. The energy absorbed in fracturing the specimen is measured by the height the pendulum reaches after breaking the sample.
 - **Ductile-to-brittle transition temperature (DBTT)**: Test specimens at a range of temperatures (-80 to +100°C). BCC metals (ferritic steel) exhibit a sharp transition from ductile (high energy absorption, ~100-200 J) to brittle (low energy, ~5-30 J) fracture over a narrow temperature range. The DBTT is the temperature at which the fracture appearance is 50% ductile (fibrous) and 50% brittle (cleavage). For mild steel, DBTT is typically -20 to +20°C depending on composition and grain size.
 - **Significance**: The DBTT must be well below the minimum service temperature. Liberty ship failures (1942-1944) were caused by welds with DBTT above the North Atlantic water temperature — ships literally cracked in half. Grain refinement (killed steel practice, normalizing, microalloy additions of Nb, V, Ti) lowers DBTT. Higher carbon and phosphorus raise DBTT.
-- **[FCC metals](../glossary/fcc-metals.html)** (austenitic stainless, aluminum, copper) do not exhibit a DBTT — they remain ductile to cryogenic temperatures.
+- **[FCC metals](../glossary/fcc-metals.md)** (austenitic stainless, aluminum, copper) do not exhibit a DBTT — they remain ductile to cryogenic temperatures.
 
 **Hardness testing**:
 - **Brinell (HBW)**: 10 mm tungsten carbide ball pressed into the surface at 3000 kgf (for steel). Measure the indentation diameter with a low-power microscope. HBW = load / indentation area. Good for castings and forgings (large indentation averages out local variations). Range: 50-600 HBW.

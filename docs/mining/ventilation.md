@@ -44,30 +44,30 @@ When natural draft is insufficient, a fire at the base of the upcast shaft heats
 
 Mechanical fans provide controlled, reliable airflow regardless of weather or season. Two main types serve mine ventilation: centrifugal and axial.
 
-**[Centrifugal fan](../glossary/centrifugal-fan.html)** (industrial workhorse):
+**[Centrifugal fan](../glossary/centrifugal-fan.md)** (industrial workhorse):
 - Air enters the center of a spinning impeller (0.5-2 m diameter) and is thrown outward by centrifugal force into a spiral casing (volute). The impeller has backward-curved blades for efficiency or forward-curved blades for higher pressure at lower rotational speed.
 - Performance range: 5-50 m³/s airflow at 500-3000 Pa pressure. Impeller speed 500-2000 RPM. Power input: 5-100 kW depending on size and duty. Larger impellers produce more airflow at lower RPM; smaller impellers spin faster for higher pressure.
 - Construction: welded steel impeller, cast iron or welded steel housing. Shaft supported by two pillow block bearings (ball or roller type). V-belt drive from electric motor or steam engine allows speed adjustment by changing pulley sizes.
 - Advantages: robust, tolerant of dusty air (impeller is a simple welded fabrication, not precision airfoil blades), can be built in a basic workshop with welding and fabrication capability.
 
-**[Axial fan](../glossary/axial-fan.html)** (compact, high volume):
+**[Axial fan](../glossary/axial-fan.md)** (compact, high volume):
 - Propeller-like blades spinning inside a cylindrical housing. Air flows parallel to the shaft axis. Blade pitch adjustable (some designs allow pitch change while running, enabling airflow adjustment without changing motor speed).
 - Performance range: 10-200 m³/s at 200-2000 Pa. Higher volume than centrifugal for same physical footprint. Typically direct-coupled to electric motor for simplicity and efficiency.
 - Construction: cast or fabricated hub with bolted-on steel or aluminum blades. Cylindrical steel housing with guide vanes downstream of the impeller to recover swirl energy (the vane-axial type). Contra-rotating designs (two impellers spinning in opposite directions on the same shaft) double the pressure capability without increasing diameter.
 
 ### Ventilation Network Design
 
-**[Forcing system](../glossary/forcing-system.html)** (fan on intake side):
+**[Forcing system](../glossary/forcing-system.md)** (fan on intake side):
 - Fan pushes fresh air into the mine. The mine is pressurized relative to atmosphere (positive pressure of 100-500 Pa inside). Leakage tends to be outward (mine air escaping to surface through cracks and old workings), which is safer than inward leakage of contaminated air.
 - The fan handles clean, cool air, reducing blade wear and corrosion. But the fan and its motor are near the mine entrance, where noise and vibration may be a nuisance.
 - Intake airway must be sealed from exhaust airway throughout the mine. Doors, brattices (cloth or board partitions), and air crossings maintain separation at every junction.
 
-**[Exhausting system](../glossary/exhausting-system.html)** (fan on return side):
+**[Exhausting system](../glossary/exhausting-system.md)** (fan on return side):
 - Fan pulls air through the mine. The mine is under slight negative pressure relative to atmosphere. Leakage tends to be inward (surface air drawn in through cracks), which can bring contaminants from old workings or waste areas into the intake stream.
 - The fan handles contaminated, humid, warm return air. Dust and moisture accelerate blade wear. Fan housing and impeller must be corrosion-resistant (coated steel, stainless steel, or aluminum).
 - Advantage: fresh air enters through the main access (shaft or adit), so workers travel in clean air during entry and exit.
 
-**[Auxiliary ventilation](../glossary/auxiliary-ventilation.html)** (local supply to dead-end headings):
+**[Auxiliary ventilation](../glossary/auxiliary-ventilation.md)** (local supply to dead-end headings):
 - Main ventilation cannot reach the end of a single-entry heading (dead end). A fan and duct supply air to the working face.
 - Forcing auxiliary fan: pushes fresh air through duct (300-600 mm diameter, flexible reinforced plastic) to the face. Air returns along the heading naturally. Face gets fresh air immediately upon fan start.
 - Exhausting auxiliary fan: pulls contaminated air from the face through duct. Fresh air enters the heading naturally from the main ventilation. Better for dust and fume removal at the face, but the fan handles dirty air and needs more maintenance.
@@ -91,7 +91,7 @@ Minimum airflow rates for underground mines, calculated from the sum of all cont
 
 Methane (CH₄) seeps from coal seams and carbonaceous rock. It is colorless, odorless, and explosive at 5-15% concentration in air. Ignition temperature: 595°C. A single spark from a rock fall, electrical switch, or static discharge can trigger a detonation.
 
-**[Flame safety lamp](../glossary/flame-safety-lamp.html)** (Davy lamp and descendants):
+**[Flame safety lamp](../glossary/flame-safety-lamp.md)** (Davy lamp and descendants):
 - A oil flame burns inside a fine wire gauze cylinder (mesh ~28 wires per inch, ~0.5 mm openings). The gauze dissipates heat fast enough that the flame temperature on the outside never reaches methane's ignition point. The flame continues burning inside the gauze even when surrounded by explosive gas mixture.
 - In normal air, the flame burns blue and steady. In methane-laden air, a pale blue "cap" appears above the flame, growing taller with concentration. At 1-2% CH₄, the cap is barely visible (~5 mm tall). At 3-4%, the cap fills half the gauze. At 5%, the entire gauze glows blue. Above 5%, the flame may extinguish or flare inside the gauze, indicating immediate danger.
 - The lamp also detects oxygen deficiency: the flame dims and gutters below 16% O₂ (normal is 20.9%). Below 12% O₂, the flame extinguishes, and unconsciousness follows within minutes. This dual function made the lamp the single most important safety device in mining for over a century.
@@ -115,18 +115,18 @@ In deep mines (below 1000-1500 m), the virgin rock temperature reaches 35-50°C 
 
 Rock dust, especially crystalline silica (quartz), causes silicosis when inhaled. Particles smaller than 10 μm reach the bronchioles. Particles below 5 μm penetrate deep into the alveoli, where the body cannot expel them. Silicosis is irreversible, progressive, and fatal over 10-30 years of exposure.
 
-**[Water suppression](../glossary/water-suppression.html)** (primary defense, most effective):
+**[Water suppression](../glossary/water-suppression.md)** (primary defense, most effective):
 - Water jets at the drill bit (through hollow drill steel): 4-8 liters/min at 300-700 kPa. Catches 90-95% of dust at source, before it becomes airborne. This is the single most effective dust control measure.
 - Water sprays at crusher and conveyor transfer points: spray nozzles (2-4 mm orifice, 300-700 kPa water pressure) create a fine mist that wets dust particles and drives them to the ground. Typical installation: 4-8 nozzles per transfer point, totaling 10-30 liters/min.
 - Water barriers: curtains of water spray across airways after blasting to knock down airborne dust. Flow rate: 20-50 liters/min for 10-30 minutes after each blast. A properly deployed water barrier removes 60-80% of blast-generated dust from the airstream.
 
-**[Dust collectors](../glossary/dust-collectors.html)** (secondary defense):
+**[Dust collectors](../glossary/dust-collectors.md)** (secondary defense):
 - Dry-type dust collector: dusty air drawn through a fabric filter bag (cotton or synthetic felt, 0.5-2 m² filter area per m³/s of airflow). Filter captures particles > 1 μm. Bags are shaken or pulse-cleaned with compressed air periodically to maintain airflow.
 - Wet scrubber: dusty air passes through a water spray chamber or venturi scrubber. Water droplets capture dust particles by impaction. Collection efficiency 90-99% for particles > 2 μm, but lower for sub-micron particles. The water-dust slurry is settled in a tank and the water recycled.
 
-**[Respiratory protection](../glossary/respiratory-protection.html)** (last line of defense):
+**[Respiratory protection](../glossary/respiratory-protection.md)** (last line of defense):
 - **Disposable dust mask**: rated P1 (80% filtration at 0.3 μm), P2 (94%), P3/P100 (99.97%). For silica dust, only P100 class provides adequate protection. Disposable masks do not seal well on bearded faces or with safety glasses that break the face seal.
-- **[Half-face respirator](../glossary/half-face-respirator.html)** with P100 filter cartridges: tight seal required on face. Fit testing mandatory (quantitative fit test: the wearer performs exercises in a test aerosol, and the respirator must demonstrate a fit factor > 100). Inhalation resistance increases as filter loads with dust. Cartridges replaced when breathing becomes noticeably difficult or after 40-80 hours of use.
+- **[Half-face respirator](../glossary/half-face-respirator.md)** with P100 filter cartridges: tight seal required on face. Fit testing mandatory (quantitative fit test: the wearer performs exercises in a test aerosol, and the respirator must demonstrate a fit factor > 100). Inhalation resistance increases as filter loads with dust. Cartridges replaced when breathing becomes noticeably difficult or after 40-80 hours of use.
 - **Powered air-purifying respirator (PAPR)**: battery-driven fan (4-8 hours per charge) pulls air through HE filters and delivers clean air under positive pressure to a hood or full facepiece. No breathing resistance. Filter class HE (high efficiency, 99.97% at 0.3 μm). The positive pressure means that even a poor face seal does not allow contaminated air inward.
 
 ### Airway Resistance and Fan Sizing
@@ -134,18 +134,18 @@ Rock dust, especially crystalline silica (quartz), causes silicosis when inhaled
 Airflow through a mine is governed by fluid dynamics. The pressure drop across each airway segment depends on its dimensions and surface roughness:
 
 - **Atkinson's equation**: ΔP = R × Q², where ΔP is pressure drop (Pa), R is the airway resistance (Ns²/m⁸), and Q is airflow (m³/s). The quadratic relationship means that doubling the airflow requires four times the pressure.
-- **[Resistance](../glossary/resistance.html)** depends on cross-section, perimeter, length, and roughness. A 3×3 m heading with smooth concrete walls has a resistance of roughly 0.005 Ns²/m⁸ per 100 m length. The same heading with rough, timber-supported walls and scattered equipment has 2-5× higher resistance.
+- **[Resistance](../glossary/resistance.md)** depends on cross-section, perimeter, length, and roughness. A 3×3 m heading with smooth concrete walls has a resistance of roughly 0.005 Ns²/m⁸ per 100 m length. The same heading with rough, timber-supported walls and scattered equipment has 2-5× higher resistance.
 - **Fan selection**: calculate total mine resistance at design airflow, add 20-30% margin for future development and aging (airways roughen with time, new headings add resistance). Select a fan whose pressure-volume characteristic curve passes through this operating point at or near its peak efficiency (typically 65-80% for well-designed fans).
 
 ### Ventilation Surveying
 
 Measuring actual airflow and pressure distribution in an operating mine identifies problems: short-circuits (air bypassing working areas), recirculation (contaminated air drawn back into intake), and inadequate flow at individual faces.
 
-**[Anemometer](../glossary/anemometer.html)** (air velocity measurement):
+**[Anemometer](../glossary/anemometer.md)** (air velocity measurement):
 - A vane anemometer (rotating vanes, 75-100 mm diameter) measures air velocity in the range 0.3-15 m/s. The operator holds the anemometer at arm's length in the center of the airway and traverses it in a grid pattern for 60-120 seconds to obtain an average velocity reading. Multiply by the airway cross-sectional area to get volume flow (m³/s).
 - Hot-wire anemometer: a heated wire element cools in proportion to air velocity. Measures down to 0.1 m/s (useful for low-flow areas). More expensive and fragile than vane type.
 
-**[Smoke tubes](../glossary/smoke-tubes.html)** (airflow direction):
+**[Smoke tubes](../glossary/smoke-tubes.md)** (airflow direction):
 - A glass tube containing p-tolualdehyde generates white smoke when air is drawn through it with a rubber bulb. The smoke trail reveals airflow direction and approximate velocity in low-flow areas where anemometer readings are unreliable. Essential for checking that air is flowing in the intended direction at every junction.
 
 **Pressure survey**:

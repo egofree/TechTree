@@ -10,7 +10,7 @@
 **Phosphine (PH₃)**:
 - **Synthesis**: White phosphorus + KOH + H₂O → PH₃ + KPH₂O (boiling phosphorus with strong base). Or Ca₃P₂ + 3H₂O → 2PH₃ + 3Ca(OH)₂ (calcium phosphide + water).
 - **Purity**: Distill from reaction mixture (PH₃ bp -87.7°C). Dilute in H₂ or N₂ to ppm-level concentrations for semiconductor use. Use commercially-supplied cylinders with 100-1000 ppm PH₃ in H₂ (dramatically safer than handling pure phosphine).
-- **Toxicity**: Lethal at 50-100 ppm. Immediately Dangerous to Life or Health (IDLH) at 50 ppm. Symptoms: headache, nausea, pulmonary edema at low exposure; death at higher concentrations. Detect with electronic PH₃ monitors (electrochemical sensors), colorimetric tubes, or paper impregnated with silver nitrate (turns black in PH₃). **[Zero tolerance for leaks.](../glossary/zero-tolerance-for-leaks.html)**
+- **Toxicity**: Lethal at 50-100 ppm. Immediately Dangerous to Life or Health (IDLH) at 50 ppm. Symptoms: headache, nausea, pulmonary edema at low exposure; death at higher concentrations. Detect with electronic PH₃ monitors (electrochemical sensors), colorimetric tubes, or paper impregnated with silver nitrate (turns black in PH₃). **[Zero tolerance for leaks.](../glossary/zero-tolerance-for-leaks.md)**
 
 **Arsine (AsH₃)**:
 - **Synthesis**: Zn₃As₂ + 6HCl → 2AsH₃ + 3ZnCl₂. Or Na₃As + 3H₂O → AsH₃ + 3NaOH. Generate as needed, do not store.
@@ -21,7 +21,7 @@
 - **Synthesis**: 3NaBH₄ + 4BF₃ → 3NaBF₄ + 2B₂H₆ (sodium borohydride + boron trifluoride). Generate as needed.
 - **Toxicity**: IDLH at 15 ppm. Flammable (pyrophoric in some concentrations). Same rigorous handling as PH₃/AsH₃.
 
-**[Exhaust gas abatement](../glossary/exhaust-gas-abatement.html)** (critical safety system):
+**[Exhaust gas abatement](../glossary/exhaust-gas-abatement.md)** (critical safety system):
 - All dopant gas exhaust lines connect to dedicated abatement system. Burn exhaust gases at 800-1000°C (thermal oxidation). Resulting oxides captured: As₂O₃, P₂O₅, B₂O₃ — solid particulates trapped in HEPA filters, water-soluble compounds in wet scrubbers (NaOH solution). Scrubber water tested for heavy metals before discharge. Spent HEPA filters disposed as hazardous waste.
 
 ### Etch Gases
@@ -30,7 +30,7 @@
 - From chlor-alkali electrolysis (Chemistry). Compress into steel cylinders. Purity 99.5%+ for semiconductor use (further purified by distillation — Cl₂ bp -34°C).
 - Used for etching silicon, aluminum, and many metals. Dry etch: Cl₂ + Si → SiCl₄ (volatile, pumped away). Selective etching — Cl₂ etches silicon but not SiO₂ (or vice versa depending on conditions).
 
-**[Tetrafluoromethane (CF₄)](../glossary/tetrafluoromethane-cf.html)** and **Sulfur hexafluoride (SF₆)**:
+**[Tetrafluoromethane (CF₄)](../glossary/tetrafluoromethane-cf.md)** and **Sulfur hexafluoride (SF₆)**:
 - CF₄: C + 2F₂ → CF₄ (carbon + fluorine gas, 300-400°C). Or chloroform + HF → CF₄ (catalytic fluorination over Cr₂O₃ catalyst).
 - SF₆: S + 3F₂ → SF₆ (sulfur + fluorine gas). Burn sulfur in fluorine atmosphere.
 - Both used as plasma etch gases. In RF plasma, CF₄ dissociates → CF₃• + F•. Fluorine radicals etch SiO₂: SiO₂ + 4F• → SiF₄↑ + O₂. Adding O₂ to CF₄ plasma increases fluorine radical concentration (etches silicon faster). Adding CHF₂ to CF₄ plasma increases polymer deposition (selectively etches oxide over silicon).
@@ -62,7 +62,7 @@
 
 ### Etch Gases — Process Details
 
-**Fluorine-based etching chemistry**: Silicon etching relies on generation of atomic fluorine radicals in plasma: CF₄ + e⁻ → CF₃· + F· + e⁻. Fluorine radicals react with silicon: Si + 4F· → SiF₄ (volatile, bp -86°C). Etch rate depends on F· concentration, ion energy, and substrate temperature. Selectivity (etching Si vs SiO₂) controlled by gas chemistry: adding O₂ to CF₄ increases F· concentration (etches Si faster), adding CHF₃ or C₄F₈ increases polymer deposition on SiO₂ (protecting oxide — selective oxide etch). **[Bosch process](../glossary/bosch-process.html)** for deep silicon etching (MEMS, TSV): alternates etch step (SF₆ plasma → isotropic Si etch) and passivation step (C₄F₈ plasma → fluorocarbon polymer deposition) at 10-100 Hz cycling. Achieves vertical sidewalls with scalloping of 50-200 nm per cycle. Etch rate: 5-20 µm/min. Aspect ratio: up to 30:1.
+**Fluorine-based etching chemistry**: Silicon etching relies on generation of atomic fluorine radicals in plasma: CF₄ + e⁻ → CF₃· + F· + e⁻. Fluorine radicals react with silicon: Si + 4F· → SiF₄ (volatile, bp -86°C). Etch rate depends on F· concentration, ion energy, and substrate temperature. Selectivity (etching Si vs SiO₂) controlled by gas chemistry: adding O₂ to CF₄ increases F· concentration (etches Si faster), adding CHF₃ or C₄F₈ increases polymer deposition on SiO₂ (protecting oxide — selective oxide etch). **[Bosch process](../glossary/bosch-process.md)** for deep silicon etching (MEMS, TSV): alternates etch step (SF₆ plasma → isotropic Si etch) and passivation step (C₄F₈ plasma → fluorocarbon polymer deposition) at 10-100 Hz cycling. Achieves vertical sidewalls with scalloping of 50-200 nm per cycle. Etch rate: 5-20 µm/min. Aspect ratio: up to 30:1.
 
 **Chlorine-based etching**: Cl₂, BCl₃, HCl used for aluminum metallization etching. Chlorine radicals etch aluminum: 2Al + 6Cl· → 2AlCl₃ (volatile above 180°C). BCl₃ serves dual purpose: Cl source and native oxide (Al₂O₃) removal (BCl₃ + Al₂O₃ → AlCl₃ + B₂O₃). Aluminum etch requires heating the wafer chuck to 40-70°C to volatilize AlCl₃. Corrosion concern: residual Cl on etched surfaces attacks aluminum — post-etch passivation with CHF₃ or H₂O rinse required.
 

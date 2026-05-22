@@ -160,8 +160,8 @@ The critical unknowns are: (1) vanadium ion crossover rate through SEM Tech memb
 |--------|-------------------|---------------------------|-------------|
 | **Stack cost** | High (membrane dominated) | Low (membrane <$1/sq ft) | Moderate |
 | **$/kWh (system)** | $200-400 | Target ~$5/kWh stack | $100-150 |
-| **[Cycle life](../glossary/cycle-life.html)** | 10,000-20,000 | Unknown | 1,000-5,000 |
-| **[Duration](../glossary/duration.html)** | 4-12+ hours | Same (tank-dependent) | 1-4 hours |
+| **[Cycle life](../glossary/cycle-life.md)** | 10,000-20,000 | Unknown | 1,000-5,000 |
+| **[Duration](../glossary/duration.md)** | 4-12+ hours | Same (tank-dependent) | 1-4 hours |
 | **Safety** | Non-flammable electrolyte | Same | Thermal runaway risk |
 
 ## Scale-Up

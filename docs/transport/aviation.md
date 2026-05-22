@@ -14,7 +14,7 @@ Without propulsion technology, civilization is limited to ground and water trans
 
 ### Internal Combustion Engine for Aircraft
 
-**[Engine design](../glossary/engine-design.html)** (single-cylinder or twin-cylinder, air-cooled):
+**[Engine design](../glossary/engine-design.md)** (single-cylinder or twin-cylinder, air-cooled):
 - **Configuration**: Horizontally opposed twin (boxer) — compact, good balance, air cooling. Displacement 500-1200 cc. Power target 20-65 HP at 2000-3500 RPM. Weight target <30 kg (power-to-weight >0.5 HP/kg).
 - **Bore and stroke**: Bore 80-100 mm, stroke 70-90 mm. Undersquare (stroke < bore) favors higher RPM. Compression ratio 6:1 to 8:1 (limited by fuel octane — see fuel section).
 
@@ -44,14 +44,14 @@ Without propulsion technology, civilization is limited to ground and water trans
 - **Tuning**: Adjust main jet size for correct air-fuel ratio (stoichiometric: 14.7:1 for gasoline, slightly rich 12-13:1 for maximum power). Read spark plug color: white/gray = too lean (hot, engine damage), dark brown = correct, black/sooty = too rich (wasteful, fouls plugs). Adjust idle mixture screw for smooth idle.
 
 **Ignition system**:
-- **[Magneto](../glossary/magneto.html)** (self-contained, no battery needed — critical for aircraft reliability):
+- **[Magneto](../glossary/magneto.md)** (self-contained, no battery needed — critical for aircraft reliability):
   - Rotating magnet (mounted on engine camshaft or accessory drive) induces current in primary coil. Interrupter (points — mechanical switch, opened by cam on magneto shaft) breaks primary current → rapid magnetic field collapse → high voltage (10,000-30,000V) induced in secondary coil → current jumps spark plug gap → spark ignites mixture.
   - Spark plug: Steel shell with ceramic insulator (alumina). Center electrode (nickel alloy). Ground electrode (nickel alloy). Gap: 0.5-0.8 mm. Thread: 14 mm × 1.25 mm pitch (common size).
   - **Timing**: Spark occurs 20-35° before top dead center (BTDC) — flame front needs time to propagate across combustion chamber before piston reaches TDC for maximum pressure on power stroke. Adjustable via magneto-to-engine timing. Too advanced → detonation (knock — uncontrolled combustion, can destroy engine). Too retarded → loss of power, overheating.
 
 **Fuel**:
-- **[Gasoline](../glossary/gasoline.html)** (ideal): From petroleum distillation (Petrochemicals), 30-200°C fraction. Octane rating important — higher octane resists detonation at higher compression ratios. Early gasoline: 40-60 octane (limit compression to ~5:1). Tetraethyl lead (Pb(C₂H₅)₄) additive raises octane (lead deposits lubricate valves — but lead is toxic. Use only if necessary for engine reliability).
-- **[Ethanol](../glossary/ethanol.html)** (alternative): From fermentation (Petrochemicals). Octane ~100 (excellent anti-knock). Energy density ~60% of gasoline by volume → larger fuel tank needed. Hygroscopic (absorbs water). Attacks some rubber and metals. Carburetor jets must be enlarged ~30% (ethanol requires richer mixture — 9:1 stoichiometric vs. 14.7:1 for gasoline).
+- **[Gasoline](../glossary/gasoline.md)** (ideal): From petroleum distillation (Petrochemicals), 30-200°C fraction. Octane rating important — higher octane resists detonation at higher compression ratios. Early gasoline: 40-60 octane (limit compression to ~5:1). Tetraethyl lead (Pb(C₂H₅)₄) additive raises octane (lead deposits lubricate valves — but lead is toxic. Use only if necessary for engine reliability).
+- **[Ethanol](../glossary/ethanol.md)** (alternative): From fermentation (Petrochemicals). Octane ~100 (excellent anti-knock). Energy density ~60% of gasoline by volume → larger fuel tank needed. Hygroscopic (absorbs water). Attacks some rubber and metals. Carburetor jets must be enlarged ~30% (ethanol requires richer mixture — 9:1 stoichiometric vs. 14.7:1 for gasoline).
 - **Fuel consumption**: 200-300 g/HP/hour (specific fuel consumption). 40 HP engine burns 8-12 kg/hour gasoline. For 2-hour flight: 16-24 kg fuel.
 
 **Lubrication**: Total-loss splash system (simplest for aircraft). Oil reservoir in crankcase. Splash from crankshaft dipping in oil or oil slinger throws oil onto cylinder walls, bearings, cam. Oil eventually burns or leaks out — add oil periodically. Use castor oil (high-temperature stability, excellent lubricity, doesn't break down at engine temperatures) or mineral engine oil (SAE 30 or 40 weight).
@@ -146,11 +146,11 @@ Without propulsion technology, civilization is limited to ground and water trans
 
 ### Basic Instruments
 
-**[Altimeter](../glossary/altimeter.html)** (barometric):
+**[Altimeter](../glossary/altimeter.md)** (barometric):
 - An aneroid barometer calibrated in altitude. A sealed metal capsule (thin-walled brass or beryllium copper, partially evacuated) expands as atmospheric pressure decreases with altitude. A mechanical linkage converts capsule expansion to needle rotation on a dial marked 0-3000 m (or higher). Sensitivity: 10 m per hPa pressure change near sea level.
 - Setting: the altimeter reads correctly only if set to the local barometric pressure at the departure airfield before flight (QFE setting gives height above the airfield; QNH setting gives altitude above mean sea level). Forgetting to set the altimeter is a leading cause of controlled-flight-into-terrain accidents. Altimeter error in non-standard temperatures: cold air (denser than standard) causes the altimeter to over-read (aircraft is lower than indicated). Rule of thumb: 4% error per 10°C deviation from standard temperature.
 
-**[Airspeed indicator](../glossary/airspeed-indicator.html)** (pitot-static):
+**[Airspeed indicator](../glossary/airspeed-indicator.md)** (pitot-static):
 - A pitot tube (open-ended tube facing forward into the airstream) measures total pressure (static + dynamic). A static port (flush opening on the fuselage side) measures ambient static pressure. The instrument subtracts static from total pressure to obtain dynamic pressure: q = ½ρv². The dial is calibrated in km/h (or knots) assuming standard sea-level air density (1.225 kg/m³).
 - At altitude, air density is lower than at sea level, so the indicated airspeed reads lower than true airspeed. At 2000 m altitude (ρ = 1.0 kg/m³), an indicated airspeed of 80 km/h corresponds to a true airspeed of 80 × √(1.225/1.0) = 89 km/h. The pilot must apply a density altitude correction to get groundspeed for navigation.
 - Stalling speed, maneuvering speed, and structural limits are all functions of indicated airspeed, not true airspeed. The pilot flies by indicated airspeed regardless of altitude.

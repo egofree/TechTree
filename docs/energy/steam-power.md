@@ -8,7 +8,7 @@
 
 ### Steam Engines
 
-**[Newcomen-style atmospheric engine](../glossary/newcomen-style-atmospheric-engine.html)** (first practical steam engine, ~1712):
+**[Newcomen-style atmospheric engine](../glossary/newcomen-style-atmospheric-engine.md)** (first practical steam engine, ~1712):
 - **Principle**: Steam at atmospheric pressure fills cylinder. Cold water injected into cylinder condenses steam → vacuum → atmospheric pressure pushes piston down → work stroke.
 - **Critical component**: Cylinder, bored to close tolerance (~0.5 mm clearance over piston). Requires the Machine Tools stage (Wilkinson boring machine). Cylinder diameter 30-80 cm, stroke 1.5-3 m.
 - **Construction**:
@@ -19,7 +19,7 @@
 - **Performance**: ~5-15 HP. Efficiency ~0.5-1% (extremely wasteful of coal — but it pumped water from mines, which nothing else could do at scale).
 - **Cycle**: Steam in (piston rises) → cold water injection (steam condenses, vacuum, piston pulled down) → pump stroke → repeat. 6-12 strokes/minute.
 
-**[Watt-style separate condenser engine](../glossary/watt-style-separate-condenser-engine.html)** (~1769, massive efficiency improvement):
+**[Watt-style separate condenser engine](../glossary/watt-style-separate-condenser-engine.md)** (~1769, massive efficiency improvement):
 - **Key innovation**: Separate condenser kept cold, while cylinder stays hot. Eliminates the heating/cooling cycle that wasted most of the Newcomen engine's energy.
 - **Additional improvements**: Double-acting (steam pushes piston both directions — doubles power from same cylinder), rotative output (sun-and-planet gear or crank converts reciprocating to rotary motion), governor (centrifugal speed regulator), expansive working (cut off steam early, let expansion do remaining work).
 - **Construction**: Higher precision required — cylinder needs ~0.1 mm bore accuracy. Better piston sealing (oil-soaked hemp or leather packing).
@@ -41,12 +41,12 @@ Single-expansion engines waste most of the steam's energy — exhaust steam stil
 
 ### Boilers
 
-**[Fire-tube boilers](../glossary/fire-tube-boilers.html)** (Cochran, Lancashire, Cornish):
+**[Fire-tube boilers](../glossary/fire-tube-boilers.md)** (Cochran, Lancashire, Cornish):
 - Hot combustion gases pass through tubes surrounded by water. Large water volume = slow response but stores energy well. Maximum pressure ~10-15 bar (shell contains pressure — larger shell = thicker plate required).
 - **Lancashire boiler**: Two fire tubes through cylindrical shell. 6-9 m long, 2-2.5 m diameter. Steam production ~5000-10000 kg/hour. Thick steel shell (15-25 mm plate).
 - **Locomotive boiler**: Horizontal fire-tube with firebox at one end. High steaming rate for weight. Forced draft from exhaust steam blast pipe. Pressure 10-15 bar.
 
-**[Water-tube boilers](../glossary/water-tube-boiler.html)** (Babcock & Wilcox, Stirling):
+**[Water-tube boilers](../glossary/water-tube-boiler.md)** (Babcock & Wilcox, Stirling):
 - Water flows through tubes, combustion gases flow around them. Smaller water volume = faster response, higher pressure capability (20-100+ bar). Tubes are small diameter = thinner walls = safer at high pressure.
 - **Advantage**: If a tube fails, only that small volume flashes to steam — not the entire boiler contents. Inherently safer than fire-tube at high pressure.
 - **Use case**: Power generation (high-pressure, superheated steam for turbines).
@@ -67,7 +67,7 @@ Steam turbines replace reciprocating engines for power generation — no pistons
 
 ### Governors & Speed Control
 
-- **[Centrifugal flyball governor](../glossary/centrifugal-flyball-governor.html)** (Watt): Two rotating balls on hinged arms spin with engine output shaft. As speed increases, balls swing outward (centrifugal force), arms raise a sleeve that closes the steam throttle valve slightly. As speed decreases, balls drop, valve opens. Proportional control — simple, reliable, self-contained.
+- **[Centrifugal flyball governor](../glossary/centrifugal-flyball-governor.md)** (Watt): Two rotating balls on hinged arms spin with engine output shaft. As speed increases, balls swing outward (centrifugal force), arms raise a sleeve that closes the steam throttle valve slightly. As speed decreases, balls drop, valve opens. Proportional control — simple, reliable, self-contained.
 - **Hartnell governor**: Spring-loaded version with smaller physical size. Spring preload adjusts speed setting. More precise than gravity-based flyball, suitable for higher speeds.
 - **Cutoff control**: Adjusting the point in the stroke where steam admission stops (cutoff) controls both speed and efficiency. Early cutoff = less steam used = more efficient but less power. Late cutoff = more power but wasteful.
 
@@ -80,7 +80,7 @@ Valve gear controls the timing of steam admission and exhaust to the cylinder. I
 
 ### Boiler Construction (Detailed)
 
-**[Fire-tube boiler — Cornish / Lancashire type](../glossary/fire-tube-boiler-cornish-lancashire-type.html)** (workhorse of the Industrial Revolution):
+**[Fire-tube boiler — Cornish / Lancashire type](../glossary/fire-tube-boiler-cornish-lancashire-type.md)** (workhorse of the Industrial Revolution):
 - **Shell**: Cylindrical steel (or wrought iron) shell, riveted construction. Typical dimensions: 2 m diameter × 6 m length for ~50 HP output. Steel plate 8-12 mm thick for operating pressures of 7-10 atm (bar gauge).
 - **Fire tube(s)**: One (Cornish) or two (Lancashire) corrugated or plain cylindrical flues, 60-90 cm diameter, running the full length of the shell through the water space. Corrugated flues resist collapse under external pressure and provide more heating surface.
 - **Combustion**: Coal or wood fire on grate at front of each flue. Hot gases travel through flue to back, then return through side flues (Lancashire) or beneath the shell back to the front, then up the chimney. Three-pass design extracts maximum heat.
@@ -94,7 +94,7 @@ Valve gear controls the timing of steam admission and exhaust to the cylinder. I
   - **Fusible plug**: Lead or tin alloy core screwed into crown of fire tube. If water level drops below fire tube crown, the metal plug melts and steam/water sprays onto the fire, extinguishing it. Last-resort safety device.
 - **Steam dome**: Small vertical cylinder on top of main shell. Provides dry steam (separated from water spray and foam). Main steam outlet taken from top of dome.
 
-**[Water-tube boiler](../glossary/water-tube-boiler.html)** (higher pressure, faster response):
+**[Water-tube boiler](../glossary/water-tube-boiler.md)** (higher pressure, faster response):
 - **Principle**: Water flows through small-diameter tubes (50-100 mm OD). Combustion gases flow around the outside of the tubes. Tubes connect to upper steam drum and lower water drum (mud drum) via headers.
 - **Advantage over fire-tube**: Smaller water volume per tube = less stored energy = less explosive force if tube ruptures. Higher pressure capability (20-100+ bar) because small tubes withstand internal pressure better than large shells. Faster steam production (smaller water mass heats quicker).
 - **Disadvantage**: More complex construction (many tube joints, headers, drums). Higher initial cost. More sensitive to feed water quality (scale in narrow tubes causes rapid failure).
@@ -110,29 +110,29 @@ Valve gear controls the timing of steam admission and exhaust to the cylinder. I
 | Compound expansion | 1850-1920 | 5-15 bar | 100-2000 | 8-12% | HP + LP cylinders |
 | Triple expansion | 1880-1950 | 10-20 bar | 1000-5000 | 10-12% | HP→IP→LP, marine standard |
 
-**[Newcomen atmospheric engine](../glossary/newcomen-atmospheric-engine.html)** (historical starting point, ~1712):
+**[Newcomen atmospheric engine](../glossary/newcomen-atmospheric-engine.md)** (historical starting point, ~1712):
 - Steam at atmospheric pressure fills cylinder. Cold water injection condenses steam → vacuum → atmospheric pressure pushes piston down. Only downward power stroke — gravity returns piston. ~1% efficiency. 5-15 HP. Enormous coal consumption. But it pumped water from mines when nothing else could.
 
-**[Watt separate condenser](../glossary/watt-separate-condenser.html)** (~1769):
+**[Watt separate condenser](../glossary/watt-separate-condenser.md)** (~1769):
 - Cylinder stays hot; separate condenser stays cold. Eliminates the wasteful heating/cooling cycle. Double-acting (steam on both sides of piston). Sun-and-planet gear provides rotary output. Centrifugal governor regulates speed. ~3-5% efficiency. 10-100+ HP. Enabled factory power via line shaft.
 
-**[Cornish pumping engine](../glossary/cornish-pumping-engine.html)** (beam engine, optimized for mine drainage):
+**[Cornish pumping engine](../glossary/cornish-pumping-engine.md)** (beam engine, optimized for mine drainage):
 - Massive overhead beam rocks on central pivot. One end connected to steam cylinder, other to mine pump rod. Single-expansion but highly optimized — expansive working (cut off steam early, let expansion complete the stroke), lagged cylinder (insulated), high-temperature steam. Achieved 5-8% efficiency — best of any single-expansion engine. Beam spans 3-10 m. Stroke 1.5-3 m. 50-200+ HP. Operated pumping houses in mining districts worldwide.
 
-**[Compound expansion engine](../glossary/compound-expansion-engine.html)** (HP + LP cylinders):
+**[Compound expansion engine](../glossary/compound-expansion-engine.md)** (HP + LP cylinders):
 - Boiler steam enters high-pressure (HP) cylinder (small diameter, e.g., 20 cm). After expanding in HP cylinder, exhaust steam still carries significant pressure — feeds into larger low-pressure (LP) cylinder (e.g., 60 cm diameter). The LP cylinder accommodates expanded steam volume while maintaining useful piston force. ~30-40% more efficient than single-expansion at same boiler pressure. Enables 100-2000 HP at moderate pressures (5-15 bar).
 
-**[Triple expansion engine](../glossary/triple-expansion-engine.html)** (HP → IP → LP):
+**[Triple expansion engine](../glossary/triple-expansion-engine.md)** (HP → IP → LP):
 - Three cylinders of increasing diameter. Steam expands through HP, then intermediate-pressure (IP), then LP cylinder. The LP cylinder may be 3-4× the diameter of the HP cylinder. ~10% thermal efficiency. 1000-5000 HP. Standard for marine propulsion from ~1880 until steam turbines replaced them. Condensing operation (exhaust to vacuum) further improves efficiency.
 
 ### Operating Procedure
 
-**[Cold start](../glossary/cold-start.html)** (from ambient temperature to full operation):
+**[Cold start](../glossary/cold-start.md)** (from ambient temperature to full operation):
 1. **Inspect**: Check water gauge, pressure gauge, safety valves (lift by hand to verify free movement). Verify blowdown valve is closed. Check fusible plug intact.
 2. **Fill boiler**: Pump feed water to working level (visible in sight glass, typically 2/3 full). Use pre-heated water if available (reduces thermal shock).
 3. **Build fire**: Start kindling fire on grate. Small fire only for first 30-60 minutes. Goal: warm boiler slowly to avoid thermal stress from uneven expansion. Fire tube boilers with large water mass take 1-2 hours to reach working pressure from cold.
 4. **Raise pressure**: Gradually increase firing rate. Watch pressure gauge. Steam will begin to form when water reaches 100°C; pressure builds as steam is trapped. Target working pressure over 1-2 hours — never rush a cold start.
-5. **Test safety valves**: As pressure approaches set point, verify safety valves open correctly. They should hiss and release steam at their set pressure. If they don't open — **[shut down immediately](../glossary/shut-down-immediately.html)** and repair before proceeding.
+5. **Test safety valves**: As pressure approaches set point, verify safety valves open correctly. They should hiss and release steam at their set pressure. If they don't open — **[shut down immediately](../glossary/shut-down-immediately.md)** and repair before proceeding.
 6. **Warm engine**: Open cylinder drain cocks (small valves at bottom of each cylinder). Crack throttle (open steam valve slightly). Steam flows into cold cylinder, condenses, drains out through cocks. Cycle engine slowly. When cylinder is warm (drain cocks blow steam instead of water), close drain cocks.
 7. **Apply load**: Gradually open throttle to full working position. Monitor engine speed with governor response.
 

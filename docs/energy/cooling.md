@@ -9,11 +9,11 @@
 
 ### Overview
 
-Refrigeration moves heat from a cold region to a hot region using external energy — it does not "make cold" but pumps heat against its natural gradient. Two principal cycles serve bootstrap industry: **[absorption refrigeration](../glossary/absorption-refrigeration.html)** (heat-driven, no moving parts in the refrigerant circuit, usable with waste heat or flame) and **[vapor-compression refrigeration](../glossary/vapor-compression-refrigeration.html)** (mechanically driven, higher COP, requires electric motor or engine). Both cycles depend on a refrigerant that evaporates at low temperature (absorbing heat) and condenses at higher temperature (rejecting heat). Ice manufacturing and cold storage extend these cycles into practical food preservation and process cooling.
+Refrigeration moves heat from a cold region to a hot region using external energy — it does not "make cold" but pumps heat against its natural gradient. Two principal cycles serve bootstrap industry: **[absorption refrigeration](../glossary/absorption-refrigeration.md)** (heat-driven, no moving parts in the refrigerant circuit, usable with waste heat or flame) and **[vapor-compression refrigeration](../glossary/vapor-compression-refrigeration.md)** (mechanically driven, higher COP, requires electric motor or engine). Both cycles depend on a refrigerant that evaporates at low temperature (absorbing heat) and condenses at higher temperature (rejecting heat). Ice manufacturing and cold storage extend these cycles into practical food preservation and process cooling.
 
 ### Absorption Refrigeration
 
-**[Ammonia-water system](../glossary/ammonia-water-system.html)** (the first practical refrigeration cycle, industrially deployed from the 1850s):
+**[Ammonia-water system](../glossary/ammonia-water-system.md)** (the first practical refrigeration cycle, industrially deployed from the 1850s):
 
 - **Working pair**: Ammonia (NH₃) as refrigerant, water (H₂O) as absorbent. Ammonia boils at -33.3°C at atmospheric pressure, making it ideal for below-freezing applications.
 - **Generator** (desorber): Strong ammonia-water solution (typically 35-40% NH₃ by weight) heated to 80-150°C by steam, flame, or waste heat. Heat drives ammonia vapor out of solution. Pressure in generator: 10-15 bar.
@@ -22,14 +22,14 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 - **Evaporator**: Low-pressure liquid ammonia evaporates in coils immersed in brine tank or air duct, absorbing heat from the surroundings. This is the cooling effect. Evaporating at -10 to -33°C depending on pressure.
 - **Absorber**: Ammonia vapor from evaporator is absorbed by weak solution returning from generator. Absorption is exothermic — requires cooling water (20-30°C). The strong solution is pumped back to generator by a small liquid pump (the ONLY moving part in the refrigerant circuit, requiring ~0.5-2 kW for a 100 kW cooling capacity unit).
 - **Solution heat exchanger**: Recover heat between hot weak solution leaving generator and cold strong solution entering generator. Improves COP from ~0.3 to ~0.5-0.7.
-- **[COP](../glossary/cop.html)** (Coefficient of Performance): 0.4-0.7 (cooling output ÷ heat input). Lower than vapor-compression, but fueled by waste heat that would otherwise be discarded.
+- **[COP](../glossary/cop.md)** (Coefficient of Performance): 0.4-0.7 (cooling output ÷ heat input). Lower than vapor-compression, but fueled by waste heat that would otherwise be discarded.
 - **Heat source temperature**: Minimum 80°C for single-effect. Double-effect units (using two generators in series) require 150-200°C but achieve COP 1.0-1.4.
 - **Advantages**: Few moving parts, heat-driven (works with steam, exhaust gas, solar thermal), no electricity required for small units. Ideal for bootstrap phase where electricity is scarce.
 - **Limitations**: Bulky, lower COP, ammonia toxicity (see Safety).
 
 ### Vapor-Compression Refrigeration
 
-**[The dominant modern cycle](../glossary/the-dominant-modern-cycle.html)** (requires electric motor or engine drive):
+**[The dominant modern cycle](../glossary/the-dominant-modern-cycle.md)** (requires electric motor or engine drive):
 
 - **Compressor**: Raises refrigerant vapor from low pressure (evaporator) to high pressure (condenser). Four types, in order of complexity:
   - **Reciprocating (piston)**: 2-16 cylinders, 500-3000 RPM. Capacity 5-500 kW. Requires crankshaft, pistons, valves (reed or ring plate), connecting rods — directly builds on internal combustion engine machining skills. Volumetric efficiency ~65-85%.
@@ -56,7 +56,7 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 
 ### Ice Manufacturing
 
-**[Can ice system](../glossary/can-ice-system.html)** (the earliest industrial ice production method):
+**[Can ice system](../glossary/can-ice-system.md)** (the earliest industrial ice production method):
 
 - **Brine tank**: Large insulated tank (concrete or steel-lined wood) filled with calcium chloride (CaCl₂) brine, maintained at -10 to -15°C. Brine specific gravity: 1.20-1.26 (23-28% CaCl₂ by weight). Brine must not freeze at operating temperature — CaCl₂ eutectic is -55°C at 29.6%.
 - **Ice cans**: Rectangular sheet-metal molds (typically 25-150 kg capacity), filled with clean water, immersed in brine tank. Brine circulates around cans by stirrer or pump.
@@ -65,12 +65,12 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 - **Harvesting**: Hoist cans from brine, dip briefly in warm water tank to release ice block from can walls. Dump ice block onto conveyor or slide.
 - **Daily capacity**: A 3 × 6 meter brine tank with 100-200 cans produces 5-20 tonnes of ice per day depending on refrigeration capacity and can size.
 
-**[Plate ice and flake ice](../glossary/plate-ice-and-flake-ice.html)** (continuous production, later development):
+**[Plate ice and flake ice](../glossary/plate-ice-and-flake-ice.md)** (continuous production, later development):
 - Refrigerant flows inside vertical plates; water flows over outside surface. Ice forms as 5-15 mm layer, harvested by hot-gas defrost cycle. Higher throughput but more complex machinery.
 
 ### Cold Storage Design
 
-**[Insulation materials](../glossary/insulation-materials.html)** (in order of availability):
+**[Insulation materials](../glossary/insulation-materials.md)** (in order of availability):
 
 | Material | Thermal conductivity (W/m·K) | Typical thickness | Notes |
 |----------|------------------------------|-------------------|-------|

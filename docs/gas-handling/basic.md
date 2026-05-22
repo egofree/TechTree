@@ -27,11 +27,11 @@
 
 | Material | Service | Temperature Range | Notes |
 |----------|---------|-------------------|-------|
-| **[Copper](../glossary/copper.html)** | High-temperature steam, oxygen | up to 600°C | Soft metal, seals by plastic deformation. Used in high-pressure and high-temp flanges. |
-| **[Viton (FKM)](../glossary/viton-fkm.html)** | Aggressive chemicals, fuel gases | -20°C to 200°C | Fluorocarbon elastomer. Resists most organics, acids, chlorine. Swells in ketones. |
-| **[PTFE (Teflon)](../glossary/ptfe-teflon.html)** | High-purity gas, corrosive service | -200°C to 260°C | Chemically inert, non-outgassing. Poor creep resistance — use filled PTFE (glass or carbon) for bolted flanges. |
-| **[Compressed fiber](../glossary/compressed-fiber.html)** | Steam, water, inert gases | up to 400°C | Traditional gasket material (asbestos historically, now aramid or glass fiber). Good for utility services. |
-| **[Rubber (NBR/EPDM)](../glossary/rubber-nbrepdm.html)** | Air, water, inert gases at moderate temp | -30°C to 120°C | Cheap, forgiving. Not for hydrocarbons (NBR) or steam (EPDM preferred). |
+| **[Copper](../glossary/copper.md)** | High-temperature steam, oxygen | up to 600°C | Soft metal, seals by plastic deformation. Used in high-pressure and high-temp flanges. |
+| **[Viton (FKM)](../glossary/viton-fkm.md)** | Aggressive chemicals, fuel gases | -20°C to 200°C | Fluorocarbon elastomer. Resists most organics, acids, chlorine. Swells in ketones. |
+| **[PTFE (Teflon)](../glossary/ptfe-teflon.md)** | High-purity gas, corrosive service | -200°C to 260°C | Chemically inert, non-outgassing. Poor creep resistance — use filled PTFE (glass or carbon) for bolted flanges. |
+| **[Compressed fiber](../glossary/compressed-fiber.md)** | Steam, water, inert gases | up to 400°C | Traditional gasket material (asbestos historically, now aramid or glass fiber). Good for utility services. |
+| **[Rubber (NBR/EPDM)](../glossary/rubber-nbrepdm.md)** | Air, water, inert gases at moderate temp | -30°C to 120°C | Cheap, forgiving. Not for hydrocarbons (NBR) or steam (EPDM preferred). |
 
 ### Compressor Types
 
@@ -83,7 +83,7 @@
 - **PTFE (Teflon)**: Flexible tubing for low-pressure (<3 bar) connections. Chemically inert to nearly all gases. Permeable to some gases (He, H₂ diffuse through PTFE walls). Used for short flexible connections between regulators and equipment.
 
 **Fitting types**:
-- **[Compression fittings](../glossary/compression-fittings.html)** (Swagelok-type): Three-piece design: body, front ferrule (stainless or brass), back ferrule. Tighten nut → ferrules compress onto tube outer surface, creating a metal-to-metal seal. Removable and re-sealable. Tube must be fully inserted and nut tightened to the specified number of turns past finger-tight (typically 1-1/4 turns for new fittings). Do not mix ferrules from different manufacturers.
+- **[Compression fittings](../glossary/compression-fittings.md)** (Swagelok-type): Three-piece design: body, front ferrule (stainless or brass), back ferrule. Tighten nut → ferrules compress onto tube outer surface, creating a metal-to-metal seal. Removable and re-sealable. Tube must be fully inserted and nut tightened to the specified number of turns past finger-tight (typically 1-1/4 turns for new fittings). Do not mix ferrules from different manufacturers.
 - **Flanged connections**: For tubing >25 mm diameter. Flat-faced or raised-face flanges bolted together with gasket between. Standardized by pressure class (Class 150, 300, 600, etc.). Bolt torque in crisscross pattern for even gasket compression. Allow re-torque after first thermal cycle.
 
 ### Gas Detection Systems
@@ -96,7 +96,7 @@
 - **Electrochemical cell**: Oxygen diffuses through a membrane and reacts at an electrode, generating a current proportional to concentration. Compact, inexpensive. Cell life 1-2 years (consumed by the reaction). Measures 0-25% O₂. Used for portable monitors and confined space entry.
 
 **Toxic gas detection**:
-- **[Electrochemical cells](../glossary/electrochemical-cells.html)** (gas-specific): Each cell is designed for one target gas. H₂S cell: 0-50 ppm or 0-100 ppm range, alarm at 10 ppm (TWA) and 15 ppm (STEL). CO cell: 0-500 ppm, alarm at 25 ppm (TWA) and 100 ppm (STEL). Cl₂ cell: 0-10 ppm. Cell life 1-3 years. Cross-sensitivity exists (H₂S sensors may respond to SO₂, etc.) — review manufacturer data.
+- **[Electrochemical cells](../glossary/electrochemical-cells.md)** (gas-specific): Each cell is designed for one target gas. H₂S cell: 0-50 ppm or 0-100 ppm range, alarm at 10 ppm (TWA) and 15 ppm (STEL). CO cell: 0-500 ppm, alarm at 25 ppm (TWA) and 100 ppm (STEL). Cl₂ cell: 0-10 ppm. Cell life 1-3 years. Cross-sensitivity exists (H₂S sensors may respond to SO₂, etc.) — review manufacturer data.
 - **Gas cabinet ventilation**: Enclose toxic gas cylinders in a ventilated gas cabinet. Face velocity 100-200 fpm (0.5-1.0 m/s) at the cabinet access opening. Exhaust to outside, never recirculate. Install leak detection interlock: if the gas detector alarms, automatic shutoff valve closes the cylinder, ventilation runs at maximum, and audible/visual alarms activate. Emergency shutoff accessible from outside the cabinet.
 
 ### Gas Purification and Drying
@@ -114,7 +114,7 @@
 
 ### Specialized Gas Handling
 
-**[Acetylene handling](../glossary/acetylene-handling.html)** (exceptionally dangerous gas):
+**[Acetylene handling](../glossary/acetylene-handling.md)** (exceptionally dangerous gas):
 - **Properties**: Acetylene (C₂H₂) is unstable and can decompose explosively without oxygen at pressures above ~2 bar. It cannot be stored in plain steel cylinders like other gases.
 - **Cylinder design**: Acetylene cylinders are filled with a porous material (calcium silicate or diatomaceous earth) soaked with acetone. Acetylene dissolves in the acetone (acetone dissolves ~25× its own volume of acetylene at 15 bar). The porous matrix prevents any decomposition from propagating through the cylinder. Maximum withdrawal rate: 1/7 of cylinder contents per hour (faster withdrawal carries acetone out of the cylinder, depleting the stabilizer).
 - **Piping restrictions**: Never use copper or copper alloys (>65% Cu) for acetylene service (forms explosive copper acetylide). Use steel or brass (copper <65%). Never use unalloyed silver solder. Maximum pressure in distribution lines: 1.5 bar.

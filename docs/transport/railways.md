@@ -14,7 +14,7 @@
 - **Sleepers (ties)**: Timber (treated with creosote or tar), 2.4-2.7 m long × 20-25 cm wide × 12-15 cm thick. Spaced every 0.6-0.8 m. Rails spiked to sleepers with cut spikes (L-shaped iron spikes driven into wood).
 - **Grade**: Maximum 2-3% for steam locomotives. Minimum curve radius 150-300 m. Gentle grades and curves = lower fuel consumption, higher speed, less wear.
 
-**[Steam locomotive](../glossary/steam-locomotive.html)** (Energy):
+**[Steam locomotive](../glossary/steam-locomotive.md)** (Energy):
 - **Boiler**: Fire-tube boiler (fire tubes carry hot gas through water space). Pressure 0.7-1.5 MPa. Diameter 1-1.5 m, length 3-5 m. 50-200 fire tubes, 5 cm diameter each. Coal-fired firebox at one end, smokebox and chimney at other. Steam dome on top for dry steam collection.
 - **Cylinders**: 2 cylinders, 30-50 cm bore, 40-60 cm stroke. Steam admitted alternately on each side of piston (double-acting). Slide valve or piston valve, actuated by Stephenson valve gear (link motion — adjustable cutoff for steam economy). Operating pressure: 0.7-1.0 MPa.
 - **Power**: 50-200 HP. Speed: 30-80 km/h. Tractive effort: 2000-10000 kgf. Haul 50-200 tonnes on level track.

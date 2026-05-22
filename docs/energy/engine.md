@@ -12,7 +12,7 @@ Internal combustion engines convert chemical energy in fuel directly into mechan
 
 Invented by Nikolaus Otto (1876). The dominant engine for road vehicles and small aircraft.
 
-**[Four-stroke cycle](../glossary/four-stroke-cycle.html)** (two crankshaft revolutions per power stroke):
+**[Four-stroke cycle](../glossary/four-stroke-cycle.md)** (two crankshaft revolutions per power stroke):
 
 1. **Intake stroke**: Piston moves down. Intake valve opens. Fuel-air mixture (from carburetor or fuel injector) drawn into cylinder. Typical mixture: 14.7:1 air-to-fuel ratio by mass (stoichiometric for gasoline).
 2. **Compression stroke**: Both valves close. Piston moves up, compressing mixture to 8-12× atmospheric pressure (compression ratio 8:1 to 12:1). Compressed mixture reaches 400-600°C.

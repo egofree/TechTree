@@ -12,7 +12,7 @@
 
 SEM Tech (Salt Electro Mining Technology) is an open-source approach to ion exchange membrane manufacturing and electrochemical processing, developed by Robert Karas of Rowow LLC. The core innovation is a method for producing homogeneous ion exchange membranes from off-the-shelf commercial water softener resin beads, at a cost of less than $1 per square foot -- compared to $100-400 per square foot for conventional membranes like Nafion.
 
-The technology targets chlor-alkali electrolysis as its primary application but extends to mining, redox flow batteries, fuel cells, water treatment, and electrorefining. It is currently at **Technology Readiness Level (TRL) 5** -- validated in relevant laboratory environments. The patent is an **[application](../glossary/applications.html)** (not granted, no patent number assigned) and is released under CC0 1.0 Universal, placing the innovation in the public domain.
+The technology targets chlor-alkali electrolysis as its primary application but extends to mining, redox flow batteries, fuel cells, water treatment, and electrorefining. It is currently at **Technology Readiness Level (TRL) 5** -- validated in relevant laboratory environments. The patent is an **[application](../glossary/applications.md)** (not granted, no patent number assigned) and is released under CC0 1.0 Universal, placing the innovation in the public domain.
 
 Unlike conventional membrane cells that require sophisticated fluoropolymer chemistry (perfluorinated sulfonic acid membranes such as Nafion) or diaphragm cells that rely on asbestos or polymer fiber separators, SEM Tech membranes can be manufactured from readily available materials using simple processes. The key enabler is the use of pre-functionalized ion exchange resin beads -- the same materials found in household water softeners -- which require no post-functionalization after membrane formation.
 
@@ -179,7 +179,7 @@ SEM Tech cells operate under chemically aggressive conditions that require appro
 
 **Technology readiness**: SEM Tech is at TRL 5 -- validated in relevant laboratory environments. It has not yet been demonstrated at pilot or industrial scale.
 
-**Patent status**: The technology is described in a patent **[application](../glossary/applications.html)** (not a granted patent). No patent number has been assigned. The application and all associated technical data are released under CC0 1.0 Universal (public domain dedication).
+**Patent status**: The technology is described in a patent **[application](../glossary/applications.md)** (not a granted patent). No patent number has been assigned. The application and all associated technical data are released under CC0 1.0 Universal (public domain dedication).
 
 **Scale demonstrated**: Laboratory-scale processing of 10-50 lb batches has been demonstrated. Industrial scale-up has not occurred.
 
@@ -212,11 +212,11 @@ The patent application contains 10 claims covering membrane composition and manu
 | Parameter | Diaphragm Cell | Conventional Membrane (Nafion) | SEM Tech |
 |-----------|---------------|-------------------------------|----------|
 | **Separator** | Asbestos or polymer fiber mat | Perfluorinated sulfonic acid membrane | Pulverized resin in PVC/CPVC matrix |
-| **[Selectivity](../glossary/selectivity.html)** | Low -- permits some back-migration | High -- Na+ selective, blocks Cl- and OH- | High -- resin-type determines selectivity |
+| **[Selectivity](../glossary/selectivity.md)** | Low -- permits some back-migration | High -- Na+ selective, blocks Cl- and OH- | High -- resin-type determines selectivity |
 | **Cost per sq ft** | Low (asbestos cheap but hazardous) | $100-400 | <$1 |
 | **Manufacturing** | Vacuum-deposited fiber layer | Fluoropolymer synthesis + sulfonation | Blend, mix, spread, dry (ambient conditions) |
 | **Post-treatment** | None required | Multi-step sulfonation/cross-linking | None required (pre-functionalized resin) |
-| **[NaOH concentration](../glossary/naoh-concentration.html)** | 10-12% (requires evaporation) | 30-35% directly | Application-dependent |
+| **[NaOH concentration](../glossary/naoh-concentration.md)** | 10-12% (requires evaporation) | 30-35% directly | Application-dependent |
 | **Durability** | 6-12 months (diaphragm replating) | 2-4 years (membrane replacement) | Months to ~1 year (membrane replacement) |
 | **Accessibility** | Requires asbestos handling or polymer fiber | Requires fluoropolymer industry | Off-the-shelf materials, simple tools |
 | **[Energy](../energy/index.md)** | 2,100-2,500 kWh/t Cl2 | 2,100-2,400 kWh/t Cl2 | Not yet characterized at scale |

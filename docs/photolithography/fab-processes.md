@@ -15,10 +15,10 @@
 - Wet oxidation: Si + H₂O → SiO₂ (faster, used for thick layers)
 - Oxide serves as: insulator, mask for doping, gate dielectric
 
-**[Deal-Grove oxidation model](../glossary/deal-grove-oxidation-model.html)** (predicts oxide thickness as a function of time and temperature):
+**[Deal-Grove oxidation model](../glossary/deal-grove-oxidation-model.md)** (predicts oxide thickness as a function of time and temperature):
 - Linear-parabolic rate equation: x² + Ax = B(t + τ), where x = oxide thickness, t = time, A and B are temperature-dependent rate constants, τ is the time offset accounting for initial oxide.
-- **[Linear regime](../glossary/linear-regime.html)** (thin oxide, surface-reaction limited): x ≈ (B/A)·t. B/A is the linear rate constant.
-- **[Parabolic regime](../glossary/parabolic-regime.html)** (thick oxide, diffusion limited): x ≈ √(B·t). B is the parabolic rate constant.
+- **[Linear regime](../glossary/linear-regime.md)** (thin oxide, surface-reaction limited): x ≈ (B/A)·t. B/A is the linear rate constant.
+- **[Parabolic regime](../glossary/parabolic-regime.md)** (thick oxide, diffusion limited): x ≈ √(B·t). B is the parabolic rate constant.
 - **Typical growth rates at 1000°C**:
   - Dry O₂: ~2 nm/min (linear regime), slows dramatically in parabolic regime. 100 nm gate oxide takes ~2 hours. Dense, high-quality oxide (breakdown >10 MV/cm).
   - Wet O₂ (steam): ~10 nm/min. 500 nm field oxide takes ~1 hour. Contains more OH bonds, slightly lower quality, but acceptable for masking and insulation.
@@ -68,7 +68,7 @@
   - n-type: phosphorus (POCl₃ gas, or solid P₂O₅)
   - p-type: boron (BBr₃ gas, or solid B₂O₃)
   - Dopant atoms diffuse into silicon from surface
-- **[Ion implantation](../glossary/ion-implantation.html)** (later, more precise): Accelerate dopant ions into wafer
+- **[Ion implantation](../glossary/ion-implantation.md)** (later, more precise): Accelerate dopant ions into wafer
   - Requires: high-voltage accelerator, vacuum, mass separator (magnets), beam scanning
 
 #### Metallization
@@ -80,9 +80,9 @@
 ### Process Metrology
 Every process step must be measured. "If you can't measure it, you can't control it."
 
-- **[Ellipsometry](../glossary/ellipsometry.html)** (film thickness): Monochromatic or spectroscopic light (632.8 nm HeNe laser, or broad spectrum 250-1000 nm) reflects off the thin film surface at a known angle (70-75°). Measures change in polarization (Ψ, Δ) upon reflection. Fits to optical model (Cauchy or Sellmeier dispersion) to extract film thickness and refractive index. Accuracy: ±0.5 nm for oxides, ±2 nm for thicker films. Measures: SiO₂, SiNₓ, photoresist, poly-Si, metals (with appropriate model). Non-destructive, fast (~1 sec per site). Maps wafer uniformity (49-point or 121-point contour map).
-- **[Four-point probe](../glossary/four-point-probe.html)** (sheet resistance): Four collinear tungsten probes (1 mm spacing) contact the wafer surface. Outer two probes pass constant current I (1 μA-100 mA), inner two measure voltage V. Sheet resistance Rs = (π/ln 2)·(V/I) ≈ 4.532·(V/I) Ω/sq. Measures doped layers (diffused or implanted), metal films, poly-Si. Corrects for wafer diameter with geometric correction factors. Accuracy ±1%. For metal film thickness: t = ρ/Rs where ρ is bulk resistivity.
-- **[Dektak / profilometer](../glossary/dektak-profilometer.html)** (step height): Diamond-tipped stylus (12.5-50 μm radius, 1-15 mg force) scans across a step in the film surface (e.g., where resist or oxide was etched away). Measures vertical displacement with sub-nm resolution (typically ±1-5 nm over 1 μm step range). Used for: etch depth verification, film thickness (after patterning a step), planarization uniformity. Trade-off: higher stylus force = better surface contact but risks scratching soft films (photoresist, aluminum). Also measures surface roughness (Ra, Rq).
+- **[Ellipsometry](../glossary/ellipsometry.md)** (film thickness): Monochromatic or spectroscopic light (632.8 nm HeNe laser, or broad spectrum 250-1000 nm) reflects off the thin film surface at a known angle (70-75°). Measures change in polarization (Ψ, Δ) upon reflection. Fits to optical model (Cauchy or Sellmeier dispersion) to extract film thickness and refractive index. Accuracy: ±0.5 nm for oxides, ±2 nm for thicker films. Measures: SiO₂, SiNₓ, photoresist, poly-Si, metals (with appropriate model). Non-destructive, fast (~1 sec per site). Maps wafer uniformity (49-point or 121-point contour map).
+- **[Four-point probe](../glossary/four-point-probe.md)** (sheet resistance): Four collinear tungsten probes (1 mm spacing) contact the wafer surface. Outer two probes pass constant current I (1 μA-100 mA), inner two measure voltage V. Sheet resistance Rs = (π/ln 2)·(V/I) ≈ 4.532·(V/I) Ω/sq. Measures doped layers (diffused or implanted), metal films, poly-Si. Corrects for wafer diameter with geometric correction factors. Accuracy ±1%. For metal film thickness: t = ρ/Rs where ρ is bulk resistivity.
+- **[Dektak / profilometer](../glossary/dektak-profilometer.md)** (step height): Diamond-tipped stylus (12.5-50 μm radius, 1-15 mg force) scans across a step in the film surface (e.g., where resist or oxide was etched away). Measures vertical displacement with sub-nm resolution (typically ±1-5 nm over 1 μm step range). Used for: etch depth verification, film thickness (after patterning a step), planarization uniformity. Trade-off: higher stylus force = better surface contact but risks scratching soft films (photoresist, aluminum). Also measures surface roughness (Ra, Rq).
 - **Optical microscope inspection**: Brightfield and darkfield illumination. Detects pattern defects (missing features, bridges, particles), alignment errors, etch completeness. Magnification 50×-1000×. Essential for yield troubleshooting. Operators visually inspect sample wafers from each lot.
 - **Particle counting**: Laser scattering particle counters measure airborne particles (in cleanroom monitoring) or on wafer surfaces (bare wafer or patterned wafer inspection). Defect density (particles/cm² per process step) directly predicts yield: Yield = (1 - D·A)ⁿ where D = defect density, A = die area, n = process steps.
 

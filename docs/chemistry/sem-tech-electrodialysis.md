@@ -18,8 +18,8 @@ The Rowow LLC Technical Volume (lines 82-84) describes the discovery of related 
 
 Electrodialysis works by applying a direct current across a stack of alternating cation and anion exchange membranes placed between two electrodes:
 
-- **[Anode](../glossary/anodes.html)** (positively charged electrode): attracts anions (negatively charged ions)
-- **[Cathode](../glossary/cathode.html)** (negatively charged electrode): attracts cations (positively charged ions)
+- **[Anode](../glossary/anodes.md)** (positively charged electrode): attracts anions (negatively charged ions)
+- **[Cathode](../glossary/cathode.md)** (negatively charged electrode): attracts cations (positively charged ions)
 - **Cation exchange membranes (CEM)**: permit passage of cations, block anions
 - **Anion exchange membranes (AEM)**: permit passage of anions, block cations
 
@@ -88,7 +88,7 @@ This is directly relevant to [SEM Tech Acid Regeneration](sem-tech-acid-regenera
 | **Voltage per cell pair** | 0.5-1.5V | N/A (generates voltage) | 1.0-3.0V |
 | **Current density** | 10-50 mA/cm² | 1-10 mA/cm² | 10-50 mA/cm² |
 | **Feed TDS** | 1,000-10,000 mg/L | Seawater + fresh | Salt solutions |
-| **[Temperature](../glossary/temperature.html)** | 20-40°C | 15-30°C | 25-45°C |
+| **[Temperature](../glossary/temperature.md)** | 20-40°C | 15-30°C | 25-45°C |
 | **Flow velocity** | 5-15 cm/s | 1-5 cm/s | 5-10 cm/s |
 | **Recovery rate** | 75-90% | N/A | 80-95% |
 | **Energy (ED)** | 0.5-3.0 kWh/m³ | Generates 0.5-2.0 W/m² | 1.0-5.0 kWh/kg acid |

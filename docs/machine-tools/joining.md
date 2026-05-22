@@ -19,7 +19,7 @@ The oldest solid-state welding method, achievable as soon as wrought iron is pro
 
 **Principle**: Heat iron or low-carbon steel to a temperature where the surface becomes pasty (~1200-1300°C). Place the pieces together and strike firmly with a hammer. Heat and pressure cause atomic diffusion across the interface, producing a solid-state weld with no melted zone.
 
-**[Fluxes](../glossary/fluxes.html)** (essential — without flux, surface oxide prevents metal-to-metal contact):
+**[Fluxes](../glossary/fluxes.md)** (essential — without flux, surface oxide prevents metal-to-metal contact):
 - **Silica sand (SiO₂)**: The simplest flux. Sprinkle on joint surfaces before heating. Melts at ~1710°C but dissolves iron oxide (wüstite, FeO) at forge welding temperatures, forming a fluid iron silicate slag that flows out of the joint under hammering.
 - **Borax (sodium borate, Na₂B₄O₇)**: More effective than sand. Melts at ~743°C, actively dissolves iron oxide. Apply as powder or paste (borax mixed with water). The standard forge welding flux for iron and steel.
 - **Clean scale technique**: On very clean wrought iron (low carbon), an experienced smith can weld without flux by hammering through the thin oxide layer. Unreliable — flux is always preferred.

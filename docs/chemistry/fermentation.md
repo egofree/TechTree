@@ -44,8 +44,8 @@
 - Sterilize mash by boiling (critical — competing bacteria will outcompete *Clostridium* if present).
 - Cool to 35-37°C. Inoculate with *C. acetobutylicum* culture. Maintain strict anaerobic conditions (no oxygen — sparge with nitrogen or CO₂).
 - Fermentation has two phases:
-  - **[Acidogenic phase](../glossary/acidogenic-phase.html)** (first 18-24 hours): Bacteria produce acetic acid and butyric acid, pH drops to ~4.5.
-  - **[Solventogenic phase](../glossary/solventogenic-phase.html)** (next 24-48 hours): Bacteria convert acids to solvents, pH stabilizes ~4.3.
+  - **[Acidogenic phase](../glossary/acidogenic-phase.md)** (first 18-24 hours): Bacteria produce acetic acid and butyric acid, pH drops to ~4.5.
+  - **[Solventogenic phase](../glossary/solventogenic-phase.md)** (next 24-48 hours): Bacteria convert acids to solvents, pH stabilizes ~4.3.
 - Products: acetone (~30%), n-butanol (~60%), ethanol (~10%) by volume, plus CO₂ and H₂ gases.
 - **Distillation**: Separate by fractional distillation. Acetone bp 56°C, ethanol bp 78°C, n-butanol bp 118°C.
 
@@ -53,13 +53,13 @@
 
 ### Acetic Acid Production
 
-**[Vinegar method](../glossary/vinegar-method.html)** (biological):
+**[Vinegar method](../glossary/vinegar-method.md)** (biological):
 - Expose ethanol solution to air with *Acetobacter* bacteria (present on fruit surfaces, in unpasteurized vinegar).
 - Aerobic fermentation at 25-30°C for days to weeks. Provides continuous aeration (oxygen is required — unlike ethanol fermentation which is anaerobic).
 - Produces 5-12% acetic acid. Slow but simple. No special equipment beyond vessels and air exposure.
 - CH₃CH₂OH + O₂ → CH₃COOH + H₂O
 
-**[Chemical oxidation](../glossary/chemical-oxidation.html)** (faster, higher yield):
+**[Chemical oxidation](../glossary/chemical-oxidation.md)** (faster, higher yield):
 - Pass ethanol vapor over heated copper catalyst (copper gauze at 300-400°C) with air.
 - Ethanol oxidizes to acetaldehyde (CH₃CHO), then to acetic acid. Faster, higher concentration achievable.
 - Applications: food preservation (vinegar), cellulose acetate (photographic film, synthetic fibers), acetic anhydride (aspirin synthesis, cellulose acetate production), metal etching, solvent.
@@ -82,7 +82,7 @@ Fermentation is exothermic — uncontrolled temperature kills yeast or produces 
 
 ### Butanol and Biobutanol (ABE Fermentation)
 
-The **[Weizmann process](../glossary/weizmann-process.html)** (Clostridium acetobutylicum) produces acetone, butanol, and ethanol in a 3:6:1 ratio. Butanol (C₄H₉OH) is a superior fuel to ethanol: higher energy density (29.2 MJ/L vs 21.2 MJ/L), miscible with gasoline at any ratio, lower hygroscopicity (doesn't absorb water), usable in unmodified engines. Feedstocks: corn starch, molasses, cellulose hydrolysate. Conditions: 30-37°C, anaerobic, pH controlled (switches from acidogenesis to solventogenesis at pH ~5). Yield: 10-20 g/L total solvents (low — product toxicity limits concentration). Modern strain improvement targets: higher tolerance (butanol inhibits growth above 12-15 g/L), continuous product removal by gas stripping or pervaporation membranes.
+The **[Weizmann process](../glossary/weizmann-process.md)** (Clostridium acetobutylicum) produces acetone, butanol, and ethanol in a 3:6:1 ratio. Butanol (C₄H₉OH) is a superior fuel to ethanol: higher energy density (29.2 MJ/L vs 21.2 MJ/L), miscible with gasoline at any ratio, lower hygroscopicity (doesn't absorb water), usable in unmodified engines. Feedstocks: corn starch, molasses, cellulose hydrolysate. Conditions: 30-37°C, anaerobic, pH controlled (switches from acidogenesis to solventogenesis at pH ~5). Yield: 10-20 g/L total solvents (low — product toxicity limits concentration). Modern strain improvement targets: higher tolerance (butanol inhibits growth above 12-15 g/L), continuous product removal by gas stripping or pervaporation membranes.
 
 ### Lactic Acid Fermentation
 
@@ -98,9 +98,9 @@ Organic waste (manure, food waste, sewage sludge, agricultural residues) decompo
 
 ### Fermentation Equipment Design
 
-**Bioreactor types**: (1) **[Stirred tank](../glossary/stirred-tank.html)** — impeller (Rushton turbine or marine blade) provides mixing and O₂ transfer, baffles prevent vortexing. Standard for aerobic fermentations (citric acid, antibiotics). (2) **[Air-lift](../glossary/air-lift.html)** — rising bubbles in the riser section create circulation through the downcomer — no mechanical seals, lower shear. Used for shear-sensitive cells and large-scale single-cell protein. (3) **[Bubble column](../glossary/bubble-column.html)** — simplest: sparge air at the bottom, bubbles rise through liquid. Low cost, good for viscous broths. (4) **[Packed bed / fluidized bed](../glossary/packed-bed-fluidized-bed.html)** — immobilized cells on solid support (ceramic, alginate beads). Continuous operation. (5) **[Anaerobic digester](../glossary/anaerobic-digester.html)** — CSTR with gas-tight cover, heating jacket or heat exchanger (maintain 35°C), gas collection system.
+**Bioreactor types**: (1) **[Stirred tank](../glossary/stirred-tank.md)** — impeller (Rushton turbine or marine blade) provides mixing and O₂ transfer, baffles prevent vortexing. Standard for aerobic fermentations (citric acid, antibiotics). (2) **[Air-lift](../glossary/air-lift.md)** — rising bubbles in the riser section create circulation through the downcomer — no mechanical seals, lower shear. Used for shear-sensitive cells and large-scale single-cell protein. (3) **[Bubble column](../glossary/bubble-column.md)** — simplest: sparge air at the bottom, bubbles rise through liquid. Low cost, good for viscous broths. (4) **[Packed bed / fluidized bed](../glossary/packed-bed-fluidized-bed.md)** — immobilized cells on solid support (ceramic, alginate beads). Continuous operation. (5) **[Anaerobic digester](../glossary/anaerobic-digester.md)** — CSTR with gas-tight cover, heating jacket or heat exchanger (maintain 35°C), gas collection system.
 
-**Sterilization**: Critical for pure-culture fermentations (contaminants compete for substrate and may produce toxins). Methods: (1) **[Heat](../glossary/heat.html)** — steam at 121°C for 15-30 minutes (batch sterilization of medium in the vessel). (2) **[Continuous HTST](../glossary/continuous-htst.html)** — 140°C for 5-10 seconds in a heat exchanger, then flash-cooled. More energy-efficient for large volumes. (3) **[Filter sterilization](../glossary/filter-sterilization.html)** — 0.2 µm membrane filters for heat-sensitive components (vitamins, some growth factors). Equipment sterilization: steam all pipes, valves, and seals before filling — any dead leg or unsterilized pocket becomes a contamination source.
+**Sterilization**: Critical for pure-culture fermentations (contaminants compete for substrate and may produce toxins). Methods: (1) **[Heat](../glossary/heat.md)** — steam at 121°C for 15-30 minutes (batch sterilization of medium in the vessel). (2) **[Continuous HTST](../glossary/continuous-htst.md)** — 140°C for 5-10 seconds in a heat exchanger, then flash-cooled. More energy-efficient for large volumes. (3) **[Filter sterilization](../glossary/filter-sterilization.md)** — 0.2 µm membrane filters for heat-sensitive components (vitamins, some growth factors). Equipment sterilization: steam all pipes, valves, and seals before filling — any dead leg or unsterilized pocket becomes a contamination source.
 
 ### Safety & Hazards
 
@@ -177,9 +177,9 @@ Aspergillus niger produces citric acid as a metabolic overflow product when grow
 
 ## Industrial Fermentation Products Summary
 
-**[Commodity products](../glossary/commodity-products.html)** (production >1 million tonnes/year): ethanol (fuel and beverage, ~100 million tonnes/year), lactic acid (~2 million tonnes/year, PLA precursor), citric acid (~2 million tonnes/year, food and detergent use), monosodium glutamate (~3 million tonnes/year, flavor enhancer), lysine (~2 million tonnes/year, animal feed additive). These are high-volume, low-margin products where raw material cost and fermentation yield are the primary competitive factors.
+**[Commodity products](../glossary/commodity-products.md)** (production >1 million tonnes/year): ethanol (fuel and beverage, ~100 million tonnes/year), lactic acid (~2 million tonnes/year, PLA precursor), citric acid (~2 million tonnes/year, food and detergent use), monosodium glutamate (~3 million tonnes/year, flavor enhancer), lysine (~2 million tonnes/year, animal feed additive). These are high-volume, low-margin products where raw material cost and fermentation yield are the primary competitive factors.
 
-**[Fine chemicals and pharmaceuticals](../glossary/fine-chemicals-and-pharmaceuticals.html)** (production 10-10,000 tonnes/year): antibiotics (penicillin, cephalosporins, tetracyclines), amino acids (phenylalanine, tryptophan), vitamins (B₁₂, B₂, C via Reichstein-Grüssner process with fermentation step), steroids (hydrocortisone, prednisone from diosgenin via microbial transformation). These are high-value products where strain productivity, product purity, and intellectual property are the competitive factors. Fermentation titers: penicillin 30-50 g/L (improved from 0.001 g/L in 1940s by strain improvement and fed-batch fermentation), citric acid 100-150 g/L.
+**[Fine chemicals and pharmaceuticals](../glossary/fine-chemicals-and-pharmaceuticals.md)** (production 10-10,000 tonnes/year): antibiotics (penicillin, cephalosporins, tetracyclines), amino acids (phenylalanine, tryptophan), vitamins (B₁₂, B₂, C via Reichstein-Grüssner process with fermentation step), steroids (hydrocortisone, prednisone from diosgenin via microbial transformation). These are high-value products where strain productivity, product purity, and intellectual property are the competitive factors. Fermentation titers: penicillin 30-50 g/L (improved from 0.001 g/L in 1940s by strain improvement and fed-batch fermentation), citric acid 100-150 g/L.
 
 **Emerging products**: Single-cell protein (SCP from methanol or methane fermentation, 60-80% protein content, for animal feed), polyhydroxyalkanoates (PHAs, biodegradable plastics from bacterial fermentation), 1,3-propanediol (PDO, from corn sugar via DuPont/Tate & Lyle bio-PDO process, used for Sorona fiber), succinic acid (bio-based platform chemical, precursor for PBS bioplastic and 1,4-butanediol), and isobutanol (biofuel and chemical feedstock via engineered yeast). The bioeconomy continues to expand as petroleum alternatives gain economic viability.
 

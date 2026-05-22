@@ -10,9 +10,9 @@ Process-level reference for thermosetting polymers in the tech tree. Thermosets 
 
 First synthetic plastic (commercialized 1909). Phenol + formaldehyde condensation polymerization, two distinct routes:
 
-**[Novolac route](../glossary/novolac-route.html)** — acid catalyst (HCl or oxalic acid), excess phenol. Produces a thermoplastic prepolymer that remains uncured until mixed with hexamethylenetetramine (hexamine) hardener and heated. Two-step process: synthesize resin, then blend with filler and cure.
+**[Novolac route](../glossary/novolac-route.md)** — acid catalyst (HCl or oxalic acid), excess phenol. Produces a thermoplastic prepolymer that remains uncured until mixed with hexamethylenetetramine (hexamine) hardener and heated. Two-step process: synthesize resin, then blend with filler and cure.
 
-**[Resole route](../glossary/resole-route.html)** — base catalyst (NaOH or ammonia), excess formaldehyde. Self-curing prepolymer; continued heating drives cross-linking without added hardener.
+**[Resole route](../glossary/resole-route.md)** — base catalyst (NaOH or ammonia), excess formaldehyde. Self-curing prepolymer; continued heating drives cross-linking without added hardener.
 
 - Process conditions: 80–150°C initial condensation reaction; 150–200°C compression molding with fillers (wood flour, mineral fillers, cotton flock)
 - Pressure: 15–30 MPa in compression press
@@ -24,7 +24,7 @@ First synthetic plastic (commercialized 1909). Phenol + formaldehyde condensatio
 
 Bisphenol-A + epichlorohydrin yields diglycidyl ether of bisphenol-A (DGEBA), the workhorse epoxy prepolymer. The epoxy group (three-membered oxirane ring) is highly strained and reactive with nucleophiles (amines, acids, thiols). Cured with hardeners in a two-part formulation:
 
-- **[Amine hardeners](../glossary/amine-hardeners.html)** (DETA, TETA): room temperature to 80°C cure, fast pot life (30-60 minutes). Aliphatic amines (DETA, TETA) cure at room temperature; cycloaliphatic amines (isophorone diamine, IPDA) require elevated temperature (60-80°C) but produce higher Tg.
+- **[Amine hardeners](../glossary/amine-hardeners.md)** (DETA, TETA): room temperature to 80°C cure, fast pot life (30-60 minutes). Aliphatic amines (DETA, TETA) cure at room temperature; cycloaliphatic amines (isophorone diamine, IPDA) require elevated temperature (60-80°C) but produce higher Tg.
 - **Anhydride hardeners**: 100–150°C cure, better electrical properties (lower dielectric constant and dissipation factor — critical for electronic potting and encapsulation), longer pot life (4-8 hours at 25°C — more working time for large pours), lower exotherm (reduced risk of thermal runaway in thick sections). MTHPA (methyltetrahydrophthalic anhydride) is the most common.
 
 Process conditions vary by application:
@@ -48,7 +48,7 @@ Process: stack resin-impregnated fabric sheets (prepreg), press at 150–170°C 
 
 Properties: excellent electrical insulation (surface resistivity >10¹³ Ω), dimensional stability (water absorption <0.1% for FR-4 — critical for maintaining PCB trace impedance), moisture resistance, flame resistance (FR-4), mechanical strength (flexural strength 350-450 MPa longitudinal for G-10/FR-4 — one of the strongest laminate materials per unit weight).
 
-Applications: **[PCB substrates](../glossary/pcb-substrates.html)** (critical dependency for [Photolithography](../photolithography/resists-masks.md) semiconductor path), electrical panels, terminal boards, brake linings, bearing retainers, structural insulating panels.
+Applications: **[PCB substrates](../glossary/pcb-substrates.md)** (critical dependency for [Photolithography](../photolithography/resists-masks.md) semiconductor path), electrical panels, terminal boards, brake linings, bearing retainers, structural insulating panels.
 
 ### Unsaturated Polyester Resin
 
@@ -65,8 +65,8 @@ Cure mechanism: free-radical polymerization initiated by MEKP (methyl ethyl keto
 
 Isocyanate chemistry is the foundation. Diisocyanates (TDI: toluene diisocyanate, density 1.22 g/cm³, boiling point 251°C; or MDI: methylene diphenyl diisocyanate, melting point 40°C for 4,4'-MDI) react with nucleophiles:
 
-- **[Polyols](../glossary/polyols.html)** → polyurethane (foams, elastomers). The hydroxyl group (—OH) of the polyol attacks the electrophilic carbon of the isocyanate group (—N=C=O), forming a urethane linkage (—NH—CO—O—). Each polyol with 2+ hydroxyl groups creates a cross-link point.
-- **[Polyamines](../glossary/polyamines.html)** → polyurea (fast-cure spray coatings). The amine group (—NH₂) reacts with isocyanate faster than hydroxyl (amine reaction rate ~100× faster than alcohol at 25°C), forming a urea linkage (—NH—CO—NH—). The extreme reaction speed of polyurea chemistry (gel time <10 seconds) allows vertical and overhead spray application without sagging.
+- **[Polyols](../glossary/polyols.md)** → polyurethane (foams, elastomers). The hydroxyl group (—OH) of the polyol attacks the electrophilic carbon of the isocyanate group (—N=C=O), forming a urethane linkage (—NH—CO—O—). Each polyol with 2+ hydroxyl groups creates a cross-link point.
+- **[Polyamines](../glossary/polyamines.md)** → polyurea (fast-cure spray coatings). The amine group (—NH₂) reacts with isocyanate faster than hydroxyl (amine reaction rate ~100× faster than alcohol at 25°C), forming a urea linkage (—NH—CO—NH—). The extreme reaction speed of polyurea chemistry (gel time <10 seconds) allows vertical and overhead spray application without sagging.
 
 Material forms:
 
@@ -79,9 +79,9 @@ Material forms:
 
 ### Phenolic Resin Processing Detail
 
-**[Resole route](../glossary/resole-route.html)** (base-catalyzed, one-stage): Phenol + formaldehyde at 1:1.5-2.0 molar ratio, NaOH catalyst (1-5% based on phenol weight). React at 70-90°C for 2-4 hours. The excess formaldehyde ensures methylol groups form on the phenol ring. The resulting resole is a viscous liquid or low-melting solid that self-cures on further heating without any added hardener. Cure schedule: 140-160°C for 5-30 minutes at 10-30 MPa in a compression mold. Resoles are used for: foundry binders (sand casting cores — phenolic resin coats sand grains, cured with ester hardener at room temperature), bonding 25-40% of all foundry sand cores worldwide.
+**[Resole route](../glossary/resole-route.md)** (base-catalyzed, one-stage): Phenol + formaldehyde at 1:1.5-2.0 molar ratio, NaOH catalyst (1-5% based on phenol weight). React at 70-90°C for 2-4 hours. The excess formaldehyde ensures methylol groups form on the phenol ring. The resulting resole is a viscous liquid or low-melting solid that self-cures on further heating without any added hardener. Cure schedule: 140-160°C for 5-30 minutes at 10-30 MPa in a compression mold. Resoles are used for: foundry binders (sand casting cores — phenolic resin coats sand grains, cured with ester hardener at room temperature), bonding 25-40% of all foundry sand cores worldwide.
 
-**[Novolac route](../glossary/novolac-route.html)** (acid-catalyzed, two-stage): Phenol + formaldehyde at 1:0.8 molar ratio, oxalic or hydrochloric acid catalyst (0.5-2%). React at 95-100°C for 2-6 hours. The deficient formaldehyde leaves unreacted ring positions, producing a thermoplastic prepolymer that does not self-cure. To cure: blend with hexamethylenetetramine (hexamine, 10-15% by weight) as a latent hardener — hexamine decomposes on heating above 130°C to release formaldehyde in situ, completing the cross-linking. The two-stage nature provides excellent shelf stability (novolac + hexamine powder blend stores for months at room temperature) and processing safety — the material only cures when heated above 130°C.
+**[Novolac route](../glossary/novolac-route.md)** (acid-catalyzed, two-stage): Phenol + formaldehyde at 1:0.8 molar ratio, oxalic or hydrochloric acid catalyst (0.5-2%). React at 95-100°C for 2-6 hours. The deficient formaldehyde leaves unreacted ring positions, producing a thermoplastic prepolymer that does not self-cure. To cure: blend with hexamethylenetetramine (hexamine, 10-15% by weight) as a latent hardener — hexamine decomposes on heating above 130°C to release formaldehyde in situ, completing the cross-linking. The two-stage nature provides excellent shelf stability (novolac + hexamine powder blend stores for months at room temperature) and processing safety — the material only cures when heated above 130°C.
 
 **Molding compound preparation**: Blend novolac resin + hexamine hardener + wood flour filler (40-60% by weight — reduces cost and shrinkage) + hexamine (10-15%) + lime (CaO, 1-2% as acid scavenger) + lubricant (zinc stearate, 1%) + pigment (carbon black, iron oxide). Pelletize on a two-roll mill at 70-90°C (warm enough to soften resin but below cure temperature). Compression mold at 150-180°C, 15-30 MPa, 1-5 minutes per mm wall thickness.
 
@@ -91,7 +91,7 @@ Material forms:
 
 **TETA hardener formulation**: Triethylenetetramine (TETA) at 10-14 phr (parts per hundred resin, by weight — calculated from amine hydrogen equivalent weight vs. epoxy equivalent weight). Pot life at 25°C: 30-60 minutes (working time before viscosity increases unworkably). Cure schedule: 24 hours at 25°C (room temperature cure, reaches ~60-70% of ultimate strength) or 2 hours at 80°C (elevated temperature cure, reaches >95% of ultimate strength). For maximum chemical resistance and heat resistance, post-cure at 100-120°C for 1-2 hours to complete conversion of remaining epoxy groups. Tensile shear strength (lap joint, Al-Al): 15-25 MPa. Tensile strength (neat resin): 50-70 MPa.
 
-**[Anhydride hardeners](../glossary/anhydride-hardeners.html)** (methyltetrahydrophthalic anhydride, MTHPA, at 80-90 phr): Longer pot life (4-8 hours at 25°C) than amine hardeners. Cure schedule: 2 hours at 100°C + 4 hours at 150°C (requires elevated temperature — will not fully cure at room temperature). Superior electrical properties (higher dielectric strength, lower dissipation factor) — preferred for electrical potting and encapsulation.
+**[Anhydride hardeners](../glossary/anhydride-hardeners.md)** (methyltetrahydrophthalic anhydride, MTHPA, at 80-90 phr): Longer pot life (4-8 hours at 25°C) than amine hardeners. Cure schedule: 2 hours at 100°C + 4 hours at 150°C (requires elevated temperature — will not fully cure at room temperature). Superior electrical properties (higher dielectric strength, lower dissipation factor) — preferred for electrical potting and encapsulation.
 
 ### Polyester Resin Processing Detail
 
@@ -135,7 +135,7 @@ Epoxy coatings are two-component systems (resin + hardener) that cure to tough, 
 
 ### Polyurethane Foam in Construction
 
-**[Rigid PU foam](../glossary/rigid-pu-foam.html)** is one of the most effective insulation materials available:
+**[Rigid PU foam](../glossary/rigid-pu-foam.md)** is one of the most effective insulation materials available:
 
 - Thermal conductivity: 0.020-0.025 W/(m·K) — the lowest of any common insulation material (compared to mineral wool 0.035-0.040, polystyrene 0.030-0.040, fiberglass 0.030-0.040)
 - Closed-cell structure (90-95% closed cells): acts as both thermal insulation and vapor barrier

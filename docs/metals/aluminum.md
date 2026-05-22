@@ -30,7 +30,7 @@ The Bayer process (1887) extracts pure alumina from bauxite ore via selective di
 
 **Precipitation**:
 - Cooled to 50-65°C and seeded with fine aluminum hydroxide crystals (hydrate seed, ~50-200 g/L seed charge). The supersaturated aluminate solution precipitates Al(OH)₃ onto the seed surfaces.
-- **[Agglomeration phase](../glossary/agglomeration-phase.html)** (first 6-8 hours): Fine seed particles agglomerate into larger clusters. **[Growth phase](../glossary/growth-phase.html)** (20-40 hours): Al(OH)₃ crystallizes on agglomerate surfaces. Total precipitation time: 30-60 hours.
+- **[Agglomeration phase](../glossary/agglomeration-phase.md)** (first 6-8 hours): Fine seed particles agglomerate into larger clusters. **[Growth phase](../glossary/growth-phase.md)** (20-40 hours): Al(OH)₃ crystallizes on agglomerate surfaces. Total precipitation time: 30-60 hours.
 - Yield: ~50-55 g/L Al₂O₃ precipitated per pass (from initial ~120-150 g/L in green liquor). The remaining liquor ("spent liquor") is recycled to digestion after concentration in evaporators.
 - Product size control: Coarse product (60-100 μm) for smelter-grade alumina, fine product (<40 μm) for specialty applications. Particle morphology affects downstream calcination and dissolution rates.
 
@@ -75,7 +75,7 @@ The Hall-Héroult process dissolves alumina in molten cryolite (Na₃AlF₆) and
 
 Carbon anodes are consumed at ~400-450 kg per tonne of aluminum produced. Anode quality directly affects metal purity, energy consumption, and emissions.
 
-**[Prebaked anodes](../glossary/prebaked-anodes.html)** (dominant technology, ~90% of production):
+**[Prebaked anodes](../glossary/prebaked-anodes.md)** (dominant technology, ~90% of production):
 - **Raw materials**: Petroleum coke (60-65% of anode mass, calcined at 1200-1300°C to remove volatiles and develop crystalline structure), coal tar pitch (13-16% as binder), recycled anode butts (20-25%, remaining carbon from consumed anodes, crushed and re-used).
 - **Manufacturing process**:
   1. **Dry aggregate**: Crush, grind, and size petroleum coke to a defined particle size distribution (coarse 3-10 mm, medium 0.5-3 mm, fines <0.5 mm, ball-mill fines <75 μm). The packing density and porosity of the final anode depend critically on this blend.
@@ -85,7 +85,7 @@ Carbon anodes are consumed at ~400-450 kg per tonne of aluminum produced. Anode 
   5. **Rodding**: Attach a steel stub (conical or threaded) to the baked anode with cast iron or carbonaceous paste. The stub connects to the anode busbar.
 - **Properties**: Electrical resistivity 50-60 μΩ·m, compressive strength 30-45 MPa, air permeability <2 nPm. Low sulfur coke (<3% S) is preferred to minimize SO₂ emissions and metal contamination.
 
-**[Söderberg anodes](../glossary/sderberg-anodes.html)** (self-baking, older technology):
+**[Söderberg anodes](../glossary/sderberg-anodes.md)** (self-baking, older technology):
 - A single continuous carbon anode is formed in place above the cell. Green paste (petroleum coke + pitch) is added at the top; as it descends toward the hot bath, the pitch bakes in-situ from the cell's own heat. No separate baking furnace required.
 - **Advantages**: Lower capital cost, no anode change interruptions, simpler logistics.
 - **Disadvantages**: Higher electrical resistivity (pot voltage 0.2-0.5 V higher → more energy per kg Al), higher emissions (PAH, tar fumes), lower current density, lower metal purity. Being phased out globally.
@@ -100,7 +100,7 @@ Carbon anodes are consumed at ~400-450 kg per tonne of aluminum produced. Anode 
 
 Pure aluminum (99.0-99.99%) is soft (tensile strength 40-50 MPa) and has limited structural use. Alloying with small quantities of other elements dramatically improves mechanical properties — alloyed aluminum reaches 500-600 MPa tensile strength.
 
-**[Alloy designation system](../glossary/alloy-designation-system.html)** (AA — Aluminum Association):
+**[Alloy designation system](../glossary/alloy-designation-system.md)** (AA — Aluminum Association):
 
 | Series | Primary Alloying Element | Key Characteristics |
 |--------|-------------------------|---------------------|
@@ -113,7 +113,7 @@ Pure aluminum (99.0-99.99%) is soft (tensile strength 40-50 MPa) and has limited
 | 7xxx | Zinc (3-8%) + Mg + Cu | Highest strength, stress corrosion susceptible. Aerospace (7075). |
 | 8xxx | Other (Li, Sn, etc.) | Specialty. Al-Li alloys for aerospace weight reduction. |
 
-**[Heat treatment tempers](../glossary/heat-treatment-tempers.html)** (for heat-treatable alloys — 2xxx, 6xxx, 7xxx):
+**[Heat treatment tempers](../glossary/heat-treatment-tempers.md)** (for heat-treatable alloys — 2xxx, 6xxx, 7xxx):
 - **T4**: Solution heat-treated, naturally aged. Solution treatment at 480-540°C (dissolve alloying elements into solid solution), quench in water, age at room temperature. Moderate strength, high formability.
 - **T6**: Solution heat-treated and artificially aged. After quenching, age at 120-180°C for 4-24 hours. Peak hardness — the standard structural temper. 6061-T6: 310 MPa yield, 7075-T6: 503 MPa yield.
 - **T7**: Solution heat-treated and over-aged. Age beyond peak hardness to improve corrosion resistance and dimensional stability at some strength sacrifice. Used for critical aerospace forgings.
@@ -138,14 +138,14 @@ Pure aluminum (99.0-99.99%) is soft (tensile strength 40-50 MPa) and has limited
 
 **Permanent mold (gravity die) casting**: Reusable metal molds (cast iron or steel) with coatings (silica-based wash) to prevent sticking. Better surface finish and dimensional accuracy than sand casting. Wall thickness to ~3 mm. Mold life: 5,000-50,000 parts depending on complexity. Higher tooling cost amortized over larger volumes. Used for cylinder heads, pistons, manifolds.
 
-**[Die casting](../glossary/die-casting.html)** (high-pressure):
-- Molten aluminum forced into steel die at 20-100 MPa. Two types: **[hot chamber](../glossary/hot-chamber.html)** (limited to lower-melting alloys, rarely used for aluminum due to attack on gooseneck components) and **[cold chamber](../glossary/cold-chamber.html)** (molten Al ladled into shot sleeve, then injected — standard for aluminum).
+**[Die casting](../glossary/die-casting.md)** (high-pressure):
+- Molten aluminum forced into steel die at 20-100 MPa. Two types: **[hot chamber](../glossary/hot-chamber.md)** (limited to lower-melting alloys, rarely used for aluminum due to attack on gooseneck components) and **[cold chamber](../glossary/cold-chamber.md)** (molten Al ladled into shot sleeve, then injected — standard for aluminum).
 - Very high production rates (100-1,000 shots/hour). Excellent surface finish (Ra 0.8-3.2 μm). Wall thickness to 0.8 mm. Tolerances ±0.1-0.3 mm.
 - Die life: 50,000-200,000 shots depending on alloy and die complexity. Dies made from H13 tool steel, heat-treated to 44-48 HRC.
 - Alloys: Typically 380 (Al-8.5%Si-3.5%Cu), 383, A384, 413 (Al-12%Si). High silicon for fluidity.
 - Limitations: High porosity from entrapped air (reduced by vacuum-assisted die casting). Retained compressive stress in surface but internal porosity limits fatigue life. Not heat-treatable (bloating of internal porosity). Structural die casting (high-integrity) uses squeeze casting or semi-solid molding to address this.
 
-**[Direct chill (DC) casting](../glossary/direct-chill-dc-casting.html)** (for wrought products — ingots for rolling/extrusion):
+**[Direct chill (DC) casting](../glossary/direct-chill-dc-casting.md)** (for wrought products — ingots for rolling/extrusion):
 - Semi-continuous vertical casting. Molten Al flows into a water-cooled mold with a moving bottom block. As metal solidifies, the bottom block descends.
 - Produces rectangular ingots (for rolling to sheet/plate) or cylindrical billets (for extrusion). Ingot size: up to 9 m long, 0.5 × 1.5 m cross-section. Billet diameter: 150-800 mm.
 - Water spray directly onto the solidifying shell provides intense cooling (solidification rate 10-100 mm/min). Fine dendrite arm spacing → homogeneous microstructure.
@@ -187,7 +187,7 @@ Recycling is integral to the aluminum industry — not an afterthought. The ener
 - **Shredding**: Large scrap (cars, appliances) is shredded to 20-50 mm pieces for sorting and melting efficiency.
 
 **Melting**:
-- **[Side-well reverberatory furnace](../glossary/side-well-reverberatory-furnace.html)** (most common for scrap): Main bath chamber connected to an open well by an underflow passage. Scrap is fed into the side well and pushed under the molten metal surface (submerged charging — minimizes oxidation and dross formation). Main chamber provides settling time for inclusions and temperature control. Capacity: 20-80 tonnes.
+- **[Side-well reverberatory furnace](../glossary/side-well-reverberatory-furnace.md)** (most common for scrap): Main bath chamber connected to an open well by an underflow passage. Scrap is fed into the side well and pushed under the molten metal surface (submerged charging — minimizes oxidation and dross formation). Main chamber provides settling time for inclusions and temperature control. Capacity: 20-80 tonnes.
 - **Rotary furnace**: Tilting rotary drum with refractory lining. Salt flux (NaCl-KCl + cryolite) covers the melt, protecting aluminum from oxidation and absorbing oxides. Salt slag is a byproduct requiring disposal. Good for light, oxidized scrap (turnings, foil).
 - **Induction furnace**: Coreless induction for clean scrap — electromagnetic stirring homogenizes melt. No combustion gases → minimal oxidation, low gas pickup. More expensive per tonne for large volumes.
 

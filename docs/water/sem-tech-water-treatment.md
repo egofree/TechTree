@@ -88,13 +88,13 @@ Between stages, the partially desalted water may be recirculated to achieve targ
 |-----------|-------|-------|
 | **Feed TDS range** | 1,000–10,000 mg/L | Brackish water sweet spot |
 | **Voltage per cell pair** | 0.5–1.5V | Below water splitting threshold |
-| **[Current density](../glossary/current-density.html)** | 10–50 mA/cm² | Higher for concentrated feeds |
+| **[Current density](../glossary/current-density.md)** | 10–50 mA/cm² | Higher for concentrated feeds |
 | **Stack voltage** | 50–600V DC | Depends on cell pair count |
-| **[Energy consumption](../glossary/energy-consumption.html)** | 0.5–3.0 kWh/m³ | Brackish water range |
+| **[Energy consumption](../glossary/energy-consumption.md)** | 0.5–3.0 kWh/m³ | Brackish water range |
 | **Water recovery** | 75–90% | Balance recovery vs. brine concentration |
 | **Cell pair count** | 50–600 | More pairs = higher single-pass removal |
 | **Flow velocity** | 5–15 cm/s | Through spacer channels |
-| **[Operating temperature](../glossary/operating-temperature.html)** | 15–45°C | Higher temperature lowers resistance |
+| **[Operating temperature](../glossary/operating-temperature.md)** | 15–45°C | Higher temperature lowers resistance |
 | **Membrane lifetime** | 1–5 years | Projected for SEM Tech in ED service |
 | **Product TDS** | <500 mg/L | Drinking water standard: <1,000 mg/L |
 

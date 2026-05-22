@@ -14,7 +14,7 @@
 - **Energy consumption**: ~4-5 kWh per Nm³ H₂ (theoretical minimum 3.0 kWh/Nm³). Production rate proportional to current (Faraday's law: 1 A produces ~0.42 L H₂/hour at STP).
 - **Purification**: Pass through palladium membrane (Pd tube heated to 300-400°C — only H₂ diffuses through Pd lattice, all other gases excluded). Or catalytic recombination (remove O₂ traces by reacting with H₂ over platinum catalyst → water, remove water with desiccant). Achieve 99.999%+ purity.
 
-**[Steam reforming](../glossary/steam-reforming.html)** (if natural gas or methane available):
+**[Steam reforming](../glossary/steam-reforming.md)** (if natural gas or methane available):
 - CH₄ + H₂O → CO + 3H₂ (endothermic, 700-900°C, Ni catalyst, 2-3 MPa)
 - CO + H₂O → CO₂ + H₂ (water-gas shift, 350-450°C, Fe/Cr oxide catalyst)
 - Remove CO₂ with amine scrubber or pressure swing adsorption (PSA). Result: 95-99% H₂.
@@ -57,8 +57,8 @@ When natural gas (methane, CH₄) is available, SMR is the dominant industrial r
 
 When methane is unavailable or carbon-free hydrogen is required, water electrolysis is the alternative route:
 
-- **[Alkaline electrolysis](../glossary/alkaline-electrolysis.html)** (most mature): 20-30% KOH electrolyte, nickel electrodes, asbestos or Zirfon (PSA-based composite) diaphragm. Cell voltage 1.8-2.2 V, temperature 60-80°C, pressure 1-30 bar. Current density 200-400 mA/cm². Stack lifetime: 60,000-90,000 hours. Production rate scales with electrode area and number of cells — a 1 MW electrolyzer produces ~200 Nm³/h H₂.
-- **[PEM electrolysis](../glossary/pem-electrolysis.html)** (higher efficiency, more expensive): Solid polymer electrolyte (Nafion membrane — perfluorosulfonic acid). Platinum catalyst on cathode, iridium oxide on anode. Cell voltage 1.7-2.0 V, current density 1000-4000 mA/cm² (much higher than alkaline). Advantages: compact, rapid load-following (compatible with intermittent renewable electricity), very pure H₂ (no KOH contamination). Disadvantages: requires scarce catalyst materials (Ir, Pt), expensive membrane.
+- **[Alkaline electrolysis](../glossary/alkaline-electrolysis.md)** (most mature): 20-30% KOH electrolyte, nickel electrodes, asbestos or Zirfon (PSA-based composite) diaphragm. Cell voltage 1.8-2.2 V, temperature 60-80°C, pressure 1-30 bar. Current density 200-400 mA/cm². Stack lifetime: 60,000-90,000 hours. Production rate scales with electrode area and number of cells — a 1 MW electrolyzer produces ~200 Nm³/h H₂.
+- **[PEM electrolysis](../glossary/pem-electrolysis.md)** (higher efficiency, more expensive): Solid polymer electrolyte (Nafion membrane — perfluorosulfonic acid). Platinum catalyst on cathode, iridium oxide on anode. Cell voltage 1.7-2.0 V, current density 1000-4000 mA/cm² (much higher than alkaline). Advantages: compact, rapid load-following (compatible with intermittent renewable electricity), very pure H₂ (no KOH contamination). Disadvantages: requires scarce catalyst materials (Ir, Pt), expensive membrane.
 - **Energy**: Thermodynamic minimum for water splitting = 39.4 kWh/kg H₂ (HHV). Real systems: 50-55 kWh/kg including compression and system losses. This means ~70% round-trip efficiency from electricity to H₂ HHV.
 - **Water quality**: Deionized water required (<1 µS/cm conductivity for PEM, <5 µS/cm for alkaline). Dissolved minerals cause scaling on electrodes and diaphragm blockage. Water consumption: ~9 L per kg H₂ (stoichiometric) + ~2 L/kg for purification system blowdown.
 
@@ -66,14 +66,14 @@ When methane is unavailable or carbon-free hydrogen is required, water electroly
 
 Beyond the standard trichlorosilane route, several alternative paths to silane exist with different trade-offs:
 
-- **[Direct synthesis](../glossary/direct-synthesis.html)** (Si + 2H₂ → SiH₄): Thermodynamically unfavorable at most conditions — equilibrium lies far left. Requires specialized catalyst (none proven industrially). Not a practical route.
+- **[Direct synthesis](../glossary/direct-synthesis.md)** (Si + 2H₂ → SiH₄): Thermodynamically unfavorable at most conditions — equilibrium lies far left. Requires specialized catalyst (none proven industrially). Not a practical route.
 - **Disproportionation of dichlorosilane**: 2SiH₂Cl₂ → SiH₄ + SiCl₄ (similar to trichlorosilane route but starting from SiH₂Cl₂, bp 8.3°C). SiH₂Cl₂ itself is produced from SiHCl₃ redistribution. This is actually part of the standard route when optimized.
-- **[Magnesium silicide route](../glossary/magnesium-silicide-route.html)** (laboratory): Mg₂Si + 4HCl → 2MgCl₂ + SiH₄. Produces impure silane with phosphine (PH₃) and arsine (AsH₃) contaminants — dangerous and unsuitable for semiconductor-grade material. Only for small-scale/non-electronic applications.
+- **[Magnesium silicide route](../glossary/magnesium-silicide-route.md)** (laboratory): Mg₂Si + 4HCl → 2MgCl₂ + SiH₄. Produces impure silane with phosphine (PH₃) and arsine (AsH₃) contaminants — dangerous and unsuitable for semiconductor-grade material. Only for small-scale/non-electronic applications.
 - **Union Carbide process**: Fluidized-bed reactor with metallurgical silicon and HCl at 300-350°C. The SiHCl₃ product undergoes multiple redistribution stages to maximize SiH₄ yield. Overall silicon-to-silane yield: ~15-20% per pass with recycle. This is the industrial standard adapted by major silane producers.
 
 ### Silane Production (SiH₄)
 
-**[Process route](../glossary/process-route.html)** (from MG-Si, Silicon stage):
+**[Process route](../glossary/process-route.md)** (from MG-Si, Silicon stage):
 1. **Trichlorosilane synthesis**: MG-Si + 3HCl → SiHCl₃ + H₂ (fluidized bed reactor, 280-350°C, Cu catalyst). SiHCl₃ boils at 31.8°C — distill from higher-boiling SiCl₄ (bp 57.6°C) and lower-boiling gases.
 2. **Redistribution reaction**: 4SiHCl₃ → 3SiCl₄ + SiH₄ (catalytic reactor, 60-80°C). Silane (SiH₄) boils at -112°C — cryogenically distill from SiCl₄.
 3. **Purification**: Fractional distillation at cryogenic temperatures. Final purification through molecular sieves and catalytic getters (remove trace chlorosilanes, moisture, methane). Purity requirement: 99.9999%+ (6N+) for semiconductor use.
@@ -113,7 +113,7 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 
 ### Silane Production — Detailed Process Routes
 
-**[Metallurgical-grade silicon route](../glossary/metallurgical-grade-silicon-route.html)** (dominant): (1) MG-Si (98-99% Si, produced from quartz + carbon in electric arc furnace at 1900°C) ground to powder <150 µm. (2) React with HCl gas at 300-400°C in a fluidized bed: Si + 3HCl → SiHCl₃ + H₂ (trichlorosilane, TCS). (3) Purify TCS by distillation (bp 31.8°C) — multiple distillation columns remove Fe, Al, B, P chlorides. (4) Reduce TCS with hydrogen in a Siemens reactor: SiHCl₃ + H₂ → Si + 3HCl. Polysilicon rods heated to 1100-1200°C by direct current; TCS + H₂ gas flows over rods; silicon deposits on rod surface. Rods grow from 8 mm to 150-200 mm over 5-7 days. Energy: 100-200 kWh/kg polysilicon (traditional Siemens).
+**[Metallurgical-grade silicon route](../glossary/metallurgical-grade-silicon-route.md)** (dominant): (1) MG-Si (98-99% Si, produced from quartz + carbon in electric arc furnace at 1900°C) ground to powder <150 µm. (2) React with HCl gas at 300-400°C in a fluidized bed: Si + 3HCl → SiHCl₃ + H₂ (trichlorosilane, TCS). (3) Purify TCS by distillation (bp 31.8°C) — multiple distillation columns remove Fe, Al, B, P chlorides. (4) Reduce TCS with hydrogen in a Siemens reactor: SiHCl₃ + H₂ → Si + 3HCl. Polysilicon rods heated to 1100-1200°C by direct current; TCS + H₂ gas flows over rods; silicon deposits on rod surface. Rods grow from 8 mm to 150-200 mm over 5-7 days. Energy: 100-200 kWh/kg polysilicon (traditional Siemens).
 
 **Fluidized bed reactor (FBR)**: Alternative to Siemens — TCS or silane gas injected into a fluidized bed of silicon seed particles at 600-800°C. Silicon deposits on seed particles, which grow from 0.1 mm to 1-2 mm and are continuously withdrawn. Energy: 15-30 kWh/kg — 5-10× more efficient than Siemens. REC Silicon, Hemlock Semiconductor operate FBR plants. Challenge: maintaining uniform particle size and avoiding agglomeration.
 
@@ -144,13 +144,13 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 
 ### Silane Production — Expanded Process Routes
 
-**[Metallurgical route](../glossary/metallurgical-route.html)** (dominant industrial path, from MG-Si to SiH₄):
+**[Metallurgical route](../glossary/metallurgical-route.md)** (dominant industrial path, from MG-Si to SiH₄):
 - Step 1: React MG-Si powder (<150 µm) with anhydrous HCl gas at 300°C in a fluidized bed reactor over copper catalyst (1-5% Cu deposited from CuCl₂ solution onto silicon surface). Si + 3HCl → SiHCl₃ + H₂ (trichlorosilane, TCS). Copper promotes selective TCS formation over SiCl₄. Conversion: ~90% TCS, ~10% SiCl₄ by-product.
 - Step 2: Purify TCS by fractional distillation (bp 31.8°C). Multiple columns remove metal chlorides (FeCl₃, AlCl₃, BCl₃, PCl₃) to below ppb levels. Boron and phosphorus chlorides are the most critical to eliminate because B and P are electrically active in silicon and would poison device performance at parts-per-trillion concentrations in the final wafer.
 - Step 3: Redistribute TCS to silane. Two temperature regimes: catalytic redistribution over amine catalyst at 60-80°C (better selectivity, slower kinetics), or thermal redistribution at 400-500°C (no catalyst needed, faster but broader by-product spectrum). Reaction: 4SiHCl₃ → SiH₄ + 3SiCl₄. The SiCl₄ by-product recycles to the fluidized bed or sells as feedstock for fumed silica production.
 - Step 4: Cryogenic distillation separates SiH₄ (bp -112°C) from SiCl₄ (bp 57.6°C) and residual chlorosilanes. Multiple stages achieve 6N+ purity (99.9999%).
 
-**[Direct synthesis route](../glossary/direct-synthesis-route.html)** (simpler, lower yield): Si + 2H₂ → SiH₄ at 200-300°C and 200-300 bar pressure with copper catalyst. Thermodynamically unfavorable at standard conditions, but high pressure shifts the equilibrium toward the product. Yield: 5-15% per pass, requiring extensive recycle of unreacted hydrogen. Lower yield than the chlorosilane route but simpler equipment (no chlorosilane handling, no cryogenic distillation). The high compression energy cost (200-300 bar) is the main drawback. Potentially attractive for bootstrap production where chlorosilane infrastructure is unavailable.
+**[Direct synthesis route](../glossary/direct-synthesis-route.md)** (simpler, lower yield): Si + 2H₂ → SiH₄ at 200-300°C and 200-300 bar pressure with copper catalyst. Thermodynamically unfavorable at standard conditions, but high pressure shifts the equilibrium toward the product. Yield: 5-15% per pass, requiring extensive recycle of unreacted hydrogen. Lower yield than the chlorosilane route but simpler equipment (no chlorosilane handling, no cryogenic distillation). The high compression energy cost (200-300 bar) is the main drawback. Potentially attractive for bootstrap production where chlorosilane infrastructure is unavailable.
 
 ### Silane Physical Properties and Safety
 

@@ -13,11 +13,11 @@ Pumped hydroelectric storage (pumped hydro) is the only practical method for sto
 
 ### Operating Principle
 
-**[Pumping mode](../glossary/pumping-mode.html)** (charging):
+**[Pumping mode](../glossary/pumping-mode.md)** (charging):
 - Surplus electrical power drives a pump-motor unit. Water is drawn from the lower reservoir and pumped uphill to the upper reservoir. The pump adds gravitational potential energy to the water: E = ρ × g × h × V, where ρ = water density (1000 kg/m³), g = 9.81 m/s², h = elevation difference between reservoir surfaces, V = volume pumped.
 - Pumping is typically done during off-peak hours (night) when base-load generators (steam, nuclear) have surplus capacity.
 
-**[Generating mode](../glossary/generating-mode.html)** (discharging):
+**[Generating mode](../glossary/generating-mode.md)** (discharging):
 - Water is released from the upper reservoir through a penstock to a turbine-generator unit. The turbine extracts the gravitational potential energy, driving the generator to produce electricity. Spent water returns to the lower reservoir.
 - Generation occurs during peak demand hours (day) when electricity is most valuable.
 
@@ -43,7 +43,7 @@ Where:
 
 ### Reversible Pump-Turbines
 
-**[Francis pump-turbine](../glossary/francis-pump-turbine.html)** (most common):
+**[Francis pump-turbine](../glossary/francis-pump-turbine.md)** (most common):
 - A Francis turbine runner operates efficiently in reverse as a centrifugal pump. The same spiral casing, runner, and draft tube serve both modes. Rotation direction reverses between pumping and generating.
 - **Head range**: 50-700 m. Most pumped-hydro installations operate in the 100-500 m head range.
 - **Efficiency**: 85-92% as turbine, 80-90% as pump. Round-trip efficiency: 70-85% (product of pump and turbine efficiencies, less hydraulic losses and motor/generator losses).
@@ -54,7 +54,7 @@ Where:
 - Generating to pumping: Reverse of above. Similar transition time.
 - Modern units can transition faster with advanced control systems, but the physical reversal of a large rotating machine takes time.
 
-**[Three-machine sets](../glossary/three-machine-sets.html)** (older installations):
+**[Three-machine sets](../glossary/three-machine-sets.md)** (older installations):
 - Separate pump, turbine, and motor-generator on a common shaft. Allows simultaneous starting of pump while turbine is stopped (the turbine acts as a starting motor via water filling). Simpler individual machines but more complex civil works (three machines in one powerhouse). Largely superseded by reversible units.
 
 ### Upper and Lower Reservoirs
@@ -134,13 +134,13 @@ Generator-motor efficiency runs 95-98% in both modes. Combined with hydraulic ef
 
 The penstock carries water between the upper reservoir and the powerhouse under full static head pressure. Material and construction depend on head and diameter:
 
-**[Wooden stave pipe](../glossary/wooden-stave-pipe.html)** (suitable for low to medium head, up to 50-100 m):
+**[Wooden stave pipe](../glossary/wooden-stave-pipe.md)** (suitable for low to medium head, up to 50-100 m):
 - Construction: Douglas fir or redwood staves (tangential-cut boards), 75-150 mm thick, assembled into a circular pipe with flat steel bands tightened around the exterior. Band spacing: 150-300 mm for low pressure, 75-150 mm for higher pressure. Diameter up to 3 m practical.
 - Joints between staves swell when wet, creating a watertight seal. The wood must be kept moist to maintain the seal; drying causes leakage.
 - Advantages: No steel required for the pipe body (only bands). Low friction coefficient (Hazen-Williams C = 110-120). Resistant to corrosion and mild acidic water.
 - Limitations: Maximum pressure limited by band strength and stave thickness. Not suitable above ~1 MPa internal pressure. Requires continuous maintenance of bands and protective coating.
 
-**[Steel penstock](../glossary/steel-penstock.html)** (medium to high head, standard for most installations):
+**[Steel penstock](../glossary/steel-penstock.md)** (medium to high head, standard for most installations):
 - Welded steel plate construction, 6-25 mm wall thickness depending on diameter and head. Steel grade: mild steel (yield strength 250-350 MPa) or high-strength low-alloy steel (yield 350-550 MPa) for high-head applications.
 - Wall thickness calculation: t = P × D / (2 × σ × η + P), where P = internal pressure (static head × 0.0098 MPa/m + water hammer allowance), D = diameter, σ = allowable stress (yield / safety factor, typically 1.5-2.0), η = weld joint efficiency (0.85-1.0).
 - Concrete anchor blocks every 30-50 m on sloped sections to prevent penstock movement from thermal expansion, water hammer, and gravity loads. Expansion joints or telescopic sleeves accommodate longitudinal thermal movement (0.012 mm/m/°C for steel).

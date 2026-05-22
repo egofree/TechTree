@@ -11,17 +11,17 @@ Refractories are heat-resistant ceramic materials that line furnaces, kilns, inc
 
 ## Raw Materials
 
-**[Alumina-silicate system](../glossary/alumina-silicate-system.html)** (fireclay and high-alumina):
-- **[Fireclay](../glossary/fireclay.html)** (kaolinite, Al₂O₃·2SiO₂·2H₂O): Mined from clay deposits. When calcined at 1200-1400°C, forms mullite (3Al₂O₃·2SiO₂) + silica glass. Al₂O₃ content 25-45%. Service temperature: 1200-1500°C. The most widely used refractory by volume — inexpensive, workable, adequate for many applications.
-- **[Bauxite](../glossary/bauxite.html)** (gibbsite, Al(OH)₃): Source of high-alumina refractories (Al₂O₃ 60-90%). Calcined at 1500-1600°C to produce dense, stable corundum (α-Al₂O₃). Service temperature: 1600-1800°C. Used in steelmaking furnace roofs and sidewalls.
+**[Alumina-silicate system](../glossary/alumina-silicate-system.md)** (fireclay and high-alumina):
+- **[Fireclay](../glossary/fireclay.md)** (kaolinite, Al₂O₃·2SiO₂·2H₂O): Mined from clay deposits. When calcined at 1200-1400°C, forms mullite (3Al₂O₃·2SiO₂) + silica glass. Al₂O₃ content 25-45%. Service temperature: 1200-1500°C. The most widely used refractory by volume — inexpensive, workable, adequate for many applications.
+- **[Bauxite](../glossary/bauxite.md)** (gibbsite, Al(OH)₃): Source of high-alumina refractories (Al₂O₃ 60-90%). Calcined at 1500-1600°C to produce dense, stable corundum (α-Al₂O₃). Service temperature: 1600-1800°C. Used in steelmaking furnace roofs and sidewalls.
 - **Sillimanite, andalusite, kyanite**: Natural aluminosilicate minerals (Al₂SiO₅ polymorphs) that convert to mullite + silica at 1300-1550°C. Used for high-quality, low-shrinkage refractories.
 
-**[Basic refractories](../glossary/basic-refractories.html)** (magnesia and dolomite):
-- **[Magnesite](../glossary/magnesite.html)** (MgCO₃): Calcined to periclase (MgO) at 1700-2000°C. Dead-burned magnesite (dense, low-porosity) is the backbone of basic oxygen furnace (BOF) linings. MgO melting point: 2852°C — the highest of common refractory oxides. Also resistant to basic slags (CaO-based steelmaking slags).
-- **[Dolomite](../glossary/dolomite.html)** (CaCO₃·MgCO₃): Calcined to CaO·MgO at 1600-1800°C. Less expensive than magnesite but hydrates in moist air (CaO + H₂O → Ca(OH)₂ — expansion destroys the brick). Used in AOD converters and cement kiln burning zones. Tar-bonded dolomite (impregnated with coal tar pitch) resists hydration — the tar carbon fills pores and forms a protective carbon barrier.
+**[Basic refractories](../glossary/basic-refractories.md)** (magnesia and dolomite):
+- **[Magnesite](../glossary/magnesite.md)** (MgCO₃): Calcined to periclase (MgO) at 1700-2000°C. Dead-burned magnesite (dense, low-porosity) is the backbone of basic oxygen furnace (BOF) linings. MgO melting point: 2852°C — the highest of common refractory oxides. Also resistant to basic slags (CaO-based steelmaking slags).
+- **[Dolomite](../glossary/dolomite.md)** (CaCO₃·MgCO₃): Calcined to CaO·MgO at 1600-1800°C. Less expensive than magnesite but hydrates in moist air (CaO + H₂O → Ca(OH)₂ — expansion destroys the brick). Used in AOD converters and cement kiln burning zones. Tar-bonded dolomite (impregnated with coal tar pitch) resists hydration — the tar carbon fills pores and forms a protective carbon barrier.
 - **Chrome-magnesite**: Blend of chromite (FeCr₂O₄) and magnesite — combines slag resistance (chromite) with hot strength (MgO). Used in non-ferrous metallurgy (copper, lead smelting).
 
-**[Silica refractories](../glossary/silica-refractories.html)** (SiO₂ >93%):
+**[Silica refractories](../glossary/silica-refractories.md)** (SiO₂ >93%):
 - Made from quartzite rock (SiO₂ >97%), converted to cristobalite and tridymite at high temperature. Unique property: very low thermal expansion above 600°C (actually slight contraction above 1000°C). Used almost exclusively for coke oven walls and glass tank furnace crowns (hot-face temperature 1550-1650°C). Not suitable below 600°C — large volume change at 573°C (α→β quartz transition) causes spalling.
 
 **Carbon refractories**:
@@ -58,7 +58,7 @@ Refractories are heat-resistant ceramic materials that line furnaces, kilns, inc
 | Slag resistance (acidic) | Good | Good | Poor | Excellent | Good |
 | Cost (relative) | 1.0× | 2-4× | 3-6× | 2-3× | 3-5× |
 
-**[Thermal shock resistance](../glossary/thermal-shock-resistance.html)** is critical — refractory linings undergo temperature cycling (heating and cooling during furnace operation). Spalling (fracture and flaking) occurs when thermal stress from temperature gradients exceeds the material's tensile strength. Materials with low thermal expansion and high thermal conductivity resist thermal shock. Carbon is excellent (high conductivity, moderate expansion). Magnesite is poor (high expansion, lower conductivity) — requires careful heating/cooling schedules.
+**[Thermal shock resistance](../glossary/thermal-shock-resistance.md)** is critical — refractory linings undergo temperature cycling (heating and cooling during furnace operation). Spalling (fracture and flaking) occurs when thermal stress from temperature gradients exceeds the material's tensile strength. Materials with low thermal expansion and high thermal conductivity resist thermal shock. Carbon is excellent (high conductivity, moderate expansion). Magnesite is poor (high expansion, lower conductivity) — requires careful heating/cooling schedules.
 
 ## Applications by Industry
 

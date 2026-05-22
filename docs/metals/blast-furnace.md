@@ -77,9 +77,9 @@ Preheating the blast air is the single most impactful energy efficiency improvem
 - **Checker bricks**: Silicon carbide or high-alumina bricks with rectangular gas passages (typically 30-60 mm flue width). Bricks are stacked in a regular grid pattern to maximize surface area while maintaining open flow channels. A large stove contains 500-1,000 tonnes of checker brickwork.
 - **Dome**: The top of the stove is domed to distribute combustion gases evenly across the checker chamber.
 
-**[Operating cycle](../glossary/operating-cycle.html)** (each stove alternates between two phases):
-1. **[On-gas (heating) phase](../glossary/on-gas-heating-phase.html)** (20-45 minutes): Blast furnace gas (cleaned) is burned with combustion air in the combustion chamber. Hot combustion products (~1200-1400°C) pass downward through the checker bricks, heating them. Exhaust exits through the flue at the bottom at ~200-400°C.
-2. **[On-blast (blowing) phase](../glossary/on-blast-blowing-phase.html)** (20-45 minutes): Cold blast air from the blower enters at the bottom of the checker chamber and flows upward through the now-hot bricks, absorbing stored heat. The heated air exits through the dome and is directed to the blast furnace tuyeres at 1000-1250°C.
+**[Operating cycle](../glossary/operating-cycle.md)** (each stove alternates between two phases):
+1. **[On-gas (heating) phase](../glossary/on-gas-heating-phase.md)** (20-45 minutes): Blast furnace gas (cleaned) is burned with combustion air in the combustion chamber. Hot combustion products (~1200-1400°C) pass downward through the checker bricks, heating them. Exhaust exits through the flue at the bottom at ~200-400°C.
+2. **[On-blast (blowing) phase](../glossary/on-blast-blowing-phase.md)** (20-45 minutes): Cold blast air from the blower enters at the bottom of the checker chamber and flows upward through the now-hot bricks, absorbing stored heat. The heated air exits through the dome and is directed to the blast furnace tuyeres at 1000-1250°C.
 
 **Stove arrangement**: A blast furnace has 3-4 stoves. With 3 stoves, typically two are on-gas (heating) while one is on-blast (supplying hot air), then they rotate. With 4 stoves, the sequencing can overlap more smoothly, providing more consistent blast temperature. Valving is critical — large butterfly or gate valves (1-2 m diameter) switch each stove between gas and blast duties.
 
@@ -89,7 +89,7 @@ Preheating the blast air is the single most impactful energy efficiency improvem
 
 The gas exiting the top of the blast furnace (top gas, also called blast furnace gas or BFG) is a valuable fuel byproduct. Capturing and using this gas is essential for the energy economics of an integrated ironworks.
 
-**[Top gas composition](../glossary/top-gas-composition.html)** (typical by volume):
+**[Top gas composition](../glossary/top-gas-composition.md)** (typical by volume):
 - 20-30% CO (carbon monoxide — the combustible component)
 - 1-5% H₂ (hydrogen — also combustible)
 - 18-24% CO₂ (carbon dioxide — inert diluent)
@@ -99,9 +99,9 @@ The gas exiting the top of the blast furnace (top gas, also called blast furnace
 **Calorific value**: 3-4 MJ/Nm³ (compared to ~38 MJ/Nm³ for natural gas). This is low-grade fuel — the high nitrogen and CO₂ content dilute the combustible CO and H₂. Despite the low heating value, the enormous volume produced (2,000-4,000 Nm³ per tonne of pig iron) makes BFG a significant energy resource.
 
 **Gas cleaning**: Raw top gas contains 10-40 g/Nm³ of dust (fine ore particles, coke fines, soot). Before the gas can be burned, it must be cleaned:
-1. **[Dust catcher](../glossary/dust-catcher.html)** (primary): Large cyclonic vessel where the gas velocity drops and coarse dust settles out by gravity and centrifugal force. Removes ~60-80% of the dust. The collected dust (flue dust) contains 30-50% iron and can be recycled to the sinter plant.
-2. **[Venturi scrubber](../glossary/venturi-scrubber.html)** (secondary): Gas is accelerated through a constriction where water is injected. Fine particles are captured by water droplets. Removes ~95% of remaining dust. Gas exits at <0.05 g/Nm³ dust content. The water becomes acidic (dissolved CO₂ and traces of HCl, H₂S) and requires treatment before discharge.
-3. **[Electrostatic precipitator (ESP)](../glossary/electrostatic-precipitator-esp.html)** (optional tertiary): For the cleanest gas, an ESP charges dust particles electrically and collects them on oppositely charged plates. Achieves <0.01 g/Nm³. Required if gas is used in gas turbines.
+1. **[Dust catcher](../glossary/dust-catcher.md)** (primary): Large cyclonic vessel where the gas velocity drops and coarse dust settles out by gravity and centrifugal force. Removes ~60-80% of the dust. The collected dust (flue dust) contains 30-50% iron and can be recycled to the sinter plant.
+2. **[Venturi scrubber](../glossary/venturi-scrubber.md)** (secondary): Gas is accelerated through a constriction where water is injected. Fine particles are captured by water droplets. Removes ~95% of remaining dust. Gas exits at <0.05 g/Nm³ dust content. The water becomes acidic (dissolved CO₂ and traces of HCl, H₂S) and requires treatment before discharge.
+3. **[Electrostatic precipitator (ESP)](../glossary/electrostatic-precipitator-esp.md)** (optional tertiary): For the cleanest gas, an ESP charges dust particles electrically and collects them on oppositely charged plates. Achieves <0.01 g/Nm³. Required if gas is used in gas turbines.
 
 **Utilization**:
 - **Hot blast stove fuel**: The primary consumer of BFG — the stoves burn it to heat checker bricks as described above. This creates a closed energy loop: the furnace produces gas, which is used to preheat the blast air for the same furnace.
@@ -115,7 +115,7 @@ The gas exiting the top of the blast furnace (top gas, also called blast furnace
 
 Blast furnace slag is the non-metallic byproduct formed when limestone flux reacts with silica and alumina gangue from the iron ore. A blast furnace produces 250-400 kg of slag per tonne of pig iron — roughly 0.25-0.4 tonnes of slag for every tonne of iron. This is a massive material flow that must be managed, and processed slag has significant commercial value.
 
-**[Slag composition](../glossary/slag-composition.html)** (typical): 30-45% CaO, 30-40% SiO₂, 5-15% Al₂O₃, 1-10% MgO, with minor amounts of FeO, MnO, and sulfur (as CaS). The CaO/SiO₂ ratio (basicity) is typically 1.0-1.3.
+**[Slag composition](../glossary/slag-composition.md)** (typical): 30-45% CaO, 30-40% SiO₂, 5-15% Al₂O₃, 1-10% MgO, with minor amounts of FeO, MnO, and sulfur (as CaS). The CaO/SiO₂ ratio (basicity) is typically 1.0-1.3.
 
 **Processing routes**:
 
@@ -135,9 +135,9 @@ Modern blast furnaces have evolved far beyond the charcoal-fired shafts of the e
 
 **Burden distribution control**: The way raw materials are charged to the top of the furnace critically affects gas flow, reduction efficiency, and smooth operation. Modern furnaces use either:
 - **Bell-less top (Paul Wurth type)**: A rotating chute in the furnace throat distributes materials in programmed patterns (rings, spirals, sectors). The chute angle and rotation speed are computer-controlled, allowing precise layering of ore and coke. This is the dominant system on furnaces built after 1970.
-- **[Double-bell system](../glossary/double-bell-system.html)** (older): An inner bell and outer bell seal the furnace during charging. The charge is dumped from skips into the receiving hopper, the inner bell opens to drop material onto the distributing bell, then the distributing bell opens to drop the charge into the furnace. Less precise than bell-less top but mechanically simpler.
+- **[Double-bell system](../glossary/double-bell-system.md)** (older): An inner bell and outer bell seal the furnace during charging. The charge is dumped from skips into the receiving hopper, the inner bell opens to drop material onto the distributing bell, then the distributing bell opens to drop the charge into the furnace. Less precise than bell-less top but mechanically simpler.
 
-The key control objective is maintaining a **[central gas flow](../glossary/central-gas-flow.html)** — a slightly more open column of material in the center of the furnace that allows gas to channel upward, while maintaining sufficient ore at the walls to protect the refractory lining from excessive heat. Burden distribution is adjusted continuously based on temperature probes above the burden surface and shaft temperature profiles.
+The key control objective is maintaining a **[central gas flow](../glossary/central-gas-flow.md)** — a slightly more open column of material in the center of the furnace that allows gas to channel upward, while maintaining sufficient ore at the walls to protect the refractory lining from excessive heat. Burden distribution is adjusted continuously based on temperature probes above the burden surface and shaft temperature profiles.
 
 **Process control and instrumentation**:
 - **Top gas analysis**: Continuous measurement of CO, CO₂, H₂, and N₂ in the top gas. The CO/CO₂ ratio indicates reduction efficiency. Rising CO₂% means better gas utilization.
@@ -182,12 +182,12 @@ Direct reduction is an alternative to the blast furnace that produces solid iron
 
 **Product characteristics**: DRI typically contains 90-95% total Fe (of which 80-95% is metallic iron, the remainder is unreduced FeO). It also contains 1-4% carbon (from the reducing gas) and the gangue minerals from the original ore. DRI is highly porous (~50-70% porosity) and has a large surface area — making it ideal as feedstock for electric arc furnaces (EAF), where it melts readily and dilutes residuals in scrap-based charges.
 
-**[MIDREX process](../glossary/midrex-process.html)** (dominant, ~60% of global DRI):
+**[MIDREX process](../glossary/midrex-process.md)** (dominant, ~60% of global DRI):
 - Uses natural gas as the reducing agent feedstock. Natural gas is reformed (partially oxidized with CO₂ or H₂O from the process) to produce a reducing gas mixture of ~55-65% H₂ and 25-35% CO.
 - The reducing gas is fed to a vertical shaft furnace at ~800-950°C. Iron oxide pellets or lump ore descends by gravity through the shaft countercurrent to the rising reducing gas.
-- **[Reduction zone](../glossary/reduction-zone.html)** (upper shaft): Fe₂O₃ + H₂/CO → Fe + H₂O/CO₂. The gas progressively reduces the ore as it ascends.
-- **[Transition zone](../glossary/transition-zone.html)** (middle): A cooling gas can be introduced to control product temperature and carburization.
-- **[Discharge zone](../glossary/discharge-zone.html)** (bottom): DRI is continuously discharged. It can be hot-charged directly to an EAF (hot DRI at ~600-700°C, saving ~100 kWh/t of EAF electricity) or cooled and stored for later use.
+- **[Reduction zone](../glossary/reduction-zone.md)** (upper shaft): Fe₂O₃ + H₂/CO → Fe + H₂O/CO₂. The gas progressively reduces the ore as it ascends.
+- **[Transition zone](../glossary/transition-zone.md)** (middle): A cooling gas can be introduced to control product temperature and carburization.
+- **[Discharge zone](../glossary/discharge-zone.md)** (bottom): DRI is continuously discharged. It can be hot-charged directly to an EAF (hot DRI at ~600-700°C, saving ~100 kWh/t of EAF electricity) or cooled and stored for later use.
 - **Capacity**: Single MIDREX modules range from 500,000 to 2,500,000 tonnes DRI per year.
 
 **HYL / Energiron process**:
@@ -196,7 +196,7 @@ Direct reduction is an alternative to the blast furnace that produces solid iron
 - Produces DRI with higher carbon content (up to 4-5% C) compared to MIDREX (~1-3% C). Higher carbon acts as a fuel in the EAF, reducing electricity consumption.
 - The HYL process can also produce hot briquetted iron (HBI) — DRI that has been compacted at ~700°C into briquettes (~100 × 50 × 30 mm) using a roller press. HBI is much less reactive than loose DRI (lower surface area), making it safer and easier to transport and store.
 
-**[Rotary kiln DRI](../glossary/rotary-kiln-dri.html)** (coal-based, used in India):
+**[Rotary kiln DRI](../glossary/rotary-kiln-dri.md)** (coal-based, used in India):
 - Uses non-coking coal as both the reductant and the fuel. Iron ore and coal are fed into a slowly rotating inclined kiln (3-5 rpm, 2-5° inclination).
 - Air is injected along the kiln length to burn the volatile matter and partially combust the coal, providing heat. The coal char provides the reducing agent (C + CO₂ → 2CO; CO reduces the ore).
 - Operating temperature: 950-1050°C. Must be carefully controlled below the sticking temperature (~1050-1100°C) where iron particles begin to fuse together and form rings on the kiln wall.

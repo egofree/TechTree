@@ -16,7 +16,7 @@ A bootstrapping civilization needs basic medical instrumentation to diagnose ill
 
 René Laënnec invented the stethoscope in 1816, originally as a wooden cylinder 30 cm long and 3 cm in diameter. He rolled a quire of paper into a tube and placed one end on a patient's chest, discovering he could hear heart sounds more clearly than with direct ear contact.
 
-Modern binaural stethoscopes have two sound pathways. The **[bell](../glossary/bell.html)** (open cup, 2.5-3 cm diameter) picks up low-frequency sounds (20-100 Hz): mitral stenosis murmurs, third heart sounds, bruits in blood vessels. The **diaphragm** (flat disc covered with a rigid membrane, 4-5 cm diameter) filters out low frequencies and transmits higher-frequency sounds (100-1000 Hz): normal heart sounds (S1, S2), aortic regurgitation murmurs, breath sounds (vesicular, bronchial, crackles, wheezes).
+Modern binaural stethoscopes have two sound pathways. The **[bell](../glossary/bell.md)** (open cup, 2.5-3 cm diameter) picks up low-frequency sounds (20-100 Hz): mitral stenosis murmurs, third heart sounds, bruits in blood vessels. The **diaphragm** (flat disc covered with a rigid membrane, 4-5 cm diameter) filters out low frequencies and transmits higher-frequency sounds (100-1000 Hz): normal heart sounds (S1, S2), aortic regurgitation murmurs, breath sounds (vesicular, bronchial, crackles, wheezes).
 
 Acoustic stethoscopes are purely mechanical: no electronics, no power source. Sound travels through air columns in the tubing to the listener's ears. Tubing length of 55-60 cm balances acoustic transmission against ambient noise pickup. Internal diameter of the earpieces must match the ear canal for a seal that blocks external noise.
 
@@ -89,15 +89,15 @@ Self-retaining retractors hold themselves open via a ratchet or screw mechanism,
 
 Suture material closes wounds by holding tissue edges in apposition during healing.
 
-**[Absorbable](../glossary/absorbable.html)** (broken down by the body over time, no removal needed):
+**[Absorbable](../glossary/absorbable.md)** (broken down by the body over time, no removal needed):
 - **Catgut**: Natural collagen from sheep or cow intestine. Plain catgut: 60-90 day absorption, loses tensile strength in 7-10 days. Chromic catgut (tanned with chromic salt): slower absorption, 90-120 days, retains strength 14-21 days. Used for subcutaneous tissue, fascia in contaminated wounds.
-- **[Vicryl](../glossary/vicryl.html)** (polyglactin 910): Synthetic braided polymer. Absorption: 56-70 days. Retains 50% strength at 21 days. Handles well, ties securely. The most widely used absorbable suture.
-- **[PDS](../glossary/pds.html)** (polydioxanone): Synthetic monofilament. Absorption: 180-240 days. Retains 50% strength at 28 days. Used for fascia closure where prolonged strength is needed.
+- **[Vicryl](../glossary/vicryl.md)** (polyglactin 910): Synthetic braided polymer. Absorption: 56-70 days. Retains 50% strength at 21 days. Handles well, ties securely. The most widely used absorbable suture.
+- **[PDS](../glossary/pds.md)** (polydioxanone): Synthetic monofilament. Absorption: 180-240 days. Retains 50% strength at 28 days. Used for fascia closure where prolonged strength is needed.
 
-**[Non-absorbable](../glossary/non-absorbable.html)** (removed after healing, or left permanently in deep tissue):
+**[Non-absorbable](../glossary/non-absorbable.md)** (removed after healing, or left permanently in deep tissue):
 - **Silk**: Natural braided protein. Excellent handling and knot security. Loses strength over 1-2 years in tissue. Used for vessel ligatures and skin closure.
-- **[Nylon](../glossary/nylon.html)** (monofilament): High tensile strength, minimal tissue reactivity. Skin closure, tendon repair. Common sizes: 4-0 (1.5 mm wound), 5-0 (fine skin), 6-0 (microsurgery).
-- **[Stainless steel](../glossary/stainless-steel.html)** (316L or 304): Monofilament wire. Highest tensile strength, no tissue reactivity, impossible to break by hand. Used for sternotomy closure, tendon repair, and orthopedic wiring. Difficult to handle and tie; requires wire-cutting scissors.
+- **[Nylon](../glossary/nylon.md)** (monofilament): High tensile strength, minimal tissue reactivity. Skin closure, tendon repair. Common sizes: 4-0 (1.5 mm wound), 5-0 (fine skin), 6-0 (microsurgery).
+- **[Stainless steel](../glossary/stainless-steel.md)** (316L or 304): Monofilament wire. Highest tensile strength, no tissue reactivity, impossible to break by hand. Used for sternotomy closure, tendon repair, and orthopedic wiring. Difficult to handle and tie; requires wire-cutting scissors.
 
 Suture sizes follow the USP scale: 5-0 = 0.1 mm diameter, 4-0 = 0.15 mm, 3-0 = 0.2 mm, 2-0 = 0.3 mm, 0 = 0.35 mm, 1 = 0.4 mm, 2 = 0.5 mm. Larger numbers = larger diameter.
 

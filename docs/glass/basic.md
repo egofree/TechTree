@@ -14,7 +14,7 @@
 
 ### Batch Composition (Soda-Lime Glass)
 
-**[Standard proportions](../glossary/standard-proportions.html)** (by weight):
+**[Standard proportions](../glossary/standard-proportions.md)** (by weight):
 - **Silica (SiO₂)**: 70-74% — glass former, provides network structure
 - **Soda (Na₂O)**: 12-16% — flux, lowers melting point from ~1700°C to ~1000°C
 - **Lime (CaO)**: 10-12% — stabilizer, prevents water solubility of the glass
@@ -57,7 +57,7 @@ Adjust proportions within these ranges based on raw material purity and desired 
 
 The properties of glass depend directly on its composition. Three families cover most industrial and scientific applications:
 
-**[Soda-lime glass](../glossary/soda-lime-glass.html)** (the workhorse, ~90% of all glass produced):
+**[Soda-lime glass](../glossary/soda-lime-glass.md)** (the workhorse, ~90% of all glass produced):
 - Silica (SiO₂): 70-74% — forms the amorphous network. Pure silica melts at ~1713°C, far too hot for basic furnaces.
 - Soda (Na₂O): 12-16% — flux that drops the melting point to ~1000°C. Derived from soda ash (Na₂CO₃) or natron. The tradeoff: soda makes glass water-soluble.
 - Lime (CaO): 10-12% — stabilizer that prevents water solubility. Added as limestone (CaCO₃), which decomposes to CaO + CO₂ during melting.
@@ -73,7 +73,7 @@ The properties of glass depend directly on its composition. Three families cover
 - Excellent electrical insulating properties. Used for radiation shielding (PbO absorbs X-rays and gamma radiation).
 - Lead is a cumulative neurotoxin. Handle batch powders with gloves and respiratory protection. Never use for food or drink containers.
 
-**[Borosilicate glass](../glossary/borosilicate-glass.html)** (low expansion, chemical resistant):
+**[Borosilicate glass](../glossary/borosilicate-glass.md)** (low expansion, chemical resistant):
 - Silica (SiO₂): 80-81%. Boron trioxide (B₂O₃): 12-13%. Soda (Na₂O): 4-5%. Alumina (Al₂O₃): 2-3%.
 - Coefficient of thermal expansion (CTE): 3.3 × 10⁻⁶/°C — roughly one-third of soda-lime glass. Can withstand thermal gradients of ~170°C without breaking (soda-lime fails at ~40-50°C gradient).
 - Annealing point: 560°C. Strain point: 510°C. Working range: 800-1100°C.
@@ -82,25 +82,25 @@ The properties of glass depend directly on its composition. Three families cover
 
 ### Raw Material Preparation
 
-**[Silica sand quality](../glossary/silica-sand-quality.html)** has a direct impact on glass clarity and color:
+**[Silica sand quality](../glossary/silica-sand-quality.md)** has a direct impact on glass clarity and color:
 - **Container glass and window glass**: >95% SiO₂, <0.3% Fe₂O₃. Iron imparts a green tint that increases with thickness.
 - **Optical and decorative glass**: >99% SiO₂, <0.01% Fe₂O₃. Achieved by washing sand in water with agitation, then acid leaching (HCl or H₂SO₄) to dissolve iron compounds, followed by rinsing and drying. Magnetic separation removes iron-bearing mineral grains (magnetite, ilmenite).
 - **Fused silica**: >99.9% SiO₂. Requires high-purity quartz crystal or synthetic production (SiCl₄ flame hydrolysis).
 - Sand grain size: 60-100 mesh (150-250 μm). Too fine → dust losses and poor batch mixing. Too coarse → slow melting, undissolved silica grains (stones) in the finished glass.
 
-**[Cullet (recycled glass)](../glossary/cullet-recycled-glass.html)** plays an essential role in the melt:
+**[Cullet (recycled glass)](../glossary/cullet-recycled-glass.md)** plays an essential role in the melt:
 - Add 15-25% crushed cullet to every batch. Cullet melts at lower temperature than raw batch, creating an early liquid phase that surrounds and accelerates dissolution of the raw materials.
 - Sort cullet by color (clear, green, amber) and composition. Mixing borosilicate cullet into soda-lime batch changes the thermal expansion and can cause spontaneous breakage.
 - Crush cullet to 5-20 mm pieces before adding. Remove metal caps, ceramics, and stones (non-glass contaminants cause defects).
 
 ### Melting Detail
 
-**[Batch melting](../glossary/batch-melting.html)** (1400-1500°C):
+**[Batch melting](../glossary/batch-melting.md)** (1400-1500°C):
 - At ~600°C, carbonates begin decomposing: CaCO₃ → CaO + CO₂, Na₂CO₃ → Na₂O + CO₂. Massive CO₂ evolution causes foaming. The batch puffs up to 2-3× its original volume.
 - At ~800-1000°C (fritting stage), the decomposition products begin reacting with silica. The mass becomes semi-fused (frit). Some operations produce frit as an intermediate product, grind it, and re-melt for better homogeneity.
 - At 1400-1500°C, silica fully dissolves into the flux melt. The glass becomes a uniform liquid over 8-24 hours. Stir every 2-3 hours with an iron or fired-clay rod. Mechanical stirrers (refractory paddle on a motorized shaft) improve consistency in larger furnaces.
 
-**[Fining](../glossary/fining.html)** (1500-1600°C):
+**[Fining](../glossary/fining.md)** (1500-1600°C):
 - Raising the temperature reduces viscosity, allowing trapped bubbles to rise and escape. Bubbles smaller than ~0.1 mm rise too slowly at working viscosity and must be removed chemically.
 - Fining agents generate large bubbles that sweep up small ones: antimony trioxide (Sb₂O₃, 0.1-0.5%) releases O₂ at high temperature. Sodium sulfate (Na₂SO₄, 0.5-1%) decomposes to release SO₂ and O₂. Arsenic trioxide (As₂O₃) works similarly but is a known carcinogen — antimony is preferred for safety.
 - Continue fining until a sample drawn from the crucible and examined against a backlight shows no visible seeds (tiny bubbles). Total fining time: 2-6 hours depending on melt size.
@@ -113,14 +113,14 @@ The properties of glass depend directly on its composition. Three families cover
 
 Proper annealing removes internal stress caused by uneven cooling through the glass transition range:
 
-- **[Strain point](../glossary/strain-point.html)** (470-510°C for soda-lime): Below this temperature, glass behaves as an elastic solid. Internal stresses are frozen in place and cannot relax.
-- **[Annealing point](../glossary/annealing-point.html)** (510-550°C for soda-lime): At this temperature, glass viscosity is low enough for internal stress to relax within minutes to hours.
+- **[Strain point](../glossary/strain-point.md)** (470-510°C for soda-lime): Below this temperature, glass behaves as an elastic solid. Internal stresses are frozen in place and cannot relax.
+- **[Annealing point](../glossary/annealing-point.md)** (510-550°C for soda-lime): At this temperature, glass viscosity is low enough for internal stress to relax within minutes to hours.
 - **Schedule**: (1) Heat to annealing point. (2) Hold until temperature is uniform throughout the piece — allow 30 minutes per 6 mm of wall thickness. (3) Cool at 3-5°C/min through the strain point region. (4) Below the strain point, faster cooling is safe (5-10°C/min to room temperature).
 - Total annealing time for a 6 mm thick soda-lime vessel: ~3-4 hours. For a 25 mm thick piece: ~8-12 hours. Skipping annealing or cooling too fast leaves the glass fragile and prone to spontaneous fracture days or weeks later.
 
 ### Glass Properties
 
-**[Mechanical properties](../glossary/mechanical-properties.html)** of soda-lime glass:
+**[Mechanical properties](../glossary/mechanical-properties.md)** of soda-lime glass:
 - Compressive strength: 700-1000 MPa (very strong in compression — comparable to concrete). This is why glass supports heavy loads in structural applications when loaded in pure compression.
 - Tensile strength: 30-90 MPa nominally, but practical strength is much lower due to surface micro-cracks (Griffith flaws). A tiny surface scratch (10-50 μm deep) concentrates stress and reduces effective tensile strength to 10-20 MPa. Glass always fails in tension, never in compression.
 - Elastic modulus: ~70 GPa. Glass is rigid, not ductile. It deforms elastically up to fracture — no plastic deformation, no warning before failure.
@@ -136,7 +136,7 @@ Proper annealing removes internal stress caused by uneven cooling through the gl
 
 **Rolling**: Pour molten glass onto a flat iron table, roll to uniform thickness (3-12 mm). Grind and polish both surfaces. Produces window glass of consistent quality. Production rate: 5-10 m²/hour per roller.
 
-**[Float process](../glossary/float-process.html)** (modern flat glass, requires advanced metallurgy):
+**[Float process](../glossary/float-process.md)** (modern flat glass, requires advanced metallurgy):
 - Molten glass (1050°C) poured onto a bath of molten tin (232°C melting point, stable in air) in a controlled atmosphere (nitrogen + hydrogen to prevent tin oxidation). Glass floats and spreads to a uniform thickness determined by surface tension and gravity. Default thickness: ~6 mm. Thinner glass achieved by stretching; thicker by constraining spread.
 - The glass ribbon travels 50-70 m across the tin bath, cooling from 1050°C to ~600°C. Exits onto rollers and into the annealing lehr.
 - Produces perfectly flat, parallel surfaces with no grinding or polishing required. ~80% of flat glass worldwide is float glass. Tin bath dimensions: 4-6 m wide, 50-70 m long. Tin depth: ~60-100 mm.
@@ -181,11 +181,11 @@ Glass is one of the most recyclable materials in the bootstrap sequence:
 
 The furnace design determines the scale and quality of glass production:
 
-**[Pot furnace](../glossary/pot-furnace.html)** (batch, small-scale): One or more fireclay crucibles (pots) placed in a furnace chamber, heated by wood, charcoal, or gas fire. Each pot holds 10-100 kg of molten glass. The pot is both container and reaction vessel. Replace pots when they erode or crack (typical lifespan: 3-6 months of daily use). Temperature control is manual — adjust fuel and draft. Best for small-scale, multi-composition production (different compositions in different pots). The furnace has a separate working opening (glory hole) for reheating glass during forming.
+**[Pot furnace](../glossary/pot-furnace.md)** (batch, small-scale): One or more fireclay crucibles (pots) placed in a furnace chamber, heated by wood, charcoal, or gas fire. Each pot holds 10-100 kg of molten glass. The pot is both container and reaction vessel. Replace pots when they erode or crack (typical lifespan: 3-6 months of daily use). Temperature control is manual — adjust fuel and draft. Best for small-scale, multi-composition production (different compositions in different pots). The furnace has a separate working opening (glory hole) for reheating glass during forming.
 
-**[Tank furnace](../glossary/tank-furnace.html)** (continuous, industrial): A large refractory-lined tank, continuously charged with batch at one end and continuously withdrawn as molten glass at the other. Tank capacity: 1-500 tonnes. The glass flows through distinct zones: melting zone (1500-1600°C), fining zone (1500-1550°C), working zone (1100-1200°C). Regenerative furnaces use heat exchangers (checker brick systems) that store waste heat from exhaust gases and preheat incoming combustion air, improving fuel efficiency by 50-60%. The standard furnace for container glass, flat glass, and fiberglass production.
+**[Tank furnace](../glossary/tank-furnace.md)** (continuous, industrial): A large refractory-lined tank, continuously charged with batch at one end and continuously withdrawn as molten glass at the other. Tank capacity: 1-500 tonnes. The glass flows through distinct zones: melting zone (1500-1600°C), fining zone (1500-1550°C), working zone (1100-1200°C). Regenerative furnaces use heat exchangers (checker brick systems) that store waste heat from exhaust gases and preheat incoming combustion air, improving fuel efficiency by 50-60%. The standard furnace for container glass, flat glass, and fiberglass production.
 
-**[Day tank](../glossary/day-tank.html)** (intermediate scale): A small tank furnace charged, melted, and worked in a single day. Capacity: 200-2000 kg. Charged in the morning, melted by midday, worked in the afternoon, drained or cooled overnight. Allows larger batches than pot furnaces without the capital investment of a full continuous tank. Good for art glass and specialty production.
+**[Day tank](../glossary/day-tank.md)** (intermediate scale): A small tank furnace charged, melted, and worked in a single day. Capacity: 200-2000 kg. Charged in the morning, melted by midday, worked in the afternoon, drained or cooled overnight. Allows larger batches than pot furnaces without the capital investment of a full continuous tank. Good for art glass and specialty production.
 
 ### Glass Batch Calculation
 

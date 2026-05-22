@@ -13,9 +13,9 @@
 - **Cooling**: Compressed, cleaned air enters counter-current heat exchanger — cooled by outgoing cold nitrogen and oxygen product streams. Further cooled by expansion through throttle valve (Joule-Thomson effect: real gas cools when expanding at temperatures below its inversion temperature) or expansion engine (adiabatic expansion does work → larger temperature drop).
 - **Distillation column**: Double-column design. Lower column at ~0.5 MPa (bp of N₂ at this pressure ~ -177°C). Upper column at ~0.1 MPa. Air enters between columns. N₂ (lower boiling point) rises as vapor, O₂ (higher boiling point) descends as liquid. Argon accumulates at an intermediate point — draw sidestream to separate argon column.
 - **Products**:
-  - **[Nitrogen](../glossary/nitrogen.html)** (99-99.99%): Used as inert blanket gas, carrier gas, purge gas. Store as compressed gas or liquid N₂ in vacuum-insulated dewar (Dewar flask — double-walled vessel, vacuum between walls, silvered inner wall for radiation shielding. Evaporation rate: 0.5-2% per day).
-  - **[Oxygen](../glossary/oxygen.html)** (95-99.5%): For steelmaking, welding, medical use, oxidation processes.
-  - **[Argon](../glossary/argon.html)** (99-99.999%): Critical for CZ crystal growth (inert atmosphere prevents silicon oxidation and reactions with crucible). Also for welding shielding gas, sputtering.
+  - **[Nitrogen](../glossary/nitrogen.md)** (99-99.99%): Used as inert blanket gas, carrier gas, purge gas. Store as compressed gas or liquid N₂ in vacuum-insulated dewar (Dewar flask — double-walled vessel, vacuum between walls, silvered inner wall for radiation shielding. Evaporation rate: 0.5-2% per day).
+  - **[Oxygen](../glossary/oxygen.md)** (95-99.5%): For steelmaking, welding, medical use, oxidation processes.
+  - **[Argon](../glossary/argon.md)** (99-99.999%): Critical for CZ crystal growth (inert atmosphere prevents silicon oxidation and reactions with crucible). Also for welding shielding gas, sputtering.
 
 ### Air Separation Process — Step-by-Step Linde Cycle
 
@@ -42,13 +42,13 @@ The Linde fractional distillation process separates air into its constituent gas
 **Step 4: Expansion (cryogenic cooling)**
 - After pre-cooling in the main heat exchanger, the air stream splits: one portion (~70-80%) continues to the distillation column; the remaining portion is further cooled by expansion.
 - **Joule-Thomson expansion valve**: Throttles high-pressure air to lower pressure through a restriction. Real gases cool when expanding below their inversion temperature (for air, ~330°C — always satisfied). Temperature drop is modest (~0.25°C/atm pressure drop) but reliable and simple (no moving parts in the cold box).
-- **[Expansion turbine](../glossary/expansion-turbine.html)** (more efficient): High-pressure air expands through a turbine wheel, doing work (driving a generator or assisting the main compressor). The air gives up internal energy as shaft work, producing a much larger temperature drop than J-T expansion alone. Turbine efficiency: 80-85% (isentropic). Typical temperature drop: 30-80°C per stage.
+- **[Expansion turbine](../glossary/expansion-turbine.md)** (more efficient): High-pressure air expands through a turbine wheel, doing work (driving a generator or assisting the main compressor). The air gives up internal energy as shaft work, producing a much larger temperature drop than J-T expansion alone. Turbine efficiency: 80-85% (isentropic). Typical temperature drop: 30-80°C per stage.
 - After expansion, air temperature reaches cryogenic range: approximately -180°C. A portion begins to liquefy.
 
 **Step 5: Double-column distillation**
 - The heart of the process. Two distillation columns operate at different pressures to exploit the boiling point difference between nitrogen and oxygen.
-- **[Lower column](../glossary/lower-column.html)** (at 5-6 atm): Air enters at the bottom. At this pressure, N₂ boils at ~-177°C and O₂ boils at a higher temperature. Nitrogen vapor rises to the top and condenses against the colder upper-column liquid. Liquid nitrogen (LN₂) accumulates at the top; oxygen-enriched liquid (~35-40% O₂, called "rich liquid") collects at the bottom.
-- **[Upper column](../glossary/upper-column.html)** (at ~1 atm): Rich liquid from the lower column feeds into the upper column through a Joule-Thomson valve (pressure drop provides additional refrigeration). At atmospheric pressure, the boiling points separate more widely: pure liquid oxygen collects at the bottom (bp -183°C) and nitrogen gas exits the top (bp -196°C). The reboiler at the bottom of the upper column is thermally coupled to the condenser at the top of the lower column — the condensing N₂ vapor from the lower column provides heat to boil the O₂ liquid in the upper column. This thermal integration is the key to the double-column design's efficiency.
+- **[Lower column](../glossary/lower-column.md)** (at 5-6 atm): Air enters at the bottom. At this pressure, N₂ boils at ~-177°C and O₂ boils at a higher temperature. Nitrogen vapor rises to the top and condenses against the colder upper-column liquid. Liquid nitrogen (LN₂) accumulates at the top; oxygen-enriched liquid (~35-40% O₂, called "rich liquid") collects at the bottom.
+- **[Upper column](../glossary/upper-column.md)** (at ~1 atm): Rich liquid from the lower column feeds into the upper column through a Joule-Thomson valve (pressure drop provides additional refrigeration). At atmospheric pressure, the boiling points separate more widely: pure liquid oxygen collects at the bottom (bp -183°C) and nitrogen gas exits the top (bp -196°C). The reboiler at the bottom of the upper column is thermally coupled to the condenser at the top of the lower column — the condensing N₂ vapor from the lower column provides heat to boil the O₂ liquid in the upper column. This thermal integration is the key to the double-column design's efficiency.
 - Multiple sieve trays or structured packing in each column provide vapor-liquid contact for mass transfer. 40-70 theoretical stages in the upper column achieve high-purity separation.
 
 **Step 6: Argon separation**
@@ -132,10 +132,10 @@ Beyond the three main products, air contains trace noble gases recoverable with 
 
 For a civilization rebuilding industrial chemistry from scratch, air separation capability develops in stages:
 
-1. **[No ASU](../glossary/no-asu.html)** — obtain O₂ from metal oxides (thermal decomposition), N₂ from combustion gas displacement. Very limited quantities.
-2. **[PSA unit](../glossary/psa-unit.html)** — build from air compressor + zeolite beds + pressure vessels. Provides 90-95% purity N₂ or O₂ at small scale. No cryogenic infrastructure needed. Adequate for inerting and basic oxidation.
-3. **[Small cryogenic ASU](../glossary/small-cryogenic-asu.html)** — requires compressor, countercurrent heat exchanger (copper or stainless), insulated cold box (perlite-filled), and a double distillation column (copper or stainless sieve trays). Produces liquid O₂/N₂ and, with an additional column, crude argon. This is the entry point for semiconductor-capable gas production.
-4. **[Full-scale ASU](../glossary/full-scale-asu.html)** — with rare gas recovery (Ne, Kr, Xe), expansion turbines (not just J-T valves), and product liquefaction for distribution. Supports all downstream processes including CZ crystal growth, steelmaking, and chemical synthesis at scale.
+1. **[No ASU](../glossary/no-asu.md)** — obtain O₂ from metal oxides (thermal decomposition), N₂ from combustion gas displacement. Very limited quantities.
+2. **[PSA unit](../glossary/psa-unit.md)** — build from air compressor + zeolite beds + pressure vessels. Provides 90-95% purity N₂ or O₂ at small scale. No cryogenic infrastructure needed. Adequate for inerting and basic oxidation.
+3. **[Small cryogenic ASU](../glossary/small-cryogenic-asu.md)** — requires compressor, countercurrent heat exchanger (copper or stainless), insulated cold box (perlite-filled), and a double distillation column (copper or stainless sieve trays). Produces liquid O₂/N₂ and, with an additional column, crude argon. This is the entry point for semiconductor-capable gas production.
+4. **[Full-scale ASU](../glossary/full-scale-asu.md)** — with rare gas recovery (Ne, Kr, Xe), expansion turbines (not just J-T valves), and product liquefaction for distribution. Supports all downstream processes including CZ crystal growth, steelmaking, and chemical synthesis at scale.
 
 
  ---

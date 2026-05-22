@@ -8,8 +8,8 @@
 ### Portland Cement Manufacture
 
 **Raw materials**:
-- **[Limestone](../glossary/limestone.html)** (CaCO₃): 60-65% of raw mix. Provides CaO. Mine, crush to <20 mm.
-- **[Clay](../glossary/clay.html)** or shale: 35-40%. Provides SiO₂ (silica), Al₂O₃ (alumina), Fe₂O₃ (iron oxide). Dug, dried, crushed.
+- **[Limestone](../glossary/limestone.md)** (CaCO₃): 60-65% of raw mix. Provides CaO. Mine, crush to <20 mm.
+- **[Clay](../glossary/clay.md)** or shale: 35-40%. Provides SiO₂ (silica), Al₂O₃ (alumina), Fe₂O₃ (iron oxide). Dug, dried, crushed.
 - **Corrective additives**: Bauxite (boost Al₂O₃) or iron ore (boost Fe₂O₃) if clay composition is deficient.
 
 **Process**:
@@ -17,19 +17,19 @@
 2. **Preheater**: Hot kiln exhaust gases heat raw meal in cyclone preheater to 800-900°C. Partial calcination: CaCO₃ → CaO + CO₂ (decomposition begins at ~600°C, completes by 900°C).
 3. **Rotary kiln**: Steel tube 30-60 m long, 2-4 m diameter, lined with refractory brick (magnesia or high-alumina). Rotates at 1-3 RPM, inclined 3-4°. Material moves counter to hot gas flow. Peak temperature **1450°C** in the burning zone. Fuel: coal, natural gas, or oil — 3-5 kg fuel per kg cement.
 4. **Clinker formation**: At 1250-1450°C, raw materials undergo solid-state reactions producing nodules (1-30 mm) of four mineral phases:
-   - **[Alite](../glossary/alite.html)** (Ca₃SiO₅ / C₃S): 45-65%. Main strength contributor. Hydrates rapidly.
-   - **[Belite](../glossary/belite.html)** (Ca₂SiO₄ / C₂S): 15-30%. Hydrates slowly, contributes long-term strength.
-   - **[Aluminate](../glossary/aluminate.html)** (Ca₃Al₂O₆ / C₃A): 8-12%. Causes flash set if uncontrolled. Hydrates fastest.
-   - **[Ferrite](../glossary/ferrite.html)** (Ca₄Al₂Fe₂O₁₀ / C₄AF): 6-10%. Moderate hydration rate. Provides gray color.
+   - **[Alite](../glossary/alite.md)** (Ca₃SiO₅ / C₃S): 45-65%. Main strength contributor. Hydrates rapidly.
+   - **[Belite](../glossary/belite.md)** (Ca₂SiO₄ / C₂S): 15-30%. Hydrates slowly, contributes long-term strength.
+   - **[Aluminate](../glossary/aluminate.md)** (Ca₃Al₂O₆ / C₃A): 8-12%. Causes flash set if uncontrolled. Hydrates fastest.
+   - **[Ferrite](../glossary/ferrite.md)** (Ca₄Al₂Fe₂O₁₀ / C₄AF): 6-10%. Moderate hydration rate. Provides gray color.
 5. **Cooling**: Rapid air quench from 1450°C to <100°C. Preserves reactive crystal forms. Hot cooling air returns to kiln (recovers heat).
 6. **Finish grinding**: Grind clinker with **2-5% gypsum** (CaSO₄·2H₂O) in ball mill to Blaine fineness 300-400 m²/kg. Gypsum controls setting time — without it, C₃A hydrates instantly ("flash set") and the concrete is unworkable.
 
 ### Concrete Production
 
-**[Mix design](../glossary/mix-design.html)** (by volume, typical structural concrete):
+**[Mix design](../glossary/mix-design.md)** (by volume, typical structural concrete):
 - **Cement**: 1 part
-- **[Fine aggregate](../glossary/fine-aggregate.html)** (sand, 0-5 mm): 2 parts
-- **[Coarse aggregate](../glossary/coarse-aggregate.html)** (gravel/crushed stone, 5-25 mm): 4 parts
+- **[Fine aggregate](../glossary/fine-aggregate.md)** (sand, 0-5 mm): 2 parts
+- **[Coarse aggregate](../glossary/coarse-aggregate.md)** (gravel/crushed stone, 5-25 mm): 4 parts
 - **Water**: water-cement ratio 0.4-0.7 by mass (lower = stronger but less workable; 0.45-0.55 for structural work)
 
 **Water-cement ratio effects**:
@@ -60,16 +60,16 @@ Concrete excels in compression but fails in tension at only 2-5 MPa (roughly 10%
 
 ### Alternative Cements
 
-**[Lime mortar](../glossary/lime-mortar.html)** (pre-Portland, simplest):
+**[Lime mortar](../glossary/lime-mortar.md)** (pre-Portland, simplest):
 - **Manufacture**: Heat limestone (CaCO₃) to 900-1000°C in lime kiln → quicklime (CaO). Slake with water → slaked lime (Ca(OH)₂). Mix with sand at 1:2.5-3 (lime:sand by volume).
 - **Setting**: Carbonation — Ca(OH)₂ slowly absorbs CO₂ from air → CaCO₃. Very slow (weeks-months to full harden). Softer than Portland cement mortar — flexible, self-healing (microcracks heal as CO₂ continues carbonating). Ideal for historic restoration and soft stone masonry.
 
-**[Pozzolanic cement](../glossary/pozzolanic-cement.html)** (Roman concrete):
+**[Pozzolanic cement](../glossary/pozzolanic-cement.md)** (Roman concrete):
 - **Principle**: Mix slaked lime (Ca(OH)₂) with pozzolan (reactive silica — volcanic ash, diatomaceous earth, calcined clay). Silica reacts with lime + water → calcium silicate hydrate (same binding gel as Portland cement). Sets underwater — hydraulic cement.
 - **Roman concrete**: Lime + volcanic ash (pozzolana from Pozzuoli, Italy) + aggregate. Pumice for lightweight. Structures still standing after 2000 years (Pantheon dome, aqueducts). Seawater exposure actually strengthens it (alkali-silica reaction forms additional C-A-S-H gel).
 - **Modern pozzolans**: Fly ash (coal combustion), silica fume, metakaolin (calcined kaolin clay at 600-800°C). Replace 15-40% of Portland cement — reduces cost, heat of hydration, and improves long-term durability.
 
-**[Alumina cement](../glossary/alumina-cement.html)** (calcium aluminate cement):
+**[Alumina cement](../glossary/alumina-cement.md)** (calcium aluminate cement):
 - Bauxite + limestone, fused at 1400-1600°C. Primarily monocalcium aluminate (CaO·Al₂O₃). Sets rapidly (2-6 hours), high early strength. Heat-resistant — service to 1600°C with alumina aggregate. Used for refractory castables and emergency repairs.
 
 ### Concrete Properties
@@ -108,11 +108,11 @@ Concrete excels in compression but fails in tension at only 2-5 MPa (roughly 10%
 
 **Wet vs dry process**: Wet process pumps slurry (30-40% water) into kiln — simpler raw material handling but wastes 30-40% of fuel energy evaporating water. Dry process uses preheater tower (4-6 stages of cyclone heat exchangers): hot kiln exhaust gases preheat raw meal to 800°C before it enters the kiln, reducing fuel consumption 30-40%. Modern plants are all dry process with preheater + precalciner.
 
-**[Temperature zones](../glossary/temperature-zones.html)** (material traveling from cold to hot end):
-1. **[Drying zone](../glossary/drying-zone.html)** (100-200°C): Residual moisture evaporates (dry process: minimal; wet process: 30-40% water removed).
-2. **[Preheating](../glossary/preheating.html)** (200-800°C): In preheater tower, not in kiln itself (dry process). Raw meal heated by countercurrent exhaust gases.
-3. **[Calcination zone](../glossary/calcination-zone.html)** (800-1000°C): CaCO₃ → CaO + CO₂. This is the most energy-intensive step (ΔH = +178 kJ/mol). In modern precalciner kilns, 60-90% of calcination occurs in a separate vessel (precalciner) between preheater and kiln, burning additional fuel. This dramatically reduces kiln thermal load.
-4. **[Burning zone / sintering zone](../glossary/burning-zone-sintering-zone.html)** (1400-1500°C): CaO reacts with SiO₂, Al₂O₃, Fe₂O₃ to form clinker minerals (C₃S, C₂S, C₃A, C₄AF). Material becomes partially liquid (20-30% melt) — nodules form by agglomeration. Residence time in burning zone: 10-20 minutes. Temperature controlled by fuel rate and raw meal feed rate.
+**[Temperature zones](../glossary/temperature-zones.md)** (material traveling from cold to hot end):
+1. **[Drying zone](../glossary/drying-zone.md)** (100-200°C): Residual moisture evaporates (dry process: minimal; wet process: 30-40% water removed).
+2. **[Preheating](../glossary/preheating.md)** (200-800°C): In preheater tower, not in kiln itself (dry process). Raw meal heated by countercurrent exhaust gases.
+3. **[Calcination zone](../glossary/calcination-zone.md)** (800-1000°C): CaCO₃ → CaO + CO₂. This is the most energy-intensive step (ΔH = +178 kJ/mol). In modern precalciner kilns, 60-90% of calcination occurs in a separate vessel (precalciner) between preheater and kiln, burning additional fuel. This dramatically reduces kiln thermal load.
+4. **[Burning zone / sintering zone](../glossary/burning-zone-sintering-zone.md)** (1400-1500°C): CaO reacts with SiO₂, Al₂O₃, Fe₂O₃ to form clinker minerals (C₃S, C₂S, C₃A, C₄AF). Material becomes partially liquid (20-30% melt) — nodules form by agglomeration. Residence time in burning zone: 10-20 minutes. Temperature controlled by fuel rate and raw meal feed rate.
 5. **Cooling zone**: Clinker exits kiln at ~1300°C into a clinker cooler (grate cooler — ambient air blows upward through falling clinker bed). Clinker cooled to 100-200°C in 20-30 minutes. The heated air (800-1000°C) is recovered as combustion air for the kiln burner — essential for fuel efficiency.
 
 **Fuel options**: Coal (pulverized, most common globally), natural gas, heavy fuel oil, petroleum coke, waste tires, municipal solid waste-derived fuel. Fuel consumption: 3.0-3.5 GJ/tonne clinker (modern dry process), 5.0-6.5 GJ/tonne (wet process). Kiln burner: 40-120 MW thermal input for a 3000 tonnes/day kiln.
@@ -123,9 +123,9 @@ Clinker is cooled, stored, then ground with 3-5% gypsum (CaSO₄·2H₂O) in a c
 
 ### Concrete Technology
 
-**[Admixtures](../glossary/admixtures.html)** (chemical additives mixed into concrete to modify properties):
-- **[Plasticizers](../glossary/plasticizers.html)** (water reducers): Lignosulfonates or polycarboxylate ethers. Reduce water content 5-15% while maintaining workability → higher strength (lower water/cement ratio).
-- **[Superplasticizers](../glossary/superplasticizers.html)** (high-range water reducers): Polycarboxylate ethers. Reduce water 20-40%. Enable self-compacting concrete (flows without vibration).
+**[Admixtures](../glossary/admixtures.md)** (chemical additives mixed into concrete to modify properties):
+- **[Plasticizers](../glossary/plasticizers.md)** (water reducers): Lignosulfonates or polycarboxylate ethers. Reduce water content 5-15% while maintaining workability → higher strength (lower water/cement ratio).
+- **[Superplasticizers](../glossary/superplasticizers.md)** (high-range water reducers): Polycarboxylate ethers. Reduce water 20-40%. Enable self-compacting concrete (flows without vibration).
 - **Accelerators**: Calcium chloride (CaCl₂) or calcium nitrate — speed up setting and early strength gain. Used in cold weather concreting.
 - **Retarders**: Sucrose, citric acid, or lignosulfonates — slow setting for hot weather or long transport times.
 - **Air-entraining agents**: Vinsol resin or synthetic surfactants — introduce 4-8% microscopic air bubbles. Critical for freeze-thaw resistance in cold climates.

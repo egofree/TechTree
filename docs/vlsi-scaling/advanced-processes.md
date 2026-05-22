@@ -25,7 +25,7 @@ Replaces thermal diffusion ([Core Fab Processes — Doping](../photolithography/
 - **Implant depth**: 10-1000 nm depending on energy and species. Heavier ions (As) stop shallower than lighter ions (B) at same energy.
 - **Channeling suppression**: Tilt wafer 7° off-axis, or grow 10-30 nm screen oxide, to prevent ions from channeling along crystal planes.
 
-**[Annealing](../glossary/annealing.html)** (damage recovery + dopant activation):
+**[Annealing](../glossary/annealing.md)** (damage recovery + dopant activation):
 - Implantation amorphizes the crystal lattice. Anneal restores crystallinity and moves dopants to substitutional sites.
 - **Furnace anneal**: 900-1050°C, 30-60 min in N₂. Simple but causes significant dopant diffusion (redistributes the carefully controlled profile).
 - **Rapid thermal anneal (RTA)**: Ramp to 1000-1100°C in seconds (halogen lamps), hold 10-30 sec, cool. Minimizes dopant redistribution. Preferred for sub-micron processes.
@@ -96,7 +96,7 @@ Global planarization enabling multi-level metallization. Without CMP, topography
 
 Replaces aluminum metallization ([Core Fab Processes — Metallization](../photolithography/fab-processes.md)) with lower-resistance copper interconnects (ρ_Cu = 1.68 μΩ·cm vs ρ_Al = 2.65 μΩ·cm). Copper cannot be dry-etched with available chemistries, so a damascene (inlaid) process is used instead.
 
-**[Dual damascene process](../glossary/dual-damascene-process.html)** (7 steps per metal layer):
+**[Dual damascene process](../glossary/dual-damascene-process.md)** (7 steps per metal layer):
 1. **Dielectric deposition**: Deposit inter-layer dielectric (SiO₂ or low-k material). CVD or spin-on. 500-1000 nm thick.
 2. **Lithography + etch**: Pattern trenches (wires) and vias (vertical connections) in the dielectric using two lithography steps + RIE. Dual damascene patterns both in one etch sequence.
 3. **Barrier/seed deposition**: Deposit Ta/TaN barrier layer (5-20 nm by PVD or ALD) to prevent Cu diffusion into SiO₂. Deposit Cu seed layer (50-100 nm by PVD) for electroplating nucleation.

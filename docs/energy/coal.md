@@ -39,7 +39,7 @@ The rank of a coal deposit is determined primarily by the maximum temperature an
 - **Bituminous**: Black and dense, breaks into blocky rectangular pieces along natural fractures (cleats). Most common industrial coal.
 - **Anthracite**: Black with metallic luster, very hard, breaks with conchoidal (shell-like) fracture. Feels denser and heavier than bituminous. Difficult to ignite but burns very clean with little smoke.
 
-**[Properties by rank](../glossary/properties-by-rank.html)** (typical ranges):
+**[Properties by rank](../glossary/properties-by-rank.md)** (typical ranges):
 
 | Property | Lignite | Sub-bituminous | Bituminous | Anthracite |
 |----------|---------|----------------|------------|------------|
@@ -89,7 +89,7 @@ How coal is burned matters as much as what type of coal is used. The combustion 
 - **Sulfur content (0.5-5%)**: On combustion, sulfur oxidizes to SO₂, which forms sulfuric acid in the atmosphere → acid rain. Damages forests, acidifies waterways, corrodes stone and metal structures. Wash coal to reduce sulfur before burning. Flue gas desulfurization (scrubbers using limestone slurry) removes SO₂ post-combustion but is complex.
 - **Ash (5-20%)**: Non-combustible mineral residue. Disposal requires ash ponds or landfill. Fly ash (fine particles carried in flue gas) must be captured with electrostatic precipitators or bag filters to prevent air pollution. Bottom ash can be used as aggregate in concrete and road base.
 - **Acid mine drainage**: Pyrite (FeS₂) in coal seams oxidizes when exposed to air and water during mining, producing sulfuric acid and dissolved iron. Drainage from mines and spoil piles can contaminate streams, killing aquatic life. Treatment: neutralize with limestone, contain runoff in settlement ponds.
-- **Firedamp (methane)**: Methane (CH₄) trapped in coal seams is released during mining. Concentrations of 5-15% in air are explosive. Control by ventilation — large fans drive fresh air through mine workings. The **[Davy safety lamp](../glossary/davy-safety-lamp.html)** (invented 1815) encloses the flame in fine wire gauze screen — the gauze cools flame below ignition temperature, preventing firedamp ignition. The lamp flame changes color/height in the presence of methane, serving as a gas detector. Modern mines use electronic gas detectors.
+- **Firedamp (methane)**: Methane (CH₄) trapped in coal seams is released during mining. Concentrations of 5-15% in air are explosive. Control by ventilation — large fans drive fresh air through mine workings. The **[Davy safety lamp](../glossary/davy-safety-lamp.md)** (invented 1815) encloses the flame in fine wire gauze screen — the gauze cools flame below ignition temperature, preventing firedamp ignition. The lamp flame changes color/height in the presence of methane, serving as a gas detector. Modern mines use electronic gas detectors.
 - **Spontaneous combustion**: See [Storage & Safety](#storage--safety) below.
 
 ### Coal Combustion Calculations
@@ -137,7 +137,7 @@ Coal can be converted to combustible gases by partial combustion or reaction wit
 2. **Blow (air) phase**: Air replaces steam. Exothermic C + O₂ reactions reheat the bed to 1000-1200°C. Blow gas (mostly N₂ + CO₂, low heating value) is either vented or burned in a waste heat boiler for steam generation. Phase duration: 1-3 minutes.
 - **Carbureted water gas**: To increase calorific value, oil (gas oil or tar oil) is sprayed into the hot water gas in a carburetor chamber lined with checker brick at 800-1000°C. The oil cracks into light hydrocarbons (CH₄, C₂H₄, higher aromatics), raising the calorific value to 14-20 MJ/m³. This was the standard town gas production method before natural gas pipelines.
 
-**[Gasifier construction](../glossary/gasifier-construction.html)** (for producer gas — simplest type): Vertical cylindrical shaft of firebrick or steel-lined refractory. Coal/charcoal charged from top. Air inlet (tuyere) near bottom. Grate at bottom supports fuel bed. Gas outlet near top (updraft) or at grate level (downdraft — cleaner gas, less tar). Diameter 0.5-3 m depending on output. Typical output: 100-5000 m³ gas/hour. The gasifier grate must rotate or be shaken periodically to break up clinker (ash that has fused into solid masses at high temperature). Clinker formation is worse with high-ash coal — use washed coal for gasification. Gas exit temperature: 400-600°C (updraft, sensible heat in gas) or 100-200°C (downdraft, heat consumed by reduction reactions).
+**[Gasifier construction](../glossary/gasifier-construction.md)** (for producer gas — simplest type): Vertical cylindrical shaft of firebrick or steel-lined refractory. Coal/charcoal charged from top. Air inlet (tuyere) near bottom. Grate at bottom supports fuel bed. Gas outlet near top (updraft) or at grate level (downdraft — cleaner gas, less tar). Diameter 0.5-3 m depending on output. Typical output: 100-5000 m³ gas/hour. The gasifier grate must rotate or be shaken periodically to break up clinker (ash that has fused into solid masses at high temperature). Clinker formation is worse with high-ash coal — use washed coal for gasification. Gas exit temperature: 400-600°C (updraft, sensible heat in gas) or 100-200°C (downdraft, heat consumed by reduction reactions).
 
 ### Storage & Safety
 
@@ -197,7 +197,7 @@ Coal is the foundational fossil fuel of industrial civilization. It provides the
 
 ---
 
-**[Coal data summary](../glossary/coal-data-summary.html)** (typical bituminous, washed):
+**[Coal data summary](../glossary/coal-data-summary.md)** (typical bituminous, washed):
 - Calorific value: 26-32 MJ/kg
 - Carbon: 65-85% | Hydrogen: 4-6% | Oxygen: 5-15% | Sulfur: 0.5-2% | Ash: 5-12%
 - Bulk density: 700-900 kg/m³ (loose), 1000-1200 kg/m³ (compacted)

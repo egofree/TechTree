@@ -9,7 +9,7 @@
 
 **Flax (linen)**:
 - **Cultivation**: Annual plant, ~1 m tall. Sow in spring, harvest ~100 days later when stalks yellow at bottom third. Pull entire plant (don't cut — longer fibers from root end). Plant density affects fiber quality: dense sowing (150-200 kg seed/hectare) produces thin stalks with fine fiber; sparse sowing produces coarse fiber but more seed yield.
-- **[Retting](../glossary/retting.html)** (separating fiber from stem): Submerge flax stalks in water (pond, stream, or dew-retting on grass) for 5-14 days. Bacteria decompose pectin binding fibers to woody core (shives). Test: when fibers separate easily from stem, retting is complete. Over-retting weakens fibers irreversibly — check daily after day 5.
+- **[Retting](../glossary/retting.md)** (separating fiber from stem): Submerge flax stalks in water (pond, stream, or dew-retting on grass) for 5-14 days. Bacteria decompose pectin binding fibers to woody core (shives). Test: when fibers separate easily from stem, retting is complete. Over-retting weakens fibers irreversibly — check daily after day 5.
 - **Breaking**: Crush dried retted stalks with wooden breaker (flax brake — hinged wooden blades that snap the woody core). Shives break into short pieces, fibers remain long.
 - **Scutching**: Beat broken stalks with flat wooden knife against vertical board. Knock away remaining woody fragments.
 - **Hackling (combing)**: Draw fibers through graduated iron or thorn combs (hackles). Coarse hackle removes remaining shives. Fine hackle separates long line fibers (30-90 cm) from short tow (5-15 cm). Line fibers become high-quality linen; tow becomes coarse cloth or rope.
@@ -31,19 +31,19 @@
 - **Scouring**: Remove lanolin (natural wool grease, ~30-50% of greasy fleece weight), dirt, vegetable matter. Wash in hot water (50-60°C) with potash (potassium carbonate) or soap. Multiple washes until water runs clear. Lanolin recovered from wash water by skimming cooled surface — useful for waterproofing, lubricants, and skin protection.
 - **Carding vs combing**: Two distinct preparation methods yielding different yarn types. **Carding**: Tease scoured wool between two carding paddles (leather pads covered with bent wire teeth). Disentangles fibers, removes remaining debris, aligns roughly for spinning. Produces rolag (rolled cylinder of fiber) → woolen yarn (fluffy, warm, fuzzy surface, shorter fibers). **Combing**: Draw long-staple wool through metal comb rows (wool combs). Aligns fibers parallel, removes short noils. Produces top (parallel fiber strand) → worsted yarn (smooth, dense, strong, lustrous, longer fibers).
 
-**[Silk](../glossary/silk.html)** (*Bombyx mori*):
+**[Silk](../glossary/silk.md)** (*Bombyx mori*):
 - **Cultivation**: Domesticated silkworms fed exclusively on white mulberry leaves. Larvae spin cocoons over 3-4 days. Each cocoon contains a single continuous filament 600-900 m long. Requires controlled temperature (23-25°C) and humidity.
 - **Cocoon processing**: Kill pupae by steaming or baking cocoons at 60-80°C (prevents moth from emerging and breaking filament). Sort cocoons by quality — discard stained, pierced, or double cocoons.
 - **Degumming**: Boil cocoons in water with sodium carbonate (Na₂CO₃, 5-10 g/L) at 80-90°C for 1-2 hours. Removes sericin (gummy protein binding filaments, ~20-30% of raw weight). Fibers become lustrous and soft. Degumming waste (sericin) recoverable as adhesive.
 - **Properties**: Extremely fine — individual fiber 0.3-0.5 dtex (decitex, grams per 10,000 m). Tensile strength ~500 MPa. Smooth, triangular cross-section refracts light → characteristic luster. Poor wet strength (loses ~15-20% when damp). Damaged by strong alkalis and prolonged sunlight.
 
-**[Nettle fiber](../glossary/nettle-fiber.html)** (common stinging nettle, *Urtica dioica*):
+**[Nettle fiber](../glossary/nettle-fiber.md)** (common stinging nettle, *Urtica dioica*):
 - **Harvesting**: Cut stems in late summer when mature but before heavy frost. Strip leaves (wear gloves — stinging hairs contain formic acid and histamine).
 - **Retting**: Bundle stems and submerge in water for 2-4 weeks (or dew-ret on grass for 4-6 weeks). Bacteria decompose pectin binding bark fibers to woody core. Test by checking if fibers peel away cleanly from stem.
 - **Decortication**: Beat or crush dried retted stems to break woody core. Peel bark strips containing fiber bundles. Scrape away remaining woody fragments with blunt blade.
 - **Properties**: Similar to linen — strong, long-staple fiber. Traditionally used for sailcloth, fishing nets, and coarse cloth in northern Europe before flax became dominant. Yields less than flax per hectare but grows wild without cultivation.
 
-**[Sinew](../glossary/sinew.html)** (animal tendon):
+**[Sinew](../glossary/sinew.md)** (animal tendon):
 - **Source**: Leg tendons and long backstrap tendons from deer, elk, cattle. Harvest from fresh carcass — peel away surrounding tissue while tendon is still wet.
 - **Processing**: Dry tendons completely (air dry or by low heat). Pound dried tendon with smooth stone or wooden mallet until it separates into individual fibers. Fibers are white, translucent, and extremely strong in tension.
 - **Use**: Not spun conventionally — dampen to make flexible, then wrap around bindings (arrow fletching, tool hafting, seam reinforcement). Dries hard and shrinks tight, creating extremely strong join. Primary sewing thread for leather before manufactured thread.
@@ -60,13 +60,13 @@
 
 The cotton gin separates cotton fiber (lint) from seeds. Two designs, differing in throughput and fiber quality:
 
-**[Churka (roller gin)](../glossary/churka-roller-gin.html)** — ancient Indian design, gentle on fiber:
+**[Churka (roller gin)](../glossary/churka-roller-gin.md)** — ancient Indian design, gentle on fiber:
 - Two wooden rollers (5-8 cm diameter, 20-30 cm long) mounted side by side in a wooden frame, separated by a gap slightly narrower than a cotton seed (~3-4 mm). One roller is covered with leather or rough cloth; the other is smooth hardwood. A crank turns both rollers in opposite directions (one clockwise, one counterclockwise).
 - Feed cotton bolls into the gap. Rollers grip the fiber and pull it through the gap, but the seeds are too large to pass and fall away into a collection tray below.
 - Production: 2-5 kg clean lint per hour by one operator. Preserves long-staple cotton quality — the preferred gin for Egyptian and Sea Island cotton. Still used in India and parts of Africa.
 - Construction materials: Hardwood frame, wooden rollers (one leather-wrapped), iron crank and bearings. No precision parts — can be built with basic carpentry tools.
 
-**[Saw gin](../glossary/saw-gin.html)** (Whitney, 1793) — high throughput, damages long-staple fiber:
+**[Saw gin](../glossary/saw-gin.md)** (Whitney, 1793) — high throughput, damages long-staple fiber:
 - A rotating cylinder with 40-80 circular saw blades (15-20 cm diameter, 2-3 mm thick, spaced ~12 mm apart) with sharpened teeth. The cylinder spins at 300-400 rpm inside a wooden housing. A grid (iron bars with narrow slots) covers the front of the saws — slots are narrower than cotton seeds (~5 mm wide).
 - Cotton fed into the hopper contacts the spinning saw teeth. Teeth grab fiber and pull it through the grid slots. Seeds are too large to fit through the slots and are ejected. A rotating brush removes lint from the saw teeth.
 - Production: 50-200 kg lint per hour (machine-powered). 10-40× faster than the roller gin. Damages long fibers (cuts them to the saw spacing length) — acceptable for short-staple upland cotton but destroys premium long-staple cotton quality.
@@ -76,9 +76,9 @@ The cotton gin separates cotton fiber (lint) from seeds. Two designs, differing 
 
 Retting uses bacterial decomposition to separate bast fibers (flax, hemp, nettle) from the woody core. Water management is critical for consistent quality:
 
-**[Dew retting](../glossary/dew-retting.html)** (lowest technology): Spread harvested stalks in a thin layer (~10 cm deep) on a grass field. Morning dew and rain keep the stalks moist; soil bacteria and fungi decompose the pectin. Turn stalks every 2-3 days for even retting. Duration: 2-6 weeks depending on climate (requires regular dew or rain; fails in dry weather). Advantages: no water supply needed, low labor. Disadvantages: slow, weather-dependent, uneven results. The most common method in Northern Europe historically.
+**[Dew retting](../glossary/dew-retting.md)** (lowest technology): Spread harvested stalks in a thin layer (~10 cm deep) on a grass field. Morning dew and rain keep the stalks moist; soil bacteria and fungi decompose the pectin. Turn stalks every 2-3 days for even retting. Duration: 2-6 weeks depending on climate (requires regular dew or rain; fails in dry weather). Advantages: no water supply needed, low labor. Disadvantages: slow, weather-dependent, uneven results. The most common method in Northern Europe historically.
 
-**[Water retting](../glossary/water-retting.html)** (controlled quality): Submerge bundled stalks in a pond, slow-moving stream, or purpose-built retting tank. Water must be warm enough for bacterial activity (15-25°C optimal; below 10°C bacteria are dormant and retting stops; above 30°C, undesirable thermophilic bacteria dominate and over-ret the fiber). Duration: 5-14 days.
+**[Water retting](../glossary/water-retting.md)** (controlled quality): Submerge bundled stalks in a pond, slow-moving stream, or purpose-built retting tank. Water must be warm enough for bacterial activity (15-25°C optimal; below 10°C bacteria are dormant and retting stops; above 30°C, undesirable thermophilic bacteria dominate and over-ret the fiber). Duration: 5-14 days.
 
 **Retting tank construction**: Line a pit (2 × 3 × 1 m deep) with clay puddle or wooden planks to hold water. Fill with water, add flax/hemp bundles weighted down with stones. A tank this size rets ~200 kg of stalk per batch. Change water between batches — spent retting water is foul-smelling and depleted of oxygen. Stagnant retting water generates hydrogen sulfide (H₂S, rotten egg gas — toxic at high concentrations; ventilate or work upwind).
 
@@ -90,7 +90,7 @@ Retting uses bacterial decomposition to separate bast fibers (flax, hemp, nettle
 
 Standardized grading ensures consistent fiber quality for spinning and weaving:
 
-**[Wool grading](../glossary/wool-grading.html)** (Blood System, US; or Micron System):
+**[Wool grading](../glossary/wool-grading.md)** (Blood System, US; or Micron System):
 - **Fine** (<22.5 μm fiber diameter): Merino and similar breeds. Softest, warmest, most crimp (6-12 waves per cm). Used for fine clothing, knitting yarns. Premium price — Merino fleece typically 18-24 μm. Spinning count: 64s-80s (yields very fine yarn).
 - **Medium** (22.5-31 μm): Down breeds, crossbreeds. Versatile — clothing, blankets, worsted cloth. Moderate crimp. Spinning count: 50s-62s.
 - **Coarse** (31-40 μm): Longwool breeds (Lincoln, Romney). Long staple (15-30 cm), strong, lustrous. Used for carpets, upholstery, heavy outerwear. Low crimp (1-3 waves per cm). Spinning count: 36s-48s.

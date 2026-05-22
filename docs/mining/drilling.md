@@ -10,25 +10,25 @@
 
 Before pneumatic or hydraulic drills, miners broke rock with hand steel. A steel drill (also called a jumper) is a hardened chisel-pointed rod, driven into rock by hammer blows. One person rotates the drill slightly between strikes to prevent binding and distribute the cutting edge across the rock face.
 
-**[Single jack drilling](../glossary/single-jack-drilling.html)** (one person, one hammer):
+**[Single jack drilling](../glossary/single-jack-drilling.md)** (one person, one hammer):
 - One hand holds and rotates the drill steel, the other swings a 2-3 kg hammer. The drill steel is typically 600-1200 mm long, 19-25 mm diameter, with a forged chisel point at the working end and a slightly widened head (to prevent mushrooming over the holder's hand).
 - Advance rate: 0.3-0.5 m/hour in granite. A full shift yields 2-3 m of hole in hard rock, more in softer rock like limestone (4-6 m/day). The rate drops as hole depth increases because deeper holes are harder to clean and the longer steel flexes more under each blow.
 - Water is poured into the hole periodically to make a slurry that floats out rock dust and keeps the bit cutting clean. Dry drilling in silica-bearing rock generates respirable quartz dust, the direct cause of silicosis.
 - The striker's accuracy matters. Missed strikes deform the drill steel head into a "mushroom" that can send sharp spalls flying. Eye protection is essential. Experienced strikers develop a rhythm of one blow per 1-2 seconds with consistent force.
 
-**[Double jack drilling](../glossary/double-jack-drilling.html)** (two people, one sledge):
+**[Double jack drilling](../glossary/double-jack-drilling.md)** (two people, one sledge):
 - One person holds and rotates the drill steel. A second swings a 4-6 kg sledge hammer. Advance rate roughly doubles to 4-6 m/day in hard rock.
 - The holder faces away from the striker and times rotation to the striker's rhythm. Trust and communication are critical. The holder signals readiness by tapping the drill against the rock face between strikes. Mis-timed strikes can injure the holder's hands.
 - For deep holes, drill steels are used in sets of increasing length (300 mm, 600 mm, 900 mm, 1200 mm). Short steels start the hole, longer steels extend it. Each successive steel has a slightly wider diameter to prevent binding in the tapered hole.
 
 ### Drill Steel and Bit Design
 
-**[Carbon steel bits](../glossary/carbon-steel-bits.html)** (standard for hand drilling and early machine drilling):
+**[Carbon steel bits](../glossary/carbon-steel-bits.md)** (standard for hand drilling and early machine drilling):
 - Medium-carbon steel (0.6-0.8% carbon), forged to shape and hardened by quenching in water or oil from 800-820°C. Tempered at 300-400°C to reduce brittleness while maintaining edge hardness (Rockwell C 50-58).
 - Sharp chisel edge dulls quickly in hard rock. Needs re-forging every 0.5-1 m of drilling in granite. In soft rock (coal, shale), a single bit may drill 3-5 m before resharpening.
 - Re-sharpening: heat to bright red (850-900°C), re-forge the chisel edge on anvil, re-harden and temper. A mine drill sharpener services dozens of bits per shift at a small forge set up near the working face.
 
-**[Tungsten carbide insert bits](../glossary/tungsten-carbide-insert-bits.html)** (for hard rock and pneumatic drills):
+**[Tungsten carbide insert bits](../glossary/tungsten-carbide-insert-bits.md)** (for hard rock and pneumatic drills):
 - Small tungsten carbide inserts (WC-Co alloy, 6-10% cobalt binder) brazed into a steel body. The carbide cutting edge retains hardness at temperatures where steel softens (above 600°C), which matters in dry or deep drilling where the bit heats up.
 - Insert shapes: chisel (two cutting edges, for hand drilling and jackhammers), cross (four edges, for machine drilling in hard rock), button (hemispherical carbide buttons, for rotary-percussive drilling in very hard rock).
 - Service life: 30-100 m of drilling per set of inserts before re-grinding or replacement, compared to 2-5 m for carbon steel in the same rock. The higher upfront cost of carbide is repaid many times over in reduced downtime and labor.
@@ -49,7 +49,7 @@ Compressed air powers the percussive mechanism that replaces hand hammering. The
 - Water flush through hollow drill steel suppresses dust and clears cuttings. Minimum water flow: 4-8 liters per minute. Dry drilling generates respirable silica dust.
 - The operator pushes against an air-leg (pneumatic cylinder) that supports the drill weight and provides feed force. Air-leg extended length 1.2-1.8 m, providing 500-1500 N thrust at 5 bar.
 
-**[Drifter drill](../glossary/drifter-drill.html)** (mounted on a boom or carriage):
+**[Drifter drill](../glossary/drifter-drill.md)** (mounted on a boom or carriage):
 - Larger piston (60-100 mm bore), heavier frame, higher feed force. Cannot be hand-held. Mounted on a drill jumbo (underground) or crawl carriage (surface).
 - Air consumption: 8-15 m³/min. Drills holes 38-64 mm diameter, 3-5 m deep. Feed force: 500-3000 N, adjustable via pneumatic chain or screw feed.
 - Drill jumbo: a mobile platform with 1-3 hydraulic or pneumatic booms, each carrying a drifter drill. One operator can drill an entire heading round from a single position. A 2-boom jumbo drills 30-50 holes (3 m deep each) in 2-3 hours, replacing a crew of 4-6 men with hand-held jackhammers.
@@ -79,13 +79,13 @@ Core drilling extracts a cylindrical sample of rock for geological analysis. Unl
 
 Blast holes are drilled in a pattern (grid) across the rock face, loaded with explosive, and fired to break the rock into manageable fragments. The drilling pattern is the most important variable in blast design: hole depth, spacing, burden (distance to the free face), and angle all affect fragmentation size, throw distance, and vibration.
 
-**[Jackhammer blast holes](../glossary/jackhammer-blast-holes.html)** (small-scale underground):
+**[Jackhammer blast holes](../glossary/jackhammer-blast-holes.md)** (small-scale underground):
 - Diameter: 32-40 mm. Depth: 1.5-3.0 m. Spacing: 0.4-0.8 m between holes in hard rock, wider in softer rock.
 - Pattern: parallel holes (burn cut) or angled holes (V-cut, fan cut). A typical round in a 3×3 m heading requires 30-50 holes. The burn cut pattern uses closely-spaced parallel holes in the center, loaded lightly or left empty, to create a free face for the surrounding holes to break toward.
 - Specific charge (explosive per cubic meter of rock): 1.0-2.5 kg/m³ for hard rock. Lower values produce larger fragments (easier to handle but may need secondary breaking); higher values produce finer fragmentation but more vibration and fly rock.
 - Drilling time: 1-3 hours for a full round, depending on rock hardness and number of drills working simultaneously.
 
-**[Long-hole drilling](../glossary/long-hole-drilling.html)** (mechanized underground):
+**[Long-hole drilling](../glossary/long-hole-drilling.md)** (mechanized underground):
 - Hydraulic or pneumatic long-hole drill on a boom mount. Diameter: 50-100 mm. Depth: 10-30 m. Used for bench mining, sub-level caving, and large stope blasting.
 - Larger diameter allows bulk emulsion or ANFO charging. A single long-hole round may contain 500-5000 kg of explosive, breaking 1000-10,000 tonnes of rock.
 
@@ -93,15 +93,15 @@ Blast holes are drilled in a pattern (grid) across the rock face, loaded with ex
 
 Drilling fluid (mud or water) serves four functions: cools the bit, removes cuttings, supports borehole walls against collapse, and lubricates the drill string to reduce friction. Without fluid, the bit overheats and the cuttings pack the hole, seizing the drill string.
 
-**[Water flush](../glossary/water-flush.html)** (simple, for short holes):
+**[Water flush](../glossary/water-flush.md)** (simple, for short holes):
 - Clean water pumped at 10-30 liters/min through hollow drill steel. Works for shallow blast holes and diamond drilling in competent (solid) rock. No additives needed.
 
-**[Drilling mud](../glossary/drilling-mud.html)** (for deep or unstable holes):
+**[Drilling mud](../glossary/drilling-mud.md)** (for deep or unstable holes):
 - Bentonite clay (sodium montmorillonite) mixed with water to specific density (1.05-1.20 g/cm³). The mud forms a filter cake on the borehole wall, preventing collapse in loose or fractured ground. Bentonite swells 10-15 times its dry volume when hydrated, creating a viscous, thixotropic fluid (thin when stirred, gels when standing).
 - Mud properties: viscosity 30-40 seconds (Marsh funnel), yield point 5-15 Pa, fluid loss < 10 ml in 30 minutes. These properties are measured on-site with simple instruments. Viscosity too high: pump works too hard, penetration drops. Viscosity too low: cuttings settle, hole collapses.
 - Mud circulation system: mud pump (positive displacement, triplex piston pump, 50-200 kW) pushes mud down the drill string at 5-20 MPa pressure. Mud returns through the annulus, carrying cuttings to surface. At surface, mud flows through settling tanks (2-4 m³, allowing coarse cuttings to settle), then shale shakers (vibrating screens, 0.5-2 mm mesh) that remove fine cuttings before the mud returns to the suction tank for re-circulation.
 
-**[Foam drilling](../glossary/foam-drilling.html)** (alternative for dry holes):
+**[Foam drilling](../glossary/foam-drilling.md)** (alternative for dry holes):
 - In areas where water is scarce or the formation swells when wet (some clays expand dramatically on contact with water), foam replaces liquid mud. A surfactant (foaming agent, 0.5-2% solution) is injected into the compressed air stream. The resulting stiff foam carries cuttings to the surface and provides borehole support.
 - Foam drilling uses less water (10-30 liters/min vs. 100+ liters/min for mud drilling) and does not swell water-sensitive formations. But foam stability is temperature-sensitive, and the method does not work in heavily water-producing formations where groundwater washes out the foam.
 
@@ -109,7 +109,7 @@ Drilling fluid (mud or water) serves four functions: cools the bit, removes cutt
 
 Deviated boreholes waste drilling effort and produce misleading geological data. Holes deviate because the drill string bends under its own weight and the bit deflects off harder rock layers.
 
-**[Acid etch survey](../glossary/acid-etch-survey.html)** (simplest method):
+**[Acid etch survey](../glossary/acid-etch-survey.md)** (simplest method):
 - A glass bottle half-filled with hydrofluoric acid (HF) is lowered into the borehole on a wire and left for 20-30 minutes. HF etches the glass at the acid-air interface, marking the horizontal plane. The etch line angle from the bottle's axis gives borehole inclination.
 - Inexpensive, no electronics required. Only measures inclination, not azimuth (direction). HF is extremely hazardous (causes deep tissue burns, bone decalcification). Must be handled in thick polyethylene containers with calcium gluconate gel available as first aid.
 
@@ -148,12 +148,12 @@ Drilling is one of the most hazardous activities in mining. The combination of h
 
 Rock drillability determines bit selection, penetration rate, and cost per meter. The key properties are compressive strength, abrasiveness, and joint/fracture density.
 
-**[Compressive strength](../glossary/compressive-strength.html)** (uniaxial):
+**[Compressive strength](../glossary/compressive-strength.md)** (uniaxial):
 - Soft rock (coal, shale, evaporites): 10-50 MPa. Easy to drill with carbon steel bits at 0.5-1.0 m/hour (hand steel) or 10-30 m/hour (pneumatic).
 - Medium rock (sandstone, limestone): 50-150 MPa. Requires tungsten carbide bits. Penetration rates roughly half those in soft rock.
 - Hard rock (granite, basalt, gneiss): 150-300 MPa. Requires tungsten carbide or button bits at maximum feed pressure. Penetration rates 30-50% of soft rock rates.
 
-**[Abrasiveness](../glossary/abrasiveness.html)** (determines bit wear):
+**[Abrasiveness](../glossary/abrasiveness.md)** (determines bit wear):
 - Measured by the Cerchar Abrasivity Index (CAI): a steel needle dragged across a rock surface under 70 N load, examined under a microscope for wear. CAI 0.5-1.0 = low abrasiveness (limestone, marble). CAI 2.0-4.0 = high (granite, quartzite). CAI > 4.0 = extreme (flint, chert).
 - High abrasiveness requires carbide button bits (not chisel bits), generous water flush, and frequent bit changes. Bit cost per meter can be 5-10× higher in abrasive rock than in non-abrasive rock of similar strength.
 
@@ -180,7 +180,7 @@ DTH drilling places the percussive hammer directly behind the drill bit at the b
 
 Unlike percussive drilling (which chips rock by impact), rotary drilling grinds rock by pressing a rotating bit against the formation under high load. Rotary drills are used for large-diameter holes in surface mining and oil/gas wells.
 
-**[Tricone roller bit](../glossary/tricone-roller-bit.html)** (standard for large blast holes):
+**[Tricone roller bit](../glossary/tricone-roller-bit.md)** (standard for large blast holes):
 - Three conical rollers, each studded with tungsten carbide buttons, rotate on bearings as the bit turns. The buttons crush and shear the rock under the combined effect of rotation and downward pressure (weight on bit: 5-30 tonnes depending on hole diameter and rock hardness).
 - Hole diameter: 150-380 mm. Rotation speed: 60-120 RPM. Penetration rate: 10-40 m/hour in medium-hard rock (much faster than percussive drilling in large diameters).
 - Air or mud circulation clears cuttings. Air is preferred for blast holes (faster, no mud disposal); mud is required for deep or unstable holes.

@@ -104,7 +104,7 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 
 **Hoof care**: Cattle, sheep, goats, horses, and donkeys all need regular hoof trimming. Cattle on soft pasture may need trimming every 6-12 months; horses on dry ground self-wear hooves, but stabled horses need trimming every 6-8 weeks. Overgrown hooves cause lameness, which reduces feed intake, draft power, and breeding success. Sheep on wet pasture are prone to foot rot (bacterial infection between hoof claws, identified by foul smell and lameness). Trim affected hooves, apply copper sulfate foot bath (5-10% solution).
 
-**[Common diseases](../glossary/common-diseases.html)** (identification only; treatment covered in [Medicine](../health/medicine.md)):
+**[Common diseases](../glossary/common-diseases.md)** (identification only; treatment covered in [Medicine](../health/medicine.md)):
 - **Foot-and-mouth**: Vesicles (fluid-filled blisters) on tongue, lips, feet, and teats. Causes drooling, lameness, fever. Spreads by contact and airborne transmission. Reportable; quarantine immediately.
 - **Anthrax**: Sudden death without prior symptoms in cattle and sheep. Carcass bloated, blood from body openings does not clot. Do not open the carcass; spores contaminate soil for decades.
 - **Brucellosis**: Abortion in late pregnancy, retained placenta, infertility. Transmissible to humans (undulant fever). Test breeding stock regularly.

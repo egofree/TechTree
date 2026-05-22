@@ -13,19 +13,19 @@ Electrodes are the critical consumable component of electric arc furnaces (EAF) 
 
 ### Raw Materials
 
-**[Petroleum coke](../glossary/petroleum-coke.html)** (primary filler):
+**[Petroleum coke](../glossary/petroleum-coke.md)** (primary filler):
 - Byproduct of petroleum refining — residual heavy oils are thermally cracked (coked) at ~500°C to drive off volatile hydrocarbons, leaving nearly pure carbon. Two main types:
   - **Needle coke**: From catalytic cracking of heavy gas oils. Has an elongated, needle-like crystal structure that gives high thermal conductivity and low electrical resistivity. Preferred for premium graphite electrodes (high power, low consumption). More expensive.
   - **Regular (sponge) coke**: From delayed coking of residual oil. Amorphous structure with lower thermal conductivity. Used for standard-grade electrodes and amorphous carbon electrodes.
 - **Properties required**: Low sulfur (<1%, ideally <0.5%), low ash (<0.5%, ash causes electrode brittleness and contamination of the molten product), low heavy metals (vanadium, nickel — cause catalytic oxidation). Calcined before use.
 
-**[Coal tar pitch](../glossary/coal-tar-pitch.html)** (binder):
+**[Coal tar pitch](../glossary/coal-tar-pitch.md)** (binder):
 - Byproduct of coke oven gas condensation in coal carbonization. Black, brittle, thermoplastic solid at room temperature, softens at ~80-120°C, melts at ~120-150°C.
 - **Function**: Binds the coke particles together into a coherent mass during forming, then carbonizes during baking to form a solid carbon matrix. The pitch must wet the coke surface adequately and provide sufficient green strength after forming.
 - **Types**: Soft pitch (low softening point, 60-80°C) gives better mixing and extrusion but lower baked strength. Medium pitch (80-100°C) is standard. Hard pitch (>100°C) gives higher baked density but harder mixing.
 - Typical binder content: 20-30% by weight of the total mix.
 
-**[Calcination](../glossary/calcination.html)** (pre-treatment of coke):
+**[Calcination](../glossary/calcination.md)** (pre-treatment of coke):
 - Raw petroleum coke contains 5-15% volatile matter that must be removed before electrode manufacturing. Calcination heats the coke to 1200-1350°C in a rotary kiln, vertical shaft kiln, or rotary hearth furnace. Volatiles are driven off and either flared or recovered. The calcined coke shrinks, densifies, and gains electrical conductivity (resistivity drops from ~1000 to ~500 μΩ·m).
 - **Quality metrics**: Real density >2.05 g/cm³, electrical resistivity <550 μΩ·m, moisture <0.3%, volatile matter <0.5%. Higher real density = denser, stronger electrode.
 
@@ -39,13 +39,13 @@ Electrodes are the critical consumable component of electric arc furnaces (EAF) 
 
 ### Forming
 
-**[Extrusion](../glossary/extrusion.html)** (most common for cylindrical electrodes):
+**[Extrusion](../glossary/extrusion.md)** (most common for cylindrical electrodes):
 - The hot pitch-coke mix (green paste, ~120-140°C) is loaded into a heated hydraulic press chamber. A ram forces the paste through a die of the desired diameter (300-700 mm for large electrodes, 75-250 mm for smaller sizes).
 - The extrusion process aligns the coke particles preferentially along the electrode axis — this gives extruded electrodes higher thermal conductivity and lower electrical resistivity along the length than across the diameter (anisotropic properties).
 - Extrusion pressure: 100-200 bar. The paste must flow smoothly through the die without tearing or forming internal cracks. Temperature control is critical — too cold and the pitch is too viscous (high pressure, surface tearing); too hot and the pitch is too fluid (shape deformation, inadequate particle binding).
 - The extruded electrode is cut to length, cooled on a cooling table, and inspected for surface cracks and voids.
 
-**[Vibro-molding](../glossary/vibro-molding.html)** (alternative for very large diameters):
+**[Vibro-molding](../glossary/vibro-molding.md)** (alternative for very large diameters):
 - The green paste is placed in a mold on a vibrating table. Vibration compacts the paste into the mold shape. Used for diameters >700 mm where extrusion forces become impractically high. Lower particle alignment (more isotropic properties) but suitable for applications where this is acceptable.
 
 ### Baking (Carbonization)
@@ -88,7 +88,7 @@ When graphitization is not yet available, amorphous (baked carbon) electrodes se
 - **Performance**: Electrical resistivity 40-60 μΩ·m (vs. 5-12 μΩ·m for graphite). This means higher voltage drop across the electrode, more I²R heating losses, and lower power delivered to the arc. The furnace must operate at higher current to compensate.
 - **Consumption rate**: 5-15 kg per tonne of steel (EAF) vs. 2-8 kg for graphite electrodes. For SAF silicon production: 60-100 kg per tonne of silicon vs. 30-60 kg for graphite. The higher consumption rate is driven by oxidation (amorphous carbon oxidizes faster than graphite above ~500°C) and mechanical erosion (lower thermal shock resistance).
 - **Mitigation**: Apply an antioxidant coating (silicon carbide or glaze) to the electrode sides (not the tip — the arc must strike bare carbon). Reduce oxidation by operating with shorter electrode columns exposed above the furnace roof. Use larger-diameter electrodes to reduce current density (lower I²R losses and lower tip erosion rate).
-- **[Søderberg self-baking electrodes](../glossary/sderberg-self-baking-electrodes-silicon.html)** (SAF alternative): For submerged arc furnaces, a paste of calcined coke and coal tar pitch is continuously added to the top of a steel casing. As the casing descends into the furnace, the heat of the furnace bakes the paste in situ — no separate baking or graphitization step needed. The casing progressively softens and burns away at the lower end. This avoids the electrode manufacturing bottleneck entirely at the cost of lower electrode quality and higher consumption.
+- **[Søderberg self-baking electrodes](../glossary/sderberg-self-baking-electrodes-silicon.md)** (SAF alternative): For submerged arc furnaces, a paste of calcined coke and coal tar pitch is continuously added to the top of a steel casing. As the casing descends into the furnace, the heat of the furnace bakes the paste in situ — no separate baking or graphitization step needed. The casing progressively softens and burns away at the lower end. This avoids the electrode manufacturing bottleneck entirely at the cost of lower electrode quality and higher consumption.
 
 ### Electrode Consumption Rates
 

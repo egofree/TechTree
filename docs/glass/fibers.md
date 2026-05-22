@@ -19,11 +19,11 @@ The ratio of glass surface area to volume increases by a factor of 10,000-100,00
 Continuous fiberglass begins with molten glass, similar to conventional glassmaking, but the melt composition and forming process differ significantly from container or window glass.
 
 **Glass composition for fiber**:
-- **[E-glass](../glossary/e-glass.html)** (electrical grade, the workhorse of fiberglass): 54% SiO₂, 14% Al₂O₃, 22% CaO, 0.5% MgO, 7% B₂O₃, 1% Na₂O/K₂O by weight. The low alkali content gives good electrical resistivity and moisture resistance. Melting point: ~1200°C; working temperature: 1200-1400°C.
-- **[S-glass](../glossary/s-glass.html)** (structural grade, higher strength): 65% SiO₂, 25% Al₂O₃, 10% MgO. Tensile strength 40-50% higher than E-glass, but requires higher melting temperature (~1500°C) and more energy to produce. Used in aerospace and ballistic armor.
+- **[E-glass](../glossary/e-glass.md)** (electrical grade, the workhorse of fiberglass): 54% SiO₂, 14% Al₂O₃, 22% CaO, 0.5% MgO, 7% B₂O₃, 1% Na₂O/K₂O by weight. The low alkali content gives good electrical resistivity and moisture resistance. Melting point: ~1200°C; working temperature: 1200-1400°C.
+- **[S-glass](../glossary/s-glass.md)** (structural grade, higher strength): 65% SiO₂, 25% Al₂O₃, 10% MgO. Tensile strength 40-50% higher than E-glass, but requires higher melting temperature (~1500°C) and more energy to produce. Used in aerospace and ballistic armor.
 - The boron in E-glass (B₂O₃) lowers the working temperature and improves fiber-forming properties, but boron is a relatively expensive raw material. Boron-free formulations (called E-CR glass) exist for cost-sensitive applications where the slightly higher working temperature is acceptable.
 
-**[Direct melt process](../glossary/direct-melt-process.html)** (standard industrial method):
+**[Direct melt process](../glossary/direct-melt-process.md)** (standard industrial method):
 - Raw batch materials (silica sand, limestone, alumina, boric acid) are melted in a refractory furnace at 1400-1600°C. The molten glass is refined (bubbles rise and escape over 6-12 hours) and conditioned (temperature stabilized and homogenized) as it flows through channels to the fiber-forming station.
 - The melt enters a platinum alloy bushing (the fiber-forming plate). A bushing is a rectangular block of platinum-rhodium alloy (Pt-10% Rh, approximately 100 × 300 mm, 5 mm thick) perforated with 200-8000 precisely sized holes (nozzles or tips), each 0.8-2.0 mm diameter.
 - Platinum is used because it withstands molten glass at 1300-1400°C without degrading or contaminating the glass, and it can be precisely machined to maintain nozzle tolerances over months of continuous operation. A single bushing costs tens of thousands of dollars in platinum alone. Platinum is also electrically conductive, allowing the bushing to be heated by passing electric current through it (Joule heating), which provides precise temperature control at the fiber-forming point.
@@ -58,7 +58,7 @@ Glass wool is a mass of randomly oriented glass fibers, formed into blankets or 
 - Acoustic absorption: glass wool absorbs sound across the 500-4000 Hz frequency range (the range of human speech and most industrial noise). Noise reduction coefficient (NRC) of 0.75-0.95 for 50-100 mm thick panels mounted on a wall. The sound energy is converted to heat by friction as air oscillates in the fiber matrix.
 - Maximum service temperature: 250-350°C (limited by the phenolic binder, which begins to oxidize and lose strength). Unbonded glass wool (no resin binder) can withstand 500-600°C and is used in industrial furnace insulation.
 
-**[Phenolic resin production](../glossary/phenolic-resin-production.html)** (bootstrap path):
+**[Phenolic resin production](../glossary/phenolic-resin-production.md)** (bootstrap path):
 - Phenol + formaldehyde → phenolic resin (Bakelite-type), catalyzed by acid (HCl or oxalic acid) or base (NaOH). Molar ratio phenol:formaldehyde of 1:1.5-2.0 for resole-type resin (heat-curable, one-stage).
 - The resin is diluted to 5-10% solids in water for spray application during wool forming. Acid catalyst (p-toluenesulfonic acid, 1-3% of resin solids) may be added to promote curing in the oven.
 - Phenolic resin is the oldest synthetic thermoset polymer (1907). It is fire-resistant (char formation rather than melting), dimensionally stable, and relatively low cost.
@@ -92,7 +92,7 @@ Optical fiber transmits light through a thin glass core by total internal reflec
 
 Beyond standard E-glass and S-glass, several specialty glass fiber types serve niche applications.
 
-**[AR-glass](../glossary/ar-glass.html)** (alkali-resistant):
+**[AR-glass](../glossary/ar-glass.md)** (alkali-resistant):
 - Contains ~16% zirconia (ZrO₂) in the glass composition. Standard E-glass degrades in alkaline environments (pH > 12) because the CaO and Al₂O₃ dissolve. Zirconia is chemically inert in alkali, protecting the fiber from attack.
 - Primary use: reinforcement of Portland cement (glass fiber reinforced concrete, GFRC). Untreated E-glass in concrete loses 50-80% of its strength within 1-2 years due to alkali attack from the cement paste (pH 12.5-13.5). AR-glass retains >80% strength after 20+ years.
 
@@ -157,18 +157,18 @@ Consistent fiber quality is essential for both composite applications (where fib
 
 Fiberglass is rarely used as bare fiber. Its value is as reinforcement in a polymer matrix, where the glass fibers carry the mechanical load and the polymer matrix transfers stress between fibers and protects them from damage.
 
-**[Hand lay-up](../glossary/hand-lay-up.html)** (simplest composite method):
+**[Hand lay-up](../glossary/hand-lay-up.md)** (simplest composite method):
 - A mold (wood, metal, or existing plug) is coated with mold release wax. A gel coat (pigmented polyester resin, 0.5-0.8 mm thick) is brushed onto the mold surface to create a smooth, colored exterior.
 - Layers of CSM or woven roving are laid onto the wet gel coat. Polyester resin (with 1-2% methyl ethyl ketone peroxide catalyst) is brushed or rolled into the fiberglass, saturating the fabric and expelling air bubbles. A washer roller (ridged metal roller) works the resin deep into the fabric and removes entrapped air.
 - Layer buildup continues until the target thickness is reached (3-8 mm typical for boat hulls). Cure at room temperature: 2-4 hours for gel, 24 hours for full cure. Post-cure at 60-80°C for 2-4 hours improves mechanical properties by 15-25%.
 - Fiber content in hand lay-up: 25-35% by weight. The rest is resin. This is the lowest fiber fraction of any composite process, meaning hand lay-up is resin-heavy and not as strong per unit weight as other methods.
 
-**[Vacuum bag molding](../glossary/vacuum-bag-molding.html)** (higher fiber content, stronger laminates):
+**[Vacuum bag molding](../glossary/vacuum-bag-molding.md)** (higher fiber content, stronger laminates):
 - The dry fiberglass layup is placed in the mold, and resin is applied. A flexible plastic bag (nylon film, 50-75 μm thick) is sealed over the entire layup with mastic tape. A vacuum pump (80-95 kPa vacuum) draws the bag down onto the layup, compressing the laminate and squeezing out excess resin and air.
 - The vacuum pressure (approximately 1 atm, or 100 kPa) compacts the laminate uniformly, increasing fiber content to 40-55% by weight. The result is a stronger, lighter laminate than hand lay-up. Vacuum also eliminates voids (trapped air pockets) that act as stress concentrators and weaken the laminate.
 - Bleeder fabric (polyester felt) and breather fabric (nylon mesh) are placed between the laminate and the bag to absorb excess resin and provide a path for air evacuation to the vacuum port.
 
-**[Pultrusion](../glossary/pultrusion.html)** (continuous profile production):
+**[Pultrusion](../glossary/pultrusion.md)** (continuous profile production):
 - Fiberglass rovings are pulled through a resin bath (polyester or epoxy), then through a heated die (chromium-plated steel, 150-200°C, 0.5-1.0 m long) that shapes the composite into a constant cross-section (rod, tube, angle, channel, I-beam). The die cures the resin continuously as the profile passes through at 0.5-3 m/min.
 - Pull speed: 0.5-3 m/min. Fiber content: 60-70% by weight (the highest of any composite process, because the die compresses the fiber bundle and squeezes out nearly all excess resin). Produces structural profiles with higher specific strength than steel (strength-to-weight ratio 3-5× steel) and excellent corrosion resistance.
 - Pultruded profiles are used as structural members in bridges, building frames, walkways, and chemical plant infrastructure where steel would corrode. A pultruded glass-polyester I-beam (100 × 50 mm) has a flexural strength of 300-500 MPa at a density of 1.8-2.0 g/cm³ (vs. steel at 7.8 g/cm³).

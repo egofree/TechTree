@@ -16,7 +16,7 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 - **Pyrite roasting**: FeS₂ (iron pyrite) heated in air → Fe₂O₃ + SO₂. Cheap and abundant but produces iron oxide waste.
 - **Smelter off-gases**: Copper and lead smelters produce SO₂ as byproduct. Capture from flue gases.
 
-**[Lead Chamber Process](../glossary/lead-chamber-process.html)** (earlier, simpler, lower purity — ~65-70% H₂SO₄):
+**[Lead Chamber Process](../glossary/lead-chamber-process.md)** (earlier, simpler, lower purity — ~65-70% H₂SO₄):
 - **Principle**: SO₂ + NO₂ (nitrogen dioxide catalyst) + H₂O + O₂ → H₂SO₄ in large lead-lined chambers.
 - **Construction**: Large chambers (10×5×5 m) made of sheet lead (3-6 mm) soldered together, lined with acid-resistant brick. Lead resists sulfuric acid below ~80% concentration. Multiple chambers in series.
 - **Process**:
@@ -29,7 +29,7 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 - **Yield**: ~70-85% conversion of SO₂ to H₂SO₄.
 - **Throughput**: 1-10 tonnes H₂SO₄ per day per plant.
 
-**[Contact Process](../glossary/contact-process.html)** (later, higher purity — 96-98% H₂SO₄):
+**[Contact Process](../glossary/contact-process.md)** (later, higher purity — 96-98% H₂SO₄):
 - **Principle**: Catalytic oxidation of SO₂ to SO₃, then absorption in H₂SO₄.
 - **Steps**:
   1. **SO₂ generation**: Burn elemental sulfur in dry air. S + O₂ → SO₂. Gas must be clean (dust, arsenic poison the catalyst). Electrostatic precipitator or water scrubber for cleaning.
@@ -43,19 +43,19 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 
 ### Other Mineral Acids
 
-**[Nitric acid](../glossary/nitric-acid.html)** (HNO₃):
+**[Nitric acid](../glossary/nitric-acid.md)** (HNO₃):
 - **Process**: NaNO₃ or KNO₃ (Chile saltpeter or synthetic nitrates) + concentrated H₂SO₄ → HNO₃ + NaHSO₄. Heat gently (60-80°C — higher temperatures decompose HNO₃). Distill off HNO₃ vapor (boiling point 83°C for 68% azeotrope). Condense in glass or ceramic receiver.
 - **Concentration**: 68% azeotrope from simple distillation. Higher concentrations (90-100% "fuming nitric acid") require: (a) distill with concentrated H₂SO₄ as dehydrating agent, or (b) absorb NO₂ gas in water at high pressure and low temperature.
-- **[Later route](../glossary/later-route.html)** (Ostwald process, requires ammonia from Haber-Bosch): NH₃ + air over Pt-Rh catalyst at 850°C → NO → NO₂ → H₂O absorption → HNO₃. Much larger scale but requires ammonia synthesis via the Haber-Bosch process.
+- **[Later route](../glossary/later-route.md)** (Ostwald process, requires ammonia from Haber-Bosch): NH₃ + air over Pt-Rh catalyst at 850°C → NO → NO₂ → H₂O absorption → HNO₃. Much larger scale but requires ammonia synthesis via the Haber-Bosch process.
 - **Storage**: Glass carboys or aluminum tanks (aluminum passivates in concentrated HNO₃ — forms protective oxide). Do NOT store in steel (vigorous reaction).
 
-**[Hydrochloric acid](../glossary/hydrochloric-acid.html)** (HCl):
+**[Hydrochloric acid](../glossary/hydrochloric-acid.md)** (HCl):
 - **Process**: NaCl + H₂SO₄ → NaHSO₄ + HCl (gas) at 150-200°C. Or: NaCl + NaHSO₄ → Na₂SO₄ + HCl at 550-600°C (Mannheim furnace — higher temperature, uses the acid salt from first reaction).
 - **Absorption**: Bubble HCl gas through water in absorption column (glass or ceramic packed). 36-38% concentration maximum (azeotrope).
-- **[Direct synthesis](../glossary/direct-synthesis.html)** (later): H₂ + Cl₂ → 2HCl in combustion tube. Burns with characteristic flame. Requires pure H₂ (electrolysis) and Cl₂ (electrolysis). Produces very pure HCl.
+- **[Direct synthesis](../glossary/direct-synthesis.md)** (later): H₂ + Cl₂ → 2HCl in combustion tube. Burns with characteristic flame. Requires pure H₂ (electrolysis) and Cl₂ (electrolysis). Produces very pure HCl.
 - **Storage**: Glass or rubber-lined steel. HCl attacks most metals.
 
-**[Hydrofluoric acid](../glossary/hydrofluoric-acid.html)** (HF) — EXTREMELY HAZARDOUS:
+**[Hydrofluoric acid](../glossary/hydrofluoric-acid.md)** (HF) — EXTREMELY HAZARDOUS:
 - **Process**: CaF₂ (fluorite/fluorspar) + H₂SO₄ (conc.) → 2HF + CaSO₄. Heat to 200-300°C in lead or steel retort (HF attacks glass — NEVER use glass apparatus). HF gas distilled off (bp 19.5°C).
 - **Absorption**: Dissolve HF gas in water in lead or plastic (PTFE, polyethylene) vessels. Aqueous HF: 48-50% commercial concentration.
 - **Hazards**: HF penetrates skin, attacks bone, causes systemic fluoride poisoning. Lethal at ~2.5% body surface area exposure (a hand-sized splash of 50% HF can kill). **Calcium gluconate gel MUST be on-site before any HF work.** Apply to exposed area immediately, seek emergency treatment. HF burns may not be immediately painful — the delay makes them more dangerous.
@@ -68,7 +68,7 @@ A mixture of concentrated nitric acid and hydrochloric acid (typically 1:3 by vo
 
 **Chemistry**: HNO₃ oxidizes HCl to generate chlorine (Cl₂) and nitrosyl chloride (NOCl) in situ. These reactive species attack gold: Au + 3Cl₂ → AuCl₃ (soluble chloroauric acid H[AuCl₄]). Platinum dissolves similarly as H₂[PtCl₆]. The combination works because nitric acid provides the oxidizing power while chloride ions complex the dissolved metal ions, shifting equilibrium toward dissolution.
 
-**Preparation**: Mix immediately before use — aqua regia loses potency within hours as chlorine and NOCl evaporate. Add HNO₃ to HCl slowly in a glass vessel under a fume hood. The mixture turns orange-yellow from dissolved Cl₂ and NOCl gases. **[Never store aqua regia in sealed containers](../glossary/never-store-aqua-regia-in-sealed-containers.html)** — decomposition produces gas pressure that ruptures glass.
+**Preparation**: Mix immediately before use — aqua regia loses potency within hours as chlorine and NOCl evaporate. Add HNO₃ to HCl slowly in a glass vessel under a fume hood. The mixture turns orange-yellow from dissolved Cl₂ and NOCl gases. **[Never store aqua regia in sealed containers](../glossary/never-store-aqua-regia-in-sealed-containers.md)** — decomposition produces gas pressure that ruptures glass.
 
 **Applications**: Dissolving gold from electronic scrap, recovering platinum from catalytic converters, processing anode slime from copper electrorefining. After dissolution, gold is recovered by precipitation with ferrous sulfate (FeSO₄) or sodium metabisulfite (Na₂S₂O₅), or by solvent extraction with dibutyl carbitol.
 
@@ -76,12 +76,12 @@ A mixture of concentrated nitric acid and hydrochloric acid (typically 1:3 by vo
 
 Phosphoric acid (H₃PO₄) bridges mineral acid production to fertilizer chemistry. Two production routes of very different complexity.
 
-**[Wet process](../glossary/wet-process.html)** (fertilizer-grade, 85% of production):
+**[Wet process](../glossary/wet-process.md)** (fertilizer-grade, 85% of production):
 - Phosphate rock (Ca₃(PO₄)₂, fluorapatite Ca₅(PO₄)₃F) reacted with concentrated sulfuric acid (93-98%) in a stirred tank at 70-80°C: Ca₃(PO₄)₂ + 3H₂SO₄ → 2H₃PO₄ + 3CaSO₄.
 - Filter calcium sulfate (phosphogypsum) — massive byproduct (~5 tonnes per tonne P₂O₅ produced, often stacked in waste piles). The filtrate is 25-30% H₃PO₄ (green acid), concentrated to 40-54% P₂O₅ by vacuum evaporation.
 - Impurities: fluorine (as HF and SiF₄ — recovered as Na₂SiF₆ for fluoride salts), cadmium, uranium, and rare earth elements (sometimes recovered). Wet-process acid is not pure enough for food or semiconductor use.
 
-**[Thermal process](../glossary/thermal-process.html)** (pure-grade, 15% of production):
+**[Thermal process](../glossary/thermal-process.md)** (pure-grade, 15% of production):
 - Burn elemental white phosphorus (P₄) in excess air → P₄O₁₀ (phosphorus pentoxide). P₄O₁₀ + 6H₂O → 4H₃PO₄.
 - Produces very pure acid suitable for food additives, pharmaceuticals, and semiconductor etching. White phosphorus is produced by reducing phosphate rock with coke in an electric arc furnace at 1500°C: Ca₃(PO₄)₂ + 3SiO₂ + 5C → 3CaSiO₃ + 5CO + 2P₄. The P₄ vapor condenses under water (pyrophoric — ignites in air).
 
@@ -91,11 +91,11 @@ Phosphoric acid (H₃PO₄) bridges mineral acid production to fertilizer chemis
 
 Steel pickling removes oxide scale (mill scale, rust) from steel surfaces before further processing (galvanizing, plating, cold rolling, welding).
 
-**[Sulfuric acid pickling](../glossary/sulfuric-acid-pickling.html)** (traditional):
+**[Sulfuric acid pickling](../glossary/sulfuric-acid-pickling.md)** (traditional):
 - 10-25% H₂SO₄ at 60-80°C. Soak steel 5-30 minutes. Scale dissolves: Fe₂O₃ + 3H₂SO₄ → Fe₂(SO₄)₃ + 3H₂O. Base metal also dissolves slowly: Fe + H₂SO₄ → FeSO₄ + H₂↑ (hydrogen embrittlement risk — bake out at 200°C after pickling).
 - Spent acid: FeSO₄ concentration reaches 15-25%, acid depleted to <5%. Recovery: chill to crystallize FeSO₄·7H₂O (copperas), regenerate acid by adding concentrated H₂SO₄. Or spray roast: atomize spent acid into a furnace at 800-1000°C → Fe₂O₃ + SO₂ + H₂O. SO₂ captured for sulfuric acid production (closed loop). HCl roaster produces HCl gas for acid regeneration.
 
-**[Hydrochloric acid pickling](../glossary/hydrochloric-acid-pickling.html)** (modern, dominant):
+**[Hydrochloric acid pickling](../glossary/hydrochloric-acid-pickling.md)** (modern, dominant):
 - 15-20% HCl at 35-40°C. Faster than sulfuric (2-10 minutes). Less base metal attack, less hydrogen embrittlement, better surface finish. Scale dissolves: Fe₂O₃ + 6HCl → 2FeCl₃ + 3H₂O.
 - Spent acid recovery: spray roaster produces Fe₂O₃ (sellable pigment) and HCl gas (absorbed in water → regenerated acid). Closed-loop acid recovery is standard in modern steel plants.
 

@@ -18,15 +18,15 @@ Beyond hygiene, soap and its derivatives are critical for textile processing (wo
 **Core reaction**: Triglyceride (fat/oil) + 3 NaOH → 3 soap molecules + glycerol (glycerin)
 
 - **Triglyceride structure**: Three fatty acid chains ester-bonded to a glycerol backbone. Hydrolysis of each ester bond releases one fatty acid as a sodium (or potassium) salt — the soap molecule.
-- **[Fatty acid profiles](../glossary/fatty-acid-profiles.html)** determine soap properties:
+- **[Fatty acid profiles](../glossary/fatty-acid-profiles.md)** determine soap properties:
   - **Lauric acid (C12)**: Coconut oil, palm kernel oil. Quick lather, hard bar, dissolves easily. 45-50% in coconut oil.
   - **Myristic acid (C14)**: Coconut, nutmeg. Adds lather stability.
   - **Palmitic acid (C16)**: Palm oil, tallow. Hardens bar, contributes stable lather. 25-30% in tallow.
   - **Stearic acid (C18)**: Tallow, shea butter. Very hard, long-lasting bar. 15-25% in tallow.
   - **Oleic acid (C18:1)**: Olive oil, tallow. Conditioning, contributes to low-temperature lather. 40-45% in tallow.
   - **Linoleic acid (C18:2)**: Soybean, sunflower. Conditioning but reduces bar hardness and accelerates rancidity. Keep below 15% in bar formulations.
-- **[NaOH → hard soap](../glossary/naoh-hard-soap.html)** (bar soap, sodium salts of fatty acids). Melting point 50-70°C.
-- **[KOH → soft soap](../glossary/koh-soft-soap.html)** (potassium salts, liquid or paste). Lower melting point, more soluble. Used for liquid soaps, shaving cream, and textile scouring.
+- **[NaOH → hard soap](../glossary/naoh-hard-soap.md)** (bar soap, sodium salts of fatty acids). Melting point 50-70°C.
+- **[KOH → soft soap](../glossary/koh-soft-soap.md)** (potassium salts, liquid or paste). Lower melting point, more soluble. Used for liquid soaps, shaving cream, and textile scouring.
 - **Superfatting**: Using 3-8% less alkali than stoichiometric leaves unreacted fat in the finished soap. Improves skin feel and reduces irritation. Measured as "lye discount" — a 5% superfat formula uses 95% of the calculated NaOH.
 - **Saponification value (SV)**: Milligrams of KOH required to saponify 1 gram of fat. Coconut oil: SV 250-260. Olive oil: SV 185-196. Tallow: SV 190-200. Palm oil: SV 195-205. These values determine exact lye quantities for complete reaction.
 
@@ -41,17 +41,17 @@ All traditional methods share the same chemistry: fat + alkali → soap + glycer
 - **Recovered fats**: Restaurant fryer oil, waste cooking grease, and animal processing waste are all viable soap feedstocks after filtering and water removal. Waste grease requires pre-treatment: heat to 80-90°C to melt, filter through 50-100 µm screen, settle to remove water and food particles. Free fatty acid (FFA) content determines lye quantity — high-FFA waste oils require more lye (each gram of FFA consumes NaOH: RCOOH + NaOH → RCOONa + H₂O).
 - **Blend for balanced bar**: 40% tallow (hardness, lather stability) + 30% coconut oil (quick lather, cleaning power) + 30% olive oil (conditioning, mildness). This approximates the classic "three-oil" formulation.
 
-**[Cold process](../glossary/cold-process.html)** (simplest, longest cure):
+**[Cold process](../glossary/cold-process.md)** (simplest, longest cure):
 - Heat fats and oils to 38-43°C (100-110°F). Separately dissolve NaOH in cold water (exothermic — solution reaches 80-90°C; cool to 38-43°C). Pour lye solution into fats with constant stirring (stick blender accelerates emulsification). Stir to "trace" — mixture thickens so that drips leave visible marks on the surface (indicates emulsion stability). Add fragrance or colorants at trace. Pour into insulated molds. Gel phase: 24-48 hours (internal temperature reaches 60-70°C as saponification completes). Unmold after 48-72 hours. Cure 4-6 weeks (water evaporates, bar hardens, residual saponification completes, pH drops from ~11 to ~9.5).
 - **Lye calculation**: Weight of oil × SV ÷ 1000 × 0.713 (ratio of NaOH molecular weight to KOH) = grams NaOH needed. Apply superfat discount (typically 5%).
 - **Water amount**: Typically 30-40% of oil weight. Less water → faster trace, harder bar sooner, but higher risk of lye pockets. More water → slower trace (more working time), longer cure. "Water as percent of lye" method: 2:1 to 3:1 water:lye ratio by weight.
 - **Mold insulation**: Wrap molds in towels or blankets during gel phase. Full gel (entire batch reaches translucent gel state) produces uniform texture. Partial gel (center gels, edges don't) causes uneven texture — cosmetic issue only, does not affect soap quality.
 
-**[Hot process](../glossary/hot-process.html)** (faster cure, used with KOH for soft soap):
+**[Hot process](../glossary/hot-process.md)** (faster cure, used with KOH for soft soap):
 - Heat fat to 70-80°C. Add KOH solution (from [Alkalis](alkalis.md)) gradually with constant stirring. Maintain temperature for 2-4 hours with periodic stirring until mixture reaches "trace" and then thickens further into a translucent paste (KOH soaps remain paste-like). The extended cooking accelerates saponification — soap is usable within days rather than weeks. KOH soap (soft soap) is stored in containers rather than molded into bars.
 - Hot process with NaOH is also possible: cook the traced soap in a slow cooker or double boiler at 75-85°C for 1-2 hours until it reaches a translucent, vaseline-like consistency. This forces saponification to complete rapidly. Soap is usable immediately after cooling (no 4-6 week cure needed), though an additional 1-2 weeks of drying improves bar hardness.
 
-**[Kettle process (graining out)](../glossary/kettle-process-graining-out.html)** — the traditional batch method for glycerol recovery:
+**[Kettle process (graining out)](../glossary/kettle-process-graining-out.md)** — the traditional batch method for glycerol recovery:
 - Heat fat to 38°C in a large kettle (iron or steel, 1-5 tonne capacity). Add concentrated NaOH solution (or KOH for soft soap) gradually with constant stirring. Continue heating and stirring for 2-3 hours until saponification is complete (mixture thickens, no free fat remains — test by dissolving a sample in hot alcohol; cloudiness indicates unsaponified fat).
 - **Graining out**: Add NaCl (common salt, ~100-150 g per kg of original fat) to the completed saponification mixture. Salt causes the soap to separate and float to top as curds ("graining") while glycerol, excess lye, and salt remain in the lower aqueous layer ("spent lye" or "soap waste liquor"). Remove soap curds, wash with brine to remove residual glycerol and lye, press to remove excess liquid, mold into bars, and dry.
 - **Spent lye**: Contains glycerol (8-15%), salt, and residual NaOH — the primary feedstock for glycerol recovery.
@@ -63,25 +63,25 @@ All traditional methods share the same chemistry: fat + alkali → soap + glycer
 
 ### Industrial Soap Production
 
-**[Continuous saponification](../glossary/continuous-saponification.html)** (modern, large-scale):
+**[Continuous saponification](../glossary/continuous-saponification.md)** (modern, large-scale):
 - Fat and concentrated NaOH solution (30-50%) fed continuously into a saponification reactor at controlled ratio. The Sharples or Mazzoni continuous process uses a high-shear mixing column — fat and lye enter at bottom, react during upward flow, and fully saponified soap exits at top. Residence time: 15-30 minutes. Temperature: 70-80°C. Throughput: 1-10 tonnes/hour.
 - The key engineering challenge is maintaining exact stoichiometric ratio: excess lye produces harsh, alkaline soap; excess fat leaves unsaponified grease. Inline conductivity or pH measurement controls lye feed rate automatically.
 - Soap exits the reactor as a homogeneous hot mass (soap base, ~30% water). Feed directly into a vacuum spray dryer — atomize soap into a vacuum chamber, water flashes off. Soap emerges as dry flakes or "noodles" (extruded strands, 10-13% moisture). These soap noodles are the intermediate commodity traded between soap manufacturers.
 
-**[Bar finishing](../glossary/bar-finishing.html)** (from soap noodles to finished bar):
+**[Bar finishing](../glossary/bar-finishing.md)** (from soap noodles to finished bar):
 - **Mixing**: Soap noodles + additives (fragrance, color, titanium dioxide whitener, antibacterial agents, moisturizers) mixed in an amalgamator (screw mixer) at 40-50°C.
 - **Milling**: Pass soap through 3-5 roller mills (refining mills) to homogenize texture and eliminate air pockets. Rollers rotate at different speeds — shearing action refines the soap mass.
 - **Plodding**: Extrude milled soap through a die (plodder/extruder) as a continuous bar. Air is vacuum-pumped from the extruder chamber to prevent air bubbles.
 - **Cutting and stamping**: Cut extruded bar to length. Stamp with brand name or design in a soap press (hydraulic or pneumatic, 50-200 tonnes force). Package.
 - **Quality control**: Test finished bars for total fatty matter (TFM, minimum 60% for grade 1 soap), free alkali (maximum 0.1% — higher causes skin irritation), moisture content (10-15%), and lather volume. pH test: dissolve 1 g soap in 100 mL distilled water, measure pH. Acceptable range: 9.0-10.5.
 
-**[Semi-boiled process](../glossary/semi-boiled-process.html)** (intermediate between cold and kettle):
+**[Semi-boiled process](../glossary/semi-boiled-process.md)** (intermediate between cold and kettle):
 - Heat fat to 60-70°C. Add full-strength NaOH solution (30-40%). Stir continuously while maintaining temperature for 1-2 hours. Soap forms as a thick paste (does not grain out — no salt added). Pour into frames. Cures in 2-3 weeks. Retains all glycerol in the soap (no recovery). Simpler than kettle process, but glycerol is wasted in the product. Common for small-scale industrial soap production.
 
 **Soap powder and flakes**:
 - Spray-dry liquid soap base to powder. Alternatively, grind dried soap to flakes. Used for laundry applications before synthetic detergents. Soap powders perform poorly in hard water (calcium soap scum forms).
 
-**[Detergent formulation](../glossary/detergent-formulation.html)** (complete laundry powder):
+**[Detergent formulation](../glossary/detergent-formulation.md)** (complete laundry powder):
 - LAS (surfactant): 8-15%. Sodium tripolyphosphate or zeolite (builder — softens water, suspends dirt): 20-35%. Sodium silicate (corrosion inhibitor, alkalinity): 5-10%. Sodium carbonate (alkalinity booster): 10-20%. Sodium perborate or sodium percarbonate (bleach): 10-20%. Enzymes (protease, lipase, amylase — protein, fat, starch stain removal): 0.5-2%. Optical brighteners: 0.1-0.3%. Sodium sulfate (filler/bulking agent): balance to 100%. The builder is critical — without it, surfactant efficiency drops dramatically in hard water. Phosphate builders (STPP) are most effective but cause eutrophication in waterways — zeolite A is the modern replacement.
 
 ### Glycerol Recovery
@@ -97,7 +97,7 @@ Glycerol (C₃H₈O₃, 1,2,3-propanetriol) is the critical byproduct of saponif
 - **Yield**: ~10% glycerol by weight of fat saponified (tallow yields ~9-10%, coconut oil ~12-13%).
 - **Energy cost**: Glycerol recovery from spent lye consumes ~3-5 tonnes steam per tonne of glycerol (primarily for multiple-effect evaporation). The vacuum distillation step adds another 0.5-1 tonne steam per tonne glycerol. Total energy: roughly 2-4 GJ per tonne of refined glycerol.
 
-**[Alternative glycerol sources](../glossary/alternative-glycerol-sources.html)** (post-petroleum):
+**[Alternative glycerol sources](../glossary/alternative-glycerol-sources.md)** (post-petroleum):
 - **Hydrolysis of fats (not saponification)**: Fat + water (at 250-260°C, 40-50 bar, in an autoclave) → fatty acids + glycerol. No alkali consumed. The "Twitchell process" uses sulfuric acid + aromatic sulfonic acid catalyst. The "Colgate-Emery process" uses continuous high-pressure hydrolysis without catalyst. Fatty acids separated by distillation. Glycerol recovered from aqueous phase by evaporation and distillation. This route produces fatty acids for further chemical processing rather than soap directly.
 - **Fermentation**: Certain yeasts and bacteria produce glycerol during fermentation of sugars. The "neutral sulfite process" (adding Na₂SO₃ to yeast fermentation) diverts ethanol fermentation toward glycerol production. Yields: 20-30% of sugar weight as glycerol. Historically important during World War I when German glycerol supplies were blockaded. Not economically competitive with soap-waste glycerol under normal conditions.
 
@@ -112,7 +112,7 @@ Glycerol (C₃H₈O₃, 1,2,3-propanetriol) is the critical byproduct of saponif
 
 Soap has a critical limitation: in hard water, calcium and magnesium ions precipitate soap as insoluble "soap scum" (calcium/magnesium salts of fatty acids). Synthetic detergents — surfactants derived from petroleum or oleochemical feedstocks — resist hard water precipitation and function across a wider pH range.
 
-**[Linear alkylbenzene sulfonate (LAS)](../glossary/linear-alkylbenzene-sulfonate-las.html)** — the workhorse synthetic detergent:
+**[Linear alkylbenzene sulfonate (LAS)](../glossary/linear-alkylbenzene-sulfonate-las.md)** — the workhorse synthetic detergent:
 - **Feedstock**: Linear alkenes (C10-C14) from petroleum cracking (see [Petroleum](petroleum-alternatives.md)) or linear paraffins from Fischer-Tropsch synthesis. Benzene from coal tar or petroleum refining.
 - **Alkylation**: React linear alkene with benzene using HF or AlCl₃ catalyst → linear alkylbenzene (LAB).
 - **Sulfonation**: React LAB with SO₃ (or concentrated H₂SO₄, or oleum) → linear alkylbenzene sulfonic acid (LABSA). SO₃ sulfonation is preferred — higher yield, less waste. SO₃ produced by catalytic oxidation of sulfur (vanadium pentoxide catalyst, see sulfuric acid production in [Acids](acids.md)).
@@ -130,7 +130,7 @@ Soap has a critical limitation: in hard water, calcium and magnesium ions precip
 **Soap-based grease thickeners**:
 - Alkali soaps (lithium, calcium, sodium, aluminum stearate) thicken mineral oil into lubricating grease. Lithium 12-hydroxystearate is the most common multipurpose grease thickener. See [Lubricants](lubricants.md).
 
-**[Builder chemistry](../glossary/builder-chemistry.html)** (critical detergent component):
+**[Builder chemistry](../glossary/builder-chemistry.md)** (critical detergent component):
 - Detergents cannot function effectively without builders — chemicals that sequester calcium and magnesium ions, preventing them from interfering with the surfactant. Builder choice determines detergent performance in hard water.
 - **Sodium tripolyphosphate (STPP)**: Most effective builder. Sequesters Ca²⁺ and Mg²⁺, disperses soil particles, provides alkalinity. Produced from phosphoric acid + NaOH. Environmental concern: phosphate discharged to waterways causes algal blooms and eutrophication. Phosphates banned in laundry detergents in many jurisdictions.
 - **Zeolite A (sodium aluminosilicate)**: Primary phosphate replacement. Ion-exchange builder — swaps Na⁺ for Ca²⁺ in its crystal structure. Produced from sodium silicate + sodium aluminate. Insoluble — suspended in wash water, rinsed away. Effective but slower than STPP. Often combined with polycarboxylate co-builder (polyacrylic acid) for performance matching STPP.
@@ -183,17 +183,17 @@ Soap has a critical limitation: in hard water, calcium and magnesium ions precip
 - **Medium-scale (kettle process)**: 1-5 tonnes/batch. Equipment: iron or steel kettle (2-5 m³), steam heating, mechanical stirrer, salt supply, pressing frames. Capital cost: $5,000-20,000. Batch cycle: 1-2 days saponification + graining, plus pressing and drying. Glycerol recovery adds distillation equipment ($10,000-50,000). Suitable for regional production.
 - **Industrial (continuous saponification)**: 10-100+ tonnes/day. Equipment: continuous reactor, vacuum spray dryer, soap noodle line, bar finishing line. Capital cost: $1-10 million. Soap noodle production is highly automated. Marginal cost dominated by fat/oil feedstock price (60-70% of production cost).
 - **Detergent plant (LAS)**: 20,000-100,000 tonnes/year. Requires sulfonation unit, spray-drying tower, and blending/packaging lines. Capital cost: $10-50 million. Feedstock cost dominates (petroleum-derived alkenes, benzene). Co-located with petroleum refinery or chemical complex for feedstock access.
-- **[Fat/oil feedstock is the primary cost driver](../glossary/fatoil-feedstock-is-the-primary-cost-driver.html)** for all soap production. Tallow prices track beef production. Coconut oil and palm oil prices track tropical agriculture. A tonne of finished bar soap requires ~750-800 kg of fat/oil feedstock. Synthetic detergents are less dependent on agricultural commodities but tie to petroleum markets.
+- **[Fat/oil feedstock is the primary cost driver](../glossary/fatoil-feedstock-is-the-primary-cost-driver.md)** for all soap production. Tallow prices track beef production. Coconut oil and palm oil prices track tropical agriculture. A tonne of finished bar soap requires ~750-800 kg of fat/oil feedstock. Synthetic detergents are less dependent on agricultural commodities but tie to petroleum markets.
 
 ### Bootstrap Sequence
 
 Soap production scales with the alkali supply chain. The progression is:
 
-1. **[Wood-ash lye (KOH) + rendered fat → soft soap](../glossary/wood-ash-lye-koh-rendered-fat-soft-soap.html)** (Years 5-10). No industrial infrastructure needed. Hardwood ash, water, a kettle, and animal fat. Produces soft, paste-like potassium soap adequate for basic hygiene and wool scouring. Glycerol remains in the soap (no recovery).
-2. **[NaOH from lime-soda or Leblanc process → hard bar soap](../glossary/naoh-from-lime-soda-or-leblanc-process-hard-bar-soap.html)** (Years 10-20). Once [Alkalis](alkalis.md) production is established, NaOH replaces KOH for hard, long-lasting bar soap. Kettle process with salt graining enables glycerol recovery.
-3. **[Glycerol recovery and distillation](../glossary/glycerol-recovery-and-distillation.html)** (Years 15-25). Multiple-effect evaporators and vacuum distillation produce refined glycerol from spent lye. Enables [Explosives](explosives.md) production (nitroglycerin) and pharmaceutical glycerol supply.
-4. **[Continuous saponification and industrial finishing](../glossary/continuous-saponification-and-industrial-finishing.html)** (Years 20-30). Continuous reactors, spray drying, soap noodles, and automated bar finishing lines. Throughput: 10-100 tonnes/day. Co-located with fat rendering and glycerol recovery.
-5. **[Synthetic detergents](../glossary/synthetic-detergents.html)** (Years 25-30+). Requires petroleum cracking or Fischer-Tropsch synthesis for linear alkenes (see [Petroleum](petroleum-alternatives.md)), benzene, and SO₃ sulfonation capability. LAS-based detergents replace soap in hard-water regions and industrial applications.
+1. **[Wood-ash lye (KOH) + rendered fat → soft soap](../glossary/wood-ash-lye-koh-rendered-fat-soft-soap.md)** (Years 5-10). No industrial infrastructure needed. Hardwood ash, water, a kettle, and animal fat. Produces soft, paste-like potassium soap adequate for basic hygiene and wool scouring. Glycerol remains in the soap (no recovery).
+2. **[NaOH from lime-soda or Leblanc process → hard bar soap](../glossary/naoh-from-lime-soda-or-leblanc-process-hard-bar-soap.md)** (Years 10-20). Once [Alkalis](alkalis.md) production is established, NaOH replaces KOH for hard, long-lasting bar soap. Kettle process with salt graining enables glycerol recovery.
+3. **[Glycerol recovery and distillation](../glossary/glycerol-recovery-and-distillation.md)** (Years 15-25). Multiple-effect evaporators and vacuum distillation produce refined glycerol from spent lye. Enables [Explosives](explosives.md) production (nitroglycerin) and pharmaceutical glycerol supply.
+4. **[Continuous saponification and industrial finishing](../glossary/continuous-saponification-and-industrial-finishing.md)** (Years 20-30). Continuous reactors, spray drying, soap noodles, and automated bar finishing lines. Throughput: 10-100 tonnes/day. Co-located with fat rendering and glycerol recovery.
+5. **[Synthetic detergents](../glossary/synthetic-detergents.md)** (Years 25-30+). Requires petroleum cracking or Fischer-Tropsch synthesis for linear alkenes (see [Petroleum](petroleum-alternatives.md)), benzene, and SO₃ sulfonation capability. LAS-based detergents replace soap in hard-water regions and industrial applications.
 
 ---
 

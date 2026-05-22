@@ -35,7 +35,7 @@ Horizontal plates with riser tubes (50-75 mm tall) covered by slotted caps. Vapo
 **Sieve trays**:
 Flat perforated plates with 3-12 mm diameter holes on 12-25 mm triangular pitch (5-15% open area). Vapor rises through holes and contacts the liquid pool on the tray. Liquid flows to the next tray via downcomers (channels at the tray edge). Much simpler and cheaper than bubble caps. Lower pressure drop (0.3-0.7 kPa per tray). Disadvantage: narrow operating range. At low vapor flow (<60% of design), liquid weeps through the holes, reducing tray efficiency. At high vapor flow (>120% of design), liquid entrainment floods the tray above. Most common new tray installation. Efficiency: 60-80% Murphree.
 
-**[Valve trays](../glossary/valve-trays.html)** (floating valve):
+**[Valve trays](../glossary/valve-trays.md)** (floating valve):
 Perforated tray with movable valve caps (stamped metal discs with legs) that lift with vapor flow. At low vapor rates, valves partially close — preventing weeping. At high rates, valves fully open — allowing high throughput. Combines bubble-cap flexibility with sieve-tray low cost and low pressure drop. Dominant modern tray design (Glitsch Ballast Tray, Koch Float Valve). Pressure drop: 0.3-0.8 kPa per tray. Efficiency: 65-80% Murphree. Valve material: stainless steel (thin stamped discs).
 
 **Random packing**:
@@ -43,7 +43,7 @@ Dumped ceramic or metal elements filling the column volume. Liquid distributes o
 
 - **Raschig rings**: Simple hollow cylinders (length ≈ diameter), 25-50 mm size. Ceramic or metal. Oldest packing type. HETP: 0.4-0.6 m. Cheap but inefficient by modern standards. Liquid distribution degrades with height — requires redistribution every 3-4 m.
 - **Pall rings**: Raschig rings with internal fingers and external tabs stamped from the wall. Improves liquid distribution and vapor flow through the ring interior. 30-50% lower HETP than Raschig rings. Metal or plastic. Most common random packing.
-- **[Ceramic saddles](../glossary/ceramic-saddles.html)** (Intalox, Berl): Saddle-shaped elements. Better liquid distribution than rings because shape prevents nesting and channeling. HETP: 0.3-0.5 m. Used where ceramic resistance to corrosion is needed (acid distillation).
+- **[Ceramic saddles](../glossary/ceramic-saddles.md)** (Intalox, Berl): Saddle-shaped elements. Better liquid distribution than rings because shape prevents nesting and channeling. HETP: 0.3-0.5 m. Used where ceramic resistance to corrosion is needed (acid distillation).
 
 **Structured packing**:
 Corrugated metal sheets arranged in precise geometric modules, stacked vertically. Creates uniform, well-defined channels for vapor-liquid contact. Very low HETP (0.1-0.3 m), very low pressure drop (0.05-0.15 kPa per theoretical plate). Essential for vacuum distillation where pressure drop must be minimized. Examples: Sulzer Mellapak (corrugated sheets at 30° or 45° angle, alternating direction per layer), Koch-Glitsch Flexipac. Expensive per unit volume but saves column height and energy. Installed in pre-formed modules (diameter matches column), stacked on support rings with liquid redistributors every 4-6 m.
@@ -54,7 +54,7 @@ Corrugated metal sheets arranged in precise geometric modules, stacked verticall
 
 **Theoretical plates**: Each ideal equilibrium stage where vapor and liquid achieve thermodynamic equilibrium. More plates = sharper separation = taller column. Estimated via McCabe-Thiele method: plot vapor-liquid equilibrium curve (y vs x, where y = vapor mole fraction, x = liquid mole fraction), draw rectifying and stripping section operating lines, step off stages between curve and 45° diagonal. Number of steps = number of theoretical plates. The feed plate is where the operating lines intersect.
 
-**[HETP](../glossary/hetp.html)** (Height Equivalent to a Theoretical Plate): For packed columns, the height of packing needed for one theoretical plate. Raschig rings: 0.4-0.6 m. Pall rings: 0.3-0.4 m. Structured packing: 0.1-0.3 m. Total packing height = HETP × required theoretical plates. Add 20% safety margin for maldistribution effects.
+**[HETP](../glossary/hetp.md)** (Height Equivalent to a Theoretical Plate): For packed columns, the height of packing needed for one theoretical plate. Raschig rings: 0.4-0.6 m. Pall rings: 0.3-0.4 m. Structured packing: 0.1-0.3 m. Total packing height = HETP × required theoretical plates. Add 20% safety margin for maldistribution effects.
 
 **Feed tray location**: The optimal feed tray minimizes total plates required. Placing the feed too high wastes plates in the stripping section; too low wastes plates in the rectifying section. Determined from McCabe-Thiele diagram: the feed should enter at the tray where the operating lines intersect (the "pinch" region).
 
@@ -110,10 +110,10 @@ Feed: preheated crude oil (350-380°C from tube-still furnace) enters as partial
 
 ### Bootstrap Sequence
 
-1. **[Pot still](../glossary/pot-still.html)** (Year 1-5): Copper pot + condensing coil. Batch. 1 theoretical plate. Alcohol concentration to 40-50%, water purification, essential oil steam distillation. Fuel: wood or waste heat.
-2. **[Packed batch column](../glossary/packed-batch-column.html)** (Year 5-15): Add 1-3 m ceramic Raschig rings or saddles. Reflux control via manual split of condensate. 5-10 theoretical plates. Solvent purification, coal tar light oil fractionation, ethanol to 85-90%.
-3. **[Continuous fractional column](../glossary/continuous-fractional-column.html)** (Year 15-25): Feed at mid-point, continuous steam-heated reboiler, water-cooled condenser. 15-30 theoretical plates. Petroleum fractionation, chlorosilane purification, acid concentration.
-4. **[Multi-product train with heat integration](../glossary/multi-product-train-with-heat-integration.html)** (Year 25+): Atmospheric + vacuum columns, side-draw fractions, pumparound cooling, crude preheat train, multiple-effect energy recovery. Full petroleum refining. Specialty chemical purification (pharmaceutical intermediates, electronic-grade solvents).
+1. **[Pot still](../glossary/pot-still.md)** (Year 1-5): Copper pot + condensing coil. Batch. 1 theoretical plate. Alcohol concentration to 40-50%, water purification, essential oil steam distillation. Fuel: wood or waste heat.
+2. **[Packed batch column](../glossary/packed-batch-column.md)** (Year 5-15): Add 1-3 m ceramic Raschig rings or saddles. Reflux control via manual split of condensate. 5-10 theoretical plates. Solvent purification, coal tar light oil fractionation, ethanol to 85-90%.
+3. **[Continuous fractional column](../glossary/continuous-fractional-column.md)** (Year 15-25): Feed at mid-point, continuous steam-heated reboiler, water-cooled condenser. 15-30 theoretical plates. Petroleum fractionation, chlorosilane purification, acid concentration.
+4. **[Multi-product train with heat integration](../glossary/multi-product-train-with-heat-integration.md)** (Year 25+): Atmospheric + vacuum columns, side-draw fractions, pumparound cooling, crude preheat train, multiple-effect energy recovery. Full petroleum refining. Specialty chemical purification (pharmaceutical intermediates, electronic-grade solvents).
 
 ### Safety & Hazards
 

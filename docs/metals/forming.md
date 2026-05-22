@@ -16,8 +16,8 @@ Secondary operations — cold rolling to final gauge, stamping, deep drawing, wi
 
 Liquid steel from the [steelmaking](./steelmaking.md) ladle or aluminum from [smelting](./aluminum.md) enters primary forming through one of two routes:
 
-1. **[Ingot casting](../glossary/ingot-casting.html)** → reheat → hot working (forging, rolling). Traditional route, still used for specialty steels and large forgings.
-2. **[Continuous casting](../glossary/continuous-casting.html)** → direct hot rolling. The dominant modern route — 95%+ of world steel production. Eliminates ingot-to-bloom conversion steps, improving yield by 8-12%.
+1. **[Ingot casting](../glossary/ingot-casting.md)** → reheat → hot working (forging, rolling). Traditional route, still used for specialty steels and large forgings.
+2. **[Continuous casting](../glossary/continuous-casting.md)** → direct hot rolling. The dominant modern route — 95%+ of world steel production. Eliminates ingot-to-bloom conversion steps, improving yield by 8-12%.
 
 The choice between routes depends on product mix and capital availability. Integrated steelworks producing commodity shapes (strip, structural sections, rail) use continuous casting exclusively. Specialty steelmakers producing small batches of high-alloy or tool steel may still use ingot routes because the ladle sizes are too small for economic continuous casting.
 
@@ -53,15 +53,15 @@ Hot rolling deforms metal above its recrystallization temperature (typically 110
 
 **Walking beam reheat furnace**: Slabs (150-300 mm thick) enter the furnace at ambient temperature and soak 2-4 hours to reach 1200-1300°C throughout. Walking beams lift and advance slabs incrementally (one beam-width step per cycle) through preheating, heating, and soaking zones. Furnace fuel: coke oven gas, natural gas, or heavy fuel oil. Thermal efficiency: 40-55%. Slab support on water-cooled skid pipes leaves "skid marks" (slightly cooler bands) — minimized by skid insulation and alternating shift patterns. Scale formation: 1-2% of slab weight lost as oxide scale — removed by high-pressure water descaling (15-25 MPa) at furnace exit. Descaling is critical because rolled-in scale creates surface defects that persist through cold rolling and finishing.
 
-**[Roughing mill](../glossary/roughing-mill.html)** (reversing): A single high-capacity stand (or 2-stand tandem) that reduces slab from 200-300 mm to 30-50 mm in 3-7 reversing passes. Roll force: 20,000-40,000 kN. Roll torque: 1,000-3,000 kN·m. Work rolls 1000-1350 mm diameter, driven by 5,000-10,000 kW motors through pinion gears and spindles. Slab passes back and forth, with roll gap adjusted between passes (screw-down mechanism, 0.1 mm positioning accuracy). Edger rolls control width to ±2-5 mm. Transfer bar (the roughed slab) exits at 1050-1150°C. Crop shear at roughing mill exit removes the deformed head and tail of the transfer bar before it enters the finishing mill.
+**[Roughing mill](../glossary/roughing-mill.md)** (reversing): A single high-capacity stand (or 2-stand tandem) that reduces slab from 200-300 mm to 30-50 mm in 3-7 reversing passes. Roll force: 20,000-40,000 kN. Roll torque: 1,000-3,000 kN·m. Work rolls 1000-1350 mm diameter, driven by 5,000-10,000 kW motors through pinion gears and spindles. Slab passes back and forth, with roll gap adjusted between passes (screw-down mechanism, 0.1 mm positioning accuracy). Edger rolls control width to ±2-5 mm. Transfer bar (the roughed slab) exits at 1050-1150°C. Crop shear at roughing mill exit removes the deformed head and tail of the transfer bar before it enters the finishing mill.
 
-**[Finishing mill](../glossary/finishing-mill.html)** (tandem): 5-7 stands in series, each reducing thickness 20-40%. Strip enters at 30-50 mm, exits at 1.0-12.7 mm. Speed accelerates through the mill — stand 1 at 1-2 m/s, stand 7 at 10-20 m/s. Inter-stand tension is controlled by loopers (dancer rolls that maintain ~5-20 kN tension). Roll cooling: 3,000-6,000 L/min water per stand. Strip temperature at exit: 850-950°C.
+**[Finishing mill](../glossary/finishing-mill.md)** (tandem): 5-7 stands in series, each reducing thickness 20-40%. Strip enters at 30-50 mm, exits at 1.0-12.7 mm. Speed accelerates through the mill — stand 1 at 1-2 m/s, stand 7 at 10-20 m/s. Inter-stand tension is controlled by loopers (dancer rolls that maintain ~5-20 kN tension). Roll cooling: 3,000-6,000 L/min water per stand. Strip temperature at exit: 850-950°C.
 
 **Runout table cooling**: Strip travels over a 60-120 m table with top and bottom water sprays (laminar flow headers). Cooling rate determines microstructure: 10-30°C/s for ferrite-pearlite (structural grades), 50-100°C/s for bainite/martensite (high-strength grades). Accelerated cooling (ACL) enables triple the yield strength of the same chemistry compared to air cooling.
 
 **Coiling**: Strip is coiled at 550-750°C on downcoilers (mandrel diameter 760 mm). Coil weight: 15-35 tons. Coil outer diameter: 1.5-2.1 m. Coils are the feedstock for downstream cold rolling (see [Machine Tools Forming](../machine-tools/forming.md)).
 
-**[Plate mill](../glossary/plate-mill.html)** (separate from strip mill): Produces plate 5-150 mm thick, 1500-5200 mm wide, up to 40 m long. Single-stand reversing mill with 4000-5500 mm work rolls. Roll force: 40,000-100,000 kN — the highest forces in any rolling application. Target applications: ship hull plate, pressure vessels, bridge girders, armored plate. Controlled rolling (CR) holds temperature at specific ranges (850-900°C finish) to refine grain structure without subsequent heat treatment. After rolling, plates are leveled on a multi-roll straightener (9-21 rolls) and ultrasonically tested for internal defects.
+**[Plate mill](../glossary/plate-mill.md)** (separate from strip mill): Produces plate 5-150 mm thick, 1500-5200 mm wide, up to 40 m long. Single-stand reversing mill with 4000-5500 mm work rolls. Roll force: 40,000-100,000 kN — the highest forces in any rolling application. Target applications: ship hull plate, pressure vessels, bridge girders, armored plate. Controlled rolling (CR) holds temperature at specific ranges (850-900°C finish) to refine grain structure without subsequent heat treatment. After rolling, plates are leveled on a multi-roll straightener (9-21 rolls) and ultrasonically tested for internal defects.
 
 **Roll wear and maintenance**: Work rolls in the finishing mill wear rapidly — a set of work rolls lasts 2,000-5,000 tons of steel before requiring regrinding. Rolls are removed, ground to restore concentricity and surface finish, and reinstalled at progressively wider gauge positions. Total roll life: 30,000-100,000 tons before the roll diameter is too small for further use. Backup rolls (forged steel, 1250-1600 mm diameter) last 10-20× longer than work rolls.
 
@@ -69,7 +69,7 @@ Hot rolling deforms metal above its recrystallization temperature (typically 110
 
 Extrusion forces heated metal through a die to produce profiles of constant cross-section — rods, tubes, and complex shapes impossible or impractical by rolling.
 
-**[Hot extrusion — aluminum](../glossary/hot-extrusion-aluminum.html)** (the dominant application):
+**[Hot extrusion — aluminum](../glossary/hot-extrusion-aluminum.md)** (the dominant application):
 - Billet preheated to 450-500°C (aluminum does not require as high a temperature as steel).
 - Container heated to 400-450°C to prevent billet chilling.
 - Ram pressure: 10-40 MPa on billet face (depending on alloy and reduction ratio).
@@ -79,12 +79,12 @@ Extrusion forces heated metal through a die to produce profiles of constant cros
 - Alloy range: 6060/6063 (architectural — easy to extrude), 6082 (structural), 7075 (aerospace — difficult, higher pressure).
 - Press sizes: 1,000-12,000 tons. Container diameter 100-500 mm.
 
-**[Steel extrusion](../glossary/steel-extrusion.html)** (less common, specialized):
+**[Steel extrusion](../glossary/steel-extrusion.md)** (less common, specialized):
 - Steel requires 1100-1250°C and 50-150 MPa — far more force than aluminum.
 - Glass lubrication (A SEA process): glass powder placed on billet surface melts during preheating to form a viscous lubricating film. The glass also acts as a thermal barrier between hot billet and cooler tooling.
 - Used for stainless steel tubing and special profiles where rolling cannot achieve the shape.
 
-**[Tube extrusion](../glossary/tube-extrusion.html)** (with mandrel):
+**[Tube extrusion](../glossary/tube-extrusion.md)** (with mandrel):
 - A pierced billet is extruded over a mandrel to produce seamless tube. Wall thickness controlled by mandrel-to-die gap. Tube diameter 30-350 mm, wall 3-40 mm.
 - Seamless tube is structurally superior to welded tube — no weld seam under pressure. Used for boiler tubing, hydraulic cylinders, and high-pressure applications.
 
@@ -140,7 +140,7 @@ Production forging produces high-integrity components with directional grain flo
 
 Structural rolling produces the shaped cross-sections that are the skeleton of construction and infrastructure: I-beams, H-beams, channels, angles, tees, and rails.
 
-**[Universal mill](../glossary/universal-mill.html)** (for H-beams and wide-flange sections):
+**[Universal mill](../glossary/universal-mill.md)** (for H-beams and wide-flange sections):
 - Four rolls: two horizontal (reduce web thickness) and two vertical (reduce flange thickness). The rolls act simultaneously, allowing independent control of web and flange dimensions.
 - H-beam sizes: depth 100-1100 mm, flange width 50-450 mm, web thickness 4-20 mm. Lengths 6-24 m standard.
 - Tolerances: depth ±2-4 mm, flange width ±2-3 mm, web thickness ±0.5-1.0 mm. Out-of-square on flanges ≤ 1% of flange width.
@@ -156,7 +156,7 @@ Structural rolling produces the shaped cross-sections that are the skeleton of c
 - Rolling: universal mill with 3-5 passes. Length: 25-100 m (longer rails reduce joint count). After rolling, rails are straightened by roller straighteners (7-9 roll pairs) to achieve ≤ 0.5 mm/m straightness.
 - Heat treatment (head hardening): rail exits the mill at ~900°C and the head is selectively cooled by water sprays or induction heating followed by compressed-air quench, producing a 10-15 mm deep hardened layer on the running surface while the web and foot remain ductile.
 
-**[Bar rolling](../glossary/bar-rolling.html)** (round, square, hexagonal, flat):
+**[Bar rolling](../glossary/bar-rolling.md)** (round, square, hexagonal, flat):
 - Billets 100-150 mm square → 10-50 mm rounds in 10-18 passes through a continuous bar mill.
 - Two types: horizontal-vertical stands (alternate orientation) or no-twist mills (angled stands that turn the bar without requiring twist). No-twist mills are standard for high-speed production — they eliminate the twist defects that occur when bar is rotated 90° between stands.
 - Products: reinforcing bar (rebar 10-50 mm, ribbed for concrete bond), round bar for machining and forging stock, square bar, hex bar for fastener heading.

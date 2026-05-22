@@ -11,14 +11,14 @@
 
 Water power converts the gravitational potential energy of flowing or falling water into rotational mechanical work. Historically the first non-animal industrial power source, water wheels enabled surplus grain milling, metalworking (bellows and trip hammers), wood sawing, and textile fulling centuries before wind or steam. A reliable stream with 2 m of head and 100 L/s flow can deliver ~1.5 kW (2 HP) of continuous mechanical power — day and night, rain or shine, fuel-free.
 
-**[Hydraulic power calculation](../glossary/hydraulic-power-calculation.html)** (fundamental formula for all water power):
+**[Hydraulic power calculation](../glossary/hydraulic-power-calculation.md)** (fundamental formula for all water power):
 - P = η × ρ × g × Q × H
 - Where: η = overall efficiency (0.20-0.90 depending on wheel/turbine type), ρ = water density (1000 kg/m³), g = gravitational acceleration (9.81 m/s²), Q = volumetric flow rate (m³/s), H = available head (m)
 - Example: Overshot wheel, η = 0.65, Q = 0.1 m³/s, H = 4 m → P = 0.65 × 1000 × 9.81 × 0.1 × 4 = ~2,551 W (~3.4 HP)
 
 ### Water Wheel Types
 
-**[Undershot wheel](../glossary/undershot-wheel.html)** (simplest, lowest efficiency — ancient, widely used):
+**[Undershot wheel](../glossary/undershot-wheel.md)** (simplest, lowest efficiency — ancient, widely used):
 - **Principle**: Flat paddles dip into flowing water below the wheel. Water current pushes paddles, turning the wheel. No head required — works on horizontal flow velocity alone.
 - **Efficiency**: ~20-30%. Most energy lost to turbulence as water rushes past and around paddles.
 - **Construction**: Wooden paddles (oak or elm, 5-10 cm thick) bolted to wooden spokes mounted on wooden or iron axle (30-50 cm diameter). Wheel diameter 2-5 m, width 0.5-2 m. Paddle depth in water ~20-40 cm.
@@ -27,7 +27,7 @@ Water power converts the gravitational potential energy of flowing or falling wa
 - **Advantages**: Simplest construction, works on flat terrain with no elevation change, easiest to maintain. Paddles can be replaced individually.
 - **Limitations**: Low efficiency, output varies directly with stream flow (seasonal variability), ice and debris can damage paddles in flood.
 
-**[Breastshot wheel](../glossary/breastshot-wheel.html)** (intermediate — requires moderate head):
+**[Breastshot wheel](../glossary/breastshot-wheel.md)** (intermediate — requires moderate head):
 - **Principle**: Water enters buckets or paddles at roughly the axle height (breast level) and exits at the bottom. Combines impulse (water hitting buckets) with partial gravity (water weight in buckets as they descend). Requires a headrace delivering water at or near the axle height.
 - **Efficiency**: ~35-50%. Significant improvement over undershot because buckets capture water and gravity assists through the descent.
 - **Construction**: Wheel diameter 3-8 m, width 0.5-2 m. Buckets or curved paddles (not flat) designed to catch and hold water. Wooden construction with iron bands and hardware; later wheels used iron buckets. Breast wall (stone or timber) fits closely around the lower arc to prevent water spilling out of buckets prematurely.
@@ -35,7 +35,7 @@ Water power converts the gravitational potential energy of flowing or falling wa
 - **Power output**: 2-8 HP at typical flows. Well-suited to moderate-gradient streams.
 - **Advantages**: Good efficiency without requiring the tall structure of an overshot wheel. Works with heads too low for overshot but too high for undershot efficiency gains.
 
-**[Overshot wheel](../glossary/overshot-wheel.html)** (highest efficiency water wheel — requires significant head):
+**[Overshot wheel](../glossary/overshot-wheel.md)** (highest efficiency water wheel — requires significant head):
 - **Principle**: Water is delivered to the top of the wheel via a headrace and sluice, filling buckets at the crown. Water's weight in descending buckets drives the wheel — primarily a gravity machine, not an impulse machine. Buckets empty at the bottom into the tailrace.
 - **Efficiency**: ~60-70%. Approaches the theoretical maximum for a gravity wheel because nearly all potential energy is captured.
 - **Construction**: Wheel diameter 3-10 m (larger diameter = more buckets = more torque). Width 0.5-3 m. Closely spaced buckets with lips to retain water during descent. Oak frame with iron tie-rods and bolts; iron axles preferred when available. Axle bearings: stone blocks lubricated with tallow, or iron collars on hardwood.
@@ -47,8 +47,8 @@ Water power converts the gravitational potential energy of flowing or falling wa
 
 ### Dam and Mill Pond Construction
 
-**[Dam basics](../glossary/dam-basics.html)** (creating the head and pond):
-- **[Earth dam](../glossary/earth-dam.html)** (simplest): Compacted clay core with earth and stone shoulders. Height 2-5 m, crest width 2-3 m, upstream slope 1:2 (horizontal:vertical), downstream slope 1:2.5. Puddle clay core (0.5-1 m thick) keyed into natural subsoil to prevent seepage. Overflow spillway on one side to pass flood water safely.
+**[Dam basics](../glossary/dam-basics.md)** (creating the head and pond):
+- **[Earth dam](../glossary/earth-dam.md)** (simplest): Compacted clay core with earth and stone shoulders. Height 2-5 m, crest width 2-3 m, upstream slope 1:2 (horizontal:vertical), downstream slope 1:2.5. Puddle clay core (0.5-1 m thick) keyed into natural subsoil to prevent seepage. Overflow spillway on one side to pass flood water safely.
 - **Timber crib dam**: Log cribs (rectangular timber frames) filled with stone, stacked and pinned. Cross-planks on upstream face sealed with clay. Suitable for heads of 2-4 m. Easier to build than masonry in forested areas.
 - **Masonry dam**: Stone blocks laid in lime or cement mortar on bedrock. Requires quarry stone, masonry skills, and cement. For heads 3-8 m. Longest-lasting option.
 - **Mill pond**: Storage volume to buffer flow variability. Even a small pond (50-200 m³) allows the wheel to run at full power during brief low-flow periods. Intake screen (timber bar rack with 5-10 cm spacing) prevents debris from entering the headrace.
@@ -57,7 +57,7 @@ Water power converts the gravitational potential energy of flowing or falling wa
 
 Water turbines replace water wheels where higher heads and efficiencies are available. They rotate faster (100-1000+ RPM vs. 5-20 RPM for wheels) and are far more compact for equivalent power. Turbines require iron or steel construction and precision machining — they are a post-water-wheel technology dependent on `machine-tools`.
 
-**[Pelton wheel](../glossary/pelton-wheel.html)** (impulse turbine — high head, low flow):
+**[Pelton wheel](../glossary/pelton-wheel.md)** (impulse turbine — high head, low flow):
 - **Principle**: One or more water jets from a nozzle strike spoon-shaped buckets on the runner perimeter. The jet's kinetic energy transfers to the bucket — all pressure conversion happens at the nozzle, not in the runner. Runner operates in air (not submerged).
 - **Head range**: 30-1000+ m. Best suited for mountain streams with steep gradients.
 - **Efficiency**: Up to 85-91% at design flow.
@@ -65,7 +65,7 @@ Water turbines replace water wheels where higher heads and efficiencies are avai
 - **Power output**: 1-500+ HP. Small units (5-20 HP) are practical for mountainous sites.
 - **Advantages**: Excellent for high-head, low-flow sites. Simple, robust, tolerant of debris (large buckets don't clog easily). Easy to govern (deflect jet or vary nozzle opening).
 
-**[Francis turbine](../glossary/francis-turbine.html)** (reaction turbine — medium head, medium flow):
+**[Francis turbine](../glossary/francis-turbine.md)** (reaction turbine — medium head, medium flow):
 - **Principle**: Water enters the runner radially from a spiral casing (volute), passes through adjustable guide vanes (wicket gates) that direct flow at the optimal angle, then flows through the runner blades and exits axially via the draft tube. Both pressure and velocity drop across the runner — a true reaction machine.
 - **Head range**: 3-300 m. The most versatile turbine type.
 - **Efficiency**: 80-94% at design flow.
@@ -74,7 +74,7 @@ Water turbines replace water wheels where higher heads and efficiencies are avai
 - **Advantages**: Highest efficiency of any hydraulic turbine at design point, excellent speed regulation via wicket gates, wide operating range. The dominant turbine for hydroelectric generation.
 - **Limitations**: Complex construction requiring precision manufacturing. Susceptible to cavitation if draft tube submergence is insufficient. Not practical without iron/steel industry and machine tools.
 
-**[Kaplan turbine](../glossary/kaplan-turbine.html)** (axial-flow reaction turbine — low head, high flow):
+**[Kaplan turbine](../glossary/kaplan-turbine.md)** (axial-flow reaction turbine — low head, high flow):
 - **Principle**: Propeller-type runner with adjustable blade pitch (like an outboard motor running in reverse). Water flows axially through the runner — no radial component. Adjustable blades allow efficient operation over a wide flow range.
 - **Head range**: 1-15 m. Designed for large rivers with low dams.
 - **Efficiency**: 80-92% at design flow, maintains good efficiency over a wide flow range due to adjustable blades.
@@ -85,14 +85,14 @@ Water turbines replace water wheels where higher heads and efficiencies are avai
 
 ### Power Transmission
 
-**[Getting rotational power from wheel/turbine to the load:](../glossary/getting-rotational-power-from-wheelturbine-to-the-load.html)**
+**[Getting rotational power from wheel/turbine to the load:](../glossary/getting-rotational-power-from-wheelturbine-to-the-load.md)**
 
-- **[Direct drive](../glossary/direct-drive.html)** (simplest): Wheel axle directly drives the load (millstones, saw, etc.) via gears or crank. Load must be adjacent to the wheel. Limited to one or two loads.
-- **[Flat-rod system](../glossary/flat-rod-system.html)** (Stangenkunst — transmitting power over distance): Wooden or iron rods connected in a push-pull arrangement transmit reciprocating motion from water wheel to distant mine pumps or machinery. Rods supported on rocking posts every 10-20 m. Can transmit 5-10 HP over 1-2 km. Used extensively in Central European mining from the 16th century.
-- **[Rope drive](../glossary/rope-drive.html)** (transmitting rotation over distance): Endless hemp or wire rope running on grooved pulleys (V-groove for grip). Can transmit 5-50 HP over 100-500 m. Rope speed 10-20 m/s. Sag and stretch require tensioning device. Superseded flat rods for new installations once good rope was available.
-- **[Line shaft](../glossary/line-shaft.html)** (distributing power within a building): Horizontal iron shaft (50-100 mm diameter) running the length of the workshop, supported by hung bearings from ceiling joists. Driven by water wheel via bevel gears or belt. Each machine connected by belt drive from countershaft on the line shaft. Cone pulleys on each machine provide 2-4 speed ranges. A single 10 HP water wheel can drive an entire small workshop of 5-8 machines simultaneously via line shaft.
+- **[Direct drive](../glossary/direct-drive.md)** (simplest): Wheel axle directly drives the load (millstones, saw, etc.) via gears or crank. Load must be adjacent to the wheel. Limited to one or two loads.
+- **[Flat-rod system](../glossary/flat-rod-system.md)** (Stangenkunst — transmitting power over distance): Wooden or iron rods connected in a push-pull arrangement transmit reciprocating motion from water wheel to distant mine pumps or machinery. Rods supported on rocking posts every 10-20 m. Can transmit 5-10 HP over 1-2 km. Used extensively in Central European mining from the 16th century.
+- **[Rope drive](../glossary/rope-drive.md)** (transmitting rotation over distance): Endless hemp or wire rope running on grooved pulleys (V-groove for grip). Can transmit 5-50 HP over 100-500 m. Rope speed 10-20 m/s. Sag and stretch require tensioning device. Superseded flat rods for new installations once good rope was available.
+- **[Line shaft](../glossary/line-shaft.md)** (distributing power within a building): Horizontal iron shaft (50-100 mm diameter) running the length of the workshop, supported by hung bearings from ceiling joists. Driven by water wheel via bevel gears or belt. Each machine connected by belt drive from countershaft on the line shaft. Cone pulleys on each machine provide 2-4 speed ranges. A single 10 HP water wheel can drive an entire small workshop of 5-8 machines simultaneously via line shaft.
 
-**[Belt and gear connections:](../glossary/belt-and-gear-connections.html)**
+**[Belt and gear connections:](../glossary/belt-and-gear-connections.md)**
 - **Flat belt**: Leather or canvas belt, 50-200 mm wide, connecting pulleys of different diameter for speed change. Speed ratio = driven pulley diameter / driver pulley diameter. Slip of 2-5% is normal and acts as a safety clutch. Minimum pulley diameter ~30× belt thickness to avoid cracking.
 - **Wooden gears**: Apple, hornbeam, or ironbark teeth on oak hubs. Grease with tallow. Wooden teeth wear and break — designed for easy replacement. Typical gear ratio 3:1 to 8:1 from water wheel to millstones.
 - **Iron gears**: Cast iron gear rims with machined teeth, far more durable. Require foundry and machine tools. Standard for all post-1700 installations.

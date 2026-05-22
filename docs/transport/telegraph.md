@@ -124,11 +124,11 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 
 ### Telephone Development
 
-**[Bell telephone](../glossary/bell-telephone.html)** (1876):
+**[Bell telephone](../glossary/bell-telephone.md)** (1876):
 - A diaphragm (thin iron disc, 0.3-0.5 mm thick, 50-60 mm diameter) vibrates in response to sound waves. A permanent magnet with a coil of fine wire (0.1-0.2 mm, 50-100 Ω) sits near the diaphragm. Vibration changes the magnetic flux through the coil, inducing a current that is an electrical analog of the sound.
 - At the receiver, an identical device converts the varying current back into diaphragm vibration, reproducing the sound. The same unit can serve as both transmitter and receiver (though performance is poor as a transmitter compared to a carbon microphone).
 
-**[Carbon microphone](../glossary/carbon-microphone.html)** (Edison/Berlinner improvement):
+**[Carbon microphone](../glossary/carbon-microphone.md)** (Edison/Berlinner improvement):
 - A capsule containing carbon granules (0.1-0.5 mm crushed carbon) between two metal plates. One plate is the diaphragm. Sound pressure compresses the granules, changing their contact resistance. A DC bias current (from a battery, 3-6 V) flows through the granules. The resistance variation modulates the current, producing a much stronger signal than the Bell electromagnetic transmitter (100× the output).
 - Requires a battery at each telephone set. The carbon microphone made telephony practical at distances beyond a few kilometers.
 

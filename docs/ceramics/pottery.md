@@ -56,8 +56,8 @@ The potter's wheel enables rapid, symmetrical vessel production — transforming
 
 ### Firing Methods
 
-**[Bonfire / open firing](../glossary/bonfire-open-firing.html)** (simplest, earliest — temperatures 600-900°C):
-1. **[Air dry](../glossary/air-dry.html)** pots for 3-7 days until bone dry. Any moisture causes steam explosions.
+**[Bonfire / open firing](../glossary/bonfire-open-firing.md)** (simplest, earliest — temperatures 600-900°C):
+1. **[Air dry](../glossary/air-dry.md)** pots for 3-7 days until bone dry. Any moisture causes steam explosions.
 2. **Pre-heat**: Place pots around edge of small kindling fire for 30-60 minutes. Warm slowly to drive off residual moisture.
 3. **Build fuel bed**: Layer dry wood, straw, or dung in a circle ~1 m diameter, 20-30 cm tall. Leave gaps for air.
 4. **Set pots**: Place pots on fuel bed, upside down or on side. Small pots toward center, larger ones outside.
@@ -65,7 +65,7 @@ The potter's wheel enables rapid, symmetrical vessel production — transforming
 6. **Ignite**: Light from multiple points around the base. Fire burns 1-3 hours depending on fuel quantity.
 7. **Results**: Earthenware. Red, orange, brown, or black depending on clay iron content and oxygen supply. Pottery is porous (10-25% water absorption). Low strength but functional for storage and cooking. Many pots crack from thermal shock — expect 30-60% loss rate initially.
 
-**[Pit firing](../glossary/pit-firing.html)** (slightly higher temperature, 700-1000°C, more controlled):
+**[Pit firing](../glossary/pit-firing.md)** (slightly higher temperature, 700-1000°C, more controlled):
 1. **Dig pit**: 50-80 cm deep, 60-100 cm diameter. Line bottom with dry grass or leaves.
 2. **Layer fuel**: Sawdust or fine wood chips on bottom (provides long, slow heat). Layer of sticks.
 3. **Place pots**: Arrange pots on their sides on fuel layer, not touching each other or pit walls.
@@ -73,8 +73,8 @@ The potter's wheel enables rapid, symmetrical vessel production — transforming
 5. **Ignite top**: Fire burns downward through the fuel bed over 4-8 hours. Slow heating and cooling reduces thermal shock.
 6. **Retrieve**: Let cool 12-24 hours. Dig out carefully. Better color variation from reduction/oxidation patterns.
 
-**[Updraft kiln](../glossary/updraft-kiln.html)** (first true kiln — temperatures 900-1200°C):
-1. **Construction**: Build cylindrical or box structure from fireclay bricks or puddled clay. **[Firebox](../glossary/firebox.html)** at bottom (30-40 cm tall chamber with grate for fuel, ash pit below). **[Ware chamber](../glossary/ware-chamber.html)** above (40-60 cm tall, shelves or kiln furniture to stack pots). **[Flue](../glossary/flue.html)** opening at top center.
+**[Updraft kiln](../glossary/updraft-kiln.md)** (first true kiln — temperatures 900-1200°C):
+1. **Construction**: Build cylindrical or box structure from fireclay bricks or puddled clay. **[Firebox](../glossary/firebox.md)** at bottom (30-40 cm tall chamber with grate for fuel, ash pit below). **[Ware chamber](../glossary/ware-chamber.md)** above (40-60 cm tall, shelves or kiln furniture to stack pots). **[Flue](../glossary/flue.md)** opening at top center.
 2. **Dimensions**: Total height 1-1.5 m. Internal diameter 50-80 cm. Walls 10-15 cm thick (clay/brick). Dome or flat top with central flue hole (10-15 cm diameter).
 3. **Loading**: Stack pots in ware chamber. Leave space between pots for hot gas circulation. Use clay stilts or shelves.
 4. **Firing schedule**:
@@ -85,7 +85,7 @@ The potter's wheel enables rapid, symmetrical vessel production — transforming
 5. **Cooling**: Seal kiln (block flue and firebox). Cool slowly over 12-24 hours. Rapid cooling cracks pots.
 6. **Fuel**: Wood (hardwood preferred — longer burn, more consistent heat). 20-50 kg wood per firing depending on kiln size.
 
-**[Downdraft kiln](../glossary/downdraft-kiln.html)** (highest temperature, 1200-1400°C):
+**[Downdraft kiln](../glossary/downdraft-kiln.md)** (highest temperature, 1200-1400°C):
 - **Design**: Fireboxes on sides. Hot gases rise to crown (dome), deflect downward through ware chamber, exit through floor-level flue (damper-controlled). Longer gas path = more heat transfer to ware.
 - **Advantage**: More uniform temperature throughout ware chamber. Reaches stoneware temperatures (1200-1300°C) where clay vitrifies fully — non-porous, very strong.
 - **Construction**: Requires fireclay bricks for interior. Larger than updraft kiln — typically 1.5-2 m interior height.
@@ -94,7 +94,7 @@ The potter's wheel enables rapid, symmetrical vessel production — transforming
 
 Glazes seal pottery surfaces — making vessels waterproof, easier to clean, and decorative.
 
-**[Ash glaze](../glossary/ash-glaze.html)** (simplest, earliest — wood ash + clay):
+**[Ash glaze](../glossary/ash-glaze.md)** (simplest, earliest — wood ash + clay):
 - **Composition**: Mix 50-70% wood ash (sieved) with 30-50% clay (same clay body or kaolin). Ash provides flux (K₂O, CaO, MgO from dissolved minerals). Add water to creamy consistency.
 - **Application**: Dip pot or brush on. Fire to 1100-1250°C. Ash glazes produce earthy greens, browns, and glossy surfaces depending on ash source.
 - **Variation**: Different tree species produce different glazes. Oak and hardwood ashes are high in calcium → glossy, runny glazes. Pine ash is higher in potassium → more matte finishes.
@@ -109,23 +109,23 @@ Glazes seal pottery surfaces — making vessels waterproof, easier to clean, and
 - **Engobe**: Colored slip with added colorants (iron oxide for red/brown, manganese for black/brown, white clay for light). Can be carved through (sgraffito) to reveal contrasting body color beneath.
 - **Not a glaze**: Slip does not melt and seal — remains porous. Often combined with a clear or translucent glaze over top.
 
-**[Lead glaze](../glossary/lead-glaze.html)** (⚠️ TOXIC):
+**[Lead glaze](../glossary/lead-glaze.md)** (⚠️ TOXIC):
 - **Composition**: 50-80% lead oxide (PbO, from galena — lead sulfide mineral, roasted to oxide) mixed with silica sand and clay. Melts at 700-900°C — very low temperature, easy to fire.
 - **Produces**: Brilliant, glossy, transparent glaze. Bright colors with added copper (green) or iron (amber/brown). Historically widespread because it fires at earthenware temperatures.
-- **WARNING**: Lead is a cumulative neurotoxin. Lead glazes on food-contact surfaces cause lead poisoning. **[Never use lead-glazed vessels for food or drink.](../glossary/never-use-lead-glazed-vessels-for-food-or-drink.html)** Lead glaze production also hazards workers (inhalation of lead dust, fumes during firing). Use only for non-food decorative ware or industrial containers, with respiratory protection during manufacture.
+- **WARNING**: Lead is a cumulative neurotoxin. Lead glazes on food-contact surfaces cause lead poisoning. **[Never use lead-glazed vessels for food or drink.](../glossary/never-use-lead-glazed-vessels-for-food-or-drink.md)** Lead glaze production also hazards workers (inhalation of lead dust, fumes during firing). Use only for non-food decorative ware or industrial containers, with respiratory protection during manufacture.
 
 ### Crucible Production
 
 Clay crucibles are essential for melting and casting metals — one of pottery's most critical industrial applications.
 
-**[Clay-graphite crucible](../glossary/clay-graphite-crucible.html)** (standard for non-ferrous metals):
+**[Clay-graphite crucible](../glossary/clay-graphite-crucible.md)** (standard for non-ferrous metals):
 - **Composition**: 30-50% plastic fireclay, 30-50% flake graphite, 10-20% grog (crushed fired clay) or silicon sand.
 - **Forming**: Press mixture into two-part mold (creates consistent wall thickness 8-15 mm). Ram firmly. Dry slowly 3-5 days.
 - **Firing**: Fire to 1200-1400°C in reducing atmosphere (bury in charcoal inside kiln — prevents graphite from burning away). Fire 4-8 hours.
 - **Properties**: Withstands 1600°C+. Good thermal shock resistance (graphite provides thermal conductivity). Graphite creates non-wetting surface — molten metal releases cleanly. Sizes from 50 g to 50 kg capacity.
 - **Use life**: 5-20 melts depending on metal type and temperature. Copper alloys are gentle; iron and steel erode faster.
 
-**[Simple clay crucible](../glossary/simple-clay-crucible.html)** (for lower temperatures):
+**[Simple clay crucible](../glossary/simple-clay-crucible.md)** (for lower temperatures):
 - **Composition**: Fireclay + 30% grog. Form by coil or press-mold. Fire to 1200°C.
 - **Adequate for**: Copper (1085°C), bronze (950°C), tin (232°C), lead (327°C). Not suitable for iron (1538°C — softens clay).
 
@@ -172,15 +172,15 @@ Clay crucibles are essential for melting and casting metals — one of pottery's
 
 Specific clay recipes for each major ware type:
 
-**[Earthenware](../glossary/earthenware.html)** (low-fire, 980-1100°C):
+**[Earthenware](../glossary/earthenware.md)** (low-fire, 980-1100°C):
 - Simplest body: 100% earthenware clay as dug, or 80% earthenware clay + 20% grog (for thermal shock resistance and reduced shrinkage). Earthenware remains porous after firing (10-25% water absorption), making it unsuitable for holding liquids without a glaze.
 - Working properties: very plastic, easy to form, forgiving of rough handling. Shrinks 8-12% from wet to fired.
 
-**[Stoneware](../glossary/stoneware.html)** (high-fire, 1200-1300°C):
+**[Stoneware](../glossary/stoneware.md)** (high-fire, 1200-1300°C):
 - 50% ball clay (plasticity), 25% feldspar (flux — promotes vitrification at high temperature), 25% silica (glass former — fills pores during vitrification). Ball clay alone fires too dense; feldspar and silica adjust the melt composition so the body vitrifies fully without bloating or warping.
 - When fired above 1200°C, stoneware vitrifies: clay minerals melt partially, forming a glassy matrix that bonds the crystalline particles and seals the pores. Water absorption drops below 2%. The body becomes very strong and non-porous even without glaze.
 
-**[Porcelain](../glossary/porcelain.html)** (highest-fire, 1260-1300°C+):
+**[Porcelain](../glossary/porcelain.md)** (highest-fire, 1260-1300°C+):
 - 50% kaolin (pure white clay, low plasticity), 25% feldspar (flux), 25% silica. Kaolin (Al₂Si₂O₅(OH)₄) fires pure white, unlike ball clay which contains iron impurities that darken the body.
 - Porcelain vitrifies completely at peak temperature, becoming translucent in thin sections (1-3 mm). The challenge is reaching 1300°C without deforming the ware. Supports (saggar firing, kiln furniture) prevent slumping.
 - Porcelain is the most demanding clay body to work with: low plasticity makes it difficult to throw, and the high firing temperature means warping and bloating defects are common. Practice with stoneware before attempting porcelain.
@@ -202,10 +202,10 @@ Trim the foot ring and refine the profile when the pot reaches leather-hard stag
 
 A precise bisque schedule prevents loss and produces optimal absorbency for glazing:
 
-1. **[Room temperature to 100°C](../glossary/room-temperature-to-100c.html)** (2 hours): Very slow. All physically adsorbed water must evaporate before the temperature rises further. If the kiln is loaded with thick-walled pieces, extend this phase to 3 hours.
+1. **[Room temperature to 100°C](../glossary/room-temperature-to-100c.md)** (2 hours): Very slow. All physically adsorbed water must evaporate before the temperature rises further. If the kiln is loaded with thick-walled pieces, extend this phase to 3 hours.
 2. **100-600°C** (4 hours): The chemically bound water (hydroxyl groups in clay minerals) is released between 450-600°C. Organic matter burns out. Smoke and steam from the chimney are normal. Vent the kiln during this phase.
 3. **600-1000°C** (3 hours): Quartz inversion at 573°C causes a sudden 0.8% volume expansion. Move through 550-600°C slowly. Above 600°C, the rate can increase. The clay body sinters (particles bond at contact points) and becomes permanent ceramic.
-4. **[Soak at peak](../glossary/soak-at-peak.html)** (30 minutes): Ensures uniform temperature throughout the kiln.
+4. **[Soak at peak](../glossary/soak-at-peak.md)** (30 minutes): Ensures uniform temperature throughout the kiln.
 5. **Cool to room temperature** (8-12 hours): Do not open the kiln until below 200°C. Rapid cooling through quartz inversion on the way down causes dunting (cracking).
 
 ### Glaze Application Methods

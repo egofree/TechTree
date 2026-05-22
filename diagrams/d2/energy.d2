@@ -274,7 +274,7 @@ energy_gravity_water-turbines -> energy_gravity: { class: tool-edge }
 energy_storage_pumped-hydro -> energy_gravity: { class: tool-edge }
 energy_storage_pumped-hydro -> energy_electricity: { class: tool-edge }
 energy_electric-furnaces_electrode-manufacturing -> energy_electric-furnaces: { class: material-edge }
-energy_electricity -> energy_redox-flow-battery: { class: material-edge }
+energy_redox-flow-battery -> energy_electricity: { class: material-edge }
 energy_gravity -> textiles: { class: tool-edge }
 energy_wind -> textiles: { class: tool-edge }
 energy_gravity -> chemistry_lubricants: { class: material-edge }
@@ -338,13 +338,13 @@ measurement_electrical-instruments -> energy_electricity: { class: tool-edge }
 health_medical-instruments -> energy_steam-power: { class: tool-edge }
 chemistry_electrolysis -> energy_redox-flow-battery: { class: tool-edge }
 chemistry_electrolysis -> energy_fuel-cell: { class: tool-edge }
-energy_electricity -> chemistry_water-electrolysis: { class: material-edge }
-energy_electricity -> chemistry_e-methanol: { class: material-edge }
-energy_electricity -> chemistry_electrodialysis: { class: material-edge }
-energy_electricity -> water_desalination: { class: material-edge }
-energy_electricity -> agriculture_hydroponic-ph-control: { class: material-edge }
-energy_electricity -> chemistry_lithium-separation: { class: material-edge }
-energy_electricity -> chemistry_acid-regeneration: { class: material-edge }
+chemistry_water-electrolysis -> energy_electricity: { class: material-edge }
+chemistry_e-methanol -> energy_electricity: { class: material-edge }
+chemistry_electrodialysis -> energy_electricity: { class: material-edge }
+water_desalination -> energy_electricity: { class: material-edge }
+agriculture_hydroponic-ph-control -> energy_electricity: { class: material-edge }
+chemistry_lithium-separation -> energy_electricity: { class: material-edge }
+chemistry_acid-regeneration -> energy_electricity: { class: material-edge }
 chemistry_water-electrolysis -> energy_fuel-cell: { class: material-edge }
 chemistry_electrodialysis -> energy_blue-energy: { class: tool-edge }
 

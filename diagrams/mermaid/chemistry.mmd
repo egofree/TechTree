@@ -194,11 +194,11 @@ graph TD
     health_occupational-health --> chemistry_acids
     chemistry_electrolysis -.-> energy_redox-flow-battery
     chemistry_electrolysis -.-> energy_fuel-cell
-    energy_electricity --> chemistry_water-electrolysis
-    energy_electricity --> chemistry_e-methanol
-    energy_electricity --> chemistry_electrodialysis
-    energy_electricity --> chemistry_lithium-separation
-    energy_electricity --> chemistry_acid-regeneration
+    chemistry_water-electrolysis --> energy_electricity
+    chemistry_e-methanol --> energy_electricity
+    chemistry_electrodialysis --> energy_electricity
+    chemistry_lithium-separation --> energy_electricity
+    chemistry_acid-regeneration --> energy_electricity
     chemistry_water-electrolysis --> energy_fuel-cell
     chemistry_electrodialysis -.-> water_desalination
     chemistry_electrodialysis -.-> energy_blue-energy

@@ -96,9 +96,6 @@ foundations_internal: "Foundations — Internal Structure" {
 foundations: Foundations
 
 # ==================== EXTERNAL DEPENDENCIES ====================
-agriculture_aquaponics: Aquaponics {
-  shape: rectangle
-}
 agriculture_soil-management: "Soil Management & Composting" {
   shape: rectangle
 }
@@ -112,9 +109,6 @@ animals_beekeeping: "Apiculture (Beekeeping)" {
   shape: rectangle
 }
 animals_draft-power: "Animal Draft Power & Harnessing" {
-  shape: rectangle
-}
-animals_insect-farming: "Insect Farming (BSF)" {
   shape: rectangle
 }
 animals_pigs: Pig Husbandry {
@@ -225,7 +219,6 @@ knowledge_writing -> foundations_food-agriculture: { class: tool-edge }
 plants -> foundations_fire: { class: tool-edge }
 foundations_food-agriculture -> plants_edible-plants: { class: material-edge }
 animals -> foundations: { class: tool-edge }
-animals -> foundations_food-agriculture: { class: material-edge }
 animals_draft-power -> foundations_tools-basic: { class: tool-edge }
 animals_beekeeping -> foundations_fire: { class: tool-edge }
 animals_beekeeping -> foundations_tools-basic: { class: tool-edge }
@@ -234,10 +227,8 @@ foundations_food-agriculture -> animals_beekeeping: { class: material-edge }
 health_sanitation -> foundations_water-procurement: { class: material-edge }
 foundations_food-agriculture -> animals_pigs: { class: material-edge }
 foundations_food-agriculture -> animals_rabbits: { class: material-edge }
-animals_insect-farming -> foundations_food-agriculture: { class: tool-edge }
 animals_poultry -> foundations_food-agriculture: { class: material-edge }
 foundations_food-agriculture -> agriculture_soil-management: { class: material-edge }
-agriculture_aquaponics -> foundations_food-agriculture: { class: tool-edge }
 
 # ==================== STYLING ====================
 foundations.class: domain
@@ -245,13 +236,11 @@ foundations_fire.class: capability
 foundations_tools-basic.class: capability
 foundations_food-agriculture.class: capability
 foundations_water-procurement.class: capability
-agriculture_aquaponics.class: external
 agriculture_soil-management.class: external
 animals.class: external
 animals_aquaculture.class: external
 animals_beekeeping.class: external
 animals_draft-power.class: external
-animals_insect-farming.class: external
 animals_pigs.class: external
 animals_poultry.class: external
 animals_rabbits.class: external

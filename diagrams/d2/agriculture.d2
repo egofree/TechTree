@@ -114,11 +114,10 @@ agriculture_soil-management -> agriculture: { class: tool-edge }
 agriculture_soil-management_vermiculture -> agriculture_soil-management: { class: material-edge }
 agriculture_aquaponics -> agriculture: { class: tool-edge }
 agriculture_hydroponic-ph-control -> agriculture_aquaponics: { class: tool-edge }
-energy_electricity -> agriculture_hydroponic-ph-control: { class: material-edge }
+agriculture_hydroponic-ph-control -> energy_electricity: { class: material-edge }
 chemistry_electrodialysis -> agriculture_hydroponic-ph-control: { class: tool-edge }
 foundations_food-agriculture -> agriculture_soil-management: { class: material-edge }
 agriculture_aquaponics -> animals_aquaculture: { class: tool-edge }
-agriculture_aquaponics -> foundations_food-agriculture: { class: tool-edge }
 
 # ==================== STYLING ====================
 agriculture.class: domain

@@ -15,13 +15,11 @@ graph TD
     foundations["Foundations"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
-    agriculture_aquaponics("Aquaponics")
     agriculture_soil-management("Soil Management & Composting")
     animals("Animals & Animal Husbandry")
     animals_aquaculture("Aquaculture & Fisheries")
     animals_beekeeping("Apiculture (Beekeeping)")
     animals_draft-power("Animal Draft Power & Harnessing")
-    animals_insect-farming("Insect Farming (BSF)")
     animals_pigs("Pig Husbandry")
     animals_poultry("Poultry Farming")
     animals_rabbits("Rabbit Husbandry")
@@ -78,7 +76,6 @@ graph TD
     plants -.-> foundations_fire
     foundations_food-agriculture --> plants_edible-plants
     animals -.-> foundations
-    animals --> foundations_food-agriculture
     animals_draft-power -.-> foundations_tools-basic
     animals_beekeeping -.-> foundations_fire
     animals_beekeeping -.-> foundations_tools-basic
@@ -87,10 +84,8 @@ graph TD
     health_sanitation --> foundations_water-procurement
     foundations_food-agriculture --> animals_pigs
     foundations_food-agriculture --> animals_rabbits
-    animals_insect-farming -.-> foundations_food-agriculture
     animals_poultry --> foundations_food-agriculture
     foundations_food-agriculture --> agriculture_soil-management
-    agriculture_aquaponics -.-> foundations_food-agriculture
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -111,13 +106,11 @@ graph TD
     class foundations_tools-basic capability
     class foundations_food-agriculture capability
     class foundations_water-procurement capability
-    class agriculture_aquaponics external
     class agriculture_soil-management external
     class animals external
     class animals_aquaculture external
     class animals_beekeeping external
     class animals_draft-power external
-    class animals_insect-farming external
     class animals_pigs external
     class animals_poultry external
     class animals_rabbits external

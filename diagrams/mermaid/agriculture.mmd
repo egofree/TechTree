@@ -25,11 +25,10 @@ graph TD
     agriculture_soil-management_vermiculture --> agriculture_soil-management
     agriculture_aquaponics -.-> agriculture
     agriculture_hydroponic-ph-control -.-> agriculture_aquaponics
-    energy_electricity --> agriculture_hydroponic-ph-control
+    agriculture_hydroponic-ph-control --> energy_electricity
     chemistry_electrodialysis -.-> agriculture_hydroponic-ph-control
     foundations_food-agriculture --> agriculture_soil-management
     agriculture_aquaponics -.-> animals_aquaculture
-    agriculture_aquaponics -.-> foundations_food-agriculture
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]

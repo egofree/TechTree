@@ -383,11 +383,11 @@ textiles_finishing -> chemistry_alkalis: { class: tool-edge }
 health_occupational-health -> chemistry_acids: { class: material-edge }
 chemistry_electrolysis -> energy_redox-flow-battery: { class: tool-edge }
 chemistry_electrolysis -> energy_fuel-cell: { class: tool-edge }
-energy_electricity -> chemistry_water-electrolysis: { class: material-edge }
-energy_electricity -> chemistry_e-methanol: { class: material-edge }
-energy_electricity -> chemistry_electrodialysis: { class: material-edge }
-energy_electricity -> chemistry_lithium-separation: { class: material-edge }
-energy_electricity -> chemistry_acid-regeneration: { class: material-edge }
+chemistry_water-electrolysis -> energy_electricity: { class: material-edge }
+chemistry_e-methanol -> energy_electricity: { class: material-edge }
+chemistry_electrodialysis -> energy_electricity: { class: material-edge }
+chemistry_lithium-separation -> energy_electricity: { class: material-edge }
+chemistry_acid-regeneration -> energy_electricity: { class: material-edge }
 chemistry_water-electrolysis -> energy_fuel-cell: { class: material-edge }
 chemistry_electrodialysis -> water_desalination: { class: tool-edge }
 chemistry_electrodialysis -> energy_blue-energy: { class: tool-edge }

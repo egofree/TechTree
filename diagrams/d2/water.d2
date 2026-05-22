@@ -101,7 +101,7 @@ energy_electricity: "Electricity Generation & Distribution" {
 }
 
 # ==================== EDGES ====================
-energy_electricity -> water_desalination: { class: material-edge }
+water_desalination -> energy_electricity: { class: material-edge }
 chemistry_electrodialysis -> water_desalination: { class: tool-edge }
 
 # ==================== STYLING ====================

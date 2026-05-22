@@ -155,7 +155,7 @@ animals -> foundations: { class: tool-edge }
 
 # ==================== CROSS-DOMAIN EDGES ====================
 agriculture -> animals: { class: tool-edge }
-agriculture -> foundations: { class: tool-edge }
+agriculture -> energy: { class: tool-edge }
 animals -> ceramics: { class: tool-edge }
 ceramics -> energy: { class: tool-edge }
 ceramics -> mining: { class: tool-edge }
@@ -174,7 +174,6 @@ computing -> energy: { class: tool-edge }
 computing -> metals: { class: tool-edge }
 computing -> polymers: { class: tool-edge }
 computing -> silicon: { class: tool-edge }
-energy -> agriculture: { class: tool-edge }
 energy -> ceramics: { class: tool-edge }
 energy -> chemistry: { class: tool-edge }
 energy -> foundations: { class: tool-edge }
@@ -182,7 +181,6 @@ energy -> machine-tools: { class: tool-edge }
 energy -> mining: { class: tool-edge }
 energy -> polymers: { class: tool-edge }
 energy -> textiles: { class: tool-edge }
-energy -> water: { class: tool-edge }
 foundations -> agriculture: { class: tool-edge }
 foundations -> animals: { class: tool-edge }
 foundations -> plants: { class: tool-edge }
@@ -240,6 +238,7 @@ transport -> foundations: { class: tool-edge }
 transport -> textiles: { class: tool-edge }
 vlsi-scaling -> computing: { class: tool-edge }
 vlsi-scaling -> optics: { class: tool-edge }
+water -> energy: { class: tool-edge }
 
 # ==================== STYLING ====================
 foundations.class: earlyWin

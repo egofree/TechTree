@@ -71,7 +71,7 @@ graph TD
 
     %% ==================== CROSS-DOMAIN EDGES ====================
     agriculture -.-> animals
-    agriculture -.-> foundations
+    agriculture -.-> energy
     animals -.-> ceramics
     ceramics -.-> energy
     ceramics -.-> mining
@@ -90,7 +90,6 @@ graph TD
     computing -.-> metals
     computing -.-> polymers
     computing -.-> silicon
-    energy -.-> agriculture
     energy -.-> ceramics
     energy -.-> chemistry
     energy -.-> foundations
@@ -98,7 +97,6 @@ graph TD
     energy -.-> mining
     energy -.-> polymers
     energy -.-> textiles
-    energy -.-> water
     foundations -.-> agriculture
     foundations -.-> animals
     foundations -.-> plants
@@ -156,6 +154,7 @@ graph TD
     transport -.-> textiles
     vlsi-scaling -.-> computing
     vlsi-scaling -.-> optics
+    water -.-> energy
 
     %% ==================== STYLING ====================
     classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px

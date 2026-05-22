@@ -93,7 +93,7 @@ graph TD
     energy_storage_pumped-hydro -.-> energy_gravity
     energy_storage_pumped-hydro -.-> energy_electricity
     energy_electric-furnaces_electrode-manufacturing --> energy_electric-furnaces
-    energy_electricity --> energy_redox-flow-battery
+    energy_redox-flow-battery --> energy_electricity
     energy_gravity -.-> textiles
     energy_wind -.-> textiles
     energy_gravity --> chemistry_lubricants
@@ -157,13 +157,13 @@ graph TD
     health_medical-instruments -.-> energy_steam-power
     chemistry_electrolysis -.-> energy_redox-flow-battery
     chemistry_electrolysis -.-> energy_fuel-cell
-    energy_electricity --> chemistry_water-electrolysis
-    energy_electricity --> chemistry_e-methanol
-    energy_electricity --> chemistry_electrodialysis
-    energy_electricity --> water_desalination
-    energy_electricity --> agriculture_hydroponic-ph-control
-    energy_electricity --> chemistry_lithium-separation
-    energy_electricity --> chemistry_acid-regeneration
+    chemistry_water-electrolysis --> energy_electricity
+    chemistry_e-methanol --> energy_electricity
+    chemistry_electrodialysis --> energy_electricity
+    water_desalination --> energy_electricity
+    agriculture_hydroponic-ph-control --> energy_electricity
+    chemistry_lithium-separation --> energy_electricity
+    chemistry_acid-regeneration --> energy_electricity
     chemistry_water-electrolysis --> energy_fuel-cell
     chemistry_electrodialysis -.-> energy_blue-energy
 

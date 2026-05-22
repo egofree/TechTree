@@ -179,7 +179,7 @@ The tunnel kiln is an industrial-scale investment for continuous production of s
 - **[Pottery & Clay Products](pottery.md)** (clay preparation, forming): [pottery.md](pottery.md)
 - **[Advanced Ceramics](advanced-ceramics.md)** (refractory materials): [advanced-ceramics.md](advanced-ceramics.md)
 - **[Lime Production](lime.md)** (lime kilns): [lime.md](lime.md)
-- **[Charcoal Production](../energy/fuels-charcoal.md)** (fuel for kilns): [charcoal.md](../energy/charcoal.md)
+- **[Charcoal Production](../energy/charcoal.md)** (fuel for kilns): [charcoal.md](../energy/charcoal.md)
 
 ## Kiln Efficiency & Fuel Economics
 

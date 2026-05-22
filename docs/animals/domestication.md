@@ -9,7 +9,9 @@
 
 ### Overview
 
-Animal domestication converts wild fauna into reliable, renewable sources of labor, food, fiber, and materials. Seven species form the core of any pre-industrial livestock system: cattle, sheep, goats, pigs, chickens, horses, and donkeys. Each fills a distinct niche in the settlement ecology, from traction power and milk production to waste conversion and pest control.
+Animal domestication converts wild fauna into reliable, renewable sources of labor, food, fiber, and materials. Fifteen primary farmed species — eight mammalian livestock, seven poultry, plus insects — form the core of any pre-industrial animal husbandry system. Each fills a distinct niche in the settlement ecology, from traction power and milk production to waste conversion and pest control.
+
+This article covers the shared foundations of livestock husbandry: housing, feeding, breeding, health, and safety. Individual species details live in dedicated articles linked below and in the comparison table.
 
 Domestication begins with capture of wild or feral stock, progresses through taming and controlled breeding, and matures into managed herds with deliberate selection for productivity. The process spans years. Cattle and horses require 3-5 years from capture to first useful offspring; chickens and rabbits breed fast enough to establish productive flocks within a single season. Manure from all species closes the nutrient loop back to agriculture, making livestock indispensable for sustained crop yields.
 
@@ -17,103 +19,36 @@ Minimum viable startup: 2 breeding pairs per species, secure fencing, stored win
 
 Initial capture and taming follows different strategies by species. Wild cattle and horses are driven into corrals (gradually constructed fences narrowing toward a pen). Sheep and goats are gathered from wild flocks using dogs or human drives during seasonal migrations. Pigs are trapped or their young are taken from wild sows. Chickens are lured with grain into cage traps. Taming requires daily calm contact over weeks. Young animals tame faster: a calf handled daily from birth becomes docile within a month; a wild-caught adult cow may take 6-12 months to accept handling. Food conditioning (grain, salt) accelerates trust in all species.
 
-Before the profiles, a quick comparison of the seven species across the metrics that matter most for settlement planning:
+A comparison of the fifteen primary farmed species across the metrics that matter most for settlement planning:
 
-| Species | Weight (kg) | Gestation (days) | Feed DM (kg/day) | Water (L/day) | Housing (m²) | Slaughter Age |
-|---------|-------------|-------------------|-------------------|---------------|--------------|---------------|
-| Cattle | 400-800 | 283 | 25-35 | 40-80 | 15-25 | 18-24 mo |
-| Sheep | 80-120 | 147 | 1.5-3.0 | 4-10 | 2-4 | 4-6 mo |
-| Goats | 30-80 | 150 | 1.5-3.0 | 4-8 | 2-4 | 4-6 mo |
-| Pigs | 150-300 | 114 | 2.5-4.0 | 8-15 | 4-8 | 5-7 mo |
-| Chickens | 1.5-3.5 | 21 (incubation) | 0.1-0.15 | 0.25-0.4 | 0.05 (perch) | 6-16 wk |
-| Horses | 400-700 | 335 | 10-20 | 30-50 | 15-25 | N/A (work) |
-| Donkeys | 180-450 | 365 | 5-10 | 15-25 | 10-15 | N/A (work) |
+| Species | Weight (kg) | Gestation (days) | Feed DM (kg/day) | Water (L/day) | Housing (m²) | Slaughter Age | Article |
+|---------|-------------|-------------------|-------------------|---------------|--------------|---------------|---------|
+| Cattle | 400-800 | 283 | 25-35 | 40-80 | 15-25 | 18-24 mo | [Cattle](cattle.md) |
+| Bison | 400-900 | 270 | 25-35 | 40-80 | 15-25 | 18-24 mo | [Bison](bison.md) |
+| Sheep | 80-120 | 147 | 1.5-3.0 | 4-10 | 2-4 | 4-6 mo | [Sheep](sheep.md) |
+| Goats | 30-80 | 150 | 1.5-3.0 | 4-8 | 2-4 | 4-6 mo | [Goats](goats.md) |
+| Pigs | 150-300 | 114 | 2.5-4.0 | 8-15 | 4-8 | 5-7 mo | [Pigs](pigs.md) |
+| Horses | 400-700 | 335 | 10-20 | 30-50 | 15-25 | N/A (work) | [Equines](equines.md) |
+| Donkeys | 180-450 | 365 | 5-10 | 15-25 | 10-15 | N/A (work) | [Equines](equines.md) |
+| Camelids | 130-200 | 345 | 3-5 | 8-15 | 6-10 | N/A (fiber) | [Camelids](camelids.md) |
+| Rabbits | 3-5 | 31 | 0.15-0.25 | 0.3-0.5 | 0.5-1.0 | 10-12 wk | [Rabbits](rabbits.md) |
+| Chickens | 1.5-4.5 | 21 (inc.) | 0.1-0.15 | 0.25-0.4 | 0.05 (perch) | 6-16 wk | [Chickens](poultry-chickens.md) |
+| Coturnix Quail | 0.1-0.2 | 17 (inc.) | 0.02-0.03 | 0.05 | 0.02-0.05 | 6-8 wk | [Coturnix](poultry-coturnix.md) |
+| Ducks | 2-5 | 28 (inc.) | 0.12-0.2 | 0.5-1.0 | 0.5-1.0 | 7-10 wk | [Ducks](poultry-ducks.md) |
+| Geese | 4-10 | 28-30 (inc.) | 0.15-0.3 | 0.5-1.0 | 2-5 | 12-20 wk | [Geese](poultry-geese.md) |
+| Turkeys | 4-15 | 28 (inc.) | 0.15-0.4 | 0.5-1.0 | 20+ (range) | 16-24 wk | [Turkeys](poultry-turkeys.md) |
+| Guinea Fowl | 1.2-1.6 | 26-28 (inc.) | 0.03-0.08 | 0.2-0.4 | Free range | 12-16 wk | [Guinea Fowl](poultry-guinea-fowl.md) |
+| Pigeons | 0.35-0.8 | 17 (inc.) | 0.03-0.05 | 0.05-0.1 | 0.2 (loft) | 26-30 days | [Pigeons](poultry-pigeons.md) |
 
-### Species Profiles
+### Species Articles
 
-#### Cattle (*Bos taurus*)
+**Poultry** (overview: [Poultry Farming](poultry.md)): [Chickens](poultry-chickens.md) · [Coturnix Quail](poultry-coturnix.md) · [Ducks](poultry-ducks.md) · [Geese](poultry-geese.md) · [Turkeys](poultry-turkeys.md) · [Guinea Fowl](poultry-guinea-fowl.md) · [Pigeons & Squab](poultry-pigeons.md)
 
-Mature weight 400-800 kg (cows at the lower end, bulls and oxen at the upper). Gestation 283 days (range 279-290). Single calf per pregnancy, twins in roughly 1-2% of births.
+**Livestock**: [Cattle](cattle.md) · [Sheep](sheep.md) · [Goats](goats.md) · [Pigs](pigs.md) · [Equines (Horses & Donkeys)](equines.md) · [Camelids](camelids.md) · [Bison](bison.md) · [Rabbits](rabbits.md)
 
-**Products**: Dairy breeds yield 10-20 L milk/day at peak lactation (4-5% butterfat). Dual-purpose breeds yield 8-12 L/day. A 500 kg cow dressed out produces 55-60% carcass yield (275-300 kg meat). Tallow from rendered fat runs 25-40 kg per animal. Manure output: 30-40 kg/day fresh weight.
+**Insects**: [Insect Farming / BSF](insect-farming.md)
 
-**Feed**: 25-35 kg dry matter forage/day for a 500 kg animal (roughly 2.5-3% of body weight). Grain supplement 1-4 kg/day for working oxen or lactating cows. Pasture requirement: 0.5-1.0 hectares per animal on good grassland. Water: 40-80 L/day, up to 100 L in hot weather.
-
-**Housing**: 15-25 m² per animal in covered shelter. Minimum ceiling height 2.4 m. Stall width 1.2-1.5 m for tie stalls, 3-4 m for loose housing.
-
-**Maturity**: Heifers reach breeding age at 14-18 months. Slaughter weight for veal at 4-6 months (150-200 kg), for beef at 18-24 months (450-550 kg). Oxen (castrated males for draft) begin light work at 2 years, full work at 3-4 years.
-
-#### Sheep (*Ovis aries*)
-
-Mature weight 80-120 kg for larger breeds (rams 100-120 kg, ewes 60-90 kg). Gestation 147 days (range 144-152). Typical litter: singles for hill breeds, twins for lowland breeds, occasional triplets.
-
-**Products**: Wool fleece 2-5 kg/shearing (greasy weight), yielding 60-70% clean fiber after scouring. Meat: 45-55% dressed carcass yield. Milk: 0.5-2.0 L/day during a 120-180 day lactation. Manure: 2-3 kg/day, nitrogen-rich (0.7% N fresh weight).
-
-**Feed**: 1.5-3.0 kg dry matter/day for a 70 kg ewe. Grain supplement 0.3-1.0 kg/day for late pregnancy and lactation. Stocking rate: 6-10 ewes per hectare on improved pasture. Water: 4-10 L/day.
-
-**Housing**: 2-4 m² per adult in winter shelter. Group pens work well; sheep flock tightly and need less individual space than cattle.
-
-**Maturity**: Lambs reach slaughter weight (35-45 kg live) at 4-6 months on good pasture. Breeding age at 7-10 months. Shearing once per year in spring.
-
-#### Goats (*Capra aegagrus hircus*)
-
-Mature weight 30-80 kg (does 30-55 kg, bucks 50-80 kg). Gestation 150 days (range 145-155). Typical litter 1-3 kids, with twins most common.
-
-**Products**: Milk 2-4 L/day at peak lactation (180-300 day lactation). Goat milk averages 3.5-4.5% butterfat, higher digestibility than cow milk due to smaller fat globules. Meat (chevon): 45-50% dressed yield. Manure: 1.5-2.5 kg/day, similar nitrogen profile to sheep.
-
-**Feed**: 1.5-3.0 kg dry matter/day. Goats are browsers, not grazers. They prefer woody browse (shrubs, brambles, tree leaves) and will clear underbrush that sheep avoid. Stocking rate: 8-12 goats per hectare on browse. Water: 4-8 L/day.
-
-**Housing**: 2-4 m² per adult. Goats are agile climbers and escape artists. Fences must be at least 1.2 m high, with mesh openings under 15 cm. They need dry shelter; goats tolerate cold poorly when wet.
-
-**Maturity**: Kids reach slaughter weight (25-35 kg) at 4-6 months. Breeding age at 7-10 months. Dual-purpose breeds produce both milk and meat.
-
-#### Pigs (*Sus scrofa domesticus*)
-
-Mature weight 150-300 kg for modern breeds, 100-180 kg for traditional landraces. Gestation 114 days (three months, three weeks, three days). Litter size 8-12 piglets for improved breeds, 6-8 for traditional types. Weaning at 4-8 weeks.
-
-**Products**: Meat yield 70-80% of live weight (pigs convert feed to carcass more efficiently than cattle or sheep). Lard: 15-30 kg per animal for fat-type breeds. Manure: 5-10 kg/day, high in nitrogen and phosphorus. Pigs will consume food waste, crop residues, and dairy byproducts that other livestock reject.
-
-**Feed**: 2.5-4.0 kg feed/day for a growing pig (2.5-3.5 kg feed per kg gain). Adult sows in gestation need 1.8-2.5 kg/day; lactating sows need 4-6 kg/day. Pigs are omnivores: forage, roots, acorns, kitchen scraps, whey, and crop residues all work. Water: 8-15 L/day, plus any moisture in feed.
-
-**Housing**: 4-8 m² per adult in indoor pens. Farrowing pens: 3-4 m² with guard rails 20-25 cm off the ground to prevent sow from crushing piglets. Pigs do not sweat and need wallows or misting in temperatures above 25°C.
-
-**Maturity**: Market weight (90-110 kg) at 5-7 months. Breeding age at 7-8 months for gilts, 8-10 months for boars.
-
-#### Chickens (*Gallus gallus domesticus*)
-
-Mature weight 1.5-3 kg for dual-purpose breeds (hens 1.5-2.5 kg, roosters 2.5-3.5 kg). Incubation 21 days. Clutch size 10-14 eggs before a hen goes broody.
-
-**Products**: 200-300 eggs/year for modern layers, 150-200 for heritage breeds. Eggs weigh 50-65 g each. Meat: 70-75% dressed carcass yield. Manure: 0.05-0.1 kg/day per bird, highest nitrogen content of any common livestock (1.5% N). Feathers for bedding and fletching.
-
-**Feed**: 100-150 g layer feed/day per hen (16-18% protein). Free-ranging hens forage insects, seeds, and greens supplementing 20-40% of intake. Stocking density: 4-6 m² per bird in outdoor runs, or 3-5 birds per m² in deep-litter indoor systems. Water: 250-400 ml/day.
-
-**Housing**: Perch space 20-25 cm per bird. Nest boxes: one per 4-5 hens, dimensions 30 × 30 × 30 cm. Coop must be predator-proof (woven wire mesh with openings under 2.5 cm, solid floor or buried wire apron). Ventilation critical: ammonia from droppings causes respiratory disease above 25 ppm.
-
-**Maturity**: Point-of-lay at 18-22 weeks. Broilers reach slaughter weight (2.0-2.5 kg) at 6-8 weeks on intensive feed, 12-16 weeks on range.
-
-#### Horses (*Equus caballus*)
-
-Mature weight 400-700 kg depending on breed. Gestation 335 days (range 320-350). Single foal per pregnancy; twins rare and typically survive only one.
-
-**Products**: Draft power (single horse pulls 500-800 kg on level ground at 4-5 km/h for 4-6 hours). Transportation speed: 8-12 km/h trot, 30-40 km/h canter for short distances. Manure: 20-30 kg/day. Meat and milk are secondary products in most cultures, though mare milk (1.5-2.5 L/day) is used in Central Asian steppe traditions.
-
-**Feed**: 10-20 kg dry matter/day for a 500 kg horse (2-2.5% body weight). Working horses need grain supplement: 2-5 kg oats or barley per day. Pasture requirement: 1.0-1.5 hectares per horse. Water: 30-50 L/day, up to 70 L with heavy work in heat.
-
-**Housing**: 15-25 m² per animal in stalls (3 × 4 m minimum stall). Ceiling height 3 m minimum. Horses require daily exercise; prolonged stall confinement causes behavioral problems and hoof deterioration.
-
-**Maturity**: Foals reach weaning age at 4-6 months. Training begins at 18-24 months. Full work capacity at 4-5 years. Working lifespan 15-20 years.
-
-#### Donkeys (*Equus africanus asinus*)
-
-Mature weight 180-450 kg depending on breed. Gestation 365 days (range 340-390, longer than horses). Single foal per pregnancy.
-
-**Products**: Pack transport: 50-100 kg for a standard donkey, 100-150 kg for large breeds (Mammoth Jackstock). Draft: slower than horses but more enduring, suitable for plowing small plots and turning millstones. Manure: 10-20 kg/day.
-
-**Feed**: 5-10 kg dry matter/day for a 200 kg donkey. Donkeys are highly efficient digestors of poor-quality forage, thriving on scrub that would not sustain horses or cattle. Grain supplement rarely needed unless in heavy work. Water: 15-25 L/day; donkeys tolerate dehydration better than horses and can go 24-48 hours without water in moderate conditions.
-
-**Housing**: 10-15 m² per adult. Donkeys are hardy and tolerate cold well with adequate forage, but need shelter from prolonged rain and wind. Same fencing requirements as horses (post-and-rail at 1.2-1.5 m height).
-
-**Maturity**: Weaning at 4-6 months. Light work at 2 years, full capacity at 3-4 years. Working lifespan 25-30 years, longer than horses. Donkeys are notably disease-resistant compared to horses, with natural immunity to several equine parasites.
+Several regionally critical species are not covered in dedicated articles because they require specific climate conditions unavailable to most settlements. Camels (*Camelus dromedarius* and *C. bactrianus*) thrive in arid regions, providing milk, meat, transport, and fiber. Water buffalo (*Bubalus bubalis*) are indispensable for rice paddy cultivation in tropical Asia. Yaks (*Bos grunniens*) provide all essentials at high altitude (3,000-5,000 m) on the Tibetan Plateau and Himalayan regions. Reindeer (*Rangifer tarandus*) sustain Arctic and sub-Arctic peoples with meat, milk, hides, and transport. These species are regionally critical but require specific climate conditions not available to most settlements.
 
 ### Housing Requirements
 
@@ -179,6 +114,8 @@ Shelter design varies by climate, but core principles hold everywhere: protectio
 
 - **[Draft Power & Harnessing](draft-power.md)**: working oxen, horses, and donkeys for plowing, transport, and milling depends on domestication and training
 - **[Animal-Derived Materials](animal-materials.md)**: leather, tallow, wool, horn, bone, sinew, and hide glue all come from domesticated livestock
+- **[Poultry Farming](poultry.md)**: dedicated species articles and poultry-specific husbandry for all seven farmed bird species
+- **[Insect Farming / BSF](insect-farming.md)**: black soldier fly and other insects for waste conversion, animal feed, and protein production
 - **[Food & Agriculture](../foundations/food-agriculture.md)**: manure sustains crop yields; meat, milk, and eggs are primary protein sources
 - **[Medicine](../health/medicine.md)**: disease diagnosis and treatment for both livestock and zoonotic transmission to humans
 

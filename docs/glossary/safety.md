@@ -24,7 +24,7 @@ The fundamental principle: every industrial process since the Bronze Age has inh
 ## Appears In
 
 - [Lime](../ceramics/lime.md)
-- [Kiln Firing](../ceramics/pottery/kiln-firing.md)
+- [Kiln Firing](../ceramics/kiln-firing.md)
 - [Ammonia](../chemistry/ammonia.md)
 - [Petroleum Alternatives](../chemistry/petroleum-alternatives.md)
 - [Steam Power](../energy/steam-power.md)

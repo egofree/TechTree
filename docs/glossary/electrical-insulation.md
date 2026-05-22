@@ -28,6 +28,6 @@ Modern insulation (from the 1950s onward) uses polyimide film (Kapton), polyeste
 ## Appears In
 
 - [Sericulture](../animals/sericulture.md)
-- [Gutta-Percha](../polymers/rubber/gutta-percha.md)
-- [Natural Rubber](../polymers/rubber/natural.md)
-- [Shellac](../polymers/rubber/shellac.md)
+- [Gutta-Percha](../polymers/gutta-percha.md)
+- [Natural Rubber](../polymers/natural.md)
+- [Shellac](../polymers/shellac.md)

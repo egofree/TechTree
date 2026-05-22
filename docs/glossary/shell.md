@@ -6,7 +6,7 @@ The cylindrical outer structure of a blast furnace, boiler, or pressure vessel. 
 
 ## Context in the Tech Tree
 
-Shell design appears in the [Blast Furnace](../metals/iron-steel/blast-furnace.md) for iron smelting, [Steam Power](../energy/steam-power.md) boilers, [Electric Furnaces](../energy/electric-furnaces.md), [Aluminum](../metals/aluminum.md) reduction cells, and [Mg-Si Production](../silicon/mg-si-production.md). In each case, the shell must contain the process while allowing material flow and heat management.
+Shell design appears in the [Blast Furnace](../metals/blast-furnace.md) for iron smelting, [Steam Power](../energy/steam-power.md) boilers, [Electric Furnaces](../energy/electric-furnaces.md), [Aluminum](../metals/aluminum.md) reduction cells, and [Mg-Si Production](../silicon/mg-si-production.md). In each case, the shell must contain the process while allowing material flow and heat management.
 
 ## Technical Details
 
@@ -29,5 +29,5 @@ Refractory lining inside the shell protects the steel from direct contact with m
 - [Electric Furnaces](../energy/electric-furnaces.md)
 - [Steam Power](../energy/steam-power.md)
 - [Aluminum](../metals/aluminum.md)
-- [Blast Furnace](../metals/iron-steel/blast-furnace.md)
+- [Blast Furnace](../metals/blast-furnace.md)
 - [Mg-Si Production](../silicon/mg-si-production.md)

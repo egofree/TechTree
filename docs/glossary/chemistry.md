@@ -30,4 +30,4 @@ In semiconductor processing, chemistry becomes precise to the atomic level. Ther
 - [Energy Storage](../energy/storage.md)
 - [Fab Processes](../photolithography/fab-processes.md)
 - [Rubber](../polymers/rubber.md)
-- [Natural Rubber](../polymers/rubber/natural.md)
+- [Natural Rubber](../polymers/natural.md)

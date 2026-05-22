@@ -25,7 +25,7 @@ In knowledge systems, the 5-10 year scribal training duration reflects the compl
 
 ## Appears In
 
-- [Coke Production](../energy/fuels.coke.md)
+- [Coke Production](../energy/coke.md)
 - [Vacuum Systems](../gas-handling/vacuum.md)
 - [Writing Systems](../knowledge/writing.md)
 - [Copper & Bronze](../metals/copper-bronze.md)

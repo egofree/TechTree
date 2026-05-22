@@ -6,7 +6,7 @@ Intake valve — stainless steel or nickel alloy (lower temperature, ~300-400°C
 
 ## Context in the Tech Tree
 
-Valves are mechanical devices that control the flow of fluids (gases and liquids) through pipes, channels, and combustion chambers. In [Internal Combustion Engines](../energy/engine.md), intake and exhaust valves regulate gas exchange in cylinders with precise timing and gas-tight sealing. In [Steam Power](../energy/steam-power.md), valves control steam admission and exhaust to cylinders or turbines. In [Gas Handling](../gas-handling/basic.md), valves isolate, direct, and regulate gas flows in chemical and semiconductor processing. In [Dopant & Etch Gases](../chemistry/dopant-etch-gases.md) and [Wood Gasification](../chemistry/petroleum-alternatives/wood-gasification.md), valves must handle corrosive and toxic gases safely.
+Valves are mechanical devices that control the flow of fluids (gases and liquids) through pipes, channels, and combustion chambers. In [Internal Combustion Engines](../energy/engine.md), intake and exhaust valves regulate gas exchange in cylinders with precise timing and gas-tight sealing. In [Steam Power](../energy/steam-power.md), valves control steam admission and exhaust to cylinders or turbines. In [Gas Handling](../gas-handling/basic.md), valves isolate, direct, and regulate gas flows in chemical and semiconductor processing. In [Dopant & Etch Gases](../chemistry/dopant-etch-gases.md) and [Wood Gasification](../chemistry/wood-gasification.md), valves must handle corrosive and toxic gases safely.
 
 ## Technical Details
 
@@ -27,7 +27,7 @@ For gas handling in semiconductor manufacturing, valves must provide leak-tight 
 ## Appears In
 
 - [Dopant & Etch Gases](../chemistry/dopant-etch-gases.md)
-- [Wood Gasification](../chemistry/petroleum-alternatives/wood-gasification.md)
+- [Wood Gasification](../chemistry/wood-gasification.md)
 - [Internal Combustion Engines](../energy/engine.md)
 - [Steam Power](../energy/steam-power.md)
 - [Basic Gas Handling](../gas-handling/basic.md)

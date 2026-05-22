@@ -6,7 +6,7 @@ Apiezon L (hydrocarbon, lowest vapor pressure ~10⁻⁸ Pa at 20°C, for high va
 
 ## Context in the Tech Tree
 
-The classification of materials and equipment into types — organized by properties, performance, or application — is essential for selecting the right variant for each use case. In [Lubricants](../chemistry/lubricants.md), vacuum grease types are selected by vapor pressure, temperature range, and chemical compatibility. In [Electrode Manufacturing](../energy/electric-furnaces.electrode-manufacturing.md), electrode types (prebaked graphite vs. Søderberg self-baking) each offer trade-offs between purity, cost, and ease of production. In [Vacuum](../gas-handling/vacuum.md) systems, pump types (rotary vane, diffusion, turbomolecular) and seal types determine achievable vacuum level.
+The classification of materials and equipment into types — organized by properties, performance, or application — is essential for selecting the right variant for each use case. In [Lubricants](../chemistry/lubricants.md), vacuum grease types are selected by vapor pressure, temperature range, and chemical compatibility. In [Electrode Manufacturing](../energy/electrode-manufacturing.md), electrode types (prebaked graphite vs. Søderberg self-baking) each offer trade-offs between purity, cost, and ease of production. In [Vacuum](../gas-handling/vacuum.md) systems, pump types (rotary vane, diffusion, turbomolecular) and seal types determine achievable vacuum level.
 
 ## Technical Details
 
@@ -25,5 +25,5 @@ The principle extends across the tech tree: coal types (lignite through anthraci
 ## Appears In
 
 - [Lubricants](../chemistry/lubricants.md)
-- [Electrode Manufacturing](../energy/electric-furnaces.electrode-manufacturing.md)
+- [Electrode Manufacturing](../energy/electrode-manufacturing.md)
 - [Vacuum](../gas-handling/vacuum.md)

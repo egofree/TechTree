@@ -6,7 +6,7 @@ Loose biomass (sawdust, agricultural residues, wood chips) can be compacted into
 
 ## Context in the Tech Tree
 
-Briquetting transforms loose, low-density biomass or coal fines into dense, uniform fuel blocks suitable for controlled combustion. In [Wood Gasification](../chemistry/wood-gasification.md), briquettes provide the consistent fuel dimensions that shaft gasifiers require for reliable operation. In [Coal](../energy/fuels/coal.md), briquetting converts coal fines (waste from mining and handling) into usable fuel. In [Non-Ferrous Metals](../metals/non-ferrous.md), similar compaction processes produce metal powder compacts for sintering.
+Briquetting transforms loose, low-density biomass or coal fines into dense, uniform fuel blocks suitable for controlled combustion. In [Wood Gasification](../chemistry/wood-gasification.md), briquettes provide the consistent fuel dimensions that shaft gasifiers require for reliable operation. In [Coal](../energy/coal.md), briquetting converts coal fines (waste from mining and handling) into usable fuel. In [Non-Ferrous Metals](../metals/non-ferrous.md), similar compaction processes produce metal powder compacts for sintering.
 
 ## Technical Details
 
@@ -24,5 +24,5 @@ Briquettes solve a critical problem for gasifiers: fuel uniformity. A shaft gasi
 ## Appears In
 
 - [Wood Gasification](../chemistry/wood-gasification.md)
-- [Coal](../energy/fuels/coal.md)
+- [Coal](../energy/coal.md)
 - [Non-Ferrous Metals](../metals/non-ferrous.md)

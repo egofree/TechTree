@@ -24,6 +24,6 @@ In charcoal production, the carbonization cycle runs 3-7 days depending on kiln 
 ## Appears In
 
 - [Electric Furnaces](../energy/electric-furnaces.md)
-- [Charcoal Production](../energy/fuels.charcoal.md)
+- [Charcoal Production](../energy/charcoal.md)
 - [Thermoplastics](../polymers/thermoplastics.md)
 - [Advanced Processes](../vlsi-scaling/advanced-processes.md)

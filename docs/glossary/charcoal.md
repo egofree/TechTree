@@ -28,5 +28,5 @@ The bootstrap fuel sequence progresses through charcoal to coal, then coke, each
 ## Appears In
 
 - [Fuel Production](../energy/fuels.md)
-- [Coke Production](../energy/fuels/coke.md)
+- [Coke Production](../energy/coke.md)
 - [Black Powder](../mining/black-powder.md)

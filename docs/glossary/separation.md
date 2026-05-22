@@ -6,7 +6,7 @@ The physical and chemical processes that isolate desired materials from mixtures
 
 ## Context in the Tech Tree
 
-Separation processes appear throughout the tech tree. In [Alkalis](../chemistry/alkalis.md), CaCO₃ sludge is separated by vacuum or pressure filtration, with filter cake washing to recover entrained NaOH. In [Mining Processing](../mining/processing.md), gravity separation, flotation, and magnetic separation concentrate ores. In [Black Powder](../mining/extraction/black-powder.md), mechanical separation refines raw ingredients.
+Separation processes appear throughout the tech tree. In [Alkalis](../chemistry/alkalis.md), CaCO₃ sludge is separated by vacuum or pressure filtration, with filter cake washing to recover entrained NaOH. In [Mining Processing](../mining/processing.md), gravity separation, flotation, and magnetic separation concentrate ores. In [Black Powder](../mining/black-powder.md), mechanical separation refines raw ingredients.
 
 ## Technical Details
 
@@ -25,5 +25,5 @@ Magnetic separation pulls ferromagnetic minerals (magnetite) from gangue using p
 ## Appears In
 
 - [Alkalis](../chemistry/alkalis.md)
-- [Black Powder](../mining/extraction/black-powder.md)
+- [Black Powder](../mining/black-powder.md)
 - [Mining Processing](../mining/processing.md)

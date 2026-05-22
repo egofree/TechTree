@@ -30,6 +30,6 @@ Similarly, the uses of acids illustrate cascading applications: sulfuric acid (t
 - [Acids](../chemistry/acids.md)
 - [Alkalis](../chemistry/alkalis.md)
 - [Fuels](../energy/fuels.md)
-- [Coke](../energy/fuels/coke.md)
+- [Coke](../energy/coke.md)
 - [Iron & Steel](../metals/iron-steel.md)
 - [Edible Plants](../plants/edible-plants.md)

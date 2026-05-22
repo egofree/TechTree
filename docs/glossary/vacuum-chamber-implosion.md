@@ -6,7 +6,7 @@ Glass bell jars and vacuum chambers under vacuum can collapse violently if crack
 
 ## Context in the Tech Tree
 
-Vacuum chamber implosion is the catastrophic failure of a vessel under external atmospheric pressure when internal pressure is reduced below the vessel's structural capacity. In [Optical Inspection](../optics/inspection.md) and [Optical Coatings](../optics/inspection/optical-coatings.md), vacuum chambers are used for thin-film deposition and testing. In [Basic Devices](../silicon/basic-devices.md), vacuum environments are essential for semiconductor fabrication. The hazard is particularly acute with glass bell jars, which fail suddenly and produce high-velocity glass fragments.
+Vacuum chamber implosion is the catastrophic failure of a vessel under external atmospheric pressure when internal pressure is reduced below the vessel's structural capacity. In [Optical Inspection](../optics/inspection.md) and [Optical Coatings](../optics/optical-coatings.md), vacuum chambers are used for thin-film deposition and testing. In [Basic Devices](../silicon/basic-devices.md), vacuum environments are essential for semiconductor fabrication. The hazard is particularly acute with glass bell jars, which fail suddenly and produce high-velocity glass fragments.
 
 ## Technical Details
 
@@ -28,5 +28,5 @@ Pre-use inspection protocol: examine all glass surfaces under bright light for c
 ## Appears In
 
 - [Optical Inspection](../optics/inspection.md)
-- [Optical Coatings](../optics/inspection/optical-coatings.md)
+- [Optical Coatings](../optics/optical-coatings.md)
 - [Basic Devices](../silicon/basic-devices.md)

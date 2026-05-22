@@ -6,7 +6,7 @@ The determination of appropriate dimensions and capacity for equipment, infrastr
 
 ## Context in the Tech Tree
 
-Sizing appears in [Coal](../energy/fuels/coal.md) processing, [Pumped Hydro Storage](../energy/storage/pumped-hydro.md) design, and [Printing](../knowledge/printing.md). In hydraulic systems, surge tank cross-sectional area must be large enough to prevent overflow during transients while keeping the minimum level above the penstock connection. In printing, type size and page dimensions determine readability and material usage.
+Sizing appears in [Coal](../energy/coal.md) processing, [Pumped Hydro Storage](../energy/pumped-hydro.md) design, and [Printing](../knowledge/printing.md). In hydraulic systems, surge tank cross-sectional area must be large enough to prevent overflow during transients while keeping the minimum level above the penstock connection. In printing, type size and page dimensions determine readability and material usage.
 
 ## Technical Details
 
@@ -23,6 +23,6 @@ Printing sizing: paper dimensions (quarto, folio, octavo) determine the number o
 
 ## Appears In
 
-- [Coal](../energy/fuels/coal.md)
-- [Pumped Hydro](../energy/storage/pumped-hydro.md)
+- [Coal](../energy/coal.md)
+- [Pumped Hydro](../energy/pumped-hydro.md)
 - [Printing](../knowledge/printing.md)

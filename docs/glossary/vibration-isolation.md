@@ -6,7 +6,7 @@ Precision photolithography tools (steppers, mask aligners) require vibration <0.
 
 ## Context in the Tech Tree
 
-Vibration isolation — the practice of decoupling precision equipment from external vibration sources — becomes critical at the highest levels of manufacturing precision. In [Cleanrooms](../photolithography/cleanrooms.md), photolithography steppers and mask aligners project circuit patterns onto silicon wafers at sub-micron resolution; any vibration during exposure blurs the image, destroying device yield. In [CZ Crystal Pulling](../silicon/crystal-growth.cz-pulling.md), vibration disturbs the crystal-melt interface, introducing dislocations that render silicon ingots useless. In [Advanced Lithography](../vlsi-scaling/advanced-lithography.md), as feature sizes shrink below 1 μm, vibration tolerance tightens proportionally.
+Vibration isolation — the practice of decoupling precision equipment from external vibration sources — becomes critical at the highest levels of manufacturing precision. In [Cleanrooms](../photolithography/cleanrooms.md), photolithography steppers and mask aligners project circuit patterns onto silicon wafers at sub-micron resolution; any vibration during exposure blurs the image, destroying device yield. In [CZ Crystal Pulling](../silicon/cz-pulling.md), vibration disturbs the crystal-melt interface, introducing dislocations that render silicon ingots useless. In [Advanced Lithography](../vlsi-scaling/advanced-lithography.md), as feature sizes shrink below 1 μm, vibration tolerance tightens proportionally.
 
 ## Technical Details
 
@@ -25,5 +25,5 @@ The vibration budget cascades through the tool stack: floor → isolation mounts
 
 - [Cement](../chemistry/cement.md)
 - [Cleanrooms](../photolithography/cleanrooms.md)
-- [CZ Crystal Pulling](../silicon/crystal-growth.cz-pulling.md)
+- [CZ Crystal Pulling](../silicon/cz-pulling.md)
 - [Advanced Lithography](../vlsi-scaling/advanced-lithography.md)

@@ -6,7 +6,7 @@ Glassblowing involves 800-2800°C material. Severe burns from brief contact with
 
 ## Context in the Tech Tree
 
-Burns are a pervasive hazard wherever high-temperature processes occur. In [Glassblowing](../glass/glassblowing.md), molten glass at 800-2800°C causes severe deep burns. In [Charcoal Production](../energy/fuels/charcoal.md) and [Forming](../machine-tools/forming.md), hot metal and furnace radiation pose burn risks. In [Joining](../machine-tools/joining.md), welding sparks and molten metal create burn hazards. Burns represent the most common industrial injury across the entire tech tree, from fire-making to semiconductor fabrication.
+Burns are a pervasive hazard wherever high-temperature processes occur. In [Glassblowing](../glass/glassblowing.md), molten glass at 800-2800°C causes severe deep burns. In [Charcoal Production](../energy/charcoal.md) and [Forming](../machine-tools/forming.md), hot metal and furnace radiation pose burn risks. In [Joining](../machine-tools/joining.md), welding sparks and molten metal create burn hazards. Burns represent the most common industrial injury across the entire tech tree, from fire-making to semiconductor fabrication.
 
 ## Technical Details
 
@@ -25,6 +25,6 @@ Prevention strategies include clear work zone delineation (hot area vs. cold are
 ## Appears In
 
 - [Glassblowing](../glass/glassblowing.md)
-- [Charcoal Production](../energy/fuels/charcoal.md)
+- [Charcoal Production](../energy/charcoal.md)
 - [Forming](../machine-tools/forming.md)
 - [Joining](../machine-tools/joining.md)

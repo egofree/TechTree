@@ -6,7 +6,7 @@ The second step of the START triage protocol. Step 2 assesses non-ambulatory pat
 
 ## Context in the Tech Tree
 
-Step 2 appears in [Kiln Firing](../ceramics/pottery.kiln-firing.md) and [Alkalis](../chemistry/alkalis.md) accident response, [Ammonia](../chemistry/ammonia.md) emergency procedures, and [Medicine](../health/medicine.md) as the critical assessment phase after walking wounded have been cleared by Step 1.
+Step 2 appears in [Kiln Firing](../ceramics/kiln-firing.md) and [Alkalis](../chemistry/alkalis.md) accident response, [Ammonia](../chemistry/ammonia.md) emergency procedures, and [Medicine](../health/medicine.md) as the critical assessment phase after walking wounded have been cleared by Step 1.
 
 ## Technical Details
 
@@ -28,7 +28,7 @@ Red-tagged patients have life-threatening conditions requiring immediate interve
 
 ## Appears In
 
-- [Kiln Firing](../ceramics/pottery/kiln-firing.md)
+- [Kiln Firing](../ceramics/kiln-firing.md)
 - [Alkalis](../chemistry/alkalis.md)
 - [Ammonia](../chemistry/ammonia.md)
 - [Medicine](../health/medicine.md)

@@ -25,5 +25,5 @@ In energy storage, the effects of temperature on battery performance are signifi
 
 ## Appears In
 
-- [Kiln Firing](../ceramics/pottery.kiln-firing.md)
+- [Kiln Firing](../ceramics/kiln-firing.md)
 - [Rope Making](../textiles/rope-making.md)

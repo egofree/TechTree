@@ -6,7 +6,7 @@ Molding operations heat gutta-percha to 80-100°C. While below water's boiling p
 
 ## Context in the Tech Tree
 
-Thermal burns are tissue damage caused by contact with hot surfaces, liquids, or materials — a pervasive hazard across industrial processes. In [Kilns](../ceramics/kilns.md), furnace surfaces, hot ceramics, and radiant heat pose burn risks. In [Gutta-Percha](../polymers/rubber/gutta-percha.md) processing, the material's thermoplastic nature requires heating above 70°C to become workable, and its sticky consistency at working temperature prolongs skin contact during accidental exposure. Unlike thermoplastic polymers processed at 200-300°C, gutta-percha's lower processing temperature means burns are generally first-degree rather than severe — but the adhesive quality of molten material increases the duration and severity of contact.
+Thermal burns are tissue damage caused by contact with hot surfaces, liquids, or materials — a pervasive hazard across industrial processes. In [Kilns](../ceramics/kilns.md), furnace surfaces, hot ceramics, and radiant heat pose burn risks. In [Gutta-Percha](../polymers/gutta-percha.md) processing, the material's thermoplastic nature requires heating above 70°C to become workable, and its sticky consistency at working temperature prolongs skin contact during accidental exposure. Unlike thermoplastic polymers processed at 200-300°C, gutta-percha's lower processing temperature means burns are generally first-degree rather than severe — but the adhesive quality of molten material increases the duration and severity of contact.
 
 ## Technical Details
 
@@ -25,4 +25,4 @@ Prevention measures include: thermal gloves rated for the working temperature, t
 ## Appears In
 
 - [Kilns](../ceramics/kilns.md)
-- [Gutta-Percha](../polymers/rubber/gutta-percha.md)
+- [Gutta-Percha](../polymers/gutta-percha.md)

@@ -6,7 +6,7 @@ The buildup and discharge of electrical charge on non-conductive surfaces or in 
 
 ## Context in the Tech Tree
 
-Static electricity hazards appear in [Distillation](../chemistry/distillation.md) where low-conductivity hydrocarbons and solvents generate charge flowing through pipes, in [Explosives](../chemistry/explosives.md) where static can initiate black powder and primary explosives, and in [Black Powder](../mining/extraction/black-powder.md) manufacture. Each context requires specific grounding and bonding procedures.
+Static electricity hazards appear in [Distillation](../chemistry/distillation.md) where low-conductivity hydrocarbons and solvents generate charge flowing through pipes, in [Explosives](../chemistry/explosives.md) where static can initiate black powder and primary explosives, and in [Black Powder](../mining/black-powder.md) manufacture. Each context requires specific grounding and bonding procedures.
 
 ## Technical Details
 
@@ -26,4 +26,4 @@ In explosives manufacture: wear cotton clothing (not synthetic fabrics that gene
 
 - [Distillation](../chemistry/distillation.md)
 - [Explosives](../chemistry/explosives.md)
-- [Black Powder](../mining/extraction/black-powder.md)
+- [Black Powder](../mining/black-powder.md)

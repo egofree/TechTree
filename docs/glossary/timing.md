@@ -6,7 +6,7 @@ Operate time 5-15 ms (coil energized to contact closure). Release time 3-10 ms (
 
 ## Context in the Tech Tree
 
-Timing — the precise sequencing and synchronization of events — is fundamental to mechanical, electrical, and biological systems. In [Electromechanical Computing](../computing/electromechanical.md), relay timing limits the maximum clock frequency of relay-based computers, directly constraining computational speed. In [Charcoal](../energy/fuels/charcoal.md) production, the timing of the burn cycle determines charcoal quality. In [Natural Rubber](../polymers/rubber/natural.md) processing, the timing of coagulation and vulcanization affects material properties. In [Aviation](../transport/aviation.md), ignition timing determines engine power and efficiency.
+Timing — the precise sequencing and synchronization of events — is fundamental to mechanical, electrical, and biological systems. In [Electromechanical Computing](../computing/electromechanical.md), relay timing limits the maximum clock frequency of relay-based computers, directly constraining computational speed. In [Charcoal](../energy/charcoal.md) production, the timing of the burn cycle determines charcoal quality. In [Natural Rubber](../polymers/natural.md) processing, the timing of coagulation and vulcanization affects material properties. In [Aviation](../transport/aviation.md), ignition timing determines engine power and efficiency.
 
 ## Technical Details
 
@@ -28,6 +28,6 @@ In internal combustion engines, ignition timing (5-40° before top dead center) 
 
 - [Pest Management](../animals/pest-management.md)
 - [Electromechanical Computing](../computing/electromechanical.md)
-- [Charcoal](../energy/fuels/charcoal.md)
-- [Natural Rubber](../polymers/rubber/natural.md)
+- [Charcoal](../energy/charcoal.md)
+- [Natural Rubber](../polymers/natural.md)
 - [Aviation](../transport/aviation.md)

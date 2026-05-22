@@ -6,7 +6,7 @@ The first step of the START (Simple Triage and Rapid Treatment) mass-casualty tr
 
 ## Context in the Tech Tree
 
-Step 1 appears in [Kiln Firing](../ceramics/pottery/kiln-firing.md) and [Alkalis](../chemistry/alkalis.md) accident response, [Ammonia](../chemistry/ammonia.md) emergency procedures, and [Medicine](../health/medicine.md) as part of systematic triage. Industrial accidents involving furnaces, chemicals, and explosions can produce mass casualties requiring rapid sorting.
+Step 1 appears in [Kiln Firing](../ceramics/kiln-firing.md) and [Alkalis](../chemistry/alkalis.md) accident response, [Ammonia](../chemistry/ammonia.md) emergency procedures, and [Medicine](../health/medicine.md) as part of systematic triage. Industrial accidents involving furnaces, chemicals, and explosions can produce mass casualties requiring rapid sorting.
 
 ## Technical Details
 
@@ -24,7 +24,7 @@ The walking wounded are directed to a collection point away from the incident sc
 
 ## Appears In
 
-- [Kiln Firing](../ceramics/pottery/kiln-firing.md)
+- [Kiln Firing](../ceramics/kiln-firing.md)
 - [Alkalis](../chemistry/alkalis.md)
 - [Ammonia](../chemistry/ammonia.md)
 - [Medicine](../health/medicine.md)

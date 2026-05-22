@@ -26,6 +26,6 @@ Silicon powder presents a dual hazard: respiratory (fine particulate) and explos
 ## Appears In
 
 - [Fiber Plants](../plants/fiber-plants.md)
-- [Gutta-Percha](../polymers/rubber/gutta-percha.md)
+- [Gutta-Percha](../polymers/gutta-percha.md)
 - [Crystal Growth](../silicon/crystal-growth.md)
 - [Roads](../transport/roads.md)

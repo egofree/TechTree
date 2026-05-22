@@ -6,7 +6,7 @@ The classification and separation of materials by physical properties such as de
 
 ## Context in the Tech Tree
 
-Sorting appears in [Electromechanical Computing](../computing/electromechanical.md) for data classification, [Coal Processing](../energy/fuels/coal.md) for size and grade separation, and [Aluminum Production](../metals/aluminum.md) for scrap sorting and alloy separation. The progression from hand-sorting to automated methods mirrors the broader technological trajectory.
+Sorting appears in [Electromechanical Computing](../computing/electromechanical.md) for data classification, [Coal Processing](../energy/coal.md) for size and grade separation, and [Aluminum Production](../metals/aluminum.md) for scrap sorting and alloy separation. The progression from hand-sorting to automated methods mirrors the broader technological trajectory.
 
 ## Technical Details
 
@@ -25,5 +25,5 @@ Laser-induced breakdown spectroscopy (LIBS): a laser pulse ablates a tiny spot o
 ## Appears In
 
 - [Electromechanical Computing](../computing/electromechanical.md)
-- [Coal](../energy/fuels/coal.md)
+- [Coal](../energy/coal.md)
 - [Aluminum](../metals/aluminum.md)

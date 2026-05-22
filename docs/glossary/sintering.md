@@ -6,7 +6,7 @@ The process of agglomerating fine particles into a cohesive solid by heating bel
 
 ## Context in the Tech Tree
 
-Sintering appears across multiple domains. In the [Blast Furnace](../metals/iron-steel/blast-furnace.md), fine ore particles too small for direct smelting are agglomerated by sintering with coke breeze. In [Powder Metallurgy](../metals/powder-metallurgy.md), metal powders are compacted and sintered to produce near-net-shape parts. In [Advanced Ceramics](../ceramics/advanced-ceramics.md), ceramic powders are sintered to achieve dense, strong components. In [Advanced Glass](../glass/advanced.md) and [Mining Processing](../mining/processing.md), sintering prepares materials for further processing.
+Sintering appears across multiple domains. In the [Blast Furnace](../metals/blast-furnace.md), fine ore particles too small for direct smelting are agglomerated by sintering with coke breeze. In [Powder Metallurgy](../metals/powder-metallurgy.md), metal powders are compacted and sintered to produce near-net-shape parts. In [Advanced Ceramics](../ceramics/advanced-ceramics.md), ceramic powders are sintered to achieve dense, strong components. In [Advanced Glass](../glass/advanced.md) and [Mining Processing](../mining/processing.md), sintering prepares materials for further processing.
 
 ## Technical Details
 
@@ -28,6 +28,6 @@ Powder metallurgy sintering: metal compacts are heated in a reducing atmosphere 
 
 - [Advanced Ceramics](../ceramics/advanced-ceramics.md)
 - [Advanced Glass](../glass/advanced.md)
-- [Blast Furnace](../metals/iron-steel/blast-furnace.md)
+- [Blast Furnace](../metals/blast-furnace.md)
 - [Powder Metallurgy](../metals/powder-metallurgy.md)
 - [Mining Processing](../mining/processing.md)

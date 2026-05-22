@@ -6,7 +6,7 @@ One 30 m roll of 35 mm microfilm holds approximately 700-1000 pages. A library o
 
 ## Context in the Tech Tree
 
-Capacity measures the maximum output, storage, or throughput of a system. In [Libraries](../knowledge/libraries.md), it quantifies information storage density (microfilm vs. physical volumes). In [Energy Storage](../energy/storage.md), it measures battery ampere-hours and backup power duration. In [Blast Furnace](../metals/iron-steel/blast-furnace.md) production, it defines daily iron output. In [Casting](../machine-tools/casting.md), it limits pour size. Understanding capacity is essential for scaling systems to meet demand at every tech-tree stage.
+Capacity measures the maximum output, storage, or throughput of a system. In [Libraries](../knowledge/libraries.md), it quantifies information storage density (microfilm vs. physical volumes). In [Energy Storage](../energy/storage.md), it measures battery ampere-hours and backup power duration. In [Blast Furnace](../metals/blast-furnace.md) production, it defines daily iron output. In [Casting](../machine-tools/casting.md), it limits pour size. Understanding capacity is essential for scaling systems to meet demand at every tech-tree stage.
 
 ## Technical Details
 
@@ -29,7 +29,7 @@ Capacity planning requires understanding both peak and sustained throughput, der
 
 - [Libraries](../knowledge/libraries.md)
 - [Energy Storage](../energy/storage.md)
-- [Blast Furnace](../metals/iron-steel/blast-furnace.md)
+- [Blast Furnace](../metals/blast-furnace.md)
 - [Casting](../machine-tools/casting.md)
 - [Draft Power](../animals/draft-power.md)
 - [Electronic Computing](../computing/electronic.md)

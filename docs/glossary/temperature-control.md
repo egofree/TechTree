@@ -6,7 +6,7 @@ Product purity is maintained by controlling column temperatures. The temperature
 
 ## Context in the Tech Tree
 
-Temperature control — the ability to maintain a process at a specified temperature within narrow tolerances — is essential for reproducible manufacturing. In [Distillation](../chemistry/distillation.md), a temperature controller adjusts reflux ratio or reboiler heat to maintain constant overhead temperature, directly determining product purity. In [CZ Crystal Pulling](../silicon/crystal-growth.cz-pulling.md), molten silicon temperature must be held within ±0.5°C to maintain single-crystal growth. In [Advanced Ceramics](../ceramics/advanced-ceramics.md), sintering profiles with controlled heating and cooling rates determine final microstructure and mechanical properties.
+Temperature control — the ability to maintain a process at a specified temperature within narrow tolerances — is essential for reproducible manufacturing. In [Distillation](../chemistry/distillation.md), a temperature controller adjusts reflux ratio or reboiler heat to maintain constant overhead temperature, directly determining product purity. In [CZ Crystal Pulling](../silicon/cz-pulling.md), molten silicon temperature must be held within ±0.5°C to maintain single-crystal growth. In [Advanced Ceramics](../ceramics/advanced-ceramics.md), sintering profiles with controlled heating and cooling rates determine final microstructure and mechanical properties.
 
 ## Technical Details
 
@@ -29,5 +29,5 @@ In crystal growth, the melt temperature is controlled by adjusting power to the 
 - [Distillation](../chemistry/distillation.md)
 - [Electric Furnaces](../energy/electric-furnaces.md)
 - [Precision Metrology](../measurement/precision-metrology.md)
-- [CZ Crystal Pulling](../silicon/crystal-growth.cz-pulling.md)
+- [CZ Crystal Pulling](../silicon/cz-pulling.md)
 - [Advanced Lithography](../vlsi-scaling/advanced-lithography.md)

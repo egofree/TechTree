@@ -6,7 +6,7 @@ Fuel hoses (High-ACN, fuel lines and filler neck hoses in vehicles — NBR resis
 
 ## Context in the Tech Tree
 
-The "applications" section appears in nearly every domain article, documenting the practical uses of a material, process, or device. In [Synthetic Rubber](../polymers/rubber.synthetic.md), it lists nitrile rubber uses from fuel hoses to cleanroom gloves. In [Explosives](../chemistry/explosives.md), it covers blasting, mining, and demolition. In [Steam Turbines](../energy/steam-power/steam-turbines.md), it lists power generation, marine propulsion, and industrial drive. The term bridges between technical specifications and real-world deployment.
+The "applications" section appears in nearly every domain article, documenting the practical uses of a material, process, or device. In [Synthetic Rubber](../polymers/synthetic.md), it lists nitrile rubber uses from fuel hoses to cleanroom gloves. In [Explosives](../chemistry/explosives.md), it covers blasting, mining, and demolition. In [Steam Turbines](../energy/steam-turbines.md), it lists power generation, marine propulsion, and industrial drive. The term bridges between technical specifications and real-world deployment.
 
 ## Technical Details
 
@@ -25,10 +25,10 @@ For bootstrapping, the applications catalog serves as a menu of capabilities unl
 
 ## Appears In
 
-- [Synthetic Rubber](../polymers/rubber.synthetic.md)
-- [Natural Rubber](../polymers/rubber/natural.md)
+- [Synthetic Rubber](../polymers/synthetic.md)
+- [Natural Rubber](../polymers/natural.md)
 - [Explosives](../chemistry/explosives.md)
 - [Engine](../energy/engine.md)
 - [Iron & Steel](../metals/iron-steel.md)
 - [Acids](../chemistry/acids.md)
-- [Steam Turbines](../energy/steam-power/steam-turbines.md)
+- [Steam Turbines](../energy/steam-turbines.md)

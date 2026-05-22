@@ -26,5 +26,5 @@ General mitigation principles apply across all systems: interlock doors to cut p
 ## Appears In
 
 - [Advanced Ceramics](../ceramics/advanced-ceramics.md)
-- [Electrode Manufacturing](../energy/electric-furnaces.electrode-manufacturing.md)
-- [Optical Coatings](../optics/inspection.optical-coatings.md)
+- [Electrode Manufacturing](../energy/electrode-manufacturing.md)
+- [Optical Coatings](../optics/optical-coatings.md)

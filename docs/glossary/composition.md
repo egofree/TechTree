@@ -6,7 +6,7 @@ Menthol content 30-50% of the oil, with menthone (14-32%), menthyl acetate (2-8%
 
 ## Context in the Tech Tree
 
-Composition — the chemical makeup of a material or mixture — determines its properties and suitability for applications. In [Alloys](../metals/alloys.md), composition (percentages of chromium, nickel, carbon, etc.) defines stainless steel grades. In [Glass](../glass/advanced.md), composition (silica, soda, lime ratios) determines thermal expansion and chemical resistance. In [Iron & Steel](../metals/iron-steel.md), composition controls the iron-carbon phase diagram. In [Medicinal Plants](../plants/medicinal-plants.md), composition determines therapeutic potency. In [Blast Furnace](../metals/iron-steel/blast-furnace.md) operation, slag and metal composition must be monitored continuously.
+Composition — the chemical makeup of a material or mixture — determines its properties and suitability for applications. In [Alloys](../metals/alloys.md), composition (percentages of chromium, nickel, carbon, etc.) defines stainless steel grades. In [Glass](../glass/advanced.md), composition (silica, soda, lime ratios) determines thermal expansion and chemical resistance. In [Iron & Steel](../metals/iron-steel.md), composition controls the iron-carbon phase diagram. In [Medicinal Plants](../plants/medicinal-plants.md), composition determines therapeutic potency. In [Blast Furnace](../metals/blast-furnace.md) operation, slag and metal composition must be monitored continuously.
 
 ## Technical Details
 
@@ -29,7 +29,7 @@ Analytical methods for composition determination progress from simple tests (col
 
 - [Specialty Alloys](../metals/alloys.md)
 - [Iron & Steel](../metals/iron-steel.md)
-- [Blast Furnace](../metals/iron-steel/blast-furnace.md)
+- [Blast Furnace](../metals/blast-furnace.md)
 - [Advanced Glass](../glass/advanced.md)
 - [Medicinal Plants](../plants/medicinal-plants.md)
 - [Explosives](../chemistry/explosives.md)

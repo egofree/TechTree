@@ -25,5 +25,5 @@ For bootstrapping industry, anthracite's value lies in its cleanliness and heat 
 ## Appears In
 
 - [Fuel Production](../energy/fuels.md)
-- [Coal](../energy/fuels/coal.md)
+- [Coal](../energy/coal.md)
 - [Fire-Making](../foundations/fire.md)

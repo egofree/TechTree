@@ -6,7 +6,7 @@ A single tree yields 1-3 kg of raw sticklac per harvest. India historically prod
 
 ## Context in the Tech Tree
 
-Yield — the quantity of useful product obtained from a process relative to input or area — is a fundamental metric that determines economic viability and resource requirements across every domain of the tech tree. In [Shellac](../polymers/rubber/shellac.md) production, yield per tree and per hectare determines the land area needed for lac cultivation. In [MG-Si Production](../silicon/mg-si-production.md), silicon yield of 75-85% of theoretical determines raw material consumption. In [Metals](../metals/steelmaking.md), yield losses from oxidation and slag affect process economics. In [Packaging & Testing](../chemistry/packaging-testing.md), semiconductor yield (the fraction of die that pass all tests) is the primary economic driver of fab profitability.
+Yield — the quantity of useful product obtained from a process relative to input or area — is a fundamental metric that determines economic viability and resource requirements across every domain of the tech tree. In [Shellac](../polymers/shellac.md) production, yield per tree and per hectare determines the land area needed for lac cultivation. In [MG-Si Production](../silicon/mg-si-production.md), silicon yield of 75-85% of theoretical determines raw material consumption. In [Metals](../metals/steelmaking.md), yield losses from oxidation and slag affect process economics. In [Packaging & Testing](../chemistry/packaging-testing.md), semiconductor yield (the fraction of die that pass all tests) is the primary economic driver of fab profitability.
 
 ## Technical Details
 
@@ -37,13 +37,13 @@ In metallurgical processes, yield losses come from oxidation (metal lost to dros
 - [Soap](../chemistry/soap.md)
 - [Solvents](../chemistry/solvents.md)
 - [Fuels](../energy/fuels.md)
-- [Charcoal](../energy/fuels/charcoal.md)
-- [Coke](../energy/fuels/coke.md)
+- [Charcoal](../energy/charcoal.md)
+- [Coke](../energy/coke.md)
 - [Copper & Bronze](../metals/copper-bronze.md)
 - [Non-Ferrous Metals](../metals/non-ferrous.md)
 - [Steelmaking](../metals/steelmaking.md)
-- [Black Powder](../mining/extraction/black-powder.md)
+- [Black Powder](../mining/black-powder.md)
 - [Dye Plants](../plants/dye-plants.md)
-- [Natural Rubber](../polymers/rubber/natural.md)
-- [Shellac](../polymers/rubber/shellac.md)
+- [Natural Rubber](../polymers/natural.md)
+- [Shellac](../polymers/shellac.md)
 - [Fibers](../textiles/fibers.md)

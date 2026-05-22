@@ -6,7 +6,7 @@ CaCO₃ → CaO + CO₂ at 900-1000°C. ΔH = +178 kJ/mol (strongly endothermic)
 
 ## Context in the Tech Tree
 
-Calcination — heating a material to high temperature to drive off volatile components or induce thermal decomposition — is a fundamental process in chemical and metallurgical production. In [Alkali Production](../chemistry/alkalis.md), it decomposes sodium bicarbonate to soda ash. In [Lime Production](../ceramics/lime.md), it converts limestone to quicklime. In [Aluminum Production](../metals/aluminum.md), it calcines bauxite and alumina. In [Electrode Manufacturing](../energy/electric-furnaces/electrode-manufacturing.md), it carbonizes petroleum coke. Calcination appears wherever a raw material must be thermally upgraded before further processing.
+Calcination — heating a material to high temperature to drive off volatile components or induce thermal decomposition — is a fundamental process in chemical and metallurgical production. In [Alkali Production](../chemistry/alkalis.md), it decomposes sodium bicarbonate to soda ash. In [Lime Production](../ceramics/lime.md), it converts limestone to quicklime. In [Aluminum Production](../metals/aluminum.md), it calcines bauxite and alumina. In [Electrode Manufacturing](../energy/electrode-manufacturing.md), it carbonizes petroleum coke. Calcination appears wherever a raw material must be thermally upgraded before further processing.
 
 ## Technical Details
 
@@ -27,5 +27,5 @@ Beyond limestone, calcination processes include converting aluminum hydroxide to
 - [Alkali Production](../chemistry/alkalis.md)
 - [Advanced Ceramics](../ceramics/advanced-ceramics.md)
 - [Aluminum Production](../metals/aluminum.md)
-- [Electrode Manufacturing](../energy/electric-furnaces/electrode-manufacturing.md)
+- [Electrode Manufacturing](../energy/electrode-manufacturing.md)
 - [Non-Ferrous Metals](../metals/non-ferrous.md)

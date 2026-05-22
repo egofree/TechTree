@@ -27,4 +27,4 @@ Electric furnaces are both consumers and indirect enablers of electricity genera
 
 - [Electric Furnaces](../energy/electric-furnaces.md)
 - [Steam Power](../energy/steam-power.md)
-- [Blast Furnace](../metals/iron-steel.blast-furnace.md)
+- [Blast Furnace](../metals/blast-furnace.md)

@@ -27,4 +27,4 @@ Glassworking techniques illustrate the progression: basic blowing and shaping at
 - [Medicine](../health/medicine.md)
 - [Machining](../machine-tools/machining.md)
 - [Structural Plants](../plants/structural-plants.md)
-- [Gutta-Percha](../polymers/rubber/gutta-percha.md)
+- [Gutta-Percha](../polymers/gutta-percha.md)

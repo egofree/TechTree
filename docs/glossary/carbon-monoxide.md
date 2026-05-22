@@ -6,7 +6,7 @@ Producer gas is ~25% CO — odorless, colorless, lethal. CO binds to hemoglobin 
 
 ## Context in the Tech Tree
 
-Carbon monoxide (CO) plays a dual role: it is an essential reducing agent in metallurgy and a deadly poison to human life. In [Iron & Steel](../metals/iron-steel.md) and [Blast Furnace](../metals/iron-steel/blast-furnace.md) production, CO reduces iron oxide to metallic iron. In [Wood Gasification](../chemistry/wood-gasification.md), CO is a primary combustible component of producer gas. In [Charcoal Production](../energy/fuels/charcoal.md), [Forming](../machine-tools/forming.md), and [Pottery](../ceramics/pottery.md), CO is an unavoidable byproduct of combustion in enclosed spaces. Managing CO exposure is a life-safety requirement at every stage where fuel is burned.
+Carbon monoxide (CO) plays a dual role: it is an essential reducing agent in metallurgy and a deadly poison to human life. In [Iron & Steel](../metals/iron-steel.md) and [Blast Furnace](../metals/blast-furnace.md) production, CO reduces iron oxide to metallic iron. In [Wood Gasification](../chemistry/wood-gasification.md), CO is a primary combustible component of producer gas. In [Charcoal Production](../energy/charcoal.md), [Forming](../machine-tools/forming.md), and [Pottery](../ceramics/pottery.md), CO is an unavoidable byproduct of combustion in enclosed spaces. Managing CO exposure is a life-safety requirement at every stage where fuel is burned.
 
 ## Technical Details
 
@@ -25,9 +25,9 @@ Prevention requires active ventilation (at minimum a high vent and a low vent fo
 ## Appears In
 
 - [Iron & Steel](../metals/iron-steel.md)
-- [Blast Furnace](../metals/iron-steel/blast-furnace.md)
+- [Blast Furnace](../metals/blast-furnace.md)
 - [Wood Gasification](../chemistry/wood-gasification.md)
-- [Charcoal Production](../energy/fuels/charcoal.md)
+- [Charcoal Production](../energy/charcoal.md)
 - [Steam Power](../energy/steam-power.md)
 - [Forming](../machine-tools/forming.md)
 - [Pottery](../ceramics/pottery.md)

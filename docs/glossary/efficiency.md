@@ -30,6 +30,6 @@ In animal draft power, the collar harness converts the same animal's pulling cap
 - [Lime](../ceramics/lime.md)
 - [Electronic Computing](../computing/electronic.md)
 - [Gravity Power](../energy/gravity.md)
-- [Water Turbines](../energy/gravity.water-turbines.md)
+- [Water Turbines](../energy/water-turbines.md)
 - [Metal Finishing](../metals/finishing.md)
 - [Basic Semiconductor Devices](../silicon/basic-devices.md)

@@ -90,7 +90,7 @@ How coal is burned matters as much as what type of coal is used. The combustion 
 - **Ash (5-20%)**: Non-combustible mineral residue. Disposal requires ash ponds or landfill. Fly ash (fine particles carried in flue gas) must be captured with electrostatic precipitators or bag filters to prevent air pollution. Bottom ash can be used as aggregate in concrete and road base.
 - **Acid mine drainage**: Pyrite (FeS₂) in coal seams oxidizes when exposed to air and water during mining, producing sulfuric acid and dissolved iron. Drainage from mines and spoil piles can contaminate streams, killing aquatic life. Treatment: neutralize with limestone, contain runoff in settlement ponds.
 - **Firedamp (methane)**: Methane (CH₄) trapped in coal seams is released during mining. Concentrations of 5-15% in air are explosive. Control by ventilation — large fans drive fresh air through mine workings. The **[Davy safety lamp](../glossary/davy-safety-lamp.md)** (invented 1815) encloses the flame in fine wire gauze screen — the gauze cools flame below ignition temperature, preventing firedamp ignition. The lamp flame changes color/height in the presence of methane, serving as a gas detector. Modern mines use electronic gas detectors.
-- **Spontaneous combustion**: See [Storage & Safety](#storage--safety) below.
+- **Spontaneous combustion**: See [Storage & Safety](#storage-safety) below.
 
 ### Coal Combustion Calculations
 

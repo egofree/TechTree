@@ -6,7 +6,7 @@ The origin or supply of raw materials, chemicals, and feedstocks used in industr
 
 ## Context in the Tech Tree
 
-Source identification spans the entire tech tree: [Kilns](../ceramics/kilns.md) need clay and fuel sources, [Lime](../ceramics/lime.md) needs limestone, [Alkalis](../chemistry/alkalis.md) need salt and limestone, [Solvents](../chemistry/solvents.md) need petroleum or coal tar, [Fuels](../energy/fuels.md) need coal or petroleum deposits, [Optical Coatings](../optics/inspection/optical-coatings.md) need specific metal compounds, [Natural Rubber](../polymers/rubber/natural.md) needs rubber trees, [Crystal Growth](../silicon/crystal-growth.md) needs high-purity polysilicon, [Mg-Si Production](../silicon/mg-si-production.md) needs quartz and carbon, [Fibers](../textiles/fibers.md) need plant or animal sources, and [Advanced Lithography](../vlsi-scaling/advanced-lithography.md) needs photoresist chemicals.
+Source identification spans the entire tech tree: [Kilns](../ceramics/kilns.md) need clay and fuel sources, [Lime](../ceramics/lime.md) needs limestone, [Alkalis](../chemistry/alkalis.md) need salt and limestone, [Solvents](../chemistry/solvents.md) need petroleum or coal tar, [Fuels](../energy/fuels.md) need coal or petroleum deposits, [Optical Coatings](../optics/optical-coatings.md) need specific metal compounds, [Natural Rubber](../polymers/natural.md) needs rubber trees, [Crystal Growth](../silicon/crystal-growth.md) needs high-purity polysilicon, [Mg-Si Production](../silicon/mg-si-production.md) needs quartz and carbon, [Fibers](../textiles/fibers.md) need plant or animal sources, and [Advanced Lithography](../vlsi-scaling/advanced-lithography.md) needs photoresist chemicals.
 
 ## Technical Details
 
@@ -34,8 +34,8 @@ Fuel sources progress from wood (universally available, low energy density) to c
 - [Alkalis](../chemistry/alkalis.md)
 - [Solvents](../chemistry/solvents.md)
 - [Fuels](../energy/fuels.md)
-- [Optical Coatings](../optics/inspection/optical-coatings.md)
-- [Natural Rubber](../polymers/rubber/natural.md)
+- [Optical Coatings](../optics/optical-coatings.md)
+- [Natural Rubber](../polymers/natural.md)
 - [Crystal Growth](../silicon/crystal-growth.md)
 - [Mg-Si Production](../silicon/mg-si-production.md)
 - [Purification](../silicon/purification.md)

@@ -32,4 +32,4 @@ Controlling carbon content during steelmaking is the core technical challenge. T
 
 - [Iron & Steel](../metals/iron-steel.md)
 - [Crystal Growth](../silicon/crystal-growth.md)
-- [CZ Pulling](../silicon/crystal-growth/cz-pulling.md)
+- [CZ Pulling](../silicon/cz-pulling.md)

@@ -23,6 +23,6 @@ In silicon production, MG-Si ingots are crushed in two stages: primary crushing 
 
 ## Appears In
 
-- [Coal](../energy/fuels.coal.md)
+- [Coal](../energy/coal.md)
 - [Ore Processing](../mining/processing.md)
 - [MG-Si Production](../silicon/mg-si-production.md)

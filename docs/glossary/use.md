@@ -31,5 +31,5 @@ Proper use also extends to safety: using tools and materials within their rated 
 - [Fuels](../energy/fuels.md)
 - [Bearings & Abrasives](../machine-tools/bearings-abrasives.md)
 - [Precision Metrology](../measurement/precision-metrology.md)
-- [Black Powder](../mining/extraction/black-powder.md)
+- [Black Powder](../mining/black-powder.md)
 - [Fibers](../textiles/fibers.md)

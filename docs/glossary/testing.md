@@ -6,7 +6,7 @@ Measure the focal length by auto-collimation or by projecting a distant point so
 
 ## Context in the Tech Tree
 
-Testing encompasses the broader practice of verification and quality assurance across all manufacturing domains. In [Advanced Glass](../glass/advanced.md) and [Optical Inspection](../optics/inspection.md), testing validates that lenses, mirrors, and optical surfaces meet the precision required for their application. In [Iron & Steel](../metals/iron-steel.md), mechanical testing (tensile, hardness, impact) verifies material properties. In [Black Powder](../mining/extraction/black-powder.md) manufacture, testing ensures consistent explosive performance. In [Basic Devices](../silicon/basic-devices.md), electrical testing confirms semiconductor functionality.
+Testing encompasses the broader practice of verification and quality assurance across all manufacturing domains. In [Advanced Glass](../glass/advanced.md) and [Optical Inspection](../optics/inspection.md), testing validates that lenses, mirrors, and optical surfaces meet the precision required for their application. In [Iron & Steel](../metals/iron-steel.md), mechanical testing (tensile, hardness, impact) verifies material properties. In [Black Powder](../mining/black-powder.md) manufacture, testing ensures consistent explosive performance. In [Basic Devices](../silicon/basic-devices.md), electrical testing confirms semiconductor functionality.
 
 ## Technical Details
 
@@ -28,6 +28,6 @@ For semiconductor devices, testing progresses from wafer-level parametric tests 
 
 - [Advanced Glass](../glass/advanced.md)
 - [Iron & Steel](../metals/iron-steel.md)
-- [Black Powder](../mining/extraction/black-powder.md)
+- [Black Powder](../mining/black-powder.md)
 - [Optical Inspection](../optics/inspection.md)
 - [Basic Devices](../silicon/basic-devices.md)

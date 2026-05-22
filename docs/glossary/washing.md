@@ -6,7 +6,7 @@ Pass crushed coal through water trough. Coal (SG ~1.3) floats; rock (SG ~2.5) si
 
 ## Context in the Tech Tree
 
-Washing — the use of water or other fluids to remove impurities from solid materials — is a purification step in multiple industrial processes. In [Coal](../energy/coal.md) preparation, washing separates coal from mineral matter (rock, shale, clay) based on density differences. In [Gutta-Percha](../polymers/rubber/gutta-percha.md) processing, repeated washing in warm water removes plant matter, pigments, and water-soluble impurities. In [MG-Si Production](../silicon/mg-si-production.md), washing quartz raw material removes clay and surface contamination, especially iron from crushing equipment.
+Washing — the use of water or other fluids to remove impurities from solid materials — is a purification step in multiple industrial processes. In [Coal](../energy/coal.md) preparation, washing separates coal from mineral matter (rock, shale, clay) based on density differences. In [Gutta-Percha](../polymers/gutta-percha.md) processing, repeated washing in warm water removes plant matter, pigments, and water-soluble impurities. In [MG-Si Production](../silicon/mg-si-production.md), washing quartz raw material removes clay and surface contamination, especially iron from crushing equipment.
 
 ## Technical Details
 
@@ -26,5 +26,5 @@ Wash water is typically recycled through settling ponds where suspended solids s
 ## Appears In
 
 - [Coal](../energy/coal.md)
-- [Gutta-Percha](../polymers/rubber/gutta-percha.md)
+- [Gutta-Percha](../polymers/gutta-percha.md)
 - [MG-Si Production](../silicon/mg-si-production.md)

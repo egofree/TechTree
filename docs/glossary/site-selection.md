@@ -6,7 +6,7 @@ The process of evaluating and choosing optimal locations for industrial faciliti
 
 ## Context in the Tech Tree
 
-Site selection is critical for [Charcoal Production](../energy/fuels/charcoal.md), [Pumped Hydro Storage](../energy/storage/pumped-hydro.md), [Sanitation](../health/sanitation.md) systems, and [Edible Plants](../plants/edible-plants.md) cultivation. Each application has specific requirements: charcoal kilns need proximity to forest and transport; pumped hydro needs elevation difference and water; sanitation needs geology that prevents groundwater contamination.
+Site selection is critical for [Charcoal Production](../energy/charcoal.md), [Pumped Hydro Storage](../energy/pumped-hydro.md), [Sanitation](../health/sanitation.md) systems, and [Edible Plants](../plants/edible-plants.md) cultivation. Each application has specific requirements: charcoal kilns need proximity to forest and transport; pumped hydro needs elevation difference and water; sanitation needs geology that prevents groundwater contamination.
 
 ## Technical Details
 
@@ -28,7 +28,7 @@ Agricultural site selection: soil depth >60 cm for grain crops, pH 6.0-7.5 for m
 
 ## Appears In
 
-- [Charcoal](../energy/fuels/charcoal.md)
-- [Pumped Hydro](../energy/storage/pumped-hydro.md)
+- [Charcoal](../energy/charcoal.md)
+- [Pumped Hydro](../energy/pumped-hydro.md)
 - [Sanitation](../health/sanitation.md)
 - [Edible Plants](../plants/edible-plants.md)

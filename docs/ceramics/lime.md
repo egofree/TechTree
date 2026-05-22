@@ -253,9 +253,9 @@ Quicklime is used in the beamhouse stage of leather tanning to dehair hides. A l
 - **[Kiln Construction](kilns.md)** (firing infrastructure): [kilns.md](kilns.md)
 - **[Advanced Ceramics](advanced-ceramics.md)** (refractory linings): [advanced-ceramics.md](advanced-ceramics.md)
 - **[Iron & Steel](../glossary/iron-steel.html)** (flux and refractory): [iron-steel.md](../metals/iron-steel.md)
-- **[Glass](../glass/index.md)** (limestone as raw material): [glass.md](../glass/)
-- **[Chemistry](../chemistry/index.md)** (alkali production): [alkalis.md](../chemistry/)
+- **[Glass](../glass/index.md)** (limestone as raw material): [glass.md](../glass/index.md)
+- **[Chemistry](../chemistry/index.md)** (alkali production): [alkalis.md](../chemistry/index.md)
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Ceramics & Refractories](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*

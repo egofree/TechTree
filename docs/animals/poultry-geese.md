@@ -1,7 +1,7 @@
 # Geese (*Anser anser domesticus*, *Anser cygnoides domesticus*)
 
 > **Node ID**: animals.poultry.geese
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md)
 > **Enables**: `food.preservation`, `farming.composting`, `farming.weed-control`
 > **Timeline**: Years 0-5
@@ -160,9 +160,9 @@ Goose manure is nutrient-rich: approximately 1.0-1.3% N, 0.8-1.0% P₂O₅, 0.4-
 - **[Ducks](poultry-ducks.md)** — shared waterfowl management, similar housing and water needs
 - **[Chickens](poultry-chickens.md)** — complementary poultry species, shared infrastructure
 - **[Domestication](domestication.md)** — domestication history of geese
-- **[Farming](../farming/)** — weed control in crops, pasture management, manure fertilizer
+- **[Farming](../agriculture/index.md)** — weed control in crops, pasture management, manure fertilizer
 - **[Knowledge — Writing](../knowledge/writing.md)** — goose quill pens as writing instruments
-- **[Food Preservation](../food/preservation.md)** — goose fat preservation, egg storage, cured meat
+- **[Food Preservation](../food-processing/index.md)** — goose fat preservation, egg storage, cured meat
 
 ### Safety
 

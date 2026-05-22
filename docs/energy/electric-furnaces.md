@@ -1,7 +1,7 @@
 # Electric Furnaces
 
 > **Node ID**: energy.electric-furnaces
-> **Domain**: [Energy](./)
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.electricity`](electricity.md), [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools`](../machine-tools/index.md)
 > **Enables**: [`silicon.mg-si-production`](../silicon/mg-si-production.md), [`metals.iron-steel`](../metals/iron-steel.md) (recycled), [`glass.advanced`](../glass/advanced.md)
 > **Timeline**: Years 20-30
@@ -200,4 +200,4 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

@@ -203,4 +203,4 @@ Transesterification produces biodiesel with properties much closer to petroleum 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

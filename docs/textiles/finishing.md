@@ -1,7 +1,7 @@
 # Fabric Finishing
 
 > **Node ID**: textiles.finishing
-> **Domain**: [Textiles](./)
+> **Domain**: [Textiles](./index.md)
 > **Dependencies**: [`textiles.weaving`](weaving.md), `chemicals.acids-bases`
 > **Timeline**: Years 8-14
 > **Outputs**: finished_cloth, waterproof_fabric, fireproofed_textiles
@@ -198,12 +198,12 @@ Decating is a finishing process for wool fabrics that sets the surface and impro
 ### Cross-References
 
 - **Woven cloth input**: [weaving](weaving.md)
-- **Caustic soda for mercerization**: [acids and bases](../chemicals/acids-bases.md)
+- **Caustic soda for mercerization**: [acids and bases](../chemistry/alkalis.md)
 - **Rubber processing**: [rubber](../polymers/rubber.md)
 - **Dyeing finished cloth**: [dyeing](dyeing.md)
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) · [Textiles](./) · [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Textiles](./index.md) · [All Domains](../index.md)*
 
 [← Back to Textiles](index.md)

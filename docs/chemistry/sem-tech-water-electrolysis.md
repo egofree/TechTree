@@ -127,7 +127,7 @@ Green hydrogen produced by water electrolysis serves multiple downstream process
 
 **e-Methanol synthesis**: Hydrogen combined with captured CO₂ over a catalyst produces methanol (CH₃OH). This power-to-liquids pathway stores renewable energy as a liquid fuel. See [SEM Tech e-Methanol](sem-tech-e-methanol.md).
 
-**Fuel cells**: Hydrogen fuels PEM fuel cells for electricity generation. The same SEM Tech membrane platform could potentially serve in both electrolysis (producing H₂) and fuel cells (consuming H₂). See [SEM Tech Fuel Cells](sem-tech-fuel-cells.md).
+**Fuel cells**: Hydrogen fuels PEM fuel cells for electricity generation. The same SEM Tech membrane platform could potentially serve in both electrolysis (producing H₂) and fuel cells (consuming H₂). See [SEM Tech Fuel Cells](../energy/sem-tech-fuel-cells.md).
 
 **Metal reduction**: Hydrogen can replace carbon (coke) as the reducing agent in steelmaking and other metallurgical processes, eliminating CO₂ emissions: Fe₂O₃ + 3H₂ → 2Fe + 3H₂O.
 
@@ -169,9 +169,9 @@ Even if technically successful, SEM Tech PEM electrolysis would face challenges:
 - [SEM Tech](sem-tech.md) -- the membrane technology that enables this application
 - [Electrolysis](electrolysis.md) -- parent article covering all industrial electrolysis processes
 - [Alkali Production](alkalis.md) -- NaOH production via electrolysis (chlor-alkali context)
-- [SEM Tech Fuel Cells](sem-tech-fuel-cells.md) -- consuming hydrogen in fuel cells (forthcoming)
+- [SEM Tech Fuel Cells](../energy/sem-tech-fuel-cells.md) -- consuming hydrogen in fuel cells (forthcoming)
 - [SEM Tech e-Methanol](sem-tech-e-methanol.md) -- converting hydrogen to liquid fuel (forthcoming)
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) | [Chemistry](./) | [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) | [Chemistry](./index.md) | [All Domains](../index.md)*

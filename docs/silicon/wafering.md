@@ -1,7 +1,7 @@
 # Wafering
 
 > **Node ID**: silicon.wafering
-> **Domain**: [Silicon](./)
+> **Domain**: [Silicon](./index.md)
 > **Dependencies**: [`silicon.crystal-growth`](crystal-growth.md), [`machine-tools`](../machine-tools/index.md), `chemicals.acids-bases`
 > **Timeline**: Years 45-60
 > **Outputs**: silicon_wafers, polished_substrates
@@ -191,13 +191,13 @@ Wafer processing after the final clean step must occur in a controlled environme
 ### Cross-References
 
 - **Silicon crystal growth (ingot source)**: [crystal growth](crystal-growth.md)
-- **Diamond abrasive tools**: [machine tools](../machine-tools/)
-- **Acids and bases for etching and cleaning**: [acids and bases](../chemicals/acids-bases.md)
-- **Ultra-pure water production**: [water treatment](../chemicals/water-treatment.md)
-- **Polishing pad and slurry chemistry**: [polymers](../polymers/)
+- **Diamond abrasive tools**: [machine tools](../machine-tools/index.md)
+- **Acids and bases for etching and cleaning**: [acids and bases](../chemistry/alkalis.md)
+- **Ultra-pure water production**: [water treatment](../water/sem-tech-water-treatment.md)
+- **Polishing pad and slurry chemistry**: [polymers](../polymers/index.md)
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) · [Silicon](./) · [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Silicon](./index.md) · [All Domains](../index.md)*
 
 [← Back to Silicon](index.md)

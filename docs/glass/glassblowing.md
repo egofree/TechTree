@@ -197,4 +197,4 @@ Lampworking carries specific hazards distinct from furnace glassblowing:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Glass](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*

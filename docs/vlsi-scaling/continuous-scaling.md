@@ -1,7 +1,7 @@
 # Continuous Scaling
 
 > **Node ID**: vlsi-scaling.continuous-scaling
-> **Domain**: [VLSI Scaling & Advanced Semiconductor](./)
+> **Domain**: [VLSI Scaling & Advanced Semiconductor](./index.md)
 > **Dependencies**: [`photolithography.fab-processes`](../photolithography/fab-processes.md)
 > **Timeline**: Years 70-200+
 > **Outputs**: larger_wafers, finer_features, higher_yield
@@ -94,4 +94,4 @@ Continuous scaling does not introduce fundamentally new hazard categories beyond
 - [Core Fab Processes](../photolithography/fab-processes.md) — HF acid, furnace temperatures, forming gas.
 
 ---
-*Part of the [Bootciv Tech Tree](../) • [VLSI Scaling](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*

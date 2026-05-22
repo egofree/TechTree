@@ -2,8 +2,8 @@
 
 > **Node ID**: ceramics.advanced-ceramics
 > **Domain**: Ceramics & Refractories
-> **Dependencies**: [Pottery & Clay Products](pottery.md), [Kiln Construction](kilns.md), [Mining](../mining/)
-> **Enables**: [Silicon](../silicon/), [Energy](../energy/)
+> **Dependencies**: [Pottery & Clay Products](pottery.md), [Kiln Construction](kilns.md), [Mining](../mining/index.md)
+> **Enables**: [Silicon](../silicon/index.md), [Energy](../energy/index.md)
 > **Timeline**: Years 15-50
 > **Outputs**: alumina ceramics, zirconia ceramics, silicon carbide, silicon nitride, refractory linings, ceramic insulation, technical ceramics
 
@@ -32,7 +32,7 @@ Alumina is the most widely used technical ceramic — hard, electrically insulat
 4. **[Precipitate](../glossary/precipitate.html)** aluminum trihydrate by seeding with fine Al(OH)₃ crystals and cooling. Pure Al(OH)₃ crystals form.
 5. **[Calcine](../glossary/calcine.html)** at 1100-1200°C to drive off water: 2 Al(OH)₃ → Al₂O₃ + 3 H₂O. Produces α-alumina (corundum) powder, 99.0-99.99% pure.
 
-The Bayer process requires caustic soda (from [alkali production](../chemistry/)) and significant heat energy. Red mud disposal is an environmental challenge (highly alkaline waste).
+The Bayer process requires caustic soda (from [alkali production](../chemistry/index.md)) and significant heat energy. Red mud disposal is an environmental challenge (highly alkaline waste).
 
 ### Alumina Ceramic Production
 
@@ -179,7 +179,7 @@ Silicon nitride offers the best combination of high-temperature strength, therma
 ### Production Methods
 
 **Reaction bonding (RBSN)**:
-1. Start with silicon metal powder (relatively easy to produce — see [silicon production](../silicon/))
+1. Start with silicon metal powder (relatively easy to produce — see [silicon production](../silicon/index.md))
 2. Form to shape by pressing or slip casting
 3. Fire at 1200-1400°C in nitrogen atmosphere (N₂ gas, 0.1-2 MPa)
 4. Nitridation: 3 Si + 2 N₂ → Si₃N₄. Volume increase ~22% but mostly fills internal porosity.
@@ -210,7 +210,7 @@ Silicon nitride offers the best combination of high-temperature strength, therma
 
 **Applications**:
 - **Turbine components**: Si₃N₄ turbine blades and vanes for gas turbines. Withstands high centrifugal stress at 1200°C+. Lighter than nickel superalloys. Primary application driving development.
-- **Bearings**: Hybrid ceramic bearings (Si₃N₄ balls, steel races) for high-speed machine tool spindles. Lower density → lower centrifugal stress → higher RPM. Harder than steel → less wear. Used in precision [machine tools](../machine-tools/).
+- **Bearings**: Hybrid ceramic bearings (Si₃N₄ balls, steel races) for high-speed machine tool spindles. Lower density → lower centrifugal stress → higher RPM. Harder than steel → less wear. Used in precision [machine tools](../machine-tools/index.md).
 - **Cutting tools**: Si₃N₄ inserts for high-speed roughing of cast iron. Tougher than alumina inserts. Can take heavier cuts at higher speeds.
 - **Weld pins and rollers**: Contact parts in resistance welding. Non-stick to molten metal, resists spatter, electrically insulating.
 - **Diesel engine components**: Glow plugs, prechamber inserts, turbocharger rotors. Allows elimination of cooling system in some designs.
@@ -318,7 +318,7 @@ Advanced ceramics are indispensable in semiconductor fabrication:
 
 ### Seals and Vacuum Components
 
-- **Mechanical seals**: SiC or alumina seal faces for pumps handling HF, HNO₃, and solvents in [semiconductor fab](../photolithography/).
+- **Mechanical seals**: SiC or alumina seal faces for pumps handling HF, HNO₃, and solvents in [semiconductor fab](../photolithography/index.md).
 - **Vacuum feedthroughs**: Alumina insulators carrying electrical conductors through vacuum chamber walls while maintaining vacuum seal.
 
 ## Safety
@@ -371,4 +371,4 @@ Many ceramic raw materials produce fine dust during crushing, grinding, and powd
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Ceramics & Refractories](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*

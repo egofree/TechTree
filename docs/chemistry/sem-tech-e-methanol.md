@@ -50,7 +50,7 @@ In conventional electrolysis systems, ion exchange membranes (Nafion and similar
 
 **Speculative note**: No SEM-Tech-specific methanol synthesis data exists. The claim is economic — cheaper H₂ production makes the overall e-methanol process more viable. The synthesis reactor, catalyst, and process design remain entirely conventional. SEM Tech's role is confined to the upstream electrolysis stage.
 
-For alternative uses of SEM Tech-produced hydrogen, see [SEM Tech Fuel Cells](sem-tech-fuel-cells.md).
+For alternative uses of SEM Tech-produced hydrogen, see [SEM Tech Fuel Cells](../energy/sem-tech-fuel-cells.md).
 
 ## Process Conditions
 
@@ -124,4 +124,4 @@ The key limitation is energy input: producing 1 tonne of e-methanol requires app
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) | [Chemistry](./) | [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) | [Chemistry](./index.md) | [All Domains](../index.md)*

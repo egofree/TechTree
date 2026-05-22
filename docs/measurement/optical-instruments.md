@@ -1,7 +1,7 @@
 # Optical Measurement Instruments
 
 > **Node ID**: measurement.optical-instruments
-> **Domain**: [Measurement](./)
+> **Domain**: [Measurement](./index.md)
 > **Dependencies**: [`optics.inspection`](../optics/inspection.md), [`measurement.temperature-pressure`](temperature-pressure.md)
 > **Timeline**: Years 30-45
 > **Outputs**: spectroscopy, refractometry, polarimetry, photometry, interferometry
@@ -202,6 +202,6 @@ A filar micrometer eyepiece contains a movable crosshair driven by a precision m
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Measurement](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*
 
 [← Back to Measurement](index.md)

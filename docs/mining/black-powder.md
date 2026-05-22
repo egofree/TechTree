@@ -198,4 +198,4 @@ Proper storage facilities prevent accidental explosions and protect the powder s
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Mining](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*

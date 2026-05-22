@@ -1,7 +1,7 @@
 # Cattle (*Bos taurus*)
 
 > **Node ID**: animals.cattle
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
 > **Enables**: [`animals.draft-power`](draft-power.md), [`animals.animal-materials`](animal-materials.md), `food.dairy`, `food.preservation`, [`agriculture.soil-management`](../agriculture/soil-management.md)
 > **Timeline**: Years 1-30+
@@ -133,8 +133,8 @@ AI allows the use of superior genetics without maintaining a bull (which is dang
 - **[Domestication](domestication.md)** — general livestock principles: housing, nutrition, breeding, herd health
 - **[Draft Power & Harnessing](draft-power.md)** — ox training, yoke construction, hitching systems, load calculations
 - **[Animal-Derived Materials](animal-materials.md)** — tallow rendering, leather tanning, horn and bone working
-- **[Dairy Processing](../food/dairy.md)** — butter, cheese, and fermented milk products from raw milk
-- **[Agriculture](../agriculture/)** — pasture management, crop rotation, manure as fertilizer
+- **[Dairy Processing](../food-processing/index.md)** — butter, cheese, and fermented milk products from raw milk
+- **[Agriculture](../agriculture/index.md)** — pasture management, crop rotation, manure as fertilizer
 
 ### Safety
 

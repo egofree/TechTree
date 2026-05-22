@@ -1,7 +1,7 @@
 # Equines (Horses and Donkeys)
 
 > **Node ID**: animals.equines
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
 > **Enables**: [`animals.draft-power`](draft-power.md), [`transport.roads`](../transport/roads.md)
 > **Timeline**: Years 2-30+
@@ -210,8 +210,8 @@ Equine manure is a valuable resource. Each working horse produces 20-30 kg/day o
 
 - **[draft-power](./draft-power.md)** — hitch configurations, implements, and team management for equine draft power
 - **[domestication](./domestication.md)** — equine domestication history, species profiles, and comparative livestock data
-- **[agriculture](../agriculture/)** — plowing, cultivation, and harvesting with equine power
-- **[transport](../transport/)** — roads, vehicles, and logistics systems enabled by equine transport
+- **[agriculture](../agriculture/index.md)** — plowing, cultivation, and harvesting with equine power
+- **[transport](../transport/index.md)** — roads, vehicles, and logistics systems enabled by equine transport
 
 ### Safety
 

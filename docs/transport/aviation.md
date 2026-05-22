@@ -1,7 +1,7 @@
 # Aircraft Development
 
 > **Node ID**: transport.aviation
-> **Domain**: [Aircraft Development](./)
+> **Domain**: [Aircraft Development](./index.md)
 > **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`textiles`](../textiles/index.md)
 > **Timeline**: Years 10-50+
 > **Outputs**: aircraft, aircraft_engines, propellers, aviation_fuel
@@ -203,4 +203,4 @@ Without propulsion technology, civilization is limited to ground and water trans
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Transport](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*

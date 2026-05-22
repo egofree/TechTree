@@ -200,4 +200,4 @@ Silicon purification involves some of the most dangerous chemicals in semiconduc
 - **SiHCl₃ / SiCl₄ separation**: 25.8°C boiling point difference. Straightforward separation in a moderate-height column.
 
 ---
-*Part of the [Bootciv Tech Tree](../) • [Silicon](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*

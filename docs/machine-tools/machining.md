@@ -207,4 +207,4 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Machine Tools](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*

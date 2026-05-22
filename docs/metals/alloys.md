@@ -1,7 +1,7 @@
 # Specialty Alloys
 
 > **Node ID**: metals.alloys
-> **Domain**: [Metals](./)
+> **Domain**: [Metals](./index.md)
 > **Dependencies**: [`metals.steelmaking`](steelmaking.md), [`metals.non-ferrous`](non-ferrous.md), [`metals.iron-steel`](iron-steel.md)
 > **Timeline**: Years 20-50
 > **Outputs**: stainless steel, tool steel, superalloys, titanium alloys, specialty copper alloys
@@ -197,4 +197,4 @@ The development of new alloys follows a systematic approach rooted in thermodyna
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Metals](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

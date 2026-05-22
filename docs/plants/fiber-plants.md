@@ -1,7 +1,7 @@
 # Fiber Plants
 
 > **Node ID**: plants.fiber-plants
-> **Domain**: [Plants & Botanical Resources](./)
+> **Domain**: [Plants & Botanical Resources](./index.md)
 > **Timeline**: Years 0-10
 > **Outputs**: plant_fibers, raw_fiber
 
@@ -215,7 +215,7 @@ Different applications benefit from combining fibers with complementary properti
 
 ### Dependencies
 
-- Requires: [Plants & Botanical Resources](./) (tool) — botanical knowledge and species identification
+- Requires: [Plants & Botanical Resources](./index.md) (tool) — botanical knowledge and species identification
 - Feeds into: [Fiber Preparation](../textiles/fibers.md) (material — raw_fiber)
 - Feeds into: [Spinning](../textiles/spinning.md) (material — plant_fibers)
 - Related: [Edible Plants](./edible-plants.md) (dual-use species — flax seeds, agave, coconut)

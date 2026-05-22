@@ -218,4 +218,4 @@ A precise bisque schedule prevents loss and produces optimal absorbency for glaz
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Ceramics & Refractories](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*

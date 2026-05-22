@@ -148,4 +148,4 @@ Even with SEM Tech membranes at less than $1/sq ft, total system cost (intake st
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) | [Energy](./) | [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) | [Energy](./index.md) | [All Domains](../index.md)*

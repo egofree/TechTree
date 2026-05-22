@@ -1,7 +1,7 @@
 # Steam Power
 
 > **Node ID**: energy.steam-power
-> **Domain**: [Energy](./)
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`metals.iron-steel`](../metals/iron-steel.md)
 > **Timeline**: Years 15-25
 > **Outputs**: steam_engines, boilers, rotary_power
@@ -203,4 +203,4 @@ Steam engines produce rotary mechanical power. Transmitting that power to where 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

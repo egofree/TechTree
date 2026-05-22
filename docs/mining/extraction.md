@@ -204,4 +204,4 @@ Communication between surface and underground is essential for safety and operat
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Mining](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*

@@ -140,7 +140,7 @@ For a civilization rebuilding industrial chemistry from scratch, air separation 
 
  ---
 
-*Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 
 ## Cryogenic Distillation: Engineering Detail
 

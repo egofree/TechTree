@@ -1,7 +1,7 @@
 # Beekeeping (Apiculture)
 
 > **Node ID**: animals.beekeeping
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`foundations`](../foundations/index.md), [`foundations.fire`](../foundations/fire.md)
 > **Enables**: [`health.medicine`](../health/medicine.md), [`health.pharmacology`](../health/pharmacology.md), [`metals.copper-bronze`](../metals/copper-bronze.md), [`knowledge.writing`](../knowledge/writing.md), [`chemistry.lubricants`](../chemistry/lubricants.md)
 > **Timeline**: Years 0-10
@@ -166,7 +166,7 @@ Minimal intervention. Bees form a tight cluster around the queen, maintaining 20
 
 ### Cross-Domain Links
 
-- **[foundations.fire](../foundations/)** — smoker fuel and fire for wax melting
+- **[foundations.fire](../foundations/index.md)** — smoker fuel and fire for wax melting
 - **[metals.copper-bronze](../metals/copper-bronze.md)** — lost-wax investment casting using beeswax patterns
 - **[knowledge.writing](../knowledge/writing.md)** — beeswax writing tablets
 - **[health.medicine](../health/medicine.md)** — honey wound treatment (osmotic + H₂O₂ antibacterial)

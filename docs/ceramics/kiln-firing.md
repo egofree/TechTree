@@ -201,4 +201,4 @@ Estimating fuel requirements before a firing prevents running out mid-fire:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Ceramics & Refractories](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*

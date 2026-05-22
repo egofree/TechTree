@@ -1,7 +1,7 @@
 # Ducks (*Anas platyrhynchos domesticus*, *Cairina moschata*)
 
 > **Node ID**: animals.poultry.ducks
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md)
 > **Enables**: `food.preservation`, `farming.composting`, `farming.rice-cultivation`
 > **Timeline**: Years 0-5
@@ -132,8 +132,8 @@ Duck manure is similar in nutrient content to chicken manure: approximately 1.0-
 - **[Chickens](poultry-chickens.md)** — complementary poultry management, shared infrastructure
 - **[Geese](poultry-geese.md)** — similar waterfowl management, pasture-based systems
 - **[Domestication](domestication.md)** — domestication history and breed development
-- **[Farming](../farming/)** — pest control, manure fertilizer, rice-duck systems
-- **[Food Preservation](../food/preservation.md)** — duck egg preservation, duck fat rendering, cured meat
+- **[Farming](../agriculture/index.md)** — pest control, manure fertilizer, rice-duck systems
+- **[Food Preservation](../food-processing/index.md)** — duck egg preservation, duck fat rendering, cured meat
 
 ### Safety
 

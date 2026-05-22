@@ -1,7 +1,7 @@
 # Lubricants, Oils & Fluid Mechanics
 
 > **Node ID**: chemistry.lubricants
-> **Domain**: [Lubricants, Oils & Fluid Mechanics](./)
+> **Domain**: [Lubricants, Oils & Fluid Mechanics](./index.md)
 > **Dependencies**: [`foundations`](../foundations/index.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md)
 > **Enables**: [`machine-tools`](../machine-tools/index.md), [`energy.gravity`](../energy/gravity.md)
 > **Timeline**: Years 0-200+
@@ -198,4 +198,4 @@ Every machine with moving parts generates friction and heat. Without lubrication
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

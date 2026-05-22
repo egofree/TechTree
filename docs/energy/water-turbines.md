@@ -1,7 +1,7 @@
 # Water Turbines
 
 > **Node ID**: energy.gravity.water-turbines
-> **Domain**: [Energy](./)
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.gravity`](gravity.md), [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools`](../machine-tools/index.md)
 > **Enables**: [`energy.electricity`](electricity.md) (prime mover for generators), [`energy.storage`](storage.md) (reversible pump-turbines)
 > **Timeline**: Years 12-25
@@ -197,4 +197,4 @@ Consider a site with 50 m of available head and a reliable flow of 5 m³/s.
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

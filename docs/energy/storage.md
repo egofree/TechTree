@@ -1,7 +1,7 @@
 # Energy Storage & Diversification
 
 > **Node ID**: energy.storage
-> **Domain**: [Energy Storage & Diversification](./)
+> **Domain**: [Energy Storage & Diversification](./index.md)
 > **Dependencies**: [`chemistry`](../chemistry/index.md), [`energy`](index.md), [`metals`](../metals/index.md)
 > **Timeline**: Years 15-200+
 > **Outputs**: lead_acid_batteries, grid_infrastructure, ups_systems, hydroelectric_power, wind_power
@@ -199,4 +199,4 @@ Battery charging requires a DC power source matched to the battery bank voltage 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

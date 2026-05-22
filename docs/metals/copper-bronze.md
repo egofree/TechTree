@@ -1,7 +1,7 @@
 # Copper & Bronze Production
 
 > **Node ID**: metals.copper-bronze
-> **Domain**: [Metallurgy](./)
+> **Domain**: [Metallurgy](./index.md)
 > **Timeline**: Years 5-10
 > **Outputs**: copper, bronze, castings, ingots
 
@@ -197,4 +197,4 @@ Copper and nickel are fully soluble in each other in all proportions (complete s
 - **Slag and spark injuries**: During hot forging and slag skimming, hot slag and metal particles spray out as bright sparks at 700-900°C. Eye protection (safety glasses or face shield) is essential when hammering hot metal. Slag skimmed from molten copper retains dangerous heat for extended periods — set aside on dry sand or refractory surface, never on combustible material.
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Metals](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

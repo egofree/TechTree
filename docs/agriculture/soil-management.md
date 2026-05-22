@@ -1,7 +1,7 @@
 # Soil Management & Composting
 
 > **Node ID**: agriculture.soil-management
-> **Domain**: [Agriculture](./)
+> **Domain**: [Agriculture](./index.md)
 > **Dependencies**: [`foundations`](../foundations/index.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
 > **Enables**: [`agriculture.soil-management.vermiculture`](soil-management-vermiculture.md), `agriculture.crop-production`, `agriculture.biochar`
 > **Timeline**: Years 0-10+
@@ -244,8 +244,8 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 - **[Vermiculture](./soil-management-vermiculture.md)** — worm-based composting produces the highest-quality soil amendment
 - **[Food & Agriculture](../foundations/food-agriculture.md)** — soil management is the foundation of sustainable crop production
 - **[Insect Farming](../animals/insect-farming.md)** — BSF frass as nitrogen-rich fertilizer; BSF bins as a composting method for organic waste
-- **[Biochar Production](./biochar.md)** — slow pyrolysis produces biochar for long-term soil carbon storage
-- **[Forestry](../forestry/)** — forest soil as mycorrhizal inoculant source; wood ash for pH amendment
+- **[Biochar Production](./index.md)** — slow pyrolysis produces biochar for long-term soil carbon storage
+- **[Forestry](../plants/index.md)** — forest soil as mycorrhizal inoculant source; wood ash for pH amendment
 
 ### Safety
 

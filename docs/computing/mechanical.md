@@ -216,5 +216,5 @@ Mechanical calculators represent numbers through physical position:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Computing](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*
 

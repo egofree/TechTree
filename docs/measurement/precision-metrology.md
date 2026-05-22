@@ -1,7 +1,7 @@
 # Precision Metrology & Standards
 
 > **Node ID**: measurement.precision-metrology
-> **Domain**: [Measurement](./)
+> **Domain**: [Measurement](./index.md)
 > **Dependencies**: [`foundations`](../foundations/index.md), [`metals`](../metals/index.md)
 > **Timeline**: Years 0-40+
 > **Outputs**: length_standards, mass_standards, timekeeping, precision_instruments, calibration_chain, electrical_standards
@@ -198,4 +198,4 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Measurement](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*

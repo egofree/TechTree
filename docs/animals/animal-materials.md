@@ -196,7 +196,7 @@ Animal blood, often wasted, has several industrial uses.
 |--------|------------|
 | [Lime Production](../ceramics/lime.md) | Quicklime for dehairing hides in beamhouse processing; limewater for deliming and scudding |
 | [Fiber Preparation](../textiles/fibers.md) | Wool is the primary animal fiber in the textiles chain; scouring alkali from wood ash |
-| [Lubricants](../chemistry/) | Tallow as the baseline grease for machine slides and bearings before petroleum products |
+| [Lubricants](../chemistry/index.md) | Tallow as the baseline grease for machine slides and bearings before petroleum products |
 | [Writing & Records](../knowledge/writing.md) | Parchment from sheep and goat skins (limed, dehaired, stretched on frame, scraped thin, dried under tension) |
 | [Forming & Shaping](../metals/forming.md) | Tallow lubricant for wire drawing dies and metal forming operations |
 

@@ -1,7 +1,7 @@
 # Optics & Inspection
 
 > **Node ID**: optics.inspection
-> **Domain**: [Optics](./)
+> **Domain**: [Optics](./index.md)
 > **Enables**: [`vlsi-scaling.advanced-lithography`](../vlsi-scaling/advanced-lithography.md)
 > **Timeline**: Years 25-40
 > **Outputs**: lenses, microscopes, optical_comparators
@@ -198,4 +198,4 @@ Not every optical component can be inspected 100% (batch sizes in the hundreds o
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Optics](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Optics](./index.md) • [All Domains](../index.md)*

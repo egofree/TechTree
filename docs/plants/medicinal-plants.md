@@ -1,7 +1,7 @@
 # Medicinal Plants
 
 > **Node ID**: plants.medicinal-plants
-> **Domain**: [Plants & Botanical Resources](./)
+> **Domain**: [Plants & Botanical Resources](./index.md)
 > **Timeline**: Years 0-10
 > **Outputs**: medicinal_herbs, therapeutic_compounds, herbal_remedies
 
@@ -165,7 +165,7 @@ Medicinal plant preparation shelf life under proper storage conditions (cool, da
 
 ### Dependencies
 
-- Requires: [Plants & Botanical Resources](./) (tool)
+- Requires: [Plants & Botanical Resources](./index.md) (tool)
 - Enables: [Pharmacology](../health/pharmacology.md) (material — plant-derived medicines feed pharmaceutical production)
 - See also: [Medicine & Surgery](../health/medicine.md) — clinical application of plant-derived drugs (willow bark/salicin, opium/morphine, cinchona/quinine, ephedra/ephedrine, digitalis)
 

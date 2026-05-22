@@ -2,7 +2,7 @@
 
 > **Node ID**: energy.electricity
 > **Also covers**: `chemistry.electrolysis`, `machine-tools.joining`
-> **Domain**: [Energy](./)
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: [`chemistry`](../chemistry/index.md), [`machine-tools`](../machine-tools/index.md), [`metals.iron-steel`](../metals/iron-steel.md), [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md)
 > **Enables**: [`energy.electric-furnaces`](electric-furnaces.md), [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`machine-tools.joining`](../machine-tools/joining.md), [`silicon.mg-si-production`](../silicon/mg-si-production.md), [`chemistry.air-separation`](../chemistry/air-separation.md), [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md), [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md)
 > **Timeline**: Years 15-30
@@ -119,7 +119,7 @@ Otto-cycle piston engines, diesel engines, and their critical components (cylind
 - **Natural rubber vulcanization**: latex from *Hevea brasiliensis* or temperate alternatives (guayule, Russian dandelion) is coagulated, masticated on a two-roll mill, then compounded with sulfur (1.5-3 phr) and zinc oxide as activator
 - **[Heat curing](../glossary/heat-curing.html)** at 140-180°C in electric vulcanizing presses or steam autoclaves (3-10 bar) using the Energy stage electric heating and boiler steam; cycle times 5-30 minutes depending on thickness
 - **Applications beyond wire insulation**: shaft seals, gaskets, flat belts and V-belts for power transmission, hoses, vibration dampers, and tire construction for wheeled vehicles
-- **[Synthetic rubbers](../polymers/rubber-synthetic.md)** (nitrile, neoprene) require petrochemical feedstocks from [Petrochemicals](../chemistry/petroleum-alternatives.md); see [Polymers](../polymers/index.md) for the full elastomer development roadmap
+- **[Synthetic rubbers](../polymers/synthetic.md)** (nitrile, neoprene) require petrochemical feedstocks from [Petrochemicals](../chemistry/petroleum-alternatives.md); see [Polymers](../polymers/index.md) for the full elastomer development roadmap
 
 ### Advanced Welding
 
@@ -197,4 +197,4 @@ Three-phase AC power is the standard for industrial generation and distribution.
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

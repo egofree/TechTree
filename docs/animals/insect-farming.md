@@ -1,7 +1,7 @@
 # Insect Farming (Black Soldier Fly)
 
 > **Node ID**: animals.insect-farming
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`foundations`](../foundations/index.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
 > **Enables**: [`animals.aquaculture`](aquaculture.md), [`animals.poultry.chickens`](poultry-chickens.md), [`agriculture.soil-management`](../agriculture/soil-management.md)
 > **Timeline**: Years 1-10+

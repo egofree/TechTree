@@ -1,7 +1,7 @@
 # Guinea Fowl
 
 > **Node ID**: animals.poultry.guinea-fowl
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md)
 > **Enables**: `plants.agriculture`, `food.preservation`
 > **Timeline**: Years 1-10+
@@ -108,8 +108,8 @@ Guinea fowl manure is nitrogen-rich and similar in composition to chicken manure
 
 - **[animals.poultry](poultry.md)** — shared poultry infrastructure, biosecurity, and feed formulation
 - **[animals.domestication](domestication.md)** — general animal husbandry principles
-- **[plants.agriculture](../plants/)** — pest control benefits for crops and orchards
-- **[food.preservation](../food/preservation.md)** — meat preservation for guinea fowl carcasses
+- **[plants.agriculture](../plants/index.md)** — pest control benefits for crops and orchards
+- **[food.preservation](../food-processing/index.md)** — meat preservation for guinea fowl carcasses
 - **[animals.pest-management](pest-management.md)** — integrated pest management strategies
 
 ### Safety

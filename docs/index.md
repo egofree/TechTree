@@ -20,56 +20,56 @@ Dependencies use these dotted IDs. When photolithography requires silicon, the e
 
 The critical path through the tree, in rough chronological order. These domains form the spine: each depends on those before it.
 
-1. **[Foundations](foundations/)** — fire, charcoal, food surplus, stone tools
-2. **[Mining](mining/)** — ore access for every metallurgical process
-3. **[Metals](metals/)** — copper, bronze, iron, steel
-4. **[Machine Tools](machine-tools/)** — the master enabler: lathe, shaper, mill, grinder
-5. **[Energy](energy/)** — water/wind power, steam engines, electricity, arc furnaces
-6. **[Ceramics](ceramics/)** — refractories, kilns, pottery, lime
-7. **[Chemistry](chemistry/)** — mineral acids, alkalis, distillation, oils & grease
-8. **[Glass](glass/)** — basic and advanced glass production, crucibles
-9. **[Gas Handling](gas-handling/)** — vacuum pumps, gas compression, purification
-10. **[Measurement](measurement/)** — precision metrology, measurement standards
-11. **[Silicon](silicon/)** — MG-Si production, crystal growth, solar cells
-12. **[Photolithography](photolithography/)** — cleanrooms, lithography, IC fabrication
-13. **[VLSI Scaling](vlsi-scaling/)** — continuous improvement toward GPUs and advanced solar
+1. **[Foundations](foundations/index.md)** — fire, charcoal, food surplus, stone tools
+2. **[Mining](mining/index.md)** — ore access for every metallurgical process
+3. **[Metals](metals/index.md)** — copper, bronze, iron, steel
+4. **[Machine Tools](machine-tools/index.md)** — the master enabler: lathe, shaper, mill, grinder
+5. **[Energy](energy/index.md)** — water/wind power, steam engines, electricity, arc furnaces
+6. **[Ceramics](ceramics/index.md)** — refractories, kilns, pottery, lime
+7. **[Chemistry](chemistry/index.md)** — mineral acids, alkalis, distillation, oils & grease
+8. **[Glass](glass/index.md)** — basic and advanced glass production, crucibles
+9. **[Gas Handling](gas-handling/index.md)** — vacuum pumps, gas compression, purification
+10. **[Measurement](measurement/index.md)** — precision metrology, measurement standards
+11. **[Silicon](silicon/index.md)** — MG-Si production, crystal growth, solar cells
+12. **[Photolithography](photolithography/index.md)** — cleanrooms, lithography, IC fabrication
+13. **[VLSI Scaling](vlsi-scaling/index.md)** — continuous improvement toward GPUs and advanced solar
 
-Several capabilities in other domains are also critical because their absence blocks downstream work: [knowledge](knowledge/) (writing, education), [textiles](textiles/) (cordage, drive belts), [chemistry.lubricants](chemistry/) (oils, grease, cutting fluid), [optics](optics/) (microscopes, lens grinding).
+Several capabilities in other domains are also critical because their absence blocks downstream work: [knowledge](knowledge/index.md) (writing, education), [textiles](textiles/index.md) (cordage, drive belts), [chemistry.lubricants](chemistry/index.md) (oils, grease, cutting fluid), [optics](optics/index.md) (microscopes, lens grinding).
 
 ## Domain Listing
 
 | Domain | Capabilities | Critical? | Key Outputs |
 |--------|:------------:|:---------:|-------------|
-| [Agriculture](agriculture/) | — | Yes | mechanized farming, soil science, hydroponics, greenhouses |
-| [Animals](animals/) | 7 | | draft power, wool, leather, dairy, eggs, meat, hunting |
-| [Ceramics](ceramics/) | 4 | | refractories, kilns, lime, pottery, crucibles |
-| [Chemistry](chemistry/) | 18 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
-| [Computing](computing/) | 5 | | slide rules, calculators, automation |
-| [Construction](construction/) | — | | structural engineering, concrete, dams, tunnels |
-| [Defense & Military](defense/) | — | | weapons, fortifications, military engineering |
-| [Energy](energy/) | 9 | | steam engines, electricity, arc furnaces, charcoal, coke |
-| [Food Processing](food-processing/) | — | | milling, canning, pasteurization, preservation |
-| [Foundations](foundations/) | 4 | Yes | food surplus, fire, stone tools, agriculture |
-| [Gas Handling](gas-handling/) | 2 | | vacuum pumps, gas compression, purification |
-| [Glass](glass/) | 3 | | basic glass, borosilicate glass, fused silica, quartz crucibles |
-| [Health](health/) | 5 | | clean water, sanitation, pharmaceuticals |
-| [Knowledge](knowledge/) | 4 | Yes | writing, printing, education, libraries |
-| [Machine Tools](machine-tools/) | 6 | Yes | lathe, mill, grinder, bearings |
-| [Marine & Naval](marine/) | — | | shipbuilding, navigation, maritime engineering |
-| [Materials Science](materials/) | — | | composites, adhesives, coatings, material testing |
-| [Measurement](measurement/) | 4 | | precision instruments, gauge blocks, calibration |
-| [Metals](metals/) | 9 | | copper, iron, steel |
-| [Mining](mining/) | 5 | Yes | copper ore, iron ore, coal, quartz, sulfur |
-| [Optics](optics/) | 2 | | lenses, microscopes, optical comparators |
-| [Photolithography](photolithography/) | 3 | | cleanrooms, lithography, ICs |
-| [Plants & Botany](plants/) | 5 | | food crops, medicine, timber, fiber, natural dyes |
-| [Polymers](polymers/) | 4 | | rubber, FR-4, PTFE, fiberglass |
-| [Silicon](silicon/) | 5 | | MG-Si, wafers, solar cells, transistors |
-| [Telecommunications](telecommunications/) | — | | telegraph, telephone, radio, fiber optics |
-| [Textiles](textiles/) | 7 | Yes | cordage, cloth, rope, drive belts |
-| [Transport](transport/) | 5 | | roads, railways, aviation, logistics |
-| [VLSI Scaling](vlsi-scaling/) | 4 | | GPUs, advanced solar, EDA tools |
-| [Water Infrastructure](water/) | — | | water treatment, desalination, distribution, sewage |
+| [Agriculture](agriculture/index.md) | — | Yes | mechanized farming, soil science, hydroponics, greenhouses |
+| [Animals](animals/index.md) | 7 | | draft power, wool, leather, dairy, eggs, meat, hunting |
+| [Ceramics](ceramics/index.md) | 4 | | refractories, kilns, lime, pottery, crucibles |
+| [Chemistry](chemistry/index.md) | 18 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
+| [Computing](computing/index.md) | 5 | | slide rules, calculators, automation |
+| [Construction](construction/index.md) | — | | structural engineering, concrete, dams, tunnels |
+| [Defense & Military](defense/index.md) | — | | weapons, fortifications, military engineering |
+| [Energy](energy/index.md) | 9 | | steam engines, electricity, arc furnaces, charcoal, coke |
+| [Food Processing](food-processing/index.md) | — | | milling, canning, pasteurization, preservation |
+| [Foundations](foundations/index.md) | 4 | Yes | food surplus, fire, stone tools, agriculture |
+| [Gas Handling](gas-handling/index.md) | 2 | | vacuum pumps, gas compression, purification |
+| [Glass](glass/index.md) | 3 | | basic glass, borosilicate glass, fused silica, quartz crucibles |
+| [Health](health/index.md) | 5 | | clean water, sanitation, pharmaceuticals |
+| [Knowledge](knowledge/index.md) | 4 | Yes | writing, printing, education, libraries |
+| [Machine Tools](machine-tools/index.md) | 6 | Yes | lathe, mill, grinder, bearings |
+| [Marine & Naval](marine/index.md) | — | | shipbuilding, navigation, maritime engineering |
+| [Materials Science](materials/index.md) | — | | composites, adhesives, coatings, material testing |
+| [Measurement](measurement/index.md) | 4 | | precision instruments, gauge blocks, calibration |
+| [Metals](metals/index.md) | 9 | | copper, iron, steel |
+| [Mining](mining/index.md) | 5 | Yes | copper ore, iron ore, coal, quartz, sulfur |
+| [Optics](optics/index.md) | 2 | | lenses, microscopes, optical comparators |
+| [Photolithography](photolithography/index.md) | 3 | | cleanrooms, lithography, ICs |
+| [Plants & Botany](plants/index.md) | 5 | | food crops, medicine, timber, fiber, natural dyes |
+| [Polymers](polymers/index.md) | 4 | | rubber, FR-4, PTFE, fiberglass |
+| [Silicon](silicon/index.md) | 5 | | MG-Si, wafers, solar cells, transistors |
+| [Telecommunications](telecommunications/index.md) | — | | telegraph, telephone, radio, fiber optics |
+| [Textiles](textiles/index.md) | 7 | Yes | cordage, cloth, rope, drive belts |
+| [Transport](transport/index.md) | 5 | | roads, railways, aviation, logistics |
+| [VLSI Scaling](vlsi-scaling/index.md) | 4 | | GPUs, advanced solar, EDA tools |
+| [Water Infrastructure](water/index.md) | — | | water treatment, desalination, distribution, sewage |
 
 ## Dependency Overview
 
@@ -79,15 +79,15 @@ See the [full dependency diagram](../diagrams/mermaid/overview.mmd) for the comp
 
 These domains and capabilities can begin early, independent of the main critical path. Starting them in parallel accelerates the whole effort.
 
-- **[Knowledge](knowledge/)** (`knowledge.writing`) — writing, printing, education. Start Day 1. The 50-200 year bootstrapping effort dies with the first generation without knowledge transmission.
-- **[Textiles](textiles/)** (`textiles`) — fiber, spinning, rope. Start Day 1. Cordage and cloth underpin mining hoists, tool hafting, and power transmission.
-- **[Chemistry](chemistry/) lubricants** (`chemistry.lubricants`) — oils from animal fats and vegetable sources. Start Day 1. Without lubrication, every bearing and slide seizes.
-- **[Chemistry](chemistry/) petroleum alternatives** (`chemistry.petroleum-alternatives`) — fermentation produces ethanol, acetone, and acetic acid without petroleum. Start Day 1.
-- **[Computing](computing/)** (`computing.mechanical`) — mechanical calculation with slide rules and nomograms. Start as soon as marking tools exist.
-- **[Health](health/)** (`health.sanitation`) — sanitation, water purification, quarantine protocols. Start Day 1. Skilled workers are the scarcest resource.
-- **[Transport](transport/)** (`transport.roads`) — road construction and basic bridges expand the reachable resource base early on.
-- **[Machine Tools](machine-tools/) precision metrology** → now in **[Measurement](measurement/)** (`measurement.precision-metrology`) — base unit standards and basic measuring instruments. Start alongside early toolmaking.
-- **[Optics](optics/)** (`optics.inspection`) — lens grinding, microscopes, optical comparators. Start once glass production is established.
+- **[Knowledge](knowledge/index.md)** (`knowledge.writing`) — writing, printing, education. Start Day 1. The 50-200 year bootstrapping effort dies with the first generation without knowledge transmission.
+- **[Textiles](textiles/index.md)** (`textiles`) — fiber, spinning, rope. Start Day 1. Cordage and cloth underpin mining hoists, tool hafting, and power transmission.
+- **[Chemistry](chemistry/index.md) lubricants** (`chemistry.lubricants`) — oils from animal fats and vegetable sources. Start Day 1. Without lubrication, every bearing and slide seizes.
+- **[Chemistry](chemistry/index.md) petroleum alternatives** (`chemistry.petroleum-alternatives`) — fermentation produces ethanol, acetone, and acetic acid without petroleum. Start Day 1.
+- **[Computing](computing/index.md)** (`computing.mechanical`) — mechanical calculation with slide rules and nomograms. Start as soon as marking tools exist.
+- **[Health](health/index.md)** (`health.sanitation`) — sanitation, water purification, quarantine protocols. Start Day 1. Skilled workers are the scarcest resource.
+- **[Transport](transport/index.md)** (`transport.roads`) — road construction and basic bridges expand the reachable resource base early on.
+- **[Machine Tools](machine-tools/index.md) precision metrology** → now in **[Measurement](measurement/index.md)** (`measurement.precision-metrology`) — base unit standards and basic measuring instruments. Start alongside early toolmaking.
+- **[Optics](optics/index.md)** (`optics.inspection`) — lens grinding, microscopes, optical comparators. Start once glass production is established.
 
 ## Data Layer
 
@@ -107,4 +107,4 @@ Structured data files backing this tree:
 
 ## Contributing
 
-See [AGENTS.md](../../AGENTS.md) for project conventions and file structure.
+See [AGENTS.md](../AGENTS.md) for project conventions and file structure.

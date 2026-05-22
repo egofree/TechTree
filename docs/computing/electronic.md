@@ -218,4 +218,4 @@ The EDVAC (Electronic Discrete Variable Automatic Computer), described in John v
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Computing](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

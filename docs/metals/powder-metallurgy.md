@@ -1,7 +1,7 @@
 # Powder Metallurgy & Advanced Materials
 
 > **Node ID**: metals.powder-metallurgy
-> **Domain**: [Metals](./)
+> **Domain**: [Metals](./index.md)
 > **Dependencies**: [`metals.alloys`](alloys.md), [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md), [`energy.electric-furnaces`](../energy/electric-furnaces.md)
 > **Timeline**: Years 30-60
 > **Outputs**: tungsten products, cemented carbides, PM structural parts, MIM components, additive manufactured parts
@@ -210,4 +210,4 @@ SHS (also called combustion synthesis) exploits highly exothermic powder reactio
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Metals](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

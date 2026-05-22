@@ -1,7 +1,7 @@
 # Heat Engines
 
 > **Node ID**: energy.engine
-> **Domain**: [Energy](./)
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.fuels`](fuels.md), [`metals`](../metals/index.md), [`machine-tools`](../machine-tools/index.md)
 > **Timeline**: Years 20-50
 > **Outputs**: internal_combustion_engines, gasoline_engines, diesel_engines, mechanical_power
@@ -198,4 +198,4 @@ Closed-cycle external combustion engine. Working gas (air, helium, or hydrogen) 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

@@ -1,7 +1,7 @@
 # Rabbits (Cuniculture)
 
 > **Node ID**: animals.rabbits
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
 > **Enables**: [`textiles.fibers`](../textiles/fibers.md), `food.preservation`
 > **Timeline**: Years 0-5
@@ -191,8 +191,8 @@ Rabbits are the most space-efficient livestock:
 
 - **[textiles/fibers](../textiles/fibers.md)** — Angora wool processing, carding, spinning, and blending with other fibers
 - **[domestication](./domestication.md)** — rabbit domestication history and comparative livestock data
-- **[agriculture](../agriculture/)** — rabbit manure application and vermiculture integration
-- **[food-preservation](../food/)** — meat preservation methods for rabbit
+- **[agriculture](../agriculture/index.md)** — rabbit manure application and vermiculture integration
+- **[food-preservation](../food-processing/index.md)** — meat preservation methods for rabbit
 
 ### Safety
 

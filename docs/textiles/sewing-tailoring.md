@@ -1,7 +1,7 @@
 # Sewing and Tailoring
 
 > **Node ID**: textiles.sewing-tailoring
-> **Domain**: [Textiles](./)
+> **Domain**: [Textiles](./index.md)
 > **Dependencies**: [`textiles.weaving`](weaving.md), [`metals.iron-steel`](../metals/iron-steel.md)
 > **Timeline**: Years 5-10
 > **Outputs**: garments, tents, sails, bags, belting
@@ -194,11 +194,11 @@ Proper fit requires systematic body measurement and pattern adjustment. A poorly
 - **Woven cloth**: [weaving](weaving.md)
 - **Steel for needles**: [iron and steel](../metals/iron-steel.md)
 - **Canvas and fabric**: [weaving](weaving.md)
-- **Leather for belts**: [leather](../materials/leather.md)
-- **Sewn products used in mining**: [mining equipment](../mining/)
+- **Leather for belts**: [leather](../materials/index.md)
+- **Sewn products used in mining**: [mining equipment](../mining/index.md)
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) · [Textiles](./) · [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Textiles](./index.md) · [All Domains](../index.md)*
 
 [← Back to Textiles](index.md)

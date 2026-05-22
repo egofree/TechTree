@@ -1,7 +1,7 @@
 # Prospecting & Surveying
 
 > **Node ID**: mining.prospecting
-> **Domain**: [Mining](./)
+> **Domain**: [Mining](./index.md)
 > **Dependencies**: [`foundations`](../foundations/index.md)
 > **Enables**: [`chemistry.acids`](../chemistry/acids.md), [`chemistry.alkalis`](../chemistry/alkalis.md), [`chemistry.cement`](../chemistry/cement.md), [`energy.fuels`](../energy/fuels.md), [`metals`](../metals/index.md), [`glass.basic`](../glass/basic.md), [`silicon.mg-si-production`](../silicon/mg-si-production.md), [`transport`](../transport/index.md)
 > **Timeline**: Years 0-50+

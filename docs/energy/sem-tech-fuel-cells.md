@@ -130,13 +130,13 @@ The Rowow SEM Tech Technical Overview identifies four fuels compatible with memb
 **Hydrogen (H₂)**:
 - Primary PEMFC fuel. Electrochemical reaction: H₂ + ½O₂ → H₂O.
 - Storage: compressed gas (350-700 bar), liquid hydrogen (-253°C), or metal hydrides.
-- Source: [SEM Tech water electrolysis](sem-tech-water-electrolysis.md) (green hydrogen from renewable electricity) or steam methane reforming (grey hydrogen).
+- Source: [SEM Tech water electrolysis](../chemistry/sem-tech-water-electrolysis.md) (green hydrogen from renewable electricity) or steam methane reforming (grey hydrogen).
 - Purity requirement: >99.99% for PEMFC. CO must be below ~10 ppm to avoid catalyst poisoning.
 
 **Methanol (CH₃OH)**:
 - Direct methanol fuel cell (DMFC) operation. Reaction: CH₃OH + 3/2O₂ → CO₂ + 2H₂O.
 - Advantage: liquid at room temperature, energy-dense (4.4 kWh/L), easy storage and transport.
-- Source: [SEM Tech e-methanol synthesis](sem-tech-e-methanol.md) from captured CO₂ and green hydrogen.
+- Source: [SEM Tech e-methanol synthesis](../chemistry/sem-tech-e-methanol.md) from captured CO₂ and green hydrogen.
 - Challenge: methanol crossover through polymer membranes reduces efficiency and wastes fuel.
 
 **Ethanol (C₂H₅OH)**:
@@ -163,7 +163,7 @@ If SEM Tech fuel cells prove viable, their low membrane cost opens applications 
 
 **Grid support**: Fuel cells can provide baseload or peaking power fed from stored hydrogen. Hydrogen produced via electrolysis during excess renewable generation, then converted back to electricity via fuel cells during demand peaks. Round-trip efficiency ~35-45%, compared to ~70-85% for batteries.
 
-**Remote and off-grid**: For locations where grid extension is impractical, a fuel cell running on locally produced hydrogen or methanol (from [SEM Tech e-methanol synthesis](sem-tech-e-methanol.md)) provides reliable electricity. The [Electricity Generation](electricity.md) article covers the full range of generation technologies.
+**Remote and off-grid**: For locations where grid extension is impractical, a fuel cell running on locally produced hydrogen or methanol (from [SEM Tech e-methanol synthesis](../chemistry/sem-tech-e-methanol.md)) provides reliable electricity. The [Electricity Generation](electricity.md) article covers the full range of generation technologies.
 
 ## Safety
 
@@ -196,11 +196,11 @@ Fuel cell systems involve several hazards requiring engineered controls:
 ## See Also
 
 - [SEM Tech](../chemistry/sem-tech.md) -- parent article on the membrane technology, manufacturing, and properties
-- [SEM Tech Water Electrolysis](sem-tech-water-electrolysis.md) -- hydrogen production via SEM Tech electrolysis (fuel source)
-- [SEM Tech e-Methanol](sem-tech-e-methanol.md) -- electrochemical methanol synthesis (alternative fuel)
+- [SEM Tech Water Electrolysis](../chemistry/sem-tech-water-electrolysis.md) -- hydrogen production via SEM Tech electrolysis (fuel source)
+- [SEM Tech e-Methanol](../chemistry/sem-tech-e-methanol.md) -- electrochemical methanol synthesis (alternative fuel)
 - [SEM Tech Redox Flow Batteries](sem-tech-redox-flow-batteries.md) -- complementary energy storage technology
 - [Electricity Generation](electricity.md) -- full range of electricity generation methods
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) | [Energy](./) | [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) | [Energy](./index.md) | [All Domains](../index.md)*

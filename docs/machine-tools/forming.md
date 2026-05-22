@@ -209,4 +209,4 @@ The choice of forming method depends on production volume, part geometry, materi
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Machine Tools](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*

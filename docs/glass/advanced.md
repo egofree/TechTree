@@ -1,7 +1,7 @@
 # Advanced Glass Production
 
 > **Node ID**: glass.advanced
-> **Domain**: [Glass](./)
+> **Domain**: [Glass](./index.md)
 > **Dependencies**: [`glass.basic`](basic.md)
 > **Enables**: [`silicon.crystal-growth`](../silicon/crystal-growth.md)
 > **Timeline**: Years 25-40
@@ -202,4 +202,4 @@ For scientific glassware requiring precise internal diameters (thermometer tubin
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Glass](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*

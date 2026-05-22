@@ -1,7 +1,7 @@
 # Wind Power
 
 > **Node ID**: energy.wind
-> **Domain**: [Energy](./)
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: [`foundations`](../foundations/index.md), [`metals.copper-bronze`](../metals/copper-bronze.md) or [`metals.iron-steel`](../metals/iron-steel.md)
 > **Enables**: [`energy.steam-power`](steam-power.md) (millwright skills transfer), [`foundations.food-agriculture`](../foundations/food-agriculture.md) (grain milling), [`health.sanitation`](../health/sanitation.md) (pumping)
 > **Timeline**: Years 5-15
@@ -197,5 +197,5 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
 

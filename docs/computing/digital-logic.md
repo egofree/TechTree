@@ -1,7 +1,7 @@
 # Digital Logic
 
 > **Node ID**: computing.digital-logic
-> **Domain**: [Computing](./)
+> **Domain**: [Computing](./index.md)
 > **Dependencies**: `semiconductors`, `electrical-systems`
 > **Timeline**: Years 40-50
 > **Outputs**: logic_gates, combinational_circuits, sequential_circuits, arithmetic_units, memory_elements
@@ -204,6 +204,6 @@ Building digital logic from discrete transistors is educational but impractical 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) · [Computing](./) · [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Computing](./index.md) · [All Domains](../index.md)*
 
 [← Back to Computing](index.md)

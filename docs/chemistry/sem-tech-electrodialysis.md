@@ -59,7 +59,7 @@ The SEM Tech membrane manufacturing process (see [SEM Tech](sem-tech.md)) produc
 
 ### Conventional Electrodialysis (ED)
 
-Standard ED for desalination and ion concentration. Feed solution passes through diluate channels; ions migrate to concentrate channels under applied voltage. Produces desalted water and concentrated brine simultaneously. See [SEM Tech Water Treatment](sem-tech-water-treatment.md) for desalination applications.
+Standard ED for desalination and ion concentration. Feed solution passes through diluate channels; ions migrate to concentrate channels under applied voltage. Produces desalted water and concentrated brine simultaneously. See [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md) for desalination applications.
 
 Typical performance:
 - Salt removal: 50-95% per pass (multiple passes for higher removal)
@@ -68,7 +68,7 @@ Typical performance:
 
 ### Reverse Electrodialysis (RED)
 
-Reverse ED generates electricity from the mixing of fresh and salt water — the inverse of conventional ED. Concentrated brine and fresh water flow through alternate channels; the salinity gradient drives ion transport through the membranes, generating electrical current. This is salinity-gradient power, also called **[blue energy](../energy/blue-energy.md)**. See [SEM Tech Blue Energy](sem-tech-blue-energy.md).
+Reverse ED generates electricity from the mixing of fresh and salt water — the inverse of conventional ED. Concentrated brine and fresh water flow through alternate channels; the salinity gradient drives ion transport through the membranes, generating electrical current. This is salinity-gradient power, also called **[blue energy](../energy/sem-tech-blue-energy.md)**. See [SEM Tech Blue Energy](../energy/sem-tech-blue-energy.md).
 
 RED viability depends critically on membrane cost, since large membrane areas are needed for modest power output. SEM Tech membranes at less than $1/sq ft could make RED economically feasible for the first time.
 
@@ -100,7 +100,7 @@ This is directly relevant to [SEM Tech Acid Regeneration](sem-tech-acid-regenera
 
 ## Applications
 
-**Desalination**: Brackish water desalination is the largest commercial ED application. ED excels at moderate salinity (1,000-10,000 mg/L TDS) where reverse osmosis becomes energy-intensive. See [SEM Tech Water Treatment](sem-tech-water-treatment.md).
+**Desalination**: Brackish water desalination is the largest commercial ED application. ED excels at moderate salinity (1,000-10,000 mg/L TDS) where reverse osmosis becomes energy-intensive. See [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md).
 
 **Acid and base production**: BMED converts salt solutions into their constituent acids and bases. Useful for regenerating spent pickling acids, producing organic acids, and generating NaOH without chlor-alkali electrolysis. See [SEM Tech Acid Regeneration](sem-tech-acid-regeneration.md).
 
@@ -108,7 +108,7 @@ This is directly relevant to [SEM Tech Acid Regeneration](sem-tech-acid-regenera
 
 **Food processing**: Demineralization of whey, deacidification of fruit juices, salt removal from soy sauce. ED preserves flavor compounds that thermal processes would destroy.
 
-**Blue energy**: Reverse ED generates electricity from river-sea water mixing at estuaries. Global theoretical potential exceeds 2 TW. See [SEM Tech Blue Energy](sem-tech-blue-energy.md).
+**Blue energy**: Reverse ED generates electricity from river-sea water mixing at estuaries. Global theoretical potential exceeds 2 TW. See [SEM Tech Blue Energy](../energy/sem-tech-blue-energy.md).
 
 ## Safety
 
@@ -139,4 +139,4 @@ This is directly relevant to [SEM Tech Acid Regeneration](sem-tech-acid-regenera
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) | [Chemistry](./) | [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) | [Chemistry](./index.md) | [All Domains](../index.md)*

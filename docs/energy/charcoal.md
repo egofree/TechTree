@@ -181,7 +181,7 @@ Different metallurgical processes require different charcoal grades, optimized f
 - **Fuel comparison table**: [fuels.md](fuels.md)
 - **[Early iron smelting](../glossary/early-iron-smelting.html)** (primary consumer): [iron-steel.md](../metals/iron-steel.md)
 - **[Kiln construction](../ceramics/kilns.md)** (firing infrastructure): [kilns.md](../ceramics/kilns.md)
-- **[Wood and forestry](../glossary/wood-and-forestry.html)** (feedstock supply): [plants.md](../plants/)
+- **[Wood and forestry](../glossary/wood-and-forestry.html)** (feedstock supply): [plants.md](../plants/index.md)
 
 ## Charcoal Gasification for Vehicle Fuel
 
@@ -197,4 +197,4 @@ During petroleum shortages, charcoal gasification provides a practical alternati
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

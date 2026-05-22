@@ -1,7 +1,7 @@
 # Primary Metal Forming
 
 > **Node ID**: metals.forming
-> **Domain**: [Metals](./)
+> **Domain**: [Metals](./index.md)
 > **Dependencies**: [`metals.steelmaking`](steelmaking.md), [`metals.aluminum`](aluminum.md), [`machine-tools`](../machine-tools/index.md)
 > **Timeline**: Years 15-30
 > **Outputs**: steel slab, plate, sheet, bar, structural shapes, aluminum profiles, forgings
@@ -187,7 +187,7 @@ Structural rolling produces the shaped cross-sections that are the skeleton of c
 - [Aluminum](./aluminum.md) — primary aluminum for extrusion billets
 - [Machine Tools Forming](../machine-tools/forming.md) — secondary operations: cold rolling, stamping, deep drawing, wire drawing, sheet metal forming
 - [Iron & Steel](./iron-steel.md) — alloy properties, heat treatment, and metallurgy
-- [Construction Materials](../construction/materials.md) — structural steel consumption
+- [Construction Materials](../construction/index.md) — structural steel consumption
 
 ### Safety & Hazards
 
@@ -199,4 +199,4 @@ Structural rolling produces the shaped cross-sections that are the skeleton of c
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Metals](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

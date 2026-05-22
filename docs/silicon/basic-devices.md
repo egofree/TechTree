@@ -1,7 +1,7 @@
 # Basic Semiconductor Devices
 
 > **Node ID**: silicon.basic-devices
-> **Domain**: [Silicon](./)
+> **Domain**: [Silicon](./index.md)
 > **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`silicon.crystal-growth`](crystal-growth.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md)
 > **Timeline**: Years 30-50
 > **Outputs**: solar_cells, diodes, transistors
@@ -250,4 +250,4 @@ The op-amp is a high-gain differential amplifier with two inputs (inverting -, n
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Silicon](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*

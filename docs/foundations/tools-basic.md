@@ -178,7 +178,7 @@
 ### Related Capabilities
 
 - [Ceramics → Pottery](../ceramics/pottery.md) for wheel-thrown pottery, glazes, and kiln firing beyond pit firing
-- [Machine Tools](../machine-tools/) for precision tools, lathes, and metalworking equipment
+- [Machine Tools](../machine-tools/index.md) for precision tools, lathes, and metalworking equipment
 - [Animals → Animal Materials](../animals/animal-materials.md) for leather, bone, and horn tool-making
 - [Chemistry → Charcoal & Tar](../energy/charcoal.md) for adhesives, sealants, and fuel processing
 
@@ -197,4 +197,4 @@
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Foundations](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*

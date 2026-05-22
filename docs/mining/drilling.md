@@ -1,7 +1,7 @@
 # Drilling
 
 > **Node ID**: mining.drilling
-> **Domain**: [Mining](./)
+> **Domain**: [Mining](./index.md)
 > **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools`](../machine-tools/index.md)
 > **Timeline**: Years 12-20
 > **Outputs**: blast_holes, core_samples, exploration_data
@@ -209,11 +209,11 @@ Unlike percussive drilling (which chips rock by impact), rotary drilling grinds 
 - **Compressed air supply**: [steam power](../energy/steam-power.md)
 - **Explosives for blast holes**: [Black Powder](black-powder.md)
 - **Drill steel material**: [iron and steel](../metals/iron-steel.md)
-- **Machine tools for bit sharpening**: [machine tools](../machine-tools/)
+- **Machine tools for bit sharpening**: [machine tools](../machine-tools/index.md)
 - **Mine ventilation (dust control)**: [ventilation](ventilation.md)
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) · [Mining](./) · [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Mining](./index.md) · [All Domains](../index.md)*
 
 [← Back to Mining](index.md)

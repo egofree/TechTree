@@ -1,7 +1,7 @@
 # Mineral Acid Production
 
 > **Node ID**: chemistry.acids
-> **Domain**: [Chemistry](./)
+> **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`glass.basic`](../glass/basic.md), [`mining`](../mining/index.md)
 > **Enables**: [`silicon.basic-devices`](../silicon/basic-devices.md)
 > **Timeline**: Years 20-35
@@ -132,7 +132,7 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 
  ---
 
-*Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 
 ## Lead Chamber Process Detail
 

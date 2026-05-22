@@ -1,7 +1,7 @@
 # Bison (American Buffalo)
 
 > **Node ID**: animals.bison
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
 > **Enables**: `food.preservation`, `textiles.leather`
 > **Timeline**: Years 3-20+
@@ -166,9 +166,9 @@ The American bison holds deep cultural and ecological significance. Bison were t
 ### Cross-Domain Links
 
 - **[domestication](./domestication.md)** — comparative livestock domestication timelines and species profiles
-- **[textiles/leather](../textiles/)** — hide tanning and leather processing from bison hides
-- **[food-preservation](../food/)** — meat preservation methods for bison
-- **[agriculture](../agriculture/)** — pasture management and rotational grazing for bison herds
+- **[textiles/leather](../textiles/index.md)** — hide tanning and leather processing from bison hides
+- **[food-preservation](../food-processing/index.md)** — meat preservation methods for bison
+- **[agriculture](../agriculture/index.md)** — pasture management and rotational grazing for bison herds
 
 ### Safety
 

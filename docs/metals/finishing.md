@@ -1,7 +1,7 @@
 # Metal Finishing & Surface Treatment
 
 > **Node ID**: metals.finishing
-> **Domain**: [Metals](./)
+> **Domain**: [Metals](./index.md)
 > **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`chemistry.coatings`](../chemistry/coatings.md)
 > **Timeline**: Years 15-40
 > **Outputs**: galvanized steel, plated parts, anodized aluminum, hardened surfaces, coated components
@@ -245,4 +245,4 @@ Paint is the most widely used protective coating for metals, but paint performan
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Metals](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

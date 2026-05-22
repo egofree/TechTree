@@ -1,7 +1,7 @@
 # Medical Instruments
 
 > **Node ID**: health.medical-instruments
-> **Domain**: [Health](./)
+> **Domain**: [Health](./index.md)
 > **Dependencies**: [`metals`](../metals/index.md), [`glass`](../glass/index.md), [`chemistry`](../chemistry/index.md)
 > **Timeline**: Years 15-30
 > **Outputs**: diagnostic_instruments, surgical_instruments, sterilization_equipment
@@ -195,6 +195,6 @@ The lens quality matters for accurate diagnosis. A simple plano-convex lens (gro
 
 **Sterilization Verification**: Verify autoclave performance with biological indicators (Geobacillus stearothermophilus spores, kill at 121°C in 15 min) placed in the most difficult-to-sterilize location. Chemical indicators (Class 5 integrating indicators) on every pack. Bowie-Dick test for vacuum autoclaves: uniform color change confirms air removal. Record temperature with chart recorder or data logger for regulatory documentation.
 
-*Part of the [Bootciv Tech Tree](../) · [Health](./) · [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Health](./index.md) · [All Domains](../index.md)*
 
 [← Back to Health](index.md)

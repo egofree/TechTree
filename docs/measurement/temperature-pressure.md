@@ -1,7 +1,7 @@
 # Temperature & Pressure Measurement
 
 > **Node ID**: measurement.temperature-pressure
-> **Domain**: [Measurement](./)
+> **Domain**: [Measurement](./index.md)
 > **Dependencies**: [`foundations`](../foundations/index.md), [`metals`](../metals/index.md), [`energy`](../energy/index.md)
 > **Timeline**: Years 25-40
 > **Outputs**: thermocouples, temperature_measurement, electrical_measurement, pressure_measurement
@@ -214,4 +214,4 @@ Flexible metal diaphragm (stainless steel, Hastelloy) deflects under differentia
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Measurement](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*

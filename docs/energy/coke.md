@@ -200,4 +200,4 @@ Domestic coke (15-40 mm) is a smokeless fuel valued for urban heating before nat
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

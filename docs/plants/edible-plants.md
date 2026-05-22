@@ -1,7 +1,7 @@
 # Edible Plants
 
 > **Node ID**: plants.edible-plants
-> **Domain**: [Plants & Botanical Resources](./)
+> **Domain**: [Plants & Botanical Resources](./index.md)
 > **Timeline**: Years 0-10
 > **Outputs**: edible_plants, food_crops, vegetables, fruits, seeds
 
@@ -46,7 +46,7 @@ Raw plant foods often require processing to improve digestibility, neutralize to
 Food preservation is critical for surviving winter, drought, and crop failures:
 
 - **Dry storage**: Grains and seeds keep best when thoroughly dry (below 14% moisture) and stored in sealed containers protected from rodents and insects. Clay jars with tight lids, raised grain stores, or underground pits lined with dry grass.
-- **Salting**: Salt draws moisture from plant tissues, preventing microbial growth. Layer sliced vegetables or fruits with salt in clay vessels. Effective for preserving through hot months. Requires access to salt (see [Chemistry](../chemistry/)).
+- **Salting**: Salt draws moisture from plant tissues, preventing microbial growth. Layer sliced vegetables or fruits with salt in clay vessels. Effective for preserving through hot months. Requires access to salt (see [Chemistry](../chemistry/index.md)).
 - **Pickling (brine fermentation)**: Submerge vegetables in salt brine (3-5% salt by weight) in sealed vessels. Lactic acid bacteria produce acid that preserves the food. Sauerkraut-style fermentation keeps greens edible for months without refrigeration.
 - **Smoke-drying**: Hang fruits, fish, or meat over slow, cool smoky fire for hours to days. Smoke deposits antimicrobial compounds on the surface while heat removes moisture. Produces intensely flavored preserved food.
 - **Underground storage**: Root crops (potatoes, turnips, carrots) store well in cool underground pits. Layer roots in dry sand or sawdust in a pit below frost line. Keeps for 3-6 months at 2-8°C.
@@ -183,9 +183,9 @@ Approximate composition of major staple crops (per 100g edible portion, cooked u
 
 ### Dependencies
 
-- **Requires**: [Plants & Botanical Resources](./) (tool) — botanical knowledge and species identification underpin all foraging and cultivation
+- **Requires**: [Plants & Botanical Resources](./index.md) (tool) — botanical knowledge and species identification underpin all foraging and cultivation
 - **Enables**: [Agriculture & Food Production](../foundations/food-agriculture.md) (material) — cultivated edible plants are the foundation of agricultural surplus
-- **Enables**: [Health](../health/) (material) — adequate nutrition from edible plants is prerequisite for population health and labor capacity
+- **Enables**: [Health](../health/index.md) (material) — adequate nutrition from edible plants is prerequisite for population health and labor capacity
 - **Uses**: [Fire-Making](../foundations/fire.md) (tool) — cooking, drying, roasting, and smoke-preservation all depend on controlled fire
 
 ### Climate-Adapted Staple Selection

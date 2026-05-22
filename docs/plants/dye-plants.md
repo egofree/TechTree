@@ -1,7 +1,7 @@
 # Dye Plants
 
 > **Node ID**: plants.dye-plants
-> **Domain**: [Plants & Botanical Resources](./)
+> **Domain**: [Plants & Botanical Resources](./index.md)
 > **Timeline**: Years 5-10
 > **Outputs**: natural_dyes, plant_pigments
 
@@ -200,7 +200,7 @@ Indigo is the most labor-intensive dye per unit color — roughly 4-5 kg of fres
 
 ### Dependencies
 
-- Requires: [Plants & Botanical Resources](./) (tool)
+- Requires: [Plants & Botanical Resources](./index.md) (tool)
 - Feeds into: [Dyeing](../textiles/dyeing.md) (material — natural_dyes, plant_pigments)
 - Related: [Fiber Plants](./fiber-plants.md) (companion capability — fiber production)
 

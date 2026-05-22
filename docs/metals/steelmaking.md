@@ -1,7 +1,7 @@
 # Modern Steelmaking
 
 > **Node ID**: metals.steelmaking
-> **Domain**: [Metals](./)
+> **Domain**: [Metals](./index.md)
 > **Dependencies**: [`metals.iron-steel.blast-furnace`](blast-furnace.md), [`chemistry.refractories`](../chemistry/refractories.md), [`energy.fuels`](../energy/fuels.md)
 > **Enables**: [`metals.forming`](forming.md), [`metals.alloys`](alloys.md)
 > **Timeline**: Years 15-30
@@ -218,4 +218,4 @@ Steelmaking capability builds in stages, each requiring progressively more infra
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Metals](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

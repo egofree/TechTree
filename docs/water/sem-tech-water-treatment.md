@@ -106,7 +106,7 @@ Energy consumption scales roughly linearly with the amount of salt removed. Desa
 
 **Industrial process water**: Many industrial processes require low-TDS water (boiler feed, cooling tower makeup, chemical processing). ED provides this from brackish sources without RO infrastructure.
 
-**Agricultural irrigation**: Moderately saline water (up to 3,000 mg/L TDS) is acceptable for many crops. ED can partially desalinate highly brackish water to irrigation-suitable levels, consuming less energy than full drinking water treatment. See [SEM Tech Hydroponics](../chemistry/sem-tech-hydroponics.md) for water reuse in controlled growing environments.
+**Agricultural irrigation**: Moderately saline water (up to 3,000 mg/L TDS) is acceptable for many crops. ED can partially desalinate highly brackish water to irrigation-suitable levels, consuming less energy than full drinking water treatment. See [SEM Tech Hydroponics](../agriculture/sem-tech-hydroponics.md) for water reuse in controlled growing environments.
 
 **Brine management**: The concentrate stream from ED is a managed brine that must be disposed of responsibly. Options include: evaporation ponds (arid climates), deep well injection (geologically suitable sites), further concentration for salt recovery, or dilution with wastewater effluent.
 
@@ -136,8 +136,8 @@ Energy consumption scales roughly linearly with the amount of salt removed. Desa
 
 - [SEM Tech](../chemistry/sem-tech.md) — ion exchange membrane manufacturing
 - [SEM Tech Electrodialysis](../chemistry/sem-tech-electrodialysis.md) — ED principles and process variants
-- [SEM Tech Hydroponics](../chemistry/sem-tech-hydroponics.md) — water reuse in controlled growing systems
+- [SEM Tech Hydroponics](../agriculture/sem-tech-hydroponics.md) — water reuse in controlled growing systems
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) | [Water](./) | [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) | [Water](./index.md) | [All Domains](../index.md)*

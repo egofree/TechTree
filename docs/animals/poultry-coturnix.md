@@ -1,7 +1,7 @@
 # Coturnix Quail (*Coturnix japonica*)
 
 > **Node ID**: animals.poultry.coturnix
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md)
 > **Enables**: `food.preservation`, `farming.composting`
 > **Timeline**: Years 0-3
@@ -114,8 +114,8 @@ Quail manure is high in nitrogen (similar to chicken manure at approximately 1.3
 
 - **[Chickens](poultry-chickens.md)** — shared poultry management principles, housing, and feed systems
 - **[Domestication](domestication.md)** — domestication history and species development
-- **[Farming](../farming/)** — quail manure as fertilizer
-- **[Food Preservation](../food/preservation.md)** — pickled quail eggs, cured quail meat
+- **[Farming](../agriculture/index.md)** — quail manure as fertilizer
+- **[Food Preservation](../food-processing/index.md)** — pickled quail eggs, cured quail meat
 
 ### Safety
 

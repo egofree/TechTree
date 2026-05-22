@@ -1,7 +1,7 @@
 # EDA, GPU Design & Advanced Packaging
 
 > **Node ID**: vlsi-scaling.eda-design
-> **Domain**: [VLSI Scaling & Advanced Semiconductor](./)
+> **Domain**: [VLSI Scaling & Advanced Semiconductor](./index.md)
 > **Dependencies**: [`computing`](../computing/index.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md)
 > **Timeline**: Years 70-200+
 > **Outputs**: eda_tools, gpus, advanced_packaging, vlsi_designs
@@ -146,4 +146,4 @@ Making the manufactured IC testable — ensuring defective chips can be identifi
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [VLSI Scaling](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*

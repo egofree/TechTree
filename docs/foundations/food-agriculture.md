@@ -1,7 +1,7 @@
 # Agriculture & Food Production
 
 > **Node ID**: foundations.food-agriculture
-> **Domain**: [Foundations](./)
+> **Domain**: [Foundations](./index.md)
 > **Timeline**: Years 0-10+
 > **Outputs**: food_surplus, grain, preserved_food
 
@@ -247,4 +247,4 @@ Bee pollination increases crop yields 20-30%.
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Foundations](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*

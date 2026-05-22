@@ -1,7 +1,7 @@
 # Steam Turbines
 
 > **Node ID**: energy.steam-power.steam-turbines
-> **Domain**: [Energy](./)
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.steam-power`](steam-power.md), [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools`](../machine-tools/index.md)
 > **Timeline**: Years 20-35
 > **Outputs**: turbine_power, electrical_generation, rotary_power
@@ -198,4 +198,4 @@ Blades operate under extreme conditions — centrifugal stress, steam erosion, c
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

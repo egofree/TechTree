@@ -1,7 +1,7 @@
 # Core Fab Processes
 
 > **Node ID**: photolithography.fab-processes
-> **Domain**: [Photolithography & IC Fabrication](./)
+> **Domain**: [Photolithography & IC Fabrication](./index.md)
 > **Dependencies**: [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md)
 > **Enables**: [`chemistry.packaging-testing`](../chemistry/packaging-testing.md), [`vlsi-scaling.advanced-processes`](../vlsi-scaling/advanced-processes.md), [`vlsi-scaling.continuous-scaling`](../vlsi-scaling/continuous-scaling.md)
 > **Timeline**: Years 40-70
@@ -203,4 +203,4 @@ Every process step must be measured. "If you can't measure it, you can't control
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Photolithography](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography](./index.md) • [All Domains](../index.md)*

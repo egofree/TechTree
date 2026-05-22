@@ -252,4 +252,4 @@ A 200 mm CZ puller running a 20 kg crystal consumes roughly 200-400 kWh over its
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Silicon](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*

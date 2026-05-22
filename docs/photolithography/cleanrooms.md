@@ -1,7 +1,7 @@
 # Cleanrooms
 
 > **Node ID**: photolithography.cleanrooms
-> **Domain**: [Photolithography & IC Fabrication](./)
+> **Domain**: [Photolithography & IC Fabrication](./index.md)
 > **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`chemistry`](../chemistry/index.md)
 > **Timeline**: Years 40-70
 > **Outputs**: cleanrooms, ultra_pure_water, cleanroom_consumables
@@ -223,4 +223,4 @@ The floor is a critical contamination control surface and must meet several requ
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Photolithography](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography](./index.md) • [All Domains](../index.md)*

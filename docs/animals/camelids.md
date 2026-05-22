@@ -1,7 +1,7 @@
 # Camelids (Alpacas and Llamas)
 
 > **Node ID**: animals.camelids
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
 > **Enables**: [`textiles.fibers`](../textiles/fibers.md), `transport.trails`
 > **Timeline**: Years 2-15+
@@ -177,7 +177,7 @@ Camelids are notably disease-resistant compared to other livestock species, whic
 - **[textiles/fibers](../textiles/fibers.md)** — alpaca and llama fiber processing, carding, spinning, and weaving
 - **[domestication](./domestication.md)** — camelid domestication history and comparative livestock data
 - **[pest-management](./pest-management.md)** — guard llama use for predator control in livestock operations
-- **[agriculture](../agriculture/)** — manure application and pasture management for camelid operations
+- **[agriculture](../agriculture/index.md)** — manure application and pasture management for camelid operations
 
 ### Safety
 

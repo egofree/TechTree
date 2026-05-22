@@ -197,4 +197,4 @@ Weld inspection ensures structural integrity in pressure vessels, load-bearing s
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Machine Tools](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*

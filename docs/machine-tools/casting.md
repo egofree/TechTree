@@ -185,7 +185,7 @@ Foundry work involves the highest temperatures in the machine shop. Safety disci
 - [Forming](./forming.md) — forging, rolling, and wire drawing of cast ingots
 - [Iterative Bootstrap](./iterative-bootstrap.md) — building machine tools from castings
 - [Bearings & Abrasives](./bearings-abrasives.md) — cutting tools and finishing operations for cast parts
-- [Ceramics](../ceramics/) — crucibles, refractory linings, and kiln furniture for foundry use
+- [Ceramics](../ceramics/index.md) — crucibles, refractory linings, and kiln furniture for foundry use
 
 ## Shell Molding
 
@@ -199,4 +199,4 @@ Shell molding produces castings with superior surface finish and tighter dimensi
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Machine Tools](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*

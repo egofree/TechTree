@@ -1,7 +1,7 @@
 # Goats (*Capra aegagrus hircus*)
 
 > **Node ID**: animals.goats
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
 > **Enables**: [`animals.animal-materials`](animal-materials.md), `food.dairy`, `textiles.fiber-processing`, [`agriculture.soil-management`](../agriculture/soil-management.md)
 > **Timeline**: Years 1-20+
@@ -136,9 +136,9 @@ When goats are used for brush clearing, they simultaneously clear land and ferti
 - **[Domestication](domestication.md)** — general livestock principles: housing, nutrition, breeding, herd health fundamentals
 - **[Animal-Derived Materials](animal-materials.md)** — goatskins, tallow, fiber processing
 - **[Sheep](sheep.md)** — complementary species for mixed grazing; compare management approaches
-- **[Dairy Processing](../food/dairy.md)** — goat cheese (chèvre, feta types), yogurt, and fermented milk products
-- **[Fiber Processing](../textiles/)** — cashmere dehairing, mohair spinning, and textile production
-- **[Agriculture](../agriculture/)** — brush clearing as land reclamation, pasture improvement, manure as fertilizer
+- **[Dairy Processing](../food-processing/index.md)** — goat cheese (chèvre, feta types), yogurt, and fermented milk products
+- **[Fiber Processing](../textiles/index.md)** — cashmere dehairing, mohair spinning, and textile production
+- **[Agriculture](../agriculture/index.md)** — brush clearing as land reclamation, pasture improvement, manure as fertilizer
 
 ### Safety
 

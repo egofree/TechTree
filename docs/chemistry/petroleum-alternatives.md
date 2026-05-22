@@ -1,7 +1,7 @@
 # Petroleum & Alternative Chemistry
 
 > **Node ID**: chemistry.petroleum-alternatives
-> **Domain**: [Petroleum & Alternative Chemistry](./)
+> **Domain**: [Petroleum & Alternative Chemistry](./index.md)
 > **Dependencies**: [`foundations`](../foundations/index.md)
 > **Enables**: [`transport.aviation`](../transport/aviation.md), [`energy.cooling`](../energy/cooling.md), [`chemistry.lubricants`](lubricants.md), [`polymers.rubber.synthetic`](../polymers/synthetic.md), [`polymers.thermoplastics`](../polymers/thermoplastics.md), [`polymers.thermosets`](../polymers/thermosets.md)
 > **Timeline**: Years 5-50+
@@ -201,4 +201,4 @@ Raw natural gas contains methane (70-90%), ethane, propane, butane, CO₂, H₂S
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

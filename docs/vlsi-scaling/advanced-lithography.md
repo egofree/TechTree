@@ -1,7 +1,7 @@
 # Advanced Lithography
 
 > **Node ID**: vlsi-scaling.advanced-lithography
-> **Domain**: [VLSI Scaling & Advanced Semiconductor](./)
+> **Domain**: [VLSI Scaling & Advanced Semiconductor](./index.md)
 > **Dependencies**: [`photolithography.resists-masks`](../photolithography/resists-masks.md), [`optics.inspection`](../optics/inspection.md)
 > **Timeline**: Years 70-200+
 > **Outputs**: advanced_lithography, euv_capability, duv_capability
@@ -105,4 +105,4 @@ Lithography is typically the throughput bottleneck and cost driver of a semicond
 - **High-voltage laser discharge (15-30 kV)**: Excimer laser discharge circuits store lethal energy in capacitor banks. Interlock the laser power supply so capacitors discharge through a bleeder resistor when panels are opened. Wait ≥5 × the RC time constant before servicing. Post "DANGER — HIGH VOLTAGE" signage. Only trained, authorized personnel may service laser power supplies.
 
 ---
-*Part of the [Bootciv Tech Tree](../) • [VLSI Scaling](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*

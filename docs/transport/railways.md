@@ -195,6 +195,6 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - **Slip and fall on ballast**: Walking on loose crushed stone ballast is inherently unstable. Rail workers frequently sprain ankles or fall, especially at night or when carrying equipment. Wear ankle-supporting boots with stiff soles. Walk between the rails (on the sleeper tops) rather than on the ballast shoulder. Use a lantern after dark.
 - **Electrification hazard** (later stage): Once electric traction is introduced, overhead catenary wires carry 1500-25,000 V. Any contact with or near these wires is immediately lethal. Clearance below the wire: minimum 4.5 m at maximum wire sag (hot weather, maximum span). Maintenance on or near the catenary requires the section to be de-energized and grounded. Never raise any object (pole, ladder, scaffold) within 2 m of a live catenary wire.
 
-*Part of the [Bootciv Tech Tree](../) • [Transport](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*
 
 

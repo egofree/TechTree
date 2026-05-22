@@ -201,4 +201,4 @@
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Health](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*

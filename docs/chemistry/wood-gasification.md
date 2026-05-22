@@ -104,7 +104,7 @@ Charcoal yield from wood pyrolysis: 20-35% by weight (higher with slower heating
 - **Tar and creosote exposure**: Wood tar contains phenols, cresols, and polycyclic aromatic hydrocarbons — skin irritants and suspected carcinogens. Wear gloves when handling scrubber water and filters. Wash skin immediately after contact.
 - **Ash disposal**: Wood ash is alkaline (pH 10-12). Irritating to skin and eyes. Handle with gloves. Ash from treated or painted wood may contain heavy metals — dispose of at designated waste site, not in gardens.
 
- *Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*
+ *Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 
 ## Gasifier Types and Selection
 

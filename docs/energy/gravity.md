@@ -1,7 +1,7 @@
 # Water Power
 
 > **Node ID**: energy.gravity
-> **Domain**: [Energy](./)
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: [`foundations`](../foundations/index.md), [`metals.copper-bronze`](../metals/copper-bronze.md) or [`metals.iron-steel`](../metals/iron-steel.md)
 > **Enables**: [`energy.steam-power`](steam-power.md) (boiler feedwater pumping, mechanical skills), [`foundations.food-agriculture`](../foundations/food-agriculture.md) (grain milling), [`health.sanitation`](../health/sanitation.md) (pumping), [`energy.electricity`](electricity.md) (prime mover for generators)
 > **Timeline**: Years 5-15
@@ -198,4 +198,4 @@ The fundamental hydraulic power formula P = η × ρ × g × Q × H applies to e
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

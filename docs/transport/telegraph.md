@@ -206,6 +206,6 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 
 **Speed of information transformation**: Before the telegraph, transatlantic information traveled at ship speed — 10-14 days by fast sailing packet, 7-10 days by steamship. After the 1866 cable, the same information crossed in minutes. On land, news traveled at telegraph speed (~15 words per minute on a single line, multiplied by hundreds of parallel lines) versus courier or pony express speed (8-15 km/h, with relay stations every 15-25 km). The telegraph compressed information transit time by a factor of 10,000-100,000 for intercontinental communication.
 
-*Part of the [Bootciv Tech Tree](../) • [Transport](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*
 
 

@@ -1,7 +1,7 @@
 # Pumped Hydroelectric Storage
 
 > **Node ID**: energy.storage.pumped-hydro
-> **Domain**: [Energy](./)
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.storage`](storage.md), [`energy.gravity`](gravity.md), [`machine-tools`](../machine-tools/index.md), [`metals.iron-steel`](../metals/iron-steel.md)
 > **Enables**: [`energy.electricity`](electricity.md) (grid stabilization), [`silicon`](../silicon/index.md) (reliable power for continuous processes)
 > **Timeline**: Years 25-40
@@ -120,7 +120,7 @@ Where:
 - **Water turbines for generating mode**: [water-turbines.md](water-turbines.md)
 - **Energy storage overview**: [storage.md](storage.md)
 - **Grid infrastructure**: [electricity.md](electricity.md)
- - **Dam and civil engineering foundations**: [Foundations](../foundations/)
+ - **Dam and civil engineering foundations**: [Foundations](../foundations/index.md)
 
 ### Reversible Pump-Turbine Design
 
@@ -199,4 +199,4 @@ Pumped hydro storage has a large physical footprint and several environmental im
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

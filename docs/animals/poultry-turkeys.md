@@ -1,7 +1,7 @@
 # Turkeys
 
 > **Node ID**: animals.poultry.turkeys
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md)
 > **Enables**: `food.preservation`, `textiles.clothing`
 > **Timeline**: Years 1-10+
@@ -101,9 +101,9 @@ Turkey manure is nutrient-dense: approximately 1.3% nitrogen, 1.0% phosphorus, 0
 
 - **[animals.poultry](poultry.md)** — shared poultry infrastructure, biosecurity, and feed formulation
 - **[animals.domestication](domestication.md)** — animal husbandry principles and predator protection
-- **[food.preservation](../food/preservation.md)** — meat preservation for turkey carcasses
-- **[plants.agriculture](../plants/)** — range management, pasture rotation, feed crop production
-- **[foundations.soil](../foundations/)** — manure composting and soil amendment
+- **[food.preservation](../food-processing/index.md)** — meat preservation for turkey carcasses
+- **[plants.agriculture](../plants/index.md)** — range management, pasture rotation, feed crop production
+- **[foundations.soil](../foundations/index.md)** — manure composting and soil amendment
 
 ### Safety
 

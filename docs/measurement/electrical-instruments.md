@@ -1,7 +1,7 @@
 # Electrical Instruments
 
 > **Node ID**: measurement.electrical-instruments
-> **Domain**: [Measurement](./)
+> **Domain**: [Measurement](./index.md)
 > **Dependencies**: `electrical-systems`, [`metals`](../metals/index.md), [`glass`](../glass/index.md)
 > **Timeline**: Years 20-35
 > **Outputs**: voltmeter, ammeter, ohmmeter, oscilloscope, multimeter, insulation_tester, frequency_counter
@@ -114,7 +114,7 @@ Reciprocal counting: instead of gating the input signal, the counter gates by th
 
 ### Galvanometer Movement
 
-Wind the moving coil on an aluminum former (the former also acts as an eddy-current damper, slowing the pointer to prevent overshoot). Wire gauge and turns are chosen for the desired sensitivity: a 50 μA movement uses ~200 turns of 50 AWG wire on a 15 × 20 mm former. The coil assembly must be lightweight (50-200 mg) for responsive deflection. The permanent magnet is alnico (see [Magnetic Materials](—alnico or ferrite magnet)) or ferrite, shaped with pole pieces to create a uniform radial field in the air gap where the coil rotates. The return springs are phosphor bronze, 0.01-0.02 mm thick, providing 5-20 μN·cm/degree of restoring torque.
+Wind the moving coil on an aluminum former (the former also acts as an eddy-current damper, slowing the pointer to prevent overshoot). Wire gauge and turns are chosen for the desired sensitivity: a 50 μA movement uses ~200 turns of 50 AWG wire on a 15 × 20 mm former. The coil assembly must be lightweight (50-200 mg) for responsive deflection. The permanent magnet is alnico (see **Magnetic Materials** (alnico or ferrite)) or ferrite, shaped with pole pieces to create a uniform radial field in the air gap where the coil rotates. The return springs are phosphor bronze, 0.01-0.02 mm thick, providing 5-20 μN·cm/degree of restoring torque.
 
 ### Shunt Resistor Construction
 
@@ -196,6 +196,6 @@ Beyond the standard instruments listed above, several specialized measurements a
 
 **Calibration Management**: Maintain calibration records for every instrument with serial number, calibration date, due date, standard used (traceable to national standards), and as-found/as-left data. Calibration intervals: DMMs 6-12 months, oscilloscopes 12 months, meggers 12 months. Field calibration checks between formal calibrations using reference standards (voltage reference: 10.000V ±0.01% for DMM spot-check, precision resistor 100.00 Ω ±0.01% for ohmmeter verification). Out-of-tolerance instruments trigger a review of measurements taken since last known-good calibration.
 
-*Part of the [Bootciv Tech Tree](../) · [Measurement](./) · [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Measurement](./index.md) · [All Domains](../index.md)*
 
 [← Back to Measurement](index.md)

@@ -1,7 +1,7 @@
 # Poultry Farming
 
 > **Node ID**: animals.poultry
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.domestication`](domestication.md), [`foundations`](../foundations/index.md), `plants.agriculture`
 > **Enables**: `food.preservation`, `foundations.soil`, `textiles.clothing`
 > **Timeline**: Years 0-10+
@@ -125,12 +125,12 @@ Run chickens on range first (scratch and fertilize), follow with crops. Use gees
 ### Cross-Domain Links
 
 - **[animals.domestication](domestication.md)** — livestock husbandry foundations, fencing, shelter construction
-- **[plants.agriculture](../plants/)** — feed grain production, pasture management, range rotation
-- **[food.preservation](../food/preservation.md)** — meat and egg preservation techniques
-- **[foundations.soil](../foundations/)** — manure composting and soil fertility management
-- **[textiles.clothing](../textiles/clothing.md)** — feathers and down for insulation and bedding
+- **[plants.agriculture](../plants/index.md)** — feed grain production, pasture management, range rotation
+- **[food.preservation](../food-processing/index.md)** — meat and egg preservation techniques
+- **[foundations.soil](../foundations/index.md)** — manure composting and soil fertility management
+- **[textiles.clothing](../textiles/index.md)** — feathers and down for insulation and bedding
 - **[animals.pest-management](pest-management.md)** — integrated pest management with poultry
-- **[knowledge.communication](../knowledge/communication.md)** — homing pigeons for long-distance messaging
+- **[knowledge.communication](../knowledge/index.md)** — homing pigeons for long-distance messaging
 
 ### Safety
 

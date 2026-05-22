@@ -107,4 +107,4 @@ A lithium recovery system using SEM Tech membranes would combine elements from t
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) | [Chemistry](./) | [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) | [Chemistry](./index.md) | [All Domains](../index.md)*

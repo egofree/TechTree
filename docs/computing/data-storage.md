@@ -1,7 +1,7 @@
 # Data Storage
 
 > **Node ID**: computing.data-storage
-> **Domain**: [Computing](./)
+> **Domain**: [Computing](./index.md)
 > **Dependencies**: `digital-logic`, `semiconductors`, `magnetic-materials`
 > **Timeline**: Years 35-50
 > **Outputs**: persistent_storage, removable_media, solid_state_memory
@@ -196,6 +196,6 @@ Each layer is roughly 10-100× slower but 10-100× cheaper per bit than the laye
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) · [Computing](./) · [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Computing](./index.md) · [All Domains](../index.md)*
 
 [← Back to Computing](index.md)

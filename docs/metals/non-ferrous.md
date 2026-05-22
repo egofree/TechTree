@@ -1,7 +1,7 @@
 # Non-Ferrous Metal Production
 
 > **Node ID**: metals.non-ferrous
-> **Domain**: [Metals](./)
+> **Domain**: [Metals](./index.md)
 > **Dependencies**: [`mining`](../mining/index.md), [`chemistry.acids`](../chemistry/acids.md), [`metals.copper-bronze`](copper-bronze.md)
 > **Timeline**: Years 15-40
 > **Outputs**: zinc, lead, tin, nickel, magnesium, titanium sponge
@@ -68,7 +68,7 @@ Lead is the densest common metal (11.34 g/cm³), extraordinarily malleable, and 
 - Toxic: Cumulative poison. Affects nervous system, kidneys, blood. Blood lead level threshold: 5 μg/dL (children).
 
 **Applications**:
-- **[Lead-acid batteries](../glossary/lead-acid-batteries.html)** (85% of consumption): Grids and active material (PbO₂ cathode, Pb sponge anode, H₂SO₄ electrolyte). See [Electrical Systems](../electronics/electrical-systems.md). Energy density: 30-40 Wh/kg. Cheap, reliable, >99% recycling rate.
+- **[Lead-acid batteries](../glossary/lead-acid-batteries.html)** (85% of consumption): Grids and active material (PbO₂ cathode, Pb sponge anode, H₂SO₄ electrolyte). See [Electrical Systems](../energy/electricity.md). Energy density: 30-40 Wh/kg. Cheap, reliable, >99% recycling rate.
 - **Radiation shielding**: X-ray rooms, nuclear shielding. High density and atomic number (82) absorb gamma and X-ray radiation. 2 mm Pb ≈ 1 HVL (half-value layer) for 100 keV X-rays.
 - **Ammunition**: Shot and bullets. High density gives short range but high kinetic energy delivery.
 - **Sound insulation and vibration damping**: Lead sheet laminated in walls. High internal damping.
@@ -92,7 +92,7 @@ Tin has been used since the Bronze Age — bronze is Cu-Sn alloy (see [Copper & 
 - Non-toxic: Tin is one of the few metals considered non-toxic. Tinplate for food containers is safe.
 
 **Applications**:
-- **[Solder](../glossary/solder.html)** (35%): Sn-Pb solder (63Sn-37Pb eutectic, mp 183°C) was the standard for millennia. Lead-free solders (mandated by RoHS since 2006): SAC305 (96.5Sn-3.0Ag-0.5Cu, mp 217-220°C), Sn-Cu (99.3Sn-0.7Cu, mp 227°C). See [Electronics Assembly](../electronics/assembly.md).
+- **[Solder](../glossary/solder.html)** (35%): Sn-Pb solder (63Sn-37Pb eutectic, mp 183°C) was the standard for millennia. Lead-free solders (mandated by RoHS since 2006): SAC305 (96.5Sn-3.0Ag-0.5Cu, mp 217-220°C), Sn-Cu (99.3Sn-0.7Cu, mp 227°C). See [Electronics Assembly](../computing/index.md).
 - **[Tinplate](../glossary/tinplate.html)** (30%): Electrolytic tin coating on steel sheet (0.5-2.0 μm Sn) for food and beverage cans. Provides non-toxic, corrosion-resistant, solderable surface.
 - **Bronze and pewter**: Tin as alloying element in bronze (Cu-5-10% Sn), bearing metals (Babbitt: Sn-7-10%Sb-3-5%Cu), and pewter (Sn-1-8%Sb-0-3%Cu, lead-free modern formulation).
 - **Glass coating**: Float glass production uses molten tin as the flat substrate — glass floats on tin bath at ~1000°C, producing optically flat surfaces (Pilkington process). This is the single largest industrial use of tin by volume of product enabled.
@@ -199,11 +199,11 @@ Titanium is the ninth most abundant element in Earth's crust (0.6%) but among th
 Non-ferrous metals have significant interdependencies:
 
 - **[Zinc](../glossary/zinc.html)** is required for the Parkes process (lead desilverization) and for sacrificial protection of steel (galvanizing).
-- **[Lead](../glossary/lead.html)** provides the initial battery storage essential before lithium systems exist (see [Electrical Systems](../electronics/electrical-systems.md)).
+- **[Lead](../glossary/lead.html)** provides the initial battery storage essential before lithium systems exist (see [Electrical Systems](../energy/electricity.md)).
 - **[Tin](../glossary/tin.html)** enables electronics solder — no tin, no reliable circuit assembly. Also critical for bronze production (see [Copper & Bronze](copper-bronze.md)).
 - **[Nickel](../glossary/nickel.html)** makes stainless steel possible — without nickel, only ferritic (lower-chromium, magnetic, less corrosion-resistant) stainless steels can be produced.
 - **[Magnesium](../glossary/magnesium.html)** is consumed by the Kroll process to produce titanium; conversely, titanium equipment serves in magnesium electrolysis cells.
-- **[Titanium](../glossary/titanium.html)** production requires chlorine (from electrolysis of NaCl/KCl — see [Chemistry](../chemistry/)), magnesium, and inert gas (argon from air separation).
+- **[Titanium](../glossary/titanium.html)** production requires chlorine (from electrolysis of NaCl/KCl — see [Chemistry](../chemistry/index.md)), magnesium, and inert gas (argon from air separation).
 
 **Suggested build order**:
 1. **[Tin and lead](../glossary/tin-and-lead.html)** (Years 15-20): Lowest complexity — simple reduction smelting, low temperatures. Enables bronze, solder, batteries.
@@ -228,4 +228,4 @@ Non-ferrous metals have significant interdependencies:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Metals](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

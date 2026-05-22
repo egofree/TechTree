@@ -166,7 +166,7 @@ Carbon disulfide (CS₂, bp 46.3°C) is a volatile, highly flammable, and toxic 
 
 **Properties**: Very low flash point (-30°C). Autoignition at 90°C — the lowest of any common industrial solvent. Hot steam pipes or even light bulbs can ignite CS₂ vapor. Vapor is 2.6× denser than air. Nearly insoluble in water. Excellent solvent for sulfur, phosphorus, rubber, fats, and resins.
 
-**Applications**: Viscose rayon (cellulose dissolved in CS₂/NaOH → extruded into acid bath → regenerated cellulose fibers — see [Polymers](../polymers/)). Rubber vulcanization accelerator (dissolves sulfur and accelerators). Carbon tetrachloride feedstock (CS₂ + 3Cl₂ → CCl₄ + S₂Cl₂).
+**Applications**: Viscose rayon (cellulose dissolved in CS₂/NaOH → extruded into acid bath → regenerated cellulose fibers — see [Polymers](../polymers/index.md)). Rubber vulcanization accelerator (dissolves sulfur and accelerators). Carbon tetrachloride feedstock (CS₂ + 3Cl₂ → CCl₄ + S₂Cl₂).
 
 **Toxicity**: Chronic exposure causes neurological damage (parkinsonism, psychosis). Acute poisoning at 1000+ ppm. Threshold limit value: 1 ppm (very low — stricter than most solvents). Use only in enclosed systems with local exhaust ventilation.
 
@@ -215,4 +215,4 @@ Discharging spent solvents is both wasteful and environmentally destructive. Rec
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

@@ -1,7 +1,7 @@
 # Chickens (*Gallus gallus domesticus*)
 
 > **Node ID**: animals.poultry.chickens
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md)
 > **Enables**: `animals.animal-housing`, `food.preservation`, `farming.composting`
 > **Timeline**: Years 0-5
@@ -119,8 +119,8 @@ Chicken manure is the highest-nitrogen common livestock manure at approximately 
 
 - **[Beekeeping](beekeeping.md)** — complementary pollination and honey-wax production
 - **[Domestication](domestication.md)** — species domestication history and breed development
-- **[Farming](../farming/)** — chicken manure as fertilizer, pest control in crop rotations
-- **[Food Preservation](../food/preservation.md)** — egg storage, meat curing, and preservation
+- **[Farming](../agriculture/index.md)** — chicken manure as fertilizer, pest control in crop rotations
+- **[Food Preservation](../food-processing/index.md)** — egg storage, meat curing, and preservation
 
 ### Safety
 

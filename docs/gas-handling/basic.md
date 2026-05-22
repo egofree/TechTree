@@ -1,7 +1,7 @@
 # Basic Gas Handling
 
 > **Node ID**: gas-handling.basic
-> **Domain**: [Gas Handling](./)
+> **Domain**: [Gas Handling](./index.md)
 > **Enables**: [`chemistry.air-separation`](../chemistry/air-separation.md), [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md)
 > **Timeline**: Years 20-35
 > **Outputs**: gas_handling, compressed_gases, purified_gases
@@ -204,4 +204,4 @@ The physical arrangement of gas storage affects both safety and operational effi
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Gas Handling](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*

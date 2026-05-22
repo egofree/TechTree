@@ -1,7 +1,7 @@
 # Vacuum Technology
 
 > **Node ID**: gas-handling.vacuum
-> **Domain**: [Gas Handling](./)
+> **Domain**: [Gas Handling](./index.md)
 > **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_pumps, vacuum_chambers, vacuum_measurement, leak_detection
@@ -198,4 +198,4 @@ The cleanliness of components installed in a vacuum system directly determines t
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Gas Handling](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*

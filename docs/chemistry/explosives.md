@@ -126,7 +126,7 @@ The most widely used industrial explosive worldwide — cheap, safe, effective f
 - **Static electricity**: Can initiate black powder and some primary explosives. Ground all metal equipment. Wear cotton clothing (not synthetic). Maintain humidity above 50% in work areas.
 - **Toxic fumes**: Explosion gases contain CO, NO₂, and other toxic products. Ventilate blast areas thoroughly before re-entry. NO₂ is invisible but causes pulmonary edema — coughing, chest tightness, shortness of breath hours after exposure. Seek medical attention immediately.
 
- *Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*
+ *Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 
 ## TNT Manufacture Detail
 

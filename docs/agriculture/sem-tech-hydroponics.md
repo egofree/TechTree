@@ -112,4 +112,4 @@ Total estimated materials cost for the ED component: $20-50, dominated by the po
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) | [Agriculture](./) | [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) | [Agriculture](./index.md) | [All Domains](../index.md)*

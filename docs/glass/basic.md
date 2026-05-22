@@ -1,7 +1,7 @@
 # Basic Glass Production
 
 > **Node ID**: glass.basic
-> **Domain**: [Glass](./)
+> **Domain**: [Glass](./index.md)
 > **Timeline**: Years 5-15
 > **Outputs**: basic_glass, potash
 
@@ -198,4 +198,4 @@ Calculating batch weights from a desired glass composition:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Glass](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*

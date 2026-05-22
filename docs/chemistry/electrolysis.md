@@ -153,7 +153,7 @@ Cheap, abundant electricity is the prerequisite for all electrolysis. Without re
 
  ---
 
-*Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 
 ## Chlor-Alkali Membrane Cell: Detailed Parameters
 

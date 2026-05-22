@@ -1,7 +1,7 @@
 # Photoresists, Masks & Lithography
 
 > **Node ID**: photolithography.resists-masks
-> **Domain**: [Photolithography & IC Fabrication](./)
+> **Domain**: [Photolithography & IC Fabrication](./index.md)
 > **Dependencies**: [`chemistry`](../chemistry/index.md), [`polymers.thermosets`](../polymers/thermosets.md)
 > **Enables**: [`vlsi-scaling.advanced-lithography`](../vlsi-scaling/advanced-lithography.md)
 > **Timeline**: Years 40-70
@@ -34,7 +34,7 @@
 - **Epoxy encapsulation**: Two-part epoxy for die attach and hermetic sealing — see [Polymers](../polymers/index.md) and [Semiconductor Packaging & Testing](../chemistry/packaging-testing.md)
 - **Plastic substrates and lead frames**: Molded plastic packages for integrated circuits
 - **Phenolic laminate (FR-4)**: PCB substrate material from phenolic or epoxy resin impregnated glass fabric — see [Polymers](../polymers/index.md)
-- **Photoresist dependency**: Novolac resin (phenol + formaldehyde condensation polymer) production path documented in [Polymers](../polymers/index.md), with monomer feedstocks from [Petrochemicals](../petrochemicals/petroleum-alternatives.md)
+- **Photoresist dependency**: Novolac resin (phenol + formaldehyde condensation polymer) production path documented in [Polymers](../polymers/index.md), with monomer feedstocks from [Petrochemicals](../polymers/index.md)
 - **Solvent recovery**: PGMEA and ethyl lactate can be reclaimed by fractional distillation for reuse, reducing cost and waste stream. Acetone recovery similarly practical.
 
 ### Mask Making
@@ -225,4 +225,4 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Photolithography](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Photolithography](./index.md) • [All Domains](../index.md)*

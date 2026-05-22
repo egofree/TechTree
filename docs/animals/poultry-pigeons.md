@@ -1,7 +1,7 @@
 # Pigeons and Squab
 
 > **Node ID**: animals.poultry.pigeons
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md)
 > **Enables**: `food.preservation`, `knowledge.communication`, `foundations.soil`
 > **Timeline**: Years 1-10+
@@ -132,10 +132,10 @@ Because parents feed squab from their own foraged or supplemented diet, the effe
 
 - **[animals.poultry](poultry.md)** — shared poultry infrastructure, biosecurity, and feed formulation
 - **[animals.domestication](domestication.md)** — general animal husbandry principles
-- **[food.preservation](../food/preservation.md)** — meat preservation for squab
-- **[foundations.soil](../foundations/)** — guano as premium fertilizer for soil building
-- **[knowledge.communication](../knowledge/communication.md)** — homing pigeons for message delivery
-- **[plants.agriculture](../plants/)** — pigeon guano fertilizer for crop production
+- **[food.preservation](../food-processing/index.md)** — meat preservation for squab
+- **[foundations.soil](../foundations/index.md)** — guano as premium fertilizer for soil building
+- **[knowledge.communication](../knowledge/index.md)** — homing pigeons for message delivery
+- **[plants.agriculture](../plants/index.md)** — pigeon guano fertilizer for crop production
 
 ### Safety
 

@@ -197,4 +197,4 @@ Kiln fuel consumption is the dominant operating cost in ceramic production. Unde
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Ceramics & Refractories](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Ceramics & Refractories](./index.md) • [All Domains](../index.md)*

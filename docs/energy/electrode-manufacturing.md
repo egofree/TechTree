@@ -1,7 +1,7 @@
 # Electrode Manufacturing
 
 > **Node ID**: energy.electric-furnaces.electrode-manufacturing
-> **Domain**: [Energy](./)
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.electric-furnaces`](electric-furnaces.md), [`energy.fuels.coke`](coke.md), [`chemistry`](../chemistry/index.md)
 > **Enables**: [`energy.electric-furnaces`](electric-furnaces.md) (graphite electrodes), [`silicon.mg-si-production`](../silicon/mg-si-production.md) (SAF electrodes)
 > **Timeline**: Years 20-35
@@ -203,4 +203,4 @@ Electrode nipple design also varies by grade. RP electrodes use standard four-st
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

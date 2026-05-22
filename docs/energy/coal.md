@@ -193,7 +193,7 @@ Coal is the foundational fossil fuel of industrial civilization. It provides the
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
 
 ---
 

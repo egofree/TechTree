@@ -1,7 +1,7 @@
 # Cooling Systems & Refrigeration
 
 > **Node ID**: energy.cooling
-> **Domain**: [Energy](./)
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.electricity`](electricity.md), [`machine-tools`](../machine-tools/index.md), [`chemistry`](../chemistry/index.md), [`metals.iron-steel`](../metals/iron-steel.md)
 > **Enables**: [`chemistry.air-separation`](../chemistry/air-separation.md), [`photolithography.cleanrooms`](../photolithography/cleanrooms.md), [`silicon.crystal-growth`](../silicon/crystal-growth.md)
 > **Timeline**: Years 20-30
@@ -200,4 +200,4 @@ The ammonia absorption cycle runs on four main temperature zones, each correspon
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Energy](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

@@ -197,6 +197,6 @@ Store coal under cover to keep it dry. Wet coal doesn't burn as hot and produces
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Foundations](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*
 
-[← Back to Foundations](./)
+[← Back to Foundations](./index.md)

@@ -1,7 +1,7 @@
 # Optical Coatings
 
 > **Node ID**: optics.inspection.optical-coatings
-> **Domain**: [Optics](./)
+> **Domain**: [Optics](./index.md)
 > **Dependencies**: [`optics.inspection`](inspection.md), `vacuum.basics`
 > **Enables**: [`vlsi-scaling.advanced-lithography`](../vlsi-scaling/advanced-lithography.md), `optics.precise-instruments`
 > **Timeline**: Years 30-40
@@ -205,4 +205,4 @@ This graphical approach helps designers understand why certain layer sequences w
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Optics](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Optics](./index.md) • [All Domains](../index.md)*

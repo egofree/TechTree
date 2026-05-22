@@ -1,7 +1,7 @@
 # Structural Plants
 
 > **Node ID**: plants.structural-plants
-> **Domain**: [Plants & Botanical Resources](./)
+> **Domain**: [Plants & Botanical Resources](./index.md)
 > **Timeline**: Years 0-10
 > **Outputs**: structural_timber, building_materials, thatch, wattle, poles
 
@@ -186,11 +186,11 @@ Wall thickness: 100-150 mm. Insulation value: moderate (poorer than solid masonr
 
 ### Dependencies
 
-- Requires: [Plants & Botanical Resources](./) (tool) — plant identification, propagation, and management knowledge
+- Requires: [Plants & Botanical Resources](./index.md) (tool) — plant identification, propagation, and management knowledge
 - Requires: [Stone & Wood Tools](../foundations/tools-basic.md) (tool) — axes, wedges, mauls for felling and processing
 - Requires: [Fire-Making](../foundations/fire.md) (tool) — fire-assisted felling, charcoal production for treating
 - Enables: [Fuel Production](../energy/fuels.md) (material) — wood offcuts and non-structural roundwood become fuel
-- Enables: [Charcoal Production](../energy/fuels.md#charcoal-production) (material) — scrap timber and branches feed charcoal kilns
+- Enables: [Charcoal Production](../energy/charcoal.md) (material) — scrap timber and branches feed charcoal kilns
 
 ### Safety & Hazards
 

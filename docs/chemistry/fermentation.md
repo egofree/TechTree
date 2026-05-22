@@ -109,7 +109,7 @@ Organic waste (manure, food waste, sewage sludge, agricultural residues) decompo
 - **Distillation explosion**: NEVER distill in sealed vessels — pressure buildup causes explosion. Use open system with condenser vented to atmosphere. Never heat above boiling point of highest-boiling component. Pressure relief on all heated vessels.
 - **CO₂ asphyxiation**: Fermentation produces large volumes of CO₂ (heavier than air, displaces oxygen). Never enter fermentation room without ventilation. CO₂ buildup in enclosed spaces causes rapid unconsciousness and death. Ensure adequate ventilation in all fermentation areas.
 
- *Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*
+ *Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 
 ## Ethanol Production: Detailed Process Parameters
 

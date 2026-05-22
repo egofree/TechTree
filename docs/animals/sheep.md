@@ -1,7 +1,7 @@
 # Sheep (*Ovis aries*)
 
 > **Node ID**: animals.sheep
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
 > **Enables**: [`animals.animal-materials`](animal-materials.md), `textiles.wool-processing`, `food.dairy`, [`agriculture.soil-management`](../agriculture/soil-management.md)
 > **Timeline**: Years 1-25+
@@ -128,9 +128,9 @@ Sheepskins with the wool on produce durable, warm rugs, seat covers, and footwea
 
 - **[Domestication](domestication.md)** — general livestock principles: housing, nutrition, breeding, health fundamentals
 - **[Animal-Derived Materials](animal-materials.md)** — wool processing, leather tanning, lanolin extraction, horn and bone working
-- **[Wool Processing](../textiles/wool-processing.md)** — scouring, carding, spinning, weaving, and felting wool into textiles
-- **[Dairy Processing](../food/dairy.md)** — sheep milk cheese (pecorino, feta, Roquefort types), yogurt, and fermented products
-- **[Agriculture](../agriculture/)** — pasture management, crop residues as winter feed, manure as fertilizer
+- **[Wool Processing](../textiles/index.md)** — scouring, carding, spinning, weaving, and felting wool into textiles
+- **[Dairy Processing](../food-processing/index.md)** — sheep milk cheese (pecorino, feta, Roquefort types), yogurt, and fermented products
+- **[Agriculture](../agriculture/index.md)** — pasture management, crop residues as winter feed, manure as fertilizer
 
 ### Safety
 

@@ -1,7 +1,7 @@
 # Precision Optical Instruments
 
 > **Node ID**: optics.precision-instruments
-> **Domain**: [Optics](./)
+> **Domain**: [Optics](./index.md)
 > **Dependencies**: [`optics.inspection`](inspection.md), [`measurement.optical-instruments`](../measurement/optical-instruments.md)
 > **Timeline**: Years 30-45
 > **Outputs**: precision_lenses, optical_flats, interferometers, autocollimators, optical_comparators
@@ -197,6 +197,6 @@ Before any precision flatness measurement, the optical flat and the test piece m
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Optics](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Optics](./index.md) • [All Domains](../index.md)*
 
 [← Back to Optics](index.md)

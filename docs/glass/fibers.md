@@ -1,7 +1,7 @@
 # Glass Fibers
 
 > **Node ID**: glass.fibers
-> **Domain**: [Glass](./)
+> **Domain**: [Glass](./index.md)
 > **Dependencies**: [`glass.basic`](basic.md), [`metals.non-ferrous`](../metals/non-ferrous.md), [`polymers.thermosets`](../polymers/thermosets.md)
 > **Timeline**: Years 30-45
 > **Outputs**: fiberglass, insulation_wool, optical_fiber, composite_reinforcement
@@ -190,7 +190,7 @@ Fiberglass is rarely used as bare fiber. Its value is as reinforcement in a poly
 - **Platinum for bushings**: platinum bushings (see [Metals](../metals/non-ferrous.md))
 - **Phenolic resin for wool binder**: phenolic resin (see [Polymers](../polymers/thermosets.md))
 - **Composite manufacturing with fiberglass**: [composites](../polymers/composites.md)
-- **Chemical precursors (SiCl₄, GeCl₄)**: [silicon processing](../silicon/)
+- **Chemical precursors (SiCl₄, GeCl₄)**: [silicon processing](../silicon/index.md)
 - **Silica raw material**: [Glass Composition](basic.md)
 
 ### Fiberglass Composite Manufacturing Detail
@@ -209,6 +209,6 @@ Fiberglass is rarely used as bare fiber. Its value is as reinforcement in a poly
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) · [Glass](./) · [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Glass](./index.md) · [All Domains](../index.md)*
 
 [← Back to Glass](index.md)

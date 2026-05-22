@@ -1,7 +1,7 @@
 # Iron & Steel Production
 
 > **Node ID**: metals.iron-steel
-> **Domain**: [Metallurgy](./)
+> **Domain**: [Metallurgy](./index.md)
 > **Dependencies**: [`metals.copper-bronze`](copper-bronze.md)
 > **Enables**: [`energy.steam-power`](../energy/steam-power.md), [`machine-tools.casting`](../machine-tools/casting.md), [`machine-tools.joining`](../machine-tools/joining.md)
 > **Timeline**: Years 5-15
@@ -237,4 +237,4 @@ These three forms of iron-carbon alloy represent fundamentally different materia
 - **Quenching hazards**: Plunging hot steel (780-850°C) into water produces violent boiling and steam splash. Oil quenching (used for springs and high-carbon steel to prevent cracking) creates risk of oil ignition — the oil can flash if the workpiece is too hot. Use a deep quench tank, lower the workpiece quickly and completely, and keep a lid nearby to smother oil fires. Do not use oil quenching near open flames.
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Metals](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

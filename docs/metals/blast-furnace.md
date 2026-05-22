@@ -1,7 +1,7 @@
 # Blast Furnace & Cast Iron Production
 
 > **Node ID**: metals.iron-steel.blast-furnace
-> **Domain**: [Metallurgy](./)
+> **Domain**: [Metallurgy](./index.md)
 > **Dependencies**: [`metals.iron-steel`](iron-steel.md)
 > **Enables**: `metals.casting`, [`machine-tools.casting`](../machine-tools/casting.md)
 > **Timeline**: Years 10-20
@@ -217,4 +217,4 @@ Direct reduction is an alternative to the blast furnace that produces solid iron
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Metals](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

@@ -197,4 +197,4 @@ Soap production scales with the alkali supply chain. The progression is:
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Chemistry](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

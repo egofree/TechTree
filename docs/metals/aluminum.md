@@ -1,7 +1,7 @@
 # Aluminum Production
 
 > **Node ID**: metals.aluminum
-> **Domain**: [Metals](./)
+> **Domain**: [Metals](./index.md)
 > **Dependencies**: [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`chemistry.alkalis`](../chemistry/alkalis.md), [`energy.electricity`](../energy/electricity.md), [`mining`](../mining/index.md)
 > **Timeline**: Years 20-40
 > **Outputs**: aluminum ingots, extrusions, castings, sheet
@@ -211,4 +211,4 @@ Recycling is integral to the aluminum industry — not an afterthought. The ener
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) • [Metals](./) • [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

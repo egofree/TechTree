@@ -1,7 +1,7 @@
 # Vermiculture (Worm Composting)
 
 > **Node ID**: agriculture.soil-management.vermiculture
-> **Domain**: [Agriculture](./)
+> **Domain**: [Agriculture](./index.md)
 > **Parent**: [Soil Management](./soil-management.md)
 > **Dependencies**: [`agriculture.soil-management`](soil-management.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
 > **Enables**: `agriculture.crop-production`, [`health.medicine`](../health/medicine.md)

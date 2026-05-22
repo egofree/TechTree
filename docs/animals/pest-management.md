@@ -1,7 +1,7 @@
 # Pest Management
 
 > **Node ID**: animals.pest-management
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`foundations`](../foundations/index.md), [`animals.domestication`](domestication.md)
 > **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md)
 > **Timeline**: Years 0-10
@@ -170,9 +170,9 @@ Walk fields weekly during the growing season. Count pest populations using stand
 ## Cross-Domain Links
 
 - **[Domestication & Husbandry](domestication.md)** — selective breeding, training, and health management of guardian and pest control animals
-- **[Plants](../plants/)** — companion planting for pest deterrence (marigolds, basil, nasturtiums)
+- **[Plants](../plants/index.md)** — companion planting for pest deterrence (marigolds, basil, nasturtiums)
 - **[Food & Agriculture](../foundations/food-agriculture.md)** — crop protection is the primary economic driver for pest management
-- **[Health](../health/)** — zoonotic disease prevention, tick-borne illness reduction, food safety
+- **[Health](../health/index.md)** — zoonotic disease prevention, tick-borne illness reduction, food safety
 
 ## Safety
 

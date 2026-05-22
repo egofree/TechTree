@@ -1,7 +1,7 @@
 # Ventilation
 
 > **Node ID**: mining.ventilation
-> **Domain**: [Mining](./)
+> **Domain**: [Mining](./index.md)
 > **Dependencies**: [`mining.drilling`](drilling.md), [`energy.steam-power`](../energy/steam-power.md)
 > **Timeline**: Years 10-18
 > **Outputs**: breathable_air, methane_control, dust_suppression
@@ -198,6 +198,6 @@ The wet bulb globe temperature (WBGT) index combines dry-bulb temperature, natur
 
 ---
 
-*Part of the [Bootciv Tech Tree](../) · [Mining](./) · [All Domains](../)*
+*Part of the [Bootciv Tech Tree](../index.md) · [Mining](./index.md) · [All Domains](../index.md)*
 
 [← Back to Mining](index.md)

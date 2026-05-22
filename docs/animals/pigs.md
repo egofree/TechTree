@@ -1,7 +1,7 @@
 # Pigs (*Sus scrofa domesticus*)
 
 > **Node ID**: animals.pigs
-> **Domain**: [Animals](./)
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
 > **Enables**: [`animals.animal-materials`](animal-materials.md), `food.preservation`, [`agriculture.soil-management`](../agriculture/soil-management.md)
 > **Timeline**: Years 1-20+
@@ -161,9 +161,9 @@ Pig manure is produced at 5-10 kg/day per animal (approximately 2-3 tonnes per g
 
 - **[Domestication](domestication.md)** — general livestock principles: housing, nutrition, breeding, health fundamentals
 - **[Animal-Derived Materials](animal-materials.md)** — lard rendering, leather tanning, bristle harvesting, bone and glue production
-- **[Food Preservation](../food/preservation.md)** — bacon curing, ham smoking, sausage making, lard storage
-- **[Dairy Processing](../food/dairy.md)** — whey as pig feed, integrated dairy-pig production
-- **[Agriculture](../agriculture/)** — crop residues as feed, pig manure as fertilizer, pasture rotation
+- **[Food Preservation](../food-processing/index.md)** — bacon curing, ham smoking, sausage making, lard storage
+- **[Dairy Processing](../food-processing/index.md)** — whey as pig feed, integrated dairy-pig production
+- **[Agriculture](../agriculture/index.md)** — crop residues as feed, pig manure as fertilizer, pasture rotation
 
 ### Safety
 

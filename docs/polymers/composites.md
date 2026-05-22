@@ -51,7 +51,7 @@ Kevlar 49 is the standard composite reinforcement grade. Outstanding impact resi
 The simplest composite manufacturing method, achievable at minimal technology level. Sequence:
 
 1. **Mold preparation**: Apply release agent (paste wax, PVA film, or silicone spray) to mold surface to prevent cured part from sticking.
-2. **Gel coat** (optional): Apply a thin layer (0.3-0.5 mm) of pigmented, unreinforced resin directly to the mold surface. This becomes the cosmetic outer surface of the finished part. Cure until tacky (30-60 minutes for polyester).
+2. **[Gel coat](../glossary/gel-coat.html)** (optional): Apply a thin layer (0.3-0.5 mm) of pigmented, unreinforced resin directly to the mold surface. This becomes the cosmetic outer surface of the finished part. Cure until tacky (30-60 minutes for polyester).
 3. **Layup**: Cut fiberglass mat or fabric to shape. Place on mold. Apply resin by brush or roller. Work resin into the fiber with a consolidation roller (serrated aluminum or nylon roller) to wet out the fiber and remove entrapped air. Add additional layers, alternating fiber direction (0°/90°/±45° orientations typical), with resin between each layer.
 4. **Cure**: Allow to cure at ambient temperature (20-30°C, 24 hours for full cure). Post-cure at 60-80°C for 2-4 hours to improve properties if oven is available.
 
@@ -120,8 +120,8 @@ Vinyl ester: hybrid chemistry — epoxy backbone with unsaturated ester end-grou
 Raw materials: silica sand (~60%), limestone (~20%), borax (~10%), alumina,
 soda ash. Batch melted at ~1400°C, drawn through platinum-rhodium bushings
 into filaments 5–25 µm diameter, coated with sizing (silane coupling compound + film former) for protection and resin adhesion.
-- **E-glass** (electrical): alumino-borosilicate, most common, cheaper
-- **S-glass** (structural): magnesia-alumina-silicate, ~30% higher tensile
+- **[E-glass](../glossary/e-glass.html)** (electrical): alumino-borosilicate, most common, cheaper
+- **[S-glass](../glossary/s-glass.html)** (structural): magnesia-alumina-silicate, ~30% higher tensile
   strength, higher melt temperature
 Forms: continuous roving, chopped strand mat (25–50 mm random fibers),
 woven fabric (plain, twill, satin weave).

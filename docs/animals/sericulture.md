@@ -90,10 +90,10 @@ Feed quality degrades after picking. Keep harvested leaves in a cool, shaded pla
 
 Silkworms are susceptible to several diseases that spread rapidly in crowded rearing conditions:
 
-- **Pebrine** (*Nosema bombycis*): Microsporidian parasite transmitted through eggs or feces. Causes irregular growth, molting failure, and death. No cure. Prevention: screen breeding stock microscopically and destroy infected eggs. This disease collapsed the French silk industry in the 1860s before Louis Pasteur developed screening methods.
+- **[Pebrine](../glossary/pebrine.html)** (*Nosema bombycis*): Microsporidian parasite transmitted through eggs or feces. Causes irregular growth, molting failure, and death. No cure. Prevention: screen breeding stock microscopically and destroy infected eggs. This disease collapsed the French silk industry in the 1860s before Louis Pasteur developed screening methods.
 - **Flacherie**: Bacterial gut infection causing lethargy, diarrhea, and death. Triggered by overheating, high humidity, or contaminated feed. Remove affected larvae immediately. Reduce humidity and improve ventilation.
-- **Grasserie** (nuclear polyhedrosis): Viral infection causing larvae to become swollen, glossy, and lethargic. Spreads through frass and body fluids. No treatment. Destroy infected larvae and disinfect trays.
-- **Muscardine** (fungal): White or green fungus growing on and mummifying larvae. Caused by excessive humidity. Remove infected individuals. Reduce moisture. Disinfect trays with 2% formaldehyde solution or slaked lime wash between rearing cycles.
+- **[Grasserie](../glossary/grasserie.html)** (nuclear polyhedrosis): Viral infection causing larvae to become swollen, glossy, and lethargic. Spreads through frass and body fluids. No treatment. Destroy infected larvae and disinfect trays.
+- **[Muscardine](../glossary/muscardine.html)** (fungal): White or green fungus growing on and mummifying larvae. Caused by excessive humidity. Remove infected individuals. Reduce moisture. Disinfect trays with 2% formaldehyde solution or slaked lime wash between rearing cycles.
 
 Prevention is the only viable strategy. Disinfect all trays, racks, and the rearing room between cycles. Keep temperature and humidity within the prescribed ranges. Remove dead or diseased larvae promptly. Never reuse trays from a diseased batch without full disinfection.
 

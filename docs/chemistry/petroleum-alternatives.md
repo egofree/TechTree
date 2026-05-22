@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.petroleum-alternatives
 > **Domain**: [Petroleum & Alternative Chemistry](./)
-> **Dependencies**: `foundations`
-> **Enables**: `transport.aviation`, `energy.cooling`, `chemistry.lubricants`, `polymers.rubber.synthetic`, `polymers.thermoplastics`, `polymers.thermosets`
+> **Dependencies**: [`foundations`](../foundations/index.md)
+> **Enables**: [`transport.aviation`](../transport/aviation.md), [`energy.cooling`](../energy/cooling.md), [`chemistry.lubricants`](lubricants.md), [`polymers.rubber.synthetic`](../polymers/synthetic.md), [`polymers.thermoplastics`](../polymers/thermoplastics.md), [`polymers.thermosets`](../polymers/thermosets.md)
 > **Timeline**: Years 5-50+
 > **Outputs**: gasoline, kerosene, diesel, lubricating_oil, benzene, phenol, ethanol, acetone, methanol, producer_gas, ...
 
@@ -15,11 +15,11 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 
 ### Petroleum Extraction
 
-**Surface seeps** (Foundations-Metallurgy stages):
+**[Surface seeps](../glossary/surface-seeps.html)** (Foundations-Metallurgy stages):
 - Oil seeps to surface naturally in many geological settings. Collect by hand with buckets or by digging shallow pits (1-3 m deep) where oil accumulates. Filter through cloth to remove sand and water. Yield: 5-50 liters/day per seep.
 - **Oil springs**: Where oil flows with water, dig collecting pool. Oil floats on water — skim with ladles. This is how the first oil wells began (Titusville, Pennsylvania, 1859).
 
-**Cable-tool drilling** (the Metallurgy-Machine Tools stage transition):
+**[Cable-tool drilling](../glossary/cable-tool-drilling.html)** (the Metallurgy-Machine Tools stage transition):
 - **Principle**: Heavy steel bit (chisel shape, 50-200 kg) lifted and dropped by cable onto rock floor. Crushes rock. Bail out debris with sand pump (valved tube on separate cable). Repeat.
 - **Rig construction**: Wooden derrick 10-20 m tall. Walking beam (rocking beam powered by steam engine or horse). Drill cable on one end, counterweight on other. Cable wraps around drum with ratchet for controlled feed.
 - **Casing**: Iron pipes (10-15 cm diameter) driven into hole as drilling progresses. Prevents hole collapse and groundwater contamination. Joints screwed and sealed with lead or hemp packing.
@@ -34,25 +34,25 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 
 ### Petroleum Refining
 
-**Simple distillation** (batch still, the Metallurgy-Machine Tools stage transition):
+**[Simple distillation](../glossary/simple-distillation.html)** (batch still, the Metallurgy-Machine Tools stage transition):
 - **Equipment**: Iron or copper pot (200-1000 liters) with removable top. Top connects to condenser (copper coil in water bath, 10-20 m coiled length). Heat from wood fire or coal beneath pot.
 - **Process**: Fill pot with crude oil. Heat gradually. Monitor temperature at still head. Collect fractions by temperature range:
-  - **Light naphtha** (30-90°C): Solvents, cleaning, later gasoline blending (~5-15% of crude)
-  - **Heavy naphtha** (90-150°C): Further processing into gasoline (~10-20%)
-  - **Kerosene** (150-250°C): Lamp fuel, heating, jet fuel precursor (~15-25%)
-  - **Diesel/gas oil** (250-350°C): Engine fuel, heating oil (~15-25%)
-  - **Lubricating oil** (350-500°C): Bearing oil, machine oil, later hydraulic fluid (~10-20%)
-  - **Residual fuel oil / asphalt** (>500°C): Boiler fuel, road paving, waterproofing (~15-30%)
+  - **[Light naphtha](../glossary/light-naphtha.html)** (30-90°C): Solvents, cleaning, later gasoline blending (~5-15% of crude)
+  - **[Heavy naphtha](../glossary/heavy-naphtha.html)** (90-150°C): Further processing into gasoline (~10-20%)
+  - **[Kerosene](../glossary/kerosene.html)** (150-250°C): Lamp fuel, heating, jet fuel precursor (~15-25%)
+  - **[Diesel/gas oil](../glossary/dieselgas-oil.html)** (250-350°C): Engine fuel, heating oil (~15-25%)
+  - **[Lubricating oil](../glossary/lubricating-oil.html)** (350-500°C): Bearing oil, machine oil, later hydraulic fluid (~10-20%)
+  - **[Residual fuel oil / asphalt](../glossary/residual-fuel-oil-asphalt.html)** (>500°C): Boiler fuel, road paving, waterproofing (~15-30%)
 - **Yield**: ~40-60% usable products from simple distillation. Residue can be cracked thermally (heat to 450-500°C in closed vessel → breaks large molecules into smaller ones, yields more gasoline/kerosene).
 - **Safety**: NEVER distill in sealed vessel — pressure explosion risk. Use open system with vent. Fire risk extreme — have sand and fire blankets ready. No open flames near crude oil. Work outdoors or in well-ventilated shed.
 
-**Fractional distillation column** (continuous):
+**[Fractional distillation column](../glossary/fractional-distillation-column.html)** (continuous):
 - **Construction**: Vertical column 5-20 m tall, 0.3-1.5 m diameter. Iron or steel construction. Internal trays (bubble-cap or sieve trays) every 0.3-0.6 m — each tray is a theoretical separation stage. 15-40 trays typical. Reboiler at bottom (steam-heated or oil-fired). Condenser at top (water-cooled).
 - **Operation**: Preheated crude oil fed into column at midpoint (~tray 10-15 of 30). Hot vapors rise through trays. Each tray holds a liquid layer. Rising vapors bubble through liquid — heavier components condense, lighter components strip out. Temperature gradient from bottom (~350°C) to top (~30°C). Draw products at appropriate side ports. Continuous operation — feed in, multiple products out.
 - **Control**: Monitor temperature at each draw point. Adjust reboiler heat rate and reflux ratio (fraction of condensed top product returned to column — higher reflux = better separation, lower throughput). Typical reflux ratio 2:1 to 5:1.
 - **Product purities**: Much cleaner cuts than batch still. Kerosene fraction: 95%+ pure in boiling range. Critical for consistent fuel quality.
 
-**Thermal cracking** (Chemistry):
+**[Thermal cracking](../glossary/thermal-cracking.html)** (Chemistry):
 - Heat heavy oil fractions to 450-500°C at 0.7-3.5 MPa pressure in tubular furnace. Residence time 10-60 seconds. Large hydrocarbon molecules break into smaller ones. Converts heavy fuel oil into additional gasoline and middle distillates. Yield: ~40-50% gasoline from heavy feed.
 
 ### Coal Tar Chemistry (the petroleum-free path)
@@ -64,15 +64,15 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 
 **Coal tar distillation**:
 - Distill coal tar in pot still or fractionating column (cast iron or steel). Gradual heating:
-  - **Light oil** (up to 170°C): ~5% of tar. Contains benzene (C₆H₆), toluene (C₇H₈), xylene (C₈H₁₀) — KEY organic chemistry feedstocks. Further fractionated by re-distillation. Benzene boils at 80°C, toluene at 111°C, xylene at 139°C.
-  - **Carbolic/creosote oil** (170-230°C): ~10% of tar. Contains phenol (C₆H₅OH), cresols (methylphenols). Phenol extracted with NaOH solution → sodium phenolate → re-precipitate with CO₂ or H₂SO₄. Phenol critical for Bakelite resin, pharmaceuticals, disinfectants.
-  - **Naphthalene oil** (230-270°C): ~10% of tar. Naphthalene (C₁₀H₈) crystallizes on cooling (mp 80°C). Purify by sublimation or re-crystallization. Feedstock for phthalic anhydride (plasticizers, dyes).
-  - **Anthracene oil** (270-350°C): ~15% of tar. Contains anthracene — dye precursor.
-  - **Pitch** (>350°C residue): ~50-60% of tar. Used for roofing, waterproofing, electrode binder (for aluminum smelting and arc furnace electrodes), road binding.
+  - **[Light oil](../glossary/light-oil.html)** (up to 170°C): ~5% of tar. Contains benzene (C₆H₆), toluene (C₇H₈), xylene (C₈H₁₀) — KEY organic chemistry feedstocks. Further fractionated by re-distillation. Benzene boils at 80°C, toluene at 111°C, xylene at 139°C.
+  - **[Carbolic/creosote oil](../glossary/carboliccreosote-oil.html)** (170-230°C): ~10% of tar. Contains phenol (C₆H₅OH), cresols (methylphenols). Phenol extracted with NaOH solution → sodium phenolate → re-precipitate with CO₂ or H₂SO₄. Phenol critical for Bakelite resin, pharmaceuticals, disinfectants.
+  - **[Naphthalene oil](../glossary/naphthalene-oil.html)** (230-270°C): ~10% of tar. Naphthalene (C₁₀H₈) crystallizes on cooling (mp 80°C). Purify by sublimation or re-crystallization. Feedstock for phthalic anhydride (plasticizers, dyes).
+  - **[Anthracene oil](../glossary/anthracene-oil.html)** (270-350°C): ~15% of tar. Contains anthracene — dye precursor.
+  - **[Pitch](../glossary/pitch.html)** (>350°C residue): ~50-60% of tar. Used for roofing, waterproofing, electrode binder (for aluminum smelting and arc furnace electrodes), road binding.
 
 ### Fermentation Chemistry
 
-**Ethanol production** (C₂H₅OH):
+**[Ethanol production](../glossary/ethanol-production.html)** (C₂H₅OH):
 - **Feedstocks**: Grain (barley, wheat, corn — starch → sugar via malt enzymes), sugar cane/beets (direct sugar), fruit (sugars), potatoes (starch). Starch must be converted to sugar first (malting/sprouting grain produces amylase enzymes that break starch into maltose).
 - **Malting**: Soak grain in water 2-3 days. Spread on floor 5-7 days, keep moist and 15-20°C. Grain sprouts, producing amylase. Dry at 50-60°C to stop germination (kilning). Crush malt to coarse grist.
 - **Mashing**: Mix grist with hot water (65-68°C) in insulated vessel. Hold 1-2 hours. Amylase converts starch to maltose (C₁₂H₂₂O₁₁) and glucose (C₆H₁₂O₆). Test with iodine — blue = starch still present, no blue = conversion complete. Strain liquid (wort) from grain.
@@ -81,24 +81,24 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 - **Distillation**: Distill fermented wash in pot still or column. Ethanol boils at 78.3°C. First distillation: ~40-50% ABV. Second distillation: ~70-80% ABV. Third distillation or fractionating column: ~95% ABV (azeotrope — cannot exceed 95.6% by simple distillation). For anhydrous (>99%), add quicklime (CaO) to absorb water, re-distill, or use molecular sieves.
 - **Applications**: Solvent (dissolves resins, oils, organic compounds), fuel (ethanol burns cleanly), feedstock for acetic acid, ethyl acetate, ether, and many other chemicals. Denature with methanol or bitterants to prevent consumption if desired for industrial use.
 
-**Acetone-butanol fermentation** (Weizmann process):
+**[Acetone-butanol fermentation](../glossary/acetone-butanol-fermentation.html)** (Weizmann process):
 - **Organism**: Clostridium acetobutylicum (anaerobic bacterium). Can be isolated from soil or preserved culture.
 - **Process**: Ferment starch (corn, potato, or grain mash) at 35-37°C for 48-72 hours. Products: acetone (~30%), n-butanol (~60%), ethanol (~10%) by volume, plus CO₂ and H₂ gases.
 - **Distillation**: Separate by fractional distillation. Acetone bp 56°C, ethanol bp 78°C, n-butanol bp 118°C.
 - **Applications**: Acetone — solvent for resins, fats, plastics; key ingredient in nitrocellulose dope (aircraft fabric). n-Butanol — solvent, feedstock for butyl rubber and esters.
 
-**Acetic acid production** (CH₃COOH):
+**[Acetic acid production](../glossary/acetic-acid-production.html)** (CH₃COOH):
 - **Vinegar method**: Expose ethanol solution to air with Acetobacter bacteria (present on fruit surfaces). Aerobic fermentation at 25-30°C for days-weeks. Produces 5-12% acetic acid. Slow but simple.
 - **Chemical oxidation**: Pass ethanol vapor over heated copper catalyst (copper gauze at 300-400°C) with air. Ethanol oxidizes to acetaldehyde (CH₃CHO), then to acetic acid. Faster, higher concentration.
 - **Applications**: Vinegar (food preservation), cellulose acetate (photographic film, synthetic fibers), acetic anhydride (aspirin synthesis), metal etching, solvent.
 
-**Methanol production** (CH₃OH, wood alcohol):
+**[Methanol production](../glossary/methanol-production.html)** (CH₃OH, wood alcohol):
 - **Wood pyrolysis**: Heat hardwood in closed iron retort to 400-500°C. Destructive distillation produces: charcoal (solid), wood tar (liquid), pyroligneous acid (aqueous condensate containing methanol, acetic acid, acetone). Distill pyroligneous acid — methanol boils at 64.7°C. Yield: ~1-2% methanol by weight of wood. Low yield but works with the Metallurgy stage technology.
 - **Synthetic methanol**: React CO + 2H₂ over ZnO/Cr₂O₃ catalyst at 300-400°C, 20-30 MPa. Requires purified synthesis gas (from coal gasification or natural gas reforming). Much higher yield and purity.
 
 ### Wood Gasification & Pyrolysis
 
-**Producer gas** (CO + H₂ + N₂):
+**[Producer gas](../glossary/producer-gas.html)** (CO + H₂ + N₂):
 - **Gas producer**: Cylindrical shaft 1-3 m diameter × 2-5 m tall, lined with refractory brick. Fill with lump charcoal or coke. Ignite bottom. Blow limited air upward through bed. Incomplete combustion produces CO (carbon monoxide) instead of CO₂.
   - C + ½O₂ → CO (exothermic, provides heat)
   - C + H₂O → CO + H₂ (endothermic water-gas reaction — add steam to enrich gas)
@@ -106,11 +106,11 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 - **Applications**: Run internal combustion engines (modified — need lower compression ratio), furnace heating, substitute for natural gas. The "wood gasifier" powered vehicles during WWII petroleum shortages.
 - **Cleaning**: Pass gas through water scrubber (removes tars and particulates), sawdust filter, then cyclone separator. Critical for engine use — tars will destroy engine quickly.
 
-**Charcoal retort** (for charcoal + gas + tar):
+**[Charcoal retort](../glossary/charcoal-retort.html)** (for charcoal + gas + tar):
 - **Batch retort**: Iron or steel cylinder (1-2 m diameter × 2-4 m long), loaded with hardwood billets. Seal. Heat externally (burn wood waste or previous batch gas). Internal wood pyrolyzes: releases volatile gases (which can be burned to heat the retort — self-sustaining after initial heating), leaves charcoal. Temperature 400-600°C. Time: 12-24 hours. Cool before opening (charcoal ignites spontaneously when hot and exposed to air). Yield: 25-35% charcoal by weight.
 
 ### Synthetic Polymers
-Petrochemicals produces the chemical feedstocks (phenol, formaldehyde, ethanol, acetone, cellulose, lignin) that serve as monomer and resin precursors. Polymerization processes, material properties, and end-use applications are covered in [**Polymers & Composites**](../polymers/index.md).
+Petrochemicals produces the chemical feedstocks (phenol, formaldehyde, ethanol, acetone, cellulose, lignin) that serve as monomer and resin precursors. Polymerization processes, material properties, and end-use applications are covered in [**[Polymers & Composites](../polymers/index.md)**](../polymers/index.md).
 - Aircraft fuels and dopes: gasoline distillation fraction for piston engines; acetone for nitrocellulose dope production — see [Aircraft](../transport/aviation.md)
 
 ### The Dual Path Principle
@@ -142,7 +142,7 @@ Petrochemicals produces the chemical feedstocks (phenol, formaldehyde, ethanol, 
 
 ### Catalytic Cracking (FCC)
 
-**Fluid catalytic cracking** converts heavy gas oil (bp 340-550°C) into gasoline, diesel, and light gases using a zeolite catalyst at 500-550°C. The most important conversion process in a modern refinery — produces ~40% of US gasoline.
+**[Fluid catalytic cracking](../glossary/fluid-catalytic-cracking.html)** converts heavy gas oil (bp 340-550°C) into gasoline, diesel, and light gases using a zeolite catalyst at 500-550°C. The most important conversion process in a modern refinery — produces ~40% of US gasoline.
 
 **Process**: Preheated gas oil feed (350°C) contacts hot regenerated catalyst (700°C) in a riser reactor. The catalyst is a fine powder (60 µm) that behaves like a fluid when aerated. Reaction time in the riser: 2-5 seconds. Cracking reactions break C-C bonds in large molecules, producing smaller products. Catalyst deactivated by coke — separated in cyclones, regenerated by burning coke in air at 650-700°C (provides heat for cracking — thermally balanced). Product: gasoline (50-60%), light cycle oil/diesel (15-25%), LPG (10-20%), dry gas + coke (5-10%).
 
@@ -179,7 +179,7 @@ Raw natural gas contains methane (70-90%), ethane, propane, butane, CO₂, H₂S
 
 ### Bio-Based Alternatives
 
-**Vegetable oil transesterification** (biodiesel): React 100 kg vegetable oil (soybean, rapeseed, palm, or sunflower) with 11 kg methanol and 0.5 kg sodium hydroxide catalyst at 60-65°C for 1-2 hours with stirring. Products: ~97 kg fatty acid methyl ester (biodiesel) + ~11 kg glycerol by-product. Biodiesel properties: cetane number 48-65, energy density 37 MJ/kg (9% less than petroleum diesel), pour point -3 to +15°C depending on feedstock. Compatible with existing diesel engines at blend ratios up to B20 (20% biodiesel) without modification; higher blends require fuel system seal changes.
+**[Vegetable oil transesterification](../glossary/vegetable-oil-transesterification.html)** (biodiesel): React 100 kg vegetable oil (soybean, rapeseed, palm, or sunflower) with 11 kg methanol and 0.5 kg sodium hydroxide catalyst at 60-65°C for 1-2 hours with stirring. Products: ~97 kg fatty acid methyl ester (biodiesel) + ~11 kg glycerol by-product. Biodiesel properties: cetane number 48-65, energy density 37 MJ/kg (9% less than petroleum diesel), pour point -3 to +15°C depending on feedstock. Compatible with existing diesel engines at blend ratios up to B20 (20% biodiesel) without modification; higher blends require fuel system seal changes.
 
 **Cellulosic ethanol**: Acid hydrolysis (dilute H₂SO₄ at 0.5-2% concentration, 120-200°C, 10-60 minutes) or enzymatic hydrolysis (cellulase enzymes at 45-50°C, pH 4.8-5.2, 48-120 hours) breaks cellulose into fermentable sugars. Yields: 280-340 liters ethanol per tonne of dry biomass (corn stover, wheat straw, wood chips). Enzymatic route gives higher yield but requires enzyme production capability. Acid route is simpler but produces fermentation inhibitors (furfural, HMF) that must be removed or neutralized before yeast fermentation.
 

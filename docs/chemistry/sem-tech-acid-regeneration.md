@@ -40,7 +40,7 @@ BMED differs from conventional electrodialysis (see [SEM Tech Electrodialysis](s
 
 This water-splitting reaction requires approximately 0.83V at the bipolar junction — far less than the 1.23V needed for electrode-driven water electrolysis. The H⁺ ions migrate toward the cathode through the cation exchange layer, and OH⁻ ions migrate toward the anode through the anion exchange layer.
 
-**Three-compartment BMED cell** (one repeating unit):
+**[Three-compartment BMED cell](../glossary/three-compartment-bmed-cell.html)** (one repeating unit):
 1. **Acid compartment**: Receives H⁺ from the bipolar membrane. Salt anions (Cl⁻, SO₄²⁻) enter through the adjacent anion exchange membrane. Result: acid concentration increases.
 2. **Base compartment**: Receives OH⁻ from the bipolar membrane. Salt cations (Na⁺, Fe²⁺) enter through the adjacent cation exchange membrane. Result: base concentration increases.
 3. **Salt compartment**: Feed solution loses cations (to the base compartment) and anions (to the acid compartment). Result: salt is depleted.

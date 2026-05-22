@@ -2,8 +2,8 @@
 
 > **Node ID**: metals.steelmaking
 > **Domain**: [Metals](./)
-> **Dependencies**: `metals.iron-steel.blast-furnace`, `chemistry.refractories`, `energy.fuels`
-> **Enables**: `metals.forming`, `metals.alloys`
+> **Dependencies**: [`metals.iron-steel.blast-furnace`](blast-furnace.md), [`chemistry.refractories`](../chemistry/refractories.md), [`energy.fuels`](../energy/fuels.md)
+> **Enables**: [`metals.forming`](forming.md), [`metals.alloys`](alloys.md)
 > **Timeline**: Years 15-30
 > **Outputs**: steel billets, slabs, blooms, flat products, long products
 
@@ -24,8 +24,8 @@ The Bessemer process (patented 1856) was the first mass-production method for st
 **Operating sequence**:
 1. Tilt converter horizontal. Charge molten pig iron (1200-1300°C) from a ladle. Add scrap steel (coolant, 5-15% of charge) to absorb excess exothermic heat.
 2. Return converter to vertical position. Start air blast (30,000-60,000 Nm³/hour depending on vessel size).
-3. **Silicon blow** (first 3-5 minutes): Si + O₂ → SiO₂. Temperature rises rapidly (silicon oxidation releases ~32 MJ/kg Si). Bright flame at the mouth.
-4. **Carbon blow** (next 10-12 minutes): C + ½O₂ → CO. The CO burns at the converter mouth with spectacular flame — "the blow" is visually dramatic. Carbon drops from ~4% to ~0.05%. Metal temperature reaches 1600-1650°C.
+3. **[Silicon blow](../glossary/silicon-blow.html)** (first 3-5 minutes): Si + O₂ → SiO₂. Temperature rises rapidly (silicon oxidation releases ~32 MJ/kg Si). Bright flame at the mouth.
+4. **[Carbon blow](../glossary/carbon-blow.html)** (next 10-12 minutes): C + ½O₂ → CO. The CO burns at the converter mouth with spectacular flame — "the blow" is visually dramatic. Carbon drops from ~4% to ~0.05%. Metal temperature reaches 1600-1650°C.
 5. **End-point detection**: Flame at the mouth drops sharply when carbon is depleted. Experienced operators judged by eye; later installations used optical pyrometers and gas analysis.
 6. Stop blast. Tilt converter. Deoxidize with ferromanganese or aluminum (the blow removes all carbon including the desired amount — steel must be recarburized to specification). Tap into ladle.
 
@@ -46,10 +46,10 @@ The Siemens-Martin open-hearth process dominated world steel production from 189
 **Furnace construction**: Rectangular hearth, 12-15 m long × 4-6 m wide, lined with basic refractory (magnesite or dolomite). Bath depth only 300-500 mm — shallow to maximize surface area for flame heating and oxidation reactions. Capacity: 100-300 tonnes per heat. Fuel: producer gas, natural gas, or heavy fuel oil.
 
 **Operating cycle** (6-10 hours per heat):
-1. **Charging** (1-2 hours): Load scrap steel (40-60% of charge) and limestone (flux, 5-8% of metal weight) through side doors using charging machines. Pour molten pig iron (the "hot metal," 40-60% of charge) onto the hearth.
-2. **Melt-down** (2-4 hours): Burner flame melts scrap and heats the combined bath to 1500-1550°C. Silicon oxidizes first, then manganese.
-3. **Ore washing /沸腾 (boil)** (1-2 hours): Add iron ore (Fe₂O₃) to the bath to provide oxygen for decarburization. Fe₂O₃ + 3C → 2Fe + 3CO. The CO evolution causes the bath to "boil" — stirring the metal and floating out inclusions. Carbon drops 0.3-0.5% per hour. The boil also homogenizes temperature and composition throughout the shallow bath.
-4. **Deoxidation and finishing** (30-60 min): Stop ore additions when target carbon is reached. Add ferromanganese (Mn 70-80%, 8-12 kg/tonne steel) and aluminum (0.3-0.8 kg/tonne) to deoxidize. Take samples, adjust composition with ferroalloys.
+1. **[Charging](../glossary/charging.html)** (1-2 hours): Load scrap steel (40-60% of charge) and limestone (flux, 5-8% of metal weight) through side doors using charging machines. Pour molten pig iron (the "hot metal," 40-60% of charge) onto the hearth.
+2. **[Melt-down](../glossary/melt-down.html)** (2-4 hours): Burner flame melts scrap and heats the combined bath to 1500-1550°C. Silicon oxidizes first, then manganese.
+3. **[Ore washing /沸腾 (boil)](../glossary/ore-washing-boil.html)** (1-2 hours): Add iron ore (Fe₂O₃) to the bath to provide oxygen for decarburization. Fe₂O₃ + 3C → 2Fe + 3CO. The CO evolution causes the bath to "boil" — stirring the metal and floating out inclusions. Carbon drops 0.3-0.5% per hour. The boil also homogenizes temperature and composition throughout the shallow bath.
+4. **[Deoxidation and finishing](../glossary/deoxidation-and-finishing.html)** (30-60 min): Stop ore additions when target carbon is reached. Add ferromanganese (Mn 70-80%, 8-12 kg/tonne steel) and aluminum (0.3-0.8 kg/tonne) to deoxidize. Take samples, adjust composition with ferroalloys.
 5. **Tapping**: Tilt the furnace or open the tap hole. Steel flows into a ladle. Tap-to-tap time: 6-10 hours. Heat size: 100-300 tonnes.
 
 **Advantages over Bessemer**: Precise composition control (slow process allows sampling and adjustment). Flexible charge (any ratio of scrap to pig iron). Low nitrogen (no air blowing through the metal). Better quality steel for critical applications (ship plate, boiler plate, rails).
@@ -66,12 +66,12 @@ The basic oxygen furnace (also called LD converter, after Linz and Donawitz, Aus
 
 **Oxygen lance**: A triple-walled water-cooled copper pipe, 200-300 mm outer diameter, with 3-6 nozzle exits at the tip designed for supersonic flow (Mach 1.5-2.5). Oxygen flow rate: 15,000-25,000 Nm³/hour at 8-15 bar. The lance is positioned 1-3 m above the bath surface — the supersonic oxygen jets penetrate the slag layer and impinge on the metal, creating a vigorous reaction zone.
 
-**Operating sequence** (total cycle: 30-45 min, blowing time: 15-20 min):
-1. **Charge scrap** (20-30% of total charge, 50-100 tonnes). Scrap acts as coolant — the exothermic reactions generate more heat than needed, and scrap absorbs the excess. Larger scrap pieces are placed at the bottom; light scrap on top.
-2. **Charge hot metal** (70-80% of charge). Pour molten pig iron from blast furnace torpedo car or hot metal ladle at 1300-1350°C. Typical hot metal composition: 4.0-4.5% C, 0.3-0.8% Si, 0.3-0.8% Mn, 0.05-0.15% P, 0.02-0.05% S.
+**[Operating sequence](../glossary/operating-sequence.html)** (total cycle: 30-45 min, blowing time: 15-20 min):
+1. **[Charge scrap](../glossary/charge-scrap.html)** (20-30% of total charge, 50-100 tonnes). Scrap acts as coolant — the exothermic reactions generate more heat than needed, and scrap absorbs the excess. Larger scrap pieces are placed at the bottom; light scrap on top.
+2. **[Charge hot metal](../glossary/charge-hot-metal.html)** (70-80% of charge). Pour molten pig iron from blast furnace torpedo car or hot metal ladle at 1300-1350°C. Typical hot metal composition: 4.0-4.5% C, 0.3-0.8% Si, 0.3-0.8% Mn, 0.05-0.15% P, 0.02-0.05% S.
 3. **Add fluxes**: Burned lime (CaO, 30-70 kg/tonne steel) and dolomite (CaO·MgO, 5-15 kg/tonne). Flux creates a basic slag (V-ratio = CaO/SiO₂ = 2.5-4.0) that absorbs SiO₂, MnO, and P₂O₅. Fluorspar (CaF₂, 2-5 kg/tonne) may be added to improve slag fluidity.
 4. **Lower lance and start blow**. First 3-5 minutes: rapid oxidation of Si and Mn. Temperature rises 50-100°C/min. Slag foams from CO evolution. At ~5 minutes, silicon is largely gone and carbon oxidation dominates.
-5. **Main blow** (minutes 5-15): C + ½O₂ → CO (with some secondary combustion CO + ½O₂ → CO₂ above the bath). Carbon drops from ~4% to the target 0.03-0.10%. Massive CO generation — BOF off-gas is 70-85% CO with a calorific value of ~8 MJ/Nm³, collected and used as fuel gas in the steelworks.
+5. **[Main blow](../glossary/main-blow.html)** (minutes 5-15): C + ½O₂ → CO (with some secondary combustion CO + ½O₂ → CO₂ above the bath). Carbon drops from ~4% to the target 0.03-0.10%. Massive CO generation — BOF off-gas is 70-85% CO with a calorific value of ~8 MJ/Nm³, collected and used as fuel gas in the steelworks.
 6. **End-point control**: Sublance measurement (temperature + carbon by liquidus method) at 80-90% of expected blow time. Target: 1600-1650°C and 0.03-0.08% C. If temperature is high and carbon is low, stop the blow. If adjustments needed, continue blowing or add coolants. Modern BOFs achieve target within ±5°C and ±0.01% C on >90% of heats.
 7. **Sampling and tapping**: Raise lance, tilt vessel, take a metal sample for analysis. Tap steel into ladle (with deoxidizer additions — Al wire, FeMn, FeSi). Separate slag carefully — BOF slag contains 15-25% total iron and is recycled to sinter plants or used as aggregate.
 
@@ -88,7 +88,7 @@ The electric arc furnace produces ~30% of world steel, predominantly from 100% s
 **Furnace construction**: Cylindrical shell, 5-8 m diameter, lined with water-cooled panels (upper sidewalls and roof) and magnesite-carbon refractory (lower walls and hearth). The water-cooled panels enable much faster melting rates than all-refractory designs. Eccentric bottom tapping (EBT) separates clean steel from slag during tapping. Capacity: 50-200 tonnes (modern: 100-150 t typical).
 
 **Operating cycle** (total tap-to-tap: 30-50 min):
-1. **Charge scrap** (2-3 buckets, 100% scrap charge). First bucket: 50-60% of total charge. Heavy scrap at bottom, light scrap on top. Electrodes bore through light scrap into heavy scrap, establishing the arc.
+1. **[Charge scrap](../glossary/charge-scrap.html)** (2-3 buckets, 100% scrap charge). First bucket: 50-60% of total charge. Heavy scrap at bottom, light scrap on top. Electrodes bore through light scrap into heavy scrap, establishing the arc.
 2. **Melt-down** (15-25 min): Lower electrodes, strike arcs, melt scrap in stages. Power input: 40-80 MW (150-250 kVA/tonne). During boring-in phase (first 5-8 min), voltage is low and current is high to penetrate the scrap without electrode breakage. During main melting, voltage increases for maximum power. Oxygen lancing (1,500-3,000 Nm³ O₂ per heat) accelerates melting and provides additional chemical heat from scrap contamination (oil, rubber) combustion.
 3. **Refining** (5-10 min): Once flat-bath (all scrap melted), refine by injecting oxygen (burning carbon and phosphorus) and adding lime for basic slag. Remove phosphorus early while temperature is still moderate (<1600°C) — phosphorus partition to slag is favored at lower temperatures.
 4. **Tapping**: Tilt furnace, tap steel into ladle through EBT spout. Add deoxidizers and alloy additions in the ladle during tapping (tap alloying). Leave slag in the furnace (slag-free tapping is critical for clean steel).
@@ -109,7 +109,7 @@ Secondary steelmaking (ladle metallurgy, ladle refining) occurs after tapping fr
 
 **Desulfurization**: Sulfur causes hot shortness (FeS low-melting-point grain boundary films) and reduces ductility and toughness. Target: <0.010% S for structural grades, <0.005% S for high-quality plate, <0.001% S for ultra-clean steels (line pipe, offshore). Method: treat steel in the ladle with synthetic slag (CaO + CaF₂ + Al₂O₃, basicity CaO/SiO₂ > 4) and inject calcium-silicide powder (CaSi, 1-3 kg/t) or magnesium granules. Desulfurization efficiency: 50-80% per treatment. Argon stirring through a porous plug in the ladle bottom mixes slag and metal, accelerating the reaction.
 
-**Degassing** — dissolved hydrogen and nitrogen removal:
+**[Degassing](../glossary/degassing.html)** — dissolved hydrogen and nitrogen removal:
 - **RH (Ruhrstahl-Heraeus) degasser**: A vacuum chamber with two snorkel tubes immersed in the ladle. Argon injected into one snorkel drives circulation (lift gas) — steel rises into the vacuum chamber, dissolved gases (H₂, N₂) flash out under vacuum (0.5-5 mbar). Steel cycles through the chamber 3-5 times over 15-25 min. Hydrogen reduced from 4-6 ppm to <2 ppm (critical for heavy sections where H causes cracking — rail, forging, plate). Nitrogen reduced from 60-80 ppm to 30-50 ppm. Also enables vacuum decarburization for ultra-low carbon steels (<0.003% C).
 - **VD (vacuum degassing)**: Entire ladle placed in a vacuum tank. Argon stirring through bottom porous plug. Simpler than RH but less efficient — longer treatment time, less effective for decarburization. Typical hydrogen reduction: 4-6 ppm → 1.5-2.5 ppm.
 - **VOD (vacuum oxygen decarburization)**: For stainless steel — oxygen blown under vacuum to selectively remove carbon while preserving chromium (Cr has lower affinity for oxygen at low pressure). Used after EAF melting of stainless scrap.
@@ -147,7 +147,7 @@ Before continuous casting (and still for certain specialty grades), steel was ca
 
 **Teeming**: Pouring liquid steel from a bottom-poured ladle into cast iron ingot molds standing on a stool (flat base plate). Bottom pouring (steel enters the mold from the base through a central runner) is preferred for clean steel — the steel rises gently through the mold without splashing, minimizing reoxidation and surface defects. Top pouring is simpler (steel poured directly into the open mold top) but generates more surface defects and reoxidation inclusions.
 
-**Killing practice** — controlling the solidification reaction:
+**[Killing practice](../glossary/killing-practice.html)** — controlling the solidification reaction:
 - **Rimmed steel**: Incompletely deoxidized. Dissolved oxygen and carbon react during solidification (C + O → CO), generating CO gas that causes a pronounced rim of gas bubbles at the ingot surface. The rim zone is very low in carbon and impurities ( segregation pushes them inward). Produces excellent surface quality — historically important for automotive body sheet. No longer produced in significant quantities.
 - **Capped steel**: Partially deoxidized. A short period of rimming action produces a clean surface, then a metal cap (or bottle-top mold) seals the mold top, building pressure that suppresses further gas evolution. Intermediate between rimmed and semi-killed.
 - **Semi-killed steel**: Partially deoxidized (some O remains). Minimal gas evolution during solidification. Used for structural shapes and plate where moderate cleanliness is acceptable. Falling out of use as continuous casting replaces ingots.
@@ -159,13 +159,13 @@ Before continuous casting (and still for certain specialty grades), steel was ca
 
 Steel products are classified by the shape of the semi-finished input and the rolling process applied:
 
-**Flat products** (from slabs):
+**[Flat products](../glossary/flat-products.html)** (from slabs):
 - **Hot-rolled strip**: Slab reheated to 1200-1300°C, rolled in a continuous hot strip mill (roughing stands + 5-7 finishing stands) to 1.5-12 mm thickness at 850-950°C exit temperature. Coil weight: 20-30 tonnes. The dominant steel product by volume — used for automotive, construction, pipe, tube, and as feedstock for cold rolling.
 - **Cold-rolled sheet**: Hot-rolled strip pickled (acid-cleaned to remove scale) and cold-rolled to 0.15-3 mm thickness at room temperature. Higher dimensional accuracy and better surface finish than hot-rolled. Subsequently annealed (650-750°C to restore ductility lost during cold work) and temper-rolled (0.5-2% cold reduction for flatness and surface finish).
 - **Plate**: Slab rolled to 5-150 mm thickness on a plate mill (single-stand four-high or reversing mill). Used for shipbuilding, pressure vessels, bridges, storage tanks, and line pipe. Quality requirements: through-thickness ductility (Z-direction testing), ultrasonic testing for internal defects, and impact testing at design temperature.
 - **Coated sheet**: Galvanized (Zn coating, 20-275 g/m²), galvannealed (Zn-Fe alloy), or prepainted (organic coating on galvanized substrate). Automotive and construction applications.
 
-**Long products** (from billets and blooms):
+**[Long products](../glossary/long-products.html)** (from billets and blooms):
 - **Bar**: Round, square, hexagonal, or flat cross-sections, 8-100 mm diameter, rolled on bar mills (10-18 stands in continuous train). Used for shafts, fasteners, reinforcing bar, and machining stock. Reinforcing bar (rebar) is the largest single long product by volume.
 - **Rod**: 5.5-20 mm diameter, coiled at high speed (wire rod mill, finishing speeds up to 100-120 m/s). Feedstock for wire drawing (fences, cables, springs, tire cord). Requires tight control of surface quality and internal defects (any surface seam becomes a wire break during drawing).
 - **Structural shapes**: I-beams (H-beams), channels, angles, tees. Rolled from blooms on structural mills (universal mills with horizontal and vertical rolls). Used for construction, bridges, and machinery frames.
@@ -195,21 +195,21 @@ Steel products are classified by the shape of the semi-finished input and the ro
 
 Steelmaking capability builds in stages, each requiring progressively more infrastructure:
 
-**Stage 1: Puddled steel from pig iron** (Years 10-15)
+**[Stage 1: Puddled steel from pig iron](../glossary/stage-1-puddled-steel-from-pig-iron.html)** (Years 10-15)
 - Finery and chafery, or puddling furnace, refines pig iron by stirring molten iron in a reverberatory furnace with an iron bar, burning out carbon and silicon by exposure to air. Labor-intensive (one puddler per 100-200 kg heat) but requires no special equipment beyond the furnace and a strong back. Produces wrought iron with variable carbon content — early "steel" was made this way for tools and springs. See [Iron & Steel](iron-steel.md) for puddling detail.
 - Production: 1-5 tonnes/day per furnace. Quality is inconsistent — relies on the puddler's judgment of carbon level by the appearance of the metal ("bright heat," "dead melt").
 
-**Stage 2: Bessemer or early open-hearth** (Years 15-20)
+**[Stage 2: Bessemer or early open-hearth](../glossary/stage-2-bessemer-or-early-open-hearth.html)** (Years 15-20)
 - Requires: pig iron from blast furnace (>5 t/day), reliable air supply (steam-driven blower), basic refractories (dolomite, magnesite). Bessemer converter is mechanically simpler — tilting vessel, bottom tuyeres, blower. Open-hearth requires regenerative checker chambers and gas producer but gives better quality.
 - Production: 50-200 tonnes/day per vessel (Bessemer), 100-300 tonnes per heat (open-hearth, one heat per 8 hours). Enables consistent steel for rails, structural sections, ship plate.
 - The choice between Bessemer and open-hearth depends on ore chemistry: low-phosphorus ores suit acidic Bessemer; high-phosphorus ores require the Thomas (basic) variant or open-hearth.
 
-**Stage 3: BOF and continuous casting** (Years 20-25)
+**[Stage 3: BOF and continuous casting](../glossary/stage-3-bof-and-continuous-casting.html)** (Years 20-25)
 - Requires: tonnage oxygen plant (air separation, see [Air Separation](../chemistry/air-separation.md)), water-cooled copper molds, precision hydraulics for caster. The BOF replaces Bessemer with faster cycles (20 min vs. 20 min, but 250+ tonnes per heat vs. 15-30 t) and vastly better quality (no nitrogen pickup).
 - Continuous casting eliminates ingot soaking and blooming mill — direct slab/billet production with 95-98% yield. Capital-intensive but transforms steelworks productivity.
 - Production: 2,000-10,000 tonnes/day per BOF vessel + caster combination.
 
-**Stage 4: EAF and ladle metallurgy** (Years 25-30)
+**[Stage 4: EAF and ladle metallurgy](../glossary/stage-4-eaf-and-ladle-metallurgy.html)** (Years 25-30)
 - Requires: reliable electricity (30-50 MW per furnace), graphite electrode manufacturing, ladle furnace with vacuum degassing capability. The EAF route bypasses the blast furnace entirely — 100% scrap steel recycling. Essential for regions without coking coal or iron ore.
 - Ladle metallurgy (Ca treatment, RH degassing) enables ultra-clean steel for critical applications: line pipe, offshore structures, pressure vessels, bearing steel. Without secondary metallurgy, steel is limited to commodity grades.
 - Production: 500-2,000 tonnes/day per EAF (depending on tap-to-tap time and furnace size).

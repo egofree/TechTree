@@ -31,7 +31,7 @@
   the saddle quern. One person can operate it seated.
   Requires dressed (grooved) stone faces that need periodic re-cutting as they wear smooth.
   The rotary quern is a major ergonomic leap and the basis for all later mechanized milling.
-- **Watermill** (if water power available): Overshot water wheel 2-4 m diameter drives a
+- **[Watermill](../glossary/watermill.html)** (if water power available): Overshot water wheel 2-4 m diameter drives a
   horizontal millstone 0.8-1.2 m diameter through a gear train.
   Output: 50-100 kg flour/hour, feeding a whole settlement from one mill.
   Requires [Machine Tools](../machine-tools/machining.md)-level gearing and precision construction.

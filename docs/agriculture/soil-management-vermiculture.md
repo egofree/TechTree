@@ -3,8 +3,8 @@
 > **Node ID**: agriculture.soil-management.vermiculture
 > **Domain**: [Agriculture](./)
 > **Parent**: [Soil Management](./soil-management.md)
-> **Dependencies**: `agriculture.soil-management`, `foundations.food-agriculture`
-> **Enables**: `agriculture.crop-production`, `health.medicine`
+> **Dependencies**: [`agriculture.soil-management`](soil-management.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
+> **Enables**: `agriculture.crop-production`, [`health.medicine`](../health/medicine.md)
 > **Timeline**: Years 1-10+
 > **Outputs**: vermicompost, worm_castings, worm_tea, worms
 

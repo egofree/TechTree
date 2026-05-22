@@ -2,7 +2,7 @@
 
 > **Node ID**: animals.poultry.turkeys
 > **Domain**: [Animals](./)
-> **Dependencies**: `animals.poultry`
+> **Dependencies**: [`animals.poultry`](poultry.md)
 > **Enables**: `food.preservation`, `textiles.clothing`
 > **Timeline**: Years 1-10+
 > **Outputs**: turkey_meat, feathers, manure
@@ -81,7 +81,7 @@ Unlike chickens, turkeys are seasonal breeders. Egg production begins in spring 
 
 ### Health and Disease
 
-**Blackhead disease** (*Histomonas meleagridis*):
+**[Blackhead disease](../glossary/blackhead-disease.html)** (*Histomonas meleagridis*):
 The most critical disease concern for turkeys. Transmitted by cecal worm (*Heterakis gallinarum*) eggs ingested from contaminated soil or earthworms. Symptoms: sulfur-yellow droppings, lethargy, darkened skin of head (cyanosis), weight loss. Mortality: 70-100% in turkeys. Prevention: strict separation from chickens, avoid ranging on land used by chickens within the past 3 years. No reliable treatment available in many regions — prevention is the only strategy.
 
 **Respiratory diseases**:

@@ -18,11 +18,11 @@
 - **Sluice box**: Wooden trough 2-5 m long, 30-50 cm wide, with riffles (cross-bars) on bottom. Gravel shoveled in at head, water carries material through. Heavy particles trap behind riffles. Clean riffles periodically. 50-100x faster than panning.
 - **Hydraulic mining**: Direct high-pressure water jet at hillside to wash gold-bearing gravel through sluice. Requires significant water supply and pressure (20-50 m head).
 
-**Shaft mining** (underground):
+**[Shaft mining](../glossary/shaft-mining.html)** (underground):
 - **Shaft sinking**: Dig vertical shaft, typically 2-3 m × 1.5-2 m (enough for one-way traffic + bucket winding). Line walls with timber (oak or pine, 15-25 cm diameter) or stone/brick for permanent shafts. Shaft compartments: one for winding (ore/people), one for ventilation, one for pumping.
 - **Timber framing**: Posts (vertical, 15-25 cm), caps (horizontal across top), and sill pieces (across bottom). Frame every 1.5-2 m along shaft. Secure with wooden wedges. Fill space between timber and rock wall with waste rock (gob) for support.
 - **Levels (adits)**: Horizontal tunnels driven from shaft at ore-bearing depths. Typical dimensions 1.5-2 m wide × 2-2.5 m high. Timber-supported with sets (posts + cap + sill). Grade slight upward incline (1-3°) toward shaft for water drainage.
-- **Stoping** (ore extraction): Extract ore between levels. Overhand stoping: work upward from level. Underhand: work downward. Shrinkage: leave broken ore in stope as working platform. Cut-and-fill: backfill with waste as you go (better ground control).
+- **[Stoping](../glossary/stoping.html)** (ore extraction): Extract ore between levels. Overhand stoping: work upward from level. Underhand: work downward. Shrinkage: leave broken ore in stope as working platform. Cut-and-fill: backfill with waste as you go (better ground control).
 
 **Drift/adit mining** (horizontal entry from hillside):
 - Drive horizontal tunnel into hillside at or slightly above valley floor level. Gravity drainage — no pumping needed. Most economical method for hillslope deposits. Minimum 1.5 m wide × 2 m tall. Timber supports every 1-2 m in unstable ground.
@@ -33,7 +33,7 @@
 - **Chisel and hammer**: Steel chisel (2-5 cm wide), 2-4 kg hammer. Strike chisel to create groove or hole. Slow but precise. For soft rock (limestone, shale): 0.5-2 m³/shift. Hard rock (granite, quartz): 0.1-0.5 m³/shift.
 - **Wedge and feather**: Drill hole (2-3 cm diameter, 10-20 cm deep) with hand drill (steel bar, struck with hammer). Insert two feathers (thin curved shims) and one wedge between them. Strike wedge → splits rock along line of holes. Space holes 15-30 cm apart for controlled break.
 
-**Fire-setting** (ancient technique for hard rock):
+**[Fire-setting](../glossary/fire-setting.html)** (ancient technique for hard rock):
 - Build hot fire against rock face. Burn 2-4 hours. Rock face reaches 400-600°C. Dash with cold water (or let air cool). Thermal shock cracks rock 5-15 cm deep. Break weakened rock with picks and wedges. Very effective on granite, quartz, hard ores. Consumes enormous wood/charcoal — use sparingly.
 
 **Black powder blasting**:
@@ -48,7 +48,7 @@
 
 ### Ventilation
 
-**Natural ventilation** (single shaft):
+**[Natural ventilation](../glossary/natural-ventilation.html)** (single shaft):
 - Single shaft with partition (brattice — wooden or canvas wall dividing shaft into upcast and downcast). Warm air (heated by mine lights and geothermal) rises in one side, cool air descends in other. Limited to ~100 m depth. Seasonal — reverses in winter.
 
 **Dual-shaft ventilation**:
@@ -73,8 +73,8 @@
 
 **Powered drainage**:
 - **Buddle/water wheel pump**: Water wheel operates crank → piston pump (cast iron cylinder, leather piston seal). Lift height 15-30 m per stage. Multiple stages for deeper mines. 5,000-20,000 liters/hour per pump.
-- **Savery engine** (~1698, first practical steam-powered pump): Boil water → fill chamber with steam → condense with cold water injection → vacuum → atmospheric pressure forces water up suction pipe. Lift: ~6-9 m suction + ~10-15 m pressure head. Efficiency ~0.5%. Simpler than Newcomen but limited lift and very wasteful.
-- **Newcomen engine** (~1712, atmospheric engine): Steam in cylinder → condense → vacuum pulls piston down → pump rod lifted on other end of beam. Lift: 30-50+ m (pump at bottom of shaft, engine at surface). Power: 5-15 HP. THE KEY FEEDBACK LOOP — mine drainage drove steam engine development, which enabled all of the Energy stage.
+- **[Savery engine](../glossary/savery-engine.html)** (~1698, first practical steam-powered pump): Boil water → fill chamber with steam → condense with cold water injection → vacuum → atmospheric pressure forces water up suction pipe. Lift: ~6-9 m suction + ~10-15 m pressure head. Efficiency ~0.5%. Simpler than Newcomen but limited lift and very wasteful.
+- **[Newcomen engine](../glossary/newcomen-engine.html)** (~1712, atmospheric engine): Steam in cylinder → condense → vacuum pulls piston down → pump rod lifted on other end of beam. Lift: 30-50+ m (pump at bottom of shaft, engine at surface). Power: 5-15 HP. THE KEY FEEDBACK LOOP — mine drainage drove steam engine development, which enabled all of the Energy stage.
 
 ### Hoisting & Transport
 
@@ -119,7 +119,7 @@
 - Recovery: 85-95% (very high because the fill supports the walls and allows complete ore extraction). Selective mining is possible — uneven ore body boundaries can be followed precisely.
 - Cemented fill (mill tailings + Portland cement, 3-6% cement by weight) creates a strong, self-supporting mass that allows adjacent stopes to be mined without wall collapse. Uncemented fill (waste rock) is cheaper but provides less support.
 
-**Longwall mining** (coal): The most productive underground coal method.
+**[Longwall mining](../glossary/longwall-mining.html)** (coal): The most productive underground coal method.
 - A 150-250 m long coal face is mined by a shearer (rotating drum on an armored face conveyor) that cuts the coal in a single pass. Hydraulic shields (steel canopies supported by hydraulic legs) support the roof directly behind the shearer. As the shearer advances, the shields advance with it, and the roof behind the shields collapses into the void (goaf).
 - Recovery: 80-90% of the coal seam, far higher than room and pillar.
 - Production: 2,000-5,000 tonnes per day from a single face. Requires continuous conveyor belt transport along the face and in the gate roads.
@@ -190,7 +190,7 @@ Water management is often the limiting factor in mine depth and production capac
 **Sump pumping**: At the lowest point of the mine (the shaft bottom), excavate a sump (collection basin, 2-3 m deep, lined with concrete or brick). Install a pump intake in the sump. The sump provides buffer capacity — if pump flow exceeds inflow, the sump fills; if inflow exceeds pumping, the sump provides warning time before flooding. Sump capacity should hold at least 2-4 hours of normal water inflow to allow time for pump maintenance without flooding.
 
 **Pump types for mine drainage**:
-- **Piston pump** (Cornish pump): Cast iron cylinder with leather-packed piston, driven by a surface steam engine through flat rod linkages (rod runs down the shaft). Lift capacity: 50-200 m per stage. Multiple stages for deeper mines. Flow rate: 500-5,000 liters/minute. The Cornish pumping engine was the technology that enabled deep mining in Cornwall and elsewhere from the 18th century onward.
+- **[Piston pump](../glossary/piston-pump.html)** (Cornish pump): Cast iron cylinder with leather-packed piston, driven by a surface steam engine through flat rod linkages (rod runs down the shaft). Lift capacity: 50-200 m per stage. Multiple stages for deeper mines. Flow rate: 500-5,000 liters/minute. The Cornish pumping engine was the technology that enabled deep mining in Cornwall and elsewhere from the 18th century onward.
 - **Centrifugal pump**: Electrically driven (requires electrical infrastructure). Multi-stage designs lift water 100-500+ m. Flow rates up to 10,000 liters/minute. More efficient than piston pumps but requires reliable electric power. Modern standard for mine dewatering.
 - **Air-lift pump**: Inject compressed air into the bottom of a water-filled pipe. The air-water mixture is less dense than the surrounding water column, so it rises by buoyancy. Simple, no moving parts underground (compressor is at surface). Lift: 20-50 m per stage. Efficiency: 20-40%. Useful for sumps where installing a mechanical pump is impractical.
 
@@ -200,7 +200,7 @@ Communication between surface and underground is essential for safety and operat
 
 - **Bell signals**: The oldest method. A system of bell codes (bell pulls on a wire rope running down the shaft) between the banksman (surface) and the onsetter (underground shaft station). Standard signals: 1 bell = stop, 2 bells = lower, 3 bells = raise, 4 bells = men riding (slow and careful), emergency = continuous ringing. Still used as backup in modern mines.
 - **Voice pipe**: A steel or brass pipe (25-50 mm diameter) running from surface to underground stations. Sound travels through the pipe with surprising clarity over 100-200 m. Requires no power. Limited to one conversation at a time and one pipe per station.
-- **Electrical telephone** (requires electrical infrastructure): Magneto telephones (hand-cranked ring generator) connected by cable. The standard method in 20th-century mines. Explosion-proof housings required in gassy mines. Cables vulnerable to damage from blasting and rock falls — run through protected conduits.
+- **[Electrical telephone](../glossary/electrical-telephone.html)** (requires electrical infrastructure): Magneto telephones (hand-cranked ring generator) connected by cable. The standard method in 20th-century mines. Explosion-proof housings required in gassy mines. Cables vulnerable to damage from blasting and rock falls — run through protected conduits.
 
 ---
 

@@ -2,7 +2,7 @@
 
 > **Node ID**: vlsi-scaling.continuous-scaling
 > **Domain**: [VLSI Scaling & Advanced Semiconductor](./)
-> **Dependencies**: `photolithography.fab-processes`
+> **Dependencies**: [`photolithography.fab-processes`](../photolithography/fab-processes.md)
 > **Timeline**: Years 70-200+
 > **Outputs**: larger_wafers, finer_features, higher_yield
 

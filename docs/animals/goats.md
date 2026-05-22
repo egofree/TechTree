@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.goats
 > **Domain**: [Animals](./)
-> **Dependencies**: `animals`, `animals.domestication`
-> **Enables**: `animals.animal-materials`, `food.dairy`, `textiles.fiber-processing`, `agriculture.soil-management`
+> **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
+> **Enables**: [`animals.animal-materials`](animal-materials.md), `food.dairy`, `textiles.fiber-processing`, [`agriculture.soil-management`](../agriculture/soil-management.md)
 > **Timeline**: Years 1-20+
 > **Outputs**: goat_milk, chevon, cashmere, mohair, goatskins, manure, brush_clearing
 

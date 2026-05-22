@@ -18,7 +18,7 @@ The parent article on [Electrolysis](electrolysis.md) covers all industrial elec
 
 Two main technologies exist for water electrolysis:
 
-**Alkaline water electrolysis** (mature, widely deployed):
+**[Alkaline water electrolysis](../glossary/alkaline-water-electrolysis.html)** (mature, widely deployed):
 - Uses a liquid electrolyte (20-40% KOH solution) with a porous diaphragm separator
 - Nickel-based electrodes (non-precious metal catalysts)
 - Operating temperature: 60-90C

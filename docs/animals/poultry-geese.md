@@ -2,7 +2,7 @@
 
 > **Node ID**: animals.poultry.geese
 > **Domain**: [Animals](./)
-> **Dependencies**: `animals.poultry`
+> **Dependencies**: [`animals.poultry`](poultry.md)
 > **Enables**: `food.preservation`, `farming.composting`, `farming.weed-control`
 > **Timeline**: Years 0-5
 > **Outputs**: goose_meat, goose_eggs, down, feathers, manure, guardian_services

@@ -94,7 +94,7 @@ Fire clay (kaolin-rich, high alumina, low iron) withstands 1200-1400°C+ when fi
 ## Kiln Furniture and Loading
 
 - **Shelves and supports**: Kiln shelves (flat fired clay slabs, 1-2 cm thick, 20-40 cm square) supported on stilts (tripod clay posts, 5-15 cm tall). Stack multiple layers within ware chamber. Maximize loading density while maintaining flame path around each piece.
-- **Saggars** (for glaze firing): Fired clay boxes that enclose individual pots. Protect glaze from direct flame contact and ash deposit. Stack saggar towers inside kiln. Essential for clean glazed ware in wood-fired kilns. Used extensively in porcelain production.
+- **[Saggars](../glossary/saggars.html)** (for glaze firing): Fired clay boxes that enclose individual pots. Protect glaze from direct flame contact and ash deposit. Stack saggar towers inside kiln. Essential for clean glazed ware in wood-fired kilns. Used extensively in porcelain production.
 - **Loading principles**: Leave space between pieces for hot gas circulation. Place taller pieces in center, shorter pieces at edges (temperature distribution). Thickest pieces near the hottest zone. Do not overload — air must circulate.
 
 ## Temperature Measurement & Control
@@ -109,8 +109,8 @@ Small triangular pyramids (~6 cm tall) made from calibrated clay-glass mixtures 
 
 ### Digital Pyrometry
 
-- **Type K thermocouple** (chromel-alumel): Reads up to 1250°C. Inexpensive, robust. The workhorse thermocouple for pottery and light industrial kilns.
-- **Type S thermocouple** (platinum-rhodium): Reads up to 1600°C. Expensive (precious metal). Required for stoneware, porcelain, and refractory firing.
+- **[Type K thermocouple](../glossary/type-k-thermocouple.html)** (chromel-alumel): Reads up to 1250°C. Inexpensive, robust. The workhorse thermocouple for pottery and light industrial kilns.
+- **[Type S thermocouple](../glossary/type-s-thermocouple.html)** (platinum-rhodium): Reads up to 1600°C. Expensive (precious metal). Required for stoneware, porcelain, and refractory firing.
 - Insert probe through kiln wall into ware chamber. Millivolt signal proportional to temperature, read by digital pyrometer.
 - Requires [Electricity](../energy/electricity.md) for the pyrometer electronics.
 
@@ -133,16 +133,16 @@ Heat input must overcome three sinks:
 The tunnel kiln is an industrial-scale investment for continuous production of standardized ceramic products.
 
 - **Design**: Long horizontal tunnel (20-100+ m long, 1-3 m wide, 1-2 m high). Ware travels on kiln cars (refractory-topped rail carts) through three zones:
-  - **Preheat zone** (first 1/3): Waste heat from cooling zone preheats incoming ware via counterflow. Temperature ramps from ambient to ~800°C.
-  - **Firing zone** (middle 1/3): Burners (gas, oil, or solid fuel) along sides and top. Peak temperature 900-1400°C depending on product. Atmosphere control (oxidizing or reducing) via air/fuel ratio.
-  - **Cooling zone** (final 1/3): Ambient air enters at exit, cools ware progressively. Heated air from cooling is ducted to preheat zone or used for drying rooms.
+  - **[Preheat zone](../glossary/preheat-zone.html)** (first 1/3): Waste heat from cooling zone preheats incoming ware via counterflow. Temperature ramps from ambient to ~800°C.
+  - **[Firing zone](../glossary/firing-zone.html)** (middle 1/3): Burners (gas, oil, or solid fuel) along sides and top. Peak temperature 900-1400°C depending on product. Atmosphere control (oxidizing or reducing) via air/fuel ratio.
+  - **[Cooling zone](../glossary/cooling-zone.html)** (final 1/3): Ambient air enters at exit, cools ware progressively. Heated air from cooling is ducted to preheat zone or used for drying rooms.
 
 ### Advantages Over Batch Kilns
 
-- **Continuous production** — higher throughput. No cool-down/reheat cycles between batches.
+- **[Continuous production](../glossary/continuous-production.html)** — higher throughput. No cool-down/reheat cycles between batches.
 - **Fuel efficiency**: 30-50% less fuel per kg of product vs batch kilns (heat recovery from cooling zone).
-- **Uniform temperature profile** — every piece gets identical firing schedule.
-- **Automated or semi-automated** operation with kiln car pusher mechanism.
+- **[Uniform temperature profile](../glossary/uniform-temperature-profile.html)** — every piece gets identical firing schedule.
+- **[Automated or semi-automated](../glossary/automated-or-semi-automated.html)** operation with kiln car pusher mechanism.
 
 ### Construction Requirements
 
@@ -175,11 +175,11 @@ The tunnel kiln is an industrial-scale investment for continuous production of s
 
 ## Cross-References
 
-- **Kiln Firing Protocols** (temperature schedules): [kiln-firing.md](kiln-firing.md)
-- **Pottery & Clay Products** (clay preparation, forming): [pottery.md](pottery.md)
-- **Advanced Ceramics** (refractory materials): [advanced-ceramics.md](advanced-ceramics.md)
-- **Lime Production** (lime kilns): [lime.md](lime.md)
-- **Charcoal Production** (fuel for kilns): [charcoal.md](../energy/charcoal.md)
+- **[Kiln Firing Protocols](../glossary/kiln-firing-protocols.html)** (temperature schedules): [kiln-firing.md](kiln-firing.md)
+- **[Pottery & Clay Products](pottery.md)** (clay preparation, forming): [pottery.md](pottery.md)
+- **[Advanced Ceramics](advanced-ceramics.md)** (refractory materials): [advanced-ceramics.md](advanced-ceramics.md)
+- **[Lime Production](lime.md)** (lime kilns): [lime.md](lime.md)
+- **[Charcoal Production](../energy/fuels-charcoal.md)** (fuel for kilns): [charcoal.md](../energy/charcoal.md)
 
 ## Kiln Efficiency & Fuel Economics
 

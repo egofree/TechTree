@@ -46,20 +46,20 @@
 
 ### Vessel Construction Methods
 
-**Dugout canoe** (Stone Age):
+**[Dugout canoe](../glossary/dugout-canoe.html)** (Stone Age):
 - Select a straight-trunked tree: oak, pine, cedar, or basswood. Fell with axes. Length 3-8 m, diameter 0.4-0.8 m.
 - Hollow by controlled burning: build small fires along the trunk interior, burn evenly, scrape charred wood with stone or shell tools. Repeat cycles of burn and scrape until wall thickness reaches 2-5 cm. The fire-hardened interior resists rot.
 - Shape the hull exterior with adzes. Round-bottom hulls track straighter; flat-bottom hulls resist rolling. Freeboard 20-40 cm. Bow and stern tapered to a point for minimum drag.
 - Capacity 0.5-2 tonnes. Crew 1-4 paddlers. Speed 3-5 knots with paddles. Oldest boat type, requires only fire, axes, and patience.
 
-**Clinker-built** (overlapping planks):
+**[Clinker-built](../glossary/clinker-built.html)** (overlapping planks):
 - Start with a keel plank (oak, 10-15 cm square section). Attach stem and sternpost. Lay the garboard strake (first plank) against the keel.
 - Each successive plank overlaps the one below by 2-4 cm. Fasten overlaps with iron nails (later: copper rivets), clenched over roves (washers) on the inside. The overlapping joints shed water naturally.
 - Insert frames (ribs) after planking is complete. Naturally bent timber (oak branches, steamed to shape) fastened to the planks with trenails (wooden dowels). Frame spacing 30-50 cm.
 - Caulk the overlap seams with moss or animal hair driven in with a mallet, then seal with tar or pitch. The overlapping construction produces a flexible hull that absorbs wave impact.
 - Vessel length 8-20 m. The Norse longship (30 m) represents the upper practical limit of clinker construction. Weight 2-10 tonnes empty, cargo capacity 5-20 tonnes.
 
-**Carvel-built** (edge-to-edge planks):
+**[Carvel-built](../glossary/carvel-built.html)** (edge-to-edge planks):
 - Erect the frames first on the keel, then fasten planks edge-to-edge against the frames. Plank edges meet flush, producing a smooth hull surface with less drag than clinker.
 - Plank thickness 3-6 cm (oak or pine). Fasten with iron nails or wooden trenails driven through plank and frame. Gaps between planks caulked with oakum (frayed hemp rope fibers hammered into seams with a caulking iron) and sealed with pitch or tar.
 - Carvel construction scales larger than clinker. Hulls of 20-60 m are practical. The hull is stiffer but less forgiving of impact. Requires a strong internal frame structure (heavy oak frames, 25-40 cm sided, at 40-60 cm spacing).
@@ -67,7 +67,7 @@
 
 **Waterproofing and protection**:
 - **Tar and pitch**: Distilled from pine resin or coal tar. Apply 2-3 coats to hull below waterline. Re-apply annually. Prevents rot and marine boring worm damage.
-- **Copper sheathing** (later stage): Thin copper sheets (0.5-1.0 mm) nailed to hull below waterline. Prevents fouling (barnacles, weed growth) and boring worm attack. Reduces drag and increases speed 1-2 knots. Requires copper available from metallurgy.
+- **[Copper sheathing](../glossary/copper-sheathing.html)** (later stage): Thin copper sheets (0.5-1.0 mm) nailed to hull below waterline. Prevents fouling (barnacles, weed growth) and boring worm attack. Reduces drag and increases speed 1-2 knots. Requires copper available from metallurgy.
 - **Lead sheeting**: Alternative to copper, cheaper but less effective against fouling. Used on hull bottoms and rudder faces.
 
 ### Sail Rig Details

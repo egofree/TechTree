@@ -14,13 +14,13 @@ Computing requires persistent, reliable data storage. Programs, datasets, operat
 
 Storage technology appears in a predictable sequence as manufacturing capability matures. Each stage builds on the materials and precision developed in the previous one:
 
-1. **Paper-based** (years 1-15): Punch cards and paper tape require only paper production, simple stamping mechanisms, and basic mechanical readers. Data density is abysmal (960 bits per card, ~50 KB per tape roll), but the technology is accessible at the earliest stages of industrialization.
+1. **[Paper-based](../glossary/paper-based.html)** (years 1-15): Punch cards and paper tape require only paper production, simple stamping mechanisms, and basic mechanical readers. Data density is abysmal (960 bits per card, ~50 KB per tape roll), but the technology is accessible at the earliest stages of industrialization.
 
-2. **Magnetic tape** (years 15-25): Requires polyester film substrate, iron oxide particles, binder chemistry, and precision coating. Cassette-based storage at 300-2400 baud is achievable with moderate electronics. Reel-to-reel at higher density demands better head gap control and tape transport mechanics.
+2. **[Magnetic tape](../glossary/magnetic-tape.html)** (years 15-25): Requires polyester film substrate, iron oxide particles, binder chemistry, and precision coating. Cassette-based storage at 300-2400 baud is achievable with moderate electronics. Reel-to-reel at higher density demands better head gap control and tape transport mechanics.
 
-3. **Magnetic disk** (years 25-40): Demands precision machining for spindle bearings (runout <0.5 μm), cleanroom assembly, aerodynamic head design, and servo positioning systems. The engineering leap from tape to disk is substantial.
+3. **[Magnetic disk](../glossary/magnetic-disk.html)** (years 25-40): Demands precision machining for spindle bearings (runout <0.5 μm), cleanroom assembly, aerodynamic head design, and servo positioning systems. The engineering leap from tape to disk is substantial.
 
-4. **Solid-state** (years 40+): Requires semiconductor fabrication. EPROM and EEPROM are achievable with modest process capability (2-3 μm feature sizes). NAND flash at competitive densities needs sub-100nm lithography.
+4. **[Solid-state](../glossary/solid-state.html)** (years 40+): Requires semiconductor fabrication. EPROM and EEPROM are achievable with modest process capability (2-3 μm feature sizes). NAND flash at competitive densities needs sub-100nm lithography.
 
 This progression means early computing systems will rely heavily on magnetic tape for mass storage, with paper tape for bootstrapping and program input.
 

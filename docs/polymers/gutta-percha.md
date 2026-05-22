@@ -2,7 +2,7 @@
 
 > **Node ID**: polymers.rubber.gutta-percha
 > **Domain**: Polymers & Composites
-> **Dependencies**: `polymers.rubber.natural`
+> **Dependencies**: [`polymers.rubber.natural`](natural.md)
 > **Enables**: `electronics.insulation`, `telecommunications.submarine-cable`
 > **Timeline**: Years 10-25
 > **Outputs**: gutta_percha_sheet, cable_insulation, dental_points, molded_parts
@@ -19,8 +19,8 @@ The trees are tall evergreens, reaching 30-40 m in height, with trunk diameter 4
 
 Gutta-percha is a polymer of isoprene, specifically **trans-1,4-polyisoprene**. This is a geometric isomer of natural rubber, which is **cis-1,4-polyisoprene**. Both polymers share the same chemical formula — (C₅H₈)ₙ — and the same monomer unit, but the different geometry around the central double bond produces dramatically different physical properties:
 
-- **Cis configuration** (natural rubber): The methyl groups are on the same side of the double bond. This creates a kinked, disordered chain structure that cannot pack tightly → soft, elastic, amorphous at room temperature. Amorphous density ~0.92 g/cm³. The irregular packing leaves large free volumes between chains, allowing them to slide past each other easily under stress. Needs vulcanization (chemical cross-linking with sulfur) for practical mechanical properties.
-- **Trans configuration** (gutta-percha): The methyl groups are on opposite sides. This allows the polymer chains to pack in a regular, ordered crystalline structure → hard, rigid, non-elastic at room temperature. Crystalline density ~1.05 g/cm³. The regular packing brings chains close together, maximizing intermolecular van der Waals forces and creating physical cross-links through crystallite formation. The crystalline regions act as physical cross-links, providing mechanical strength without the need for chemical vulcanization.
+- **[Cis configuration](../glossary/cis-configuration.html)** (natural rubber): The methyl groups are on the same side of the double bond. This creates a kinked, disordered chain structure that cannot pack tightly → soft, elastic, amorphous at room temperature. Amorphous density ~0.92 g/cm³. The irregular packing leaves large free volumes between chains, allowing them to slide past each other easily under stress. Needs vulcanization (chemical cross-linking with sulfur) for practical mechanical properties.
+- **[Trans configuration](../glossary/trans-configuration.html)** (gutta-percha): The methyl groups are on opposite sides. This allows the polymer chains to pack in a regular, ordered crystalline structure → hard, rigid, non-elastic at room temperature. Crystalline density ~1.05 g/cm³. The regular packing brings chains close together, maximizing intermolecular van der Waals forces and creating physical cross-links through crystallite formation. The crystalline regions act as physical cross-links, providing mechanical strength without the need for chemical vulcanization.
 
 **Polymorphism**: Gutta-percha exists in two crystalline forms — alpha (α) and beta (β). The alpha form is stable at room temperature (monoclinic unit cell, density 1.05 g/cm³). The beta form is produced when gutta-percha is stretched or rapidly cooled from the melt (orthorhombic unit cell, density ~0.95 g/cm³). The beta form gradually converts to alpha on aging at room temperature over weeks to months, accompanied by dimensional changes and embrittlement. This polymorphic transition must be accounted for in precision applications (submarine cable insulation was aged before installation to allow the transition to stabilize).
 

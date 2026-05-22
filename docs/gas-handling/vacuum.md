@@ -2,27 +2,27 @@
 
 > **Node ID**: gas-handling.vacuum
 > **Domain**: [Gas Handling](./)
-> **Enables**: `photolithography.fab-processes`, `silicon.basic-devices`
+> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_pumps, vacuum_chambers, vacuum_measurement, leak_detection
 
 ### Vacuum Technology
 
-**Mechanical pumps** (foundation of all vacuum work):
+**[Mechanical pumps](../glossary/mechanical-pumps.html)** (foundation of all vacuum work):
 
-**Piston pump** (simplest, lower vacuum):
+**[Piston pump](../glossary/piston-pump.html)** (simplest, lower vacuum):
 - **Construction**: Cast iron cylinder, machined piston with leather cup seal, inlet and outlet check valves (leather or steel flappers). Driven by crank from motor or hand wheel.
 - **Performance**: ~10-100 L/min pumping speed. Ultimate vacuum ~10-50 Torr (rough vacuum).
 - **Applications**: Initial roughing pump, gas transfer, compression.
 
-**Rotary vane pump** (workhorse — achieves medium vacuum):
+**[Rotary vane pump](../glossary/rotary-vane-pump.html)** (workhorse — achieves medium vacuum):
 - **Principle**: Eccentric rotor in cylindrical stator. Spring-loaded vanes slide in rotor slots, maintaining contact with stator wall. Gas enters inlet port, trapped between vanes and stator, compressed, expelled through exhaust valve.
 - **Construction**: Cast iron stator (bored to ~0.01 mm tolerance on Machine Tools lathe/boring machine). Steel rotor. Steel or carbon fiber vanes. Oil-filled for sealing and lubrication (oil seals microscopic gaps between vanes and stator).
 - **Oil requirements**: Low vapor pressure vacuum oil (see [Lubricants](../chemistry/lubricants.md)). Mineral oil with low volatility, or silicone oil. Oil changed regularly — contaminated oil limits ultimate vacuum.
 - **Performance**: 1-50 L/min (small), 50-500 L/min (medium). Ultimate vacuum: ~10⁻² to 10⁻³ Torr (0.01-0.001 Pa). Single-stage: ~10⁻² Torr. Two-stage: ~10⁻³ Torr.
 - **Gas ballast**: Small valve admits air during compression phase to prevent condensation of vapors (water, solvents) in pump oil. Essential when pumping wet systems.
 
-**Diffusion pump** (high vacuum, no moving parts):
+**[Diffusion pump](../glossary/diffusion-pump.html)** (high vacuum, no moving parts):
 - **Principle**: Boiler heats silicone or hydrocarbon oil → vapor jets shoot downward → gas molecules from vacuum chamber diffuse into vapor stream → carried to exhaust → removed by backing pump. No moving parts, very reliable.
 - **Backing pump requirement**: Diffusion pump requires a mechanical backing pump (rotary vane) to maintain foreline pressure below ~0.5 Torr. Without backing, diffusion pump stalls and oil backstreams into chamber.
 - **Performance**: Pumping speed 50-10,000 L/s. Ultimate vacuum: ~10⁻⁶ to 10⁻⁸ Torr with proper trapping and baking.
@@ -46,9 +46,9 @@
 
 ### Vacuum System Design
 
-**Two-stage pump system** (standard for high vacuum):
-- **Roughing pump** (rotary vane or diaphragm): Pulls system from atmospheric pressure (~10⁵ Pa) down to ~0.1-1 Pa. This is the "rough vacuum" phase. The roughing pump handles the bulk of the gas load — most of the air molecules are removed in this stage.
-- **High-vacuum pump** (turbomolecular or diffusion pump): Takes over at the **crossover pressure** (~1 Pa, or ~10⁻² Torr). Below this pressure, molecular flow dominates and the high-vacuum pump becomes effective. Crossover too early → gas load overloads the high-vacuum pump. Crossover too late → wastes time and risks oil backstreaming from roughing pump.
+**[Two-stage pump system](../glossary/two-stage-pump-system.html)** (standard for high vacuum):
+- **[Roughing pump](../glossary/roughing-pump.html)** (rotary vane or diaphragm): Pulls system from atmospheric pressure (~10⁵ Pa) down to ~0.1-1 Pa. This is the "rough vacuum" phase. The roughing pump handles the bulk of the gas load — most of the air molecules are removed in this stage.
+- **[High-vacuum pump](../glossary/high-vacuum-pump.html)** (turbomolecular or diffusion pump): Takes over at the **[crossover pressure](../glossary/crossover-pressure.html)** (~1 Pa, or ~10⁻² Torr). Below this pressure, molecular flow dominates and the high-vacuum pump becomes effective. Crossover too early → gas load overloads the high-vacuum pump. Crossover too late → wastes time and risks oil backstreaming from roughing pump.
 - **Pump-down sequence**: Open roughing valve, close high-vacuum valve. Rough to ~1 Pa. Close roughing valve, open high-vacuum valve. Continue pumping to target base pressure (10⁻⁴ to 10⁻⁶ Pa for most semiconductor processes).
 - **Turbomolecular pump vs. diffusion pump**: Turbo pump — fast startup (1-3 min), clean (no oil vapor), expensive to build (precision rotor at 30,000-90,000 RPM). Diffusion pump — slower startup (15-30 min), requires cold trap to prevent oil backstreaming, simpler construction, lower cost.
 
@@ -58,13 +58,13 @@ Every surface in a vacuum system releases adsorbed gas molecules — this is out
 
 | Material | Outgassing Rate (Pa·m³/s·m²) | Conditions |
 |----------|-------------------------------|------------|
-| **Stainless steel** (electropolished) | ~10⁻⁸ after bake | Standard for vacuum chambers. Improves 10-100× with bake-out. |
-| **Stainless steel** (unbaked) | ~10⁻⁶ | Freshly manufactured, exposed to air. Mainly H₂O desorption. |
-| **Viton** (unbaked) | ~10⁻⁶ | Elastomer O-ring seals. Major gas source. Bake reduces by 10-100×. |
-| **Viton** (baked) | ~10⁻⁷ to 10⁻⁸ | After 24h at 150°C. Still higher than metal. |
-| **Copper** (OFHC, baked) | ~10⁻⁹ | Lowest outgassing of practical materials. Used for CF flange gaskets. |
-| **PTFE** | ~10⁻⁶ | Good chemical resistance but high outgassing. Avoid in UHV. |
-| **Aluminum** (baked) | ~10⁻⁹ | Good if surface oxide is controlled. Porous to He — problematic for leak detection. |
+| **[Stainless steel](../glossary/stainless-steel.html)** (electropolished) | ~10⁻⁸ after bake | Standard for vacuum chambers. Improves 10-100× with bake-out. |
+| **[Stainless steel](../glossary/stainless-steel.html)** (unbaked) | ~10⁻⁶ | Freshly manufactured, exposed to air. Mainly H₂O desorption. |
+| **[Viton](../glossary/viton.html)** (unbaked) | ~10⁻⁶ | Elastomer O-ring seals. Major gas source. Bake reduces by 10-100×. |
+| **[Viton](../glossary/viton.html)** (baked) | ~10⁻⁷ to 10⁻⁸ | After 24h at 150°C. Still higher than metal. |
+| **[Copper](../glossary/copper.html)** (OFHC, baked) | ~10⁻⁹ | Lowest outgassing of practical materials. Used for CF flange gaskets. |
+| **[PTFE](../glossary/ptfe.html)** | ~10⁻⁶ | Good chemical resistance but high outgassing. Avoid in UHV. |
+| **[Aluminum](../metals/aluminum.md)** (baked) | ~10⁻⁹ | Good if surface oxide is controlled. Porous to He — problematic for leak detection. |
 
 Design rule: minimize internal surface area, avoid elastomers where possible, bake if target pressure is below 10⁻⁵ Pa.
 
@@ -78,17 +78,17 @@ Design rule: minimize internal surface area, avoid elastomers where possible, ba
 
 ### Additional Vacuum Pump Types
 
-**Diaphragm pump** (oil-free roughing):
+**[Diaphragm pump](../glossary/diaphragm-pump.html)** (oil-free roughing):
 - **Principle**: Flexible PTFE or elastomer diaphragm oscillates in a chamber, drawing gas in through an inlet valve and expelling it through an outlet valve. The diaphragm separates the drive mechanism from the gas stream, so no oil contacts the gas.
 - **Performance**: Ultimate vacuum 1-10 mbar. Pumping speed 0.5-50 L/min. Not capable of reaching high vacuum on its own, but serves as a clean backing pump for turbomolecular pumps in applications where oil contamination is unacceptable (surface analysis, mass spectrometry, semiconductor processing).
 - **Advantages**: Oil-free (no backstreaming, no oil changes), chemically resistant with PTFE heads (can pump corrosive vapors), low maintenance (diaphragm replacement every 5,000-10,000 hours). Disadvantages: limited ultimate vacuum, lower pumping speed than comparable rotary vane pumps.
 
-**Scroll pump** (oil-free, medium vacuum):
+**[Scroll pump](../glossary/scroll-pump.html)** (oil-free, medium vacuum):
 - **Principle**: Two interleaving spiral scrolls — one fixed, one orbiting. The orbiting motion creates crescent-shaped gas pockets that progressively decrease in volume, compressing gas from inlet to outlet. No sliding contacts, no oil seal.
 - **Performance**: Ultimate vacuum ~10⁻² mbar. Pumping speed 5-60 m³/h. Noise level 50-65 dB (quieter than rotary vane).
 - **Advantages**: Oil-free, low vibration, low maintenance (only scroll tip seals wear). Used as backing pump for small turbomolecular pumps, and for applications requiring clean rough vacuum (freeze drying, degassing, solvent evaporation).
 
-**Turbomolecular pump** (high/ultra-high vacuum):
+**[Turbomolecular pump](../glossary/turbomolecular-pump.html)** (high/ultra-high vacuum):
 - **Principle**: Rotor with multiple angled blade stacks spins at 20,000-90,000 RPM. Gas molecules hitting the spinning blades receive a momentum kick in the exhaust direction. Each blade stage provides a small compression ratio; 5-40 stages achieve compression ratios of 10⁸-10¹² for N₂. Compression ratio depends on molecular weight: heavy gases (oil vapors) are pumped much more effectively than light gases (H₂, He). This is why a backing pump is required to handle light gas molecules that pass through the turbo pump relatively unaffected.
 - **Backing pump requirement**: Rotary vane, diaphragm, or scroll pump maintains foreline pressure below 0.1-1 mbar. Without backing, the turbo pump cannot establish a pressure gradient and stalls.
 - **Performance**: 10⁻³ to 10⁻¹⁰ mbar (with appropriate backing and baking). Pumping speed 50-5,000 L/s. Compression ratio for N₂: >10⁹; for H₂: ~10³-10⁵ (light gases are the hardest to pump).

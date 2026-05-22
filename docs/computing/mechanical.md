@@ -44,27 +44,27 @@
 - **Capability**: Direct multiplication and division. 8-12 digit input, 16-20 digit accumulator. Speed: multiplication of two 8-digit numbers in ~15 seconds. The workhorse mechanical calculator from ~1820 to ~1960.
 - **Construction requirements**: Precision gear-cutting, milling, drilling, and finishing — Machine Tools stage machine shop capability essential. Each calculator contains 1000-3000 precision parts. Manufacturing time: 100-300 skilled labor-hours per unit.
 
-**Difference Engine** (Babbage-type):
+**[Difference Engine](../glossary/difference-engine.html)** (Babbage-type):
 - **Purpose**: Automatically tabulate polynomial functions. Compute mathematical tables (logarithms, trigonometric) without human error.
 - **Principle**: Finite differences — any polynomial of degree n can be computed by repeated addition using n+1 columns of differences. Example: for quadratic ax² + bx + c, maintain three columns: value, first difference, second difference. Add second difference to first difference, then first difference to value. Repeat. Each step = next table entry.
 - **Construction**: Columns of toothed wheels (31 digits per column, 7 columns for 6th-order polynomial). Each column adds to next via intricate carry mechanism. Crank handle drives all additions simultaneously. Automatic printing of results (inked type wheels impress onto paper, also into plaster or soft metal for stereotype printing plates).
 - **Capability**: Tabulate any polynomial to 31-digit precision. Compute tables of logarithms, trigonometric functions, actuarial tables, ballistic trajectories. Eliminate human calculation errors from published tables.
 - **Manufacturing challenge**: Requires thousands of parts with tolerances of ±0.025 mm. Precision casting, gear-cutting, milling, grinding. The Machine Tools stage is sufficient. Assembly and adjustment by skilled mechanic over weeks-months.
 
-**Babbage Analytical Engine** (conceptual, requires advanced Machine Tools):
+**[Babbage Analytical Engine](../glossary/babbage-analytical-engine.html)** (conceptual, requires advanced Machine Tools):
 - **Store**: Columns of toothed wheels representing variable values (1000 columns × 50 digits each proposed). Memory for data and intermediate results — the conceptual ancestor of RAM.
 - **Mill**: Set of gears and carries that perform arithmetic operations (add, subtract, multiply, divide) on values fetched from the store. The conceptual ancestor of the CPU. Operation selected by control cards.
 - **Input**: Punched cards (adapted from Jacquard loom) — operation cards specify which calculation to perform, variable cards specify which store columns to read/write. Program = sequence of cards. Conditional branching achieved by reversing card chain direction (advance or back up based on result sign). The first general-purpose programmable computer concept, though never completed in Babbage's lifetime.
 
 ### Specialized Calculation Devices
 
-**Napier's bones** (multiplication rods):
+**[Napier's bones](../glossary/napiers-bones.html)** (multiplication rods):
 - **Construction**: Ten rectangular rods (numbered 0-9), each divided into nine squares. Each square shows the product of the rod's digit multiplied by the row number (1-9), with tens above a diagonal line and units below. An eleventh rod serves as the multiplier index.
 - **Operation**: Arrange rods side by side to form the multiplicand digits. Read across the row corresponding to the multiplier digit, adding diagonal pairs to get partial products. Multi-digit multiplication requires one row per multiplier digit, with positional offset.
 - **Speed**: Multiplication of two 4-digit numbers in 30-60 seconds. Reduces multiplication to a lookup and addition task, eliminating the need to memorize multiplication tables beyond single digits.
 - **Materials**: Wood, ivory, bone, or metal. Engraved or stamped markings. Requires only basic crafting skills.
 
-**Mechanical integrators** (analog computing):
+**[Mechanical integrators](../glossary/mechanical-integrators.html)** (analog computing):
 - **Ball-and-disk integrator**: A steel ball sits between a rotating disk and a cylindrical output roller. The ball contacts the disk at a radial position set by an input shaft. The disk rotates at constant speed. The ball transmits rotation to the output roller at a rate proportional to the ball's radial position (distance from disk center). Moving the ball outward increases the output roller speed. This multiplies a continuous variable (ball position = input) by another (disk rotation = time or another variable). Output: rotation angle = integral of input over time.
 - **Accuracy**: ±0.5-1% of full scale. Limited by ball slip, friction, and mechanical play.
 - **Applications**: Fire control computers (naval gunnery, anti-aircraft), where target range, bearing, speed, and wind must be integrated continuously. Differential analyzers (Bush-type, 1930s): arrays of integrators connected by shafts solve differential equations mechanically. These were the primary computing engines for scientific problems before electronic computers.
@@ -75,7 +75,7 @@
 - **Common functions**: Sine/cosine (eccentric circular cam), square root (specially profiled cam), logarithmic cam for range correction in fire control. Combinations of cams and linkages compute multi-variable functions.
 - **Accuracy**: Limited by machining precision, typically ±0.1-0.5% of full-scale output. Cam wear degrades accuracy over time — hardened steel surfaces are essential.
 
-**Curta calculator** (handheld stepped drum):
+**[Curta calculator](../glossary/curta-calculator.html)** (handheld stepped drum):
 - **Design**: Cylindrical housing containing a stepped drum mechanism miniaturized to handheld size. Input sliders on the barrel set digits. Crank handle on top performs addition. Multiplication by repeated cranking with carriage shift. Subtraction via complement method with reversed crank direction (crank folds out for subtraction).
 - **Capacity**: 11-digit input, 15-digit result counter, 8-digit revolution counter. Weighs ~230 g.
 - **Manufacturing**: Requires 605 precision parts. Machining tolerances ±0.01 mm on critical dimensions. The most complex mechanical calculator produced in significant numbers (~80,000 units). Demonstrates the upper limit of purely mechanical calculation before electronics.
@@ -86,13 +86,13 @@
 - **Decade counter**: Ten-tooth ratchet wheel with detent. Each input pulse (via electromagnet or mechanical linkage) advances wheel by one position. Carry lever trips when wheel passes 9, advancing next wheel. Used in: tabulating machines, odometers, revolution counters, frequency counters.
 - **Veeder-Root counter**: Sealed counter mechanism with numbered drums visible through a window. Direct mechanical input via shaft. Counts up to 999,999 or more. Industrial standard for production counting.
 
-**Keyboard-driven calculators** (late mechanical era, 1900-1960):
-- **Full-keyboard machines** (Friden, Marchant): Ten-key rows (0-9) for each digit position. Press keys to set the number, pull lever to engage. Automatic multiplication: set multiplier on keyboard, pull multiply lever, machine iterates through digits automatically, shifting carriage between digit positions. Division similarly automated. Speed: multiplication of two 10-digit numbers in 5-10 seconds.
-- **Ten-key machines** (later design): Compact, resembling modern calculator layout. Enter digits sequentially, machine positions them internally. Electric motor drive replaces hand crank (1940s onward). These machines dominated business computation until electronic calculators displaced them in the 1970s.
+**[Keyboard-driven calculators](../glossary/keyboard-driven-calculators.html)** (late mechanical era, 1900-1960):
+- **[Full-keyboard machines](../glossary/full-keyboard-machines.html)** (Friden, Marchant): Ten-key rows (0-9) for each digit position. Press keys to set the number, pull lever to engage. Automatic multiplication: set multiplier on keyboard, pull multiply lever, machine iterates through digits automatically, shifting carriage between digit positions. Division similarly automated. Speed: multiplication of two 10-digit numbers in 5-10 seconds.
+- **[Ten-key machines](../glossary/ten-key-machines.html)** (later design): Compact, resembling modern calculator layout. Enter digits sequentially, machine positions them internally. Electric motor drive replaces hand crank (1940s onward). These machines dominated business computation until electronic calculators displaced them in the 1970s.
 
 ### Mechanical Analog Computing
 
-**Differential analyzer** (Bush-type, 1930s):
+**[Differential analyzer](../glossary/differential-analyzer.html)** (Bush-type, 1930s):
 - **Purpose**: Solve ordinary differential equations numerically by mechanical integration. The first general-purpose analog computer.
 - **Components**: Multiple mechanical integrators (ball-and-disk type) interconnected by shafts and gear trains. Each integrator solves one variable. Input shafts represent known quantities; output shafts represent computed quantities. Addition performed by differential gear (summing two shaft rotations). Multiplication by a constant via gear ratio.
 - **Setup**: To solve dy/dx = f(x, y), connect integrators and adders with shafts to represent the mathematical relationships. The machine runs continuously, and the output shaft rotation traces the solution y(x) on a pen plotter.
@@ -125,11 +125,11 @@
 
 The development of mechanical calculation follows a clear progression of increasing complexity and manufacturing capability:
 
-1. **Abacus and counting board** (ancient to present): Requires zero manufacturing infrastructure. Wood, beads, and cord. Remains competitive for certain calculations well into the electronic age.
-2. **Napier's bones and sector** (~1600): Requires only basic woodworking or metalworking. Individual rods can be made by hand with simple tools.
-3. **Gear-based adders** (~1640-1820): Requires precision brass casting and gear cutting. Pascal and Leibniz machines demanded manufacturing tolerances unavailable in their era, which limited production.
-4. **Difference Engine** (~1820-1850): Requires machine tools capable of ±0.025 mm tolerances on thousands of parts. Babbage's engine was not completed in his lifetime partly because manufacturing technology had not yet caught up with his designs.
-5. **Mass-produced mechanical calculators** (~1880-1970): Enabled by precision machine tools, interchangeable parts, and specialized factory production. The Arithmometer (1820, Thomas de Colmar) was the first commercially successful calculator; the Comptometer (1887, Felt) and later Friden and Marchant machines dominated business computing for decades.
+1. **[Abacus and counting board](../glossary/abacus-and-counting-board.html)** (ancient to present): Requires zero manufacturing infrastructure. Wood, beads, and cord. Remains competitive for certain calculations well into the electronic age.
+2. **[Napier's bones and sector](../glossary/napiers-bones-and-sector.html)** (~1600): Requires only basic woodworking or metalworking. Individual rods can be made by hand with simple tools.
+3. **[Gear-based adders](../glossary/gear-based-adders.html)** (~1640-1820): Requires precision brass casting and gear cutting. Pascal and Leibniz machines demanded manufacturing tolerances unavailable in their era, which limited production.
+4. **[Difference Engine](../glossary/difference-engine.html)** (~1820-1850): Requires machine tools capable of ±0.025 mm tolerances on thousands of parts. Babbage's engine was not completed in his lifetime partly because manufacturing technology had not yet caught up with his designs.
+5. **[Mass-produced mechanical calculators](../glossary/mass-produced-mechanical-calculators.html)** (~1880-1970): Enabled by precision machine tools, interchangeable parts, and specialized factory production. The Arithmometer (1820, Thomas de Colmar) was the first commercially successful calculator; the Comptometer (1887, Felt) and later Friden and Marchant machines dominated business computing for decades.
 
 **Bootstrap path for mechanical calculation**: In a civilization rebuilding scenario, the progression would be similar but compressed. The abacus requires nothing. Nomograms and slide rules require only printing and basic drafting. Gear-based adders require a working machine shop (lathe, milling machine, precision measuring instruments). The Difference Engine and Analytical Engine require advanced machine tools capable of interchangeable parts at ±0.025 mm tolerance. Each level of manufacturing capability enables a corresponding level of mechanical calculation, and each level of calculation accelerates engineering and scientific work needed for the next manufacturing level.
 
@@ -200,7 +200,7 @@ Mechanical calculators represent numbers through physical position:
 - **Division as repeated subtraction**: Set dividend in accumulator, divisor on input sliders. Repeatedly subtract until the accumulator goes negative (detected by a bell), then add back once and record the count as one quotient digit. Shift carriage right. Repeat for each quotient digit. Slower than multiplication, roughly 30-60 seconds per digit.
 
 **Difference Engine construction details**:
-- **Babbage's Design No. 2** (1847-1849, never built in his lifetime): 7th-order polynomial evaluator with 31-digit numbers. Estimated 25,000 parts, total weight approximately 15 tons. The Science Museum London built it from Babbage's plans in 1991: it works perfectly, vindicating his design after 150 years.
+- **[Babbage's Design No. 2](../glossary/babbages-design-no-2.html)** (1847-1849, never built in his lifetime): 7th-order polynomial evaluator with 31-digit numbers. Estimated 25,000 parts, total weight approximately 15 tons. The Science Museum London built it from Babbage's plans in 1991: it works perfectly, vindicating his design after 150 years.
 - **Finite difference method example**: To tabulate x² for x = 1, 2, 3..., start with value=1, first difference=3 (2²-1²), second difference=2 (constant for quadratics). Each step: add 2nd diff to 1st diff (3→5→7...), then add 1st diff to value (1→4→9...). Only additions required, no multiplication. Higher-order polynomials need more difference columns but the principle is identical.
 - **Carry propagation**: The most demanding mechanical problem. Babbage's solution uses a vertical stack of 31 digit wheels per column. Each wheel has a projecting tooth that, on passing 9→0, lifts a spring-loaded lever that advances the wheel above by one position. Carries propagate upward (ones to tens to hundreds) during a single crank rotation. The timing must allow each carry to complete before the next triggers.
 

@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.camelids
 > **Domain**: [Animals](./)
-> **Dependencies**: `animals`, `animals.domestication`
-> **Enables**: `textiles.fibers`, `transport.trails`
+> **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
+> **Enables**: [`textiles.fibers`](../textiles/fibers.md), `transport.trails`
 > **Timeline**: Years 2-15+
 > **Outputs**: fiber, packing_transport, guard_services, manure
 
@@ -29,8 +29,8 @@ South American camelids — alpacas (*Vicugna pacos*) and llamas (*Lama glama*) 
 
 #### Alpaca Breeds
 
-- **Huacaya** (90% of alpacas): Fluffy, crimped fleece that grows perpendicular to the skin. Crimp (wave pattern) gives the fiber natural elasticity and loft, making it ideal for knitting and felting. Fiber diameter 20-30 microns. 22 recognized natural colors from white through fawn, brown, grey, and black. Hardier and easier to manage than Suri.
-- **Suri** (10% of alpacas): Long, lustrous fleece that hangs in pencil-like locks (dreadlocks), growing parallel to the body. No crimp — the fiber is straight with a silky handle. Fiber diameter 18-28 microns (often finer than Huacaya). More delicate constitution — requires more shelter and attention. Fiber is prized for weaving and produces fabric with exceptional drape.
+- **[Huacaya](../glossary/huacaya.html)** (90% of alpacas): Fluffy, crimped fleece that grows perpendicular to the skin. Crimp (wave pattern) gives the fiber natural elasticity and loft, making it ideal for knitting and felting. Fiber diameter 20-30 microns. 22 recognized natural colors from white through fawn, brown, grey, and black. Hardier and easier to manage than Suri.
+- **[Suri](../glossary/suri-alpaca.html)** (10% of alpacas): Long, lustrous fleece that hangs in pencil-like locks (dreadlocks), growing parallel to the body. No crimp — the fiber is straight with a silky handle. Fiber diameter 18-28 microns (often finer than Huacaya). More delicate constitution — requires more shelter and attention. Fiber is prized for weaving and produces fabric with exceptional drape.
 
 #### Llama Types
 

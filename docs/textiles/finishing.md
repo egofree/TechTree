@@ -2,7 +2,7 @@
 
 > **Node ID**: textiles.finishing
 > **Domain**: [Textiles](./)
-> **Dependencies**: `textiles.weaving`, `chemicals.acids-bases`
+> **Dependencies**: [`textiles.weaving`](weaving.md), `chemicals.acids-bases`
 > **Timeline**: Years 8-14
 > **Outputs**: finished_cloth, waterproof_fabric, fireproofed_textiles
 
@@ -29,12 +29,12 @@ Fulling cleans, shrinks, and felts woven cloth. The process transforms a loose, 
 
 Napping pulls fiber ends to the surface of the cloth, creating a soft, fuzzy pile. This improves insulation (trapped air in the nap) and gives the fabric a warmer hand feel.
 
-**Teazle raising** (traditional):
+**[Teazle raising](../glossary/teazle-raising.html)** (traditional):
 - The dried flower head of the teasel plant (Dipsacus fullonum) has stiff, hooked bracts that catch and lift fiber ends without breaking them. Teazles are mounted in rows on a large cylindrical frame (teazle gig, 1-2 m wide, 1-1.5 m diameter). The cloth is held against the rotating teazle cylinder, and the hooks gently pull fibers upward.
 - Multiple passes (4-8) gradually build the nap. Each pass raises more fiber. The cloth is brushed between passes to align the nap in one direction. The raised nap is then sheared to a uniform height with heavy shears.
 - Teazles wear out and break during use. A fulling gig frame holds 15,000-30,000 teazle heads, which are replaced in sections as they wear. Teazles were grown as a crop specifically for textile finishing in 18th and 19th century England, occupying thousands of acres.
 
-**Wire card raising** (mechanized):
+**[Wire card raising](../glossary/wire-card-raising.html)** (mechanized):
 - Steel wire cards (hooked wire teeth set in a rubber or canvas backing) replace teazles. More durable and consistent than teazles, but harsher on fibers. Wire raising can break delicate fibers if the wire angle or pressure is set incorrectly.
 - Wire raising is standard in modern finishing. Card clothing with 20-40 wire points per cm² in various wire profiles (straight, curved, sawtooth) for different fabric types and nap heights.
 
@@ -64,10 +64,10 @@ Loose fiber ends on the cloth surface create a fuzzy appearance that accepts dye
 - Burner types: direct flame (cloth passes over open flame), tangential (flame contacts cloth at a shallow angle for lighter singeing), or cylinder (cloth wraps around a heated perforated cylinder with gas flames inside).
 - After singeing, the cloth is quenched in water or passed through steam to extinguish any smoldering fibers. Skipping this step has caused warehouse fires from cloth that appeared extinguished but reignited hours later in storage.
 
-**Plate singeing** (alternative):
+**[Plate singeing](../glossary/plate-singeing.html)** (alternative):
 - Cloth passes over heated copper or cast iron plates at 400-600°C. Slower than gas singeing, but useful where gas is unavailable. Plate temperature must be uniform across the full fabric width or singeing will be uneven (lighter in the center, heavier at the edges).
 
-**Desizing** (usually follows singeing):
+**[Desizing](../glossary/desizing.html)** (usually follows singeing):
 - Warp yarns are coated with size (starch, PVA, or other adhesive) during weaving to strengthen them. After weaving, the size must be removed so the fabric can absorb dyes and finishing chemicals. Desizing dissolves or degrades the size by enzymatic action (amylase enzyme for starch, 60-70°C, pH 6-7, 4-8 hours), acid hydrolysis (dilute H₂SO₄, 0.5-1%, 50-60°C), or oxidation (hydrogen peroxide).
 
 ### Mercerization
@@ -79,7 +79,7 @@ Mercerization treats cotton with concentrated sodium hydroxide (NaOH) solution u
 - Fabric is immersed in the caustic solution for 30-60 seconds while held under tension (stenter frame clamps the fabric edges and stretches it to its original dimensions). Without tension, the fabric shrinks 20-25% and becomes weaker (this is called slack mercerization and produces stretch fabrics, not standard mercerized cotton).
 - After treatment, the fabric is washed thoroughly with hot water (60-80°C) to remove residual NaOH, then neutralized in dilute acetic acid (1-2% solution) and rinsed again. Caustic recovery: the wash water is collected and evaporated to recover NaOH for reuse (economic at industrial scale, where caustic consumption is 100-200 kg per ton of fabric).
 
-**Caustic soda production** (bootstrap path):
+**[Caustic soda production](../glossary/caustic-soda-production.html)** (bootstrap path):
 - Sodium hydroxide is produced by the chlor-alkali process (electrolysis of brine: 2NaCl + 2H₂O → 2NaOH + H₂ + Cl₂). This requires electricity and a membrane or diaphragm cell.
 - Lower-tech alternative: lime causticization. Sodium carbonate (Na₂CO₃, from the Solvay process) is reacted with calcium hydroxide (slaked lime): Na₂CO₃ + Ca(OH)₂ → 2NaOH + CaCO₃. The calcium carbonate precipitates, leaving NaOH solution. Less concentrated than electrolysis product (10-15% vs. 50%), but works without electricity.
 
@@ -96,7 +96,7 @@ Wool and cotton absorb water readily (cotton holds up to 25% of its weight in wa
 - Reapplication needed every few months with heavy use. Wax coating stiffens in cold weather and softens or melts in hot weather. Not suitable for tropical climates where ambient temperature exceeds the wax melting point.
 - Traditional application: sailor's canvas clothing and tents were waxed with a mixture of 2 parts beeswax to 1 part linseed oil, melted together and brushed onto the fabric while hot. The linseed oil polymerizes over several days, creating a more durable coating than wax alone. This "tin cloth" or "waxed cotton" was the standard waterproof fabric for outdoor work from the 18th century through the mid-20th century, when synthetic waterproof fabrics (Gore-Tex, polyurethane-coated nylon) replaced it.
 
-**Oil proofing** (oilcloth):
+**[Oil proofing](../glossary/oil-proofing.html)** (oilcloth):
 - Linseed oil applied at 100-200 g/m² in multiple thin coats. Each coat is allowed to dry (oxidize and polymerize) for 3-7 days before the next coat. A finished oilcloth has 4-8 coats and takes 2-6 weeks to complete.
 - Linseed oil polymerizes through oxidation. The polymerized film is flexible, waterproof, and reasonably durable (6-12 months of outdoor service before cracking and peeling). Adding a drying agent (cobalt or manganese salts, 0.01-0.05% by weight of oil) accelerates drying to 1-2 days per coat.
 - Oilcloth production was a major industry in the 18th and 19th centuries. It produced waterproof tarps, table covers, and floor coverings (the precursor to linoleum).
@@ -115,7 +115,7 @@ Cellulose fibers (cotton, linen) and protein fibers (wool, silk) burn. Fireproof
 - Borax melts at 743°C and forms a glassy layer on the fiber surface when heated, blocking oxygen access. Boric acid decomposes at 300°C, releasing water vapor that dilutes flammable gases. Together, they raise the ignition temperature and suppress afterglow.
 - Effectiveness: increases ignition time from 3-5 seconds to 15-30 seconds for cotton. Reduces afterglow (smoldering) significantly. Durable through 3-5 washes; re-treatment required after that.
 
-**Phosphate salt treatment** (more durable):
+**[Phosphate salt treatment](../glossary/phosphate-salt-treatment.html)** (more durable):
 - Diammonium phosphate (DAP, 10-15% solution) applied by padding (immersion and squeeze rollers). The phosphate promotes char formation rather than flaming. Char acts as an insulating barrier that slows heat transfer to the underlying fabric.
 - DAP treatment is durable through 10-15 washes. It does not affect fabric hand (feel) significantly. Cost is low (DAP is a common fertilizer ingredient).
 - Not suitable for fabrics that contact skin for long periods (slight skin irritation from residual phosphate). Used for curtains, upholstery, stage curtains, and tentage.

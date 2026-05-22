@@ -2,7 +2,7 @@
 
 > **Node ID**: mining.extraction.black-powder
 > **Domain**: Mining Engineering & Extractive Metallurgy
-> **Dependencies**: `mining.extraction`, `chemistry.explosives`
+> **Dependencies**: [`mining.extraction`](extraction.md), [`chemistry.explosives`](../chemistry/explosives.md)
 > **Enables**: `mining.extraction.blasting`
 > **Timeline**: Years 5-15
 > **Outputs**: black_powder, safety_fuse, blasted_rock
@@ -29,12 +29,12 @@ KNO₃ is the bottleneck ingredient — it does not occur in large natural depos
 
 **Step 1 — Ingredient preparation**:
 - Pulverize each ingredient separately to fine powder (~100 mesh, 150 μm). This is critical — coarse particles burn unevenly, producing weak and unreliable powder.
-- **NEVER grind ingredients together.** Grinding KNO₃ with charcoal or sulfur creates friction and impact that can ignite the mixture. Each ingredient is ground on its own mill or with its own mortar and pestle, cleaned thoroughly between uses.
+- **[NEVER grind ingredients together.](../glossary/never-grind-ingredients-together.html)** Grinding KNO₃ with charcoal or sulfur creates friction and impact that can ignite the mixture. Each ingredient is ground on its own mill or with its own mortar and pestle, cleaned thoroughly between uses.
 - Charcoal must be fully carbonized before grinding. Burn hardwood in a covered pit or retort with limited air until smoke stops. Quench with water, dry, then grind.
 
 **Step 2 — Mixing**:
 - Combine the three powdered ingredients on a clean, dry surface. Mix by tumbling in a cloth bag, rolling on a wooden tray, or turning in a wooden drum for 30+ minutes. The goal is thorough, homogeneous blending. Light, gentle mixing — no heavy tools that could generate friction or sparks.
-- **Ball milling** (advanced): Professional powder mills use ball mills — rotating drums filled with lead or brass balls (non-sparking) that tumble the ingredients together for hours. This is the most effective mixing method but requires non-sparking equipment and remote operation (mill is behind a protective earth embankment).
+- **[Ball milling](../glossary/ball-milling.html)** (advanced): Professional powder mills use ball mills — rotating drums filled with lead or brass balls (non-sparking) that tumble the ingredients together for hours. This is the most effective mixing method but requires non-sparking equipment and remote operation (mill is behind a protective earth embankment).
 
 **Step 3 — Incorporation (wet mixing)**:
 - Moisten the mixed powder with just enough water (or water + alcohol for faster drying) to form a damp, crumbly mass — about 5-8% moisture. Press through a sieve or grind lightly to ensure uniform moisture distribution.
@@ -91,7 +91,7 @@ Essential for timing blasts — allows the blaster to retreat before detonation.
 
 ### Standard Composition and Performance
 
-**75:15:10 (KNO₃:charcoal:sulfur)** is the standard blasting powder composition by weight. This ratio provides complete combustion with minimal residual ash:
+**[75:15:10 (KNO₃:charcoal:sulfur)](../glossary/751510-knocharcoalsulfur.html)** is the standard blasting powder composition by weight. This ratio provides complete combustion with minimal residual ash:
 
 - KNO₃ (75%): Provides oxygen. Each gram of KNO₃ releases ~0.40 g of O₂ upon decomposition, which supports combustion of the charcoal and sulfur fuels.
 - Charcoal (15%): Primary fuel. Carbon oxidizes to CO₂, generating heat and gas volume.

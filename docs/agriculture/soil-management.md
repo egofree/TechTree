@@ -2,8 +2,8 @@
 
 > **Node ID**: agriculture.soil-management
 > **Domain**: [Agriculture](./)
-> **Dependencies**: `foundations`, `foundations.food-agriculture`
-> **Enables**: `agriculture.soil-management.vermiculture`, `agriculture.crop-production`, `agriculture.biochar`
+> **Dependencies**: [`foundations`](../foundations/index.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
+> **Enables**: [`agriculture.soil-management.vermiculture`](soil-management-vermiculture.md), `agriculture.crop-production`, `agriculture.biochar`
 > **Timeline**: Years 0-10+
 > **Outputs**: compost, humus, biochar, amended_soil, mulch, green_manure
 

@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.solvents
 > **Domain**: Chemistry
-> **Dependencies**: `chemistry.petroleum-alternatives`, `chemistry.distillation`, `chemistry.petroleum-alternatives.fermentation`
-> **Enables**: `health`
+> **Dependencies**: [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`chemistry.distillation`](distillation.md), [`chemistry.petroleum-alternatives.fermentation`](fermentation.md)
+> **Enables**: [`health`](../health/index.md)
 > **Timeline**: Years 15-40
 > **Outputs**: ethanol, methanol, ether, turpentine, hydrogen_peroxide
 
@@ -20,9 +20,9 @@ Ethanol (C₂H₅OH, bp 78.3°C) is the first industrial solvent available. Prod
 - Moderate volatility (bp 78.3°C). Evaporates readily but not so fast as to be impractical.
 - Relatively low toxicity (LD₅₀ oral rat ~7 g/kg) compared to most industrial solvents.
 
-**Dehydration to anhydrous ethanol** (>99%):
+**[Dehydration to anhydrous ethanol](../glossary/dehydration-to-anhydrous-ethanol.html)** (>99%):
 - The ethanol-water azeotrope limits simple [Distillation](distillation.md) to 95.6%. Breaking it requires:
-  - **Molecular sieves** (zeolite 3Å): Adsorb water selectively. Two-bed system alternates adsorption and thermal regeneration. Produces 99.5-99.9% ethanol. Preferred method when zeolites are available.
+  - **[Molecular sieves](../glossary/molecular-sieves.html)** (zeolite 3Å): Adsorb water selectively. Two-bed system alternates adsorption and thermal regeneration. Produces 99.5-99.9% ethanol. Preferred method when zeolites are available.
   - **Quicklime (CaO)**: Add to 95% ethanol, stir, CaO reacts with water to form Ca(OH)₂, then decant or distill the dried ethanol. Simple but labor-intensive, generates lime sludge waste.
   - **Extractive distillation**: Glycerol or ethylene glycol as entrainer (see [Distillation](distillation.md) for detailed column design).
 
@@ -36,7 +36,7 @@ Methanol (CH₃OH, bp 64.7°C) is the simplest alcohol and a critical feedstock.
 - Lighter and more volatile than ethanol. Polar protic — dissolves many of the same classes of compounds.
 - Excellent solvent for many synthetic reactions (Grignard formation, esterification, transesterification for biodiesel).
 
-**Synthetic methanol** (preferred at scale):
+**[Synthetic methanol](../glossary/synthetic-methanol.html)** (preferred at scale):
 - React CO + 2H₂ over Cu/ZnO/Al₂O₃ catalyst at 250°C, 50-100 bar. Synthesis gas from coal gasification or natural gas reforming (see [Petroleum](petroleum-alternatives.md)).
 - Yield: nearly quantitative at proper conditions. Single-pass conversion 15-25%, recycle unreacted gas.
 - Older technology: ZnO/Cr₂O₃ catalyst at 300-400°C, 20-30 MPa — harsher conditions but robust.
@@ -88,17 +88,17 @@ Turpentine (C₁₀H₁₆ mixture, primarily α-pinene and β-pinene, bp 156-18
 
 BTX aromatics are powerful solvents and feedstocks derived from coal tar or petroleum catalytic reforming (see [Petroleum](petroleum-alternatives.md)).
 
-**Benzene** (C₆H₆, bp 80.1°C):
+**[Benzene](../glossary/benzene.html)** (C₆H₆, bp 80.1°C):
 - Excellent solvent for non-polar organics, fats, and resins. Used historically for degreasing and chemical synthesis.
-- **Carcinogen** — causes leukemia (AML) with chronic exposure. Industrial use has been largely phased out in developed countries. Substitute with toluene or xylene wherever possible.
+- **[Carcinogen](../glossary/carcinogen.html)** — causes leukemia (AML) with chronic exposure. Industrial use has been largely phased out in developed countries. Substitute with toluene or xylene wherever possible.
 - Feedstock for styrene (polystyrene), nylon, phenol, and synthetic rubber (SBR). Difficult to replace as a feedstock even if eliminated as a solvent.
 
-**Toluene** (C₇H₈, bp 110.6°C):
+**[Toluene](../glossary/toluene.html)** (C₇H₈, bp 110.6°C):
 - Good general-purpose aromatic solvent. Similar dissolving power to benzene but significantly less carcinogenic (not classified as a human carcinogen — metabolized to benzoic acid rather than benzene oxide).
 - Applications: paint thinner, coating solvent, gasoline octane booster, feedstock for toluene diisocyanate (TDI → polyurethane foam), TNT explosive synthesis.
 - Preferred substitute for benzene in most solvent applications.
 
-**Xylene** (C₈H₁₀, mixture of ortho-, meta-, para- isomers, bp ~140°C):
+**[Xylene](../glossary/xylene.html)** (C₈H₁₀, mixture of ortho-, meta-, para- isomers, bp ~140°C):
 - Higher-boiling aromatic solvent. Used where slower evaporation is desired (paints, coatings, cleaning).
 - Applications: histology staining solvent, paint and coating formulations, cleaning agent for silicon wafers in semiconductor processing.
 - Toxicity: moderate — irritant and nervous system depressant at high concentrations. Less hazardous than benzene.
@@ -116,7 +116,7 @@ Hydrogen peroxide (H₂O₂) is not a solvent in the traditional sense but plays
 - 50-70%: Semiconductor RCA clean, rocket propellant oxidizer
 - 90%+ (rare): Rocket oxidizer (concentrated peroxide decomposes explosively with trace contamination)
 
-**Anthraquinone autoxidation process** (industrial standard):
+**[Anthraquinone autoxidation process](../glossary/anthraquinone-autoxidation-process.html)** (industrial standard):
 1. Dissolve 2-ethylanthraquinone in a mixed organic solvent (typically C₉-C₁₀ aromatics + trioctyl phosphate). The "working solution."
 2. Hydrogenate the working solution over Pd or Ni catalyst at 40-60°C, 1-3 bar H₂. Anthraquinone reduces to anthrahydroquinone.
 3. Filter out the catalyst. Oxidize the filtered solution with compressed air at 30-50°C. Anthrahydroquinone re-oxidizes to anthraquinone, producing H₂O₂.
@@ -127,8 +127,8 @@ Hydrogen peroxide (H₂O₂) is not a solvent in the traditional sense but plays
 **Concentration by vacuum distillation**: H₂O₂ boils at 150°C (100%) but decomposes above ~70°C. Concentrate under vacuum (30-50 mbar) to keep temperatures below 50°C. Equipment must be scrupulously clean — trace metals (Fe, Cu, Mn) catalyze violent decomposition. Storage vessels: aluminum or high-density polyethylene (never plain steel or copper).
 
 **Semiconductor RCA clean**: Standard wafer cleaning sequence uses H₂O₂ as a critical reagent:
-- **SC-1** (Standard Clean 1): NH₄OH:H₂O₂:H₂O = 1:1:5 at 75-80°C. Removes organic contamination and particles. H₂O₂ oxidizes surface silicon to SiO₂, NH₄OH provides particle repulsion via zeta potential.
-- **SC-2** (Standard Clean 2): HCl:H₂O₂:H₂O = 1:1:6 at 75-80°C. Removes metallic contamination. H₂O₂ keeps metal ions in solution as soluble complexes.
+- **[SC-1](../glossary/sc-1.html)** (Standard Clean 1): NH₄OH:H₂O₂:H₂O = 1:1:5 at 75-80°C. Removes organic contamination and particles. H₂O₂ oxidizes surface silicon to SiO₂, NH₄OH provides particle repulsion via zeta potential.
+- **[SC-2](../glossary/sc-2.html)** (Standard Clean 2): HCl:H₂O₂:H₂O = 1:1:6 at 75-80°C. Removes metallic contamination. H₂O₂ keeps metal ions in solution as soluble complexes.
 - H₂O₂ concentration must be maintained above the depletion threshold — replace baths every 20-30 minutes of use.
 
 **Applications**: Bleaching (paper pulp, textiles — the largest single use). Wastewater oxidation (destroys organic contaminants). Rocket oxidizer (concentrated H₂O₂ + catalyst → steam + O₂ + heat; monopropellant or bipropellant with kerosene). Disinfectant and sterilization. Etching (copper PCB manufacturing). Semiconductor cleaning (RCA clean).
@@ -180,7 +180,7 @@ No single solvent is ideal for every application. Selection balances solvency po
 | Methanol | Protic polar | 65 | 11 | High (blindness) | Formaldehyde, biodiesel, synthesis |
 | Diethyl ether | Low polar | 35 | -45 | Moderate | Alkaloid extraction, Grignard |
 | Turpentine | Non-polar | 156-180 | 35 | Low-moderate | Paint thinner, terpene chemistry |
-| Benzene | Non-polar | 80 | -11 | **Carcinogen** | Feedstock only; avoid as solvent |
+| Benzene | Non-polar | 80 | -11 | **[Carcinogen](../glossary/carcinogen.html)** | Feedstock only; avoid as solvent |
 | Toluene | Non-polar | 111 | 4 | Moderate | Coatings, general solvent |
 | Xylene | Non-polar | 140 | 27 | Moderate | Histology, coatings, slow evap |
 | CCl₄ | Non-polar | 77 | None | High | Phase-out; historical degreasing |
@@ -190,12 +190,12 @@ No single solvent is ideal for every application. Selection balances solvency po
 | H₂O₂ (30%) | Protic polar | — | — | Moderate | Bleaching, RCA clean, oxidation |
 
 **Decision framework**:
-1. **Can water do the job?** Use water-based cleaning or extraction first. Cheapest, safest, most available.
-2. **Need polar organic dissolution?** Ethanol for extraction and pharma. Methanol for synthesis and biodiesel.
-3. **Need non-polar dissolution?** Turpentine (early stage) or toluene/xylene (petroleum available). Avoid benzene.
-4. **Need non-flammable degreasing?** Perc or TCE — but invest in closed-loop equipment and ventilation. Plan for eventual phase-out.
-5. **Need a volatile extraction solvent?** Diethyl ether — with extreme fire safety precautions. Never use near flames or sparks.
-6. **Need an oxidizer/cleaner?** H₂O₂ for semiconductor RCA clean, bleaching, wastewater treatment.
+1. **[Can water do the job?](../glossary/can-water-do-the-job.html)** Use water-based cleaning or extraction first. Cheapest, safest, most available.
+2. **[Need polar organic dissolution?](../glossary/need-polar-organic-dissolution.html)** Ethanol for extraction and pharma. Methanol for synthesis and biodiesel.
+3. **[Need non-polar dissolution?](../glossary/need-non-polar-dissolution.html)** Turpentine (early stage) or toluene/xylene (petroleum available). Avoid benzene.
+4. **[Need non-flammable degreasing?](../glossary/need-non-flammable-degreasing.html)** Perc or TCE — but invest in closed-loop equipment and ventilation. Plan for eventual phase-out.
+5. **[Need a volatile extraction solvent?](../glossary/need-a-volatile-extraction-solvent.html)** Diethyl ether — with extreme fire safety precautions. Never use near flames or sparks.
+6. **[Need an oxidizer/cleaner?](../glossary/need-an-oxidizercleaner.html)** H₂O₂ for semiconductor RCA clean, bleaching, wastewater treatment.
 
 ### Recovery and Recycling
 

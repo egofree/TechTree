@@ -20,7 +20,7 @@
 **Bridge construction**:
 - **Timber beam bridge**: Simple span up to 10 m. Wooden beams (30-50 cm diameter logs or 20×30 cm sawn timbers) on stone abutments. Deck planking on top. Design load: 2-5 tonnes for cart traffic. Pressure-treat timber with creosote (Chemistry) or replace every 10-20 years.
 - **Stone arch bridge**: Spans 5-30+ m. Build timber centering (temporary falsework) in arch shape. Lay stone voussoirs (wedge-shaped stones) from both abutments toward center. Place keystone. Remove centering. Arch is self-supporting — load transfers horizontally to abutments. Extremely durable (centuries). Requires skilled masonry.
-- **Truss bridge** (the Machine Tools-Energy stage transition): Triangular framework of iron or steel members. Pratt or Howe truss design. Spans 20-100+ m. Calculate member sizes from expected loads (dead load + live load + wind load with safety factor of 2-4). Connections: riveted or pinned. Much faster to erect than stone arch.
+- **[Truss bridge](../glossary/truss-bridge.html)** (the Machine Tools-Energy stage transition): Triangular framework of iron or steel members. Pratt or Howe truss design. Spans 20-100+ m. Calculate member sizes from expected loads (dead load + live load + wind load with safety factor of 2-4). Connections: riveted or pinned. Much faster to erect than stone arch.
 
 ### Wheeled Vehicles
 
@@ -30,7 +30,7 @@
 - **Body**: Wooden platform or box (1.5-2 m × 1-1.5 m) on axle. Load capacity: 500-1000 kg for animal-drawn cart.
 - **Draft**: Single animal (ox, horse, mule) pulls 500-1500 kg on level road. Ox: slower (3-4 km/h) but stronger steady pull. Horse: faster (5-8 km/h) but less steady pulling power. Two animals double the load.
 
-**Wagon** (heavier, the Metallurgy-Machine Tools stage transition):
+**[Wagon](../glossary/wagon.html)** (heavier, the Metallurgy-Machine Tools stage transition):
 - Larger version of cart, 2-4 wheels, covered or open. Leaf spring suspension (stacked steel strips, improve ride over rough roads). Load 2-5 tonnes. Four-horse team typical for long-distance freight.
 
 ### Tunnels & Drainage
@@ -47,25 +47,25 @@
 
 ### Detailed Road Types
 
-**Earth road** (improved dirt):
+**[Earth road](../glossary/earth-road.html)** (improved dirt):
 - Crown the surface 2-4% (center 10-15 cm higher than edges on a 3-5 m road). Grade the subgrade to this profile using a scraper blade behind animals or a tractor.
 - Side ditches: V-shaped or trapezoidal, 30-50 cm deep, 50-80 cm top width, 1-2% longitudinal slope for positive drainage. Outlet every 100-200 m into natural watercourses or culverts.
 - Maintenance: re-grade after heavy rain. Reshape crown with grader blade. Clear ditches of silt and vegetation annually. Earth roads degrade to impassable mud with fewer than 10-15 days of dry weather between gradings. Suitable only for light traffic (<50 vehicles/day) in dry climates.
 
-**Macadam road** (3-layer crushed stone):
+**[Macadam road](../glossary/macadam-road.html)** (3-layer crushed stone):
 - **Base course**: 150 mm compacted depth of 75 mm nominal crushed stone. Spread on prepared subgrade, compact with 3-5 tonne roller (6-8 passes). Angular stone fragments interlock under compaction to form a rigid layer.
 - **Binder course**: 75 mm compacted depth of 40 mm nominal stone. Spread over base, compacted similarly. Fills voids in base surface and creates a flatter intermediate layer.
 - **Surface course (wearing surface)**: 50 mm compacted depth of 20 mm nominal stone. Fine aggregate (stone dust, 0-5 mm) spread on top and broomed into surface voids. Water-bound: hose surface, roll until water runs clear (fines wash into voids and lock the surface). Alternatively, tar-bound: spray hot coal tar (60-80°C) at 1.5-2.0 liters/m², spread stone chips, roll.
 - Total compacted thickness: 250-300 mm over the subgrade. Bearing capacity supports 5-10 tonne axle loads at 30-50 km/h. Surface life 8-12 years before requiring resurfacing. Water penetration through the surface is the primary failure mode.
 
-**Asphalt road** (bituminous pavement):
+**[Asphalt road](../glossary/asphalt-road.html)** (bituminous pavement):
 - **Hot mix asphalt (HMA)**: Aggregate (crushed stone 0-20 mm graded) mixed with bitumen binder (5-6% by weight) at 150-180°C in a batch plant. Laid with a paving machine at 135-165°C. Compact with steel-wheel roller (initial pass at 135°C, finish at 90°C minimum).
 - Compaction target: 92-95% of theoretical maximum density. Under-compacted asphalt ruts under heavy loads; over-compacted crushes the aggregate.
 - Layer thickness: 50-75 mm wearing course on 75-150 mm binder course on 150-300 mm aggregate base. Total pavement structure 300-500 mm.
 - Bitumen grade: penetration 60-70 or 80-100 (0.1 mm needle penetration at 25°C under 100 g load for 5 seconds). Softer bitumen for cold climates (resists thermal cracking), harder for hot climates (resists rutting).
 - Service life: 12-20 years with periodic resurfacing (mill off 25-50 mm, lay fresh wearing course). Requires petroleum distillation or coal tar distillation for bitumen supply.
 
-**Concrete road** (rigid pavement):
+**[Concrete road](../glossary/concrete-road.html)** (rigid pavement):
 - Portland cement concrete: 300-350 kg cement per m³ of concrete. Water/cement ratio 0.40-0.50 for freeze-thaw durability. Mix design: cement, coarse aggregate (20-40 mm crushed stone), fine aggregate (sand), water, air entrainment (4-6% entrained air for freeze resistance).
 - Slab thickness: 150-200 mm for light traffic (cars, light trucks), 200-250 mm for heavy truck traffic. Steel reinforcement mesh (6-8 mm bars at 150-200 mm spacing) at mid-depth controls cracking.
 - Base: 100 mm compacted granular sub-base (crushed stone or gravel) under the slab. Provides uniform support and drainage. Uneven sub-base support causes slab cracking under load.

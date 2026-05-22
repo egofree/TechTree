@@ -10,7 +10,7 @@
 Bench-scale glassblowing with torch, as opposed to furnace glassblowing (gathering molten glass on a pipe). Lampworking works glass rod and tubing directly in a flame — ideal for precision scientific apparatus.
 
 **Basic operations**:
-- **Rotate tubing** in flame to heat evenly. Uneven heating causes asymmetric deformation and weak joints.
+- **[Rotate tubing](../glossary/rotate-tubing.html)** in flame to heat evenly. Uneven heating causes asymmetric deformation and weak joints.
 - **Pull**: Heat section, remove from flame, pull steadily to draw thin walls or capillary tubing. Wall thickness controlled by pull speed and temperature.
 - **Push**: Heat and push ends together to thicken walls. Used to form bulbs and reservoirs.
 - **Blow**: Blow (by mouth through rubber hose or directly through tube) to expand heated section into bubble. Control expansion with breath pressure and rotation speed.
@@ -19,17 +19,17 @@ Bench-scale glassblowing with torch, as opposed to furnace glassblowing (gatheri
 
 ### Torch Types
 
-**Gas-air torch** (moderate temperature, ~1200°C):
+**[Gas-air torch](../glossary/gas-air-torch.html)** (moderate temperature, ~1200°C):
 - Town gas or propane mixed with ambient air. Simple construction — single tube with gas orifice, air drawn in by Venturi effect.
 - Suitable for soft glass (soda-lime, lead glass). NOT hot enough for borosilicate (softening point ~820°C — needs higher flame temperature than glass can achieve in gas-air).
 - Advantages: Simple, cheap, no oxygen supply needed.
 
-**Gas-oxygen torch** (~2000°C):
+**[Gas-oxygen torch](../glossary/gas-oxygen-torch.html)** (~2000°C):
 - Propane or natural gas mixed with compressed oxygen. Mix at torch tip (pre-mix nozzle) or at burner head (surface mix — separate gas and oxygen ports, mix at combustion point).
 - Surface mix produces softer, more controllable flame with distinct zones (inner reducing cone, outer oxidizing envelope). Preferred for borosilicate work.
 - Suitable for borosilicate glass (working range 820-1200°C) and soft glass. THE standard torch for laboratory glassblowing.
 
-**Oxy-hydrogen torch** (~2800°C):
+**[Oxy-hydrogen torch](../glossary/oxy-hydrogen-torch.html)** (~2800°C):
 - Hydrogen and oxygen burned at torch tip. Very hot, very clean (only combustion product is water vapor). Transparent blue flame.
 - Required for fused silica / quartz glass (softening point ~1600°C). Also used for glass-to-glass seals on high-silica glasses.
 - Hydrogen explosion risk — leak-check all connections before each use. Flashback arrestors required on both gas lines.
@@ -148,7 +148,7 @@ Blown glass can be decorated during or after forming:
 
 Professional glassblowing is a team activity. A typical furnace-blowing team for production work:
 
-- **Gaffer** (lead glassblower): Controls the blowpipe, shapes the piece, makes all critical decisions. The most skilled member.
+- **[Gaffer](../glossary/gaffer.html)** (lead glassblower): Controls the blowpipe, shapes the piece, makes all critical decisions. The most skilled member.
 - **Assistant**: Shields the piece from cold drafts, reheats the piece in the glory hole between shaping steps, carries the punty for transfers, opens the furnace doors.
 - **Servitor**: Gathers glass, carries hot pieces to the annealing oven, prepares blowpipes and punties, manages the furnace temperature.
 - A 3-person team can produce 50-100 simple vessels per day, or 10-20 complex pieces (pitchers, decanters, multi-piece assemblies). Lampworking is typically a solo activity.

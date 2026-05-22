@@ -2,7 +2,7 @@
 
 > **Node ID**: textiles.sewing-tailoring
 > **Domain**: [Textiles](./)
-> **Dependencies**: `textiles.weaving`, `metals.iron-steel`
+> **Dependencies**: [`textiles.weaving`](weaving.md), [`metals.iron-steel`](../metals/iron-steel.md)
 > **Timeline**: Years 5-10
 > **Outputs**: garments, tents, sails, bags, belting
 
@@ -45,22 +45,22 @@ Thread must be strong enough to hold seams under stress, fine enough to pass thr
 
 A seam is only as strong as its construction. Different seam types suit different applications, trading strength, bulk, fabrication time, and appearance.
 
-**Plain seam** (most common, simplest):
+**[Plain seam](../glossary/plain-seam.html)** (most common, simplest):
 - Two pieces of fabric placed right sides together, stitched 10-15 mm from the raw edge, then opened flat. The seam allowance is pressed to one side.
 - Strength retention: 80-90% of fabric tensile strength. The stitching line is the weak point (thread breaks before fabric tears). Raw edges fray unless finished (zigzag stitch, overlocked, or bound with tape).
 - Used for most garment seams where appearance matters more than maximum strength.
 
-**Felled seam** (self-enclosed, strong):
+**[Felled seam](../glossary/felled-seam.html)** (self-enclosed, strong):
 - One seam allowance is folded over the other and stitched down. The raw edges are enclosed inside the fold, preventing fraying. Two rows of stitching visible on the outside.
 - Strength retention: 90-95%. The double stitching and enclosed edges make it resistant to tearing and abrasion. Standard for jeans, military uniforms, tents, workwear.
 - Adds bulk (four layers of fabric at the seam). Takes 2-3× longer to construct than a plain seam.
 
-**Flat-felled seam** (strongest standard seam):
+**[Flat-felled seam](../glossary/flat-felled-seam.html)** (strongest standard seam):
 - Both seam allowances are trimmed, wrapped around each other, and topstitched flat. Creates a smooth, low-profile seam with no raw edges exposed on either side.
 - Strength retention: 95-100% of fabric strength. The mechanical interlock of the folded edges distributes stress over a wider area. Standard for jeans inseams, sail panels, awnings, canvas goods.
 - Construction requires precision folding. Industrial machines with felling attachments automate this; hand sewing requires careful basting before final stitching.
 
-**French seam** (enclosed, for fine fabrics):
+**[French seam](../glossary/french-seam.html)** (enclosed, for fine fabrics):
 - Fabric is stitched wrong sides together (first pass, narrow seam allowance of 5-7 mm), then turned inside out and stitched right sides together (second pass, 8-10 mm from the folded edge), enclosing the raw edges.
 - Strength retention: 85-90%. Two stitching lines share the load. Neat finish on both sides with no visible raw edges.
 - Used for sheer fabrics (chiffon, organza), lingerie, and children's clothing where bulk and exposed edges are unacceptable.
@@ -128,14 +128,14 @@ Not all sewing is done by machine. Many construction steps and field repairs req
 
 Pressing (ironing) sets seams, removes wrinkles, and shapes garments during construction. It is not cosmetic; it is structural. Unpressed seams are puffy, do not lie flat, and the garment does not hold its shape.
 
-**Flat iron** (sad iron):
+**[Flat iron](../glossary/flat-iron.html)** (sad iron):
 - A solid cast iron slab, 2-4 kg, with a flat bottom and a handle on top. Heated on a stove or over a fire. Working temperature: 150-200°C. The iron is too hot if it scorches a test scrap; too cool if it does not set a crease.
 - Temperature is tested by spitting on the iron: drops that dance and skitter indicate 150-200°C (the Leidenfrost effect). Drops that evaporate immediately indicate >250°C (too hot for most fabrics). Drops that just sit and steam indicate <120°C (too cool).
 
-**Tailor's ham** (pressing curved seams):
+**[Tailor's ham](../glossary/tailors-ham.html)** (pressing curved seams):
 - A firmly stuffed fabric cushion (sawdust or sand filling, approximately 30 × 20 × 10 cm) shaped like a ham. Curved seams (darts, princess seams, sleeve caps) are pressed over the ham to preserve their 3D shape. Pressing flat would flatten the curve and distort the fit.
 
-**Seam roll** (pressing open seams):
+**[Seam roll](../glossary/seam-roll.html)** (pressing open seams):
 - A cylindrical stuffed cushion (about 30 cm long, 5 cm diameter). Seams are pressed open over the roll so the seam allowances lie flat on either side without impressing into the fabric surface.
 
 **Pressing cloth**:

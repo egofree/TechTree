@@ -2,8 +2,8 @@
 
 > **Node ID**: mining.prospecting
 > **Domain**: [Mining](./)
-> **Dependencies**: `foundations`
-> **Enables**: `chemistry.acids`, `chemistry.alkalis`, `chemistry.cement`, `energy.fuels`, `metals`, `glass.basic`, `silicon.mg-si-production`, `transport`
+> **Dependencies**: [`foundations`](../foundations/index.md)
+> **Enables**: [`chemistry.acids`](../chemistry/acids.md), [`chemistry.alkalis`](../chemistry/alkalis.md), [`chemistry.cement`](../chemistry/cement.md), [`energy.fuels`](../energy/fuels.md), [`metals`](../metals/index.md), [`glass.basic`](../glass/basic.md), [`silicon.mg-si-production`](../silicon/mg-si-production.md), [`transport`](../transport/index.md)
 > **Timeline**: Years 0-50+
 > **Outputs**: copper_ore, iron_ore, tin_ore, coal, quartz, sulfur, fluorite, concentrated_ore
 > **Note**: Mining is a separate domain; this file covers early surface prospecting techniques.

@@ -2,7 +2,7 @@
 
 > **Node ID**: health.occupational-health
 > **Domain**: [Health](./)
-> **Dependencies**: `chemistry`, `metals`, `energy`
+> **Dependencies**: [`chemistry`](../chemistry/index.md), [`metals`](../metals/index.md), [`energy`](../energy/index.md)
 > **Timeline**: Years 10-25
 > **Outputs**: hazard_controls, exposure_monitoring, protective_equipment, safety_protocols
 

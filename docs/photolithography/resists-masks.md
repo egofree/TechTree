@@ -2,20 +2,20 @@
 
 > **Node ID**: photolithography.resists-masks
 > **Domain**: [Photolithography & IC Fabrication](./)
-> **Dependencies**: `chemistry`, `polymers.thermosets`
-> **Enables**: `vlsi-scaling.advanced-lithography`
+> **Dependencies**: [`chemistry`](../chemistry/index.md), [`polymers.thermosets`](../polymers/thermosets.md)
+> **Enables**: [`vlsi-scaling.advanced-lithography`](../vlsi-scaling/advanced-lithography.md)
 > **Timeline**: Years 40-70
 > **Outputs**: photoresists, masks, lithography_tools, patterned_wafers
 
 ### Photoresists
 
-**Bitumen resist** (simplest, historical — Niépce, 1826):
+**[Bitumen resist](../glossary/bitumen-resist.html)** (simplest, historical — Niépce, 1826):
 - Dissolve bitumen of Judea (natural asphalt) in lavender oil or turpentine. Coat on substrate. Expose to UV through mask (hours of exposure — very slow). Exposed areas harden (polymerize), unexposed areas dissolve in solvent. Low resolution (~100 μm+), very slow, but requires zero chemistry infrastructure.
 
-**Dichromated gelatin** (mid-19th century):
+**[Dichromated gelatin](../glossary/dichromated-gelatin.html)** (mid-19th century):
 - Mix gelatin (from animal collagen) with ammonium dichromate ((NH₄)₂Cr₂O₇, ~5-10%). Coat on substrate. UV exposure causes Cr(VI) → Cr(III) reduction, cross-linking gelatin (insoluble). Unexposed gelatin washes away in warm water. Resolution ~10-50 μm. Chromium compounds are toxic and carcinogenic — handle with care.
 
-**Novolac + DNQ resist** (standard positive-tone photoresist, requires the Chemistry stage organic chemistry):
+**[Novolac + DNQ resist](../glossary/novolac-dnq-resist.html)** (standard positive-tone photoresist, requires the Chemistry stage organic chemistry):
 - **Novolac resin**: Phenol + formaldehyde condensation polymer (m-cresol variant for photoresist). See [Polymers](../polymers/index.md) for production. Molecular weight ~2000-5000. Dissolves in aqueous base (NaOH or TMAH).
 - **DNQ sensitizer**: Diazonaphthoquinone sulfonate (from naphthol + diazotization). ~20-30% by weight in resist. Function: DNQ acts as dissolution inhibitor — unexposed resist does NOT dissolve in developer. UV exposure → DNQ undergoes Wolff rearrangement → forms indene carboxylic acid → actually ENHANCES dissolution in aqueous base. This is the positive-tone mechanism.
 - **Solvent**: Ethyl lactate or propylene glycol monomethyl ether acetate (PGMEA). ~60-80% of resist formulation.
@@ -26,9 +26,9 @@
 - **Development**: Aqueous base — 2.38% TMAH (tetramethylammonium hydroxide) for 30-90 seconds with gentle agitation. TMAH preferred over NaOH (metal-ion-free developer — sodium contamination degrades MOS devices).
 - **Hard bake**: 120-150°C for 60-120 seconds. Cross-links resist for etch resistance. Not always needed.
 
-**Negative-tone resists** (exposed regions become insoluble):
-- **SU-8** (epoxy-based, modern): Epoxy novolac resin + triarylsulfonium salt photoacid generator (PAG). UV exposure generates acid → PEB causes acid-catalyzed epoxy cross-linking. Highly cross-linked, excellent chemical resistance. Can pattern thick films (5-500 μm) in a single coat. Used for MEMS structures, thick passivation, electroplating molds. Resolution limited by swelling during development (~2-5 μm minimum for thin films).
-- **Isoprene-based** (historical): Cyclized polyisoprene + bis-azide sensitizer. UV exposure causes azide to form nitrene radicals, cross-linking the rubber. Unexposed regions dissolve in xylene. Swelling during development limits resolution to ~2-3 μm. Historically important (Kodak KTFR, early IC production in 1960s-70s). Largely replaced by positive resists due to swelling artifacts.
+**[Negative-tone resists](../glossary/negative-tone-resists.html)** (exposed regions become insoluble):
+- **[SU-8](../glossary/su-8.html)** (epoxy-based, modern): Epoxy novolac resin + triarylsulfonium salt photoacid generator (PAG). UV exposure generates acid → PEB causes acid-catalyzed epoxy cross-linking. Highly cross-linked, excellent chemical resistance. Can pattern thick films (5-500 μm) in a single coat. Used for MEMS structures, thick passivation, electroplating molds. Resolution limited by swelling during development (~2-5 μm minimum for thin films).
+- **[Isoprene-based](../glossary/isoprene-based.html)** (historical): Cyclized polyisoprene + bis-azide sensitizer. UV exposure causes azide to form nitrene radicals, cross-linking the rubber. Unexposed regions dissolve in xylene. Swelling during development limits resolution to ~2-3 μm. Historically important (Kodak KTFR, early IC production in 1960s-70s). Largely replaced by positive resists due to swelling artifacts.
 
 ### Polymer Packaging Materials
 - **Epoxy encapsulation**: Two-part epoxy for die attach and hermetic sealing — see [Polymers](../polymers/index.md) and [Semiconductor Packaging & Testing](../chemistry/packaging-testing.md)
@@ -192,7 +192,7 @@ After pattern transfer (etch or implant), photoresist must be removed before the
 
 **Resist removal after high-dose implant or plasma etch**:
 - Heavily crosslinked resist (from ion implantation at >10¹⁵ ions/cm², or from extended plasma etching with polymerizing chemistries) becomes essentially a carbonaceous glass. Standard solvents cannot dissolve it. Oxygen plasma ashing removes the bulk, but a thin carbon-rich crust remains.
-- **Piranha clean** (H₂SO₄:H₂O₂ 3:1 to 4:1): The most aggressive organic removal chemistry available. The mixture generates persulfuric acid (Caro's acid, H₂SO₅), a powerful oxidizer that attacks even heavily crosslinked carbon. Temperature: 100-130°C (exothermic mixing provides the heat). Immersion time: 10-30 minutes for heavily crosslinked resist. Must be used in a dedicated acid fume hood with acid-resistant plumbing (Piranha attacks most organic drain materials). Never store: decompose by slow dilution with cold water before disposal.
+- **[Piranha clean](../glossary/piranha-clean.html)** (H₂SO₄:H₂O₂ 3:1 to 4:1): The most aggressive organic removal chemistry available. The mixture generates persulfuric acid (Caro's acid, H₂SO₅), a powerful oxidizer that attacks even heavily crosslinked carbon. Temperature: 100-130°C (exothermic mixing provides the heat). Immersion time: 10-30 minutes for heavily crosslinked resist. Must be used in a dedicated acid fume hood with acid-resistant plumbing (Piranha attacks most organic drain materials). Never store: decompose by slow dilution with cold water before disposal.
 - **Downstream plasma ash**: Remote plasma (oxygen plasma generated upstream, neutral oxygen radicals flow to the wafer without ion bombardment). Gentler than direct plasma ashing (no physical damage to underlying films). Used as a pre-clean before Piranha to remove the bulk of the resist, reducing Piranha consumption and extending bath life.
 
 ### Chemically Amplified Resists (CAR)

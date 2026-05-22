@@ -2,7 +2,7 @@
 
 > **Node ID**: optics.inspection
 > **Domain**: [Optics](./)
-> **Enables**: `vlsi-scaling.advanced-lithography`
+> **Enables**: [`vlsi-scaling.advanced-lithography`](../vlsi-scaling/advanced-lithography.md)
 > **Timeline**: Years 25-40
 > **Outputs**: lenses, microscopes, optical_comparators
 
@@ -16,36 +16,36 @@
 - **Spherical surfaces**: Use full-diameter tool for convex, channel tool for concave. Test with knife-edge (Foucault test) for mirror surfaces — reveals zones and irregularities as shadows.
 - **Surface quality targets**: Scratch/dig 60/40 for visual optics, 20/10 for imaging optics, 10/5 for laser optics. Measured under controlled illumination against standards.
 
-**Microscopes** (critical for semiconductor inspection):
+**[Microscopes](../glossary/microscopes.html)** (critical for semiconductor inspection):
 - **Compound microscope**: Objective lens (4x-100x) + eyepiece (10x). Total magnification 40x-1000x. Resolution limited by diffraction: ~λ/(2·NA) where NA = numerical aperture. At NA 0.65 with visible light: ~0.4 μm resolution.
 - **Objective design**: Achromatic doublet (crown + flint glass, corrects chromatic aberration at two wavelengths) or apochromatic (three-element, three-wavelength correction — better, harder to make).
 - **Illumination**: Brightfield (transmitted light through sample), darkfield (oblique illumination — edges glow, defects visible). Later: phase contrast, DIC (differential interference contrast).
 - **Mechanical stage**: X-Y movement with graduated drums (0.01 mm resolution). Focus: coarse + fine (0.001 mm resolution). Requires Machine Tools stage precision machining.
 - **Applications**: Crystal defect inspection (Silicon), lithography alignment (Photolithography), defect analysis, biological specimens.
 
-**Optical comparators** (shadow projection for dimensional measurement):
+**[Optical comparators](../glossary/optical-comparators.html)** (shadow projection for dimensional measurement):
 - Light source projects silhouette of part onto screen. Magnification 10-50x. Compare shadow against overlay drawing (mylar with tolerance bands). Quick, non-contact measurement of external dimensions.
 
-**Spectroscopes** (optional — material identification):
+**[Spectroscopes](../glossary/spectroscopes.html)** (optional — material identification):
 - **Prism spectroscope**: White light through slit → prism → splits into spectrum. Observe emission or absorption lines. Each element has unique spectral fingerprint.
 - **Flame spectroscopy**: Dip sample in flame → characteristic color (Na = yellow, Cu = green/blue, Li = red, K = violet). Quick qualitative analysis.
 - **Applications**: Ore identification, alloy verification, chemical analysis, astronomical observation.
 
 ### Telescope Construction
 
-**Refracting telescopes** (lens-based):
+**[Refracting telescopes](../glossary/refracting-telescopes.html)** (lens-based):
 - **Objective lens**: Grind and polish a large plano-convex or biconvex lens (crown glass). Focal length f = R/(n-1) for plano-convex. Typical amateur: 50-80 mm diameter, f/10-f/15 (500-1200 mm focal length).
 - **Eyepiece**: Short-focus convex lens (Huygens: 2-element; later Ramsden, Kellner). Magnification = f_objective / f_eyepiece.
 - **Tube construction**: Cardboard or rolled brass tube, blackened interior to reduce stray light. Diameter slightly larger than objective. Focuser tube slides for adjustment.
 - **Mount types**: Alt-azimuth (simple up-down, left-right) for basic use. Equatorial mount (polar axis aligned to celestial pole) enables tracking by rotating one axis. Chromatic aberration: single lens shows color fringing; achromatic doublet (crown + flint) reduces it.
 
-**Reflecting telescopes** (mirror-based, no chromatic aberration):
+**[Reflecting telescopes](../glossary/reflecting-telescopes.html)** (mirror-based, no chromatic aberration):
 - **Newtonian**: Flat diagonal (secondary) mirror deflects focus to side of tube. Simplest reflecting design. Primary mirror: parabolic. Most common amateur design.
 - **Cassegrain**: Hyperbolic secondary reflects focus back through hole in primary. Compact tube, long effective focal length. More complex optics (two non-spherical surfaces).
 
 ### Mirror Grinding Procedure
 
-**Rough grinding** (generating the curve):
+**[Rough grinding](../glossary/rough-grinding.html)** (generating the curve):
 - Fix glass blank (borosilicate or soda-lime) to workbench. Use cast iron or glass tool of equal diameter.
 - Coarse silicon carbide (60-80 grit SiC) with water. Stroke blank across tool in W-pattern, rotating slowly. For concave mirror: blank on top. Convex tool drives curve into blank.
 - Check sagitta (depth at center) with straightedge and feeler gauge: sagitta = r²/(2R) where r = radius of blank, R = desired radius of curvature. Target: within 10% of desired f-ratio.
@@ -60,11 +60,11 @@
 - Polishing compound: cerium oxide (CeO₂) slurry, ~10% by weight in water. Faster and cleaner than traditional rouge (Fe₂O₃).
 - Duration: 4-12 hours for 100-200 mm mirror. Slow strokes, moderate pressure. Surface transitions from translucent to fully transparent.
 
-**Parabolizing** (figuring the sphere into a paraboloid):
+**[Parabolizing](../glossary/parabolizing.html)** (figuring the sphere into a paraboloid):
 - A sphere focuses parallel light to a zone, not a point. Paraboloid corrects this for on-axis images. Required for f-ratios faster than ~f/8.
 - **Overhang stroke**: Extend mirror past lap edge by ~1/3 diameter on each stroke — wears center faster than edge, deepening central curve toward paraboloid.
 - **Petal lap**: Modify pitch lap by cutting away petals — selective contact controls which zones are polished. Advanced technique for precise figure control.
-- **Foucault test** (knife-edge test): Place point light source at radius of curvature. Move razor blade across returning cone of light. Shadows reveal zones: sphere shows uniform gray; paraboloid shows characteristic "doughnut" shadow pattern. Measure zonal radii with Couder mask to quantify deviation from paraboloid.
+- **[Foucault test](../glossary/foucault-test.html)** (knife-edge test): Place point light source at radius of curvature. Move razor blade across returning cone of light. Shadows reveal zones: sphere shows uniform gray; paraboloid shows characteristic "doughnut" shadow pattern. Measure zonal radii with Couder mask to quantify deviation from paraboloid.
 
 ### Prism Fabrication
 
@@ -75,13 +75,13 @@
 
 ### Optical Coatings
 
-- **Anti-reflection coating** (single-layer MgF₂):
+- **[Anti-reflection coating](../glossary/anti-reflection-coating.html)** (single-layer MgF₂):
   - Magnesium fluoride (MgF₂) deposited on lens surface. Thickness: λ/4 (quarter-wavelength, ~100 nm for center of visible spectrum). Refractive index n ≈ 1.38, between air (1.0) and glass (~1.5).
   - Reduces surface reflection from ~4% to ~1.3% per surface. On a 4-element lens (8 surfaces): transmission improves from ~72% to ~90%.
   - Deposition: thermal evaporation in vacuum chamber at 10⁻⁴ Pa (10⁻⁶ Torr). Heat MgF₂ in tungsten boat until it sublimes. Vapor condenses on rotating lens above. Monitor thickness with quartz crystal microbalance.
   - **Requires**: vacuum technology (rotary vane pump + diffusion pump), tungsten heating elements, MgF₂ source material.
 
-- **Mirror coating** (aluminum):
+- **[Mirror coating](../glossary/mirror-coating.html)** (aluminum):
   - Evaporate high-purity aluminum in vacuum at 10⁻⁴ Pa. Tungsten filament or boat, heated to melt aluminum (660°C) then to evaporation (~1200°C). Vapor deposits on mirror substrate above.
   - Reflectivity: ~92% for fresh aluminum (vs ~85% for silver, which tarnishes). Protective overcoat of SiO₂ (quarter-wave) extends lifetime.
   - **Requires**: same vacuum infrastructure as anti-reflection coating, plus aluminum source material.

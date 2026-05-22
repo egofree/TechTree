@@ -2,7 +2,7 @@
 
 > **Node ID**: agriculture.aquaponics
 > **Domain**: [Agriculture](./)
-> **Dependencies**: `animals.aquaculture`, `agriculture.soil-management`, `foundations.food-agriculture`
+> **Dependencies**: [`animals.aquaculture`](../animals/aquaculture.md), [`agriculture.soil-management`](soil-management.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
 > **Enables**: `agriculture.hydroponic-ph-control`
 > **Timeline**: Years 3-10+
 > **Outputs**: fish, vegetables, herbs, filtered_water

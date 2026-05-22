@@ -12,10 +12,10 @@
 Basic pottery and fireclay refractories serve well up to about 1200-1400°C. Beyond that — for steel furnaces, glass tanks, silicon processing, and chemical reactors — you need advanced ceramics: materials engineered for extreme temperatures, chemical resistance, wear resistance, and electrical insulation. This capability transforms ceramics from a craft into an industrial materials science.
 
 The jump from earthenware to technical ceramics requires:
-- **Purer raw materials** (mined bauxite, zircon sand, quartzite rather than common clay)
-- **Higher firing temperatures** (1600-2200°C, requiring improved kilns and fuel)
-- **Precision forming** (dry pressing, isostatic pressing, slip casting with controlled rheology)
-- **Controlled atmospheres** (reducing, inert, or vacuum sintering)
+- **[Purer raw materials](../glossary/purer-raw-materials.html)** (mined bauxite, zircon sand, quartzite rather than common clay)
+- **[Higher firing temperatures](../glossary/higher-firing-temperatures.html)** (1600-2200°C, requiring improved kilns and fuel)
+- **[Precision forming](../glossary/precision-forming.html)** (dry pressing, isostatic pressing, slip casting with controlled rheology)
+- **[Controlled atmospheres](../glossary/controlled-atmospheres.html)** (reducing, inert, or vacuum sintering)
 
 ## Alumina (Al₂O₃)
 
@@ -23,14 +23,14 @@ Alumina is the most widely used technical ceramic — hard, electrically insulat
 
 ### Raw Material: Bauxite and the Bayer Process
 
-**Bauxite** is the primary aluminum ore, typically containing 40-60% Al₂O₃ as gibbsite (Al(OH)₃), boehmite (AlOOH), or diaspore (AlOOH). Found in tropical and subtropical lateritic deposits.
+**[Bauxite](../glossary/bauxite.html)** is the primary aluminum ore, typically containing 40-60% Al₂O₃ as gibbsite (Al(OH)₃), boehmite (AlOOH), or diaspore (AlOOH). Found in tropical and subtropical lateritic deposits.
 
-**Bayer process** (produces high-purity alumina powder):
-1. **Crush and grind** bauxite ore to <150 μm
-2. **Digest** in concentrated NaOH (caustic soda) at 140-240°C under pressure in autoclave. Aluminum hydroxides dissolve as sodium aluminate: Al(OH)₃ + NaOH → NaAl(OH)₄
-3. **Settle and filter** to remove insoluble red mud (iron oxides, silica, titania)
-4. **Precipitate** aluminum trihydrate by seeding with fine Al(OH)₃ crystals and cooling. Pure Al(OH)₃ crystals form.
-5. **Calcine** at 1100-1200°C to drive off water: 2 Al(OH)₃ → Al₂O₃ + 3 H₂O. Produces α-alumina (corundum) powder, 99.0-99.99% pure.
+**[Bayer process](../glossary/bayer-process.html)** (produces high-purity alumina powder):
+1. **[Crush and grind](../glossary/crush-and-grind.html)** bauxite ore to <150 μm
+2. **[Digest](../glossary/digest.html)** in concentrated NaOH (caustic soda) at 140-240°C under pressure in autoclave. Aluminum hydroxides dissolve as sodium aluminate: Al(OH)₃ + NaOH → NaAl(OH)₄
+3. **[Settle and filter](../glossary/settle-and-filter.html)** to remove insoluble red mud (iron oxides, silica, titania)
+4. **[Precipitate](../glossary/precipitate.html)** aluminum trihydrate by seeding with fine Al(OH)₃ crystals and cooling. Pure Al(OH)₃ crystals form.
+5. **[Calcine](../glossary/calcine.html)** at 1100-1200°C to drive off water: 2 Al(OH)₃ → Al₂O₃ + 3 H₂O. Produces α-alumina (corundum) powder, 99.0-99.99% pure.
 
 The Bayer process requires caustic soda (from [alkali production](../chemistry/)) and significant heat energy. Red mud disposal is an environmental challenge (highly alkaline waste).
 
@@ -81,7 +81,7 @@ Zirconia combines extreme temperature resistance (up to 2200°C) with excellent 
 
 ### Raw Material: Zircon Sand
 
-**Zircon** (ZrSiO₄) is mined from heavy mineral sand deposits (beach sands, river placers). **Baddeleyite** (natural ZrO₂) is rarer but requires less processing.
+**[Zircon](../glossary/zircon.html)** (ZrSiO₄) is mined from heavy mineral sand deposits (beach sands, river placers). **[Baddeleyite](../glossary/baddeleyite.html)** (natural ZrO₂) is rarer but requires less processing.
 
 **Chemical processing to pure ZrO₂**:
 1. **Alkali fusion**: Mix zircon sand with NaOH, heat to 600-700°C → sodium zirconate forms
@@ -96,7 +96,7 @@ Pure zirconia undergoes a destructive phase transformation at ~1170°C (monoclin
 **Solution**: Add stabilizers (5-15 mol% Y₂O₃, CaO, or MgO) to maintain the cubic (or partially tetragonal) phase at all temperatures:
 - **Fully stabilized zirconia (FSZ)**: 8-12 mol% Y₂O₃. Remains cubic. Used where thermal shock resistance matters.
 - **Partially stabilized zirconia (PSZ)**: 3-5 mol% Y₂O₃. Retains some transformable tetragonal phase. Transformation toughening — cracks propagate, local tetragonal→monoclinic transformation creates compressive stress that arrests the crack. Highest toughness of any ceramic.
-- **Y-TZP** (yttria-tetragonal zirconia polycrystal): Fine-grained, fully tetragonal. The toughest technical ceramic. Used for cutting tools, dental crowns, knife blades.
+- **[Y-TZP](../glossary/y-tzp.html)** (yttria-tetragonal zirconia polycrystal): Fine-grained, fully tetragonal. The toughest technical ceramic. Used for cutting tools, dental crowns, knife blades.
 
 ### Properties and Applications
 
@@ -326,7 +326,7 @@ Advanced ceramics are indispensable in semiconductor fabrication:
 ### Dust Hazards (Silicosis)
 
 Many ceramic raw materials produce fine dust during crushing, grinding, and powder handling:
-- **Crystalline silica** (quartz, cristobalite, tridymite): Causes silicosis — irreversible lung scarring. Exposure limit: 0.025 mg/m³ respirable (ACGIH TLV). Wet grinding wherever possible. Respiratory protection (P100 mask minimum) during all dry powder handling.
+- **[Crystalline silica](../glossary/crystalline-silica.html)** (quartz, cristobalite, tridymite): Causes silicosis — irreversible lung scarring. Exposure limit: 0.025 mg/m³ respirable (ACGIH TLV). Wet grinding wherever possible. Respiratory protection (P100 mask minimum) during all dry powder handling.
 - **Alumina dust**: Less hazardous than silica but still a respiratory irritant. Maintain <5 mg/m³.
 - **Ceramic fiber**: Suspected carcinogen. Handle with full respiratory protection and protective clothing.
 
@@ -345,8 +345,8 @@ Many ceramic raw materials produce fine dust during crushing, grinding, and powd
 
 ### Chemical Hazards
 
-- **HF etching** of ceramics requires full acid-handling PPE: face shield, HF-rated gloves (neoprene), apron. Calcium gluconate gel must be immediately available (HF antidote for skin exposure).
-- **Binders and solvents** used in ceramic processing (PVA, PEG, organic solvents) require standard chemical safety practices.
+- **[HF etching](../glossary/hf-etching.html)** of ceramics requires full acid-handling PPE: face shield, HF-rated gloves (neoprene), apron. Calcium gluconate gel must be immediately available (HF antidote for skin exposure).
+- **[Binders and solvents](../glossary/binders-and-solvents.html)** used in ceramic processing (PVA, PEG, organic solvents) require standard chemical safety practices.
 
 ## Integration Points
 

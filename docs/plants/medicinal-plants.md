@@ -127,7 +127,7 @@ Beyond the five tech-tree catalog species, the following plants are historically
 - **Morphine**: Most potent natural analgesic. Indispensable for severe pain (surgery, trauma, terminal illness). Effective dose: 5-15 mg orally; duration 4-6 hours
 - **Codeine**: Milder analgesic and antitussive (cough suppressant). 15-60 mg orally
 - **Papaverine**: Smooth muscle relaxant (vascular spasm, GI cramping)
-- **Raw opium** (whole latex): Used as analgesic, antidiarrheal (paregoric)
+- **[Raw opium](../glossary/raw-opium.html)** (whole latex): Used as analgesic, antidiarrheal (paregoric)
 
 **Harvesting (lancing)**: When petals fall, the green pod enlarges. Score the unripe pod surface with a multi-bladed lancing knife (3-4 shallow parallel cuts, 1-2 mm deep, not penetrating the pod wall). Latex exudes white, oxidizes to brown overnight. Collect the dried brown latex the following morning with a blunt scraper. Each pod yields 20-50 mg dried opium. A skilled worker processes ~5,000 pods/day. One hectare yields 8-15 kg raw opium.
 

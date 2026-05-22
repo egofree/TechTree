@@ -2,7 +2,7 @@
 
 > **Node ID**: vlsi-scaling.eda-design
 > **Domain**: [VLSI Scaling & Advanced Semiconductor](./)
-> **Dependencies**: `computing`, `photolithography.fab-processes`
+> **Dependencies**: [`computing`](../computing/index.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md)
 > **Timeline**: Years 70-200+
 > **Outputs**: eda_tools, gpus, advanced_packaging, vlsi_designs
 

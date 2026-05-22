@@ -7,11 +7,11 @@
 
 ### Pharmaceutical Production
 
-**Plant-derived medicines** (Foundations+):
+**[Plant-derived medicines](../glossary/plant-derived-medicines.html)** (Foundations+):
 - **Willow bark (salicin → salicylic acid → aspirin)**: Harvest bark from willow (Salix species) in spring when sap flows. Dry bark. Extract by boiling 30 g bark in 500 mL water for 15 minutes. Strain. Dose: 1 cup of decoction for pain/fever. Contains salicin (prodrug of salicylic acid). Later (Chemistry), synthesize acetylsalicylic acid (aspirin) from salicylic acid + acetic anhydride.
-  - **Aspirin synthesis** (Chemistry): Salicylic acid (from willow or Kolbe-Schmitt synthesis: phenol + CO₂ + NaOH at 125°C, 1 MPa → sodium salicylate → acidify) + acetic anhydride (from acetic acid + acetic acid → acetic anhydride) at 85°C for 15 minutes → acetylsalicylic acid + acetic acid. Crystallize from water. Filter, dry. Tablet with starch binder.
+  - **[Aspirin synthesis](../glossary/aspirin-synthesis.html)** (Chemistry): Salicylic acid (from willow or Kolbe-Schmitt synthesis: phenol + CO₂ + NaOH at 125°C, 1 MPa → sodium salicylate → acidify) + acetic anhydride (from acetic acid + acetic acid → acetic anhydride) at 85°C for 15 minutes → acetylsalicylic acid + acetic acid. Crystallize from water. Filter, dry. Tablet with starch binder.
 - **Opium poppy (morphine)**: Score unripe seed pods. Collect dried latex (opium). Contains morphine (potent analgesic) and codeine (mild analgesic, cough suppressant). Extremely valuable for surgery and severe pain. Highly addictive — controlled use only.
-  - **Morphine extraction** (Chemistry): Dissolve opium in hot water. Filter. Precipitate with NaOH → crude morphine base. Re-dissolve in HCl → morphine hydrochloride (water-soluble). Recrystallize for purity.
+  - **[Morphine extraction](../glossary/morphine-extraction.html)** (Chemistry): Dissolve opium in hot water. Filter. Precipitate with NaOH → crude morphine base. Re-dissolve in HCl → morphine hydrochloride (water-soluble). Recrystallize for purity.
 - **Cinchona bark (quinine)**: Anti-malarial. Extract by boiling bark in water. Quinine also treats arrhythmias. 8-10 g bark daily as decoction for malaria treatment.
 - **Ephedra (ephedrine)**: Bronchodilator (asthma treatment), decongestant, vasoconstrictor. Extract by water decoction. Later synthesized chemically.
 - **Digitalis (foxglove)**: Heart medication (increases contractility, slows rate). VERY narrow therapeutic window — easy to overdose. Use only under experienced guidance. Extract by steeping leaves in alcohol.
@@ -45,7 +45,7 @@
 **Body protection**:
 - **Leather aprons**: For blacksmithing, foundry work, welding. Heavy cowhide, waist to knee length.
 - **Rubber aprons**: For chemical handling. Sheet rubber with neck loop and waist ties.
-- **Cleanroom garments** (Photolithography): Woven synthetic coveralls, hoods, booties (from synthetic polymer fibers — see Polymers). Lint-free. Washed in ultra-pure water. Worn over street clothes. Changed every entry to cleanroom.
+- **[Cleanroom garments](../glossary/cleanroom-garments.html)** (Photolithography): Woven synthetic coveralls, hoods, booties (from synthetic polymer fibers — see Polymers). Lint-free. Washed in ultra-pure water. Worn over street clothes. Changed every entry to cleanroom.
 
 ### Surgical Capability
 
@@ -60,7 +60,7 @@
 - **Immobilization**: Wooden splints + cloth wrapping, or plaster cast (gypsum plaster (CaSO₄·½H₂O) + water → sets hard in 10-15 minutes, full strength in 24-48 hours). Pad bony prominences with cotton before plaster application. Immobilize joint above and below fracture. X-ray verification unavailable — rely on clinical alignment and repeat examination.
 - **Healing time**: 6-8 weeks for simple fractures, 12+ weeks for weight-bearing bones.
 
-**Basic surgery** (with anesthesia):
+**[Basic surgery](../glossary/basic-surgery.html)** (with anesthesia):
 - **Setup**: Clean room. Boil all instruments 20+ minutes (sterilization). Surgeon washes hands and forearms with soap and water, then soaks in 70% ethanol or 2% phenol solution. Sterile drapes over patient. Good lighting (focused oil lamp or, later, electric light).
 - **Anesthesia**: Ether inhalation via mask (wire frame with cloth pad, drip ether onto pad). Monitor breathing — maintain steady depth. Too deep → respiratory arrest. Have bellows ready for assisted ventilation.
 - **Procedures**: Amputation (last resort — guillotine method, tie off major vessels with catgut ligatures, flap skin over stump), abscess drainage (incise, pack with iodoform gauze), wound debridement (remove dead tissue), foreign body removal.
@@ -93,10 +93,10 @@
 - **Urine analysis**: Color (dark = dehydration, red = blood, cloudy = infection). Odor. Volume. Dipstick tests: pH, protein, glucose, blood, nitrites. Sweet-smelling urine = diabetes (glucose — test with Benedict's solution, turns orange-red if sugar present).
 
 **Triage categories**:
-- **Immediate** (red): Airway obstruction, massive hemorrhage, severe burns (>20% body surface), shock, tension pneumothorax. Treat within minutes.
-- **Urgent** (yellow): Fractures (open), moderate burns, significant bleeding (controlled), severe pain. Treat within 1-2 hours.
-- **Delayed** (green): Minor fractures, minor burns, superficial lacerations. Treat within 4-6 hours.
-- **Expectant** (black): Injuries incompatible with survival given available resources. Comfort measures only. Difficult but necessary when resources are limited.
+- **[Immediate](../glossary/immediate.html)** (red): Airway obstruction, massive hemorrhage, severe burns (>20% body surface), shock, tension pneumothorax. Treat within minutes.
+- **[Urgent](../glossary/urgent.html)** (yellow): Fractures (open), moderate burns, significant bleeding (controlled), severe pain. Treat within 1-2 hours.
+- **[Delayed](../glossary/delayed.html)** (green): Minor fractures, minor burns, superficial lacerations. Treat within 4-6 hours.
+- **[Expectant](../glossary/expectant.html)** (black): Injuries incompatible with survival given available resources. Comfort measures only. Difficult but necessary when resources are limited.
 
 ### Diagnostic Examination Techniques
 
@@ -110,7 +110,7 @@
 - **Sound interpretation**: Resonant (low-pitched, hollow) over normal air-filled lung. Dull (high-pitched, flat) over consolidated lung (pneumonia), fluid (pleural effusion), or solid organs (liver, heart). Tympanitic (drum-like) over air-filled stomach or bowel. Stony dull over large pleural effusion.
 - **Clinical utility**: Map the borders of the liver (normally spans 6-12 cm in the midclavicular line). Detect pleural effusion (dullness at the base that shifts with patient position). Identify consolidated lung segments in pneumonia.
 
-**Auscultation** (requires stethoscope or improvised tube):
+**[Auscultation](../glossary/auscultation.html)** (requires stethoscope or improvised tube):
 - **Heart sounds**: S1 (lubb, AV valve closure) and S2 (dubb, semilunar valve closure) are normal. S3 (ventricular gallop) indicates heart failure or volume overload. S4 (atrial gallop) indicates stiff ventricle (hypertension, aortic stenosis). Murmurs graded I (barely audible) through VI (audible with stethoscope off the chest). Timing: systolic (between S1 and S2) or diastolic (between S2 and S1). Location and radiation help identify the affected valve.
 - **Breath sounds**: Vesicular (soft, rustling) normal over peripheral lung fields. Bronchial (harsh, tubular) over consolidated lung (pneumonia) — abnormal when heard in the periphery. Wheezing (high-pitched musical sounds) in asthma, bronchitis. Crackles/rales (discrete popping sounds) in pneumonia, pulmonary edema, fibrosis. Absent breath sounds in pleural effusion or pneumothorax.
 - **Bowel sounds**: Normal active gurgling (5-35 per minute). Absent (ileus, peritonitis — listen for 2 full minutes before declaring absent). High-pitched tinkling (early bowel obstruction).
@@ -131,15 +131,15 @@
 - **Technique**: Sharp debridement with scalpel or scissors. Excise non-viable tissue (gray/brown color, no bleeding when cut, dull consistency) until healthy bleeding tissue is reached. Preserve viable muscle (contracts when touched) and tendon. Autolytic debridement (moist dressings that allow the body's own enzymes to dissolve dead tissue) is slower but less painful.
 
 **Wound closure timing**:
-- **Primary closure** (within 6 hours of injury, "primary intention"): Clean wounds with sharp edges (surgical incisions, fresh lacerations from clean objects). Irrigate, debride if needed, suture or staple. Approximate wound edges without tension. Success depends on thorough cleaning.
-- **Delayed primary closure** (4-5 days after injury): For contaminated wounds that have been cleaned and observed for signs of infection. If no infection develops by day 4-5, close the wound. Combines safety of open wound management with cosmetic/functional benefit of closure.
-- **Secondary intention** (leave open to heal by granulation): For heavily contaminated wounds, bites, crush injuries, or wounds older than 6-8 hours. Wound fills with granulation tissue from the base upward. Slower but safer for high-infection-risk wounds.
+- **[Primary closure](../glossary/primary-closure.html)** (within 6 hours of injury, "primary intention"): Clean wounds with sharp edges (surgical incisions, fresh lacerations from clean objects). Irrigate, debride if needed, suture or staple. Approximate wound edges without tension. Success depends on thorough cleaning.
+- **[Delayed primary closure](../glossary/delayed-primary-closure.html)** (4-5 days after injury): For contaminated wounds that have been cleaned and observed for signs of infection. If no infection develops by day 4-5, close the wound. Combines safety of open wound management with cosmetic/functional benefit of closure.
+- **[Secondary intention](../glossary/secondary-intention.html)** (leave open to heal by granulation): For heavily contaminated wounds, bites, crush injuries, or wounds older than 6-8 hours. Wound fills with granulation tissue from the base upward. Slower but safer for high-infection-risk wounds.
 
 ### Fracture Management Detail
 
 **Reduction**:
 - **Closed reduction**: Manipulate bone ends externally to restore alignment. Apply longitudinal traction (pull along the bone axis) to disimpact fragments. Then adjust angular and rotational alignment. Check alignment by comparing to the uninjured limb (length, alignment, rotation). Provide analgesia (ether, morphine, or ethanol) before reduction.
-- **Open reduction** (requires surgical capability): Expose fracture site surgically, realign bone ends under direct vision. Required for fractures where closed reduction fails, where bone fragments are interposed with soft tissue, or where the fracture involves a joint surface. Higher risk of infection.
+- **[Open reduction](../glossary/open-reduction.html)** (requires surgical capability): Expose fracture site surgically, realign bone ends under direct vision. Required for fractures where closed reduction fails, where bone fragments are interposed with soft tissue, or where the fracture involves a joint surface. Higher risk of infection.
 
 **Plaster of Paris immobilization**:
 - **Material**: Gypsum plaster (CaSO₄·½H₂O), produced by heating gypsum (CaSO₄·2H₂O) to 120-180°C to drive off three-quarters of the water. When mixed with water, it rehydrates and sets hard (exothermic, reaches ~50°C during setting).
@@ -171,7 +171,7 @@
 
 **Burn management**:
 - **Classification**: First degree (erythema, pain, no blisters — sunburn). Second degree (partial-thickness, blisters, intense pain, moist wound bed). Third degree (full-thickness, white/brown/black eschar, painless because nerve endings destroyed).
-- **Fluid resuscitation** (Parkland formula for burns >20% body surface area): 4 mL lactated Ringer's (or 0.9% NaCl) × kg body weight × %BSA burned. Give half in the first 8 hours from the time of burn, the remaining half over the next 16 hours. Monitor urine output (target 0.5-1.0 mL/kg/hour as indicator of adequate resuscitation).
+- **[Fluid resuscitation](../glossary/fluid-resuscitation.html)** (Parkland formula for burns >20% body surface area): 4 mL lactated Ringer's (or 0.9% NaCl) × kg body weight × %BSA burned. Give half in the first 8 hours from the time of burn, the remaining half over the next 16 hours. Monitor urine output (target 0.5-1.0 mL/kg/hour as indicator of adequate resuscitation).
 - **Wound care**: Cool burn with running water (15-20°C) for 20 minutes (effective up to 3 hours post-burn). Do NOT apply ice (causes frostbite on top of the burn). Apply non-adherent dressing (petrolatum gauze). Do NOT burst blisters (intact blister is a sterile biological dressing). Escharotomy (longitudinal incisions through burned skin) for circumferential burns of limbs or chest that restrict circulation or breathing.
 
 **Shock management**:

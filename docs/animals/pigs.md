@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.pigs
 > **Domain**: [Animals](./)
-> **Dependencies**: `animals`, `animals.domestication`
-> **Enables**: `animals.animal-materials`, `food.preservation`, `agriculture.soil-management`
+> **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
+> **Enables**: [`animals.animal-materials`](animal-materials.md), `food.preservation`, [`agriculture.soil-management`](../agriculture/soil-management.md)
 > **Timeline**: Years 1-20+
 > **Outputs**: pork, lard, bacon, bristles, leather, manure, waste_disposal
 

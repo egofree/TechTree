@@ -2,7 +2,7 @@
 
 > **Node ID**: animals.poultry.chickens
 > **Domain**: [Animals](./)
-> **Dependencies**: `animals.poultry`
+> **Dependencies**: [`animals.poultry`](poultry.md)
 > **Enables**: `animals.animal-housing`, `food.preservation`, `farming.composting`
 > **Timeline**: Years 0-5
 > **Outputs**: eggs, chicken_meat, feathers, manure

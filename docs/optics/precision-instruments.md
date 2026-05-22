@@ -2,7 +2,7 @@
 
 > **Node ID**: optics.precision-instruments
 > **Domain**: [Optics](./)
-> **Dependencies**: `optics.inspection`, `measurement.optical-instruments`
+> **Dependencies**: [`optics.inspection`](inspection.md), [`measurement.optical-instruments`](../measurement/optical-instruments.md)
 > **Timeline**: Years 30-45
 > **Outputs**: precision_lenses, optical_flats, interferometers, autocollimators, optical_comparators
 

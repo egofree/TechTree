@@ -2,7 +2,7 @@
 
 > **Node ID**: measurement.electrical-instruments
 > **Domain**: [Measurement](./)
-> **Dependencies**: `electrical-systems`, `metals`, `glass`
+> **Dependencies**: `electrical-systems`, [`metals`](../metals/index.md), [`glass`](../glass/index.md)
 > **Timeline**: Years 20-35
 > **Outputs**: voltmeter, ammeter, ohmmeter, oscilloscope, multimeter, insulation_tester, frequency_counter
 

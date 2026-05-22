@@ -74,7 +74,7 @@ CSR and CRI are the critical metrics for blast furnace coke — high CSR means t
 
 - Spray water onto incandescent coke in the quenching car. Produces massive steam plume (5-10 tonnes of steam per tonne of coke). Quenching time: 3-5 minutes.
 - **Risk**: Water trapped in porous coke can cause steam explosion if coke is handled too soon. Always allow 30+ minutes cooling after quenching before handling.
-- **Never quench in confined spaces** — steam displaces oxygen. Workers have asphyxiated in quenching stations.
+- **[Never quench in confined spaces](../glossary/never-quench-in-confined-spaces.html)** — steam displaces oxygen. Workers have asphyxiated in quenching stations.
 - **Water pollution**: Quench water picks up phenols, cyanides, and ammonia from the coke. Treat before discharge.
 
 ### Dry Quenching (Advanced)
@@ -135,7 +135,7 @@ Coal tar (~3-5% of coal weight) is one of the most valuable chemical feedstocks 
 
 The byproduct recovery oven transforms coking from a purely fuel-producing operation into a chemical feedstock factory. Revenue distribution for a typical by-product coke oven battery:
 
-- **Coke** (primary product): ~70-75% of revenue. 680-750 kg coke per tonne of coal charged.
+- **[Coke](../glossary/coke.html)** (primary product): ~70-75% of revenue. 680-750 kg coke per tonne of coal charged.
 - **Coal tar**: ~5-8% of revenue. 30-50 kg per tonne of coal. Distilled into 6+ marketable fractions.
 - **Benzol**: ~3-5% of revenue. 8-12 kg per tonne of coal. Source of benzene (chemical synthesis) and toluene (solvent, TNT explosive production).
 - **Ammonium sulfate**: ~2-3% of revenue. 8-12 kg per tonne of coal. Nitrogen fertilizer.
@@ -171,11 +171,11 @@ Coke serves four critical functions in the blast furnace:
 
 ## Cross-References
 
-- **Coal mining** (feedstock): [coal.md](coal.md)
-- **Charcoal** (alternative for early smelting): [charcoal.md](charcoal.md)
+- **[Coal mining](../glossary/coal-mining.html)** (feedstock): [coal.md](coal.md)
+- **[Charcoal](../glossary/charcoal.html)** (alternative for early smelting): [charcoal.md](charcoal.md)
 - **Fuel comparison table**: [fuels.md](fuels.md)
 - **Petrochemical processing**: [petroleum-alternatives.md](../chemistry/petroleum-alternatives.md)
-- **Iron smelting** (primary consumer): [iron-steel.md](../metals/iron-steel.md)
+- **[Iron smelting](../glossary/iron-smelting.html)** (primary consumer): [iron-steel.md](../metals/iron-steel.md)
 
 ## By-Product Yields and Economic Value
 

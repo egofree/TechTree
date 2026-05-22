@@ -21,7 +21,7 @@ Limestone (CaCO₃) is one of the most common sedimentary rocks on Earth. Identi
 - **Appearance**: Usually white, gray, or buff-colored. Often contains visible fossil fragments (shells, coral, crinoid stems). Fine-grained or crystalline depending on formation history.
 - **Hardness**: Soft enough to scratch with a steel knife (Mohs 3-4). Does not scratch glass.
 - **Associated geology**: Found in former seabeds — hills, cliffs, and plateaus in sedimentary terrain. Often exposed in road cuts, river valleys, and quarry faces.
-- **Dolomite** (CaCO₃·MgCO₃): Similar appearance but effervesces only in powdered form with weak acid. Produces dolomitic lime — valuable for refractory applications. Requires higher firing temperature (1600-1800°C).
+- **[Dolomite](../glossary/dolomite.html)** (CaCO₃·MgCO₃): Similar appearance but effervesces only in powdered form with weak acid. Produces dolomitic lime — valuable for refractory applications. Requires higher firing temperature (1600-1800°C).
 
 ### Quality Assessment
 
@@ -106,7 +106,7 @@ A scaled-up version enabling continuous production:
 
 The fundamental reversible cycle underlying all lime-based materials:
 
-**CaCO₃** (limestone) → **[heat 900°C]** → **CaO** (quicklime) + CO₂ → **[add water]** → **Ca(OH)₂** (slaked lime) → **[exposure to air, CO₂]** → **CaCO₃** (re-hardened limestone)
+**[CaCO₃](../glossary/caco.html)** (limestone) → **[heat 900°C]** → **[CaO](../glossary/cao.html)** (quicklime) + CO₂ → **[add water]** → **[Ca(OH)₂](../glossary/caoh.html)** (slaked lime) → **[exposure to air, CO₂]** → **[CaCO₃](../glossary/caco.html)** (re-hardened limestone)
 
 - The forward direction (calcination) requires 900°C+ and significant fuel energy.
 - The hardening reaction (carbonation) occurs at ambient temperature over weeks to years, driven by atmospheric CO₂ diffusing into the lime mortar or plaster. This is why lime mortar takes months to reach full strength — CO₂ must penetrate from the surface inward.
@@ -141,7 +141,7 @@ Limestone containing 5-20% clay (aluminosilicate) impurities produces hydraulic 
 
 - **Initial set**: Carbonation begins at surface (Ca(OH)₂ + CO₂ → CaCO₃ + H₂O). Surface firms within hours to days depending on temperature, humidity, and wall thickness.
 - **Full hardening**: Months to years as CO₂ slowly penetrates to core. Thick walls may take years to fully carbonate. This is not a defect — it is how lime mortar works.
-- **Keep mortar damp for 7+ days** after application — prevents cracking from too-rapid drying. Mist the wall periodically, or cover with damp burlap. In hot, dry weather, protect from direct sun and wind.
+- **[Keep mortar damp for 7+ days](../glossary/keep-mortar-damp-for-7-days.html)** after application — prevents cracking from too-rapid drying. Mist the wall periodically, or cover with damp burlap. In hot, dry weather, protect from direct sun and wind.
 - **Freeze protection**: Do not lay lime mortar when temperature is below 5°C. Freezing before set disrupts the carbonation process and causes permanent weakness.
 
 ### Properties of Lime Mortar
@@ -155,7 +155,7 @@ Limestone containing 5-20% clay (aluminosilicate) impurities produces hydraulic 
 
 ### Interior Plaster
 
-- **Coats**: Apply in 2-3 coats. **Scratch coat** (first, 10-15 mm thick, scratched with comb to provide key for next coat). **Brown coat** (second, 6-10 mm, floated to flat). **Finish coat** (third, 3-5 mm, troweled smooth or textured).
+- **Coats**: Apply in 2-3 coats. **[Scratch coat](../glossary/scratch-coat.html)** (first, 10-15 mm thick, scratched with comb to provide key for next coat). **[Brown coat](../glossary/brown-coat.html)** (second, 6-10 mm, floated to flat). **[Finish coat](../glossary/finish-coat.html)** (third, 3-5 mm, troweled smooth or textured).
 - **Mix**: Lime putty + fine sand (1:2 ratio) for scratch and brown coats. Lime putty alone or with very fine sand for finish coat.
 - **Application**: Apply to dampened surface (masonry, lath, or reed mat). Press firmly into key. Each coat must set partially before the next is applied (1-3 days between coats depending on conditions).
 - **Result**: Smooth, white, breathable wall surface. Naturally antiseptic (alkaline pH inhibits mold). Absorbs and releases moisture — regulates indoor humidity.
@@ -207,7 +207,7 @@ Quicklime (CaO) is a critical flux in steelmaking:
 
 - **Basic oxygen furnace**: ~40-50 kg CaO per tonne of steel. Lime reacts with silica, phosphorus, and sulfur impurities to form a basic slag (calcium silicates, phosphates) that floats on molten steel and is skimmed off. Without lime flux, these impurities remain in the steel and degrade mechanical properties.
 - **Electric arc furnace**: Similar function — lime flux purifies the steel melt.
-- **Dolomitic lime** (CaO·MgO, from dolomite CaCO₃·MgCO₃ fired at 1600-1800°C): Lines the refractory vessels themselves. Dolomitic refractory withstands the basic slag environment that would dissolve acidic (silica-based) refractories.
+- **[Dolomitic lime](../glossary/dolomitic-lime.html)** (CaO·MgO, from dolomite CaCO₃·MgCO₃ fired at 1600-1800°C): Lines the refractory vessels themselves. Dolomitic refractory withstands the basic slag environment that would dissolve acidic (silica-based) refractories.
 
 ### Agriculture
 
@@ -249,12 +249,12 @@ Quicklime is used in the beamhouse stage of leather tanning to dehair hides. A l
 
 ## Cross-References
 
-- **Pottery & Clay Products** (kiln construction): [pottery.md](pottery.md)
-- **Kiln Construction** (firing infrastructure): [kilns.md](kilns.md)
-- **Advanced Ceramics** (refractory linings): [advanced-ceramics.md](advanced-ceramics.md)
-- **Iron & Steel** (flux and refractory): [iron-steel.md](../metals/iron-steel.md)
-- **Glass** (limestone as raw material): [glass.md](../glass/)
-- **Chemistry** (alkali production): [alkalis.md](../chemistry/)
+- **[Pottery & Clay Products](pottery.md)** (kiln construction): [pottery.md](pottery.md)
+- **[Kiln Construction](kilns.md)** (firing infrastructure): [kilns.md](kilns.md)
+- **[Advanced Ceramics](advanced-ceramics.md)** (refractory linings): [advanced-ceramics.md](advanced-ceramics.md)
+- **[Iron & Steel](../glossary/iron-steel.html)** (flux and refractory): [iron-steel.md](../metals/iron-steel.md)
+- **[Glass](../glass/index.md)** (limestone as raw material): [glass.md](../glass/)
+- **[Chemistry](../chemistry/index.md)** (alkali production): [alkalis.md](../chemistry/)
 
 ---
 

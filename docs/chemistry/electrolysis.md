@@ -7,10 +7,10 @@
 
 ### Electrolysis Scale-Up
 
-**Chlor-alkali process** (most important industrial electrolysis):
+**[Chlor-alkali process](../glossary/chlor-alkali-process.html)** (most important industrial electrolysis):
 - **Cell types**:
   - **Diaphragm cell**: Asbestos or polymer diaphragm separates anode and cathode compartments. Prevents Cl₂ and NaOH from mixing (would form NaOCl — bleach). Products: Cl₂ gas, H₂ gas, 10-12% NaOH solution (requires evaporation to 50%).
-  - **Membrane cell** (modern): Ion-exchange membrane (Nafion or equivalent — perfluorinated polymer chemistry). More efficient, produces directly 30-35% NaOH. But membrane requires PTFE-like fluoropolymer.
+  - **[Membrane cell](../glossary/membrane-cell.html)** (modern): Ion-exchange membrane (Nafion or equivalent — perfluorinated polymer chemistry). More efficient, produces directly 30-35% NaOH. But membrane requires PTFE-like fluoropolymer.
 - **Anode**: Dimensionally stable anode (DSA) — titanium coated with RuO₂/IrO₂. Or graphite (cheaper, consumed slowly ~2-5 kg/tonne Cl₂). Carbon anodes work for startup.
 - **Cathode**: Steel or nickel. Hydrogen evolves at cathode: 2H₂O + 2e⁻ → H₂ + 2OH⁻.
 - **Operating conditions**: 3.2-3.8V per cell, 2-5 kA/m² current density. Temperature 80-90°C. NaCl concentration ~25%.
@@ -50,7 +50,7 @@ The chlor-alkali process produces three critical products simultaneously: chlori
   - **Operating conditions**: 1.8-2.2V per cell, 50-80°C, water fed to anode side.
   - **Verdict for bootstrap**: Alkaline electrolysis is the only practical route until fluoropolymer chemistry is established. PEM is documented here as the advanced target.
 
-**Aluminum production** (Hall-Héroult process — enormous power consumer):
+**[Aluminum production](../metals/aluminum.md)** (Hall-Héroult process — enormous power consumer):
 - **Feedstock**: Purified alumina (Al₂O₃) from bauxite via Bayer process: dissolve bauxite in hot NaOH (150-250°C, 5-30 bar), filter impurities (red mud), precipitate Al(OH)₃, calcine at 1100-1200°C → Al₂O₃.
 - **Electrolysis**: Dissolve Al₂O₃ in molten cryolite (Na₃AlF₆, melting point 1012°C) at 950-1000°C. Carbon anodes, carbon-lined steel cathode. Al³⁺ + 3e⁻ → Al (liquid aluminum pools at bottom, tapped periodically). Carbon consumed: 2O²⁻ + C → CO₂.
 - **Operating conditions**: 4.0-4.5V, 150-400 kA per cell, ~13-15 kWh/kg Al.
@@ -69,7 +69,7 @@ The overall cell reaction is 2Al₂O₃ + 3C → 4Al + 3CO₂. The carbon anode 
 - **Electrical**: 4.0-5.0V per cell at 100-500 kA (modern cells). Cells connected in series (potline) — 200-300 cells per potline. Total potline voltage: 800-1200V DC. Current supplied by silicon diode rectifiers from AC power. Energy consumption: 13-15 kWh/kg Al (theoretical minimum: 6.3 kWh/kg for Al₂O₃ → Al, but carbon anode reduces electrical energy needed — total energy includes anode combustion heat). Heat balance: ~50% of electrical input is heat — must be dissipated to maintain 960-980°C bath temperature. Cell designed so heat loss through sides, bottom, and top crust matches internal heat generation.
 - **Emissions**: CO₂ from anode consumption (~1.5 t CO₂ per t Al), plus CO₂ from electricity generation (if fossil-fueled). Fluoride emissions (HF, CF₄, C₂F₆) controlled by dry scrubbing (alumina absorbs HF, then fed to cells — closing the fluoride loop). CF₄ and C₂F₆ are extremely potent greenhouse gases (GWP 6,620 and 11,100 respectively) — minimize anode effects.
 
-**Copper electrorefining** (produces 99.99% pure Cu from impure anodes):
+**[Copper electrorefining](../glossary/copper-electrorefining.html)** (produces 99.99% pure Cu from impure anodes):
 - **Cell**: Impure copper cast anode (from smelter, ~98-99% Cu). Pure copper starter sheet cathode (thin Cu foil). Electrolyte: CuSO₄ (150-200 g/L) + H₂SO₄ (150-200 g/L) in aqueous solution. Temperature 50-65°C.
 - **Reaction**: Cu (anode) → Cu²⁺ + 2e⁻ (dissolution). Cu²⁺ + 2e⁻ → Cu (cathode, pure deposit). Cell voltage only 0.2-0.3 V (very low — most energy goes to pumping electrolyte, not overcoming thermodynamics). Current density: 200-300 A/m².
 - **Impurities**: Ag, Au, Pt, Se, Te do not dissolve — settle as "anode slime" (valuable byproduct, recovered for precious metals). Ni, Fe, Zn dissolve but do not plate at cathode with proper voltage control. As, Sb, Bi must be controlled — can co-deposit.
@@ -101,7 +101,7 @@ The overall cell reaction is 2Al₂O₃ + 3C → 4Al + 3CO₂. The carbon anode 
 **Cell configurations**:
 - **Tank cell**: Simple rectangular tank (concrete or steel-lined). Electrodes hang in electrolyte. Batch or semi-continuous. Used for copper refining. Easy to build and maintain, but large footprint per unit production.
 - **Filter press cell**: Flat electrodes and separators clamped together like a stack. Electrolyte flows through channels between plates. Continuous operation, compact, good heat removal. Used for chlor-alkali and advanced water electrolysis. Higher manufacturing precision required.
-- **Membrane cell** (chlor-alkali specific): Ion-exchange membrane (Nafion) replaces diaphragm. Allows Na⁺ through but blocks Cl⁻ and OH⁻. Produces higher-purity NaOH directly at 30-35% concentration. Requires fluoropolymer chemistry.
+- **[Membrane cell](../glossary/membrane-cell.html)** (chlor-alkali specific): Ion-exchange membrane (Nafion) replaces diaphragm. Allows Na⁺ through but blocks Cl⁻ and OH⁻. Produces higher-purity NaOH directly at 30-35% concentration. Requires fluoropolymer chemistry.
 
 ### Power Supply for Electrolysis
 
@@ -133,7 +133,7 @@ All electrolysis processes require **direct current (DC)**. The conversion from 
 - **Operating conditions**: Low current density (10-500 A/m² depending on metal), near-ambient temperature (25-60°C most baths), cell voltage 0.5-6V. Plating thickness controlled by time and current (Faraday's law: 1 Faraday = 96,485 coulombs deposits 1 equivalent weight of metal).
 - **Surface preparation**: Critical step — poor adhesion results from oily or oxidized surfaces. Sequence: degrease (alkaline soak or solvent), acid pickle (remove oxide), acid dip (activate surface), rinse between each step, then plate immediately.
 
-**Electrowinning** (extracting metal from leach solutions):
+**[Electrowinning](../glossary/electrowinning.html)** (extracting metal from leach solutions):
 - Used when metal is dissolved in solution (heap leaching of copper ores, zinc roaster leach). Electrolyte contains metal ions (Cu²⁺, Zn²⁺) in H₂SO₄ solution. Inert anode (Pb-Sn-Ca alloy, oxygen-evolving). Cathode: aluminum or stainless steel blank. Metal plates on cathode, O₂ evolves at anode. Higher voltage than electrorefining (1.8-3.5V per cell vs. 0.3V) because the anode reaction is water oxidation rather than metal dissolution.
 
 ### Scale and Economics
@@ -171,7 +171,7 @@ The membrane cell is the modern standard for chlor-alkali electrolysis, replacin
 
 ## SEM Tech Membrane Cell
 
-**SEM Tech** (Salt Electro Mining Technology) is an open-source approach to ion exchange membrane manufacturing, developed by **Robert Karas** (Rowow LLC). The core innovation uses off-the-shelf water softener resin beads, pulverized and dispersed in a PVC/CPVC binder matrix, to form homogeneous ion exchange membranes at **less than $1/sq ft** — compared to $100-400/sq ft for conventional perfluorinated membranes (Nafion).
+**[SEM Tech](../glossary/sem-tech.html)** (Salt Electro Mining Technology) is an open-source approach to ion exchange membrane manufacturing, developed by **Robert Karas** (Rowow LLC). The core innovation uses off-the-shelf water softener resin beads, pulverized and dispersed in a PVC/CPVC binder matrix, to form homogeneous ion exchange membranes at **less than $1/sq ft** — compared to $100-400/sq ft for conventional perfluorinated membranes (Nafion).
 
 **Key differences from conventional membrane cells**:
 - **Membrane composition**: Pulverized pre-functionalized ion exchange resin (particle size <200μm) in PVC or CPVC matrix. No post-functionalization (sulfonation, amination) required.

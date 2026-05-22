@@ -7,12 +7,12 @@
 
 ### Spinning (converting fiber to yarn/thread)
 
-**Drop spindle** (Foundations stage, simplest):
+**[Drop spindle](../glossary/drop-spindle.html)** (Foundations stage, simplest):
 - **Construction**: Round whorl (50-100 g, 3-5 cm diameter) on straight wooden shaft (20-30 cm). Whorl materials: fired clay (most common — shape on wheel, dry, fire to hardness), stone (sandstone or limestone, drilled center hole), or turned wood (hardwood, weighted with clay or lead if needed). Shaft: hardwood (ash, maple, oak), 10-20 g total weight for fine yarns, 30-50 g for heavier yarns. Notch or hook at top to secure yarn. Spindle must be balanced — whorl centered on shaft, or vibration wastes energy and produces uneven yarn.
 - **Process**: Draft (pull thin stream of fiber from rolag), spin spindle (twist inserted by rotation — clockwise for Z-twist, counterclockwise for S-twist), wind spun yarn onto shaft. Speed: ~50-100 meters per hour. Can produce thread from very fine (sewing) to heavy (rope yarn).
 - **Twist direction**: Z-twist (clockwise when viewed from above) is standard for single yarns. Plying (combining multiple singles) uses opposite twist (S-twist) to balance the yarn and prevent kinking.
 
-**Spinning wheel** (the Metallurgy-Machine Tools stage transition, 10x throughput):
+**[Spinning wheel](../glossary/spinning-wheel.html)** (the Metallurgy-Machine Tools stage transition, 10x throughput):
 - **Great wheel (walking wheel)**: Large (1-1.5 m) wheel turned by hand. Drive band (cord or leather belt) connects wheel groove to spindle assembly. Wheel rotation spins spindle at high speed — typical drive ratio 30:1 to 80:1. Spinner walks backward while drafting fiber away from spindle, then reverses direction to wind yarn onto spindle. No treadle — one hand turns wheel, other drafts fiber. Best for woolen spinning. Production: 200-500 m/hour.
 - **Treadle wheel (Saxony/flax wheel)**: Foot treadle drives wheel via crank, leaving both hands free for fiber control. Flyer and bobbin assembly: flyer (U-shaped bracket with hooks) adds twist, bobbin winds yarn at slightly different speed (controlled by Scotch tension or double-drive band). Ratios 8:1 to 20:1 (spindle revolutions per wheel revolution). Fine linen requires high ratio. Production: 300-800 m/hour. Requires precision woodwork and iron fittings for bearings.
 - **Charka (book charka)**: Small portable wheel, hand-cranked. For cotton. High speed, fine yarn.
@@ -30,7 +30,7 @@ Building a treadle spinning wheel requires woodcraft skill and basic iron hardwa
 **Tension mechanisms**:
 - **Scotch tension**: A brake band (thin cord or leather) wraps around the bobbin flange and is tensioned by a spring or adjustable screw. The brake slows the bobbin relative to the flyer, causing yarn to wind on. Adjusting brake tension controls take-up speed. Simple, effective, easy to build. Preferred for beginners and most general spinning.
 - **Double drive**: A single drive band loops twice — once around the wheel and flyer whorl, once around the wheel and bobbin whorl. The different whorl diameters create a speed differential. Produces more consistent yarn but requires precise adjustment. Common on traditional Saxony wheels.
-- **Irish tension** (bobbin-led): Drive band connects wheel to bobbin whorl; brake on the flyer. Less common, produces a softer take-up. Suitable for bulky yarns.
+- **[Irish tension](../glossary/irish-tension.html)** (bobbin-led): Drive band connects wheel to bobbin whorl; brake on the flyer. Less common, produces a softer take-up. Suitable for bulky yarns.
 
 **Treadle mechanism**: Foot treadle (hardwood plank, 15-20 cm × 8-10 cm) connected to wheel crank via a pitman rod (wooden or iron connecting rod, 30-50 cm). Crank offset 3-5 cm from wheel axle — this converts rotary motion to the reciprocating treadle. The treadle pivots at its rear end on a metal pin or leather hinge. Iron bearings at the crank pitman joint reduce wear.
 
@@ -66,9 +66,9 @@ Before fiber can be spun, it must be cleaned, opened, and aligned:
 - **Cotton**: Ginned (seeds removed by roller gin or saw gin) → willowed (beaten to open compressed bales and remove trash) → carded (see below).
 - **Flax (linen)**: Retted (soak stalks in water 5-14 days — bacteria dissolve pectin binding fibers to woody core) → break (crush woody core with flax brake) → scutch (beat with wooden blade to remove broken woody shives) → hackle (draw through iron combs to separate long line fibers from short tow). Line fibers produce fine, strong linen; tow produces coarse yarn for rope and sacking.
 
-**Carding** (aligning fibers for spinning):
+**[Carding](../glossary/carding.html)** (aligning fibers for spinning):
 - **Hand cards**: Pair of rectangular paddles (10 × 20 cm) covered in card cloth (stiff wire teeth, 1-2 cm long, set in leather or rubber backing). Charge one card with teased fiber. Brush cards together — teeth pull fibers into parallel alignment. Transfer rolled rolag (cylindrical roll of carded fiber, 10-15 cm long, 3-5 cm diameter) from card. Each rolag feeds one spindle-full of yarn. Rate: 0.5-1 kg of carded fiber per hour.
-- **Drum carder** (Machine Tools): Rotating drum (20-40 cm diameter) covered with card cloth feeds against smaller roller. Continuous output as carded batt (flat sheet of aligned fiber). 5-10 kg/hour throughput. Significantly faster than hand carding.
+- **[Drum carder](../glossary/drum-carder.html)** (Machine Tools): Rotating drum (20-40 cm diameter) covered with card cloth feeds against smaller roller. Continuous output as carded batt (flat sheet of aligned fiber). 5-10 kg/hour throughput. Significantly faster than hand carding.
 
 ### Troubleshooting Common Yarn Defects
 
@@ -122,7 +122,7 @@ Mechanized spinning multiplies output by 10-100× over hand spinning:
 
 **Tension mechanism detail**:
 - **Scotch tension**: A brake band (thin cord, leather strip, or fishing line) wraps once around the bobbin flange. One end is fixed, the other is attached to a spring with an adjusting knob. Tightening the knob increases drag on the bobbin, causing more yarn to wind on per flyer revolution. Loosening allows the bobbin to keep up with the flyer, reducing take-up. Adjustment is continuous and precise. The simplest effective tension system to build.
-- **Irish tension** (bobbin-led): Drive band connects the wheel directly to a whorl on the bobbin. The bobbin is the driven element. A separate brake is applied to the flyer. The bobbin pulls yarn onto itself. Produces a strong, consistent take-up. Less adjustment range than Scotch tension. Better for medium to bulky yarns where a positive feed is desirable.
+- **[Irish tension](../glossary/irish-tension.html)** (bobbin-led): Drive band connects the wheel directly to a whorl on the bobbin. The bobbin is the driven element. A separate brake is applied to the flyer. The bobbin pulls yarn onto itself. Produces a strong, consistent take-up. Less adjustment range than Scotch tension. Better for medium to bulky yarns where a positive feed is desirable.
 
 ### Troubleshooting Spinning Problems
 
@@ -136,11 +136,11 @@ Mechanized spinning multiplies output by 10-100× over hand spinning:
 
 ### Industrial Spinning Detail
 
-**Water frame** (Arkwright, 1769): The breakthrough machine for mechanized spinning. Three or four pairs of fluted iron rollers draw the roving (lightly twisted fiber strand) progressively thinner. Each roller pair rotates faster than the previous: typical speed ratios 1:2:4:8 from first to last pair. The flyer spindle inserts twist into the attenuated strand. Produces firm, even yarn suitable for warp, which had been the bottleneck restricting handloom productivity. Early frames held 4-8 spindles; by the 1790s, frames of 40-80 spindles were common. Powered by water wheel (hence the name) and later by steam engine. Roller spacing must match fiber staple length: 25-35 mm for cotton, 50-80 mm for wool.
+**[Water frame](../glossary/water-frame.html)** (Arkwright, 1769): The breakthrough machine for mechanized spinning. Three or four pairs of fluted iron rollers draw the roving (lightly twisted fiber strand) progressively thinner. Each roller pair rotates faster than the previous: typical speed ratios 1:2:4:8 from first to last pair. The flyer spindle inserts twist into the attenuated strand. Produces firm, even yarn suitable for warp, which had been the bottleneck restricting handloom productivity. Early frames held 4-8 spindles; by the 1790s, frames of 40-80 spindles were common. Powered by water wheel (hence the name) and later by steam engine. Roller spacing must match fiber staple length: 25-35 mm for cotton, 50-80 mm for wool.
 
-**Spinning mule** (Crompton, 1779): Combined the roller drafting of the water frame with the manual carriage travel of the hand spinning wheel. The carriage moves outward 1.5-2 m, simultaneously drawing and twisting the yarn. Then the carriage returns, winding the spun yarn onto the spindles. This intermittent action allowed much finer yarn than the water frame: the mule could spin yarn fine enough to match hand-spun Indian muslin (Ne 100+), which the water frame could not achieve. By the 1830s, mules carried 300-1,300 spindles per machine. The self-acting mule (automated carriage return, 1830s) eliminated the need for child labor to push the carriage back. The mule dominated fine cotton spinning for over a century.
+**[Spinning mule](../glossary/spinning-mule.html)** (Crompton, 1779): Combined the roller drafting of the water frame with the manual carriage travel of the hand spinning wheel. The carriage moves outward 1.5-2 m, simultaneously drawing and twisting the yarn. Then the carriage returns, winding the spun yarn onto the spindles. This intermittent action allowed much finer yarn than the water frame: the mule could spin yarn fine enough to match hand-spun Indian muslin (Ne 100+), which the water frame could not achieve. By the 1830s, mules carried 300-1,300 spindles per machine. The self-acting mule (automated carriage return, 1830s) eliminated the need for child labor to push the carriage back. The mule dominated fine cotton spinning for over a century.
 
-**Ring spinning** (Thorpe, 1828): The traveler, a small C-shaped piece of spring steel wire, rides around a ring (steel circle, 40-55 mm inner diameter) at high speed. The traveler inserts twist and winds yarn onto the bobbin simultaneously, without any carriage stroke. Continuous motion, simpler mechanism, higher speed. Early ring frames achieved 3,000-5,000 RPM spindle speed. Modern ring frames: 15,000-25,000 RPM. The C-ring must be precisely manufactured from hardened steel to withstand the centrifugal forces and friction heating at these speeds. By 1900, ring spinning produced ~80% of the world's cotton yarn. Today it accounts for ~90% of global short-staple yarn production, with the remainder mostly rotor-spun.
+**[Ring spinning](../glossary/ring-spinning.html)** (Thorpe, 1828): The traveler, a small C-shaped piece of spring steel wire, rides around a ring (steel circle, 40-55 mm inner diameter) at high speed. The traveler inserts twist and winds yarn onto the bobbin simultaneously, without any carriage stroke. Continuous motion, simpler mechanism, higher speed. Early ring frames achieved 3,000-5,000 RPM spindle speed. Modern ring frames: 15,000-25,000 RPM. The C-ring must be precisely manufactured from hardened steel to withstand the centrifugal forces and friction heating at these speeds. By 1900, ring spinning produced ~80% of the world's cotton yarn. Today it accounts for ~90% of global short-staple yarn production, with the remainder mostly rotor-spun.
 
 ### Cross-Domain Dependencies
 

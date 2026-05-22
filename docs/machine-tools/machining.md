@@ -137,7 +137,7 @@ Cutting speed (surface meters per minute) determines spindle RPM: **RPM = (1000 
 | Tool steel | 12-25 | 10-20 | 8-15 | 20-30 |
 | Stainless steel | 12-20 | 10-18 | 8-15 | 18-28 |
 
-**Feed rates** (for HSS tools):
+**[Feed rates](../glossary/feed-rates.html)** (for HSS tools):
 - Turning roughing: 0.3-0.6 mm/rev; finishing: 0.05-0.15 mm/rev
 - Milling: 0.05-0.3 mm/tooth (smaller for harder materials)
 - Drilling: 0.1-0.3 mm/rev (larger diameter = higher feed)
@@ -164,13 +164,13 @@ Carbon steel tool bits run at roughly 50% of HSS speeds. See [Bearings & Abrasiv
 
 Secure workholding is essential — a loose workpiece is both inaccurate and dangerous.
 
-- **Lathe chuck** (3-jaw self-centering): Quick setup, ±0.05 mm repeatability. For round and hex stock.
-- **Lathe chuck** (4-jaw independent): Each jaw adjusts separately. Can hold irregular shapes, achieve ±0.01 mm concentricity with dial indicator alignment.
+- **[Lathe chuck](../glossary/lathe-chuck.html)** (3-jaw self-centering): Quick setup, ±0.05 mm repeatability. For round and hex stock.
+- **[Lathe chuck](../glossary/lathe-chuck.html)** (4-jaw independent): Each jaw adjusts separately. Can hold irregular shapes, achieve ±0.01 mm concentricity with dial indicator alignment.
 - **Between centers**: Workpiece supported by centers in headstock and tailstock. Best concentricity. Requires drive dog and faceplate. For long shafts.
 - **Collet**: Spring-steel sleeve grips bar stock tightly. Best concentricity (±0.005 mm). Limited diameter range per collet.
 - **Milling vise**: Kurt-style precision vise. Clamp workpiece on mill table. Indicate (dial indicator) jaw for alignment to ±0.01 mm.
 - **Clamps and step blocks**: Direct clamping to mill table T-slots. For oversized or irregular workpieces. Use at least two clamps. Place clamping force over solid support (not overhanging).
-- **Magnetic chuck** (surface grinder): Electromagnetic or permanent magnet. Holds ferrous workpieces flat without mechanical clamps. Demagnetize workpiece after grinding.
+- **[Magnetic chuck](../glossary/magnetic-chuck.html)** (surface grinder): Electromagnetic or permanent magnet. Holds ferrous workpieces flat without mechanical clamps. Demagnetize workpiece after grinding.
 - **V-blocks and clamps**: Hold round stock for milling flats or drilling cross-holes. Indicate V-block alignment with dial indicator.
 
 ## Cutting Fluid Application
@@ -191,8 +191,8 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 
 ## Safety
 
-- **Eye protection mandatory** for all machining. Chips are hot and sharp.
-- **No loose clothing, gloves, rings, or long sleeves** near rotating machinery. Lathe chucks and drill presses are entanglement hazards.
+- **[Eye protection mandatory](../glossary/eye-protection-mandatory.html)** for all machining. Chips are hot and sharp.
+- **[No loose clothing, gloves, rings, or long sleeves](../glossary/no-loose-clothing-gloves-rings-or-long-sleeves.html)** near rotating machinery. Lathe chucks and drill presses are entanglement hazards.
 - **Chip management**: Use chip hook or brush — never hands. Steel chips are razor-sharp and hot (blue = 300°C+).
 - **Workpiece security**: Verify clamping before every cut. A thrown workpiece is lethal.
 - **Abrasive wheels**: Ring test before mounting. Never exceed rated speed. Use wheel guards. Dress wheels regularly to maintain sharpness and concentricity.

@@ -2,7 +2,7 @@
 
 > **Node ID**: energy.storage
 > **Domain**: [Energy Storage & Diversification](./)
-> **Dependencies**: `chemistry`, `energy`, `metals`
+> **Dependencies**: [`chemistry`](../chemistry/index.md), [`energy`](index.md), [`metals`](../metals/index.md)
 > **Timeline**: Years 15-200+
 > **Outputs**: lead_acid_batteries, grid_infrastructure, ups_systems, hydroelectric_power, wind_power
 
@@ -89,7 +89,7 @@ Semiconductor fabrication equipment cannot tolerate power interruptions — a po
 - **Wind turbine construction**: Tower (steel lattice or tubular, 10-50 m height — higher = more consistent, faster wind). Rotor (2-3 blades, wood + fabric or later fiberglass, 5-20 m diameter). Generator (DC or AC, 1-100+ kW). Yaw mechanism (vane or tail keeps rotor facing wind). Speed regulation (blade pitch control or mechanical brake to prevent overspeed in high winds).
 - **Limitation**: Intermittent. Power output varies dramatically with wind conditions. Requires storage or backup for reliable supply. Best as supplemental source.
 
-**Solar photovoltaic** (Silicon):
+**[Solar photovoltaic](../glossary/solar-photovoltaic.html)** (Silicon):
 - Early solar cells (5-15% efficiency) provide supplemental power. Positive feedback: solar cells produce power to make more solar cells. See Silicon for fabrication details.
 - **Installation**: Mount panels facing equator (south in northern hemisphere) at angle ≈ latitude. Track sun (single-axis or dual-axis tracker increases output 20-40% but adds complexity). Connect to grid via inverter (DC → AC). Use battery storage for nighttime.
 

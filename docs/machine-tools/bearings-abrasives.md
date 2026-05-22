@@ -17,7 +17,7 @@ Bearings, abrasives, and cutting tools are the precision enablers of machine too
 - **Pumice**: Volcanic glass, porous and lightweight. Fine polishing of wood, metal, and stone. Available near volcanic regions.
 - **Sandstone**: Natural grinding wheels. Dress (shape) with iron dresser. Moderate hardness — adequate for sharpening tools and grinding soft metals.
 - **Quartz sand**: Ground to powder, sieved to grade. Lapping and grinding compound. Readily available everywhere.
-- **Jeweler's rouge** (iron oxide, Fe₂O₃): Fine polishing compound. Heat steel wool or iron filings in open air until red-hot. Grind resulting oxide to fine powder. Produces mirror-like finish on metals.
+- **[Jeweler's rouge](../glossary/jewelers-rouge.html)** (iron oxide, Fe₂O₃): Fine polishing compound. Heat steel wool or iron filings in open air until red-hot. Grind resulting oxide to fine powder. Produces mirror-like finish on metals.
 - **Tripoli**: Silica-based polishing compound from natural deposits. Fine finish on soft metals (brass, copper, aluminum).
 - **Garnet**: Moderate hardness natural abrasive. Used in sandpaper and abrasive blasting. Found in metamorphic rock deposits.
 
@@ -36,8 +36,8 @@ Sieve abrasive through woven wire screens. Screen mesh number = grit number (60 
 
 ### Synthetic Abrasives (Require Electric Arc Furnace)
 
-- **Silicon carbide (SiC)** — Acheson process: Silica sand + petroleum coke, heat in electric furnace to 2200-2500°C for 36-48 hours. SiO₂ + 3C → SiC + 2CO. Green to black crystalline mass. Crush, grade. Harder than aluminum oxide (9.5 Mohs), sharp fracture pattern — ideal for grinding glass, stone, cast iron, and non-ferrous metals.
-- **Aluminum oxide (Al₂O₃)** — Bauxite fused in electric arc furnace at 2000-2200°C. Cool, crush, grade. Tougher than SiC (less brittle), better for grinding steel and alloys. 9 Mohs.
+- **[Silicon carbide (SiC)](../glossary/silicon-carbide-sic.html)** — Acheson process: Silica sand + petroleum coke, heat in electric furnace to 2200-2500°C for 36-48 hours. SiO₂ + 3C → SiC + 2CO. Green to black crystalline mass. Crush, grade. Harder than aluminum oxide (9.5 Mohs), sharp fracture pattern — ideal for grinding glass, stone, cast iron, and non-ferrous metals.
+- **[Aluminum oxide (Al₂O₃)](../glossary/aluminum-oxide-alo.html)** — Bauxite fused in electric arc furnace at 2000-2200°C. Cool, crush, grade. Tougher than SiC (less brittle), better for grinding steel and alloys. 9 Mohs.
 
 ### Grinding Wheel Construction
 
@@ -68,11 +68,11 @@ Choose ONE system and standardize immediately. Mixing thread standards is catast
 
 ### Tap and Die Production
 
-- **Taps** (cut internal threads): Turn HSS rod to diameter, cut 3-4 flutes with milling cutter, thread between flutes on lathe, harden and temper. Three-tap set:
+- **[Taps](../glossary/taps.html)** (cut internal threads): Turn HSS rod to diameter, cut 3-4 flutes with milling cutter, thread between flutes on lathe, harden and temper. Three-tap set:
   - **Taper tap**: 7-10 chamfered threads at the tip — starts easily, used to begin the thread.
   - **Plug tap**: 3-5 chamfered threads — general purpose, most commonly used.
   - **Bottoming tap**: 1-2 chamfered threads — threads to the bottom of blind holes.
-- **Dies** (cut external threads): Hardened steel plate with threaded hole and 3-4 cutting edges, split by adjustable slot for controlling cut depth. Die stock holds die and provides leverage for hand turning.
+- **[Dies](../glossary/dies.html)** (cut external threads): Hardened steel plate with threaded hole and 3-4 cutting edges, split by adjustable slot for controlling cut depth. Die stock holds die and provides leverage for hand turning.
 - **Thread gauges**: Go/no-go gauges for each thread size. "Go" gauge threads fully into the hole/part. "No-go" gauge does not enter. Essential for quality control.
 
 ### Bolt Making
@@ -123,7 +123,7 @@ Ball and roller bearings dramatically reduce friction and enable high-speed mach
 
 - **Mineral oil**: Refined petroleum oil. Standard lubricant for most bearings. Viscosity grade selected by speed and load (thicker oil for slower speeds and heavier loads).
 - **Animal fat (tallow, lard)**: Pre-petroleum lubricant. Works well for plain bearings and slow-speed applications. Lard oil as cutting fluid for turning and threading — reduces friction, improves finish.
-- **Vegetable oil** (linseed, castor): Cutting fluid for brass and aluminum. Castor oil has excellent film strength for high-speed bearings. Not ideal for steel machining (polymerizes and gums).
+- **[Vegetable oil](../glossary/vegetable-oil.html)** (linseed, castor): Cutting fluid for brass and aluminum. Castor oil has excellent film strength for high-speed bearings. Not ideal for steel machining (polymerizes and gums).
 - **Grease**: Oil thickened with soap (calcium, lithium, or sodium soap). Stays in place, does not drain away. Used for sealed bearings and slow-speed applications. Lithium grease is the general-purpose standard.
 
 ### Cutting Fluids
@@ -145,7 +145,7 @@ Ball and roller bearings dramatically reduce friction and enable high-speed mach
 ### High-Speed Steel (HSS)
 
 - **Composition**: Tungsten (18%), chromium (4%), vanadium (1%), carbon (0.7-0.8%) — classic T1 grade. M2 grade (more common): 6% W, 5% Mo, 4% Cr, 2% V, 0.85% C.
-- **Hardness retained to ~600°C** — 3-5x faster cutting than carbon steel. The "red hardness" property means HSS tools cut effectively even when glowing dull red.
+- **[Hardness retained to ~600°C](../glossary/hardness-retained-to-600c.html)** — 3-5x faster cutting than carbon steel. The "red hardness" property means HSS tools cut effectively even when glowing dull red.
 - **Manufacturing**: Melt alloy in electric furnace, cast into ingots, forge to shape, heat treat (austenitize at 1250-1300°C, quench in oil or salt bath, triple temper at 540-570°C — three tempering cycles of 1-2 hours each to convert retained austenite and relieve stress).
 - **Cutting speed**: 20-45 m/min for steel, 40-80 m/min for cast iron, 100-200+ m/min for aluminum.
 - **Availability**: Requires tungsten, chromium, and vanadium from mining or chemistry. Not available at the very beginning of the machine tools stage, but becomes the standard once alloy elements are sourced.

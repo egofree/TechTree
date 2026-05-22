@@ -14,9 +14,9 @@
 2. Mix thoroughly: layer ingredients on cloth, roll/tumble for 30+ minutes. Or use a wheel mill (heavy stone wheels rotating in pan, dampened with water — safer than dry mixing).
 3. Moisten slightly with water (or alcohol), press into cakes in a corning mill or screw press at 5-10 MPa.
 4. Dry cakes carefully. Crush and sieve to desired grain size:
-   - **Coarse grain** (2-4 mm): slower burn, more lifting power — used for mining and quarrying
-   - **Fine grain** (<1 mm): faster burn, more shattering — used for firearms and blasting
-   - **FFFg** (extra fine): fast-burning sporting powder for small arms
+   - **[Coarse grain](../glossary/coarse-grain.html)** (2-4 mm): slower burn, more lifting power — used for mining and quarrying
+   - **[Fine grain](../glossary/fine-grain.html)** (<1 mm): faster burn, more shattering — used for firearms and blasting
+   - **[FFFg](../glossary/fffg.html)** (extra fine): fast-burning sporting powder for small arms
 
 **Properties**: Burn rate 300-600 m/second (deflagration, not detonation). Produces large volume of gas (~40% of solid mass converts to gas) and solid residue (~60% — smoke and ash). Velocity of detonation: ~400 m/s (low for an explosive — this is a low explosive). Sensitive to spark, friction, and static electricity.
 
@@ -26,8 +26,8 @@
 
 **Chemistry**: Cellulose (cotton linters or wood pulp) + nitric acid + sulfuric acid → nitrocellulose (cellulose nitrate). Nitration substitutes –NO₂ groups onto cellulose hydroxyls. Degree of nitration determines properties.
 
-- **Guncotton** (12.5-13.5% nitrogen): Highly nitrated. Burns rapidly without residue. Insoluble in common solvents. Used as propellant base and explosive.
-- **Pyroxylin / collodion cotton** (10.5-12% nitrogen): Lower nitration. Soluble in ether-alcohol and acetone. Used for lacquers, film base, dope.
+- **[Guncotton](../glossary/guncotton.html)** (12.5-13.5% nitrogen): Highly nitrated. Burns rapidly without residue. Insoluble in common solvents. Used as propellant base and explosive.
+- **[Pyroxylin / collodion cotton](../glossary/pyroxylin-collodion-cotton.html)** (10.5-12% nitrogen): Lower nitration. Soluble in ether-alcohol and acetone. Used for lacquers, film base, dope.
 
 **Manufacture**: Soak cellulose in mixed acid (HNO₃ + H₂SO₄) at 20-30°C for 30-60 minutes. Nitration is strongly exothermic — cool to prevent runaway reaction (thermal decomposition → fire → explosion). Dump into large volume of water to quench. Wash extensively with boiling water to remove all residual acid (incomplete washing = unstable product that can decompose spontaneously). Boil in water for stabilization (removes unstable low-nitration products). Dry.
 
@@ -43,9 +43,9 @@
 
 ### Smokeless Powders
 
-**Single-base** (nitrocellulose only): Gelatinized nitrocellulose (guncotton dissolved in ether-alcohol, then dried). Extruded into cords or flakes. Burns progressively — surface area controls burn rate. Used for small arms ammunition.
+**[Single-base](../glossary/single-base.html)** (nitrocellulose only): Gelatinized nitrocellulose (guncotton dissolved in ether-alcohol, then dried). Extruded into cords or flakes. Burns progressively — surface area controls burn rate. Used for small arms ammunition.
 
-**Double-base** (nitrocellulose + nitroglycerin): Nitroglycerin plasticizes nitrocellulose, increasing energy content. Burn rate controlled by grain geometry (perforations, flake thickness). Used for artillery and rifle ammunition.
+**[Double-base](../glossary/double-base.html)** (nitrocellulose + nitroglycerin): Nitroglycerin plasticizes nitrocellulose, increasing energy content. Burn rate controlled by grain geometry (perforations, flake thickness). Used for artillery and rifle ammunition.
 
 **Advantages over black powder**: No solid residue (no smoke to obscure vision), 2-3x energy density (smaller cartridge for same power), cleaner burning (less barrel fouling), more consistent ballistics.
 
@@ -53,7 +53,7 @@
 
 **Blasting caps**: Required to initiate high explosives (dynamite, guncotton). Caps contain primary explosive (mercury fulminate, lead azide, or DDNP) detonated by fuse or electric current. Never handle caps near detonating cord or main charge during loading. Caps are MORE sensitive than main charge — treat with extreme caution.
 
-**Mercury fulminate** (primary explosive for blasting caps):
+**[Mercury fulminate](../glossary/mercury-fulminate.html)** (primary explosive for blasting caps):
 - Synthesis: Mercury dissolved in nitric acid, then add ethanol. Precipitate filtered, washed, dried. Extremely friction and shock sensitive. Handle in tiny quantities (<1 g at a time). Used as initiator charge in blasting caps — small detonation wave sets off less sensitive main charge.
 
 **Electric blasting**: Connect blasting caps in series circuit to blasting machine (magneto generator). Check circuit continuity with galvanometer BEFORE connecting to machine. Keep blasting machine locked until ready to fire. Verify circuit resistance matches expected value (open circuit = broken wire, short circuit = damaged cap — both require investigation).
@@ -103,10 +103,10 @@ The most widely used industrial explosive worldwide — cheap, safe, effective f
 
 ### Blasting Caps Evolution
 
-1. **Mercury fulminate caps** (1860s-1920s): Hg(ONC)₂ primary explosive pressed into copper or aluminum shell. Initiated by safety fuse. Unstable in hot climates (decomposes above 50°C). Mercury toxicity.
-2. **Lead azide caps** (1920s-present): Pb(N₃)₂ primary explosive. More stable than mercury fulminate. Higher initiating energy. Slightly hygroscopic. Sometimes combined with lead styphnate as "spotting charge" for more reliable ignition from flame. Standard blasting cap filling.
-3. **Electric caps** (1900s-present): Bridge wire heated by electric current ignites primary charge. Precise timing — delay elements (pyrotechnic delay compositions) provide 25 ms to 1000 ms delays for sequential blasting. Enables controlled blasts with dozens of holes detonated in precise sequence.
-4. **Non-electric (shock tube)** (1970s-present): Hollow plastic tube (3 mm OD) with thin coating of explosive dust (HMX + aluminum) on inner wall. Initiated by starter, propagates shock at ~2,000 m/s to detonator. Immune to radio frequency, static electricity, and stray currents. Safer than electric caps near power lines.
+1. **[Mercury fulminate caps](../glossary/mercury-fulminate-caps.html)** (1860s-1920s): Hg(ONC)₂ primary explosive pressed into copper or aluminum shell. Initiated by safety fuse. Unstable in hot climates (decomposes above 50°C). Mercury toxicity.
+2. **[Lead azide caps](../glossary/lead-azide-caps.html)** (1920s-present): Pb(N₃)₂ primary explosive. More stable than mercury fulminate. Higher initiating energy. Slightly hygroscopic. Sometimes combined with lead styphnate as "spotting charge" for more reliable ignition from flame. Standard blasting cap filling.
+3. **[Electric caps](../glossary/electric-caps.html)** (1900s-present): Bridge wire heated by electric current ignites primary charge. Precise timing — delay elements (pyrotechnic delay compositions) provide 25 ms to 1000 ms delays for sequential blasting. Enables controlled blasts with dozens of holes detonated in precise sequence.
+4. **[Non-electric (shock tube)](../glossary/non-electric-shock-tube.html)** (1970s-present): Hollow plastic tube (3 mm OD) with thin coating of explosive dust (HMX + aluminum) on inner wall. Initiated by starter, propagates shock at ~2,000 m/s to detonator. Immune to radio frequency, static electricity, and stray currents. Safer than electric caps near power lines.
 
 ### Applications by Sector
 

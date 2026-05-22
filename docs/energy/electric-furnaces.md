@@ -2,20 +2,20 @@
 
 > **Node ID**: energy.electric-furnaces
 > **Domain**: [Energy](./)
-> **Dependencies**: `energy.electricity`, `metals.iron-steel`, `machine-tools`
-> **Enables**: `silicon.mg-si-production`, `metals.iron-steel` (recycled), `glass.advanced`
+> **Dependencies**: [`energy.electricity`](electricity.md), [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools`](../machine-tools/index.md)
+> **Enables**: [`silicon.mg-si-production`](../silicon/mg-si-production.md), [`metals.iron-steel`](../metals/iron-steel.md) (recycled), [`glass.advanced`](../glass/advanced.md)
 > **Timeline**: Years 20-30
 > **Outputs**: electric_arc_furnaces, resistance_heaters, eaf_steel
 
 ### Overview
 
-Electric furnaces convert electrical energy into high-temperature heat for smelting, melting, and heat treatment. They are the only practical route to temperatures above ~1500°C in a controlled atmosphere, making them indispensable for steel recycling, silicon reduction, ferroalloy production, and advanced ceramics. Three main families exist: **electric arc furnaces** (EAF), **submerged arc furnaces** (SAF), and **resistance heating furnaces**. For a broader electrical context, see [electricity.md](electricity.md); for silicon-specific EAF operation, see [mg-si-production.md](../silicon/mg-si-production.md).
+Electric furnaces convert electrical energy into high-temperature heat for smelting, melting, and heat treatment. They are the only practical route to temperatures above ~1500°C in a controlled atmosphere, making them indispensable for steel recycling, silicon reduction, ferroalloy production, and advanced ceramics. Three main families exist: **[electric arc furnaces](../glossary/electric-arc-furnaces.html)** (EAF), **[submerged arc furnaces](../glossary/submerged-arc-furnaces.html)** (SAF), and **resistance heating furnaces**. For a broader electrical context, see [electricity.md](electricity.md); for silicon-specific EAF operation, see [mg-si-production.md](../silicon/mg-si-production.md).
 
 ---
 
 ### Electric Arc Furnace (EAF)
 
-**Principle**: An electric arc struck between graphite electrodes and the charge material produces temperatures of **3000–3500°C** in the arc column, heating the charge by radiation, convection, and direct resistance.
+**Principle**: An electric arc struck between graphite electrodes and the charge material produces temperatures of **[3000–3500°C](../glossary/30003500c.html)** in the arc column, heating the charge by radiation, convection, and direct resistance.
 
 **Construction**:
 - **Shell**: Cylindrical steel vessel, 2–8 m diameter, water-cooled side panels and roof (pipe coils welded to steel plate). Bottom is refractory-lined.
@@ -23,11 +23,11 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 - **Electrodes**: Three graphite electrodes (50–700 mm diameter), inserted through the roof in a delta arrangement. Electrodes are consumed at ~2–8 kg per tonne of steel (oxidation, tip erosion, breakage).
 - **Electrode regulation**: Hydraulic or electric winch system raises/lowers each electrode independently to maintain arc length (~10–50 mm) and regulate current. Automatic impedance control is standard.
 
-**Electrode manufacturing** (bootstrapping challenge):
+**[Electrode manufacturing](../glossary/electrode-manufacturing.html)** (bootstrapping challenge):
 1. Mix petroleum coke (or pitch coke) with coal tar pitch binder (~25% by weight).
 2. Extrude into rods at ~100–150°C (pitch is thermoplastic).
 3. Bake at 800–1200°C in a ring furnace over 2–4 weeks (carbonization — volatile matter driven off).
-4. **Graphitize** at 2500–3000°C (requires an existing EAF or resistive furnace — circular dependency). Early electrodes can remain as amorphous carbon (lower conductivity, higher consumption rate, but functional).
+4. **[Graphitize](../glossary/graphitize.html)** at 2500–3000°C (requires an existing EAF or resistive furnace — circular dependency). Early electrodes can remain as amorphous carbon (lower conductivity, higher consumption rate, but functional).
 
 **Operation — steelmaking**:
 1. **Charge**: Load scrap steel (or direct-reduced iron) into the furnace via basket or conveyor. Charge weight 1–100 tonnes (typical 30–80 t).
@@ -37,7 +37,7 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 5. **Cycle time**: 30–90 minutes per heat. Continuous operation: 20–30 heats/day.
 
 **Power requirements**:
-- Specific energy: **300–600 kWh per tonne of steel** (depends on scrap quality, preheating, oxygen use).
+- Specific energy: **[300–600 kWh per tonne of steel](../glossary/300600-kwh-per-tonne-of-steel.html)** (depends on scrap quality, preheating, oxygen use).
 - Connected power: 10–80 MW for a modern furnace (three-phase AC, 100–800V secondary, 20–100 kA).
 - Furnace transformer is a specialized item: high current, low voltage, with tap changer for power regulation.
 
@@ -59,7 +59,7 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 - **Lining**: Carbon or graphite refractory (withstands reducing conditions and high temperatures). Not basic MgO (would be reduced by carbon at these temperatures).
 - **Power**: 5–40 MW per furnace. Three-phase AC for 3-electrode designs. Continuous operation — charge fed from top, product tapped from bottom taphole every 1–4 hours.
 
-**SAF vs EAF**: SAF is for **continuous smelting** (reduction of ores). EAF is for **batch melting** (steel recycling). They are not interchangeable.
+**SAF vs EAF**: SAF is for **[continuous smelting](../glossary/continuous-smelting.html)** (reduction of ores). EAF is for **[batch melting](../glossary/batch-melting.html)** (steel recycling). They are not interchangeable.
 
 ---
 
@@ -67,7 +67,7 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 
 **Principle**: Current passed through a resistive heating element generates heat: P = I²R. No arc, no electrodes consumed. Element temperature is controlled by regulating current.
 
-**Heating element materials** (ordered by maximum operating temperature):
+**[Heating element materials](../glossary/heating-element-materials.html)** (ordered by maximum operating temperature):
 
 | Element | Composition | Max temp | Atmosphere | Notes |
 |---------|-------------|---------|------------|-------|
@@ -78,7 +78,7 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 | Graphite | C | ~2500°C | Reducing/inert | Oxidizes rapidly in air above ~500°C. Used in vacuum or inert gas furnaces. |
 | Tungsten | W | ~2800°C | Vacuum/H₂ | Highest melting point metal (3422°C). Used in special furnaces. |
 
-**Early-stage elements**: Before specialty alloys are available, **iron wire** can serve as a heating element in a reducing atmosphere (prevents oxidation) up to ~900°C. **Graphite rods** in a reducing or inert atmosphere extend the range considerably. **Charcoal or coke beds** with buried electrodes (resistive heating of the bed) can reach ~1200–1500°C without any metal element at all.
+**Early-stage elements**: Before specialty alloys are available, **[iron wire](../glossary/iron-wire.html)** can serve as a heating element in a reducing atmosphere (prevents oxidation) up to ~900°C. **[Graphite rods](../glossary/graphite-rods.html)** in a reducing or inert atmosphere extend the range considerably. **[Charcoal or coke beds](../glossary/charcoal-or-coke-beds.html)** with buried electrodes (resistive heating of the bed) can reach ~1200–1500°C without any metal element at all.
 
 **Furnace construction for resistance heating**:
 - **Chamber**: Refractory brick or ceramic fiber insulated box. Door or lid for access.
@@ -111,11 +111,11 @@ Electric furnaces are among the most demanding electrical loads in any industria
 
 ### Dependencies & Bootstrap Sequence
 
-1. **Electricity generation** (generators, turbines) → provides power.
-2. **Graphite electrodes** → requires baking ovens (resistance-heated or gas-fired), eventually graphitization at 2500–3000°C (chicken-and-egg with EAF). Amorphous carbon electrodes bridge the gap.
-3. **Refractory brick** → requires mining (magnesite, dolomite, bauxite, silica) and firing at ~1500°C (can use gas-fired kilns initially).
-4. **Steel shell** → requires plate steel (from blast furnace or early EAF).
-5. **Furnace transformer** → requires copper wire, silicon steel laminations, oil cooling.
+1. **[Electricity generation](../glossary/electricity-generation.html)** (generators, turbines) → provides power.
+2. **[Graphite electrodes](../glossary/graphite-electrodes.html)** → requires baking ovens (resistance-heated or gas-fired), eventually graphitization at 2500–3000°C (chicken-and-egg with EAF). Amorphous carbon electrodes bridge the gap.
+3. **[Refractory brick](../glossary/refractory-brick.html)** → requires mining (magnesite, dolomite, bauxite, silica) and firing at ~1500°C (can use gas-fired kilns initially).
+4. **[Steel shell](../glossary/steel-shell.html)** → requires plate steel (from blast furnace or early EAF).
+5. **[Furnace transformer](../glossary/furnace-transformer.html)** → requires copper wire, silicon steel laminations, oil cooling.
 
 The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you need it to make quality steel from scrap. Early EAFs can use lower-grade materials (carbon electrodes, thinner linings, smaller capacity) and upgrade as production improves.
 
@@ -148,9 +148,9 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 
 **Heating element materials in detail**:
 
-**Nichrome 80/20** (80% nickel, 20% chromium): The workhorse for furnaces up to 1150°C. Forms a thin, adherent Cr₂O₃ scale that protects the underlying alloy from further oxidation. Ductile when new, easily wound into coils or bent into zigzag elements. Resistivity: 1.08 Ω·mm²/m at 20°C. Life at 1100°C in air: 5,000-20,000 hours depending on duty cycle. Element temperature should be kept 50-100°C above furnace chamber temperature to maintain heat transfer.
+**[Nichrome 80/20](../glossary/nichrome-8020.html)** (80% nickel, 20% chromium): The workhorse for furnaces up to 1150°C. Forms a thin, adherent Cr₂O₃ scale that protects the underlying alloy from further oxidation. Ductile when new, easily wound into coils or bent into zigzag elements. Resistivity: 1.08 Ω·mm²/m at 20°C. Life at 1100°C in air: 5,000-20,000 hours depending on duty cycle. Element temperature should be kept 50-100°C above furnace chamber temperature to maintain heat transfer.
 
-**Kanthal APM** (Fe-22Cr-5.8Al, with additions): Operates to 1400°C in air. Forms a protective Al₂O₃ scale instead of Cr₂O₃, which is more stable at high temperature. Higher resistivity (1.45 Ω·mm²/m) than Nichrome, meaning shorter elements for the same power. Becomes brittle after prolonged high-temperature exposure due to aluminum precipitation, making element replacement the norm rather than repair.
+**[Kanthal APM](../glossary/kanthal-apm.html)** (Fe-22Cr-5.8Al, with additions): Operates to 1400°C in air. Forms a protective Al₂O₃ scale instead of Cr₂O₃, which is more stable at high temperature. Higher resistivity (1.45 Ω·mm²/m) than Nichrome, meaning shorter elements for the same power. Becomes brittle after prolonged high-temperature exposure due to aluminum precipitation, making element replacement the norm rather than repair.
 
 **Molybdenum disilicide (MoSi₂)**: Operates to 1700-1800°C in oxidizing atmospheres. At high temperature, silicon oxidizes to form a viscous SiO₂ glass layer that self-heals cracks. This glassy coating is what makes MoSi₂ viable despite molybdenum's tendency to oxidize catastrophically. Brittle at all temperatures, requiring careful mounting and protection from mechanical shock. Often supplied as hairpin-shaped elements that hang from the furnace roof.
 
@@ -186,9 +186,9 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 
 ### Resistance Heating Elements in Detail
 
-**Nichrome 80/20** (80% nickel, 20% chromium): Workhorse for furnaces up to 1150°C. Forms a thin Cr₂O₃ scale protecting the alloy from further oxidation. Ductile when new, easily wound into coils. Resistivity: 1.08 Ω·mm²/m at 20°C. Life at 1100°C in air: 5,000-20,000 hours.
+**[Nichrome 80/20](../glossary/nichrome-8020.html)** (80% nickel, 20% chromium): Workhorse for furnaces up to 1150°C. Forms a thin Cr₂O₃ scale protecting the alloy from further oxidation. Ductile when new, easily wound into coils. Resistivity: 1.08 Ω·mm²/m at 20°C. Life at 1100°C in air: 5,000-20,000 hours.
 
-**Kanthal APM** (Fe-22Cr-5.8Al): Operates to 1400°C in air. Forms protective Al₂O₃ scale, more stable than Cr₂O₃ at high temperature. Resistivity: 1.45 Ω·mm²/m. Becomes brittle after prolonged high-temperature exposure.
+**[Kanthal APM](../glossary/kanthal-apm.html)** (Fe-22Cr-5.8Al): Operates to 1400°C in air. Forms protective Al₂O₃ scale, more stable than Cr₂O₃ at high temperature. Resistivity: 1.45 Ω·mm²/m. Becomes brittle after prolonged high-temperature exposure.
 
 **Molybdenum disilicide (MoSi₂)**: Operates to 1700-1800°C in oxidizing atmospheres. At high temperature, silicon oxidizes to form a viscous SiO₂ glass layer that self-heals cracks. Brittle at all temperatures, requiring careful mounting.
 

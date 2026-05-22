@@ -2,7 +2,7 @@
 
 > **Node ID**: measurement.temperature-pressure
 > **Domain**: [Measurement](./)
-> **Dependencies**: `foundations`, `metals`, `energy`
+> **Dependencies**: [`foundations`](../foundations/index.md), [`metals`](../metals/index.md), [`energy`](../energy/index.md)
 > **Timeline**: Years 25-40
 > **Outputs**: thermocouples, temperature_measurement, electrical_measurement, pressure_measurement
 

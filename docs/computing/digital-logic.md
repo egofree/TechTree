@@ -24,7 +24,7 @@ From these three, all other operations derive. Key identities: A · 0 = 0, A · 
 
 - **NAND**: (A · B)̄. A universal gate: any Boolean function can be implemented using NAND gates alone.
 - **NOR**: (A + B)̄. Also universal.
-- **XOR** (exclusive-OR): A ⊕ B = A·B̄ + Ā·B. Output is 1 when inputs differ. Used in parity checking and adders.
+- **[XOR](../glossary/xor.html)** (exclusive-OR): A ⊕ B = A·B̄ + Ā·B. Output is 1 when inputs differ. Used in parity checking and adders.
 - **XNOR**: (A ⊕ B)̄. Output is 1 when inputs match. Used in comparators.
 
 ## Transistor-Level Implementation

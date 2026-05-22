@@ -7,12 +7,12 @@
 
 ### Education System
 
-**Apprenticeships** (Foundations+):
+**[Apprenticeships](../glossary/apprenticeships.html)** (Foundations+):
 - Duration: 4-7 years per skill. Apprentice works under master, learning by doing. Start with simple tasks → progress to complex. Master evaluates and certifies competency.
 - Key apprenticeship tracks: blacksmithing, foundry, machining, glassblowing, chemistry, electrical work, mining, construction.
 - Apprentice keeps notebook (hand-copied recipes, drawings, observations). This notebook becomes their reference for life.
 
-**Trade schools** (the Metallurgy-Machine Tools stage transition):
+**[Trade schools](../glossary/trade-schools.html)** (the Metallurgy-Machine Tools stage transition):
 - Formalized instruction: classroom (theory) + workshop (practice). 1-2 year programs.
 - Standardized curriculum ensures consistent skill level across practitioners.
 - Courses: mathematics (arithmetic through calculus), physics (mechanics, thermodynamics, electromagnetism), chemistry (inorganic, organic, analytical), engineering drawing, materials science.
@@ -31,30 +31,30 @@
 
 ### Guild Structure & Apprenticeship System
 
-**The guild model** (proven over centuries of European craft training):
-- **Apprentice** (years 1-7): Bound by contract to a master. Lives in the master's household or workshop. Performs menial tasks initially (sweeping, material preparation, tool maintenance) while observing the master at work. Gradually gains hands-on experience with supervised tasks. Keeps a notebook of observations, recipes, and measurements. The master provides food, lodging, basic literacy instruction, and trade training. The apprentice (or apprentice's family) may pay a premium (fee) for the training.
-- **Journeyman** (after completing apprenticeship): Leaves the master's workshop to work for wages at other workshops — often required to travel (*Wanderjahre*, journeyman years) to learn different methods and approaches from multiple masters. This travel phase is critical: it prevents local skill stagnation and spreads innovations across regions. Journeyman produces a *journeyman piece* — a demonstration artifact proving competence. The journeyman can work independently but cannot yet take apprentices.
-- **Master** (after passing master examination): Submits a *masterpiece* — a complex, original work demonstrating full mastery of the craft. Evaluated by a panel of existing masters (typically 2-4) against standards of technical quality, originality, and completeness. Upon passing: admitted to the guild as a full member, permitted to operate an independent workshop, take apprentices, and vote in guild governance. The guild sets quality standards, prices, and training requirements for the trade within its jurisdiction.
+**[The guild model](../glossary/the-guild-model.html)** (proven over centuries of European craft training):
+- **[Apprentice](../glossary/apprentice.html)** (years 1-7): Bound by contract to a master. Lives in the master's household or workshop. Performs menial tasks initially (sweeping, material preparation, tool maintenance) while observing the master at work. Gradually gains hands-on experience with supervised tasks. Keeps a notebook of observations, recipes, and measurements. The master provides food, lodging, basic literacy instruction, and trade training. The apprentice (or apprentice's family) may pay a premium (fee) for the training.
+- **[Journeyman](../glossary/journeyman.html)** (after completing apprenticeship): Leaves the master's workshop to work for wages at other workshops — often required to travel (*Wanderjahre*, journeyman years) to learn different methods and approaches from multiple masters. This travel phase is critical: it prevents local skill stagnation and spreads innovations across regions. Journeyman produces a *journeyman piece* — a demonstration artifact proving competence. The journeyman can work independently but cannot yet take apprentices.
+- **[Master](../glossary/master.html)** (after passing master examination): Submits a *masterpiece* — a complex, original work demonstrating full mastery of the craft. Evaluated by a panel of existing masters (typically 2-4) against standards of technical quality, originality, and completeness. Upon passing: admitted to the guild as a full member, permitted to operate an independent workshop, take apprentices, and vote in guild governance. The guild sets quality standards, prices, and training requirements for the trade within its jurisdiction.
 - **Guild functions beyond training**: Maintain quality standards (inspect members' work — substandard goods are confiscated or destroyed), resolve disputes between members, provide mutual aid (sick pay, funeral costs, support for widows and orphans of members), maintain trade secrets (recipes, techniques, sources — shared within the guild but protected from outsiders), negotiate collectively with civic authorities. The guild system creates a self-regulating professional community with strong incentives for maintaining quality.
 
-**Knowledge transmission chains** (master → journeyman → apprentice):
+**[Knowledge transmission chains](../glossary/knowledge-transmission-chains.html)** (master → journeyman → apprentice):
 - The chain is the fundamental mechanism of skill preservation across generations. Each master was once an apprentice who learned from a previous master, creating an unbroken lineage of practical knowledge. When a chain breaks (a master dies without training a successor), specialized knowledge can be permanently lost.
 - **Redundancy requirement**: Never allow a critical skill to depend on a single practitioner. Minimum 3 trained practitioners for every critical skill at all times. This is the same redundancy principle applied to data storage — apply it to human knowledge.
 - **Documentation complement**: The apprentice's notebook is the written backup for the oral/physical transmission chain. Every master should produce a written manual of their craft (the guild can enforce this as a membership requirement), ensuring that knowledge survives even if all practitioners are lost.
 
 ### Technical School Models
 
-**Ecole Polytechnique** (Paris, founded 1794):
+**[Ecole Polytechnique](../glossary/ecole-polytechnique.html)** (Paris, founded 1794):
 - Created to address France's shortage of trained engineers and scientists after the Revolution. Standardized, rigorous, meritocratic admission (competitive examination — no aristocratic preference). Curriculum: mathematics (advanced calculus, differential equations, descriptive geometry), physics, chemistry, mechanics, drawing. Duration: 3 years. Graduates entered government service as engineers (bridges, roads, artillery, mines, naval construction).
 - **Key innovation**: Unified engineering education — instead of separate apprenticeships for each specialty, a common mathematical and scientific foundation applicable to all engineering disciplines. This model became the template for technical universities worldwide.
-- **Descriptive geometry** (Gaspard Monge): The science of representing three-dimensional objects in two-dimensional drawings through orthogonal projection (plan, elevation, section). This is the foundation of all engineering drawing and manufacturing communication. Monge's methods were initially classified as a military secret (artillery design applications) before being published.
+- **[Descriptive geometry](../glossary/descriptive-geometry.html)** (Gaspard Monge): The science of representing three-dimensional objects in two-dimensional drawings through orthogonal projection (plan, elevation, section). This is the foundation of all engineering drawing and manufacturing communication. Monge's methods were initially classified as a military secret (artillery design applications) before being published.
 
-**MIT model** (Massachusetts Institute of Technology, founded 1861):
+**[MIT model](../glossary/mit-model.html)** (Massachusetts Institute of Technology, founded 1861):
 - **Motto**: *Mens et Manus* (Mind and Hand) — theory and practice inseparable. Every student spends time in laboratory and workshop alongside classroom instruction. This was revolutionary: traditional universities were purely theoretical (classical education); traditional apprenticeships were purely practical (no theory). MIT combined both.
 - **Laboratory instruction**: Students perform experiments themselves rather than watching demonstrations. Chemistry lab: synthesize compounds, measure properties, analyze unknowns. Physics lab: measure gravitational acceleration, electrical resistance, thermal conductivity. Machine shop: operate lathe, mill, drill press under supervision. The student who has made a part, measured its dimensions, and observed its failure mode understands it in a way that book study alone cannot achieve.
-- **Cooperative education** (work-study alternation): Students alternate between academic terms and paid work placements in industry. Each placement exposes the student to real production environments, real constraints (time, cost, safety), and real teamwork. The employer gets trained labor; the student gets practical experience. This model (originating at the University of Cincinnati, 1906) produces graduates who are immediately productive.
+- **[Cooperative education](../glossary/cooperative-education.html)** (work-study alternation): Students alternate between academic terms and paid work placements in industry. Each placement exposes the student to real production environments, real constraints (time, cost, safety), and real teamwork. The employer gets trained labor; the student gets practical experience. This model (originating at the University of Cincinnati, 1906) produces graduates who are immediately productive.
 
-**Workshop pedagogy** — the core of technical training:
+**[Workshop pedagogy](../glossary/workshop-pedagogy.html)** — the core of technical training:
 - **Demonstration-imitation-practice cycle**: (1) Master demonstrates the task at normal speed. (2) Master demonstrates again at slow speed, narrating each step and the reason for it. (3) Apprentice performs the task under direct supervision, with the master correcting errors in real time. (4) Apprentice practices independently, with periodic master review. This cycle is applied to every skill, from simple (sharpening a chisel) to complex (heat-treating a steel spring).
 - **Progressive complexity**: Begin with tasks that have a single critical parameter (e.g., filing a flat surface — the parameter is flatness, checked with a straightedge). Progress to tasks with multiple interacting parameters (e.g., turning a shaft — diameter, length, surface finish, and concentricity must all be controlled simultaneously). This builds skill incrementally without overwhelming the learner.
 - **Error-based learning**: When the apprentice makes a mistake (and they will), the master uses it as a teaching moment: "You see this? This happened because [root cause]. Next time, [prevention]. Now, [correction]." Errors are expected, not punished — provided the apprentice learns from them. The apprentice's notebook should record every error, its cause, and its remedy. This error log becomes a personal troubleshooting manual.
@@ -83,7 +83,7 @@
 
 **Journeyman testing**: After apprenticeship, produce a "master piece" — a complete, functional artifact demonstrating full command of the trade. Evaluated by two or more masters. Pass = independent practitioner certification. Fail = continue apprenticeship. Standard ensures quality across the civilization.
 
-**Written examinations** (for theoretical knowledge):
+**[Written examinations](../glossary/written-examinations.html)** (for theoretical knowledge):
 - **Problem-solving format**: Present an engineering scenario requiring calculation and decision. Example: "A cylindrical pressure vessel 500 mm diameter, 10 mm wall thickness, made of boiler plate steel (tensile strength 400 MPa, yield 250 MPa), is to operate at 2 MPa internal pressure. Calculate the hoop stress. Is the vessel safe with a safety factor of 4? If not, what wall thickness is required?" This tests both calculation skill and engineering judgment.
 - **Oral examination**: The candidate explains their reasoning to a panel of examiners, who probe understanding with follow-up questions. "Why did you use the thin-wall formula? At what diameter-to-thickness ratio does it become inaccurate? What failure mode does the safety factor protect against?" Oral exams test depth of understanding in ways written exams cannot — they reveal whether the candidate has memorized formulas or actually understands the physics.
 
@@ -154,25 +154,25 @@
 
 ### Historical Technical Education Examples
 
-**Roman engineering training** (Republic and Empire, ~300 BCE - 400 CE):
+**[Roman engineering training](../glossary/roman-engineering-training.html)** (Republic and Empire, ~300 BCE - 400 CE):
 - Roman engineers (*architecti* and *fabri*) were trained through a combination of military service and apprenticeship. The Roman army's engineering corps built roads, bridges, aqueducts, fortifications, and siege works — every legion included specialist engineers. Training was practical: young officers learned surveying (groma for right angles, chorobates for leveling), materials (concrete: hydraulic lime + pozzolana sand), structural design (arches, vaults, dome construction), and hydraulics (aqueduct gradient: typically 0.1-0.3% for gravity flow, calculated by surveying instruments). Vitruvius's *De Architectura* (~25 BCE) codified Roman engineering knowledge in ten books covering materials, construction methods, water supply, timekeeping, and military machines — a technical textbook that survived the fall of Rome through monastic copying.
 
-**Islamic House of Wisdom** (Baghdad, founded ~830 CE):
+**[Islamic House of Wisdom](../glossary/islamic-house-of-wisdom.html)** (Baghdad, founded ~830 CE):
 - The *Bayt al-Hikma* (House of Wisdom) was a combination library, translation center, and research institute. Scholars translated Greek, Persian, and Indian technical texts into Arabic — preserving and transmitting classical knowledge that would otherwise have been lost. Key figures: Al-Khwarizmi (algebra, algorithms — the word "algorithm" derives from his name), Al-Razi (medical chemistry, classification of chemical substances), Ibn Sina/Avicenna (medicine — *The Canon of Medicine* was the standard medical textbook in both Islamic and European universities for 500 years). The translation movement demonstrates a critical principle: knowledge preservation is an active process requiring institutional support, dedicated scholars, and resources.
 
-**German technical education** (19th century model):
-- **Technische Hochschulen** (Technical Universities): The German model (Charlottenburg/Berlin 1879, Aachen 1870, Munich 1868) combined the theoretical rigor of universities with the practical focus of trade schools. Professors were both researchers and experienced practitioners. Curriculum: 4 years, alternating theoretical semesters with industrial placements. Graduate thesis: a substantial engineering project, not a purely academic dissertation. This model produced the engineers who built Germany's chemical, electrical, and heavy industries — and was copied worldwide (Tokyo Institute of Technology 1881, Carnegie Institute of Technology 1900).
+**[German technical education](../glossary/german-technical-education.html)** (19th century model):
+- **[Technische Hochschulen](../glossary/technische-hochschulen.html)** (Technical Universities): The German model (Charlottenburg/Berlin 1879, Aachen 1870, Munich 1868) combined the theoretical rigor of universities with the practical focus of trade schools. Professors were both researchers and experienced practitioners. Curriculum: 4 years, alternating theoretical semesters with industrial placements. Graduate thesis: a substantial engineering project, not a purely academic dissertation. This model produced the engineers who built Germany's chemical, electrical, and heavy industries — and was copied worldwide (Tokyo Institute of Technology 1881, Carnegie Institute of Technology 1900).
 
 ### Practical Workshop Assessment
 
-**Timed practical exams** — standardized tasks with explicit pass/fail criteria:
+**[Timed practical exams](../glossary/timed-practical-exams.html)** — standardized tasks with explicit pass/fail criteria:
 - **Welding**: Weld a 6 mm steel plate tee-joint in 15 minutes meeting visual inspection criteria — no undercut exceeding 0.8 mm depth, no porosity visible at 10× magnification, weld reinforcement (crown height) between 0.5-3.0 mm above parent metal surface. Destructive testing on sample coupons: face bend test to 180° with no cracks exceeding 3 mm in weld metal or heat-affected zone.
 - **Machining**: Turn a steel shaft to 25.00 ±0.02 mm diameter × 100 mm length in 30 minutes. Evaluate with micrometer at three points along the length — all three readings must fall within tolerance. Surface finish: visual and tactile comparison to 1.6 μm Ra standard sample. Concentricity between two diameters: dial indicator reading ≤0.03 mm total indicator runout.
 - **Transformer winding**: Wind a transformer with a specified turns ratio of 10:1 (primary 200 turns, secondary 20 turns) to ±2% accuracy on a laminated iron core. Test: apply known AC voltage to primary, measure secondary voltage, calculate turns ratio from voltage ratio. Resistance check: measured winding resistance within 10% of calculated value for the wire gauge used.
 
 ### Documentation Standards for Technical Knowledge
 
-**Procedure format** — every technical process documented in a standardized structure:
+**[Procedure format](../glossary/procedure-format.html)** — every technical process documented in a standardized structure:
 1. **Title and identification**: Process name, document number, revision date, author
 2. **Purpose**: One-sentence statement of what the procedure produces
 3. **Scope**: Applicable materials, size ranges, and limitations
@@ -185,9 +185,9 @@
 
 ### Knowledge Transfer Metrics
 
-**Time to competency** — measured in supervised practice hours:
-- **Basic machining** (lathe, mill, drill press operations): 200-400 hours supervised practice to achieve independent operation capability. This includes: tool sharpening (20 hours), basic turning (80 hours), milling and drilling (60 hours), measurement and inspection (40 hours), simple project work (100-200 hours integrating all skills). Competency assessment: produce a specified part to drawing tolerance without instructor intervention.
-- **Advanced welding** (MIG, TIG, multi-position, pipe): 500-1,000 hours supervised practice. The range reflects the difference between structural steel welding (faster to learn, more forgiving tolerances) and pressure vessel or aerospace welding (tighter acceptance criteria, exotic materials). Pipe welding in the 6G position (pipe fixed at 45°, weld must be deposited in all positions around the circumference) is widely considered the most demanding practical welding test — requires 200+ hours of dedicated practice beyond basic competency.
+**[Time to competency](../glossary/time-to-competency.html)** — measured in supervised practice hours:
+- **[Basic machining](../glossary/basic-machining.html)** (lathe, mill, drill press operations): 200-400 hours supervised practice to achieve independent operation capability. This includes: tool sharpening (20 hours), basic turning (80 hours), milling and drilling (60 hours), measurement and inspection (40 hours), simple project work (100-200 hours integrating all skills). Competency assessment: produce a specified part to drawing tolerance without instructor intervention.
+- **[Advanced welding](../glossary/advanced-welding.html)** (MIG, TIG, multi-position, pipe): 500-1,000 hours supervised practice. The range reflects the difference between structural steel welding (faster to learn, more forgiving tolerances) and pressure vessel or aerospace welding (tighter acceptance criteria, exotic materials). Pipe welding in the 6G position (pipe fixed at 45°, weld must be deposited in all positions around the circumference) is widely considered the most demanding practical welding test — requires 200+ hours of dedicated practice beyond basic competency.
 - **Journeyman-level overall competency**: 10,000 hours (approximately 5 years full-time) across multiple disciplines. This figure, sometimes called the "10,000-hour rule," reflects the time required to develop intuitive pattern recognition for diagnosing problems, adapting to unexpected situations, and producing consistent quality under varying conditions. The journeyman is not merely skilled in individual operations but can plan and execute a complete project from raw materials to finished product, troubleshoot process failures, and train others.
 - **Training throughput**: A single instructor can effectively supervise 6-8 trainees in workshop settings. This ratio limits the rate at which a civilization can produce skilled practitioners — with 10 workshops each training 8 apprentices on 4-year cycles, the system produces 20 journeyman-qualified practitioners per year. Expanding training capacity (more workshops, more instructors) is therefore a strategic investment that directly constrains industrial development speed.
 - **Recertification**: Skills degrade without practice. Implement recertification testing every 2 years for safety-critical skills (welding, electrical work, chemical handling). The recertification exam is a shortened version of the original practical test — if the candidate cannot pass, mandatory refresher training is required before they resume independent work. This prevents skill attrition in practitioners who shift to supervisory roles and no longer practice daily.

@@ -20,7 +20,7 @@ Without pyrometric instruments, fire by visual observation of kiln interior glow
 - **Light yellow**: ~1200°C
 - **White (dazzling)**: ~1300-1400°C+
 
-**Pyrometric cones** (Orton/Seger system) provide more precise temperature measurement. Cones are small pyramids of calibrated ceramic composition that soften and slump at a known temperature when heated at a standard rate (150°C/hour):
+**[Pyrometric cones](../glossary/pyrometric-cones.html)** (Orton/Seger system) provide more precise temperature measurement. Cones are small pyramids of calibrated ceramic composition that soften and slump at a known temperature when heated at a standard rate (150°C/hour):
 
 - **Cone 022**: ~600°C (very low-fire, decorative lusters)
 - **Cone 08**: ~945°C (low bisque for earthenware)
@@ -47,10 +47,10 @@ Bisque firing converts unfired (green) clay to a porous, permanent ceramic body.
 **Target**: Cone 06-08 (~945-999°C) for earthenware; Cone 04-02 (~1060-1100°C) for stoneware bisque.
 
 **Schedule**:
-1. **Candle / water-smoke phase** (ambient → 150°C): Ramp ~60°C/hour. Hold 1-2 hours. Drives off residual mechanical water. Rapid heating causes steam explosions. Ware may audibly "pop" if rushed.
-2. **Slow ramp** (150-600°C): Ramp ~100°C/hour. Chemically combined water evaporates (clay minerals dehydrate ~450-600°C). Organic matter (temper debris, carbon) begins burning out. Smoke from chimney is normal.
-3. **Quartz inversion** (~573°C): Pass through this zone at ≤100°C/hour. α-β quartz inversion causes sudden 0.8% volume expansion. Rapid temperature change through this zone cracks ware.
-4. **Fast ramp** (600°C → peak): Ramp ~150°C/hour. Organic burnout completes. Clay minerals begin to decompose and sinter.
+1. **[Candle / water-smoke phase](../glossary/candle-water-smoke-phase.html)** (ambient → 150°C): Ramp ~60°C/hour. Hold 1-2 hours. Drives off residual mechanical water. Rapid heating causes steam explosions. Ware may audibly "pop" if rushed.
+2. **[Slow ramp](../glossary/slow-ramp.html)** (150-600°C): Ramp ~100°C/hour. Chemically combined water evaporates (clay minerals dehydrate ~450-600°C). Organic matter (temper debris, carbon) begins burning out. Smoke from chimney is normal.
+3. **[Quartz inversion](../glossary/quartz-inversion.html)** (~573°C): Pass through this zone at ≤100°C/hour. α-β quartz inversion causes sudden 0.8% volume expansion. Rapid temperature change through this zone cracks ware.
+4. **[Fast ramp](../glossary/fast-ramp.html)** (600°C → peak): Ramp ~150°C/hour. Organic burnout completes. Clay minerals begin to decompose and sinter.
 5. **Soak at peak**: Hold 20-30 minutes. Ensures even temperature throughout kiln. Cone should bend to 3 o'clock position.
 6. **Cooling**: Close all dampers and vents. Cool naturally (do not open kiln). 4-8 hours for small kilns, 12-24 hours for large. Rapid cooling through quartz inversion (~573°C) causes dunting (cracking).
 
@@ -58,13 +58,13 @@ Bisque firing converts unfired (green) clay to a porous, permanent ceramic body.
 
 Glaze firing melts the applied glaze into a glassy coating and completes vitrification of the clay body.
 
-**Earthenware glaze fire** (target Cone 04-02, ~1060-1100°C):
+**[Earthenware glaze fire](../glossary/earthenware-glaze-fire.html)** (target Cone 04-02, ~1060-1100°C):
 1. Ramp 100°C/hour to 600°C
 2. Ramp 150°C/hour to peak (~1060°C)
 3. Soak 10-15 minutes
 4. Cool naturally, 6-12 hours
 
-**Stoneware glaze fire** (target Cone 6-10, ~1222-1285°C):
+**[Stoneware glaze fire](../glossary/stoneware-glaze-fire.html)** (target Cone 6-10, ~1222-1285°C):
 1. Ramp 100°C/hour to 600°C (water smoke + quartz inversion care)
 2. Ramp 150-200°C/hour to 1100°C
 3. Ramp 100°C/hour to peak (e.g., Cone 6 = 1222°C)
@@ -90,7 +90,7 @@ Refractory ceramics (firebrick, kiln furniture, crucibles) require high temperat
 4. Soak 1-2 hours at peak (ensures complete vitrification throughout thick sections)
 5. Cool at 50°C/hour to 600°C, then natural cool. Total cycle: 24-48 hours including cooling.
 
-**High-alumina refractories** (1500-1700°C):
+**[High-alumina refractories](../glossary/high-alumina-refractories.html)** (1500-1700°C):
 1. Ramp 30-50°C/hour to 200°C
 2. Ramp 60-80°C/hour to 1000°C
 3. Ramp 100°C/hour to peak
@@ -116,31 +116,31 @@ Cooling is as critical as heating. All ceramics undergo a reverse quartz inversi
 
 ### Detailed Firing Schedules by Ware Type
 
-**Earthenware bisque** (Cone 06-04, 980-1000°C):
+**[Earthenware bisque](../glossary/earthenware-bisque.html)** (Cone 06-04, 980-1000°C):
 - Total firing time: 6-8 hours. Fuel: 15-30 kg hardwood.
 - Ramp: 60°C/hr to 150°C, 100°C/hr to 600°C, 150°C/hr to peak. Soak 20 min.
 - This is the most forgiving schedule. Earthenware bodies have wide vitrification ranges and tolerate imprecise temperature control. Target a temperature where the body rings when tapped (not a dull thud) but remains porous enough to absorb glaze.
 
-**Stoneware bisque** (Cone 08-06, 950-1000°C):
+**[Stoneware bisque](../glossary/stoneware-bisque.html)** (Cone 08-06, 950-1000°C):
 - Total firing time: 8-10 hours. Fuel: 25-50 kg hardwood.
 - Ramp: 50°C/hr to 200°C, 80°C/hr to 600°C, 120°C/hr to peak. Soak 30 min.
 - Bisque to a lower temperature than the final glaze fire. This leaves the body porous for glaze absorption while still developing enough strength to survive handling and glaze application without chipping.
 
-**Stoneware glaze fire** (Cone 8-10, 1220-1280°C):
+**[Stoneware glaze fire](../glossary/stoneware-glaze-fire.html)** (Cone 8-10, 1220-1280°C):
 - Total firing time: 10-14 hours. Fuel: 40-80 kg hardwood (or 15-25 kg charcoal for more controllable heat). 30-minute soak at peak temperature is critical for glaze maturation and body vitrification.
 - Ramp: 60°C/hr to 200°C, 100°C/hr to 600°C, 150°C/hr to 1100°C, 100°C/hr to peak. Soak 30 min.
 - Reduction firing: Begin reducing at 1000°C by dampering down (restricting air intake). The kiln atmosphere shifts from clear exhaust to smoky. Maintain reduction through peak. Reduction affects glaze color dramatically: iron-bearing glazes turn celadon green or tenmoku black instead of amber brown.
 
-**Porcelain** (Cone 10-12, 1280-1300°C):
+**[Porcelain](../glossary/porcelain.html)** (Cone 10-12, 1280-1300°C):
 - Total firing time: 12-16 hours. Fuel: 60-120 kg hardwood or 25-40 kg charcoal.
 - Ramp: 40°C/hr to 200°C, 60°C/hr to 600°C, 100°C/hr to 1100°C, 80°C/hr to peak. Soak 45-60 min.
 - Porcelain demands the most precise temperature control. Under-firing leaves the body opaque and porous. Over-firing causes bloating, slumping, and warping. The body vitrifies within a narrow range of ~30°C. Pyrometric cones are essential — do not fire porcelain by visual estimate alone.
 
 ### Glaze Chemistry
 
-**Unity formula** (Seger formula): The standard method for expressing glaze composition. Recalculates raw material percentages into molar ratios of three component groups: fluxes (RO/R₂O), alumina (Al₂O₃), and silica (SiO₂). The flux sum is normalized to 1.0. This allows direct comparison of glazes regardless of which raw materials supply the oxides.
+**[Unity formula](../glossary/unity-formula.html)** (Seger formula): The standard method for expressing glaze composition. Recalculates raw material percentages into molar ratios of three component groups: fluxes (RO/R₂O), alumina (Al₂O₃), and silica (SiO₂). The flux sum is normalized to 1.0. This allows direct comparison of glazes regardless of which raw materials supply the oxides.
 
-**Limit formulas** per temperature range define the safe working zone for glaze composition:
+**[Limit formulas](../glossary/limit-formulas.html)** per temperature range define the safe working zone for glaze composition:
 - **Earthenware (Cone 06-04)**: Flux 1.0, Al₂O₃ 0.1-0.4, SiO₂ 1.5-3.0. Low alumina and silica because the glaze must melt at relatively low temperature. Leaching risk if silica is too low (glaze dissolves slowly in acidic liquids).
 - **Stoneware (Cone 8-10)**: Flux 1.0, Al₂O₃ 0.3-0.7, SiO₂ 3.0-6.0. Higher alumina and silica create a more viscous, durable melt. Well-formulated stoneware glazes resist scratching and chemical attack.
 - **Porcelain (Cone 10-12)**: Flux 1.0, Al₂O₃ 0.4-0.8, SiO₂ 4.0-8.0. The highest silica levels produce a hard, glassy surface. The high firing temperature ensures complete melting even with these refractory proportions.
@@ -185,7 +185,7 @@ Developing a glaze recipe from raw materials requires understanding the unity (S
 
 Accurate temperature measurement transforms firing from guesswork into a repeatable process:
 
-**Pyrometric cones** (Seger cones): The most reliable indicator for ceramics firing. Each cone is a small pyramid (25 mm tall) made from a specific ceramic composition calibrated to deform at a known temperature when heated at a standard rate (150°C/hour). The cone bends as it softens: tip bending to 3 o'clock = temperature reached; tip touching the base = temperature exceeded by ~10-15°C. Use three cones per pack: one grade below target, target, and one above. This shows whether the kiln has reached, is at, or has exceeded the desired temperature.
+**[Pyrometric cones](../glossary/pyrometric-cones.html)** (Seger cones): The most reliable indicator for ceramics firing. Each cone is a small pyramid (25 mm tall) made from a specific ceramic composition calibrated to deform at a known temperature when heated at a standard rate (150°C/hour). The cone bends as it softens: tip bending to 3 o'clock = temperature reached; tip touching the base = temperature exceeded by ~10-15°C. Use three cones per pack: one grade below target, target, and one above. This shows whether the kiln has reached, is at, or has exceeded the desired temperature.
 
 **Thermocouple (Type K)**: Chromel-alumel thermocouple generates a voltage proportional to temperature (41 μV/°C). Read with a millivoltmeter or digital pyrometer. Range: -200°C to +1260°C. Insert the junction into the kiln through a protective ceramic sheath. Thermocouples are more precise than cones but can drift over time (calibrate periodically against cones). Type K is the standard for kiln use. Type S (platinum-rhodium) extends the range to 1450°C for porcelain and refractory firing.
 
@@ -195,7 +195,7 @@ Accurate temperature measurement transforms firing from guesswork into a repeata
 
 Estimating fuel requirements before a firing prevents running out mid-fire:
 
-- **Wood-fired updraft kiln** (0.5 m³ chamber): 20-50 kg hardwood per bisque firing, 40-80 kg for stoneware glaze. Softwoods burn faster and produce less heat per kg — use hardwood (oak, ash, maple) for sustained high temperatures.
+- **[Wood-fired updraft kiln](../glossary/wood-fired-updraft-kiln.html)** (0.5 m³ chamber): 20-50 kg hardwood per bisque firing, 40-80 kg for stoneware glaze. Softwoods burn faster and produce less heat per kg — use hardwood (oak, ash, maple) for sustained high temperatures.
 - **Charcoal-fired kiln**: 15-40 kg for stoneware temperatures. Charcoal burns hotter and cleaner than wood but costs more (wood → charcoal conversion loses 60-70% of the energy content). Charcoal is preferred for reduction firing because the fuel-to-air ratio is easier to control.
 - **Gas-fired kiln**: Propane or natural gas. Consumption: 2-5 kg propane per hour for a 0.5 m³ kiln at stoneware temperatures. Gas provides the most precise temperature control and is easiest to regulate for reduction/oxidation atmosphere switching.
 

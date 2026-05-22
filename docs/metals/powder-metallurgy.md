@@ -2,7 +2,7 @@
 
 > **Node ID**: metals.powder-metallurgy
 > **Domain**: [Metals](./)
-> **Dependencies**: `metals.alloys`, `chemistry.hydrogen-silane`, `energy.electric-furnaces`
+> **Dependencies**: [`metals.alloys`](alloys.md), [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md), [`energy.electric-furnaces`](../energy/electric-furnaces.md)
 > **Timeline**: Years 30-60
 > **Outputs**: tungsten products, cemented carbides, PM structural parts, MIM components, additive manufactured parts
 
@@ -16,7 +16,7 @@ The technology chain runs from powder production → blending → compaction →
 
 Every PM process begins with metal powder, and powder characteristics — particle size, shape, size distribution, chemistry, flowability, and apparent density — determine final part quality. The major production routes produce powders with fundamentally different morphologies:
 
-**Gas atomization** (premium spherical powders):
+**[Gas atomization](../glossary/gas-atomization.html)** (premium spherical powders):
 - Molten metal stream (induction or arc melted under inert atmosphere) is disintegrated by high-pressure argon or nitrogen gas at 2-7 MPa through a converging-diverging nozzle. The gas kinetic energy overcomes the melt's surface tension, forming droplets that spheroidize during free fall.
 - Particle size: 10-150 µm median (d₅₀), controlled by gas pressure, melt flow rate, and nozzle geometry. Higher gas-to-metal ratio (GMR, typically 2-5:1 by mass) produces finer powder at higher gas consumption cost.
 - Spherical particle shape → excellent flowability (Hall flow < 25 s/50 g) and high tap density (60-65% of theoretical). Preferred for additive manufacturing (SLM, EBM) and hot isostatic pressing.
@@ -24,32 +24,32 @@ Every PM process begins with metal powder, and powder characteristics — partic
 - Yield: Only 30-50% of powder falls in the usable 15-45 µm range for SLM. Oversize is re-atomized; undersize fines (<10 µm) are health hazards and difficult to recycle.
 - Production cost: $30-80/kg for stainless steel, $200-600/kg for titanium alloys, $150-400/kg for nickel superalloys.
 
-**Water atomization** (irregular powders, high volume, low cost):
+**[Water atomization](../glossary/water-atomization.html)** (irregular powders, high volume, low cost):
 - High-pressure water jets (10-100 MPa) atomize the melt stream. Water's higher momentum and rapid quench produce irregular, ragged particles with surface oxide.
 - Particle size: 50-200 µm median, broader distribution than gas atomization. Water pressure is the primary size control: 50 MPa → ~100 µm median; 100 MPa → ~50 µm.
 - Irregular shape → poor flowability but higher green strength after compaction (mechanical interlocking of jagged particles). Ideal for conventional press-and-sinter structural parts.
 - Oxygen pickup: 0.2-0.5% O₂ (water reacts with hot metal surface). Acceptable for iron and copper-based powders; unacceptable for titanium, aluminum, or reactive metals.
 - Production cost: $3-8/kg for iron powder, $5-15/kg for copper powder. Dominates volume production (80%+ of all PM structural parts use water-atomized iron powder).
 
-**Centrifugal atomization** (controlled-size, clean powders):
+**[Centrifugal atomization](../glossary/centrifugal-atomization.html)** (controlled-size, clean powders):
 - Molten metal on a spinning disk or cup (rotating electrode process, REP) is flung outward by centrifugal force, forming droplets that solidify in free fall. Rotation speed: 10,000-50,000 rpm. Higher rpm → finer powder.
 - Particle size distribution is narrower than gas or water atomization (geometric standard deviation σ = 1.2-1.5 vs. 1.8-2.2). Near-spherical shape.
 - Plasma rotating electrode process (PREP): A plasma arc melts the end of a rotating bar electrode (typically Ti-6Al-4V or Ni alloy). No crucible contact → no ceramic inclusions. Critical for rotating-grade titanium powder in aerospace.
 - Yield: 60-80% in usable size range. Production rate: 1-50 kg/h per electrode — lower throughput than gas atomization but higher quality.
 
-**Hydrogen reduction** (tungsten, molybdenum, cobalt, nickel):
+**[Hydrogen reduction](../glossary/hydrogen-reduction.html)** (tungsten, molybdenum, cobalt, nickel):
 - Metal oxides (WO₃, MoO₃, Co₃O₄, NiO) are reduced by flowing hydrogen gas in a pusher furnace or rotary kiln. The reduction proceeds topotactically — the metal crystal inherits the morphology of the oxide precursor, producing angular or sponge-like particles.
 - **Tungsten**: WO₃ + 3H₂ → W + 3H₂O at 700-1000°C in a multi-zone furnace (4-6 zones, progressively higher temperature). Hydrogen flow: 5-20 L/min per kg WO₃. Reduction time: 2-8 hours depending on desired particle size. Particle size: 0.5-20 µm (controlled by oxide feedstock, temperature, and H₂ dew point). Fine tungsten powder (<5 µm) for cemented carbides; coarse powder (10-20 µm) for heavy alloys and sintered contacts.
 - **Molybdenum**: MoO₃ + 3H₂ → Mo + 3H₂O at 600-1100°C in two stages (MoO₃ → MoO₂ at 600-700°C, MoO₂ → Mo at 900-1100°C). Two-stage reduction prevents volatilization of MoO₃ (sublimes at 700°C). Particle size: 2-10 µm.
 - **Cobalt**: Co₃O₄ + 4H₂ → 3Co + 4H₂O at 400-600°C. Fine cobalt powder (1-2 µm, Fisher sub-sieve size) is critical as the binder phase in cemented carbides — cobalt particle size controls WC grain growth during sintering.
 
-**Electrolysis** (copper, iron, silver powders):
+**[Electrolysis](../chemistry/electrolysis.md)** (copper, iron, silver powders):
 - Direct electrolysis from aqueous sulfate or chloride solutions produces dendritic powder deposits that are scraped from the cathode. Current density: 1000-5000 A/m² (much higher than electrowinning for cathode production). High current density promotes dendritic growth rather than dense plating.
 - **Copper powder**: Electrolyze CuSO₄ + H₂SO₄ solution at 2000-4000 A/m², 25-35°C. Dendritic particles with high surface area. Apparent density: 1.5-3.5 g/cm³ (vs. 8.96 g/cm³ for solid copper). Used in self-lubricating bearings (oil-impregnated porous Cu) and friction materials.
 - **Iron powder**: Electrolyze FeSO₄ or FeCl₂ solution at 1000-3000 A/m². Product is brittle, high-purity (>99% Fe) sponge iron that is milled and annealed (600-800°C in H₂/NH₃) to soften and reduce oxide content.
 - Electrolytic powders are more expensive than atomized but offer higher purity and controlled dendritic morphology.
 
-**Carbonyl process** (iron, nickel):
+**[Carbonyl process](../glossary/carbonyl-process.html)** (iron, nickel):
 - Metal reacts with carbon monoxide to form volatile metal carbonyl: Fe + 5CO → Fe(CO)₅ at 150-200°C and 10-20 MPa (BASF process). The liquid carbonyl (boiling point 103°C) is distilled for purification, then decomposed by heating to 200-300°C at atmospheric pressure: Fe(CO)₅ → Fe + 5CO. The CO is recycled.
 - Produces extremely fine (1-10 µm), high-purity (>99.5%) spherical powder. Carbonyl iron powder (CIP) is used in MIM feedstock, high-frequency magnetic cores, and microwave-absorbing materials.
 - Carbonyl nickel (Ni(CO)₄, Mond process): Ni + 4CO → Ni(CO)₄ at 50-80°C, decompose at 200-250°C. Nickel carbonyl is extremely toxic (TLV 0.001 ppm) — the process requires sealed equipment with continuous CO monitoring and thermal afterburners on exhaust.
@@ -71,7 +71,7 @@ Tungsten's melting point (3422°C, highest of all metals) makes conventional mel
 - **Rocket nozzles**: Sintered W or W-Re alloy (W-5%Re or W-26%Re) inserts for solid rocket motor throats. Temperature capability: >3000°C for seconds to minutes. The rhenium addition improves ductility at room temperature (pure tungsten is brittle below its ductile-brittle transition temperature of ~200-400°C).
 - **Radiation shielding**: Tungsten's density (19.25 g/cm³, comparable to gold and uranium) makes it effective for X-ray and gamma shielding — used as collimators in medical imaging and radiotherapy. Preferred over lead (11.3 g/cm³) where space is constrained.
 
-**Molybdenum** (mp 2623°C):
+**[Molybdenum](../glossary/molybdenum.html)** (mp 2623°C):
 - Processed similarly to tungsten: H₂-reduced powder → compact → sinter at 1700-2000°C → work by rolling, forging, or drawing at 1000-1400°C.
 - TZM alloy (Mo-0.5%Ti-0.08%Zr-0.02%C): Titanium and zirconium carbide dispersion strengthens molybdenum to 1100-1300°C. Recrystallization temperature raised from ~1000°C (pure Mo) to ~1400°C (TZM). Used for furnace hardware, die-casting cores, and aerospace structural components at 800-1200°C.
 - Applications: Glass melting electrodes (Mo resists molten glass corrosion at 1400-1600°C), X-ray tube targets (Mo target for mammography at 17-20 keV characteristic X-rays), heat sinks, and support structures in power electronics.
@@ -88,11 +88,11 @@ Cemented carbides (hardmetals) are composite materials consisting of tungsten ca
 - **Liquid-phase sintering**: The critical step. Heat to 1350-1450°C (above the W-C-Co ternary eutectic at ~1280°C). Cobalt melts and flows by capillary action through the WC particle network, wetting WC particles (contact angle <5°). Liquid-phase sintering proceeds in three stages: rearrangement (Co melt draws WC particles together, 5-10% shrinkage in minutes), solution-reprecipitation (WC dissolves in Co melt at contact points and reprecipitates on larger WC grains — Ostwald ripening, 10-15% additional shrinkage over 30-60 minutes), and final densification (rigid WC skeleton with Co filling remaining pores). Total linear shrinkage: 17-22%. Final density: >99.5% theoretical (essentially pore-free).
 - **Grain growth control**: WC grain size determines hardness (Hall-Petch relationship). Nano-grain (<0.2 µm) cemented carbides require grain growth inhibitors: VC (0.3-1.0%), Cr₃C₂ (0.3-0.8%), or TaC (0.5-1.5%). These carbides segregate to WC grain boundaries, pinning them against migration during liquid-phase sintering. Sub-micron grades (0.2-0.5 µm) achieve 1900-2100 HV30 hardness; coarse grades (2-5 µm) trade hardness (1300-1500 HV30) for improved toughness (13-18 MPa√m).
 
-**Coating systems** for cemented carbide cutting tools:
-- **TiN** (titanium nitride): Gold-colored PVD coating, 2-5 µm thick. Hardness ~2100 HV. Reduces friction coefficient to 0.4-0.5 (vs. 0.6-0.8 for uncoated WC-Co). Operating temperature limit: ~600°C (TiN oxidizes above this).
-- **TiAlN** (titanium aluminum nitride): Purple/grey PVD coating, 2-4 µm. Hardness ~3200 HV. Al₂O₃ forms in-situ at high temperature, providing oxidation protection to ~900°C. The dominant coating for steel machining.
-- **Al₂O₃** (aluminum oxide): CVD coating, 3-10 µm. Thermal barrier — low thermal conductivity protects the substrate from cutting heat. Temperature capability >1000°C. Applied in multilayer CVD: TiC base layer (adhesion) + Al₂O₃ (thermal barrier) + TiN top layer (friction reduction).
-- **DLC** (diamond-like carbon): PVD or PACVD, 1-3 µm. Hardness 2000-5000 HV. Extremely low friction coefficient (0.05-0.15). Used for non-ferrous machining (aluminum, copper) where carbon does not dissolve into the workpiece.
+**[Coating systems](../glossary/coating-systems.html)** for cemented carbide cutting tools:
+- **[TiN](../glossary/tin.html)** (titanium nitride): Gold-colored PVD coating, 2-5 µm thick. Hardness ~2100 HV. Reduces friction coefficient to 0.4-0.5 (vs. 0.6-0.8 for uncoated WC-Co). Operating temperature limit: ~600°C (TiN oxidizes above this).
+- **[TiAlN](../glossary/tialn.html)** (titanium aluminum nitride): Purple/grey PVD coating, 2-4 µm. Hardness ~3200 HV. Al₂O₃ forms in-situ at high temperature, providing oxidation protection to ~900°C. The dominant coating for steel machining.
+- **[Al₂O₃](../glossary/alo.html)** (aluminum oxide): CVD coating, 3-10 µm. Thermal barrier — low thermal conductivity protects the substrate from cutting heat. Temperature capability >1000°C. Applied in multilayer CVD: TiC base layer (adhesion) + Al₂O₃ (thermal barrier) + TiN top layer (friction reduction).
+- **[DLC](../glossary/dlc.html)** (diamond-like carbon): PVD or PACVD, 1-3 µm. Hardness 2000-5000 HV. Extremely low friction coefficient (0.05-0.15). Used for non-ferrous machining (aluminum, copper) where carbon does not dissolve into the workpiece.
 
 ### PM Structural Parts
 

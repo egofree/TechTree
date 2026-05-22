@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.sheep
 > **Domain**: [Animals](./)
-> **Dependencies**: `animals`, `animals.domestication`
-> **Enables**: `animals.animal-materials`, `textiles.wool-processing`, `food.dairy`, `agriculture.soil-management`
+> **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
+> **Enables**: [`animals.animal-materials`](animal-materials.md), `textiles.wool-processing`, `food.dairy`, [`agriculture.soil-management`](../agriculture/soil-management.md)
 > **Timeline**: Years 1-25+
 > **Outputs**: wool, mutton, milk, lanolin, sheepskins, manure
 
@@ -95,7 +95,7 @@ Rotate between dewormer classes (benzimidazoles, levamisole, macrocyclic lactone
 **Late pregnancy nutrition** (last 4-6 weeks):
 This is the most critical nutritional period. The developing fetus(es) occupy increasing abdominal space, compressing the rumen and reducing the ewe's voluntary feed intake at exactly the time her energy requirements are rising dramatically. A ewe carrying twins needs 30-40% more energy in late pregnancy than in early pregnancy.
 
-**Pregnancy toxemia** (twin lamb disease):
+**[Pregnancy toxemia](../glossary/pregnancy-toxemia.html)** (twin lamb disease):
 Metabolic disease caused by inadequate energy intake in late pregnancy. The ewe mobilizes body fat to meet energy needs, producing ketone bodies faster than the liver can metabolize them. Symptoms: lethargy, apparent blindness, staggering, sweet-smelling breath (acetone), progressing to recumbency and death within 2-7 days if untreated.
 
 Prevention: increase energy intake 2-3 weeks before lambing. Provide 0.3-1.0 kg/day of grain supplement (corn, barley, or oats) split into two feeds. Ensure adequate rumen function with good-quality forage. Avoid sudden feed changes. Ultrasound scanning to identify ewes carrying multiples allows targeted feeding of the highest-risk animals.

@@ -2,7 +2,7 @@
 
 > **Node ID**: photolithography.cleanrooms
 > **Domain**: [Photolithography & IC Fabrication](./)
-> **Dependencies**: `machine-tools`, `chemistry`
+> **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`chemistry`](../chemistry/index.md)
 > **Timeline**: Years 40-70
 > **Outputs**: cleanrooms, ultra_pure_water, cleanroom_consumables
 
@@ -25,7 +25,7 @@ Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill
   - **Quality testing**: Online resistivity monitoring, particle counting, TOC (total organic carbon) analysis
 
 ### Operational Protocols
-- **Gowning sequence** (order matters — cover dirtiest areas first):
+- **[Gowning sequence](../glossary/gowning-sequence.html)** (order matters — cover dirtiest areas first):
   1. Hair cover (bouffant cap — covers all hair, no exposed scalp)
   2. Shoe covers (over-shoe booties — seal around ankle)
   3. Face mask (covers nose and mouth — source of breath droplets)

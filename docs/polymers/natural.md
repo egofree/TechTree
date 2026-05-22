@@ -26,17 +26,17 @@
 - **Frequency**: Tap every 2-3 days, rotating to new cuts on a different panel of the trunk. Previous cuts heal over weeks. Trees remain productive for 20-30 years. Rest periods (no tapping for 1-2 months per year) extend tree life.
 
 **Temperate alternatives**:
-- **Guayule** (*Parthenium argentatum*): Shrub native to the southwestern US and Mexico. Harvest whole shrubs, crush, and extract rubber by flotation in water. Lower yield per acre than Hevea but grows in arid regions.
-- **Russian dandelion** (*Taraxacum kok-saghyz*): Rubber extracted from roots. Very small scale but possible in temperate climates.
+- **[Guayule](../glossary/guayule.html)** (*Parthenium argentatum*): Shrub native to the southwestern US and Mexico. Harvest whole shrubs, crush, and extract rubber by flotation in water. Lower yield per acre than Hevea but grows in arid regions.
+- **[Russian dandelion](../glossary/russian-dandelion.html)** (*Taraxacum kok-saghyz*): Rubber extracted from roots. Very small scale but possible in temperate climates.
 
 ### Processing
 
 1. **Latex collection** — tapped from living trees or crushed from guayule/dandelion roots; 30-40% rubber hydrocarbon in latex emulsion
-2. **Coagulation** — add dilute formic acid (HCOOH) or acetic acid (CH₃COOH) at ~0.5% concentration to break the emulsion. The acid neutralizes the negative surface charge on rubber particles, destabilizing the colloid → rubber particles agglomerate into a soft mass (coagulum). Let stand 12-16 hours for complete coagulation.
-3. **Sheet making** — Press coagulum through a series of rollers (sheeting mill) to remove water and form uniform sheets ~3 mm thick. The ribbed pattern on rollers increases surface area for drying.
-4. **Drying** — Hang sheets in a smokehouse at 40-60°C for 2-4 weeks. Smoke contains creosote compounds that act as natural preservatives, preventing mold. Product: ribbed smoked sheet (RSS), graded RSS 1-5 by visual quality.
-5. **Mastication** — pass through two-roll mill or internal mixer to soften and reduce molecular weight; mechanical shearing at 40-80°C. This makes the rubber plastic enough to accept compounding ingredients.
-6. **Compounding** — blend on mill or in Banbury mixer with:
+2. **[Coagulation](../glossary/coagulation.html)** — add dilute formic acid (HCOOH) or acetic acid (CH₃COOH) at ~0.5% concentration to break the emulsion. The acid neutralizes the negative surface charge on rubber particles, destabilizing the colloid → rubber particles agglomerate into a soft mass (coagulum). Let stand 12-16 hours for complete coagulation.
+3. **[Sheet making](../glossary/sheet-making.html)** — Press coagulum through a series of rollers (sheeting mill) to remove water and form uniform sheets ~3 mm thick. The ribbed pattern on rollers increases surface area for drying.
+4. **[Drying](../glossary/drying.html)** — Hang sheets in a smokehouse at 40-60°C for 2-4 weeks. Smoke contains creosote compounds that act as natural preservatives, preventing mold. Product: ribbed smoked sheet (RSS), graded RSS 1-5 by visual quality.
+5. **[Mastication](../glossary/mastication.html)** — pass through two-roll mill or internal mixer to soften and reduce molecular weight; mechanical shearing at 40-80°C. This makes the rubber plastic enough to accept compounding ingredients.
+6. **[Compounding](../glossary/compounding.html)** — blend on mill or in Banbury mixer with:
    - Sulfur (1.5-3 phr) — crosslinking agent
    - Accelerators (e.g., mercaptobenzothiazole, 0.5-1.5 phr)
    - Zinc oxide (3-5 phr) — activator
@@ -109,12 +109,12 @@ Amber is fossilized conifer resin, typically 30-90 million years old. It is foun
 
 ### Horn and Tortoiseshell
 
-**Horn** from cattle, sheep, and goats is composed of keratin — the same protein family as hair, nails, and feathers. Keratin is thermoplastic above ~150°C: the hydrogen bonds and disulfide cross-links between protein chains relax, allowing the material to be shaped.
+**[Horn](../glossary/horn.html)** from cattle, sheep, and goats is composed of keratin — the same protein family as hair, nails, and feathers. Keratin is thermoplastic above ~150°C: the hydrogen bonds and disulfide cross-links between protein chains relax, allowing the material to be shaped.
 
 - **Processing**: Soak horn in warm water (60-80°C) for several hours to soften. Split longitudinally using a sharp knife — horn naturally separates into layers. Press split sheets between heated platens at 150-170°C to flatten and shape. Trim and polish. Multiple sheets can be welded together by applying heat and pressure at the overlap.
 - **Applications**: Lantern windows (transparent horn sheets, used before flat glass was widely available), drinking vessels, powder flasks, combs, buttons, shoe horns. Replaced by celluloid and later plastics in the late 19th century.
 
-**Tortoiseshell** from the hawksbill sea turtle (*Eretmochelys imbricata*, now critically endangered and CITES Appendix I) was historically prized for its beautiful mottled brown and amber patterning. The material is thermoplastic at 120-150°C and can be pressed into sheets, molded, and welded similarly to horn.
+**[Tortoiseshell](../glossary/tortoiseshell.html)** from the hawksbill sea turtle (*Eretmochelys imbricata*, now critically endangered and CITES Appendix I) was historically prized for its beautiful mottled brown and amber patterning. The material is thermoplastic at 120-150°C and can be pressed into sheets, molded, and welded similarly to horn.
 
 - **Processing**: Heat to 120-150°C in boiling water or oil bath. Press between polished metal plates to form flat sheets. Multiple pieces fuse together under heat and pressure — the basis for "genuine" tortoiseshell laminates. Can be carved, engraved, and polished to a high gloss.
 - **Applications**: Combs, hair accessories, eyeglass frames, decorative inlays, jewelry boxes.IMITATION: Celluloid dyed to match tortoiseshell patterns replaced the genuine material from the 1870s onward — celluloid is colored with pigment blends (amber, brown, black) to mimic the natural mottling.
@@ -154,7 +154,7 @@ For many applications (dipped goods like gloves, condoms, balloons; foam rubber;
 **Preservation**: Add ammonia (NH₃) to 0.5-0.7% concentration within hours of tapping. Ammonia raises pH to 10-11, inhibiting bacterial growth and preventing premature coagulation. Secondary preservatives (zinc diethyldithiocarbamate, ZDEC, at 0.02-0.05%) provide additional protection for long-term storage.
 
 **Concentration methods**:
-- **Centrifugation** (most common): Feed preserved latex into a creaming centrifuge (similar to a dairy cream separator) spinning at 5,000-8,000 RPM. Rubber particles (density ~0.92 g/cm³) separate from the lighter serum (density ~1.02 g/cm³). Concentrated fraction (cream) exits at ~60% DRC. Skim fraction (~5% DRC) is processed into low-grade rubber. Throughput: 500-2000 L/hour.
+- **[Centrifugation](../glossary/centrifugation.html)** (most common): Feed preserved latex into a creaming centrifuge (similar to a dairy cream separator) spinning at 5,000-8,000 RPM. Rubber particles (density ~0.92 g/cm³) separate from the lighter serum (density ~1.02 g/cm³). Concentrated fraction (cream) exits at ~60% DRC. Skim fraction (~5% DRC) is processed into low-grade rubber. Throughput: 500-2000 L/hour.
 - **Creaming**: Add sodium alginate or polyvinyl alcohol (0.1-0.3%) as creaming agent. Rubber particles aggregate and rise to the top over 24-48 hours. Drain bottom serum. Less capital-intensive than centrifugation but slower.
 - **Evaporation**: Heat field latex to 50-60°C under reduced pressure to evaporate water. Produces highest DRC (75-80%) but risks thermal degradation.
 

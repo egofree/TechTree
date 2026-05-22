@@ -2,7 +2,7 @@
 
 > **Node ID**: polymers.rubber.shellac
 > **Domain**: Polymers & Composites
-> **Dependencies**: `polymers.rubber.natural`, `chemistry.distillation`
+> **Dependencies**: [`polymers.rubber.natural`](natural.md), [`chemistry.distillation`](../chemistry/distillation.md)
 > **Enables**: `electronics.insulation`, `woodworking.finishing`
 > **Timeline**: Years 5-20
 > **Outputs**: shellac_flakes, shellac_solution, french_polish, phonograph_records
@@ -47,11 +47,11 @@ Shellac is a natural resin secreted by the lac bug (*Kerria lacca*), a tiny scal
 
 Shellac is a complex natural polyester composed primarily of hydroxy fatty acid esters and sesquiterpene acid esters. The major components are:
 
-- **Aleuritic acid** (9,10,16-trihydroxypalmitic acid, ~35%): A C₁₆ hydroxy fatty acid providing the backbone of the polyester chain. The three hydroxyl groups (at C-9, C-10, and C-16) participate in ester bonds that form the cross-linked network.
-- **Shellolic acid** and **epishellolic acid** (~25%): Sesquiterpene carboxylic acids (C₁₅) that contribute rigidity and hydrophobic character. The aldehyde group of shellolic acid can undergo esterification and acetal formation, contributing to the aging (insolubilization) of shellac.
-- **Kerrylic acid** and **jukeric acid** (~5-10% each): Additional sesquiterpene acids.
-- **Wax** (3-5%): A mixture of esters of long-chain alcohols and fatty acids (primarily myricyl alcohol, C₃₀H₆₁OH, and palmitic acid, C₁₆H₃₂O₂). The wax contributes water repellency and the characteristic slight cloudiness of non-de-waxed shellac.
-- **Coloring matter** (1-3%): Erythrolaccin and desoxyerythrolaccin — hydroxyanthraquinone pigments that give shellac its orange-amber color. These are removed during bleaching with sodium hypochlorite.
+- **[Aleuritic acid](../glossary/aleuritic-acid.html)** (9,10,16-trihydroxypalmitic acid, ~35%): A C₁₆ hydroxy fatty acid providing the backbone of the polyester chain. The three hydroxyl groups (at C-9, C-10, and C-16) participate in ester bonds that form the cross-linked network.
+- **[Shellolic acid](../glossary/shellolic-acid.html)** and **[epishellolic acid](../glossary/epishellolic-acid.html)** (~25%): Sesquiterpene carboxylic acids (C₁₅) that contribute rigidity and hydrophobic character. The aldehyde group of shellolic acid can undergo esterification and acetal formation, contributing to the aging (insolubilization) of shellac.
+- **[Kerrylic acid](../glossary/kerrylic-acid.html)** and **[jukeric acid](../glossary/jukeric-acid.html)** (~5-10% each): Additional sesquiterpene acids.
+- **[Wax](../glossary/wax.html)** (3-5%): A mixture of esters of long-chain alcohols and fatty acids (primarily myricyl alcohol, C₃₀H₆₁OH, and palmitic acid, C₁₆H₃₂O₂). The wax contributes water repellency and the characteristic slight cloudiness of non-de-waxed shellac.
+- **[Coloring matter](../glossary/coloring-matter.html)** (1-3%): Erythrolaccin and desoxyerythrolaccin — hydroxyanthraquinone pigments that give shellac its orange-amber color. These are removed during bleaching with sodium hypochlorite.
 
 **Molecular weight**: Shellac is a natural polyester with average molecular weight ~1000-2000 g/mol (oligomeric — a small polymer compared to synthetic resins at 10,000-100,000+ g/mol). The low molecular weight explains shellac's good solubility in ethanol and its low melt viscosity (easy to hot-press and mold). The material undergoes progressive polymerization over time through esterification between free hydroxyl and carboxyl groups — this is the chemical basis for shellac's aging and eventual insolubility. Fresh shellac has lower molecular weight and dissolves readily; aged shellac has higher molecular weight due to continued ester formation during storage. The rate of polymerization can be tracked by measuring the acid number (mg KOH required to neutralize 1 g of shellac) — fresh shellac has acid number 60-80 mg KOH/g; aged shellac drops to 40-60 as carboxyl groups are consumed by ester formation.
 
@@ -148,8 +148,8 @@ The lac insect (*Kerria lacca*) is a scale insect of the family Kerriidae, order
 **Brood lac management**: The key to successful cultivation is timing the inoculation (placement of brood lac bundles on new host branches) to coincide with the emergence of larvae from the brood. Larvae emerge 2-3 weeks after the eggs were laid inside the female's resinous cell. The tiny crawler larvae (0.3-0.5 mm) disperse from the brood bundle onto the fresh branch, settle, insert their proboscis, and begin secreting resin. Inoculation success rate: 60-80% under good conditions — losses occur from predation, weather, and disease.
 
 **Harvest cycles**: Two harvests per year in most regions of India:
-- **Katki crop** (June-July): Harvested during the monsoon. Brood lac from this harvest is used for the next inoculation.
-- **Baisakhi crop** (October-November): Harvested in the post-monsoon period. Generally larger yield than Katki.
+- **[Katki crop](../glossary/katki-crop.html)** (June-July): Harvested during the monsoon. Brood lac from this harvest is used for the next inoculation.
+- **[Baisakhi crop](../glossary/baisakhi-crop.html)** (October-November): Harvested in the post-monsoon period. Generally larger yield than Katki.
 
 ### Traditional Processing Methods
 

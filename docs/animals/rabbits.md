@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.rabbits
 > **Domain**: [Animals](./)
-> **Dependencies**: `animals`, `animals.domestication`
-> **Enables**: `textiles.fibers`, `food.preservation`
+> **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
+> **Enables**: [`textiles.fibers`](../textiles/fibers.md), `food.preservation`
 > **Timeline**: Years 0-5
 > **Outputs**: meat, angora_wool, manure, pelts
 
@@ -136,7 +136,7 @@ Angora rabbit wool is one of the finest and warmest natural fibers — 12-16 mic
 **Angora rabbit care**:
 - Daily grooming essential for English Angora (prevents matting). French and Giant Angoras need grooming 2-3 times per week. Matted fleece invites parasites, skin infections, and heat stress.
 - Keep Angoras on solid-bottom cages or provide resting boards — wire floors damage the long fiber on the feet ("wool block" on feet collects droppings and debris).
-- **Wool block** (gastric stasis): Angoras ingest loose fiber during grooming. Unlike cats, rabbits cannot vomit. Fiber accumulates in the stomach, forming a blockage that prevents food passage. Symptoms: reduced appetite, small or no droppings, hunched posture. Prevention: daily grooming to remove loose fiber, unlimited grass hay (fiber keeps the gut moving), weekly papaya or pineapple enzyme treatment (bromelain/papain may help break down wool in the stomach). Wool block is the leading cause of death in Angora rabbits.
+- **[Wool block](../glossary/wool-block.html)** (gastric stasis): Angoras ingest loose fiber during grooming. Unlike cats, rabbits cannot vomit. Fiber accumulates in the stomach, forming a blockage that prevents food passage. Symptoms: reduced appetite, small or no droppings, hunched posture. Prevention: daily grooming to remove loose fiber, unlimited grass hay (fiber keeps the gut moving), weekly papaya or pineapple enzyme treatment (bromelain/papain may help break down wool in the stomach). Wool block is the leading cause of death in Angora rabbits.
 
 ### Rabbit Manure
 

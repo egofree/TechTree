@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.lubricants
 > **Domain**: [Lubricants, Oils & Fluid Mechanics](./)
-> **Dependencies**: `foundations`, `chemistry.petroleum-alternatives`
-> **Enables**: `machine-tools`, `energy.gravity`
+> **Dependencies**: [`foundations`](../foundations/index.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md)
+> **Enables**: [`machine-tools`](../machine-tools/index.md), [`energy.gravity`](../energy/gravity.md)
 > **Timeline**: Years 0-200+
 > **Outputs**: lubricating_oil, grease, cutting_fluid, hydraulic_fluid, vacuum_oil
 
@@ -16,8 +16,8 @@ Every machine with moving parts generates friction and heat. Without lubrication
 ### Animal Fats & Vegetable Oils
 
 **Rendering animal fat**:
-- **Tallow** (beef/mutton fat): Cut fat into small pieces. Heat in iron pot with water (prevents scorching) at 80-100°C for 2-4 hours. Fat melts out, floats on water. Skim off, filter through cloth. Repeat pressing of cracklings (solid residue) in screw press to extract remaining fat. Yield: 70-85% of raw fat weight. Melting point: 40-45°C. At room temperature: semi-solid, waxy.
-- **Lard** (pig fat): Same rendering process. Lower melting point (33-40°C). Softer, more fluid at room temperature. Preferred for lighter lubrication duties.
+- **[Tallow](../glossary/tallow.html)** (beef/mutton fat): Cut fat into small pieces. Heat in iron pot with water (prevents scorching) at 80-100°C for 2-4 hours. Fat melts out, floats on water. Skim off, filter through cloth. Repeat pressing of cracklings (solid residue) in screw press to extract remaining fat. Yield: 70-85% of raw fat weight. Melting point: 40-45°C. At room temperature: semi-solid, waxy.
+- **[Lard](../glossary/lard.html)** (pig fat): Same rendering process. Lower melting point (33-40°C). Softer, more fluid at room temperature. Preferred for lighter lubrication duties.
 - **Clarification**: Re-melt fat, add water, boil, cool. Impurities settle or float. Skim clean fat. Repeat until clear. This is critical for lubricant use — impurities are abrasive.
 
 **Vegetable oil extraction**:
@@ -25,7 +25,7 @@ Every machine with moving parts generates friction and heat. Without lubrication
 - **Hot pressing**: Heat seeds to 80-100°C before pressing. Higher yield (more oil released) but darker oil with more free fatty acids (lower quality, shorter shelf life).
 - **Properties**: Vegetable oils are triglycerides (glycerol + 3 fatty acid chains). Good lubricity (polar molecules adhere to metal surfaces). Viscosity varies with oil type (castor: 250 cSt at 40°C; olive: 40 cSt; linseed: 25 cSt). Oxidize over time (rancidity) — become acidic and gummy. Store cool, dark, in sealed containers. Add antioxidants if available.
 
-**Linseed oil** (flax seed oil): Drying oil — polymerizes on exposure to air (oxidation cross-links fatty acid chains → solid film). Not for lubrication (it hardens). Used for: paint binder (oil paint = linseed oil + pigment), wood finishing, putty (linseed oil + chalk), protective coatings on metal (thin film inhibits rust). Boiled linseed oil (heated with metallic driers — manganese or cobalt salts) dries faster (hours instead of days).
+**[Linseed oil](../glossary/linseed-oil.html)** (flax seed oil): Drying oil — polymerizes on exposure to air (oxidation cross-links fatty acid chains → solid film). Not for lubrication (it hardens). Used for: paint binder (oil paint = linseed oil + pigment), wood finishing, putty (linseed oil + chalk), protective coatings on metal (thin film inhibits rust). Boiled linseed oil (heated with metallic driers — manganese or cobalt salts) dries faster (hours instead of days).
 
 ### Lubrication Regimes
 
@@ -35,9 +35,9 @@ Every machine with moving parts generates friction and heat. Without lubrication
 
 **Hydrodynamic lubrication**:
 - Full fluid film separates surfaces. No metal contact. Friction is entirely viscous drag of fluid. Requires: correct viscosity (thick enough to maintain film under load, thin enough to flow), adequate speed (generates pressure in converging wedge of lubricant), proper bearing geometry (clearance, alignment).
-- **Reynolds equation** governs film pressure distribution. Simplified: for a plain journal bearing, minimum film thickness h_min ≈ (μ × U × d²) / (4 × W), where μ = viscosity, U = surface speed, d = bearing diameter, W = load. Maintain h_min > 3× surface roughness for full film separation.
+- **[Reynolds equation](../glossary/reynolds-equation.html)** governs film pressure distribution. Simplified: for a plain journal bearing, minimum film thickness h_min ≈ (μ × U × d²) / (4 × W), where μ = viscosity, U = surface speed, d = bearing diameter, W = load. Maintain h_min > 3× surface roughness for full film separation.
 - **Friction coefficient**: ~0.001-0.01 (10-100x lower than boundary). This is why well-lubricated bearings run cool and last years.
-- **Oil viscosity grades** (ISO VG system): ISO VG 32 = kinematic viscosity 32 cSt at 40°C (light spindle oil). ISO VG 68 = 68 cSt (general machine oil). ISO VG 220 = 220 cSt (gear oil). ISO VG 460 = 460 cSt (heavy gear oil). Higher viscosity = thicker oil = more load capacity but more viscous friction (heat).
+- **[Oil viscosity grades](../glossary/oil-viscosity-grades.html)** (ISO VG system): ISO VG 32 = kinematic viscosity 32 cSt at 40°C (light spindle oil). ISO VG 68 = 68 cSt (general machine oil). ISO VG 220 = 220 cSt (gear oil). ISO VG 460 = 460 cSt (heavy gear oil). Higher viscosity = thicker oil = more load capacity but more viscous friction (heat).
 
 **Elastohydrodynamic lubrication (EHL)**:
 - Occurs in rolling element bearings and gear teeth (high contact pressure — 1-3 GPa). Pressure elastically deforms metal surfaces and compresses lubricant → viscosity increases dramatically (pressure-viscosity effect) → thin but extremely stiff film separates surfaces. Film thickness 0.1-1 μm. Requires lubricant with good pressure-viscosity coefficient (mineral oils better than water-based).
@@ -61,7 +61,7 @@ Every machine with moving parts generates friction and heat. Without lubrication
 **Composition**: Base oil (70-90%) + thickener (5-25%) + additives (0-10%). Thickener turns liquid oil into semi-solid that stays in place (doesn't drain out of bearings).
 
 **Soap thickeners**:
-- **Soap making** (saponification): Fat/oil + alkali → soap + glycerol. Specific soaps:
+- **[Soap making](../glossary/soap-making.html)** (saponification): Fat/oil + alkali → soap + glycerol. Specific soaps:
   - **Sodium soap (NaOH + fat)**: Sodium stearate. Water-soluble grease. NOT water-resistant. For: general-purpose applications, open gears (cheap). Melts at ~150°C.
   - **Calcium soap (Ca(OH)₂ + fat)**: Calcium stearate. Water-resistant (insoluble). THE most common grease thickener. "Lime soap" grease. Dropping point ~90°C (relatively low — grease softens and runs at high temperature). For: wheel bearings, water pumps, marine applications.
   - **Lithium soap (LiOH + fat)**: Lithium stearate. Water-resistant AND higher dropping point (~190°C). Multi-purpose grease — single grease type for most applications. THE modern standard. Requires LiOH (from lithium ore — lepidolite or spodumene, roasted with CaO, leached with water, electrolyzed → LiOH). Lithium is less common than sodium/calcium — save for applications requiring both water resistance and high temperature.
@@ -73,7 +73,7 @@ Every machine with moving parts generates friction and heat. Without lubrication
   5. Add additives (graphite, molybdenum disulfide (MoS₂), zinc dialkyldithiophosphate (ZDDP — anti-wear/antioxidant)) if required. Mix thoroughly.
   6. Test: penetration (cone penetration test — measure how far standardized cone sinks into grease at 25°C → NLGI grade: 000 = very soft, 2 = typical bearing grease, 6 = very hard). Dropping point (heat until grease melts and drips → maximum usable temperature).
 
-**Clay-thickened grease** (non-soap):
+**[Clay-thickened grease](../glossary/clay-thickened-grease.html)** (non-soap):
 - Bentonite clay (organically modified — treated with quaternary ammonium salts to make it oil-compatible) + base oil. No dropping point (clay doesn't melt) → usable to 250°C+. For high-temperature applications where soap grease fails. Simpler to make than lithium grease if bentonite clay is available.
 
 ### Bearing Lubrication Methods
@@ -95,7 +95,7 @@ Every machine with moving parts generates friction and heat. Without lubrication
 **Fluid types**:
 - **Vegetable oil-based**: Rapeseed or castor oil. Biodegradable, good lubricity. Limited temperature range (thickens when cold, thins when hot). Oxidizes over time. For the Metallurgy-Machine Tools stage transition hydraulic presses.
 - **Mineral oil-based**: Refined petroleum oil (see Petrochemicals — distillation). ISO VG 32 or 46 most common. Add anti-wear agents (ZDDP), antioxidants, rust inhibitors, anti-foam agents. Operating temperature range -10°C to +70°C. Most common hydraulic fluid.
-- **Water-glycol** (fire-resistant): Water + glycol (40-60%) + thickener + additives. Fire-resistant (water content). Lower lubricity than oil — need harder pump and valve materials. For locations with fire risk (furnaces, welding areas).
+- **[Water-glycol](../glossary/water-glycol.html)** (fire-resistant): Water + glycol (40-60%) + thickener + additives. Fire-resistant (water content). Lower lubricity than oil — need harder pump and valve materials. For locations with fire risk (furnaces, welding areas).
 
 **Hydraulic system**:
 - Pump (gear pump: 10-200 bar, or piston pump: 200-400 bar) → control valves (directional, pressure relief, flow control) → actuator (cylinder for linear motion, motor for rotary) → return line → reservoir. Filter in return line (10-25 μm absolute) to remove contaminants (primary cause of hydraulic system failure). Reservoir: 2-3× pump flow rate capacity (allows fluid to de-aerate and settle).
@@ -113,14 +113,14 @@ Every machine with moving parts generates friction and heat. Without lubrication
 - **Silicone vacuum oil**: Polydimethylsiloxane (PDMS) — from silicon + methyl chloride chemistry. Very low vapor pressure (~10⁻⁶ Pa at 25°C). Chemically inert. For diffusion pumps (see Vacuum & Optics) — achieves ultimate vacuum ~10⁻⁶ to 10⁻⁸ Pa.
 - **Synthetic hydrocarbon oil**: Polyalphaolefin (PAO). Low vapor pressure, excellent lubricity, wide temperature range. For high-performance mechanical pumps.
 
-**Oil purification** (for extending vacuum oil life):
+**[Oil purification](../glossary/oil-purification.html)** (for extending vacuum oil life):
 - **Filtration**: Pass oil through 1-5 μm filter to remove particulates.
 - **Degassing**: Heat oil under vacuum to remove dissolved gases and volatile contaminants.
 - **Adsorption**: Pass through activated alumina or molecular sieve to remove acidic and polar contaminants.
 
 ### Lubrication for Semiconductor Equipment
 
-**Cleanroom-compatible lubricants** (Photolithography):
+**[Cleanroom-compatible lubricants](../glossary/cleanroom-compatible-lubricants.html)** (Photolithography):
 - Low outgassing (do not contaminate cleanroom air or wafer surfaces).
 - Non-particulating (do not shed particles into cleanroom).
 - Vacuum-compatible (for equipment inside vacuum chambers — load locks, wafer transfer robots).

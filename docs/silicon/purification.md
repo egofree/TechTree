@@ -39,14 +39,14 @@ Lower purity than Siemens, but much simpler chemistry. Sufficient for solar cell
 - **Effective segregation coefficients**: B: 0.8 (hard to remove — close to 1), P: 0.35, Al: 0.002, Fe: 6.4×10⁻⁶ (easy to remove). Boron is the problematic impurity — it barely segregates.
 - **Result**: Solar-grade silicon (~5-6N). Multiple passes improve purity. Not sufficient for electronic devices.
 
-**Zone refining** (for highest purity physical route):
+**[Zone refining](../glossary/zone-refining.html)** (for highest purity physical route):
 - **Process**: Pass molten zone (narrow band of liquid) along solid silicon rod, repeatedly. Each pass sweeps impurities toward one end. 10-20 passes achieve ~8-9N purity.
 - **Equipment**: RF induction coil or focused IR lamp creates moving molten zone. Rod rotates slowly. Under inert atmosphere (Ar) or vacuum. Very slow — ~1-5 cm/hour travel speed.
 - **Limitation**: Still cannot remove boron effectively (k ≈ 0.8). Combine with another boron removal step (slag treatment: add CaO-Na₂O flux to molten Si, B partitions into slag).
 
 #### Boron Removal via Slag Treatment
 
-Directional solidification and zone refining effectively remove most metallic impurities (Fe, Al, Ca — segregation coefficients << 1), but **boron** is uniquely difficult because its segregation coefficient in silicon is ~0.8 (close to 1.0). This means boron distributes almost equally between solid and liquid phases during crystallization, making segregation-based methods nearly useless for boron. Since boron is a compensating dopant that degrades solar cell efficiency, dedicated removal is essential for solar-grade silicon.
+Directional solidification and zone refining effectively remove most metallic impurities (Fe, Al, Ca — segregation coefficients << 1), but **[boron](../glossary/boron.html)** is uniquely difficult because its segregation coefficient in silicon is ~0.8 (close to 1.0). This means boron distributes almost equally between solid and liquid phases during crystallization, making segregation-based methods nearly useless for boron. Since boron is a compensating dopant that degrades solar cell efficiency, dedicated removal is essential for solar-grade silicon.
 
 **Method**: Oxidizing slag treatment — boron is oxidized to B₂O₃ at the silicon–slag interface and dissolves into the slag phase.
 

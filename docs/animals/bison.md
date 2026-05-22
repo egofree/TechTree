@@ -2,7 +2,7 @@
 
 > **Node ID**: animals.bison
 > **Domain**: [Animals](./)
-> **Dependencies**: `animals`, `animals.domestication`
+> **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
 > **Enables**: `food.preservation`, `textiles.leather`
 > **Timeline**: Years 3-20+
 > **Outputs**: meat, hides, horn, manure

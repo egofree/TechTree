@@ -7,13 +7,13 @@
 
 ### Alkali Production
 
-**Leblanc process** (first synthetic soda ash):
+**[Leblanc process](../glossary/leblanc-process.html)** (first synthetic soda ash):
 - **Step 1**: NaCl + H₂SO₄ → NaHSO₄ + HCl (salt cake furnace, 150-200°C, then 550-600°C for complete reaction to Na₂SO₄). HCl byproduct captured as hydrochloric acid.
 - **Step 2**: Na₂SO₄ + 2C (coke/charcoal) + CaCO₃ (limestone) → Na₂CO₃ + CaS + 2CO₂. Black ash furnace, 900-1000°C. Mix and roast for 1-2 hours.
 - **Step 3**: Leach black ash with water. Na₂CO₃ dissolves. CaS and impurities remain as residue. Crystallize Na₂CO₃ (soda ash) from solution by evaporation.
 - **Pollution**: CaS waste (4 tonnes per tonne Na₂CO₃) creates H₂S (rotten egg gas) when exposed to rain. Major environmental problem historically. Oxidize with air to convert to CaSO₄ (gypsum — useful building material).
 
-**Solvay process** (more efficient, later):
+**[Solvay process](../glossary/solvay-process.html)** (more efficient, later):
 - **Principle**: NaCl + NH₃ + CO₂ + H₂O → NaHCO₃ (precipitates) + NH₄Cl. Heat NaHCO₃ → Na₂CO₃ + CO₂ + H₂O. Recycle NH₃ and CO₂.
 - **Ammonia recovery**: Heat NH₄Cl with Ca(OH)₂ (slaked lime) → NH₃ + CaCl₂ + H₂O. Calcium chloride is waste product.
 - **CO₂ source**: Heat limestone (CaCO₃ → CaO + CO₂) in lime kiln. CaO used for ammonia recovery.
@@ -22,7 +22,7 @@
 
 **Caustic soda (NaOH)**:
 - **Lime-soda process**: Na₂CO₃ + Ca(OH)₂ → 2NaOH + CaCO₃ (precipitates). Filter, evaporate to 50% NaOH solution. Simple but produces CaCO₃ sludge.
-- **Electrolysis of brine** (preferred): See [Electrolysis](electrolysis.md). Produces Cl₂ + H₂ + NaOH simultaneously. Most efficient route.
+- **[Electrolysis of brine](../glossary/electrolysis-of-brine.html)** (preferred): See [Electrolysis](electrolysis.md). Produces Cl₂ + H₂ + NaOH simultaneously. Most efficient route.
 
 **Potash (K₂CO₃) — pre-industrial alkali**:
 - **Source**: Plant ashes, especially hardwood (oak, beech, maple). Land plants concentrate potassium from soil.
@@ -68,7 +68,7 @@ The Solvay (ammonia-soda) process produces sodium carbonate (Na₂CO₃, soda as
 - **Ca(OH)₂ source**: Limestone (CaCO₃) is calcined in a lime kiln: CaCO₃ → CaO + CO₂. The CaO is slaked with water: CaO + H₂O → Ca(OH)₂. The CO₂ from the lime kiln is the CO₂ source for Step 2.
 - **Waste**: Calcium chloride (CaCl₂) solution is the main waste stream — ~10 tonnes of CaCl₂ per tonne of Na₂CO₃. Uses for CaCl₂: de-icing, dust control, concrete additive. Historically discharged to waterways (causes salinity problems).
 
-**Raw materials balance** (per tonne Na₂CO₃ produced):
+**[Raw materials balance](../glossary/raw-materials-balance.html)** (per tonne Na₂CO₃ produced):
 - NaCl: ~1.5 tonnes (at 72% conversion efficiency)
 - CaCO₃ (limestone): ~1.2 tonnes
 - Coke/coal (for lime kiln): ~0.1 tonnes
@@ -137,11 +137,11 @@ The Solvay process requires ~1-2 kg NH₃ makeup per tonne Na₂CO₃. But the a
 
 ### Bootstrap Sequence
 
-1. **Wood ash potash** (Year 1-5): Burn hardwood, leach ash with water, evaporate to K₂CO₃. For glass and soft soap. Land-intensive, not scalable.
-2. **Leblanc process** (Year 10-20): Salt + H₂SO₄ → soda ash. Heavy pollution (HCl, CaS waste). Captures HCl for acid production. Provides both Na₂CO₃ and HCl.
-3. **Lime-soda causticization** (Year 15-25): Na₂CO₃ + Ca(OH)₂ → NaOH. For soap, paper chemicals. Requires lime kiln.
-4. **Solvay process** (Year 20-35): Continuous, efficient, less waste. Requires ammonia (coke oven or Haber-Bosch). Displaces Leblanc.
-5. **Electrolytic NaOH** (Year 25+): Chlor-alkali membrane cells produce NaOH + Cl₂ + H₂. Most efficient. See [Electrolysis](electrolysis.md).
+1. **[Wood ash potash](../glossary/wood-ash-potash.html)** (Year 1-5): Burn hardwood, leach ash with water, evaporate to K₂CO₃. For glass and soft soap. Land-intensive, not scalable.
+2. **[Leblanc process](../glossary/leblanc-process.html)** (Year 10-20): Salt + H₂SO₄ → soda ash. Heavy pollution (HCl, CaS waste). Captures HCl for acid production. Provides both Na₂CO₃ and HCl.
+3. **[Lime-soda causticization](../glossary/lime-soda-causticization.html)** (Year 15-25): Na₂CO₃ + Ca(OH)₂ → NaOH. For soap, paper chemicals. Requires lime kiln.
+4. **[Solvay process](../glossary/solvay-process.html)** (Year 20-35): Continuous, efficient, less waste. Requires ammonia (coke oven or Haber-Bosch). Displaces Leblanc.
+5. **[Electrolytic NaOH](../glossary/electrolytic-naoh.html)** (Year 25+): Chlor-alkali membrane cells produce NaOH + Cl₂ + H₂. Most efficient. See [Electrolysis](electrolysis.md).
 
 ### Alkali Uses Summary
 

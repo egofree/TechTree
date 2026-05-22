@@ -87,28 +87,49 @@ classes: {
 # ==================== INTERNAL NODES ====================
 agriculture_internal: "Agriculture — Internal Structure" {
   agriculture_hydroponic-ph-control: Hydroponic pH Control
+  agriculture_soil-management: "Soil Management & Composting"
+  agriculture_soil-management_vermiculture: Vermiculture
+  agriculture_aquaponics: Aquaponics
 }
 
 # ==================== DOMAIN NODE ====================
 agriculture: Agriculture
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+animals_aquaculture: "Aquaculture & Fisheries" {
+  shape: rectangle
+}
 chemistry_electrodialysis: Electrodialysis {
   shape: rectangle
 }
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
+foundations_food-agriculture: "Agriculture & Food Production" {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
+agriculture_soil-management -> agriculture: { class: tool-edge }
+agriculture_soil-management_vermiculture -> agriculture_soil-management: { class: material-edge }
+agriculture_aquaponics -> agriculture: { class: tool-edge }
+agriculture_hydroponic-ph-control -> agriculture_aquaponics: { class: tool-edge }
 energy_electricity -> agriculture_hydroponic-ph-control: { class: material-edge }
 chemistry_electrodialysis -> agriculture_hydroponic-ph-control: { class: tool-edge }
+foundations_food-agriculture -> agriculture_soil-management: { class: material-edge }
+agriculture_aquaponics -> animals_aquaculture: { class: tool-edge }
+agriculture_aquaponics -> foundations_food-agriculture: { class: tool-edge }
 
 # ==================== STYLING ====================
 agriculture.class: domain
 agriculture_hydroponic-ph-control.class: capability
+agriculture_soil-management.class: earlyWin
+agriculture_soil-management_vermiculture.class: earlyWin
+agriculture_aquaponics.class: capability
+animals_aquaculture.class: external
 chemistry_electrodialysis.class: external
 energy_electricity.class: external
+foundations_food-agriculture.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

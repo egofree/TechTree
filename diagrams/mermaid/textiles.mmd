@@ -19,6 +19,10 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     animals_animal-materials("Animal-Derived Materials Processing")
+    animals_camelids("Camelid Husbandry")
+    animals_goats("Goat Husbandry")
+    animals_rabbits("Rabbit Husbandry")
+    animals_sheep("Sheep Husbandry")
     chemistry("Chemistry")
     chemistry_alkalis("Alkali Production")
     chemistry_pulp-chemicals("Pulp & Paper Chemicals")
@@ -60,6 +64,10 @@ graph TD
     textiles_fibers --> animals_animal-materials
     textiles_finishing -.-> chemistry_alkalis
     textiles_sewing-tailoring -.-> metals_copper-bronze
+    textiles_fibers --> animals_sheep
+    textiles_fibers --> animals_goats
+    textiles_fibers --> animals_rabbits
+    textiles_fibers --> animals_camelids
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -84,6 +92,10 @@ graph TD
     class textiles_finishing capability
     class textiles_sewing-tailoring capability
     class animals_animal-materials external
+    class animals_camelids external
+    class animals_goats external
+    class animals_rabbits external
+    class animals_sheep external
     class chemistry external
     class chemistry_alkalis external
     class chemistry_pulp-chemicals external

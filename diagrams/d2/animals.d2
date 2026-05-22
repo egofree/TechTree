@@ -93,12 +93,32 @@ animals_internal: "Animals & Animal Husbandry — Internal Structure" {
   animals_aquaculture: "Aquaculture & Fisheries"
   animals_sericulture: "Sericulture (Silkworm Rearing)"
   animals_pest-management: Biological Pest Management
+  animals_poultry: Poultry Farming
+  animals_poultry_chickens: Chickens
+  animals_poultry_coturnix: Coturnix Quail
+  animals_poultry_ducks: Ducks
+  animals_poultry_geese: Geese
+  animals_poultry_turkeys: Turkeys
+  animals_poultry_guinea-fowl: Guinea Fowl
+  animals_poultry_pigeons: "Pigeons & Squab"
+  animals_cattle: Cattle Husbandry
+  animals_sheep: Sheep Husbandry
+  animals_goats: Goat Husbandry
+  animals_pigs: Pig Husbandry
+  animals_equines: Equine Husbandry
+  animals_camelids: Camelid Husbandry
+  animals_bison: Bison Husbandry
+  animals_rabbits: Rabbit Husbandry
+  animals_insect-farming: "Insect Farming (BSF)"
 }
 
 # ==================== DOMAIN NODE ====================
 animals: "Animals & Animal Husbandry"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+agriculture_aquaponics: Aquaponics {
+  shape: rectangle
+}
 ceramics_lime: Lime Production {
   shape: rectangle
 }
@@ -151,6 +171,34 @@ animals_draft-power -> animals_domestication: { class: tool-edge }
 animals_animal-materials -> animals_domestication: { class: material-edge }
 animals_sericulture -> animals_domestication: { class: material-edge }
 animals_pest-management -> animals_domestication: { class: tool-edge }
+animals_poultry -> animals: { class: tool-edge }
+animals_poultry_chickens -> animals_poultry: { class: material-edge }
+animals_poultry_coturnix -> animals_poultry: { class: material-edge }
+animals_poultry_ducks -> animals_poultry: { class: material-edge }
+animals_poultry_geese -> animals_poultry: { class: material-edge }
+animals_poultry_turkeys -> animals_poultry: { class: material-edge }
+animals_poultry_guinea-fowl -> animals_poultry: { class: material-edge }
+animals_poultry_pigeons -> animals_poultry: { class: material-edge }
+animals_cattle -> animals: { class: material-edge }
+animals_sheep -> animals: { class: material-edge }
+animals_goats -> animals: { class: material-edge }
+animals_pigs -> animals: { class: material-edge }
+animals_equines -> animals: { class: material-edge }
+animals_camelids -> animals: { class: material-edge }
+animals_bison -> animals: { class: material-edge }
+animals_rabbits -> animals: { class: material-edge }
+animals_cattle -> animals_domestication: { class: tool-edge }
+animals_sheep -> animals_domestication: { class: tool-edge }
+animals_goats -> animals_domestication: { class: tool-edge }
+animals_pigs -> animals_domestication: { class: tool-edge }
+animals_equines -> animals_domestication: { class: tool-edge }
+animals_draft-power -> animals_equines: { class: material-edge }
+animals_draft-power -> animals_cattle: { class: material-edge }
+animals_animal-materials -> animals_cattle: { class: material-edge }
+animals_animal-materials -> animals_sheep: { class: material-edge }
+animals_insect-farming -> animals_domestication: { class: tool-edge }
+animals_aquaculture -> animals_insect-farming: { class: material-edge }
+animals_poultry_chickens -> animals_insect-farming: { class: material-edge }
 animals -> foundations: { class: tool-edge }
 animals -> foundations_food-agriculture: { class: material-edge }
 animals_draft-power -> foundations_tools-basic: { class: tool-edge }
@@ -170,6 +218,15 @@ machine-tools_iterative-bootstrap -> animals_animal-materials: { class: material
 health_pharmacology -> animals_beekeeping: { class: material-edge }
 health_medicine -> animals_beekeeping: { class: material-edge }
 foundations_food-agriculture -> animals_beekeeping: { class: material-edge }
+textiles_fibers -> animals_sheep: { class: material-edge }
+textiles_fibers -> animals_goats: { class: material-edge }
+textiles_fibers -> animals_rabbits: { class: material-edge }
+textiles_fibers -> animals_camelids: { class: material-edge }
+foundations_food-agriculture -> animals_pigs: { class: material-edge }
+foundations_food-agriculture -> animals_rabbits: { class: material-edge }
+animals_insect-farming -> foundations_food-agriculture: { class: tool-edge }
+animals_poultry -> foundations_food-agriculture: { class: material-edge }
+agriculture_aquaponics -> animals_aquaculture: { class: tool-edge }
 
 # ==================== STYLING ====================
 animals.class: domain
@@ -180,6 +237,24 @@ animals_beekeeping.class: earlyWin
 animals_aquaculture.class: capability
 animals_sericulture.class: capability
 animals_pest-management.class: capability
+animals_poultry.class: earlyWin
+animals_poultry_chickens.class: earlyWin
+animals_poultry_coturnix.class: earlyWin
+animals_poultry_ducks.class: earlyWin
+animals_poultry_geese.class: process
+animals_poultry_turkeys.class: process
+animals_poultry_guinea-fowl.class: earlyWin
+animals_poultry_pigeons.class: earlyWin
+animals_cattle.class: critical
+animals_sheep.class: earlyWin
+animals_goats.class: earlyWin
+animals_pigs.class: earlyWin
+animals_equines.class: critical
+animals_camelids.class: capability
+animals_bison.class: capability
+animals_rabbits.class: earlyWin
+animals_insect-farming.class: earlyWin
+agriculture_aquaponics.class: external
 ceramics_lime.class: external
 chemistry_lubricants.class: external
 foundations.class: external

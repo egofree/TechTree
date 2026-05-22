@@ -6,18 +6,30 @@ graph TD
     subgraph agriculture_internal ["Agriculture — Internal Structure"]
         direction TB
         agriculture_hydroponic-ph-control["Hydroponic pH Control"]
+        agriculture_soil-management["Soil Management & Composting"]
+        agriculture_soil-management_vermiculture["Vermiculture"]
+        agriculture_aquaponics["Aquaponics"]
     end
 
     %% ==================== DOMAIN NODE ====================
     agriculture["Agriculture"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    animals_aquaculture("Aquaculture & Fisheries")
     chemistry_electrodialysis("Electrodialysis")
     energy_electricity("Electricity Generation & Distribution")
+    foundations_food-agriculture("Agriculture & Food Production")
 
     %% ==================== EDGES ====================
+    agriculture_soil-management -.-> agriculture
+    agriculture_soil-management_vermiculture --> agriculture_soil-management
+    agriculture_aquaponics -.-> agriculture
+    agriculture_hydroponic-ph-control -.-> agriculture_aquaponics
     energy_electricity --> agriculture_hydroponic-ph-control
     chemistry_electrodialysis -.-> agriculture_hydroponic-ph-control
+    foundations_food-agriculture --> agriculture_soil-management
+    agriculture_aquaponics -.-> animals_aquaculture
+    agriculture_aquaponics -.-> foundations_food-agriculture
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -35,6 +47,11 @@ graph TD
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class agriculture domain
     class agriculture_hydroponic-ph-control capability
+    class agriculture_soil-management earlyWin
+    class agriculture_soil-management_vermiculture earlyWin
+    class agriculture_aquaponics capability
+    class animals_aquaculture external
     class chemistry_electrodialysis external
     class energy_electricity external
+    class foundations_food-agriculture external
     class EdgeLegend,MatNote,ToolNote legend

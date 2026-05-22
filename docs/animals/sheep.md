@@ -1,0 +1,151 @@
+# Sheep (*Ovis aries*)
+
+> **Node ID**: animals.sheep
+> **Domain**: [Animals](./)
+> **Dependencies**: `animals`, `animals.domestication`
+> **Enables**: `animals.animal-materials`, `textiles.wool-processing`, `food.dairy`, `agriculture.soil-management`
+> **Timeline**: Years 1-25+
+> **Outputs**: wool, mutton, milk, lanolin, sheepskins, manure
+
+### Overview
+
+Sheep are the most versatile small ruminant for a bootstrapping civilization — producing wool (the premier natural fiber for textiles), meat (lamb and mutton), milk (for cheese and fermented products), and pelts. Their modest size (mature weight 60-120 kg depending on breed) makes them easier to handle than cattle, and their gregarious flocking instinct simplifies herding. Gestation is 147 days (range 144-152), with typical litters of singles for hill breeds, twins for lowland breeds, and occasional triplets. A well-managed flock of 50-100 ewes on 10-15 hectares of improved pasture can sustain a small community with food, fiber, and fertilizer.
+
+Sheep are particularly valuable in early-stage agriculture because they graze closer to the ground than cattle, utilize vegetation that cattle refuse, and produce nitrogen-rich manure (0.7% N fresh weight, 2-3 kg/day per animal) that builds soil fertility. Their relatively low infrastructure requirements — simple shelters for winter shelter and lambing, basic fencing — make them accessible at an early stage of development.
+
+### Breed Types and Selection
+
+**Wool breeds** (selected for fleece quality and quantity):
+- **Merino**: The gold standard for fine wool. Fiber diameter 17-24 microns (ultrafine lines can reach below 15 microns). Fleece weight 4-6 kg (greasy). Dense, crimpy fiber that felts well and produces soft, next-to-skin garments. Merinos require shearing annually — the fleece does not shed naturally. Hardy and adaptable, though somewhat more susceptible to foot rot in wet conditions. Originated in Spain, now found worldwide. The foundation of the fine woolen textile industry.
+- **Romney**: Longwool breed producing a lustrous, silky fleece of 30-38 microns. Fleece weight 5-8 kg. The longer staple length (15-20 cm) makes Romney wool ideal for worsted spinning and rug weaving. Large frame (rams 100-130 kg), calm temperament. Tolerates wet conditions well — developed in the Romney Marsh of Kent, England.
+- **Corriedale**: Dual-purpose cross (Merino × Lincoln) producing medium wool (25-32 microns) and a reasonable carcass. Fleece weight 4-6 kg. Widely adaptable. Good entry breed for operations needing both wool and meat.
+
+**Meat breeds** (selected for growth rate, carcass conformation, and lambing percentage):
+- **Suffolk**: Large, polled, black-faced breed. Rams 110-160 kg. Fast-growing lambs reach 40-50 kg live weight by 12-16 weeks on good pasture. Lean carcass with excellent conformation. The dominant terminal sire breed in commercial sheep production — Suffolk rams are crossed onto ewes of other breeds to produce fast-growing market lambs.
+- **Texel**: White-faced, muscular breed from the Netherlands. Exceptional carcass conformation — a high ratio of lean meat to fat and bone. Rams 90-130 kg. Lambs grow slightly slower than Suffolks but yield more saleable meat per kg of live weight. Hardy and adaptable.
+- **Dorper**: Hair sheep (shed their coat rather than requiring shearing) developed in South Africa for meat production in arid conditions. Excellent maternal traits, high lambing percentage (150-180%). Eliminates the need for shearing labor — a significant advantage in hot climates where wool is a liability.
+
+**Dairy breeds**:
+- **East Friesian**: The highest-producing dairy sheep breed. 400-600 L milk per lactation (180-210 days) at 6-7% butterfat. Large frame (ewes 70-90 kg). Prolific — lambing percentage 200-230%. The foundation of sheep dairy operations worldwide. Requires high-quality nutrition to sustain milk production.
+- **Lacaune**: French dairy breed producing 250-350 L per lactation at 7-8% butterfat. The breed used for Roquefort cheese production. Slightly hardier than East Friesian, better adapted to rocky, arid pasture.
+
+**Selection for bootstrapping**:
+- Hardiness and foraging ability on marginal pasture
+- Ease of lambing (reduces intervention and losses)
+- Either a true dual-purpose breed (Corriedale, Dorset) or a complementary pair (fine-wool ewes × terminal sire ram)
+- Resistance to common parasites — some breeds (St. Croix, Red Maasai) show natural resistance to internal parasites
+
+### Wool Production
+
+**Shearing technique and timing**:
+Shear once per year, in spring before lambing or shortly after (timing depends on climate and management system). Spring shearing removes the winter fleece before hot weather and ensures the fleece is clean (sheep have been on fresh spring pasture, not standing in winter mud). A professional shearer processes 100-200 sheep per day using mechanical shears; hand shears (blade shears) manage 20-40 per day.
+
+Shearing technique: lay the sheep on its hip in a sitting position (the "shearing position" — sheep become calm and immobile in this posture). Work in a systematic pattern: belly first (separate, lower grade), then long blows (strokes) from the hindquarters forward along the back and sides. Keep the skin stretched flat with the free hand to prevent cuts. A complete fleece should come off in one piece ("the blanket").
+
+**Fleece weight and grading**:
+- Fleece weight: 2-5 kg greasy (unwashed) per shearing, yielding 60-70% clean fiber after scouring (washing). A Merino might yield 65-70% clean fiber; a longwool breed 75-80%.
+- **Fiber diameter** (the primary quality determinant): Measured in microns. Under 19 microns: fine (next-to-skin garments). 19-25 microns: medium (sweaters, outerwear). 25-35 microns: coarse (carpets, rugs, blankets). Above 35 microns: very coarse (industrial felts, insulation).
+- **Staple length**: The length of individual wool fibers. 5-8 cm for fine wools, 15-25 cm for longwools. Affects spinning method — short staples are carded and woolen-spun (fluffy, warm yarn); long staples are combed and worsted-spun (smooth, strong yarn).
+- **Grade classification**: Visual and tactile assessment — fineness, crimp (wave pattern), luster, color, vegetable matter contamination, and strength (tender wool breaks along the fiber, caused by illness or nutritional stress during growth).
+
+**Lanolin recovery**:
+When fleece is scoured (washed in hot water with soap or detergent), the natural wool grease (lanolin) is recovered from the wash water. Lanolin is a complex mixture of wax esters, fatty acids, and alcohols. It is an excellent water repellent, skin conditioner, and lubricant. Yield: roughly 10-15% of greasy fleece weight — a 5 kg fleece produces 500-750 g lanolin. Uses: leather conditioning, skin ointments, rust prevention on metal tools, and as a base for lubricants.
+
+### Lambing Management
+
+**Intensive lambing** (higher investment, higher survival):
+Bring ewes into lambing pens (individual pens, 1.5-2.0 m²) just before lambing. Monitor closely. Assist difficult births — if a ewe has been straining for 30-60 minutes without progress, check presentation. Ensure lambs nurse colostrum within 2 hours — the first milk contains antibodies essential for passive immunity. In cold weather, dry lambs immediately and provide supplemental heat (heat lamps or warming boxes). Lambing pens allow bonding and prevent mismothering. Labor-intensive: expect to check ewes every 2-3 hours during the lambing period.
+
+**Extensive lambing** (lower labor, lower survival):
+Ewes lamb on pasture with minimal intervention. Suitable for hardy breeds in mild climates. Lamb mortality is higher (15-25% vs 5-10% in intensive systems) but labor costs are minimal. Requires good pasture shelter (hedgerows, topography) for weather protection. Predation (foxes, coyotes, eagles) is a greater risk without constant human presence.
+
+**Lambing percentage targets**:
+- Hill/extensive breeds: 100-130% (mostly singles)
+- Lowland/crossbred ewes: 150-180% (mostly twins)
+- Improved/prolific breeds (East Friesian, Finnsheep): 200-300% (twins and triplets common)
+- Every additional lamb per ewe significantly improves flock economics — a ewe that weans twins produces nearly twice the output of one weaning a single, with only marginally higher feed costs.
+
+### Flock Health
+
+**Foot rot prevention and treatment**:
+Foot rot is a bacterial infection (*Dichelobacter nodosus* and *Fusobacterium necrophorum*) causing lameness, foul-smelling discharge, and separation of the hoof horn from the underlying tissue. It thrives in wet, muddy conditions and spreads rapidly through a flock.
+
+Prevention: regular foot trimming (every 3-4 months), foot bathing in copper sulfate solution (5-10%) or zinc sulfate (10%) — run sheep through a bath 10-15 cm deep, have them stand in it for 5-10 minutes, then stand on a hard surface for 30 minutes to allow absorption. Repeat weekly during wet seasons. Quarantine incoming animals. Cull chronically infected sheep — they serve as reservoirs.
+
+Treatment: pare away diseased hoof horn to expose infected tissue. Apply topical antibiotic spray or copper sulfate paste. In severe cases, injectable antibiotics (penicillin/streptomycin). Isolate affected animals.
+
+**Internal parasite management**:
+The barber pole worm (*Haemonchus contortus*) is the single greatest health threat to sheep worldwide. It is a blood-sucking abomasal parasite that causes anemia, bottle jaw (submandibular edema), weight loss, and death in heavy infections. Eggs are shed in feces, develop to infective larvae on pasture, and are consumed during grazing. In warm, humid conditions, the life cycle completes in 3-4 weeks, leading to rapid pasture contamination.
+
+**FAMACHA scoring**:
+A practical, low-cost method for identifying anemic sheep that need deworming. The FAMACHA card has five color categories for the conjunctival mucous membrane (inner lower eyelid):
+- **1**: Red-pink — healthy, no treatment needed
+- **2**: Pink — mild anemia, monitor
+- **3**: Pink-white — moderate anemia, treat
+- **4**: White — severe anemia, treat immediately
+- **5**: White-gray — near-death, emergency treatment
+
+Score every 2-4 weeks during the parasite season. Treat only sheep scoring 3-5 — this selects for resistant animals and reduces dewormer use, slowing the development of drug-resistant parasites. FAMACHA is not a standalone system — combine with fecal egg counts for comprehensive monitoring.
+
+**Dewormer rotation**:
+Rotate between dewormer classes (benzimidazoles, levamisole, macrocyclic lactones/ivermectin) to slow resistance development. Use the correct dose based on accurate body weight. Underdosing accelerates resistance. In a bootstrapping context without access to synthetic dewormers, control relies on: pasture rotation (moving to clean pasture before larval buildup), mixed species grazing (cattle and horses consume sheep parasite larvae without being affected, "vacuuming" the pasture), and breeding for natural resistance.
+
+### Ewe Nutrition
+
+**Late pregnancy nutrition** (last 4-6 weeks):
+This is the most critical nutritional period. The developing fetus(es) occupy increasing abdominal space, compressing the rumen and reducing the ewe's voluntary feed intake at exactly the time her energy requirements are rising dramatically. A ewe carrying twins needs 30-40% more energy in late pregnancy than in early pregnancy.
+
+**Pregnancy toxemia** (twin lamb disease):
+Metabolic disease caused by inadequate energy intake in late pregnancy. The ewe mobilizes body fat to meet energy needs, producing ketone bodies faster than the liver can metabolize them. Symptoms: lethargy, apparent blindness, staggering, sweet-smelling breath (acetone), progressing to recumbency and death within 2-7 days if untreated.
+
+Prevention: increase energy intake 2-3 weeks before lambing. Provide 0.3-1.0 kg/day of grain supplement (corn, barley, or oats) split into two feeds. Ensure adequate rumen function with good-quality forage. Avoid sudden feed changes. Ultrasound scanning to identify ewes carrying multiples allows targeted feeding of the highest-risk animals.
+
+Treatment: oral propylene glycol (60-120 mL, 2-3 times daily) as an immediate energy source. Intravenous glucose in severe cases. Deliver lambs if near term — this eliminates the energy drain of pregnancy and often resolves the condition.
+
+### Crutching and Tail Docking
+
+**Crutching**: Shearing the wool from the breech area (around the tail, hindquarters, and udder) to keep the area clean. Done 2-4 weeks before lambing so the ewe's hindquarters are free of dags (fecal-contaminated wool) that newborn lambs can mistake for the udder. Also reduces flystrike risk (blowflies laying eggs in soiled wool, with maggots eating into the living tissue). Crutching is a partial shear — only the breech and belly areas — and is quicker and less stressful than a full shearing.
+
+**Tail docking**:
+Remove the tail of lambs within the first 2 weeks of life (preferably at 2-7 days). Purpose: prevents fecal accumulation on the tail and breech wool, drastically reducing flystrike. Methods:
+- **Elastrator (rubber ring)**: Place a small rubber band between the tail vertebrae. Blood supply is cut off; the tail sloughs in 2-4 weeks. Simple, quick, bloodless when done very young.
+- **Hot docker (cautery)**: A heated blade that cuts and cauterizes simultaneously. Minimal bleeding. Common in commercial operations.
+- **Knife**: Cut with a sharp blade, then apply antiseptic. Simple but creates an open wound.
+
+Dock length: leave enough tail to cover the vulva in ewes (2-3 coccygeal vertebrae) — excessively short docking increases the risk of rectal prolapse and eliminates natural weather protection for the perineal area.
+
+### Meat and Carcass
+
+**Lamb** (under 12 months): Slaughter at 35-50 kg live weight, producing a 17-25 kg carcass (45-55% dressing percentage). Mild flavor, tender meat. The most valuable product per kg.
+
+**Hogget** (12-24 months): Stronger flavor, slightly less tender. Heavier carcass (25-35 kg). Good value when surplus animals are available.
+
+**Mutton** (over 24 months): Strong, distinctive flavor. Requires slow cooking (stewing, braising) to tenderize. Underutilized in modern markets but an excellent, flavorful product for a bootstrapping scenario where nothing is wasted. Breeding ewes at the end of their productive life (6-8 years) become mutton.
+
+Sheepskins with the wool on produce durable, warm rugs, seat covers, and footwear liners. Tanned sheepskin is one of the oldest forms of clothing — the wool fibers are anchored in the leather, creating an integrated garment that insulates in both cold and hot conditions.
+
+### Cross-Domain Links
+
+- **[Domestication](domestication.md)** — general livestock principles: housing, nutrition, breeding, health fundamentals
+- **[Animal-Derived Materials](animal-materials.md)** — wool processing, leather tanning, lanolin extraction, horn and bone working
+- **[Wool Processing](../textiles/wool-processing.md)** — scouring, carding, spinning, weaving, and felting wool into textiles
+- **[Dairy Processing](../food/dairy.md)** — sheep milk cheese (pecorino, feta, Roquefort types), yogurt, and fermented products
+- **[Agriculture](../agriculture/)** — pasture management, crop residues as winter feed, manure as fertilizer
+
+### Safety
+
+**Ram handling**: Rams can be aggressive, especially during the breeding season (autumn). A charging ram can knock an adult down and cause serious injury. Signs of aggression: lowering the head, pawing, charging. Never turn your back on a ram. Use a ram handling shield or staff. Some handlers keep a spray bottle of water — a quick spray to the face interrupts a charge.
+
+**Shearing injuries**: Both to the shearer and the sheep. Hand shears or mechanical clippers can cut skin. Keep blades sharp and close to the skin — dull blades require more pressure and are more likely to grab and tear. Treat cuts on sheep immediately with antiseptic (iodine-based). Shearers risk back injury from the repetitive lifting and bending — proper technique (using legs, not back) is essential.
+
+**Zoonotic diseases**: Orf (contagious ecthyma — a parapoxvirus causing painful sores on hands), Q fever (Coxiella burnetii — flu-like illness from birthing fluids), and listeriosis (from contaminated silage). Wear gloves when handling sheep with sores, during lambing, and when processing fleece. Wash hands thoroughly.
+
+**Quarantine**: New animals should be quarantined for 30 days and tested for diseases (foot rot, caseous lymphadenitis, ovine progressive pneumonia, scrapie) before introduction to the flock. A single infected introduction can devastate a naive flock.
+
+**Shepherd's crook**: The traditional hooked staff serves multiple purposes: catching sheep by the neck or hind leg, opening gates, and providing a walking aid on rough terrain. A 1.5 m staff with a curved hook (30-40 cm diameter) bent from green wood or fashioned from a natural branch crotch. The hook should be smooth to avoid injuring sheep. Essential handling tool that requires no manufacturing infrastructure beyond a knife and a source of heat for bending wood.
+
+**Predator protection**: Sheep are vulnerable to predation (wolves, coyotes, foxes, feral dogs, eagles). Guardian animals (livestock guardian dogs such as Great Pyrenees, Akbash, or Maremma) bonded to the flock from puppyhood provide 24-hour protection. A single guardian dog protects 50-200 sheep. Donkeys and llamas also serve as guardians — they are naturally aggressive toward canids and will chase, trample, or kick predators that approach the flock. Fencing (woven wire 1.0-1.2 m with one or two electrified offset wires) supplements guardian animals.
+
+---
+
+[← Back to Animals](index.md)

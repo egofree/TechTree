@@ -5297,6 +5297,567 @@
         "early-win": false,
         "pinnacle": false
       }
+    },
+    {
+      "id": "animals.poultry",
+      "name": "Poultry Farming",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Managed rearing of domesticated birds for eggs, meat, feathers, and pest control services. Poultry species convert feed and forage into protein more efficiently than most livestock, and many species provide complementary services such as pest control, weed management, and guardian behavior.",
+      "timeline": "Years 0-10+",
+      "outputs": [
+        "poultry",
+        "eggs",
+        "feathers",
+        "manure"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Chickens and quail reproduce rapidly, providing eggs and meat within months of establishment. Poultry manure is the highest-nitrogen livestock manure, immediately improving crop yields.",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.poultry.chickens",
+      "name": "Chickens",
+      "level": "process",
+      "parent": "animals.poultry",
+      "description": "Domesticated fowl (Gallus gallus domesticus) raised for eggs and meat. The most widely kept poultry species, producing 200-300 eggs per year for modern layers on just 100-150g feed/day. Dual-purpose breeds provide both eggs and meat, reaching slaughter weight at 12-16 weeks on range.",
+      "timeline": "Years 0-5",
+      "outputs": [
+        "eggs",
+        "chicken_meat",
+        "feathers",
+        "manure"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Point-of-lay at 18-22 weeks, eggs within first year. Minimal space requirements and efficient feed conversion make chickens the fastest livestock to establish.",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.poultry.coturnix",
+      "name": "Coturnix Quail",
+      "level": "process",
+      "parent": "animals.poultry",
+      "description": "Japanese quail (Coturnix japonica) raised for eggs and meat. Sexual maturity at 6 weeks, producing 300+ eggs per year at 10-12g each. The smallest and fastest-reproducing poultry species, requiring minimal space (25x25 cm cage per bird) and feed (20-25g/day).",
+      "timeline": "Years 0-3",
+      "outputs": [
+        "quail_eggs",
+        "quail_meat",
+        "manure"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Egg production begins at 6 weeks — the fastest return of any poultry. Virtually silent, suitable for urban or stealth setups.",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.poultry.ducks",
+      "name": "Ducks",
+      "level": "process",
+      "parent": "animals.poultry",
+      "description": "Domesticated ducks (Anas platyrhynchos domesticus, Cairina moschata) raised for eggs, meat, and pest control. Khaki Campbell ducks produce 250-340 eggs per year, exceeding most chicken breeds. Ducks are superior foragers of slugs, snails, and aquatic plants, and are more disease-resistant than chickens.",
+      "timeline": "Years 0-5",
+      "outputs": [
+        "duck_eggs",
+        "duck_meat",
+        "feathers",
+        "manure"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Excellent foragers that control slug and snail populations while producing more eggs than most chicken breeds.",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.poultry.geese",
+      "name": "Geese",
+      "level": "process",
+      "parent": "animals.poultry",
+      "description": "Domesticated geese (Anser anser domesticus) raised for meat, down, eggs, and weed control. Geese are primarily grazers that can subsist on pasture with minimal supplemental feed, making them the most feed-efficient poultry for meat production on grassland. Their aggressive alarm behavior provides guardian functions.",
+      "timeline": "Years 0-10+",
+      "outputs": [
+        "goose_meat",
+        "goose_down",
+        "eggs",
+        "manure"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.poultry.turkeys",
+      "name": "Turkeys",
+      "level": "process",
+      "parent": "animals.poultry",
+      "description": "Domesticated turkeys (Meleagris gallopavo) raised for meat. Toms reach 8-15 kg, hens 4-8 kg, with market weight at 14-20 weeks. Turkeys require more space than chickens (20+ m² per bird for range) and are susceptible to blackhead disease, requiring separation from chickens.",
+      "timeline": "Years 1-10+",
+      "outputs": [
+        "turkey_meat",
+        "feathers",
+        "manure"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.poultry.guinea-fowl",
+      "name": "Guinea Fowl",
+      "level": "process",
+      "parent": "animals.poultry",
+      "description": "Helmeted guinea fowl (Numida meleagris) raised for meat, eggs, and pest control. Guinea fowl are specialist consumers of ticks, insects, and small rodents, providing exceptional pest control services. Their loud alarm calls serve as a guardian function for other poultry. Extremely hardy and disease-resistant.",
+      "timeline": "Years 1-10+",
+      "outputs": [
+        "guinea_meat",
+        "eggs",
+        "pest_control",
+        "manure"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Outstanding tick and insect control — a flock of guinea fowl can dramatically reduce tick-borne disease risk in the settlement area.",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.poultry.pigeons",
+      "name": "Pigeons & Squab",
+      "level": "process",
+      "parent": "animals.poultry",
+      "description": "Domestic pigeons (Columba livia) raised for squab meat (26-30 day old juveniles) and guano fertilizer. Pigeons are self-feeding foragers requiring minimal supplemental feed, and squab reaches market weight (350-500g dressed) in under a month. Pigeon guano is one of the richest natural fertilizers (high NPK).",
+      "timeline": "Years 0-10+",
+      "outputs": [
+        "squab_meat",
+        "guano",
+        "manure"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Near-zero feed cost if allowed to forage. Squab production cycle is under 30 days. Guano is premium fertilizer.",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.cattle",
+      "name": "Cattle Husbandry",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Raising domesticated cattle (Bos taurus) for dairy, beef, tallow, leather, and draft power. Cattle are the largest and most productive livestock species, yielding 10-20 L milk/day at peak lactation and 275-300 kg dressed carcass. Oxen provide primary draft power for plowing and transport before mechanization.",
+      "timeline": "Years 1-30+",
+      "outputs": [
+        "beef",
+        "dairy",
+        "tallow",
+        "leather_hides",
+        "manure",
+        "draft_power"
+      ],
+      "critical": true,
+      "critical_note": "Cattle provide the primary draft power for pre-industrial agriculture and transport, plus dairy as the most efficient large-scale protein source",
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.sheep",
+      "name": "Sheep Husbandry",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Raising domesticated sheep (Ovis aries) for wool, mutton, and dairy. Sheep produce 2-5 kg fleece per shearing (60-70% clean fiber yield), reach slaughter weight at 4-6 months, and provide nitrogen-rich manure (0.7% N fresh weight). Wool is the primary fiber for textiles before cotton and synthetics.",
+      "timeline": "Years 1-20+",
+      "outputs": [
+        "mutton",
+        "wool",
+        "sheep_milk",
+        "manure"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Sheep produce wool within the first year, enabling textile production. Fast reproduction (twins common) builds flock quickly.",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.goats",
+      "name": "Goat Husbandry",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Raising domesticated goats (Capra aegagrus hircus) for milk, meat, fiber, and brush clearance. Goats are browsers that clear woody undergrowth other livestock avoid, produce milk with higher digestibility than cow milk, and thrive on marginal forage. Dual-purpose breeds provide both milk and meat efficiently.",
+      "timeline": "Years 1-20+",
+      "outputs": [
+        "chevon",
+        "goat_milk",
+        "cashmere",
+        "manure",
+        "brush_clearance"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Goats clear brush and browse on marginal land unsuitable for cattle or sheep, converting scrub into milk and meat. Twin kids are the norm.",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.pigs",
+      "name": "Pig Husbandry",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Raising domesticated pigs (Sus scrofa domesticus) for pork, lard, and waste disposal. Pigs convert feed to carcass more efficiently than cattle or sheep (70-80% dressed yield), consume food waste and crop residues other livestock reject, and produce 8-12 piglets per litter. The most productive omnivore in the livestock stable.",
+      "timeline": "Years 1-20+",
+      "outputs": [
+        "pork",
+        "lard",
+        "manure",
+        "waste_disposal"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Market weight (90-110 kg) at 5-7 months. Pigs convert kitchen waste and crop residues into meat and lard, closing the food waste loop.",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.equines",
+      "name": "Equine Husbandry",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Raising horses (Equus caballus) and donkeys (Equus africanus asinus) for draft power, transport, and pack carrying. Horses provide faster transport and greater pulling power; donkeys are more enduring, tolerate poor forage, and have longer working lifespans (25-30 years vs 15-20 for horses). Both species are essential for pre-industrial motive power.",
+      "timeline": "Years 2-30+",
+      "outputs": [
+        "draft_power",
+        "transport",
+        "manure"
+      ],
+      "critical": true,
+      "critical_note": "Equines and cattle together provide all pre-industrial motive power — without draft animals, agriculture and transport are limited to human labor alone",
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [
+          "transport"
+        ],
+        "era": "stone-age",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.camelids",
+      "name": "Camelid Husbandry",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Raising alpacas (Vicugna pacos) and llamas (Lama glama) for fiber, pack transport, and guard duty. Alpacas produce 2-5 kg of fine fiber every 12-18 months; llamas carry 25-30% of body weight as pack animals and serve as livestock guardians against predators. Both are hardy, disease-resistant, and use communal dung piles for easy manure collection.",
+      "timeline": "Years 2-20+",
+      "outputs": [
+        "alpaca_fiber",
+        "llama_fiber",
+        "pack_transport",
+        "manure"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.bison",
+      "name": "Bison Husbandry",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Raising American bison (Bison bison) for meat and hides on grassland. Bison are naturally hardy with minimal health issues, requiring no shelter in most climates and finishing on grass alone. Their meat is leaner and higher in protein than beef. Handling requires reinforced facilities due to wild temperament and 1.8m jumping ability.",
+      "timeline": "Years 5-30+",
+      "outputs": [
+        "bison_meat",
+        "bison_hides",
+        "manure"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.rabbits",
+      "name": "Rabbit Husbandry",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Raising domesticated rabbits (Oryctolagus cuniculus) for meat, fur, and Angora wool. Rabbits produce 4-6 litters of 6-12 kits per year, reaching processing weight (2-2.5 kg) at 10-12 weeks on minimal space (0.15-0.25 m² per kg). Rabbit manure can be applied directly to crops without composting (cold manure).",
+      "timeline": "Years 0-10+",
+      "outputs": [
+        "rabbit_meat",
+        "rabbit_fur",
+        "manure",
+        "angora_wool"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Fastest reproduction of any livestock — a single doe can produce 100+ kg of meat per year. Minimal space, feed, and infrastructure requirements.",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "animals.insect-farming",
+      "name": "Insect Farming (BSF)",
+      "level": "capability",
+      "parent": "animals",
+      "description": "Farming Black Soldier Fly larvae (Hermetia illucens) for protein meal and biowaste conversion. BSF larvae convert 1 ton of organic waste into 150-200 kg of fresh larvae (40-45% protein dry weight) in 14-18 days, providing high-protein feed for chickens, fish, and pigs while reducing waste volume by 50-80%.",
+      "timeline": "Years 1-10+",
+      "outputs": [
+        "bsf_larvae",
+        "protein_meal",
+        "compost",
+        "chicken_feed",
+        "fish_feed"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Converts food waste and manure into high-protein animal feed within 2 weeks. The fastest protein production cycle in any livestock system.",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      },
+      "taxonomy": [
+        "biomass.animal.insect"
+      ]
+    },
+    {
+      "id": "agriculture.soil-management",
+      "name": "Soil Management & Composting",
+      "level": "capability",
+      "parent": "agriculture",
+      "description": "Systematic management of soil fertility through composting, cover cropping, and organic matter amendment. Composting converts animal manure, crop residues, and food waste into stable humus at 55-65°C, killing pathogens and weed seeds. Sustained crop yields depend on replacing nutrients removed by harvest.",
+      "timeline": "Years 0-30+",
+      "outputs": [
+        "compost",
+        "fertile_soil",
+        "mulch"
+      ],
+      "critical": true,
+      "critical_note": "Without soil fertility management, crop yields decline 2-5% per year as nutrients are depleted, eventually making agriculture unsustainable",
+      "early_win": true,
+      "early_win_note": "Composting animal manure and crop waste produces safe, stable fertilizer within 3-6 months, immediately improving crop yields 15-25%.",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": true,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "agriculture.soil-management.vermiculture",
+      "name": "Vermiculture",
+      "level": "process",
+      "parent": "agriculture.soil-management",
+      "description": "Composting with Eisenia fetida (red wiggler) earthworms to produce vermicompost and worm castings. Worm castings contain 1.5-2.5% N, 1.0-1.5% P, and 1.0-1.5% K — significantly richer than thermophilic compost. Worm populations double every 2-3 months under ideal conditions, and worm tea serves as a potent liquid fertilizer.",
+      "timeline": "Years 0-20+",
+      "outputs": [
+        "vermicompost",
+        "worm_castings",
+        "worm_tea"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Small-scale vermicomposting can be established in weeks with a bucket of worms and household food scraps, producing premium fertilizer continuously.",
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      },
+      "taxonomy": [
+        "biomass.animal"
+      ]
+    },
+    {
+      "id": "agriculture.aquaponics",
+      "name": "Aquaponics",
+      "level": "capability",
+      "parent": "agriculture",
+      "description": "Integrated fish and plant production system where fish waste provides nutrients for plants, and plants filter water for fish. Aquaponics uses natural biological nitrogen cycling (ammonia → nitrite → nitrate) without chemical pH adjustment, producing both fish protein and vegetables in a single recirculating system. Simpler and lower-tech than hydroponic pH control systems.",
+      "timeline": "Years 5-30+",
+      "outputs": [
+        "fish",
+        "vegetables",
+        "herbs",
+        "aquaponic_produce"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "biomass"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
     }
   ]
 }

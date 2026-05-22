@@ -1977,6 +1977,226 @@
       "from": "chemistry.electrodialysis",
       "to": "chemistry.acid-regeneration",
       "type": "tool"
+    },
+    {
+      "from": "animals.poultry",
+      "to": "animals",
+      "type": "tool"
+    },
+    {
+      "from": "animals.poultry.chickens",
+      "to": "animals.poultry",
+      "type": "material"
+    },
+    {
+      "from": "animals.poultry.coturnix",
+      "to": "animals.poultry",
+      "type": "material"
+    },
+    {
+      "from": "animals.poultry.ducks",
+      "to": "animals.poultry",
+      "type": "material"
+    },
+    {
+      "from": "animals.poultry.geese",
+      "to": "animals.poultry",
+      "type": "material"
+    },
+    {
+      "from": "animals.poultry.turkeys",
+      "to": "animals.poultry",
+      "type": "material"
+    },
+    {
+      "from": "animals.poultry.guinea-fowl",
+      "to": "animals.poultry",
+      "type": "material"
+    },
+    {
+      "from": "animals.poultry.pigeons",
+      "to": "animals.poultry",
+      "type": "material"
+    },
+    {
+      "from": "animals.cattle",
+      "to": "animals",
+      "type": "material"
+    },
+    {
+      "from": "animals.sheep",
+      "to": "animals",
+      "type": "material"
+    },
+    {
+      "from": "animals.goats",
+      "to": "animals",
+      "type": "material"
+    },
+    {
+      "from": "animals.pigs",
+      "to": "animals",
+      "type": "material"
+    },
+    {
+      "from": "animals.equines",
+      "to": "animals",
+      "type": "material"
+    },
+    {
+      "from": "animals.camelids",
+      "to": "animals",
+      "type": "material"
+    },
+    {
+      "from": "animals.bison",
+      "to": "animals",
+      "type": "material"
+    },
+    {
+      "from": "animals.rabbits",
+      "to": "animals",
+      "type": "material"
+    },
+    {
+      "from": "animals.cattle",
+      "to": "animals.domestication",
+      "type": "tool"
+    },
+    {
+      "from": "animals.sheep",
+      "to": "animals.domestication",
+      "type": "tool"
+    },
+    {
+      "from": "animals.goats",
+      "to": "animals.domestication",
+      "type": "tool"
+    },
+    {
+      "from": "animals.pigs",
+      "to": "animals.domestication",
+      "type": "tool"
+    },
+    {
+      "from": "animals.equines",
+      "to": "animals.domestication",
+      "type": "tool"
+    },
+    {
+      "from": "animals.draft-power",
+      "to": "animals.equines",
+      "type": "material"
+    },
+    {
+      "from": "animals.draft-power",
+      "to": "animals.cattle",
+      "type": "material"
+    },
+    {
+      "from": "animals.animal-materials",
+      "to": "animals.cattle",
+      "type": "material"
+    },
+    {
+      "from": "animals.animal-materials",
+      "to": "animals.sheep",
+      "type": "material"
+    },
+    {
+      "from": "textiles.fibers",
+      "to": "animals.sheep",
+      "type": "material"
+    },
+    {
+      "from": "textiles.fibers",
+      "to": "animals.goats",
+      "type": "material"
+    },
+    {
+      "from": "textiles.fibers",
+      "to": "animals.rabbits",
+      "type": "material"
+    },
+    {
+      "from": "textiles.fibers",
+      "to": "animals.camelids",
+      "type": "material"
+    },
+    {
+      "from": "foundations.food-agriculture",
+      "to": "animals.poultry",
+      "type": "material"
+    },
+    {
+      "from": "foundations.food-agriculture",
+      "to": "animals.pigs",
+      "type": "material"
+    },
+    {
+      "from": "foundations.food-agriculture",
+      "to": "animals.rabbits",
+      "type": "material"
+    },
+    {
+      "from": "animals.insect-farming",
+      "to": "animals.domestication",
+      "type": "tool"
+    },
+    {
+      "from": "animals.insect-farming",
+      "to": "foundations.food-agriculture",
+      "type": "tool"
+    },
+    {
+      "from": "animals.aquaculture",
+      "to": "animals.insect-farming",
+      "type": "material"
+    },
+    {
+      "from": "animals.poultry.chickens",
+      "to": "animals.insect-farming",
+      "type": "material"
+    },
+    {
+      "from": "animals.poultry",
+      "to": "foundations.food-agriculture",
+      "type": "material"
+    },
+    {
+      "from": "agriculture.soil-management",
+      "to": "agriculture",
+      "type": "tool"
+    },
+    {
+      "from": "agriculture.soil-management.vermiculture",
+      "to": "agriculture.soil-management",
+      "type": "material"
+    },
+    {
+      "from": "foundations.food-agriculture",
+      "to": "agriculture.soil-management",
+      "type": "material"
+    },
+    {
+      "from": "agriculture.aquaponics",
+      "to": "agriculture",
+      "type": "tool"
+    },
+    {
+      "from": "agriculture.aquaponics",
+      "to": "animals.aquaculture",
+      "type": "tool"
+    },
+    {
+      "from": "agriculture.aquaponics",
+      "to": "foundations.food-agriculture",
+      "type": "tool"
+    },
+    {
+      "from": "agriculture.hydroponic-ph-control",
+      "to": "agriculture.aquaponics",
+      "type": "tool"
     }
   ]
 }

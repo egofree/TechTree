@@ -6,7 +6,7 @@
 > **Outputs**: chlorine, hydrogen, caustic_soda, ion_exchange_membrane, critical_minerals
 > **Tags**: materials=[chemicals, membranes], era=industrial
 
-**Credit**: SEM Tech (Salt Electro Mining Technology) was developed by **Robert Karas**, founder of Rowow LLC. The technology is released under **CC0 1.0 Universal** (public domain). Technical details are drawn from the [open-source patent application](https://github.com/Rowow1/Open-sourced-off-the-shelf-ion-exchange-membrane/blob/main/patent.pdf).
+**Credit**: SEM Tech (Salt Electro Mining Technology) was developed by **Robert Karas**, founder of Rowow LLC. The technology is released under **CC0 1.0 Universal** (public domain). Technical details are drawn from the open-source patent application (see Rowow1/Open-sourced-off-the-shelf-ion-exchange-membrane on GitHub).
 
 ## Overview
 

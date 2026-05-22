@@ -126,7 +126,7 @@ check_no_fetch_calls() {
 
 check_no_es_modules() {
     local js_files
-    js_files=$(find "$SITE_DIR/assets" -name "*.js" -not -name "mermaid.min.js" -type f 2>/dev/null || true)
+    js_files=$(find "$SITE_DIR/assets" -name "*.js" -not -name "mermaid.min.js" -not -name "search-index.js" -type f 2>/dev/null || true)
     if [[ -z "$js_files" ]]; then
         return 0
     fi

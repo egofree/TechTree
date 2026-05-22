@@ -2,4 +2,4 @@
 
 > **Type**: equipment | **Tier**: important | **Domains**: chemistry
 
-- CO₂ gas (from lime kiln, ~35-40% CO₂) is bubbled up through the ammoniated brine in a carbonation tower (series of bubble-cap trays or packed sections).
+Carbonation is the second step of the Solvay process where carbon dioxide gas from the lime kiln is bubbled through ammoniated brine in a carbonation tower. This causes sodium bicarbonate (NaHCO₃) to precipitate as a crystalline solid, which is then filtered and calcined to produce soda ash (Na₂CO₃).

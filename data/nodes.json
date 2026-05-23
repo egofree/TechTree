@@ -50,7 +50,9 @@
         "stone_tools",
         "food_surplus",
         "raw_materials",
-        "fire-hardened_wood"
+        "fire-hardened_wood",
+        "fresh_water",
+        "stored_water"
       ],
       "critical": true,
       "critical_note": "Everything depends on food surplus to free specialist labor and fire for all thermal processes",
@@ -61,7 +63,8 @@
         "material": [
           "wood",
           "stone",
-          "biomass"
+          "biomass",
+          "water"
         ],
         "capability": [],
         "era": "stone-age",
@@ -4641,9 +4644,11 @@
       "pinnacle": false,
       "tags": {
         "material": [
-          "biomass"
+          "water"
         ],
-        "capability": [],
+        "capability": [
+          "transport"
+        ],
         "era": "stone-age",
         "critical": false,
         "early-win": false,

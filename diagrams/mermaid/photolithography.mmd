@@ -18,8 +18,10 @@ graph TD
     chemistry("Chemistry")
     chemistry_dopant-etch-gases("Dopant & Etch Gases")
     chemistry_packaging-testing("Semiconductor Packaging & Testing")
+    computing_electronic("Electronic Computing")
     gas-handling("Gas Handling")
     gas-handling_vacuum("Vacuum Technology")
+    glass_basic("Basic Glass Production")
     machine-tools("Machine Tools Bootstrap")
     optics("Optics")
     polymers_thermosets("Thermosetting Polymers")
@@ -46,6 +48,8 @@ graph TD
     vlsi-scaling_advanced-lithography -.-> photolithography_resists-masks
     vlsi-scaling_advanced-processes -.-> photolithography_fab-processes
     chemistry_packaging-testing --> photolithography_fab-processes
+    computing_electronic --> photolithography_fab-processes
+    photolithography_resists-masks --> glass_basic
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -69,8 +73,10 @@ graph TD
     class chemistry external
     class chemistry_dopant-etch-gases external
     class chemistry_packaging-testing external
+    class computing_electronic external
     class gas-handling external
     class gas-handling_vacuum external
+    class glass_basic external
     class machine-tools external
     class optics external
     class polymers_thermosets external

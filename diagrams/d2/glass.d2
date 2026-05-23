@@ -117,6 +117,9 @@ machine-tools: Machine Tools Bootstrap {
 mining: "Mining Engineering & Extractive Metallurgy" {
   shape: rectangle
 }
+photolithography_resists-masks: "Photoresists, Masks & Lithography" {
+  shape: rectangle
+}
 polymers_composites: Composite Materials {
   shape: rectangle
 }
@@ -142,6 +145,7 @@ silicon_crystal-growth -> glass_advanced: { class: material-edge }
 glass_advanced_glassblowing -> energy_fuels: { class: tool-edge }
 glass -> chemistry_refractories: { class: material-edge }
 polymers_composites -> glass_fibers: { class: material-edge }
+photolithography_resists-masks -> glass_basic: { class: material-edge }
 
 # ==================== STYLING ====================
 glass.class: domain
@@ -156,6 +160,7 @@ energy.class: external
 energy_fuels.class: external
 machine-tools.class: external
 mining.class: external
+photolithography_resists-masks.class: external
 polymers_composites.class: external
 silicon.class: external
 silicon_crystal-growth.class: external

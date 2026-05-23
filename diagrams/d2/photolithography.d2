@@ -107,10 +107,16 @@ chemistry_dopant-etch-gases: "Dopant & Etch Gases" {
 chemistry_packaging-testing: "Semiconductor Packaging & Testing" {
   shape: rectangle
 }
+computing_electronic: Electronic Computing {
+  shape: rectangle
+}
 gas-handling: Gas Handling {
   shape: rectangle
 }
 gas-handling_vacuum: Vacuum Technology {
+  shape: rectangle
+}
+glass_basic: Basic Glass Production {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
@@ -155,6 +161,8 @@ vlsi-scaling_continuous-scaling -> photolithography_fab-processes: { class: tool
 vlsi-scaling_advanced-lithography -> photolithography_resists-masks: { class: tool-edge }
 vlsi-scaling_advanced-processes -> photolithography_fab-processes: { class: tool-edge }
 chemistry_packaging-testing -> photolithography_fab-processes: { class: material-edge }
+computing_electronic -> photolithography_fab-processes: { class: material-edge }
+photolithography_resists-masks -> glass_basic: { class: material-edge }
 
 # ==================== STYLING ====================
 photolithography.class: domain
@@ -165,8 +173,10 @@ ceramics.class: external
 chemistry.class: external
 chemistry_dopant-etch-gases.class: external
 chemistry_packaging-testing.class: external
+computing_electronic.class: external
 gas-handling.class: external
 gas-handling_vacuum.class: external
+glass_basic.class: external
 machine-tools.class: external
 optics.class: external
 polymers_thermosets.class: external

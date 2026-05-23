@@ -1,8 +1,10 @@
 # TECH-TREE-BOOTSTRAP KNOWLEDGE BASE
 
-**Generated:** 2026-05-21
-**Commit:** 80e0e4e
-**Branch:** master
+**Generated:** 2026-05-22
+**Commit:** latest
+**Branch:** main
+
+**Stats:** 207 nodes | 432 edges | 24 domains | 25 Mermaid diagrams | 25 D2 diagrams | 7,097 glossary terms
 
 ## OVERVIEW
 
@@ -32,7 +34,7 @@ tech-tree-bootstrap/
 | Mermaid diagrams | `diagrams/mermaid/` | Auto-generated from data, DO NOT hand-edit |
 | Structured data | `data/` | nodes.json, edges.json, checklist.yaml, resources.json, plants.json, glossary.json |
 | Diagram generator | `scripts/generate-diagrams.sh` | Auto-generates all .mmd from data |
-| Data validation | `scripts/validate.sh` | 16 checks: DAG, cross-refs, tags, edge types, hierarchy, taxonomy |
+| Data validation | `scripts/validate.sh` | 17 checks: DAG, cross-refs, tags, edge types, hierarchy, taxonomy, glossary |
 | Site builder | `scripts/build-site.sh` | Generates `site/` from docs + data |
 | Site validation | `scripts/validate-site.sh` | Checks links, offline-first compliance |
 | Schema reference | `docs/supporting/schema-spec.md` | Normative spec for tags, edge types, SIK test |
@@ -70,7 +72,7 @@ tech-tree-bootstrap/
 # Auto-generate all Mermaid diagrams from data layer
 bash scripts/generate-diagrams.sh
 
-# Validate repo structure (data-driven, 16 checks)
+# Validate repo structure (data-driven, 17 checks including glossary)
 bash scripts/validate.sh
 
 # Build static site to site/

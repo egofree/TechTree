@@ -106,6 +106,9 @@ machine-tools: Machine Tools Bootstrap {
 metals: Metals {
   shape: rectangle
 }
+photolithography_fab-processes: Core Fab Processes {
+  shape: rectangle
+}
 polymers_thermoplastics: Thermoplastic Polymers {
   shape: rectangle
 }
@@ -129,6 +132,7 @@ computing_mechanical -> metals: { class: material-edge }
 computing_electromechanical -> energy_electricity: { class: material-edge }
 computing_electronic -> silicon_basic-devices: { class: material-edge }
 computing_data-storage -> polymers_thermoplastics: { class: material-edge }
+computing_electronic -> photolithography_fab-processes: { class: material-edge }
 
 # ==================== STYLING ====================
 computing.class: domain
@@ -140,6 +144,7 @@ computing_data-storage.class: capability
 energy_electricity.class: external
 machine-tools.class: external
 metals.class: external
+photolithography_fab-processes.class: external
 polymers_thermoplastics.class: external
 silicon_basic-devices.class: external
 vlsi-scaling_eda-design.class: external

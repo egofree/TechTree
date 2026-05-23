@@ -22,6 +22,7 @@ graph TD
     energy_fuels("Fuel Production")
     machine-tools("Machine Tools Bootstrap")
     mining("Mining Engineering & Extractive Metallurgy")
+    photolithography_resists-masks("Photoresists, Masks & Lithography")
     polymers_composites("Composite Materials")
     silicon("Silicon")
     silicon_crystal-growth("Crystal Growth & Wafering")
@@ -41,6 +42,7 @@ graph TD
     glass_advanced_glassblowing -.-> energy_fuels
     glass --> chemistry_refractories
     polymers_composites --> glass_fibers
+    photolithography_resists-masks --> glass_basic
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -68,6 +70,7 @@ graph TD
     class energy_fuels external
     class machine-tools external
     class mining external
+    class photolithography_resists-masks external
     class polymers_composites external
     class silicon external
     class silicon_crystal-growth external

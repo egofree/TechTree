@@ -3,28 +3,28 @@
   "_schema_docs": {
     "description": "Directed dependency edges for the bootciv technology tree. Each edge represents a 'required' relationship: the 'from' node cannot be built until the 'to' node is available. Together with nodes.json, this defines the complete prerequisite graph for bootstrapping industrial civilization.",
     "direction_convention": {
-      "summary": "'from depends on to' — the 'from' node is the dependent (thing that needs something), the 'to' node is the prerequisite (thing needed).",
+      "summary": "'from depends on to' \u2014 the 'from' node is the dependent (thing that needs something), the 'to' node is the prerequisite (thing needed).",
       "example": "An edge { from: 'metallurgy', to: 'foundations' } means: metallurgy requires foundations. You must build foundations before metallurgy.",
       "reverse_lookup": "To find what a node enables, search for edges where 'to' equals that node. The 'from' values are the nodes it enables. This replaces the former 'enables' field from dependencies.json."
     },
     "fields": {
       "from": "Node ID of the dependent (the technology that requires a prerequisite). Must reference a valid node ID in nodes.json.",
       "to": "Node ID of the prerequisite (the technology that must exist first). Must reference a valid node ID in nodes.json.",
-      "type": "Dependency type. One of 'material' (prerequisite provides a physical substance consumed or transformed by the dependent) or 'tool' (prerequisite provides reusable equipment, infrastructure, or capability). When ambiguous (both apply), classify as 'tool' — the infrastructure aspect dominates."
+      "type": "Dependency type. One of 'material' (prerequisite provides a physical substance consumed or transformed by the dependent) or 'tool' (prerequisite provides reusable equipment, infrastructure, or capability). When ambiguous (both apply), classify as 'tool' \u2014 the infrastructure aspect dominates."
     },
     "constraints": [
       "Every 'from' and 'to' value must reference a node ID that exists in nodes.json.",
       "No self-loops: 'from' must differ from 'to'.",
       "No duplicate edges: each (from, to) pair must be unique.",
-      "The graph must be acyclic (DAG). A cycle would mean X requires Y requires X — physically impossible.",
+      "The graph must be acyclic (DAG). A cycle would mean X requires Y requires X \u2014 physically impossible.",
       "Every edge must have type 'material' or 'tool'. The old value 'required' is retired.",
       "Ambiguity rule: if an edge could be both material and tool, classify as 'tool'.",
       "Implicit parent edges: if node A requires node B, and B has a parent P, the edge A->P is NOT automatically implied. Each edge must be explicit."
     ],
     "design_rationale": {
       "why_from_to_not_requires_produces": "The 'from/to' naming mirrors directed graph terminology (source/target) and reads naturally in English: 'from depends on to'. The alternative 'requires/provides' would conflate edges with node outputs.",
-      "why_no_enables_field": "The former dependencies.json had an 'enables' array. This is redundant — it is the inverse of the dependency edge direction. Use reverse lookup instead.",
-      "why_material_tool": "The material/tool distinction captures whether the prerequisite provides a consumed substance (feedstock, fuel, reagent) or reusable infrastructure (equipment, apparatus, capability). This enables richer queries about material flows vs. equipment dependencies. The ambiguity rule (material + tool → tool) resolves cases where both apply, because the enduring infrastructure aspect matters more for dependency analysis."
+      "why_no_enables_field": "The former dependencies.json had an 'enables' array. This is redundant \u2014 it is the inverse of the dependency edge direction. Use reverse lookup instead.",
+      "why_material_tool": "The material/tool distinction captures whether the prerequisite provides a consumed substance (feedstock, fuel, reagent) or reusable infrastructure (equipment, apparatus, capability). This enables richer queries about material flows vs. equipment dependencies. The ambiguity rule (material + tool \u2192 tool) resolves cases where both apply, because the enduring infrastructure aspect matters more for dependency analysis."
     }
   },
   "edges": [
@@ -2177,6 +2177,18 @@
       "from": "agriculture.hydroponic-ph-control",
       "to": "agriculture.aquaponics",
       "type": "tool"
+    },
+    {
+      "from": "computing.electronic",
+      "to": "photolithography.fab-processes",
+      "type": "material",
+      "label": "ICs fabricated via photolithography"
+    },
+    {
+      "from": "photolithography.resists-masks",
+      "to": "glass.basic",
+      "type": "material",
+      "label": "mask blanks from glass substrates"
     }
   ]
 }

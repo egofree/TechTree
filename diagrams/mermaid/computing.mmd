@@ -19,6 +19,7 @@ graph TD
     energy_electricity("Electricity Generation & Distribution")
     machine-tools("Machine Tools Bootstrap")
     metals("Metals")
+    photolithography_fab-processes("Core Fab Processes")
     polymers_thermoplastics("Thermoplastic Polymers")
     silicon_basic-devices("Basic Semiconductor Devices")
     vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
@@ -36,6 +37,7 @@ graph TD
     computing_electromechanical --> energy_electricity
     computing_electronic --> silicon_basic-devices
     computing_data-storage --> polymers_thermoplastics
+    computing_electronic --> photolithography_fab-processes
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -60,6 +62,7 @@ graph TD
     class energy_electricity external
     class machine-tools external
     class metals external
+    class photolithography_fab-processes external
     class polymers_thermoplastics external
     class silicon_basic-devices external
     class vlsi-scaling_eda-design external

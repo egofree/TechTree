@@ -18,7 +18,7 @@ Dislocations within the crystal have a similar effect. Even a single dislocation
 
 Three principal methods produce single crystal silicon ingots. Each trades off purity, cost, and complexity differently:
 
-**Czochralski (CZ) pulling**: The dominant method, producing >90% of all single crystal silicon. Crystal is pulled from a melt in a fused silica crucible. See detailed CZ puller construction in [CZ Pulling](./cz-pulling.md) and the process description below. Key limitation: oxygen incorporation from the dissolving quartz crucible (10-20 ppma O). This oxygen is manageable for most devices but limits certain high-power and radiation-hard applications.
+**Czochralski (CZ) pulling**: The dominant method, producing >90% of all single crystal silicon. Crystal is pulled from a melt in a fused silica crucible. For CZ machine design and hardware specifications, see [CZ Pulling](./cz-pulling.md). Key limitation: oxygen incorporation from the dissolving quartz crucible (10-20 ppma O). This oxygen is manageable for most devices but limits certain high-power and radiation-hard applications.
 
 **Float zone (FZ)**: No crucible contact. Highest purity silicon. Described in detail below. Used for power devices where high resistivity (>10,000 Ω·cm) and low oxygen content are required.
 
@@ -34,13 +34,7 @@ The seed crystal initiates the single-crystal structure in all growth methods:
 
 ### Czochralski Process Detail
 
-**Puller construction**:
-- **Chamber**: Water-cooled stainless steel vacuum chamber. Diameter 300-600 mm. Viewport for observation. Sealed with Viton or copper gaskets.
-- **Crucible**: Fused silica (SiO₂), 200-450 mm diameter, 200-300 mm tall. Supported by graphite susceptor (cylindrical sleeve). Crucible is CONSUMABLE — slowly dissolves into silicon melt (oxygen incorporation into crystal, ~10-20 ppma O). Rotates at 2-15 RPM.
-- **Heater**: Graphite resistance heater (cylindrical, slotted for electrical path). Power 20-100 kW. Temperature control ±0.1-0.5°C at ~1420°C (silicon melts at 1414°C).
-- **Pull mechanism**: Precision leadscrew + stepper or servo motor. Pull speed 0.5-3 mm/min. Rotation 5-20 RPM. Vibration isolation (concrete block or air-suspended base). Must maintain constant speed within ±0.5%.
-- **Atmosphere**: Argon (Ar) at ~10-50 mbar, flowing at 10-30 L/min. Prevents SiO formation and graphite oxidation. Argon from air separation (Chemistry stage fractional distillation of liquid air).
-- **Seed crystal**: Small single-crystal silicon piece, oriented <100> or <111>. Inserted into melt to initiate growth.
+The CZ process requires precision control of temperature, pull speed, and rotation. Machine hardware specifications (chamber, crucible, heater, pull mechanism) are detailed in [CZ Pulling](./cz-pulling.md).
 
 **Growth process**:
 1. **Charge**: Load polysilicon chunks into crucible. Add dopant: boron (B, for p-type) or phosphorus (P, for n-type). Typical doping: 10¹⁴-10¹⁶ atoms/cm³ (resistivity 0.1-100 Ω·cm).

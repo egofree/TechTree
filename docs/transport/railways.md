@@ -22,7 +22,7 @@
 
 ### Telegraph Communication
 
-Railway signaling depends on telegraph circuits for block control and dispatch. See [Telegraph Communication](./telegraph.md) for wire technology, electrical principles, Morse code, relay stations, and network topology. Key railway integration points: block instruments at each signal box, dispatcher circuits between stations, and point-to-point lines for train orders.
+Railway signaling depends on telegraph circuits for block control and dispatch. See [Telegraph Communication](./telegraph.md) for the complete telegraph system. Key railway integration points: block instruments at each signal box, dispatcher circuits between stations, and point-to-point lines for train orders.
 
 ### Logistics Management
 
@@ -163,7 +163,7 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 
 **Operating costs**:
 - Fuel: coal costs represent 15-25% of total operating costs for a steam railway. A 100 km main line with 10 trains per day consuming 2 tonnes of coal each burns 20 tonnes/day or 7300 tonnes/year. At bulk coal prices, this is a major ongoing expense.
-- Labor: the largest single cost (40-50% of total). A steam locomotive needs a driver and a fireman. A station needs at least one operator (signalman, telegraph operator, ticket agent). Track maintenance requires 1 section man per 2-3 km of track.
+- Labor: the largest single cost (40-50% of total). A steam locomotive needs a driver and a fireman. A station needs at least one operator (signalman, dispatcher, ticket agent). Track maintenance requires 1 section man per 2-3 km of track.
 - Capital cost: locomotive (comparable to a small factory in cost and complexity), rolling stock, track, bridges, stations, and signaling. A 100 km single-track railway with 10 stations represents an investment equivalent to 5-10 years of regional economic output. The payoff comes from the 10-50× reduction in transport cost per tonne-km compared to road transport.
 
 ### Railway Gauge and Standards
@@ -182,7 +182,7 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - **Runaway trains**: Brake failure on gradients. Dead-man's control. Fail-safe brakes.
 - **Coupling injuries**: Manual coupling crushes fingers. Use coupler bars. Never stand between cars on grade.
 - **Derailment**: Speed, track condition, broken rails. Regular inspection. Speed limits.
-- **Track worker safety**: Lookouts with flags or horns warn of approaching trains. Track workers must be able to clear the track within the sighting distance minus the stopping distance of the train. At 60 km/h, a 200-tonne freight train needs 300-500 m to stop. On single-track lines, use track warrants (authority to occupy a section of track, issued by dispatcher via telegraph).
+- **Track worker safety**: Lookouts with flags or horns warn of approaching trains. Track workers must be able to clear the track within the sighting distance minus the stopping distance of the train. At 60 km/h, a 200-tonne freight train needs 300-500 m to stop. On single-track lines, use track warrants (authority to occupy a section of track, issued by dispatcher via signaling circuit).
 - **Grade crossing collisions**: Trains cannot stop for obstacles. Install warning signs (crossbuck), bells, and gates at road crossings. Sight distance at crossing must allow a road vehicle to clear the track before an approaching train arrives.
 - **Smoke and cinders**: Steam locomotives emit dense smoke and hot cinders from the chimney. Cinders start trackside fires in dry grass and timber trestles. Cinders in the eyes are a hazard for passengers in open coaches and for crew on the locomotive footplate. Issue goggles to footplate crew. Install spark arresters (a baffle or mesh screen in the smokebox) to reduce cinder emission.
 - **Coal dust explosion**: In coal mines and coal handling facilities (coaling stages, tender loading), suspended coal dust explodes when ignited by a spark or flame. Keep coal dust concentrations below 50 g/m³ by ventilation and wet suppression. No smoking or open flames in coal handling areas. The same hazard applies to grain elevators (grain dust is explosively flammable above 40-60 g/m³).

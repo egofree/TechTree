@@ -18,7 +18,9 @@ Conventional hydroponic systems manage nutrients and pH through manual addition 
 
 SEM Tech membranes, combined with a small electrodialysis (ED) unit (see [SEM Tech Electrodialysis](../chemistry/sem-tech-electrodialysis.md)), offer a continuous, electrochemical approach: selectively removing or adjusting ion concentrations without adding corrective chemicals. This is particularly valuable in controlled-environment agriculture (greenhouses, vertical farms, growth chambers) where consistent nutrient delivery directly affects crop yield and quality.
 
-## Hydroponic Nutrient Management
+## Process Description
+
+### Hydroponic Nutrient Management
 
 In a recirculating hydroponic system, plants selectively absorb ions from solution at different rates. Nitrogen is consumed rapidly; calcium and sulfate accumulate. Over time, the solution drifts from its target composition. Conventional practice periodically discards and replaces the entire nutrient solution — wasting water and dissolved minerals.
 
@@ -28,7 +30,7 @@ Electromembrane-based management addresses this by:
 - **Nutrient recovery**: Concentrated ions removed from the main loop can be stored and re-dosed when depletion occurs, closing the nutrient loop.
 - **Continuous monitoring**: Conductivity and pH sensors trigger ED operation only when correction is needed, minimizing energy use.
 
-## Electromembrane Ion Control
+### Electromembrane Ion Control
 
 A small-scale electrodialysis unit integrated into the hydroponic recirculation loop operates as follows:
 
@@ -39,7 +41,7 @@ A small-scale electrodialysis unit integrated into the hydroponic recirculation 
 
 The ED stack for hydroponic use would be modest — perhaps 5-20 cell pairs — since the ionic concentrations involved (typically 500-3,000 mg/L TDS) are far lower than industrial desalination or brine concentration. Operating voltage would be low (5-30V total stack) and current density modest (5-20 mA/cm²).
 
-## pH Stabilization
+### pH Stabilization
 
 pH drift in hydroponics results from differential ion uptake. Plants absorbing more cations than anions release H⁺, lowering pH. Conversely, excess anion uptake releases HCO₃⁻/OH⁻, raising pH.
 
@@ -50,7 +52,7 @@ Electrochemical pH stabilization uses proton-selective membranes (a specialized 
 
 This replaces conventional pH correction (manual addition of phosphoric acid or potassium hydroxide) with a continuous, automated process that does not introduce additional ions into the nutrient solution. The advantage is precision — electrochemical pH control can hold pH within ±0.1 units, compared to ±0.5 units typical of manual dosing.
 
-## Water Reuse and Recirculation
+### Water Reuse and Recirculation
 
 Hydroponic systems already use less water than soil-based agriculture (typically 80-95% less). Electromembrane treatment extends this advantage further:
 
@@ -60,30 +62,114 @@ Hydroponic systems already use less water than soil-based agriculture (typically
 
 Water savings are significant in controlled-environment agriculture where all water is delivered artificially. A fully closed recirculation loop with ED-based nutrient management could reduce water consumption by an additional 30-50% compared to conventional recirculating hydroponics.
 
-## System Design
+## Materials
 
-A practical SEM Tech membrane-based hydroponic nutrient management system would consist of:
+This section lists the physical materials required to build a medium-scale SEM Tech hydroponic ED system (10 cell pairs, 200 cm² active area, suitable for a 200-2,000L reservoir).
 
-- **ED module**: 5-20 cell pairs of alternating cation and anion exchange membranes, each approximately 100-200 cm² active area. Membrane cost at SEM Tech pricing: less than $5 total.
-- **Power supply**: DC power supply, 5-30V, 1-5A. Low power consumption — estimated 0.1-0.5 kWh per cubic meter of solution treated.
-- **Sensor array**: pH probe, electrical conductivity (EC) sensor, temperature probe. These trigger ED operation automatically.
-- **Control logic**: Simple comparator circuit or microcontroller activates the ED stack when pH or EC exceeds set thresholds.
-- **Concentrate/reservoir tanks**: Small polyethylene tanks (5-20L) for storing extracted ions and make-up nutrients.
-- **Integration**: The ED module is plumbed as a side-stream bypass on the main hydroponic recirculation pump, drawing and returning solution continuously.
+### Membrane Materials
 
-Total estimated materials cost for the ED component: $20-50, dominated by the power supply and sensors rather than the membranes.
+| Material | Quantity | Source | Notes |
+|----------|----------|--------|-------|
+| Strong acid cation exchange resin beads (water softener resin) | 100-200 g | Water treatment suppliers | Pre-functionalized sulfonic acid (R-SO₃H) type |
+| Strong base anion exchange resin beads (deionization resin) | 100-200 g | Water treatment suppliers | Pre-functionalized quaternary ammonium (R-N⁺(CH₃)₃) type |
+| PVC or CPVC resin (pellets or powder) | 50-100 g | Plumbing supply, chemical suppliers | Binder matrix for membranes |
+| Organic solvent (THF, cyclohexanone, or MEK) | 200-500 mL | Chemical suppliers | For dissolving PVC/CPVC binder |
 
-**Comparison with conventional pH management**:
+### Stack Hardware Materials
 
-| Parameter | Manual Acid/Base Dosing | Electromembrane ED Control |
-|-----------|------------------------|---------------------------|
-| **pH precision** | ±0.3-0.5 units | ±0.1 units (estimated) |
-| **Additional ions introduced** | Yes (from acid/base reagents) | None (ions removed, not added) |
-| **Automation** | Requires dosing pumps and controller | Integrated with sensor feedback |
-| **Solution replacement** | Weekly to biweekly | Monthly to seasonal (estimated) |
-| **Water waste** | Moderate (dump and replace) | Minimal (closed-loop recirculation) |
-| **Equipment cost** | Low ($10-30 for dosing system) | Moderate ($20-50 for ED module) |
-| **Operating cost** | Consumables (acid, base) | Electricity only (estimated $0.01-0.05/day) |
+| Material | Quantity | Source | Notes |
+|----------|----------|--------|-------|
+| PVC or CPVC sheet (3-6 mm thick) | 0.5-1.0 m² | Plumbing supply | For spacer gaskets and stack frames |
+| PVC cement (solvent weld) | 1 small can | Plumbing supply | For sealing stack joints |
+| Graphite plates (5-10 mm thick) | 2 pieces, ~200 cm² each | Industrial supply | Anode and cathode electrodes |
+| Polyethylene mesh or netting (0.5-2 mm) | 0.5 m² | Hardware store | Spacer material between membranes |
+| Tie rods with nuts and washers (stainless steel) | 4-8 sets, 200-300 mm length | Hardware store | Stack compression |
+| Thick PVC or steel end plates (15-25 mm) | 2 pieces | Hardware store | Stack end compression plates |
+
+### Plumbing and Integration Materials
+
+| Material | Quantity | Source | Notes |
+|----------|----------|--------|-------|
+| PVC tubing or hose (6-12 mm ID) | 2-5 m | Hardware store | Side-stream plumbing |
+| Small submersible or inline pump (5-20 L/min) | 1 unit | Hydroponic/aquarium supply | Side-stream circulation |
+| Food-grade HDPE tanks (5-20L) | 2-3 units | General supply | Concentrate and reservoir tanks |
+| Hose barbs, connectors, valves | Assorted | Hardware store | Plumbing connections |
+| Sediment filter (50-100 micron) | 1 unit | Water filter supply | Downstream particulate capture |
+
+## Equipment
+
+| Equipment | Specification | Estimated Cost | Notes |
+|-----------|--------------|----------------|-------|
+| DC power supply | 0-30V, 1-5A adjustable | $10-25 | Bench supply or solar charge controller |
+| pH probe | 0-14 range, ±0.1 accuracy | $5-10 | Standard hydroponic pH electrode |
+| EC (conductivity) sensor | 0-10 mS/cm range | $3-5 | Electrical conductivity probe |
+| Temperature probe | Optional, 0-50°C | $2-5 | For temperature compensation |
+| Microcontroller or comparator circuit | Arduino Nano or op-amp circuit | $2-5 | Triggers ED based on sensor thresholds |
+| Blender or ball mill | For resin pulverization | Existing kitchen/workshop tool | Particle size must reach below 200 microns |
+| Flat casting surface (glass, metal, or acrylic) | 30×30 cm minimum | Repurposed | For membrane casting |
+| Blade or drawdown bar | For membrane spreading | Repurposed | Controlled membrane thickness |
+
+**Total estimated equipment cost: $30-73**, dominated by the power supply and sensors rather than the membranes.
+
+## Steps
+
+### Phase 1: Fabricate Ion Exchange Membranes
+
+Follow the SEM Tech membrane manufacturing process (see [SEM Tech](../chemistry/sem-tech.md) for full details).
+
+**Step 1 — Pulverize resin beads**: Reduce cation exchange resin beads to fine powder (below 200 microns) using a blender or ball mill. If wet pulverizing is used, dry the powder thoroughly before proceeding. Repeat with anion exchange resin beads in a separate batch.
+
+**Step 2 — Prepare binder solution**: Dissolve PVC or CPVC resin in THF, cyclohexanone, or MEK at approximately 3:7 polymer-to-solvent ratio by weight. Stir until fully dissolved and homogeneous.
+
+**Step 3 — Cast cation exchange membrane (CEM)**: Mix pulverized cation resin powder into the binder solution at approximately 50% loading by volume. Stir until homogeneous. Spread onto the flat casting surface using a blade or drawdown bar to achieve 100-300 micron wet thickness. Allow to dry at ambient temperature until solvent has fully evaporated (2-24 hours depending on solvent and conditions). Peel the finished CEM from the surface.
+
+**Step 4 — Cast anion exchange membrane (AEM)**: Repeat Step 3 using pulverized anion exchange resin powder. The process is identical — only the resin feedstock changes.
+
+**Step 5 — Cut membranes**: Cut each membrane to the active area required for the ED stack (approximately 200 cm² per membrane for a medium-scale system). Cut 10 CEM pieces and 10 AEM pieces for a 10-cell-pair stack.
+
+### Phase 2: Assemble the ED Stack
+
+**Step 6 — Prepare spacer gaskets**: Cut PVC or CPVC sheet into rectangular frames that define the flow channels. Each frame has an open center (the active membrane area) and holes at opposite ends for inlet/outlet manifolds. Prepare two types: diluate spacers and concentrate spacers, differing only in manifold hole placement to route flows correctly.
+
+**Step 7 — Assemble the stack**: On a flat surface, build up the stack in this repeating sequence from anode to cathode:
+1. Place anode (graphite plate)
+2. CEM
+3. Diluate spacer gasket
+4. AEM
+5. Concentrate spacer gasket
+6. Repeat steps 2-5 for each cell pair (10 times total)
+7. Place final CEM
+8. Place cathode (graphite plate)
+
+**Step 8 — Compress and seal**: Place thick end plates on both sides. Thread tie rods through corner holes and tighten nuts evenly in a cross-pattern to compress the stack. Apply PVC cement to the frame joints as you assemble to create leak-tight solvent-welded seals. Do not overtighten — aim for firm, even compression across the entire membrane area.
+
+**Step 9 — Connect plumbing**: Attach inlet and outlet manifolds to the diluate and concentrate ports using PVC cement. Connect the side-stream pump to draw nutrient solution from the main reservoir through the diluate channels, and return it. Connect the concentrate loop to a small HDPE collection tank.
+
+**Step 10 — Connect power and sensors**: Wire the DC power supply to the anode and cathode. Install the pH probe and EC sensor in the main hydroponic reservoir. Connect sensors to the microcontroller or comparator circuit, and wire the microcontroller output to control the DC power supply (on/off based on sensor thresholds).
+
+### Phase 3: Operate the System
+
+**Step 11 — Calibrate sensors**: Calibrate pH probe using standard buffer solutions (pH 4.0, 7.0, 10.0). Calibrate EC sensor using standard KCl solution. Set target thresholds on the microcontroller: pH 5.8-6.2 (or crop-specific range), EC 1.5-3.0 mS/cm (or crop-specific target).
+
+**Step 12 — Start the side-stream pump**: Begin circulating nutrient solution through the ED stack at 5-20 L/min. Check all connections for leaks. Verify flow through both diluate and concentrate channels.
+
+**Step 13 — Activate ED when correction is needed**: When pH or EC drifts outside the target range, the microcontroller activates the DC power supply. Set initial voltage to 10V and current limit to 2A. Monitor pH and EC during correction — a typical correction cycle takes 20-60 minutes for a 1,000L reservoir with moderate drift.
+
+**Step 14 — Monitor concentrate tank**: As the ED removes excess ions, they accumulate in the concentrate tank. When this tank is sufficiently concentrated (EC > 5.0 mS/cm), it can be stored for later re-dosing when specific nutrients are depleted from the main reservoir.
+
+**Step 15 — Perform routine maintenance**: Every 14-30 days, clean the ED stack in place:
+1. Flush with 0.1M NaOH solution (4 g/L) at 2-3 L/min for 15-30 minutes to remove organic deposits.
+2. If inorganic scaling is present, precede with 0.05M HCl (1.8 g/L) for 15 minutes.
+3. Rinse with deionized water for 10 minutes.
+4. Return to service.
+
+**Step 16 — Replace membranes as needed**: At projected 6-12 month intervals in organic-rich hydroponic service, disassemble the stack, peel old membranes, cast new membranes from fresh resin-binder mixture, and reassemble. Total membrane replacement cost: $2-5. Reuse the PVC stack housing and plumbing.
+
+### Phase 4: Integrate with Existing Hydroponic Setups
+
+**Step 17 — Plumb as a side-stream bypass**: The ED module connects to the main hydroponic recirculation loop as a parallel bypass. Tap into the main pump output line with a T-connector, route a portion of flow through the ED module, and return the corrected solution downstream. A valve controls the side-stream flow rate.
+
+**Step 18 — Configure for crop transitions**: When switching crops in the same growing system (e.g., lettuce to tomato), program the microcontroller with the new crop's target EC and pH setpoints. The ED module selectively removes excess ions and re-doses from the concentrate reservoir to adjust the full ion profile over 2-4 hours for a 1,000L system, eliminating the need to dump and mix a completely new solution.
 
 ## Membrane Specifications for Hydroponic ED
 
@@ -144,6 +230,7 @@ The concentrate stream from the hydroponic ED module — rich in excess Ca²⁺,
 The SEM Tech hydroponic nutrient management system depends on several upstream capabilities from other domains within the tech tree. Membrane fabrication requires PVC or CPVC resin (produced from vinyl chloride monomer derived from ethylene and chlorine via [chlor-alkali electrolysis](../chemistry/electrolysis.md)), ion exchange resin beads (sulfonated polystyrene from the [petrochemical industry](../chemistry/index.md)), and organic solvents (THF, MEK, or cyclohexanone from [organic synthesis](../chemistry/index.md)). The power supply requires [electrical infrastructure](../energy/electricity.md) producing at least 50W DC. Sensors require [electronics manufacturing](../electronics/index.md) capable of producing pH electrodes (glass membrane bulbs with Ag/AgCl reference) and EC probes (platinum or graphite electrode pairs). The microcontroller, if used, requires integrated circuits from [semiconductor fabrication](../semiconductors/index.md) — though a simple op-amp comparator circuit using discrete components is sufficient for basic on/off control.
 
 For a minimal bootstrap scenario, the entire ED stack can be built without electronics-grade components: a simple transformer-rectifier power supply (120V AC → 12V DC at 3A, using a doorbell transformer and four 1N5402 diodes as a bridge rectifier), a mechanical timer switch instead of a microcontroller, and manual pH testing with liquid indicator solution (bromothymol blue, pH 6.0-7.6 range, $2 for 100 mL) instead of an electronic pH probe. This reduces the capital cost to approximately $10-20 but sacrifices automatic control.
+
 The trade-off between automation cost and labor input is context-dependent: in a labor-abundant, capital-scarce bootstrap settlement, manual monitoring every 4-6 hours at a cost of 10-15 minutes per check may be acceptable, consuming approximately 40-90 minutes of labor per day for a 1,000L system.
 
 ## Cost Analysis
@@ -169,12 +256,25 @@ The trade-off between automation cost and labor input is context-dependent: in a
 
 The payback period for the ED module capital cost ($30-73) is approximately 4-8 months compared to conventional acid/base dosing and more frequent solution replacement.
 
+**Comparison with conventional pH management**:
+
+| Parameter | Manual Acid/Base Dosing | Electromembrane ED Control |
+|-----------|------------------------|---------------------------|
+| **pH precision** | ±0.3-0.5 units | ±0.1 units (estimated) |
+| **Additional ions introduced** | Yes (from acid/base reagents) | None (ions removed, not added) |
+| **Automation** | Requires dosing pumps and controller | Integrated with sensor feedback |
+| **Solution replacement** | Weekly to biweekly | Monthly to seasonal (estimated) |
+| **Water waste** | Moderate (dump and replace) | Minimal (closed-loop recirculation) |
+| **Equipment cost** | Low ($10-30 for dosing system) | Moderate ($20-50 for ED module) |
+| **Operating cost** | Consumables (acid, base) | Electricity only (estimated $0.01-0.05/day) |
+
 ## Safety
 
 - **Nutrient handling**: Concentrated nutrient stock solutions and ED concentrate streams contain high levels of dissolved ions. Standard chemical handling practices apply: gloves, eye protection, and clearly labeled containers. Concentrated potassium hydroxide (used in some hydroponic formulations) is caustic and requires the same precautions as any strong base.
 - **Electrical safety near water**: The ED module operates at low DC voltage (5-30V) which presents minimal shock hazard, but all electrical connections must be waterproofed. Ground-fault circuit interrupters (GFCIs) are mandatory on the power supply. The ED module housing must be sealed and drip-proof.
 - **Hydrogen gas**: Minor hydrogen evolution at the cathode of the ED stack. In the small scale proposed (1-5A current), gas production is negligible (milliliters per hour) but adequate ventilation should be maintained in enclosed growing spaces.
 - **Membrane integrity**: Degraded membranes could release resin particles into the nutrient solution. A simple sediment filter (50-100 micron) downstream of the ED module catches any particulate matter.
+- **Solvent handling during membrane fabrication**: THF, MEK, and cyclohexanone are flammable organic solvents. Use in well-ventilated areas away from ignition sources. THF forms explosive peroxides on prolonged storage — use fresh solvent or test for peroxides before use.
 
 ## Limitations
 
@@ -188,13 +288,15 @@ The payback period for the ED module capital cost ($30-73) is approximately 4-8 
 
 **Membrane lifetime in organic-rich environments**: Hydroponic solutions contain dissolved organic compounds (root exudates, beneficial microbial metabolites) that may foul ion exchange membranes faster than clean water applications. Regular cleaning cycles (acid/alkali flush) would be needed, and membrane lifetime in this environment is unknown.
 
+**Organic solvent availability**: Membrane fabrication requires THF, MEK, or cyclohexanone. These solvents may not be readily available in a bootstrap scenario, limiting membrane production until organic chemical synthesis is established.
+
 ## See Also
 
 - [SEM Tech Ion Exchange Membrane](../chemistry/sem-tech.md) — parent article on SEM Tech membrane manufacturing and properties
 - [Electrodialysis](../chemistry/sem-tech-electrodialysis.md) — electrochemical ion separation using SEM Tech membranes
 - [Water Treatment](../water/sem-tech-water-treatment.md) — desalination and water purification applications
+- [Aquaponics](aquaponics.md) — lower-technology biological approach to nutrient and pH management
 
 ---
 
-At the low power levels involved (10-30W), the ED module generates negligible heat — less than 25 kcal/hour — and does not measurably affect greenhouse temperature even in small enclosed growth chambers.
 *Part of the [Bootciv Tech Tree](../index.md) | [Agriculture](./index.md) | [All Domains](../index.md)*

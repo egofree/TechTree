@@ -100,6 +100,144 @@ Between stages, the partially desalted water may be recirculated to achieve targ
 
 Energy consumption scales roughly linearly with the amount of salt removed. Desalting from 5,000 to 500 mg/L TDS requires approximately 1.0–2.0 kWh/m³ with conventional ED membranes. SEM Tech membrane resistance in ED configuration is uncharacterized but expected to be comparable to conventional heterogeneous membranes based on similar composition.
 
+## Materials
+
+Building a SEM Tech ED desalination stack requires the following materials, organized by subsystem:
+
+**Membrane materials** (see [SEM Tech](../chemistry/sem-tech.md) for manufacturing details):
+- Strong acid cation exchange resin beads (sulfonic acid type, as used in water softeners)
+- Strong base anion exchange resin beads (quaternary ammonium type)
+- PVC or CPVC resin (powder or pellets) for binder matrix
+- Organic solvent: THF (tetrahydrofuran), MEK (methyl ethyl ketone), or cyclohexanone
+- Optional: fiberglass mesh, fumed silica, or fine sand for membrane reinforcement
+
+**Stack hardware materials**:
+- PVC or CPVC sheet (3–6 mm thick) for spacer gaskets and cell frames
+- PVC cement (solvent welding adhesive) for sealing joints
+- Graphite plates (5–10 mm thick) for electrodes — or coated titanium mesh for longer life
+- Polypropylene or polyethylene mesh screen (0.5–1.5 mm thick) for flow spacers
+- threaded steel tie rods (8–12 mm diameter) with nuts and washers for stack compression
+- Thick PVC or steel plate (15–25 mm) for end plates
+- Rubber or neoprene gasket material for electrode seals
+
+**Plumbing and tanks**:
+- PVC pipe and fittings (for feed, product, and brine manifolds)
+- HDPE or PVC tanks for feed water storage, product water collection, and brine holding
+- PVC ball valves for flow control
+- Flexible PVC or silicone tubing for recirculation loops
+
+**Pre-treatment materials**:
+- Sand (graded silica sand, 0.5–2 mm particle size) for sand filter bed
+- Polypropylene cartridge filter elements (5–10 micron nominal rating)
+- Optional: activated carbon for organic contaminant removal
+
+**Post-treatment materials**:
+- Sodium hypochlorite solution (from [chlor-alkali electrolysis](../chemistry/sem-tech.md)) or calcium hypochlorite granules for disinfection
+- Optional: lime (calcium hydroxide) for pH adjustment and remineralization
+
+**Electrical materials**:
+- DC power supply (variable, 0–600V, 0–20A) or solar panel array with charge controller
+- Electrical cable (rated for DC, appropriate gauge for current)
+- Terminal lugs and connectors
+- Fuses or circuit breakers (DC-rated)
+
+## Equipment
+
+**Membrane fabrication tools** (see [SEM Tech](../chemistry/sem-tech.md)):
+- Blender, ball mill, or grinder — for pulverizing resin beads to <200 µm particle size
+- Drying oven or desiccator — for drying pulverized resin if wet-milled
+- Mixing containers and stir sticks — glass or HDPE, solvent-resistant
+- Flat casting surface — glass sheet, polished metal, or HDPE sheet
+- Drawdown bar, spatula, or spray gun — for applying membrane film to controlled thickness
+- Calipers or micrometer — for measuring membrane thickness
+
+**Stack fabrication tools**:
+- Drill press or hand drill — for cutting manifold holes in PVC spacer frames
+- Jigsaw or band saw — for cutting PVC sheet to frame dimensions
+- Hole saw — for cutting electrode openings in end plates
+- Torque wrench — for even compression of tie rods (0.5–2.0 MPa)
+- PVC cement applicator — brush or dauber for solvent welding
+
+**Operational equipment**:
+- Circulation pumps (2 units) — low-pressure, chemically resistant (magnetic-drive or diaphragm pumps rated for 0.5–3 bar), one for diluate loop and one for concentrate loop
+- DC power supply — variable voltage/current, or solar charge controller with battery bank
+- Conductivity meter — for monitoring product water TDS in real time
+- Flow meters (2 units) — for balancing diluate and concentrate flow rates
+- pH meter — for monitoring feed and product water pH
+
+**Pre-treatment equipment**:
+- Sand filter vessel (gravity or pressure-fed, 0.5–1.0 m³ sand bed)
+- Cartridge filter housing (standard 10-inch or 20-inch housing)
+
+**Maintenance equipment**:
+- Cleaning-in-place (CIP) circulation system — tank, pump, and hoses for chemical cleaning
+- Spare membrane material and spacer gaskets
+- Multimeter — for checking stack resistance and electrode continuity
+
+## Steps
+
+### Step 1: Fabricate membranes
+
+Manufacture cation exchange membranes (CEM) and anion exchange membranes (AEM) following the SEM Tech process described in [SEM Tech](../chemistry/sem-tech.md):
+
+1. **Pulverize cation resin** to <200 µm powder using a blender or ball mill. Dry thoroughly.
+2. **Prepare PVC binder solution**: dissolve PVC resin in THF or MEK at approximately 3:7 polymer-to-solvent ratio by weight.
+3. **Mix cation resin powder** into the binder solution at ~50% volume loading. Stir until homogeneous.
+4. **Cast onto flat surface** using a drawdown bar set to 0.5–1.0 mm wet thickness. Allow to dry at ambient temperature (24–48 hours depending on solvent and conditions).
+5. **Peel the dried CEM film** from the casting surface. Trim to stack frame dimensions.
+6. **Repeat steps 1–5** with anion exchange resin beads to produce AEM film.
+7. **Test membrane integrity**: hold each membrane up to light — pinholes appear as bright spots. Discard or patch defective areas. Measure thickness (target: 0.2–0.8 mm dry).
+
+### Step 2: Fabricate stack components
+
+1. **Cut spacer gaskets** from PVC sheet: rectangular frames with a central open window (the flow channel area) and drilled manifold ports (inlet and outlet holes at opposite corners). Make enough for all cell pairs (each pair needs one diluate spacer and one concentrate spacer).
+2. **Insert flow spacers**: place polypropylene mesh screen inside each spacer frame window. This mesh promotes turbulent flow and prevents membrane contact.
+3. **Prepare electrodes**: cut graphite plates to match end plate dimensions. Drill or cut ports for electrode rinse water flow if using sealed electrode compartments.
+4. **Cut gaskets** for electrode compartments from rubber or neoprene sheet.
+
+### Step 3: Assemble the ED stack
+
+1. **Lay one end plate** flat on a work surface. Place a rubber gasket, then the anode graphite plate.
+2. **Apply PVC cement** to the first spacer gasket and press it onto the end plate assembly. Allow cement to set per manufacturer instructions.
+3. **Begin alternating layers**:
+   - Place CEM membrane on the spacer
+   - Place diluate spacer gasket (with mesh) on the CEM — PVC cement the gasket edges
+   - Place AEM membrane on the diluate spacer
+   - Place concentrate spacer gasket (with mesh) on the AEM — PVC cement the gasket edges
+4. **Repeat step 3** for all cell pairs. Keep track of which channels are diluate and which are concentrate — they must alternate consistently.
+5. **Place cathode graphite plate** and rubber gasket on the final membrane.
+6. **Install the second end plate** on top.
+7. **Insert tie rods** through the corner holes in end plates and spacer frames. Hand-tighten nuts.
+8. **Torque the tie rods** evenly in a cross-pattern, incrementally tightening to the target compression (0.5–2.0 MPa). Even compression prevents internal leakage between channels.
+9. **Connect manifold plumbing**: attach PVC piping to the diluate inlet/outlet ports and concentrate inlet/outlet ports. Use PVC cement for all joints.
+10. **Connect electrode rinse lines** to the anode and cathode compartments.
+
+### Step 4: Set up pre-treatment
+
+1. **Fill sand filter vessel** with graded silica sand (coarse at bottom, fine at top). Backwash to remove fines.
+2. **Install cartridge filter** downstream of the sand filter. Use a 10-micron polypropylene element.
+3. **Connect feed water source** (well pump or tank) to the sand filter inlet.
+4. **Verify pre-treatment output**: feed water should have <5 mg/L total suspended solids (TSS) before entering the ED stack. Test with a turbidity meter or visual inspection (water should be clear).
+
+### Step 5: Commission the system
+
+1. **Fill both diluate and concentrate loops** with feed water. Purge all air from the system by running circulation pumps with the stack unpowered.
+2. **Check for leaks** at all manifold connections and end plate seals. Tighten tie rods if seepage is observed.
+3. **Measure initial conductivity** of feed water in both loops (should be identical).
+4. **Apply DC voltage**: start at low voltage (10–20V) and gradually increase while monitoring current. Voltage per cell pair should not exceed 1.5V to avoid water splitting.
+5. **Monitor product water conductivity**: the diluate stream conductivity should decrease steadily. The concentrate stream conductivity should increase.
+6. **Adjust flow rates**: balance diluate and concentrate flows to maintain similar hydraulic pressure in both channels. Unequal pressures can deform membranes.
+7. **Continue operation** until product water TDS reaches the target (<500 mg/L for drinking water).
+8. **Sample product water**: test for TDS, pH, and — for drinking water applications — microbial contamination. Apply post-treatment (chlorination to 1–3 mg/L residual Cl₂) before distribution.
+
+### Step 6: Routine operation and maintenance
+
+1. **Monitor daily**: product water conductivity, flow rates, stack voltage and current, feed and brine tank levels.
+2. **Clean membranes** when product water quality degrades or stack resistance increases >20% from baseline: circulate 2% HCl solution (for scale removal) followed by 1% NaOH solution (for organic fouling) through both loops for 30–60 minutes each. Rinse thoroughly with feed water before resuming operation.
+3. **Replace cartridge filters** monthly or when pressure drop exceeds the manufacturer's recommended change-out differential.
+4. **Inspect and replace membranes** when cleaning no longer restores performance. Membrane lifetime is projected at 1–5 years for SEM Tech membranes in ED service. Disassemble the stack, remove old membranes, clean spacer frames, and reassemble with fresh membranes.
+5. **For EDR operation**: if using electrodialysis reversal, the control system automatically swaps polarity every 15–30 minutes. Verify that diluate and concentrate valves switch correctly and that product water conductivity remains stable across polarity reversals.
+
 ## System Design for Community Water Supply
 
 A practical SEM Tech ED system for a small community (500 people at 50 L/person/day = 25 m³/day product water) treating brackish groundwater at 4,000 mg/L TDS:

@@ -74,7 +74,7 @@ A lithium recovery system using SEM Tech membranes would combine elements from t
 The lithium separation process requires the following consumables and feedstocks:
 
 **Membrane materials**:
-- **Lithium-selective cation exchange resin beads**: Chelating resins with crown ether functional groups (12-crown-4 for Li⁺ selectivity) or iminodiacetic acid groups. Commercially available from major ion exchange resin manufacturers (Dowex, Lewatit, Purolite product lines) at $50-200 per cubic foot — more expensive than standard water softener resin but far cheaper than Nafion.
+- **Lithium-selective cation exchange resin beads**: Chelating resins with crown ether (12-crown-4) or iminodiacetic acid functional groups for Li⁺ selectivity. See [Membrane Specifications](#membrane-specifications-for-lithium-selectivity) for details on resin selection, selectivity ratios, and pricing.
 - **Standard anion exchange resin beads**: For the anion exchange membranes in the ED stack. Standard quaternary ammonium type, $5-20 per cubic foot.
 - **PVC or CPVC binder**: Polyvinyl chloride or chlorinated polyvinyl chloride dissolved in solvent to form the membrane matrix.
 - **Solvent**: THF (tetrahydrofuran), cyclohexanone, or MEK (methyl ethyl ketone) for dissolving the PVC/CPVC binder during membrane casting.
@@ -127,6 +127,49 @@ The lithium separation system requires the following hardware:
 - **Sensors**: pH probes, conductivity meters, flow meters, temperature sensors, voltage/current transducers.
 - **Secondary containment**: Bermed area or double-walled tanks for brine and chemical storage, sized to contain the largest single vessel.
 
+## Step-by-Step Procedure
+
+The following procedure describes a pilot-scale lithium recovery operation using SEM Tech electrodialysis membranes.
+
+### Phase 1: Membrane Fabrication
+
+1. **Select resin**: Obtain lithium-selective chelating ion exchange resin beads with 12-crown-4 or iminodiacetic acid functional groups. Obtain standard strong-base anion exchange resin beads (quaternary ammonium type) for the anion membranes.
+2. **Pulverize resin**: Reduce both resin types to powder below 200 microns using a ball mill or blender. Dry the powder thoroughly if wet pulverizing is used.
+3. **Prepare binder**: Dissolve PVC or CPVC in THF or cyclohexanone at approximately 3:7 polymer-to-solvent ratio by weight. Stir until fully dissolved.
+4. **Mix and cast cation membranes**: Combine lithium-selective resin powder with the PVC/CPVC binder solution at 30-50% loading by volume. Stir until homogeneous. Cast onto a flat surface at 150-400 μm thickness using a drawdown bar or blade. Dry at ambient temperature.
+5. **Mix and cast anion membranes**: Repeat step 4 using standard anion exchange resin powder.
+6. **Peel and inspect**: Peel dried membranes from the casting surface. Inspect for pinholes, tears, or uneven thickness. Discard defective membranes.
+
+### Phase 2: Stack Assembly
+
+7. **Assemble cell pairs**: Between each end plate, stack alternating lithium-selective cation membranes and standard anion membranes separated by 0.5-1.0 mm polyethylene spacer gaskets. Each cell pair consists of one cation membrane, one anion membrane, and two spacers (diluate channel and concentrate channel).
+8. **Install electrodes**: Place coated graphite anode and cathode at opposite ends of the stack. Connect the vibratory/ultrasonic dislodging mechanism to the cathode.
+9. **Compress stack**: Clamp the assembly with end plates and tie rods. Ensure uniform compression to prevent internal leaks. Seal with PVC/CPVC cement where needed.
+10. **Connect plumbing**: Attach HDPE or PVC piping for feed brine inlet, concentrate outlet, diluate outlet, and electrode rinse. Connect feed pumps, flow meters, and valves.
+
+### Phase 3: Pretreatment and Startup
+
+11. **Filter raw brine**: Pass raw brine through a sand filter (10-50 μm), then a cartridge filter (1-5 μm), then an activated carbon column for organics removal.
+12. **Adjust pH**: In a mixing tank, adjust filtered brine to pH 6.5-7.5 using dilute HCl or NaOH to prevent CaCO₃ and Mg(OH)₂ scaling on membrane surfaces.
+13. **Flush system**: Circulate deionized water through all stack channels to remove debris and air pockets.
+14. **Start feed flow**: Begin pumping pretreated brine through the diluate channels and deionized water through the concentrate channels. Verify flow rates and check for leaks.
+15. **Apply voltage**: Energize the DC rectifier at low voltage (20-50V). Gradually increase to operating voltage (50-300V) while monitoring current density (target 5-20 mA/cm²). Do not exceed 20 mA/cm² to avoid concentration polarization and membrane damage.
+
+### Phase 4: Continuous Operation
+
+16. **Monitor performance**: Track Li⁺ concentration in the concentrate stream using periodic sampling and ICP-OES or atomic absorption spectroscopy. Monitor conductivity, pH, voltage, current, and flow rates continuously.
+17. **Stage concentration**: When the first-stage concentrate reaches 3,000-5,000 mg/L Li⁺, route it to a second ED stage (with lower current density, 3-10 mA/cm²) for further concentration to 10,000-25,000 mg/L Li⁺.
+18. **Maintain pretreatment**: Backwash sand filters daily. Replace cartridge filters when differential pressure exceeds the manufacturer's limit. Regenerate or replace activated carbon as needed.
+19. **Clean membranes**: Periodically (every 1-4 weeks depending on brine composition) circulate 1-2% HCl cleaning solution through the stack to remove scale and fouling deposits. Rinse thoroughly before resuming operation.
+20. **Replace membranes**: When Li⁺ selectivity degrades or stack resistance increases significantly (typically after 6-12 months), disassemble the stack and install fresh membranes.
+
+### Phase 5: Product Finishing
+
+21. **Precipitate Li₂CO₃**: Heat the lithium-rich concentrate (10,000-25,000 mg/L Li⁺) to 85-95°C in a stirred reactor. Add sodium carbonate (Na₂CO₃) at ~82 g per liter of concentrate. Stir for 2-4 hours to precipitate Li₂CO₃ crystals.
+22. **Filter and wash**: Separate Li₂CO₃ crystals using a filter press or centrifuge. Wash with deionized water at 90°C to minimize solubility losses. Dry at 120°C.
+23. **Optional purification**: For battery-grade Li₂CO₃ (99.9%+), re-dissolve in pure water and re-precipitate.
+24. **Optional LiOH production**: To produce LiOH·H₂O, dissolve Li₂CO₃ in water and react with Ca(OH)₂ at 90-95°C. Filter off CaCO₃ precipitate. Evaporate filtrate to crystallize LiOH·H₂O at 50-60°C.
+
 ## Membrane Specifications for Lithium Selectivity
 
 The lithium-selective SEM Tech membrane requires specialized resin selection and formulation beyond the standard cation exchange membrane used in chlor-alkali cells. The membrane exploits the difference in hydration energy between Li⁺ (520 kJ/mol hydration enthalpy) and Na⁺ (405 kJ/mol hydration enthalpy) to achieve preferential Li⁺ transport through appropriately sized nanopores (0.6-0.8 nm effective pore diameter).
@@ -143,16 +186,16 @@ A pilot-scale lithium recovery plant using SEM Tech electrodialysis would be con
 
 **ED stack configuration**: 100-300 cell pairs per stack, each cell pair consisting of one lithium-selective cation membrane and one standard anion membrane. Active membrane area per cell: 0.5-2.0 m². Total membrane area per stack: 100-1,200 m². At SEM Tech pricing of $2-5/ft², total membrane cost per stack is $2,200-65,000 — compared to $500,000-5,000,000 for conventional selective membranes at equivalent area.
 
-**Operating conditions**: Stack voltage 50-300V DC (0.5-1.5V per cell pair), current density 5-20 mA/cm², feed flow velocity 3-8 cm/s through 0.5-1.0 mm spacer channels. Operating temperature 20-40°C (ambient). System pressure 1-3 bar. No heating or cooling required.
+**Operating conditions**: Stack voltage 50-300V DC (0.5-1.5V per cell pair), current density 5-20 mA/cm², feed flow velocity 0.5-8 cm/s through 0.5-1.0 mm spacer channels (lower velocities increase single-pass recovery but reduce throughput). Operating temperature 20-40°C (ambient). System pressure 1-3 bar. No heating or cooling required.
 
-**Throughput**: At 10 mA/cm² current density and 40% Li⁺ recovery per pass, a single stack with 200 cell pairs of 1.0 m² membrane area processes approximately 2.0 m³/h of brine containing 1,000 mg/L Li⁺, producing 0.8 kg/h of Li⁺ in the concentrate stream (equivalent to 42 kg/day of Li₂CO₃ or 15 tonnes/year). A 10-stack array produces 150 tonnes/year of LCE.
+**Throughput**: At 10 mA/cm² current density and ~15% Li⁺ current efficiency (due to competing Na⁺, K⁺, Mg²⁺ transport), a single stack with 200 cell pairs of 1.0 m² membrane area produces approximately 0.8 kg/h of Li⁺ in the concentrate stream from a feed of 2.0 m³/h brine containing 1,000 mg/L Li⁺. This corresponds to ~4.3 kg/h of Li₂CO₃ equivalent (LCE), or approximately 100 kg/day and 37 tonnes/year of LCE per stack. A 10-stack array produces approximately 370 tonnes/year of LCE.
 
 **Multi-stage enrichment**: A single ED pass typically achieves 3-5x concentration of Li⁺. For feed brines at 1,000 mg/L Li⁺, the first-stage concentrate reaches 3,000-5,000 mg/L. A second ED stage further concentrates to 10,000-25,000 mg/L — sufficient for efficient Li₂CO₃ precipitation. Each stage operates at progressively lower feed volume but higher ionic concentration, requiring adjustment of current density (higher stages operate at 3-10 mA/cm² to manage concentration polarization). Total membrane area for a two-stage system producing 500 tonnes LCE/year: approximately 5,000-10,000 m², costing $50,000-500,000 at SEM Tech membrane pricing.
 
 **Brine pretreatment requirements**: Raw brine from salt flats or geothermal sources contains suspended solids (10-500 mg/L TSS), dissolved organic matter (5-50 mg/L DOC), and silica (50-500 mg/L SiO₂) that can foul membranes. Pretreatment sequence: (1) sand filtration to 10-50 μm, (2) cartridge filtration to 1-5 μm, (3) activated carbon for organics removal, (4) pH adjustment to 6.5-7.5 with HCl or NaOH to prevent CaCO₃ and Mg(OH)₂ scaling on membrane surfaces. Pretreatment capital cost: $20,000-50,000 for a 500 t/year plant. Operating cost: $0.05-0.20/m³ of brine processed.
 
 
-**Energy consumption**: At 1.0V per cell pair and 10 mA/cm², each stack consumes approximately 2.0 kW of electrical power. Pumping power at 2 m³/h through 1 mm spacers: approximately 0.2 kW. Total system power: 2.2 kW per stack. Energy per kg LCE: approximately 3.8 kWh. At $0.06/kWh, electricity cost is $0.23/kg LCE — less than 0.1% of the current LCE market price of $15-30/kg.
+**Energy consumption**: At 1.0V per cell pair and 10 mA/cm², the stack voltage is 200V (200 cell pairs × 1.0V) at 100A current, consuming approximately 20 kW of electrical power. Pumping power at 2 m³/h through 1 mm spacers: approximately 0.2 kW. Total system power: 20.2 kW per stack. Energy per kg LCE: approximately 4.7 kWh (20.2 kW ÷ 4.3 kg/h). At $0.06/kWh, electricity cost is $0.28/kg LCE — less than 1% of the current LCE market price of $15-30/kg.
 
 ## Comparison with Conventional Extraction Methods
 

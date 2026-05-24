@@ -219,7 +219,6 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 
 - [Railways](railways.md) — Railway signaling and dispatch via telegraph
 - [Electricity](../energy/electricity.md) — Electrical principles underlying telegraph systems
-- [Copper](../metals/nonferrous.md) — Telegraph wire materials
 - [Roads & Bridges](roads.md) — Transport infrastructure parallels
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*

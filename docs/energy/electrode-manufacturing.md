@@ -215,7 +215,6 @@ Electrode nipple design also varies by grade. RP electrodes use standard four-st
 - [Iron & Steel](../metals/iron-steel.md) — Steel production using electric arc furnaces
 - [Coal](coal.md) — Coal tar pitch source
 - [Petroleum & Alternatives](../chemistry/petroleum-alternatives.md) — Petroleum coke source
-- [Carbon](../chemistry/carbon.md) — Carbon materials chemistry
 
 ---
 

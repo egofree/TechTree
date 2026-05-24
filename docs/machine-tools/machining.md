@@ -221,7 +221,6 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 - [Iterative Bootstrap](./iterative-bootstrap.md) — Precision improvement pathway
 - [Iron & Steel](../metals/iron-steel.md) — Workpiece materials
 - [Machine Tools Overview](./index.md) — Complete machine tools reference
-- [Measurement & Gauges](./measurement.md) — Quality control for machined parts
 
 ---
 

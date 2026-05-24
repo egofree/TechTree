@@ -221,7 +221,6 @@ The choice of forming method depends on production volume, part geometry, materi
 - [Machining](machining.md) — Material removal processes complementing forming
 - [Bearings & Abrasives](bearings-abrasives.md) — Bearing and abrasive products used in press equipment
 - [Iron & Steel](../metals/iron-steel.md) — Steel sheet and plate for forming operations
-- [Metallurgy](../metals/metallurgy.md) — Material properties affecting formability
 - [Machine Tools Overview](./index.md) — Complete machine tools reference
 
 ---

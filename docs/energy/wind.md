@@ -210,7 +210,6 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 - [Electricity Generation](electricity.md) — Generators and grid integration
 - [Pumped Hydro](pumped-hydro.md) — Large-scale storage complementary to wind
 - [Redox Flow Batteries](sem-tech-redox-flow-batteries.md) — Medium-duration grid storage
-- [Hydrogen Production](../chemistry/hydrogen.md) — Power-to-gas for wind energy storage
 - [Composites](../polymers/composites.md) — Materials for turbine blade construction
 
 ---

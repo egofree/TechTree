@@ -209,7 +209,6 @@ The Federation of European Producers of Abrasives (FEPA) defines two standard gr
 - [Machining](machining.md) — Pre-grinding machining operations
 - [Forming](forming.md) — Forming operations requiring bearing-equipped presses
 - [Iterative Bootstrap](./iterative-bootstrap.md) — Precision achievement using abrasives
-- [Measurement & Gauges](./measurement.md) — Precision measurement for bearing fits
 - [Iron & Steel](../metals/iron-steel.md) — Bearing steel (52100, SUJ2) and abrasive grit materials
 - [Machine Tools Overview](./index.md) — Complete machine tools reference
 

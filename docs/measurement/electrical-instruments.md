@@ -196,6 +196,20 @@ Beyond the standard instruments listed above, several specialized measurements a
 
 **Calibration Management**: Maintain calibration records for every instrument with serial number, calibration date, due date, standard used (traceable to national standards), and as-found/as-left data. Calibration intervals: DMMs 6-12 months, oscilloscopes 12 months, meggers 12 months. Field calibration checks between formal calibrations using reference standards (voltage reference: 10.000V ±0.01% for DMM spot-check, precision resistor 100.00 Ω ±0.01% for ohmmeter verification). Out-of-tolerance instruments trigger a review of measurements taken since last known-good calibration.
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Measurement](./index.md) · [All Domains](../index.md)*
+## Limitations
 
-[← Back to Measurement](index.md)
+- **Accuracy constraints**: Analog instruments (D'Arsonval meters) achieve 1-2% of full-scale accuracy at best. Digital multimeters improve this to 0.1-0.5%. Calibration-grade instruments (0.01-0.1%) require precision resistors and voltage references that are themselves calibration-dependent. The accuracy chain is only as strong as its weakest link.
+- **Loading effects**: Voltmeters draw current from the circuit under test (finite input impedance). Ammeters introduce series resistance. These loading effects alter the circuit being measured. A 1000 Ω/V analog voltmeter on a 10V range draws 10 mA — significant in high-impedance circuits. FET-input and vacuum-tube voltmeters (10+ MΩ input impedance) minimize loading but are more complex.
+- **Frequency response limitations**: Moving-coil meters respond to DC and low-frequency AC only. Rectifier-type AC meters work to ~10 kHz. True RMS measurement at higher frequencies requires thermocouple or electronic methods. Oscilloscopes extend bandwidth to MHz-GHz range but require CRT or LCD display technology.
+- **Calibration dependency**: All electrical instruments drift with time, temperature, and mechanical shock. Resistors change value with aging. Meter movements lose magnetic strength. Calibration against known standards (standard cells, precision resistors) must be performed every 6-12 months for instruments used in critical measurements.
+- **CRT oscilloscope complexity**: A cathode-ray tube oscilloscope requires a vacuum tube CRT, high-voltage power supply (1-5 kV for acceleration), sweep circuitry, and vertical amplifiers. This represents a significant electronics manufacturing capability. Simpler alternatives (moving-coil meters with rectifiers) sacrifice waveform visualization.
+
+## See Also
+
+- [Precision Metrology](precision-metrology.md) — electrical standards, calibration infrastructure
+- [Temperature & Pressure](temperature-pressure.md) — thermocouples, RTDs (electrical sensors)
+- [Optical Instruments](optical-instruments.md) — spectroscopes, refractometers
+- [Electricity](../energy/electricity.md) — power generation, transmission, electrical engineering
+- [Electronics](../electronics/index.md) — vacuum tubes, transistors, circuit design
+
+*Part of the [Bootciv Tech Tree](../index.md) · [Measurement](./index.md) · [All Domains](../index.md)*

@@ -5,7 +5,73 @@
 > **Timeline**: Years 10-100+
 > **Outputs**: pharmaceuticals
 
-### Drug Extraction from Plants
+## Overview
+
+Pharmacology in a bootstrap civilization covers the extraction, preparation, formulation, quality control, and safe administration of therapeutic substances. The earliest phase relies on plant-derived medicines (salicin from willow bark, morphine from opium poppy, quinine from cinchona bark). As chemical manufacturing capability develops, synthetic pharmaceuticals become available — aspirin from Kolbe-Schmitt synthesis, ether and chloroform for anesthesia, phenol for antisepsis. Quality control advances from simple organoleptic testing (appearance, odor, taste) to thin-layer chromatography and microbial limit testing.
+
+The transition from "herbal medicine" to "reproducible pharmaceutical production" is one of the most impactful leaps in medical capability. Plant-derived drugs vary in potency by batch, season, and growing conditions. Standardized synthetic production delivers consistent doses — the difference between "probably effective" and "reliably effective."
+
+## Materials
+
+### Drug Source Materials
+
+| Material | Active Compound | Harvest/Source | Preparation |
+|----------|----------------|---------------|-------------|
+| Willow bark (Salix spp.) | Salicin | Spring harvest, dried | Water decoction or ethanol extraction |
+| Opium poppy latex | Morphine, codeine | Score unripe pods, collect dried latex | Water extraction, alkaline precipitation |
+| Cinchona bark | Quinine | Dried bark from tropical tree | Water decoction |
+| Ephedra stems | Ephedrine | Dried stems | Water decoction |
+| Digitalis leaves | Digoxin, digitoxin | Dried foxglove leaves | Alcohol tincture |
+| Kelp / seaweed ash | Iodine | Dried, burned seaweed | Acid extraction, sublimation |
+
+### Pharmaceutical Excipients and Reagents
+
+| Material | Use | Source |
+|----------|-----|--------|
+| Ethanol (95%) | Solvent, preservative | Fermentation + distillation |
+| Glycerol | Humectant, solvent | Saponification byproduct |
+| Starch | Tablet binder, disintegrant | Grain processing |
+| Gelatin | Capsule shells | Animal hides/bones |
+| Lactose | Tablet diluent | Dairy processing |
+| Sucrose | Syrup base, tablet coating | Sugar refining |
+| Acetic anhydride | Aspirin synthesis | Chemical manufacturing |
+| Sulfuric acid | pH adjustment, synthesis | Contact process |
+| Silica gel (TLC plates) | Drug identity testing | Sodium silicate + acid |
+
+## Equipment
+
+| Equipment | Purpose | Bootstrap Level |
+|-----------|---------|----------------|
+| Mortar and pestle (ceramic/stone) | Grinding plant material | Foundations |
+| Glass beakers and flasks | Extraction, mixing | Glass blowing |
+| Distillation apparatus | Solvent purification, ether synthesis | Glass + metalworking |
+| Analytical balance (0.01 g) | Dosing, compounding | Precision manufacturing |
+| Filter paper and funnel | Clarification, purification | Paper making |
+| Hot plate or sand bath | Controlled heating | Metalworking + electricity |
+| TLC plates and developing chamber | Drug identity testing | Chemistry stage |
+| Drying oven (50-105°C) | Moisture determination | Metalworking + electricity |
+| Tablet press (simple single-punch) | Tablet formation | Machine tools |
+| Autoclave | Sterile preparation | Metal vessel + heat |
+
+## Steps
+
+### Preparing a Willow Bark Decoction
+
+1. **Harvest bark**: Collect willow bark in spring when sap flows. Strip bark from branches 2-5 cm diameter. Dry in shade for 2-3 days.
+2. **Grind**: Break dried bark into small pieces (1-3 cm) using mortar and pestle.
+3. **Decoct**: Add 30 g dried bark to 500 mL water. Boil 15 minutes with lid on.
+4. **Strain**: Filter through clean cloth or filter paper. Squeeze marc to recover liquid.
+5. **Dose**: 1 cup (150-200 mL) for pain or fever. Repeat every 4-6 hours. Use within 24 hours.
+
+### Performing TLC Drug Identity Testing
+
+1. **Prepare plate**: Cut silica-gel TLC plate to size. Draw pencil line 1 cm from bottom (origin).
+2. **Spot samples**: Apply test sample and reference standard side by side on origin line using capillary tube. Keep spots <3 mm.
+3. **Develop**: Place in sealed chamber with mobile phase solvent. Remove when solvent reaches ~1 cm from top.
+4. **Visualize**: Dry plate. Examine under UV light (254 nm, 366 nm) or spray with detection reagent.
+5. **Interpret**: Calculate Rf values. Match between test sample and standard confirms identity.
+
+### Solvent Extraction Methods
 
 **Solvent extraction methods**:
 - **Maceration**: Soak crushed plant material in solvent at room temperature for 24-72 hours. Agitate periodically. Strain through cloth or filter. Best for heat-sensitive compounds. Ratio: typically 1:5 to 1:10 (plant weight:solvent volume).
@@ -201,6 +267,26 @@
 - **Total aerobic microbial count**: <10⁵ CFU/g (colony-forming units per gram) for oral dosage forms. Plate diluted sample on nutrient agar, incubate at 35°C for 48-72 hours, count colonies. Exceeding this limit indicates poor hygiene during production or degraded raw materials.
 - **Specific pathogens**: Absence of *E. coli*, *Salmonella*, *S. aureus*, and *P. aeruginosa* in 1 g (oral products) or 10 g (topical products). Test by enrichment culture in selective broth, then subculture on selective agar (MacConkey for *E. coli*, bismuth sulfite for *Salmonella*).
 - **Heavy metals**: Lead <20 ppm, arsenic <5 ppm, cadmium <1 ppm, mercury <1 ppm. Test by colorimetric methods (lead: extract with dithizone in chloroform, compare color intensity to standards) or, at advanced capability, atomic absorption spectroscopy. Contamination sources: soil (plants absorb metals from contaminated ground), processing equipment (lead solder, brass fittings), and vehicle/industrial emissions near growing areas.
+
+---
+
+## Limitations
+
+- **Batch variability**: Plant-derived medicines vary in potency based on growing conditions, harvest time, soil composition, and extraction efficiency. Without standardized assay methods, dosing is approximate. A willow bark decoction may contain 5-15 mg/mL salicin depending on source and preparation — a 3-fold variation in effective dose.
+- **Limited drug palette**: Bootstrap pharmacology provides analgesics (morphine, salicin), anti-malarials (quinine), anesthetics (ether, chloroform), antiseptics (phenol, iodine), and a few cardiac drugs (digitalis). Antibiotics, antivirals, insulin, steroids, chemotherapy agents, and most modern drug classes are unavailable until advanced industrial chemistry and biotechnology are established.
+- **Narrow therapeutic windows**: Many early pharmaceuticals have dangerous dose-response profiles. Morphine causes respiratory depression at 2-3× therapeutic dose. Digitalis toxicity causes fatal arrhythmias. Ether anesthesia requires careful titration — too deep causes respiratory arrest. Without pharmacokinetic monitoring (blood levels), dosing relies on clinical observation.
+- **Stability constraints**: Liquid formulations (decoctions, tinctures, suspensions) have limited shelf life — days for water-based, months for ethanol-based. Tablets and dry powders are more stable but require tablet-pressing capability. Heat, light, moisture, and oxygen degrade most active compounds. Refrigeration extends shelf life but is not always available.
+- **Quality control gaps**: TLC confirms drug identity but not purity or potency. Quantitative analysis (HPLC, UV spectroscopy) requires more advanced instrumentation. Heavy metal contamination of plant material (lead, arsenic from soil) is difficult to detect without atomic absorption. Microbial contamination of oral preparations is a constant concern.
+- **Regulatory absence**: In a bootstrap setting, there is no pharmacopoeia standard, drug regulatory authority, or adverse event reporting system. Drug quality depends entirely on the skill and integrity of the compounder. Errors in dose calculation, misidentification of plant material, or contamination during preparation can cause patient harm with no systematic feedback mechanism.
+
+## See Also
+
+- [Medicine & Surgery](medicine.md) — surgical procedures, wound management, emergency care
+- [Medical Instruments](medical-instruments.md) — diagnostic and surgical instrument fabrication
+- [Water Treatment (Health)](water-treatment.md) — clean water for pharmaceutical preparation
+- [Occupational Health](occupational-health.md) — chemical handling safety
+- [Acids and Bases](../chemicals/acids-bases.md) — sulfuric acid, hydrochloric acid for synthesis
+- [Chemistry](../chemistry/index.md) — organic synthesis, distillation, extraction
 
 ---
 

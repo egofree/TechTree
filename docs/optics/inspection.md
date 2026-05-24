@@ -196,6 +196,22 @@ Not every optical component can be inspected 100% (batch sizes in the hundreds o
 
 **Certificate of conformance**: Each lot of optical components ships with a certificate listing the measured values of all specified parameters (surface figure, scratch/dig, transmitted wavefront error, coating reflectance or transmittance curve, dimensional measurements). The certificate references the applicable drawing, specification, and purchase order. The inspector who performed the final inspection signs the certificate. For critical components (laser optics, lithography lenses), individual serialized test data accompanies each piece rather than a lot-level summary.
 
+## Limitations
+
+- **Subjectivity of visual inspection**: Visual inspection depends on the inspector's skill, experience, alertness, and consistency. Fatigue, lighting conditions, and individual visual acuity all affect defect detection rates. Studies show visual inspection catches 70-90% of defects under ideal conditions, declining significantly with fatigue or poor lighting.
+- **Resolution limits**: Unaided human vision resolves ~100 μm features at 25 cm viewing distance. Magnification (loupes, microscopes) extends this to ~1 μm at 1000×. Sub-micron defects require interferometric or electron microscopy techniques beyond bootstrap capability.
+- **No automated inspection**: Machine vision and automated optical inspection (AOI) require cameras, computers, and image processing software unavailable until the electronics and computing stages. All inspection is manual and therefore slow relative to automated systems.
+- **Surface preparation dependency**: Inspection accuracy depends on surface cleanliness and preparation. A scratch may be hidden by oil film; contamination may be mistaken for a surface defect. Proper cleaning (solvent wash, lint-free wipes) must precede critical inspections.
+- **Traceability gaps**: Without calibrated reference standards traceable to national metrology institutes, dimensional measurements have uncertain accuracy. Gauge blocks, optical flats, and angle standards provide local references but their absolute accuracy degrades over time through wear and corrosion.
+
+## See Also
+
+- [Precision Instruments](precision-instruments.md) — optical flats, lens manufacturing, autocollimators
+- [Optical Coatings](optical-coatings.md) — coating application and quality verification
+- [Measurement](../measurement/index.md) — precision metrology, optical instruments
+- [Glass](../glass/index.md) — optical glass quality and defect classification
+- [Machine Tools](../machine-tools/index.md) — surface finish standards for machined parts
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Optics](./index.md) • [All Domains](../index.md)*

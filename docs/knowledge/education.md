@@ -201,4 +201,21 @@
 
 - Education requires [Writing](../knowledge/writing.md) for documentation. Trains practitioners for [Machine Tools](../machine-tools/iterative-bootstrap.md), [Metals](../metals/iron-steel.md), [Ceramics](../ceramics/pottery.md), [Textiles](../textiles/weaving.md). Uses [Printing](../knowledge/printing.md) textbooks.
 
-[← Back to Knowledge](index.md)
+## Limitations
+
+- **Teacher scarcity**: Effective technical education requires instructors who possess both deep domain expertise and pedagogical skill. In a bootstrap civilization, experienced practitioners are needed in production roles, creating a tension between doing the work and teaching others. Apprenticeship partially addresses this but limits throughput.
+- **Knowledge decay**: Complex manual skills degrade noticeably after 6 months of inactivity. Theoretical knowledge decays more slowly but requires periodic review. Continuous refresher training is essential for maintaining workforce capability.
+- **Standardization challenges**: Without standardized curricula, textbooks, and assessment criteria, the quality of education varies enormously between instructors and institutions. A graduate from one program may have very different competencies than a graduate from another.
+- **Resource intensity**: Technical workshops require tools, materials, and consumables for hands-on practice. These represent a significant ongoing cost. Apprentices make mistakes that waste materials — this is a necessary cost of learning, not an inefficiency to be eliminated.
+
+## See Also
+
+- [Writing](writing.md) — documentation and knowledge recording
+- [Printing](printing.md) — textbook and curriculum production
+- [Libraries](libraries.md) — reference collections and research materials
+- [Machine Tools](../machine-tools/iterative-bootstrap.md) — the primary technical skill set requiring education
+- [Measurement](../measurement/index.md) — precision skills taught in technical education
+
+---
+
+*Part of the [Knowledge Domain](index.md) · [All Domains](../index.md)*

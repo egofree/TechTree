@@ -188,17 +188,88 @@ Dose calculation: For a 10,000 L storage tank requiring 1.0 mg/L chlorine dose: 
 
 **Blackwater treatment**: Toilet waste (blackwater) contains 10⁶-10⁸ fecal coliforms per 100 mL, BOD 200-600 mg/L, TSS 200-500 mg/L. Composting toilet: aerobic decomposition at 40-60°C for 6-12 months reduces pathogens to safe levels (thermophilic composting at >55°C for >3 days kills >99.9% of all pathogens including Ascaris eggs, which are among the most heat-resistant). Averaging 0.12-0.18 kg feces and 1.0-1.5 L urine per person per day. Carbon source (sawdust, straw, or dried leaves) added at 1-2 cups per use to maintain C:N ratio of 20-30:1 and absorb moisture. Vault capacity: 1-2 m³ per person per year (combined liquid and solid with carbon cover material).
 
-## Cross-Domain Links
+## Materials
 
-- **[Medicine & Surgery](medicine.md)**: disease treatment, pharmaceutical production, surgical capability
-- **[Industrial Water Treatment](../chemicals/water-treatment.md)**: deionized and ultrapure water for industrial processes
-- **[Electrolysis](../chemistry/electrolysis.md)**: chlorine production for water disinfection
-- **[Alkali Production](../chemistry/alkalis.md)**: soap production for hygiene
-- **[Food & Agriculture](../foundations/food-agriculture.md)**: irrigation water quality and food safety
-- **[Energy](../energy/index.md)**: energy requirements for pumping, boiling, and UV treatment
+### Treatment Chemicals
+
+| Material | Purpose | Typical Dose | Source |
+|----------|---------|-------------|--------|
+| Aluminum sulfate (alum) | Coagulation | 10-50 mg/L | Chemical manufacturing |
+| Ferric chloride | Coagulation, arsenic removal | 5-30 mg/L | Chemical manufacturing |
+| Calcium hydroxide (lime) | Softening, pH adjustment | 50-200 mg/L | Limestone kiln |
+| Sodium hypochlorite (bleach) | Disinfection | 0.2-0.5 mg/L residual | Chlor-alkali electrolysis |
+| Calcium hypochlorite | Disinfection (dry storage) | 0.2-0.5 mg/L residual | Chemical manufacturing |
+| Activated alumina | Arsenic/fluoride adsorption | Column media | Chemical manufacturing |
+| Bone char | Fluoride removal | Column media | Animal bones, charred |
+| Colloidal silver | Ceramic filter enhancement | 0.1-0.5 mg/L capacity | Chemical supply |
+
+### Filtration Media
+
+| Material | Specification | Purpose |
+|----------|--------------|---------|
+| Fine sand | 0.15-0.35 mm effective size | Slow sand filtration |
+| Coarse sand | 0.4-0.8 mm effective size | Rapid sand filtration |
+| Gravel | 5-30 mm graded | Support layer, drainage |
+| Ceramic clay | 60-70% clay + 30-40% sawdust | Pot filters (fired at 900-1000°C) |
+| Activated charcoal | Granular, 0.5-2.0 mm | Taste/odor removal, organic adsorption |
+
+### Construction Materials
+
+| Material | Use | Notes |
+|----------|-----|-------|
+| Concrete | Tank construction, well aprons, latrine slabs | Portland cement + sand + gravel + water |
+| HDPE pipe | Distribution mains (50-200 mm) | Fusion-welded joints |
+| PVC pipe | Distribution, plumbing (50-300 mm) | Solvent-welded joints |
+| Galvanized steel | Service connections (15-50 mm) | 50-year life in neutral pH |
+| Ferrocement | Storage tanks, small reservoirs | Cement mortar over wire mesh |
+
+## Equipment
+
+| Equipment | Scale | Estimated Cost | Notes |
+|-----------|-------|---------------|-------|
+| Hand pump (Afridev/India Mark II) | Community | $500-1,500 | Lifts from 15-50 m depth |
+| Submersible electric pump | Community | $200-1,000 | 0.5-5 kW, 5-50 m³/hour |
+| Solar pump system | Community | $3,000-8,000 | 300-1500 W PV + pump + controller |
+| Slow sand filter (50 m²) | Community (500 people) | $2,000-5,000 | Concrete tank, sand, gravel |
+| Rapid sand filter | Community | $5,000-15,000 | Requires coagulation pretreatment |
+| Chlorine dosing pump | Community | $100-500 | Metering pump or gravity drip |
+| DPD test kit | Any | $10-30 | Free chlorine residual testing |
+| Turbidity tube | Any | $5-15 | Simple visual turbidity measurement |
+| Coliform test kit (P/A) | Any | $20-50 | Presence/absence bacteria test |
+| Ceramic pot filter | Household | $2-5 | 1-3 L/hour, 2-5 year life |
+| Biosand filter | Household | $10-30 | Concrete container, sand media |
+| UV disinfection unit | Household/community | $50-200 | Requires electricity, 15-80 W lamp |
+
+## Safety
+
+- **Chlorine handling**: Sodium hypochlorite solutions are corrosive and irritate skin and eyes. Wear gloves and eye protection when handling concentrated bleach. Mix in well-ventilated area. Never mix bleach with acid (produces toxic chlorine gas). Store in cool, dark place — bleach degrades in heat and light.
+- **Boiling water**: Risk of scald burns from steam and hot water. Use thick cloth or gloves when handling hot containers. Keep children away from boiling operations. Cover pots to reduce steam exposure.
+- **Well construction safety**: Dug wells deeper than 1.5 m require shoring (temporary wall support) to prevent collapse. Never work alone in a deep excavation. Gas hazards (methane, hydrogen sulfide) can accumulate in deep wells — ventilate before entering and use a candle test (if flame dies, do not enter).
+- **UV lamp hazards**: UV-C radiation at 254 nm damages skin and eyes. Never look directly at an operating UV lamp. Enclose the UV chamber completely. Disconnect power before lamp maintenance. Dispose of spent mercury vapor lamps properly — they contain mercury.
+- **Alum and coagulant handling**: Aluminum sulfate and ferric chloride are acidic and corrosive. Avoid skin contact, wear gloves. Ferric chloride stains surfaces and clothing brown. Store in corrosion-resistant containers (HDPE, not steel for FeCl₃).
+- **Alkalinity testing chemicals**: Phenol red and bromothymol blue indicators are low hazard. DPD reagent is a mild irritant. Keep all test reagents away from drinking water supplies to avoid accidental consumption.
+- **SODIS bottles**: Do not use scratched or discolored PET bottles (reduced UV transmission). Replace bottles every 6-12 months. Do not use PVC bottles (may leach plasticizers).
+
+## Limitations
+
+- **No single treatment removes all contaminants**: Boiling kills pathogens but does not remove chemicals, heavy metals, or turbidity. Filtration removes particles and microbes but not dissolved chemicals. Chlorination kills most bacteria and viruses but not Cryptosporidium. A multi-barrier approach (settling → filtration → disinfection) is necessary for comprehensive treatment.
+- **Infrastructure dependency**: Piped water systems require pumps, pipes, power, and ongoing maintenance. In developing-world settings, 30-50% of water infrastructure is non-functional at any given time due to pump failure, pipe breaks, or power outages. Simpler technologies (hand pumps, household filters) are more sustainable where maintenance capacity is limited.
+- **Chlorine limitations**: Chlorine is ineffective against Cryptosporidium and Giardia at normal doses. High turbidity shields microorganisms from chlorine contact. Organic matter in source water creates chlorine demand, requiring higher doses and producing disinfection byproducts (trihalomethanes, haloacetic acids) at elevated levels.
+- **Scale constraints**: Household-level treatment (boiling, ceramic filters, SODIS) serves individual families but cannot address community-scale contamination. Community-scale systems (piped distribution, central treatment) require capital investment, trained operators, and institutional support.
+- **Water quality testing gaps**: Field test kits provide approximate results. Precise measurement of heavy metals (arsenic, lead, fluoride) requires laboratory equipment (atomic absorption, ion chromatography) that may not be available in early bootstrap stages. In the absence of testing, use multiple treatment barriers as a precaution.
+- **Climate dependence**: Solar disinfection requires adequate sunlight (6+ hours). Rainwater harvesting depends on rainfall patterns. Surface water availability varies seasonally. Groundwater may be deep or contaminated with naturally occurring arsenic or fluoride.
+
+## See Also
+
+- [Medicine & Surgery](medicine.md) — disease treatment, pharmaceutical production, surgical capability
+- [Sanitation](sanitation.md) — sewage disposal, latrine design, hygiene practices
+- [Industrial Water Treatment](../chemicals/water-treatment.md) — deionized and ultrapure water for industrial processes
+- [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md) — electrodialysis desalination using ion exchange membranes
+- [Electrolysis](../chemistry/electrolysis.md) — chlorine production for water disinfection
+- [Alkali Production](../chemistry/alkalis.md) — soap production for hygiene
+- [Food & Agriculture](../foundations/food-agriculture.md) — irrigation water quality and food safety
+- [Energy](../energy/index.md) — energy requirements for pumping, boiling, and UV treatment
 
 ---
 
 *Part of the [Health Domain](index.md) · [All Domains](../index.md)*
-
-[← Back to Health](index.md)

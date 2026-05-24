@@ -197,6 +197,20 @@ Before any precision flatness measurement, the optical flat and the test piece m
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Optics](./index.md) • [All Domains](../index.md)*
+## Limitations
 
-[← Back to Optics](index.md)
+- **Surface figure accuracy**: Hand-figured lenses and flats achieve λ/4 to λ/10 (63-25 nm) surface accuracy at best. Machine-generated surfaces are less accurate without computer-controlled polishing. λ/20 or better requires interferometric guiding during polishing — a feedback loop that takes considerable skill to master.
+- **Materials limitations**: Optical glass quality depends on homogeneity (no striae or bubbles), controlled refractive index, and proper annealing. In-house glass melting may not achieve the consistency of specialty optical glass suppliers. Fused silica (for UV transparency and low thermal expansion) requires high-temperature electric melting.
+- **Measurement circular dependency**: Precision optical instruments require precision references to calibrate against. A flat surface is verified against another flat — but how flat is the reference? The three-flat method (comparing three surfaces in pairs) breaks this circularity but is time-consuming. All metrology ultimately traces to fundamental standards through a chain of comparisons.
+- **Environmental sensitivity**: Optical measurements are sensitive to temperature (thermal expansion shifts dimensions), vibration (blurs interferometric fringes), and air turbulence (refractive index variations). Precision measurements require temperature-controlled environments (20±0.5°C) and vibration-isolated tables — infrastructure that may not be available in early bootstrap.
+- **Scale of effort**: Producing a single precision optical flat (λ/10 over 100 mm diameter) requires 20-80 hours of skilled hand work plus testing. This is not a rapid-production process. Optical instrument production is inherently limited by skilled labor availability.
+
+## See Also
+
+- [Optical Coatings](optical-coatings.md) — anti-reflection and mirror coatings for optical components
+- [Inspection](inspection.md) — visual inspection standards and interferometric testing
+- [Measurement](../measurement/index.md) — precision metrology instruments
+- [Glass](../glass/index.md) — optical glass production
+- [Machine Tools](../machine-tools/index.md) — precision grinding and lapping equipment
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Optics](./index.md) • [All Domains](../index.md)*

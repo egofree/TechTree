@@ -188,14 +188,91 @@ Industrial water treatment includes treating used water before discharge. The st
 ## Cross-Domain Links
 
 - **[Water Treatment (Health)](../health/water-treatment.md)**: potable water production, chlorination, boiling, and basic sanitation
+- **[SEM Tech Water Treatment](../water/sem-tech-water-treatment.md)**: electrodialysis desalination using ion exchange membranes
 - **[Electrolysis](../chemistry/electrolysis.md)**: chlor-alkali process producing chlorine for water disinfection
 - **[Basic Semiconductor Devices](../silicon/basic-devices.md)**: UPW requirements for wafer processing
 - **[Wafer Production](../silicon/wafer-production.md)**: CMP slurries and rinsing demand for ultrapure water
 - **[Vacuum Systems](../vlsi-scaling/vacuum-systems.md)**: sealed water-cooled systems and deionized coolant
 - **[Glass Fibers](../glass/fibers.md)**: high-purity water for optical fiber preform processing
 
+## Materials
+
+| Material | Grade | Use | Notes |
+|----------|-------|-----|-------|
+| Strong acid cation resin (R-SO₃H) | Ion exchange | Deionization, softening | Regenerate with HCl or H₂SO₄ |
+| Strong base anion resin (R-N⁺(CH₃)₃) | Ion exchange | Deionization | Regenerate with NaOH |
+| Mixed-bed resin | Polishing | Final DI polishing to <1 μS/cm | Disposable or regenerable |
+| Cellulose acetate RO membrane | Reverse osmosis | Desalination, UPW pretreatment | 95-99% salt rejection |
+| Polyamide thin-film composite | Reverse osmosis | High-rejection desalination | >99% salt rejection, chlorine-sensitive |
+| Activated carbon (granular) | Adsorption | Chlorine, organics removal | Replace when breakthrough occurs |
+| Manganese greensand | Filtration | Iron/manganese removal | Regenerate with KMnO₄ |
+| Anthracite + sand + garnet | Multimedia filter | Turbidity removal | Backwash periodically |
+| Sodium chloride (salt) | Regenerant | Ion exchange regeneration | Food-grade for potable systems |
+| Sodium hydroxide | Regenerant | Anion resin regeneration | 4% solution for mixed-bed |
+| Hydrochloric acid | Regenerant | Cation resin regeneration | 5-10% solution |
+| 316L stainless steel | Piping, vessels | High-purity water contact | Low-carbon grade resists corrosion |
+| PVDF or PFA plastic | Piping, fittings | UPW distribution | No leaching, low extractables |
+
+## Equipment
+
+| Equipment | Purpose | Typical Capacity |
+|-----------|---------|-----------------|
+| Multimedia filter (sand/anthracite/garnet) | Turbidity removal | 10-20 m/h filtration rate |
+| Activated carbon filter | Chlorine/organics removal | 10-15 minute EBCT |
+| Water softener (cation exchange) | Hardness removal | 2,000-50,000 grain capacity |
+| Two-bed deionizer (cation + anion) | DI water production | Up to 18 MΩ·cm |
+| Mixed-bed polisher | Final DI polishing | <0.1 μS/cm conductivity |
+| Reverse osmosis system | Desalination, UPW pretreatment | 50-1,000+ m³/day |
+| EDI (electrodeionization) unit | Continuous DI | Combines RO + ion exchange |
+| UV sterilizer (185/254 nm) | TOC reduction, sterilization | 30-40 mJ/cm² dose |
+| Submicron filter (0.2 μm) | Final particle removal | Absolute rated, replaceable cartridges |
+| TOC analyzer | Water quality monitoring | ppb-level detection |
+| Resistivity meter | UPW quality monitoring | 18.2 MΩ·cm full scale |
+
+## Steps
+
+### Building a Two-Bed Deionization System
+
+1. **Install pretreatment**: Multimedia filter → activated carbon filter → water softener. Pretreatment protects the ion exchange resins from fouling, oxidation, and hardness scaling. Carbon removes chlorine (which degrades resins). Softener removes Ca²⁺/Mg²⁺ (which precipitate in the anion bed).
+2. **Install cation exchange vessel**: Fiberglass-reinforced plastic (FRP) or 316L SS tank, rated for system pressure. Load with strong acid cation resin (H⁺ form). Resin converts feed salts to their corresponding acids: NaCl → HCl + Na⁺(on resin).
+3. **Install anion exchange vessel**: Second tank loaded with strong base anion resin (OH⁻ form). Removes the acids produced by the cation bed: HCl + OH⁻(on resin) → H₂O + Cl⁻(on resin).
+4. **Connect in series**: Feed water → cation bed → anion bed → product water. Product water should be 50,000-1,000,000 Ω·cm resistivity.
+5. **Add optional mixed-bed polisher**: For higher purity, pass two-bed effluent through a mixed-bed unit (cation + anion resin intimately mixed). Product: up to 18.2 MΩ·cm.
+6. **Monitor quality**: Install resistivity cell at the outlet. When resistivity drops below setpoint, the resin is exhausted and requires regeneration.
+
+### Regenerating Cation Exchange Resin
+
+1. **Backwash**: Reverse flow through the resin bed at 5-10 m/h for 10-15 minutes to remove trapped particulates and classify the resin (remove fines).
+2. **Acid injection**: Pump 5-10% HCl solution through the bed at 2-4 bed volumes over 30-45 minutes. H⁺ ions displace the accumulated cations (Na⁺, Ca²⁺, Mg²⁺, etc.) from the resin.
+3. **Slow rinse**: Continue water flow at the regeneration rate for 10-15 minutes to push residual acid through the bed.
+4. **Fast rinse**: Full service flow rate for 30-60 minutes until effluent pH and conductivity return to normal. Test with conductivity meter. Rinse water goes to waste (acidic — neutralize before discharge).
+
+## Safety
+
+- **Acid and caustic handling**: Ion exchange resin regeneration uses 5-10% HCl (cation) and 4% NaOH (anion). Both cause chemical burns. Wear chemical-resistant gloves, eye protection, and apron. Have eyewash station and safety shower accessible. Always add acid to water, never water to acid.
+- **RO high-pressure systems**: Reverse osmosis operates at 10-70 bar (150-1000 psi). High-pressure water jets can cause injection injuries (fluid forced under skin — requires surgical decompression). Never operate RO systems with damaged fittings or loose connections. Use pressure-rated vessels and fittings rated above maximum system pressure.
+- **Confined spaces in treatment tanks**: Large treatment vessels (filters, softeners) are confined spaces. Hydrogen sulfide, methane, and oxygen depletion can occur. Never enter a treatment vessel without atmospheric testing, ventilation, and a standby attendant.
+- **Chemical storage**: Store regeneration chemicals separately (acids away from bases). Secondary containment for all chemical storage tanks (110% of tank volume). Label all chemical containers clearly.
+- **Electrical safety around water**: Treatment systems combine water and electricity (pumps, UV lamps, EDI units). Ground-fault circuit interrupters (GFCIs) on all electrical outlets. Waterproof all junction boxes and connections.
+
+## Limitations
+
+- **Purity ceiling without RO/EDI**: Two-bed deionization produces water up to ~1 MΩ·cm. Semiconductor-grade ultrapure water (18.2 MΩ·cm, <1 ppb TOC) requires reverse osmosis followed by electrodeionization or mixed-bed polishing — significantly more complex and expensive.
+- **Membrane sensitivity**: Polyamide RO membranes are destroyed by free chlorine. Carbon pretreatment must completely remove chlorine before the RO stage. Cellulose acetate membranes tolerate limited chlorine but have lower rejection rates and narrower pH tolerance.
+- **Resin exhaustion and regeneration waste**: Ion exchange resins exhaust after treating a finite volume of water (determined by feed TDS and resin capacity). Regeneration produces acidic and alkaline waste streams that must be neutralized before discharge. Each regeneration cycle uses 50-200 L of chemical solution per m³ of resin.
+- **Energy requirements**: Reverse osmosis requires significant energy — 3-8 kWh per m³ of product water for brackish feed, 10-15 kWh/m³ for seawater. EDI requires continuous DC power. Distillation is even more energy-intensive (40-80 kWh/m³ for multi-stage flash). These energy demands limit deployment to sites with reliable power.
+- **Bacterial contamination**: Deionized water has no chlorine residual. Bacteria colonize ion exchange resin beds, carbon filters, and storage tanks. Regular sanitization (hot water at 80°C, peracetic acid, or hydrogen peroxide) is required. UPW systems operate in continuous recirculation to prevent stagnant zones where bacteria multiply.
+- **Cost**: Industrial water treatment systems are capital-intensive. A complete UPW system for semiconductor fabrication (producing 10 m³/hour of 18.2 MΩ·cm water) costs $500,000-2,000,000. Even a basic DI system for laboratory use costs $5,000-20,000.
+
+## See Also
+
+- [Water Treatment (Health)](../health/water-treatment.md) — potable water, chlorination, basic treatment
+- [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md) — electrodialysis using low-cost membranes
+- [SEM Tech Electrodialysis](../chemistry/sem-tech-electrodialysis.md) — ion separation via electrodialysis
+- [Electrolysis](../chemistry/electrolysis.md) — chlorine and hydrogen production
+- [Silicon Wafer Production](../silicon/wafer-production.md) — ultrapure water demand
+- [Chemicals](../chemistry/index.md) — acid and base production
+
 ---
 
 *Part of the [Chemicals Domain](index.md) • [All Domains](../index.md)*
-
-[← Back to Chemicals](index.md)

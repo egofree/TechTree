@@ -203,6 +203,22 @@ This graphical approach helps designers understand why certain layer sequences w
 
 **Multi-source deposition**: For coatings requiring more than one material (all multi-layer designs), the vacuum chamber contains two or more evaporation sources, each in a separate crucible with its own shutter. The operator (or automated controller) opens one shutter, deposits the first layer to target thickness, closes that shutter, then opens the next source's shutter for the second layer. The entire multi-layer stack is deposited in a single pump-down cycle without breaking vacuum between layers. Breaking vacuum between layers introduces a contaminant interface (adsorbed water and atmospheric gases) that degrades optical performance and adhesion at that boundary.
 
+## Limitations
+
+- **Vacuum requirement**: Thin-film deposition requires vacuum chambers (10⁻⁵ to 10⁻⁶ torr). Vacuum pump technology (mechanical rotary + diffusion or turbomolecular) is a prerequisite. This limits coating production to facilities with vacuum capability.
+- **Thickness control**: Coating performance depends on precise thickness control (±2-5 nm for single-layer AR coatings). Quartz crystal monitoring provides adequate control but adds complexity. Visual color monitoring (watching reflected color change during deposition) is less precise but workable for single-layer coatings.
+- **Adhesion and durability**: Deposited films may delaminate under thermal cycling, humidity, or mechanical abrasion. Substrate cleaning (solvent degreasing, plasma cleaning) critically affects adhesion. Protective overcoats (SiO₂) improve durability at the cost of an additional deposition step.
+- **Material availability**: High-purity deposition materials (MgF₂, SiO₂, TiO₂, Al₂O₃) must be sourced or synthesized. Magnesium fluoride requires hydrofluoric acid in its synthesis. Titanium dioxide requires titanium metal or titanium tetrachloride as precursors.
+- **Scale constraints**: Batch vacuum deposition chambers typically handle substrates up to 200-600 mm diameter. Large optics require correspondingly large chambers. Coating uniformity degrades at the edges of large substrates.
+
+## See Also
+
+- [Precision Instruments](precision-instruments.md) — optical flats, lens manufacturing, interferometric testing
+- [Inspection](inspection.md) — visual inspection standards, interferometric flatness measurement
+- [Measurement](../measurement/index.md) — optical metrology instruments
+- [Chemistry](../chemistry/index.md) — precursor materials, solvent supply
+- [Glass](../glass/index.md) — optical glass substrates
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Optics](./index.md) • [All Domains](../index.md)*

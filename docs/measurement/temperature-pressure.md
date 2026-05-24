@@ -212,6 +212,22 @@ Flexible metal diaphragm (stainless steel, Hastelloy) deflects under differentia
 - **Pressure testing hazards**: Hydraulic and pneumatic proof-testing of Bourdon gauges, manometer fittings, and pressure connections risks explosive failure. A Bourdon tube at 100 bar stores sufficient strain energy to launch brass fragments through sheet metal. Test behind a polycarbonate blast shield (minimum 6 mm thickness). Use hydraulic fluid (incompressible — stores minimal energy) rather than compressed air (compressible — stores energy proportional to volume × pressure) for all proof tests. Pressurize slowly (1-2 bar/second maximum). Never exceed 1.5× rated working pressure. Inspect tubes for cracks, thin walls, and defective brazed joints before every test cycle. Replace any gauge that has been over-pressured — permanent deformation may not be visible but causes calibration drift and weakened burst resistance.
 - **High-temperature burn risks**: Glass tube drawing (800-1100°C), thermometer bulb forming (800-1100°C), and tube sealing (700-900°C) all involve temperatures far above the instantaneous skin-burn threshold (~70°C for 1-second contact). Borosilicate glass at working temperature shows only a dull red glow — it does not look "hot" in bright lighting. Silica glass working requires hydrogen-oxygen torch at 3400°C flame temperature. Use heat-resistant gloves (leather or Kevlar, rated to 500°C) when handling hot glass. Use tungsten-carbide-tipped tongs for sustained high-temperature work (steel tongs soften above 800°C). Keep a burn kit with sterile dressings and cool running water within arm's reach of all glassworking stations. Eye protection is mandatory — hot glass spalls without warning, and mercury spatter from overfilled thermometers causes corneal damage.
 
+## Limitations
+
+- **Thermocouple accuracy**: Base-metal thermocouples (Type K, J, T) achieve ±1-2°C accuracy. Precious-metal thermocouples (Type S, R) achieve ±0.5°C but are expensive. Thermocouple accuracy degrades with age and thermal cycling due to drift in the Seebeck coefficient. Regular calibration against fixed-point references (ice point 0°C, steam point 100°C) is essential.
+- **Mercury hazards**: Mercury-filled thermometers and barometers contain elemental mercury, a neurotoxin. Breakage creates hazardous contamination. Alcohol-filled thermometers are safer but less precise (±1°C vs. ±0.1°C). Digital sensors (thermistors, RTDs) eliminate mercury risk but require electronics.
+- **Pressure gauge calibration**: Bourdon tube gauges drift with age and overpressure events. Annual calibration against a dead-weight tester (precision weights applying known pressure) is required for critical measurements. Uncalibrated gauges may read 5-10% off actual pressure.
+- **Manometer limitations**: U-tube manometers provide excellent accuracy (±0.1 mm of fluid column) but are limited to low pressures (below ~2 bar for mercury, ~0.2 bar for water). They require vertical mounting, stable temperature (fluid density changes with temperature), and careful reading of meniscus.
+- **No digital data logging**: Without electronics, all measurements are read visually and recorded manually. Continuous monitoring requires an operator present at all times. Data logging (chart recorders, digital acquisition) arrives with the electronics stage.
+
+## See Also
+
+- [Precision Metrology](precision-metrology.md) — base unit standards, calibration infrastructure
+- [Optical Instruments](optical-instruments.md) — spectroscopes, refractometers, interferometers
+- [Electrical Instruments](electrical-instruments.md) — multimeters, oscilloscopes, frequency counters
+- [Energy](../energy/index.md) — steam power, boilers (major application of temperature/pressure measurement)
+- [Chemistry](../chemistry/index.md) — thermocouple materials, mercury production
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*

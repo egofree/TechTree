@@ -5,7 +5,89 @@
 > **Timeline**: Years 5-100+
 > **Outputs**: surgical_capability, medical_treatment
 
-### Pharmaceutical Production
+## Overview
+
+Medicine and surgery in a bootstrap civilization encompasses pharmaceutical production from plant and synthetic sources, basic surgical capability (wound management, fracture reduction, amputation), diagnostic examination, emergency procedures, and infection control. The foundational tier relies on plant-derived medicines and manual techniques; later stages add synthetic pharmaceuticals, laboratory diagnostics, and increasingly sophisticated surgical interventions.
+
+Access to even basic medical capability — wound irrigation, fracture immobilization, antiseptic practice, and a handful of essential drugs (ether for anesthesia, morphine for pain, quinine for malaria) — dramatically reduces preventable death. Lister's introduction of antisepsis in 1867 alone cut surgical mortality from ~50% to ~15%. The gap between "no medical capability" and "basic wound care + essential drugs" is larger than the gap between "basic care" and "modern hospital medicine" in terms of lives saved.
+
+## Materials
+
+### Pharmaceutical Materials
+
+| Material | Source | Use |
+|----------|--------|-----|
+| Willow bark (Salix spp.) | Wild harvest | Salicin → salicylic acid (pain/fever) |
+| Opium poppy latex | Cultivation | Morphine, codeine (analgesic) |
+| Cinchona bark | Tropical cultivation | Quinine (anti-malarial) |
+| Ephedra stems | Arid region harvest | Ephedrine (bronchodilator) |
+| Digitalis (foxglove) leaves | Cultivation | Cardiac glycosides (heart failure) |
+| Ethanol | Fermentation + distillation | Solvent, antiseptic, anesthetic adjunct |
+| Sulfuric acid | Chemical manufacturing | Pharmaceutical synthesis |
+| Acetic anhydride | Chemical manufacturing | Aspirin synthesis |
+| Iodine | Seaweed ash or caliche | Antiseptic tincture |
+| Gypsum (CaSO₄·2H₂O) | Mineral deposit | Plaster of Paris for casts |
+
+### Surgical Materials
+
+| Material | Use | Notes |
+|----------|-----|-------|
+| Catgut (sheep intestine) | Absorbable sutures | 7-14 day absorption |
+| Silk thread | Non-absorbable sutures | Remove after 7-14 days |
+| Cotton gauze | Wound dressings | Sterilized by boiling or autoclaving |
+| Plaster bandages | Fracture immobilization | Dip in water, apply 5-12 layers |
+| Adhesive tape | Wound closure, dressings | Fabric or paper backing with adhesive |
+| Guttapercha | Dental fillings | Softens at 70°C, sets rigid at body temperature |
+
+## Equipment
+
+| Equipment | Purpose | Bootstrap Level |
+|-----------|---------|----------------|
+| Scalpel (forged steel) | Incisions, debridement | Basic metalworking |
+| Forceps (toothed, smooth) | Tissue handling | Basic metalworking |
+| Needle holder | Suturing | Basic metalworking |
+| Hemostatic forceps | Vessel clamping | Basic metalworking |
+| Retractors | Wound exposure | Basic metalworking |
+| Syringe (glass/metal) | Irrigation, injection | Glass + metalworking |
+| Stethoscope (wooden/metal tube) | Auscultation | Basic turning |
+| Mercury thermometer | Temperature measurement | Glass blowing + mercury |
+| Centrifuge (hand-cranked) | Blood separation | Metalworking |
+| Compound microscope (100×, 400×, 1000×) | Diagnostics | Lens grinding |
+| Autoclave / pressure cooker | Sterilization | Metal vessel + heat source |
+| Bone saw | Amputation | Steel + woodworking tools |
+| Tourniquet | Hemorrhage control | Cloth + stick windlass |
+
+## Steps
+
+### Performing Wound Irrigation and Closure
+
+1. **Assess the wound**: Determine depth, length, contamination level, and neurovascular status distal to the wound. Check for foreign bodies. Assess tetanus immunization status.
+2. **Anesthetize if needed**: For large or deep wounds, provide local anesthesia (ether inhalation for general effect) or regional block if available.
+3. **Irrigate**: Using a syringe (20-60 mL) with an 18-gauge needle, forcefully express clean (boiled then cooled) water or saline into the wound under pressure. Use 200-500 mL total volume. Direct the stream at the wound surface from 2-3 cm distance.
+4. **Debride**: Remove necrotic tissue (gray/brown, no bleeding) with scalpel or scissors. Preserve viable tissue (bleeds when cut, muscle contracts when touched).
+5. **Close or leave open**: Clean wounds <6 hours old → primary closure with sutures or adhesive strips. Contaminated wounds or >6 hours old → leave open for delayed closure at day 4-5, or heal by secondary intention.
+6. **Dress**: Apply sterile cotton gauze over the wound. Secure with bandage. Change daily or when soaked.
+7. **Monitor for infection**: Check daily for spreading redness, increasing pain, swelling, warmth, red streaks (lymphangitis), or fever. If infected → open wound, re-irrigate, apply antiseptic.
+
+### Setting a Fracture (Closed Reduction)
+
+1. **Assess**: Confirm fracture by deformity, crepitus, abnormal mobility, and pain. Check distal pulse, sensation, and motor function. If open fracture, treat as wound emergency first.
+2. **Provide analgesia**: Administer morphine, ethanol, or ether anesthesia before manipulation.
+3. **Apply traction**: Pull along the axis of the bone to disimpact fragments. Maintain steady longitudinal traction.
+4. **Restore alignment**: Adjust angular and rotational deformity while maintaining traction. Compare to the uninjured limb for length, alignment, and rotation.
+5. **Immobilize**: Apply plaster of Paris cast or wooden splints with cloth wrapping. For plaster: pad bony prominences with cotton, dip plaster bandages in water (20-25°C, 3-5 seconds), squeeze out excess, apply 5-12 layers, mold smoothly without wrinkles. Immobilize the joint above and below the fracture.
+6. **Monitor**: Check distal circulation (pulse, capillary refill, sensation, warmth) after cast application. Instruct patient to report immediately if numbness, severe pain, or coldness develops distally (compartment syndrome).
+7. **Follow up**: Recheck alignment at 1 week and 3 weeks. Typical healing: 6-8 weeks for simple fractures, 12+ weeks for weight-bearing bones.
+
+### Performing START Triage
+
+1. **Clear walking wounded**: Ask everyone who can walk to move to a designated area. Tag these patients **green (minor/delayed)**.
+2. **Assess respirations** (non-ambulatory patients, <30 seconds each): Not breathing after airway repositioning → **black (expectant)**. Breathing >30/minute → **red (immediate)**. Breathing <30/minute → proceed.
+3. **Assess perfusion**: Capillary refill >2 seconds or no radial pulse → **red (immediate)**. Adequate perfusion → proceed.
+4. **Assess mental status**: Cannot follow simple commands → **red (immediate)**. Can follow commands → **yellow (urgent)**.
+5. **Tag all patients**: Use colored tape, cloth strips, or marker. Re-triage every 30-60 minutes as conditions change.
+
+## Safety & Hazards
 
 **[Plant-derived medicines](../glossary/plant-derived-medicines.md)** (Foundations+):
 - **Willow bark (salicin → salicylic acid → aspirin)**: Harvest bark from willow (Salix species) in spring when sap flows. Dry bark. Extract by boiling 30 g bark in 500 mL water for 15 minutes. Strain. Dose: 1 cup of decoction for pain/fever. Contains salicin (prodrug of salicylic acid). Later (Chemistry), synthesize acetylsalicylic acid (aspirin) from salicylic acid + acetic anhydride.
@@ -211,6 +293,26 @@
   - **Perfusion**: Capillary refill >2 seconds, or no palpable radial pulse → **red (immediate)**. Adequate perfusion → proceed to next check.
   - **Mental status**: Unable to follow simple commands (e.g., "squeeze my hand") → **red (immediate)**. Can follow commands → **yellow (urgent/delayed)**.
 - **Key principle**: START sorts patients into four categories in under 30 seconds each. It sacrifices individual accuracy for throughput. Re-triage periodically as conditions change and resources shift. Tag all patients with color-coded markers (colored tape, cloth strips, or marker on forehead) so all responders share a common system.
+
+## Limitations
+
+- **No antibiotics**: Until advanced microbiology and industrial fermentation are established, bacterial infections cannot be treated systemically. Reliance on antisepsis, wound drainage, and the body's immune response limits treatable conditions. A wound infection that would be cured with a course of penicillin in modern medicine may become lethal.
+- **No blood transfusion**: Without blood banking (anticoagulant preservation, typing, cross-matching, refrigerated storage), severe hemorrhage can only be managed with fluid replacement (saline, oral rehydration). Blood loss exceeding 30% of total blood volume (approximately 1.5 L in an adult) is likely fatal without transfusion.
+- **No imaging**: X-ray, ultrasound, CT, and MRI are unavailable until advanced electronics and physics capabilities are established. Fracture alignment is assessed clinically (not radiographically). Internal injuries are diagnosed by physical examination alone. Tumors, abscesses, and foreign bodies are located by palpation and percussion.
+- **Narrow pharmaceutical range**: Plant-derived medicines provide analgesics (morphine, salicin), anti-malarials (quinine), and a few cardiac drugs (digitalis). Synthetic pharmaceuticals require an established chemical industry. Many diseases (diabetes, hypertension, most cancers, autoimmune disorders) have no effective treatment in the bootstrap period.
+- **Anesthesia risks**: Ether and chloroform anesthesia have narrow therapeutic windows. Overdose causes respiratory arrest. Ether is highly flammable — no flames or sparks in the anesthesia area. Chloroform causes liver toxicity with repeated exposure. Without mechanical ventilation, assisted breathing relies on manual bellows.
+- **Infection control limits**: Aseptic technique reduces surgical infection rates dramatically, but sterility is never absolute. Without antibiotics, post-operative infection remains a leading cause of surgical mortality. Wound care in field conditions (dust, flies, contaminated water) is inherently higher risk than in a controlled surgical theater.
+- **Dental care limitations**: Without modern filling materials (composite resins, ceramics) and radiography, dental treatment is limited to extraction and temporary fillings. Preventive care (cleaning, fluoride) and endodontics (root canal) are not available at the bootstrap level.
+
+## See Also
+
+- [Water Treatment (Health)](water-treatment.md) — clean water for disease prevention
+- [Sanitation](sanitation.md) — sewage disposal, hygiene practices, waste management
+- [Medical Instruments](medical-instruments.md) — diagnostic and surgical instrument fabrication
+- [Pharmacology](pharmacology.md) — drug extraction, preparation, dosing, and quality control
+- [Occupational Health](occupational-health.md) — workplace hazard identification and control
+- [Acids and Bases](../chemicals/acids-bases.md) — sulfuric acid, hydrochloric acid production for pharmaceutical synthesis
+- [Energy](../energy/index.md) — power for autoclaves, centrifuges, microscopes
 
 ---
 

@@ -201,4 +201,26 @@ For paper production, movable type, press construction, typesetting, printing in
 
 - Writing enables [Education](../knowledge/education.md) and all technical knowledge transfer. Clay fired in [Kilns](../ceramics/kilns.md). Ink related to [Dyeing](../textiles/dyeing.md). Mass reproduction via [Printing](../knowledge/printing.md).
 
-[← Back to Knowledge](index.md)
+## Safety
+
+- **Solvent handling**: Ink solvents (ethanol, turpentine, linseed oil) are flammable. Work in well-ventilated areas. Store away from ignition sources.
+- **Lead and toxic pigments**: Some historical inks and pigments contain lead, mercury, or arsenic compounds. Avoid using these in writing implements that may contact skin or food. Substitute with carbon-based (india ink) or iron-gall formulations.
+- **Sharp tools**: Quill cutting knives, reed pens, and metal nib preparation involve sharp cutting edges. Cut away from the body. Keep tools sheathed when not in use.
+- **Paper dust**: Prolonged exposure to paper dust can irritate respiratory passages. Handle bulk paper in ventilated areas.
+
+## Limitations
+
+- **Medium fragility**: Papyrus, parchment, and early paper degrade over centuries when exposed to moisture, light, insects, and mold. Clay tablets are the most durable medium but cannot record information as densely as paper. No writing medium is permanent without controlled storage conditions.
+- **Literacy bottleneck**: Writing systems require years of study to master. In early bootstrap, scribes are a scarce resource. Widespread literacy depends on educational infrastructure that takes generations to build. Until printing arrives, every document must be hand-copied.
+- **Language standardization**: Without a standardized written language, technical knowledge transfer between regions is limited. Mathematical notation, chemical formulas, and engineering drawings all require agreed-upon symbol systems.
+
+## See Also
+
+- [Printing](printing.md) — mass reproduction of written material
+- [Libraries](libraries.md) — preservation and organization of written knowledge
+- [Education](education.md) — literacy training and knowledge transfer
+- [Chemistry](../chemistry/index.md) — ink formulation, solvent production
+
+---
+
+*Part of the [Knowledge Domain](index.md) · [All Domains](../index.md)*

@@ -199,6 +199,76 @@
 4. **Disinfection**: Chlorination to 0.2-0.5 mg/L free chlorine residual, 30-minute contact time, pH 7-8 for optimal hypochlorous acid formation. Protects the distribution system.
 - Each step removes progressively smaller particles and organisms. Skipping any step degrades the performance of downstream processes. Coagulation without filtration wastes chemicals. Filtration without disinfection leaves bacterial and viral contamination. The full train produces water safe for drinking from most surface sources.
 
+## Materials
+
+| Material | Use | Source | Notes |
+|----------|-----|--------|-------|
+| Concrete (Portland cement + sand + gravel) | Latrine slabs, tank construction, well lining | Cement manufacturing | Cure 28 days for full strength |
+| PVC pipe (100-300 mm) | Water distribution, sewers, vent pipes | Polymer manufacturing | Solvent-welded joints |
+| HDPE pipe (50-200 mm) | Water mains, pressure lines | Polymer manufacturing | Fusion-welded joints |
+| Cast iron / ductile iron pipe | Municipal water mains (80-1200 mm) | Iron foundry | 50-100+ year life |
+| Stone or brick | Well lining, latrine pit lining | Local materials | Dry-laid or mortared |
+| Sand (0.15-0.35 mm effective size) | Slow sand filter media | Quarried or river | Washed before use |
+| Sand (0.4-0.8 mm effective size) | Rapid sand filter media | Quarried or river | Coarser grade |
+| Gravel (5-30 mm graded) | Filter support layer, drainage | Quarried | Washed before use |
+| Galvanized steel pipe | Service connections (15-50 mm) | Steel mill + galvanizing | 15-30 year life |
+| Aluminum sulfate (alum) | Coagulation | Chemical manufacturing | 10-50 mg/L dose |
+| Sodium hypochlorite (bleach) | Disinfection | Chlor-alkali process | 5-15% solution |
+
+## Equipment
+
+| Equipment | Purpose | Scale | Notes |
+|-----------|---------|-------|-------|
+| Centrifugal pump | Water distribution, sewage lift | Community | 60-85% efficient, motor-driven |
+| Hand pump (India Mark II) | Well water extraction | Community | 15-50 m depth, 16 L/min |
+| Bar screen (6-25 mm spacing) | Sewage preliminary treatment | Community | Manually raked |
+| Trickling filter media (rock/plastic) | Secondary sewage treatment | Community | 1-3 m depth, BOD removal 65-85% |
+| Aeration diffusers | Activated sludge process | Community | Blower + submerged diffusers |
+| Sludge drying beds | Sludge dewatering | Community | Sand over gravel, covered or open |
+| Turbidity tube | Water quality field test | Any | Visual measurement, no power |
+| DPD test kit | Chlorine residual testing | Any | Colorimetric, $10-30 |
+| P/A coliform test kit | Bacterial contamination | Any | 24-48 hour incubation |
+
+## Steps
+
+### Constructing a VIP Latrine
+
+1. **Site selection**: Locate at least 30 m from any water source (well, spring, stream) and downhill from water sources. Soil should be stable (not loose sand or collapsing clay). Minimum 5 m from dwelling foundation.
+2. **Dig the pit**: 0.3-0.5 m² cross-section, 3-5 m deep. For a family of 6, a 0.5 m² × 3 m pit lasts approximately 5-6 years. Pile excavated soil nearby for later use.
+3. **Cast the slab**: Pour reinforced concrete slab (75-100 mm thick, 1.0-1.2 m square) over the pit. Include a keyhole or circular drop hole (150-200 mm). Embed a footrest on each side of the hole. Include a 100-150 mm diameter hole for the vent pipe.
+4. **Install vent pipe**: Fit PVC pipe (minimum 150 mm diameter) through the slab hole. Extend at least 0.5 m above the roofline. Cover the top with stainless steel fly screen (1-2 mm mesh).
+5. **Build superstructure**: Construct privacy enclosure from local materials (wood frame, corrugated metal, brick). Include a door or privacy screen. Keep interior dark to encourage flies to move toward the light at the vent top.
+6. **Test and commission**: Verify the slab is stable and the drop hole is clear. Confirm the vent pipe draws air (hold a smoking stick near the drop hole — smoke should rise through the vent). Provide handwashing station nearby.
+
+### Building a Slow Sand Filter
+
+1. **Construct the tank**: Build a watertight tank (concrete, ferrocement, or brick with cement plaster). Dimensions: 2-4 m deep, area sized for demand (0.5-1.0 m² per 50-200 L/day). Include inlet and outlet structures with weirs to control flow.
+2. **Install underdrain**: Place graded gravel (30 cm depth, coarse at bottom, fine at top) over the underdrain system (perforated pipes or clay tile drains).
+3. **Add sand**: Fill with clean, washed sand to 0.6-1.2 m depth (effective size 0.15-0.35 mm, uniformity coefficient 1.5-2.5). Level the surface.
+4. **Add water**: Fill slowly to avoid disturbing the sand. Maintain 0.5-1.0 m of water above the sand surface.
+5. **Mature the filter**: Allow 1-4 weeks for the biological layer (schmutzdecke) to develop on the sand surface. During this period, the output is not yet safe — provide alternative drinking water.
+6. **Operate**: Feed raw water continuously at 0.1-0.2 m/hour filtration rate. Collect filtered water from the outlet. Monitor flow rate and turbidity.
+7. **Maintain**: When flow rate drops (every 1-3 months), drain the filter and scrape off the top 1-2 cm of sand. Resume operation. When sand depth drops below 0.5 m, add back washed sand.
+
+## Limitations
+
+- **No universal solution**: Different water sources and contamination types require different treatment approaches. No single technology addresses all pathogens, chemical contaminants, and aesthetic issues simultaneously. A multi-barrier approach is essential.
+- **Infrastructure maintenance**: Water and sanitation systems degrade without ongoing maintenance. Pumps break, pipes leak, filters clog, and chlorine supplies run out. In many developing regions, 30-50% of water infrastructure is non-functional due to lack of spare parts, trained technicians, or institutional support.
+- **Climate vulnerability**: Drought reduces surface water availability. Flooding contaminates wells and damages infrastructure. Arid regions may lack any surface water source, requiring groundwater extraction or desalination.
+- **Cultural acceptance**: Some technologies (composting toilets, water reuse, SODIS) face cultural resistance. Community engagement and education are as important as the technical design. Technology that people will not use consistently provides no public health benefit.
+- **Cost barriers**: Community-scale piped water systems cost $15-40 per person served. Sewage treatment plants cost $50-200 per person served. Many communities cannot afford these capital costs without external funding.
+- **Sludge management**: Sewage sludge requires treatment (dewatering, composting, or incineration) before disposal. Improper sludge handling creates secondary pollution. The "last mile" of wastewater treatment is often neglected.
+
+## See Also
+
+- [Water Treatment (Health)](water-treatment.md) — drinking water purification, waterborne disease prevention, emergency treatment
+- [Medicine & Surgery](medicine.md) — disease treatment, pharmaceutical production
+- [Industrial Water Treatment](../chemicals/water-treatment.md) — ultrapure water, reverse osmosis, industrial processes
+- [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md) — electrodialysis desalination
+- [Electrolysis](../chemistry/electrolysis.md) — chlorine production
+- [Energy](../energy/index.md) — pumping and treatment energy requirements
+- [Occupational Health](occupational-health.md) — workplace safety and hazard control
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*

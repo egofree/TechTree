@@ -202,6 +202,20 @@ A filar micrometer eyepiece contains a movable crosshair driven by a precision m
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*
+## Limitations
 
-[← Back to Measurement](index.md)
+- **Optical glass quality**: Spectroscopes, refractometers, and interferometers all depend on the quality of their optical components. Inhomogeneity, striae, and stress birefringence in glass degrade measurement accuracy. High-quality optical glass requires controlled melting, fine annealing, and homogeneity testing — a significant manufacturing investment.
+- **Wavelength calibration**: Spectroscopes require wavelength calibration using known emission lines (sodium D lines at 589.0/589.6 nm, mercury lines, neon lines). Without calibrated reference sources, wavelength readings are approximate. Diffraction gratings must be ruled with precise groove spacing — a precision manufacturing challenge.
+- **Operator skill**: Optical measurements (spectroscopy, interferometry, refractometry) require trained operators who can align optics, read scales, and interpret fringe patterns. A misaligned interferometer produces meaningless results. Training takes months to years.
+- **Environmental sensitivity**: Interferometric measurements are sensitive to vibration (blurs fringes), temperature drift (shifts fringe pattern), and air turbulence (refractive index variations). These instruments work best on vibration-isolated tables in temperature-controlled rooms — infrastructure that may not be available.
+- **Scale limitations**: Visual spectroscopy detects absorption and emission features at ~0.1-1 nm resolution. Photographic recording extends this to ~0.01 nm. True high-resolution spectroscopy (grating spectrometers with CCD detectors at <0.001 nm) requires electronics and computing capability.
+
+## See Also
+
+- [Precision Metrology](precision-metrology.md) — base standards, calibration, gauge blocks
+- [Temperature & Pressure](temperature-pressure.md) — thermocouples, pressure gauges
+- [Electrical Instruments](electrical-instruments.md) — multimeters, oscilloscopes
+- [Optics](../optics/index.md) — optical coatings, precision instruments, inspection
+- [Chemistry](../chemistry/index.md) — optical glass materials, chemical analysis applications
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*

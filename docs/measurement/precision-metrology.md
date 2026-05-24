@@ -196,6 +196,22 @@ Precision manufacturing (Machine Tools) and all semiconductor work requires cons
 - **Combining uncertainties**: For independent sources, the combined standard uncertainty is the root-sum-square of individual contributions: u_combined = √(u₁² + u₂² + ... + uₙ²). Expand to a 95% confidence interval by multiplying by a coverage factor k = 2: U = 2 × u_combined. Example: a 25.000 mm gauge block measured with a micrometer (resolution ±0.005 mm, calibration ±0.002 mm, thermal ±0.003 mm at 22°C) has combined uncertainty u = √(0.005² + 0.002² + 0.003²) = 0.006 mm, expanded uncertainty U = ±0.012 mm (95% confidence).
 - **Decision rule**: Accept a part if the measurement plus its uncertainty falls entirely within the tolerance zone. Reject if the measurement minus its uncertainty falls entirely outside. If uncertainty overlaps the tolerance boundary, the result is inconclusive — use a more precise instrument or accept the risk of misclassification.
 
+## Limitations
+
+- **Thermal sensitivity**: All dimensional measurements are temperature-dependent. Steel expands ~12 μm per meter per °C. A gauge block measured at 25°C instead of the standard 20°C is 60 μm longer per meter than its nominal size. Precision metrology requires temperature-controlled environments (20±0.5°C) and thermal equilibration of workpieces before measurement.
+- **Contact force effects**: Mechanical contact measurements (micrometers, dial indicators) apply force that compresses the workpiece surface. A steel micrometer applying 5-10 N of force on a soft material (aluminum, copper) can produce measurable compression errors. Standards specify acceptable contact forces for each tolerance grade.
+- **Reference standard degradation**: Gauge blocks, straightedges, and surface plates wear with use. Each use creates microscopic abrasion. Precision references must be recalibrated periodically (every 6-12 months for gauge blocks in regular use) and handled with extreme care — never slide gauge blocks across each other wrung together without first cleaning.
+- **Skill dependency**: Precision measurement is a manual skill requiring years of training. Reading a vernier scale to 0.02 mm, interpreting interferometric fringes, and correctly applying gauge blocks for comparative measurement all require trained operators. Automation (coordinate measuring machines, laser interferometers) reduces but does not eliminate skill requirements.
+- **Traceability gap**: In a bootstrap setting, no national metrology institute exists to provide primary standards. Local standards must be manufactured and maintained with internal procedures. The accuracy of all measurements traces back to the quality of these local standards, which may have uncertainties orders of magnitude larger than in a developed metrology infrastructure.
+
+## See Also
+
+- [Temperature & Pressure](temperature-pressure.md) — thermocouples, pressure gauges, barometers
+- [Optical Instruments](optical-instruments.md) — spectroscopes, refractometers, interferometers
+- [Electrical Instruments](electrical-instruments.md) — multimeters, oscilloscopes, bridges
+- [Machine Tools](../machine-tools/index.md) — feeds, speeds, tolerances — the primary application of metrology
+- [Optics](../optics/index.md) — optical flats, precision instruments, interferometric testing
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*

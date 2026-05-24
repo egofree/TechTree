@@ -206,4 +206,20 @@ Printing enables mass distribution of technical knowledge — process recipes, e
 
 - Printing requires [Writing](../knowledge/writing.md) systems and [Education](../knowledge/education.md) literacy. Paper from [Pulp Chemicals](../chemistry/pulp-chemicals.md). Ink from [Solvents](../chemistry/solvents.md). Stored in [Libraries](../knowledge/libraries.md).
 
-[← Back to Knowledge](index.md)
+## Limitations
+
+- **Type production bottleneck**: Each character requires a separate metal type piece. A complete type set for a language with 50 characters at 10 common sizes requires 5,000+ individual type pieces — each hand-finished. Type wears out (soft metal alloys deform under repeated impression pressure) and must be recast periodically.
+- **Color printing complexity**: Multi-color printing requires multiple press passes with precise registration (alignment). Each additional color multiplies labor and error risk. Full-color process printing (CMYK) requires 4 precisely registered passes — achievable but slow and skill-intensive.
+- **Speed constraints**: Hand-operated presses produce 200-500 sheets per hour at best. Steam-powered rotary presses (industrial stage) increase throughput to 10,000+ sheets per hour. The manual press limits distribution to hundreds of copies, not millions.
+- **Paper quality dependency**: Printing quality depends on paper smoothness, absorbency, and dimensional stability. Rough paper produces uneven impressions; overly absorbent paper causes ink to spread, blurring fine detail. Paper quality control is as important as press technique.
+
+## See Also
+
+- [Writing](writing.md) — writing systems and materials
+- [Libraries](libraries.md) — distribution and preservation of printed works
+- [Education](education.md) — literacy enables readership for printed materials
+- [Chemistry](../chemistry/index.md) — paper production, ink formulation, solvent supply
+
+---
+
+*Part of the [Knowledge Domain](index.md) · [All Domains](../index.md)*

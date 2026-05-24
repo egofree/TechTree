@@ -202,4 +202,25 @@ Once semiconductor manufacturing is available:
 
 - Libraries preserve [Writing](../knowledge/writing.md) on [Printing](../knowledge/printing.md)-produced materials. Paper from [Pulp Chemicals](../chemistry/pulp-chemicals.md). Serves [Education](../knowledge/education.md) programs.
 
-[← Back to Knowledge](index.md)
+## Safety
+
+- **Fire prevention**: Libraries are exceptionally vulnerable to fire. No open flames, smoking, or unattended electrical equipment. Install fire extinguishers (CO₂ or dry chemical) at every exit. Develop and practice evacuation plans. Fire-resistant construction (concrete, masonry) for new library buildings.
+- **Mold exposure**: Mold-contaminated materials can cause respiratory illness. Wear N95-equivalent masks and gloves when handling moldy books or documents. Work in ventilated areas. Isolate contaminated materials immediately.
+- **Heavy shelving**: Fully loaded library shelving is extremely heavy (100+ kg per meter of shelf). Secure tall shelving units to walls or floor to prevent tipping. Distribute weight evenly across shelves. Never climb shelving — use a step stool or rolling ladder.
+
+## Limitations
+
+- **Physical degradation**: All physical media degrade. Paper yellows and becomes brittle (acid-catalyzed hydrolysis of cellulose). Leather bindings rot. Parchment warps. Even with optimal storage (18-22°C, 40-55% RH, darkness), paper documents have finite lifespans measured in centuries.
+- **Access limitations**: Physical libraries require physical presence. Knowledge is only available to those who can travel to the library, read the language, and understand the subject. These barriers limit the reach of stored knowledge.
+- **Cataloging complexity**: As collections grow, finding specific information becomes increasingly difficult without systematic cataloging. Classification systems (Dewey, Library of Congress) require training to use effectively. Poorly cataloged collections may as well not exist for practical purposes.
+
+## See Also
+
+- [Writing](writing.md) — writing systems and materials
+- [Printing](printing.md) — mass production of books and documents
+- [Education](education.md) — literacy and knowledge transfer
+- [Chemistry](../chemistry/index.md) — paper production, preservation chemicals
+
+---
+
+*Part of the [Knowledge Domain](index.md) · [All Domains](../index.md)*

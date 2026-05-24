@@ -10,6 +10,39 @@
 
 A bootstrapping civilization needs basic medical instrumentation to diagnose illness, perform surgery, and prevent infection. Without reliable diagnostic tools, treatable conditions go unrecognized. Without sterile surgical instruments, minor procedures become life-threatening. The instruments described here span the range from simple mechanical diagnostics (stethoscopes, thermometers, blood pressure cuffs) through surgical tools (scalpels, forceps, retractors, sutures) to sterilization equipment (autoclaves). All are achievable with metallurgy, glassworking, and basic chemical production capabilities.
 
+## Overview
+
+Medical instruments fall into three functional categories: diagnostic (stethoscopes, thermometers, sphygmomanometers, otoscopes), surgical (scalpels, forceps, needle holders, retractors, sutures), and sterilization (autoclaves, chemical sterilants). The fabrication requirements range from basic metalworking (forging, grinding, heat-treating steel for surgical tools) to precision glassworking (thermometer capillary tubes) to simple pressure vessel construction (autoclaves).
+
+The critical threshold is sterility: an instrument that cannot be sterilized is a vector for infection rather than a tool for healing. Boiling provides adequate sterilization for most purposes; autoclaving (steam at 121°C, 15 psi, 15 minutes) provides complete sterilization including bacterial spores.
+
+## Materials
+
+| Material | Instruments | Properties Required |
+|----------|------------|-------------------|
+| Carbon steel (high-carbon, 0.8-1.2% C) | Scalpel blades, scissors, osteotomes | Hardenable to HRC 55-62, takes sharp edge |
+| Stainless steel (420, 440 series) | Forceps, needle holders, retractors | Corrosion resistant, autoclavable |
+| Brass or bronze | Stethoscope chest piece, valve bodies | Easily cast, corrosion resistant |
+| Glass (borosilicate) | Thermometer tubes, lenses, vials | Thermal shock resistant, transparent |
+| Mercury | Clinical thermometers, sphygmomanometers | Toxic — handle with care, seek alternatives |
+| Natural rubber latex | Blood pressure cuffs, tourniquets | Flexible, airtight seal |
+| Silk or catgut | Sutures | Sterilizable, biocompatible |
+| Hardwood (boxwood, ebony) | Tongue depressors, specula | Smooth, non-splintering, sterilizable |
+| Plaster of Paris | Casts, impressions | Sets hard, easily shaped |
+
+## Equipment
+
+| Equipment | Fabrication Requirement | Key Specification |
+|-----------|----------------------|-------------------|
+| Forge or furnace | Metalworking | Capable of 900°C for heat-treating steel |
+| Anvil and hammers | Metalworking | For shaping instrument blanks |
+| Bench grinder | Metalworking | For rough shaping and sharpening |
+| Whetstones (coarse + fine) | Metalworking | For edge finishing |
+| Glass lathe or lampworking torch | Glassworking | For thermometer tube sealing |
+| Drawplate | Metalworking | For wire drawing (suture needles) |
+| Molding flasks | Casting | For brass/bronze casting |
+| Calipers and micrometer | Measurement | For precision dimensions (±0.01 mm) |
+| Pressure vessel (autoclave) | Sterilization | 15 psi, 121°C capability |
 ## Diagnostic Instruments
 
 ### Stethoscope
@@ -195,6 +228,25 @@ The lens quality matters for accurate diagnosis. A simple plano-convex lens (gro
 
 **Sterilization Verification**: Verify autoclave performance with biological indicators (Geobacillus stearothermophilus spores, kill at 121°C in 15 min) placed in the most difficult-to-sterilize location. Chemical indicators (Class 5 integrating indicators) on every pack. Bowie-Dick test for vacuum autoclaves: uniform color change confirms air removal. Record temperature with chart recorder or data logger for regulatory documentation.
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Health](./index.md) · [All Domains](../index.md)*
+## Limitations
 
-[← Back to Health](index.md)
+- **No electronic diagnostics**: The instruments described are mechanical or visual. Electrocardiography, electronic blood pressure monitoring, pulse oximetry, capnography, and laboratory analyzers require electronics manufacturing capability beyond the bootstrap level. Patient monitoring relies on the clinician's senses and manual instruments.
+- **Material constraints**: Stainless steel (required for autoclavable instruments) demands chromium and nickel alloying — available only after ferrous metallurgy is established. Early instruments may use carbon steel (rusts, requires drying after sterilization) or bronze (softer, less durable edge).
+- **Precision limits**: Hand-fabricated instruments cannot match the dimensional consistency of factory-produced tools. Scalpel blades may vary in edge geometry, forceps in jaw alignment, and scissors in pivot tension. Each instrument must be individually tested and adjusted.
+- **Mercury toxicity**: Mercury thermometers and sphygmomanometers contain 0.5-1.5 g of elemental mercury. Breakage creates a toxic exposure hazard. Alcohol-filled or digital thermometers are preferred but may not be available at the earliest bootstrap stage.
+- **Sterilization verification gaps**: Without biological indicators or chemical integrators, sterilization effectiveness cannot be confirmed with certainty. Time-temperature logging and visual inspection of autoclave operation are the minimum verification methods.
+- **Sharps injury risk**: Hand-finished instruments may have burrs, rough edges, or inconsistent points that increase the risk of sharps injuries during use. Careful finishing and inspection of each instrument is essential.
+
+## See Also
+
+- [Medicine & Surgery](medicine.md) — clinical procedures using these instruments
+- [Pharmacology](pharmacology.md) — drug preparation requiring precision measurement
+- [Water Treatment (Health)](water-treatment.md) — clean water for instrument sterilization
+- [Occupational Health](occupational-health.md) — sharps safety and hazard control
+- [Metals](../metals/index.md) — steel and alloy production for instrument fabrication
+- [Glass](../glass/index.md) — glassworking for thermometers and lenses
+- [Measurement](../measurement/index.md) — precision metrology for instrument manufacturing
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) · [Health](./index.md) · [All Domains](../index.md)*

@@ -100,6 +100,72 @@ Between stages, the partially desalted water may be recirculated to achieve targ
 
 Energy consumption scales roughly linearly with the amount of salt removed. Desalting from 5,000 to 500 mg/L TDS requires approximately 1.0–2.0 kWh/m³ with conventional ED membranes. SEM Tech membrane resistance in ED configuration is uncharacterized but expected to be comparable to conventional heterogeneous membranes based on similar composition.
 
+## System Design for Community Water Supply
+
+A practical SEM Tech ED system for a small community (500 people at 50 L/person/day = 25 m³/day product water) treating brackish groundwater at 4,000 mg/L TDS:
+
+**ED stack**: 200 cell pairs, 500 cm² active area per cell, operating at 20 mA/cm². Total membrane area: 100 m² (50 m² CEM + 50 m² AEM). Membrane cost at SEM Tech pricing: $50-100. Stack voltage at 1.0V per cell pair: 200V DC. Current at 20 mA/cm² × 500 cm² = 10A. Power consumption: 2.0 kW.
+
+**Operating schedule**: Continuous operation for 12.5 hours/day to produce 25 m³ of fresh water. Daily energy consumption: 25 kWh. At $0.10/kWh: $2.50/day or $912/year for electricity.
+
+**Pre-treatment**: Sand filter (1 m³ sand bed, $100-200) followed by 10-micron cartridge filter ($20-50, replaced monthly). Removes suspended solids to below 5 mg/L TSS.
+
+**Product water quality**: <500 mg/L TDS (from 4,000 mg/L feed, 87.5% salt removal). Meets WHO drinking water standards. Post-treatment with chlorination (1-3 mg/L residual Cl₂) for disinfection adds $0.02-0.05/m³.
+
+**Brine management**: 3 m³/day of concentrated brine at 20,000-30,000 mg/L TDS. For inland installations: evaporation pond (100-200 m² surface area in arid climate) or deep well injection. For coastal installations: dilution and ocean discharge.
+
+**Total system capital cost**: Membranes $50-100, stack hardware $200-500, DC power supply $200-400, pre-treatment $150-300, piping and tanks $100-300, post-treatment chlorination $50-100. **Total: approximately $750-1,700.** For comparison, an RO system of equivalent capacity costs $5,000-15,000.
+
+## Solar-Powered Deployment
+
+The DC power requirement of ED stacks matches directly with solar photovoltaic output without AC-DC conversion. A 500W solar panel array (approximately 3 m², $200-400 at current panel prices) produces 2.0-2.5 kWh/day at 4-5 peak sun hours, sufficient to power the 25 m³/day community ED system described above during daylight hours.
+
+**Off-grid configuration**: 500W solar panels ($200-400) + 40A solar charge controller ($50-100) + 12V, 200Ah deep-cycle battery ($150-250, provides 2.4 kWh storage for 1 day of operation without sun). Total off-grid power system cost: $400-750, comparable to 4-8 months of water purchases from tanker trucks at $5-10/m³ in water-scarce regions.
+
+**Power matching**: The ED stack draws constant power during operation. Solar output varies throughout the day. A maximum power point tracking (MPPT) charge controller between the solar panels and the ED stack optimizes energy harvest. The battery buffer allows the ED system to operate during peak solar hours and store energy for evening operation, matching water production to demand patterns.
+
+
+## Cost Analysis
+
+**Capital cost comparison** for a 100 m³/day brackish water desalination system (4,000 mg/L TDS feed):
+
+| Component | SEM Tech ED | Reverse Osmosis |
+|-----------|------------|-----------------|
+| Membranes | $100-200 (SEM Tech, <$1/ft²) | $3,000-8,000 (RO elements) |
+| Stack/vessel hardware | $500-1,500 (PVC/CPVC) | $2,000-5,000 (stainless/FRP) |
+| High-pressure pump | Not required | $1,500-4,000 (80 bar rated) |
+| DC power supply | $300-600 (200V, 20A) | Not applicable |
+| Pre-treatment | $200-500 (sand + cartridge) | $1,000-3,000 (extensive) |
+| Post-treatment | $100-200 (chlorination) | $200-500 (remineralization + UV) |
+| Piping and tanks | $200-500 | $500-1,500 |
+| **Total** | **$1,400-3,500** | **$8,200-22,000** |
+
+SEM Tech ED offers 3-6x lower capital cost than RO for equivalent brackish water capacity, primarily by eliminating high-pressure pumps and expensive RO membrane elements. The cost advantage grows at smaller scales where RO fixed costs (pumps, controls) are harder to amortize.
+
+**Operating cost per cubic meter** (100 m³/day, brackish water 4,000 mg/L TDS):
+
+- **Electricity**: 1.5 kWh/m³ × $0.10/kWh = $0.15/m³
+- **Membrane replacement** (2-year lifetime, $200 replacement): $0.003/m³
+- **Pre-treatment consumables** (cartridge filters): $0.01-0.03/m³
+- **Cleaning chemicals** (quarterly CIP): $0.005-0.01/m³
+- **Post-treatment (chlorination)**: $0.02-0.05/m³
+- **Maintenance labor**: $0.05-0.10/m³
+- **Total**: approximately $0.24-0.34/m³
+
+For comparison, RO operating cost for equivalent feed: $0.40-0.80/m³. Tanker truck water in water-scarce regions: $5-10/m³. The SEM Tech ED system pays for itself in water cost savings within 2-6 weeks of operation.
+
+## Scaling and Deployment
+
+**Household system (0.5-2.0 m³/day)**: 5-20 cell pairs, 50-100 cm² active area, operating at 5-15 mA/cm². Powered by a single 50-100W solar panel. Produces enough drinking water for a family of 4-6 at 50 L/person/day. Membrane cost: $0.50-2.00. Total system cost: $50-150. Suitable for remote homesteads and off-grid communities.
+
+**Community system (10-100 m³/day)**: 50-200 cell pairs, 200-1,000 cm² per cell, operating at 15-30 mA/cm². Requires 200-500W solar array or small wind turbine. Serves 50-500 people. Membrane cost: $10-100. Total system cost: $500-3,500. Most cost-effective scale for community water supply in developing regions.
+
+**Municipal system (1,000-10,000 m³/day)**: Multiple parallel stacks with 100-400 cell pairs each. Requires 20-200 kW electrical supply. Serves 5,000-50,000 people. Membrane cost: $1,000-10,000 at SEM Tech pricing. Total system cost: $50,000-200,000 — compared to $300,000-1,500,000 for an RO plant of equivalent capacity.
+
+## Cross-Domain Dependencies
+
+The SEM Tech water treatment system depends on upstream capabilities from several domains. Membrane fabrication requires PVC/CPVC resin from the [chlor-alkali and petrochemical industry](../chemistry/electrolysis.md) and ion exchange resin beads (sulfonated polystyrene). The DC power supply requires [electrical infrastructure](../energy/electricity.md) — either grid power with a rectifier or direct solar panel output. Pre-treatment requires sand (quarry product) and cartridge filters (polypropylene nonwoven fabric from [textiles/petrochemicals](../chemistry/index.md)). Post-treatment chlorination requires sodium hypochlorite (from [chlor-alkali electrolysis](../chemistry/sem-tech.md) or calcium hypochlorite). Brine evaporation ponds require HDPE liner material (from [polyethylene production](../chemistry/index.md)) and earthworks capability. The PVC/CPVC stack hardware and solvent-welded joints require [PVC cement](../chemistry/index.md) (PVC resin dissolved in THF or MEK solvent).
+
 ## Applications
 
 **Drinking water**: Primary application. Brackish groundwater (the most common impaired source) is ideal for ED. Product water meets WHO drinking water standards (<1,000 mg/L TDS, typically <500 mg/L). Modular units can serve communities from 100 to 100,000 people.

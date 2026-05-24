@@ -187,6 +187,14 @@ Camelids are notably disease-resistant compared to other livestock species, whic
 - Catching: use a small catch pen. Corner gently — never chase (causes stress and hyperthermia). Place an arm around the neck and hold the tail base to restrain.
 - Llamas may charge if they feel cornered or are protecting a cria. A charging llama is intimidating but rarely makes contact — stand your ground and raise your arms. Most charges are bluffs.
 
+### Regional Adaptations
+
+Camelids originated in the high Andes at 3,500-5,000 m elevation and retain exceptional adaptation to thin air, cold nights, and marginal forage. Their oval-shaped red blood cells (unique among mammals) provide 15-20% greater oxygen-carrying efficiency at altitude compared to cattle. Alpacas and llamas tolerate temperature ranges from -20°C to +25°C without shelter, though they require protection from prolonged rain at temperatures below 5°C — their fleece absorbs 30-40% of its weight in water, which can cause hypothermia if not dried. In humid subtropical climates (Florida, Southeast Asia), heat stress above 30°C combined with humidity over 75% reduces feed intake by 20-30% and increases parasitic load. Shearing before summer in hot climates reduces heat stress mortality from 5-8% to under 1%. Stocking rates on improved pasture at sea level: 8-12 alpacas or 5-8 llamas per hectare. On arid rangeland with under 40 cm annual precipitation, stocking drops to 2-4 animals per hectare with supplemental hay feeding for 60-90 days per year. Camelids perform well on rocky, steep terrain with slopes up to 35° — their soft-padded feet provide sure footing that hooved animals cannot match.
+
+### Historical Development
+
+South American camelids were domesticated in the Andean altiplano beginning around 6,000-7,000 years ago, with archaeological evidence at Telarmachay Rockshelter in Peru documenting early herding at 4,200 m elevation. The Inca Empire managed an estimated 30-50 million camelids across the Andes, with alpaca fleece reserved for nobility (fines below 22 microns) and llama fiber used for ropes and coarse blankets. Spanish colonization in the 1530s displaced camelids with European livestock — the population crashed from an estimated 50 million to under 10 million by 1600. Modern alpaca populations in Peru (approximately 3.7 million) and Bolivia (approximately 800,000) comprise 90% of global stock. Alpaca exports to North America, Europe, and Australia beginning in the 1980s established breeding herds outside South America — the US alpaca population reached approximately 200,000 by 2015. For bootstrapping, a founding herd of 5-10 alpacas (4-8 females, 1-2 males) establishes a self-sustaining fiber-producing flock within 3-4 years, with first offspring shearing at 12-18 months yielding 1.5-2.5 kg of marketable fleece.
+
 ---
 
 [← Back to Animals](index.md)

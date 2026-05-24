@@ -164,6 +164,35 @@ Even if technically successful, SEM Tech PEM electrolysis would face challenges:
 - **Stack balance of plant**: Membrane cost is one component of total system cost. Bipolar plates, pumps, power electronics, and gas processing equipment also contribute significantly.
 - **Scale**: SEM Tech is demonstrated at laboratory scale only. Industrial PEM electrolysis plants produce thousands of tonnes of hydrogen per year.
 
+
+## Membrane Fabrication for PEM Cells
+
+The SEM Tech membrane for water electrolysis would use the same fabrication process as for chlor-alkali cells, with specific adaptations. Strong acid cation resin beads (sulfonated polystyrene, ion exchange capacity 1.8-2.2 meq/mL) are pulverized to below 200 microns and dispersed at 40-60% loading by volume in PVC or CPVC binder dissolved in THF. The mixture is cast at 50-150 microns wet thickness using a drawdown bar or spray coating — thinner than chlor-alkali membranes to minimize proton transport resistance.
+
+A 100-micron-thick SEM Tech membrane at 50% resin loading contains approximately 100 g of active resin per square meter, providing ion exchange capacity of 1.0-1.1 meq/g × 100 g = 100-110 meq/m². For comparison, Nafion 117 at 183 microns provides approximately 90-100 meq/m² of sulfonic acid groups. The theoretical proton conductivity of the SEM Tech membrane depends on water uptake: fully hydrated sulfonated polystyrene conducts protons at 0.01-0.10 S/cm, while the PVC/CPVC binder is electrically insulating. The effective membrane conductivity is therefore determined by the volume fraction and connectivity of the resin particles, estimated at 0.003-0.03 S/cm for 40-60% loading — lower than Nafion (0.1 S/cm) but potentially adequate for operation at reduced current density.
+
+## Cost Impact on Hydrogen Production
+
+The membrane cost reduction from SEM Tech directly affects the levelized cost of hydrogen (LCOH). For a 10 MW PEM electrolyzer operating at 2.0V per cell with 500 m² of active membrane area:
+
+| Cost Component | Nafion Membrane | SEM Tech Membrane |
+|---------------|----------------|-------------------|
+| Membrane purchase (500 m²) | $250,000-1,000,000 | $500-5,000 |
+| Membrane replacement (every 2 years) | $125,000-500,000/year | $250-2,500/year |
+| Stack capital cost | $4,000-8,000/kW | $2,500-5,000/kW (projected) |
+| LCOH contribution from membrane | $0.30-1.20/kg H₂ | $0.001-0.006/kg H₂ |
+| Total LCOH (all components) | $4.00-6.00/kg H₂ | $3.00-4.50/kg H₂ |
+
+Even with a conservative 50% reduction in stack cost (not the full 95% membrane cost reduction, since bipolar plates, electrodes, and balance-of-plant are also significant), the LCOH decreases by $0.50-1.50/kg — meaningful when the target is $2.00/kg for cost-competitive green hydrogen. The electrolyzer stack represents 30-50% of total system cost; SEM Tech membranes reduce this to 20-30%, shifting the cost burden toward electricity and balance of plant.
+
+## Scaling and Deployment
+
+**Residential scale (1-5 kg H₂/day)**: A single ED cell with 100-500 cm² active area operating at 500 mA/cm² and 2.0V produces approximately 0.02-0.10 kg H₂/hour. Requires 0.2-1.0 kW DC power — compatible with a single solar panel. Membrane cost: $0.10-0.50. Suitable for home energy storage (H₂ → fuel cell → electricity) or small welding operations.
+
+**Commercial scale (50-500 kg H₂/day)**: A 10-100 cell stack with 1,000-5,000 cm² active area per cell at 1,000 mA/cm². Requires 20-200 kW DC power. Membrane cost: $10-100. Suitable for fleet vehicle refueling, industrial hydrogen consumers, and small ammonia production.
+
+**Industrial scale (1,000-50,000 kg H₂/day)**: Multiple parallel stacks totaling 100-5,000 m² membrane area at 1,000-3,000 mA/cm². Requires 2-100 MW DC power. Membrane cost: $1,000-50,000 (compared to $500,000-20,000,000 for Nafion). Suitable for refinery hydrogen, large-scale ammonia synthesis, and steel direct reduction.
+
 ## See Also
 
 - [SEM Tech](sem-tech.md) -- the membrane technology that enables this application

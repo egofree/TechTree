@@ -65,6 +65,23 @@ Industrial methanol synthesis from CO₂ and H₂ operates under these condition
 
 The process requires high-pressure equipment (compressors, reactors rated for 80+ bar) and careful heat management — the exothermic reaction must be cooled to maintain temperature control. Reactor types include multi-tubular cooled reactors (with coolant between tubes) and adiabatic reactors with interstage cooling. Product separation uses distillation to separate methanol (bp 64.7°C) from water and dissolved gases.
 
+## Hydrogen Production Cost Impact
+
+The dominant cost in e-methanol synthesis is green hydrogen. Producing 1 tonne of methanol requires approximately 0.188 tonnes of H₂ (stoichiometric: 3 × 2.016 / 32.04 = 0.189). At current PEM electrolyzer costs, the hydrogen alone costs $3,500-5,500 per tonne of methanol — compared to $200-400/tonne for natural-gas-derived methanol.
+
+**SEM Tech membrane cost impact on electrolyzer capital**:
+
+| Component | Conventional PEM | SEM Tech PEM (Projected) |
+|-----------|-----------------|--------------------------|
+| Membrane cost per m² | $500-2,000 (Nafion) | $10 (SEM Tech) |
+| Membrane cost for 10 MW electrolyzer (500 m²) | $250,000-1,000,000 | $5,000 |
+| Membrane replacement (2-year cycle) | $125,000-500,000/year | $2,500/year |
+| Membrane as % of stack cost | 30-50% | <5% |
+| Stack cost per kW | $400-800 | $250-500 (projected) |
+| Hydrogen production cost | $4.00-6.00/kg H₂ | $3.00-4.50/kg H₂ (projected) |
+
+The lower electrolyzer capital cost from SEM Tech membranes translates to a 15-30% reduction in hydrogen production cost, bringing e-methanol from $800-1,600/tonne to approximately $600-1,200/tonne — still above fossil methanol but approaching competitiveness with carbon pricing of $50-100/tonne CO₂.
+
 ## Methanol Applications
 
 Methanol serves as both a fuel and a versatile chemical feedstock:
@@ -101,6 +118,62 @@ The theoretical energy efficiency (electricity to methanol LHV) is approximately
 
 The key limitation is energy input: producing 1 tonne of e-methanol requires approximately 10-12 MWh of electricity (primarily for hydrogen production). This is only carbon-neutral if the electricity comes from renewable or nuclear sources.
 
+## Reactor Design and Heat Integration
+
+A commercial e-methanol synthesis reactor processes the following material flows per tonne of methanol produced:
+
+- **Feed gas**: 1.40 tonnes CO₂ + 0.19 tonnes H₂ at 50-80 bar, 220-280°C
+- **Product**: 1.00 tonnes CH₃OH + 0.56 tonnes H₂O (condensed)
+- **Recycle gas**: 4-6x the feed rate (80-85% of total gas flow is recycled unreacted feed)
+- **Cooling duty**: Approximately 1.2 GJ/tonne CH₃OH (exothermic reaction heat removal)
+- **Compression power**: 0.3-0.5 MWh/tonne CH₃OH (feed gas compression from 1 to 60 bar)
+
+**Heat integration**: The exothermic synthesis reaction (49.5 kJ/mol) releases approximately 1,540 kJ per kg of methanol produced. This heat at 220-280°C is high enough quality for: (1) preheating feed gas from compressor discharge temperature (100-150°C) to reaction temperature, (2) driving the product distillation column reboiler (methanol bp 64.7°C), and (3) generating low-pressure steam (2-5 bar) for other plant uses. Effective heat recovery can supply 40-60% of the distillation energy requirement internally, reducing the net external heat input to approximately 0.5-0.8 GJ/tonne CH₃OH.
+
+
+## CO₂ Capture Integration
+
+The e-methanol process requires a concentrated CO₂ source at 95-99% purity for synthesis. Three capture approaches are relevant, each with different costs and energy requirements:
+
+**Point-source capture from flue gas**: Cement plants, steel mills, and power stations emit flue gas containing 10-25% CO₂. Amine-based absorption (30-40% monoethanolamine solution) captures 85-95% of CO₂ at an energy cost of 3.0-4.5 GJ per tonne CO₂ (primarily thermal energy for solvent regeneration at 120-140°C). Capture cost: $40-80 per tonne CO₂. A cement plant producing 500,000 tonnes/year of clinker emits approximately 350,000 tonnes CO₂/year from calcination alone — sufficient feedstock for approximately 255,000 tonnes/year of e-methanol.
+
+**Direct air capture (DAC)**: Ambient air contains 420 ppm CO₂. DAC systems using solid sorbents (potassium hydroxide on cellulose support) or liquid sorbents (aqueous KOH) achieve capture rates of 80-90% per pass at energy costs of 5-10 GJ thermal and 1.5-3.0 MWh electrical per tonne CO₂. Current cost: $250-600 per tonne CO₂. The energy penalty is severe: capturing the 1.4 tonnes of CO₂ needed for 1 tonne of methanol consumes 2.1-4.2 MWh of electricity for DAC alone, adding 20-35% to the total electricity requirement.
+
+**Biogenic CO₂**: Fermentation (ethanol plants, breweries) produces nearly pure CO₂ (98-99%) as a byproduct at 0.96 kg CO₂ per kg ethanol produced. Biogas upgrading (separating CO₂ from methane in biogas) produces CO₂ at 30-60% concentration. Both sources offer low-cost CO₂ ($10-30/tonne) at moderate scale (10,000-100,000 tonnes/year per facility).
+
+For e-methanol economics, point-source capture at $40-80/tonne CO₂ adds $56-112 to the cost of each tonne of methanol. DAC at $250-600/tonne adds $350-840/tonne methanol — currently prohibitive without substantial carbon pricing. Biogenic CO₂ is the most economical source where available.
+
+## Cost Analysis
+
+**Estimated e-methanol production cost using SEM Tech membranes** (10,000 tonnes/year facility):
+
+| Cost Component | Conventional PEM | SEM Tech PEM | Notes |
+|---------------|-----------------|-------------|-------|
+| Green H₂ (0.19 t/t MeOH) | $760-1,045 | $570-785 | $4.00 vs $3.00/kg H₂ |
+| CO₂ capture (1.4 t/t MeOH) | $56-112 | $56-112 | Same capture cost |
+| Compression power | $25-40 | $25-40 | 0.3-0.5 MWh/t at $0.06/kWh |
+| Catalyst and chemicals | $10-20 | $10-20 | Cu/ZnO/Al₂O₃, 2-5 year life |
+| Capital depreciation | $60-120 | $40-80 | Lower stack cost with SEM Tech |
+| Labor and maintenance | $30-50 | $30-50 | Similar for both |
+| **Total** | **$941-1,387/t** | **$731-1,089/t** | **$150-300/t savings** |
+
+At a carbon price of $100/tonne CO₂ (the level needed to meet Paris Agreement targets by 2030-2035 in many jurisdictions), fossil methanol effectively costs $200-400 + $100 × 2.9 = $490-770/tonne (methanol combustion releases 1.4 tonnes CO₂/tonne, plus 1.5 tonnes upstream from natural gas extraction and processing). SEM Tech e-methanol at $731-1,089/tonne is approaching competitiveness at these carbon price levels, and becomes clearly competitive above $150/tonne CO₂.
+
+## Cross-Domain Dependencies
+
+The e-methanol pathway depends on a complex chain of upstream capabilities. The SEM Tech membrane requires [PVC/CPVC resin](../chemistry/index.md) and [ion exchange resin beads](sem-tech.md). The electrolyzer requires a [DC power supply](../energy/electricity.md) delivering 1.8-2.2V per cell at 1,000-3,000 mA/cm². The synthesis reactor requires [high-pressure vessel fabrication](../metals/index.md) capable of 80+ bar service with hydrogen-compatible metallurgy (austenitic stainless steel 316L or Cr-Mo alloys to avoid hydrogen embrittlement). The Cu/ZnO/Al₂O₃ catalyst requires copper mining and refining (see [Copper Electrorefining](electrolysis.md)), zinc production, and alumina from the [Bayer process](../metals/aluminum.md). The distillation column for methanol-water separation requires [heat exchange capability](../energy/index.md) and process control instrumentation. The CO₂ capture system requires amine chemicals from the [petrochemical industry](../chemistry/index.md) and thermal energy at 120-140°C for solvent regeneration.
+
+## Scaling and Plant Size
+
+**Pilot plant (100-1,000 tonnes MeOH/year)**: 0.5-5 MW electrolyzer, single synthesis reactor (0.5-1.0 m diameter), batch or semi-continuous operation. Serves as technology demonstration and produces fuel for local use. Capital cost: $2-10 million.
+
+**Demonstration plant (1,000-10,000 tonnes/year)**: 5-50 MW electrolyzer, continuous synthesis loop, integrated CO₂ capture. Proves economics at semi-commercial scale. Capital cost: $15-100 million.
+
+**Commercial plant (50,000-500,000 tonnes/year)**: 250-2,500 MW electrolyzer (matching a large offshore wind farm or nuclear power plant), multiple parallel synthesis trains, integrated CO₂ pipeline or on-site capture. Capital cost: $500 million-5 billion. Current largest announced e-methanol project: HIF Haru Oni (Chile, 2024 commissioning), producing approximately 1,300 tonnes/year with planned expansion to 35,000 tonnes/year by 2027.
+
+
+At electricity prices below $0.03/kWh (achievable with dedicated solar or wind installations in favorable locations), SEM Tech e-methanol production cost drops below $600/tonne — competitive with fossil methanol at carbon prices of $70-100/tonne CO₂. This price threshold is the key economic target for the technology to achieve market-driven adoption without subsidies.
+For regions with both cheap renewable electricity and access to point-source CO₂, e-methanol may reach cost parity with fossil methanol as early as 2030.
 ## Safety
 
 - **Methanol toxicity**: Methanol is metabolized to formaldehyde and formic acid in the body. Ingestion of as little as 10 mL can cause permanent blindness; 30-100 mL can be fatal. Methanol is absorbed through skin and lungs — symptoms may be delayed 12-24 hours. Chemical-resistant gloves, adequate ventilation, and strict handling protocols are mandatory.

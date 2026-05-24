@@ -123,6 +123,98 @@ Guinea fowl are flighty and difficult to catch on range. They do not tame easily
 **Aggression during breeding season**:
 Toms become territorial during spring breeding season and may chase or peck at humans entering their range. This is bluster more than danger — a standard-length stick held at arm's length keeps aggressive toms at bay.
 
+### Historical Development
+
+Helmeted guinea fowl (*Numida meleagris*) were domesticated in West Africa approximately 2,000-3,000 years ago, with archaeological evidence from Mali and Ghana dating guinea fowl remains in human settlements to 500 BCE.
+
+Ancient Egyptians imported guinea fowl from Nubia and kept them in temple compounds, where their alarm-calling served as sentries against intruders. Egyptian tomb art from the New Kingdom period (1550-1070 BCE) depicts guinea fowl in processional and offering scenes.
+
+The Greeks called guinea fowl "meleagris" after the mythological hero Meleager, and the birds were traded across the Mediterranean by Phoenician merchants by 500 BCE as luxury table birds.
+
+Romans raised guinea fowl as premium table birds, valuing their lean, gamey flesh for banquets. Columella described guinea fowl husbandry in *De Re Rustica* (circa 60 CE), recommending enclosed pens and soft grain diets for fattening.
+
+After the fall of Rome, guinea fowl largely disappeared from European agriculture for over 1,000 years, surviving only in small monastic flocks in Mediterranean regions where the mild climate suited their African origins.
+
+Portuguese traders reintroduced guinea fowl to Europe from West Africa in the 15th century via the Guinea Coast (giving the species its common English name), and the birds spread rapidly across the continent as farmyard pest controllers.
+
+Guinea fowl were brought to North America by early European settlers, with documented imports to Virginia by the 1650s. Thomas Jefferson kept guinea fowl at Monticello specifically for tick and insect control in his vegetable gardens.
+
+The modern pearl grey coloration reflects the wild-type plumage of *Numida meleagris galeata*, the West African subspecies from which all domestic varieties descend through selective breeding for color mutations including lavender, white, and royal purple.
+
+In traditional West African villages, guinea fowl remain the most common poultry species, with household flocks of 10-30 birds providing both pest control and protein. Village-level production in Nigeria and Ghana exceeds 50 million birds annually.
+
+Selective breeding programs in France and Italy during the 20th century focused on improving growth rate and carcass conformation for commercial production, resulting in lines that reach 1.5 kg at 12 weeks compared to 1.0-1.2 kg for unimproved village stock.
+
+### Regional Adaptations
+
+**Tropical and subtropical climates**: Guinea fowl originate from sub-Saharan Africa and thrive in hot, dry conditions (30-40°C daytime temperatures). They tolerate heat significantly better than chickens and continue foraging actively when chickens seek shade.
+
+In tropical regions with consistent 12-hour daylight year-round, guinea fowl may breed continuously rather than seasonally, producing 120-160 eggs per year compared to 80-130 in temperate zones with seasonal daylight variation.
+
+Provide shade structures (2-3 m² per 10 birds) and multiple water stations spaced 50-100 m apart in hot climates. Guinea fowl drink 200-300 mL per day at temperatures above 35°C, roughly double their normal intake.
+
+**Temperate climates**: In northern latitudes (above 40 degrees north), guinea fowl are seasonal layers from March through September, governed by the 14+ hour daylight threshold. Egg production ceases when daylight drops below 12 hours.
+
+Guinea fowl tolerate cold well once fully feathered (surviving -10°C for mature birds with adequate shelter) but keets require strict brooding temperatures of 35-38°C for the first 2 weeks, declining by 3°C per week thereafter.
+
+Frostbite of wattles and combs occurs below -15°C in mature birds. Apply petroleum jelly to wattles as protection during extreme cold snaps, or house birds in an insulated structure maintained above -5°C with deep straw bedding (15-20 cm).
+
+**Arid and semi-arid regions**: Guinea fowl excel in dry environments where chickens struggle with heat stress and respiratory disease. They require only 100-200 mL water per day versus 250-500 mL for chickens of comparable size.
+
+In arid regions with lower insect populations, supplement range feeding with 60-80 g of grain per bird per day. Provide water at minimum twice daily (morning and evening) to maintain hydration in dry heat exceeding 35°C.
+
+### Processing and Products
+
+**Meat processing**: Guinea fowl reach market weight of 1.0-1.5 kg dressed at 12-16 weeks. Process identically to chickens: dispatch, bleed 60-90 seconds, scald at 55-60°C for 30-45 seconds, pluck, eviscerate.
+
+Guinea fowl have extremely dense plumage (approximately 2,500-3,000 feathers per bird) that resists plucking more than chicken feathers. Singeing with a propane torch after initial plucking removes fine feather remnants effectively.
+
+Dressed yield: 70-75% of live weight. The carcass is notably lean, with only 3-5% body fat compared to 8-12% for commercial broiler chickens, requiring barding (wrapping with fat) or brining (4-6% salt solution, 4-12 hours) for moist cooking results.
+
+Guinea fowl meat provides approximately 160-170 kcal per 100 g raw weight, with 28-30 g protein and 3-5 g fat — comparable to pheasant and significantly leaner than chicken (190 kcal, 7-9 g fat per 100 g raw).
+
+**Egg utilization**: Guinea eggs weigh 35-40 g with extremely hard, thick shells (0.3-0.4 mm versus 0.2-0.3 mm for chicken eggs), providing natural protection and extending shelf life to 3-4 weeks at room temperature versus 2 weeks for chicken eggs.
+
+Guinea eggs have a slightly higher yolk-to-white ratio than chicken eggs (38% yolk versus 33% by weight), producing richer custards and baked goods with deeper golden color.
+
+Two guinea eggs approximate one large chicken egg (50-55 g) in volume for recipe substitution purposes. Guinea egg shells are so hard that cracking them requires a firm, deliberate tap with the flat side of a knife.
+
+**Feather uses**: Guinea fowl feathers are valued for fly-tying, hat-making, and ornamental crafts. The distinctive spotted pearl-grey plumage commands prices 2-3 times higher than chicken feathers in craft markets.
+
+A single bird yields 8-12 g of usable craft feathers from the hackle, breast, and back regions. Whole pelts are occasionally preserved as decorative items or used in traditional African ceremonial dress and artwork.
+
+**Manure value**: Guinea fowl manure (approximately 1.5% N, 1.0% P, 0.5% K fresh weight) is comparable to chicken manure in nutrient density, composting to a stable fertilizer over 6-8 weeks when mixed with carbon-rich bedding material.
+
+One adult guinea fowl produces 5-8 kg manure per month, deposited primarily on range during foraging rather than concentrated in bedding — this distributed deposition pattern builds soil fertility across 0.5-1.0 hectares of pasture and orchard ground.
+
+### Record Keeping
+
+**Flock inventory**: Maintain a running count of birds by age group and sex. Guinea fowl are long-lived (10-15 years) but egg production declines after year 5-6, dropping to 40-60% of peak output and warranting culling for meat.
+
+**Egg production**: Record daily egg count during laying season. Calculate per-hen production: target 80-130 eggs per hen per year in temperate zones, 120-160 in tropical regions with year-round daylight.
+
+Mark eggs with date of lay using pencil for incubation tracking. Eggs older than 7 days stored at room temperature (15-20°C) lose approximately 1-2% hatch viability per day, making prompt setting critical.
+
+**Hatch rate**: Track fertility rate (candle eggs at 7-10 days — fertile eggs show a visible spider-web blood vessel network), hatch rate from fertile eggs (target 60-75%), and keet survival to 8 weeks (target above 70%).
+
+First-week keet mortality of 10-30% is common without meticulous management — this is the single largest production loss point in guinea fowl husbandry and demands careful attention to temperature, feed, and draft prevention.
+
+**Predation losses**: Record all predator kills with date, suspected predator species, and location. Free-range guinea fowl experience 5-15% annual losses to hawks, owls, foxes, and coyotes depending on local predator density.
+
+Identify predator patterns from kill records and adjust management accordingly: secure housing modifications, range rotation schedules, addition of guardian animals (dogs, donkeys), or temporary confinement during peak predator activity periods at dawn and dusk.
+
+**Range effectiveness**: Monitor tick and insect populations quarterly using drag-sampling — drag a 1 m² white cloth through range vegetation for 50 m and count attached ticks per sample.
+
+Compare guinea-fowl-ranged areas to non-ranged control areas. Target: 70-90% reduction in tick counts within one season at stocking rates of 20-30 birds per hectare of managed range, with measurable reduction typically visible within 4-6 weeks of flock establishment.
+
+**Cost tracking**: Record all input costs (feed, supplements, medication, equipment) against production output (eggs, meat, live birds sold) to calculate cost per unit of protein produced.
+
+Guinea fowl typically achieve a feed cost of $0.15-0.25 per dozen eggs and $2.50-4.00 per kg dressed meat when range-foraging provides 60-70% of the diet during the growing season.
+
+**Breeding stock rotation**: Replace 20-25% of breeding hens annually to maintain flock productivity. Select replacement hens from the earliest-hatched keets each season — early hatching correlates with vigor and longevity in guinea fowl.
+
+Cull hens producing fewer than 60 eggs per season and toms showing aggressive behavior toward keets. Maintain detailed pedigrees if possible to avoid inbreeding — guinea fowl tolerate moderate inbreeding but fertility drops significantly after 3-4 generations of close breeding.
+
 ---
 
 [← Back to Animals](index.md)

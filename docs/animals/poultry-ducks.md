@@ -146,6 +146,90 @@ Standing water in duck areas becomes contaminated with *Salmonella*, *E. coli*, 
 **Cooking duck**:
 Duck meat should be cooked to an internal temperature of 74°C. The higher fat content of duck means it cooks differently from chicken — the breast meat is best served medium (pink center at 55-57°C) for optimal tenderness, while legs require long, slow cooking (confit at 80-90°C for 2-4 hours) to break down tough connective tissue. When cooking duck breast rare-to-medium, ensure the exterior is well-seared to kill surface bacteria.
 
+### Historical Development
+
+Domestic ducks derive from the mallard (*Anas platyrhynchos*), first domesticated in Southeast Asia approximately 4,000 years ago during the Neolithic period.
+
+Archaeological evidence from the Yangtze River delta dates duck bones in human settlements to 2000-1500 BCE, with rice-duck farming systems documented in Chinese agricultural texts by 500 BCE.
+
+The Muscovy duck (*Cairina moschata*) was domesticated independently in South America by indigenous peoples of the Amazon basin approximately 1,000-1,500 years ago.
+
+Spanish and Portuguese explorers brought Muscovies to Europe in the 16th century, initially calling them "Muscow ducks" — possibly a corruption of "musk" referring to the musky odor of the drake, or derived from the Muscovy Company that traded exotic goods.
+
+The Pekin duck was imported to the United States from China in 1873 — nine birds shipped to New York, of which three survived the 124-day journey.
+
+These three survivors founded the entire American Pekin industry, which by 1900 processed over 10 million ducks annually on Long Island, New York — establishing the enduring market name "Long Island Duckling."
+
+The Khaki Campbell was developed by Adele Campbell of Gloucestershire, England in the late 1880s by crossing Indian Runner, Rouen, and Mallard ducks to create a practical egg-laying bird with good foraging ability.
+
+Within 20 years the Khaki Campbell was producing over 300 eggs per year in controlled trials, rivaling the best chicken layers and establishing the duck as a legitimate commercial egg producer.
+
+Indian Runner ducks were imported from the East Indies to Europe in the 1850s and quickly established as the most productive walking forager among duck breeds, capable of covering 5-8 km per day on range while consuming insects and weed seeds.
+
+The Rouen duck, a French breed developed from the mallard, grows to 5-7 kg and is valued as a meat bird with flavorful carcass, producing 140-180 eggs per year with striking green-headed plumage in drakes.
+
+### Processing and Products
+
+**Duck fat rendering**: The average Pekin carcass contains 500-800 g of subcutaneous and visceral fat, yielding 400-700 mL of rendered fat per bird.
+
+Cut fat into 1-2 cm pieces, add 50-100 mL water per kg of raw fat to prevent scorching, and heat at 90-100°C for 2-3 hours until fully liquid and cracklings float to the surface.
+
+Strain through cheesecloth or fine mesh. Yield: 80-90% of raw fat weight becomes usable rendered fat, with the remaining cracklings edible as a snack or seasoning ingredient.
+
+Store duck fat refrigerated at 2-4°C for 4-6 months, or frozen at -18°C for 12-18 months without quality degradation.
+
+Duck fat has a smoke point of approximately 190°C, making it suitable for high-heat roasting, confit cooking at 80-90°C for 2-4 hours, and shallow frying at 170-180°C.
+
+**Feather and down processing**: A Pekin duck yields 80-120 g of mixed feathers and down per carcass, with down constituting 10-15% of total feather weight by mass.
+
+Process down by washing in warm water (40-45°C) with mild detergent, rinsing thoroughly, and tumble-drying at low heat with clean tennis balls to separate and fluff individual clusters.
+
+Sorted duck down achieves a fill power of 400-550 (volume in cubic inches per ounce), compared to 500-800 for premium goose down — duck down is slightly less lofty but still provides excellent insulation for garments and bedding.
+
+Ground duck feathers produce feather meal, a slow-release nitrogen fertilizer containing 12-14% N by weight, releasing nitrogen over 4-6 months in warm soil conditions when incorporated at 2-3 kg per 10 m² of garden bed.
+
+**Salted duck eggs**: A traditional Chinese preservation method dating back over 500 years. Coat fresh duck eggs in a paste of salt, clay, and water (1:1:0.5 ratio by weight).
+
+Pack coated eggs and store at 20-25°C for 28-35 days. Salt penetrates the shell at approximately 0.3-0.5 mm per day, firming the yolk and concentrating savory flavors.
+
+Shelf life of salted duck eggs: 4-6 weeks at room temperature after curing. Each salted yolk contains approximately 3-4 g of sodium and 150-180 kcal.
+
+Salted duck egg yolks are prized in mooncakes, congee, and dim sum preparations — the firm, waxy texture and intense savory flavor make them irreplaceable in these traditional dishes.
+
+**Century eggs (pidan)**: Duck eggs coated in a mixture of clay, ash, salt, quicklime (calcium oxide), and rice hulls, then aged for 3-5 months at 15-20°C.
+
+The alkaline environment (pH 12-13) transforms the egg white into a dark amber, translucent jelly and the yolk into a creamy, gray-green sphere with complex umami and sulfur notes.
+
+**Duck leather**: Duck skins can be tanned to produce thin, supple leather 0.5-0.8 mm thick with a distinctive dimpled texture from feather follicle patterns.
+
+Processing involves liming in calcium hydroxide solution (pH 12-13, 24-48 hours), pickling in salt and acid (pH 2-3), and vegetable tanning with oak or chestnut bark over 7-14 days at 18-22°C.
+
+### Record Keeping
+
+**Egg production**: Record daily egg count per pen or group. Calculate hen-day production rate (eggs laid divided by number of hens present, multiplied by 100).
+
+Khaki Campbells should maintain 80-90% production during peak lay (weeks 20-50); Pekins produce at 50-70% during their productive period (weeks 20-60).
+
+A production drop exceeding 10% in one week signals a health, nutrition, or environmental problem requiring immediate investigation — check water quality, feed freshness, and predator disturbances first.
+
+**Feed conversion**: Track total feed consumed (kg) against total egg weight produced (kg) or total dressed meat weight (kg) per batch or per month.
+
+Target feed conversion ratios: 2.0-2.5 kg feed per kg eggs for layers, 2.0-2.5 kg feed per kg live weight gain for meat ducks under controlled feeding conditions.
+
+Ducks on good pasture with water access reduce purchased feed costs by 30-50% through foraging — record forage conditions alongside feed consumption to optimize range management and seasonal adjustments.
+
+**Mortality**: Record all deaths with date, bird age, and observed symptoms. Target: under 5% annual mortality for layer flocks, under 3% for meat birds from hatch to processing.
+
+Investigate any weekly mortality exceeding 1%. Common causes include botulism from contaminated water sources, aspergillosis from moldy bedding or feed, and predation during nighttime hours.
+
+**Body weight**: Weigh 10-15 birds from each age group monthly using a hanging scale (0-5 kg capacity, 10 g resolution) to track growth against breed standards.
+
+Pekin ducks should reach 3.0-3.5 kg at 7-9 weeks; Khaki Campbells reach 1.5-2.0 kg at 10-12 weeks. A deviation exceeding 10% from expected weight warrants ration or management adjustment.
+
+**Water consumption**: Monitor daily water intake per flock. Ducks drink 500-1000 mL per day under normal conditions and up to 1500 mL at temperatures above 30°C.
+
+A sudden change of 20% or more in water consumption often indicates illness 24-48 hours before visible symptoms appear — water monitoring is the earliest health warning system available to duck keepers.
+
 ---
 
 [← Back to Animals](index.md)

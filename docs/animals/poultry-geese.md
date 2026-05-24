@@ -175,6 +175,56 @@ Adult geese are large, strong birds (5-14 kg) that resist handling vigorously. T
 **Hygiene**:
 As with all poultry, wash hands after handling geese, eggs, or equipment. Goose manure is voluminous and wet — maintain clean living conditions to prevent disease transmission. Cook goose meat and eggs to 74°C internal temperature.
 
+### Historical Development
+
+Geese were among the first poultry species domesticated, with archaeological evidence dating greylag goose (*Anser anser*) domestication to approximately 3,000-4,000 years ago in Egypt, Mesopotamia, and southeastern Europe.
+
+Ancient Egyptians kept geese in large flocks, fattening them on barley and emmer wheat for meat, and harvesting down for bedding — tomb paintings from Saqqara (circa 2500 BCE) depict goose fattening pens and force-feeding procedures.
+
+The swan goose (*Anser cygnoides*) was domesticated independently in China approximately 2,000-3,000 years ago, producing the Chinese goose breed group characterized by the prominent basal knob on the upper bill and upright posture.
+
+Roman agricultural writers including Varro (116-27 BCE) and Columella (4-70 CE) documented goose management in detail, describing fattening methods on barley mash, down harvest timing, and the use of geese as property guardians.
+
+The Roman tradition of serving roast goose at the winter solstice feast established the association between goose and festive occasions that persists in European culture to the present day.
+
+Embden geese were developed in the Ems River valley of northwestern Germany by the early 19th century as a large, fast-growing white meat goose for the expanding European urban market.
+
+Toulouse geese were selected in the Languedoc region of southern France over centuries, with the production type bred for efficient pasture-to-meat conversion and the exhibition dewlap type developed for massive size (12-15 kg ganders) for competitive showing.
+
+The Pilgrim goose, an American auto-sexing breed developed in Iowa in the early 20th century, is one of the few poultry breeds where males (white) and females (gray) can be distinguished by down color at hatching — simplifying flock management.
+
+### Processing and Products
+
+**Goose fat rendering**: The average goose carcass contains 800-1200 g of subcutaneous fat, considerably more than duck — a single Embden goose yields 500-1000 g of rendered fat with a smoke point of approximately 190°C.
+
+Goose fat is the traditional cooking fat in southwestern France and parts of central Europe, used for confit (slow-cooking meat at 80-90°C for 2-4 hours in its own fat), roasting potatoes, and pastry making.
+
+Store rendered goose fat in sealed containers at 2-4°C for 4-6 months, or frozen at -18°C for 12-24 months. Properly rendered fat should be clear, golden, and free of protein residue.
+
+**Goose-down products**: A mature goose yields 100-150 g of raw down (60-100 g after cleaning and sorting). Premium goose down achieves fill power of 500-600 for standard quality, 600-700 for good, and 700-800+ for exceptional quality.
+
+A standard pillow requires 500-800 g of down filling. A queen-size duvet requires 800-1200 g depending on warmth rating (tog rating: 4.5 for summer, 10.5 for spring/autumn, 13.5 for winter use).
+
+**Quill pens**: The primary flight feathers of geese were the standard writing instrument for over 1,000 years before steel nibs became common in the 1830s. A single goose provides 5-10 suitable quill feathers per year from its outermost primaries.
+
+Quill preparation: select the first five flight feathers (outermost primaries), bury in hot dry sand at 70-80°C for 15-20 minutes to harden the keratin (called "dutching"), then cut the tip to a nib shape with a sharp pen knife.
+
+A well-made goose quill pen writes 4-6 pages before requiring recutting and lasts approximately 1-2 weeks of regular use before the keratin becomes too soft to hold a clean edge.
+
+### Record Keeping
+
+**Egg production**: Record laying start date, total eggs per goose per season, and average clutch size. Target: 30-50 eggs per goose per year for production breeds, 50-80 for Chinese geese.
+
+Track egg weight (target 150-200 g for standard breeds, 140-160 g for Chinese geese) to monitor hen health and nutritional adequacy throughout the laying season from February through May.
+
+**Gosling survival**: Record hatch rate (target 60-75% from fertile eggs), gosling mortality by week, and causes of loss. First-week mortality should not exceed 5% with proper brooding at 30-32°C.
+
+**Pasture utilization**: Estimate forage consumption as a percentage of total diet by tracking supplemental grain fed versus expected full-ration consumption. On good pasture, geese should require only 50-100 g supplemental grain per day.
+
+**Breeding records**: Track gander-to-goose ratio (optimal 1:2-3), fertility rate (percentage of eggs showing development when candled at day 7), and hatch rate per breeding pair. Replace ganders producing less than 50% fertility.
+
+**Down yield**: Record weight of raw down per bird at processing. Target: 100-150 g per mature goose. Track processed down quality (fill power, measured as cubic inches per ounce) to optimize harvest timing and processing methods.
+
 ---
 
 [← Back to Animals](index.md)

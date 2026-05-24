@@ -145,6 +145,75 @@ Sheepskins with the wool on produce durable, warm rugs, seat covers, and footwea
 **Shepherd's crook**: The traditional hooked staff serves multiple purposes: catching sheep by the neck or hind leg, opening gates, and providing a walking aid on rough terrain. A 1.5 m staff with a curved hook (30-40 cm diameter) bent from green wood or fashioned from a natural branch crotch. The hook should be smooth to avoid injuring sheep. Essential handling tool that requires no manufacturing infrastructure beyond a knife and a source of heat for bending wood.
 
 **Predator protection**: Sheep are vulnerable to predation (wolves, coyotes, foxes, feral dogs, eagles). Guardian animals (livestock guardian dogs such as Great Pyrenees, Akbash, or Maremma) bonded to the flock from puppyhood provide 24-hour protection. A single guardian dog protects 50-200 sheep. Donkeys and llamas also serve as guardians — they are naturally aggressive toward canids and will chase, trample, or kick predators that approach the flock. Fencing (woven wire 1.0-1.2 m with one or two electrified offset wires) supplements guardian animals.
+The seasonal nature of sheep production (spring lambing, summer shearing, autumn breeding, winter feeding) aligns well with the agricultural calendar, allowing shepherds to integrate sheep management with crop production cycles. Sheep grazing cereal stubble after harvest (August-September) consumes spilled grain and controls weeds while fertilizing the field for the next crop — one hectare of wheat stubble carries 3-5 ewes for 30-45 days, saving 200-400 kg of winter hay per hectare while adding 15-25 kg of nitrogen in manure.
+
+### Historical Development
+
+Sheep were among the first domesticated livestock species, with archaeological evidence from the Zagros Mountains of present-day Iran and Iraq dating domestic sheep (*Ovis aries*) to approximately 10,000-11,000 BCE — contemporaneous with the domestication of goats.
+
+The wild ancestor of domestic sheep is the Asiatic mouflon (*Ovis orientalis*), native to the hill country of Anatolia, the Caucasus, and the Zagros range. Early domestication selected for reduced wariness, manageable flocking behavior, and the retention of wool (wild sheep shed their fleece annually).
+
+By 6000-5000 BCE, sheep herding had spread throughout the Fertile Crescent, the Mediterranean basin, and central Asia. Spinning and weaving of wool is documented by 4000 BCE in Mesopotamia, making sheep the foundation of the earliest textile industries.
+
+The Spanish Merino industry was a closely guarded state secret from the 1300s through the 1700s — export of Merino sheep from Spain was punishable by death. The breed was finally dispersed in the 1780s, establishing fine wool production in Australia, South Africa, and South America.
+
+The Suffolk breed was developed in southeastern England in the early 1800s by crossing Southdown rams with Norfolk Horned ewes, producing a fast-growing, black-faced terminal sire breed that became the most widely used meat sire in the world.
+
+Australia became the world's largest wool producer through the 19th and 20th centuries, peaking at over 1 billion kg of wool annually in the 1980s from a national flock of 170 million sheep (approximately 10 sheep per human in Australia).
+
+### Regional Adaptations
+
+**Hill and mountain systems**: Hill breeds (Scottish Blackface, Welsh Mountain, Swaledale) thrive on rough, nutrient-poor grazing at 300-900 m elevation, requiring no supplemental feed during the growing season. Ewes weigh 45-60 kg and produce 1.5-2.5 kg fleeces, but survive on pasture that would starve any other livestock.
+
+Transhumance — seasonal movement of flocks between lowland winter pastures and high mountain summer grazing — has been practiced for over 5,000 years. Distances of 50-200 km are typical, with the flock covering 10-20 km per day. This system requires no winter housing and minimal stored feed.
+
+**Arid and semi-arid rangeland**: Breeds such as the Dorper, Rambouillet, and Navajo Churro tolerate annual rainfall below 400 mm and temperatures ranging from -10 to 45°C. Stocking rates on arid rangeland: 1-3 sheep per hectare compared to 10-15 on improved temperate pasture.
+
+Desert-adapted breeds (Awassi, Blackhead Persian) can drink saline water (up to 10,000 ppm total dissolved solids) and obtain significant moisture from succulent vegetation, reducing watering frequency to every 2-3 days in extreme conditions.
+
+**Temperate improved pasture**: The most productive sheep systems operate on improved pasture in temperate regions (New Zealand, UK, southern Australia). Stocking rates of 10-15 ewes per hectare with rotational grazing produce 150-250 kg of lamb carcass per hectare annually.
+
+New Zealand's all-grass system (no grain feeding, year-round outdoor management) produces lamb at $2.50-3.50 per kg carcass weight — among the lowest production costs in the world. The key is pasture management: 70% utilization of annual dry matter production, achieved through rotational grazing with 21-28 day rest periods.
+
+### Processing and Products
+
+**Carcass classification**: Lamb carcasses are classified by conformation (EUROP scale: E=excellent to P=poor) and fat cover (1-5 scale). Premium carcasses (E/R conformation, fat class 2-3L) yield 70-80% saleable meat; over-fat carcasses (4-5) yield only 55-65% and receive price penalties of $0.50-1.50 per kg.
+
+**Wool processing chain**: Raw (greasy) fleece contains 25-40% impurities (lanolin, suint, vegetable matter, dirt). Scouring (washing in hot water at 50-65°C with detergent) removes these, yielding 60-80% clean fiber. A 5 kg greasy fleece produces 3-4 kg of clean wool and 500-750 g of recovered lanolin.
+
+Carding (aligning fibers) produces a continuous web that is then either woolen-spun (short staple, fluffy warm yarn for sweaters) or worsted-spun (long staple, smooth strong yarn for suits). One kg of clean wool produces approximately 3,000-4,000 m of yarn depending on thickness.
+
+**Sheep milk processing**: Sheep milk contains 6-8% butterfat, 5-7% protein, and 4-5% lactose — roughly double the solids content of cow milk. This means 4-5 L of sheep milk produces 1 kg of cheese, compared to 8-10 L of cow milk for the same yield.
+
+Notable sheep milk cheeses include Roquefort (aged 3-5 months in limestone caves, minimum 50% butterfat in dry matter), Pecorino Romano (salted and aged 5-8 months, grating cheese), and Feta (brined, 2-3 month aging, crumbly texture). These cheeses command $15-40 per kg at retail.
+
+**Sheepskin products**: Fresh sheepskins are preserved by salting (covered in coarse salt for 24-48 hours, drying to 10-12% moisture) or pickling (salt and sulfuric acid to pH 2-3 for long-term storage). Tanned sheepskin with wool intact produces medical-grade products (decubitus ulcer prevention), automotive seat covers, and luxury rugs.
+
+**Lanolin extraction and uses**: Recovered from scouring wash water by centrifugation and refining. Pharmaceutical-grade lanolin (anhydrous, hypoallergenic) is used in cosmetics, skin ointments, and as a rust preventative for metal tools. Technical-grade lanolin lubricates leather, conditions baseball gloves, and waterproofs boots. Global lanolin production: approximately 25,000 tonnes per year from 2.5 million tonnes of greasy wool.
+
+### Record Keeping
+
+**Ewe production records**: Track lambing date, litter size, lamb birth weights, and weaning weights for each ewe. Calculate kilograms of lamb weaned per ewe per year — the single most important production metric. Target: 60-80 kg of lamb weaned per ewe (one 40 kg lamb at $5.00/kg = $200 gross revenue per ewe).
+
+Record reasons for ewe culling (age, teeth condition, udder problems, barrenness, prolapse). Average productive lifespan: 5-7 lambing seasons for lowland breeds, 4-5 for hill breeds.
+
+**Wool records**: Record fleece weight (greasy), micron (fiber diameter), staple length, vegetable matter contamination, and any defects (tender break, stains, second cuts) for each fleece at shearing. Target fleece value: $4-8 per kg clean weight for medium wool, $12-25 for fine Merino wool under 19 microns.
+
+**Lamb growth tracking**: Weigh lambs at birth, 4 weeks, 8 weeks (marking), weaning (12-16 weeks), and target slaughter weight. Calculate daily liveweight gain: target 250-350 g/day for single lambs, 200-280 g/day for twins on improved pasture.
+
+Lambs failing to gain 200 g/day at pasture should be checked for internal parasites (fecal egg count), insufficient milk from the ewe (check udder), or poor pasture quality.
+
+**Flock inventory and turnover**: Maintain monthly inventory showing opening numbers, additions (births, purchases), and losses (deaths, sales, culls). Target annual flock replacement rate: 15-20% of ewe flock. Death loss should remain under 5% annually.
+
+**Financial records**: Track all costs (feed, veterinary, shearing, fencing, supplemental feed, ram purchase or lease) against income (lamb sales, wool sales, cull ewe sales, breeding stock sales). Calculate net margin per ewe: target $40-80 per ewe for lowland flocks, $20-40 for hill flocks.
+
+### Production Metrics
+
+**Wool production**: A flock of 50 Merino ewes produces 200-300 kg of greasy fleece per year (4-6 kg per ewe), yielding 130-210 kg of clean wool (65-70% yield). Fine Merino (18-22 microns) sells at $15-30/kg — total fleece value: $1,950-6,300/year. Coarser crossbred wool (28-32 microns) from Corriedale or Romney yields 250-400 kg greasy fleece at 75-80% clean yield, valued at $3-8/kg clean — total: $750-3,200. Shearing cost: $3-6 per head.
+
+**Meat production**: A flock of 50 crossbred ewes at 170% lambing weans 85 lambs per year, each reaching 40-50 kg live weight at 4-6 months, yielding 18-25 kg dressed carcass. Annual meat: 1,530-2,125 kg carcass valued at $6,120-17,000 at $4-8/kg. Annual cull rate of 15-20% produces 7-10 cull ewes contributing $420-1,600 in mutton.
+
+**Dairy production**: East Friesian ewes produce 400-600 L milk per 180-210 day lactation at 6-7% butterfat, yielding 50-70 kg cheese per ewe per lactation (cheese yield 12-14% due to high solids). A 50-ewe dairy flock produces 20,000-30,000 L of milk yielding 2,500-3,500 kg of sheep cheese at $15-40/kg — gross revenue: $37,500-140,000.
 
 ---
 

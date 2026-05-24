@@ -19,7 +19,7 @@ The Rowow LLC Technical Volume (lines 82-84) describes the discovery of related 
 Electrodialysis works by applying a direct current across a stack of alternating cation and anion exchange membranes placed between two electrodes:
 
 - **[Anode](../glossary/anodes.md)** (positively charged electrode): attracts anions (negatively charged ions)
-- **[Cathode](../glossary/cathode.md)** (negatively charged electrode): attracts cations (positively charged ions)
+- **[Cathode](../glossary/cathodes.md)** (negatively charged electrode): attracts cations (positively charged ions)
 - **Cation exchange membranes (CEM)**: permit passage of cations, block anions
 - **Anion exchange membranes (AEM)**: permit passage of anions, block cations
 
@@ -98,6 +98,34 @@ This is directly relevant to [SEM Tech Acid Regeneration](sem-tech-acid-regenera
 - **Scaling**: Divalent ions (Ca²⁺, Mg²⁺) can precipitate as carbonates or hydroxides on membrane surfaces. Pre-treatment or periodic polarity reversal (electrodialysis reversal, EDR) mitigates scaling.
 - **Membrane fouling**: Organic matter and colloids foul membranes over time. Cleaning-in-place (CIP) with acid and alkali solutions restores performance.
 
+## Membrane Stack Construction
+
+A SEM Tech electrodialysis stack is constructed from readily available materials using simple fabrication techniques consistent with the SEM Tech design philosophy.
+
+**Stack frames**: PVC or CPVC sheets (3-6 mm thick) cut to form the spacer gaskets that define flow channels. Holes drilled for inlet and outlet manifolds. Frame dimensions typically 200-500 mm × 400-1,000 mm for practical stacks. The frames are assembled with PVC cement (solvent welding) — the same technique used in plumbing — to create leak-tight seals between membranes and frames.
+
+**Electrodes**: Graphite plates (5-10 mm thick) or coated titanium mesh at each end of the stack serve as anode and cathode. Graphite is inexpensive ($5-20 per kg) but slowly erodes; coated titanium (DSA) costs $200-500 per kg but lasts 5-8 years. For ED, where electrode reactions are minimal, graphite is acceptable with replacement every 1-2 years.
+
+**End plates**: Thick PVC or steel plates (15-25 mm) clamp the stack together with tie rods. Compression force: 0.5-2.0 MPa distributed evenly across the membrane area to prevent internal leakage between diluate and concentrate channels.
+
+**Assembly sequence**: (1) Place anode electrode on end plate. (2) Stack alternating CEM, diluate spacer, AEM, concentrate spacer until desired cell pair count is reached. (3) Place cathode electrode. (4) Install end plate with tie rods. (5) Torque tie rods evenly to specified compression. (6) Connect manifolds, power supply, and recirculation pumps. A 100-cell-pair stack with 0.1 m² active area per cell can be assembled by one person in 2-4 hours.
+
+## Cost Comparison with Conventional ED
+
+| Component | Conventional ED Stack | SEM Tech ED Stack |
+|-----------|----------------------|-------------------|
+| Cation membrane (per m²) | $100-300 (Neosepta CMX) | $10 (SEM Tech) |
+| Anion membrane (per m²) | $100-300 (Neosepta AMX) | $10 (SEM Tech) |
+| Bipolar membrane (per m²) | $200-500 (Fumasep FBM) | $15 (SEM Tech, projected) |
+| 100-cell-pair stack, 0.5 m²/cell | $20,000-60,000 membranes | $1,000 membranes |
+| Stack hardware (PVC frames, electrodes) | $5,000-10,000 | $2,000-5,000 |
+| **Total stack cost** | **$25,000-70,000** | **$3,000-6,000** |
+| Membrane replacement (100 m², annual) | $10,000-30,000 | $1,000 |
+| Stack lifetime (membranes) | 2-5 years | 0.5-1 year (projected) |
+| Annualized membrane cost | $4,000-15,000 | $1,000 |
+
+Despite shorter projected lifetime, SEM Tech membranes deliver 4-10x lower annualized membrane cost. The key trade-off is more frequent replacement (semi-annually or annually versus every 2-5 years), offset by the trivial cost of new membranes.
+
 ## Applications
 
 **Desalination**: Brackish water desalination is the largest commercial ED application. ED excels at moderate salinity (1,000-10,000 mg/L TDS) where reverse osmosis becomes energy-intensive. See [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md).
@@ -110,6 +138,36 @@ This is directly relevant to [SEM Tech Acid Regeneration](sem-tech-acid-regenera
 
 **Blue energy**: Reverse ED generates electricity from river-sea water mixing at estuaries. Global theoretical potential exceeds 2 TW. See [SEM Tech Blue Energy](../energy/sem-tech-blue-energy.md).
 
+
+## Energy Consumption Analysis
+
+The energy consumption of electrodialysis is determined by the number of ions transported and the electrical resistance of each cell pair. The theoretical minimum energy to remove salt from water is the Gibbs free energy of mixing. For desalting from 5,000 to 500 mg/L TDS (NaCl), the theoretical minimum is approximately 0.11 kWh/m³. Practical ED systems consume 0.5-2.0 kWh/m³, achieving 5-18% thermodynamic efficiency — the remaining energy is dissipated as resistive heating (I²R losses) in the solution and membranes.
+
+**Resistance breakdown per cell pair** (typical 0.5 mm spacer, 5,000 mg/L NaCl feed at 25°C):
+- Diluate channel solution resistance: 3-8 Ω·cm²
+- Concentrate channel solution resistance: 2-5 Ω·cm²
+- Cation membrane resistance: 1-5 Ω·cm² (SEM Tech estimated: 3-15 Ω·cm²)
+- Anion membrane resistance: 1-5 Ω·cm² (SEM Tech estimated: 3-15 Ω·cm²)
+- **Total per cell pair**: 7-23 Ω·cm² (conventional), 11-43 Ω·cm² (SEM Tech estimated)
+
+At a current density of 20 mA/cm² (200 A/m²), a conventional cell pair at 15 Ω·cm² drops 0.3V, while a SEM Tech cell pair at 27 Ω·cm² drops 0.54V. For a 200-cell-pair stack, total voltage is 60V (conventional) versus 108V (SEM Tech). At 20 mA/cm² across 0.5 m² active area, total current is 100A. Power consumption: 6.0 kW (conventional) versus 10.8 kW (SEM Tech) — approximately 80% higher for SEM Tech, translating to 0.9 kWh/m³ additional energy cost. At $0.08/kWh, this adds $0.07/m³ to the water treatment cost — acceptable for most applications.
+
+## Cross-Domain Dependencies
+
+Electrodialysis using SEM Tech membranes requires upstream capabilities from multiple domains. The membranes themselves require PVC or CPVC resin from the [chlor-alkali and petrochemical industry](electrolysis.md), ion exchange resin beads (sulfonated polystyrene from [organic synthesis](./index.md)), and organic solvents (THF, MEK, cyclohexanone). The stack hardware requires [PVC plumbing components](../chemistry/index.md) and [graphite or titanium electrodes](../metals/index.md). The DC power supply requires [rectifier-grade electrical infrastructure](../energy/electricity.md) converting AC to DC at 50-600V. For water treatment applications, pre-treatment requires [sand filtration](../water/index.md) and possibly [activated carbon](../chemistry/index.md) for organic removal. For BMED applications, the acid and base products require [chemical-resistant storage vessels](../chemistry/index.md) and standard industrial chemical handling infrastructure.
+
+
+## Scaling Considerations
+
+**Bench-scale ED (0.1-1.0 m² membrane area)**: 5-20 cell pairs, operating at 5-20 mA/cm², 5-30V total stack voltage. Processes 0.5-5 L/h of feed solution. Suitable for laboratory research, water quality testing, and small-scale demonstration. Total membrane cost at SEM Tech pricing: $0.10-1.00.
+
+**Pilot-scale ED (1-50 m² membrane area)**: 20-100 cell pairs, operating at 10-30 mA/cm², 20-150V. Processes 50-500 L/h. Suitable for field trials, small community water treatment (serving 50-500 people at 50 L/person/day), and industrial process water for small facilities. Total membrane cost: $1-50.
+
+**Industrial-scale ED (50-1,000 m² membrane area)**: 100-600 cell pairs in one or more stacks, operating at 20-50 mA/cm², 50-600V. Processes 5-100 m³/h. Suitable for municipal brackish water desalination, industrial wastewater treatment, and mining process water. Total membrane cost: $50-1,000 — compared to $50,000-300,000 for conventional membranes at equivalent area.
+
+**Large municipal ED (1,000-10,000 m² membrane area)**: Multiple parallel stack trains with common manifolds and power supply. Processes 100-1,000 m³/h (serving 20,000-200,000 people). Requires automated cleaning-in-place (CIP) systems, redundant stacks for continuous operation during maintenance, and sophisticated process control. Total membrane cost at SEM Tech pricing: $1,000-10,000 — a transformative reduction from the $500,000-3,000,000 cost of conventional membrane installations.
+
+At each scale, the SEM Tech membrane cost is so low relative to other system components (power supply, pumps, piping, controls) that membrane replacement becomes a routine maintenance item rather than a capital decision — fundamentally changing the economics of ED deployment.
 ## Safety
 
 - **Electrical safety**: ED stacks operate at high DC voltages (50-600V depending on cell pairs). Proper grounding, insulation, and lockout/tagout procedures are mandatory. Current leakage through improperly sealed cells can cause electrolysis and gas generation.

@@ -116,6 +116,100 @@ Maintain strict separation from chickens (blackhead disease). Disinfect footwear
 **Processing safety**:
 Turkeys are large birds requiring sturdy processing equipment. Sharp knives, a clean killing cone or restrained slaughter setup, and adequate scalding water (60-65°C for 30-60 seconds) for feather removal. Large toms may require two people for safe handling during processing.
 
+### Egg and Breeding Management
+
+**Egg handling and incubation**: Turkey eggs (70-80 g, speckled brown or cream) should be collected at least twice daily and stored pointed-end-down at 12-15°C with 75-80% relative humidity for up to 7-10 days before setting in the incubator. Turn stored eggs 90° twice daily to prevent yolk adhesion. Incubator settings: 37.5°C, 55-60% humidity for days 1-25, turning 3-5 times daily. Increase to 65-70% humidity for days 26-28 (lockdown). Hatch rate from fertile eggs: 70-85% with proper incubation. Cool eggs for 5-10 minutes daily after day 10 (opening the incubator briefly) to mimic the hen leaving the nest — this improves hatch rates by 3-5% in turkey eggs.
+
+**Natural brooding vs artificial**: Heritage turkey hens make excellent mothers when allowed to go broody. A broody hen sits on 8-12 eggs for 28 days, hatching 6-10 poults with attentive care for the first 8-10 weeks. Natural brooding eliminates incubator equipment costs and produces calmer, more capable poults that learn foraging from their mother. However, natural brooding limits production to the spring season and the number of broody hens available. Artificial incubation enables year-round production and larger batch sizes but requires reliable temperature control (±0.5°C accuracy) and a power source for the incubator and egg turner.
+
+**Breeding flock management**: Maintain a breeding ratio of 1 tom per 8-10 hens for heritage breeds. Toms become territorial during breeding season — house breeding groups separately to prevent fighting. Select breeding stock based on: conformation (broad breast, straight back, sound legs), growth rate (select fastest-growing 20% of toms and largest-framed 20% of hens), and disease history (never breed from birds that have survived blackhead or respiratory disease). Heritage turkeys maintain fertility for 3-5 years, with peak reproduction in years 2-3. Replace 20-25% of the breeding flock annually with young stock to maintain vigor.
+
+### Historical Development
+
+Wild turkeys (*Meleagris gallopavo*) were first domesticated by indigenous peoples of Mesoamerica approximately 2,000-2,500 years ago. Archaeological evidence from the Maya region (Guatemala, Mexico) dates turkey remains in domestic contexts to 200 BCE.
+
+Aztec civilization kept domestic turkeys extensively — the Nahuatl word "huexolotl" (turkey) appears in tribute records indicating that 7,000-8,000 turkeys were delivered to the Aztec capital Tenochtitlan annually as tribute from conquered territories.
+
+Spanish conquistadors encountered domestic turkeys in Mexico in 1518-1519 and brought them to Europe by 1520. Turkeys spread rapidly across European farms, reaching England by 1525, France by 1538, and Scandinavia by 1550.
+
+The name "turkey" likely derives from the trade route through Turkey (the Ottoman Empire) that brought the birds to English markets, or from early confusion with guinea fowl which were called "turkey cocks" because they came from Turkish territory.
+
+The Narragansett turkey, one of the oldest American heritage breeds, was developed by crossbreeding domestic turkeys brought by European colonists with local wild turkeys in Rhode Island and Connecticut during the 1600s-1700s.
+
+The Standard Bronze was the dominant commercial turkey in the United States from the 1800s through the 1940s, when the Broad Breasted White was developed for industrial production with its cleaner processing appearance (white feather follicles leave no dark pigment marks on skin).
+
+Heritage breeds nearly disappeared by the 1990s (fewer than 1,500 breeding Narragansett turkeys remained) but have experienced a revival through the Slow Food movement and farm-to-table demand, with breeding populations now exceeding 10,000 for the major heritage varieties.
+
+### Regional Adaptations
+
+**Cold climate management**: Turkeys are surprisingly cold-hardy once mature — heritage breeds tolerate temperatures to -20°C with dry, draft-free shelter and adequate feed. Increase feed by 15-20% during sustained cold (below -10°C) as metabolic rate rises to maintain body temperature.
+
+In cold regions, house turkeys in insulated structures with deep straw bedding (20-30 cm) and ensure ventilation maintains ammonia below 25 ppm. Frostbite of the snood (the fleshy appendage above the beak) occurs below -15°C — applying petroleum jelly provides protection during extreme cold.
+
+**Hot climate management**: Turkeys are susceptible to heat stress above 35°C, exhibiting panting, wing-drooping, and reduced feed intake. Provide shade structures (3-4 m² per 10 birds) with misters or wet sand for evaporative cooling. Ensure water availability increases to 1.0-1.5 L per bird per day above 30°C.
+
+In subtropical regions, schedule breeding for autumn poults that mature during the cooler winter-spring period rather than summer heat, avoiding the 30-40% growth rate reduction associated with chronic heat stress.
+
+**Range and forage systems**: Turkeys excel on range systems with mixed pasture and woodland, where they forage for grasshoppers (consuming 100-200 per bird per day during peak insect season), weed seeds, berries, and acorns. Stocking rate: 20-25 m² per bird on good range.
+
+Oak woodland provides exceptional turkey range — a mature oak tree produces 20-70 kg of acorns per year, and turkeys consume acorns enthusiastically, gaining 100-200 g of additional weight per week during the autumn mast drop compared to pasture-only birds.
+
+### Processing and Products
+
+**Turkey processing**: Slaughter at 14-30 weeks depending on breed type. Scald at 60-65°C for 30-60 seconds (longer than chickens due to heavier feathering). Large toms may require two people for safe handling during processing.
+
+Dressed yield: 75-80% of live weight — among the highest dressing percentages of any poultry species. Breast meat constitutes 25-35% of live weight (higher in commercial breeds at 30-35%, heritage at 25-28%).
+
+**Turkey fat and stock**: Unlike ducks and geese, turkeys are relatively lean birds with only 3-7% body fat. However, the carcass bones make excellent stock — simmer a turkey frame in 6-8 L water with onions, celery, and carrots for 3-4 hours to produce 4-5 L of rich stock with 2-3% protein content.
+
+Rendered turkey fat (schmaltz) has a mild flavor and smoke point of approximately 185°C. Yield: 200-400 g per carcass, mostly from the abdominal fat pad and subcutaneous deposits.
+
+**Feather products**: Turkey feathers have been valued for centuries. Wing feathers (primaries and secondaries) are used for fletching arrows, quill pens, and ceremonial decorations. A mature turkey yields 150-250 g of feathers, with the large tail feathers (12-18 per bird, 30-45 cm long) being the most valuable.
+
+Turkey "beards" (the modified feather cluster on the chest of toms, 15-25 cm long) are prized by hunters and craftspeople. Wild turkey beards sell for $5-15 each in the craft market.
+
+**Value-added products**: Smoked turkey breast commands $15-25 per kg at retail, compared to $5-8 per kg for fresh whole turkey. Smoke at 80-100°C for 4-6 hours using hardwood (hickory, apple, or cherry) to an internal temperature of 74°C.
+
+Turkey jerky: slice breast meat 5-8 mm thick, marinate in salt/soy sauce solution (4-5% salt, 12-24 hours), dehydrate at 60-70°C for 4-8 hours to moisture content below 20%. Yield: 30-35% of fresh breast weight becomes jerky.
+
+### Record Keeping
+
+**Growth tracking**: Weigh a sample of 15-20 birds weekly from hatch to processing. Heritage breeds should follow a growth curve reaching 200-300 g/week gain during weeks 8-16. Commercial breeds gain 350-500 g/week during the same period.
+
+Plot actual weights against breed-standard curves. A deviation of more than 15% below expected weight for 2 consecutive weeks indicates a management problem — check feed quality, water availability, and disease status.
+
+**Feed conversion**: Track total feed consumed per batch against total dressed meat produced. Target FCR: 2.5-3.0 for heritage breeds, 2.0-2.5 for commercial types. Feed represents 65-75% of total production cost, making FCR the most important economic metric.
+
+Calculate feed cost per kg of dressed meat weekly. At current grain prices ($0.30-0.50 per kg), target production cost is $3.00-5.00 per kg of dressed turkey meat.
+
+**Mortality by age**: Record all deaths with age, date, and observed symptoms. Poult mortality (0-2 weeks) should be under 5% with good management. Grower mortality (2-16 weeks) should be under 3%. Investigate any weekly mortality exceeding 1%.
+
+Common mortality causes by age: 0-2 weeks (starvation/dehydration from failure to eat/drink, chilling), 2-8 weeks (coccidiosis, predation), 8-16 weeks (blackhead if exposed to chicken range, predation, leg problems in fast-growing commercial breeds).
+
+**Flock health monitoring**: Inspect 10-20 birds weekly for signs of illness: drooping wings, ruffled feathers, nasal discharge, swollen sinuses, or abnormal droppings. Check litter condition — wet caked litter indicates ventilation or water system problems.
+
+Maintain a treatment log recording all medications administered, including drug name, dose (mg/kg), duration, withdrawal period, and reason for treatment. This is essential for food safety compliance and avoiding drug residues in meat.
+
+### Nutritional Requirements
+
+**Protein requirements by age**: Turkey poults require the highest protein content of any domestic poultry — 28-30% crude protein for the first 8 weeks, declining to 20-24% during weeks 8-16, and 16-18% for finishing. Adult breeder hens require 14-16% protein with 2.5-3.0% calcium during the laying season.
+
+The exceptionally high protein requirement of poults makes turkey starter the most expensive poultry feed per kg ($0.80-1.20 per kg vs $0.40-0.60 for chicken starter). Feed cost for a poult to 8 weeks: approximately $1.50-2.50 per bird consuming 1.0-1.5 kg of starter.
+
+**Critical nutrients**: Turkeys require higher levels of several nutrients compared to chickens: methionine (0.50-0.55% of diet vs 0.38-0.45% for chickens), lysine (1.40-1.55% vs 1.00-1.20%), and niacin (70-90 mg/kg feed vs 30-35 mg/kg). Niacin deficiency causes perosis (slipped tendon) in poults within 2-3 weeks.
+
+Supplement niacin with brewer's yeast (35 mg/g niacin) at 3-5% of diet if commercial turkey starter is unavailable. This costs approximately $0.05-0.10 per bird over the starter period but prevents losses of 5-15% of poults to leg deformities.
+
+**Range and forage contribution**: On good range with mixed pasture and woodland, turkeys obtain 20-40% of their dietary intake from forage during spring through autumn. This reduces feed costs proportionally — a turkey on good range might consume $8-12 in purchased feed versus $12-18 for a fully confined bird to reach market weight.
+
+Acorns provide exceptional feed value in autumn — white oak acorns contain 6-8% crude protein and 40-50% carbohydrate by dry weight. Turkeys on oak woodland range gain 100-200 g/week more than pasture-only birds during September-November mast drop.
+
+### Production Metrics
+
+**Growth performance**: Heritage turkey breeds reach 6-12 kg live weight at 24-30 weeks on pasture with a feed conversion ratio of 2.5-3.0 kg feed per kg gain. Commercial broad-breasted types reach 8-18 kg at 14-20 weeks with FCR of 2.0-2.5. Toms grow 30-40% faster and heavier than hens. Dressed yield: 75-80% of live weight — the highest dressing percentage of any common poultry. Breast meat constitutes 25-35% of live weight in commercial types. Heritage hens lay 80-120 eggs per year at 70-80 g each, concentrated in a 12-16 week spring season. Fertility rate in heritage breeds: 85-95% of eggs from naturally mated hens are fertile. Hatch rate from fertile eggs: 70-85%.
+
+**Economic benchmarks**: A heritage tom reaching 10 kg live weight at 28 weeks consumes 25-30 kg of feed ($10-18) and yields 7.5-8.0 kg dressed carcass ($60-120 retail). Net margin per bird: $42-102. A small flock of 20 heritage turkeys on 400 m² of range produces 100-160 kg of dressed meat valued at $800-2,400 with feed costs of $200-360. Heritage breeds breed naturally, eliminating the need for artificial insemination equipment — the key advantage for bootstrapping.
+
 ---
 
 [← Back to Animals](index.md)

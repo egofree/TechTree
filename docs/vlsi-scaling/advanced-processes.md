@@ -137,5 +137,83 @@ Advanced processes enable significant efficiency gains over baseline screen-prin
 - **Copper contamination concerns**: Copper is a fast diffuser in silicon and SiO₂ — even trace contamination (ppb levels) poisons minority-carrier lifetime in devices, causing leakage and yield loss. Dedicated Cu processing areas must be physically separated from front-end (FEOL) process areas. Cu tools, wafer carriers, and cleaning equipment must never be shared with non-Cu processes. Implement copper cross-contamination monitoring (surface wipe tests, TXRF analysis) on all wafers entering FEOL zones.
 - **Ion implantation and RIE gases**: Dopant gases (AsH₃, PH₃, BF₃) are immediately dangerous to life at ppm concentrations. RIE gases (SF₆, CF₄, NF₃) are potent greenhouse gases requiring point-of-use abatement. Full hazard details and emergency procedures are documented in [EDA & GPU Design](eda-design.md).
 
+
+
+### Rapid Thermal Processing (RTP)
+
+RTP replaces batch furnace processing for temperature-sensitive steps where precise ramp rates and short dwell times are critical. A single wafer is heated by an array of high-intensity halogen lamps (tungsten-halogen, 1-2 kW each, typically 100-300 lamps) to 600-1200°C in seconds, held for 1-120 seconds, then cooled rapidly.
+
+**Temperature control**:
+- Pyrometer measurement (two-color ratio pyrometer, 0.8-1.1 μm wavelength) monitors wafer temperature non-contact with ±1-2°C accuracy. Thermocouple (type K or type S) embedded in the susceptor provides a secondary reference. Closed-loop PID control adjusts lamp power in <100 ms response time.
+- Ramp rate: 50-250°C/s (compared to 5-15°C/min for batch furnaces). Rapid ramp minimizes dopant diffusion during annealing — at 1050°C spike anneal, total time at temperature above 900°C is <5 seconds, limiting dopant diffusion to <2 nm.
+- Uniformity: ±2-5°C across 300 mm wafer, achieved by zonally controlled lamp arrays (inner/outer ring control) and shaped reflectors that compensate for edge heat loss. Non-uniformity causes spatial variation in sheet resistance, oxide thickness, or silicide phase.
+
+**RTP applications**:
+- **Spike anneal for ultra-shallow junctions**: Ramp to 1050-1100°C in ~1 second, immediately cool. Activates implanted dopants while limiting diffusion to <1-2 nm. Essential for source/drain extension formation at 65 nm and below where junction depth must be <20 nm.
+- **Silicide formation**: Reaction of deposited metal (Ti, Co, or Ni) with silicon to form low-resistance silicide contacts (TiSi₂, CoSi₂, NiSi). RTP at 400-750°C for 30-60 seconds in N₂ ambient. NiSi (nickel silicide) is preferred at 45 nm and below: lower formation temperature (~300-400°C), lower Si consumption (~1 nm Ni → ~2 nm NiSi), and less sensitive to narrow line widths than TiSi₂ or CoSi₂.
+- **Gate reoxidation**: Thin (~1-3 nm) oxide regrowth on gate sidewalls after RIE etching to repair plasma damage. RTP at 800-900°C in O₂ for 30-60 seconds.
+- **Stress engineering**: strained silicon through rapid thermal chemical vapor deposition (RTCVD) of SiGe source/drain epitaxy at 600-800°C.
+
+### Plasma-Enhanced CVD (PECVD)
+
+PECVD deposits dielectric and passivation films at temperatures 200-400°C — far below the 600-900°C required for thermal CVD or LPCVD — by using plasma energy instead of thermal energy to drive film-forming reactions. This enables deposition on wafers with aluminum or copper metallization already in place.
+
+**Equipment and parameters**:
+- Parallel plate reactor: 200-300 mm electrode diameter, 10-30 mm electrode gap. RF power at 13.56 MHz, 100-600 W. Gas flow: 100-2000 sccm depending on film. Pressure: 0.5-10 Torr.
+- Wafer temperature: 200-400°C (heated by resistive heater or lamp-heated chuck). Lower temperature than LPCVD preserves metal interconnect integrity.
+- Deposition rate: 100-500 nm/min (much faster than ALD's ~0.1 nm/cycle).
+
+**PECVD film properties**:
+| Film | Precursor Gases | Temperature | Rate | Refractive Index |
+|------|----------------|-------------|------|------------------|
+| SiO₂ | SiH₄ + N₂O | 300-400°C | 200-400 nm/min | 1.45-1.47 |
+| SiNₓ | SiH₄ + NH₃ + N₂ | 300-400°C | 100-200 nm/min | 1.9-2.2 |
+| SiOₓNᵧ | SiH₄ + N₂O + NH₃ | 300-350°C | 150-300 nm/min | 1.5-1.8 |
+| a-Si:H | SiH₄ | 200-300°C | 50-150 nm/min | 3.5-4.0 |
+| α-C:F (low-k) | C₄F₈ + CH₄ | 200-350°C | 100-300 nm/min | 1.4-1.5 |
+
+**SiNₓ stress engineering**: PECVD silicon nitride film stress is tunable from -500 MPa (compressive) to +200 MPa (tensile) by adjusting RF frequency (low frequency → more compressive), gas ratio (SiH₄:NH₃), and deposition temperature. Tensile SiNₓ on NMOS channel regions enhances electron mobility by ~5-15%. Compressive SiNₓ on PMOS enhances hole mobility. This "stress memorization technique" is a key performance booster at 45 nm and below.
+
+### Thin Film Stress Management
+
+Every deposited film carries intrinsic stress (from the deposition process) and thermal stress (from CTE mismatch during cooling). Uncontrolled stress causes wafer bow, film cracking, delamination, and device parameter shifts.
+
+**Stress sources**:
+- **Intrinsic stress**: Determined by deposition conditions (temperature, rate, ion bombardment). PECVD SiNₓ: -500 to +200 MPa depending on parameters. Sputtered metals: -200 to +500 MPa. LPCVD poly-Si: -200 to +50 MPa (compressive to slight tensile depending on doping). ALD Al₂O₃: +100 to +300 MPa (tensile).
+- **Thermal stress**: σ_thermal = E_f/(1-ν_f) × (α_s - α_f) × (T_dep - T_room), where E_f is film Young's modulus, ν_f is Poisson's ratio, α_f and α_s are CTE of film and substrate. For Al on Si: α_Al = 23×10⁻⁶/°C vs α_Si = 2.6×10⁻⁶/°C → significant tensile stress in Al films deposited at >200°C and cooled to room temperature.
+- **Wafer bow**: Stoney's equation relates film stress to wafer curvature: σ = (E_s × t_s²)/(6(1-ν_s) × t_f × R), where t_s and t_f are substrate and film thickness, R is radius of curvature. A 100 nm SiNₓ film with 300 MPa stress on a 775 μm Si wafer causes ~20 μm bow across 300 mm diameter. Excessive bow (>100 μm) prevents wafer chucking in lithography scanners.
+
+**Stress measurement**: Laser scanning (measures wafer curvature before and after deposition). Accuracy: ±5 MPa. Measured at multiple points across the wafer to map stress uniformity.
+
+### Process Integration: 65 nm CMOS Flow
+
+A representative 65 nm CMOS process flow shows how the individual unit processes combine into a complete manufacturing sequence. The full flow requires 35-45 mask layers and 400-600 individual process steps over 6-8 weeks of factory time.
+
+**Front-end-of-line (FEOL)** — transistor formation:
+1. Shallow trench isolation (STI): Pads SiO₂ (10 nm) + SiNₓ (100 nm) litho/etch → DRIE Si trenches (300-400 nm deep) → LPCVD SiO₂ fill (400 nm) → CMP planarize → SiNₓ strip
+2. Well formation: Triple ion implant (triple-well for noise isolation): deep n-well (MeV P, 2-4 μm depth), p-well (300-800 keV B), n-well (300-800 keV P) → furnace anneal 1000-1050°C, 30-60 min
+3. Gate oxide: Thermal SiO₂ (1.2-1.5 nm) or SiON (1.5-2.0 nm equivalent oxide thickness) at 900-1000°C
+4. Polysilicon gate: LPCVD poly-Si deposition (150-200 nm) → gate lithography → RIE etch (HBr/Cl₂/O₂ chemistry, selectivity > 50:1 to gate oxide)
+5. Offset spacer: Deposit SiNₓ (10-15 nm) by PECVD → anisotropic RIE → sidewall spacer defines source/drain extension implant region
+6. Source/drain extension: Low-dose implant (As for NMOS, BF₂ for PMOS, 5-30 keV) → spike anneal (1050-1080°C, <1 s) → junction depth 15-30 nm
+7. Main spacer: Deposit SiNₓ (30-50 nm) → RIE → defines deep source/drain region
+8. Deep source/drain: High-dose implant (As for NMOS, BF₂ for PMOS, 10-60 keV, 10¹⁵ cm⁻²) → rapid thermal anneal (1000-1050°C, 10-30 s)
+9. Salicide: Wet clean (dilute HF) → sputter Ni (10-20 nm) → RTP 300-400°C first anneal → wet strip unreacted Ni → RTP 400-500°C second anneal → NiSi on gate/source/drain (sheet resistance 5-15 Ω/sq)
+
+**Back-end-of-line (BEOL)** — interconnect stack:
+10. Contact (CA) layer: PECVD SiO₂ (300-500 nm) → lithography → RIE (CF₄/CHF₃/Ar) through oxide to source/drain/gate → Ti/TaN barrier (5-10 nm PVD) → W fill (CVD, 200-500 nm) → CMP → W plugs (contact resistance <50 Ω per contact)
+11. Metal 1 (M1): PECVD SiO₂ or low-k dielectric (300-500 nm) → lithography → RIE trenches → Ta/TaN barrier (3-5 nm) → Cu seed (50-100 nm PVD) → Cu electroplate → CMP → damascene Cu lines (minimum pitch ~180 nm at 65 nm node)
+12. Via 1 (V1) + Metal 2 (M2): Dual damascene process — two lithography steps (via-first or trench-first) → etch → barrier/seed → Cu electroplate → CMP
+13. Repeat V+M layers: M2-M6 fine-pitch (180-280 nm pitch) → M7-M8 intermediate (400-800 nm pitch) → M9+ thick metal (1-4 μm pitch for power distribution)
+14. Pad opening: Final passivation SiNₓ (500-800 nm) → lithography → RIE open bond pads → probe test
+
+**Parametric targets** (65 nm generic):
+- NMOS drive current: ~800-1000 μA/μm (I_dsat at Vdd = 1.0V)
+- PMOS drive current: ~400-500 μA/μm
+- Gate leakage: <50 pA/μm (SiON gate dielectric)
+- Gate delay (FO4): ~12-15 ps
+- SRAM cell size: 0.5-0.6 μm² (6T cell)
+
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*

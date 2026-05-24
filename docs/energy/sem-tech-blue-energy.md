@@ -93,6 +93,16 @@ Projected performance:
 
 Critical unknowns: (1) SEM Tech membrane area resistance in thin RED stack geometry, (2) ion selectivity under low current density, (3) long-term fouling with natural water.
 
+## System Design Parameters
+
+A practical RED power plant using SEM Tech membranes would be sized as follows for different output levels:
+
+**100 kW pilot plant**: 50-200 cell pairs per stack, 1-4 m² membrane area per cell, 5-20 stacks in parallel. Total membrane area: 5,000-40,000 m². Membrane cost at SEM Tech pricing: $5,000-40,000. Seawater flow: 500-2,000 m³/h. Fresh water flow: 500-2,000 m³/h. Pumping power: 10-25 kW. Net output: 75-90 kW. Footprint: approximately 50-200 m² for the stack array.
+
+**1 MW commercial plant**: 100-200 cell pairs per stack, 4-10 m² per cell, 20-100 stacks. Total membrane area: 50,000-500,000 m². Membrane cost: $50,000-500,000. Seawater and fresh water flow: 5,000-20,000 m³/h each. Pumping power: 100-250 kW. Net output: 750-900 kW. Footprint: 500-2,000 m². This membrane cost is 100-1,000x lower than conventional Nafion-based RED at equivalent area ($50-500 million), transforming the economic viability.
+
+**10 MW utility-scale plant**: 50-100 parallel stack trains. Total membrane area: 500,000-5,000,000 m². Membrane cost: $500,000-5,000,000. Seawater flow: 50,000-200,000 m³/h. Pumping power: 1.0-2.5 MW. Net output: 7.5-9.0 MW. Suitable for deployment at major river mouths (Amazon discharge ~209,000 m³/s, Congo ~41,200 m³/s, Ganges-Brahmaputra ~38,000 m³/s). At these river flow rates, the fraction of water diverted through the RED plant is negligible (0.01-0.1%).
+
 ## Deployment Scenarios
 
 ### River Mouths and Estuaries
@@ -111,6 +121,42 @@ Salt production, chlor-alkali plants, and mining operations produce concentrated
 
 Blue energy is continuous but fixed in output. Pairing RED with grid storage such as [SEM Tech Redox Flow Batteries](sem-tech-redox-flow-batteries.md) enables dispatchable power.
 
+## Cost Analysis
+
+**Estimated LCOE for SEM Tech RED** at a river-mouth deployment with average flow of 5,000 m³/h:
+
+| Component | 1 MW Plant Cost | Annual Cost |
+|-----------|----------------|-------------|
+| SEM Tech membranes (500,000 m²) | $500,000 | $100,000 (5-year replacement) |
+| Stack hardware (PVC frames, electrodes) | $200,000 | $20,000 |
+| Seawater/fresh water intake structures | $500,000 | $25,000 |
+| Pumps and piping | $300,000 | $30,000 |
+| Power electronics (DC-AC inverter) | $150,000 | $7,500 |
+| Installation and commissioning | $200,000 | -- |
+| **Total capital** | **$1,850,000** | -- |
+| Annual O&M | -- | $182,500 |
+| Annual electricity (net 7,500,000 kWh) | -- | -- |
+| **LCOE** | -- | **$0.024-0.035/kWh** |
+
+This projected LCOE of $0.024-0.035/kWh is competitive with solar ($0.03-0.06/kWh) and wind ($0.03-0.07/kWh), with the advantage of being continuous baseload power rather than intermittent. The critical assumption is that SEM Tech membranes achieve at least 0.5 W/m² power density in RED configuration — a conservative estimate given conventional RED performance.
+
+
+## Fouling and Pretreatment
+
+Natural river water and seawater contain suspended solids, organic matter, and biological material that accumulate on membrane surfaces and in flow channels. Biofouling is the primary operational challenge for RED, reducing power output by 20-50% over 1-3 months if untreated. Pretreatment requirements for SEM Tech RED stacks include:
+
+**Coarse screening** (1-5 mm bar screens): Removes leaves, debris, fish, and large particles. Essential for all RED installations. Capital cost: $10,000-50,000 for intake structures at 5,000-20,000 m³/h flow rates.
+
+**Sand filtration** (0.5-2.0 mm rapid sand filters): Removes suspended solids to below 5 mg/L TSS. Removes approximately 90-95% of particles above 10 microns. Backwash cycle every 8-24 hours consuming 1-3% of product water. Capital cost: $20,000-100,000.
+
+**Ultrafiltration or microfiltration** (optional, for biofouling control): Removes bacteria (99.9%+), algae, and colloidal particles to below 0.1 mg/L TSS. Required at sites with high biological activity (tropical estuaries, nutrient-rich rivers). Membrane fouling of the pretreatment system itself requires periodic chemical cleaning (NaOCl or NaOH). Capital cost: $50,000-200,000. Energy: 0.1-0.3 kWh/m³ of water treated.
+
+**Chlorination** (optional): Sodium hypochlorite (NaOCl) dosing at 1-3 mg/L residual chlorine prevents biofilm growth in RED channels. Must be compatible with ion exchange membranes — excessive chlorine oxidizes quaternary ammonium groups in AEM. SEM Tech's PVC/CPVC binder is inherently resistant to chlorine, but the functional groups in the anion resin may degrade at free chlorine levels above 5 mg/L. Dechlorination (sodium bisulfite dosing) before the RED stack may be needed.
+
+Pretreatment energy and chemical costs add approximately $0.001-0.005/kWh to the LCOE, representing 3-15% of total operating cost.
+
+
+**Electrodialysis reversal for self-cleaning**: Applying the EDR technique used in conventional ED (polarity reversal every 15-30 minutes) to RED is not directly applicable since RED generates rather than consumes voltage. Instead, periodic forward-flushing with increased flow velocity (10-20 cm/s for 5-10 minutes, 2-4 times per day) dislodges accumulated deposits. This flushing consumes additional pumping energy of approximately 0.5-1.0% of daily generation.
 ## Safety
 
 - **Water handling**: Large-volume seawater and fresh water flows require intake structures with screens to prevent debris and marine organism entrainment. Pump stations need standard mechanical safety guards.
@@ -119,6 +165,8 @@ Blue energy is continuous but fixed in output. Pairing RED with grid storage suc
 - **Biofouling**: Natural water sources carry biological material that fouls membranes and channels. Chlorination or UV pre-treatment may be needed, with appropriate chemical handling precautions.
 - **Electrode solutions**: RED electrode compartments use redox electrolytes (Fe²⁺/Fe³⁺ or similar). These solutions are mildly toxic and require standard chemical handling PPE.
 
+At sites where both SEM Tech RED and SEM Tech [water desalination](../water/sem-tech-water-treatment.md) are deployed, the brine concentrate from ED desalination can serve as the high-salinity feed for RED, effectively using the waste stream from one process as fuel for another. This co-location strategy improves the overall economics of both systems and reduces environmental impact from brine discharge.
+The combined RED-desalination plant concept achieves an effective round-trip efficiency of approximately 25-35% for converting electrical energy (used in ED desalination) back to electrical energy (from RED using the brine), with the net energy loss offset by the freshwater product from the desalination stage.
 ## Limitations
 
 ### Technology Readiness
@@ -135,9 +183,10 @@ Blue energy is continuous but fixed in output. Pairing RED with grid storage suc
 - **Site dependency**: Viable sites require both fresh and salt water in proximity -- limited to coastlines with river discharge.
 - **Seasonal variation**: River flow varies seasonally, affecting power output. Drought conditions reduce or eliminate generation.
 
+
 ### Economic Uncertainty
 
-Even with SEM Tech membranes at less than $1/sq ft, total system cost (intake structures, pumps, stacks, power conversion, installation) must be competitive with other generation. The case is strongest at sites with high salinity gradients and existing infrastructure.
+Even with SEM Tech membranes at less than $1/sq ft, total system cost (intake structures, pumps, stacks, power conversion, installation) must be competitive with other generation. The case is strongest at sites with high salinity gradients and existing infrastructure — particularly at desalination plant outfalls where concentrated brine (60,000-80,000 mg/L TDS) mixes with ambient seawater (35,000 mg/L), yielding power densities of 1.5-3.5 W/m² — 2-5x higher than natural river-sea mixing.
 
 ## See Also
 

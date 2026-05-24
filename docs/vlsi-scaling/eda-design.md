@@ -144,6 +144,91 @@ Making the manufactured IC testable — ensuring defective chips can be identifi
 - **RIE gases**: SF₆ (GWP 23,900× CO₂), CF₄ (GWP 6,630× CO₂), and NF₃ (GWP 17,200× CO₂) are among the most potent greenhouse gases. Point-of-use abatement (thermal or plasma destruct units with >99 % DRE) is mandatory on all RIE exhaust lines. Plasma byproducts include HF and COF₂ — downstream wet scrubbing required.
 - **ALD precursors**: Trimethylaluminum (TMA) is pyrophoric — ignites spontaneously on contact with air. Use in closed, nitrogen-purged delivery systems with leak detection. Tetrakis(dimethylamido)hafnium (TDMAHf) is moisture-sensitive and decomposes to toxic amine vapors. Handle in glove boxes or ventilated enclosures. In case of TMA fire, use Class D (dry powder) extinguisher — never water.
 
+
+
+### Signoff Flow and Tapeout Checklist
+
+Before a design is released to the mask shop ("tapeout"), it must pass a rigorous signoff flow that verifies every electrical, physical, and manufacturing requirement. A single error that escapes signoff costs $5-20M in wasted mask sets and 3-6 months of schedule delay.
+
+**Signoff checklist** (required clean results):
+1. **DRC clean**: Zero design rule violations. Foundry rule decks contain 500-5000 individual rules covering every layer combination.
+2. **LVS clean**: Layout matches schematic exactly — no opens, no shorts, no wrong component values.
+3. **STA clean (multi-corner)**: All setup and hold timing constraints met across all process corners (SS/TT/FF), voltage corners (±10% Vdd), and temperature extremes (-40°C to +125°C). Negative slack = failure.
+4. **Signal integrity clean**: Crosstalk-induced noise and delay deltas within budget on all nets. No victim net exceeds noise threshold.
+5. **Power grid clean**: IR drop <5-10% of Vdd at every point. Electromigration limits met on every wire segment.
+6. **DRC antenna clean**: No antenna rule violations (charge accumulation risk during plasma processing).
+7. **Density rules clean**: Metal and via density within 20-80% range in every checking window across the die.
+8. **DFT coverage**: Stuck-at fault coverage >99%, transition fault coverage >95%, scan chain integrity verified.
+9. **Formal verification clean**: Gate-level netlist equivalent to RTL source (mathematical proof, not simulation).
+10. **GDSII/OASIS final**: Complete geometric database exported and validated (file integrity check, layer count, bounding box verification).
+
+**Tapeout data package**: The deliverable to the mask shop includes: GDSII or OASIS file (10-500 GB per layer), mask order form specifying polarity (dark-field or clear-field), critical dimension specifications, OPC instructions, and inspection criteria. The mask shop reverse-engineers the tapeout data to verify design rule compliance independently before committing $5-20M in mask fabrication.
+
+### Design Rules by Process Node
+
+Design rules define the boundary between manufacturable and non-manufacturable layouts. Each node's rule deck reflects the physical limitations of lithography, etch, CMP, and thin-film processes at that technology generation.
+
+**Representative minimum dimensions by node**:
+| Parameter | 130 nm | 65 nm | 28 nm | 14 nm | 7 nm |
+|-----------|--------|-------|-------|-------|------|
+| Gate length | 65 nm | 35 nm | 25 nm | 20 nm | 14 nm |
+| M1 pitch | 320 nm | 180 nm | 90 nm | 64 nm | 40 nm |
+| M1 width | 160 nm | 90 nm | 45 nm | 32 nm | 20 nm |
+| Via size | 160 nm | 90 nm | 45 nm | 32 nm | 20 nm |
+| Contact pitch | 280 nm | 160 nm | 80 nm | 56 nm | 36 nm |
+| Gate pitch | 360 nm | 220 nm | 120 nm | 80 nm | 54 nm |
+| Fin pitch | N/A | N/A | N/A | 48 nm | 30 nm |
+| Min area (SRAM 6T) | 2.5 μm² | 0.6 μm² | 0.12 μm² | 0.07 μm² | 0.027 μm² |
+| Metal layers | 6-8 | 8-10 | 8-11 | 12-16 | 14-18 |
+| Supply voltage | 1.2V | 1.0V | 0.9V | 0.8V | 0.7V |
+
+**Rule complexity trend**: The number of design rules grows approximately 2× per node. A 130 nm rule deck has ~500 rules; a 7 nm deck has ~5000+ rules. Rules become increasingly context-dependent — a minimum spacing value depends on the adjacent feature type, layer combination, and local density. This combinatorial explosion drives the need for automated, foundry-certified DRC engines.
+
+**Color-aware design rules** (multiple patterning)**: At 14 nm and below, some metal layers require triple patterning (LELELE) or SAQP. The designer must assign "colors" (mask assignments) to each wire segment to ensure that no two adjacent wires share the same mask. This coloring constraint becomes an additional design rule — DRC checks not only geometric spacing but also legal color decomposability. Uncolorable layouts (odd-cycle conflicts where three mutually adjacent features require three masks but only two or three are available) must be fixed by moving wires.
+
+### Yield Modeling and DFM Optimization
+
+Yield is not purely a manufacturing problem — the design itself determines how susceptible a chip is to random and systematic defects. Design-for-manufacturing (DFM) techniques modify the layout to minimize critical area (the region where a randomly placed defect of given size would cause a functional failure).
+
+**Critical area analysis (CAA)**:
+- For a given defect size d, the critical area for shorts is the total area where placing a circular defect of diameter d would bridge two adjacent wires. For opens, it is the area where the defect would completely sever a wire. Critical area depends on wire spacing (closer wires = larger critical area for shorts) and wire width (narrower wires = larger critical area for opens).
+- **Yield prediction**: Y_random = ∏ᵢ(1 - Aᵢ × D), where Aᵢ is the critical area for defect type i and D is the random defect density. CAA tools compute critical area for every layer, every defect size bin (1 nm to 10 μm in logarithmic steps), and every failure mechanism (short, open, via missing).
+- **Wire spreading**: After routing is complete, unused space between wires is redistributed — wider gaps between adjacent wires reduces short-circuit critical area. DFM tools push wires apart where slack exists, typically reducing random defect yield loss by 5-15%.
+
+**Via redundancy**: Every via has a probability of being defective (void in copper fill, misalignment, contamination). A single-via failure opens the net — fatal for the circuit. Where routing space permits, DFM tools add redundant vias (two or more parallel vias) to critical nets. Single-via failure rate: ~10⁻⁸ to 10⁻⁹ per via. For a design with 10⁸ vias and no redundancy: expected via opens = 0.1-1 per chip. With double vias on 80% of connections: expected opens reduced by ~5×. Via redundancy is the single most impactful DFM technique for yield improvement.
+
+**Metal fill and CMP uniformity**: CMP removal rate depends on local pattern density — dense areas polish faster (dishing), sparse areas polish slower (erosion). Density rules (20-80% metal fill in every 100 μm × 100 μm window) ensure uniform removal. DFM tools insert non-functional metal fill shapes (dummy patterns) automatically. Fill shape parameters (size, spacing, orientation) are tuned per foundry process to minimize impact on coupling capacitance and signal integrity.
+
+
+### IP Integration and Reuse
+
+Modern SoC designs integrate 50-200 IP (intellectual property) blocks from multiple sources. No single company designs every component — the economics of chip design demand reuse of proven, pre-verified building blocks.
+
+**IP block types**:
+- **Soft IP**: Delivered as synthesizable HDL (Verilog/VHDL). Configurable parameters (bus width, pipeline depth, cache size). Designers integrate at RTL level, synthesize, place, and route with their own standard cell library. Maximum flexibility but requires full timing closure and physical implementation. Examples: ARM Cortex processor cores (synthesizable), USB controller IP, PCIe controller.
+- **Hard IP**: Delivered as placed-and-routed layout (GDSII) for a specific process node. Fixed physical implementation — cannot be modified. Guarantees timing, area, and power because it is already validated in silicon. Required for analog IP (PLLs, ADCs, DACs, SerDes, memory compilers) where circuit performance depends on exact physical geometry. Hard IP must be ported (re-designed) for each new process node — expensive but necessary.
+- **Memory compilers**: SRAM, ROM, and register file generators that produce hard IP for a specified configuration (e.g., 32 KB single-port SRAM, 2-read-1-write register file). Input: word depth, bit width, port configuration. Output: GDSII layout, timing models (Liberty), SPICE netlists, LEF (Library Exchange Format for physical design). SRAM bit cell at 7 nm: ~0.027 μm² (6-transistor cell). A 1 MB SRAM array occupies ~0.3-0.5 mm².
+
+**IP quality assurance**: Each IP block must be independently verified before integration. IP quality checklist: silicon-proven (taped out and tested on real silicon), DRC/LVS clean against the target foundry rule deck, timing models accurate to ±5% against SPICE, test coverage >95% for manufacturing test vectors, documentation complete (integration guide, pin list, register map, timing diagrams). IP integration errors (misconnected buses, clock domain crossing faults, reset sequencing mismatches) are among the most common first-silicon failure causes — responsible for ~30-40% of respins in complex SoCs.
+
+**Physical design integration challenges**:
+- **Floorplan convergence**: IP blocks have fixed aspect ratios and pin locations. The floorplan must accommodate 20-50 hard IP blocks plus standard cell logic, with routable channels between them. Congestion (more wires than routing tracks in a given area) causes DRC violations or requires increased metal layer count. Floorplan iterations between logic and physical design teams are common — 5-15 major floorplan revisions before tapeout.
+- **Signal integrity at IP boundaries**: Signals crossing between IP blocks traverse longer wires with more coupling capacitance. Boundary signals need explicit timing budgets and noise analysis. IP-level SI assumptions may not hold at full-chip integration scale.
+- **Power delivery to IP blocks**: Each IP block draws a known current profile. The full-chip power grid must deliver adequate current to every block simultaneously under worst-case switching conditions. IR drop analysis at IP boundaries often reveals undersized power straps, requiring floorplan iteration to widen power bus widths.
+
+### Reliability Analysis and Signoff
+
+Semiconductor devices degrade over time under electrical and thermal stress. Reliability analysis ensures that a chip meets its specified lifetime (typically 10 years for consumer, 15-20 years for automotive/industrial) under operating conditions.
+
+**Time-dependent dielectric breakdown (TDDB)**: Gate oxide degrades under constant electric field stress — trap generation in the oxide gradually creates a conductive path. Failure rate follows an exponential voltage acceleration: MTTF ∝ exp(-γ × E_ox), where γ is the voltage acceleration factor (~1-2 decades/V for HfO₂) and E_ox is the oxide electric field. Design rule: maximum gate oxide voltage derated to ensure <10 FIT (failures per billion device-hours) at 10-year lifetime. TDDB is the primary reliability limiter for thin gate dielectrics — each 0.1 V increase in operating voltage roughly doubles the failure rate.
+
+**Electromigration (EM)**: Current flowing through copper interconnects causes atomic migration, progressively thinning the wire until an open circuit forms. Black's equation: MTTF = A × J^(-n) × exp(Ea/kT), where J is current density, n ≈ 1-2, and Ea ≈ 0.7-1.0 eV for copper. Design rules specify maximum allowed RMS and peak current density per wire width and temperature. EM signoff checks every wire segment in the design — billion-net designs require distributed parallel analysis. Typical EM rule: <1 mA/μm² average current density for copper at 105°C for 10-year lifetime.
+
+**Hot carrier injection (HCI)**: High electric fields near the transistor drain accelerate carriers to energies sufficient to inject into the gate oxide, causing threshold voltage shift and transconductance degradation over time. HCI lifetime ∝ exp(Vgs/γ_hci), where γ_hci ≈ 0.1-0.3 V/decade. Worse at higher Vdd and lower temperature (counterintuitively — lower temperature means carriers retain more energy). Mitigated by LDD (lightly-doped drain) structures and operating voltage reduction. HCI analysis runs SPICE simulations of worst-case input transitions and computes accumulated degradation over the specified lifetime.
+
+**Negative bias temperature instability (NBTI)**: PMOS transistors under negative gate bias at elevated temperature develop interface traps, causing Vth to increase (shift positive) over time. NBTI is the dominant reliability concern for PMOS at 65 nm and below. Recovery effect: removing the stress partially reverses the Vth shift, making measurement methodology critical. Design impact: NBTI-induced Vth shift reduces timing margin over product lifetime — STA signoff must include NBTI derating (e.g., add 5-10% to path delays at end-of-life).
+
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*

@@ -147,6 +147,67 @@ Pigeons are docile and easily hand-tamed. Catch by reaching over the back and gr
 
 **Predation**:
 Pigeons on free flight are vulnerable to hawks, falcons, and cats. Loft-kept birds are safe if the structure is predator-proof. The main predator threat is rats and weasels entering through small openings — mesh all ventilation openings with 1 cm wire mesh. Secure all doors and access panels at night.
+The combination of self-foraging behavior (reducing daily feeding labor to zero for free-flight lofts), premium fertilizer production (4-5% nitrogen guano), and gourmet meat (squab at 350-500 g per bird) makes pigeons uniquely suited to resource-constrained environments where labor is scarce and feed costs must be minimized. A free-flight pigeon loft is the only livestock system where the animals harvest 100% of their own feed while producing multiple valuable products — a true minimum-intervention, maximum-output production system.
+
+### Historical Development
+
+Rock doves (*Columba livia*) were domesticated in the Mediterranean region over 5,000 years ago, making pigeons one of the earliest domesticated bird species. Archaeological evidence from Mesopotamia (circa 3000 BCE) shows pigeon keeping in dovecotes.
+
+Ancient Egyptians kept pigeons in large tower dovecotes (pigeon towers) capable of housing 500-1,000 breeding pairs, harvesting squab for meat and guano for fertilizer. Egyptian hieroglyphic records from the 5th dynasty (2500 BCE) reference pigeon keeping as an established agricultural practice.
+
+The Romans intensively farmed pigeons for both meat and guano, constructing elaborate brick dovecotes (columbaria) with 1,000-2,000 nesting niches. Roman agricultural writer Varro (116-27 BCE) described commercial pigeon farming in detail, noting that a well-managed columbarium produced more profit per unit area than any other form of agriculture.
+
+Throughout the medieval period (500-1500 CE), pigeon keeping was a privilege of the nobility in Europe. A medieval dovecote housing 500 pairs produced 4,000-7,000 squab per year (approximately 1,400-2,450 kg of meat) plus 5,000-7,500 kg of guano valued as fertilizer — a significant economic asset.
+
+The invention of the telegraph (1830s) and later the telephone (1870s) gradually replaced pigeons for communication, but homing pigeons remained militarily important through both World Wars. During World War I, a homing pigeon named Cher Ami delivered a message that saved 194 soldiers, despite being shot through the breast and leg.
+
+Organized pigeon racing emerged in Belgium in the early 1800s and became a major sport. Modern racing pigeons sell for $100-10,000 for proven breeders, with the record price exceeding $400,000 for a champion racer sold in China in 2020.
+
+### Processing and Products
+
+**Squab processing**: Squab are harvested at 26-30 days (before fledging) at 350-550 g dressed weight. Process by cervical dislocation or knife, pluck (few feathers at this age — mostly pin feathers that pull easily), eviscerate. Dressed yield: 65-70% of live weight.
+
+Squab meat is dark, tender, and rich with a delicate gamey flavor. A single squab serves one person as a main course. Cook by roasting at 200°C for 20-25 minutes, braising in stock for 45-60 minutes, or grilling over medium heat for 12-15 minutes per side.
+
+**Guano processing and handling**: Pigeon guano must be aged or composted before use — fresh guano at 4-5% nitrogen will burn plant roots on contact. Compost with 3 parts carbon-rich material (straw, leaves, sawdust) to 1 part guano by volume for 8-12 weeks.
+
+Air-dry fresh guano by spreading in thin layers (2-3 cm) on tarps in full sun for 2-3 weeks, turning daily. Dried guano stores indefinitely in sealed containers at moisture content below 15%.
+
+For liquid fertilizer application, steep 500 g dried guano in 10 L water for 24-48 hours, strain, and dilute the resulting tea 1:10 with water before applying to crops. This provides a fast-acting nitrogen boost (approximately 0.2-0.25% N in the diluted solution).
+
+**Feather uses**: Pigeon feathers are soft and downy, suitable for pillow stuffing and insulation. A single pigeon yields 15-25 g of mixed feathers. Pigeon primary flight feathers were historically used as quill pens for fine writing before being superseded by goose quills.
+
+### Record Keeping
+
+**Pair production tracking**: Record squab produced per pair per year. Target: 10-14 squab pairs per year for King pigeons, 8-10 for Mondains. A pair producing fewer than 6 squab in 6 months should be evaluated for replacement.
+
+Track days between clutches for each pair. Target: a new clutch every 5-6 weeks. Pairs taking longer than 8 weeks between clutches may have health or compatibility issues requiring intervention.
+
+**Squab weight records**: Weigh a sample of 10-15 squab at harvest each month. Target dressed weight: 400-550 g for Kings, 350-450 g for Carneaux. A declining trend of more than 10% over 2 months indicates nutritional or health problems.
+
+**Guano production**: Track guano collection volume weekly. A flock of 50 breeding pairs should produce approximately 500-750 kg of guano per year (10-15 kg per pair). Declining guano production often indicates inadequate nutrition before it shows in squab production.
+
+**Feed consumption**: Track total grain consumption per week against squab output. Target: approximately 3-4 kg of adult feed produces 1 kg of squab live weight. Feed costs should represent 60-70% of total production costs.
+
+**Health records**: Record all mortality with date, age, and symptoms. Target annual mortality: under 10% for adult breeders. Investigate any month with mortality exceeding 2% of the flock — paramyxovirus and canker are the most common causes of elevated losses.
+
+### Regional Adaptations
+
+**Mediterranean and arid climates**: Pigeons thrive in hot, dry conditions (35-45°C) with minimal water. In the Middle East and North Africa, traditional dovecotes (burj al-hamam) house 500-2,000 pairs with zero supplemental feed — birds forage entirely on wild seeds and agricultural waste within a 5 km radius.
+
+Mediterranean dovecotes are typically stone towers 5-10 m tall with 500-2,000 nesting niches lining the interior walls. Ventilation is provided by openings near the top. The stone construction provides thermal mass that moderates temperature fluctuations of 15-20°C between day and night.
+
+**Temperate and cold climates**: Pigeons tolerate cold well (surviving to -20°C in insulated lofts) but need protection from wind and moisture. In northern Europe and Canada, lofts must be insulated (R-10 to R-15 walls) and heated to maintain temperatures above 0°C in winter.
+
+Shorter winter daylight (under 10 hours) reduces or halts breeding in temperate zones. Provide 14-16 hours of artificial light (using 40-60 watt bulb per 10 m² of loft floor) to maintain year-round squab production if desired, increasing annual output by 30-40%.
+
+**Urban and settlement integration**: Pigeons are uniquely suited to urban environments — they nest on building ledges, forage on waste grain and food scraps, and require minimal land area. A rooftop loft measuring 4 × 3 m can house 30-50 breeding pairs producing 240-700 squab per year in a space that no other livestock could utilize.
+
+### Production Metrics
+
+**Squab production**: A productive King pigeon pair produces 10-14 squab per year (5-7 clutches × 2 squab). Each squab reaches 450-550 g dressed weight at 26-30 days — annual meat per pair: 4.5-7.7 kg dressed. A loft of 20 pairs produces 200-280 squab per year (90-154 kg dressed meat) while consuming 584 kg of grain ($234-350). At $8-15/kg, annual squab revenue: $720-2,310. Net margin: $282-1,875 per loft — one of the highest revenue-per-square-meter ratios of any livestock enterprise.
+
+**Guano production**: One pair produces 10-15 kg of guano per year at 4-5% nitrogen. A 20-pair loft generates 200-300 kg annually — equivalent to 8-15 kg elemental nitrogen (comparable to 40-75 kg of ammonium sulfate, $15-50 value). Composted with 3× carbonaceous material, this produces 600-800 kg of finished compost fertilizing 200-600 m² of intensive vegetable beds per year. Historical note: pigeon guano was the primary source of saltpeter (potassium nitrate) for gunpowder — leached from guano at 2-5 kg per 100 kg of raw droppings.
 
 ---
 

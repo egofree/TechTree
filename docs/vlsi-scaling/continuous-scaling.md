@@ -93,5 +93,118 @@ Continuous scaling does not introduce fundamentally new hazard categories beyond
 - [Advanced Processes](advanced-processes.md) — CMP slurry, copper contamination, ion implantation and RIE gas hazards.
 - [Core Fab Processes](../photolithography/fab-processes.md) — HF acid, furnace temperatures, forming gas.
 
+
+### Moore's Law and Transistor Density
+
+Gordon Moore's 1965 observation (refined in 1975) that transistor count per chip doubles approximately every 2 years has driven the semiconductor industry for 60 years. The trend holds remarkably well across thousands of process generations, though the mechanisms have shifted from pure dimensional scaling to architectural innovation.
+
+**Transistor count milestones**:
+| Year | Chip | Transistors | Node | Die Area |
+|------|------|-------------|------|----------|
+| 1971 | Intel 4004 | 2,300 | 10 μm | 12 mm² |
+| 1974 | Intel 8080 | 4,500 | 6 μm | 20 mm² |
+| 1978 | Intel 8086 | 29,000 | 3 μm | 33 mm² |
+| 1982 | Intel 80286 | 134,000 | 1.5 μm | 49 mm² |
+| 1985 | Intel 80386 | 275,000 | 1.5 μm | 104 mm² |
+| 1989 | Intel 80486 | 1.2M | 1.0 μm | 173 mm² |
+| 1993 | Pentium | 3.1M | 0.8 μm | 294 mm² |
+| 1997 | Pentium II | 7.5M | 0.35 μm | 195 mm² |
+| 1999 | Pentium III | 24M | 0.25 μm | 106-128 mm² |
+| 2002 | Pentium 4 Northwood | 55M | 0.13 μm | 146 mm² |
+| 2006 | Core 2 Duo | 291M | 65 nm | 143 mm² |
+| 2008 | Core i7 (Nehalem) | 731M | 45 nm | 263 mm² |
+| 2012 | Xeon E5 (Sandy Bridge-EP) | 2.27B | 32 nm | 435 mm² |
+| 2014 | A8 (Apple) | 2.0B | 20 nm | 89 mm² |
+| 2017 | E5-2699 v4 (Broadwell) | 7.2B | 14 nm | 456 mm² |
+| 2019 | AMD Epyc Rome | 39.5B (with chiplets) | 7 nm | ~800 mm² |
+| 2022 | Apple M1 Ultra | 114B | 5 nm | ~840 mm² |
+
+**Transistor density progression** (MTr/mm² — million transistors per square millimeter):
+- 130 nm: ~1.5 MTr/mm²
+- 65 nm: ~5 MTr/mm²
+- 28 nm: ~15 MTr/mm²
+- 14 nm: ~30-45 MTr/mm²
+- 7 nm: ~90-100 MTr/mm²
+- 5 nm: ~170 MTr/mm²
+- 3 nm: ~280-300 MTr/mm²
+
+Each node nominally shrinks gate pitch by 0.7× (half the area per transistor) and metal pitch by 0.7-0.8×. The move from planar transistors to FinFETs at 22 nm interrupted pure 2D scaling — fins add a third dimension for gate control, effectively increasing drive current per footprint without shrinking the gate length proportionally.
+
+### Dennard Scaling and Its Breakdown
+
+Robert Dennard's 1974 paper established that shrinking MOSFET dimensions by a factor κ while scaling voltage by the same κ yields transistors that are κ² times smaller, κ times faster, and consume the same power density. This "constant-field scaling" held from the 1970s until approximately 2006.
+
+**Dennard scaling rules** (shrink by factor κ):
+- Channel length: L → L/κ
+- Oxide thickness: tox → tox/κ
+- Supply voltage: Vdd → Vdd/κ
+- Dopant concentration: N → N × κ
+- Gate delay: τ → τ/κ (faster)
+- Power density: P/A → P/A (constant)
+
+**Breakdown causes** (why Dennard scaling ended):
+- **Gate leakage**: At oxide thickness below ~1.2 nm SiO₂ (~5 atomic layers), quantum tunneling current through the gate dielectric increases by ~10× for every 0.2 nm of thinning. At 90 nm node (~1.2 nm SiO₂), gate leakage reached ~100 A/cm². Voltage could no longer scale down proportionally because the oxide was already at the tunneling limit.
+- **Subthreshold leakage**: Threshold voltage Vth must scale with Vdd to maintain drive current. But subthreshold swing (minimum ~60 mV/decade at room temperature) means reducing Vth exponentially increases off-state leakage current (Ioff ∝ 10^(-Vth/S), where S ≈ 60-100 mV/decade). Below ~0.7V Vth, leakage becomes unacceptable. Since Vdd must stay above Vth by ~3-5× for noise margin, Vdd bottomed out around 0.8-1.0V and has remained there since the 90 nm node.
+- **Power wall consequence**: With voltage no longer scaling but transistor density still doubling, power density increased from ~30 W/cm² at 130 nm to 100+ W/cm² at 28 nm. Modern high-performance CPUs reach 150-300 W/cm² — comparable to the heat flux on a nuclear reactor fuel rod. This drives the shift to multi-core processors ("dark silicon": only a fraction of transistors can be simultaneously active within the thermal budget) and domain-specific accelerators.
+
+### FinFET and Gate-All-Around Architectures
+
+Planar MOSFETs lose gate control over the channel below ~20-25 nm gate length — the drain electric field penetrates underneath the gate, causing drain-induced barrier lowering (DIBL) and severe short-channel effects. 3D transistor geometries restore gate control by wrapping the gate electrode around multiple sides of the channel.
+
+**FinFET (22 nm through 5 nm)**:
+- The channel is a thin vertical silicon fin (~6-12 nm wide, 30-60 nm tall) rising from the substrate. The gate wraps around three sides of the fin (two sidewalls + top). Gate capacitance per unit width increases 2-3× over planar at the same footprint, improving drive current and subthreshold slope simultaneously.
+- **Critical dimensions**: Fin width 6-8 nm (at 5 nm node), fin pitch 25-34 nm, gate pitch 40-50 nm. Fin height determines drive current per fin — multiple fins per transistor for higher current (e.g., 2-4 fins for standard cells).
+- **Self-aligned double patterning (SADP)**: Fin patterning below 40 nm pitch exceeds 193 nm immersion resolution. SADP creates a mandrel pattern at 2× pitch, deposits sidewall spacers, removes the mandrel, and transfers the spacer pattern to fins — effectively halving the pitch without EUV.
+- **Performance**: 37% speed improvement or 50% power reduction vs. planar at 22 nm (Intel data). Subthreshold slope improved from ~100 mV/decade (planar) to ~65-70 mV/decade (FinFET).
+
+**Gate-All-Around (GAA) nanosheets (3 nm and below)**:
+- The channel consists of horizontal nanosheet or nanowire elements stacked vertically (3-5 sheets per transistor, each ~5-8 nm thick, ~15-30 nm wide). The gate wraps fully around all four sides of each sheet — superior electrostatic control compared to the three-sided FinFET.
+- **Fabrication**: Start with alternating Si/SiGe epitaxial layers. Pattern vertical pillars, then selectively etch the SiGe layers to release the Si nanosheets. Deposit gate dielectric (high-κ) and metal gate around the suspended sheets. The selective SiGe removal requires extreme etch selectivity (>100:1 SiGe:Si) and precise endpoint control.
+- **Samsung MBCFET** (3 nm): Replaces FinFET with GAA nanosheets. Claims 30% power reduction, 23% performance improvement, and 16% area reduction vs. 5 nm FinFET at the same node.
+- **Effective channel width per footprint**: GAA nanosheets can achieve 3-4× the effective width of a single FinFET fin, enabling higher drive current in a smaller footprint. This is the key scaling advantage — voltage and gate length are near their practical limits, so architecture provides the density gains.
+
+### Process Node Cost Scaling
+
+Each technology node requires exponentially more capital investment per wafer, driven by equipment complexity, multiple patterning, and yield challenges.
+
+**Wafer cost by node** (approximate 300 mm wafer, logic):
+| Node | Mask Count | Mask Set Cost | Wafer Cost | Transistor Cost (relative) |
+|------|-----------|---------------|------------|---------------------------|
+| 130 nm | 20-25 | $0.3-0.5M | $1,500-2,500 | 1× (baseline) |
+| 90 nm | 25-30 | $0.5-1M | $2,500-4,000 | 0.5× |
+| 65 nm | 30-35 | $1-2M | $4,000-6,000 | 0.3× |
+| 45/40 nm | 32-38 | $1.5-3M | $5,000-7,000 | 0.2× |
+| 28 nm | 35-40 | $2-4M | $6,000-8,000 | 0.12× |
+| 14 nm | 45-55 | $4-8M | $8,000-12,000 | 0.06× |
+| 7 nm | 55-65 | $8-15M | $10,000-15,000 | 0.03× |
+| 5 nm | 60-75 | $15-25M | $13,000-18,000 | 0.02× |
+| 3 nm | 70-85 | $20-40M | $18,000-25,000 | 0.015× |
+
+**Fab capital cost**: A 100,000 wafer/month 28 nm fab costs ~$5-8 billion. A similar-capacity 3 nm fab costs $20-30 billion (TSMC Fab 18, Arizona). The equipment alone (lithography scanners, deposition tools, etch chambers, CMP tools, metrology systems) accounts for 70-80% of fab capital. Lithography scanners alone represent 30-40% of total equipment cost at advanced nodes.
+
+**Cost per good die**: Die cost = (wafer cost) / (dies per wafer × yield). A 100 mm² die on 5 nm at 80% yield: wafer cost ~$15,000, ~650 dies per 300 mm wafer, ~520 good dies → $29/die. The same die on 28 nm at 90% yield with $7,000 wafer cost yields ~580 good dies → $12/die. Advanced nodes only make economic sense when the performance or density advantage commands a premium price.
+
+### Yield and Defect Density
+
+Yield — the fraction of manufactured chips that function correctly — is the dominant economic variable in semiconductor manufacturing. A 1% yield improvement at an advanced node can be worth hundreds of millions of dollars per year.
+
+**Yield models**:
+- **Poisson model**: Y = e^(-D₀×A), where D₀ is defect density (defects/cm²) and A is die area (cm²). Simple but optimistic for large dies. For D₀ = 0.1 defects/cm² and A = 1 cm² (100 mm² die): Y = e^(-0.1) ≈ 90.5%.
+- **Negative binomial model**: Y = (1 + D₀×A/α)^(-α), where α is a clustering parameter (typically 2-5). More realistic for clustered defects. For α = 2: Y = (1 + 0.1×1/2)^(-2) = (1.05)^(-2) ≈ 90.7% — close to Poisson at low D₀×A, but diverges for larger products.
+- **Murphy's model**: Y = [(1-e^(-D₀×A))/(D₀×A)]² — an intermediate model between Poisson and Seeds models.
+
+**Defect density targets by maturity**:
+| Phase | D₀ (defects/cm²) | Expected Yield (100 mm² die) |
+|-------|------------------|------------------------------|
+| Early production | 1.0-5.0 | 37-90% |
+| Volume ramp | 0.1-0.5 | 90-95% |
+| Mature | 0.01-0.05 | 95-99% |
+| Best-in-class | <0.01 | >99% |
+
+Each masking layer adds independently to defect density: D₀_total = N_layers × D₀_layer. A 14 nm process with 50 masking layers and D₀_layer = 0.002 defects/cm² gives D₀_total = 0.1 defects/cm². Yield for a 200 mm² die: Y = e^(-0.1×2) ≈ 82%. This is why reducing layer count and improving per-layer defect density are both critical yield levers.
+
+**Systematic vs. random defects**: Random defects (particles, contamination) follow statistical models. Systematic defects (lithography hotspots, CMP dishing patterns, design-dependent failures) are reproducible and must be eliminated through design rule refinement and process optimization. At advanced nodes, systematic defects can account for 30-50% of yield loss in early production. Design-for-manufacturing (DFM) rules and lithography hotspot checks (see [EDA Design](eda-design.md)) target systematic yield limiters specifically.
+
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*

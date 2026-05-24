@@ -181,6 +181,21 @@ The American bison holds deep cultural and ecological significance. Bison were t
 - **Escape planning**: every handling area must have a designated safe zone (climb-over gate, elevated platform, or vehicle access). Practice emergency procedures before working bison.
 - **Response to charge**: if charged, do not run (bison are faster). Move laterally to get behind a solid barrier. If no barrier exists, lie flat — bison may lose interest or step over rather than trample. This is a last resort.
 
+
+### Processing and Products
+
+Bison carcasses require specialized handling due to the animal's size and the lean nature of the meat. A 400 kg live bison yields a 230-240 kg dressed carcass that must be aged at 0-2°C for 10-14 days for optimal tenderness (shorter than beef's 21-28 days due to lower fat content). Bison hide thickness (8-12 mm on the back) requires industrial-grade tanning equipment or extended liming (7-10 days vs 3-5 days for cattle) in traditional bark-tanning processes using 10-15% oak or chestnut tannin solution. Bison horn sheaths (30-60 cm length, 150-300 g each) are worked by soaking in boiling water at 100°C for 15-20 minutes to soften the keratin for pressing into spoons, cups, or powder flasks; each horn yields 2-4 finished items. Rendered bison tallow from kidney fat yields approximately 2-4 kg per adult animal with a melting point of 42-45°C — suitable for soap making (saponification value 195-200 mg KOH/g), candle production, and waterproofing leather.
+
+### Regional Adaptations
+
+Bison thrive across a wide range of North American ecosystems, from the shortgrass prairies of the Great Plains to the subtropical grasslands of the Southeast. In the northern Great Plains, bison withstand winter temperatures to -40°C using their massive heads as snowplows to access forage beneath 30-60 cm of snow crust. Their metabolic efficiency in cold conditions exceeds that of cattle by 15-20%, requiring 25-30% less feed per unit of body weight during winter months. In southern climates (Oklahoma, Texas, Georgia), bison adjust readily to heat but benefit from shade access above 32°C; shade reduces heat-stress-related feed intake reduction from 25% to under 10%. Bison stocked at 2-4 hectares per cow-calf pair on native tallgrass prairie in Kansas maintain body condition scores of 5-7 on a 9-point scale year-round without supplemental feed. On semi-arid shortgrass prairie in eastern Colorado (annual precipitation 30-40 cm), stocking rates drop to 6-10 hectares per pair, but bison still outperform cattle by 20-30% in calf-weaning weights per hectare due to their broader diet selection and lower water requirements (25-35 L/day vs 40-60 L/day for cattle in the same conditions).
+
+### Historical Development
+
+Bison have never been fully domesticated in the manner of cattle — they remain managed wildlife. The first sustained bison ranching efforts began in the 1880s with fewer than 1,000 surviving animals. The American Bison Society (founded 1905) coordinated early conservation herds. Commercial bison meat production expanded from under 10,000 animals processed annually in 1980 to over 60,000 by 2020, with mature bull carcasses averaging 350-400 kg dressed weight. The USDA reports bison meat retail prices averaging $18-25 per kg in 2023, roughly 3-4 times the price of commodity beef. The total North American bison population now exceeds 500,000 across private ranches (approximately 400,000) and public conservation herds (approximately 100,000). For bootstrapping purposes, bison herds can be established from captured wild stock using drive corrals — the initial capture requires 5-8 km of temporary fencing funneling into a 0.5-hectare holding pen with 2.0 m steel pipe construction.
+
+Annual revenue per bison cow: approximately $800-1,200 from a 350-400 kg calf sold at 18-20 months, with minimal input costs (no grain, no shelter, veterinary costs under $50 per animal per year). Compare to beef cattle at $600-900 revenue per cow per year with 30-50% higher input costs. The 2.0 m fencing infrastructure costs $8-15 per linear meter for steel post and woven wire construction — a 100-hectare perimeter (approximately 4 km of fence) requires $32,000-60,000 in fencing investment amortized over 20-30 years.
+
 ---
 
 [← Back to Animals](index.md)

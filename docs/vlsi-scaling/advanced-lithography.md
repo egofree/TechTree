@@ -104,5 +104,111 @@ Lithography is typically the throughput bottleneck and cost driver of a semicond
 - **DUV radiation (248 nm, 193 nm)**: Deep UV causes severe corneal burns (photokeratitis) and skin erythema at doses far below visible-light thresholds. Enclose all beam paths with interlocked covers — the beam must terminate if any enclosure panel is opened. Wear DUV-rated safety glasses (OD 6+ at 193-248 nm) during alignment or maintenance. Check interlock function weekly.
 - **High-voltage laser discharge (15-30 kV)**: Excimer laser discharge circuits store lethal energy in capacitor banks. Interlock the laser power supply so capacitors discharge through a bleeder resistor when panels are opened. Wait ≥5 × the RC time constant before servicing. Post "DANGER — HIGH VOLTAGE" signage. Only trained, authorized personnel may service laser power supplies.
 
+
+
+### EUV Source Technology
+
+The EUV light source is the single most complex subsystem in an EUV lithography scanner. Generating 13.5 nm photons at industrial scale required solving problems across plasma physics, high-power lasers, vacuum engineering, and optical collection.
+
+**Tin (Sn) plasma source**:
+- A high-power CO₂ laser (10-30 kW CW equivalent) fires pulses at tin droplets falling at 50-80 kHz repetition rate (one droplet every 12.5-20 μs). Each droplet is ~25-30 μm in diameter. The laser pre-pulse flattens the droplet into a disc, then the main pulse (~100 ns, ~0.5-1 J per pulse) vaporizes and ionizes the tin, creating a ~30-50 eV plasma that emits strongly at 13.5 nm wavelength.
+- Sn debris mitigation: Ionized tin condenses on nearby optics, destroying their reflectivity. A hydrogen gas flow (200-500 sccm) across the plasma region chemically reacts with tin deposits (Sn + H₂ → SnH₄, stannane gas, though in practice Sn is removed as volatile hydrides or particulates). Debris shields and magnetic fields deflect charged Sn ions. Collector mirror lifetime: 3-6 months with active mitigation, vs. hours without.
+- **Power progression**: Pre-production EUV sources (2010-2015): 10-30 W. First production (2016-2018): 80-125 W. Current production (2022+): 250-500 W at intermediate focus (IF). Target: 1000 W for high-throughput manufacturing. Each watt of EUV power at the wafer requires ~100-200 W of CO₂ laser input — the overall wall-plug efficiency of EUV generation is ~0.01-0.02%.
+
+**CO₂ laser system**:
+- Main amplifier: Radio-frequency-pumped CO₂ gas laser operating at 10.6 μm wavelength. Multi-stage system: seed laser → pre-amplifier → power amplifier chain. Output: 10-30 kW peak power in ~100 ns pulses at 50-80 kHz. Gas mix: CO₂:N₂:He at ~50-100 mbar total pressure. RF excitation at 50-100 MHz.
+- Beam transport: Gold-coated copper mirrors guide the 10.6 μm beam from the laser cabinet through the scanner structure to the Sn droplet target. Mirror cooling (water channels behind the reflecting surface) manages thermal distortion at multi-kilowatt beam power. Alignment tolerance: <0.1 mrad.
+
+**Collector optics**:
+- The first optical element after the plasma is a multilayer Mo/Si collector mirror (similar technology to the projection optics mirrors, but larger — ~600 mm diameter). This normal-incidence collector captures ~2π steradians of the isotropic EUV emission and directs it toward the intermediate focus (IF) point.
+- Collector reflectivity: ~65-70% per surface. Only ~1-2% of total Sn plasma EUV emission reaches the IF due to the limited solid angle of collection and single-reflection losses.
+
+### Multiple Patterning Techniques
+
+When single-exposure 193 nm immersion lithography reaches its resolution limit (~38 nm half-pitch with NA = 1.35), multiple patterning extends the technology to smaller features by decomposing a single design layer into two or more mask exposures.
+
+**Litho-Etch-Litho-Etch (LELE) — double patterning**:
+- The target pattern is split into two masks, each containing alternating features at 2× the minimum pitch. Each mask is exposed and etched separately. The combined result achieves the original fine pitch.
+- Example: For a 32 nm half-pitch metal layer, Mask A contains features at 64 nm pitch (positions 0, 2, 4, ...) and Mask B contains features at 64 nm pitch offset by 32 nm (positions 1, 3, 5, ...). Two full litho-etch cycles required. Overlay accuracy between the two exposures must be <3 nm (3σ) to avoid edge placement errors that cause shorts or opens.
+- **Cost**: Doubles the number of litho-etch steps for the patterned layer. Each additional mask adds ~$50,000-200,000 to the mask set cost and one full litho-etch cycle to wafer processing time. At 20 nm / 14 nm nodes, critical layers (metal 1, contact, gate) use double patterning.
+
+**Self-Aligned Double Patterning (SADP)**:
+- A single lithography pattern (at 2× pitch) defines "mandrel" features. A conformal film (typically SiN or SiO₂) is deposited over the mandrels by CVD. An anisotropic etch removes the film from horizontal surfaces, leaving "spacers" on the mandrel sidewalls. The mandrel is removed, leaving spacer patterns at 1× pitch — precisely half the original pitch.
+- Advantage: Pattern placement is determined by spacer thickness (controlled by CVD deposition time to ±1 nm accuracy), not by a second lithography exposure overlay. No overlay error from the second pattern.
+- Limitation: Pattern flexibility is constrained — spacers form closed loops around mandrel features. Cutting (removing unwanted spacer segments) requires an additional lithography step. Used extensively for fin patterning in FinFET processes (14 nm and below).
+
+**Self-Aligned Quadruple Patterning (SAQP)**:
+- Applies SADP twice: first mandrel → first spacer → second mandrel (using first spacers) → second spacer. Each halving of pitch reduces it by 2×, so two rounds give 4× pitch division. A 76 nm pitch mandrel produces 19 nm pitch final features.
+- Used for gate and fin patterning at 10 nm and 7 nm nodes. Critical dimension (CD) control: spacer thickness uniformity ±0.5 nm translates to ±0.5 nm CD variation in the final pattern — excellent for dense regular arrays but challenging for cut mask alignment.
+
+**Triple and quad litho-etch (LE³, LE⁴)**:
+- Extends LELE to three or four mask exposures for the same layer. Each additional exposure adds overlay error and defect risk. Used at 10 nm and 7 nm nodes for contact/via layers where SADP/SAQP geometry constraints don't apply.
+- Overlay budget: At 7 nm, the total edge placement error (EPE) budget is ~5-7 nm, allocated across lithography overlay (±2-3 nm), CD variation (±1-2 nm), and etch bias (±1 nm). Each additional patterning step consumes overlay budget, leaving less margin for other sources.
+
+### Mask Making and Inspection
+
+Photomasks (reticles) are the master patterns from which every wafer is printed. A single mask defect prints on every die on every wafer — mask quality directly determines yield.
+
+**Mask blank fabrication**:
+- Substrate: Fused silica (SiO₂) plate, 152 mm × 152 mm × 6.35 mm (6" standard), polished to surface roughness <0.5 nm RMS and flatness <50 nm over the 104 mm × 132 mm quality area. Thermal expansion coefficient: 0.5×10⁻⁶/°C — tight temperature control (±0.01°C) during exposure prevents pattern distortion.
+- Absorber: 50-80 nm chromium or chromium-based alloy sputtered onto the quartz. For EUV masks, the absorber is 50-70 nm tantalum nitride (TaN) or tantalum boron nitride (TaBN) on top of the multilayer mirror stack.
+- EUV mask stack: Quartz substrate → 40-50 bilayer pairs of Mo (2.8 nm) / Si (4.1 nm) → Ru capping layer (2-3 nm) → TaN absorber (50-70 nm). Each Mo/Si bilayer has ~3.4 nm period, tuned to constructively reflect 13.5 nm light. Total multilayer deposition: ~300-400 nm, deposited by DC magnetron sputtering with ±0.01 nm layer thickness control.
+
+**Electron beam mask writing**:
+- A focused electron beam (50-100 keV, 1-50 nA beam current) writes the circuit pattern into resist on the mask blank. Beam spot size: 2-10 nm. Writing time: 10-40 hours per mask (full area, high-resolution). Variable-shaped beam (VSB) systems expose rectangular and triangular shapes in single flashes (10-100 ns per flash), dramatically faster than Gaussian round-beam systems for Manhattan geometries.
+- **Mask defect density target**: <0.01 defects/cm² at feature size (approximately 1 defect per mask). Achieved through cleanroom mask processing (Class 1 or better), ultra-pure chemicals, and careful handling.
+
+**Mask inspection**:
+- **Die-to-database**: Compare measured mask image (from a scanning electron beam or 193 nm optical inspection tool) against the design database. Detects all deviations including CD errors, edge placement errors, and foreign material. Inspection time: 4-12 hours per mask. Sensitivity: detects defects down to ~30-50 nm on the mask (which print as ~8-12 nm on wafer with 4:1 reduction).
+- **Die-to-die**: Compare two identical patterns on the same mask. Detects random defects but not systematic errors (since both patterns have the same systematic bias). Faster than die-to-database.
+- **Mask repair**: Focused ion beam (FIB) removes excess material (clear defects) by sputtering with Ga⁺ ions. Electron-beam-induced deposition adds missing material (opaque defects) by decomposing organometallic precursor gas. Repair accuracy: ±5-10 nm. Not all defects are repairable — critical dimension errors on dense patterns often require mask replacement.
+
+### Overlay and Edge Placement Error
+
+Overlay — the accuracy with which each patterned layer aligns to previously patterned layers — is a fundamental scaling limiter. As feature sizes shrink below 20 nm, overlay must improve proportionally, requiring metrology and correction capabilities at the atomic scale.
+
+**Overlay budget allocation** (7 nm node example):
+- Scanner overlay (stage positioning + lens distortion): ±2.0 nm (3σ)
+- Mask registration error: ±1.5 nm (3σ)
+- Process-induced distortion (film stress, CMP non-uniformity, thermal expansion): ±1.5 nm
+- Total overlay budget: ±5.0 nm (RSS — root sum of squares)
+
+**Intrafield corrections**: Modern scanners apply 10-20 parameter corrections per exposure field: translation (X, Y), rotation (θ), magnification (X, Y scaling), trapezoid (keystone), and higher-order terms. These corrections are computed from alignment marks measured on each wafer before exposure. Alignment mark measurement uses optical diffraction from grating structures patterned in previous layers — phase-based measurement achieves <0.5 nm position accuracy.
+
+**Edge placement error (EPE)**: The cumulative error in the position of any feature edge from its intended location. EPE includes overlay error, CD variation, mask error factor (MEF, typically 1.5-4× for dense patterns), and process bias. At 5 nm node, the total EPE budget is ~5 nm, of which overlay consumes ~3 nm and CD variation consumes ~2 nm. When EPE exceeds the margin between adjacent features, a short or open circuit results. EPE management is the central challenge in sub-20 nm patterning.
+
+
+### Photoresist Chemistry for Advanced Nodes
+
+Resist materials must satisfy three competing requirements simultaneously: resolution (smallest printable feature), sensitivity (dose needed for exposure — lower is better for throughput), and line-edge roughness (LER — statistical variation in feature edge position). This "RLS trade-off" (Resolution-LER-Sensitivity) is fundamental: improving one typically degrades another.
+
+**Chemically amplified resist (CAR) for DUV**:
+- Photoacid generator (PAG) molecules (~5-15 wt% of resist) absorb a DUV photon and generate a strong acid (typically sulfonic acid). During post-exposure bake (PEB, 90-130°C, 60-90 sec), the acid catalytically cleaves protecting groups on the resin polymer — one acid molecule deprotects 10-100 polymer sites (chemical amplification). Deprotected regions become soluble in aqueous base developer (0.26N TMAH — tetramethylammonium hydroxide).
+- **Sensitivity**: Typical exposure dose 20-40 mJ/cm² for 193 nm ArF. Each photon produces one acid; each acid cleaves ~50 protecting groups. Total quantum efficiency: ~50× apparent. This amplification is why CAR is essential for DUV — without it, required doses would be 1000× higher (impractical for production throughput).
+- **Environmental sensitivity**: Airborne basic contaminants (amines, NMP, ammonia) neutralize the photogenerated acid before PEB, causing "T-topping" (undercut resist profile from surface inhibition). Cleanroom air must be filtered for basic compounds (chemical filters on recirculation air). Amine concentration target: <1 ppb. This requirement drives facility design for advanced lithography bays.
+
+**EUV resist challenges**:
+- EUV photon energy is 92 eV (vs. 6.4 eV for 193 nm). Each photon carries ~14× more energy, but EUV sources produce far fewer photons per watt. At 20 mJ/cm² dose, only ~5-10 photons expose each 10 nm × 10 nm pixel — shot noise (Poisson statistics) causes 10-20% dose variation at the smallest features. This directly translates to line-edge roughness: LER ∝ 1/√(photon count).
+- **Metal-oxide resists**: Organometallic compounds (e.g., tin-oxo clusters, zirconium oxide, hafnium oxide) offer higher EUV absorption than organic resists (metal atoms have larger absorption cross-sections at 13.5 nm). Sn-based resists achieve 13-16 nm half-pitch resolution with LER < 3 nm at dose 20-30 mJ/cm². However, metal contamination of fab equipment is a concern — Sn, Zr, and Hf are not standard in FEOL processing.
+- **LER specification**: At 7 nm node, LER must be <2 nm (3σ) for gate patterns. LER causes transistor threshold voltage variation (each nm of LER translates to ~1-2 mV Vth variation in short-channel devices). Current EUV resists achieve 3-5 nm LER — closing this gap is an active research area.
+
+### DUV Scanner Architecture
+
+A DUV scanner integrates optical, mechanical, thermal, and control subsystems into a machine weighing 50-100 tonnes that positions a 300 mm wafer with nanometer precision at 600-700 mm/s scan speed.
+
+**Projection optics**:
+- Refractive lens system: 20-30 fused silica and calcium fluoride (CaF₂) lens elements in a dioptric or catadioptric configuration. For ArF immersion (NA = 1.35): ~25 lenses, largest ~300 mm diameter, total lens barrel length ~1-1.5 m.
+- Aberration control: Each lens element is mounted in a barrel with 6-degree-of-freedom adjustment (3 translation + 3 rotation) driven by piezoelectric actuators. Lens surface figure: <0.5 nm RMS deviation from design shape across the full aperture. Lens spacing tolerance: ±0.1 μm over 1 m barrel length — requires athermalized mechanical design (Invar or carbon-fiber composite structures with near-zero thermal expansion coefficient).
+- **Wavefront error**: Total system wavefront error <0.5 mλ RMS (root-mean-square of optical path difference, measured in fractions of the wavelength). At 193 nm wavelength, 0.5 mλ = 0.1 nm — the optical system must be perfect to within the size of a single atom across the entire lens aperture.
+
+**Illumination system**:
+- Excimer laser beam is homogenized and shaped by a complex optical train: beam expander → fly's eye integrator (array of small lenses that divides the beam into sub-beams and overlaps them for uniformity) → condenser optics → adjustable aperture (defines illumination shape: conventional, annular, dipole, quadrupole, or freeform).
+- Illumination uniformity: <0.5% intensity variation across the slit (the narrow exposure region on the wafer). Non-uniformity directly translates to CD variation across the exposure field.
+
+**Focus and leveling**:
+- Wafer surface height measured in real-time by an array of optical level sensors (typically 4-8 laser triangulation or air-gauge sensors). Surface map of the wafer topography is loaded before scanning — the lens Z-position adjusts dynamically during the scan to maintain ±25-50 nm focus depth across the entire 26 mm × 33 mm exposure field.
+- Leveling accuracy: ±5 nm for wafer global tilt, ±25 nm for local topography. Best focus position must be maintained to within ±25 nm — a ±50 nm defocus degrades CD by ~2-3 nm and reduces process window by 30-50%.
+
+
 ---
 *Part of the [Bootciv Tech Tree](../index.md) • [VLSI Scaling](./index.md) • [All Domains](../index.md)*

@@ -32,9 +32,9 @@ Several membrane-based water treatment technologies exist, each suited to differ
 
 For bootstrap scenarios, ED with SEM Tech membranes is the most accessible option because it avoids the high-pressure infrastructure of RO and the specialized membrane chemistry of NF.
 
-## SEM Tech ED Desalination
+## Process Description
 
-The SEM Tech ED desalination process uses alternating cation and anion exchange membranes — both manufactured from the same low-cost resin-bead process described in [SEM Tech](../chemistry/sem-tech.md) — arranged in a multi-cell stack between two electrodes:
+The SEM Tech electrodialysis (ED) desalination process uses alternating cation and anion exchange membranes — both manufactured from the same low-cost resin-bead process described in [SEM Tech](../chemistry/sem-tech.md) — arranged in a multi-cell stack between two electrodes. The complete treatment train proceeds as follows: **intake → pre-treatment → ED stack → post-treatment → distribution**.
 
 1. **Feed water** (brackish water) enters the diluate channels
 2. **DC voltage** is applied across the electrode pair
@@ -238,6 +238,109 @@ Manufacture cation exchange membranes (CEM) and anion exchange membranes (AEM) f
 4. **Inspect and replace membranes** when cleaning no longer restores performance. Membrane lifetime is projected at 1–5 years for SEM Tech membranes in ED service. Disassemble the stack, remove old membranes, clean spacer frames, and reassemble with fresh membranes.
 5. **For EDR operation**: if using electrodialysis reversal, the control system automatically swaps polarity every 15–30 minutes. Verify that diluate and concentrate valves switch correctly and that product water conductivity remains stable across polarity reversals.
 
+## Post-Treatment
+
+ED removes dissolved ions but does not eliminate microorganisms, organic contaminants, or suspended solids. Product water from the ED stack requires post-treatment before it is safe for human consumption. Additionally, very low-TDS product water (<50 mg/L) is corrosive to metal pipes and has a flat taste — remineralization improves both palatability and distribution system compatibility.
+
+### Disinfection
+
+**Chlorination** is the most practical disinfection method for SEM Tech installations. Sodium hypochlorite (NaOCl) is available as a byproduct of [SEM Tech chlor-alkali electrolysis](../chemistry/sem-tech.md), or calcium hypochlorite granules (HTH, 65-70% available chlorine) can be purchased commercially.
+
+1. **Dose**: 2-5 mg/L of sodium hypochlorite solution (or equivalent calcium hypochlorite dose) into the product water storage tank. Actual dose depends on feed water organic content and chlorine demand.
+2. **Contact time**: Minimum 30 minutes at pH <8.0. The CT value (concentration × time) should exceed 15 mg·min/L for effective bacterial and viral inactivation.
+3. **Residual target**: 0.5-1.0 mg/L free chlorine residual after 30 minutes contact. For distribution systems with long residence times, maintain 0.2-0.5 mg/L residual at the point of use.
+4. **Testing**: Use DPD (N,N-diethyl-p-phenylenediamine) colorimetric test kit to verify free chlorine residual. Test daily at the storage tank outlet and weekly at the farthest distribution point.
+
+**Alternative: UV disinfection** — A low-pressure mercury vapor UV lamp (254 nm wavelength) at a dose of 40 mJ/cm² provides effective disinfection without chemical addition. Requires a clear (low-turbidity) water stream and reliable electrical power. No residual protection in distribution — best suited for point-of-use systems or when chlorination chemicals are unavailable.
+
+**Alternative: Solar disinfection (SODIS)** — For household-level emergency use, filling clear PET bottles with ED product water and exposing to full sun for 6 hours achieves bacterial inactivation. Not suitable as a primary community-scale disinfection method.
+
+### Remineralization
+
+ED product water at <100 mg/L TDS is aggressive (corrosive) toward metal pipes, concrete, and some plastics. Remineralization adds dissolved minerals back to the water for:
+
+- **Corrosion control**: Maintaining a positive Langelier Saturation Index (LSI ≥0) prevents dissolution of metal pipe materials.
+- **Taste improvement**: Water below 50 mg/L TDS tastes flat and unsatisfying. Target 150-300 mg/L TDS for palatability.
+- **Health**: Minimum calcium and magnesium levels are beneficial. WHO suggests at least 30 mg/L combined Ca²⁺ + Mg²⁺.
+
+**Methods**:
+
+- **Lime dosing**: Add calcium hydroxide (Ca(OH)₂, hydrated lime) at 30-80 mg/L to raise calcium content and alkalinity. Lime is inexpensive and widely available. Dissolve lime in a small mixing tank before dosing into the product water stream. Target pH: 7.5-8.2.
+- **Calcite (limestone) contactor**: Pass product water through a bed of crushed calcium carbonate (CaCO₃, 1-3 mm particle size). The slightly acidic ED product water slowly dissolves calcite, adding calcium and alkalinity. Simple, passive, no dosing equipment. Bed replacement every 6-12 months depending on flow.
+- **Blending**: Mix a controlled fraction (5-15%) of filtered raw (feed) water back into the product water. Requires the feed water to be microbiologically safe after filtration. Simplest method but limits final water quality.
+
+### pH Adjustment
+
+ED product water pH may drift outside the desirable range (6.5-8.5) depending on feed chemistry and operating conditions:
+
+- **Low pH (<6.5)**: Dose with hydrated lime (Ca(OH)₂) or sodium hydroxide (NaOH, from [SEM Tech chlor-alkali](../chemistry/sem-tech.md)). Lime is preferred for cost and safety.
+- **High pH (>8.5)**: Dose with carbon dioxide (CO₂) gas or dilute hydrochloric acid (HCl). CO₂ injection is safer and self-regulating — excess CO₂ off-gasses.
+
+Verify pH with a calibrated pH meter after adjustment. Target pH: 7.0-8.0 for drinking water distribution.
+
+### Final Filtration
+
+After disinfection and remineralization, a final 1-micron cartridge filter removes any particulates introduced during post-treatment (lime particles, sand fines, rust from piping). This filter protects distribution system fixtures and provides a final barrier against large microorganisms (Giardia cysts, helminth eggs).
+
+## Water Quality Testing
+
+Regular testing ensures product water meets drinking water standards and detects process upsets early. The following schedule is based on WHO Guidelines for Drinking-water Quality.
+
+### WHO Drinking Water Parameters
+
+| Parameter | WHO Guideline | Action Threshold |
+|-----------|--------------|-----------------|
+| **TDS** | <1,000 mg/L (health), <600 mg/L (taste) | >500 mg/L — investigate stack performance |
+| **pH** | 6.5-8.5 | <6.0 or >9.0 — stop distribution, adjust post-treatment |
+| **Turbidity** | <4 NTU (health), <1 NTU (aesthetic) | >5 NTU — check pre-treatment filters |
+| **Free chlorine residual** | 0.2-5.0 mg/L | <0.2 mg/L — re-dose chlorination |
+| **Total coliform bacteria** | 0 per 100 mL | Any detection — shock-chlorinate system |
+| **E. coli** | 0 per 100 mL | Any detection — stop distribution, investigate source contamination |
+| **Sodium (Na⁺)** | 200 mg/L | >150 mg/L — check membrane integrity |
+| **Chloride (Cl⁻)** | 250 mg/L (taste) | >200 mg/L — check stack leakage |
+| **Total hardness** | No guideline (structural) | <30 mg/L as CaCO₃ — remineralize |
+| **Fluoride** | 1.5 mg/L | >1.0 mg/L — check feed water source |
+
+### Testing Schedule
+
+**Continuous monitoring** (instrumentation):
+- Product water conductivity (TDS proxy) — conductivity meter with data logging
+- Product water pH — pH probe at storage tank inlet
+- Stack voltage and current — DC power supply readout
+- Flow rates (diluate and concentrate) — inline flow meters
+
+**Daily tests** (operator, 5-10 minutes):
+- Free chlorine residual at storage tank outlet (DPD test kit)
+- Visual inspection of product water (clarity, color, odor)
+- Record stack voltage, current, conductivity, flow rates in logbook
+
+**Weekly tests** (operator, 15-20 minutes):
+- Feed water TDS and pH
+- Brine TDS
+- Turbidity of product water (nephelometric turbidity tube or meter)
+- Total hardness of product water (EDTA titration kit)
+
+**Monthly tests** (laboratory or field kit):
+- Total coliform bacteria (membrane filtration or presence/absence test)
+- E. coli (membrane filtration with selective media)
+- Sodium concentration (flame photometry or ion-selective electrode)
+- Chloride concentration (silver nitrate titration or ion-selective electrode)
+
+**Quarterly tests** (contracted laboratory):
+- Full chemical panel: heavy metals (Pb, As, Cd, Cr, Hg), nitrate, nitrite, sulfate, fluoride, boron
+- Pesticide scan (if agricultural runoff is a concern)
+- Radionuclides (if in a known radon/uranium area)
+
+### Record-Keeping
+
+Maintain a bound logbook or simple spreadsheet recording:
+- Daily: chlorine residual, conductivity reading, voltage, current, flow rates, feed tank level, brine tank level, any observations
+- Weekly: pH, turbidity, hardness, TDS
+- Monthly: bacterial results, chemical parameters
+- Corrective actions taken (cleaning cycles, membrane replacements, chemical adjustments)
+
+Retain records for a minimum of 2 years. Records demonstrate water safety to regulators and community members, and provide diagnostic history for troubleshooting.
+
 ## System Design for Community Water Supply
 
 A practical SEM Tech ED system for a small community (500 people at 50 L/person/day = 25 m³/day product water) treating brackish groundwater at 4,000 mg/L TDS:
@@ -262,6 +365,77 @@ The DC power requirement of ED stacks matches directly with solar photovoltaic o
 
 **Power matching**: The ED stack draws constant power during operation. Solar output varies throughout the day. A maximum power point tracking (MPPT) charge controller between the solar panels and the ED stack optimizes energy harvest. The battery buffer allows the ED system to operate during peak solar hours and store energy for evening operation, matching water production to demand patterns.
 
+## Brine Management
+
+Every liter of fresh water produced by ED generates a corresponding volume of concentrated brine. The brine volume equals (1 - recovery rate) × feed volume. At 80% water recovery, a 25 m³/day system produces approximately 6.25 m³/day of brine at 16,000-25,000 mg/L TDS (from a 4,000 mg/L feed). Brine management is often the most logistically challenging aspect of inland ED deployment.
+
+### Brine Characteristics
+
+ED concentrate brine differs from RO reject in several important ways:
+
+- **Lower pressure**: ED operates at 0.5-3 bar, so brine exits the stack at low pressure. No pressure recovery equipment is needed.
+- **Matched ionic composition**: ED removes all ion types proportionally. The brine mirrors the feed water chemistry at higher concentration. If the feed is predominantly NaCl, the brine is predominantly NaCl.
+- **Temperature**: ED brine is at ambient feed temperature (no significant heating during processing).
+- **Non-ionic contaminants**: Dissolved organics, silica, and suspended solids remain in the diluate (product) stream, not in the brine. Brine is primarily dissolved salts.
+
+### Disposal and Recovery Options
+
+**Evaporation ponds (arid and semi-arid climates)**:
+
+The simplest brine management approach. Brine flows by gravity or low-pressure pump to a shallow, lined pond where solar evaporation concentrates it to dryness.
+
+- **Sizing**: Pond area = brine volume ÷ net evaporation rate. Net evaporation rate = pan evaporation rate × 0.7 − rainfall. In an arid climate with 2,500 mm/year pan evaporation and 200 mm/year rainfall: net evaporation ≈ 1,550 mm/year = 4.25 mm/day. For 6.25 m³/day brine: pond area ≈ 6.25 ÷ 0.00425 ≈ 1,470 m² (approximately 38 m × 38 m). Size at 1.5× calculated area to accommodate irregular evaporation and storm events.
+- **Lining**: 1.0-1.5 mm HDPE geomembrane liner prevents soil and groundwater contamination. Liner cost: $2-5/m² installed. A 2,200 m² pond (1.5× oversize): $4,400-11,000.
+- **Construction**: Earthen berms 0.5-1.0 m high, compacted subgrade, smooth HDPE liner, anchor trench at perimeter. Inlet pipe from brine tank. Overflow spillway for storm events.
+- **Salt harvesting**: Crystallized salt accumulates over months to years. In regions with seasonal evaporation, annual salt harvesting is practical. Harvested salt can be used for industrial purposes, chlor-alkali feedstock (NaCl), or disposed of in landfill if contaminants are present.
+- **Monitoring**: Monthly inspection of liner integrity. Quarterly groundwater monitoring wells upgradient and downgradient if required by local regulations.
+
+**Deep well injection (geologically suitable sites)**:
+
+Brine is pumped into a deep, confined geological formation below freshwater aquifers. Suitable formations include depleted oil/gas reservoirs, deep saline aquifers, or impermeable shale formations.
+
+- **Depth**: Typically 300-2,000 m below surface, below all potable aquifers.
+- **Geological requirements**: Confining layer (impermeable shale or clay) above the injection zone; porous, permeable injection zone (sandstone, limestone); no faults connecting to freshwater.
+- **Well construction**: Steel casing cemented to surface, injection tubing with packer, corrosion-resistant materials. Cost: $50,000-500,000 per well depending on depth.
+- **Pumping**: Injection pressure must not exceed formation fracture pressure. Low-pressure ED brine may require a booster pump.
+- **Regulatory**: Requires geological survey, permitting, and often environmental impact assessment. Not available in all jurisdictions.
+
+**Dilution discharge (coastal installations only)**:
+
+For installations near the ocean, brine can be diluted with seawater and discharged through a properly designed outfall.
+
+- **Dilution ratio**: Mix brine with 10-20 volumes of seawater before discharge to bring salinity within 1-2 ppt of ambient seawater (~35 ppt).
+- **Outfall design**: Diffuser nozzle or multi-port outfall extending beyond the surf zone ensures rapid mixing. Discharge velocity >3 m/s promotes initial dilution.
+- **Environmental assessment**: Required before construction. Sensitive marine ecosystems (coral reefs, seagrass beds) may require higher dilution ratios or alternative discharge locations.
+- **Regulatory**: Coastal discharge permits required in most jurisdictions.
+
+**Salt recovery (industrial co-product)**:
+
+When brine concentration exceeds approximately 100,000 mg/L TDS (achievable by operating at lower water recovery or multi-stage concentration), salt can be crystallized and recovered as a commercial product.
+
+- **Solar crystallization**: Extended evaporation in shallow ponds. NaCl crystallizes first; other salts (CaSO₄, MgSO₄) crystallize at higher concentrations. Sequential crystallization produces relatively pure NaCl.
+- **Thermal crystallization**: Forced evaporation using waste heat or solar thermal collectors. More compact than pond systems but requires energy input.
+- **Product quality**: Recovered salt is suitable for industrial chlor-alkali feedstock (requires >97% NaCl purity), road de-icing, or water softener regeneration. Food-grade salt requires additional washing and drying.
+- **Economic value**: Industrial salt at $30-80/ton provides modest revenue that partially offsets brine management costs. At 6.25 m³/day of brine from 4,000 mg/L feed, salt production is approximately 25 kg/day (9 tons/year) — too small for industrial salt market but sufficient for local use (chlor-alkali cell feed, water softener regeneration).
+
+**Zero liquid discharge (ZLD) — sensitive environments**:
+
+In locations where no brine discharge is permitted (closed-basin lakes, protected watersheds, arid regions with no suitable injection geology), a ZLD system recovers all water from the brine, producing only solid salt as waste.
+
+- **Process**: Feed ED brine to a secondary concentration stage (higher-voltage ED or thermal evaporation) to produce saturated brine, then crystallize to dryness. Recovered condensate returns to the product water stream.
+- **Energy cost**: Thermal evaporation consumes 25-40 kWh/m³ of brine — an order of magnitude more than the ED desalination itself. ZLD is only practical when energy is very cheap or when no alternatives exist.
+- **Applicability**: Rarely necessary for inland brackish water ED. Reserve for sites with extreme environmental constraints or for recovering high-value salts from industrial waste streams.
+
+### Inland Deployment Strategy
+
+For most inland SEM Tech ED installations, the recommended brine management approach is:
+
+1. **Primary**: Evaporation pond — lowest cost, lowest complexity, passive operation.
+2. **Backup/overflow**: Second pond cell or emergency storage tank for storm events.
+3. **Salt reuse**: Harvest crystallized salt for local chlor-alkali cell feed or water softener regeneration.
+4. **Monitoring**: Quarterly inspection of pond liner and (if applicable) groundwater quality.
+
+Total brine management capital cost for the 25 m³/day community system: $5,000-15,000 (dominated by evaporation pond construction and HDPE liner), or approximately 30-50% of total system capital cost. This is a significant but unavoidable expense for inland installations.
 
 ## Cost Analysis
 
@@ -323,6 +497,65 @@ The SEM Tech water treatment system depends on upstream capabilities from severa
 - **Hydrogen gas**: Minor hydrogen evolution at the cathode during operation. Ensure ventilation in enclosed installations. Hydrogen accumulation above 4% concentration in air is explosive.
 - **Chemical exposure**: Cleaning solutions (acid for scale removal, alkali for organic fouling) require standard chemical handling PPE — goggles, gloves, aprons.
 - **Product water quality**: ED removes only dissolved ions. Suspended solids, microorganisms, and organic contaminants pass through unaffected. Post-treatment (disinfection, filtration) is required for drinking water applications.
+
+## Troubleshooting
+
+### Rising Product Water TDS
+
+**Symptom**: Product water conductivity increases despite normal operation.
+
+**Causes and remedies**:
+- **Membrane damage**: Pinholes or tears allow concentrate to leak into the diluate stream. Inspect membranes by holding to light (pinholes appear as bright spots). Replace damaged membranes.
+- **Internal leakage**: Uneven stack compression or degraded spacer gaskets allow cross-flow between channels. Retorque tie rods in cross-pattern. Replace hardened or cracked gaskets.
+- **Insufficient voltage/current**: Current density below threshold for effective ion transport. Verify power supply output with a multimeter. Increase voltage while staying below 1.5V per cell pair.
+- **Channeling**: Flow distribution is uneven, allowing some water to pass through the stack without adequate ion removal. Check spacer mesh for blockage or compaction. Verify flow rates are within specification (5-15 cm/s velocity).
+
+### Increasing Stack Resistance
+
+**Symptom**: Stack voltage rises at constant current, or current drops at constant voltage. Energy consumption increases.
+
+**Causes and remedies**:
+- **Scaling**: Calcium carbonate or calcium sulfate precipitation on membrane surfaces. Perform acid cleaning (2% HCl, 30-60 minutes circulation). If recurrent, implement electrodialysis reversal (EDR) or add pre-treatment for hardness removal.
+- **Organic fouling**: Natural organic matter (humic substances) coating membranes. Perform alkaline cleaning (1% NaOH, 30-60 minutes circulation). Add activated carbon pre-treatment if organic load is high.
+- **Electrode degradation**: Graphite electrodes erode over time, increasing contact resistance. Inspect electrodes during scheduled maintenance. Replace when visibly eroded or pitted.
+- **Air entrainment**: Air bubbles trapped in channels create high-resistance zones. Purge the system by running circulation pumps at maximum flow with the stack unpowered. Check for air leaks on the suction side of pumps.
+- **Membrane compaction**: Long-term compression reduces channel height and increases flow resistance. Disassemble stack, inspect spacer thickness, replace compressed spacers.
+
+### Low Water Recovery
+
+**Symptom**: Brine volume is higher than expected; product water volume is lower than design.
+
+**Causes and remedies**:
+- **Excessive brine flow**: Concentrate stream flow rate set too high relative to diluate flow. Reduce concentrate pump flow. Target concentrate flow within 80-120% of diluate flow.
+- **Membrane deformation**: Pressure imbalance between diluate and concentrate channels bows membranes, reducing effective channel area. Balance hydraulic pressures in both loops.
+- **High feed TDS**: Feed water salt content is higher than design point, requiring more current and longer residence time for equivalent removal. If persistent, consider adding a second stage or operating in batch recirculation mode.
+
+### Product Water pH Outside Range
+
+**Symptom**: Product water pH <6.5 or >8.5.
+
+**Causes and remedies**:
+- **Water splitting at electrodes**: At very high current density (>50 mA/cm²), water electrolysis at the electrode boundary membranes produces acid (anode side) and base (cathode side) that can contaminate adjacent channels. Reduce current density. Ensure electrode rinse flow is adequate.
+- **Feed water pH shift**: Source water chemistry changes seasonally (e.g., spring snowmelt, agricultural runoff). Monitor feed pH daily and adjust post-treatment dosing accordingly.
+- **Bicarbonate stripping**: At low TDS, bicarbonate equilibrium shifts, releasing CO₂ and lowering pH. Remineralization with lime (Ca(OH)₂) restores pH and alkalinity simultaneously.
+
+### Uneven Flow Distribution
+
+**Symptom**: Product water quality varies between cells; some cells produce good water while others do not.
+
+**Causes and remedies**:
+- **Manifold blockage**: Debris or scale in inlet/outlet manifolds restricts flow to some cells. Flush manifolds with acid solution. Improve pre-treatment filtration.
+- **Spacer compaction**: Repeated compression cycles permanently deform spacers in high-pressure zones. Replace compressed spacers. Use consistent torque during reassembly.
+- **Air locks**: Air trapped in specific channels prevents flow. Purge system at high flow rate. Install air release valves at high points in the manifold.
+
+### Electrode Corrosion
+
+**Symptom**: Graphite electrodes visibly eroded, pitted, or friable. Electrode rinse water discolored.
+
+**Causes and remedies**:
+- **Normal wear**: Graphite slowly oxidizes in the electrode compartments. Expected lifetime: 1-2 years in ED service. Schedule replacement during annual maintenance.
+- **Excessive current density**: Current density above 50 mA/cm² accelerates electrode erosion. Reduce operating current density.
+- **Poor electrode rinse flow**: Stagnant water in electrode compartments accelerates corrosion. Verify electrode rinse flow rate meets specification (typically 5-10% of feed flow).
 
 ## Limitations
 

@@ -186,6 +186,39 @@ Typical first-pass yield for a well-controlled SMT line: 98-99.5%. Defects per m
 
 **Solder paste management**: Refrigerated storage at 2-10°C. Allow 4-8 hours to equilibrate to room temperature before opening (condensation from opening cold paste ruins it). Stir before use (1-2 minutes with plastic spatula — do not use metal, which generates solder particles). Working life on stencil: 4-8 hours. Discard paste that has been on stencil >8 hours or shows viscosity changes.
 
+## Safety & Hazards
+
+Electronics assembly involves hot solder, chemical exposures, electrical testing, and mechanical operations — each requiring specific protective measures.
+
+**Soldering hazards**:
+- **Lead exposure (Sn63/Pb37 solder)**: Lead is a cumulative neurotoxin. The primary exposure route during soldering is inhalation of lead oxide fumes from molten solder (solder melts at 183°C but significant lead fume generation begins above 500°C — well above normal tip temperatures of 320-380°C). The greater risk is hand-to-mouth contamination from handling solder wire and flux residues. Wash hands thoroughly before eating or drinking. Do not eat, drink, or apply cosmetics in soldering areas. Lead-free solders (SAC305, Sn/Cu) eliminate this risk but have higher melting points (217-227°C), requiring higher iron temperatures.
+- **Solder fumes**: The visible "smoke" from soldering is primarily flux vapor, not metal fume. Rosin-core flux (colophony, abietic acid) produces formaldehyde, toluene, and phenol vapors when heated. These are respiratory sensitizers — prolonged exposure causes occupational asthma ("colophony asthma"). Use local exhaust ventilation (fume extractors with activated carbon and HEPA filters) positioned 5-15 cm from the solder joint. Minimum capture velocity: 0.3-0.5 m/s at the work point. In confined spaces or high-volume soldering stations, supplemental room ventilation should maintain <0.05 mg/m³ rosin flux particulate (OSHA PEL).
+- **Thermal burns**: Soldering iron tips reach 320-420°C. Contact causes immediate second-degree burns. Iron rests must be stable and positioned to prevent accidental contact. Wave soldering machines contain 50-200 kg of molten solder at 250-270°C — splashes from wave soldering cause severe burns. Full-length heat-resistant gloves, face shield, and long-sleeved protective clothing required for wave soldering operation and maintenance.
+- **Solder paste**: Contains fine metal powder (20-45 μm solder particles in flux vehicle). Lead-containing paste is a skin absorption and ingestion hazard. Wear nitrile gloves during stencil printing and paste handling. Solder paste misprints must be cleaned immediately using appropriate solvent and wipes (disposed as hazardous waste if lead-containing). Do not blow off excess paste with compressed air — creates airborne metal particles.
+
+**Chemical hazards (PCB fabrication)**:
+- **Ferric chloride (FeCl₃) etchant**: Corrosive (pH <1), causes skin and eye irritation. Stains clothing and skin brown (the iron hydrolyzes to Fe(OH)₃ on contact with skin). Splash goggles and nitrile gloves required. Spills: neutralize with sodium bicarbonate, then absorb with inert material.
+- **Ammonium persulfate and sodium persulfate etchants**: Strong oxidizers. Contact with organic materials can cause fire. Skin irritation. Eye protection required.
+- **Sodium hydroxide (NaOH) for resist stripping**: Concentrated (3-5%) at 50-60°C causes chemical burns. The hot alkali is particularly hazardous to eyes. Chemical splash goggles required (not just safety glasses).
+- **PCB drilling**: Fiberglass dust from FR-4 substrate is a mechanical irritant (glass fibers embed in skin and respiratory tract). Use dust extraction at the drill head. Carbide drill bits (0.3-3.0 mm) rotate at 50,000-100,000 RPM — bit breakage sends high-velocity fragments outward. Safety glasses mandatory.
+- **Surface finish chemicals**: HASL involves molten Sn/Pb at 235-260°C (thermal burn risk). ENIG uses nickel sulfate and gold potassium cyanide — both are skin sensitizers and toxic. Cyanide compounds in gold plating require strict handling protocols and emergency cyanide antidote kits (amyl nitrite, sodium nitrite, sodium thiosulfate) at the workstation.
+
+**Conformal coating**:
+- Acrylic, epoxy, urethane, and silicone coatings are applied from solvent-based formulations containing toluene, xylene, methyl ethyl ketone (MEK), or other volatile organic compounds (VOCs). These solvents are flammable and toxic by inhalation (toluene and xylene cause central nervous system depression at moderate concentrations; MEK is an irritant). Apply only in ventilated spray booths or fume hoods. Wear organic vapor respirator (cartridge type A) if ventilation is insufficient to keep solvent vapor below exposure limits (toluene TWA 20 ppm, xylene TWA 100 ppm, MEK TWA 200 ppm). No ignition sources in coating areas — solvents have low flash points (MEK -6°C, toluene 4°C).
+
+**Electrical testing**:
+- In-circuit test (ICT) and functional test apply power (3.3V, 5V, ±12V DC) to assemblies. While these voltages are generally safe, high-current power supplies and energy storage in large capacitors pose hazards. Verify power is disconnected before probing live circuits. Capacitor discharge: large electrolytic capacitors (>1000 μF) can deliver significant current even after power removal — discharge through a bleeder resistor before handling.
+- X-ray inspection equipment (20-160 kV) produces ionizing radiation. Modern X-ray systems are fully enclosed with interlocked shields that disable the X-ray tube when the enclosure is opened. Never bypass interlocks. Operators should wear dosimeter badges for cumulative exposure monitoring. Monthly radiation survey with a Geiger-Müller counter should confirm <0.02 mSv/hour at 10 cm from the enclosure surface (IEC 61010-1 requirement for X-ray inspection equipment).
+
+**General PPE and workstation requirements**:
+- Safety glasses with side shields at all times in assembly areas
+- Nitrile gloves for chemical handling and solder paste work
+- Heat-resistant gloves for wave soldering and hot plate operations
+- ESD wrist strap (grounded through <1 MΩ resistor) when handling components and assemblies — simultaneously serves as an ESD control and is mandatory at all assembly workstations (see ESD Control section above)
+- No food or drink in assembly areas (lead contamination risk from Sn/Pb solder)
+- First aid kit and eyewash station accessible within 10 seconds travel from all chemical and soldering workstations
+- Fire extinguisher (CO₂ for electrical fires, dry chemical for general) at each soldering station
+
 ## Cross-Domain Links
 
 - **[Basic Semiconductor Devices](../silicon/basic-devices.md)**: the devices being assembled into circuits

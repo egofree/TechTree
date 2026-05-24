@@ -127,6 +127,42 @@ After polishing, wafers carry residues of polishing slurry, organic contaminants
 - **Spin rinse dryer**: wafers are spun at 3000-5000 RPM while rinsed with ultra-pure water, then blown dry with filtered hot nitrogen (60-80°C). Centrifugal force removes water from the surface. Fast (3-5 minutes per batch) but can generate particles from water droplets hitting the wafer surface at high speed.
 - **[Marangoni drying](../glossary/marangoni-drying.md)** (for critical applications): the wafer is slowly withdrawn from a water bath at 1-5 mm/s while a thin layer of isopropyl alcohol (IPA) vapor is introduced at the water surface. The surface tension gradient between the IPA-rich meniscus and the pure water below (the Marangoni effect) pulls water off the wafer surface as it withdraws, leaving a dry, particle-free surface without mechanical force. Superior to spin drying for wafers with fragile microstructures.
 
+### Safety & Hazards
+
+Wafering involves mechanical cutting, chemical etching, and polishing with hazardous materials. Each process stage has distinct risks.
+
+**Wire saw and ID blade saw**:
+- The wire saw's continuous steel wire (0.12-0.18 mm) runs at 5-15 m/s under high tension (typically 20-40 N per wire). Wire breakage sends a lash of steel wire across the work area. **Enclose the wire saw** with interlocked guards that stop the machine when opened. Never reach into the wire web while the machine is running — even a stationary wire under tension can cause lacerations.
+- ID blade saws spin at 1500-3000 RPM with a diamond-edged cutting surface. Keep hands clear of the blade path. Diamond abrasive on the blade edge causes abrasive cuts. Eye protection required — silicon fragments eject from the cut zone.
+- Noise levels: 80-95 dB during sawing. Hearing protection (earplugs or earmuffs, NRR 25+) required for extended operation.
+
+**Silicon dust and slurry hazards**:
+- Wire sawing generates fine silicon powder (1-20 μm) mixed with SiC abrasive in the slurry. Silicon dust is a respiratory irritant and chronic inhalation risk (silicosis). The slurry is contained within the machine, but slurry handling, cleanup, and recycling expose operators to airborne particles. Wear N95 or P100 respirators when handling dry silicon waste or changing slurry.
+- Lapping slurry (Al₂O₃ or SiC in water/glycol) is a mechanical irritant to skin and eyes. The glycol carrier is slippery on floors — clean spills immediately to prevent falls.
+- CMP slurry is alkaline (pH 10-11, KOH or NaOH) and causes chemical burns with prolonged skin contact. The colloidal silica particles (20-80 nm) are too fine to feel on the skin but can cause eye irritation. Wear chemical splash goggles and nitrile gloves when handling CMP slurry.
+
+**Chemical etching**:
+- The HNO₃/HF/CH₃COOH acid mixture is extremely hazardous. HF penetrates skin rapidly, chelates calcium and magnesium in tissue, and causes deep burns that may not become apparent for hours. Systemic fluoride poisoning can cause cardiac arrhythmia and death. **Calcium gluconate gel (2.5-5%) must be immediately available** as first aid for skin contact, applied generously to the affected area. Full acid-resistant PPE (face shield, heavy nitrile gloves over neoprene gloves, chemical apron, rubber boots) is mandatory.
+- Nitric acid (HNO₃) produces toxic NO₂ gas during the etch reaction. Perform acid etching only in a fume hood or ventilated wet bench with a minimum face velocity of 0.5 m/s (100 fpm). NO₂ exposure causes delayed pulmonary edema — symptoms may not appear for 4-12 hours.
+- Alkaline etching (NaOH or KOH at 60-80°C) is less immediately dangerous than HF but causes severe thermal and chemical burns. Hot caustic splashes are a significant risk — use face shields and chemical-resistant aprons.
+
+**RCA cleaning**:
+- SC-1 (NH₄OH/H₂O₂/H₂O at 75°C): ammonium hydroxide fumes are irritating to eyes and respiratory tract. Hydrogen peroxide is a strong oxidizer — never mix with organic solvents. The hot solution can splash — wear face shield and chemical-resistant gloves.
+- SC-2 (HCl/H₂O₂/H₂O at 75°C): hydrochloric acid fumes are corrosive to respiratory tract and metal equipment. HCl concentration in SC-2 is dilute (1:1:6 ratio), but the hot solution still produces irritating vapors. Ventilation required.
+- Dilute HF dips (1-5%): even dilute HF is hazardous. The same calcium gluconate and PPE protocols apply as for concentrated HF.
+
+**Mechanical hazards**:
+- Automated wafer handling robots (cassette-to-cassette transfer) have pinch points and crushing hazards. Never reach into the robot work envelope during operation. Interlocked access doors should be standard.
+- Lapping machines have heavy platens (50-200 kg) rotating at 20-60 RPM. Hands or clothing caught between the platens causes severe crush injuries. Never reach into the lapping area while the machine is running.
+- Diamond grinding wheels (for ingot grinding, edge rounding) rotate at 1500-5000 RPM. Abrasive particles and silicon fragments eject from the grinding zone. Safety glasses with side shields are mandatory. Do not wear loose clothing or jewelry near rotating machinery.
+
+**General PPE requirements** for wafering operations:
+- Safety glasses with side shields at all times (face shield when handling chemicals)
+- Nitrile gloves (chemical handling) or leather work gloves (mechanical operations)
+- Hearing protection (sawing, grinding, lapping operations)
+- Lab coat or chemical-resistant apron
+- Closed-toe shoes with slip-resistant soles (glycol spills on floors)
+
 ### Wafer Specifications Summary
 
 | Parameter | 150 mm | 200 mm | 300 mm |

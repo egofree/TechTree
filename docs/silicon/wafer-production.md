@@ -185,6 +185,42 @@ For 300 mm wafers and advanced applications, both sides are polished simultaneou
 
 **Future wafer sizes**: The semiconductor industry periodically evaluates larger wafer sizes to reduce per-die cost. The transition from 200 mm to 300 mm (completed ~2005) reduced per-die cost by ~30%. A proposed 450 mm transition has been studied since 2008 but postponed indefinitely — the estimated $15-30 billion investment in new equipment (crystal pullers, wafering, lithography, inspection) cannot be justified by the diminishing returns. Current consensus: 300 mm will remain the standard for the foreseeable future, with innovation focused on 3D stacking and advanced packaging rather than larger wafers.
 
+## Safety & Hazards
+
+Wafer production spans mechanical cutting, chemical etching, high-temperature processing, and cleanroom operations — each with distinct hazards that require specific controls.
+
+**Wire saw mechanical hazards**:
+- The wire saw's continuous steel wire (0.08-0.18 mm diameter) runs at 5-15 m/s under 20-40 N tension per strand. A wire break releases hundreds of strands whipping through the work area. Machines must be fully enclosed with interlocked safety guards that halt the drive motor within 0.5 seconds of door opening. Never bypass interlocks.
+- Silicon ingots weigh 30-150 kg. Use mechanical lifting aids (overhead crane, vacuum lift) for ingot loading. Manual lifting of ingots causes back injuries — a 300 mm ingot at 1.5 m length weighs over 100 kg.
+- Wire consumption produces 20-50 km of used wire per ingot — the spent wire is sharp, contaminated with silicon dust and slurry, and must be collected in sealed containers for recycling.
+
+**Chemical etching and cleaning**:
+- **Hydrofluoric acid (HF)**: Used in damage etching (HNO₃/HF mixtures, line 42) and RCA clean HF dips. HF is an insidious poison — the fluoride ion penetrates skin without immediate pain, chelates calcium and magnesium in deep tissue, and causes necrosis that may not manifest for hours. Systemic hypocalcemia from significant exposure causes cardiac arrhythmia and death. **Mandatory controls**: calcium gluconate gel (2.5-5%) at every HF workstation, applied immediately to any skin contact and continued until emergency medical care arrives. Full PPE: face shield, heavy nitrile gloves (double-gloved over neoprene liners), acid-resistant chemical apron, rubber boots. HF work only in ventilated wet benches with emergency shower and eyewash within 10 seconds travel.
+- **Nitric acid (HNO₃)**: The HNO₃/HF etch mixture produces nitrogen dioxide (NO₂) gas — a toxic brown fume that causes delayed pulmonary edema (symptoms 4-12 hours after exposure). Ventilation: chemical fume hood or wet bench with minimum 0.5 m/s (100 fpm) face velocity. NO₂ exposure limit: 5 ppm TWA (OSHA PEL).
+- **Alkaline etchants (KOH, NaOH)**: Hot (70-90°C) concentrated alkali causes severe chemical and thermal burns. KOH at 20-40% is particularly hazardous to eyes (can cause blindness within seconds). Chemical splash goggles (not just safety glasses) and face shields required.
+- **RCA clean chemicals**: SC-1 (ammonium hydroxide + hydrogen peroxide at 75°C) produces irritating NH₃ fumes. SC-2 (hydrochloric acid + hydrogen peroxide at 75°C) produces HCl vapors. Both require fume hood ventilation. Hydrogen peroxide is a strong oxidizer — never mix with organic solvents or combustible materials.
+
+**CMP (chemical-mechanical polishing)**:
+- CMP slurry is alkaline (pH 10-11) and can cause skin irritation with prolonged contact. The colloidal silica particles (20-80 nm) are fine enough to be inhaled if slurry dries and becomes airborne. Wear nitrile gloves and safety glasses when handling slurry containers and connecting slurry lines.
+- Polishing platens rotate at 30-80 RPM with significant mass (50-200 kg). Pinch hazards between the carrier head and platen surface. Keep hands clear during operation — interlocked lids should prevent access while the platen is spinning.
+- Pad conditioning disks are diamond-impregnated and abrasive. Handle with gloves to avoid cuts.
+
+**Silicon dust**:
+- Wire sawing converts 40-50% of the ingot into fine silicon powder mixed with SiC abrasive in the slurry. Silicon dust (respirable fraction, <10 μm) is a silicosis hazard with chronic exposure. The slurry is contained during cutting, but handling, filtration, and recycling generate airborne dust. Wear P100 respirators during slurry handling and cleanup. Slurry recycling areas require local exhaust ventilation.
+- Grinding operations (ingot diameter grinding, edge rounding) generate silicon dust and abrasive particles. Diamond grinding wheels should be operated with flood coolant to suppress dust. If dry grinding is unavoidable (not recommended), respiratory protection is mandatory.
+
+**High-temperature processing (epitaxy, RTP, furnace)**:
+- Epitaxial reactors operate at 1050-1200°C. External surfaces of the reaction chamber can reach 60-150°C — thermal burn hazard. Interlocked guards prevent access to hot zones. Allow cool-down time before maintenance.
+- **Hydrogen gas**: Epitaxy uses H₂ carrier gas at 30-100 L/min. Hydrogen is flammable at 4-75% concentration in air (extremely wide explosive range) and ignites with very low energy (0.017 mJ). Leak detection: hydrogen sensors in the exhaust and room air, set to alarm at 1% (25% of LEL). Ventilation: exhaust rate sufficient to dilute maximum credible leak to below 1% in the room. Emergency shutdown: automatic hydrogen supply shutoff on alarm.
+- **Silane (SiH₄) and trichlorosilane (SiHCl₃)**: Silicon source gases for epitaxy. Silane is pyrophoric — it spontaneously ignites on contact with air at concentrations above ~2%. Trichlorosilane is flammable and releases HCl on contact with moisture. Gas cabinets with inert gas purge, automatic shutoff valves, and dedicated exhaust lines are mandatory. Gas detectors for SiH₄ (infrared or catalytic bead) and HCl (electrochemical) in the exhaust.
+- **Dopant gases**: Phosphine (PH₃) and diborane (B₂H₆) are extremely toxic (TLV 50 ppb for PH₃, 100 ppb for B₂H₆) and pyrophoric. Used in trace amounts (ppm level) but cylinder changes and line leaks pose fatal exposure risk. Gas cabinets must be continuously exhausted, with automatic cylinder valve closure on detection of any leak. Emergency response: evacuate area, do not attempt to stop a dopant gas leak without self-contained breathing apparatus (SCBA).
+- RTP lamps produce intense infrared radiation. Do not view lamp operation directly — use filtered viewing ports or camera systems.
+
+**Cleanroom ergonomics and general safety**:
+- FOUPs with 25 × 300 mm wafers weigh ~8 kg. Operators handling FOUPs repeatedly (500-2000 loads/unloads per shift) risk repetitive strain injuries. Use ergonomic FOUP lift assists for overhead load ports. Limit manual FOUP handling to waist-height load ports.
+- Wafer breakage produces sharp silicon shards that can cut through cleanroom gloves. Handle broken wafers with tweezers or vacuum wand only — never pick up fragments by hand. Dispose in puncture-resistant sharps containers.
+- Cleanroom garments (coveralls, hoods, booties, gloves) restrict movement and increase heat stress. Monitor room temperature (22 ± 3°C) and humidity (40-60% RH). Provide regular rest breaks for operators in gowning.
+
 ## Cross-Domain Links
 
 - **[CZ Crystal Pulling](cz-pulling.md)**: single-crystal ingot growth equipment and process

@@ -69,6 +69,64 @@ A lithium recovery system using SEM Tech membranes would combine elements from t
 - Operating temperature: ambient (20-40°C)
 - Membrane replacement cycle: months to ~1 year (consistent with SEM Tech chlor-alkali experience)
 
+## Materials
+
+The lithium separation process requires the following consumables and feedstocks:
+
+**Membrane materials**:
+- **Lithium-selective cation exchange resin beads**: Chelating resins with crown ether functional groups (12-crown-4 for Li⁺ selectivity) or iminodiacetic acid groups. Commercially available from major ion exchange resin manufacturers (Dowex, Lewatit, Purolite product lines) at $50-200 per cubic foot — more expensive than standard water softener resin but far cheaper than Nafion.
+- **Standard anion exchange resin beads**: For the anion exchange membranes in the ED stack. Standard quaternary ammonium type, $5-20 per cubic foot.
+- **PVC or CPVC binder**: Polyvinyl chloride or chlorinated polyvinyl chloride dissolved in solvent to form the membrane matrix.
+- **Solvent**: THF (tetrahydrofuran), cyclohexanone, or MEK (methyl ethyl ketone) for dissolving the PVC/CPVC binder during membrane casting.
+
+**Feed materials**:
+- **Brine feed**: Salt flat brines (0.1-1.5% Li), geothermal brines (100-400 mg/L Li), battery recycling leachate, or produced water (50-200 mg/L Li).
+- **pH adjustment reagents**: HCl or NaOH for adjusting feed brine to pH 6.5-7.5 to prevent scaling on membrane surfaces.
+
+**Pretreatment consumables**:
+- **Filter media**: Sand (10-50 μm filtration), cartridge filters (1-5 μm), and activated carbon for organics removal.
+- **Cleaning reagents**: Dilute acid (HCl at 1-2%) for periodic membrane cleaning to remove scale and fouling deposits.
+
+**Product finishing reagents**:
+- **Sodium carbonate (Na₂CO₃, soda ash)**: Added to lithium concentrate at 85-95°C to precipitate Li₂CO₃. Approximately 200-400 kg per tonne of LCE produced. Produced via the [Solvay process](alkalis.md) or mined as trona ore.
+- **Calcium hydroxide (Ca(OH)₂, slaked lime)**: For conversion of Li₂CO₃ to LiOH. Produced by calcining limestone and slaking with water.
+- **Process water**: 50-100 m³ per tonne of LCE for washing, dilution, and crystal purification.
+
+## Equipment
+
+The lithium separation system requires the following hardware:
+
+**Electrodialysis stack**:
+- **Lithium-selective cation exchange membranes**: SEM Tech membranes fabricated from chelating resin beads in PVC/CPVC matrix, 150-400 μm thickness, $2-5 per square foot.
+- **Standard anion exchange membranes**: SEM Tech membranes from standard anion resin beads, same form factor.
+- **Spacer gaskets**: 0.5-1.0 mm thick polyethylene or rubber spacers defining the flow channels between membranes. Provide flow distribution and prevent membrane contact.
+- **Electrodes**: Coated graphite anode and cathode (same as chlor-alkali SEM Tech cells), with vibratory/ultrasonic dislodging mechanism for deposits. Planned upgrade to glassy carbon or MMO electrodes for longer life.
+- **End plates and tie rods**: HDPE or steel compression frames to clamp the membrane stack under uniform pressure.
+
+**Power supply**:
+- **DC rectifier**: Thyristor or IGBT rectifier delivering 50-300V DC at 5-20 mA/cm² current density. 95%+ efficiency. Sized for total stack current (50-200 A per stack).
+
+**Fluid handling**:
+- **Feed pumps**: Corrosion-resistant (HDPE, PVC, or titanium) centrifugal or diaphragm pumps, rated for 1-3 bar and brine-compatible materials. One pump per ED stack.
+- **Piping and valves**: HDPE or PVC piping, solvent-welded or flanged connections. PVC/CPVC cement for cell assembly (same technique as standard plumbing).
+
+**Pretreatment system**:
+- **Sand filter**: Multi-media depth filter for suspended solids removal to 10-50 μm.
+- **Cartridge filter**: 1-5 μm pleated cartridge filter for fine particulate removal.
+- **Activated carbon column**: For dissolved organic carbon removal.
+- **pH adjustment tank**: Small mixing tank with dosing pump for HCl or NaOH addition, pH probe, and controller.
+
+**Product finishing equipment**:
+- **Precipitation reactor**: Heated stirred tank (glass-lined steel or HDPE), 85-95°C operating temperature, with agitator for Na₂CO₃ addition and Li₂CO₃ crystallization.
+- **Filter press or centrifuge**: For separating Li₂CO₃ crystals from mother liquor. Plate-and-frame filter press is lowest cost option.
+- **Dryer**: Tray dryer or rotary dryer at 120°C for final product drying.
+- **Crystallizer**: For LiOH·H₂O production — evaporative crystallizer operating at 50-60°C.
+
+**Control and instrumentation**:
+- **PLC or microcontroller**: For automated control of voltage, current, flow rates, pH, and temperature.
+- **Sensors**: pH probes, conductivity meters, flow meters, temperature sensors, voltage/current transducers.
+- **Secondary containment**: Bermed area or double-walled tanks for brine and chemical storage, sized to contain the largest single vessel.
+
 ## Membrane Specifications for Lithium Selectivity
 
 The lithium-selective SEM Tech membrane requires specialized resin selection and formulation beyond the standard cation exchange membrane used in chlor-alkali cells. The membrane exploits the difference in hydration energy between Li⁺ (520 kJ/mol hydration enthalpy) and Na⁺ (405 kJ/mol hydration enthalpy) to achieve preferential Li⁺ transport through appropriately sized nanopores (0.6-0.8 nm effective pore diameter).

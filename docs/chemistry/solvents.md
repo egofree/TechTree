@@ -213,6 +213,47 @@ Discharging spent solvents is both wasteful and environmentally destructive. Rec
 
 **Solvent losses and minimization**: Covered vessels reduce evaporation. Closed-loop vapor degreasers lose <5% per year vs. >50% for open-top units. Water-based alternatives (alkaline degreasing, aqueous parts washing) should replace organic solvents wherever technically feasible. Process design should minimize solvent inventory — smaller baths, counter-current washing, and cascaded use (clean solvent for final rinse, partially contaminated solvent for initial wash).
 
+## Safety & Hazards
+
+Solvents present a tiered hazard landscape ranked by severity:
+
+**Carcinogens (eliminate or substitute where possible)**:
+- **Benzene**: IARC Group 1 (causes AML leukemia). No safe exposure threshold. Substitute with toluene or xylene in all solvent applications. Reserve benzene use strictly as a chemical feedstock where no alternative exists, with closed-system handling and continuous air monitoring.
+- **Carbon tetrachloride**: Causes liver and kidney damage, ozone-depleting. Phase out in favor of aqueous or hydrocarbon degreasers.
+- **Trichloroethylene (TCE)**: Probable human carcinogen (kidney). Groundwater contaminant (DNAPL). Replace with aqueous degreasing or perchloroethylene in closed-loop systems.
+
+**High acute toxicity**:
+- **Methanol**: 10 mL causes permanent blindness; 30 mL can be fatal (metabolized to formic acid). Never store in containers that could be confused with beverages. Use in ventilated areas with splash protection.
+- **Carbon disulfide (CS₂)**: TLV 1 ppm (among the strictest of any industrial solvent). Chronic exposure causes parkinsonism and psychosis. Use only in enclosed systems with LEV. Autoignition at 90°C — the lowest of any common solvent. Hot light bulbs can ignite it.
+- **Diethyl ether**: Flash point -45°C, autoignition at 180°C (hot steam pipes ignite it). Explosive range 1.9-36% (very wide). Forms explosive peroxides on storage — test with KI-starch paper before distilling old stock. Never use near flames, sparks, or hot surfaces.
+
+**Fire and explosion hazards** (ranked by flash point):
+- Diethyl ether (fp -45°C), CS₂ (fp -30°C), benzene (fp -11°C): Extremely flammable. Handle in spark-free environments with explosion-proof electrical equipment.
+- Toluene (fp 4°C), methanol (fp 11°C), ethanol (fp 13°C): Flammable at room temperature. No open flames. Ground containers during transfer to prevent static ignition.
+- Xylene (fp 27°C), turpentine (fp 35°C): Combustible. Standard precautions adequate for most operations.
+
+**General PPE requirements**: Chemical splash goggles for all solvent handling. Nitrile gloves (permeation resistance varies by solvent — check compatibility charts; butyl rubber for ketones, Viton for chlorinated solvents). Respiratory protection (organic vapor cartridge or supplied air) when LEV is insufficient. Fire extinguisher (CO₂ or dry chemical) within 15 meters of any solvent work area.
+
+**First aid**: Skin contact — flush with water for 15 minutes, remove contaminated clothing. Eye contact — flush with water for 15 minutes, seek medical attention. Inhalation — move to fresh air, administer oxygen if breathing is difficult. Ingestion — do NOT induce vomiting (aspiration risk for hydrocarbons). Seek immediate medical attention.
+
+## Limitations
+
+- **Azeotropes limit distillation purity**: Ethanol-water (95.6%), nitric acid-water (68%), and many solvent mixtures form azeotropes that cannot be separated by simple distillation. Breaking azeotropes requires extractive distillation, azeotropic distillation, or molecular sieves — adding complexity and energy cost.
+- **Environmental persistence of chlorinated solvents**: CCl₄, TCE, and perc resist biodegradation and persist in groundwater for decades. Dense non-aqueous phase liquids (DNAPLs) sink to aquifer bottoms, making remediation extremely difficult and expensive. Prevention through containment is far cheaper than cleanup.
+- **Solvent incompatibility**: Many solvents react dangerously with each other or with common materials. Acetone + chlorinated solvents can form explosive mixtures. Ether + strong oxidizers → violent reactions. Always check chemical compatibility before mixing solvents or storing them together.
+- **Purity requirements for semiconductor use**: Electronic-grade solvents require metallic impurities below 1 ppb — 1000× purer than ACS reagent grade. Achieving this purity demands dedicated distillation equipment, ultra-pure water for extraction, and Class 100 cleanroom handling — a significant infrastructure investment beyond standard chemical plant capability.
+- **Energy intensity of recovery**: Distillation recovery consumes 2-5 MJ/kg of recovered solvent. Large-scale solvent recovery can represent a significant fraction of total plant energy consumption. Solvent-free or aqueous alternatives should be evaluated before committing to solvent-intensive processes.
+
+## See Also
+
+- **[Distillation](distillation.md)**: Separation and purification of solvents by boiling point
+- **[Fermentation](fermentation.md)**: Ethanol production from biological feedstocks
+- **[Petrochemicals](petroleum-alternatives.md)**: Feedstock production for synthetic solvents
+- **[Acids](acids.md)**: Acid-base chemistry and complementary solvent systems
+- **[Coatings](coatings.md)**: Solvent use in paint, ink, and coating formulations
+- **[SEM Tech](sem-tech.md)**: Membrane-based separation as an alternative to distillation for solvent recovery
+- **[Health / Pharmacology](../health/pharmacology.md)**: Solvent extraction of active pharmaceutical compounds
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

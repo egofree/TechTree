@@ -199,3 +199,18 @@ Charcoal yield from wood pyrolysis: 20-35% by weight (higher with slower heating
 **Tar disposal**: Tar-laden water from scrubbers and filters is classified as hazardous waste in most jurisdictions (contains phenols, PAHs, and benzene derivatives). Treatment options: (1) thermal oxidation (burn in a dedicated furnace at 900-1200°C, destroys organics but requires fuel if water content is high), (2) biological treatment (acclimatized bacteria degrade phenols and light aromatics, but PAHs persist), (3) chemical oxidation (Fenton's reagent: H₂O₂ + Fe²⁺ generates hydroxyl radicals that oxidize organics, effective but costly), (4) separation and recycling (extract tars with solvent, recover phenol as a chemical product). The tar disposal problem is a significant environmental and economic challenge for gasification technology.
 
 Wood gasification technology occupies a pragmatic niche in the energy landscape: not suitable as a primary energy source for industrial civilization, but invaluable as a backup, supplementary, and distributed energy technology when petroleum is unavailable or unaffordable.
+
+## Limitations
+
+- **Tar production**: All gasifiers produce tar (complex aromatic hydrocarbons) that condenses in cool downstream equipment. Tar is the single greatest operational problem — it blocks pipes, fouls valves, and contaminates engines. Tar cracking (thermal or catalytic) adds complexity and reduces net efficiency by 5-15%.
+- **Low energy density of producer gas**: Wood gas has a heating value of only 4-7 MJ/Nm³ (vs 35-40 MJ/Nm³ for natural gas). This means gas pipes, compressors, and burners must be 5-10× larger for equivalent energy throughput. Wood gas is practical only for on-site or short-distance use — long-distance pipeline transport is uneconomical.
+- **Feedstock variability**: Wood moisture content (15-60% depending on seasoning), species density, and piece size all affect gasifier performance. Gasifiers must be derated for wet fuel (10-30% capacity loss). Consistent fuel preparation (drying, chipping to uniform size) adds cost and complexity.
+- **Scale limitations**: Wood gasification is practical up to ~10 MW thermal output. Above this scale, fuel supply logistics (gathering, transporting, and drying wood for a 10+ MW plant consuming 2-5 tonnes/hour of dry wood) become prohibitive. Coal or natural gas gasification is preferred for large-scale syngas production.
+
+## See Also
+
+- **[Petroleum Alternatives](petroleum-alternatives.md)**: Fossil fuel substitutes including biomass
+- **[Distillation](distillation.md)**: Fractional distillation of wood tar and creosote
+- **[Solvents](solvents.md)**: Turpentine and methanol from wood pyrolysis
+- **[Explosives](explosives.md)**: Charcoal as a component of black powder
+- **[Energy](../energy/index.md)**: Power generation from producer gas

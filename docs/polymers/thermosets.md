@@ -4,6 +4,14 @@
 
 Process-level reference for thermosetting polymers in the tech tree. Thermosets cross-link irreversibly during cure; they cannot be remelted or reformed. This makes them dimensionally stable, heat-resistant, and chemically durable. Feedstocks come from [Petrochemicals](../chemistry/petroleum-alternatives.md).
 
+## Overview
+
+Thermosetting polymers are plastics that undergo an irreversible chemical reaction (cross-linking) during curing, forming a three-dimensional molecular network. Unlike thermoplastics (which soften when heated and can be reprocessed), thermosets permanently set into their final shape — once cured, they cannot be melted, remolded, or recycled by simple reheating. This irreversible cross-linking is both their defining characteristic and their primary advantage: thermosets resist heat deformation, chemical attack, and creep far better than thermoplastics.
+
+The major thermoset families — phenolic (Bakelite), epoxy, unsaturated polyester, polyurethane, and melamine-formaldehyde — serve distinct roles: phenolics for electrical insulation and heat-resistant components; epoxies for high-performance adhesives, coatings, and composite matrices; polyesters for fiberglass-reinforced structures (boats, tanks, pipes); polyurethanes for foams, elastomers, and coatings; and melamine for decorative laminates and dinnerware. Thermosets account for roughly 15-20% of global plastic production by volume but occupy critical niches where thermoplastics cannot perform.
+
+This article covers the chemistry, processing, properties, and applications of each thermoset family, with emphasis on formulations and curing conditions achievable at different technology stages.
+
 ## Materials and Processes
 
 ### Phenol-Formaldehyde (Bakelite)
@@ -199,4 +207,14 @@ Ordered by approximate phase availability:
 | Tooling cost | Lower pressures, simpler molds | Higher pressures, precision molds required |
 | Impact resistance | Brittle (rigid cross-linked network) | Tough to brittle (depends on polymer) |
 | Applications | Electrical insulation, adhesives, composites | Consumer products, packaging, engineering parts |
+
+## See Also
+
+- **[Thermoplastics](thermoplastics.md)**: Reversibly meltable polymers — complementary processing
+- **[Composites](composites.md)**: Thermoset matrices (epoxy, polyester) in fiber-reinforced composites
+- **[Synthetic Polymers](synthetic.md)**: Synthetic elastomers and specialty polymers
+- **[Coatings](../chemistry/coatings.md)**: Thermoset-based paints and protective coatings
+- **[Adhesives](../chemistry/coatings.md)**: Epoxy and phenolic adhesive formulations
+- **[SEM Tech](../chemistry/sem-tech.md)**: PVC/CPVC binder used in SEM Tech membrane manufacturing
+
 [← Back to Polymers](index.md)

@@ -203,3 +203,19 @@ The Ostwald process converts ammonia to nitric acid in three steps, forming the 
 **Personal protective equipment (PPE)**: Acid splash suit (PVC or neoprene), chemical splash goggles (not safety glasses — goggles seal around the eyes), face shield over goggles for high-splash-risk operations, acid-resistant gloves (nitrile or neoprene, inspected for holes before each use), chemical apron for additional torso protection, rubber boots with pant legs outside the boots (acid running into boots is a severe burn hazard). Emergency shower and eyewash: within 10 seconds travel distance, tested weekly (verify flow and clean nozzles). PPE must be stored outside the acid area (not contaminated by acid vapors before donning).
 
 **Spill response**: Small acid spill (<5 L): contain with absorbent material (vermiculite, sand, or commercial acid absorbent pads), neutralize with sodium bicarbonate or lime (Ca(OH)₂), collect residue, dispose as hazardous waste. Large spill: evacuate area, establish perimeter, notify emergency response team. Do NOT flush large spills with water (generates heat and spreads the acid). Dam and contain, then neutralize gradually. For HF spills: calcium gluconate gel must be applied to any exposed skin immediately (within 60 seconds for best outcome). HF spill response kits (with Ca gluconate, CaCO₃ absorbent, and HF-specific instructions) staged at every location where HF is handled.
+
+## Limitations
+
+- **Corrosion-resistant materials requirement**: Concentrated acid handling demands specialized metallurgy. Sulfuric acid above 90% requires carbon steel (paradoxically, dilute H₂SO₄ is more corrosive than concentrated). Nitric acid requires 304L or 316L stainless steel. HF requires Monel, Hastelloy, or PTFE-lined equipment. Material selection errors cause rapid, dangerous equipment failure.
+- **Transportation and storage hazards**: Bulk acid transport requires DOT-rated tank trucks or railcars with specific corrosion allowances. Storage tanks must have secondary containment. No single material handles all acids — each requires its own materials-of-construction analysis.
+- **Waste acid disposal**: Spent acid streams from pickling, etching, and chemical synthesis cannot be discharged without treatment. Neutralization generates large volumes of salt-laden wastewater. Acid recovery (distillation, diffusion dialysis, or SEM Tech electrodialysis) is preferred over neutralization where the acid value justifies recovery.
+- **Energy intensity**: Contact process sulfuric acid plants generate significant waste heat and emit SO₂. Nitric acid plants emit NOₓ. Both require gas cleaning systems and contribute to industrial air pollution. Acid production is a major industrial energy consumer.
+
+## See Also
+
+- **[Alkalis](alkalis.md)**: Complementary acid-base chemistry (NaOH, Na₂CO₃ production)
+- **[Electrolysis](electrolysis.md)**: Chlor-alkali process producing HCl and Cl₂
+- **[Solvents](solvents.md)**: Acid-catalyzed solvent synthesis (ether from ethanol + H₂SO₄)
+- **[SEM Tech Electrodialysis](sem-tech-electrodialysis.md)**: Membrane-based acid recovery from waste streams
+- **[Distillation](distillation.md)**: Purification of volatile acids (HCl, HF, acetic acid)
+- **[Coatings](coatings.md)**: Acid etching and pickling of metal surfaces

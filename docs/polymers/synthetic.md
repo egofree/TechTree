@@ -203,4 +203,14 @@ The highest-volume synthetic rubber (produced at ~6 million tonnes/year globally
 | 1912 | Cellophane | Regenerated cellulose | First transparent film (viscose process) |
 | 1935 | Nylon 66 | Fully synthetic thermoplastic | First synthetic fiber (polyamide condensation) |
 | 1941 | PET (polyester) | Fully synthetic thermoplastic | Highest-volume synthetic fiber (ethylene glycol + terephthalic acid) |
+
+## See Also
+
+- **[Natural Polymers](natural.md)**: Rubber, gutta-percha, shellac, and other bio-based materials
+- **[Thermoplastics](thermoplastics.md)**: Melt-processable polymers (PE, PVC, nylon, PS)
+- **[Thermosets](thermosets.md)**: Crosslinked polymers (phenolic, epoxy, polyurethane)
+- **[Composites](composites.md)**: Fiber-reinforced polymer matrix materials
+- **[Petrochemicals](../chemistry/petroleum-alternatives.md)**: Monomer feedstock production
+- **[Rubber](rubber.md)**: Detailed rubber compounding and vulcanization
+
 [← Back to Polymers](index.md)

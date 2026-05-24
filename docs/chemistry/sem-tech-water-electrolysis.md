@@ -165,6 +165,48 @@ Even if technically successful, SEM Tech PEM electrolysis would face challenges:
 - **Scale**: SEM Tech is demonstrated at laboratory scale only. Industrial PEM electrolysis plants produce thousands of tonnes of hydrogen per year.
 
 
+## Step-by-Step Procedure
+
+The following procedure describes construction and operation of a bench-scale PEM water electrolysis cell using a SEM Tech membrane. This is a **projected procedure** — SEM Tech membranes have not been tested in PEM water electrolysis. Parameters are adapted from conventional PEM practice and SEM Tech's demonstrated chlor-alkali properties.
+
+### Phase 1: Fabricate PEM Membrane
+
+1. **Source cation exchange resin**: Strong acid cation resin (sulfonated polystyrene, IEC 1.8-2.2 meq/g, gel-type preferred for higher conductivity). Pulverize by ball milling to <150 μm. Sieve to remove >200 μm particles.
+2. **Prepare binder solution**: Dissolve PVC or CPVC (K-value 55-65) in THF at 12-18% w/v. Stir 2-4 hours until homogeneous. CPVC preferred for higher temperature tolerance in PEM service.
+3. **Mix PEM membrane slurry**: Combine resin powder at 50-60% by volume with binder solution. Mix on planetary mixer for 30-60 minutes. Target: uniform dispersion, no agglomerates >300 μm. Degas under vacuum 10 minutes.
+4. **Cast thin membrane**: Using a precision drawdown bar, cast slurry onto clean glass at 100-200 μm wet thickness. **Thinner is better** for PEM — target dry thickness 50-100 μm to minimize proton transport resistance. Multiple thin coats (2-3 layers at 50-80 μm wet) give better uniformity than one thick coat.
+5. **Dry and condition**: Air-dry 2-4 hours. Peel from glass. Condition in 0.5M H₂SO₄ for 12 hours (protonates all sulfonic acid sites). Rinse with deionized water. Store in DI water — never let dry.
+
+### Phase 2: Prepare Electrodes
+
+6. **Anode preparation (oxygen evolution)**: For bench-scale testing, use porous titanium felt or sintered titanium fiber (1-3 mm thick, porosity 70-80%). If catalyst coating is available, apply IrO₂ by thermal decomposition: paint with H₂IrCl₆ solution in isopropanol, dry at 100°C, calcine at 400°C for 10 minutes. Repeat 5-10 times for loading of 1-3 mg Ir/cm². For lowest-cost testing, use uncoated graphite plate — it will erode over days/weeks but suffices for proof-of-concept.
+7. **Cathode preparation (hydrogen evolution)**: Carbon cloth or carbon paper (toray paper, 200-400 μm thick). If catalyst is available, apply Pt/C catalyst ink (40% Pt on Vulcan XC-72 carbon, dispersed in Nafion solution + isopropanol) by brush painting or spray coating. Target: 0.5-2.0 mg Pt/cm². For lowest-cost testing, uncoated carbon cloth works — higher overpotential but functional.
+8. **Cut to size**: Cut membrane and both electrodes to identical active area (e.g., 50 mm × 50 mm for bench-scale cell). Mark electrode sides clearly (anode vs cathode).
+
+### Phase 3: Assemble the Cell
+
+9. **Prepare end plates**: Two titanium or stainless steel plates (10-15 mm thick) with machined flow fields (parallel channels, 1-2 mm wide × 1-2 mm deep, at 2-3 mm pitch). Drill inlet and outlet ports (3-6 mm) for water feed and gas exit on each plate. Install O-ring gaskets (Viton or EPDM) around the active area perimeter on each plate.
+10. **Assemble sandwich**: Place components on bottom end plate in order: (a) anode electrode (Ti felt or graphite, facing up), (b) SEM Tech membrane (hydrated, centered), (c) cathode electrode (carbon cloth, facing down), (d) top end plate. Ensure membrane completely covers both electrodes — any exposed electrode area causes direct gas mixing.
+11. **Clamp**: Bolt end plates together with 4-8 bolts in a symmetric pattern. Tighten gradually in a cross pattern to 2-5 N·m torque. Over-compression damages the membrane; under-compression causes leaks.
+12. **Seal test**: Pressurize the water feed channel with DI water at 0.1-0.3 bar. Check for cross-leakage (water appearing on the gas side). Verify electrical isolation between end plates (no short circuit through the assembly).
+
+### Phase 4: Connect Systems and Commission
+
+13. **Connect water feed**: Plumb a DI water reservoir to the anode inlet using PTFE or PVC tubing. Use a peristaltic pump at 5-20 mL/min (low flow rate for bench-scale). Water flows through the anode chamber, contacts the anode, and carries away produced oxygen gas.
+14. **Connect gas collection**: Connect anode gas outlet to an inverted water-filled graduated cylinder (to collect and measure O₂ volume). Connect cathode gas outlet to a separate cylinder (to collect H₂). Ensure both gas paths vent to a well-ventilated area or fume hood.
+15. **Connect power supply**: Connect a DC power supply (0-5V, 0-20A for bench-scale) — positive to anode, negative to cathode. Verify polarity with multimeter before connecting.
+16. **Start water flow**: Turn on the peristaltic pump. Verify water fills the anode chamber and exits the gas outlet without leaking. Check cathode side is dry initially — water will appear there as protons drag water through the membrane during operation.
+17. **Energize at low current**: Set power supply to constant current mode. Start at 50 mA/cm² (125 mA for a 2.5 cm² cell). Record cell voltage — should read 1.5-2.5V. If voltage exceeds 3.0V, check for poor electrical contact or membrane dehydration.
+18. **Ramp to operating current**: Gradually increase current density over 30-60 minutes. Target: 200-500 mA/cm² for SEM Tech membrane (conservative; conventional PEM operates at 1000-3000 mA/cm²). Monitor voltage at each step — voltage should increase linearly with current (ohmic behavior). A sudden voltage spike indicates membrane drying or gas blockage.
+19. **Monitor gas production**: H₂ should appear at the cathode gas outlet within seconds of applying current. Measure H₂ flow rate — at 100% Faradaic efficiency, 1 A produces 0.21 L/h of H₂ at STP. Compare measured vs theoretical to estimate Faradaic efficiency. Check H₂ purity with a gas analyzer if available — target >99.5%.
+20. **Steady-state operation**: Once stable at target current, log voltage, current, gas production rate, and temperatures every 15-30 minutes. A well-functioning cell maintains stable voltage for hours. Gradual voltage increase over days/weeks indicates membrane degradation or catalyst deactivation.
+
+### Phase 5: Shutdown and Maintenance
+
+21. **Shutdown**: Reduce current to zero. Turn off power supply. Continue water flow for 5 minutes to flush gases. Turn off pump. Drain water from both sides.
+22. **Membrane storage**: Remove membrane from cell. Store in DI water in a sealed container. Label with date and operating hours. Do not allow to dry — dried SEM Tech membranes may crack.
+23. **Performance tracking**: Record cumulative operating hours, average cell voltage, and Faradaic efficiency. Replace membrane when voltage at operating current increases >20% from initial value (indicating degradation). For SEM Tech membranes, projected replacement interval: 1,000-5,000 operating hours (versus 40,000-80,000 for Nafion).
+
 ## Membrane Fabrication for PEM Cells
 
 The SEM Tech membrane for water electrolysis would use the same fabrication process as for chlor-alkali cells, with specific adaptations. Strong acid cation resin beads (sulfonated polystyrene, ion exchange capacity 1.8-2.2 meq/mL) are pulverized to below 200 microns and dispersed at 40-60% loading by volume in PVC or CPVC binder dissolved in THF. The mixture is cast at 50-150 microns wet thickness using a drawdown bar or spray coating — thinner than chlor-alkali membranes to minimize proton transport resistance.

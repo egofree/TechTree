@@ -204,4 +204,19 @@ The physical arrangement of gas storage affects both safety and operational effi
 
 ---
 
+## Limitations
+
+- **Leak detection difficulty**: Small gas leaks (especially H₂ and He, which have tiny molecules) are difficult to detect by smell or visual inspection. Hydrogen leaks are invisible and odorless — a hydrogen flame is nearly invisible in daylight. Leak detection requires specialized equipment (hydrogen sensors, helium mass spectrometers). In complex distribution systems, locating the exact leak point can take hours.
+- **Material compatibility constraints**: No single material handles all gases. Copper acetylene welding requires that acetylene never contact copper (>65% Cu alloys) — it forms explosive copper acetylide. Oxygen service requires degreased, oil-free components — any hydrocarbon residue in an O₂ system is an explosion hazard. Fluorine attacks most metals. Each gas system demands its own materials analysis.
+- **Pressure rating limits**: Gas cylinder pressures (150-300 bar) require heavy-walled steel or composite-wound vessels. Distribution piping at lower pressures (1-15 bar) uses copper, stainless steel, or PTFE. Every component in the chain must be rated for the maximum possible pressure, including relief valve set points. A single under-rated component can fail catastrophically.
+- **Gas cylinder logistics**: High-pressure gas cylinders are heavy (30-80 kg each), require secure upright storage, periodic hydrostatic retesting (every 5-10 years), and careful handling. Large-volume gas users install bulk tanks (liquid O₂, N₂, Ar) to avoid cylinder logistics, but bulk tanks require concrete pads, vaporizers, and DOT permitting.
+
+## See Also
+
+- **[Vacuum Systems](vacuum.md)**: Low-pressure gas handling and vacuum pump technology
+- **[Dopant and Etch Gases](../chemistry/dopant-etch-gases.md)**: Specialty gas distribution for semiconductor manufacturing
+- **[Hydrogen and Silane](../chemistry/hydrogen-silane.md)**: Pyrophoric gas handling and safety
+- **[SEM Tech](../chemistry/sem-tech.md)**: Chlorine and hydrogen gas handling in chlor-alkali cells
+- **[Welding](../machine-tools/joining.md)**: Shielding gas (Ar, CO₂, He) distribution for welding
+
 *Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*

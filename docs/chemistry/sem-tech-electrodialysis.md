@@ -110,6 +110,49 @@ A SEM Tech electrodialysis stack is constructed from readily available materials
 
 **Assembly sequence**: (1) Place anode electrode on end plate. (2) Stack alternating CEM, diluate spacer, AEM, concentrate spacer until desired cell pair count is reached. (3) Place cathode electrode. (4) Install end plate with tie rods. (5) Torque tie rods evenly to specified compression. (6) Connect manifolds, power supply, and recirculation pumps. A 100-cell-pair stack with 0.1 m² active area per cell can be assembled by one person in 2-4 hours.
 
+## Step-by-Step Procedure
+
+### Phase 1: Fabricate Ion Exchange Membranes
+
+1. **Source cation exchange resin**: Strong acid cation resin beads (sulfonated polystyrene, gel or macroporous, IEC 1.8-2.2 meq/g). If pre-functionalized beads are unavailable, chloromethylate polystyrene beads and sulfonate with concentrated H₂SO₄ at 80-100°C for 4-8 hours. Wash until effluent pH >5.
+2. **Source anion exchange resin**: Strong base anion resin beads (quaternary ammonium functional groups, IEC 1.2-1.8 meq/g). Type I (trimethylamine) or Type II (dimethylethanolamine). Same SEM Tech manufacturing process applies.
+3. **Pulverize resin**: Ball-mill each resin type separately to <200 μm particle size. Use ceramic or plastic media — metal media contamination degrades ion exchange performance. Sieve to remove particles >250 μm. Target: 80% of particles between 50-150 μm.
+4. **Prepare binder solution**: Dissolve PVC or CPVC resin (K-value 55-65) in THF at 15-20% w/v concentration. Stir until fully dissolved (2-4 hours). CPVC preferred for higher temperature tolerance.
+5. **Mix membrane slurry (CEM)**: Combine cation resin powder (40-60% by volume) with PVC binder solution. Mix on a planetary mixer for 30-60 minutes to achieve uniform dispersion. Degas under vacuum to remove entrapped air bubbles.
+6. **Mix membrane slurry (AEM)**: Repeat step 5 with anion resin powder. Keep CEM and AEM slurries in clearly labeled separate containers — cross-contamination destroys selectivity.
+7. **Cast membranes**: Using a drawdown bar or adjustable film applicator, cast each slurry onto a clean glass plate at 200-400 μm wet thickness. Target dry thickness: 100-200 μm. For thicker membranes (higher mechanical strength, higher resistance), cast at 400-600 μm wet.
+8. **Dry and cure**: Air-dry for 2-4 hours until solvent evaporates. Peel membrane from glass plate. Post-condition in 1M NaCl solution for 12-24 hours to hydrate the resin phase and activate ion exchange sites. Rinse with deionized water. Store moist until use.
+
+### Phase 2: Fabricate Stack Components
+
+9. **Cut spacer gaskets**: Cut PVC or CPVC sheets (0.5-2.0 mm thick) to frame dimensions (e.g., 250 mm × 500 mm outer, 200 mm × 400 mm inner window). Drill manifold holes (inlet/outlet, 6-10 mm diameter) at corresponding positions on each frame. Diluate and concentrate frames have manifold holes on opposite sides to route flows through correct channels.
+10. **Prepare electrodes**: Cut graphite plates to match frame dimensions (200 mm × 400 mm active area). Drill or machine tab connections for power supply attachment. Clean surfaces with isopropanol. For longer life, coat anode with mixed metal oxide (RuO₂/IrO₂ on Ti expanded mesh) — but graphite is acceptable for ED where electrode reactions are minimal.
+11. **Cut end plates**: Prepare two thick PVC or steel plates (15-25 mm) with bolt holes matching the stack bolt pattern. Machine a recess for the electrode and a gasket groove for sealing.
+
+### Phase 3: Assemble the ED Stack
+
+12. **Layout and alignment**: Place bottom end plate on a flat surface. Position anode electrode in the recess. Place a rubber or PVC gasket around the electrode perimeter.
+13. **Stack cell pairs**: For each cell pair, place in order: (a) CEM membrane, (b) diluate spacer frame (manifold on diluate side), (c) AEM membrane, (d) concentrate spacer frame (manifold on concentrate side). Align manifold holes precisely — misaligned holes block flow.
+14. **Install cathode**: After the last cell pair, place the cathode electrode with a gasket.
+15. **Clamp**: Place top end plate. Insert tie rods through bolt holes. Hand-tighten all nuts in a star (cross) pattern. Then torque to 0.5-2.0 MPa in 3-4 incremental passes, maintaining even compression. Uneven compression causes internal leakage between diluate and concentrate channels.
+16. **Pressure test**: Connect a water supply to the diluate inlet. Flow deionized water at low pressure (0.1-0.3 bar). Check all seams and manifold connections for leaks. Tighten as needed. Repeat for concentrate channel.
+
+### Phase 4: Connect Systems and Commission
+
+17. **Connect plumbing**: Install two separate recirculation loops — one for diluate and one for concentrate. Each loop: feed tank → circulation pump (mag-drive or diaphragm, 5-50 L/min) → stack inlet manifold → stack outlet → back to tank. Install flow meters, pressure gauges, and sampling ports on both loops.
+18. **Connect power supply**: Connect a DC power supply (0-100V, 0-50A for bench-scale) to the electrodes. Positive terminal to anode, negative to cathode. Verify polarity with a multimeter before energizing — reversed polarity damages membranes.
+19. **Prepare feed solutions**: Fill diluate tank with the solution to be treated (e.g., brackish water at 3,000-5,000 mg/L TDS). Fill concentrate tank with a starting solution at similar concentration (or deionized water for initial operation). Volume: 10-50 liters per tank for bench-scale.
+20. **Start recirculation**: Turn on both circulation pumps. Verify flow through both channels — no flow indicates blocked manifolds. Adjust flow to 5-15 cm/s channel velocity (typical: 1-5 L/min for bench-scale stack). Verify no cross-leakage by checking conductivity in both tanks with pumps running but power OFF.
+21. **Apply voltage**: Set power supply to constant current mode. Start at 5 mA/cm² (low). Gradually increase to target current density (10-30 mA/cm²). Monitor stack voltage — expect 0.5-1.5V per cell pair. A 20-cell-pair stack at 1.0V/pair = 20V total.
+22. **Monitor performance**: Track diluate conductivity (should decrease over time) and concentrate conductivity (should increase). Measure product quality every 15-30 minutes. Typical batch desalination run: 30-120 minutes depending on starting TDS and target purity.
+23. **Shutdown**: When target conductivity is reached, turn off power supply, then turn off pumps. Drain and rinse both circuits with deionized water. Store membranes moist (do not let dry out — dried membranes crack and lose performance).
+
+### Phase 5: Maintenance and Cleaning
+
+24. **Routine cleaning (weekly)**: Circulate 0.1M HCl through both channels for 30 minutes to dissolve carbonate and hydroxide scale. Rinse with deionized water. Then circulate 0.1M NaOH for 30 minutes to remove organic fouling. Rinse thoroughly.
+25. **Polarity reversal (EDR mode)**: For scaling-prone feeds, reverse electrode polarity every 15-30 minutes. This reverses ion transport direction, dissolving nascent scale deposits before they harden. Requires a reversible DC power supply and double-throw valve arrangement to swap diluate and concentrate streams.
+26. **Membrane replacement**: SEM Tech membranes are inexpensive enough to replace semi-annually or annually. Disassemble stack, remove old membranes (recycle by grinding into filler), clean frames, install fresh membranes, reassemble. Total time: 2-4 hours for a bench-scale stack.
+
 ## Cost Comparison with Conventional ED
 
 | Component | Conventional ED Stack | SEM Tech ED Stack |

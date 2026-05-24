@@ -198,3 +198,11 @@ Aspergillus niger produces citric acid as a metabolic overflow product when grow
 ## Fermentation Water Quality
 
 **Process water requirements**: Fermentation water must be free of heavy metals (Fe <0.1 mg/L, Cu <0.01 mg/L, Zn <0.1 mg/L) that inhibit microbial growth, and free of chlorine (residual Cl₂ <0.1 mg/L, which kills microorganisms on contact). For large-scale operations, municipal water is typically treated by: (1) activated carbon filtration (removes chlorine and organics), (2) softening (removes Ca²⁺ and Mg²⁺ that can precipitate with media components), (3) deionization or reverse osmosis if needed for pharmaceutical-grade fermentations. Water quality is tested weekly for microbial count (<100 CFU/mL) and quarterly for heavy metals.
+
+## See Also
+
+- **[Solvents](solvents.md)**: Ethanol, methanol, and butanol production via fermentation
+- **[Petroleum Alternatives](petroleum-alternatives.md)**: Biochemical routes to organic chemicals
+- **[Soap](soap.md)**: Glycerol byproduct from saponification, also produced by fermentation
+- **[SEM Tech](sem-tech.md)**: Membrane-based separation for fermentation product recovery
+- **[Distillation](distillation.md)**: Ethanol recovery from fermentation broth

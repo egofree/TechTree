@@ -199,3 +199,18 @@ Argon constitutes 0.93% of atmospheric air, making it the third most abundant co
 **Molecular sieve adsorber life**: The adsorbent beds (activated alumina + 13X zeolite) lose capacity over time due to moisture cycling, thermal stress, and contamination. Typical adsorbent life: 3-7 years. Replacement cost: $50,000-200,000 per bed (the adsorbent is inexpensive but the plant shutdown for changeout is costly). Adsorbent degradation is monitored by tracking the CO₂ breakthrough time (if CO₂ appears at the adsorber outlet before the scheduled switch, the bed is exhausted).
 
 **Cold box maintenance**: The cold box is designed for zero maintenance access during operation. All internal equipment must last 2-4 years between major overhauls. When a warm-up is required (for column tray repair, heat exchanger inspection, or valve replacement), the entire cold box is brought to ambient temperature over 24-48 hours using controlled nitrogen heating. The warm-up causes thermal cycling of all internal components (from -180°C to +20°C), which can itself cause fatigue failure of supports and piping. Post-warm-up inspection: check all support brackets, piping connections, and instrumentation for cracks or displacement before restarting.
+
+## Limitations
+
+- **Energy intensity of cryogenic ASU**: A cryogenic air separation unit consuming 0.3-0.5 kWh per Nm³ of O₂ produced (or 200-400 kWh per tonne O₂) is one of the most energy-intensive separation processes in industry. The low temperature (-180°C) demands efficient heat exchange and insulation. PSA/VPSA systems are 30-50% less energy-intensive for O₂ but produce lower purity (90-95% vs 99.5%+).
+- **Scale economics**: Cryogenic ASUs are economical only at large scale (>50 tonnes O₂/day). Below this threshold, PSA or membrane separation is preferred despite lower purity. A bootstrap civilization may not have the demand to justify a cryogenic plant initially.
+- **Cold box inflexibility**: The cryogenic cold box is designed for a specific product slate (O₂/N₂/Ar ratios). Changing the product mix requires physical modifications to column internals — not a simple control adjustment. Plants are purpose-built for their customers.
+- **Start-up time**: A cryogenic ASU requires 12-48 hours to reach steady-state from a cold start (cooling the heat exchangers and columns from ambient to -180°C). PSA systems reach full production in minutes.
+
+## See Also
+
+- **[Hydrogen and Silane](hydrogen-silane.md)**: Hydrogen production requiring air-separated nitrogen and oxygen
+- **[Vacuum Systems](../gas-handling/vacuum.md)**: Vacuum pumps and systems using cryogenic principles
+- **[Dopant and Etch Gases](dopant-etch-gases.md)**: Semiconductor gases requiring ultra-high-purity N₂, O₂, and Ar
+- **[Glass Melting](../glass/basic.md)**: O₂-enriched combustion for glass furnaces
+- **[Steelmaking](../metals/steelmaking.md)**: O₂ lancing and BOF process requiring tonnage oxygen

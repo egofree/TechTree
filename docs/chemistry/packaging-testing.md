@@ -5,6 +5,12 @@
 > **Timeline**: Years 40-70
 > **Outputs**: packaged_ics, tested_ics, yield_data
 
+## Overview
+
+Semiconductor packaging and testing transforms bare silicon die into reliable, handled integrated circuits ready for assembly onto circuit boards. After wafer fabrication produces functioning die, they must be singulated, attached to a substrate, electrically connected (wire bonding), encapsulated for protection, and tested at multiple stages to ensure functionality and long-term reliability. Packaging determines the IC's physical form factor, thermal performance, and environmental protection; testing verifies that every device meets its electrical, mechanical, and lifetime specifications.
+
+The packaging and testing stage is often the bottleneck for semiconductor production — while a modern fab produces thousands of wafers per month, the test floor must probe every die individually, package the good ones, and burn-in test each packaged part. Test cost can represent 5-10% of total die cost for complex devices, and yield at wafer sort directly determines fab economics (a 10% yield improvement on a high-volume product is worth millions). This article covers cleanroom infrastructure, die preparation, packaging processes, wire bonding, test methods, reliability qualification, and quality control systems.
+
 ### Cleanroom Consumables
 
 **HEPA/ULPA filter media**:
@@ -199,3 +205,22 @@ ICH (International Council for Harmonisation) guidelines define standard conditi
 ## Semiconductor Grade Chemical Specifications
 
 **Ultra-pure water (UPW)**: Used for all wafer rinsing steps. Resistivity: 18.2 MΩ·cm at 25°C (theoretical maximum for pure water). TOC (total organic carbon): <1 ppb. Particles: <1000 particles/L ≥0.05 μm. Dissolved oxygen: <10 ppb (oxygen in rinse water causes native oxide growth on silicon). Bacteria: <1 CFU/100 mL. Metals: <0.1 ppb each for Fe, Cu, Ni, Zn. UPW production: municipal water → multimedia filter → softener → activated carbon → RO (reverse osmosis) → EDI (electrodeionization) → UV sterilization → mixed bed ion exchange → 0.05 μm ultrafiltration → distribution loop (continuous recirculation at 1-3 m/s to prevent bacterial growth).
+
+## Limitations
+
+- **Test coverage gap**: No test can prove a device is defect-free — tests can only detect specific failure modes. Design-for-test (DFT) structures improve coverage but cannot exercise every transistor in a complex SoC. Typical stuck-at fault coverage: 95-99%. Untested defects escape to the field.
+- **Burn-in trade-off**: Longer burn-in catches more infant mortality failures but reduces yield and increases cost. The optimal burn-in duration balances field failure cost against test cost — for consumer electronics, shorter burn-in (24-48 hours) is economically justified; for automotive or medical, longer burn-in (168+ hours) despite lower throughput.
+- **Package parasitics**: Wire bonds add 0.5-2.5 nH inductance and 0.02-0.05 pF capacitance per bond — limiting high-speed signal integrity. Flip-chip bonding (solder bumps directly on die, no wires) reduces parasitics by 10× but requires underfill and more complex substrate design.
+- **Thermal management limits**: Plastic encapsulation (epoxy molding compound) has thermal conductivity of only 0.6-1.0 W/m·K — poor compared to metals. High-power devices (>5 W) require thermal vias, copper heat spreaders, or exposed die pads to conduct heat out of the package. Thermal resistance (θJA) is often the binding constraint on maximum power dissipation.
+- **Moisture sensitivity**: Plastic packages absorb moisture (MSL — moisture sensitivity level). During solder reflow, absorbed moisture rapidly expands, causing "popcorn cracking" of the package. MSL-rated parts must be baked dry and used within a specified floor life after opening the moisture-barrier bag.
+- **Probe card wear**: Tungsten-rhenium probe needles degrade after 100,000-500,000 touchdowns, increasing contact resistance and causing false test failures. Probe card replacement is a significant recurring cost ($5,000-50,000 per card).
+
+## See Also
+
+- **[Dopant and Etch Gases](dopant-etch-gases.md)**: Gas supply for etching and doping during wafer fabrication
+- **[Hydrogen and Silane](hydrogen-silane.md)**: Feedstock gases for CVD silicon deposition
+- **[Vacuum Systems](../gas-handling/vacuum.md)**: Vacuum technology for deposition and etch processes
+- **[Solvents](solvents.md)**: Ultra-pure solvents for wafer cleaning (RCA clean)
+- **[Thermoplastics](../polymers/thermoplastics.md)**: Polymer materials for packaging and cleanroom consumables
+- **[Thermosets](../polymers/thermosets.md)**: Epoxy molding compounds for IC encapsulation
+- **[Analytical Testing](solvents.md)**: Titration, spectrophotometry, and chromatography methods

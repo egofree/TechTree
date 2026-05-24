@@ -199,4 +199,18 @@ Beyond the standard trichlorosilane route, several alternative paths to silane e
 **Water Electrolyzer Types**: Alkaline electrolysis (AEL) uses 25-30% KOH electrolyte at 60-90C, non-noble metal electrodes (Ni), produces H2 at 99.5-99.9% purity, energy consumption 4.5-5.5 kWh/Nm3, stack lifetime 60,000-90,000 hours. Proton exchange membrane (PEM) uses solid polymer electrolyte (Nafion membrane) at 50-80C, noble metal catalysts (Pt cathode, Ir/IrO2 anode), higher current density 1-3 A/cm2 vs 0.2-0.5 for AEL, produces H2 at 99.99% purity directly, energy 4.0-5.0 kWh/Nm3, but membrane cost $500-1000/m2 and limited Ir availability constrain scaling. Solid oxide electrolysis (SOEC) at 700-900C uses ceramic electrolyte (YSZ), can co-electrolyze H2O + CO2 for syngas production, electrical efficiency up to 90% (LHV) with waste heat integration, but thermal cycling degradation limits lifetime to 10,000-20,000 hours.
 For bootstrapping, alkaline electrolysis is the clear choice: proven technology since 1800, no noble metal dependency, longest lifetime, lowest cost ($1000-2000/kW installed), and 99.5% purity sufficient for most applications (further purified with Pd membrane if needed for semiconductor use).
 
+## Limitations
+
+- **Pyrophoric hazards**: Silane (SiH₄) ignites spontaneously in air at concentrations above 2-3% — no ignition source needed. Trichlorosilane (TCS) also ignites on air contact. These materials demand inert-atmosphere handling (N₂ or Ar purged systems) at every stage: production, purification, transport, and use. A single SiH₄ leak can cause a facility-destroying explosion.
+- **Polysilicon energy cost**: Siemens reactor polysilicon production consumes 80-120 kWh/kg of polysilicon — among the most energy-intensive manufacturing processes. Fluidized bed reactor (FBR) technology reduces this to 15-25 kWh/kg but produces lower-purity silicon with higher carbon content. For bootstrap semiconductor production, the energy demand is a major infrastructure challenge.
+- **Ultra-purification difficulty**: Semiconductor-grade polysilicon requires impurity levels below 1 ppb for most elements (10⁻¹⁰ atomic fraction). Achieving this from metallurgical-grade silicon (98-99% purity) requires multiple chemical conversion and distillation steps. Each step introduces yield loss and contamination risk.
+- **Chlorosilane corrosion**: TCS, DCS, and STC are corrosive and hydrolyze to HCl and silicic acid on contact with moisture. Equipment must be stainless steel 316L (minimum) with welded connections — no threaded fittings. Leaks produce HCl gas, attacking both equipment and personnel.
+
+## See Also
+
+- **[SEM Tech Water Electrolysis](sem-tech-water-electrolysis.md)**: Green hydrogen production for polysilicon manufacturing
+- **[Dopant and Etch Gases](dopant-etch-gases.md)**: Gas delivery and abatement systems for semiconductor fabs
+- **[Vacuum Systems](../gas-handling/vacuum.md)**: Vacuum technology for CVD deposition
+- **[Electrolysis](electrolysis.md)**: Alkaline water electrolysis for hydrogen production
+
 *Part of the [Bootciv Tech Tree](../index.md) - [Chemistry](./index.md) - [All Domains](../index.md)*

@@ -201,4 +201,20 @@ Reversion is primarily a concern with natural rubber (synthetic rubbers like SBR
 
 - Compounding uses [Carbon Black](../energy/charcoal.md) and [Alkalis](../chemistry/alkalis.md). Equipment from [Machine Tools](../machine-tools/joining.md). Seals for [Gas Handling](../gas-handling/basic.md). Related to [Natural](../polymers/natural.md) rubber.
 
+## Limitations
+
+- **Ozone cracking**: Rubber (both natural and synthetic) cracks when exposed to ozone (O₃) at concentrations as low as 1-5 ppb. Ozone attacks carbon-carbon double bonds at the rubber surface, initiating cracks that propagate rapidly under strain. Antiozonants (p-phenylenediamine derivatives, 1-3 phr) protect tire sidewalls but deplete over time. Ozone cracking is the primary failure mode for static rubber seals in outdoor service.
+- **Temperature limitations**: Natural rubber becomes brittle below -50°C and softens above 100°C (continuous service). Nitrile rubber extends oil resistance but degrades above 120°C. Silicone rubber handles -60 to 200°C but has poor mechanical strength. No single elastomer combines wide temperature range, oil resistance, and high strength — material selection is always a compromise.
+- **Allergic reactions**: Natural rubber latex proteins cause Type I hypersensitivity (anaphylaxis) in 1-6% of the general population and up to 17% of healthcare workers with chronic exposure. Powdered latex gloves aerosolize proteins, spreading the allergen. Synthetic alternatives (nitrile, neoprene) have largely replaced latex in medical settings.
+- **Recycling difficulty**: Vulcanized rubber cannot be remelted (crosslinked network). Tire recycling options: shredding for road base/fill, crumb rubber for playground surfaces, pyrolysis (recover carbon black and oil), or devulcanization (break sulfur crosslinks chemically — expensive and produces inferior rubber). Over 1 billion waste tires are generated annually worldwide.
+
+## See Also
+
+- **[Natural Polymers](natural.md)**: Natural rubber tapping, processing, and vulcanization
+- **[Synthetic Polymers](synthetic.md)**: Synthetic elastomers (SBR, nitrile, neoprene, silicone)
+- **[Composites](composites.md)**: Rubber-modified composites and impact-resistant laminates
+- **[Gutta-Percha](gutta-percha.md)**: Non-elastomeric natural polyisoprene
+- **[Coatings](../chemistry/coatings.md)**: Rubber-based coatings and sealants
+- **[Gas Handling](../gas-handling/basic.md)**: Rubber seals, gaskets, and O-rings for gas systems
+
 [← Back to Polymers](index.md)

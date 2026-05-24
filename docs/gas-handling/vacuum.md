@@ -198,4 +198,18 @@ The cleanliness of components installed in a vacuum system directly determines t
 
 ---
 
+## Limitations
+
+- **Ultimate pressure limits**: Each pump type has a practical lower pressure limit: rotary vane ~10⁻³ Torr, diffusion pump ~10⁻⁸ Torr, turbomolecular ~10⁻¹⁰ Torr, cryopump ~10⁻¹¹ Torr. Achieving lower pressures requires combining pump types (roughing pump + high-vacuum pump) and careful management of outgassing from chamber walls and internal surfaces.
+- **Outgassing dominates at high vacuum**: Below 10⁻⁶ Torr, gas load from outgassing (water vapor desorbing from chamber walls, dissolved gas diffusing from bulk materials) exceeds the gas load from leaks. Achieving UHV requires bake-out (heating the entire chamber to 150-400°C for 24-72 hours while pumping) to drive off adsorbed water and reduce outgassing rates by 100-10,000×.
+- **Vibration**: Turbomolecular pumps spinning at 40,000-60,000 RPM transmit vibration to the chamber. Vibration-sensitive applications (SEM, TEM, atomic force microscopy) require vibration isolation or alternative pump technology (ion pumps + NEG for UHV, which have no moving parts).
+- **Maintenance intervals**: Rotary vane pumps require oil changes every 3-6 months. Diffusion pump fluid degrades over 1-3 years. Turbomolecular pump bearings last 3-5 years. Cryopumps require regeneration (warm-up to release captured gas) every 4-24 hours depending on gas load. Vacuum system maintenance is a recurring operational cost.
+
+## See Also
+
+- **[Gas Handling Basics](basic.md)**: Positive-pressure gas distribution, piping, and valves
+- **[Dopant and Etch Gases](../chemistry/dopant-etch-gases.md)**: Gas panel design and scrubber systems for semiconductor fabs
+- **[Hydrogen and Silane](../chemistry/hydrogen-silane.md)**: Vacuum requirements for CVD silicon deposition
+- **[Packaging and Testing](../chemistry/packaging-testing.md)**: Vacuum requirements for IC packaging (hermetic sealing)
+
 *Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*

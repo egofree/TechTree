@@ -215,3 +215,19 @@ Faraday's first law of electrolysis: the mass of substance deposited or dissolve
 **Chlor-alkali hydrogen utilization**: The H₂ byproduct (0.028 tonnes H₂ per tonne Cl₂) is a valuable co-product. Uses: HCl synthesis (H₂ + Cl₂ → 2HCl), fuel for boiler or furnace (lower heating value 120 MJ/kg), hydrogenation reactions in chemical synthesis, or purified for semiconductor use. In many plants, H₂ provides a significant portion of the total site fuel requirement. Failure to utilize H₂ wastes energy and creates a flammable gas disposal problem (flaring).
 
 **Aluminum smelter fluoride emissions**: HF, CF₄, and C₂F₆ emissions from Hall-Héroult cells are controlled by dry scrubbing: alumina (Al₂O₃) is injected into the cell exhaust gas, where it reacts with HF to form aluminum fluoride (AlF₃). The fluoridated alumina is then fed to the cells (closing the fluoride loop). CF₄ and C₂F₆ are formed during anode effects (voltage spikes from low alumina concentration) and are extremely potent greenhouse gases (GWP₁₀₀: CF₄ = 6,630, C₂F₆ = 11,100). Modern potlines minimize anode effects through automated alumina feeding and computer control, reducing PFC emissions to <0.1 kg CF₄ per tonne Al.
+
+## Limitations
+
+- **High electricity consumption**: Electrolysis is inherently energy-intensive. Chlor-alkali membrane cells consume 2,100-2,400 kWh/tonne Cl₂. Aluminum Hall-Héroult cells consume 13,000-15,000 kWh/tonne Al. Copper electrorefining consumes 250-350 kWh/tonne Cu. These processes are viable only where cheap electricity is available.
+- **Membrane lifetime and cost**: Perfluorinated membranes (Nafion) for chlor-alkali cost $500-1,000/m² and last 3-7 years. SEM Tech membranes reduce this to <$10/m² but with shorter projected lifetime (0.5-1 year). Membrane failure causes product contamination and requires immediate plant shutdown for replacement.
+- **Product purity constraints**: Membrane cell NaOH contains 30-32% NaOH with ~50 ppm NaCl. For some applications (rayon production, certain chemical syntheses), even this low NaCl level is unacceptable, requiring further purification. Diaphragm cells produce 10-12% NaOH with 15% NaCl — far less pure.
+- **Anode and cathode degradation**: Dimensionally stable anodes (DSA, RuO₂/IrO₂ on Ti) last 5-8 years in chlor-alkali service. Nickel cathodes last 10+ years but develop roughness that increases hydrogen overvoltage. Electrode replacement is a scheduled maintenance event requiring full cell disassembly.
+
+## See Also
+
+- **[SEM Tech](sem-tech.md)**: Low-cost ion exchange membranes for electrolysis cells
+- **[SEM Tech Water Electrolysis](sem-tech-water-electrolysis.md)**: PEM hydrogen production with SEM Tech membranes
+- **[Alkalis](alkalis.md)**: NaOH production and applications
+- **[Acids](acids.md)**: HCl and acid production linked to chlor-alkali process
+- **[Hydrogen and Silane](hydrogen-silane.md)**: Hydrogen as a feedstock for silane and semiconductor gases
+- **[Aluminum Production](../metals/aluminum.md)**: Hall-Héroult electrolysis for aluminum

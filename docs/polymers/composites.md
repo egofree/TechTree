@@ -2,9 +2,23 @@
 
 > **Node ID**: polymers.composites
 
-Fiber-reinforced polymer composites combine high-strength fibers with a binding
-matrix resin to produce materials stronger and lighter than either component
-alone. Processes, materials, and phase dependencies for each family.
+## Overview
+
+Fiber-reinforced polymer composites combine high-strength fibers (glass, carbon, aramid) with a binding matrix resin (polyester, epoxy, vinyl ester) to produce materials stronger and lighter than either component alone. Composites dominate aerospace structures, marine hulls, chemical-resistant tanks, electrical enclosures, and sporting goods — anywhere the combination of high strength-to-weight ratio, corrosion resistance, and design flexibility justifies the manufacturing effort.
+
+The key advantage of composites over metals is **anisotropy**: fibers can be oriented to carry load in the directions where strength is needed, without wasting material on directions that see little stress. A steel beam is equally strong in all directions (isotropic), but a composite laminate can be 5× stronger along the fiber direction than across it — enabling highly optimized structures. The trade-off is manufacturing complexity: composite properties depend on fiber type, fiber volume fraction, matrix selection, layup method, and cure cycle, all of which must be controlled simultaneously.
+
+This article covers fiber properties, layup methods, matrix selection, manufacturing techniques, and phase-dependent milestones for composite production.
+
+## Limitations
+
+- **Anisotropic properties**: Composites are strong along the fiber direction but weak between plies (interlaminar shear). Delamination — separation of layers — is the primary failure mode under impact or cyclic loading. Design must account for through-thickness stresses that metals handle naturally.
+- **Temperature limits**: Polyester and vinyl ester matrices soften above 80-120°C. Epoxy systems reach 120-180°C. High-temperature applications (engine components, reentry structures) require polyimide or bismaleimide resins (200-300°C service) — significantly more expensive and harder to process. None approach the 500-1000°C capability of metals.
+- **Quality inspection difficulty**: Voids, delaminations, fiber misalignment, and dry spots (insufficient resin wetting) are internal defects invisible to visual inspection. Ultrasonic C-scan or X-ray inspection is required for structural parts — adding cost and complexity. Hand layup quality depends heavily on operator skill and is difficult to standardize.
+- **Repair complexity**: Damaged composites cannot be welded like metals. Repair requires grinding out the damaged area, layering new fabric and resin, and curing — a skilled, time-consuming process. Repaired areas rarely match original strength (typically 60-80% of parent laminate).
+- **Recycling challenge**: Thermoset matrix composites cannot be remelted. Recycling options are limited to grinding into filler (low-value), pyrolysis (burn off resin, recover fiber — degrades fiber properties 10-30%), or solvent dissolution (recovers clean fiber but requires harsh chemicals). Carbon fiber recycling is economically viable at scale; fiberglass recycling is not.
+- **Moisture absorption**: Epoxy and polyester matrices absorb 0.5-2.0% moisture by weight over time. Moisture plasticizes the matrix, reducing Tg by 20-40°C and decreasing stiffness and strength. Composite structures in marine or humid environments must be designed with degraded "wet" properties, not dry-room values.
+- **UV degradation**: Polyester and epoxy resins degrade under UV exposure (surface chalking, microcracking). UV-resistant gel coats or paint systems are required for outdoor exposure.
 
 ## Fiber Properties
 

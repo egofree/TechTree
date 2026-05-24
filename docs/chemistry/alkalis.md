@@ -210,3 +210,19 @@ The lime cycle (CaCO₃ → CaO → Ca(OH)₂ → CaCO₃) is central to alkali 
 **Soda ash waste**: Spent or off-spec Na₂CO₃ can be redirected to glass batch as a cullet replacement, where it serves as the flux to lower silica melting temperature. Soda ash waste is also usable in water softening (precipitates Ca²⁺ and Mg²⁺ as carbonates). This circular routing avoids disposal entirely.
 
 **Lime sludge from causticization**: The CaCO₃ sludge from the lime-soda process can be reburned in the lime kiln at 900-1000°C to regenerate CaO (CaCO₃ → CaO + CO₂), which is then slaked back to Ca(OH)₂ for reuse, closing the lime loop. This recycling reduces limestone consumption by 80-90% and eliminates the disposal problem for the largest waste stream in alkali production.
+
+## Limitations
+
+- **Chlorine co-production**: The chlor-alkali process produces Cl₂ and NaOH in a fixed 1:1.12 mass ratio. Chlorine demand does not always match caustic demand, creating market imbalances. Regions with high pulp-and-paper or alumina refining demand (caustic-intensive) may lack matching chlorine consumers, and vice versa.
+- **Solvay ammonia consumption**: The Solvay process releases NH₃ from ammonium chloride by reaction with lime (CaO). Ammonia recovery is 95-98% — not 100%. Makeup NH₃ consumption is 1-5 kg per tonne Na₂CO₃, requiring a parallel Haber-Bosch ammonia plant or external NH₃ supply.
+- **Lime requirement**: Both causticization and Solvay processes consume limestone (CaCO₃) and produce lime sludge (CaCO₃ or CaCl₂). The lime loop is not fully closed — continuous limestone quarrying is required at 1.0-1.5 tonnes CaCO₃ per tonne NaOH (causticization) or 1.2-1.8 tonnes per tonne Na₂CO₃ (Solvay).
+- **Energy intensity**: Electrolytic caustic soda production consumes 2,100-2,500 kWh per tonne NaOH. The Solvay process uses thermal energy (steam) rather than electricity but still requires 7-12 GJ per tonne Na₂CO₃.
+
+## See Also
+
+- **[Solvents](solvents.md)**: NaOH as a reagent and cleaning agent
+- **[Electrolysis](electrolysis.md)**: Chlor-alkali membrane cell technology
+- **[SEM Tech](sem-tech.md)**: Low-cost ion exchange membranes for chlor-alkali cells
+- **[Solvay Process](solvay.md)**: Detailed sodium carbonate production
+- **[Acids](acids.md)**: Complementary acid-base chemistry
+- **[Soap](soap.md)**: NaOH in saponification

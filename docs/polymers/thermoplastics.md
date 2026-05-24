@@ -4,6 +4,12 @@
 
 Process-level reference for thermoplastics relevant to the tech tree. Covers synthesis routes, processing conditions, properties, and key applications. Feedstocks come from [Petrochemicals](../chemistry/petroleum-alternatives.md); polymerization reactors and extruders rely on the Machine Tools stage.
 
+## Overview
+
+Thermoplastic polymers are plastics that soften when heated and harden when cooled — a reversible process that enables melting, shaping, and recycling. Unlike thermosets (which permanently crosslink during cure), thermoplastics can be repeatedly remelted and reprocessed, making them the dominant class of polymers by volume. Global thermoplastic production exceeds 350 million tonnes/year, with polyethylene alone accounting for over 100 million tonnes.
+
+The thermoplastics in this article span a wide range of capability: from polyethylene (achievable at Chemistry stage with high-pressure reactors) through PVC and nylon (Chemistry–Vacuum stages) to PTFE and polycarbonate (advanced petrochemical industry). Processing methods — injection molding, extrusion, blow molding, thermoforming, compression molding — convert raw polymer granules into finished products, and the choice of method depends on part geometry, production volume, and available tooling budget.
+
 ## Polymer Processes
 
 ### Polyethylene (PE)
@@ -204,6 +210,26 @@ Thermoplastics can be reprocessed by grinding finished products back into granul
 | Compression molding | Flat/ simple parts | 2-10 min cycle | Low tooling | Thermosets, rubber, large parts |
 
 All thermoplastic processing methods share the fundamental cycle: heat above melt temperature → shape under pressure or vacuum → cool below solidification temperature → remove finished part. The choice of process depends on part geometry, production volume, material, and available tooling budget.
+
+## Limitations
+
+- **Thermal degradation**: Every pass through a melt-processing cycle degrades the polymer chain length (chain scission), reducing molecular weight and therefore mechanical properties. Typical property loss: 5-10% per reprocessing cycle. After 3-5 cycles, recycled material may be unsuitable for the original application and must be downcycled to less demanding uses.
+- **Creep and stress relaxation**: Thermoplastics deform continuously under sustained load (creep), even at room temperature. A polyethylene pipe under constant internal pressure slowly expands over years. Metals exhibit negligible creep below their recrystallization temperature; thermoplastics creep at temperatures as low as 0.3× Tm. Design for long-term loads uses creep modulus data, not short-term tensile data.
+- **Temperature sensitivity**: Most commodity thermoplastics (PE, PP, PVC) lose structural integrity above 80-100°C. Engineering thermoplastics (nylon, polycarbonate, PBT) extend this to 120-150°C. Only high-performance polymers (PTFE, PEEK, polyimide) serve above 200°C — at 5-50× the cost. Metal replacement at elevated temperature remains limited.
+- **UV and environmental degradation**: Most thermoplastics degrade under UV exposure (chain scission, surface chalking, embrittlement). Outdoor applications require UV stabilizers (HALS — hindered amine light stabilizers, 0.1-0.5% loading) or protective coatings. Polyethylene and polypropylene are particularly susceptible; PVC and acrylics are more UV-resistant.
+- **Flammability**: Most thermoplastics burn readily (PE, PP, PS are essentially hydrocarbon fuels). Flame retardants (halogenated, phosphorus-based, or mineral fillers like Al(OH)₃) are required for building, transportation, and electrical applications — adding cost and often degrading mechanical properties.
+- **Weld line weakness**: In injection molding, where two flow fronts meet, the resulting weld line has 50-80% of the base material strength (incomplete molecular entanglement across the interface). Critical load-bearing features must be designed to avoid weld lines in high-stress areas.
+- **Moisture sensitivity**: Nylons absorb 0.5-2.5% moisture by weight, causing dimensional swelling (0.2-0.5%) and reducing stiffness by 30-50% from dry to saturated conditions. Dry-as-molded properties overstate real-world performance unless the part operates in a dry environment.
+
+## See Also
+
+- **[Thermosets](thermosets.md)**: Irreversibly crosslinked polymers — higher temperature capability but cannot be reprocessed
+- **[Composites](composites.md)**: Fiber-reinforced polymers using thermoplastic or thermoset matrices
+- **[Synthetic Polymers](synthetic.md)**: Synthetic elastomers and specialty polymers
+- **[Natural Polymers](natural.md)**: Rubber, gutta-percha, shellac, and other bio-based polymers
+- **[Petrochemicals](../chemistry/petroleum-alternatives.md)**: Monomer and feedstock production
+- **[Coatings](../chemistry/coatings.md)**: Paint and protective coating formulations using thermoplastic binders
+- **[Solvents](../chemistry/solvents.md)**: Solvents for polymer processing and cleaning
 
 ---
 

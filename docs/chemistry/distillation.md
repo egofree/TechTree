@@ -199,3 +199,18 @@ Feed: preheated crude oil (350-380°C from tube-still furnace) enters as partial
 
 **Optimization tradeoff**: Increasing the number of theoretical plates (taller column, more capital) allows operation at lower reflux ratio (less energy, lower operating cost). The economic optimum occurs where the annualized capital charge for the additional plates equals the annual energy savings from reduced reflux. This tradeoff is evaluated by plotting total annualized cost (capital + energy) versus number of plates, finding the minimum. Typical result: the optimum reflux ratio is 1.2-1.5× minimum reflux, and the optimum number of plates is 2-3× the minimum number.
 Distillation remains the backbone of chemical separation worldwide, and its mastery is prerequisite for any civilization rebuilding its chemical industry from basic principles.
+
+## Limitations
+
+- **Azeotropes**: Many liquid mixtures form azeotropes (constant-boiling mixtures that cannot be separated by simple distillation). Ethanol-water (95.6%), nitric acid-water (68%), and hydrochloric acid-water (20.2%) are common examples. Breaking azeotropes requires extractive distillation, azeotropic distillation, pressure-swing distillation, or molecular sieves — all adding complexity.
+- **Energy intensity**: Distillation accounts for 40-60% of the energy used in the chemical industry. The latent heat of vaporization for water is 2,260 kJ/kg; for common organic solvents, 300-600 kJ/kg. At industrial scale, distillation column reboilers consume enormous quantities of steam. Heat pump distillation and multi-effect distillation can reduce energy by 30-50% but increase capital cost.
+- **Thermal degradation**: Heat-sensitive compounds (pharmaceuticals, polymers, food products) decompose at distillation temperatures. Vacuum distillation reduces boiling points (and thermal stress) but adds equipment complexity. Short-path or wiped-film distillation minimizes residence time at elevated temperature.
+- **Column fouling**: Fouling deposits (polymers, coke, salts, corrosion products) accumulate on trays and packing over time, reducing separation efficiency and increasing pressure drop. Severe fouling requires plant shutdown for cleaning (mechanical or chemical). Crude oil distillation columns require decoking every 1-5 years.
+
+## See Also
+
+- **[Air Separation](air-separation.md)**: Cryogenic distillation of air into N₂, O₂, Ar
+- **[Solvents](solvents.md)**: Solvent purification and recovery by distillation
+- **[Petroleum](petroleum-alternatives.md)**: Crude oil distillation and fractionation
+- **[Fermentation](fermentation.md)**: Ethanol recovery from fermentation broth
+- **[Wood Gasification](wood-gasification.md)**: Tar and wood vinegar distillation from producer gas

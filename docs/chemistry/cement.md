@@ -214,3 +214,18 @@ The four clinker minerals hydrate at different rates and contribute to concrete 
 **Setting time (Vicat needle)**: A 1 mm diameter needle with 300 g total load penetrates a cement paste sample at standard consistency. Initial set: penetration ≤ 5 mm from base plate. Final set: needle makes no visible impression. ASTM C150 / EN 197-1 require initial set ≥ 45 minutes and final set ≤ 375 minutes for Type I OPC. Accelerators (CaCl₂ at 1-2% by cement weight) reduce initial set to 15-30 minutes for cold weather concreting.
 
 **Soundness (expansion testing)**: Le Chatelier method: cement paste placed in a split brass mold (indicator needles 170 mm apart), cured 24 hours in water at 20°C, then boiled 3 hours. Expansion must not exceed 10 mm. Autoclave method (ASTM C151): cement paste bars steamed at 2.0 MPa (215°C) for 3 hours; expansion must not exceed 0.8%. These tests detect excessive free lime (CaO) or periclase (MgO) that hydrate slowly in hardened concrete, causing delayed expansion and cracking months or years after placement.
+
+## Limitations
+
+- **CO₂ emissions**: Portland cement production releases ~0.6-0.9 tonnes CO₂ per tonne of clinker — roughly 60% from calcination (CaCO₃ → CaO + CO₂, an inherent chemical reaction) and 40% from fuel combustion. Cement production accounts for ~8% of global CO₂ emissions. Partial substitutes (fly ash, blast furnace slag, calcined clay — LC³ cement) can reduce clinker factor to 0.5-0.7, but the calcination CO₂ cannot be eliminated without fundamentally different chemistry.
+- **Energy intensity**: Clinker formation requires 1,450°C kiln temperature. Total thermal energy consumption: 3.0-5.0 GJ per tonne of clinker. Electrical energy for grinding: 80-120 kWh per tonne of cement. The cement industry is one of the largest industrial energy consumers globally.
+- **Weight and transport**: Cement is heavy (bulk density ~1.5 t/m³) and low value per tonne. Transport beyond 200-300 km by road becomes uneconomical. Cement plants must be located near both limestone quarries and markets, constraining siting options.
+- **Alkali-silica reaction (ASR)**: Alkaline cement pore solution reacts with reactive silica in certain aggregates, forming an expansive gel that cracks concrete over years to decades. ASR is prevented by using low-alkali cement (<0.60% Na₂O equivalent) or non-reactive aggregates. Once started, ASR cannot be stopped — the concrete must be replaced.
+
+## See Also
+
+- **[Refractories](refractories.md)**: Kiln linings for cement manufacturing
+- **[Mining](../mining/index.md)**: Limestone quarrying and raw material extraction
+- **[Ceramics](../ceramics/index.md)**: Related high-temperature materials processing
+- **[Lime](../ceramics/lime.md)**: Calcium oxide production, a precursor to cement chemistry
+- **[Construction Materials](../materials/index.md)**: Concrete and building applications

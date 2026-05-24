@@ -199,3 +199,18 @@ Toluene nitrates in three stages, each requiring progressively stronger mixed ac
 **Shaped charges (hollow charges)**: A cone or hemisphere of high explosive (Composition B or RDX/wax) with a metal liner (copper, steel, or molybdenum, 1-3 mm thick) on the cavity side. Upon detonation, the liner collapses and forms a high-velocity jet of metal plasma (tip velocity 7,000-10,000 m/s, tail 2,000-4,000 m/s) that penetrates armor steel to a depth of 4-8× the charge diameter. The stand-off distance (distance from charge base to target) is critical: optimum stand-off is 2-6× charge diameter. Used in military anti-tank warheads, oil well perforating guns (penetrate steel casing and rock formation), and industrial metal cutting.
 
 **Cutter charges**: Linear shaped charges with a V-shaped liner, producing a planar cutting jet. Used for demolition of steel structures (bridges, offshore platforms, buildings). Cutting thickness: up to 100 mm steel plate with a single charge. Detonation velocity of the explosive filling: >7,000 m/s for effective jet formation. The cutting jet severs structural steel members in milliseconds, enabling controlled collapse of the structure.
+
+## Limitations
+
+- **Storage stability**: Nitroglycerin-based explosives (dynamite) exude liquid NG over time, especially in warm storage. Exuded NG is extremely sensitive to shock. Ammonium nitrate absorbs moisture and cakes, reducing sensitivity and performance. Proper storage (cool, dry, ventilated magazines) is essential but not always available in field conditions.
+- **Regulatory complexity**: Explosives manufacturing, transport, storage, and use are heavily regulated (ATF, DOT, OSHA in the US; equivalent agencies globally). Licensing, background checks, magazine inspection, inventory tracking, and chain-of-custody documentation add administrative overhead that can exceed the technical challenges.
+- **Toxic detonation products**: NOₓ gases from commercial explosives (ANFO produces ~15 L of NO₂ per kg detonated) are toxic and require ventilation in underground mines. Incomplete detonation leaves toxic residues (nitroglycerin, TNT, nitrocellulose) in the blasted rock, contaminating groundwater.
+- **Fume class limitations**: Underground mining permits only "permitted" explosives (fume class 1, producing <5 L toxic gas per kg). Many blasting agents (ANFO in particular) are fume class 3 and restricted to surface use unless heavily modified.
+
+## See Also
+
+- **[Black Powder](../mining/black-powder.md)**: Detailed gunpowder production
+- **[Mining Extraction](../mining/extraction.md)**: Blasting in underground and surface mines
+- **[Wood Gasification](wood-gasification.md)**: Charcoal production for black powder
+- **[Petrochemicals](petroleum-alternatives.md)**: Hydrocarbon feedstocks for modern explosives
+- **[Nitric Acid](acids.md)**: Ostwald process producing nitric acid for nitration

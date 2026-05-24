@@ -59,6 +59,114 @@ Unlike chlor-alkali cells that need only one membrane type, RED requires matched
 
 Both are manufactured by the same pulverize-mix-cast-dry process described in [SEM Tech](../chemistry/sem-tech.md), differing only in the resin feedstock.
 
+## Materials
+
+Building a RED power plant requires the following materials, organized by subsystem:
+
+**Membrane materials**:
+- **Cation exchange resin beads**: Strong acid cation resin with sulfonic acid functional groups (R-SO₃H). Available from water treatment suppliers as standard water softener resin. Typical bead size: 0.3-1.2 mm before pulverization. Quantity: approximately 0.5-1.0 kg per m² of finished membrane.
+- **Anion exchange resin beads**: Strong base anion resin with quaternary ammonium functional groups (R-N⁺(CH₃)₃). Same source and form factor as cation resin. Quantity: approximately 0.5-1.0 kg per m² of finished membrane.
+- **PVC or CPVC resin powder**: Binder for the membrane matrix. PVC is standard; CPVC offers higher temperature tolerance. Approximately 0.3-0.7 kg per m² of finished membrane.
+- **Solvent**: THF (tetrahydrofuran), cyclohexanone, or MEK (methyl ethyl ketone) for dissolving the PVC/CPVC binder. Approximately 1-2 L per m² of membrane area. Selection affects drying time: THF evaporates fastest, cyclohexanone slowest.
+
+**Stack structural materials**:
+- **PVC or CPVC sheet stock**: For stack end plates, frame spacers, and manifold blocks. Thickness: 6-25 mm depending on structural role. These same materials serve in SEM Tech electrolysis cell construction.
+- **Spacer mesh**: Woven or non-woven polyethylene or polypropylene mesh, 100-300 μm thick, defining flow channels between membranes. Commercially available as filter mesh or screen material. Woven spacers provide better flow distribution but higher pressure drop; non-woven spacers are simpler to fabricate.
+- **PVC cement (solvent weld)**: For joining stack frame components. Standard PVC plumbing cement provides solvent-welded, leak-tight joints without gaskets.
+- **Gasket material**: Neoprene or EPDM rubber gaskets for sealing between stack components, or PVC cement joints for permanent assembly.
+- **Tie rods and compression hardware**: Stainless steel or fiberglass threaded rods with flat washers and nuts to compress the membrane stack. Rods must be electrically insulated from electrode solutions to prevent parasitic currents.
+
+**Electrode materials**:
+- **Anode and cathode substrate**: Coated graphite plates or expanded mesh (consistent with SEM Tech electrode practice). Titanium substrates with mixed metal oxide (MMO) coating provide longer life at higher cost. Electrode area should match the active membrane area of the outermost cell pair.
+- **Electrode rinse solution**: Redox couple electrolyte -- typically FeCl₂/FeCl₃ (ferrous/ferric chloride) in NaCl brine at 0.05-0.5 M concentration, or reversible NaCl electrolysis producing Cl₂/H₂ at the electrodes. Approximately 50-200 L per electrode compartment.
+
+**Water intake and pretreatment materials**:
+- **Bar screen material**: Stainless steel or PVC bar grating with 1-5 mm spacing for coarse debris removal.
+- **Sand filter media**: Graded silica sand (0.5-2.0 mm effective size) for suspended solids removal. Approximately 1 m³ of sand per 5-10 m³/h of flow capacity.
+- **Piping**: PVC or HDPE pipe for seawater and fresh water conveyance. Diameter sized for 1-5 cm/s flow velocity in RED channels, typically 100-300 mm main headers.
+- **Chemical dosing supplies**: Sodium hypochlorite (NaOCl) for biofouling control, sodium bisulfite (NaHSO₃) for dechlorination before the stack when needed.
+
+All wetted materials must be compatible with continuous saltwater exposure. PVC, CPVC, HDPE, titanium, and fiberglass are suitable. Ferrous metals, copper, and aluminum corrode rapidly in the RED environment and must not contact process water.
+
+## Equipment
+
+Beyond the materials listed above, a RED power plant requires the following equipment:
+
+**Membrane manufacturing equipment**:
+- **Resin pulverizer**: Kitchen blender, ball mill, or grinder capable of reducing resin beads to below 200 μm particle size. A standard kitchen blender is sufficient for small-scale production; ball mills provide more uniform particle size distribution at scale.
+- **Mixing vessels**: Glass or plastic containers for preparing binder solution and combining resin-binder mixture.
+- **Membrane casting surface**: Flat glass sheet, polished metal plate, or smooth PVC sheet for membrane formation. Surface must be level and free of contaminants.
+- **Application tools**: Drawdown bar (for controlled thickness), spray gun (for thin films), or spatula (for manual spreading).
+- **Drying rack**: Clean, level surface with adequate ventilation for solvent evaporation. No heating equipment required -- membranes dry at ambient temperature.
+
+**Stack assembly equipment**:
+- **Drill press or hand drill**: For boring manifold ports and alignment holes in stack end plates.
+- **Torque wrench**: For even compression of membrane stack to specified clamping pressure (typically 5-15 kPa). Uneven compression causes internal channeling and leaks.
+- **Alignment pins**: Metal or plastic dowels for aligning membrane-spacer assemblies during stack construction.
+
+**Fluid handling equipment**:
+- **Centrifugal pumps**: Two corrosion-resistant pumps (PVC, HDPE, or titanium construction) -- one for seawater concentrate, one for fresh water diluate. Sized for 1-5 cm/s flow velocity through RED channels at design flow rate. Typical head: 5-20 m to overcome stack hydraulic resistance. A third smaller pump circulates electrode rinse solution.
+- **Flow meters**: Two magnetic or ultrasonic flow meters for monitoring concentrate and diluate flow rates. Accuracy ±2% of reading.
+- **Pressure gauges**: Corrosion-resistant gauges on concentrate and diluate inlet and outlet to monitor pressure drop across the stack. Normal range: 10-100 kPa. Rising pressure drop signals fouling.
+- **Valves**: PVC ball valves or butterfly valves for flow control, isolation, and flushing.
+
+**Electrical and control equipment**:
+- **DC-DC converter**: Converts variable RED stack voltage (5-20V per stack) to a stable bus voltage for inversion. Maximum power point tracking (MPPT) is recommended to optimize energy harvest as salinity and flow conditions vary throughout the day.
+- **DC-AC inverter**: Converts DC bus voltage to grid-compatible AC (single-phase or three-phase, 50/60 Hz). Sized for rated plant output plus 10-20% margin.
+- **Voltage and current sensors**: Monitoring individual stack output for performance tracking and fault detection.
+- **Conductivity sensors**: Monitoring salinity of concentrate inlet, diluate inlet, and mixed outlet streams to track stack performance and detect membrane degradation.
+- **PLC or microcontroller**: Automated control of flow rates, pretreatment dosing, stack flushing cycles, and alarm conditions.
+
+**Pretreatment equipment**:
+- **Bar screens**: Mechanically cleaned bar screens at water intake points.
+- **Rapid sand filters**: Pressurized or gravity sand filter vessels with backwash capability.
+- **Chemical dosing pumps**: Metering pumps for NaOCl and NaHSO₃ dosing.
+- **UV sterilizers** (optional): For biofouling control at sites with high biological activity, as an alternative to chemical chlorination.
+
+## Steps
+
+### Manufacturing the Membranes
+
+**Step 1 -- Pulverize cation resin**: Place strong acid cation exchange resin beads in a blender or ball mill. Pulverize until particle size is below 200 μm (a fine powder that passes through a 70-mesh sieve). If wet pulverizing is used, dry the powder thoroughly before proceeding -- residual moisture causes voids in the finished membrane.
+
+**Step 2 -- Pulverize anion resin**: Repeat the pulverization process with strong base anion exchange resin beads, producing a separate powder batch. Keep cation and anion resin powders clearly labeled and separated -- mixing them during manufacturing produces a non-functional membrane with no net ion selectivity.
+
+**Step 3 -- Prepare binder solution**: Dissolve PVC or CPVC resin in solvent (THF, cyclohexanone, or MEK) at approximately 3:7 polymer-to-solvent ratio by weight. Stir until fully dissolved and homogeneous. Prepare two separate batches -- one for cation membranes, one for anion membranes.
+
+**Step 4 -- Cast CEM membranes**: Mix cation resin powder into one binder solution batch at 30-50% resin loading by volume. Stir until homogeneous. Apply to a clean flat surface using a drawdown bar or spatula at controlled thickness (100-500 μm wet film). Allow to dry at ambient temperature until the solvent evaporates and the membrane is handleable -- typically 30 minutes to several hours depending on solvent and thickness.
+
+**Step 5 -- Cast AEM membranes**: Repeat Step 4 using anion resin powder in the second binder solution batch. Keep CEM and AEM membrane sheets clearly labeled throughout.
+
+**Step 6 -- Cut and inspect membranes**: Cut dried membrane sheets to stack dimensions with a sharp blade or scissors. Inspect each sheet against light for pinholes, tears, or uneven areas. Discard defective sections -- a single defective membrane in a 100-cell-pair stack compromises the entire unit.
+
+### Assembling the RED Stack
+
+**Step 7 -- Prepare stack end plates**: Cut PVC/CPVC end plates to size. Drill manifold ports (inlet and outlet for concentrate, diluate, and electrode rinse). Drill alignment holes for tie rods. Clean all machined surfaces to remove chips and burrs.
+
+**Step 8 -- Install electrodes**: Mount electrode mesh or plates in the end plate electrode chambers. Connect electrode rinse solution inlet and outlet fittings. Verify electrode polarity: the CEM-side electrode is the cathode (cation-receiving), the AEM-side electrode is the anode.
+
+**Step 9 -- Build cell pair assembly**: For each cell pair, layer in sequence: CEM membrane, concentrate spacer mesh, AEM membrane, diluate spacer mesh. Align manifold ports on each layer. Repeat for 50-200 cell pairs, maintaining consistent orientation throughout. The repeating unit is CEM-concentrate-AEM-diluate.
+
+**Step 10 -- Compress the stack**: Place the assembled membrane-spacer stack between the two end plates. Insert alignment pins through the stack. Install tie rods and compress evenly, tightening nuts in a cross-pattern with a torque wrench to the specified clamping pressure (typically 5-15 kPa). Even compression prevents internal leaks and bypass flows while avoiding membrane damage or flow channel collapse.
+
+**Step 11 -- Connect manifolds**: Attach external PVC piping to the manifold ports on the end plates using PVC cement. Verify four separate flow circuits: concentrate in/out, diluate in/out, anode rinse in/out, cathode rinse in/out. Pressure-test each circuit with fresh water before proceeding.
+
+### Commissioning and Operation
+
+**Step 12 -- Install pretreatment**: Set up bar screens, sand filters, and any chemical dosing systems on the seawater and fresh water intake lines. Flush pretreatment systems with clean water before connecting to the RED stack. Verify that filtered water meets target quality: TSS below 5 mg/L, turbidity below 1 NTU.
+
+**Step 13 -- Fill electrode compartments**: Fill the electrode rinse circuit with the redox electrolyte solution (FeCl₂/FeCl₃ in NaCl brine at 0.05-0.5 M). Circulate at low flow to purge air bubbles from the electrode chambers. Trapped air causes erratic electrode performance.
+
+**Step 14 -- Pressurize with fresh water**: Begin flowing fresh water through the diluate channels at low flow rate. Inspect all joints and manifold connections for leaks. Gradually increase to operating flow rate (1-5 cm/s channel velocity).
+
+**Step 15 -- Introduce seawater concentrate**: Begin flowing seawater or brine through the concentrate channels. Monitor voltage buildup across the stack with a multimeter. Open-circuit voltage should reach approximately 0.1-0.2V per cell pair within minutes as the salinity gradient establishes across each membrane.
+
+**Step 16 -- Connect electrical load**: Connect the RED stack output terminals to the DC-DC converter. Enable maximum power point tracking. Verify current flow and power output at operating conditions. Maximum power occurs at approximately 50-80% of open-circuit voltage.
+
+**Step 17 -- Establish steady-state operation**: Adjust flow rates to balance power output against pumping energy consumption. Monitor conductivity of outlet streams to verify ion transport (diluate conductivity should increase, concentrate conductivity should decrease). Record baseline performance for trend comparison.
+
+**Step 18 -- Maintain the system**: Perform periodic forward-flush cycles (increased flow velocity at 10-20 cm/s for 5-10 minutes, 2-4 times daily) to dislodge accumulated deposits. Monitor stack voltage and conductivity trends for performance degradation. Replace degraded membrane pairs as needed -- decompress the stack, swap the affected cell pair, and recompress. At SEM Tech membrane costs (less than $1/sq ft), replacement is economical.
+
 ## Stack Design
 
 ### Membrane Stack Configuration
@@ -117,9 +225,21 @@ Seawater desalination plants (see [SEM Tech Electrodialysis](../chemistry/sem-te
 
 Salt production, chlor-alkali plants, and mining operations produce concentrated brine waste. RED can harvest energy from these streams before discharge.
 
-### Integration with Grid Storage
+### Integration with Power Infrastructure
 
-Blue energy is continuous but fixed in output. Pairing RED with grid storage such as [SEM Tech Redox Flow Batteries](sem-tech-redox-flow-batteries.md) enables dispatchable power.
+RED stacks produce low-voltage DC (5-20V per stack). Practical power generation requires electrical infrastructure to convert, regulate, and deliver this energy:
+
+**Stack electrical configuration**: Multiple RED stacks connect in series to build voltage and in parallel to build current. A typical arrangement groups 10-20 stacks in series (producing 50-400V DC) with multiple series strings in parallel to reach the target power rating. This modular approach allows incremental capacity additions.
+
+**DC-DC conversion with MPPT**: Each series string feeds a DC-DC converter with maximum power point tracking. The optimal operating point shifts as salinity, temperature, and flow rates change. MPPT ensures the electrical load matches the stack's maximum power output, typically 50-80% of open-circuit voltage, analogous to solar panel inverters.
+
+**Grid synchronization**: A DC-AC inverter converts the regulated DC bus to grid-compatible AC. For grid-tied plants, the inverter must synchronize frequency and phase with the utility grid, provide reactive power support, and disconnect safely during grid faults (anti-islanding protection). For off-grid or microgrid applications, the inverter sets grid frequency and voltage.
+
+**Baseload characteristics**: Blue energy generation follows river flow, which is continuous and diurnally stable but seasonally variable. Daily output is predictable -- unlike solar or wind -- making RED well-suited as baseload generation. Seasonal variation (wet season vs. dry season) causes 2-10x output swings at most river-mouth sites.
+
+**Energy storage for dispatchability**: RED output is fixed by river flow and cannot be ramped to match demand. Pairing RED with [SEM Tech Redox Flow Batteries](sem-tech-redox-flow-batteries.md) or [Pumped Hydroelectric Storage](pumped-hydro.md) stores excess generation for peak demand periods. The continuous nature of RED output means storage systems charge steadily, reducing the peak charge rate and extending storage equipment lifetime compared to intermittent solar or wind charging.
+
+**Co-location with desalination**: Where both SEM Tech RED and SEM Tech [water desalination](../water/sem-tech-water-treatment.md) are deployed, the brine concentrate from ED desalination serves as the high-salinity feed for RED, using the waste stream from one process as fuel for another. This co-location strategy improves the overall economics of both systems and reduces environmental impact from brine discharge. The combined RED-desalination plant achieves an effective round-trip efficiency of approximately 25-35% for converting electrical energy (used in ED desalination) back to electrical energy (from RED using the brine), with the net energy loss offset by the freshwater product from the desalination stage.
 
 ## Cost Analysis
 
@@ -157,6 +277,7 @@ Pretreatment energy and chemical costs add approximately $0.001-0.005/kWh to the
 
 
 **Electrodialysis reversal for self-cleaning**: Applying the EDR technique used in conventional ED (polarity reversal every 15-30 minutes) to RED is not directly applicable since RED generates rather than consumes voltage. Instead, periodic forward-flushing with increased flow velocity (10-20 cm/s for 5-10 minutes, 2-4 times per day) dislodges accumulated deposits. This flushing consumes additional pumping energy of approximately 0.5-1.0% of daily generation.
+
 ## Safety
 
 - **Water handling**: Large-volume seawater and fresh water flows require intake structures with screens to prevent debris and marine organism entrainment. Pump stations need standard mechanical safety guards.
@@ -165,8 +286,6 @@ Pretreatment energy and chemical costs add approximately $0.001-0.005/kWh to the
 - **Biofouling**: Natural water sources carry biological material that fouls membranes and channels. Chlorination or UV pre-treatment may be needed, with appropriate chemical handling precautions.
 - **Electrode solutions**: RED electrode compartments use redox electrolytes (Fe²⁺/Fe³⁺ or similar). These solutions are mildly toxic and require standard chemical handling PPE.
 
-At sites where both SEM Tech RED and SEM Tech [water desalination](../water/sem-tech-water-treatment.md) are deployed, the brine concentrate from ED desalination can serve as the high-salinity feed for RED, effectively using the waste stream from one process as fuel for another. This co-location strategy improves the overall economics of both systems and reduces environmental impact from brine discharge.
-The combined RED-desalination plant concept achieves an effective round-trip efficiency of approximately 25-35% for converting electrical energy (used in ED desalination) back to electrical energy (from RED using the brine), with the net energy loss offset by the freshwater product from the desalination stage.
 ## Limitations
 
 ### Technology Readiness

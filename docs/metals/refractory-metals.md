@@ -183,6 +183,44 @@ Refractory metals — tungsten (W, mp 3422°C), molybdenum (Mo, mp 2623°C), tan
 
 **Recycling economics**: Cemented carbide scrap is the most valuable refractory metal recycling stream — WC-Co tooling contains 80-95% WC (tungsten value ~$30-50/kg as APT equivalent). Chemical recycling: dissolve WC-Co in a mixture of HNO₃ + HF, precipitate tungsten as H₂WO₄ or (NH₄)₂WO₄, convert to APT. Zinc process (zinc distillation): immerse WC-Co scrap in molten zinc at 900°C — zinc reacts with the cobalt binder (Zn + Co → Zn-Co alloy), expanding the volume and crumbling the compact into a powder. Distill off zinc at 907°C (zinc boils, cobalt and WC remain). The resulting WC-Co powder is directly reusable for new cemented carbide production. Zinc process recovery: 95-98% of WC, 90-95% of Co. Global cemented carbide recycling: ~15,000-20,000 tonnes/year (20-25% of production). Tantalum capacitor recycling: 500-1000 tonnes Ta/year recovered from electronic waste (dissolve in HF, solvent extract Ta). See [Zinc Production](zinc.md) for zinc distillation technology.
 
+## Safety & Hazards
+
+### Fine Powder Inhalation
+
+Refractory metal powders (W, Mo, Ta, Nb) pose serious inhalation hazards during powder handling, blending, sieving, and loading operations. Tungsten and molybdenum powders below 10 μm FSSS are respirable — they penetrate deep into the lungs and are poorly cleared by macrophages due to their high density and biopersistence. Chronic inhalation of tungsten and cobalt mixtures (as encountered in cemented carbide production) causes "hard metal lung disease" (giant cell interstitial pneumonitis) — a progressive, irreversible fibrosis. IARC classifies tungsten carbide-cobalt mixtures as **Group 2A** (probable carcinogen). Pure tungsten powder is less studied but fine particulate tungsten is a suspected carcinogen. Controls: handle all fine refractory metal powders in ventilated enclosures or under local exhaust ventilation (LEV with HEPA filtration). Wear P100 respirators during any operation that may aerosolize powder. Avoid dry sweeping — use HEPA-filtered vacuum cleaners. Wet methods preferred where possible (wet ball milling, spray-drying).
+
+### Hydrofluoric Acid (HF) Exposure
+
+Tantalum and niobium processing requires concentrated HF (20-50%) for ore digestion and solvent extraction. HF is uniquely dangerous among acids: it penetrates skin rapidly, binds tissue calcium and magnesium, causing deep tissue necrosis and potentially fatal hypocalcemia. Burns below 20% body surface area can be lethal. A splash of 50% HF on 2% body area (palm-sized) can kill within hours without treatment. Controls: mandatory calcium gluconate gel (2.5%) at every workstation — apply immediately to any skin contact, then seek emergency medical care. Full HF PPE: acid-resistant gloves (neoprene, double-gloved), face shield, acid apron, splash-proof boots. HF work never performed alone — buddy system required. Fume hood with scrubber for all open-container HF work.
+
+### High-Temperature Operations
+
+Sintering (1200-3100°C), swaging (600-1200°C), hot forming, and VAR melting all present severe burn hazards. Tungsten and molybdenum do not glow visibly until above ~400°C, but can cause instantaneous deep burns at that temperature — an object at 600°C looks the same as one at room temperature in dim light. Controls: infrared thermometers or thermal imaging cameras to verify equipment is cool before handling. Heat-resistant gloves rated to the working temperature. Radiation shielding for operators near furnaces operating above 1000°C (infrared radiation causes cataracts with chronic exposure). Emergency cooling stations with deluge showers for burn treatment.
+
+### Thoriated Tungsten Electrodes
+
+TIG welding electrodes containing 1-2% ThO₂ (thorium oxide) are a low-level radiological hazard. Thorium-232 is an alpha emitter (half-life 1.4 × 10¹⁰ years). The primary risk is inhalation of thorium-containing grinding dust when electrode tips are sharpened. Alpha particles cannot penetrate skin but are highly carcinogenic if lodged in lung tissue. Controls: grind thoriated electrodes with local exhaust ventilation and a dust mask (N95 minimum). Collect grinding residue as low-level radioactive waste. Lanthanated (La₂O₃) or ceriated (CeO₂) electrodes are non-radioactive substitutes that perform comparably for most applications — prefer these where available. See [Radiation Safety](../chemistry/radiation-safety.md).
+
+### Chromium(VI) Compounds
+
+Chromite processing and chromium plating generate hexavalent chromium (Cr(VI)) compounds — IARC **Group 1** carcinogen (lung cancer). Cr(VI) is also a potent skin sensitizer causing allergic dermatitis and chrome ulcers (deep, slow-healing perforations of the nasal septum from inhalation). Controls: enclosed processes with LEV for chromite roasting and chrome plating. Air monitoring to keep Cr(VI) below 0.5 μg/m³ (OSHA PEL). PPE: impermeable gloves, splash suits, full-face respirators with P100 cartridges for splash-prone operations. Medical surveillance (annual lung function tests and nasal examination) for workers with chronic Cr(VI) exposure.
+
+### Cobalt Exposure
+
+Cemented carbide (WC-Co) production and recycling expose workers to cobalt powder and cobalt salts. Cobalt is a skin sensitizer and causes "hard metal asthma" (occupational asthma in 5-15% of exposed workers). Chronic inhalation leads to the hard metal lung disease described above. Ingestion of soluble cobalt compounds causes cardiomyopathy ("beer drinker's heart" — historically from cobalt added to beer as foam stabilizer). Controls: LEV at all powder handling stations. Separate washing facilities to prevent take-home exposure. Periodic air monitoring: cobalt occupational exposure limit 0.02 mg/m³ (ACGIH TLV).
+
+### Vacuum Furnace Hazards
+
+VAR and vacuum sintering furnaces operate at pressures below 0.1 Pa. Hazards include: (1) **Implosion risk** — large vacuum chambers (500-1500 mm diameter) experience ~10 N/cm² atmospheric pressure on the shell. A cracked viewport or faulty seal can cause violent implosion. All chambers require protective shields and regular hydrostatic proof testing. (2) **Suffocation** — argon backfill after vacuum processing displaces oxygen. Confined space entry protocols required for chamber maintenance: test O₂ >19.5% before entry, use continuous ventilation and an attendant. (3) **Water-cooled crucible failure** — in VAR, a breach in the water-cooled copper crucible allows water to contact molten metal (>1500°C), causing a steam explosion. Double-walled crucibles with leak detection between walls are mandatory for safety-critical melts.
+
+### Refractory Metal Oxide Toxicity
+
+MoO₃ (molybdenum trioxide) fumes from roasting and high-temperature oxidation cause "molybdenum fever" (similar to zinc fume fever — flu-like symptoms 4-8 hours after exposure, resolving in 24-48 hours). Repeated episodes can cause chronic respiratory effects. WO₃ dust from tungsten oxidation is a respiratory irritant. Re₂O₇ (rhenium heptoxide) is highly hygroscopic and forms perrhenic acid (HReO₄) on contact with moist mucous membranes — irritating to eyes and respiratory tract. Controls: LEV at all roasting, oxidation, and high-temperature processing stations. Respiratory protection when exposure cannot be controlled by ventilation alone.
+
+### Electrical Hazards
+
+VAR furnaces draw 2,000-20,000 A at 20-40 V DC. While the voltage is low, the available current is extremely high — contact can cause severe burns and cardiac arrest. All high-current connections must be insulated and guarded. Ground fault protection required. Lockout/tagout procedures for all maintenance. Capacitor discharge banks in some forming operations store lethal energy — verify zero-energy state before any contact.
+
 ## Cross-Domain Links
 
 - **[Iron & Steel](iron-steel.md)**: Nb and Mo as microalloying and tool steel additives

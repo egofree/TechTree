@@ -196,5 +196,27 @@
 - **Worker visibility**: Road construction crews working alongside live traffic must wear high-visibility garments (fluorescent orange or yellow vests with retroreflective stripes). At night, each worker needs at least 0.1 m² of retroreflective material visible from all directions. Without this, drivers at 60 km/h may not see a worker until 30 m away, leaving less than 2 seconds to react.
 - **Underground utility strikes**: Before excavating, survey for buried utilities (water, gas, electric, telegraph lines). Hand-dig within 1 m of known utility locations. A gas line strike can cause an explosion. An electric cable strike causes electrocution. A water main strike floods the excavation. Utility markings (colored paint on the road surface) indicate horizontal location only, not depth.
 
+---
+
+### Limitations
+
+- **Weather vulnerability**: Earth and gravel roads become impassable in sustained wet weather. Even macadam roads degrade rapidly without drainage maintenance.
+- **Maintenance burden**: Gravel roads need re-grading every 2-4 weeks on busy routes. Macadam requires resurfacing every 8-12 years. Drainage cleaning twice annually.
+- **Grade constraints**: Maximum 8% grade for animal-drawn traffic, 5% for heavy carts, 2-3% for sustained vehicle operation. Mountainous terrain requires switchbacks and tunnels.
+- **Material volume**: Road construction moves enormous quantities of earth and stone. A 1 km stretch of macadam road consumes 2,000-4,000 m³ of crushed stone.
+- **Bitumen dependency**: Asphalt roads require petroleum distillation or coal tar for bitumen — not available in early bootstrap phases.
+- **Fourth-power law**: Road damage scales with the fourth power of axle load. One heavily loaded truck causes as much damage as 10,000 passenger cars. Heavy freight traffic dramatically shortens pavement life.
+
+### See Also
+
+- [Railways](railways.md) — Higher-capacity land transport
+- [Water Transport](shipping.md) — Cheaper bulk transport where waterways exist
+- [Cement & Concrete](../chemistry/cement.md) — Concrete for road paving and bridge construction
+- [Metals: Iron & Steel](../metals/iron-steel.md) — Steel for truss bridges and reinforcement
+- [Machine Tools](../machine-tools/index.md) — Equipment for precision metalwork in bridge construction
+- [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md) — Bitumen for asphalt paving
+
+---
+
 *Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*
 

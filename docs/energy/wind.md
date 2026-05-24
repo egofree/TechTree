@@ -195,6 +195,24 @@ Wind power converts kinetic energy of moving air into rotational mechanical work
 
 **Anemometer calibration**: Cup anemometers require calibration against a known standard. A simple field method: mount the anemometer on a vehicle driven at constant speed on a calm day, recording rotation rate versus vehicle speed. Factor in vehicle speedometer error. Periodic recalibration ensures data reliability for investment decisions.
 
+### Limitations
+
+- **Intermittency**: Wind is variable and unpredictable. Capacity factors typically 20-40% — a 1 MW turbine produces 0.2-0.4 MW on average. Requires energy storage or backup generation.
+- **Site dependency**: Wind resources vary dramatically by location. Good sites require annual average wind speeds >6 m/s at hub height. Detailed wind survey (12+ months) needed before investment.
+- **Energy storage requirement**: Wind peaks rarely coincide with demand peaks. Without storage (batteries, pumped hydro, hydrogen), excess wind energy is curtailed.
+- **Structural loads**: Wind turbines experience extreme cyclic loading. Fatigue failure of blades, tower, and drivetrain is the primary lifetime limiter.
+- **Material demands**: Large blades require lightweight composites (fiberglass, carbon fiber). Tower construction uses significant steel and concrete.
+- **Noise and visual impact**: Mechanical noise from gearboxes and aerodynamic noise from blade tips. Large turbines visible from considerable distances.
+
+### See Also
+
+- [Energy Storage](storage.md) — Battery and other storage for intermittent wind power
+- [Electricity Generation](electricity.md) — Generators and grid integration
+- [Pumped Hydro](pumped-hydro.md) — Large-scale storage complementary to wind
+- [Redox Flow Batteries](sem-tech-redox-flow-batteries.md) — Medium-duration grid storage
+- [Hydrogen Production](../chemistry/hydrogen.md) — Power-to-gas for wind energy storage
+- [Composites](../polymers/composites.md) — Materials for turbine blade construction
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

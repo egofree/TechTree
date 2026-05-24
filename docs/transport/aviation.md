@@ -203,4 +203,25 @@ Without propulsion technology, civilization is limited to ground and water trans
 
 ---
 
+### Limitations
+
+- **Weather dependency**: Ultralight aircraft have no de-icing capability and minimal structural margin for turbulence. Visual flight rules only — no instrument flying capability.
+- **Range and payload**: 100-300 km range with 250-400 kg gross weight. Not competitive with ground transport for heavy cargo.
+- **Engine reliability**: Air-cooled piston engines require frequent maintenance (every 25-50 hours). Magneto ignition provides redundancy but carburetor icing remains a hazard.
+- **Fuel supply**: Aviation requires high-octane gasoline or ethanol. Fuel quality directly affects engine reliability and safety.
+- **Manufacturing precision**: Cylinder bores ±0.01 mm, crankshaft journals ±0.01 mm, valve seats gas-tight. Requires functioning machine tool capability.
+- **Pilot training**: In a bootstrapping scenario, pilot training is a significant challenge. The Wright brothers taught themselves over years of glider experiments.
+- **Structural fatigue**: Wood and fabric airframes have finite fatigue lives. Fabric covering degrades from UV exposure and must be replaced every 5-10 years.
+
+### See Also
+
+- [Internal Combustion Engines](../energy/engine.md) — Engine design and manufacturing
+- [Roads & Bridges](roads.md) — Ground transport infrastructure
+- [Railways](railways.md) — Rail transport alternative
+- [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md) — Aviation fuel production
+- [Textiles](../textiles/index.md) — Fabric for aircraft covering
+- [Machine Tools](../machine-tools/index.md) — Precision machining for engine parts
+
+---
+
 *Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*

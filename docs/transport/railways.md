@@ -195,6 +195,45 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - **Slip and fall on ballast**: Walking on loose crushed stone ballast is inherently unstable. Rail workers frequently sprain ankles or fall, especially at night or when carrying equipment. Wear ankle-supporting boots with stiff soles. Walk between the rails (on the sleeper tops) rather than on the ballast shoulder. Use a lantern after dark.
 - **Electrification hazard** (later stage): Once electric traction is introduced, overhead catenary wires carry 1500-25,000 V. Any contact with or near these wires is immediately lethal. Clearance below the wire: minimum 4.5 m at maximum wire sag (hot weather, maximum span). Maintenance on or near the catenary requires the section to be de-energized and grounded. Never raise any object (pole, ladder, scaffold) within 2 m of a live catenary wire.
 
+---
+
+### Materials
+
+- **Rails**: Wrought iron (early) or steel T-rails, 0.5-0.8% carbon, 0.8-1.3% manganese, 30-60 kg/m. Produced in iron/steel rolling mills.
+- **Sleepers (ties)**: Treated timber (creosote or tar), 2.4-2.7 m × 20-25 cm × 12-15 cm. Alternatively, concrete sleepers for longer service life.
+- **Ballast**: Crushed stone (granite, basalt, limestone), angular fragments 25-50 mm, 150-300 mm depth.
+- **Locomotive materials**: Steel boiler plate (firebox, tubes, barrel), copper or steel firebox, cast iron cylinder blocks, forged steel crankshafts, steel coupling rods.
+- **Rolling stock**: Steel I-beam and channel underframes, wood or steel body panels, cast iron brake shoes, steel coupler heads.
+- **Fuel**: Bituminous coal (25-30 MJ/kg) for steam locomotives. Water (treated for hardness) at 5-10 kg/HP/hour.
+
+### Equipment
+
+- **Track laying**: Rail lifts, spike mauls, track gauges, tamping bars, ballast forks, lining bars.
+- **Maintenance**: Mechanical tampers, track geometry measurement tools, ultrasonic rail testing equipment, ballast regulators.
+- **Yard operations**: Turntable (10-20 m), coaling stage, water columns with elevated tanks, classification hump with retarders.
+- **Workshop**: Overhead traveling cranes (5-20 tonne), boiler shop with hydraulic test pump, wheel lathe for re-turning driving wheels, riveting equipment.
+
+### Limitations
+
+- **Capital intensity**: A 100 km single-track railway represents 5-10 years of regional economic output. Returns come over decades.
+- **Fixed infrastructure**: Railways cannot reroute. Changes in industry or settlement patterns can strand railway investment.
+- **Grade and curve constraints**: Maximum 2-3% gradient for steam, 150-300 m minimum curve radius. Mountainous terrain requires expensive tunnels and viaducts.
+- **Coal and water logistics**: Steam locomotives consume 2-5 kg coal/HP/hour and 5-10 kg water/HP/hour. Water stops every 50-80 km, coaling every 200 km.
+- **Boiler maintenance**: Annual hydraulic test, weekly washout, tube replacement every 5-10 years. Boiler failure is catastrophic.
+- **Gauge standardization lock-in**: Once a gauge is chosen, all rolling stock, infrastructure, and maintenance facilities are locked to it. Changing gauge later is prohibitively expensive.
+
+### See Also
+
+- [Roads & Bridges](roads.md) — Complementary road transport network
+- [Water Transport](shipping.md) — Alternative bulk transport
+- [Steam Power](../energy/steam-power.md) — Steam engine principles and boiler design
+- [Iron & Steel](../metals/iron-steel.md) — Rail and structural steel production
+- [Telegraph](telegraph.md) — Railway signaling communication
+- [Coal](../energy/coal.md) — Locomotive fuel supply
+- [Machine Tools](../machine-tools/index.md) — Precision machining for locomotive components
+
+---
+
 *Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*
 
 

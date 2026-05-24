@@ -196,7 +196,23 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 
 ### Induction Heating
 
-**Skin depth formula**: δ = 5030 × √(ρ / (μ × f)) mm, where ρ is resistivity (Ω·mm²/m), μ is relative magnetic permeability, f is frequency (Hz). For mild steel at room temperature at 50 Hz: δ ≈ 2.9 mm. Charge diameter should be at least 3-4× skin depth for efficient coupling.
+**Skin depth formula**: δ = 5030 × √(ρ / (μ × f)) mm.
+
+### Limitations
+
+- **Electrode consumption**: Graphite electrodes erode during EAF operation at 2-5 kg per tonne of steel. Electrode manufacturing is a specialized, energy-intensive process.
+- **Power quality impact**: EAFs are heavy intermittent loads causing voltage flicker and harmonic distortion on the electrical grid. Requires power factor correction and harmonic filtering.
+- **Refractory wear**: Furnace linings erode from slag attack and thermal cycling. Refractory life: 500-2000 heats depending on severity of service. Relining is a major maintenance event.
+- **Capital cost**: Electric furnaces require substantial electrical infrastructure (transformers, rectifiers, bus bars) in addition to the furnace vessel itself.
+- **Water cooling complexity**: EAF walls and roofs use water-cooled panels. A cooling water failure leads to rapid equipment damage. Redundant pumping and emergency water storage required.
+
+### See Also
+
+- [Electricity Generation](electricity.md) — Power supply for electric furnaces
+- [Electrode Manufacturing](electrode-manufacturing.md) — Carbon electrode production
+- [Iron & Steel](../metals/iron-steel.md) — Steel production using electric furnaces
+- [Refractories](../chemistry/refractories.md) — Furnace lining materials
+- [Cooling Systems](cooling.md) — Industrial process cooling
 
 ---
 

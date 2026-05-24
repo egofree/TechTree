@@ -195,7 +195,25 @@ Pumped hydro storage has a large physical footprint and several environmental im
 - **Reservoir footprint**: Upper and lower reservoirs inundate land. A 1 million m³ reservoir covering 10 hectares displaces that land from other use. Reservoir banks must be stabilized against erosion from daily water level fluctuations (the upper reservoir cycles through its full drawdown range daily, creating a 5-15 m "bathtub ring" of exposed shoreline susceptible to wave erosion).
 - **Water temperature and quality**: Pumped storage operation mixes water between reservoirs, potentially transferring warm surface water to deeper, cooler zones. Stratification patterns in the lower reservoir may be disrupted, affecting aquatic ecosystems. In tropical or temperate climates, the mixing can increase dissolved oxygen in deeper water (beneficial) or redistribute nutrients and sediment (potentially harmful).
 - **Evaporation losses**: Open reservoirs lose water to evaporation at 2-6 mm per day depending on climate (arid regions lose more). For a 10-hectare upper reservoir in a semi-arid climate: 10,000 m² × 4 mm/day = 40 m³/day lost, or ~14,600 m³/year. This must be replaced from a water source at the lower reservoir level. Net consumptive water use is modest compared to thermal power plant cooling but is not zero.
-- **Fish passage**: If the lower reservoir is on a river, fish passage (fish ladders or lifts) around the lower dam may be required to maintain migratory fish populations. Pump intakes must have screens to prevent fish entrainment.
+- **Fish passage**: If the lower reservoir is on a river, fish passage (fish ladders or lifts) around the lower dam may be required to maintain migratory fish populations.
+
+### Limitations
+
+- **Geography dependency**: Requires significant elevation difference (100-1000+ m) between upper and lower reservoirs with suitable terrain. Few sites meet requirements.
+- **Long construction time**: 5-10 years for major pumped hydro projects. Civil engineering on the scale of major dams.
+- **Evaporation and seepage**: Upper reservoirs lose water to evaporation (0.5-2 m/year depending on climate) and seepage. Make-up water supply required.
+- **Round-trip efficiency**: 70-85% round-trip — each cycle loses 15-30% of stored energy. Daily cycling at 75% efficiency loses significant energy annually.
+- **Environmental impact**: Upper reservoir construction often involves significant land disturbance. Pumping/generation affects downstream flow regimes.
+- **Minimum economic scale**: Pumped hydro is cost-effective only at large scale (>100 MW). Small installations have unfavorable economics compared to battery storage.
+
+### See Also
+
+- [Water Turbines](water-turbines.md) — Turbine types used in pumped hydro
+- [Energy Storage](storage.md) — Overview of storage technologies
+- [Electricity Generation](electricity.md) — Grid integration of storage
+- [Wind Power](wind.md) — Intermittent generation complemented by pumped hydro
+- [Redox Flow Batteries](sem-tech-redox-flow-batteries.md) — Alternative grid-scale storage
+- [Gravity Power](gravity.md) — Other gravity-based energy storage
 
 ---
 

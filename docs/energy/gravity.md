@@ -196,6 +196,23 @@ The fundamental hydraulic power formula P = η × ρ × g × Q × H applies to e
 
 **Line shaft distribution**: A single water wheel of 10 HP can drive an entire small workshop of 5-8 machines simultaneously via a horizontal line shaft. The iron shaft (50-100 mm diameter) runs the length of the workshop, supported by hung bearings from ceiling joists. Each machine connects via its own belt drive from a countershaft, with cone pulleys providing 2-4 speed ranges.
 
+### Limitations
+
+- **Power ceiling**: Water wheels top out at ~50-100 kW for the largest installations. Overshot wheels rarely exceed 3-4 m width and 10 m diameter due to structural limits of timber construction.
+- **Site dependency**: Water power requires flowing water with usable head. Suitable sites are fixed by geography and cannot be relocated. Drought and freezing can halt production seasonally.
+- **Speed variability**: Water flow varies with seasons and weather. Power output fluctuates accordingly, making consistent shaft speed difficult without governors and flywheels.
+- **Head limitations**: Gravity-powered mechanical systems (weights, pendulums) provide extremely low energy density. A 1-tonne weight falling 10 m stores only 98 kJ — equivalent to ~3 grams of gasoline.
+- **Ice and debris**: Winter freezing blocks water channels. Debris (leaves, branches, silt) requires constant trash rack cleaning. Flood events can damage or destroy water wheel installations.
+
+### See Also
+
+- [Water Turbines](water-turbines.md) — Modern evolution of water power
+- [Pumped Hydro](pumped-hydro.md) — Gravity-based energy storage at scale
+- [Steam Power](steam-power.md) — Alternative prime mover not dependent on water flow
+- [Machine Tools](../machine-tools/index.md) — Workshop machines driven by line shafts
+- [Energy Storage](storage.md) — Overview of energy storage technologies
+- [Wind Power](wind.md) — Another renewable energy source
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

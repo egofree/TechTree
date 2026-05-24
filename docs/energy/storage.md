@@ -199,4 +199,24 @@ Battery charging requires a DC power source matched to the battery bank voltage 
 
 ---
 
+### Limitations
+
+- **Lead-acid weight**: At 25-35 Wh/kg, large backup banks are extremely heavy (370 kg for a 2 kW, 4-hour system). Not viable for mobile applications beyond forklifts and mine locomotives.
+- **Lead-acid cycle life**: 200-500 cycles for automotive batteries, 500-1500 for deep-cycle. At one cycle per day, a deep-cycle bank lasts 1.5-4 years before replacement.
+- **Nickel-iron self-discharge**: 20-40% per month makes NiFe unsuitable for standby/backup applications where batteries sit idle for months.
+- **Pumped hydro geography**: Requires elevation difference of 50-100+ meters and two reservoirs. Few sites offer this naturally.
+- **Flywheel duration**: Short discharge (seconds to minutes). Best for power quality, not energy storage.
+- **CAES efficiency**: 40-70% round-trip without advanced heat recovery. Significant energy penalty.
+- **Battery room hazards**: Hydrogen gas from charging, sulfuric acid spills, heavy weight on floors — requires purpose-built facilities with ventilation and acid-resistant flooring.
+
+### See Also
+
+- [Electricity Generation](electricity.md) — Generators, motors, transformers, wire
+- [Pumped Hydro](pumped-hydro.md) — Large-scale pumped storage
+- [Redox Flow Batteries](sem-tech-redox-flow-batteries.md) — SEM Tech membrane-based storage
+- [Cooling Systems](cooling.md) — Industrial refrigeration for battery room temperature control
+- [Electrolysis](../chemistry/electrolysis.md) — Hydrogen production for potential energy storage
+
+---
+
 *Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

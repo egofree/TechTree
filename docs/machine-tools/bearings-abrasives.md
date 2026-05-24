@@ -193,7 +193,25 @@ The Federation of European Producers of Abrasives (FEPA) defines two standard gr
 
 **Mesh-to-micron conversion**: US mesh number ≈ 15,000 / particle diameter in μm (approximate). For example, 60 mesh ≈ 250 μm, 120 mesh ≈ 125 μm, 220 mesh ≈ 63 μm. The conversion is not exact because particles are irregular, not spherical, and each grit grade spans a size distribution rather than a single dimension.
 
-**Grit selection by operation**: Rough grinding cast iron welds: F24-F46. General tool sharpening: F60-F80. Finish grinding tool bits: F100-F150. Honing cylinder bores: F220-F320. Lapping gauge blocks: F600-F1200. Selecting too fine a grit wastes time (insufficient stock removal); selecting too coarse a grit leaves deep scratches that require additional finishing steps to remove.
+**Grit selection by operation**: Rough grinding cast iron welds: F24-F46. General tool sharpening: F60-F80. Finish grinding tool bits: F100-F150.
+
+### Limitations
+
+- **Precision grinding heat**: Grinding generates intense localized heat (1000-1500°C at the grain-workpiece interface). Without adequate coolant, workpiece surface burns, develops tensile residual stresses, or suffers metallurgical damage (rehardening burns, temper burns).
+- **Bearing speed limits**: Ball and roller bearings have maximum speed ratings (dN value = bore diameter × speed). Exceeding limits causes lubricant breakdown, cage failure, and seizure. High-speed applications require special designs (angular contact, hybrid ceramic).
+- **Abrasives embedment**: Loose abrasive particles embed in soft workpiece surfaces during lapping and honing, contaminating the surface. Thorough cleaning required between operations and before assembly.
+- **Bearing fatigue life**: Rolling element bearings fail by subsurface fatigue (spalling) after a statistical number of stress cycles. Rated life (L10) is the cycles at which 10% of bearings fail. Design life typically 20,000-100,000 hours.
+- **Grinding wheel dressing**: Grinding wheels require periodic dressing (truing and sharpening) with diamond tools to restore geometry and expose fresh abrasive grains. Wheel wear limits dimensional consistency in long production runs.
+- **Contamination sensitivity**: Bearing performance degrades rapidly with particulate contamination. Even 1-5 µm particles cause surface damage. Clean assembly environments and effective sealing are essential.
+
+### See Also
+
+- [Machining](machining.md) — Pre-grinding machining operations
+- [Forming](forming.md) — Forming operations requiring bearing-equipped presses
+- [Iterative Bootstrap](./iterative-bootstrap.md) — Precision achievement using abrasives
+- [Measurement & Gauges](./measurement.md) — Precision measurement for bearing fits
+- [Iron & Steel](../metals/iron-steel.md) — Bearing steel (52100, SUJ2) and abrasive grit materials
+- [Machine Tools Overview](./index.md) — Complete machine tools reference
 
 ---
 

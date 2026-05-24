@@ -196,7 +196,22 @@ Coke screening produces several marketable size fractions beyond blast furnace a
 | Domestic coke | 15-40 mm | Space heating, cooking | Smokeless solid fuel for residential use |
 | Coke breeze | <15 mm | Sintering, boiler fuel | 5-15% of total production |
 
-Domestic coke (15-40 mm) is a smokeless fuel valued for urban heating before natural gas distribution. It burns cleanly with low particulate emissions, making it acceptable for residential grates and stoves. Phurnacite-type smokeless briquettes, made from coke breeze bound with pitch and re-baked, provide a uniform domestic fuel product at 15-25 mm ovoid shape, 28-30 MJ/kg calorific value, and 2-4 hour burn time per charge.
+Domestic coke (15-40 mm) is a smokeless fuel valued for urban heating before natural gas distribution.
+
+### Limitations
+
+- **Coking coal requirement**: Not all coal is suitable for coking. Only specific bituminous coals with appropriate swelling, fluidity, and ash characteristics produce metallurgical-grade coke.
+- **Emissions**: Beehive ovens vent all volatiles to atmosphere (coal tar, ammonia, benzene). By-product ovens capture these but require chemical processing infrastructure.
+- **Energy loss**: Coke production drives off 25-30% of the coal's energy content as volatile matter. If not captured, this energy is wasted.
+- **Supply bottleneck**: Steel production requires roughly 0.5-0.7 tonnes of coke per tonne of pig iron. Coke supply often limits steel production capacity.
+
+### See Also
+
+- [Coal](coal.md) — Coal types and properties
+- [Blast Furnace Iron](../metals/iron-steel.md) — Primary consumer of metallurgical coke
+- [Steel Production](../metals/iron-steel.md) — Steel manufacturing requiring coke
+- [Ammonia Production](../chemistry/ammonia.md) — Ammonia from coke oven gas byproduct
+- [Fuels](fuels.md) — Comparative fuel properties
 
 ---
 

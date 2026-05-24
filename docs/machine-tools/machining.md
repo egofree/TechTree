@@ -205,6 +205,24 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 - Cutting fluid production and properties: [Lubricants](../chemistry/lubricants.md)
 - Precision achievement milestones: See [Iterative Bootstrap](./iterative-bootstrap.md) precision table
 
+### Limitations
+
+- **Material removal waste**: Machining converts 20-80% of raw material into chips (swarf). For expensive materials (copper, titanium), this waste is a significant cost factor. Chip recycling is energy-intensive.
+- **Tool wear**: Cutting tools dull through abrasion, adhesion, diffusion, and fatigue. Tool life follows Taylor's equation: VTⁿ = C. Carbide tools last 15-60 minutes of cutting time depending on speed and material.
+- **Thermal distortion**: Cutting generates heat (80% goes into chip, 15% into tool, 5% into workpiece). Thin workpieces distort from thermal expansion, requiring cool-down periods between roughing and finishing passes.
+- **Vibration and chatter**: At certain depth-of-cut / speed combinations, the cutting process becomes unstable, causing chatter — self-excited vibration that degrades surface finish and can damage the tool. Requires stiffness analysis and parameter tuning.
+- **Surface integrity**: Machining creates a worked surface layer (residual stress, microstructural changes, micro-cracks) 10-200 µm deep. Fatigue-critical parts may require post-machining treatments (shot peening, stress relief annealing).
+- **Skill requirement**: Manual machining requires significant operator skill for setup, tool selection, and process control. CNC machining transfers this to programming but requires software expertise.
+
+### See Also
+
+- [Forming](forming.md) — Alternative shaping processes with less waste
+- [Bearings & Abrasives](bearings-abrasives.md) — Abrasive finishing and precision grinding
+- [Iterative Bootstrap](./iterative-bootstrap.md) — Precision improvement pathway
+- [Iron & Steel](../metals/iron-steel.md) — Workpiece materials
+- [Machine Tools Overview](./index.md) — Complete machine tools reference
+- [Measurement & Gauges](./measurement.md) — Quality control for machined parts
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*

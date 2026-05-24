@@ -193,7 +193,24 @@ Consider a site with 50 m of available head and a reliable flow of 5 m³/s.
 
 **Flow variability consideration**: If the site has highly variable seasonal flow, Kaplan turbines maintain efficiency over a wider range (85%+ from 30-100% flow). Francis turbines have higher peak efficiency but drop off more steeply at part-load. Pelton wheels with multiple nozzles can shut off individual nozzles to maintain efficiency at reduced flow.
 
-**Power calculation reminder**: The fundamental formula P = η × ρ × g × Q × H applies to all turbine types. For quick estimates: P(kW) ≈ 7 × Q × H for small installations (η ≈ 0.7), or P(kW) ≈ 8.5 × Q × H for well-designed installations (η ≈ 0.85). Where Q is flow in m³/s and H is head in meters.
+**Power calculation reminder**: The fundamental formula P = η × ρ × g × Q × H applies to all turbine types.
+
+### Limitations
+
+- **Site specificity**: Hydroelectric potential depends entirely on local geography (head and flow). Not all locations have viable hydro resources.
+- **Seasonal variation**: River flow varies seasonally. Dry-season power output may be 20-50% of wet-season output, requiring seasonal storage or supplemental generation.
+- **Environmental impact**: Dams alter river ecosystems, block fish migration, and change downstream sediment transport. Reservoir creation inundates land.
+- **Sedimentation**: Reservoirs gradually fill with sediment, reducing storage capacity over 50-100+ years. Sediment management is an ongoing operational challenge.
+- **Long construction time**: Dam and powerhouse construction is a multi-year civil engineering project requiring heavy equipment and skilled labor.
+- **Freezing**: In cold climates, ice formation on intakes and draft tubes can block flow. Trash racks require heating or mechanical raking in winter.
+
+### See Also
+
+- [Energy Storage](storage.md) — Pumped hydroelectric storage
+- [Pumped Hydro](pumped-hydro.md) — Large-scale energy storage using hydro infrastructure
+- [Gravity Power](gravity.md) — Water wheels and early hydroelectric development
+- [Steam Turbines](steam-turbines.md) — Turbine technology for thermal power
+- [Electricity Generation](electricity.md) — Generators and power distribution
 
 ---
 

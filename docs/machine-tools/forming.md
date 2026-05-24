@@ -207,6 +207,23 @@ The choice of forming method depends on production volume, part geometry, materi
 - [Bearings & Abrasives](./bearings-abrasives.md) — grinding and finishing formed parts
 - [Electricity](../energy/electricity.md) — drawn copper wire for generators and motors
 
+### Limitations
+
+- **Springback**: All formed parts exhibit elastic springback after the forming force is removed, typically 2-10° for mild steel. Dies must over-bend to compensate, requiring empirical calibration for each material-thickness combination.
+- **Material thinning**: Deep drawing stretches material, reducing wall thickness by 10-25% in critical zones. Excessive thinning leads to tearing. Draw ratios (blank diameter / cup diameter) limited to ~2:1 per draw stage.
+- **Tooling cost**: Press tooling (dies, punches, blank holders) represents 30-60% of total production cost for small-to-medium batches. Tooling amortization favors high-volume production runs (>10,000 parts).
+- **Force requirements**: Forming forces scale with material strength and thickness. A 1 m wide, 5 mm thick mild steel sheet requires 500-800 tonnes force for bending. Heavy press capacity is a capital constraint.
+- **Surface finish**: Formed surfaces pick up die marks, scratches, and lubricant residue. Critical surfaces may require post-forming machining or finishing.
+- **Material waste**: Blanking and trimming generate scrap (typically 15-30% of sheet material). Nesting optimization reduces but cannot eliminate scrap.
+
+### See Also
+
+- [Machining](machining.md) — Material removal processes complementing forming
+- [Bearings & Abrasives](bearings-abrasives.md) — Bearing and abrasive products used in press equipment
+- [Iron & Steel](../metals/iron-steel.md) — Steel sheet and plate for forming operations
+- [Metallurgy](../metals/metallurgy.md) — Material properties affecting formability
+- [Machine Tools Overview](./index.md) — Complete machine tools reference
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Machine Tools](./index.md) • [All Domains](../index.md)*

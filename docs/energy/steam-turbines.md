@@ -194,7 +194,25 @@ Blades operate under extreme conditions — centrifugal stress, steam erosion, c
 
 **Steam seal system**: Where the rotor shaft exits the casing, labyrinth seals (interlocking fins on the rotor and grooves in the casing) minimize steam leakage. A small amount of sealing steam is supplied at slightly above atmospheric pressure to prevent air ingress into the vacuum section. Gland steam condenser recovers the sealing steam.
 
-**Thermal efficiency summary**: Non-condensing turbine (exhaust to atmosphere): 15-20%. Condensing turbine with vacuum: 30-40%. Each 50°C of superheat above saturation adds roughly 2 percentage points. Reheat (extracting and re-superheating HP exhaust) adds 4-5 percentage points. Regenerative feedwater heating (bleeding steam from intermediate stages) adds 5-8 percentage points. Combined cycle (gas turbine + steam bottoming) reaches 55-62% overall.
+**Thermal efficiency summary**: Non-condensing turbine (exhaust to atmosphere): 15-20%. Condensing turbine with vacuum: 30-40%.
+
+### Limitations
+
+- **Water quality requirements**: Boiler feedwater must be highly purified (conductivity <0.2 µS/cm). Dissolved oxygen, silica, and dissolved solids cause corrosion and scale. Extensive water treatment plant required.
+- **Start-up time**: Large steam turbines require 4-8 hours from cold start to full load due to thermal expansion constraints. Rapid start-up causes differential expansion and blade rubbing.
+- **Blade erosion**: Moisture in low-pressure stages causes erosion of last-stage blades. Water droplets impact blade leading edges at high velocity. Requires stainless steel or Stellite-shielded blade tips.
+- **Condenser fouling**: Cooling water fouling (biofilm, scaling, sediment) degrades vacuum and reduces efficiency by 2-5%. Regular tube cleaning required.
+- **High capital cost**: Steam turbine plants require boiler, turbine, condenser, feedwater system, and cooling system — complex integrated plant with high upfront investment.
+- **Minimum efficient size**: Steam turbines become cost-effective above ~5 MW. Below this, reciprocating steam engines or internal combustion engines are more economical.
+
+### See Also
+
+- [Steam Power](steam-power.md) — Boiler design and steam generation
+- [Coal](coal.md) — Primary fuel for steam turbine plants
+- [Water Turbines](water-turbines.md) — Hydraulic turbine comparison
+- [Electricity Generation](electricity.md) — Generators and power distribution
+- [Cooling Systems](cooling.md) — Condenser cooling systems
+- [Iron & Steel](../metals/iron-steel.md) — Materials for turbine construction
 
 ---
 

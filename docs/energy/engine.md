@@ -196,6 +196,24 @@ Closed-cycle external combustion engine. Working gas (air, helium, or hydrogen) 
 
 **Alternative fuels for IC engines**: Producer gas (wood gasification, CO + H₂ + N₂ mixture at ~5-6 MJ/m³) can power gasoline engines with carburetor modification, though at 40-60% of gasoline power output. Biodiesel from vegetable oil transesterification substitutes directly for petroleum diesel. Ethanol from fermentation can replace or blend with gasoline. These alternatives are critical for bootstrap economies without petroleum access.
 
+### Limitations
+
+- **Fuel quality sensitivity**: Diesel engines are sensitive to fuel cetane number (>40 required), viscosity, and sulfur content. Poor-quality fuel causes injector coking, ring sticking, and lubricating oil degradation.
+- **Weight and vibration**: Internal combustion engines are heavy relative to their power output compared to electric motors. Single-cylinder engines produce significant vibration requiring massive foundations or balance weights.
+- **Thermal efficiency ceiling**: Practical diesel engines achieve 35-45% thermal efficiency; gasoline engines 25-35%. The remaining 55-75% of fuel energy is lost as waste heat through exhaust and cooling systems.
+- **Lubrication dependency**: IC engines require continuous lubrication — even brief oil starvation causes catastrophic bearing failure. Lubricating oil must be filtered, cooled, and periodically replaced (250-500 hour intervals).
+- **Maintenance intensity**: Moving parts (pistons, rings, valves, bearings, injectors) wear continuously. Overhaul intervals: 5,000-20,000 hours for industrial diesels. Valve seat and ring replacement requires partial disassembly.
+- **Cold starting**: Diesel engines require compression temperatures >250°C for ignition. Below 5°C ambient, glow plugs, manifold heaters, or ether starting aids are needed.
+
+### See Also
+
+- [Fuels](fuels.md) — Liquid fuel properties and alternatives
+- [Steam Power](steam-power.md) — External combustion alternative
+- [Electricity Generation](electricity.md) — Generators driven by IC engines
+- [Coal](coal.md) — Producer gas feedstock for wood-gas engines
+- [Petroleum & Alternatives](../chemistry/petroleum-alternatives.md) — Synthetic and alternative fuels
+- [Railways](../transport/railways.md) — Diesel locomotive applications
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

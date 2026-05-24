@@ -159,44 +159,42 @@ The total refrigeration load for a cold storage room has four components that mu
 
 **Equipment load**: Heat from lights, motors, and people inside the room. Electric lights: 10-20 W/m² of floor area. Fan motors on evaporator coils: 0.5-2 kW each. Workers: each person contributes roughly 250-300 W of sensible and latent heat. Sum all internal heat sources.
 
-### Ammonia Absorption Cycle Temperature Zones
+### Materials
 
-The ammonia absorption cycle runs on four main temperature zones, each corresponding to a major component. Getting these zones right determines whether the cycle produces ice or wastes fuel.
+**Refrigerants**:
+- **Ammonia (NH₃, R-717)**: First-choice bootstrap refrigerant. Produced from coke oven ammonia liquor or Haber-Bosch synthesis. High latent heat (~1370 kJ/kg), zero ODP/GWP.
+- **Carbon dioxide (CO₂, R-744)**: Second choice. Available from combustion or fermentation. Requires robust pressure vessels (40-100 bar).
+- **Calcium chloride (CaCl₂)**: For brine secondary coolant. 23-28% solution, eutectic -55°C.
 
-**Generator (desorber) at 120-150°C**: Heat input drives ammonia vapor out of the ammonia-water solution. The generator temperature must be high enough to liberate ammonia but not so high that water vapor carries over (water contamination in the refrigerant circuit reduces efficiency and can freeze in the evaporator). A rectifier (fractionating column) above the generator strips water vapor from the ammonia. Generator heat input for a 100 kW cooling plant: roughly 140-250 kW of thermal energy, depending on COP.
+**Absorption cycle materials**: Ammonia-water working pair, steel pressure vessels, copper or steel heat exchanger tubing, packing for rectifier column.
 
-**Condenser at 30-40°C**: Ammonia vapor condenses at the pressure maintained in the high-side circuit (10-15 bar, corresponding to a saturation temperature of 25-40°C). Cooling water at 20-30°C removes the latent heat. Condenser heat rejection equals the sum of evaporator cooling load plus generator heat input.
+**Insulation**: Cork board (0.035-0.045 W/m·K), sawdust, straw bale, mineral wool (from slag/rock). Vapor barrier: asphalt-impregnated paper, galvanized steel sheet, or aluminum foil.
 
-**Evaporator at -10 to 0°C**: Liquid ammonia evaporates at 1-3 bar, absorbing heat from the brine or air surrounding the coils. For ice production, the evaporator cools brine to -10 to -15°C, which in turn freezes water in the ice cans. The temperature difference between evaporating refrigerant and the brine (approach temperature) is typically 3-8°C.
+**Cold storage construction**: Galvanized steel or aluminum sheet cladding, Portland cement concrete floor, pressure-treated timber framing, rubber gaskets for doors.
 
-**Absorber at 30-40°C**: Weak solution returning from the generator absorbs ammonia vapor from the evaporator. This process is exothermic and must be cooled, typically with the same cooling water supply as the condenser. Absorber cooling load is roughly equal to the evaporator cooling load.
+### Equipment
 
-**COP range**: Single-effect ammonia absorption achieves COP of 0.5-0.7 under design conditions. This means 100 kW of cooling requires 140-200 kW of heat input.
+- **Absorption system**: Generator (steel pressure vessel, 10-15 bar), condenser (shell-and-tube or air-cooled), expansion valve, evaporator (coils in brine tank or air duct), absorber, solution heat exchanger, solution pump (0.5-2 kW for 100 kW cooling)
+- **Vapor-compression system**: Compressor (reciprocating 5-500 kW, rotary 10-2000 kW, centrifugal 300+ kW), condenser, thermostatic expansion valve, evaporator, receiver tank
+- **Ice production**: Brine tank (concrete or steel-lined wood, CaCl₂ brine), ice cans (sheet metal molds, 25-150 kg), agitator, overhead hoist, warm water dip tank
+- **Cold storage**: Insulated panels, door assemblies with heaters, evaporator coils, defrost system
 
-### Ice Block Production Details
+### Limitations
 
-**Ice can sizing and freeze time**: Standard can sizes produce blocks from 25 kg to 135 kg. A 25 kg block (roughly 250 × 150 × 250 mm) freezes in 12-18 hours. A 135 kg block (roughly 550 × 250 × 350 mm) takes 36-48 hours. Larger blocks are more energy-efficient per kilogram because the lower surface-to-volume ratio means less brine circulation needed per unit of ice produced.
+- **Ammonia toxicity**: NH₃ is lethal at 5000+ ppm and flammable at 15-28% in air. Leak detection and emergency ventilation are mandatory, limiting use in occupied spaces.
+- **Absorption COP**: Single-effect COP of 0.4-0.7 means 140-250 kW of heat input per 100 kW of cooling — significant fuel consumption unless waste heat is available.
+- **CO₂ high pressure**: R-744 operates at 40-100 bar, requiring heavier pressure vessels and more robust component design than ammonia systems.
+- **Scale limitations**: Absorption systems become economical above 10 kW cooling capacity. Smaller applications must use vapor-compression (requiring electricity).
+- **Cold store energy**: Continuous refrigeration load even when empty (transmission losses through insulation). Power interruption causes temperature rise and potential product loss within hours.
+- **Brine corrosion**: CaCl₂ brine is corrosive to steel, requiring inhibitors (sodium chromate/nitrite, 2000-3000 ppm) and annual inspection.
 
-**Clear ice production**: Trapped air bubbles and dissolved minerals make ice cloudy. To produce clear blocks (preferred for food display and transport), compressed air is bubbled through the water in each can during freezing. This pushes dissolved air and minerals toward the last-unfrozen center. Some producers also pre-boil the water to remove dissolved gases. The center core, where impurities concentrate, can be reamed out and discarded after harvesting.
+### See Also
 
-### Cold Storage Room Construction
-
-**Wall assembly (cold store at -18°C)**: A typical wall section from inside to outside consists of the inner cladding (galvanized steel or aluminum sheet, 0.5-1.0 mm), insulation layer, vapor barrier, structural wall, and outer cladding. The insulation is the critical element.
-
-**Cork insulation**: The traditional choice for cold storage from the 1890s through the 1950s. Cork board panels 100-150 mm thick provide R-value of roughly 3-4 per inch (thermal conductivity 0.035-0.045 W/m·K). Cork is naturally rot-resistant, dimensionally stable, and does not absorb moisture readily. Panels are bonded with hot asphalt or bituminous adhesive.
-
-**Expanded polystyrene (EPS)**: Modern replacement for cork, with similar thermal conductivity (0.030-0.040 W/m·K). EPS panels 150-200 mm thick are standard for frozen storage. Available as plain board or as factory-laminated sandwich panels (steel facings with EPS core) that serve as both insulation and structural wall.
-
-**Vapor barrier placement**: The vapor barrier always goes on the warm side of the insulation. In a cold store, that means the exterior side. Without it, warm humid air migrates through the wall, condenses inside the cold insulation, freezes, and gradually destroys the insulation value. Materials: 0.1 mm polyethylene film, asphalt-impregnated building paper, or continuous galvanized steel sheet with sealed joints.
-
-**Insulated doors**: Cold store doors are a major source of heat gain. Standard construction: 100 mm thick insulated panel, clad in steel or aluminum on both faces, with magnetic or compression gaskets around the perimeter. Door heaters (low-wattage electric resistance wires in the frame) prevent ice buildup on the gasket at temperatures below -10°C.
-
-### References
-
-- Dossat, R.J., *Principles of Refrigeration*, 5th ed.
-- ASHRAE Handbook — Fundamentals (refrigerant properties, load calculations)
-- Stoecker, W.F., *Industrial Refrigeration Handbook* (ammonia systems, ice plants)
-- Hodge, B.K., *Analysis and Design of Energy Systems* (absorption cycle thermodynamics)
+- [Ammonia Production](../chemistry/ammonia.md) — NH₃ feedstock for absorption refrigeration
+- [Coke Production](coke.md) — Coke oven ammonia liquor as NH₃ source
+- [Electricity Generation](electricity.md) — Power for vapor-compression systems
+- [Air Separation](../chemistry/air-separation.md) — Cryogenic processes requiring refrigeration
+- [Energy Storage](storage.md) — Cold thermal energy storage
 
 ---
 

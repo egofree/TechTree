@@ -206,6 +206,22 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 
 **Speed of information transformation**: Before the telegraph, transatlantic information traveled at ship speed — 10-14 days by fast sailing packet, 7-10 days by steamship. After the 1866 cable, the same information crossed in minutes. On land, news traveled at telegraph speed (~15 words per minute on a single line, multiplied by hundreds of parallel lines) versus courier or pony express speed (8-15 km/h, with relay stations every 15-25 km). The telegraph compressed information transit time by a factor of 10,000-100,000 for intercontinental communication.
 
+### Limitations
+
+- **Single-channel capacity**: A single telegraph wire carries one message at a time at 15-25 words per minute. Multiplexing (duplex, quadruplex) increases this to 4 channels max on one wire. High-traffic routes require many parallel wires.
+- **Line maintenance**: Overhead wires break from ice loading, wind, tree falls, and vandalism. Underground cables are vulnerable to water ingress and excavation damage. A single break halts all traffic on that circuit.
+- **No privacy**: Anyone with a tap on the wire can read the signal. Commercial cipher systems exist but add complexity and error risk.
+- **Signal attenuation**: Long lines (>500 km) suffer signal degradation from resistance and capacitance. Requires relay (repeater) stations with batteries every 200-300 km, staffed 24/7.
+- **No voice communication**: Telegraph transmits coded text only. No real-time voice, image, or data transmission. Operator skill required at both ends.
+- **Infrastructure cost**: 100 km of single-wire telegraph line with poles requires ~2 tonnes of iron or copper wire, 500-1000 poles, and insulators. Mountainous or swampy terrain dramatically increases construction cost.
+
+### See Also
+
+- [Railways](railways.md) — Railway signaling and dispatch via telegraph
+- [Electricity](../energy/electricity.md) — Electrical principles underlying telegraph systems
+- [Copper](../metals/nonferrous.md) — Telegraph wire materials
+- [Roads & Bridges](roads.md) — Transport infrastructure parallels
+
 *Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*
 
 

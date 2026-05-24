@@ -201,6 +201,15 @@ Fuel cell systems involve several hazards requiring engineered controls:
 - [SEM Tech Redox Flow Batteries](sem-tech-redox-flow-batteries.md) -- complementary energy storage technology
 - [Electricity Generation](electricity.md) -- full range of electricity generation methods
 
+### Limitations
+
+- **Platinum catalyst cost**: PEM fuel cells require 0.2-0.5 g Pt/kW. At scale, this represents a significant materials cost and creates dependency on scarce platinum group metals.
+- **Hydrogen infrastructure**: Fuel cells require high-purity hydrogen (>99.97% for PEM). Producing, storing, and distributing hydrogen adds system-level complexity and cost.
+- **Durability**: PEM membrane degradation from chemical attack, thermal cycling, and mechanical stress limits stack lifetime to 5,000-20,000 hours depending on operating conditions.
+- **Water management**: PEM cells require precise humidity control — too dry and membrane resistance spikes, too wet and flooding blocks gas channels.
+- **Fuel sensitivity**: PEM cells are poisoned by CO (>10 ppm), H₂S, and ammonia. Reformed hydrocarbon feeds require extensive purification.
+- **Balance of plant**: Fuel cell stacks require air compressors, humidifiers, heat exchangers, and power electronics — the stack is only 30-50% of total system cost.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) | [Energy](./index.md) | [All Domains](../index.md)*

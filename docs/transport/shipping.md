@@ -211,4 +211,41 @@
 
 **Power requirement for engine propulsion**: P = Δ^(2/3) × V³ / K, where P is shaft power in kW, Δ is displacement in tonnes, V is speed in knots, and K is a hull form factor (150-170 for fine-lined vessels, 170-200 for full-bodied cargo hulls). A 420-tonne vessel at 8 knots with K = 180: P = 420^(2/3) × 8³ / 180 = 57.2 × 512 / 180 = 163 kW (218 HP).
 
+---
+
+### Materials
+
+- **Hull construction**: Oak, pine, cedar, or elm timber for planking and frames. Iron or copper fasteners (nails, trenails, rivets). Oakum (frayed hemp) for caulking, pitch or tar for waterproofing.
+- **Sails**: Woven flax or hemp canvas, treated with tar. Bolt rope sewn to edges for reinforcement. Manila, hemp, or sisal for rope and cordage.
+- **Anchors**: Iron with wooden stock. Anchor rode: manila or hemp rope, or iron chain.
+- **Later improvements**: Copper sheathing (0.5-1.0 mm sheets) for anti-fouling. Steel plate hulls (requires rolling mill).
+
+### Equipment
+
+- **Construction**: Adzes, axes, saws, caulking irons, treenail drivers. Shipyard slipway or building berth with ways and launching cradle.
+- **Rigging**: Blocks (pulley shells with lignum vitae or bronze sheaves), tackles, winches, capstans.
+- **Navigation**: Magnetic compass, sounding lead, astrolabe or quadrant, sextant, hourglass, chip log.
+- **Cargo handling**: Treadwheel crane (2-5 tonnes), derricks, block and tackle. Wharves with warehouses.
+- **Harbor works**: Breakwater (rubble mound, 10,000-50,000 tonnes stone), quay walls (timber or masonry), lighthouse (stone tower, oil lamp with parabolic reflector).
+
+### Limitations
+
+- **Speed constraint**: Displacement hulls limited to hull speed (V = 1.34 × √LWL in knots). Exceeding this requires exponentially more power.
+- **Weather dependency**: Sail vessels cannot make progress to windward effectively (45-60° off wind at best). Storms can drive vessels onto lee shores.
+- **Navigation limits**: Without chronometers, longitude cannot be determined accurately. Celestial navigation requires clear skies.
+- **Cargo handling speed**: Manual loading/unloading limits port throughput to 100-500 tonnes/day without mechanical cranes.
+- **Hull maintenance**: Re-caulking every 3-5 years, anti-fouling annually. Marine boring worms attack untreated timber.
+- **Capacity vs. speed tradeoff**: Larger vessels are faster (higher hull speed) and carry more cargo but require deeper water, larger ports, and bigger crews.
+
+### See Also
+
+- [Roads & Bridges](roads.md) — Land transport infrastructure
+- [Railways](railways.md) — Rail transport for bulk freight
+- [Textiles](../textiles/index.md) — Sailcloth and rope fiber production
+- [Metals: Iron & Steel](../metals/iron-steel.md) — Iron for anchors, fasteners, and later hulls
+- [Steam Power](../energy/steam-power.md) — Steam propulsion for vessels
+- [Internal Combustion Engines](../energy/engine.md) — Diesel propulsion for ships
+
+---
+
 *Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*

@@ -216,6 +216,15 @@ The $5/kWh target depends on SEM Tech membranes achieving adequate selectivity a
 - [SEM Tech Fuel Cells](sem-tech-fuel-cells.md) -- fuel cell application of SEM Tech membranes
 - [Electricity](electricity.md) -- electrical generation and distribution infrastructure
 
+### Limitations
+
+- **Energy density**: Vanadium RFB energy density is 15-25 Wh/L (lead-acid: 80-90 Wh/L, lithium-ion: 250-700 Wh/L). Large tank volumes required for significant energy storage — a 10 MWh system needs 400,000-670,000 liters of electrolyte.
+- **Vanadium cost**: Vanadium electrolyte accounts for 30-50% of system cost. Vanadium price volatility directly affects RFB economics.
+- **Membrane degradation**: Ion-exchange membranes slowly degrade from vanadium ion crossover and oxidative attack. Membrane lifetime: 5-10 years, requiring periodic replacement.
+- **Parasitic losses**: Electrolyte circulation pumps consume 1-3% of stored energy. Self-discharge through ion crossover adds 0.5-2% per day.
+- **Temperature sensitivity**: Vanadium electrolyte precipitates V₂O₅ above 40°C (positive side) and V²⁺/V³⁺ instability below 10°C (negative side). Active thermal management required.
+- **System complexity**: RFBs require pumps, tanks, heat exchangers, and control systems — more moving parts than solid-state batteries.
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) | [Energy](./index.md) | [All Domains](../index.md)*

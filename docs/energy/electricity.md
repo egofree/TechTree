@@ -195,6 +195,24 @@ Three-phase AC power is the standard for industrial generation and distribution.
 - **Star (wye) connection**: Each phase winding connects to a common neutral point. Provides both line-to-line and line-to-neutral voltages. Neutral carries only the unbalanced current between phases. Used for distribution transformers and generator windings.
 - **Delta connection**: Phase windings connect in a closed loop (triangle). No neutral point. Only line-to-line voltage available. Used for transformer primary windings and some motor configurations. Delta-wye transformer configurations (delta primary, wye secondary) provide a neutral for distribution while blocking zero-sequence fault currents from passing through.
 
+### Limitations
+
+- **Transmission losses**: Long-distance power transmission loses 1-13% of power as heat in conductors, requiring higher voltages and larger conductors for remote generation sites.
+- **Energy storage gap**: Electricity cannot be stored directly at scale — batteries are heavy and expensive (lead-acid: 25-35 Wh/kg), pumped hydro requires specific geography. This limits renewable intermittency management.
+- **Insulation degradation**: Every 8-10°C above rated temperature halves insulation life (the "10-degree rule"). Motors and generators in hot environments need derating or active cooling.
+- **Grid synchronization**: Connecting AC generators to a shared grid requires precise frequency and phase matching. Incorrect synchronization causes damaging current surges.
+- **Bootstrapping challenge**: Wire drawing requires hardened steel dies, which require powered machinery — a chicken-and-egg problem resolved by starting with hammered wire through hand-punched holes.
+- **Copper demand**: Electrical infrastructure is copper-intensive. A 100 kW generator requires ~50-100 kg of copper wire. Transmission lines, motors, and transformers add further demand. Aluminum can substitute for some applications but with 60% of copper's conductivity per unit area.
+
+### See Also
+
+- [Energy Storage](storage.md) — Batteries, pumped hydro, grid infrastructure
+- [Electric Furnaces](electric-furnaces.md) — EAF, SAF, resistance, induction furnaces
+- [Electrode Manufacturing](electrode-manufacturing.md) — Carbon electrode production
+- [Electrolysis](../chemistry/electrolysis.md) — Chlor-alkali, aluminum, copper refining
+- [Steam Power](steam-power.md) — Prime movers for generators
+- [Telegraph](../transport/telegraph.md) — Early electrical communication system
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

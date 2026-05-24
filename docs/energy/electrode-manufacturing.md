@@ -199,7 +199,23 @@ Graphite electrodes are classified by their power rating and application:
 
 Higher power grades require needle coke (not regular sponge coke) to achieve the necessary thermal conductivity and low CTE. UHP electrodes typically undergo two impregnation-rebake cycles and longer graphitization times to reach the required density and crystallinity. The cost premium for UHP over RP is 2-3×, justified by lower consumption rate and higher furnace productivity.
 
-Electrode nipple design also varies by grade. RP electrodes use standard four-start threads with 3 pins per inch. HP and UHP electrodes use longer nipples (200-400 mm engagement length) with finer threads (4-6 pins per inch) and tapered profiles that distribute mechanical load more evenly. Nipple material is high-density graphite (bulk density >1.72 g/cm³, flexural strength >15 MPa), manufactured separately from the electrode body under tighter quality controls.
+Electrode nipple design also varies by grade. RP electrodes use standard four-start threads with 3 pins per inch. HP and UHP electrodes use longer nipples (200-400 mm engagement length) with finer threads (4-6 pins per inch) and tapered profiles that distribute mechanical load more evenly. Nipple material is high-density graphite (bulk density >1.72 g/cm³, flexural strength >15 MPa).
+
+### Limitations
+
+- **Energy intensity**: Graphitization requires 3,000-5,000 kWh per tonne of electrode, making electrode manufacturing one of the most energy-intensive industrial processes.
+- **Slow processing**: The baking cycle takes 15-30 days per furnace load. Graphitization adds another 3-5 days. Lead times from green paste to finished electrode are 4-8 weeks.
+- **Raw material constraints**: Petroleum coke and coal tar pitch are petroleum/coal by-products. Supply depends on upstream production volumes that may not align with electrode demand.
+- **Quality sensitivity**: Small variations in coke ash content, pitch viscosity, or baking temperature profile cause significant quality variation. Tight process control is essential.
+- **Size limitations**: Maximum electrode diameter is limited by through-wall temperature gradients during baking and graphitization. Large-diameter electrodes (>700 mm) require specially controlled cooling to avoid thermal cracking.
+
+### See Also
+
+- [Electric Furnaces](electric-furnaces.md) — Primary consumer of carbon electrodes
+- [Iron & Steel](../metals/iron-steel.md) — Steel production using electric arc furnaces
+- [Coal](coal.md) — Coal tar pitch source
+- [Petroleum & Alternatives](../chemistry/petroleum-alternatives.md) — Petroleum coke source
+- [Carbon](../chemistry/carbon.md) — Carbon materials chemistry
 
 ---
 

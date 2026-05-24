@@ -203,3 +203,24 @@ Coal is the foundational fossil fuel of industrial civilization. It provides the
 - Bulk density: 700-900 kg/m³ (loose), 1000-1200 kg/m³ (compacted)
 - Stoichiometric air: ~8 kg air/kg coal
 - Ash fusion temperature: 1100-1400°C
+
+### Limitations
+
+- **Environmental impact**: Coal combustion produces CO₂ (the dominant greenhouse gas), SO₂ (acid rain), NOₓ, and particulate matter. Sulfur content 0.5-2% creates significant air quality concerns.
+- **Mining hazards**: Underground coal mining risks include methane explosions, coal dust explosions, roof collapse, and black lung disease. Surface mining causes habitat destruction and acid mine drainage.
+- **Non-renewable**: Coal deposits are finite. Even large deposits deplete over decades of intensive mining.
+- **Transportation cost**: Coal is bulky (700-900 kg/m³). Transport cost often exceeds mining cost for distances over 100 km, favoring mine-mouth power plants.
+- **Ash disposal**: 5-12% ash by weight means a 1000 MW coal plant produces 200,000-500,000 tonnes of ash per year, requiring disposal or utilization (cement additive, road base).
+
+### See Also
+
+- [Coke Production](coke.md) — Coal processing for metallurgical coke
+- [Steam Power](steam-power.md) — Coal-fired boilers and steam engines
+- [Steam Turbines](steam-turbines.md) — Coal-fired power generation
+- [Charcoal](charcoal.md) — Renewable alternative to coal for some applications
+- [Fuels](fuels.md) — Comparative fuel properties
+- [Cement Production](../chemistry/cement.md) — Major industrial coal consumer
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*

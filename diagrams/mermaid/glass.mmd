@@ -19,6 +19,7 @@ graph TD
     chemistry("Chemistry")
     chemistry_acids("Mineral Acid Production")
     chemistry_refractories("Refractory Materials")
+    cleanrooms("Clean Room Technology")
     electronics_assembly("Electronics Assembly")
     energy("Energy")
     energy_fuels("Fuel Production")
@@ -49,6 +50,7 @@ graph TD
     photolithography_resists-masks --> glass_basic
     electronics_assembly --> glass_fibers
     glass_photomask-substrates --> photolithography_fab-processes
+    cleanrooms --> glass
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -73,6 +75,7 @@ graph TD
     class chemistry external
     class chemistry_acids external
     class chemistry_refractories external
+    class cleanrooms external
     class electronics_assembly external
     class energy external
     class energy_fuels external

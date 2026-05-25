@@ -1745,6 +1745,117 @@
       }
     },
     {
+      "id": "mathematics",
+      "name": "Mathematics & Formal Sciences",
+      "level": "domain",
+      "parent": null,
+      "description": "Mathematical foundations for all engineering: arithmetic, algebra, geometry, calculus, probability, and formal systems (Boolean algebra, information theory, computation theory). Provides the quantitative language for measurement, modeling, optimization, and digital logic design. Internal organizing axis: Complexity — capabilities ordered by increasing mathematical abstraction from basic arithmetic to formal systems.",
+      "timeline": "Years 0-70+",
+      "outputs": [
+        "mathematical_reasoning",
+        "quantitative_methods",
+        "formal_systems"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "computing"
+        ],
+        "era": "copper-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "mathematics.core-mathematics",
+      "name": "Core Mathematics",
+      "level": "capability",
+      "parent": "mathematics",
+      "description": "Arithmetic, algebra, geometry, trigonometry, and number systems: the mathematical foundations for all engineering calculation and measurement. From basic counting through to the trigonometry and algebra needed for industrial-age engineering.",
+      "timeline": "Years 0-25",
+      "outputs": [
+        "arithmetic",
+        "algebra",
+        "geometry",
+        "trigonometry",
+        "number_systems"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Arithmetic and geometry enable immediate improvement in construction, resource accounting, and trade",
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "computing"
+        ],
+        "era": "copper-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "mathematics.applied-mathematics",
+      "name": "Applied Mathematics",
+      "level": "capability",
+      "parent": "mathematics",
+      "description": "Calculus, linear algebra, differential equations, probability, statistics, and numerical methods for modeling physical systems and quantifying uncertainty. Essential for process engineering, quality control, electronic design, and simulation.",
+      "timeline": "Years 15-70",
+      "outputs": [
+        "calculus",
+        "linear_algebra",
+        "differential_equations",
+        "probability_theory",
+        "statistical_methods",
+        "numerical_methods"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "computing"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "mathematics.formal-systems",
+      "name": "Formal Systems",
+      "level": "capability",
+      "parent": "mathematics",
+      "description": "Boolean algebra for digital circuit design, information theory for communication and data compression, and computation theory for understanding what can be automated. The mathematical foundations bridging continuous engineering and the discrete world of digital technology.",
+      "timeline": "Years 25-70",
+      "outputs": [
+        "boolean_algebra",
+        "information_theory",
+        "formal_languages",
+        "automata_theory"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "computing"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
       "id": "knowledge.writing",
       "name": "Writing & Record-Keeping",
       "level": "capability",
@@ -4436,6 +4547,39 @@
       }
     },
     {
+      "id": "metals.specialty-semiconductor",
+      "name": "Specialty Metals for Semiconductor Interconnects & Barrier Layers",
+      "level": "capability",
+      "parent": "metals",
+      "description": "Titanium (TiN hard masks, Ti diffusion barriers, TiO₂ high-k dielectrics), tungsten (W CVD plug fill from WF₆, contact vias, TSV fill), molybdenum (gate electrodes for sub-22 nm nodes, sputtering targets, heat sinks), and copper (dual damascene electroplating, CMP, electromigration). These four metals form the interconnect stack in every GPU — TiN masks pattern the dielectric, W fills contacts, Mo gates the transistors, and Cu carries the signals across 10-15 metal layers.",
+      "timeline": "Years 40-80",
+      "outputs": [
+        "tin_hard_masks",
+        "tin_diffusion_barriers",
+        "tio2_high_k_dielectric",
+        "w_contact_plugs",
+        "w_tsv_fill",
+        "mo_gate_electrodes",
+        "mo_heat_sinks",
+        "cu_damascene_interconnects"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
       "id": "metals.precious-metals",
       "name": "Precious Metal Production (Gold & Silver)",
       "level": "capability",
@@ -6383,6 +6527,625 @@
         "critical": false,
         "early-win": false,
         "pinnacle": false
+      }
+    },
+    {
+      "id": "cleanrooms",
+      "name": "Clean Room Technology",
+      "level": "domain",
+      "parent": null,
+      "description": "HEPA/ULPA filtration, contamination control protocols, and purpose-engineered facility design for ultra-clean environments. A single 100 nm particle destroys a semiconductor die; modern nodes are sensitive to particles 10-100× smaller. Clean room technology is the general engineering discipline applicable to semiconductor fab, pharmaceuticals, and aerospace.",
+      "timeline": "Years 40-70",
+      "outputs": [
+        "cleanrooms",
+        "hepa_filters",
+        "ulpa_filters",
+        "contamination_control_protocols",
+        "iso_classification",
+        "cleanroom_facilities",
+        "esd_control"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "precision",
+          "construction"
+        ],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "cleanrooms.hepa-ulpa-filtration",
+      "name": "HEPA/ULPA Filtration & Laminar Flow",
+      "level": "capability",
+      "parent": "cleanrooms",
+      "description": "Filter media construction (borosilicate glass microfibers, 99.97% @ 0.3 μm for HEPA, 99.999% @ 0.12 μm for ULPA), fan-filter unit design, laminar flow principles, pre-filtration stages, and filter integrity testing (DOP/PAO challenge).",
+      "timeline": "Years 40-70",
+      "outputs": [
+        "hepa_filters",
+        "ulpa_filters",
+        "laminar_flow_systems",
+        "fan_filter_units"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "glass",
+          "polymers"
+        ],
+        "capability": [],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "cleanrooms.contamination-control",
+      "name": "Contamination Control",
+      "level": "capability",
+      "parent": "cleanrooms",
+      "description": "Gowning protocols and garment materials, particle monitoring systems (laser scattering counters), electrostatic discharge (ESD) control (ionizers, wrist straps, conductive flooring), ISO 14644-1 classification (ISO Classes 1-9), and personnel training requirements.",
+      "timeline": "Years 40-70",
+      "outputs": [
+        "contamination_control_protocols",
+        "iso_classification",
+        "esd_control",
+        "particle_monitoring"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "polymers"
+        ],
+        "capability": [
+          "measurement"
+        ],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "cleanrooms.facility-design",
+      "name": "Facility Design & HVAC",
+      "level": "capability",
+      "parent": "cleanrooms",
+      "description": "Positive pressure cascading (10-25 Pa), modular wall panel construction, raised perforated flooring, ceiling grid systems, make-up air handling, temperature/humidity control (22±0.5°C, 43±3% RH), and airlock pressure cascade design.",
+      "timeline": "Years 40-70",
+      "outputs": [
+        "cleanroom_facilities",
+        "pressure_cascade_systems",
+        "raised_floor_systems",
+        "hvac_systems"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "construction"
+        ],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "quality-control",
+      "name": "Quality Control & Statistical Process Control",
+      "level": "domain",
+      "parent": null,
+      "description": "Statistical process control, inspection sampling, and defect analysis for manufacturing yield optimization. Spans control charts (X-bar/R, p, c), process capability indices (Cpk/Ppk targets ≥1.33), acceptance sampling (AQL, MIL-STD-105E), FMEA, and yield modeling (Murphy's, Seeds). Semiconductor yield runs 60-90% for mature nodes and below 50% for leading edge — quality control is the difference between profit and loss. Internal organizing axis: functional (capabilities grouped by QC function: statistical monitoring, inspection, defect root-cause analysis).",
+      "timeline": "Years 40-100+",
+      "outputs": [
+        "spc_charts",
+        "cpk_indices",
+        "sampling_plans",
+        "fmea",
+        "yield_models",
+        "acceptance_criteria"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "precision"
+        ],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "quality-control.spc",
+      "name": "Statistical Process Control",
+      "level": "capability",
+      "parent": "quality-control",
+      "description": "Control charts (X-bar/R for variables, p and c charts for attributes), process capability analysis (Cpk/Ppk with target ≥1.33 minimum, ≥1.67 for critical dimensions), Western Electric out-of-control detection rules, Six Sigma DMAIC methodology, and Gage R&R measurement system validation. The operating system of manufacturing quality — transforms reactive firefighting into proactive defect prevention.",
+      "timeline": "Years 40-100+",
+      "outputs": [
+        "spc_charts",
+        "cpk_indices",
+        "process_capability_analysis",
+        "six_sigma_metrics",
+        "control_limits"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "precision",
+          "computing"
+        ],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "quality-control.inspection-sampling",
+      "name": "Inspection & Sampling Plans",
+      "level": "capability",
+      "parent": "quality-control",
+      "description": "Acceptance sampling plans (MIL-STD-105E/ANSI Z1.4), AQL selection (0.10%-1.0% for semiconductor materials), incoming/in-process/final inspection procedures, switching rules (normal/tightened/reduced), and variables sampling for continuous measurements. Covers incoming material inspection (photoresist, gases, wafers), in-process monitoring (post-litho CD, post-etch, post-CMP), and wafer sort + final test.",
+      "timeline": "Years 40-100+",
+      "outputs": [
+        "sampling_plans",
+        "aql_tables",
+        "inspection_procedures",
+        "acceptance_criteria",
+        "switching_rules"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "precision",
+          "measurement"
+        ],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "quality-control.defect-analysis",
+      "name": "Defect Analysis & Yield Modeling",
+      "level": "capability",
+      "parent": "quality-control",
+      "description": "Pareto analysis for yield-limiting defect prioritization, fishbone (Ishikawa) diagrams for cause-effect mapping, FMEA with RPN risk ranking (S×O×D), root cause analysis (5 Whys, Kepner-Tregoe), and yield modeling (Murphy's model: Y=[(1-e^(-D₀A))/(D₀A)]², Seeds model). Semiconductor defect density targets: D₀ < 0.10 defects/cm² for mature nodes.",
+      "timeline": "Years 40-100+",
+      "outputs": [
+        "fmea",
+        "pareto_analysis",
+        "fishbone_diagrams",
+        "yield_models",
+        "defect_density",
+        "root_cause_analysis"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "precision",
+          "computing"
+        ],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "vacuum",
+      "name": "Vacuum Technology",
+      "level": "domain",
+      "parent": null,
+      "description": "Advanced vacuum systems for semiconductor manufacturing: roughing pumps (rotary vane, scroll, diaphragm), high-vacuum pumps (turbomolecular, diffusion), UHV pumps (cryopumps, ion pumps, NEG), vacuum chamber design (stainless steel 304L/316L, CF/ISO-KF sealing), and vacuum measurement (ionization gauges, RGA, helium leak detection). Distinct discipline from gas handling — vacuum engineering focuses on gas removal and controlled-atmosphere environments at pressures from 760 Torr to 10⁻¹¹ Torr.",
+      "timeline": "Years 25-40",
+      "outputs": [
+        "vacuum_pumps",
+        "vacuum_chambers",
+        "vacuum_measurement",
+        "leak_detection",
+        "rga_analysis",
+        "uhv_systems"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "vacuum"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "vacuum.pumps",
+      "name": "Vacuum Pumps",
+      "level": "capability",
+      "parent": "vacuum",
+      "description": "Roughing pumps (rotary vane 10⁻³ Torr, scroll 10⁻² mbar oil-free), high-vacuum pumps (turbomolecular 10⁻¹⁰ mbar, diffusion 10⁻⁸ Torr), and UHV pumps (cryopump 10⁻¹¹ Torr, ion pump 10⁻¹¹ Torr, NEG, titanium sublimation). Pump selection matrix by semiconductor application, backing pump sizing, pump-down time calculations, and maintenance schedules.",
+      "timeline": "Years 25-40",
+      "outputs": [
+        "roughing_pumps",
+        "high_vacuum_pumps",
+        "uhv_pumps"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "vacuum"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "vacuum.chambers",
+      "name": "Vacuum Chambers & Sealing",
+      "level": "capability",
+      "parent": "vacuum",
+      "description": "Chamber design (cylindrical, spherical, rectangular) with pressure loading and buckling analysis. Materials: SS 304L (standard), 316L (corrosive service), aluminum 6061 (lightweight). Flange systems: CF/ConFlat (UHV, 10⁻¹² Pa·m³/s leak), ISO-KF (quick-connect, roughing). Seals: OFHC copper gaskets, Viton O-rings. Viewports, gate valves, load locks, electrical feedthroughs, and virtual leak prevention.",
+      "timeline": "Years 25-40",
+      "outputs": [
+        "vacuum_chambers",
+        "vacuum_seals",
+        "viewports",
+        "gate_valves",
+        "load_locks"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "vacuum"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "vacuum.measurement",
+      "name": "Vacuum Measurement & Leak Detection",
+      "level": "capability",
+      "parent": "vacuum",
+      "description": "Pressure gauges: capacitance diaphragm (760-10⁻⁴ Torr, gas-independent), Pirani (10-10⁻³ Torr), Bayard-Alpert ion gauge (10⁻³-10⁻¹¹ Torr), Penning cold cathode (10⁻³-10⁻⁷ Torr). Residual gas analyzers (RGA, 1-200 amu) for contamination identification and leak detection. Helium mass spectrometer leak detection (10⁻¹² atm·cc/s). Pump-down curve diagnostics and RGA fingerprint interpretation.",
+      "timeline": "Years 25-40",
+      "outputs": [
+        "pressure_gauges",
+        "rga_analysis",
+        "leak_detection",
+        "vacuum_diagnostics"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "vacuum",
+          "measurement"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "cryogenics",
+      "name": "Cryogenics",
+      "level": "domain",
+      "parent": null,
+      "description": "Refrigeration fundamentals, cryogenic air separation, and gas liquefaction and storage. Covers vapor-compression through Claude cycle refrigeration, double-column distillation at -196°C, expansion turbine engineering, dewar vessel design, and cryogenic insulation systems. Produces liquid and gaseous N₂, O₂, and Ar at industrial scale for semiconductor fabrication.",
+      "timeline": "Years 20-40",
+      "outputs": [
+        "refrigeration_cycles",
+        "cryogenic_cooling",
+        "expansion_engines",
+        "cryogenic_distillation",
+        "liquid_nitrogen",
+        "liquid_oxygen",
+        "liquid_argon",
+        "cryogenic_storage",
+        "dewar_vessels"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "gases"
+        ],
+        "capability": [
+          "cooling"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "cryogenics.refrigeration",
+      "name": "Refrigeration Fundamentals",
+      "level": "capability",
+      "parent": "cryogenics",
+      "description": "Thermodynamic principles and cycle architectures for cooling from ambient to cryogenic temperatures: vapor-compression, absorption, Joule-Thomson effect, Linde cycle, Claude cycle with expansion turbines, Stirling and pulse tube cryocoolers. Provides the refrigeration knowledge base required for air separation and gas liquefaction.",
+      "timeline": "Years 20-30",
+      "outputs": [
+        "refrigeration_cycles",
+        "cryogenic_cooling",
+        "expansion_engines"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "cooling"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "cryogenics.air-separation",
+      "name": "Cryogenic Air Separation",
+      "level": "capability",
+      "parent": "cryogenics",
+      "description": "Claude cycle integration with double-column distillation at -196°C, expansion turbine engineering (20,000-80,000 RPM, 80-88% isentropic efficiency), brazed aluminum plate-fin heat exchanger design, and cold box insulation. Produces high-purity N₂ (99.999%), O₂ (99.5%+), and Ar (99.999%) at industrial scale.",
+      "timeline": "Years 20-40",
+      "outputs": [
+        "cryogenic_distillation",
+        "liquid_nitrogen",
+        "liquid_oxygen",
+        "liquid_argon"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "gases"
+        ],
+        "capability": [
+          "cooling"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "cryogenics.liquefaction-storage",
+      "name": "Gas Liquefaction & Storage",
+      "level": "capability",
+      "parent": "cryogenics",
+      "description": "Dewar vessel design (vacuum-insulated, 0.1-3%/day evaporation losses), perlite and multi-layer insulation systems, nitrogen and helium liquefaction cycles, cryogenic transfer systems, and material selection for service below -150°C. Liquid storage provides 600-860x density advantage over compressed gas.",
+      "timeline": "Years 20-40",
+      "outputs": [
+        "cryogenic_storage",
+        "liquid_gases",
+        "dewar_vessels",
+        "cold_boxes"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "gases"
+        ],
+        "capability": [
+          "cooling"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "electrochemistry",
+      "name": "Electrochemistry & Plating",
+      "level": "domain",
+      "parent": null,
+      "description": "Semiconductor-grade electrochemical processes: copper damascene electroplating for interconnects, anodizing (aluminum Type II/III, titanium voltage-controlled oxide), electropolishing for ultrapure surfaces, electroforming for precision microstructures, and electroless plating (ENIG for PCBs). Distinct from bulk industrial electrolysis and general metal finishing by clean room requirements, sub-micron feature control, and semiconductor process integration.",
+      "timeline": "Years 30-80",
+      "outputs": [
+        "copper_interconnects",
+        "anodized_aluminum",
+        "electropolished_surfaces",
+        "electroformed_parts",
+        "electroless_nickel",
+        "ENIG_surfaces",
+        "hard_anodized_surfaces",
+        "anodized_titanium"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals",
+          "chemicals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "electronic",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "electrochemistry.electroplating",
+      "name": "Electroplating",
+      "level": "capability",
+      "parent": "electrochemistry",
+      "description": "Copper damascene electroplating for semiconductor interconnects using acid sulfate bath with accelerator/suppressor/leveler additives for bottom-up via and trench fill. Nickel, gold, and tin plating for electronics. Pulse reverse plating for sub-100 nm features. Operating at 5-40 mA/cm², 0.3-1.5V cell voltage, 20-25°C bath temperature.",
+      "timeline": "Years 30-70",
+      "outputs": [
+        "copper_interconnects",
+        "plated_nickel",
+        "plated_gold",
+        "plated_tin",
+        "copper_filled_vias"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals",
+          "chemicals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "electronic",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "electrochemistry.anodizing",
+      "name": "Anodizing",
+      "level": "capability",
+      "parent": "electrochemistry",
+      "description": "Electrochemical oxide growth on aluminum (Type II sulfuric acid at 12-22V, 10-20 mA/cm²; Type III hard anodizing at 25-75V, 25-40 mA/cm², -1 to +5°C) and titanium (voltage-controlled color at 15-110V, 1.5-2 nm/V oxide growth). Porous AAO templates for nanostructure fabrication. Anodic bonding for MEMS packaging.",
+      "timeline": "Years 25-60",
+      "outputs": [
+        "anodized_aluminum",
+        "hard_anodized_surfaces",
+        "anodized_titanium",
+        "oxide_coatings"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals",
+          "chemicals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "electrochemistry.electrochemical-processes",
+      "name": "Electrochemical Surface Processes",
+      "level": "capability",
+      "parent": "electrochemistry",
+      "description": "Electropolishing (anodic dissolution at 10-40 mA/cm² in H₂SO₄/H₃PO₄ electrolyte for ultrasmooth chromium-enriched surfaces, Ra <0.1 μm), electroforming (nickel sulfamate bath for precision microstructure replication), and electroless plating (Ni-P autocatalytic deposition at 85-95°C, ENIG for PCB surface finish).",
+      "timeline": "Years 30-80",
+      "outputs": [
+        "electropolished_surfaces",
+        "electroformed_parts",
+        "electroless_nickel",
+        "ENIG_surfaces",
+        "electroless_copper"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals",
+          "chemicals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "electronic",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "electrochemistry.electroplating.copper-damascene",
+      "name": "Copper Damascene Plating",
+      "level": "process",
+      "parent": "electrochemistry.electroplating",
+      "description": "Bottom-up copper fill of patterned dielectric trenches and vias using acid sulfate bath (CuSO₄ 40-100 g/L + H₂SO₄ 50-100 g/L) with SPS accelerator, PEG suppressor, and leveler additives. Pulse reverse plating at 5-40 mA/cm². Features from 25 nm to 10 μm, aspect ratios up to 10:1. Essential for all modern IC interconnect fabrication since the 250 nm node.",
+      "timeline": "Years 40-80",
+      "outputs": [
+        "copper_interconnects",
+        "copper_filled_vias"
+      ],
+      "critical": true,
+      "critical_note": "Copper damascene plating is the only method to fill sub-100 nm interconnect features — PVD and CVD cannot achieve conformal coverage in high-aspect-ratio damascene structures",
+      "early_win": false,
+      "pinnacle": true,
+      "pinnacle_note": "Sub-25 nm copper damascene requires the full semiconductor manufacturing ecosystem: clean rooms, photolithography, CMP, barrier/seed deposition, and metrology",
+      "tags": {
+        "material": [
+          "metals",
+          "chemicals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "semiconductor",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": true
       }
     }
   ]

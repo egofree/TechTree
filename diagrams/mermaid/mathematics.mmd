@@ -1,0 +1,52 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Mathematics & Formal Sciences
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph mathematics_internal ["Mathematics & Formal Sciences — Internal Structure"]
+        direction TB
+        mathematics_core-mathematics["Core Mathematics"]
+        mathematics_applied-mathematics["Applied Mathematics"]
+        mathematics_formal-systems["Formal Systems"]
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    mathematics["Mathematics & Formal Sciences"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    computing_digital-logic("Digital Logic Design")
+    computing_mechanical("Mechanical Calculation")
+    foundations("Foundations")
+    knowledge_writing("Writing & Record-Keeping")
+
+    %% ==================== EDGES ====================
+    mathematics_applied-mathematics -.-> mathematics_core-mathematics
+    mathematics_formal-systems -.-> mathematics_core-mathematics
+    mathematics_core-mathematics -.-> foundations
+    mathematics -.-> knowledge_writing
+    computing_mechanical -.-> mathematics_core-mathematics
+    computing_digital-logic -.-> mathematics_formal-systems
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
+    class mathematics domain
+    class mathematics_core-mathematics earlyWin
+    class mathematics_applied-mathematics capability
+    class mathematics_formal-systems capability
+    class computing_digital-logic external
+    class computing_mechanical external
+    class foundations external
+    class knowledge_writing external
+    class EdgeLegend,MatNote,ToolNote legend

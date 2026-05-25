@@ -1,0 +1,72 @@
+Task 17: Clean Room Technology Domain
+=====================================
+
+Date: 2026-05-24
+Status: COMPLETE
+
+## SIK Placement Test
+
+### Test: Clean Rooms vs. Photolithography (current placement)
+- Infrastructure overlap: ~60% (same building envelope, different HVAC/filtration needs)
+- Knowledge overlap: ~25% (cleanroom HVAC/particle physics vs. optics/resist chemistry)
+- Practitioner overlap: ~20% (facility engineers vs. lithography process engineers)
+- Result: FAILS 2 of 3 dimensions → split candidate
+
+### Test: Clean Rooms vs. Health/Sanitation
+- Infrastructure overlap: ~15% (basic contamination concepts, completely different methods)
+- Knowledge overlap: ~15% (microbiology focus vs. particle physics focus)
+- Practitioner overlap: ~10% (public health workers vs. cleanroom engineers)
+- Result: FAILS all 3 dimensions → clearly separate
+
+### Test: Clean Rooms vs. Measurement
+- Infrastructure overlap: ~10% (particle counters are measurement instruments)
+- Knowledge overlap: ~15% (monitoring uses measurement principles)
+- Practitioner overlap: ~10% (metrologists vs. HVAC/contamination engineers)
+- Result: FAILS all 3 dimensions → clearly separate
+
+### Test: Clean Rooms vs. Construction
+- Infrastructure overlap: ~40% (modular panels, raised floors are construction techniques)
+- Knowledge overlap: ~30% (structural engineering applies but cleanroom adds contamination control)
+- Practitioner overlap: ~25% (construction workers with different protocols)
+- Result: FAILS all 3 dimensions → clearly separate
+
+### SIK Decision: NEW DOMAIN
+Clean Room Technology is a distinct domain with:
+- Unique knowledge base: HVAC engineering, particle physics, filtration science, ISO standards
+- Unique practitioner profile: Cleanroom/HVAC engineers, contamination control specialists
+- 4 nodes (1 domain + 3 capabilities), 6 outbound edges, 1 inbound edge
+
+## Deliverables
+
+### Domain: docs/cleanrooms/
+- index.md (13 lines) — domain entry with capability links
+- hepa-ulpa-filtration.md (211 lines) — HEPA/ULPA filter media, FFU design, laminar flow, integrity testing
+- contamination-control.md (231 lines) — ISO classification, gowning, monitoring, ESD, training
+- facility-design.md (225 lines) — walls, floors, ceilings, HVAC, pressure cascade, airlocks
+
+### Nodes Added (4)
+1. cleanrooms (domain) — general cleanroom engineering discipline
+2. cleanrooms.hepa-ulpa-filtration (capability) — filter technology
+3. cleanrooms.contamination-control (capability) — protocols and monitoring
+4. cleanrooms.facility-design (capability) — physical facility and HVAC
+
+### Edges Added (7)
+1. cleanrooms → chemistry (material) — chemicals for filter media, cleaning
+2. cleanrooms → metals (material) — aluminum/steel for panels, frames, floors
+3. cleanrooms → glass (material) — borosilicate glass for filter fibers
+4. cleanrooms → energy (tool) — HVAC power requirements
+5. cleanrooms → measurement (tool) — particle counters, pressure sensors
+6. photolithography → cleanrooms (tool) — photolithography needs cleanroom technology
+7. (Existing: cleanrooms → polymers was NOT added; cleanrooms capabilities reference polymers but edge goes through parent)
+
+### ISO Class Ratings Covered
+Full ISO 14644-1 table (ISO 1-9) with particle counts/m³ and air change rates.
+
+### Validation Results
+generate-diagrams.sh: PASS (cleanrooms.mmd generated)
+validate.sh: 16/17 PASS (1 pre-existing failure for vacuum/cryogenics diagrams, unrelated)
+
+### No Duplication
+The new cleanrooms domain covers the GENERAL engineering discipline of clean room technology.
+The existing photolithography/cleanrooms.md covers SEMICONDUCTOR-SPECIFIC integration.
+The new domain links to the photolithography content via See Also references.

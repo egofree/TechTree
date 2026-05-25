@@ -2311,6 +2311,36 @@
       "type": "material"
     },
     {
+      "from": "metals.specialty-semiconductor",
+      "to": "metals",
+      "type": "tool"
+    },
+    {
+      "from": "metals.specialty-semiconductor",
+      "to": "metals.refractory-specialty",
+      "type": "tool"
+    },
+    {
+      "from": "metals.specialty-semiconductor",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "metals.specialty-semiconductor",
+      "to": "photolithography.fab-processes",
+      "type": "material"
+    },
+    {
+      "from": "metals.specialty-semiconductor",
+      "to": "vlsi-scaling.advanced-processes",
+      "type": "tool"
+    },
+    {
+      "from": "metals.specialty-semiconductor",
+      "to": "gas-handling.vacuum",
+      "type": "tool"
+    },
+    {
       "from": "glass.photomask-substrates",
       "to": "glass.advanced",
       "type": "tool"
@@ -2338,6 +2368,246 @@
     {
       "from": "metals.precious-metals",
       "to": "metals.non-ferrous",
+      "type": "tool"
+    },
+    {
+      "from": "cleanrooms",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "cleanrooms",
+      "to": "metals",
+      "type": "material"
+    },
+    {
+      "from": "cleanrooms",
+      "to": "glass",
+      "type": "material"
+    },
+    {
+      "from": "cleanrooms",
+      "to": "energy",
+      "type": "tool"
+    },
+    {
+      "from": "cleanrooms",
+      "to": "measurement",
+      "type": "tool"
+    },
+    {
+      "from": "photolithography",
+      "to": "cleanrooms",
+      "type": "tool"
+    },
+    {
+      "from": "mathematics.core-mathematics",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "mathematics",
+      "to": "knowledge.writing",
+      "type": "tool"
+    },
+    {
+      "from": "mathematics.applied-mathematics",
+      "to": "mathematics.core-mathematics",
+      "type": "tool"
+    },
+    {
+      "from": "mathematics.formal-systems",
+      "to": "mathematics.core-mathematics",
+      "type": "tool"
+    },
+    {
+      "from": "computing.mechanical",
+      "to": "mathematics.core-mathematics",
+      "type": "tool"
+    },
+    {
+      "from": "computing.digital-logic",
+      "to": "mathematics.formal-systems",
+      "type": "tool"
+    },
+    {
+      "from": "quality-control",
+      "to": "measurement",
+      "type": "tool"
+    },
+    {
+      "from": "quality-control",
+      "to": "computing",
+      "type": "tool"
+    },
+    {
+      "from": "quality-control",
+      "to": "knowledge",
+      "type": "tool"
+    },
+    {
+      "from": "quality-control.spc",
+      "to": "quality-control",
+      "type": "tool"
+    },
+    {
+      "from": "quality-control.spc",
+      "to": "measurement",
+      "type": "tool"
+    },
+    {
+      "from": "quality-control.inspection-sampling",
+      "to": "quality-control",
+      "type": "tool"
+    },
+    {
+      "from": "quality-control.inspection-sampling",
+      "to": "measurement.precision-metrology",
+      "type": "tool"
+    },
+    {
+      "from": "quality-control.defect-analysis",
+      "to": "quality-control",
+      "type": "tool"
+    },
+    {
+      "from": "quality-control.defect-analysis",
+      "to": "quality-control.spc",
+      "type": "tool"
+    },
+    {
+      "from": "vlsi-scaling",
+      "to": "quality-control",
+      "type": "tool"
+    },
+    {
+      "from": "photolithography",
+      "to": "quality-control",
+      "type": "tool"
+    },
+    {
+      "from": "cryogenics",
+      "to": "gas-handling",
+      "type": "tool"
+    },
+    {
+      "from": "cryogenics",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "cryogenics.air-separation",
+      "to": "cryogenics.refrigeration",
+      "type": "tool"
+    },
+    {
+      "from": "cryogenics.liquefaction-storage",
+      "to": "cryogenics.refrigeration",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.air-separation",
+      "to": "cryogenics.air-separation",
+      "type": "tool"
+    },
+    {
+      "from": "silicon.crystal-growth",
+      "to": "cryogenics.liquefaction-storage",
+      "type": "material"
+    },
+    {
+      "from": "vacuum",
+      "to": "gas-handling",
+      "type": "tool"
+    },
+    {
+      "from": "vacuum",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "vacuum",
+      "to": "metals",
+      "type": "material"
+    },
+    {
+      "from": "vacuum",
+      "to": "measurement",
+      "type": "tool"
+    },
+    {
+      "from": "vacuum.pumps",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "vacuum.chambers",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "vacuum.chambers",
+      "to": "metals",
+      "type": "material"
+    },
+    {
+      "from": "vacuum.measurement",
+      "to": "measurement",
+      "type": "tool"
+    },
+    {
+      "from": "silicon.basic-devices",
+      "to": "vacuum.pumps",
+      "type": "tool"
+    },
+    {
+      "from": "photolithography.fab-processes",
+      "to": "vacuum.pumps",
+      "type": "tool"
+    },
+    {
+      "from": "optics.inspection.optical-coatings",
+      "to": "vacuum.pumps",
+      "type": "tool"
+    },
+    {
+      "from": "electrochemistry",
+      "to": "chemistry.electrolysis",
+      "type": "tool"
+    },
+    {
+      "from": "electrochemistry",
+      "to": "metals.finishing",
+      "type": "tool"
+    },
+    {
+      "from": "electrochemistry.electroplating",
+      "to": "chemistry.acids",
+      "type": "material"
+    },
+    {
+      "from": "electrochemistry.anodizing",
+      "to": "chemistry.acids",
+      "type": "material"
+    },
+    {
+      "from": "electrochemistry.electrochemical-processes",
+      "to": "chemistry.acids",
+      "type": "material"
+    },
+    {
+      "from": "electrochemistry.anodizing",
+      "to": "metals.aluminum",
+      "type": "material"
+    },
+    {
+      "from": "electrochemistry.electroplating.copper-damascene",
+      "to": "electrochemistry.electroplating",
+      "type": "tool"
+    },
+    {
+      "from": "electrochemistry",
+      "to": "energy.electricity",
       "type": "tool"
     }
   ]

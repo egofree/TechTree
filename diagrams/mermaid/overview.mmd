@@ -10,6 +10,7 @@ graph TD
     photolithography["Photolithography & IC Fabrication"]
     vlsi-scaling["VLSI Scaling & Advanced Semiconductor"]
     knowledge["Knowledge Preservation & Education"]
+    mathematics["Mathematics & Formal Sciences"]
     transport["Transportation & Logistics"]
     computing["Computing & Automation"]
     health["Public Health, Sanitation & Medicine"]
@@ -26,6 +27,11 @@ graph TD
     animals["Animals & Animal Husbandry"]
     water["Water"]
     electronics["Electronics"]
+    cleanrooms["Clean Room Technology"]
+    quality-control["Quality Control & Statistical Process Control"]
+    vacuum["Vacuum Technology"]
+    cryogenics["Cryogenics"]
+    electrochemistry["Electrochemistry & Plating"]
 
     %% ==================== DOMAIN-LEVEL EDGES ====================
     metals -.-> foundations
@@ -72,6 +78,21 @@ graph TD
     electronics --> metals
     electronics -.-> machine-tools
     electronics --> chemistry
+    cleanrooms --> chemistry
+    cleanrooms --> metals
+    cleanrooms --> glass
+    cleanrooms -.-> energy
+    cleanrooms -.-> measurement
+    photolithography -.-> cleanrooms
+    quality-control -.-> measurement
+    quality-control -.-> computing
+    quality-control -.-> knowledge
+    vlsi-scaling -.-> quality-control
+    photolithography -.-> quality-control
+    cryogenics -.-> gas-handling
+    vacuum -.-> gas-handling
+    vacuum --> metals
+    vacuum -.-> measurement
 
     %% ==================== CROSS-DOMAIN EDGES ====================
     agriculture -.-> animals
@@ -83,6 +104,7 @@ graph TD
     chemistry -.-> agriculture
     chemistry -.-> animals
     chemistry -.-> ceramics
+    chemistry -.-> cryogenics
     chemistry -.-> foundations
     chemistry -.-> gas-handling
     chemistry -.-> glass
@@ -93,10 +115,15 @@ graph TD
     chemistry -.-> water
     computing -.-> electronics
     computing -.-> energy
+    computing -.-> mathematics
     computing -.-> metals
     computing -.-> photolithography
     computing -.-> polymers
     computing -.-> silicon
+    cryogenics -.-> energy
+    electrochemistry -.-> chemistry
+    electrochemistry -.-> energy
+    electrochemistry -.-> metals
     electronics -.-> energy
     electronics -.-> glass
     electronics -.-> polymers
@@ -129,6 +156,8 @@ graph TD
     machine-tools -.-> chemistry
     machine-tools -.-> energy
     machine-tools -.-> foundations
+    mathematics -.-> foundations
+    mathematics -.-> knowledge
     measurement -.-> energy
     measurement -.-> foundations
     measurement -.-> metals
@@ -137,16 +166,21 @@ graph TD
     metals -.-> ceramics
     metals -.-> chemistry
     metals -.-> energy
+    metals -.-> gas-handling
     metals -.-> machine-tools
+    metals -.-> photolithography
+    metals -.-> vlsi-scaling
     mining -.-> animals
     mining -.-> chemistry
     mining -.-> energy
     mining -.-> knowledge
     mining -.-> machine-tools
     optics -.-> gas-handling
+    optics -.-> vacuum
     photolithography -.-> ceramics
     photolithography -.-> glass
     photolithography -.-> polymers
+    photolithography -.-> vacuum
     plants -.-> energy
     plants -.-> foundations
     plants -.-> health
@@ -155,8 +189,10 @@ graph TD
     polymers -.-> glass
     polymers -.-> machine-tools
     silicon -.-> ceramics
+    silicon -.-> cryogenics
     silicon -.-> measurement
     silicon -.-> mining
+    silicon -.-> vacuum
     textiles -.-> animals
     textiles -.-> chemistry
     textiles -.-> metals
@@ -165,6 +201,8 @@ graph TD
     transport -.-> chemistry
     transport -.-> foundations
     transport -.-> textiles
+    vacuum -.-> energy
+    vacuum -.-> machine-tools
     vlsi-scaling -.-> chemistry
     vlsi-scaling -.-> computing
     vlsi-scaling -.-> electronics

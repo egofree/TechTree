@@ -45,7 +45,10 @@ graph TD
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
     chemistry_water-electrolysis("Water Electrolysis")
+    cleanrooms("Clean Room Technology")
     computing_electromechanical("Electromechanical Computing")
+    cryogenics("Cryogenics")
+    electrochemistry("Electrochemistry & Plating")
     electronics("Electronics")
     electronics_electrical-systems("Electrical Systems")
     foundations("Foundations")
@@ -82,6 +85,7 @@ graph TD
     transport_aviation("Aviation")
     transport_railways("Railways")
     transport_telegraph("Telegraph Communication")
+    vacuum("Vacuum Technology")
     water_desalination("Desalination")
 
     %% ==================== EDGES ====================
@@ -172,6 +176,10 @@ graph TD
     chemistry_electrodialysis -.-> energy_blue-energy
     electronics -.-> energy_electricity
     electronics_electrical-systems -.-> energy_electricity
+    cleanrooms -.-> energy
+    cryogenics -.-> energy_electricity
+    vacuum -.-> energy_electricity
+    electrochemistry -.-> energy_electricity
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -222,7 +230,10 @@ graph TD
     class chemistry_lubricants external
     class chemistry_petroleum-alternatives external
     class chemistry_water-electrolysis external
+    class cleanrooms external
     class computing_electromechanical external
+    class cryogenics external
+    class electrochemistry external
     class electronics external
     class electronics_electrical-systems external
     class foundations external
@@ -259,5 +270,6 @@ graph TD
     class transport_aviation external
     class transport_railways external
     class transport_telegraph external
+    class vacuum external
     class water_desalination external
     class EdgeLegend,MatNote,ToolNote legend

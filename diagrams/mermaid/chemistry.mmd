@@ -44,6 +44,12 @@ graph TD
     animals_animal-materials("Animal-Derived Materials Processing")
     ceramics_electronic-ceramics("Electronic Ceramics")
     ceramics_kilns("Kiln Construction")
+    cleanrooms("Clean Room Technology")
+    cryogenics_air-separation("Cryogenic Air Separation")
+    electrochemistry("Electrochemistry & Plating")
+    electrochemistry_anodizing("Anodizing")
+    electrochemistry_electrochemical-processes("Electrochemical Surface Processes")
+    electrochemistry_electroplating("Electroplating")
     electronics("Electronics")
     electronics_electrical-systems("Electrical Systems")
     energy("Energy")
@@ -77,6 +83,7 @@ graph TD
     metals_powder-metallurgy("Powder Metallurgy & Advanced Materials")
     metals_precious-metals("Precious Metal Production (Gold & Silver)")
     metals_refractory-specialty("Refractory & Specialty Metals for Semiconductor Manufacturing")
+    metals_specialty-semiconductor("Specialty Metals for Semiconductor Interconnects & Barrier Layers")
     metals_steelmaking("Modern Steelmaking")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_extraction_black-powder("Black Powder Explosives")
@@ -219,7 +226,14 @@ graph TD
     electronics --> chemistry
     electronics_electrical-systems --> chemistry_electrolysis
     metals_refractory-specialty --> chemistry
+    metals_specialty-semiconductor --> chemistry
     metals_precious-metals --> chemistry
+    cleanrooms --> chemistry
+    chemistry_air-separation -.-> cryogenics_air-separation
+    electrochemistry -.-> chemistry_electrolysis
+    electrochemistry_electroplating --> chemistry_acids
+    electrochemistry_anodizing --> chemistry_acids
+    electrochemistry_electrochemical-processes --> chemistry_acids
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -269,6 +283,12 @@ graph TD
     class animals_animal-materials external
     class ceramics_electronic-ceramics external
     class ceramics_kilns external
+    class cleanrooms external
+    class cryogenics_air-separation external
+    class electrochemistry external
+    class electrochemistry_anodizing external
+    class electrochemistry_electrochemical-processes external
+    class electrochemistry_electroplating external
     class electronics external
     class electronics_electrical-systems external
     class energy external
@@ -302,6 +322,7 @@ graph TD
     class metals_powder-metallurgy external
     class metals_precious-metals external
     class metals_refractory-specialty external
+    class metals_specialty-semiconductor external
     class metals_steelmaking external
     class mining external
     class mining_extraction_black-powder external

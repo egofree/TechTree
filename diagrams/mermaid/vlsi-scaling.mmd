@@ -18,10 +18,12 @@ graph TD
     chemistry_dopant-etch-gases("Dopant & Etch Gases")
     computing("Computing & Automation")
     electronics_assembly("Electronics Assembly")
+    metals_specialty-semiconductor("Specialty Metals for Semiconductor Interconnects & Barrier Layers")
     optics_inspection("Optical Inspection")
     photolithography("Photolithography & IC Fabrication")
     photolithography_fab-processes("Core Fab Processes")
     photolithography_resists-masks("Photoresists, Masks & Lithography")
+    quality-control("Quality Control & Statistical Process Control")
     silicon_basic-devices("Basic Semiconductor Devices")
 
     %% ==================== EDGES ====================
@@ -35,6 +37,8 @@ graph TD
     vlsi-scaling_eda-design -.-> silicon_basic-devices
     vlsi-scaling_eda-design -.-> chemistry_dopant-etch-gases
     vlsi-scaling_eda-design -.-> electronics_assembly
+    metals_specialty-semiconductor -.-> vlsi-scaling_advanced-processes
+    vlsi-scaling -.-> quality-control
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -58,9 +62,11 @@ graph TD
     class chemistry_dopant-etch-gases external
     class computing external
     class electronics_assembly external
+    class metals_specialty-semiconductor external
     class optics_inspection external
     class photolithography external
     class photolithography_fab-processes external
     class photolithography_resists-masks external
+    class quality-control external
     class silicon_basic-devices external
     class EdgeLegend,MatNote,ToolNote legend

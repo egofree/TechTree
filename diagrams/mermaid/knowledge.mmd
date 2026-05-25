@@ -25,8 +25,10 @@ graph TD
     health_medicine("Medicine & Surgery")
     health_sanitation("Water Supply & Sanitation")
     machine-tools_machining("Machining")
+    mathematics("Mathematics & Formal Sciences")
     metals_iron-steel("Iron & Steel Production")
     mining_prospecting("Prospecting & Surveying")
+    quality-control("Quality Control & Statistical Process Control")
     textiles_fibers("Fiber Preparation")
 
     %% ==================== EDGES ====================
@@ -46,6 +48,8 @@ graph TD
     knowledge --> chemistry_pulp-chemicals
     knowledge_writing --> animals_animal-materials
     knowledge_writing --> animals_beekeeping
+    mathematics -.-> knowledge_writing
+    quality-control -.-> knowledge
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -76,7 +80,9 @@ graph TD
     class health_medicine external
     class health_sanitation external
     class machine-tools_machining external
+    class mathematics external
     class metals_iron-steel external
     class mining_prospecting external
+    class quality-control external
     class textiles_fibers external
     class EdgeLegend,MatNote,ToolNote legend

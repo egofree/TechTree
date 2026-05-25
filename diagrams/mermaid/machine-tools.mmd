@@ -53,6 +53,8 @@ graph TD
     textiles("Textiles, Fiber & Cordage")
     transport("Transportation & Logistics")
     transport_aviation("Aviation")
+    vacuum_chambers("Vacuum Chambers & Sealing")
+    vacuum_pumps("Vacuum Pumps")
 
     %% ==================== EDGES ====================
     machine-tools_iterative-bootstrap -.-> machine-tools_casting
@@ -100,6 +102,8 @@ graph TD
     machine-tools_iterative-bootstrap --> animals_animal-materials
     mining_drilling -.-> machine-tools_machining
     electronics -.-> machine-tools
+    vacuum_pumps -.-> machine-tools
+    vacuum_chambers -.-> machine-tools
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -158,4 +162,6 @@ graph TD
     class textiles external
     class transport external
     class transport_aviation external
+    class vacuum_chambers external
+    class vacuum_pumps external
     class EdgeLegend,MatNote,ToolNote legend

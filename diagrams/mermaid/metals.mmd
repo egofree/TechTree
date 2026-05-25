@@ -16,6 +16,7 @@ graph TD
         metals_finishing["Metal Finishing & Surface Treatment"]
         metals_powder-metallurgy["Powder Metallurgy & Advanced Materials"]
         metals_refractory-specialty["Refractory & Specialty Metals for Semiconductor Manufacturing"]
+        metals_specialty-semiconductor["Specialty Metals for Semiconductor Interconnects & Barrier Layers"]
         metals_precious-metals["Precious Metal Production (Gold & Silver)"]
     end
 
@@ -35,7 +36,10 @@ graph TD
     chemistry_hydrogen-silane("Hydrogen & Silane Production")
     chemistry_refractories("Refractory Materials")
     chemistry_soap("Soap & Detergent Production")
+    cleanrooms("Clean Room Technology")
     computing_mechanical("Mechanical Calculation")
+    electrochemistry("Electrochemistry & Plating")
+    electrochemistry_anodizing("Anodizing")
     electronics("Electronics")
     energy("Energy")
     energy_cooling("Cooling Systems & Refrigeration")
@@ -50,6 +54,7 @@ graph TD
     energy_storage("Energy Storage & Diversification")
     foundations("Foundations")
     foundations_fire("Fire-Making")
+    gas-handling_vacuum("Vacuum Technology")
     health_medical-instruments("Medical Instrument Manufacturing")
     knowledge_printing("Paper and Printing Press")
     machine-tools("Machine Tools Bootstrap")
@@ -60,11 +65,15 @@ graph TD
     measurement_precision-metrology("Precision Metrology & Standards")
     measurement_temperature-pressure("Temperature & Pressure Measurement")
     mining("Mining Engineering & Extractive Metallurgy")
+    photolithography_fab-processes("Core Fab Processes")
     textiles_sewing-tailoring("Sewing & Tailoring")
     transport("Transportation & Logistics")
     transport_aviation("Aviation")
     transport_railways("Railways")
     transport_telegraph("Telegraph Communication")
+    vacuum("Vacuum Technology")
+    vacuum_chambers("Vacuum Chambers & Sealing")
+    vlsi-scaling_advanced-processes("Advanced Processes")
 
     %% ==================== EDGES ====================
     metals_iron-steel -.-> metals_copper-bronze
@@ -80,6 +89,8 @@ graph TD
     metals_forming --> metals_aluminum
     metals_powder-metallurgy --> metals_alloys
     metals_refractory-specialty -.-> metals
+    metals_specialty-semiconductor -.-> metals
+    metals_specialty-semiconductor -.-> metals_refractory-specialty
     metals_precious-metals -.-> metals
     metals_precious-metals -.-> metals_non-ferrous
     metals -.-> foundations
@@ -137,8 +148,17 @@ graph TD
     health_medical-instruments --> metals_copper-bronze
     electronics --> metals
     metals_refractory-specialty --> chemistry
+    metals_specialty-semiconductor --> chemistry
+    metals_specialty-semiconductor --> photolithography_fab-processes
+    metals_specialty-semiconductor -.-> vlsi-scaling_advanced-processes
+    metals_specialty-semiconductor -.-> gas-handling_vacuum
     metals_precious-metals --> chemistry
     metals_precious-metals --> mining
+    cleanrooms --> metals
+    vacuum --> metals
+    vacuum_chambers --> metals
+    electrochemistry -.-> metals_finishing
+    electrochemistry_anodizing --> metals_aluminum
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -166,6 +186,7 @@ graph TD
     class metals_finishing capability
     class metals_powder-metallurgy pinnacle
     class metals_refractory-specialty capability
+    class metals_specialty-semiconductor capability
     class metals_precious-metals capability
     class animals_beekeeping external
     class ceramics external
@@ -179,7 +200,10 @@ graph TD
     class chemistry_hydrogen-silane external
     class chemistry_refractories external
     class chemistry_soap external
+    class cleanrooms external
     class computing_mechanical external
+    class electrochemistry external
+    class electrochemistry_anodizing external
     class electronics external
     class energy external
     class energy_cooling external
@@ -194,6 +218,7 @@ graph TD
     class energy_storage external
     class foundations external
     class foundations_fire external
+    class gas-handling_vacuum external
     class health_medical-instruments external
     class knowledge_printing external
     class machine-tools external
@@ -204,9 +229,13 @@ graph TD
     class measurement_precision-metrology external
     class measurement_temperature-pressure external
     class mining external
+    class photolithography_fab-processes external
     class textiles_sewing-tailoring external
     class transport external
     class transport_aviation external
     class transport_railways external
     class transport_telegraph external
+    class vacuum external
+    class vacuum_chambers external
+    class vlsi-scaling_advanced-processes external
     class EdgeLegend,MatNote,ToolNote legend

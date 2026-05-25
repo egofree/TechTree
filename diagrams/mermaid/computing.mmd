@@ -19,9 +19,12 @@ graph TD
     electronics_assembly("Electronics Assembly")
     energy_electricity("Electricity Generation & Distribution")
     machine-tools("Machine Tools Bootstrap")
+    mathematics_core-mathematics("Core Mathematics")
+    mathematics_formal-systems("Formal Systems")
     metals("Metals")
     photolithography_fab-processes("Core Fab Processes")
     polymers_thermoplastics("Thermoplastic Polymers")
+    quality-control("Quality Control & Statistical Process Control")
     silicon_basic-devices("Basic Semiconductor Devices")
     vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
 
@@ -40,6 +43,9 @@ graph TD
     computing_data-storage --> polymers_thermoplastics
     computing_electronic --> photolithography_fab-processes
     computing_electronic -.-> electronics_assembly
+    computing_mechanical -.-> mathematics_core-mathematics
+    computing_digital-logic -.-> mathematics_formal-systems
+    quality-control -.-> computing
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -64,9 +70,12 @@ graph TD
     class electronics_assembly external
     class energy_electricity external
     class machine-tools external
+    class mathematics_core-mathematics external
+    class mathematics_formal-systems external
     class metals external
     class photolithography_fab-processes external
     class polymers_thermoplastics external
+    class quality-control external
     class silicon_basic-devices external
     class vlsi-scaling_eda-design external
     class EdgeLegend,MatNote,ToolNote legend

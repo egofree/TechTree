@@ -29,10 +29,11 @@ The critical path through the tree, in rough chronological order. These domains 
 7. **[Chemistry](chemistry/index.md)** — mineral acids, alkalis, distillation, oils & grease
 8. **[Glass](glass/index.md)** — basic and advanced glass production, crucibles
 9. **[Gas Handling](gas-handling/index.md)** — vacuum pumps, gas compression, purification
-10. **[Measurement](measurement/index.md)** — precision metrology, measurement standards
-11. **[Silicon](silicon/index.md)** — MG-Si production, crystal growth, solar cells
-12. **[Photolithography](photolithography/index.md)** — cleanrooms, lithography, IC fabrication
-13. **[VLSI Scaling](vlsi-scaling/index.md)** — continuous improvement toward GPUs and advanced solar
+10. **[Cryogenics](cryogenics/index.md)** — refrigeration, cryogenic air separation, gas liquefaction & storage
+11. **[Measurement](measurement/index.md)** — precision metrology, measurement standards
+12. **[Silicon](silicon/index.md)** — MG-Si production, crystal growth, solar cells
+13. **[Photolithography](photolithography/index.md)** — cleanrooms, lithography, IC fabrication
+14. **[VLSI Scaling](vlsi-scaling/index.md)** — continuous improvement toward GPUs and advanced solar
 
 Several capabilities in other domains are also critical because their absence blocks downstream work: [knowledge](knowledge/index.md) (writing, education), [textiles](textiles/index.md) (cordage, drive belts), [chemistry.lubricants](chemistry/index.md) (oils, grease, cutting fluid), [optics](optics/index.md) (microscopes, lens grinding).
 
@@ -44,6 +45,7 @@ Several capabilities in other domains are also critical because their absence bl
 | [Animals](animals/index.md) | 7 | | draft power, wool, leather, dairy, eggs, meat, hunting |
 | [Ceramics](ceramics/index.md) | 4 | | refractories, kilns, lime, pottery, crucibles |
 | [Chemistry](chemistry/index.md) | 18 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
+| [Cryogenics](cryogenics/index.md) | 3 | | refrigeration cycles, cryogenic air separation, gas liquefaction & storage |
 | [Computing](computing/index.md) | 5 | | slide rules, calculators, automation |
 | [Construction](construction/index.md) | — | | structural engineering, concrete, dams, tunnels |
 | [Defense & Military](defense/index.md) | — | | weapons, fortifications, military engineering |
@@ -68,6 +70,7 @@ Several capabilities in other domains are also critical because their absence bl
 | [Textiles](textiles/index.md) | 7 | Yes | cordage, cloth, rope, drive belts |
 | [Transport](transport/index.md) | 5 | | roads, railways, aviation, logistics |
 | [VLSI Scaling](vlsi-scaling/index.md) | 4 | | GPUs, advanced solar, EDA tools |
+| [Vacuum Technology](vacuum/index.md) | 3 | | vacuum pumps, chambers, measurement, leak detection |
 | [Water Infrastructure](water/index.md) | — | | water treatment, desalination, distribution, sewage |
 
 ## Dependency Overview

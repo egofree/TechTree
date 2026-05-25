@@ -16,14 +16,17 @@ graph TD
     chemistry("Chemistry")
     chemistry_air-separation("Air Separation & Bulk Gas Production")
     chemistry_hydrogen-silane("Hydrogen & Silane Production")
+    cryogenics("Cryogenics")
     energy("Energy")
     machine-tools("Machine Tools Bootstrap")
+    metals_specialty-semiconductor("Specialty Metals for Semiconductor Interconnects & Barrier Layers")
     optics_inspection_optical-coatings("Optical Coatings")
     photolithography("Photolithography & IC Fabrication")
     photolithography_fab-processes("Core Fab Processes")
     silicon("Silicon")
     silicon_basic-devices("Basic Semiconductor Devices")
     silicon_purification("Silicon Purification")
+    vacuum("Vacuum Technology")
 
     %% ==================== EDGES ====================
     gas-handling -.-> machine-tools
@@ -37,6 +40,9 @@ graph TD
     chemistry_air-separation -.-> gas-handling_basic
     chemistry_hydrogen-silane -.-> gas-handling_basic
     optics_inspection_optical-coatings -.-> gas-handling_vacuum
+    metals_specialty-semiconductor -.-> gas-handling_vacuum
+    cryogenics -.-> gas-handling
+    vacuum -.-> gas-handling
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -58,12 +64,15 @@ graph TD
     class chemistry external
     class chemistry_air-separation external
     class chemistry_hydrogen-silane external
+    class cryogenics external
     class energy external
     class machine-tools external
+    class metals_specialty-semiconductor external
     class optics_inspection_optical-coatings external
     class photolithography external
     class photolithography_fab-processes external
     class silicon external
     class silicon_basic-devices external
     class silicon_purification external
+    class vacuum external
     class EdgeLegend,MatNote,ToolNote legend

@@ -18,15 +18,19 @@ graph TD
     chemistry("Chemistry")
     chemistry_dopant-etch-gases("Dopant & Etch Gases")
     chemistry_packaging-testing("Semiconductor Packaging & Testing")
+    cleanrooms("Clean Room Technology")
     computing_electronic("Electronic Computing")
     gas-handling("Gas Handling")
     gas-handling_vacuum("Vacuum Technology")
     glass_basic("Basic Glass Production")
     glass_photomask-substrates("Photomask Glass Substrates & ULE Glass")
     machine-tools("Machine Tools Bootstrap")
+    metals_specialty-semiconductor("Specialty Metals for Semiconductor Interconnects & Barrier Layers")
     optics("Optics")
     polymers_thermosets("Thermosetting Polymers")
+    quality-control("Quality Control & Statistical Process Control")
     silicon("Silicon")
+    vacuum_pumps("Vacuum Pumps")
     vlsi-scaling("VLSI Scaling & Advanced Semiconductor")
     vlsi-scaling_advanced-lithography("Advanced Lithography")
     vlsi-scaling_advanced-processes("Advanced Processes")
@@ -53,7 +57,11 @@ graph TD
     chemistry_packaging-testing --> photolithography_fab-processes
     computing_electronic --> photolithography_fab-processes
     photolithography_resists-masks --> glass_basic
+    metals_specialty-semiconductor --> photolithography_fab-processes
     glass_photomask-substrates --> photolithography_fab-processes
+    photolithography -.-> cleanrooms
+    photolithography -.-> quality-control
+    photolithography_fab-processes -.-> vacuum_pumps
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -77,15 +85,19 @@ graph TD
     class chemistry external
     class chemistry_dopant-etch-gases external
     class chemistry_packaging-testing external
+    class cleanrooms external
     class computing_electronic external
     class gas-handling external
     class gas-handling_vacuum external
     class glass_basic external
     class glass_photomask-substrates external
     class machine-tools external
+    class metals_specialty-semiconductor external
     class optics external
     class polymers_thermosets external
+    class quality-control external
     class silicon external
+    class vacuum_pumps external
     class vlsi-scaling external
     class vlsi-scaling_advanced-lithography external
     class vlsi-scaling_advanced-processes external

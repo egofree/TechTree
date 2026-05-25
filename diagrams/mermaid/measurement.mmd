@@ -16,6 +16,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry("Chemistry")
+    cleanrooms("Clean Room Technology")
     energy_electricity("Electricity Generation & Distribution")
     foundations("Foundations")
     machine-tools("Machine Tools Bootstrap")
@@ -24,8 +25,13 @@ graph TD
     metals_powder-metallurgy("Powder Metallurgy & Advanced Materials")
     optics_inspection("Optical Inspection")
     optics_precision-instruments("Precision Optical Instruments")
+    quality-control("Quality Control & Statistical Process Control")
+    quality-control_inspection-sampling("Inspection & Sampling Plans")
+    quality-control_spc("Statistical Process Control")
     silicon_crystal-growth("Crystal Growth & Wafering")
     silicon_crystal-growth_cz-pulling("Czochralski Crystal Pulling")
+    vacuum("Vacuum Technology")
+    vacuum_measurement("Vacuum Measurement & Leak Detection")
 
     %% ==================== EDGES ====================
     measurement_electrical-instruments -.-> measurement
@@ -43,6 +49,12 @@ graph TD
     measurement_electrical-instruments -.-> energy_electricity
     measurement_optical-instruments -.-> optics_inspection
     measurement_precision-metrology -.-> optics_precision-instruments
+    cleanrooms -.-> measurement
+    quality-control -.-> measurement
+    quality-control_spc -.-> measurement
+    quality-control_inspection-sampling -.-> measurement_precision-metrology
+    vacuum -.-> measurement
+    vacuum_measurement -.-> measurement
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -64,6 +76,7 @@ graph TD
     class measurement_electrical-instruments capability
     class measurement_optical-instruments capability
     class chemistry external
+    class cleanrooms external
     class energy_electricity external
     class foundations external
     class machine-tools external
@@ -72,6 +85,11 @@ graph TD
     class metals_powder-metallurgy external
     class optics_inspection external
     class optics_precision-instruments external
+    class quality-control external
+    class quality-control_inspection-sampling external
+    class quality-control_spc external
     class silicon_crystal-growth external
     class silicon_crystal-growth_cz-pulling external
+    class vacuum external
+    class vacuum_measurement external
     class EdgeLegend,MatNote,ToolNote legend

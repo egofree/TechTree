@@ -67,3 +67,25 @@ The non-ferrous.md lead section (line 61) covers the Parkes process in detail. P
 
 ### Finding: Duplicate closing brackets can appear in JSON edits
 When editing edges.json near the end of the file, a previous edit left duplicate `]\n}` closings. Always validate JSON with `python3 -c "import json; json.load(open(...))"` after edits.
+
+## 2026-05-24: Task 15 — Vacuum Technology Domain Creation
+
+### Finding: SIK test clearly separates vacuum from gas-handling
+Vacuum and gas-handling share only ~25-30% overlap on infrastructure and knowledge dimensions. Despite both dealing with gas-phase physics, vacuum engineering (gas REMOVAL, controlled atmospheres, UHV) is fundamentally different from gas handling (gas DISTRIBUTION, positive pressure, safety). The SIK test correctly identifies this separation.
+
+### Finding: Existing content can be elevated to a new domain without deletion
+The gas-handling/vacuum.md file (215 lines) was not deleted. It remains as a foundational reference. The new vacuum domain adds complementary content at a deeper technical level (UHV pumps, detailed specs tables, chamber design calculations, RGA diagnostics). Cross-references between gas-handling/vacuum.md and vacuum domain files prevent duplication.
+
+### Convention: Edge types for vacuum domain
+- vacuum → gas-handling: "tool" (gas distribution infrastructure reused)
+- vacuum → energy.electricity: "tool" (power for pumps and instruments reused)
+- vacuum → metals: "material" (stainless steel, copper consumed for chambers and gaskets)
+- vacuum → measurement: "tool" (calibration infrastructure reused)
+- vacuum.pumps → machine-tools: "tool" (precision manufacturing for pump components reused)
+- vacuum.chambers → machine-tools: "tool" (precision manufacturing for chamber components reused)
+- vacuum.chambers → metals: "material" (stainless steel consumed for chamber construction)
+- silicon.basic-devices → vacuum.pumps: "tool" (vacuum systems reused for deposition)
+- photolithography.fab-processes → vacuum.pumps: "tool" (vacuum systems reused for fab processes)
+
+### Finding: Content files with specific technical parameters add genuine value
+Including specific pressure ranges (Torr, Pa, mbar), pump speeds (CFM, L/s), materials (SS 304L, 316L, OFHC copper), and specifications tables transforms content from descriptive to actionable. This level of detail matches the technical depth of existing domain content files.

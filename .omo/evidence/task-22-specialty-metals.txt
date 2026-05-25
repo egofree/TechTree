@@ -1,0 +1,80 @@
+Task 22: Specialty Metals for Semiconductor Interconnects & Barrier Layers
+===========================================================================
+Date: 2026-05-24
+Status: COMPLETE
+
+SIK PLACEMENT TEST (Schema Spec §6)
+====================================
+
+Subject: Should Ti, W (CVD), Mo (semiconductor), and Cu (damascene) form a 
+new domain or expand the existing metals domain?
+
+Physical Infrastructure Overlap:
+- Ti Kroll process: vacuum furnaces, chemical processing → 60% overlap
+- W CVD from WF₆: CVD reactors, vacuum systems → 70% overlap with refractory-specialty
+- Mo sputtering targets: same PVD equipment as Ta targets → 80% overlap
+- Cu electroplating/CMP: plating baths, CMP tools → 60% overlap
+- Average: ~60% → PASSES (>50%)
+
+Knowledge Base Overlap:
+- Thin-film deposition (PVD, CVD, ALD) → ~70% overlap with refractory-specialty
+- Barrier layer science → shared with refractory-specialty (TaN/Ta)
+- CMP chemistry → shared with refractory-specialty (Co CMP)
+- Average: ~60% → PASSES (>50%)
+
+Practitioner Profile Overlap:
+- Semiconductor thin-film/process engineers → ~70% overlap
+- Both use PVD, CVD, vacuum, cleanroom environments
+- Both require thin-film metrology
+- Average: ~70% → PASSES (>50%)
+
+DECISION: EXPAND metals domain (all three SIK axes >50%)
+New capability: metals.specialty-semiconductor
+
+DELIVERABLES
+============
+
+1. Content File: docs/metals/specialty-semiconductor.md
+   - 293 lines (≥200 required)
+   - Covers Ti (Kroll process summary, TiN hard mask PVD 100-200nm, Ti diffusion barrier, 
+     TiO₂ dielectric), W (WF₆ production, H₂ reduction CVD plug fill, blanket + etchback, 
+     TSV fill), Mo (purification to semiconductor grade, sputtering target manufacturing, 
+     gate electrodes for sub-22nm, heat sinks), Cu (dual damascene process, electroplating 
+     bath chemistry, CMP 3-step process, electromigration)
+   - Specific temperatures, deposition methods, film properties included
+   - No duplication from refractory-metals.md or refractory-specialty.md
+
+2. Node Added: metals.specialty-semiconductor
+   - Level: capability
+   - Parent: metals
+   - Era: semiconductor
+   - Tags: material=[metals], capability=[precision], era=semiconductor
+   - Outputs: 8 tokens (tin_hard_masks, tin_diffusion_barriers, tio2_high_k_dielectric,
+     w_contact_plugs, w_tsv_fill, mo_gate_electrodes, mo_heat_sinks, 
+     cu_damascene_interconnects)
+
+3. Edges Added: 6 edges (≥4 required)
+   - metals.specialty-semiconductor → metals (tool)
+   - metals.specialty-semiconductor → metals.refractory-specialty (tool)
+   - metals.specialty-semiconductor → chemistry (material)
+   - metals.specialty-semiconductor → photolithography.fab-processes (material)
+   - metals.specialty-semiconductor → vlsi-scaling.advanced-processes (tool)
+   - metals.specialty-semiconductor → gas-handling.vacuum (tool)
+
+4. Index Updated: docs/metals/index.md
+   - Added entry for specialty-semiconductor.md between refractory-specialty and precious-metals
+
+5. Diagrams Regenerated: generate-diagrams.sh
+   - 1 overview + 28 domain diagrams generated
+
+6. Validation: validate.sh → 17/17 PASS
+   - All DAG, cross-ref, tag, edge type, hierarchy, taxonomy checks pass
+
+CONTENT NOT DUPLICATED FROM EXISTING FILES
+==========================================
+- refractory-metals.md covers: bulk W/Mo production (APT, MoS₂ flotation, powder metallurgy),
+  structural/military applications, WC cemented carbide, Ta capacitors, Nb superconductors
+- refractory-specialty.md covers: Ta (TaN/Ta barrier PVD/ALD, sputtering targets), 
+  Co (CoSi₂ salicide, Co CMP), In (ITO, InGaAs, bump bonding)
+- specialty-semiconductor.md covers NEW content: TiN hard masks, WF₆ W CVD plug fill,
+  Mo gate electrodes/heat sinks, Cu dual damascene/electroplating/CMP

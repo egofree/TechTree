@@ -204,3 +204,32 @@ Including Euler buckling formulas, beam load tables (steel IPE sections, timber 
 
 ### Finding: Directory alias mismatches between node IDs and docs directories
 The telecom domain node ID is `telecom` but docs were in `docs/telecommunications/`. Check 3 (node-doc correspondence) fails when non-domain nodes exist under a domain whose directory name doesn't match the node ID. Renaming `docs/telecommunications/` to `docs/telecom/` resolves this. Lesson: always match the docs directory name to the domain node ID exactly.
+
+## 2026-05-25: Task 38 — Comprehensive Accuracy Audit
+
+### Finding: 14 confirmed errors across 10 files in ~120 files audited
+Error density: ~0.12 errors/file. Types: 6 unbalanced chemical equations, 3 wrong numerical values, 2 typos/wrong terms, 2 safety-critical errors, 1 unit error. Full report in `.omo/evidence/task-38-accuracy-audit.txt`.
+
+### Finding: Chemical equation errors are the most common factual error type
+6 of 14 errors were unbalanced equations. Always verify by explicit atom-counting (left vs right for every element). Visual inspection is insufficient — equations "look right" but have subtle imbalances (e.g., Au+3Cl₂→AuCl₃ has 6 Cl left, 3 Cl right).
+
+### Finding: Safety-critical errors are rare but high-severity
+`mining/extraction.md` said "test at floor level" for methane — methane is lighter than air and accumulates at roof. `mining/ventilation.md` had O₂ consumption values ~80× too high (0.02 m³/min instead of 0.25 L/min). Both fixed. Safety-related claims should be cross-checked against reference values with extra scrutiny.
+
+### Finding: Temperature claims are frequently off by category (not just degree)
+Ethanol dehydration at 170°C produces diethyl ether, not ethylene (needs 350-400°C). PTFE melting point stated as 380°C but is actually 327°C (380°C is the sintering temperature). These are categorical errors, not minor rounding. When a temperature determines which reaction/product occurs, verify with multiple sources.
+
+### Finding: Specific power and energy density values often overestimated
+Engine specific power was stated as "5-50 kW/kg" (actual: 0.5-5 kW/kg). Gasoline energy equivalent was "~3g" (actual: ~2g). Material property claims should be checked against engineering handbooks, not just Wikipedia.
+
+### Finding: SiO₂:C stoichiometric ratio is non-obvious
+mg-si-production.md stated "stoichiometric is 2.14:1" but the correct molar mass ratio is SiO₂(60.08):2C(24.02) = 2.5:1. The 2.14 value appears to be a mass ratio error. When a ratio is critical for practical use (affects furnace charge), verify the molar math.
+
+### Finding: Chemistry domain has highest error count (4 errors) despite being highest quality
+acids.md (2 stoichiometry errors), dopant-etch-gases.md (3 errors), explosives.md (1 typo). Even the "gold standard" domain needs equation-by-equation verification. Quality rating 9.2/10 still leaves room for factual errors.
+
+### Finding: Silicon, cryogenics, and electrochemistry domains had zero errors
+These domains were written with careful attention to numerical accuracy. Silicon domain had only 1 error (the SiO₂:C ratio), and cryogenics/electrochemistry had none in the files audited.
+
+### Finding: validate.sh passed 17/17 after all 14 fixes
+No structural issues introduced by the factual corrections. The audit only touched content (.md files), never data files (nodes.json, edges.json) or diagrams (.mmd/.d2).

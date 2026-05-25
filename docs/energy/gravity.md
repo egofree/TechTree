@@ -201,7 +201,7 @@ The fundamental hydraulic power formula P = η × ρ × g × Q × H applies to e
 - **Power ceiling**: Water wheels top out at ~50-100 kW for the largest installations. Overshot wheels rarely exceed 3-4 m width and 10 m diameter due to structural limits of timber construction.
 - **Site dependency**: Water power requires flowing water with usable head. Suitable sites are fixed by geography and cannot be relocated. Drought and freezing can halt production seasonally.
 - **Speed variability**: Water flow varies with seasons and weather. Power output fluctuates accordingly, making consistent shaft speed difficult without governors and flywheels.
-- **Head limitations**: Gravity-powered mechanical systems (weights, pendulums) provide extremely low energy density. A 1-tonne weight falling 10 m stores only 98 kJ — equivalent to ~3 grams of gasoline.
+- **Head limitations**: Gravity-powered mechanical systems (weights, pendulums) provide extremely low energy density. A 1-tonne weight falling 10 m stores only 98 kJ — equivalent to ~2 grams of gasoline.
 - **Ice and debris**: Winter freezing blocks water channels. Debris (leaves, branches, silt) requires constant trash rack cleaning. Flood events can damage or destroy water wheel installations.
 
 ### See Also

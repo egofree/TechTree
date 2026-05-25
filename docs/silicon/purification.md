@@ -63,7 +63,7 @@ Directional solidification and zone refining effectively remove most metallic im
 - **Contact time**: 1-4 hours with stirring (mechanical or gas bubbling). Without stirring, diffusion-limited times extend to 6+ hours.
 - **Equipment**: Graphite crucible with SiC coating (resists slag corrosion) or alumina crucible. Induction heating preferred for stirring via electromagnetic forces.
 
-**Reaction**: 2[B in Si] + 3(SiO₂ in slag) → 3Si + 2(B₂O₃ in slag). Boron partitions into slag as B₂O₃. The distribution ratio L_B = (wt% B in slag)/(wt% B in Si) typically reaches 2-5 under optimal conditions.
+**Reaction**: 4[B in Si] + 3(SiO₂ in slag) → 3Si + 2(B₂O₃ in slag). Boron partitions into slag as B₂O₃. The distribution ratio L_B = (wt% B in slag)/(wt% B in Si) typically reaches 2-5 under optimal conditions.
 
 **Expected removal efficiency**: 70-90% per pass for CaO-SiO₂ systems. Multiple passes (2-3) can reduce boron from ~15-40 ppm in MG-Si to <1 ppm, sufficient for solar-grade silicon. Silicon yield loss to slag entrainment is typically 3-8% per pass.
 
@@ -77,7 +77,7 @@ See [Crystal Growth & Wafering](crystal-growth.md) for CZ pulling details.
 
 The Siemens process requires large volumes of H₂ for both the hydrochlorination step and the CVD deposition:
 - **Electrolysis of water**: H₂O → H₂ + ½O₂. Most common source for high-purity H₂. Requires ~4.5-5.5 kWh per Nm³ H₂ (alkaline electrolysis at 70-80% efficiency). A polysilicon plant producing 1000 tonnes/year needs ~3,000-5,000 Nm³ H₂/hour — a dedicated electrolysis plant.
-- **Chlor-alkali byproduct**: NaCl + H₂O → Cl₂ + H₂ + NaOH. The H₂ is a co-product. If a chlor-alkali plant exists (needed for HCl production anyway), its H₂ output can feed the silicon purification line. Synergy: Cl₂ from chlor-alkali is burned with H₂ to make HCl → HCl reacts with MG-Si → trichlorosilane.
+- **Chlor-alkali byproduct**: 2NaCl + 2H₂O → Cl₂ + H₂ + 2NaOH. The H₂ is a co-product. If a chlor-alkali plant exists (needed for HCl production anyway), its H₂ output can feed the silicon purification line. Synergy: Cl₂ from chlor-alkali is burned with H₂ to make HCl → HCl reacts with MG-Si → trichlorosilane.
 - **Storage and delivery**: H₂ stored as compressed gas (200-350 bar) or cryogenic liquid (-253°C). Piping must be stainless steel (H₂ embrittlement of carbon steel is a long-term failure risk).
 
 ### SiCl₄ Byproduct Management

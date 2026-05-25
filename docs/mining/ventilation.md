@@ -9,7 +9,7 @@
 
 ### Why Ventilation Matters
 
-Every underground opening consumes oxygen and produces contaminants. Miners breathe (consumes ~0.02 m³/min of O₂ per person at rest, 0.05 m³/min during heavy labor). Blasting generates carbon monoxide, nitrogen oxides, and sulfur dioxide. Diesel equipment emits CO, NOₓ, and particulates. Ground releases radon and methane. Without forced air exchange, an active heading becomes lethal within 30-60 minutes.
+Every underground opening consumes oxygen and produces contaminants. Miners breathe (consumes ~0.25 L/min of O₂ per person at rest, ~2-3 L/min during heavy labor). Blasting generates carbon monoxide, nitrogen oxides, and sulfur dioxide. Diesel equipment emits CO, NOₓ, and particulates. Ground releases radon and methane. Without forced air exchange, an active heading becomes lethal within 30-60 minutes.
 
 The fundamental equation: the mine must supply more fresh air than the sum of all contaminant generation rates, diluted to safe levels. This air must travel from the surface, through miles of tunnels and shafts, to every working face, and back out again.
 

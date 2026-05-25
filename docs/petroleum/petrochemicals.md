@@ -185,7 +185,7 @@ The ethanol-to-ethylene route is the most important alternative: fermentation et
 
 ## Bootstrap Sequence for Petrochemical Capability
 
-1. **Ethanol dehydration** (Year 15-25): Fermentation ethanol → ethylene over alumina catalyst at 170°C. Enables polyethylene and PVC without petroleum. Small scale (100-1,000 tonnes/year).
+1. **Ethanol dehydration** (Year 15-25): Fermentation ethanol → ethylene over alumina catalyst at 350-400°C. Enables polyethylene and PVC without petroleum. Small scale (100-1,000 tonnes/year).
 2. **Coal tar distillation** (Year 15-25): Coke ovens → coal tar → benzene, toluene, phenol. Limited volumes but sufficient for Bakelite, pharmaceuticals, and dye precursors.
 3. **Petroleum naphtha steam cracking** (Year 25-35): Refinery naphtha feed → ethylene, propylene, BTX. Requires atmospheric distillation + FCC or reforming unit first. Industrial scale (10,000-1,000,000 tonnes/year).
 4. **Integrated refinery-petrochemical complex** (Year 35+): Fully integrated site with FCC, hydrocracking, steam cracking, aromatics extraction, and polymerization units. Optimized energy and feedstock integration.

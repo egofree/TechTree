@@ -155,7 +155,7 @@ Crystal growth and wafering involve extreme temperatures, toxic chemicals, and h
 | 100 mm (4") | 500-525 μm | 32.5 mm | ~10 g |
 | 150 mm (6") | 625-675 μm | 57.5 mm | ~28 g |
 | 200 mm (8") | 725-775 μm | Notched | ~53 g |
-| 300 mm (12") | 775-775 μm | Notched | ~128 g |
+| 300 mm (12") | 775 ± 25 μm (750-800) | Notched | ~128 g |
 
 **Flat and notch**:
 - **Primary flat**: Ground flat along one edge of the wafer, indicating crystal orientation. For <100> wafers, the flat is along the {110} plane. For <111> wafers, the flat indicates the <110> direction. Used for alignment in processing equipment.

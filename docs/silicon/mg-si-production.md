@@ -74,7 +74,7 @@ The furnace produces large volumes of hot, toxic gas:
 - **Petroleum coke**: Primary reductant. Fixed carbon >95%, low ash (<1%), low volatile matter. Crushed to 5-30 mm. Low impurity content makes it preferable for silicon destined for semiconductor-grade purification.
 - **Coal**: Bituminous coal with low ash (<8%) and low sulfur. Higher ash introduces more impurities (Fe, Al, Ca) into the silicon. Crushed to 5-30 mm.
 - **Wood chips**: 10-50 mm chips from hardwood or softwood. Not primarily a reductant but a charge porosity agent. Provides channels for CO and SiO gas to escape the charge column. Typically 10-20% of total carbon in the charge mix. Also introduces some silica from bark/ash.
-- **Mixing ratio**: Approximately 2:1 SiO₂:C by weight (stoichiometric is 2.14:1 for SiO₂ + 2C → Si + 2CO, but excess carbon compensates for losses and incomplete reaction). The actual ratio is tuned to furnace conditions: too much carbon produces SiC (silicon carbide) crusts; too little leaves unreacted SiO₂.
+- **Mixing ratio**: Approximately 2:1 SiO₂:C by weight (stoichiometric is ~2.5:1 for SiO₂ + 2C → Si + 2CO, but excess carbon compensates for losses and incomplete reaction). The actual ratio is tuned to furnace conditions: too much carbon produces SiC (silicon carbide) crusts; too little leaves unreacted SiO₂.
 
 ### Furnace Operation Detail
 

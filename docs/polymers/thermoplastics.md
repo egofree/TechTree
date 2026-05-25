@@ -59,7 +59,7 @@ Precursor chain (requires careful temperature control at each stage):
 
 TFE polymerization: aqueous dispersion or granular process, 20-80°C, persulfate initiator (ammonium persulfate). High molecular weight achieved rapidly.
 
-PTFE does not melt-flow like other thermoplastics. It must be **[sintered](../glossary/sintered.md)** above its melting point (~380°C, well above most thermoplastics) in a controlled cycle, or paste-extruded with a lubricant carrier that is later evaporated off.
+PTFE does not melt-flow like other thermoplastics. It must be **[sintered](../glossary/sintered.md)** above its melting point (~327°C, sintered at ~380°C) in a controlled cycle, or paste-extruded with a lubricant carrier that is later evaporated off.
 
 Properties: chemically inert (resists nearly all solvents, acids, and bases), very low coefficient of friction, service temperature range -200 to +260°C, excellent dielectric. Applications: chemically inert seals and gaskets, non-stick surfaces, wire insulation, bearing surfaces, diaphragm pump membranes.
 

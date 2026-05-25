@@ -49,7 +49,7 @@ Heat limestone (CaCO₃) in a kiln to 900-1000°C for 4-8 hours. The thermal dec
 
 **CaCO₃ → CaO (quicklime) + CO₂**
 
-This is an endothermic reaction requiring ~3.2 MJ per kg of CaCO₃ decomposed. In practice, total fuel energy input is 4-8 MJ per kg of quicklime due to kiln losses (wall heat loss, incomplete combustion, exit gas heat).
+This is an endothermic reaction requiring ~1.78 MJ per kg of CaCO₃ decomposed (~3.2 MJ per kg of CaO produced). In practice, total fuel energy input is 4-8 MJ per kg of quicklime due to kiln losses (wall heat loss, incomplete combustion, exit gas heat).
 
 - **Temperature must reach 900°C** but need not exceed 1100°C for high-calcium limestone. Above 1200°C, quicklime begins to sinter (overburn) — becomes hard, dense, and slow to slake.
 - **Complete decomposition**: All CO₂ must be driven off. The centre of large stones may remain unconverted if firing is too short or temperature too low. Break a sample piece open — the core should be the same white/gray as the surface, not darker.

@@ -62,7 +62,7 @@
 - **Air requirements**: Minimum 0.05 m³/second per underground worker. More if blasting (fumes clearance). Replace total mine air volume every 10-30 minutes.
 
 **Gas detection**:
-- **Fire damp (methane, CH₄)**: Flammable at 5-15% concentration. Detected by safety lamp (Davy lamp — flame enclosed in fine wire gauze that cools flame below ignition temperature. If methane present, blue halo appears above flame. If air is unsafe, flame extinguishes). Test at floor level (methane lighter than air, accumulates at roof).
+- **Fire damp (methane, CH₄)**: Flammable at 5-15% concentration. Detected by safety lamp (Davy lamp — flame enclosed in fine wire gauze that cools flame below ignition temperature. If methane present, blue halo appears above flame. If air is unsafe, flame extinguishes). Test at roof level (methane lighter than air, accumulates at roof).
 - **Choke damp (CO₂)**: Heavier than air, accumulates at floor. Detected by candle flame (extinguishes at ~8% CO₂ — leave immediately). Or bring small animal (bird in cage — more sensitive to bad air).
 - **After-damp (CO)**: After explosion or fire. Invisible, odorless, lethal. Detected by chemical indicator or canary (collapses before humans affected). Evacuate immediately if suspected.
 - **Hydrogen sulfide (H₂S)**: Rotten egg smell at low concentration, but paralyzes olfactory nerve at higher concentrations so smell disappears. Lethal at 300+ ppm. Chemical detector or lead acetate paper (turns black in H₂S).

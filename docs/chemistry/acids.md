@@ -66,7 +66,7 @@ Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It i
 
 A mixture of concentrated nitric acid and hydrochloric acid (typically 1:3 by volume HNO₃:HCl). The only common reagent that dissolves gold and platinum group metals. Critical for precious metal refining and electrorefining anode slime processing.
 
-**Chemistry**: HNO₃ oxidizes HCl to generate chlorine (Cl₂) and nitrosyl chloride (NOCl) in situ. These reactive species attack gold: Au + 3Cl₂ → AuCl₃ (soluble chloroauric acid H[AuCl₄]). Platinum dissolves similarly as H₂[PtCl₆]. The combination works because nitric acid provides the oxidizing power while chloride ions complex the dissolved metal ions, shifting equilibrium toward dissolution.
+**Chemistry**: HNO₃ oxidizes HCl to generate chlorine (Cl₂) and nitrosyl chloride (NOCl) in situ. These reactive species attack gold: 2Au + 3Cl₂ → 2AuCl₃ (soluble as chloroauric acid H[AuCl₄] in excess HCl). Platinum dissolves similarly as H₂[PtCl₆]. The combination works because nitric acid provides the oxidizing power while chloride ions complex the dissolved metal ions, shifting equilibrium toward dissolution.
 
 **Preparation**: Mix immediately before use — aqua regia loses potency within hours as chlorine and NOCl evaporate. Add HNO₃ to HCl slowly in a glass vessel under a fume hood. The mixture turns orange-yellow from dissolved Cl₂ and NOCl gases. **[Never store aqua regia in sealed containers](../glossary/never-store-aqua-regia-in-sealed-containers.md)** — decomposition produces gas pressure that ruptures glass.
 
@@ -83,7 +83,7 @@ Phosphoric acid (H₃PO₄) bridges mineral acid production to fertilizer chemis
 
 **[Thermal process](../glossary/thermal-process.md)** (pure-grade, 15% of production):
 - Burn elemental white phosphorus (P₄) in excess air → P₄O₁₀ (phosphorus pentoxide). P₄O₁₀ + 6H₂O → 4H₃PO₄.
-- Produces very pure acid suitable for food additives, pharmaceuticals, and semiconductor etching. White phosphorus is produced by reducing phosphate rock with coke in an electric arc furnace at 1500°C: Ca₃(PO₄)₂ + 3SiO₂ + 5C → 3CaSiO₃ + 5CO + 2P₄. The P₄ vapor condenses under water (pyrophoric — ignites in air).
+- Produces very pure acid suitable for food additives, pharmaceuticals, and semiconductor etching. White phosphorus is produced by reducing phosphate rock with coke in an electric arc furnace at 1500°C: 2Ca₃(PO₄)₂ + 6SiO₂ + 10C → 6CaSiO₃ + 10CO + P₄. The P₄ vapor condenses under water (pyrophoric — ignites in air).
 
 **Fertilizer bridge**: Phosphoric acid is reacted with ammonia to produce monoammonium phosphate (MAP, 11-52-0) and diammonium phosphate (DAP, 18-46-0) — the world's most important phosphate fertilizers. Reacted with phosphate rock to produce superphosphate (single: Ca(H₂PO₄)₂, or triple: higher P content).
 

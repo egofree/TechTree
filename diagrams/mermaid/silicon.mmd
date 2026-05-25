@@ -39,6 +39,7 @@ graph TD
     machine-tools("Machine Tools Bootstrap")
     measurement_precision-metrology("Precision Metrology & Standards")
     measurement_temperature-pressure("Temperature & Pressure Measurement")
+    metals_aluminum_semiconductor-grade("Semiconductor-Grade Aluminum Production")
     mining("Mining Engineering & Extractive Metallurgy")
     photolithography("Photolithography & IC Fabrication")
     vacuum_pumps("Vacuum Pumps")
@@ -72,6 +73,7 @@ graph TD
     computing_electronic --> silicon_basic-devices
     silicon_crystal-growth_cz-pulling -.-> measurement_temperature-pressure
     silicon -.-> ceramics_advanced-ceramics
+    silicon_basic-devices --> metals_aluminum_semiconductor-grade
     silicon_wafering_epitaxy --> chemistry_dopant-etch-gases
     electronics_assembly --> silicon_basic-devices
     silicon_crystal-growth --> cryogenics_liquefaction-storage
@@ -120,6 +122,7 @@ graph TD
     class machine-tools external
     class measurement_precision-metrology external
     class measurement_temperature-pressure external
+    class metals_aluminum_semiconductor-grade external
     class mining external
     class photolithography external
     class vacuum_pumps external

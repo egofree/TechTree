@@ -66,6 +66,13 @@ graph TD
     machine-tools_edm-cnc("EDM, CNC & Precision Grinding")
     machine-tools_forming("Metal Forming")
     machine-tools_joining("Metal Joining")
+    machine-tools_joining_diffusion-bonding("Diffusion Bonding")
+    machine-tools_joining_electron-beam("Electron Beam Welding")
+    machine-tools_joining_laser-welding("Laser Welding")
+    machine-tools_joining_mig-welding("MIG Welding (GMAW)")
+    machine-tools_joining_resistance-welding("Resistance Welding (Spot & Seam)")
+    machine-tools_joining_tig-welding("TIG Welding (GTAW)")
+    machine-tools_joining_ultrasonic-bonding("Ultrasonic Welding & Wire Bonding")
     machine-tools_machining("Machining")
     marine("Marine & Naval Engineering")
     marine_propulsion("Marine Propulsion Systems")
@@ -75,6 +82,7 @@ graph TD
     metals("Metals")
     metals_alloys("Specialty Alloys")
     metals_aluminum("Aluminum Production")
+    metals_aluminum_semiconductor-grade("Semiconductor-Grade Aluminum Production")
     metals_forming("Primary Metal Forming")
     metals_iron-steel("Iron & Steel Production")
     metals_iron-steel_blast-furnace("Blast Furnace and Cast Iron")
@@ -173,6 +181,7 @@ graph TD
     chemistry_ammonia --> energy
     metals_steelmaking --> energy_fuels
     metals_aluminum -.-> energy_electricity
+    metals_aluminum_semiconductor-grade -.-> energy_electricity
     energy_steam-power_steam-turbines --> metals_alloys
     energy_steam-power --> metals_forming
     metals_powder-metallurgy -.-> energy_electric-furnaces
@@ -211,6 +220,13 @@ graph TD
     marine -.-> energy
     marine_propulsion -.-> energy_steam-power
     marine_propulsion -.-> energy_engine
+    machine-tools_joining_tig-welding -.-> energy_electricity
+    machine-tools_joining_mig-welding -.-> energy_electricity
+    machine-tools_joining_resistance-welding --> energy_electricity
+    machine-tools_joining_electron-beam -.-> energy_electricity
+    machine-tools_joining_ultrasonic-bonding -.-> energy_electricity
+    machine-tools_joining_laser-welding -.-> energy_electricity
+    machine-tools_joining_diffusion-bonding -.-> energy_electric-furnaces
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -282,6 +298,13 @@ graph TD
     class machine-tools_edm-cnc external
     class machine-tools_forming external
     class machine-tools_joining external
+    class machine-tools_joining_diffusion-bonding external
+    class machine-tools_joining_electron-beam external
+    class machine-tools_joining_laser-welding external
+    class machine-tools_joining_mig-welding external
+    class machine-tools_joining_resistance-welding external
+    class machine-tools_joining_tig-welding external
+    class machine-tools_joining_ultrasonic-bonding external
     class machine-tools_machining external
     class marine external
     class marine_propulsion external
@@ -291,6 +314,7 @@ graph TD
     class metals external
     class metals_alloys external
     class metals_aluminum external
+    class metals_aluminum_semiconductor-grade external
     class metals_forming external
     class metals_iron-steel external
     class metals_iron-steel_blast-furnace external

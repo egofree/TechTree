@@ -1534,6 +1534,26 @@
       "type": "material"
     },
     {
+      "from": "metals.aluminum.semiconductor-grade",
+      "to": "metals.aluminum",
+      "type": "tool"
+    },
+    {
+      "from": "metals.aluminum.semiconductor-grade",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "silicon.basic-devices",
+      "to": "metals.aluminum.semiconductor-grade",
+      "type": "material"
+    },
+    {
+      "from": "photolithography.fab-processes",
+      "to": "metals.aluminum.semiconductor-grade",
+      "type": "material"
+    },
+    {
       "from": "metals.non-ferrous",
       "to": "mining",
       "type": "material"
@@ -3089,6 +3109,111 @@
       "from": "marine.infrastructure",
       "to": "polymers.rubber.gutta-percha",
       "type": "material"
+    },
+    {
+      "from": "machine-tools.joining.tig-welding",
+      "to": "machine-tools.joining",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.joining.tig-welding",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.joining.tig-welding",
+      "to": "chemistry.air-separation",
+      "type": "material"
+    },
+    {
+      "from": "machine-tools.joining.mig-welding",
+      "to": "machine-tools.joining",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.joining.mig-welding",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.joining.resistance-welding",
+      "to": "machine-tools.joining",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.joining.resistance-welding",
+      "to": "energy.electricity",
+      "type": "material"
+    },
+    {
+      "from": "machine-tools.joining.electron-beam",
+      "to": "machine-tools.joining",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.joining.electron-beam",
+      "to": "vacuum",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.joining.electron-beam",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.joining.ultrasonic-bonding",
+      "to": "machine-tools.joining",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.joining.ultrasonic-bonding",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.joining.friction-stir",
+      "to": "machine-tools.joining",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.joining.friction-stir",
+      "to": "machine-tools.machining",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.joining.laser-welding",
+      "to": "machine-tools.joining",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.joining.laser-welding",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.joining.diffusion-bonding",
+      "to": "machine-tools.joining",
+      "type": "tool"
+    },
+    {
+      "from": "machine-tools.joining.diffusion-bonding",
+      "to": "energy.electric-furnaces",
+      "type": "tool"
+    },
+    {
+      "from": "vacuum.chambers",
+      "to": "machine-tools.joining.tig-welding",
+      "type": "tool"
+    },
+    {
+      "from": "vacuum.chambers",
+      "to": "machine-tools.joining.electron-beam",
+      "type": "tool"
+    },
+    {
+      "from": "chemistry.packaging-testing",
+      "to": "machine-tools.joining.ultrasonic-bonding",
+      "type": "tool"
     }
   ]
 }

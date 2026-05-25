@@ -10,6 +10,7 @@ graph TD
         metals_iron-steel_blast-furnace["Blast Furnace and Cast Iron"]
         metals_steelmaking["Modern Steelmaking"]
         metals_aluminum["Aluminum Production"]
+        metals_aluminum_semiconductor-grade["Semiconductor-Grade Aluminum Production"]
         metals_non-ferrous["Non-Ferrous Metal Production"]
         metals_alloys["Specialty Alloys"]
         metals_forming["Primary Metal Forming"]
@@ -75,6 +76,7 @@ graph TD
     mining("Mining Engineering & Extractive Metallurgy")
     petroleum("Petroleum Extraction & Refining")
     photolithography_fab-processes("Core Fab Processes")
+    silicon_basic-devices("Basic Semiconductor Devices")
     telecom("Telecommunications")
     telecom_electric-telegraph("Electrical Telegraph Networks")
     telecom_radio("Radio Communication")
@@ -96,6 +98,7 @@ graph TD
     metals_steelmaking --> metals_iron-steel
     metals_forming --> metals_steelmaking
     metals_alloys -.-> metals_steelmaking
+    metals_aluminum_semiconductor-grade -.-> metals_aluminum
     metals_non-ferrous -.-> metals_copper-bronze
     metals_alloys --> metals_non-ferrous
     metals_finishing --> metals_non-ferrous
@@ -142,6 +145,9 @@ graph TD
     metals_aluminum -.-> energy_electricity
     metals_aluminum --> mining
     transport_aviation --> metals_aluminum
+    metals_aluminum_semiconductor-grade -.-> energy_electricity
+    silicon_basic-devices --> metals_aluminum_semiconductor-grade
+    photolithography_fab-processes --> metals_aluminum_semiconductor-grade
     metals_non-ferrous --> mining
     metals_non-ferrous --> chemistry_acids
     chemistry_soap --> metals_non-ferrous
@@ -208,6 +214,7 @@ graph TD
     class metals_iron-steel_blast-furnace process
     class metals_steelmaking critical
     class metals_aluminum capability
+    class metals_aluminum_semiconductor-grade process
     class metals_non-ferrous capability
     class metals_alloys capability
     class metals_forming capability
@@ -267,6 +274,7 @@ graph TD
     class mining external
     class petroleum external
     class photolithography_fab-processes external
+    class silicon_basic-devices external
     class telecom external
     class telecom_electric-telegraph external
     class telecom_radio external

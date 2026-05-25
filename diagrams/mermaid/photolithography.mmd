@@ -25,6 +25,7 @@ graph TD
     glass_basic("Basic Glass Production")
     glass_photomask-substrates("Photomask Glass Substrates & ULE Glass")
     machine-tools("Machine Tools Bootstrap")
+    metals_aluminum_semiconductor-grade("Semiconductor-Grade Aluminum Production")
     metals_specialty-semiconductor("Specialty Metals for Semiconductor Interconnects & Barrier Layers")
     optics("Optics")
     polymers_thermosets("Thermosetting Polymers")
@@ -55,6 +56,7 @@ graph TD
     vlsi-scaling_advanced-processes -.-> photolithography_fab-processes
     vlsi-scaling_eda-design -.-> photolithography_fab-processes
     chemistry_packaging-testing --> photolithography_fab-processes
+    photolithography_fab-processes --> metals_aluminum_semiconductor-grade
     computing_electronic --> photolithography_fab-processes
     photolithography_resists-masks --> glass_basic
     metals_specialty-semiconductor --> photolithography_fab-processes
@@ -92,6 +94,7 @@ graph TD
     class glass_basic external
     class glass_photomask-substrates external
     class machine-tools external
+    class metals_aluminum_semiconductor-grade external
     class metals_specialty-semiconductor external
     class optics external
     class polymers_thermosets external

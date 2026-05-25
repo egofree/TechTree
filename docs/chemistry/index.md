@@ -28,6 +28,7 @@ Capabilities in this domain:
 - [Refractory Materials](refractories.md) — Firebrick, alumina, magnesite, and insulating refractories for furnace linings above 1500°C.
 - [Paints, Coatings & Inks](coatings.md) — Paint chemistry, nitrocellulose dope, varnishes, ink chemistry, rust prevention.
 - [Pulp & Paper Chemicals](pulp-chemicals.md) — Kraft pulping white liquor, bleaching chemistry, sizing agents, recovery boiler cycle.
+- [Adhesives & Specialty Coatings](adhesives-coatings.md) — Natural adhesives (hide glue, casein, starch paste, birch tar), synthetic adhesives (phenolic, epoxy, cyanoacrylate, silicone, UV-cure), semiconductor adhesives (EMC, die attach films), anodizing, and galvanizing.
 - [Acids & Bases (Comprehensive Reference)](acids-bases.md) — Cross-referenced guide to sulfuric, HCl, HNO₃, HF, phosphoric acid, NaOH, Na₂CO₃ production processes, safety, and bootstrap sequencing.
 - [Industrial Water Treatment](water-treatment.md) — Water purification hierarchy from coagulation to ultrapure water (18.2 MΩ·cm) for semiconductor fabrication.
 - [Semiconductor Process Chemicals](semiconductor-chemicals.md) — Photoresist chemistry (DNQ/novolak, chemically amplified resists), TMAH developer (2.38%), buffered oxide etch (BOE), CMP slurry (colloidal silica, Preston's equation), piranha etch, RCA clean (SC-1/SC-2), and cleanroom chemical specifications.

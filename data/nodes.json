@@ -288,7 +288,17 @@
         "acetylene",
         "cast_iron_parts",
         "cast_aluminum_parts",
-        "sand_molds"
+        "sand_molds",
+        "tig_welds",
+        "mig_welds",
+        "resistance_welds",
+        "electron_beam_welds",
+        "ultrasonic_bonds",
+        "friction_stir_welds",
+        "laser_welds",
+        "diffusion_bonds",
+        "hermetic_seals",
+        "wire_bonds"
       ],
       "critical": true,
       "critical_note": "Master enabler: every later stage depends on precision parts — cylinders, leadscrews, slides, seals",
@@ -490,15 +500,79 @@
       "name": "Metal Joining",
       "level": "capability",
       "parent": "machine-tools",
-      "description": "Forge welding, brazing, soldering, and riveting of metal components. Also covers oxy-acetylene welding and cutting (3100°C flame) and arc welding (SMAW/stick) with flux-coated electrodes.",
-      "timeline": "Years 5-30",
+      "description": "Forge welding, brazing, soldering, riveting, oxy-acetylene welding and cutting, and arc welding (SMAW/stick) with flux-coated electrodes. Also covers advanced processes: TIG (GTAW) for stainless/aluminum/titanium, MIG (GMAW) for high-deposition fabrication, resistance spot and seam welding, electron beam welding in vacuum, ultrasonic welding and wire bonding for semiconductor packaging, friction stir welding for aluminum alloys, laser welding (CO₂ and fiber), and diffusion bonding for dissimilar metals and UHV components.",
+      "timeline": "Years 5-70",
       "outputs": [
         "forge_welds",
         "brazed_joints",
         "soldered_joints",
         "riveted_joints",
         "welded_joints",
-        "acetylene"
+        "acetylene",
+        "tig_welds",
+        "mig_welds",
+        "resistance_welds",
+        "electron_beam_welds",
+        "ultrasonic_bonds",
+        "friction_stir_welds",
+        "laser_welds",
+        "diffusion_bonds",
+        "hermetic_seals",
+        "wire_bonds"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "machine-tools.joining.tig-welding",
+      "name": "TIG Welding (GTAW)",
+      "level": "process",
+      "parent": "machine-tools.joining",
+      "description": "Gas Tungsten Arc Welding using non-consumable tungsten electrode with argon or helium shielding gas. Current 50-300A, voltage 10-22V. DCEN for steel/stainless/titanium, AC for aluminum. Produces highest-quality welds — essential for stainless steel tubing, vacuum-grade joints, and orbital tube welding for semiconductor gas distribution systems.",
+      "timeline": "Years 20-50",
+      "outputs": [
+        "tig_welds",
+        "orbital_welds",
+        "hermetic_seals"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "machine-tools.joining.mig-welding",
+      "name": "MIG Welding (GMAW)",
+      "level": "process",
+      "parent": "machine-tools.joining",
+      "description": "Gas Metal Arc Welding with continuously fed consumable wire electrode and CO₂/Ar shielding gas. Current 100-400A, voltage 16-35V. High deposition rate (2-8 kg/hour). Transfer modes: short-circuit, globular, spray, and pulsed spray. Dominant process for structural fabrication, automotive, and high-production welding.",
+      "timeline": "Years 20-50",
+      "outputs": [
+        "mig_welds"
       ],
       "critical": false,
       "early_win": false,
@@ -508,7 +582,166 @@
           "metals"
         ],
         "capability": [],
-        "era": "iron-age",
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "machine-tools.joining.resistance-welding",
+      "name": "Resistance Welding (Spot & Seam)",
+      "level": "process",
+      "parent": "machine-tools.joining",
+      "description": "Spot welding (copper electrodes, 5000-20000A, 1-10 cycles at 50Hz) and seam welding (roller electrodes, overlapping spots for continuous gas-tight seams). No filler, no gas, no flux — uses resistance heating at the workpiece interface. Projection welding for nuts and brackets. Critical for automotive body assembly and battery tab welding.",
+      "timeline": "Years 20-50",
+      "outputs": [
+        "resistance_welds",
+        "spot_welds",
+        "seam_welds"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "machine-tools.joining.electron-beam",
+      "name": "Electron Beam Welding",
+      "level": "process",
+      "parent": "machine-tools.joining",
+      "description": "Focused electron beam (30-150kV accelerating voltage, 10-100mA beam current) welding in vacuum chamber. Deep narrow penetration (depth-to-width 10:1 to 30:1), minimal heat input and distortion. Zero porosity, zero contamination. Critical for UHV vacuum chamber fabrication (leak rates ≤10⁻¹⁰ mbar·L/s), refractory metals, and aerospace components. Single-pass penetration up to 200mm in steel.",
+      "timeline": "Years 30-60",
+      "outputs": [
+        "electron_beam_welds",
+        "hermetic_seals"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "electronic",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "machine-tools.joining.ultrasonic-bonding",
+      "name": "Ultrasonic Welding & Wire Bonding",
+      "level": "process",
+      "parent": "machine-tools.joining",
+      "description": "Solid-state joining via 20-60 kHz mechanical vibration under pressure. Wire bonding: 25μm Au wire at 0.5-2.0W, 20-100ms bond time — dominant IC interconnection method (>10 trillion bonds/year). Thermosonic Au ball bonding (150-250°C) and ultrasonic Al wedge bonding (room temperature). Also joins thin foils, battery tabs, and dissimilar metals without brittle intermetallics.",
+      "timeline": "Years 40-70",
+      "outputs": [
+        "ultrasonic_bonds",
+        "wire_bonds"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "semiconductor",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "machine-tools.joining.friction-stir",
+      "name": "Friction Stir Welding",
+      "level": "process",
+      "parent": "machine-tools.joining",
+      "description": "Solid-state joining via rotating tool (500-1500 RPM, 50-200 mm/min feed). Tool friction heats metal to plasticized state (70-90% of melting point) without melting. Joins unweldable aluminum alloys (2xxx, 7xxx series) and dissimilar metals (Al-to-steel, Al-to-Cu) without brittle intermetallics. Tool materials: H13 steel for aluminum, PCBN for steel.",
+      "timeline": "Years 30-60",
+      "outputs": [
+        "friction_stir_welds"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "electronic",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "machine-tools.joining.laser-welding",
+      "name": "Laser Welding",
+      "level": "process",
+      "parent": "machine-tools.joining",
+      "description": "CO₂ laser (10.6μm, 100W-20kW) or fiber laser (1.06μm, 100W-30kW) focused beam welding. Keyhole mode: deep narrow welds (depth-to-width 5:1 to 15:1), speed 1-20 m/min. Conduction mode: shallow welds for thin materials. Fiber laser deliverable through flexible fiber optic — easily robot-integrated. High-speed precision welding for semiconductor equipment components.",
+      "timeline": "Years 30-60",
+      "outputs": [
+        "laser_welds"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "electronic",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "machine-tools.joining.diffusion-bonding",
+      "name": "Diffusion Bonding",
+      "level": "process",
+      "parent": "machine-tools.joining",
+      "description": "Solid-state joining at 50-80% melting point temperature under 1-10 MPa pressure for 30-120 minutes. Atomic diffusion across the interface eliminates the joint line — bond indistinguishable from parent metal. Joins dissimilar metals (Ti-to-SS, Cu-to-Al) via thin interlayers without brittle intermetallics. HIP bonding (50-200 MPa isostatic) for complex internal surfaces. Critical for UHV chambers and semiconductor heat exchangers.",
+      "timeline": "Years 35-65",
+      "outputs": [
+        "diffusion_bonds",
+        "hermetic_seals"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "electronic",
         "critical": false,
         "early-win": false,
         "pinnacle": false
@@ -3000,6 +3233,32 @@
       }
     },
     {
+      "id": "polymers.rubber.vulcanization",
+      "name": "Vulcanization & Hardness",
+      "level": "process",
+      "parent": "polymers.rubber",
+      "description": "Vulcanization cure systems (conventional, efficient, semi-efficient), cure parameters by rubber type, Shore A/D hardness scales, compounding ingredients, and post-cure processing. The process that transforms raw rubber into durable elastomers.",
+      "timeline": "Years 5-50",
+      "outputs": [
+        "vulcanized_elastomers",
+        "cured_seals",
+        "molded_rubber_parts"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "polymers"
+        ],
+        "capability": [],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
       "id": "polymers.thermosets",
       "name": "Thermosetting Polymers",
       "level": "capability",
@@ -4487,6 +4746,38 @@
       }
     },
     {
+      "id": "chemistry.adhesives-coatings",
+      "name": "Adhesives & Specialty Coatings",
+      "level": "capability",
+      "parent": "chemistry",
+      "description": "Natural adhesives (hide glue, casein, starch paste, birch tar), synthetic adhesives (phenolic resin, epoxy, cyanoacrylate, silicone RTV, UV-cure), semiconductor-specific adhesives (epoxy molding compounds, die attach films), and metal coating processes (anodizing). Spans stone-age birch tar hafting to semiconductor encapsulation — adhesive technology connects every era of industrial development.",
+      "timeline": "Years 0-70+",
+      "outputs": [
+        "adhesives",
+        "epoxy_adhesive",
+        "phenolic_adhesive",
+        "silicone_adhesive",
+        "cyanoacrylate_adhesive",
+        "epoxy_molding_compound",
+        "die_attach_film",
+        "anodized_aluminum",
+        "galvanized_steel"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
       "id": "metals.steelmaking",
       "name": "Modern Steelmaking",
       "level": "capability",
@@ -4537,6 +4828,34 @@
         ],
         "capability": [],
         "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "metals.aluminum.semiconductor-grade",
+      "name": "Semiconductor-Grade Aluminum Production",
+      "level": "process",
+      "parent": "metals.aluminum",
+      "description": "Ultra-high-purity aluminum (5N-6N, 99.999-99.9999%) for semiconductor metallization via three-layer electrolysis (Hoopes process) and zone refining. Produces sputtering targets and evaporation sources for IC interconnect layers, bond pads, and display panel metallization. Critical impurity limits: Fe, Si <3 ppm; U/Th <1 ppb.",
+      "timeline": "Years 40-70",
+      "outputs": [
+        "semiconductor_grade_aluminum",
+        "sputtering_targets",
+        "high_purity_aluminum"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "precision"
+        ],
+        "era": "semiconductor",
         "critical": false,
         "early-win": false,
         "pinnacle": false

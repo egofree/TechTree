@@ -18,6 +18,8 @@ graph TD
     energy_electricity("Electricity Generation & Distribution")
     gas-handling("Gas Handling")
     machine-tools("Machine Tools Bootstrap")
+    machine-tools_joining_electron-beam("Electron Beam Welding")
+    machine-tools_joining_tig-welding("TIG Welding (GTAW)")
     measurement("Measurement & Instrumentation")
     metals("Metals")
     optics_inspection_optical-coatings("Optical Coatings")
@@ -37,6 +39,9 @@ graph TD
     photolithography_fab-processes -.-> vacuum_pumps
     optics_inspection_optical-coatings -.-> vacuum_pumps
     automation_wafer-handling -.-> vacuum
+    machine-tools_joining_electron-beam -.-> vacuum
+    vacuum_chambers -.-> machine-tools_joining_tig-welding
+    vacuum_chambers -.-> machine-tools_joining_electron-beam
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -60,6 +65,8 @@ graph TD
     class energy_electricity external
     class gas-handling external
     class machine-tools external
+    class machine-tools_joining_electron-beam external
+    class machine-tools_joining_tig-welding external
     class measurement external
     class metals external
     class optics_inspection_optical-coatings external

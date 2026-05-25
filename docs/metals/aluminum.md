@@ -52,6 +52,12 @@ The Hall-Héroult process dissolves alumina in molten cryolite (Na₃AlF₆) and
 - **Operating temperature**: 960-980°C. The liquid aluminum pools beneath the electrolyte (density difference provides natural separation).
 - **Alumina feed**: 2-4% Al₂O₃ dissolved in the bath. Alumina is fed in controlled batches via point feeders (1-2 kg per feed, every 1-5 minutes) to maintain concentration. Underfeeding triggers anode effect; overfeeding causes sludge formation beneath the metal pad.
 
+**Cryolite supply — natural vs synthetic**:
+- **Natural cryolite** (Na₃AlF₆, monoclinic): The only commercially significant deposit was at Ivigtut, Greenland — mined from 1854 to 1987, now essentially depleted. Natural cryolite has the advantage of lower impurity levels (particularly lower SiO₂ and Fe₂O₃) but is no longer available in industrial quantities. Historical availability of natural cryolite was a key factor in the early aluminum industry's location decisions.
+- **Synthetic cryolite production**: All modern smelters use synthetically produced cryolite. The primary route: HF is reacted with Al(OH)₃ to form H₃AlF₆ (hexafluoroaluminic acid) or AlF₃, which is then combined with NaOH or Na₂CO₃ to precipitate Na₃AlF₆. A second route uses fluosilicic acid (H₂SiF₆, a byproduct of phosphate fertilizer production) reacted with aluminum hydroxide and sodium aluminate. Synthetic cryolite purity: >97% Na₃AlF₆, with controlled moisture (<0.3%) and low SiO₂ (<0.3%).
+- **Bath ratio management**: The cryolite ratio (NaF/AlF₃ molar) is the single most important bath chemistry parameter. Industrial practice targets 2.2-2.4 (excess AlF₃ relative to stoichiometric cryolite at 3.0). Lower ratio → lower operating temperature but higher bath resistivity and lower alumina solubility. AlF₃ is continuously consumed by sodium uptake into the cathode lining (NaF + C → intercalation compounds), moisture ingress (AlF₃ + 3H₂O → Al₂O₃ + 6HF), and operational losses. AlF₃ addition rates: 15-25 kg per tonne Al produced. Bath chemistry is monitored by XRD or wet chemistry analysis every 1-4 hours in modern smelters.
+- **LiF and CaF₂ modifiers**: LiF (0-5%) increases bath conductivity by 15-25% (reducing cell voltage and energy consumption) and lowers liquidus temperature, but is expensive ($5-15/kg) and increases lithium contamination of the metal. CaF₂ (4-8%) occurs naturally from CaO impurity in alumina (dissolves as CaF₂) and is sometimes added deliberately — it lowers liquidus and reduces sodium penetration into cathodes but increases bath density. KF is avoided — potassium intercalates aggressively into cathode carbon, causing rapid swelling and cathode failure.
+
 **Electrolytic cell (pot) design**:
 - **Anode**: Carbon, 400-600 mm above the cathode. Consumed at ~400-450 kg carbon per tonne Al. Prebaked or Söderberg (see Anode Production below).
 - **Cathode**: Carbon lining of the steel shell, with steel current collector bars embedded in the bottom. The liquid aluminum layer itself acts as the effective cathode surface.
@@ -123,6 +129,66 @@ Pure aluminum (99.0-99.99%) is soft (tensile strength 40-50 MPa) and has limited
 - **7075-T6**: High-strength aerospace alloy. 5.6% Zn, 2.5% Mg, 1.6% Cu. UTS 572 MPa — comparable to many steels at 1/3 the density. Difficult to weld (use 7xxx filler or friction stir welding). Used for aircraft frames, gears, high-stress components.
 - **356-T6**: Casting alloy (Al-7% Si-0.3% Mg). Excellent castability (silicon provides fluidity), heat-treatable to 228 MPa UTS. Used for engine blocks, cylinder heads, complex cast shapes.
 - **3003-H14**: Non-heat-treatable, work-hardened. 1.2% Mn. Good formability, moderate strength (130 MPa UTS). Used for sheet metal work, chemical equipment, signage.
+
+**Alloy composition table** (wt%, balance Al):
+
+| Element | 1100 | 3003 | 6061 | 7075 |
+|---------|------|------|------|------|
+| Si | ≤0.95 (Si+Fe) | ≤0.6 | 0.40-0.80 | ≤0.40 |
+| Fe | (included above) | ≤0.7 | ≤0.70 | ≤0.50 |
+| Cu | 0.05-0.20 | 0.05-0.20 | 0.15-0.40 | 1.2-2.0 |
+| Mn | ≤0.05 | 1.0-1.5 | ≤0.15 | ≤0.30 |
+| Mg | — | — | 0.80-1.20 | 2.1-2.9 |
+| Cr | — | — | 0.04-0.35 | 0.18-0.28 |
+| Zn | ≤0.10 | ≤0.10 | ≤0.25 | 5.1-6.1 |
+| Ti | — | — | ≤0.15 | ≤0.20 |
+| Al (min) | 99.00% | Balance | Balance | Balance |
+
+**Mechanical properties table**:
+
+| Property | 1100-O | 1100-H14 | 3003-H14 | 6061-T6 | 7075-T6 |
+|----------|--------|----------|----------|---------|---------|
+| Yield Strength (MPa) | 35 | 110 | 145 | 276 | 503 |
+| UTS (MPa) | 90 | 130 | 200 | 310 | 572 |
+| Elongation (%) | 35 | 9 | 8 | 12 | 11 |
+| Hardness (Brinell) | 23 | 32 | 45 | 95 | 150 |
+| Density (g/cm³) | 2.71 | 2.71 | 2.73 | 2.70 | 2.81 |
+| Thermal Conductivity (W/m·K) | 222 | 218 | 163 | 167 | 130 |
+| Electrical Conductivity (% IACS) | 59 | 57 | 41 | 43 | 33 |
+
+**Aluminum for semiconductor equipment frames**:
+- **6061-T6 for vacuum chambers**: The most common alloy for vacuum chamber construction. Low outgassing rate after bake-out (<10⁻⁹ Torr·L/s·cm² at 150°C), good machinability to achieve O-ring sealing surfaces (Ra <0.8 μm), weldable for complex chamber geometries. Typical chamber wall thickness: 10-25 mm for structural rigidity. Anodized surface (20-50 μm hard coat) provides wear resistance for sealing surfaces. Used for: sputter deposition chambers, evaporator bell jars, load-lock chambers, and plasma etch chambers.
+- **6061-T6 for optical tables**: Extruded 6061-T6 profiles form the internal honeycomb structure of vibration-isolation optical tables. Low density (2.70 g/cm³) reduces table mass while maintaining stiffness (E = 68.9 GPa). Surface plates are typically stainless steel or aluminum tooling plate (cast Al with precision-machined flat surface, ±0.05 mm flatness over 1 m²). Magnetic permeability near zero — essential near electron optics and charged-particle beams.
+- **7075-T6 for high-stress structural components**: Used for wafer transport robot arms (high stiffness-to-weight ratio enables rapid wafer handling with minimal vibration), lithography stage structural members, and precision equipment mounts. Elastic modulus 71.7 GPa, fatigue endurance limit 159 MPa (R=-1, 5×10⁸ cycles). Not suitable for vacuum chamber walls — higher Zn content increases outgassing and makes welding unreliable.
+- **1100-O for chemical equipment**: ≥99.0% purity provides excellent corrosion resistance to many chemicals (not alkalis — Al dissolves in NaOH). Used for acid handling tanks, heat exchanger tubing in wet processing stations, and chemical distribution piping. Low strength limits use to non-structural applications. Easily formed — deep drawn into tanks and vessels.
+
+### Semiconductor-Grade Aluminum
+
+Ultra-high-purity aluminum (≥99.999%, "5N") is essential for semiconductor metallization — the conductive interconnect layers on integrated circuits. The purity requirements far exceed those of structural aluminum and demand dedicated refining processes.
+
+**Purity levels and applications**:
+
+| Grade | Purity | Nines | Primary Application |
+|-------|--------|-------|---------------------|
+| 3N | 99.9% | 3 | Not suitable for semiconductor use — impurity levels too high |
+| 3N5 | 99.95% | 3.5 | Capacitor foil (electrolytic capacitors) |
+| 4N | 99.99% | 4 | Sputtering targets for display panel metallization |
+| 4N5 | 99.995% | 4.5 | General-purpose semiconductor metallization |
+| 5N | 99.999% | 5 | IC interconnect metallization, bonding wire |
+| 6N | 99.9999% | 6 | Advanced node interconnects, gate electrodes |
+
+**Critical impurity limits for 5N aluminum** (maximum ppm by weight): Fe <3, Si <3, Cu <2, Zn <1, Mg <1, Ti <1, Mn <1, Cr <1, Ni <1, Ga <1, total metallic impurities <10 ppm. Uranium and thorium content must be <1 ppb each — alpha particles from U/Th decay cause soft errors in DRAM and logic devices.
+
+**Purification methods**:
+- **Three-layer electrolysis (Hoopes process)**: The primary industrial method for producing 4N-5N aluminum. A molten salt cell with three liquid layers: bottom anode layer (impure Al + Cu, density ~3.0 g/cm³), middle electrolyte (BaCl₂-NaF-AlF₃ molten salt, density ~2.7 g/cm³), top cathode layer (pure Al, density ~2.3 g/cm³). Current passes from the impure anode through the electrolyte to the cathode. Only aluminum dissolves at the anode and deposits at the cathode — impurities (Fe, Si, Cu) remain in the anode layer. Operating temperature: 720-780°C. Energy consumption: 14-18 kWh/kg for 4N5 purity. A single pass produces 99.995% from 99.7% primary aluminum.
+- **Zone refining**: A traveling molten zone passes along an aluminum bar, sweeping impurities toward one end by fractional crystallization (partition coefficient k < 1 for most impurities in Al). Multiple passes (10-30) progressively concentrate impurities at the bar ends. Used to upgrade 4N5 aluminum to 5N-6N purity. Very slow (1-10 mm/min zone travel speed) and low throughput — a bar is typically 30-50 mm diameter × 500-1000 mm long. Segregation coefficients: Fe (k=0.03), Si (k=0.13), Cu (k=0.15) — these are highly effectively removed. Cr (k=0.9) and Mn (k=0.9) are poorly removed by zone refining and must be controlled at earlier stages.
+- **Directional solidification**: Similar principle to zone refining but the entire bar is solidified directionally from one end. Less effective per pass but higher throughput. Often used as a pre-purification step before zone refining.
+
+**Contamination control**:
+- All melting and handling of high-purity aluminum must avoid contact with refractory materials (Al₂O₃, SiO₂) that can dissolve and re-contaminate. Graphite or BN-coated graphite crucibles are used.
+- Atmosphere control: Melting under high-purity argon or vacuum to prevent oxidation and gas pickup. Dissolved hydrogen causes porosity in sputtering targets.
+- Sputtering target production: 5N aluminum is cast into cylindrical targets (200-400 mm diameter × 6-12 mm thickness for semiconductor tools, up to 3000 mm × 250 mm for display tools), then machined to ±0.05 mm flatness and bonded to copper backing plates using indium or epoxy thermal interface material. Target grain size <100 μm ensures uniform sputtering rate. Typical target life: 500-2000 kWh of sputtering power before replacement.
+- **Metallization applications**: Physical vapor deposition (PVD sputtering) of 5N Al produces 0.3-2.0 μm thick interconnect layers. Al-Si (1% Si) and Al-Cu (0.5% Cu) alloy targets suppress electromigration and spiking. The Al layer is patterned by photolithography and plasma etching (Cl₂/BCl₃ chemistry) to form interconnect lines. Al metallization is being replaced by Cu (Damascene process) at nodes below 130 nm but remains in use for upper metal layers, bond pads, and power distribution.
 
 ### Aluminum Casting
 

@@ -25,6 +25,7 @@ graph TD
         chemistry_refractories["Refractory Materials"]
         chemistry_coatings["Paints, Coatings & Inks"]
         chemistry_pulp-chemicals["Pulp & Paper Chemicals"]
+        chemistry_adhesives-coatings["Adhesives & Specialty Coatings"]
         chemistry_electrolysis_sem-tech["Semiconductor-Grade Electrolysis"]
         chemistry_water-electrolysis["Water Electrolysis"]
         chemistry_e-methanol["E-Methanol Synthesis"]
@@ -79,6 +80,8 @@ graph TD
     knowledge_writing("Writing & Record-Keeping")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_joining("Metal Joining")
+    machine-tools_joining_tig-welding("TIG Welding (GTAW)")
+    machine-tools_joining_ultrasonic-bonding("Ultrasonic Welding & Wire Bonding")
     measurement("Measurement & Instrumentation")
     metals("Metals")
     metals_aluminum("Aluminum Production")
@@ -244,6 +247,8 @@ graph TD
     construction --> chemistry_cement
     food-processing_preservation -.-> chemistry_petroleum-alternatives_fermentation
     food-processing_brewing -.-> chemistry_petroleum-alternatives_fermentation
+    machine-tools_joining_tig-welding --> chemistry_air-separation
+    chemistry_packaging-testing -.-> machine-tools_joining_ultrasonic-bonding
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -280,6 +285,7 @@ graph TD
     class chemistry_refractories earlyWin
     class chemistry_coatings capability
     class chemistry_pulp-chemicals capability
+    class chemistry_adhesives-coatings capability
     class chemistry_electrolysis_sem-tech process
     class chemistry_water-electrolysis capability
     class chemistry_e-methanol capability
@@ -328,6 +334,8 @@ graph TD
     class knowledge_writing external
     class machine-tools external
     class machine-tools_joining external
+    class machine-tools_joining_tig-welding external
+    class machine-tools_joining_ultrasonic-bonding external
     class measurement external
     class metals external
     class metals_aluminum external

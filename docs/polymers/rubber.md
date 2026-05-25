@@ -63,6 +63,14 @@ A geometric isomer of natural rubber (trans-1,4-polyisoprene vs. cis). Hard and 
 
 Natural resin from the lac bug (*Kerria lacca*). Dissolves in ethanol, dries hard in minutes — the fastest-drying natural finish. Applications include French polish wood finishing, phonograph record binder, electrical insulation, and food-grade confectioner's glaze. See [Shellac](./shellac.md) for cultivation, processing, and applications.
 
+### [Vulcanization & Hardness Scales](./rubber.vulcanization.md)
+
+Detailed cure systems (CV, EV, SEV), cure parameters by rubber type, Shore A/D hardness scales, compounding ingredients, and post-cure processing. See [Vulcanization & Hardness Scales](./rubber.vulcanization.md) for the complete reference.
+
+### [Semiconductor Applications](./rubber.semiconductor-apps.md)
+
+Elastomers in semiconductor fabrication equipment: chemical-resistant O-rings for wet benches, vacuum seals for deposition systems, cleanroom-compatible materials, FFKM (Kalrez) for ultra-aggressive environments, and vibration isolation for lithography tools. Includes a comprehensive chemical resistance comparison table. See [Semiconductor Applications](./rubber.semiconductor-apps.md) for detailed material selection guidance.
+
 ### Shared Infrastructure
 
 Vulcanization equipment (two-roll mills, Banbury internal mixers, hydraulic presses, steam autoclaves) and the general principle of compounding with sulfur, accelerators, zinc oxide, and reinforcing fillers (carbon black, silica) are common to both natural and synthetic rubber branches. See [Natural Rubber](./natural.md) for compounding and curing details.
@@ -212,6 +220,8 @@ Reversion is primarily a concern with natural rubber (synthetic rubbers like SBR
 
 - **[Natural Polymers](natural.md)**: Natural rubber tapping, processing, and vulcanization
 - **[Synthetic Polymers](synthetic.md)**: Synthetic elastomers (SBR, nitrile, neoprene, silicone)
+- **[Vulcanization & Hardness](rubber.vulcanization.md)**: Detailed cure systems, Shore hardness scales, compounding
+- **[Semiconductor Applications](rubber.semiconductor-apps.md)**: Elastomers in semiconductor equipment, chemical resistance table
 - **[Composites](composites.md)**: Rubber-modified composites and impact-resistant laminates
 - **[Gutta-Percha](gutta-percha.md)**: Non-elastomeric natural polyisoprene
 - **[Coatings](../chemistry/coatings.md)**: Rubber-based coatings and sealants

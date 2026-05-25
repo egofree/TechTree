@@ -2759,6 +2759,336 @@
       "from": "energy.engine",
       "to": "petroleum.refining",
       "type": "material"
+    },
+    {
+      "from": "defense",
+      "to": "metals",
+      "type": "material"
+    },
+    {
+      "from": "defense",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "defense",
+      "to": "chemistry.explosives",
+      "type": "material"
+    },
+    {
+      "from": "defense",
+      "to": "transport",
+      "type": "tool"
+    },
+    {
+      "from": "defense",
+      "to": "knowledge",
+      "type": "tool"
+    },
+    {
+      "from": "construction",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "construction",
+      "to": "ceramics.lime",
+      "type": "material"
+    },
+    {
+      "from": "construction",
+      "to": "chemistry.cement",
+      "type": "material"
+    },
+    {
+      "from": "construction",
+      "to": "metals",
+      "type": "material"
+    },
+    {
+      "from": "construction",
+      "to": "textiles.rope-making",
+      "type": "material"
+    },
+    {
+      "from": "construction",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "construction.building-materials",
+      "to": "foundations.tools-basic",
+      "type": "tool"
+    },
+    {
+      "from": "construction.structural-engineering",
+      "to": "metals.iron-steel",
+      "type": "material"
+    },
+    {
+      "from": "construction.industrial-buildings",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "food-processing",
+      "to": "foundations.food-agriculture",
+      "type": "material"
+    },
+    {
+      "from": "food-processing",
+      "to": "energy",
+      "type": "tool"
+    },
+    {
+      "from": "food-processing",
+      "to": "health.sanitation",
+      "type": "tool"
+    },
+    {
+      "from": "food-processing",
+      "to": "water",
+      "type": "material"
+    },
+    {
+      "from": "food-processing.milling",
+      "to": "energy",
+      "type": "tool"
+    },
+    {
+      "from": "food-processing.preservation",
+      "to": "ceramics",
+      "type": "material"
+    },
+    {
+      "from": "food-processing.preservation",
+      "to": "chemistry.petroleum-alternatives.fermentation",
+      "type": "tool"
+    },
+    {
+      "from": "food-processing.brewing",
+      "to": "chemistry.petroleum-alternatives.fermentation",
+      "type": "tool"
+    },
+    {
+      "from": "food-processing.brewing",
+      "to": "energy",
+      "type": "tool"
+    },
+    {
+      "from": "food-processing.dairy",
+      "to": "ceramics",
+      "type": "material"
+    },
+    {
+      "from": "food-processing.dairy",
+      "to": "health.sanitation",
+      "type": "tool"
+    },
+    {
+      "from": "food-processing.preservation",
+      "to": "health.sanitation",
+      "type": "tool"
+    },
+    {
+      "from": "telecom",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "telecom",
+      "to": "metals",
+      "type": "material"
+    },
+    {
+      "from": "telecom",
+      "to": "knowledge.writing",
+      "type": "tool"
+    },
+    {
+      "from": "telecom",
+      "to": "glass",
+      "type": "material"
+    },
+    {
+      "from": "telecom",
+      "to": "transport.telegraph",
+      "type": "tool"
+    },
+    {
+      "from": "telecom",
+      "to": "polymers.rubber.gutta-percha",
+      "type": "material"
+    },
+    {
+      "from": "telecom.pre-electric",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "telecom.pre-electric",
+      "to": "knowledge.writing",
+      "type": "tool"
+    },
+    {
+      "from": "telecom.electric-telegraph",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "telecom.electric-telegraph",
+      "to": "transport.telegraph",
+      "type": "tool"
+    },
+    {
+      "from": "telecom.electric-telegraph",
+      "to": "metals",
+      "type": "material"
+    },
+    {
+      "from": "telecom.electric-telegraph",
+      "to": "telecom.pre-electric",
+      "type": "tool"
+    },
+    {
+      "from": "telecom.telephone",
+      "to": "telecom.electric-telegraph",
+      "type": "tool"
+    },
+    {
+      "from": "telecom.telephone",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "telecom.telephone",
+      "to": "metals",
+      "type": "material"
+    },
+    {
+      "from": "telecom.submarine-cables",
+      "to": "telecom.electric-telegraph",
+      "type": "tool"
+    },
+    {
+      "from": "telecom.submarine-cables",
+      "to": "transport.shipping",
+      "type": "tool"
+    },
+    {
+      "from": "telecom.submarine-cables",
+      "to": "polymers.rubber.gutta-percha",
+      "type": "material"
+    },
+    {
+      "from": "telecom.submarine-cables",
+      "to": "metals",
+      "type": "material"
+    },
+    {
+      "from": "telecom.radio",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "telecom.radio",
+      "to": "metals",
+      "type": "material"
+    },
+    {
+      "from": "telecom.radio",
+      "to": "glass",
+      "type": "material"
+    },
+    {
+      "from": "telecom.radio",
+      "to": "telecom.electric-telegraph",
+      "type": "tool"
+    },
+    {
+      "from": "marine",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "marine",
+      "to": "metals",
+      "type": "material"
+    },
+    {
+      "from": "marine",
+      "to": "textiles",
+      "type": "material"
+    },
+    {
+      "from": "marine",
+      "to": "energy",
+      "type": "tool"
+    },
+    {
+      "from": "marine",
+      "to": "knowledge",
+      "type": "tool"
+    },
+    {
+      "from": "marine",
+      "to": "transport.shipping",
+      "type": "tool"
+    },
+    {
+      "from": "marine.shipbuilding",
+      "to": "metals.iron-steel",
+      "type": "material"
+    },
+    {
+      "from": "marine.shipbuilding",
+      "to": "transport.shipping",
+      "type": "tool"
+    },
+    {
+      "from": "marine.shipbuilding",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "marine.navigation",
+      "to": "knowledge.writing",
+      "type": "tool"
+    },
+    {
+      "from": "marine.navigation",
+      "to": "metals",
+      "type": "material"
+    },
+    {
+      "from": "marine.propulsion",
+      "to": "energy.steam-power",
+      "type": "tool"
+    },
+    {
+      "from": "marine.propulsion",
+      "to": "energy.engine",
+      "type": "tool"
+    },
+    {
+      "from": "marine.propulsion",
+      "to": "metals.iron-steel",
+      "type": "material"
+    },
+    {
+      "from": "marine.infrastructure",
+      "to": "metals.iron-steel",
+      "type": "material"
+    },
+    {
+      "from": "marine.infrastructure",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "marine.infrastructure",
+      "to": "polymers.rubber.gutta-percha",
+      "type": "material"
     }
   ]
 }

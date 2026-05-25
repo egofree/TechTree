@@ -31,7 +31,10 @@ graph TD
     glass_fibers("Glass Fiber Production")
     health("Public Health, Sanitation & Medicine")
     machine-tools("Machine Tools Bootstrap")
+    marine_infrastructure("Maritime Infrastructure & Underwater Engineering")
     photolithography_resists-masks("Photoresists, Masks & Lithography")
+    telecom("Telecommunications")
+    telecom_submarine-cables("Submarine Cable Systems")
 
     %% ==================== EDGES ====================
     polymers_composites --> polymers_thermosets
@@ -58,6 +61,9 @@ graph TD
     computing_data-storage --> polymers_thermoplastics
     electronics_assembly --> polymers_thermosets
     electronics_electrical-systems --> polymers_thermoplastics
+    telecom --> polymers_rubber_gutta-percha
+    telecom_submarine-cables --> polymers_rubber_gutta-percha
+    marine_infrastructure --> polymers_rubber_gutta-percha
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -94,5 +100,8 @@ graph TD
     class glass_fibers external
     class health external
     class machine-tools external
+    class marine_infrastructure external
     class photolithography_resists-masks external
+    class telecom external
+    class telecom_submarine-cables external
     class EdgeLegend,MatNote,ToolNote legend

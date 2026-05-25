@@ -38,6 +38,9 @@ graph TD
     chemistry_soap("Soap & Detergent Production")
     cleanrooms("Clean Room Technology")
     computing_mechanical("Mechanical Calculation")
+    construction("Construction & Structural Engineering")
+    construction_structural-engineering("Structural Engineering")
+    defense("Defense & Military Engineering")
     electrochemistry("Electrochemistry & Plating")
     electrochemistry_anodizing("Anodizing")
     electronics("Electronics")
@@ -61,12 +64,22 @@ graph TD
     machine-tools_casting("Metal Casting")
     machine-tools_forming("Metal Forming")
     machine-tools_joining("Metal Joining")
+    marine("Marine & Naval Engineering")
+    marine_infrastructure("Maritime Infrastructure & Underwater Engineering")
+    marine_navigation("Marine Navigation")
+    marine_propulsion("Marine Propulsion Systems")
+    marine_shipbuilding("Hull Construction & Shipbuilding")
     measurement("Measurement & Instrumentation")
     measurement_precision-metrology("Precision Metrology & Standards")
     measurement_temperature-pressure("Temperature & Pressure Measurement")
     mining("Mining Engineering & Extractive Metallurgy")
     petroleum("Petroleum Extraction & Refining")
     photolithography_fab-processes("Core Fab Processes")
+    telecom("Telecommunications")
+    telecom_electric-telegraph("Electrical Telegraph Networks")
+    telecom_radio("Radio Communication")
+    telecom_submarine-cables("Submarine Cable Systems")
+    telecom_telephone("Telephone Systems")
     textiles_sewing-tailoring("Sewing & Tailoring")
     transport("Transportation & Logistics")
     transport_aviation("Aviation")
@@ -161,6 +174,19 @@ graph TD
     electrochemistry -.-> metals_finishing
     electrochemistry_anodizing --> metals_aluminum
     petroleum -.-> metals
+    defense --> metals
+    construction --> metals
+    construction_structural-engineering --> metals_iron-steel
+    telecom --> metals
+    telecom_electric-telegraph --> metals
+    telecom_telephone --> metals
+    telecom_submarine-cables --> metals
+    telecom_radio --> metals
+    marine --> metals
+    marine_shipbuilding --> metals_iron-steel
+    marine_navigation --> metals
+    marine_propulsion --> metals_iron-steel
+    marine_infrastructure --> metals_iron-steel
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -204,6 +230,9 @@ graph TD
     class chemistry_soap external
     class cleanrooms external
     class computing_mechanical external
+    class construction external
+    class construction_structural-engineering external
+    class defense external
     class electrochemistry external
     class electrochemistry_anodizing external
     class electronics external
@@ -227,12 +256,22 @@ graph TD
     class machine-tools_casting external
     class machine-tools_forming external
     class machine-tools_joining external
+    class marine external
+    class marine_infrastructure external
+    class marine_navigation external
+    class marine_propulsion external
+    class marine_shipbuilding external
     class measurement external
     class measurement_precision-metrology external
     class measurement_temperature-pressure external
     class mining external
     class petroleum external
     class photolithography_fab-processes external
+    class telecom external
+    class telecom_electric-telegraph external
+    class telecom_radio external
+    class telecom_submarine-cables external
+    class telecom_telephone external
     class textiles_sewing-tailoring external
     class transport external
     class transport_aviation external

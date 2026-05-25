@@ -1,0 +1,156 @@
+# Brewing & Distilling
+
+> **Node ID**: food-processing.brewing
+> **Domain**: [Food Processing](./index.md)
+> **Dependencies**: [`chemistry.petroleum-alternatives.fermentation`](../chemistry/fermentation.md), [`energy`](../energy/index.md)
+> **Timeline**: Years 0-25+
+> **Outputs**: beer, wine, spirits, industrial_ethanol, spent_grain, vinegar
+
+### Overview
+
+Brewing and distilling are the earliest industrial biotechnology. Beer and wine were historically safer to drink than water (the ethanol and low pH kill pathogens), making them workforce fuel rather than luxury goods. Distillation produces concentrated spirits (water purification: whiskey, brandy, rum) and industrial ethanol (solvent, fuel, chemical feedstock). The same fermentation knowledge that produces beer and wine also produces vinegar (acetic acid), a critical food preservative and cleaning agent.
+
+For industrial fermentation chemistry (ethanol, acetone, butanol as chemical feedstocks), see [Chemistry: Fermentation](../chemistry/fermentation.md). This document covers the food and beverage side of fermentation.
+
+### Beer Brewing
+
+Beer is fermented malted grain. The basic process: malt grain → mash → boil with hops → ferment → condition.
+
+**Malting** (grain preparation):
+1. **Steeping**: Submerge barley (or wheat) in water, 8-12 hours at 12-15°C. Alternate wet/dry cycles over 48 hours until grain moisture reaches 43-46%.
+2. **Germination**: Spread wet grain on malting floor, 12-18°C, for 4-6 days. Grain sprouts, producing enzymes (α-amylase, β-amylase, proteases) that will later convert starch to sugar. Turn grain daily to prevent matting and ensure even germination.
+3. **Kilning**: Dry malted grain in kiln at 60-80°C for 24-48 hours (light malt) or 100-110°C for darker malts. Kilning stops germination and develops flavor/color through Maillard reactions. Moisture reduced to <5%.
+4. **Malt types**: Pale malt (kilned 60-80°C, light color, high enzyme activity), crystal malt (stewed then kilned 130-150°C, caramel flavors, no enzyme activity), chocolate malt (kilned 200-220°C, dark color, roasted flavors). Most beers use 80-100% pale malt.
+
+**Mashing** (starch conversion):
+- **Process**: Mix crushed malt (see [Milling](milling.md)) with hot water in mash tun. Temperature controlled to activate specific enzymes:
+  - **Protein rest**: 45-55°C for 10-20 minutes. Proteases break down proteins to amino acids (yeast nutrients). Only needed for undermodified malt.
+  - **β-amylase optimum**: 60-65°C. Produces maltose (fermentable sugar). Creates dry, attenuated beer.
+  - **α-amylase optimum**: 68-72°C. Produces dextrins (partially fermentable). Creates fuller body.
+  - **Mash-out**: 76-78°C for 5-10 minutes. Denatures all enzymes, fixing sugar profile.
+- **Water-to-grain ratio**: 2.5-3.5 L water per kg malt. Thicker mash = more body, thinner mash = more fermentable.
+- **Single infusion mash** (simplest): Add grain to water at 65-68°C, hold 60 minutes, mash out at 78°C. Sufficient for well-modified pale malt. Temperature accuracy ±1°C critical.
+- **Sparging**: After mashing, rinse grain bed with 75-78°C water to extract remaining sugars. Collect sweet liquid (wort). Stop sparging when gravity drops below 1.008 (2° Plato) to avoid extracting harsh tannins.
+- **Yield**: 1 kg malt yields ~3-4 liters of wort at 12° Plato (1.048 SG), producing ~3 liters of 5% beer.
+
+**Boiling** (wort sterilization and hopping):
+- **Duration**: 60-90 minutes rolling boil. Purpose: sterilize wort, isomerize hop acids (bitterness), coagulate proteins (hot break), concentrate sugars.
+- **Hops**: Add at start of boil for bitterness (60+ minutes, α-acid isomerization ~30% efficient), middle for flavor (15-30 minutes), end for aroma (0-10 minutes, volatile oils preserved).
+- **Hop bittering**: α-acids (humulone, cohumulone, adhumulone) isomerize during boil. Bitterness measured in International Bitterness Units (IBU). Typical range: 10-40 IBU for standard ales, 15-25 IBU for lagers, 40-100 IBU for IPAs.
+- **Original gravity**: 1.040-1.080 SG (10-20° Plato). Higher gravity = more alcohol = more body.
+- **Cooling**: Rapidly cool wort from 100°C to 18-20°C (ale) or 8-12°C (lager) using wort chiller (copper coil with cold water, or plate heat exchanger). Fast cooling prevents bacterial contamination and cold break formation.
+
+**Fermentation**:
+- **Yeast**: Saccharomyces cerevisiae (ale yeast, top-fermenting, 15-22°C) or S. pastorianus (lager yeast, bottom-fermenting, 8-14°C).
+- **Pitching rate**: 0.75-1.5 million cells per mL per degree Plato. Underpitching causes off-flavors, overpitching causes thin beer.
+- **Primary fermentation**: 3-7 days (ale) or 7-14 days (lager). Yeast consumes sugars: glucose → maltose → maltotriose. Temperature control critical ±1°C. Excess temperature produces fusel alcohols (headache-causing).
+- **Gravity monitoring**: Hydrometer tracks fermentation progress. Final gravity 1.008-1.015 (2-4° Plato). Alcohol by volume = (OG - FG) × 131.25. Typical: 4-6% ABV for standard ales/lagers.
+- **Conditioning (secondary)**: 1-4 weeks at 10-15°C (ale) or 0-4°C (lager). Yeast reabsorbs off-flavors (diacetyl, acetaldehyde). Lager conditioning (lagering) at 0-4°C for 4-8 weeks produces clean flavor.
+
+**Packaging**:
+- **Cask (real ale)**: Secondary fermentation in cask with priming sugar. Natural carbonation. Shelf life: 3-7 days once tapped.
+- **Bottling**: Add priming sugar (4-5 g/L) before sealing. Bottle conditioning produces natural carbonation over 1-2 weeks at 18-20°C. Shelf life: 6-12 months.
+- **Kegging**: Force carbonate with CO₂ at 10-15 psi at 4°C. Immediate carbonation. Shelf life: 2-4 weeks once tapped.
+
+### Wine Making
+
+**Grape wine**:
+1. **Harvest**: Grapes at 20-25° Brix (sugar content), pH 3.2-3.5. Harvest by hand or machine.
+2. **Crushing/Destemming**: Break grape skins, remove stems. Press to separate juice (white wine) or ferment with skins (red wine, 5-10 days skin contact for color/tannin extraction).
+3. **Pressing**: Basket press or bladder press at 1.5-2.0 bar. Yield: 600-700 L juice per tonne grapes.
+4. **Fermentation**: Saccharomyces cerevisiae at 15-20°C (white) or 25-30°C (red). Duration: 7-14 days. Malolactic fermentation (Oenococcus oeni) optional for red wines and some whites: converts sharp malic acid to softer lactic acid.
+5. **Aging**: Stainless steel tanks (fresh fruit flavors) or oak barrels (6-24 months, adds vanilla/toast compounds from oak lignin). Barrel size: 225 L (Bordeaux) or 228 L (Burgundy).
+6. **Alcohol content**: 11-15% ABV. Higher alcohol inhibits spoilage organisms.
+
+**Fruit wines and mead**: Same basic process with different sugar sources. Honey mead requires 15-18% dilution and yeast nutrient additions (honey lacks nutrients for yeast).
+
+### Distilling
+
+Distillation separates ethanol (boiling point 78.3°C) from water (100°C) by selective evaporation and condensation. Produces spirits of 40-95% ABV.
+
+**Pot still distillation** (batch):
+- **Design**: Copper pot (50-2000 L) with swan neck, lyne arm, and condenser (worm coil in cold water bath). Copper catalytically removes sulfur compounds (dimethyl sulfide, hydrogen sulfide) that cause off-flavors.
+- **First distillation (stripping run)**: Distill fermented wash at 85-95°C. Collect "low wines" at 20-30% ABV. Discard first 2-5% ("foreshots" — methanol, acetone, highly toxic). Stop collecting at 5-10% ABV ("tails" — fusel oils, congeners).
+- **Second distillation (spirit run)**: Redistill low wines with finer cuts:
+  - **Heads/foreshots** (first 2-5%): Methanol (boiling point 64.7°C), acetone (56°C), ethyl acetate. **Discard — methanol causes blindness and death.** Methanol content in heads: 0.5-2% of distillate.
+  - **Hearts** (middle 60-70%): Clean ethanol at 65-80% ABV. The drinkable product.
+  - **Tails** (last 20-30%): Fusel alcohols (propanol, butanol, amyl alcohol), fatty acids. May be redistilled or discarded.
+- **Yield**: 1 kg fermentable sugar yields ~0.51 kg ethanol (theoretical maximum by mass). Practical yield: 0.40-0.45 kg ethanol per kg sugar. For grain: 1 kg malted barley yields ~0.35 L pure ethanol.
+
+**Column still distillation** (continuous):
+- **Design**: Vertical column (3-10 m) with perforated plates. Steam enters bottom, wash enters middle. Vapor rises through plates, enriching in ethanol. Reflux condenser at top returns some vapor for separation improvement.
+- **Advantage**: Continuous operation, higher throughput, more consistent product. Can produce 95.6% ABV (azeotrope limit for ethanol-water).
+- **Products**: Neutral spirits (vodka, gin base), grain whisky (partially refined), industrial ethanol.
+- **Beyond 95.6%**: Azeotropic distillation with benzene or cyclohexane, or molecular sieves (3 Å zeolite), required for absolute (anhydrous) ethanol.
+
+**Aging spirits**:
+- **Whiskey**: Oak barrels (charred American oak or toasted European oak), 3-12+ years. Char layer filters and adds flavor compounds. 2% volume loss per year ("angel's share"). Climate-controlled warehouse: 15-20°C, 60-70% humidity.
+- **Brandy**: Oak barrels, 2-10+ years. Similar principles to whiskey aging.
+- **Rum**: Oak barrels (often used bourbon barrels), 1-7+ years.
+
+### Industrial Ethanol
+
+Ethanol for industrial use (solvent, fuel, chemical feedstock) follows the same fermentation and distillation principles:
+
+- **Feedstock**: Grain, sugarcane, or cellulosic biomass. Sugarcane is most efficient: 7,000 L ethanol/hectare/year (Brazil).
+- **Concentration**: 95.6% ABV by simple distillation. 99.5%+ by molecular sieve dehydration.
+- **Denaturing**: Add bitterant (denatonium benzoate, 10 ppm) or toxicant (methanol, 5-10%) to prevent human consumption of industrial ethanol. Denatured spirits ("denatured alcohol") is tax-exempt in most jurisdictions.
+- **Fuel ethanol**: Blended with gasoline at 10-85% (E10 to E85). Requires anhydrous ethanol (<0.5% water) to prevent phase separation.
+
+### Safety
+
+- **Methanol poisoning**: Methanol (wood alcohol) is metabolized to formaldehyde and formic acid, causing blindness and death. Dose: 10 mL pure methanol can cause blindness, 30-100 mL can be fatal. **Never consume the foreshots/heads fraction of any distillation.**
+- **Botulism in home brewing**: Improperly sealed home-canned beer or wine can grow C. botulinum. Maintain proper acidity (pH <4.6) and sanitary conditions.
+- **Acetone and fusel alcohols**: Higher alcohols (propanol, butanol, amyl alcohol) in tails cause severe headaches and nausea. Proper cuts during distillation are essential.
+- **Pressure in stills**: Pot stills must have pressure relief valves. Column stills operate at slight positive pressure. Overpressure can cause explosion. Never block a still outlet.
+- **Fire hazard**: Ethanol vapor is flammable at 3.3-19% concentration in air. Distillation areas must be well-ventilated. No open flames near stills.
+
+### Dependency Chain
+
+Brewing depends on:
+- **[chemistry.petroleum-alternatives.fermentation](../chemistry/fermentation.md)**: Fermentation chemistry, yeast biology, process control
+- **[energy](../energy/index.md)**: Heat for mashing, boiling, distillation, and cooling/refrigeration
+- **[food-processing.milling](milling.md)**: Grain crushing for mashing
+- **[ceramics](../ceramics/index.md)**: Fermentation vessels, aging barrels (wood), storage amphorae
+
+Brewing enables:
+- **Industrial ethanol**: Feedstock for chemical industry (see [Chemistry: Fermentation](../chemistry/fermentation.md))
+- **Vinegar production**: Exposed beer/wine oxidizes to vinegar (acetic acid 5-8%), a food preservative and cleaning agent
+- **Spent grain**: Nutritious animal feed (high fiber, protein, moisture — must be fed fresh or dried to prevent mold)
+
+### Fermentation Biochemistry
+
+Understanding the chemistry of fermentation is essential for process control:
+
+**Glycolysis (Embden-Meyerhof pathway)**:
+C₆H₁₂O₆ → 2 CH₃CH₂OH + 2 CO₂ + 2 ATP
+Glucose → 2 ethanol + 2 carbon dioxide + energy (for yeast)
+
+- **Stoichiometry**: 180 g glucose produces 92 g ethanol + 88 g CO₂. By volume: 1 mol glucose (180 g) → 2 mol ethanol (115 mL) + 2 mol CO₂ (44.8 L at STP).
+- **Heat release**: Fermentation is exothermic: ~100 kJ per mol glucose fermented. A 1000 L fermentation tank at 12° Plato (120 g/L fermentable sugar) produces ~67 MJ of heat over the course of fermentation. Temperature control requires cooling capacity of 2-5 kW per 1000 L for active fermentation.
+- **Byproducts**: Besides ethanol and CO₂, yeast produces glycerol (1-3% of sugar carbon), higher alcohols (fusel oils: 50-300 mg/L), esters (ethyl acetate, isoamyl acetate: 10-100 mg/L), and organic acids (succinic, acetic: 0.1-1 g/L). These byproducts define beer and wine flavor character.
+- **Yeast nutrition**: Yeast requires nitrogen (amino acids from malt protein degradation, or diammonium phosphate supplement at 200-400 mg N/L for wine), vitamins (biotin, thiamine, pantothenic acid), and minerals (magnesium, zinc at 0.1-0.5 mg/L). Nutrient deficiency causes stuck fermentation (sugar remains unfermented, sweet product, spoilage risk).
+
+**Wort gravity and alcohol calculation**:
+- **Specific gravity (SG)**: Density of wort relative to water. Water = 1.000. Typical wort: 1.040-1.080.
+- **Plato (°P)**: Grams of sugar per 100 g solution. 12°P ≈ 1.048 SG. Conversion: °P ≈ (SG - 1) × 1000 / 4.
+- **Alcohol by volume (ABV)**: ABV ≈ (OG - FG) × 131.25. Example: OG 1.050, FG 1.012 → ABV = (1.050 - 1.012) × 131.25 = 4.99%.
+- **Attenuation**: Percentage of sugars consumed. (OG - FG)/(OG - 1) × 100. Typical ale: 70-80%. High attenuation = dry beer. Low attenuation = sweet, full-bodied.
+
+### Quality Control in Brewing
+
+- **pH monitoring**: Mash pH must be 5.2-5.6 for optimal enzyme activity. Adjust with calcium salts (gypsum CaSO₄ at 100-300 mg/L, or calcium chloride CaCl₂ at 100-200 mg/L). Beer pH after fermentation: 3.8-4.4. pH >4.6 indicates incomplete fermentation or contamination.
+- **Microbiological testing**: Plate counts for wild yeast and bacteria. Lactic acid bacteria (Lactobacillus, Pediococcus) cause souring. Acetobacter produces vinegar. Wild yeast (Brettanomyces) produces barnyard flavors (desired in some Belgian styles, fault in most others).
+- **Diacetyl test**: Diacetyl (2,3-butanedione) produces a buttery flavor. Formed during fermentation, reabsorbed by yeast during conditioning. Diacetyl rest: raise temperature to 15-18°C for 2-3 days near end of fermentation. Test: heat sample to 60°C for 10 min, cool, smell for butter. If present, extend diacetyl rest.
+- **Carbonation**: Target 2.2-2.8 volumes CO₂ for most ales (1 volume = 1 L CO₂ per L beer at STP). Force carbonation at 10-15 psi at 4°C. Natural carbonation via priming sugar at 4-5 g/L.
+
+### Vinegar Production
+
+Vinegar (acetic acid 5-8% in water) is produced by aerobic oxidation of ethanol by Acetobacter bacteria:
+
+- **Orleans method** (traditional): Fill barrels 2/3 with wine/cider. Inoculate with vinegar mother (Acetobacter culture). Leave 1-3 months with air access. Surface fermentation — bacteria form a pellicle on the liquid surface.
+- **Generator method** (faster): Trickling generator — alcohol solution percolates through beechwood shavings inoculated with Acetobacter. Air flows upward. 5-10× faster than Orleans method.
+- **Submerged culture** (industrial): Forced aeration in stainless steel tanks at 28-32°C. 20-40 hour cycle. Most efficient. Acetic acid concentration reaches 12-15%.
+- **Distilled white vinegar**: 5% acetic acid from grain alcohol. Standard for pickling and cleaning.
+- **Apple cider vinegar**: 5-6% acetic acid from hard cider. Popular for food use.
+- **Cleaning application**: 5% acetic acid solution kills 80-90% of bacteria and 90%+ of mold on surfaces. Food-safe disinfectant for dairy and brewing equipment.

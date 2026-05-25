@@ -1,0 +1,64 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Food Processing
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph food-processing_internal ["Food Processing — Internal Structure"]
+        direction TB
+        food-processing_milling["Grain Milling"]
+        food-processing_preservation["Food Preservation"]
+        food-processing_dairy["Dairy Processing"]
+        food-processing_brewing["Brewing & Distilling"]
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    food-processing["Food Processing"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    ceramics("Ceramics & Refractories")
+    chemistry_petroleum-alternatives_fermentation("Fermentation Chemistry")
+    energy("Energy")
+    foundations_food-agriculture("Agriculture & Food Production")
+    health_sanitation("Water Supply & Sanitation")
+    water("Water")
+
+    %% ==================== EDGES ====================
+    food-processing --> foundations_food-agriculture
+    food-processing -.-> energy
+    food-processing -.-> health_sanitation
+    food-processing --> water
+    food-processing_milling -.-> energy
+    food-processing_preservation --> ceramics
+    food-processing_preservation -.-> chemistry_petroleum-alternatives_fermentation
+    food-processing_brewing -.-> chemistry_petroleum-alternatives_fermentation
+    food-processing_brewing -.-> energy
+    food-processing_dairy --> ceramics
+    food-processing_dairy -.-> health_sanitation
+    food-processing_preservation -.-> health_sanitation
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
+    class food-processing domain
+    class food-processing_milling earlyWin
+    class food-processing_preservation capability
+    class food-processing_dairy capability
+    class food-processing_brewing capability
+    class ceramics external
+    class chemistry_petroleum-alternatives_fermentation external
+    class energy external
+    class foundations_food-agriculture external
+    class health_sanitation external
+    class water external
+    class EdgeLegend,MatNote,ToolNote legend

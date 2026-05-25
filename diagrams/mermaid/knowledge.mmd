@@ -19,16 +19,21 @@ graph TD
     animals_beekeeping("Apiculture (Beekeeping)")
     chemistry("Chemistry")
     chemistry_pulp-chemicals("Pulp & Paper Chemicals")
+    defense("Defense & Military Engineering")
     foundations("Foundations")
     foundations_food-agriculture("Agriculture & Food Production")
     foundations_tools-basic("Stone & Wood Tools")
     health_medicine("Medicine & Surgery")
     health_sanitation("Water Supply & Sanitation")
     machine-tools_machining("Machining")
+    marine("Marine & Naval Engineering")
+    marine_navigation("Marine Navigation")
     mathematics("Mathematics & Formal Sciences")
     metals_iron-steel("Iron & Steel Production")
     mining_prospecting("Prospecting & Surveying")
     quality-control("Quality Control & Statistical Process Control")
+    telecom("Telecommunications")
+    telecom_pre-electric("Pre-Electric Communication")
     textiles_fibers("Fiber Preparation")
 
     %% ==================== EDGES ====================
@@ -50,6 +55,11 @@ graph TD
     knowledge_writing --> animals_beekeeping
     mathematics -.-> knowledge_writing
     quality-control -.-> knowledge
+    defense -.-> knowledge
+    telecom -.-> knowledge_writing
+    telecom_pre-electric -.-> knowledge_writing
+    marine -.-> knowledge
+    marine_navigation -.-> knowledge_writing
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -74,15 +84,20 @@ graph TD
     class animals_beekeeping external
     class chemistry external
     class chemistry_pulp-chemicals external
+    class defense external
     class foundations external
     class foundations_food-agriculture external
     class foundations_tools-basic external
     class health_medicine external
     class health_sanitation external
     class machine-tools_machining external
+    class marine external
+    class marine_navigation external
     class mathematics external
     class metals_iron-steel external
     class mining_prospecting external
     class quality-control external
+    class telecom external
+    class telecom_pre-electric external
     class textiles_fibers external
     class EdgeLegend,MatNote,ToolNote legend

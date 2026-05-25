@@ -26,12 +26,14 @@ graph TD
     chemistry("Chemistry")
     chemistry_alkalis("Alkali Production")
     chemistry_pulp-chemicals("Pulp & Paper Chemicals")
+    construction("Construction & Structural Engineering")
     energy_gravity("Water Power")
     energy_wind("Wind Power")
     foundations("Foundations")
     foundations_tools-basic("Stone & Wood Tools")
     knowledge_printing("Paper and Printing Press")
     machine-tools("Machine Tools Bootstrap")
+    marine("Marine & Naval Engineering")
     metals_copper-bronze("Copper & Bronze Production")
     plants_dye-plants("Dye Plants")
     plants_fiber-plants("Fiber Plants")
@@ -68,6 +70,8 @@ graph TD
     textiles_fibers --> animals_goats
     textiles_fibers --> animals_rabbits
     textiles_fibers --> animals_camelids
+    construction --> textiles_rope-making
+    marine --> textiles
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -99,12 +103,14 @@ graph TD
     class chemistry external
     class chemistry_alkalis external
     class chemistry_pulp-chemicals external
+    class construction external
     class energy_gravity external
     class energy_wind external
     class foundations external
     class foundations_tools-basic external
     class knowledge_printing external
     class machine-tools external
+    class marine external
     class metals_copper-bronze external
     class plants_dye-plants external
     class plants_fiber-plants external

@@ -20,6 +20,7 @@ graph TD
     chemistry_acids("Mineral Acid Production")
     chemistry_coatings("Paints, Coatings & Inks")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
+    defense("Defense & Military Engineering")
     energy("Energy")
     energy_electricity("Electricity Generation & Distribution")
     energy_engine("Heat Engines")
@@ -27,12 +28,17 @@ graph TD
     energy_steam-power("Steam Power")
     foundations_tools-basic("Stone & Wood Tools")
     machine-tools("Machine Tools Bootstrap")
+    marine("Marine & Naval Engineering")
+    marine_shipbuilding("Hull Construction & Shipbuilding")
     metals("Metals")
     metals_aluminum("Aluminum Production")
     metals_forming("Primary Metal Forming")
     metals_iron-steel("Iron & Steel Production")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_extraction("Mining Extraction")
+    telecom("Telecommunications")
+    telecom_electric-telegraph("Electrical Telegraph Networks")
+    telecom_submarine-cables("Submarine Cable Systems")
     textiles("Textiles, Fiber & Cordage")
 
     %% ==================== EDGES ====================
@@ -59,6 +65,12 @@ graph TD
     transport_aviation --> metals_aluminum
     transport_railways --> metals_forming
     transport_roads -.-> animals_draft-power
+    defense -.-> transport
+    telecom -.-> transport_telegraph
+    telecom_electric-telegraph -.-> transport_telegraph
+    telecom_submarine-cables -.-> transport_shipping
+    marine -.-> transport_shipping
+    marine_shipbuilding -.-> transport_shipping
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -84,6 +96,7 @@ graph TD
     class chemistry_acids external
     class chemistry_coatings external
     class chemistry_petroleum-alternatives external
+    class defense external
     class energy external
     class energy_electricity external
     class energy_engine external
@@ -91,11 +104,16 @@ graph TD
     class energy_steam-power external
     class foundations_tools-basic external
     class machine-tools external
+    class marine external
+    class marine_shipbuilding external
     class metals external
     class metals_aluminum external
     class metals_forming external
     class metals_iron-steel external
     class mining external
     class mining_extraction external
+    class telecom external
+    class telecom_electric-telegraph external
+    class telecom_submarine-cables external
     class textiles external
     class EdgeLegend,MatNote,ToolNote legend

@@ -37,6 +37,11 @@ graph TD
     precision-motion["Precision Motion Control"]
     petroleum["Petroleum Extraction & Refining"]
     ehs["Environmental Health & Safety"]
+    defense["Defense & Military Engineering"]
+    construction["Construction & Structural Engineering"]
+    food-processing["Food Processing"]
+    telecom["Telecommunications"]
+    marine["Marine & Naval Engineering"]
 
     %% ==================== DOMAIN-LEVEL EDGES ====================
     metals -.-> foundations
@@ -102,6 +107,22 @@ graph TD
     automation -.-> electronics
     petroleum -.-> metals
     petroleum -.-> mining
+    defense --> metals
+    defense -.-> foundations
+    defense -.-> transport
+    defense -.-> knowledge
+    construction -.-> foundations
+    construction --> metals
+    construction -.-> machine-tools
+    food-processing -.-> energy
+    food-processing --> water
+    telecom --> metals
+    telecom --> glass
+    marine -.-> foundations
+    marine --> metals
+    marine --> textiles
+    marine -.-> energy
+    marine -.-> knowledge
 
     %% ==================== CROSS-DOMAIN EDGES ====================
     agriculture -.-> animals
@@ -132,7 +153,12 @@ graph TD
     computing -.-> photolithography
     computing -.-> polymers
     computing -.-> silicon
+    construction -.-> ceramics
+    construction -.-> chemistry
+    construction -.-> energy
+    construction -.-> textiles
     cryogenics -.-> energy
+    defense -.-> chemistry
     electrochemistry -.-> chemistry
     electrochemistry -.-> energy
     electrochemistry -.-> metals
@@ -149,6 +175,10 @@ graph TD
     energy -.-> petroleum
     energy -.-> polymers
     energy -.-> textiles
+    food-processing -.-> ceramics
+    food-processing -.-> chemistry
+    food-processing -.-> foundations
+    food-processing -.-> health
     foundations -.-> agriculture
     foundations -.-> animals
     foundations -.-> plants
@@ -170,6 +200,9 @@ graph TD
     machine-tools -.-> chemistry
     machine-tools -.-> energy
     machine-tools -.-> foundations
+    marine -.-> machine-tools
+    marine -.-> polymers
+    marine -.-> transport
     mathematics -.-> foundations
     mathematics -.-> knowledge
     measurement -.-> energy
@@ -209,6 +242,11 @@ graph TD
     silicon -.-> measurement
     silicon -.-> mining
     silicon -.-> vacuum
+    telecom -.-> energy
+    telecom -.-> foundations
+    telecom -.-> knowledge
+    telecom -.-> polymers
+    telecom -.-> transport
     textiles -.-> animals
     textiles -.-> chemistry
     textiles -.-> metals
@@ -241,6 +279,9 @@ graph TD
     class plants earlyWin
     class agriculture earlyWin
     class animals earlyWin
+    class construction earlyWin
+    class food-processing earlyWin
+    class marine earlyWin
 
     %% ==================== LEGEND ====================
     Legend["Legend and Key Insights"]

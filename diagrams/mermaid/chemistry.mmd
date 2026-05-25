@@ -45,7 +45,9 @@ graph TD
     ceramics_electronic-ceramics("Electronic Ceramics")
     ceramics_kilns("Kiln Construction")
     cleanrooms("Clean Room Technology")
+    construction("Construction & Structural Engineering")
     cryogenics_air-separation("Cryogenic Air Separation")
+    defense("Defense & Military Engineering")
     electrochemistry("Electrochemistry & Plating")
     electrochemistry_anodizing("Anodizing")
     electrochemistry_electrochemical-processes("Electrochemical Surface Processes")
@@ -63,6 +65,8 @@ graph TD
     energy_redox-flow-battery("Redox Flow Battery")
     energy_storage("Energy Storage & Diversification")
     energy_wind("Wind Power")
+    food-processing_brewing("Brewing & Distilling")
+    food-processing_preservation("Food Preservation")
     foundations("Foundations")
     gas-handling("Gas Handling")
     gas-handling_basic("Basic Gas Handling")
@@ -236,6 +240,10 @@ graph TD
     electrochemistry_anodizing --> chemistry_acids
     electrochemistry_electrochemical-processes --> chemistry_acids
     petroleum_refining -.-> chemistry_distillation
+    defense --> chemistry_explosives
+    construction --> chemistry_cement
+    food-processing_preservation -.-> chemistry_petroleum-alternatives_fermentation
+    food-processing_brewing -.-> chemistry_petroleum-alternatives_fermentation
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -286,7 +294,9 @@ graph TD
     class ceramics_electronic-ceramics external
     class ceramics_kilns external
     class cleanrooms external
+    class construction external
     class cryogenics_air-separation external
+    class defense external
     class electrochemistry external
     class electrochemistry_anodizing external
     class electrochemistry_electrochemical-processes external
@@ -304,6 +314,8 @@ graph TD
     class energy_redox-flow-battery external
     class energy_storage external
     class energy_wind external
+    class food-processing_brewing external
+    class food-processing_preservation external
     class foundations external
     class gas-handling external
     class gas-handling_basic external

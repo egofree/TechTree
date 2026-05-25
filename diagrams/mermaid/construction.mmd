@@ -1,0 +1,65 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Construction & Structural Engineering
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph construction_internal ["Construction & Structural Engineering — Internal Structure"]
+        direction TB
+        construction_building-materials["Building Materials & Methods"]
+        construction_structural-engineering["Structural Engineering"]
+        construction_industrial-buildings["Industrial Buildings & Heavy Foundations"]
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    construction["Construction & Structural Engineering"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    ceramics_lime("Lime Production")
+    chemistry_cement("Cement & Concrete")
+    energy_electricity("Electricity Generation & Distribution")
+    foundations("Foundations")
+    foundations_tools-basic("Stone & Wood Tools")
+    machine-tools("Machine Tools Bootstrap")
+    metals("Metals")
+    metals_iron-steel("Iron & Steel Production")
+    textiles_rope-making("Rope and Cordage")
+
+    %% ==================== EDGES ====================
+    construction -.-> foundations
+    construction --> ceramics_lime
+    construction --> chemistry_cement
+    construction --> metals
+    construction --> textiles_rope-making
+    construction -.-> machine-tools
+    construction_building-materials -.-> foundations_tools-basic
+    construction_structural-engineering --> metals_iron-steel
+    construction_industrial-buildings -.-> energy_electricity
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
+    class construction domain
+    class construction_building-materials capability
+    class construction_structural-engineering capability
+    class construction_industrial-buildings capability
+    class ceramics_lime external
+    class chemistry_cement external
+    class energy_electricity external
+    class foundations external
+    class foundations_tools-basic external
+    class machine-tools external
+    class metals external
+    class metals_iron-steel external
+    class textiles_rope-making external
+    class EdgeLegend,MatNote,ToolNote legend

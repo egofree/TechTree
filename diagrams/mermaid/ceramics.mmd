@@ -21,9 +21,12 @@ graph TD
     chemistry("Chemistry")
     chemistry_cement("Cement & Concrete")
     chemistry_refractories("Refractory Materials")
+    construction("Construction & Structural Engineering")
     energy_fuels_charcoal("Charcoal Production")
     energy_fuels_coal("Coal Mining & Combustion")
     energy_fuels_coke("Coke Production")
+    food-processing_dairy("Dairy Processing")
+    food-processing_preservation("Food Preservation")
     foundations("Foundations")
     foundations_fire("Fire-Making")
     foundations_tools-basic("Stone & Wood Tools")
@@ -56,6 +59,9 @@ graph TD
     metals_iron-steel_blast-furnace -.-> ceramics_kilns
     chemistry_refractories -.-> ceramics_kilns
     animals_animal-materials -.-> ceramics_lime
+    construction --> ceramics_lime
+    food-processing_preservation --> ceramics
+    food-processing_dairy --> ceramics
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -82,9 +88,12 @@ graph TD
     class chemistry external
     class chemistry_cement external
     class chemistry_refractories external
+    class construction external
     class energy_fuels_charcoal external
     class energy_fuels_coal external
     class energy_fuels_coke external
+    class food-processing_dairy external
+    class food-processing_preservation external
     class foundations external
     class foundations_fire external
     class foundations_tools-basic external

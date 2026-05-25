@@ -30,6 +30,8 @@ graph TD
     polymers_composites("Composite Materials")
     silicon("Silicon")
     silicon_crystal-growth("Crystal Growth & Wafering")
+    telecom("Telecommunications")
+    telecom_radio("Radio Communication")
 
     %% ==================== EDGES ====================
     glass_advanced -.-> glass_basic
@@ -51,6 +53,8 @@ graph TD
     electronics_assembly --> glass_fibers
     glass_photomask-substrates --> photolithography_fab-processes
     cleanrooms --> glass
+    telecom --> glass
+    telecom_radio --> glass
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -86,4 +90,6 @@ graph TD
     class polymers_composites external
     class silicon external
     class silicon_crystal-growth external
+    class telecom external
+    class telecom_radio external
     class EdgeLegend,MatNote,ToolNote legend

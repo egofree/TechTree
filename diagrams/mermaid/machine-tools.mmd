@@ -25,6 +25,7 @@ graph TD
     chemistry_packaging-testing("Semiconductor Packaging & Testing")
     computing("Computing & Automation")
     computing_mechanical("Mechanical Calculation")
+    construction("Construction & Structural Engineering")
     electronics("Electronics")
     energy_cooling("Cooling Systems & Refrigeration")
     energy_electric-furnaces("Electric Furnaces")
@@ -37,6 +38,8 @@ graph TD
     gas-handling("Gas Handling")
     glass("Glass")
     knowledge_printing("Paper and Printing Press")
+    marine_infrastructure("Maritime Infrastructure & Underwater Engineering")
+    marine_shipbuilding("Hull Construction & Shipbuilding")
     measurement("Measurement & Instrumentation")
     measurement_precision-metrology("Precision Metrology & Standards")
     metals("Metals")
@@ -106,6 +109,9 @@ graph TD
     vacuum_pumps -.-> machine-tools
     vacuum_chambers -.-> machine-tools
     automation_wafer-handling -.-> machine-tools
+    construction -.-> machine-tools
+    marine_shipbuilding -.-> machine-tools
+    marine_infrastructure -.-> machine-tools
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -136,6 +142,7 @@ graph TD
     class chemistry_packaging-testing external
     class computing external
     class computing_mechanical external
+    class construction external
     class electronics external
     class energy_cooling external
     class energy_electric-furnaces external
@@ -148,6 +155,8 @@ graph TD
     class gas-handling external
     class glass external
     class knowledge_printing external
+    class marine_infrastructure external
+    class marine_shipbuilding external
     class measurement external
     class measurement_precision-metrology external
     class metals external

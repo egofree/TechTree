@@ -1,0 +1,81 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Marine & Naval Engineering
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph marine_internal ["Marine & Naval Engineering — Internal Structure"]
+        direction TB
+        marine_shipbuilding["Hull Construction & Shipbuilding"]
+        marine_navigation["Marine Navigation"]
+        marine_propulsion["Marine Propulsion Systems"]
+        marine_infrastructure["Maritime Infrastructure & Underwater Engineering"]
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    marine["Marine & Naval Engineering"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    energy("Energy")
+    energy_engine("Heat Engines")
+    energy_steam-power("Steam Power")
+    foundations("Foundations")
+    knowledge("Knowledge Preservation & Education")
+    knowledge_writing("Writing & Record-Keeping")
+    machine-tools("Machine Tools Bootstrap")
+    metals("Metals")
+    metals_iron-steel("Iron & Steel Production")
+    polymers_rubber_gutta-percha("Gutta-Percha Processing")
+    textiles("Textiles, Fiber & Cordage")
+    transport_shipping("Water Transport")
+
+    %% ==================== EDGES ====================
+    marine -.-> foundations
+    marine --> metals
+    marine --> textiles
+    marine -.-> energy
+    marine -.-> knowledge
+    marine -.-> transport_shipping
+    marine_shipbuilding --> metals_iron-steel
+    marine_shipbuilding -.-> transport_shipping
+    marine_shipbuilding -.-> machine-tools
+    marine_navigation -.-> knowledge_writing
+    marine_navigation --> metals
+    marine_propulsion -.-> energy_steam-power
+    marine_propulsion -.-> energy_engine
+    marine_propulsion --> metals_iron-steel
+    marine_infrastructure --> metals_iron-steel
+    marine_infrastructure -.-> machine-tools
+    marine_infrastructure --> polymers_rubber_gutta-percha
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
+    class marine domain
+    class marine_shipbuilding capability
+    class marine_navigation capability
+    class marine_propulsion capability
+    class marine_infrastructure capability
+    class energy external
+    class energy_engine external
+    class energy_steam-power external
+    class foundations external
+    class knowledge external
+    class knowledge_writing external
+    class machine-tools external
+    class metals external
+    class metals_iron-steel external
+    class polymers_rubber_gutta-percha external
+    class textiles external
+    class transport_shipping external
+    class EdgeLegend,MatNote,ToolNote legend

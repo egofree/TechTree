@@ -48,10 +48,14 @@ graph TD
     chemistry_water-electrolysis("Water Electrolysis")
     cleanrooms("Clean Room Technology")
     computing_electromechanical("Electromechanical Computing")
+    construction_industrial-buildings("Industrial Buildings & Heavy Foundations")
     cryogenics("Cryogenics")
     electrochemistry("Electrochemistry & Plating")
     electronics("Electronics")
     electronics_electrical-systems("Electrical Systems")
+    food-processing("Food Processing")
+    food-processing_brewing("Brewing & Distilling")
+    food-processing_milling("Grain Milling")
     foundations("Foundations")
     foundations_fire("Fire-Making")
     gas-handling("Gas Handling")
@@ -63,6 +67,8 @@ graph TD
     machine-tools_forming("Metal Forming")
     machine-tools_joining("Metal Joining")
     machine-tools_machining("Machining")
+    marine("Marine & Naval Engineering")
+    marine_propulsion("Marine Propulsion Systems")
     measurement("Measurement & Instrumentation")
     measurement_electrical-instruments("Electrical Measurement Instruments")
     measurement_temperature-pressure("Temperature & Pressure Measurement")
@@ -84,6 +90,10 @@ graph TD
     polymers_rubber("Rubber Production")
     silicon("Silicon")
     silicon_mg-si-production("Metallurgical-Grade Silicon Production")
+    telecom("Telecommunications")
+    telecom_electric-telegraph("Electrical Telegraph Networks")
+    telecom_radio("Radio Communication")
+    telecom_telephone("Telephone Systems")
     textiles("Textiles, Fiber & Cordage")
     transport("Transportation & Logistics")
     transport_aviation("Aviation")
@@ -190,6 +200,17 @@ graph TD
     electrochemistry -.-> energy_electricity
     petroleum_extraction_cable-tool -.-> energy_steam-power
     energy_engine --> petroleum_refining
+    construction_industrial-buildings -.-> energy_electricity
+    food-processing -.-> energy
+    food-processing_milling -.-> energy
+    food-processing_brewing -.-> energy
+    telecom -.-> energy_electricity
+    telecom_electric-telegraph -.-> energy_electricity
+    telecom_telephone -.-> energy_electricity
+    telecom_radio -.-> energy_electricity
+    marine -.-> energy
+    marine_propulsion -.-> energy_steam-power
+    marine_propulsion -.-> energy_engine
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -243,10 +264,14 @@ graph TD
     class chemistry_water-electrolysis external
     class cleanrooms external
     class computing_electromechanical external
+    class construction_industrial-buildings external
     class cryogenics external
     class electrochemistry external
     class electronics external
     class electronics_electrical-systems external
+    class food-processing external
+    class food-processing_brewing external
+    class food-processing_milling external
     class foundations external
     class foundations_fire external
     class gas-handling external
@@ -258,6 +283,8 @@ graph TD
     class machine-tools_forming external
     class machine-tools_joining external
     class machine-tools_machining external
+    class marine external
+    class marine_propulsion external
     class measurement external
     class measurement_electrical-instruments external
     class measurement_temperature-pressure external
@@ -279,6 +306,10 @@ graph TD
     class polymers_rubber external
     class silicon external
     class silicon_mg-si-production external
+    class telecom external
+    class telecom_electric-telegraph external
+    class telecom_radio external
+    class telecom_telephone external
     class textiles external
     class transport external
     class transport_aviation external

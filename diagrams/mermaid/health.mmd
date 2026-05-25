@@ -25,6 +25,9 @@ graph TD
     chemistry_soap("Soap & Detergent Production")
     chemistry_solvents("Solvent Production")
     energy_steam-power("Steam Power")
+    food-processing("Food Processing")
+    food-processing_dairy("Dairy Processing")
+    food-processing_preservation("Food Preservation")
     foundations("Foundations")
     foundations_water-procurement("Water Procurement")
     knowledge_writing("Writing & Record-Keeping")
@@ -56,6 +59,9 @@ graph TD
     health_occupational-health --> chemistry_acids
     health_medical-instruments --> metals_copper-bronze
     health_medical-instruments -.-> energy_steam-power
+    food-processing -.-> health_sanitation
+    food-processing_dairy -.-> health_sanitation
+    food-processing_preservation -.-> health_sanitation
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -86,6 +92,9 @@ graph TD
     class chemistry_soap external
     class chemistry_solvents external
     class energy_steam-power external
+    class food-processing external
+    class food-processing_dairy external
+    class food-processing_preservation external
     class foundations external
     class foundations_water-procurement external
     class knowledge_writing external

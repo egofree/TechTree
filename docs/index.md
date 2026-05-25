@@ -48,18 +48,18 @@ Several capabilities in other domains are also critical because their absence bl
 | [Chemistry](chemistry/index.md) | 18 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
 | [Cryogenics](cryogenics/index.md) | 3 | | refrigeration cycles, cryogenic air separation, gas liquefaction & storage |
 | [Computing](computing/index.md) | 5 | | slide rules, calculators, automation |
-| [Construction](construction/index.md) | — | | structural engineering, concrete, dams, tunnels |
-| [Defense & Military](defense/index.md) | — | | weapons, fortifications, military engineering |
+| [Construction](construction/index.md) | 3 | | structural engineering, concrete, dams, tunnels |
+| [Defense & Military](defense/index.md) | 4 | | weapons progression, fortifications, armor, siege engineering, military logistics |
 | [Energy](energy/index.md) | 9 | | steam engines, electricity, arc furnaces, charcoal, coke |
 | [EHS](ehs/index.md) | 5 | | chemical safety, ventilation, PPE, emergency response, waste management |
-| [Food Processing](food-processing/index.md) | — | | milling, canning, pasteurization, preservation |
+| [Food Processing](food-processing/index.md) | 4 | | milling, canning, pasteurization, preservation, dairy, brewing |
 | [Foundations](foundations/index.md) | 4 | Yes | food surplus, fire, stone tools, agriculture |
 | [Gas Handling](gas-handling/index.md) | 2 | | vacuum pumps, gas compression, purification |
 | [Glass](glass/index.md) | 3 | | basic glass, borosilicate glass, fused silica, quartz crucibles |
 | [Health](health/index.md) | 5 | | clean water, sanitation, pharmaceuticals |
 | [Knowledge](knowledge/index.md) | 4 | Yes | writing, printing, education, libraries |
 | [Machine Tools](machine-tools/index.md) | 6 | Yes | lathe, mill, grinder, bearings |
-| [Marine & Naval](marine/index.md) | — | | shipbuilding, navigation, maritime engineering |
+| [Marine & Naval](marine/index.md) | 4 | | shipbuilding, navigation, propulsion, maritime infrastructure, submarine cables |
 | [Measurement](measurement/index.md) | 4 | | precision instruments, gauge blocks, calibration |
 | [Metals](metals/index.md) | 9 | | copper, iron, steel |
 | [Mining](mining/index.md) | 5 | Yes | copper ore, iron ore, coal, quartz, sulfur |
@@ -68,7 +68,7 @@ Several capabilities in other domains are also critical because their absence bl
 | [Plants & Botany](plants/index.md) | 5 | | food crops, medicine, timber, fiber, natural dyes |
 | [Polymers](polymers/index.md) | 4 | | rubber, FR-4, PTFE, fiberglass |
 | [Silicon](silicon/index.md) | 5 | | MG-Si, wafers, solar cells, transistors |
-| [Telecommunications](telecommunications/index.md) | — | | telegraph, telephone, radio, fiber optics |
+| [Telecommunications](telecom/index.md) | 5 | | pre-electric signaling, telegraph networks, telephone, submarine cables, radio |
 | [Textiles](textiles/index.md) | 7 | Yes | cordage, cloth, rope, drive belts |
 | [Transport](transport/index.md) | 5 | | roads, railways, aviation, logistics |
 | [VLSI Scaling](vlsi-scaling/index.md) | 4 | | GPUs, advanced solar, EDA tools |

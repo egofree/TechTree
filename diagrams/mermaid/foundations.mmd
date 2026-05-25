@@ -27,13 +27,18 @@ graph TD
     ceramics_pottery("Pottery & Clay Products")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
+    construction("Construction & Structural Engineering")
+    construction_building-materials("Building Materials & Methods")
+    defense("Defense & Military Engineering")
     energy_fuels("Fuel Production")
     energy_fuels_charcoal("Charcoal Production")
+    food-processing("Food Processing")
     health("Public Health, Sanitation & Medicine")
     health_sanitation("Water Supply & Sanitation")
     knowledge("Knowledge Preservation & Education")
     knowledge_writing("Writing & Record-Keeping")
     machine-tools_forming("Metal Forming")
+    marine("Marine & Naval Engineering")
     mathematics_core-mathematics("Core Mathematics")
     measurement_precision-metrology("Precision Metrology & Standards")
     metals("Metals")
@@ -44,6 +49,7 @@ graph TD
     plants_edible-plants("Edible Plants")
     polymers("Polymers & Composites")
     polymers_rubber_natural("Natural Rubber & Vulcanization")
+    telecom_pre-electric("Pre-Electric Communication")
     textiles("Textiles, Fiber & Cordage")
     textiles_fibers("Fiber Preparation")
     transport_roads("Road & Bridge Construction")
@@ -88,6 +94,12 @@ graph TD
     animals_poultry --> foundations_food-agriculture
     foundations_food-agriculture --> agriculture_soil-management
     mathematics_core-mathematics -.-> foundations
+    defense -.-> foundations
+    construction -.-> foundations
+    construction_building-materials -.-> foundations_tools-basic
+    food-processing --> foundations_food-agriculture
+    telecom_pre-electric -.-> foundations
+    marine -.-> foundations
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -120,13 +132,18 @@ graph TD
     class ceramics_pottery external
     class chemistry_lubricants external
     class chemistry_petroleum-alternatives external
+    class construction external
+    class construction_building-materials external
+    class defense external
     class energy_fuels external
     class energy_fuels_charcoal external
+    class food-processing external
     class health external
     class health_sanitation external
     class knowledge external
     class knowledge_writing external
     class machine-tools_forming external
+    class marine external
     class mathematics_core-mathematics external
     class measurement_precision-metrology external
     class metals external
@@ -137,6 +154,7 @@ graph TD
     class plants_edible-plants external
     class polymers external
     class polymers_rubber_natural external
+    class telecom_pre-electric external
     class textiles external
     class textiles_fibers external
     class transport_roads external

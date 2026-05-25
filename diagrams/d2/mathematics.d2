@@ -85,43 +85,46 @@ classes: {
 }
 
 # ==================== INTERNAL NODES ====================
-water_internal: "Water — Internal Structure" {
-  water_desalination: Desalination
-  water_procurement: Water Procurement
-  water_distribution: Water Distribution
-  water_basic-treatment: Basic Water Treatment
-  water_sewage: "Sewage Collection & Treatment"
+mathematics_internal: "Mathematics & Formal Sciences — Internal Structure" {
+  mathematics_core-mathematics: Core Mathematics
+  mathematics_applied-mathematics: Applied Mathematics
+  mathematics_formal-systems: Formal Systems
 }
 
 # ==================== DOMAIN NODE ====================
-water: Water
+mathematics: "Mathematics & Formal Sciences"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
-chemistry_electrodialysis: Electrodialysis {
+computing_digital-logic: Digital Logic Design {
   shape: rectangle
 }
-energy_electricity: "Electricity Generation & Distribution" {
+computing_mechanical: Mechanical Calculation {
   shape: rectangle
 }
-food-processing: Food Processing {
+foundations: Foundations {
+  shape: rectangle
+}
+knowledge_writing: "Writing & Record-Keeping" {
   shape: rectangle
 }
 
 # ==================== EDGES ====================
-water_desalination -> energy_electricity: { class: material-edge }
-chemistry_electrodialysis -> water_desalination: { class: tool-edge }
-food-processing -> water: { class: material-edge }
+mathematics_applied-mathematics -> mathematics_core-mathematics: { class: tool-edge }
+mathematics_formal-systems -> mathematics_core-mathematics: { class: tool-edge }
+mathematics_core-mathematics -> foundations: { class: tool-edge }
+mathematics -> knowledge_writing: { class: tool-edge }
+computing_mechanical -> mathematics_core-mathematics: { class: tool-edge }
+computing_digital-logic -> mathematics_formal-systems: { class: tool-edge }
 
 # ==================== STYLING ====================
-water.class: domain
-water_desalination.class: capability
-water_procurement.class: capability
-water_distribution.class: capability
-water_basic-treatment.class: capability
-water_sewage.class: capability
-chemistry_electrodialysis.class: external
-energy_electricity.class: external
-food-processing.class: external
+mathematics.class: domain
+mathematics_core-mathematics.class: earlyWin
+mathematics_applied-mathematics.class: capability
+mathematics_formal-systems.class: capability
+computing_digital-logic.class: external
+computing_mechanical.class: external
+foundations.class: external
+knowledge_writing.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

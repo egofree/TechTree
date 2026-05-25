@@ -85,43 +85,28 @@ classes: {
 }
 
 # ==================== INTERNAL NODES ====================
-water_internal: "Water — Internal Structure" {
-  water_desalination: Desalination
-  water_procurement: Water Procurement
-  water_distribution: Water Distribution
-  water_basic-treatment: Basic Water Treatment
-  water_sewage: "Sewage Collection & Treatment"
+ehs_internal: "Environmental Health & Safety — Internal Structure" {
+  ehs_chemical-safety: "Chemical Safety & Toxicology"
+  ehs_ventilation-exhaust: "Ventilation & Exhaust Systems"
+  ehs_ppe: Personal Protective Equipment
+  ehs_emergency-response: Emergency Response
+  ehs_waste-management: Waste Management
 }
 
 # ==================== DOMAIN NODE ====================
-water: Water
+ehs: "Environmental Health & Safety"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
-chemistry_electrodialysis: Electrodialysis {
-  shape: rectangle
-}
-energy_electricity: "Electricity Generation & Distribution" {
-  shape: rectangle
-}
-food-processing: Food Processing {
-  shape: rectangle
-}
 
 # ==================== EDGES ====================
-water_desalination -> energy_electricity: { class: material-edge }
-chemistry_electrodialysis -> water_desalination: { class: tool-edge }
-food-processing -> water: { class: material-edge }
 
 # ==================== STYLING ====================
-water.class: domain
-water_desalination.class: capability
-water_procurement.class: capability
-water_distribution.class: capability
-water_basic-treatment.class: capability
-water_sewage.class: capability
-chemistry_electrodialysis.class: external
-energy_electricity.class: external
-food-processing.class: external
+ehs.class: domain
+ehs_chemical-safety.class: capability
+ehs_ventilation-exhaust.class: capability
+ehs_ppe.class: capability
+ehs_emergency-response.class: capability
+ehs_waste-management.class: capability
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

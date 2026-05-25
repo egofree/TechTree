@@ -124,6 +124,15 @@ chemistry_solvents: Solvent Production {
 energy_steam-power: Steam Power {
   shape: rectangle
 }
+food-processing: Food Processing {
+  shape: rectangle
+}
+food-processing_dairy: Dairy Processing {
+  shape: rectangle
+}
+food-processing_preservation: Food Preservation {
+  shape: rectangle
+}
 foundations: Foundations {
   shape: rectangle
 }
@@ -169,6 +178,9 @@ health_sanitation -> foundations_water-procurement: { class: material-edge }
 health_occupational-health -> chemistry_acids: { class: material-edge }
 health_medical-instruments -> metals_copper-bronze: { class: material-edge }
 health_medical-instruments -> energy_steam-power: { class: tool-edge }
+food-processing -> health_sanitation: { class: tool-edge }
+food-processing_dairy -> health_sanitation: { class: tool-edge }
+food-processing_preservation -> health_sanitation: { class: tool-edge }
 
 # ==================== STYLING ====================
 health.class: domain
@@ -186,6 +198,9 @@ chemistry_distillation.class: external
 chemistry_soap.class: external
 chemistry_solvents.class: external
 energy_steam-power.class: external
+food-processing.class: external
+food-processing_dairy.class: external
+food-processing_preservation.class: external
 foundations.class: external
 foundations_water-procurement.class: external
 knowledge_writing.class: external

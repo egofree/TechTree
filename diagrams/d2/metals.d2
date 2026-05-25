@@ -91,11 +91,15 @@ metals_internal: "Metals — Internal Structure" {
   metals_iron-steel_blast-furnace: Blast Furnace and Cast Iron
   metals_steelmaking: Modern Steelmaking
   metals_aluminum: Aluminum Production
+  metals_aluminum_semiconductor-grade: Semiconductor-Grade Aluminum Production
   metals_non-ferrous: Non-Ferrous Metal Production
   metals_alloys: Specialty Alloys
   metals_forming: Primary Metal Forming
   metals_finishing: "Metal Finishing & Surface Treatment"
   metals_powder-metallurgy: "Powder Metallurgy & Advanced Materials"
+  metals_refractory-specialty: "Refractory & Specialty Metals for Semiconductor Manufacturing"
+  metals_specialty-semiconductor: "Specialty Metals for Semiconductor Interconnects & Barrier Layers"
+  metals_precious-metals: "Precious Metal Production (Gold & Silver)"
 }
 
 # ==================== DOMAIN NODE ====================
@@ -138,7 +142,28 @@ chemistry_refractories: Refractory Materials {
 chemistry_soap: "Soap & Detergent Production" {
   shape: rectangle
 }
+cleanrooms: Clean Room Technology {
+  shape: rectangle
+}
 computing_mechanical: Mechanical Calculation {
+  shape: rectangle
+}
+construction: "Construction & Structural Engineering" {
+  shape: rectangle
+}
+construction_structural-engineering: Structural Engineering {
+  shape: rectangle
+}
+defense: "Defense & Military Engineering" {
+  shape: rectangle
+}
+electrochemistry: "Electrochemistry & Plating" {
+  shape: rectangle
+}
+electrochemistry_anodizing: Anodizing {
+  shape: rectangle
+}
+electronics: Electronics {
   shape: rectangle
 }
 energy: Energy {
@@ -180,6 +205,9 @@ foundations: Foundations {
 foundations_fire: Fire-Making {
   shape: rectangle
 }
+gas-handling_vacuum: Vacuum Technology {
+  shape: rectangle
+}
 health_medical-instruments: Medical Instrument Manufacturing {
   shape: rectangle
 }
@@ -198,6 +226,21 @@ machine-tools_forming: Metal Forming {
 machine-tools_joining: Metal Joining {
   shape: rectangle
 }
+marine: "Marine & Naval Engineering" {
+  shape: rectangle
+}
+marine_infrastructure: "Maritime Infrastructure & Underwater Engineering" {
+  shape: rectangle
+}
+marine_navigation: Marine Navigation {
+  shape: rectangle
+}
+marine_propulsion: Marine Propulsion Systems {
+  shape: rectangle
+}
+marine_shipbuilding: "Hull Construction & Shipbuilding" {
+  shape: rectangle
+}
 measurement: "Measurement & Instrumentation" {
   shape: rectangle
 }
@@ -208,6 +251,30 @@ measurement_temperature-pressure: "Temperature & Pressure Measurement" {
   shape: rectangle
 }
 mining: "Mining Engineering & Extractive Metallurgy" {
+  shape: rectangle
+}
+petroleum: "Petroleum Extraction & Refining" {
+  shape: rectangle
+}
+photolithography_fab-processes: Core Fab Processes {
+  shape: rectangle
+}
+silicon_basic-devices: Basic Semiconductor Devices {
+  shape: rectangle
+}
+telecom: Telecommunications {
+  shape: rectangle
+}
+telecom_electric-telegraph: Electrical Telegraph Networks {
+  shape: rectangle
+}
+telecom_radio: Radio Communication {
+  shape: rectangle
+}
+telecom_submarine-cables: Submarine Cable Systems {
+  shape: rectangle
+}
+telecom_telephone: Telephone Systems {
   shape: rectangle
 }
 textiles_sewing-tailoring: "Sewing & Tailoring" {
@@ -225,6 +292,15 @@ transport_railways: Railways {
 transport_telegraph: Telegraph Communication {
   shape: rectangle
 }
+vacuum: Vacuum Technology {
+  shape: rectangle
+}
+vacuum_chambers: "Vacuum Chambers & Sealing" {
+  shape: rectangle
+}
+vlsi-scaling_advanced-processes: Advanced Processes {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
 metals_iron-steel -> metals_copper-bronze: { class: tool-edge }
@@ -233,12 +309,18 @@ metals_steelmaking -> metals_iron-steel_blast-furnace: { class: tool-edge }
 metals_steelmaking -> metals_iron-steel: { class: material-edge }
 metals_forming -> metals_steelmaking: { class: material-edge }
 metals_alloys -> metals_steelmaking: { class: tool-edge }
+metals_aluminum_semiconductor-grade -> metals_aluminum: { class: tool-edge }
 metals_non-ferrous -> metals_copper-bronze: { class: tool-edge }
 metals_alloys -> metals_non-ferrous: { class: material-edge }
 metals_finishing -> metals_non-ferrous: { class: material-edge }
 metals_alloys -> metals_iron-steel: { class: material-edge }
 metals_forming -> metals_aluminum: { class: material-edge }
 metals_powder-metallurgy -> metals_alloys: { class: material-edge }
+metals_refractory-specialty -> metals: { class: tool-edge }
+metals_specialty-semiconductor -> metals: { class: tool-edge }
+metals_specialty-semiconductor -> metals_refractory-specialty: { class: tool-edge }
+metals_precious-metals -> metals: { class: tool-edge }
+metals_precious-metals -> metals_non-ferrous: { class: tool-edge }
 metals -> foundations: { class: tool-edge }
 metals -> mining: { class: material-edge }
 machine-tools_joining -> metals_iron-steel: { class: material-edge }
@@ -274,6 +356,9 @@ metals_aluminum -> chemistry_alkalis: { class: material-edge }
 metals_aluminum -> energy_electricity: { class: tool-edge }
 metals_aluminum -> mining: { class: material-edge }
 transport_aviation -> metals_aluminum: { class: material-edge }
+metals_aluminum_semiconductor-grade -> energy_electricity: { class: tool-edge }
+silicon_basic-devices -> metals_aluminum_semiconductor-grade: { class: material-edge }
+photolithography_fab-processes -> metals_aluminum_semiconductor-grade: { class: material-edge }
 metals_non-ferrous -> mining: { class: material-edge }
 metals_non-ferrous -> chemistry_acids: { class: material-edge }
 chemistry_soap -> metals_non-ferrous: { class: material-edge }
@@ -292,6 +377,33 @@ metals_alloys -> energy_fuels: { class: tool-edge }
 metals_copper-bronze -> animals_beekeeping: { class: material-edge }
 textiles_sewing-tailoring -> metals_copper-bronze: { class: tool-edge }
 health_medical-instruments -> metals_copper-bronze: { class: material-edge }
+electronics -> metals: { class: material-edge }
+metals_refractory-specialty -> chemistry: { class: material-edge }
+metals_specialty-semiconductor -> chemistry: { class: material-edge }
+metals_specialty-semiconductor -> photolithography_fab-processes: { class: material-edge }
+metals_specialty-semiconductor -> vlsi-scaling_advanced-processes: { class: tool-edge }
+metals_specialty-semiconductor -> gas-handling_vacuum: { class: tool-edge }
+metals_precious-metals -> chemistry: { class: material-edge }
+metals_precious-metals -> mining: { class: material-edge }
+cleanrooms -> metals: { class: material-edge }
+vacuum -> metals: { class: material-edge }
+vacuum_chambers -> metals: { class: material-edge }
+electrochemistry -> metals_finishing: { class: tool-edge }
+electrochemistry_anodizing -> metals_aluminum: { class: material-edge }
+petroleum -> metals: { class: tool-edge }
+defense -> metals: { class: material-edge }
+construction -> metals: { class: material-edge }
+construction_structural-engineering -> metals_iron-steel: { class: material-edge }
+telecom -> metals: { class: material-edge }
+telecom_electric-telegraph -> metals: { class: material-edge }
+telecom_telephone -> metals: { class: material-edge }
+telecom_submarine-cables -> metals: { class: material-edge }
+telecom_radio -> metals: { class: material-edge }
+marine -> metals: { class: material-edge }
+marine_shipbuilding -> metals_iron-steel: { class: material-edge }
+marine_navigation -> metals: { class: material-edge }
+marine_propulsion -> metals_iron-steel: { class: material-edge }
+marine_infrastructure -> metals_iron-steel: { class: material-edge }
 
 # ==================== STYLING ====================
 metals.class: domain
@@ -300,11 +412,15 @@ metals_iron-steel.class: critical
 metals_iron-steel_blast-furnace.class: process
 metals_steelmaking.class: critical
 metals_aluminum.class: capability
+metals_aluminum_semiconductor-grade.class: process
 metals_non-ferrous.class: capability
 metals_alloys.class: capability
 metals_forming.class: capability
 metals_finishing.class: capability
 metals_powder-metallurgy.class: pinnacle
+metals_refractory-specialty.class: capability
+metals_specialty-semiconductor.class: capability
+metals_precious-metals.class: capability
 animals_beekeeping.class: external
 ceramics.class: external
 ceramics_kilns.class: external
@@ -317,7 +433,14 @@ chemistry_electrolysis.class: external
 chemistry_hydrogen-silane.class: external
 chemistry_refractories.class: external
 chemistry_soap.class: external
+cleanrooms.class: external
 computing_mechanical.class: external
+construction.class: external
+construction_structural-engineering.class: external
+defense.class: external
+electrochemistry.class: external
+electrochemistry_anodizing.class: external
+electronics.class: external
 energy.class: external
 energy_cooling.class: external
 energy_electric-furnaces.class: external
@@ -331,21 +454,38 @@ energy_steam-power_steam-turbines.class: external
 energy_storage.class: external
 foundations.class: external
 foundations_fire.class: external
+gas-handling_vacuum.class: external
 health_medical-instruments.class: external
 knowledge_printing.class: external
 machine-tools.class: external
 machine-tools_casting.class: external
 machine-tools_forming.class: external
 machine-tools_joining.class: external
+marine.class: external
+marine_infrastructure.class: external
+marine_navigation.class: external
+marine_propulsion.class: external
+marine_shipbuilding.class: external
 measurement.class: external
 measurement_precision-metrology.class: external
 measurement_temperature-pressure.class: external
 mining.class: external
+petroleum.class: external
+photolithography_fab-processes.class: external
+silicon_basic-devices.class: external
+telecom.class: external
+telecom_electric-telegraph.class: external
+telecom_radio.class: external
+telecom_submarine-cables.class: external
+telecom_telephone.class: external
 textiles_sewing-tailoring.class: external
 transport.class: external
 transport_aviation.class: external
 transport_railways.class: external
 transport_telegraph.class: external
+vacuum.class: external
+vacuum_chambers.class: external
+vlsi-scaling_advanced-processes.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

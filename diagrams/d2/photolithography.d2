@@ -107,6 +107,9 @@ chemistry_dopant-etch-gases: "Dopant & Etch Gases" {
 chemistry_packaging-testing: "Semiconductor Packaging & Testing" {
   shape: rectangle
 }
+cleanrooms: Clean Room Technology {
+  shape: rectangle
+}
 computing_electronic: Electronic Computing {
   shape: rectangle
 }
@@ -119,7 +122,16 @@ gas-handling_vacuum: Vacuum Technology {
 glass_basic: Basic Glass Production {
   shape: rectangle
 }
+glass_photomask-substrates: "Photomask Glass Substrates & ULE Glass" {
+  shape: rectangle
+}
 machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+metals_aluminum_semiconductor-grade: Semiconductor-Grade Aluminum Production {
+  shape: rectangle
+}
+metals_specialty-semiconductor: "Specialty Metals for Semiconductor Interconnects & Barrier Layers" {
   shape: rectangle
 }
 optics: Optics {
@@ -128,7 +140,13 @@ optics: Optics {
 polymers_thermosets: Thermosetting Polymers {
   shape: rectangle
 }
+quality-control: "Quality Control & Statistical Process Control" {
+  shape: rectangle
+}
 silicon: Silicon {
+  shape: rectangle
+}
+vacuum_pumps: Vacuum Pumps {
   shape: rectangle
 }
 vlsi-scaling: "VLSI Scaling & Advanced Semiconductor" {
@@ -141,6 +159,9 @@ vlsi-scaling_advanced-processes: Advanced Processes {
   shape: rectangle
 }
 vlsi-scaling_continuous-scaling: Continuous Scaling {
+  shape: rectangle
+}
+vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
   shape: rectangle
 }
 
@@ -160,9 +181,16 @@ vlsi-scaling -> photolithography: { class: tool-edge }
 vlsi-scaling_continuous-scaling -> photolithography_fab-processes: { class: tool-edge }
 vlsi-scaling_advanced-lithography -> photolithography_resists-masks: { class: tool-edge }
 vlsi-scaling_advanced-processes -> photolithography_fab-processes: { class: tool-edge }
+vlsi-scaling_eda-design -> photolithography_fab-processes: { class: tool-edge }
 chemistry_packaging-testing -> photolithography_fab-processes: { class: material-edge }
+photolithography_fab-processes -> metals_aluminum_semiconductor-grade: { class: material-edge }
 computing_electronic -> photolithography_fab-processes: { class: material-edge }
 photolithography_resists-masks -> glass_basic: { class: material-edge }
+metals_specialty-semiconductor -> photolithography_fab-processes: { class: material-edge }
+glass_photomask-substrates -> photolithography_fab-processes: { class: material-edge }
+photolithography -> cleanrooms: { class: tool-edge }
+photolithography -> quality-control: { class: tool-edge }
+photolithography_fab-processes -> vacuum_pumps: { class: tool-edge }
 
 # ==================== STYLING ====================
 photolithography.class: domain
@@ -173,18 +201,25 @@ ceramics.class: external
 chemistry.class: external
 chemistry_dopant-etch-gases.class: external
 chemistry_packaging-testing.class: external
+cleanrooms.class: external
 computing_electronic.class: external
 gas-handling.class: external
 gas-handling_vacuum.class: external
 glass_basic.class: external
+glass_photomask-substrates.class: external
 machine-tools.class: external
+metals_aluminum_semiconductor-grade.class: external
+metals_specialty-semiconductor.class: external
 optics.class: external
 polymers_thermosets.class: external
+quality-control.class: external
 silicon.class: external
+vacuum_pumps.class: external
 vlsi-scaling.class: external
 vlsi-scaling_advanced-lithography.class: external
 vlsi-scaling_advanced-processes.class: external
 vlsi-scaling_continuous-scaling.class: external
+vlsi-scaling_eda-design.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

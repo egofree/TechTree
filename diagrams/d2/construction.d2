@@ -85,43 +85,69 @@ classes: {
 }
 
 # ==================== INTERNAL NODES ====================
-water_internal: "Water — Internal Structure" {
-  water_desalination: Desalination
-  water_procurement: Water Procurement
-  water_distribution: Water Distribution
-  water_basic-treatment: Basic Water Treatment
-  water_sewage: "Sewage Collection & Treatment"
+construction_internal: "Construction & Structural Engineering — Internal Structure" {
+  construction_building-materials: "Building Materials & Methods"
+  construction_structural-engineering: Structural Engineering
+  construction_industrial-buildings: "Industrial Buildings & Heavy Foundations"
 }
 
 # ==================== DOMAIN NODE ====================
-water: Water
+construction: "Construction & Structural Engineering"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
-chemistry_electrodialysis: Electrodialysis {
+ceramics_lime: Lime Production {
+  shape: rectangle
+}
+chemistry_cement: "Cement & Concrete" {
   shape: rectangle
 }
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
-food-processing: Food Processing {
+foundations: Foundations {
+  shape: rectangle
+}
+foundations_tools-basic: "Stone & Wood Tools" {
+  shape: rectangle
+}
+machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+metals: Metals {
+  shape: rectangle
+}
+metals_iron-steel: "Iron & Steel Production" {
+  shape: rectangle
+}
+textiles_rope-making: Rope and Cordage {
   shape: rectangle
 }
 
 # ==================== EDGES ====================
-water_desalination -> energy_electricity: { class: material-edge }
-chemistry_electrodialysis -> water_desalination: { class: tool-edge }
-food-processing -> water: { class: material-edge }
+construction -> foundations: { class: tool-edge }
+construction -> ceramics_lime: { class: material-edge }
+construction -> chemistry_cement: { class: material-edge }
+construction -> metals: { class: material-edge }
+construction -> textiles_rope-making: { class: material-edge }
+construction -> machine-tools: { class: tool-edge }
+construction_building-materials -> foundations_tools-basic: { class: tool-edge }
+construction_structural-engineering -> metals_iron-steel: { class: material-edge }
+construction_industrial-buildings -> energy_electricity: { class: tool-edge }
 
 # ==================== STYLING ====================
-water.class: domain
-water_desalination.class: capability
-water_procurement.class: capability
-water_distribution.class: capability
-water_basic-treatment.class: capability
-water_sewage.class: capability
-chemistry_electrodialysis.class: external
+construction.class: domain
+construction_building-materials.class: capability
+construction_structural-engineering.class: capability
+construction_industrial-buildings.class: capability
+ceramics_lime.class: external
+chemistry_cement.class: external
 energy_electricity.class: external
-food-processing.class: external
+foundations.class: external
+foundations_tools-basic.class: external
+machine-tools.class: external
+metals.class: external
+metals_iron-steel.class: external
+textiles_rope-making.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

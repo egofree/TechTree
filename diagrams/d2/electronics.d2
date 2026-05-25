@@ -85,16 +85,13 @@ classes: {
 }
 
 # ==================== INTERNAL NODES ====================
-computing_internal: "Computing & Automation — Internal Structure" {
-  computing_mechanical: Mechanical Calculation
-  computing_electromechanical: Electromechanical Computing
-  computing_electronic: Electronic Computing
-  computing_digital-logic: Digital Logic Design
-  computing_data-storage: Data Storage Systems
+electronics_internal: "Electronics — Internal Structure" {
+  electronics_assembly: Electronics Assembly
+  electronics_electrical-systems: Electrical Systems
 }
 
 # ==================== DOMAIN NODE ====================
-computing: "Computing & Automation"
+electronics: Electronics
 
 # ==================== EXTERNAL DEPENDENCIES ====================
 automation: "Automation & Robotics" {
@@ -103,31 +100,31 @@ automation: "Automation & Robotics" {
 automation_equipment-communication: Equipment Communication {
   shape: rectangle
 }
-electronics_assembly: Electronics Assembly {
+chemistry: Chemistry {
+  shape: rectangle
+}
+chemistry_electrolysis: Electrolysis {
+  shape: rectangle
+}
+computing_electronic: Electronic Computing {
   shape: rectangle
 }
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
+glass_fibers: Glass Fiber Production {
+  shape: rectangle
+}
 machine-tools: Machine Tools Bootstrap {
-  shape: rectangle
-}
-mathematics_core-mathematics: Core Mathematics {
-  shape: rectangle
-}
-mathematics_formal-systems: Formal Systems {
   shape: rectangle
 }
 metals: Metals {
   shape: rectangle
 }
-photolithography_fab-processes: Core Fab Processes {
-  shape: rectangle
-}
 polymers_thermoplastics: Thermoplastic Polymers {
   shape: rectangle
 }
-quality-control: "Quality Control & Statistical Process Control" {
+polymers_thermosets: Thermosetting Polymers {
   shape: rectangle
 }
 silicon_basic-devices: Basic Semiconductor Devices {
@@ -138,44 +135,36 @@ vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
 }
 
 # ==================== EDGES ====================
-computing_electromechanical -> computing_mechanical: { class: tool-edge }
-computing_electronic -> computing_electromechanical: { class: tool-edge }
-computing_digital-logic -> computing: { class: tool-edge }
-computing_digital-logic -> computing_electronic: { class: material-edge }
-computing_data-storage -> computing: { class: tool-edge }
-vlsi-scaling_eda-design -> computing: { class: tool-edge }
-computing -> machine-tools: { class: tool-edge }
-computing_mechanical -> machine-tools: { class: tool-edge }
-computing_mechanical -> metals: { class: material-edge }
-computing_electromechanical -> energy_electricity: { class: material-edge }
-computing_electronic -> silicon_basic-devices: { class: material-edge }
-computing_data-storage -> polymers_thermoplastics: { class: material-edge }
-computing_electronic -> photolithography_fab-processes: { class: material-edge }
+electronics -> metals: { class: material-edge }
+electronics -> energy_electricity: { class: tool-edge }
+electronics -> machine-tools: { class: tool-edge }
+electronics -> chemistry: { class: material-edge }
+electronics_assembly -> silicon_basic-devices: { class: material-edge }
+electronics_assembly -> glass_fibers: { class: material-edge }
+electronics_assembly -> polymers_thermosets: { class: material-edge }
+electronics_electrical-systems -> energy_electricity: { class: tool-edge }
+electronics_electrical-systems -> chemistry_electrolysis: { class: material-edge }
+electronics_electrical-systems -> polymers_thermoplastics: { class: material-edge }
 computing_electronic -> electronics_assembly: { class: tool-edge }
-computing_mechanical -> mathematics_core-mathematics: { class: tool-edge }
-computing_digital-logic -> mathematics_formal-systems: { class: tool-edge }
-quality-control -> computing: { class: tool-edge }
-automation -> computing: { class: tool-edge }
-automation_equipment-communication -> computing: { class: tool-edge }
+vlsi-scaling_eda-design -> electronics_assembly: { class: tool-edge }
+automation -> electronics: { class: tool-edge }
+automation_equipment-communication -> electronics: { class: tool-edge }
 
 # ==================== STYLING ====================
-computing.class: domain
-computing_mechanical.class: capability
-computing_electromechanical.class: capability
-computing_electronic.class: capability
-computing_digital-logic.class: capability
-computing_data-storage.class: capability
+electronics.class: domain
+electronics_assembly.class: capability
+electronics_electrical-systems.class: capability
 automation.class: external
 automation_equipment-communication.class: external
-electronics_assembly.class: external
+chemistry.class: external
+chemistry_electrolysis.class: external
+computing_electronic.class: external
 energy_electricity.class: external
+glass_fibers.class: external
 machine-tools.class: external
-mathematics_core-mathematics.class: external
-mathematics_formal-systems.class: external
 metals.class: external
-photolithography_fab-processes.class: external
 polymers_thermoplastics.class: external
-quality-control.class: external
+polymers_thermosets.class: external
 silicon_basic-devices.class: external
 vlsi-scaling_eda-design.class: external
 

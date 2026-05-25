@@ -92,6 +92,8 @@ silicon_internal: "Silicon — Internal Structure" {
   silicon_crystal-growth_cz-pulling: Czochralski Crystal Pulling
   silicon_basic-devices: Basic Semiconductor Devices
   silicon_wafering: "Wafer Slicing & Polishing"
+  silicon_wafering_epitaxy: Epitaxial Layer Growth
+  silicon_wafering_soi: SOI Wafer Production
 }
 
 # ==================== DOMAIN NODE ====================
@@ -113,10 +115,19 @@ chemistry_air-separation: "Air Separation & Bulk Gas Production" {
 chemistry_distillation: Distillation {
   shape: rectangle
 }
+chemistry_dopant-etch-gases: "Dopant & Etch Gases" {
+  shape: rectangle
+}
 chemistry_hydrogen-silane: "Hydrogen & Silane Production" {
   shape: rectangle
 }
 computing_electronic: Electronic Computing {
+  shape: rectangle
+}
+cryogenics_liquefaction-storage: "Gas Liquefaction & Storage" {
+  shape: rectangle
+}
+electronics_assembly: Electronics Assembly {
   shape: rectangle
 }
 energy: Energy {
@@ -149,10 +160,19 @@ measurement_precision-metrology: "Precision Metrology & Standards" {
 measurement_temperature-pressure: "Temperature & Pressure Measurement" {
   shape: rectangle
 }
+metals_aluminum_semiconductor-grade: Semiconductor-Grade Aluminum Production {
+  shape: rectangle
+}
 mining: "Mining Engineering & Extractive Metallurgy" {
   shape: rectangle
 }
 photolithography: "Photolithography & IC Fabrication" {
+  shape: rectangle
+}
+vacuum_pumps: Vacuum Pumps {
+  shape: rectangle
+}
+vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
   shape: rectangle
 }
 
@@ -161,6 +181,8 @@ silicon_basic-devices -> silicon_crystal-growth: { class: material-edge }
 silicon_crystal-growth_cz-pulling -> silicon_crystal-growth: { class: tool-edge }
 silicon_wafering -> silicon: { class: tool-edge }
 silicon_wafering -> silicon_crystal-growth: { class: material-edge }
+silicon_wafering_epitaxy -> silicon_wafering: { class: tool-edge }
+silicon_wafering_soi -> silicon_wafering: { class: tool-edge }
 silicon_basic-devices -> silicon_wafering: { class: material-edge }
 silicon -> machine-tools: { class: tool-edge }
 silicon -> energy: { class: material-edge }
@@ -178,9 +200,15 @@ silicon_crystal-growth -> measurement_precision-metrology: { class: tool-edge }
 silicon_basic-devices -> gas-handling_vacuum: { class: tool-edge }
 silicon_basic-devices -> chemistry_acids: { class: material-edge }
 photolithography -> silicon: { class: material-edge }
+vlsi-scaling_eda-design -> silicon_basic-devices: { class: tool-edge }
 computing_electronic -> silicon_basic-devices: { class: material-edge }
 silicon_crystal-growth_cz-pulling -> measurement_temperature-pressure: { class: tool-edge }
 silicon -> ceramics_advanced-ceramics: { class: tool-edge }
+silicon_basic-devices -> metals_aluminum_semiconductor-grade: { class: material-edge }
+silicon_wafering_epitaxy -> chemistry_dopant-etch-gases: { class: material-edge }
+electronics_assembly -> silicon_basic-devices: { class: material-edge }
+silicon_crystal-growth -> cryogenics_liquefaction-storage: { class: material-edge }
+silicon_basic-devices -> vacuum_pumps: { class: tool-edge }
 
 # ==================== STYLING ====================
 silicon.class: domain
@@ -190,13 +218,18 @@ silicon_crystal-growth.class: capability
 silicon_crystal-growth_cz-pulling.class: process
 silicon_basic-devices.class: capability
 silicon_wafering.class: capability
+silicon_wafering_epitaxy.class: process
+silicon_wafering_soi.class: process
 ceramics_advanced-ceramics.class: external
 chemistry.class: external
 chemistry_acids.class: external
 chemistry_air-separation.class: external
 chemistry_distillation.class: external
+chemistry_dopant-etch-gases.class: external
 chemistry_hydrogen-silane.class: external
 computing_electronic.class: external
+cryogenics_liquefaction-storage.class: external
+electronics_assembly.class: external
 energy.class: external
 energy_electric-furnaces.class: external
 gas-handling.class: external
@@ -207,8 +240,11 @@ glass_advanced.class: external
 machine-tools.class: external
 measurement_precision-metrology.class: external
 measurement_temperature-pressure.class: external
+metals_aluminum_semiconductor-grade.class: external
 mining.class: external
 photolithography.class: external
+vacuum_pumps.class: external
+vlsi-scaling_eda-design.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

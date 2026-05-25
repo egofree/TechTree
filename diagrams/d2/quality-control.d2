@@ -85,23 +85,26 @@ classes: {
 }
 
 # ==================== INTERNAL NODES ====================
-optics_internal: "Optics — Internal Structure" {
-  optics_inspection: Optical Inspection
-  optics_inspection_optical-coatings: Optical Coatings
-  optics_precision-instruments: Precision Optical Instruments
+quality-control_internal: "Quality Control & Statistical Process Control — Internal Structure" {
+  quality-control_spc: Statistical Process Control
+  quality-control_inspection-sampling: "Inspection & Sampling Plans"
+  quality-control_defect-analysis: "Defect Analysis & Yield Modeling"
 }
 
 # ==================== DOMAIN NODE ====================
-optics: Optics
+quality-control: "Quality Control & Statistical Process Control"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
-gas-handling_vacuum: Vacuum Technology {
+automation_process-control: "Process Control & Lot Tracking" {
   shape: rectangle
 }
-machine-tools: Machine Tools Bootstrap {
+computing: "Computing & Automation" {
   shape: rectangle
 }
-measurement_optical-instruments: Optical Measurement Instruments {
+knowledge: "Knowledge Preservation & Education" {
+  shape: rectangle
+}
+measurement: "Measurement & Instrumentation" {
   shape: rectangle
 }
 measurement_precision-metrology: "Precision Metrology & Standards" {
@@ -110,37 +113,36 @@ measurement_precision-metrology: "Precision Metrology & Standards" {
 photolithography: "Photolithography & IC Fabrication" {
   shape: rectangle
 }
-vacuum_pumps: Vacuum Pumps {
-  shape: rectangle
-}
-vlsi-scaling_advanced-lithography: Advanced Lithography {
+vlsi-scaling: "VLSI Scaling & Advanced Semiconductor" {
   shape: rectangle
 }
 
 # ==================== EDGES ====================
-optics_inspection_optical-coatings -> optics_inspection: { class: tool-edge }
-optics_precision-instruments -> optics: { class: tool-edge }
-optics_precision-instruments -> optics_inspection: { class: material-edge }
-optics -> machine-tools: { class: tool-edge }
-photolithography -> optics: { class: tool-edge }
-vlsi-scaling_advanced-lithography -> optics_inspection: { class: tool-edge }
-optics_inspection_optical-coatings -> gas-handling_vacuum: { class: tool-edge }
-measurement_optical-instruments -> optics_inspection: { class: tool-edge }
-measurement_precision-metrology -> optics_precision-instruments: { class: tool-edge }
-optics_inspection_optical-coatings -> vacuum_pumps: { class: tool-edge }
+quality-control_spc -> quality-control: { class: tool-edge }
+quality-control_inspection-sampling -> quality-control: { class: tool-edge }
+quality-control_defect-analysis -> quality-control: { class: tool-edge }
+quality-control_defect-analysis -> quality-control_spc: { class: tool-edge }
+quality-control -> measurement: { class: tool-edge }
+quality-control -> computing: { class: tool-edge }
+quality-control -> knowledge: { class: tool-edge }
+quality-control_spc -> measurement: { class: tool-edge }
+quality-control_inspection-sampling -> measurement_precision-metrology: { class: tool-edge }
+vlsi-scaling -> quality-control: { class: tool-edge }
+photolithography -> quality-control: { class: tool-edge }
+automation_process-control -> quality-control: { class: tool-edge }
 
 # ==================== STYLING ====================
-optics.class: domain
-optics_inspection.class: capability
-optics_inspection_optical-coatings.class: process
-optics_precision-instruments.class: capability
-gas-handling_vacuum.class: external
-machine-tools.class: external
-measurement_optical-instruments.class: external
+quality-control.class: domain
+quality-control_spc.class: capability
+quality-control_inspection-sampling.class: capability
+quality-control_defect-analysis.class: capability
+automation_process-control.class: external
+computing.class: external
+knowledge.class: external
+measurement.class: external
 measurement_precision-metrology.class: external
 photolithography.class: external
-vacuum_pumps.class: external
-vlsi-scaling_advanced-lithography.class: external
+vlsi-scaling.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

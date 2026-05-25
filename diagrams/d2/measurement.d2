@@ -99,7 +99,13 @@ measurement: "Measurement & Instrumentation"
 chemistry: Chemistry {
   shape: rectangle
 }
+cleanrooms: Clean Room Technology {
+  shape: rectangle
+}
 energy_electricity: "Electricity Generation & Distribution" {
+  shape: rectangle
+}
+energy_electricity_power-systems: Electric Power Systems for Semiconductor Fabrication {
   shape: rectangle
 }
 foundations: Foundations {
@@ -123,10 +129,25 @@ optics_inspection: Optical Inspection {
 optics_precision-instruments: Precision Optical Instruments {
   shape: rectangle
 }
+quality-control: "Quality Control & Statistical Process Control" {
+  shape: rectangle
+}
+quality-control_inspection-sampling: "Inspection & Sampling Plans" {
+  shape: rectangle
+}
+quality-control_spc: Statistical Process Control {
+  shape: rectangle
+}
 silicon_crystal-growth: "Crystal Growth & Wafering" {
   shape: rectangle
 }
 silicon_crystal-growth_cz-pulling: Czochralski Crystal Pulling {
+  shape: rectangle
+}
+vacuum: Vacuum Technology {
+  shape: rectangle
+}
+vacuum_measurement: "Vacuum Measurement & Leak Detection" {
   shape: rectangle
 }
 
@@ -139,6 +160,7 @@ measurement -> chemistry: { class: material-edge }
 silicon_crystal-growth -> measurement_precision-metrology: { class: tool-edge }
 measurement_precision-metrology -> foundations: { class: tool-edge }
 measurement_precision-metrology -> metals: { class: tool-edge }
+energy_electricity_power-systems -> measurement: { class: tool-edge }
 silicon_crystal-growth_cz-pulling -> measurement_temperature-pressure: { class: tool-edge }
 measurement_temperature-pressure -> energy_electricity: { class: tool-edge }
 measurement_temperature-pressure -> metals: { class: material-edge }
@@ -146,6 +168,12 @@ measurement -> metals_powder-metallurgy: { class: tool-edge }
 measurement_electrical-instruments -> energy_electricity: { class: tool-edge }
 measurement_optical-instruments -> optics_inspection: { class: tool-edge }
 measurement_precision-metrology -> optics_precision-instruments: { class: tool-edge }
+cleanrooms -> measurement: { class: tool-edge }
+quality-control -> measurement: { class: tool-edge }
+quality-control_spc -> measurement: { class: tool-edge }
+quality-control_inspection-sampling -> measurement_precision-metrology: { class: tool-edge }
+vacuum -> measurement: { class: tool-edge }
+vacuum_measurement -> measurement: { class: tool-edge }
 
 # ==================== STYLING ====================
 measurement.class: domain
@@ -154,7 +182,9 @@ measurement_temperature-pressure.class: capability
 measurement_electrical-instruments.class: capability
 measurement_optical-instruments.class: capability
 chemistry.class: external
+cleanrooms.class: external
 energy_electricity.class: external
+energy_electricity_power-systems.class: external
 foundations.class: external
 machine-tools.class: external
 machine-tools_casting.class: external
@@ -162,8 +192,13 @@ metals.class: external
 metals_powder-metallurgy.class: external
 optics_inspection.class: external
 optics_precision-instruments.class: external
+quality-control.class: external
+quality-control_inspection-sampling.class: external
+quality-control_spc.class: external
 silicon_crystal-growth.class: external
 silicon_crystal-growth_cz-pulling.class: external
+vacuum.class: external
+vacuum_measurement.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

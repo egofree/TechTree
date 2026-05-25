@@ -161,6 +161,12 @@ metals_copper-bronze: "Copper & Bronze Production" {
 metals_non-ferrous: Non-Ferrous Metal Production {
   shape: rectangle
 }
+metals_precious-metals: "Precious Metal Production (Gold & Silver)" {
+  shape: rectangle
+}
+petroleum: "Petroleum Extraction & Refining" {
+  shape: rectangle
+}
 silicon_mg-si-production: Metallurgical-Grade Silicon Production {
   shape: rectangle
 }
@@ -203,6 +209,8 @@ mining_extraction -> animals_draft-power: { class: tool-edge }
 mining_drilling -> energy_steam-power: { class: tool-edge }
 mining_drilling -> machine-tools_machining: { class: tool-edge }
 mining_ventilation -> energy_steam-power: { class: tool-edge }
+metals_precious-metals -> mining: { class: material-edge }
+petroleum -> mining: { class: tool-edge }
 
 # ==================== STYLING ====================
 mining.class: domain
@@ -233,6 +241,8 @@ metals.class: external
 metals_aluminum.class: external
 metals_copper-bronze.class: external
 metals_non-ferrous.class: external
+metals_precious-metals.class: external
+petroleum.class: external
 silicon_mg-si-production.class: external
 transport.class: external
 transport_roads.class: external

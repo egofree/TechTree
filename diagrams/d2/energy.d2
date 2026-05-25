@@ -95,6 +95,7 @@ energy_internal: "Energy — Internal Structure" {
   energy_steam-power: Steam Power
   energy_engine: Heat Engines
   energy_electricity: "Electricity Generation & Distribution"
+  energy_electricity_power-systems: Electric Power Systems for Semiconductor Fabrication
   energy_electric-furnaces: Electric Furnaces
   energy_cooling: "Cooling Systems & Refrigeration"
   energy_storage: "Energy Storage & Diversification"
@@ -156,7 +157,34 @@ chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry" {
 chemistry_water-electrolysis: Water Electrolysis {
   shape: rectangle
 }
+cleanrooms: Clean Room Technology {
+  shape: rectangle
+}
 computing_electromechanical: Electromechanical Computing {
+  shape: rectangle
+}
+construction_industrial-buildings: "Industrial Buildings & Heavy Foundations" {
+  shape: rectangle
+}
+cryogenics: Cryogenics {
+  shape: rectangle
+}
+electrochemistry: "Electrochemistry & Plating" {
+  shape: rectangle
+}
+electronics: Electronics {
+  shape: rectangle
+}
+electronics_electrical-systems: Electrical Systems {
+  shape: rectangle
+}
+food-processing: Food Processing {
+  shape: rectangle
+}
+food-processing_brewing: "Brewing & Distilling" {
+  shape: rectangle
+}
+food-processing_milling: Grain Milling {
   shape: rectangle
 }
 foundations: Foundations {
@@ -180,13 +208,46 @@ health_medical-instruments: Medical Instrument Manufacturing {
 machine-tools: Machine Tools Bootstrap {
   shape: rectangle
 }
+machine-tools_edm-cnc: "EDM, CNC & Precision Grinding" {
+  shape: rectangle
+}
 machine-tools_forming: Metal Forming {
   shape: rectangle
 }
 machine-tools_joining: Metal Joining {
   shape: rectangle
 }
+machine-tools_joining_diffusion-bonding: Diffusion Bonding {
+  shape: rectangle
+}
+machine-tools_joining_electron-beam: Electron Beam Welding {
+  shape: rectangle
+}
+machine-tools_joining_laser-welding: Laser Welding {
+  shape: rectangle
+}
+machine-tools_joining_mig-welding: "MIG Welding (GMAW)" {
+  shape: rectangle
+}
+machine-tools_joining_resistance-welding: "Resistance Welding (Spot & Seam)" {
+  shape: rectangle
+}
+machine-tools_joining_tig-welding: "TIG Welding (GTAW)" {
+  shape: rectangle
+}
+machine-tools_joining_ultrasonic-bonding: "Ultrasonic Welding & Wire Bonding" {
+  shape: rectangle
+}
 machine-tools_machining: Machining {
+  shape: rectangle
+}
+marine: "Marine & Naval Engineering" {
+  shape: rectangle
+}
+marine_propulsion: Marine Propulsion Systems {
+  shape: rectangle
+}
+measurement: "Measurement & Instrumentation" {
   shape: rectangle
 }
 measurement_electrical-instruments: Electrical Measurement Instruments {
@@ -202,6 +263,9 @@ metals_alloys: Specialty Alloys {
   shape: rectangle
 }
 metals_aluminum: Aluminum Production {
+  shape: rectangle
+}
+metals_aluminum_semiconductor-grade: Semiconductor-Grade Aluminum Production {
   shape: rectangle
 }
 metals_forming: Primary Metal Forming {
@@ -231,6 +295,12 @@ mining_processing: Ore Processing {
 mining_ventilation: Mine Ventilation {
   shape: rectangle
 }
+petroleum_extraction_cable-tool: Cable-Tool Drilling {
+  shape: rectangle
+}
+petroleum_refining: Petroleum Refining {
+  shape: rectangle
+}
 plants: "Plants & Botanical Resources" {
   shape: rectangle
 }
@@ -241,6 +311,18 @@ silicon: Silicon {
   shape: rectangle
 }
 silicon_mg-si-production: Metallurgical-Grade Silicon Production {
+  shape: rectangle
+}
+telecom: Telecommunications {
+  shape: rectangle
+}
+telecom_electric-telegraph: Electrical Telegraph Networks {
+  shape: rectangle
+}
+telecom_radio: Radio Communication {
+  shape: rectangle
+}
+telecom_telephone: Telephone Systems {
   shape: rectangle
 }
 textiles: "Textiles, Fiber & Cordage" {
@@ -258,6 +340,9 @@ transport_railways: Railways {
 transport_telegraph: Telegraph Communication {
   shape: rectangle
 }
+vacuum: Vacuum Technology {
+  shape: rectangle
+}
 water_desalination: Desalination {
   shape: rectangle
 }
@@ -268,6 +353,9 @@ energy_storage -> energy: { class: tool-edge }
 energy_fuels_charcoal -> energy_fuels: { class: tool-edge }
 energy_fuels_coal -> energy_fuels: { class: tool-edge }
 energy_fuels_coke -> energy_fuels: { class: tool-edge }
+energy_electricity_power-systems -> energy_electricity: { class: tool-edge }
+energy_electricity_power-systems -> energy_storage: { class: tool-edge }
+energy_electricity_power-systems -> energy_engine: { class: tool-edge }
 energy_engine -> energy_fuels: { class: material-edge }
 energy_steam-power_steam-turbines -> energy_steam-power: { class: tool-edge }
 energy_gravity_water-turbines -> energy_gravity: { class: tool-edge }
@@ -306,9 +394,11 @@ energy_fuels_charcoal -> foundations: { class: tool-edge }
 ceramics_pottery_kiln-firing -> energy_fuels_charcoal: { class: material-edge }
 energy_fuels -> foundations_fire: { class: tool-edge }
 machine-tools_forming -> energy_fuels: { class: material-edge }
+machine-tools_edm-cnc -> energy_electricity: { class: tool-edge }
 computing_electromechanical -> energy_electricity: { class: material-edge }
 mining_processing -> energy_fuels: { class: tool-edge }
 energy_storage -> polymers_rubber: { class: material-edge }
+energy_electricity_power-systems -> measurement: { class: tool-edge }
 transport_railways -> energy_steam-power: { class: tool-edge }
 measurement_temperature-pressure -> energy_electricity: { class: tool-edge }
 energy_engine -> metals: { class: tool-edge }
@@ -328,6 +418,7 @@ plants -> energy_fuels: { class: material-edge }
 chemistry_ammonia -> energy: { class: material-edge }
 metals_steelmaking -> energy_fuels: { class: material-edge }
 metals_aluminum -> energy_electricity: { class: tool-edge }
+metals_aluminum_semiconductor-grade -> energy_electricity: { class: tool-edge }
 energy_steam-power_steam-turbines -> metals_alloys: { class: material-edge }
 energy_steam-power -> metals_forming: { class: material-edge }
 metals_powder-metallurgy -> energy_electric-furnaces: { class: tool-edge }
@@ -347,6 +438,32 @@ chemistry_lithium-separation -> energy_electricity: { class: material-edge }
 chemistry_acid-regeneration -> energy_electricity: { class: material-edge }
 chemistry_water-electrolysis -> energy_fuel-cell: { class: material-edge }
 chemistry_electrodialysis -> energy_blue-energy: { class: tool-edge }
+electronics -> energy_electricity: { class: tool-edge }
+electronics_electrical-systems -> energy_electricity: { class: tool-edge }
+cleanrooms -> energy: { class: tool-edge }
+cryogenics -> energy_electricity: { class: tool-edge }
+vacuum -> energy_electricity: { class: tool-edge }
+electrochemistry -> energy_electricity: { class: tool-edge }
+petroleum_extraction_cable-tool -> energy_steam-power: { class: tool-edge }
+energy_engine -> petroleum_refining: { class: material-edge }
+construction_industrial-buildings -> energy_electricity: { class: tool-edge }
+food-processing -> energy: { class: tool-edge }
+food-processing_milling -> energy: { class: tool-edge }
+food-processing_brewing -> energy: { class: tool-edge }
+telecom -> energy_electricity: { class: tool-edge }
+telecom_electric-telegraph -> energy_electricity: { class: tool-edge }
+telecom_telephone -> energy_electricity: { class: tool-edge }
+telecom_radio -> energy_electricity: { class: tool-edge }
+marine -> energy: { class: tool-edge }
+marine_propulsion -> energy_steam-power: { class: tool-edge }
+marine_propulsion -> energy_engine: { class: tool-edge }
+machine-tools_joining_tig-welding -> energy_electricity: { class: tool-edge }
+machine-tools_joining_mig-welding -> energy_electricity: { class: tool-edge }
+machine-tools_joining_resistance-welding -> energy_electricity: { class: material-edge }
+machine-tools_joining_electron-beam -> energy_electricity: { class: tool-edge }
+machine-tools_joining_ultrasonic-bonding -> energy_electricity: { class: tool-edge }
+machine-tools_joining_laser-welding -> energy_electricity: { class: tool-edge }
+machine-tools_joining_diffusion-bonding -> energy_electric-furnaces: { class: tool-edge }
 
 # ==================== STYLING ====================
 energy.class: domain
@@ -359,6 +476,7 @@ energy_fuels_coke.class: process
 energy_steam-power.class: capability
 energy_engine.class: critical
 energy_electricity.class: capability
+energy_electricity_power-systems.class: critical
 energy_electric-furnaces.class: capability
 energy_cooling.class: capability
 energy_storage.class: capability
@@ -384,7 +502,16 @@ chemistry_lithium-separation.class: external
 chemistry_lubricants.class: external
 chemistry_petroleum-alternatives.class: external
 chemistry_water-electrolysis.class: external
+cleanrooms.class: external
 computing_electromechanical.class: external
+construction_industrial-buildings.class: external
+cryogenics.class: external
+electrochemistry.class: external
+electronics.class: external
+electronics_electrical-systems.class: external
+food-processing.class: external
+food-processing_brewing.class: external
+food-processing_milling.class: external
 foundations.class: external
 foundations_fire.class: external
 gas-handling.class: external
@@ -392,14 +519,26 @@ glass.class: external
 glass_advanced_glassblowing.class: external
 health_medical-instruments.class: external
 machine-tools.class: external
+machine-tools_edm-cnc.class: external
 machine-tools_forming.class: external
 machine-tools_joining.class: external
+machine-tools_joining_diffusion-bonding.class: external
+machine-tools_joining_electron-beam.class: external
+machine-tools_joining_laser-welding.class: external
+machine-tools_joining_mig-welding.class: external
+machine-tools_joining_resistance-welding.class: external
+machine-tools_joining_tig-welding.class: external
+machine-tools_joining_ultrasonic-bonding.class: external
 machine-tools_machining.class: external
+marine.class: external
+marine_propulsion.class: external
+measurement.class: external
 measurement_electrical-instruments.class: external
 measurement_temperature-pressure.class: external
 metals.class: external
 metals_alloys.class: external
 metals_aluminum.class: external
+metals_aluminum_semiconductor-grade.class: external
 metals_forming.class: external
 metals_iron-steel.class: external
 metals_iron-steel_blast-furnace.class: external
@@ -409,15 +548,22 @@ mining.class: external
 mining_drilling.class: external
 mining_processing.class: external
 mining_ventilation.class: external
+petroleum_extraction_cable-tool.class: external
+petroleum_refining.class: external
 plants.class: external
 polymers_rubber.class: external
 silicon.class: external
 silicon_mg-si-production.class: external
+telecom.class: external
+telecom_electric-telegraph.class: external
+telecom_radio.class: external
+telecom_telephone.class: external
 textiles.class: external
 transport.class: external
 transport_aviation.class: external
 transport_railways.class: external
 transport_telegraph.class: external
+vacuum.class: external
 water_desalination.class: external
 
 # ==================== LEGEND ====================

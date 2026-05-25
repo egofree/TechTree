@@ -85,43 +85,51 @@ classes: {
 }
 
 # ==================== INTERNAL NODES ====================
-water_internal: "Water — Internal Structure" {
-  water_desalination: Desalination
-  water_procurement: Water Procurement
-  water_distribution: Water Distribution
-  water_basic-treatment: Basic Water Treatment
-  water_sewage: "Sewage Collection & Treatment"
+defense_internal: "Defense & Military Engineering — Internal Structure" {
+  defense_weapons: "Weapons & edged tools"
+  defense_fortifications: Fortification Engineering
+  defense_armor: "Armor & Protective Systems"
+  defense_siege-warfare: "Siege Engineering & Military Logistics"
 }
 
 # ==================== DOMAIN NODE ====================
-water: Water
+defense: "Defense & Military Engineering"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
-chemistry_electrodialysis: Electrodialysis {
+chemistry_explosives: Explosives and Propellants {
   shape: rectangle
 }
-energy_electricity: "Electricity Generation & Distribution" {
+foundations: Foundations {
   shape: rectangle
 }
-food-processing: Food Processing {
+knowledge: "Knowledge Preservation & Education" {
+  shape: rectangle
+}
+metals: Metals {
+  shape: rectangle
+}
+transport: "Transportation & Logistics" {
   shape: rectangle
 }
 
 # ==================== EDGES ====================
-water_desalination -> energy_electricity: { class: material-edge }
-chemistry_electrodialysis -> water_desalination: { class: tool-edge }
-food-processing -> water: { class: material-edge }
+defense -> metals: { class: material-edge }
+defense -> foundations: { class: tool-edge }
+defense -> chemistry_explosives: { class: material-edge }
+defense -> transport: { class: tool-edge }
+defense -> knowledge: { class: tool-edge }
 
 # ==================== STYLING ====================
-water.class: domain
-water_desalination.class: capability
-water_procurement.class: capability
-water_distribution.class: capability
-water_basic-treatment.class: capability
-water_sewage.class: capability
-chemistry_electrodialysis.class: external
-energy_electricity.class: external
-food-processing.class: external
+defense.class: domain
+defense_weapons.class: capability
+defense_fortifications.class: capability
+defense_armor.class: capability
+defense_siege-warfare.class: capability
+chemistry_explosives.class: external
+foundations.class: external
+knowledge.class: external
+metals.class: external
+transport.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

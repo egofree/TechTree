@@ -109,6 +109,9 @@ chemistry_coatings: "Paints, Coatings & Inks" {
 chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry" {
   shape: rectangle
 }
+defense: "Defense & Military Engineering" {
+  shape: rectangle
+}
 energy: Energy {
   shape: rectangle
 }
@@ -130,6 +133,12 @@ foundations_tools-basic: "Stone & Wood Tools" {
 machine-tools: Machine Tools Bootstrap {
   shape: rectangle
 }
+marine: "Marine & Naval Engineering" {
+  shape: rectangle
+}
+marine_shipbuilding: "Hull Construction & Shipbuilding" {
+  shape: rectangle
+}
 metals: Metals {
   shape: rectangle
 }
@@ -146,6 +155,15 @@ mining: "Mining Engineering & Extractive Metallurgy" {
   shape: rectangle
 }
 mining_extraction: Mining Extraction {
+  shape: rectangle
+}
+telecom: Telecommunications {
+  shape: rectangle
+}
+telecom_electric-telegraph: Electrical Telegraph Networks {
+  shape: rectangle
+}
+telecom_submarine-cables: Submarine Cable Systems {
   shape: rectangle
 }
 textiles: "Textiles, Fiber & Cordage" {
@@ -176,6 +194,12 @@ transport -> chemistry_coatings: { class: material-edge }
 transport_aviation -> metals_aluminum: { class: material-edge }
 transport_railways -> metals_forming: { class: material-edge }
 transport_roads -> animals_draft-power: { class: tool-edge }
+defense -> transport: { class: tool-edge }
+telecom -> transport_telegraph: { class: tool-edge }
+telecom_electric-telegraph -> transport_telegraph: { class: tool-edge }
+telecom_submarine-cables -> transport_shipping: { class: tool-edge }
+marine -> transport_shipping: { class: tool-edge }
+marine_shipbuilding -> transport_shipping: { class: tool-edge }
 
 # ==================== STYLING ====================
 transport.class: domain
@@ -188,6 +212,7 @@ animals_draft-power.class: external
 chemistry_acids.class: external
 chemistry_coatings.class: external
 chemistry_petroleum-alternatives.class: external
+defense.class: external
 energy.class: external
 energy_electricity.class: external
 energy_engine.class: external
@@ -195,12 +220,17 @@ energy_fuels.class: external
 energy_steam-power.class: external
 foundations_tools-basic.class: external
 machine-tools.class: external
+marine.class: external
+marine_shipbuilding.class: external
 metals.class: external
 metals_aluminum.class: external
 metals_forming.class: external
 metals_iron-steel.class: external
 mining.class: external
 mining_extraction.class: external
+telecom.class: external
+telecom_electric-telegraph.class: external
+telecom_submarine-cables.class: external
 textiles.class: external
 
 # ==================== LEGEND ====================

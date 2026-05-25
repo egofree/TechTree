@@ -89,6 +89,7 @@ polymers_internal: "Polymers & Composites — Internal Structure" {
   polymers_rubber: Rubber Production
   polymers_rubber_natural: "Natural Rubber & Vulcanization"
   polymers_rubber_synthetic: Synthetic Rubbers
+  polymers_rubber_vulcanization: "Vulcanization & Hardness"
   polymers_thermosets: Thermosetting Polymers
   polymers_thermoplastics: Thermoplastic Polymers
   polymers_composites: Composite Materials
@@ -115,6 +116,12 @@ chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry" {
 computing_data-storage: Data Storage Systems {
   shape: rectangle
 }
+electronics_assembly: Electronics Assembly {
+  shape: rectangle
+}
+electronics_electrical-systems: Electrical Systems {
+  shape: rectangle
+}
 energy_storage: "Energy Storage & Diversification" {
   shape: rectangle
 }
@@ -130,7 +137,16 @@ health: "Public Health, Sanitation & Medicine" {
 machine-tools: Machine Tools Bootstrap {
   shape: rectangle
 }
+marine_infrastructure: "Maritime Infrastructure & Underwater Engineering" {
+  shape: rectangle
+}
 photolithography_resists-masks: "Photoresists, Masks & Lithography" {
+  shape: rectangle
+}
+telecom: Telecommunications {
+  shape: rectangle
+}
+telecom_submarine-cables: Submarine Cable Systems {
   shape: rectangle
 }
 
@@ -157,12 +173,18 @@ energy_storage -> polymers_rubber: { class: material-edge }
 polymers_rubber_shellac -> chemistry_distillation: { class: material-edge }
 polymers_composites -> glass_fibers: { class: material-edge }
 computing_data-storage -> polymers_thermoplastics: { class: material-edge }
+electronics_assembly -> polymers_thermosets: { class: material-edge }
+electronics_electrical-systems -> polymers_thermoplastics: { class: material-edge }
+telecom -> polymers_rubber_gutta-percha: { class: material-edge }
+telecom_submarine-cables -> polymers_rubber_gutta-percha: { class: material-edge }
+marine_infrastructure -> polymers_rubber_gutta-percha: { class: material-edge }
 
 # ==================== STYLING ====================
 polymers.class: domain
 polymers_rubber.class: capability
 polymers_rubber_natural.class: process
 polymers_rubber_synthetic.class: process
+polymers_rubber_vulcanization.class: process
 polymers_thermosets.class: capability
 polymers_thermoplastics.class: capability
 polymers_composites.class: capability
@@ -173,12 +195,17 @@ chemistry_distillation.class: external
 chemistry_packaging-testing.class: external
 chemistry_petroleum-alternatives.class: external
 computing_data-storage.class: external
+electronics_assembly.class: external
+electronics_electrical-systems.class: external
 energy_storage.class: external
 foundations.class: external
 glass_fibers.class: external
 health.class: external
 machine-tools.class: external
+marine_infrastructure.class: external
 photolithography_resists-masks.class: external
+telecom.class: external
+telecom_submarine-cables.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

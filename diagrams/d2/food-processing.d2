@@ -85,43 +85,62 @@ classes: {
 }
 
 # ==================== INTERNAL NODES ====================
-water_internal: "Water — Internal Structure" {
-  water_desalination: Desalination
-  water_procurement: Water Procurement
-  water_distribution: Water Distribution
-  water_basic-treatment: Basic Water Treatment
-  water_sewage: "Sewage Collection & Treatment"
+food-processing_internal: "Food Processing — Internal Structure" {
+  food-processing_milling: Grain Milling
+  food-processing_preservation: Food Preservation
+  food-processing_dairy: Dairy Processing
+  food-processing_brewing: "Brewing & Distilling"
 }
 
 # ==================== DOMAIN NODE ====================
-water: Water
+food-processing: Food Processing
 
 # ==================== EXTERNAL DEPENDENCIES ====================
-chemistry_electrodialysis: Electrodialysis {
+ceramics: "Ceramics & Refractories" {
   shape: rectangle
 }
-energy_electricity: "Electricity Generation & Distribution" {
+chemistry_petroleum-alternatives_fermentation: Fermentation Chemistry {
   shape: rectangle
 }
-food-processing: Food Processing {
+energy: Energy {
+  shape: rectangle
+}
+foundations_food-agriculture: "Agriculture & Food Production" {
+  shape: rectangle
+}
+health_sanitation: "Water Supply & Sanitation" {
+  shape: rectangle
+}
+water: Water {
   shape: rectangle
 }
 
 # ==================== EDGES ====================
-water_desalination -> energy_electricity: { class: material-edge }
-chemistry_electrodialysis -> water_desalination: { class: tool-edge }
+food-processing -> foundations_food-agriculture: { class: material-edge }
+food-processing -> energy: { class: tool-edge }
+food-processing -> health_sanitation: { class: tool-edge }
 food-processing -> water: { class: material-edge }
+food-processing_milling -> energy: { class: tool-edge }
+food-processing_preservation -> ceramics: { class: material-edge }
+food-processing_preservation -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
+food-processing_brewing -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
+food-processing_brewing -> energy: { class: tool-edge }
+food-processing_dairy -> ceramics: { class: material-edge }
+food-processing_dairy -> health_sanitation: { class: tool-edge }
+food-processing_preservation -> health_sanitation: { class: tool-edge }
 
 # ==================== STYLING ====================
-water.class: domain
-water_desalination.class: capability
-water_procurement.class: capability
-water_distribution.class: capability
-water_basic-treatment.class: capability
-water_sewage.class: capability
-chemistry_electrodialysis.class: external
-energy_electricity.class: external
-food-processing.class: external
+food-processing.class: domain
+food-processing_milling.class: earlyWin
+food-processing_preservation.class: capability
+food-processing_dairy.class: capability
+food-processing_brewing.class: capability
+ceramics.class: external
+chemistry_petroleum-alternatives_fermentation.class: external
+energy.class: external
+foundations_food-agriculture.class: external
+health_sanitation.class: external
+water.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

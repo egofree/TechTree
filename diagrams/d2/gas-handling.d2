@@ -103,10 +103,16 @@ chemistry_air-separation: "Air Separation & Bulk Gas Production" {
 chemistry_hydrogen-silane: "Hydrogen & Silane Production" {
   shape: rectangle
 }
+cryogenics: Cryogenics {
+  shape: rectangle
+}
 energy: Energy {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+metals_specialty-semiconductor: "Specialty Metals for Semiconductor Interconnects & Barrier Layers" {
   shape: rectangle
 }
 optics_inspection_optical-coatings: Optical Coatings {
@@ -127,6 +133,9 @@ silicon_basic-devices: Basic Semiconductor Devices {
 silicon_purification: Silicon Purification {
   shape: rectangle
 }
+vacuum: Vacuum Technology {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
 gas-handling -> machine-tools: { class: tool-edge }
@@ -140,6 +149,9 @@ photolithography_fab-processes -> gas-handling_vacuum: { class: tool-edge }
 chemistry_air-separation -> gas-handling_basic: { class: tool-edge }
 chemistry_hydrogen-silane -> gas-handling_basic: { class: tool-edge }
 optics_inspection_optical-coatings -> gas-handling_vacuum: { class: tool-edge }
+metals_specialty-semiconductor -> gas-handling_vacuum: { class: tool-edge }
+cryogenics -> gas-handling: { class: tool-edge }
+vacuum -> gas-handling: { class: tool-edge }
 
 # ==================== STYLING ====================
 gas-handling.class: domain
@@ -148,14 +160,17 @@ gas-handling_basic.class: capability
 chemistry.class: external
 chemistry_air-separation.class: external
 chemistry_hydrogen-silane.class: external
+cryogenics.class: external
 energy.class: external
 machine-tools.class: external
+metals_specialty-semiconductor.class: external
 optics_inspection_optical-coatings.class: external
 photolithography.class: external
 photolithography_fab-processes.class: external
 silicon.class: external
 silicon_basic-devices.class: external
 silicon_purification.class: external
+vacuum.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

@@ -92,6 +92,15 @@ machine-tools_internal: "Machine Tools Bootstrap — Internal Structure" {
   machine-tools_forming: Metal Forming
   machine-tools_machining: Machining
   machine-tools_joining: Metal Joining
+  machine-tools_joining_tig-welding: "TIG Welding (GTAW)"
+  machine-tools_joining_mig-welding: "MIG Welding (GMAW)"
+  machine-tools_joining_resistance-welding: "Resistance Welding (Spot & Seam)"
+  machine-tools_joining_electron-beam: Electron Beam Welding
+  machine-tools_joining_ultrasonic-bonding: "Ultrasonic Welding & Wire Bonding"
+  machine-tools_joining_friction-stir: Friction Stir Welding
+  machine-tools_joining_laser-welding: Laser Welding
+  machine-tools_joining_diffusion-bonding: Diffusion Bonding
+  machine-tools_edm-cnc: "EDM, CNC & Precision Grinding"
 }
 
 # ==================== DOMAIN NODE ====================
@@ -101,7 +110,13 @@ machine-tools: Machine Tools Bootstrap
 animals_animal-materials: Animal-Derived Materials Processing {
   shape: rectangle
 }
+automation_wafer-handling: Wafer Handling Robots {
+  shape: rectangle
+}
 chemistry: Chemistry {
+  shape: rectangle
+}
+chemistry_air-separation: "Air Separation & Bulk Gas Production" {
   shape: rectangle
 }
 chemistry_lubricants: "Lubricants, Oils & Fluid Mechanics" {
@@ -114,6 +129,12 @@ computing: "Computing & Automation" {
   shape: rectangle
 }
 computing_mechanical: Mechanical Calculation {
+  shape: rectangle
+}
+construction: "Construction & Structural Engineering" {
+  shape: rectangle
+}
+electronics: Electronics {
   shape: rectangle
 }
 energy_cooling: "Cooling Systems & Refrigeration" {
@@ -147,6 +168,12 @@ glass: Glass {
   shape: rectangle
 }
 knowledge_printing: Paper and Printing Press {
+  shape: rectangle
+}
+marine_infrastructure: "Maritime Infrastructure & Underwater Engineering" {
+  shape: rectangle
+}
+marine_shipbuilding: "Hull Construction & Shipbuilding" {
   shape: rectangle
 }
 measurement: "Measurement & Instrumentation" {
@@ -200,12 +227,31 @@ transport: "Transportation & Logistics" {
 transport_aviation: Aviation {
   shape: rectangle
 }
+vacuum: Vacuum Technology {
+  shape: rectangle
+}
+vacuum_chambers: "Vacuum Chambers & Sealing" {
+  shape: rectangle
+}
+vacuum_pumps: Vacuum Pumps {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
 machine-tools_iterative-bootstrap -> machine-tools_casting: { class: tool-edge }
 machine-tools_bearings-abrasives -> machine-tools_iterative-bootstrap: { class: tool-edge }
 machine-tools_machining -> machine-tools_iterative-bootstrap: { class: tool-edge }
 machine-tools_machining -> machine-tools_bearings-abrasives: { class: tool-edge }
+machine-tools_edm-cnc -> machine-tools_machining: { class: tool-edge }
+machine-tools_joining_tig-welding -> machine-tools_joining: { class: tool-edge }
+machine-tools_joining_mig-welding -> machine-tools_joining: { class: tool-edge }
+machine-tools_joining_resistance-welding -> machine-tools_joining: { class: tool-edge }
+machine-tools_joining_electron-beam -> machine-tools_joining: { class: tool-edge }
+machine-tools_joining_ultrasonic-bonding -> machine-tools_joining: { class: tool-edge }
+machine-tools_joining_friction-stir -> machine-tools_joining: { class: tool-edge }
+machine-tools_joining_friction-stir -> machine-tools_machining: { class: tool-edge }
+machine-tools_joining_laser-welding -> machine-tools_joining: { class: tool-edge }
+machine-tools_joining_diffusion-bonding -> machine-tools_joining: { class: tool-edge }
 machine-tools_joining -> metals_iron-steel: { class: material-edge }
 machine-tools -> metals: { class: tool-edge }
 machine-tools -> textiles: { class: tool-edge }
@@ -235,6 +281,7 @@ polymers_composites -> machine-tools: { class: tool-edge }
 machine-tools_forming -> foundations_fire: { class: tool-edge }
 machine-tools_forming -> metals_iron-steel: { class: material-edge }
 machine-tools_forming -> energy_fuels: { class: material-edge }
+machine-tools_edm-cnc -> energy_electricity: { class: tool-edge }
 computing_mechanical -> machine-tools: { class: tool-edge }
 energy_steam-power_steam-turbines -> machine-tools_machining: { class: tool-edge }
 energy_gravity_water-turbines -> machine-tools_machining: { class: tool-edge }
@@ -244,6 +291,25 @@ metals_forming -> machine-tools: { class: tool-edge }
 machine-tools_forming -> animals_animal-materials: { class: material-edge }
 machine-tools_iterative-bootstrap -> animals_animal-materials: { class: material-edge }
 mining_drilling -> machine-tools_machining: { class: tool-edge }
+electronics -> machine-tools: { class: tool-edge }
+vacuum_pumps -> machine-tools: { class: tool-edge }
+vacuum_chambers -> machine-tools: { class: tool-edge }
+automation_wafer-handling -> machine-tools: { class: tool-edge }
+construction -> machine-tools: { class: tool-edge }
+marine_shipbuilding -> machine-tools: { class: tool-edge }
+marine_infrastructure -> machine-tools: { class: tool-edge }
+machine-tools_joining_tig-welding -> energy_electricity: { class: tool-edge }
+machine-tools_joining_tig-welding -> chemistry_air-separation: { class: material-edge }
+machine-tools_joining_mig-welding -> energy_electricity: { class: tool-edge }
+machine-tools_joining_resistance-welding -> energy_electricity: { class: material-edge }
+machine-tools_joining_electron-beam -> vacuum: { class: tool-edge }
+machine-tools_joining_electron-beam -> energy_electricity: { class: tool-edge }
+machine-tools_joining_ultrasonic-bonding -> energy_electricity: { class: tool-edge }
+machine-tools_joining_laser-welding -> energy_electricity: { class: tool-edge }
+machine-tools_joining_diffusion-bonding -> energy_electric-furnaces: { class: tool-edge }
+vacuum_chambers -> machine-tools_joining_tig-welding: { class: tool-edge }
+vacuum_chambers -> machine-tools_joining_electron-beam: { class: tool-edge }
+chemistry_packaging-testing -> machine-tools_joining_ultrasonic-bonding: { class: tool-edge }
 
 # ==================== STYLING ====================
 machine-tools.class: domain
@@ -253,12 +319,25 @@ machine-tools_bearings-abrasives.class: capability
 machine-tools_forming.class: capability
 machine-tools_machining.class: capability
 machine-tools_joining.class: capability
+machine-tools_joining_tig-welding.class: process
+machine-tools_joining_mig-welding.class: process
+machine-tools_joining_resistance-welding.class: process
+machine-tools_joining_electron-beam.class: process
+machine-tools_joining_ultrasonic-bonding.class: process
+machine-tools_joining_friction-stir.class: process
+machine-tools_joining_laser-welding.class: process
+machine-tools_joining_diffusion-bonding.class: process
+machine-tools_edm-cnc.class: capability
 animals_animal-materials.class: external
+automation_wafer-handling.class: external
 chemistry.class: external
+chemistry_air-separation.class: external
 chemistry_lubricants.class: external
 chemistry_packaging-testing.class: external
 computing.class: external
 computing_mechanical.class: external
+construction.class: external
+electronics.class: external
 energy_cooling.class: external
 energy_electric-furnaces.class: external
 energy_electricity.class: external
@@ -270,6 +349,8 @@ foundations_fire.class: external
 gas-handling.class: external
 glass.class: external
 knowledge_printing.class: external
+marine_infrastructure.class: external
+marine_shipbuilding.class: external
 measurement.class: external
 measurement_precision-metrology.class: external
 metals.class: external
@@ -287,6 +368,9 @@ silicon.class: external
 textiles.class: external
 transport.class: external
 transport_aviation.class: external
+vacuum.class: external
+vacuum_chambers.class: external
+vacuum_pumps.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

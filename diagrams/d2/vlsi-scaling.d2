@@ -86,17 +86,26 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 vlsi-scaling_internal: "VLSI Scaling & Advanced Semiconductor — Internal Structure" {
-  vlsi-scaling_continuous-scaling: Continuous Scaling
   vlsi-scaling_advanced-lithography: Advanced Lithography
   vlsi-scaling_advanced-processes: Advanced Processes
   vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging"
+  vlsi-scaling_continuous-scaling: Continuous Scaling
 }
 
 # ==================== DOMAIN NODE ====================
 vlsi-scaling: "VLSI Scaling & Advanced Semiconductor"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+chemistry_dopant-etch-gases: "Dopant & Etch Gases" {
+  shape: rectangle
+}
 computing: "Computing & Automation" {
+  shape: rectangle
+}
+electronics_assembly: Electronics Assembly {
+  shape: rectangle
+}
+metals_specialty-semiconductor: "Specialty Metals for Semiconductor Interconnects & Barrier Layers" {
   shape: rectangle
 }
 optics_inspection: Optical Inspection {
@@ -111,6 +120,12 @@ photolithography_fab-processes: Core Fab Processes {
 photolithography_resists-masks: "Photoresists, Masks & Lithography" {
   shape: rectangle
 }
+quality-control: "Quality Control & Statistical Process Control" {
+  shape: rectangle
+}
+silicon_basic-devices: Basic Semiconductor Devices {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
 vlsi-scaling -> photolithography: { class: tool-edge }
@@ -119,18 +134,29 @@ vlsi-scaling_advanced-lithography -> photolithography_resists-masks: { class: to
 vlsi-scaling_advanced-lithography -> optics_inspection: { class: tool-edge }
 vlsi-scaling_advanced-processes -> photolithography_fab-processes: { class: tool-edge }
 vlsi-scaling_eda-design -> computing: { class: tool-edge }
+vlsi-scaling_eda-design -> photolithography_fab-processes: { class: tool-edge }
+vlsi-scaling_eda-design -> silicon_basic-devices: { class: tool-edge }
+vlsi-scaling_eda-design -> chemistry_dopant-etch-gases: { class: tool-edge }
+vlsi-scaling_eda-design -> electronics_assembly: { class: tool-edge }
+metals_specialty-semiconductor -> vlsi-scaling_advanced-processes: { class: tool-edge }
+vlsi-scaling -> quality-control: { class: tool-edge }
 
 # ==================== STYLING ====================
 vlsi-scaling.class: domain
-vlsi-scaling_continuous-scaling.class: capability
 vlsi-scaling_advanced-lithography.class: capability
 vlsi-scaling_advanced-processes.class: capability
 vlsi-scaling_eda-design.class: capability
+vlsi-scaling_continuous-scaling.class: capability
+chemistry_dopant-etch-gases.class: external
 computing.class: external
+electronics_assembly.class: external
+metals_specialty-semiconductor.class: external
 optics_inspection.class: external
 photolithography.class: external
 photolithography_fab-processes.class: external
 photolithography_resists-masks.class: external
+quality-control.class: external
+silicon_basic-devices.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

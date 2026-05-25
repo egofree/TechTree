@@ -85,43 +85,54 @@ classes: {
 }
 
 # ==================== INTERNAL NODES ====================
-water_internal: "Water — Internal Structure" {
-  water_desalination: Desalination
-  water_procurement: Water Procurement
-  water_distribution: Water Distribution
-  water_basic-treatment: Basic Water Treatment
-  water_sewage: "Sewage Collection & Treatment"
+electrochemistry_internal: "Electrochemistry & Plating — Internal Structure" {
+  electrochemistry_electroplating: Electroplating
+  electrochemistry_anodizing: Anodizing
+  electrochemistry_electrochemical-processes: Electrochemical Surface Processes
+  electrochemistry_electroplating_copper-damascene: Copper Damascene Plating
 }
 
 # ==================== DOMAIN NODE ====================
-water: Water
+electrochemistry: "Electrochemistry & Plating"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
-chemistry_electrodialysis: Electrodialysis {
+chemistry_acids: Mineral Acid Production {
+  shape: rectangle
+}
+chemistry_electrolysis: Electrolysis {
   shape: rectangle
 }
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
-food-processing: Food Processing {
+metals_aluminum: Aluminum Production {
+  shape: rectangle
+}
+metals_finishing: "Metal Finishing & Surface Treatment" {
   shape: rectangle
 }
 
 # ==================== EDGES ====================
-water_desalination -> energy_electricity: { class: material-edge }
-chemistry_electrodialysis -> water_desalination: { class: tool-edge }
-food-processing -> water: { class: material-edge }
+electrochemistry_electroplating_copper-damascene -> electrochemistry_electroplating: { class: tool-edge }
+electrochemistry -> chemistry_electrolysis: { class: tool-edge }
+electrochemistry -> metals_finishing: { class: tool-edge }
+electrochemistry_electroplating -> chemistry_acids: { class: material-edge }
+electrochemistry_anodizing -> chemistry_acids: { class: material-edge }
+electrochemistry_electrochemical-processes -> chemistry_acids: { class: material-edge }
+electrochemistry_anodizing -> metals_aluminum: { class: material-edge }
+electrochemistry -> energy_electricity: { class: tool-edge }
 
 # ==================== STYLING ====================
-water.class: domain
-water_desalination.class: capability
-water_procurement.class: capability
-water_distribution.class: capability
-water_basic-treatment.class: capability
-water_sewage.class: capability
-chemistry_electrodialysis.class: external
+electrochemistry.class: domain
+electrochemistry_electroplating.class: capability
+electrochemistry_anodizing.class: capability
+electrochemistry_electrochemical-processes.class: capability
+electrochemistry_electroplating_copper-damascene.class: pinnacle
+chemistry_acids.class: external
+chemistry_electrolysis.class: external
 energy_electricity.class: external
-food-processing.class: external
+metals_aluminum.class: external
+metals_finishing.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

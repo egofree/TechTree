@@ -1,0 +1,181 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  domain: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+      border-radius: 4
+    }
+  }
+  capability: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  process: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  critical: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  earlyWin: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 3
+    }
+  }
+  pinnacle: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  external: {
+    style: {
+      fill: "#f5f5f5"
+      stroke: "#9e9e9e"
+      stroke-width: 1
+    }
+  }
+  legend: {
+    style: {
+      fill: "#fafafa"
+      stroke: "#bdbdbd"
+      stroke-width: 1
+      font-size: 13
+    }
+  }
+  material-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-width: 1
+      stroke-dash: 3
+    }
+  }
+}
+
+# ==================== INTERNAL NODES ====================
+telecom_internal: "Telecommunications — Internal Structure" {
+  telecom_pre-electric: Pre-Electric Communication
+  telecom_electric-telegraph: Electrical Telegraph Networks
+  telecom_telephone: Telephone Systems
+  telecom_submarine-cables: Submarine Cable Systems
+  telecom_radio: Radio Communication
+}
+
+# ==================== DOMAIN NODE ====================
+telecom: Telecommunications
+
+# ==================== EXTERNAL DEPENDENCIES ====================
+energy_electricity: "Electricity Generation & Distribution" {
+  shape: rectangle
+}
+foundations: Foundations {
+  shape: rectangle
+}
+glass: Glass {
+  shape: rectangle
+}
+knowledge_writing: "Writing & Record-Keeping" {
+  shape: rectangle
+}
+metals: Metals {
+  shape: rectangle
+}
+polymers_rubber_gutta-percha: Gutta-Percha Processing {
+  shape: rectangle
+}
+transport_shipping: Water Transport {
+  shape: rectangle
+}
+transport_telegraph: Telegraph Communication {
+  shape: rectangle
+}
+
+# ==================== EDGES ====================
+telecom_electric-telegraph -> telecom_pre-electric: { class: tool-edge }
+telecom_telephone -> telecom_electric-telegraph: { class: tool-edge }
+telecom_submarine-cables -> telecom_electric-telegraph: { class: tool-edge }
+telecom_radio -> telecom_electric-telegraph: { class: tool-edge }
+telecom -> energy_electricity: { class: tool-edge }
+telecom -> metals: { class: material-edge }
+telecom -> knowledge_writing: { class: tool-edge }
+telecom -> glass: { class: material-edge }
+telecom -> transport_telegraph: { class: tool-edge }
+telecom -> polymers_rubber_gutta-percha: { class: material-edge }
+telecom_pre-electric -> foundations: { class: tool-edge }
+telecom_pre-electric -> knowledge_writing: { class: tool-edge }
+telecom_electric-telegraph -> energy_electricity: { class: tool-edge }
+telecom_electric-telegraph -> transport_telegraph: { class: tool-edge }
+telecom_electric-telegraph -> metals: { class: material-edge }
+telecom_telephone -> energy_electricity: { class: tool-edge }
+telecom_telephone -> metals: { class: material-edge }
+telecom_submarine-cables -> transport_shipping: { class: tool-edge }
+telecom_submarine-cables -> polymers_rubber_gutta-percha: { class: material-edge }
+telecom_submarine-cables -> metals: { class: material-edge }
+telecom_radio -> energy_electricity: { class: tool-edge }
+telecom_radio -> metals: { class: material-edge }
+telecom_radio -> glass: { class: material-edge }
+
+# ==================== STYLING ====================
+telecom.class: domain
+telecom_pre-electric.class: capability
+telecom_electric-telegraph.class: capability
+telecom_telephone.class: capability
+telecom_submarine-cables.class: capability
+telecom_radio.class: capability
+energy_electricity.class: external
+foundations.class: external
+glass.class: external
+knowledge_writing.class: external
+metals.class: external
+polymers_rubber_gutta-percha.class: external
+transport_shipping.class: external
+transport_telegraph.class: external
+
+# ==================== LEGEND ====================
+d2-legend: "Edge Types" {
+  class: legend
+  mat: "Solid arrow = material prerequisite (physical input consumed)" {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool: "Dashed arrow = tool prerequisite (equipment/infrastructure needed)" {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}

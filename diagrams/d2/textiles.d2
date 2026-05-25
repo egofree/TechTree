@@ -123,6 +123,9 @@ chemistry_alkalis: Alkali Production {
 chemistry_pulp-chemicals: "Pulp & Paper Chemicals" {
   shape: rectangle
 }
+construction: "Construction & Structural Engineering" {
+  shape: rectangle
+}
 energy_gravity: Water Power {
   shape: rectangle
 }
@@ -139,6 +142,9 @@ knowledge_printing: Paper and Printing Press {
   shape: rectangle
 }
 machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+marine: "Marine & Naval Engineering" {
   shape: rectangle
 }
 metals_copper-bronze: "Copper & Bronze Production" {
@@ -187,6 +193,8 @@ textiles_fibers -> animals_sheep: { class: material-edge }
 textiles_fibers -> animals_goats: { class: material-edge }
 textiles_fibers -> animals_rabbits: { class: material-edge }
 textiles_fibers -> animals_camelids: { class: material-edge }
+construction -> textiles_rope-making: { class: material-edge }
+marine -> textiles: { class: material-edge }
 
 # ==================== STYLING ====================
 textiles.class: domain
@@ -205,12 +213,14 @@ animals_sheep.class: external
 chemistry.class: external
 chemistry_alkalis.class: external
 chemistry_pulp-chemicals.class: external
+construction.class: external
 energy_gravity.class: external
 energy_wind.class: external
 foundations.class: external
 foundations_tools-basic.class: external
 knowledge_printing.class: external
 machine-tools.class: external
+marine.class: external
 metals_copper-bronze.class: external
 plants_dye-plants.class: external
 plants_fiber-plants.class: external

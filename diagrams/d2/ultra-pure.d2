@@ -85,43 +85,24 @@ classes: {
 }
 
 # ==================== INTERNAL NODES ====================
-water_internal: "Water — Internal Structure" {
-  water_desalination: Desalination
-  water_procurement: Water Procurement
-  water_distribution: Water Distribution
-  water_basic-treatment: Basic Water Treatment
-  water_sewage: "Sewage Collection & Treatment"
+ultra-pure_internal: "Ultra-Pure Materials — Internal Structure" {
+  ultra-pure_upw: Ultra-Pure Water Production
+  ultra-pure_high-purity-chemicals: High-Purity Chemical Purification
+  ultra-pure_analytical-verification: PPT-Level Analytical Verification
 }
 
 # ==================== DOMAIN NODE ====================
-water: Water
+ultra-pure: Ultra-Pure Materials
 
 # ==================== EXTERNAL DEPENDENCIES ====================
-chemistry_electrodialysis: Electrodialysis {
-  shape: rectangle
-}
-energy_electricity: "Electricity Generation & Distribution" {
-  shape: rectangle
-}
-food-processing: Food Processing {
-  shape: rectangle
-}
 
 # ==================== EDGES ====================
-water_desalination -> energy_electricity: { class: material-edge }
-chemistry_electrodialysis -> water_desalination: { class: tool-edge }
-food-processing -> water: { class: material-edge }
 
 # ==================== STYLING ====================
-water.class: domain
-water_desalination.class: capability
-water_procurement.class: capability
-water_distribution.class: capability
-water_basic-treatment.class: capability
-water_sewage.class: capability
-chemistry_electrodialysis.class: external
-energy_electricity.class: external
-food-processing.class: external
+ultra-pure.class: domain
+ultra-pure_upw.class: capability
+ultra-pure_high-purity-chemicals.class: capability
+ultra-pure_analytical-verification.class: capability
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

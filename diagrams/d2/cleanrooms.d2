@@ -85,43 +85,54 @@ classes: {
 }
 
 # ==================== INTERNAL NODES ====================
-water_internal: "Water — Internal Structure" {
-  water_desalination: Desalination
-  water_procurement: Water Procurement
-  water_distribution: Water Distribution
-  water_basic-treatment: Basic Water Treatment
-  water_sewage: "Sewage Collection & Treatment"
+cleanrooms_internal: "Clean Room Technology — Internal Structure" {
+  cleanrooms_hepa-ulpa-filtration: "HEPA/ULPA Filtration & Laminar Flow"
+  cleanrooms_contamination-control: Contamination Control
+  cleanrooms_facility-design: "Facility Design & HVAC"
 }
 
 # ==================== DOMAIN NODE ====================
-water: Water
+cleanrooms: Clean Room Technology
 
 # ==================== EXTERNAL DEPENDENCIES ====================
-chemistry_electrodialysis: Electrodialysis {
+chemistry: Chemistry {
   shape: rectangle
 }
-energy_electricity: "Electricity Generation & Distribution" {
+energy: Energy {
   shape: rectangle
 }
-food-processing: Food Processing {
+glass: Glass {
+  shape: rectangle
+}
+measurement: "Measurement & Instrumentation" {
+  shape: rectangle
+}
+metals: Metals {
+  shape: rectangle
+}
+photolithography: "Photolithography & IC Fabrication" {
   shape: rectangle
 }
 
 # ==================== EDGES ====================
-water_desalination -> energy_electricity: { class: material-edge }
-chemistry_electrodialysis -> water_desalination: { class: tool-edge }
-food-processing -> water: { class: material-edge }
+cleanrooms -> chemistry: { class: material-edge }
+cleanrooms -> metals: { class: material-edge }
+cleanrooms -> glass: { class: material-edge }
+cleanrooms -> energy: { class: tool-edge }
+cleanrooms -> measurement: { class: tool-edge }
+photolithography -> cleanrooms: { class: tool-edge }
 
 # ==================== STYLING ====================
-water.class: domain
-water_desalination.class: capability
-water_procurement.class: capability
-water_distribution.class: capability
-water_basic-treatment.class: capability
-water_sewage.class: capability
-chemistry_electrodialysis.class: external
-energy_electricity.class: external
-food-processing.class: external
+cleanrooms.class: domain
+cleanrooms_hepa-ulpa-filtration.class: capability
+cleanrooms_contamination-control.class: capability
+cleanrooms_facility-design.class: capability
+chemistry.class: external
+energy.class: external
+glass.class: external
+measurement.class: external
+metals.class: external
+photolithography.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

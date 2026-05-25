@@ -132,10 +132,22 @@ chemistry_lubricants: "Lubricants, Oils & Fluid Mechanics" {
 chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry" {
   shape: rectangle
 }
+construction: "Construction & Structural Engineering" {
+  shape: rectangle
+}
+construction_building-materials: "Building Materials & Methods" {
+  shape: rectangle
+}
+defense: "Defense & Military Engineering" {
+  shape: rectangle
+}
 energy_fuels: Fuel Production {
   shape: rectangle
 }
 energy_fuels_charcoal: Charcoal Production {
+  shape: rectangle
+}
+food-processing: Food Processing {
   shape: rectangle
 }
 health: "Public Health, Sanitation & Medicine" {
@@ -151,6 +163,12 @@ knowledge_writing: "Writing & Record-Keeping" {
   shape: rectangle
 }
 machine-tools_forming: Metal Forming {
+  shape: rectangle
+}
+marine: "Marine & Naval Engineering" {
+  shape: rectangle
+}
+mathematics_core-mathematics: Core Mathematics {
   shape: rectangle
 }
 measurement_precision-metrology: "Precision Metrology & Standards" {
@@ -178,6 +196,9 @@ polymers: "Polymers & Composites" {
   shape: rectangle
 }
 polymers_rubber_natural: "Natural Rubber & Vulcanization" {
+  shape: rectangle
+}
+telecom_pre-electric: Pre-Electric Communication {
   shape: rectangle
 }
 textiles: "Textiles, Fiber & Cordage" {
@@ -229,6 +250,13 @@ foundations_food-agriculture -> animals_pigs: { class: material-edge }
 foundations_food-agriculture -> animals_rabbits: { class: material-edge }
 animals_poultry -> foundations_food-agriculture: { class: material-edge }
 foundations_food-agriculture -> agriculture_soil-management: { class: material-edge }
+mathematics_core-mathematics -> foundations: { class: tool-edge }
+defense -> foundations: { class: tool-edge }
+construction -> foundations: { class: tool-edge }
+construction_building-materials -> foundations_tools-basic: { class: tool-edge }
+food-processing -> foundations_food-agriculture: { class: material-edge }
+telecom_pre-electric -> foundations: { class: tool-edge }
+marine -> foundations: { class: tool-edge }
 
 # ==================== STYLING ====================
 foundations.class: domain
@@ -248,13 +276,19 @@ ceramics.class: external
 ceramics_pottery.class: external
 chemistry_lubricants.class: external
 chemistry_petroleum-alternatives.class: external
+construction.class: external
+construction_building-materials.class: external
+defense.class: external
 energy_fuels.class: external
 energy_fuels_charcoal.class: external
+food-processing.class: external
 health.class: external
 health_sanitation.class: external
 knowledge.class: external
 knowledge_writing.class: external
 machine-tools_forming.class: external
+marine.class: external
+mathematics_core-mathematics.class: external
 measurement_precision-metrology.class: external
 metals.class: external
 metals_copper-bronze.class: external
@@ -264,6 +298,7 @@ plants.class: external
 plants_edible-plants.class: external
 polymers.class: external
 polymers_rubber_natural.class: external
+telecom_pre-electric.class: external
 textiles.class: external
 textiles_fibers.class: external
 transport_roads.class: external

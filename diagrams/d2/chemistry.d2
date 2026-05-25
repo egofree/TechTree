@@ -106,12 +106,16 @@ chemistry_internal: "Chemistry — Internal Structure" {
   chemistry_refractories: Refractory Materials
   chemistry_coatings: "Paints, Coatings & Inks"
   chemistry_pulp-chemicals: "Pulp & Paper Chemicals"
+  chemistry_adhesives-coatings: "Adhesives & Specialty Coatings"
   chemistry_electrolysis_sem-tech: Semiconductor-Grade Electrolysis
   chemistry_water-electrolysis: Water Electrolysis
   chemistry_e-methanol: E-Methanol Synthesis
   chemistry_electrodialysis: Electrodialysis
+  chemistry_acids-bases: "Acids & Bases (Comprehensive Reference)"
+  chemistry_water-treatment: Industrial Water Treatment
   chemistry_lithium-separation: Lithium Separation
   chemistry_acid-regeneration: Acid Regeneration
+  chemistry_semiconductor-chemicals: Semiconductor Process Chemicals
 }
 
 # ==================== DOMAIN NODE ====================
@@ -124,7 +128,40 @@ agriculture_hydroponic-ph-control: Hydroponic pH Control {
 animals_animal-materials: Animal-Derived Materials Processing {
   shape: rectangle
 }
+ceramics_electronic-ceramics: Electronic Ceramics {
+  shape: rectangle
+}
 ceramics_kilns: Kiln Construction {
+  shape: rectangle
+}
+cleanrooms: Clean Room Technology {
+  shape: rectangle
+}
+construction: "Construction & Structural Engineering" {
+  shape: rectangle
+}
+cryogenics_air-separation: Cryogenic Air Separation {
+  shape: rectangle
+}
+defense: "Defense & Military Engineering" {
+  shape: rectangle
+}
+electrochemistry: "Electrochemistry & Plating" {
+  shape: rectangle
+}
+electrochemistry_anodizing: Anodizing {
+  shape: rectangle
+}
+electrochemistry_electrochemical-processes: Electrochemical Surface Processes {
+  shape: rectangle
+}
+electrochemistry_electroplating: Electroplating {
+  shape: rectangle
+}
+electronics: Electronics {
+  shape: rectangle
+}
+electronics_electrical-systems: Electrical Systems {
   shape: rectangle
 }
 energy: Energy {
@@ -158,6 +195,12 @@ energy_storage: "Energy Storage & Diversification" {
   shape: rectangle
 }
 energy_wind: Wind Power {
+  shape: rectangle
+}
+food-processing_brewing: "Brewing & Distilling" {
+  shape: rectangle
+}
+food-processing_preservation: Food Preservation {
   shape: rectangle
 }
 foundations: Foundations {
@@ -196,6 +239,12 @@ machine-tools: Machine Tools Bootstrap {
 machine-tools_joining: Metal Joining {
   shape: rectangle
 }
+machine-tools_joining_tig-welding: "TIG Welding (GTAW)" {
+  shape: rectangle
+}
+machine-tools_joining_ultrasonic-bonding: "Ultrasonic Welding & Wire Bonding" {
+  shape: rectangle
+}
 measurement: "Measurement & Instrumentation" {
   shape: rectangle
 }
@@ -214,6 +263,15 @@ metals_non-ferrous: Non-Ferrous Metal Production {
 metals_powder-metallurgy: "Powder Metallurgy & Advanced Materials" {
   shape: rectangle
 }
+metals_precious-metals: "Precious Metal Production (Gold & Silver)" {
+  shape: rectangle
+}
+metals_refractory-specialty: "Refractory & Specialty Metals for Semiconductor Manufacturing" {
+  shape: rectangle
+}
+metals_specialty-semiconductor: "Specialty Metals for Semiconductor Interconnects & Barrier Layers" {
+  shape: rectangle
+}
 metals_steelmaking: Modern Steelmaking {
   shape: rectangle
 }
@@ -221,6 +279,9 @@ mining: "Mining Engineering & Extractive Metallurgy" {
   shape: rectangle
 }
 mining_extraction_black-powder: Black Powder Explosives {
+  shape: rectangle
+}
+petroleum_refining: Petroleum Refining {
   shape: rectangle
 }
 photolithography: "Photolithography & IC Fabrication" {
@@ -259,6 +320,9 @@ silicon_crystal-growth: "Crystal Growth & Wafering" {
 silicon_purification: Silicon Purification {
   shape: rectangle
 }
+silicon_wafering_epitaxy: Epitaxial Layer Growth {
+  shape: rectangle
+}
 textiles: "Textiles, Fiber & Cordage" {
   shape: rectangle
 }
@@ -275,6 +339,9 @@ transport_aviation: Aviation {
   shape: rectangle
 }
 transport_telegraph: Telegraph Communication {
+  shape: rectangle
+}
+vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
   shape: rectangle
 }
 water_desalination: Desalination {
@@ -332,6 +399,7 @@ photolithography -> chemistry: { class: material-edge }
 photolithography_cleanrooms -> chemistry: { class: material-edge }
 photolithography_resists-masks -> chemistry: { class: material-edge }
 photolithography_fab-processes -> chemistry_dopant-etch-gases: { class: material-edge }
+vlsi-scaling_eda-design -> chemistry_dopant-etch-gases: { class: tool-edge }
 health -> chemistry: { class: material-edge }
 chemistry_air-separation -> energy_electricity: { class: material-edge }
 chemistry_air-separation -> gas-handling_basic: { class: tool-edge }
@@ -351,6 +419,7 @@ polymers_thermoplastics -> chemistry_petroleum-alternatives: { class: material-e
 polymers_thermoplastics -> chemistry: { class: material-edge }
 health_pharmacology -> chemistry_distillation: { class: tool-edge }
 textiles_dyeing -> chemistry: { class: material-edge }
+ceramics_electronic-ceramics -> chemistry: { class: material-edge }
 energy_electric-furnaces_electrode-manufacturing -> chemistry_petroleum-alternatives: { class: material-edge }
 mining_extraction_black-powder -> chemistry_explosives: { class: material-edge }
 transport_telegraph -> chemistry_acids: { class: tool-edge }
@@ -381,6 +450,7 @@ metals_powder-metallurgy -> chemistry_hydrogen-silane: { class: tool-edge }
 chemistry_lubricants -> animals_animal-materials: { class: material-edge }
 textiles_finishing -> chemistry_alkalis: { class: tool-edge }
 health_occupational-health -> chemistry_acids: { class: material-edge }
+silicon_wafering_epitaxy -> chemistry_dopant-etch-gases: { class: material-edge }
 chemistry_electrolysis -> energy_redox-flow-battery: { class: tool-edge }
 chemistry_electrolysis -> energy_fuel-cell: { class: tool-edge }
 chemistry_water-electrolysis -> energy_electricity: { class: material-edge }
@@ -392,6 +462,24 @@ chemistry_water-electrolysis -> energy_fuel-cell: { class: material-edge }
 chemistry_electrodialysis -> water_desalination: { class: tool-edge }
 chemistry_electrodialysis -> energy_blue-energy: { class: tool-edge }
 chemistry_electrodialysis -> agriculture_hydroponic-ph-control: { class: tool-edge }
+electronics -> chemistry: { class: material-edge }
+electronics_electrical-systems -> chemistry_electrolysis: { class: material-edge }
+metals_refractory-specialty -> chemistry: { class: material-edge }
+metals_specialty-semiconductor -> chemistry: { class: material-edge }
+metals_precious-metals -> chemistry: { class: material-edge }
+cleanrooms -> chemistry: { class: material-edge }
+chemistry_air-separation -> cryogenics_air-separation: { class: tool-edge }
+electrochemistry -> chemistry_electrolysis: { class: tool-edge }
+electrochemistry_electroplating -> chemistry_acids: { class: material-edge }
+electrochemistry_anodizing -> chemistry_acids: { class: material-edge }
+electrochemistry_electrochemical-processes -> chemistry_acids: { class: material-edge }
+petroleum_refining -> chemistry_distillation: { class: tool-edge }
+defense -> chemistry_explosives: { class: material-edge }
+construction -> chemistry_cement: { class: material-edge }
+food-processing_preservation -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
+food-processing_brewing -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
+machine-tools_joining_tig-welding -> chemistry_air-separation: { class: material-edge }
+chemistry_packaging-testing -> machine-tools_joining_ultrasonic-bonding: { class: tool-edge }
 
 # ==================== STYLING ====================
 chemistry.class: domain
@@ -415,15 +503,30 @@ chemistry_solvents.class: capability
 chemistry_refractories.class: earlyWin
 chemistry_coatings.class: capability
 chemistry_pulp-chemicals.class: capability
+chemistry_adhesives-coatings.class: capability
 chemistry_electrolysis_sem-tech.class: process
 chemistry_water-electrolysis.class: capability
 chemistry_e-methanol.class: capability
 chemistry_electrodialysis.class: capability
+chemistry_acids-bases.class: capability
+chemistry_water-treatment.class: capability
 chemistry_lithium-separation.class: capability
 chemistry_acid-regeneration.class: capability
+chemistry_semiconductor-chemicals.class: capability
 agriculture_hydroponic-ph-control.class: external
 animals_animal-materials.class: external
+ceramics_electronic-ceramics.class: external
 ceramics_kilns.class: external
+cleanrooms.class: external
+construction.class: external
+cryogenics_air-separation.class: external
+defense.class: external
+electrochemistry.class: external
+electrochemistry_anodizing.class: external
+electrochemistry_electrochemical-processes.class: external
+electrochemistry_electroplating.class: external
+electronics.class: external
+electronics_electrical-systems.class: external
 energy.class: external
 energy_blue-energy.class: external
 energy_cooling.class: external
@@ -435,6 +538,8 @@ energy_gravity.class: external
 energy_redox-flow-battery.class: external
 energy_storage.class: external
 energy_wind.class: external
+food-processing_brewing.class: external
+food-processing_preservation.class: external
 foundations.class: external
 gas-handling.class: external
 gas-handling_basic.class: external
@@ -447,15 +552,21 @@ knowledge.class: external
 knowledge_writing.class: external
 machine-tools.class: external
 machine-tools_joining.class: external
+machine-tools_joining_tig-welding.class: external
+machine-tools_joining_ultrasonic-bonding.class: external
 measurement.class: external
 metals.class: external
 metals_aluminum.class: external
 metals_finishing.class: external
 metals_non-ferrous.class: external
 metals_powder-metallurgy.class: external
+metals_precious-metals.class: external
+metals_refractory-specialty.class: external
+metals_specialty-semiconductor.class: external
 metals_steelmaking.class: external
 mining.class: external
 mining_extraction_black-powder.class: external
+petroleum_refining.class: external
 photolithography.class: external
 photolithography_cleanrooms.class: external
 photolithography_fab-processes.class: external
@@ -468,12 +579,14 @@ silicon.class: external
 silicon_basic-devices.class: external
 silicon_crystal-growth.class: external
 silicon_purification.class: external
+silicon_wafering_epitaxy.class: external
 textiles.class: external
 textiles_dyeing.class: external
 textiles_finishing.class: external
 transport.class: external
 transport_aviation.class: external
 transport_telegraph.class: external
+vlsi-scaling_eda-design.class: external
 water_desalination.class: external
 
 # ==================== LEGEND ====================

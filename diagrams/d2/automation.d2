@@ -85,43 +85,55 @@ classes: {
 }
 
 # ==================== INTERNAL NODES ====================
-water_internal: "Water — Internal Structure" {
-  water_desalination: Desalination
-  water_procurement: Water Procurement
-  water_distribution: Water Distribution
-  water_basic-treatment: Basic Water Treatment
-  water_sewage: "Sewage Collection & Treatment"
+automation_internal: "Automation & Robotics — Internal Structure" {
+  automation_equipment-communication: Equipment Communication
+  automation_wafer-handling: Wafer Handling Robots
+  automation_material-transport: Material Transport
+  automation_process-control: "Process Control & Lot Tracking"
 }
 
 # ==================== DOMAIN NODE ====================
-water: Water
+automation: "Automation & Robotics"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
-chemistry_electrodialysis: Electrodialysis {
+computing: "Computing & Automation" {
   shape: rectangle
 }
-energy_electricity: "Electricity Generation & Distribution" {
+electronics: Electronics {
   shape: rectangle
 }
-food-processing: Food Processing {
+machine-tools: Machine Tools Bootstrap {
+  shape: rectangle
+}
+quality-control: "Quality Control & Statistical Process Control" {
+  shape: rectangle
+}
+vacuum: Vacuum Technology {
   shape: rectangle
 }
 
 # ==================== EDGES ====================
-water_desalination -> energy_electricity: { class: material-edge }
-chemistry_electrodialysis -> water_desalination: { class: tool-edge }
-food-processing -> water: { class: material-edge }
+automation_material-transport -> automation_equipment-communication: { class: tool-edge }
+automation_process-control -> automation_equipment-communication: { class: tool-edge }
+automation -> computing: { class: tool-edge }
+automation -> electronics: { class: tool-edge }
+automation_equipment-communication -> computing: { class: tool-edge }
+automation_equipment-communication -> electronics: { class: tool-edge }
+automation_wafer-handling -> machine-tools: { class: tool-edge }
+automation_wafer-handling -> vacuum: { class: tool-edge }
+automation_process-control -> quality-control: { class: tool-edge }
 
 # ==================== STYLING ====================
-water.class: domain
-water_desalination.class: capability
-water_procurement.class: capability
-water_distribution.class: capability
-water_basic-treatment.class: capability
-water_sewage.class: capability
-chemistry_electrodialysis.class: external
-energy_electricity.class: external
-food-processing.class: external
+automation.class: domain
+automation_equipment-communication.class: critical
+automation_wafer-handling.class: critical
+automation_material-transport.class: capability
+automation_process-control.class: capability
+computing.class: external
+electronics.class: external
+machine-tools.class: external
+quality-control.class: external
+vacuum.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

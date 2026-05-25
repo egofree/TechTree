@@ -85,43 +85,46 @@ classes: {
 }
 
 # ==================== INTERNAL NODES ====================
-water_internal: "Water — Internal Structure" {
-  water_desalination: Desalination
-  water_procurement: Water Procurement
-  water_distribution: Water Distribution
-  water_basic-treatment: Basic Water Treatment
-  water_sewage: "Sewage Collection & Treatment"
+cryogenics_internal: "Cryogenics — Internal Structure" {
+  cryogenics_refrigeration: Refrigeration Fundamentals
+  cryogenics_air-separation: Cryogenic Air Separation
+  cryogenics_liquefaction-storage: "Gas Liquefaction & Storage"
 }
 
 # ==================== DOMAIN NODE ====================
-water: Water
+cryogenics: Cryogenics
 
 # ==================== EXTERNAL DEPENDENCIES ====================
-chemistry_electrodialysis: Electrodialysis {
+chemistry_air-separation: "Air Separation & Bulk Gas Production" {
   shape: rectangle
 }
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
-food-processing: Food Processing {
+gas-handling: Gas Handling {
+  shape: rectangle
+}
+silicon_crystal-growth: "Crystal Growth & Wafering" {
   shape: rectangle
 }
 
 # ==================== EDGES ====================
-water_desalination -> energy_electricity: { class: material-edge }
-chemistry_electrodialysis -> water_desalination: { class: tool-edge }
-food-processing -> water: { class: material-edge }
+cryogenics_air-separation -> cryogenics_refrigeration: { class: tool-edge }
+cryogenics_liquefaction-storage -> cryogenics_refrigeration: { class: tool-edge }
+cryogenics -> gas-handling: { class: tool-edge }
+cryogenics -> energy_electricity: { class: tool-edge }
+chemistry_air-separation -> cryogenics_air-separation: { class: tool-edge }
+silicon_crystal-growth -> cryogenics_liquefaction-storage: { class: material-edge }
 
 # ==================== STYLING ====================
-water.class: domain
-water_desalination.class: capability
-water_procurement.class: capability
-water_distribution.class: capability
-water_basic-treatment.class: capability
-water_sewage.class: capability
-chemistry_electrodialysis.class: external
+cryogenics.class: domain
+cryogenics_refrigeration.class: capability
+cryogenics_air-separation.class: capability
+cryogenics_liquefaction-storage.class: capability
+chemistry_air-separation.class: external
 energy_electricity.class: external
-food-processing.class: external
+gas-handling.class: external
+silicon_crystal-growth.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

@@ -108,6 +108,9 @@ chemistry: Chemistry {
 chemistry_pulp-chemicals: "Pulp & Paper Chemicals" {
   shape: rectangle
 }
+defense: "Defense & Military Engineering" {
+  shape: rectangle
+}
 foundations: Foundations {
   shape: rectangle
 }
@@ -126,10 +129,28 @@ health_sanitation: "Water Supply & Sanitation" {
 machine-tools_machining: Machining {
   shape: rectangle
 }
+marine: "Marine & Naval Engineering" {
+  shape: rectangle
+}
+marine_navigation: Marine Navigation {
+  shape: rectangle
+}
+mathematics: "Mathematics & Formal Sciences" {
+  shape: rectangle
+}
 metals_iron-steel: "Iron & Steel Production" {
   shape: rectangle
 }
 mining_prospecting: "Prospecting & Surveying" {
+  shape: rectangle
+}
+quality-control: "Quality Control & Statistical Process Control" {
+  shape: rectangle
+}
+telecom: Telecommunications {
+  shape: rectangle
+}
+telecom_pre-electric: Pre-Electric Communication {
   shape: rectangle
 }
 textiles_fibers: Fiber Preparation {
@@ -153,6 +174,13 @@ knowledge_writing -> health_sanitation: { class: tool-edge }
 knowledge -> chemistry_pulp-chemicals: { class: material-edge }
 knowledge_writing -> animals_animal-materials: { class: material-edge }
 knowledge_writing -> animals_beekeeping: { class: material-edge }
+mathematics -> knowledge_writing: { class: tool-edge }
+quality-control -> knowledge: { class: tool-edge }
+defense -> knowledge: { class: tool-edge }
+telecom -> knowledge_writing: { class: tool-edge }
+telecom_pre-electric -> knowledge_writing: { class: tool-edge }
+marine -> knowledge: { class: tool-edge }
+marine_navigation -> knowledge_writing: { class: tool-edge }
 
 # ==================== STYLING ====================
 knowledge.class: domain
@@ -164,14 +192,21 @@ animals_animal-materials.class: external
 animals_beekeeping.class: external
 chemistry.class: external
 chemistry_pulp-chemicals.class: external
+defense.class: external
 foundations.class: external
 foundations_food-agriculture.class: external
 foundations_tools-basic.class: external
 health_medicine.class: external
 health_sanitation.class: external
 machine-tools_machining.class: external
+marine.class: external
+marine_navigation.class: external
+mathematics.class: external
 metals_iron-steel.class: external
 mining_prospecting.class: external
+quality-control.class: external
+telecom.class: external
+telecom_pre-electric.class: external
 textiles_fibers.class: external
 
 # ==================== LEGEND ====================

@@ -12,5 +12,7 @@ Capabilities in this domain:
 - [Primary Metal Forming](forming.md) — Continuous casting, hot rolling, extrusion, wire rod rolling, forging at scale, and structural section rolling at the mill.
 - [Metal Finishing & Surface Treatment](finishing.md) — Galvanizing, electroplating, anodizing, phosphating, case hardening, passivation, thermal spraying, and pickling.
 - [Powder Metallurgy & Advanced Materials](powder-metallurgy.md) — Metal powder production, cemented carbides, tungsten, metal injection molding, HIP, and additive manufacturing.
+- [Refractory & Specialty Metals for Semiconductor Manufacturing](refractory-specialty.md) — Tantalum (TaN/Ta diffusion barriers, sputtering targets), cobalt (CoSi₂ contacts, CMP slurry), and indium (ITO transparent conductors, InGaAs photonics, bump bonding).
+- [Precious Metal Production](precious-metals.md) — Gold and silver extraction from ores, alluvial deposits, and recycled scrap. Cyanidation, electrolytic refining to 99.99%+, aqua regia, Wohlwill gold refining, and Moebius silver refining. Produces semiconductor-grade gold wire and silver paste.
 
 [↑ Back to Tech Tree](../index.md)

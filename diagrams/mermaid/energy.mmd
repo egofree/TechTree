@@ -55,6 +55,7 @@ graph TD
     glass_advanced_glassblowing("Glassblowing and Scientific Apparatus")
     health_medical-instruments("Medical Instrument Manufacturing")
     machine-tools("Machine Tools Bootstrap")
+    machine-tools_edm-cnc("EDM, CNC & Precision Grinding")
     machine-tools_forming("Metal Forming")
     machine-tools_joining("Metal Joining")
     machine-tools_machining("Machining")
@@ -127,6 +128,7 @@ graph TD
     ceramics_pottery_kiln-firing --> energy_fuels_charcoal
     energy_fuels -.-> foundations_fire
     machine-tools_forming --> energy_fuels
+    machine-tools_edm-cnc -.-> energy_electricity
     computing_electromechanical --> energy_electricity
     mining_processing -.-> energy_fuels
     energy_storage --> polymers_rubber
@@ -230,6 +232,7 @@ graph TD
     class glass_advanced_glassblowing external
     class health_medical-instruments external
     class machine-tools external
+    class machine-tools_edm-cnc external
     class machine-tools_forming external
     class machine-tools_joining external
     class machine-tools_machining external

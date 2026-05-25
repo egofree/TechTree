@@ -1,0 +1,44 @@
+TASK 13: Specialty Metals (Tantalum, Cobalt, Indium) — COMPLETED
+
+Date: 2026-05-24
+
+## Deliverables
+
+1. NEW FILE: docs/metals/refractory-specialty.md (208 lines)
+   - Tantalum: properties for semiconductor use, sputtering target manufacturing,
+     TaN/Ta barrier deposition (PVD and ALD), barrier performance metrics
+   - Cobalt: ores and extraction, CoSi₂ self-aligned contacts (salicide process),
+     cobalt CMP slurry chemistry and process
+   - Indium: production from zinc byproduct, ITO sputtering targets,
+     InGaAs photonics, indium bump bonding for flip-chip
+   - Supply chain, recycling, safety hazards
+   - GPU critical path integration section
+   - Cross-references to refractory-metals.md and non-ferrous.md (no duplication)
+
+2. NODE: metals.refractory-specialty added to data/nodes.json
+   - Level: capability, parent: metals
+   - Era: semiconductor, material: metals, capability: precision
+   - 7 outputs: tantalum_sputtering_targets, TaN_Ta_diffusion_barriers,
+     cobalt_silicide_contacts, co_cmp_slurries, ito_sputtering_targets,
+     ingaas_photodetectors, indium_bump_bonds
+
+3. EDGES added to data/edges.json:
+   - metals.refractory-specialty → metals (tool) — depends on metals smelting infrastructure
+   - metals.refractory-specialty → chemistry (material) — depends on chemical processing
+
+4. UPDATED: docs/metals/index.md — added entry for refractory-specialty.md
+
+5. VALIDATION: generate-diagrams.sh (25 domain diagrams) + validate.sh (17/17 PASS)
+
+## Key Decisions
+
+- Used `metals` (domain) as edge target instead of `metals.smelting` (does not exist
+  as a node). The task specified metals.smelting but validation requires edge targets
+  to reference existing nodes.
+- Tantalum extraction (coltan, HF dissolution, MIBK solvent extraction) already covered
+  in refractory-metals.md lines 56-62. This file focused exclusively on semiconductor
+  applications (sputtering targets, diffusion barriers) with cross-references.
+- No cobalt or indium coverage in existing non-ferrous.md — full extraction and
+  semiconductor application coverage provided.
+- Era tag: "semiconductor" (appropriate for node focused on GPU fab materials)
+- Capability tag: "precision" (sputtering targets, CMP, thin films require precision)

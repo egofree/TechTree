@@ -15,6 +15,8 @@ graph TD
         metals_forming["Primary Metal Forming"]
         metals_finishing["Metal Finishing & Surface Treatment"]
         metals_powder-metallurgy["Powder Metallurgy & Advanced Materials"]
+        metals_refractory-specialty["Refractory & Specialty Metals for Semiconductor Manufacturing"]
+        metals_precious-metals["Precious Metal Production (Gold & Silver)"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -77,6 +79,9 @@ graph TD
     metals_alloys --> metals_iron-steel
     metals_forming --> metals_aluminum
     metals_powder-metallurgy --> metals_alloys
+    metals_refractory-specialty -.-> metals
+    metals_precious-metals -.-> metals
+    metals_precious-metals -.-> metals_non-ferrous
     metals -.-> foundations
     metals --> mining
     machine-tools_joining --> metals_iron-steel
@@ -131,6 +136,9 @@ graph TD
     textiles_sewing-tailoring -.-> metals_copper-bronze
     health_medical-instruments --> metals_copper-bronze
     electronics --> metals
+    metals_refractory-specialty --> chemistry
+    metals_precious-metals --> chemistry
+    metals_precious-metals --> mining
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -157,6 +165,8 @@ graph TD
     class metals_forming capability
     class metals_finishing capability
     class metals_powder-metallurgy pinnacle
+    class metals_refractory-specialty capability
+    class metals_precious-metals capability
     class animals_beekeeping external
     class ceramics external
     class ceramics_kilns external

@@ -10,6 +10,7 @@ graph TD
         ceramics_kilns["Kiln Construction"]
         ceramics_lime["Lime Production"]
         ceramics_advanced-ceramics["Advanced Ceramics & Refractories"]
+        ceramics_electronic-ceramics["Electronic Ceramics"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -17,6 +18,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     animals_animal-materials("Animal-Derived Materials Processing")
+    chemistry("Chemistry")
     chemistry_cement("Cement & Concrete")
     chemistry_refractories("Refractory Materials")
     energy_fuels_charcoal("Charcoal Production")
@@ -36,6 +38,7 @@ graph TD
     ceramics_lime -.-> ceramics_kilns
     ceramics_advanced-ceramics -.-> ceramics_pottery
     ceramics_advanced-ceramics -.-> ceramics_kilns
+    ceramics_electronic-ceramics -.-> ceramics_advanced-ceramics
     energy_fuels_coal -.-> ceramics_kilns
     energy_fuels_coke -.-> ceramics_kilns
     chemistry_cement -.-> ceramics_kilns
@@ -49,6 +52,7 @@ graph TD
     ceramics_lime --> mining
     ceramics_advanced-ceramics --> mining
     silicon -.-> ceramics_advanced-ceramics
+    ceramics_electronic-ceramics --> chemistry
     metals_iron-steel_blast-furnace -.-> ceramics_kilns
     chemistry_refractories -.-> ceramics_kilns
     animals_animal-materials -.-> ceramics_lime
@@ -73,7 +77,9 @@ graph TD
     class ceramics_kilns capability
     class ceramics_lime capability
     class ceramics_advanced-ceramics critical
+    class ceramics_electronic-ceramics capability
     class animals_animal-materials external
+    class chemistry external
     class chemistry_cement external
     class chemistry_refractories external
     class energy_fuels_charcoal external

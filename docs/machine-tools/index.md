@@ -8,5 +8,6 @@ Capabilities in this domain:
 - [Iterative Machine Bootstrap](iterative-bootstrap.md) — The core self-improving sequence: crude lathe (0.5 mm tolerance) → improved lathe with leadscrew (0.1 mm) → shaper (0.05 mm) → milling machine (0.025 mm) → drill press → surface grinder (0.005 mm). Each machine doubles precision achievable with the previous generation.
 - [Metal Joining](joining.md) — Forge welding, brazing, soldering, and riveting of metal components.
 - [Machining](machining.md) — Lathe turning, milling, drilling, and grinding of metal parts to precise dimensions.
+- [EDM, CNC & Precision Grinding](edm-cnc.md) — Electrical Discharge Machining (wire EDM, sinker EDM), Computer Numerical Control (servo/stepper drives, 5-axis), and precision/ultra-precision grinding for sub-micron accuracy required by semiconductor equipment.
 
 [↑ Back to Tech Tree](../index.md)

@@ -1,0 +1,71 @@
+Task 8: Gold & Silver Production Content (Precious Metals)
+===========================================================
+Date: 2026-05-24
+Status: COMPLETE
+
+## Files Created
+- docs/metals/precious-metals.md (211 lines)
+
+## Files Modified
+- data/nodes.json — added node metals.precious-metals
+- data/edges.json — added 4 edges from metals.precious-metals
+- docs/metals/index.md — added precious metals listing
+- diagrams/mermaid/metals.mmd — regenerated
+- diagrams/mermaid/overview.mmd — regenerated
+
+## New Node
+- ID: metals.precious-metals
+- Name: Precious Metal Production (Gold & Silver)
+- Level: capability, parent: metals
+- Tags: material=[metals, chemicals], era=industrial
+
+## New Edges
+- metals.precious-metals → metals (tool) — smelting infrastructure
+- metals.precious-metals → chemistry (material) — cyanide, acids, reagents
+- metals.precious-metals → mining (material) — ore supply
+- metals.precious-metals → metals.non-ferrous (tool) — Parkes process, lead smelting
+
+## Content Coverage (precious-metals.md)
+### Gold
+- Geological occurrence (alluvial, lode, lateritic deposits)
+- Ore identification and beneficiation (gravity, flotation)
+- Mercury amalgamation (with safety hazards)
+- Cyanidation (heap leaching, tank leaching, carbon adsorption, Merrill-Crowe)
+- Miller chlorination (99.5% gold)
+- Wohlwill electrolytic refining (99.99%+, semiconductor grade)
+- Aqua regia dissolution and precipitation methods
+- Properties (density 19.32, mp 1064°C, FCC)
+- Semiconductor applications: wire bonding (25 μm), ENIG surface finish, thin-film
+
+### Silver
+- Geological occurrence (argentite, proustite, cerargyrite)
+- Primary production sources (Pb-Zn byproduct, Cu anode slime, primary mines)
+- Parkes process (referenced, not duplicated from non-ferrous.md)
+- Copper anode slime treatment (decopperization, selenium removal, doré smelting)
+- Moebius electrolytic refining (99.95-99.99%)
+- Fire refining, zone refining
+- Properties (conductivity 63 MS/m, tarnish behavior)
+- Semiconductor applications: PV metallization (silver paste), SAC305 solder, RF plating
+
+### Both
+- Specific temperatures, concentrations, current densities, recovery rates
+- Bootstrap sequence (Years 15-50)
+- Safety: cyanide, mercury, chlorine, NOx hazards with exposure limits
+
+## Non-duplication check
+- Parkes process: referenced non-ferrous.md (line 61), not duplicated
+- Lead smelting details: deferred to non-ferrous.md
+- Aqua regia: referenced chemistry/acids.md (lines 65-73), not duplicated
+- Tin/solder details: referenced non-ferrous.md tin section
+
+## Validation
+- bash scripts/validate.sh → 17/17 PASS
+- Node count: 225 (was 224)
+- Edge count: 462 (was 458)
+- JSON syntax: valid for both nodes.json and edges.json
+
+## Quality Metrics
+- precious-metals.md: 211 lines (≥200 target met)
+- Specific numbers: temperatures, concentrations, current densities, recovery rates throughout
+- Cross-references: 6 relative links to existing docs
+- Safety section: cyanide, mercury, chlorine, NOx with TLV values

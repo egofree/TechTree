@@ -22,6 +22,7 @@ graph TD
     gas-handling("Gas Handling")
     gas-handling_vacuum("Vacuum Technology")
     glass_basic("Basic Glass Production")
+    glass_photomask-substrates("Photomask Glass Substrates & ULE Glass")
     machine-tools("Machine Tools Bootstrap")
     optics("Optics")
     polymers_thermosets("Thermosetting Polymers")
@@ -52,6 +53,7 @@ graph TD
     chemistry_packaging-testing --> photolithography_fab-processes
     computing_electronic --> photolithography_fab-processes
     photolithography_resists-masks --> glass_basic
+    glass_photomask-substrates --> photolithography_fab-processes
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -79,6 +81,7 @@ graph TD
     class gas-handling external
     class gas-handling_vacuum external
     class glass_basic external
+    class glass_photomask-substrates external
     class machine-tools external
     class optics external
     class polymers_thermosets external

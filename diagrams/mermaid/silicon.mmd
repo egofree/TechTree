@@ -11,6 +11,8 @@ graph TD
         silicon_crystal-growth_cz-pulling["Czochralski Crystal Pulling"]
         silicon_basic-devices["Basic Semiconductor Devices"]
         silicon_wafering["Wafer Slicing & Polishing"]
+        silicon_wafering_epitaxy["Epitaxial Layer Growth"]
+        silicon_wafering_soi["SOI Wafer Production"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -22,6 +24,7 @@ graph TD
     chemistry_acids("Mineral Acid Production")
     chemistry_air-separation("Air Separation & Bulk Gas Production")
     chemistry_distillation("Distillation")
+    chemistry_dopant-etch-gases("Dopant & Etch Gases")
     chemistry_hydrogen-silane("Hydrogen & Silane Production")
     computing_electronic("Electronic Computing")
     electronics_assembly("Electronics Assembly")
@@ -44,6 +47,8 @@ graph TD
     silicon_crystal-growth_cz-pulling -.-> silicon_crystal-growth
     silicon_wafering -.-> silicon
     silicon_wafering --> silicon_crystal-growth
+    silicon_wafering_epitaxy -.-> silicon_wafering
+    silicon_wafering_soi -.-> silicon_wafering
     silicon_basic-devices --> silicon_wafering
     silicon -.-> machine-tools
     silicon --> energy
@@ -65,6 +70,7 @@ graph TD
     computing_electronic --> silicon_basic-devices
     silicon_crystal-growth_cz-pulling -.-> measurement_temperature-pressure
     silicon -.-> ceramics_advanced-ceramics
+    silicon_wafering_epitaxy --> chemistry_dopant-etch-gases
     electronics_assembly --> silicon_basic-devices
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -88,11 +94,14 @@ graph TD
     class silicon_crystal-growth_cz-pulling process
     class silicon_basic-devices capability
     class silicon_wafering capability
+    class silicon_wafering_epitaxy process
+    class silicon_wafering_soi process
     class ceramics_advanced-ceramics external
     class chemistry external
     class chemistry_acids external
     class chemistry_air-separation external
     class chemistry_distillation external
+    class chemistry_dopant-etch-gases external
     class chemistry_hydrogen-silane external
     class computing_electronic external
     class electronics_assembly external

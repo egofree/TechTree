@@ -47,3 +47,23 @@ When creating a new domain, add domain-level edges for the most fundamental depe
 - Electronics → energy.electricity: "tool" (power infrastructure reused)
 - electronics.assembly → silicon.basic-devices: "material" (devices consumed/installed)
 - electronics.assembly → polymers.thermosets: "material" (FR-4, epoxy consumed)
+
+## 2026-05-24: Task 8 — Gold & Silver Precious Metals Content
+
+### Finding: Task-specified node IDs may not exist
+The task specified edges to `metals.smelting`, but no such node exists. Adapted by using `metals` (domain-level) as the tool dependency for smelting infrastructure. Always verify referenced node IDs before adding edges.
+
+### Finding: Precious metals have two distinct supply chains
+Gold and silver follow fundamentally different production paths: gold is primarily extracted from dedicated ores via cyanidation, while silver is mainly a byproduct of lead-zinc and copper mining. These should be covered in the same capability node (precious metals) but the content must clearly distinguish the different extraction routes.
+
+### Finding: Non-ferrous.md already covers Parkes process and silver-in-lead
+The non-ferrous.md lead section (line 61) covers the Parkes process in detail. Precious-metals.md should reference but NOT duplicate this content. The SIK test confirms <20% overlap — precious metals refining (cyanidation, Wohlwill, Moebius) shares almost no infrastructure/knowledge with base metals smelting.
+
+### Convention: Edge types for precious metals
+- metals.precious-metals → metals: "tool" (smelting furnaces, crucibles reused)
+- metals.precious-metals → chemistry: "material" (cyanide, acids consumed)
+- metals.precious-metals → mining: "material" (ore consumed)
+- metals.precious-metals → metals.non-ferrous: "tool" (Parkes process infrastructure reused)
+
+### Finding: Duplicate closing brackets can appear in JSON edits
+When editing edges.json near the end of the file, a previous edit left duplicate `]\n}` closings. Always validate JSON with `python3 -c "import json; json.load(open(...))"` after edits.

@@ -11,6 +11,7 @@ graph TD
         machine-tools_forming["Metal Forming"]
         machine-tools_machining["Machining"]
         machine-tools_joining["Metal Joining"]
+        machine-tools_edm-cnc["EDM, CNC & Precision Grinding"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -58,6 +59,7 @@ graph TD
     machine-tools_bearings-abrasives -.-> machine-tools_iterative-bootstrap
     machine-tools_machining -.-> machine-tools_iterative-bootstrap
     machine-tools_machining -.-> machine-tools_bearings-abrasives
+    machine-tools_edm-cnc -.-> machine-tools_machining
     machine-tools_joining --> metals_iron-steel
     machine-tools -.-> metals
     machine-tools -.-> textiles
@@ -87,6 +89,7 @@ graph TD
     machine-tools_forming -.-> foundations_fire
     machine-tools_forming --> metals_iron-steel
     machine-tools_forming --> energy_fuels
+    machine-tools_edm-cnc -.-> energy_electricity
     computing_mechanical -.-> machine-tools
     energy_steam-power_steam-turbines -.-> machine-tools_machining
     energy_gravity_water-turbines -.-> machine-tools_machining
@@ -119,6 +122,7 @@ graph TD
     class machine-tools_forming capability
     class machine-tools_machining capability
     class machine-tools_joining capability
+    class machine-tools_edm-cnc capability
     class animals_animal-materials external
     class chemistry external
     class chemistry_lubricants external

@@ -9,6 +9,7 @@ graph TD
         glass_advanced["Advanced Glass Production"]
         glass_advanced_glassblowing["Glassblowing and Scientific Apparatus"]
         glass_fibers["Glass Fiber Production"]
+        glass_photomask-substrates["Photomask Glass Substrates & ULE Glass"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -23,6 +24,7 @@ graph TD
     energy_fuels("Fuel Production")
     machine-tools("Machine Tools Bootstrap")
     mining("Mining Engineering & Extractive Metallurgy")
+    photolithography_fab-processes("Core Fab Processes")
     photolithography_resists-masks("Photoresists, Masks & Lithography")
     polymers_composites("Composite Materials")
     silicon("Silicon")
@@ -33,6 +35,7 @@ graph TD
     glass_advanced_glassblowing -.-> glass_advanced
     glass_fibers -.-> glass
     glass_fibers --> glass_advanced
+    glass_photomask-substrates -.-> glass_advanced
     glass_basic --> mining
     chemistry_acids -.-> glass_basic
     glass -.-> machine-tools
@@ -45,6 +48,7 @@ graph TD
     polymers_composites --> glass_fibers
     photolithography_resists-masks --> glass_basic
     electronics_assembly --> glass_fibers
+    glass_photomask-substrates --> photolithography_fab-processes
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -65,6 +69,7 @@ graph TD
     class glass_advanced capability
     class glass_advanced_glassblowing process
     class glass_fibers capability
+    class glass_photomask-substrates capability
     class chemistry external
     class chemistry_acids external
     class chemistry_refractories external
@@ -73,6 +78,7 @@ graph TD
     class energy_fuels external
     class machine-tools external
     class mining external
+    class photolithography_fab-processes external
     class photolithography_resists-masks external
     class polymers_composites external
     class silicon external

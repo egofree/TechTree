@@ -29,8 +29,11 @@ graph TD
         chemistry_water-electrolysis["Water Electrolysis"]
         chemistry_e-methanol["E-Methanol Synthesis"]
         chemistry_electrodialysis["Electrodialysis"]
+        chemistry_acids-bases["Acids & Bases (Comprehensive Reference)"]
+        chemistry_water-treatment["Industrial Water Treatment"]
         chemistry_lithium-separation["Lithium Separation"]
         chemistry_acid-regeneration["Acid Regeneration"]
+        chemistry_semiconductor-chemicals["Semiconductor Process Chemicals"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -39,6 +42,7 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     agriculture_hydroponic-ph-control("Hydroponic pH Control")
     animals_animal-materials("Animal-Derived Materials Processing")
+    ceramics_electronic-ceramics("Electronic Ceramics")
     ceramics_kilns("Kiln Construction")
     electronics("Electronics")
     electronics_electrical-systems("Electrical Systems")
@@ -71,6 +75,8 @@ graph TD
     metals_finishing("Metal Finishing & Surface Treatment")
     metals_non-ferrous("Non-Ferrous Metal Production")
     metals_powder-metallurgy("Powder Metallurgy & Advanced Materials")
+    metals_precious-metals("Precious Metal Production (Gold & Silver)")
+    metals_refractory-specialty("Refractory & Specialty Metals for Semiconductor Manufacturing")
     metals_steelmaking("Modern Steelmaking")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_extraction_black-powder("Black Powder Explosives")
@@ -86,6 +92,7 @@ graph TD
     silicon_basic-devices("Basic Semiconductor Devices")
     silicon_crystal-growth("Crystal Growth & Wafering")
     silicon_purification("Silicon Purification")
+    silicon_wafering_epitaxy("Epitaxial Layer Growth")
     textiles("Textiles, Fiber & Cordage")
     textiles_dyeing("Dyeing")
     textiles_finishing("Fabric Finishing")
@@ -166,6 +173,7 @@ graph TD
     polymers_thermoplastics --> chemistry
     health_pharmacology -.-> chemistry_distillation
     textiles_dyeing --> chemistry
+    ceramics_electronic-ceramics --> chemistry
     energy_electric-furnaces_electrode-manufacturing --> chemistry_petroleum-alternatives
     mining_extraction_black-powder --> chemistry_explosives
     transport_telegraph -.-> chemistry_acids
@@ -196,6 +204,7 @@ graph TD
     chemistry_lubricants --> animals_animal-materials
     textiles_finishing -.-> chemistry_alkalis
     health_occupational-health --> chemistry_acids
+    silicon_wafering_epitaxy --> chemistry_dopant-etch-gases
     chemistry_electrolysis -.-> energy_redox-flow-battery
     chemistry_electrolysis -.-> energy_fuel-cell
     chemistry_water-electrolysis --> energy_electricity
@@ -209,6 +218,8 @@ graph TD
     chemistry_electrodialysis -.-> agriculture_hydroponic-ph-control
     electronics --> chemistry
     electronics_electrical-systems --> chemistry_electrolysis
+    metals_refractory-specialty --> chemistry
+    metals_precious-metals --> chemistry
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -249,10 +260,14 @@ graph TD
     class chemistry_water-electrolysis capability
     class chemistry_e-methanol capability
     class chemistry_electrodialysis capability
+    class chemistry_acids-bases capability
+    class chemistry_water-treatment capability
     class chemistry_lithium-separation capability
     class chemistry_acid-regeneration capability
+    class chemistry_semiconductor-chemicals capability
     class agriculture_hydroponic-ph-control external
     class animals_animal-materials external
+    class ceramics_electronic-ceramics external
     class ceramics_kilns external
     class electronics external
     class electronics_electrical-systems external
@@ -285,6 +300,8 @@ graph TD
     class metals_finishing external
     class metals_non-ferrous external
     class metals_powder-metallurgy external
+    class metals_precious-metals external
+    class metals_refractory-specialty external
     class metals_steelmaking external
     class mining external
     class mining_extraction_black-powder external
@@ -300,6 +317,7 @@ graph TD
     class silicon_basic-devices external
     class silicon_crystal-growth external
     class silicon_purification external
+    class silicon_wafering_epitaxy external
     class textiles external
     class textiles_dyeing external
     class textiles_finishing external

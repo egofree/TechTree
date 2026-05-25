@@ -1,0 +1,75 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Petroleum Extraction & Refining
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph petroleum_internal ["Petroleum Extraction & Refining — Internal Structure"]
+        direction TB
+        petroleum_extraction["Crude Oil Extraction"]
+        petroleum_extraction_cable-tool["Cable-Tool Drilling"]
+        petroleum_extraction_rotary["Rotary Drilling"]
+        petroleum_refining["Petroleum Refining"]
+        petroleum_refining_distillation["Atmospheric & Vacuum Distillation"]
+        petroleum_refining_cracking["Catalytic Cracking & Conversion"]
+        petroleum_petrochemicals["Petrochemical Feedstocks"]
+        petroleum_petrochemicals_steam-cracking["Steam Cracking (Olefin Production)"]
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    petroleum["Petroleum Extraction & Refining"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    chemistry_distillation("Distillation")
+    energy_engine("Heat Engines")
+    energy_steam-power("Steam Power")
+    metals("Metals")
+    mining("Mining Engineering & Extractive Metallurgy")
+
+    %% ==================== EDGES ====================
+    petroleum_extraction -.-> petroleum
+    petroleum_extraction_cable-tool -.-> petroleum_extraction
+    petroleum_extraction_rotary -.-> petroleum_extraction
+    petroleum_extraction_rotary -.-> petroleum_extraction_cable-tool
+    petroleum_refining -.-> petroleum
+    petroleum_refining --> petroleum_extraction
+    petroleum_refining_distillation -.-> petroleum_refining
+    petroleum_refining_cracking -.-> petroleum_refining
+    petroleum_refining_cracking --> petroleum_refining_distillation
+    petroleum_petrochemicals -.-> petroleum
+    petroleum_petrochemicals --> petroleum_refining
+    petroleum_petrochemicals_steam-cracking -.-> petroleum_petrochemicals
+    petroleum -.-> metals
+    petroleum -.-> mining
+    petroleum_extraction_cable-tool -.-> energy_steam-power
+    petroleum_refining -.-> chemistry_distillation
+    energy_engine --> petroleum_refining
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
+    class petroleum domain
+    class petroleum_extraction capability
+    class petroleum_extraction_cable-tool process
+    class petroleum_extraction_rotary process
+    class petroleum_refining capability
+    class petroleum_refining_distillation process
+    class petroleum_refining_cracking process
+    class petroleum_petrochemicals capability
+    class petroleum_petrochemicals_steam-cracking process
+    class chemistry_distillation external
+    class energy_engine external
+    class energy_steam-power external
+    class metals external
+    class mining external
+    class EdgeLegend,MatNote,ToolNote legend

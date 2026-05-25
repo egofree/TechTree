@@ -39,6 +39,7 @@ graph TD
     metals_copper-bronze("Copper & Bronze Production")
     metals_non-ferrous("Non-Ferrous Metal Production")
     metals_precious-metals("Precious Metal Production (Gold & Silver)")
+    petroleum("Petroleum Extraction & Refining")
     silicon_mg-si-production("Metallurgical-Grade Silicon Production")
     transport("Transportation & Logistics")
     transport_roads("Road & Bridge Construction")
@@ -76,6 +77,7 @@ graph TD
     mining_drilling -.-> machine-tools_machining
     mining_ventilation -.-> energy_steam-power
     metals_precious-metals --> mining
+    petroleum -.-> mining
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -120,6 +122,7 @@ graph TD
     class metals_copper-bronze external
     class metals_non-ferrous external
     class metals_precious-metals external
+    class petroleum external
     class silicon_mg-si-production external
     class transport external
     class transport_roads external

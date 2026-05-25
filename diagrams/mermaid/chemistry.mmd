@@ -87,6 +87,7 @@ graph TD
     metals_steelmaking("Modern Steelmaking")
     mining("Mining Engineering & Extractive Metallurgy")
     mining_extraction_black-powder("Black Powder Explosives")
+    petroleum_refining("Petroleum Refining")
     photolithography("Photolithography & IC Fabrication")
     photolithography_cleanrooms("Cleanrooms")
     photolithography_fab-processes("Core Fab Processes")
@@ -234,6 +235,7 @@ graph TD
     electrochemistry_electroplating --> chemistry_acids
     electrochemistry_anodizing --> chemistry_acids
     electrochemistry_electrochemical-processes --> chemistry_acids
+    petroleum_refining -.-> chemistry_distillation
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -326,6 +328,7 @@ graph TD
     class metals_steelmaking external
     class mining external
     class mining_extraction_black-powder external
+    class petroleum_refining external
     class photolithography external
     class photolithography_cleanrooms external
     class photolithography_fab-processes external

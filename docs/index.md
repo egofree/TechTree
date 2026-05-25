@@ -43,6 +43,7 @@ Several capabilities in other domains are also critical because their absence bl
 |--------|:------------:|:---------:|-------------|
 | [Agriculture](agriculture/index.md) | — | Yes | mechanized farming, soil science, hydroponics, greenhouses |
 | [Animals](animals/index.md) | 7 | | draft power, wool, leather, dairy, eggs, meat, hunting |
+| [Automation & Robotics](automation/index.md) | 4 | | SECS/GEM protocols, wafer robots, FOUP transport, process control |
 | [Ceramics](ceramics/index.md) | 4 | | refractories, kilns, lime, pottery, crucibles |
 | [Chemistry](chemistry/index.md) | 18 | | mineral acids, alkalis, electrolysis, distillation, oils & grease |
 | [Cryogenics](cryogenics/index.md) | 3 | | refrigeration cycles, cryogenic air separation, gas liquefaction & storage |
@@ -50,6 +51,7 @@ Several capabilities in other domains are also critical because their absence bl
 | [Construction](construction/index.md) | — | | structural engineering, concrete, dams, tunnels |
 | [Defense & Military](defense/index.md) | — | | weapons, fortifications, military engineering |
 | [Energy](energy/index.md) | 9 | | steam engines, electricity, arc furnaces, charcoal, coke |
+| [EHS](ehs/index.md) | 5 | | chemical safety, ventilation, PPE, emergency response, waste management |
 | [Food Processing](food-processing/index.md) | — | | milling, canning, pasteurization, preservation |
 | [Foundations](foundations/index.md) | 4 | Yes | food surplus, fire, stone tools, agriculture |
 | [Gas Handling](gas-handling/index.md) | 2 | | vacuum pumps, gas compression, purification |
@@ -72,6 +74,7 @@ Several capabilities in other domains are also critical because their absence bl
 | [VLSI Scaling](vlsi-scaling/index.md) | 4 | | GPUs, advanced solar, EDA tools |
 | [Vacuum Technology](vacuum/index.md) | 3 | | vacuum pumps, chambers, measurement, leak detection |
 | [Water Infrastructure](water/index.md) | — | | water treatment, desalination, distribution, sewage |
+| [Ultra-Pure Materials](ultra-pure/index.md) | 3 | | 18.2 MΩ·cm water, 9N chemicals, ppt-level analysis |
 
 ## Dependency Overview
 

@@ -1,0 +1,59 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Automation & Robotics
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph automation_internal ["Automation & Robotics — Internal Structure"]
+        direction TB
+        automation_equipment-communication["Equipment Communication"]
+        automation_wafer-handling["Wafer Handling Robots"]
+        automation_material-transport["Material Transport"]
+        automation_process-control["Process Control & Lot Tracking"]
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    automation["Automation & Robotics"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    computing("Computing & Automation")
+    electronics("Electronics")
+    machine-tools("Machine Tools Bootstrap")
+    quality-control("Quality Control & Statistical Process Control")
+    vacuum("Vacuum Technology")
+
+    %% ==================== EDGES ====================
+    automation_material-transport -.-> automation_equipment-communication
+    automation_process-control -.-> automation_equipment-communication
+    automation -.-> computing
+    automation -.-> electronics
+    automation_equipment-communication -.-> computing
+    automation_equipment-communication -.-> electronics
+    automation_wafer-handling -.-> machine-tools
+    automation_wafer-handling -.-> vacuum
+    automation_process-control -.-> quality-control
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
+    class automation domain
+    class automation_equipment-communication critical
+    class automation_wafer-handling critical
+    class automation_material-transport capability
+    class automation_process-control capability
+    class computing external
+    class electronics external
+    class machine-tools external
+    class quality-control external
+    class vacuum external
+    class EdgeLegend,MatNote,ToolNote legend

@@ -19,6 +19,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     animals_animal-materials("Animal-Derived Materials Processing")
+    automation_wafer-handling("Wafer Handling Robots")
     chemistry("Chemistry")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
     chemistry_packaging-testing("Semiconductor Packaging & Testing")
@@ -104,6 +105,7 @@ graph TD
     electronics -.-> machine-tools
     vacuum_pumps -.-> machine-tools
     vacuum_chambers -.-> machine-tools
+    automation_wafer-handling -.-> machine-tools
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -128,6 +130,7 @@ graph TD
     class machine-tools_joining capability
     class machine-tools_edm-cnc capability
     class animals_animal-materials external
+    class automation_wafer-handling external
     class chemistry external
     class chemistry_lubricants external
     class chemistry_packaging-testing external

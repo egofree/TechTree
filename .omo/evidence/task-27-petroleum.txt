@@ -1,0 +1,114 @@
+TASK 27: Petroleum Extraction & Refining Domain
+================================================
+Date: 2026-05-25
+Status: COMPLETE
+
+SIK TEST RESULTS
+----------------
+
+Test: Petroleum vs Energy Domain
+  Infrastructure overlap: ~25% (<50%) — drilling rigs/wellheads vs boilers/generators
+  Knowledge overlap: ~20% (<50%) — petroleum geology vs electrical/mechanical engineering
+  Practitioner overlap: ~15% (<50%) — petroleum engineers vs power engineers
+  Result: FAILS SIK — petroleum is distinct from energy
+
+Test: Petroleum vs Chemistry Domain
+  Infrastructure overlap: ~45% (<50%) — refining overlaps but extraction does not
+  Knowledge overlap: ~40% (<50%) — refining shares process engineering; extraction is separate
+  Practitioner overlap: ~35% (<50%) — drilling engineers distinct from chemical engineers
+  Result: FAILS SIK — petroleum extraction clearly fails; refining is borderline but integrated chain warrants separate domain
+
+Decision: CREATE petroleum as standalone domain (3 capabilities, process chain axis)
+
+DOMAIN DELIVERABLES
+-------------------
+
+docs/petroleum/index.md (45 lines)
+  - Domain overview with 3 capability links
+  - Full SIK placement decision documented
+  - Organizing axis: Process Chain
+
+docs/petroleum/extraction.md (219 lines) — Crude Oil Extraction
+  - Surface seeps and hand-dug wells
+  - Cable-tool (percussion) drilling: rig components, procedure, performance
+  - Rotary drilling: components, drilling mud, procedure, directional/horizontal
+  - Well production: natural flow, artificial lift (sucker rod, gas lift, ESP)
+  - Enhanced oil recovery: waterflooding, thermal, CO2, polymer
+  - Oil sands and heavy oil
+  - Safety and environmental concerns
+
+docs/petroleum/refining.md (238 lines) — Petroleum Refining
+  - Atmospheric distillation (ADU): desalting, conditions, product cuts, yields
+  - Vacuum distillation (VDU): conditions, products, lubricant base stocks
+  - Catalytic cracking (FCC): process description, catalyst, yields
+  - Hydrocracking: conditions, advantages, product yields
+  - Catalytic reforming: conditions, reactions, BTX production
+  - Hydrotreating: desulfurization, denitrogenation
+  - Product blending: gasoline and diesel blending tables
+  - Refinery configurations and energy balance
+
+docs/petroleum/petrochemicals.md (210 lines) — Petrochemical Feedstocks
+  - Steam cracking: feedstock selection, furnace design, product separation
+  - BTX aromatics: separation sequence, xylene isomer separation
+  - Ethylene derivatives: polyethylene, ethylene oxide, PVC, styrene
+  - Propylene derivatives: polypropylene, acrylonitrile, propylene oxide
+  - BTX derivatives: cumene/phenol, TDI/PUR, PTA/PET
+  - Methanol and synthetic feedstocks (MTO)
+  - Non-petroleum alternatives table
+  - Safety and environmental concerns
+  - Bootstrap sequence
+
+NODES ADDED (9 nodes)
+---------------------
+  petroleum                           (domain)
+  petroleum.extraction                (capability)
+  petroleum.extraction.cable-tool     (process)
+  petroleum.extraction.rotary         (process)
+  petroleum.refining                  (capability)
+  petroleum.refining.distillation     (process)
+  petroleum.refining.cracking         (process)
+  petroleum.petrochemicals            (capability)
+  petroleum.petrochemicals.steam-cracking (process)
+
+EDGES ADDED (18 edges)
+----------------------
+  petroleum -> metals (tool)
+  petroleum -> mining (tool)
+  petroleum.extraction -> petroleum (tool)
+  petroleum.extraction.cable-tool -> petroleum.extraction (tool)
+  petroleum.extraction.cable-tool -> energy.steam-power (tool)
+  petroleum.extraction.rotary -> petroleum.extraction (tool)
+  petroleum.extraction.rotary -> petroleum.extraction.cable-tool (tool)
+  petroleum.refining -> petroleum (tool)
+  petroleum.refining -> petroleum.extraction (material)
+  petroleum.refining -> chemistry.distillation (tool)
+  petroleum.refining.distillation -> petroleum.refining (tool)
+  petroleum.refining.cracking -> petroleum.refining (tool)
+  petroleum.refining.cracking -> petroleum.refining.distillation (material)
+  petroleum.petrochemicals -> petroleum (tool)
+  petroleum.petrochemicals -> petroleum.refining (material)
+  petroleum.petrochemicals.steam-cracking -> petroleum.petrochemicals (tool)
+  energy.engine -> petroleum.refining (material)
+  petroleum.petrochemicals -> chemistry (tool) [via chemistry.distillation reference]
+
+VALIDATION
+----------
+  generate-diagrams.sh: PASS (petroleum.mmd generated)
+  validate.sh: 14/17 passed
+    - 3 FAIL are pre-existing (vlsi-scaling.continuous-scaling dangling refs)
+    - All petroleum-specific checks PASS (tags, hierarchy, edge types, taxonomy, DAG)
+
+CONTENT SPECIFICS
+-----------------
+  Distillation temperatures: ADU 350-385°C, VDU 10-30 mmHg, FCC 500-550°C
+  Cracking conditions: FCC 2-5 sec contact time, hydrocracking 80-200 bar
+  Yields: FCC gasoline 45-60%, hydrocracking diesel 40-65%, steam cracking ethylene 30-84%
+  Products covered: gasoline, kerosene, diesel, fuel oil, lubricants, asphalt
+  Petrochemicals: ethylene, propylene, BTX, styrene, ethylene oxide
+
+NO DUPLICATION
+--------------
+  - energy/fuels.md covers fuel USE; petroleum covers fuel PRODUCTION
+  - chemistry/distillation.md covers generic distillation theory; petroleum/refining.md covers petroleum-specific ADU/VDU/FCC
+  - chemistry/petroleum-alternatives.md covers coal tar, fermentation, FT; petroleum covers actual petroleum extraction/refining/petrochemicals
+  - All cross-references are relative markdown links to existing content

@@ -924,6 +924,26 @@
       "type": "material"
     },
     {
+      "from": "energy.electricity.power-systems",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "energy.electricity.power-systems",
+      "to": "energy.storage",
+      "type": "tool"
+    },
+    {
+      "from": "energy.electricity.power-systems",
+      "to": "energy.engine",
+      "type": "tool"
+    },
+    {
+      "from": "energy.electricity.power-systems",
+      "to": "measurement",
+      "type": "tool"
+    },
+    {
       "from": "silicon.crystal-growth.cz-pulling",
       "to": "silicon.crystal-growth",
       "type": "tool"
@@ -2609,6 +2629,136 @@
       "from": "electrochemistry",
       "to": "energy.electricity",
       "type": "tool"
+    },
+    {
+      "from": "automation",
+      "to": "computing",
+      "type": "tool"
+    },
+    {
+      "from": "automation",
+      "to": "electronics",
+      "type": "tool"
+    },
+    {
+      "from": "automation.equipment-communication",
+      "to": "computing",
+      "type": "tool"
+    },
+    {
+      "from": "automation.equipment-communication",
+      "to": "electronics",
+      "type": "tool"
+    },
+    {
+      "from": "automation.wafer-handling",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "automation.wafer-handling",
+      "to": "vacuum",
+      "type": "tool"
+    },
+    {
+      "from": "automation.material-transport",
+      "to": "automation.equipment-communication",
+      "type": "tool"
+    },
+    {
+      "from": "automation.process-control",
+      "to": "automation.equipment-communication",
+      "type": "tool"
+    },
+    {
+      "from": "automation.process-control",
+      "to": "quality-control",
+      "type": "tool"
+    },
+    {
+      "from": "petroleum",
+      "to": "metals",
+      "type": "tool"
+    },
+    {
+      "from": "petroleum",
+      "to": "mining",
+      "type": "tool"
+    },
+    {
+      "from": "petroleum.extraction",
+      "to": "petroleum",
+      "type": "tool"
+    },
+    {
+      "from": "petroleum.extraction.cable-tool",
+      "to": "petroleum.extraction",
+      "type": "tool"
+    },
+    {
+      "from": "petroleum.extraction.cable-tool",
+      "to": "energy.steam-power",
+      "type": "tool"
+    },
+    {
+      "from": "petroleum.extraction.rotary",
+      "to": "petroleum.extraction",
+      "type": "tool"
+    },
+    {
+      "from": "petroleum.extraction.rotary",
+      "to": "petroleum.extraction.cable-tool",
+      "type": "tool"
+    },
+    {
+      "from": "petroleum.refining",
+      "to": "petroleum",
+      "type": "tool"
+    },
+    {
+      "from": "petroleum.refining",
+      "to": "petroleum.extraction",
+      "type": "material"
+    },
+    {
+      "from": "petroleum.refining",
+      "to": "chemistry.distillation",
+      "type": "tool"
+    },
+    {
+      "from": "petroleum.refining.distillation",
+      "to": "petroleum.refining",
+      "type": "tool"
+    },
+    {
+      "from": "petroleum.refining.cracking",
+      "to": "petroleum.refining",
+      "type": "tool"
+    },
+    {
+      "from": "petroleum.refining.cracking",
+      "to": "petroleum.refining.distillation",
+      "type": "material"
+    },
+    {
+      "from": "petroleum.petrochemicals",
+      "to": "petroleum",
+      "type": "tool"
+    },
+    {
+      "from": "petroleum.petrochemicals",
+      "to": "petroleum.refining",
+      "type": "material"
+    },
+    {
+      "from": "petroleum.petrochemicals.steam-cracking",
+      "to": "petroleum.petrochemicals",
+      "type": "tool"
+    },
+    {
+      "from": "energy.engine",
+      "to": "petroleum.refining",
+      "type": "material"
     }
   ]
 }

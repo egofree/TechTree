@@ -16,6 +16,8 @@ graph TD
     computing["Computing & Automation"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    automation("Automation & Robotics")
+    automation_equipment-communication("Equipment Communication")
     electronics_assembly("Electronics Assembly")
     energy_electricity("Electricity Generation & Distribution")
     machine-tools("Machine Tools Bootstrap")
@@ -46,6 +48,8 @@ graph TD
     computing_mechanical -.-> mathematics_core-mathematics
     computing_digital-logic -.-> mathematics_formal-systems
     quality-control -.-> computing
+    automation -.-> computing
+    automation_equipment-communication -.-> computing
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -67,6 +71,8 @@ graph TD
     class computing_electronic capability
     class computing_digital-logic capability
     class computing_data-storage capability
+    class automation external
+    class automation_equipment-communication external
     class electronics_assembly external
     class energy_electricity external
     class machine-tools external

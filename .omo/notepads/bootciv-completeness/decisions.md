@@ -39,3 +39,39 @@
 **Minimum domain size:** 3 capabilities (pumps, chambers, measurement) with 664 lines of substantive content. Exceeds minimum threshold.
 
 **Organizing axis:** Functional — capabilities grouped by vacuum system function (pumping systems, chamber design and sealing, measurement and diagnostics).
+
+## 2026-05-25: Ultra-Pure Materials Domain — Standalone (not merged with Chemistry or Water)
+
+**Context:** Semiconductor manufacturing requires 99.9999999% (9N) purity chemicals and 18.2 MΩ·cm water. Standard industrial chemistry produces 95-99.5% purity. This is a fundamentally different engineering discipline requiring distinct infrastructure, knowledge, and practitioners.
+
+**SIK Placement Test (schema-spec.md §6) applied:**
+
+### Ultra-Pure Materials vs Chemistry
+
+| Dimension | Ultra-Pure vs Chemistry | Threshold | Pass? |
+|-----------|------------------------|-----------|-------|
+| Infrastructure overlap | ~15% (cleanrooms, PFA piping, sub-micron filters vs distillation columns, reactors, bulk storage) | >50% | No |
+| Knowledge overlap | ~20% (ppt-level contamination physics, TOC analysis, ICP-MS vs bulk synthesis, % purity, reaction kinetics) | >50% | No |
+| Practitioner overlap | ~15% (ultra-pure water specialists, cleanroom process engineers vs industrial chemists, plant operators) | >50% | No |
+
+### Ultra-Pure Materials vs Water Infrastructure
+
+| Dimension | Ultra-Pure vs Water | Threshold | Pass? |
+|-----------|-------------------|-----------|-------|
+| Infrastructure overlap | ~20% (RO membranes used in both, but ultra-pure adds mixed-bed DI, UV, ozonation, sub-micron filtration, cleanroom distribution) | >50% | No |
+| Knowledge overlap | ~15% (basic water chemistry shared, but ultra-pure requires semiconductor contamination physics, trace metal analysis at ppt levels) | >50% | No |
+| Practitioner overlap | ~10% (ultra-pure process engineers vs civil/water engineers) | >50% | No |
+
+**Result:** All dimensions below 20% for both comparisons. Ultra-Pure Materials is a **standalone domain**.
+
+**Justification:** Ultra-pure materials production represents a qualitatively different engineering discipline from both standard industrial chemistry and municipal water treatment. The purity gap is enormous — standard chemistry produces 95-99.5% purity (2-3N), while semiconductor fabrication demands 9N+ (99.9999999%) for chemicals and 18.2 MΩ·cm resistivity for water. This 6-7 order of magnitude difference in impurity tolerance requires:
+
+1. **Distinct infrastructure**: Cleanroom-class facilities (ISO 4-6), PFA/PTFE piping systems, sub-micron membrane filtration, UV/ozonation systems, dedicated storage in fluoropolymer vessels — none of which exist in standard chemical plants or water treatment facilities.
+2. **Distinct knowledge base**: Part-per-trillion (ppt) contamination physics, total organic carbon (TOC) analysis, inductively coupled plasma mass spectrometry (ICP-MS), trace metal speciation, dissolved oxygen control at ppb levels, bacterial endotoxin management.
+3. **Distinct practitioners**: Ultra-pure water system engineers, cleanroom contamination control specialists, trace analytical chemists — these are semiconductor-industry roles, not industrial chemistry or civil engineering roles.
+
+The existing [Water Treatment](../water/sem-tech-water-treatment.md) document covers ED desalination for brackish water to drinking water standards (<500 mg/L TDS). The existing [Solvents](../chemistry/solvents.md) document covers industrial solvents at ACS reagent grade (~99.5%). Neither addresses the 9N+ purity regime required for semiconductor wafer processing.
+
+**Minimum domain size:** 3 capabilities (ultra-pure water, high-purity chemicals, analytical verification) exceeding 600 lines of substantive content. Exceeds minimum threshold.
+
+**Organizing axis:** Process Chain — capabilities ordered by the material flow from water purification through chemical purification to analytical verification of purity levels.

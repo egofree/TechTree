@@ -1,0 +1,168 @@
+Task 24: Environmental Health & Safety Domain
+==============================================
+Date: 2026-05-25
+Status: COMPLETE
+
+SIK PLACEMENT TEST
+==================
+
+Test: EHS domain vs health/sanitation vs health/occupational-health vs chemistry
+
+1. EHS vs health.occupational-health:
+   - Infrastructure overlap: ~45% (both use ventilation, PPE, emergency equipment,
+     but EHS needs gas cabinets, scrubbers, abatement systems, cleanroom PPE)
+   - Knowledge overlap: ~40% (both share toxicology, exposure limits, PPE methodology,
+     but semiconductor EHS needs hydride gas chemistry, pyrophoric materials, NFPA ratings)
+   - Practitioner overlap: ~40% (both safety professionals, but semiconductor EHS
+     engineers specialize in fab processes, hydride gas handling, cleanroom operations)
+   Decision: <50% on all three axes → DISTINCT DOMAIN
+
+2. EHS vs health.sanitation:
+   - Infrastructure overlap: ~15% (very different infrastructure)
+   - Knowledge overlap: ~10% (water safety vs chemical toxicology)
+   - Practitioner overlap: ~10% (sanitation engineers vs EHS specialists)
+   Decision: <50% → clearly separate
+
+3. EHS vs chemistry:
+   - Infrastructure overlap: ~20% (chemistry labs vs EHS monitoring)
+   - Knowledge overlap: ~25% (shared chemical properties knowledge)
+   - Practitioner overlap: ~15% (chemists vs safety professionals)
+   Decision: <50% → clearly separate
+
+SIK DECISION: EHS is a distinct domain. <50% overlap on all three SIK dimensions
+against health/sanitation, health/occupational-health, and chemistry.
+No override conditions apply.
+
+DELIVERABLES
+============
+
+Domain files created:
+  docs/ehs/index.md (11 lines - domain index)
+  docs/ehs/chemical-safety.md (319 lines)
+  docs/ehs/ventilation-exhaust.md (206 lines)
+  docs/ehs/ppe.md (229 lines)
+  docs/ehs/emergency-response.md (246 lines)
+  docs/ehs/waste-management.md (217 lines)
+  Total: 1,228 lines across 5 capability files (all ≥200 lines)
+
+Nodes added (6 total):
+  ehs (domain)
+  ehs.chemical-safety (capability)
+  ehs.ventilation-exhaust (capability)
+  ehs.ppe (capability)
+  ehs.emergency-response (capability)
+  ehs.waste-management (capability)
+
+Edges added (10 total):
+  ehs → chemistry (tool)
+  ehs → health.occupational-health (tool)
+  ehs.chemical-safety → chemistry.hydrogen-silane (tool)
+  ehs.chemical-safety → chemistry.acids-bases (tool)
+  ehs.ventilation-exhaust → gas-handling (tool)
+  ehs.ppe → polymers (material)
+  ehs.waste-management → chemistry.acids-bases (tool)
+  ehs.emergency-response → ehs.chemical-safety (tool)
+  ehs.emergency-response → ehs.ppe (tool)
+
+SPECIFIC EXPOSURE LIMITS INCLUDED
+==================================
+
+Hydrofluoric Acid (HF):
+  TLV-TWA: 0.5 ppm, PEL: 3 ppm, IDLH: 30 ppm
+  NFPA 704: Health 4, Flammability 0, Instability 1, COR
+
+Silane (SiH4):
+  TLV-TWA: 5 ppm, PEL: 5 ppm, IDLH: withdrawn (pyrophoric)
+  NFPA 704: Health 1, Flammability 4, Instability 3, PYRO
+
+Arsine (AsH3):
+  TLV-TWA: 0.005 ppm (5 ppb), PEL: 0.05 ppm, IDLH: 3 ppm
+  NFPA 704: Health 4, Flammability 4, Instability 2
+
+Phosphine (PH3):
+  TLV-TWA: 0.3 ppm, TLV-STEL: 1 ppm, PEL: 0.3 ppm, IDLH: 50 ppm
+  NFPA 704: Health 4, Flammability 4, Instability 2
+
+Hydrogen Chloride (HCl):
+  TLV-Ceiling: 2 ppm, PEL: 5 ppm, IDLH: 50 ppm
+  NFPA 704: Health 3, Flammability 0, Instability 1, COR
+
+Ammonia (NH3):
+  TLV-TWA: 25 ppm, TLV-STEL: 35 ppm, PEL: 50 ppm, IDLH: 300 ppm
+  NFPA 704: Health 3, Flammability 1, Instability 0
+
+Sulfuric Acid (H2SO4):
+  TLV-TWA: 0.2 mg/m3, IDLH: 15 mg/m3
+  NFPA 704: Health 3, Flammability 0, Instability 2, COR
+
+Hydrogen Peroxide (H2O2):
+  TLV-TWA: 1 ppm, IDLH: 75 ppm
+  NFPA 704: Health 3, Flammability 0, Instability 3, OXY
+
+Nitrogen Trifluoride (NF3):
+  TLV-TWA: 10 ppm
+
+TOPICS COVERED
+==============
+
+Chemical Safety:
+  - Semiconductor process chemicals (HF, silane, arsine, phosphine, HCl, NH3)
+  - TLV-TWA, PEL, IDLH, ERPG values for each chemical
+  - NFPA 704 diamond ratings with full explanations
+  - Chemical compatibility matrix
+  - Gas classification (pyrophoric, toxic, corrosive, flammable, inert, oxidizer)
+  - SDS requirements (GHS 16-section)
+  - Exposure monitoring protocols (continuous gas monitoring, personal sampling)
+  - Additional chemicals: piranha, H2O2, NF3, PFCs (CF4, C2F6)
+
+Ventilation & Exhaust:
+  - LEV capture velocities for semiconductor operations
+  - Fume hood design (face velocity 0.4-0.6 m/s)
+  - Wet bench exhaust systems
+  - Gas cabinet design (200+ CFM, fire-rated, gas detection)
+  - Duct material selection (PVDF for HF, 316L SS for toxic gases)
+  - Point-of-use abatement (thermal oxidizer, plasma, wet/dry scrubbers)
+  - Central scrubbing systems (acid, toxic gas)
+  - Cleanroom air management (makeup air, pressurization, energy recovery)
+  - Maintenance and inspection schedules
+
+PPE:
+  - PPE selection matrix by operation (HF, silane, arsine, solvents, CMP)
+  - Respiratory protection (half-face, full-face, PAPR, SCBA, supplied air)
+  - Chemical glove selection (neoprene for HF, nitrile for solvents, butyl for ketones)
+  - Eye/face protection (safety glasses, goggles, face shields)
+  - Body protection (chemical suits, aprons, cleanroom garments)
+  - PPE program management (written program, training, fit testing)
+  - Specialized PPE kits (HF station, gas leak response)
+
+Emergency Response:
+  - Eyewash station specifications (0.4 L/min, tepid water, 10-second rule)
+  - Deluge shower specifications (75 L/min, 15-minute continuous)
+  - Spill kits by type (acid, HF-specific, solvent, hydride gas)
+  - Chemical-specific first aid (HF, silane fire, arsine, phosphine)
+  - Evacuation procedures (3-tier alarm system)
+  - Emergency response organization
+  - Drill requirements
+
+Waste Management:
+  - Waste stream classification table
+  - Fluoride treatment (CaCl2 precipitation → CaF2)
+  - Acid neutralization (NaOH)
+  - Heavy metal treatment (hydroxide/sulfide precipitation, Cr(VI) reduction)
+  - Solvent recovery (distillation)
+  - TMAH biological degradation
+  - Effluent monitoring (continuous and periodic parameters)
+  - Waste minimization strategies
+  - Waste segregation rules
+
+VALIDATION
+==========
+  generate-diagrams.sh: PASS (35 domain diagrams + overview)
+  validate.sh: 17/17 PASS
+  - DAG acyclicity: PASS
+  - Edge references: PASS
+  - Tag vocabulary: PASS
+  - Edge types: PASS
+  - Hierarchy: PASS
+  - Taxonomy: PASS
+  - Glossary: PASS

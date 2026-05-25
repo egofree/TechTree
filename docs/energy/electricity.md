@@ -1,12 +1,12 @@
 # Electricity Generation & Distribution
 
 > **Node ID**: energy.electricity
-> **Also covers**: `chemistry.electrolysis`, `machine-tools.joining`
+> **Also covers**: `chemistry.electrolysis`, `machine-tools.joining`, `energy.power-systems`
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`chemistry`](../chemistry/index.md), [`machine-tools`](../machine-tools/index.md), [`metals.iron-steel`](../metals/iron-steel.md), [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md)
 > **Enables**: [`energy.electric-furnaces`](electric-furnaces.md), [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`machine-tools.joining`](../machine-tools/joining.md), [`silicon.mg-si-production`](../silicon/mg-si-production.md), [`chemistry.air-separation`](../chemistry/air-separation.md), [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md), [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md)
 > **Timeline**: Years 15-30
-> **Outputs**: generators, motors, transformers, wire_cables, electricity, insulated_wire, electric_arc_furnaces, resistance_heaters, eaf_steel, internal_combustion_engines, ...
+> **Outputs**: generators, motors, transformers, wire_cables, electricity, insulated_wire, clean_power_systems, ups_systems, backup_generators, power_distribution_units, electric_arc_furnaces, resistance_heaters, eaf_steel, internal_combustion_engines, ...
 
 ### Electricity Generation
 
@@ -195,8 +195,207 @@ Three-phase AC power is the standard for industrial generation and distribution.
 - **Star (wye) connection**: Each phase winding connects to a common neutral point. Provides both line-to-line and line-to-neutral voltages. Neutral carries only the unbalanced current between phases. Used for distribution transformers and generator windings.
 - **Delta connection**: Phase windings connect in a closed loop (triangle). No neutral point. Only line-to-line voltage available. Used for transformer primary windings and some motor configurations. Delta-wye transformer configurations (delta primary, wye secondary) provide a neutral for distribution while blocking zero-sequence fault currents from passing through.
 
+### Electric Power Systems for Semiconductor Fabrication
+
+Semiconductor fabrication equipment demands power quality far exceeding general industrial requirements. A voltage sag of just 10% lasting less than one cycle (16.7 ms at 60 Hz) can cause lithography equipment to abort exposures, ion implanters to lose beam current calibration, and etch chambers to drift out of recipe parameters — destroying work-in-progress worth thousands to millions of dollars per wafer lot. This section specifies the power infrastructure needed to deliver ultra-clean, ultra-reliable electricity to fab tools.
+
+#### Clean Power Requirements
+
+Semiconductor fab equipment power quality specifications:
+
+| Parameter | ITI (CBEMA) Curve Limit | Typical Fab Spec | Consequence of Violation |
+|-----------|------------------------|-----------------|------------------------|
+| Voltage sag (steady-state) | ±10% of nominal | ±5% of nominal | Process drift, tool fault |
+| Voltage sag (transient, <1 cycle) | <20% deviation allowed | <10% deviation, <0.5 cycle | Tool abort, wafer scrap |
+| Voltage swell (transient) | <120% of nominal | <110% of nominal | Insulation stress, tool damage |
+| Total harmonic distortion (THD) | <5% (IEEE 519) | <3% voltage THD | Motor overheating, capacitor failure |
+| Frequency deviation | ±0.5 Hz | ±0.1 Hz | Synchronous motor speed errors |
+| Phase imbalance | <2% | <1% | Motor derating, excessive neutral current |
+| Impulsive transient | No spec | <50V peak above nominal | Sensitive electronics damage |
+
+The **ITI (CBEMA) curve** defines the voltage tolerance envelope for information technology equipment. The curve has three regions: (1) steady-state tolerance of ±10% for continuous operation, (2) a voltage-sag region where shorter events allow deeper sags (a 20 ms sag can tolerate dropping to 70% voltage), and (3) a prohibited region where any excursion causes equipment malfunction. Semiconductor tools operate closer to the center of the envelope than general IT equipment.
+
+**Voltage sag analysis**: The most common power quality problem in fabs. A sag is a reduction in RMS voltage between 10% and 90% of nominal, lasting 0.5 cycles to 1 minute. Most sags are caused by faults on the utility transmission or distribution system (a fault 20 km away on a shared feeder can cause a 30% sag at the fab). Starting large motors (chillers, compressors) within the facility is another common cause — a 500 HP chiller motor draws 5-7× rated current during starting, causing a voltage dip proportional to the system impedance.
+
+**Sag mitigation hierarchy**:
+1. **Source separation**: Dedicated feeders from the utility substation for sensitive fab loads, separate from less-critical building loads (HVAC, office, parking).
+2. **Impedance reduction**: Larger conductors, shorter runs, fewer transformers between source and load. Each transformer adds impedance that increases voltage drop during sags.
+3. **Voltage regulation**: Automatic voltage regulators (AVR) on each feeder. Ferroresonant regulators maintain ±1% output voltage with ±15% input variation, but are limited to <50 kVA due to size and heat. Tap-changing regulators handle larger loads but respond in 2-6 cycles.
+4. **Active compensation**: Solid-state voltage sag compensators (series-connected IGBT inverters that inject compensation voltage during sags). Response time <0.5 cycle. Sizes up to 2 MVA. Expensive but effective for the most sensitive tools.
+5. **UPS systems**: Full isolation from utility events. Required for tools that cannot tolerate any sag.
+
+#### Power Conditioning Equipment
+
+**Isolation transformers**: Shielded isolation transformers (electrostatic shield between primary and secondary windings) attenuate high-frequency noise (>1 kHz) and common-mode voltage. K-factor rated transformers (K-1 through K-30) are designed to handle harmonic loads without overheating. K-factor quantifies the additional eddy current losses from harmonic currents: K-1 = linear load, K-4 = moderate harmonics, K-13 = typical VFD load, K-20 = high harmonic load. A standard transformer loaded beyond its K-rating overheats and fails prematurely. For semiconductor fabs with many switching power supplies and VFDs, K-13 to K-20 isolation transformers on each power distribution unit are standard.
+
+**Surge protection devices (SPDs)**: Metal oxide varistor (MOV) based surge suppressors installed at service entrance (Type 1), distribution panels (Type 2), and point-of-use (Type 3). Cascaded SPDs provide layered protection:
+- **Type 1** (service entrance): Withstands direct lightning surges (10/350 μs waveform, 50 kA impulse). Clamps voltage to ~2500V on a 480V system.
+- **Type 2** (panel): Handles indirect surges and switching transients (8/20 μs waveform, 40-80 kA). Clamps to ~1200V on 480V system.
+- **Type 3** (point of use): Final clamping stage (8/20 μs, 10-20 kA). Clamps to ~800V at the equipment terminals.
+
+Coordination between stages: Each downstream SPD operates at a lower clamping voltage, providing progressively tighter protection. The impedance of the wiring between stages ensures the upstream device absorbs the bulk of the energy while the downstream device provides the final clamping. Minimum 10 m of wire between SPD stages for proper coordination.
+
+**Active harmonic filters**: Shunt-connected power electronics that inject canceling harmonic currents into the system. Monitor line current in real time, compute the harmonic content via FFT, and generate inverse harmonics. Typical performance: reduces THD from 15-25% (unfiltered) to <5% (filtered). Ratings: 30-500 A per unit, multiple units in parallel for larger installations. Essential for fabs with many variable frequency drives (VFDs) on HVAC systems and process cooling.
+
+#### UPS Systems for Semiconductor Fabs
+
+Semiconductor fabs require **online (double-conversion) UPS** topology exclusively. In this topology, all power flows through the rectifier → DC bus → inverter path continuously. The AC output is entirely regenerated from the DC bus, providing complete isolation from input power quality events. There is no transfer time — the inverter is always supplying the load.
+
+**Double-conversion UPS operation**:
+- **Normal mode**: Utility AC → rectifier (AC→DC) → DC bus (battery float) → inverter (DC→AC) → load. Efficiency: 90-94%. The rectifier maintains the battery at float voltage (2.25-2.30 VPC for lead-acid, corresponding to 54.0-55.2 V for a 48V system). The inverter synthesizes a clean sine wave output with <2% THD, ±1% voltage regulation, and ±0.01 Hz frequency stability.
+- **Battery mode**: On utility failure, the rectifier ceases operation. The battery discharges through the inverter to maintain output. Zero transfer time — the load sees no disturbance. Battery runtime: typically 10-30 minutes at full load (sized to bridge to generator start). For a 500 kVA UPS at 0.9 power factor: 450 kW × 15 min = 112.5 kWh battery. At 480V DC bus: C = 112,500 / (480 × 0.8 DOD) = 293 Ah string. Two parallel strings of 240 cells (2V each) provide 293 Ah at 480V. Battery weight: ~5,000 kg lead-acid.
+- **Bypass mode**: For maintenance or UPS fault, a static bypass switch (SCR-based, transfer time <0.25 ms) connects the utility directly to the load. The bypass path provides no conditioning or backup — used only for maintenance windows.
+
+**Rotary UPS (motor-generator set)**: A continuously spinning motor-generator provides ride-through energy via rotational inertia. The AC motor (or rectifier + DC motor) drives an AC generator through a heavy flywheel. On utility failure, the flywheel's kinetic energy (E = ½Iω²) maintains output for 5-15 seconds — enough time for a diesel generator to start and assume the load. Typical flywheel: 200-500 kg at 1800-3600 RPM, storing 5-25 MJ (1.4-7 kWh). Rotary UPS advantages: no battery maintenance, unlimited cycle life, tolerant of high ambient temperatures. Disadvantages: larger footprint, higher mechanical maintenance (bearings), shorter ride-through than batteries. Often used as the first stage in a flywheel + diesel combination, eliminating batteries entirely.
+
+**UPS sizing for fab tools**: Sum the nameplate power ratings of all protected tools, add 20-25% growth margin, and select the next standard UPS size. Typical fab UPS configurations:
+- **Immersive lithography scanners**: 80-120 kVA per tool, dedicated UPS (no sharing).
+- **Etch chambers**: 30-60 kVA per chamber, grouped in banks of 4-6 on a shared 300-400 kVA UPS.
+- **Ion implanters**: 100-200 kVA, dedicated UPS with harmonic filtering (implanters have pulsed loads with high crest factor).
+- **CMP tools**: 40-80 kVA, shared UPS acceptable.
+- **Metrology equipment**: 5-15 kVA, rack-mounted UPS (3-10 kVA) sufficient.
+
+**Total fab UPS capacity**: A medium-sized fab (30,000 WSPM) typically has 3-8 MVA of UPS capacity across multiple units, providing clean power to 60-80% of production tools. Non-critical loads (facility HVAC, lighting, office) run on conditioned utility power without UPS.
+
+#### Backup Power Generation
+
+**Diesel generators**: The primary backup for extended utility outages. Diesel generators provide reliable, quick-starting standby power with well-understood maintenance requirements.
+
+- **Rating**: Standby-rated diesel generators are sized for the maximum expected load with no overload margin. Typical fab installation: 2-4 generators of 1-3 MW each, operating in parallel. A 30,000 WSPM fab typically needs 8-15 MW of total standby generation capacity (including cooling, process utilities, and fab tools).
+- **Starting reliability**: Modern diesel generators achieve rated speed and accept load within 10-15 seconds of start signal. Pre-lubricated, jacket-water-heated engines in a ready-to-start state. Monthly no-load test runs and annual load-bank tests verify reliability. Target: >98% start reliability per attempt. Two consecutive failures (rare) trigger alarm and manual intervention.
+- **Fuel storage**: Diesel fuel storage sized for 24-72 hours of full-load operation. A 2 MW generator at full load consumes ~530 L/hr of diesel. 48-hour supply: 25,440 L (6,700 gallons). Above-ground double-walled steel tanks with spill containment. Fuel polishing system (continuous filtration and water removal) maintains fuel quality — untreated diesel degrades in 6-12 months (microbial growth, oxidation, water accumulation).
+- **Parallel operation**: Multiple generators synchronized to a common bus. Governor controls match speed (frequency), voltage regulator matches voltage, and synchronizer matches phase angle before closing the generator breaker. Load sharing via droop control (each generator's frequency drops slightly with increasing load, causing proportional sharing) or isochronous control (electronic load sharing controller maintains equal load distribution).
+
+**Fuel cells**: Phosphoric acid fuel cells (PAFC) or molten carbonate fuel cells (MCFC) provide continuous baseload power with very low emissions. Efficiency: 40-50% electrical (85% with cogeneration). Natural gas or hydrogen fueled. Response time: 3-6 hours to reach full output from cold start, making them unsuitable as primary backup but excellent for extended outages where diesel fuel is limited. A 400 kW PAFC unit occupies approximately one standard shipping container footprint and operates at 150-200°C.
+
+**Automatic transfer switch (ATS)**: Monitors utility power quality. When voltage or frequency deviates beyond thresholds (typically ±15% voltage or ±2 Hz frequency) for longer than a configurable delay (0-5 seconds, typically set to 1-3 seconds to ride through momentary sags), the ATS signals the generator to start, waits for generator to reach acceptable voltage/frequency, then transfers the load from utility to generator. Transfer time with motorized switches: 3-10 seconds. With static transfer switches (SCR-based): <0.25 seconds. The ATS also transfers back to utility when power is restored and stable for a minimum return time (typically 15-30 minutes to avoid cycling on intermittent utility power).
+
+#### Power Distribution Architecture
+
+The fab power distribution system is a hierarchical network from the utility service entrance to individual tool connections:
+
+**Service entrance**: 15-35 kV utility feeders (two independent feeders for redundancy) terminate at the main switchgear. Metal-clad switchgear with vacuum or SF₆ circuit breakers rated for the available fault current (typically 25-63 kA interrupting capacity). Downstream step-down transformers (15 kV → 480V, oil-immersed or dry-type, 1500-3000 kVA each) feed the low-voltage distribution system.
+
+**Main distribution panels**: 480V three-phase, 3-wire or 4-wire panels with molded-case circuit breakers. Main bus rated 2000-4000 A. Branch breakers feed downstream UPS systems, power distribution units (PDUs), and mechanical equipment. All panels have ground-fault protection (GFP) at the main breaker and ground-fault indication on branch circuits.
+
+**Power distribution units (PDUs)**: Floor-mounted cabinets containing an isolation transformer (K-13 or K-20 rated, typically 75-225 kVA), panelboards with branch circuit breakers, and output receptacles or hardwired connections. The PDU isolation transformer creates a separately derived system with its own grounding point, reducing common-mode noise. Output: 208Y/120V (most common for semiconductor tools) or 480V for large loads. Each PDU serves 4-12 tools depending on their power requirements.
+
+**Busway (bus duct)**: For high-density tool areas where running individual cables from panels to tools would be impractical. Aluminum or copper bus bars enclosed in a grounded metal housing, with plug-in tap boxes at regular intervals (every 0.6-1.0 m). Available ratings: 400-4000 A. Tap boxes accept circuit breakers or fused switches to feed individual tools. Advantages over cable: easier layout changes (add/move tools by plugging into different tap boxes), higher current density, and visible bus condition through inspection covers.
+
+**Branch circuits**: Individual tool connections from PDU or busway tap to the tool's power input. Cable types: THHN/THWN (thermoplastic insulated, nylon jacket) in conduit for general purpose, or MC cable (metal-clad, armored) for faster installation. Branch circuit sizing per NEC Table 310.15(B)(16): continuous loads at 125% of rated current. Example: a 60A tool connection requires 75A overcurrent protection and 4 AWG copper conductors (85A ampacity at 75°C).
+
+**Receptacle standards**: Semiconductor tools use NEMA configurations: L6-30 (30A, 250V, locking), L6-50, L21-30 (30A, 120/208V, 3-phase, locking), and hardwired connections for tools >50A. Locking receptacles prevent accidental disconnection from vibration. Color-coded by voltage: 208V = blue, 480V = brown/orange, 120V = black.
+
+#### Power Redundancy Configurations
+
+- **N+1**: One additional UPS or generator beyond what is required to carry the full load. If any single unit fails, the remaining units carry the full load. Most common configuration for cost-effective redundancy. Example: 3 UPS units of 500 kVA each for a 1000 kW load — any two can carry the load.
+- **2N**: Two completely independent power paths from service entrance to tool. Each path carries 50% of the load (or 100% in static-transfer-switch configurations where one path is primary and the other is standby). A failure of any component in one path does not affect the other. Used for the most critical tools (lithography scanners, process-critical implanters). Requires double the infrastructure investment.
+- **2(N+1)**: Two independent paths, each with N+1 redundancy. Highest reliability. Used in advanced fabs where unplanned downtime costs exceed $1M per hour. A 30,000 WSPM fab might use 2N for lithography and implant areas, N+1 for etch and deposition, and single-path with UPS for CMP and metrology.
+
+**Static transfer switch (STS)**: Solid-state (SCR-based) switch that transfers between two independent power sources in <0.25 cycles (4 ms). Used at the tool level to provide dual-path redundancy without requiring the tool itself to have dual power inputs. The STS continuously monitors both sources and transfers to the alternate source if the active source deviates from tolerance. "Break-before-make" transfer (brief interruption <4 ms) or "make-before-make" (momentary paralleling of both sources, requiring source synchronization).
+
+#### Grounding for Sensitive Equipment
+
+Semiconductor fab grounding goes beyond the safety grounding described earlier. Two distinct grounding systems serve different purposes:
+
+**Safety grounding** (equipment ground): Connects all exposed metal parts to the building grounding system. Provides a low-impedance fault return path for ground faults, causing overcurrent devices to trip quickly. Green or green/yellow insulated conductors. Sized per NEC Table 250.122: 250 kcmil for a 3000A service, 2 AWG for a 200A feeder. Grounding electrode system: building steel, concrete-encased electrode (rebar in foundation), ground ring (bare copper buried 0.8 m deep, minimum 2 AWG), and ground rods (5/8" × 3 m copper-clad steel, driven into soil). Target resistance to earth: <5 Ω for the entire electrode system.
+
+**Equipment grounding for noise reduction (signal reference ground)**: Establishes an equipotential plane that minimizes voltage differences between equipment chassis. In a fab, this means bonding all equipment frames, cable trays, conduit, and structural steel to form a continuous low-impedance grid at all frequencies from DC to >10 MHz. Techniques:
+- **Grounding grid**: Bare copper conductor (4 AWG minimum) laid in a grid pattern under the raised floor, bonded to building steel at regular intervals (every 6-10 m). Grid mesh size: 0.6 m × 0.6 m to 3 m × 3 m depending on noise sensitivity.
+- **Single-point grounding**: All equipment grounding conductors terminate at a single reference point (the grounding bus bar in the main panel), preventing ground loops. Used for low-frequency (<100 kHz) sensitive equipment.
+- **Multi-point grounding**: Equipment bonded to the grounding grid at multiple points. Lower impedance at high frequencies (>1 MHz) due to shorter ground paths. Used for RF and high-speed digital equipment.
+- **Hybrid approach**: Safety grounds at multiple points, signal reference through the equipotential grid. Most semiconductor tools use this approach.
+
+**Grounding conductor impedance**: At 60 Hz, a copper conductor's impedance is essentially its DC resistance. At 10 MHz, skin effect and inductance dominate — a round wire's impedance increases dramatically. Flat copper strap (25 mm × 3 mm) has lower RF impedance than round wire of equivalent cross-section. For fab signal reference grounds, flat copper straps or braided conductors are used.
+
+#### Power Quality Monitoring
+
+Continuous power quality monitoring at multiple points throughout the electrical distribution system provides early warning of degradation and data for root-cause analysis of tool faults:
+
+**Monitoring points**:
+1. **Utility service entrance**: Permanent power quality meter (voltage, current, power, energy, harmonics, sags/swells, transients, flicker). Records all events with time stamps. Used for utility power quality compliance verification.
+2. **UPS input and output**: Confirm UPS is properly conditioning power. Compare input vs. output THD, voltage regulation, and frequency stability. Verify battery discharge events correlate with utility disturbances.
+3. **PDU output**: Verify power quality at the tool connection point. Detect overloaded transformers, loose connections (indicated by increasing voltage drop under load), and harmonic resonance.
+4. **Individual tool input**: For the most sensitive tools (lithography scanners), a dedicated power quality monitor at the tool's power terminals captures any event that might correlate with process errors.
+
+**Measured parameters**:
+- **Voltage THD**: Total harmonic distortion of the voltage waveform. IEEE 519 limit: <5% at the point of common coupling. Fab internal standard: <3% at the PDU output.
+- **Current THD**: Indicates the harmonic current drawn by non-linear loads (VFDs, switch-mode power supplies, UPS rectifiers). High current THD causes voltage distortion through system impedance.
+- **Voltage sag count**: Number of sags per month below various thresholds (90%, 80%, 70%, 50% of nominal). Typical industrial site: 10-30 sags per month below 90%. Well-designed fab: <2 sags per month below 90% at the PDU output.
+- **Phase imbalance**: (Max deviation from average) / average × 100%. Causes motor overheating and transformer derating.
+- **Power factor**: Displacement (cos φ) and true (including harmonics). Low power factor wastes capacity and may incur utility penalties.
+- **Load profile**: Real-time and historical load trends for capacity planning and anomaly detection.
+
+**Power quality instruments**: Clamp-on power analyzers (3-phase, measures all parameters above, data logging to SD card or Ethernet) for portable surveys. Permanent panel-mounted meters (Modbus or Ethernet communication to building management system) for continuous monitoring. Calibration: verify accuracy annually against a traceable reference standard.
+
+#### Medium-Voltage Distribution Within the Fab
+
+Large semiconductor fabs often use medium-voltage (4.16 kV or 13.8 kV) distribution within the building to reduce cable sizes and line losses. A 15 MW electrical load at 480V would require 18,000 A of current capacity — an impractical number of large cables. At 13.8 kV, the same load draws only 628 A, easily handled by a few parallel cables per phase.
+
+**Medium-voltage switchgear**: Metal-clad vacuum circuit breakers (4.16-15 kV class) in vertical sections, each containing a draw-out breaker module for safe maintenance. Interrupting capacity: 25-63 kA. Relay protection: overcurrent (50/51), ground fault (51G), differential (87B for bus protection). The relay coordination study ensures that a fault on a branch circuit trips only the nearest upstream breaker, not the main breaker — maintaining power to unaffected areas.
+
+**Step-down transformers within the facility**: 4.16 kV → 480V or 13.8 kV → 480V dry-type transformers (Class 220°C insulation system, 80°C rise rated). Located in electrical rooms on each floor or at each major load center. Typical sizes: 1000-3000 kVA. Dry-type (no oil) preferred for indoor installation — eliminates fire risk and the need for oil containment. Cast-coil construction (windings encapsulated in epoxy resin) provides superior moisture and contamination resistance.
+
+**Electrical room design**: Each electrical room houses the medium-voltage switchgear, step-down transformers, low-voltage switchboards, UPS systems, and PDU transformers for its zone. Requirements: minimum 1 m clear working space in front of all panels (NEC 110.26), fire-rated walls (2-hour minimum) separating electrical rooms from production areas, temperature controlled (UPS and transformer heat output: 5-15 kW per room requires dedicated HVAC), and emergency lighting.
+
+#### Cable Management and Routing
+
+Semiconductor fabs route electrical cables through a hierarchical system of cable trays, conduits, and busways:
+
+- **Cable trays**: Ladder-type (horizontal rungs) or solid-bottom trays in interstitial spaces between floors. Segregated by voltage level: medium-voltage (tray 1), low-voltage power (tray 2), control and communication (tray 3). Minimum separation: 300 mm between power and signal cables to reduce electromagnetic interference. Cable fill: <40% of tray cross-section for power cables (NEC 392.22), to allow heat dissipation.
+- **Conduit**: Rigid steel or EMT (electrical metallic tubing) for vertical risers and penetrations through fire-rated walls (fire-stopped with intumescent putty or ceramic fiber). Flexible metal conduit (FMC) for final connections to vibrating equipment (pumps, compressors).
+- **Fire-stopping**: Every cable penetration through fire-rated barriers is sealed with listed fire-stop systems. A fire in an electrical room must not spread to the cleanroom or production areas through cable openings.
+
+#### Energy Efficiency in Power Distribution
+
+Every stage of power conversion and distribution incurs energy losses. In a large fab, these losses amount to 3-8% of total electricity consumed — at 15 MW, that is 450-1200 kW of continuous waste heat:
+
+- **Transformer losses**: Core losses (hysteresis + eddy currents, constant regardless of load) and copper losses (I²R in windings, proportional to load squared). A 2000 kVA transformer at 75% load: core losses ~3 kW, copper losses ~12 kW = 15 kW total, or 1% of throughput. Using higher-efficiency transformers (amorphous core, reducing core losses by 60-70%) saves energy but at higher capital cost.
+- **UPS losses**: Double-conversion UPS operates at 90-94% efficiency. A 500 kVA UPS at full load wastes 30-50 kW as heat. For 24/7 operation: 263-438 MWh/year of waste heat. Modern high-efficiency UPS designs (eco-mode operation, bypassing the rectifier-inverter path when input power quality is acceptable) achieve 97-99% efficiency, but eco-mode provides no conditioning — acceptable only for less sensitive loads.
+- **Harmonic losses**: Non-linear loads (VFDs, rectifiers, switch-mode power supplies) draw distorted current waveforms containing harmonics (3rd, 5th, 7th, 11th, 13th...). Harmonic currents cause additional I²R heating in transformers, neutral conductors (3rd harmonics add in the neutral, potentially carrying 1.73× phase current in a 3-phase system with high triplen harmonics), and distribution equipment. Active harmonic filters (see above) mitigate this.
+- **Distribution cable losses**: I²R losses in cables from transformer to tool. Minimized by proper cable sizing (avoiding long runs of undersized cable) and using the highest practical distribution voltage.
+
+**Power usage effectiveness (PUE)**: Total facility power divided by IT/process power. A fab PUE of 1.5 means 50% additional power is consumed by cooling, distribution losses, and facility systems. Target for modern fabs: 1.2-1.4. Reducing power distribution losses contributes directly to PUE improvement.
+
+#### Coordination Study and Arc Flash Analysis
+
+**Protective device coordination**: Every overcurrent device (fuse, breaker) in the distribution hierarchy must be coordinated so that a fault on a branch circuit trips only the branch device, not the upstream feeder device. This requires a coordination study that plots the time-current curves of all devices on one graph and adjusts settings (long-time, short-time, instantaneous pickup) to ensure no overlap. A miscoordinated system trips the main breaker on a branch fault, shutting down the entire fab section.
+
+**Arc flash hazard analysis**: Required by NFPA 70E for worker safety. Calculates the incident energy (cal/cm²) at each panel and determines the required personal protective equipment (PPE) category for energized work. Key factors: available fault current (higher = more energy), fault clearing time (longer = more energy), and working distance (closer = more exposure). Mitigation: faster relays (reducing clearing time), current-limiting breakers (reducing peak fault current), remote racking (allowing breaker insertion/removal from a safe distance), and arc-resistant switchgear (channels arc energy away from the operator through top-mounted plenums).
+
+#### Emergency Power Off (EPO)
+
+Semiconductor fabs have Emergency Power Off systems that disconnect all electrical power to a tool bay or the entire fab in case of fire, toxic gas release, or other emergency:
+
+- **EPO stations**: Red mushroom-head push buttons at every fab exit and at intervals not exceeding 15 m along aisles. Pressing any EPO button trips a shunt-trip breaker on the main power feed to that zone.
+- **Sequenced shutdown**: EPO signal triggers UPS inverter shutdown (disconnects critical loads), closes fire dampers, shuts off process gas valves, and activates fire suppression. The sequence is designed to prevent hazardous conditions from worsening during evacuation.
+- **Restart procedure**: After an EPO event, power cannot be restored by simply resetting the EPO button. A documented restart procedure requires visual inspection of the affected zone, verification that the emergency condition has been resolved, and manual restart of each UPS and distribution breaker in sequence. Restart time: 2-8 hours depending on the number of tools that must re-initialize.
+
+#### Power Systems Commissioning and Testing
+
+Before a fab begins production, the entire electrical system undergoes rigorous commissioning to verify it meets design specifications:
+
+**Acceptance testing sequence**:
+1. **Visual inspection**: Verify all equipment is installed per drawings, nameplate ratings match specifications, grounding connections are tight, and conduit/cable tray routing matches design. Check for shipping damage, loose hardware, and debris inside panels.
+2. **Insulation resistance testing**: Megger test (megohmmeter) on all cables and transformers. Apply DC voltage (500V for 480V systems, 1000V for medium-voltage cables) and measure insulation resistance. Minimum acceptable: 1 MΩ per kV of rated voltage + 1 MΩ. A 480V cable should read >1.5 MΩ. Values below minimum indicate moisture ingress, damaged insulation, or manufacturing defects.
+3. **Contact resistance testing**: DLRO (digital low-resistance ohmmeter) on all bolted bus connections and breaker contacts. Measure in micro-ohms. Compare phase-to-phase: all three phases should be within 10% of each other. High resistance indicates loose bolts, corroded surfaces, or misaligned contacts — all fire hazards.
+4. **Transformer testing**: Turns ratio test (verify ratio matches nameplate), polarity/phase relation test, insulation power factor test (measures dielectric losses, detects moisture or contamination in insulation), and oil dielectric test for oil-filled units (minimum 26 kV breakdown voltage per ASTM D877).
+5. **Protective relay testing**: Inject calibrated current into each relay and verify it trips at the correct pickup value and time delay. Test communication between relays (differential, transfer trip schemes). Document all settings and test results.
+6. **Grounding system test**: Fall-of-potential method (IEEE 81) to measure the resistance of the grounding electrode system to earth. Target: <5 Ω for the complete system. Continuity test between all equipment frames and the grounding bus: <0.5 Ω.
+7. **Load bank testing**: Apply resistive load banks to each UPS and generator to verify full-load performance. Run each UPS at 100% load for minimum 4 hours to verify battery runtime, inverter thermal performance, and alarm functions. Test each generator at 100% load for 2 hours minimum, verifying voltage regulation (±2%), frequency stability (±0.5%), and exhaust/emissions parameters.
+
+**Integrated system test**: After individual component testing, simulate a complete utility failure: open the main breaker, verify all generators start and synchronize within 15 seconds, all UPS systems transfer to battery and then to generator, all critical tools remain powered throughout, and all power quality monitors show clean power at tool connections. This full-facility blackout test is typically performed once during initial commissioning and annually thereafter during scheduled maintenance outages.
+
+**Thermal imaging survey**: Annual infrared thermography of all electrical connections, bus joints, breaker terminals, and transformer connections under load. Hot spots (connections >10°C above ambient or >10°C above adjacent phases) indicate loose connections, corroded contacts, or overloaded conductors. Unaddressed hot spots degrade insulation and can cause catastrophic failure. Thermal imaging is performed under normal operating load — no shutdown required — making it a cost-effective preventive maintenance tool. All findings documented and prioritized for repair during the next scheduled outage.
+
+**Partial discharge monitoring**: For medium-voltage switchgear and transformers, continuous partial discharge sensors (high-frequency current transformers on ground connections, or ultrasonic sensors) detect insulation degradation before it progresses to complete failure. Partial discharges are small electrical sparks within insulation voids that erode insulation over months to years. Early detection allows scheduled replacement rather than unplanned outage. Sensors communicate to a central monitoring system that trends discharge activity over time and alarms on increasing trends.
+
 ### Limitations
 
+- **Clean power cost**: UPS and backup generation infrastructure can add 30-50% to the electrical system cost of a semiconductor fab. Double-conversion UPS wastes 6-10% of all power passing through it as heat, requiring additional cooling capacity.
+- **Generator emissions**: Diesel generators produce NOₓ, particulate matter, and CO₂. Emissions permits may limit annual run hours. Catalytic converters and diesel particulate filters reduce but do not eliminate emissions.
+- **Battery maintenance**: Lead-acid UPS batteries require periodic replacement (3-7 year typical life in float service), equalizing charges, electrolyte maintenance, and environmental controls (20-25°C). A neglected battery bank fails when needed most.
+- **Complexity**: The interaction between multiple UPS systems, generators, transfer switches, and protective devices creates a complex system where a single coordination error can cascade into a facility-wide outage. Regular testing and documentation are essential.
 - **Transmission losses**: Long-distance power transmission loses 1-13% of power as heat in conductors, requiring higher voltages and larger conductors for remote generation sites.
 - **Energy storage gap**: Electricity cannot be stored directly at scale — batteries are heavy and expensive (lead-acid: 25-35 Wh/kg), pumped hydro requires specific geography. This limits renewable intermittency management.
 - **Insulation degradation**: Every 8-10°C above rated temperature halves insulation life (the "10-degree rule"). Motors and generators in hot environments need derating or active cooling.
@@ -206,12 +405,14 @@ Three-phase AC power is the standard for industrial generation and distribution.
 
 ### See Also
 
-- [Energy Storage](storage.md) — Batteries, pumped hydro, grid infrastructure
+- [Energy Storage](storage.md) — Batteries, pumped hydro, grid infrastructure, UPS battery sizing
 - [Electric Furnaces](electric-furnaces.md) — EAF, SAF, resistance, induction furnaces
 - [Electrode Manufacturing](electrode-manufacturing.md) — Carbon electrode production
 - [Electrolysis](../chemistry/electrolysis.md) — Chlor-alkali, aluminum, copper refining
 - [Steam Power](steam-power.md) — Prime movers for generators
+- [Heat Engines](engine.md) — Diesel engines for backup generators
 - [Telegraph](../transport/telegraph.md) — Early electrical communication system
+- [Measurement](../measurement/index.md) — Power quality monitoring instruments
 
 ---
 

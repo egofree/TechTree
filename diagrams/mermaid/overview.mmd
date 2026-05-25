@@ -9,6 +9,7 @@ graph TD
     silicon["Silicon"]
     photolithography["Photolithography & IC Fabrication"]
     vlsi-scaling["VLSI Scaling & Advanced Semiconductor"]
+    automation["Automation & Robotics"]
     knowledge["Knowledge Preservation & Education"]
     mathematics["Mathematics & Formal Sciences"]
     transport["Transportation & Logistics"]
@@ -32,6 +33,10 @@ graph TD
     vacuum["Vacuum Technology"]
     cryogenics["Cryogenics"]
     electrochemistry["Electrochemistry & Plating"]
+    ultra-pure["Ultra-Pure Materials"]
+    precision-motion["Precision Motion Control"]
+    petroleum["Petroleum Extraction & Refining"]
+    ehs["Environmental Health & Safety"]
 
     %% ==================== DOMAIN-LEVEL EDGES ====================
     metals -.-> foundations
@@ -93,11 +98,18 @@ graph TD
     vacuum -.-> gas-handling
     vacuum --> metals
     vacuum -.-> measurement
+    automation -.-> computing
+    automation -.-> electronics
+    petroleum -.-> metals
+    petroleum -.-> mining
 
     %% ==================== CROSS-DOMAIN EDGES ====================
     agriculture -.-> animals
     agriculture -.-> energy
     animals -.-> ceramics
+    automation -.-> machine-tools
+    automation -.-> quality-control
+    automation -.-> vacuum
     ceramics -.-> chemistry
     ceramics -.-> energy
     ceramics -.-> mining
@@ -132,7 +144,9 @@ graph TD
     energy -.-> chemistry
     energy -.-> foundations
     energy -.-> machine-tools
+    energy -.-> measurement
     energy -.-> mining
+    energy -.-> petroleum
     energy -.-> polymers
     energy -.-> textiles
     foundations -.-> agriculture
@@ -177,6 +191,8 @@ graph TD
     mining -.-> machine-tools
     optics -.-> gas-handling
     optics -.-> vacuum
+    petroleum -.-> chemistry
+    petroleum -.-> energy
     photolithography -.-> ceramics
     photolithography -.-> glass
     photolithography -.-> polymers

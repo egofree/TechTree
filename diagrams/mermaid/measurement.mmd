@@ -18,6 +18,7 @@ graph TD
     chemistry("Chemistry")
     cleanrooms("Clean Room Technology")
     energy_electricity("Electricity Generation & Distribution")
+    energy_electricity_power-systems("Electric Power Systems for Semiconductor Fabrication")
     foundations("Foundations")
     machine-tools("Machine Tools Bootstrap")
     machine-tools_casting("Metal Casting")
@@ -42,6 +43,7 @@ graph TD
     silicon_crystal-growth -.-> measurement_precision-metrology
     measurement_precision-metrology -.-> foundations
     measurement_precision-metrology -.-> metals
+    energy_electricity_power-systems -.-> measurement
     silicon_crystal-growth_cz-pulling -.-> measurement_temperature-pressure
     measurement_temperature-pressure -.-> energy_electricity
     measurement_temperature-pressure --> metals
@@ -78,6 +80,7 @@ graph TD
     class chemistry external
     class cleanrooms external
     class energy_electricity external
+    class energy_electricity_power-systems external
     class foundations external
     class machine-tools external
     class machine-tools_casting external

@@ -14,6 +14,7 @@ graph TD
     quality-control["Quality Control & Statistical Process Control"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    automation_process-control("Process Control & Lot Tracking")
     computing("Computing & Automation")
     knowledge("Knowledge Preservation & Education")
     measurement("Measurement & Instrumentation")
@@ -33,6 +34,7 @@ graph TD
     quality-control_inspection-sampling -.-> measurement_precision-metrology
     vlsi-scaling -.-> quality-control
     photolithography -.-> quality-control
+    automation_process-control -.-> quality-control
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -52,6 +54,7 @@ graph TD
     class quality-control_spc capability
     class quality-control_inspection-sampling capability
     class quality-control_defect-analysis capability
+    class automation_process-control external
     class computing external
     class knowledge external
     class measurement external

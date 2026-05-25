@@ -13,6 +13,8 @@ graph TD
     electronics["Electronics"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    automation("Automation & Robotics")
+    automation_equipment-communication("Equipment Communication")
     chemistry("Chemistry")
     chemistry_electrolysis("Electrolysis")
     computing_electronic("Electronic Computing")
@@ -38,6 +40,8 @@ graph TD
     electronics_electrical-systems --> polymers_thermoplastics
     computing_electronic -.-> electronics_assembly
     vlsi-scaling_eda-design -.-> electronics_assembly
+    automation -.-> electronics
+    automation_equipment-communication -.-> electronics
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -56,6 +60,8 @@ graph TD
     class electronics domain
     class electronics_assembly capability
     class electronics_electrical-systems capability
+    class automation external
+    class automation_equipment-communication external
     class chemistry external
     class chemistry_electrolysis external
     class computing_electronic external

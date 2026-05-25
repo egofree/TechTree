@@ -65,6 +65,7 @@ graph TD
     measurement_precision-metrology("Precision Metrology & Standards")
     measurement_temperature-pressure("Temperature & Pressure Measurement")
     mining("Mining Engineering & Extractive Metallurgy")
+    petroleum("Petroleum Extraction & Refining")
     photolithography_fab-processes("Core Fab Processes")
     textiles_sewing-tailoring("Sewing & Tailoring")
     transport("Transportation & Logistics")
@@ -159,6 +160,7 @@ graph TD
     vacuum_chambers --> metals
     electrochemistry -.-> metals_finishing
     electrochemistry_anodizing --> metals_aluminum
+    petroleum -.-> metals
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -229,6 +231,7 @@ graph TD
     class measurement_precision-metrology external
     class measurement_temperature-pressure external
     class mining external
+    class petroleum external
     class photolithography_fab-processes external
     class textiles_sewing-tailoring external
     class transport external

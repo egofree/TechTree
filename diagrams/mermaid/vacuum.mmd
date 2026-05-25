@@ -14,6 +14,7 @@ graph TD
     vacuum["Vacuum Technology"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    automation_wafer-handling("Wafer Handling Robots")
     energy_electricity("Electricity Generation & Distribution")
     gas-handling("Gas Handling")
     machine-tools("Machine Tools Bootstrap")
@@ -35,6 +36,7 @@ graph TD
     silicon_basic-devices -.-> vacuum_pumps
     photolithography_fab-processes -.-> vacuum_pumps
     optics_inspection_optical-coatings -.-> vacuum_pumps
+    automation_wafer-handling -.-> vacuum
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -54,6 +56,7 @@ graph TD
     class vacuum_pumps capability
     class vacuum_chambers capability
     class vacuum_measurement capability
+    class automation_wafer-handling external
     class energy_electricity external
     class gas-handling external
     class machine-tools external

@@ -14,6 +14,7 @@ graph TD
         energy_steam-power["Steam Power"]
         energy_engine["Heat Engines"]
         energy_electricity["Electricity Generation & Distribution"]
+        energy_electricity_power-systems["Electric Power Systems for Semiconductor Fabrication"]
         energy_electric-furnaces["Electric Furnaces"]
         energy_cooling["Cooling Systems & Refrigeration"]
         energy_storage["Energy Storage & Diversification"]
@@ -62,6 +63,7 @@ graph TD
     machine-tools_forming("Metal Forming")
     machine-tools_joining("Metal Joining")
     machine-tools_machining("Machining")
+    measurement("Measurement & Instrumentation")
     measurement_electrical-instruments("Electrical Measurement Instruments")
     measurement_temperature-pressure("Temperature & Pressure Measurement")
     metals("Metals")
@@ -76,6 +78,8 @@ graph TD
     mining_drilling("Mechanical Drilling")
     mining_processing("Ore Processing")
     mining_ventilation("Mine Ventilation")
+    petroleum_extraction_cable-tool("Cable-Tool Drilling")
+    petroleum_refining("Petroleum Refining")
     plants("Plants & Botanical Resources")
     polymers_rubber("Rubber Production")
     silicon("Silicon")
@@ -94,6 +98,9 @@ graph TD
     energy_fuels_charcoal -.-> energy_fuels
     energy_fuels_coal -.-> energy_fuels
     energy_fuels_coke -.-> energy_fuels
+    energy_electricity_power-systems -.-> energy_electricity
+    energy_electricity_power-systems -.-> energy_storage
+    energy_electricity_power-systems -.-> energy_engine
     energy_engine --> energy_fuels
     energy_steam-power_steam-turbines -.-> energy_steam-power
     energy_gravity_water-turbines -.-> energy_gravity
@@ -136,6 +143,7 @@ graph TD
     computing_electromechanical --> energy_electricity
     mining_processing -.-> energy_fuels
     energy_storage --> polymers_rubber
+    energy_electricity_power-systems -.-> measurement
     transport_railways -.-> energy_steam-power
     measurement_temperature-pressure -.-> energy_electricity
     energy_engine -.-> metals
@@ -180,6 +188,8 @@ graph TD
     cryogenics -.-> energy_electricity
     vacuum -.-> energy_electricity
     electrochemistry -.-> energy_electricity
+    petroleum_extraction_cable-tool -.-> energy_steam-power
+    energy_engine --> petroleum_refining
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -205,6 +215,7 @@ graph TD
     class energy_steam-power capability
     class energy_engine critical
     class energy_electricity capability
+    class energy_electricity_power-systems critical
     class energy_electric-furnaces capability
     class energy_cooling capability
     class energy_storage capability
@@ -247,6 +258,7 @@ graph TD
     class machine-tools_forming external
     class machine-tools_joining external
     class machine-tools_machining external
+    class measurement external
     class measurement_electrical-instruments external
     class measurement_temperature-pressure external
     class metals external
@@ -261,6 +273,8 @@ graph TD
     class mining_drilling external
     class mining_processing external
     class mining_ventilation external
+    class petroleum_extraction_cable-tool external
+    class petroleum_refining external
     class plants external
     class polymers_rubber external
     class silicon external

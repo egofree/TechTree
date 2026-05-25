@@ -1,0 +1,75 @@
+# Task 23: Precision Motion Control Domain
+
+## SIK Placement Test
+
+### Precision Motion Control vs Machine-Tools
+
+**Infrastructure overlap: ~30%**
+- Machine-tools: lathes, mills, grinders, EDM, cutting tools, ball screws, CNC controllers
+- Precision motion: linear motors, piezo actuators, air bearing stages, laser interferometers, active vibration platforms
+- Overlap: precision grinding (stage components), air bearings (mentioned in edm-cnc.md ultra-precision CNC), CNC controllers
+
+**Knowledge overlap: ~25%**
+- Machine-tools: cutting physics, tool materials, feeds/speeds, G-code programming
+- Precision motion: control theory (PID/feedforward), structural dynamics, piezoelectric physics, magnetic bearing design, servo loop tuning, interferometry
+
+**Practitioner overlap: ~20%**
+- Machine tools: machinists, CNC programmers, tool-and-die makers
+- Precision motion: mechatronics engineers, servo/control engineers, dynamics specialists
+
+**Result: All dimensions <50%. Precision Motion Control is a NEW standalone domain.**
+
+### Precision Motion Control vs Measurement
+
+**Infrastructure overlap: ~40%** (shared laser interferometers, optical encoders, calibration)
+**Knowledge overlap: ~35%** (shared metrology principles)
+**Practitioner overlap: ~25%** (metrologists vs mechatronics engineers)
+
+**Result: Below threshold on all dimensions.**
+
+### Decision: NEW DOMAIN `precision-motion/`
+- Sufficient size: 4 capabilities, each with substantial content
+- Organizing axis: Precision Ladder (micron stages → nanometer wafer scanner positioning)
+- No inter-domain coupling override needed
+
+## Deliverables
+
+### Files Created
+- `docs/precision-motion/index.md` (10 lines)
+- `docs/precision-motion/nanometer-positioning.md` (245 lines) — piezo stages, air bearings, linear motors, voice coils, magnetic bearings, stage materials, control architecture
+- `docs/precision-motion/wafer-stages.md` (251 lines) — 6-DOF coarse-fine architecture, stepper step-and-settle, scanner synchronization, reticle stages, vacuum-compatible EUV stages
+- `docs/precision-motion/vibration-isolation.md` (258 lines) — passive pneumatic, active feedback, VC curves, foundation design, diagnostics
+- `docs/precision-motion/precision-encoders.md` (208 lines) — optical encoders, laser interferometers (Michelson/heterodyne), signal processing, capacitive sensors
+
+### Nodes Added (5 total)
+1. `precision-motion` — domain node, era: electronic
+2. `precision-motion.nanometer-positioning` — capability, era: electronic
+3. `precision-motion.wafer-stages` — capability, era: semiconductor, critical=true, pinnacle=true
+4. `precision-motion.vibration-isolation` — capability, era: electronic
+5. `precision-motion.precision-encoders` — capability, era: electronic
+
+### Edges Added (12 total)
+1. precision-motion → machine-tools.edm-cnc (tool)
+2. precision-motion → measurement.precision-metrology (tool)
+3. precision-motion → energy.electricity (tool)
+4. precision-motion.nanometer-positioning → machine-tools.edm-cnc (tool)
+5. precision-motion.precision-encoders → optics.inspection (tool)
+6. precision-motion.wafer-stages → precision-motion.nanometer-positioning (tool)
+7. precision-motion.wafer-stages → precision-motion.precision-encoders (tool)
+8. precision-motion.wafer-stages → precision-motion.vibration-isolation (tool)
+9. precision-motion.vibration-isolation → measurement.precision-metrology (tool)
+10. vlsi-scaling.advanced-lithography → precision-motion.wafer-stages (tool)
+11. photolithography.fab-processes → precision-motion.wafer-stages (tool)
+
+### Validation
+- generate-diagrams.sh: PASS (precision-motion.mmd generated, 34 domain diagrams total)
+- validate.sh: 16/17 passed (only pre-existing ehs.mmd missing, unrelated to this task)
+- Total nodes: 252 → 257
+- Total edges: 517 → 529
+
+### Specifics Covered
+- Nanometer positioning: piezo stack actuators (0.01 nm resolution), flexure-guided stages, piezo-walk drives, air bearings (3-10 μm gap, 0.01 μm straightness), ironless linear motors (zero cogging), voice coils (200-2000 Hz bandwidth)
+- Stepper/scanner stages: 6-DOF coarse-fine architecture, ±5 nm positioning, 2-10g acceleration, dual-stage scanning, reticle-to-wafer synchronization <1 nm, scan speed 400-800 mm/s
+- Vibration isolation: VC-A through VC-F curves, pneumatic air springs (0.5-3 Hz natural frequency), active voice coil cancellation, inertia block foundations
+- Encoders: HeNe laser interferometers (632.8 nm, 0.15-0.6 nm resolution), heterodyne detection, optical scale encoders (4 μm pitch, 0.24 nm with interpolation), capacitive sensors (0.01 nm resolution)
+- No duplication of edm-cnc.md content (references it for precision grinding but focuses on positioning/actuation, not cutting/forming)

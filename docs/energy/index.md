@@ -4,7 +4,7 @@ Capabilities in this domain:
 
 - [Cooling Systems & Refrigeration](cooling.md) — Refrigeration cycles, ice production, cooling systems for industrial processes and climate control.
 - [Electric Furnaces](electric-furnaces.md) — Electric arc furnace (EAF) for steelmaking and silicon reduction, submerged arc furnace for continuous production, and resistance heating elements (Nichrome, Kanthal, SiC).
-- [Electricity Generation & Distribution](electricity.md) — Voltaic piles and Daniell cells, wire drawing, generators (Faraday magneto → self-exciting dynamo), DC and AC motors, transformers for voltage step-up/step-down, and power distribution (AC wins long-term).
+- [Electricity Generation & Distribution](electricity.md) — Voltaic piles and Daniell cells, wire drawing, generators (Faraday magneto → self-exciting dynamo), DC and AC motors, transformers for voltage step-up/step-down, power distribution (AC wins long-term), and clean power systems for semiconductor fabrication (UPS, backup generators, PDUs, power quality monitoring).
 - [Fuel Production](fuels.md) — Solid, liquid, and gaseous fuel production from coal, coke, charcoal, and petroleum sources.
 - [SEM Tech Fuel Cells](sem-tech-fuel-cells.md) — electrochemical power generation
 - [Charcoal Production](charcoal.md) — Charcoal production via earth-covered pit and simple kiln methods.

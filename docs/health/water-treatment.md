@@ -263,7 +263,7 @@ Dose calculation: For a 10,000 L storage tank requiring 1.0 mg/L chlorine dose: 
 
 - [Medicine & Surgery](medicine.md) — disease treatment, pharmaceutical production, surgical capability
 - [Sanitation](sanitation.md) — sewage disposal, latrine design, hygiene practices
-- [Industrial Water Treatment](../chemicals/water-treatment.md) — deionized and ultrapure water for industrial processes
+- [Industrial Water Treatment](../chemistry/water-treatment.md) — deionized and ultrapure water for industrial processes
 - [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md) — electrodialysis desalination using ion exchange membranes
 - [Electrolysis](../chemistry/electrolysis.md) — chlorine production for water disinfection
 - [Alkali Production](../chemistry/alkalis.md) — soap production for hygiene

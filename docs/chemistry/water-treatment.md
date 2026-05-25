@@ -1,7 +1,7 @@
 # Industrial Water Treatment
 
-> **Node ID**: chemicals.water-treatment
-> **Domain**: Chemicals
+> **Node ID**: chemistry.water-treatment
+> **Domain**: Chemistry
 > **Timeline**: Years 10-30
 > **Outputs**: deionized_water, purified_water, ultrapure_water
 
@@ -189,7 +189,7 @@ Industrial water treatment includes treating used water before discharge. The st
 
 - **[Water Treatment (Health)](../health/water-treatment.md)**: potable water production, chlorination, boiling, and basic sanitation
 - **[SEM Tech Water Treatment](../water/sem-tech-water-treatment.md)**: electrodialysis desalination using ion exchange membranes
-- **[Electrolysis](../chemistry/electrolysis.md)**: chlor-alkali process producing chlorine for water disinfection
+- **[Electrolysis](./electrolysis.md)**: chlor-alkali process producing chlorine for water disinfection
 - **[Basic Semiconductor Devices](../silicon/basic-devices.md)**: UPW requirements for wafer processing
 - **[Wafer Production](../silicon/wafer-production.md)**: CMP slurries and rinsing demand for ultrapure water
 - **[Vacuum Systems](../vlsi-scaling/vacuum-systems.md)**: sealed water-cooled systems and deionized coolant
@@ -268,11 +268,10 @@ Industrial water treatment includes treating used water before discharge. The st
 
 - [Water Treatment (Health)](../health/water-treatment.md) — potable water, chlorination, basic treatment
 - [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md) — electrodialysis using low-cost membranes
-- [SEM Tech Electrodialysis](../chemistry/sem-tech-electrodialysis.md) — ion separation via electrodialysis
-- [Electrolysis](../chemistry/electrolysis.md) — chlorine and hydrogen production
-- [Silicon Wafer Production](../silicon/wafer-production.md) — ultrapure water demand
-- [Chemicals](../chemistry/index.md) — acid and base production
+- [SEM Tech Electrodialysis](./sem-tech-electrodialysis.md) — ion separation via electrodialysis
+- [Electrolysis](./electrolysis.md) — chlorine and hydrogen production
+- [Chemicals](./index.md) — acid and base production
 
 ---
 
-*Part of the [Chemicals Domain](index.md) • [All Domains](../index.md)*
+*Part of the [Chemistry Domain](index.md) • [All Domains](../index.md)*

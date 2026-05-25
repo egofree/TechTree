@@ -104,7 +104,7 @@ Steel pickling removes oxide scale (mill scale, rust) from steel surfaces before
 Semiconductor processing requires ultra-pure acids (trace metal impurities at ppb — parts per billion — levels). Standard industrial acids contain Fe, Cu, Pb, As at ppm levels — unsuitable for wafer processing.
 
 **Purification methods**:
-- **Distillation**: Fractional distillation in quartz or PTFE equipment removes most metal contaminants. H₂SO₄ distilled at 337°C under reduced pressure. HCl distilled as gas from azeotropic solution. HF distilled at 112°C (under pressure). Multi-pass distillation achieves <1 ppb metal content.
+- **Distillation**: Fractional distillation in quartz or PTFE equipment removes most metal contaminants. H₂SO₄ boils at 337°C at atmospheric pressure but decomposes near its boiling point; distilled under reduced pressure at lower temperatures to avoid decomposition. HCl distilled as gas from azeotropic solution. HF distilled at 112°C (under pressure). Multi-pass distillation achieves <1 ppb metal content.
 - **Sub-boiling distillation**: Heat acid below its boiling point in a PTFE or quartz still. Only the purest vapor fraction condenses on a cooled surface. Slow (days per batch) but achieves ultra-trace purity (<0.1 ppb for most metals). Used for ACS reagent-grade and semiconductor-grade acids.
 - **Ion exchange**: Pass acid through chelating resin columns that selectively adsorb metal ions. Effective for HCl, HNO₃, and HF. Resin regenerated with acid or chelating solution.
 - **Containers**: PTFE (Teflon) bottles for storage and transport. Quartz for distillation. Stainless steel only for concentrated HNO₃ (passivated) and H₂SO₄ (>90%). All wetted surfaces must not leach contaminants.

@@ -15,11 +15,14 @@ graph TD
     vlsi-scaling["VLSI Scaling & Advanced Semiconductor"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    chemistry_dopant-etch-gases("Dopant & Etch Gases")
     computing("Computing & Automation")
+    electronics_assembly("Electronics Assembly")
     optics_inspection("Optical Inspection")
     photolithography("Photolithography & IC Fabrication")
     photolithography_fab-processes("Core Fab Processes")
     photolithography_resists-masks("Photoresists, Masks & Lithography")
+    silicon_basic-devices("Basic Semiconductor Devices")
 
     %% ==================== EDGES ====================
     vlsi-scaling -.-> photolithography
@@ -28,6 +31,10 @@ graph TD
     vlsi-scaling_advanced-lithography -.-> optics_inspection
     vlsi-scaling_advanced-processes -.-> photolithography_fab-processes
     vlsi-scaling_eda-design -.-> computing
+    vlsi-scaling_eda-design -.-> photolithography_fab-processes
+    vlsi-scaling_eda-design -.-> silicon_basic-devices
+    vlsi-scaling_eda-design -.-> chemistry_dopant-etch-gases
+    vlsi-scaling_eda-design -.-> electronics_assembly
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -48,9 +55,12 @@ graph TD
     class vlsi-scaling_advanced-lithography capability
     class vlsi-scaling_advanced-processes capability
     class vlsi-scaling_eda-design capability
+    class chemistry_dopant-etch-gases external
     class computing external
+    class electronics_assembly external
     class optics_inspection external
     class photolithography external
     class photolithography_fab-processes external
     class photolithography_resists-masks external
+    class silicon_basic-devices external
     class EdgeLegend,MatNote,ToolNote legend

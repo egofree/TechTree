@@ -56,7 +56,6 @@ Several capabilities in other domains are also critical because their absence bl
 | [Knowledge](knowledge/index.md) | 4 | Yes | writing, printing, education, libraries |
 | [Machine Tools](machine-tools/index.md) | 6 | Yes | lathe, mill, grinder, bearings |
 | [Marine & Naval](marine/index.md) | — | | shipbuilding, navigation, maritime engineering |
-| [Materials Science](materials/index.md) | — | | composites, adhesives, coatings, material testing |
 | [Measurement](measurement/index.md) | 4 | | precision instruments, gauge blocks, calibration |
 | [Metals](metals/index.md) | 9 | | copper, iron, steel |
 | [Mining](mining/index.md) | 5 | Yes | copper ore, iron ore, coal, quartz, sulfur |

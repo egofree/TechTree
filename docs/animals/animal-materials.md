@@ -15,6 +15,8 @@ The chain runs from the carcass to finished material through a series of mechani
 
 Leather is animal hide preserved against rot by stabilizing its collagen fibers. Untreated hides putrefy within days. Tanning converts the raw protein matrix into a stable, flexible, durable material. Several methods exist, each producing leather with distinct properties.
 
+> **For detailed leather production** — hide preparation (curing, soaking, fleshing, dehairing), chrome tanning, post-tanning operations, mechanical properties, industrial applications, quality grading, and testing standards — see [Leather Production](leather.md).
+
 ### Rawhide
 
 The simplest preserved hide. No tanning agents involved, just mechanical preparation and drying.

@@ -7,5 +7,6 @@ Capabilities in this domain:
 - [Czochralski Crystal Pulling](cz-pulling.md) — Pulling single-crystal silicon ingots from molten polysilicon using a seed crystal in a quartz crucible at ~1415°C.
 - [Metallurgical-Grade Silicon Production](mg-si-production.md) — Carbothermic reduction of quartz (SiO₂ + 2C → Si + 2CO) in submerged arc electric furnace at 1800-2100°C.
 - [Silicon Purification](purification.md) — Chemical purification via Siemens-like process (hydrochlorination → fractional distillation of chlorosilanes → CVD deposition, 9N-11N purity) and physical purification via directional solidification and zone refining (5-9N).
+- [Wafering](wafering.md) — Ingot preparation, wire saw and ID blade slicing, lapping, CMP polishing, RCA cleaning, epitaxial and SOI wafer production, wafer thinning, gettering, wafer-level metrology, die preparation, and yield economics.
 
 [↑ Back to Tech Tree](../index.md)

@@ -8,7 +8,7 @@
 ### Dopant Gases
 
 **Phosphine (PH₃)**:
-- **Synthesis**: White phosphorus + KOH + H₂O → PH₃ + KPH₂O (boiling phosphorus with strong base). Or Ca₃P₂ + 3H₂O → 2PH₃ + 3Ca(OH)₂ (calcium phosphide + water).
+- **Synthesis**: White phosphorus + KOH + H₂O → PH₃ + KH₂PO₂ (boiling phosphorus with strong base). Or Ca₃P₂ + 6H₂O → 2PH₃ + 3Ca(OH)₂ (calcium phosphide + water).
 - **Purity**: Distill from reaction mixture (PH₃ bp -87.7°C). Dilute in H₂ or N₂ to ppm-level concentrations for semiconductor use. Use commercially-supplied cylinders with 100-1000 ppm PH₃ in H₂ (dramatically safer than handling pure phosphine).
 - **Toxicity**: Lethal at 50-100 ppm. Immediately Dangerous to Life or Health (IDLH) at 50 ppm. Symptoms: headache, nausea, pulmonary edema at low exposure; death at higher concentrations. Detect with electronic PH₃ monitors (electrochemical sensors), colorimetric tubes, or paper impregnated with silver nitrate (turns black in PH₃). **[Zero tolerance for leaks.](../glossary/zero-tolerance-for-leaks.md)**
 

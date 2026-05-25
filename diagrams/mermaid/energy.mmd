@@ -46,6 +46,8 @@ graph TD
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
     chemistry_water-electrolysis("Water Electrolysis")
     computing_electromechanical("Electromechanical Computing")
+    electronics("Electronics")
+    electronics_electrical-systems("Electrical Systems")
     foundations("Foundations")
     foundations_fire("Fire-Making")
     gas-handling("Gas Handling")
@@ -166,6 +168,8 @@ graph TD
     chemistry_acid-regeneration --> energy_electricity
     chemistry_water-electrolysis --> energy_fuel-cell
     chemistry_electrodialysis -.-> energy_blue-energy
+    electronics -.-> energy_electricity
+    electronics_electrical-systems -.-> energy_electricity
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -217,6 +221,8 @@ graph TD
     class chemistry_petroleum-alternatives external
     class chemistry_water-electrolysis external
     class computing_electromechanical external
+    class electronics external
+    class electronics_electrical-systems external
     class foundations external
     class foundations_fire external
     class gas-handling external

@@ -434,6 +434,21 @@
       "type": "tool"
     },
     {
+      "from": "vlsi-scaling.eda-design",
+      "to": "photolithography.fab-processes",
+      "type": "tool"
+    },
+    {
+      "from": "vlsi-scaling.eda-design",
+      "to": "silicon.basic-devices",
+      "type": "tool"
+    },
+    {
+      "from": "vlsi-scaling.eda-design",
+      "to": "chemistry.dopant-etch-gases",
+      "type": "tool"
+    },
+    {
       "from": "knowledge",
       "to": "foundations",
       "type": "tool"
@@ -2189,6 +2204,66 @@
       "to": "glass.basic",
       "type": "material",
       "label": "mask blanks from glass substrates"
+    },
+    {
+      "from": "electronics",
+      "to": "metals",
+      "type": "material"
+    },
+    {
+      "from": "electronics",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "electronics",
+      "to": "machine-tools",
+      "type": "tool"
+    },
+    {
+      "from": "electronics",
+      "to": "chemistry",
+      "type": "material"
+    },
+    {
+      "from": "electronics.assembly",
+      "to": "silicon.basic-devices",
+      "type": "material"
+    },
+    {
+      "from": "electronics.assembly",
+      "to": "glass.fibers",
+      "type": "material"
+    },
+    {
+      "from": "electronics.assembly",
+      "to": "polymers.thermosets",
+      "type": "material"
+    },
+    {
+      "from": "electronics.electrical-systems",
+      "to": "energy.electricity",
+      "type": "tool"
+    },
+    {
+      "from": "electronics.electrical-systems",
+      "to": "chemistry.electrolysis",
+      "type": "material"
+    },
+    {
+      "from": "electronics.electrical-systems",
+      "to": "polymers.thermoplastics",
+      "type": "material"
+    },
+    {
+      "from": "computing.electronic",
+      "to": "electronics.assembly",
+      "type": "tool"
+    },
+    {
+      "from": "vlsi-scaling.eda-design",
+      "to": "electronics.assembly",
+      "type": "tool"
     }
   ]
 }

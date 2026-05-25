@@ -1,0 +1,49 @@
+Task 5: Chemicals Orphaned Content Resolution
+Date: 2026-05-24
+Status: COMPLETE
+Validation: PASS (17/17)
+
+== SIK TEST: chemicals vs chemistry ==
+
+Two files found in docs/chemicals/ with ZERO matching nodes in nodes.json:
+1. acids-bases.md (Node ID: chemicals.acids-bases)
+2. water-treatment.md (Node ID: chemicals.water-treatment)
+
+SIK Analysis - acids-bases.md:
+- Infrastructure overlap with chemistry: ~85% (same furnaces, acid plants, lead chambers, contact process equipment)
+- Knowledge overlap with chemistry: ~90% (acid-base chemistry, process engineering, safety protocols)
+- Practitioner overlap with chemistry: ~85% (chemical engineers, same training)
+- Content overlap: Largely redundant with existing chemistry.acids (Mineral Acid Production) and chemistry.alkalis (Alkali Production), but provides comprehensive cross-referenced detail
+- VERDICT: >50% overlap on all 3 axes → MERGE into chemistry
+
+SIK Analysis - water-treatment.md:
+- Infrastructure overlap with chemistry: ~60% (chemical tanks, acid/base handling, ion exchange, piping)
+- Knowledge overlap with chemistry: ~65% (acid-base chemistry, ion exchange, chemical processes)
+- Practitioner overlap with chemistry: ~55% (water treatment engineers use chemical engineering knowledge)
+- Content: Genuinely NEW — no equivalent capability in chemistry domain
+- VERDICT: >50% overlap on all 3 axes → MERGE into chemistry
+
+== ACTIONS TAKEN ==
+
+1. Moved docs/chemicals/acids-bases.md → docs/chemistry/acids-bases.md
+2. Moved docs/chemicals/water-treatment.md → docs/chemistry/water-treatment.md
+3. Updated node IDs: chemicals.acids-bases → chemistry.acids-bases, chemicals.water-treatment → chemistry.water-treatment
+4. Fixed all internal links (../chemistry/ → ./)
+5. Fixed all external references from other files (7 files updated):
+   - docs/glossary/acids-and-bases-for-etching-and-cleaning.md
+   - docs/health/pharmacology.md
+   - docs/health/medicine.md
+   - docs/health/water-treatment.md
+   - docs/health/sanitation.md
+   - docs/chemistry/solvay.md
+   - docs/glass/advanced-glassblowing.md
+6. Added 2 new nodes to data/nodes.json:
+   - chemistry.acids-bases (capability, industrial era)
+   - chemistry.water-treatment (capability, industrial era)
+7. Updated docs/chemistry/index.md with 2 new capability entries
+8. Removed docs/chemicals/ directory
+
+== VALIDATION ==
+bash scripts/validate.sh → 17/17 passed, 0 failed
+No remaining references to docs/chemicals/ in the codebase.
+Both new nodes have valid parent chains and tag vocabularies.

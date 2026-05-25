@@ -1,0 +1,42 @@
+Task 2: Stoichiometry Fix Evidence
+Date: 2026-05-24
+Status: COMPLETE
+
+## Files Changed
+1. docs/chemistry/dopant-etch-gases.md (line 11)
+2. docs/chemistry/acids.md (line 107)
+
+## Fix 1: Ca₃P₂ Hydrolysis Water Count (dopant-etch-gases.md:11)
+BEFORE: Ca₃P₂ + 3H₂O → 2PH₃ + 3Ca(OH)₂
+AFTER:  Ca₃P₂ + 6H₂O → 2PH₃ + 3Ca(OH)₂
+
+Balance verification (AFTER):
+  LHS: Ca=3, P=2, H=12, O=6
+  RHS: 2PH₃ → P=2, H=6; 3Ca(OH)₂ → Ca=3, O=6, H=6
+  Totals: Ca=3, P=2, H=12, O=6 ✓
+
+The 3H₂O version was unbalanced (H=6,O=3 on LHS vs H=12,O=6 on RHS).
+
+## Fix 2: Invalid Formula KPH₂O → KH₂PO₂ (dopant-etch-gases.md:11)
+BEFORE: White phosphorus + KOH + H₂O → PH₃ + KPH₂O
+AFTER:  White phosphorus + KOH + H₂O → PH₃ + KH₂PO₂
+
+KPH₂O is not a valid chemical formula. KH₂PO₂ is potassium hypophosphite,
+the correct product of boiling white phosphorus with KOH.
+
+## Fix 3: H₂SO₄ Distillation Wording (acids.md:107)
+BEFORE: H₂SO₄ distilled at 337°C under reduced pressure.
+AFTER:  H₂SO₄ boils at 337°C at atmospheric pressure but decomposes near
+        its boiling point; distilled under reduced pressure at lower
+        temperatures to avoid decomposition.
+
+The original wording implied distilling AT 337°C under reduced pressure,
+which is misleading because 337°C is the normal (1 atm) boiling point.
+Under reduced pressure, the bp is lower — that's the whole point of
+vacuum distillation for H₂SO₄.
+
+## Verification
+- grep "KPH₂O\|KPH2O\|Ca₃P₂ + 3H₂O" → 0 matches
+- grep "KH₂PO₂" → 1 match (line 11, correct)
+- grep "6H₂O → 2PH₃" → 1 match (line 11, correct)
+- bash scripts/validate.sh → 17/17 PASS

@@ -25,6 +25,7 @@ graph TD
     agriculture["Agriculture"]
     animals["Animals & Animal Husbandry"]
     water["Water"]
+    electronics["Electronics"]
 
     %% ==================== DOMAIN-LEVEL EDGES ====================
     metals -.-> foundations
@@ -68,6 +69,9 @@ graph TD
     computing -.-> machine-tools
     polymers -.-> foundations
     animals -.-> foundations
+    electronics --> metals
+    electronics -.-> machine-tools
+    electronics --> chemistry
 
     %% ==================== CROSS-DOMAIN EDGES ====================
     agriculture -.-> animals
@@ -86,11 +90,16 @@ graph TD
     chemistry -.-> photolithography
     chemistry -.-> polymers
     chemistry -.-> water
+    computing -.-> electronics
     computing -.-> energy
     computing -.-> metals
     computing -.-> photolithography
     computing -.-> polymers
     computing -.-> silicon
+    electronics -.-> energy
+    electronics -.-> glass
+    electronics -.-> polymers
+    electronics -.-> silicon
     energy -.-> ceramics
     energy -.-> chemistry
     energy -.-> foundations
@@ -154,8 +163,11 @@ graph TD
     transport -.-> chemistry
     transport -.-> foundations
     transport -.-> textiles
+    vlsi-scaling -.-> chemistry
     vlsi-scaling -.-> computing
+    vlsi-scaling -.-> electronics
     vlsi-scaling -.-> optics
+    vlsi-scaling -.-> silicon
     water -.-> energy
 
     %% ==================== STYLING ====================

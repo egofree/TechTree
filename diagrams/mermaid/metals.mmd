@@ -34,6 +34,7 @@ graph TD
     chemistry_refractories("Refractory Materials")
     chemistry_soap("Soap & Detergent Production")
     computing_mechanical("Mechanical Calculation")
+    electronics("Electronics")
     energy("Energy")
     energy_cooling("Cooling Systems & Refrigeration")
     energy_electric-furnaces("Electric Furnaces")
@@ -129,6 +130,7 @@ graph TD
     metals_copper-bronze --> animals_beekeeping
     textiles_sewing-tailoring -.-> metals_copper-bronze
     health_medical-instruments --> metals_copper-bronze
+    electronics --> metals
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -168,6 +170,7 @@ graph TD
     class chemistry_refractories external
     class chemistry_soap external
     class computing_mechanical external
+    class electronics external
     class energy external
     class energy_cooling external
     class energy_electric-furnaces external

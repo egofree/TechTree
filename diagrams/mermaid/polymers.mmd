@@ -24,6 +24,8 @@ graph TD
     chemistry_packaging-testing("Semiconductor Packaging & Testing")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
     computing_data-storage("Data Storage Systems")
+    electronics_assembly("Electronics Assembly")
+    electronics_electrical-systems("Electrical Systems")
     energy_storage("Energy Storage & Diversification")
     foundations("Foundations")
     glass_fibers("Glass Fiber Production")
@@ -54,6 +56,8 @@ graph TD
     polymers_rubber_shellac --> chemistry_distillation
     polymers_composites --> glass_fibers
     computing_data-storage --> polymers_thermoplastics
+    electronics_assembly --> polymers_thermosets
+    electronics_electrical-systems --> polymers_thermoplastics
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -83,6 +87,8 @@ graph TD
     class chemistry_packaging-testing external
     class chemistry_petroleum-alternatives external
     class computing_data-storage external
+    class electronics_assembly external
+    class electronics_electrical-systems external
     class energy_storage external
     class foundations external
     class glass_fibers external

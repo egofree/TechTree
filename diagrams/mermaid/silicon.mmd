@@ -24,6 +24,7 @@ graph TD
     chemistry_distillation("Distillation")
     chemistry_hydrogen-silane("Hydrogen & Silane Production")
     computing_electronic("Electronic Computing")
+    electronics_assembly("Electronics Assembly")
     energy("Energy")
     energy_electric-furnaces("Electric Furnaces")
     gas-handling("Gas Handling")
@@ -36,6 +37,7 @@ graph TD
     measurement_temperature-pressure("Temperature & Pressure Measurement")
     mining("Mining Engineering & Extractive Metallurgy")
     photolithography("Photolithography & IC Fabrication")
+    vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
 
     %% ==================== EDGES ====================
     silicon_basic-devices --> silicon_crystal-growth
@@ -59,9 +61,11 @@ graph TD
     silicon_basic-devices -.-> gas-handling_vacuum
     silicon_basic-devices --> chemistry_acids
     photolithography --> silicon
+    vlsi-scaling_eda-design -.-> silicon_basic-devices
     computing_electronic --> silicon_basic-devices
     silicon_crystal-growth_cz-pulling -.-> measurement_temperature-pressure
     silicon -.-> ceramics_advanced-ceramics
+    electronics_assembly --> silicon_basic-devices
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -91,6 +95,7 @@ graph TD
     class chemistry_distillation external
     class chemistry_hydrogen-silane external
     class computing_electronic external
+    class electronics_assembly external
     class energy external
     class energy_electric-furnaces external
     class gas-handling external
@@ -103,4 +108,5 @@ graph TD
     class measurement_temperature-pressure external
     class mining external
     class photolithography external
+    class vlsi-scaling_eda-design external
     class EdgeLegend,MatNote,ToolNote legend

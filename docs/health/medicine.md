@@ -311,7 +311,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 - [Medical Instruments](medical-instruments.md) — diagnostic and surgical instrument fabrication
 - [Pharmacology](pharmacology.md) — drug extraction, preparation, dosing, and quality control
 - [Occupational Health](occupational-health.md) — workplace hazard identification and control
-- [Acids and Bases](../chemicals/acids-bases.md) — sulfuric acid, hydrochloric acid production for pharmaceutical synthesis
+- [Acids and Bases](../chemistry/acids-bases.md) — sulfuric acid, hydrochloric acid production for pharmaceutical synthesis
 - [Energy](../energy/index.md) — power for autoclaves, centrifuges, microscopes
 
 ---

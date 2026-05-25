@@ -30,6 +30,7 @@ graph TD
     vlsi-scaling_advanced-lithography("Advanced Lithography")
     vlsi-scaling_advanced-processes("Advanced Processes")
     vlsi-scaling_continuous-scaling("Continuous Scaling")
+    vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
 
     %% ==================== EDGES ====================
     photolithography -.-> machine-tools
@@ -47,6 +48,7 @@ graph TD
     vlsi-scaling_continuous-scaling -.-> photolithography_fab-processes
     vlsi-scaling_advanced-lithography -.-> photolithography_resists-masks
     vlsi-scaling_advanced-processes -.-> photolithography_fab-processes
+    vlsi-scaling_eda-design -.-> photolithography_fab-processes
     chemistry_packaging-testing --> photolithography_fab-processes
     computing_electronic --> photolithography_fab-processes
     photolithography_resists-masks --> glass_basic
@@ -85,4 +87,5 @@ graph TD
     class vlsi-scaling_advanced-lithography external
     class vlsi-scaling_advanced-processes external
     class vlsi-scaling_continuous-scaling external
+    class vlsi-scaling_eda-design external
     class EdgeLegend,MatNote,ToolNote legend

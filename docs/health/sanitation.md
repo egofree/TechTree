@@ -263,7 +263,7 @@
 
 - [Water Treatment (Health)](water-treatment.md) — drinking water purification, waterborne disease prevention, emergency treatment
 - [Medicine & Surgery](medicine.md) — disease treatment, pharmaceutical production
-- [Industrial Water Treatment](../chemicals/water-treatment.md) — ultrapure water, reverse osmosis, industrial processes
+- [Industrial Water Treatment](../chemistry/water-treatment.md) — ultrapure water, reverse osmosis, industrial processes
 - [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md) — electrodialysis desalination
 - [Electrolysis](../chemistry/electrolysis.md) — chlorine production
 - [Energy](../energy/index.md) — pumping and treatment energy requirements

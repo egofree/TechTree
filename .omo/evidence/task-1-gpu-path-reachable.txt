@@ -1,0 +1,19 @@
+Task 1: GPU Dependency Chain Edge Fix — Evidence
+=================================================
+Date: 2026-05-24
+
+## Changes Made
+Added 3 new edges to data/edges.json:
+1. vlsi-scaling.eda-design → photolithography.fab-processes (type: tool)
+2. vlsi-scaling.eda-design → silicon.basic-devices (type: tool)
+3. vlsi-scaling.eda-design → chemistry.dopant-etch-gases (type: tool)
+
+Preserved existing edge: vlsi-scaling.eda-design → computing (type: tool)
+
+## Reachability Check
+BFS from vlsi-scaling.eda-design to foundations:
+REACHABLE
+Path: vlsi-scaling.eda-design -> photolithography.fab-processes -> chemistry.dopant-etch-gases -> chemistry -> metals -> mining -> foundations
+
+## Validation
+bash scripts/validate.sh → 17/17 passed, 0 failed

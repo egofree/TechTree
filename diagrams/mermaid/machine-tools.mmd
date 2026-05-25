@@ -23,6 +23,7 @@ graph TD
     chemistry_packaging-testing("Semiconductor Packaging & Testing")
     computing("Computing & Automation")
     computing_mechanical("Mechanical Calculation")
+    electronics("Electronics")
     energy_cooling("Cooling Systems & Refrigeration")
     energy_electric-furnaces("Electric Furnaces")
     energy_electricity("Electricity Generation & Distribution")
@@ -95,6 +96,7 @@ graph TD
     machine-tools_forming --> animals_animal-materials
     machine-tools_iterative-bootstrap --> animals_animal-materials
     mining_drilling -.-> machine-tools_machining
+    electronics -.-> machine-tools
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -123,6 +125,7 @@ graph TD
     class chemistry_packaging-testing external
     class computing external
     class computing_mechanical external
+    class electronics external
     class energy_cooling external
     class energy_electric-furnaces external
     class energy_electricity external

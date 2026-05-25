@@ -40,6 +40,8 @@ graph TD
     agriculture_hydroponic-ph-control("Hydroponic pH Control")
     animals_animal-materials("Animal-Derived Materials Processing")
     ceramics_kilns("Kiln Construction")
+    electronics("Electronics")
+    electronics_electrical-systems("Electrical Systems")
     energy("Energy")
     energy_blue-energy("Blue Energy (Osmotic Power)")
     energy_cooling("Cooling Systems & Refrigeration")
@@ -90,6 +92,7 @@ graph TD
     transport("Transportation & Logistics")
     transport_aviation("Aviation")
     transport_telegraph("Telegraph Communication")
+    vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
     water_desalination("Desalination")
 
     %% ==================== EDGES ====================
@@ -143,6 +146,7 @@ graph TD
     photolithography_cleanrooms --> chemistry
     photolithography_resists-masks --> chemistry
     photolithography_fab-processes --> chemistry_dopant-etch-gases
+    vlsi-scaling_eda-design -.-> chemistry_dopant-etch-gases
     health --> chemistry
     chemistry_air-separation --> energy_electricity
     chemistry_air-separation -.-> gas-handling_basic
@@ -203,6 +207,8 @@ graph TD
     chemistry_electrodialysis -.-> water_desalination
     chemistry_electrodialysis -.-> energy_blue-energy
     chemistry_electrodialysis -.-> agriculture_hydroponic-ph-control
+    electronics --> chemistry
+    electronics_electrical-systems --> chemistry_electrolysis
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -248,6 +254,8 @@ graph TD
     class agriculture_hydroponic-ph-control external
     class animals_animal-materials external
     class ceramics_kilns external
+    class electronics external
+    class electronics_electrical-systems external
     class energy external
     class energy_blue-energy external
     class energy_cooling external
@@ -298,5 +306,6 @@ graph TD
     class transport external
     class transport_aviation external
     class transport_telegraph external
+    class vlsi-scaling_eda-design external
     class water_desalination external
     class EdgeLegend,MatNote,ToolNote legend

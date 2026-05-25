@@ -1,7 +1,7 @@
 # Leather Production
 
-> **Node ID**: materials.leather
-> **Domain**: Materials
+> **Node ID**: animals.leather
+> **Domain**: Animals & Animal Husbandry
 > **Timeline**: Years 5-15
 > **Outputs**: leather, rawhide, tanned_hides
 
@@ -90,7 +90,7 @@ Leather — animal hide preserved through tanning — provides durable, flexible
 
 **Rawhide**: Untanned, dehaired hide, dried stiff. Stronger than tanned leather by weight but rigid and sensitive to water (rawhide softens and stretches when wet, shrinks and hardens when dry). Uses: drum heads (soak rawhide circle, stretch over wooden shell, dries tight — 50-200 kg tension at 12% moisture content), rope (cut into strips 10-30 mm wide, plait or twist while damp), bindings (wet rawhide shrinks 10-20% on drying, creating extremely tight bindings — used for tool handles, mallet heads, and cart wheel tires). Shields: rawhide stretched over a wooden frame (1-3 layers, 3-5 mm total thickness) provides protection against cuts and piercing — medieval shields used rawhide facing.
 
-**Parchment and vellum**: Unhair a calf, sheep, or goat skin. Soak in lime (Ca(OH)₂) solution for 3-10 days to loosen hair and epidermis. Scrape both sides clean on a fleshing beam. Stretch tightly on a wooden frame (tension 50-100 N per edge). Scrape thin with a lunellum (crescent-shaped knife) while drying — parchment is scraped to 0.15-0.5 mm thickness (vellum from calfskin is finer, 0.1-0.3 mm). The dried skin is smooth, pale, and accepts ink without feathering. Production time: 2-4 weeks per skin. Yield: 0.3-0.6 m² per sheepskin, 0.5-1.0 m² per calfskin. A 200-page manuscript required 50-100 animal skins. Parchment is more durable than paper — manuscripts from 800 CE remain legible. Can be scraped clean and reused (palimpsest). See [Paper](../foundations/paper-making.md).
+**Parchment and vellum**: Unhair a calf, sheep, or goat skin. Soak in lime (Ca(OH)₂) solution for 3-10 days to loosen hair and epidermis. Scrape both sides clean on a fleshing beam. Stretch tightly on a wooden frame (tension 50-100 N per edge). Scrape thin with a lunellum (crescent-shaped knife) while drying — parchment is scraped to 0.15-0.5 mm thickness (vellum from calfskin is finer, 0.1-0.3 mm). The dried skin is smooth, pale, and accepts ink without feathering. Production time: 2-4 weeks per skin. Yield: 0.3-0.6 m² per sheepskin, 0.5-1.0 m² per calfskin. A 200-page manuscript required 50-100 animal skins. Parchment is more durable than paper — manuscripts from 800 CE remain legible. Can be scraped clean and reused (palimpsest). See [Paper](../knowledge/writing.md).
 
 **Sinew**: Tendons from cattle, deer, or horse legs provide extremely strong natural thread. Dried sinew pounded until fibers separate into threads (0.2-1.0 mm diameter). Tensile strength: 500-900 MPa (stronger than cotton thread at 300-600 MPa). Wet sinew shrinks 5-10% on drying, tightening stitches. Used for bowstrings (sinew bowstring: 2-3 mm diameter, breaks at 200-400 N), sewing leather, binding tool heads, and reinforcing composite bows (sinew on the tension face, horn on the compression face — Mongol recurve bow stored 100-160 J of energy in a 1.2-1.5 kg package).
 
@@ -192,10 +192,11 @@ Leather — animal hide preserved through tanning — provides durable, flexible
 - **[Machine Tools](../machine-tools/index.md)**: splitting machines, shaving machines, embossing presses
 - **[Power Transmission](../machine-tools/power-transmission.md)**: leather drive belts for factory power systems
 - **[Food & Agriculture](../foundations/food-agriculture.md)**: livestock production as the source of hides
-- **[Textiles](../foundings/textiles.md)**: complementary fiber-based materials
+- **[Textiles](../textiles/fibers.md)**: complementary fiber-based materials
+- **[Animal-Derived Materials](animal-materials.md)**: overview of all animal-derived materials including leather tanning basics
 
 ---
 
-*Part of the [Materials Domain](index.md) · [All Domains](../index.md)*
+*Part of the [Animals & Animal Husbandry Domain](index.md) · [All Domains](../index.md)*
 
-[← Back to Materials](index.md)
+[← Back to Animals](index.md)

@@ -6,6 +6,10 @@ graph TD
     subgraph water_internal ["Water — Internal Structure"]
         direction TB
         water_desalination["Desalination"]
+        water_procurement["Water Procurement"]
+        water_distribution["Water Distribution"]
+        water_basic-treatment["Basic Water Treatment"]
+        water_sewage["Sewage Collection & Treatment"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -35,6 +39,10 @@ graph TD
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class water domain
     class water_desalination capability
+    class water_procurement capability
+    class water_distribution capability
+    class water_basic-treatment capability
+    class water_sewage capability
     class chemistry_electrodialysis external
     class energy_electricity external
     class EdgeLegend,MatNote,ToolNote legend

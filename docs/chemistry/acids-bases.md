@@ -1,7 +1,7 @@
 # Acids & Bases
 
-> **Node ID**: chemicals.acids-bases
-> **Domain**: Chemicals
+> **Node ID**: chemistry.acids-bases
+> **Domain**: Chemistry
 > **Timeline**: Years 10-30
 > **Outputs**: sulfuric_acid, hydrochloric_acid, nitric_acid, sodium_hydroxide, sodium_carbonate
 
@@ -28,7 +28,7 @@ Sulfuric acid (H₂SO₄) is the most-produced industrial chemical globally (~20
 3. Catalytic oxidation: 2SO₂ + O₂ ⇌ 2SO₃ over vanadium pentoxide catalyst (V₂O₅, 7-10% on silica support, promoted with K₂O and Na₂O). Operating temperature: 400-450°C (first pass), cooling to 400°C between stages. Pressure: 1-2 atm. Conversion: 97-99.5% through 3-4 catalyst beds with inter-stage cooling.
 4. SO₃ absorption: Pass SO₃ through 98% H₂SO₄ in a packed absorption tower. SO₃ + H₂O (in H₂SO₄) → H₂SO₄. Do NOT absorb directly into water — forms a persistent, dangerous sulfuric acid mist. Product: 98-99% H₂SO₄ or 20-22% oleum (H₂SO₄ dissolved in SO₃, used for sulfonation reactions).
 5. Double absorption (modern): After the first absorption, remaining SO₂ is passed through another catalyst bed and second absorber to achieve 99.5%+ conversion, reducing emissions to <100 ppm SO₂.
-6. Catalyst: V₂O₅ on silica, promoted with K₂SO₄/Na₂SO₄. Life: 5-10 years. Temperature activation: above 380°C. Does not deactivate from mild poisoning (robust). See [Catalyst Production](../chemistry/catalysts.md) for vanadium sourcing.
+6. Catalyst: V₂O₅ on silica, promoted with K₂SO₄/Na₂SO₄. Life: 5-10 years. Temperature activation: above 380°C. Does not deactivate from mild poisoning (robust). See [Catalyst Production](./catalysts.md) for vanadium sourcing.
 
 **Sulfuric acid properties**: Density 1.84 g/mL (98%). Boiling point 337°C (98%). Miscible with water — extremely exothermic (always add acid to water, never water to acid: the heat of dilution is 880 kJ/kg H₂SO₄). Concentrated acid chars organic matter on contact by dehydration. Freezing point: 10°C for 98%, 3°C for 93%.
 
@@ -46,7 +46,7 @@ HCl gas dissolves in water to form hydrochloric acid (up to 38% w/w at room temp
 
 **Direct synthesis from hydrogen and chlorine**:
 - H₂ + Cl₂ → 2HCl (burns in quartz or graphite combustion chamber at 2000°C+)
-- Feed gases: electrolytic H₂ and Cl₂ from [chlor-alkali process](../chemistry/electrolysis.md)
+- Feed gases: electrolytic H₂ and Cl₂ from [chlor-alkali process](./electrolysis.md)
 - Burner: quartz tube 10-15 cm diameter, graphite-lined combustion chamber. Gas flow: stoichiometric ratio H₂:Cl₂ = 1:1. Product gas is 100% HCl, absorbed in water to 31-33%.
 - Most economical route when chlor-alkali electrolysis is operational.
 
@@ -72,7 +72,7 @@ HCl gas dissolves in water to form hydrochloric acid (up to 38% w/w at room temp
 
 **Properties**: 68% HNO₃ (concentrated, azeotrope) has density 1.41 g/mL. Fuming nitric acid (86-100%) is a powerful oxidizer — ignites organic matter on contact. Yellow color from dissolved NO₂. Attacks all metals except gold, platinum, and some stainless alloys. Stored in aluminum or stainless steel tanks (forms passive oxide layer).
 
-**Uses**: Fertilizer production (ammonium nitrate: NH₃ + HNO₃ → NH₄NO₃). Explosive manufacture (nitroglycerin, TNT, nitrocellulose — see [Explosives](../chemistry/explosives.md)). Organic synthesis (nitration of aromatic compounds). Metal etching and passivation. Rocket propellant (as oxidizer with kerosene or hydrazine).
+**Uses**: Fertilizer production (ammonium nitrate: NH₃ + HNO₃ → NH₄NO₃). Explosive manufacture (nitroglycerin, TNT, nitrocellulose — see [Explosives](./explosives.md)). Organic synthesis (nitration of aromatic compounds). Metal etching and passivation. Rocket propellant (as oxidizer with kerosene or hydrazine).
 
 ## Caustic Soda (Sodium Hydroxide)
 
@@ -82,9 +82,9 @@ HCl gas dissolves in water to form hydrochloric acid (up to 38% w/w at room temp
 - Filter CaCO₃ sludge (filter press or rotary vacuum). Wash cake with hot water to recover entrained NaOH. CaCO₃ can be reburned (CaCO₃ → CaO + CO₂ at 900-1000°C) to regenerate Ca(OH)₂.
 - Concentrate dilute NaOH (10-12%) by evaporation in multiple-effect vacuum evaporators to 50% NaOH (standard commercial grade). Further concentration requires nickel-clad vessels (NaOH attacks steel above ~60% at elevated temperature).
 - Energy: 2-3 tonnes steam per tonne NaOH (50% solution).
-- See [Alkali Production](../chemistry/alkalis.md) for detailed process description.
+- See [Alkali Production](./alkalis.md) for detailed process description.
 
-**Electrolytic NaOH** (from [chlor-alkali process](../chemistry/electrolysis.md)):
+**Electrolytic NaOH** (from [chlor-alkali process](./electrolysis.md)):
 - Co-product with Cl₂ and H₂ from brine electrolysis. Membrane cells produce 30-33% NaOH directly; diaphragm cells produce 10-12% requiring evaporation.
 - Higher purity and lower cost at scale, but requires electricity (2,100-2,500 kWh per tonne Cl₂) and membrane or diaphragm technology.
 
@@ -104,7 +104,7 @@ HCl gas dissolves in water to form hydrochloric acid (up to 38% w/w at room temp
 - NaCl + NH₃ + CO₂ + H₂O → NaHCO₃↓ + NH₄Cl. Heat NaHCO₃ → Na₂CO₃ + CO₂ + H₂O.
 - Ammonia recovered by distilling NH₄Cl with Ca(OH)₂ (from limestone). CO₂ from lime kiln. NH₃ makeup only 1-2 kg per tonne Na₂CO₃.
 - Throughput: 100-3000 tonnes/day. Energy: 7-10 GJ/tonne Na₂CO₃.
-- See [Solvay Process](../chemistry/solvay.md) for detailed step-by-step.
+- See [Solvay Process](./solvay.md) for detailed step-by-step.
 
 **Uses**: Glass manufacturing (Na₂CO₃ lowers SiO₂ melting point from 1710°C to ~1000°C — 15-20% Na₂CO₃ in glass batch). Detergent builder (water softener: Na₂CO₃ precipitates Ca²⁺ as CaCO₃). Chemical feedstock (converted to NaOH via causticization). pH adjustment in water treatment.
 
@@ -195,21 +195,21 @@ Lead is uniquely suited for dilute H₂SO₄ (<78%) — forms protective PbSO₄
 5. **HNO₃ from saltpeter** (Year 10-15): NaNO₃ + H₂SO₄ distillation. Limited by nitrate deposits.
 6. **Solvay soda ash** (Year 15-25): Requires ammonia. Displaces Leblanc for Na₂CO₃ production.
 7. **Contact process H₂SO₄** (Year 15-25): V₂O₅ catalyst. Produces 96-98% acid. Requires clean, dry SO₂ gas.
-8. **Ostwald HNO₃** (Year 20-30): From ammonia and air over Pt-Rh gauze. Requires [ammonia production](../chemistry/ammonia.md) via Haber-Bosch.
-9. **Electrolytic NaOH** (Year 25+): Chlor-alkali membrane cells produce NaOH + Cl₂ + H₂. See [Electrolysis](../chemistry/electrolysis.md).
+8. **Ostwald HNO₃** (Year 20-30): From ammonia and air over Pt-Rh gauze. Requires [ammonia production](./ammonia.md) via Haber-Bosch.
+9. **Electrolytic NaOH** (Year 25+): Chlor-alkali membrane cells produce NaOH + Cl₂ + H₂. See [Electrolysis](./electrolysis.md).
 
 ## Cross-Domain Links
 
-- **[Alkali Production](../chemistry/alkalis.md)**: detailed Solvay, Leblanc, causticization, and potash processes
-- **[Solvay Process](../chemistry/solvay.md)**: dedicated article on the ammonia-soda process
-- **[Ammonia Production](../chemistry/ammonia.md)**: Haber-Bosch process enabling Ostwald nitric acid and Solvay soda ash
-- **[Electrolysis](../chemistry/electrolysis.md)**: chlor-alkali process for NaOH, Cl₂, and H₂ co-production
-- **[Refractories](../chemistry/refractories.md)**: furnace linings for acid and alkali production equipment
+- **[Alkali Production](./alkalis.md)**: detailed Solvay, Leblanc, causticization, and potash processes
+- **[Solvay Process](./solvay.md)**: dedicated article on the ammonia-soda process
+- **[Ammonia Production](./ammonia.md)**: Haber-Bosch process enabling Ostwald nitric acid and Solvay soda ash
+- **[Electrolysis](./electrolysis.md)**: chlor-alkali process for NaOH, Cl₂, and H₂ co-production
+- **[Refractories](./refractories.md)**: furnace linings for acid and alkali production equipment
 - **[Iron & Steel](../metals/iron-steel.md)**: pickling acid consumption in steel processing
 - **[Basic Semiconductor Devices](../silicon/basic-devices.md)**: HF and H₂SO₄ in wafer processing
 
 ---
 
-*Part of the [Chemicals Domain](index.md) • [All Domains](../index.md)*
+*Part of the [Chemistry Domain](index.md) • [All Domains](../index.md)*
 
-[← Back to Chemicals](index.md)
+[← Back to Chemistry](index.md)

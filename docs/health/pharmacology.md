@@ -285,7 +285,7 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 - [Medical Instruments](medical-instruments.md) — diagnostic and surgical instrument fabrication
 - [Water Treatment (Health)](water-treatment.md) — clean water for pharmaceutical preparation
 - [Occupational Health](occupational-health.md) — chemical handling safety
-- [Acids and Bases](../chemicals/acids-bases.md) — sulfuric acid, hydrochloric acid for synthesis
+- [Acids and Bases](../chemistry/acids-bases.md) — sulfuric acid, hydrochloric acid for synthesis
 - [Chemistry](../chemistry/index.md) — organic synthesis, distillation, extraction
 
 ---

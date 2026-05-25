@@ -198,7 +198,7 @@ The key innovation was the closed ammonia loop — previous attempts at ammonia-
 
 - **[Alkali Production](alkalis.md)**: broader context including Leblanc process, causticization, and potash
 - **[Ammonia Production](ammonia.md)**: Haber-Bosch process supplying the 1-2 kg/tonne NH₃ makeup
-- **[Acids & Bases](../chemicals/acids-bases.md)**: soda ash as a key industrial base
+- **[Acids & Bases](./acids-bases.md)**: soda ash as a key industrial base
 - **[Lime Chemistry](alkalis.md)**: lime kiln design, slaking, and the lime cycle
 - **[Glass Making](../glass/basic.md)**: Na₂CO₃ as flux lowering SiO₂ melting point from 1710°C to ~1000°C
 - **[Soap Production](alkalis.md)**: Na₂CO₃ for water softening and as NaOH feedstock

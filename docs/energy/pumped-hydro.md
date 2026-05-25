@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.storage.pumped-hydro
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.storage`](storage.md), [`energy.gravity`](gravity.md), [`machine-tools`](../machine-tools/index.md), [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: [`energy.electricity`](electricity.md) (grid stabilization), [`silicon`](../silicon/index.md) (reliable power for continuous processes)
+> **Dependencies**: [`energy.electricity`](electricity.md), [`energy.gravity`](gravity.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 25-40
 > **Outputs**: grid_storage, peak_shaving, frequency_regulation
 

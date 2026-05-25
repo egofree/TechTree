@@ -2,7 +2,8 @@
 
 > **Node ID**: ehs.chemical-safety
 > **Domain**: [Environmental Health & Safety](./index.md)
-> **Dependencies**: [`chemistry`](../chemistry/index.md), [`health.occupational-health`](../health/occupational-health.md)
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 30-70
 > **Outputs**: chemical_hazard_protocols, tlv_databases, nfpa_ratings, exposure_control_plans
 

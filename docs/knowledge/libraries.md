@@ -2,6 +2,8 @@
 
 > **Node ID**: knowledge.libraries
 > **Domain**: Knowledge Preservation & Education
+> **Dependencies**: [`knowledge.education`](education.md), [`knowledge.writing`](writing.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 10-200+
 > **Outputs**: libraries
 

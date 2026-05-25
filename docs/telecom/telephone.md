@@ -2,7 +2,8 @@
 
 > **Node ID**: telecom.telephone
 > **Domain**: [Telecommunications](./index.md)
-> **Dependencies**: [`telecom.electric-telegraph`](electric-telegraph.md), [`energy.electricity`](../energy/electricity.md), [`metals`](../metals/index.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md), `metals`, [`telecom.electric-telegraph`](electric-telegraph.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 25-50
 > **Outputs**: telephone_service, telephone_exchanges, voice_communication
 

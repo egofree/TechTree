@@ -2,7 +2,8 @@
 
 > **Node ID**: computing.digital-logic
 > **Domain**: [Computing](./index.md)
-> **Dependencies**: `semiconductors`, `electrical-systems`
+> **Dependencies**: `computing`, [`computing.electronic`](electronic.md), [`mathematics.formal-systems`](../mathematics/formal-systems.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 40-50
 > **Outputs**: logic_gates, combinational_circuits, sequential_circuits, arithmetic_units, memory_elements
 

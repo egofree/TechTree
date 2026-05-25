@@ -2,7 +2,8 @@
 
 > **Node ID**: electrochemistry.electrochemical-processes
 > **Domain**: [Electrochemistry & Plating](./index.md)
-> **Dependencies**: [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`chemistry.acids`](../chemistry/acids.md), [`metals.finishing`](../metals/finishing.md)
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 30-80
 > **Outputs**: electropolished_surfaces, electroformed_parts, electroless_nickel, ENIG_surfaces, electroless_copper
 

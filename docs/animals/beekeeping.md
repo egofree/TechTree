@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.beekeeping
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`foundations`](../foundations/index.md), [`foundations.fire`](../foundations/fire.md)
-> **Enables**: [`health.medicine`](../health/medicine.md), [`health.pharmacology`](../health/pharmacology.md), [`metals.copper-bronze`](../metals/copper-bronze.md), [`knowledge.writing`](../knowledge/writing.md), [`chemistry.lubricants`](../chemistry/lubricants.md)
+> **Dependencies**: [`foundations.fire`](../foundations/fire.md), [`foundations.tools-basic`](../foundations/tools-basic.md)
+> **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md), [`health.medicine`](../health/medicine.md), [`health.pharmacology`](../health/pharmacology.md), [`knowledge.writing`](../knowledge/writing.md), [`metals.copper-bronze`](../metals/copper-bronze.md)
 > **Timeline**: Years 0-10
 > **Outputs**: honey, beeswax, propolis, pollination_services
 

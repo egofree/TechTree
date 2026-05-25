@@ -2,6 +2,8 @@
 
 > **Node ID**: marine.infrastructure
 > **Domain**: Marine & Naval Engineering
+> **Dependencies**: `machine-tools`, [`metals.iron-steel`](../metals/iron-steel.md), [`polymers.rubber.gutta-percha`](../polymers/gutta-percha.md)
+> **Enables**: None (leaf capability)
 > **Parent**: marine
 > **Timeline**: Years 5-50+
 > **Outputs**: harbor works, dry docks, submarine cables, lighthouses, corrosion protection

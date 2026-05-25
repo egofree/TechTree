@@ -2,6 +2,8 @@
 
 > **Node ID**: cryogenics.air-separation
 > **Domain**: Cryogenics
+> **Dependencies**: [`cryogenics.refrigeration`](refrigeration.md)
+> **Enables**: [`chemistry.air-separation`](../chemistry/air-separation.md)
 > **Timeline**: Years 20-40
 > **Outputs**: cryogenic_distillation, liquid_nitrogen, liquid_oxygen, liquid_argon
 

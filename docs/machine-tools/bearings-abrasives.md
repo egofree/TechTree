@@ -2,6 +2,8 @@
 
 > **Node ID**: machine-tools.bearings-abrasives
 > **Domain**: Machine Tools Bootstrap
+> **Dependencies**: [`machine-tools.iterative-bootstrap`](iterative-bootstrap.md)
+> **Enables**: [`machine-tools.machining`](machining.md)
 > **Timeline**: Years 10-25
 > **Outputs**: bearings, ball_bearings, abrasives, cutting_tools, taps, dies, hss_tool_bits
 

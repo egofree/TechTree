@@ -2,8 +2,8 @@
 
 > **Node ID**: metals.iron-steel.blast-furnace
 > **Domain**: [Metallurgy](./index.md)
-> **Dependencies**: [`metals.iron-steel`](iron-steel.md)
-> **Enables**: `metals.casting`, [`machine-tools.casting`](../machine-tools/casting.md)
+> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), [`energy.fuels.coke`](../energy/coke.md), [`metals.iron-steel`](iron-steel.md)
+> **Enables**: [`metals.steelmaking`](steelmaking.md)
 > **Timeline**: Years 10-20
 > **Outputs**: pig_iron, gray_cast_iron, white_cast_iron, malleable_iron, sand_castings
 

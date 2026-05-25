@@ -2,7 +2,8 @@
 
 > **Node ID**: metals.specialty-semiconductor
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`metals`](./index.md), [`chemistry`](../chemistry/index.md), [Refractory Metals](refractory-metals.md), [Non-Ferrous Metals](non-ferrous.md), [Refractory & Specialty Metals](refractory-specialty.md)
+> **Dependencies**: `chemistry`, [`gas-handling.vacuum`](../gas-handling/vacuum.md), `metals`, [`metals.refractory-specialty`](refractory-specialty.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`vlsi-scaling.advanced-processes`](../vlsi-scaling/advanced-processes.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 40-80
 > **Outputs**: TiN hard masks, Ti diffusion barriers, W contact plugs, Mo gate electrodes, Cu damascene interconnects, Mo/Cu heat sinks
 

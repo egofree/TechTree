@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.pest-management
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`foundations`](../foundations/index.md), [`animals.domestication`](domestication.md)
-> **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md)
+> **Dependencies**: [`animals.domestication`](domestication.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 0-10
 > **Outputs**: biological_pest_control, crop_protection, guardian_services, rodent_suppression
 

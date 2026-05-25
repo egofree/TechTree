@@ -1,6 +1,8 @@
 # Adhesives & Specialty Coatings
 
 > **Node ID**: `chemistry.adhesives-coatings`
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Parent**: [Chemistry](index.md)
 > **Era**: Stone-Age through Semiconductor
 > **Tags**: `material: chemicals`, `capability: []`, `era: industrial`

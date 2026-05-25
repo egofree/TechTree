@@ -2,7 +2,8 @@
 
 > **Node ID**: ehs.ventilation-exhaust
 > **Domain**: [Environmental Health & Safety](./index.md)
-> **Dependencies**: [`gas-handling`](../gas-handling/index.md), [`chemistry`](../chemistry/index.md)
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 30-70
 > **Outputs**: lev_systems, gas_cabinets, abatement_systems, scrubbers, exhaust_monitoring
 

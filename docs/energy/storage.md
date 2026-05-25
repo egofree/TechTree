@@ -2,7 +2,8 @@
 
 > **Node ID**: energy.storage
 > **Domain**: [Energy Storage & Diversification](./index.md)
-> **Dependencies**: [`chemistry`](../chemistry/index.md), [`energy`](index.md), [`metals`](../metals/index.md)
+> **Dependencies**: `chemistry`, `energy`, `metals`, [`polymers.rubber`](../polymers/rubber.md)
+> **Enables**: `energy.electricity.power-systems`
 > **Timeline**: Years 15-200+
 > **Outputs**: lead_acid_batteries, grid_infrastructure, ups_systems, hydroelectric_power, wind_power
 

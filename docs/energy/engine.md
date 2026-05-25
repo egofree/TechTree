@@ -2,7 +2,8 @@
 
 > **Node ID**: energy.engine
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.fuels`](fuels.md), [`metals`](../metals/index.md), [`machine-tools`](../machine-tools/index.md)
+> **Dependencies**: [`energy.fuels`](fuels.md), `metals`, [`petroleum.refining`](../petroleum/refining.md)
+> **Enables**: `energy.electricity.power-systems`, [`marine.propulsion`](../marine/propulsion.md), `transport`, [`transport.aviation`](../transport/aviation.md)
 > **Timeline**: Years 20-50
 > **Outputs**: internal_combustion_engines, gasoline_engines, diesel_engines, mechanical_power
 

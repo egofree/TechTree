@@ -2,6 +2,8 @@
 
 > **Node ID**: animals.sericulture
 > **Domain**: Animals & Animal Husbandry
+> **Dependencies**: [`animals.domestication`](domestication.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 2-15
 > **Outputs**: raw_silk, silk_thread, cocoons, sericin
 > **Tags**: material: [biomass], capability: [textile], era: stone-age

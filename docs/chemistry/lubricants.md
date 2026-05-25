@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.lubricants
 > **Domain**: [Lubricants, Oils & Fluid Mechanics](./index.md)
-> **Dependencies**: [`foundations`](../foundations/index.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md)
-> **Enables**: [`machine-tools`](../machine-tools/index.md), [`energy.gravity`](../energy/gravity.md)
+> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), `foundations`
+> **Enables**: [`energy.gravity`](../energy/gravity.md), [`energy.wind`](../energy/wind.md), `machine-tools`
 > **Timeline**: Years 0-200+
 > **Outputs**: lubricating_oil, grease, cutting_fluid, hydraulic_fluid, vacuum_oil
 

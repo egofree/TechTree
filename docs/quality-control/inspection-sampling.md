@@ -2,7 +2,8 @@
 
 > **Node ID**: quality-control.inspection-sampling
 > **Domain**: [Quality Control](./index.md)
-> **Dependencies**: [`measurement`](../measurement/index.md), [`quality-control.spc`](statistical-process-control.md)
+> **Dependencies**: [`measurement.precision-metrology`](../measurement/precision-metrology.md), `quality-control`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 40-100+
 > **Outputs**: sampling_plans, aql_tables, inspection_procedures, acceptance_criteria, switching_rules
 

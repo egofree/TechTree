@@ -2,6 +2,8 @@
 
 > **Node ID**: energy.fuels
 > **Domain**: Energy
+> **Dependencies**: [`foundations.fire`](../foundations/fire.md)
+> **Enables**: [`energy.engine`](engine.md), [`energy.fuels.charcoal`](charcoal.md), [`energy.fuels.coal`](coal.md), [`energy.fuels.coke`](coke.md), [`glass.advanced.glassblowing`](../glass/advanced-glassblowing.md), [`machine-tools.forming`](../machine-tools/forming.md), [`metals.alloys`](../metals/alloys.md), [`metals.steelmaking`](../metals/steelmaking.md), [`mining.processing`](../mining/processing.md), `plants`, `transport`
 > **Timeline**: Years 0-25
 > **Outputs**: solid_fuels, liquid_fuels, gaseous_fuels
 

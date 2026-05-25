@@ -2,6 +2,8 @@
 
 > **Node ID**: ultra-pure.upw
 > **Domain**: Ultra-Pure Materials
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 40-70
 > **Outputs**: ultra_pure_water
 > **Tags**: materials=[water, chemicals], era=semiconductor

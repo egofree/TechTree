@@ -2,7 +2,8 @@
 
 > **Node ID**: cleanrooms.hepa-ulpa-filtration
 > **Domain**: [Clean Room Technology](./index.md)
-> **Dependencies**: [`chemistry`](../chemistry/index.md), [`glass`](../glass/index.md), [`polymers`](../polymers/index.md)
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 40-70
 > **Outputs**: hepa_filters, ulpa_filters, laminar_flow_systems, fan_filter_units
 

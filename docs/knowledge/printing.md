@@ -2,6 +2,8 @@
 
 > **Node ID**: knowledge.printing
 > **Domain**: Knowledge Preservation & Education
+> **Dependencies**: [`machine-tools.machining`](../machine-tools/machining.md), [`metals.iron-steel`](../metals/iron-steel.md), [`textiles.fibers`](../textiles/fibers.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 10-20
 > **Outputs**: printing_press, books
 

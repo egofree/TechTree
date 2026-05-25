@@ -2,6 +2,8 @@
 
 > **Node ID**: machine-tools.joining
 > **Domain**: Machine Tools Bootstrap
+> **Dependencies**: `chemistry`, [`energy.electricity`](../energy/electricity.md), [`metals.alloys`](../metals/alloys.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: [`energy.steam-power`](../energy/steam-power.md), `machine-tools.joining.diffusion-bonding`, `machine-tools.joining.electron-beam`, `machine-tools.joining.friction-stir`, `machine-tools.joining.laser-welding`, `machine-tools.joining.mig-welding`, `machine-tools.joining.resistance-welding`, `machine-tools.joining.tig-welding`, `machine-tools.joining.ultrasonic-bonding`
 > **Timeline**: Years 5-70
 > **Outputs**: forge_welds, brazed_joints, soldered_joints, riveted_joints, welded_joints, acetylene, tig_welds, mig_welds, resistance_welds, electron_beam_welds, ultrasonic_bonds, friction_stir_welds, laser_welds, diffusion_bonds, hermetic_seals, wire_bonds
 

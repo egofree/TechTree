@@ -2,6 +2,8 @@
 
 > **Node ID**: ultra-pure.analytical-verification
 > **Domain**: Ultra-Pure Materials
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 40-80
 > **Outputs**: contamination_data, purity_certification
 > **Tags**: materials=[chemicals], capability=[measurement], era=semiconductor

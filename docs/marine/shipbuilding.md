@@ -2,6 +2,8 @@
 
 > **Node ID**: marine.shipbuilding
 > **Domain**: Marine & Naval Engineering
+> **Dependencies**: `machine-tools`, [`metals.iron-steel`](../metals/iron-steel.md), [`transport.shipping`](../transport/shipping.md)
+> **Enables**: None (leaf capability)
 > **Parent**: marine
 > **Timeline**: Years 0-50+
 > **Outputs**: vessels, wooden hulls, iron hulls, steel hulls

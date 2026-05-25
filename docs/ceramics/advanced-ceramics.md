@@ -2,8 +2,8 @@
 
 > **Node ID**: ceramics.advanced-ceramics
 > **Domain**: Ceramics & Refractories
-> **Dependencies**: [Pottery & Clay Products](pottery.md), [Kiln Construction](kilns.md), [Mining](../mining/index.md)
-> **Enables**: [Silicon](../silicon/index.md), [Energy](../energy/index.md)
+> **Dependencies**: [`ceramics.kilns`](kilns.md), [`ceramics.pottery`](pottery.md), `mining`
+> **Enables**: [`ceramics.electronic-ceramics`](electronic-ceramics.md), `silicon`
 > **Timeline**: Years 15-50
 > **Outputs**: alumina ceramics, zirconia ceramics, silicon carbide, silicon nitride, refractory linings, ceramic insulation, technical ceramics
 

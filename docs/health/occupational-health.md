@@ -2,7 +2,8 @@
 
 > **Node ID**: health.occupational-health
 > **Domain**: [Health](./index.md)
-> **Dependencies**: [`chemistry`](../chemistry/index.md), [`metals`](../metals/index.md), [`energy`](../energy/index.md)
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), `health`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 10-25
 > **Outputs**: hazard_controls, exposure_monitoring, protective_equipment, safety_protocols
 

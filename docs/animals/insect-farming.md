@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.insect-farming
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`foundations`](../foundations/index.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
-> **Enables**: [`animals.aquaculture`](aquaculture.md), [`animals.poultry.chickens`](poultry-chickens.md), [`agriculture.soil-management`](../agriculture/soil-management.md)
+> **Dependencies**: [`animals.domestication`](domestication.md)
+> **Enables**: [`animals.aquaculture`](aquaculture.md), [`animals.poultry.chickens`](poultry-chickens.md)
 > **Timeline**: Years 1-10+
 > **Outputs**: bsf_larvae, protein_meal, chicken_feed, fish_feed, frass_fertilizer, compost
 

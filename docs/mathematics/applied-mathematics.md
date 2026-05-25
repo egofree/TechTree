@@ -2,7 +2,8 @@
 
 > **Node ID**: mathematics.applied-mathematics
 > **Domain**: [Mathematics & Formal Sciences](./index.md)
-> **Dependencies**: `mathematics.core-mathematics`
+> **Dependencies**: [`mathematics.core-mathematics`](core-mathematics.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 15-70
 > **Outputs**: calculus, linear_algebra, differential_equations, probability_theory, statistical_methods, numerical_methods
 

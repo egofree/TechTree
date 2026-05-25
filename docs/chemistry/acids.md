@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.acids
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`glass.basic`](../glass/basic.md), [`mining`](../mining/index.md)
-> **Enables**: [`silicon.basic-devices`](../silicon/basic-devices.md)
+> **Dependencies**: [`chemistry.ammonia`](ammonia.md), [`glass.basic`](../glass/basic.md), `mining`
+> **Enables**: [`chemistry.coatings`](coatings.md), [`chemistry.explosives`](explosives.md), [`electrochemistry.anodizing`](../electrochemistry/anodizing.md), [`electrochemistry.electrochemical-processes`](../electrochemistry/electrochemical-processes.md), [`electrochemistry.electroplating`](../electrochemistry/electroplating.md), [`health.occupational-health`](../health/occupational-health.md), [`metals.finishing`](../metals/finishing.md), [`metals.non-ferrous`](../metals/non-ferrous.md), [`silicon.basic-devices`](../silicon/basic-devices.md), [`transport.telegraph`](../transport/telegraph.md)
 > **Timeline**: Years 20-35
 > **Outputs**: sulfuric_acid, nitric_acid, hydrochloric_acid, hydrofluoric_acid, oleum
 

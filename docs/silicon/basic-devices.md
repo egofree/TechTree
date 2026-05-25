@@ -2,7 +2,8 @@
 
 > **Node ID**: silicon.basic-devices
 > **Domain**: [Silicon](./index.md)
-> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`silicon.crystal-growth`](crystal-growth.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md)
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md), `metals.aluminum.semiconductor-grade`, [`silicon.crystal-growth`](crystal-growth.md), [`silicon.wafering`](wafering.md), [`vacuum.pumps`](../vacuum/pumps.md)
+> **Enables**: [`computing.electronic`](../computing/electronic.md), [`electronics.assembly`](../electronics/assembly.md), [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
 > **Timeline**: Years 30-50
 > **Outputs**: solar_cells, diodes, transistors
 

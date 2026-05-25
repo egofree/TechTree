@@ -2,7 +2,8 @@
 
 > **Node ID**: measurement.temperature-pressure
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: [`foundations`](../foundations/index.md), [`metals`](../metals/index.md), [`energy`](../energy/index.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md), `metals`
+> **Enables**: [`silicon.crystal-growth.cz-pulling`](../silicon/cz-pulling.md)
 > **Timeline**: Years 25-40
 > **Outputs**: thermocouples, temperature_measurement, electrical_measurement, pressure_measurement
 

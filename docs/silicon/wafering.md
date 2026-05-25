@@ -2,7 +2,8 @@
 
 > **Node ID**: silicon.wafering
 > **Domain**: [Silicon](./index.md)
-> **Dependencies**: [`silicon.crystal-growth`](crystal-growth.md), [`machine-tools`](../machine-tools/index.md), `chemicals.acids-bases`
+> **Dependencies**: `silicon`, [`silicon.crystal-growth`](crystal-growth.md)
+> **Enables**: [`silicon.basic-devices`](basic-devices.md), `silicon.wafering.epitaxy`, `silicon.wafering.soi`
 > **Timeline**: Years 45-60
 > **Outputs**: silicon_wafers, polished_substrates, epitaxial_wafers
 

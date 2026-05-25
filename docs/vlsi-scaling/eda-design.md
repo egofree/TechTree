@@ -2,7 +2,8 @@
 
 > **Node ID**: vlsi-scaling.eda-design
 > **Domain**: [VLSI Scaling & Advanced Semiconductor](./index.md)
-> **Dependencies**: [`computing`](../computing/index.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md)
+> **Dependencies**: [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md), `computing`, [`electronics.assembly`](../electronics/assembly.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 70-200+
 > **Outputs**: eda_tools, gpus, advanced_packaging, vlsi_designs
 

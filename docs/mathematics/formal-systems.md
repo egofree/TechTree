@@ -2,7 +2,8 @@
 
 > **Node ID**: mathematics.formal-systems
 > **Domain**: [Mathematics & Formal Sciences](./index.md)
-> **Dependencies**: `mathematics.core-mathematics`
+> **Dependencies**: [`mathematics.core-mathematics`](core-mathematics.md)
+> **Enables**: [`computing.digital-logic`](../computing/digital-logic.md)
 > **Timeline**: Years 25-70
 > **Outputs**: boolean_algebra, information_theory, formal_languages, automata_theory
 

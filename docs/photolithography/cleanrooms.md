@@ -2,7 +2,8 @@
 
 > **Node ID**: photolithography.cleanrooms
 > **Domain**: [Photolithography & IC Fabrication](./index.md)
-> **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`chemistry`](../chemistry/index.md)
+> **Dependencies**: `ceramics`, `chemistry`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 40-70
 > **Outputs**: cleanrooms, ultra_pure_water, cleanroom_consumables
 

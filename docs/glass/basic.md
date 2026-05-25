@@ -2,6 +2,8 @@
 
 > **Node ID**: glass.basic
 > **Domain**: [Glass](./index.md)
+> **Dependencies**: `mining`
+> **Enables**: [`chemistry.acids`](../chemistry/acids.md), [`glass.advanced`](advanced.md), [`photolithography.resists-masks`](../photolithography/resists-masks.md)
 > **Timeline**: Years 5-15
 > **Outputs**: basic_glass, potash
 

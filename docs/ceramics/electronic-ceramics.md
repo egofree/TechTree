@@ -2,8 +2,8 @@
 
 > **Node ID**: ceramics.electronic-ceramics
 > **Domain**: Ceramics & Refractories
-> **Dependencies**: [Advanced Ceramics & Refractories](advanced-ceramics.md), [Chemistry](../chemistry/index.md), [Electricity Generation](../energy/index.md)
-> **Enables**: [Silicon](../silicon/index.md), [Photolithography](../photolithography/index.md), [Vacuum Technology](../gas-handling/index.md)
+> **Dependencies**: [`ceramics.advanced-ceramics`](advanced-ceramics.md), `chemistry`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 25-70+
 > **Outputs**: MLCC capacitors, ferrite cores, PZT actuators, getter materials, ceramic substrates, varistors, thermistors
 

@@ -2,6 +2,8 @@
 
 > **Node ID**: chemistry.cement
 > **Domain**: Chemistry
+> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), `mining`
+> **Enables**: `construction`
 > **Timeline**: Years 20-35
 > **Outputs**: cement, concrete, reinforced_concrete
 

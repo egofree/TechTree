@@ -2,6 +2,8 @@
 
 > **Node ID**: animals.leather
 > **Domain**: Animals & Animal Husbandry
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 5-15
 > **Outputs**: leather, rawhide, tanned_hides
 

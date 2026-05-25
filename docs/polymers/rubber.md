@@ -2,6 +2,8 @@
 
 > **Node ID**: polymers.rubber
 > **Domain**: Polymers & Composites
+> **Dependencies**: None (root capability)
+> **Enables**: [`energy.storage`](../energy/storage.md), `health`, [`polymers.rubber.gutta-percha`](gutta-percha.md), [`polymers.rubber.shellac`](shellac.md)
 > **Timeline**: Years 5-50
 > **Outputs**: rubber, elastomers, gaskets, seals
 

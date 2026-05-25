@@ -2,6 +2,8 @@
 
 > **Node ID**: construction.building-materials
 > **Domain**: Construction & Structural Engineering
+> **Dependencies**: [`foundations.tools-basic`](../foundations/tools-basic.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 5-25
 > **Outputs**: timber_frames, masonry_walls, roofing_systems, waterproofing, scaffolding, hoisting_equipment
 

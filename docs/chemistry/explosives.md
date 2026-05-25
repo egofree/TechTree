@@ -2,6 +2,8 @@
 
 > **Node ID**: chemistry.explosives
 > **Domain**: Chemistry
+> **Dependencies**: [`chemistry.acids`](acids.md), [`chemistry.alkalis`](alkalis.md), [`energy.fuels.charcoal`](../energy/charcoal.md)
+> **Enables**: `defense`, [`mining.extraction.black-powder`](../mining/black-powder.md)
 > **Timeline**: Years 5-30+
 > **Outputs**: black_powder, nitrocellulose, dynamite, smokeless_powder
 

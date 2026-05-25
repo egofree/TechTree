@@ -2,6 +2,8 @@
 
 > **Node ID**: ultra-pure.high-purity-chemicals
 > **Domain**: Ultra-Pure Materials
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 40-80
 > **Outputs**: high_purity_acids, high_purity_solvents, high_purity_gases
 > **Tags**: materials=[chemicals], era=semiconductor

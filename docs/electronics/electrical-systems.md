@@ -2,6 +2,8 @@
 
 > **Node ID**: electronics.electrical-systems
 > **Domain**: Electronics
+> **Dependencies**: [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`energy.electricity`](../energy/electricity.md), [`polymers.thermoplastics`](../polymers/thermoplastics.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 15-30
 > **Outputs**: wiring_harnesses, switches, connectors, circuit_breakers, transformers
 

@@ -2,6 +2,8 @@
 
 > **Node ID**: ceramics.pottery.kiln-firing
 > **Domain**: Ceramics & Refractories
+> **Dependencies**: [`energy.fuels.charcoal`](../energy/charcoal.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 0-10
 > **Outputs**: fired_ceramics
 

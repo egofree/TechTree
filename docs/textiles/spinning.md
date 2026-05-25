@@ -2,6 +2,8 @@
 
 > **Node ID**: textiles.spinning
 > **Domain**: Textiles, Fiber & Cordage
+> **Dependencies**: [`textiles.weaving`](weaving.md)
+> **Enables**: [`plants.fiber-plants`](../plants/fiber-plants.md), [`textiles.fibers`](fibers.md), [`textiles.rope-making`](rope-making.md)
 > **Timeline**: Years 0-5
 > **Outputs**: yarn, thread
 

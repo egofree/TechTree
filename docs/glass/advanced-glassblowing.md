@@ -2,6 +2,8 @@
 
 > **Node ID**: glass.advanced-glassblowing
 > **Domain**: Glass
+> **Dependencies**: [`energy.fuels`](../energy/fuels.md), [`glass.advanced`](advanced.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 10-20
 > **Outputs**: scientific_glassware, thermometer_tubes, vacuum_enclosures, complex_laboratory_apparatus
 

@@ -2,7 +2,8 @@
 
 > **Node ID**: computing.data-storage
 > **Domain**: [Computing](./index.md)
-> **Dependencies**: `digital-logic`, `semiconductors`, `magnetic-materials`
+> **Dependencies**: `computing`, [`polymers.thermoplastics`](../polymers/thermoplastics.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 35-50
 > **Outputs**: persistent_storage, removable_media, solid_state_memory
 

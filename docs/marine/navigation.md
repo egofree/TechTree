@@ -2,6 +2,8 @@
 
 > **Node ID**: marine.navigation
 > **Domain**: Marine & Naval Engineering
+> **Dependencies**: [`knowledge.writing`](../knowledge/writing.md), `metals`
+> **Enables**: None (leaf capability)
 > **Parent**: marine
 > **Timeline**: Years 0-50+
 > **Outputs**: navigation instruments, nautical charts, position fixing

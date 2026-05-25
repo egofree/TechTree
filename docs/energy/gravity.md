@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.gravity
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`foundations`](../foundations/index.md), [`metals.copper-bronze`](../metals/copper-bronze.md) or [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: [`energy.steam-power`](steam-power.md) (boiler feedwater pumping, mechanical skills), [`foundations.food-agriculture`](../foundations/food-agriculture.md) (grain milling), [`health.sanitation`](../health/sanitation.md) (pumping), [`energy.electricity`](electricity.md) (prime mover for generators)
+> **Dependencies**: [`chemistry.lubricants`](../chemistry/lubricants.md), `textiles`
+> **Enables**: [`energy.gravity.water-turbines`](water-turbines.md), [`energy.storage.pumped-hydro`](pumped-hydro.md)
 > **Timeline**: Years 5-15
 > **Outputs**: water_power, mechanical_rotation, ground_grain, pumped_water
 

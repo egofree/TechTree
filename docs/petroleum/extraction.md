@@ -2,8 +2,8 @@
 
 > **Node ID**: petroleum.extraction
 > **Domain**: [Petroleum Extraction & Refining](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`mining`](../mining/index.md)
-> **Enables**: [`petroleum.refining`](refining.md)
+> **Dependencies**: `petroleum`
+> **Enables**: `petroleum.extraction.cable-tool`, `petroleum.extraction.rotary`, [`petroleum.refining`](refining.md)
 > **Timeline**: Years 10-35
 > **Outputs**: crude_oil, natural_gas_liquids, associated_gas
 

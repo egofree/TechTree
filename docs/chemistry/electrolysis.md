@@ -2,6 +2,8 @@
 
 > **Node ID**: chemistry.electrolysis
 > **Domain**: Chemistry
+> **Dependencies**: `chemistry.electrodialysis`, `chemistry.lithium-separation`, `chemistry.water-electrolysis`, [`energy.electricity`](../energy/electricity.md), `energy.fuel-cell`, `energy.redox-flow-battery`
+> **Enables**: [`chemistry.ammonia`](ammonia.md), [`chemistry.dopant-etch-gases`](dopant-etch-gases.md), [`chemistry.hydrogen-silane`](hydrogen-silane.md), [`chemistry.pulp-chemicals`](pulp-chemicals.md), `electrochemistry`, [`electronics.electrical-systems`](../electronics/electrical-systems.md), [`metals.aluminum`](../metals/aluminum.md), [`metals.finishing`](../metals/finishing.md)
 > **Timeline**: Years 20-30
 > **Outputs**: electrolysis, chlorine, hydrogen, oxygen, aluminum, caustic_soda, pure_copper
 

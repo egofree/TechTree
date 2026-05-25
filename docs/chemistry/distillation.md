@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.distillation
 > **Domain**: [Chemistry](./index.md)
-> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), [`mining`](../mining/index.md)
-> **Enables**: [`silicon.purification`](../silicon/purification.md)
+> **Dependencies**: None (root capability)
+> **Enables**: [`chemistry.solvents`](solvents.md), [`health.pharmacology`](../health/pharmacology.md), [`petroleum.refining`](../petroleum/refining.md), [`polymers.rubber.shellac`](../polymers/shellac.md), [`silicon.purification`](../silicon/purification.md)
 > **Timeline**: Years 20-35
 > **Outputs**: distillation_capability, fractionated_chemicals
 

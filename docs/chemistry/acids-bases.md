@@ -2,6 +2,8 @@
 
 > **Node ID**: chemistry.acids-bases
 > **Domain**: Chemistry
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 10-30
 > **Outputs**: sulfuric_acid, hydrochloric_acid, nitric_acid, sodium_hydroxide, sodium_carbonate
 

@@ -2,7 +2,8 @@
 
 > **Node ID**: vacuum.chambers
 > **Domain**: [Vacuum Technology](./index.md)
-> **Enables**: [`silicon.basic-devices`](../silicon/basic-devices.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md)
+> **Dependencies**: `machine-tools`, `machine-tools.joining.electron-beam`, `machine-tools.joining.tig-welding`, `metals`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_chambers, vacuum_seals, viewports, gate_valves, load_locks
 

@@ -1,5 +1,7 @@
 # Basic Water Treatment
 
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Node**: `water.basic-treatment`
 > **Parent**: [Water](index.md)
 > **Timeline**: Years 5-25

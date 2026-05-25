@@ -2,7 +2,8 @@
 
 > **Node ID**: food-processing.preservation
 > **Domain**: [Food Processing](./index.md)
-> **Dependencies**: [`ceramics`](../ceramics/index.md), [`health.sanitation`](../health/index.md), [`chemistry.petroleum-alternatives.fermentation`](../chemistry/fermentation.md)
+> **Dependencies**: `ceramics`, [`chemistry.petroleum-alternatives.fermentation`](../chemistry/fermentation.md), [`health.sanitation`](../health/sanitation.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 0-30+
 > **Outputs**: preserved_food, canned_food, pasteurized_food, refrigerated_food, dried_food, salted_food, smoked_food, fermented_food
 

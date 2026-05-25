@@ -2,6 +2,8 @@
 
 > **Node ID**: chemistry.hydrogen-silane
 > **Domain**: Chemistry
+> **Dependencies**: [`chemistry.electrolysis`](electrolysis.md), [`gas-handling.basic`](../gas-handling/basic.md)
+> **Enables**: [`metals.powder-metallurgy`](../metals/powder-metallurgy.md), [`silicon.purification`](../silicon/purification.md)
 > **Timeline**: Years 25-50
 > **Outputs**: hydrogen, silane, trichlorosilane
 

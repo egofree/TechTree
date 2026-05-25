@@ -2,8 +2,8 @@
 
 > **Node ID**: petroleum.petrochemicals
 > **Domain**: [Petroleum Extraction & Refining](./index.md)
-> **Dependencies**: [`petroleum.refining`](refining.md), [`chemistry`](../chemistry/index.md)
-> **Enables**: [`polymers.thermoplastics`](../polymers/thermoplastics.md), [`polymers.thermosets`](../polymers/thermosets.md), [`polymers.rubber.synthetic`](../polymers/synthetic.md)
+> **Dependencies**: `petroleum`, [`petroleum.refining`](refining.md)
+> **Enables**: `petroleum.petrochemicals.steam-cracking`
 > **Timeline**: Years 25-50+
 > **Outputs**: ethylene, propylene, butadiene, benzene, toluene, xylene, styrene, ethylene_oxide
 

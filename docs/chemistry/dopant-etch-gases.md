@@ -2,6 +2,8 @@
 
 > **Node ID**: chemistry.dopant-etch-gases
 > **Domain**: Chemistry
+> **Dependencies**: `chemistry`, [`chemistry.electrolysis`](electrolysis.md)
+> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), `silicon.wafering.epitaxy`, [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
 > **Timeline**: Years 30-70
 > **Outputs**: dopant_gases, etch_gases, fluorine
 

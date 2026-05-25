@@ -2,7 +2,8 @@
 
 > **Node ID**: metals.alloys
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`metals.steelmaking`](steelmaking.md), [`metals.non-ferrous`](non-ferrous.md), [`metals.iron-steel`](iron-steel.md)
+> **Dependencies**: [`energy.fuels`](../energy/fuels.md), [`metals.iron-steel`](iron-steel.md), [`metals.non-ferrous`](non-ferrous.md), [`metals.steelmaking`](steelmaking.md)
+> **Enables**: [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`machine-tools.joining`](../machine-tools/joining.md), [`metals.powder-metallurgy`](powder-metallurgy.md)
 > **Timeline**: Years 20-50
 > **Outputs**: stainless steel, tool steel, superalloys, titanium alloys, specialty copper alloys
 

@@ -2,6 +2,8 @@
 
 > **Node ID**: plants.edible-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
+> **Dependencies**: `health`, `plants`
+> **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md), `plants.edible-plants.agave`, `plants.edible-plants.allium-ampeloprasum`, `plants.edible-plants.artemisia-absinthium`, `plants.edible-plants.balanites-aegyptiaca`, `plants.edible-plants.bitter-orange`
 > **Timeline**: Years 0-10
 > **Outputs**: edible_plants, food_crops, vegetables, fruits, seeds
 

@@ -2,7 +2,8 @@
 
 > **Node ID**: automation.material-transport
 > **Domain**: [Automation & Robotics](./index.md)
-> **Dependencies**: [`automation.equipment-communication`](./equipment-communication.md), [`computing`](../computing/index.md)
+> **Dependencies**: [`automation.equipment-communication`](equipment-communication.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 60-100+
 > **Outputs**: foup_transport, agv_systems, overhead_hoist_transport, fab_logistics
 

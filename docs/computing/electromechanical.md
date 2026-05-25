@@ -2,6 +2,8 @@
 
 > **Node ID**: computing.electromechanical
 > **Domain**: Computing & Automation
+> **Dependencies**: [`computing.mechanical`](mechanical.md), [`energy.electricity`](../energy/electricity.md)
+> **Enables**: [`computing.electronic`](electronic.md)
 > **Timeline**: Years 30-50
 > **Outputs**: automated_machines, punch_cards
 

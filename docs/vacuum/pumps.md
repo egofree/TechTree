@@ -2,7 +2,8 @@
 
 > **Node ID**: vacuum.pumps
 > **Domain**: [Vacuum Technology](./index.md)
-> **Enables**: [`silicon.basic-devices`](../silicon/basic-devices.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`optics.inspection`](../optics/inspection.md)
+> **Dependencies**: `machine-tools`
+> **Enables**: [`optics.inspection.optical-coatings`](../optics/optical-coatings.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_pumps, roughing_pumps, high_vacuum_pumps, uhv_pumps
 

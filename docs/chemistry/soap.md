@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.soap
 > **Domain**: Chemistry
-> **Dependencies**: [`chemistry.alkalis`](alkalis.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md)
-> **Enables**: [`health`](../health/index.md)
+> **Dependencies**: [`chemistry.alkalis`](alkalis.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`metals.non-ferrous`](../metals/non-ferrous.md)
+> **Enables**: `health`
 > **Timeline**: Years 5-30
 > **Outputs**: soap, glycerol, detergent
 

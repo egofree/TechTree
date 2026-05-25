@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.rabbits
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
-> **Enables**: [`textiles.fibers`](../textiles/fibers.md), `food.preservation`
+> **Dependencies**: `animals`
+> **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md), [`textiles.fibers`](../textiles/fibers.md)
 > **Timeline**: Years 0-5
 > **Outputs**: meat, angora_wool, manure, pelts
 

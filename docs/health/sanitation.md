@@ -2,6 +2,8 @@
 
 > **Node ID**: health.sanitation
 > **Domain**: Public Health, Sanitation & Medicine
+> **Dependencies**: `ceramics`, [`foundations.water-procurement`](../foundations/water-procurement.md)
+> **Enables**: `food-processing`, [`food-processing.dairy`](../food-processing/dairy.md), [`food-processing.preservation`](../food-processing/preservation.md), [`health.medicine`](medicine.md), [`knowledge.writing`](../knowledge/writing.md)
 > **Timeline**: Years 0-50+
 > **Outputs**: clean_water, sanitation
 

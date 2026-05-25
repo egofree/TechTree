@@ -2,6 +2,8 @@
 
 > **Node ID**: cryogenics.liquefaction-storage
 > **Domain**: Cryogenics
+> **Dependencies**: [`cryogenics.refrigeration`](refrigeration.md)
+> **Enables**: [`silicon.crystal-growth`](../silicon/crystal-growth.md)
 > **Timeline**: Years 20-40
 > **Outputs**: cryogenic_storage, liquid_gases, dewar_vessels, cold_boxes
 

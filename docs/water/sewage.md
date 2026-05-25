@@ -1,5 +1,7 @@
 # Sewage Collection & Treatment
 
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Node**: `water.sewage`
 > **Parent**: [Water](index.md)
 > **Timeline**: Years 10-35

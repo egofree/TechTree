@@ -2,6 +2,8 @@
 
 > **Node ID**: defense.fortifications
 > **Domain**: Defense & Military Engineering
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 5-50+
 > **Outputs**: fortifications, defensive_structures, walls, towers, castle_fortifications
 

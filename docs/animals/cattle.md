@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.cattle
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
-> **Enables**: [`animals.draft-power`](draft-power.md), [`animals.animal-materials`](animal-materials.md), `food.dairy`, `food.preservation`, [`agriculture.soil-management`](../agriculture/soil-management.md)
+> **Dependencies**: `animals`, [`animals.domestication`](domestication.md)
+> **Enables**: [`animals.animal-materials`](animal-materials.md), [`animals.draft-power`](draft-power.md)
 > **Timeline**: Years 1-30+
 > **Outputs**: beef, dairy, tallow, leather_hides, manure, draft_power
 

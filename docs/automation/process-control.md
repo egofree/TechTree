@@ -2,7 +2,8 @@
 
 > **Node ID**: automation.process-control
 > **Domain**: [Automation & Robotics](./index.md)
-> **Dependencies**: [`automation.equipment-communication`](./equipment-communication.md), [`quality-control`](../quality-control/index.md)
+> **Dependencies**: [`automation.equipment-communication`](equipment-communication.md), `quality-control`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 60-100+
 > **Outputs**: recipe_management, lot_tracking, process_sequencing, fault_detection, run_to_run_control
 

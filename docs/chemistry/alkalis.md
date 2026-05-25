@@ -2,6 +2,8 @@
 
 > **Node ID**: chemistry.alkalis
 > **Domain**: Chemistry
+> **Dependencies**: `mining`
+> **Enables**: [`chemistry.explosives`](explosives.md), [`chemistry.pulp-chemicals`](pulp-chemicals.md), [`chemistry.soap`](soap.md), [`metals.aluminum`](../metals/aluminum.md), [`textiles.finishing`](../textiles/finishing.md)
 > **Timeline**: Years 20-35
 > **Outputs**: soda_ash, caustic_soda, sodium_carbonate
 

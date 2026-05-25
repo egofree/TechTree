@@ -1,6 +1,8 @@
 # Polymer Composites — Process Reference
 
 > **Node ID**: polymers.composites
+> **Dependencies**: [`glass.fibers`](../glass/fibers.md), `machine-tools`, [`polymers.thermosets`](thermosets.md)
+> **Enables**: None (leaf capability)
 
 ## Overview
 

@@ -2,7 +2,8 @@
 
 > **Node ID**: automation.wafer-handling
 > **Domain**: [Automation & Robotics](./index.md)
-> **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`vacuum`](../vacuum/index.md), [`cleanrooms`](../photolithography/cleanrooms.md)
+> **Dependencies**: `machine-tools`, `vacuum`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 60-100+
 > **Outputs**: wafer_transfer_capability, cleanroom_robots, load_lock_systems
 

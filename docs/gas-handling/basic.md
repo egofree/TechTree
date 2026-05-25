@@ -2,7 +2,8 @@
 
 > **Node ID**: gas-handling.basic
 > **Domain**: [Gas Handling](./index.md)
-> **Enables**: [`chemistry.air-separation`](../chemistry/air-separation.md), [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md)
+> **Dependencies**: None (root capability)
+> **Enables**: [`chemistry.air-separation`](../chemistry/air-separation.md), [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md), [`silicon.purification`](../silicon/purification.md)
 > **Timeline**: Years 20-35
 > **Outputs**: gas_handling, compressed_gases, purified_gases
 

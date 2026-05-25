@@ -1,6 +1,8 @@
 # Aquaculture & Fisheries
 
 > **Node ID**: animals.aquaculture
+> **Dependencies**: [`animals.insect-farming`](insect-farming.md), [`foundations.tools-basic`](../foundations/tools-basic.md)
+> **Enables**: [`agriculture.aquaponics`](../agriculture/aquaponics.md)
 > **Era**: Stone-age
 > **Parent**: animals
 > **Status**: Critical

@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.electric-furnaces.electrode-manufacturing
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.electric-furnaces`](electric-furnaces.md), [`energy.fuels.coke`](coke.md), [`chemistry`](../chemistry/index.md)
-> **Enables**: [`energy.electric-furnaces`](electric-furnaces.md) (graphite electrodes), [`silicon.mg-si-production`](../silicon/mg-si-production.md) (SAF electrodes)
+> **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`energy.electric-furnaces`](electric-furnaces.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 20-35
 > **Outputs**: graphite_electrodes, carbon_electrodes, electrode_paste
 

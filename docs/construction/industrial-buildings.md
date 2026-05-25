@@ -2,6 +2,8 @@
 
 > **Node ID**: construction.industrial-buildings
 > **Domain**: Construction & Structural Engineering
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 15-40
 > **Outputs**: industrial_facilities, machine_foundations, vibration_isolation, crane_runways, factory_floors
 

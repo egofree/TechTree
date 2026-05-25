@@ -2,7 +2,8 @@
 
 > **Node ID**: glass.fibers
 > **Domain**: [Glass](./index.md)
-> **Dependencies**: [`glass.basic`](basic.md), [`metals.non-ferrous`](../metals/non-ferrous.md), [`polymers.thermosets`](../polymers/thermosets.md)
+> **Dependencies**: `glass`, [`glass.advanced`](advanced.md)
+> **Enables**: [`electronics.assembly`](../electronics/assembly.md), [`polymers.composites`](../polymers/composites.md)
 > **Timeline**: Years 30-45
 > **Outputs**: fiberglass, insulation_wool, optical_fiber, composite_reinforcement
 

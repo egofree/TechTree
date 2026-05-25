@@ -2,7 +2,8 @@
 
 > **Node ID**: cleanrooms.facility-design
 > **Domain**: [Clean Room Technology](./index.md)
-> **Dependencies**: [`construction`](../construction/index.md), [`energy`](../energy/index.md), [`metals`](../metals/index.md)
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 40-70
 > **Outputs**: cleanroom_facilities, pressure_cascade_systems, raised_floor_systems, hvac_systems
 

@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.equines
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
-> **Enables**: [`animals.draft-power`](draft-power.md), [`transport.roads`](../transport/roads.md)
+> **Dependencies**: `animals`, [`animals.domestication`](domestication.md)
+> **Enables**: [`animals.draft-power`](draft-power.md)
 > **Timeline**: Years 2-30+
 > **Outputs**: draft_power, transport, manure
 

@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.sheep
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
-> **Enables**: [`animals.animal-materials`](animal-materials.md), `textiles.wool-processing`, `food.dairy`, [`agriculture.soil-management`](../agriculture/soil-management.md)
+> **Dependencies**: `animals`, [`animals.domestication`](domestication.md)
+> **Enables**: [`animals.animal-materials`](animal-materials.md), [`textiles.fibers`](../textiles/fibers.md)
 > **Timeline**: Years 1-25+
 > **Outputs**: wool, mutton, milk, lanolin, sheepskins, manure
 

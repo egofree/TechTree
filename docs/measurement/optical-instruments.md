@@ -2,7 +2,8 @@
 
 > **Node ID**: measurement.optical-instruments
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: [`optics.inspection`](../optics/inspection.md), [`measurement.temperature-pressure`](temperature-pressure.md)
+> **Dependencies**: `measurement`, [`optics.inspection`](../optics/inspection.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 30-45
 > **Outputs**: spectroscopy, refractometry, polarimetry, photometry, interferometry
 

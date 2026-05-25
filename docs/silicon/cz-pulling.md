@@ -2,6 +2,8 @@
 
 > **Node ID**: silicon.crystal-growth.cz-pulling
 > **Domain**: Silicon
+> **Dependencies**: [`measurement.temperature-pressure`](../measurement/temperature-pressure.md), [`silicon.crystal-growth`](crystal-growth.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 30-50
 > **Outputs**: single_crystal_ingots
 

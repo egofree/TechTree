@@ -3,7 +3,7 @@
 > **Node ID**: animals.poultry.turkeys
 > **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md)
-> **Enables**: `food.preservation`, `textiles.clothing`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 1-10+
 > **Outputs**: turkey_meat, feathers, manure
 

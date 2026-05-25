@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.poultry
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.domestication`](domestication.md), [`foundations`](../foundations/index.md), `plants.agriculture`
-> **Enables**: `food.preservation`, `foundations.soil`, `textiles.clothing`
+> **Dependencies**: `animals`, [`foundations.food-agriculture`](../foundations/food-agriculture.md)
+> **Enables**: [`animals.poultry.chickens`](poultry-chickens.md), [`animals.poultry.coturnix`](poultry-coturnix.md), [`animals.poultry.ducks`](poultry-ducks.md), [`animals.poultry.geese`](poultry-geese.md), [`animals.poultry.guinea-fowl`](poultry-guinea-fowl.md), [`animals.poultry.pigeons`](poultry-pigeons.md), [`animals.poultry.turkeys`](poultry-turkeys.md)
 > **Timeline**: Years 0-10+
 > **Outputs**: meat, eggs, feathers, manure, pest_control
 

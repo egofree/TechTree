@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.solvents
 > **Domain**: Chemistry
-> **Dependencies**: [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`chemistry.distillation`](distillation.md), [`chemistry.petroleum-alternatives.fermentation`](fermentation.md)
-> **Enables**: [`health`](../health/index.md)
+> **Dependencies**: [`chemistry.distillation`](distillation.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`chemistry.petroleum-alternatives.fermentation`](fermentation.md)
+> **Enables**: `health`
 > **Timeline**: Years 15-40
 > **Outputs**: ethanol, methanol, ether, turpentine, hydrogen_peroxide
 

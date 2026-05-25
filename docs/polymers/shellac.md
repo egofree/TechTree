@@ -2,8 +2,8 @@
 
 > **Node ID**: polymers.rubber.shellac
 > **Domain**: Polymers & Composites
-> **Dependencies**: [`polymers.rubber.natural`](natural.md), [`chemistry.distillation`](../chemistry/distillation.md)
-> **Enables**: `electronics.insulation`, `woodworking.finishing`
+> **Dependencies**: [`chemistry.distillation`](../chemistry/distillation.md), [`polymers.rubber`](rubber.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 5-20
 > **Outputs**: shellac_flakes, shellac_solution, french_polish, phonograph_records
 

@@ -2,6 +2,8 @@
 
 > **Node ID**: transport.telegraph
 > **Domain**: Transportation & Logistics
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`energy.electricity`](../energy/electricity.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: `telecom`, [`telecom.electric-telegraph`](../telecom/electric-telegraph.md)
 > **Timeline**: Years 15-30
 > **Outputs**: telegraph_network
 

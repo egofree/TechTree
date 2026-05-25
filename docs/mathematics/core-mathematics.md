@@ -2,7 +2,8 @@
 
 > **Node ID**: mathematics.core-mathematics
 > **Domain**: [Mathematics & Formal Sciences](./index.md)
-> **Dependencies**: `foundations`, `knowledge.writing`
+> **Dependencies**: `foundations`
+> **Enables**: [`computing.mechanical`](../computing/mechanical.md), [`mathematics.applied-mathematics`](applied-mathematics.md), [`mathematics.formal-systems`](formal-systems.md)
 > **Timeline**: Years 0-25
 > **Outputs**: arithmetic, algebra, geometry, trigonometry, number_systems
 

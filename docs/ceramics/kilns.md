@@ -2,6 +2,8 @@
 
 > **Node ID**: ceramics.kilns
 > **Domain**: Ceramics & Refractories
+> **Dependencies**: None (root capability)
+> **Enables**: [`ceramics.advanced-ceramics`](advanced-ceramics.md), [`ceramics.lime`](lime.md), [`chemistry.cement`](../chemistry/cement.md), [`chemistry.refractories`](../chemistry/refractories.md), [`energy.fuels.coal`](../energy/coal.md), [`energy.fuels.coke`](../energy/coke.md), [`metals.iron-steel.blast-furnace`](../metals/blast-furnace.md)
 > **Timeline**: Years 0-10
 > **Outputs**: kilns, furnaces, ovens
 

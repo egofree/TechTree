@@ -2,6 +2,8 @@
 
 > **Node ID**: health.pharmacology
 > **Domain**: Health
+> **Dependencies**: [`animals.beekeeping`](../animals/beekeeping.md), [`chemistry.distillation`](../chemistry/distillation.md), [`health.medicine`](medicine.md)
+> **Enables**: [`plants.medicinal-plants`](../plants/medicinal-plants.md)
 > **Timeline**: Years 10-100+
 > **Outputs**: pharmaceuticals
 

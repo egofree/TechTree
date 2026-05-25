@@ -3,7 +3,7 @@
 > **Node ID**: animals.poultry.coturnix
 > **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md)
-> **Enables**: `food.preservation`, `farming.composting`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 0-3
 > **Outputs**: quail_eggs, quail_meat, manure
 

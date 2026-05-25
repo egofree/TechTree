@@ -2,6 +2,8 @@
 
 > **Node ID**: foundations.water-procurement
 > **Domain**: [Foundations](./index.md)
+> **Dependencies**: `foundations`, [`foundations.tools-basic`](tools-basic.md)
+> **Enables**: [`health.sanitation`](../health/sanitation.md)
 > **Timeline**: Years 0-5
 > **Outputs**: fresh_water, stored_water
 

@@ -2,7 +2,8 @@
 
 > **Node ID**: metals.non-ferrous
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`mining`](../mining/index.md), [`chemistry.acids`](../chemistry/acids.md), [`metals.copper-bronze`](copper-bronze.md)
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`metals.copper-bronze`](copper-bronze.md), `mining`
+> **Enables**: [`chemistry.soap`](../chemistry/soap.md), [`metals.alloys`](alloys.md), [`metals.finishing`](finishing.md), [`metals.precious-metals`](precious-metals.md)
 > **Timeline**: Years 15-40
 > **Outputs**: zinc, lead, tin, nickel, magnesium, titanium sponge
 

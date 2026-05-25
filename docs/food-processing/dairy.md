@@ -2,7 +2,8 @@
 
 > **Node ID**: food-processing.dairy
 > **Domain**: [Food Processing](./index.md)
-> **Dependencies**: [`ceramics`](../ceramics/index.md), [`health.sanitation`](../health/index.md)
+> **Dependencies**: `ceramics`, [`health.sanitation`](../health/sanitation.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 0-20
 > **Outputs**: butter, cheese, cream, yogurt, whey, ghee
 

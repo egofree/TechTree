@@ -2,7 +2,8 @@
 
 > **Node ID**: vacuum.measurement
 > **Domain**: [Vacuum Technology](./index.md)
-> **Enables**: [`silicon.basic-devices`](../silicon/basic-devices.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md)
+> **Dependencies**: `measurement`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_measurement, leak_detection, rga_analysis, pressure_gauges
 

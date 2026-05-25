@@ -2,7 +2,8 @@
 
 > **Node ID**: optics.inspection
 > **Domain**: [Optics](./index.md)
-> **Enables**: [`vlsi-scaling.advanced-lithography`](../vlsi-scaling/advanced-lithography.md)
+> **Dependencies**: None (root capability)
+> **Enables**: [`measurement.optical-instruments`](../measurement/optical-instruments.md), [`optics.inspection.optical-coatings`](optical-coatings.md), [`optics.precision-instruments`](precision-instruments.md), [`vlsi-scaling.advanced-lithography`](../vlsi-scaling/advanced-lithography.md)
 > **Timeline**: Years 25-40
 > **Outputs**: lenses, microscopes, optical_comparators
 

@@ -2,6 +2,8 @@
 
 > **Node ID**: animals.draft-power
 > **Domain**: Animals & Animal Husbandry
+> **Dependencies**: [`animals.cattle`](cattle.md), [`animals.domestication`](domestication.md), [`animals.equines`](equines.md), [`foundations.tools-basic`](../foundations/tools-basic.md)
+> **Enables**: [`mining.extraction`](../mining/extraction.md), [`transport.roads`](../transport/roads.md)
 > **Timeline**: Years 0-10
 > **Outputs**: plowing, hauling, milling, mine hoisting, irrigation pumping
 > **Tags**: material: [biomass], capability: [energy, transport], era: stone-age

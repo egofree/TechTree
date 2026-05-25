@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.semiconductor-chemicals
 > **Domain**: Chemistry
-> **Dependencies**: [`chemistry.solvents`](solvents.md), [`chemistry.acids`](acids.md), [`chemistry.dopant-etch-gases`](dopant-etch-gases.md), [`chemistry.water-treatment`](water-treatment.md)
-> **Enables**: [`photolithography`](../photolithography/index.md)
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 40-70
 > **Outputs**: photoresist, tmah_developer, boe_etchant, cmp_slurry, cleanroom_chemicals
 

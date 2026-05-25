@@ -2,6 +2,8 @@
 
 > **Node ID**: machine-tools.casting
 > **Domain**: Machine Tools Bootstrap
+> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: [`machine-tools.iterative-bootstrap`](iterative-bootstrap.md), [`measurement.precision-metrology`](../measurement/precision-metrology.md)
 > **Timeline**: Years 10-15
 > **Outputs**: cast_iron_parts, cast_aluminum_parts, sand_molds, cast_bronze_parts
 

@@ -3,7 +3,7 @@
 > **Node ID**: glass.advanced
 > **Domain**: [Glass](./index.md)
 > **Dependencies**: [`glass.basic`](basic.md)
-> **Enables**: [`silicon.crystal-growth`](../silicon/crystal-growth.md)
+> **Enables**: [`glass.advanced.glassblowing`](advanced-glassblowing.md), [`glass.fibers`](fibers.md), [`glass.photomask-substrates`](photomask-substrates.md), [`silicon.crystal-growth`](../silicon/crystal-growth.md)
 > **Timeline**: Years 25-40
 > **Outputs**: borosilicate_glass, fused_silica, quartz_crucibles, glass_tubing, glass_apparatus
 

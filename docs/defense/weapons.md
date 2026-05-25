@@ -2,6 +2,8 @@
 
 > **Node ID**: defense.weapons
 > **Domain**: Defense & Military Engineering
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 0-30+
 > **Outputs**: weapons, blades, spears, bows, small_arms, muskets
 

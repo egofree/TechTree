@@ -2,6 +2,8 @@
 
 > **Node ID**: transport.roads
 > **Domain**: Transportation & Logistics
+> **Dependencies**: [`animals.draft-power`](../animals/draft-power.md), [`foundations.tools-basic`](../foundations/tools-basic.md), `mining`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 5-30
 > **Outputs**: roads, bridges
 

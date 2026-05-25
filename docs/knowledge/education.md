@@ -2,6 +2,8 @@
 
 > **Node ID**: knowledge.education
 > **Domain**: Knowledge Preservation & Education
+> **Dependencies**: [`knowledge.writing`](writing.md)
+> **Enables**: [`knowledge.libraries`](libraries.md)
 > **Timeline**: Years 5-200+
 > **Outputs**: education_system
 

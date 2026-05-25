@@ -3,7 +3,7 @@
 > **Node ID**: textiles.rope-making
 > **Domain**: Textiles, Fiber & Cordage
 > **Dependencies**: [`textiles.fibers`](fibers.md), [`textiles.spinning`](spinning.md)
-> **Enables**: `construction.rigging`, `mining.hoisting`, `maritime.rigging`
+> **Enables**: `construction`
 > **Timeline**: Years 0-10
 > **Outputs**: rope, tarred_rope, spliced_rope, lifting_slings
 

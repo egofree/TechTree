@@ -2,6 +2,8 @@
 
 > **Node ID**: ceramics.pottery
 > **Domain**: Ceramics & Refractories
+> **Dependencies**: [`foundations.fire`](../foundations/fire.md), [`foundations.tools-basic`](../foundations/tools-basic.md)
+> **Enables**: [`ceramics.advanced-ceramics`](advanced-ceramics.md)
 > **Timeline**: Years 0-10
 > **Outputs**: pottery, crucibles, refractory_linings
 

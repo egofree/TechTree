@@ -2,6 +2,8 @@
 
 > **Node ID**: textiles.dyeing
 > **Domain**: Textiles, Fiber & Cordage
+> **Dependencies**: `chemistry`
+> **Enables**: [`plants.dye-plants`](../plants/dye-plants.md), [`textiles.weaving`](weaving.md)
 > **Timeline**: Years 5-10
 > **Outputs**: dyed_cloth
 

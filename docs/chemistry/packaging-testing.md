@@ -2,6 +2,8 @@
 
 > **Node ID**: chemistry.packaging-testing
 > **Domain**: Chemistry
+> **Dependencies**: `machine-tools`, `machine-tools.joining.ultrasonic-bonding`, [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`polymers.thermosets`](../polymers/thermosets.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 40-70
 > **Outputs**: packaged_ics, tested_ics, yield_data
 

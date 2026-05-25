@@ -2,8 +2,8 @@
 
 > **Node ID**: mining.extraction.black-powder
 > **Domain**: Mining Engineering & Extractive Metallurgy
-> **Dependencies**: [`mining.extraction`](extraction.md), [`chemistry.explosives`](../chemistry/explosives.md)
-> **Enables**: `mining.extraction.blasting`
+> **Dependencies**: [`chemistry.explosives`](../chemistry/explosives.md), [`mining.extraction`](extraction.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 5-15
 > **Outputs**: black_powder, safety_fuse, blasted_rock
 

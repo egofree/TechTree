@@ -2,7 +2,8 @@
 
 > **Node ID**: telecom.pre-electric
 > **Domain**: [Telecommunications](./index.md)
-> **Dependencies**: [`foundations`](../foundations/index.md), [`knowledge.writing`](../knowledge/writing.md)
+> **Dependencies**: `foundations`, [`knowledge.writing`](../knowledge/writing.md)
+> **Enables**: [`telecom.electric-telegraph`](electric-telegraph.md)
 > **Timeline**: Years 10-25
 > **Outputs**: visual_signaling, semaphore_networks, beacon_systems
 

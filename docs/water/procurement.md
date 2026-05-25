@@ -1,5 +1,7 @@
 # Water Procurement
 
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Node**: `water.procurement`
 > **Parent**: [Water](index.md)
 > **Timeline**: Years 0-5

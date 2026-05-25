@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.gravity.water-turbines
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.gravity`](gravity.md), [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools`](../machine-tools/index.md)
-> **Enables**: [`energy.electricity`](electricity.md) (prime mover for generators), [`energy.storage`](storage.md) (reversible pump-turbines)
+> **Dependencies**: [`energy.gravity`](gravity.md), [`machine-tools.machining`](../machine-tools/machining.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 12-25
 > **Outputs**: hydraulic_power, electrical_generation, high_rpm_rotation
 

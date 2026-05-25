@@ -2,7 +2,8 @@
 
 > **Node ID**: metals.forming
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`metals.steelmaking`](steelmaking.md), [`metals.aluminum`](aluminum.md), [`machine-tools`](../machine-tools/index.md)
+> **Dependencies**: `machine-tools`, [`metals.aluminum`](aluminum.md), [`metals.steelmaking`](steelmaking.md)
+> **Enables**: [`energy.steam-power`](../energy/steam-power.md), [`transport.railways`](../transport/railways.md)
 > **Timeline**: Years 15-30
 > **Outputs**: steel slab, plate, sheet, bar, structural shapes, aluminum profiles, forgings
 

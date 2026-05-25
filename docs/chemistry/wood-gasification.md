@@ -2,6 +2,8 @@
 
 > **Node ID**: chemistry.petroleum-alternatives.wood-gasification
 > **Domain**: Chemistry
+> **Dependencies**: [`chemistry.petroleum-alternatives`](petroleum-alternatives.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 10-30
 > **Outputs**: producer_gas, charcoal, wood_tar
 

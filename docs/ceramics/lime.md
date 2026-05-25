@@ -2,6 +2,8 @@
 
 > **Node ID**: ceramics.lime
 > **Domain**: Ceramics & Refractories
+> **Dependencies**: [`ceramics.kilns`](kilns.md), `mining`
+> **Enables**: [`animals.animal-materials`](../animals/animal-materials.md), `construction`
 > **Timeline**: Years 5-15
 > **Outputs**: lime, quicklime, mortar, plaster, whitewash
 

@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.cooling
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.electricity`](electricity.md), [`machine-tools`](../machine-tools/index.md), [`chemistry`](../chemistry/index.md), [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: [`chemistry.air-separation`](../chemistry/air-separation.md), [`photolithography.cleanrooms`](../photolithography/cleanrooms.md), [`silicon.crystal-growth`](../silicon/crystal-growth.md)
+> **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), `machine-tools`, [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 20-30
 > **Outputs**: refrigeration, industrial_cooling, ice_production
 

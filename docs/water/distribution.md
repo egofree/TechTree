@@ -1,5 +1,7 @@
 # Water Distribution
 
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Node**: `water.distribution`
 > **Parent**: [Water](index.md)
 > **Timeline**: Years 5-25

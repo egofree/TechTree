@@ -2,6 +2,8 @@
 
 > **Node ID**: health.medicine
 > **Domain**: Public Health, Sanitation & Medicine
+> **Dependencies**: [`animals.beekeeping`](../animals/beekeeping.md), [`health.sanitation`](sanitation.md), [`knowledge.writing`](../knowledge/writing.md)
+> **Enables**: [`health.pharmacology`](pharmacology.md)
 > **Timeline**: Years 5-100+
 > **Outputs**: surgical_capability, medical_treatment
 

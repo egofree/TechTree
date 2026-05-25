@@ -2,7 +2,8 @@
 
 > **Node ID**: ehs.emergency-response
 > **Domain**: [Environmental Health & Safety](./index.md)
-> **Dependencies**: [`ehs.chemical-safety`](chemical-safety.md), [`ehs.ppe`](ppe.md)
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 30-70
 > **Outputs**: emergency_procedures, spill_response, evacuation_plans, first_aid_protocols, emergency_equipment
 

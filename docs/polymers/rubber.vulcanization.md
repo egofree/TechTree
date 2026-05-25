@@ -2,6 +2,8 @@
 
 > **Node ID**: polymers.rubber.vulcanization
 > **Domain**: Polymers & Composites
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 5-50
 > **Outputs**: vulcanized_elastomers, cured_seals, molded_rubber_parts
 

@@ -2,8 +2,8 @@
 
 > **Node ID**: metals.steelmaking
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`metals.iron-steel.blast-furnace`](blast-furnace.md), [`chemistry.refractories`](../chemistry/refractories.md), [`energy.fuels`](../energy/fuels.md)
-> **Enables**: [`metals.forming`](forming.md), [`metals.alloys`](alloys.md)
+> **Dependencies**: [`chemistry.refractories`](../chemistry/refractories.md), [`energy.fuels`](../energy/fuels.md), [`metals.iron-steel`](iron-steel.md), [`metals.iron-steel.blast-furnace`](blast-furnace.md)
+> **Enables**: [`metals.alloys`](alloys.md), [`metals.forming`](forming.md)
 > **Timeline**: Years 15-30
 > **Outputs**: steel billets, slabs, blooms, flat products, long products
 

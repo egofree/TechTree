@@ -2,7 +2,8 @@
 
 > **Node ID**: metals.finishing
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`chemistry.coatings`](../chemistry/coatings.md)
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`chemistry.coatings`](../chemistry/coatings.md), [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`metals.non-ferrous`](non-ferrous.md)
+> **Enables**: `electrochemistry`
 > **Timeline**: Years 15-40
 > **Outputs**: galvanized steel, plated parts, anodized aluminum, hardened surfaces, coated components
 

@@ -2,7 +2,8 @@
 
 > **Node ID**: metals.aluminum
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`chemistry.alkalis`](../chemistry/alkalis.md), [`energy.electricity`](../energy/electricity.md), [`mining`](../mining/index.md)
+> **Dependencies**: [`chemistry.alkalis`](../chemistry/alkalis.md), [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`energy.electricity`](../energy/electricity.md), `mining`
+> **Enables**: [`electrochemistry.anodizing`](../electrochemistry/anodizing.md), `metals.aluminum.semiconductor-grade`, [`metals.forming`](forming.md), [`transport.aviation`](../transport/aviation.md)
 > **Timeline**: Years 20-40
 > **Outputs**: aluminum ingots, extrusions, castings, sheet
 

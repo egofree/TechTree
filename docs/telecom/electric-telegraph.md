@@ -2,8 +2,8 @@
 
 > **Node ID**: telecom.electric-telegraph
 > **Domain**: [Telecommunications](./index.md)
-> **Dependencies**: [`transport.telegraph`](../transport/telegraph.md), [`energy.electricity`](../energy/electricity.md), [`metals`](../metals/index.md)
-> **Enables**: [`telecom.telephone`](telephone.md), [`telecom.submarine-cables`](submarine-cables.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md), `metals`, [`telecom.pre-electric`](pre-electric.md), [`transport.telegraph`](../transport/telegraph.md)
+> **Enables**: [`telecom.radio`](radio.md), [`telecom.submarine-cables`](submarine-cables.md), [`telecom.telephone`](telephone.md)
 > **Timeline**: Years 20-40
 > **Outputs**: telegraph_networks, block_signaling_systems, message_routing
 

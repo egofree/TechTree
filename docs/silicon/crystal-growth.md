@@ -2,6 +2,8 @@
 
 > **Node ID**: silicon.crystal-growth
 > **Domain**: Silicon
+> **Dependencies**: [`chemistry.air-separation`](../chemistry/air-separation.md), [`cryogenics.liquefaction-storage`](../cryogenics/liquefaction-storage.md), [`glass.advanced`](../glass/advanced.md), [`measurement.precision-metrology`](../measurement/precision-metrology.md)
+> **Enables**: [`silicon.basic-devices`](basic-devices.md), [`silicon.crystal-growth.cz-pulling`](cz-pulling.md), [`silicon.wafering`](wafering.md)
 > **Timeline**: Years 30-50
 > **Outputs**: single_crystal_ingots, wafers, polished_wafers
 

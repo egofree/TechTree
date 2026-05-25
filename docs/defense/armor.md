@@ -2,6 +2,8 @@
 
 > **Node ID**: defense.armor
 > **Domain**: Defense & Military Engineering
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 5-30+
 > **Outputs**: armor, helmets, shields, body_armor, plate_armor
 

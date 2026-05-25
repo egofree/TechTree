@@ -2,7 +2,8 @@
 
 > **Node ID**: energy.steam-power.steam-turbines
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.steam-power`](steam-power.md), [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools`](../machine-tools/index.md)
+> **Dependencies**: [`energy.steam-power`](steam-power.md), [`machine-tools.machining`](../machine-tools/machining.md), [`metals.alloys`](../metals/alloys.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 20-35
 > **Outputs**: turbine_power, electrical_generation, rotary_power
 

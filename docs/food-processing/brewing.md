@@ -2,7 +2,8 @@
 
 > **Node ID**: food-processing.brewing
 > **Domain**: [Food Processing](./index.md)
-> **Dependencies**: [`chemistry.petroleum-alternatives.fermentation`](../chemistry/fermentation.md), [`energy`](../energy/index.md)
+> **Dependencies**: [`chemistry.petroleum-alternatives.fermentation`](../chemistry/fermentation.md), `energy`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 0-25+
 > **Outputs**: beer, wine, spirits, industrial_ethanol, spent_grain, vinegar
 

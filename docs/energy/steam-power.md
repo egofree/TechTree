@@ -2,7 +2,8 @@
 
 > **Node ID**: energy.steam-power
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Dependencies**: `machine-tools`, [`machine-tools.joining`](../machine-tools/joining.md), [`metals.forming`](../metals/forming.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: [`energy.steam-power.steam-turbines`](steam-turbines.md), [`health.medical-instruments`](../health/medical-instruments.md), [`marine.propulsion`](../marine/propulsion.md), [`mining.drilling`](../mining/drilling.md), [`mining.ventilation`](../mining/ventilation.md), `petroleum.extraction.cable-tool`, [`transport.railways`](../transport/railways.md)
 > **Timeline**: Years 15-25
 > **Outputs**: steam_engines, boilers, rotary_power
 

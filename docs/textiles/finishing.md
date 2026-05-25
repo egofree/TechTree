@@ -2,7 +2,8 @@
 
 > **Node ID**: textiles.finishing
 > **Domain**: [Textiles](./index.md)
-> **Dependencies**: [`textiles.weaving`](weaving.md), `chemicals.acids-bases`
+> **Dependencies**: [`chemistry.alkalis`](../chemistry/alkalis.md), `textiles`, [`textiles.weaving`](weaving.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 8-14
 > **Outputs**: finished_cloth, waterproof_fabric, fireproofed_textiles
 

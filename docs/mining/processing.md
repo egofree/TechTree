@@ -2,6 +2,8 @@
 
 > **Node ID**: mining.processing
 > **Domain**: Mining Engineering & Extractive Metallurgy
+> **Dependencies**: [`energy.fuels`](../energy/fuels.md), [`mining.extraction`](extraction.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 0-20
 > **Outputs**: concentrated_ore
 

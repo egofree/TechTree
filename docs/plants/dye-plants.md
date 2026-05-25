@@ -2,6 +2,8 @@
 
 > **Node ID**: plants.dye-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
+> **Dependencies**: `plants`, [`textiles.dyeing`](../textiles/dyeing.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 5-10
 > **Outputs**: natural_dyes, plant_pigments
 

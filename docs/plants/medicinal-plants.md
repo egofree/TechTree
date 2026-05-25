@@ -2,6 +2,8 @@
 
 > **Node ID**: plants.medicinal-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
+> **Dependencies**: [`health.pharmacology`](../health/pharmacology.md), `plants`
+> **Enables**: `plants.medicinal-plants.agrimonia-pilosa`, `plants.medicinal-plants.aloe-officinalis`, `plants.medicinal-plants.artemisia-douglasiana`, `plants.medicinal-plants.artemisia-inculta`, `plants.medicinal-plants.botryodiscia`
 > **Timeline**: Years 0-10
 > **Outputs**: medicinal_herbs, therapeutic_compounds, herbal_remedies
 

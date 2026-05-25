@@ -2,6 +2,8 @@
 
 > **Node ID**: chemistry.water-treatment
 > **Domain**: Chemistry
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 10-30
 > **Outputs**: deionized_water, purified_water, ultrapure_water
 

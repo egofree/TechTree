@@ -2,6 +2,8 @@
 
 > **Node ID**: construction.structural-engineering
 > **Domain**: Construction & Structural Engineering
+> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 10-40
 > **Outputs**: structural_designs, load_calculations, foundation_plans, connection_details
 

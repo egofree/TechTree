@@ -1,6 +1,8 @@
 # Paints, Coatings & Inks
 
 > **Node ID**: `chemistry.coatings`
+> **Dependencies**: [`chemistry.acids`](acids.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md)
+> **Enables**: [`metals.finishing`](../metals/finishing.md), `transport`
 > **Parent**: [Chemistry](index.md)
 > **Era**: Early Industrial
 > **Tags**: `material`, `capability`, `early-win`

@@ -2,6 +2,8 @@
 
 > **Node ID**: chemistry.air-separation
 > **Domain**: Chemistry
+> **Dependencies**: [`cryogenics.air-separation`](../cryogenics/air-separation.md), [`energy.electricity`](../energy/electricity.md), [`gas-handling.basic`](../gas-handling/basic.md)
+> **Enables**: [`chemistry.ammonia`](ammonia.md), `machine-tools.joining.tig-welding`, [`silicon.crystal-growth`](../silicon/crystal-growth.md)
 > **Timeline**: Years 20-40
 > **Outputs**: argon, nitrogen, oxygen
 

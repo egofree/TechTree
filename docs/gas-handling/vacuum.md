@@ -2,7 +2,8 @@
 
 > **Node ID**: gas-handling.vacuum
 > **Domain**: [Gas Handling](./index.md)
-> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
+> **Dependencies**: None (root capability)
+> **Enables**: [`metals.specialty-semiconductor`](../metals/specialty-semiconductor.md), [`optics.inspection.optical-coatings`](../optics/optical-coatings.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
 > **Timeline**: Years 25-40
 > **Outputs**: vacuum_pumps, vacuum_chambers, vacuum_measurement, leak_detection
 

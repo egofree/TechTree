@@ -2,6 +2,8 @@
 
 > **Node ID**: electronics.assembly
 > **Domain**: Electronics
+> **Dependencies**: [`glass.fibers`](../glass/fibers.md), [`polymers.thermosets`](../polymers/thermosets.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
+> **Enables**: [`computing.electronic`](../computing/electronic.md), [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
 > **Timeline**: Years 30-50
 > **Outputs**: pcb_assemblies, soldered_joints, packaged_components
 

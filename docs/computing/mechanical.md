@@ -2,6 +2,8 @@
 
 > **Node ID**: computing.mechanical
 > **Domain**: Computing & Automation
+> **Dependencies**: `machine-tools`, [`mathematics.core-mathematics`](../mathematics/core-mathematics.md), `metals`
+> **Enables**: [`computing.electromechanical`](electromechanical.md)
 > **Timeline**: Years 10-40
 > **Outputs**: calculation_aids
 

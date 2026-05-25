@@ -2,7 +2,8 @@
 
 > **Node ID**: automation.equipment-communication
 > **Domain**: [Automation & Robotics](./index.md)
-> **Dependencies**: [`computing`](../computing/index.md), [`electronics`](../electronics/index.md)
+> **Dependencies**: `computing`, `electronics`
+> **Enables**: [`automation.material-transport`](material-transport.md), [`automation.process-control`](process-control.md)
 > **Timeline**: Years 50-100+
 > **Outputs**: secs_gem_communication, equipment_state_data, alarm_events, process_trace_data
 

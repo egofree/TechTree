@@ -2,8 +2,8 @@
 
 > **Node ID**: chemistry.ammonia
 > **Domain**: Chemistry
-> **Dependencies**: [`chemistry.air-separation`](air-separation.md), [`chemistry.electrolysis`](electrolysis.md), [`energy`](../energy/index.md), [`metals`](../metals/index.md)
-> **Enables**: [`health`](../health/index.md), [`chemistry.acids`](acids.md), [`chemistry.alkalis`](alkalis.md), [`chemistry.explosives`](explosives.md)
+> **Dependencies**: [`chemistry.air-separation`](air-separation.md), [`chemistry.electrolysis`](electrolysis.md), `energy`, `metals`
+> **Enables**: [`chemistry.acids`](acids.md), `health`
 > **Timeline**: Years 20-50
 > **Outputs**: ammonia, ammonium_nitrate, urea, nitric_acid
 

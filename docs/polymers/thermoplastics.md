@@ -1,6 +1,8 @@
 # Thermoplastic Polymers
 
 > **Node ID**: polymers.thermoplastics
+> **Dependencies**: `chemistry`, [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), `machine-tools`
+> **Enables**: [`computing.data-storage`](../computing/data-storage.md), [`electronics.electrical-systems`](../electronics/electrical-systems.md)
 
 Process-level reference for thermoplastics relevant to the tech tree. Covers synthesis routes, processing conditions, properties, and key applications. Feedstocks come from [Petrochemicals](../chemistry/petroleum-alternatives.md); polymerization reactors and extruders rely on the Machine Tools stage.
 

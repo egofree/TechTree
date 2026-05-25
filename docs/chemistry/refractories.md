@@ -1,6 +1,8 @@
 # Refractory Materials
 
 > **Node ID**: `chemistry.refractories`
+> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), `mining`
+> **Enables**: `glass`, `metals`, [`metals.steelmaking`](../metals/steelmaking.md)
 > **Parent**: [Chemistry](index.md)
 > **Era**: Early Industrial
 > **Tags**: `material`, `capability`, `critical`

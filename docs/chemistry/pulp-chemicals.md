@@ -1,6 +1,8 @@
 # Pulp & Paper Chemicals
 
 > **Node ID**: `chemistry.pulp-chemicals`
+> **Dependencies**: [`chemistry.alkalis`](alkalis.md), [`chemistry.electrolysis`](electrolysis.md)
+> **Enables**: `knowledge`, `textiles`
 > **Parent**: [Chemistry](index.md)
 > **Era**: Early Industrial
 > **Tags**: `material`, `capability`, `early-win`

@@ -2,7 +2,8 @@
 
 > **Node ID**: cleanrooms.contamination-control
 > **Domain**: [Clean Room Technology](./index.md)
-> **Dependencies**: [`cleanrooms.hepa-ulpa-filtration`](hepa-ulpa-filtration.md), [`measurement`](../measurement/index.md), [`polymers`](../polymers/index.md)
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 40-70
 > **Outputs**: contamination_control_protocols, iso_classification, esd_control, particle_monitoring
 

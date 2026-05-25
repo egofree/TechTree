@@ -3,7 +3,7 @@
 > **Node ID**: animals.poultry.guinea-fowl
 > **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md)
-> **Enables**: `plants.agriculture`, `food.preservation`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 1-10+
 > **Outputs**: guinea_meat, guinea_eggs, pest_control, feathers, manure
 

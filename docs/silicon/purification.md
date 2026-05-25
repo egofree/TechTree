@@ -2,6 +2,8 @@
 
 > **Node ID**: silicon.purification
 > **Domain**: Silicon
+> **Dependencies**: [`chemistry.distillation`](../chemistry/distillation.md), [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md), [`gas-handling.basic`](../gas-handling/basic.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 30-50
 > **Outputs**: purified_silicon, polysilicon, chlorosilanes
 

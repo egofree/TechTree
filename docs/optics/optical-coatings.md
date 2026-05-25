@@ -2,8 +2,8 @@
 
 > **Node ID**: optics.inspection.optical-coatings
 > **Domain**: [Optics](./index.md)
-> **Dependencies**: [`optics.inspection`](inspection.md), `vacuum.basics`
-> **Enables**: [`vlsi-scaling.advanced-lithography`](../vlsi-scaling/advanced-lithography.md), `optics.precise-instruments`
+> **Dependencies**: [`gas-handling.vacuum`](../gas-handling/vacuum.md), [`optics.inspection`](inspection.md), [`vacuum.pumps`](../vacuum/pumps.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 30-40
 > **Outputs**: ar_coated_lenses, aluminized_mirrors, coated_optical_components
 

@@ -2,6 +2,8 @@
 
 > **Node ID**: polymers.rubber.natural
 > **Domain**: Polymers & Composites
+> **Dependencies**: `foundations`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 5-30
 > **Outputs**: vulcanized_rubber, tires, drive_belts
 

@@ -2,7 +2,8 @@
 
 > **Node ID**: transport.aviation
 > **Domain**: [Aircraft Development](./index.md)
-> **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`textiles`](../textiles/index.md)
+> **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`energy.engine`](../energy/engine.md), `machine-tools`, [`metals.aluminum`](../metals/aluminum.md), `textiles`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 10-50+
 > **Outputs**: aircraft, aircraft_engines, propellers, aviation_fuel
 

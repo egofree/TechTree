@@ -2,8 +2,8 @@
 
 > **Node ID**: animals.camelids
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals`](index.md), [`animals.domestication`](domestication.md)
-> **Enables**: [`textiles.fibers`](../textiles/fibers.md), `transport.trails`
+> **Dependencies**: `animals`
+> **Enables**: [`textiles.fibers`](../textiles/fibers.md)
 > **Timeline**: Years 2-15+
 > **Outputs**: fiber, packing_transport, guard_services, manure
 

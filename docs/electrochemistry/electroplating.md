@@ -2,7 +2,8 @@
 
 > **Node ID**: electrochemistry.electroplating
 > **Domain**: [Electrochemistry & Plating](./index.md)
-> **Dependencies**: [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`metals.finishing`](../metals/finishing.md), [`chemistry.acids`](../chemistry/acids.md)
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md)
+> **Enables**: `electrochemistry.electroplating.copper-damascene`
 > **Timeline**: Years 30-70
 > **Outputs**: copper_interconnects, plated_nickel, plated_gold, plated_tin, copper_filled_vias
 

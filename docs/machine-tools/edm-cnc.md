@@ -4,7 +4,8 @@
 > **Domain**: Machine Tools Bootstrap
 > **Timeline**: Years 25-50
 > **Outputs**: edm_parts, cnc_machined_parts, precision_ground_surfaces
-> **Dependencies**: machine-tools.machining, energy.electricity, measurement.precision-metrology
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md), [`machine-tools.machining`](machining.md)
+> **Enables**: None (leaf capability)
 
 Conventional machining (lathe, mill, drill — covered in [Machining](./machining.md)) reaches a practical floor around ±0.005 mm tolerance and 0.1 μm Ra surface finish. Semiconductor equipment demands sub-micron precision: wafer stage flatness below 0.5 μm across 300 mm, lens molds with nanometer-scale figure error, and IC package mold cavities with ±2 μm dimensional accuracy. This document covers three enabling technologies that break through conventional limits: Electrical Discharge Machining (EDM), Computer Numerical Control (CNC), and precision/ultra-precision grinding.
 

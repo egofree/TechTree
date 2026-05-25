@@ -3,7 +3,7 @@
 > **Node ID**: animals.poultry.pigeons
 > **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md)
-> **Enables**: `food.preservation`, `knowledge.communication`, `foundations.soil`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 1-10+
 > **Outputs**: squab_meat, pigeon_eggs, guano_fertilizer, feathers
 

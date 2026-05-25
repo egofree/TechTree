@@ -4,7 +4,8 @@
 > **Domain**: Precision Motion Control
 > **Timeline**: Years 35-60
 > **Outputs**: vibration_isolation_systems, isolation_platforms, vibration_specs
-> **Dependencies**: precision-motion.nanometer-positioning, measurement.precision-metrology
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 
 Nanometer positioning (covered in [Nanometer Positioning](./nanometer-positioning.md)) assumes a vibration-free environment. In reality, semiconductor fabs and precision laboratories are full of vibration sources: rotating machinery, foot traffic, HVAC systems, external road traffic, and even the motion of the precision equipment itself. This document covers the passive and active vibration isolation systems that create the ultra-quiet mechanical environment required for nanometer-precision work. A wafer stage positioning to ±5 nm is meaningless if the floor vibrates by 100 nm — the isolation system must attenuate floor vibration to well below the positioning budget.
 

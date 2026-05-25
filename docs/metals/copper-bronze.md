@@ -2,6 +2,8 @@
 
 > **Node ID**: metals.copper-bronze
 > **Domain**: [Metallurgy](./index.md)
+> **Dependencies**: [`animals.beekeeping`](../animals/beekeeping.md), [`foundations.fire`](../foundations/fire.md), `mining`
+> **Enables**: [`health.medical-instruments`](../health/medical-instruments.md), [`metals.iron-steel`](iron-steel.md), [`metals.non-ferrous`](non-ferrous.md), [`textiles.sewing-tailoring`](../textiles/sewing-tailoring.md)
 > **Timeline**: Years 5-10
 > **Outputs**: copper, bronze, castings, ingots
 

@@ -2,6 +2,8 @@
 
 > **Node ID**: plants.structural-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
+> **Dependencies**: `plants`
+> **Enables**: `plants.structural-plants.artemisia-capillaris`
 > **Timeline**: Years 0-10
 > **Outputs**: structural_timber, building_materials, thatch, wattle, poles
 

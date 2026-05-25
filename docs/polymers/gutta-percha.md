@@ -2,8 +2,8 @@
 
 > **Node ID**: polymers.rubber.gutta-percha
 > **Domain**: Polymers & Composites
-> **Dependencies**: [`polymers.rubber.natural`](natural.md)
-> **Enables**: `electronics.insulation`, `telecommunications.submarine-cable`
+> **Dependencies**: [`polymers.rubber`](rubber.md)
+> **Enables**: [`marine.infrastructure`](../marine/infrastructure.md), `telecom`, [`telecom.submarine-cables`](../telecom/submarine-cables.md)
 > **Timeline**: Years 10-25
 > **Outputs**: gutta_percha_sheet, cable_insulation, dental_points, molded_parts
 

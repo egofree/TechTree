@@ -2,7 +2,8 @@
 
 > **Node ID**: ehs.waste-management
 > **Domain**: [Environmental Health & Safety](./index.md)
-> **Dependencies**: [`chemistry`](../chemistry/index.md), [`ehs.chemical-safety`](chemical-safety.md)
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 30-70
 > **Outputs**: acid_waste_treatment, solvent_recovery, heavy_metal_precipitation, effluent_monitoring
 

@@ -2,7 +2,8 @@
 
 > **Node ID**: quality-control.defect-analysis
 > **Domain**: [Quality Control](./index.md)
-> **Dependencies**: [`quality-control.spc`](statistical-process-control.md), [`quality-control.inspection-sampling`](inspection-sampling.md)
+> **Dependencies**: `quality-control`, `quality-control.spc`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 40-100+
 > **Outputs**: fmea, pareto_analysis, fishbone_diagrams, yield_models, defect_density, root_cause_analysis
 

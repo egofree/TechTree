@@ -2,6 +2,8 @@
 
 > **Node ID**: machine-tools.iterative-bootstrap
 > **Domain**: Machine Tools Bootstrap
+> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`machine-tools.casting`](casting.md)
+> **Enables**: [`machine-tools.bearings-abrasives`](bearings-abrasives.md), [`machine-tools.machining`](machining.md)
 > **Timeline**: Years 10-25
 > **Outputs**: lathe, shaper, mill, drill_press, leadscrew, half_nut, change_gears
 

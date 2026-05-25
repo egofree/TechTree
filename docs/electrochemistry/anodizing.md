@@ -2,7 +2,8 @@
 
 > **Node ID**: electrochemistry.anodizing
 > **Domain**: [Electrochemistry & Plating](./index.md)
-> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`metals.aluminum`](../metals/aluminum.md), [`energy.electricity`](../energy/electricity.md)
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`metals.aluminum`](../metals/aluminum.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 25-60
 > **Outputs**: anodized_aluminum, hard_anodized_surfaces, anodized_titanium, oxide_coatings
 

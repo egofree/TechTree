@@ -4,7 +4,8 @@
 > **Domain**: Machine Tools Bootstrap
 > **Timeline**: Years 10-25
 > **Outputs**: machined_parts
-> **Dependencies**: machine-tools.iterative-bootstrap, machine-tools.bearings-abrasives
+> **Dependencies**: [`machine-tools.bearings-abrasives`](bearings-abrasives.md), [`machine-tools.iterative-bootstrap`](iterative-bootstrap.md)
+> **Enables**: [`energy.gravity.water-turbines`](../energy/water-turbines.md), [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`knowledge.printing`](../knowledge/printing.md), [`machine-tools.edm-cnc`](edm-cnc.md), `machine-tools.joining.friction-stir`, [`mining.drilling`](../mining/drilling.md)
 
 Machining removes material from a workpiece to achieve precise geometry, surface finish, and dimensional tolerance. This document covers the cutting operations themselves — for machine construction, see [Iterative Bootstrap](./iterative-bootstrap.md); for cutting tool materials and abrasives, see [Bearings & Abrasives](./bearings-abrasives.md).
 

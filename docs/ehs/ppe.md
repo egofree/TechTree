@@ -2,7 +2,8 @@
 
 > **Node ID**: ehs.ppe
 > **Domain**: [Environmental Health & Safety](./index.md)
-> **Dependencies**: [`polymers`](../polymers/index.md), [`health.occupational-health`](../health/occupational-health.md)
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 30-70
 > **Outputs**: respiratory_protection, chemical_suits, glove_selection, eye_protection, ppe_programs
 

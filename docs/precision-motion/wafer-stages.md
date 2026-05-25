@@ -4,7 +4,8 @@
 > **Domain**: Precision Motion Control
 > **Timeline**: Years 45-80
 > **Outputs**: wafer_stages, reticle_stages, scanner_systems
-> **Dependencies**: precision-motion.nanometer-positioning, precision-motion.precision-encoders, precision-motion.vibration-isolation
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 
 The wafer stage is the most mechanically demanding single assembly in semiconductor manufacturing. It must position a 300 mm silicon wafer with ±5 nm accuracy while accelerating at 2-10g, scanning at 1-2 m/s, and maintaining flatness below 50 nm — all in a vacuum or controlled atmosphere. This document covers the architecture of stepper and scanner wafer stages, reticle (mask) stages, and the synchronization between them during exposure. For the underlying actuation technologies, see [Nanometer Positioning](./nanometer-positioning.md); for vibration isolation of the stage platform, see [Vibration Isolation](./vibration-isolation.md).
 

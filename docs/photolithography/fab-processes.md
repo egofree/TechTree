@@ -2,8 +2,8 @@
 
 > **Node ID**: photolithography.fab-processes
 > **Domain**: [Photolithography & IC Fabrication](./index.md)
-> **Dependencies**: [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md)
-> **Enables**: [`chemistry.packaging-testing`](../chemistry/packaging-testing.md), [`vlsi-scaling.advanced-processes`](../vlsi-scaling/advanced-processes.md), [`vlsi-scaling.continuous-scaling`](../vlsi-scaling/continuous-scaling.md)
+> **Dependencies**: [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md), `metals.aluminum.semiconductor-grade`, [`vacuum.pumps`](../vacuum/pumps.md)
+> **Enables**: [`chemistry.packaging-testing`](../chemistry/packaging-testing.md), [`computing.electronic`](../computing/electronic.md), [`glass.photomask-substrates`](../glass/photomask-substrates.md), [`metals.specialty-semiconductor`](../metals/specialty-semiconductor.md), [`vlsi-scaling.advanced-processes`](../vlsi-scaling/advanced-processes.md), [`vlsi-scaling.continuous-scaling`](../vlsi-scaling/continuous-scaling.md), [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
 > **Timeline**: Years 40-70
 > **Outputs**: fab_processes, early_ics, msi, patterned_oxide, doped_regions, metal_interconnects
 

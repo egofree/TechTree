@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.electric-furnaces
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`energy.electricity`](electricity.md), [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools`](../machine-tools/index.md)
-> **Enables**: [`silicon.mg-si-production`](../silicon/mg-si-production.md), [`metals.iron-steel`](../metals/iron-steel.md) (recycled), [`glass.advanced`](../glass/advanced.md)
+> **Dependencies**: [`energy.electricity`](electricity.md), `machine-tools`
+> **Enables**: [`energy.electric-furnaces.electrode-manufacturing`](electrode-manufacturing.md), `machine-tools.joining.diffusion-bonding`, [`metals.powder-metallurgy`](../metals/powder-metallurgy.md), [`silicon.mg-si-production`](../silicon/mg-si-production.md)
 > **Timeline**: Years 20-30
 > **Outputs**: electric_arc_furnaces, resistance_heaters, eaf_steel
 

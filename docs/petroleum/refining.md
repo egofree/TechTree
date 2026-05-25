@@ -2,8 +2,8 @@
 
 > **Node ID**: petroleum.refining
 > **Domain**: [Petroleum Extraction & Refining](./index.md)
-> **Dependencies**: [`petroleum.extraction`](extraction.md), [`chemistry.distillation`](../chemistry/distillation.md)
-> **Enables**: [`petroleum.petrochemicals`](petrochemicals.md), [`energy.engine`](../energy/engine.md), [`chemistry.lubricants`](../chemistry/lubricants.md)
+> **Dependencies**: [`chemistry.distillation`](../chemistry/distillation.md), `petroleum`, [`petroleum.extraction`](extraction.md)
+> **Enables**: [`energy.engine`](../energy/engine.md), [`petroleum.petrochemicals`](petrochemicals.md), `petroleum.refining.cracking`, `petroleum.refining.distillation`
 > **Timeline**: Years 15-40
 > **Outputs**: gasoline, kerosene, diesel, fuel_oil, lubricating_base_oil, asphalt, lpg, refinery_gas
 

@@ -3,7 +3,7 @@
 > **Node ID**: animals.poultry.ducks
 > **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md)
-> **Enables**: `food.preservation`, `farming.composting`, `farming.rice-cultivation`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 0-5
 > **Outputs**: duck_eggs, duck_meat, duck_feathers, down, manure
 

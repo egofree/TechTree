@@ -2,7 +2,8 @@
 
 > **Node ID**: metals.powder-metallurgy
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`metals.alloys`](alloys.md), [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md), [`energy.electric-furnaces`](../energy/electric-furnaces.md)
+> **Dependencies**: [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md), [`energy.electric-furnaces`](../energy/electric-furnaces.md), [`metals.alloys`](alloys.md)
+> **Enables**: `measurement`
 > **Timeline**: Years 30-60
 > **Outputs**: tungsten products, cemented carbides, PM structural parts, MIM components, additive manufactured parts
 

@@ -4,7 +4,8 @@
 > **Domain**: Precision Motion Control
 > **Timeline**: Years 35-55
 > **Outputs**: nano_positioning_stages, air_bearing_slides, linear_motor_drives
-> **Dependencies**: machine-tools.edm-cnc, measurement.precision-metrology
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 
 The [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md) domain achieves ±0.5 μm positioning on ultra-precision CNC machines. Semiconductor lithography demands three orders of magnitude better: wafer stages must position to ±5 nm over 300 mm travel, reticle stages to ±2 nm, and inspection stages to ±1 nm. This document covers the actuation technologies — piezoelectric stages, air bearings, and linear motors — that make nanometer positioning possible. For the measurement systems providing position feedback, see [Precision Encoders](./precision-encoders.md); for the vibration environment that nanometer positioning requires, see [Vibration Isolation](./vibration-isolation.md).
 

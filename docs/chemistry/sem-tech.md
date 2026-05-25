@@ -2,6 +2,8 @@
 
 > **Node ID**: chemistry.electrolysis.sem-tech
 > **Domain**: Chemistry
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 20-30
 > **Outputs**: chlorine, hydrogen, caustic_soda, ion_exchange_membrane, critical_minerals
 > **Tags**: materials=[chemicals, membranes], era=industrial

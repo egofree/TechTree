@@ -2,7 +2,8 @@
 
 > **Node ID**: telecom.radio
 > **Domain**: [Telecommunications](./index.md)
-> **Dependencies**: [`energy.electricity`](../energy/electricity.md), [`metals`](../metals/index.md), [`glass`](../glass/index.md)
+> **Dependencies**: [`energy.electricity`](../energy/electricity.md), `glass`, `metals`, [`telecom.electric-telegraph`](electric-telegraph.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 30-60
 > **Outputs**: radio_communication, wireless_telegraphy, broadcast_capability
 

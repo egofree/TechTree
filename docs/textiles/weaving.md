@@ -2,6 +2,8 @@
 
 > **Node ID**: textiles.weaving
 > **Domain**: Textiles, Fiber & Cordage
+> **Dependencies**: [`textiles.dyeing`](dyeing.md)
+> **Enables**: [`textiles.finishing`](finishing.md), [`textiles.sewing-tailoring`](sewing-tailoring.md), [`textiles.spinning`](spinning.md)
 > **Timeline**: Years 0-10
 > **Outputs**: cloth, canvas
 

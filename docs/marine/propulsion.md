@@ -2,6 +2,8 @@
 
 > **Node ID**: marine.propulsion
 > **Domain**: Marine & Naval Engineering
+> **Dependencies**: [`energy.engine`](../energy/engine.md), [`energy.steam-power`](../energy/steam-power.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: None (leaf capability)
 > **Parent**: marine
 > **Timeline**: Years 0-50+
 > **Outputs**: marine engines, propellers, paddle wheels

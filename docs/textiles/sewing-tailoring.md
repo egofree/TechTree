@@ -2,7 +2,8 @@
 
 > **Node ID**: textiles.sewing-tailoring
 > **Domain**: [Textiles](./index.md)
-> **Dependencies**: [`textiles.weaving`](weaving.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Dependencies**: [`metals.copper-bronze`](../metals/copper-bronze.md), `textiles`, [`textiles.weaving`](weaving.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 5-10
 > **Outputs**: garments, tents, sails, bags, belting
 

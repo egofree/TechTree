@@ -2,6 +2,8 @@
 
 > **Node ID**: defense.siege-warfare
 > **Domain**: Defense & Military Engineering
+> **Dependencies**: None (root capability)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 5-50+
 > **Outputs**: siege_engines, cannons, military_logistics, artillery, field_fortifications
 

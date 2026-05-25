@@ -2,8 +2,8 @@
 
 > **Node ID**: energy.wind
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`foundations`](../foundations/index.md), [`metals.copper-bronze`](../metals/copper-bronze.md) or [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: [`energy.steam-power`](steam-power.md) (millwright skills transfer), [`foundations.food-agriculture`](../foundations/food-agriculture.md) (grain milling), [`health.sanitation`](../health/sanitation.md) (pumping)
+> **Dependencies**: [`chemistry.lubricants`](../chemistry/lubricants.md), `textiles`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 5-15
 > **Outputs**: wind_power, mechanical_rotation, ground_grain, pumped_water
 

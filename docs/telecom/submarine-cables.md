@@ -2,7 +2,8 @@
 
 > **Node ID**: telecom.submarine-cables
 > **Domain**: [Telecommunications](./index.md)
-> **Dependencies**: [`telecom.electric-telegraph`](electric-telegraph.md), [`transport.shipping`](../transport/shipping.md), [`polymers.rubber.gutta-percha`](../polymers/rubber.md)
+> **Dependencies**: `metals`, [`polymers.rubber.gutta-percha`](../polymers/gutta-percha.md), [`telecom.electric-telegraph`](electric-telegraph.md), [`transport.shipping`](../transport/shipping.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 25-55
 > **Outputs**: submarine_cable_capacity, intercontinental_communication
 

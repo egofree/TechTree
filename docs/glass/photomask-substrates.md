@@ -3,7 +3,7 @@
 > **Node ID**: glass.photomask-substrates
 > **Domain**: [Glass](./index.md)
 > **Dependencies**: [`glass.advanced`](advanced.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md)
-> **Enables**: Photomask blank production for lithographic patterning
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 40-70
 > **Outputs**: photomask_blanks, ule_glass, precision_optical_substrates
 

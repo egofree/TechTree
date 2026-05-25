@@ -2,6 +2,8 @@
 
 > **Node ID**: polymers.rubber.synthetic
 > **Domain**: Polymers
+> **Dependencies**: `chemistry`, [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), `machine-tools`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 20-50
 > **Outputs**: nitrile_rubber, neoprene, silicone_elastomers, polyurethane
 

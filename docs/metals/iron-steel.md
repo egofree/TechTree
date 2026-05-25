@@ -3,7 +3,7 @@
 > **Node ID**: metals.iron-steel
 > **Domain**: [Metallurgy](./index.md)
 > **Dependencies**: [`metals.copper-bronze`](copper-bronze.md)
-> **Enables**: [`energy.steam-power`](../energy/steam-power.md), [`machine-tools.casting`](../machine-tools/casting.md), [`machine-tools.joining`](../machine-tools/joining.md)
+> **Enables**: [`construction.structural-engineering`](../construction/structural-engineering.md), [`energy.cooling`](../energy/cooling.md), [`energy.gravity.water-turbines`](../energy/water-turbines.md), [`energy.steam-power`](../energy/steam-power.md), [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`knowledge.printing`](../knowledge/printing.md), [`machine-tools.casting`](../machine-tools/casting.md), [`machine-tools.forming`](../machine-tools/forming.md), [`machine-tools.joining`](../machine-tools/joining.md), [`marine.infrastructure`](../marine/infrastructure.md), [`marine.propulsion`](../marine/propulsion.md), [`marine.shipbuilding`](../marine/shipbuilding.md), [`metals.alloys`](alloys.md), [`metals.iron-steel.blast-furnace`](blast-furnace.md), [`metals.steelmaking`](steelmaking.md), [`transport.railways`](../transport/railways.md), [`transport.telegraph`](../transport/telegraph.md)
 > **Timeline**: Years 5-15
 > **Outputs**: wrought_iron, steel, iron_bloom, heat_treated_steel, forge_welds, brazed_joints, soldered_joints, springs, bellows, tongs, ...
 

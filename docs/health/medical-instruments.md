@@ -2,7 +2,8 @@
 
 > **Node ID**: health.medical-instruments
 > **Domain**: [Health](./index.md)
-> **Dependencies**: [`metals`](../metals/index.md), [`glass`](../glass/index.md), [`chemistry`](../chemistry/index.md)
+> **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), `health`, [`metals.copper-bronze`](../metals/copper-bronze.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 15-30
 > **Outputs**: diagnostic_instruments, surgical_instruments, sterilization_equipment
 

@@ -2,6 +2,8 @@
 
 > **Node ID**: energy.fuels.coal
 > **Domain**: Energy
+> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), [`energy.fuels`](fuels.md), `mining`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 15-25
 > **Outputs**: coal
 

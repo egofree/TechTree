@@ -2,6 +2,8 @@
 
 > **Node ID**: machine-tools.forming
 > **Domain**: Machine Tools Bootstrap
+> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`energy.fuels`](../energy/fuels.md), [`foundations.fire`](../foundations/fire.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 5-15
 > **Outputs**: formed_metal_parts, bar_stock, sheet_metal, wire, plate, rod
 

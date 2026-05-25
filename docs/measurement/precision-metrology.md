@@ -2,7 +2,8 @@
 
 > **Node ID**: measurement.precision-metrology
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: [`foundations`](../foundations/index.md), [`metals`](../metals/index.md)
+> **Dependencies**: `foundations`, [`machine-tools.casting`](../machine-tools/casting.md), `metals`, [`optics.precision-instruments`](../optics/precision-instruments.md)
+> **Enables**: [`quality-control.inspection-sampling`](../quality-control/inspection-sampling.md), [`silicon.crystal-growth`](../silicon/crystal-growth.md)
 > **Timeline**: Years 0-40+
 > **Outputs**: length_standards, mass_standards, timekeeping, precision_instruments, calibration_chain, electrical_standards
 

@@ -2,7 +2,8 @@
 
 > **Node ID**: vlsi-scaling.advanced-processes
 > **Domain**: [VLSI Scaling & Advanced Semiconductor](./index.md)
-> **Dependencies**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md)
+> **Dependencies**: [`photolithography.fab-processes`](../photolithography/fab-processes.md)
+> **Enables**: [`metals.specialty-semiconductor`](../metals/specialty-semiconductor.md)
 > **Timeline**: Years 70-200+
 > **Outputs**: ion_implantation, ald_films, copper_interconnects, cmp_planarization, high_end_solar
 > **Cross-references**: [EDA, GPU Design & Advanced Packaging](eda-design.md) (summary-level coverage of these processes); [Core Fab Processes](../photolithography/fab-processes.md) (prerequisite baseline processes)

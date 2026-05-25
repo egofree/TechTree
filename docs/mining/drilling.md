@@ -2,7 +2,8 @@
 
 > **Node ID**: mining.drilling
 > **Domain**: [Mining](./index.md)
-> **Dependencies**: [`metals.iron-steel`](../metals/iron-steel.md), [`machine-tools`](../machine-tools/index.md)
+> **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), [`machine-tools.machining`](../machine-tools/machining.md), `mining`
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 12-20
 > **Outputs**: blast_holes, core_samples, exploration_data
 

@@ -2,6 +2,8 @@
 
 > **Node ID**: textiles.fibers
 > **Domain**: Textiles, Fiber & Cordage
+> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`animals.camelids`](../animals/camelids.md), [`animals.goats`](../animals/goats.md), [`animals.rabbits`](../animals/rabbits.md), [`animals.sheep`](../animals/sheep.md), [`foundations.tools-basic`](../foundations/tools-basic.md), [`plants.fiber-plants`](../plants/fiber-plants.md), [`textiles.spinning`](spinning.md)
+> **Enables**: [`knowledge.printing`](../knowledge/printing.md), [`textiles.rope-making`](rope-making.md)
 > **Timeline**: Years 0-5
 > **Outputs**: prepared_fibers
 

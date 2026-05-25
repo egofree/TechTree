@@ -2,6 +2,8 @@
 
 > **Node ID**: knowledge.writing
 > **Domain**: Knowledge Preservation & Education
+> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`animals.beekeeping`](../animals/beekeeping.md), `chemistry`, [`foundations.food-agriculture`](../foundations/food-agriculture.md), [`foundations.tools-basic`](../foundations/tools-basic.md), [`health.sanitation`](../health/sanitation.md)
+> **Enables**: [`health.medicine`](../health/medicine.md), [`knowledge.education`](education.md), [`knowledge.libraries`](libraries.md), [`marine.navigation`](../marine/navigation.md), `mathematics`, [`mining.prospecting`](../mining/prospecting.md), `telecom`, [`telecom.pre-electric`](../telecom/pre-electric.md)
 > **Timeline**: Years 0-10
 > **Outputs**: writing_system
 

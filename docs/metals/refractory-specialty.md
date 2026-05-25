@@ -2,7 +2,8 @@
 
 > **Node ID**: metals.refractory-specialty
 > **Domain**: [Metals](./index.md)
-> **Dependencies**: [`metals`](./index.md), [`chemistry`](../chemistry/index.md), [Refractory Metals](refractory-metals.md), [Non-Ferrous Metals](non-ferrous.md)
+> **Dependencies**: `chemistry`, `metals`
+> **Enables**: [`metals.specialty-semiconductor`](specialty-semiconductor.md)
 > **Timeline**: Years 35-70
 > **Outputs**: tantalum sputtering targets, TaN/Ta diffusion barriers, cobalt silicide contacts, Co CMP slurries, ITO sputtering targets, InGaAs wafers, indium bump bonds
 

@@ -31,3379 +31,4054 @@
     {
       "from": "metals",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.gravity",
       "to": "textiles",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.wind",
       "to": "textiles",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.gravity",
       "to": "chemistry.lubricants",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.wind",
       "to": "chemistry.lubricants",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining",
       "to": "metals.iron-steel",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "glass.basic",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "machine-tools",
       "to": "metals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools",
       "to": "textiles",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools",
       "to": "chemistry.lubricants",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.casting",
       "to": "metals.iron-steel",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.iterative-bootstrap",
       "to": "machine-tools.casting",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "measurement.precision-metrology",
       "to": "machine-tools.casting",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.bearings-abrasives",
       "to": "machine-tools.iterative-bootstrap",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy",
       "to": "metals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.fuels.coal",
       "to": "ceramics.kilns",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.fuels.coke",
       "to": "ceramics.kilns",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.fuels.coal",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.fuels.coke",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.steam-power",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.steam-power",
       "to": "metals.iron-steel",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.steam-power",
       "to": "machine-tools.joining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.electric-furnaces",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.electric-furnaces",
       "to": "energy.electricity",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.cooling",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.cooling",
       "to": "metals.iron-steel",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.cooling",
       "to": "chemistry.petroleum-alternatives",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.electrolysis",
       "to": "energy.electricity",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining",
       "to": "energy.electricity",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry",
       "to": "metals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry",
       "to": "energy",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.acids",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.acids",
       "to": "glass.basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.alkalis",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.cement",
       "to": "ceramics.kilns",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.cement",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "glass",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "optics",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "gas-handling",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "measurement",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "glass",
       "to": "energy",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "gas-handling",
       "to": "energy",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "glass",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "gas-handling",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "measurement",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "glass.advanced",
       "to": "glass.basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon",
       "to": "energy",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "silicon",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "silicon",
       "to": "glass",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon",
       "to": "gas-handling",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon.mg-si-production",
       "to": "energy.electric-furnaces",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon.mg-si-production",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "silicon.purification",
       "to": "chemistry.distillation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon.purification",
       "to": "gas-handling.basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon.purification",
       "to": "chemistry.hydrogen-silane",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "silicon.crystal-growth",
       "to": "glass.advanced",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "silicon.crystal-growth",
       "to": "chemistry.air-separation",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "silicon.crystal-growth",
       "to": "measurement.precision-metrology",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon.basic-devices",
       "to": "silicon.crystal-growth",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "silicon.basic-devices",
       "to": "gas-handling.vacuum",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon.basic-devices",
       "to": "chemistry.acids",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "photolithography",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "photolithography",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "photolithography",
       "to": "gas-handling",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "photolithography",
       "to": "optics",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "photolithography",
       "to": "silicon",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "photolithography.cleanrooms",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "photolithography.cleanrooms",
       "to": "ceramics",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "photolithography.resists-masks",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "photolithography.resists-masks",
       "to": "polymers.thermosets",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "photolithography.fab-processes",
       "to": "chemistry.dopant-etch-gases",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "photolithography.fab-processes",
       "to": "gas-handling.vacuum",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vlsi-scaling",
       "to": "photolithography",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vlsi-scaling.continuous-scaling",
       "to": "photolithography.fab-processes",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vlsi-scaling.advanced-lithography",
       "to": "photolithography.resists-masks",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vlsi-scaling.advanced-lithography",
       "to": "optics.inspection",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vlsi-scaling.advanced-processes",
       "to": "photolithography.fab-processes",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vlsi-scaling.eda-design",
       "to": "computing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vlsi-scaling.eda-design",
       "to": "photolithography.fab-processes",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vlsi-scaling.eda-design",
       "to": "silicon.basic-devices",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vlsi-scaling.eda-design",
       "to": "chemistry.dopant-etch-gases",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "knowledge",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "measurement.precision-metrology",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "measurement.precision-metrology",
       "to": "metals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.air-separation",
       "to": "energy.electricity",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.air-separation",
       "to": "gas-handling.basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.hydrogen-silane",
       "to": "chemistry.electrolysis",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.hydrogen-silane",
       "to": "gas-handling.basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.dopant-etch-gases",
       "to": "chemistry.electrolysis",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.dopant-etch-gases",
       "to": "chemistry",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.packaging-testing",
       "to": "photolithography.fab-processes",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.packaging-testing",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.packaging-testing",
       "to": "polymers.thermosets",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.storage",
       "to": "energy",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.storage",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.storage",
       "to": "metals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ceramics",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ceramics",
       "to": "metals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "textiles",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.lubricants",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.lubricants",
       "to": "chemistry.petroleum-alternatives",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "mining",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.petroleum-alternatives",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "transport",
       "to": "metals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "transport",
       "to": "energy",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "transport",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "transport",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "computing",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "transport.aviation",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "transport.aviation",
       "to": "textiles",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "transport.aviation",
       "to": "chemistry.petroleum-alternatives",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "polymers",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "polymers.rubber.synthetic",
       "to": "chemistry.petroleum-alternatives",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "polymers.rubber.synthetic",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "polymers.rubber.synthetic",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "polymers.thermosets",
       "to": "chemistry.petroleum-alternatives",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "polymers.thermosets",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "polymers.thermosets",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "polymers.thermoplastics",
       "to": "chemistry.petroleum-alternatives",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "polymers.thermoplastics",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "polymers.thermoplastics",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "polymers.composites",
       "to": "polymers.thermosets",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "polymers.composites",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.fuels.charcoal",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ceramics.pottery.kiln-firing",
       "to": "energy.fuels.charcoal",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "polymers.rubber.natural",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.fuels",
       "to": "foundations.fire",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ceramics.pottery",
       "to": "foundations.fire",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.copper-bronze",
       "to": "foundations.fire",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.forming",
       "to": "foundations.fire",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "foundations.food-agriculture",
       "to": "foundations.tools-basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "mining.extraction",
       "to": "foundations.tools-basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ceramics.pottery",
       "to": "foundations.tools-basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "textiles.fibers",
       "to": "foundations.tools-basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "knowledge.writing",
       "to": "foundations.tools-basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "transport.roads",
       "to": "foundations.tools-basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "knowledge.writing",
       "to": "foundations.food-agriculture",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.copper-bronze",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.iron-steel",
       "to": "metals.copper-bronze",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.forming",
       "to": "metals.iron-steel",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.forming",
       "to": "energy.fuels",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.machining",
       "to": "machine-tools.iterative-bootstrap",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.machining",
       "to": "machine-tools.bearings-abrasives",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.edm-cnc",
       "to": "machine-tools.machining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.edm-cnc",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "knowledge.education",
       "to": "knowledge.writing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "knowledge.libraries",
       "to": "knowledge.writing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "knowledge.libraries",
       "to": "knowledge.education",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "computing.mechanical",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "computing.mechanical",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "computing.electromechanical",
       "to": "computing.mechanical",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "computing.electromechanical",
       "to": "energy.electricity",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "computing.electronic",
       "to": "computing.electromechanical",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "computing.electronic",
       "to": "silicon.basic-devices",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "health.sanitation",
       "to": "ceramics",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.medicine",
       "to": "health.sanitation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.medicine",
       "to": "knowledge.writing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.pharmacology",
       "to": "health.medicine",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.pharmacology",
       "to": "chemistry.distillation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "textiles.fibers",
       "to": "textiles.spinning",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "textiles.spinning",
       "to": "textiles.weaving",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "textiles.weaving",
       "to": "textiles.dyeing",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "textiles.dyeing",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "mining.prospecting",
       "to": "knowledge.writing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "mining.extraction",
       "to": "mining.prospecting",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "mining.processing",
       "to": "mining.extraction",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "mining.processing",
       "to": "energy.fuels",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.fuels.charcoal",
       "to": "energy.fuels",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.fuels.coal",
       "to": "energy.fuels",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.fuels.coke",
       "to": "energy.fuels",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ceramics.lime",
       "to": "ceramics.kilns",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ceramics.lime",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "health",
       "to": "polymers.rubber",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.storage",
       "to": "polymers.rubber",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.electricity.power-systems",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.electricity.power-systems",
       "to": "energy.storage",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.electricity.power-systems",
       "to": "energy.engine",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.electricity.power-systems",
       "to": "measurement",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon.crystal-growth.cz-pulling",
       "to": "silicon.crystal-growth",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon.crystal-growth.cz-pulling",
       "to": "measurement.temperature-pressure",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "transport.roads",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "transport.railways",
       "to": "energy.steam-power",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "transport.railways",
       "to": "metals.iron-steel",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "transport.shipping",
       "to": "textiles",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "measurement.temperature-pressure",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "measurement.temperature-pressure",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.engine",
       "to": "energy.fuels",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.engine",
       "to": "metals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "transport.aviation",
       "to": "energy.engine",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "transport",
       "to": "energy.engine",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ceramics.advanced-ceramics",
       "to": "ceramics.pottery",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ceramics.advanced-ceramics",
       "to": "ceramics.kilns",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ceramics.advanced-ceramics",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "silicon",
       "to": "ceramics.advanced-ceramics",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ceramics.electronic-ceramics",
       "to": "ceramics.advanced-ceramics",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ceramics.electronic-ceramics",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.steam-power.steam-turbines",
       "to": "energy.steam-power",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.steam-power.steam-turbines",
       "to": "metals.iron-steel",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.steam-power.steam-turbines",
       "to": "machine-tools.machining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.gravity.water-turbines",
       "to": "energy.gravity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.gravity.water-turbines",
       "to": "metals.iron-steel",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.gravity.water-turbines",
       "to": "machine-tools.machining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.storage.pumped-hydro",
       "to": "energy.gravity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.storage.pumped-hydro",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.electric-furnaces.electrode-manufacturing",
       "to": "energy.electric-furnaces",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.electric-furnaces.electrode-manufacturing",
       "to": "chemistry.petroleum-alternatives",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.iron-steel.blast-furnace",
       "to": "metals.iron-steel",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.iron-steel.blast-furnace",
       "to": "energy.fuels.coke",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.iron-steel.blast-furnace",
       "to": "ceramics.kilns",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "mining.extraction.black-powder",
       "to": "mining.extraction",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "mining.extraction.black-powder",
       "to": "chemistry.explosives",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "transport.telegraph",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "transport.telegraph",
       "to": "metals.iron-steel",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "transport.telegraph",
       "to": "chemistry.acids",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "knowledge.printing",
       "to": "metals.iron-steel",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "knowledge.printing",
       "to": "textiles.fibers",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "knowledge.printing",
       "to": "machine-tools.machining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.explosives",
       "to": "chemistry.acids",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.explosives",
       "to": "energy.fuels.charcoal",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.explosives",
       "to": "chemistry.alkalis",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.petroleum-alternatives.fermentation",
       "to": "chemistry.petroleum-alternatives",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.petroleum-alternatives.wood-gasification",
       "to": "chemistry.petroleum-alternatives",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "glass.advanced.glassblowing",
       "to": "glass.advanced",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "glass.advanced.glassblowing",
       "to": "energy.fuels",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "polymers.rubber.gutta-percha",
       "to": "polymers.rubber",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "polymers.rubber.shellac",
       "to": "polymers.rubber",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "polymers.rubber.shellac",
       "to": "chemistry.distillation",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "textiles.rope-making",
       "to": "textiles.fibers",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "textiles.rope-making",
       "to": "textiles.spinning",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "optics.inspection.optical-coatings",
       "to": "optics.inspection",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "optics.inspection.optical-coatings",
       "to": "gas-handling.vacuum",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants",
       "to": "foundations.fire",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.edible-plants",
       "to": "plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.medicinal-plants",
       "to": "plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.fiber-plants",
       "to": "plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.structural-plants",
       "to": "plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.dye-plants",
       "to": "plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.edible-plants.allium-ampeloprasum",
       "to": "plants.edible-plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.edible-plants.artemisia-absinthium",
       "to": "plants.edible-plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.edible-plants.agave",
       "to": "plants.edible-plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.edible-plants.bitter-orange",
       "to": "plants.edible-plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.edible-plants.balanites-aegyptiaca",
       "to": "plants.edible-plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.medicinal-plants.agrimonia-pilosa",
       "to": "plants.medicinal-plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.medicinal-plants.aloe-officinalis",
       "to": "plants.medicinal-plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.medicinal-plants.artemisia-douglasiana",
       "to": "plants.medicinal-plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.medicinal-plants.artemisia-inculta",
       "to": "plants.medicinal-plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.medicinal-plants.botryodiscia",
       "to": "plants.medicinal-plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.fiber-plants.allium-paniculatum",
       "to": "plants.fiber-plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.fiber-plants.amaranthus-albus",
       "to": "plants.fiber-plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.structural-plants.artemisia-capillaris",
       "to": "plants.structural-plants",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "textiles.fibers",
       "to": "plants.fiber-plants",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "foundations.food-agriculture",
       "to": "plants.edible-plants",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "knowledge.writing",
       "to": "chemistry",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "knowledge.writing",
       "to": "health.sanitation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "transport",
       "to": "mining.extraction",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "transport",
       "to": "energy.fuels",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "plants.edible-plants",
       "to": "health",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "plants.medicinal-plants",
       "to": "health.pharmacology",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "plants.fiber-plants",
       "to": "textiles.spinning",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "plants.dye-plants",
       "to": "textiles.dyeing",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "plants",
       "to": "energy.fuels",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.ammonia",
       "to": "chemistry.air-separation",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.ammonia",
       "to": "chemistry.electrolysis",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.ammonia",
       "to": "energy",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.ammonia",
       "to": "metals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.acids",
       "to": "chemistry.ammonia",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "health",
       "to": "chemistry.ammonia",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.soap",
       "to": "chemistry.alkalis",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.soap",
       "to": "chemistry.petroleum-alternatives",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "health",
       "to": "chemistry.soap",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.solvents",
       "to": "chemistry.petroleum-alternatives",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.solvents",
       "to": "chemistry.distillation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.solvents",
       "to": "chemistry.petroleum-alternatives.fermentation",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "health",
       "to": "chemistry.solvents",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.refractories",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.refractories",
       "to": "ceramics.kilns",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals",
       "to": "chemistry.refractories",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "glass",
       "to": "chemistry.refractories",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.coatings",
       "to": "chemistry.petroleum-alternatives",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.coatings",
       "to": "chemistry.acids",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "transport",
       "to": "chemistry.coatings",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.pulp-chemicals",
       "to": "chemistry.alkalis",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.pulp-chemicals",
       "to": "chemistry.electrolysis",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "knowledge",
       "to": "chemistry.pulp-chemicals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "textiles",
       "to": "chemistry.pulp-chemicals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.steelmaking",
       "to": "metals.iron-steel.blast-furnace",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.steelmaking",
       "to": "chemistry.refractories",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.steelmaking",
       "to": "energy.fuels",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.steelmaking",
       "to": "metals.iron-steel",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.forming",
       "to": "metals.steelmaking",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.alloys",
       "to": "metals.steelmaking",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.aluminum",
       "to": "chemistry.electrolysis",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.aluminum",
       "to": "chemistry.alkalis",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.aluminum",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.aluminum",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "transport.aviation",
       "to": "metals.aluminum",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.aluminum.semiconductor-grade",
       "to": "metals.aluminum",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.aluminum.semiconductor-grade",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon.basic-devices",
       "to": "metals.aluminum.semiconductor-grade",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "photolithography.fab-processes",
       "to": "metals.aluminum.semiconductor-grade",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.non-ferrous",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.non-ferrous",
       "to": "chemistry.acids",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.non-ferrous",
       "to": "metals.copper-bronze",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.alloys",
       "to": "metals.non-ferrous",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.soap",
       "to": "metals.non-ferrous",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.finishing",
       "to": "metals.non-ferrous",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.alloys",
       "to": "metals.iron-steel",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.steam-power.steam-turbines",
       "to": "metals.alloys",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining",
       "to": "metals.alloys",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.forming",
       "to": "metals.aluminum",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.forming",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "transport.railways",
       "to": "metals.forming",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.steam-power",
       "to": "metals.forming",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.finishing",
       "to": "chemistry.acids",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.finishing",
       "to": "chemistry.electrolysis",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.finishing",
       "to": "chemistry.coatings",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.powder-metallurgy",
       "to": "metals.alloys",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.powder-metallurgy",
       "to": "chemistry.hydrogen-silane",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.powder-metallurgy",
       "to": "energy.electric-furnaces",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "measurement",
       "to": "metals.powder-metallurgy",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.alloys",
       "to": "energy.fuels",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.domestication",
       "to": "animals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.draft-power",
       "to": "animals.domestication",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.draft-power",
       "to": "foundations.tools-basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.animal-materials",
       "to": "animals.domestication",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.animal-materials",
       "to": "ceramics.lime",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.beekeeping",
       "to": "foundations.fire",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.beekeeping",
       "to": "foundations.tools-basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.aquaculture",
       "to": "foundations.tools-basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.sericulture",
       "to": "animals.domestication",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.pest-management",
       "to": "animals.domestication",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "textiles.fibers",
       "to": "animals.animal-materials",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.lubricants",
       "to": "animals.animal-materials",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "transport.roads",
       "to": "animals.draft-power",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "mining.extraction",
       "to": "animals.draft-power",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "knowledge.writing",
       "to": "animals.animal-materials",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "knowledge.writing",
       "to": "animals.beekeeping",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.copper-bronze",
       "to": "animals.beekeeping",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.forming",
       "to": "animals.animal-materials",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.iterative-bootstrap",
       "to": "animals.animal-materials",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "health.pharmacology",
       "to": "animals.beekeeping",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "health.medicine",
       "to": "animals.beekeeping",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "foundations.food-agriculture",
       "to": "animals.beekeeping",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "foundations.water-procurement",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "foundations.water-procurement",
       "to": "foundations.tools-basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.sanitation",
       "to": "foundations.water-procurement",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "textiles.finishing",
       "to": "textiles",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "textiles.finishing",
       "to": "textiles.weaving",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "textiles.finishing",
       "to": "chemistry.alkalis",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "textiles.sewing-tailoring",
       "to": "textiles",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "textiles.sewing-tailoring",
       "to": "textiles.weaving",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "textiles.sewing-tailoring",
       "to": "metals.copper-bronze",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "mining.drilling",
       "to": "mining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "mining.drilling",
       "to": "energy.steam-power",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "mining.drilling",
       "to": "machine-tools.machining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "mining.ventilation",
       "to": "mining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "mining.ventilation",
       "to": "energy.steam-power",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "glass.fibers",
       "to": "glass",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "glass.fibers",
       "to": "glass.advanced",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "polymers.composites",
       "to": "glass.fibers",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "measurement.electrical-instruments",
       "to": "measurement",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "measurement.electrical-instruments",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "measurement.optical-instruments",
       "to": "measurement",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "measurement.optical-instruments",
       "to": "optics.inspection",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "optics.precision-instruments",
       "to": "optics",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "optics.precision-instruments",
       "to": "optics.inspection",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "measurement.precision-metrology",
       "to": "optics.precision-instruments",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.occupational-health",
       "to": "health",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.occupational-health",
       "to": "chemistry.acids",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "health.medical-instruments",
       "to": "health",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.medical-instruments",
       "to": "metals.copper-bronze",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "health.medical-instruments",
       "to": "energy.steam-power",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "computing.digital-logic",
       "to": "computing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "computing.digital-logic",
       "to": "computing.electronic",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "computing.data-storage",
       "to": "computing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "computing.data-storage",
       "to": "polymers.thermoplastics",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "silicon.wafering",
       "to": "silicon",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon.wafering",
       "to": "silicon.crystal-growth",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "silicon.wafering.epitaxy",
       "to": "silicon.wafering",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon.wafering.epitaxy",
       "to": "chemistry.dopant-etch-gases",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "silicon.wafering.soi",
       "to": "silicon.wafering",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon.basic-devices",
       "to": "silicon.wafering",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.electrolysis",
       "to": "chemistry.water-electrolysis",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.electrolysis",
       "to": "energy.redox-flow-battery",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.electrolysis",
       "to": "energy.fuel-cell",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.electrolysis",
       "to": "chemistry.electrodialysis",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.electrolysis",
       "to": "chemistry.lithium-separation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.water-electrolysis",
       "to": "energy.electricity",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "energy.redox-flow-battery",
       "to": "energy.electricity",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.e-methanol",
       "to": "energy.electricity",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.electrodialysis",
       "to": "energy.electricity",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "water.desalination",
       "to": "energy.electricity",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "agriculture.hydroponic-ph-control",
       "to": "energy.electricity",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.lithium-separation",
       "to": "energy.electricity",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.acid-regeneration",
       "to": "energy.electricity",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.water-electrolysis",
       "to": "energy.fuel-cell",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.water-electrolysis",
       "to": "chemistry.e-methanol",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "chemistry.electrodialysis",
       "to": "water.desalination",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.electrodialysis",
       "to": "energy.blue-energy",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.electrodialysis",
       "to": "agriculture.hydroponic-ph-control",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.electrodialysis",
       "to": "chemistry.acid-regeneration",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.poultry",
       "to": "animals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.poultry.chickens",
       "to": "animals.poultry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.poultry.coturnix",
       "to": "animals.poultry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.poultry.ducks",
       "to": "animals.poultry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.poultry.geese",
       "to": "animals.poultry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.poultry.turkeys",
       "to": "animals.poultry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.poultry.guinea-fowl",
       "to": "animals.poultry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.poultry.pigeons",
       "to": "animals.poultry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.cattle",
       "to": "animals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.sheep",
       "to": "animals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.goats",
       "to": "animals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.pigs",
       "to": "animals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.equines",
       "to": "animals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.camelids",
       "to": "animals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.bison",
       "to": "animals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.rabbits",
       "to": "animals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.cattle",
       "to": "animals.domestication",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.sheep",
       "to": "animals.domestication",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.goats",
       "to": "animals.domestication",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.pigs",
       "to": "animals.domestication",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.equines",
       "to": "animals.domestication",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.draft-power",
       "to": "animals.equines",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.draft-power",
       "to": "animals.cattle",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.animal-materials",
       "to": "animals.cattle",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.animal-materials",
       "to": "animals.sheep",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "textiles.fibers",
       "to": "animals.sheep",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "textiles.fibers",
       "to": "animals.goats",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "textiles.fibers",
       "to": "animals.rabbits",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "textiles.fibers",
       "to": "animals.camelids",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "foundations.food-agriculture",
       "to": "animals.pigs",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "foundations.food-agriculture",
       "to": "animals.rabbits",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.insect-farming",
       "to": "animals.domestication",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "animals.aquaculture",
       "to": "animals.insect-farming",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.poultry.chickens",
       "to": "animals.insect-farming",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "animals.poultry",
       "to": "foundations.food-agriculture",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "agriculture.soil-management",
       "to": "agriculture",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "agriculture.soil-management.vermiculture",
       "to": "agriculture.soil-management",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "foundations.food-agriculture",
       "to": "agriculture.soil-management",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "agriculture.aquaponics",
       "to": "agriculture",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "agriculture.aquaponics",
       "to": "animals.aquaculture",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "agriculture.hydroponic-ph-control",
       "to": "agriculture.aquaponics",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "computing.electronic",
       "to": "photolithography.fab-processes",
       "type": "material",
-      "label": "ICs fabricated via photolithography"
+      "label": "ICs fabricated via photolithography",
+      "flow": "primary"
     },
     {
       "from": "photolithography.resists-masks",
       "to": "glass.basic",
       "type": "material",
-      "label": "mask blanks from glass substrates"
+      "label": "mask blanks from glass substrates",
+      "flow": "primary"
     },
     {
       "from": "electronics",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "electronics",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "electronics",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "electronics",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "electronics.assembly",
       "to": "silicon.basic-devices",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "electronics.assembly",
       "to": "glass.fibers",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "electronics.assembly",
       "to": "polymers.thermosets",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "electronics.electrical-systems",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "electronics.electrical-systems",
       "to": "chemistry.electrolysis",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "electronics.electrical-systems",
       "to": "polymers.thermoplastics",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "computing.electronic",
       "to": "electronics.assembly",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vlsi-scaling.eda-design",
       "to": "electronics.assembly",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.refractory-specialty",
       "to": "metals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.refractory-specialty",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.specialty-semiconductor",
       "to": "metals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.specialty-semiconductor",
       "to": "metals.refractory-specialty",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.specialty-semiconductor",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.specialty-semiconductor",
       "to": "photolithography.fab-processes",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.specialty-semiconductor",
       "to": "vlsi-scaling.advanced-processes",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.specialty-semiconductor",
       "to": "gas-handling.vacuum",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "glass.photomask-substrates",
       "to": "glass.advanced",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "glass.photomask-substrates",
       "to": "photolithography.fab-processes",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.precious-metals",
       "to": "metals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "metals.precious-metals",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.precious-metals",
       "to": "mining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "metals.precious-metals",
       "to": "metals.non-ferrous",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "cleanrooms",
       "to": "chemistry",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "cleanrooms",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "cleanrooms",
       "to": "glass",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "cleanrooms",
       "to": "energy",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "cleanrooms",
       "to": "measurement",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "photolithography",
       "to": "cleanrooms",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "mathematics.core-mathematics",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "mathematics",
       "to": "knowledge.writing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "mathematics.applied-mathematics",
       "to": "mathematics.core-mathematics",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "mathematics.formal-systems",
       "to": "mathematics.core-mathematics",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "computing.mechanical",
       "to": "mathematics.core-mathematics",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "computing.digital-logic",
       "to": "mathematics.formal-systems",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "quality-control",
       "to": "measurement",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "quality-control",
       "to": "computing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "quality-control",
       "to": "knowledge",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "quality-control.spc",
       "to": "quality-control",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "quality-control.spc",
       "to": "measurement",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "quality-control.inspection-sampling",
       "to": "quality-control",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "quality-control.inspection-sampling",
       "to": "measurement.precision-metrology",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "quality-control.defect-analysis",
       "to": "quality-control",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "quality-control.defect-analysis",
       "to": "quality-control.spc",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vlsi-scaling",
       "to": "quality-control",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "photolithography",
       "to": "quality-control",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "cryogenics",
       "to": "gas-handling",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "cryogenics",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "cryogenics.air-separation",
       "to": "cryogenics.refrigeration",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "cryogenics.liquefaction-storage",
       "to": "cryogenics.refrigeration",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.air-separation",
       "to": "cryogenics.air-separation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon.crystal-growth",
       "to": "cryogenics.liquefaction-storage",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "vacuum",
       "to": "gas-handling",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vacuum",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vacuum",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "vacuum",
       "to": "measurement",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vacuum.pumps",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vacuum.chambers",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vacuum.chambers",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "vacuum.measurement",
       "to": "measurement",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "silicon.basic-devices",
       "to": "vacuum.pumps",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "photolithography.fab-processes",
       "to": "vacuum.pumps",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "optics.inspection.optical-coatings",
       "to": "vacuum.pumps",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "electrochemistry",
       "to": "chemistry.electrolysis",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "electrochemistry",
       "to": "metals.finishing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "electrochemistry.electroplating",
       "to": "chemistry.acids",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "electrochemistry.anodizing",
       "to": "chemistry.acids",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "electrochemistry.electrochemical-processes",
       "to": "chemistry.acids",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "electrochemistry.anodizing",
       "to": "metals.aluminum",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "electrochemistry.electroplating.copper-damascene",
       "to": "electrochemistry.electroplating",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "electrochemistry",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "automation",
       "to": "computing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "automation",
       "to": "electronics",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "automation.equipment-communication",
       "to": "computing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "automation.equipment-communication",
       "to": "electronics",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "automation.wafer-handling",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "automation.wafer-handling",
       "to": "vacuum",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "automation.material-transport",
       "to": "automation.equipment-communication",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "automation.process-control",
       "to": "automation.equipment-communication",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "automation.process-control",
       "to": "quality-control",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "petroleum",
       "to": "metals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "petroleum",
       "to": "mining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "petroleum.extraction",
       "to": "petroleum",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "petroleum.extraction.cable-tool",
       "to": "petroleum.extraction",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "petroleum.extraction.cable-tool",
       "to": "energy.steam-power",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "petroleum.extraction.rotary",
       "to": "petroleum.extraction",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "petroleum.extraction.rotary",
       "to": "petroleum.extraction.cable-tool",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "petroleum.refining",
       "to": "petroleum",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "petroleum.refining",
       "to": "petroleum.extraction",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "petroleum.refining",
       "to": "chemistry.distillation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "petroleum.refining.distillation",
       "to": "petroleum.refining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "petroleum.refining.cracking",
       "to": "petroleum.refining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "petroleum.refining.cracking",
       "to": "petroleum.refining.distillation",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "petroleum.petrochemicals",
       "to": "petroleum",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "petroleum.petrochemicals",
       "to": "petroleum.refining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "petroleum.petrochemicals.steam-cracking",
       "to": "petroleum.petrochemicals",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "energy.engine",
       "to": "petroleum.refining",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "defense",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "defense",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "defense",
       "to": "chemistry.explosives",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "defense",
       "to": "transport",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "defense",
       "to": "knowledge",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "construction",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "construction",
       "to": "ceramics.lime",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "construction",
       "to": "chemistry.cement",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "construction",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "construction",
       "to": "textiles.rope-making",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "construction",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "construction.building-materials",
       "to": "foundations.tools-basic",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "construction.structural-engineering",
       "to": "metals.iron-steel",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "construction.industrial-buildings",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "food-processing",
       "to": "foundations.food-agriculture",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "food-processing",
       "to": "energy",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "food-processing",
       "to": "health.sanitation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "food-processing",
       "to": "water",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "food-processing.milling",
       "to": "energy",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "food-processing.preservation",
       "to": "ceramics",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "food-processing.preservation",
       "to": "chemistry.petroleum-alternatives.fermentation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "food-processing.brewing",
       "to": "chemistry.petroleum-alternatives.fermentation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "food-processing.brewing",
       "to": "energy",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "food-processing.dairy",
       "to": "ceramics",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "food-processing.dairy",
       "to": "health.sanitation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "food-processing.preservation",
       "to": "health.sanitation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "telecom",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "telecom",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "telecom",
       "to": "knowledge.writing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "telecom",
       "to": "glass",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "telecom",
       "to": "transport.telegraph",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "telecom",
       "to": "polymers.rubber.gutta-percha",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "telecom.pre-electric",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "telecom.pre-electric",
       "to": "knowledge.writing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "telecom.electric-telegraph",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "telecom.electric-telegraph",
       "to": "transport.telegraph",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "telecom.electric-telegraph",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "telecom.electric-telegraph",
       "to": "telecom.pre-electric",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "telecom.telephone",
       "to": "telecom.electric-telegraph",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "telecom.telephone",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "telecom.telephone",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "telecom.submarine-cables",
       "to": "telecom.electric-telegraph",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "telecom.submarine-cables",
       "to": "transport.shipping",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "telecom.submarine-cables",
       "to": "polymers.rubber.gutta-percha",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "telecom.submarine-cables",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "telecom.radio",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "telecom.radio",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "telecom.radio",
       "to": "glass",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "telecom.radio",
       "to": "telecom.electric-telegraph",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "marine",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "marine",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "marine",
       "to": "textiles",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "marine",
       "to": "energy",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "marine",
       "to": "knowledge",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "marine",
       "to": "transport.shipping",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "marine.shipbuilding",
       "to": "metals.iron-steel",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "marine.shipbuilding",
       "to": "transport.shipping",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "marine.shipbuilding",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "marine.navigation",
       "to": "knowledge.writing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "marine.navigation",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "marine.propulsion",
       "to": "energy.steam-power",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "marine.propulsion",
       "to": "energy.engine",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "marine.propulsion",
       "to": "metals.iron-steel",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "marine.infrastructure",
       "to": "metals.iron-steel",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "marine.infrastructure",
       "to": "machine-tools",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "marine.infrastructure",
       "to": "polymers.rubber.gutta-percha",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.tig-welding",
       "to": "machine-tools.joining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.tig-welding",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.tig-welding",
       "to": "chemistry.air-separation",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.mig-welding",
       "to": "machine-tools.joining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.mig-welding",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.resistance-welding",
       "to": "machine-tools.joining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.resistance-welding",
       "to": "energy.electricity",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.electron-beam",
       "to": "machine-tools.joining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.electron-beam",
       "to": "vacuum",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.electron-beam",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.ultrasonic-bonding",
       "to": "machine-tools.joining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.ultrasonic-bonding",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.friction-stir",
       "to": "machine-tools.joining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.friction-stir",
       "to": "machine-tools.machining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.laser-welding",
       "to": "machine-tools.joining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.laser-welding",
       "to": "energy.electricity",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.diffusion-bonding",
       "to": "machine-tools.joining",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "machine-tools.joining.diffusion-bonding",
       "to": "energy.electric-furnaces",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vacuum.chambers",
       "to": "machine-tools.joining.tig-welding",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "vacuum.chambers",
       "to": "machine-tools.joining.electron-beam",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "chemistry.packaging-testing",
       "to": "machine-tools.joining.ultrasonic-bonding",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.surgery-basics",
       "to": "health",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.surgery-basics",
       "to": "health.medical-instruments",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.surgery-basics",
       "to": "health.medicine",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.surgery-basics",
       "to": "health.sanitation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.diagnostics",
       "to": "health",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.diagnostics",
       "to": "health.medical-instruments",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.diagnostics",
       "to": "chemistry",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.pharmaceutical-production",
       "to": "health.pharmacology",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.pharmaceutical-production",
       "to": "chemistry.distillation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "health.pharmaceutical-production",
       "to": "health.sanitation",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ehs.toxicology",
       "to": "ehs.chemical-safety",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ehs.toxicology",
       "to": "health.pharmacology",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ehs.toxicology",
       "to": "chemistry",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ehs.radiation-safety",
       "to": "ehs.chemical-safety",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ehs.radiation-safety",
       "to": "health.occupational-health",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "ehs.radiation-safety",
       "to": "chemistry",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization",
       "to": "foundations",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization",
       "to": "knowledge",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization",
       "to": "mathematics",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.division-of-labor",
       "to": "foundations.food-agriculture",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.division-of-labor",
       "to": "knowledge.writing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.trade",
       "to": "transport",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.trade",
       "to": "knowledge.writing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.currency",
       "to": "metals",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.currency",
       "to": "measurement.precision-metrology",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.accounting",
       "to": "mathematics.core-mathematics",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.accounting",
       "to": "knowledge.writing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.supply-chain",
       "to": "transport",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.supply-chain",
       "to": "knowledge.writing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.governance",
       "to": "knowledge.writing",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "defense.siege-warfare",
       "to": "economics-organization.supply-chain",
-      "type": "material"
+      "type": "material",
+      "flow": "primary"
     },
     {
       "from": "construction.industrial-buildings",
       "to": "economics-organization.division-of-labor",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "photolithography.fab-processes",
       "to": "economics-organization.supply-chain",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.accounting",
       "to": "economics-organization.division-of-labor",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.supply-chain",
       "to": "economics-organization.accounting",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.governance",
       "to": "economics-organization.division-of-labor",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.currency",
       "to": "economics-organization.trade",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     },
     {
       "from": "economics-organization.supply-chain",
       "to": "economics-organization.trade",
-      "type": "tool"
+      "type": "tool",
+      "flow": "primary"
     }
   ]
 }

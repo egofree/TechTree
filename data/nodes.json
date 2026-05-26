@@ -2673,6 +2673,91 @@
       }
     },
     {
+      "id": "health.pharmaceutical-production",
+      "name": "Pharmaceutical Production",
+      "level": "capability",
+      "parent": "health",
+      "description": "Scaled manufacture of drugs from extraction through final dosage form with quality control at each stage. Covers tablet compression, tincture production, sterile liquid manufacturing, and batch quality assurance.",
+      "timeline": "Years 15-100+",
+      "outputs": [
+        "pharmaceuticals",
+        "dosage_forms",
+        "quality_controlled_drugs",
+        "sterile_pharmaceuticals"
+      ],
+      "critical": true,
+      "critical_note": "Without reliable pharmaceutical production, disease treatment depends on variable plant preparations and infection mortality remains high",
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [
+          "health"
+        ],
+        "era": "industrial",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "health.surgery-basics",
+      "name": "Surgery Basics",
+      "level": "capability",
+      "parent": "health",
+      "description": "Wound management, basic surgical techniques, sterilization procedures, suture methods, and anesthesia fundamentals. Covers hemostasis, wound debridement, sterile technique, and post-operative care.",
+      "timeline": "Years 10-100+",
+      "outputs": [
+        "surgical_capability",
+        "wound_management",
+        "sterile_technique"
+      ],
+      "critical": true,
+      "critical_note": "Without surgical capability, traumatic injuries and complicated births are routinely fatal",
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "health"
+        ],
+        "era": "industrial",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "health.diagnostics",
+      "name": "Diagnostics",
+      "level": "capability",
+      "parent": "health",
+      "description": "Physical examination, vital signs measurement, basic laboratory testing, and fundamental imaging. A competent diagnostician with stethoscope, thermometer, and basic lab supplies can correctly identify 70-80% of common conditions.",
+      "timeline": "Years 10-100+",
+      "outputs": [
+        "diagnostic_capability",
+        "vital_signs_monitoring",
+        "laboratory_testing",
+        "imaging_capability"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "health",
+          "measurement"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
       "id": "textiles",
       "name": "Textiles, Fiber & Cordage",
       "level": "domain",
@@ -8166,6 +8251,200 @@
       }
     },
     {
+      "id": "economics-organization",
+      "name": "Economics & Organization",
+      "level": "domain",
+      "parent": null,
+      "description": "The social and organizational infrastructure for coordinating production, trade, labor specialization, and resource allocation. Enables complex multi-specialist production beyond household-level autarky. Spans division of labor, exchange systems, currency, accounting, supply chain coordination, and governance structures.",
+      "timeline": "Years 0-200+",
+      "outputs": [
+        "labor_coordination",
+        "trade_systems",
+        "currency",
+        "accounting_records",
+        "supply_chain_management",
+        "governance_structures"
+      ],
+      "critical": true,
+      "critical_note": "Without organizational coordination, no complex multi-specialist technology (from blast furnaces to semiconductor fabs) is achievable",
+      "early_win": true,
+      "early_win_note": "Division of labor and trade create the earliest and most powerful positive feedback loop: surplus to specialization to exchange to further specialization",
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "organization"
+        ],
+        "era": "stone-age",
+        "critical": true,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "economics-organization.division-of-labor",
+      "name": "Division of Labor",
+      "level": "capability",
+      "parent": "economics-organization",
+      "description": "Specialization of workers into distinct trades and coordination of their interdependent tasks. Emerges directly from food surplus: when not everyone must farm, specialists can focus on metallurgy, pottery, construction, or tool-making. The foundational organizational technology.",
+      "timeline": "Years 0-5",
+      "outputs": [
+        "specialist_labor",
+        "task_allocation",
+        "work_scheduling"
+      ],
+      "critical": true,
+      "critical_note": "Every downstream capability from metals to semiconductors implicitly requires specialist workers",
+      "early_win": true,
+      "early_win_note": "Surplus to specialization to exchange feedback loop: each specialist produces more than a generalist could",
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "organization"
+        ],
+        "era": "stone-age",
+        "critical": true,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "economics-organization.trade",
+      "name": "Trade & Barter",
+      "level": "capability",
+      "parent": "economics-organization",
+      "description": "Exchange of surplus goods between specialists through barter and market systems. Enables each specialist to obtain goods they do not produce directly, creating the economic feedback loop: specialization to surplus to exchange to further specialization.",
+      "timeline": "Years 1-5",
+      "outputs": [
+        "goods_exchange",
+        "market_systems",
+        "trade_networks"
+      ],
+      "critical": false,
+      "early_win": true,
+      "early_win_note": "Trade enables surplus circulation, dramatically increasing the value of specialization",
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "organization"
+        ],
+        "era": "stone-age",
+        "critical": false,
+        "early-win": true,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "economics-organization.currency",
+      "name": "Currency & Standardized Exchange",
+      "level": "capability",
+      "parent": "economics-organization",
+      "description": "Standardized exchange media (commodity money, metal coinage) and units of account that solve barter's double-coincidence problem. Requires reliable metallurgy for coinage and standardized weights for valuation.",
+      "timeline": "Years 5-10",
+      "outputs": [
+        "coinage",
+        "standardized_units_of_account",
+        "price_signals"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "metals"
+        ],
+        "capability": [
+          "organization"
+        ],
+        "era": "copper-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "economics-organization.accounting",
+      "name": "Accounting & Record-Keeping",
+      "level": "capability",
+      "parent": "economics-organization",
+      "description": "Systematic recording of production inputs, trade transactions, and resource inventories. Emerges when the volume of economic activity exceeds what can be tracked mentally, roughly when a community supports more than 50 specialists.",
+      "timeline": "Years 5-15",
+      "outputs": [
+        "financial_records",
+        "inventory_ledgers",
+        "cost_accounting"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "organization"
+        ],
+        "era": "bronze-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "economics-organization.supply-chain",
+      "name": "Supply Chain Coordination",
+      "level": "capability",
+      "parent": "economics-organization",
+      "description": "Planning and management of multi-step production sequences, procurement of inputs from diverse sources, and inventory management across distributed operations. Essential when production involves more than 3 sequential specialist steps.",
+      "timeline": "Years 10-25",
+      "outputs": [
+        "procurement_planning",
+        "inventory_management",
+        "logistics_coordination"
+      ],
+      "critical": true,
+      "critical_note": "Semiconductor manufacturing is impossible without multi-continent supply chain coordination involving hundreds of specialist inputs",
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "organization",
+          "construction"
+        ],
+        "era": "iron-age",
+        "critical": true,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "economics-organization.governance",
+      "name": "Governance & Institutional Design",
+      "level": "capability",
+      "parent": "economics-organization",
+      "description": "Decision-making structures for large-scale resource allocation, dispute resolution, and collective action. Includes guild structures, cooperative governance, and administrative hierarchies that coordinate hundreds of workers.",
+      "timeline": "Years 10-200+",
+      "outputs": [
+        "institutional_structures",
+        "regulatory_frameworks",
+        "dispute_resolution"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "organization"
+        ],
+        "era": "iron-age",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
       "id": "ehs",
       "name": "Environmental Health & Safety",
       "level": "domain",
@@ -8340,6 +8619,63 @@
         ],
         "capability": [
           "health"
+        ],
+        "era": "electronic",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "ehs.toxicology",
+      "name": "Toxicology",
+      "level": "capability",
+      "parent": "ehs",
+      "description": "Identification, quantification, and management of toxic substances in industrial, pharmaceutical, and environmental contexts. Covers TLV-TWA exposure limits, LD50 data, antidote protocols, and biological monitoring.",
+      "timeline": "Years 20-100+",
+      "outputs": [
+        "toxic_substance_databases",
+        "exposure_limits",
+        "antidote_protocols",
+        "material_safety_data"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [
+          "chemicals"
+        ],
+        "capability": [
+          "health"
+        ],
+        "era": "industrial",
+        "critical": false,
+        "early-win": false,
+        "pinnacle": false
+      }
+    },
+    {
+      "id": "ehs.radiation-safety",
+      "name": "Radiation Safety",
+      "level": "capability",
+      "parent": "ehs",
+      "description": "Ionizing radiation protection: shielding design using half-value layers, dose monitoring with dosimetry, contamination control, and ALARA principles. Covers dose limits for occupational and public exposure.",
+      "timeline": "Years 30-100+",
+      "outputs": [
+        "radiation_protection",
+        "shielding_design",
+        "dosimetry",
+        "contamination_control"
+      ],
+      "critical": false,
+      "early_win": false,
+      "pinnacle": false,
+      "tags": {
+        "material": [],
+        "capability": [
+          "health",
+          "measurement"
         ],
         "era": "electronic",
         "critical": false,

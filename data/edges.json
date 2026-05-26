@@ -3214,6 +3214,196 @@
       "from": "chemistry.packaging-testing",
       "to": "machine-tools.joining.ultrasonic-bonding",
       "type": "tool"
+    },
+    {
+      "from": "health.surgery-basics",
+      "to": "health",
+      "type": "tool"
+    },
+    {
+      "from": "health.surgery-basics",
+      "to": "health.medical-instruments",
+      "type": "tool"
+    },
+    {
+      "from": "health.surgery-basics",
+      "to": "health.medicine",
+      "type": "tool"
+    },
+    {
+      "from": "health.surgery-basics",
+      "to": "health.sanitation",
+      "type": "tool"
+    },
+    {
+      "from": "health.diagnostics",
+      "to": "health",
+      "type": "tool"
+    },
+    {
+      "from": "health.diagnostics",
+      "to": "health.medical-instruments",
+      "type": "tool"
+    },
+    {
+      "from": "health.diagnostics",
+      "to": "chemistry",
+      "type": "tool"
+    },
+    {
+      "from": "health.pharmaceutical-production",
+      "to": "health.pharmacology",
+      "type": "tool"
+    },
+    {
+      "from": "health.pharmaceutical-production",
+      "to": "chemistry.distillation",
+      "type": "tool"
+    },
+    {
+      "from": "health.pharmaceutical-production",
+      "to": "health.sanitation",
+      "type": "tool"
+    },
+    {
+      "from": "ehs.toxicology",
+      "to": "ehs.chemical-safety",
+      "type": "tool"
+    },
+    {
+      "from": "ehs.toxicology",
+      "to": "health.pharmacology",
+      "type": "tool"
+    },
+    {
+      "from": "ehs.toxicology",
+      "to": "chemistry",
+      "type": "tool"
+    },
+    {
+      "from": "ehs.radiation-safety",
+      "to": "ehs.chemical-safety",
+      "type": "tool"
+    },
+    {
+      "from": "ehs.radiation-safety",
+      "to": "health.occupational-health",
+      "type": "tool"
+    },
+    {
+      "from": "ehs.radiation-safety",
+      "to": "chemistry",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization",
+      "to": "foundations",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization",
+      "to": "knowledge",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization",
+      "to": "mathematics",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization.division-of-labor",
+      "to": "foundations.food-agriculture",
+      "type": "material"
+    },
+    {
+      "from": "economics-organization.division-of-labor",
+      "to": "knowledge.writing",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization.trade",
+      "to": "transport",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization.trade",
+      "to": "knowledge.writing",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization.currency",
+      "to": "metals",
+      "type": "material"
+    },
+    {
+      "from": "economics-organization.currency",
+      "to": "measurement.precision-metrology",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization.accounting",
+      "to": "mathematics.core-mathematics",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization.accounting",
+      "to": "knowledge.writing",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization.supply-chain",
+      "to": "transport",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization.supply-chain",
+      "to": "knowledge.writing",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization.governance",
+      "to": "knowledge.writing",
+      "type": "tool"
+    },
+    {
+      "from": "defense.siege-warfare",
+      "to": "economics-organization.supply-chain",
+      "type": "material"
+    },
+    {
+      "from": "construction.industrial-buildings",
+      "to": "economics-organization.division-of-labor",
+      "type": "tool"
+    },
+    {
+      "from": "photolithography.fab-processes",
+      "to": "economics-organization.supply-chain",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization.accounting",
+      "to": "economics-organization.division-of-labor",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization.supply-chain",
+      "to": "economics-organization.accounting",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization.governance",
+      "to": "economics-organization.division-of-labor",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization.currency",
+      "to": "economics-organization.trade",
+      "type": "tool"
+    },
+    {
+      "from": "economics-organization.supply-chain",
+      "to": "economics-organization.trade",
+      "type": "tool"
     }
   ]
 }

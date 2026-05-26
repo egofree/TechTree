@@ -11,18 +11,22 @@ _schema_docs:
     id: Dotted hierarchical identifier (matches node IDs in nodes.json)
     name: Human-readable description of the milestone
     domain: Top-level domain (first segment of id, for convenience)
+    metrics: Quantitative milestone criteria (optional)
 tier_0_survival:
   timeline: Years 0-5
   items:
   - id: foundations.fire
     name: 'Fire-making and charcoal production (combined: friction/flint ignition + controlled pyrolysis)'
     domain: foundations
+    metrics: 'Produce 10+ kg charcoal per batch from earth-covered pit kiln; sustain fire continuously for 8+ hours'
   - id: foundations.tools-basic
     name: Basic stone and wood tools
     domain: foundations
+    metrics: 'Produce 5+ functional stone tool types (scraper, axe, drill, chisel, knife); achieve cutting edge <1 mm radius'
   - id: foundations.food-agriculture
     name: Agriculture surplus and animal domestication for labor
     domain: foundations
+    metrics: 'Yield 2 tonnes grain per hectare; maintain 6-month food reserve for settlement of 50+ people'
   - id: plants.edible-plants
     name: Cultivation of edible plants for food security
     domain: plants
@@ -41,9 +45,11 @@ tier_0_survival:
   - id: mining
     name: Basic mining and prospecting
     domain: mining
+    metrics: 'Extract 50+ kg ore per day via surface prospecting; identify 5+ mineral types by streak test and Mohs hardness'
   - id: ceramics.pottery
     name: Pottery and kilns
     domain: ceramics
+    metrics: 'Fire pottery at 900+°C in kiln; produce 20+ watertight vessels per firing cycle with <10% breakage rate'
   - id: knowledge
     name: Writing system developed
     domain: knowledge
@@ -71,9 +77,11 @@ tier_1_industrial:
   - id: metals.copper-bronze
     name: Copper smelting and bronze alloying
     domain: metals
+    metrics: 'Smelt 10+ kg copper per batch at 1085+°C; achieve 90% purity; produce 5+ kg bronze with 5-12% tin alloy'
   - id: metals.iron-steel
     name: Iron smelting to wrought iron to steel
     domain: metals
+    metrics: 'Produce 50+ kg iron bloom per batch at 1200-1400°C; achieve 0.1-1.2% carbon content for steel via carburization'
   - id: machine-tools.forming
     name: Basic metalworking tools
     domain: machine-tools
@@ -83,15 +91,19 @@ tier_1_industrial:
   - id: machine-tools.iterative-bootstrap
     name: First crude lathe built
     domain: machine-tools
+    metrics: 'Achieve 0.5 mm tolerance on first crude lathe; turn 3+ functional cylindrical parts (pulleys, bushings, pins)'
   - id: energy.steam-power
     name: Steam power developed
     domain: energy
+    metrics: 'Achieve 5+ HP output from Watt-style separate condenser engine; reach 3-5% thermal efficiency; operate boiler at 2+ atm safely'
   - id: energy.electricity
     name: First generators operational
     domain: energy
+    metrics: 'Generate 1+ kW continuous electrical power; maintain voltage regulation within ±10%; wire 100+ m distribution line'
   - id: chemistry.acids
     name: Sulfuric acid production
     domain: chemistry
+    metrics: 'Produce sulfuric acid at 65-70% concentration via lead chamber process; yield 50+ kg per batch'
   - id: knowledge
     name: Printing press operational
     domain: knowledge
@@ -137,6 +149,7 @@ tier_1_industrial:
   - id: glass.basic
     name: Basic glass production from sand
     domain: glass
+    metrics: 'Achieve 95% silica purity in melt; produce 5+ kg workable glass per batch at 1100-1400°C; form 10+ flat panes or vessels'
   - id: glass.advanced.glassblowing
     name: Glassblowing and container production
     domain: glass
@@ -149,6 +162,7 @@ tier_2_semiconductor:
   - id: machine-tools.iterative-bootstrap
     name: Full machine shop operational
     domain: machine-tools
+    metrics: 'Achieve 0.025 mm tolerance on milling machine; complete bootstrap through surface grinder at 0.005 mm precision'
   - id: energy.electricity
     name: Reliable electricity generation and distribution
     domain: energy
@@ -161,12 +175,15 @@ tier_2_semiconductor:
   - id: silicon.mg-si-production
     name: Metallurgical-grade silicon produced
     domain: silicon
+    metrics: 'Produce 98%+ purity metallurgical-grade silicon; yield 10+ kg per EAF batch at 1900+°C; impurity levels Fe<0.5%, Al<0.4%'
   - id: silicon.crystal-growth
     name: Czochralski crystal growth producing ingots
     domain: silicon
+    metrics: 'Grow 50+ mm diameter single-crystal silicon ingot; achieve dislocation density <10⁴/cm²; resistivity uniformity ±15%'
   - id: silicon.basic-devices
     name: First solar cells fabricated and generating power
     domain: silicon
+    metrics: 'Achieve 5%+ photoelectric conversion efficiency on first solar cells; generate 1+ W from 100 cm² cell area'
   - id: photolithography.cleanrooms
     name: Basic cleanroom or glovebox capability
     domain: photolithography
@@ -281,3 +298,178 @@ tier_3_advanced:
   - id: polymers.composites
     name: Advanced composite manufacturing (filament winding, pultrusion)
     domain: polymers
+
+pathways:
+  _schema_docs:
+    description: 'Alternative development paths based on resource availability and geography. Each pathway prioritizes different
+      sequences through the checklist tiers, reflecting how starting conditions shape the bootstrap trajectory. Items are
+      referenced by checklist node ID. Not all checklist items appear in every pathway — pathways highlight the critical
+      sequence for that scenario, not an exhaustive list.'
+  coastal_maritime:
+    name: Coastal / Maritime Pathway
+    description: 'Suitable for settlements with ocean or major lake access. Exploits salt harvesting, fishing,
+      shellfish (lime source), kelp (iodine/potash), drift amber (electrical properties), and water transport.
+      Naval capability enables trade for missing minerals. Salt preserves food enabling longer expeditions and surplus storage.
+      Seawater provides magnesium, bromine, and deuterium. Shell middens supply calcium for cement and lime.'
+    advantages:
+    - Salt from evaporation (food preservation, chemical feedstock)
+    - Fish and shellfish protein (reduces agricultural land requirement)
+    - Water transport (10-50x more efficient than overland for bulk goods)
+    - Seawater minerals (NaCl, Mg, Br, D₂O)
+    - Shells for lime and cement production
+    - Trade access for scarce minerals via maritime routes
+    challenges:
+    - Limited timber in coastal scrubland
+    - Storm and flood exposure
+    - No native coal or iron ore on coast (requires inland trade or transport)
+    - Corrosion from salt spray accelerates metal degradation
+    sequence:
+    - tier: tier_0_survival
+      items:
+      - foundations.fire
+      - foundations.tools-basic
+      - plants.edible-plants
+      - plants.medicinal-plants
+      - ceramics.pottery
+      - mining
+      notes: 'Prioritize salt pan construction and fish drying racks alongside basic shelter. Shell middens
+        provide ready lime source for early cement and mortar.'
+    - tier: tier_1_industrial
+      items:
+      - metals.copper-bronze
+      - machine-tools.iterative-bootstrap
+      - energy.steam-power
+      - energy.electricity
+      - chemistry.acids
+      - chemistry.lubricants
+      - glass.basic
+      - transport.aviation
+      notes: 'Water transport moves bulk ore from inland mines to coastal forges. Prioritize boat-building
+        for trade routes. Salt-based Leblanc process for soda ash. Desalination brine for chlorine production.'
+    - tier: tier_2_semiconductor
+      items:
+      - machine-tools.iterative-bootstrap
+      - silicon.mg-si-production
+      - silicon.crystal-growth
+      - silicon.basic-devices
+      - chemistry.air-separation
+      notes: 'Maritime trade enables import of high-purity quartz sand for silicon. Coastal humidity
+        demands robust cleanroom dehumidification. Seawater electrolysis for chlorine and hydrogen.'
+  inland_continental:
+    name: Inland / Continental Pathway
+    description: 'Suitable for settlements in continental interiors with access to forests, mineral deposits,
+      arable land, and freshwater rivers. Lacks easy trade routes but has direct access to coal, iron ore,
+      limestone, clay, and timber. Agriculture and animal power dominate early stages. River systems provide
+      transport corridors and water power.'
+    advantages:
+    - Direct access to coal, iron ore, limestone, and clay deposits
+    - Abundant timber for charcoal, construction, and pit props
+    - Large arable land area for grain and fiber crops
+    - River systems for water power and transport
+    - Mineral diversity from geological formations
+    - Natural shelter from coastal storms
+    challenges:
+    - No salt source (requires mining or trade)
+    - Limited protein without fishing (relies on livestock)
+    - Overland transport 10-50x less efficient than water
+    - Harsh continental winters demand robust heating and food storage
+    sequence:
+    - tier: tier_0_survival
+      items:
+      - foundations.fire
+      - foundations.tools-basic
+      - foundations.food-agriculture
+      - plants.edible-plants
+      - plants.fiber-plants
+      - plants.structural-plants
+      - mining
+      - ceramics.pottery
+      - knowledge
+      notes: 'Prioritize grain agriculture and animal domestication early. Timber-frame construction
+        for winter shelter. Charcoal production from abundant forests. Exploit surface iron ore deposits.'
+    - tier: tier_1_industrial
+      items:
+      - metals.iron-steel
+      - metals.copper-bronze
+      - machine-tools.iterative-bootstrap
+      - machine-tools.casting
+      - energy.steam-power
+      - energy.electricity
+      - chemistry.acids
+      - chemistry.lubricants
+      - glass.basic
+      - polymers.rubber.natural
+      notes: 'Iron and coal are local — no import dependency. Water wheels power early industry before
+        steam. Prioritize road and canal construction for internal transport. Forest management for
+        sustainable charcoal supply.'
+    - tier: tier_2_semiconductor
+      items:
+      - machine-tools.iterative-bootstrap
+      - silicon.mg-si-production
+      - silicon.crystal-growth
+      - silicon.basic-devices
+      - chemistry.air-separation
+      - chemistry.petroleum-alternatives
+      notes: 'Coal tar chemistry replaces petroleum for solvents and polymers. Local quartz deposits
+        for silicon production. Inland dry climate may simplify cleanroom humidity control.
+        Producer gas from wood/coal for engine fuel.'
+  tropical_biomass:
+    name: Tropical / Biomass-First Pathway
+    description: 'Suitable for equatorial settlements with year-round growing season, abundant biomass,
+      and diverse plant resources. Leverages rubber trees, bamboo, rice, sugarcane, oil palms, and
+      tropical hardwoods. Biomass-first chemistry replaces mineral-dependent pathways where possible.
+      Challenges include humidity control, tropical diseases, and limited coal deposits.'
+    advantages:
+    - Year-round growing season (multiple harvests per year)
+    - Abundant biomass for fuel, chemicals, and construction
+    - Natural rubber (Hevea brasiliensis) for seals and insulation
+    - Rice as high-yield calorie staple (6+ tonnes/hectare)
+    - Bamboo for rapid construction, scaffolding, and fiber
+    - Sugarcane for ethanol (solvent, fuel, chemical feedstock)
+    - Diverse plant pharmacopeia
+    challenges:
+    - Extreme humidity complicates metal preservation and cleanroom operation
+    - Tropical diseases demand strong health infrastructure
+    - Limited coal and iron ore in many tropical regions
+    - Laterite soils difficult for conventional agriculture (require amendment)
+    - High rainfall leaches soil nutrients rapidly
+    sequence:
+    - tier: tier_0_survival
+      items:
+      - foundations.fire
+      - foundations.tools-basic
+      - foundations.food-agriculture
+      - plants.edible-plants
+      - plants.medicinal-plants
+      - plants.fiber-plants
+      - plants.structural-plants
+      - plants.dye-plants
+      - ceramics.pottery
+      - health
+      notes: 'Rice paddies provide highest caloric yield per hectare. Bamboo construction for rapid
+        shelter. Prioritize malaria and parasite control. Laterite soils need composting and ash amendment.'
+    - tier: tier_1_industrial
+      items:
+      - metals.copper-bronze
+      - metals.iron-steel
+      - machine-tools.iterative-bootstrap
+      - energy.steam-power
+      - energy.electricity
+      - chemistry.acids
+      - chemistry.lubricants
+      - polymers.rubber.natural
+      - glass.basic
+      notes: 'Natural rubber enables seals, gaskets, and insulation without synthetic polymer chain.
+        Sugarcane ethanol as solvent and chemical feedstock. Biomass gasification replaces coal gas.
+        Charcoal from abundant tropical hardwoods. Rice husk ash as silica source for glass and silicon.'
+    - tier: tier_2_semiconductor
+      items:
+      - machine-tools.iterative-bootstrap
+      - silicon.mg-si-production
+      - silicon.crystal-growth
+      - silicon.basic-devices
+      - chemistry.air-separation
+      - energy.storage
+      notes: 'Rice husk ash (15-20% silica) as silicon feedstock. Aggressive dehumidification essential
+        for cleanroom operation. Natural rubber gaskets for vacuum seals. Ethanol-derived ethylene for
+        polyethylene production.'

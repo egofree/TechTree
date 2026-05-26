@@ -8,9 +8,10 @@
 
 The technology tree currently stores nodes as flat records with boolean flags and edges as untyped dependency links. This specification introduces:
 
-1. A **tag taxonomy** for dimensional classification of nodes (material, capability, era).
+1. A **tag taxonomy** for dimensional classification of nodes (material, capability, era, lifecycle).
 2. An **edge type classification** distinguishing material flows from tool/infrastructure dependencies.
-3. A **SIK placement test** (Shared Infrastructure & Knowledge) for domain boundary decisions.
+3. An **edge flow qualifier** classifying edges by circular economy role (primary, byproduct-reuse, waste-recovery, recycling-loop).
+4. A **SIK placement test** (Shared Infrastructure & Knowledge) for domain boundary decisions.
 
 These rules are normative. Any automated tooling (validators, diagram generators, query engines) MUST enforce them.
 
@@ -47,8 +48,9 @@ Every edge in `edges.json` has these fields today:
 | `from` | string | Node ID of the dependent (thing that needs something) |
 | `to` | string | Node ID of the prerequisite (thing needed first) |
 | `type` | string | `"material"` or `"tool"` — consumed substance vs. reusable infrastructure |
+| `flow` | string | `"primary"`, `"byproduct-reuse"`, `"waste-recovery"`, or `"recycling-loop"` — circular economy role (see §5.6) |
 
-Direction convention: `from` depends on `to`. Example: `{ from: "metals", to: "foundations" }` means metals requires foundations.
+Direction convention: `from` depends on `to`. Example: `{ from: "metals", to: "foundations", type: "tool", flow: "primary" }` means metals requires foundations as a tool dependency.
 
 ---
 
@@ -56,7 +58,7 @@ Direction convention: `from` depends on `to`. Example: `{ from: "metals", to: "f
 
 ### 3.1 Overview
 
-The `tags` field classifies each node along three independent dimensions plus a set of boolean flags. Tags are **additive** — a single node carries multiple tags from different dimensions.
+The `tags` field classifies each node along four independent dimensions plus a set of boolean flags. Tags are **additive** — a single node carries multiple tags from different dimensions.
 
 ### 3.2 Material Dimension
 
@@ -147,6 +149,7 @@ The new `tags` field is a JSON object:
     "material": ["metals", "chemicals"],
     "capability": ["energy"],
     "era": "industrial",
+    "lifecycle": ["recyclable"],
     "critical": false,
     "early-win": false,
     "pinnacle": false
@@ -158,9 +161,31 @@ The new `tags` field is a JSON object:
 - `tags.material`: Array of strings. Allowed values from §3.2. May be empty `[]`.
 - `tags.capability`: Array of strings. Allowed values from §3.3. May be empty `[]`.
 - `tags.era`: String. Exactly one value from §3.4. Required on all nodes.
+- `tags.lifecycle`: Array of strings. Allowed values from §3.7. Optional — may be absent or empty `[]`.
 - `tags.critical`: Boolean. Preserved from existing `critical` field.
 - `tags.early-win`: Boolean. Preserved from existing `early_win` field.
 - `tags.pinnacle`: Boolean. Preserved from existing `pinnacle` field.
+
+### 3.7 Lifecycle Dimension
+
+Classifies the material lifecycle role of a node — where its outputs originate or end up in circular material flows. This dimension enables tracking of waste streams, recycling pathways, and closed-loop material circuits.
+
+| Tag | Definition | Example Nodes |
+|-----|-----------|---------------|
+| `waste-source` | Node whose primary output is a waste or byproduct stream requiring disposal or reuse | Blast furnace (slag), combustion (ash), mining (tailings) |
+| `waste-sink` | Node that accepts waste or byproduct streams as input, preventing disposal | `chemistry.cement` (accepts slag), `chemistry.alkalis` (accepts wood ash) |
+| `recyclable` | Node whose output material can be recovered and reprocessed after end of life | `glass.basic` (glass cullet), `metals.iron-steel` (scrap steel) |
+| `recycled-feedstock` | Node that specifically processes reclaimed/recycled material as primary input | Electric arc furnace (scrap steel feed), glass cullet remelter |
+| `closed-loop` | Node where the output material is designed to return to the same process chain | Aluminum recycling (back to same alloy), solvent recovery systems |
+
+**Rules:**
+- Lifecycle tags are **optional** on all nodes. A node without lifecycle tags is valid.
+- A node may have 0–5 lifecycle tags.
+- The lifecycle vocabulary is a **closed set** — only the five tags above are valid values.
+- `waste-source` and `waste-sink` may coexist on the same node if a process both generates and consumes waste streams.
+- `recyclable` and `recycled-feedstock` are complementary: `recyclable` marks what CAN be recovered; `recycled-feedstock` marks what IS recovered.
+- `closed-loop` implies `recyclable` but not vice versa — recyclable glass may be downcycled into fiberglass insulation (open loop), while aluminum can recycling returns to the same alloy specification (closed loop).
+- Domain-level nodes inherit the union of their children's lifecycle tags.
 
 The top-level `critical`, `early_win`, `pinnacle` fields and their associated `_note` fields remain in place for backward compatibility. The `tags` object duplicates the boolean values for query convenience.
 
@@ -333,6 +358,91 @@ Walk through classification of representative edges from the current data:
 - Steel is consumed as construction material (ambiguous — could argue the built boiler becomes a tool).
 - Ambiguity rule applies: classify as **`tool`** because the infrastructure aspect (a boiler that lasts decades) dominates.
 
+### 5.6 Flow Qualifier
+
+Every edge carries a `flow` field that classifies the dependency's role in circular material flows. This qualifier works alongside the existing `type` field: `type` describes *what* is provided (consumed substance vs. reusable tool), while `flow` describes *how* the material circulates (virgin extraction, byproduct capture, waste recovery, or closed-loop recycling).
+
+#### Flow Definitions
+
+| Flow | Definition | Test |
+|------|-----------|------|
+| `primary` | Standard dependency — the prerequisite provides a virgin or first-use material/capability. No circular economy pathway involved. | Is this a conventional forward supply-chain dependency? Does the prerequisite produce something new that the dependent consumes for the first time? |
+| `byproduct-reuse` | The dependent uses a secondary output from the prerequisite that would otherwise be discarded. The primary output of the prerequisite is something else entirely. | Does the dependent consume a secondary output that the prerequisite generates incidentally? Would this material be waste without this edge? |
+| `waste-recovery` | The dependent processes discarded end-of-life material (post-consumer scrap, demolition waste, collected refuse) into usable feedstock. The material has completed its original service life. | Is the dependent recovering material that has already been used and discarded? Is the input post-consumer or post-industrial waste? |
+| `recycling-loop` | The output of the dependent returns to the same process chain as input, forming a closed material loop. The material specification is preserved through the cycle. | Does the material return to its original process chain? Is the recycled output equivalent in specification to the virgin material? |
+
+**Field specification:**
+- `flow`: String. Required on every edge. One of `"primary"`, `"byproduct-reuse"`, `"waste-recovery"`, `"recycling-loop"`.
+
+**Relationship to `type`:**
+- `flow` is independent of `type`. Any combination is valid:
+  - `type: "material", flow: "primary"` — standard material consumption (most common)
+  - `type: "tool", flow: "primary"` — standard equipment dependency (most common)
+  - `type: "material", flow: "byproduct-reuse"` — consuming an industrial byproduct as feedstock
+  - `type: "material", flow: "waste-recovery"` — processing scrap/waste into new material
+  - `type: "material", flow: "recycling-loop"` — closed-loop material recycling
+  - `type: "tool", flow: "waste-recovery"` — refurbishing/remanufacturing equipment from discarded components
+
+**DAG constraint:** The acyclic graph constraint (no circular dependencies) applies only to `flow: "primary"` edges. Edges with `byproduct-reuse`, `waste-recovery`, or `recycling-loop` flows may create apparent cycles in the material graph because they represent feedback loops in the physical material flow, not dependency cycles. A steel recycling edge (scrap → new steel) does not mean steel depends on itself — the recycling pathway exists only after initial steel production.
+
+### 5.7 Worked Flow Classification Examples
+
+Walk through classification of representative edges into flow qualifiers. Examples use real node IDs from the project data.
+
+**Example 1: `{ from: "machine-tools.casting", to: "metals.iron-steel", type: "material" }`**
+- The foundry needs iron/steel as the raw material to cast machine parts.
+- Iron/steel is virgin material consumed for the first time.
+- Flow: **`primary`** — standard forward supply-chain dependency.
+
+**Example 2: `{ from: "machine-tools", to: "metals", type: "tool" }`**
+- Machine tools are reusable equipment needed by the metals domain.
+- Standard infrastructure dependency.
+- Flow: **`primary`** — conventional tool/capability dependency.
+
+**Example 3: `{ from: "glass.basic", to: "mining", type: "material" }`**
+- Glass production requires silica sand from mining.
+- Sand is extracted from the earth for first use.
+- Flow: **`primary`** — virgin material extraction.
+
+**Example 4: Hypothetical `{ from: "chemistry.cement", to: "metals.iron-steel.blast-furnace", type: "material" }`** *(byproduct-reuse)*
+- Blast furnace slag is a secondary output of iron smelting — the primary output is pig iron.
+- Slag cement (ground granulated blast furnace slag) replaces up to 70% of Portland cement clinker.
+- Without this edge, the slag would be landfilled.
+- The prerequisite's `lifecycle` tag would include `waste-source`; the dependent's would include `waste-sink`.
+- Flow: **`byproduct-reuse`** — the slag is an incidental output repurposed.
+
+**Example 5: Hypothetical `{ from: "chemistry.alkalis", to: "foundations.fire", type: "material" }`** *(byproduct-reuse)*
+- Wood ash from fire-making contains potassium carbonate (potash), a traditional source of alkali.
+- Ash is a byproduct of fire — the primary output is heat and charcoal.
+- Potash from ash was historically the main source of alkali before the Leblanc process.
+- Flow: **`byproduct-reuse`** — ash is an incidental output captured for chemical use.
+
+**Example 6: Hypothetical `{ from: "metals.iron-steel", to: "metals.iron-steel", type: "material" }`** *(waste-recovery)*
+- Electric arc furnaces melt scrap steel to produce new steel.
+- The scrap has completed its service life (demolished buildings, discarded vehicles, manufacturing offcuts).
+- This is NOT a byproduct — the scrap was once a finished product.
+- The node would carry `lifecycle: ["recyclable", "recycled-feedstock"]`.
+- Flow: **`waste-recovery`** — end-of-life material recovered as feedstock.
+
+**Example 7: Hypothetical `{ from: "metals.aluminum", to: "metals.aluminum", type: "material" }`** *(recycling-loop)*
+- Aluminum scrap is melted and recast into the same alloy specification.
+- Unlike steel (where EAF may blend scrap grades), aluminum recycling typically returns to the same alloy series.
+- Recycling saves 95% of the energy vs. primary Hall-Héroult smelting.
+- The node would carry `lifecycle: ["recyclable", "recycled-feedstock", "closed-loop"]`.
+- Flow: **`recycling-loop`** — material returns to its original process chain with preserved specification.
+
+**Example 8: Hypothetical `{ from: "glass.basic", to: "glass.basic", type: "material" }`** *(recycling-loop)*
+- Glass cullet (broken recycled glass) is mixed with raw batch material in glass furnaces.
+- Cullet melts at lower temperature than raw batch, saving ~30% energy per tonne.
+- The glass composition is preserved — clear glass cullet produces clear glass.
+- The node would carry `lifecycle: ["recyclable", "closed-loop"]`.
+- Flow: **`recycling-loop`** — glass returns to the same production process.
+
+**Example 9: `{ from: "chemistry.soap", to: "chemistry.alkalis", type: "material" }`** *(primary)*
+- Soap production consumes soda ash (Na₂CO₃) or caustic soda (NaOH) as feedstock for saponification.
+- Alkalis are produced industrially — virgin chemical feedstock.
+- Flow: **`primary`** — standard chemical feedstock dependency.
+
 ---
 
 ## 6. SIK Placement Test
@@ -446,6 +556,7 @@ A `tags` object is added to each node with the structure defined in §3.6:
     "material": ["metals"],
     "capability": ["energy"],
     "era": "iron-age",
+    "lifecycle": ["recyclable", "recycled-feedstock"],
     "critical": true,
     "early-win": false,
     "pinnacle": false
@@ -490,13 +601,37 @@ The existing top-level boolean fields (`critical`, `early_win`, `pinnacle`) and 
 | Semantics | Binary dependency exists | Nature of dependency: consumed substance vs. reusable apparatus |
 | Required | Yes | Yes |
 
-### 8.2 Migration
+### 8.2 `flow` Field Added
+
+| Property | Value |
+|----------|-------|
+| Allowed values | `["primary", "byproduct-reuse", "waste-recovery", "recycling-loop"]` |
+| Semantics | Circular economy role: how the material circulates through the dependency |
+| Required | Yes — every edge must have a `flow` field |
+| Default | `"primary"` — existing edges should default to primary unless they match a circular economy pattern |
+
+**Example edge with all fields:**
+
+```json
+{
+  "from": "chemistry.cement",
+  "to": "metals.iron-steel.blast-furnace",
+  "type": "material",
+  "flow": "byproduct-reuse"
+}
+```
+
+### 8.3 Migration
 
 Every existing edge with `type: "required"` must be reclassified as either `"material"` or `"tool"` using the rules in §5. There is no `"required"` value in the new schema. This is a breaking change — all consumers of `edges.json` must be updated.
 
-### 8.3 `from` / `to` Semantics
+Every existing edge must also receive a `flow` field. The default value is `"primary"` — existing forward supply-chain dependencies are primary by definition. Circular economy edges (`byproduct-reuse`, `waste-recovery`, `recycling-loop`) are added incrementally as new edges representing circular material flows.
+
+### 8.4 `from` / `to` Semantics
 
 Unchanged. `from` = dependent, `to` = prerequisite. Direction convention: `from` depends on `to`.
+
+**Diagram generator compatibility:** Diagram generators only read `from`, `to`, and `type` fields. The `flow` field is forward-compatible — existing generators ignore it. Future generators may render flow qualifiers with distinct visual styles (e.g., recycling-loop edges as dotted-blue, byproduct-reuse as dashed-green).
 
 ---
 
@@ -532,6 +667,22 @@ Unchanged. `from` = dependent, `to` = prerequisite. Direction convention: `from`
 - The first segment MUST be one of: `biomass`, `mineral`, `synthetic`.
 - No duplicate values within a single node's `taxonomy` array.
 
+### 9.5 Flow Validation
+
+- Every edge MUST have a `flow` field.
+- `flow` MUST be exactly one of: `"primary"`, `"byproduct-reuse"`, `"waste-recovery"`, `"recycling-loop"`.
+- The DAG acyclicity check (§9.3, existing check) applies ONLY to edges where `flow` is `"primary"`. Edges with other flow values are exempt from the DAG constraint because they represent circular material feedback loops, not dependency cycles.
+- A `byproduct-reuse` edge SHOULD reference a `from` node whose `tags.lifecycle` includes `waste-sink` and a `to` node whose `tags.lifecycle` includes `waste-source` (advisory — not enforced as error).
+- A `waste-recovery` or `recycling-loop` edge SHOULD reference nodes with appropriate `lifecycle` tags (advisory).
+
+### 9.6 Lifecycle Tag Validation
+
+- `tags.lifecycle` is optional. If absent or empty, the node is valid — no error.
+- If present, `tags.lifecycle` MUST be a non-empty array of strings.
+- Each string MUST be one of: `"waste-source"`, `"waste-sink"`, `"recyclable"`, `"recycled-feedstock"`, `"closed-loop"`.
+- No duplicate values within a single node's `tags.lifecycle` array.
+- `closed-loop` implies `recyclable` — if `closed-loop` is present, `recyclable` SHOULD also be present (advisory — warn but do not error).
+
 ---
 
 ## 10. Glossary
@@ -546,3 +697,14 @@ Unchanged. `from` = dependent, `to` = prerequisite. Direction convention: `from`
 | **Capability** | Major skill or process family within a domain (1 dot in ID) |
 | **Process** | Specific technique or operation (2+ dots in ID) |
 | **Organizing axis** | The primary principle by which capabilities are arranged within a domain |
+| **Lifecycle tag** | An optional tag from §3.7 classifying a node's role in circular material flows (`waste-source`, `waste-sink`, `recyclable`, `recycled-feedstock`, `closed-loop`) |
+| **Flow qualifier** | A required field on every edge classifying its circular economy role (`primary`, `byproduct-reuse`, `waste-recovery`, `recycling-loop`) |
+| **Primary flow** | Standard forward supply-chain dependency — virgin material or first-use capability. Most edges are primary |
+| **Byproduct-reuse** | Edge where the dependent consumes a secondary/incidental output from the prerequisite that would otherwise be waste |
+| **Waste-recovery** | Edge where the dependent processes end-of-life discarded material (scrap, demolition waste) into usable feedstock |
+| **Recycling-loop** | Edge where material returns to its original process chain with preserved specification, forming a closed material loop |
+| **Waste-source** | Lifecycle tag for nodes whose primary output includes a waste or byproduct stream |
+| **Waste-sink** | Lifecycle tag for nodes that accept waste/byproduct streams as input |
+| **Recyclable** | Lifecycle tag for nodes whose output material can be recovered and reprocessed after end of life |
+| **Recycled-feedstock** | Lifecycle tag for nodes that specifically process reclaimed/recycled material as primary input |
+| **Closed-loop** | Lifecycle tag for nodes where output material is designed to return to the same process chain |

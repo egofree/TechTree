@@ -21,9 +21,13 @@ NODE_REQUIRED_FIELDS = [
     "timeline", "outputs", "critical", "early_win", "pinnacle", "tags",
 ]
 
-EDGE_REQUIRED_FIELDS = ["from", "to", "type"]
+EDGE_REQUIRED_FIELDS = ["from", "to", "type", "flow"]
 
 VALID_EDGE_TYPES = {"material", "tool"}
+
+VALID_EDGE_FLOWS = {"primary", "byproduct-reuse", "waste-recovery", "recycling-loop"}
+
+VALID_LIFECYCLE_TAGS = {"waste-source", "waste-sink", "recyclable", "recycled-feedstock", "closed-loop"}
 
 # ---------------------------------------------------------------------------
 # Manifest management
@@ -97,7 +101,7 @@ def generate_node_patch(new_nodes, new_edges, existing_nodes_path, existing_edge
     existing_edges_data = load_manifest(existing_edges_path)
     existing_edges_list = existing_edges_data.get("edges", [])
     existing_edge_set = {
-        (e["from"], e["to"], e["type"])
+        (e["from"], e["to"], e["type"], e["flow"])
         for e in existing_edges_list
         if all(k in e for k in EDGE_REQUIRED_FIELDS)
     }
@@ -115,7 +119,7 @@ def generate_node_patch(new_nodes, new_edges, existing_nodes_path, existing_edge
 
     edges_added = []
     for edge in new_edges:
-        key = (edge.get("from"), edge.get("to"), edge.get("type"))
+        key = (edge.get("from"), edge.get("to"), edge.get("type"), edge.get("flow"))
         if all(key) and key not in existing_edge_set:
             edges_added.append(edge)
 
@@ -157,7 +161,7 @@ def apply_patch(nodes_path, edges_path, patch_path):
         edges_data = {"$schema": "bootciv-edges-v1", "edges": []}
     edges_list = edges_data.get("edges", [])
     edge_set = {
-        (e["from"], e["to"], e["type"])
+        (e["from"], e["to"], e["type"], e["flow"])
         for e in edges_list
         if all(k in e for k in EDGE_REQUIRED_FIELDS)
     }
@@ -178,7 +182,7 @@ def apply_patch(nodes_path, edges_path, patch_path):
                     break
 
     for edge in patch.get("edges_added", []):
-        key = (edge.get("from"), edge.get("to"), edge.get("type"))
+        key = (edge.get("from"), edge.get("to"), edge.get("type"), edge.get("flow"))
         if all(key) and key not in edge_set:
             edges_list.append(edge)
             edge_set.add(key)
@@ -464,6 +468,18 @@ def validate_node(node):
                 if sub in tags and not isinstance(tags[sub], list):
                     errors.append("field 'tags.{}' must be a list".format(sub))
 
+            if "lifecycle" in tags:
+                if not isinstance(tags["lifecycle"], list):
+                    errors.append("field 'tags.lifecycle' must be a list")
+                elif isinstance(tags["lifecycle"], list):
+                    for val in tags["lifecycle"]:
+                        if val not in VALID_LIFECYCLE_TAGS:
+                            errors.append(
+                                "tags.lifecycle value '{}' not in controlled vocabulary: {}".format(
+                                    val, sorted(VALID_LIFECYCLE_TAGS)
+                                )
+                            )
+
     return errors
 
 
@@ -487,6 +503,14 @@ def validate_edge(edge):
         errors.append(
             "field 'type' must be one of {}, got: {}".format(
                 sorted(VALID_EDGE_TYPES), repr(edge_type)
+            )
+        )
+
+    edge_flow = edge.get("flow")
+    if edge_flow is not None and edge_flow not in VALID_EDGE_FLOWS:
+        errors.append(
+            "field 'flow' must be one of {}, got: {}".format(
+                sorted(VALID_EDGE_FLOWS), repr(edge_flow)
             )
         )
 

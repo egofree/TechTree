@@ -206,7 +206,11 @@
         "era": "copper-age",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-source",
+          "recyclable"
+        ]
       }
     },
     {
@@ -234,7 +238,11 @@
         "era": "iron-age",
         "critical": true,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-source",
+          "recyclable"
+        ]
       }
     },
     {
@@ -259,7 +267,10 @@
         "era": "iron-age",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "recyclable"
+        ]
       }
     },
     {
@@ -916,7 +927,10 @@
         "era": "stone-age",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-source"
+        ]
       }
     },
     {
@@ -940,7 +954,10 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-source"
+        ]
       }
     },
     {
@@ -967,7 +984,10 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-source"
+        ]
       }
     },
     {
@@ -1283,7 +1303,10 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-sink"
+        ]
       }
     },
     {
@@ -1311,7 +1334,10 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-sink"
+        ]
       }
     },
     {
@@ -1539,7 +1565,10 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "recyclable"
+        ]
       }
     },
     {
@@ -3288,7 +3317,10 @@
         "era": "iron-age",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "recyclable"
+        ]
       }
     },
     {
@@ -3397,7 +3429,10 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "recyclable"
+        ]
       }
     },
     {
@@ -3795,7 +3830,11 @@
         "era": "iron-age",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-source",
+          "recyclable"
+        ]
       }
     },
     {
@@ -3961,7 +4000,10 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-source"
+        ]
       }
     },
     {
@@ -4720,7 +4762,10 @@
         "era": "industrial",
         "critical": false,
         "early-win": true,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-source"
+        ]
       }
     },
     {
@@ -4745,7 +4790,10 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "recycled-feedstock"
+        ]
       }
     },
     {
@@ -4827,7 +4875,11 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-sink",
+          "closed-loop"
+        ]
       }
     },
     {
@@ -4888,7 +4940,11 @@
         "era": "industrial",
         "critical": true,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "recyclable",
+          "recycled-feedstock"
+        ]
       }
     },
     {
@@ -4915,7 +4971,11 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "recyclable",
+          "closed-loop"
+        ]
       }
     },
     {
@@ -4972,7 +5032,11 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-source",
+          "recyclable"
+        ]
       }
     },
     {
@@ -5030,7 +5094,11 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-source",
+          "recyclable"
+        ]
       }
     },
     {
@@ -5180,7 +5248,11 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "recyclable",
+          "recycled-feedstock"
+        ]
       }
     },
     {
@@ -6010,7 +6082,10 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "closed-loop"
+        ]
       }
     },
     {
@@ -6234,7 +6309,10 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-sink"
+        ]
       }
     },
     {
@@ -6288,7 +6366,11 @@
         "era": "iron-age",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-source",
+          "waste-sink"
+        ]
       }
     },
     {
@@ -6394,7 +6476,12 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-sink",
+          "recycled-feedstock",
+          "closed-loop"
+        ]
       }
     },
     {
@@ -6726,7 +6813,10 @@
         "era": "stone-age",
         "critical": false,
         "early-win": true,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-source"
+        ]
       }
     },
     {
@@ -6754,7 +6844,11 @@
         "era": "stone-age",
         "critical": false,
         "early-win": true,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-source",
+          "waste-sink"
+        ]
       }
     },
     {
@@ -6893,7 +6987,10 @@
         "era": "stone-age",
         "critical": false,
         "early-win": true,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-sink"
+        ]
       },
       "taxonomy": [
         "biomass.animal.insect"
@@ -6924,7 +7021,10 @@
         "era": "stone-age",
         "critical": true,
         "early-win": true,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-sink"
+        ]
       }
     },
     {
@@ -6951,7 +7051,10 @@
         "era": "stone-age",
         "critical": false,
         "early-win": true,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-sink"
+        ]
       },
       "taxonomy": [
         "biomass.animal"
@@ -6981,7 +7084,11 @@
         "era": "stone-age",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-sink",
+          "closed-loop"
+        ]
       }
     },
     {
@@ -8158,7 +8265,10 @@
         "era": "industrial",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-source"
+        ]
       }
     },
     {
@@ -8623,7 +8733,11 @@
         "era": "electronic",
         "critical": false,
         "early-win": false,
-        "pinnacle": false
+        "pinnacle": false,
+        "lifecycle": [
+          "waste-sink",
+          "recycled-feedstock"
+        ]
       }
     },
     {

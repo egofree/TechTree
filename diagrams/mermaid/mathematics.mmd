@@ -16,6 +16,8 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     computing_digital-logic("Digital Logic Design")
     computing_mechanical("Mechanical Calculation")
+    economics-organization("Economics & Organization")
+    economics-organization_accounting("Accounting & Record-Keeping")
     foundations("Foundations")
     knowledge_writing("Writing & Record-Keeping")
 
@@ -26,6 +28,8 @@ graph TD
     mathematics -.-> knowledge_writing
     computing_mechanical -.-> mathematics_core-mathematics
     computing_digital-logic -.-> mathematics_formal-systems
+    economics-organization -.-> mathematics
+    economics-organization_accounting -.-> mathematics_core-mathematics
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -47,6 +51,8 @@ graph TD
     class mathematics_formal-systems capability
     class computing_digital-logic external
     class computing_mechanical external
+    class economics-organization external
+    class economics-organization_accounting external
     class foundations external
     class knowledge_writing external
     class EdgeLegend,MatNote,ToolNote legend

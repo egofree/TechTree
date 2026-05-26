@@ -89,6 +89,9 @@ health_internal: "Public Health, Sanitation & Medicine — Internal Structure" {
   health_sanitation: "Water Supply & Sanitation"
   health_medicine: "Medicine & Surgery"
   health_pharmacology: Pharmacology
+  health_pharmaceutical-production: Pharmaceutical Production
+  health_surgery-basics: Surgery Basics
+  health_diagnostics: Diagnostics
   health_occupational-health: "Occupational Health & Industrial Hygiene"
   health_medical-instruments: Medical Instrument Manufacturing
 }
@@ -119,6 +122,12 @@ chemistry_soap: "Soap & Detergent Production" {
   shape: rectangle
 }
 chemistry_solvents: Solvent Production {
+  shape: rectangle
+}
+ehs_radiation-safety: Radiation Safety {
+  shape: rectangle
+}
+ehs_toxicology: Toxicology {
   shape: rectangle
 }
 energy_steam-power: Steam Power {
@@ -160,6 +169,14 @@ health_medicine -> health_sanitation: { class: tool-edge }
 health_pharmacology -> health_medicine: { class: tool-edge }
 health_occupational-health -> health: { class: tool-edge }
 health_medical-instruments -> health: { class: tool-edge }
+health_surgery-basics -> health: { class: tool-edge }
+health_surgery-basics -> health_medical-instruments: { class: tool-edge }
+health_surgery-basics -> health_medicine: { class: tool-edge }
+health_surgery-basics -> health_sanitation: { class: tool-edge }
+health_diagnostics -> health: { class: tool-edge }
+health_diagnostics -> health_medical-instruments: { class: tool-edge }
+health_pharmaceutical-production -> health_pharmacology: { class: tool-edge }
+health_pharmaceutical-production -> health_sanitation: { class: tool-edge }
 health -> foundations: { class: tool-edge }
 health -> chemistry: { class: material-edge }
 health_sanitation -> ceramics: { class: tool-edge }
@@ -181,12 +198,19 @@ health_medical-instruments -> energy_steam-power: { class: tool-edge }
 food-processing -> health_sanitation: { class: tool-edge }
 food-processing_dairy -> health_sanitation: { class: tool-edge }
 food-processing_preservation -> health_sanitation: { class: tool-edge }
+health_diagnostics -> chemistry: { class: tool-edge }
+health_pharmaceutical-production -> chemistry_distillation: { class: tool-edge }
+ehs_toxicology -> health_pharmacology: { class: tool-edge }
+ehs_radiation-safety -> health_occupational-health: { class: tool-edge }
 
 # ==================== STYLING ====================
 health.class: domain
 health_sanitation.class: capability
 health_medicine.class: capability
 health_pharmacology.class: capability
+health_pharmaceutical-production.class: critical
+health_surgery-basics.class: critical
+health_diagnostics.class: capability
 health_occupational-health.class: capability
 health_medical-instruments.class: capability
 animals_beekeeping.class: external
@@ -197,6 +221,8 @@ chemistry_ammonia.class: external
 chemistry_distillation.class: external
 chemistry_soap.class: external
 chemistry_solvents.class: external
+ehs_radiation-safety.class: external
+ehs_toxicology.class: external
 energy_steam-power.class: external
 food-processing.class: external
 food-processing_dairy.class: external

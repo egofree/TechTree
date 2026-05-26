@@ -49,6 +49,8 @@ graph TD
     construction("Construction & Structural Engineering")
     cryogenics_air-separation("Cryogenic Air Separation")
     defense("Defense & Military Engineering")
+    ehs_radiation-safety("Radiation Safety")
+    ehs_toxicology("Toxicology")
     electrochemistry("Electrochemistry & Plating")
     electrochemistry_anodizing("Anodizing")
     electrochemistry_electrochemical-processes("Electrochemical Surface Processes")
@@ -74,7 +76,9 @@ graph TD
     glass("Glass")
     glass_basic("Basic Glass Production")
     health("Public Health, Sanitation & Medicine")
+    health_diagnostics("Diagnostics")
     health_occupational-health("Occupational Health & Industrial Hygiene")
+    health_pharmaceutical-production("Pharmaceutical Production")
     health_pharmacology("Pharmacology")
     knowledge("Knowledge Preservation & Education")
     knowledge_writing("Writing & Record-Keeping")
@@ -249,6 +253,10 @@ graph TD
     food-processing_brewing -.-> chemistry_petroleum-alternatives_fermentation
     machine-tools_joining_tig-welding --> chemistry_air-separation
     chemistry_packaging-testing -.-> machine-tools_joining_ultrasonic-bonding
+    health_diagnostics -.-> chemistry
+    health_pharmaceutical-production -.-> chemistry_distillation
+    ehs_toxicology -.-> chemistry
+    ehs_radiation-safety -.-> chemistry
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -303,6 +311,8 @@ graph TD
     class construction external
     class cryogenics_air-separation external
     class defense external
+    class ehs_radiation-safety external
+    class ehs_toxicology external
     class electrochemistry external
     class electrochemistry_anodizing external
     class electrochemistry_electrochemical-processes external
@@ -328,7 +338,9 @@ graph TD
     class glass external
     class glass_basic external
     class health external
+    class health_diagnostics external
     class health_occupational-health external
+    class health_pharmaceutical-production external
     class health_pharmacology external
     class knowledge external
     class knowledge_writing external

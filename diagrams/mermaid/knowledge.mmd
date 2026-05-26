@@ -20,6 +20,12 @@ graph TD
     chemistry("Chemistry")
     chemistry_pulp-chemicals("Pulp & Paper Chemicals")
     defense("Defense & Military Engineering")
+    economics-organization("Economics & Organization")
+    economics-organization_accounting("Accounting & Record-Keeping")
+    economics-organization_division-of-labor("Division of Labor")
+    economics-organization_governance("Governance & Institutional Design")
+    economics-organization_supply-chain("Supply Chain Coordination")
+    economics-organization_trade("Trade & Barter")
     foundations("Foundations")
     foundations_food-agriculture("Agriculture & Food Production")
     foundations_tools-basic("Stone & Wood Tools")
@@ -60,6 +66,12 @@ graph TD
     telecom_pre-electric -.-> knowledge_writing
     marine -.-> knowledge
     marine_navigation -.-> knowledge_writing
+    economics-organization -.-> knowledge
+    economics-organization_division-of-labor -.-> knowledge_writing
+    economics-organization_trade -.-> knowledge_writing
+    economics-organization_accounting -.-> knowledge_writing
+    economics-organization_supply-chain -.-> knowledge_writing
+    economics-organization_governance -.-> knowledge_writing
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -85,6 +97,12 @@ graph TD
     class chemistry external
     class chemistry_pulp-chemicals external
     class defense external
+    class economics-organization external
+    class economics-organization_accounting external
+    class economics-organization_division-of-labor external
+    class economics-organization_governance external
+    class economics-organization_supply-chain external
+    class economics-organization_trade external
     class foundations external
     class foundations_food-agriculture external
     class foundations_tools-basic external

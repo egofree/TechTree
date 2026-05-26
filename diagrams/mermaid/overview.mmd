@@ -36,6 +36,7 @@ graph TD
     ultra-pure["Ultra-Pure Materials"]
     precision-motion["Precision Motion Control"]
     petroleum["Petroleum Extraction & Refining"]
+    economics-organization["Economics & Organization"]
     ehs["Environmental Health & Safety"]
     defense["Defense & Military Engineering"]
     construction["Construction & Structural Engineering"]
@@ -123,6 +124,9 @@ graph TD
     marine --> textiles
     marine -.-> energy
     marine -.-> knowledge
+    economics-organization -.-> foundations
+    economics-organization -.-> knowledge
+    economics-organization -.-> mathematics
 
     %% ==================== CROSS-DOMAIN EDGES ====================
     agriculture -.-> animals
@@ -155,10 +159,17 @@ graph TD
     computing -.-> silicon
     construction -.-> ceramics
     construction -.-> chemistry
+    construction -.-> economics-organization
     construction -.-> energy
     construction -.-> textiles
     cryogenics -.-> energy
     defense -.-> chemistry
+    defense -.-> economics-organization
+    economics-organization -.-> measurement
+    economics-organization -.-> metals
+    economics-organization -.-> transport
+    ehs -.-> chemistry
+    ehs -.-> health
     electrochemistry -.-> chemistry
     electrochemistry -.-> energy
     electrochemistry -.-> metals
@@ -228,6 +239,7 @@ graph TD
     petroleum -.-> chemistry
     petroleum -.-> energy
     photolithography -.-> ceramics
+    photolithography -.-> economics-organization
     photolithography -.-> glass
     photolithography -.-> metals
     photolithography -.-> polymers
@@ -282,6 +294,7 @@ graph TD
     class plants earlyWin
     class agriculture earlyWin
     class animals earlyWin
+    class economics-organization earlyWin
     class construction earlyWin
     class food-processing earlyWin
     class marine earlyWin

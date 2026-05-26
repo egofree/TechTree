@@ -101,6 +101,9 @@ ceramics_lime: Lime Production {
 chemistry_cement: "Cement & Concrete" {
   shape: rectangle
 }
+economics-organization_division-of-labor: Division of Labor {
+  shape: rectangle
+}
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
@@ -133,6 +136,7 @@ construction -> machine-tools: { class: tool-edge }
 construction_building-materials -> foundations_tools-basic: { class: tool-edge }
 construction_structural-engineering -> metals_iron-steel: { class: material-edge }
 construction_industrial-buildings -> energy_electricity: { class: tool-edge }
+construction_industrial-buildings -> economics-organization_division-of-labor: { class: tool-edge }
 
 # ==================== STYLING ====================
 construction.class: domain
@@ -141,6 +145,7 @@ construction_structural-engineering.class: capability
 construction_industrial-buildings.class: capability
 ceramics_lime.class: external
 chemistry_cement.class: external
+economics-organization_division-of-labor.class: external
 energy_electricity.class: external
 foundations.class: external
 foundations_tools-basic.class: external

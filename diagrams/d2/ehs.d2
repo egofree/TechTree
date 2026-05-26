@@ -91,14 +91,31 @@ ehs_internal: "Environmental Health & Safety — Internal Structure" {
   ehs_ppe: Personal Protective Equipment
   ehs_emergency-response: Emergency Response
   ehs_waste-management: Waste Management
+  ehs_toxicology: Toxicology
+  ehs_radiation-safety: Radiation Safety
 }
 
 # ==================== DOMAIN NODE ====================
 ehs: "Environmental Health & Safety"
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+chemistry: Chemistry {
+  shape: rectangle
+}
+health_occupational-health: "Occupational Health & Industrial Hygiene" {
+  shape: rectangle
+}
+health_pharmacology: Pharmacology {
+  shape: rectangle
+}
 
 # ==================== EDGES ====================
+ehs_toxicology -> ehs_chemical-safety: { class: tool-edge }
+ehs_radiation-safety -> ehs_chemical-safety: { class: tool-edge }
+ehs_toxicology -> health_pharmacology: { class: tool-edge }
+ehs_toxicology -> chemistry: { class: tool-edge }
+ehs_radiation-safety -> health_occupational-health: { class: tool-edge }
+ehs_radiation-safety -> chemistry: { class: tool-edge }
 
 # ==================== STYLING ====================
 ehs.class: domain
@@ -107,6 +124,11 @@ ehs_ventilation-exhaust.class: capability
 ehs_ppe.class: capability
 ehs_emergency-response.class: capability
 ehs_waste-management.class: capability
+ehs_toxicology.class: capability
+ehs_radiation-safety.class: capability
+chemistry.class: external
+health_occupational-health.class: external
+health_pharmacology.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

@@ -120,6 +120,7 @@ electrochemistry: "Electrochemistry & Plating"
 ultra-pure: Ultra-Pure Materials
 precision-motion: Precision Motion Control
 petroleum: "Petroleum Extraction & Refining"
+economics-organization: "Economics & Organization"
 ehs: "Environmental Health & Safety"
 defense: "Defense & Military Engineering"
 construction: "Construction & Structural Engineering"
@@ -207,6 +208,9 @@ marine -> metals: { class: material-edge }
 marine -> textiles: { class: material-edge }
 marine -> energy: { class: tool-edge }
 marine -> knowledge: { class: tool-edge }
+economics-organization -> foundations: { class: tool-edge }
+economics-organization -> knowledge: { class: tool-edge }
+economics-organization -> mathematics: { class: tool-edge }
 
 # ==================== CROSS-DOMAIN EDGES ====================
 agriculture -> animals: { class: tool-edge }
@@ -239,10 +243,17 @@ computing -> polymers: { class: tool-edge }
 computing -> silicon: { class: tool-edge }
 construction -> ceramics: { class: tool-edge }
 construction -> chemistry: { class: tool-edge }
+construction -> economics-organization: { class: tool-edge }
 construction -> energy: { class: tool-edge }
 construction -> textiles: { class: tool-edge }
 cryogenics -> energy: { class: tool-edge }
 defense -> chemistry: { class: tool-edge }
+defense -> economics-organization: { class: tool-edge }
+economics-organization -> measurement: { class: tool-edge }
+economics-organization -> metals: { class: tool-edge }
+economics-organization -> transport: { class: tool-edge }
+ehs -> chemistry: { class: tool-edge }
+ehs -> health: { class: tool-edge }
 electrochemistry -> chemistry: { class: tool-edge }
 electrochemistry -> energy: { class: tool-edge }
 electrochemistry -> metals: { class: tool-edge }
@@ -312,6 +323,7 @@ optics -> vacuum: { class: tool-edge }
 petroleum -> chemistry: { class: tool-edge }
 petroleum -> energy: { class: tool-edge }
 photolithography -> ceramics: { class: tool-edge }
+photolithography -> economics-organization: { class: tool-edge }
 photolithography -> glass: { class: tool-edge }
 photolithography -> metals: { class: tool-edge }
 photolithography -> polymers: { class: tool-edge }
@@ -387,6 +399,7 @@ electrochemistry.class: domain
 ultra-pure.class: domain
 precision-motion.class: domain
 petroleum.class: domain
+economics-organization.class: earlyWin
 ehs.class: domain
 defense.class: domain
 construction.class: earlyWin

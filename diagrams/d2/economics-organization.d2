@@ -1,0 +1,198 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+    pad: 20
+    center: true
+  }
+}
+
+direction: down
+
+classes: {
+  domain: {
+    style: {
+      fill: "#e3f2fd"
+      stroke: "#1976d2"
+      stroke-width: 2
+      border-radius: 4
+    }
+  }
+  capability: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 2
+    }
+  }
+  process: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 2
+    }
+  }
+  critical: {
+    style: {
+      fill: "#fff3e0"
+      stroke: "#f57c00"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  earlyWin: {
+    style: {
+      fill: "#e8f5e9"
+      stroke: "#388e3c"
+      stroke-width: 3
+    }
+  }
+  pinnacle: {
+    style: {
+      fill: "#fce4ec"
+      stroke: "#c62828"
+      stroke-width: 3
+      bold: true
+    }
+  }
+  external: {
+    style: {
+      fill: "#f5f5f5"
+      stroke: "#9e9e9e"
+      stroke-width: 1
+    }
+  }
+  legend: {
+    style: {
+      fill: "#fafafa"
+      stroke: "#bdbdbd"
+      stroke-width: 1
+      font-size: 13
+    }
+  }
+  material-edge: {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool-edge: {
+    style: {
+      stroke: "#666666"
+      stroke-width: 1
+      stroke-dash: 3
+    }
+  }
+}
+
+# ==================== INTERNAL NODES ====================
+economics-organization_internal: "Economics & Organization — Internal Structure" {
+  economics-organization_division-of-labor: Division of Labor
+  economics-organization_trade: "Trade & Barter"
+  economics-organization_currency: "Currency & Standardized Exchange"
+  economics-organization_accounting: "Accounting & Record-Keeping"
+  economics-organization_supply-chain: Supply Chain Coordination
+  economics-organization_governance: "Governance & Institutional Design"
+}
+
+# ==================== DOMAIN NODE ====================
+economics-organization: "Economics & Organization"
+
+# ==================== EXTERNAL DEPENDENCIES ====================
+construction_industrial-buildings: "Industrial Buildings & Heavy Foundations" {
+  shape: rectangle
+}
+defense_siege-warfare: "Siege Engineering & Military Logistics" {
+  shape: rectangle
+}
+foundations: Foundations {
+  shape: rectangle
+}
+foundations_food-agriculture: "Agriculture & Food Production" {
+  shape: rectangle
+}
+knowledge: "Knowledge Preservation & Education" {
+  shape: rectangle
+}
+knowledge_writing: "Writing & Record-Keeping" {
+  shape: rectangle
+}
+mathematics: "Mathematics & Formal Sciences" {
+  shape: rectangle
+}
+mathematics_core-mathematics: Core Mathematics {
+  shape: rectangle
+}
+measurement_precision-metrology: "Precision Metrology & Standards" {
+  shape: rectangle
+}
+metals: Metals {
+  shape: rectangle
+}
+photolithography_fab-processes: Core Fab Processes {
+  shape: rectangle
+}
+transport: "Transportation & Logistics" {
+  shape: rectangle
+}
+
+# ==================== EDGES ====================
+economics-organization_accounting -> economics-organization_division-of-labor: { class: tool-edge }
+economics-organization_supply-chain -> economics-organization_accounting: { class: tool-edge }
+economics-organization_governance -> economics-organization_division-of-labor: { class: tool-edge }
+economics-organization_currency -> economics-organization_trade: { class: tool-edge }
+economics-organization_supply-chain -> economics-organization_trade: { class: tool-edge }
+economics-organization -> foundations: { class: tool-edge }
+economics-organization -> knowledge: { class: tool-edge }
+economics-organization -> mathematics: { class: tool-edge }
+economics-organization_division-of-labor -> foundations_food-agriculture: { class: material-edge }
+economics-organization_division-of-labor -> knowledge_writing: { class: tool-edge }
+economics-organization_trade -> transport: { class: tool-edge }
+economics-organization_trade -> knowledge_writing: { class: tool-edge }
+economics-organization_currency -> metals: { class: material-edge }
+economics-organization_currency -> measurement_precision-metrology: { class: tool-edge }
+economics-organization_accounting -> mathematics_core-mathematics: { class: tool-edge }
+economics-organization_accounting -> knowledge_writing: { class: tool-edge }
+economics-organization_supply-chain -> transport: { class: tool-edge }
+economics-organization_supply-chain -> knowledge_writing: { class: tool-edge }
+economics-organization_governance -> knowledge_writing: { class: tool-edge }
+defense_siege-warfare -> economics-organization_supply-chain: { class: material-edge }
+construction_industrial-buildings -> economics-organization_division-of-labor: { class: tool-edge }
+photolithography_fab-processes -> economics-organization_supply-chain: { class: tool-edge }
+
+# ==================== STYLING ====================
+economics-organization.class: domain
+economics-organization_division-of-labor.class: earlyWin
+economics-organization_trade.class: earlyWin
+economics-organization_currency.class: capability
+economics-organization_accounting.class: capability
+economics-organization_supply-chain.class: critical
+economics-organization_governance.class: capability
+construction_industrial-buildings.class: external
+defense_siege-warfare.class: external
+foundations.class: external
+foundations_food-agriculture.class: external
+knowledge.class: external
+knowledge_writing.class: external
+mathematics.class: external
+mathematics_core-mathematics.class: external
+measurement_precision-metrology.class: external
+metals.class: external
+photolithography_fab-processes.class: external
+transport.class: external
+
+# ==================== LEGEND ====================
+d2-legend: "Edge Types" {
+  class: legend
+  mat: "Solid arrow = material prerequisite (physical input consumed)" {
+    style: {
+      stroke: "#333333"
+      stroke-width: 2
+    }
+  }
+  tool: "Dashed arrow = tool prerequisite (equipment/infrastructure needed)" {
+    style: {
+      stroke: "#666666"
+      stroke-dash: 3
+    }
+  }
+}

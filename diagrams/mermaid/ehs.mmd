@@ -10,14 +10,25 @@ graph TD
         ehs_ppe["Personal Protective Equipment"]
         ehs_emergency-response["Emergency Response"]
         ehs_waste-management["Waste Management"]
+        ehs_toxicology["Toxicology"]
+        ehs_radiation-safety["Radiation Safety"]
     end
 
     %% ==================== DOMAIN NODE ====================
     ehs["Environmental Health & Safety"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    chemistry("Chemistry")
+    health_occupational-health("Occupational Health & Industrial Hygiene")
+    health_pharmacology("Pharmacology")
 
     %% ==================== EDGES ====================
+    ehs_toxicology -.-> ehs_chemical-safety
+    ehs_radiation-safety -.-> ehs_chemical-safety
+    ehs_toxicology -.-> health_pharmacology
+    ehs_toxicology -.-> chemistry
+    ehs_radiation-safety -.-> health_occupational-health
+    ehs_radiation-safety -.-> chemistry
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -39,4 +50,9 @@ graph TD
     class ehs_ppe capability
     class ehs_emergency-response capability
     class ehs_waste-management capability
+    class ehs_toxicology capability
+    class ehs_radiation-safety capability
+    class chemistry external
+    class health_occupational-health external
+    class health_pharmacology external
     class EdgeLegend,MatNote,ToolNote legend

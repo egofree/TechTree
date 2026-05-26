@@ -101,6 +101,12 @@ computing_digital-logic: Digital Logic Design {
 computing_mechanical: Mechanical Calculation {
   shape: rectangle
 }
+economics-organization: "Economics & Organization" {
+  shape: rectangle
+}
+economics-organization_accounting: "Accounting & Record-Keeping" {
+  shape: rectangle
+}
 foundations: Foundations {
   shape: rectangle
 }
@@ -115,6 +121,8 @@ mathematics_core-mathematics -> foundations: { class: tool-edge }
 mathematics -> knowledge_writing: { class: tool-edge }
 computing_mechanical -> mathematics_core-mathematics: { class: tool-edge }
 computing_digital-logic -> mathematics_formal-systems: { class: tool-edge }
+economics-organization -> mathematics: { class: tool-edge }
+economics-organization_accounting -> mathematics_core-mathematics: { class: tool-edge }
 
 # ==================== STYLING ====================
 mathematics.class: domain
@@ -123,6 +131,8 @@ mathematics_applied-mathematics.class: capability
 mathematics_formal-systems.class: capability
 computing_digital-logic.class: external
 computing_mechanical.class: external
+economics-organization.class: external
+economics-organization_accounting.class: external
 foundations.class: external
 knowledge_writing.class: external
 

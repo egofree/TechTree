@@ -21,6 +21,8 @@ graph TD
     chemistry_coatings("Paints, Coatings & Inks")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
     defense("Defense & Military Engineering")
+    economics-organization_supply-chain("Supply Chain Coordination")
+    economics-organization_trade("Trade & Barter")
     energy("Energy")
     energy_electricity("Electricity Generation & Distribution")
     energy_engine("Heat Engines")
@@ -71,6 +73,8 @@ graph TD
     telecom_submarine-cables -.-> transport_shipping
     marine -.-> transport_shipping
     marine_shipbuilding -.-> transport_shipping
+    economics-organization_trade -.-> transport
+    economics-organization_supply-chain -.-> transport
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -97,6 +101,8 @@ graph TD
     class chemistry_coatings external
     class chemistry_petroleum-alternatives external
     class defense external
+    class economics-organization_supply-chain external
+    class economics-organization_trade external
     class energy external
     class energy_electricity external
     class energy_engine external

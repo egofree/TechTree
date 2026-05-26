@@ -8,6 +8,9 @@ graph TD
         health_sanitation["Water Supply & Sanitation"]
         health_medicine["Medicine & Surgery"]
         health_pharmacology["Pharmacology"]
+        health_pharmaceutical-production["Pharmaceutical Production"]
+        health_surgery-basics["Surgery Basics"]
+        health_diagnostics["Diagnostics"]
         health_occupational-health["Occupational Health & Industrial Hygiene"]
         health_medical-instruments["Medical Instrument Manufacturing"]
     end
@@ -24,6 +27,8 @@ graph TD
     chemistry_distillation("Distillation")
     chemistry_soap("Soap & Detergent Production")
     chemistry_solvents("Solvent Production")
+    ehs_radiation-safety("Radiation Safety")
+    ehs_toxicology("Toxicology")
     energy_steam-power("Steam Power")
     food-processing("Food Processing")
     food-processing_dairy("Dairy Processing")
@@ -41,6 +46,14 @@ graph TD
     health_pharmacology -.-> health_medicine
     health_occupational-health -.-> health
     health_medical-instruments -.-> health
+    health_surgery-basics -.-> health
+    health_surgery-basics -.-> health_medical-instruments
+    health_surgery-basics -.-> health_medicine
+    health_surgery-basics -.-> health_sanitation
+    health_diagnostics -.-> health
+    health_diagnostics -.-> health_medical-instruments
+    health_pharmaceutical-production -.-> health_pharmacology
+    health_pharmaceutical-production -.-> health_sanitation
     health -.-> foundations
     health --> chemistry
     health_sanitation -.-> ceramics
@@ -62,6 +75,10 @@ graph TD
     food-processing -.-> health_sanitation
     food-processing_dairy -.-> health_sanitation
     food-processing_preservation -.-> health_sanitation
+    health_diagnostics -.-> chemistry
+    health_pharmaceutical-production -.-> chemistry_distillation
+    ehs_toxicology -.-> health_pharmacology
+    ehs_radiation-safety -.-> health_occupational-health
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -81,6 +98,9 @@ graph TD
     class health_sanitation capability
     class health_medicine capability
     class health_pharmacology capability
+    class health_pharmaceutical-production critical
+    class health_surgery-basics critical
+    class health_diagnostics capability
     class health_occupational-health capability
     class health_medical-instruments capability
     class animals_beekeeping external
@@ -91,6 +111,8 @@ graph TD
     class chemistry_distillation external
     class chemistry_soap external
     class chemistry_solvents external
+    class ehs_radiation-safety external
+    class ehs_toxicology external
     class energy_steam-power external
     class food-processing external
     class food-processing_dairy external

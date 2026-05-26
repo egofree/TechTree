@@ -20,6 +20,7 @@ graph TD
     chemistry_packaging-testing("Semiconductor Packaging & Testing")
     cleanrooms("Clean Room Technology")
     computing_electronic("Electronic Computing")
+    economics-organization_supply-chain("Supply Chain Coordination")
     gas-handling("Gas Handling")
     gas-handling_vacuum("Vacuum Technology")
     glass_basic("Basic Glass Production")
@@ -64,6 +65,7 @@ graph TD
     photolithography -.-> cleanrooms
     photolithography -.-> quality-control
     photolithography_fab-processes -.-> vacuum_pumps
+    photolithography_fab-processes -.-> economics-organization_supply-chain
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -89,6 +91,7 @@ graph TD
     class chemistry_packaging-testing external
     class cleanrooms external
     class computing_electronic external
+    class economics-organization_supply-chain external
     class gas-handling external
     class gas-handling_vacuum external
     class glass_basic external

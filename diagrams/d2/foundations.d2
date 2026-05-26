@@ -141,6 +141,12 @@ construction_building-materials: "Building Materials & Methods" {
 defense: "Defense & Military Engineering" {
   shape: rectangle
 }
+economics-organization: "Economics & Organization" {
+  shape: rectangle
+}
+economics-organization_division-of-labor: Division of Labor {
+  shape: rectangle
+}
 energy_fuels: Fuel Production {
   shape: rectangle
 }
@@ -257,6 +263,8 @@ construction_building-materials -> foundations_tools-basic: { class: tool-edge }
 food-processing -> foundations_food-agriculture: { class: material-edge }
 telecom_pre-electric -> foundations: { class: tool-edge }
 marine -> foundations: { class: tool-edge }
+economics-organization -> foundations: { class: tool-edge }
+economics-organization_division-of-labor -> foundations_food-agriculture: { class: material-edge }
 
 # ==================== STYLING ====================
 foundations.class: domain
@@ -279,6 +287,8 @@ chemistry_petroleum-alternatives.class: external
 construction.class: external
 construction_building-materials.class: external
 defense.class: external
+economics-organization.class: external
+economics-organization_division-of-labor.class: external
 energy_fuels.class: external
 energy_fuels_charcoal.class: external
 food-processing.class: external

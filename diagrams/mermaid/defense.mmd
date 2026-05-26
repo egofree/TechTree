@@ -16,6 +16,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry_explosives("Explosives and Propellants")
+    economics-organization_supply-chain("Supply Chain Coordination")
     foundations("Foundations")
     knowledge("Knowledge Preservation & Education")
     metals("Metals")
@@ -27,6 +28,7 @@ graph TD
     defense --> chemistry_explosives
     defense -.-> transport
     defense -.-> knowledge
+    defense_siege-warfare --> economics-organization_supply-chain
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -48,6 +50,7 @@ graph TD
     class defense_armor capability
     class defense_siege-warfare capability
     class chemistry_explosives external
+    class economics-organization_supply-chain external
     class foundations external
     class knowledge external
     class metals external

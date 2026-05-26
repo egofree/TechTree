@@ -157,6 +157,9 @@ construction_structural-engineering: Structural Engineering {
 defense: "Defense & Military Engineering" {
   shape: rectangle
 }
+economics-organization_currency: "Currency & Standardized Exchange" {
+  shape: rectangle
+}
 electrochemistry: "Electrochemistry & Plating" {
   shape: rectangle
 }
@@ -404,6 +407,7 @@ marine_shipbuilding -> metals_iron-steel: { class: material-edge }
 marine_navigation -> metals: { class: material-edge }
 marine_propulsion -> metals_iron-steel: { class: material-edge }
 marine_infrastructure -> metals_iron-steel: { class: material-edge }
+economics-organization_currency -> metals: { class: material-edge }
 
 # ==================== STYLING ====================
 metals.class: domain
@@ -438,6 +442,7 @@ computing_mechanical.class: external
 construction.class: external
 construction_structural-engineering.class: external
 defense.class: external
+economics-organization_currency.class: external
 electrochemistry.class: external
 electrochemistry_anodizing.class: external
 electronics.class: external

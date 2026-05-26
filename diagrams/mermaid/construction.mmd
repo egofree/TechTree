@@ -16,6 +16,7 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     ceramics_lime("Lime Production")
     chemistry_cement("Cement & Concrete")
+    economics-organization_division-of-labor("Division of Labor")
     energy_electricity("Electricity Generation & Distribution")
     foundations("Foundations")
     foundations_tools-basic("Stone & Wood Tools")
@@ -34,6 +35,7 @@ graph TD
     construction_building-materials -.-> foundations_tools-basic
     construction_structural-engineering --> metals_iron-steel
     construction_industrial-buildings -.-> energy_electricity
+    construction_industrial-buildings -.-> economics-organization_division-of-labor
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -55,6 +57,7 @@ graph TD
     class construction_industrial-buildings capability
     class ceramics_lime external
     class chemistry_cement external
+    class economics-organization_division-of-labor external
     class energy_electricity external
     class foundations external
     class foundations_tools-basic external

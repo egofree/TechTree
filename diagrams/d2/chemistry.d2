@@ -146,6 +146,12 @@ cryogenics_air-separation: Cryogenic Air Separation {
 defense: "Defense & Military Engineering" {
   shape: rectangle
 }
+ehs_radiation-safety: Radiation Safety {
+  shape: rectangle
+}
+ehs_toxicology: Toxicology {
+  shape: rectangle
+}
 electrochemistry: "Electrochemistry & Plating" {
   shape: rectangle
 }
@@ -221,7 +227,13 @@ glass_basic: Basic Glass Production {
 health: "Public Health, Sanitation & Medicine" {
   shape: rectangle
 }
+health_diagnostics: Diagnostics {
+  shape: rectangle
+}
 health_occupational-health: "Occupational Health & Industrial Hygiene" {
+  shape: rectangle
+}
+health_pharmaceutical-production: Pharmaceutical Production {
   shape: rectangle
 }
 health_pharmacology: Pharmacology {
@@ -480,6 +492,10 @@ food-processing_preservation -> chemistry_petroleum-alternatives_fermentation: {
 food-processing_brewing -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
 machine-tools_joining_tig-welding -> chemistry_air-separation: { class: material-edge }
 chemistry_packaging-testing -> machine-tools_joining_ultrasonic-bonding: { class: tool-edge }
+health_diagnostics -> chemistry: { class: tool-edge }
+health_pharmaceutical-production -> chemistry_distillation: { class: tool-edge }
+ehs_toxicology -> chemistry: { class: tool-edge }
+ehs_radiation-safety -> chemistry: { class: tool-edge }
 
 # ==================== STYLING ====================
 chemistry.class: domain
@@ -521,6 +537,8 @@ cleanrooms.class: external
 construction.class: external
 cryogenics_air-separation.class: external
 defense.class: external
+ehs_radiation-safety.class: external
+ehs_toxicology.class: external
 electrochemistry.class: external
 electrochemistry_anodizing.class: external
 electrochemistry_electrochemical-processes.class: external
@@ -546,7 +564,9 @@ gas-handling_basic.class: external
 glass.class: external
 glass_basic.class: external
 health.class: external
+health_diagnostics.class: external
 health_occupational-health.class: external
+health_pharmaceutical-production.class: external
 health_pharmacology.class: external
 knowledge.class: external
 knowledge_writing.class: external

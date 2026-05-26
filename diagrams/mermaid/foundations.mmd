@@ -30,6 +30,8 @@ graph TD
     construction("Construction & Structural Engineering")
     construction_building-materials("Building Materials & Methods")
     defense("Defense & Military Engineering")
+    economics-organization("Economics & Organization")
+    economics-organization_division-of-labor("Division of Labor")
     energy_fuels("Fuel Production")
     energy_fuels_charcoal("Charcoal Production")
     food-processing("Food Processing")
@@ -100,6 +102,8 @@ graph TD
     food-processing --> foundations_food-agriculture
     telecom_pre-electric -.-> foundations
     marine -.-> foundations
+    economics-organization -.-> foundations
+    economics-organization_division-of-labor --> foundations_food-agriculture
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -135,6 +139,8 @@ graph TD
     class construction external
     class construction_building-materials external
     class defense external
+    class economics-organization external
+    class economics-organization_division-of-labor external
     class energy_fuels external
     class energy_fuels_charcoal external
     class food-processing external

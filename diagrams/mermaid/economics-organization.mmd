@@ -1,0 +1,90 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Economics & Organization
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph economics-organization_internal ["Economics & Organization — Internal Structure"]
+        direction TB
+        economics-organization_division-of-labor["Division of Labor"]
+        economics-organization_trade["Trade & Barter"]
+        economics-organization_currency["Currency & Standardized Exchange"]
+        economics-organization_accounting["Accounting & Record-Keeping"]
+        economics-organization_supply-chain["Supply Chain Coordination"]
+        economics-organization_governance["Governance & Institutional Design"]
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    economics-organization["Economics & Organization"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    construction_industrial-buildings("Industrial Buildings & Heavy Foundations")
+    defense_siege-warfare("Siege Engineering & Military Logistics")
+    foundations("Foundations")
+    foundations_food-agriculture("Agriculture & Food Production")
+    knowledge("Knowledge Preservation & Education")
+    knowledge_writing("Writing & Record-Keeping")
+    mathematics("Mathematics & Formal Sciences")
+    mathematics_core-mathematics("Core Mathematics")
+    measurement_precision-metrology("Precision Metrology & Standards")
+    metals("Metals")
+    photolithography_fab-processes("Core Fab Processes")
+    transport("Transportation & Logistics")
+
+    %% ==================== EDGES ====================
+    economics-organization_accounting -.-> economics-organization_division-of-labor
+    economics-organization_supply-chain -.-> economics-organization_accounting
+    economics-organization_governance -.-> economics-organization_division-of-labor
+    economics-organization_currency -.-> economics-organization_trade
+    economics-organization_supply-chain -.-> economics-organization_trade
+    economics-organization -.-> foundations
+    economics-organization -.-> knowledge
+    economics-organization -.-> mathematics
+    economics-organization_division-of-labor --> foundations_food-agriculture
+    economics-organization_division-of-labor -.-> knowledge_writing
+    economics-organization_trade -.-> transport
+    economics-organization_trade -.-> knowledge_writing
+    economics-organization_currency --> metals
+    economics-organization_currency -.-> measurement_precision-metrology
+    economics-organization_accounting -.-> mathematics_core-mathematics
+    economics-organization_accounting -.-> knowledge_writing
+    economics-organization_supply-chain -.-> transport
+    economics-organization_supply-chain -.-> knowledge_writing
+    economics-organization_governance -.-> knowledge_writing
+    defense_siege-warfare --> economics-organization_supply-chain
+    construction_industrial-buildings -.-> economics-organization_division-of-labor
+    photolithography_fab-processes -.-> economics-organization_supply-chain
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
+    class economics-organization domain
+    class economics-organization_division-of-labor earlyWin
+    class economics-organization_trade earlyWin
+    class economics-organization_currency capability
+    class economics-organization_accounting capability
+    class economics-organization_supply-chain critical
+    class economics-organization_governance capability
+    class construction_industrial-buildings external
+    class defense_siege-warfare external
+    class foundations external
+    class foundations_food-agriculture external
+    class knowledge external
+    class knowledge_writing external
+    class mathematics external
+    class mathematics_core-mathematics external
+    class measurement_precision-metrology external
+    class metals external
+    class photolithography_fab-processes external
+    class transport external
+    class EdgeLegend,MatNote,ToolNote legend

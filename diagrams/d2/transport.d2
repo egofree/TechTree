@@ -112,6 +112,12 @@ chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry" {
 defense: "Defense & Military Engineering" {
   shape: rectangle
 }
+economics-organization_supply-chain: Supply Chain Coordination {
+  shape: rectangle
+}
+economics-organization_trade: "Trade & Barter" {
+  shape: rectangle
+}
 energy: Energy {
   shape: rectangle
 }
@@ -200,6 +206,8 @@ telecom_electric-telegraph -> transport_telegraph: { class: tool-edge }
 telecom_submarine-cables -> transport_shipping: { class: tool-edge }
 marine -> transport_shipping: { class: tool-edge }
 marine_shipbuilding -> transport_shipping: { class: tool-edge }
+economics-organization_trade -> transport: { class: tool-edge }
+economics-organization_supply-chain -> transport: { class: tool-edge }
 
 # ==================== STYLING ====================
 transport.class: domain
@@ -213,6 +221,8 @@ chemistry_acids.class: external
 chemistry_coatings.class: external
 chemistry_petroleum-alternatives.class: external
 defense.class: external
+economics-organization_supply-chain.class: external
+economics-organization_trade.class: external
 energy.class: external
 energy_electricity.class: external
 energy_engine.class: external

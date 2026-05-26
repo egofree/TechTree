@@ -85,56 +85,18 @@ classes: {
 }
 
 # ==================== INTERNAL NODES ====================
-defense_internal: "Defense & Military Engineering — Internal Structure" {
-  defense_weapons: "Weapons & edged tools"
-  defense_fortifications: Fortification Engineering
-  defense_armor: "Armor & Protective Systems"
-  defense_siege-warfare: "Siege Engineering & Military Logistics"
+software-bootstrapping_internal: " — Internal Structure" {
 }
 
 # ==================== DOMAIN NODE ====================
-defense: "Defense & Military Engineering"
+software-bootstrapping: 
 
 # ==================== EXTERNAL DEPENDENCIES ====================
-chemistry_explosives: Explosives and Propellants {
-  shape: rectangle
-}
-economics-organization_supply-chain: Supply Chain Coordination {
-  shape: rectangle
-}
-foundations: Foundations {
-  shape: rectangle
-}
-knowledge: "Knowledge Preservation & Education" {
-  shape: rectangle
-}
-metals: Metals {
-  shape: rectangle
-}
-transport: "Transportation & Logistics" {
-  shape: rectangle
-}
 
 # ==================== EDGES ====================
-defense -> metals: { class: material-edge }
-defense -> foundations: { class: tool-edge }
-defense -> chemistry_explosives: { class: material-edge }
-defense -> transport: { class: tool-edge }
-defense -> knowledge: { class: tool-edge }
-defense_siege-warfare -> economics-organization_supply-chain: { class: material-edge }
 
 # ==================== STYLING ====================
-defense.class: domain
-defense_weapons.class: capability
-defense_fortifications.class: capability
-defense_armor.class: capability
-defense_siege-warfare.class: capability
-chemistry_explosives.class: external
-economics-organization_supply-chain.class: external
-foundations.class: external
-knowledge.class: external
-metals.class: external
-transport.class: external
+software-bootstrapping.class: domain
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

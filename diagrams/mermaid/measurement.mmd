@@ -17,6 +17,7 @@ graph TD
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry("Chemistry")
     cleanrooms("Clean Room Technology")
+    economics-organization_currency("Currency & Standardized Exchange")
     energy_electricity("Electricity Generation & Distribution")
     energy_electricity_power-systems("Electric Power Systems for Semiconductor Fabrication")
     foundations("Foundations")
@@ -57,6 +58,7 @@ graph TD
     quality-control_inspection-sampling -.-> measurement_precision-metrology
     vacuum -.-> measurement
     vacuum_measurement -.-> measurement
+    economics-organization_currency -.-> measurement_precision-metrology
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -79,6 +81,7 @@ graph TD
     class measurement_optical-instruments capability
     class chemistry external
     class cleanrooms external
+    class economics-organization_currency external
     class energy_electricity external
     class energy_electricity_power-systems external
     class foundations external

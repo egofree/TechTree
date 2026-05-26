@@ -1,0 +1,65 @@
+%%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
+graph TD
+    %% Domain: Software Bootstrapping
+
+    %% ==================== INTERNAL NODES ====================
+    subgraph software-bootstrapping_internal ["Software Bootstrapping — Internal Structure"]
+        direction TB
+        software-bootstrapping_machine-code["Machine Code & Front-Panel Programming"]
+        software-bootstrapping_assemblers["Assemblers, Linkers & Loaders"]
+        software-bootstrapping_compilers["Compiler Construction"]
+        software-bootstrapping_operating-systems["Operating System Construction"]
+        software-bootstrapping_dev-tools["Development Tools & Debugging"]
+        software-bootstrapping_compilers_self-hosting["Self-Hosting Compiler Bootstrap"]
+    end
+
+    %% ==================== DOMAIN NODE ====================
+    software-bootstrapping["Software Bootstrapping"]
+
+    %% ==================== EXTERNAL DEPENDENCIES ====================
+    computing_data-storage("Data Storage Systems")
+    computing_electronic("Electronic Computing")
+    knowledge("Knowledge Preservation & Education")
+    vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
+
+    %% ==================== EDGES ====================
+    software-bootstrapping_assemblers -.-> software-bootstrapping_machine-code
+    software-bootstrapping_compilers -.-> software-bootstrapping_assemblers
+    software-bootstrapping_compilers_self-hosting -.-> software-bootstrapping_compilers
+    software-bootstrapping_operating-systems -.-> software-bootstrapping_assemblers
+    software-bootstrapping_dev-tools -.-> software-bootstrapping_compilers
+    software-bootstrapping_dev-tools -.-> software-bootstrapping_assemblers
+    software-bootstrapping -.-> computing_electronic
+    software-bootstrapping -.-> knowledge
+    software-bootstrapping_machine-code -.-> computing_electronic
+    software-bootstrapping_machine-code -.-> computing_data-storage
+    software-bootstrapping_compilers -.-> knowledge
+    software-bootstrapping_operating-systems -.-> computing_data-storage
+    vlsi-scaling_eda-design -.-> software-bootstrapping_compilers
+
+    %% ==================== EDGE TYPE LEGEND ====================
+    EdgeLegend["Edge Types"]
+    EdgeLegend --> MatNote["──▶ Solid = material prerequisite (physical input consumed)"]
+    EdgeLegend --> ToolNote["- - ▶ Dashed = tool prerequisite (equipment/infrastructure needed)"]
+
+    %% ==================== STYLING ====================
+    classDef domain fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef process fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
+    classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
+    classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
+    class software-bootstrapping domain
+    class software-bootstrapping_machine-code critical
+    class software-bootstrapping_assemblers critical
+    class software-bootstrapping_compilers critical
+    class software-bootstrapping_operating-systems critical
+    class software-bootstrapping_dev-tools capability
+    class software-bootstrapping_compilers_self-hosting critical
+    class computing_data-storage external
+    class computing_electronic external
+    class knowledge external
+    class vlsi-scaling_eda-design external
+    class EdgeLegend,MatNote,ToolNote legend

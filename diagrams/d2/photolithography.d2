@@ -113,6 +113,9 @@ cleanrooms: Clean Room Technology {
 computing_electronic: Electronic Computing {
   shape: rectangle
 }
+economics-organization_supply-chain: Supply Chain Coordination {
+  shape: rectangle
+}
 gas-handling: Gas Handling {
   shape: rectangle
 }
@@ -191,6 +194,7 @@ glass_photomask-substrates -> photolithography_fab-processes: { class: material-
 photolithography -> cleanrooms: { class: tool-edge }
 photolithography -> quality-control: { class: tool-edge }
 photolithography_fab-processes -> vacuum_pumps: { class: tool-edge }
+photolithography_fab-processes -> economics-organization_supply-chain: { class: tool-edge }
 
 # ==================== STYLING ====================
 photolithography.class: domain
@@ -203,6 +207,7 @@ chemistry_dopant-etch-gases.class: external
 chemistry_packaging-testing.class: external
 cleanrooms.class: external
 computing_electronic.class: external
+economics-organization_supply-chain.class: external
 gas-handling.class: external
 gas-handling_vacuum.class: external
 glass_basic.class: external

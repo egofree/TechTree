@@ -102,6 +102,9 @@ chemistry: Chemistry {
 cleanrooms: Clean Room Technology {
   shape: rectangle
 }
+economics-organization_currency: "Currency & Standardized Exchange" {
+  shape: rectangle
+}
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
@@ -174,6 +177,7 @@ quality-control_spc -> measurement: { class: tool-edge }
 quality-control_inspection-sampling -> measurement_precision-metrology: { class: tool-edge }
 vacuum -> measurement: { class: tool-edge }
 vacuum_measurement -> measurement: { class: tool-edge }
+economics-organization_currency -> measurement_precision-metrology: { class: tool-edge }
 
 # ==================== STYLING ====================
 measurement.class: domain
@@ -183,6 +187,7 @@ measurement_electrical-instruments.class: capability
 measurement_optical-instruments.class: capability
 chemistry.class: external
 cleanrooms.class: external
+economics-organization_currency.class: external
 energy_electricity.class: external
 energy_electricity_power-systems.class: external
 foundations.class: external

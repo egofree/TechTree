@@ -111,6 +111,24 @@ chemistry_pulp-chemicals: "Pulp & Paper Chemicals" {
 defense: "Defense & Military Engineering" {
   shape: rectangle
 }
+economics-organization: "Economics & Organization" {
+  shape: rectangle
+}
+economics-organization_accounting: "Accounting & Record-Keeping" {
+  shape: rectangle
+}
+economics-organization_division-of-labor: Division of Labor {
+  shape: rectangle
+}
+economics-organization_governance: "Governance & Institutional Design" {
+  shape: rectangle
+}
+economics-organization_supply-chain: Supply Chain Coordination {
+  shape: rectangle
+}
+economics-organization_trade: "Trade & Barter" {
+  shape: rectangle
+}
 foundations: Foundations {
   shape: rectangle
 }
@@ -181,6 +199,12 @@ telecom -> knowledge_writing: { class: tool-edge }
 telecom_pre-electric -> knowledge_writing: { class: tool-edge }
 marine -> knowledge: { class: tool-edge }
 marine_navigation -> knowledge_writing: { class: tool-edge }
+economics-organization -> knowledge: { class: tool-edge }
+economics-organization_division-of-labor -> knowledge_writing: { class: tool-edge }
+economics-organization_trade -> knowledge_writing: { class: tool-edge }
+economics-organization_accounting -> knowledge_writing: { class: tool-edge }
+economics-organization_supply-chain -> knowledge_writing: { class: tool-edge }
+economics-organization_governance -> knowledge_writing: { class: tool-edge }
 
 # ==================== STYLING ====================
 knowledge.class: domain
@@ -193,6 +217,12 @@ animals_beekeeping.class: external
 chemistry.class: external
 chemistry_pulp-chemicals.class: external
 defense.class: external
+economics-organization.class: external
+economics-organization_accounting.class: external
+economics-organization_division-of-labor.class: external
+economics-organization_governance.class: external
+economics-organization_supply-chain.class: external
+economics-organization_trade.class: external
 foundations.class: external
 foundations_food-agriculture.class: external
 foundations_tools-basic.class: external

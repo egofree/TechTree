@@ -7,11 +7,34 @@
 > **Timeline**: Years 0-20
 > **Outputs**: flour, bran, grits, meal
 
-### Overview
+## Overview
 
 Grain milling converts harvested grain into flour — the single most important food processing operation in civilization. A workforce that eats bread is 2-3x more calorie-efficient than one eating whole-grain porridge. Milling also produces bran (animal feed), grits (coarse meal), and germ (oil source). The progression from hand-powered stone grinding to water-powered millstones to roller milling mirrors the broader energy revolution: each step multiplies throughput by 5-10x while reducing human labor.
 
 This capability begins with stone-age saddle querns (covered in [Agriculture & Food Production](../foundations/food-agriculture.md)) and extends through industrial roller milling. The focus here is on the technological progression beyond hand querns.
+
+## Bill of Materials
+
+### Stone Milling Materials
+
+| Material | Quantity per tonne flour | Source | Alternatives |
+|----------|:-----------------------:|--------|-------------|
+| Wheat grain (clean, dry) | 1.25-1.43 tonnes (70-80% extraction) | [Agriculture](../foundations/food-agriculture.md) | Rye, barley, oats, corn (different flour properties) |
+| Millstones (pair) | 1 pair per mill (1.0-1.5 m diameter) | [Mining](../mining/index.md) — granite, basalt, burrstone | French burrstone (premium), sandstone (soft, wears fast) |
+| Water (tempering) | 100-150 L per tonne grain | [Water](../water/index.md) | Must be clean; 15-16% target moisture |
+| Wire mesh screens | 2-4 sets per mill | [Metals](../metals/index.md) — steel wire | Silk cloth (finer, less durable) |
+
+### Roller Milling Materials (Industrial)
+
+| Material | Quantity per tonne white flour | Source | Alternatives |
+|----------|:-----------------------------:|--------|-------------|
+| Wheat grain | 1.32-1.40 tonnes (72-76% extraction) | [Agriculture](../foundations/food-agriculture.md) | Different grain varieties affect extraction |
+| Roller mill chill iron | 4-8 pairs rollers per mill line | [Metals](../metals/index.md) — cast iron, steel | Stone milling (lower throughput, coarser) |
+| Screens (plansifter) | 20-40 screens per sifter | [Metals](../metals/index.md) — steel wire, nylon | Silk (traditional, less durable) |
+| Electrical energy | 30-50 kWh per tonne wheat | [Energy](../energy/index.md) | Steam engine (via belt drive), water wheel |
+| Water (tempering) | 100-150 L per tonne grain | [Water](../water/index.md) | Moisture must reach 15-16% before milling |
+
+## Process Description
 
 ### Milling Technology Progression
 
@@ -41,7 +64,7 @@ Water wheel (undershot or overshot) drives millstones through gear train. The fi
 
 - **Power**: 1-5 HP depending on water flow and wheel diameter
 - **Output**: 50-200 kg flour/hour
-- **Overshot wheel**: Water flows over the top of the wheel. Efficiency 60-70%. Requires a headrace (eleviated water channel). 2-4 m diameter wheel.
+- **Overshot wheel**: Water flows over the top of the wheel. Efficiency 60-70%. Requires a headrace (elevated water channel). 2-4 m diameter wheel.
 - **Undershot wheel**: Water flows under the wheel. Efficiency 20-30%. Simpler construction. Works with any flowing water.
 - **Gear train**: Wooden cog wheels (later iron) convert horizontal wheel rotation to vertical millstone rotation. Gear ratio typically 3:1 to 5:1.
 - **Millstone pairs**: "Bedstone" (fixed lower stone, 1.0-1.5 m diameter) and "runner" (rotating upper stone). Grooves (called "lands" and "furrows") cut into faces channel grain from center to edge, progressively grinding finer.
@@ -83,23 +106,104 @@ Cast iron or steel rollers replace millstones. Each pair of rollers has progress
 | Semolina | N/A | 150-500 μm | Yellow | Pasta, couscous |
 | Bran | N/A | >500 μm | Brown | Animal feed, fiber |
 
-### Safety and Quality
+### Baking (Flour's Primary Use)
+
+Bread is the primary use of flour and the staple calorie source for industrial workforces:
+
+- **Leavened bread**: Wheat flour + water + yeast (Saccharomyces cerevisiae) + salt. Knead 10-15 minutes to develop gluten network. Ferment (proof) 1-2 hours at 25-30°C until doubled in volume. Shape, proof again 30-60 minutes. Bake at 200-230°C for 25-45 minutes depending on loaf size.
+- **Sourdough**: Wild yeast + Lactobacillus culture maintained from previous batch. More complex flavor, lower pH (4.0-4.5) provides natural preservation. Culture fed daily with equal weight flour and water.
+- **Flatbread (unleavened)**: Flour + water + salt, rolled thin, cooked on hot surface (griddle, stone, or pan) 1-3 minutes per side. Simplest, fastest bread. Examples: tortilla, chapati, pita. No yeast required.
+- **Oven design**: Beehive oven (brick dome, 60-100 cm diameter). Heat with wood fire for 2-3 hours until dome is white-hot. Remove coals, mop floor. Bake bread using stored heat (temperature declining from 300°C to 180°C over 1-2 hours). A single firing can bake 20-50 loaves in sequence.
+- **Flour requirement**: A workforce of 100 people needs ~30-40 kg flour/day (assuming 300-400 g bread per person). This requires milling 40-55 kg wheat/day, achievable with a single water-powered mill running 2-3 hours/day.
+
+### Grain Storage Before Milling
+
+Proper grain storage is critical to prevent losses between harvest and milling:
+
+- **Moisture content**: Must be below 14% for safe storage. Above 15%, mold (Aspergillus) grows and produces aflatoxin. Above 18%, spontaneous heating occurs from microbial respiration.
+- **Drying methods**: Sun drying on hard surfaces (concrete, stone) for 2-3 days. Grain depth <10 cm, turned 2-3 times daily. Mechanical drying: forced air at 40-60°C through grain bed. Temperature must stay below 60°C or grain cracks (reduced milling quality).
+- **Storage structures**: Elevated granaries (rodent protection), sealed containers (insect protection), or bulk bins with controlled atmosphere. Fumigation with carbon dioxide (60% CO₂ for 4+ days) kills all insect life stages without chemical residues.
+- **Storage losses**: Typical 5-15% losses in developing-world storage due to insects (weevils, borers), rodents, and mold. Proper storage reduces this to <2%.
+- **Quality testing before milling**: Visual inspection (mold, insect damage, foreign material). Moisture meter reading. Test weight (heavier grain = plumper kernels = more flour). Falling number test (measures α-amylase activity — too high indicates sprouting damage).
+
+## Quantitative Parameters
+
+### Milling Throughput by Technology Stage
+
+| Stage | Power Source | Output (kg flour/hour) | Extraction Rate | Labor (persons) | Energy Input |
+|:-----:|:-----------:|:---------------------:|:---------------:|:---------------:|:------------:|
+| Rotary quern | Human (~100 W) | 1-5 | 95-100% (whole grain) | 1 | 0.1 kW (sustained) |
+| Animal mill | Horse/ox (0.5-1 HP) | 10-50 | 85-95% | 1 | 0.5-1 kW |
+| Water mill | Water wheel (1-5 HP) | 50-200 | 70-80% | 1-2 | 1-5 kW |
+| Wind mill | Wind sails (2-10 HP) | 100-500 | 70-80% | 1-2 | 2-10 kW (intermittent) |
+| Roller mill | Steam/electric (30-50 HP) | 200-2000 | 72-76% (white) | 3-5 | 25-40 kW |
+
+### Flour Particle Size and Screen Specifications
+
+| Fraction | Particle Size (μm) | Screen Mesh | Typical Yield (%) | Primary Use |
+|----------|:------------------:|:-----------:|:-----------------:|:-----------:|
+| Patent flour | <150 | 100 mesh | 40-60 | Bread, pastry |
+| Clear flour | 150-180 | 80 mesh | 15-25 | General baking |
+| Fine semolina | 180-320 | 50 mesh | 5-10 | Pasta |
+| Coarse semolina | 320-560 | 30 mesh | 3-5 | Couscous |
+| Middlings | 500-860 | 20 mesh | 2-5 | Re-mill or animal feed |
+| Fine bran | 860-1320 | 14 mesh | 3-5 | Animal feed |
+| Coarse bran | >1320 | — | 10-15 | Animal feed, fiber |
+
+### Millstone Dressing Parameters
+
+| Parameter | Specification | Notes |
+|-----------|:------------:|:-----:|
+| Furrow depth (center) | 3-8 mm | Tapers to 1-2 mm at edge |
+| Furrow angle to tangent | 15-25° | Quarter dress pattern |
+| Stone diameter | 1.0-1.5 m | Larger = higher throughput |
+| Runner RPM | 80-120 | Faster = finer but hotter |
+| Dressing frequency (sandstone) | 2-4 weeks | Soft stone wears fast |
+| Dressing frequency (granite) | 2-3 months | Hard stone wears slowly |
+| Dressing time per pair | 4-8 hours | Skilled stone dresser required |
+
+### Grain Storage Parameters
+
+| Parameter | Safe Range | Failure Mode if Exceeded |
+|-----------|:----------:|:------------------------:|
+| Moisture content | <14% | Mold growth, aflatoxin production above 15% |
+| Storage temperature | <20°C | Accelerated insect reproduction above 25°C |
+| Storage duration | <12 months | Nutrient degradation, flavor loss after 12 months |
+| Grain depth (drying) | <10 cm | Uneven drying, mold in center |
+| Mechanical drying temp | 40-60°C | Grain cracking above 60°C |
+
+## Scaling Notes
+
+- **Household mill** (5-20 kg/day): Rotary quern operated by one person. Sufficient for a family's daily bread. Labor: 2-4 hours daily grinding. No external power required. Output: 1-5 kg/hour.
+- **Village mill** (50-200 kg/day): Water or animal-powered stone mill. Serves 50-200 people. One miller operates the mill; community members bring grain. Requires water source (stream with 1+ m head) or draft animal. Millstones need dressing every 2-8 weeks.
+- **Regional mill** (1-5 tonnes/day): Multiple water or wind mills, or a single small roller mill (steam-powered). Serves a town of 1,000-5,000 people. Requires permanent water infrastructure or reliable wind. Roller mill requires 25-40 kW steam or electric power.
+- **Industrial mill** (50-500 tonnes/day): Multiple roller mill lines with automated grain handling, tempering, and sifting. 3-5 roller lines, each producing 10-100 tonnes/day. Requires 500-2500 kW electrical power and rail or truck grain delivery infrastructure. 20-100 workers per shift.
+- **Key scaling constraint**: The stone dresser is the critical skilled worker for stone mills. Without regular dressing, millstone grinding efficiency drops 30-50% in weeks. For roller mills, the plansifter (vibrating screen) is the bottleneck — screen capacity determines maximum throughput per milling line.
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Flour too coarse | Worn millstone grooves, roller gap too wide, grain feed too fast | Dress millstones. Tighten roller gap. Reduce grain feed rate via hopper adjustment |
+| Flour too hot (>55°C) | Excessive friction from worn stones, roller speed too high, insufficient cooling | Dress stones. Reduce RPM. Add water cooling to roller mill. Check bearing lubrication |
+| Low extraction rate | Screens clogged, grain moisture too low (shatters), bran not fully separated | Clean screens. Temper grain to 15-16% moisture. Increase number of break passes |
+| Grain shatters to powder | Grain moisture <12%, roller gap too small on first break | Temper grain to 15-16% (8-24 hours). Widen first break gap to ~0.5 mm |
+| Flour contains grit | Porous millstone shedding, foreign material in grain | Switch to harder, less porous stone. Clean grain before milling (winnowing, sieving) |
+| Insect infestation in stored flour | Mediterranean flour moth, weevils — poor storage conditions | Store in sealed containers. Fumigate with CO₂ (60% for 4+ days). Keep below 15°C |
+| Bran specks in white flour | Incomplete sifting, torn screens, purifier airflow too low | Replace torn screens. Increase purifier air velocity. Add extra sifting pass |
+| Mill vibration (stone mill) | Unbalanced runner stone, worn bearings, uneven stone wear | Check stone balance (rotate empty, observe wobble). Replace bearings. Re-dress stones |
+| Flour rancidity | Wheat germ oil oxidizing — high extraction flour stored too long | Separate germ during milling (store separately under refrigeration). Use whole wheat flour within 2-3 months |
+
+## Safety
 
 - **Milling temperature**: Stone mills generate friction heat. Flour temperature must stay below 55°C or gluten proteins denature. Water cooling on roller mills maintains 25-35°C.
 - **Moisture control**: Grain must be tempered to 15-16% moisture before milling. Too dry = shatters into fine powder (no separation). Too wet = clogs screens. Tempering time: 8-24 hours.
 - **Insect contamination**: Mediterranean flour moth (Ephestia kuehniella) is the primary pest. Flour must be sifted and stored in sealed containers. Phosphine fumigation for infestations (requires careful ventilation — phosphine is lethal).
-- **Aflatoxin risk**: Mold-contaminated grain (Aspergillus flavus) produces aflatoxin, a potent carcinogen. Grain must be visually inspected and moisture-kept below 13% for storage. UV fluorescence screening detects contaminated lots.
+- **Aflatoxin risk**: Mold-contaminated grain (Aspergillus flavus) produces aflatoxin, a potent carcinogen. Grain must be visually inspected and moisture kept below 13% for storage. UV fluorescence screening detects contaminated lots.
+- **Flour dust explosion**: Flour dust is explosive at concentrations of 40-60 g/m³ in air. All electrical equipment in mills must be explosion-proof. Dust collection systems (cyclone separators + bag filters) are mandatory. Ignition sources (sparks, static, open flames) must be eliminated. Historical flour mill explosions were a major industrial hazard.
+- **Rotating machinery**: Roller mills and millstones have powerful rotating components. Guard all belt drives and gear trains. Emergency stop mechanism accessible from operator position. Never reach into a running roller mill.
 
-### Dependency Chain
-
-Milling depends on:
-- **[foundations.food-agriculture](../foundations/food-agriculture.md)**: Grain cultivation provides the raw material
-- **[energy](../energy/index.md)**: Water/wind/steam power drives the millstones or rollers
-- **[metals](../metals/index.md)**: Iron/steel for roller mills, gear trains, and wire screens
-
-Milling enables:
-- **[Baking](#)** (implicit in food processing): Flour is the primary input for bread, the staple calorie source
-- **[Brewing](brewing.md)**: Malted grain (sprotten then dried) requires milling to expose starches for mashing
+## Quality Control
 
 ### Millstone Dressing and Maintenance
 
@@ -122,26 +226,6 @@ Converting water wheel or wind shaft rotation to millstone rotation requires a p
 - **Bearings**: Wooden bearing blocks lubricated with tallow (simple, needs frequent replacement). Babbitt metal bearings (tin-antimony-copper alloy) for iron shafts — much longer lasting, still require oil lubrication.
 - **Power losses**: Typical 15-25% power loss through gear friction and belt slip in a well-maintained mill. Poorly maintained mills lose 40-60%.
 
-### Baking (Flour's Primary Use)
-
-Bread is the primary use of flour and the staple calorie source for industrial workforces:
-
-- **Leavened bread**: Wheat flour + water + yeast (Saccharomyces cerevisiae) + salt. Knead 10-15 minutes to develop gluten network. Ferment (proof) 1-2 hours at 25-30°C until doubled in volume. Shape, proof again 30-60 minutes. Bake at 200-230°C for 25-45 minutes depending on loaf size.
-- **Sourdough**: Wild yeast + Lactobacillus culture maintained from previous batch. More complex flavor, lower pH (4.0-4.5) provides natural preservation. Culture fed daily with equal weight flour and water.
-- **Flatbread (unleavened)**: Flour + water + salt, rolled thin, cooked on hot surface (griddle, stone, or pan) 1-3 minutes per side. Simplest, fastest bread. Examples: tortilla, chapati, pita. No yeast required.
-- **Oven design**: Beehive oven (brick dome, 60-100 cm diameter). Heat with wood fire for 2-3 hours until dome is white-hot. Remove coals, mop floor. Bake bread using stored heat (temperature declining from 300°C to 180°C over 1-2 hours). A single firing can bake 20-50 loaves in sequence.
-- **Flour requirement**: A workforce of 100 people needs ~30-40 kg flour/day (assuming 300-400 g bread per person). This requires milling 40-55 kg wheat/day, achievable with a single water-powered mill running 2-3 hours/day.
-
-### Grain Storage Before Milling
-
-Proper grain storage is critical to prevent losses between harvest and milling:
-
-- **Moisture content**: Must be below 14% for safe storage. Above 15%, mold (Aspergillus) grows and produces aflatoxin. Above 18%, spontaneous heating occurs from microbial respiration.
-- **Drying methods**: Sun drying on hard surfaces (concrete, stone) for 2-3 days. Grain depth <10 cm, turned 2-3 times daily. Mechanical drying: forced air at 40-60°C through grain bed. Temperature must stay below 60°C or grain cracks (reduced milling quality).
-- **Storage structures**: Elevated granaries (rodent protection), sealed containers (insect protection), or bulk bins with controlled atmosphere. Fumigation with carbon dioxide (60% CO₂ for 4+ days) kills all insect life stages without chemical residues.
-- **Storage losses**: Typical 5-15% losses in developing-world storage due to insects (weevils, borers), rodents, and mold. Proper storage reduces this to <2%.
-- **Quality testing before milling**: Visual inspection (mold, insect damage, foreign material). Moisture meter reading. Test weight (heavier grain = plumper kernels = more flour). Falling number test (measures α-amylase activity — too high indicates sprouting damage).
-
 ### Byproducts and Waste Utilization
 
 Milling produces valuable byproducts beyond flour:
@@ -151,3 +235,17 @@ Milling produces valuable byproducts beyond flour:
 - **Middlings**: Intermediate particles between flour and bran. Used for animal feed or re-milled. Sometimes marketed as "farina" or "cream of wheat" for porridge.
 - **Mill screen waste**: Oversize particles caught on final screen. Can be re-milled or fed to livestock.
 - **Dust**: Flour dust is explosive. Minimum explosive concentration: 40-60 g/m³. All electrical equipment in mills must be explosion-proof. Dust collection systems (cyclone separators + bag filters) are mandatory. Historical flour mill explosions were a major industrial hazard.
+
+## References
+
+- [Foundations: Food & Agriculture](../foundations/food-agriculture.md) — grain cultivation provides the raw material
+- [Energy](../energy/index.md) — water/wind/steam power drives the millstones or rollers
+- [Metals](../metals/index.md) — iron/steel for roller mills, gear trains, and wire screens
+- [Brewing & Distilling](brewing.md) — malted grain requires milling to expose starches for mashing
+- [Food Fermentation](fermentation.md) — sourdough bread uses fermented flour
+- [Ceramics](../ceramics/index.md) — grain storage vessels
+- [Machine Tools](../machine-tools/index.md) — precision machining for roller mill components
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*

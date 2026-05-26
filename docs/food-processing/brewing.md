@@ -7,11 +7,44 @@
 > **Timeline**: Years 0-25+
 > **Outputs**: beer, wine, spirits, industrial_ethanol, spent_grain, vinegar
 
-### Overview
+## Overview
 
 Brewing and distilling are the earliest industrial biotechnology. Beer and wine were historically safer to drink than water (the ethanol and low pH kill pathogens), making them workforce fuel rather than luxury goods. Distillation produces concentrated spirits (water purification: whiskey, brandy, rum) and industrial ethanol (solvent, fuel, chemical feedstock). The same fermentation knowledge that produces beer and wine also produces vinegar (acetic acid), a critical food preservative and cleaning agent.
 
 For industrial fermentation chemistry (ethanol, acetone, butanol as chemical feedstocks), see [Chemistry: Fermentation](../chemistry/fermentation.md). This document covers the food and beverage side of fermentation.
+
+## Bill of Materials
+
+### Beer Brewing Materials
+
+| Material | Quantity per 100 L beer (5% ABV) | Source | Alternatives |
+|----------|:---------------------------------:|--------|-------------|
+| Malted barley | 20-25 kg | [Agriculture](../foundations/food-agriculture.md) | Wheat malt, rye malt |
+| Hops (dried) | 100-300 g | [Agriculture](../foundations/food-agriculture.md) | Herbal bittering (gruit: wormwood, yarrow, heather) |
+| Water (brewing liquor) | 120-150 L | [Water](../water/index.md) | Must be potable and chlorine-free |
+| Yeast (S. cerevisiae) | 5-15 g dry or 0.5-1.0 L starter | Propagated from previous batch | Wild yeast capture (variable results) |
+| Calcium sulfate (gypsum) | 50-150 g | [Mining](../mining/index.md) | Calcium chloride (CaCl₂) — different ion profile |
+| Cleaning sanitizer | 50-100 mL 5% solution | [Chemistry](../chemistry/index.md) | Boiling water or steam |
+
+### Wine Making Materials
+
+| Material | Quantity per 100 L wine (12% ABV) | Source | Alternatives |
+|----------|:---------------------------------:|--------|-------------|
+| Grapes (fresh) | 130-170 kg | [Agriculture](../foundations/food-agriculture.md) | Other fruit (apples, plums, berries) |
+| Wine yeast (S. cerevisiae) | 10-25 g dry | Commercial or propagated | Wild yeast on grape skins (unpredictable) |
+| Sulfur dioxide (Campden tablets) | 5-10 g | [Chemistry](../chemistry/index.md) | Pasteurization for stabilization |
+| Oak barrels (optional) | 1-4 barrels (225 L each) | [Forestry](../plants/index.md) | Stainless steel tanks (no oak character) |
+
+### Distilling Materials
+
+| Material | Quantity per L spirit (40% ABV) | Source | Alternatives |
+|----------|:-------------------------------:|--------|-------------|
+| Fermented wash (8-10% ABV) | 5.0-6.0 L | Produced on-site from grain or fruit | Sugar wash (molasses, cane juice) |
+| Copper (still construction) | 2-5 kg per 100 L still | [Metals](../metals/index.md) | Stainless steel (no sulfur removal) |
+| Cooling water | 200-500 L per distillation run | [Water](../water/index.md) | Recirculated with cooling tower |
+| Oak barrels (aging, whiskey) | 1 barrel per 200 L | [Forestry](../plants/index.md) | Stainless steel (unaged spirit) |
+
+## Process Description
 
 ### Beer Brewing
 
@@ -98,26 +131,97 @@ Ethanol for industrial use (solvent, fuel, chemical feedstock) follows the same 
 - **Denaturing**: Add bitterant (denatonium benzoate, 10 ppm) or toxicant (methanol, 5-10%) to prevent human consumption of industrial ethanol. Denatured spirits ("denatured alcohol") is tax-exempt in most jurisdictions.
 - **Fuel ethanol**: Blended with gasoline at 10-85% (E10 to E85). Requires anhydrous ethanol (<0.5% water) to prevent phase separation.
 
-### Safety
+### Vinegar Production
+
+Vinegar (acetic acid 5-8% in water) is produced by aerobic oxidation of ethanol by Acetobacter bacteria:
+
+- **Orleans method** (traditional): Fill barrels 2/3 with wine/cider. Inoculate with vinegar mother (Acetobacter culture). Leave 1-3 months with air access. Surface fermentation — bacteria form a pellicle on the liquid surface.
+- **Generator method** (faster): Trickling generator — alcohol solution percolates through beechwood shavings inoculated with Acetobacter. Air flows upward. 5-10× faster than Orleans method.
+- **Submerged culture** (industrial): Forced aeration in stainless steel tanks at 28-32°C. 20-40 hour cycle. Most efficient. Acetic acid concentration reaches 12-15%.
+- **Distilled white vinegar**: 5% acetic acid from grain alcohol. Standard for pickling and cleaning.
+- **Apple cider vinegar**: 5-6% acetic acid from hard cider. Popular for food use.
+- **Cleaning application**: 5% acetic acid solution kills 80-90% of bacteria and 90%+ of mold on surfaces. Food-safe disinfectant for dairy and brewing equipment.
+
+## Quantitative Parameters
+
+### Fermentation Yields and Efficiency
+
+| Product | Feedstock | Yield (L product per kg feedstock) | ABV | Primary Process Temperature |
+|---------|-----------|:----------------------------------:|:---:|:---------------------------:|
+| Ale beer | Malted barley | 3.0-3.5 L/kg | 4-6% | 15-22°C |
+| Lager beer | Malted barley | 3.0-3.5 L/kg | 4-5% | 8-14°C |
+| Wine (grape) | Grapes | 0.60-0.70 L/kg | 11-15% | 15-30°C |
+| Whiskey (pot still) | Grain mash | 0.30-0.40 L/kg | 65-80% (distillate) | 85-95°C (distillation) |
+| Neutral spirits (column) | Grain/sugar | 0.35-0.45 L/kg | 95.6% (max) | 78-100°C (distillation) |
+| Vinegar (submerged) | Wine/cider | 0.90-0.95 L/L | 5-15% acetic acid | 28-32°C |
+
+### Mashing Temperature Ranges and Effects
+
+| Temperature Range | Enzyme Active | Effect on Wort |
+|:-----------------:|:-------------:|:--------------|
+| 45-55°C | Proteases | Protein breakdown → amino acids (yeast nutrients) |
+| 60-65°C | β-amylase | Maltose production → dry, attenuated beer |
+| 68-72°C | α-amylase | Dextrin production → full body, less fermentable |
+| 76-78°C | None (mash-out) | Denatures all enzymes, fixes sugar profile |
+
+### Distillation Cut Points
+
+| Fraction | Temperature Range | ABV | Composition | Disposition |
+|----------|:-----------------:|:---:|-------------|:-----------:|
+| Foreshots/heads | 64-78°C | 80-95% | Methanol, acetone, ethyl acetate | Discard (toxic) |
+| Hearts | 78-82°C | 65-80% | Clean ethanol | Product |
+| Tails | 82-95°C | 5-40% | Fusel alcohols, fatty acids | Redistill or discard |
+
+### Wort Gravity and Alcohol Calculations
+
+| Parameter | Symbol | Typical Range | Formula |
+|-----------|:------:|:-------------:|---------|
+| Original gravity | OG | 1.040-1.080 | Measured by hydrometer before fermentation |
+| Final gravity | FG | 1.008-1.015 | Measured by hydrometer after fermentation |
+| Alcohol by volume | ABV | 4-6% (beer), 11-15% (wine) | (OG - FG) × 131.25 |
+| Apparent attenuation | AA | 70-80% (ale), 75-85% (lager) | (OG - FG) / (OG - 1.000) × 100 |
+| Degrees Plato | °P | 10-20°P | °P ≈ (SG - 1) × 1000 / 4 |
+
+## Scaling Notes
+
+- **Home brewing** (20-50 L batch): Single vessel for mashing and boiling (brew-in-a-bag or mash tun + kettle). Ferment in food-grade bucket or glass carboy. Manual siphoning. Labor: 4-6 hours per batch (brew day) + passive fermentation. Throughput: 20-50 L every 2-4 weeks.
+- **Community brewery** (200-1000 L): Separate mash tun, boil kettle, and fermenters. Gravity-fed or pumped transfer. Multiple fermenters staged at different phases. Labor: 2-3 workers for 6-8 hours per brew session. Throughput: 200-500 L/week.
+- **Industrial brewery** (10,000-100,000+ L/year): Automated mashing, whirlpool, heat exchangers, cylindroconical fermenters with glycol jacket temperature control. Continuous bottling or kegging line. Throughput: 5,000-50,000 L/week. Key scaling issue: fermentation temperature control — a 10,000 L fermenter produces 670 MJ of heat during active fermentation, requiring 15-30 kW cooling capacity.
+- **Distillery scaling**: Pot stills scale linearly (larger pot = more product per run). Column stills are inherently continuous and scale by diameter. A 0.3 m diameter column produces ~50 L/hour; a 1.0 m column produces ~500 L/hour. Copper requirement scales proportionally — catalytic surface area must remain proportional to throughput.
+- **Energy budget**: Mashing requires 2-3 MJ/L (heating water and grain to 65-78°C). Boiling requires 1-2 MJ/L (maintaining rolling boil for 60-90 minutes). Distillation requires 5-10 MJ/L ethanol (latent heat of vaporization + column losses). Total energy for a brewery-distillery: 8-15 MJ/L of finished product.
+- **Water consumption**: Brewing uses 3-7 L water per L beer (including cleaning, cooling, and sparging). Distillation adds 2-5 L cooling water per L distillate. Water reclamation via cooling towers reduces consumption by 60-80%.
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Stuck fermentation (gravity stalls) | Yeast underpitched, temperature too low, nutrient deficiency | Re-pitch with fresh yeast at 18-20°C. Add yeast nutrient (diammonium phosphate at 200 mg/L). Ensure temperature within yeast strain range |
+| Off-flavor: buttery (diacetyl) | Insufficient diacetyl rest, premature cooling | Raise to 15-18°C for 2-3 days near end of fermentation (diacetyl rest). Extend conditioning |
+| Off-flavor: sour/acidic | Bacterial contamination (Lactobacillus, Acetobacter) | Improve sanitation. Replace airlock fluid. Discard batch if pH <3.0. Sanitize equipment with boiling water |
+| Cloudy beer (chill haze) | Protein-polyphenol complex at cold temperatures | Use Irish moss (carrageenan, 5 g at 15 min left in boil). Cold condition at 0-2°C for 2+ weeks |
+| Low alcohol (high final gravity) | Incomplete fermentation, mash too hot (excess dextrins) | Ensure mash temperature accuracy ±1°C. Use highly attenuating yeast strain. Extend fermentation |
+| Excess foaming (boilover) | Proteins and hops cause foam, heat too high | Use larger kettle (minimum 20% headspace). Reduce heat to gentle roll. Add hops gradually |
+| Methanol in spirits | Foreshots not properly discarded | Always discard first 2-5% of distillate. Never shortcut this cut. Foreshots volume: 20-50 mL per 100 L wash |
+| Low distillation yield | Insufficient fermentation, leaks in still, poor cuts | Verify wash ABV before distilling (target 8-10%). Check all joints and seals. Make tighter cuts |
+| Vinegar not forming | Acetobacter not established, temperature too low | Inoculate with raw vinegar mother. Maintain 25-30°C. Ensure air access (Acetobacter is aerobic) |
+
+## Safety
 
 - **Methanol poisoning**: Methanol (wood alcohol) is metabolized to formaldehyde and formic acid, causing blindness and death. Dose: 10 mL pure methanol can cause blindness, 30-100 mL can be fatal. **Never consume the foreshots/heads fraction of any distillation.**
 - **Botulism in home brewing**: Improperly sealed home-canned beer or wine can grow C. botulinum. Maintain proper acidity (pH <4.6) and sanitary conditions.
 - **Acetone and fusel alcohols**: Higher alcohols (propanol, butanol, amyl alcohol) in tails cause severe headaches and nausea. Proper cuts during distillation are essential.
 - **Pressure in stills**: Pot stills must have pressure relief valves. Column stills operate at slight positive pressure. Overpressure can cause explosion. Never block a still outlet.
 - **Fire hazard**: Ethanol vapor is flammable at 3.3-19% concentration in air. Distillation areas must be well-ventilated. No open flames near stills.
+- **CO₂ asphyxiation**: Fermentation produces CO₂ (2 mol per mol glucose). In enclosed spaces, CO₂ accumulates at floor level (density 1.98 kg/m³ vs. air 1.29 kg/m³). Ventilation: minimum 5 air changes per hour for commercial fermentation rooms. CO₂ monitors at floor level mandatory. Evacuate at >5,000 ppm (0.5%).
 
-### Dependency Chain
+## Quality Control
 
-Brewing depends on:
-- **[chemistry.petroleum-alternatives.fermentation](../chemistry/fermentation.md)**: Fermentation chemistry, yeast biology, process control
-- **[energy](../energy/index.md)**: Heat for mashing, boiling, distillation, and cooling/refrigeration
-- **[food-processing.milling](milling.md)**: Grain crushing for mashing
-- **[ceramics](../ceramics/index.md)**: Fermentation vessels, aging barrels (wood), storage amphorae
+### Quality Control in Brewing
 
-Brewing enables:
-- **Industrial ethanol**: Feedstock for chemical industry (see [Chemistry: Fermentation](../chemistry/fermentation.md))
-- **Vinegar production**: Exposed beer/wine oxidizes to vinegar (acetic acid 5-8%), a food preservative and cleaning agent
-- **Spent grain**: Nutritious animal feed (high fiber, protein, moisture — must be fed fresh or dried to prevent mold)
+- **pH monitoring**: Mash pH must be 5.2-5.6 for optimal enzyme activity. Adjust with calcium salts (gypsum CaSO₄ at 100-300 mg/L, or calcium chloride CaCl₂ at 100-200 mg/L). Beer pH after fermentation: 3.8-4.4. pH >4.6 indicates incomplete fermentation or contamination.
+- **Microbiological testing**: Plate counts for wild yeast and bacteria. Lactic acid bacteria (Lactobacillus, Pediococcus) cause souring. Acetobacter produces vinegar. Wild yeast (Brettanomyces) produces barnyard flavors (desired in some Belgian styles, fault in most others).
+- **Diacetyl test**: Diacetyl (2,3-butanedione) produces a buttery flavor. Formed during fermentation, reabsorbed by yeast during conditioning. Diacetyl rest: raise temperature to 15-18°C for 2-3 days near end of fermentation. Test: heat sample to 60°C for 10 min, cool, smell for butter. If present, extend diacetyl rest.
+- **Carbonation**: Target 2.2-2.8 volumes CO₂ for most ales (1 volume = 1 L CO₂ per L beer at STP). Force carbonation at 10-15 psi at 4°C. Natural carbonation via priming sugar at 4-5 g/L.
 
 ### Fermentation Biochemistry
 
@@ -138,20 +242,17 @@ Glucose → 2 ethanol + 2 carbon dioxide + energy (for yeast)
 - **Alcohol by volume (ABV)**: ABV ≈ (OG - FG) × 131.25. Example: OG 1.050, FG 1.012 → ABV = (1.050 - 1.012) × 131.25 = 4.99%.
 - **Attenuation**: Percentage of sugars consumed. (OG - FG)/(OG - 1) × 100. Typical ale: 70-80%. High attenuation = dry beer. Low attenuation = sweet, full-bodied.
 
-### Quality Control in Brewing
+## References
 
-- **pH monitoring**: Mash pH must be 5.2-5.6 for optimal enzyme activity. Adjust with calcium salts (gypsum CaSO₄ at 100-300 mg/L, or calcium chloride CaCl₂ at 100-200 mg/L). Beer pH after fermentation: 3.8-4.4. pH >4.6 indicates incomplete fermentation or contamination.
-- **Microbiological testing**: Plate counts for wild yeast and bacteria. Lactic acid bacteria (Lactobacillus, Pediococcus) cause souring. Acetobacter produces vinegar. Wild yeast (Brettanomyces) produces barnyard flavors (desired in some Belgian styles, fault in most others).
-- **Diacetyl test**: Diacetyl (2,3-butanedione) produces a buttery flavor. Formed during fermentation, reabsorbed by yeast during conditioning. Diacetyl rest: raise temperature to 15-18°C for 2-3 days near end of fermentation. Test: heat sample to 60°C for 10 min, cool, smell for butter. If present, extend diacetyl rest.
-- **Carbonation**: Target 2.2-2.8 volumes CO₂ for most ales (1 volume = 1 L CO₂ per L beer at STP). Force carbonation at 10-15 psi at 4°C. Natural carbonation via priming sugar at 4-5 g/L.
+- [Food Fermentation](fermentation.md) — broader fermentation biology, lactic acid fermentation
+- [Food Preservation](preservation.md) — vinegar as preservative, pasteurization
+- [Grain Milling](milling.md) — malt crushing for mashing
+- [Dairy Processing](dairy.md) — pasteurization of milk and dairy products
+- [Chemistry: Fermentation](../chemistry/fermentation.md) — industrial ethanol, solvent fermentation
+- [Ceramics](../ceramics/index.md) — fermentation vessels, storage amphorae
+- [Energy](../energy/index.md) — heat for mashing, boiling, distillation
+- [Health & Sanitation](../health/sanitation.md) — microbiology, food safety
 
-### Vinegar Production
+---
 
-Vinegar (acetic acid 5-8% in water) is produced by aerobic oxidation of ethanol by Acetobacter bacteria:
-
-- **Orleans method** (traditional): Fill barrels 2/3 with wine/cider. Inoculate with vinegar mother (Acetobacter culture). Leave 1-3 months with air access. Surface fermentation — bacteria form a pellicle on the liquid surface.
-- **Generator method** (faster): Trickling generator — alcohol solution percolates through beechwood shavings inoculated with Acetobacter. Air flows upward. 5-10× faster than Orleans method.
-- **Submerged culture** (industrial): Forced aeration in stainless steel tanks at 28-32°C. 20-40 hour cycle. Most efficient. Acetic acid concentration reaches 12-15%.
-- **Distilled white vinegar**: 5% acetic acid from grain alcohol. Standard for pickling and cleaning.
-- **Apple cider vinegar**: 5-6% acetic acid from hard cider. Popular for food use.
-- **Cleaning application**: 5% acetic acid solution kills 80-90% of bacteria and 90%+ of mold on surfaces. Food-safe disinfectant for dairy and brewing equipment.
+*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*

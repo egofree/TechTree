@@ -7,9 +7,33 @@
 > **Timeline**: Years 0-20
 > **Outputs**: butter, cheese, cream, yogurt, whey, ghee
 
-### Overview
+## Overview
 
 Dairy processing converts raw milk — one of the most perishable foods (spoils in 4-6 hours at room temperature) — into stable, protein-rich products with shelf lives measured in weeks to months. A single dairy cow produces 15-25 liters of milk per day. Without processing, this bounty rots within hours. With processing, it becomes butter (weeks), cheese (months), or ghee (years). Cheese is perhaps the most calorie-efficient preservation method: 10 liters of milk (34 MJ) yields ~1 kg cheese (17 MJ) with months of shelf life and no refrigeration required.
+
+Dairy depends on [ceramics](../ceramics/index.md) for storage vessels and cheese molds, [health.sanitation](../health/index.md) for hygiene protocols, and [foundations.food-agriculture](../foundations/food-agriculture.md) for animal domestication and management.
+
+## Bill of Materials
+
+### Cheese Making Materials
+
+| Material | Quantity per 10 kg cheese | Source | Alternatives |
+|----------|:------------------------:|--------|-------------|
+| Whole milk | 100-120 L (cow) | [Agriculture](../foundations/food-agriculture.md) | Goat milk (8-10 L/kg), sheep milk (6-8 L/kg) |
+| Starter culture (Lactococcus) | 1-2 L or 50-100 g freeze-dried | Propagated from previous batch | Buttermilk (1-2% addition) |
+| Rennet (animal) | 5-10 mL liquid or 1 tablet | Calf stomach extract | Vegetable rennet (cardoon thistle, fig sap) |
+| Salt (NaCl) | 150-250 g (1.5-2.5% of cheese) | [Mining](../mining/index.md) | Sea salt; non-iodized preferred |
+| Calcium chloride (CaCl₂) | 10-20 g per 100 L milk | [Chemistry](../chemistry/index.md) | Restores calcium in pasteurized milk |
+
+### Butter Production Materials
+
+| Material | Quantity per 10 kg butter | Source | Alternatives |
+|----------|:------------------------:|--------|-------------|
+| Whole milk | 200-220 L (4% fat) | [Agriculture](../foundations/food-agriculture.md) | Cream separated first: 25-30 L cream per 10 kg butter |
+| Salt (optional) | 100-200 g (1-2%) | [Mining](../mining/index.md) | Unsalted butter (shorter shelf life) |
+| Cold water (washing) | 30-50 L | [Water](../water/index.md) | Must be potable, 5-10°C |
+
+## Process Description
 
 ### Milk Composition
 
@@ -95,24 +119,85 @@ Cheese making is controlled coagulation of milk protein (casein) to separate cur
 
 **Kefir**: Add kefir grains (symbiotic culture of LAB + yeast) to milk at 22°C. Ferment 18-24 hours. Produces slightly carbonated, tangy drink. Shelf life: 1-2 weeks refrigerated.
 
-### Safety
+## Quantitative Parameters
+
+### Dairy Product Yields per 100 L Milk
+
+| Product | Yield (kg or L) | Milk Required (L/kg) | Shelf Life | Key Parameter |
+|---------|:---------------:|:--------------------:|:----------:|:-------------:|
+| Butter | 4.5-5.5 kg | 18-22 L/kg | 2-4 weeks (refrigerated) | Fat content ≥80% |
+| Ghee | 3.5-4.5 kg | 22-28 L/kg | 6-12 months (room temp) | Fat content ≥99.5% |
+| Hard cheese (cheddar) | 8-10 kg | 10-12 L/kg | 3-18 months | Moisture 35-39% |
+| Soft cheese (Brie) | 10-14 kg | 7-10 L/kg | 2-6 weeks | Moisture 50-60% |
+| Fresh cheese (ricotta) | 12-16 kg | 6-8 L/kg | 0-7 days | Moisture 70-80% |
+| Yogurt | 90-95 L | 1.05-1.1 L/L | 2-3 weeks (refrigerated) | pH 4.4-4.6 |
+| Cream (35% fat) | 10-15 L | — | 5-7 days (refrigerated) | Fat 35-40% |
+
+### Dairy Animal Productivity
+
+| Animal | Milk (L/day) | Butterfat % | Season | Key Traits |
+|--------|:-----------:|:----------:|:------:|-----------|
+| Dairy cow | 20-30 | 3.5-4.5 | Year-round | Highest volume, industrial standard |
+| Goat | 2-4 | 3.5-4.5 | Seasonal (8-10 mo) | Hardy, browse-fed, small scale |
+| Sheep | 1-3 | 6-8 | Seasonal (6-8 mo) | High fat, excellent for cheese |
+| Water buffalo | 8-15 | 7-9 | Year-round | Premium mozzarella, tropical climates |
+| Yak | 1-3 | 5-7 | Seasonal | High altitude, cold climates |
+| Camel | 5-10 | 2.5-5.5 | Year-round | Arid regions, drought-resistant |
+
+### Milk Spoilage Rates by Temperature
+
+| Temperature | Time to Souring | Dominant Spoilage | Preventive Action |
+|:-----------:|:--------------:|:-----------------:|:-----------------:|
+| 37°C (body temp) | 4-6 hours | Lactic acid bacteria | Immediate processing or cooling |
+| 25°C (room temp) | 8-12 hours | Mesophilic bacteria | Process within 2 hours |
+| 15°C | 18-24 hours | Psychrotrophic bacteria | Cool to 4°C within 4 hours |
+| 4°C (refrigerated) | 5-7 days | Pseudomonas, Listeria | Pasteurize for longer storage |
+| -18°C (frozen) | 6-12 months | Enzymatic (lipolysis) | Limit to 6 months for quality |
+
+### Nutritional Comparison of Dairy Products
+
+| Product | Energy (kcal/100 g) | Protein (g/100 g) | Fat (g/100 g) | Calcium (mg/100 g) |
+|---------|:-------------------:|:------------------:|:-------------:|:------------------:|
+| Whole milk | 60-65 | 3.2-3.5 | 3.5-4.0 | 110-120 |
+| Butter | 716-720 | 0.5-1.0 | 80-82 | 15-20 |
+| Ghee | 890-900 | 0.0-0.5 | 99.5 | 0 |
+| Cheddar cheese | 400-420 | 24-26 | 32-35 | 720-760 |
+| Parmesan | 420-440 | 35-38 | 25-29 | 1100-1200 |
+| Yogurt (plain) | 60-65 | 3.5-4.5 | 1.5-3.5 | 110-130 |
+| Whey | 25-30 | 0.8-1.0 | 0.2-0.5 | 40-50 |
+
+## Scaling Notes
+
+- **Household dairy** (1-5 L milk/day): Hand milking, gravity cream separation, small churn or jar shaking for butter, simple acid coagulation for fresh cheese. No specialized equipment. Labor: 1-2 hours daily.
+- **Village dairy** (50-200 L milk/day): Hand or simple mechanical milking, small cream separator (hand-cranked, 100-200 L/h), barrel churn (20-50 L), cheese press, aging cave or cellar. 1-2 workers. Throughput: 5-20 kg cheese/day, 2-5 kg butter/day.
+- **Industrial dairy** (5,000-50,000+ L milk/day): Mechanical milking pipeline, industrial centrifugal separator, continuous butter maker (500-5000 kg/h), automated cheese vats (10,000-50,000 L), mechanical press, climate-controlled aging rooms. 10-50 workers. Throughput: 500-5000 kg cheese/day.
+- **Cold chain requirement**: Milk must be cooled from 37°C (body temperature) to 4°C within 2 hours of milking. Each hour of delay at ambient temperature reduces cheese yield by 0.5-1.0% due to bacterial growth consuming lactose. Industrial dairies use plate heat exchangers for rapid cooling; village dairies use water baths or cool cellars.
+- **Whey utilization**: Cheese making produces 80-90 L whey per 10 kg cheese. Whey contains 0.8% protein and 5% lactose — nutritious but perishable (spoils in 12-24 hours at room temperature). Feed to livestock immediately, or process into ricotta (heat to 80°C, pH to 5.5, collect precipitated proteins). Industrial dairies produce whey protein concentrate (35-80% protein) by ultrafiltration.
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Cheese curd won't set | Rennet inactive, milk too hot/cold, calcium deficiency | Check milk temperature (30-32°C). Use fresh rennet. Add CaCl₂ (10-20 g/100 L) if milk is pasteurized |
+| Cheese tastes bitter | Excess rennet, proteolysis from contaminant bacteria, over-aging | Reduce rennet to 1 mL/10 L. Improve sanitation. Age at correct temperature |
+| Butter won't form (cream won't break) | Cream too cold or too warm, wrong fat content, over-agitation | Adjust to 8-12°C. Cream should be 30-35% fat. Stop when grains are pea-sized |
+| Butter too soft/wet | Insufficient washing, excess moisture, temperature too high during working | Wash 2-3× with cold water. Work until moisture <16%. Keep below 15°C during working |
+| Yogurt too thin | Insufficient incubation time, wrong temperature, low solids milk | Incubate at 42°C until pH 4.4-4.6 (4-6 hours). Add milk powder (2-3%) to increase solids |
+| Yogurt too sour | Over-fermentation (pH below 4.0), incubation too long | Cool to 4°C immediately at pH 4.4-4.6. Reduce incubation time |
+| Ghee smokes excessively | Temperature too high, residual buttermilk solids | Keep below 120°C. Ensure butter is well-washed before clarifying. Filter through fine cloth |
+| Milk off-flavors | Feed taints (onion, weed), lipase action (raw milk), oxidation | Control cattle feed. Pasteurize within 2 hours. Store in opaque containers |
+| Cheese swelling (gas holes) | Coliform or yeast contamination producing CO₂ | Improve sanitation. Use pasteurized milk. Ensure proper starter culture activity |
+| Mold on cheese surface (unintended) | High humidity, poor air circulation, contaminated aging environment | Maintain correct humidity per cheese type. Increase air flow. Wipe with brine-soaked cloth |
+
+## Safety
 
 - **Pasteurization**: Raw milk carries Brucella, Listeria, E. coli O157:H7, Salmonella, and Campylobacter. All milk for cheese/dairy should be pasteurized (72°C/15 sec) unless making raw milk cheese with strict controls (aged 60+ days at >4°C allows acid/enzymes to destroy most pathogens).
 - **Listeria risk**: Soft cheeses (Camembert, Brie) have neutral pH on surface during ripening, allowing Listeria monocytogenes growth. Strict sanitation of aging caves and equipment required. Listeria grows at refrigerator temperatures (1-4°C) — it is psychrotrophic.
 - **Brucellosis**: Raw milk from infected cattle transmits Brucella. Causes chronic undulant fever in humans. Pasteurization destroys Brucella. In regions without brucellosis eradication programs, raw milk dairy products are dangerous.
-- **Aflatoxin M1**: Carcinogenic metabolite of Aspergillus flavus, secreted in milk when cattle eat moldy feed. Cannot be destroyed by pasteurization. Prevent by controlling cattle feed quality.
+- **Aflatoxin M1**: Carcinogenic metabolite of Aspergillus flavus, secreted in milk when cattle eat moldy feed. Cannot be destroyed by pasteurization. Prevent by controlling cattle feed quality. Regulatory limit: 0.5 μg/L in most jurisdictions.
+- **Cream separator safety**: Centrifugal separators at 6,000-8,000 RPM contain significant rotational energy. Imbalance causes destructive vibration. Never open a spinning separator bowl. Ensure locking mechanism is engaged before starting.
 
-### Dependency Chain
-
-Dairy depends on:
-- **[ceramics](../ceramics/index.md)**: Storage vessels, cheese molds, butter churns
-- **[health.sanitation](../health/index.md)**: Hygiene protocols, germ theory for safe milk handling
-- **[foundations.food-agriculture](../foundations/food-agriculture.md)**: Animal domestication and dairy animal management
-
-Dairy enables:
-- **[preservation](preservation.md)**: Fermented dairy is a preservation method itself
-- **High-quality protein**: Cheese provides concentrated protein (25-35% by weight) and calcium
-- **Cooking fats**: Butter and ghee are primary cooking fats in many cuisines
+## Quality Control
 
 ### Dairy Equipment Construction
 
@@ -132,23 +217,6 @@ The key pieces of dairy processing equipment and their construction:
 - **Dash churn**: Plunger type — wooden dasher with cross-holes agitates cream in tall narrow vessel. Oldest design, labor-intensive but effective.
 - **Continuous butter maker** (industrial): Forced cream through high-shear zone at controlled temperature. Produces butter continuously at 500-5000 kg/hour. Requires precise temperature control and cream quality.
 
-### Dairy Animal Productivity
-
-Understanding yield per animal is essential for planning:
-
-| Animal | Milk (L/day) | Butterfat % | Season | Key Traits |
-|--------|:-----------:|:----------:|:------:|-----------|
-| Dairy cow | 20-30 | 3.5-4.5 | Year-round | Highest volume, industrial standard |
-| Goat | 2-4 | 3.5-4.5 | Seasonal (8-10 mo) | Hardy, browse-fed, small scale |
-| Sheep | 1-3 | 6-8 | Seasonal (6-8 mo) | High fat, excellent for cheese |
-| Water buffalo | 8-15 | 7-9 | Year-round | Premium mozzarella, tropical climates |
-| Yak | 1-3 | 5-7 | Seasonal | High altitude, cold climates |
-| Camel | 5-10 | 2.5-5.5 | Year-round | Arid regions, drought-resistant |
-
-- **Lactation cycle**: Cows produce milk for 305 days, then 60-day dry period before next calving. Goats and sheep have seasonal lactation tied to breeding cycle.
-- **Feed conversion**: Dairy cows convert ~17% of feed energy to milk energy. Roughly 1 kg concentrates + 3 kg forage produces 1.5-2.0 L milk. A dairy cow requires 15-25 kg dry matter feed per day.
-- **Hygiene at milking**: Teat washing with iodine solution (0.5%), drying with paper towel, fore-stripping (first 2-3 squirts discarded — highest bacterial count). Milking equipment cleaned and sanitized after each use. Udder health monitored by somatic cell count (SCC) — above 200,000 cells/mL indicates mastitis.
-
 ### Cheese Ripening Science
 
 The transformation of fresh curd into aged cheese involves complex biochemical changes:
@@ -157,3 +225,17 @@ The transformation of fresh curd into aged cheese involves complex biochemical c
 - **Lipolysis**: Milk fat (triglycerides) hydrolyzed by lipase enzymes to free fatty acids. Short-chain fatty acids (butyric C4, caproic C6, caprylic C8) give sharp, pungent flavors characteristic of aged cheese. Controlled lipolysis essential — too much = rancid.
 - **Texture development**: Calcium phosphate dissolution during aging softens the protein matrix. Moisture loss (1-2% per month) firms the paste. Proteolysis breaks the casein network, changing from elastic (young cheese) to crumbly (aged cheddar) to crystalline (parmesan). Tyrosine crystals in parmesan are visible amino acid crystals — a sign of extensive proteolysis, not a defect.
 - **Rind formation**: Surface drying creates a protective rind. Natural rind: simply air-dried. Washed rind: brine-washed periodically (promotes Brevibacterium linens growth — orange, pungent). White mold rind: Penicillium camemberti (Camembert/Brie) — the mold creates a soft, gooey interior by breaking down proteins from outside in.
+
+## References
+
+- [Ceramics](../ceramics/index.md) — storage vessels, cheese molds, butter churns
+- [Health & Sanitation](../health/index.md) — hygiene protocols, germ theory for safe milk handling
+- [Foundations: Food & Agriculture](../foundations/food-agriculture.md) — animal domestication and dairy animal management
+- [Food Preservation](preservation.md) — fermented dairy as preservation method
+- [Food Fermentation](fermentation.md) — lactic acid fermentation biology
+- [Energy](../energy/index.md) — mechanical power for cream separators, cooling for storage
+- [Metals](../metals/index.md) — stainless steel for dairy equipment, tin for separator bowls
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*

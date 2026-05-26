@@ -7,9 +7,41 @@
 > **Timeline**: Years 0-30+
 > **Outputs**: preserved_food, canned_food, pasteurized_food, refrigerated_food, dried_food, salted_food, smoked_food, fermented_food
 
-### Overview
+## Overview
 
 Food preservation is the technology that eliminates seasonal starvation. Without it, food rots within days to weeks and populations face annual hunger gaps between harvests. With it, food becomes a stable, bankable commodity — enabling urban concentration, specialist labor, and long-distance trade. Every preservation method either removes water (drying, salting), creates hostile chemistry (fermentation, pickling), kills microorganisms with heat (canning, pasteurization), or slows microbial growth (refrigeration, freezing).
+
+Preservation depends on [ceramics](../ceramics/index.md) for storage vessels, [health.sanitation](../health/index.md) for germ theory and hygiene, [chemistry.petroleum-alternatives.fermentation](../chemistry/fermentation.md) for fermentation chemistry, and [energy](../energy/index.md) for steam and electricity.
+
+## Bill of Materials
+
+### Drying Materials
+
+| Material | Quantity per 100 kg fresh food | Source | Alternatives |
+|----------|:------------------------------:|--------|-------------|
+| Fresh produce or meat | 100 kg | [Agriculture](../foundations/food-agriculture.md) | Wild foraged foods |
+| Drying racks (wood/bamboo) | 2-4 m² surface area per 10 kg | [Forestry](../plants/index.md) | Clean flat stones, concrete surface |
+| Fuel (for kiln drying) | 5-15 kg wood per 10 kg food | [Energy](../energy/index.md) | Solar drying (climate dependent) |
+| Storage containers (sealed) | As needed | [Ceramics](../ceramics/index.md) | Glass jars, metal tins |
+
+### Salting and Curing Materials
+
+| Material | Quantity per 100 kg meat/fish | Source | Alternatives |
+|----------|:----------------------------:|--------|-------------|
+| Salt (NaCl) | 20-30 kg (heavy cure) or 10-15 kg (light) | [Mining](../mining/index.md) | Sea salt (solar evaporated) |
+| Potassium nitrate (KNO₃) | 100-200 g (0.1-0.2%) | [Mining](../mining/index.md) or [Chemistry](../chemistry/index.md) | Sodium nitrite (120-150 ppm, more effective) |
+| Barrels or crocks | 5-10 per 100 kg | [Ceramics](../ceramics/index.md) or [Forestry](../plants/index.md) | Food-grade plastic buckets |
+
+### Canning Materials
+
+| Material | Quantity per 1000 jars/cans | Source | Alternatives |
+|----------|:--------------------------:|--------|-------------|
+| Glass jars (Mason) or tinplate cans | 1000 units | [Glass](../glass/index.md) or [Metals](../metals/index.md) | Ceramic jars (lower reliability) |
+| Lids and sealing compound | 1000 units | [Polymers](../polymers/index.md) | Rubber gaskets |
+| Steam (for retort) | 150-300 kg | [Energy](../energy/index.md) — boiler | Direct-fired retort (less uniform) |
+| Cooling water | 500-1000 L | [Water](../water/index.md) | Recirculated with cooling tower |
+
+## Process Description
 
 ### Preservation Method Progression
 
@@ -91,30 +123,6 @@ Mechanical cooling slows microbial growth, chemical degradation, and enzymatic a
 - **Ice production**: Pre-mechanical: ice harvested from frozen lakes, stored in insulated ice houses (sawdust insulation, underground). 50-70% of stored ice survives summer. Mechanical ice production: ammonia absorption or vapor-compression cycle.
 - **Cold chain**: Continuous refrigeration from production to consumption. A single break in the cold chain can allow dangerous bacterial growth. Temperature monitoring with recording devices is essential.
 
-### Food Safety Reference
-
-| Hazard | Source | Prevention | Lethal Dose |
-|--------|--------|-----------|-------------|
-| Botulism | C. botulinum toxin | Acidify pH<4.6 OR pressure can 121°C | ~1 ng/kg (ingested) |
-| Salmonella | Raw eggs, poultry | Cook to 74°C | Varies (infectious dose ~10-100 organisms) |
-| E. coli O157:H7 | Contaminated produce | Cook to 71°C, wash produce | ~10 organisms |
-| Listeria | Soft cheese, deli meats | Pasteurize, cook to 74°C | Varies (high risk for immunocompromised) |
-| Aflatoxin | Moldy grain/nuts | Dry storage <13% moisture | Chronic exposure: liver cancer |
-
-### Dependency Chain
-
-Preservation depends on:
-- **[ceramics](../ceramics/index.md)**: Storage vessels, jars, pots for fermentation and canning
-- **[health.sanitation](../health/index.md)**: Understanding of germ theory, hygiene protocols
-- **[chemistry.petroleum-alternatives.fermentation](../chemistry/fermentation.md)**: Fermentation chemistry and microbiology
-- **[energy](../energy/index.md)**: Steam for canning retorts, electricity for refrigeration
-
-Preservation enables:
-- **Urbanization**: Food can be stored and transported, enabling cities
-- **Specialist workforce**: Year-round food supply frees workers from agriculture
-- **Military logistics**: Armies travel on preserved rations
-- **Maritime exploration**: Canned and salted provisions enable long voyages
-
 ### Food Spoilage Mechanisms
 
 Understanding *why* food spoils is essential for choosing the right preservation method:
@@ -126,10 +134,6 @@ Understanding *why* food spoils is essential for choosing the right preservation
 | Lipid oxidation | Oxygen + unsaturated fats | Days to weeks | Antioxidants, vacuum packaging, cold |
 | Moisture migration | Water activity differential | Days | Proper packaging, moisture barriers |
 | Insect/rodent damage | Physical access | Days to weeks | Sealed containers, elevated storage |
-
-- **Water activity (aw)**: The single most important parameter. Pure water = 1.00. Fresh meat = 0.98-0.99. Most bacteria cannot grow below 0.90. Most yeasts and molds cannot grow below 0.70. Dried foods at 0.50-0.60 are stable indefinitely.
-- **D-value (decimal reduction time)**: Time at a given temperature to reduce a microbial population by 90% (1 log). At 121°C: C. botulinum spores D = 0.21 minutes. This means 12D reduction (industry standard) requires 2.5 minutes at 121°C — the basis for canning time calculations.
-- **F-value**: Total lethality of a thermal process, expressed in equivalent minutes at 121°C. F₀ = 3.0 minutes minimum for low-acid canned foods (12D reduction of C. botulinum).
 
 ### Industrial Canning Line
 
@@ -144,15 +148,125 @@ An industrial canning operation for the industrial era:
 7. **Cooling**: Rapid cooling to 38°C to prevent thermophilic spoilage. Pressure maintained during cooling to prevent can buckling (paneling). Chlorinated cooling water (2-5 ppm free chlorine) prevents post-process contamination through seam micro-leaks.
 8. **Storage and inspection**: Hold canned goods for 10-14 days at 35-40°C (incubation test) to detect under-processing. Swollen cans = microbial growth = discard. Also called "swell test."
 
-### Preservation Method Selection Guide
+## Quantitative Parameters
 
-| Food Type | Best Method | Shelf Life | Notes |
-|-----------|------------|:----------:|-------|
-| Meat (fresh) | Freezing (-18°C) | 6-12 months | Blast freeze at -30°C for quality |
-| Meat (cured) | Salting + smoking | 2-6 months | Nitrate essential for botulism safety |
-| Fish (fatty) | Smoking + salting | 1-3 months | High oil content limits storage |
-| Vegetables | Pressure canning | 12-24 months | Acidify if possible for water bath |
-| Fruits | Water bath canning | 12-24 months | Natural acidity allows simpler process |
-| Grain | Dry storage (<14% moisture) | 12+ months | Protect from insects and rodents |
-| Milk | Pasteurization + refrigeration | 5-7 days | UHT for shelf-stable (6+ months) |
-| Juice | Pasteurization (HTST) | 3-6 months | Refrigerated; or UHT for shelf-stable |
+### Preservation Method Comparison
+
+| Method | Water Activity (aw) | Temperature | Processing Time | Shelf Life | Energy Required |
+|--------|:-------------------:|:-----------:|:---------------:|:----------:|:---------------:|
+| Sun drying | <0.60 | Ambient (25-40°C) | 2-5 days | 6-12 months | None (solar) |
+| Kiln drying | <0.60 | 50-70°C | 6-24 hours | 6-12 months | 2-5 MJ/kg |
+| Salting (heavy) | 0.65-0.75 | Ambient | 2-8 weeks | 6-18 months | Minimal |
+| Smoking (cold) | 0.75-0.85 | 20-30°C | 12-48 hours | 1-4 weeks | 1-3 MJ/kg (wood) |
+| Smoking (hot) | 0.70-0.80 | 60-80°C | 4-12 hours | 2-6 months (refrigerated) | 2-5 MJ/kg |
+| Fermentation | 0.95-0.99 (moist) | 18-42°C | 2 days-18 months | 1-12 months | Minimal |
+| Water bath canning | 0.99+ (sealed) | 100°C | 10-45 minutes | 12-24 months | 0.5-1.5 MJ/jar |
+| Pressure canning | 0.99+ (sealed) | 116-121°C | 20-100 minutes | 12-60 months | 1-3 MJ/jar |
+| Pasteurization (HTST) | 0.99+ | 72°C | 15 seconds | 5-7 days (refrigerated) | 0.1-0.3 MJ/L |
+| UHT sterilization | 0.99+ | 135-150°C | 2-8 seconds | 6+ months (ambient) | 0.3-0.5 MJ/L |
+| Freezing | 0.99+ | -18°C | Ongoing | 6-12 months | 0.5-1.0 MJ/kg (initial) + 0.05 MJ/kg/day |
+
+### Thermal Death Parameters for C. botulinum
+
+| Temperature | D-value (min) | F-value for 12D (min) | Z-value |
+|:-----------:|:--------------:|:----------------------:|:-------:|
+| 100°C | ~800 | ~9,600 | — |
+| 110°C | ~20 | ~240 | — |
+| 115°C | ~1.5 | ~18 | — |
+| 121°C | 0.21 | 2.52 | 10°C |
+| 130°C | 0.02 | 0.24 | — |
+
+D-value = time to reduce population by 90% (1 log). 12D reduction (F₀ = D × 12) is the industry standard for commercial sterility. At 121°C, F₀ = 2.52 minutes minimum. Most canning processes target F₀ = 3.0-6.0 minutes for safety margin.
+
+### Steam Pressure-Temperature Relationship
+
+| Gauge Pressure (psi) | Temperature (°C) | Temperature (°F) |
+|:--------------------:|:-----------------:|:-----------------:|
+| 0 (atmospheric) | 100 | 212 |
+| 5 | 108 | 227 |
+| 10 | 115 | 240 |
+| 15 | 121 | 250 |
+| 20 | 126 | 259 |
+| 25 | 130 | 267 |
+| 30 | 134 | 273 |
+
+Values assume sea level and pure steam (no air). Air in the retort lowers actual temperature — 5% air at 15 psi reduces temperature from 121°C to ~118°C.
+
+### Water Activity Thresholds for Microbial Growth
+
+| Organism Type | Minimum aw for Growth | Examples | Key Products Affected |
+|:-------------:|:---------------------:|:--------:|:--------------------:|
+| Most bacteria | 0.90 | E. coli, Salmonella, C. botulinum | Fresh meat, milk, vegetables |
+| Most yeasts | 0.88 | Saccharomyces, Candida | Fruit, syrups |
+| Most molds | 0.70 | Aspergillus, Penicillium | Bread, cheese, dried fruit |
+| Halophilic bacteria | 0.75 | Halobacterium | Salted fish |
+| Xerophilic molds | 0.61 | Aspergillus restrictus | Dried grains, spices |
+| No microbial growth | <0.60 | — | Fully dried foods (stable) |
+
+### Food Spoilage Rates by Temperature
+
+| Food | Room Temp (25°C) | Refrigerated (4°C) | Frozen (-18°C) |
+|------|:----------------:|:------------------:|:--------------:|
+| Raw meat | 4-8 hours | 3-5 days | 6-12 months |
+| Raw fish | 4-6 hours | 1-2 days | 3-6 months |
+| Fresh milk | 4-6 hours | 5-7 days | 3 months |
+| Cooked rice | 6-8 hours | 4-6 days | 6 months |
+| Cut fruit | 2-4 hours | 3-5 days | 6-12 months |
+| Fresh vegetables | 1-2 days | 5-7 days | 8-12 months |
+| Bread | 3-5 days (mold) | 7-10 days | 3-6 months |
+
+## Scaling Notes
+
+- **Household preservation** (family of 4-8): Sun drying on racks, small-batch salting in crocks, water bath canning on kitchen stove. Throughput: 5-20 kg per batch. Labor: 4-8 hours per batch. Equipment: minimal (pots, jars, racks).
+- **Community preservation** (50-200 people): Dedicated drying shed, barrel salting operation, community cannery with small retort (100-200 L). Throughput: 100-500 kg per batch. 2-3 workers per session. Requires dedicated building with ventilation and water supply.
+- **Industrial preservation** (10,000+ people): Continuous drying tunnels, automated salting lines, industrial retorts (continuous rotary or hydrostatic), cold storage warehouses. Throughput: 1-50 tonnes/day. 20-100 workers. Requires steam supply, electrical power, and transportation infrastructure.
+- **Cold chain scaling**: Ice harvesting from frozen lakes provides 50-200 tonnes of ice per winter per lake — sufficient for small community cold storage. Mechanical refrigeration requires 0.5-2.0 kW per m³ of cold storage. A 100 m³ cold room at -18°C requires 50-100 kW cooling capacity and 200-500 kWh/day electrical energy.
+- **Salt consumption**: Preserving 1 tonne of meat by heavy salting requires 200-300 kg salt. A community of 500 people preserving meat for winter needs 5-10 tonnes of salt per year — a significant logistics burden. Salt production must be planned alongside food preservation infrastructure.
+
+## Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Mold on dried food | Insufficient drying, storage humidity too high, poor packaging | Dry to <10% moisture. Store in sealed containers with desiccant. Keep below 60% RH |
+| Rancid salted meat | Fat oxidation, temperature too high during storage, insufficient salt | Store below 15°C. Increase salt concentration. Trim visible fat before salting (fat oxidizes faster) |
+| Swollen cans (botulism risk) | C. botulinum growth from under-processing or seal failure | **Discard immediately** — do not taste. Review retort temperature logs. Verify seam integrity. Increase processing time |
+| Fermentation stalls (pH >4.6) | Low temperature, insufficient salt for selective pressure, contaminant organisms | Raise temperature to 18-22°C. Verify salt concentration (2-3% for vegetables). Discard if pH >4.6 after 48 hours |
+| Freezer burn | Poor packaging, temperature fluctuation, extended storage | Wrap tightly in moisture-proof material. Maintain -18°C continuously. Use within recommended time |
+| Pickles soft/mushy | Enzymes not destroyed, insufficient acidity, wrong cucumber variety | Blanch before pickling. Ensure vinegar is 5% acetic acid. Use pickling varieties (not slicing cucumbers) |
+| Smoked food spoils quickly | Insufficient salting before smoking, temperature too low during hot smoking | Salt or brine before smoking. Hot smoke at 60-80°C. Ensure internal temperature reaches 63°C |
+| Pasteurized milk spoils early | Post-pasteurization contamination, temperature abuse during storage | Clean and sanitize all equipment after pasteurization. Cool rapidly to 4°C. Maintain cold chain |
+| Dried food won't rehydrate | Over-dried (<3% moisture), case hardening from too-hot drying | Dry to 10-20% moisture, not lower. Use lower temperature (50-60°C) for initial drying, increase gradually |
+
+## Safety
+
+### Food Safety Reference
+
+| Hazard | Source | Prevention | Lethal Dose |
+|--------|--------|-----------|-------------|
+| Botulism | C. botulinum toxin | Acidify pH<4.6 OR pressure can 121°C | ~1 ng/kg (ingested) |
+| Salmonella | Raw eggs, poultry | Cook to 74°C | Varies (infectious dose ~10-100 organisms) |
+| E. coli O157:H7 | Contaminated produce | Cook to 71°C, wash produce | ~10 organisms |
+| Listeria | Soft cheese, deli meats | Pasteurize, cook to 74°C | Varies (high risk for immunocompromised) |
+| Aflatoxin | Moldy grain/nuts | Dry storage <13% moisture | Chronic exposure: liver cancer |
+
+- **Botulism is the primary hazard** in all food preservation. C. botulinum spores survive 100°C boiling indefinitely. They germinate in anaerobic, low-acid (pH >4.6), moist conditions and produce the most potent biological toxin known. **Prevention is non-negotiable**: pressure can all low-acid foods at 121°C for the full specified time, or ensure pH <4.6 through acidification or fermentation.
+- **Salt and nitrate safety**: Heavy salt consumption (above 5 g/day) increases blood pressure and cardiovascular risk. Nitrate-cured meats should be consumed in moderation — nitrates convert to nitrosamines (carcinogenic) at high cooking temperatures. Fry bacon at moderate temperature.
+- **Pressure vessel safety**: Retorts at 15 psi contain steam at 2.7× atmospheric pressure. Structural failure causes explosive release of scalding steam. Mandatory: pressure relief valve set 10% above operating pressure, calibrated pressure gauge, operator training.
+- **Smoke inhalation**: Wood smoke contains polycyclic aromatic hydrocarbons (PAHs), some carcinogenic. Smokehouses require ventilation. Do not stand in smoke for extended periods.
+- **Phosphine fumigation**: Aluminum phosphide tablets release phosphine gas (PH₃) — lethal at 0.01% in air. Apply only to sealed storage. Aerate for 48+ hours before re-entry. Phosphine is heavier than air — evacuate from bottom up.
+
+## References
+
+- [Canning & Thermal Sterilization](canning.md) — detailed thermal processing methodology
+- [Food Fermentation](fermentation.md) — biological preservation, acidification
+- [Dairy Processing](dairy.md) — pasteurization of milk and dairy products
+- [Brewing & Distilling](brewing.md) — pasteurization of beer and wine
+- [Ceramics](../ceramics/index.md) — storage vessels, jars, pots for fermentation and canning
+- [Health & Sanitation](../health/sanitation.md) — germ theory, hygiene protocols
+- [Chemistry: Fermentation](../chemistry/fermentation.md) — fermentation chemistry and microbiology
+- [Energy](../energy/index.md) — steam for canning retorts, electricity for refrigeration
+- [Mining](../mining/index.md) — salt production for curing and preservation
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Food Processing](./index.md) • [All Domains](../index.md)*

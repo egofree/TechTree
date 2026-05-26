@@ -7,5 +7,7 @@ Capabilities in this domain:
 - [Personal Protective Equipment](ppe.md) — Respiratory protection, chemical suits, gloves, eye protection, and PPE selection matrices for semiconductor manufacturing.
 - [Emergency Response](emergency-response.md) — Spill response, eyewash and deluge shower placement, gas leak procedures, evacuation planning, and first aid for chemical exposures.
 - [Waste Management](waste-management.md) — Acid waste neutralization, solvent waste recovery, heavy metal precipitation, and semiconductor effluent treatment.
+- [Toxicology](toxicology.md) — Toxic substance identification, TLV-TWA exposure limits, LD50 data, antidote protocols, and biological monitoring for industrial chemicals.
+- [Radiation Safety](radiation-safety.md) — Ionizing radiation protection, shielding design, dosimetry, contamination control, and dose limits for occupational and public exposure.
 
 [↑ Back to Tech Tree](../index.md)

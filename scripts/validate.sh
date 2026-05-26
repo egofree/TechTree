@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Data-driven validator for tech-tree-bootstrap
 # Reads all structure from data files — no hardcoded filenames
-# Checks: 17 validation passes covering data integrity, DAG, cross-refs, terminology, diagrams, tags, edge types, hierarchy, taxonomy, glossary
+# Checks: 19 validation passes covering data integrity, DAG, cross-refs, terminology, diagrams, tags, edge types, hierarchy, taxonomy, glossary, edge flow, lifecycle tags
 
 set -euo pipefail
 
@@ -94,6 +94,8 @@ with open('$DATA_DIR/edges.json') as f:
 node_ids = {n['id'] for n in nodes}
 adj = {nid: [] for nid in node_ids}
 for e in edges:
+    if e.get('flow', 'primary') != 'primary':
+        continue  # circular economy edges exempt from DAG
     adj.setdefault(e['from'], []).append(e['to'])
 
 # DFS cycle detection with white/gray/black coloring
@@ -883,6 +885,84 @@ check_glossary_crossrefs() {
     $ok
 }
 
+# --- Check 18: Edge flow validation ---
+
+check_edge_flow() {
+    python3 -c "
+import json, sys
+
+with open('$DATA_DIR/edges.json') as f:
+    edges = json.load(f)['edges']
+
+valid_flows = {'primary', 'byproduct-reuse', 'waste-recovery', 'recycling-loop'}
+
+missing = 0
+invalid = 0
+invalid_values = set()
+
+for e in edges:
+    if 'flow' not in e:
+        missing += 1
+    elif e['flow'] not in valid_flows:
+        invalid += 1
+        invalid_values.add(e['flow'])
+
+ok = True
+if missing > 0:
+    print(f'    {missing} edges missing flow field', file=sys.stderr)
+    ok = False
+if invalid > 0:
+    vals = ', '.join(sorted(invalid_values))
+    print(f'    {invalid} edges with invalid flow value: {vals}', file=sys.stderr)
+    ok = False
+
+sys.exit(0 if ok else 1)
+"
+}
+
+# --- Check 19: Lifecycle tag validation ---
+
+check_lifecycle_tags() {
+    python3 -c "
+import json, sys
+
+with open('$DATA_DIR/nodes.json') as f:
+    nodes = json.load(f)['nodes']
+
+valid_lifecycle = {'waste-source', 'waste-sink', 'recyclable', 'recycled-feedstock', 'closed-loop'}
+
+has_lifecycle = 0
+invalid_count = 0
+invalid_values = set()
+
+for n in nodes:
+    tags = n.get('tags', {})
+    if 'lifecycle' not in tags:
+        continue  # lifecycle is optional
+    has_lifecycle += 1
+    lc = tags['lifecycle']
+    if not isinstance(lc, list) or len(lc) == 0:
+        print(f\"    {n['id']}: lifecycle must be a non-empty array\", file=sys.stderr)
+        invalid_count += 1
+        continue
+    for v in lc:
+        if not isinstance(v, str) or v not in valid_lifecycle:
+            invalid_count += 1
+            if isinstance(v, str):
+                invalid_values.add(v)
+            else:
+                invalid_values.add(str(v))
+
+ok = True
+if invalid_count > 0:
+    vals = ', '.join(sorted(invalid_values))
+    print(f'    {has_lifecycle} nodes with lifecycle tags, {invalid_count} invalid values: {vals}', file=sys.stderr)
+    ok = False
+
+sys.exit(0 if ok else 1)
+"
+}
+
 # ============================================================
 # Main
 # ============================================================
@@ -949,6 +1029,14 @@ check "Taxonomy validity (optional field, root/segment/duplicate rules)" check_t
 echo ""
 echo "--- Glossary ---"
 check "Glossary cross-references" check_glossary_crossrefs
+
+echo ""
+echo "--- Schema: Edge flow ---"
+check "Edge flow validity (flow field present, valid values)" check_edge_flow
+
+echo ""
+echo "--- Schema: Lifecycle tags ---"
+check "Lifecycle tag validity (optional, controlled vocabulary)" check_lifecycle_tags
 
 echo ""
 echo "=== Results: $PASSED/$TOTAL passed, $FAILED failed ==="

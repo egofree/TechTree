@@ -4079,6 +4079,66 @@
       "to": "economics-organization.trade",
       "type": "tool",
       "flow": "primary"
+    },
+    {
+      "from": "chemistry.cement",
+      "to": "metals.iron-steel.blast-furnace",
+      "type": "material",
+      "flow": "byproduct-reuse"
+    },
+    {
+      "from": "chemistry.alkalis",
+      "to": "foundations.fire",
+      "type": "material",
+      "flow": "byproduct-reuse"
+    },
+    {
+      "from": "agriculture.soil-management",
+      "to": "animals",
+      "type": "material",
+      "flow": "byproduct-reuse"
+    },
+    {
+      "from": "metals.steelmaking",
+      "to": "metals.iron-steel",
+      "type": "material",
+      "flow": "waste-recovery"
+    },
+    {
+      "from": "metals.precious-metals",
+      "to": "electronics",
+      "type": "material",
+      "flow": "waste-recovery"
+    },
+    {
+      "from": "metals.aluminum",
+      "to": "metals.aluminum",
+      "type": "material",
+      "flow": "recycling-loop"
+    },
+    {
+      "from": "glass.basic",
+      "to": "glass.basic",
+      "type": "material",
+      "flow": "recycling-loop"
+    },
+    {
+      "from": "chemistry.water-treatment",
+      "to": "water.sewage",
+      "type": "material",
+      "flow": "waste-recovery"
+    },
+    {
+      "from": "metals.copper-bronze",
+      "to": "metals.copper-bronze",
+      "type": "material",
+      "flow": "recycling-loop"
+    },
+    {
+      "from": "chemistry.acid-regeneration",
+      "to": "metals.forming",
+      "type": "material",
+      "flow": "waste-recovery"
     }
   ]
 }

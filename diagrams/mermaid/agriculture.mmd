@@ -15,6 +15,7 @@ graph TD
     agriculture["Agriculture"]
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
+    animals("Animals & Animal Husbandry")
     animals_aquaculture("Aquaculture & Fisheries")
     chemistry_electrodialysis("Electrodialysis")
     energy_electricity("Electricity Generation & Distribution")
@@ -29,6 +30,7 @@ graph TD
     chemistry_electrodialysis -.-> agriculture_hydroponic-ph-control
     foundations_food-agriculture --> agriculture_soil-management
     agriculture_aquaponics -.-> animals_aquaculture
+    agriculture_soil-management --> animals
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -49,6 +51,7 @@ graph TD
     class agriculture_soil-management earlyWin
     class agriculture_soil-management_vermiculture earlyWin
     class agriculture_aquaponics capability
+    class animals external
     class animals_aquaculture external
     class chemistry_electrodialysis external
     class energy_electricity external

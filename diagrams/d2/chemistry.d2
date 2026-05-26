@@ -212,6 +212,9 @@ food-processing_preservation: Food Preservation {
 foundations: Foundations {
   shape: rectangle
 }
+foundations_fire: Fire-Making {
+  shape: rectangle
+}
 gas-handling: Gas Handling {
   shape: rectangle
 }
@@ -267,6 +270,12 @@ metals_aluminum: Aluminum Production {
   shape: rectangle
 }
 metals_finishing: "Metal Finishing & Surface Treatment" {
+  shape: rectangle
+}
+metals_forming: Primary Metal Forming {
+  shape: rectangle
+}
+metals_iron-steel_blast-furnace: Blast Furnace and Cast Iron {
   shape: rectangle
 }
 metals_non-ferrous: Non-Ferrous Metal Production {
@@ -357,6 +366,9 @@ vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
   shape: rectangle
 }
 water_desalination: Desalination {
+  shape: rectangle
+}
+water_sewage: "Sewage Collection & Treatment" {
   shape: rectangle
 }
 
@@ -496,6 +508,10 @@ health_diagnostics -> chemistry: { class: tool-edge }
 health_pharmaceutical-production -> chemistry_distillation: { class: tool-edge }
 ehs_toxicology -> chemistry: { class: tool-edge }
 ehs_radiation-safety -> chemistry: { class: tool-edge }
+chemistry_cement -> metals_iron-steel_blast-furnace: { class: material-edge }
+chemistry_alkalis -> foundations_fire: { class: material-edge }
+chemistry_water-treatment -> water_sewage: { class: material-edge }
+chemistry_acid-regeneration -> metals_forming: { class: material-edge }
 
 # ==================== STYLING ====================
 chemistry.class: domain
@@ -559,6 +575,7 @@ energy_wind.class: external
 food-processing_brewing.class: external
 food-processing_preservation.class: external
 foundations.class: external
+foundations_fire.class: external
 gas-handling.class: external
 gas-handling_basic.class: external
 glass.class: external
@@ -578,6 +595,8 @@ measurement.class: external
 metals.class: external
 metals_aluminum.class: external
 metals_finishing.class: external
+metals_forming.class: external
+metals_iron-steel_blast-furnace.class: external
 metals_non-ferrous.class: external
 metals_powder-metallurgy.class: external
 metals_precious-metals.class: external
@@ -608,6 +627,7 @@ transport_aviation.class: external
 transport_telegraph.class: external
 vlsi-scaling_eda-design.class: external
 water_desalination.class: external
+water_sewage.class: external
 
 # ==================== LEGEND ====================
 d2-legend: "Edge Types" {

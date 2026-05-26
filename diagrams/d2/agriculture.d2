@@ -96,6 +96,9 @@ agriculture_internal: "Agriculture — Internal Structure" {
 agriculture: Agriculture
 
 # ==================== EXTERNAL DEPENDENCIES ====================
+animals: "Animals & Animal Husbandry" {
+  shape: rectangle
+}
 animals_aquaculture: "Aquaculture & Fisheries" {
   shape: rectangle
 }
@@ -118,6 +121,7 @@ agriculture_hydroponic-ph-control -> energy_electricity: { class: material-edge 
 chemistry_electrodialysis -> agriculture_hydroponic-ph-control: { class: tool-edge }
 foundations_food-agriculture -> agriculture_soil-management: { class: material-edge }
 agriculture_aquaponics -> animals_aquaculture: { class: tool-edge }
+agriculture_soil-management -> animals: { class: material-edge }
 
 # ==================== STYLING ====================
 agriculture.class: domain
@@ -125,6 +129,7 @@ agriculture_hydroponic-ph-control.class: capability
 agriculture_soil-management.class: earlyWin
 agriculture_soil-management_vermiculture.class: earlyWin
 agriculture_aquaponics.class: capability
+animals.class: external
 animals_aquaculture.class: external
 chemistry_electrodialysis.class: external
 energy_electricity.class: external

@@ -37,6 +37,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     agriculture_aquaponics("Aquaponics")
+    agriculture_soil-management("Soil Management & Composting")
     ceramics_lime("Lime Production")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
     foundations("Foundations")
@@ -113,6 +114,7 @@ graph TD
     foundations_food-agriculture --> animals_rabbits
     animals_poultry --> foundations_food-agriculture
     agriculture_aquaponics -.-> animals_aquaculture
+    agriculture_soil-management --> animals
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -155,6 +157,7 @@ graph TD
     class animals_rabbits earlyWin
     class animals_insect-farming earlyWin
     class agriculture_aquaponics external
+    class agriculture_soil-management external
     class ceramics_lime external
     class chemistry_lubricants external
     class foundations external

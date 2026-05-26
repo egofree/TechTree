@@ -100,6 +100,9 @@ water: Water
 chemistry_electrodialysis: Electrodialysis {
   shape: rectangle
 }
+chemistry_water-treatment: Industrial Water Treatment {
+  shape: rectangle
+}
 energy_electricity: "Electricity Generation & Distribution" {
   shape: rectangle
 }
@@ -111,6 +114,7 @@ food-processing: Food Processing {
 water_desalination -> energy_electricity: { class: material-edge }
 chemistry_electrodialysis -> water_desalination: { class: tool-edge }
 food-processing -> water: { class: material-edge }
+chemistry_water-treatment -> water_sewage: { class: material-edge }
 
 # ==================== STYLING ====================
 water.class: domain
@@ -120,6 +124,7 @@ water_distribution.class: capability
 water_basic-treatment.class: capability
 water_sewage.class: capability
 chemistry_electrodialysis.class: external
+chemistry_water-treatment.class: external
 energy_electricity.class: external
 food-processing.class: external
 

@@ -22,6 +22,7 @@ graph TD
     glass_fibers("Glass Fiber Production")
     machine-tools("Machine Tools Bootstrap")
     metals("Metals")
+    metals_precious-metals("Precious Metal Production (Gold & Silver)")
     polymers_thermoplastics("Thermoplastic Polymers")
     polymers_thermosets("Thermosetting Polymers")
     silicon_basic-devices("Basic Semiconductor Devices")
@@ -42,6 +43,7 @@ graph TD
     vlsi-scaling_eda-design -.-> electronics_assembly
     automation -.-> electronics
     automation_equipment-communication -.-> electronics
+    metals_precious-metals --> electronics
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -69,6 +71,7 @@ graph TD
     class glass_fibers external
     class machine-tools external
     class metals external
+    class metals_precious-metals external
     class polymers_thermoplastics external
     class polymers_thermosets external
     class silicon_basic-devices external

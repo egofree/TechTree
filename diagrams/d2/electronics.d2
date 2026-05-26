@@ -121,6 +121,9 @@ machine-tools: Machine Tools Bootstrap {
 metals: Metals {
   shape: rectangle
 }
+metals_precious-metals: "Precious Metal Production (Gold & Silver)" {
+  shape: rectangle
+}
 polymers_thermoplastics: Thermoplastic Polymers {
   shape: rectangle
 }
@@ -149,6 +152,7 @@ computing_electronic -> electronics_assembly: { class: tool-edge }
 vlsi-scaling_eda-design -> electronics_assembly: { class: tool-edge }
 automation -> electronics: { class: tool-edge }
 automation_equipment-communication -> electronics: { class: tool-edge }
+metals_precious-metals -> electronics: { class: material-edge }
 
 # ==================== STYLING ====================
 electronics.class: domain
@@ -163,6 +167,7 @@ energy_electricity.class: external
 glass_fibers.class: external
 machine-tools.class: external
 metals.class: external
+metals_precious-metals.class: external
 polymers_thermoplastics.class: external
 polymers_thermosets.class: external
 silicon_basic-devices.class: external

@@ -25,6 +25,7 @@ graph TD
     animals_rabbits("Rabbit Husbandry")
     ceramics("Ceramics & Refractories")
     ceramics_pottery("Pottery & Clay Products")
+    chemistry_alkalis("Alkali Production")
     chemistry_lubricants("Lubricants, Oils & Fluid Mechanics")
     chemistry_petroleum-alternatives("Petroleum & Alternative Chemistry")
     construction("Construction & Structural Engineering")
@@ -104,6 +105,7 @@ graph TD
     marine -.-> foundations
     economics-organization -.-> foundations
     economics-organization_division-of-labor --> foundations_food-agriculture
+    chemistry_alkalis --> foundations_fire
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -134,6 +136,7 @@ graph TD
     class animals_rabbits external
     class ceramics external
     class ceramics_pottery external
+    class chemistry_alkalis external
     class chemistry_lubricants external
     class chemistry_petroleum-alternatives external
     class construction external

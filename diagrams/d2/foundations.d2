@@ -126,6 +126,9 @@ ceramics: "Ceramics & Refractories" {
 ceramics_pottery: "Pottery & Clay Products" {
   shape: rectangle
 }
+chemistry_alkalis: Alkali Production {
+  shape: rectangle
+}
 chemistry_lubricants: "Lubricants, Oils & Fluid Mechanics" {
   shape: rectangle
 }
@@ -265,6 +268,7 @@ telecom_pre-electric -> foundations: { class: tool-edge }
 marine -> foundations: { class: tool-edge }
 economics-organization -> foundations: { class: tool-edge }
 economics-organization_division-of-labor -> foundations_food-agriculture: { class: material-edge }
+chemistry_alkalis -> foundations_fire: { class: material-edge }
 
 # ==================== STYLING ====================
 foundations.class: domain
@@ -282,6 +286,7 @@ animals_poultry.class: external
 animals_rabbits.class: external
 ceramics.class: external
 ceramics_pottery.class: external
+chemistry_alkalis.class: external
 chemistry_lubricants.class: external
 chemistry_petroleum-alternatives.class: external
 construction.class: external

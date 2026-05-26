@@ -120,6 +120,9 @@ animals: "Animals & Animal Husbandry"
 agriculture_aquaponics: Aquaponics {
   shape: rectangle
 }
+agriculture_soil-management: "Soil Management & Composting" {
+  shape: rectangle
+}
 ceramics_lime: Lime Production {
   shape: rectangle
 }
@@ -226,6 +229,7 @@ foundations_food-agriculture -> animals_pigs: { class: material-edge }
 foundations_food-agriculture -> animals_rabbits: { class: material-edge }
 animals_poultry -> foundations_food-agriculture: { class: material-edge }
 agriculture_aquaponics -> animals_aquaculture: { class: tool-edge }
+agriculture_soil-management -> animals: { class: material-edge }
 
 # ==================== STYLING ====================
 animals.class: domain
@@ -255,6 +259,7 @@ animals_bison.class: capability
 animals_rabbits.class: earlyWin
 animals_insect-farming.class: earlyWin
 agriculture_aquaponics.class: external
+agriculture_soil-management.class: external
 ceramics_lime.class: external
 chemistry_lubricants.class: external
 foundations.class: external

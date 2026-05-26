@@ -29,9 +29,11 @@ graph TD
     ceramics("Ceramics & Refractories")
     ceramics_kilns("Kiln Construction")
     chemistry("Chemistry")
+    chemistry_acid-regeneration("Acid Regeneration")
     chemistry_acids("Mineral Acid Production")
     chemistry_alkalis("Alkali Production")
     chemistry_ammonia("Ammonia & Fertilizer Production")
+    chemistry_cement("Cement & Concrete")
     chemistry_coatings("Paints, Coatings & Inks")
     chemistry_electrolysis("Electrolysis")
     chemistry_hydrogen-silane("Hydrogen & Silane Production")
@@ -111,6 +113,9 @@ graph TD
     metals_specialty-semiconductor -.-> metals_refractory-specialty
     metals_precious-metals -.-> metals
     metals_precious-metals -.-> metals_non-ferrous
+    metals_steelmaking --> metals_iron-steel
+    metals_aluminum --> metals_aluminum
+    metals_copper-bronze --> metals_copper-bronze
     metals -.-> foundations
     metals --> mining
     machine-tools_joining --> metals_iron-steel
@@ -195,6 +200,9 @@ graph TD
     marine_propulsion --> metals_iron-steel
     marine_infrastructure --> metals_iron-steel
     economics-organization_currency --> metals
+    chemistry_cement --> metals_iron-steel_blast-furnace
+    metals_precious-metals --> electronics
+    chemistry_acid-regeneration --> metals_forming
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -229,9 +237,11 @@ graph TD
     class ceramics external
     class ceramics_kilns external
     class chemistry external
+    class chemistry_acid-regeneration external
     class chemistry_acids external
     class chemistry_alkalis external
     class chemistry_ammonia external
+    class chemistry_cement external
     class chemistry_coatings external
     class chemistry_electrolysis external
     class chemistry_hydrogen-silane external

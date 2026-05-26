@@ -71,6 +71,7 @@ graph TD
     food-processing_brewing("Brewing & Distilling")
     food-processing_preservation("Food Preservation")
     foundations("Foundations")
+    foundations_fire("Fire-Making")
     gas-handling("Gas Handling")
     gas-handling_basic("Basic Gas Handling")
     glass("Glass")
@@ -90,6 +91,8 @@ graph TD
     metals("Metals")
     metals_aluminum("Aluminum Production")
     metals_finishing("Metal Finishing & Surface Treatment")
+    metals_forming("Primary Metal Forming")
+    metals_iron-steel_blast-furnace("Blast Furnace and Cast Iron")
     metals_non-ferrous("Non-Ferrous Metal Production")
     metals_powder-metallurgy("Powder Metallurgy & Advanced Materials")
     metals_precious-metals("Precious Metal Production (Gold & Silver)")
@@ -120,6 +123,7 @@ graph TD
     transport_telegraph("Telegraph Communication")
     vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
     water_desalination("Desalination")
+    water_sewage("Sewage Collection & Treatment")
 
     %% ==================== EDGES ====================
     chemistry_hydrogen-silane --> chemistry_electrolysis
@@ -257,6 +261,10 @@ graph TD
     health_pharmaceutical-production -.-> chemistry_distillation
     ehs_toxicology -.-> chemistry
     ehs_radiation-safety -.-> chemistry
+    chemistry_cement --> metals_iron-steel_blast-furnace
+    chemistry_alkalis --> foundations_fire
+    chemistry_water-treatment --> water_sewage
+    chemistry_acid-regeneration --> metals_forming
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -333,6 +341,7 @@ graph TD
     class food-processing_brewing external
     class food-processing_preservation external
     class foundations external
+    class foundations_fire external
     class gas-handling external
     class gas-handling_basic external
     class glass external
@@ -352,6 +361,8 @@ graph TD
     class metals external
     class metals_aluminum external
     class metals_finishing external
+    class metals_forming external
+    class metals_iron-steel_blast-furnace external
     class metals_non-ferrous external
     class metals_powder-metallurgy external
     class metals_precious-metals external
@@ -382,4 +393,5 @@ graph TD
     class transport_telegraph external
     class vlsi-scaling_eda-design external
     class water_desalination external
+    class water_sewage external
     class EdgeLegend,MatNote,ToolNote legend

@@ -17,6 +17,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     chemistry_electrodialysis("Electrodialysis")
+    chemistry_water-treatment("Industrial Water Treatment")
     energy_electricity("Electricity Generation & Distribution")
     food-processing("Food Processing")
 
@@ -24,6 +25,7 @@ graph TD
     water_desalination --> energy_electricity
     chemistry_electrodialysis -.-> water_desalination
     food-processing --> water
+    chemistry_water-treatment --> water_sewage
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -46,6 +48,7 @@ graph TD
     class water_basic-treatment capability
     class water_sewage capability
     class chemistry_electrodialysis external
+    class chemistry_water-treatment external
     class energy_electricity external
     class food-processing external
     class EdgeLegend,MatNote,ToolNote legend

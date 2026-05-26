@@ -118,6 +118,9 @@ ceramics_kilns: Kiln Construction {
 chemistry: Chemistry {
   shape: rectangle
 }
+chemistry_acid-regeneration: Acid Regeneration {
+  shape: rectangle
+}
 chemistry_acids: Mineral Acid Production {
   shape: rectangle
 }
@@ -125,6 +128,9 @@ chemistry_alkalis: Alkali Production {
   shape: rectangle
 }
 chemistry_ammonia: "Ammonia & Fertilizer Production" {
+  shape: rectangle
+}
+chemistry_cement: "Cement & Concrete" {
   shape: rectangle
 }
 chemistry_coatings: "Paints, Coatings & Inks" {
@@ -324,6 +330,9 @@ metals_specialty-semiconductor -> metals: { class: tool-edge }
 metals_specialty-semiconductor -> metals_refractory-specialty: { class: tool-edge }
 metals_precious-metals -> metals: { class: tool-edge }
 metals_precious-metals -> metals_non-ferrous: { class: tool-edge }
+metals_steelmaking -> metals_iron-steel: { class: material-edge }
+metals_aluminum -> metals_aluminum: { class: material-edge }
+metals_copper-bronze -> metals_copper-bronze: { class: material-edge }
 metals -> foundations: { class: tool-edge }
 metals -> mining: { class: material-edge }
 machine-tools_joining -> metals_iron-steel: { class: material-edge }
@@ -408,6 +417,9 @@ marine_navigation -> metals: { class: material-edge }
 marine_propulsion -> metals_iron-steel: { class: material-edge }
 marine_infrastructure -> metals_iron-steel: { class: material-edge }
 economics-organization_currency -> metals: { class: material-edge }
+chemistry_cement -> metals_iron-steel_blast-furnace: { class: material-edge }
+metals_precious-metals -> electronics: { class: material-edge }
+chemistry_acid-regeneration -> metals_forming: { class: material-edge }
 
 # ==================== STYLING ====================
 metals.class: domain
@@ -429,9 +441,11 @@ animals_beekeeping.class: external
 ceramics.class: external
 ceramics_kilns.class: external
 chemistry.class: external
+chemistry_acid-regeneration.class: external
 chemistry_acids.class: external
 chemistry_alkalis.class: external
 chemistry_ammonia.class: external
+chemistry_cement.class: external
 chemistry_coatings.class: external
 chemistry_electrolysis.class: external
 chemistry_hydrogen-silane.class: external

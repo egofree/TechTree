@@ -105,6 +105,7 @@ cp "$SCRIPT_DIR/assets/style.css" "$SITE_DIR/assets/style.css"
 
 log "Copying JS assets..."
 cp "$SCRIPT_DIR/assets/mermaid.min.js" "$SITE_DIR/assets/mermaid.min.js"
+cp "$SCRIPT_DIR/assets/fuse.min.js" "$SITE_DIR/assets/fuse.min.js"
 cp "$SCRIPT_DIR/assets/search.js" "$SITE_DIR/assets/search.js"
 cp "$SCRIPT_DIR/assets/main.js" "$SITE_DIR/assets/main.js"
 

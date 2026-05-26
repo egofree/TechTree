@@ -7,7 +7,7 @@
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/my-addition`)
 3. Make your changes
-4. Run validation: `bash scripts/validate.sh` (must pass all 16 checks)
+4. Run validation: `bash scripts/validate.sh` (must pass all 17 checks)
 5. Submit a pull request
 
 ### What We're Looking For

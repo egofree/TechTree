@@ -93,7 +93,8 @@ check_no_broken_links() {
 check_no_external_urls() {
     local matches
     matches=$(grep -rP 'https?://' "$SITE_DIR" --include="*.html" --include="*.js" --include="*.css" -l 2>/dev/null \
-        | grep -v 'mermaid\.min\.js$' || true)
+        | grep -v 'mermaid\.min\.js$' \
+        | grep -v 'fuse\.min\.js$' || true)
     if [[ -n "$matches" ]]; then
         echo "$matches" | while IFS= read -r f; do
             echo "    External URL found in ${f#$SITE_DIR/}" >&2

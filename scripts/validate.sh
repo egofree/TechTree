@@ -471,7 +471,7 @@ check_tag_value_validity() {
     local invalid
 
     local valid_materials='["metals","silicon","glass","ceramics","polymers","chemicals","wood","stone","clay","fibers","gases","water","biomass"]'
-    local valid_capabilities='["energy","precision","computing","transport","health","measurement","cooling","vacuum","optics","construction"]'
+    local valid_capabilities='["energy","precision","computing","transport","health","measurement","cooling","vacuum","optics","construction","organization","recovery"]'
     local valid_eras='["stone-age","copper-age","bronze-age","iron-age","industrial","electronic","semiconductor","advanced"]'
 
     # tags.material values must be from allowed list

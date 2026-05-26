@@ -306,6 +306,7 @@ def render_page(
 </footer>
 <script src="{asset_prefix}assets/mermaid.min.js"></script>
 <script src="{asset_prefix}assets/search-index.js"></script>
+<script src="{asset_prefix}assets/fuse.min.js"></script>
 <script src="{asset_prefix}assets/search.js"></script>
 <script src="{asset_prefix}assets/main.js"></script>
 </body>

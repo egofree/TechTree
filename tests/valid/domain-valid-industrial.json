@@ -1,0 +1,21 @@
+{
+  "id": "energy",
+  "name": "Energy Systems",
+  "level": "domain",
+  "parent": null,
+  "description": "Power generation from steam through electricity. Provides the energy backbone for all industrial processes.",
+  "timeline": "Years 15-40",
+  "outputs": ["steam_power", "electricity", "mechanical_power"],
+  "critical": true,
+  "critical_note": "Without energy, industrial-scale production is impossible.",
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": ["gases"],
+    "capability": ["energy"],
+    "era": "industrial",
+    "critical": true,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "metals.iron-steel.blast-furnace.pig-iron",
+  "name": "Blast Furnace Pig Iron Production",
+  "level": "process",
+  "parent": "metals.iron-steel.blast-furnace",
+  "description": "Continuous iron smelting in a blast furnace producing pig iron and slag as a byproduct. The dominant method for primary iron production.",
+  "timeline": "Years 15-25",
+  "outputs": ["pig_iron", "blast_furnace_slag", "blast_furnace_gas"],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "taxonomy": ["synthetic.alloy.pig-iron"],
+  "tags": {
+    "material": ["metals"],
+    "capability": ["energy"],
+    "era": "industrial",
+    "lifecycle": ["waste-source"],
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

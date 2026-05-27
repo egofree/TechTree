@@ -1,0 +1,20 @@
+{
+  "id": "bad-capability",
+  "name": "Bad Capability Tag Domain",
+  "level": "domain",
+  "parent": null,
+  "description": "This domain uses an invalid capability tag.",
+  "timeline": "Years 0-5",
+  "outputs": ["something"],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [],
+    "capability": ["flying"],
+    "era": "stone-age",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

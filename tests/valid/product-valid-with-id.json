@@ -1,0 +1,10 @@
+{
+  "id": "copper-ingot",
+  "@type": "Product",
+  "name": "Copper Ingot",
+  "source": "metals.copper-bronze",
+  "tags": {
+    "material": ["metals"],
+    "capability": ["energy"]
+  }
+}

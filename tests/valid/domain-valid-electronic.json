@@ -1,0 +1,21 @@
+{
+  "id": "silicon",
+  "name": "Silicon Technology",
+  "level": "domain",
+  "parent": null,
+  "description": "Production of metallurgical-grade silicon, purification, crystal growth, and basic semiconductor device fabrication.",
+  "timeline": "Years 30-70",
+  "outputs": ["mg_silicon", "polysilicon", "silicon_wafers", "basic_devices"],
+  "critical": true,
+  "critical_note": "Silicon is the foundation of all semiconductor technology.",
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": ["silicon"],
+    "capability": ["computing"],
+    "era": "electronic",
+    "critical": true,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

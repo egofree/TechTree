@@ -1,0 +1,12 @@
+{
+  "id": "no-tags",
+  "name": "No Tags Domain",
+  "level": "domain",
+  "parent": null,
+  "description": "This domain is missing the required tags field.",
+  "timeline": "Years 0-5",
+  "outputs": ["something"],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false
+}

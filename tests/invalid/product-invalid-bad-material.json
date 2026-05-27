@@ -1,0 +1,9 @@
+{
+  "@id": "bad-material-product",
+  "@type": "Product",
+  "name": "Bad Material Product",
+  "source": "metals.iron-steel",
+  "tags": {
+    "material": ["dark-matter"]
+  }
+}

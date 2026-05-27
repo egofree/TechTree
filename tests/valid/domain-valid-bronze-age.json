@@ -1,0 +1,22 @@
+{
+  "id": "metals",
+  "name": "Metallurgy",
+  "level": "domain",
+  "parent": null,
+  "description": "Extraction, refining, and alloying of metals from copper through steel. Enables tools, structures, and eventually precision manufacturing.",
+  "timeline": "Years 5-25",
+  "outputs": ["copper", "bronze", "iron", "steel", "castings"],
+  "critical": true,
+  "critical_note": "Metals are essential for tools, machinery, and all subsequent technology.",
+  "early_win": true,
+  "early_win_note": "Copper and bronze provide immediate improvements over stone tools.",
+  "pinnacle": false,
+  "tags": {
+    "material": ["metals"],
+    "capability": ["energy"],
+    "era": "bronze-age",
+    "critical": true,
+    "early-win": true,
+    "pinnacle": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "bad-capability-id",
+  "name": "Bad Capability ID",
+  "level": "capability",
+  "parent": "parent",
+  "description": "This capability has 0 dots in id which is wrong for capability level.",
+  "timeline": "Years 5-10",
+  "outputs": ["something"],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [],
+    "capability": [],
+    "era": "stone-age",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

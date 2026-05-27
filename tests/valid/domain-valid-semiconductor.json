@@ -1,0 +1,21 @@
+{
+  "id": "photolithography",
+  "name": "Photolithography",
+  "level": "domain",
+  "parent": null,
+  "description": "Optical patterning technology for semiconductor fabrication including cleanrooms, photoresists, and fab processes.",
+  "timeline": "Years 40-100",
+  "outputs": ["photoresist", "mask_aligner", "patterned_wafers"],
+  "critical": true,
+  "critical_note": "Photolithography enables IC fabrication and VLSI scaling.",
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": ["polymers", "chemicals"],
+    "capability": ["optics", "precision"],
+    "era": "semiconductor",
+    "critical": true,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "from": "glass.basic",
+  "to": "glass.basic",
+  "edgeType": "material",
+  "flow": "recycling-loop"
+}

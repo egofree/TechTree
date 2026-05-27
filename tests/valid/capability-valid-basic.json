@@ -1,0 +1,22 @@
+{
+  "id": "metals.iron-steel",
+  "name": "Iron & Steel Production",
+  "level": "capability",
+  "parent": "metals",
+  "description": "Smelting iron ore in bloomeries and furnaces to produce wrought iron, cast iron, and steel through carburization and heat treatment.",
+  "timeline": "Years 5-15",
+  "outputs": ["wrought_iron", "steel", "iron_bloom", "cast_iron"],
+  "critical": true,
+  "critical_note": "Steel is the backbone of industrial machinery and tools.",
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": ["metals"],
+    "capability": ["energy"],
+    "era": "iron-age",
+    "lifecycle": ["recyclable"],
+    "critical": true,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

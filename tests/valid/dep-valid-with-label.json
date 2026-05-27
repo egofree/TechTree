@@ -1,0 +1,8 @@
+{
+  "id": "energy.steam-power-->metals.iron-steel",
+  "from": "energy.steam-power",
+  "to": "metals.iron-steel",
+  "edgeType": "tool",
+  "flow": "primary",
+  "label": "Steel for boilers and cylinders"
+}

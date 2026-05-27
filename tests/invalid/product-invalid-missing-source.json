@@ -1,0 +1,8 @@
+{
+  "@id": "no-source",
+  "@type": "Product",
+  "name": "Missing Source Product",
+  "tags": {
+    "material": ["metals"]
+  }
+}

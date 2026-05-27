@@ -1,0 +1,21 @@
+{
+  "id": "vlsi-scaling",
+  "name": "VLSI Scaling",
+  "level": "domain",
+  "parent": null,
+  "description": "Advanced lithography, EDA design tools, and manufacturing at nanometer scales. The pinnacle of semiconductor manufacturing enabling modern GPUs and CPUs.",
+  "timeline": "Years 70-200+",
+  "outputs": ["gpu_chips", "cpu_chips", "advanced_ics", "euv_systems"],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": true,
+  "pinnacle_note": "GPU manufacturing represents the ultimate goal of bootstrapping civilization.",
+  "tags": {
+    "material": ["silicon", "polymers"],
+    "capability": ["computing", "precision"],
+    "era": "advanced",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": true
+  }
+}

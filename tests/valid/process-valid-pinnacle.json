@@ -1,0 +1,21 @@
+{
+  "id": "vlsi-scaling.advanced-lithography.euv-patterning",
+  "name": "EUV Patterning",
+  "level": "process",
+  "parent": "vlsi-scaling.advanced-lithography",
+  "description": "Cutting-edge lithographic patterning including EUV and multi-patterning techniques for sub-10nm feature sizes.",
+  "timeline": "Years 100-200",
+  "outputs": ["patterned_wafers_7nm", "euv_masks"],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": true,
+  "pinnacle_note": "Advanced lithography is the ultimate achievement in manufacturing precision.",
+  "tags": {
+    "material": ["silicon", "polymers"],
+    "capability": ["optics", "precision"],
+    "era": "advanced",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": true
+  }
+}

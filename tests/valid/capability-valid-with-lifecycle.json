@@ -1,0 +1,21 @@
+{
+  "id": "glass.basic",
+  "name": "Basic Glass Production",
+  "level": "capability",
+  "parent": "glass",
+  "description": "Manufacture of soda-lime glass from sand, soda ash, and limestone. Includes blowing, pressing, and annealing.",
+  "timeline": "Years 10-20",
+  "outputs": ["sheet_glass", "glass_vessels", "glass_cullet"],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": ["glass"],
+    "capability": ["construction"],
+    "era": "bronze-age",
+    "lifecycle": ["recyclable", "closed-loop"],
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ceramics.pottery.kiln-firing",
+  "name": "Kiln Firing",
+  "level": "process",
+  "parent": "ceramics.pottery",
+  "description": "Controlled high-temperature firing of shaped clay in kilns to produce durable ceramic vessels and components.",
+  "timeline": "Years 3-8",
+  "outputs": ["fired_pottery", "refractory_bricks", "kiln_waste_heat"],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "taxonomy": ["mineral.clay.kaolin", "mineral.stone.quartz"],
+  "tags": {
+    "material": ["ceramics", "clay"],
+    "capability": ["energy"],
+    "era": "stone-age",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

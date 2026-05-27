@@ -1,0 +1,21 @@
+{
+  "id": "chemistry",
+  "name": "Chemistry",
+  "level": "domain",
+  "parent": null,
+  "description": "Industrial chemistry including acids, alkalis, cement, and basic organic chemistry. Provides reagents for semiconductor processing.",
+  "timeline": "Years 15-30",
+  "outputs": ["acids", "alkalis", "cement", "soap", "dyes"],
+  "critical": true,
+  "critical_note": "Chemistry provides reagents for silicon processing and many downstream applications.",
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": ["chemicals"],
+    "capability": ["health"],
+    "era": "iron-age",
+    "critical": true,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

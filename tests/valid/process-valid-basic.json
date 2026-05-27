@@ -1,0 +1,21 @@
+{
+  "id": "silicon.crystal-growth.cz-pulling",
+  "name": "Czochralski Crystal Pulling",
+  "level": "process",
+  "parent": "silicon.crystal-growth",
+  "description": "Pulling single-crystal silicon ingots from a molten silicon bath using a seed crystal. Produces the wafers used in semiconductor fabrication.",
+  "timeline": "Years 40-60",
+  "outputs": ["silicon_ingot", "silicon_wafers"],
+  "critical": true,
+  "critical_note": "Single-crystal silicon wafers are essential for integrated circuit fabrication.",
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": ["silicon"],
+    "capability": ["precision"],
+    "era": "semiconductor",
+    "critical": true,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

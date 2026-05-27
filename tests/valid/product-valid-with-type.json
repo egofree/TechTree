@@ -1,0 +1,10 @@
+{
+  "@id": "optical-glass",
+  "@type": "techtree:Product",
+  "name": "Optical Glass",
+  "source": "glass.advanced",
+  "tags": {
+    "material": ["glass"],
+    "capability": ["optics"]
+  }
+}

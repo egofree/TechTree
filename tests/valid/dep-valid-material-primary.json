@@ -1,0 +1,7 @@
+{
+  "@type": "Dependency",
+  "from": "machine-tools.casting",
+  "to": "metals.iron-steel",
+  "edgeType": "material",
+  "flow": "primary"
+}

@@ -1,0 +1,6 @@
+{
+  "from": "metals.iron-steel",
+  "to": "machine-tools",
+  "edgeType": "required",
+  "flow": "primary"
+}

@@ -1,0 +1,10 @@
+{
+  "@id": "steel",
+  "@type": "Product",
+  "name": "Steel",
+  "source": "metals.iron-steel",
+  "tags": {
+    "material": ["metals"],
+    "lifecycle": ["recyclable"]
+  }
+}

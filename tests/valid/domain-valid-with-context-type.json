@@ -1,0 +1,23 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "id": "glass",
+  "name": "Glass Production",
+  "level": "domain",
+  "parent": null,
+  "description": "Production of glass from basic to advanced formulations, enabling optics, chemical vessels, and semiconductor components.",
+  "timeline": "Years 10-30",
+  "outputs": ["basic_glass", "borosilicate_glass", "optical_glass"],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": ["glass"],
+    "capability": ["optics"],
+    "era": "bronze-age",
+    "lifecycle": ["recyclable", "closed-loop"],
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

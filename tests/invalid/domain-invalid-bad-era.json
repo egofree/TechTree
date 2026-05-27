@@ -1,0 +1,20 @@
+{
+  "id": "bad-era",
+  "name": "Bad Era Domain",
+  "level": "domain",
+  "parent": null,
+  "description": "This domain uses an invalid era value.",
+  "timeline": "Years 1000-2000",
+  "outputs": ["something"],
+  "critical": false,
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [],
+    "capability": [],
+    "era": "space-age",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

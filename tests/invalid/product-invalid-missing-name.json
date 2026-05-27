@@ -1,0 +1,7 @@
+{
+  "@id": "no-name-product",
+  "source": "metals.iron-steel",
+  "tags": {
+    "material": ["metals"]
+  }
+}

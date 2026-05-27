@@ -1,0 +1,20 @@
+{
+  "id": "critical-string",
+  "name": "Critical As String Domain",
+  "level": "domain",
+  "parent": null,
+  "description": "This domain has critical as a string instead of boolean.",
+  "timeline": "Years 0-5",
+  "outputs": ["something"],
+  "critical": "yes",
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [],
+    "capability": [],
+    "era": "stone-age",
+    "critical": false,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

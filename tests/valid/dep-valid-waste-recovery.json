@@ -1,0 +1,6 @@
+{
+  "from": "metals.iron-steel",
+  "to": "metals.iron-steel",
+  "edgeType": "material",
+  "flow": "waste-recovery"
+}

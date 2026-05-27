@@ -1,0 +1,10 @@
+{
+  "@id": "recycled-glass-cullet",
+  "@type": "Product",
+  "name": "Recycled Glass Cullet",
+  "source": "glass.basic",
+  "tags": {
+    "material": ["glass"],
+    "lifecycle": ["recyclable", "recycled-feedstock", "closed-loop"]
+  }
+}

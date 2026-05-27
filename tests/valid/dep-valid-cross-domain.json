@@ -1,0 +1,6 @@
+{
+  "from": "silicon.mg-si-production",
+  "to": "mining",
+  "edgeType": "material",
+  "flow": "primary"
+}

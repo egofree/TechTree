@@ -1,0 +1,6 @@
+{
+  "@id": "no-tags-product",
+  "@type": "Product",
+  "name": "Missing Tags Product",
+  "source": "metals.iron-steel"
+}

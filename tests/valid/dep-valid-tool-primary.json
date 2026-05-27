@@ -1,0 +1,6 @@
+{
+  "from": "energy.steam-power",
+  "to": "machine-tools",
+  "edgeType": "tool",
+  "flow": "primary"
+}

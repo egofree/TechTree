@@ -1,0 +1,10 @@
+{
+  "@id": "extra-field-product",
+  "@type": "Product",
+  "name": "Extra Field Product",
+  "source": "metals.iron-steel",
+  "tags": {
+    "material": ["metals"]
+  },
+  "unexpectedField": "should fail"
+}

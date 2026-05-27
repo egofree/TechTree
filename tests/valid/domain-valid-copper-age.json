@@ -1,0 +1,21 @@
+{
+  "id": "mining",
+  "name": "Mining & Ore Extraction",
+  "level": "domain",
+  "parent": null,
+  "description": "Extraction of mineral resources from the earth, providing raw materials for all metallurgical and chemical processes.",
+  "timeline": "Years 5-10",
+  "outputs": ["copper_ore", "iron_ore", "tin_ore", "quartz", "clay_minerals"],
+  "critical": true,
+  "critical_note": "Mining provides essential raw materials for metals, silicon, and ceramics.",
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": ["stone", "metals"],
+    "capability": ["construction"],
+    "era": "copper-age",
+    "critical": true,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

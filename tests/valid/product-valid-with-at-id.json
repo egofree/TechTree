@@ -1,0 +1,8 @@
+{
+  "@id": "charcoal",
+  "name": "Charcoal",
+  "source": "foundations.fire",
+  "tags": {
+    "material": ["biomass", "wood"]
+  }
+}

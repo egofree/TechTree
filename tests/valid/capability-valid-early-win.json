@@ -1,0 +1,22 @@
+{
+  "id": "foundations.fire",
+  "name": "Fire Making & Control",
+  "level": "capability",
+  "parent": "foundations",
+  "description": "Creating and controlling fire for heat, light, cooking, charcoal production, and material processing.",
+  "timeline": "Years 0-2",
+  "outputs": ["fire", "charcoal", "ash", "heat"],
+  "critical": true,
+  "critical_note": "Fire is the single most important capability in civilization bootstrapping.",
+  "early_win": true,
+  "early_win_note": "Fire provides immediate benefits for cooking, warmth, and protection.",
+  "pinnacle": false,
+  "tags": {
+    "material": ["wood", "biomass"],
+    "capability": ["energy"],
+    "era": "stone-age",
+    "critical": true,
+    "early-win": true,
+    "pinnacle": false
+  }
+}

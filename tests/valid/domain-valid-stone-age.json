@@ -1,0 +1,22 @@
+{
+  "id": "foundations",
+  "name": "Foundations",
+  "level": "domain",
+  "parent": null,
+  "description": "Stone-age fundamentals including fire, basic tools, food production, and shelter. The root of all civilization bootstrapping.",
+  "timeline": "Years 0-5",
+  "outputs": ["fire", "stone_tools", "charcoal", "food", "shelter"],
+  "critical": true,
+  "critical_note": "Without foundations, no other domain can begin.",
+  "early_win": true,
+  "early_win_note": "Fire and basic tools provide immediate feedback loops.",
+  "pinnacle": false,
+  "tags": {
+    "material": ["wood", "stone", "biomass"],
+    "capability": ["construction"],
+    "era": "stone-age",
+    "critical": true,
+    "early-win": true,
+    "pinnacle": false
+  }
+}

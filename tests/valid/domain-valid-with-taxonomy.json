@@ -1,0 +1,22 @@
+{
+  "id": "textiles",
+  "name": "Textiles & Fibers",
+  "level": "domain",
+  "parent": null,
+  "description": "Processing of natural and synthetic fibers into textiles, cordage, and composite materials.",
+  "timeline": "Years 0-15",
+  "outputs": ["cordage", "cloth", "felt", "composites"],
+  "critical": false,
+  "early_win": true,
+  "early_win_note": "Cordage and cloth provide immediate quality-of-life improvements.",
+  "pinnacle": false,
+  "taxonomy": ["biomass.plant.fiber", "biomass.animal.wool"],
+  "tags": {
+    "material": ["fibers"],
+    "capability": ["construction"],
+    "era": "stone-age",
+    "critical": false,
+    "early-win": true,
+    "pinnacle": false
+  }
+}

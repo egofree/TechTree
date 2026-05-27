@@ -1,0 +1,21 @@
+{
+  "id": "machine-tools.casting",
+  "name": "Foundry & Casting",
+  "level": "capability",
+  "parent": "machine-tools",
+  "description": "Melting and casting metals into molds to produce machine parts, tools, and structural components.",
+  "timeline": "Years 10-20",
+  "outputs": ["cast_parts", "molds", "ingots"],
+  "critical": true,
+  "critical_note": "Casting enables mass production of complex metal shapes.",
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": ["metals", "ceramics"],
+    "capability": ["precision"],
+    "era": "bronze-age",
+    "critical": true,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

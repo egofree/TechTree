@@ -1,0 +1,115 @@
+{
+  "$comment": [
+    "JSON-LD context for the TechTree bootstrap ontology.",
+    "Maps all fields from nodes.json and edges.json to techtree: IRIs.",
+    "",
+    "EMMO (European Materials Modelling Ontology) vocabulary alignment:",
+    "  techtree:hasInput   ~ EMMO hasInput    (EMMO_36e69413_8b59_4799_b958_05d71b8397d0)",
+    "  techtree:hasOutput  ~ EMMO hasOutput   (EMMO_c4bace1d_4db0_4cd3_87e1_50ba0da26fd1)",
+    "  techtree:Process    ~ EMMO Process     (EMMO_43e9a05d_98af_41b4_92ee_c1d68d8bc49a)",
+    "  techtree:Product    ~ EMMO ManufacturedObject (EMMO_ec7464a9_d99d_4f8e_ae69_8befe44b2234)",
+    "  techtree:materialTag ~ EMMO Matter     (EMMO_5b2222df_4da6_442f_8244_96e9e7585d2a)",
+    "  techtree:dependsOn  ~ EMMO hasTemporalRelation (structural parallel, not exact match)",
+    "",
+    "These are vocabulary-level alignments (shared concept IRIs), NOT OWL imports.",
+    "No ontologies are imported. The techtree: scheme is a custom URI scheme for this project."
+  ],
+  "@context": {
+    "@base": "techtree:",
+    "@vocab": "techtree:",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "id": "@id",
+    "type": "@type",
+
+    "Domain": "techtree:Domain",
+    "Capability": "techtree:Capability",
+    "Process": "techtree:Process",
+    "Product": "techtree:Product",
+    "Dependency": "techtree:Dependency",
+
+    "name": {
+      "@id": "techtree:name",
+      "@type": "xsd:string"
+    },
+    "description": {
+      "@id": "techtree:description",
+      "@type": "xsd:string"
+    },
+    "level": "techtree:level",
+    "parent": {
+      "@id": "techtree:hasParent",
+      "@type": "@id"
+    },
+    "timeline": {
+      "@id": "techtree:timeline",
+      "@type": "xsd:string"
+    },
+    "outputs": {
+      "@id": "techtree:hasOutput",
+      "@type": "xsd:string"
+    },
+    "critical": {
+      "@id": "techtree:critical",
+      "@type": "xsd:boolean"
+    },
+    "critical_note": {
+      "@id": "techtree:criticalNote",
+      "@type": "xsd:string"
+    },
+    "early_win": {
+      "@id": "techtree:earlyWin",
+      "@type": "xsd:boolean"
+    },
+    "early_win_note": {
+      "@id": "techtree:earlyWinNote",
+      "@type": "xsd:string"
+    },
+    "pinnacle": {
+      "@id": "techtree:pinnacle",
+      "@type": "xsd:boolean"
+    },
+    "pinnacle_note": {
+      "@id": "techtree:pinnacleNote",
+      "@type": "xsd:string"
+    },
+    "taxonomy": {
+      "@id": "techtree:taxonomy",
+      "@type": "xsd:string"
+    },
+
+    "tags": "techtree:TagSet",
+    "material": "techtree:materialTag",
+    "capability": "techtree:capabilityTag",
+    "era": "techtree:era",
+    "lifecycle": "techtree:lifecycle",
+    "early-win": "techtree:earlyWinTag",
+
+    "from": {
+      "@id": "techtree:from",
+      "@type": "@id"
+    },
+    "to": {
+      "@id": "techtree:to",
+      "@type": "@id"
+    },
+    "edgeType": "techtree:edgeType",
+    "label": {
+      "@id": "techtree:label",
+      "@type": "xsd:string"
+    },
+    "flow": "techtree:flow",
+
+    "wikidataId": "techtree:wikidataId",
+
+    "dependsOn": {
+      "@id": "techtree:dependsOn",
+      "@type": "@id"
+    },
+    "hasInput": "techtree:hasInput",
+    "hasTool": "techtree:hasTool",
+
+    "nodes": "techtree:nodes",
+    "edges": "techtree:edges"
+  }
+}

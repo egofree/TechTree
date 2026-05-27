@@ -1,0 +1,154 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "techtree:schema/capability",
+  "title": "Capability Node",
+  "description": "Major skill or process family within a domain (1 dot in ID). Parent must be a domain node.",
+
+  "type": "object",
+  "additionalProperties": false,
+
+  "properties": {
+    "@context": {
+      "description": "JSON-LD context URI or object.",
+      "oneOf": [
+        { "type": "string", "format": "uri" },
+        { "type": "object" }
+      ]
+    },
+    "@id": {
+      "description": "JSON-LD node IRI.",
+      "type": "string"
+    },
+    "@type": {
+      "description": "JSON-LD type IRI.",
+      "oneOf": [
+        { "const": "techtree:Capability" },
+        { "const": "Capability" }
+      ]
+    },
+
+    "id": {
+      "description": "Dotted hierarchical: exactly one dot separating domain and capability segments.",
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*\\.[a-z][a-z0-9-]*$"
+    },
+    "name": {
+      "description": "Human-readable display name.",
+      "type": "string",
+      "minLength": 1
+    },
+    "level": {
+      "description": "Node depth in the hierarchy.",
+      "const": "capability"
+    },
+    "parent": {
+      "description": "ID of the parent domain node.",
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "description": {
+      "description": "1-3 sentence summary.",
+      "type": "string",
+      "minLength": 1
+    },
+    "timeline": {
+      "description": "Estimated time range (e.g., 'Years 5-15').",
+      "type": "string",
+      "minLength": 1
+    },
+    "outputs": {
+      "description": "Product/material/capability tokens produced.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "critical": {
+      "type": "boolean"
+    },
+    "critical_note": {
+      "type": "string",
+      "minLength": 1
+    },
+    "early_win": {
+      "type": "boolean"
+    },
+    "early_win_note": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pinnacle": {
+      "type": "boolean"
+    },
+    "pinnacle_note": {
+      "type": "string",
+      "minLength": 1
+    },
+    "taxonomy": {
+      "description": "Optional hierarchical material-origin classification.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^(biomass|mineral|synthetic)\\.[a-z][a-z0-9-]*(\\.[a-z][a-z0-9-]*)*$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "tags": {
+      "$ref": "#/$defs/tags"
+    }
+  },
+
+  "required": ["id", "name", "level", "parent", "description", "timeline", "outputs", "critical", "early_win", "pinnacle", "tags"],
+
+  "$defs": {
+    "tags": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "material": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["metals", "silicon", "glass", "ceramics", "polymers", "chemicals", "wood", "stone", "clay", "fibers", "gases", "water", "biomass"]
+          },
+          "uniqueItems": true
+        },
+        "capability": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["energy", "precision", "computing", "transport", "health", "measurement", "cooling", "vacuum", "optics", "construction", "organization"]
+          },
+          "uniqueItems": true
+        },
+        "era": {
+          "type": "string",
+          "enum": ["stone-age", "copper-age", "bronze-age", "iron-age", "industrial", "electronic", "semiconductor", "advanced"]
+        },
+        "lifecycle": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["waste-source", "waste-sink", "recyclable", "recycled-feedstock", "closed-loop"]
+          },
+          "minItems": 1,
+          "maxItems": 5,
+          "uniqueItems": true
+        },
+        "critical": {
+          "type": "boolean"
+        },
+        "early-win": {
+          "type": "boolean"
+        },
+        "pinnacle": {
+          "type": "boolean"
+        }
+      },
+      "required": ["material", "capability", "era", "critical", "early-win", "pinnacle"]
+    }
+  }
+}

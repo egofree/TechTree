@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "techtree:schema/dependency",
+  "title": "Dependency Edge",
+  "description": "Directed edge representing a dependency between two nodes. 'from' depends on 'to'. The edgeType classifies whether the prerequisite provides a consumed substance (material) or reusable infrastructure (tool). The flow qualifier classifies the circular economy role.",
+
+  "type": "object",
+  "additionalProperties": false,
+
+  "properties": {
+    "@context": {
+      "description": "JSON-LD context URI or object.",
+      "oneOf": [
+        { "type": "string", "format": "uri" },
+        { "type": "object" }
+      ]
+    },
+    "@id": {
+      "description": "JSON-LD edge IRI.",
+      "type": "string"
+    },
+    "@type": {
+      "description": "JSON-LD type IRI.",
+      "oneOf": [
+        { "const": "techtree:Dependency" },
+        { "const": "Dependency" }
+      ]
+    },
+
+    "from": {
+      "description": "Node ID of the dependent (the technology that requires a prerequisite).",
+      "type": "string",
+      "minLength": 1
+    },
+    "to": {
+      "description": "Node ID of the prerequisite (the technology that must exist first).",
+      "type": "string",
+      "minLength": 1
+    },
+    "edgeType": {
+      "description": "Nature of the dependency: consumed substance (material) or reusable equipment/infrastructure (tool). When ambiguous, classify as tool.",
+      "type": "string",
+      "enum": ["material", "tool"]
+    },
+    "flow": {
+      "description": "Circular economy role of this dependency. 'primary' for standard forward supply-chain; 'byproduct-reuse' for incidental output capture; 'waste-recovery' for end-of-life material recovery; 'recycling-loop' for closed-loop material return.",
+      "type": "string",
+      "enum": ["primary", "byproduct-reuse", "waste-recovery", "recycling-loop"]
+    },
+    "label": {
+      "description": "Optional human-readable description of what specifically flows along this edge.",
+      "type": "string",
+      "minLength": 1
+    }
+  },
+
+  "required": ["from", "to", "edgeType", "flow"]
+}

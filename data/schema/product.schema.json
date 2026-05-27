@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "techtree:schema/product",
+  "title": "Product Entity",
+  "description": "A material, substance, or capability extracted from the outputs tokens of a process node. Products represent the tangible things produced by the technology tree.",
+
+  "type": "object",
+  "additionalProperties": false,
+
+  "properties": {
+    "@context": {
+      "description": "JSON-LD context URI or object.",
+      "oneOf": [
+        { "type": "string", "format": "uri" },
+        { "type": "object" }
+      ]
+    },
+    "@id": {
+      "description": "JSON-LD product IRI (e.g., 'metals/iron-steel').",
+      "type": "string"
+    },
+    "@type": {
+      "description": "JSON-LD type IRI.",
+      "oneOf": [
+        { "const": "techtree:Product" },
+        { "const": "Product" }
+      ]
+    },
+
+    "name": {
+      "description": "Human-readable product name (e.g., 'Iron', 'Steel', 'Slag').",
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "description": "Node ID of the process that produces this product. Must reference a valid node in the tree.",
+      "type": "string",
+      "minLength": 1
+    },
+    "tags": {
+      "description": "Classification tags for the product.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "material": {
+          "description": "Material classification. 0-3 values from closed vocabulary.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["metals", "silicon", "glass", "ceramics", "polymers", "chemicals", "wood", "stone", "clay", "fibers", "gases", "water", "biomass"]
+          },
+          "maxItems": 3,
+          "uniqueItems": true
+        },
+        "capability": {
+          "description": "Functional capability tags. 0-2 values from closed vocabulary.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["energy", "precision", "computing", "transport", "health", "measurement", "cooling", "vacuum", "optics", "construction", "organization"]
+          },
+          "uniqueItems": true
+        },
+        "lifecycle": {
+          "description": "Optional material lifecycle role. 0-5 values.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["waste-source", "waste-sink", "recyclable", "recycled-feedstock", "closed-loop"]
+          },
+          "minItems": 1,
+          "maxItems": 5,
+          "uniqueItems": true
+        }
+      },
+      "required": ["material"]
+    }
+  },
+
+  "required": ["@id", "name", "source", "tags"]
+}

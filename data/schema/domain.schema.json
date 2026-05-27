@@ -1,0 +1,164 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "techtree:schema/domain",
+  "title": "Domain Node",
+  "description": "Top-level technology area with no parent (0 dots in ID). Domains group related capabilities sharing >50% infrastructure, knowledge, and practitioner overlap (SIK test).",
+
+  "type": "object",
+  "additionalProperties": false,
+
+  "properties": {
+    "@context": {
+      "description": "JSON-LD context URI or object.",
+      "oneOf": [
+        { "type": "string", "format": "uri" },
+        { "type": "object" }
+      ]
+    },
+    "@id": {
+      "description": "JSON-LD node IRI. Maps to the id field via @context.",
+      "type": "string"
+    },
+    "@type": {
+      "description": "JSON-LD type IRI.",
+      "oneOf": [
+        { "const": "techtree:Domain" },
+        { "const": "Domain" }
+      ]
+    },
+
+    "id": {
+      "description": "Unique identifier: single kebab-case segment with no dots (0 dots = domain).",
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "name": {
+      "description": "Human-readable display name.",
+      "type": "string",
+      "minLength": 1
+    },
+    "level": {
+      "description": "Node depth in the hierarchy.",
+      "const": "domain"
+    },
+    "parent": {
+      "description": "Domain nodes have no parent.",
+      "const": null
+    },
+    "description": {
+      "description": "1-3 sentence summary of what this node represents and why it matters.",
+      "type": "string",
+      "minLength": 1
+    },
+    "timeline": {
+      "description": "Estimated time range as a free-text string (e.g., 'Years 0-10').",
+      "type": "string",
+      "minLength": 1
+    },
+    "outputs": {
+      "description": "Product/material/capability tokens produced by this node.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "critical": {
+      "description": "True if this node is a critical-path enabler.",
+      "type": "boolean"
+    },
+    "critical_note": {
+      "description": "Why this node is critical. Only present when critical=true.",
+      "type": "string",
+      "minLength": 1
+    },
+    "early_win": {
+      "description": "True if this node provides a high-value early output creating a positive feedback loop.",
+      "type": "boolean"
+    },
+    "early_win_note": {
+      "description": "Description of the feedback loop. Only present when early_win=true.",
+      "type": "string",
+      "minLength": 1
+    },
+    "pinnacle": {
+      "description": "True if this node is an end-goal requiring a mature ecosystem.",
+      "type": "boolean"
+    },
+    "pinnacle_note": {
+      "description": "Why this is a pinnacle achievement. Only present when pinnacle=true.",
+      "type": "string",
+      "minLength": 1
+    },
+    "taxonomy": {
+      "description": "Optional hierarchical material-origin classification using dotted kebab-case strings. First segment must be one of: biomass, mineral, synthetic.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^(biomass|mineral|synthetic)\\.[a-z][a-z0-9-]*(\\.[a-z][a-z0-9-]*)*$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "tags": {
+      "$ref": "#/$defs/tags"
+    }
+  },
+
+  "required": ["id", "name", "level", "parent", "description", "timeline", "outputs", "critical", "early_win", "pinnacle", "tags"],
+
+  "$defs": {
+    "tags": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Classification tags along material, capability, era, and lifecycle dimensions.",
+      "properties": {
+        "material": {
+          "description": "Primary physical substances produced or transformed. 0-3 values from closed vocabulary.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["metals", "silicon", "glass", "ceramics", "polymers", "chemicals", "wood", "stone", "clay", "fibers", "gases", "water", "biomass"]
+          },
+          "uniqueItems": true
+        },
+        "capability": {
+          "description": "Primary functional capabilities. Domain nodes may inherit the union of children's tags.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["energy", "precision", "computing", "transport", "health", "measurement", "cooling", "vacuum", "optics", "construction", "organization"]
+          },
+          "uniqueItems": true
+        },
+        "era": {
+          "description": "Earliest historical era this node becomes achievable. Exactly one value.",
+          "type": "string",
+          "enum": ["stone-age", "copper-age", "bronze-age", "iron-age", "industrial", "electronic", "semiconductor", "advanced"]
+        },
+        "lifecycle": {
+          "description": "Optional material lifecycle role tags. 0-5 values from closed vocabulary.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["waste-source", "waste-sink", "recyclable", "recycled-feedstock", "closed-loop"]
+          },
+          "minItems": 1,
+          "maxItems": 5,
+          "uniqueItems": true
+        },
+        "critical": {
+          "type": "boolean"
+        },
+        "early-win": {
+          "type": "boolean"
+        },
+        "pinnacle": {
+          "type": "boolean"
+        }
+      },
+      "required": ["material", "capability", "era", "critical", "early-win", "pinnacle"]
+    }
+  }
+}

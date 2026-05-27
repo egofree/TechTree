@@ -2,63 +2,67 @@
   "entities": {
     "ceramics.pottery": {
       "aliases": {
+        "de": [
+          "Hafnerei"
+        ],
         "en": [
-          "Port Arthur, Texas",
-          "Port Arthur, TX"
+          "ceramics"
         ],
         "es": [
-          "Port Arthur (Texas)"
-        ],
-        "fr": [
-          "Port Arthur, Texas",
-          "Port Arthur, TX"
+          "alfareria",
+          "alfarería (oficio)"
         ]
       },
       "descriptions": {
-        "de": "Stadt im US-Bundesstaat Texas",
-        "en": "city in Jefferson County, Texas, United States",
-        "es": "ciudad del condado de Jefferson, estado de Texas, Estados Unidos",
-        "fr": "ville du Texas, États-Unis"
+        "de": "Technik zur Herstellung von Keramik",
+        "en": "craft of making objects from clay",
+        "es": "arte de elaborar objetos de barro o arcilla",
+        "fr": "technique de fabrication de vases et récipients en terre cuite",
+        "zh": "用黏土或陶土製作器具"
       },
       "labels": {
-        "de": "Port Arthur",
-        "en": "Port Arthur",
-        "es": "Port Arthur",
-        "fr": "Port Arthur",
-        "zh": "阿瑟港"
+        "de": "Töpferei",
+        "en": "pottery",
+        "es": "alfarería",
+        "fr": "poterie",
+        "zh": "製陶"
       },
       "name": "Pottery & Clay Products",
-      "wikidataId": "Q45400"
+      "wikidataId": "Q11642"
     },
     "energy.fuels.charcoal": {
       "aliases": {
+        "de": [
+          "Grillkohle"
+        ],
         "es": [
-          "Echium philotei",
-          "Echium rifeum",
-          "Viborera marítima",
-          "Echium confusum",
-          "Echium vidalii",
-          "Echium maritimum",
-          "Viborera maritima",
-          "Viborera marina"
+          "E 153",
+          "E153",
+          "carbón de leña",
+          "carbon vegetal"
         ],
         "fr": [
-          "Vipérine maritime"
+          "16291-96-6"
+        ],
+        "zh": [
+          "炭"
         ]
       },
       "descriptions": {
-        "de": "Art der Gattung Natternköpfe (Echium)",
-        "en": "species of plant",
-        "es": "especie de planta"
+        "de": "fester Brennstoff",
+        "en": "fuel",
+        "es": "residuo vegetal de carbono",
+        "fr": "carbone combustible obtenu par pyrolyse de bois"
       },
       "labels": {
-        "de": "Echium sabulicola",
-        "en": "Echium sabulicola",
-        "es": "Echium sabulicola",
-        "fr": "Echium sabulicola"
+        "de": "Holzkohle",
+        "en": "charcoal",
+        "es": "carbón vegetal",
+        "fr": "charbon de bois",
+        "zh": "木炭"
       },
       "name": "Charcoal Production",
-      "wikidataId": "Q142385"
+      "wikidataId": "Q177463"
     },
     "glass.basic": {
       "aliases": {},
@@ -82,34 +86,34 @@
     "metals.aluminum": {
       "aliases": {
         "en": [
-          "Shinseiki Evangelion",
-          "Shin Seiki Evangelion",
-          "Evangelion",
-          "NGE"
+          "element 13",
+          "13Al",
+          "aluminum"
         ],
         "es": [
-          "Evangelion"
+          "13Al"
         ],
         "fr": [
-          "Evangelion"
+          "élément 13",
+          "13Al"
         ]
       },
       "descriptions": {
-        "de": "Anime von Hideaki Anno (1995–1996)",
-        "en": "Japanese anime television series",
-        "es": "serie de anime creada por Hideaki Anno",
-        "fr": "anime japonais",
-        "zh": "日本科幻電視動畫"
+        "de": "chemisches Element mit dem Symbol Al und der Ordnungszahl 13",
+        "en": "metallic chemical element of silvery appearance with symbol Al and atomic number 13",
+        "es": "elemento químico",
+        "fr": "élément chimique de numéro atomique 13 et de symbole Al",
+        "zh": "原子序為13的化學元素"
       },
       "labels": {
-        "de": "Neon Genesis Evangelion",
-        "en": "Neon Genesis Evangelion",
-        "es": "Neon Genesis Evangelion",
-        "fr": "Neon Genesis Evangelion",
-        "zh": "新世紀福音戰士"
+        "de": "Aluminium",
+        "en": "aluminium",
+        "es": "aluminio",
+        "fr": "aluminium",
+        "zh": "鋁"
       },
       "name": "Aluminum Production",
-      "wikidataId": "Q662"
+      "wikidataId": "Q663"
     },
     "metals.copper-bronze": {
       "aliases": {
@@ -213,30 +217,43 @@
     },
     "silicon.mg-si-production": {
       "aliases": {
+        "de": [
+          "Silizium"
+        ],
         "en": [
-          "Alejandro Hannig"
+          "element 14",
+          "14Si"
         ],
         "es": [
-          "Alejandro Hannig Ulriksen"
+          "Si"
+        ],
+        "fr": [
+          "élément 14",
+          "14Si"
+        ],
+        "zh": [
+          "矽"
         ]
       },
       "descriptions": {
-        "de": "chilenischer Leichtathlet, Teilnehmer an den Olympischen Spielen 1928 in Amsterdam",
-        "en": "German athletics competitor (1897–1987)",
-        "es": "atleta alemán",
-        "fr": "athlète allemand"
+        "de": "chemisches Element mit dem Symbol Si und der Ordungszahl 14",
+        "en": "chemical element with symbol Si and atomic number 14",
+        "es": "elemento químico",
+        "fr": "élément chimique de numéro atomique 14 et de symbole Si",
+        "zh": "原子序为14的化学元素"
       },
       "labels": {
-        "de": "Alex Hannig",
-        "en": "Alex Hannig",
-        "es": "Alex Hannig",
-        "fr": "Alex Hannig"
+        "de": "Silicium",
+        "en": "silicon",
+        "es": "silicio",
+        "fr": "silicium",
+        "zh": "硅"
       },
       "name": "Metallurgical-Grade Silicon Production",
-      "wikidataId": "Q104629"
+      "wikidataId": "Q670"
     }
   },
-  "generated_at": "2026-05-27T16:25:48Z",
+  "generated_at": "2026-05-27T17:22:00Z",
   "languages": [
     "en",
     "es",

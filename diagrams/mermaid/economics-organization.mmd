@@ -5,12 +5,12 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph economics-organization_internal ["Economics & Organization — Internal Structure"]
         direction TB
-        economics-organization_division-of-labor["Division of Labor"]
-        economics-organization_trade["Trade & Barter"]
-        economics-organization_currency["Currency & Standardized Exchange"]
         economics-organization_accounting["Accounting & Record-Keeping"]
-        economics-organization_supply-chain["Supply Chain Coordination"]
+        economics-organization_currency["Currency & Standardized Exchange"]
+        economics-organization_division-of-labor["Division of Labor"]
         economics-organization_governance["Governance & Institutional Design"]
+        economics-organization_supply-chain["Supply Chain Coordination"]
+        economics-organization_trade["Trade & Barter"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -32,26 +32,26 @@ graph TD
 
     %% ==================== EDGES ====================
     economics-organization_accounting -.-> economics-organization_division-of-labor
-    economics-organization_supply-chain -.-> economics-organization_accounting
-    economics-organization_governance -.-> economics-organization_division-of-labor
     economics-organization_currency -.-> economics-organization_trade
+    economics-organization_governance -.-> economics-organization_division-of-labor
+    economics-organization_supply-chain -.-> economics-organization_accounting
     economics-organization_supply-chain -.-> economics-organization_trade
+    construction_industrial-buildings -.-> economics-organization_division-of-labor
+    defense_siege-warfare --> economics-organization_supply-chain
+    economics-organization_accounting -.-> knowledge_writing
+    economics-organization_accounting -.-> mathematics_core-mathematics
+    economics-organization_currency -.-> measurement_precision-metrology
+    economics-organization_currency --> metals
+    economics-organization_division-of-labor --> foundations_food-agriculture
+    economics-organization_division-of-labor -.-> knowledge_writing
+    economics-organization_governance -.-> knowledge_writing
+    economics-organization_supply-chain -.-> knowledge_writing
+    economics-organization_supply-chain -.-> transport
+    economics-organization_trade -.-> knowledge_writing
+    economics-organization_trade -.-> transport
     economics-organization -.-> foundations
     economics-organization -.-> knowledge
     economics-organization -.-> mathematics
-    economics-organization_division-of-labor --> foundations_food-agriculture
-    economics-organization_division-of-labor -.-> knowledge_writing
-    economics-organization_trade -.-> transport
-    economics-organization_trade -.-> knowledge_writing
-    economics-organization_currency --> metals
-    economics-organization_currency -.-> measurement_precision-metrology
-    economics-organization_accounting -.-> mathematics_core-mathematics
-    economics-organization_accounting -.-> knowledge_writing
-    economics-organization_supply-chain -.-> transport
-    economics-organization_supply-chain -.-> knowledge_writing
-    economics-organization_governance -.-> knowledge_writing
-    defense_siege-warfare --> economics-organization_supply-chain
-    construction_industrial-buildings -.-> economics-organization_division-of-labor
     photolithography_fab-processes -.-> economics-organization_supply-chain
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -69,12 +69,12 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class economics-organization domain
-    class economics-organization_division-of-labor earlyWin
-    class economics-organization_trade earlyWin
-    class economics-organization_currency capability
     class economics-organization_accounting capability
-    class economics-organization_supply-chain critical
+    class economics-organization_currency capability
+    class economics-organization_division-of-labor earlyWin
     class economics-organization_governance capability
+    class economics-organization_supply-chain critical
+    class economics-organization_trade earlyWin
     class construction_industrial-buildings external
     class defense_siege-warfare external
     class foundations external

@@ -138,21 +138,21 @@ vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
 }
 
 # ==================== EDGES ====================
-electronics -> metals: { class: material-edge }
-electronics -> energy_electricity: { class: tool-edge }
-electronics -> machine-tools: { class: tool-edge }
-electronics -> chemistry: { class: material-edge }
-electronics_assembly -> silicon_basic-devices: { class: material-edge }
+automation_equipment-communication -> electronics: { class: tool-edge }
+automation -> electronics: { class: tool-edge }
+computing_electronic -> electronics_assembly: { class: tool-edge }
 electronics_assembly -> glass_fibers: { class: material-edge }
 electronics_assembly -> polymers_thermosets: { class: material-edge }
-electronics_electrical-systems -> energy_electricity: { class: tool-edge }
+electronics_assembly -> silicon_basic-devices: { class: material-edge }
 electronics_electrical-systems -> chemistry_electrolysis: { class: material-edge }
+electronics_electrical-systems -> energy_electricity: { class: tool-edge }
 electronics_electrical-systems -> polymers_thermoplastics: { class: material-edge }
-computing_electronic -> electronics_assembly: { class: tool-edge }
-vlsi-scaling_eda-design -> electronics_assembly: { class: tool-edge }
-automation -> electronics: { class: tool-edge }
-automation_equipment-communication -> electronics: { class: tool-edge }
+electronics -> chemistry: { class: material-edge }
+electronics -> energy_electricity: { class: tool-edge }
+electronics -> machine-tools: { class: tool-edge }
+electronics -> metals: { class: material-edge }
 metals_precious-metals -> electronics: { class: material-edge }
+vlsi-scaling_eda-design -> electronics_assembly: { class: tool-edge }
 
 # ==================== STYLING ====================
 electronics.class: domain

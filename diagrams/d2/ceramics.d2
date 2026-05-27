@@ -86,12 +86,12 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 ceramics_internal: "Ceramics & Refractories — Internal Structure" {
-  ceramics_pottery: "Pottery & Clay Products"
-  ceramics_pottery_kiln-firing: Kiln Firing
-  ceramics_kilns: Kiln Construction
-  ceramics_lime: Lime Production
   ceramics_advanced-ceramics: "Advanced Ceramics & Refractories"
   ceramics_electronic-ceramics: Electronic Ceramics
+  ceramics_kilns: Kiln Construction
+  ceramics_lime: Lime Production
+  ceramics_pottery: "Pottery & Clay Products"
+  ceramics_pottery_kiln-firing: Kiln Firing
 }
 
 # ==================== DOMAIN NODE ====================
@@ -157,39 +157,39 @@ silicon: Silicon {
 }
 
 # ==================== EDGES ====================
-ceramics_lime -> ceramics_kilns: { class: tool-edge }
-ceramics_advanced-ceramics -> ceramics_pottery: { class: tool-edge }
 ceramics_advanced-ceramics -> ceramics_kilns: { class: tool-edge }
+ceramics_advanced-ceramics -> ceramics_pottery: { class: tool-edge }
 ceramics_electronic-ceramics -> ceramics_advanced-ceramics: { class: tool-edge }
-energy_fuels_coal -> ceramics_kilns: { class: tool-edge }
-energy_fuels_coke -> ceramics_kilns: { class: tool-edge }
-chemistry_cement -> ceramics_kilns: { class: tool-edge }
-photolithography_cleanrooms -> ceramics: { class: tool-edge }
-ceramics -> foundations: { class: tool-edge }
-ceramics -> metals: { class: tool-edge }
+ceramics_lime -> ceramics_kilns: { class: tool-edge }
+animals_animal-materials -> ceramics_lime: { class: tool-edge }
+ceramics_advanced-ceramics -> mining: { class: material-edge }
+ceramics_electronic-ceramics -> chemistry: { class: material-edge }
+ceramics_lime -> mining: { class: material-edge }
 ceramics_pottery_kiln-firing -> energy_fuels_charcoal: { class: material-edge }
 ceramics_pottery -> foundations_fire: { class: material-edge }
 ceramics_pottery -> foundations_tools-basic: { class: tool-edge }
-health_sanitation -> ceramics: { class: tool-edge }
-ceramics_lime -> mining: { class: material-edge }
-ceramics_advanced-ceramics -> mining: { class: material-edge }
-silicon -> ceramics_advanced-ceramics: { class: tool-edge }
-ceramics_electronic-ceramics -> chemistry: { class: material-edge }
-metals_iron-steel_blast-furnace -> ceramics_kilns: { class: tool-edge }
+ceramics -> foundations: { class: tool-edge }
+ceramics -> metals: { class: tool-edge }
+chemistry_cement -> ceramics_kilns: { class: tool-edge }
 chemistry_refractories -> ceramics_kilns: { class: tool-edge }
-animals_animal-materials -> ceramics_lime: { class: tool-edge }
 construction -> ceramics_lime: { class: material-edge }
-food-processing_preservation -> ceramics: { class: material-edge }
+energy_fuels_coal -> ceramics_kilns: { class: tool-edge }
+energy_fuels_coke -> ceramics_kilns: { class: tool-edge }
 food-processing_dairy -> ceramics: { class: material-edge }
+food-processing_preservation -> ceramics: { class: material-edge }
+health_sanitation -> ceramics: { class: tool-edge }
+metals_iron-steel_blast-furnace -> ceramics_kilns: { class: tool-edge }
+photolithography_cleanrooms -> ceramics: { class: tool-edge }
+silicon -> ceramics_advanced-ceramics: { class: tool-edge }
 
 # ==================== STYLING ====================
 ceramics.class: domain
-ceramics_pottery.class: capability
-ceramics_pottery_kiln-firing.class: process
-ceramics_kilns.class: capability
-ceramics_lime.class: capability
 ceramics_advanced-ceramics.class: critical
 ceramics_electronic-ceramics.class: capability
+ceramics_kilns.class: capability
+ceramics_lime.class: capability
+ceramics_pottery.class: capability
+ceramics_pottery_kiln-firing.class: process
 animals_animal-materials.class: external
 chemistry.class: external
 chemistry_cement.class: external

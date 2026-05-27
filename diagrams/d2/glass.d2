@@ -86,9 +86,9 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 glass_internal: "Glass — Internal Structure" {
-  glass_basic: Basic Glass Production
-  glass_advanced: Advanced Glass Production
   glass_advanced_glassblowing: Glassblowing and Scientific Apparatus
+  glass_advanced: Advanced Glass Production
+  glass_basic: Basic Glass Production
   glass_fibers: Glass Fiber Production
   glass_photomask-substrates: "Photomask Glass Substrates & ULE Glass"
 }
@@ -124,6 +124,9 @@ machine-tools: Machine Tools Bootstrap {
 mining: "Mining Engineering & Extractive Metallurgy" {
   shape: rectangle
 }
+optics_inspection: Optical Inspection {
+  shape: rectangle
+}
 photolithography_fab-processes: Core Fab Processes {
   shape: rectangle
 }
@@ -147,34 +150,35 @@ telecom_radio: Radio Communication {
 }
 
 # ==================== EDGES ====================
-glass_advanced -> glass_basic: { class: tool-edge }
 glass_advanced_glassblowing -> glass_advanced: { class: tool-edge }
-glass_fibers -> glass: { class: tool-edge }
-glass_fibers -> glass_advanced: { class: material-edge }
-glass_photomask-substrates -> glass_advanced: { class: tool-edge }
+glass_advanced -> glass_basic: { class: tool-edge }
 glass_basic -> glass_basic: { class: material-edge }
-glass_basic -> mining: { class: material-edge }
+glass_fibers -> glass_advanced: { class: material-edge }
+glass_fibers -> glass: { class: tool-edge }
+glass_photomask-substrates -> glass_advanced: { class: tool-edge }
 chemistry_acids -> glass_basic: { class: tool-edge }
-glass -> machine-tools: { class: tool-edge }
-glass -> energy: { class: material-edge }
-glass -> chemistry: { class: material-edge }
-silicon -> glass: { class: tool-edge }
-silicon_crystal-growth -> glass_advanced: { class: material-edge }
-glass_advanced_glassblowing -> energy_fuels: { class: tool-edge }
-glass -> chemistry_refractories: { class: material-edge }
-polymers_composites -> glass_fibers: { class: material-edge }
-photolithography_resists-masks -> glass_basic: { class: material-edge }
-electronics_assembly -> glass_fibers: { class: material-edge }
-glass_photomask-substrates -> photolithography_fab-processes: { class: material-edge }
 cleanrooms -> glass: { class: material-edge }
-telecom -> glass: { class: material-edge }
+electronics_assembly -> glass_fibers: { class: material-edge }
+glass_advanced_glassblowing -> energy_fuels: { class: tool-edge }
+glass_basic -> mining: { class: material-edge }
+glass_photomask-substrates -> photolithography_fab-processes: { class: material-edge }
+glass -> chemistry_refractories: { class: material-edge }
+glass -> chemistry: { class: material-edge }
+glass -> energy: { class: material-edge }
+glass -> machine-tools: { class: tool-edge }
+optics_inspection -> glass_advanced: { class: material-edge }
+photolithography_resists-masks -> glass_basic: { class: material-edge }
+polymers_composites -> glass_fibers: { class: material-edge }
+silicon_crystal-growth -> glass_advanced: { class: material-edge }
+silicon -> glass: { class: tool-edge }
 telecom_radio -> glass: { class: material-edge }
+telecom -> glass: { class: material-edge }
 
 # ==================== STYLING ====================
 glass.class: domain
-glass_basic.class: capability
-glass_advanced.class: capability
 glass_advanced_glassblowing.class: process
+glass_advanced.class: capability
+glass_basic.class: capability
 glass_fibers.class: capability
 glass_photomask-substrates.class: capability
 chemistry.class: external
@@ -186,6 +190,7 @@ energy.class: external
 energy_fuels.class: external
 machine-tools.class: external
 mining.class: external
+optics_inspection.class: external
 photolithography_fab-processes.class: external
 photolithography_resists-masks.class: external
 polymers_composites.class: external

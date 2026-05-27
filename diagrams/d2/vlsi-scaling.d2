@@ -88,8 +88,8 @@ classes: {
 vlsi-scaling_internal: "VLSI Scaling & Advanced Semiconductor — Internal Structure" {
   vlsi-scaling_advanced-lithography: Advanced Lithography
   vlsi-scaling_advanced-processes: Advanced Processes
-  vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging"
   vlsi-scaling_continuous-scaling: Continuous Scaling
+  vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging"
 }
 
 # ==================== DOMAIN NODE ====================
@@ -128,25 +128,25 @@ silicon_basic-devices: Basic Semiconductor Devices {
 }
 
 # ==================== EDGES ====================
-vlsi-scaling -> photolithography: { class: tool-edge }
-vlsi-scaling_continuous-scaling -> photolithography_fab-processes: { class: tool-edge }
-vlsi-scaling_advanced-lithography -> photolithography_resists-masks: { class: tool-edge }
+metals_specialty-semiconductor -> vlsi-scaling_advanced-processes: { class: tool-edge }
 vlsi-scaling_advanced-lithography -> optics_inspection: { class: tool-edge }
+vlsi-scaling_advanced-lithography -> photolithography_resists-masks: { class: tool-edge }
 vlsi-scaling_advanced-processes -> photolithography_fab-processes: { class: tool-edge }
+vlsi-scaling_continuous-scaling -> photolithography_fab-processes: { class: tool-edge }
+vlsi-scaling_eda-design -> chemistry_dopant-etch-gases: { class: tool-edge }
 vlsi-scaling_eda-design -> computing: { class: tool-edge }
+vlsi-scaling_eda-design -> electronics_assembly: { class: tool-edge }
 vlsi-scaling_eda-design -> photolithography_fab-processes: { class: tool-edge }
 vlsi-scaling_eda-design -> silicon_basic-devices: { class: tool-edge }
-vlsi-scaling_eda-design -> chemistry_dopant-etch-gases: { class: tool-edge }
-vlsi-scaling_eda-design -> electronics_assembly: { class: tool-edge }
-metals_specialty-semiconductor -> vlsi-scaling_advanced-processes: { class: tool-edge }
+vlsi-scaling -> photolithography: { class: tool-edge }
 vlsi-scaling -> quality-control: { class: tool-edge }
 
 # ==================== STYLING ====================
 vlsi-scaling.class: domain
 vlsi-scaling_advanced-lithography.class: capability
 vlsi-scaling_advanced-processes.class: capability
-vlsi-scaling_eda-design.class: capability
 vlsi-scaling_continuous-scaling.class: capability
+vlsi-scaling_eda-design.class: capability
 chemistry_dopant-etch-gases.class: external
 computing.class: external
 electronics_assembly.class: external

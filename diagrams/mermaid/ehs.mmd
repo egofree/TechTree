@@ -6,12 +6,12 @@ graph TD
     subgraph ehs_internal ["Environmental Health & Safety — Internal Structure"]
         direction TB
         ehs_chemical-safety["Chemical Safety & Toxicology"]
-        ehs_ventilation-exhaust["Ventilation & Exhaust Systems"]
-        ehs_ppe["Personal Protective Equipment"]
         ehs_emergency-response["Emergency Response"]
-        ehs_waste-management["Waste Management"]
-        ehs_toxicology["Toxicology"]
+        ehs_ppe["Personal Protective Equipment"]
         ehs_radiation-safety["Radiation Safety"]
+        ehs_toxicology["Toxicology"]
+        ehs_ventilation-exhaust["Ventilation & Exhaust Systems"]
+        ehs_waste-management["Waste Management"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -23,12 +23,12 @@ graph TD
     health_pharmacology("Pharmacology")
 
     %% ==================== EDGES ====================
-    ehs_toxicology -.-> ehs_chemical-safety
     ehs_radiation-safety -.-> ehs_chemical-safety
-    ehs_toxicology -.-> health_pharmacology
-    ehs_toxicology -.-> chemistry
-    ehs_radiation-safety -.-> health_occupational-health
+    ehs_toxicology -.-> ehs_chemical-safety
     ehs_radiation-safety -.-> chemistry
+    ehs_radiation-safety -.-> health_occupational-health
+    ehs_toxicology -.-> chemistry
+    ehs_toxicology -.-> health_pharmacology
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -46,12 +46,12 @@ graph TD
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class ehs domain
     class ehs_chemical-safety capability
-    class ehs_ventilation-exhaust capability
-    class ehs_ppe capability
     class ehs_emergency-response capability
-    class ehs_waste-management capability
-    class ehs_toxicology capability
+    class ehs_ppe capability
     class ehs_radiation-safety capability
+    class ehs_toxicology capability
+    class ehs_ventilation-exhaust capability
+    class ehs_waste-management capability
     class chemistry external
     class health_occupational-health external
     class health_pharmacology external

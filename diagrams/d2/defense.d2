@@ -86,10 +86,10 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 defense_internal: "Defense & Military Engineering — Internal Structure" {
-  defense_weapons: "Weapons & edged tools"
-  defense_fortifications: Fortification Engineering
   defense_armor: "Armor & Protective Systems"
+  defense_fortifications: Fortification Engineering
   defense_siege-warfare: "Siege Engineering & Military Logistics"
+  defense_weapons: "Weapons & edged tools"
 }
 
 # ==================== DOMAIN NODE ====================
@@ -116,19 +116,19 @@ transport: "Transportation & Logistics" {
 }
 
 # ==================== EDGES ====================
-defense -> metals: { class: material-edge }
-defense -> foundations: { class: tool-edge }
-defense -> chemistry_explosives: { class: material-edge }
-defense -> transport: { class: tool-edge }
-defense -> knowledge: { class: tool-edge }
 defense_siege-warfare -> economics-organization_supply-chain: { class: material-edge }
+defense -> chemistry_explosives: { class: material-edge }
+defense -> foundations: { class: tool-edge }
+defense -> knowledge: { class: tool-edge }
+defense -> metals: { class: material-edge }
+defense -> transport: { class: tool-edge }
 
 # ==================== STYLING ====================
 defense.class: domain
-defense_weapons.class: capability
-defense_fortifications.class: capability
 defense_armor.class: capability
+defense_fortifications.class: capability
 defense_siege-warfare.class: capability
+defense_weapons.class: capability
 chemistry_explosives.class: external
 economics-organization_supply-chain.class: external
 foundations.class: external

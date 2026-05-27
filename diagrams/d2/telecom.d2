@@ -86,11 +86,11 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 telecom_internal: "Telecommunications — Internal Structure" {
-  telecom_pre-electric: Pre-Electric Communication
   telecom_electric-telegraph: Electrical Telegraph Networks
-  telecom_telephone: Telephone Systems
-  telecom_submarine-cables: Submarine Cable Systems
+  telecom_pre-electric: Pre-Electric Communication
   telecom_radio: Radio Communication
+  telecom_submarine-cables: Submarine Cable Systems
+  telecom_telephone: Telephone Systems
 }
 
 # ==================== DOMAIN NODE ====================
@@ -124,36 +124,36 @@ transport_telegraph: Telegraph Communication {
 
 # ==================== EDGES ====================
 telecom_electric-telegraph -> telecom_pre-electric: { class: tool-edge }
-telecom_telephone -> telecom_electric-telegraph: { class: tool-edge }
-telecom_submarine-cables -> telecom_electric-telegraph: { class: tool-edge }
 telecom_radio -> telecom_electric-telegraph: { class: tool-edge }
-telecom -> energy_electricity: { class: tool-edge }
-telecom -> metals: { class: material-edge }
-telecom -> knowledge_writing: { class: tool-edge }
-telecom -> glass: { class: material-edge }
-telecom -> transport_telegraph: { class: tool-edge }
-telecom -> polymers_rubber_gutta-percha: { class: material-edge }
+telecom_submarine-cables -> telecom_electric-telegraph: { class: tool-edge }
+telecom_telephone -> telecom_electric-telegraph: { class: tool-edge }
+telecom_electric-telegraph -> energy_electricity: { class: tool-edge }
+telecom_electric-telegraph -> metals: { class: material-edge }
+telecom_electric-telegraph -> transport_telegraph: { class: tool-edge }
 telecom_pre-electric -> foundations: { class: tool-edge }
 telecom_pre-electric -> knowledge_writing: { class: tool-edge }
-telecom_electric-telegraph -> energy_electricity: { class: tool-edge }
-telecom_electric-telegraph -> transport_telegraph: { class: tool-edge }
-telecom_electric-telegraph -> metals: { class: material-edge }
+telecom_radio -> energy_electricity: { class: tool-edge }
+telecom_radio -> glass: { class: material-edge }
+telecom_radio -> metals: { class: material-edge }
+telecom_submarine-cables -> metals: { class: material-edge }
+telecom_submarine-cables -> polymers_rubber_gutta-percha: { class: material-edge }
+telecom_submarine-cables -> transport_shipping: { class: tool-edge }
 telecom_telephone -> energy_electricity: { class: tool-edge }
 telecom_telephone -> metals: { class: material-edge }
-telecom_submarine-cables -> transport_shipping: { class: tool-edge }
-telecom_submarine-cables -> polymers_rubber_gutta-percha: { class: material-edge }
-telecom_submarine-cables -> metals: { class: material-edge }
-telecom_radio -> energy_electricity: { class: tool-edge }
-telecom_radio -> metals: { class: material-edge }
-telecom_radio -> glass: { class: material-edge }
+telecom -> energy_electricity: { class: tool-edge }
+telecom -> glass: { class: material-edge }
+telecom -> knowledge_writing: { class: tool-edge }
+telecom -> metals: { class: material-edge }
+telecom -> polymers_rubber_gutta-percha: { class: material-edge }
+telecom -> transport_telegraph: { class: tool-edge }
 
 # ==================== STYLING ====================
 telecom.class: domain
-telecom_pre-electric.class: capability
 telecom_electric-telegraph.class: capability
-telecom_telephone.class: capability
-telecom_submarine-cables.class: capability
+telecom_pre-electric.class: capability
 telecom_radio.class: capability
+telecom_submarine-cables.class: capability
+telecom_telephone.class: capability
 energy_electricity.class: external
 foundations.class: external
 glass.class: external

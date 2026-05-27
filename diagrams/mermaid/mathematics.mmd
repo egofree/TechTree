@@ -5,8 +5,8 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph mathematics_internal ["Mathematics & Formal Sciences — Internal Structure"]
         direction TB
-        mathematics_core-mathematics["Core Mathematics"]
         mathematics_applied-mathematics["Applied Mathematics"]
+        mathematics_core-mathematics["Core Mathematics"]
         mathematics_formal-systems["Formal Systems"]
     end
 
@@ -24,12 +24,12 @@ graph TD
     %% ==================== EDGES ====================
     mathematics_applied-mathematics -.-> mathematics_core-mathematics
     mathematics_formal-systems -.-> mathematics_core-mathematics
+    computing_digital-logic -.-> mathematics_formal-systems
+    computing_mechanical -.-> mathematics_core-mathematics
+    economics-organization_accounting -.-> mathematics_core-mathematics
+    economics-organization -.-> mathematics
     mathematics_core-mathematics -.-> foundations
     mathematics -.-> knowledge_writing
-    computing_mechanical -.-> mathematics_core-mathematics
-    computing_digital-logic -.-> mathematics_formal-systems
-    economics-organization -.-> mathematics
-    economics-organization_accounting -.-> mathematics_core-mathematics
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -46,8 +46,8 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class mathematics domain
-    class mathematics_core-mathematics earlyWin
     class mathematics_applied-mathematics capability
+    class mathematics_core-mathematics earlyWin
     class mathematics_formal-systems capability
     class computing_digital-logic external
     class computing_mechanical external

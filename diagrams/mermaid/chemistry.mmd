@@ -5,36 +5,36 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph chemistry_internal ["Chemistry — Internal Structure"]
         direction TB
+        chemistry_acid-regeneration["Acid Regeneration"]
+        chemistry_acids-bases["Acids & Bases (Comprehensive Reference)"]
         chemistry_acids["Mineral Acid Production"]
-        chemistry_alkalis["Alkali Production"]
-        chemistry_cement["Cement & Concrete"]
-        chemistry_electrolysis["Electrolysis"]
-        chemistry_air-separation["Air Separation & Bulk Gas Production"]
-        chemistry_hydrogen-silane["Hydrogen & Silane Production"]
-        chemistry_dopant-etch-gases["Dopant & Etch Gases"]
-        chemistry_packaging-testing["Semiconductor Packaging & Testing"]
-        chemistry_petroleum-alternatives["Petroleum & Alternative Chemistry"]
-        chemistry_lubricants["Lubricants, Oils & Fluid Mechanics"]
-        chemistry_distillation["Distillation"]
-        chemistry_explosives["Explosives and Propellants"]
-        chemistry_petroleum-alternatives_fermentation["Fermentation Chemistry"]
-        chemistry_petroleum-alternatives_wood-gasification["Wood Gasification"]
-        chemistry_ammonia["Ammonia & Fertilizer Production"]
-        chemistry_soap["Soap & Detergent Production"]
-        chemistry_solvents["Solvent Production"]
-        chemistry_refractories["Refractory Materials"]
-        chemistry_coatings["Paints, Coatings & Inks"]
-        chemistry_pulp-chemicals["Pulp & Paper Chemicals"]
         chemistry_adhesives-coatings["Adhesives & Specialty Coatings"]
-        chemistry_electrolysis_sem-tech["Semiconductor-Grade Electrolysis"]
-        chemistry_water-electrolysis["Water Electrolysis"]
+        chemistry_air-separation["Air Separation & Bulk Gas Production"]
+        chemistry_alkalis["Alkali Production"]
+        chemistry_ammonia["Ammonia & Fertilizer Production"]
+        chemistry_cement["Cement & Concrete"]
+        chemistry_coatings["Paints, Coatings & Inks"]
+        chemistry_distillation["Distillation"]
+        chemistry_dopant-etch-gases["Dopant & Etch Gases"]
         chemistry_e-methanol["E-Methanol Synthesis"]
         chemistry_electrodialysis["Electrodialysis"]
-        chemistry_acids-bases["Acids & Bases (Comprehensive Reference)"]
-        chemistry_water-treatment["Industrial Water Treatment"]
+        chemistry_electrolysis["Electrolysis"]
+        chemistry_electrolysis_sem-tech["Semiconductor-Grade Electrolysis"]
+        chemistry_explosives["Explosives and Propellants"]
+        chemistry_hydrogen-silane["Hydrogen & Silane Production"]
         chemistry_lithium-separation["Lithium Separation"]
-        chemistry_acid-regeneration["Acid Regeneration"]
+        chemistry_lubricants["Lubricants, Oils & Fluid Mechanics"]
+        chemistry_packaging-testing["Semiconductor Packaging & Testing"]
+        chemistry_petroleum-alternatives_fermentation["Fermentation Chemistry"]
+        chemistry_petroleum-alternatives["Petroleum & Alternative Chemistry"]
+        chemistry_petroleum-alternatives_wood-gasification["Wood Gasification"]
+        chemistry_pulp-chemicals["Pulp & Paper Chemicals"]
+        chemistry_refractories["Refractory Materials"]
         chemistry_semiconductor-chemicals["Semiconductor Process Chemicals"]
+        chemistry_soap["Soap & Detergent Production"]
+        chemistry_solvents["Solvent Production"]
+        chemistry_water-electrolysis["Water Electrolysis"]
+        chemistry_water-treatment["Industrial Water Treatment"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -126,145 +126,146 @@ graph TD
     water_sewage("Sewage Collection & Treatment")
 
     %% ==================== EDGES ====================
-    chemistry_hydrogen-silane --> chemistry_electrolysis
-    chemistry_dopant-etch-gases --> chemistry_electrolysis
-    chemistry_dopant-etch-gases -.-> chemistry
-    chemistry_lubricants --> chemistry_petroleum-alternatives
-    chemistry_explosives --> chemistry_acids
-    chemistry_explosives --> chemistry_alkalis
-    chemistry_petroleum-alternatives_fermentation -.-> chemistry_petroleum-alternatives
-    chemistry_petroleum-alternatives_wood-gasification -.-> chemistry_petroleum-alternatives
+    chemistry_acids --> chemistry_ammonia
     chemistry_ammonia --> chemistry_air-separation
     chemistry_ammonia --> chemistry_electrolysis
-    chemistry_acids --> chemistry_ammonia
-    chemistry_soap --> chemistry_alkalis
-    chemistry_soap --> chemistry_petroleum-alternatives
-    chemistry_solvents --> chemistry_petroleum-alternatives
-    chemistry_solvents -.-> chemistry_distillation
-    chemistry_solvents --> chemistry_petroleum-alternatives_fermentation
-    chemistry_coatings --> chemistry_petroleum-alternatives
     chemistry_coatings --> chemistry_acids
-    chemistry_pulp-chemicals --> chemistry_alkalis
-    chemistry_pulp-chemicals --> chemistry_electrolysis
-    chemistry_electrolysis -.-> chemistry_water-electrolysis
+    chemistry_coatings --> chemistry_petroleum-alternatives
+    chemistry_dopant-etch-gases --> chemistry_electrolysis
+    chemistry_dopant-etch-gases -.-> chemistry
+    chemistry_electrodialysis -.-> chemistry_acid-regeneration
     chemistry_electrolysis -.-> chemistry_electrodialysis
     chemistry_electrolysis -.-> chemistry_lithium-separation
+    chemistry_electrolysis -.-> chemistry_water-electrolysis
+    chemistry_explosives --> chemistry_acids
+    chemistry_explosives --> chemistry_alkalis
+    chemistry_hydrogen-silane --> chemistry_electrolysis
+    chemistry_lubricants --> chemistry_petroleum-alternatives
+    chemistry_petroleum-alternatives_fermentation -.-> chemistry_petroleum-alternatives
+    chemistry_petroleum-alternatives_wood-gasification -.-> chemistry_petroleum-alternatives
+    chemistry_pulp-chemicals --> chemistry_alkalis
+    chemistry_pulp-chemicals --> chemistry_electrolysis
+    chemistry_soap --> chemistry_alkalis
+    chemistry_soap --> chemistry_petroleum-alternatives
+    chemistry_solvents -.-> chemistry_distillation
+    chemistry_solvents --> chemistry_petroleum-alternatives_fermentation
+    chemistry_solvents --> chemistry_petroleum-alternatives
     chemistry_water-electrolysis --> chemistry_e-methanol
-    chemistry_electrodialysis -.-> chemistry_acid-regeneration
-    energy_gravity --> chemistry_lubricants
-    energy_wind --> chemistry_lubricants
-    machine-tools --> chemistry_lubricants
-    energy_cooling --> chemistry_petroleum-alternatives
-    chemistry_electrolysis --> energy_electricity
-    machine-tools_joining --> chemistry
-    chemistry -.-> metals
-    chemistry --> energy
-    chemistry_acids --> mining
+    ceramics_electronic-ceramics --> chemistry
+    chemistry_acid-regeneration --> energy_electricity
+    chemistry_acid-regeneration --> metals_forming
     chemistry_acids -.-> glass_basic
-    chemistry_alkalis --> mining
-    chemistry_cement -.-> ceramics_kilns
-    chemistry_cement --> mining
-    glass --> chemistry
-    gas-handling --> chemistry
-    measurement --> chemistry
-    silicon --> chemistry
-    silicon_purification -.-> chemistry_distillation
-    silicon_purification --> chemistry_hydrogen-silane
-    silicon_crystal-growth --> chemistry_air-separation
-    silicon_basic-devices --> chemistry_acids
-    photolithography --> chemistry
-    photolithography_cleanrooms --> chemistry
-    photolithography_resists-masks --> chemistry
-    photolithography_fab-processes --> chemistry_dopant-etch-gases
-    vlsi-scaling_eda-design -.-> chemistry_dopant-etch-gases
-    health --> chemistry
+    chemistry_acids --> mining
+    chemistry_air-separation -.-> cryogenics_air-separation
     chemistry_air-separation --> energy_electricity
     chemistry_air-separation -.-> gas-handling_basic
-    chemistry_hydrogen-silane -.-> gas-handling_basic
-    chemistry_packaging-testing --> photolithography_fab-processes
-    chemistry_packaging-testing -.-> machine-tools
-    chemistry_packaging-testing --> polymers_thermosets
-    energy_storage --> chemistry
-    chemistry_lubricants -.-> foundations
-    chemistry_petroleum-alternatives -.-> foundations
-    transport_aviation --> chemistry_petroleum-alternatives
-    polymers_rubber_synthetic --> chemistry_petroleum-alternatives
-    polymers_rubber_synthetic --> chemistry
-    polymers_thermosets --> chemistry_petroleum-alternatives
-    polymers_thermosets --> chemistry
-    polymers_thermoplastics --> chemistry_petroleum-alternatives
-    polymers_thermoplastics --> chemistry
-    health_pharmacology -.-> chemistry_distillation
-    textiles_dyeing --> chemistry
-    ceramics_electronic-ceramics --> chemistry
-    energy_electric-furnaces_electrode-manufacturing --> chemistry_petroleum-alternatives
-    mining_extraction_black-powder --> chemistry_explosives
-    transport_telegraph -.-> chemistry_acids
-    chemistry_explosives --> energy_fuels_charcoal
-    polymers_rubber_shellac --> chemistry_distillation
-    knowledge_writing -.-> chemistry
+    chemistry_alkalis --> foundations_fire
+    chemistry_alkalis --> mining
     chemistry_ammonia --> energy
     chemistry_ammonia -.-> metals
+    chemistry_cement -.-> ceramics_kilns
+    chemistry_cement --> metals_iron-steel_blast-furnace
+    chemistry_cement --> mining
+    chemistry_e-methanol --> energy_electricity
+    chemistry_electrodialysis -.-> agriculture_hydroponic-ph-control
+    chemistry_electrodialysis -.-> energy_blue-energy
+    chemistry_electrodialysis --> energy_electricity
+    chemistry_electrodialysis -.-> water_desalination
+    chemistry_electrolysis --> energy_electricity
+    chemistry_electrolysis -.-> energy_fuel-cell
+    chemistry_electrolysis -.-> energy_redox-flow-battery
+    chemistry_explosives --> energy_fuels_charcoal
+    chemistry_hydrogen-silane -.-> gas-handling_basic
+    chemistry_lithium-separation --> energy_electricity
+    chemistry_lubricants --> animals_animal-materials
+    chemistry_lubricants -.-> foundations
+    chemistry_packaging-testing -.-> machine-tools_joining_ultrasonic-bonding
+    chemistry_packaging-testing -.-> machine-tools
+    chemistry_packaging-testing --> photolithography_fab-processes
+    chemistry_packaging-testing --> polymers_thermosets
+    chemistry_petroleum-alternatives -.-> foundations
+    chemistry_refractories -.-> ceramics_kilns
+    chemistry_refractories --> mining
+    chemistry_soap --> metals_non-ferrous
+    chemistry_water-electrolysis --> energy_electricity
+    chemistry_water-electrolysis --> energy_fuel-cell
+    chemistry_water-treatment --> water_sewage
+    chemistry --> energy
+    chemistry -.-> metals
+    cleanrooms --> chemistry
+    construction --> chemistry_cement
+    defense --> chemistry_explosives
+    ehs_radiation-safety -.-> chemistry
+    ehs_toxicology -.-> chemistry
+    electrochemistry_anodizing --> chemistry_acids
+    electrochemistry_electrochemical-processes --> chemistry_acids
+    electrochemistry_electroplating --> chemistry_acids
+    electrochemistry -.-> chemistry_electrolysis
+    electronics_electrical-systems --> chemistry_electrolysis
+    electronics --> chemistry
+    energy_cooling --> chemistry_petroleum-alternatives
+    energy_electric-furnaces_electrode-manufacturing --> chemistry_petroleum-alternatives
+    energy_gravity --> chemistry_lubricants
+    energy_storage --> chemistry
+    energy_wind --> chemistry_lubricants
+    food-processing_brewing -.-> chemistry_petroleum-alternatives_fermentation
+    food-processing_preservation -.-> chemistry_petroleum-alternatives_fermentation
+    gas-handling --> chemistry
+    glass --> chemistry_refractories
+    glass --> chemistry
+    health_diagnostics -.-> chemistry
+    health_occupational-health --> chemistry_acids
+    health_pharmaceutical-production -.-> chemistry_distillation
+    health_pharmacology -.-> chemistry_distillation
     health --> chemistry_ammonia
     health --> chemistry_soap
     health --> chemistry_solvents
-    chemistry_refractories --> mining
-    chemistry_refractories -.-> ceramics_kilns
-    metals --> chemistry_refractories
-    glass --> chemistry_refractories
-    transport --> chemistry_coatings
+    health --> chemistry
+    knowledge_writing -.-> chemistry
     knowledge --> chemistry_pulp-chemicals
-    textiles --> chemistry_pulp-chemicals
-    metals_steelmaking --> chemistry_refractories
-    metals_aluminum -.-> chemistry_electrolysis
+    machine-tools_joining_tig-welding --> chemistry_air-separation
+    machine-tools_joining --> chemistry
+    machine-tools --> chemistry_lubricants
+    measurement --> chemistry
     metals_aluminum --> chemistry_alkalis
-    metals_non-ferrous --> chemistry_acids
-    chemistry_soap --> metals_non-ferrous
+    metals_aluminum -.-> chemistry_electrolysis
     metals_finishing --> chemistry_acids
-    metals_finishing -.-> chemistry_electrolysis
     metals_finishing --> chemistry_coatings
+    metals_finishing -.-> chemistry_electrolysis
+    metals_non-ferrous --> chemistry_acids
     metals_powder-metallurgy -.-> chemistry_hydrogen-silane
-    chemistry_lubricants --> animals_animal-materials
-    textiles_finishing -.-> chemistry_alkalis
-    health_occupational-health --> chemistry_acids
-    silicon_wafering_epitaxy --> chemistry_dopant-etch-gases
-    chemistry_electrolysis -.-> energy_redox-flow-battery
-    chemistry_electrolysis -.-> energy_fuel-cell
-    chemistry_water-electrolysis --> energy_electricity
-    chemistry_e-methanol --> energy_electricity
-    chemistry_electrodialysis --> energy_electricity
-    chemistry_lithium-separation --> energy_electricity
-    chemistry_acid-regeneration --> energy_electricity
-    chemistry_water-electrolysis --> energy_fuel-cell
-    chemistry_electrodialysis -.-> water_desalination
-    chemistry_electrodialysis -.-> energy_blue-energy
-    chemistry_electrodialysis -.-> agriculture_hydroponic-ph-control
-    electronics --> chemistry
-    electronics_electrical-systems --> chemistry_electrolysis
+    metals_precious-metals --> chemistry
     metals_refractory-specialty --> chemistry
     metals_specialty-semiconductor --> chemistry
-    metals_precious-metals --> chemistry
-    cleanrooms --> chemistry
-    chemistry_air-separation -.-> cryogenics_air-separation
-    electrochemistry -.-> chemistry_electrolysis
-    electrochemistry_electroplating --> chemistry_acids
-    electrochemistry_anodizing --> chemistry_acids
-    electrochemistry_electrochemical-processes --> chemistry_acids
+    metals_steelmaking --> chemistry_refractories
+    metals --> chemistry_refractories
+    mining_extraction_black-powder --> chemistry_explosives
     petroleum_refining -.-> chemistry_distillation
-    defense --> chemistry_explosives
-    construction --> chemistry_cement
-    food-processing_preservation -.-> chemistry_petroleum-alternatives_fermentation
-    food-processing_brewing -.-> chemistry_petroleum-alternatives_fermentation
-    machine-tools_joining_tig-welding --> chemistry_air-separation
-    chemistry_packaging-testing -.-> machine-tools_joining_ultrasonic-bonding
-    health_diagnostics -.-> chemistry
-    health_pharmaceutical-production -.-> chemistry_distillation
-    ehs_toxicology -.-> chemistry
-    ehs_radiation-safety -.-> chemistry
-    chemistry_cement --> metals_iron-steel_blast-furnace
-    chemistry_alkalis --> foundations_fire
-    chemistry_water-treatment --> water_sewage
-    chemistry_acid-regeneration --> metals_forming
+    photolithography_cleanrooms --> chemistry
+    photolithography_fab-processes --> chemistry_dopant-etch-gases
+    photolithography_resists-masks --> chemistry
+    photolithography --> chemistry
+    polymers_rubber_shellac --> chemistry_distillation
+    polymers_rubber_synthetic --> chemistry_petroleum-alternatives
+    polymers_rubber_synthetic --> chemistry
+    polymers_thermoplastics --> chemistry_petroleum-alternatives
+    polymers_thermoplastics --> chemistry
+    polymers_thermosets --> chemistry_petroleum-alternatives
+    polymers_thermosets --> chemistry
+    silicon_basic-devices --> chemistry_acids
+    silicon_crystal-growth --> chemistry_air-separation
+    silicon_purification -.-> chemistry_distillation
+    silicon_purification --> chemistry_hydrogen-silane
+    silicon_purification -.-> chemistry
+    silicon_wafering_epitaxy --> chemistry_dopant-etch-gases
+    silicon --> chemistry
+    textiles_dyeing --> chemistry
+    textiles_finishing -.-> chemistry_alkalis
+    textiles --> chemistry_pulp-chemicals
+    transport_aviation --> chemistry_petroleum-alternatives
+    transport_telegraph -.-> chemistry_acids
+    transport --> chemistry_coatings
+    vlsi-scaling_eda-design -.-> chemistry_dopant-etch-gases
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -281,36 +282,36 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class chemistry domain
+    class chemistry_acid-regeneration capability
+    class chemistry_acids-bases capability
     class chemistry_acids capability
-    class chemistry_alkalis capability
-    class chemistry_cement capability
-    class chemistry_electrolysis capability
-    class chemistry_air-separation capability
-    class chemistry_hydrogen-silane capability
-    class chemistry_dopant-etch-gases capability
-    class chemistry_packaging-testing capability
-    class chemistry_petroleum-alternatives capability
-    class chemistry_lubricants critical
-    class chemistry_distillation capability
-    class chemistry_explosives capability
-    class chemistry_petroleum-alternatives_fermentation process
-    class chemistry_petroleum-alternatives_wood-gasification process
-    class chemistry_ammonia critical
-    class chemistry_soap earlyWin
-    class chemistry_solvents capability
-    class chemistry_refractories earlyWin
-    class chemistry_coatings capability
-    class chemistry_pulp-chemicals capability
     class chemistry_adhesives-coatings capability
-    class chemistry_electrolysis_sem-tech process
-    class chemistry_water-electrolysis capability
+    class chemistry_air-separation capability
+    class chemistry_alkalis capability
+    class chemistry_ammonia critical
+    class chemistry_cement capability
+    class chemistry_coatings capability
+    class chemistry_distillation capability
+    class chemistry_dopant-etch-gases capability
     class chemistry_e-methanol capability
     class chemistry_electrodialysis capability
-    class chemistry_acids-bases capability
-    class chemistry_water-treatment capability
+    class chemistry_electrolysis capability
+    class chemistry_electrolysis_sem-tech process
+    class chemistry_explosives capability
+    class chemistry_hydrogen-silane capability
     class chemistry_lithium-separation capability
-    class chemistry_acid-regeneration capability
+    class chemistry_lubricants critical
+    class chemistry_packaging-testing capability
+    class chemistry_petroleum-alternatives_fermentation process
+    class chemistry_petroleum-alternatives capability
+    class chemistry_petroleum-alternatives_wood-gasification process
+    class chemistry_pulp-chemicals capability
+    class chemistry_refractories earlyWin
     class chemistry_semiconductor-chemicals capability
+    class chemistry_soap earlyWin
+    class chemistry_solvents capability
+    class chemistry_water-electrolysis capability
+    class chemistry_water-treatment capability
     class agriculture_hydroponic-ph-control external
     class animals_animal-materials external
     class ceramics_electronic-ceramics external

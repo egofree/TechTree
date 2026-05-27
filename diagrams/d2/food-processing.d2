@@ -86,10 +86,10 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 food-processing_internal: "Food Processing — Internal Structure" {
+  food-processing_brewing: "Brewing & Distilling"
+  food-processing_dairy: Dairy Processing
   food-processing_milling: Grain Milling
   food-processing_preservation: Food Preservation
-  food-processing_dairy: Dairy Processing
-  food-processing_brewing: "Brewing & Distilling"
 }
 
 # ==================== DOMAIN NODE ====================
@@ -116,25 +116,25 @@ water: Water {
 }
 
 # ==================== EDGES ====================
-food-processing -> foundations_food-agriculture: { class: material-edge }
-food-processing -> energy: { class: tool-edge }
-food-processing -> health_sanitation: { class: tool-edge }
-food-processing -> water: { class: material-edge }
-food-processing_milling -> energy: { class: tool-edge }
-food-processing_preservation -> ceramics: { class: material-edge }
-food-processing_preservation -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
 food-processing_brewing -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
 food-processing_brewing -> energy: { class: tool-edge }
 food-processing_dairy -> ceramics: { class: material-edge }
 food-processing_dairy -> health_sanitation: { class: tool-edge }
+food-processing_milling -> energy: { class: tool-edge }
+food-processing_preservation -> ceramics: { class: material-edge }
+food-processing_preservation -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
 food-processing_preservation -> health_sanitation: { class: tool-edge }
+food-processing -> energy: { class: tool-edge }
+food-processing -> foundations_food-agriculture: { class: material-edge }
+food-processing -> health_sanitation: { class: tool-edge }
+food-processing -> water: { class: material-edge }
 
 # ==================== STYLING ====================
 food-processing.class: domain
+food-processing_brewing.class: capability
+food-processing_dairy.class: capability
 food-processing_milling.class: earlyWin
 food-processing_preservation.class: capability
-food-processing_dairy.class: capability
-food-processing_brewing.class: capability
 ceramics.class: external
 chemistry_petroleum-alternatives_fermentation.class: external
 energy.class: external

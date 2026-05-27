@@ -5,31 +5,31 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph animals_internal ["Animals & Animal Husbandry — Internal Structure"]
         direction TB
+        animals_animal-materials["Animal-Derived Materials Processing"]
+        animals_aquaculture["Aquaculture & Fisheries"]
+        animals_beekeeping["Apiculture (Beekeeping)"]
+        animals_bison["Bison Husbandry"]
+        animals_camelids["Camelid Husbandry"]
+        animals_cattle["Cattle Husbandry"]
         animals_domestication["Livestock Domestication & Husbandry"]
         animals_draft-power["Animal Draft Power & Harnessing"]
-        animals_animal-materials["Animal-Derived Materials Processing"]
+        animals_equines["Equine Husbandry"]
+        animals_goats["Goat Husbandry"]
+        animals_insect-farming["Insect Farming (BSF)"]
         animals_leather["Leather Production"]
-        animals_beekeeping["Apiculture (Beekeeping)"]
-        animals_aquaculture["Aquaculture & Fisheries"]
-        animals_sericulture["Sericulture (Silkworm Rearing)"]
         animals_pest-management["Biological Pest Management"]
-        animals_poultry["Poultry Farming"]
+        animals_pigs["Pig Husbandry"]
         animals_poultry_chickens["Chickens"]
         animals_poultry_coturnix["Coturnix Quail"]
         animals_poultry_ducks["Ducks"]
         animals_poultry_geese["Geese"]
-        animals_poultry_turkeys["Turkeys"]
         animals_poultry_guinea-fowl["Guinea Fowl"]
+        animals_poultry["Poultry Farming"]
         animals_poultry_pigeons["Pigeons & Squab"]
-        animals_cattle["Cattle Husbandry"]
-        animals_sheep["Sheep Husbandry"]
-        animals_goats["Goat Husbandry"]
-        animals_pigs["Pig Husbandry"]
-        animals_equines["Equine Husbandry"]
-        animals_camelids["Camelid Husbandry"]
-        animals_bison["Bison Husbandry"]
+        animals_poultry_turkeys["Turkeys"]
         animals_rabbits["Rabbit Husbandry"]
-        animals_insect-farming["Insect Farming (BSF)"]
+        animals_sericulture["Sericulture (Silkworm Rearing)"]
+        animals_sheep["Sheep Husbandry"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -55,66 +55,66 @@ graph TD
     transport_roads("Road & Bridge Construction")
 
     %% ==================== EDGES ====================
-    animals_domestication -.-> animals
-    animals_draft-power -.-> animals_domestication
+    animals_animal-materials --> animals_cattle
     animals_animal-materials --> animals_domestication
-    animals_sericulture --> animals_domestication
+    animals_animal-materials --> animals_sheep
+    animals_aquaculture --> animals_insect-farming
+    animals_bison --> animals
+    animals_camelids --> animals
+    animals_cattle -.-> animals_domestication
+    animals_cattle --> animals
+    animals_domestication -.-> animals
+    animals_draft-power --> animals_cattle
+    animals_draft-power -.-> animals_domestication
+    animals_draft-power --> animals_equines
+    animals_equines -.-> animals_domestication
+    animals_equines --> animals
+    animals_goats -.-> animals_domestication
+    animals_goats --> animals
+    animals_insect-farming -.-> animals_domestication
     animals_pest-management -.-> animals_domestication
-    animals_poultry -.-> animals
+    animals_pigs -.-> animals_domestication
+    animals_pigs --> animals
+    animals_poultry_chickens --> animals_insect-farming
     animals_poultry_chickens --> animals_poultry
     animals_poultry_coturnix --> animals_poultry
     animals_poultry_ducks --> animals_poultry
     animals_poultry_geese --> animals_poultry
-    animals_poultry_turkeys --> animals_poultry
     animals_poultry_guinea-fowl --> animals_poultry
     animals_poultry_pigeons --> animals_poultry
-    animals_cattle --> animals
-    animals_sheep --> animals
-    animals_goats --> animals
-    animals_pigs --> animals
-    animals_equines --> animals
-    animals_camelids --> animals
-    animals_bison --> animals
+    animals_poultry_turkeys --> animals_poultry
+    animals_poultry -.-> animals
     animals_rabbits --> animals
-    animals_cattle -.-> animals_domestication
+    animals_sericulture --> animals_domestication
     animals_sheep -.-> animals_domestication
-    animals_goats -.-> animals_domestication
-    animals_pigs -.-> animals_domestication
-    animals_equines -.-> animals_domestication
-    animals_draft-power --> animals_equines
-    animals_draft-power --> animals_cattle
-    animals_animal-materials --> animals_cattle
-    animals_animal-materials --> animals_sheep
-    animals_insect-farming -.-> animals_domestication
-    animals_aquaculture --> animals_insect-farming
-    animals_poultry_chickens --> animals_insect-farming
-    animals -.-> foundations
-    animals_draft-power -.-> foundations_tools-basic
-    animals_animal-materials -.-> ceramics_lime
-    animals_beekeeping -.-> foundations_fire
-    animals_beekeeping -.-> foundations_tools-basic
-    animals_aquaculture -.-> foundations_tools-basic
-    textiles_fibers --> animals_animal-materials
-    chemistry_lubricants --> animals_animal-materials
-    transport_roads -.-> animals_draft-power
-    mining_extraction -.-> animals_draft-power
-    knowledge_writing --> animals_animal-materials
-    knowledge_writing --> animals_beekeeping
-    metals_copper-bronze --> animals_beekeeping
-    machine-tools_forming --> animals_animal-materials
-    machine-tools_iterative-bootstrap --> animals_animal-materials
-    health_pharmacology --> animals_beekeeping
-    health_medicine --> animals_beekeeping
-    foundations_food-agriculture --> animals_beekeeping
-    textiles_fibers --> animals_sheep
-    textiles_fibers --> animals_goats
-    textiles_fibers --> animals_rabbits
-    textiles_fibers --> animals_camelids
-    foundations_food-agriculture --> animals_pigs
-    foundations_food-agriculture --> animals_rabbits
-    animals_poultry --> foundations_food-agriculture
+    animals_sheep --> animals
     agriculture_aquaponics -.-> animals_aquaculture
     agriculture_soil-management --> animals
+    animals_animal-materials -.-> ceramics_lime
+    animals_aquaculture -.-> foundations_tools-basic
+    animals_beekeeping -.-> foundations_fire
+    animals_beekeeping -.-> foundations_tools-basic
+    animals_draft-power -.-> foundations_tools-basic
+    animals_poultry --> foundations_food-agriculture
+    animals -.-> foundations
+    chemistry_lubricants --> animals_animal-materials
+    foundations_food-agriculture --> animals_beekeeping
+    foundations_food-agriculture --> animals_pigs
+    foundations_food-agriculture --> animals_rabbits
+    health_medicine --> animals_beekeeping
+    health_pharmacology --> animals_beekeeping
+    knowledge_writing --> animals_animal-materials
+    knowledge_writing --> animals_beekeeping
+    machine-tools_forming --> animals_animal-materials
+    machine-tools_iterative-bootstrap --> animals_animal-materials
+    metals_copper-bronze --> animals_beekeeping
+    mining_extraction -.-> animals_draft-power
+    textiles_fibers --> animals_animal-materials
+    textiles_fibers --> animals_camelids
+    textiles_fibers --> animals_goats
+    textiles_fibers --> animals_rabbits
+    textiles_fibers --> animals_sheep
+    transport_roads -.-> animals_draft-power
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -131,31 +131,31 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class animals domain
+    class animals_animal-materials capability
+    class animals_aquaculture capability
+    class animals_beekeeping earlyWin
+    class animals_bison capability
+    class animals_camelids capability
+    class animals_cattle critical
     class animals_domestication critical
     class animals_draft-power earlyWin
-    class animals_animal-materials capability
+    class animals_equines critical
+    class animals_goats earlyWin
+    class animals_insect-farming earlyWin
     class animals_leather capability
-    class animals_beekeeping earlyWin
-    class animals_aquaculture capability
-    class animals_sericulture capability
     class animals_pest-management capability
-    class animals_poultry earlyWin
+    class animals_pigs earlyWin
     class animals_poultry_chickens earlyWin
     class animals_poultry_coturnix earlyWin
     class animals_poultry_ducks earlyWin
     class animals_poultry_geese process
-    class animals_poultry_turkeys process
     class animals_poultry_guinea-fowl earlyWin
+    class animals_poultry earlyWin
     class animals_poultry_pigeons earlyWin
-    class animals_cattle critical
-    class animals_sheep earlyWin
-    class animals_goats earlyWin
-    class animals_pigs earlyWin
-    class animals_equines critical
-    class animals_camelids capability
-    class animals_bison capability
+    class animals_poultry_turkeys process
     class animals_rabbits earlyWin
-    class animals_insect-farming earlyWin
+    class animals_sericulture capability
+    class animals_sheep earlyWin
     class agriculture_aquaponics external
     class agriculture_soil-management external
     class ceramics_lime external

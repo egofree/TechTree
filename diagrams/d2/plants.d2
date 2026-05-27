@@ -86,24 +86,24 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 plants_internal: "Plants & Botanical Resources — Internal Structure" {
-  plants_edible-plants: Edible Plants
-  plants_medicinal-plants: Medicinal Plants
-  plants_fiber-plants: Fiber Plants
-  plants_structural-plants: Structural Plants
   plants_dye-plants: Dye Plants
+  plants_edible-plants_agave: Agave
   plants_edible-plants_allium-ampeloprasum: Allium ampeloprasum
   plants_edible-plants_artemisia-absinthium: Artemisia absinthium
-  plants_edible-plants_agave: Agave
-  plants_edible-plants_bitter-orange: Bitter orange
   plants_edible-plants_balanites-aegyptiaca: Balanites aegyptiaca
+  plants_edible-plants_bitter-orange: Bitter orange
+  plants_edible-plants: Edible Plants
+  plants_fiber-plants_allium-paniculatum: Allium paniculatum
+  plants_fiber-plants_amaranthus-albus: Amaranthus albus
+  plants_fiber-plants: Fiber Plants
   plants_medicinal-plants_agrimonia-pilosa: Agrimonia pilosa
   plants_medicinal-plants_aloe-officinalis: Aloe officinalis
   plants_medicinal-plants_artemisia-douglasiana: Artemisia douglasiana
   plants_medicinal-plants_artemisia-inculta: Artemisia inculta
   plants_medicinal-plants_botryodiscia: Botryodiscia
-  plants_fiber-plants_allium-paniculatum: Allium paniculatum
-  plants_fiber-plants_amaranthus-albus: Amaranthus albus
+  plants_medicinal-plants: Medicinal Plants
   plants_structural-plants_artemisia-capillaris: Artemisia capillaris
+  plants_structural-plants: Structural Plants
 }
 
 # ==================== DOMAIN NODE ====================
@@ -136,53 +136,53 @@ textiles_spinning: Spinning {
 }
 
 # ==================== EDGES ====================
-plants_edible-plants -> plants: { class: tool-edge }
-plants_medicinal-plants -> plants: { class: tool-edge }
-plants_fiber-plants -> plants: { class: tool-edge }
-plants_structural-plants -> plants: { class: tool-edge }
 plants_dye-plants -> plants: { class: tool-edge }
+plants_edible-plants_agave -> plants_edible-plants: { class: tool-edge }
 plants_edible-plants_allium-ampeloprasum -> plants_edible-plants: { class: tool-edge }
 plants_edible-plants_artemisia-absinthium -> plants_edible-plants: { class: tool-edge }
-plants_edible-plants_agave -> plants_edible-plants: { class: tool-edge }
-plants_edible-plants_bitter-orange -> plants_edible-plants: { class: tool-edge }
 plants_edible-plants_balanites-aegyptiaca -> plants_edible-plants: { class: tool-edge }
+plants_edible-plants_bitter-orange -> plants_edible-plants: { class: tool-edge }
+plants_edible-plants -> plants: { class: tool-edge }
+plants_fiber-plants_allium-paniculatum -> plants_fiber-plants: { class: tool-edge }
+plants_fiber-plants_amaranthus-albus -> plants_fiber-plants: { class: tool-edge }
+plants_fiber-plants -> plants: { class: tool-edge }
 plants_medicinal-plants_agrimonia-pilosa -> plants_medicinal-plants: { class: tool-edge }
 plants_medicinal-plants_aloe-officinalis -> plants_medicinal-plants: { class: tool-edge }
 plants_medicinal-plants_artemisia-douglasiana -> plants_medicinal-plants: { class: tool-edge }
 plants_medicinal-plants_artemisia-inculta -> plants_medicinal-plants: { class: tool-edge }
 plants_medicinal-plants_botryodiscia -> plants_medicinal-plants: { class: tool-edge }
-plants_fiber-plants_allium-paniculatum -> plants_fiber-plants: { class: tool-edge }
-plants_fiber-plants_amaranthus-albus -> plants_fiber-plants: { class: tool-edge }
+plants_medicinal-plants -> plants: { class: tool-edge }
 plants_structural-plants_artemisia-capillaris -> plants_structural-plants: { class: tool-edge }
+plants_structural-plants -> plants: { class: tool-edge }
+foundations_food-agriculture -> plants_edible-plants: { class: material-edge }
+plants_dye-plants -> textiles_dyeing: { class: material-edge }
+plants_edible-plants -> health: { class: material-edge }
+plants_fiber-plants -> textiles_spinning: { class: material-edge }
+plants_medicinal-plants -> health_pharmacology: { class: material-edge }
+plants -> energy_fuels: { class: material-edge }
 plants -> foundations_fire: { class: tool-edge }
 textiles_fibers -> plants_fiber-plants: { class: material-edge }
-foundations_food-agriculture -> plants_edible-plants: { class: material-edge }
-plants_edible-plants -> health: { class: material-edge }
-plants_medicinal-plants -> health_pharmacology: { class: material-edge }
-plants_fiber-plants -> textiles_spinning: { class: material-edge }
-plants_dye-plants -> textiles_dyeing: { class: material-edge }
-plants -> energy_fuels: { class: material-edge }
 
 # ==================== STYLING ====================
 plants.class: domain
-plants_edible-plants.class: earlyWin
-plants_medicinal-plants.class: earlyWin
-plants_fiber-plants.class: capability
-plants_structural-plants.class: capability
 plants_dye-plants.class: capability
+plants_edible-plants_agave.class: process
 plants_edible-plants_allium-ampeloprasum.class: process
 plants_edible-plants_artemisia-absinthium.class: process
-plants_edible-plants_agave.class: process
-plants_edible-plants_bitter-orange.class: process
 plants_edible-plants_balanites-aegyptiaca.class: process
+plants_edible-plants_bitter-orange.class: process
+plants_edible-plants.class: earlyWin
+plants_fiber-plants_allium-paniculatum.class: process
+plants_fiber-plants_amaranthus-albus.class: process
+plants_fiber-plants.class: capability
 plants_medicinal-plants_agrimonia-pilosa.class: process
 plants_medicinal-plants_aloe-officinalis.class: process
 plants_medicinal-plants_artemisia-douglasiana.class: process
 plants_medicinal-plants_artemisia-inculta.class: process
 plants_medicinal-plants_botryodiscia.class: process
-plants_fiber-plants_allium-paniculatum.class: process
-plants_fiber-plants_amaranthus-albus.class: process
+plants_medicinal-plants.class: earlyWin
 plants_structural-plants_artemisia-capillaris.class: process
+plants_structural-plants.class: capability
 energy_fuels.class: external
 foundations_fire.class: external
 foundations_food-agriculture.class: external

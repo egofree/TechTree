@@ -5,24 +5,24 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph plants_internal ["Plants & Botanical Resources — Internal Structure"]
         direction TB
-        plants_edible-plants["Edible Plants"]
-        plants_medicinal-plants["Medicinal Plants"]
-        plants_fiber-plants["Fiber Plants"]
-        plants_structural-plants["Structural Plants"]
         plants_dye-plants["Dye Plants"]
+        plants_edible-plants_agave["Agave"]
         plants_edible-plants_allium-ampeloprasum["Allium ampeloprasum"]
         plants_edible-plants_artemisia-absinthium["Artemisia absinthium"]
-        plants_edible-plants_agave["Agave"]
-        plants_edible-plants_bitter-orange["Bitter orange"]
         plants_edible-plants_balanites-aegyptiaca["Balanites aegyptiaca"]
+        plants_edible-plants_bitter-orange["Bitter orange"]
+        plants_edible-plants["Edible Plants"]
+        plants_fiber-plants_allium-paniculatum["Allium paniculatum"]
+        plants_fiber-plants_amaranthus-albus["Amaranthus albus"]
+        plants_fiber-plants["Fiber Plants"]
         plants_medicinal-plants_agrimonia-pilosa["Agrimonia pilosa"]
         plants_medicinal-plants_aloe-officinalis["Aloe officinalis"]
         plants_medicinal-plants_artemisia-douglasiana["Artemisia douglasiana"]
         plants_medicinal-plants_artemisia-inculta["Artemisia inculta"]
         plants_medicinal-plants_botryodiscia["Botryodiscia"]
-        plants_fiber-plants_allium-paniculatum["Allium paniculatum"]
-        plants_fiber-plants_amaranthus-albus["Amaranthus albus"]
+        plants_medicinal-plants["Medicinal Plants"]
         plants_structural-plants_artemisia-capillaris["Artemisia capillaris"]
+        plants_structural-plants["Structural Plants"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -39,32 +39,32 @@ graph TD
     textiles_spinning("Spinning")
 
     %% ==================== EDGES ====================
-    plants_edible-plants -.-> plants
-    plants_medicinal-plants -.-> plants
-    plants_fiber-plants -.-> plants
-    plants_structural-plants -.-> plants
     plants_dye-plants -.-> plants
+    plants_edible-plants_agave -.-> plants_edible-plants
     plants_edible-plants_allium-ampeloprasum -.-> plants_edible-plants
     plants_edible-plants_artemisia-absinthium -.-> plants_edible-plants
-    plants_edible-plants_agave -.-> plants_edible-plants
-    plants_edible-plants_bitter-orange -.-> plants_edible-plants
     plants_edible-plants_balanites-aegyptiaca -.-> plants_edible-plants
+    plants_edible-plants_bitter-orange -.-> plants_edible-plants
+    plants_edible-plants -.-> plants
+    plants_fiber-plants_allium-paniculatum -.-> plants_fiber-plants
+    plants_fiber-plants_amaranthus-albus -.-> plants_fiber-plants
+    plants_fiber-plants -.-> plants
     plants_medicinal-plants_agrimonia-pilosa -.-> plants_medicinal-plants
     plants_medicinal-plants_aloe-officinalis -.-> plants_medicinal-plants
     plants_medicinal-plants_artemisia-douglasiana -.-> plants_medicinal-plants
     plants_medicinal-plants_artemisia-inculta -.-> plants_medicinal-plants
     plants_medicinal-plants_botryodiscia -.-> plants_medicinal-plants
-    plants_fiber-plants_allium-paniculatum -.-> plants_fiber-plants
-    plants_fiber-plants_amaranthus-albus -.-> plants_fiber-plants
+    plants_medicinal-plants -.-> plants
     plants_structural-plants_artemisia-capillaris -.-> plants_structural-plants
+    plants_structural-plants -.-> plants
+    foundations_food-agriculture --> plants_edible-plants
+    plants_dye-plants --> textiles_dyeing
+    plants_edible-plants --> health
+    plants_fiber-plants --> textiles_spinning
+    plants_medicinal-plants --> health_pharmacology
+    plants --> energy_fuels
     plants -.-> foundations_fire
     textiles_fibers --> plants_fiber-plants
-    foundations_food-agriculture --> plants_edible-plants
-    plants_edible-plants --> health
-    plants_medicinal-plants --> health_pharmacology
-    plants_fiber-plants --> textiles_spinning
-    plants_dye-plants --> textiles_dyeing
-    plants --> energy_fuels
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -81,24 +81,24 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class plants domain
-    class plants_edible-plants earlyWin
-    class plants_medicinal-plants earlyWin
-    class plants_fiber-plants capability
-    class plants_structural-plants capability
     class plants_dye-plants capability
+    class plants_edible-plants_agave process
     class plants_edible-plants_allium-ampeloprasum process
     class plants_edible-plants_artemisia-absinthium process
-    class plants_edible-plants_agave process
-    class plants_edible-plants_bitter-orange process
     class plants_edible-plants_balanites-aegyptiaca process
+    class plants_edible-plants_bitter-orange process
+    class plants_edible-plants earlyWin
+    class plants_fiber-plants_allium-paniculatum process
+    class plants_fiber-plants_amaranthus-albus process
+    class plants_fiber-plants capability
     class plants_medicinal-plants_agrimonia-pilosa process
     class plants_medicinal-plants_aloe-officinalis process
     class plants_medicinal-plants_artemisia-douglasiana process
     class plants_medicinal-plants_artemisia-inculta process
     class plants_medicinal-plants_botryodiscia process
-    class plants_fiber-plants_allium-paniculatum process
-    class plants_fiber-plants_amaranthus-albus process
+    class plants_medicinal-plants earlyWin
     class plants_structural-plants_artemisia-capillaris process
+    class plants_structural-plants capability
     class energy_fuels external
     class foundations_fire external
     class foundations_food-agriculture external

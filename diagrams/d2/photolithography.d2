@@ -87,8 +87,8 @@ classes: {
 # ==================== INTERNAL NODES ====================
 photolithography_internal: "Photolithography & IC Fabrication — Internal Structure" {
   photolithography_cleanrooms: Cleanrooms
-  photolithography_resists-masks: "Photoresists, Masks & Lithography"
   photolithography_fab-processes: Core Fab Processes
+  photolithography_resists-masks: "Photoresists, Masks & Lithography"
 }
 
 # ==================== DOMAIN NODE ====================
@@ -169,38 +169,38 @@ vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
 }
 
 # ==================== EDGES ====================
-photolithography -> machine-tools: { class: tool-edge }
-photolithography -> chemistry: { class: material-edge }
-photolithography -> gas-handling: { class: tool-edge }
-photolithography -> optics: { class: tool-edge }
-photolithography -> silicon: { class: material-edge }
-photolithography_cleanrooms -> chemistry: { class: material-edge }
+chemistry_packaging-testing -> photolithography_fab-processes: { class: material-edge }
+computing_electronic -> photolithography_fab-processes: { class: material-edge }
+glass_photomask-substrates -> photolithography_fab-processes: { class: material-edge }
+metals_specialty-semiconductor -> photolithography_fab-processes: { class: material-edge }
 photolithography_cleanrooms -> ceramics: { class: tool-edge }
-photolithography_resists-masks -> chemistry: { class: material-edge }
-photolithography_resists-masks -> polymers_thermosets: { class: material-edge }
+photolithography_cleanrooms -> chemistry: { class: material-edge }
 photolithography_fab-processes -> chemistry_dopant-etch-gases: { class: material-edge }
+photolithography_fab-processes -> economics-organization_supply-chain: { class: tool-edge }
 photolithography_fab-processes -> gas-handling_vacuum: { class: tool-edge }
-vlsi-scaling -> photolithography: { class: tool-edge }
-vlsi-scaling_continuous-scaling -> photolithography_fab-processes: { class: tool-edge }
+photolithography_fab-processes -> metals_aluminum_semiconductor-grade: { class: material-edge }
+photolithography_fab-processes -> vacuum_pumps: { class: tool-edge }
+photolithography_resists-masks -> chemistry: { class: material-edge }
+photolithography_resists-masks -> glass_basic: { class: material-edge }
+photolithography_resists-masks -> polymers_thermosets: { class: material-edge }
+photolithography -> chemistry: { class: material-edge }
+photolithography -> cleanrooms: { class: tool-edge }
+photolithography -> gas-handling: { class: tool-edge }
+photolithography -> machine-tools: { class: tool-edge }
+photolithography -> optics: { class: tool-edge }
+photolithography -> quality-control: { class: tool-edge }
+photolithography -> silicon: { class: material-edge }
 vlsi-scaling_advanced-lithography -> photolithography_resists-masks: { class: tool-edge }
 vlsi-scaling_advanced-processes -> photolithography_fab-processes: { class: tool-edge }
+vlsi-scaling_continuous-scaling -> photolithography_fab-processes: { class: tool-edge }
 vlsi-scaling_eda-design -> photolithography_fab-processes: { class: tool-edge }
-chemistry_packaging-testing -> photolithography_fab-processes: { class: material-edge }
-photolithography_fab-processes -> metals_aluminum_semiconductor-grade: { class: material-edge }
-computing_electronic -> photolithography_fab-processes: { class: material-edge }
-photolithography_resists-masks -> glass_basic: { class: material-edge }
-metals_specialty-semiconductor -> photolithography_fab-processes: { class: material-edge }
-glass_photomask-substrates -> photolithography_fab-processes: { class: material-edge }
-photolithography -> cleanrooms: { class: tool-edge }
-photolithography -> quality-control: { class: tool-edge }
-photolithography_fab-processes -> vacuum_pumps: { class: tool-edge }
-photolithography_fab-processes -> economics-organization_supply-chain: { class: tool-edge }
+vlsi-scaling -> photolithography: { class: tool-edge }
 
 # ==================== STYLING ====================
 photolithography.class: domain
 photolithography_cleanrooms.class: capability
-photolithography_resists-masks.class: capability
 photolithography_fab-processes.class: capability
+photolithography_resists-masks.class: capability
 ceramics.class: external
 chemistry.class: external
 chemistry_dopant-etch-gases.class: external

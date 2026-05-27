@@ -86,10 +86,10 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 electrochemistry_internal: "Electrochemistry & Plating — Internal Structure" {
-  electrochemistry_electroplating: Electroplating
   electrochemistry_anodizing: Anodizing
   electrochemistry_electrochemical-processes: Electrochemical Surface Processes
   electrochemistry_electroplating_copper-damascene: Copper Damascene Plating
+  electrochemistry_electroplating: Electroplating
 }
 
 # ==================== DOMAIN NODE ====================
@@ -114,20 +114,20 @@ metals_finishing: "Metal Finishing & Surface Treatment" {
 
 # ==================== EDGES ====================
 electrochemistry_electroplating_copper-damascene -> electrochemistry_electroplating: { class: tool-edge }
-electrochemistry -> chemistry_electrolysis: { class: tool-edge }
-electrochemistry -> metals_finishing: { class: tool-edge }
-electrochemistry_electroplating -> chemistry_acids: { class: material-edge }
 electrochemistry_anodizing -> chemistry_acids: { class: material-edge }
-electrochemistry_electrochemical-processes -> chemistry_acids: { class: material-edge }
 electrochemistry_anodizing -> metals_aluminum: { class: material-edge }
+electrochemistry_electrochemical-processes -> chemistry_acids: { class: material-edge }
+electrochemistry_electroplating -> chemistry_acids: { class: material-edge }
+electrochemistry -> chemistry_electrolysis: { class: tool-edge }
 electrochemistry -> energy_electricity: { class: tool-edge }
+electrochemistry -> metals_finishing: { class: tool-edge }
 
 # ==================== STYLING ====================
 electrochemistry.class: domain
-electrochemistry_electroplating.class: capability
 electrochemistry_anodizing.class: capability
 electrochemistry_electrochemical-processes.class: capability
 electrochemistry_electroplating_copper-damascene.class: pinnacle
+electrochemistry_electroplating.class: capability
 chemistry_acids.class: external
 chemistry_electrolysis.class: external
 energy_electricity.class: external

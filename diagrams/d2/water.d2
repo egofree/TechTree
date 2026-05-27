@@ -86,10 +86,10 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 water_internal: "Water — Internal Structure" {
-  water_desalination: Desalination
-  water_procurement: Water Procurement
-  water_distribution: Water Distribution
   water_basic-treatment: Basic Water Treatment
+  water_desalination: Desalination
+  water_distribution: Water Distribution
+  water_procurement: Water Procurement
   water_sewage: "Sewage Collection & Treatment"
 }
 
@@ -111,17 +111,17 @@ food-processing: Food Processing {
 }
 
 # ==================== EDGES ====================
-water_desalination -> energy_electricity: { class: material-edge }
 chemistry_electrodialysis -> water_desalination: { class: tool-edge }
-food-processing -> water: { class: material-edge }
 chemistry_water-treatment -> water_sewage: { class: material-edge }
+food-processing -> water: { class: material-edge }
+water_desalination -> energy_electricity: { class: material-edge }
 
 # ==================== STYLING ====================
 water.class: domain
-water_desalination.class: capability
-water_procurement.class: capability
-water_distribution.class: capability
 water_basic-treatment.class: capability
+water_desalination.class: capability
+water_distribution.class: capability
+water_procurement.class: capability
 water_sewage.class: capability
 chemistry_electrodialysis.class: external
 chemistry_water-treatment.class: external

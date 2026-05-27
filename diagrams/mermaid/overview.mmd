@@ -1,132 +1,132 @@
 %%{init: {"flowchart": {"defaultRenderer": "elk", "htmlLabels": true}}}%%
 graph TD
     %% ==================== DOMAIN NODES ====================
-    foundations["Foundations"]
-    metals["Metals"]
-    machine-tools["Machine Tools Bootstrap"]
-    energy["Energy"]
-    chemistry["Chemistry"]
-    silicon["Silicon"]
-    photolithography["Photolithography & IC Fabrication"]
-    vlsi-scaling["VLSI Scaling & Advanced Semiconductor"]
-    automation["Automation & Robotics"]
-    knowledge["Knowledge Preservation & Education"]
-    mathematics["Mathematics & Formal Sciences"]
-    transport["Transportation & Logistics"]
-    computing["Computing & Automation"]
-    health["Public Health, Sanitation & Medicine"]
-    textiles["Textiles, Fiber & Cordage"]
-    mining["Mining Engineering & Extractive Metallurgy"]
-    ceramics["Ceramics & Refractories"]
-    polymers["Polymers & Composites"]
-    glass["Glass"]
-    optics["Optics"]
-    gas-handling["Gas Handling"]
-    measurement["Measurement & Instrumentation"]
-    plants["Plants & Botanical Resources"]
     agriculture["Agriculture"]
     animals["Animals & Animal Husbandry"]
-    water["Water"]
-    electronics["Electronics"]
+    automation["Automation & Robotics"]
+    ceramics["Ceramics & Refractories"]
+    chemistry["Chemistry"]
     cleanrooms["Clean Room Technology"]
-    quality-control["Quality Control & Statistical Process Control"]
-    vacuum["Vacuum Technology"]
+    computing["Computing & Automation"]
+    construction["Construction & Structural Engineering"]
     cryogenics["Cryogenics"]
-    electrochemistry["Electrochemistry & Plating"]
-    ultra-pure["Ultra-Pure Materials"]
-    precision-motion["Precision Motion Control"]
-    petroleum["Petroleum Extraction & Refining"]
+    defense["Defense & Military Engineering"]
     economics-organization["Economics & Organization"]
     ehs["Environmental Health & Safety"]
-    defense["Defense & Military Engineering"]
-    construction["Construction & Structural Engineering"]
+    electrochemistry["Electrochemistry & Plating"]
+    electronics["Electronics"]
+    energy["Energy"]
     food-processing["Food Processing"]
-    telecom["Telecommunications"]
+    foundations["Foundations"]
+    gas-handling["Gas Handling"]
+    glass["Glass"]
+    health["Public Health, Sanitation & Medicine"]
+    knowledge["Knowledge Preservation & Education"]
+    machine-tools["Machine Tools Bootstrap"]
     marine["Marine & Naval Engineering"]
+    mathematics["Mathematics & Formal Sciences"]
+    measurement["Measurement & Instrumentation"]
+    metals["Metals"]
+    mining["Mining Engineering & Extractive Metallurgy"]
+    optics["Optics"]
+    petroleum["Petroleum Extraction & Refining"]
+    photolithography["Photolithography & IC Fabrication"]
+    plants["Plants & Botanical Resources"]
+    polymers["Polymers & Composites"]
+    precision-motion["Precision Motion Control"]
+    quality-control["Quality Control & Statistical Process Control"]
+    silicon["Silicon"]
+    telecom["Telecommunications"]
+    textiles["Textiles, Fiber & Cordage"]
+    transport["Transportation & Logistics"]
+    ultra-pure["Ultra-Pure Materials"]
+    vacuum["Vacuum Technology"]
+    vlsi-scaling["VLSI Scaling & Advanced Semiconductor"]
+    water["Water"]
 
     %% ==================== DOMAIN-LEVEL EDGES ====================
-    metals -.-> foundations
-    metals --> mining
-    machine-tools -.-> metals
-    machine-tools -.-> textiles
-    energy -.-> metals
-    chemistry -.-> metals
-    chemistry --> energy
-    glass -.-> machine-tools
-    optics -.-> machine-tools
-    gas-handling -.-> machine-tools
-    measurement -.-> machine-tools
-    glass --> energy
-    gas-handling --> energy
-    glass --> chemistry
-    gas-handling --> chemistry
-    measurement --> chemistry
-    silicon -.-> machine-tools
-    silicon --> energy
-    silicon --> chemistry
-    silicon -.-> glass
-    silicon -.-> gas-handling
-    photolithography -.-> machine-tools
-    photolithography --> chemistry
-    photolithography -.-> gas-handling
-    photolithography -.-> optics
-    photolithography --> silicon
-    vlsi-scaling -.-> photolithography
-    knowledge -.-> foundations
-    health -.-> foundations
-    health --> chemistry
-    ceramics -.-> foundations
-    ceramics -.-> metals
-    textiles -.-> foundations
-    mining -.-> foundations
-    transport -.-> metals
-    transport --> energy
-    transport --> mining
-    transport -.-> machine-tools
-    computing -.-> machine-tools
-    polymers -.-> foundations
     animals -.-> foundations
-    electronics --> metals
-    electronics -.-> machine-tools
-    electronics --> chemistry
-    cleanrooms --> chemistry
-    cleanrooms --> metals
-    cleanrooms --> glass
-    cleanrooms -.-> energy
-    cleanrooms -.-> measurement
-    photolithography -.-> cleanrooms
-    quality-control -.-> measurement
-    quality-control -.-> computing
-    quality-control -.-> knowledge
-    vlsi-scaling -.-> quality-control
-    photolithography -.-> quality-control
-    cryogenics -.-> gas-handling
-    vacuum -.-> gas-handling
-    vacuum --> metals
-    vacuum -.-> measurement
     automation -.-> computing
     automation -.-> electronics
-    petroleum -.-> metals
-    petroleum -.-> mining
-    defense --> metals
-    defense -.-> foundations
-    defense -.-> transport
-    defense -.-> knowledge
+    ceramics -.-> foundations
+    ceramics -.-> metals
+    chemistry --> energy
+    chemistry -.-> metals
+    cleanrooms --> chemistry
+    cleanrooms -.-> energy
+    cleanrooms --> glass
+    cleanrooms -.-> measurement
+    cleanrooms --> metals
+    computing -.-> machine-tools
     construction -.-> foundations
-    construction --> metals
     construction -.-> machine-tools
-    food-processing -.-> energy
-    food-processing --> water
-    telecom --> metals
-    telecom --> glass
-    marine -.-> foundations
-    marine --> metals
-    marine --> textiles
-    marine -.-> energy
-    marine -.-> knowledge
+    construction --> metals
+    cryogenics -.-> gas-handling
+    defense -.-> foundations
+    defense -.-> knowledge
+    defense --> metals
+    defense -.-> transport
     economics-organization -.-> foundations
     economics-organization -.-> knowledge
     economics-organization -.-> mathematics
+    electronics --> chemistry
+    electronics -.-> machine-tools
+    electronics --> metals
+    energy -.-> metals
+    food-processing -.-> energy
+    food-processing --> water
+    gas-handling --> chemistry
+    gas-handling --> energy
+    gas-handling -.-> machine-tools
+    glass --> chemistry
+    glass --> energy
+    glass -.-> machine-tools
+    health --> chemistry
+    health -.-> foundations
+    knowledge -.-> foundations
+    machine-tools -.-> metals
+    machine-tools -.-> textiles
+    marine -.-> energy
+    marine -.-> foundations
+    marine -.-> knowledge
+    marine --> metals
+    marine --> textiles
+    measurement --> chemistry
+    measurement -.-> machine-tools
+    metals -.-> foundations
+    metals --> mining
+    mining -.-> foundations
+    optics -.-> machine-tools
+    petroleum -.-> metals
+    petroleum -.-> mining
+    photolithography --> chemistry
+    photolithography -.-> cleanrooms
+    photolithography -.-> gas-handling
+    photolithography -.-> machine-tools
+    photolithography -.-> optics
+    photolithography -.-> quality-control
+    photolithography --> silicon
+    polymers -.-> foundations
+    quality-control -.-> computing
+    quality-control -.-> knowledge
+    quality-control -.-> measurement
+    silicon --> chemistry
+    silicon --> energy
+    silicon -.-> gas-handling
+    silicon -.-> glass
+    silicon -.-> machine-tools
+    telecom --> glass
+    telecom --> metals
+    textiles -.-> foundations
+    transport --> energy
+    transport -.-> machine-tools
+    transport -.-> metals
+    transport --> mining
+    vacuum -.-> gas-handling
+    vacuum -.-> measurement
+    vacuum --> metals
+    vlsi-scaling -.-> photolithography
+    vlsi-scaling -.-> quality-control
 
     %% ==================== CROSS-DOMAIN EDGES ====================
     agriculture -.-> animals
@@ -236,6 +236,7 @@ graph TD
     mining -.-> knowledge
     mining -.-> machine-tools
     optics -.-> gas-handling
+    optics -.-> glass
     optics -.-> vacuum
     petroleum -.-> chemistry
     petroleum -.-> energy
@@ -285,20 +286,20 @@ graph TD
     classDef critical fill:#fff3e0,stroke:#f57c00,stroke-width:3px
     classDef earlyWin fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
     classDef pinnacle fill:#fce4ec,stroke:#c62828,stroke-width:3px
-    class foundations earlyWin
-    class machine-tools critical
-    class silicon earlyWin
-    class vlsi-scaling pinnacle
-    class knowledge critical
-    class textiles critical
-    class mining critical
-    class plants earlyWin
     class agriculture earlyWin
     class animals earlyWin
-    class economics-organization earlyWin
     class construction earlyWin
+    class economics-organization earlyWin
     class food-processing earlyWin
+    class foundations earlyWin
+    class knowledge critical
+    class machine-tools critical
     class marine earlyWin
+    class mining critical
+    class plants earlyWin
+    class silicon earlyWin
+    class textiles critical
+    class vlsi-scaling pinnacle
 
     %% ==================== LEGEND ====================
     Legend["Legend and Key Insights"]

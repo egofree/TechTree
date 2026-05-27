@@ -5,9 +5,9 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph vacuum_internal ["Vacuum Technology — Internal Structure"]
         direction TB
-        vacuum_pumps["Vacuum Pumps"]
         vacuum_chambers["Vacuum Chambers & Sealing"]
         vacuum_measurement["Vacuum Measurement & Leak Detection"]
+        vacuum_pumps["Vacuum Pumps"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -27,21 +27,21 @@ graph TD
     silicon_basic-devices("Basic Semiconductor Devices")
 
     %% ==================== EDGES ====================
-    vacuum -.-> gas-handling
-    vacuum -.-> energy_electricity
-    vacuum --> metals
-    vacuum -.-> measurement
-    vacuum_pumps -.-> machine-tools
+    automation_wafer-handling -.-> vacuum
+    machine-tools_joining_electron-beam -.-> vacuum
+    optics_inspection_optical-coatings -.-> vacuum_pumps
+    photolithography_fab-processes -.-> vacuum_pumps
+    silicon_basic-devices -.-> vacuum_pumps
+    vacuum_chambers -.-> machine-tools_joining_electron-beam
+    vacuum_chambers -.-> machine-tools_joining_tig-welding
     vacuum_chambers -.-> machine-tools
     vacuum_chambers --> metals
     vacuum_measurement -.-> measurement
-    silicon_basic-devices -.-> vacuum_pumps
-    photolithography_fab-processes -.-> vacuum_pumps
-    optics_inspection_optical-coatings -.-> vacuum_pumps
-    automation_wafer-handling -.-> vacuum
-    machine-tools_joining_electron-beam -.-> vacuum
-    vacuum_chambers -.-> machine-tools_joining_tig-welding
-    vacuum_chambers -.-> machine-tools_joining_electron-beam
+    vacuum_pumps -.-> machine-tools
+    vacuum -.-> energy_electricity
+    vacuum -.-> gas-handling
+    vacuum -.-> measurement
+    vacuum --> metals
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -58,9 +58,9 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class vacuum domain
-    class vacuum_pumps capability
     class vacuum_chambers capability
     class vacuum_measurement capability
+    class vacuum_pumps capability
     class automation_wafer-handling external
     class energy_electricity external
     class gas-handling external

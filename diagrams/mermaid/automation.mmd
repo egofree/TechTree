@@ -6,9 +6,9 @@ graph TD
     subgraph automation_internal ["Automation & Robotics — Internal Structure"]
         direction TB
         automation_equipment-communication["Equipment Communication"]
-        automation_wafer-handling["Wafer Handling Robots"]
         automation_material-transport["Material Transport"]
         automation_process-control["Process Control & Lot Tracking"]
+        automation_wafer-handling["Wafer Handling Robots"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -24,13 +24,13 @@ graph TD
     %% ==================== EDGES ====================
     automation_material-transport -.-> automation_equipment-communication
     automation_process-control -.-> automation_equipment-communication
-    automation -.-> computing
-    automation -.-> electronics
     automation_equipment-communication -.-> computing
     automation_equipment-communication -.-> electronics
+    automation_process-control -.-> quality-control
     automation_wafer-handling -.-> machine-tools
     automation_wafer-handling -.-> vacuum
-    automation_process-control -.-> quality-control
+    automation -.-> computing
+    automation -.-> electronics
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -48,9 +48,9 @@ graph TD
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class automation domain
     class automation_equipment-communication critical
-    class automation_wafer-handling critical
     class automation_material-transport capability
     class automation_process-control capability
+    class automation_wafer-handling critical
     class computing external
     class electronics external
     class machine-tools external

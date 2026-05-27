@@ -86,10 +86,10 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 marine_internal: "Marine & Naval Engineering — Internal Structure" {
-  marine_shipbuilding: "Hull Construction & Shipbuilding"
+  marine_infrastructure: "Maritime Infrastructure & Underwater Engineering"
   marine_navigation: Marine Navigation
   marine_propulsion: Marine Propulsion Systems
-  marine_infrastructure: "Maritime Infrastructure & Underwater Engineering"
+  marine_shipbuilding: "Hull Construction & Shipbuilding"
 }
 
 # ==================== DOMAIN NODE ====================
@@ -134,30 +134,30 @@ transport_shipping: Water Transport {
 }
 
 # ==================== EDGES ====================
-marine -> foundations: { class: tool-edge }
-marine -> metals: { class: material-edge }
-marine -> textiles: { class: material-edge }
-marine -> energy: { class: tool-edge }
-marine -> knowledge: { class: tool-edge }
-marine -> transport_shipping: { class: tool-edge }
-marine_shipbuilding -> metals_iron-steel: { class: material-edge }
-marine_shipbuilding -> transport_shipping: { class: tool-edge }
-marine_shipbuilding -> machine-tools: { class: tool-edge }
+marine_infrastructure -> machine-tools: { class: tool-edge }
+marine_infrastructure -> metals_iron-steel: { class: material-edge }
+marine_infrastructure -> polymers_rubber_gutta-percha: { class: material-edge }
 marine_navigation -> knowledge_writing: { class: tool-edge }
 marine_navigation -> metals: { class: material-edge }
-marine_propulsion -> energy_steam-power: { class: tool-edge }
 marine_propulsion -> energy_engine: { class: tool-edge }
+marine_propulsion -> energy_steam-power: { class: tool-edge }
 marine_propulsion -> metals_iron-steel: { class: material-edge }
-marine_infrastructure -> metals_iron-steel: { class: material-edge }
-marine_infrastructure -> machine-tools: { class: tool-edge }
-marine_infrastructure -> polymers_rubber_gutta-percha: { class: material-edge }
+marine_shipbuilding -> machine-tools: { class: tool-edge }
+marine_shipbuilding -> metals_iron-steel: { class: material-edge }
+marine_shipbuilding -> transport_shipping: { class: tool-edge }
+marine -> energy: { class: tool-edge }
+marine -> foundations: { class: tool-edge }
+marine -> knowledge: { class: tool-edge }
+marine -> metals: { class: material-edge }
+marine -> textiles: { class: material-edge }
+marine -> transport_shipping: { class: tool-edge }
 
 # ==================== STYLING ====================
 marine.class: domain
-marine_shipbuilding.class: capability
+marine_infrastructure.class: capability
 marine_navigation.class: capability
 marine_propulsion.class: capability
-marine_infrastructure.class: capability
+marine_shipbuilding.class: capability
 energy.class: external
 energy_engine.class: external
 energy_steam-power.class: external

@@ -5,20 +5,20 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph metals_internal ["Metals — Internal Structure"]
         direction TB
-        metals_copper-bronze["Copper & Bronze Production"]
-        metals_iron-steel["Iron & Steel Production"]
-        metals_iron-steel_blast-furnace["Blast Furnace and Cast Iron"]
-        metals_steelmaking["Modern Steelmaking"]
+        metals_alloys["Specialty Alloys"]
         metals_aluminum["Aluminum Production"]
         metals_aluminum_semiconductor-grade["Semiconductor-Grade Aluminum Production"]
-        metals_non-ferrous["Non-Ferrous Metal Production"]
-        metals_alloys["Specialty Alloys"]
-        metals_forming["Primary Metal Forming"]
+        metals_copper-bronze["Copper & Bronze Production"]
         metals_finishing["Metal Finishing & Surface Treatment"]
+        metals_forming["Primary Metal Forming"]
+        metals_iron-steel_blast-furnace["Blast Furnace and Cast Iron"]
+        metals_iron-steel["Iron & Steel Production"]
+        metals_non-ferrous["Non-Ferrous Metal Production"]
         metals_powder-metallurgy["Powder Metallurgy & Advanced Materials"]
+        metals_precious-metals["Precious Metal Production (Gold & Silver)"]
         metals_refractory-specialty["Refractory & Specialty Metals for Semiconductor Manufacturing"]
         metals_specialty-semiconductor["Specialty Metals for Semiconductor Interconnects & Barrier Layers"]
-        metals_precious-metals["Precious Metal Production (Gold & Silver)"]
+        metals_steelmaking["Modern Steelmaking"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -80,6 +80,7 @@ graph TD
     petroleum("Petroleum Extraction & Refining")
     photolithography_fab-processes("Core Fab Processes")
     silicon_basic-devices("Basic Semiconductor Devices")
+    silicon_mg-si-production("Metallurgical-Grade Silicon Production")
     telecom("Telecommunications")
     telecom_electric-telegraph("Electrical Telegraph Networks")
     telecom_radio("Radio Communication")
@@ -95,114 +96,115 @@ graph TD
     vlsi-scaling_advanced-processes("Advanced Processes")
 
     %% ==================== EDGES ====================
-    metals_iron-steel -.-> metals_copper-bronze
-    metals_iron-steel_blast-furnace -.-> metals_iron-steel
-    metals_steelmaking -.-> metals_iron-steel_blast-furnace
-    metals_steelmaking --> metals_iron-steel
-    metals_forming --> metals_steelmaking
+    metals_alloys --> metals_iron-steel
+    metals_alloys --> metals_non-ferrous
     metals_alloys -.-> metals_steelmaking
     metals_aluminum_semiconductor-grade -.-> metals_aluminum
-    metals_non-ferrous -.-> metals_copper-bronze
-    metals_alloys --> metals_non-ferrous
-    metals_finishing --> metals_non-ferrous
-    metals_alloys --> metals_iron-steel
-    metals_forming --> metals_aluminum
-    metals_powder-metallurgy --> metals_alloys
-    metals_refractory-specialty -.-> metals
-    metals_specialty-semiconductor -.-> metals
-    metals_specialty-semiconductor -.-> metals_refractory-specialty
-    metals_precious-metals -.-> metals
-    metals_precious-metals -.-> metals_non-ferrous
-    metals_steelmaking --> metals_iron-steel
     metals_aluminum --> metals_aluminum
     metals_copper-bronze --> metals_copper-bronze
-    metals -.-> foundations
-    metals --> mining
+    metals_finishing --> metals_non-ferrous
+    metals_forming --> metals_aluminum
+    metals_forming --> metals_steelmaking
+    metals_iron-steel_blast-furnace -.-> metals_iron-steel
+    metals_iron-steel -.-> metals_copper-bronze
+    metals_non-ferrous -.-> metals_copper-bronze
+    metals_powder-metallurgy --> metals_alloys
+    metals_precious-metals -.-> metals_non-ferrous
+    metals_precious-metals -.-> metals
+    metals_refractory-specialty -.-> metals
+    metals_specialty-semiconductor -.-> metals_refractory-specialty
+    metals_specialty-semiconductor -.-> metals
+    metals_steelmaking -.-> metals_iron-steel_blast-furnace
+    metals_steelmaking --> metals_iron-steel
+    metals_steelmaking --> metals_iron-steel
+    ceramics -.-> metals
+    chemistry_acid-regeneration --> metals_forming
+    chemistry_ammonia -.-> metals
+    chemistry_cement --> metals_iron-steel_blast-furnace
+    chemistry_soap --> metals_non-ferrous
+    chemistry -.-> metals
+    cleanrooms --> metals
+    computing_mechanical --> metals
+    construction_structural-engineering --> metals_iron-steel
+    construction --> metals
+    defense --> metals
+    economics-organization_currency --> metals
+    electrochemistry_anodizing --> metals_aluminum
+    electrochemistry -.-> metals_finishing
+    electronics --> metals
+    energy_cooling -.-> metals_iron-steel
+    energy_engine -.-> metals
+    energy_gravity_water-turbines -.-> metals_iron-steel
+    energy_steam-power_steam-turbines --> metals_alloys
+    energy_steam-power_steam-turbines -.-> metals_iron-steel
+    energy_steam-power --> metals_forming
+    energy_steam-power -.-> metals_iron-steel
+    energy_storage -.-> metals
+    energy -.-> metals
+    health_medical-instruments --> metals_copper-bronze
+    knowledge_printing -.-> metals_iron-steel
+    machine-tools_casting --> metals_iron-steel
+    machine-tools_forming --> metals_iron-steel
+    machine-tools_joining --> metals_alloys
     machine-tools_joining --> metals_iron-steel
     machine-tools -.-> metals
-    machine-tools_casting --> metals_iron-steel
-    energy -.-> metals
-    energy_steam-power -.-> metals_iron-steel
-    energy_cooling -.-> metals_iron-steel
-    chemistry -.-> metals
-    measurement_precision-metrology -.-> metals
-    energy_storage -.-> metals
-    ceramics -.-> metals
-    transport -.-> metals
-    metals_copper-bronze --> foundations_fire
-    metals_copper-bronze --> mining
-    machine-tools_forming --> metals_iron-steel
-    computing_mechanical --> metals
-    transport_railways --> metals_iron-steel
-    measurement_temperature-pressure --> metals
-    energy_engine -.-> metals
-    energy_steam-power_steam-turbines -.-> metals_iron-steel
-    energy_gravity_water-turbines -.-> metals_iron-steel
-    metals_iron-steel_blast-furnace --> energy_fuels_coke
-    metals_iron-steel_blast-furnace -.-> ceramics_kilns
-    transport_telegraph --> metals_iron-steel
-    knowledge_printing -.-> metals_iron-steel
-    chemistry_ammonia -.-> metals
-    metals --> chemistry_refractories
-    metals_steelmaking --> chemistry_refractories
-    metals_steelmaking --> energy_fuels
-    metals_aluminum -.-> chemistry_electrolysis
-    metals_aluminum --> chemistry_alkalis
-    metals_aluminum -.-> energy_electricity
-    metals_aluminum --> mining
-    transport_aviation --> metals_aluminum
-    metals_aluminum_semiconductor-grade -.-> energy_electricity
-    silicon_basic-devices --> metals_aluminum_semiconductor-grade
-    photolithography_fab-processes --> metals_aluminum_semiconductor-grade
-    metals_non-ferrous --> mining
-    metals_non-ferrous --> chemistry_acids
-    chemistry_soap --> metals_non-ferrous
-    energy_steam-power_steam-turbines --> metals_alloys
-    machine-tools_joining --> metals_alloys
-    metals_forming -.-> machine-tools
-    transport_railways --> metals_forming
-    energy_steam-power --> metals_forming
-    metals_finishing --> chemistry_acids
-    metals_finishing -.-> chemistry_electrolysis
-    metals_finishing --> chemistry_coatings
-    metals_powder-metallurgy -.-> chemistry_hydrogen-silane
-    metals_powder-metallurgy -.-> energy_electric-furnaces
-    measurement -.-> metals_powder-metallurgy
-    metals_alloys -.-> energy_fuels
-    metals_copper-bronze --> animals_beekeeping
-    textiles_sewing-tailoring -.-> metals_copper-bronze
-    health_medical-instruments --> metals_copper-bronze
-    electronics --> metals
-    metals_refractory-specialty --> chemistry
-    metals_specialty-semiconductor --> chemistry
-    metals_specialty-semiconductor --> photolithography_fab-processes
-    metals_specialty-semiconductor -.-> vlsi-scaling_advanced-processes
-    metals_specialty-semiconductor -.-> gas-handling_vacuum
-    metals_precious-metals --> chemistry
-    metals_precious-metals --> mining
-    cleanrooms --> metals
-    vacuum --> metals
-    vacuum_chambers --> metals
-    electrochemistry -.-> metals_finishing
-    electrochemistry_anodizing --> metals_aluminum
-    petroleum -.-> metals
-    defense --> metals
-    construction --> metals
-    construction_structural-engineering --> metals_iron-steel
-    telecom --> metals
-    telecom_electric-telegraph --> metals
-    telecom_telephone --> metals
-    telecom_submarine-cables --> metals
-    telecom_radio --> metals
-    marine --> metals
-    marine_shipbuilding --> metals_iron-steel
+    marine_infrastructure --> metals_iron-steel
     marine_navigation --> metals
     marine_propulsion --> metals_iron-steel
-    marine_infrastructure --> metals_iron-steel
-    economics-organization_currency --> metals
-    chemistry_cement --> metals_iron-steel_blast-furnace
+    marine_shipbuilding --> metals_iron-steel
+    marine --> metals
+    measurement_precision-metrology -.-> metals
+    measurement_temperature-pressure --> metals
+    measurement -.-> metals_powder-metallurgy
+    metals_alloys -.-> energy_fuels
+    metals_aluminum_semiconductor-grade -.-> energy_electricity
+    metals_aluminum --> chemistry_alkalis
+    metals_aluminum -.-> chemistry_electrolysis
+    metals_aluminum -.-> energy_electricity
+    metals_aluminum --> mining
+    metals_copper-bronze --> animals_beekeeping
+    metals_copper-bronze --> foundations_fire
+    metals_copper-bronze --> mining
+    metals_finishing --> chemistry_acids
+    metals_finishing --> chemistry_coatings
+    metals_finishing -.-> chemistry_electrolysis
+    metals_forming -.-> machine-tools
+    metals_iron-steel_blast-furnace -.-> ceramics_kilns
+    metals_iron-steel_blast-furnace --> energy_fuels_coke
+    metals_non-ferrous --> chemistry_acids
+    metals_non-ferrous --> mining
+    metals_powder-metallurgy -.-> chemistry_hydrogen-silane
+    metals_powder-metallurgy -.-> energy_electric-furnaces
+    metals_precious-metals --> chemistry
     metals_precious-metals --> electronics
-    chemistry_acid-regeneration --> metals_forming
+    metals_precious-metals --> mining
+    metals_refractory-specialty --> chemistry
+    metals_specialty-semiconductor --> chemistry
+    metals_specialty-semiconductor -.-> gas-handling_vacuum
+    metals_specialty-semiconductor --> photolithography_fab-processes
+    metals_specialty-semiconductor -.-> vlsi-scaling_advanced-processes
+    metals_steelmaking --> chemistry_refractories
+    metals_steelmaking --> energy_fuels
+    metals --> chemistry_refractories
+    metals -.-> foundations
+    metals --> mining
+    petroleum -.-> metals
+    photolithography_fab-processes --> metals_aluminum_semiconductor-grade
+    silicon_basic-devices --> metals_aluminum_semiconductor-grade
+    silicon_mg-si-production -.-> metals
+    telecom_electric-telegraph --> metals
+    telecom_radio --> metals
+    telecom_submarine-cables --> metals
+    telecom_telephone --> metals
+    telecom --> metals
+    textiles_sewing-tailoring -.-> metals_copper-bronze
+    transport_aviation --> metals_aluminum
+    transport_railways --> metals_forming
+    transport_railways --> metals_iron-steel
+    transport_telegraph --> metals_iron-steel
+    transport -.-> metals
+    vacuum_chambers --> metals
+    vacuum --> metals
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -219,20 +221,20 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class metals domain
-    class metals_copper-bronze capability
-    class metals_iron-steel critical
-    class metals_iron-steel_blast-furnace process
-    class metals_steelmaking critical
+    class metals_alloys capability
     class metals_aluminum capability
     class metals_aluminum_semiconductor-grade process
-    class metals_non-ferrous capability
-    class metals_alloys capability
-    class metals_forming capability
+    class metals_copper-bronze capability
     class metals_finishing capability
+    class metals_forming capability
+    class metals_iron-steel_blast-furnace process
+    class metals_iron-steel critical
+    class metals_non-ferrous capability
     class metals_powder-metallurgy pinnacle
+    class metals_precious-metals capability
     class metals_refractory-specialty capability
     class metals_specialty-semiconductor capability
-    class metals_precious-metals capability
+    class metals_steelmaking critical
     class animals_beekeeping external
     class ceramics external
     class ceramics_kilns external
@@ -288,6 +290,7 @@ graph TD
     class petroleum external
     class photolithography_fab-processes external
     class silicon_basic-devices external
+    class silicon_mg-si-production external
     class telecom external
     class telecom_electric-telegraph external
     class telecom_radio external

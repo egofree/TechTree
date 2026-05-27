@@ -5,12 +5,12 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph ceramics_internal ["Ceramics & Refractories — Internal Structure"]
         direction TB
-        ceramics_pottery["Pottery & Clay Products"]
-        ceramics_pottery_kiln-firing["Kiln Firing"]
-        ceramics_kilns["Kiln Construction"]
-        ceramics_lime["Lime Production"]
         ceramics_advanced-ceramics["Advanced Ceramics & Refractories"]
         ceramics_electronic-ceramics["Electronic Ceramics"]
+        ceramics_kilns["Kiln Construction"]
+        ceramics_lime["Lime Production"]
+        ceramics_pottery["Pottery & Clay Products"]
+        ceramics_pottery_kiln-firing["Kiln Firing"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -38,30 +38,30 @@ graph TD
     silicon("Silicon")
 
     %% ==================== EDGES ====================
-    ceramics_lime -.-> ceramics_kilns
-    ceramics_advanced-ceramics -.-> ceramics_pottery
     ceramics_advanced-ceramics -.-> ceramics_kilns
+    ceramics_advanced-ceramics -.-> ceramics_pottery
     ceramics_electronic-ceramics -.-> ceramics_advanced-ceramics
-    energy_fuels_coal -.-> ceramics_kilns
-    energy_fuels_coke -.-> ceramics_kilns
-    chemistry_cement -.-> ceramics_kilns
-    photolithography_cleanrooms -.-> ceramics
-    ceramics -.-> foundations
-    ceramics -.-> metals
+    ceramics_lime -.-> ceramics_kilns
+    animals_animal-materials -.-> ceramics_lime
+    ceramics_advanced-ceramics --> mining
+    ceramics_electronic-ceramics --> chemistry
+    ceramics_lime --> mining
     ceramics_pottery_kiln-firing --> energy_fuels_charcoal
     ceramics_pottery --> foundations_fire
     ceramics_pottery -.-> foundations_tools-basic
-    health_sanitation -.-> ceramics
-    ceramics_lime --> mining
-    ceramics_advanced-ceramics --> mining
-    silicon -.-> ceramics_advanced-ceramics
-    ceramics_electronic-ceramics --> chemistry
-    metals_iron-steel_blast-furnace -.-> ceramics_kilns
+    ceramics -.-> foundations
+    ceramics -.-> metals
+    chemistry_cement -.-> ceramics_kilns
     chemistry_refractories -.-> ceramics_kilns
-    animals_animal-materials -.-> ceramics_lime
     construction --> ceramics_lime
-    food-processing_preservation --> ceramics
+    energy_fuels_coal -.-> ceramics_kilns
+    energy_fuels_coke -.-> ceramics_kilns
     food-processing_dairy --> ceramics
+    food-processing_preservation --> ceramics
+    health_sanitation -.-> ceramics
+    metals_iron-steel_blast-furnace -.-> ceramics_kilns
+    photolithography_cleanrooms -.-> ceramics
+    silicon -.-> ceramics_advanced-ceramics
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -78,12 +78,12 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class ceramics domain
-    class ceramics_pottery capability
-    class ceramics_pottery_kiln-firing process
-    class ceramics_kilns capability
-    class ceramics_lime capability
     class ceramics_advanced-ceramics critical
     class ceramics_electronic-ceramics capability
+    class ceramics_kilns capability
+    class ceramics_lime capability
+    class ceramics_pottery capability
+    class ceramics_pottery_kiln-firing process
     class animals_animal-materials external
     class chemistry external
     class chemistry_cement external

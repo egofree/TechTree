@@ -29,21 +29,21 @@ graph TD
     vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
 
     %% ==================== EDGES ====================
-    electronics --> metals
-    electronics -.-> energy_electricity
-    electronics -.-> machine-tools
-    electronics --> chemistry
-    electronics_assembly --> silicon_basic-devices
+    automation_equipment-communication -.-> electronics
+    automation -.-> electronics
+    computing_electronic -.-> electronics_assembly
     electronics_assembly --> glass_fibers
     electronics_assembly --> polymers_thermosets
-    electronics_electrical-systems -.-> energy_electricity
+    electronics_assembly --> silicon_basic-devices
     electronics_electrical-systems --> chemistry_electrolysis
+    electronics_electrical-systems -.-> energy_electricity
     electronics_electrical-systems --> polymers_thermoplastics
-    computing_electronic -.-> electronics_assembly
-    vlsi-scaling_eda-design -.-> electronics_assembly
-    automation -.-> electronics
-    automation_equipment-communication -.-> electronics
+    electronics --> chemistry
+    electronics -.-> energy_electricity
+    electronics -.-> machine-tools
+    electronics --> metals
     metals_precious-metals --> electronics
+    vlsi-scaling_eda-design -.-> electronics_assembly
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]

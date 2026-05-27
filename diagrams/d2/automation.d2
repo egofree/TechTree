@@ -87,9 +87,9 @@ classes: {
 # ==================== INTERNAL NODES ====================
 automation_internal: "Automation & Robotics — Internal Structure" {
   automation_equipment-communication: Equipment Communication
-  automation_wafer-handling: Wafer Handling Robots
   automation_material-transport: Material Transport
   automation_process-control: "Process Control & Lot Tracking"
+  automation_wafer-handling: Wafer Handling Robots
 }
 
 # ==================== DOMAIN NODE ====================
@@ -115,20 +115,20 @@ vacuum: Vacuum Technology {
 # ==================== EDGES ====================
 automation_material-transport -> automation_equipment-communication: { class: tool-edge }
 automation_process-control -> automation_equipment-communication: { class: tool-edge }
-automation -> computing: { class: tool-edge }
-automation -> electronics: { class: tool-edge }
 automation_equipment-communication -> computing: { class: tool-edge }
 automation_equipment-communication -> electronics: { class: tool-edge }
+automation_process-control -> quality-control: { class: tool-edge }
 automation_wafer-handling -> machine-tools: { class: tool-edge }
 automation_wafer-handling -> vacuum: { class: tool-edge }
-automation_process-control -> quality-control: { class: tool-edge }
+automation -> computing: { class: tool-edge }
+automation -> electronics: { class: tool-edge }
 
 # ==================== STYLING ====================
 automation.class: domain
 automation_equipment-communication.class: critical
-automation_wafer-handling.class: critical
 automation_material-transport.class: capability
 automation_process-control.class: capability
+automation_wafer-handling.class: critical
 computing.class: external
 electronics.class: external
 machine-tools.class: external

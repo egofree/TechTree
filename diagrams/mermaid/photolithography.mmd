@@ -6,8 +6,8 @@ graph TD
     subgraph photolithography_internal ["Photolithography & IC Fabrication — Internal Structure"]
         direction TB
         photolithography_cleanrooms["Cleanrooms"]
-        photolithography_resists-masks["Photoresists, Masks & Lithography"]
         photolithography_fab-processes["Core Fab Processes"]
+        photolithography_resists-masks["Photoresists, Masks & Lithography"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -40,32 +40,32 @@ graph TD
     vlsi-scaling_eda-design("EDA, GPU Design & Advanced Packaging")
 
     %% ==================== EDGES ====================
-    photolithography -.-> machine-tools
-    photolithography --> chemistry
-    photolithography -.-> gas-handling
-    photolithography -.-> optics
-    photolithography --> silicon
-    photolithography_cleanrooms --> chemistry
+    chemistry_packaging-testing --> photolithography_fab-processes
+    computing_electronic --> photolithography_fab-processes
+    glass_photomask-substrates --> photolithography_fab-processes
+    metals_specialty-semiconductor --> photolithography_fab-processes
     photolithography_cleanrooms -.-> ceramics
-    photolithography_resists-masks --> chemistry
-    photolithography_resists-masks --> polymers_thermosets
+    photolithography_cleanrooms --> chemistry
     photolithography_fab-processes --> chemistry_dopant-etch-gases
+    photolithography_fab-processes -.-> economics-organization_supply-chain
     photolithography_fab-processes -.-> gas-handling_vacuum
-    vlsi-scaling -.-> photolithography
-    vlsi-scaling_continuous-scaling -.-> photolithography_fab-processes
+    photolithography_fab-processes --> metals_aluminum_semiconductor-grade
+    photolithography_fab-processes -.-> vacuum_pumps
+    photolithography_resists-masks --> chemistry
+    photolithography_resists-masks --> glass_basic
+    photolithography_resists-masks --> polymers_thermosets
+    photolithography --> chemistry
+    photolithography -.-> cleanrooms
+    photolithography -.-> gas-handling
+    photolithography -.-> machine-tools
+    photolithography -.-> optics
+    photolithography -.-> quality-control
+    photolithography --> silicon
     vlsi-scaling_advanced-lithography -.-> photolithography_resists-masks
     vlsi-scaling_advanced-processes -.-> photolithography_fab-processes
+    vlsi-scaling_continuous-scaling -.-> photolithography_fab-processes
     vlsi-scaling_eda-design -.-> photolithography_fab-processes
-    chemistry_packaging-testing --> photolithography_fab-processes
-    photolithography_fab-processes --> metals_aluminum_semiconductor-grade
-    computing_electronic --> photolithography_fab-processes
-    photolithography_resists-masks --> glass_basic
-    metals_specialty-semiconductor --> photolithography_fab-processes
-    glass_photomask-substrates --> photolithography_fab-processes
-    photolithography -.-> cleanrooms
-    photolithography -.-> quality-control
-    photolithography_fab-processes -.-> vacuum_pumps
-    photolithography_fab-processes -.-> economics-organization_supply-chain
+    vlsi-scaling -.-> photolithography
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -83,8 +83,8 @@ graph TD
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class photolithography domain
     class photolithography_cleanrooms capability
-    class photolithography_resists-masks capability
     class photolithography_fab-processes capability
+    class photolithography_resists-masks capability
     class ceramics external
     class chemistry external
     class chemistry_dopant-etch-gases external

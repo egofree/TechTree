@@ -6,9 +6,9 @@ graph TD
     subgraph precision-motion_internal ["Precision Motion Control — Internal Structure"]
         direction TB
         precision-motion_nanometer-positioning["Nanometer Positioning"]
-        precision-motion_wafer-stages["Wafer Stages & Scanner Systems"]
-        precision-motion_vibration-isolation["Vibration Isolation"]
         precision-motion_precision-encoders["Precision Encoders & Feedback"]
+        precision-motion_vibration-isolation["Vibration Isolation"]
+        precision-motion_wafer-stages["Wafer Stages & Scanner Systems"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -34,7 +34,7 @@ graph TD
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class precision-motion domain
     class precision-motion_nanometer-positioning capability
-    class precision-motion_wafer-stages pinnacle
-    class precision-motion_vibration-isolation capability
     class precision-motion_precision-encoders capability
+    class precision-motion_vibration-isolation capability
+    class precision-motion_wafer-stages pinnacle
     class EdgeLegend,MatNote,ToolNote legend

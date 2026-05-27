@@ -5,26 +5,26 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph energy_internal ["Energy — Internal Structure"]
         direction TB
-        energy_gravity["Water Power"]
-        energy_wind["Wind Power"]
-        energy_fuels["Fuel Production"]
+        energy_blue-energy["Blue Energy (Osmotic Power)"]
+        energy_cooling["Cooling Systems & Refrigeration"]
+        energy_electric-furnaces_electrode-manufacturing["Graphite Electrode Manufacturing"]
+        energy_electric-furnaces["Electric Furnaces"]
+        energy_electricity["Electricity Generation & Distribution"]
+        energy_electricity_power-systems["Electric Power Systems for Semiconductor Fabrication"]
+        energy_engine["Heat Engines"]
+        energy_fuel-cell["Fuel Cell"]
         energy_fuels_charcoal["Charcoal Production"]
         energy_fuels_coal["Coal Mining & Combustion"]
         energy_fuels_coke["Coke Production"]
-        energy_steam-power["Steam Power"]
-        energy_engine["Heat Engines"]
-        energy_electricity["Electricity Generation & Distribution"]
-        energy_electricity_power-systems["Electric Power Systems for Semiconductor Fabrication"]
-        energy_electric-furnaces["Electric Furnaces"]
-        energy_cooling["Cooling Systems & Refrigeration"]
-        energy_storage["Energy Storage & Diversification"]
-        energy_steam-power_steam-turbines["Steam Turbines"]
+        energy_fuels["Fuel Production"]
+        energy_gravity["Water Power"]
         energy_gravity_water-turbines["Water Turbines"]
-        energy_storage_pumped-hydro["Pumped Hydroelectric Storage"]
-        energy_electric-furnaces_electrode-manufacturing["Graphite Electrode Manufacturing"]
         energy_redox-flow-battery["Redox Flow Battery"]
-        energy_fuel-cell["Fuel Cell"]
-        energy_blue-energy["Blue Energy (Osmotic Power)"]
+        energy_steam-power["Steam Power"]
+        energy_steam-power_steam-turbines["Steam Turbines"]
+        energy_storage["Energy Storage & Diversification"]
+        energy_storage_pumped-hydro["Pumped Hydroelectric Storage"]
+        energy_wind["Wind Power"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -98,6 +98,7 @@ graph TD
     polymers_rubber("Rubber Production")
     silicon("Silicon")
     silicon_mg-si-production("Metallurgical-Grade Silicon Production")
+    silicon_purification("Silicon Purification")
     telecom("Telecommunications")
     telecom_electric-telegraph("Electrical Telegraph Networks")
     telecom_radio("Radio Communication")
@@ -111,122 +112,124 @@ graph TD
     water_desalination("Desalination")
 
     %% ==================== EDGES ====================
+    energy_electric-furnaces_electrode-manufacturing --> energy_electric-furnaces
     energy_electric-furnaces --> energy_electricity
-    energy_storage -.-> energy
+    energy_electricity_power-systems -.-> energy_electricity
+    energy_electricity_power-systems -.-> energy_engine
+    energy_electricity_power-systems -.-> energy_storage
+    energy_engine --> energy_fuels
     energy_fuels_charcoal -.-> energy_fuels
     energy_fuels_coal -.-> energy_fuels
     energy_fuels_coke -.-> energy_fuels
-    energy_electricity_power-systems -.-> energy_electricity
-    energy_electricity_power-systems -.-> energy_storage
-    energy_electricity_power-systems -.-> energy_engine
-    energy_engine --> energy_fuels
-    energy_steam-power_steam-turbines -.-> energy_steam-power
     energy_gravity_water-turbines -.-> energy_gravity
-    energy_storage_pumped-hydro -.-> energy_gravity
-    energy_storage_pumped-hydro -.-> energy_electricity
-    energy_electric-furnaces_electrode-manufacturing --> energy_electric-furnaces
     energy_redox-flow-battery --> energy_electricity
-    energy_gravity -.-> textiles
-    energy_wind -.-> textiles
-    energy_gravity --> chemistry_lubricants
-    energy_wind --> chemistry_lubricants
-    energy -.-> metals
-    energy_fuels_coal -.-> ceramics_kilns
-    energy_fuels_coke -.-> ceramics_kilns
-    energy_fuels_coal --> mining
-    energy_fuels_coke --> mining
-    energy_steam-power -.-> machine-tools
-    energy_steam-power -.-> metals_iron-steel
-    energy_steam-power -.-> machine-tools_joining
-    energy_electric-furnaces -.-> machine-tools
+    energy_steam-power_steam-turbines -.-> energy_steam-power
+    energy_storage_pumped-hydro -.-> energy_electricity
+    energy_storage_pumped-hydro -.-> energy_gravity
+    energy_storage -.-> energy
+    agriculture_hydroponic-ph-control --> energy_electricity
+    ceramics_pottery_kiln-firing --> energy_fuels_charcoal
+    chemistry_acid-regeneration --> energy_electricity
+    chemistry_air-separation --> energy_electricity
+    chemistry_ammonia --> energy
+    chemistry_e-methanol --> energy_electricity
+    chemistry_electrodialysis -.-> energy_blue-energy
+    chemistry_electrodialysis --> energy_electricity
+    chemistry_electrolysis --> energy_electricity
+    chemistry_electrolysis -.-> energy_fuel-cell
+    chemistry_electrolysis -.-> energy_redox-flow-battery
+    chemistry_explosives --> energy_fuels_charcoal
+    chemistry_lithium-separation --> energy_electricity
+    chemistry_water-electrolysis --> energy_electricity
+    chemistry_water-electrolysis --> energy_fuel-cell
+    chemistry --> energy
+    cleanrooms -.-> energy
+    computing_electromechanical --> energy_electricity
+    construction_industrial-buildings -.-> energy_electricity
+    cryogenics -.-> energy_electricity
+    electrochemistry -.-> energy_electricity
+    electronics_electrical-systems -.-> energy_electricity
+    electronics -.-> energy_electricity
+    energy_cooling --> chemistry_petroleum-alternatives
     energy_cooling -.-> machine-tools
     energy_cooling -.-> metals_iron-steel
-    energy_cooling --> chemistry_petroleum-alternatives
-    chemistry_electrolysis --> energy_electricity
-    machine-tools_joining --> energy_electricity
-    chemistry --> energy
-    glass --> energy
-    gas-handling --> energy
-    silicon --> energy
-    silicon_mg-si-production -.-> energy_electric-furnaces
-    chemistry_air-separation --> energy_electricity
+    energy_electric-furnaces_electrode-manufacturing --> chemistry_petroleum-alternatives
+    energy_electric-furnaces -.-> machine-tools
+    energy_electricity_power-systems -.-> measurement
+    energy_engine -.-> metals
+    energy_engine --> petroleum_refining
+    energy_fuels_charcoal -.-> foundations
+    energy_fuels_coal -.-> ceramics_kilns
+    energy_fuels_coal --> mining
+    energy_fuels_coke -.-> ceramics_kilns
+    energy_fuels_coke --> mining
+    energy_fuels -.-> foundations_fire
+    energy_gravity_water-turbines -.-> machine-tools_machining
+    energy_gravity_water-turbines -.-> metals_iron-steel
+    energy_gravity --> chemistry_lubricants
+    energy_gravity -.-> textiles
+    energy_steam-power_steam-turbines -.-> machine-tools_machining
+    energy_steam-power_steam-turbines --> metals_alloys
+    energy_steam-power_steam-turbines -.-> metals_iron-steel
+    energy_steam-power -.-> machine-tools_joining
+    energy_steam-power -.-> machine-tools
+    energy_steam-power --> metals_forming
+    energy_steam-power -.-> metals_iron-steel
     energy_storage --> chemistry
     energy_storage -.-> metals
-    transport --> energy
-    energy_fuels_charcoal -.-> foundations
-    ceramics_pottery_kiln-firing --> energy_fuels_charcoal
-    energy_fuels -.-> foundations_fire
-    machine-tools_forming --> energy_fuels
-    machine-tools_edm-cnc -.-> energy_electricity
-    computing_electromechanical --> energy_electricity
-    mining_processing -.-> energy_fuels
     energy_storage --> polymers_rubber
-    energy_electricity_power-systems -.-> measurement
-    transport_railways -.-> energy_steam-power
-    measurement_temperature-pressure -.-> energy_electricity
-    energy_engine -.-> metals
-    transport_aviation -.-> energy_engine
-    transport -.-> energy_engine
-    energy_steam-power_steam-turbines -.-> metals_iron-steel
-    energy_steam-power_steam-turbines -.-> machine-tools_machining
-    energy_gravity_water-turbines -.-> metals_iron-steel
-    energy_gravity_water-turbines -.-> machine-tools_machining
-    energy_electric-furnaces_electrode-manufacturing --> chemistry_petroleum-alternatives
-    metals_iron-steel_blast-furnace --> energy_fuels_coke
-    transport_telegraph -.-> energy_electricity
-    chemistry_explosives --> energy_fuels_charcoal
-    glass_advanced_glassblowing -.-> energy_fuels
-    transport -.-> energy_fuels
-    plants --> energy_fuels
-    chemistry_ammonia --> energy
-    metals_steelmaking --> energy_fuels
-    metals_aluminum -.-> energy_electricity
-    metals_aluminum_semiconductor-grade -.-> energy_electricity
-    energy_steam-power_steam-turbines --> metals_alloys
-    energy_steam-power --> metals_forming
-    metals_powder-metallurgy -.-> energy_electric-furnaces
-    metals_alloys -.-> energy_fuels
-    mining_drilling -.-> energy_steam-power
-    mining_ventilation -.-> energy_steam-power
-    measurement_electrical-instruments -.-> energy_electricity
-    health_medical-instruments -.-> energy_steam-power
-    chemistry_electrolysis -.-> energy_redox-flow-battery
-    chemistry_electrolysis -.-> energy_fuel-cell
-    chemistry_water-electrolysis --> energy_electricity
-    chemistry_e-methanol --> energy_electricity
-    chemistry_electrodialysis --> energy_electricity
-    water_desalination --> energy_electricity
-    agriculture_hydroponic-ph-control --> energy_electricity
-    chemistry_lithium-separation --> energy_electricity
-    chemistry_acid-regeneration --> energy_electricity
-    chemistry_water-electrolysis --> energy_fuel-cell
-    chemistry_electrodialysis -.-> energy_blue-energy
-    electronics -.-> energy_electricity
-    electronics_electrical-systems -.-> energy_electricity
-    cleanrooms -.-> energy
-    cryogenics -.-> energy_electricity
-    vacuum -.-> energy_electricity
-    electrochemistry -.-> energy_electricity
-    petroleum_extraction_cable-tool -.-> energy_steam-power
-    energy_engine --> petroleum_refining
-    construction_industrial-buildings -.-> energy_electricity
-    food-processing -.-> energy
-    food-processing_milling -.-> energy
+    energy_wind --> chemistry_lubricants
+    energy_wind -.-> textiles
+    energy -.-> metals
     food-processing_brewing -.-> energy
-    telecom -.-> energy_electricity
-    telecom_electric-telegraph -.-> energy_electricity
-    telecom_telephone -.-> energy_electricity
-    telecom_radio -.-> energy_electricity
-    marine -.-> energy
-    marine_propulsion -.-> energy_steam-power
-    marine_propulsion -.-> energy_engine
-    machine-tools_joining_tig-welding -.-> energy_electricity
+    food-processing_milling -.-> energy
+    food-processing -.-> energy
+    gas-handling --> energy
+    glass_advanced_glassblowing -.-> energy_fuels
+    glass --> energy
+    health_medical-instruments -.-> energy_steam-power
+    machine-tools_edm-cnc -.-> energy_electricity
+    machine-tools_forming --> energy_fuels
+    machine-tools_joining_diffusion-bonding -.-> energy_electric-furnaces
+    machine-tools_joining_electron-beam -.-> energy_electricity
+    machine-tools_joining_laser-welding -.-> energy_electricity
     machine-tools_joining_mig-welding -.-> energy_electricity
     machine-tools_joining_resistance-welding --> energy_electricity
-    machine-tools_joining_electron-beam -.-> energy_electricity
+    machine-tools_joining_tig-welding -.-> energy_electricity
     machine-tools_joining_ultrasonic-bonding -.-> energy_electricity
-    machine-tools_joining_laser-welding -.-> energy_electricity
-    machine-tools_joining_diffusion-bonding -.-> energy_electric-furnaces
+    machine-tools_joining --> energy_electricity
+    marine_propulsion -.-> energy_engine
+    marine_propulsion -.-> energy_steam-power
+    marine -.-> energy
+    measurement_electrical-instruments -.-> energy_electricity
+    measurement_temperature-pressure -.-> energy_electricity
+    metals_alloys -.-> energy_fuels
+    metals_aluminum_semiconductor-grade -.-> energy_electricity
+    metals_aluminum -.-> energy_electricity
+    metals_iron-steel_blast-furnace --> energy_fuels_coke
+    metals_powder-metallurgy -.-> energy_electric-furnaces
+    metals_steelmaking --> energy_fuels
+    mining_drilling -.-> energy_steam-power
+    mining_processing -.-> energy_fuels
+    mining_ventilation -.-> energy_steam-power
+    petroleum_extraction_cable-tool -.-> energy_steam-power
+    plants --> energy_fuels
+    silicon_mg-si-production -.-> energy_electric-furnaces
+    silicon_mg-si-production -.-> energy
+    silicon_purification -.-> energy_electricity
+    silicon --> energy
+    telecom_electric-telegraph -.-> energy_electricity
+    telecom_radio -.-> energy_electricity
+    telecom_telephone -.-> energy_electricity
+    telecom -.-> energy_electricity
+    transport_aviation -.-> energy_engine
+    transport_railways -.-> energy_steam-power
+    transport_telegraph -.-> energy_electricity
+    transport -.-> energy_engine
+    transport -.-> energy_fuels
+    transport --> energy
+    vacuum -.-> energy_electricity
+    water_desalination --> energy_electricity
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -243,26 +246,26 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class energy domain
-    class energy_gravity capability
-    class energy_wind capability
-    class energy_fuels capability
+    class energy_blue-energy capability
+    class energy_cooling capability
+    class energy_electric-furnaces_electrode-manufacturing process
+    class energy_electric-furnaces capability
+    class energy_electricity capability
+    class energy_electricity_power-systems critical
+    class energy_engine critical
+    class energy_fuel-cell capability
     class energy_fuels_charcoal process
     class energy_fuels_coal process
     class energy_fuels_coke process
-    class energy_steam-power capability
-    class energy_engine critical
-    class energy_electricity capability
-    class energy_electricity_power-systems critical
-    class energy_electric-furnaces capability
-    class energy_cooling capability
-    class energy_storage capability
-    class energy_steam-power_steam-turbines process
+    class energy_fuels capability
+    class energy_gravity capability
     class energy_gravity_water-turbines process
-    class energy_storage_pumped-hydro process
-    class energy_electric-furnaces_electrode-manufacturing process
     class energy_redox-flow-battery capability
-    class energy_fuel-cell capability
-    class energy_blue-energy capability
+    class energy_steam-power capability
+    class energy_steam-power_steam-turbines process
+    class energy_storage capability
+    class energy_storage_pumped-hydro process
+    class energy_wind capability
     class agriculture_hydroponic-ph-control external
     class ceramics_kilns external
     class ceramics_pottery_kiln-firing external
@@ -330,6 +333,7 @@ graph TD
     class polymers_rubber external
     class silicon external
     class silicon_mg-si-production external
+    class silicon_purification external
     class telecom external
     class telecom_electric-telegraph external
     class telecom_radio external

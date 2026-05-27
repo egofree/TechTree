@@ -2,10 +2,9 @@
 """Generate all HTML pages for the bootciv offline browser site.
 
 Called by build-site.sh after directory structure is created.
-Reads source data from tech-tree-bootstrap, writes HTML to site/.
+Uses tt_data.py for entity/edge loading (per-entity JSON-LD files).
 """
 
-import json
 import sys
 from pathlib import Path
 
@@ -18,7 +17,9 @@ from lib.build_utils import (
     generate_domain_pages,
     generate_home_page,
     generate_search_index,
+    load_all_edges,
 )
+from lib.tt_data import load_all_entities
 import yaml
 
 
@@ -38,26 +39,24 @@ def main():
     search_index_only = sys.argv[5] == "true"
 
     docs_dir = str(project_dir / "docs")
-    nodes_file = project_dir / "data" / "nodes.json"
-    edges_file = project_dir / "data" / "edges.json"
     checklist_file = project_dir / "data" / "checklist.yaml"
 
-    nodes_json = json.loads(nodes_file.read_text(encoding="utf-8"))
-    edges_json = json.loads(edges_file.read_text(encoding="utf-8"))["edges"]
+    nodes = load_all_entities()
+    edges = load_all_edges()
     checklist = yaml.safe_load(checklist_file.read_text(encoding="utf-8"))
 
-    page_map = build_node_page_map(docs_dir, nodes_json)
-    sidebar_tree = build_sidebar_tree(nodes_json)
+    page_map = build_node_page_map(docs_dir, nodes)
+    sidebar_tree = build_sidebar_tree(nodes)
 
     if search_index_only:
         cap_entries = generate_capability_pages(
-            docs_dir, str(site_dir), nodes_json, edges_json, page_map, sidebar_tree,
+            docs_dir, str(site_dir), nodes, edges, page_map, sidebar_tree,
         )
         domain_entries = generate_domain_pages(
-            str(site_dir), nodes_json, edges_json, page_map, sidebar_tree, str(mermaid_dir),
+            str(site_dir), nodes, edges, page_map, sidebar_tree, str(mermaid_dir),
         )
         home_entry = generate_home_page(
-            docs_dir, str(site_dir), nodes_json, edges_json, checklist,
+            docs_dir, str(site_dir), nodes, edges, checklist,
             page_map, sidebar_tree, str(mermaid_dir),
         )
         all_entries = [home_entry] + domain_entries + cap_entries
@@ -67,13 +66,13 @@ def main():
         return
 
     cap_entries = generate_capability_pages(
-        docs_dir, str(site_dir), nodes_json, edges_json, page_map, sidebar_tree,
+        docs_dir, str(site_dir), nodes, edges, page_map, sidebar_tree,
     )
     domain_entries = generate_domain_pages(
-        str(site_dir), nodes_json, edges_json, page_map, sidebar_tree, str(mermaid_dir),
+        str(site_dir), nodes, edges, page_map, sidebar_tree, str(mermaid_dir),
     )
     home_entry = generate_home_page(
-        docs_dir, str(site_dir), nodes_json, edges_json, checklist,
+        docs_dir, str(site_dir), nodes, edges, checklist,
         page_map, sidebar_tree, str(mermaid_dir),
     )
 

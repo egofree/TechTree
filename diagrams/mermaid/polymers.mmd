@@ -5,15 +5,15 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph polymers_internal ["Polymers & Composites — Internal Structure"]
         direction TB
-        polymers_rubber["Rubber Production"]
-        polymers_rubber_natural["Natural Rubber & Vulcanization"]
-        polymers_rubber_synthetic["Synthetic Rubbers"]
-        polymers_rubber_vulcanization["Vulcanization & Hardness"]
-        polymers_thermosets["Thermosetting Polymers"]
-        polymers_thermoplastics["Thermoplastic Polymers"]
         polymers_composites["Composite Materials"]
         polymers_rubber_gutta-percha["Gutta-Percha Processing"]
+        polymers_rubber["Rubber Production"]
+        polymers_rubber_natural["Natural Rubber & Vulcanization"]
         polymers_rubber_shellac["Shellac Production"]
+        polymers_rubber_synthetic["Synthetic Rubbers"]
+        polymers_rubber_vulcanization["Vulcanization & Hardness"]
+        polymers_thermoplastics["Thermoplastic Polymers"]
+        polymers_thermosets["Thermosetting Polymers"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -41,30 +41,30 @@ graph TD
     polymers_composites --> polymers_thermosets
     polymers_rubber_gutta-percha -.-> polymers_rubber
     polymers_rubber_shellac -.-> polymers_rubber
-    photolithography_resists-masks --> polymers_thermosets
     chemistry_packaging-testing --> polymers_thermosets
-    polymers -.-> foundations
-    polymers_rubber_synthetic --> chemistry_petroleum-alternatives
-    polymers_rubber_synthetic --> chemistry
-    polymers_rubber_synthetic -.-> machine-tools
-    polymers_thermosets --> chemistry_petroleum-alternatives
-    polymers_thermosets --> chemistry
-    polymers_thermosets -.-> machine-tools
-    polymers_thermoplastics --> chemistry_petroleum-alternatives
-    polymers_thermoplastics --> chemistry
-    polymers_thermoplastics -.-> machine-tools
-    polymers_composites -.-> machine-tools
-    polymers_rubber_natural -.-> foundations
-    health --> polymers_rubber
-    energy_storage --> polymers_rubber
-    polymers_rubber_shellac --> chemistry_distillation
-    polymers_composites --> glass_fibers
     computing_data-storage --> polymers_thermoplastics
     electronics_assembly --> polymers_thermosets
     electronics_electrical-systems --> polymers_thermoplastics
-    telecom --> polymers_rubber_gutta-percha
-    telecom_submarine-cables --> polymers_rubber_gutta-percha
+    energy_storage --> polymers_rubber
+    health --> polymers_rubber
     marine_infrastructure --> polymers_rubber_gutta-percha
+    photolithography_resists-masks --> polymers_thermosets
+    polymers_composites --> glass_fibers
+    polymers_composites -.-> machine-tools
+    polymers_rubber_natural -.-> foundations
+    polymers_rubber_shellac --> chemistry_distillation
+    polymers_rubber_synthetic --> chemistry_petroleum-alternatives
+    polymers_rubber_synthetic --> chemistry
+    polymers_rubber_synthetic -.-> machine-tools
+    polymers_thermoplastics --> chemistry_petroleum-alternatives
+    polymers_thermoplastics --> chemistry
+    polymers_thermoplastics -.-> machine-tools
+    polymers_thermosets --> chemistry_petroleum-alternatives
+    polymers_thermosets --> chemistry
+    polymers_thermosets -.-> machine-tools
+    polymers -.-> foundations
+    telecom_submarine-cables --> polymers_rubber_gutta-percha
+    telecom --> polymers_rubber_gutta-percha
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -81,15 +81,15 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class polymers domain
-    class polymers_rubber capability
-    class polymers_rubber_natural process
-    class polymers_rubber_synthetic process
-    class polymers_rubber_vulcanization process
-    class polymers_thermosets capability
-    class polymers_thermoplastics capability
     class polymers_composites capability
     class polymers_rubber_gutta-percha process
+    class polymers_rubber capability
+    class polymers_rubber_natural process
     class polymers_rubber_shellac process
+    class polymers_rubber_synthetic process
+    class polymers_rubber_vulcanization process
+    class polymers_thermoplastics capability
+    class polymers_thermosets capability
     class chemistry external
     class chemistry_distillation external
     class chemistry_packaging-testing external

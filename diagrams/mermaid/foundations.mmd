@@ -6,8 +6,8 @@ graph TD
     subgraph foundations_internal ["Foundations — Internal Structure"]
         direction TB
         foundations_fire["Fire-Making"]
-        foundations_tools-basic["Stone & Wood Tools"]
         foundations_food-agriculture["Agriculture & Food Production"]
+        foundations_tools-basic["Stone & Wood Tools"]
         foundations_water-procurement["Water Procurement"]
     end
 
@@ -59,53 +59,53 @@ graph TD
 
     %% ==================== EDGES ====================
     foundations_food-agriculture -.-> foundations_tools-basic
-    foundations_water-procurement -.-> foundations
     foundations_water-procurement -.-> foundations_tools-basic
-    metals -.-> foundations
-    knowledge -.-> foundations
-    measurement_precision-metrology -.-> foundations
-    health -.-> foundations
-    ceramics -.-> foundations
-    textiles -.-> foundations
-    chemistry_lubricants -.-> foundations
-    mining -.-> foundations
-    chemistry_petroleum-alternatives -.-> foundations
-    polymers -.-> foundations
-    energy_fuels_charcoal -.-> foundations
-    polymers_rubber_natural -.-> foundations
-    energy_fuels -.-> foundations_fire
-    ceramics_pottery --> foundations_fire
-    metals_copper-bronze --> foundations_fire
-    machine-tools_forming -.-> foundations_fire
-    mining_extraction -.-> foundations_tools-basic
-    ceramics_pottery -.-> foundations_tools-basic
-    textiles_fibers -.-> foundations_tools-basic
-    knowledge_writing -.-> foundations_tools-basic
-    transport_roads -.-> foundations_tools-basic
-    knowledge_writing -.-> foundations_food-agriculture
-    plants -.-> foundations_fire
-    foundations_food-agriculture --> plants_edible-plants
-    animals -.-> foundations
-    animals_draft-power -.-> foundations_tools-basic
+    foundations_water-procurement -.-> foundations
+    animals_aquaculture -.-> foundations_tools-basic
     animals_beekeeping -.-> foundations_fire
     animals_beekeeping -.-> foundations_tools-basic
-    animals_aquaculture -.-> foundations_tools-basic
+    animals_draft-power -.-> foundations_tools-basic
+    animals_poultry --> foundations_food-agriculture
+    animals -.-> foundations
+    ceramics_pottery --> foundations_fire
+    ceramics_pottery -.-> foundations_tools-basic
+    ceramics -.-> foundations
+    chemistry_alkalis --> foundations_fire
+    chemistry_lubricants -.-> foundations
+    chemistry_petroleum-alternatives -.-> foundations
+    construction_building-materials -.-> foundations_tools-basic
+    construction -.-> foundations
+    defense -.-> foundations
+    economics-organization_division-of-labor --> foundations_food-agriculture
+    economics-organization -.-> foundations
+    energy_fuels_charcoal -.-> foundations
+    energy_fuels -.-> foundations_fire
+    food-processing --> foundations_food-agriculture
+    foundations_food-agriculture --> agriculture_soil-management
     foundations_food-agriculture --> animals_beekeeping
-    health_sanitation --> foundations_water-procurement
     foundations_food-agriculture --> animals_pigs
     foundations_food-agriculture --> animals_rabbits
-    animals_poultry --> foundations_food-agriculture
-    foundations_food-agriculture --> agriculture_soil-management
-    mathematics_core-mathematics -.-> foundations
-    defense -.-> foundations
-    construction -.-> foundations
-    construction_building-materials -.-> foundations_tools-basic
-    food-processing --> foundations_food-agriculture
-    telecom_pre-electric -.-> foundations
+    foundations_food-agriculture --> plants_edible-plants
+    health_sanitation --> foundations_water-procurement
+    health -.-> foundations
+    knowledge_writing -.-> foundations_food-agriculture
+    knowledge_writing -.-> foundations_tools-basic
+    knowledge -.-> foundations
+    machine-tools_forming -.-> foundations_fire
     marine -.-> foundations
-    economics-organization -.-> foundations
-    economics-organization_division-of-labor --> foundations_food-agriculture
-    chemistry_alkalis --> foundations_fire
+    mathematics_core-mathematics -.-> foundations
+    measurement_precision-metrology -.-> foundations
+    metals_copper-bronze --> foundations_fire
+    metals -.-> foundations
+    mining_extraction -.-> foundations_tools-basic
+    mining -.-> foundations
+    plants -.-> foundations_fire
+    polymers_rubber_natural -.-> foundations
+    polymers -.-> foundations
+    telecom_pre-electric -.-> foundations
+    textiles_fibers -.-> foundations_tools-basic
+    textiles -.-> foundations
+    transport_roads -.-> foundations_tools-basic
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -123,8 +123,8 @@ graph TD
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class foundations domain
     class foundations_fire capability
-    class foundations_tools-basic capability
     class foundations_food-agriculture capability
+    class foundations_tools-basic capability
     class foundations_water-procurement capability
     class agriculture_soil-management external
     class animals external

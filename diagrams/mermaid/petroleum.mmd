@@ -5,14 +5,14 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph petroleum_internal ["Petroleum Extraction & Refining — Internal Structure"]
         direction TB
-        petroleum_extraction["Crude Oil Extraction"]
         petroleum_extraction_cable-tool["Cable-Tool Drilling"]
+        petroleum_extraction["Crude Oil Extraction"]
         petroleum_extraction_rotary["Rotary Drilling"]
-        petroleum_refining["Petroleum Refining"]
-        petroleum_refining_distillation["Atmospheric & Vacuum Distillation"]
-        petroleum_refining_cracking["Catalytic Cracking & Conversion"]
         petroleum_petrochemicals["Petrochemical Feedstocks"]
         petroleum_petrochemicals_steam-cracking["Steam Cracking (Olefin Production)"]
+        petroleum_refining_cracking["Catalytic Cracking & Conversion"]
+        petroleum_refining_distillation["Atmospheric & Vacuum Distillation"]
+        petroleum_refining["Petroleum Refining"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -26,23 +26,23 @@ graph TD
     mining("Mining Engineering & Extractive Metallurgy")
 
     %% ==================== EDGES ====================
-    petroleum_extraction -.-> petroleum
     petroleum_extraction_cable-tool -.-> petroleum_extraction
-    petroleum_extraction_rotary -.-> petroleum_extraction
     petroleum_extraction_rotary -.-> petroleum_extraction_cable-tool
-    petroleum_refining -.-> petroleum
-    petroleum_refining --> petroleum_extraction
-    petroleum_refining_distillation -.-> petroleum_refining
-    petroleum_refining_cracking -.-> petroleum_refining
-    petroleum_refining_cracking --> petroleum_refining_distillation
-    petroleum_petrochemicals -.-> petroleum
-    petroleum_petrochemicals --> petroleum_refining
+    petroleum_extraction_rotary -.-> petroleum_extraction
+    petroleum_extraction -.-> petroleum
     petroleum_petrochemicals_steam-cracking -.-> petroleum_petrochemicals
-    petroleum -.-> metals
-    petroleum -.-> mining
+    petroleum_petrochemicals --> petroleum_refining
+    petroleum_petrochemicals -.-> petroleum
+    petroleum_refining_cracking --> petroleum_refining_distillation
+    petroleum_refining_cracking -.-> petroleum_refining
+    petroleum_refining_distillation -.-> petroleum_refining
+    petroleum_refining --> petroleum_extraction
+    petroleum_refining -.-> petroleum
+    energy_engine --> petroleum_refining
     petroleum_extraction_cable-tool -.-> energy_steam-power
     petroleum_refining -.-> chemistry_distillation
-    energy_engine --> petroleum_refining
+    petroleum -.-> metals
+    petroleum -.-> mining
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -59,14 +59,14 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class petroleum domain
-    class petroleum_extraction capability
     class petroleum_extraction_cable-tool process
+    class petroleum_extraction capability
     class petroleum_extraction_rotary process
-    class petroleum_refining capability
-    class petroleum_refining_distillation process
-    class petroleum_refining_cracking process
     class petroleum_petrochemicals capability
     class petroleum_petrochemicals_steam-cracking process
+    class petroleum_refining_cracking process
+    class petroleum_refining_distillation process
+    class petroleum_refining capability
     class chemistry_distillation external
     class energy_engine external
     class energy_steam-power external

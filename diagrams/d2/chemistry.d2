@@ -86,36 +86,36 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 chemistry_internal: "Chemistry — Internal Structure" {
+  chemistry_acid-regeneration: Acid Regeneration
+  chemistry_acids-bases: "Acids & Bases (Comprehensive Reference)"
   chemistry_acids: Mineral Acid Production
-  chemistry_alkalis: Alkali Production
-  chemistry_cement: "Cement & Concrete"
-  chemistry_electrolysis: Electrolysis
-  chemistry_air-separation: "Air Separation & Bulk Gas Production"
-  chemistry_hydrogen-silane: "Hydrogen & Silane Production"
-  chemistry_dopant-etch-gases: "Dopant & Etch Gases"
-  chemistry_packaging-testing: "Semiconductor Packaging & Testing"
-  chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry"
-  chemistry_lubricants: "Lubricants, Oils & Fluid Mechanics"
-  chemistry_distillation: Distillation
-  chemistry_explosives: Explosives and Propellants
-  chemistry_petroleum-alternatives_fermentation: Fermentation Chemistry
-  chemistry_petroleum-alternatives_wood-gasification: Wood Gasification
-  chemistry_ammonia: "Ammonia & Fertilizer Production"
-  chemistry_soap: "Soap & Detergent Production"
-  chemistry_solvents: Solvent Production
-  chemistry_refractories: Refractory Materials
-  chemistry_coatings: "Paints, Coatings & Inks"
-  chemistry_pulp-chemicals: "Pulp & Paper Chemicals"
   chemistry_adhesives-coatings: "Adhesives & Specialty Coatings"
-  chemistry_electrolysis_sem-tech: Semiconductor-Grade Electrolysis
-  chemistry_water-electrolysis: Water Electrolysis
+  chemistry_air-separation: "Air Separation & Bulk Gas Production"
+  chemistry_alkalis: Alkali Production
+  chemistry_ammonia: "Ammonia & Fertilizer Production"
+  chemistry_cement: "Cement & Concrete"
+  chemistry_coatings: "Paints, Coatings & Inks"
+  chemistry_distillation: Distillation
+  chemistry_dopant-etch-gases: "Dopant & Etch Gases"
   chemistry_e-methanol: E-Methanol Synthesis
   chemistry_electrodialysis: Electrodialysis
-  chemistry_acids-bases: "Acids & Bases (Comprehensive Reference)"
-  chemistry_water-treatment: Industrial Water Treatment
+  chemistry_electrolysis: Electrolysis
+  chemistry_electrolysis_sem-tech: Semiconductor-Grade Electrolysis
+  chemistry_explosives: Explosives and Propellants
+  chemistry_hydrogen-silane: "Hydrogen & Silane Production"
   chemistry_lithium-separation: Lithium Separation
-  chemistry_acid-regeneration: Acid Regeneration
+  chemistry_lubricants: "Lubricants, Oils & Fluid Mechanics"
+  chemistry_packaging-testing: "Semiconductor Packaging & Testing"
+  chemistry_petroleum-alternatives_fermentation: Fermentation Chemistry
+  chemistry_petroleum-alternatives: "Petroleum & Alternative Chemistry"
+  chemistry_petroleum-alternatives_wood-gasification: Wood Gasification
+  chemistry_pulp-chemicals: "Pulp & Paper Chemicals"
+  chemistry_refractories: Refractory Materials
   chemistry_semiconductor-chemicals: Semiconductor Process Chemicals
+  chemistry_soap: "Soap & Detergent Production"
+  chemistry_solvents: Solvent Production
+  chemistry_water-electrolysis: Water Electrolysis
+  chemistry_water-treatment: Industrial Water Treatment
 }
 
 # ==================== DOMAIN NODE ====================
@@ -373,178 +373,179 @@ water_sewage: "Sewage Collection & Treatment" {
 }
 
 # ==================== EDGES ====================
-chemistry_hydrogen-silane -> chemistry_electrolysis: { class: material-edge }
-chemistry_dopant-etch-gases -> chemistry_electrolysis: { class: material-edge }
-chemistry_dopant-etch-gases -> chemistry: { class: tool-edge }
-chemistry_lubricants -> chemistry_petroleum-alternatives: { class: material-edge }
-chemistry_explosives -> chemistry_acids: { class: material-edge }
-chemistry_explosives -> chemistry_alkalis: { class: material-edge }
-chemistry_petroleum-alternatives_fermentation -> chemistry_petroleum-alternatives: { class: tool-edge }
-chemistry_petroleum-alternatives_wood-gasification -> chemistry_petroleum-alternatives: { class: tool-edge }
+chemistry_acids -> chemistry_ammonia: { class: material-edge }
 chemistry_ammonia -> chemistry_air-separation: { class: material-edge }
 chemistry_ammonia -> chemistry_electrolysis: { class: material-edge }
-chemistry_acids -> chemistry_ammonia: { class: material-edge }
-chemistry_soap -> chemistry_alkalis: { class: material-edge }
-chemistry_soap -> chemistry_petroleum-alternatives: { class: material-edge }
-chemistry_solvents -> chemistry_petroleum-alternatives: { class: material-edge }
-chemistry_solvents -> chemistry_distillation: { class: tool-edge }
-chemistry_solvents -> chemistry_petroleum-alternatives_fermentation: { class: material-edge }
-chemistry_coatings -> chemistry_petroleum-alternatives: { class: material-edge }
 chemistry_coatings -> chemistry_acids: { class: material-edge }
-chemistry_pulp-chemicals -> chemistry_alkalis: { class: material-edge }
-chemistry_pulp-chemicals -> chemistry_electrolysis: { class: material-edge }
-chemistry_electrolysis -> chemistry_water-electrolysis: { class: tool-edge }
+chemistry_coatings -> chemistry_petroleum-alternatives: { class: material-edge }
+chemistry_dopant-etch-gases -> chemistry_electrolysis: { class: material-edge }
+chemistry_dopant-etch-gases -> chemistry: { class: tool-edge }
+chemistry_electrodialysis -> chemistry_acid-regeneration: { class: tool-edge }
 chemistry_electrolysis -> chemistry_electrodialysis: { class: tool-edge }
 chemistry_electrolysis -> chemistry_lithium-separation: { class: tool-edge }
+chemistry_electrolysis -> chemistry_water-electrolysis: { class: tool-edge }
+chemistry_explosives -> chemistry_acids: { class: material-edge }
+chemistry_explosives -> chemistry_alkalis: { class: material-edge }
+chemistry_hydrogen-silane -> chemistry_electrolysis: { class: material-edge }
+chemistry_lubricants -> chemistry_petroleum-alternatives: { class: material-edge }
+chemistry_petroleum-alternatives_fermentation -> chemistry_petroleum-alternatives: { class: tool-edge }
+chemistry_petroleum-alternatives_wood-gasification -> chemistry_petroleum-alternatives: { class: tool-edge }
+chemistry_pulp-chemicals -> chemistry_alkalis: { class: material-edge }
+chemistry_pulp-chemicals -> chemistry_electrolysis: { class: material-edge }
+chemistry_soap -> chemistry_alkalis: { class: material-edge }
+chemistry_soap -> chemistry_petroleum-alternatives: { class: material-edge }
+chemistry_solvents -> chemistry_distillation: { class: tool-edge }
+chemistry_solvents -> chemistry_petroleum-alternatives_fermentation: { class: material-edge }
+chemistry_solvents -> chemistry_petroleum-alternatives: { class: material-edge }
 chemistry_water-electrolysis -> chemistry_e-methanol: { class: material-edge }
-chemistry_electrodialysis -> chemistry_acid-regeneration: { class: tool-edge }
-energy_gravity -> chemistry_lubricants: { class: material-edge }
-energy_wind -> chemistry_lubricants: { class: material-edge }
-machine-tools -> chemistry_lubricants: { class: material-edge }
-energy_cooling -> chemistry_petroleum-alternatives: { class: material-edge }
-chemistry_electrolysis -> energy_electricity: { class: material-edge }
-machine-tools_joining -> chemistry: { class: material-edge }
-chemistry -> metals: { class: tool-edge }
-chemistry -> energy: { class: material-edge }
-chemistry_acids -> mining: { class: material-edge }
+ceramics_electronic-ceramics -> chemistry: { class: material-edge }
+chemistry_acid-regeneration -> energy_electricity: { class: material-edge }
+chemistry_acid-regeneration -> metals_forming: { class: material-edge }
 chemistry_acids -> glass_basic: { class: tool-edge }
-chemistry_alkalis -> mining: { class: material-edge }
-chemistry_cement -> ceramics_kilns: { class: tool-edge }
-chemistry_cement -> mining: { class: material-edge }
-glass -> chemistry: { class: material-edge }
-gas-handling -> chemistry: { class: material-edge }
-measurement -> chemistry: { class: material-edge }
-silicon -> chemistry: { class: material-edge }
-silicon_purification -> chemistry_distillation: { class: tool-edge }
-silicon_purification -> chemistry_hydrogen-silane: { class: material-edge }
-silicon_crystal-growth -> chemistry_air-separation: { class: material-edge }
-silicon_basic-devices -> chemistry_acids: { class: material-edge }
-photolithography -> chemistry: { class: material-edge }
-photolithography_cleanrooms -> chemistry: { class: material-edge }
-photolithography_resists-masks -> chemistry: { class: material-edge }
-photolithography_fab-processes -> chemistry_dopant-etch-gases: { class: material-edge }
-vlsi-scaling_eda-design -> chemistry_dopant-etch-gases: { class: tool-edge }
-health -> chemistry: { class: material-edge }
+chemistry_acids -> mining: { class: material-edge }
+chemistry_air-separation -> cryogenics_air-separation: { class: tool-edge }
 chemistry_air-separation -> energy_electricity: { class: material-edge }
 chemistry_air-separation -> gas-handling_basic: { class: tool-edge }
-chemistry_hydrogen-silane -> gas-handling_basic: { class: tool-edge }
-chemistry_packaging-testing -> photolithography_fab-processes: { class: material-edge }
-chemistry_packaging-testing -> machine-tools: { class: tool-edge }
-chemistry_packaging-testing -> polymers_thermosets: { class: material-edge }
-energy_storage -> chemistry: { class: material-edge }
-chemistry_lubricants -> foundations: { class: tool-edge }
-chemistry_petroleum-alternatives -> foundations: { class: tool-edge }
-transport_aviation -> chemistry_petroleum-alternatives: { class: material-edge }
-polymers_rubber_synthetic -> chemistry_petroleum-alternatives: { class: material-edge }
-polymers_rubber_synthetic -> chemistry: { class: material-edge }
-polymers_thermosets -> chemistry_petroleum-alternatives: { class: material-edge }
-polymers_thermosets -> chemistry: { class: material-edge }
-polymers_thermoplastics -> chemistry_petroleum-alternatives: { class: material-edge }
-polymers_thermoplastics -> chemistry: { class: material-edge }
-health_pharmacology -> chemistry_distillation: { class: tool-edge }
-textiles_dyeing -> chemistry: { class: material-edge }
-ceramics_electronic-ceramics -> chemistry: { class: material-edge }
-energy_electric-furnaces_electrode-manufacturing -> chemistry_petroleum-alternatives: { class: material-edge }
-mining_extraction_black-powder -> chemistry_explosives: { class: material-edge }
-transport_telegraph -> chemistry_acids: { class: tool-edge }
-chemistry_explosives -> energy_fuels_charcoal: { class: material-edge }
-polymers_rubber_shellac -> chemistry_distillation: { class: material-edge }
-knowledge_writing -> chemistry: { class: tool-edge }
+chemistry_alkalis -> foundations_fire: { class: material-edge }
+chemistry_alkalis -> mining: { class: material-edge }
 chemistry_ammonia -> energy: { class: material-edge }
 chemistry_ammonia -> metals: { class: tool-edge }
+chemistry_cement -> ceramics_kilns: { class: tool-edge }
+chemistry_cement -> metals_iron-steel_blast-furnace: { class: material-edge }
+chemistry_cement -> mining: { class: material-edge }
+chemistry_e-methanol -> energy_electricity: { class: material-edge }
+chemistry_electrodialysis -> agriculture_hydroponic-ph-control: { class: tool-edge }
+chemistry_electrodialysis -> energy_blue-energy: { class: tool-edge }
+chemistry_electrodialysis -> energy_electricity: { class: material-edge }
+chemistry_electrodialysis -> water_desalination: { class: tool-edge }
+chemistry_electrolysis -> energy_electricity: { class: material-edge }
+chemistry_electrolysis -> energy_fuel-cell: { class: tool-edge }
+chemistry_electrolysis -> energy_redox-flow-battery: { class: tool-edge }
+chemistry_explosives -> energy_fuels_charcoal: { class: material-edge }
+chemistry_hydrogen-silane -> gas-handling_basic: { class: tool-edge }
+chemistry_lithium-separation -> energy_electricity: { class: material-edge }
+chemistry_lubricants -> animals_animal-materials: { class: material-edge }
+chemistry_lubricants -> foundations: { class: tool-edge }
+chemistry_packaging-testing -> machine-tools_joining_ultrasonic-bonding: { class: tool-edge }
+chemistry_packaging-testing -> machine-tools: { class: tool-edge }
+chemistry_packaging-testing -> photolithography_fab-processes: { class: material-edge }
+chemistry_packaging-testing -> polymers_thermosets: { class: material-edge }
+chemistry_petroleum-alternatives -> foundations: { class: tool-edge }
+chemistry_refractories -> ceramics_kilns: { class: tool-edge }
+chemistry_refractories -> mining: { class: material-edge }
+chemistry_soap -> metals_non-ferrous: { class: material-edge }
+chemistry_water-electrolysis -> energy_electricity: { class: material-edge }
+chemistry_water-electrolysis -> energy_fuel-cell: { class: material-edge }
+chemistry_water-treatment -> water_sewage: { class: material-edge }
+chemistry -> energy: { class: material-edge }
+chemistry -> metals: { class: tool-edge }
+cleanrooms -> chemistry: { class: material-edge }
+construction -> chemistry_cement: { class: material-edge }
+defense -> chemistry_explosives: { class: material-edge }
+ehs_radiation-safety -> chemistry: { class: tool-edge }
+ehs_toxicology -> chemistry: { class: tool-edge }
+electrochemistry_anodizing -> chemistry_acids: { class: material-edge }
+electrochemistry_electrochemical-processes -> chemistry_acids: { class: material-edge }
+electrochemistry_electroplating -> chemistry_acids: { class: material-edge }
+electrochemistry -> chemistry_electrolysis: { class: tool-edge }
+electronics_electrical-systems -> chemistry_electrolysis: { class: material-edge }
+electronics -> chemistry: { class: material-edge }
+energy_cooling -> chemistry_petroleum-alternatives: { class: material-edge }
+energy_electric-furnaces_electrode-manufacturing -> chemistry_petroleum-alternatives: { class: material-edge }
+energy_gravity -> chemistry_lubricants: { class: material-edge }
+energy_storage -> chemistry: { class: material-edge }
+energy_wind -> chemistry_lubricants: { class: material-edge }
+food-processing_brewing -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
+food-processing_preservation -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
+gas-handling -> chemistry: { class: material-edge }
+glass -> chemistry_refractories: { class: material-edge }
+glass -> chemistry: { class: material-edge }
+health_diagnostics -> chemistry: { class: tool-edge }
+health_occupational-health -> chemistry_acids: { class: material-edge }
+health_pharmaceutical-production -> chemistry_distillation: { class: tool-edge }
+health_pharmacology -> chemistry_distillation: { class: tool-edge }
 health -> chemistry_ammonia: { class: material-edge }
 health -> chemistry_soap: { class: material-edge }
 health -> chemistry_solvents: { class: material-edge }
-chemistry_refractories -> mining: { class: material-edge }
-chemistry_refractories -> ceramics_kilns: { class: tool-edge }
-metals -> chemistry_refractories: { class: material-edge }
-glass -> chemistry_refractories: { class: material-edge }
-transport -> chemistry_coatings: { class: material-edge }
+health -> chemistry: { class: material-edge }
+knowledge_writing -> chemistry: { class: tool-edge }
 knowledge -> chemistry_pulp-chemicals: { class: material-edge }
-textiles -> chemistry_pulp-chemicals: { class: material-edge }
-metals_steelmaking -> chemistry_refractories: { class: material-edge }
-metals_aluminum -> chemistry_electrolysis: { class: tool-edge }
+machine-tools_joining_tig-welding -> chemistry_air-separation: { class: material-edge }
+machine-tools_joining -> chemistry: { class: material-edge }
+machine-tools -> chemistry_lubricants: { class: material-edge }
+measurement -> chemistry: { class: material-edge }
 metals_aluminum -> chemistry_alkalis: { class: material-edge }
-metals_non-ferrous -> chemistry_acids: { class: material-edge }
-chemistry_soap -> metals_non-ferrous: { class: material-edge }
+metals_aluminum -> chemistry_electrolysis: { class: tool-edge }
 metals_finishing -> chemistry_acids: { class: material-edge }
-metals_finishing -> chemistry_electrolysis: { class: tool-edge }
 metals_finishing -> chemistry_coatings: { class: material-edge }
+metals_finishing -> chemistry_electrolysis: { class: tool-edge }
+metals_non-ferrous -> chemistry_acids: { class: material-edge }
 metals_powder-metallurgy -> chemistry_hydrogen-silane: { class: tool-edge }
-chemistry_lubricants -> animals_animal-materials: { class: material-edge }
-textiles_finishing -> chemistry_alkalis: { class: tool-edge }
-health_occupational-health -> chemistry_acids: { class: material-edge }
-silicon_wafering_epitaxy -> chemistry_dopant-etch-gases: { class: material-edge }
-chemistry_electrolysis -> energy_redox-flow-battery: { class: tool-edge }
-chemistry_electrolysis -> energy_fuel-cell: { class: tool-edge }
-chemistry_water-electrolysis -> energy_electricity: { class: material-edge }
-chemistry_e-methanol -> energy_electricity: { class: material-edge }
-chemistry_electrodialysis -> energy_electricity: { class: material-edge }
-chemistry_lithium-separation -> energy_electricity: { class: material-edge }
-chemistry_acid-regeneration -> energy_electricity: { class: material-edge }
-chemistry_water-electrolysis -> energy_fuel-cell: { class: material-edge }
-chemistry_electrodialysis -> water_desalination: { class: tool-edge }
-chemistry_electrodialysis -> energy_blue-energy: { class: tool-edge }
-chemistry_electrodialysis -> agriculture_hydroponic-ph-control: { class: tool-edge }
-electronics -> chemistry: { class: material-edge }
-electronics_electrical-systems -> chemistry_electrolysis: { class: material-edge }
+metals_precious-metals -> chemistry: { class: material-edge }
 metals_refractory-specialty -> chemistry: { class: material-edge }
 metals_specialty-semiconductor -> chemistry: { class: material-edge }
-metals_precious-metals -> chemistry: { class: material-edge }
-cleanrooms -> chemistry: { class: material-edge }
-chemistry_air-separation -> cryogenics_air-separation: { class: tool-edge }
-electrochemistry -> chemistry_electrolysis: { class: tool-edge }
-electrochemistry_electroplating -> chemistry_acids: { class: material-edge }
-electrochemistry_anodizing -> chemistry_acids: { class: material-edge }
-electrochemistry_electrochemical-processes -> chemistry_acids: { class: material-edge }
+metals_steelmaking -> chemistry_refractories: { class: material-edge }
+metals -> chemistry_refractories: { class: material-edge }
+mining_extraction_black-powder -> chemistry_explosives: { class: material-edge }
 petroleum_refining -> chemistry_distillation: { class: tool-edge }
-defense -> chemistry_explosives: { class: material-edge }
-construction -> chemistry_cement: { class: material-edge }
-food-processing_preservation -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
-food-processing_brewing -> chemistry_petroleum-alternatives_fermentation: { class: tool-edge }
-machine-tools_joining_tig-welding -> chemistry_air-separation: { class: material-edge }
-chemistry_packaging-testing -> machine-tools_joining_ultrasonic-bonding: { class: tool-edge }
-health_diagnostics -> chemistry: { class: tool-edge }
-health_pharmaceutical-production -> chemistry_distillation: { class: tool-edge }
-ehs_toxicology -> chemistry: { class: tool-edge }
-ehs_radiation-safety -> chemistry: { class: tool-edge }
-chemistry_cement -> metals_iron-steel_blast-furnace: { class: material-edge }
-chemistry_alkalis -> foundations_fire: { class: material-edge }
-chemistry_water-treatment -> water_sewage: { class: material-edge }
-chemistry_acid-regeneration -> metals_forming: { class: material-edge }
+photolithography_cleanrooms -> chemistry: { class: material-edge }
+photolithography_fab-processes -> chemistry_dopant-etch-gases: { class: material-edge }
+photolithography_resists-masks -> chemistry: { class: material-edge }
+photolithography -> chemistry: { class: material-edge }
+polymers_rubber_shellac -> chemistry_distillation: { class: material-edge }
+polymers_rubber_synthetic -> chemistry_petroleum-alternatives: { class: material-edge }
+polymers_rubber_synthetic -> chemistry: { class: material-edge }
+polymers_thermoplastics -> chemistry_petroleum-alternatives: { class: material-edge }
+polymers_thermoplastics -> chemistry: { class: material-edge }
+polymers_thermosets -> chemistry_petroleum-alternatives: { class: material-edge }
+polymers_thermosets -> chemistry: { class: material-edge }
+silicon_basic-devices -> chemistry_acids: { class: material-edge }
+silicon_crystal-growth -> chemistry_air-separation: { class: material-edge }
+silicon_purification -> chemistry_distillation: { class: tool-edge }
+silicon_purification -> chemistry_hydrogen-silane: { class: material-edge }
+silicon_purification -> chemistry: { class: tool-edge }
+silicon_wafering_epitaxy -> chemistry_dopant-etch-gases: { class: material-edge }
+silicon -> chemistry: { class: material-edge }
+textiles_dyeing -> chemistry: { class: material-edge }
+textiles_finishing -> chemistry_alkalis: { class: tool-edge }
+textiles -> chemistry_pulp-chemicals: { class: material-edge }
+transport_aviation -> chemistry_petroleum-alternatives: { class: material-edge }
+transport_telegraph -> chemistry_acids: { class: tool-edge }
+transport -> chemistry_coatings: { class: material-edge }
+vlsi-scaling_eda-design -> chemistry_dopant-etch-gases: { class: tool-edge }
 
 # ==================== STYLING ====================
 chemistry.class: domain
+chemistry_acid-regeneration.class: capability
+chemistry_acids-bases.class: capability
 chemistry_acids.class: capability
-chemistry_alkalis.class: capability
-chemistry_cement.class: capability
-chemistry_electrolysis.class: capability
-chemistry_air-separation.class: capability
-chemistry_hydrogen-silane.class: capability
-chemistry_dopant-etch-gases.class: capability
-chemistry_packaging-testing.class: capability
-chemistry_petroleum-alternatives.class: capability
-chemistry_lubricants.class: critical
-chemistry_distillation.class: capability
-chemistry_explosives.class: capability
-chemistry_petroleum-alternatives_fermentation.class: process
-chemistry_petroleum-alternatives_wood-gasification.class: process
-chemistry_ammonia.class: critical
-chemistry_soap.class: earlyWin
-chemistry_solvents.class: capability
-chemistry_refractories.class: earlyWin
-chemistry_coatings.class: capability
-chemistry_pulp-chemicals.class: capability
 chemistry_adhesives-coatings.class: capability
-chemistry_electrolysis_sem-tech.class: process
-chemistry_water-electrolysis.class: capability
+chemistry_air-separation.class: capability
+chemistry_alkalis.class: capability
+chemistry_ammonia.class: critical
+chemistry_cement.class: capability
+chemistry_coatings.class: capability
+chemistry_distillation.class: capability
+chemistry_dopant-etch-gases.class: capability
 chemistry_e-methanol.class: capability
 chemistry_electrodialysis.class: capability
-chemistry_acids-bases.class: capability
-chemistry_water-treatment.class: capability
+chemistry_electrolysis.class: capability
+chemistry_electrolysis_sem-tech.class: process
+chemistry_explosives.class: capability
+chemistry_hydrogen-silane.class: capability
 chemistry_lithium-separation.class: capability
-chemistry_acid-regeneration.class: capability
+chemistry_lubricants.class: critical
+chemistry_packaging-testing.class: capability
+chemistry_petroleum-alternatives_fermentation.class: process
+chemistry_petroleum-alternatives.class: capability
+chemistry_petroleum-alternatives_wood-gasification.class: process
+chemistry_pulp-chemicals.class: capability
+chemistry_refractories.class: earlyWin
 chemistry_semiconductor-chemicals.class: capability
+chemistry_soap.class: earlyWin
+chemistry_solvents.class: capability
+chemistry_water-electrolysis.class: capability
+chemistry_water-treatment.class: capability
 agriculture_hydroponic-ph-control.class: external
 animals_animal-materials.class: external
 ceramics_electronic-ceramics.class: external

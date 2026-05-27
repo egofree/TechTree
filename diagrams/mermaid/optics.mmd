@@ -15,6 +15,7 @@ graph TD
 
     %% ==================== EXTERNAL DEPENDENCIES ====================
     gas-handling_vacuum("Vacuum Technology")
+    glass_advanced("Advanced Glass Production")
     machine-tools("Machine Tools Bootstrap")
     measurement_optical-instruments("Optical Measurement Instruments")
     measurement_precision-metrology("Precision Metrology & Standards")
@@ -24,15 +25,16 @@ graph TD
 
     %% ==================== EDGES ====================
     optics_inspection_optical-coatings -.-> optics_inspection
-    optics_precision-instruments -.-> optics
     optics_precision-instruments --> optics_inspection
+    optics_precision-instruments -.-> optics
+    measurement_optical-instruments -.-> optics_inspection
+    measurement_precision-metrology -.-> optics_precision-instruments
+    optics_inspection_optical-coatings -.-> gas-handling_vacuum
+    optics_inspection_optical-coatings -.-> vacuum_pumps
+    optics_inspection --> glass_advanced
     optics -.-> machine-tools
     photolithography -.-> optics
     vlsi-scaling_advanced-lithography -.-> optics_inspection
-    optics_inspection_optical-coatings -.-> gas-handling_vacuum
-    measurement_optical-instruments -.-> optics_inspection
-    measurement_precision-metrology -.-> optics_precision-instruments
-    optics_inspection_optical-coatings -.-> vacuum_pumps
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -53,6 +55,7 @@ graph TD
     class optics_inspection_optical-coatings process
     class optics_precision-instruments capability
     class gas-handling_vacuum external
+    class glass_advanced external
     class machine-tools external
     class measurement_optical-instruments external
     class measurement_precision-metrology external

@@ -5,10 +5,10 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph defense_internal ["Defense & Military Engineering — Internal Structure"]
         direction TB
-        defense_weapons["Weapons & edged tools"]
-        defense_fortifications["Fortification Engineering"]
         defense_armor["Armor & Protective Systems"]
+        defense_fortifications["Fortification Engineering"]
         defense_siege-warfare["Siege Engineering & Military Logistics"]
+        defense_weapons["Weapons & edged tools"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -23,12 +23,12 @@ graph TD
     transport("Transportation & Logistics")
 
     %% ==================== EDGES ====================
-    defense --> metals
-    defense -.-> foundations
-    defense --> chemistry_explosives
-    defense -.-> transport
-    defense -.-> knowledge
     defense_siege-warfare --> economics-organization_supply-chain
+    defense --> chemistry_explosives
+    defense -.-> foundations
+    defense -.-> knowledge
+    defense --> metals
+    defense -.-> transport
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -45,10 +45,10 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class defense domain
-    class defense_weapons capability
-    class defense_fortifications capability
     class defense_armor capability
+    class defense_fortifications capability
     class defense_siege-warfare capability
+    class defense_weapons capability
     class chemistry_explosives external
     class economics-organization_supply-chain external
     class foundations external

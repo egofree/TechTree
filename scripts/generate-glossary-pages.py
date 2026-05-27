@@ -15,9 +15,11 @@ sys.path.insert(0, str(Path(__file__).parent))
 from lib.build_utils import (
     build_node_page_map,
     build_sidebar_tree,
+    load_all_edges,
     render_markdown,
 )
 from lib.templates import render_page, render_sidebar
+from lib.tt_data import load_all_entities
 
 
 # ---------------------------------------------------------------------------
@@ -57,8 +59,8 @@ def generate_glossary_articles(
     project_dir: Path,
     site_dir: Path,
     glossary_data: dict,
-    nodes_json: dict,
-    edges_json: list[dict],
+    nodes: list[dict],
+    edges: list[dict],
     page_map: dict[str, str],
     sidebar_tree: list[dict],
     dry_run: bool = False,
@@ -179,8 +181,8 @@ def generate_glossary_articles(
 def generate_glossary_index(
     site_dir: Path,
     glossary_data: dict,
-    nodes_json: dict,
-    edges_json: list[dict],
+    nodes: list[dict],
+    edges: list[dict],
     page_map: dict[str, str],
     sidebar_tree: list[dict],
     dry_run: bool = False,
@@ -471,30 +473,22 @@ def main():
 
     glossary_data = json.loads(glossary_file.read_text(encoding="utf-8"))
 
-    # Load node/edge data for sidebar and cross-references
-    nodes_file = project_dir / "data" / "nodes.json"
-    edges_file = project_dir / "data" / "edges.json"
-
-    if not nodes_file.exists() or not edges_file.exists():
-        print("Error: nodes.json and edges.json required for sidebar", file=sys.stderr)
-        sys.exit(1)
-
-    nodes_json = json.loads(nodes_file.read_text(encoding="utf-8"))
-    edges_json = json.loads(edges_file.read_text(encoding="utf-8"))["edges"]
+    nodes = load_all_entities()
+    edges = load_all_edges()
 
     docs_dir = str(project_dir / "docs")
-    page_map = build_node_page_map(docs_dir, nodes_json)
-    sidebar_tree = build_sidebar_tree(nodes_json)
+    page_map = build_node_page_map(docs_dir, nodes)
+    sidebar_tree = build_sidebar_tree(nodes)
 
     generate_glossary_articles(
         project_dir, site_dir, glossary_data,
-        nodes_json, edges_json, page_map, sidebar_tree,
+        nodes, edges, page_map, sidebar_tree,
         dry_run=dry_run, verbose=verbose,
     )
 
     generate_glossary_index(
         site_dir, glossary_data,
-        nodes_json, edges_json, page_map, sidebar_tree,
+        nodes, edges, page_map, sidebar_tree,
         dry_run=dry_run, verbose=verbose,
     )
 

@@ -86,13 +86,13 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 textiles_internal: "Textiles, Fiber & Cordage — Internal Structure" {
+  textiles_dyeing: Dyeing
   textiles_fibers: Fiber Preparation
+  textiles_finishing: Fabric Finishing
+  textiles_rope-making: Rope and Cordage
+  textiles_sewing-tailoring: "Sewing & Tailoring"
   textiles_spinning: Spinning
   textiles_weaving: Weaving
-  textiles_dyeing: Dyeing
-  textiles_rope-making: Rope and Cordage
-  textiles_finishing: Fabric Finishing
-  textiles_sewing-tailoring: "Sewing & Tailoring"
 }
 
 # ==================== DOMAIN NODE ====================
@@ -165,46 +165,46 @@ transport_shipping: Water Transport {
 
 # ==================== EDGES ====================
 textiles_fibers -> textiles_spinning: { class: material-edge }
-textiles_spinning -> textiles_weaving: { class: material-edge }
-textiles_weaving -> textiles_dyeing: { class: material-edge }
+textiles_finishing -> textiles_weaving: { class: material-edge }
+textiles_finishing -> textiles: { class: tool-edge }
 textiles_rope-making -> textiles_fibers: { class: material-edge }
 textiles_rope-making -> textiles_spinning: { class: material-edge }
-textiles_finishing -> textiles: { class: tool-edge }
-textiles_finishing -> textiles_weaving: { class: material-edge }
-textiles_sewing-tailoring -> textiles: { class: tool-edge }
 textiles_sewing-tailoring -> textiles_weaving: { class: material-edge }
+textiles_sewing-tailoring -> textiles: { class: tool-edge }
+textiles_spinning -> textiles_weaving: { class: material-edge }
+textiles_weaving -> textiles_dyeing: { class: material-edge }
+construction -> textiles_rope-making: { class: material-edge }
 energy_gravity -> textiles: { class: tool-edge }
 energy_wind -> textiles: { class: tool-edge }
-machine-tools -> textiles: { class: tool-edge }
-textiles -> foundations: { class: tool-edge }
-transport_aviation -> textiles: { class: material-edge }
-textiles_fibers -> foundations_tools-basic: { class: tool-edge }
-textiles_dyeing -> chemistry: { class: material-edge }
-transport_shipping -> textiles: { class: material-edge }
 knowledge_printing -> textiles_fibers: { class: material-edge }
-textiles_fibers -> plants_fiber-plants: { class: material-edge }
-plants_fiber-plants -> textiles_spinning: { class: material-edge }
+machine-tools -> textiles: { class: tool-edge }
+marine -> textiles: { class: material-edge }
 plants_dye-plants -> textiles_dyeing: { class: material-edge }
-textiles -> chemistry_pulp-chemicals: { class: material-edge }
+plants_fiber-plants -> textiles_spinning: { class: material-edge }
+textiles_dyeing -> chemistry: { class: material-edge }
 textiles_fibers -> animals_animal-materials: { class: material-edge }
-textiles_finishing -> chemistry_alkalis: { class: tool-edge }
-textiles_sewing-tailoring -> metals_copper-bronze: { class: tool-edge }
-textiles_fibers -> animals_sheep: { class: material-edge }
+textiles_fibers -> animals_camelids: { class: material-edge }
 textiles_fibers -> animals_goats: { class: material-edge }
 textiles_fibers -> animals_rabbits: { class: material-edge }
-textiles_fibers -> animals_camelids: { class: material-edge }
-construction -> textiles_rope-making: { class: material-edge }
-marine -> textiles: { class: material-edge }
+textiles_fibers -> animals_sheep: { class: material-edge }
+textiles_fibers -> foundations_tools-basic: { class: tool-edge }
+textiles_fibers -> plants_fiber-plants: { class: material-edge }
+textiles_finishing -> chemistry_alkalis: { class: tool-edge }
+textiles_sewing-tailoring -> metals_copper-bronze: { class: tool-edge }
+textiles -> chemistry_pulp-chemicals: { class: material-edge }
+textiles -> foundations: { class: tool-edge }
+transport_aviation -> textiles: { class: material-edge }
+transport_shipping -> textiles: { class: material-edge }
 
 # ==================== STYLING ====================
 textiles.class: domain
+textiles_dyeing.class: capability
 textiles_fibers.class: capability
+textiles_finishing.class: capability
+textiles_rope-making.class: capability
+textiles_sewing-tailoring.class: capability
 textiles_spinning.class: capability
 textiles_weaving.class: capability
-textiles_dyeing.class: capability
-textiles_rope-making.class: capability
-textiles_finishing.class: capability
-textiles_sewing-tailoring.class: capability
 animals_animal-materials.class: external
 animals_camelids.class: external
 animals_goats.class: external

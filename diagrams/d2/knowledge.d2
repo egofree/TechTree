@@ -86,10 +86,10 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 knowledge_internal: "Knowledge Preservation & Education — Internal Structure" {
-  knowledge_writing: "Writing & Record-Keeping"
   knowledge_education: "Education & Training"
   knowledge_libraries: "Libraries & Information Systems"
   knowledge_printing: Paper and Printing Press
+  knowledge_writing: "Writing & Record-Keeping"
 }
 
 # ==================== DOMAIN NODE ====================
@@ -177,41 +177,41 @@ textiles_fibers: Fiber Preparation {
 
 # ==================== EDGES ====================
 knowledge_education -> knowledge_writing: { class: tool-edge }
-knowledge_libraries -> knowledge_writing: { class: tool-edge }
 knowledge_libraries -> knowledge_education: { class: tool-edge }
-knowledge -> foundations: { class: tool-edge }
-knowledge_writing -> foundations_tools-basic: { class: tool-edge }
-knowledge_writing -> foundations_food-agriculture: { class: tool-edge }
+knowledge_libraries -> knowledge_writing: { class: tool-edge }
+defense -> knowledge: { class: tool-edge }
+economics-organization_accounting -> knowledge_writing: { class: tool-edge }
+economics-organization_division-of-labor -> knowledge_writing: { class: tool-edge }
+economics-organization_governance -> knowledge_writing: { class: tool-edge }
+economics-organization_supply-chain -> knowledge_writing: { class: tool-edge }
+economics-organization_trade -> knowledge_writing: { class: tool-edge }
+economics-organization -> knowledge: { class: tool-edge }
 health_medicine -> knowledge_writing: { class: tool-edge }
-mining_prospecting -> knowledge_writing: { class: tool-edge }
+knowledge_printing -> machine-tools_machining: { class: tool-edge }
 knowledge_printing -> metals_iron-steel: { class: tool-edge }
 knowledge_printing -> textiles_fibers: { class: material-edge }
-knowledge_printing -> machine-tools_machining: { class: tool-edge }
-knowledge_writing -> chemistry: { class: tool-edge }
-knowledge_writing -> health_sanitation: { class: tool-edge }
-knowledge -> chemistry_pulp-chemicals: { class: material-edge }
 knowledge_writing -> animals_animal-materials: { class: material-edge }
 knowledge_writing -> animals_beekeeping: { class: material-edge }
-mathematics -> knowledge_writing: { class: tool-edge }
-quality-control -> knowledge: { class: tool-edge }
-defense -> knowledge: { class: tool-edge }
-telecom -> knowledge_writing: { class: tool-edge }
-telecom_pre-electric -> knowledge_writing: { class: tool-edge }
-marine -> knowledge: { class: tool-edge }
+knowledge_writing -> chemistry: { class: tool-edge }
+knowledge_writing -> foundations_food-agriculture: { class: tool-edge }
+knowledge_writing -> foundations_tools-basic: { class: tool-edge }
+knowledge_writing -> health_sanitation: { class: tool-edge }
+knowledge -> chemistry_pulp-chemicals: { class: material-edge }
+knowledge -> foundations: { class: tool-edge }
 marine_navigation -> knowledge_writing: { class: tool-edge }
-economics-organization -> knowledge: { class: tool-edge }
-economics-organization_division-of-labor -> knowledge_writing: { class: tool-edge }
-economics-organization_trade -> knowledge_writing: { class: tool-edge }
-economics-organization_accounting -> knowledge_writing: { class: tool-edge }
-economics-organization_supply-chain -> knowledge_writing: { class: tool-edge }
-economics-organization_governance -> knowledge_writing: { class: tool-edge }
+marine -> knowledge: { class: tool-edge }
+mathematics -> knowledge_writing: { class: tool-edge }
+mining_prospecting -> knowledge_writing: { class: tool-edge }
+quality-control -> knowledge: { class: tool-edge }
+telecom_pre-electric -> knowledge_writing: { class: tool-edge }
+telecom -> knowledge_writing: { class: tool-edge }
 
 # ==================== STYLING ====================
 knowledge.class: domain
-knowledge_writing.class: capability
 knowledge_education.class: capability
 knowledge_libraries.class: capability
 knowledge_printing.class: earlyWin
+knowledge_writing.class: capability
 animals_animal-materials.class: external
 animals_beekeeping.class: external
 chemistry.class: external

@@ -13,7 +13,7 @@ DOCS_DIR="$PROJECT_DIR/docs"
 MERMAID_DIR="$PROJECT_DIR/diagrams/mermaid"
 SITE_DIR="$PROJECT_DIR/site"
 
-NODES_FILE="$DATA_DIR/nodes.json"
+ENTITIES_DIR="$DATA_DIR/entities"
 
 # --- Flags ---
 NO_SVG=false
@@ -55,11 +55,6 @@ python3 -c "import markdown_it" 2>/dev/null || {
     exit 1
 }
 
-command -v jq &>/dev/null || {
-    echo "ERROR: jq is required but not found in PATH" >&2
-    exit 1
-}
-
 if ! $NO_SVG && ! command -v mmdc &>/dev/null; then
     warn "mmdc not found — SVG rendering skipped (install: npm i -g @mermaid-js/mermaid-cli)"
     NO_SVG=true
@@ -67,8 +62,8 @@ fi
 
 # --- Data validation ---
 
-if [[ ! -f "$NODES_FILE" ]]; then
-    echo "ERROR: $NODES_FILE not found" >&2
+if [[ ! -d "$ENTITIES_DIR" ]]; then
+    echo "ERROR: $ENTITIES_DIR not found" >&2
     exit 1
 fi
 
@@ -84,14 +79,14 @@ fi
 log "Creating site directory structure..."
 mkdir -p "$SITE_DIR"
 
-DOMAIN_IDS=$(jq -r '.nodes[] | select(.level == "domain") | .id' "$NODES_FILE")
 DOMAIN_COUNT=0
 
-while IFS= read -r domain_id; do
-    [[ -z "$domain_id" ]] && continue
+for d in "$ENTITIES_DIR"/*/; do
+    domain_id=$(basename "$d")
+    [[ "$domain_id" == "_edges" ]] && continue
     mkdir -p "$SITE_DIR/docs/$domain_id"
     DOMAIN_COUNT=$((DOMAIN_COUNT + 1))
-done <<< "$DOMAIN_IDS"
+done
 
 mkdir -p "$SITE_DIR/diagrams"
 mkdir -p "$SITE_DIR/assets"

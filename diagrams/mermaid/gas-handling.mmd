@@ -5,8 +5,8 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph gas-handling_internal ["Gas Handling — Internal Structure"]
         direction TB
-        gas-handling_vacuum["Vacuum Technology"]
         gas-handling_basic["Basic Gas Handling"]
+        gas-handling_vacuum["Vacuum Technology"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -29,19 +29,19 @@ graph TD
     vacuum("Vacuum Technology")
 
     %% ==================== EDGES ====================
-    gas-handling -.-> machine-tools
-    gas-handling --> energy
-    gas-handling --> chemistry
-    silicon -.-> gas-handling
-    silicon_purification -.-> gas-handling_basic
-    silicon_basic-devices -.-> gas-handling_vacuum
-    photolithography -.-> gas-handling
-    photolithography_fab-processes -.-> gas-handling_vacuum
     chemistry_air-separation -.-> gas-handling_basic
     chemistry_hydrogen-silane -.-> gas-handling_basic
-    optics_inspection_optical-coatings -.-> gas-handling_vacuum
-    metals_specialty-semiconductor -.-> gas-handling_vacuum
     cryogenics -.-> gas-handling
+    gas-handling --> chemistry
+    gas-handling --> energy
+    gas-handling -.-> machine-tools
+    metals_specialty-semiconductor -.-> gas-handling_vacuum
+    optics_inspection_optical-coatings -.-> gas-handling_vacuum
+    photolithography_fab-processes -.-> gas-handling_vacuum
+    photolithography -.-> gas-handling
+    silicon_basic-devices -.-> gas-handling_vacuum
+    silicon_purification -.-> gas-handling_basic
+    silicon -.-> gas-handling
     vacuum -.-> gas-handling
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -59,8 +59,8 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class gas-handling domain
-    class gas-handling_vacuum capability
     class gas-handling_basic capability
+    class gas-handling_vacuum capability
     class chemistry external
     class chemistry_air-separation external
     class chemistry_hydrogen-silane external

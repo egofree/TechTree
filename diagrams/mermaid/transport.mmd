@@ -5,10 +5,10 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph transport_internal ["Transportation & Logistics — Internal Structure"]
         direction TB
-        transport_roads["Road & Bridge Construction"]
-        transport_railways["Railways"]
-        transport_shipping["Water Transport"]
         transport_aviation["Aviation"]
+        transport_railways["Railways"]
+        transport_roads["Road & Bridge Construction"]
+        transport_shipping["Water Transport"]
         transport_telegraph["Telegraph Communication"]
     end
 
@@ -44,37 +44,37 @@ graph TD
     textiles("Textiles, Fiber & Cordage")
 
     %% ==================== EDGES ====================
-    transport -.-> metals
-    transport --> energy
-    transport --> mining
-    transport -.-> machine-tools
-    transport_aviation -.-> machine-tools
-    transport_aviation --> textiles
-    transport_aviation --> chemistry_petroleum-alternatives
-    transport_roads -.-> foundations_tools-basic
-    transport_roads --> mining
-    transport_railways -.-> energy_steam-power
-    transport_railways --> metals_iron-steel
-    transport_shipping --> textiles
-    transport_aviation -.-> energy_engine
-    transport -.-> energy_engine
-    transport_telegraph -.-> energy_electricity
-    transport_telegraph --> metals_iron-steel
-    transport_telegraph -.-> chemistry_acids
-    transport -.-> mining_extraction
-    transport -.-> energy_fuels
-    transport --> chemistry_coatings
-    transport_aviation --> metals_aluminum
-    transport_railways --> metals_forming
-    transport_roads -.-> animals_draft-power
     defense -.-> transport
-    telecom -.-> transport_telegraph
+    economics-organization_supply-chain -.-> transport
+    economics-organization_trade -.-> transport
+    marine_shipbuilding -.-> transport_shipping
+    marine -.-> transport_shipping
     telecom_electric-telegraph -.-> transport_telegraph
     telecom_submarine-cables -.-> transport_shipping
-    marine -.-> transport_shipping
-    marine_shipbuilding -.-> transport_shipping
-    economics-organization_trade -.-> transport
-    economics-organization_supply-chain -.-> transport
+    telecom -.-> transport_telegraph
+    transport_aviation --> chemistry_petroleum-alternatives
+    transport_aviation -.-> energy_engine
+    transport_aviation -.-> machine-tools
+    transport_aviation --> metals_aluminum
+    transport_aviation --> textiles
+    transport_railways -.-> energy_steam-power
+    transport_railways --> metals_forming
+    transport_railways --> metals_iron-steel
+    transport_roads -.-> animals_draft-power
+    transport_roads -.-> foundations_tools-basic
+    transport_roads --> mining
+    transport_shipping --> textiles
+    transport_telegraph -.-> chemistry_acids
+    transport_telegraph -.-> energy_electricity
+    transport_telegraph --> metals_iron-steel
+    transport --> chemistry_coatings
+    transport -.-> energy_engine
+    transport -.-> energy_fuels
+    transport --> energy
+    transport -.-> machine-tools
+    transport -.-> metals
+    transport -.-> mining_extraction
+    transport --> mining
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -91,10 +91,10 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class transport domain
-    class transport_roads capability
-    class transport_railways capability
-    class transport_shipping capability
     class transport_aviation capability
+    class transport_railways capability
+    class transport_roads capability
+    class transport_shipping capability
     class transport_telegraph capability
     class animals_draft-power external
     class chemistry_acids external

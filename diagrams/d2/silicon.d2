@@ -86,13 +86,13 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 silicon_internal: "Silicon — Internal Structure" {
+  silicon_basic-devices: Basic Semiconductor Devices
+  silicon_crystal-growth_cz-pulling: Czochralski Crystal Pulling
+  silicon_crystal-growth: "Crystal Growth & Wafering"
   silicon_mg-si-production: Metallurgical-Grade Silicon Production
   silicon_purification: Silicon Purification
-  silicon_crystal-growth: "Crystal Growth & Wafering"
-  silicon_crystal-growth_cz-pulling: Czochralski Crystal Pulling
-  silicon_basic-devices: Basic Semiconductor Devices
-  silicon_wafering: "Wafer Slicing & Polishing"
   silicon_wafering_epitaxy: Epitaxial Layer Growth
+  silicon_wafering: "Wafer Slicing & Polishing"
   silicon_wafering_soi: SOI Wafer Production
 }
 
@@ -136,6 +136,9 @@ energy: Energy {
 energy_electric-furnaces: Electric Furnaces {
   shape: rectangle
 }
+energy_electricity: "Electricity Generation & Distribution" {
+  shape: rectangle
+}
 gas-handling: Gas Handling {
   shape: rectangle
 }
@@ -160,6 +163,9 @@ measurement_precision-metrology: "Precision Metrology & Standards" {
 measurement_temperature-pressure: "Temperature & Pressure Measurement" {
   shape: rectangle
 }
+metals: Metals {
+  shape: rectangle
+}
 metals_aluminum_semiconductor-grade: Semiconductor-Grade Aluminum Production {
   shape: rectangle
 }
@@ -178,47 +184,52 @@ vlsi-scaling_eda-design: "EDA, GPU Design & Advanced Packaging" {
 
 # ==================== EDGES ====================
 silicon_basic-devices -> silicon_crystal-growth: { class: material-edge }
+silicon_basic-devices -> silicon_wafering: { class: material-edge }
 silicon_crystal-growth_cz-pulling -> silicon_crystal-growth: { class: tool-edge }
-silicon_wafering -> silicon: { class: tool-edge }
-silicon_wafering -> silicon_crystal-growth: { class: material-edge }
+silicon_purification -> silicon_mg-si-production: { class: material-edge }
 silicon_wafering_epitaxy -> silicon_wafering: { class: tool-edge }
 silicon_wafering_soi -> silicon_wafering: { class: tool-edge }
-silicon_basic-devices -> silicon_wafering: { class: material-edge }
-silicon -> machine-tools: { class: tool-edge }
-silicon -> energy: { class: material-edge }
-silicon -> chemistry: { class: material-edge }
-silicon -> glass: { class: tool-edge }
-silicon -> gas-handling: { class: tool-edge }
+silicon_wafering -> silicon_crystal-growth: { class: material-edge }
+silicon_wafering -> silicon: { class: tool-edge }
+computing_electronic -> silicon_basic-devices: { class: material-edge }
+electronics_assembly -> silicon_basic-devices: { class: material-edge }
+photolithography -> silicon: { class: material-edge }
+silicon_basic-devices -> chemistry_acids: { class: material-edge }
+silicon_basic-devices -> gas-handling_vacuum: { class: tool-edge }
+silicon_basic-devices -> metals_aluminum_semiconductor-grade: { class: material-edge }
+silicon_basic-devices -> vacuum_pumps: { class: tool-edge }
+silicon_crystal-growth_cz-pulling -> measurement_temperature-pressure: { class: tool-edge }
+silicon_crystal-growth -> chemistry_air-separation: { class: material-edge }
+silicon_crystal-growth -> cryogenics_liquefaction-storage: { class: material-edge }
+silicon_crystal-growth -> glass_advanced: { class: material-edge }
+silicon_crystal-growth -> measurement_precision-metrology: { class: tool-edge }
 silicon_mg-si-production -> energy_electric-furnaces: { class: tool-edge }
+silicon_mg-si-production -> energy: { class: tool-edge }
+silicon_mg-si-production -> metals: { class: tool-edge }
 silicon_mg-si-production -> mining: { class: material-edge }
 silicon_purification -> chemistry_distillation: { class: tool-edge }
-silicon_purification -> gas-handling_basic: { class: tool-edge }
 silicon_purification -> chemistry_hydrogen-silane: { class: material-edge }
-silicon_crystal-growth -> glass_advanced: { class: material-edge }
-silicon_crystal-growth -> chemistry_air-separation: { class: material-edge }
-silicon_crystal-growth -> measurement_precision-metrology: { class: tool-edge }
-silicon_basic-devices -> gas-handling_vacuum: { class: tool-edge }
-silicon_basic-devices -> chemistry_acids: { class: material-edge }
-photolithography -> silicon: { class: material-edge }
-vlsi-scaling_eda-design -> silicon_basic-devices: { class: tool-edge }
-computing_electronic -> silicon_basic-devices: { class: material-edge }
-silicon_crystal-growth_cz-pulling -> measurement_temperature-pressure: { class: tool-edge }
-silicon -> ceramics_advanced-ceramics: { class: tool-edge }
-silicon_basic-devices -> metals_aluminum_semiconductor-grade: { class: material-edge }
+silicon_purification -> chemistry: { class: tool-edge }
+silicon_purification -> energy_electricity: { class: tool-edge }
+silicon_purification -> gas-handling_basic: { class: tool-edge }
 silicon_wafering_epitaxy -> chemistry_dopant-etch-gases: { class: material-edge }
-electronics_assembly -> silicon_basic-devices: { class: material-edge }
-silicon_crystal-growth -> cryogenics_liquefaction-storage: { class: material-edge }
-silicon_basic-devices -> vacuum_pumps: { class: tool-edge }
+silicon -> ceramics_advanced-ceramics: { class: tool-edge }
+silicon -> chemistry: { class: material-edge }
+silicon -> energy: { class: material-edge }
+silicon -> gas-handling: { class: tool-edge }
+silicon -> glass: { class: tool-edge }
+silicon -> machine-tools: { class: tool-edge }
+vlsi-scaling_eda-design -> silicon_basic-devices: { class: tool-edge }
 
 # ==================== STYLING ====================
 silicon.class: domain
+silicon_basic-devices.class: capability
+silicon_crystal-growth_cz-pulling.class: process
+silicon_crystal-growth.class: capability
 silicon_mg-si-production.class: capability
 silicon_purification.class: capability
-silicon_crystal-growth.class: capability
-silicon_crystal-growth_cz-pulling.class: process
-silicon_basic-devices.class: capability
-silicon_wafering.class: capability
 silicon_wafering_epitaxy.class: process
+silicon_wafering.class: capability
 silicon_wafering_soi.class: process
 ceramics_advanced-ceramics.class: external
 chemistry.class: external
@@ -232,6 +243,7 @@ cryogenics_liquefaction-storage.class: external
 electronics_assembly.class: external
 energy.class: external
 energy_electric-furnaces.class: external
+energy_electricity.class: external
 gas-handling.class: external
 gas-handling_basic.class: external
 gas-handling_vacuum.class: external
@@ -240,6 +252,7 @@ glass_advanced.class: external
 machine-tools.class: external
 measurement_precision-metrology.class: external
 measurement_temperature-pressure.class: external
+metals.class: external
 metals_aluminum_semiconductor-grade.class: external
 mining.class: external
 photolithography.class: external

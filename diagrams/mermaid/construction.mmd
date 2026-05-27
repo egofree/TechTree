@@ -6,8 +6,8 @@ graph TD
     subgraph construction_internal ["Construction & Structural Engineering — Internal Structure"]
         direction TB
         construction_building-materials["Building Materials & Methods"]
-        construction_structural-engineering["Structural Engineering"]
         construction_industrial-buildings["Industrial Buildings & Heavy Foundations"]
+        construction_structural-engineering["Structural Engineering"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -26,16 +26,16 @@ graph TD
     textiles_rope-making("Rope and Cordage")
 
     %% ==================== EDGES ====================
-    construction -.-> foundations
+    construction_building-materials -.-> foundations_tools-basic
+    construction_industrial-buildings -.-> economics-organization_division-of-labor
+    construction_industrial-buildings -.-> energy_electricity
+    construction_structural-engineering --> metals_iron-steel
     construction --> ceramics_lime
     construction --> chemistry_cement
+    construction -.-> foundations
+    construction -.-> machine-tools
     construction --> metals
     construction --> textiles_rope-making
-    construction -.-> machine-tools
-    construction_building-materials -.-> foundations_tools-basic
-    construction_structural-engineering --> metals_iron-steel
-    construction_industrial-buildings -.-> energy_electricity
-    construction_industrial-buildings -.-> economics-organization_division-of-labor
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -53,8 +53,8 @@ graph TD
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class construction domain
     class construction_building-materials capability
-    class construction_structural-engineering capability
     class construction_industrial-buildings capability
+    class construction_structural-engineering capability
     class ceramics_lime external
     class chemistry_cement external
     class economics-organization_division-of-labor external

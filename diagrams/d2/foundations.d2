@@ -87,8 +87,8 @@ classes: {
 # ==================== INTERNAL NODES ====================
 foundations_internal: "Foundations — Internal Structure" {
   foundations_fire: Fire-Making
-  foundations_tools-basic: "Stone & Wood Tools"
   foundations_food-agriculture: "Agriculture & Food Production"
+  foundations_tools-basic: "Stone & Wood Tools"
   foundations_water-procurement: Water Procurement
 }
 
@@ -222,59 +222,59 @@ transport_roads: "Road & Bridge Construction" {
 
 # ==================== EDGES ====================
 foundations_food-agriculture -> foundations_tools-basic: { class: tool-edge }
-foundations_water-procurement -> foundations: { class: tool-edge }
 foundations_water-procurement -> foundations_tools-basic: { class: tool-edge }
-metals -> foundations: { class: tool-edge }
-knowledge -> foundations: { class: tool-edge }
-measurement_precision-metrology -> foundations: { class: tool-edge }
-health -> foundations: { class: tool-edge }
-ceramics -> foundations: { class: tool-edge }
-textiles -> foundations: { class: tool-edge }
-chemistry_lubricants -> foundations: { class: tool-edge }
-mining -> foundations: { class: tool-edge }
-chemistry_petroleum-alternatives -> foundations: { class: tool-edge }
-polymers -> foundations: { class: tool-edge }
-energy_fuels_charcoal -> foundations: { class: tool-edge }
-polymers_rubber_natural -> foundations: { class: tool-edge }
-energy_fuels -> foundations_fire: { class: tool-edge }
-ceramics_pottery -> foundations_fire: { class: material-edge }
-metals_copper-bronze -> foundations_fire: { class: material-edge }
-machine-tools_forming -> foundations_fire: { class: tool-edge }
-mining_extraction -> foundations_tools-basic: { class: tool-edge }
-ceramics_pottery -> foundations_tools-basic: { class: tool-edge }
-textiles_fibers -> foundations_tools-basic: { class: tool-edge }
-knowledge_writing -> foundations_tools-basic: { class: tool-edge }
-transport_roads -> foundations_tools-basic: { class: tool-edge }
-knowledge_writing -> foundations_food-agriculture: { class: tool-edge }
-plants -> foundations_fire: { class: tool-edge }
-foundations_food-agriculture -> plants_edible-plants: { class: material-edge }
-animals -> foundations: { class: tool-edge }
-animals_draft-power -> foundations_tools-basic: { class: tool-edge }
+foundations_water-procurement -> foundations: { class: tool-edge }
+animals_aquaculture -> foundations_tools-basic: { class: tool-edge }
 animals_beekeeping -> foundations_fire: { class: tool-edge }
 animals_beekeeping -> foundations_tools-basic: { class: tool-edge }
-animals_aquaculture -> foundations_tools-basic: { class: tool-edge }
+animals_draft-power -> foundations_tools-basic: { class: tool-edge }
+animals_poultry -> foundations_food-agriculture: { class: material-edge }
+animals -> foundations: { class: tool-edge }
+ceramics_pottery -> foundations_fire: { class: material-edge }
+ceramics_pottery -> foundations_tools-basic: { class: tool-edge }
+ceramics -> foundations: { class: tool-edge }
+chemistry_alkalis -> foundations_fire: { class: material-edge }
+chemistry_lubricants -> foundations: { class: tool-edge }
+chemistry_petroleum-alternatives -> foundations: { class: tool-edge }
+construction_building-materials -> foundations_tools-basic: { class: tool-edge }
+construction -> foundations: { class: tool-edge }
+defense -> foundations: { class: tool-edge }
+economics-organization_division-of-labor -> foundations_food-agriculture: { class: material-edge }
+economics-organization -> foundations: { class: tool-edge }
+energy_fuels_charcoal -> foundations: { class: tool-edge }
+energy_fuels -> foundations_fire: { class: tool-edge }
+food-processing -> foundations_food-agriculture: { class: material-edge }
+foundations_food-agriculture -> agriculture_soil-management: { class: material-edge }
 foundations_food-agriculture -> animals_beekeeping: { class: material-edge }
-health_sanitation -> foundations_water-procurement: { class: material-edge }
 foundations_food-agriculture -> animals_pigs: { class: material-edge }
 foundations_food-agriculture -> animals_rabbits: { class: material-edge }
-animals_poultry -> foundations_food-agriculture: { class: material-edge }
-foundations_food-agriculture -> agriculture_soil-management: { class: material-edge }
-mathematics_core-mathematics -> foundations: { class: tool-edge }
-defense -> foundations: { class: tool-edge }
-construction -> foundations: { class: tool-edge }
-construction_building-materials -> foundations_tools-basic: { class: tool-edge }
-food-processing -> foundations_food-agriculture: { class: material-edge }
-telecom_pre-electric -> foundations: { class: tool-edge }
+foundations_food-agriculture -> plants_edible-plants: { class: material-edge }
+health_sanitation -> foundations_water-procurement: { class: material-edge }
+health -> foundations: { class: tool-edge }
+knowledge_writing -> foundations_food-agriculture: { class: tool-edge }
+knowledge_writing -> foundations_tools-basic: { class: tool-edge }
+knowledge -> foundations: { class: tool-edge }
+machine-tools_forming -> foundations_fire: { class: tool-edge }
 marine -> foundations: { class: tool-edge }
-economics-organization -> foundations: { class: tool-edge }
-economics-organization_division-of-labor -> foundations_food-agriculture: { class: material-edge }
-chemistry_alkalis -> foundations_fire: { class: material-edge }
+mathematics_core-mathematics -> foundations: { class: tool-edge }
+measurement_precision-metrology -> foundations: { class: tool-edge }
+metals_copper-bronze -> foundations_fire: { class: material-edge }
+metals -> foundations: { class: tool-edge }
+mining_extraction -> foundations_tools-basic: { class: tool-edge }
+mining -> foundations: { class: tool-edge }
+plants -> foundations_fire: { class: tool-edge }
+polymers_rubber_natural -> foundations: { class: tool-edge }
+polymers -> foundations: { class: tool-edge }
+telecom_pre-electric -> foundations: { class: tool-edge }
+textiles_fibers -> foundations_tools-basic: { class: tool-edge }
+textiles -> foundations: { class: tool-edge }
+transport_roads -> foundations_tools-basic: { class: tool-edge }
 
 # ==================== STYLING ====================
 foundations.class: domain
 foundations_fire.class: capability
-foundations_tools-basic.class: capability
 foundations_food-agriculture.class: capability
+foundations_tools-basic.class: capability
 foundations_water-procurement.class: capability
 agriculture_soil-management.class: external
 animals.class: external

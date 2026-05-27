@@ -86,14 +86,14 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 petroleum_internal: "Petroleum Extraction & Refining — Internal Structure" {
-  petroleum_extraction: Crude Oil Extraction
   petroleum_extraction_cable-tool: Cable-Tool Drilling
+  petroleum_extraction: Crude Oil Extraction
   petroleum_extraction_rotary: Rotary Drilling
-  petroleum_refining: Petroleum Refining
-  petroleum_refining_distillation: "Atmospheric & Vacuum Distillation"
-  petroleum_refining_cracking: "Catalytic Cracking & Conversion"
   petroleum_petrochemicals: Petrochemical Feedstocks
   petroleum_petrochemicals_steam-cracking: "Steam Cracking (Olefin Production)"
+  petroleum_refining_cracking: "Catalytic Cracking & Conversion"
+  petroleum_refining_distillation: "Atmospheric & Vacuum Distillation"
+  petroleum_refining: Petroleum Refining
 }
 
 # ==================== DOMAIN NODE ====================
@@ -117,34 +117,34 @@ mining: "Mining Engineering & Extractive Metallurgy" {
 }
 
 # ==================== EDGES ====================
-petroleum_extraction -> petroleum: { class: tool-edge }
 petroleum_extraction_cable-tool -> petroleum_extraction: { class: tool-edge }
-petroleum_extraction_rotary -> petroleum_extraction: { class: tool-edge }
 petroleum_extraction_rotary -> petroleum_extraction_cable-tool: { class: tool-edge }
-petroleum_refining -> petroleum: { class: tool-edge }
-petroleum_refining -> petroleum_extraction: { class: material-edge }
-petroleum_refining_distillation -> petroleum_refining: { class: tool-edge }
-petroleum_refining_cracking -> petroleum_refining: { class: tool-edge }
-petroleum_refining_cracking -> petroleum_refining_distillation: { class: material-edge }
-petroleum_petrochemicals -> petroleum: { class: tool-edge }
-petroleum_petrochemicals -> petroleum_refining: { class: material-edge }
+petroleum_extraction_rotary -> petroleum_extraction: { class: tool-edge }
+petroleum_extraction -> petroleum: { class: tool-edge }
 petroleum_petrochemicals_steam-cracking -> petroleum_petrochemicals: { class: tool-edge }
-petroleum -> metals: { class: tool-edge }
-petroleum -> mining: { class: tool-edge }
+petroleum_petrochemicals -> petroleum_refining: { class: material-edge }
+petroleum_petrochemicals -> petroleum: { class: tool-edge }
+petroleum_refining_cracking -> petroleum_refining_distillation: { class: material-edge }
+petroleum_refining_cracking -> petroleum_refining: { class: tool-edge }
+petroleum_refining_distillation -> petroleum_refining: { class: tool-edge }
+petroleum_refining -> petroleum_extraction: { class: material-edge }
+petroleum_refining -> petroleum: { class: tool-edge }
+energy_engine -> petroleum_refining: { class: material-edge }
 petroleum_extraction_cable-tool -> energy_steam-power: { class: tool-edge }
 petroleum_refining -> chemistry_distillation: { class: tool-edge }
-energy_engine -> petroleum_refining: { class: material-edge }
+petroleum -> metals: { class: tool-edge }
+petroleum -> mining: { class: tool-edge }
 
 # ==================== STYLING ====================
 petroleum.class: domain
-petroleum_extraction.class: capability
 petroleum_extraction_cable-tool.class: process
+petroleum_extraction.class: capability
 petroleum_extraction_rotary.class: process
-petroleum_refining.class: capability
-petroleum_refining_distillation.class: process
-petroleum_refining_cracking.class: process
 petroleum_petrochemicals.class: capability
 petroleum_petrochemicals_steam-cracking.class: process
+petroleum_refining_cracking.class: process
+petroleum_refining_distillation.class: process
+petroleum_refining.class: capability
 chemistry_distillation.class: external
 energy_engine.class: external
 energy_steam-power.class: external

@@ -86,9 +86,9 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 vacuum_internal: "Vacuum Technology — Internal Structure" {
-  vacuum_pumps: Vacuum Pumps
   vacuum_chambers: "Vacuum Chambers & Sealing"
   vacuum_measurement: "Vacuum Measurement & Leak Detection"
+  vacuum_pumps: Vacuum Pumps
 }
 
 # ==================== DOMAIN NODE ====================
@@ -130,27 +130,27 @@ silicon_basic-devices: Basic Semiconductor Devices {
 }
 
 # ==================== EDGES ====================
-vacuum -> gas-handling: { class: tool-edge }
-vacuum -> energy_electricity: { class: tool-edge }
-vacuum -> metals: { class: material-edge }
-vacuum -> measurement: { class: tool-edge }
-vacuum_pumps -> machine-tools: { class: tool-edge }
+automation_wafer-handling -> vacuum: { class: tool-edge }
+machine-tools_joining_electron-beam -> vacuum: { class: tool-edge }
+optics_inspection_optical-coatings -> vacuum_pumps: { class: tool-edge }
+photolithography_fab-processes -> vacuum_pumps: { class: tool-edge }
+silicon_basic-devices -> vacuum_pumps: { class: tool-edge }
+vacuum_chambers -> machine-tools_joining_electron-beam: { class: tool-edge }
+vacuum_chambers -> machine-tools_joining_tig-welding: { class: tool-edge }
 vacuum_chambers -> machine-tools: { class: tool-edge }
 vacuum_chambers -> metals: { class: material-edge }
 vacuum_measurement -> measurement: { class: tool-edge }
-silicon_basic-devices -> vacuum_pumps: { class: tool-edge }
-photolithography_fab-processes -> vacuum_pumps: { class: tool-edge }
-optics_inspection_optical-coatings -> vacuum_pumps: { class: tool-edge }
-automation_wafer-handling -> vacuum: { class: tool-edge }
-machine-tools_joining_electron-beam -> vacuum: { class: tool-edge }
-vacuum_chambers -> machine-tools_joining_tig-welding: { class: tool-edge }
-vacuum_chambers -> machine-tools_joining_electron-beam: { class: tool-edge }
+vacuum_pumps -> machine-tools: { class: tool-edge }
+vacuum -> energy_electricity: { class: tool-edge }
+vacuum -> gas-handling: { class: tool-edge }
+vacuum -> measurement: { class: tool-edge }
+vacuum -> metals: { class: material-edge }
 
 # ==================== STYLING ====================
 vacuum.class: domain
-vacuum_pumps.class: capability
 vacuum_chambers.class: capability
 vacuum_measurement.class: capability
+vacuum_pumps.class: capability
 automation_wafer-handling.class: external
 energy_electricity.class: external
 gas-handling.class: external

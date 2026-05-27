@@ -86,10 +86,10 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 transport_internal: "Transportation & Logistics — Internal Structure" {
-  transport_roads: "Road & Bridge Construction"
-  transport_railways: Railways
-  transport_shipping: Water Transport
   transport_aviation: Aviation
+  transport_railways: Railways
+  transport_roads: "Road & Bridge Construction"
+  transport_shipping: Water Transport
   transport_telegraph: Telegraph Communication
 }
 
@@ -177,44 +177,44 @@ textiles: "Textiles, Fiber & Cordage" {
 }
 
 # ==================== EDGES ====================
-transport -> metals: { class: tool-edge }
-transport -> energy: { class: material-edge }
-transport -> mining: { class: material-edge }
-transport -> machine-tools: { class: tool-edge }
-transport_aviation -> machine-tools: { class: tool-edge }
-transport_aviation -> textiles: { class: material-edge }
-transport_aviation -> chemistry_petroleum-alternatives: { class: material-edge }
-transport_roads -> foundations_tools-basic: { class: tool-edge }
-transport_roads -> mining: { class: material-edge }
-transport_railways -> energy_steam-power: { class: tool-edge }
-transport_railways -> metals_iron-steel: { class: material-edge }
-transport_shipping -> textiles: { class: material-edge }
-transport_aviation -> energy_engine: { class: tool-edge }
-transport -> energy_engine: { class: tool-edge }
-transport_telegraph -> energy_electricity: { class: tool-edge }
-transport_telegraph -> metals_iron-steel: { class: material-edge }
-transport_telegraph -> chemistry_acids: { class: tool-edge }
-transport -> mining_extraction: { class: tool-edge }
-transport -> energy_fuels: { class: tool-edge }
-transport -> chemistry_coatings: { class: material-edge }
-transport_aviation -> metals_aluminum: { class: material-edge }
-transport_railways -> metals_forming: { class: material-edge }
-transport_roads -> animals_draft-power: { class: tool-edge }
 defense -> transport: { class: tool-edge }
-telecom -> transport_telegraph: { class: tool-edge }
+economics-organization_supply-chain -> transport: { class: tool-edge }
+economics-organization_trade -> transport: { class: tool-edge }
+marine_shipbuilding -> transport_shipping: { class: tool-edge }
+marine -> transport_shipping: { class: tool-edge }
 telecom_electric-telegraph -> transport_telegraph: { class: tool-edge }
 telecom_submarine-cables -> transport_shipping: { class: tool-edge }
-marine -> transport_shipping: { class: tool-edge }
-marine_shipbuilding -> transport_shipping: { class: tool-edge }
-economics-organization_trade -> transport: { class: tool-edge }
-economics-organization_supply-chain -> transport: { class: tool-edge }
+telecom -> transport_telegraph: { class: tool-edge }
+transport_aviation -> chemistry_petroleum-alternatives: { class: material-edge }
+transport_aviation -> energy_engine: { class: tool-edge }
+transport_aviation -> machine-tools: { class: tool-edge }
+transport_aviation -> metals_aluminum: { class: material-edge }
+transport_aviation -> textiles: { class: material-edge }
+transport_railways -> energy_steam-power: { class: tool-edge }
+transport_railways -> metals_forming: { class: material-edge }
+transport_railways -> metals_iron-steel: { class: material-edge }
+transport_roads -> animals_draft-power: { class: tool-edge }
+transport_roads -> foundations_tools-basic: { class: tool-edge }
+transport_roads -> mining: { class: material-edge }
+transport_shipping -> textiles: { class: material-edge }
+transport_telegraph -> chemistry_acids: { class: tool-edge }
+transport_telegraph -> energy_electricity: { class: tool-edge }
+transport_telegraph -> metals_iron-steel: { class: material-edge }
+transport -> chemistry_coatings: { class: material-edge }
+transport -> energy_engine: { class: tool-edge }
+transport -> energy_fuels: { class: tool-edge }
+transport -> energy: { class: material-edge }
+transport -> machine-tools: { class: tool-edge }
+transport -> metals: { class: tool-edge }
+transport -> mining_extraction: { class: tool-edge }
+transport -> mining: { class: material-edge }
 
 # ==================== STYLING ====================
 transport.class: domain
-transport_roads.class: capability
-transport_railways.class: capability
-transport_shipping.class: capability
 transport_aviation.class: capability
+transport_railways.class: capability
+transport_roads.class: capability
+transport_shipping.class: capability
 transport_telegraph.class: capability
 animals_draft-power.class: external
 chemistry_acids.class: external

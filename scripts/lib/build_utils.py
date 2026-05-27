@@ -1,4 +1,8 @@
-"""Markdown rendering and metadata extraction for bootciv docs."""
+"""Markdown rendering and metadata extraction for bootciv docs.
+
+Data loading uses tt_data.py (per-entity JSON-LD files) instead of
+monolithic nodes.json / edges.json.
+"""
 
 import json
 import re
@@ -7,6 +11,30 @@ from pathlib import Path
 from markdown_it import MarkdownIt
 
 from .templates import render_page, render_sidebar
+from .tt_data import EDGES_DIR
+
+
+# ---------------------------------------------------------------------------
+# Data loading via tt_data.py
+# ---------------------------------------------------------------------------
+
+
+def load_all_edges() -> list[dict]:
+    """Load all dependency edges from data/entities/_edges/.
+
+    Returns a list of edge dicts with keys: from, to, edgeType, flow.
+    """
+    edges_path = Path(EDGES_DIR)
+    if not edges_path.is_dir():
+        return []
+    edges = []
+    for edge_file in sorted(edges_path.glob("*.jsonld")):
+        try:
+            edge = json.loads(edge_file.read_text(encoding="utf-8"))
+            edges.append(edge)
+        except (json.JSONDecodeError, OSError):
+            continue
+    return edges
 
 
 def _get_md_renderer() -> MarkdownIt:
@@ -101,7 +129,7 @@ def read_all_markdown(docs_dir: str) -> list[dict]:
     return results
 
 
-def build_node_page_map(docs_dir: str, nodes_json: dict) -> dict[str, str]:
+def build_node_page_map(docs_dir: str, nodes: list[dict]) -> dict[str, str]:
     """Build a mapping from node IDs to their HTML page paths.
 
     Walks docs/ for .md files, extracts metadata to get the Node ID,
@@ -110,7 +138,7 @@ def build_node_page_map(docs_dir: str, nodes_json: dict) -> dict[str, str]:
 
     Args:
         docs_dir: Path to the docs/ directory.
-        nodes_json: Parsed nodes.json dict (used for node ID validation).
+        nodes: List of entity dicts from tt_data.load_all_entities().
 
     Returns:
         Dict mapping node_id -> relative HTML path
@@ -141,19 +169,18 @@ def build_node_page_map(docs_dir: str, nodes_json: dict) -> dict[str, str]:
         for alias in metadata.get("also_covers", []):
             node_page_map[alias] = html_rel
 
-    # Add domain-level nodes (they have generated index.html pages)
-    for node in nodes_json["nodes"]:
+    for node in nodes:
         if node.get("level") == "domain" and node["id"] not in node_page_map:
             node_page_map[node["id"]] = f"docs/{node['id']}/index.html"
 
     return node_page_map
 
 
-def get_node_children(nodes_json: dict, parent_id: str) -> list[dict]:
+def get_node_children(nodes: list[dict], parent_id: str) -> list[dict]:
     """Find all direct children of a given node.
 
     Args:
-        nodes_json: Parsed nodes.json dict.
+        nodes: List of entity dicts from tt_data.load_all_entities().
         parent_id: The node ID to find children for.
 
     Returns:
@@ -161,19 +188,19 @@ def get_node_children(nodes_json: dict, parent_id: str) -> list[dict]:
     """
     children = [
         node
-        for node in nodes_json["nodes"]
+        for node in nodes
         if node.get("parent") == parent_id
     ]
     return sorted(children, key=lambda n: n["name"])
 
 
-def build_sidebar_tree(nodes_json: dict) -> list[dict]:
+def build_sidebar_tree(nodes: list[dict]) -> list[dict]:
     """Build a tree structure for sidebar navigation.
 
     Finds all domain-level nodes and their direct children.
 
     Args:
-        nodes_json: Parsed nodes.json dict.
+        nodes: List of entity dicts from tt_data.load_all_entities().
 
     Returns:
         List of domain dicts, each with ``children`` list, sorted by name.
@@ -189,13 +216,13 @@ def build_sidebar_tree(nodes_json: dict) -> list[dict]:
         }
 
     domains = [
-        node for node in nodes_json["nodes"]
+        node for node in nodes
         if node.get("level") == "domain"
     ]
 
     result = []
     for domain in sorted(domains, key=lambda n: n["name"]):
-        children = get_node_children(nodes_json, domain["id"])
+        children = get_node_children(nodes, domain["id"])
         entry = _node_summary(domain)
         entry["children"] = [_node_summary(c) for c in children]
         result.append(entry)
@@ -231,8 +258,8 @@ def linkify_node_ids(html: str, page_map: dict[str, str], link_prefix: str = "")
 # Node lookup helpers
 # ---------------------------------------------------------------------------
 
-def _node_by_id(nodes_json: dict, node_id: str) -> dict | None:
-    for node in nodes_json["nodes"]:
+def _node_by_id(nodes: list[dict], node_id: str) -> dict | None:
+    for node in nodes:
         if node["id"] == node_id:
             return node
     return None
@@ -287,8 +314,8 @@ def _embed_diagram(domain_id: str, site_dir: str, mermaid_dir: str, link_prefix:
 def generate_capability_pages(
     docs_dir: str,
     site_dir: str,
-    nodes_json: dict,
-    edges_json: list[dict],
+    nodes: list[dict],
+    edges: list[dict],
     page_map: dict[str, str],
     sidebar_tree: list[dict],
 ) -> list[dict]:
@@ -298,7 +325,6 @@ def generate_capability_pages(
     """
     md_files = read_all_markdown(docs_dir)
     search_entries = []
-    edges = edges_json
     count = 0
 
     for md in md_files:
@@ -306,7 +332,7 @@ def generate_capability_pages(
             continue
 
         node_id = md["metadata"].get("node_id", "")
-        node_data = _node_by_id(nodes_json, node_id) if node_id else None
+        node_data = _node_by_id(nodes, node_id) if node_id else None
 
         html_body = linkify_node_ids(md["html_body"], page_map, "../../")
 
@@ -351,8 +377,8 @@ def generate_capability_pages(
 
 def generate_domain_pages(
     site_dir: str,
-    nodes_json: dict,
-    edges_json: list[dict],
+    nodes: list[dict],
+    edges: list[dict],
     page_map: dict[str, str],
     sidebar_tree: list[dict],
     mermaid_dir: str,
@@ -364,7 +390,7 @@ def generate_domain_pages(
     search_entries = []
     count = 0
 
-    for domain_node in nodes_json["nodes"]:
+    for domain_node in nodes:
         if domain_node.get("level") != "domain":
             continue
 
@@ -372,7 +398,7 @@ def generate_domain_pages(
         domain_name = domain_node["name"]
         domain_desc = domain_node.get("description", "")
 
-        children = get_node_children(nodes_json, domain_id)
+        children = get_node_children(nodes, domain_id)
 
         current_path = f"docs/{domain_id}/index.html"
         sidebar_html = render_sidebar(sidebar_tree, current_path, link_prefix="../../", page_map=page_map)
@@ -443,8 +469,8 @@ def _page_href_simple(node_id: str) -> str:
 def generate_home_page(
     docs_dir: str,
     site_dir: str,
-    nodes_json: dict,
-    edges_json: list[dict],
+    nodes: list[dict],
+    edges: list[dict],
     checklist: dict,
     page_map: dict[str, str],
     sidebar_tree: list[dict],

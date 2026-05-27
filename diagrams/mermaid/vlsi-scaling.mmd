@@ -7,8 +7,8 @@ graph TD
         direction TB
         vlsi-scaling_advanced-lithography["Advanced Lithography"]
         vlsi-scaling_advanced-processes["Advanced Processes"]
-        vlsi-scaling_eda-design["EDA, GPU Design & Advanced Packaging"]
         vlsi-scaling_continuous-scaling["Continuous Scaling"]
+        vlsi-scaling_eda-design["EDA, GPU Design & Advanced Packaging"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -27,17 +27,17 @@ graph TD
     silicon_basic-devices("Basic Semiconductor Devices")
 
     %% ==================== EDGES ====================
-    vlsi-scaling -.-> photolithography
-    vlsi-scaling_continuous-scaling -.-> photolithography_fab-processes
-    vlsi-scaling_advanced-lithography -.-> photolithography_resists-masks
+    metals_specialty-semiconductor -.-> vlsi-scaling_advanced-processes
     vlsi-scaling_advanced-lithography -.-> optics_inspection
+    vlsi-scaling_advanced-lithography -.-> photolithography_resists-masks
     vlsi-scaling_advanced-processes -.-> photolithography_fab-processes
+    vlsi-scaling_continuous-scaling -.-> photolithography_fab-processes
+    vlsi-scaling_eda-design -.-> chemistry_dopant-etch-gases
     vlsi-scaling_eda-design -.-> computing
+    vlsi-scaling_eda-design -.-> electronics_assembly
     vlsi-scaling_eda-design -.-> photolithography_fab-processes
     vlsi-scaling_eda-design -.-> silicon_basic-devices
-    vlsi-scaling_eda-design -.-> chemistry_dopant-etch-gases
-    vlsi-scaling_eda-design -.-> electronics_assembly
-    metals_specialty-semiconductor -.-> vlsi-scaling_advanced-processes
+    vlsi-scaling -.-> photolithography
     vlsi-scaling -.-> quality-control
 
     %% ==================== EDGE TYPE LEGEND ====================
@@ -57,8 +57,8 @@ graph TD
     class vlsi-scaling domain
     class vlsi-scaling_advanced-lithography capability
     class vlsi-scaling_advanced-processes capability
-    class vlsi-scaling_eda-design capability
     class vlsi-scaling_continuous-scaling capability
+    class vlsi-scaling_eda-design capability
     class chemistry_dopant-etch-gases external
     class computing external
     class electronics_assembly external

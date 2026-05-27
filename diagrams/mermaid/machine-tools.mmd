@@ -5,21 +5,21 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph machine-tools_internal ["Machine Tools Bootstrap — Internal Structure"]
         direction TB
-        machine-tools_casting["Metal Casting"]
-        machine-tools_iterative-bootstrap["Iterative Machine Bootstrap"]
         machine-tools_bearings-abrasives["Bearings, Abrasives & Cutting Tools"]
+        machine-tools_casting["Metal Casting"]
+        machine-tools_edm-cnc["EDM, CNC & Precision Grinding"]
         machine-tools_forming["Metal Forming"]
-        machine-tools_machining["Machining"]
+        machine-tools_iterative-bootstrap["Iterative Machine Bootstrap"]
+        machine-tools_joining_diffusion-bonding["Diffusion Bonding"]
+        machine-tools_joining_electron-beam["Electron Beam Welding"]
+        machine-tools_joining_friction-stir["Friction Stir Welding"]
         machine-tools_joining["Metal Joining"]
-        machine-tools_joining_tig-welding["TIG Welding (GTAW)"]
+        machine-tools_joining_laser-welding["Laser Welding"]
         machine-tools_joining_mig-welding["MIG Welding (GMAW)"]
         machine-tools_joining_resistance-welding["Resistance Welding (Spot & Seam)"]
-        machine-tools_joining_electron-beam["Electron Beam Welding"]
+        machine-tools_joining_tig-welding["TIG Welding (GTAW)"]
         machine-tools_joining_ultrasonic-bonding["Ultrasonic Welding & Wire Bonding"]
-        machine-tools_joining_friction-stir["Friction Stir Welding"]
-        machine-tools_joining_laser-welding["Laser Welding"]
-        machine-tools_joining_diffusion-bonding["Diffusion Bonding"]
-        machine-tools_edm-cnc["EDM, CNC & Precision Grinding"]
+        machine-tools_machining["Machining"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -71,78 +71,78 @@ graph TD
     vacuum_pumps("Vacuum Pumps")
 
     %% ==================== EDGES ====================
-    machine-tools_iterative-bootstrap -.-> machine-tools_casting
     machine-tools_bearings-abrasives -.-> machine-tools_iterative-bootstrap
-    machine-tools_machining -.-> machine-tools_iterative-bootstrap
-    machine-tools_machining -.-> machine-tools_bearings-abrasives
     machine-tools_edm-cnc -.-> machine-tools_machining
-    machine-tools_joining_tig-welding -.-> machine-tools_joining
-    machine-tools_joining_mig-welding -.-> machine-tools_joining
-    machine-tools_joining_resistance-welding -.-> machine-tools_joining
+    machine-tools_iterative-bootstrap -.-> machine-tools_casting
+    machine-tools_joining_diffusion-bonding -.-> machine-tools_joining
     machine-tools_joining_electron-beam -.-> machine-tools_joining
-    machine-tools_joining_ultrasonic-bonding -.-> machine-tools_joining
     machine-tools_joining_friction-stir -.-> machine-tools_joining
     machine-tools_joining_friction-stir -.-> machine-tools_machining
     machine-tools_joining_laser-welding -.-> machine-tools_joining
-    machine-tools_joining_diffusion-bonding -.-> machine-tools_joining
-    machine-tools_joining --> metals_iron-steel
-    machine-tools -.-> metals
-    machine-tools -.-> textiles
-    machine-tools --> chemistry_lubricants
-    machine-tools_casting --> metals_iron-steel
-    measurement_precision-metrology -.-> machine-tools_casting
-    energy_steam-power -.-> machine-tools
-    energy_steam-power -.-> machine-tools_joining
-    energy_electric-furnaces -.-> machine-tools
-    energy_cooling -.-> machine-tools
-    machine-tools_joining --> energy_electricity
-    machine-tools_joining --> chemistry
-    glass -.-> machine-tools
-    optics -.-> machine-tools
-    gas-handling -.-> machine-tools
-    measurement -.-> machine-tools
-    silicon -.-> machine-tools
-    photolithography -.-> machine-tools
+    machine-tools_joining_mig-welding -.-> machine-tools_joining
+    machine-tools_joining_resistance-welding -.-> machine-tools_joining
+    machine-tools_joining_tig-welding -.-> machine-tools_joining
+    machine-tools_joining_ultrasonic-bonding -.-> machine-tools_joining
+    machine-tools_machining -.-> machine-tools_bearings-abrasives
+    machine-tools_machining -.-> machine-tools_iterative-bootstrap
+    automation_wafer-handling -.-> machine-tools
+    chemistry_packaging-testing -.-> machine-tools_joining_ultrasonic-bonding
     chemistry_packaging-testing -.-> machine-tools
-    transport -.-> machine-tools
+    computing_mechanical -.-> machine-tools
     computing -.-> machine-tools
-    transport_aviation -.-> machine-tools
-    polymers_rubber_synthetic -.-> machine-tools
-    polymers_thermosets -.-> machine-tools
-    polymers_thermoplastics -.-> machine-tools
-    polymers_composites -.-> machine-tools
+    construction -.-> machine-tools
+    electronics -.-> machine-tools
+    energy_cooling -.-> machine-tools
+    energy_electric-furnaces -.-> machine-tools
+    energy_gravity_water-turbines -.-> machine-tools_machining
+    energy_steam-power_steam-turbines -.-> machine-tools_machining
+    energy_steam-power -.-> machine-tools_joining
+    energy_steam-power -.-> machine-tools
+    gas-handling -.-> machine-tools
+    glass -.-> machine-tools
+    knowledge_printing -.-> machine-tools_machining
+    machine-tools_casting --> metals_iron-steel
+    machine-tools_edm-cnc -.-> energy_electricity
+    machine-tools_forming --> animals_animal-materials
+    machine-tools_forming --> energy_fuels
     machine-tools_forming -.-> foundations_fire
     machine-tools_forming --> metals_iron-steel
-    machine-tools_forming --> energy_fuels
-    machine-tools_edm-cnc -.-> energy_electricity
-    computing_mechanical -.-> machine-tools
-    energy_steam-power_steam-turbines -.-> machine-tools_machining
-    energy_gravity_water-turbines -.-> machine-tools_machining
-    knowledge_printing -.-> machine-tools_machining
-    machine-tools_joining --> metals_alloys
-    metals_forming -.-> machine-tools
-    machine-tools_forming --> animals_animal-materials
     machine-tools_iterative-bootstrap --> animals_animal-materials
-    mining_drilling -.-> machine-tools_machining
-    electronics -.-> machine-tools
-    vacuum_pumps -.-> machine-tools
-    vacuum_chambers -.-> machine-tools
-    automation_wafer-handling -.-> machine-tools
-    construction -.-> machine-tools
-    marine_shipbuilding -.-> machine-tools
-    marine_infrastructure -.-> machine-tools
-    machine-tools_joining_tig-welding -.-> energy_electricity
-    machine-tools_joining_tig-welding --> chemistry_air-separation
+    machine-tools_joining_diffusion-bonding -.-> energy_electric-furnaces
+    machine-tools_joining_electron-beam -.-> energy_electricity
+    machine-tools_joining_electron-beam -.-> vacuum
+    machine-tools_joining_laser-welding -.-> energy_electricity
     machine-tools_joining_mig-welding -.-> energy_electricity
     machine-tools_joining_resistance-welding --> energy_electricity
-    machine-tools_joining_electron-beam -.-> vacuum
-    machine-tools_joining_electron-beam -.-> energy_electricity
+    machine-tools_joining_tig-welding --> chemistry_air-separation
+    machine-tools_joining_tig-welding -.-> energy_electricity
     machine-tools_joining_ultrasonic-bonding -.-> energy_electricity
-    machine-tools_joining_laser-welding -.-> energy_electricity
-    machine-tools_joining_diffusion-bonding -.-> energy_electric-furnaces
-    vacuum_chambers -.-> machine-tools_joining_tig-welding
+    machine-tools_joining --> chemistry
+    machine-tools_joining --> energy_electricity
+    machine-tools_joining --> metals_alloys
+    machine-tools_joining --> metals_iron-steel
+    machine-tools --> chemistry_lubricants
+    machine-tools -.-> metals
+    machine-tools -.-> textiles
+    marine_infrastructure -.-> machine-tools
+    marine_shipbuilding -.-> machine-tools
+    measurement_precision-metrology -.-> machine-tools_casting
+    measurement -.-> machine-tools
+    metals_forming -.-> machine-tools
+    mining_drilling -.-> machine-tools_machining
+    optics -.-> machine-tools
+    photolithography -.-> machine-tools
+    polymers_composites -.-> machine-tools
+    polymers_rubber_synthetic -.-> machine-tools
+    polymers_thermoplastics -.-> machine-tools
+    polymers_thermosets -.-> machine-tools
+    silicon -.-> machine-tools
+    transport_aviation -.-> machine-tools
+    transport -.-> machine-tools
     vacuum_chambers -.-> machine-tools_joining_electron-beam
-    chemistry_packaging-testing -.-> machine-tools_joining_ultrasonic-bonding
+    vacuum_chambers -.-> machine-tools_joining_tig-welding
+    vacuum_chambers -.-> machine-tools
+    vacuum_pumps -.-> machine-tools
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -159,21 +159,21 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class machine-tools domain
-    class machine-tools_casting capability
-    class machine-tools_iterative-bootstrap capability
     class machine-tools_bearings-abrasives capability
+    class machine-tools_casting capability
+    class machine-tools_edm-cnc capability
     class machine-tools_forming capability
-    class machine-tools_machining capability
+    class machine-tools_iterative-bootstrap capability
+    class machine-tools_joining_diffusion-bonding process
+    class machine-tools_joining_electron-beam process
+    class machine-tools_joining_friction-stir process
     class machine-tools_joining capability
-    class machine-tools_joining_tig-welding process
+    class machine-tools_joining_laser-welding process
     class machine-tools_joining_mig-welding process
     class machine-tools_joining_resistance-welding process
-    class machine-tools_joining_electron-beam process
+    class machine-tools_joining_tig-welding process
     class machine-tools_joining_ultrasonic-bonding process
-    class machine-tools_joining_friction-stir process
-    class machine-tools_joining_laser-welding process
-    class machine-tools_joining_diffusion-bonding process
-    class machine-tools_edm-cnc capability
+    class machine-tools_machining capability
     class animals_animal-materials external
     class automation_wafer-handling external
     class chemistry external

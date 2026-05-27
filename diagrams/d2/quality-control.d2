@@ -86,9 +86,9 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 quality-control_internal: "Quality Control & Statistical Process Control — Internal Structure" {
-  quality-control_spc: Statistical Process Control
-  quality-control_inspection-sampling: "Inspection & Sampling Plans"
   quality-control_defect-analysis: "Defect Analysis & Yield Modeling"
+  quality-control_inspection-sampling: "Inspection & Sampling Plans"
+  quality-control_spc: Statistical Process Control
 }
 
 # ==================== DOMAIN NODE ====================
@@ -118,24 +118,24 @@ vlsi-scaling: "VLSI Scaling & Advanced Semiconductor" {
 }
 
 # ==================== EDGES ====================
-quality-control_spc -> quality-control: { class: tool-edge }
-quality-control_inspection-sampling -> quality-control: { class: tool-edge }
-quality-control_defect-analysis -> quality-control: { class: tool-edge }
 quality-control_defect-analysis -> quality-control_spc: { class: tool-edge }
-quality-control -> measurement: { class: tool-edge }
+quality-control_defect-analysis -> quality-control: { class: tool-edge }
+quality-control_inspection-sampling -> quality-control: { class: tool-edge }
+quality-control_spc -> quality-control: { class: tool-edge }
+automation_process-control -> quality-control: { class: tool-edge }
+photolithography -> quality-control: { class: tool-edge }
+quality-control_inspection-sampling -> measurement_precision-metrology: { class: tool-edge }
+quality-control_spc -> measurement: { class: tool-edge }
 quality-control -> computing: { class: tool-edge }
 quality-control -> knowledge: { class: tool-edge }
-quality-control_spc -> measurement: { class: tool-edge }
-quality-control_inspection-sampling -> measurement_precision-metrology: { class: tool-edge }
+quality-control -> measurement: { class: tool-edge }
 vlsi-scaling -> quality-control: { class: tool-edge }
-photolithography -> quality-control: { class: tool-edge }
-automation_process-control -> quality-control: { class: tool-edge }
 
 # ==================== STYLING ====================
 quality-control.class: domain
-quality-control_spc.class: capability
-quality-control_inspection-sampling.class: capability
 quality-control_defect-analysis.class: capability
+quality-control_inspection-sampling.class: capability
+quality-control_spc.class: capability
 automation_process-control.class: external
 computing.class: external
 knowledge.class: external

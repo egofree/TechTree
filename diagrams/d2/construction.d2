@@ -87,8 +87,8 @@ classes: {
 # ==================== INTERNAL NODES ====================
 construction_internal: "Construction & Structural Engineering — Internal Structure" {
   construction_building-materials: "Building Materials & Methods"
-  construction_structural-engineering: Structural Engineering
   construction_industrial-buildings: "Industrial Buildings & Heavy Foundations"
+  construction_structural-engineering: Structural Engineering
 }
 
 # ==================== DOMAIN NODE ====================
@@ -127,22 +127,22 @@ textiles_rope-making: Rope and Cordage {
 }
 
 # ==================== EDGES ====================
-construction -> foundations: { class: tool-edge }
+construction_building-materials -> foundations_tools-basic: { class: tool-edge }
+construction_industrial-buildings -> economics-organization_division-of-labor: { class: tool-edge }
+construction_industrial-buildings -> energy_electricity: { class: tool-edge }
+construction_structural-engineering -> metals_iron-steel: { class: material-edge }
 construction -> ceramics_lime: { class: material-edge }
 construction -> chemistry_cement: { class: material-edge }
+construction -> foundations: { class: tool-edge }
+construction -> machine-tools: { class: tool-edge }
 construction -> metals: { class: material-edge }
 construction -> textiles_rope-making: { class: material-edge }
-construction -> machine-tools: { class: tool-edge }
-construction_building-materials -> foundations_tools-basic: { class: tool-edge }
-construction_structural-engineering -> metals_iron-steel: { class: material-edge }
-construction_industrial-buildings -> energy_electricity: { class: tool-edge }
-construction_industrial-buildings -> economics-organization_division-of-labor: { class: tool-edge }
 
 # ==================== STYLING ====================
 construction.class: domain
 construction_building-materials.class: capability
-construction_structural-engineering.class: capability
 construction_industrial-buildings.class: capability
+construction_structural-engineering.class: capability
 ceramics_lime.class: external
 chemistry_cement.class: external
 economics-organization_division-of-labor.class: external

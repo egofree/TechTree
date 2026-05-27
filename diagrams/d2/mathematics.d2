@@ -86,8 +86,8 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 mathematics_internal: "Mathematics & Formal Sciences — Internal Structure" {
-  mathematics_core-mathematics: Core Mathematics
   mathematics_applied-mathematics: Applied Mathematics
+  mathematics_core-mathematics: Core Mathematics
   mathematics_formal-systems: Formal Systems
 }
 
@@ -117,17 +117,17 @@ knowledge_writing: "Writing & Record-Keeping" {
 # ==================== EDGES ====================
 mathematics_applied-mathematics -> mathematics_core-mathematics: { class: tool-edge }
 mathematics_formal-systems -> mathematics_core-mathematics: { class: tool-edge }
+computing_digital-logic -> mathematics_formal-systems: { class: tool-edge }
+computing_mechanical -> mathematics_core-mathematics: { class: tool-edge }
+economics-organization_accounting -> mathematics_core-mathematics: { class: tool-edge }
+economics-organization -> mathematics: { class: tool-edge }
 mathematics_core-mathematics -> foundations: { class: tool-edge }
 mathematics -> knowledge_writing: { class: tool-edge }
-computing_mechanical -> mathematics_core-mathematics: { class: tool-edge }
-computing_digital-logic -> mathematics_formal-systems: { class: tool-edge }
-economics-organization -> mathematics: { class: tool-edge }
-economics-organization_accounting -> mathematics_core-mathematics: { class: tool-edge }
 
 # ==================== STYLING ====================
 mathematics.class: domain
-mathematics_core-mathematics.class: earlyWin
 mathematics_applied-mathematics.class: capability
+mathematics_core-mathematics.class: earlyWin
 mathematics_formal-systems.class: capability
 computing_digital-logic.class: external
 computing_mechanical.class: external

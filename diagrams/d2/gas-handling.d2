@@ -86,8 +86,8 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 gas-handling_internal: "Gas Handling — Internal Structure" {
-  gas-handling_vacuum: Vacuum Technology
   gas-handling_basic: Basic Gas Handling
+  gas-handling_vacuum: Vacuum Technology
 }
 
 # ==================== DOMAIN NODE ====================
@@ -138,25 +138,25 @@ vacuum: Vacuum Technology {
 }
 
 # ==================== EDGES ====================
-gas-handling -> machine-tools: { class: tool-edge }
-gas-handling -> energy: { class: material-edge }
-gas-handling -> chemistry: { class: material-edge }
-silicon -> gas-handling: { class: tool-edge }
-silicon_purification -> gas-handling_basic: { class: tool-edge }
-silicon_basic-devices -> gas-handling_vacuum: { class: tool-edge }
-photolithography -> gas-handling: { class: tool-edge }
-photolithography_fab-processes -> gas-handling_vacuum: { class: tool-edge }
 chemistry_air-separation -> gas-handling_basic: { class: tool-edge }
 chemistry_hydrogen-silane -> gas-handling_basic: { class: tool-edge }
-optics_inspection_optical-coatings -> gas-handling_vacuum: { class: tool-edge }
-metals_specialty-semiconductor -> gas-handling_vacuum: { class: tool-edge }
 cryogenics -> gas-handling: { class: tool-edge }
+gas-handling -> chemistry: { class: material-edge }
+gas-handling -> energy: { class: material-edge }
+gas-handling -> machine-tools: { class: tool-edge }
+metals_specialty-semiconductor -> gas-handling_vacuum: { class: tool-edge }
+optics_inspection_optical-coatings -> gas-handling_vacuum: { class: tool-edge }
+photolithography_fab-processes -> gas-handling_vacuum: { class: tool-edge }
+photolithography -> gas-handling: { class: tool-edge }
+silicon_basic-devices -> gas-handling_vacuum: { class: tool-edge }
+silicon_purification -> gas-handling_basic: { class: tool-edge }
+silicon -> gas-handling: { class: tool-edge }
 vacuum -> gas-handling: { class: tool-edge }
 
 # ==================== STYLING ====================
 gas-handling.class: domain
-gas-handling_vacuum.class: capability
 gas-handling_basic.class: capability
+gas-handling_vacuum.class: capability
 chemistry.class: external
 chemistry_air-separation.class: external
 chemistry_hydrogen-silane.class: external

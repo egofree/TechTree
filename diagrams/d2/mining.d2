@@ -86,11 +86,11 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 mining_internal: "Mining Engineering & Extractive Metallurgy — Internal Structure" {
+  mining_drilling: Mechanical Drilling
+  mining_extraction_black-powder: Black Powder Explosives
   mining_extraction: Mining Extraction
   mining_processing: Ore Processing
   mining_prospecting: "Prospecting & Surveying"
-  mining_extraction_black-powder: Black Powder Explosives
-  mining_drilling: Mechanical Drilling
   mining_ventilation: Mine Ventilation
 }
 
@@ -178,47 +178,47 @@ transport_roads: "Road & Bridge Construction" {
 }
 
 # ==================== EDGES ====================
+mining_drilling -> mining: { class: tool-edge }
+mining_extraction_black-powder -> mining_extraction: { class: tool-edge }
 mining_extraction -> mining_prospecting: { class: tool-edge }
 mining_processing -> mining_extraction: { class: material-edge }
-mining_extraction_black-powder -> mining_extraction: { class: tool-edge }
-mining_drilling -> mining: { class: tool-edge }
 mining_ventilation -> mining: { class: tool-edge }
-metals -> mining: { class: material-edge }
-glass_basic -> mining: { class: material-edge }
-energy_fuels_coal -> mining: { class: material-edge }
-energy_fuels_coke -> mining: { class: material-edge }
+ceramics_advanced-ceramics -> mining: { class: material-edge }
+ceramics_lime -> mining: { class: material-edge }
 chemistry_acids -> mining: { class: material-edge }
 chemistry_alkalis -> mining: { class: material-edge }
 chemistry_cement -> mining: { class: material-edge }
-silicon_mg-si-production -> mining: { class: material-edge }
-mining -> foundations: { class: tool-edge }
-transport -> mining: { class: material-edge }
-mining_extraction -> foundations_tools-basic: { class: tool-edge }
-metals_copper-bronze -> mining: { class: material-edge }
-mining_prospecting -> knowledge_writing: { class: tool-edge }
-mining_processing -> energy_fuels: { class: tool-edge }
-ceramics_lime -> mining: { class: material-edge }
-transport_roads -> mining: { class: material-edge }
-ceramics_advanced-ceramics -> mining: { class: material-edge }
-mining_extraction_black-powder -> chemistry_explosives: { class: material-edge }
-transport -> mining_extraction: { class: tool-edge }
 chemistry_refractories -> mining: { class: material-edge }
+energy_fuels_coal -> mining: { class: material-edge }
+energy_fuels_coke -> mining: { class: material-edge }
+glass_basic -> mining: { class: material-edge }
 metals_aluminum -> mining: { class: material-edge }
+metals_copper-bronze -> mining: { class: material-edge }
 metals_non-ferrous -> mining: { class: material-edge }
-mining_extraction -> animals_draft-power: { class: tool-edge }
+metals_precious-metals -> mining: { class: material-edge }
+metals -> mining: { class: material-edge }
 mining_drilling -> energy_steam-power: { class: tool-edge }
 mining_drilling -> machine-tools_machining: { class: tool-edge }
+mining_extraction_black-powder -> chemistry_explosives: { class: material-edge }
+mining_extraction -> animals_draft-power: { class: tool-edge }
+mining_extraction -> foundations_tools-basic: { class: tool-edge }
+mining_processing -> energy_fuels: { class: tool-edge }
+mining_prospecting -> knowledge_writing: { class: tool-edge }
 mining_ventilation -> energy_steam-power: { class: tool-edge }
-metals_precious-metals -> mining: { class: material-edge }
+mining -> foundations: { class: tool-edge }
 petroleum -> mining: { class: tool-edge }
+silicon_mg-si-production -> mining: { class: material-edge }
+transport_roads -> mining: { class: material-edge }
+transport -> mining_extraction: { class: tool-edge }
+transport -> mining: { class: material-edge }
 
 # ==================== STYLING ====================
 mining.class: domain
+mining_drilling.class: capability
+mining_extraction_black-powder.class: process
 mining_extraction.class: capability
 mining_processing.class: capability
 mining_prospecting.class: capability
-mining_extraction_black-powder.class: process
-mining_drilling.class: capability
 mining_ventilation.class: capability
 animals_draft-power.class: external
 ceramics_advanced-ceramics.class: external

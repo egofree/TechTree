@@ -5,10 +5,10 @@ graph TD
     %% ==================== INTERNAL NODES ====================
     subgraph knowledge_internal ["Knowledge Preservation & Education — Internal Structure"]
         direction TB
-        knowledge_writing["Writing & Record-Keeping"]
         knowledge_education["Education & Training"]
         knowledge_libraries["Libraries & Information Systems"]
         knowledge_printing["Paper and Printing Press"]
+        knowledge_writing["Writing & Record-Keeping"]
     end
 
     %% ==================== DOMAIN NODE ====================
@@ -44,34 +44,34 @@ graph TD
 
     %% ==================== EDGES ====================
     knowledge_education -.-> knowledge_writing
-    knowledge_libraries -.-> knowledge_writing
     knowledge_libraries -.-> knowledge_education
-    knowledge -.-> foundations
-    knowledge_writing -.-> foundations_tools-basic
-    knowledge_writing -.-> foundations_food-agriculture
+    knowledge_libraries -.-> knowledge_writing
+    defense -.-> knowledge
+    economics-organization_accounting -.-> knowledge_writing
+    economics-organization_division-of-labor -.-> knowledge_writing
+    economics-organization_governance -.-> knowledge_writing
+    economics-organization_supply-chain -.-> knowledge_writing
+    economics-organization_trade -.-> knowledge_writing
+    economics-organization -.-> knowledge
     health_medicine -.-> knowledge_writing
-    mining_prospecting -.-> knowledge_writing
+    knowledge_printing -.-> machine-tools_machining
     knowledge_printing -.-> metals_iron-steel
     knowledge_printing --> textiles_fibers
-    knowledge_printing -.-> machine-tools_machining
-    knowledge_writing -.-> chemistry
-    knowledge_writing -.-> health_sanitation
-    knowledge --> chemistry_pulp-chemicals
     knowledge_writing --> animals_animal-materials
     knowledge_writing --> animals_beekeeping
-    mathematics -.-> knowledge_writing
-    quality-control -.-> knowledge
-    defense -.-> knowledge
-    telecom -.-> knowledge_writing
-    telecom_pre-electric -.-> knowledge_writing
-    marine -.-> knowledge
+    knowledge_writing -.-> chemistry
+    knowledge_writing -.-> foundations_food-agriculture
+    knowledge_writing -.-> foundations_tools-basic
+    knowledge_writing -.-> health_sanitation
+    knowledge --> chemistry_pulp-chemicals
+    knowledge -.-> foundations
     marine_navigation -.-> knowledge_writing
-    economics-organization -.-> knowledge
-    economics-organization_division-of-labor -.-> knowledge_writing
-    economics-organization_trade -.-> knowledge_writing
-    economics-organization_accounting -.-> knowledge_writing
-    economics-organization_supply-chain -.-> knowledge_writing
-    economics-organization_governance -.-> knowledge_writing
+    marine -.-> knowledge
+    mathematics -.-> knowledge_writing
+    mining_prospecting -.-> knowledge_writing
+    quality-control -.-> knowledge
+    telecom_pre-electric -.-> knowledge_writing
+    telecom -.-> knowledge_writing
 
     %% ==================== EDGE TYPE LEGEND ====================
     EdgeLegend["Edge Types"]
@@ -88,10 +88,10 @@ graph TD
     classDef external fill:#f5f5f5,stroke:#9e9e9e,stroke-width:1px
     classDef legend fill:#fafafa,stroke:#bdbdbd,stroke-width:1px
     class knowledge domain
-    class knowledge_writing capability
     class knowledge_education capability
     class knowledge_libraries capability
     class knowledge_printing earlyWin
+    class knowledge_writing capability
     class animals_animal-materials external
     class animals_beekeeping external
     class chemistry external

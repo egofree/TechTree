@@ -86,9 +86,9 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 cleanrooms_internal: "Clean Room Technology — Internal Structure" {
-  cleanrooms_hepa-ulpa-filtration: "HEPA/ULPA Filtration & Laminar Flow"
   cleanrooms_contamination-control: Contamination Control
   cleanrooms_facility-design: "Facility Design & HVAC"
+  cleanrooms_hepa-ulpa-filtration: "HEPA/ULPA Filtration & Laminar Flow"
 }
 
 # ==================== DOMAIN NODE ====================
@@ -116,17 +116,17 @@ photolithography: "Photolithography & IC Fabrication" {
 
 # ==================== EDGES ====================
 cleanrooms -> chemistry: { class: material-edge }
-cleanrooms -> metals: { class: material-edge }
-cleanrooms -> glass: { class: material-edge }
 cleanrooms -> energy: { class: tool-edge }
+cleanrooms -> glass: { class: material-edge }
 cleanrooms -> measurement: { class: tool-edge }
+cleanrooms -> metals: { class: material-edge }
 photolithography -> cleanrooms: { class: tool-edge }
 
 # ==================== STYLING ====================
 cleanrooms.class: domain
-cleanrooms_hepa-ulpa-filtration.class: capability
 cleanrooms_contamination-control.class: capability
 cleanrooms_facility-design.class: capability
+cleanrooms_hepa-ulpa-filtration.class: capability
 chemistry.class: external
 energy.class: external
 glass.class: external

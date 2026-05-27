@@ -86,9 +86,9 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 cryogenics_internal: "Cryogenics — Internal Structure" {
-  cryogenics_refrigeration: Refrigeration Fundamentals
   cryogenics_air-separation: Cryogenic Air Separation
   cryogenics_liquefaction-storage: "Gas Liquefaction & Storage"
+  cryogenics_refrigeration: Refrigeration Fundamentals
 }
 
 # ==================== DOMAIN NODE ====================
@@ -111,16 +111,16 @@ silicon_crystal-growth: "Crystal Growth & Wafering" {
 # ==================== EDGES ====================
 cryogenics_air-separation -> cryogenics_refrigeration: { class: tool-edge }
 cryogenics_liquefaction-storage -> cryogenics_refrigeration: { class: tool-edge }
-cryogenics -> gas-handling: { class: tool-edge }
-cryogenics -> energy_electricity: { class: tool-edge }
 chemistry_air-separation -> cryogenics_air-separation: { class: tool-edge }
+cryogenics -> energy_electricity: { class: tool-edge }
+cryogenics -> gas-handling: { class: tool-edge }
 silicon_crystal-growth -> cryogenics_liquefaction-storage: { class: material-edge }
 
 # ==================== STYLING ====================
 cryogenics.class: domain
-cryogenics_refrigeration.class: capability
 cryogenics_air-separation.class: capability
 cryogenics_liquefaction-storage.class: capability
+cryogenics_refrigeration.class: capability
 chemistry_air-separation.class: external
 energy_electricity.class: external
 gas-handling.class: external

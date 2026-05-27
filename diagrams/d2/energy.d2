@@ -86,26 +86,26 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 energy_internal: "Energy — Internal Structure" {
-  energy_gravity: Water Power
-  energy_wind: Wind Power
-  energy_fuels: Fuel Production
+  energy_blue-energy: "Blue Energy (Osmotic Power)"
+  energy_cooling: "Cooling Systems & Refrigeration"
+  energy_electric-furnaces_electrode-manufacturing: Graphite Electrode Manufacturing
+  energy_electric-furnaces: Electric Furnaces
+  energy_electricity: "Electricity Generation & Distribution"
+  energy_electricity_power-systems: Electric Power Systems for Semiconductor Fabrication
+  energy_engine: Heat Engines
+  energy_fuel-cell: Fuel Cell
   energy_fuels_charcoal: Charcoal Production
   energy_fuels_coal: "Coal Mining & Combustion"
   energy_fuels_coke: Coke Production
-  energy_steam-power: Steam Power
-  energy_engine: Heat Engines
-  energy_electricity: "Electricity Generation & Distribution"
-  energy_electricity_power-systems: Electric Power Systems for Semiconductor Fabrication
-  energy_electric-furnaces: Electric Furnaces
-  energy_cooling: "Cooling Systems & Refrigeration"
-  energy_storage: "Energy Storage & Diversification"
-  energy_steam-power_steam-turbines: Steam Turbines
+  energy_fuels: Fuel Production
+  energy_gravity: Water Power
   energy_gravity_water-turbines: Water Turbines
-  energy_storage_pumped-hydro: Pumped Hydroelectric Storage
-  energy_electric-furnaces_electrode-manufacturing: Graphite Electrode Manufacturing
   energy_redox-flow-battery: Redox Flow Battery
-  energy_fuel-cell: Fuel Cell
-  energy_blue-energy: "Blue Energy (Osmotic Power)"
+  energy_steam-power: Steam Power
+  energy_steam-power_steam-turbines: Steam Turbines
+  energy_storage: "Energy Storage & Diversification"
+  energy_storage_pumped-hydro: Pumped Hydroelectric Storage
+  energy_wind: Wind Power
 }
 
 # ==================== DOMAIN NODE ====================
@@ -313,6 +313,9 @@ silicon: Silicon {
 silicon_mg-si-production: Metallurgical-Grade Silicon Production {
   shape: rectangle
 }
+silicon_purification: Silicon Purification {
+  shape: rectangle
+}
 telecom: Telecommunications {
   shape: rectangle
 }
@@ -348,145 +351,147 @@ water_desalination: Desalination {
 }
 
 # ==================== EDGES ====================
+energy_electric-furnaces_electrode-manufacturing -> energy_electric-furnaces: { class: material-edge }
 energy_electric-furnaces -> energy_electricity: { class: material-edge }
-energy_storage -> energy: { class: tool-edge }
+energy_electricity_power-systems -> energy_electricity: { class: tool-edge }
+energy_electricity_power-systems -> energy_engine: { class: tool-edge }
+energy_electricity_power-systems -> energy_storage: { class: tool-edge }
+energy_engine -> energy_fuels: { class: material-edge }
 energy_fuels_charcoal -> energy_fuels: { class: tool-edge }
 energy_fuels_coal -> energy_fuels: { class: tool-edge }
 energy_fuels_coke -> energy_fuels: { class: tool-edge }
-energy_electricity_power-systems -> energy_electricity: { class: tool-edge }
-energy_electricity_power-systems -> energy_storage: { class: tool-edge }
-energy_electricity_power-systems -> energy_engine: { class: tool-edge }
-energy_engine -> energy_fuels: { class: material-edge }
-energy_steam-power_steam-turbines -> energy_steam-power: { class: tool-edge }
 energy_gravity_water-turbines -> energy_gravity: { class: tool-edge }
-energy_storage_pumped-hydro -> energy_gravity: { class: tool-edge }
-energy_storage_pumped-hydro -> energy_electricity: { class: tool-edge }
-energy_electric-furnaces_electrode-manufacturing -> energy_electric-furnaces: { class: material-edge }
 energy_redox-flow-battery -> energy_electricity: { class: material-edge }
-energy_gravity -> textiles: { class: tool-edge }
-energy_wind -> textiles: { class: tool-edge }
-energy_gravity -> chemistry_lubricants: { class: material-edge }
-energy_wind -> chemistry_lubricants: { class: material-edge }
-energy -> metals: { class: tool-edge }
-energy_fuels_coal -> ceramics_kilns: { class: tool-edge }
-energy_fuels_coke -> ceramics_kilns: { class: tool-edge }
-energy_fuels_coal -> mining: { class: material-edge }
-energy_fuels_coke -> mining: { class: material-edge }
-energy_steam-power -> machine-tools: { class: tool-edge }
-energy_steam-power -> metals_iron-steel: { class: tool-edge }
-energy_steam-power -> machine-tools_joining: { class: tool-edge }
-energy_electric-furnaces -> machine-tools: { class: tool-edge }
+energy_steam-power_steam-turbines -> energy_steam-power: { class: tool-edge }
+energy_storage_pumped-hydro -> energy_electricity: { class: tool-edge }
+energy_storage_pumped-hydro -> energy_gravity: { class: tool-edge }
+energy_storage -> energy: { class: tool-edge }
+agriculture_hydroponic-ph-control -> energy_electricity: { class: material-edge }
+ceramics_pottery_kiln-firing -> energy_fuels_charcoal: { class: material-edge }
+chemistry_acid-regeneration -> energy_electricity: { class: material-edge }
+chemistry_air-separation -> energy_electricity: { class: material-edge }
+chemistry_ammonia -> energy: { class: material-edge }
+chemistry_e-methanol -> energy_electricity: { class: material-edge }
+chemistry_electrodialysis -> energy_blue-energy: { class: tool-edge }
+chemistry_electrodialysis -> energy_electricity: { class: material-edge }
+chemistry_electrolysis -> energy_electricity: { class: material-edge }
+chemistry_electrolysis -> energy_fuel-cell: { class: tool-edge }
+chemistry_electrolysis -> energy_redox-flow-battery: { class: tool-edge }
+chemistry_explosives -> energy_fuels_charcoal: { class: material-edge }
+chemistry_lithium-separation -> energy_electricity: { class: material-edge }
+chemistry_water-electrolysis -> energy_electricity: { class: material-edge }
+chemistry_water-electrolysis -> energy_fuel-cell: { class: material-edge }
+chemistry -> energy: { class: material-edge }
+cleanrooms -> energy: { class: tool-edge }
+computing_electromechanical -> energy_electricity: { class: material-edge }
+construction_industrial-buildings -> energy_electricity: { class: tool-edge }
+cryogenics -> energy_electricity: { class: tool-edge }
+electrochemistry -> energy_electricity: { class: tool-edge }
+electronics_electrical-systems -> energy_electricity: { class: tool-edge }
+electronics -> energy_electricity: { class: tool-edge }
+energy_cooling -> chemistry_petroleum-alternatives: { class: material-edge }
 energy_cooling -> machine-tools: { class: tool-edge }
 energy_cooling -> metals_iron-steel: { class: tool-edge }
-energy_cooling -> chemistry_petroleum-alternatives: { class: material-edge }
-chemistry_electrolysis -> energy_electricity: { class: material-edge }
-machine-tools_joining -> energy_electricity: { class: material-edge }
-chemistry -> energy: { class: material-edge }
-glass -> energy: { class: material-edge }
-gas-handling -> energy: { class: material-edge }
-silicon -> energy: { class: material-edge }
-silicon_mg-si-production -> energy_electric-furnaces: { class: tool-edge }
-chemistry_air-separation -> energy_electricity: { class: material-edge }
+energy_electric-furnaces_electrode-manufacturing -> chemistry_petroleum-alternatives: { class: material-edge }
+energy_electric-furnaces -> machine-tools: { class: tool-edge }
+energy_electricity_power-systems -> measurement: { class: tool-edge }
+energy_engine -> metals: { class: tool-edge }
+energy_engine -> petroleum_refining: { class: material-edge }
+energy_fuels_charcoal -> foundations: { class: tool-edge }
+energy_fuels_coal -> ceramics_kilns: { class: tool-edge }
+energy_fuels_coal -> mining: { class: material-edge }
+energy_fuels_coke -> ceramics_kilns: { class: tool-edge }
+energy_fuels_coke -> mining: { class: material-edge }
+energy_fuels -> foundations_fire: { class: tool-edge }
+energy_gravity_water-turbines -> machine-tools_machining: { class: tool-edge }
+energy_gravity_water-turbines -> metals_iron-steel: { class: tool-edge }
+energy_gravity -> chemistry_lubricants: { class: material-edge }
+energy_gravity -> textiles: { class: tool-edge }
+energy_steam-power_steam-turbines -> machine-tools_machining: { class: tool-edge }
+energy_steam-power_steam-turbines -> metals_alloys: { class: material-edge }
+energy_steam-power_steam-turbines -> metals_iron-steel: { class: tool-edge }
+energy_steam-power -> machine-tools_joining: { class: tool-edge }
+energy_steam-power -> machine-tools: { class: tool-edge }
+energy_steam-power -> metals_forming: { class: material-edge }
+energy_steam-power -> metals_iron-steel: { class: tool-edge }
 energy_storage -> chemistry: { class: material-edge }
 energy_storage -> metals: { class: tool-edge }
-transport -> energy: { class: material-edge }
-energy_fuels_charcoal -> foundations: { class: tool-edge }
-ceramics_pottery_kiln-firing -> energy_fuels_charcoal: { class: material-edge }
-energy_fuels -> foundations_fire: { class: tool-edge }
-machine-tools_forming -> energy_fuels: { class: material-edge }
-machine-tools_edm-cnc -> energy_electricity: { class: tool-edge }
-computing_electromechanical -> energy_electricity: { class: material-edge }
-mining_processing -> energy_fuels: { class: tool-edge }
 energy_storage -> polymers_rubber: { class: material-edge }
-energy_electricity_power-systems -> measurement: { class: tool-edge }
-transport_railways -> energy_steam-power: { class: tool-edge }
-measurement_temperature-pressure -> energy_electricity: { class: tool-edge }
-energy_engine -> metals: { class: tool-edge }
-transport_aviation -> energy_engine: { class: tool-edge }
-transport -> energy_engine: { class: tool-edge }
-energy_steam-power_steam-turbines -> metals_iron-steel: { class: tool-edge }
-energy_steam-power_steam-turbines -> machine-tools_machining: { class: tool-edge }
-energy_gravity_water-turbines -> metals_iron-steel: { class: tool-edge }
-energy_gravity_water-turbines -> machine-tools_machining: { class: tool-edge }
-energy_electric-furnaces_electrode-manufacturing -> chemistry_petroleum-alternatives: { class: material-edge }
-metals_iron-steel_blast-furnace -> energy_fuels_coke: { class: material-edge }
-transport_telegraph -> energy_electricity: { class: tool-edge }
-chemistry_explosives -> energy_fuels_charcoal: { class: material-edge }
-glass_advanced_glassblowing -> energy_fuels: { class: tool-edge }
-transport -> energy_fuels: { class: tool-edge }
-plants -> energy_fuels: { class: material-edge }
-chemistry_ammonia -> energy: { class: material-edge }
-metals_steelmaking -> energy_fuels: { class: material-edge }
-metals_aluminum -> energy_electricity: { class: tool-edge }
-metals_aluminum_semiconductor-grade -> energy_electricity: { class: tool-edge }
-energy_steam-power_steam-turbines -> metals_alloys: { class: material-edge }
-energy_steam-power -> metals_forming: { class: material-edge }
-metals_powder-metallurgy -> energy_electric-furnaces: { class: tool-edge }
-metals_alloys -> energy_fuels: { class: tool-edge }
-mining_drilling -> energy_steam-power: { class: tool-edge }
-mining_ventilation -> energy_steam-power: { class: tool-edge }
-measurement_electrical-instruments -> energy_electricity: { class: tool-edge }
-health_medical-instruments -> energy_steam-power: { class: tool-edge }
-chemistry_electrolysis -> energy_redox-flow-battery: { class: tool-edge }
-chemistry_electrolysis -> energy_fuel-cell: { class: tool-edge }
-chemistry_water-electrolysis -> energy_electricity: { class: material-edge }
-chemistry_e-methanol -> energy_electricity: { class: material-edge }
-chemistry_electrodialysis -> energy_electricity: { class: material-edge }
-water_desalination -> energy_electricity: { class: material-edge }
-agriculture_hydroponic-ph-control -> energy_electricity: { class: material-edge }
-chemistry_lithium-separation -> energy_electricity: { class: material-edge }
-chemistry_acid-regeneration -> energy_electricity: { class: material-edge }
-chemistry_water-electrolysis -> energy_fuel-cell: { class: material-edge }
-chemistry_electrodialysis -> energy_blue-energy: { class: tool-edge }
-electronics -> energy_electricity: { class: tool-edge }
-electronics_electrical-systems -> energy_electricity: { class: tool-edge }
-cleanrooms -> energy: { class: tool-edge }
-cryogenics -> energy_electricity: { class: tool-edge }
-vacuum -> energy_electricity: { class: tool-edge }
-electrochemistry -> energy_electricity: { class: tool-edge }
-petroleum_extraction_cable-tool -> energy_steam-power: { class: tool-edge }
-energy_engine -> petroleum_refining: { class: material-edge }
-construction_industrial-buildings -> energy_electricity: { class: tool-edge }
-food-processing -> energy: { class: tool-edge }
-food-processing_milling -> energy: { class: tool-edge }
+energy_wind -> chemistry_lubricants: { class: material-edge }
+energy_wind -> textiles: { class: tool-edge }
+energy -> metals: { class: tool-edge }
 food-processing_brewing -> energy: { class: tool-edge }
-telecom -> energy_electricity: { class: tool-edge }
-telecom_electric-telegraph -> energy_electricity: { class: tool-edge }
-telecom_telephone -> energy_electricity: { class: tool-edge }
-telecom_radio -> energy_electricity: { class: tool-edge }
-marine -> energy: { class: tool-edge }
-marine_propulsion -> energy_steam-power: { class: tool-edge }
-marine_propulsion -> energy_engine: { class: tool-edge }
-machine-tools_joining_tig-welding -> energy_electricity: { class: tool-edge }
+food-processing_milling -> energy: { class: tool-edge }
+food-processing -> energy: { class: tool-edge }
+gas-handling -> energy: { class: material-edge }
+glass_advanced_glassblowing -> energy_fuels: { class: tool-edge }
+glass -> energy: { class: material-edge }
+health_medical-instruments -> energy_steam-power: { class: tool-edge }
+machine-tools_edm-cnc -> energy_electricity: { class: tool-edge }
+machine-tools_forming -> energy_fuels: { class: material-edge }
+machine-tools_joining_diffusion-bonding -> energy_electric-furnaces: { class: tool-edge }
+machine-tools_joining_electron-beam -> energy_electricity: { class: tool-edge }
+machine-tools_joining_laser-welding -> energy_electricity: { class: tool-edge }
 machine-tools_joining_mig-welding -> energy_electricity: { class: tool-edge }
 machine-tools_joining_resistance-welding -> energy_electricity: { class: material-edge }
-machine-tools_joining_electron-beam -> energy_electricity: { class: tool-edge }
+machine-tools_joining_tig-welding -> energy_electricity: { class: tool-edge }
 machine-tools_joining_ultrasonic-bonding -> energy_electricity: { class: tool-edge }
-machine-tools_joining_laser-welding -> energy_electricity: { class: tool-edge }
-machine-tools_joining_diffusion-bonding -> energy_electric-furnaces: { class: tool-edge }
+machine-tools_joining -> energy_electricity: { class: material-edge }
+marine_propulsion -> energy_engine: { class: tool-edge }
+marine_propulsion -> energy_steam-power: { class: tool-edge }
+marine -> energy: { class: tool-edge }
+measurement_electrical-instruments -> energy_electricity: { class: tool-edge }
+measurement_temperature-pressure -> energy_electricity: { class: tool-edge }
+metals_alloys -> energy_fuels: { class: tool-edge }
+metals_aluminum_semiconductor-grade -> energy_electricity: { class: tool-edge }
+metals_aluminum -> energy_electricity: { class: tool-edge }
+metals_iron-steel_blast-furnace -> energy_fuels_coke: { class: material-edge }
+metals_powder-metallurgy -> energy_electric-furnaces: { class: tool-edge }
+metals_steelmaking -> energy_fuels: { class: material-edge }
+mining_drilling -> energy_steam-power: { class: tool-edge }
+mining_processing -> energy_fuels: { class: tool-edge }
+mining_ventilation -> energy_steam-power: { class: tool-edge }
+petroleum_extraction_cable-tool -> energy_steam-power: { class: tool-edge }
+plants -> energy_fuels: { class: material-edge }
+silicon_mg-si-production -> energy_electric-furnaces: { class: tool-edge }
+silicon_mg-si-production -> energy: { class: tool-edge }
+silicon_purification -> energy_electricity: { class: tool-edge }
+silicon -> energy: { class: material-edge }
+telecom_electric-telegraph -> energy_electricity: { class: tool-edge }
+telecom_radio -> energy_electricity: { class: tool-edge }
+telecom_telephone -> energy_electricity: { class: tool-edge }
+telecom -> energy_electricity: { class: tool-edge }
+transport_aviation -> energy_engine: { class: tool-edge }
+transport_railways -> energy_steam-power: { class: tool-edge }
+transport_telegraph -> energy_electricity: { class: tool-edge }
+transport -> energy_engine: { class: tool-edge }
+transport -> energy_fuels: { class: tool-edge }
+transport -> energy: { class: material-edge }
+vacuum -> energy_electricity: { class: tool-edge }
+water_desalination -> energy_electricity: { class: material-edge }
 
 # ==================== STYLING ====================
 energy.class: domain
-energy_gravity.class: capability
-energy_wind.class: capability
-energy_fuels.class: capability
+energy_blue-energy.class: capability
+energy_cooling.class: capability
+energy_electric-furnaces_electrode-manufacturing.class: process
+energy_electric-furnaces.class: capability
+energy_electricity.class: capability
+energy_electricity_power-systems.class: critical
+energy_engine.class: critical
+energy_fuel-cell.class: capability
 energy_fuels_charcoal.class: process
 energy_fuels_coal.class: process
 energy_fuels_coke.class: process
-energy_steam-power.class: capability
-energy_engine.class: critical
-energy_electricity.class: capability
-energy_electricity_power-systems.class: critical
-energy_electric-furnaces.class: capability
-energy_cooling.class: capability
-energy_storage.class: capability
-energy_steam-power_steam-turbines.class: process
+energy_fuels.class: capability
+energy_gravity.class: capability
 energy_gravity_water-turbines.class: process
-energy_storage_pumped-hydro.class: process
-energy_electric-furnaces_electrode-manufacturing.class: process
 energy_redox-flow-battery.class: capability
-energy_fuel-cell.class: capability
-energy_blue-energy.class: capability
+energy_steam-power.class: capability
+energy_steam-power_steam-turbines.class: process
+energy_storage.class: capability
+energy_storage_pumped-hydro.class: process
+energy_wind.class: capability
 agriculture_hydroponic-ph-control.class: external
 ceramics_kilns.class: external
 ceramics_pottery_kiln-firing.class: external
@@ -554,6 +559,7 @@ plants.class: external
 polymers_rubber.class: external
 silicon.class: external
 silicon_mg-si-production.class: external
+silicon_purification.class: external
 telecom.class: external
 telecom_electric-telegraph.class: external
 telecom_radio.class: external

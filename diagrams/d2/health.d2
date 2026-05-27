@@ -86,14 +86,14 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 health_internal: "Public Health, Sanitation & Medicine — Internal Structure" {
-  health_sanitation: "Water Supply & Sanitation"
-  health_medicine: "Medicine & Surgery"
-  health_pharmacology: Pharmacology
-  health_pharmaceutical-production: Pharmaceutical Production
-  health_surgery-basics: Surgery Basics
   health_diagnostics: Diagnostics
-  health_occupational-health: "Occupational Health & Industrial Hygiene"
   health_medical-instruments: Medical Instrument Manufacturing
+  health_medicine: "Medicine & Surgery"
+  health_occupational-health: "Occupational Health & Industrial Hygiene"
+  health_pharmaceutical-production: Pharmaceutical Production
+  health_pharmacology: Pharmacology
+  health_sanitation: "Water Supply & Sanitation"
+  health_surgery-basics: Surgery Basics
 }
 
 # ==================== DOMAIN NODE ====================
@@ -165,54 +165,54 @@ polymers_rubber: Rubber Production {
 }
 
 # ==================== EDGES ====================
-health_medicine -> health_sanitation: { class: tool-edge }
-health_pharmacology -> health_medicine: { class: tool-edge }
-health_occupational-health -> health: { class: tool-edge }
+health_diagnostics -> health_medical-instruments: { class: tool-edge }
+health_diagnostics -> health: { class: tool-edge }
 health_medical-instruments -> health: { class: tool-edge }
-health_surgery-basics -> health: { class: tool-edge }
+health_medicine -> health_sanitation: { class: tool-edge }
+health_occupational-health -> health: { class: tool-edge }
+health_pharmaceutical-production -> health_pharmacology: { class: tool-edge }
+health_pharmaceutical-production -> health_sanitation: { class: tool-edge }
+health_pharmacology -> health_medicine: { class: tool-edge }
 health_surgery-basics -> health_medical-instruments: { class: tool-edge }
 health_surgery-basics -> health_medicine: { class: tool-edge }
 health_surgery-basics -> health_sanitation: { class: tool-edge }
-health_diagnostics -> health: { class: tool-edge }
-health_diagnostics -> health_medical-instruments: { class: tool-edge }
-health_pharmaceutical-production -> health_pharmacology: { class: tool-edge }
-health_pharmaceutical-production -> health_sanitation: { class: tool-edge }
-health -> foundations: { class: tool-edge }
-health -> chemistry: { class: material-edge }
-health_sanitation -> ceramics: { class: tool-edge }
+health_surgery-basics -> health: { class: tool-edge }
+ehs_radiation-safety -> health_occupational-health: { class: tool-edge }
+ehs_toxicology -> health_pharmacology: { class: tool-edge }
+food-processing_dairy -> health_sanitation: { class: tool-edge }
+food-processing_preservation -> health_sanitation: { class: tool-edge }
+food-processing -> health_sanitation: { class: tool-edge }
+health_diagnostics -> chemistry: { class: tool-edge }
+health_medical-instruments -> energy_steam-power: { class: tool-edge }
+health_medical-instruments -> metals_copper-bronze: { class: material-edge }
+health_medicine -> animals_beekeeping: { class: material-edge }
 health_medicine -> knowledge_writing: { class: tool-edge }
+health_occupational-health -> chemistry_acids: { class: material-edge }
+health_pharmaceutical-production -> chemistry_distillation: { class: tool-edge }
+health_pharmacology -> animals_beekeeping: { class: material-edge }
 health_pharmacology -> chemistry_distillation: { class: tool-edge }
+health_sanitation -> ceramics: { class: tool-edge }
+health_sanitation -> foundations_water-procurement: { class: material-edge }
+health -> chemistry_ammonia: { class: material-edge }
+health -> chemistry_soap: { class: material-edge }
+health -> chemistry_solvents: { class: material-edge }
+health -> chemistry: { class: material-edge }
+health -> foundations: { class: tool-edge }
 health -> polymers_rubber: { class: material-edge }
 knowledge_writing -> health_sanitation: { class: tool-edge }
 plants_edible-plants -> health: { class: material-edge }
 plants_medicinal-plants -> health_pharmacology: { class: material-edge }
-health -> chemistry_ammonia: { class: material-edge }
-health -> chemistry_soap: { class: material-edge }
-health -> chemistry_solvents: { class: material-edge }
-health_pharmacology -> animals_beekeeping: { class: material-edge }
-health_medicine -> animals_beekeeping: { class: material-edge }
-health_sanitation -> foundations_water-procurement: { class: material-edge }
-health_occupational-health -> chemistry_acids: { class: material-edge }
-health_medical-instruments -> metals_copper-bronze: { class: material-edge }
-health_medical-instruments -> energy_steam-power: { class: tool-edge }
-food-processing -> health_sanitation: { class: tool-edge }
-food-processing_dairy -> health_sanitation: { class: tool-edge }
-food-processing_preservation -> health_sanitation: { class: tool-edge }
-health_diagnostics -> chemistry: { class: tool-edge }
-health_pharmaceutical-production -> chemistry_distillation: { class: tool-edge }
-ehs_toxicology -> health_pharmacology: { class: tool-edge }
-ehs_radiation-safety -> health_occupational-health: { class: tool-edge }
 
 # ==================== STYLING ====================
 health.class: domain
-health_sanitation.class: capability
-health_medicine.class: capability
-health_pharmacology.class: capability
-health_pharmaceutical-production.class: critical
-health_surgery-basics.class: critical
 health_diagnostics.class: capability
-health_occupational-health.class: capability
 health_medical-instruments.class: capability
+health_medicine.class: capability
+health_occupational-health.class: capability
+health_pharmaceutical-production.class: critical
+health_pharmacology.class: capability
+health_sanitation.class: capability
+health_surgery-basics.class: critical
 animals_beekeeping.class: external
 ceramics.class: external
 chemistry.class: external

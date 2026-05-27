@@ -86,12 +86,12 @@ classes: {
 
 # ==================== INTERNAL NODES ====================
 economics-organization_internal: "Economics & Organization — Internal Structure" {
-  economics-organization_division-of-labor: Division of Labor
-  economics-organization_trade: "Trade & Barter"
-  economics-organization_currency: "Currency & Standardized Exchange"
   economics-organization_accounting: "Accounting & Record-Keeping"
-  economics-organization_supply-chain: Supply Chain Coordination
+  economics-organization_currency: "Currency & Standardized Exchange"
+  economics-organization_division-of-labor: Division of Labor
   economics-organization_governance: "Governance & Institutional Design"
+  economics-organization_supply-chain: Supply Chain Coordination
+  economics-organization_trade: "Trade & Barter"
 }
 
 # ==================== DOMAIN NODE ====================
@@ -137,36 +137,36 @@ transport: "Transportation & Logistics" {
 
 # ==================== EDGES ====================
 economics-organization_accounting -> economics-organization_division-of-labor: { class: tool-edge }
-economics-organization_supply-chain -> economics-organization_accounting: { class: tool-edge }
-economics-organization_governance -> economics-organization_division-of-labor: { class: tool-edge }
 economics-organization_currency -> economics-organization_trade: { class: tool-edge }
+economics-organization_governance -> economics-organization_division-of-labor: { class: tool-edge }
+economics-organization_supply-chain -> economics-organization_accounting: { class: tool-edge }
 economics-organization_supply-chain -> economics-organization_trade: { class: tool-edge }
+construction_industrial-buildings -> economics-organization_division-of-labor: { class: tool-edge }
+defense_siege-warfare -> economics-organization_supply-chain: { class: material-edge }
+economics-organization_accounting -> knowledge_writing: { class: tool-edge }
+economics-organization_accounting -> mathematics_core-mathematics: { class: tool-edge }
+economics-organization_currency -> measurement_precision-metrology: { class: tool-edge }
+economics-organization_currency -> metals: { class: material-edge }
+economics-organization_division-of-labor -> foundations_food-agriculture: { class: material-edge }
+economics-organization_division-of-labor -> knowledge_writing: { class: tool-edge }
+economics-organization_governance -> knowledge_writing: { class: tool-edge }
+economics-organization_supply-chain -> knowledge_writing: { class: tool-edge }
+economics-organization_supply-chain -> transport: { class: tool-edge }
+economics-organization_trade -> knowledge_writing: { class: tool-edge }
+economics-organization_trade -> transport: { class: tool-edge }
 economics-organization -> foundations: { class: tool-edge }
 economics-organization -> knowledge: { class: tool-edge }
 economics-organization -> mathematics: { class: tool-edge }
-economics-organization_division-of-labor -> foundations_food-agriculture: { class: material-edge }
-economics-organization_division-of-labor -> knowledge_writing: { class: tool-edge }
-economics-organization_trade -> transport: { class: tool-edge }
-economics-organization_trade -> knowledge_writing: { class: tool-edge }
-economics-organization_currency -> metals: { class: material-edge }
-economics-organization_currency -> measurement_precision-metrology: { class: tool-edge }
-economics-organization_accounting -> mathematics_core-mathematics: { class: tool-edge }
-economics-organization_accounting -> knowledge_writing: { class: tool-edge }
-economics-organization_supply-chain -> transport: { class: tool-edge }
-economics-organization_supply-chain -> knowledge_writing: { class: tool-edge }
-economics-organization_governance -> knowledge_writing: { class: tool-edge }
-defense_siege-warfare -> economics-organization_supply-chain: { class: material-edge }
-construction_industrial-buildings -> economics-organization_division-of-labor: { class: tool-edge }
 photolithography_fab-processes -> economics-organization_supply-chain: { class: tool-edge }
 
 # ==================== STYLING ====================
 economics-organization.class: domain
-economics-organization_division-of-labor.class: earlyWin
-economics-organization_trade.class: earlyWin
-economics-organization_currency.class: capability
 economics-organization_accounting.class: capability
-economics-organization_supply-chain.class: critical
+economics-organization_currency.class: capability
+economics-organization_division-of-labor.class: earlyWin
 economics-organization_governance.class: capability
+economics-organization_supply-chain.class: critical
+economics-organization_trade.class: earlyWin
 construction_industrial-buildings.class: external
 defense_siege-warfare.class: external
 foundations.class: external

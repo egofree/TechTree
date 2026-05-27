@@ -805,6 +805,68 @@ STEP is a family of ISO standards for product data exchange, particularly 3D geo
 
 ---
 
+## 15. Wikidata Integration
+
+### 15.1 Purpose
+
+The `wikidataId` property links TechTree entities to their corresponding [Wikidata](https://www.wikidata.org/) items, enabling cross-reference with the world's largest open structured knowledge base. This linkage supports data enrichment, provenance tracking, and interoperability with other knowledge graphs.
+
+### 15.2 Format
+
+The `wikidataId` field holds a Wikidata item identifier: the letter `Q` followed by one or more digits (e.g., `Q880`, `Q11427`). The value is a plain string, not a full URI.
+
+```json
+{
+  "id": "metals.iron-steel",
+  "wikidataId": "Q11427"
+}
+```
+
+**Validation:** The field matches the pattern `^Q[0-9]+$` when present.
+
+### 15.3 Finding Q-Numbers
+
+To find the correct Wikidata Q-number for an entity:
+
+1. Go to [wikidata.org](https://www.wikidata.org/)
+2. Search for the material, process, or concept name
+3. Verify the item description matches your entity (e.g., "alloy of iron and carbon" for steel)
+4. Copy the Q-number from the item URL (e.g., `https://www.wikidata.org/wiki/Q11427` → `Q11427`)
+
+### 15.4 Conformance
+
+The `wikidataId` property is **optional** (SHOULD, not MUST). Entities without a `wikidataId` are fully conforming. When present, the value MUST be a valid Q-number matching the pattern `^Q[0-9]+$`.
+
+### 15.5 Reference Q-Numbers
+
+Common materials and their verified Wikidata Q-numbers:
+
+| Material | Q-Number | Wikidata Item |
+|----------|----------|---------------|
+| Iron | Q880 | [Iron](https://www.wikidata.org/wiki/Q880) |
+| Steel | Q11427 | [Steel](https://www.wikidata.org/wiki/Q11427) |
+| Copper | Q753 | [Copper](https://www.wikidata.org/wiki/Q753) |
+| Aluminum | Q662 | [Aluminium](https://www.wikidata.org/wiki/Q662) |
+| Glass | Q11469 | [Glass](https://www.wikidata.org/wiki/Q11469) |
+| Charcoal | Q142385 | [Charcoal](https://www.wikidata.org/wiki/Q142385) |
+| Bronze | Q847506 | [Bronze](https://www.wikidata.org/wiki/Q847506) |
+| Wood | Q175658 | [Wood](https://www.wikidata.org/wiki/Q175658) |
+| Limestone | Q23757 | [Limestone](https://www.wikidata.org/wiki/Q23757) |
+| Silicon | Q104629 | [Silicon](https://www.wikidata.org/wiki/Q104629) |
+
+### 15.6 Future Use
+
+The Wikidata linkage enables several future capabilities:
+
+- **Data enrichment**: Pulling descriptions, aliases, chemical formulas, and images from Wikidata to supplement TechTree entity records
+- **Outbound links**: Adding TechTree references to Wikidata items via the `described at URL` property, making TechTree discoverable from Wikidata
+- **Ontology mapping**: Using Wikidata's `instance of` and `subclass of` properties to align TechTree entities with external ontologies (EMMO, GPO)
+- **Multilingual support**: Leveraging Wikidata's label translations for internationalized TechTree interfaces
+
+These are design goals for future versions. This version defines only the linkage field and its validation rules.
+
+---
+
 ## Appendix A: Complete Entity Example
 
 This appendix shows a complete entity record with all populated fields, drawn from the reference implementation.

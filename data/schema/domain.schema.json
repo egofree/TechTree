@@ -101,6 +101,11 @@
       "minItems": 1,
       "uniqueItems": true
     },
+    "wikidataId": {
+      "description": "Wikidata entity identifier linking this node to the corresponding Wikidata item (e.g., 'Q880' for iron).",
+      "type": "string",
+      "pattern": "^Q[0-9]+$"
+    },
     "tags": {
       "$ref": "#/$defs/tags"
     }

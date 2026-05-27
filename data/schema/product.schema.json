@@ -42,6 +42,11 @@
       "type": "string",
       "minLength": 1
     },
+    "wikidataId": {
+      "description": "Wikidata entity identifier linking this product to the corresponding Wikidata item (e.g., 'Q880' for iron).",
+      "type": "string",
+      "pattern": "^Q[0-9]+$"
+    },
     "tags": {
       "description": "Classification tags for the product.",
       "type": "object",

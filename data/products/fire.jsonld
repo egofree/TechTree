@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fire",
+  "@type": "Product",
+  "name": "Fire",
+  "source": "foundations",
+  "tags": {
+    "material": [
+      "wood",
+      "stone",
+      "biomass"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/silicon.mg-si-production__metals",
+  "@type": "Dependency",
+  "from": "silicon.mg-si-production",
+  "to": "metals",
+  "edgeType": "tool",
+  "flow": "primary"
+}

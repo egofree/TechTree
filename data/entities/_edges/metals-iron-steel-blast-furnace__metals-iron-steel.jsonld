@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/metals.iron-steel.blast-furnace__metals.iron-steel",
+  "@type": "Dependency",
+  "from": "metals.iron-steel.blast-furnace",
+  "to": "metals.iron-steel",
+  "edgeType": "tool",
+  "flow": "primary"
+}

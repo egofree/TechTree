@@ -16,7 +16,7 @@
       ]
     },
     "@id": {
-      "description": "JSON-LD node IRI. Maps to the id field via @context.",
+      "description": "JSON-LD node IRI. Alias for id via @context mapping.",
       "type": "string"
     },
     "@type": {

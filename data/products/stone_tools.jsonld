@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "stone_tools",
+  "@type": "Product",
+  "name": "Stone Tools",
+  "source": "foundations",
+  "tags": {
+    "material": [
+      "wood",
+      "stone",
+      "biomass"
+    ]
+  }
+}

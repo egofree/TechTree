@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.petroleum-alternatives__foundations",
+  "@type": "Dependency",
+  "from": "chemistry.petroleum-alternatives",
+  "to": "foundations",
+  "edgeType": "tool",
+  "flow": "primary"
+}

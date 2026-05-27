@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/marine__foundations",
+  "@type": "Dependency",
+  "from": "marine",
+  "to": "foundations",
+  "edgeType": "tool",
+  "flow": "primary"
+}

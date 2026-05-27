@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/metals.forming__metals.aluminum",
+  "@type": "Dependency",
+  "from": "metals.forming",
+  "to": "metals.aluminum",
+  "edgeType": "material",
+  "flow": "primary"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/ceramics__foundations",
+  "@type": "Dependency",
+  "from": "ceramics",
+  "to": "foundations",
+  "edgeType": "tool",
+  "flow": "primary"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/ceramics.pottery__foundations.fire",
+  "@type": "Dependency",
+  "from": "ceramics.pottery",
+  "to": "foundations.fire",
+  "edgeType": "material",
+  "flow": "primary"
+}

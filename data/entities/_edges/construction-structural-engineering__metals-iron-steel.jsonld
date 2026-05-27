@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/construction.structural-engineering__metals.iron-steel",
+  "@type": "Dependency",
+  "from": "construction.structural-engineering",
+  "to": "metals.iron-steel",
+  "edgeType": "material",
+  "flow": "primary"
+}

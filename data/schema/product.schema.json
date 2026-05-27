@@ -16,7 +16,7 @@
       ]
     },
     "@id": {
-      "description": "JSON-LD product IRI (e.g., 'metals/iron-steel').",
+      "description": "JSON-LD product IRI. Alias for id via @context mapping.",
       "type": "string"
     },
     "@type": {
@@ -27,6 +27,11 @@
       ]
     },
 
+    "id": {
+      "description": "Product identifier (e.g., 'metals/iron-steel').",
+      "type": "string",
+      "minLength": 1
+    },
     "name": {
       "description": "Human-readable product name (e.g., 'Iron', 'Steel', 'Slag').",
       "type": "string",
@@ -77,5 +82,5 @@
     }
   },
 
-  "required": ["@id", "name", "source", "tags"]
+  "required": ["name", "source", "tags"]
 }

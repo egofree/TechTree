@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "stored_water",
+  "@type": "Product",
+  "name": "Stored Water",
+  "source": "foundations",
+  "tags": {
+    "material": [
+      "wood",
+      "stone",
+      "biomass"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fire-hardened_wood",
+  "@type": "Product",
+  "name": "Fire Hardened Wood",
+  "source": "foundations",
+  "tags": {
+    "material": [
+      "wood",
+      "stone",
+      "biomass"
+    ]
+  }
+}

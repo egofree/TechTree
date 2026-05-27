@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mg_silicon",
+  "@type": "Product",
+  "name": "Mg Silicon",
+  "source": "silicon.mg-si-production",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

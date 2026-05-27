@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/transport.telegraph__metals.iron-steel",
+  "@type": "Dependency",
+  "from": "transport.telegraph",
+  "to": "metals.iron-steel",
+  "edgeType": "material",
+  "flow": "primary"
+}

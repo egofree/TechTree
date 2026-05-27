@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "aluminum_extrusions",
+  "@type": "Product",
+  "name": "Aluminum Extrusions",
+  "source": "metals.aluminum",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "lifecycle": [
+      "recyclable",
+      "closed-loop"
+    ]
+  }
+}

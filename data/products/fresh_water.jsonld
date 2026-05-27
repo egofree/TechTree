@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fresh_water",
+  "@type": "Product",
+  "name": "Fresh Water",
+  "source": "foundations",
+  "tags": {
+    "material": [
+      "wood",
+      "stone",
+      "biomass"
+    ]
+  }
+}

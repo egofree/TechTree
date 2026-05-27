@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/metals.copper-bronze__foundations.fire",
+  "@type": "Dependency",
+  "from": "metals.copper-bronze",
+  "to": "foundations.fire",
+  "edgeType": "material",
+  "flow": "primary"
+}

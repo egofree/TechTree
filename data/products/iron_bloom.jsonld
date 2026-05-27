@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "iron_bloom",
+  "@type": "Product",
+  "name": "Iron Bloom",
+  "source": "metals.iron-steel",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ]
+  }
+}

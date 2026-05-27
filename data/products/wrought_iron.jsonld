@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "wrought_iron",
+  "@type": "Product",
+  "name": "Wrought Iron",
+  "source": "metals.iron-steel",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/machine-tools.joining__metals.iron-steel",
+  "@type": "Dependency",
+  "from": "machine-tools.joining",
+  "to": "metals.iron-steel",
+  "edgeType": "material",
+  "flow": "primary"
+}

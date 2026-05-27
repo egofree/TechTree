@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "food_surplus",
+  "@type": "Product",
+  "name": "Food Surplus",
+  "source": "foundations",
+  "tags": {
+    "material": [
+      "wood",
+      "stone",
+      "biomass"
+    ]
+  }
+}

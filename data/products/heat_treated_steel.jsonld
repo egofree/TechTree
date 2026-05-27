@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "heat_treated_steel",
+  "@type": "Product",
+  "name": "Heat Treated Steel",
+  "source": "metals.iron-steel",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ]
+  }
+}

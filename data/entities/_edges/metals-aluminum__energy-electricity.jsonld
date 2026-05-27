@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/metals.aluminum__energy.electricity",
+  "@type": "Dependency",
+  "from": "metals.aluminum",
+  "to": "energy.electricity",
+  "edgeType": "tool",
+  "flow": "primary"
+}

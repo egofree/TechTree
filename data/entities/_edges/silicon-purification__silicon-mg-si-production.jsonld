@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/silicon.purification__silicon.mg-si-production",
+  "@type": "Dependency",
+  "from": "silicon.purification",
+  "to": "silicon.mg-si-production",
+  "edgeType": "material",
+  "flow": "primary"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/textiles__foundations",
+  "@type": "Dependency",
+  "from": "textiles",
+  "to": "foundations",
+  "edgeType": "tool",
+  "flow": "primary"
+}

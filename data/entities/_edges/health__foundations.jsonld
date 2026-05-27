@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/health__foundations",
+  "@type": "Dependency",
+  "from": "health",
+  "to": "foundations",
+  "edgeType": "tool",
+  "flow": "primary"
+}

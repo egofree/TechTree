@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.fuels.charcoal__foundations",
+  "@type": "Dependency",
+  "from": "energy.fuels.charcoal",
+  "to": "foundations",
+  "edgeType": "tool",
+  "flow": "primary"
+}

@@ -16,7 +16,7 @@
       ]
     },
     "@id": {
-      "description": "JSON-LD edge IRI.",
+      "description": "JSON-LD edge IRI. Alias for id via @context mapping.",
       "type": "string"
     },
     "@type": {
@@ -27,6 +27,11 @@
       ]
     },
 
+    "id": {
+      "description": "Unique edge identifier (e.g., 'domain.capability-->domain.other').",
+      "type": "string",
+      "minLength": 1
+    },
     "from": {
       "description": "Node ID of the dependent (the technology that requires a prerequisite).",
       "type": "string",

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "aluminum_castings",
+  "@type": "Product",
+  "name": "Aluminum Castings",
+  "source": "metals.aluminum",
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "lifecycle": [
+      "recyclable",
+      "closed-loop"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "id": "metals.iron-steel",
+  "name": "Iron & Steel Production",
+  "level": "capability",
+  "parent": "metals",
+  "description": "Bloomery smelting of iron ore at 1200-1400°C producing wrought iron, carburization for steel, and crucible steel (Wootz method). Heat treatment: annealing, quenching, and tempering. This is the critical metallurgical capability that enables all subsequent domains.",
+  "timeline": "Years 5-15",
+  "outputs": [
+    "wrought_iron",
+    "steel",
+    "iron_bloom",
+    "heat_treated_steel"
+  ],
+  "critical": true,
+  "critical_note": "Iron and steel are essential for machine tool beds, cutting tools, boilers, generators, and all precision machinery",
+  "early_win": false,
+  "pinnacle": false,
+  "tags": {
+    "material": [
+      "metals"
+    ],
+    "capability": [],
+    "era": "iron-age",
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "critical": true,
+    "early-win": false,
+    "pinnacle": false
+  }
+}

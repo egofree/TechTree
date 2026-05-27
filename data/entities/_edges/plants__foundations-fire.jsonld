@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/plants__foundations.fire",
+  "@type": "Dependency",
+  "from": "plants",
+  "to": "foundations.fire",
+  "edgeType": "tool",
+  "flow": "primary"
+}

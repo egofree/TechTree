@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/foundations.water-procurement__foundations",
+  "@type": "Dependency",
+  "from": "foundations.water-procurement",
+  "to": "foundations",
+  "edgeType": "tool",
+  "flow": "primary"
+}

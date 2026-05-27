@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "raw_materials",
+  "@type": "Product",
+  "name": "Raw Materials",
+  "source": "foundations",
+  "tags": {
+    "material": [
+      "wood",
+      "stone",
+      "biomass"
+    ]
+  }
+}

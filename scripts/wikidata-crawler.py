@@ -12,6 +12,29 @@ Usage (run from scripts/ directory):
     python wikidata-crawler.py enrich
     python wikidata-crawler.py apply ../data/wikidata-matches-reviewed.tsv
     python wikidata-crawler.py stub [--entity <id>] [--dry-run]
+
+Workflow:
+    1. Search:  python wikidata-crawler.py search --output ../data/wikidata-matches.tsv
+    2. Review:  Open TSV in spreadsheet, set status to 'approved' or 'rejected'
+    3. Apply:   python wikidata-crawler.py apply ../data/wikidata-matches-reviewed.tsv
+    4. Enrich:  python wikidata-crawler.py enrich
+    5. Stub:    python wikidata-crawler.py stub [--entity <id>]
+
+Scoring weights:
+    W_NAME = 0.4  (token overlap between entity name and candidate label)
+    W_DESC = 0.3  (keyword overlap between entity and candidate descriptions)
+    W_TAG  = 0.3  (tag tokens found in candidate description)
+
+TSV columns:
+    entity_id, entity_name, domain, candidate_qid, candidate_label,
+    candidate_description, confidence_score, match_reason, status
+
+Status values:
+    existing  — entity already has a wikidataId
+    pending   — awaiting human review
+    approved  — human-confirmed match (apply mode will write it)
+    rejected  — human-rejected match
+    no_match  — Wikidata search returned zero results
 """
 
 import argparse

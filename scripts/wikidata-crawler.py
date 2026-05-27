@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
-"""Wikidata crawler for TechTree — search and enrichment modes.
+"""Wikidata crawler for TechTree — search, enrichment, apply, and stub modes.
 
-Searches Wikidata for entities matching bootciv capabilities/processes,
-scores candidates, and outputs a TSV file for human review.  Also provides
-an enrichment mode for building a multilingual alias/description cache.
+Modes:
+    search  — search Wikidata for entities, output scored TSV for review
+    enrich  — build multilingual alias/description cache for entities with Q-IDs
+    apply   — write approved Q-IDs from reviewed TSV into entity files
+    stub    — pre-fill descriptions from enrichment cache
 
 Usage (run from scripts/ directory):
-    python wikidata-crawler.py search --output /tmp/wikidata-results.tsv
+    python wikidata-crawler.py search --output ../data/wikidata-matches.tsv
     python wikidata-crawler.py enrich
+    python wikidata-crawler.py apply ../data/wikidata-matches-reviewed.tsv
+    python wikidata-crawler.py stub [--entity <id>] [--dry-run]
 """
 
 import argparse
@@ -18,7 +22,7 @@ import os
 import re
 import sys
 
-from lib.tt_data import load_all_entities
+from lib.tt_data import load_all_entities, load_entity, save_entity
 from lib.wikidata_client import WikidataClient
 
 
@@ -333,6 +337,168 @@ def run_search(args):
 
 
 # ---------------------------------------------------------------------------
+# Apply mode
+# ---------------------------------------------------------------------------
+
+def run_apply(args):
+    """Read approved TSV and write wikidataId to entity files."""
+    tsv_path = args.tsv_path
+    dry_run = args.dry_run
+
+    if not os.path.isfile(tsv_path):
+        print("ERROR: TSV file not found: {}".format(tsv_path), file=sys.stderr)
+        sys.exit(1)
+
+    applied = 0
+    skipped_has_id = 0
+    skipped_status = 0
+    errors = 0
+
+    with open(tsv_path, "r", encoding="utf-8") as fh:
+        reader = csv.DictReader(fh, delimiter="\t", fieldnames=TSV_COLUMNS)
+
+        header = next(reader, None)
+        if header and header.get("entity_id") == "entity_id":
+            pass
+        elif header:
+            fh.seek(0)
+            reader = csv.DictReader(fh, delimiter="\t", fieldnames=TSV_COLUMNS)
+
+        for row in reader:
+            entity_id = row.get("entity_id", "")
+            status = row.get("status", "")
+            candidate_qid = row.get("candidate_qid", "")
+
+            # Only process approved rows
+            if status != "approved":
+                skipped_status += 1
+                continue
+
+            # Validate Q-ID format
+            if not re.match(r"^Q[0-9]+$", candidate_qid):
+                print("  ERROR: invalid Q-ID '{}' for {}".format(
+                    candidate_qid, entity_id), file=sys.stderr)
+                errors += 1
+                continue
+
+            # Load entity
+            entity = load_entity(entity_id)
+            if entity is None:
+                print("  ERROR: entity not found: {}".format(entity_id), file=sys.stderr)
+                errors += 1
+                continue
+
+            # Guard against overwrite
+            if "wikidataId" in entity:
+                print("  SKIP {} — already has wikidataId ({})".format(
+                    entity_id, entity["wikidataId"]), file=sys.stderr)
+                skipped_has_id += 1
+                continue
+
+            if dry_run:
+                print("  [DRY-RUN] Would set {} wikidataId = {}".format(
+                    entity_id, candidate_qid), file=sys.stderr)
+            else:
+                entity["wikidataId"] = candidate_qid
+                save_entity(entity)
+                print("  APPLIED {} wikidataId = {}".format(
+                    entity_id, candidate_qid), file=sys.stderr)
+
+            applied += 1
+
+    # --- Summary ---
+    print("", file=sys.stderr)
+    print("=== Apply Summary ===", file=sys.stderr)
+    print("  Applied:          {}".format(applied), file=sys.stderr)
+    print("  Skipped (status): {}".format(skipped_status), file=sys.stderr)
+    print("  Skipped (has ID): {}".format(skipped_has_id), file=sys.stderr)
+    print("  Errors:           {}".format(errors), file=sys.stderr)
+    if dry_run:
+        print("  (dry-run mode — no files modified)", file=sys.stderr)
+
+
+# ---------------------------------------------------------------------------
+# Stub mode
+# ---------------------------------------------------------------------------
+
+def run_stub(args):
+    """Pre-fill descriptions from enrichment cache for entities without descriptions."""
+    dry_run = args.dry_run
+    entity_filter = args.entity
+
+    # Load enrichment cache
+    if not os.path.isfile(ENRICHMENT_PATH):
+        print("ERROR: enrichment cache not found: {}".format(ENRICHMENT_PATH), file=sys.stderr)
+        sys.exit(1)
+
+    with open(ENRICHMENT_PATH, "r", encoding="utf-8") as fh:
+        cache = json.load(fh)
+
+    cache_entities = cache.get("entities", {})
+
+    # Determine which entities to process
+    if entity_filter:
+        target_ids = [entity_filter]
+    else:
+        # All entity IDs in cache that have a wikidataId
+        target_ids = [
+            eid for eid, data in cache_entities.items()
+            if "wikidataId" in data
+        ]
+
+    filled = 0
+    skipped_has_desc = 0
+    not_found = 0
+
+    for eid in target_ids:
+        cache_entry = cache_entities.get(eid)
+        if cache_entry is None:
+            print("  SKIP {} — not in enrichment cache".format(eid), file=sys.stderr)
+            not_found += 1
+            continue
+
+        # Get English description from cache
+        en_desc = cache_entry.get("descriptions", {}).get("en", "")
+        if not en_desc:
+            print("  SKIP {} — no English description in cache".format(eid), file=sys.stderr)
+            not_found += 1
+            continue
+
+        # Load entity
+        entity = load_entity(eid)
+        if entity is None:
+            print("  SKIP {} — entity file not found".format(eid), file=sys.stderr)
+            not_found += 1
+            continue
+
+        # Skip entities that already have a description
+        if "description" in entity and entity["description"]:
+            print("  SKIP {} — already has description".format(eid), file=sys.stderr)
+            skipped_has_desc += 1
+            continue
+
+        if dry_run:
+            print("  [DRY-RUN] Would set {} description = {}".format(
+                eid, en_desc[:80]), file=sys.stderr)
+        else:
+            entity["description"] = en_desc
+            save_entity(entity)
+            print("  FILLED {} description = {}".format(
+                eid, en_desc[:80]), file=sys.stderr)
+
+        filled += 1
+
+    # --- Summary ---
+    print("", file=sys.stderr)
+    print("=== Stub Summary ===", file=sys.stderr)
+    print("  Filled:                 {}".format(filled), file=sys.stderr)
+    print("  Skipped (has desc):     {}".format(skipped_has_desc), file=sys.stderr)
+    print("  Not found / no en desc: {}".format(not_found), file=sys.stderr)
+    if dry_run:
+        print("  (dry-run mode — no files modified)", file=sys.stderr)
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
@@ -354,7 +520,31 @@ def main():
         help="Output TSV file path",
     )
 
-    # (apply, stub subcommands added in later tasks)
+    # apply subcommand
+    apply_parser = subparsers.add_parser(
+        "apply", help="Apply approved Q-IDs from reviewed TSV to entity files",
+    )
+    apply_parser.add_argument(
+        "tsv_path",
+        help="Path to reviewed TSV file",
+    )
+    apply_parser.add_argument(
+        "--dry-run", action="store_true",
+        help="Print what would be done without modifying files",
+    )
+
+    # stub subcommand
+    stub_parser = subparsers.add_parser(
+        "stub", help="Pre-fill descriptions from enrichment cache",
+    )
+    stub_parser.add_argument(
+        "--entity",
+        help="Process a single entity by ID (default: all entities in cache)",
+    )
+    stub_parser.add_argument(
+        "--dry-run", action="store_true",
+        help="Print what would be done without modifying files",
+    )
 
     args = parser.parse_args()
 
@@ -362,6 +552,10 @@ def main():
         run_enrich()
     elif args.mode == "search":
         run_search(args)
+    elif args.mode == "apply":
+        run_apply(args)
+    elif args.mode == "stub":
+        run_stub(args)
     else:
         parser.print_help()
         sys.exit(1)

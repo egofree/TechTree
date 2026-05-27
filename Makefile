@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 .SHELLFLAGS := -ec
 
-.PHONY: all validate diagrams d2-diagrams build validate-site test clean help
+.PHONY: all validate diagrams d2-diagrams build validate-site test clean help wikidata-search wikidata-apply wikidata-enrich
 
 help: ## Show this help message
 	@echo "bootciv tech-tree-bootstrap — available targets:"
@@ -32,3 +32,12 @@ test: ## Run conformance test suite
 clean: ## Remove generated site/ and rendered diagrams
 	rm -rf site/
 	rm -rf diagrams/rendered/
+
+wikidata-search: ## Search Wikidata for entity Q-IDs, output scored TSV
+	cd scripts && python3 wikidata-crawler.py search --output ../data/wikidata-matches.tsv
+
+wikidata-apply: ## Apply approved Q-IDs from reviewed TSV to entity files
+	cd scripts && python3 wikidata-crawler.py apply ../data/wikidata-matches-reviewed.tsv
+
+wikidata-enrich: ## Build multilingual enrichment cache from Wikidata
+	cd scripts && python3 wikidata-crawler.py enrich

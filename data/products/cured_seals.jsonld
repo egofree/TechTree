@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cured_seals",
+  "@type": "Product",
+  "name": "Cured Seals",
+  "source": "polymers.rubber.vulcanization",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

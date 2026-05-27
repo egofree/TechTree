@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "lithography_tools",
+  "@type": "Product",
+  "name": "Lithography Tools",
+  "source": "photolithography",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

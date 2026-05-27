@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tool_steel",
+  "@type": "Product",
+  "name": "Tool Steel",
+  "source": "metals.alloys",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

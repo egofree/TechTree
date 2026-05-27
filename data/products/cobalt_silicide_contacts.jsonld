@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cobalt_silicide_contacts",
+  "@type": "Product",
+  "name": "Cobalt Silicide Contacts",
+  "source": "metals.refractory-specialty",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

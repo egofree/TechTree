@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/polymers.thermoplastics__chemistry.petroleum-alternatives",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "polymers.thermoplastics",
+  "to": "chemistry.petroleum-alternatives"
+}

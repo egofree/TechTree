@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ethanol",
+  "@type": "Product",
+  "name": "Ethanol",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

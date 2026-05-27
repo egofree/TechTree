@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.water-electrolysis__chemistry.e-methanol",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "chemistry.water-electrolysis",
+  "to": "chemistry.e-methanol"
+}

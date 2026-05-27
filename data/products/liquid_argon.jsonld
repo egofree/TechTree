@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "liquid_argon",
+  "@type": "Product",
+  "name": "Liquid Argon",
+  "source": "cryogenics",
+  "tags": {
+    "capability": [
+      "cooling"
+    ],
+    "material": [
+      "gases"
+    ]
+  }
+}

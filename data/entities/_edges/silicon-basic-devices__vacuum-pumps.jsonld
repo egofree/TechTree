@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/silicon.basic-devices__vacuum.pumps",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "silicon.basic-devices",
+  "to": "vacuum.pumps"
+}

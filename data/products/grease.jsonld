@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "grease",
+  "@type": "Product",
+  "name": "Grease",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

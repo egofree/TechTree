@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vacuum_pumps",
+  "@type": "Product",
+  "name": "Vacuum Pumps",
+  "source": "gas-handling.vacuum",
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "material": []
+  }
+}

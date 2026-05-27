@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/metals__chemistry.refractories",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "metals",
+  "to": "chemistry.refractories"
+}

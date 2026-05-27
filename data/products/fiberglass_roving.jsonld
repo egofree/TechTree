@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fiberglass_roving",
+  "@type": "Product",
+  "name": "Fiberglass Roving",
+  "source": "glass.fibers",
+  "tags": {
+    "material": [
+      "glass"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/polymers.composites__glass.fibers",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "polymers.composites",
+  "to": "glass.fibers"
+}

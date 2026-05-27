@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "seam_welds",
+  "@type": "Product",
+  "name": "Seam Welds",
+  "source": "machine-tools.joining.resistance-welding",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

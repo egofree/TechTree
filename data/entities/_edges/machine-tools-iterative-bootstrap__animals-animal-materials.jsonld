@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/machine-tools.iterative-bootstrap__animals.animal-materials",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "machine-tools.iterative-bootstrap",
+  "to": "animals.animal-materials"
+}

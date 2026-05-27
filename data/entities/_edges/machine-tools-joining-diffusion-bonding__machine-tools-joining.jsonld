@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/machine-tools.joining.diffusion-bonding__machine-tools.joining",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "machine-tools.joining.diffusion-bonding",
+  "to": "machine-tools.joining"
+}

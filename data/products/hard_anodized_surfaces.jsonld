@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hard_anodized_surfaces",
+  "@type": "Product",
+  "name": "Hard Anodized Surfaces",
+  "source": "electrochemistry",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals",
+      "chemicals"
+    ]
+  }
+}

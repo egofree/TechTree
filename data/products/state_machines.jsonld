@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "state_machines",
+  "@type": "Product",
+  "name": "State Machines",
+  "source": "computing.digital-logic",
+  "tags": {
+    "material": []
+  }
+}

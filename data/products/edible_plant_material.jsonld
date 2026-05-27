@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "edible_plant_material",
+  "@type": "Product",
+  "name": "Edible Plant Material",
+  "source": "plants.edible-plants.allium-ampeloprasum",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

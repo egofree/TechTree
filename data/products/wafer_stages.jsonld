@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "wafer_stages",
+  "@type": "Product",
+  "name": "Wafer Stages",
+  "source": "precision-motion",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

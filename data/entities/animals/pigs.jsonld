@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Raising domesticated pigs (Sus scrofa domesticus) for pork, lard, and waste disposal. Pigs convert feed to carcass more efficiently than cattle or sheep (70-80% dressed yield), consume food waste and crop residues other livestock reject, and produce 8-12 piglets per litter. The most productive omnivore in the livestock stable.",
+  "early_win": true,
+  "early_win_note": "Market weight (90-110 kg) at 5-7 months. Pigs convert kitchen waste and crop residues into meat and lard, closing the food waste loop.",
+  "id": "animals.pigs",
+  "level": "capability",
+  "name": "Pig Husbandry",
+  "outputs": [
+    "pork",
+    "lard",
+    "manure",
+    "waste_disposal"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "lifecycle": [
+      "waste-source",
+      "waste-sink"
+    ],
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 1-20+"
+}

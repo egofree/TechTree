@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/knowledge.printing__metals.iron-steel",
   "@type": "Dependency",
-  "from": "knowledge.printing",
-  "to": "metals.iron-steel",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "knowledge.printing",
+  "to": "metals.iron-steel"
 }

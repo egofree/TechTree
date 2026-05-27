@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hermetic_seals",
+  "@type": "Product",
+  "name": "Hermetic Seals",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

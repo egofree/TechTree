@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Nanometer-precision positioning, wafer stages, vibration isolation, and encoder feedback systems for semiconductor lithography and metrology equipment. Distinct from machine tools (which shape material) — precision motion controls position with nanometer accuracy using piezo actuators, air bearings, linear motors, laser interferometers, and active vibration cancellation. Organized by precision ladder: from micrometer linear stages to sub-5 nm wafer scanner positioning.",
+  "early_win": false,
+  "id": "precision-motion",
+  "level": "domain",
+  "name": "Precision Motion Control",
+  "outputs": [
+    "nano_positioning_stages",
+    "wafer_stages",
+    "reticle_stages",
+    "scanner_systems",
+    "vibration_isolation_systems",
+    "laser_interferometers",
+    "optical_encoders",
+    "encoder_feedback_systems"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 35-80"
+}

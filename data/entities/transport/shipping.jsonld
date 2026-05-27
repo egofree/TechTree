@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Water transport: boats, barges, canals, and maritime shipping infrastructure.",
+  "early_win": false,
+  "id": "transport.shipping",
+  "level": "capability",
+  "name": "Water Transport",
+  "outputs": [
+    "canals",
+    "water_transport"
+  ],
+  "parent": "transport",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-50+"
+}

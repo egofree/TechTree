@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ppe_programs",
+  "@type": "Product",
+  "name": "Ppe Programs",
+  "source": "ehs.ppe",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "polymers"
+    ]
+  }
+}

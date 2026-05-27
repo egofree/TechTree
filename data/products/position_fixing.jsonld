@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "position_fixing",
+  "@type": "Product",
+  "name": "Position Fixing",
+  "source": "marine.navigation",
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "material": [
+      "metals",
+      "glass"
+    ]
+  }
+}

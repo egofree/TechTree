@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Artemisia douglasiana , known as California mugwort , Douglas's sagewort , or dream plant , is a western North American species of aromatic herb in the sunflower family",
+  "early_win": false,
+  "id": "plants.medicinal-plants.artemisia-douglasiana",
+  "level": "process",
+  "name": "Artemisia douglasiana",
+  "outputs": [
+    "medicinal_compounds"
+  ],
+  "parent": "plants.medicinal-plants",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant.medicinal.artemisia-douglasiana"
+  ],
+  "timeline": "Years 0-10"
+}

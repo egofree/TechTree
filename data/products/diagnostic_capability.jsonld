@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "diagnostic_capability",
+  "@type": "Product",
+  "name": "Diagnostic Capability",
+  "source": "health.diagnostics",
+  "tags": {
+    "capability": [
+      "health",
+      "measurement"
+    ],
+    "material": []
+  }
+}

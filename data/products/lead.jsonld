@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "lead",
+  "@type": "Product",
+  "name": "Lead",
+  "source": "metals.non-ferrous",
+  "tags": {
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

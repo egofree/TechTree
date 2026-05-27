@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/machine-tools.machining__machine-tools.bearings-abrasives",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "machine-tools.machining",
+  "to": "machine-tools.bearings-abrasives"
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fiberglass_insulation",
+  "@type": "Product",
+  "name": "Fiberglass Insulation",
+  "source": "glass.fibers",
+  "tags": {
+    "material": [
+      "glass"
+    ]
+  }
+}

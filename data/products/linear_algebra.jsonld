@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "linear_algebra",
+  "@type": "Product",
+  "name": "Linear Algebra",
+  "source": "mathematics.applied-mathematics",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

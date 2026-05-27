@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/glass.advanced.glassblowing__glass.advanced",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "glass.advanced.glassblowing",
+  "to": "glass.advanced"
+}

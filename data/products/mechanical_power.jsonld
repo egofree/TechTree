@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mechanical_power",
+  "@type": "Product",
+  "name": "Mechanical Power",
+  "source": "energy.engine",
+  "tags": {
+    "capability": [
+      "energy",
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

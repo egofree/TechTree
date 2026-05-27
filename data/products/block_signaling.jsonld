@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "block_signaling",
+  "@type": "Product",
+  "name": "Block Signaling",
+  "source": "transport.telegraph",
+  "tags": {
+    "capability": [
+      "energy",
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

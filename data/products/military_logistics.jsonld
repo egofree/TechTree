@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "military_logistics",
+  "@type": "Product",
+  "name": "Military Logistics",
+  "source": "defense",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "metals",
+      "wood",
+      "stone"
+    ]
+  }
+}

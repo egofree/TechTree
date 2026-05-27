@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "radiation_protection",
+  "@type": "Product",
+  "name": "Radiation Protection",
+  "source": "ehs.radiation-safety",
+  "tags": {
+    "capability": [
+      "health",
+      "measurement"
+    ],
+    "material": []
+  }
+}

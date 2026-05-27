@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fluorine",
+  "@type": "Product",
+  "name": "Fluorine",
+  "source": "chemistry.dopant-etch-gases",
+  "tags": {
+    "material": [
+      "gases",
+      "chemicals"
+    ]
+  }
+}

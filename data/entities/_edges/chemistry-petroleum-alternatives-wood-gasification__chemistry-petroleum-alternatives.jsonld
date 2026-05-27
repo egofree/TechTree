@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.petroleum-alternatives.wood-gasification__chemistry.petroleum-alternatives",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "chemistry.petroleum-alternatives.wood-gasification",
+  "to": "chemistry.petroleum-alternatives"
+}

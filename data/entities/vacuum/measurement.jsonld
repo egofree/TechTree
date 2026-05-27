@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Pressure gauges: capacitance diaphragm (760-10⁻⁴ Torr, gas-independent), Pirani (10-10⁻³ Torr), Bayard-Alpert ion gauge (10⁻³-10⁻¹¹ Torr), Penning cold cathode (10⁻³-10⁻⁷ Torr). Residual gas analyzers (RGA, 1-200 amu) for contamination identification and leak detection. Helium mass spectrometer leak detection (10⁻¹² atm·cc/s). Pump-down curve diagnostics and RGA fingerprint interpretation.",
+  "early_win": false,
+  "id": "vacuum.measurement",
+  "level": "capability",
+  "name": "Vacuum Measurement & Leak Detection",
+  "outputs": [
+    "pressure_gauges",
+    "rga_analysis",
+    "leak_detection",
+    "vacuum_diagnostics"
+  ],
+  "parent": "vacuum",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "vacuum",
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40"
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Voice communication over wire: Bell electromagnetic telephone, Edison carbon microphone, magneto ringers, manual switchboard (cord board) exchanges, and Strowger automatic step-by-step exchange (1889). The Strowger exchange eliminates human operators, enabling private dialing. Capacity: 100-10,000 subscriber lines per exchange. Loading coils extend effective range from 30 km to 150+ km.",
+  "early_win": false,
+  "id": "telecom.telephone",
+  "level": "capability",
+  "name": "Telephone Systems",
+  "outputs": [
+    "telephone_service",
+    "telephone_exchanges",
+    "voice_communication"
+  ],
+  "parent": "telecom",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-50"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "workplace_safety",
+  "@type": "Product",
+  "name": "Workplace Safety",
+  "source": "health.occupational-health",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": []
+  }
+}

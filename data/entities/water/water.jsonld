@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Water supply, purification, desalination, and hydraulic systems. Clean water is fundamental to agriculture, sanitation, and industrial processes — every stage of civilization bootstrapping depends on reliable water access.",
+  "early_win": false,
+  "id": "water",
+  "level": "domain",
+  "name": "Water",
+  "outputs": [
+    "fresh_water",
+    "irrigation",
+    "water_distribution"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-50+"
+}

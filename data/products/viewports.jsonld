@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "viewports",
+  "@type": "Product",
+  "name": "Viewports",
+  "source": "vacuum.chambers",
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "material": []
+  }
+}

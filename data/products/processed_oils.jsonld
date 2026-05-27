@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "processed_oils",
+  "@type": "Product",
+  "name": "Processed Oils",
+  "source": "food-processing",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "biomass",
+      "water"
+    ]
+  }
+}

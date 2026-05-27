@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vessels",
+  "@type": "Product",
+  "name": "Vessels",
+  "source": "marine",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "wood",
+      "metals",
+      "fibers"
+    ]
+  }
+}

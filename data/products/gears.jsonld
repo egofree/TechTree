@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "gears",
+  "@type": "Product",
+  "name": "Gears",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "welded_joints",
+  "@type": "Product",
+  "name": "Welded Joints",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

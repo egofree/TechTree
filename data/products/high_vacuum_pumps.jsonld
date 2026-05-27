@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "high_vacuum_pumps",
+  "@type": "Product",
+  "name": "High Vacuum Pumps",
+  "source": "vacuum.pumps",
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Production of metallurgical-grade silicon, purification to semiconductor grade, Czochralski crystal growth, wafer slicing and polishing, and fabrication of basic solar cells and semiconductor devices. Solar cells are the primary early target — far simpler than logic chips and creating a critical positive feedback loop.",
+  "early_win": true,
+  "early_win_note": "Solar cells produce power to make more solar cells — the most important positive feedback loop in the entire tech tree",
+  "id": "silicon",
+  "level": "domain",
+  "name": "Silicon",
+  "outputs": [
+    "mg_silicon",
+    "purified_silicon",
+    "single_crystal_ingots",
+    "wafers",
+    "solar_cells",
+    "diodes",
+    "transistors"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "electronic",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

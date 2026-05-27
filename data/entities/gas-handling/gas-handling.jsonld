@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Gas compression, storage, purification, and vacuum systems. Spans basic gas handling with piping and compression, through vacuum pumps and chambers, to leak detection and controlled atmosphere environments. Essential for semiconductor fabrication processes requiring inert atmospheres, vacuum deposition, and precise gas delivery.",
+  "early_win": false,
+  "id": "gas-handling",
+  "level": "domain",
+  "name": "Gas Handling",
+  "outputs": [
+    "gas_handling",
+    "compressed_gases",
+    "purified_gases",
+    "vacuum_pumps",
+    "vacuum_chambers",
+    "vacuum_measurement",
+    "leak_detection"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40"
+}

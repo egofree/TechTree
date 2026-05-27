@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "dosimetry",
+  "@type": "Product",
+  "name": "Dosimetry",
+  "source": "ehs.radiation-safety",
+  "tags": {
+    "capability": [
+      "health",
+      "measurement"
+    ],
+    "material": []
+  }
+}

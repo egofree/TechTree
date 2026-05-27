@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Factory building design for heavy industry: steel-frame and reinforced concrete industrial buildings, foundation design for heavy machinery (machine tools, forge hammers, stamping presses), vibration isolation (inertia blocks, isolation pads, spring mounts), floor loading (point loads, distributed loads, dynamic loads from machinery), crane runway design, and industrial roofing (clear spans, monitoring systems).",
+  "early_win": false,
+  "id": "construction.industrial-buildings",
+  "level": "capability",
+  "name": "Industrial Buildings & Heavy Foundations",
+  "outputs": [
+    "industrial_facilities",
+    "machine_foundations",
+    "vibration_isolation",
+    "crane_runways",
+    "factory_floors"
+  ],
+  "parent": "construction",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "stone"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-40"
+}

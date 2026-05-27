@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "silicon_nitride",
+  "@type": "Product",
+  "name": "Silicon Nitride",
+  "source": "ceramics.advanced-ceramics",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "ceramics"
+    ]
+  }
+}

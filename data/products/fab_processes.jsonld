@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fab_processes",
+  "@type": "Product",
+  "name": "Fab Processes",
+  "source": "photolithography",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

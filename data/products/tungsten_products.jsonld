@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tungsten_products",
+  "@type": "Product",
+  "name": "Tungsten Products",
+  "source": "metals.powder-metallurgy",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

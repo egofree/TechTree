@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "harbor_works",
+  "@type": "Product",
+  "name": "Harbor Works",
+  "source": "marine",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "wood",
+      "metals",
+      "fibers"
+    ]
+  }
+}

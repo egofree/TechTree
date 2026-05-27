@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "getter_materials",
+  "@type": "Product",
+  "name": "Getter Materials",
+  "source": "ceramics.electronic-ceramics",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "ceramics"
+    ]
+  }
+}

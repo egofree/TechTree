@@ -1,0 +1,36 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Voltaic piles and Daniell cells, wire drawing, generators (Faraday magneto → self-exciting dynamo), DC and AC motors, transformers for voltage step-up/step-down, power distribution (AC wins long-term), and clean power systems for semiconductor fabrication (UPS, backup generators, PDUs, power quality monitoring). Copper wire gauge reference and motor/generator sizing included.",
+  "early_win": false,
+  "id": "energy.electricity",
+  "level": "capability",
+  "name": "Electricity Generation & Distribution",
+  "outputs": [
+    "generators",
+    "motors",
+    "transformers",
+    "wire_cables",
+    "electricity",
+    "insulated_wire",
+    "clean_power_systems",
+    "ups_systems",
+    "backup_generators",
+    "power_distribution_units",
+    "power_quality_monitoring"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

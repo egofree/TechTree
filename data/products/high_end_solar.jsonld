@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "high_end_solar",
+  "@type": "Product",
+  "name": "High End Solar",
+  "source": "vlsi-scaling",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

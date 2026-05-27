@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Piping, valves, and pumps for corrosive service, gas compression and storage, and purification by scrubbing, molecular sieves, and catalytic getters. Provides the gas distribution infrastructure needed across chemical processing and semiconductor fabrication.",
+  "early_win": false,
+  "id": "gas-handling.basic",
+  "level": "capability",
+  "name": "Basic Gas Handling",
+  "outputs": [
+    "gas_handling",
+    "compressed_gases",
+    "purified_gases"
+  ],
+  "parent": "gas-handling",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-35"
+}

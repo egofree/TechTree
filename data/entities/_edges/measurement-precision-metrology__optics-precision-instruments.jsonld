@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/measurement.precision-metrology__optics.precision-instruments",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "measurement.precision-metrology",
+  "to": "optics.precision-instruments"
+}

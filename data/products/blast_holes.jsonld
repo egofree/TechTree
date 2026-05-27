@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "blast_holes",
+  "@type": "Product",
+  "name": "Blast Holes",
+  "source": "mining.drilling",
+  "tags": {
+    "material": []
+  }
+}

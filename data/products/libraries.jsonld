@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "libraries",
+  "@type": "Product",
+  "name": "Libraries",
+  "source": "knowledge",
+  "tags": {
+    "material": []
+  }
+}

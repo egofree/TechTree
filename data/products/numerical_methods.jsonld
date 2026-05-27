@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "numerical_methods",
+  "@type": "Product",
+  "name": "Numerical Methods",
+  "source": "mathematics.applied-mathematics",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pvc",
+  "@type": "Product",
+  "name": "Pvc",
+  "source": "polymers.thermoplastics",
+  "tags": {
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "polymers"
+    ]
+  }
+}

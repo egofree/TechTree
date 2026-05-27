@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "submarine_cables",
+  "@type": "Product",
+  "name": "Submarine Cables",
+  "source": "marine",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "wood",
+      "metals",
+      "fibers"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/textiles__chemistry.pulp-chemicals",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "textiles",
+  "to": "chemistry.pulp-chemicals"
+}

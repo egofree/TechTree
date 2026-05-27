@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sulfur",
+  "@type": "Product",
+  "name": "Sulfur",
+  "source": "mining",
+  "tags": {
+    "material": [
+      "stone",
+      "metals"
+    ]
+  }
+}

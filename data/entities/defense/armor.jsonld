@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Personal and structural armor progression: leather (3-5 mm rawhide, ~30% cut resistance), scale and lamellar (overlapping bronze or iron plates 1-2 mm, 30-40% weight reduction vs plate), mail (riveted iron rings, 8-10 mm internal diameter, 1.5-2.0 mm wire gauge, defeats slashing), plate armor (1.5-3.0 mm tempered steel, ~20-25 kg full harness). Shield types and construction included. Cross-reference metals/iron-steel.md for heat treatment.",
+  "early_win": false,
+  "id": "defense.armor",
+  "level": "capability",
+  "name": "Armor & Protective Systems",
+  "outputs": [
+    "armor",
+    "helmets",
+    "shields",
+    "body_armor",
+    "plate_armor"
+  ],
+  "parent": "defense",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "metals",
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30+"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "aircraft_engines",
+  "@type": "Product",
+  "name": "Aircraft Engines",
+  "source": "transport",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": []
+  }
+}

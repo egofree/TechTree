@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cleanroom_robots",
+  "@type": "Product",
+  "name": "Cleanroom Robots",
+  "source": "automation.wafer-handling",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": true,
+  "critical_note": "Semiconductor fabrication tools cannot tolerate voltage sags >10% or interruptions >0.5 cycle — a single power quality event destroys expensive work-in-progress",
+  "description": "Ultra-clean power delivery for semiconductor fabs: voltage sag <10%, THD <3%, UPS systems (double-conversion, rotary), backup generators (diesel, fuel cells), power distribution units (PDUs), busway systems, power quality monitoring, and redundancy configurations (2N, N+1). Semiconductor tools require power quality far exceeding general industrial standards.",
+  "early_win": false,
+  "id": "energy.electricity.power-systems",
+  "level": "process",
+  "name": "Electric Power Systems for Semiconductor Fabrication",
+  "outputs": [
+    "clean_power_systems",
+    "ups_systems",
+    "backup_generators",
+    "power_distribution_units",
+    "power_quality_monitoring"
+  ],
+  "parent": "energy.electricity",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-100"
+}

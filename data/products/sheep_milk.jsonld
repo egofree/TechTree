@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sheep_milk",
+  "@type": "Product",
+  "name": "Sheep Milk",
+  "source": "animals.sheep",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

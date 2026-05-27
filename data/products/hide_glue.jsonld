@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hide_glue",
+  "@type": "Product",
+  "name": "Hide Glue",
+  "source": "animals.animal-materials",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

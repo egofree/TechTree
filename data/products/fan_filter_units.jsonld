@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fan_filter_units",
+  "@type": "Product",
+  "name": "Fan Filter Units",
+  "source": "cleanrooms.hepa-ulpa-filtration",
+  "tags": {
+    "material": [
+      "glass",
+      "polymers"
+    ]
+  }
+}

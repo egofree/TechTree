@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "goods_exchange",
+  "@type": "Product",
+  "name": "Goods Exchange",
+  "source": "economics-organization.trade",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": []
+  }
+}

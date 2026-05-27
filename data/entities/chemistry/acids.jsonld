@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Sulfuric acid (lead chamber process 65-70%, contact process 96-98%), nitric acid (from nitrates + H₂SO₄, later Ostwald process), hydrochloric acid (NaCl + H₂SO₄ or direct H₂ + Cl₂ synthesis), and hydrofluoric acid (CaF₂ + H₂SO₄, extremely hazardous). HF is uniquely dangerous and essential for glass and silicon etching.",
+  "early_win": false,
+  "id": "chemistry.acids",
+  "level": "capability",
+  "name": "Mineral Acid Production",
+  "outputs": [
+    "sulfuric_acid",
+    "nitric_acid",
+    "hydrochloric_acid",
+    "hydrofluoric_acid",
+    "oleum"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-35"
+}

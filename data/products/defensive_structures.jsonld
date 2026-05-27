@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "defensive_structures",
+  "@type": "Product",
+  "name": "Defensive Structures",
+  "source": "defense",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "metals",
+      "wood",
+      "stone"
+    ]
+  }
+}

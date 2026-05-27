@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/knowledge.libraries__knowledge.writing",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "knowledge.libraries",
+  "to": "knowledge.writing"
+}

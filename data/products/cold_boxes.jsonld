@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cold_boxes",
+  "@type": "Product",
+  "name": "Cold Boxes",
+  "source": "cryogenics.liquefaction-storage",
+  "tags": {
+    "capability": [
+      "cooling"
+    ],
+    "material": [
+      "gases"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nitrile_rubber",
+  "@type": "Product",
+  "name": "Nitrile Rubber",
+  "source": "polymers.rubber.synthetic",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

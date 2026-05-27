@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Cattle provide the primary draft power for pre-industrial agriculture and transport, plus dairy as the most efficient large-scale protein source",
+  "description": "Raising domesticated cattle (Bos taurus) for dairy, beef, tallow, leather, and draft power. Cattle are the largest and most productive livestock species, yielding 10-20 L milk/day at peak lactation and 275-300 kg dressed carcass. Oxen provide primary draft power for plowing and transport before mechanization.",
+  "early_win": false,
+  "id": "animals.cattle",
+  "level": "capability",
+  "name": "Cattle Husbandry",
+  "outputs": [
+    "beef",
+    "dairy",
+    "tallow",
+    "leather_hides",
+    "manure",
+    "draft_power"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 1-30+"
+}

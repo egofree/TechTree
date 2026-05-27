@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "resistance_welds",
+  "@type": "Product",
+  "name": "Resistance Welds",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

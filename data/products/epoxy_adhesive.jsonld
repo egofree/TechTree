@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "epoxy_adhesive",
+  "@type": "Product",
+  "name": "Epoxy Adhesive",
+  "source": "chemistry.adhesives-coatings",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "steel_slab",
+  "@type": "Product",
+  "name": "Steel Slab",
+  "source": "metals.forming",
+  "tags": {
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

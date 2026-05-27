@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "polystyrene",
+  "@type": "Product",
+  "name": "Polystyrene",
+  "source": "polymers.thermoplastics",
+  "tags": {
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "polymers"
+    ]
+  }
+}

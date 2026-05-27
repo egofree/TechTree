@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": true,
+  "critical_note": "Without organizational coordination, no complex multi-specialist technology (from blast furnaces to semiconductor fabs) is achievable",
+  "description": "The social and organizational infrastructure for coordinating production, trade, labor specialization, and resource allocation. Enables complex multi-specialist production beyond household-level autarky. Spans division of labor, exchange systems, currency, accounting, supply chain coordination, and governance structures.",
+  "early_win": true,
+  "early_win_note": "Division of labor and trade create the earliest and most powerful positive feedback loop: surplus to specialization to exchange to further specialization",
+  "id": "economics-organization",
+  "level": "domain",
+  "name": "Economics & Organization",
+  "outputs": [
+    "labor_coordination",
+    "trade_systems",
+    "currency",
+    "accounting_records",
+    "supply_chain_management",
+    "governance_structures"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "critical": true,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-200+"
+}

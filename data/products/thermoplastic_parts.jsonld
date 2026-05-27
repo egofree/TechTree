@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "thermoplastic_parts",
+  "@type": "Product",
+  "name": "Thermoplastic Parts",
+  "source": "polymers.thermoplastics",
+  "tags": {
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "polymers"
+    ]
+  }
+}

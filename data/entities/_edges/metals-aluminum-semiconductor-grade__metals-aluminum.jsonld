@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/metals.aluminum.semiconductor-grade__metals.aluminum",
   "@type": "Dependency",
-  "from": "metals.aluminum.semiconductor-grade",
-  "to": "metals.aluminum",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "metals.aluminum.semiconductor-grade",
+  "to": "metals.aluminum"
 }

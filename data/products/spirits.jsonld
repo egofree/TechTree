@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "spirits",
+  "@type": "Product",
+  "name": "Spirits",
+  "source": "food-processing",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "biomass",
+      "water"
+    ]
+  }
+}

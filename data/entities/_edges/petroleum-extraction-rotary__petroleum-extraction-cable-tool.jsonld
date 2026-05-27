@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/petroleum.extraction.rotary__petroleum.extraction.cable-tool",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "petroleum.extraction.rotary",
+  "to": "petroleum.extraction.cable-tool"
+}

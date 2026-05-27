@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "smokeless_powder",
+  "@type": "Product",
+  "name": "Smokeless Powder",
+  "source": "chemistry.explosives",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

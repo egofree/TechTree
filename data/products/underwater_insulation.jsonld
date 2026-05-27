@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "underwater_insulation",
+  "@type": "Product",
+  "name": "Underwater Insulation",
+  "source": "polymers.rubber.gutta-percha",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

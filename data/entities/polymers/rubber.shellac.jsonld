@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Lac bug (Kerria lacca) secretion resin, dissolved in ethanol. Harvested as sticklac from host trees, washed to remove dye (yielding seedlac), melted and filtered into buttonlac or flake shellac. French polish for wood finishing. Uses: phonograph records (before vinyl), electrical insulation, primer/sealer, food coating, gasket material. Fastest-drying natural finish.",
+  "early_win": false,
+  "id": "polymers.rubber.shellac",
+  "level": "process",
+  "name": "Shellac Production",
+  "outputs": [
+    "shellac",
+    "shellac_varnish",
+    "phonograph_records"
+  ],
+  "parent": "polymers.rubber",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "polymers",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-25"
+}

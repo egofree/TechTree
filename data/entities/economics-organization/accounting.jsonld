@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Systematic recording of production inputs, trade transactions, and resource inventories. Emerges when the volume of economic activity exceeds what can be tracked mentally, roughly when a community supports more than 50 specialists.",
+  "early_win": false,
+  "id": "economics-organization.accounting",
+  "level": "capability",
+  "name": "Accounting & Record-Keeping",
+  "outputs": [
+    "financial_records",
+    "inventory_ledgers",
+    "cost_accounting"
+  ],
+  "parent": "economics-organization",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "bronze-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-15"
+}

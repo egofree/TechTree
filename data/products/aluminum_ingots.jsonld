@@ -5,12 +5,12 @@
   "name": "Aluminum Ingots",
   "source": "metals.aluminum",
   "tags": {
-    "material": [
-      "metals"
-    ],
     "lifecycle": [
       "recyclable",
       "closed-loop"
+    ],
+    "material": [
+      "metals"
     ]
   }
 }

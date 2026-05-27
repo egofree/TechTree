@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/construction__textiles.rope-making",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "construction",
+  "to": "textiles.rope-making"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "refractory_bricks",
+  "@type": "Product",
+  "name": "Refractory Bricks",
+  "source": "ceramics",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "ceramics",
+      "clay",
+      "stone"
+    ]
+  }
+}

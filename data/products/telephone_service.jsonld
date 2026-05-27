@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "telephone_service",
+  "@type": "Product",
+  "name": "Telephone Service",
+  "source": "telecom",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

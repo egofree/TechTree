@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Polyethylene (LDPE/HDPE — films, containers, wire insulation), PVC (rigid pipe, flexible tubing, requires heat stabilizers), nylon (bearings, gears, engineering components), polystyrene (labware, insulation foam), and PTFE/Teflon (chemically inert, ultra-low friction, -200°C to +260°C, for seals and non-stick surfaces).",
+  "early_win": false,
+  "id": "polymers.thermoplastics",
+  "level": "capability",
+  "name": "Thermoplastic Polymers",
+  "outputs": [
+    "polyethylene",
+    "pvc",
+    "nylon",
+    "polystyrene",
+    "ptfe",
+    "thermoplastic_parts"
+  ],
+  "parent": "polymers",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50"
+}

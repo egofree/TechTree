@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "secs_gem_communication",
+  "@type": "Product",
+  "name": "Secs Gem Communication",
+  "source": "automation",
+  "tags": {
+    "capability": [
+      "computing",
+      "transport"
+    ],
+    "material": []
+  }
+}

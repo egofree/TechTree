@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.electrolysis__chemistry.lithium-separation",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "chemistry.electrolysis",
+  "to": "chemistry.lithium-separation"
+}

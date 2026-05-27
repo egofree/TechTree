@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "brush_clearance",
+  "@type": "Product",
+  "name": "Brush Clearance",
+  "source": "animals.goats",
+  "tags": {
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

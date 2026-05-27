@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "xylene",
+  "@type": "Product",
+  "name": "Xylene",
+  "source": "petroleum",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

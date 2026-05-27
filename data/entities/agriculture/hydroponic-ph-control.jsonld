@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Ion-selective membrane systems for precise nutrient and pH management in hydroponic agriculture. Maintains optimal nutrient solution composition through controlled ion exchange, enabling soil-free high-yield food production.",
+  "early_win": false,
+  "id": "agriculture.hydroponic-ph-control",
+  "level": "capability",
+  "name": "Hydroponic pH Control",
+  "outputs": [
+    "nutrient_solution",
+    "balanced_ph"
+  ],
+  "parent": "agriculture",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals",
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-45"
+}

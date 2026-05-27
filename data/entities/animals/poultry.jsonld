@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Managed rearing of domesticated birds for eggs, meat, feathers, and pest control services. Poultry species convert feed and forage into protein more efficiently than most livestock, and many species provide complementary services such as pest control, weed management, and guardian behavior.",
+  "early_win": true,
+  "early_win_note": "Chickens and quail reproduce rapidly, providing eggs and meat within months of establishment. Poultry manure is the highest-nitrogen livestock manure, immediately improving crop yields.",
+  "id": "animals.poultry",
+  "level": "capability",
+  "name": "Poultry Farming",
+  "outputs": [
+    "poultry",
+    "eggs",
+    "feathers",
+    "manure"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-10+"
+}

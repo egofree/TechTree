@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Grain cultivation, animal domestication, food preservation (drying, smoking, salting, fermentation), and irrigation. The food surplus loop — more food → more specialists → better tools → more food — is the engine that drives all subsequent development.",
+  "early_win": false,
+  "id": "foundations.food-agriculture",
+  "level": "capability",
+  "name": "Agriculture & Food Production",
+  "outputs": [
+    "food_surplus",
+    "grain",
+    "preserved_food"
+  ],
+  "parent": "foundations",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-10+"
+}

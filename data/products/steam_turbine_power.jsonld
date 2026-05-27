@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "steam_turbine_power",
+  "@type": "Product",
+  "name": "Steam Turbine Power",
+  "source": "energy.steam-power.steam-turbines",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

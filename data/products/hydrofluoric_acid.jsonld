@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hydrofluoric_acid",
+  "@type": "Product",
+  "name": "Hydrofluoric Acid",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/economics-organization.supply-chain__economics-organization.accounting",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "economics-organization.supply-chain",
+  "to": "economics-organization.accounting"
+}

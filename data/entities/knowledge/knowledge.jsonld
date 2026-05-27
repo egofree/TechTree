@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": true,
+  "critical_note": "Without knowledge preservation, the 50-200 year bootstrapping effort dies with the first generation. Every process recipe, ore location, and failure mode must be recorded.",
+  "description": "Writing system development, paper production, movable type printing press, record keeping, technical drawings, education system (apprenticeships → trade schools → universities), library construction, and digital knowledge storage. Without systematic knowledge transmission across 50-200+ years, the entire effort dies with the first generation.",
+  "early_win": false,
+  "id": "knowledge",
+  "level": "domain",
+  "name": "Knowledge Preservation & Education",
+  "outputs": [
+    "writing_system",
+    "paper",
+    "printed_books",
+    "technical_drawings",
+    "education_system",
+    "libraries",
+    "failure_logs"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-200+"
+}

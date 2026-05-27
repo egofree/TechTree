@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "microscopy",
+  "@type": "Product",
+  "name": "Microscopy",
+  "source": "measurement.optical-instruments",
+  "tags": {
+    "material": []
+  }
+}

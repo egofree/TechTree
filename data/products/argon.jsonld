@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "argon",
+  "@type": "Product",
+  "name": "Argon",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

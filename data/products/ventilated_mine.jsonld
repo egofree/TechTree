@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ventilated_mine",
+  "@type": "Product",
+  "name": "Ventilated Mine",
+  "source": "mining.ventilation",
+  "tags": {
+    "material": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "plate_armor",
+  "@type": "Product",
+  "name": "Plate Armor",
+  "source": "defense.armor",
+  "tags": {
+    "material": [
+      "metals",
+      "fibers"
+    ]
+  }
+}

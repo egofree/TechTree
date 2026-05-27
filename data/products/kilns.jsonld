@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "kilns",
+  "@type": "Product",
+  "name": "Kilns",
+  "source": "ceramics",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "ceramics",
+      "clay",
+      "stone"
+    ]
+  }
+}

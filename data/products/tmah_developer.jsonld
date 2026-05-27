@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tmah_developer",
+  "@type": "Product",
+  "name": "Tmah Developer",
+  "source": "chemistry.semiconductor-chemicals",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

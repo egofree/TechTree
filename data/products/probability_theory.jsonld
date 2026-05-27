@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "probability_theory",
+  "@type": "Product",
+  "name": "Probability Theory",
+  "source": "mathematics.applied-mathematics",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

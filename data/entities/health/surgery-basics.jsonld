@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Without surgical capability, traumatic injuries and complicated births are routinely fatal",
+  "description": "Wound management, basic surgical techniques, sterilization procedures, suture methods, and anesthesia fundamentals. Covers hemostasis, wound debridement, sterile technique, and post-operative care.",
+  "early_win": false,
+  "id": "health.surgery-basics",
+  "level": "capability",
+  "name": "Surgery Basics",
+  "outputs": [
+    "surgical_capability",
+    "wound_management",
+    "sterile_technique"
+  ],
+  "parent": "health",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-100+"
+}

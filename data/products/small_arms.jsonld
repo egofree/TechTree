@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "small_arms",
+  "@type": "Product",
+  "name": "Small Arms",
+  "source": "defense",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "metals",
+      "wood",
+      "stone"
+    ]
+  }
+}

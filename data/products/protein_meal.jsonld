@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "protein_meal",
+  "@type": "Product",
+  "name": "Protein Meal",
+  "source": "animals.insect-farming",
+  "tags": {
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

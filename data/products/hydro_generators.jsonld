@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hydro_generators",
+  "@type": "Product",
+  "name": "Hydro Generators",
+  "source": "energy.gravity.water-turbines",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals",
+      "water"
+    ]
+  }
+}

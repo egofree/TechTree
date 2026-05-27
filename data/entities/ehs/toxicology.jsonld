@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Identification, quantification, and management of toxic substances in industrial, pharmaceutical, and environmental contexts. Covers TLV-TWA exposure limits, LD50 data, antidote protocols, and biological monitoring.",
+  "early_win": false,
+  "id": "ehs.toxicology",
+  "level": "capability",
+  "name": "Toxicology",
+  "outputs": [
+    "toxic_substance_databases",
+    "exposure_limits",
+    "antidote_protocols",
+    "material_safety_data"
+  ],
+  "parent": "ehs",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-100+"
+}

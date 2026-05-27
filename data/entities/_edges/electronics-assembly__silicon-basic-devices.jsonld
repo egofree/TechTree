@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics.assembly__silicon.basic-devices",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "electronics.assembly",
+  "to": "silicon.basic-devices"
+}

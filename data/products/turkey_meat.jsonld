@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "turkey_meat",
+  "@type": "Product",
+  "name": "Turkey Meat",
+  "source": "animals.poultry.turkeys",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

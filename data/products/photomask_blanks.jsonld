@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "photomask_blanks",
+  "@type": "Product",
+  "name": "Photomask Blanks",
+  "source": "glass.photomask-substrates",
+  "tags": {
+    "capability": [
+      "optics",
+      "precision"
+    ],
+    "material": [
+      "glass"
+    ]
+  }
+}

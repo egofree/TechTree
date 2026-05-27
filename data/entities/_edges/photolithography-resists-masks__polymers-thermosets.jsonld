@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/photolithography.resists-masks__polymers.thermosets",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "photolithography.resists-masks",
+  "to": "polymers.thermosets"
+}

@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Steam cracking for ethylene and propylene from naphtha or ethane feedstock, BTX aromatics extraction from reformate, and downstream monomer production (styrene, ethylene oxide, acrylonitrile). Provides the building blocks for polymers, solvents, and specialty chemicals.",
+  "early_win": false,
+  "id": "petroleum.petrochemicals",
+  "level": "capability",
+  "name": "Petrochemical Feedstocks",
+  "outputs": [
+    "ethylene",
+    "propylene",
+    "butadiene",
+    "benzene",
+    "toluene",
+    "xylene",
+    "styrene",
+    "ethylene_oxide"
+  ],
+  "parent": "petroleum",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-50+"
+}

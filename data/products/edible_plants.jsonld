@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "edible_plants",
+  "@type": "Product",
+  "name": "Edible Plants",
+  "source": "plants",
+  "tags": {
+    "capability": [
+      "health",
+      "construction"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

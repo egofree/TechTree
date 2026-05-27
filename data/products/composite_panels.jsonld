@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "composite_panels",
+  "@type": "Product",
+  "name": "Composite Panels",
+  "source": "polymers.composites",
+  "tags": {
+    "material": [
+      "polymers",
+      "fibers"
+    ]
+  }
+}

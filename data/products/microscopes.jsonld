@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "microscopes",
+  "@type": "Product",
+  "name": "Microscopes",
+  "source": "optics",
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "material": [
+      "glass"
+    ]
+  }
+}

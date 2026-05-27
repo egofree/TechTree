@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.air-separation__gas-handling.basic",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "chemistry.air-separation",
+  "to": "gas-handling.basic"
+}

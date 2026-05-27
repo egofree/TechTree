@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sodium_carbonate",
+  "@type": "Product",
+  "name": "Sodium Carbonate",
+  "source": "chemistry.alkalis",
+  "tags": {
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/measurement.precision-metrology__foundations",
   "@type": "Dependency",
-  "from": "measurement.precision-metrology",
-  "to": "foundations",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "measurement.precision-metrology",
+  "to": "foundations"
 }

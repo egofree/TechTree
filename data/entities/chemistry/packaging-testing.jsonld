@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Wafer backgrinding, die singulation (diamond blade dicing), die attach (eutectic or epoxy), wire bonding (Au ball bonding, Al wedge), encapsulation (transfer molding with epoxy-silica compound), lead forming, wafer probing (DC parametric + functional), burn-in, and final test.",
+  "early_win": false,
+  "id": "chemistry.packaging-testing",
+  "level": "capability",
+  "name": "Semiconductor Packaging & Testing",
+  "outputs": [
+    "packaged_ics",
+    "tested_ics",
+    "yield_data"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-70"
+}

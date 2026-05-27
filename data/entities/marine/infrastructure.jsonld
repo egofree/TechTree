@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Maritime infrastructure construction including harbors, breakwaters, dry docks, lighthouses, and piers. Also covers underwater cable laying (gutta-percha insulated telegraph cables), corrosion prevention (cathodic protection, anti-fouling), and marine salvage. Includes specific engineering parameters for all structures.",
+  "early_win": false,
+  "id": "marine.infrastructure",
+  "level": "capability",
+  "name": "Maritime Infrastructure & Underwater Engineering",
+  "outputs": [
+    "harbor_works",
+    "dry_docks",
+    "submarine_cables",
+    "lighthouses",
+    "corrosion_protection"
+  ],
+  "parent": "marine",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "stone",
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-50+"
+}

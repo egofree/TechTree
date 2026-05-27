@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "taps",
+  "@type": "Product",
+  "name": "Taps",
+  "source": "machine-tools.bearings-abrasives",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

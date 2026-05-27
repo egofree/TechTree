@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vulcanized_elastomers",
+  "@type": "Product",
+  "name": "Vulcanized Elastomers",
+  "source": "polymers.rubber.vulcanization",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

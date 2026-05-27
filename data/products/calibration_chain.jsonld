@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "calibration_chain",
+  "@type": "Product",
+  "name": "Calibration Chain",
+  "source": "measurement.precision-metrology",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

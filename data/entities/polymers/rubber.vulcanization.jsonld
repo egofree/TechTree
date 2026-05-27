@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Vulcanization cure systems (conventional, efficient, semi-efficient), cure parameters by rubber type, Shore A/D hardness scales, compounding ingredients, and post-cure processing. The process that transforms raw rubber into durable elastomers.",
+  "early_win": false,
+  "id": "polymers.rubber.vulcanization",
+  "level": "process",
+  "name": "Vulcanization & Hardness",
+  "outputs": [
+    "vulcanized_elastomers",
+    "cured_seals",
+    "molded_rubber_parts"
+  ],
+  "parent": "polymers.rubber",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-50"
+}

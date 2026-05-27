@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/computing.electromechanical__computing.mechanical",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "computing.electromechanical",
+  "to": "computing.mechanical"
+}

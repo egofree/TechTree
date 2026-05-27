@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Tantalum, cobalt, and indium production for semiconductor-specific applications: TaN/Ta copper diffusion barriers (PVD and ALD sputtering targets), cobalt silicide (CoSi₂) self-aligned contacts, cobalt CMP slurries for contact planarization, ITO transparent conductors for displays, InGaAs photonic detectors, and indium bump bonding for flip-chip packaging. All three metals are on the GPU critical path.",
+  "early_win": false,
+  "id": "metals.refractory-specialty",
+  "level": "capability",
+  "name": "Refractory & Specialty Metals for Semiconductor Manufacturing",
+  "outputs": [
+    "tantalum_sputtering_targets",
+    "TaN_Ta_diffusion_barriers",
+    "cobalt_silicide_contacts",
+    "co_cmp_slurries",
+    "ito_sputtering_targets",
+    "ingaas_photodetectors",
+    "indium_bump_bonds"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 35-70"
+}

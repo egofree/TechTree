@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "wooden_hulls",
+  "@type": "Product",
+  "name": "Wooden Hulls",
+  "source": "marine.shipbuilding",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "wood",
+      "metals"
+    ]
+  }
+}

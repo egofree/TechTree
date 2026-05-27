@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "failure_logs",
+  "@type": "Product",
+  "name": "Failure Logs",
+  "source": "knowledge",
+  "tags": {
+    "material": []
+  }
+}

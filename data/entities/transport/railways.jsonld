@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Steam locomotive railways, track construction, signaling, and freight/passenger operations.",
+  "early_win": false,
+  "id": "transport.railways",
+  "level": "capability",
+  "name": "Railways",
+  "outputs": [
+    "railways"
+  ],
+  "parent": "transport",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50+"
+}

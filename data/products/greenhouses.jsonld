@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "greenhouses",
+  "@type": "Product",
+  "name": "Greenhouses",
+  "source": "agriculture",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

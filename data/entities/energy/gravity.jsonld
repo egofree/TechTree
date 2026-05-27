@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Undershot and overshot water wheels (1-5 HP) using gravitational water flow for mechanical power.",
+  "early_win": false,
+  "id": "energy.gravity",
+  "level": "capability",
+  "name": "Water Power",
+  "outputs": [
+    "water_power"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-15"
+}

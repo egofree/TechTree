@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vibration_isolation",
+  "@type": "Product",
+  "name": "Vibration Isolation",
+  "source": "construction.industrial-buildings",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "metals",
+      "stone"
+    ]
+  }
+}

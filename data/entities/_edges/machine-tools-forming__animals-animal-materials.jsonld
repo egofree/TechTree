@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/machine-tools.forming__animals.animal-materials",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "machine-tools.forming",
+  "to": "animals.animal-materials"
+}

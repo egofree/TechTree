@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "process_capability_analysis",
+  "@type": "Product",
+  "name": "Process Capability Analysis",
+  "source": "quality-control.spc",
+  "tags": {
+    "capability": [
+      "precision",
+      "computing"
+    ],
+    "material": []
+  }
+}

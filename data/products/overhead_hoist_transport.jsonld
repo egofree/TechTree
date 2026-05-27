@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "overhead_hoist_transport",
+  "@type": "Product",
+  "name": "Overhead Hoist Transport",
+  "source": "automation.material-transport",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": []
+  }
+}

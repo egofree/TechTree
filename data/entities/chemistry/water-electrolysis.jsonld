@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Electrolytic splitting of water into hydrogen and oxygen using PEM or alkaline electrolyzers. Provides high-purity hydrogen for ammonia synthesis, metal refining, and fuel cells without fossil fuel inputs.",
+  "early_win": false,
+  "id": "chemistry.water-electrolysis",
+  "level": "capability",
+  "name": "Water Electrolysis",
+  "outputs": [
+    "hydrogen",
+    "oxygen"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "gases",
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40"
+}

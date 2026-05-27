@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": true,
+  "critical_note": "Copper damascene plating is the only method to fill sub-100 nm interconnect features — PVD and CVD cannot achieve conformal coverage in high-aspect-ratio damascene structures",
+  "description": "Bottom-up copper fill of patterned dielectric trenches and vias using acid sulfate bath (CuSO₄ 40-100 g/L + H₂SO₄ 50-100 g/L) with SPS accelerator, PEG suppressor, and leveler additives. Pulse reverse plating at 5-40 mA/cm². Features from 25 nm to 10 μm, aspect ratios up to 10:1. Essential for all modern IC interconnect fabrication since the 250 nm node.",
+  "early_win": false,
+  "id": "electrochemistry.electroplating.copper-damascene",
+  "level": "process",
+  "name": "Copper Damascene Plating",
+  "outputs": [
+    "copper_interconnects",
+    "copper_filled_vias"
+  ],
+  "parent": "electrochemistry.electroplating",
+  "pinnacle": true,
+  "pinnacle_note": "Sub-25 nm copper damascene requires the full semiconductor manufacturing ecosystem: clean rooms, photolithography, CMP, barrier/seed deposition, and metrology",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": true
+  },
+  "timeline": "Years 40-80"
+}

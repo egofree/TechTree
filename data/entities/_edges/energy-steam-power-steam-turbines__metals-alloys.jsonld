@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.steam-power.steam-turbines__metals.alloys",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "energy.steam-power.steam-turbines",
+  "to": "metals.alloys"
+}

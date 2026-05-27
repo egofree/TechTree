@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Recipe management, lot and wafer tracking, process sequencing, Fault Detection and Classification (FDC), and run-to-run (R2R) control for semiconductor manufacturing.",
+  "early_win": false,
+  "id": "automation.process-control",
+  "level": "capability",
+  "name": "Process Control & Lot Tracking",
+  "outputs": [
+    "recipe_management",
+    "lot_tracking",
+    "process_sequencing",
+    "fault_detection",
+    "run_to_run_control"
+  ],
+  "parent": "automation",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 60-100+"
+}

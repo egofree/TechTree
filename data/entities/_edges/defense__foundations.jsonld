@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/defense__foundations",
   "@type": "Dependency",
-  "from": "defense",
-  "to": "foundations",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "defense",
+  "to": "foundations"
 }

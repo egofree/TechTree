@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "brine",
+  "@type": "Product",
+  "name": "Brine",
+  "source": "water.desalination",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "water"
+    ]
+  }
+}

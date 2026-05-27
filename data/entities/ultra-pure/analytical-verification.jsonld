@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Contamination detection and quantification at parts-per-trillion (ppt) levels: ICP-MS for metallic impurities (0.1-10 ppt detection), TOC analysis (<0.5 ppb), ion chromatography for anions/cations (<0.01 ppb), laser particle counting (0.05 μm), and dissolved oxygen monitoring (<0.1 ppb). Quality assurance framework with SEMI standard methods for electronic-grade chemical certification.",
+  "early_win": false,
+  "id": "ultra-pure.analytical-verification",
+  "level": "capability",
+  "name": "PPT-Level Analytical Verification",
+  "outputs": [
+    "contamination_data",
+    "purity_certification",
+    "quality_metrics"
+  ],
+  "parent": "ultra-pure",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-80"
+}

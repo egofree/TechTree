@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Solid-state joining via rotating tool (500-1500 RPM, 50-200 mm/min feed). Tool friction heats metal to plasticized state (70-90% of melting point) without melting. Joins unweldable aluminum alloys (2xxx, 7xxx series) and dissimilar metals (Al-to-steel, Al-to-Cu) without brittle intermetallics. Tool materials: H13 steel for aluminum, PCBN for steel.",
+  "early_win": false,
+  "id": "machine-tools.joining.friction-stir",
+  "level": "process",
+  "name": "Friction Stir Welding",
+  "outputs": [
+    "friction_stir_welds"
+  ],
+  "parent": "machine-tools.joining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-60"
+}

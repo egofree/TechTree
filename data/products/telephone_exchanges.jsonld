@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "telephone_exchanges",
+  "@type": "Product",
+  "name": "Telephone Exchanges",
+  "source": "telecom.telephone",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

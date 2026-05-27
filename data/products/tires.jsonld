@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tires",
+  "@type": "Product",
+  "name": "Tires",
+  "source": "polymers.rubber.natural",
+  "tags": {
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "polymers"
+    ]
+  }
+}

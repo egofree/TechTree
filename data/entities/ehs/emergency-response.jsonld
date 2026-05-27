@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Chemical-specific emergency procedures for HF exposure (calcium gluconate treatment), silane fire (gas supply shutdown, no water on burning silane), arsine inhalation (SCBA rescue, hemolysis monitoring), and phosphine release. Eyewash and deluge shower placement (10-second rule), spill kits, evacuation alarm tiers, and emergency equipment maintenance schedules.",
+  "early_win": false,
+  "id": "ehs.emergency-response",
+  "level": "capability",
+  "name": "Emergency Response",
+  "outputs": [
+    "emergency_procedures",
+    "spill_response",
+    "evacuation_plans",
+    "first_aid_protocols",
+    "emergency_equipment"
+  ],
+  "parent": "ehs",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-70"
+}

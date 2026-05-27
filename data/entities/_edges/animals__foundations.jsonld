@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/animals__foundations",
   "@type": "Dependency",
-  "from": "animals",
-  "to": "foundations",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "animals",
+  "to": "foundations"
 }

@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Rearing silkworms (Bombyx mori) on mulberry leaves, cocoon harvesting, and silk thread production. Silk is the strongest natural fiber by weight, used for high-value textiles, medical sutures, and parachutes. Requires established domestication skills and controlled feeding.",
+  "early_win": false,
+  "id": "animals.sericulture",
+  "level": "capability",
+  "name": "Sericulture (Silkworm Rearing)",
+  "outputs": [
+    "silk_thread",
+    "silk_cloth",
+    "pupa_protein"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.animal.insect"
+  ],
+  "timeline": "Years 10-50+"
+}

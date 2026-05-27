@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.dopant-etch-gases__chemistry",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "chemistry.dopant-etch-gases",
+  "to": "chemistry"
+}

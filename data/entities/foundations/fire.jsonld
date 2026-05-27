@@ -1,29 +1,29 @@
 {
   "@context": "../../context.jsonld",
   "@type": "Capability",
-  "id": "foundations.fire",
-  "name": "Fire-Making",
-  "level": "capability",
-  "parent": "foundations",
+  "critical": false,
   "description": "Fire-making techniques: friction fire, flint-and-steel ignition, fire maintenance, and heat management.",
-  "timeline": "Years 0-5",
+  "early_win": false,
+  "id": "foundations.fire",
+  "level": "capability",
+  "name": "Fire-Making",
   "outputs": [
     "fire"
   ],
-  "critical": false,
-  "early_win": false,
+  "parent": "foundations",
   "pinnacle": false,
   "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
     "material": [
       "wood",
       "biomass"
     ],
-    "capability": [
-      "energy"
-    ],
-    "era": "stone-age",
-    "critical": false,
-    "early-win": false,
     "pinnacle": false
-  }
+  },
+  "timeline": "Years 0-5"
 }

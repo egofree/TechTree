@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "steel_blooms",
+  "@type": "Product",
+  "name": "Steel Blooms",
+  "source": "metals.steelmaking",
+  "tags": {
+    "lifecycle": [
+      "recyclable",
+      "recycled-feedstock"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

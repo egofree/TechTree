@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "core_samples",
+  "@type": "Product",
+  "name": "Core Samples",
+  "source": "mining.drilling",
+  "tags": {
+    "material": []
+  }
+}

@@ -5,12 +5,12 @@
   "name": "Iron Bloom",
   "source": "metals.iron-steel",
   "tags": {
-    "material": [
-      "metals"
-    ],
     "lifecycle": [
       "waste-source",
       "recyclable"
+    ],
+    "material": [
+      "metals"
     ]
   }
 }

@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Percussion drilling using a heavy steel bit repeatedly lifted and dropped onto the rock. Depth range 50-1,500 m, penetration rate 0.5-10 m/day. Requires steam engine or animal power for the walking beam. Used for the first commercial oil wells (Titusville, 1859).",
+  "early_win": false,
+  "id": "petroleum.extraction.cable-tool",
+  "level": "process",
+  "name": "Cable-Tool Drilling",
+  "outputs": [
+    "crude_oil"
+  ],
+  "parent": "petroleum.extraction",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "mineral.fossil-fuel.petroleum"
+  ],
+  "timeline": "Years 10-25"
+}

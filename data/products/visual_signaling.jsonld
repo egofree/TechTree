@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "visual_signaling",
+  "@type": "Product",
+  "name": "Visual Signaling",
+  "source": "telecom.pre-electric",
+  "tags": {
+    "material": [
+      "wood",
+      "glass"
+    ]
+  }
+}

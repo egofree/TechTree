@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "transport",
+  "@type": "Product",
+  "name": "Transport",
+  "source": "animals.equines",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

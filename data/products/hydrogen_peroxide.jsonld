@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hydrogen_peroxide",
+  "@type": "Product",
+  "name": "Hydrogen Peroxide",
+  "source": "chemistry.solvents",
+  "tags": {
+    "lifecycle": [
+      "recycled-feedstock"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

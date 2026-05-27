@@ -1,0 +1,18 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "reinforced_concrete",
+  "@type": "Product",
+  "name": "Reinforced Concrete",
+  "source": "chemistry.cement",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "stone"
+    ]
+  }
+}

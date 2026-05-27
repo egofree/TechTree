@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vehicles",
+  "@type": "Product",
+  "name": "Vehicles",
+  "source": "transport",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": []
+  }
+}

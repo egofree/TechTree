@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/food-processing.preservation__chemistry.petroleum-alternatives.fermentation",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "food-processing.preservation",
+  "to": "chemistry.petroleum-alternatives.fermentation"
+}

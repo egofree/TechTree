@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "power_quality_monitoring",
+  "@type": "Product",
+  "name": "Power Quality Monitoring",
+  "source": "energy.electricity",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Claude cycle integration with double-column distillation at -196°C, expansion turbine engineering (20,000-80,000 RPM, 80-88% isentropic efficiency), brazed aluminum plate-fin heat exchanger design, and cold box insulation. Produces high-purity N₂ (99.999%), O₂ (99.5%+), and Ar (99.999%) at industrial scale.",
+  "early_win": false,
+  "id": "cryogenics.air-separation",
+  "level": "capability",
+  "name": "Cryogenic Air Separation",
+  "outputs": [
+    "cryogenic_distillation",
+    "liquid_nitrogen",
+    "liquid_oxygen",
+    "liquid_argon"
+  ],
+  "parent": "cryogenics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "cooling"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40"
+}

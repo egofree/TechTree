@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "duck_meat",
+  "@type": "Product",
+  "name": "Duck Meat",
+  "source": "animals.poultry.ducks",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

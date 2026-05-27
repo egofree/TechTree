@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Progression of hull construction from dugout canoes through clinker-built, carvel-built, and iron/steel hulls. Covers structural design, fastening methods, watertight integrity, and the transition from wood to metal construction. Includes specific parameters for hull dimensions, plate thickness, frame spacing, and rivet specifications.",
+  "early_win": false,
+  "id": "marine.shipbuilding",
+  "level": "capability",
+  "name": "Hull Construction & Shipbuilding",
+  "outputs": [
+    "vessels",
+    "wooden_hulls",
+    "iron_hulls",
+    "steel_hulls"
+  ],
+  "parent": "marine",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "wood",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-50+"
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "scientific_glassware",
+  "@type": "Product",
+  "name": "Scientific Glassware",
+  "source": "glass.advanced.glassblowing",
+  "tags": {
+    "material": [
+      "glass"
+    ]
+  }
+}

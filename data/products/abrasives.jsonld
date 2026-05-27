@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "abrasives",
+  "@type": "Product",
+  "name": "Abrasives",
+  "source": "machine-tools.bearings-abrasives",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

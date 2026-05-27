@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "canals",
+  "@type": "Product",
+  "name": "Canals",
+  "source": "transport",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "btx_aromatics",
+  "@type": "Product",
+  "name": "Btx Aromatics",
+  "source": "petroleum.refining.cracking",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

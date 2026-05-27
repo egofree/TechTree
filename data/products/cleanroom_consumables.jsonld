@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cleanroom_consumables",
+  "@type": "Product",
+  "name": "Cleanroom Consumables",
+  "source": "photolithography.cleanrooms",
+  "tags": {
+    "material": []
+  }
+}

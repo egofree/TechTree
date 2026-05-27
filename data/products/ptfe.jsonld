@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ptfe",
+  "@type": "Product",
+  "name": "Ptfe",
+  "source": "polymers",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Artemisia inculta is a rare perennial species of aromatic undershrub in the family Asteraceae , native to North Africa and select regions of the Middle East",
+  "early_win": false,
+  "id": "plants.medicinal-plants.artemisia-inculta",
+  "level": "process",
+  "name": "Artemisia inculta",
+  "outputs": [
+    "medicinal_compounds"
+  ],
+  "parent": "plants.medicinal-plants",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant.medicinal.artemisia-inculta"
+  ],
+  "timeline": "Years 0-10"
+}

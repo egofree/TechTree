@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "laser_welds",
+  "@type": "Product",
+  "name": "Laser Welds",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

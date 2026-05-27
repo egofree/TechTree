@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vacuum_oil",
+  "@type": "Product",
+  "name": "Vacuum Oil",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

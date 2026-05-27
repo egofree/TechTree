@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "coated_components",
+  "@type": "Product",
+  "name": "Coated Components",
+  "source": "metals.finishing",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

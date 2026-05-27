@@ -1,0 +1,35 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Without animal domestication, plowing and transport are limited to human muscle until steam engines arrive; manure is essential for sustained agriculture",
+  "description": "Selective capture, taming, breeding, and management of cattle, sheep, goats, pigs, poultry, horses, and donkeys. Each species provides distinct products: cattle (draft power, milk, leather, tallow), sheep (wool, milk, meat), goats (milk, hides, brush clearing), pigs (meat, tallow, waste conversion), poultry (eggs, pest control, meat), horses and donkeys (fast transport, heavy draft).",
+  "early_win": false,
+  "id": "animals.domestication",
+  "level": "capability",
+  "name": "Livestock Domestication & Husbandry",
+  "outputs": [
+    "livestock",
+    "breeding_stock",
+    "manure",
+    "dairy",
+    "meat",
+    "eggs"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.animal.livestock"
+  ],
+  "timeline": "Years 1-30+"
+}

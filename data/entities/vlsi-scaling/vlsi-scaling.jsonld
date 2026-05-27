@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Continuous improvement of wafer size (2\" → 12\"), feature size (10 μm → 7 nm), layer count (1-2 → 10+), and yield (10% → 90%+). Advanced lithography (DUV, eventually EUV), ion implantation, ALD, CMP planarization, copper damascene interconnects, EDA tools, and high-end solar optimization. The pinnacle requiring a mature, self-sustaining industrial ecosystem.",
+  "early_win": false,
+  "id": "vlsi-scaling",
+  "level": "domain",
+  "name": "VLSI Scaling & Advanced Semiconductor",
+  "outputs": [
+    "vlsi",
+    "advanced_lithography",
+    "high_end_solar",
+    "gpus",
+    "eda_tools",
+    "advanced_packaging"
+  ],
+  "parent": null,
+  "pinnacle": true,
+  "pinnacle_note": "Requires the entire mature ecosystem, generations of accumulated knowledge, and massive capital investment. EUV alone took 20+ years and $10B+ by ASML.",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": true
+  },
+  "timeline": "Years 70-200+"
+}

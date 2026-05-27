@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Leblanc process (first synthetic soda ash) and Solvay process (more efficient, later) for Na₂CO₃, lime-soda process and chlor-alkali electrolysis for NaOH. Soda ash and caustic soda are essential for glass making, soap production, paper pulping, and chemical processing.",
+  "early_win": false,
+  "id": "chemistry.alkalis",
+  "level": "capability",
+  "name": "Alkali Production",
+  "outputs": [
+    "soda_ash",
+    "caustic_soda",
+    "sodium_carbonate"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-35"
+}

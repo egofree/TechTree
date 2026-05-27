@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "electronic_computers",
+  "@type": "Product",
+  "name": "Electronic Computers",
+  "source": "computing.electronic",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

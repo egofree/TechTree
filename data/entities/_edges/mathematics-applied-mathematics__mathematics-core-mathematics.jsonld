@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/mathematics.applied-mathematics__mathematics.core-mathematics",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "mathematics.applied-mathematics",
+  "to": "mathematics.core-mathematics"
+}

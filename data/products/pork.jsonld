@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pork",
+  "@type": "Product",
+  "name": "Pork",
+  "source": "animals.pigs",
+  "tags": {
+    "lifecycle": [
+      "waste-source",
+      "waste-sink"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

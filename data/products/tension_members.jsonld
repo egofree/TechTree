@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tension_members",
+  "@type": "Product",
+  "name": "Tension Members",
+  "source": "textiles.rope-making",
+  "tags": {
+    "capability": [
+      "construction",
+      "transport"
+    ],
+    "material": [
+      "fibers"
+    ]
+  }
+}

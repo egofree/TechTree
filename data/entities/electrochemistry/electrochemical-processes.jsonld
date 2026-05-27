@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Electropolishing (anodic dissolution at 10-40 mA/cm² in H₂SO₄/H₃PO₄ electrolyte for ultrasmooth chromium-enriched surfaces, Ra <0.1 μm), electroforming (nickel sulfamate bath for precision microstructure replication), and electroless plating (Ni-P autocatalytic deposition at 85-95°C, ENIG for PCB surface finish).",
+  "early_win": false,
+  "id": "electrochemistry.electrochemical-processes",
+  "level": "capability",
+  "name": "Electrochemical Surface Processes",
+  "outputs": [
+    "electropolished_surfaces",
+    "electroformed_parts",
+    "electroless_nickel",
+    "ENIG_surfaces",
+    "electroless_copper"
+  ],
+  "parent": "electrochemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-80"
+}

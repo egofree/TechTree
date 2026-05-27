@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tantalum_sputtering_targets",
+  "@type": "Product",
+  "name": "Tantalum Sputtering Targets",
+  "source": "metals.refractory-specialty",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

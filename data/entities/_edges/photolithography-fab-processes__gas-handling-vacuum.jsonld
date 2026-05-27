@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/photolithography.fab-processes__gas-handling.vacuum",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "photolithography.fab-processes",
+  "to": "gas-handling.vacuum"
+}

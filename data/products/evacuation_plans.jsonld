@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "evacuation_plans",
+  "@type": "Product",
+  "name": "Evacuation Plans",
+  "source": "ehs.emergency-response",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

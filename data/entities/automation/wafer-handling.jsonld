@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Automated wafer handling is essential for sub-250 nm production — human handling generates too many particles for acceptable yield",
+  "description": "Cleanroom robots, end effectors, vacuum and atmospheric load locks, and robot kinematics for particle-free wafer transfer in semiconductor fabs.",
+  "early_win": false,
+  "id": "automation.wafer-handling",
+  "level": "capability",
+  "name": "Wafer Handling Robots",
+  "outputs": [
+    "wafer_transfer_capability",
+    "cleanroom_robots",
+    "load_lock_systems"
+  ],
+  "parent": "automation",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 60-90"
+}

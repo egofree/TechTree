@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "length_standards",
+  "@type": "Product",
+  "name": "Length Standards",
+  "source": "measurement.precision-metrology",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Alloy steels (stainless, tool steels, Hadfield manganese), superalloys (Ni-based Inconel, Co-based Stellite), titanium alloys (Ti-6Al-4V), and specialty copper alloys (beryllium copper, phosphor bronze). Alloy design principles: solid solution strengthening, precipitation hardening, Hall-Petch grain size relationship. Enables gas turbine blades, cutting tools, chemical plant equipment, and aerospace structures.",
+  "early_win": false,
+  "id": "metals.alloys",
+  "level": "capability",
+  "name": "Specialty Alloys",
+  "outputs": [
+    "stainless_steel",
+    "tool_steel",
+    "superalloys",
+    "titanium_alloys",
+    "specialty_copper_alloys"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50"
+}

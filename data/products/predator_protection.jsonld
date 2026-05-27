@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "predator_protection",
+  "@type": "Product",
+  "name": "Predator Protection",
+  "source": "animals.pest-management",
+  "tags": {
+    "material": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "metal_interconnects",
+  "@type": "Product",
+  "name": "Metal Interconnects",
+  "source": "photolithography.fab-processes",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

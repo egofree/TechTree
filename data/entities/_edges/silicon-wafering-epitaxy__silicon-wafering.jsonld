@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/silicon.wafering.epitaxy__silicon.wafering",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "silicon.wafering.epitaxy",
+  "to": "silicon.wafering"
+}

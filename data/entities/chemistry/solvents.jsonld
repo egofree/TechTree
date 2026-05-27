@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Industrial solvents: ethanol, methanol, diethyl ether, turpentine, benzene/toluene/xylene, hydrogen peroxide (anthraquinone process), chlorinated solvents, carbon disulfide. Solvent selection by polarity, boiling point, toxicity. Recovery via distillation.",
+  "early_win": false,
+  "id": "chemistry.solvents",
+  "level": "capability",
+  "name": "Solvent Production",
+  "outputs": [
+    "solvents",
+    "hydrogen_peroxide"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "recycled-feedstock"
+    ],
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-40"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "market_systems",
+  "@type": "Product",
+  "name": "Market Systems",
+  "source": "economics-organization.trade",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": []
+  }
+}

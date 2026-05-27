@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ups_systems",
+  "@type": "Product",
+  "name": "Ups Systems",
+  "source": "energy",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

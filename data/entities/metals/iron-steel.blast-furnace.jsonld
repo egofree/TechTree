@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Continuous iron smelting in tall shaft furnaces producing liquid pig iron (~4% C, ~1% Si) at 1200-1500°C. Cupola furnace remelts pig iron for casting. Three cast iron types: gray (excellent castability, machinable), white (hard, wear-resistant), malleable (heat-treated white iron, tougher). Produces 10-1000+ tonnes per day versus 5-20 kg per bloomery cycle.",
+  "early_win": false,
+  "id": "metals.iron-steel.blast-furnace",
+  "level": "process",
+  "name": "Blast Furnace and Cast Iron",
+  "outputs": [
+    "pig_iron",
+    "cast_iron",
+    "blast_furnace_slag"
+  ],
+  "parent": "metals.iron-steel",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

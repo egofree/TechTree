@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cutting_fluid",
+  "@type": "Product",
+  "name": "Cutting Fluid",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Rotating drill bit with continuous drilling mud circulation. Depth range 100-5,000+ m, penetration rate 10-100 m/day. Requires steel drill pipe, mud pumps, and blowout preventer. The dominant drilling method since the 1920s.",
+  "early_win": false,
+  "id": "petroleum.extraction.rotary",
+  "level": "process",
+  "name": "Rotary Drilling",
+  "outputs": [
+    "crude_oil"
+  ],
+  "parent": "petroleum.extraction",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "mineral.fossil-fuel.petroleum"
+  ],
+  "timeline": "Years 20-35"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hss_tool_bits",
+  "@type": "Product",
+  "name": "Hss Tool Bits",
+  "source": "machine-tools.bearings-abrasives",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

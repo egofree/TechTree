@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "orbital_welds",
+  "@type": "Product",
+  "name": "Orbital Welds",
+  "source": "machine-tools.joining.tig-welding",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

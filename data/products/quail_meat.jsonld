@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "quail_meat",
+  "@type": "Product",
+  "name": "Quail Meat",
+  "source": "animals.poultry.coturnix",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

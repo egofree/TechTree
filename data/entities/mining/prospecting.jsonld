@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Geological survey, ore body identification, and deposit evaluation techniques.",
+  "early_win": false,
+  "id": "mining.prospecting",
+  "level": "capability",
+  "name": "Prospecting & Surveying",
+  "outputs": [
+    "ore_locations",
+    "assay_data"
+  ],
+  "parent": "mining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-10"
+}

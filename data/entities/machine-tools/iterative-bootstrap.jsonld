@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "The core self-improving sequence: crude lathe (0.5 mm tolerance) → improved lathe with leadscrew (0.1 mm) → shaper (0.05 mm) → milling machine (0.025 mm) → drill press → surface grinder (0.005 mm). Each machine doubles precision achievable with the previous generation.",
+  "early_win": false,
+  "id": "machine-tools.iterative-bootstrap",
+  "level": "capability",
+  "name": "Iterative Machine Bootstrap",
+  "outputs": [
+    "lathe",
+    "shaper",
+    "mill",
+    "drill_press",
+    "grinder"
+  ],
+  "parent": "machine-tools",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-25"
+}

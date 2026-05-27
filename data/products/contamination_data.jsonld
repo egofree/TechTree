@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "contamination_data",
+  "@type": "Product",
+  "name": "Contamination Data",
+  "source": "ultra-pure",
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "material": [
+      "water",
+      "chemicals"
+    ]
+  }
+}

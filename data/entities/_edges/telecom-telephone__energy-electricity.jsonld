@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/telecom.telephone__energy.electricity",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "telecom.telephone",
+  "to": "energy.electricity"
+}

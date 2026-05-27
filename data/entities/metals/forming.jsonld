@@ -1,0 +1,36 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Bulk primary forming at the smelter and mill: continuous casting (strand solidification from molten steel), hot rolling (slab/billet to sheet/plate/structural), extrusion (aluminum profiles), wire rod rolling, forging at scale (open-die hydraulic press, closed-die), and structural section rolling (I-beams, rails). Transforms raw metal into stock shapes for downstream manufacturing.",
+  "early_win": false,
+  "id": "metals.forming",
+  "level": "capability",
+  "name": "Primary Metal Forming",
+  "outputs": [
+    "steel_slab",
+    "steel_plate",
+    "steel_sheet",
+    "steel_bar",
+    "steel_structural",
+    "aluminum_profiles",
+    "forgings"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

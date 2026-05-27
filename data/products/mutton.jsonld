@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mutton",
+  "@type": "Product",
+  "name": "Mutton",
+  "source": "animals.sheep",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

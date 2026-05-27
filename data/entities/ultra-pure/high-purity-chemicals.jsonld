@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Purification of semiconductor process chemicals to 9N+ (99.9999999%) purity: sub-boiling distillation in PTFE/quartz apparatus, isothermal distillation, ion exchange, and zone refining. Electronic-grade HF (<10 ppt metals), H₂O₂ (<100 ppt), HCl, HNO₃, H₂SO₄, IPA, and NH₄OH. Cleanroom packaging in PFA containers under ISO 4 conditions.",
+  "early_win": false,
+  "id": "ultra-pure.high-purity-chemicals",
+  "level": "capability",
+  "name": "High-Purity Chemical Purification",
+  "outputs": [
+    "high_purity_acids",
+    "high_purity_solvents",
+    "high_purity_hydrogen_peroxide"
+  ],
+  "parent": "ultra-pure",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-80"
+}

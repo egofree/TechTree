@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "packaged_ics",
+  "@type": "Product",
+  "name": "Packaged Ics",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

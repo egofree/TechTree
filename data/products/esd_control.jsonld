@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "esd_control",
+  "@type": "Product",
+  "name": "Esd Control",
+  "source": "cleanrooms",
+  "tags": {
+    "capability": [
+      "precision",
+      "construction"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "power_electronics",
+  "@type": "Product",
+  "name": "Power Electronics",
+  "source": "electronics",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

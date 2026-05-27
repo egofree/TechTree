@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "die_attach_film",
+  "@type": "Product",
+  "name": "Die Attach Film",
+  "source": "chemistry.adhesives-coatings",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

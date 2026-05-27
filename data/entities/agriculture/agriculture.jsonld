@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": true,
+  "critical_note": "Food production is the prerequisite for all surplus-dependent civilization development",
+  "description": "Cultivation of food crops, management of soil nutrients, and controlled-environment growing systems. Provides the caloric foundation for civilization — without reliable food production, no specialist labor force exists to develop advanced technology.",
+  "early_win": true,
+  "early_win_note": "Reliable agriculture creates food surplus → specialist labor → faster technological progress",
+  "id": "agriculture",
+  "level": "domain",
+  "name": "Agriculture",
+  "outputs": [
+    "food_crops",
+    "irrigation_systems",
+    "greenhouses"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-50+"
+}

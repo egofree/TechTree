@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/animals.insect-farming__animals.domestication",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "animals.insect-farming",
+  "to": "animals.domestication"
+}

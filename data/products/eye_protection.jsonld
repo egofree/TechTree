@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "eye_protection",
+  "@type": "Product",
+  "name": "Eye Protection",
+  "source": "ehs.ppe",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "polymers"
+    ]
+  }
+}

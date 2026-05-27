@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Cultivation and harvesting of plant species that yield fibers for cordage, textiles, and weaving. Source materials for rope, thread, and fabric production.",
+  "early_win": false,
+  "id": "plants.fiber-plants",
+  "level": "capability",
+  "name": "Fiber Plants",
+  "outputs": [
+    "plant_fibers",
+    "raw_fiber"
+  ],
+  "parent": "plants",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass",
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant.fiber"
+  ],
+  "timeline": "Years 0-10"
+}

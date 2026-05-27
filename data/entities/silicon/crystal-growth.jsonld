@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Czochralski (CZ) crystal pulling from quartz crucibles with precision motion control, wire saw wafering, lapping (2-5 μm TTV), and CMP polishing (<0.5 nm Ra). RCA clean standard for wafer preparation. CZ puller is the most mechanically demanding equipment in the silicon path.",
+  "early_win": false,
+  "id": "silicon.crystal-growth",
+  "level": "capability",
+  "name": "Crystal Growth & Wafering",
+  "outputs": [
+    "single_crystal_ingots",
+    "wafers",
+    "polished_wafers"
+  ],
+  "parent": "silicon",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

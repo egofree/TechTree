@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "machine_foundations",
+  "@type": "Product",
+  "name": "Machine Foundations",
+  "source": "construction.industrial-buildings",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "metals",
+      "stone"
+    ]
+  }
+}

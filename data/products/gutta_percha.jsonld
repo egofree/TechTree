@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "gutta_percha",
+  "@type": "Product",
+  "name": "Gutta Percha",
+  "source": "polymers.rubber.gutta-percha",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

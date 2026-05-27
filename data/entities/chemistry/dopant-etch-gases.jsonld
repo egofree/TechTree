@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Dopant gases (PH₃, AsH₃, B₂H₆ — extremely toxic, lethal at ppm concentrations) and etch gases (CF₄, SF₆, Cl₂, F₂). Fluorine production by KF·2HF electrolysis. Exhaust gas abatement via thermal oxidation and wet scrubbing mandatory for all dopant gas use.",
+  "early_win": false,
+  "id": "chemistry.dopant-etch-gases",
+  "level": "capability",
+  "name": "Dopant & Etch Gases",
+  "outputs": [
+    "dopant_gases",
+    "etch_gases",
+    "fluorine"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "gases",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-70"
+}

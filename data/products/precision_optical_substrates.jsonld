@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "precision_optical_substrates",
+  "@type": "Product",
+  "name": "Precision Optical Substrates",
+  "source": "glass.photomask-substrates",
+  "tags": {
+    "capability": [
+      "optics",
+      "precision"
+    ],
+    "material": [
+      "glass"
+    ]
+  }
+}

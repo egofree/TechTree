@@ -1,0 +1,35 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Industrial production of zinc, lead, tin, nickel, magnesium, and titanium from their ores. Processes include roasting, reduction, electrolysis, distillation (zinc), and the Kroll process (titanium). Enables galvanizing (zinc), batteries (lead), solder (tin), stainless steel and superalloys (nickel), lightweight structural parts (magnesium), and aerospace/medical implants (titanium).",
+  "early_win": false,
+  "id": "metals.non-ferrous",
+  "level": "capability",
+  "name": "Non-Ferrous Metal Production",
+  "outputs": [
+    "zinc",
+    "lead",
+    "tin",
+    "nickel",
+    "magnesium",
+    "titanium_sponge"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-40"
+}

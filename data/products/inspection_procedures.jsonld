@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "inspection_procedures",
+  "@type": "Product",
+  "name": "Inspection Procedures",
+  "source": "quality-control.inspection-sampling",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

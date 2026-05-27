@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "food_crops",
+  "@type": "Product",
+  "name": "Food Crops",
+  "source": "plants.edible-plants",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

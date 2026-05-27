@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Undersea telegraph and telephone cables connecting continents. Gutta-percha insulation (natural latex from Palaquium gutta, dielectric strength 15-25 kV/mm), armored cable construction, cable-laying ships, deep-sea repair operations, and signal amplification. Bandwidth: 1-2 WPM on early transatlantic cables (1858), improving to 100+ WPM with mirror galvanometer and siphon recorder. The first global communications infrastructure.",
+  "early_win": false,
+  "id": "telecom.submarine-cables",
+  "level": "capability",
+  "name": "Submarine Cable Systems",
+  "outputs": [
+    "submarine_cable_capacity",
+    "intercontinental_communication"
+  ],
+  "parent": "telecom",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-55"
+}

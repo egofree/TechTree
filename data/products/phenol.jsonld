@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "phenol",
+  "@type": "Product",
+  "name": "Phenol",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

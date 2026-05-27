@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.electrodialysis__energy.blue-energy",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "chemistry.electrodialysis",
+  "to": "energy.blue-energy"
+}

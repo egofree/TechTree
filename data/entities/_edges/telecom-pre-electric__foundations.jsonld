@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/telecom.pre-electric__foundations",
   "@type": "Dependency",
-  "from": "telecom.pre-electric",
-  "to": "foundations",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "telecom.pre-electric",
+  "to": "foundations"
 }

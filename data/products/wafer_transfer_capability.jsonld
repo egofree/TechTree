@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "wafer_transfer_capability",
+  "@type": "Product",
+  "name": "Wafer Transfer Capability",
+  "source": "automation",
+  "tags": {
+    "capability": [
+      "computing",
+      "transport"
+    ],
+    "material": []
+  }
+}

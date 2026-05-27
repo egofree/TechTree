@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ferrite_cores",
+  "@type": "Product",
+  "name": "Ferrite Cores",
+  "source": "ceramics.electronic-ceramics",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "ceramics"
+    ]
+  }
+}

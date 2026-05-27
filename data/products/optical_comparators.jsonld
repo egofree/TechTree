@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "optical_comparators",
+  "@type": "Product",
+  "name": "Optical Comparators",
+  "source": "optics",
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "material": [
+      "glass"
+    ]
+  }
+}

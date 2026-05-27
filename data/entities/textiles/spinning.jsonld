@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Drop spindle and treadle wheel spinning of fibers into yarn and thread.",
+  "early_win": false,
+  "id": "textiles.spinning",
+  "level": "capability",
+  "name": "Spinning",
+  "outputs": [
+    "yarn",
+    "thread"
+  ],
+  "parent": "textiles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-5"
+}

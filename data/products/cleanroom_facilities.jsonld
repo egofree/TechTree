@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cleanroom_facilities",
+  "@type": "Product",
+  "name": "Cleanroom Facilities",
+  "source": "cleanrooms",
+  "tags": {
+    "capability": [
+      "precision",
+      "construction"
+    ],
+    "material": []
+  }
+}

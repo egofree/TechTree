@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "eda_tools",
+  "@type": "Product",
+  "name": "Eda Tools",
+  "source": "vlsi-scaling",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

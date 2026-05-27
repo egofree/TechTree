@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Microscopes, telescopes, spectrometers, autocollimators, and interferometers used as precision measurement tools. Bridges optics domain to measurement for semiconductor inspection and scientific instrumentation.",
+  "early_win": false,
+  "id": "measurement.optical-instruments",
+  "level": "capability",
+  "name": "Optical Measurement Instruments",
+  "outputs": [
+    "optical_measurement",
+    "microscopy",
+    "spectroscopy"
+  ],
+  "parent": "measurement",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-100+"
+}

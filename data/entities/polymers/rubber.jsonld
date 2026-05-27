@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Natural and synthetic rubber production, vulcanization, and rubber product manufacturing.",
+  "early_win": false,
+  "id": "polymers.rubber",
+  "level": "capability",
+  "name": "Rubber Production",
+  "outputs": [
+    "rubber",
+    "elastomers",
+    "gaskets",
+    "seals"
+  ],
+  "parent": "polymers",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-50"
+}

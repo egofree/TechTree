@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "spill_response",
+  "@type": "Product",
+  "name": "Spill Response",
+  "source": "ehs.emergency-response",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

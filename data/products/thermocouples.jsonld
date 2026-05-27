@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "thermocouples",
+  "@type": "Product",
+  "name": "Thermocouples",
+  "source": "measurement",
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "material": []
+  }
+}

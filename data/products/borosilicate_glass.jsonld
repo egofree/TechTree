@@ -1,0 +1,18 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "borosilicate_glass",
+  "@type": "Product",
+  "name": "Borosilicate Glass",
+  "source": "glass.advanced",
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "glass"
+    ]
+  }
+}

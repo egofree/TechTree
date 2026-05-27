@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Proton exchange membrane fuel cells converting hydrogen and oxygen to electricity, water, and heat. Provides efficient distributed power generation for applications requiring clean, quiet energy conversion.",
+  "early_win": false,
+  "id": "energy.fuel-cell",
+  "level": "capability",
+  "name": "Fuel Cell",
+  "outputs": [
+    "electricity",
+    "water",
+    "heat"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "gases",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

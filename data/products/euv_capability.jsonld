@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "euv_capability",
+  "@type": "Product",
+  "name": "Euv Capability",
+  "source": "vlsi-scaling.advanced-lithography",
+  "tags": {
+    "capability": [
+      "precision",
+      "optics"
+    ],
+    "material": []
+  }
+}

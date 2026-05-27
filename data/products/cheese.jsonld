@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cheese",
+  "@type": "Product",
+  "name": "Cheese",
+  "source": "food-processing",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "biomass",
+      "water"
+    ]
+  }
+}

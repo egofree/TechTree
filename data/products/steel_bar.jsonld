@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "steel_bar",
+  "@type": "Product",
+  "name": "Steel Bar",
+  "source": "metals.forming",
+  "tags": {
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

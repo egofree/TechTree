@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/metals.copper-bronze__metals.copper-bronze",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "recycling-loop",
+  "from": "metals.copper-bronze",
+  "to": "metals.copper-bronze"
+}

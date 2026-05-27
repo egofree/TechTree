@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/economics-organization.accounting__mathematics.core-mathematics",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "economics-organization.accounting",
+  "to": "mathematics.core-mathematics"
+}

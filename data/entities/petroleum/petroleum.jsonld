@@ -1,0 +1,43 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Crude oil extraction (surface seeps through rotary drilling), petroleum refining (atmospheric and vacuum distillation, catalytic cracking, hydrocracking, reforming), and petrochemical feedstock production (ethylene, propylene, BTX aromatics). Organized by process chain from wellhead to chemical building blocks.",
+  "early_win": false,
+  "id": "petroleum",
+  "level": "domain",
+  "name": "Petroleum Extraction & Refining",
+  "outputs": [
+    "crude_oil",
+    "gasoline",
+    "kerosene",
+    "diesel",
+    "fuel_oil",
+    "lubricating_base_oil",
+    "asphalt",
+    "lpg",
+    "ethylene",
+    "propylene",
+    "butadiene",
+    "benzene",
+    "toluene",
+    "xylene",
+    "styrene",
+    "ethylene_oxide"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-50+"
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "chicken_meat",
+  "@type": "Product",
+  "name": "Chicken Meat",
+  "source": "animals.poultry.chickens",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

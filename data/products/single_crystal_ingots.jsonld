@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "single_crystal_ingots",
+  "@type": "Product",
+  "name": "Single Crystal Ingots",
+  "source": "silicon",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

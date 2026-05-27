@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "styrene",
+  "@type": "Product",
+  "name": "Styrene",
+  "source": "petroleum",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

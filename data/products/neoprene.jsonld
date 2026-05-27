@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "neoprene",
+  "@type": "Product",
+  "name": "Neoprene",
+  "source": "polymers.rubber.synthetic",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

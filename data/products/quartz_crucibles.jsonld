@@ -1,0 +1,18 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "quartz_crucibles",
+  "@type": "Product",
+  "name": "Quartz Crucibles",
+  "source": "glass.advanced",
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "glass"
+    ]
+  }
+}

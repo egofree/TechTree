@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "quality_metrics",
+  "@type": "Product",
+  "name": "Quality Metrics",
+  "source": "ultra-pure.analytical-verification",
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

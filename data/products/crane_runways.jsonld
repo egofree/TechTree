@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "crane_runways",
+  "@type": "Product",
+  "name": "Crane Runways",
+  "source": "construction.industrial-buildings",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "metals",
+      "stone"
+    ]
+  }
+}

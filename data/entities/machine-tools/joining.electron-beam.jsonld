@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Focused electron beam (30-150kV accelerating voltage, 10-100mA beam current) welding in vacuum chamber. Deep narrow penetration (depth-to-width 10:1 to 30:1), minimal heat input and distortion. Zero porosity, zero contamination. Critical for UHV vacuum chamber fabrication (leak rates ≤10⁻¹⁰ mbar·L/s), refractory metals, and aerospace components. Single-pass penetration up to 200mm in steel.",
+  "early_win": false,
+  "id": "machine-tools.joining.electron-beam",
+  "level": "process",
+  "name": "Electron Beam Welding",
+  "outputs": [
+    "electron_beam_welds",
+    "hermetic_seals"
+  ],
+  "parent": "machine-tools.joining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-60"
+}

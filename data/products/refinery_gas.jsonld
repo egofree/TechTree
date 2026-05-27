@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "refinery_gas",
+  "@type": "Product",
+  "name": "Refinery Gas",
+  "source": "petroleum.refining",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

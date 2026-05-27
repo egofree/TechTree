@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/glass.photomask-substrates__glass.advanced",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "glass.photomask-substrates",
+  "to": "glass.advanced"
+}

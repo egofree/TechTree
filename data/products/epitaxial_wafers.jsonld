@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "epitaxial_wafers",
+  "@type": "Product",
+  "name": "Epitaxial Wafers",
+  "source": "silicon.wafering",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

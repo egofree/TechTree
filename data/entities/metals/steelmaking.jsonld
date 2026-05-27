@@ -1,0 +1,35 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Modern steelmaking produces the structural material for machinery, construction, transport, and all industrial infrastructure",
+  "description": "Conversion of pig iron and scrap into steel via Bessemer, open-hearth, basic oxygen furnace (BOF), and electric arc furnace (EAF). Ladle metallurgy for secondary refining. Continuous casting for near-net-shape solidification. The dominant process chain for producing 1.9 billion tonnes of steel annually.",
+  "early_win": false,
+  "id": "metals.steelmaking",
+  "level": "capability",
+  "name": "Modern Steelmaking",
+  "outputs": [
+    "steel_billets",
+    "steel_slabs",
+    "steel_blooms",
+    "flat_products",
+    "long_products"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "recyclable",
+      "recycled-feedstock"
+    ],
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

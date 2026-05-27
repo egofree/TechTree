@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "bronze",
+  "@type": "Product",
+  "name": "Bronze",
+  "source": "metals",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

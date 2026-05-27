@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/animals.pest-management__animals.domestication",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "animals.pest-management",
+  "to": "animals.domestication"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Local exhaust ventilation (LEV), gas cabinets with dedicated exhaust, point-of-use abatement (thermal oxidizers, plasma, wet scrubbers), central scrubbing systems, and cleanroom air management for semiconductor fabs. Covers capture velocity design, duct material selection (PVDF for HF, 316L SS for toxic gases), scrubber chemistry, and exhaust monitoring.",
+  "early_win": false,
+  "id": "ehs.ventilation-exhaust",
+  "level": "capability",
+  "name": "Ventilation & Exhaust Systems",
+  "outputs": [
+    "lev_systems",
+    "gas_cabinets",
+    "abatement_systems",
+    "scrubbers",
+    "exhaust_monitoring"
+  ],
+  "parent": "ehs",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-70"
+}

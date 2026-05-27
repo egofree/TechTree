@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Finding, collecting, storing, and transporting water for drinking, sanitation, and agriculture. Water finding by vegetation and geological indicators, rainwater harvesting, spring development, and basic transport infrastructure predating pumped distribution systems.",
+  "early_win": false,
+  "id": "foundations.water-procurement",
+  "level": "capability",
+  "name": "Water Procurement",
+  "outputs": [
+    "fresh_water",
+    "stored_water"
+  ],
+  "parent": "foundations",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-5"
+}

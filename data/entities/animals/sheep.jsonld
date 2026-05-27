@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Raising domesticated sheep (Ovis aries) for wool, mutton, and dairy. Sheep produce 2-5 kg fleece per shearing (60-70% clean fiber yield), reach slaughter weight at 4-6 months, and provide nitrogen-rich manure (0.7% N fresh weight). Wool is the primary fiber for textiles before cotton and synthetics.",
+  "early_win": true,
+  "early_win_note": "Sheep produce wool within the first year, enabling textile production. Fast reproduction (twins common) builds flock quickly.",
+  "id": "animals.sheep",
+  "level": "capability",
+  "name": "Sheep Husbandry",
+  "outputs": [
+    "mutton",
+    "wool",
+    "sheep_milk",
+    "manure"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 1-20+"
+}

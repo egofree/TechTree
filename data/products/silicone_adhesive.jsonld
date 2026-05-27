@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "silicone_adhesive",
+  "@type": "Product",
+  "name": "Silicone Adhesive",
+  "source": "chemistry.adhesives-coatings",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

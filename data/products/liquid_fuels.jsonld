@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "liquid_fuels",
+  "@type": "Product",
+  "name": "Liquid Fuels",
+  "source": "energy.fuels",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "biomass",
+      "chemicals"
+    ]
+  }
+}

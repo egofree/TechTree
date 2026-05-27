@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cryogenic_distillation",
+  "@type": "Product",
+  "name": "Cryogenic Distillation",
+  "source": "cryogenics",
+  "tags": {
+    "capability": [
+      "cooling"
+    ],
+    "material": [
+      "gases"
+    ]
+  }
+}

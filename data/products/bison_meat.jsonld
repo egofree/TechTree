@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "bison_meat",
+  "@type": "Product",
+  "name": "Bison Meat",
+  "source": "animals.bison",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

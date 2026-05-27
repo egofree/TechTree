@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.electrodialysis__chemistry.acid-regeneration",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "chemistry.electrodialysis",
+  "to": "chemistry.acid-regeneration"
+}

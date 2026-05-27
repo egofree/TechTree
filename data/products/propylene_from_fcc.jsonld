@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "propylene_from_fcc",
+  "@type": "Product",
+  "name": "Propylene From Fcc",
+  "source": "petroleum.refining.cracking",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

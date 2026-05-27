@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "dewar_vessels",
+  "@type": "Product",
+  "name": "Dewar Vessels",
+  "source": "cryogenics",
+  "tags": {
+    "capability": [
+      "cooling"
+    ],
+    "material": [
+      "gases"
+    ]
+  }
+}

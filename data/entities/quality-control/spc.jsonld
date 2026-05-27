@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Control charts (X-bar/R for variables, p and c charts for attributes), process capability analysis (Cpk/Ppk with target ≥1.33 minimum, ≥1.67 for critical dimensions), Western Electric out-of-control detection rules, Six Sigma DMAIC methodology, and Gage R&R measurement system validation. The operating system of manufacturing quality — transforms reactive firefighting into proactive defect prevention.",
+  "early_win": false,
+  "id": "quality-control.spc",
+  "level": "capability",
+  "name": "Statistical Process Control",
+  "outputs": [
+    "spc_charts",
+    "cpk_indices",
+    "process_capability_analysis",
+    "six_sigma_metrics",
+    "control_limits"
+  ],
+  "parent": "quality-control",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision",
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-100+"
+}

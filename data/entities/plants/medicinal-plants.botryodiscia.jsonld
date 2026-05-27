@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Botryodiscia is a genus of flowering plants in the family Menispermaceae . It includes a single species, Botryodiscia tetrandra , is a herbaceous perennial vine or scrambling subshrub native native to southern China, Hainan, Taiwan, and Vietnam",
+  "early_win": false,
+  "id": "plants.medicinal-plants.botryodiscia",
+  "level": "process",
+  "name": "Botryodiscia",
+  "outputs": [
+    "medicinal_compounds"
+  ],
+  "parent": "plants.medicinal-plants",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant.medicinal.botryodiscia"
+  ],
+  "timeline": "Years 0-10"
+}

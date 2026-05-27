@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/mining.prospecting__knowledge.writing",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "mining.prospecting",
+  "to": "knowledge.writing"
+}

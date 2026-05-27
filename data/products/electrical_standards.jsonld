@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "electrical_standards",
+  "@type": "Product",
+  "name": "Electrical Standards",
+  "source": "measurement.precision-metrology",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

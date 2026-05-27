@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/silicon.basic-devices__metals.aluminum.semiconductor-grade",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "silicon.basic-devices",
+  "to": "metals.aluminum.semiconductor-grade"
+}

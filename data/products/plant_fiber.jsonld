@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "plant_fiber",
+  "@type": "Product",
+  "name": "Plant Fiber",
+  "source": "plants.fiber-plants.allium-paniculatum",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

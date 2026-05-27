@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Semiconductor manufacturing is impossible without multi-continent supply chain coordination involving hundreds of specialist inputs",
+  "description": "Planning and management of multi-step production sequences, procurement of inputs from diverse sources, and inventory management across distributed operations. Essential when production involves more than 3 sequential specialist steps.",
+  "early_win": false,
+  "id": "economics-organization.supply-chain",
+  "level": "capability",
+  "name": "Supply Chain Coordination",
+  "outputs": [
+    "procurement_planning",
+    "inventory_management",
+    "logistics_coordination"
+  ],
+  "parent": "economics-organization",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "organization",
+      "construction"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-25"
+}

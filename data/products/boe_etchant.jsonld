@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "boe_etchant",
+  "@type": "Product",
+  "name": "Boe Etchant",
+  "source": "chemistry.semiconductor-chemicals",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "go_no_go_gauges",
+  "@type": "Product",
+  "name": "Go No Go Gauges",
+  "source": "measurement.precision-metrology",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "connectors",
+  "@type": "Product",
+  "name": "Connectors",
+  "source": "electronics",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

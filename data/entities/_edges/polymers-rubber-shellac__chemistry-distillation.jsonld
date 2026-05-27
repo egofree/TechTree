@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/polymers.rubber.shellac__chemistry.distillation",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "polymers.rubber.shellac",
+  "to": "chemistry.distillation"
+}

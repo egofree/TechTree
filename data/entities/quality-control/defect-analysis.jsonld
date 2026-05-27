@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Pareto analysis for yield-limiting defect prioritization, fishbone (Ishikawa) diagrams for cause-effect mapping, FMEA with RPN risk ranking (S×O×D), root cause analysis (5 Whys, Kepner-Tregoe), and yield modeling (Murphy's model: Y=[(1-e^(-D₀A))/(D₀A)]², Seeds model). Semiconductor defect density targets: D₀ < 0.10 defects/cm² for mature nodes.",
+  "early_win": false,
+  "id": "quality-control.defect-analysis",
+  "level": "capability",
+  "name": "Defect Analysis & Yield Modeling",
+  "outputs": [
+    "fmea",
+    "pareto_analysis",
+    "fishbone_diagrams",
+    "yield_models",
+    "defect_density",
+    "root_cause_analysis"
+  ],
+  "parent": "quality-control",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision",
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-100+"
+}

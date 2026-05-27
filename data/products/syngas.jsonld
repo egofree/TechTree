@@ -1,0 +1,19 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "syngas",
+  "@type": "Product",
+  "name": "Syngas",
+  "source": "chemistry.petroleum-alternatives.wood-gasification",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "biomass",
+      "gases"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "HEPA/ULPA filtration, contamination control protocols, and purpose-engineered facility design for ultra-clean environments. A single 100 nm particle destroys a semiconductor die; modern nodes are sensitive to particles 10-100× smaller. Clean room technology is the general engineering discipline applicable to semiconductor fab, pharmaceuticals, and aerospace.",
+  "early_win": false,
+  "id": "cleanrooms",
+  "level": "domain",
+  "name": "Clean Room Technology",
+  "outputs": [
+    "cleanrooms",
+    "hepa_filters",
+    "ulpa_filters",
+    "contamination_control_protocols",
+    "iso_classification",
+    "cleanroom_facilities",
+    "esd_control"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision",
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-70"
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Helmeted guinea fowl (Numida meleagris) raised for meat, eggs, and pest control. Guinea fowl are specialist consumers of ticks, insects, and small rodents, providing exceptional pest control services. Their loud alarm calls serve as a guardian function for other poultry. Extremely hardy and disease-resistant.",
+  "early_win": true,
+  "early_win_note": "Outstanding tick and insect control — a flock of guinea fowl can dramatically reduce tick-borne disease risk in the settlement area.",
+  "id": "animals.poultry.guinea-fowl",
+  "level": "process",
+  "name": "Guinea Fowl",
+  "outputs": [
+    "guinea_meat",
+    "eggs",
+    "pest_control",
+    "manure"
+  ],
+  "parent": "animals.poultry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 1-10+"
+}

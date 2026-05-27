@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "blood",
+  "@type": "Product",
+  "name": "Blood",
+  "source": "animals.animal-materials",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Electrical telegraph systems using Morse code over iron or copper wire for long-distance communication. Hub-and-spoke networks with relay stations every 50-100 km. Components: telegraph key, sounder, Daniell cell batteries, pole-line construction. Transforms coordination from days-by-courier to minutes-by-wire. Critical for railway block signaling.",
+  "early_win": false,
+  "id": "transport.telegraph",
+  "level": "capability",
+  "name": "Telegraph Communication",
+  "outputs": [
+    "telegraph",
+    "communication_networks",
+    "block_signaling"
+  ],
+  "parent": "transport",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy",
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40"
+}

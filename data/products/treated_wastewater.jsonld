@@ -1,0 +1,19 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "treated_wastewater",
+  "@type": "Product",
+  "name": "Treated Wastewater",
+  "source": "water.sewage",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "lifecycle": [
+      "waste-source",
+      "waste-sink"
+    ],
+    "material": [
+      "water"
+    ]
+  }
+}

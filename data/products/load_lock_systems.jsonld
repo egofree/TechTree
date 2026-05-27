@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "load_lock_systems",
+  "@type": "Product",
+  "name": "Load Lock Systems",
+  "source": "automation.wafer-handling",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

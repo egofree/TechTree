@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Timber framing and joinery (mortise-tenon, dovetail, scarf joints), stone and masonry construction (ashlar, rubble, brick), roofing systems (timber trusses, slate, tile, metal), waterproofing (bitumen, lead flashing, cementitious coatings), and scaffolding/hoisting systems. The foundational building techniques from which all construction develops.",
+  "early_win": false,
+  "id": "construction.building-materials",
+  "level": "capability",
+  "name": "Building Materials & Methods",
+  "outputs": [
+    "timber_frames",
+    "masonry_walls",
+    "roofing_systems",
+    "waterproofing",
+    "scaffolding",
+    "hoisting_equipment"
+  ],
+  "parent": "construction",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "wood",
+      "stone"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-25"
+}

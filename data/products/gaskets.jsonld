@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "gaskets",
+  "@type": "Product",
+  "name": "Gaskets",
+  "source": "polymers.rubber",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

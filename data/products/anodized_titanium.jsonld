@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "anodized_titanium",
+  "@type": "Product",
+  "name": "Anodized Titanium",
+  "source": "electrochemistry",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals",
+      "chemicals"
+    ]
+  }
+}

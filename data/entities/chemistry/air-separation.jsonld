@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Linde fractional distillation of liquid air producing nitrogen (99-99.99%), oxygen (95-99.5%), and argon (99-99.999%). Argon is critical for CZ crystal growth inert atmosphere. Double-column distillation at cryogenic temperatures with Joule-Thomson cooling.",
+  "early_win": false,
+  "id": "chemistry.air-separation",
+  "level": "capability",
+  "name": "Air Separation & Bulk Gas Production",
+  "outputs": [
+    "argon",
+    "nitrogen",
+    "oxygen"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40"
+}

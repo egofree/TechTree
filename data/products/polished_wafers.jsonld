@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "polished_wafers",
+  "@type": "Product",
+  "name": "Polished Wafers",
+  "source": "silicon.crystal-growth",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

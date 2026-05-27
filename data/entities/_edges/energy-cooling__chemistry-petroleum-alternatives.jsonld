@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.cooling__chemistry.petroleum-alternatives",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "energy.cooling",
+  "to": "chemistry.petroleum-alternatives"
+}

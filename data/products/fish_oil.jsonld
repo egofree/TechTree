@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fish_oil",
+  "@type": "Product",
+  "name": "Fish Oil",
+  "source": "animals.aquaculture",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

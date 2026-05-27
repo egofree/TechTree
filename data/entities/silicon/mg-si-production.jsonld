@@ -1,26 +1,26 @@
 {
   "@context": "../../context.jsonld",
   "@type": "Capability",
-  "id": "silicon.mg-si-production",
-  "name": "Metallurgical-Grade Silicon Production",
-  "level": "capability",
-  "parent": "silicon",
+  "critical": false,
   "description": "Carbothermic reduction of quartz (SiO₂ + 2C → Si + 2CO) in submerged arc electric furnace at 1800-2100°C. Requires 5-30 MW power, produces 97-99% purity MG-Si. Energy consumption: ~11-13 kWh/kg. The starting material for all semiconductor-grade silicon.",
-  "timeline": "Years 30-40",
+  "early_win": false,
+  "id": "silicon.mg-si-production",
+  "level": "capability",
+  "name": "Metallurgical-Grade Silicon Production",
   "outputs": [
     "mg_silicon"
   ],
-  "critical": false,
-  "early_win": false,
+  "parent": "silicon",
   "pinnacle": false,
   "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
     "material": [
       "silicon"
     ],
-    "capability": [],
-    "era": "electronic",
-    "critical": false,
-    "early-win": false,
     "pinnacle": false
-  }
+  },
+  "timeline": "Years 30-40"
 }

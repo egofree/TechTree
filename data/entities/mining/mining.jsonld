@@ -1,0 +1,35 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": true,
+  "critical_note": "Ore access is the hard constraint on every metallurgical process — the mine drainage → steam engine feedback loop drove all of industrialization",
+  "description": "Surface and underground mining methods, rock breaking (hand tools, fire-setting, black powder blasting), mine ventilation, water pumping (manual → water wheel → Newcomen engine), hoisting and transport, and ore dressing (crushing, gravity separation, magnetic separation). Ore access is the hard constraint on every metallurgical process.",
+  "early_win": false,
+  "id": "mining",
+  "level": "domain",
+  "name": "Mining Engineering & Extractive Metallurgy",
+  "outputs": [
+    "copper_ore",
+    "iron_ore",
+    "tin_ore",
+    "coal",
+    "quartz",
+    "sulfur",
+    "fluorite",
+    "concentrated_ore"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "stone",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-50+"
+}

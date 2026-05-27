@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Portland cement from limestone + clay heated to 1450°C, ground with gypsum. Concrete (1:2:4 cement:sand:gravel mix), reinforced concrete with steel rebar, and curing protocols. Dominant building material for factory foundations, dams, roads, and vibration isolation pads.",
+  "early_win": false,
+  "id": "chemistry.cement",
+  "level": "capability",
+  "name": "Cement & Concrete",
+  "outputs": [
+    "cement",
+    "concrete",
+    "reinforced_concrete"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "stone"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-35"
+}

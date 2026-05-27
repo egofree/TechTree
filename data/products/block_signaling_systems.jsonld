@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "block_signaling_systems",
+  "@type": "Product",
+  "name": "Block Signaling Systems",
+  "source": "telecom",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

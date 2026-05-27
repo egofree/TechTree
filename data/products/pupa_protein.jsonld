@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pupa_protein",
+  "@type": "Product",
+  "name": "Pupa Protein",
+  "source": "animals.sericulture",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

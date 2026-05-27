@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "finished_cloth",
+  "@type": "Product",
+  "name": "Finished Cloth",
+  "source": "textiles.finishing",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

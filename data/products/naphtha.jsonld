@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "naphtha",
+  "@type": "Product",
+  "name": "Naphtha",
+  "source": "petroleum.refining.distillation",
+  "tags": {
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Progression from drying and salting through smoking, fermentation, canning, pasteurization, to refrigeration. Food preservation eliminates seasonal starvation cycles and enables long-distance food transport, which directly enables urban workforce concentration and specialist labor.",
+  "early_win": false,
+  "id": "food-processing.preservation",
+  "level": "capability",
+  "name": "Food Preservation",
+  "outputs": [
+    "preserved_food",
+    "canned_food",
+    "pasteurized_food",
+    "refrigerated_food",
+    "dried_food",
+    "salted_food",
+    "smoked_food",
+    "fermented_food"
+  ],
+  "parent": "food-processing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-30+"
+}

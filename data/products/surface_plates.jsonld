@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "surface_plates",
+  "@type": "Product",
+  "name": "Surface Plates",
+  "source": "measurement.precision-metrology",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

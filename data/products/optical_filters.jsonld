@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "optical_filters",
+  "@type": "Product",
+  "name": "Optical Filters",
+  "source": "optics.inspection.optical-coatings",
+  "tags": {
+    "capability": [
+      "optics",
+      "vacuum"
+    ],
+    "material": [
+      "glass"
+    ]
+  }
+}

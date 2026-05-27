@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Phenol-formaldehyde (Bakelite — electrical insulators, photoresist binders), epoxy resins (structural adhesive, die attach, IC encapsulation), phenolic/epoxy FR-4 laminate (PCB substrate), unsaturated polyester resin (fiberglass matrix), and polyurethane (foams, elastomers).",
+  "early_win": false,
+  "id": "polymers.thermosets",
+  "level": "capability",
+  "name": "Thermosetting Polymers",
+  "outputs": [
+    "bakelite",
+    "epoxy",
+    "fr4_laminate",
+    "polyester_resin",
+    "polyurethane_foam"
+  ],
+  "parent": "polymers",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50"
+}

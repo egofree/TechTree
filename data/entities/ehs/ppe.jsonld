@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Respiratory protection (half-face, full-face, SCBA, supplied air), chemical-resistant glove selection (neoprene for HF, nitrile for solvents), eye/face protection, chemical suits, and cleanroom-compatible PPE. PPE selection matrices for HF handling, silane cylinder change, and arsine/phosphine work stations. Includes PPE program management and fit testing.",
+  "early_win": false,
+  "id": "ehs.ppe",
+  "level": "capability",
+  "name": "Personal Protective Equipment",
+  "outputs": [
+    "respiratory_protection",
+    "chemical_suits",
+    "glove_selection",
+    "eye_protection",
+    "ppe_programs"
+  ],
+  "parent": "ehs",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-70"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "boolean_algebra",
+  "@type": "Product",
+  "name": "Boolean Algebra",
+  "source": "mathematics.formal-systems",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

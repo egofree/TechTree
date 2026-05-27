@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "optical_measurement",
+  "@type": "Product",
+  "name": "Optical Measurement",
+  "source": "measurement.optical-instruments",
+  "tags": {
+    "material": []
+  }
+}

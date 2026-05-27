@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/machine-tools.forming__foundations.fire",
   "@type": "Dependency",
-  "from": "machine-tools.forming",
-  "to": "foundations.fire",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "machine-tools.forming",
+  "to": "foundations.fire"
 }

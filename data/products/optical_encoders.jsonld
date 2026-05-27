@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "optical_encoders",
+  "@type": "Product",
+  "name": "Optical Encoders",
+  "source": "precision-motion",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

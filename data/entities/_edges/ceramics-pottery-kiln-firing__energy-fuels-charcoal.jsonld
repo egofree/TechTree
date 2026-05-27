@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/ceramics.pottery.kiln-firing__energy.fuels.charcoal",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "ceramics.pottery.kiln-firing",
+  "to": "energy.fuels.charcoal"
+}

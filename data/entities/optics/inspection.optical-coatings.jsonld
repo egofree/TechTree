@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Thin-film deposition for optical enhancement: MgF₂ anti-reflection coating (quarter-wave, ~100 nm, thermal evaporation at 10⁻⁴ Pa) and aluminum mirror coating (vacuum evaporation, ~100 nm, 88-92% reflectance). Requires vacuum deposition chamber, tungsten/tantalum boats, thickness monitoring. Enables multi-element lens systems and protected mirrors.",
+  "early_win": false,
+  "id": "optics.inspection.optical-coatings",
+  "level": "process",
+  "name": "Optical Coatings",
+  "outputs": [
+    "ar_coatings",
+    "mirror_coatings",
+    "optical_filters"
+  ],
+  "parent": "optics.inspection",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "optics",
+      "vacuum"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 35-50+"
+}

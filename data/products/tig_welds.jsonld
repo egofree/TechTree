@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tig_welds",
+  "@type": "Product",
+  "name": "Tig Welds",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "chemical_hazard_protocols",
+  "@type": "Product",
+  "name": "Chemical Hazard Protocols",
+  "source": "ehs.chemical-safety",
+  "tags": {
+    "capability": [
+      "health",
+      "measurement"
+    ],
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

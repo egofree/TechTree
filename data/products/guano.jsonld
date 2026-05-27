@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "guano",
+  "@type": "Product",
+  "name": "Guano",
+  "source": "animals.poultry.pigeons",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

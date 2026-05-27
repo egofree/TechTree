@@ -1,0 +1,19 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sewage_disposal",
+  "@type": "Product",
+  "name": "Sewage Disposal",
+  "source": "water.sewage",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "lifecycle": [
+      "waste-source",
+      "waste-sink"
+    ],
+    "material": [
+      "water"
+    ]
+  }
+}

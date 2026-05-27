@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "raw_ore",
+  "@type": "Product",
+  "name": "Raw Ore",
+  "source": "mining.extraction",
+  "tags": {
+    "material": [
+      "stone",
+      "metals"
+    ]
+  }
+}

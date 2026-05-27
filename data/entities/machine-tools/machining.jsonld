@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Lathe turning, milling, drilling, and grinding of metal parts to precise dimensions.",
+  "early_win": false,
+  "id": "machine-tools.machining",
+  "level": "capability",
+  "name": "Machining",
+  "outputs": [
+    "machined_parts"
+  ],
+  "parent": "machine-tools",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-25"
+}

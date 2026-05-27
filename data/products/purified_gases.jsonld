@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "purified_gases",
+  "@type": "Product",
+  "name": "Purified Gases",
+  "source": "gas-handling",
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "material": [
+      "gases"
+    ]
+  }
+}

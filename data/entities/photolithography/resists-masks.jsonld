@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Photoresist progression from bitumen (100 μm+) to dichromated gelatin (10-50 μm) to novolac+DNQ (0.5-3 μm, positive tone). Spin coating, exposure (mercury lamp g/h/i-line), development in TMAH, and hard bake. Mask making via photoreduction. Contact/proximity and projection printing tools.",
+  "early_win": false,
+  "id": "photolithography.resists-masks",
+  "level": "capability",
+  "name": "Photoresists, Masks & Lithography",
+  "outputs": [
+    "photoresists",
+    "masks",
+    "lithography_tools",
+    "patterned_wafers"
+  ],
+  "parent": "photolithography",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-70"
+}

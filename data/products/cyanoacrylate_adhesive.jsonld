@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cyanoacrylate_adhesive",
+  "@type": "Product",
+  "name": "Cyanoacrylate Adhesive",
+  "source": "chemistry.adhesives-coatings",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

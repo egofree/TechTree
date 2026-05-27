@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "purity_certification",
+  "@type": "Product",
+  "name": "Purity Certification",
+  "source": "ultra-pure",
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "material": [
+      "water",
+      "chemicals"
+    ]
+  }
+}

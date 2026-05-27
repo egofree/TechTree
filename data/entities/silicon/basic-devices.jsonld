@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Solar cell fabrication (p-type wafer → phosphorus diffusion → SiNₓ AR coating → screen-printed metallization, targeting 15-18% efficiency), point-contact diodes, alloy junction transistors, and diffused transistors. Vacuum evaporation and screen printing for metallization.",
+  "early_win": false,
+  "id": "silicon.basic-devices",
+  "level": "capability",
+  "name": "Basic Semiconductor Devices",
+  "outputs": [
+    "solar_cells",
+    "diodes",
+    "transistors"
+  ],
+  "parent": "silicon",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

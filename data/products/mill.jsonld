@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mill",
+  "@type": "Product",
+  "name": "Mill",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

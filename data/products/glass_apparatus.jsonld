@@ -1,0 +1,18 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "glass_apparatus",
+  "@type": "Product",
+  "name": "Glass Apparatus",
+  "source": "glass.advanced",
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "glass"
+    ]
+  }
+}

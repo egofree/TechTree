@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cleanroom_chemicals",
+  "@type": "Product",
+  "name": "Cleanroom Chemicals",
+  "source": "chemistry.semiconductor-chemicals",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "shellac_varnish",
+  "@type": "Product",
+  "name": "Shellac Varnish",
+  "source": "polymers.rubber.shellac",
+  "tags": {
+    "material": [
+      "polymers",
+      "chemicals"
+    ]
+  }
+}

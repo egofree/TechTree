@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "salted_food",
+  "@type": "Product",
+  "name": "Salted Food",
+  "source": "food-processing.preservation",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "biomass",
+      "chemicals"
+    ]
+  }
+}

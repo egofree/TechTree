@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "peak_power",
+  "@type": "Product",
+  "name": "Peak Power",
+  "source": "energy.storage.pumped-hydro",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "water",
+      "metals"
+    ]
+  }
+}

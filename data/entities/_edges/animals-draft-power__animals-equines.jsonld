@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/animals.draft-power__animals.equines",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "animals.draft-power",
+  "to": "animals.equines"
+}

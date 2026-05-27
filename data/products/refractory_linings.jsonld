@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "refractory_linings",
+  "@type": "Product",
+  "name": "Refractory Linings",
+  "source": "ceramics",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "ceramics",
+      "clay",
+      "stone"
+    ]
+  }
+}

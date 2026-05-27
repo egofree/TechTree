@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "air_bearing_slides",
+  "@type": "Product",
+  "name": "Air Bearing Slides",
+  "source": "precision-motion.nanometer-positioning",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

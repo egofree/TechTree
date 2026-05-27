@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/vlsi-scaling.eda-design__silicon.basic-devices",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "vlsi-scaling.eda-design",
+  "to": "silicon.basic-devices"
+}

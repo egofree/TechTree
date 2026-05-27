@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "photoresist",
+  "@type": "Product",
+  "name": "Photoresist",
+  "source": "chemistry.semiconductor-chemicals",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

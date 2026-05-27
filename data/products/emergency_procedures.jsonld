@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "emergency_procedures",
+  "@type": "Product",
+  "name": "Emergency Procedures",
+  "source": "ehs.emergency-response",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

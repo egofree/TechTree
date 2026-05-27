@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tin_diffusion_barriers",
+  "@type": "Product",
+  "name": "Tin Diffusion Barriers",
+  "source": "metals.specialty-semiconductor",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

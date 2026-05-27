@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "precision_metrology",
+  "@type": "Product",
+  "name": "Precision Metrology",
+  "source": "measurement.precision-metrology",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

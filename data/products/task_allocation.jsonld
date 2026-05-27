@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "task_allocation",
+  "@type": "Product",
+  "name": "Task Allocation",
+  "source": "economics-organization.division-of-labor",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": []
+  }
+}

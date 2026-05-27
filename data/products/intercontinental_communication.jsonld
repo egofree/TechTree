@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "intercontinental_communication",
+  "@type": "Product",
+  "name": "Intercontinental Communication",
+  "source": "telecom.submarine-cables",
+  "tags": {
+    "material": [
+      "metals",
+      "polymers"
+    ]
+  }
+}

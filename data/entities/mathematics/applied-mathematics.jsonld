@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Calculus, linear algebra, differential equations, probability, statistics, and numerical methods for modeling physical systems and quantifying uncertainty. Essential for process engineering, quality control, electronic design, and simulation.",
+  "early_win": false,
+  "id": "mathematics.applied-mathematics",
+  "level": "capability",
+  "name": "Applied Mathematics",
+  "outputs": [
+    "calculus",
+    "linear_algebra",
+    "differential_equations",
+    "probability_theory",
+    "statistical_methods",
+    "numerical_methods"
+  ],
+  "parent": "mathematics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-70"
+}

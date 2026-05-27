@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sand_molds",
+  "@type": "Product",
+  "name": "Sand Molds",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

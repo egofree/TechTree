@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Lens grinding and polishing (rough grind → fine grind → polish with cerium oxide), compound microscopes (40x-1000x), optical comparators, and spectroscopes. Essential for crystal defect inspection and lithography alignment.",
+  "early_win": false,
+  "id": "optics.inspection",
+  "level": "capability",
+  "name": "Optical Inspection",
+  "outputs": [
+    "lenses",
+    "microscopes",
+    "optical_comparators"
+  ],
+  "parent": "optics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40"
+}

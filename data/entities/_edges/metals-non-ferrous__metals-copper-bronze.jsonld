@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/metals.non-ferrous__metals.copper-bronze",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "metals.non-ferrous",
+  "to": "metals.copper-bronze"
+}

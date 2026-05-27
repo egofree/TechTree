@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cream",
+  "@type": "Product",
+  "name": "Cream",
+  "source": "food-processing.dairy",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

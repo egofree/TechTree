@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "solar_cells",
+  "@type": "Product",
+  "name": "Solar Cells",
+  "source": "silicon",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

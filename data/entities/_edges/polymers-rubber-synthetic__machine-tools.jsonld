@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/polymers.rubber.synthetic__machine-tools",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "polymers.rubber.synthetic",
+  "to": "machine-tools"
+}

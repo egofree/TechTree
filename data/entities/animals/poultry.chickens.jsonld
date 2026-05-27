@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Domesticated fowl (Gallus gallus domesticus) raised for eggs and meat. The most widely kept poultry species, producing 200-300 eggs per year for modern layers on just 100-150g feed/day. Dual-purpose breeds provide both eggs and meat, reaching slaughter weight at 12-16 weeks on range.",
+  "early_win": true,
+  "early_win_note": "Point-of-lay at 18-22 weeks, eggs within first year. Minimal space requirements and efficient feed conversion make chickens the fastest livestock to establish.",
+  "id": "animals.poultry.chickens",
+  "level": "process",
+  "name": "Chickens",
+  "outputs": [
+    "eggs",
+    "chicken_meat",
+    "feathers",
+    "manure"
+  ],
+  "parent": "animals.poultry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-5"
+}

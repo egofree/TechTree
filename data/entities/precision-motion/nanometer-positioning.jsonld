@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Sub-micron positioning systems using piezoelectric stack actuators (0.01 nm resolution), air bearing slides (0.01 μm straightness), ironless linear motors (zero cogging), and voice coil actuators. Provides the actuation layer for semiconductor lithography, inspection, and metrology. Includes flexure-guided stages, piezo-walk drives for long travel, and magnetic levitation bearings for vacuum environments.",
+  "early_win": false,
+  "id": "precision-motion.nanometer-positioning",
+  "level": "capability",
+  "name": "Nanometer Positioning",
+  "outputs": [
+    "nano_positioning_stages",
+    "air_bearing_slides",
+    "linear_motor_drives"
+  ],
+  "parent": "precision-motion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 35-55"
+}

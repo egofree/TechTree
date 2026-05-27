@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pure_copper",
+  "@type": "Product",
+  "name": "Pure Copper",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

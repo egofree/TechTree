@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "structural_frames",
+  "@type": "Product",
+  "name": "Structural Frames",
+  "source": "construction",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "wood",
+      "stone"
+    ]
+  }
+}

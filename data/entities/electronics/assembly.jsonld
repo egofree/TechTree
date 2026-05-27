@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "PCB fabrication (single-sided through multi-layer), component placement, soldering (through-hole and surface mount), conformal coating, IC packaging (wire bonding, molding), and testing (ICT, AOI, X-ray, burn-in). Bridges semiconductor device fabrication and functional electronic systems.",
+  "early_win": false,
+  "id": "electronics.assembly",
+  "level": "capability",
+  "name": "Electronics Assembly",
+  "outputs": [
+    "pcb_assemblies",
+    "soldered_joints",
+    "packaged_components"
+  ],
+  "parent": "electronics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "steam_engines",
+  "@type": "Product",
+  "name": "Steam Engines",
+  "source": "energy",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

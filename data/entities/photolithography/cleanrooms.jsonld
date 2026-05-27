@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Cleanroom construction (ISO 6-4, HEPA/ULPA filtration, laminar flow, positive pressure, gowning protocols), ultra-pure water systems (RO + DI + UV + membrane filtration to 18 MΩ·cm), and cleanroom consumables (garments, wipers, gloves). A single 1 μm particle on a wafer can kill an entire chip.",
+  "early_win": false,
+  "id": "photolithography.cleanrooms",
+  "level": "capability",
+  "name": "Cleanrooms",
+  "outputs": [
+    "cleanrooms",
+    "ultra_pure_water",
+    "cleanroom_consumables"
+  ],
+  "parent": "photolithography",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-70"
+}

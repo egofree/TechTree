@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Electrical Discharge Machining (wire EDM ±2μm, sinker EDM), Computer Numerical Control (servo-driven axes, 5-axis machining, ±1μm positioning), and precision/ultra-precision grinding (0.01μm Ra surface finish). These technologies break through conventional machining limits to achieve the sub-micron precision required for semiconductor equipment: wafer stages, lens molds, and IC packaging molds.",
+  "early_win": false,
+  "id": "machine-tools.edm-cnc",
+  "level": "capability",
+  "name": "EDM, CNC & Precision Grinding",
+  "outputs": [
+    "edm_parts",
+    "cnc_machined_parts",
+    "precision_ground_surfaces"
+  ],
+  "parent": "machine-tools",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-50"
+}

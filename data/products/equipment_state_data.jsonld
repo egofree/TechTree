@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "equipment_state_data",
+  "@type": "Product",
+  "name": "Equipment State Data",
+  "source": "automation.equipment-communication",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

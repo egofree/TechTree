@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "eaf_steel",
+  "@type": "Product",
+  "name": "Eaf Steel",
+  "source": "energy.electric-furnaces",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

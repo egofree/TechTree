@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Development of writing systems, ink production, and record-keeping materials.",
+  "early_win": false,
+  "id": "knowledge.writing",
+  "level": "capability",
+  "name": "Writing & Record-Keeping",
+  "outputs": [
+    "writing_system"
+  ],
+  "parent": "knowledge",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-10"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Ion implantation (precise doping control), RIE and DRIE etching (Bosch process), atomic layer deposition (ALD, Angstrom-level control), CMP for global planarization, copper damascene interconnects with low-k dielectrics, multi-level metallization, and advanced solar cells (PERC, bifacial, fine-line metallization).",
+  "early_win": false,
+  "id": "vlsi-scaling.advanced-processes",
+  "level": "capability",
+  "name": "Advanced Processes",
+  "outputs": [
+    "ion_implantation",
+    "ald_films",
+    "copper_interconnects",
+    "cmp_planarization",
+    "high_end_solar"
+  ],
+  "parent": "vlsi-scaling",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 70-200+"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "water_distribution",
+  "@type": "Product",
+  "name": "Water Distribution",
+  "source": "water.distribution",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "water"
+    ]
+  }
+}

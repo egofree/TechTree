@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Electrolytic cells for chlor-alkali (NaCl → Cl₂ + NaOH), water splitting (H₂ + O₂), aluminum Hall-Héroult process, and copper refining. DC power at 2-5V per cell, industrial current 100-10,000+ A. Enables production of ultra-pure hydrogen, chlorine, and aluminum.",
+  "early_win": false,
+  "id": "chemistry.electrolysis",
+  "level": "capability",
+  "name": "Electrolysis",
+  "outputs": [
+    "electrolysis",
+    "chlorine",
+    "hydrogen",
+    "oxygen",
+    "aluminum",
+    "caustic_soda",
+    "pure_copper"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "gases",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-30"
+}

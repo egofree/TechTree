@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "flat_products",
+  "@type": "Product",
+  "name": "Flat Products",
+  "source": "metals.steelmaking",
+  "tags": {
+    "lifecycle": [
+      "recyclable",
+      "recycled-feedstock"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Agrimonia pilosa also known as hairy agrimony , is a flowering plant in the family Rosaceae . It is distributed primarily over the Korean Peninsula , Japan, China, Siberia , and Eastern Europe",
+  "early_win": false,
+  "id": "plants.medicinal-plants.agrimonia-pilosa",
+  "level": "process",
+  "name": "Agrimonia pilosa",
+  "outputs": [
+    "medicinal_compounds"
+  ],
+  "parent": "plants.medicinal-plants",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant.medicinal.agrimonia-pilosa"
+  ],
+  "timeline": "Years 0-10"
+}

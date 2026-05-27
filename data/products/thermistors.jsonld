@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "thermistors",
+  "@type": "Product",
+  "name": "Thermistors",
+  "source": "ceramics.electronic-ceramics",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "ceramics"
+    ]
+  }
+}

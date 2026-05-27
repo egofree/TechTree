@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Collection, conveyance, and treatment of wastewater and sewage. Covers drainage networks, septic systems, primary and secondary treatment, and safe disposal or reuse of treated effluent. Essential for preventing waterborne disease in settled populations.",
+  "early_win": false,
+  "id": "water.sewage",
+  "level": "capability",
+  "name": "Sewage Collection & Treatment",
+  "outputs": [
+    "treated_wastewater",
+    "sewage_disposal"
+  ],
+  "parent": "water",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "lifecycle": [
+      "waste-source",
+      "waste-sink"
+    ],
+    "material": [
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-35"
+}

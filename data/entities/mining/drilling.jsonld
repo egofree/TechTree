@@ -1,0 +1,25 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Mechanical drilling techniques for production blast holes and exploration core sampling. Jackhammer drilling, diamond core drilling, and rotary drilling for both mining operations and geological survey.",
+  "early_win": false,
+  "id": "mining.drilling",
+  "level": "capability",
+  "name": "Mechanical Drilling",
+  "outputs": [
+    "blast_holes",
+    "core_samples"
+  ],
+  "parent": "mining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-100+"
+}

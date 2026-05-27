@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Cleanrooms, photoresist chemistry, mask making, lithography exposure tools, and core fab processes (etch, deposition, doping, metallization). The planar process enables integrated circuits. Expect <1% yield on first IC runs — iteration is essential.",
+  "early_win": false,
+  "id": "photolithography",
+  "level": "domain",
+  "name": "Photolithography & IC Fabrication",
+  "outputs": [
+    "cleanrooms",
+    "photoresists",
+    "masks",
+    "lithography_tools",
+    "fab_processes",
+    "early_ics",
+    "msi"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-70"
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "grain",
+  "@type": "Product",
+  "name": "Grain",
+  "source": "foundations.food-agriculture",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

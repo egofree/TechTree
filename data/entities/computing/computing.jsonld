@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Manual and mechanical calculation aids (abacus, slide rules, nomograms, mathematical tables), mechanical calculators (Pascaline, stepped drum, difference engine), automation (cams, linkages, governors, feedback control), automated machine tools (turret lathe, screw machine), and punch card data processing. Bridges the gap until electronic computers arrive.",
+  "early_win": false,
+  "id": "computing",
+  "level": "domain",
+  "name": "Computing & Automation",
+  "outputs": [
+    "slide_rules",
+    "mechanical_calculators",
+    "automated_machines",
+    "punch_cards",
+    "feedback_control"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-70+"
+}

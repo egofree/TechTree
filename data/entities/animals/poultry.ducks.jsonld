@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Domesticated ducks (Anas platyrhynchos domesticus, Cairina moschata) raised for eggs, meat, and pest control. Khaki Campbell ducks produce 250-340 eggs per year, exceeding most chicken breeds. Ducks are superior foragers of slugs, snails, and aquatic plants, and are more disease-resistant than chickens.",
+  "early_win": true,
+  "early_win_note": "Excellent foragers that control slug and snail populations while producing more eggs than most chicken breeds.",
+  "id": "animals.poultry.ducks",
+  "level": "process",
+  "name": "Ducks",
+  "outputs": [
+    "duck_eggs",
+    "duck_meat",
+    "feathers",
+    "manure"
+  ],
+  "parent": "animals.poultry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-5"
+}

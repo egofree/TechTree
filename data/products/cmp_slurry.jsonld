@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cmp_slurry",
+  "@type": "Product",
+  "name": "Cmp Slurry",
+  "source": "chemistry.semiconductor-chemicals",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

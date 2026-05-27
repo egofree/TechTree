@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Crucible furnaces for aluminum (660°C) and cast iron (1200-1400°C), green sand molding with bentonite binder, pattern making with shrinkage allowance, flask-based casting, and investment casting. Every machine tool starts as a sand-cast iron or aluminum casting.",
+  "early_win": false,
+  "id": "machine-tools.casting",
+  "level": "capability",
+  "name": "Metal Casting",
+  "outputs": [
+    "cast_iron_parts",
+    "cast_aluminum_parts",
+    "sand_molds"
+  ],
+  "parent": "machine-tools",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-15"
+}

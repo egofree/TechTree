@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pig_iron",
+  "@type": "Product",
+  "name": "Pig Iron",
+  "source": "metals.iron-steel.blast-furnace",
+  "tags": {
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

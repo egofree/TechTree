@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/construction__foundations",
   "@type": "Dependency",
-  "from": "construction",
-  "to": "foundations",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "construction",
+  "to": "foundations"
 }

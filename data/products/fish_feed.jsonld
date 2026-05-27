@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fish_feed",
+  "@type": "Product",
+  "name": "Fish Feed",
+  "source": "animals.insect-farming",
+  "tags": {
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

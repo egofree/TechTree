@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "scrubbers",
+  "@type": "Product",
+  "name": "Scrubbers",
+  "source": "ehs.ventilation-exhaust",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "gases"
+    ]
+  }
+}

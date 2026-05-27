@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "oxide_coatings",
+  "@type": "Product",
+  "name": "Oxide Coatings",
+  "source": "electrochemistry.anodizing",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals",
+      "chemicals"
+    ]
+  }
+}

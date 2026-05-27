@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Semiconductor-grade photomask substrate production: fused silica blanks with <250 nm flatness over 152 mm, ULE (ultra-low expansion) titanium silicate glass with near-zero CTE (0±30 ppb/°C) for EUV lithography, precision polishing to <0.5 nm RMS roughness, chromium film sputtering, and defect inspection to sub-micron levels. The dimensional stability and optical quality of photomask glass directly determines achievable feature size in IC fabrication.",
+  "early_win": false,
+  "id": "glass.photomask-substrates",
+  "level": "capability",
+  "name": "Photomask Glass Substrates & ULE Glass",
+  "outputs": [
+    "photomask_blanks",
+    "ule_glass",
+    "precision_optical_substrates"
+  ],
+  "parent": "glass",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "optics",
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-70"
+}

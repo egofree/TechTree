@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "backup_generators",
+  "@type": "Product",
+  "name": "Backup Generators",
+  "source": "energy.electricity",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Semiconductor fab automation: SECS/GEM equipment communication, wafer handling robots, FOUP and AGV material transport, and process control with lot tracking. Organizing axis: functional — capabilities grouped by the automation function they serve (communication, handling, transport, control).",
+  "early_win": false,
+  "id": "automation",
+  "level": "domain",
+  "name": "Automation & Robotics",
+  "outputs": [
+    "secs_gem_communication",
+    "wafer_transfer_capability",
+    "foup_transport",
+    "recipe_management",
+    "lot_tracking"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing",
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-100+"
+}

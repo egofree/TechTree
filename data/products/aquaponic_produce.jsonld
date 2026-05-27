@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "aquaponic_produce",
+  "@type": "Product",
+  "name": "Aquaponic Produce",
+  "source": "agriculture.aquaponics",
+  "tags": {
+    "lifecycle": [
+      "waste-sink",
+      "closed-loop"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Optical component manufacturing and inspection systems. Spans lens grinding and polishing, compound microscopes for defect inspection, optical comparators for dimensional measurement, and spectroscopes for material analysis. Optics enables both quality inspection of manufactured parts and the projection imaging essential for photolithography alignment.",
+  "early_win": false,
+  "id": "optics",
+  "level": "domain",
+  "name": "Optics",
+  "outputs": [
+    "lenses",
+    "microscopes",
+    "optical_comparators"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40"
+}

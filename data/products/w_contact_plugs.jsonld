@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "w_contact_plugs",
+  "@type": "Product",
+  "name": "W Contact Plugs",
+  "source": "metals.specialty-semiconductor",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

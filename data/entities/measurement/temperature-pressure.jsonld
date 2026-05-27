@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Thermocouples, RTDs, pressure gauges, and electrical measurement instruments (galvanometers, Wheatstone bridges). Provides the thermal and pressure sensing needed for furnace control, crystal growth, and process monitoring.",
+  "early_win": false,
+  "id": "measurement.temperature-pressure",
+  "level": "capability",
+  "name": "Temperature & Pressure Measurement",
+  "outputs": [
+    "thermocouples",
+    "temperature_measurement",
+    "electrical_measurement"
+  ],
+  "parent": "measurement",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40"
+}

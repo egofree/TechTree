@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vlsi_designs",
+  "@type": "Product",
+  "name": "Vlsi Designs",
+  "source": "vlsi-scaling.eda-design",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

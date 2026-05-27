@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sulfuric_acid",
+  "@type": "Product",
+  "name": "Sulfuric Acid",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

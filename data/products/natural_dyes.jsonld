@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "natural_dyes",
+  "@type": "Product",
+  "name": "Natural Dyes",
+  "source": "plants",
+  "tags": {
+    "capability": [
+      "health",
+      "construction"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

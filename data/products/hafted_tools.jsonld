@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hafted_tools",
+  "@type": "Product",
+  "name": "Hafted Tools",
+  "source": "foundations.tools-basic",
+  "tags": {
+    "material": [
+      "stone",
+      "wood"
+    ]
+  }
+}

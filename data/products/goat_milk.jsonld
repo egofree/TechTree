@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "goat_milk",
+  "@type": "Product",
+  "name": "Goat Milk",
+  "source": "animals.goats",
+  "tags": {
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Water supply and purification (wells, slow sand filters, chlorination), sewage treatment, hygiene and quarantine protocols, pharmaceutical production (plant-derived and synthetic), PPE fabrication, surgical capability, and gas detection. Skilled workers are the most valuable and irreplaceable resource.",
+  "early_win": false,
+  "id": "health",
+  "level": "domain",
+  "name": "Public Health, Sanitation & Medicine",
+  "outputs": [
+    "clean_water",
+    "sanitation",
+    "pharmaceuticals",
+    "ppe",
+    "surgical_capability",
+    "gas_detection",
+    "quarantine_protocols"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-200+"
+}

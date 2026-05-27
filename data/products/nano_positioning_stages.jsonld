@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nano_positioning_stages",
+  "@type": "Product",
+  "name": "Nano Positioning Stages",
+  "source": "precision-motion",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

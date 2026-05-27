@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "factory_floors",
+  "@type": "Product",
+  "name": "Factory Floors",
+  "source": "construction.industrial-buildings",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "metals",
+      "stone"
+    ]
+  }
+}

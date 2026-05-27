@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "w_tsv_fill",
+  "@type": "Product",
+  "name": "W Tsv Fill",
+  "source": "metals.specialty-semiconductor",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

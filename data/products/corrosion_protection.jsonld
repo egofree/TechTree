@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "corrosion_protection",
+  "@type": "Product",
+  "name": "Corrosion Protection",
+  "source": "marine.infrastructure",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "stone",
+      "metals",
+      "polymers"
+    ]
+  }
+}

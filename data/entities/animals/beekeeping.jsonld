@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Log hive and skep beekeeping for honey and beeswax production. Honey serves as food preservative, antibacterial wound treatment, fermentation substrate for mead, and pill binder. Beeswax is critical for investment casting (enabling precision bronze parts), writing tablets, candle fuel, waterproofing, belt dressing, and dental fillings. Pollination services increase crop yields 20-30%.",
+  "early_win": true,
+  "early_win_note": "Pollination alone increases crop yields 20-30%, and beeswax is critical for investment casting enabling precision bronze parts",
+  "id": "animals.beekeeping",
+  "level": "capability",
+  "name": "Apiculture (Beekeeping)",
+  "outputs": [
+    "honey",
+    "beeswax",
+    "pollination_services"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.animal.insect"
+  ],
+  "timeline": "Years 1-20+"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/water.desalination__energy.electricity",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "water.desalination",
+  "to": "energy.electricity"
+}

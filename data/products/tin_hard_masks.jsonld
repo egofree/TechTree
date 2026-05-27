@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tin_hard_masks",
+  "@type": "Product",
+  "name": "Tin Hard Masks",
+  "source": "metals.specialty-semiconductor",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

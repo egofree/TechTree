@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "chlorosilanes",
+  "@type": "Product",
+  "name": "Chlorosilanes",
+  "source": "silicon.purification",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

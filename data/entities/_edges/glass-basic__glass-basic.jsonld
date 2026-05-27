@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/glass.basic__glass.basic",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "recycling-loop",
+  "from": "glass.basic",
+  "to": "glass.basic"
+}

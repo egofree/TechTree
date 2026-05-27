@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "friction_stir_welds",
+  "@type": "Product",
+  "name": "Friction Stir Welds",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

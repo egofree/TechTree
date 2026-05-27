@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "antidote_protocols",
+  "@type": "Product",
+  "name": "Antidote Protocols",
+  "source": "ehs.toxicology",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

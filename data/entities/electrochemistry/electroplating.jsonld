@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Copper damascene electroplating for semiconductor interconnects using acid sulfate bath with accelerator/suppressor/leveler additives for bottom-up via and trench fill. Nickel, gold, and tin plating for electronics. Pulse reverse plating for sub-100 nm features. Operating at 5-40 mA/cm², 0.3-1.5V cell voltage, 20-25°C bath temperature.",
+  "early_win": false,
+  "id": "electrochemistry.electroplating",
+  "level": "capability",
+  "name": "Electroplating",
+  "outputs": [
+    "copper_interconnects",
+    "plated_nickel",
+    "plated_gold",
+    "plated_tin",
+    "copper_filled_vias"
+  ],
+  "parent": "electrochemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-70"
+}

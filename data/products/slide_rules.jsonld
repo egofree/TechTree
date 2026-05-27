@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "slide_rules",
+  "@type": "Product",
+  "name": "Slide Rules",
+  "source": "computing",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

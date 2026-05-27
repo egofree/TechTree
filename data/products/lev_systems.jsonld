@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "lev_systems",
+  "@type": "Product",
+  "name": "Lev Systems",
+  "source": "ehs.ventilation-exhaust",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "gases"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Frame loom and treadle loom weaving of yarn into cloth, canvas, and sailcloth.",
+  "early_win": false,
+  "id": "textiles.weaving",
+  "level": "capability",
+  "name": "Weaving",
+  "outputs": [
+    "cloth",
+    "canvas"
+  ],
+  "parent": "textiles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-10"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "refrigeration",
+  "@type": "Product",
+  "name": "Refrigeration",
+  "source": "energy",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

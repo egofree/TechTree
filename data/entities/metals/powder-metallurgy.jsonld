@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Production of metal powders (atomization, reduction, carbonyl), consolidation (pressing, sintering), and advanced processes including cemented carbides (WC-Co cutting tools), tungsten and refractory metals, metal injection molding (MIM), hot isostatic pressing (HIP), and additive manufacturing (laser powder bed fusion, electron beam melting). Enables impossible-to-cast alloys, near-net-shape parts, and highest-performance cutting tools.",
+  "early_win": false,
+  "id": "metals.powder-metallurgy",
+  "level": "capability",
+  "name": "Powder Metallurgy & Advanced Materials",
+  "outputs": [
+    "tungsten_products",
+    "cemented_carbides",
+    "PM_structural_parts",
+    "MIM_components",
+    "additive_manufactured_parts"
+  ],
+  "parent": "metals",
+  "pinnacle": true,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": true
+  },
+  "timeline": "Years 30-60"
+}

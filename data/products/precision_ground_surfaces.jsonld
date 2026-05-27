@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "precision_ground_surfaces",
+  "@type": "Product",
+  "name": "Precision Ground Surfaces",
+  "source": "machine-tools.edm-cnc",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

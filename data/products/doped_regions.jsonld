@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "doped_regions",
+  "@type": "Product",
+  "name": "Doped Regions",
+  "source": "photolithography.fab-processes",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "copper_interconnects",
+  "@type": "Product",
+  "name": "Copper Interconnects",
+  "source": "vlsi-scaling.advanced-processes",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

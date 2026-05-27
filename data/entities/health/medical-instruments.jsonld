@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Surgical instrument manufacturing, autoclave design and operation, suture production, and basic medical equipment fabrication. Bridges metals and health domains for healthcare tooling.",
+  "early_win": false,
+  "id": "health.medical-instruments",
+  "level": "capability",
+  "name": "Medical Instrument Manufacturing",
+  "outputs": [
+    "surgical_instruments",
+    "sterilization_equipment",
+    "sutures"
+  ],
+  "parent": "health",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-50+"
+}

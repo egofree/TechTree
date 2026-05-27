@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "artillery",
+  "@type": "Product",
+  "name": "Artillery",
+  "source": "defense.siege-warfare",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "wood",
+      "metals"
+    ]
+  }
+}

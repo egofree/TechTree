@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ammonium_nitrate",
+  "@type": "Product",
+  "name": "Ammonium Nitrate",
+  "source": "chemistry.ammonia",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

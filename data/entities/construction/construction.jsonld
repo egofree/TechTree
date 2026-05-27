@@ -1,0 +1,35 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Building construction from timber framing to reinforced concrete structures. Covers structural engineering (beams, columns, arches, trusses), building materials (timber, masonry, concrete), foundations for heavy industrial machinery, roofing, waterproofing, scaffolding, and hoisting systems. Construction enables all industrial domains — every factory, dam, bridge, and facility must be built.",
+  "early_win": true,
+  "early_win_note": "Shelter and basic structures create immediate value — protected workspaces accelerate all other activities",
+  "id": "construction",
+  "level": "domain",
+  "name": "Construction & Structural Engineering",
+  "outputs": [
+    "buildings",
+    "structural_frames",
+    "foundations",
+    "roofs",
+    "scaffolding",
+    "industrial_facilities"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "wood",
+      "stone"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-40"
+}

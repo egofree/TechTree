@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/plants.edible-plants.allium-ampeloprasum__plants.edible-plants",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "plants.edible-plants.allium-ampeloprasum",
+  "to": "plants.edible-plants"
+}

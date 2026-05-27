@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Glass fiber production for insulation wool and textile-grade fiberglass reinforcement. Rotary fiberization for insulation, bushing drawing for continuous filaments, and sizing application for composite reinforcement.",
+  "early_win": false,
+  "id": "glass.fibers",
+  "level": "capability",
+  "name": "Glass Fiber Production",
+  "outputs": [
+    "glass_fiber",
+    "fiberglass_insulation",
+    "fiberglass_roving"
+  ],
+  "parent": "glass",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-100+"
+}

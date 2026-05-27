@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Manufacturing of graphite electrodes from petroleum coke and coal tar pitch via extrusion, baking (800-1200°C), and graphitization (2500-3000°C). Bootstrapping challenge: need electrodes for EAF but need EAF for graphitization. Amorphous carbon electrodes bridge the gap.",
+  "early_win": false,
+  "id": "energy.electric-furnaces.electrode-manufacturing",
+  "level": "process",
+  "name": "Graphite Electrode Manufacturing",
+  "outputs": [
+    "graphite_electrodes",
+    "amorphous_carbon_electrodes"
+  ],
+  "parent": "energy.electric-furnaces",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

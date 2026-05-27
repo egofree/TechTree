@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "governance_structures",
+  "@type": "Product",
+  "name": "Governance Structures",
+  "source": "economics-organization",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": []
+  }
+}

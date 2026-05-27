@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "higher_yield",
+  "@type": "Product",
+  "name": "Higher Yield",
+  "source": "vlsi-scaling.continuous-scaling",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

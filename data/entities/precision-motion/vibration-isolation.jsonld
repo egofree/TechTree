@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Passive pneumatic isolation (0.5-3 Hz natural frequency), active feedback cancellation with voice coil actuators and geophone sensors, foundation inertia blocks, and VC-curve vibration specifications for semiconductor fabs. Creates the ultra-quiet mechanical environment required for nanometer-precision work by attenuating floor vibration from machinery, traffic, and HVAC systems.",
+  "early_win": false,
+  "id": "precision-motion.vibration-isolation",
+  "level": "capability",
+  "name": "Vibration Isolation",
+  "outputs": [
+    "vibration_isolation_systems",
+    "isolation_platforms",
+    "vibration_specs"
+  ],
+  "parent": "precision-motion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 35-60"
+}

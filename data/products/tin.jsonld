@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tin",
+  "@type": "Product",
+  "name": "Tin",
+  "source": "metals.non-ferrous",
+  "tags": {
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

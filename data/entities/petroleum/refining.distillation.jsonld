@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "ADU separates crude into naphtha (40-180°C), kerosene (180-260°C), diesel (260-350°C), and atmospheric residue. VDU processes residue at 10-30 mmHg to produce vacuum gas oil and vacuum residue. Together they provide the primary separation that all downstream units depend on.",
+  "early_win": false,
+  "id": "petroleum.refining.distillation",
+  "level": "process",
+  "name": "Atmospheric & Vacuum Distillation",
+  "outputs": [
+    "naphtha",
+    "kerosene",
+    "diesel",
+    "atmospheric_residue",
+    "vacuum_gas_oil",
+    "vacuum_residue"
+  ],
+  "parent": "petroleum.refining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "chicken_feed",
+  "@type": "Product",
+  "name": "Chicken Feed",
+  "source": "animals.insect-farming",
+  "tags": {
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

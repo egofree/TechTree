@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "particle_monitoring",
+  "@type": "Product",
+  "name": "Particle Monitoring",
+  "source": "cleanrooms.contamination-control",
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "material": [
+      "polymers"
+    ]
+  }
+}

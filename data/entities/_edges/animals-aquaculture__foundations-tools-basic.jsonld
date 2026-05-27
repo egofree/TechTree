@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/animals.aquaculture__foundations.tools-basic",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "animals.aquaculture",
+  "to": "foundations.tools-basic"
+}

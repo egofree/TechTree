@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Fish farming and capture fisheries including pond construction, fish stocking, net making, trap construction, and fish processing (drying, smoking, salting). Provides high-quality protein from aquatic systems that do not compete with land-based agriculture.",
+  "early_win": false,
+  "id": "animals.aquaculture",
+  "level": "capability",
+  "name": "Aquaculture & Fisheries",
+  "outputs": [
+    "fish",
+    "shellfish",
+    "fish_oil",
+    "fishmeal"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.animal.aquatic"
+  ],
+  "timeline": "Years 2-30+"
+}

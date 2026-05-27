@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Artemisia absinthium , otherwise known as common wormwood , is a species of Artemisia native to North Africa and temperate regions of Eurasia , and widely naturalized in Canada and the northern United States",
+  "early_win": false,
+  "id": "plants.edible-plants.artemisia-absinthium",
+  "level": "process",
+  "name": "Artemisia absinthium",
+  "outputs": [
+    "edible_plant_material"
+  ],
+  "parent": "plants.edible-plants",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant.edible.artemisia-absinthium"
+  ],
+  "timeline": "Years 0-10"
+}

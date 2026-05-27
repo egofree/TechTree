@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "electrolysis",
+  "@type": "Product",
+  "name": "Electrolysis",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

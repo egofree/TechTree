@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "extruded_parts",
+  "@type": "Product",
+  "name": "Extruded Parts",
+  "source": "polymers.composites",
+  "tags": {
+    "material": [
+      "polymers",
+      "fibers"
+    ]
+  }
+}

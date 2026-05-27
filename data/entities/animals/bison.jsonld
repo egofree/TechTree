@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Raising American bison (Bison bison) for meat and hides on grassland. Bison are naturally hardy with minimal health issues, requiring no shelter in most climates and finishing on grass alone. Their meat is leaner and higher in protein than beef. Handling requires reinforced facilities due to wild temperament and 1.8m jumping ability.",
+  "early_win": false,
+  "id": "animals.bison",
+  "level": "capability",
+  "name": "Bison Husbandry",
+  "outputs": [
+    "bison_meat",
+    "bison_hides",
+    "manure"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30+"
+}

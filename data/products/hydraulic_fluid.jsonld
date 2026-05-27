@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hydraulic_fluid",
+  "@type": "Product",
+  "name": "Hydraulic Fluid",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

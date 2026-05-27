@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fishmeal",
+  "@type": "Product",
+  "name": "Fishmeal",
+  "source": "animals.aquaculture",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

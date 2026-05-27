@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Plain journal bearings (babbitt metal), rolling element ball bearings (52100 steel), natural abrasives (emery, sandstone) and synthetic abrasives (SiC, Al₂O₃ from electric arc furnace), cutting tool materials (carbon steel, HSS), thread cutting on lathe, and tap and die production.",
+  "early_win": false,
+  "id": "machine-tools.bearings-abrasives",
+  "level": "capability",
+  "name": "Bearings, Abrasives & Cutting Tools",
+  "outputs": [
+    "bearings",
+    "ball_bearings",
+    "abrasives",
+    "cutting_tools",
+    "taps",
+    "dies",
+    "hss_tool_bits"
+  ],
+  "parent": "machine-tools",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-25"
+}

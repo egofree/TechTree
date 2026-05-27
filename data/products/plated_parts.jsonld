@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "plated_parts",
+  "@type": "Product",
+  "name": "Plated Parts",
+  "source": "metals.finishing",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

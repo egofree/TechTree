@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "draft_power",
+  "@type": "Product",
+  "name": "Draft Power",
+  "source": "animals.cattle",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

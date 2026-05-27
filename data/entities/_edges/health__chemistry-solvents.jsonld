@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/health__chemistry.solvents",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "health",
+  "to": "chemistry.solvents"
+}

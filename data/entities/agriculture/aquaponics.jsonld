@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Integrated fish and plant production system where fish waste provides nutrients for plants, and plants filter water for fish. Aquaponics uses natural biological nitrogen cycling (ammonia → nitrite → nitrate) without chemical pH adjustment, producing both fish protein and vegetables in a single recirculating system. Simpler and lower-tech than hydroponic pH control systems.",
+  "early_win": false,
+  "id": "agriculture.aquaponics",
+  "level": "capability",
+  "name": "Aquaponics",
+  "outputs": [
+    "fish",
+    "vegetables",
+    "herbs",
+    "aquaponic_produce"
+  ],
+  "parent": "agriculture",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "lifecycle": [
+      "waste-sink",
+      "closed-loop"
+    ],
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30+"
+}

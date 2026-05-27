@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "heat",
+  "@type": "Product",
+  "name": "Heat",
+  "source": "energy.fuel-cell",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "gases",
+      "chemicals"
+    ]
+  }
+}

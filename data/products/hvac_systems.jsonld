@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hvac_systems",
+  "@type": "Product",
+  "name": "Hvac Systems",
+  "source": "cleanrooms.facility-design",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

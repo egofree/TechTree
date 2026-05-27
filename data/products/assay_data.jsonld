@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "assay_data",
+  "@type": "Product",
+  "name": "Assay Data",
+  "source": "mining.prospecting",
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "material": []
+  }
+}

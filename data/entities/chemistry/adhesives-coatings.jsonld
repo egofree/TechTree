@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Natural adhesives (hide glue, casein, starch paste, birch tar), synthetic adhesives (phenolic resin, epoxy, cyanoacrylate, silicone RTV, UV-cure), semiconductor-specific adhesives (epoxy molding compounds, die attach films), and metal coating processes (anodizing). Spans stone-age birch tar hafting to semiconductor encapsulation — adhesive technology connects every era of industrial development.",
+  "early_win": false,
+  "id": "chemistry.adhesives-coatings",
+  "level": "capability",
+  "name": "Adhesives & Specialty Coatings",
+  "outputs": [
+    "adhesives",
+    "epoxy_adhesive",
+    "phenolic_adhesive",
+    "silicone_adhesive",
+    "cyanoacrylate_adhesive",
+    "epoxy_molding_compound",
+    "die_attach_film",
+    "anodized_aluminum",
+    "galvanized_steel"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-70+"
+}

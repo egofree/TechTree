@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "run_to_run_control",
+  "@type": "Product",
+  "name": "Run To Run Control",
+  "source": "automation.process-control",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "insulated_wire",
+  "@type": "Product",
+  "name": "Insulated Wire",
+  "source": "energy.electricity",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

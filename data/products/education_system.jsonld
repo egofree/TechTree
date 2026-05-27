@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "education_system",
+  "@type": "Product",
+  "name": "Education System",
+  "source": "knowledge",
+  "tags": {
+    "material": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Without SECS/GEM communication, every tool requires custom integration software and centralized fab automation is impossible",
+  "description": "SECS-I/II, HSMS, and GEM protocols for standardized semiconductor equipment data exchange, remote control, alarm management, and recipe transfer.",
+  "early_win": false,
+  "id": "automation.equipment-communication",
+  "level": "capability",
+  "name": "Equipment Communication",
+  "outputs": [
+    "secs_gem_communication",
+    "equipment_state_data",
+    "alarm_events",
+    "process_trace_data"
+  ],
+  "parent": "automation",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-80"
+}

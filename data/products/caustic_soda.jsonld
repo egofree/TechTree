@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "caustic_soda",
+  "@type": "Product",
+  "name": "Caustic Soda",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

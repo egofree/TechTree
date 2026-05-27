@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "char_cloth",
+  "@type": "Product",
+  "name": "Char Cloth",
+  "source": "energy.fuels.charcoal",
+  "tags": {
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

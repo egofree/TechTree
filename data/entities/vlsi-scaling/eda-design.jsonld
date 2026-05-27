@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Electronic Design Automation (logic synthesis, place and route, SPICE simulation, DRC), GPU architecture with billions of transistors, advanced packaging (wire bonding, flip-chip, chiplets, 3D stacking with TSVs), and software stack (drivers, compilers, libraries).",
+  "early_win": false,
+  "id": "vlsi-scaling.eda-design",
+  "level": "capability",
+  "name": "EDA, GPU Design & Advanced Packaging",
+  "outputs": [
+    "eda_tools",
+    "gpus",
+    "advanced_packaging",
+    "vlsi_designs"
+  ],
+  "parent": "vlsi-scaling",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 70-200+"
+}

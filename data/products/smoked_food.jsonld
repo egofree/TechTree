@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "smoked_food",
+  "@type": "Product",
+  "name": "Smoked Food",
+  "source": "food-processing.preservation",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "biomass",
+      "chemicals"
+    ]
+  }
+}

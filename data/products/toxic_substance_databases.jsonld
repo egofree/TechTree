@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "toxic_substance_databases",
+  "@type": "Product",
+  "name": "Toxic Substance Databases",
+  "source": "ehs.toxicology",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

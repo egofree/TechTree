@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/animals.beekeeping__foundations.tools-basic",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "animals.beekeeping",
+  "to": "foundations.tools-basic"
+}

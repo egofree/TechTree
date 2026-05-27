@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "firebrick",
+  "@type": "Product",
+  "name": "Firebrick",
+  "source": "chemistry.refractories",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "ceramics",
+      "stone"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Power distribution wiring, switches, connectors, fuses, circuit breakers, transformers, motor-generator sets, power electronics (rectifiers, inverters, VFDs), and electrical safety systems. The infrastructure that delivers electricity from generators to loads.",
+  "early_win": false,
+  "id": "electronics.electrical-systems",
+  "level": "capability",
+  "name": "Electrical Systems",
+  "outputs": [
+    "wiring_harnesses",
+    "switches",
+    "connectors",
+    "circuit_breakers",
+    "transformers",
+    "power_electronics"
+  ],
+  "parent": "electronics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

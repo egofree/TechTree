@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/photolithography.resists-masks__glass.basic",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "photolithography.resists-masks",
+  "label": "mask blanks from glass substrates",
+  "to": "glass.basic"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/plants.medicinal-plants.botryodiscia__plants.medicinal-plants",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "plants.medicinal-plants.botryodiscia",
+  "to": "plants.medicinal-plants"
+}

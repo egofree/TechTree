@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Thermodynamic principles and cycle architectures for cooling from ambient to cryogenic temperatures: vapor-compression, absorption, Joule-Thomson effect, Linde cycle, Claude cycle with expansion turbines, Stirling and pulse tube cryocoolers. Provides the refrigeration knowledge base required for air separation and gas liquefaction.",
+  "early_win": false,
+  "id": "cryogenics.refrigeration",
+  "level": "capability",
+  "name": "Refrigeration Fundamentals",
+  "outputs": [
+    "refrigeration_cycles",
+    "cryogenic_cooling",
+    "expansion_engines"
+  ],
+  "parent": "cryogenics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "cooling"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-30"
+}

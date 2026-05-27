@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Evolution of marine propulsion from oar power through sail, steam, and diesel. Covers marine-specific engine adaptations (compound steam engines, triple-expansion engines, marine diesels), propeller design and efficiency, paddle wheels vs. screw propellers, and power-to-weight considerations for shipboard use.",
+  "early_win": false,
+  "id": "marine.propulsion",
+  "level": "capability",
+  "name": "Marine Propulsion Systems",
+  "outputs": [
+    "marine_engines",
+    "propellers",
+    "paddle_wheels"
+  ],
+  "parent": "marine",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy",
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-50+"
+}

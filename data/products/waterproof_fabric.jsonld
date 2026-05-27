@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "waterproof_fabric",
+  "@type": "Product",
+  "name": "Waterproof Fabric",
+  "source": "textiles.finishing",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

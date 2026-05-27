@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Natural and synthetic dye preparation and application to textiles.",
+  "early_win": false,
+  "id": "textiles.dyeing",
+  "level": "capability",
+  "name": "Dyeing",
+  "outputs": [
+    "dyed_cloth"
+  ],
+  "parent": "textiles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "fibers",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-10"
+}

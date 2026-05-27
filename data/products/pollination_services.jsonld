@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pollination_services",
+  "@type": "Product",
+  "name": "Pollination Services",
+  "source": "animals",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

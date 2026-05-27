@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "basic_glass",
+  "@type": "Product",
+  "name": "Basic Glass",
+  "source": "glass.basic",
+  "tags": {
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "glass"
+    ]
+  }
+}

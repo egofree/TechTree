@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "gas_handling",
+  "@type": "Product",
+  "name": "Gas Handling",
+  "source": "gas-handling",
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "material": [
+      "gases"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ball_bearings",
+  "@type": "Product",
+  "name": "Ball Bearings",
+  "source": "machine-tools.bearings-abrasives",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

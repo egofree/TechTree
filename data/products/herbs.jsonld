@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "herbs",
+  "@type": "Product",
+  "name": "Herbs",
+  "source": "agriculture.aquaponics",
+  "tags": {
+    "lifecycle": [
+      "waste-sink",
+      "closed-loop"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "diffusion_bonds",
+  "@type": "Product",
+  "name": "Diffusion Bonds",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

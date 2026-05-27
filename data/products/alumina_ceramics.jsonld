@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "alumina_ceramics",
+  "@type": "Product",
+  "name": "Alumina Ceramics",
+  "source": "ceramics",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "ceramics",
+      "clay",
+      "stone"
+    ]
+  }
+}

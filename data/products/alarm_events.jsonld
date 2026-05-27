@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "alarm_events",
+  "@type": "Product",
+  "name": "Alarm Events",
+  "source": "automation.equipment-communication",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

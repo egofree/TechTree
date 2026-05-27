@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Detailed leather production: hide preparation (curing, soaking, fleshing, dehairing, deliming), tanning methods (vegetable, chrome, alum, oil, brain, combined), post-tanning operations (splitting, shaving, dyeing, fat-liquoring, finishing), mechanical properties, leather products (drive belts, shoes, gaskets, protective clothing), wastewater treatment, rawhide and parchment, quality grading, leather working and fabrication techniques, industrial applications, and testing standards.",
+  "early_win": false,
+  "id": "animals.leather",
+  "level": "capability",
+  "name": "Leather Production",
+  "outputs": [
+    "leather",
+    "rawhide",
+    "tanned_hides",
+    "parchment",
+    "chamois_leather"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.animal.leather"
+  ],
+  "timeline": "Years 5-15"
+}

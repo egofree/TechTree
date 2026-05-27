@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "silane",
+  "@type": "Product",
+  "name": "Silane",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "chlorine",
+  "@type": "Product",
+  "name": "Chlorine",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "field_fortifications",
+  "@type": "Product",
+  "name": "Field Fortifications",
+  "source": "defense.siege-warfare",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "wood",
+      "metals"
+    ]
+  }
+}

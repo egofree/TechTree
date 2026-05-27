@@ -1,0 +1,35 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Advanced ceramics provide the furnace linings, crucibles, and high-temperature components that make silicon processing and industrial-scale metallurgy possible",
+  "description": "High-performance technical ceramics (alumina, zirconia, silicon carbide, silicon nitride) and refractory linings for furnaces, kilns, and high-temperature industrial processes",
+  "early_win": false,
+  "id": "ceramics.advanced-ceramics",
+  "level": "capability",
+  "name": "Advanced Ceramics & Refractories",
+  "outputs": [
+    "alumina_ceramics",
+    "zirconia_ceramics",
+    "silicon_carbide",
+    "silicon_nitride",
+    "refractory_linings",
+    "ceramic_insulation",
+    "technical_ceramics"
+  ],
+  "parent": "ceramics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-50"
+}

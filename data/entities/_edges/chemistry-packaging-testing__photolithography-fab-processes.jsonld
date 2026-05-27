@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.packaging-testing__photolithography.fab-processes",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "chemistry.packaging-testing",
+  "to": "photolithography.fab-processes"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "aql_tables",
+  "@type": "Product",
+  "name": "Aql Tables",
+  "source": "quality-control.inspection-sampling",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

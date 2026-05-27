@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hoisting_equipment",
+  "@type": "Product",
+  "name": "Hoisting Equipment",
+  "source": "construction.building-materials",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "wood",
+      "stone"
+    ]
+  }
+}

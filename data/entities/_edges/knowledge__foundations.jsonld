@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/knowledge__foundations",
   "@type": "Dependency",
-  "from": "knowledge",
-  "to": "foundations",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "knowledge",
+  "to": "foundations"
 }

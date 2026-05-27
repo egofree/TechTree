@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/foundations.food-agriculture__animals.rabbits",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "foundations.food-agriculture",
+  "to": "animals.rabbits"
+}

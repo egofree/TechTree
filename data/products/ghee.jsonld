@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ghee",
+  "@type": "Product",
+  "name": "Ghee",
+  "source": "food-processing.dairy",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

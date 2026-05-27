@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "water_power",
+  "@type": "Product",
+  "name": "Water Power",
+  "source": "energy",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

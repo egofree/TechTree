@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electronics.electrical-systems__polymers.thermoplastics",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "electronics.electrical-systems",
+  "to": "polymers.thermoplastics"
+}

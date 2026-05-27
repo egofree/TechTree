@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "butadiene",
+  "@type": "Product",
+  "name": "Butadiene",
+  "source": "petroleum",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

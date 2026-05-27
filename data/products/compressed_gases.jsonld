@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "compressed_gases",
+  "@type": "Product",
+  "name": "Compressed Gases",
+  "source": "gas-handling",
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "material": [
+      "gases"
+    ]
+  }
+}

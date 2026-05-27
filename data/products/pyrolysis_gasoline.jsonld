@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pyrolysis_gasoline",
+  "@type": "Product",
+  "name": "Pyrolysis Gasoline",
+  "source": "petroleum.petrochemicals.steam-cracking",
+  "tags": {
+    "material": [
+      "chemicals",
+      "polymers"
+    ]
+  }
+}

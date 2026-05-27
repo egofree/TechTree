@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "communication_networks",
+  "@type": "Product",
+  "name": "Communication Networks",
+  "source": "transport.telegraph",
+  "tags": {
+    "capability": [
+      "energy",
+      "transport"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "carbon_fiber",
+  "@type": "Product",
+  "name": "Carbon Fiber",
+  "source": "polymers.composites",
+  "tags": {
+    "material": [
+      "polymers",
+      "fibers"
+    ]
+  }
+}

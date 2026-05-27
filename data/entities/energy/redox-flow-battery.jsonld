@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Vanadium or zinc-bromine redox flow batteries for grid-scale energy storage. Stores energy in liquid electrolytes separated by ion-exchange membranes, enabling decoupled power and energy scaling for industrial load management.",
+  "early_win": false,
+  "id": "energy.redox-flow-battery",
+  "level": "capability",
+  "name": "Redox Flow Battery",
+  "outputs": [
+    "stored_energy",
+    "electricity"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "closed-loop"
+    ],
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

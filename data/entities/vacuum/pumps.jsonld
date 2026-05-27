@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Roughing pumps (rotary vane 10⁻³ Torr, scroll 10⁻² mbar oil-free), high-vacuum pumps (turbomolecular 10⁻¹⁰ mbar, diffusion 10⁻⁸ Torr), and UHV pumps (cryopump 10⁻¹¹ Torr, ion pump 10⁻¹¹ Torr, NEG, titanium sublimation). Pump selection matrix by semiconductor application, backing pump sizing, pump-down time calculations, and maintenance schedules.",
+  "early_win": false,
+  "id": "vacuum.pumps",
+  "level": "capability",
+  "name": "Vacuum Pumps",
+  "outputs": [
+    "roughing_pumps",
+    "high_vacuum_pumps",
+    "uhv_pumps"
+  ],
+  "parent": "vacuum",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40"
+}

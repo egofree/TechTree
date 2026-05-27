@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mathematical_reasoning",
+  "@type": "Product",
+  "name": "Mathematical Reasoning",
+  "source": "mathematics",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

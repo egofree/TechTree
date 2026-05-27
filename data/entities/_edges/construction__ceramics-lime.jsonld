@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/construction__ceramics.lime",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "construction",
+  "to": "ceramics.lime"
+}

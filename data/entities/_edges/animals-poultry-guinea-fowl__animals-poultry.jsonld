@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/animals.poultry.guinea-fowl__animals.poultry",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "animals.poultry.guinea-fowl",
+  "to": "animals.poultry"
+}

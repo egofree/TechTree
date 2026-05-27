@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Ultra-high-purity aluminum (5N-6N, 99.999-99.9999%) for semiconductor metallization via three-layer electrolysis (Hoopes process) and zone refining. Produces sputtering targets and evaporation sources for IC interconnect layers, bond pads, and display panel metallization. Critical impurity limits: Fe, Si <3 ppm; U/Th <1 ppb.",
+  "early_win": false,
+  "id": "metals.aluminum.semiconductor-grade",
+  "level": "process",
+  "name": "Semiconductor-Grade Aluminum Production",
+  "outputs": [
+    "semiconductor_grade_aluminum",
+    "sputtering_targets",
+    "high_purity_aluminum"
+  ],
+  "parent": "metals.aluminum",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-70"
+}

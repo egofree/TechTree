@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "crucibles",
+  "@type": "Product",
+  "name": "Crucibles",
+  "source": "ceramics",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "ceramics",
+      "clay",
+      "stone"
+    ]
+  }
+}

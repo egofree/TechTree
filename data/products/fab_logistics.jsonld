@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fab_logistics",
+  "@type": "Product",
+  "name": "Fab Logistics",
+  "source": "automation.material-transport",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": []
+  }
+}

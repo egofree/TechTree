@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "industrial_ethanol",
+  "@type": "Product",
+  "name": "Industrial Ethanol",
+  "source": "food-processing.brewing",
+  "tags": {
+    "material": [
+      "biomass",
+      "water"
+    ]
+  }
+}

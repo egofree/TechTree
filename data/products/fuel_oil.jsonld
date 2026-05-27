@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fuel_oil",
+  "@type": "Product",
+  "name": "Fuel Oil",
+  "source": "petroleum",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

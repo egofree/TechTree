@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "rotary_power",
+  "@type": "Product",
+  "name": "Rotary Power",
+  "source": "energy.steam-power",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

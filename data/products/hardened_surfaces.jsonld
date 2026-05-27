@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hardened_surfaces",
+  "@type": "Product",
+  "name": "Hardened Surfaces",
+  "source": "metals.finishing",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

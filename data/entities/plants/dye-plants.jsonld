@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Cultivation and processing of plant species that yield natural colorants for dyeing textiles, leather, and other materials. Source of indigo, madder, weld, and other traditional dyes.",
+  "early_win": false,
+  "id": "plants.dye-plants",
+  "level": "capability",
+  "name": "Dye Plants",
+  "outputs": [
+    "natural_dyes",
+    "plant_pigments"
+  ],
+  "parent": "plants",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant.dye"
+  ],
+  "timeline": "Years 5-10"
+}

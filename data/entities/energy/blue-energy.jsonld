@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Pressure-retarded osmosis and reverse electrodialysis generating electricity from the salinity gradient between freshwater and seawater. Uses ion-selective membranes to convert chemical potential difference into electrical power.",
+  "early_win": false,
+  "id": "energy.blue-energy",
+  "level": "capability",
+  "name": "Blue Energy (Osmotic Power)",
+  "outputs": [
+    "electricity"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 35-55"
+}

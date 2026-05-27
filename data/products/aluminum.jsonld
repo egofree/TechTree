@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "aluminum",
+  "@type": "Product",
+  "name": "Aluminum",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

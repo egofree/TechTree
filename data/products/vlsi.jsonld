@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vlsi",
+  "@type": "Product",
+  "name": "Vlsi",
+  "source": "vlsi-scaling",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

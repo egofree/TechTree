@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fertile_soil",
+  "@type": "Product",
+  "name": "Fertile Soil",
+  "source": "agriculture.soil-management",
+  "tags": {
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

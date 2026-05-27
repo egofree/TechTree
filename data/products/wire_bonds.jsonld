@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "wire_bonds",
+  "@type": "Product",
+  "name": "Wire Bonds",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

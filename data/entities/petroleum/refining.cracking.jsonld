@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "FCC converts heavy gas oil to gasoline (45-60% yield) and propylene using zeolite Y catalyst at 500-550°C. Hydrocracking converts VGO to diesel and jet fuel at 350-430°C and 80-200 bar with hydrogen. Reforming produces BTX aromatics and hydrogen from naphtha at 490-530°C over Pt-Re catalyst.",
+  "early_win": false,
+  "id": "petroleum.refining.cracking",
+  "level": "process",
+  "name": "Catalytic Cracking & Conversion",
+  "outputs": [
+    "gasoline",
+    "diesel",
+    "jet_fuel",
+    "propylene_from_fcc",
+    "btx_aromatics",
+    "refinery_hydrogen"
+  ],
+  "parent": "petroleum.refining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40"
+}

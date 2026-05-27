@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "shellac",
+  "@type": "Product",
+  "name": "Shellac",
+  "source": "polymers.rubber.shellac",
+  "tags": {
+    "material": [
+      "polymers",
+      "chemicals"
+    ]
+  }
+}

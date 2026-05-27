@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "laser_interferometers",
+  "@type": "Product",
+  "name": "Laser Interferometers",
+  "source": "precision-motion",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

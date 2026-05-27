@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "advanced_lithography",
+  "@type": "Product",
+  "name": "Advanced Lithography",
+  "source": "vlsi-scaling",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

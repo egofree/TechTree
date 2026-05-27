@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "acetic_acid",
+  "@type": "Product",
+  "name": "Acetic Acid",
+  "source": "chemistry.petroleum-alternatives.fermentation",
+  "tags": {
+    "material": [
+      "biomass",
+      "chemicals"
+    ]
+  }
+}

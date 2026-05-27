@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Gas Metal Arc Welding with continuously fed consumable wire electrode and CO₂/Ar shielding gas. Current 100-400A, voltage 16-35V. High deposition rate (2-8 kg/hour). Transfer modes: short-circuit, globular, spray, and pulsed spray. Dominant process for structural fabrication, automotive, and high-production welding.",
+  "early_win": false,
+  "id": "machine-tools.joining.mig-welding",
+  "level": "process",
+  "name": "MIG Welding (GMAW)",
+  "outputs": [
+    "mig_welds"
+  ],
+  "parent": "machine-tools.joining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50"
+}

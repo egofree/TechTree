@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sterilization_equipment",
+  "@type": "Product",
+  "name": "Sterilization Equipment",
+  "source": "health.medical-instruments",
+  "tags": {
+    "material": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "varistors",
+  "@type": "Product",
+  "name": "Varistors",
+  "source": "ceramics.electronic-ceramics",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "ceramics"
+    ]
+  }
+}

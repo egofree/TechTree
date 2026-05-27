@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Photoresist chemistry (DNQ/novolak positive resist, chemically amplified resists for DUV), TMAH developer (2.38% standard), buffered oxide etch (BOE, NH₄F:HF ratios), CMP slurry (colloidal silica, alumina, Preston equation removal rates), and cleanroom chemicals (piranha etch, RCA clean SC-1/SC-2, HF dip). Ultrapure water specs: 18.2 MΩ·cm, <1 ppb TOC.",
+  "early_win": false,
+  "id": "chemistry.semiconductor-chemicals",
+  "level": "capability",
+  "name": "Semiconductor Process Chemicals",
+  "outputs": [
+    "photoresist",
+    "tmah_developer",
+    "boe_etchant",
+    "cmp_slurry",
+    "cleanroom_chemicals"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-70"
+}

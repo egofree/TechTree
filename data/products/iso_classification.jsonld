@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "iso_classification",
+  "@type": "Product",
+  "name": "Iso Classification",
+  "source": "cleanrooms",
+  "tags": {
+    "capability": [
+      "precision",
+      "construction"
+    ],
+    "material": []
+  }
+}

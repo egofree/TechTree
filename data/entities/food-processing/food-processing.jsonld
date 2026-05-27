@@ -1,0 +1,41 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Industrial-scale transformation of raw agricultural output into stable, safe, transportable food products. Spans grain milling (stone to roller), food preservation (drying through refrigeration), dairy processing (separation, butter, cheese), and brewing/distilling (beer, wine, spirits). Food processing feeds the workforce that builds GPUs — without it, no specialist labor pool exists. Internal organizing axis: chronological, from stone-age techniques to industrial processes.",
+  "early_win": true,
+  "early_win_note": "Flour from milling and preserved food from drying/salting create food surplus stability, enabling specialist labor division",
+  "id": "food-processing",
+  "level": "domain",
+  "name": "Food Processing",
+  "outputs": [
+    "flour",
+    "preserved_food",
+    "butter",
+    "cheese",
+    "beer",
+    "wine",
+    "spirits",
+    "canned_food",
+    "pasteurized_food",
+    "refrigerated_food",
+    "baked_goods",
+    "processed_oils"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass",
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-30+"
+}

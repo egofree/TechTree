@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sampling_plans",
+  "@type": "Product",
+  "name": "Sampling Plans",
+  "source": "quality-control",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Cultivation, foraging, and utilization of plant species for food, medicine, fiber, structural materials, and dyes. Plants provide the primary biomass inputs for survival and early industry — calories, healing compounds, cordage fibers, timber, and colorants.",
+  "early_win": true,
+  "early_win_note": "Wild edible and medicinal plants are available from Year 0, providing immediate food security and basic healthcare without cultivation",
+  "id": "plants",
+  "level": "domain",
+  "name": "Plants & Botanical Resources",
+  "outputs": [
+    "edible_plants",
+    "medicinal_herbs",
+    "plant_fibers",
+    "structural_timber",
+    "natural_dyes"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health",
+      "construction"
+    ],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant"
+  ],
+  "timeline": "Years 0-10+"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "structural_material",
+  "@type": "Product",
+  "name": "Structural Material",
+  "source": "plants.structural-plants.artemisia-capillaris",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

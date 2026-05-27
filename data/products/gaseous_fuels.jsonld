@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "gaseous_fuels",
+  "@type": "Product",
+  "name": "Gaseous Fuels",
+  "source": "energy.fuels",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "biomass",
+      "chemicals"
+    ]
+  }
+}

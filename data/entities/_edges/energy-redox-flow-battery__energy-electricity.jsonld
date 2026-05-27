@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.redox-flow-battery__energy.electricity",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "energy.redox-flow-battery",
+  "to": "energy.electricity"
+}

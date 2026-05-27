@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sodium_hydroxide",
+  "@type": "Product",
+  "name": "Sodium Hydroxide",
+  "source": "chemistry.acids-bases",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

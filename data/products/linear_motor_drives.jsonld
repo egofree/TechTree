@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "linear_motor_drives",
+  "@type": "Product",
+  "name": "Linear Motor Drives",
+  "source": "precision-motion.nanometer-positioning",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "laminar_flow_systems",
+  "@type": "Product",
+  "name": "Laminar Flow Systems",
+  "source": "cleanrooms.hepa-ulpa-filtration",
+  "tags": {
+    "material": [
+      "glass",
+      "polymers"
+    ]
+  }
+}

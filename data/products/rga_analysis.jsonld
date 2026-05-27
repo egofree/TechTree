@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "rga_analysis",
+  "@type": "Product",
+  "name": "Rga Analysis",
+  "source": "vacuum",
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "material": []
+  }
+}

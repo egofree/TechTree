@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "herbal_remedies",
+  "@type": "Product",
+  "name": "Herbal Remedies",
+  "source": "plants.medicinal-plants",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

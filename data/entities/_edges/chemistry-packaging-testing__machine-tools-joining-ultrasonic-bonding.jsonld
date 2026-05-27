@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.packaging-testing__machine-tools.joining.ultrasonic-bonding",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "chemistry.packaging-testing",
+  "to": "machine-tools.joining.ultrasonic-bonding"
+}

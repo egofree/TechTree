@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nitrogen",
+  "@type": "Product",
+  "name": "Nitrogen",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

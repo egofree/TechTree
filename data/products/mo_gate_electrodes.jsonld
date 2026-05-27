@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mo_gate_electrodes",
+  "@type": "Product",
+  "name": "Mo Gate Electrodes",
+  "source": "metals.specialty-semiconductor",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

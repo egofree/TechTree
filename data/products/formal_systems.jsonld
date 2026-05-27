@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "formal_systems",
+  "@type": "Product",
+  "name": "Formal Systems",
+  "source": "mathematics",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

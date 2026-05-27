@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Siege engines (battering rams, trebuchets, siege towers), mining and counter-mining, cannon artillery, and military logistics (supply chain management, field fortifications, baggage trains). Trebuchet counterweight: 5-15 tonnes for 100-300 kg projectile at 150-300 m range. Cannon bore progression: 50-200 mm by 15th century. Logistics: 1 kg grain and 4 L water per soldier per day minimum. Cross-reference transport domain for road/rail logistics.",
+  "early_win": false,
+  "id": "defense.siege-warfare",
+  "level": "capability",
+  "name": "Siege Engineering & Military Logistics",
+  "outputs": [
+    "siege_engines",
+    "cannons",
+    "military_logistics",
+    "artillery",
+    "field_fortifications"
+  ],
+  "parent": "defense",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "wood",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-50+"
+}

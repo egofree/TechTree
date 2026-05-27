@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "buried_oxide_layers",
+  "@type": "Product",
+  "name": "Buried Oxide Layers",
+  "source": "silicon.wafering.soi",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

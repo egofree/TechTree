@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "connection_details",
+  "@type": "Product",
+  "name": "Connection Details",
+  "source": "construction.structural-engineering",
+  "tags": {
+    "capability": [
+      "construction",
+      "measurement"
+    ],
+    "material": [
+      "metals",
+      "stone"
+    ]
+  }
+}

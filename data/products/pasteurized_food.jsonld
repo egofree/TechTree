@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pasteurized_food",
+  "@type": "Product",
+  "name": "Pasteurized Food",
+  "source": "food-processing",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "biomass",
+      "water"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "encoder_feedback_systems",
+  "@type": "Product",
+  "name": "Encoder Feedback Systems",
+  "source": "precision-motion",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

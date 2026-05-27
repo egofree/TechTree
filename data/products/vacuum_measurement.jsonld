@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vacuum_measurement",
+  "@type": "Product",
+  "name": "Vacuum Measurement",
+  "source": "gas-handling.vacuum",
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "material": []
+  }
+}

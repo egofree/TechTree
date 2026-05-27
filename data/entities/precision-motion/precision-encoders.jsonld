@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Laser interferometers (0.15-0.6 nm resolution with heterodyne detection), optical scale encoders (0.24 nm with holographic gratings and interpolation), capacitive displacement sensors, and encoder signal processing. Provides the position measurement backbone for closed-loop nanometer positioning in wafer stages and metrology equipment.",
+  "early_win": false,
+  "id": "precision-motion.precision-encoders",
+  "level": "capability",
+  "name": "Precision Encoders & Feedback",
+  "outputs": [
+    "laser_interferometers",
+    "optical_encoders",
+    "encoder_feedback_systems"
+  ],
+  "parent": "precision-motion",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement",
+      "optics"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 35-55"
+}

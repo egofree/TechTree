@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Thermal oxidation (dry and wet), wet etching (HF for SiO₂, KOH for Si) and dry/plasma etching (RIE), CVD deposition (poly-Si, SiO₂, Si₃N₄), PVD (sputtering, evaporation), doping (diffusion and later ion implantation), metallization (Al, later Cu), and the planar process integration for IC fabrication. Example NMOS flow with 7 mask layers.",
+  "early_win": false,
+  "id": "photolithography.fab-processes",
+  "level": "capability",
+  "name": "Core Fab Processes",
+  "outputs": [
+    "fab_processes",
+    "early_ics",
+    "msi",
+    "patterned_oxide",
+    "doped_regions",
+    "metal_interconnects"
+  ],
+  "parent": "photolithography",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-70"
+}

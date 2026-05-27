@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Saponification of fats/oils with NaOH or KOH to produce soap and glycerol. Industrial continuous saponification, spray drying, synthetic detergents (LAS). Glycerol recovery for explosives and pharmaceuticals.",
+  "early_win": true,
+  "id": "chemistry.soap",
+  "level": "capability",
+  "name": "Soap & Detergent Production",
+  "outputs": [
+    "soap",
+    "detergents",
+    "glycerol"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "industrial",
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30"
+}

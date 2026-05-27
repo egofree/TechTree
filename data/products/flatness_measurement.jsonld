@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "flatness_measurement",
+  "@type": "Product",
+  "name": "Flatness Measurement",
+  "source": "optics.precision-instruments",
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "material": [
+      "glass"
+    ]
+  }
+}

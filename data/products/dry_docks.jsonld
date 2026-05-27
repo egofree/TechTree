@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "dry_docks",
+  "@type": "Product",
+  "name": "Dry Docks",
+  "source": "marine",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "wood",
+      "metals",
+      "fibers"
+    ]
+  }
+}

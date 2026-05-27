@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "trichlorosilane",
+  "@type": "Product",
+  "name": "Trichlorosilane",
+  "source": "chemistry.hydrogen-silane",
+  "tags": {
+    "material": [
+      "gases",
+      "chemicals"
+    ]
+  }
+}

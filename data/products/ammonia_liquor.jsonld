@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ammonia_liquor",
+  "@type": "Product",
+  "name": "Ammonia Liquor",
+  "source": "energy.fuels.coke",
+  "tags": {
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

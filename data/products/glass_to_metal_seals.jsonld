@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "glass_to_metal_seals",
+  "@type": "Product",
+  "name": "Glass To Metal Seals",
+  "source": "glass.advanced.glassblowing",
+  "tags": {
+    "material": [
+      "glass"
+    ]
+  }
+}

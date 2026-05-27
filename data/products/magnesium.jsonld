@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "magnesium",
+  "@type": "Product",
+  "name": "Magnesium",
+  "source": "metals.non-ferrous",
+  "tags": {
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

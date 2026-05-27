@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "logistics_coordination",
+  "@type": "Product",
+  "name": "Logistics Coordination",
+  "source": "economics-organization.supply-chain",
+  "tags": {
+    "capability": [
+      "organization",
+      "construction"
+    ],
+    "material": []
+  }
+}

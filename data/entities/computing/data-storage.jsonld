@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Evolution of data storage from punch cards and paper tape through magnetic tape, magnetic drum, disk storage, and core memory. Each technology provides increasing density and access speed.",
+  "early_win": false,
+  "id": "computing.data-storage",
+  "level": "capability",
+  "name": "Data Storage Systems",
+  "outputs": [
+    "data_storage",
+    "punch_cards",
+    "magnetic_storage"
+  ],
+  "parent": "computing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-100+"
+}

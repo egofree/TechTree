@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "titanium_sponge",
+  "@type": "Product",
+  "name": "Titanium Sponge",
+  "source": "metals.non-ferrous",
+  "tags": {
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

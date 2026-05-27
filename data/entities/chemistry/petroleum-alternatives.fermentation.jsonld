@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Microbial and chemical production of solvents and fuels without petroleum: ethanol via grain malting/mashing/fermentation/distillation, acetone-butanol via Weizmann process (Clostridium acetobutylicum), acetic acid via vinegar oxidation or catalytic route, methanol from wood pyrolysis or synthesis gas. Critical non-petroleum chemical feedstock path.",
+  "early_win": false,
+  "id": "chemistry.petroleum-alternatives.fermentation",
+  "level": "process",
+  "name": "Fermentation Chemistry",
+  "outputs": [
+    "ethanol",
+    "acetone",
+    "butanol",
+    "acetic_acid",
+    "methanol"
+  ],
+  "parent": "chemistry.petroleum-alternatives",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "biomass",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-30"
+}

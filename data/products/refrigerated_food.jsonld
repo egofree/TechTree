@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "refrigerated_food",
+  "@type": "Product",
+  "name": "Refrigerated Food",
+  "source": "food-processing",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "biomass",
+      "water"
+    ]
+  }
+}

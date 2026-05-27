@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vacuum_chambers",
+  "@type": "Product",
+  "name": "Vacuum Chambers",
+  "source": "gas-handling.vacuum",
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "material": []
+  }
+}

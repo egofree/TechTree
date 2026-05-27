@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Manufacture of explosive and propellant compounds: black powder (KNO₃/charcoal/sulfur), nitrocellulose/guncotton (cellulose + nitric acid), dynamite (nitroglycerin absorbed in diatomaceous earth), and smokeless powders. Enables efficient mining beyond hand tools, civil engineering (tunnels, canals), and military applications.",
+  "early_win": false,
+  "id": "chemistry.explosives",
+  "level": "capability",
+  "name": "Explosives and Propellants",
+  "outputs": [
+    "black_powder",
+    "nitrocellulose",
+    "dynamite",
+    "smokeless_powder"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-50"
+}

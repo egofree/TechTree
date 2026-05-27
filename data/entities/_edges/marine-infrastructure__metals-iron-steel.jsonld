@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/marine.infrastructure__metals.iron-steel",
   "@type": "Dependency",
-  "from": "marine.infrastructure",
-  "to": "metals.iron-steel",
   "edgeType": "material",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "marine.infrastructure",
+  "to": "metals.iron-steel"
 }

@@ -1,0 +1,36 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Foraging and cultivation of plant species for human consumption including vegetables, fruits, seeds, roots, and herbs. Provides caloric intake and essential nutrients from wild and domesticated sources.",
+  "early_win": true,
+  "early_win_note": "Wild edible plants provide immediate food security before agriculture is established",
+  "id": "plants.edible-plants",
+  "level": "capability",
+  "name": "Edible Plants",
+  "outputs": [
+    "edible_plants",
+    "food_crops",
+    "vegetables",
+    "fruits",
+    "seeds"
+  ],
+  "parent": "plants",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant.edible"
+  ],
+  "timeline": "Years 0-10"
+}

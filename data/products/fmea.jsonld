@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fmea",
+  "@type": "Product",
+  "name": "Fmea",
+  "source": "quality-control",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

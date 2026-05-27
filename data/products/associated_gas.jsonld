@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "associated_gas",
+  "@type": "Product",
+  "name": "Associated Gas",
+  "source": "petroleum.extraction",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "submarine_cable_capacity",
+  "@type": "Product",
+  "name": "Submarine Cable Capacity",
+  "source": "telecom",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

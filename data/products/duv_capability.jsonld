@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "duv_capability",
+  "@type": "Product",
+  "name": "Duv Capability",
+  "source": "vlsi-scaling.advanced-lithography",
+  "tags": {
+    "capability": [
+      "precision",
+      "optics"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Extraction and working of metals from ore. Spans copper, bronze, iron, and steel production with increasingly complex smelting.",
+  "early_win": false,
+  "id": "metals",
+  "level": "domain",
+  "name": "Metals",
+  "outputs": [
+    "copper",
+    "bronze",
+    "wrought_iron",
+    "steel",
+    "metal_tools"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "copper-age",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-15"
+}

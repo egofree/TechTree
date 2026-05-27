@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pressure_cascade_systems",
+  "@type": "Product",
+  "name": "Pressure Cascade Systems",
+  "source": "cleanrooms.facility-design",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

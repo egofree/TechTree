@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Glass production from basic soda-lime through advanced specialty glasses. Spans natural glass and simple melt forming, borosilicate for thermal shock resistance, fused silica for optical purity, and quartz crucibles for semiconductor crystal growth. Glass is both a structural material (vessels, tubing) and a functional enabler (optical elements, semiconductor consumables).",
+  "early_win": false,
+  "id": "glass",
+  "level": "domain",
+  "name": "Glass",
+  "outputs": [
+    "basic_glass",
+    "potash",
+    "borosilicate_glass",
+    "fused_silica",
+    "quartz_crucibles",
+    "glass_tubing",
+    "glass_apparatus"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-40"
+}

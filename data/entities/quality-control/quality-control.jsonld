@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Statistical process control, inspection sampling, and defect analysis for manufacturing yield optimization. Spans control charts (X-bar/R, p, c), process capability indices (Cpk/Ppk targets ≥1.33), acceptance sampling (AQL, MIL-STD-105E), FMEA, and yield modeling (Murphy's, Seeds). Semiconductor yield runs 60-90% for mature nodes and below 50% for leading edge — quality control is the difference between profit and loss. Internal organizing axis: functional (capabilities grouped by QC function: statistical monitoring, inspection, defect root-cause analysis).",
+  "early_win": false,
+  "id": "quality-control",
+  "level": "domain",
+  "name": "Quality Control & Statistical Process Control",
+  "outputs": [
+    "spc_charts",
+    "cpk_indices",
+    "sampling_plans",
+    "fmea",
+    "yield_models",
+    "acceptance_criteria"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-100+"
+}

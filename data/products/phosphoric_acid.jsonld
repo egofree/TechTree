@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "phosphoric_acid",
+  "@type": "Product",
+  "name": "Phosphoric Acid",
+  "source": "chemistry.acids-bases",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

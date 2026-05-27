@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ore_locations",
+  "@type": "Product",
+  "name": "Ore Locations",
+  "source": "mining.prospecting",
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "material": []
+  }
+}

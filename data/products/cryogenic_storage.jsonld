@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cryogenic_storage",
+  "@type": "Product",
+  "name": "Cryogenic Storage",
+  "source": "cryogenics",
+  "tags": {
+    "capability": [
+      "cooling"
+    ],
+    "material": [
+      "gases"
+    ]
+  }
+}

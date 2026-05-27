@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "The bitter orange , sour orange , Seville orange , bigarade orange , or marmalade orange is the hybrid citrus tree species Citrus × aurantium , and its fruit. It is native to Southeast Asia and has been spread by humans to many parts of the world",
+  "early_win": false,
+  "id": "plants.edible-plants.bitter-orange",
+  "level": "process",
+  "name": "Bitter orange",
+  "outputs": [
+    "edible_plant_material"
+  ],
+  "parent": "plants.edible-plants",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant.edible.bitter-orange"
+  ],
+  "timeline": "Years 0-10"
+}

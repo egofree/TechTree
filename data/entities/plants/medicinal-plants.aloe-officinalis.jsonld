@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Aloe officinalis is a species of aloe in the Asphodelaceae family. The species is native to the Arabian Peninsula , from Yemen to Saudi Arabia . The plant has become naturalized in Somalia and has medicinal value. The plant also has two varieties:",
+  "early_win": false,
+  "id": "plants.medicinal-plants.aloe-officinalis",
+  "level": "process",
+  "name": "Aloe officinalis",
+  "outputs": [
+    "medicinal_compounds"
+  ],
+  "parent": "plants.medicinal-plants",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant.medicinal.aloe-officinalis"
+  ],
+  "timeline": "Years 0-10"
+}

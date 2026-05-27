@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.lubricants__chemistry.petroleum-alternatives",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "chemistry.lubricants",
+  "to": "chemistry.petroleum-alternatives"
+}

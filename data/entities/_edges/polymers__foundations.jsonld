@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/polymers__foundations",
   "@type": "Dependency",
-  "from": "polymers",
-  "to": "foundations",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "polymers",
+  "to": "foundations"
 }

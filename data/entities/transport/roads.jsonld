@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Road construction from dirt tracks to paved highways, bridge building, and route planning.",
+  "early_win": false,
+  "id": "transport.roads",
+  "level": "capability",
+  "name": "Road & Bridge Construction",
+  "outputs": [
+    "roads",
+    "bridges"
+  ],
+  "parent": "transport",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction",
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "stone"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30"
+}

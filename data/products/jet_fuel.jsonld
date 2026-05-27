@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "jet_fuel",
+  "@type": "Product",
+  "name": "Jet Fuel",
+  "source": "petroleum.refining.cracking",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

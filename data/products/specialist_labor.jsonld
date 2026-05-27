@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "specialist_labor",
+  "@type": "Product",
+  "name": "Specialist Labor",
+  "source": "economics-organization.division-of-labor",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": []
+  }
+}

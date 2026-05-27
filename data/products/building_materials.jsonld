@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "building_materials",
+  "@type": "Product",
+  "name": "Building Materials",
+  "source": "plants.structural-plants",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "biomass",
+      "wood"
+    ]
+  }
+}

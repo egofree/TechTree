@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Firebrick, alumina, magnesite, and insulating refractories for furnace linings above 1500°C. Crucible production (clay-graphite, SiC). Castable refractories and kiln furniture. Essential for metals, glass, cement, and ceramic kilns.",
+  "early_win": true,
+  "id": "chemistry.refractories",
+  "level": "capability",
+  "name": "Refractory Materials",
+  "outputs": [
+    "refractories",
+    "firebrick",
+    "crucibles"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": true,
+    "early-win": true,
+    "era": "industrial",
+    "material": [
+      "ceramics",
+      "stone"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-30"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ceramic_insulation",
+  "@type": "Product",
+  "name": "Ceramic Insulation",
+  "source": "ceramics",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "ceramics",
+      "clay",
+      "stone"
+    ]
+  }
+}

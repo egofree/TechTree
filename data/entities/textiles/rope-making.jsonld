@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Manufacture of rope from natural and synthetic fibers via ropewalk or mechanized spinner. 3-strand twist rope construction: fibers → yarn → strand → rope. Splicing techniques (eye splice, back splice, short splice) stronger than knots. Tarring for weather resistance. Breaking strength tables for hemp, manila, nylon. Essential for construction hoisting, sailing, mining, and all mechanical handling.",
+  "early_win": false,
+  "id": "textiles.rope-making",
+  "level": "capability",
+  "name": "Rope and Cordage",
+  "outputs": [
+    "rope",
+    "cordage",
+    "tension_members"
+  ],
+  "parent": "textiles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction",
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 3-20"
+}

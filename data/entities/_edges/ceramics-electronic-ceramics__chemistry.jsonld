@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/ceramics.electronic-ceramics__chemistry",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "ceramics.electronic-ceramics",
+  "to": "chemistry"
+}

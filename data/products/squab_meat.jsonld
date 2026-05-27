@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "squab_meat",
+  "@type": "Product",
+  "name": "Squab Meat",
+  "source": "animals.poultry.pigeons",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

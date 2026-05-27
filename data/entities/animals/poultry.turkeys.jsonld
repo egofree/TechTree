@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Domesticated turkeys (Meleagris gallopavo) raised for meat. Toms reach 8-15 kg, hens 4-8 kg, with market weight at 14-20 weeks. Turkeys require more space than chickens (20+ m² per bird for range) and are susceptible to blackhead disease, requiring separation from chickens.",
+  "early_win": false,
+  "id": "animals.poultry.turkeys",
+  "level": "process",
+  "name": "Turkeys",
+  "outputs": [
+    "turkey_meat",
+    "feathers",
+    "manure"
+  ],
+  "parent": "animals.poultry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 1-10+"
+}

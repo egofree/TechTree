@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/textiles.fibers__plants.fiber-plants",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "textiles.fibers",
+  "to": "plants.fiber-plants"
+}

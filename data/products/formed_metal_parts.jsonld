@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "formed_metal_parts",
+  "@type": "Product",
+  "name": "Formed Metal Parts",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

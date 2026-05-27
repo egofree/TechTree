@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "high_purity_hydrogen_peroxide",
+  "@type": "Product",
+  "name": "High Purity Hydrogen Peroxide",
+  "source": "ultra-pure.high-purity-chemicals",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

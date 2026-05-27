@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "beacon_systems",
+  "@type": "Product",
+  "name": "Beacon Systems",
+  "source": "telecom.pre-electric",
+  "tags": {
+    "material": [
+      "wood",
+      "glass"
+    ]
+  }
+}

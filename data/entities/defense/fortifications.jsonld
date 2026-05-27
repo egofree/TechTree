@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Defensive construction from simple palisades and earthworks through stone curtain walls, moats, gatehouses, and castles to star forts and bastioned trace italienne. Wall dimensions: palisade (2-4 m height, 15-30 cm log diameter), earthen rampart (3-8 m height, 60° slope), stone curtain wall (6-12 m height, 1.5-3.0 m thickness), castle keep (15-30 m height, 2.5-4.0 m wall thickness). Cross-reference chemistry/cement.md for mortar.",
+  "early_win": false,
+  "id": "defense.fortifications",
+  "level": "capability",
+  "name": "Fortification Engineering",
+  "outputs": [
+    "fortifications",
+    "defensive_structures",
+    "walls",
+    "towers",
+    "castle_fortifications"
+  ],
+  "parent": "defense",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "wood",
+      "stone"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-50+"
+}

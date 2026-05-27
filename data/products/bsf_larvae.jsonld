@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "bsf_larvae",
+  "@type": "Product",
+  "name": "Bsf Larvae",
+  "source": "animals.insect-farming",
+  "tags": {
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "waste_treatment",
+  "@type": "Product",
+  "name": "Waste Treatment",
+  "source": "ehs",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/metals.iron-steel__metals.copper-bronze",
   "@type": "Dependency",
-  "from": "metals.iron-steel",
-  "to": "metals.copper-bronze",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "metals.iron-steel",
+  "to": "metals.copper-bronze"
 }

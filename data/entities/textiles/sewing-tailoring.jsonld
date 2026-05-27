@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Garment construction, needle making, thread selection, seam types, and industrial sewing techniques. Converts raw cloth into clothing, bags, belts, tents, sails, and technical textile products.",
+  "early_win": false,
+  "id": "textiles.sewing-tailoring",
+  "level": "capability",
+  "name": "Sewing & Tailoring",
+  "outputs": [
+    "clothing",
+    "bags",
+    "tents",
+    "sails",
+    "belts"
+  ],
+  "parent": "textiles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 2-30+"
+}

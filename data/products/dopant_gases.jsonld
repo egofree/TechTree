@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "dopant_gases",
+  "@type": "Product",
+  "name": "Dopant Gases",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

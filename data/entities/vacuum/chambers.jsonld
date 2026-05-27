@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Chamber design (cylindrical, spherical, rectangular) with pressure loading and buckling analysis. Materials: SS 304L (standard), 316L (corrosive service), aluminum 6061 (lightweight). Flange systems: CF/ConFlat (UHV, 10⁻¹² Pa·m³/s leak), ISO-KF (quick-connect, roughing). Seals: OFHC copper gaskets, Viton O-rings. Viewports, gate valves, load locks, electrical feedthroughs, and virtual leak prevention.",
+  "early_win": false,
+  "id": "vacuum.chambers",
+  "level": "capability",
+  "name": "Vacuum Chambers & Sealing",
+  "outputs": [
+    "vacuum_chambers",
+    "vacuum_seals",
+    "viewports",
+    "gate_valves",
+    "load_locks"
+  ],
+  "parent": "vacuum",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40"
+}

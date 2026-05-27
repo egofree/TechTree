@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "preserved_food",
+  "@type": "Product",
+  "name": "Preserved Food",
+  "source": "foundations.food-agriculture",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

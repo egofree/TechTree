@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "copper_filled_vias",
+  "@type": "Product",
+  "name": "Copper Filled Vias",
+  "source": "electrochemistry.electroplating",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals",
+      "chemicals"
+    ]
+  }
+}

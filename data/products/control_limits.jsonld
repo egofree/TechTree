@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "control_limits",
+  "@type": "Product",
+  "name": "Control Limits",
+  "source": "quality-control.spc",
+  "tags": {
+    "capability": [
+      "precision",
+      "computing"
+    ],
+    "material": []
+  }
+}

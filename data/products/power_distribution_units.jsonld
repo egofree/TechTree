@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "power_distribution_units",
+  "@type": "Product",
+  "name": "Power Distribution Units",
+  "source": "energy.electricity",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

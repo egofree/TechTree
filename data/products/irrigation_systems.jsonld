@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "irrigation_systems",
+  "@type": "Product",
+  "name": "Irrigation Systems",
+  "source": "agriculture",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

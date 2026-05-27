@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "clean_power_systems",
+  "@type": "Product",
+  "name": "Clean Power Systems",
+  "source": "energy.electricity",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

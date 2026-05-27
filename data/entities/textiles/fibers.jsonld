@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Cultivation and preparation of natural fibers including flax, hemp, cotton, and wool.",
+  "early_win": false,
+  "id": "textiles.fibers",
+  "level": "capability",
+  "name": "Fiber Preparation",
+  "outputs": [
+    "prepared_fibers"
+  ],
+  "parent": "textiles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-5"
+}

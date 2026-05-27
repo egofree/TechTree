@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tin_ore",
+  "@type": "Product",
+  "name": "Tin Ore",
+  "source": "mining",
+  "tags": {
+    "material": [
+      "stone",
+      "metals"
+    ]
+  }
+}

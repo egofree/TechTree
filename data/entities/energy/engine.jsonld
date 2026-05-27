@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Internal combustion engines enable motorized transport, aviation, and portable power generation that steam engines cannot practically provide",
+  "description": "Internal and external combustion engines for mechanical power generation. Otto cycle (gasoline) and diesel cycle engines convert fuel combustion into rotary mechanical power with higher power-to-weight ratios than steam engines. Enables motorized transport, aviation, and portable power generation.",
+  "early_win": false,
+  "id": "energy.engine",
+  "level": "capability",
+  "name": "Heat Engines",
+  "outputs": [
+    "internal_combustion_engines",
+    "gasoline_engines",
+    "diesel_engines",
+    "mechanical_power"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy",
+      "precision"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50"
+}

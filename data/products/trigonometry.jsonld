@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "trigonometry",
+  "@type": "Product",
+  "name": "Trigonometry",
+  "source": "mathematics.core-mathematics",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

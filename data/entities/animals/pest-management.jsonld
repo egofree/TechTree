@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Biological pest control using domesticated animals: cats for rodent control in granaries, geese for weed control in crops, ducks for insect pest control in rice paddies, and guardian dogs for livestock protection from predators. Integrated approach combining animal behavior with crop protection.",
+  "early_win": false,
+  "id": "animals.pest-management",
+  "level": "capability",
+  "name": "Biological Pest Management",
+  "outputs": [
+    "pest_control",
+    "predator_protection",
+    "crop_protection"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.animal.guardian"
+  ],
+  "timeline": "Years 2-30+"
+}

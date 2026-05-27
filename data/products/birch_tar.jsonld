@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "birch_tar",
+  "@type": "Product",
+  "name": "Birch Tar",
+  "source": "foundations.tools-basic",
+  "tags": {
+    "material": [
+      "stone",
+      "wood"
+    ]
+  }
+}

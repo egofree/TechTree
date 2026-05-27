@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "anodized_aluminum",
+  "@type": "Product",
+  "name": "Anodized Aluminum",
+  "source": "chemistry.adhesives-coatings",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

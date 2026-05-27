@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "root_cause_analysis",
+  "@type": "Product",
+  "name": "Root Cause Analysis",
+  "source": "quality-control.defect-analysis",
+  "tags": {
+    "capability": [
+      "precision",
+      "computing"
+    ],
+    "material": []
+  }
+}

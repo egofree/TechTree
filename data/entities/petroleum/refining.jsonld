@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Atmospheric distillation (ADU), vacuum distillation (VDU), catalytic cracking (FCC), hydrocracking, catalytic reforming, hydrotreating, and product blending. Converts crude oil into gasoline, kerosene, diesel, fuel oil, lubricants, and asphalt.",
+  "early_win": false,
+  "id": "petroleum.refining",
+  "level": "capability",
+  "name": "Petroleum Refining",
+  "outputs": [
+    "gasoline",
+    "kerosene",
+    "diesel",
+    "fuel_oil",
+    "lubricating_base_oil",
+    "asphalt",
+    "lpg",
+    "refinery_gas"
+  ],
+  "parent": "petroleum",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-40"
+}

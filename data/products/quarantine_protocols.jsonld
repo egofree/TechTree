@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "quarantine_protocols",
+  "@type": "Product",
+  "name": "Quarantine Protocols",
+  "source": "health",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": []
+  }
+}

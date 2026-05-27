@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/mathematics.formal-systems__mathematics.core-mathematics",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "mathematics.formal-systems",
+  "to": "mathematics.core-mathematics"
+}

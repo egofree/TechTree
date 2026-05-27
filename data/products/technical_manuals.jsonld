@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "technical_manuals",
+  "@type": "Product",
+  "name": "Technical Manuals",
+  "source": "knowledge.printing",
+  "tags": {
+    "material": [
+      "wood",
+      "fibers"
+    ]
+  }
+}

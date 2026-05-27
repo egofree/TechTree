@@ -1,0 +1,18 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fused_silica",
+  "@type": "Product",
+  "name": "Fused Silica",
+  "source": "glass.advanced",
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "glass"
+    ]
+  }
+}

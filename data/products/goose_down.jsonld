@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "goose_down",
+  "@type": "Product",
+  "name": "Goose Down",
+  "source": "animals.poultry.geese",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

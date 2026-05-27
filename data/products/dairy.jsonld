@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "dairy",
+  "@type": "Product",
+  "name": "Dairy",
+  "source": "animals",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

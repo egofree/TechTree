@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "spc_charts",
+  "@type": "Product",
+  "name": "Spc Charts",
+  "source": "quality-control",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

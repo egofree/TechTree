@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Lead-acid batteries, nickel-iron batteries, mechanical storage (pumped hydro, flywheels, compressed air), energy diversification (hydroelectric, wind, solar PV, biomass), grid infrastructure, and UPS systems for semiconductor fab equipment. Semiconductor fabrication cannot tolerate power interruptions.",
+  "early_win": false,
+  "id": "energy.storage",
+  "level": "capability",
+  "name": "Energy Storage & Diversification",
+  "outputs": [
+    "lead_acid_batteries",
+    "grid_infrastructure",
+    "ups_systems",
+    "hydroelectric_power",
+    "wind_power"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-200+"
+}

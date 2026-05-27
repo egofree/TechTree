@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "oleum",
+  "@type": "Product",
+  "name": "Oleum",
+  "source": "chemistry.acids",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

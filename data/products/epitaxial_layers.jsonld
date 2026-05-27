@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "epitaxial_layers",
+  "@type": "Product",
+  "name": "Epitaxial Layers",
+  "source": "silicon.wafering.epitaxy",
+  "tags": {
+    "material": [
+      "silicon",
+      "gases"
+    ]
+  }
+}

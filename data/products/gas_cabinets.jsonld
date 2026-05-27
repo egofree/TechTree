@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "gas_cabinets",
+  "@type": "Product",
+  "name": "Gas Cabinets",
+  "source": "ehs.ventilation-exhaust",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "gases"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/polymers.rubber.synthetic__chemistry.petroleum-alternatives",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "polymers.rubber.synthetic",
+  "to": "chemistry.petroleum-alternatives"
+}

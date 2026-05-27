@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Allium paniculatum , common name pale garlic , is a species of monocot in the family Amaryllidaceae . It is widely cultivated and is now naturalized in several places outside its native range. Allium paniculatum produces several egg-shaped bulbs, each up to 1",
+  "early_win": false,
+  "id": "plants.fiber-plants.allium-paniculatum",
+  "level": "process",
+  "name": "Allium paniculatum",
+  "outputs": [
+    "plant_fiber"
+  ],
+  "parent": "plants.fiber-plants",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant.fiber.allium-paniculatum"
+  ],
+  "timeline": "Years 0-10"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "wireless_telegraphy",
+  "@type": "Product",
+  "name": "Wireless Telegraphy",
+  "source": "telecom.radio",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals",
+      "glass"
+    ]
+  }
+}

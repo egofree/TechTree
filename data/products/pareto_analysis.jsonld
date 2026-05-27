@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pareto_analysis",
+  "@type": "Product",
+  "name": "Pareto Analysis",
+  "source": "quality-control.defect-analysis",
+  "tags": {
+    "capability": [
+      "precision",
+      "computing"
+    ],
+    "material": []
+  }
+}

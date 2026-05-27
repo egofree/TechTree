@@ -1,0 +1,36 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Petroleum extraction (surface seeps → cable-tool → rotary drilling), refining (batch distillation → fractional distillation → thermal cracking), coal tar chemistry (benzene, phenol, naphthalene from coke ovens), fermentation (ethanol, acetone, acetic acid, methanol), and wood gasification. Dual-path strategy: petroleum accelerates everything, but coal tar + fermentation covers the same molecules.",
+  "early_win": false,
+  "id": "chemistry.petroleum-alternatives",
+  "level": "capability",
+  "name": "Petroleum & Alternative Chemistry",
+  "outputs": [
+    "gasoline",
+    "kerosene",
+    "diesel",
+    "lubricating_oil",
+    "benzene",
+    "phenol",
+    "ethanol",
+    "acetone",
+    "methanol",
+    "producer_gas",
+    "coal_tar"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-50+"
+}

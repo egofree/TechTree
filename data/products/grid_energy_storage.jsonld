@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "grid_energy_storage",
+  "@type": "Product",
+  "name": "Grid Energy Storage",
+  "source": "energy.storage.pumped-hydro",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "water",
+      "metals"
+    ]
+  }
+}

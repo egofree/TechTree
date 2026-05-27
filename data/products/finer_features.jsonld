@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "finer_features",
+  "@type": "Product",
+  "name": "Finer Features",
+  "source": "vlsi-scaling.continuous-scaling",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

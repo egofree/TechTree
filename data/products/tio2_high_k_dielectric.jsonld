@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tio2_high_k_dielectric",
+  "@type": "Product",
+  "name": "Tio2 High K Dielectric",
+  "source": "metals.specialty-semiconductor",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

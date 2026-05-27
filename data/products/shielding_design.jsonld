@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "shielding_design",
+  "@type": "Product",
+  "name": "Shielding Design",
+  "source": "ehs.radiation-safety",
+  "tags": {
+    "capability": [
+      "health",
+      "measurement"
+    ],
+    "material": []
+  }
+}

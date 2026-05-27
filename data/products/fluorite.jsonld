@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fluorite",
+  "@type": "Product",
+  "name": "Fluorite",
+  "source": "mining",
+  "tags": {
+    "material": [
+      "stone",
+      "metals"
+    ]
+  }
+}

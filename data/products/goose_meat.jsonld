@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "goose_meat",
+  "@type": "Product",
+  "name": "Goose Meat",
+  "source": "animals.poultry.geese",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

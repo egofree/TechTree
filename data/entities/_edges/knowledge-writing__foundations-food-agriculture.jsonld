@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/knowledge.writing__foundations.food-agriculture",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "knowledge.writing",
+  "to": "foundations.food-agriculture"
+}

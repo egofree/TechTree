@@ -1,0 +1,20 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "acid_waste_treatment",
+  "@type": "Product",
+  "name": "Acid Waste Treatment",
+  "source": "ehs.waste-management",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "lifecycle": [
+      "waste-sink",
+      "recycled-feedstock"
+    ],
+    "material": [
+      "chemicals",
+      "water"
+    ]
+  }
+}

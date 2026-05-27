@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cast_aluminum_parts",
+  "@type": "Product",
+  "name": "Cast Aluminum Parts",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

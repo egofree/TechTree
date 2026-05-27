@@ -1,0 +1,20 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "heavy_metal_precipitation",
+  "@type": "Product",
+  "name": "Heavy Metal Precipitation",
+  "source": "ehs.waste-management",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "lifecycle": [
+      "waste-sink",
+      "recycled-feedstock"
+    ],
+    "material": [
+      "chemicals",
+      "water"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "guinea_meat",
+  "@type": "Product",
+  "name": "Guinea Meat",
+  "source": "animals.poultry.guinea-fowl",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/economics-organization.division-of-labor__foundations.food-agriculture",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "economics-organization.division-of-labor",
+  "to": "foundations.food-agriculture"
+}

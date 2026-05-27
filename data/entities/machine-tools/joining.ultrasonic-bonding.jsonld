@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Solid-state joining via 20-60 kHz mechanical vibration under pressure. Wire bonding: 25μm Au wire at 0.5-2.0W, 20-100ms bond time — dominant IC interconnection method (>10 trillion bonds/year). Thermosonic Au ball bonding (150-250°C) and ultrasonic Al wedge bonding (room temperature). Also joins thin foils, battery tabs, and dissimilar metals without brittle intermetallics.",
+  "early_win": false,
+  "id": "machine-tools.joining.ultrasonic-bonding",
+  "level": "process",
+  "name": "Ultrasonic Welding & Wire Bonding",
+  "outputs": [
+    "ultrasonic_bonds",
+    "wire_bonds"
+  ],
+  "parent": "machine-tools.joining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-70"
+}

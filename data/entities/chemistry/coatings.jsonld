@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Paint chemistry (pigment + binder + solvent), nitrocellulose dope for aircraft fabric, varnishes and lacquers, ink chemistry (iron gall, carbon, printing inks), rust prevention primers, heat-resistant coatings.",
+  "early_win": false,
+  "id": "chemistry.coatings",
+  "level": "capability",
+  "name": "Paints, Coatings & Inks",
+  "outputs": [
+    "paints",
+    "coatings",
+    "inks",
+    "varnishes"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-50"
+}

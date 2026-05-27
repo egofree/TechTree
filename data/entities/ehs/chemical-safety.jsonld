@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Hazard classification, TLV/IDLH exposure limits, NFPA 704 diamond ratings, gas compatibility matrices, and chemical-specific safety protocols for semiconductor process chemicals including HF (TLV 0.5 ppm), silane (TLV 5 ppm, pyrophoric), arsine (TLV 0.005 ppm), and phosphine (TLV 0.3 ppm). Covers exposure monitoring, SDS requirements, and gas detection system design.",
+  "early_win": false,
+  "id": "ehs.chemical-safety",
+  "level": "capability",
+  "name": "Chemical Safety & Toxicology",
+  "outputs": [
+    "chemical_hazard_protocols",
+    "tlv_databases",
+    "nfpa_ratings",
+    "exposure_control_plans"
+  ],
+  "parent": "ehs",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health",
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "chemicals",
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-70"
+}

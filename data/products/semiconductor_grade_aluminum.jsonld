@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "semiconductor_grade_aluminum",
+  "@type": "Product",
+  "name": "Semiconductor Grade Aluminum",
+  "source": "metals.aluminum.semiconductor-grade",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

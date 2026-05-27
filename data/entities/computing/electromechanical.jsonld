@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Difference engines, automated machine tools (turret lathe, screw machine), punch card data processing, and tabulating machines.",
+  "early_win": false,
+  "id": "computing.electromechanical",
+  "level": "capability",
+  "name": "Electromechanical Computing",
+  "outputs": [
+    "automated_machines",
+    "punch_cards"
+  ],
+  "parent": "computing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/chemistry.lubricants__foundations",
   "@type": "Dependency",
-  "from": "chemistry.lubricants",
-  "to": "foundations",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "chemistry.lubricants",
+  "to": "foundations"
 }

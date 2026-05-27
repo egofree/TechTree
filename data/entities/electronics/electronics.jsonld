@@ -1,0 +1,36 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "PCB fabrication, component assembly and soldering, electrical power distribution systems, and power electronics. Bridges semiconductor device fabrication and functional electronic systems — from discrete transistor circuits to multi-chip modules and industrial power distribution. Internal organizing axis: functional (assembly of electronic systems vs. distribution of electrical power).",
+  "early_win": false,
+  "id": "electronics",
+  "level": "domain",
+  "name": "Electronics",
+  "outputs": [
+    "pcb_assemblies",
+    "soldered_joints",
+    "packaged_components",
+    "wiring_harnesses",
+    "switches",
+    "connectors",
+    "circuit_breakers",
+    "transformers",
+    "power_electronics"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-50"
+}

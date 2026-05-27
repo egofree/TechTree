@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "compost",
+  "@type": "Product",
+  "name": "Compost",
+  "source": "animals.insect-farming",
+  "tags": {
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

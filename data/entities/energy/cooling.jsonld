@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Refrigeration cycles, ice production, cooling systems for industrial processes and climate control.",
+  "early_win": false,
+  "id": "energy.cooling",
+  "level": "capability",
+  "name": "Cooling Systems & Refrigeration",
+  "outputs": [
+    "refrigeration",
+    "industrial_cooling",
+    "ice_production"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "cooling",
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-30"
+}

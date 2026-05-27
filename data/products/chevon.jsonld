@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "chevon",
+  "@type": "Product",
+  "name": "Chevon",
+  "source": "animals.goats",
+  "tags": {
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

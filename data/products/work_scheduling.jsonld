@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "work_scheduling",
+  "@type": "Product",
+  "name": "Work Scheduling",
+  "source": "economics-organization.division-of-labor",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": []
+  }
+}

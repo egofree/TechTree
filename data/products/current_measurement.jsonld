@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "current_measurement",
+  "@type": "Product",
+  "name": "Current Measurement",
+  "source": "measurement.electrical-instruments",
+  "tags": {
+    "material": []
+  }
+}

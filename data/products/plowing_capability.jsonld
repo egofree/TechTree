@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "plowing_capability",
+  "@type": "Product",
+  "name": "Plowing Capability",
+  "source": "animals.draft-power",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": []
+  }
+}

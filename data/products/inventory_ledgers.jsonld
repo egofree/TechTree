@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "inventory_ledgers",
+  "@type": "Product",
+  "name": "Inventory Ledgers",
+  "source": "economics-organization.accounting",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": []
+  }
+}

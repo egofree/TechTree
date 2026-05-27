@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Production of semiconductor-grade ultra-pure water (18.2 MΩ·cm), 9N+ (99.9999999%) purity chemicals, and ppt-level analytical verification. Standard industrial chemistry produces 95-99.5% purity — this domain covers the 6-7 order of magnitude purity leap required for wafer processing. Multi-stage purification (sub-boiling distillation, RO, electrodeionization, UV oxidation) and contamination detection (ICP-MS, TOC analysis, particle counting) at parts-per-trillion levels.",
+  "early_win": false,
+  "id": "ultra-pure",
+  "level": "domain",
+  "name": "Ultra-Pure Materials",
+  "outputs": [
+    "ultra_pure_water",
+    "high_purity_acids",
+    "high_purity_solvents",
+    "contamination_data",
+    "purity_certification"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "water",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-80"
+}

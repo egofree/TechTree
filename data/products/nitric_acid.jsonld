@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nitric_acid",
+  "@type": "Product",
+  "name": "Nitric Acid",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

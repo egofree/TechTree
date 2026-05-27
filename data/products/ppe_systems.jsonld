@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ppe_systems",
+  "@type": "Product",
+  "name": "Ppe Systems",
+  "source": "ehs",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

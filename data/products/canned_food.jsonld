@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "canned_food",
+  "@type": "Product",
+  "name": "Canned Food",
+  "source": "food-processing",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "biomass",
+      "water"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "therapeutic_compounds",
+  "@type": "Product",
+  "name": "Therapeutic Compounds",
+  "source": "plants.medicinal-plants",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "printed_books",
+  "@type": "Product",
+  "name": "Printed Books",
+  "source": "knowledge",
+  "tags": {
+    "material": []
+  }
+}

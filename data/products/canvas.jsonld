@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "canvas",
+  "@type": "Product",
+  "name": "Canvas",
+  "source": "textiles",
+  "tags": {
+    "material": [
+      "fibers"
+    ]
+  }
+}

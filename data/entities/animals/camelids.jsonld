@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Raising alpacas (Vicugna pacos) and llamas (Lama glama) for fiber, pack transport, and guard duty. Alpacas produce 2-5 kg of fine fiber every 12-18 months; llamas carry 25-30% of body weight as pack animals and serve as livestock guardians against predators. Both are hardy, disease-resistant, and use communal dung piles for easy manure collection.",
+  "early_win": false,
+  "id": "animals.camelids",
+  "level": "capability",
+  "name": "Camelid Husbandry",
+  "outputs": [
+    "alpaca_fiber",
+    "llama_fiber",
+    "pack_transport",
+    "manure"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 2-20+"
+}

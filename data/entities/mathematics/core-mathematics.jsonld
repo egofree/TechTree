@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Arithmetic, algebra, geometry, trigonometry, and number systems: the mathematical foundations for all engineering calculation and measurement. From basic counting through to the trigonometry and algebra needed for industrial-age engineering.",
+  "early_win": true,
+  "early_win_note": "Arithmetic and geometry enable immediate improvement in construction, resource accounting, and trade",
+  "id": "mathematics.core-mathematics",
+  "level": "capability",
+  "name": "Core Mathematics",
+  "outputs": [
+    "arithmetic",
+    "algebra",
+    "geometry",
+    "trigonometry",
+    "number_systems"
+  ],
+  "parent": "mathematics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": true,
+    "era": "copper-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-25"
+}

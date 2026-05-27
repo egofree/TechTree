@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "animal_milling",
+  "@type": "Product",
+  "name": "Animal Milling",
+  "source": "animals.draft-power",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": []
+  }
+}

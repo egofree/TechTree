@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/metals.aluminum__chemistry.alkalis",
   "@type": "Dependency",
-  "from": "metals.aluminum",
-  "to": "chemistry.alkalis",
   "edgeType": "material",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "metals.aluminum",
+  "to": "chemistry.alkalis"
 }

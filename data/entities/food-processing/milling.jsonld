@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Progression from hand-powered stone grinding through water/wind-powered millstones to industrial roller milling. Flour production is the foundation of food processing — it converts stored grain into immediately usable food, dramatically improving calorie delivery efficiency and enabling bread, the staple workforce fuel.",
+  "early_win": true,
+  "early_win_note": "Flour production multiplies grain utility by 2-3x — bread provides more calories per labor-hour than porridge",
+  "id": "food-processing.milling",
+  "level": "capability",
+  "name": "Grain Milling",
+  "outputs": [
+    "flour",
+    "bran",
+    "grits",
+    "meal"
+  ],
+  "parent": "food-processing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass",
+      "stone"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-20"
+}

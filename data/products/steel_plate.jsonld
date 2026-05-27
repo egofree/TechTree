@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "steel_plate",
+  "@type": "Product",
+  "name": "Steel Plate",
+  "source": "metals.forming",
+  "tags": {
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

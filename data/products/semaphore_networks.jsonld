@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "semaphore_networks",
+  "@type": "Product",
+  "name": "Semaphore Networks",
+  "source": "telecom.pre-electric",
+  "tags": {
+    "material": [
+      "wood",
+      "glass"
+    ]
+  }
+}

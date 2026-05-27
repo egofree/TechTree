@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "amorphous_carbon_electrodes",
+  "@type": "Product",
+  "name": "Amorphous Carbon Electrodes",
+  "source": "energy.electric-furnaces.electrode-manufacturing",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals",
+      "chemicals"
+    ]
+  }
+}

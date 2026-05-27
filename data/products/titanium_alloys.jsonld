@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "titanium_alloys",
+  "@type": "Product",
+  "name": "Titanium Alloys",
+  "source": "metals.alloys",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

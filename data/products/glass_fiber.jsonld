@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "glass_fiber",
+  "@type": "Product",
+  "name": "Glass Fiber",
+  "source": "glass.fibers",
+  "tags": {
+    "material": [
+      "glass"
+    ]
+  }
+}

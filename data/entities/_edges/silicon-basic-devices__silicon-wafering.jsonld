@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/silicon.basic-devices__silicon.wafering",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "silicon.basic-devices",
+  "to": "silicon.wafering"
+}

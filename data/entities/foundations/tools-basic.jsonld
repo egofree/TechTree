@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Flint knapping (hard hammer, soft hammer, pressure flaking), ground stone tools, and wooden implements with hafting using birch tar adhesive. Produces scrapers, axes, drills, and digging sticks for all early construction and material extraction.",
+  "early_win": false,
+  "id": "foundations.tools-basic",
+  "level": "capability",
+  "name": "Stone & Wood Tools",
+  "outputs": [
+    "stone_tools",
+    "wooden_tools",
+    "birch_tar",
+    "hafted_tools"
+  ],
+  "parent": "foundations",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "stone",
+      "wood"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-5"
+}

@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/mining__foundations",
   "@type": "Dependency",
-  "from": "mining",
-  "to": "foundations",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "mining",
+  "to": "foundations"
 }

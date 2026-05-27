@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cpk_indices",
+  "@type": "Product",
+  "name": "Cpk Indices",
+  "source": "quality-control",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

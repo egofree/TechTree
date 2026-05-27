@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "solvents",
+  "@type": "Product",
+  "name": "Solvents",
+  "source": "chemistry.solvents",
+  "tags": {
+    "lifecycle": [
+      "recycled-feedstock"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

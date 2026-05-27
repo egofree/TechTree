@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "specialty_copper_alloys",
+  "@type": "Product",
+  "name": "Specialty Copper Alloys",
+  "source": "metals.alloys",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

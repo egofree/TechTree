@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "molded_rubber_parts",
+  "@type": "Product",
+  "name": "Molded Rubber Parts",
+  "source": "polymers.rubber.vulcanization",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "irrigation",
+  "@type": "Product",
+  "name": "Irrigation",
+  "source": "water.distribution",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "water"
+    ]
+  }
+}

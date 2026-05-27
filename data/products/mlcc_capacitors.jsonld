@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mlcc_capacitors",
+  "@type": "Product",
+  "name": "Mlcc Capacitors",
+  "source": "ceramics.electronic-ceramics",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "ceramics"
+    ]
+  }
+}

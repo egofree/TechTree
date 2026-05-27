@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Wireless telegraphy and early voice radio: spark-gap transmitters (0.5-10 kW, 100-1000 kHz), crystal detectors (galena, carborundum), vacuum tube detectors and oscillators (Fleming valve 1904, de Forest Audion 1906), tuned circuits, antenna systems, and propagation fundamentals. Range: 50-500 km spark-gap, 100-3000 km with vacuum tube transmitters. Enables maritime communication, aviation communication, and broadcast.",
+  "early_win": false,
+  "id": "telecom.radio",
+  "level": "capability",
+  "name": "Radio Communication",
+  "outputs": [
+    "radio_communication",
+    "wireless_telegraphy",
+    "broadcast_capability"
+  ],
+  "parent": "telecom",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-60"
+}

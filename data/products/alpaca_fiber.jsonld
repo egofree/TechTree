@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "alpaca_fiber",
+  "@type": "Product",
+  "name": "Alpaca Fiber",
+  "source": "animals.camelids",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

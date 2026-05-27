@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "whey",
+  "@type": "Product",
+  "name": "Whey",
+  "source": "food-processing.dairy",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

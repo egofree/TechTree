@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "phonograph_records",
+  "@type": "Product",
+  "name": "Phonograph Records",
+  "source": "polymers.rubber.shellac",
+  "tags": {
+    "material": [
+      "polymers",
+      "chemicals"
+    ]
+  }
+}

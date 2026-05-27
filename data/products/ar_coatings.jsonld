@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ar_coatings",
+  "@type": "Product",
+  "name": "Ar Coatings",
+  "source": "optics.inspection.optical-coatings",
+  "tags": {
+    "capability": [
+      "optics",
+      "vacuum"
+    ],
+    "material": [
+      "glass"
+    ]
+  }
+}

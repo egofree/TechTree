@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Filter media construction (borosilicate glass microfibers, 99.97% @ 0.3 μm for HEPA, 99.999% @ 0.12 μm for ULPA), fan-filter unit design, laminar flow principles, pre-filtration stages, and filter integrity testing (DOP/PAO challenge).",
+  "early_win": false,
+  "id": "cleanrooms.hepa-ulpa-filtration",
+  "level": "capability",
+  "name": "HEPA/ULPA Filtration & Laminar Flow",
+  "outputs": [
+    "hepa_filters",
+    "ulpa_filters",
+    "laminar_flow_systems",
+    "fan_filter_units"
+  ],
+  "parent": "cleanrooms",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "glass",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-70"
+}

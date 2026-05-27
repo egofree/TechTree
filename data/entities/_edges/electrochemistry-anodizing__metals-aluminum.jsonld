@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/electrochemistry.anodizing__metals.aluminum",
   "@type": "Dependency",
-  "from": "electrochemistry.anodizing",
-  "to": "metals.aluminum",
   "edgeType": "material",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "electrochemistry.anodizing",
+  "to": "metals.aluminum"
 }

@@ -1,0 +1,10 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/computing.electronic__photolithography.fab-processes",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "computing.electronic",
+  "label": "ICs fabricated via photolithography",
+  "to": "photolithography.fab-processes"
+}

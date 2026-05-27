@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "feathers",
+  "@type": "Product",
+  "name": "Feathers",
+  "source": "animals.animal-materials",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

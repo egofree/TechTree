@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Decision-making structures for large-scale resource allocation, dispute resolution, and collective action. Includes guild structures, cooperative governance, and administrative hierarchies that coordinate hundreds of workers.",
+  "early_win": false,
+  "id": "economics-organization.governance",
+  "level": "capability",
+  "name": "Governance & Institutional Design",
+  "outputs": [
+    "institutional_structures",
+    "regulatory_frameworks",
+    "dispute_resolution"
+  ],
+  "parent": "economics-organization",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-200+"
+}

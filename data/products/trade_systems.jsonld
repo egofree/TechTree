@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "trade_systems",
+  "@type": "Product",
+  "name": "Trade Systems",
+  "source": "economics-organization",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": []
+  }
+}

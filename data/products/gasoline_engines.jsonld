@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "gasoline_engines",
+  "@type": "Product",
+  "name": "Gasoline Engines",
+  "source": "energy.engine",
+  "tags": {
+    "capability": [
+      "energy",
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

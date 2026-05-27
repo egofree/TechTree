@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "glove_selection",
+  "@type": "Product",
+  "name": "Glove Selection",
+  "source": "ehs.ppe",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "polymers"
+    ]
+  }
+}

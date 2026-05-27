@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "timekeeping",
+  "@type": "Product",
+  "name": "Timekeeping",
+  "source": "measurement.precision-metrology",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

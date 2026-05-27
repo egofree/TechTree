@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pack_transport",
+  "@type": "Product",
+  "name": "Pack Transport",
+  "source": "animals.camelids",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

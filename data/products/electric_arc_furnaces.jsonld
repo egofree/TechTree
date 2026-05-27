@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "electric_arc_furnaces",
+  "@type": "Product",
+  "name": "Electric Arc Furnaces",
+  "source": "energy",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

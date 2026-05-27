@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Standardized exchange media (commodity money, metal coinage) and units of account that solve barter's double-coincidence problem. Requires reliable metallurgy for coinage and standardized weights for valuation.",
+  "early_win": false,
+  "id": "economics-organization.currency",
+  "level": "capability",
+  "name": "Currency & Standardized Exchange",
+  "outputs": [
+    "coinage",
+    "standardized_units_of_account",
+    "price_signals"
+  ],
+  "parent": "economics-organization",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "copper-age",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-10"
+}

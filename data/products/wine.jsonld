@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "wine",
+  "@type": "Product",
+  "name": "Wine",
+  "source": "food-processing",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "biomass",
+      "water"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "silicon_carbide",
+  "@type": "Product",
+  "name": "Silicon Carbide",
+  "source": "ceramics",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "ceramics",
+      "clay",
+      "stone"
+    ]
+  }
+}

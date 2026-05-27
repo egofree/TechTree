@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "CVD epitaxial growth of single-crystal silicon layers on polished wafer substrates using trichlorosilane or silane at 900-1200°C. Enables independently doped device layers (p/p+ or n/n+ configurations) with autodoping control via reduced pressure and buffer layers.",
+  "early_win": false,
+  "id": "silicon.wafering.epitaxy",
+  "level": "process",
+  "name": "Epitaxial Layer Growth",
+  "outputs": [
+    "epitaxial_wafers",
+    "epitaxial_layers"
+  ],
+  "parent": "silicon.wafering",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon",
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 60-150+"
+}

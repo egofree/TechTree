@@ -1,0 +1,35 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Extraction and refining of gold and silver from ores, alluvial deposits, and recycled electronic scrap. Covers placer mining, cyanidation, mercury amalgamation, Parkes process silver recovery, aqua regia refining, Wohlwill electrolytic gold refining (99.99%+), and Moebius silver electrolysis. Produces semiconductor-grade gold wire for wire bonding and silver paste for photovoltaic cell metallization.",
+  "early_win": false,
+  "id": "metals.precious-metals",
+  "level": "capability",
+  "name": "Precious Metal Production (Gold & Silver)",
+  "outputs": [
+    "gold",
+    "silver",
+    "semiconductor_gold_wire",
+    "silver_paste",
+    "refined_precious_metals"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "recyclable",
+      "recycled-feedstock"
+    ],
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-50"
+}

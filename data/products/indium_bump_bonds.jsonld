@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "indium_bump_bonds",
+  "@type": "Product",
+  "name": "Indium Bump Bonds",
+  "source": "metals.refractory-specialty",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

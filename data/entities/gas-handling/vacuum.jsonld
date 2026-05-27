@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Piston pumps (rough vacuum 10-50 Torr), rotary vane pumps (workhorse, 10⁻²-10⁻³ Torr), diffusion pumps (high vacuum 10⁻⁶-10⁻⁸ Torr), vacuum chambers (steel or glass), vacuum measurement (Bourdon, Pirani, ion gauges), and leak detection (bubble test, helium leak detector).",
+  "early_win": false,
+  "id": "gas-handling.vacuum",
+  "level": "capability",
+  "name": "Vacuum Technology",
+  "outputs": [
+    "vacuum_pumps",
+    "vacuum_chambers",
+    "vacuum_measurement",
+    "leak_detection"
+  ],
+  "parent": "gas-handling",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40"
+}

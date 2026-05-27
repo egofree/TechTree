@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "gold",
+  "@type": "Product",
+  "name": "Gold",
+  "source": "metals.precious-metals",
+  "tags": {
+    "lifecycle": [
+      "recyclable",
+      "recycled-feedstock"
+    ],
+    "material": [
+      "metals",
+      "chemicals"
+    ]
+  }
+}

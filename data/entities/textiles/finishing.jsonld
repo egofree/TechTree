@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Post-weaving fabric treatments including fulling, napping, calendering, singeing, mercerization, waterproofing, and fireproofing. Transforms raw cloth into functional textiles for specific applications.",
+  "early_win": false,
+  "id": "textiles.finishing",
+  "level": "capability",
+  "name": "Fabric Finishing",
+  "outputs": [
+    "finished_cloth",
+    "waterproof_fabric",
+    "felt"
+  ],
+  "parent": "textiles",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30+"
+}

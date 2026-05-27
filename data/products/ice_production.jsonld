@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ice_production",
+  "@type": "Product",
+  "name": "Ice Production",
+  "source": "energy.cooling",
+  "tags": {
+    "capability": [
+      "cooling",
+      "energy"
+    ],
+    "material": []
+  }
+}

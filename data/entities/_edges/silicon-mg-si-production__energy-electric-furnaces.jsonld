@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/silicon.mg-si-production__energy.electric-furnaces",
   "@type": "Dependency",
-  "from": "silicon.mg-si-production",
-  "to": "energy.electric-furnaces",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "silicon.mg-si-production",
+  "to": "energy.electric-furnaces"
 }

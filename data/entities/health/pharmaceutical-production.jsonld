@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Without reliable pharmaceutical production, disease treatment depends on variable plant preparations and infection mortality remains high",
+  "description": "Scaled manufacture of drugs from extraction through final dosage form with quality control at each stage. Covers tablet compression, tincture production, sterile liquid manufacturing, and batch quality assurance.",
+  "early_win": false,
+  "id": "health.pharmaceutical-production",
+  "level": "capability",
+  "name": "Pharmaceutical Production",
+  "outputs": [
+    "pharmaceuticals",
+    "dosage_forms",
+    "quality_controlled_drugs",
+    "sterile_pharmaceuticals"
+  ],
+  "parent": "health",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-100+"
+}

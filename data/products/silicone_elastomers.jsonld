@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "silicone_elastomers",
+  "@type": "Product",
+  "name": "Silicone Elastomers",
+  "source": "polymers.rubber.synthetic",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

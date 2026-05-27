@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Mathematical foundations for all engineering: arithmetic, algebra, geometry, calculus, probability, and formal systems (Boolean algebra, information theory, computation theory). Provides the quantitative language for measurement, modeling, optimization, and digital logic design. Internal organizing axis: Complexity — capabilities ordered by increasing mathematical abstraction from basic arithmetic to formal systems.",
+  "early_win": false,
+  "id": "mathematics",
+  "level": "domain",
+  "name": "Mathematics & Formal Sciences",
+  "outputs": [
+    "mathematical_reasoning",
+    "quantitative_methods",
+    "formal_systems"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "copper-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-70+"
+}

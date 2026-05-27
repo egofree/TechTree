@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Lime production by calcining limestone at 900-1000°C for mortar, whitewash, plaster, and chemical feedstock.",
+  "early_win": false,
+  "id": "ceramics.lime",
+  "level": "capability",
+  "name": "Lime Production",
+  "outputs": [
+    "lime",
+    "quicklime",
+    "mortar"
+  ],
+  "parent": "ceramics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "stone"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-15"
+}

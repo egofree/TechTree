@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "gate_valves",
+  "@type": "Product",
+  "name": "Gate Valves",
+  "source": "vacuum.chambers",
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "material": []
+  }
+}

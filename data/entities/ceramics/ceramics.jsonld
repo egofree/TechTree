@@ -1,0 +1,42 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Refractory materials (fireclay, high-alumina, silica, magnesia, zirconia, carbon), technical ceramics (alumina, silicon carbide), ceramic processing (ball milling, pressing, sintering, slip casting), ceramic insulation (fiber blanket, insulating firebrick), and semiconductor-specific ceramics (fused silica crucibles, alumina furnace components, ceramic IC packages). Also covers pottery, kilns, and lime production.",
+  "early_win": false,
+  "id": "ceramics",
+  "level": "domain",
+  "name": "Ceramics & Refractories",
+  "outputs": [
+    "refractory_bricks",
+    "alumina_ceramics",
+    "silicon_carbide",
+    "ceramic_insulation",
+    "ceramic_packages",
+    "pottery",
+    "crucibles",
+    "refractory_linings",
+    "kilns",
+    "lime",
+    "quicklime",
+    "mortar",
+    "fired_ceramics"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "ceramics",
+      "clay",
+      "stone"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-70+"
+}

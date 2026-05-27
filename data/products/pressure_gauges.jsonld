@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "pressure_gauges",
+  "@type": "Product",
+  "name": "Pressure Gauges",
+  "source": "vacuum.measurement",
+  "tags": {
+    "capability": [
+      "vacuum",
+      "measurement"
+    ],
+    "material": []
+  }
+}

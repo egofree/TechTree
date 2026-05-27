@@ -1,0 +1,37 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Farming Black Soldier Fly larvae (Hermetia illucens) for protein meal and biowaste conversion. BSF larvae convert 1 ton of organic waste into 150-200 kg of fresh larvae (40-45% protein dry weight) in 14-18 days, providing high-protein feed for chickens, fish, and pigs while reducing waste volume by 50-80%.",
+  "early_win": true,
+  "early_win_note": "Converts food waste and manure into high-protein animal feed within 2 weeks. The fastest protein production cycle in any livestock system.",
+  "id": "animals.insect-farming",
+  "level": "capability",
+  "name": "Insect Farming (BSF)",
+  "outputs": [
+    "bsf_larvae",
+    "protein_meal",
+    "compost",
+    "chicken_feed",
+    "fish_feed"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.animal.insect"
+  ],
+  "timeline": "Years 1-10+"
+}

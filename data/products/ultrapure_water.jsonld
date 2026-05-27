@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ultrapure_water",
+  "@type": "Product",
+  "name": "Ultrapure Water",
+  "source": "chemistry.water-treatment",
+  "tags": {
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "water",
+      "chemicals"
+    ]
+  }
+}

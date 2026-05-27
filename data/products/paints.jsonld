@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "paints",
+  "@type": "Product",
+  "name": "Paints",
+  "source": "chemistry.coatings",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

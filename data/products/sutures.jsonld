@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sutures",
+  "@type": "Product",
+  "name": "Sutures",
+  "source": "health.medical-instruments",
+  "tags": {
+    "material": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Surface seep collection, cable-tool percussion drilling, rotary drilling with mud circulation, well completion, artificial lift, and enhanced oil recovery. Produces crude oil and associated natural gas from subsurface reservoirs.",
+  "early_win": false,
+  "id": "petroleum.extraction",
+  "level": "capability",
+  "name": "Crude Oil Extraction",
+  "outputs": [
+    "crude_oil",
+    "natural_gas_liquids",
+    "associated_gas"
+  ],
+  "parent": "petroleum",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "mineral.fossil-fuel.petroleum"
+  ],
+  "timeline": "Years 10-35"
+}

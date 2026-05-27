@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/metals.aluminum__chemistry.electrolysis",
   "@type": "Dependency",
-  "from": "metals.aluminum",
-  "to": "chemistry.electrolysis",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "metals.aluminum",
+  "to": "chemistry.electrolysis"
 }

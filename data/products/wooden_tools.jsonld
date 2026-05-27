@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "wooden_tools",
+  "@type": "Product",
+  "name": "Wooden Tools",
+  "source": "foundations.tools-basic",
+  "tags": {
+    "material": [
+      "stone",
+      "wood"
+    ]
+  }
+}

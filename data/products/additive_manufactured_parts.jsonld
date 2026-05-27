@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "additive_manufactured_parts",
+  "@type": "Product",
+  "name": "Additive Manufactured Parts",
+  "source": "metals.powder-metallurgy",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

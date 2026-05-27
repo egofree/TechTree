@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Domestic pigeons (Columba livia) raised for squab meat (26-30 day old juveniles) and guano fertilizer. Pigeons are self-feeding foragers requiring minimal supplemental feed, and squab reaches market weight (350-500g dressed) in under a month. Pigeon guano is one of the richest natural fertilizers (high NPK).",
+  "early_win": true,
+  "early_win_note": "Near-zero feed cost if allowed to forage. Squab production cycle is under 30 days. Guano is premium fertilizer.",
+  "id": "animals.poultry.pigeons",
+  "level": "process",
+  "name": "Pigeons & Squab",
+  "outputs": [
+    "squab_meat",
+    "guano",
+    "manure"
+  ],
+  "parent": "animals.poultry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-10+"
+}

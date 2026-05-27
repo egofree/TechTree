@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "atmospheric_residue",
+  "@type": "Product",
+  "name": "Atmospheric Residue",
+  "source": "petroleum.refining.distillation",
+  "tags": {
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

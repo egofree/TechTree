@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nylon",
+  "@type": "Product",
+  "name": "Nylon",
+  "source": "polymers.thermoplastics",
+  "tags": {
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "polymers"
+    ]
+  }
+}

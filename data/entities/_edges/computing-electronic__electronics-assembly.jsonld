@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/computing.electronic__electronics.assembly",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "computing.electronic",
+  "to": "electronics.assembly"
+}

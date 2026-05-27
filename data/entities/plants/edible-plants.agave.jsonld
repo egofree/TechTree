@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Agave",
+  "early_win": false,
+  "id": "plants.edible-plants.agave",
+  "level": "process",
+  "name": "Agave",
+  "outputs": [
+    "edible_plant_material"
+  ],
+  "parent": "plants.edible-plants",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant.edible.agave"
+  ],
+  "timeline": "Years 0-10"
+}

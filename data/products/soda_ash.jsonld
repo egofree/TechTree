@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "soda_ash",
+  "@type": "Product",
+  "name": "Soda Ash",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

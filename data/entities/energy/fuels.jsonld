@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Solid, liquid, and gaseous fuel production from coal, coke, charcoal, and petroleum sources.",
+  "early_win": false,
+  "id": "energy.fuels",
+  "level": "capability",
+  "name": "Fuel Production",
+  "outputs": [
+    "solid_fuels",
+    "liquid_fuels",
+    "gaseous_fuels"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-25"
+}

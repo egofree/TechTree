@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "quicklime",
+  "@type": "Product",
+  "name": "Quicklime",
+  "source": "ceramics",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "ceramics",
+      "clay",
+      "stone"
+    ]
+  }
+}

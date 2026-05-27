@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Functional ceramics for electronic applications: BaTiO₃ dielectrics for MLCC capacitors, MnZn/NiZn soft ferrites for inductors and EMI suppression, PZT piezoelectric ceramics for actuators and sensors, getter materials (Zr-V-Fe, Ba) for vacuum maintenance, and alumina substrates for IC packaging. These passive components are essential for every semiconductor device and electronic system.",
+  "early_win": false,
+  "id": "ceramics.electronic-ceramics",
+  "level": "capability",
+  "name": "Electronic Ceramics",
+  "outputs": [
+    "mlcc_capacitors",
+    "ferrite_cores",
+    "pzt_actuators",
+    "getter_materials",
+    "ceramic_substrates",
+    "varistors",
+    "thermistors"
+  ],
+  "parent": "ceramics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "ceramics"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-70+"
+}

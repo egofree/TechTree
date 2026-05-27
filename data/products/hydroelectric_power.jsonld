@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hydroelectric_power",
+  "@type": "Product",
+  "name": "Hydroelectric Power",
+  "source": "energy.storage",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "lot_tracking",
+  "@type": "Product",
+  "name": "Lot Tracking",
+  "source": "automation",
+  "tags": {
+    "capability": [
+      "computing",
+      "transport"
+    ],
+    "material": []
+  }
+}

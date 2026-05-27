@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ulpa_filters",
+  "@type": "Product",
+  "name": "Ulpa Filters",
+  "source": "cleanrooms",
+  "tags": {
+    "capability": [
+      "precision",
+      "construction"
+    ],
+    "material": []
+  }
+}

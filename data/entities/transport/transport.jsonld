@@ -1,0 +1,35 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Road construction, bridge building, railway systems, water transport, and aviation. Industrial-scale operations require moving materials, people, and information across distances.",
+  "early_win": false,
+  "id": "transport",
+  "level": "domain",
+  "name": "Transportation & Logistics",
+  "outputs": [
+    "roads",
+    "bridges",
+    "vehicles",
+    "canals",
+    "railways",
+    "telegraph",
+    "logistics_systems",
+    "aircraft",
+    "aircraft_engines",
+    "propellers"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-50+"
+}

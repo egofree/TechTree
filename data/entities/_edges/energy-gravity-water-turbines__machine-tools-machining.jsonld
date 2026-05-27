@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.gravity.water-turbines__machine-tools.machining",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "energy.gravity.water-turbines",
+  "to": "machine-tools.machining"
+}

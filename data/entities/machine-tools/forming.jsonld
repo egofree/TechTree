@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Forge work, hammer forming, rolling, and drawing of metals into shapes.",
+  "early_win": false,
+  "id": "machine-tools.forming",
+  "level": "capability",
+  "name": "Metal Forming",
+  "outputs": [
+    "formed_metal_parts"
+  ],
+  "parent": "machine-tools",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-15"
+}

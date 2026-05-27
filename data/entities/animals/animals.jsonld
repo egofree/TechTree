@@ -1,0 +1,44 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Domestication, husbandry, and utilization of animals for food, fiber, motive power, transport, and materials. Animals provide critical inputs across the tech tree: draft power (the primary motive force before steam), leather (durable flexible material), wool (insulating fiber), tallow (first lubricant and candle fuel), bone and horn (tool materials), sinew (high-tensile cordage), and dairy products.",
+  "early_win": true,
+  "early_win_note": "Hunting and trapping provide immediate food and materials; domestication creates the surplus engine that drives civilization",
+  "id": "animals",
+  "level": "domain",
+  "name": "Animals & Animal Husbandry",
+  "outputs": [
+    "animal_power",
+    "livestock",
+    "leather",
+    "tallow",
+    "wool",
+    "horn",
+    "bone",
+    "sinew",
+    "dairy",
+    "honey",
+    "beeswax",
+    "manure",
+    "pollination_services"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.animal"
+  ],
+  "timeline": "Years 0-50+"
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Equines and cattle together provide all pre-industrial motive power — without draft animals, agriculture and transport are limited to human labor alone",
+  "description": "Raising horses (Equus caballus) and donkeys (Equus africanus asinus) for draft power, transport, and pack carrying. Horses provide faster transport and greater pulling power; donkeys are more enduring, tolerate poor forage, and have longer working lifespans (25-30 years vs 15-20 for horses). Both species are essential for pre-industrial motive power.",
+  "early_win": false,
+  "id": "animals.equines",
+  "level": "capability",
+  "name": "Equine Husbandry",
+  "outputs": [
+    "draft_power",
+    "transport",
+    "manure"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 2-30+"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "structural_designs",
+  "@type": "Product",
+  "name": "Structural Designs",
+  "source": "construction.structural-engineering",
+  "tags": {
+    "capability": [
+      "construction",
+      "measurement"
+    ],
+    "material": [
+      "metals",
+      "stone"
+    ]
+  }
+}

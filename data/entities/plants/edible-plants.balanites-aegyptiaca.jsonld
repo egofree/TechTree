@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Balanites aegyptiaca (also known as the Desert date , Egyptian balsam and Lalob in Sudan ) is a species of tree, classified as a member of either the Zygophyllaceae or the Balanitaceae",
+  "early_win": false,
+  "id": "plants.edible-plants.balanites-aegyptiaca",
+  "level": "process",
+  "name": "Balanites aegyptiaca",
+  "outputs": [
+    "edible_plant_material"
+  ],
+  "parent": "plants.edible-plants",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant.edible.balanites-aegyptiaca"
+  ],
+  "timeline": "Years 0-10"
+}

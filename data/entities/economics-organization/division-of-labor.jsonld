@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Every downstream capability from metals to semiconductors implicitly requires specialist workers",
+  "description": "Specialization of workers into distinct trades and coordination of their interdependent tasks. Emerges directly from food surplus: when not everyone must farm, specialists can focus on metallurgy, pottery, construction, or tool-making. The foundational organizational technology.",
+  "early_win": true,
+  "early_win_note": "Surplus to specialization to exchange feedback loop: each specialist produces more than a generalist could",
+  "id": "economics-organization.division-of-labor",
+  "level": "capability",
+  "name": "Division of Labor",
+  "outputs": [
+    "specialist_labor",
+    "task_allocation",
+    "work_scheduling"
+  ],
+  "parent": "economics-organization",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "critical": true,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-5"
+}

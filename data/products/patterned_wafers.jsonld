@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "patterned_wafers",
+  "@type": "Product",
+  "name": "Patterned Wafers",
+  "source": "photolithography.resists-masks",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

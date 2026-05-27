@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "meat",
+  "@type": "Product",
+  "name": "Meat",
+  "source": "animals.domestication",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

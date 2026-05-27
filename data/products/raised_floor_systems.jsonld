@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "raised_floor_systems",
+  "@type": "Product",
+  "name": "Raised Floor Systems",
+  "source": "cleanrooms.facility-design",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

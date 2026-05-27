@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "screws",
+  "@type": "Product",
+  "name": "Screws",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Ion separation using alternating cation and anion exchange membranes under electric field. Desalinates brackish water, recovers acids and bases from salt solutions, and concentrates process streams for industrial chemistry.",
+  "early_win": false,
+  "id": "chemistry.electrodialysis",
+  "level": "capability",
+  "name": "Electrodialysis",
+  "outputs": [
+    "separated_ions",
+    "purified_water"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals",
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-45"
+}

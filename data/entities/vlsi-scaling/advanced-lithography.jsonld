@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Projection steppers/scanners (i-line 365 nm → 0.35 μm), DUV excimer lasers (KrF 248 nm, ArF 193 nm with immersion → 0.07 μm), and EUV (13.5 nm from Sn plasma, reflective Mo/Si optics, high vacuum beam path). Chemically amplified resists for DUV. EUV is one of the last achievements — incredibly demanding.",
+  "early_win": false,
+  "id": "vlsi-scaling.advanced-lithography",
+  "level": "capability",
+  "name": "Advanced Lithography",
+  "outputs": [
+    "advanced_lithography",
+    "euv_capability",
+    "duv_capability"
+  ],
+  "parent": "vlsi-scaling",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision",
+      "optics"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 70-200+"
+}

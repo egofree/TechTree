@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "acetone",
+  "@type": "Product",
+  "name": "Acetone",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

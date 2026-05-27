@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cart_draft",
+  "@type": "Product",
+  "name": "Cart Draft",
+  "source": "animals.draft-power",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": []
+  }
+}

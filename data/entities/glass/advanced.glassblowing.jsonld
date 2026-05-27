@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Lampworking and freehand glassblowing for laboratory and technical apparatus. Torch types (Bunsen, gas-oxygen, hydrogen-oxygen). Standard products: round-bottom flasks, condensers, distillation columns, thermometers, vacuum manifolds, ampoules. Glass-to-metal seals for electrical feedthroughs. Essential for ALL chemistry lab work beyond test tubes.",
+  "early_win": false,
+  "id": "glass.advanced.glassblowing",
+  "level": "process",
+  "name": "Glassblowing and Scientific Apparatus",
+  "outputs": [
+    "scientific_glassware",
+    "glass_apparatus",
+    "glass_to_metal_seals"
+  ],
+  "parent": "glass.advanced",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-25"
+}

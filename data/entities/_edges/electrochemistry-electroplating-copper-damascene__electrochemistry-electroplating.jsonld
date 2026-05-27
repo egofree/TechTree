@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/electrochemistry.electroplating.copper-damascene__electrochemistry.electroplating",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "electrochemistry.electroplating.copper-damascene",
+  "to": "electrochemistry.electroplating"
+}

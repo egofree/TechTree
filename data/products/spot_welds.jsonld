@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "spot_welds",
+  "@type": "Product",
+  "name": "Spot Welds",
+  "source": "machine-tools.joining.resistance-welding",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

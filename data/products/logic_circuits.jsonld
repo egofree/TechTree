@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "logic_circuits",
+  "@type": "Product",
+  "name": "Logic Circuits",
+  "source": "computing.digital-logic",
+  "tags": {
+    "material": []
+  }
+}

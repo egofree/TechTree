@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/silicon.wafering.epitaxy__chemistry.dopant-etch-gases",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "silicon.wafering.epitaxy",
+  "to": "chemistry.dopant-etch-gases"
+}

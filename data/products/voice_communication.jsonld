@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "voice_communication",
+  "@type": "Product",
+  "name": "Voice Communication",
+  "source": "telecom.telephone",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

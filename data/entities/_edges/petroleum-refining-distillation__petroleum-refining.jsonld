@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/petroleum.refining.distillation__petroleum.refining",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "petroleum.refining.distillation",
+  "to": "petroleum.refining"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "roofing_systems",
+  "@type": "Product",
+  "name": "Roofing Systems",
+  "source": "construction.building-materials",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "wood",
+      "stone"
+    ]
+  }
+}

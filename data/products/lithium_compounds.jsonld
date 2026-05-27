@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "lithium_compounds",
+  "@type": "Product",
+  "name": "Lithium Compounds",
+  "source": "chemistry.lithium-separation",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

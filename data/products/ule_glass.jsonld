@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ule_glass",
+  "@type": "Product",
+  "name": "Ule Glass",
+  "source": "glass.photomask-substrates",
+  "tags": {
+    "capability": [
+      "optics",
+      "precision"
+    ],
+    "material": [
+      "glass"
+    ]
+  }
+}

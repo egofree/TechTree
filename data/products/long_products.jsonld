@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "long_products",
+  "@type": "Product",
+  "name": "Long Products",
+  "source": "metals.steelmaking",
+  "tags": {
+    "lifecycle": [
+      "recyclable",
+      "recycled-feedstock"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

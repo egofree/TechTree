@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/photolithography.fab-processes__economics-organization.supply-chain",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "photolithography.fab-processes",
+  "to": "economics-organization.supply-chain"
+}

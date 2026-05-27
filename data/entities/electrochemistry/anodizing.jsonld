@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Electrochemical oxide growth on aluminum (Type II sulfuric acid at 12-22V, 10-20 mA/cm²; Type III hard anodizing at 25-75V, 25-40 mA/cm², -1 to +5°C) and titanium (voltage-controlled color at 15-110V, 1.5-2 nm/V oxide growth). Porous AAO templates for nanostructure fabrication. Anodic bonding for MEMS packaging.",
+  "early_win": false,
+  "id": "electrochemistry.anodizing",
+  "level": "capability",
+  "name": "Anodizing",
+  "outputs": [
+    "anodized_aluminum",
+    "hard_anodized_surfaces",
+    "anodized_titanium",
+    "oxide_coatings"
+  ],
+  "parent": "electrochemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-60"
+}

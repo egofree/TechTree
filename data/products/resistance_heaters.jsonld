@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "resistance_heaters",
+  "@type": "Product",
+  "name": "Resistance Heaters",
+  "source": "energy.electric-furnaces",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

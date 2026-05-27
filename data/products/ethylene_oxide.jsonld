@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ethylene_oxide",
+  "@type": "Product",
+  "name": "Ethylene Oxide",
+  "source": "petroleum",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

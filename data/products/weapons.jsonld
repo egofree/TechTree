@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "weapons",
+  "@type": "Product",
+  "name": "Weapons",
+  "source": "defense",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "metals",
+      "wood",
+      "stone"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "stored_energy",
+  "@type": "Product",
+  "name": "Stored Energy",
+  "source": "energy.redox-flow-battery",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "lifecycle": [
+      "closed-loop"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

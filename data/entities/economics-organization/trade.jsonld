@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Exchange of surplus goods between specialists through barter and market systems. Enables each specialist to obtain goods they do not produce directly, creating the economic feedback loop: specialization to surplus to exchange to further specialization.",
+  "early_win": true,
+  "early_win_note": "Trade enables surplus circulation, dramatically increasing the value of specialization",
+  "id": "economics-organization.trade",
+  "level": "capability",
+  "name": "Trade & Barter",
+  "outputs": [
+    "goods_exchange",
+    "market_systems",
+    "trade_networks"
+  ],
+  "parent": "economics-organization",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 1-5"
+}

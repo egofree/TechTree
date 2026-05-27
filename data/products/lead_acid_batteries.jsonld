@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "lead_acid_batteries",
+  "@type": "Product",
+  "name": "Lead Acid Batteries",
+  "source": "energy",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

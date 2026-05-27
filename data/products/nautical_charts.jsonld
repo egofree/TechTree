@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nautical_charts",
+  "@type": "Product",
+  "name": "Nautical Charts",
+  "source": "marine.navigation",
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "material": [
+      "metals",
+      "glass"
+    ]
+  }
+}

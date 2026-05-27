@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Yoke and harness systems for oxen, horses, and mules. Applications: plowing (ox-drawn plow breaks sod that hand tools cannot), cart and wagon pulling (500-1500 kg per animal), water lifting (animal-powered sakia), grain milling (horse or ox-powered millstones), mining hoisting (horse whim: 3-4 HP). Primary motive power source until steam engines.",
+  "early_win": true,
+  "early_win_note": "Draft animals multiply human labor 5-10x for plowing and transport, creating surplus with minimal technology",
+  "id": "animals.draft-power",
+  "level": "capability",
+  "name": "Animal Draft Power & Harnessing",
+  "outputs": [
+    "animal_power",
+    "plowing_capability",
+    "cart_draft",
+    "animal_milling"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.animal.draft"
+  ],
+  "timeline": "Years 2-30+"
+}

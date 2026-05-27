@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "varnishes",
+  "@type": "Product",
+  "name": "Varnishes",
+  "source": "chemistry.coatings",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Electric arc furnace (EAF) for steelmaking and silicon reduction, submerged arc furnace for continuous production, and resistance heating elements (Nichrome, Kanthal, SiC). Arc temperatures reach 3000-3500°C. EAF is critical for MG-Si production and specialty steel.",
+  "early_win": false,
+  "id": "energy.electric-furnaces",
+  "level": "capability",
+  "name": "Electric Furnaces",
+  "outputs": [
+    "electric_arc_furnaces",
+    "resistance_heaters",
+    "eaf_steel"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-30"
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Ionizing radiation protection: shielding design using half-value layers, dose monitoring with dosimetry, contamination control, and ALARA principles. Covers dose limits for occupational and public exposure.",
+  "early_win": false,
+  "id": "ehs.radiation-safety",
+  "level": "capability",
+  "name": "Radiation Safety",
+  "outputs": [
+    "radiation_protection",
+    "shielding_design",
+    "dosimetry",
+    "contamination_control"
+  ],
+  "parent": "ehs",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health",
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-100+"
+}

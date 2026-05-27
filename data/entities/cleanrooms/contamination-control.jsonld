@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Gowning protocols and garment materials, particle monitoring systems (laser scattering counters), electrostatic discharge (ESD) control (ionizers, wrist straps, conductive flooring), ISO 14644-1 classification (ISO Classes 1-9), and personnel training requirements.",
+  "early_win": false,
+  "id": "cleanrooms.contamination-control",
+  "level": "capability",
+  "name": "Contamination Control",
+  "outputs": [
+    "contamination_control_protocols",
+    "iso_classification",
+    "esd_control",
+    "particle_monitoring"
+  ],
+  "parent": "cleanrooms",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-70"
+}

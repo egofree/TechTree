@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Japanese quail (Coturnix japonica) raised for eggs and meat. Sexual maturity at 6 weeks, producing 300+ eggs per year at 10-12g each. The smallest and fastest-reproducing poultry species, requiring minimal space (25x25 cm cage per bird) and feed (20-25g/day).",
+  "early_win": true,
+  "early_win_note": "Egg production begins at 6 weeks — the fastest return of any poultry. Virtually silent, suitable for urban or stealth setups.",
+  "id": "animals.poultry.coturnix",
+  "level": "process",
+  "name": "Coturnix Quail",
+  "outputs": [
+    "quail_eggs",
+    "quail_meat",
+    "manure"
+  ],
+  "parent": "animals.poultry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-3"
+}

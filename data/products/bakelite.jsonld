@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "bakelite",
+  "@type": "Product",
+  "name": "Bakelite",
+  "source": "polymers.thermosets",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

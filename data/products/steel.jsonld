@@ -3,14 +3,10 @@
   "@id": "steel",
   "@type": "Product",
   "name": "Steel",
-  "source": "metals.iron-steel",
+  "source": "metals",
   "tags": {
     "material": [
       "metals"
-    ],
-    "lifecycle": [
-      "waste-source",
-      "recyclable"
     ]
   }
 }

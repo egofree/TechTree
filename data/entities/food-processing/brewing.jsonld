@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Beer brewing (malted grain mash, fermentation, conditioning), wine making (grape crushing, fermentation, aging), and spirit distillation (pot still, column still). Brewing is simultaneously food preservation (beer was historically safer than water), calorie concentration, and the earliest industrial biotechnology. Distillation later provides industrial ethanol and feeds into chemistry.",
+  "early_win": false,
+  "id": "food-processing.brewing",
+  "level": "capability",
+  "name": "Brewing & Distilling",
+  "outputs": [
+    "beer",
+    "wine",
+    "spirits",
+    "industrial_ethanol",
+    "spent_grain",
+    "vinegar"
+  ],
+  "parent": "food-processing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass",
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-25+"
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Hydrogen via electrolysis (4-5 kWh/Nm³) with Pd membrane purification, steam reforming of methane, and silane (SiH₄) production from MG-Si via trichlorosilane redistribution. Silane is pyrophoric — rigorous handling protocols required.",
+  "early_win": false,
+  "id": "chemistry.hydrogen-silane",
+  "level": "capability",
+  "name": "Hydrogen & Silane Production",
+  "outputs": [
+    "hydrogen",
+    "silane",
+    "trichlorosilane"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "gases",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-50"
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Wafer production from crystal ingots: wire saw slicing, lapping, chemical mechanical polishing (CMP), RCA cleaning, epitaxial layer growth, and SOI wafer fabrication. Transforms grown crystals into device-ready wafers with mirror-smooth surfaces, including advanced substrate engineering.",
+  "early_win": false,
+  "id": "silicon.wafering",
+  "level": "capability",
+  "name": "Wafer Slicing & Polishing",
+  "outputs": [
+    "silicon_wafers",
+    "polished_wafers",
+    "epitaxial_wafers",
+    "soi_wafers"
+  ],
+  "parent": "silicon",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 60-150+"
+}

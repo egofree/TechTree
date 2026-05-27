@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Without nanometer-accurate wafer stages, photolithography cannot achieve overlay precision needed for sub-100 nm IC fabrication",
+  "description": "Stepper and scanner wafer positioning stages for photolithography: 6-DOF coarse-fine architecture, dual-stage scanning at 1-2 m/s with ±5 nm positioning accuracy, reticle stage synchronization to <1 nm error, and vacuum-compatible magnetic levitation for EUV lithography. The most mechanically demanding assembly in semiconductor manufacturing.",
+  "early_win": false,
+  "id": "precision-motion.wafer-stages",
+  "level": "capability",
+  "name": "Wafer Stages & Scanner Systems",
+  "outputs": [
+    "wafer_stages",
+    "reticle_stages",
+    "scanner_systems"
+  ],
+  "parent": "precision-motion",
+  "pinnacle": true,
+  "pinnacle_note": "EUV scanner wafer stages with magnetic levitation in vacuum at ±5 nm require the full semiconductor equipment ecosystem",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": true
+  },
+  "timeline": "Years 45-80"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nutrient_solution",
+  "@type": "Product",
+  "name": "Nutrient Solution",
+  "source": "agriculture.hydroponic-ph-control",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "chemicals",
+      "water"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "stainless_steel",
+  "@type": "Product",
+  "name": "Stainless Steel",
+  "source": "metals.alloys",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "distillation_capability",
+  "@type": "Product",
+  "name": "Distillation Capability",
+  "source": "chemistry.distillation",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "electropolished_surfaces",
+  "@type": "Product",
+  "name": "Electropolished Surfaces",
+  "source": "electrochemistry",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals",
+      "chemicals"
+    ]
+  }
+}

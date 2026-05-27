@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "wound_management",
+  "@type": "Product",
+  "name": "Wound Management",
+  "source": "health.surgery-basics",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": []
+  }
+}

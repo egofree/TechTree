@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Semiconductor-specific chemical safety, toxicology, ventilation engineering, PPE systems, emergency response, and waste management for hazardous process chemicals (HF, silane, arsine, phosphine). Distinct from general occupational health by focus on ultra-hazardous hydride gases, pyrophoric materials, and semiconductor waste streams. Organized by functional safety domain: chemical hazards, ventilation, PPE, emergency response, waste treatment.",
+  "early_win": false,
+  "id": "ehs",
+  "level": "domain",
+  "name": "Environmental Health & Safety",
+  "outputs": [
+    "chemical_safety_protocols",
+    "ventilation_systems",
+    "ppe_systems",
+    "emergency_response_capability",
+    "waste_treatment"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "chemicals",
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-70"
+}

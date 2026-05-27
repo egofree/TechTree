@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "regulatory_frameworks",
+  "@type": "Product",
+  "name": "Regulatory Frameworks",
+  "source": "economics-organization.governance",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": []
+  }
+}

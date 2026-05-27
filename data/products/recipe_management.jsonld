@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "recipe_management",
+  "@type": "Product",
+  "name": "Recipe Management",
+  "source": "automation",
+  "tags": {
+    "capability": [
+      "computing",
+      "transport"
+    ],
+    "material": []
+  }
+}

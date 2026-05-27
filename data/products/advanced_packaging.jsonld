@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "advanced_packaging",
+  "@type": "Product",
+  "name": "Advanced Packaging",
+  "source": "vlsi-scaling",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

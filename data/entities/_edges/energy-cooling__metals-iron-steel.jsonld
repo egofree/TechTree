@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/energy.cooling__metals.iron-steel",
   "@type": "Dependency",
-  "from": "energy.cooling",
-  "to": "metals.iron-steel",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "energy.cooling",
+  "to": "metals.iron-steel"
 }

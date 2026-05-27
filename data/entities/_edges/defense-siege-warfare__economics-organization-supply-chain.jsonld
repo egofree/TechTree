@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/defense.siege-warfare__economics-organization.supply-chain",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "defense.siege-warfare",
+  "to": "economics-organization.supply-chain"
+}

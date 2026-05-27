@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "feedback_control",
+  "@type": "Product",
+  "name": "Feedback Control",
+  "source": "computing",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

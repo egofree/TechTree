@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Network-level telegraph systems: message routing, hub-and-spoke topology, duplex/quadruplex multiplexing, and network management. Hardware details (keys, sounders, batteries) covered by transport.telegraph — this node focuses on the telecommunications architecture that turns point-to-point circuits into information networks. Includes railway block signaling integration.",
+  "early_win": false,
+  "id": "telecom.electric-telegraph",
+  "level": "capability",
+  "name": "Electrical Telegraph Networks",
+  "outputs": [
+    "telegraph_networks",
+    "block_signaling_systems",
+    "message_routing"
+  ],
+  "parent": "telecom",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40"
+}

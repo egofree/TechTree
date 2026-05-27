@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "asphalt",
+  "@type": "Product",
+  "name": "Asphalt",
+  "source": "petroleum",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

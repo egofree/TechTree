@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Voltmeters, ammeters, ohmmeters, Wheatstone bridges, galvanometers, oscilloscopes, and signal generators. Essential for energy, chemistry, and semiconductor domains.",
+  "early_win": false,
+  "id": "measurement.electrical-instruments",
+  "level": "capability",
+  "name": "Electrical Measurement Instruments",
+  "outputs": [
+    "electrical_measurement",
+    "voltage_measurement",
+    "current_measurement"
+  ],
+  "parent": "measurement",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-100+"
+}

@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Natural rubber vulcanization, synthetic rubbers (nitrile/NBR, neoprene, silicone), thermosetting polymers (Bakelite, epoxy, phenolic/FR-4 laminates, polyester, polyurethane), thermoplastic polymers (polyethylene, PVC, nylon, polystyrene, PTFE), polymer processing equipment (extruders, injection molding), and composite materials (fiberglass, carbon fiber). Provides seals, gaskets, insulation, packaging, and structural materials.",
+  "early_win": false,
+  "id": "polymers",
+  "level": "domain",
+  "name": "Polymers & Composites",
+  "outputs": [
+    "rubber",
+    "elastomers",
+    "thermoset_resins",
+    "thermoplastics",
+    "epoxy",
+    "ptfe",
+    "fr4_laminate",
+    "fiberglass",
+    "injection_molded_parts"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-70+"
+}

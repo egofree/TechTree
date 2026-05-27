@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "agv_systems",
+  "@type": "Product",
+  "name": "Agv Systems",
+  "source": "automation.material-transport",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": []
+  }
+}

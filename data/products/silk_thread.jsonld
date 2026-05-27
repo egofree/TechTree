@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "silk_thread",
+  "@type": "Product",
+  "name": "Silk Thread",
+  "source": "animals.sericulture",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

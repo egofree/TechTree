@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Raising domesticated rabbits (Oryctolagus cuniculus) for meat, fur, and Angora wool. Rabbits produce 4-6 litters of 6-12 kits per year, reaching processing weight (2-2.5 kg) at 10-12 weeks on minimal space (0.15-0.25 m² per kg). Rabbit manure can be applied directly to crops without composting (cold manure).",
+  "early_win": true,
+  "early_win_note": "Fastest reproduction of any livestock — a single doe can produce 100+ kg of meat per year. Minimal space, feed, and infrastructure requirements.",
+  "id": "animals.rabbits",
+  "level": "capability",
+  "name": "Rabbit Husbandry",
+  "outputs": [
+    "rabbit_meat",
+    "rabbit_fur",
+    "manure",
+    "angora_wool"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-10+"
+}

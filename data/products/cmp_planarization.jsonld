@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cmp_planarization",
+  "@type": "Product",
+  "name": "Cmp Planarization",
+  "source": "vlsi-scaling.advanced-processes",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

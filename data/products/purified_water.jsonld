@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "purified_water",
+  "@type": "Product",
+  "name": "Purified Water",
+  "source": "chemistry.electrodialysis",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "chemicals",
+      "water"
+    ]
+  }
+}

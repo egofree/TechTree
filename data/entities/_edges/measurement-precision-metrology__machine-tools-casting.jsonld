@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/measurement.precision-metrology__machine-tools.casting",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "measurement.precision-metrology",
+  "to": "machine-tools.casting"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "process_sequencing",
+  "@type": "Product",
+  "name": "Process Sequencing",
+  "source": "automation.process-control",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

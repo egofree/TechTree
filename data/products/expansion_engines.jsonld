@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "expansion_engines",
+  "@type": "Product",
+  "name": "Expansion Engines",
+  "source": "cryogenics",
+  "tags": {
+    "capability": [
+      "cooling"
+    ],
+    "material": [
+      "gases"
+    ]
+  }
+}

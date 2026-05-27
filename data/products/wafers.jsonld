@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "wafers",
+  "@type": "Product",
+  "name": "Wafers",
+  "source": "silicon",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

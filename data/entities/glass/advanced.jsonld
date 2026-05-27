@@ -1,0 +1,35 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Borosilicate glass (Pyrex-type, thermal shock resistant), fused silica/quartz glass (1700°C+, critical for CZ crucibles), glass tubing production, glassworking techniques (lampworking, sealing), and quartz crucible fabrication for semiconductor use.",
+  "early_win": false,
+  "id": "glass.advanced",
+  "level": "capability",
+  "name": "Advanced Glass Production",
+  "outputs": [
+    "borosilicate_glass",
+    "fused_silica",
+    "quartz_crucibles",
+    "glass_tubing",
+    "glass_apparatus"
+  ],
+  "parent": "glass",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40"
+}

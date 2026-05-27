@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Solid-state joining at 50-80% melting point temperature under 1-10 MPa pressure for 30-120 minutes. Atomic diffusion across the interface eliminates the joint line — bond indistinguishable from parent metal. Joins dissimilar metals (Ti-to-SS, Cu-to-Al) via thin interlayers without brittle intermetallics. HIP bonding (50-200 MPa isostatic) for complex internal surfaces. Critical for UHV chambers and semiconductor heat exchangers.",
+  "early_win": false,
+  "id": "machine-tools.joining.diffusion-bonding",
+  "level": "process",
+  "name": "Diffusion Bonding",
+  "outputs": [
+    "diffusion_bonds",
+    "hermetic_seals"
+  ],
+  "parent": "machine-tools.joining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 35-65"
+}

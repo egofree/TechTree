@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "siege_engines",
+  "@type": "Product",
+  "name": "Siege Engines",
+  "source": "defense",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "metals",
+      "wood",
+      "stone"
+    ]
+  }
+}

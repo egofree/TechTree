@@ -1,0 +1,18 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "glass_tubing",
+  "@type": "Product",
+  "name": "Glass Tubing",
+  "source": "glass.advanced",
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "glass"
+    ]
+  }
+}

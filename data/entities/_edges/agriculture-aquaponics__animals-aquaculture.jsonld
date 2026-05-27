@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/agriculture.aquaponics__animals.aquaculture",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "agriculture.aquaponics",
+  "to": "animals.aquaculture"
+}

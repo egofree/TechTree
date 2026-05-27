@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cu_damascene_interconnects",
+  "@type": "Product",
+  "name": "Cu Damascene Interconnects",
+  "source": "metals.specialty-semiconductor",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

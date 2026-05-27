@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "soap",
+  "@type": "Product",
+  "name": "Soap",
+  "source": "chemistry.soap",
+  "tags": {
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

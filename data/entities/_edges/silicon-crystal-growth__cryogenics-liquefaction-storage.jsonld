@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/silicon.crystal-growth__cryogenics.liquefaction-storage",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "silicon.crystal-growth",
+  "to": "cryogenics.liquefaction-storage"
+}

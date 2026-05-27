@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Locating and extracting water from natural sources: well digging, spring development, rainwater harvesting, and surface water collection. The foundational water capability upon which all distribution and treatment systems depend.",
+  "early_win": false,
+  "id": "water.procurement",
+  "level": "capability",
+  "name": "Water Procurement",
+  "outputs": [
+    "raw_water",
+    "groundwater",
+    "rainwater"
+  ],
+  "parent": "water",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-5"
+}

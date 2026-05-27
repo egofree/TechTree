@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "roughing_pumps",
+  "@type": "Product",
+  "name": "Roughing Pumps",
+  "source": "vacuum.pumps",
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "material": []
+  }
+}

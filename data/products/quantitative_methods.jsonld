@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "quantitative_methods",
+  "@type": "Product",
+  "name": "Quantitative Methods",
+  "source": "mathematics",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

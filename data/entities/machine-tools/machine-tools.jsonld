@@ -1,0 +1,57 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": true,
+  "critical_note": "Master enabler: every later stage depends on precision parts — cylinders, leadscrews, slides, seals",
+  "description": "Precision manufacturing capability built via Gingery-style iterative bootstrap: casting → crude lathe → improved lathe → shaper → mill → drill press → surface grinder. Covers metal forming, machining, joining, and casting. The single most important parallel track — without machine tools, no semiconductor equipment can be built.",
+  "early_win": false,
+  "id": "machine-tools",
+  "level": "domain",
+  "name": "Machine Tools Bootstrap",
+  "outputs": [
+    "lathe",
+    "shaper",
+    "mill",
+    "drill_press",
+    "grinder",
+    "gears",
+    "screws",
+    "bearings",
+    "formed_metal_parts",
+    "machined_parts",
+    "forge_welds",
+    "brazed_joints",
+    "soldered_joints",
+    "riveted_joints",
+    "welded_joints",
+    "acetylene",
+    "cast_iron_parts",
+    "cast_aluminum_parts",
+    "sand_molds",
+    "tig_welds",
+    "mig_welds",
+    "resistance_welds",
+    "electron_beam_welds",
+    "ultrasonic_bonds",
+    "friction_stir_welds",
+    "laser_welds",
+    "diffusion_bonds",
+    "hermetic_seals",
+    "wire_bonds"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": true,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-25"
+}

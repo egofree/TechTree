@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fired_ceramics",
+  "@type": "Product",
+  "name": "Fired Ceramics",
+  "source": "ceramics",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "ceramics",
+      "clay",
+      "stone"
+    ]
+  }
+}

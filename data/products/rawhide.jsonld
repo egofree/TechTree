@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "rawhide",
+  "@type": "Product",
+  "name": "Rawhide",
+  "source": "animals.leather",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

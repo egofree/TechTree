@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ingaas_photodetectors",
+  "@type": "Product",
+  "name": "Ingaas Photodetectors",
+  "source": "metals.refractory-specialty",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

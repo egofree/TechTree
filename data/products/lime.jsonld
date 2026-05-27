@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "lime",
+  "@type": "Product",
+  "name": "Lime",
+  "source": "ceramics",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "ceramics",
+      "clay",
+      "stone"
+    ]
+  }
+}

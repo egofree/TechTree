@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "semiconductor_gold_wire",
+  "@type": "Product",
+  "name": "Semiconductor Gold Wire",
+  "source": "metals.precious-metals",
+  "tags": {
+    "lifecycle": [
+      "recyclable",
+      "recycled-feedstock"
+    ],
+    "material": [
+      "metals",
+      "chemicals"
+    ]
+  }
+}

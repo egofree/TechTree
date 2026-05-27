@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Acceptance sampling plans (MIL-STD-105E/ANSI Z1.4), AQL selection (0.10%-1.0% for semiconductor materials), incoming/in-process/final inspection procedures, switching rules (normal/tightened/reduced), and variables sampling for continuous measurements. Covers incoming material inspection (photoresist, gases, wafers), in-process monitoring (post-litho CD, post-etch, post-CMP), and wafer sort + final test.",
+  "early_win": false,
+  "id": "quality-control.inspection-sampling",
+  "level": "capability",
+  "name": "Inspection & Sampling Plans",
+  "outputs": [
+    "sampling_plans",
+    "aql_tables",
+    "inspection_procedures",
+    "acceptance_criteria",
+    "switching_rules"
+  ],
+  "parent": "quality-control",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-100+"
+}

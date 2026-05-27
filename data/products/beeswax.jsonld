@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "beeswax",
+  "@type": "Product",
+  "name": "Beeswax",
+  "source": "animals",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

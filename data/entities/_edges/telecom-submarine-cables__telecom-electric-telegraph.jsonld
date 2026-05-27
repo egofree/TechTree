@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/telecom.submarine-cables__telecom.electric-telegraph",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "telecom.submarine-cables",
+  "to": "telecom.electric-telegraph"
+}

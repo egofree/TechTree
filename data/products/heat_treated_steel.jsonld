@@ -5,12 +5,12 @@
   "name": "Heat Treated Steel",
   "source": "metals.iron-steel",
   "tags": {
-    "material": [
-      "metals"
-    ],
     "lifecycle": [
       "waste-source",
       "recyclable"
+    ],
+    "material": [
+      "metals"
     ]
   }
 }

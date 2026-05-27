@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "calipers",
+  "@type": "Product",
+  "name": "Calipers",
+  "source": "measurement.precision-metrology",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

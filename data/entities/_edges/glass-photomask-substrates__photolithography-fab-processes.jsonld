@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/glass.photomask-substrates__photolithography.fab-processes",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "glass.photomask-substrates",
+  "to": "photolithography.fab-processes"
+}

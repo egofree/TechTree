@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "potable_water",
+  "@type": "Product",
+  "name": "Potable Water",
+  "source": "water.basic-treatment",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "water"
+    ]
+  }
+}

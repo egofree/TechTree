@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "high_purity_aluminum",
+  "@type": "Product",
+  "name": "High Purity Aluminum",
+  "source": "metals.aluminum.semiconductor-grade",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

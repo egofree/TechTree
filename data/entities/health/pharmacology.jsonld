@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Plant-derived and synthetic pharmaceutical production, dosage forms, and drug delivery.",
+  "early_win": false,
+  "id": "health.pharmacology",
+  "level": "capability",
+  "name": "Pharmacology",
+  "outputs": [
+    "pharmaceuticals"
+  ],
+  "parent": "health",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-100+"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ceramic_substrates",
+  "@type": "Product",
+  "name": "Ceramic Substrates",
+  "source": "ceramics.electronic-ceramics",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "ceramics"
+    ]
+  }
+}

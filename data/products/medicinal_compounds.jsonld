@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "medicinal_compounds",
+  "@type": "Product",
+  "name": "Medicinal Compounds",
+  "source": "plants.medicinal-plants.agrimonia-pilosa",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

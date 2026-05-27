@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "chemical_suits",
+  "@type": "Product",
+  "name": "Chemical Suits",
+  "source": "ehs.ppe",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "polymers"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Physical examination, vital signs measurement, basic laboratory testing, and fundamental imaging. A competent diagnostician with stethoscope, thermometer, and basic lab supplies can correctly identify 70-80% of common conditions.",
+  "early_win": false,
+  "id": "health.diagnostics",
+  "level": "capability",
+  "name": "Diagnostics",
+  "outputs": [
+    "diagnostic_capability",
+    "vital_signs_monitoring",
+    "laboratory_testing",
+    "imaging_capability"
+  ],
+  "parent": "health",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health",
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-100+"
+}

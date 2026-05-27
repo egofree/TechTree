@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Allium ampeloprasum is a member of the onion genus Allium . The wild plant is commonly known as wild leek or broadleaf wild leek . Its native range includes southern Europe, southwestern Asia and North Africa, but it has been cultivated and naturalized in many other countries",
+  "early_win": false,
+  "id": "plants.edible-plants.allium-ampeloprasum",
+  "level": "process",
+  "name": "Allium ampeloprasum",
+  "outputs": [
+    "edible_plant_material"
+  ],
+  "parent": "plants.edible-plants",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant.edible.allium-ampeloprasum"
+  ],
+  "timeline": "Years 0-10"
+}

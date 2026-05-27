@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Visual and acoustic signaling systems for long-distance communication before electrical technology: signal fires, beacons, semaphore lines (Chappe telegraph), heliograph (mirror signaling), and flag signaling. Ranges from 5 km (signal fires) to 100+ km (heliograph). The first telecommunications infrastructure, enabling military coordination and emergency warning across distances impractical for couriers.",
+  "early_win": false,
+  "id": "telecom.pre-electric",
+  "level": "capability",
+  "name": "Pre-Electric Communication",
+  "outputs": [
+    "visual_signaling",
+    "semaphore_networks",
+    "beacon_systems"
+  ],
+  "parent": "telecom",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "wood",
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-25"
+}

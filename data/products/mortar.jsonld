@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mortar",
+  "@type": "Product",
+  "name": "Mortar",
+  "source": "ceramics",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "ceramics",
+      "clay",
+      "stone"
+    ]
+  }
+}

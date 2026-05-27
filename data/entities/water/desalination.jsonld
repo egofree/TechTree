@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Reverse osmosis and electrodialysis desalination of seawater and brackish water using semipermeable membranes. Produces fresh water for agriculture, industry, and human consumption in water-scarce regions.",
+  "early_win": false,
+  "id": "water.desalination",
+  "level": "capability",
+  "name": "Desalination",
+  "outputs": [
+    "fresh_water",
+    "brine"
+  ],
+  "parent": "water",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-45"
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "yield_data",
+  "@type": "Product",
+  "name": "Yield Data",
+  "source": "chemistry.packaging-testing",
+  "tags": {
+    "material": []
+  }
+}

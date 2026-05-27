@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Copper smelting from malachite, azurite, and chalcopyrite in forced-draft charcoal furnaces at 1085-1200°C. Bronze alloying with 5-12% tin for harder, more castable tools. Sand, clay, and stone mold casting techniques.",
+  "early_win": false,
+  "id": "metals.copper-bronze",
+  "level": "capability",
+  "name": "Copper & Bronze Production",
+  "outputs": [
+    "copper",
+    "bronze",
+    "castings",
+    "ingots"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "copper-age",
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-10"
+}

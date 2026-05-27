@@ -1,0 +1,35 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Titanium (TiN hard masks, Ti diffusion barriers, TiO₂ high-k dielectrics), tungsten (W CVD plug fill from WF₆, contact vias, TSV fill), molybdenum (gate electrodes for sub-22 nm nodes, sputtering targets, heat sinks), and copper (dual damascene electroplating, CMP, electromigration). These four metals form the interconnect stack in every GPU — TiN masks pattern the dielectric, W fills contacts, Mo gates the transistors, and Cu carries the signals across 10-15 metal layers.",
+  "early_win": false,
+  "id": "metals.specialty-semiconductor",
+  "level": "capability",
+  "name": "Specialty Metals for Semiconductor Interconnects & Barrier Layers",
+  "outputs": [
+    "tin_hard_masks",
+    "tin_diffusion_barriers",
+    "tio2_high_k_dielectric",
+    "w_contact_plugs",
+    "w_tsv_fill",
+    "mo_gate_electrodes",
+    "mo_heat_sinks",
+    "cu_damascene_interconnects"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-80"
+}

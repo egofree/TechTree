@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/plants.edible-plants__health",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "plants.edible-plants",
+  "to": "health"
+}

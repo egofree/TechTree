@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "chamois_leather",
+  "@type": "Product",
+  "name": "Chamois Leather",
+  "source": "animals.leather",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

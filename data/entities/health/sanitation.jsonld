@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Water supply, purification, sewage treatment, hygiene protocols, and quarantine systems.",
+  "early_win": false,
+  "id": "health.sanitation",
+  "level": "capability",
+  "name": "Water Supply & Sanitation",
+  "outputs": [
+    "clean_water",
+    "sanitation"
+  ],
+  "parent": "health",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-50+"
+}

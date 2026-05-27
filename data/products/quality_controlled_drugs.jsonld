@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "quality_controlled_drugs",
+  "@type": "Product",
+  "name": "Quality Controlled Drugs",
+  "source": "health.pharmaceutical-production",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

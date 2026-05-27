@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "process_trace_data",
+  "@type": "Product",
+  "name": "Process Trace Data",
+  "source": "automation.equipment-communication",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

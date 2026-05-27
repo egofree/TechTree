@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "soldered_joints",
+  "@type": "Product",
+  "name": "Soldered Joints",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

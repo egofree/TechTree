@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sails_rigging",
+  "@type": "Product",
+  "name": "Sails Rigging",
+  "source": "marine",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "wood",
+      "metals",
+      "fibers"
+    ]
+  }
+}

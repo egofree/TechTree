@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Advanced vacuum systems for semiconductor manufacturing: roughing pumps (rotary vane, scroll, diaphragm), high-vacuum pumps (turbomolecular, diffusion), UHV pumps (cryopumps, ion pumps, NEG), vacuum chamber design (stainless steel 304L/316L, CF/ISO-KF sealing), and vacuum measurement (ionization gauges, RGA, helium leak detection). Distinct discipline from gas handling — vacuum engineering focuses on gas removal and controlled-atmosphere environments at pressures from 760 Torr to 10⁻¹¹ Torr.",
+  "early_win": false,
+  "id": "vacuum",
+  "level": "domain",
+  "name": "Vacuum Technology",
+  "outputs": [
+    "vacuum_pumps",
+    "vacuum_chambers",
+    "vacuum_measurement",
+    "leak_detection",
+    "rga_analysis",
+    "uhv_systems"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-40"
+}

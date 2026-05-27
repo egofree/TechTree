@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mass_standards",
+  "@type": "Product",
+  "name": "Mass Standards",
+  "source": "measurement.precision-metrology",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

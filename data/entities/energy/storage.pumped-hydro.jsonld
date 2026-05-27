@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Reversible pump-turbine systems storing energy by pumping water uphill to a reservoir, recovering 70-85% via turbine generation on release. The most mature grid-scale energy storage technology, essential for matching intermittent supply with demand.",
+  "early_win": false,
+  "id": "energy.storage.pumped-hydro",
+  "level": "process",
+  "name": "Pumped Hydroelectric Storage",
+  "outputs": [
+    "grid_energy_storage",
+    "peak_power"
+  ],
+  "parent": "energy.storage",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "water",
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-50"
+}

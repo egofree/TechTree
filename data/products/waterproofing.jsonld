@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "waterproofing",
+  "@type": "Product",
+  "name": "Waterproofing",
+  "source": "construction.building-materials",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "wood",
+      "stone"
+    ]
+  }
+}

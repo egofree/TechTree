@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "yield_models",
+  "@type": "Product",
+  "name": "Yield Models",
+  "source": "quality-control",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

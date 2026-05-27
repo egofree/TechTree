@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/polymers.rubber.natural__foundations",
   "@type": "Dependency",
-  "from": "polymers.rubber.natural",
-  "to": "foundations",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "polymers.rubber.natural",
+  "to": "foundations"
 }

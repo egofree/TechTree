@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "producer_gas",
+  "@type": "Product",
+  "name": "Producer Gas",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

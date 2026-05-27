@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "bran",
+  "@type": "Product",
+  "name": "Bran",
+  "source": "food-processing.milling",
+  "tags": {
+    "material": [
+      "biomass",
+      "stone"
+    ]
+  }
+}

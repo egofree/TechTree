@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/chemistry.alkalis__foundations.fire",
   "@type": "Dependency",
-  "from": "chemistry.alkalis",
-  "to": "foundations.fire",
   "edgeType": "material",
-  "flow": "byproduct-reuse"
+  "flow": "byproduct-reuse",
+  "from": "chemistry.alkalis",
+  "to": "foundations.fire"
 }

@@ -1,0 +1,37 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Weapons progression from stone to steel to firearms, fortification engineering from palisades to castles, armor systems from leather to plate, and siege warfare with mechanical artillery and logistics. Defense technology drives metallurgical advancement (weapons-grade steel), consumes industrial chemistry output (propellants, explosives), and reuses transport and knowledge infrastructure for logistics and command. Internal organizing axis: Chronological — capabilities ordered by materials era from stone-age weapons through iron-age siege engines to industrial-era gunpowder weapons.",
+  "early_win": false,
+  "id": "defense",
+  "level": "domain",
+  "name": "Defense & Military Engineering",
+  "outputs": [
+    "weapons",
+    "fortifications",
+    "armor",
+    "siege_engines",
+    "military_logistics",
+    "small_arms",
+    "cannons",
+    "defensive_structures"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "metals",
+      "wood",
+      "stone"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-50+"
+}

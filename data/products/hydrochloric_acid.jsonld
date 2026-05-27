@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hydrochloric_acid",
+  "@type": "Product",
+  "name": "Hydrochloric Acid",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

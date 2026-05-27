@@ -1,0 +1,36 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Refrigeration fundamentals, cryogenic air separation, and gas liquefaction and storage. Covers vapor-compression through Claude cycle refrigeration, double-column distillation at -196°C, expansion turbine engineering, dewar vessel design, and cryogenic insulation systems. Produces liquid and gaseous N₂, O₂, and Ar at industrial scale for semiconductor fabrication.",
+  "early_win": false,
+  "id": "cryogenics",
+  "level": "domain",
+  "name": "Cryogenics",
+  "outputs": [
+    "refrigeration_cycles",
+    "cryogenic_cooling",
+    "expansion_engines",
+    "cryogenic_distillation",
+    "liquid_nitrogen",
+    "liquid_oxygen",
+    "liquid_argon",
+    "cryogenic_storage",
+    "dewar_vessels"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "cooling"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40"
+}

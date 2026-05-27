@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Long-distance communication systems spanning pre-electric signaling (semaphore, heliograph) through electrical telegraph, telephone, submarine cables, and radio. SIK boundary: shares <25% infrastructure overlap with transport — transport moves physical goods and people; telecom moves information. Railway block signaling is the notable intersection, covered by cross-reference to transport.telegraph. Internal organizing axis: Chronological — capabilities ordered by technological era from visual signaling through electronic radio.",
+  "early_win": false,
+  "id": "telecom",
+  "level": "domain",
+  "name": "Telecommunications",
+  "outputs": [
+    "long_distance_communication",
+    "telegraph_networks",
+    "telephone_service",
+    "radio_communication",
+    "submarine_cable_capacity",
+    "block_signaling_systems",
+    "signaling_networks"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-60+"
+}

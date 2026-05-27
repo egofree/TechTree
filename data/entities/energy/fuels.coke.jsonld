@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Beehive and by-product recovery coke ovens converting bituminous coal to coke (60-70% yield). Coke burns at 1800-2100°C.",
+  "early_win": false,
+  "id": "energy.fuels.coke",
+  "level": "process",
+  "name": "Coke Production",
+  "outputs": [
+    "coke",
+    "coal_gas",
+    "coal_tar",
+    "ammonia_liquor"
+  ],
+  "parent": "energy.fuels",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-25"
+}

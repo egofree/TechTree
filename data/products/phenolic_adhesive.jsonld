@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "phenolic_adhesive",
+  "@type": "Product",
+  "name": "Phenolic Adhesive",
+  "source": "chemistry.adhesives-coatings",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

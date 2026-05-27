@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/machine-tools.joining.friction-stir__machine-tools.joining",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "machine-tools.joining.friction-stir",
+  "to": "machine-tools.joining"
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Silicon-on-insulator wafer fabrication via SIMOX (oxygen implantation), Bonded SOI (wafer bonding and back-thinning), and Smart Cut (hydrogen-induced splitting) processes. Produces wafers with a buried SiO₂ layer for reduced parasitic capacitance and radiation-hard applications.",
+  "early_win": false,
+  "id": "silicon.wafering.soi",
+  "level": "process",
+  "name": "SOI Wafer Production",
+  "outputs": [
+    "soi_wafers",
+    "buried_oxide_layers"
+  ],
+  "parent": "silicon.wafering",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 60-150+"
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "belts",
+  "@type": "Product",
+  "name": "Belts",
+  "source": "textiles.sewing-tailoring",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

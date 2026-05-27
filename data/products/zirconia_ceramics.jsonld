@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "zirconia_ceramics",
+  "@type": "Product",
+  "name": "Zirconia Ceramics",
+  "source": "ceramics.advanced-ceramics",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "ceramics"
+    ]
+  }
+}

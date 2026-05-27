@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Bituminous and anthracite coal mining, preparation, and combustion for steam generation and industrial heating.",
+  "early_win": false,
+  "id": "energy.fuels.coal",
+  "level": "process",
+  "name": "Coal Mining & Combustion",
+  "outputs": [
+    "coal"
+  ],
+  "parent": "energy.fuels",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-25"
+}

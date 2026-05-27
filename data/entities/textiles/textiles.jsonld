@@ -1,0 +1,35 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": true,
+  "critical_note": "Rope, cordage, and cloth are foundational for all pre-industrial infrastructure — mining hoists, tool hafting, power transmission, and worker protection",
+  "description": "Fiber cultivation (flax, hemp, cotton, wool), spinning (drop spindle → treadle wheel), weaving (frame loom → treadle loom), rope-making (hand-laid → rope walk), canvas and sailcloth production, drive belts for power transmission, filter cloth, and protective clothing. Civilization runs on string.",
+  "early_win": false,
+  "id": "textiles",
+  "level": "domain",
+  "name": "Textiles, Fiber & Cordage",
+  "outputs": [
+    "cordage",
+    "yarn",
+    "thread",
+    "cloth",
+    "canvas",
+    "rope",
+    "drive_belts",
+    "filter_cloth",
+    "protective_clothing"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-10"
+}

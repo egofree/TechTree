@@ -1,0 +1,20 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "effluent_monitoring",
+  "@type": "Product",
+  "name": "Effluent Monitoring",
+  "source": "ehs.waste-management",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "lifecycle": [
+      "waste-sink",
+      "recycled-feedstock"
+    ],
+    "material": [
+      "chemicals",
+      "water"
+    ]
+  }
+}

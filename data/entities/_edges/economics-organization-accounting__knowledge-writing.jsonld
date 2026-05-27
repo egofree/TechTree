@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/economics-organization.accounting__knowledge.writing",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "economics-organization.accounting",
+  "to": "knowledge.writing"
+}

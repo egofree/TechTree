@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Transporting water from source to point of use via gravity-fed aqueducts, open channels, sealed pipes, and pressurized systems. Covers pipeline materials, hydraulic engineering, and reservoir storage for reliable supply.",
+  "early_win": false,
+  "id": "water.distribution",
+  "level": "capability",
+  "name": "Water Distribution",
+  "outputs": [
+    "water_distribution",
+    "irrigation",
+    "pressurized_water"
+  ],
+  "parent": "water",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-25"
+}

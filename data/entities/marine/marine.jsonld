@@ -1,0 +1,37 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Shipbuilding, marine propulsion, navigation, maritime infrastructure, and underwater engineering. Covers the engineering of vessels from dugout canoes to iron-hulled steamships, including hull construction methods, sailing rig evolution, marine engine development, harbor works, and submarine cable technology. Distinct from transport.shipping which covers water transport operations; marine covers design, construction, and maintenance of maritime systems.",
+  "early_win": true,
+  "early_win_note": "Dugout canoes and small sailing vessels provide coastal transport, fishing, and trade access from Year 0-5, expanding the resource base and enabling contact with other settlements",
+  "id": "marine",
+  "level": "domain",
+  "name": "Marine & Naval Engineering",
+  "outputs": [
+    "vessels",
+    "marine_engines",
+    "sails_rigging",
+    "navigation_instruments",
+    "harbor_works",
+    "submarine_cables",
+    "dry_docks"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "material": [
+      "wood",
+      "metals",
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-50+"
+}

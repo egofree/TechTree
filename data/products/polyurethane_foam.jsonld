@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "polyurethane_foam",
+  "@type": "Product",
+  "name": "Polyurethane Foam",
+  "source": "polymers.thermosets",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "refinery_hydrogen",
+  "@type": "Product",
+  "name": "Refinery Hydrogen",
+  "source": "petroleum.refining.cracking",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

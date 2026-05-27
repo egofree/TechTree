@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Boolean algebra for digital circuit design, information theory for communication and data compression, and computation theory for understanding what can be automated. The mathematical foundations bridging continuous engineering and the discrete world of digital technology.",
+  "early_win": false,
+  "id": "mathematics.formal-systems",
+  "level": "capability",
+  "name": "Formal Systems",
+  "outputs": [
+    "boolean_algebra",
+    "information_theory",
+    "formal_languages",
+    "automata_theory"
+  ],
+  "parent": "mathematics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-70"
+}

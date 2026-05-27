@@ -1,0 +1,38 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Surface plates via Whitworth three-plate method, hand scraping, straight edges, squares, vernier calipers (0.02 mm), micrometers (0.01 mm), gauge blocks (Jo-blocks), go/no-go gauges, and thread standards. Includes base unit standards, timekeeping, calibration infrastructure, electrical standards, and optical metrology. You cannot build what you cannot measure.",
+  "early_win": false,
+  "id": "measurement.precision-metrology",
+  "level": "capability",
+  "name": "Precision Metrology & Standards",
+  "outputs": [
+    "precision_metrology",
+    "gauge_blocks",
+    "micrometers",
+    "calipers",
+    "thread_standards",
+    "go_no_go_gauges",
+    "surface_plates",
+    "length_standards",
+    "mass_standards",
+    "timekeeping",
+    "calibration_chain",
+    "electrical_standards"
+  ],
+  "parent": "measurement",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-25"
+}

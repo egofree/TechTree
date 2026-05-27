@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Rotary hydraulic turbines converting water head to shaft power: Pelton (impulse, 30-1000+ m head, 85-91% efficient), Francis (reaction, 3-300 m head, 80-94%), Kaplan (axial-flow, 1-15 m head, 80-92%). Require iron/steel and precision machining — qualitatively different technology from water wheels.",
+  "early_win": false,
+  "id": "energy.gravity.water-turbines",
+  "level": "process",
+  "name": "Water Turbines",
+  "outputs": [
+    "water_turbine_power",
+    "hydro_generators"
+  ],
+  "parent": "energy.gravity",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-40"
+}

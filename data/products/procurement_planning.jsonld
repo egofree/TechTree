@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "procurement_planning",
+  "@type": "Product",
+  "name": "Procurement Planning",
+  "source": "economics-organization.supply-chain",
+  "tags": {
+    "capability": [
+      "organization",
+      "construction"
+    ],
+    "material": []
+  }
+}

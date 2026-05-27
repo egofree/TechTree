@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "industrial_facilities",
+  "@type": "Product",
+  "name": "Industrial Facilities",
+  "source": "construction",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "wood",
+      "stone"
+    ]
+  }
+}

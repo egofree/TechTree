@@ -1,12 +1,14 @@
 {
   "@context": "../../context.jsonld",
   "@type": "Domain",
-  "id": "foundations",
-  "name": "Foundations",
-  "level": "domain",
-  "parent": null,
+  "critical": true,
+  "critical_note": "Everything depends on food surplus to free specialist labor and fire for all thermal processes",
   "description": "Fire-making, stone and wood tools, and agriculture. The starting point for all civilization bootstrapping — no surplus means no specialist labor means no industry.",
-  "timeline": "Years 0-10+",
+  "early_win": true,
+  "early_win_note": "Fire + food surplus → specialist labor → better tools → more surplus",
+  "id": "foundations",
+  "level": "domain",
+  "name": "Foundations",
   "outputs": [
     "fire",
     "stone_tools",
@@ -16,22 +18,20 @@
     "fresh_water",
     "stored_water"
   ],
-  "critical": true,
-  "critical_note": "Everything depends on food surplus to free specialist labor and fire for all thermal processes",
-  "early_win": true,
-  "early_win_note": "Fire + food surplus → specialist labor → better tools → more surplus",
+  "parent": null,
   "pinnacle": false,
   "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": true,
+    "era": "stone-age",
     "material": [
       "wood",
       "stone",
       "biomass",
       "water"
     ],
-    "capability": [],
-    "era": "stone-age",
-    "critical": true,
-    "early-win": true,
     "pinnacle": false
-  }
+  },
+  "timeline": "Years 0-10+"
 }

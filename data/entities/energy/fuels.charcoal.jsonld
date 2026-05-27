@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Charcoal production via earth-covered pit and simple kiln methods. Primary fuel for all metallurgy until coke arrives.",
+  "early_win": false,
+  "id": "energy.fuels.charcoal",
+  "level": "process",
+  "name": "Charcoal Production",
+  "outputs": [
+    "charcoal",
+    "char_cloth"
+  ],
+  "parent": "energy.fuels",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-10"
+}

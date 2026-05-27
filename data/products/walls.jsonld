@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "walls",
+  "@type": "Product",
+  "name": "Walls",
+  "source": "defense.fortifications",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "wood",
+      "stone"
+    ]
+  }
+}

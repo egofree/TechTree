@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "tlv_databases",
+  "@type": "Product",
+  "name": "Tlv Databases",
+  "source": "ehs.chemical-safety",
+  "tags": {
+    "capability": [
+      "health",
+      "measurement"
+    ],
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

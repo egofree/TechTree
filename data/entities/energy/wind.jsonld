@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Windmills for mechanical power: grain grinding, sawing, and water pumping.",
+  "early_win": false,
+  "id": "energy.wind",
+  "level": "capability",
+  "name": "Wind Power",
+  "outputs": [
+    "wind_power"
+  ],
+  "parent": "energy",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-15"
+}

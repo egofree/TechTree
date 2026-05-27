@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "polyester_resin",
+  "@type": "Product",
+  "name": "Polyester Resin",
+  "source": "polymers.thermosets",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

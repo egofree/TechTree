@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "horn",
+  "@type": "Product",
+  "name": "Horn",
+  "source": "animals",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

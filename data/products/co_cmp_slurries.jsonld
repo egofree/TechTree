@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "co_cmp_slurries",
+  "@type": "Product",
+  "name": "Co Cmp Slurries",
+  "source": "metals.refractory-specialty",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

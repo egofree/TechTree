@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "shellfish",
+  "@type": "Product",
+  "name": "Shellfish",
+  "source": "animals.aquaculture",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "forge_welds",
+  "@type": "Product",
+  "name": "Forge Welds",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

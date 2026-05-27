@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "silver_paste",
+  "@type": "Product",
+  "name": "Silver Paste",
+  "source": "metals.precious-metals",
+  "tags": {
+    "lifecycle": [
+      "recyclable",
+      "recycled-feedstock"
+    ],
+    "material": [
+      "metals",
+      "chemicals"
+    ]
+  }
+}

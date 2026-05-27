@@ -3,7 +3,7 @@
   "@id": "mg_silicon",
   "@type": "Product",
   "name": "Mg Silicon",
-  "source": "silicon.mg-si-production",
+  "source": "silicon",
   "tags": {
     "material": [
       "silicon"

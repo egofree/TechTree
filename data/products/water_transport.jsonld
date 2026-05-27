@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "water_transport",
+  "@type": "Product",
+  "name": "Water Transport",
+  "source": "transport.shipping",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": []
+  }
+}

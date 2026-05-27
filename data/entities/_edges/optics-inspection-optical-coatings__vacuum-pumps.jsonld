@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/optics.inspection.optical-coatings__vacuum.pumps",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "optics.inspection.optical-coatings",
+  "to": "vacuum.pumps"
+}

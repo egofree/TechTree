@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vital_signs_monitoring",
+  "@type": "Product",
+  "name": "Vital Signs Monitoring",
+  "source": "health.diagnostics",
+  "tags": {
+    "capability": [
+      "health",
+      "measurement"
+    ],
+    "material": []
+  }
+}

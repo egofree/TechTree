@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "magnetic_storage",
+  "@type": "Product",
+  "name": "Magnetic Storage",
+  "source": "computing.data-storage",
+  "tags": {
+    "material": []
+  }
+}

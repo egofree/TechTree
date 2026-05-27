@@ -1,0 +1,27 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Surgical capability, wound treatment, infection control, and basic medical diagnostics.",
+  "early_win": false,
+  "id": "health.medicine",
+  "level": "capability",
+  "name": "Medicine & Surgery",
+  "outputs": [
+    "surgical_capability",
+    "medical_treatment"
+  ],
+  "parent": "health",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-100+"
+}

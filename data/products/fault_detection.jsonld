@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fault_detection",
+  "@type": "Product",
+  "name": "Fault Detection",
+  "source": "automation.process-control",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

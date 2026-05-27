@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Without soil fertility management, crop yields decline 2-5% per year as nutrients are depleted, eventually making agriculture unsustainable",
+  "description": "Systematic management of soil fertility through composting, cover cropping, and organic matter amendment. Composting converts animal manure, crop residues, and food waste into stable humus at 55-65°C, killing pathogens and weed seeds. Sustained crop yields depend on replacing nutrients removed by harvest.",
+  "early_win": true,
+  "early_win_note": "Composting animal manure and crop waste produces safe, stable fertilizer within 3-6 months, immediately improving crop yields 15-25%.",
+  "id": "agriculture.soil-management",
+  "level": "capability",
+  "name": "Soil Management & Composting",
+  "outputs": [
+    "compost",
+    "fertile_soil",
+    "mulch"
+  ],
+  "parent": "agriculture",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": true,
+    "era": "stone-age",
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-30+"
+}

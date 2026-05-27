@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "gauge_blocks",
+  "@type": "Product",
+  "name": "Gauge Blocks",
+  "source": "measurement.precision-metrology",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

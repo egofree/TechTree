@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/energy.steam-power.steam-turbines__metals.iron-steel",
   "@type": "Dependency",
-  "from": "energy.steam-power.steam-turbines",
-  "to": "metals.iron-steel",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "energy.steam-power.steam-turbines",
+  "to": "metals.iron-steel"
 }

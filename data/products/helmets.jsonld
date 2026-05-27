@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "helmets",
+  "@type": "Product",
+  "name": "Helmets",
+  "source": "defense.armor",
+  "tags": {
+    "material": [
+      "metals",
+      "fibers"
+    ]
+  }
+}

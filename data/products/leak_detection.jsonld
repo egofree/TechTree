@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "leak_detection",
+  "@type": "Product",
+  "name": "Leak Detection",
+  "source": "gas-handling.vacuum",
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "edm_parts",
+  "@type": "Product",
+  "name": "Edm Parts",
+  "source": "machine-tools.edm-cnc",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

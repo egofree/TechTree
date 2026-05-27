@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "electroless_copper",
+  "@type": "Product",
+  "name": "Electroless Copper",
+  "source": "electrochemistry.electrochemical-processes",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals",
+      "chemicals"
+    ]
+  }
+}

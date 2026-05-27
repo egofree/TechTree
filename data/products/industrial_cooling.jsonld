@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "industrial_cooling",
+  "@type": "Product",
+  "name": "Industrial Cooling",
+  "source": "energy.cooling",
+  "tags": {
+    "capability": [
+      "cooling",
+      "energy"
+    ],
+    "material": []
+  }
+}

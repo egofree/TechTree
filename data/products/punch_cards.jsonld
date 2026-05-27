@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "punch_cards",
+  "@type": "Product",
+  "name": "Punch Cards",
+  "source": "computing",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

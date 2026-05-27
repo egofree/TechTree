@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "exposure_limits",
+  "@type": "Product",
+  "name": "Exposure Limits",
+  "source": "health.occupational-health",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": []
+  }
+}

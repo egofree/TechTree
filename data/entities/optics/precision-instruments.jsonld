@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Interferometers, autocollimators, optical flats, and spherometers for precision optical metrology. Used for lens testing, flatness verification, and angular measurement in semiconductor and scientific applications.",
+  "early_win": false,
+  "id": "optics.precision-instruments",
+  "level": "capability",
+  "name": "Precision Optical Instruments",
+  "outputs": [
+    "interferometry",
+    "flatness_measurement",
+    "angular_measurement"
+  ],
+  "parent": "optics",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "optics"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-100+"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "timber_frames",
+  "@type": "Product",
+  "name": "Timber Frames",
+  "source": "construction.building-materials",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "wood",
+      "stone"
+    ]
+  }
+}

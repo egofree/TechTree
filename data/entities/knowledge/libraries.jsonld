@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Library construction, cataloging, preservation, and information retrieval systems.",
+  "early_win": false,
+  "id": "knowledge.libraries",
+  "level": "capability",
+  "name": "Libraries & Information Systems",
+  "outputs": [
+    "libraries"
+  ],
+  "parent": "knowledge",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-200+"
+}

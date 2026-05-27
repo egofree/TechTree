@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cnc_machined_parts",
+  "@type": "Product",
+  "name": "Cnc Machined Parts",
+  "source": "machine-tools.edm-cnc",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

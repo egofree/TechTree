@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "epoxy",
+  "@type": "Product",
+  "name": "Epoxy",
+  "source": "polymers",
+  "tags": {
+    "material": [
+      "polymers"
+    ]
+  }
+}

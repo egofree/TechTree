@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Chemical purification via Siemens-like process (hydrochlorination → fractional distillation of chlorosilanes → CVD deposition, 9N-11N purity) and physical purification via directional solidification and zone refining (5-9N). Siemens process achieves electronic grade but consumes ~100-200 kWh/kg.",
+  "early_win": false,
+  "id": "silicon.purification",
+  "level": "capability",
+  "name": "Silicon Purification",
+  "outputs": [
+    "purified_silicon",
+    "polysilicon",
+    "chlorosilanes"
+  ],
+  "parent": "silicon",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

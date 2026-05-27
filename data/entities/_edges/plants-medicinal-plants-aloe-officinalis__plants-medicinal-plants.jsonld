@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/plants.medicinal-plants.aloe-officinalis__plants.medicinal-plants",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "plants.medicinal-plants.aloe-officinalis",
+  "to": "plants.medicinal-plants"
+}

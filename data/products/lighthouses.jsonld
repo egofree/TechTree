@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "lighthouses",
+  "@type": "Product",
+  "name": "Lighthouses",
+  "source": "marine.infrastructure",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "stone",
+      "metals",
+      "polymers"
+    ]
+  }
+}

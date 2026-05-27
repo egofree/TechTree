@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "dynamite",
+  "@type": "Product",
+  "name": "Dynamite",
+  "source": "chemistry.explosives",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

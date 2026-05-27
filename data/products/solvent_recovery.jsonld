@@ -1,0 +1,20 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "solvent_recovery",
+  "@type": "Product",
+  "name": "Solvent Recovery",
+  "source": "ehs.waste-management",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "lifecycle": [
+      "waste-sink",
+      "recycled-feedstock"
+    ],
+    "material": [
+      "chemicals",
+      "water"
+    ]
+  }
+}

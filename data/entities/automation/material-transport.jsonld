@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "FOUP handling, Automated Guided Vehicles (AGVs), Overhead Hoist Transport (OHT), stockers, and fab logistics coordination for intrabay and interbay wafer transport.",
+  "early_win": false,
+  "id": "automation.material-transport",
+  "level": "capability",
+  "name": "Material Transport",
+  "outputs": [
+    "foup_transport",
+    "agv_systems",
+    "overhead_hoist_transport",
+    "fab_logistics"
+  ],
+  "parent": "automation",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 60-90"
+}

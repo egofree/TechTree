@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Membrane electrolysis cells producing ultra-pure chlorine and caustic soda for semiconductor manufacturing. Uses ion-exchange membranes instead of asbestos diaphragms, achieving higher purity required for wafer processing chemicals.",
+  "early_win": false,
+  "id": "chemistry.electrolysis.sem-tech",
+  "level": "process",
+  "name": "Semiconductor-Grade Electrolysis",
+  "outputs": [
+    "membrane_electrolysis",
+    "chlorine",
+    "caustic_soda"
+  ],
+  "parent": "chemistry.electrolysis",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "gases",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

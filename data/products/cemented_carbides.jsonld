@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cemented_carbides",
+  "@type": "Product",
+  "name": "Cemented Carbides",
+  "source": "metals.powder-metallurgy",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

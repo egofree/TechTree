@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/polymers.composites__polymers.thermosets",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "polymers.composites",
+  "to": "polymers.thermosets"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sputtering_targets",
+  "@type": "Product",
+  "name": "Sputtering Targets",
+  "source": "metals.aluminum.semiconductor-grade",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

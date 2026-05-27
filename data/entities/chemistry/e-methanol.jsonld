@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Catalytic synthesis of methanol from captured CO₂ and green hydrogen using membrane reactors. Provides a liquid energy carrier and chemical feedstock that is transportable and storable without high-pressure infrastructure.",
+  "early_win": false,
+  "id": "chemistry.e-methanol",
+  "level": "capability",
+  "name": "E-Methanol Synthesis",
+  "outputs": [
+    "methanol"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals",
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

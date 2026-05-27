@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sterile_technique",
+  "@type": "Product",
+  "name": "Sterile Technique",
+  "source": "health.surgery-basics",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": []
+  }
+}

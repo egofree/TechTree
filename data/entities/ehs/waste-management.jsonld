@@ -1,0 +1,36 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Fluoride waste treatment (CaCl₂ precipitation to CaF₂), acid/base neutralization, heavy metal precipitation (hydroxide and sulfide methods, chromium VI reduction), solvent distillation recovery, TMAH biological degradation, and effluent monitoring with discharge limits (fluoride <10 ppm, Cu <2 ppm, As <0.1 ppm). Covers waste segregation, CaF₂ sludge dewatering, and source reduction strategies.",
+  "early_win": false,
+  "id": "ehs.waste-management",
+  "level": "capability",
+  "name": "Waste Management",
+  "outputs": [
+    "acid_waste_treatment",
+    "solvent_recovery",
+    "heavy_metal_precipitation",
+    "effluent_monitoring"
+  ],
+  "parent": "ehs",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "lifecycle": [
+      "waste-sink",
+      "recycled-feedstock"
+    ],
+    "material": [
+      "chemicals",
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-70"
+}

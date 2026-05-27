@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "liquid_gases",
+  "@type": "Product",
+  "name": "Liquid Gases",
+  "source": "cryogenics.liquefaction-storage",
+  "tags": {
+    "capability": [
+      "cooling"
+    ],
+    "material": [
+      "gases"
+    ]
+  }
+}

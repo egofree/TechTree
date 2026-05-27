@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/ceramics.advanced-ceramics__ceramics.kilns",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "ceramics.advanced-ceramics",
+  "to": "ceramics.kilns"
+}

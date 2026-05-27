@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "differential_equations",
+  "@type": "Product",
+  "name": "Differential Equations",
+  "source": "mathematics.applied-mathematics",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

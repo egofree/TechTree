@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Gas Tungsten Arc Welding using non-consumable tungsten electrode with argon or helium shielding gas. Current 50-300A, voltage 10-22V. DCEN for steel/stainless/titanium, AC for aluminum. Produces highest-quality welds — essential for stainless steel tubing, vacuum-grade joints, and orbital tube welding for semiconductor gas distribution systems.",
+  "early_win": false,
+  "id": "machine-tools.joining.tig-welding",
+  "level": "process",
+  "name": "TIG Welding (GTAW)",
+  "outputs": [
+    "tig_welds",
+    "orbital_welds",
+    "hermetic_seals"
+  ],
+  "parent": "machine-tools.joining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vacuum_gas_oil",
+  "@type": "Product",
+  "name": "Vacuum Gas Oil",
+  "source": "petroleum.refining.distillation",
+  "tags": {
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

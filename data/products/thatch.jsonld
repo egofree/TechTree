@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "thatch",
+  "@type": "Product",
+  "name": "Thatch",
+  "source": "plants.structural-plants",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "biomass",
+      "wood"
+    ]
+  }
+}

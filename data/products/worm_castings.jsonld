@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "worm_castings",
+  "@type": "Product",
+  "name": "Worm Castings",
+  "source": "agriculture.soil-management.vermiculture",
+  "tags": {
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

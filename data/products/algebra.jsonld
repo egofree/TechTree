@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "algebra",
+  "@type": "Product",
+  "name": "Algebra",
+  "source": "mathematics.core-mathematics",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

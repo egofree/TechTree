@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Domesticated geese (Anser anser domesticus) raised for meat, down, eggs, and weed control. Geese are primarily grazers that can subsist on pasture with minimal supplemental feed, making them the most feed-efficient poultry for meat production on grassland. Their aggressive alarm behavior provides guardian functions.",
+  "early_win": false,
+  "id": "animals.poultry.geese",
+  "level": "process",
+  "name": "Geese",
+  "outputs": [
+    "goose_meat",
+    "goose_down",
+    "eggs",
+    "manure"
+  ],
+  "parent": "animals.poultry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-10+"
+}

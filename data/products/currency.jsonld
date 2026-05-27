@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "currency",
+  "@type": "Product",
+  "name": "Currency",
+  "source": "economics-organization",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "baked_goods",
+  "@type": "Product",
+  "name": "Baked Goods",
+  "source": "food-processing",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "biomass",
+      "water"
+    ]
+  }
+}

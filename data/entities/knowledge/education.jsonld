@@ -1,0 +1,24 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Apprenticeships, trade schools, universities, and systematic knowledge transmission.",
+  "early_win": false,
+  "id": "knowledge.education",
+  "level": "capability",
+  "name": "Education & Training",
+  "outputs": [
+    "education_system"
+  ],
+  "parent": "knowledge",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-200+"
+}

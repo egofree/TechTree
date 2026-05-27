@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "water",
+  "@type": "Product",
+  "name": "Water",
+  "source": "energy.fuel-cell",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "gases",
+      "chemicals"
+    ]
+  }
+}

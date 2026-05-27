@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "micrometers",
+  "@type": "Product",
+  "name": "Micrometers",
+  "source": "measurement.precision-metrology",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

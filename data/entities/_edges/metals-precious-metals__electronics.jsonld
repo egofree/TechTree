@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/metals.precious-metals__electronics",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "waste-recovery",
+  "from": "metals.precious-metals",
+  "to": "electronics"
+}

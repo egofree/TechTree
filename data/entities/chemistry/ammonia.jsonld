@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "description": "Haber-Bosch synthesis of ammonia (N2 + 3H2 → 2NH3) at 400-500°C, 15-30 MPa over Fe catalyst. Ostwald process oxidation to nitric acid. Fertilizer production: ammonium nitrate, urea, ammonium sulfate, superphosphate. Feeds half the world's population.",
+  "early_win": false,
+  "id": "chemistry.ammonia",
+  "level": "capability",
+  "name": "Ammonia & Fertilizer Production",
+  "outputs": [
+    "ammonia",
+    "ammonium_nitrate",
+    "urea",
+    "fertilizers"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals",
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50"
+}

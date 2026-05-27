@@ -1,0 +1,25 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Underground ventilation engineering for air supply, gas dilution, heat management, and dust control. Furnace ventilation, fan ventilation, and ventilation network design using Atkinson's equation.",
+  "early_win": false,
+  "id": "mining.ventilation",
+  "level": "capability",
+  "name": "Mine Ventilation",
+  "outputs": [
+    "ventilated_mine",
+    "fresh_air_supply"
+  ],
+  "parent": "mining",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-50+"
+}

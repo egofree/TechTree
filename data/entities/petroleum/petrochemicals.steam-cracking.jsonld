@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Naphtha or ethane mixed with steam and heated to 750-900°C in tubular furnace for 0.1-0.5 seconds residence time. Free-radical cracking produces ethylene (30-84% yield depending on feedstock) and propylene. Cryogenic separation train yields polymer-grade ethylene (99.9%) and propylene (99.5%+).",
+  "early_win": false,
+  "id": "petroleum.petrochemicals.steam-cracking",
+  "level": "process",
+  "name": "Steam Cracking (Olefin Production)",
+  "outputs": [
+    "ethylene",
+    "propylene",
+    "butadiene",
+    "pyrolysis_gasoline"
+  ],
+  "parent": "petroleum.petrochemicals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals",
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-50+"
+}

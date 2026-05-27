@@ -1,0 +1,35 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Composting with Eisenia fetida (red wiggler) earthworms to produce vermicompost and worm castings. Worm castings contain 1.5-2.5% N, 1.0-1.5% P, and 1.0-1.5% K — significantly richer than thermophilic compost. Worm populations double every 2-3 months under ideal conditions, and worm tea serves as a potent liquid fertilizer.",
+  "early_win": true,
+  "early_win_note": "Small-scale vermicomposting can be established in weeks with a bucket of worms and household food scraps, producing premium fertilizer continuously.",
+  "id": "agriculture.soil-management.vermiculture",
+  "level": "process",
+  "name": "Vermiculture",
+  "outputs": [
+    "vermicompost",
+    "worm_castings",
+    "worm_tea"
+  ],
+  "parent": "agriculture.soil-management",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.animal"
+  ],
+  "timeline": "Years 0-20+"
+}

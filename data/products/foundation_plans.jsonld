@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "foundation_plans",
+  "@type": "Product",
+  "name": "Foundation Plans",
+  "source": "construction.structural-engineering",
+  "tags": {
+    "capability": [
+      "construction",
+      "measurement"
+    ],
+    "material": [
+      "metals",
+      "stone"
+    ]
+  }
+}

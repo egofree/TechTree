@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "rabbit_meat",
+  "@type": "Product",
+  "name": "Rabbit Meat",
+  "source": "animals.rabbits",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

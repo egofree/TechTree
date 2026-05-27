@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "price_signals",
+  "@type": "Product",
+  "name": "Price Signals",
+  "source": "economics-organization.currency",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

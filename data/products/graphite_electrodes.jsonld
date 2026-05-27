@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "graphite_electrodes",
+  "@type": "Product",
+  "name": "Graphite Electrodes",
+  "source": "energy.electric-furnaces.electrode-manufacturing",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals",
+      "chemicals"
+    ]
+  }
+}

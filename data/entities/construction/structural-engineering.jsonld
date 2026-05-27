@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Structural analysis and design: beam theory (simply supported, cantilever, continuous), column buckling (Euler formula), arch and vault design, truss analysis (method of joints, method of sections), reinforced concrete design (beam and column sizing), steel connection design (riveted, bolted, welded), and foundation design. Includes specific load tables, material properties, and design formulas.",
+  "early_win": false,
+  "id": "construction.structural-engineering",
+  "level": "capability",
+  "name": "Structural Engineering",
+  "outputs": [
+    "structural_designs",
+    "load_calculations",
+    "foundation_plans",
+    "connection_details"
+  ],
+  "parent": "construction",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction",
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals",
+      "stone"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-40"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "white_liquor",
+  "@type": "Product",
+  "name": "White Liquor",
+  "source": "chemistry.pulp-chemicals",
+  "tags": {
+    "lifecycle": [
+      "waste-sink",
+      "closed-loop"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

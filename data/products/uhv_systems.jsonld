@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "uhv_systems",
+  "@type": "Product",
+  "name": "Uhv Systems",
+  "source": "vacuum",
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "material": []
+  }
+}

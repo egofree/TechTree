@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Aircraft development, tube-and-fabric airframes, propellers, and flight testing. (Absorbed from former aircraft domain.)",
+  "early_win": false,
+  "id": "transport.aviation",
+  "level": "capability",
+  "name": "Aviation",
+  "outputs": [
+    "aircraft",
+    "aircraft_engines",
+    "propellers"
+  ],
+  "parent": "transport",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-50+"
+}

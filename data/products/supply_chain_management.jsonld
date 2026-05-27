@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "supply_chain_management",
+  "@type": "Product",
+  "name": "Supply Chain Management",
+  "source": "economics-organization",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": []
+  }
+}

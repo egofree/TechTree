@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fresh_air_supply",
+  "@type": "Product",
+  "name": "Fresh Air Supply",
+  "source": "mining.ventilation",
+  "tags": {
+    "material": []
+  }
+}

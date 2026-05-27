@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "black_powder",
+  "@type": "Product",
+  "name": "Black Powder",
+  "source": "mining.extraction.black-powder",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

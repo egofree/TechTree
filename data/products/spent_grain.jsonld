@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "spent_grain",
+  "@type": "Product",
+  "name": "Spent Grain",
+  "source": "food-processing.brewing",
+  "tags": {
+    "material": [
+      "biomass",
+      "water"
+    ]
+  }
+}

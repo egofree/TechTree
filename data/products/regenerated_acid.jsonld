@@ -1,0 +1,20 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "regenerated_acid",
+  "@type": "Product",
+  "name": "Regenerated Acid",
+  "source": "chemistry.acid-regeneration",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "lifecycle": [
+      "waste-sink",
+      "recycled-feedstock",
+      "closed-loop"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

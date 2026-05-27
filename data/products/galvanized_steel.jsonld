@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "galvanized_steel",
+  "@type": "Product",
+  "name": "Galvanized Steel",
+  "source": "chemistry.adhesives-coatings",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

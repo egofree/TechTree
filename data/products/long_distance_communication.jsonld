@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "long_distance_communication",
+  "@type": "Product",
+  "name": "Long Distance Communication",
+  "source": "telecom",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

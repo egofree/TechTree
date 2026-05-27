@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vibration_specs",
+  "@type": "Product",
+  "name": "Vibration Specs",
+  "source": "precision-motion.vibration-isolation",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

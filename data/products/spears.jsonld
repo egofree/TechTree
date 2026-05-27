@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "spears",
+  "@type": "Product",
+  "name": "Spears",
+  "source": "defense.weapons",
+  "tags": {
+    "material": [
+      "metals",
+      "wood",
+      "stone"
+    ]
+  }
+}

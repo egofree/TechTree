@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Amaranthus albus is an annual species of flowering plant native to the Americas. Its common names include common tumbleweed , tumble pigweed , tumbleweed , prostrate pigweed , pigweed amaranth , white amaranth and white pigweed",
+  "early_win": false,
+  "id": "plants.fiber-plants.amaranthus-albus",
+  "level": "process",
+  "name": "Amaranthus albus",
+  "outputs": [
+    "plant_fiber"
+  ],
+  "parent": "plants.fiber-plants",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.plant.fiber.amaranthus-albus"
+  ],
+  "timeline": "Years 0-10"
+}

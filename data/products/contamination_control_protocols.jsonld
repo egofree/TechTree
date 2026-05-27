@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "contamination_control_protocols",
+  "@type": "Product",
+  "name": "Contamination Control Protocols",
+  "source": "cleanrooms",
+  "tags": {
+    "capability": [
+      "precision",
+      "construction"
+    ],
+    "material": []
+  }
+}

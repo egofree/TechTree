@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fishbone_diagrams",
+  "@type": "Product",
+  "name": "Fishbone Diagrams",
+  "source": "quality-control.defect-analysis",
+  "tags": {
+    "capability": [
+      "precision",
+      "computing"
+    ],
+    "material": []
+  }
+}

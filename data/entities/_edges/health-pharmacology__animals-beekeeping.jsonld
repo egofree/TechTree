@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/health.pharmacology__animals.beekeeping",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "health.pharmacology",
+  "to": "animals.beekeeping"
+}

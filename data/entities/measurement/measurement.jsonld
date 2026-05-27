@@ -1,0 +1,40 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Precision measurement, instrumentation, and calibration systems. Spans temperature and pressure sensing, dimensional metrology via the Whitworth three-plate method, gauge blocks and micrometers, electrical standards and calibration chains. You cannot build what you cannot measure — this domain provides the quantitative foundation for all precision manufacturing.",
+  "early_win": false,
+  "id": "measurement",
+  "level": "domain",
+  "name": "Measurement & Instrumentation",
+  "outputs": [
+    "precision_metrology",
+    "gauge_blocks",
+    "micrometers",
+    "calipers",
+    "thread_standards",
+    "go_no_go_gauges",
+    "surface_plates",
+    "length_standards",
+    "mass_standards",
+    "timekeeping",
+    "calibration_chain",
+    "electrical_standards",
+    "thermocouples",
+    "temperature_measurement",
+    "electrical_measurement"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "measurement"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-40"
+}

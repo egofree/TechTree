@@ -3,14 +3,10 @@
   "@id": "wrought_iron",
   "@type": "Product",
   "name": "Wrought Iron",
-  "source": "metals.iron-steel",
+  "source": "metals",
   "tags": {
     "material": [
       "metals"
-    ],
-    "lifecycle": [
-      "waste-source",
-      "recyclable"
     ]
   }
 }

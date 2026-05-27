@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "financial_records",
+  "@type": "Product",
+  "name": "Financial Records",
+  "source": "economics-organization.accounting",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": []
+  }
+}

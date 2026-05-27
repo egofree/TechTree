@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "automata_theory",
+  "@type": "Product",
+  "name": "Automata Theory",
+  "source": "mathematics.formal-systems",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

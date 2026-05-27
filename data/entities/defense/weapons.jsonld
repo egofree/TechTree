@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Weapons progression from stone blades through bronze swords, iron-age weapons, steel swords and polearms, to black powder firearms (matchlock, flintlock, percussion cap). Blade hardness requirements: stone (Mohs 5-7), bronze (HB 80-120), wrought iron (HB 90-120), medium-carbon steel (HRC 45-55 for swords, HRC 58-62 for knife edges). Musket bore: 17.5-19 mm (.69-.75 caliber). Cross-reference chemistry/explosives.md for propellant compositions.",
+  "early_win": false,
+  "id": "defense.weapons",
+  "level": "capability",
+  "name": "Weapons & edged tools",
+  "outputs": [
+    "weapons",
+    "blades",
+    "spears",
+    "bows",
+    "small_arms",
+    "muskets"
+  ],
+  "parent": "defense",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "metals",
+      "wood",
+      "stone"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-30+"
+}

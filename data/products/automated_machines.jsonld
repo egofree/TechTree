@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "automated_machines",
+  "@type": "Product",
+  "name": "Automated Machines",
+  "source": "computing",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

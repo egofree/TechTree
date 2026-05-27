@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/foundations.food-agriculture__plants.edible-plants",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "foundations.food-agriculture",
+  "to": "plants.edible-plants"
+}

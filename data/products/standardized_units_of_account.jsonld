@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "standardized_units_of_account",
+  "@type": "Product",
+  "name": "Standardized Units Of Account",
+  "source": "economics-organization.currency",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

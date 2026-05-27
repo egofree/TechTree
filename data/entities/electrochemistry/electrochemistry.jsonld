@@ -1,0 +1,36 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Semiconductor-grade electrochemical processes: copper damascene electroplating for interconnects, anodizing (aluminum Type II/III, titanium voltage-controlled oxide), electropolishing for ultrapure surfaces, electroforming for precision microstructures, and electroless plating (ENIG for PCBs). Distinct from bulk industrial electrolysis and general metal finishing by clean room requirements, sub-micron feature control, and semiconductor process integration.",
+  "early_win": false,
+  "id": "electrochemistry",
+  "level": "domain",
+  "name": "Electrochemistry & Plating",
+  "outputs": [
+    "copper_interconnects",
+    "anodized_aluminum",
+    "electropolished_surfaces",
+    "electroformed_parts",
+    "electroless_nickel",
+    "ENIG_surfaces",
+    "hard_anodized_surfaces",
+    "anodized_titanium"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "metals",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-80"
+}

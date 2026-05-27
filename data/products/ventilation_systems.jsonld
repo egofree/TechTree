@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ventilation_systems",
+  "@type": "Product",
+  "name": "Ventilation Systems",
+  "source": "ehs",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

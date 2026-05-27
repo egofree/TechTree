@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/textiles.sewing-tailoring__textiles.weaving",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "textiles.sewing-tailoring",
+  "to": "textiles.weaving"
+}

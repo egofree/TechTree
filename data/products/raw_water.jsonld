@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "raw_water",
+  "@type": "Product",
+  "name": "Raw Water",
+  "source": "water.procurement",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "water"
+    ]
+  }
+}

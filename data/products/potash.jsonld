@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "potash",
+  "@type": "Product",
+  "name": "Potash",
+  "source": "glass.basic",
+  "tags": {
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "glass"
+    ]
+  }
+}

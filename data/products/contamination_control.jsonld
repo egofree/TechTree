@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "contamination_control",
+  "@type": "Product",
+  "name": "Contamination Control",
+  "source": "ehs.radiation-safety",
+  "tags": {
+    "capability": [
+      "health",
+      "measurement"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Paper production from wood pulp or cotton/linen rag, and movable-type printing press for mass reproduction of text. Gutenberg-style press produces 200-500 impressions per hour. Essential for distributing technical knowledge: process recipes, engineering drawings, failure logs, educational materials across settlements and generations.",
+  "early_win": true,
+  "early_win_note": "Printing press multiplies knowledge distribution speed by 100-500x, enabling rapid dissemination of process recipes, engineering drawings, and failure logs across all settlements",
+  "id": "knowledge.printing",
+  "level": "capability",
+  "name": "Paper and Printing Press",
+  "outputs": [
+    "paper",
+    "printed_books",
+    "technical_manuals"
+  ],
+  "parent": "knowledge",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "iron-age",
+    "material": [
+      "wood",
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-25"
+}

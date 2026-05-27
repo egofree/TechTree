@@ -1,0 +1,43 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Forge welding, brazing, soldering, riveting, oxy-acetylene welding and cutting, and arc welding (SMAW/stick) with flux-coated electrodes. Also covers advanced processes: TIG (GTAW) for stainless/aluminum/titanium, MIG (GMAW) for high-deposition fabrication, resistance spot and seam welding, electron beam welding in vacuum, ultrasonic welding and wire bonding for semiconductor packaging, friction stir welding for aluminum alloys, laser welding (CO₂ and fiber), and diffusion bonding for dissimilar metals and UHV components.",
+  "early_win": false,
+  "id": "machine-tools.joining",
+  "level": "capability",
+  "name": "Metal Joining",
+  "outputs": [
+    "forge_welds",
+    "brazed_joints",
+    "soldered_joints",
+    "riveted_joints",
+    "welded_joints",
+    "acetylene",
+    "tig_welds",
+    "mig_welds",
+    "resistance_welds",
+    "electron_beam_welds",
+    "ultrasonic_bonds",
+    "friction_stir_welds",
+    "laser_welds",
+    "diffusion_bonds",
+    "hermetic_seals",
+    "wire_bonds"
+  ],
+  "parent": "machine-tools",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-70"
+}

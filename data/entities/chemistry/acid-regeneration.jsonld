@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Membrane-based recovery and regeneration of spent acids from industrial processes. Uses diffusion dialysis and electrodialysis to separate acid from dissolved metal salts, enabling closed-loop acid usage in metal processing and chemical manufacturing.",
+  "early_win": false,
+  "id": "chemistry.acid-regeneration",
+  "level": "capability",
+  "name": "Acid Regeneration",
+  "outputs": [
+    "regenerated_acid"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "waste-sink",
+      "recycled-feedstock",
+      "closed-loop"
+    ],
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-45"
+}

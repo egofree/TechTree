@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "masonry_walls",
+  "@type": "Product",
+  "name": "Masonry Walls",
+  "source": "construction.building-materials",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "wood",
+      "stone"
+    ]
+  }
+}

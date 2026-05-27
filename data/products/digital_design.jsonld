@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "digital_design",
+  "@type": "Product",
+  "name": "Digital Design",
+  "source": "computing.digital-logic",
+  "tags": {
+    "material": []
+  }
+}

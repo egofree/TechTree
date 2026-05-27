@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "information_theory",
+  "@type": "Product",
+  "name": "Information Theory",
+  "source": "mathematics.formal-systems",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

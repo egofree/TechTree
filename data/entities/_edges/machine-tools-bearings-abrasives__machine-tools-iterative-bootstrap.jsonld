@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/machine-tools.bearings-abrasives__machine-tools.iterative-bootstrap",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "machine-tools.bearings-abrasives",
+  "to": "machine-tools.iterative-bootstrap"
+}

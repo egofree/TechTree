@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "epoxy_molding_compound",
+  "@type": "Product",
+  "name": "Epoxy Molding Compound",
+  "source": "chemistry.adhesives-coatings",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

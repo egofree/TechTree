@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "plant_fibers",
+  "@type": "Product",
+  "name": "Plant Fibers",
+  "source": "plants",
+  "tags": {
+    "capability": [
+      "health",
+      "construction"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

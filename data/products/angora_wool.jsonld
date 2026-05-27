@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "angora_wool",
+  "@type": "Product",
+  "name": "Angora Wool",
+  "source": "animals.rabbits",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

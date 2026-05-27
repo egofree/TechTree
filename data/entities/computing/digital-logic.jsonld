@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Boolean algebra, combinational logic gates, sequential logic, state machines, and register transfer level design. Foundation for all digital computing from relay logic to integrated circuits.",
+  "early_win": false,
+  "id": "computing.digital-logic",
+  "level": "capability",
+  "name": "Digital Logic Design",
+  "outputs": [
+    "logic_circuits",
+    "state_machines",
+    "digital_design"
+  ],
+  "parent": "computing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-100+"
+}

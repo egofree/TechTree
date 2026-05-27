@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "prepared_fibers",
+  "@type": "Product",
+  "name": "Prepared Fibers",
+  "source": "textiles.fibers",
+  "tags": {
+    "material": [
+      "fibers"
+    ]
+  }
+}

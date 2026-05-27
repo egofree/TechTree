@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "clean_water",
+  "@type": "Product",
+  "name": "Clean Water",
+  "source": "health",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": []
+  }
+}

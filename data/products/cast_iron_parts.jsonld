@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cast_iron_parts",
+  "@type": "Product",
+  "name": "Cast Iron Parts",
+  "source": "machine-tools",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

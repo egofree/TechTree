@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "animal_power",
+  "@type": "Product",
+  "name": "Animal Power",
+  "source": "animals",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

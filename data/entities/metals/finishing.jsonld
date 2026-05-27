@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Surface treatment processes for corrosion protection and functional properties: galvanizing (hot-dip zinc), electroplating (Cr, Ni, Cu, Sn, Au), electroless plating (Ni-P), anodizing (aluminum oxide), phosphating (steel conversion coating), case hardening (carburizing, nitriding), passivation (stainless steel), thermal spraying (HVOF, plasma), and pickling/descaling.",
+  "early_win": false,
+  "id": "metals.finishing",
+  "level": "capability",
+  "name": "Metal Finishing & Surface Treatment",
+  "outputs": [
+    "galvanized_steel",
+    "plated_parts",
+    "anodized_aluminum",
+    "hardened_surfaces",
+    "coated_components"
+  ],
+  "parent": "metals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-40"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/silicon.purification__chemistry.hydrogen-silane",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "silicon.purification",
+  "to": "chemistry.hydrogen-silane"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "masks",
+  "@type": "Product",
+  "name": "Masks",
+  "source": "photolithography",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

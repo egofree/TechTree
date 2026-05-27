@@ -1,0 +1,10 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "writing_system",
+  "@type": "Product",
+  "name": "Writing System",
+  "source": "knowledge",
+  "tags": {
+    "material": []
+  }
+}

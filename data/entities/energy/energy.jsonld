@@ -1,0 +1,44 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Domain",
+  "critical": false,
+  "description": "Water and wind power, solid fuel production, steam engines, electromagnetic generation, electric furnaces, cooling and refrigeration, and energy storage. The energy revolution transforms manufacturing from muscle-powered to machine-powered industry.",
+  "early_win": false,
+  "id": "energy",
+  "level": "domain",
+  "name": "Energy",
+  "outputs": [
+    "water_power",
+    "wind_power",
+    "steam_engines",
+    "boilers",
+    "generators",
+    "motors",
+    "transformers",
+    "wire_cables",
+    "electricity",
+    "electric_arc_furnaces",
+    "charcoal",
+    "coke",
+    "coal",
+    "coal_gas",
+    "coal_tar",
+    "refrigeration",
+    "lead_acid_batteries",
+    "grid_infrastructure",
+    "ups_systems"
+  ],
+  "parent": null,
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30"
+}

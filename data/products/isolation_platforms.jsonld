@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "isolation_platforms",
+  "@type": "Product",
+  "name": "Isolation Platforms",
+  "source": "precision-motion.vibration-isolation",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "adhesives",
+  "@type": "Product",
+  "name": "Adhesives",
+  "source": "chemistry.adhesives-coatings",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

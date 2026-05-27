@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "signaling_networks",
+  "@type": "Product",
+  "name": "Signaling Networks",
+  "source": "telecom",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

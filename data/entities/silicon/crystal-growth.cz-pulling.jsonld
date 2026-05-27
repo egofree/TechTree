@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Pulling single-crystal silicon ingots from molten polysilicon using a seed crystal in a quartz crucible at ~1415°C. Requires precision leadscrew (±0.5% speed stability), argon atmosphere, and temperature control ±0.5°C. Dash process eliminates dislocations via thin neck growth.",
+  "early_win": false,
+  "id": "silicon.crystal-growth.cz-pulling",
+  "level": "process",
+  "name": "Czochralski Crystal Pulling",
+  "outputs": [
+    "single_crystal_ingots"
+  ],
+  "parent": "silicon.crystal-growth",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [
+      "silicon"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 30-50"
+}

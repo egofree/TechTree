@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "dispute_resolution",
+  "@type": "Product",
+  "name": "Dispute Resolution",
+  "source": "economics-organization.governance",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": []
+  }
+}

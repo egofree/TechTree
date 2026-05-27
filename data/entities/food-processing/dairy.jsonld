@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Milk separation, butter churning, cheese making, and fermented dairy products. Converts highly perishable raw milk (spoils in hours at room temperature) into stable, transportable, protein-rich foods. Cheese is one of the most calorie-efficient preservation methods — 10 L milk yields ~1 kg cheese with months of shelf life.",
+  "early_win": false,
+  "id": "food-processing.dairy",
+  "level": "capability",
+  "name": "Dairy Processing",
+  "outputs": [
+    "butter",
+    "cheese",
+    "cream",
+    "yogurt",
+    "whey",
+    "ghee"
+  ],
+  "parent": "food-processing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-20"
+}

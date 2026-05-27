@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/vlsi-scaling.continuous-scaling__photolithography.fab-processes",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "vlsi-scaling.continuous-scaling",
+  "to": "photolithography.fab-processes"
+}

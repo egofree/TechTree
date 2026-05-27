@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "reclaimed_water",
+  "@type": "Product",
+  "name": "Reclaimed Water",
+  "source": "ultra-pure.upw",
+  "tags": {
+    "material": [
+      "water",
+      "chemicals"
+    ]
+  }
+}

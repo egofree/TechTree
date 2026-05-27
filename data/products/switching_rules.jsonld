@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "switching_rules",
+  "@type": "Product",
+  "name": "Switching Rules",
+  "source": "quality-control.inspection-sampling",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

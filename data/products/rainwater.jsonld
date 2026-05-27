@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "rainwater",
+  "@type": "Product",
+  "name": "Rainwater",
+  "source": "water.procurement",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "water"
+    ]
+  }
+}

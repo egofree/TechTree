@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ion_implantation",
+  "@type": "Product",
+  "name": "Ion Implantation",
+  "source": "vlsi-scaling.advanced-processes",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "natural_gas_liquids",
+  "@type": "Product",
+  "name": "Natural Gas Liquids",
+  "source": "petroleum.extraction",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

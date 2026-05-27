@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Progression from first ICs to complex VLSI chips via Moore's Law-like scaling: wafer size increases (2\" to 12\"), feature size shrinks (10 μm to 7 nm), layer count grows (1-2 to 10+), and yield improves (10% to 90%+). Each generation doubles transistor count while requiring larger crystal pullers, better process uniformity, and advanced lithography equipment.",
+  "early_win": false,
+  "id": "vlsi-scaling.continuous-scaling",
+  "level": "capability",
+  "name": "Continuous Scaling",
+  "outputs": [
+    "larger_wafers",
+    "finer_features",
+    "higher_yield"
+  ],
+  "parent": "vlsi-scaling",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "advanced",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 70-200+"
+}

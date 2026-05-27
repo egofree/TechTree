@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/ehs.radiation-safety__chemistry",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "ehs.radiation-safety",
+  "to": "chemistry"
+}

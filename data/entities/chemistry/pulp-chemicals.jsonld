@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Kraft pulping chemistry (white liquor NaOH+Na2S), bleaching (ClO2, H2O2), sizing agents (alum, AKD, rosin), fillers (CaCO3, kaolin, TiO2). Recovery boiler cycle: black liquor → green liquor → white liquor.",
+  "early_win": false,
+  "id": "chemistry.pulp-chemicals",
+  "level": "capability",
+  "name": "Pulp & Paper Chemicals",
+  "outputs": [
+    "white_liquor",
+    "bleaching_chemicals",
+    "sizing_agents"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "waste-sink",
+      "closed-loop"
+    ],
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-40"
+}

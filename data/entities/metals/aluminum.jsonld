@@ -1,33 +1,33 @@
 {
   "@context": "../../context.jsonld",
   "@type": "Capability",
-  "id": "metals.aluminum",
-  "name": "Aluminum Production",
-  "level": "capability",
-  "parent": "metals",
+  "critical": false,
   "description": "Bayer process converts bauxite to alumina; Hall-Héroult electrolytic reduction of alumina in molten cryolite at 960-980°C produces aluminum at 13-15 kWh/kg. Aluminum alloys (1xxx-8xxx series) for structural, aerospace, electrical, and packaging applications. Extrusion, die casting, and 95% energy savings from recycling.",
-  "timeline": "Years 20-40",
+  "early_win": false,
+  "id": "metals.aluminum",
+  "level": "capability",
+  "name": "Aluminum Production",
   "outputs": [
     "aluminum_ingots",
     "aluminum_extrusions",
     "aluminum_castings",
     "aluminum_sheet"
   ],
-  "critical": false,
-  "early_win": false,
+  "parent": "metals",
   "pinnacle": false,
   "tags": {
-    "material": [
-      "metals"
-    ],
     "capability": [],
+    "critical": false,
+    "early-win": false,
     "era": "industrial",
     "lifecycle": [
       "recyclable",
       "closed-loop"
     ],
-    "critical": false,
-    "early-win": false,
+    "material": [
+      "metals"
+    ],
     "pinnacle": false
-  }
+  },
+  "timeline": "Years 20-40"
 }

@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "aluminum_profiles",
+  "@type": "Product",
+  "name": "Aluminum Profiles",
+  "source": "metals.forming",
+  "tags": {
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

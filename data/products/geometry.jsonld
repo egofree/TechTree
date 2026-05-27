@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "geometry",
+  "@type": "Product",
+  "name": "Geometry",
+  "source": "mathematics.core-mathematics",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

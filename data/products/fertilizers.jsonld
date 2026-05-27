@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "fertilizers",
+  "@type": "Product",
+  "name": "Fertilizers",
+  "source": "chemistry.ammonia",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

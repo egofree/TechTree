@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "coal_gas",
+  "@type": "Product",
+  "name": "Coal Gas",
+  "source": "energy",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "load_locks",
+  "@type": "Product",
+  "name": "Load Locks",
+  "source": "vacuum.chambers",
+  "tags": {
+    "capability": [
+      "vacuum"
+    ],
+    "material": []
+  }
+}

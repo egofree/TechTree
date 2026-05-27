@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cement",
+  "@type": "Product",
+  "name": "Cement",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

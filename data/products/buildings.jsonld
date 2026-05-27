@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "buildings",
+  "@type": "Product",
+  "name": "Buildings",
+  "source": "construction",
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "material": [
+      "wood",
+      "stone"
+    ]
+  }
+}

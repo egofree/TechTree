@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "foup_transport",
+  "@type": "Product",
+  "name": "Foup Transport",
+  "source": "automation",
+  "tags": {
+    "capability": [
+      "computing",
+      "transport"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/chemistry.acid-regeneration__metals.forming",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "waste-recovery",
+  "from": "chemistry.acid-regeneration",
+  "to": "metals.forming"
+}

@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/economics-organization__foundations",
   "@type": "Dependency",
-  "from": "economics-organization",
-  "to": "foundations",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "economics-organization",
+  "to": "foundations"
 }

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "material_safety_data",
+  "@type": "Product",
+  "name": "Material Safety Data",
+  "source": "ehs.toxicology",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

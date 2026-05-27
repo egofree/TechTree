@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "radio_communication",
+  "@type": "Product",
+  "name": "Radio Communication",
+  "source": "telecom",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

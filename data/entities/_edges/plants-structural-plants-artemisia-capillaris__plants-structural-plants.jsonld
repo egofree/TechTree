@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/plants.structural-plants.artemisia-capillaris__plants.structural-plants",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "plants.structural-plants.artemisia-capillaris",
+  "to": "plants.structural-plants"
+}

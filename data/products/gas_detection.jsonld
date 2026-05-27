@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "gas_detection",
+  "@type": "Product",
+  "name": "Gas Detection",
+  "source": "health",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": []
+  }
+}

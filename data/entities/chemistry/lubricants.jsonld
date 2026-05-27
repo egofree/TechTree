@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": true,
+  "critical_note": "Without lubrication, bearings gall, slides bind, gears wear out in hours, and cutting tools destroy both workpiece and themselves",
+  "description": "Animal fats and vegetable oils, lubrication regimes (boundary, hydrodynamic, EHL), cutting fluids for machining, grease production (calcium, sodium, lithium soap), bearing lubrication methods, hydraulic fluids, vacuum oils (mineral, silicone), and cleanroom-compatible lubricants. Without lubrication, every moving part seizes.",
+  "early_win": false,
+  "id": "chemistry.lubricants",
+  "level": "capability",
+  "name": "Lubricants, Oils & Fluid Mechanics",
+  "outputs": [
+    "lubricating_oil",
+    "grease",
+    "cutting_fluid",
+    "hydraulic_fluid",
+    "vacuum_oil"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": true,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 0-200+"
+}

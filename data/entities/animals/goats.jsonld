@@ -1,0 +1,34 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Raising domesticated goats (Capra aegagrus hircus) for milk, meat, fiber, and brush clearance. Goats are browsers that clear woody undergrowth other livestock avoid, produce milk with higher digestibility than cow milk, and thrive on marginal forage. Dual-purpose breeds provide both milk and meat efficiently.",
+  "early_win": true,
+  "early_win_note": "Goats clear brush and browse on marginal land unsuitable for cattle or sheep, converting scrub into milk and meat. Twin kids are the norm.",
+  "id": "animals.goats",
+  "level": "capability",
+  "name": "Goat Husbandry",
+  "outputs": [
+    "chevon",
+    "goat_milk",
+    "cashmere",
+    "manure",
+    "brush_clearance"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": true,
+    "era": "stone-age",
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 1-20+"
+}

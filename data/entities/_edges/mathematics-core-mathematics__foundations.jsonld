@@ -2,8 +2,8 @@
   "@context": "../../context.jsonld",
   "@id": "edge/mathematics.core-mathematics__foundations",
   "@type": "Dependency",
-  "from": "mathematics.core-mathematics",
-  "to": "foundations",
   "edgeType": "tool",
-  "flow": "primary"
+  "flow": "primary",
+  "from": "mathematics.core-mathematics",
+  "to": "foundations"
 }

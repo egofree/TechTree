@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Positive pressure cascading (10-25 Pa), modular wall panel construction, raised perforated flooring, ceiling grid systems, make-up air handling, temperature/humidity control (22±0.5°C, 43±3% RH), and airlock pressure cascade design.",
+  "early_win": false,
+  "id": "cleanrooms.facility-design",
+  "level": "capability",
+  "name": "Facility Design & HVAC",
+  "outputs": [
+    "cleanroom_facilities",
+    "pressure_cascade_systems",
+    "raised_floor_systems",
+    "hvac_systems"
+  ],
+  "parent": "cleanrooms",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "construction"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "semiconductor",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 40-70"
+}

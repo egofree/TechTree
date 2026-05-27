@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "gpus",
+  "@type": "Product",
+  "name": "Gpus",
+  "source": "vlsi-scaling",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": [
+      "silicon"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "vulcanized_rubber",
+  "@type": "Product",
+  "name": "Vulcanized Rubber",
+  "source": "polymers.rubber.natural",
+  "tags": {
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "polymers"
+    ]
+  }
+}

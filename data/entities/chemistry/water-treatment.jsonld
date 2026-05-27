@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Industrial water purification from coagulation and settling through sand filtration, activated carbon, ion exchange, reverse osmosis, and electrodeionization to ultrapure water (18.2 MΩ·cm) for semiconductor fabrication. Covers RO system design, desalination, deaeration, zero liquid discharge, wastewater treatment, and water quality testing. Essential for acid dilution, electroplating, and semiconductor wafer processing.",
+  "early_win": false,
+  "id": "chemistry.water-treatment",
+  "level": "capability",
+  "name": "Industrial Water Treatment",
+  "outputs": [
+    "deionized_water",
+    "purified_water",
+    "ultrapure_water"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "water",
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-30"
+}

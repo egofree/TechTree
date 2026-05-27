@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "breeding_stock",
+  "@type": "Product",
+  "name": "Breeding Stock",
+  "source": "animals.domestication",
+  "tags": {
+    "material": [
+      "biomass"
+    ]
+  }
+}

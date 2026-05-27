@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "thread_standards",
+  "@type": "Product",
+  "name": "Thread Standards",
+  "source": "measurement.precision-metrology",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

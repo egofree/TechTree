@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "dosage_forms",
+  "@type": "Product",
+  "name": "Dosage Forms",
+  "source": "health.pharmaceutical-production",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

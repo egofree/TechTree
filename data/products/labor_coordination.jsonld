@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "labor_coordination",
+  "@type": "Product",
+  "name": "Labor Coordination",
+  "source": "economics-organization",
+  "tags": {
+    "capability": [
+      "organization"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "sinew",
+  "@type": "Product",
+  "name": "Sinew",
+  "source": "animals",
+  "tags": {
+    "capability": [
+      "transport"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

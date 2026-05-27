@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Vacuum tube and early transistor computing, stored-program architecture, and electronic data processing.",
+  "early_win": false,
+  "id": "computing.electronic",
+  "level": "capability",
+  "name": "Electronic Computing",
+  "outputs": [
+    "electronic_computers"
+  ],
+  "parent": "computing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "electronic",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 50-70+"
+}

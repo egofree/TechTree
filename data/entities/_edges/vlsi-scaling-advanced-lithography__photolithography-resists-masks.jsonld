@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/vlsi-scaling.advanced-lithography__photolithography.resists-masks",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "vlsi-scaling.advanced-lithography",
+  "to": "photolithography.resists-masks"
+}

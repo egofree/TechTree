@@ -1,0 +1,16 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "blast_furnace_slag",
+  "@type": "Product",
+  "name": "Blast Furnace Slag",
+  "source": "metals.iron-steel.blast-furnace",
+  "tags": {
+    "lifecycle": [
+      "waste-source",
+      "recyclable"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

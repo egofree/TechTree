@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Industrial hygiene, workplace exposure limits, noise control, ergonomics, respiratory protection, and occupational disease prevention. Essential for workforce survival in industrial environments.",
+  "early_win": false,
+  "id": "health.occupational-health",
+  "level": "capability",
+  "name": "Occupational Health & Industrial Hygiene",
+  "outputs": [
+    "workplace_safety",
+    "exposure_limits",
+    "respiratory_protection"
+  ],
+  "parent": "health",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-50+"
+}

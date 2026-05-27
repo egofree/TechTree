@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "ppe",
+  "@type": "Product",
+  "name": "Ppe",
+  "source": "health",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": []
+  }
+}

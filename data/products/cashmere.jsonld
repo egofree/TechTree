@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "cashmere",
+  "@type": "Product",
+  "name": "Cashmere",
+  "source": "animals.goats",
+  "tags": {
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

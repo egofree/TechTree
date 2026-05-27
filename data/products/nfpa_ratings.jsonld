@@ -1,0 +1,17 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nfpa_ratings",
+  "@type": "Product",
+  "name": "Nfpa Ratings",
+  "source": "ehs.chemical-safety",
+  "tags": {
+    "capability": [
+      "health",
+      "measurement"
+    ],
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

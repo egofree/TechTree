@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "first_aid_protocols",
+  "@type": "Product",
+  "name": "First Aid Protocols",
+  "source": "ehs.emergency-response",
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "material": [
+      "chemicals"
+    ]
+  }
+}

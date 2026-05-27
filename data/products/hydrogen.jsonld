@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hydrogen",
+  "@type": "Product",
+  "name": "Hydrogen",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

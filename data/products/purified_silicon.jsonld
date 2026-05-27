@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "purified_silicon",
+  "@type": "Product",
+  "name": "Purified Silicon",
+  "source": "silicon",
+  "tags": {
+    "material": [
+      "silicon"
+    ]
+  }
+}

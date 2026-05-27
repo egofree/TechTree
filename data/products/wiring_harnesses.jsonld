@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "wiring_harnesses",
+  "@type": "Product",
+  "name": "Wiring Harnesses",
+  "source": "electronics",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

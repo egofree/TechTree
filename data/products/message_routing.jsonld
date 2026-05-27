@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "message_routing",
+  "@type": "Product",
+  "name": "Message Routing",
+  "source": "telecom.electric-telegraph",
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "material": [
+      "metals"
+    ]
+  }
+}

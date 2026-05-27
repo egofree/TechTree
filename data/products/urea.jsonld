@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "urea",
+  "@type": "Product",
+  "name": "Urea",
+  "source": "chemistry.ammonia",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

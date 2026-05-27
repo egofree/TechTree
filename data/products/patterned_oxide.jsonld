@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "patterned_oxide",
+  "@type": "Product",
+  "name": "Patterned Oxide",
+  "source": "photolithography.fab-processes",
+  "tags": {
+    "capability": [
+      "precision"
+    ],
+    "material": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "calculus",
+  "@type": "Product",
+  "name": "Calculus",
+  "source": "mathematics.applied-mathematics",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

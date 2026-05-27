@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/metals.specialty-semiconductor__gas-handling.vacuum",
+  "@type": "Dependency",
+  "edgeType": "tool",
+  "flow": "primary",
+  "from": "metals.specialty-semiconductor",
+  "to": "gas-handling.vacuum"
+}

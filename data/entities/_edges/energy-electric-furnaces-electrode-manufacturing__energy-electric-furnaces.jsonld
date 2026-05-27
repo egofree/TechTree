@@ -1,0 +1,9 @@
+{
+  "@context": "../../context.jsonld",
+  "@id": "edge/energy.electric-furnaces.electrode-manufacturing__energy.electric-furnaces",
+  "@type": "Dependency",
+  "edgeType": "material",
+  "flow": "primary",
+  "from": "energy.electric-furnaces.electrode-manufacturing",
+  "to": "energy.electric-furnaces"
+}

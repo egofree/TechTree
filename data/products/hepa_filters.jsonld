@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "hepa_filters",
+  "@type": "Product",
+  "name": "Hepa Filters",
+  "source": "cleanrooms",
+  "tags": {
+    "capability": [
+      "precision",
+      "construction"
+    ],
+    "material": []
+  }
+}

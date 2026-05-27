@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Continuous rotary power from expanding steam via impulse (De Laval) and reaction (Parsons) turbine stages. 50-500+ MW output at 30-40% thermal efficiency with superheat and condenser. Replaces reciprocating engines for all large-scale power generation beyond ~5 MW.",
+  "early_win": false,
+  "id": "energy.steam-power.steam-turbines",
+  "level": "process",
+  "name": "Steam Turbines",
+  "outputs": [
+    "steam_turbine_power",
+    "turbine_generators"
+  ],
+  "parent": "energy.steam-power",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "metals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-50+"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "calculation_aids",
+  "@type": "Product",
+  "name": "Calculation Aids",
+  "source": "computing.mechanical",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

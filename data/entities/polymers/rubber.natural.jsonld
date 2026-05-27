@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Latex collection, coagulation, mastication, compounding with sulfur and carbon black, and vulcanization.",
+  "early_win": false,
+  "id": "polymers.rubber.natural",
+  "level": "process",
+  "name": "Natural Rubber & Vulcanization",
+  "outputs": [
+    "vulcanized_rubber",
+    "tires",
+    "drive_belts"
+  ],
+  "parent": "polymers.rubber",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-30"
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Trans-1,4-polyisoprene from Palaquium tree latex. Hard, horn-like thermoplastic at room temperature, softens at 60-80°C. Harvested by felling trees and collecting coagulated latex. Processing: wash, masticate, roll into sheets. The ONLY practical underwater electrical insulation until polyethylene (1940s). Used for submarine telegraph cables, dental fillings, tool handles, electrical insulation.",
+  "early_win": false,
+  "id": "polymers.rubber.gutta-percha",
+  "level": "process",
+  "name": "Gutta-Percha Processing",
+  "outputs": [
+    "gutta_percha",
+    "underwater_insulation",
+    "dental_fillings"
+  ],
+  "parent": "polymers.rubber",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-30"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "etch_gases",
+  "@type": "Product",
+  "name": "Etch Gases",
+  "source": "chemistry",
+  "tags": {
+    "material": [
+      "chemicals",
+      "gases"
+    ]
+  }
+}

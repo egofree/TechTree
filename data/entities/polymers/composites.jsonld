@@ -1,0 +1,31 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Fiberglass production (E-glass fiber from silica/boron batch, 5-25 μm filaments), hand layup, vacuum bagging, resin transfer molding, and filament winding. Carbon fiber (PAN precursor, aspiration). Polymer processing equipment: extruders, injection molding machines, compression presses, and calenders.",
+  "early_win": false,
+  "id": "polymers.composites",
+  "level": "capability",
+  "name": "Composite Materials",
+  "outputs": [
+    "fiberglass",
+    "composite_panels",
+    "carbon_fiber",
+    "extruded_parts",
+    "injection_molded_parts"
+  ],
+  "parent": "polymers",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "polymers",
+      "fibers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 25-70+"
+}

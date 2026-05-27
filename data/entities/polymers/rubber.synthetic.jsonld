@@ -1,0 +1,28 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Nitrile rubber (NBR), neoprene, and silicone elastomers for oil resistance, wire insulation, and high-temperature seals.",
+  "early_win": false,
+  "id": "polymers.rubber.synthetic",
+  "level": "process",
+  "name": "Synthetic Rubbers",
+  "outputs": [
+    "nitrile_rubber",
+    "neoprene",
+    "silicone_elastomers"
+  ],
+  "parent": "polymers.rubber",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "polymers"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-50"
+}

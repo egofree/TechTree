@@ -1,0 +1,13 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "statistical_methods",
+  "@type": "Product",
+  "name": "Statistical Methods",
+  "source": "mathematics.applied-mathematics",
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "material": []
+  }
+}

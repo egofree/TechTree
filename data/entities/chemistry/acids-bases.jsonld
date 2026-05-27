@@ -1,0 +1,32 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Comprehensive reference for industrial acid and base production covering sulfuric acid (lead chamber and contact processes), hydrochloric acid (Leblanc byproduct, direct synthesis), nitric acid (saltpeter and Ostwald), caustic soda (lime-soda and electrolytic), soda ash (Leblanc and Solvay), hydrofluoric acid, phosphoric acid, and acid-base safety. Supplements the individual acid and alkali capability articles with cross-referenced process details and bootstrap sequencing.",
+  "early_win": false,
+  "id": "chemistry.acids-bases",
+  "level": "capability",
+  "name": "Acids & Bases (Comprehensive Reference)",
+  "outputs": [
+    "sulfuric_acid",
+    "hydrochloric_acid",
+    "nitric_acid",
+    "sodium_hydroxide",
+    "sodium_carbonate",
+    "hydrofluoric_acid",
+    "phosphoric_acid"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-30"
+}

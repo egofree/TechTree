@@ -1,0 +1,30 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Basic glass production from silica sand, potash, and limestone at 1100-1400°C for vessels, beads, and window panes.",
+  "early_win": false,
+  "id": "glass.basic",
+  "level": "capability",
+  "name": "Basic Glass Production",
+  "outputs": [
+    "basic_glass",
+    "potash"
+  ],
+  "parent": "glass",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "lifecycle": [
+      "recyclable"
+    ],
+    "material": [
+      "glass"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-15"
+}

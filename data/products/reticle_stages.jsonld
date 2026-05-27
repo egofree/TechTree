@@ -1,0 +1,14 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "reticle_stages",
+  "@type": "Product",
+  "name": "Reticle Stages",
+  "source": "precision-motion",
+  "tags": {
+    "capability": [
+      "precision",
+      "measurement"
+    ],
+    "material": []
+  }
+}

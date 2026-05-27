@@ -1,0 +1,37 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Processing animal products into useful materials: leather (dehairing with lime, tanning with oak bark tannins, oil tanning, currying), tallow and lard rendering (fat melted at 80-100°C, clarified), wool preparation (shearing, scouring, carding), horn and bone working (heat-softening, carving, boiling for glue), sinew processing (drying, pounding into fibers), hide glue production, and blood processing.",
+  "early_win": false,
+  "id": "animals.animal-materials",
+  "level": "capability",
+  "name": "Animal-Derived Materials Processing",
+  "outputs": [
+    "leather",
+    "tallow",
+    "wool",
+    "horn",
+    "bone",
+    "sinew",
+    "hide_glue",
+    "blood",
+    "feathers"
+  ],
+  "parent": "animals",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "stone-age",
+    "material": [
+      "biomass"
+    ],
+    "pinnacle": false
+  },
+  "taxonomy": [
+    "biomass.animal.materials"
+  ],
+  "timeline": "Years 1-30+"
+}

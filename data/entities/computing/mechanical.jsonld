@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Manual and mechanical calculation aids: abacus, slide rules, nomograms, mathematical tables, Pascaline, stepped drum calculators.",
+  "early_win": false,
+  "id": "computing.mechanical",
+  "level": "capability",
+  "name": "Mechanical Calculation",
+  "outputs": [
+    "calculation_aids"
+  ],
+  "parent": "computing",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "computing"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [],
+    "pinnacle": false
+  },
+  "timeline": "Years 10-40"
+}

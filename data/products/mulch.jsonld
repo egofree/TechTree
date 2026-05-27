@@ -1,0 +1,15 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "mulch",
+  "@type": "Product",
+  "name": "Mulch",
+  "source": "agriculture.soil-management",
+  "tags": {
+    "lifecycle": [
+      "waste-sink"
+    ],
+    "material": [
+      "biomass"
+    ]
+  }
+}

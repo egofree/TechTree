@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "nitrocellulose",
+  "@type": "Product",
+  "name": "Nitrocellulose",
+  "source": "chemistry.explosives",
+  "tags": {
+    "material": [
+      "chemicals"
+    ]
+  }
+}

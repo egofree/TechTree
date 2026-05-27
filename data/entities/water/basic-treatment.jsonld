@@ -1,0 +1,29 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Purifying raw water for safe human consumption using low-technology methods: slow sand filtration, settling and clarification, boiling, solar disinfection, and chlorination. Reduces waterborne disease and enables population health.",
+  "early_win": false,
+  "id": "water.basic-treatment",
+  "level": "capability",
+  "name": "Basic Water Treatment",
+  "outputs": [
+    "potable_water",
+    "filtered_water"
+  ],
+  "parent": "water",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "health"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "iron-age",
+    "material": [
+      "water"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 5-25"
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Capability",
+  "critical": false,
+  "description": "Distillation columns (2-10 m, copper or steel, packed with ceramic Raschig rings), batch and continuous flow reactors, and shell-and-tube heat exchangers. Separates liquid mixtures by boiling point for chemical purification and petroleum refining.",
+  "early_win": false,
+  "id": "chemistry.distillation",
+  "level": "capability",
+  "name": "Distillation",
+  "outputs": [
+    "distillation_capability"
+  ],
+  "parent": "chemistry",
+  "pinnacle": false,
+  "tags": {
+    "capability": [],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "material": [
+      "chemicals"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 20-35"
+}

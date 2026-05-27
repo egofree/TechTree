@@ -1,0 +1,12 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "superalloys",
+  "@type": "Product",
+  "name": "Superalloys",
+  "source": "metals.alloys",
+  "tags": {
+    "material": [
+      "metals"
+    ]
+  }
+}

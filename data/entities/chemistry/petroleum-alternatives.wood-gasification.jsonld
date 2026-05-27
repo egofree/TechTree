@@ -1,0 +1,33 @@
+{
+  "@context": "../../context.jsonld",
+  "@type": "Process",
+  "critical": false,
+  "description": "Producer gas generation from biomass via shaft gasifier: partial combustion produces CO+H₂+N₂ mixture (~5-6 MJ/m³). Gas cleaning via water scrubbing, sawdust filter, cyclone. Can power internal combustion engines directly. Powered vehicles during WWII fuel shortages. Bridge technology before natural gas infrastructure.",
+  "early_win": false,
+  "id": "chemistry.petroleum-alternatives.wood-gasification",
+  "level": "process",
+  "name": "Wood Gasification",
+  "outputs": [
+    "producer_gas",
+    "syngas"
+  ],
+  "parent": "chemistry.petroleum-alternatives",
+  "pinnacle": false,
+  "tags": {
+    "capability": [
+      "energy"
+    ],
+    "critical": false,
+    "early-win": false,
+    "era": "industrial",
+    "lifecycle": [
+      "waste-source"
+    ],
+    "material": [
+      "biomass",
+      "gases"
+    ],
+    "pinnacle": false
+  },
+  "timeline": "Years 15-40"
+}

@@ -27,7 +27,7 @@ validate-site: ## Validate built site (10 checks)
 	bash scripts/validate-site.sh
 
 test: ## Run conformance test suite
-	python3 -m pytest tests/
+	bash scripts/run_conformance_tests.sh
 
 clean: ## Remove generated site/ and rendered diagrams
 	rm -rf site/

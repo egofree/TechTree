@@ -372,24 +372,21 @@ class Validator:
 
     # Covers original check 8
     def check_diagrams_generated(self):
-        gen_script = SCRIPT_DIR / "generate-diagrams.sh"
+        gen_script = SCRIPT_DIR / "generate-diagrams.py"
         if not gen_script.exists():
-            return ["generate-diagrams.sh not found"]
-        try:
-            r = subprocess.run(
-                ["bash", str(gen_script), "--list"],
-                capture_output=True, text=True, timeout=30,
-                cwd=str(PROJECT_DIR),
-            )
-        except Exception as exc:
-            return [f"Cannot run generate-diagrams.sh: {exc}"]
-
+            return ["generate-diagrams.py not found"]
+        domains = set()
+        for eid in self.entities:
+            parts = eid.split(".", 1)
+            domains.add(parts[0])
         errors = []
-        for line in r.stdout.strip().splitlines():
-            for m in re.finditer(r"\S+\.mmd", line):
-                diagram_path = PROJECT_DIR / "diagrams" / "mermaid" / m.group()
-                if not diagram_path.exists():
-                    errors.append(f"Missing diagram: {m.group()}")
+        for domain in sorted(domains):
+            diagram_path = DIAGRAMS_DIR / f"{domain}.mmd"
+            if not diagram_path.exists():
+                errors.append(f"Missing diagram: {domain}.mmd")
+        overview = DIAGRAMS_DIR / "overview.mmd"
+        if not overview.exists():
+            errors.append("Missing diagram: overview.mmd")
         return errors
 
     # Covers original check 9

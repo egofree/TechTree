@@ -1,0 +1,248 @@
+{
+  "entities": {
+    "ceramics.pottery": {
+      "aliases": {
+        "en": [
+          "Port Arthur, Texas",
+          "Port Arthur, TX"
+        ],
+        "es": [
+          "Port Arthur (Texas)"
+        ],
+        "fr": [
+          "Port Arthur, Texas",
+          "Port Arthur, TX"
+        ]
+      },
+      "descriptions": {
+        "de": "Stadt im US-Bundesstaat Texas",
+        "en": "city in Jefferson County, Texas, United States",
+        "es": "ciudad del condado de Jefferson, estado de Texas, Estados Unidos",
+        "fr": "ville du Texas, États-Unis"
+      },
+      "labels": {
+        "de": "Port Arthur",
+        "en": "Port Arthur",
+        "es": "Port Arthur",
+        "fr": "Port Arthur",
+        "zh": "阿瑟港"
+      },
+      "name": "Pottery & Clay Products",
+      "wikidataId": "Q45400"
+    },
+    "energy.fuels.charcoal": {
+      "aliases": {
+        "es": [
+          "Echium philotei",
+          "Echium rifeum",
+          "Viborera marítima",
+          "Echium confusum",
+          "Echium vidalii",
+          "Echium maritimum",
+          "Viborera maritima",
+          "Viborera marina"
+        ],
+        "fr": [
+          "Vipérine maritime"
+        ]
+      },
+      "descriptions": {
+        "de": "Art der Gattung Natternköpfe (Echium)",
+        "en": "species of plant",
+        "es": "especie de planta"
+      },
+      "labels": {
+        "de": "Echium sabulicola",
+        "en": "Echium sabulicola",
+        "es": "Echium sabulicola",
+        "fr": "Echium sabulicola"
+      },
+      "name": "Charcoal Production",
+      "wikidataId": "Q142385"
+    },
+    "glass.basic": {
+      "aliases": {},
+      "descriptions": {
+        "de": "amorpher Feststoff",
+        "en": "amorphous solid that exhibits a glass transition when heated towards the liquid state",
+        "es": "material inorgánico transparente y amorfo",
+        "fr": "matériau solide, amorphe, transparent, dur et fragile, élaboré à l’aide de sable siliceux",
+        "zh": "可作为建筑材料的材质"
+      },
+      "labels": {
+        "de": "Glas",
+        "en": "glass",
+        "es": "vidrio",
+        "fr": "verre",
+        "zh": "玻璃"
+      },
+      "name": "Basic Glass Production",
+      "wikidataId": "Q11469"
+    },
+    "metals.aluminum": {
+      "aliases": {
+        "en": [
+          "Shinseiki Evangelion",
+          "Shin Seiki Evangelion",
+          "Evangelion",
+          "NGE"
+        ],
+        "es": [
+          "Evangelion"
+        ],
+        "fr": [
+          "Evangelion"
+        ]
+      },
+      "descriptions": {
+        "de": "Anime von Hideaki Anno (1995–1996)",
+        "en": "Japanese anime television series",
+        "es": "serie de anime creada por Hideaki Anno",
+        "fr": "anime japonais",
+        "zh": "日本科幻電視動畫"
+      },
+      "labels": {
+        "de": "Neon Genesis Evangelion",
+        "en": "Neon Genesis Evangelion",
+        "es": "Neon Genesis Evangelion",
+        "fr": "Neon Genesis Evangelion",
+        "zh": "新世紀福音戰士"
+      },
+      "name": "Aluminum Production",
+      "wikidataId": "Q662"
+    },
+    "metals.copper-bronze": {
+      "aliases": {
+        "de": [
+          "Cu"
+        ],
+        "en": [
+          "Cu",
+          "element 29",
+          "29Cu",
+          "Tatum-T",
+          "Paragard T 380A",
+          "CU-7"
+        ],
+        "es": [
+          "Cu",
+          "cuprífero",
+          "cuprífera",
+          "cuprifero",
+          "cuprifera"
+        ],
+        "fr": [
+          "Cu",
+          "élément 29",
+          "29Cu",
+          "Tatum-T",
+          "Paragard T 380A",
+          "CU-7"
+        ],
+        "zh": [
+          "Cu",
+          "铜"
+        ]
+      },
+      "descriptions": {
+        "de": "chemisches Element mit dem Symbol Cu und der Ordnungszahl 29",
+        "en": "chemical element with symbol Cu and atomic number 29",
+        "es": "elemento químico de símbolo Cu y número atómico 29",
+        "fr": "élément chimique de numéro atomique 29 et de symbole Cu",
+        "zh": "原子序數為29的化學元素"
+      },
+      "labels": {
+        "de": "Kupfer",
+        "en": "copper",
+        "es": "cobre",
+        "fr": "cuivre",
+        "zh": "銅"
+      },
+      "name": "Copper & Bronze Production",
+      "wikidataId": "Q753"
+    },
+    "metals.iron-steel": {
+      "aliases": {
+        "de": [
+          "Massenstahl",
+          "EN 10020",
+          "Stahlwerkstoff"
+        ]
+      },
+      "descriptions": {
+        "de": "kohlenstoffarme Eisenlegierungen",
+        "en": "alloy made by combining iron and other elements",
+        "es": "aleación metálica de hierro con otros elementos",
+        "fr": "alliage métallique à base de fer",
+        "zh": "由铁与其他元素结合而成的合金"
+      },
+      "labels": {
+        "de": "Stahl",
+        "en": "steel",
+        "es": "acero",
+        "fr": "acier",
+        "zh": "钢"
+      },
+      "name": "Iron & Steel Production",
+      "wikidataId": "Q11427"
+    },
+    "metals.steelmaking": {
+      "aliases": {
+        "de": [
+          "Massenstahl",
+          "EN 10020",
+          "Stahlwerkstoff"
+        ]
+      },
+      "descriptions": {
+        "de": "kohlenstoffarme Eisenlegierungen",
+        "en": "alloy made by combining iron and other elements",
+        "es": "aleación metálica de hierro con otros elementos",
+        "fr": "alliage métallique à base de fer",
+        "zh": "由铁与其他元素结合而成的合金"
+      },
+      "labels": {
+        "de": "Stahl",
+        "en": "steel",
+        "es": "acero",
+        "fr": "acier",
+        "zh": "钢"
+      },
+      "name": "Modern Steelmaking",
+      "wikidataId": "Q11427"
+    },
+    "silicon.mg-si-production": {
+      "aliases": {
+        "en": [
+          "Alejandro Hannig"
+        ],
+        "es": [
+          "Alejandro Hannig Ulriksen"
+        ]
+      },
+      "descriptions": {
+        "de": "chilenischer Leichtathlet, Teilnehmer an den Olympischen Spielen 1928 in Amsterdam",
+        "en": "German athletics competitor (1897–1987)",
+        "es": "atleta alemán",
+        "fr": "athlète allemand"
+      },
+      "labels": {
+        "de": "Alex Hannig",
+        "en": "Alex Hannig",
+        "es": "Alex Hannig",
+        "fr": "Alex Hannig"
+      },
+      "name": "Metallurgical-Grade Silicon Production",
+      "wikidataId": "Q104629"
+    }
+  },
+  "generated_at": "2026-05-27T16:25:48Z",
+  "languages": [
+    "en",
+    "es",
+    "fr",
+    "de",
+    "zh"
+  ],
+  "version": "1.0"
+}

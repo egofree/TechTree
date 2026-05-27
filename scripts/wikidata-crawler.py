@@ -333,12 +333,14 @@ def run_search(args):
             })
         stats["pending"] += 1
 
-    # --- Write TSV ---
-    with open(args.output, "w", encoding="utf-8", newline="") as fh:
+    # --- Write TSV (atomic) ---
+    tmp_path = args.output + ".tmp"
+    with open(tmp_path, "w", encoding="utf-8", newline="") as fh:
         writer = csv.DictWriter(fh, fieldnames=TSV_COLUMNS, delimiter="\t")
         writer.writeheader()
         for row in rows:
             writer.writerow(row)
+    os.replace(tmp_path, args.output)
 
     # --- Summary ---
     unique_entities = len(set(r["entity_id"] for r in rows))

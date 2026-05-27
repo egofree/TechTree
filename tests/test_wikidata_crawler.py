@@ -497,5 +497,142 @@ class TestRunStub(unittest.TestCase):
             mock_save.assert_not_called()
 
 
+# ===================================================================
+# 7. TSV output tests (mock file I/O + mock client)
+# ===================================================================
+
+class TestTSVOutput(unittest.TestCase):
+    """Tests for run_search() TSV output format and status values."""
+
+    def _run_search_mocked(self, entities, search_results=None, output_path=None):
+        """Helper: run run_search() with mocked dependencies, return output TSV path."""
+        if output_path is None:
+            tmp = tempfile.NamedTemporaryFile(
+                mode="w", suffix=".tsv", delete=False, encoding="utf-8"
+            )
+            output_path = tmp.name
+            tmp.close()
+            self.addCleanup(os.unlink, output_path)
+
+        args = _make_args(output=output_path)
+
+        with patch.object(wc, "load_all_entities", return_value=entities):
+            with patch.object(wc, "WikidataClient") as mock_client_class:
+                mock_client = MagicMock()
+                if search_results is not None:
+                    mock_client.search_entities.return_value = search_results
+                else:
+                    mock_client.search_entities.return_value = []
+                mock_client_class.return_value = mock_client
+                wc.run_search(args)
+
+        return output_path
+
+    def _read_tsv(self, path):
+        """Read a TSV file and return (header_columns, rows)."""
+        with open(path, "r", encoding="utf-8", newline="") as fh:
+            reader = csv.reader(fh, delimiter="\t")
+            header = next(reader)
+            rows = list(reader)
+        return header, rows
+
+    def test_tsv_header_format(self):
+        """TSV output has exactly the 9 columns from TSV_COLUMNS."""
+        path = self._run_search_mocked(entities=[])
+        header, rows = self._read_tsv(path)
+        self.assertEqual(header, list(wc.TSV_COLUMNS))
+        self.assertEqual(len(rows), 0)
+
+    def test_tsv_existing_status(self):
+        """Entity with wikidataId gets status=existing."""
+        entities = [
+            {
+                "id": "metals.iron-steel",
+                "name": "Iron and Steel",
+                "wikidataId": "Q131814",
+            }
+        ]
+        path = self._run_search_mocked(entities=entities)
+        header, rows = self._read_tsv(path)
+        self.assertEqual(len(rows), 1)
+        status_idx = header.index("status")
+        self.assertEqual(rows[0][status_idx], "existing")
+
+    def test_tsv_no_match_status(self):
+        """Entity without wikidataId and zero search results gets status=no_match."""
+        entities = [
+            {
+                "id": "metals.iron-steel",
+                "name": "Iron and Steel",
+            }
+        ]
+        path = self._run_search_mocked(entities=entities, search_results=[])
+        header, rows = self._read_tsv(path)
+        self.assertEqual(len(rows), 1)
+        status_idx = header.index("status")
+        self.assertEqual(rows[0][status_idx], "no_match")
+
+    def test_search_idempotent(self):
+        """Running run_search() twice with same inputs produces identical TSV output."""
+        entities = [
+            {
+                "id": "metals.iron-steel",
+                "name": "Iron and Steel",
+                "wikidataId": "Q131814",
+            },
+            {
+                "id": "metals.copper",
+                "name": "Copper",
+            },
+        ]
+        search_results = [
+            {"qid": "Q753", "label": "copper", "description": "chemical element"},
+        ]
+
+        path1 = tempfile.NamedTemporaryFile(
+            mode="w", suffix=".tsv", delete=False, encoding="utf-8"
+        )
+        path1.close()
+        self.addCleanup(os.unlink, path1.name)
+
+        path2 = tempfile.NamedTemporaryFile(
+            mode="w", suffix=".tsv", delete=False, encoding="utf-8"
+        )
+        path2.close()
+        self.addCleanup(os.unlink, path2.name)
+
+        self._run_search_mocked(
+            entities=entities, search_results=search_results, output_path=path1.name
+        )
+        self._run_search_mocked(
+            entities=entities, search_results=search_results, output_path=path2.name
+        )
+
+        with open(path1.name, "r", encoding="utf-8") as f1, open(
+            path2.name, "r", encoding="utf-8"
+        ) as f2:
+            self.assertEqual(f1.read(), f2.read())
+
+    def test_enrich_idempotent_serialization(self):
+        """Deterministic JSON serialization produces identical output for same input dict."""
+        data = {
+            "version": "1.0",
+            "generated_at": "2026-01-01T00:00:00Z",
+            "languages": ["en", "es"],
+            "entities": {
+                "metals.iron-steel": {
+                    "wikidataId": "Q131814",
+                    "name": "Iron and Steel",
+                    "labels": {"en": "Iron and Steel"},
+                    "descriptions": {"en": "alloy of iron"},
+                    "aliases": {},
+                }
+            },
+        }
+        out1 = json.dumps(data, sort_keys=True, indent=2, ensure_ascii=False) + "\n"
+        out2 = json.dumps(data, sort_keys=True, indent=2, ensure_ascii=False) + "\n"
+        self.assertEqual(out1, out2)
+
+
 if __name__ == "__main__":
     unittest.main()

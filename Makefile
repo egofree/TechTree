@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 .SHELLFLAGS := -ec
 
-.PHONY: all validate diagrams d2-diagrams build validate-site clean help
+.PHONY: all validate diagrams d2-diagrams build validate-site test clean help
 
 help: ## Show this help message
 	@echo "bootciv tech-tree-bootstrap — available targets:"
@@ -12,19 +12,22 @@ help: ## Show this help message
 all: validate diagrams build validate-site ## Run full pipeline: validate → diagrams → build → validate-site
 
 validate: ## Validate data integrity (16 checks)
-	bash scripts/validate.sh
+	python3 scripts/validate.py
 
 diagrams: ## Generate Mermaid diagrams from data
-	bash scripts/generate-diagrams.sh
+	python3 scripts/generate-diagrams.py --format mermaid
 
 d2-diagrams: ## Generate D2 diagrams from data
-	bash scripts/generate-d2-diagrams.sh
+	python3 scripts/generate-diagrams.py --format d2
 
 build: ## Build offline-first static site
 	bash scripts/build-site.sh
 
 validate-site: ## Validate built site (10 checks)
 	bash scripts/validate-site.sh
+
+test: ## Run conformance test suite
+	python3 -m pytest tests/
 
 clean: ## Remove generated site/ and rendered diagrams
 	rm -rf site/

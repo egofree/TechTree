@@ -1,0 +1,83 @@
+{
+  "$id": "techtree:schema/wikidata-enrichment",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Cache of Wikidata aliases, descriptions, and labels for TechTree entities.",
+  "properties": {
+    "entities": {
+      "additionalProperties": {
+        "properties": {
+          "aliases": {
+            "additionalProperties": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "description": "Wikidata aliases per language code",
+            "type": "object"
+          },
+          "descriptions": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "Wikidata short description per language code",
+            "type": "object"
+          },
+          "labels": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "Wikidata label per language code",
+            "type": "object"
+          },
+          "name": {
+            "description": "Entity display name from TechTree",
+            "type": "string"
+          },
+          "wikidataId": {
+            "pattern": "^Q[0-9]+$",
+            "type": "string"
+          }
+        },
+        "required": [
+          "wikidataId"
+        ],
+        "type": "object"
+      },
+      "description": "Map of entity ID to Wikidata enrichment data",
+      "type": "object"
+    },
+    "generated_at": {
+      "description": "ISO 8601 timestamp of generation",
+      "format": "date-time",
+      "type": "string"
+    },
+    "languages": {
+      "default": [
+        "en",
+        "es",
+        "fr",
+        "de",
+        "zh"
+      ],
+      "description": "Target languages for aliases and descriptions",
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "version": {
+      "const": "1.0",
+      "description": "Schema version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "version",
+    "generated_at",
+    "languages",
+    "entities"
+  ],
+  "title": "WikidataEnrichmentCache",
+  "type": "object"
+}

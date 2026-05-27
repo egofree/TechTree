@@ -4139,6 +4139,42 @@
       "to": "metals.forming",
       "type": "material",
       "flow": "waste-recovery"
+    },
+    {
+      "from": "optics.inspection",
+      "to": "glass.advanced",
+      "type": "material",
+      "flow": "primary"
+    },
+    {
+      "from": "silicon.mg-si-production",
+      "to": "energy",
+      "type": "tool",
+      "flow": "primary"
+    },
+    {
+      "from": "silicon.mg-si-production",
+      "to": "metals",
+      "type": "tool",
+      "flow": "primary"
+    },
+    {
+      "from": "silicon.purification",
+      "to": "silicon.mg-si-production",
+      "type": "material",
+      "flow": "primary"
+    },
+    {
+      "from": "silicon.purification",
+      "to": "energy.electricity",
+      "type": "tool",
+      "flow": "primary"
+    },
+    {
+      "from": "silicon.purification",
+      "to": "chemistry",
+      "type": "tool",
+      "flow": "primary"
     }
   ]
 }

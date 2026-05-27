@@ -5817,8 +5817,12 @@
       "early_win": false,
       "pinnacle": false,
       "tags": {
-        "material": [],
-        "capability": [],
+        "material": [
+          "glass"
+        ],
+        "capability": [
+          "optics"
+        ],
         "era": "industrial",
         "critical": false,
         "early-win": false,

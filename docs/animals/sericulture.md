@@ -8,6 +8,18 @@
 > **Outputs**: raw_silk, silk_thread, cocoons, sericin
 > **Critical**: No — silk is valuable but not essential for bootstrapping
 
+### Problem
+
+Textile production requires strong, fine, continuous fibers for weaving high-quality cloth. Wool and cotton are staple fibers (short lengths that must be spun), limiting thread strength and uniformity. Silk is the only natural continuous filament — a single cocoon yields 300-900 m of unbroken thread with higher strength-to-weight ratio than steel. For applications demanding fine, strong, lightweight fabric (parachutes, surgical sutures, electrical insulation, luxury textiles), no other natural fiber matches silk. The challenge is that silkworm rearing demands disciplined environmental control (±3°C, 70-80% humidity), a reliable mulberry leaf supply fed 3-4 times daily, and precise timing across a 25-30 day rearing cycle.
+
+### Prerequisites
+
+- [Animal domestication](domestication.md) — principles of captive animal management
+- Mulberry trees (*Morus alba*) — the sole food source; requires 0.1-0.5 ha per silkworm rearing cycle
+- [Fire-making](../foundations/fire.md) — heating reeling basins, steam stifling, temperature control
+- [Water access](../agriculture/irrigation.md) — clean water for reeling basin, humidity control, and cleaning
+- [Textile fiber processing](../textiles/fibers.md) — downstream spinning, weaving, and finishing capability
+
 ## Overview
 
 Sericulture is the controlled rearing of silkworms (*Bombyx mori*) for silk fiber production. It is the only animal husbandry practice where the output is a continuous filament rather than a staple fiber that must be spun from short lengths. A single cocoon yields 300-900 m of continuous silk thread, and the resulting fiber has a higher strength-to-weight ratio than steel. No other natural material matches silk's combination of tensile strength, fineness, and luster.
@@ -187,17 +199,20 @@ Silk's combination of high strength, low weight, and resistance to sudden loadin
 - **Electrical insulation**: Thin silk paper, layers of flattened silk thread bonded with shellac or varnish, insulates transformer windings and motor coils. Silk paper has higher dielectric strength than cotton and can be made thinner. This application persists in some high-voltage equipment.
 - **Sericin byproduct**: Recovered from degumming liquor by precipitation with alcohol or acid. Used as an adhesive, coating, and cosmetic ingredient.
 
-## Cross-Domain Links
+### Troubleshooting
 
-| Domain | Connection |
-|--------|------------|
-| [Fiber Processing](../textiles/fibers.md) | Silk thread is woven and knitted using the same looms and techniques as other fibers; throwing and plying silk for different fabric weights |
-| [Dyeing](../textiles/dyeing.md) | Silk's protein fiber accepts acid dyes, natural dyes (indigo, madder, weld), and metallic mordants with exceptional brilliance and fastness |
-| [Medicine](../health/medicine.md) | Silk sutures for wound closure; silk's biocompatibility for surgical applications |
-| [Beekeeping](beekeeping.md) | Complementary small-scale animal husbandry; shared infrastructure for climate-controlled enclosures |
-| [Draft Power](draft-power.md) | Animal-powered mills can drive silk throwing and twisting machinery |
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Silkworms dying in early instars | Temperature too low (<20°C) or contaminated mulberry leaves | Maintain 25-28°C; wash leaves and pat dry; remove pesticide-exposed leaves |
+| Larvae refusing to eat | Leaves too old, wilted, or wet | Feed fresh young leaves; pat dry after washing; harvest leaves morning and evening |
+| Grasserie (silkworm disease) | Viral infection (*Bombyx mori* nucleopolyhedrovirus) from overcrowding or poor hygiene | Remove infected larvae immediately; disinfect trays with formalin or bleach; reduce density |
+| Flacherie (flaccid larvae) | Bacterial infection from poor ventilation or wet conditions | Improve airflow; reduce humidity to 70-80%; remove dead larvae; disinfect |
+| Poor cocoon quality (thin, misshapen) | Inadequate nutrition in 5th instar or temperature fluctuation | Increase feeding frequency in final instar; stabilize temperature to ±1°C |
+| Cocoons won't reel (broken filaments) | Pupal emergence (moth hatched) or cocoons stored too long | Stifle cocoons within 7 days of spinning; store dried cocoons in sealed containers |
+| Thread breaks frequently during reeling | Water too cool (<90°C), filament tension too high, or poor-quality cocoons | Maintain basin at 95-100°C; adjust reel tension; grade cocoons before reeling |
+| Yellowed or discolored silk | Incomplete degumming or iron-contaminated water | Extend degumming time; use soft water; avoid iron vessels |
 
-## Safety
+### Safety
 
 - **Inhalation of cocoon debris**: Cocoon floss, dust, and frass become airborne during sorting and stifling. Prolonged inhalation causes respiratory irritation and allergic reactions. Work in ventilated spaces. Wear a cloth mask over nose and mouth when handling large quantities of dry cocoons.
 - **Hot water burns during reeling**: The reeling basin holds water at 95-100°C. Hands and forearms pass near the surface repeatedly. Burns from splashing or accidental immersion are the most common reeling injury. Use long tongs or bamboo sticks to handle cocoons in the basin. Keep a bucket of cool water nearby for immediate first aid.
@@ -205,6 +220,15 @@ Silk's combination of high strength, low weight, and resistance to sudden loadin
 - **Steam exposure during stifling**: Steam at 100°C causes scalds faster than hot water. Use tongs or thick gloves when loading and unloading steaming racks. Do not lean over the steam source.
 - **Dermestid beetles and stored cocoons**: Dried cocoons stored for extended periods attract dermestid beetles, which bore through the cocoon wall and consume the pupal remains. Infested cocoons cannot be reeled for quality silk. Store dried cocoons in sealed containers or bags, and inspect regularly for signs of insect damage.
 
----
+### See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+- [Animal Domestication](domestication.md) — principles of captive animal management
+- [Fiber Processing](../textiles/fibers.md) — silk thread weaving and knitting techniques
+- [Dyeing](../textiles/dyeing.md) — silk's exceptional dye affinity and color brilliance
+- [Beekeeping](beekeeping.md) — complementary small-scale animal husbandry
+- [Draft Power](draft-power.md) — animal-powered mills for silk throwing machinery
+- [Medicine](../health/medicine.md) — silk sutures and biocompatibility
+- [Plants / Edible Plants](../plants/edible-plants.md) — mulberry tree cultivation
+- [Shellac](../polymers/shellac.md) — combined with silk paper for electrical insulation
+
+[← Back to Animals](index.md)

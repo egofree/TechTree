@@ -8,15 +8,19 @@
 > **Outputs**: coinage, standardized_units_of_account, price_signals
 > **Critical**: No
 
----
-
-## 1. Overview
+## Problem
 
 Currency is a standardized medium of exchange that solves the fundamental limitation of [barter](./trade.md): the double-coincidence problem. Instead of requiring two parties who simultaneously want each other's goods, currency introduces a universally accepted intermediary — money — that any party will accept because they know they can use it to buy what they need later.
 
 Currency serves three functions simultaneously: medium of exchange (accepted for all transactions), unit of account (prices expressed in standard units), and store of value (holds purchasing power over time). Early commodity monies (grain, cattle, salt) served all three functions poorly — grain rots, cattle die, salt dissolves. Metal coinage, introduced once [metallurgy](../metals/index.md) provides reliable copper, silver, and gold, solves all three functions simultaneously: durable, divisible, portable, and intrinsically valuable.
 
 The development of currency requires [metals](../metals/index.md) for producing coinage and [precision metrology](../measurement/precision-metrology.md) for standardized weights that ensure coins contain consistent metal content. Without standardized weights, coins cannot be trusted — and untrusted coinage fails as money.
+
+## Prerequisites
+
+- [Metals](../metals/index.md) — source of coinage metal (copper, silver, gold)
+- [Precision Metrology](../measurement/precision-metrology.md) — standardized weights for coin quality
+- [Trade & Barter](./trade.md) — the exchange system currency enhances
 
 ---
 
@@ -220,9 +224,18 @@ The development of currency requires [metals](../metals/index.md) for producing 
 | Silver coinage | High | High | High | Moderate (purity check) | Low-Moderate | 2,000+ |
 | Paper money (representative) | Low | High | Very high | High (issuer solvency) | High (over-issuance) | 10,000+ |
 
----
+## Troubleshooting
 
-## 11. References
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Coins clipped or shaved | People removing metal from edges for profit | Mint coins with reeded (grooved) edges; weigh coins at point of acceptance; impose severe penalties for clipping |
+| Counterfeit coins in circulation | Base metal core with precious metal coating | Test with touchstone (streak color reveals alloy); weigh each coin; train merchants in detection |
+| Gresham's Law (bad money driving out good) | Debased coins circulating at same face value as pure | Separate coin values by weight/purity; refuse debased coins; periodically recall and remint |
+| Paper money losing value (inflation) | Issuer printing more notes than goods available | Back currency with metal reserves; limit issuance to reserves; maintain convertibility |
+| Refusal to accept distant coins | No trust in unfamiliar mint or ruler | Establish weight-and-purity standards recognized across settlements; use assayer marks |
+| Coin shortage (insufficient money supply) | Not enough precious metal for coinage | Issue token coinage (copper with face value above metal value); use paper notes for large transactions |
+
+## See Also
 
 - [Metals](../metals/index.md) — the source of coinage metal
 - [Precision Metrology](../measurement/precision-metrology.md) — standardized weights for coin quality
@@ -230,6 +243,4 @@ The development of currency requires [metals](../metals/index.md) for producing 
 - [Accounting](./accounting.md) — the record-keeping system that currency enables
 - [Division of Labor](./division-of-labor.md) — specialization creates the economic complexity that demands currency
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*
+[← Back to Economics & Organization](index.md)

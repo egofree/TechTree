@@ -3,12 +3,14 @@
 > **Node ID**: energy.fuels.coal
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), [`energy.fuels`](fuels.md), `mining`
-> **Enables**: None (leaf capability)
+> **Enables**: [`energy.steam-power`](steam-power.md), [`energy.coke`](coke.md), [`metals.steelmaking`](../metals/steelmaking.md)
 > **Timeline**: Years 15-25
 > **Outputs**: coal
 > **Critical**: No — coal supplements charcoal and enables steam power, but charcoal and wood can substitute where coal is unavailable
 
-### Coal Types & Properties
+Coal is the highest-energy solid fuel available to a bootstrapping civilization, with bituminous grades at 25-35 MJ/kg and anthracite at 35+ MJ/kg — roughly 2-3× the energy density of dry firewood. Coal enabled the Industrial Revolution: it fired steam boilers, produced metallurgical coke for steelmaking, and powered gas works for city lighting. The key challenge is quality variation — sulfur, ash, and moisture content differ dramatically between seams, and the wrong coal grade can contaminate iron or foul boilers.
+
+## Coal Types & Properties
 
 **Strengths**:
 - Highest energy density of any solid fuel (bituminous: 25-35 MJ/kg, anthracite: 35+ MJ/kg)
@@ -226,15 +228,25 @@ Coal is the foundational fossil fuel of industrial civilization. It provides the
 - **Transportation cost**: Coal is bulky (700-900 kg/m³). Transport cost often exceeds mining cost for distances over 100 km, favoring mine-mouth power plants.
 - **Ash disposal**: 5-12% ash by weight means a 1000 MW coal plant produces 200,000-500,000 tonnes of ash per year, requiring disposal or utilization (cement additive, road base).
 
-### See Also
+## Troubleshooting
 
-- [Coke Production](coke.md) — Coal processing for metallurgical coke
-- [Steam Power](steam-power.md) — Coal-fired boilers and steam engines
-- [Steam Turbines](steam-turbines.md) — Coal-fired power generation
-- [Charcoal](charcoal.md) — Renewable alternative to coal for some applications
-- [Fuels](fuels.md) — Comparative fuel properties
-- [Cement Production](../chemistry/cement.md) — Major industrial coal consumer
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Boiler fouling (ash buildup on tubes) | High-ash coal or insufficient soot blowing | Increase soot blower frequency; switch to lower-ash coal; schedule periodic water wash |
+| Clinker formation (hard ash masses on grate) | Low ash melting point (high-iron or high-alkali coal) | Reduce combustion temperature; mix with higher-melting-point coal; break up clinkers regularly |
+- Sulfur contamination in smelting | Coal sulfur >1% contaminating iron | Switch to low-sulfur coal; pre-wash coal; use coke instead of raw coal for smelting |
+| Spontaneous combustion in coal pile | Oxidation of fine coal generating heat | Limit pile height to 3 m; compact pile to reduce air penetration; monitor temperature; rotate stock |
+| Poor combustion (smoky, low heat) | High moisture or insufficient draft | Air-dry coal before burning (minimum 2 weeks under cover); increase draft; avoid wet storage |
+| Coal dust explosion risk | Fine coal particles suspended in air (>50 g/m³) | Keep coal moist during handling; install dust extraction; eliminate ignition sources; use stone dust barriers in mines |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+- [Coke Production](coke.md) — coal processing for metallurgical coke
+- [Steam Power](steam-power.md) — coal-fired boilers and steam engines
+- [Steam Turbines](steam-turbines.md) — coal-fired power generation
+- [Charcoal](charcoal.md) — renewable alternative to coal for some applications
+- [Fuels](fuels.md) — comparative fuel properties
+- [Cement Production](../chemistry/cement.md) — major industrial coal consumer
+- [Iron & Steel](../metals/iron-steel.md) — coal/coke as primary blast furnace fuel
+
+[← Back to Energy](index.md)

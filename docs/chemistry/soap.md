@@ -8,11 +8,19 @@
 > **Outputs**: soap, glycerol, detergent
 > **Critical**: No — soap and detergents improve sanitation but are not prerequisites for core industrial capabilities
 
-### Overview
+### Problem
 
 Saponification — the reaction of fats or oils with alkali — is arguably the oldest chemical reaction performed at industrial scale. Soap has been manufactured for at least 4,500 years (Babylonian clay tablets circa 2800 BCE describe fat + ash mixtures). The chemistry is deceptively simple: triglyceride + alkali → soap salt + glycerol. Yet this reaction underpins hygiene, public health, textile manufacturing, metalworking, and — via glycerol recovery — explosives production.
 
 Beyond hygiene, soap and its derivatives are critical for textile processing (wool scouring, cotton preparation), metal degreasing (before plating, painting, heat treatment), emulsion polymerization (PVC, synthetic rubber), and as feedstock for glycerol recovery (which feeds explosives production via nitroglycerin). Synthetic detergents extend soap's functionality into hard water and acidic conditions where conventional soap precipitates as insoluble calcium salts.
+
+### Prerequisites
+
+- [Alkalis](alkalis.md) — NaOH and KOH production for saponification
+- [Petroleum alternatives](petroleum-alternatives.md) — feedstocks for synthetic detergents
+- [Non-ferrous metals](../metals/non-ferrous.md) — copper and zinc equipment for processing
+- [Animals / fats](../animals/index.md) — tallow and lard as soap feedstocks
+- [Plants / oils](../plants/index.md) — vegetable oils as soap feedstocks
 
 ### Saponification Chemistry
 
@@ -220,6 +228,24 @@ Soap production scales with the alkali supply chain. The progression is:
 4. **[Continuous saponification and industrial finishing](../glossary/continuous-saponification-and-industrial-finishing.md)** (Years 20-30). Continuous reactors, spray drying, soap noodles, and automated bar finishing lines. Throughput: 10-100 tonnes/day. Co-located with fat rendering and glycerol recovery.
 5. **[Synthetic detergents](../glossary/synthetic-detergents.md)** (Years 25-30+). Requires petroleum cracking or Fischer-Tropsch synthesis for linear alkenes (see [Petroleum](petroleum-alternatives.md)), benzene, and SO₃ sulfonation capability. LAS-based detergents replace soap in hard-water regions and industrial applications.
 
----
+### Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Soap not setting (stays liquid) | Insufficient NaOH or too much water | Check lye concentration with hydrometer (target 30-35% NaOH); increase lye amount by 5% |
+| Soap separating (oil layer on top) | Incomplete saponification — lye too weak or temperature too low | Heat to 80-85°C with stirring; verify lye concentration; extend cook time |
+| Soap too harsh (dries skin) | Excess lye (superfat too low) | Increase fat by 5-8% (superfat); check lye weight carefully; re-batch with added fat |
+| Glycerol recovery low | Spent lye not properly settled or salt contamination | Allow 24-48 hours settling; skim soap from surface; distill under vacuum |
+| Detergent powder caking | Moisture absorption during storage | Add sodium sulfate anti-caking agent; improve packaging (plastic-lined bags); store dry |
+| Hard water soap scum | Calcium/magnesium ions precipitating soap | Switch to synthetic detergent (LAS); add chelating agent (EDTA, citric acid) |
+
+## See Also
+
+- [Alkalis](alkalis.md) — NaOH and KOH production
+- [Explosives](explosives.md) — glycerol feeds nitroglycerin production
+- [Petroleum Alternatives](petroleum-alternatives.md) — feedstocks for synthetic detergents
+- [Textiles / Fibers](../textiles/fibers.md) — wool scouring with soap
+- [Occupational Health](../health/occupational-health.md) — hygiene and sanitation
+- [Metal Finishing](../metals/finishing.md) — degreasing before plating and coating
+
+[← Back to Chemistry](index.md)

@@ -12,6 +12,13 @@
 
 Semiconductor fabrication equipment cannot tolerate power interruptions — a power glitch during a crystal growth run or lithography exposure destroys expensive work-in-progress. Energy storage provides buffer capacity, and diversification prevents single-source dependency.
 
+## Prerequisites
+
+- [Chemistry](../chemistry/index.md) — battery chemistry and electrolyte production
+- [Electricity Generation](electricity.md) — generators, motors, transformers, wire
+- [Metals](../metals/index.md) — lead, nickel, iron for battery construction
+- [Rubber](../polymers/rubber.md) — battery case materials and insulation
+
 ## Technologies & Systems
 
 ### Lead-Acid Battery
@@ -219,14 +226,23 @@ Battery charging requires a DC power source matched to the battery bank voltage 
 - **CAES efficiency**: 40-70% round-trip without advanced heat recovery. Significant energy penalty.
 - **Battery room hazards**: Hydrogen gas from charging, sulfuric acid spills, heavy weight on floors — requires purpose-built facilities with ventilation and acid-resistant flooring.
 
-### See Also
+## Troubleshooting
 
-- [Electricity Generation](electricity.md) — Generators, motors, transformers, wire
-- [Pumped Hydro](pumped-hydro.md) — Large-scale pumped storage
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Lead-acid battery won't hold charge | Sulfation from prolonged undercharge | Apply equalization charge (2.4V/cell for 4-6 hours); if severe, replace affected cells; maintain float charge when idle |
+| Battery room hydrogen buildup | Insufficient ventilation during charging | Install hydrogen detector; add forced ventilation (4 air changes/hour minimum); verify vent placement at ceiling level |
+| NiFe battery excessive self-discharge | Normal for NiFe chemistry (20-40%/month) | Use only for daily cycling applications; switch to lead-acid for standby/backup; accept monthly recharge requirement |
+| Pumped hydro declining efficiency | Reservoir leakage or turbine fouling | Inspect upper reservoir lining; clean turbine runner; check penstock for sediment buildup |
+| Flywheel vibration increasing | Bearing wear or rotor imbalance | Monitor vibration spectrum; replace bearings on schedule; check rotor dynamic balance |
+| Battery bank capacity dropping | Cells at different states of charge (imbalance) | Perform equalization charge; test individual cell specific gravity; replace weak cells |
+
+## See Also
+
+- [Electricity Generation](electricity.md) — generators, motors, transformers, wire
+- [Pumped Hydro](pumped-hydro.md) — large-scale pumped storage
 - [Redox Flow Batteries](sem-tech-redox-flow-batteries.md) — SEM Tech membrane-based storage
-- [Cooling Systems](cooling.md) — Industrial refrigeration for battery room temperature control
-- [Electrolysis](../chemistry/electrolysis.md) — Hydrogen production for potential energy storage
+- [Cooling Systems](cooling.md) — industrial refrigeration for battery room temperature control
+- [Electrolysis](../chemistry/electrolysis.md) — hydrogen production for potential energy storage
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+[← Back to Energy](index.md)

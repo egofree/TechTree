@@ -3,7 +3,7 @@
 > **Node ID**: mathematics.applied-mathematics
 > **Domain**: [Mathematics & Formal Sciences](./index.md)
 > **Dependencies**: [`mathematics.core-mathematics`](core-mathematics.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`chemistry`](../chemistry/index.md), [`electronics`](../electronics/index.md), [`computing`](../computing/index.md), [`machine-tools`](../machine-tools/index.md)
 > **Timeline**: Years 15-70
 > **Outputs**: calculus, linear_algebra, differential_equations, probability_theory, statistical_methods, numerical_methods
 > **Critical**: Yes — mathematics is the shared language of quantitative reasoning for all engineering
@@ -11,6 +11,10 @@
 ## Problem
 
 Core mathematics gives engineers algebra and geometry — tools for static, deterministic problems. But the real world is dynamic and uncertain: furnaces heat up over time, chemical reaction rates depend on temperature, manufacturing processes have random variation, and complex systems have dozens of interacting variables. Applied mathematics provides the tools to model continuous change (calculus), handle multi-variable systems (linear algebra), predict dynamic behavior (differential equations), quantify uncertainty (probability and statistics), and compute solutions when analytical methods fail (numerical methods). These capabilities are essential for process engineering, quality control, electronic design, and every discipline that goes beyond simple static analysis.
+
+## Prerequisites
+
+- [Core Mathematics](core-mathematics.md) — algebra, trigonometry, and coordinate geometry
 
 ## Calculus
 
@@ -229,10 +233,24 @@ Replace continuous derivatives with discrete differences: ∂T/∂t ≈ (Tᵢⁿ
 | Probability & statistics | SPC, yield analysis, measurement uncertainty | Year 15-25 — quality control |
 | Numerical methods | Computer-aided engineering, simulation | Year 30-70 — CAD, CAM, FEA, EDA |
 
-## Dependencies
+## Troubleshooting
 
-- **Core mathematics** (`mathematics.core-mathematics`): Algebra, trigonometry, and coordinate geometry are prerequisites for calculus and all subsequent applied topics
-- **Enables**: Process modeling (chemistry), circuit design (electronics), structural analysis (machine tools), quality control (manufacturing), and all numerical computation (computing)
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Numerical solution diverging | Time step too large or unstable integration method | Reduce step size; switch from Euler to Runge-Kutta; check for stiffness (use implicit methods) |
+| Matrix solve giving nonsensical results | Ill-conditioned matrix (near-singular) | Check condition number; use pivoting; reformulate problem to avoid near-degenerate equations |
+| Statistical confidence intervals too wide | Insufficient sample size or high process variance | Increase sample count; check measurement precision; stratify data to reduce within-group variance |
+| Differential equation has no analytical solution | Nonlinear or coupled terms prevent closed-form integration | Use numerical methods (Runge-Kutta, finite difference); linearize around operating point for approximation |
+| Regression model fits poorly | Wrong model form or missing variables | Plot residuals for patterns; try polynomial or log transform; add interaction terms; check for outliers |
+| FEA mesh giving inaccurate stress | Mesh too coarse in high-gradient regions | Refine mesh near stress concentrations; verify convergence by halving element size; check element distortion |
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Mathematics & Formal Sciences](./index.md) • [All Domains](../index.md)*
+## See Also
+
+- [Core Mathematics](core-mathematics.md) — algebra, trigonometry, and coordinate geometry prerequisites
+- [Computing](../computing/index.md) — hardware for numerical computation
+- [Logic Design](../computing/logic-design.md) — Boolean algebra and digital circuit mathematics
+- [Precision Metrology](../measurement/precision-metrology.md) — measurement uncertainty and statistical analysis
+- [Chemistry](../chemistry/index.md) — process modeling with differential equations
+- [Electronics](../electronics/index.md) — circuit analysis with linear algebra and calculus
+
+[← Back to Mathematics & Formal Sciences](index.md)

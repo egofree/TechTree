@@ -1,11 +1,42 @@
 # Advanced Glassblowing
 
 > **Node ID**: glass.advanced-glassblowing
-> **Domain**: Glass
+> **Domain**: [Glass](./index.md)
 > **Dependencies**: [`energy.fuels`](../energy/fuels.md), [`glass.advanced`](advanced.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`measurement.thermostat`](../measurement/thermostat.md) (thermometer capillaries), [`chemistry.electrolysis`](../chemistry/electrolysis.md) (laboratory glassware), [`silicon.wafering`](../silicon/wafering.md) (fused quartz crucibles)
 > **Timeline**: Years 10-20
 > **Outputs**: scientific_glassware, thermometer_tubes, vacuum_enclosures, complex_laboratory_apparatus
+> **Critical**: Yes — precision glass apparatus (thermometers, condensers, vacuum vessels) enables experimental chemistry, physics, and semiconductor manufacturing
+
+## Problem
+
+Basic glass production makes windows, bottles, and simple vessels. But scientific and industrial civilization requires precision glass apparatus — thermometers, distillation columns, vacuum-tight enclosures, optical lenses, and laboratory vessels that survive thermal cycling. These cannot be formed by blowing into a pipe or pressing into a mold. They require borosilicate glass (3× more thermally shock-resistant than soda-lime), lathe-assisted forming for symmetry, and controlled annealing for stress relief. Without precision glassware, there is no experimental chemistry, no temperature measurement beyond crude estimation, no vacuum technology, and no optics beyond simple magnifying glasses.
+
+Without advanced glassblowing: no thermometers (the capillary tube inside a mercury or alcohol thermometer requires drawing glass to 0.1-0.5 mm bore — impossible without precision glassblowing), no distillation apparatus for chemical purification, no vacuum-tight vessels for physics experiments or electronics (vacuum tubes require glass-to-metal seals), no optical lenses for microscopes or telescopes, no laboratory reaction vessels that survive heating and cooling. Each of these capabilities blocks downstream technologies: no precision chemistry → no synthetic materials, no vacuum tubes → no electronics, no optics → no precision measurement.
+
+The dependency chain: advanced glassblowing requires borosilicate glass (which requires boric acid and precise batch chemistry), a glassworking lathe (which requires machine tools), and oxygen-fuel torches (which require gas supply). The first practical borosilicate glass was developed by Otto Schott in 1887 after testing over 100 compositions — the systematic approach matters. Once available, precision glassware unlocks experimental science at every level.
+
+## Prerequisites
+
+- **Materials**: [Borosilicate glass tubing and rod](./advanced.md) (standard sizes: 5-50 mm OD tube, 3-12 mm rod), [oxygen and propane or natural gas](../energy/fuels.md) for torch fuel, [silicon carbide abrasive](../machine-tools/bearings-abrasives.md) (220-1200 grit for grinding joints), [cerium oxide](../mining/processing.md) (for optical polishing), [high-vacuum grease](../chemistry/index.md) (Apiezon type for ground glass seals)
+- **Tools**: [Glassworking lathe](../machine-tools/index.md) (headstock + tailstock, 10-60 RPM, 0.5-2.0 m bed), [surface-mix torch](../machine-tools/index.md) (propane-oxygen, ~2500°C flame), [hand tools](../machine-tools/index.md) (graphite paddles, tweezers, shears, jacks, calipers), [annealing oven](../energy/index.md) (electric, 600-1200°C, programmable controller), [blowhose with mouthpiece](./index.md) for inflating workpieces, [crossed polarizers](./index.md) for stress inspection
+- **Knowledge**: Borosilicate glass thermal properties (CTE 3.3 × 10⁻⁶/°C, annealing point 560°C, strain point 510°C), glass joining techniques (butt seal, ring seal, ground joint taper 1:10), annealing cycle design (hold time based on wall thickness, controlled cooling through strain range), stress analysis with polariscope
+- **Infrastructure**: Ventilated glassblowing workshop (CO from gas torches, metallic fumes from colored glass), oxygen supply (compressed gas cylinders or oxygen concentrator), annealing oven with ±5°C uniformity, padded storage for finished glassware
+
+## Bill of Materials — Glassblowing Workshop Setup (Scientific Apparatus Production)
+
+| Item | Specification | Quantity | Notes |
+|------|--------------|----------|-------|
+| Glassworking lathe | Headstock + tailstock, 10-60 RPM variable, 1 m bed | 1 unit | Enables symmetrical forming; essential for precision work |
+| Surface-mix torch | Propane-oxygen, 2500°C, with needle valves | 1 unit | Hydrogen-oxygen torch (~2800°C) needed for fused quartz |
+| Oxygen supply | Compressed gas cylinders or concentrator (95%+ O₂) | Continuous supply | Propane requires 2-5 bar O₂ pressure at torch |
+| Annealing oven | Electric resistance, 600°C max, ±5°C uniformity, 0.1 m³ chamber | 1 unit | Programmable controller essential for proper annealing cycles |
+| Borosilicate glass tubing | Standard sizes: 8, 12, 19, 25 mm OD, 1 m lengths | Assorted stock | Most common sizes for scientific apparatus |
+| Borosilicate glass rod | 6, 8, 10 mm diameter, 1 m lengths | Assorted stock | For handles, bridges, and structural elements |
+| Hand tool set | Graphite paddles, tweezers, shears, jacks, calipers | 1 set | Minimum: 2 paddles, 1 pair tweezers, 1 pair shears, 1 pair jacks |
+| Blowhose assembly | Rubber hose + mouthpiece + rubber stoppers | 1 unit | Allows inflating workpiece while both hands work tools |
+| Didymium safety glasses | Shade 3-5, sodium flare filter | Per worker | Non-negotiable — sodium flare causes eye damage without filters |
+| Silicon carbide abrasive | 220, 400, 600, 1200 grit | 1 kg each | For grinding ground glass joints to precision taper |
 
 ## Overview
 
@@ -187,17 +218,35 @@ Glassblowing as a craft dates to ~1500 BCE (Egyptian core-formed glass). Free-bl
 
 **Resizing tubes**: Heat a section of tube in the lathe and either stretch (to reduce diameter) or compress (to increase diameter) while rotating. Diameter change: up to 30% reduction by stretching; wall thickness decreases proportionally. For greater changes, use a series of step-down seals (join progressively smaller/larger tube sections).
 
-## Cross-Domain Links
+## Troubleshooting — Glassblowing Problems
 
-- **[Basic Glass Production](basic.md)**: raw glass batch melting and primary forming
-- **[Glass Fibers](fibers.md)**: fiberglass, glass wool, and optical fiber production
-- **[Electronics Assembly](../electronics/assembly.md)**: glass substrates for PCB and display manufacturing
-- **[Vacuum Systems](../vlsi-scaling/vacuum-systems.md)**: glass vacuum envelopes and bell jars
-- **[Wafer Production](../silicon/wafering.md)**: fused silica crucibles for CZ crystal pulling
-- **[Glassworking](../glass/basic.md)**: specific apparatus designs for chemical processing
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Glass cracking during annealing | Inadequate hold time at annealing point; cooling too fast through strain range; uneven wall thickness causing thermal gradients | Increase hold time to 5 min/mm of wall thickness; cool at 2-5°C/min through strain point; design pieces with uniform wall thickness |
+| Joint leaks (ground glass seals) | Insufficient lapping; scratched joint surface; wrong grease | Re-lap with 600 grit SiC slurry until 80-90% contact (methylene blue test); replace scratched joints; apply vacuum grease in thin, even film |
+| Tube cracking at seal points | CTE mismatch between joined glasses; stress from uneven heating during seal; insufficient annealing after sealing | Use only same-type glass for joins (never mix borosilicate with soda-lime); heat joint uniformly while rotating; full anneal cycle after every seal |
+| Bubbles in blown vessels | Air trapped during gathering; moisture in glass batch; insufficient melting time | Pre-heat tube ends before joining to drive off moisture; work glass longer in flame to allow bubbles to rise; avoid reusing contaminated glass |
+| Capillary tube bore blocked | Mandrel dissolved unevenly; glass collapsed onto mandrel during drawing; acid dissolution incomplete | Use smooth, straight mandrel with release agent; maintain steady draw speed; extend acid soak time for mandrel removal |
+| Vacuum leak in apparatus | Micro-crack at seal; incomplete ground joint; cracked stopcock barrel | Pressure test with 0.5-1.0 bar air underwater — bubbles reveal leak location; replace cracked components; re-lap leaking joints |
+| Devitrification (crystallization) on glass surface | Glass held at high temperature too long; contaminated glass surface; wrong glass composition | Minimize time at working temperature; clean glass surface before heating; use fresh borosilicate stock (recycled glass devitrifies faster) |
+| Thermal shock cracking during use | Glass heated or cooled too rapidly; borosilicate exceeds 150°C differential; existing stress from poor annealing | Heat and cool gradually (≤5°C/min for thick walls); never exceed 150°C differential for borosilicate; verify annealing quality with polariscope before use |
+| Chipped edges on cut tubes | Score line not continuous; wrong snapping technique; tube not supported properly | Score in one continuous stroke with tungsten carbide cutter; snap with thumbs below, fingers above in one clean motion; support tube on both sides of score |
+| Colored fringes visible in polariscope (excess stress) | Insufficient annealing; cooling too rapid; complex geometry trapping stress | Re-anneal: heat to 560°C, hold 5 min/mm wall thickness, cool at 2°C/min to 510°C, then 10°C/min to room temperature; reject if stress remains >20 nm/cm |
+
+## See Also
+
+- [Basic Glass Production](basic.md) — raw glass batch melting and primary forming
+- [Advanced Glass](advanced.md) — borosilicate and specialty glass compositions
+- [Glass Fibers](fibers.md) — fiberglass, glass wool, and optical fiber production
+- [Kiln Firing](../ceramics/kiln-firing.md) — annealing ovens and temperature control
+- [Electronics Assembly](../electronics/assembly.md) — glass substrates for PCB and display manufacturing
+- [Vacuum Systems](../vlsi-scaling/vacuum-systems.md) — glass vacuum envelopes and bell jars
+- [Wafer Production](../silicon/wafering.md) — fused silica crucibles for CZ crystal pulling
+- [Measurement: Thermostat](../measurement/thermostat.md) — thermometer construction using glass capillaries
+- [Chemistry: Electrolysis](../chemistry/electrolysis.md) — laboratory glassware for electrochemistry
+- [Machine Tools: Machining](../machine-tools/machining.md) — lathes and precision tooling
+- [Energy: Fuels](../energy/fuels.md) — propane, natural gas, and oxygen supply
 
 ---
 
-*Part of the [Glass Domain](index.md) · [All Domains](../index.md)*
-
-[← Back to Glass](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*

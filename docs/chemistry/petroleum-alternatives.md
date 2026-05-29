@@ -12,6 +12,14 @@
 
 Organic chemistry feedstocks fuel the entire materials chain: solvents for semiconductor processing, polymers for packaging and cleanrooms, fuels for transport and furnaces. Without them, the chemical industry stalls at inorganic bulk chemicals. The good news is that there are two independent paths to these molecules. Petroleum is the fast lane; coal tar and fermentation are the reliable fallback.
 
+### Prerequisites
+
+- [Basic tools](../foundations/tools-basic.md) — drilling equipment, retorts, and processing vessels
+- [Distillation](distillation.md) — fractional distillation of crude oil, coal tar, and wood vinegar
+- [Fermentation](fermentation.md) — ethanol and other bio-based feedstocks
+- [Iron and steel](../metals/iron-steel.md) — drilling bits, retort construction, catalyst supports
+- [Coal production](../energy/fuels.md) — coal feedstock for gasification and tar distillation
+
 ## Technologies & Systems
 
 ### Petroleum Extraction
@@ -204,6 +212,29 @@ Raw natural gas contains methane (70-90%), ethane, propane, butane, CO₂, H₂S
 
 **Destructive Distillation of Wood**: Heating hardwood (oak, beech) in a retort at 400-500C without air produces charcoal (25-35% yield), wood tar (15-20%, contains creosote, acetic acid, methanol), pyroligneous acid (wood vinegar: 5-10% acetic acid, 2-3% methanol, 0.5-1% acetone), and wood gas (CO, H2, CH4, CO2 — calorific value 5-10 MJ/m3). Acetic acid from wood vinegar was the primary source before synthetic routes via methanol carbonylation. Methanol ("wood alcohol") was produced this way until the 1920s when catalytic synthesis from syngas became dominant. The charcoal is suitable for metallurgy; the creosote from tar is used as wood preservative (railroad ties, utility poles, 20-30 year service life).
 
----
+### Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Low oil yield from well | Formation pressure depleted or sand clogging screen | Install pump jack; clear screen with bailer; consider secondary recovery (water injection) |
+| Crude oil high in sulfur (sour) | Natural formation composition | Desulfurize via hydrodesulfurization (H₂ + CoMo catalyst, 300-400°C); or accept lower-value products |
+| Fischer-Tropsch catalyst deactivation | Sulfur poisoning or carbon deposition (coking) | Clean syngas to <0.1 ppm S; regenerate catalyst by controlled air burn at 500°C |
+| Biomass gasifier tar blockage | Insufficient tar cracking temperature | Increase gasifier temperature to 800-900°C; add dolomite or Ni catalyst for tar cracking |
+| Biodiesel gelling in cold weather | High pour point of feedstock oil | Blend with petroleum diesel; use cold-flow additives; switch to low-pour-point feedstock (canola) |
+| Wood distillation low methanol yield | Temperature too high (>550°C) or hardwood species low in lignin | Control retort to 400-500°C; use oak or beech (higher methanol yield than softwoods) |
+| Syngas H₂:CO ratio wrong for FT catalyst | Feedstock mismatch or gasifier conditions off | Adjust steam:oxygen ratio; use water-gas shift reactor to tune ratio; match to catalyst (Co: 2.0-2.1, Fe: 1.5-1.8) |
+
+### See Also
+
+- [Distillation](distillation.md) — fractional distillation for separating crude oil fractions
+- [Fermentation](fermentation.md) — ethanol and biochemical production
+- [Coatings](coatings.md) — paint, varnish, and protective coatings from petroleum feedstocks
+- [Lubricants](lubricants.md) — mineral oil lubricants from refined petroleum
+- [Solvents](solvents.md) — organic solvents derived from petroleum and coal tar
+- [Wood Gasification](wood-gasification.md) — producer gas for power and heat
+- [Soap](soap.md) — alkali chemistry and fat saponification
+- [Synthetic Polymers](../polymers/synthetic.md) — petrochemical feedstocks for plastics
+- [Fuels](../energy/fuels.md) — solid, liquid, and gaseous fuels
+- [Transport / Aviation](../transport/aviation.md) — aviation fuel requirements
+
+[← Back to Chemistry](index.md)

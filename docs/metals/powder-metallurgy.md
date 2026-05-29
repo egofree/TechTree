@@ -22,7 +22,7 @@ The technology chain runs from powder production → blending → compaction →
 - [Machine tools](../machine-tools/index.md) — post-sintering machining and grinding
 - [Metallurgy fundamentals](index.md) — metal properties and processing concepts
 
-### Powder Production
+## Powder Production
 
 Every PM process begins with metal powder, and powder characteristics — particle size, shape, size distribution, chemistry, flowability, and apparent density — determine final part quality. The major production routes produce powders with fundamentally different morphologies:
 
@@ -64,7 +64,7 @@ Every PM process begins with metal powder, and powder characteristics — partic
 - Produces extremely fine (1-10 µm), high-purity (>99.5%) spherical powder. Carbonyl iron powder (CIP) is used in MIM feedstock, high-frequency magnetic cores, and microwave-absorbing materials.
 - Carbonyl nickel (Ni(CO)₄, Mond process): Ni + 4CO → Ni(CO)₄ at 50-80°C, decompose at 200-250°C. Nickel carbonyl is extremely toxic (TLV 0.001 ppm) — the process requires sealed equipment with continuous CO monitoring and thermal afterburners on exhaust.
 
-### Tungsten and Refractory Metals
+## Tungsten and Refractory Metals
 
 Tungsten's melting point (3422°C, highest of all metals) makes conventional melting impossible — no practical crucible material exists above ~3000°C, and the energy requirements for sustained temperatures above 3000°C are extreme. Instead, tungsten is processed entirely by powder metallurgy: compact the hydrogen-reduced powder, then sinter at temperatures approaching but below the melting point.
 
@@ -86,7 +86,7 @@ Tungsten's melting point (3422°C, highest of all metals) makes conventional mel
 - TZM alloy (Mo-0.5%Ti-0.08%Zr-0.02%C): Titanium and zirconium carbide dispersion strengthens molybdenum to 1100-1300°C. Recrystallization temperature raised from ~1000°C (pure Mo) to ~1400°C (TZM). Used for furnace hardware, die-casting cores, and aerospace structural components at 800-1200°C.
 - Applications: Glass melting electrodes (Mo resists molten glass corrosion at 1400-1600°C), X-ray tube targets (Mo target for mammography at 17-20 keV characteristic X-rays), heat sinks, and support structures in power electronics.
 
-### Cemented Carbides
+## Cemented Carbides
 
 Cemented carbides (hardmetals) are composite materials consisting of tungsten carbide (WC) particles bonded with a ductile metal matrix, typically cobalt. They combine extreme hardness (1500-2000 HV30) with useful fracture toughness (8-15 MPa√m) — a combination impossible in single-phase ceramics or metals. The cemented carbide industry consumes ~50,000 tonnes of tungsten annually (50-60% of global tungsten demand).
 
@@ -104,7 +104,7 @@ Cemented carbides (hardmetals) are composite materials consisting of tungsten ca
 - **[Al₂O₃](../glossary/alo.md)** (aluminum oxide): CVD coating, 3-10 µm. Thermal barrier — low thermal conductivity protects the substrate from cutting heat. Temperature capability >1000°C. Applied in multilayer CVD: TiC base layer (adhesion) + Al₂O₃ (thermal barrier) + TiN top layer (friction reduction).
 - **[DLC](../glossary/dlc.md)** (diamond-like carbon): PVD or PACVD, 1-3 µm. Hardness 2000-5000 HV. Extremely low friction coefficient (0.05-0.15). Used for non-ferrous machining (aluminum, copper) where carbon does not dissolve into the workpiece.
 
-### PM Structural Parts
+## PM Structural Parts
 
 Conventional press-and-sinter PM produces net-shape or near-net-shape structural components from iron, steel, copper, and aluminum powders at high volume and low cost. The global PM structural parts market exceeds $30 billion annually, dominated by automotive components (60-70% of production).
 
@@ -122,7 +122,7 @@ Conventional press-and-sinter PM produces net-shape or near-net-shape structural
 - Bronze bushings (88-90% Cu, 10-12% Sn): Compact at 150-300 MPa, sinter at 780-830°C in H₂/N₂. Oil-impregnated bearings with 20-30% interconnected porosity. PV limit: 1.5-2.0 MPa·m/s. Self-lubricating — oil seeps from pores under load and is re-absorbed when load is removed.
 - Copper-graphite electrical contacts: Cu + 5-50% graphite. Low contact resistance with self-lubricating graphite phase. Used in motor brushes, slip rings, and switches.
 
-### Metal Injection Molding (MIM)
+## Metal Injection Molding (MIM)
 
 MIM combines the shape complexity of plastic injection molding with the material performance of powder metallurgy. It produces small (0.1-200 g), complex metal parts in volumes of 10,000 to several million units per year — the niche where casting is too imprecise and machining is too expensive.
 
@@ -138,7 +138,7 @@ MIM combines the shape complexity of plastic injection molding with the material
 - **MIM-4140 chrome-moly steel**: Sinter at 1260-1300°C. Heat treatable to HRC 28-50. UTS up to 1500 MPa after quench and temper.
 - Dimensional tolerances: ±0.3-0.5% of dimension (±0.05 mm per 10 mm). Better than investment casting, worse than machining. Critical dimensions can be sized (coined) post-sinter.
 
-### Hot Isostatic Pressing (HIP)
+## Hot Isostatic Pressing (HIP)
 
 HIP applies simultaneous high temperature and high isostatic pressure (via inert gas, usually argon) to eliminate internal porosity and achieve full density in metal parts. The process exploits plastic yield under hydrostatic pressure: at sufficient pressure and temperature, pores collapse as the surrounding metal yields and diffuses to fill the void.
 
@@ -154,7 +154,7 @@ HIP applies simultaneous high temperature and high isostatic pressure (via inert
 - **PM tool steels**: Gas-atomized tool steel powder (M2, M4, T15, CPM 10V) sealed in steel cans, HIPped at 1100-1200°C, 150 MPa for 4-6 hours. Produces fully dense billets with ultra-fine, uniformly distributed carbide microstructure (carbide size 1-5 µm vs. 10-30 µm in conventional ingot tool steel). Superior wear resistance and toughness — used for cold forming dies, powder compaction tooling, and high-performance cutting tools.
 - **Diffusion bonding**: HIP can diffusion-bond dissimilar metals (e.g., Ti-to-stainless, Cu-to-Al) across prepared interfaces under pressure and temperature, without melting. Joint strength approaches parent metal.
 
-### Additive Manufacturing (AM) of Metals
+## Additive Manufacturing (AM) of Metals
 
 Metal AM builds parts layer-by-layer from digital models, eliminating tooling and enabling geometries impossible by any other process (internal channels, lattice structures, topology-optimized lightweight components). Three mature metal AM processes have industrial relevance:
 
@@ -181,7 +181,7 @@ Metal AM builds parts layer-by-layer from digital models, eliminating tooling an
 - Advantages: No residual stress (no thermal gradients during printing), no support structures needed (unfused powder supports overhangs), fast build rate (100-500 cm³/h), scalable to large parts (build volumes up to 800 × 500 × 400 mm).
 - Disadvantages: Lower density (97-99% vs. >99.5% for PBF), higher surface roughness (Ra 6-15 µm after sintering), and dimensional control limited by sintering shrinkage variability. Best suited for medium-volume production of complex parts where fatigue properties are not critical.
 
-### Self-Propagating High-Temperature Synthesis (SHS)
+## Self-Propagating High-Temperature Synthesis (SHS)
 
 SHS (also called combustion synthesis) exploits highly exothermic powder reactions to synthesize refractory compounds. Once ignited, the reaction front propagates through the powder compact at 1-100 mm/s, reaching temperatures of 2000-4000°C without external heating. The process is fast, energy-efficient (requires no furnace — the reaction provides its own heat), and produces extremely pure products because volatile impurities are vaporized at combustion temperatures.
 
@@ -197,7 +197,7 @@ SHS (also called combustion synthesis) exploits highly exothermic powder reactio
 - **MoSi₂**: Intermetallic with excellent oxidation resistance (forms protective SiO₂ layer at 1000-1700°C). Used as heating elements in high-temperature furnaces (operating temperature up to 1700°C in air — higher than any metallic element). Brittle at room temperature (ductile above ~1000°C).
 - **Cermets**: TiC or Ti(C,N) based composites with Ni-Mo binder. Combustion synthesis produces ultra-fine TiC grain (0.5-2 µm) in a single step. Hardness 1400-1800 HV, toughness 8-12 MPa√m. Used for high-speed finishing of steel — lower coefficient of friction than WC-Co, reducing built-up edge on the cutting tool.
 
-### Safety & Hazards
+## Safety & Hazards
 
 **Metal powder handling**:
 - Fine metal powders (<50 µm) are explosion hazards. Titanium, aluminum, and magnesium powders are pyrophoric (ignite spontaneously in air when suspended as dust clouds). Minimum ignition energy (MIE): Ti powder ~5 mJ, Al powder ~15 mJ — static discharge provides enough energy to ignite. Minimum explosive concentration (MEC): 30-100 g/m³ for most metal powders.

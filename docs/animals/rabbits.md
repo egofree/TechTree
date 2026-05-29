@@ -8,9 +8,14 @@
 > **Outputs**: meat, angora_wool, manure, pelts
 > **Critical**: Yes — fastest path to animal protein with minimal infrastructure
 
-## 1. Overview
+## Problem
 
 Rabbits (*Oryctolagus cuniculus*) are the highest-efficiency terrestrial livestock for converting plant material to meat. A single doe produces 180-300 kg of dressed meat per year through her offspring — more protein output per unit of feed than any other mammal. Rabbits require minimal space (stackable cages), reproduce rapidly (28-31 day gestation, 6-12 kits per litter, 4-6 litters per year), and reach slaughter weight in 10-12 weeks. Angora rabbits produce one of the finest natural fibers (12-16 microns), and rabbit manure is uniquely "cold" — it can be applied directly to growing crops without composting.
+
+### Prerequisites
+
+- [Basic tools](../foundations/tools-basic.md) — wire, wood, and fasteners for cage construction
+- [Food and agriculture](../foundations/food-agriculture.md) — hay, greens, and grain for feed
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
@@ -209,12 +214,23 @@ A 10-doe rabbitry (1 buck) in 15-25 m² produces 300 kg dressed meat per year �
 
 **Guinea pig alternative**: In Andean regions, guinea pigs (*Cavia porcellus*) fill a similar niche at even smaller scale (0.5-1.2 kg adult weight) but with lower individual meat yield.
 
-## 11. Cross-Domain Links
+### Troubleshooting
 
-- [`textiles.fibers`](../textiles/fibers.md) — Angora wool processing, carding, spinning, and blending
-- [`animals.domestication`](domestication.md) — rabbit domestication history and comparative livestock data
-- [`agriculture`](../agriculture/index.md) — rabbit manure application and vermiculture integration
-- [`food-processing`](../food-processing/index.md) — meat preservation methods for rabbit
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Doe not kindling (no litter) | Overweight, too hot, or immature | Reduce feed 2 weeks before breeding; ensure temperature below 28°C; breed at 5-6 months of age |
+| Kit mortality high (first week) | Doe not nursing or nest box inadequate | Check doe has milk (gently squeeze teat); provide clean straw nesting material; protect from drafts |
+| Diarrhea in grow-out rabbits | Enteritis from overfeeding grain or coccidiosis | Reduce grain, increase hay; add oregano or thyme to water; ensure wire floors are clean |
+| Ear mites (head shaking, crusts) | *Psoroptes cuniculi* infestation | Treat with mineral oil in both ears (suffocates mites); repeat in 10 days; clean cage |
+| Heat stress (above 30°C) | Rabbits cannot sweat | Provide frozen water bottles; mist cages; move to underground or shaded area |
+| Wool block (Angora, appetite loss) | Ingested fiber blocking gut | Feed papaya enzyme (breaks down fiber); increase roughage; shear rabbits every 3 months |
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+## See Also
+
+- [Textiles / Fibers](../textiles/fibers.md) — angora wool processing, carding, spinning, and blending
+- [Domestication](domestication.md) — rabbit domestication history and comparative livestock data
+- [Agriculture](../agriculture/index.md) — rabbit manure application and vermiculture integration
+- [Food Processing](../food-processing/index.md) — meat preservation methods for rabbit
+- [Insect Farming](insect-farming.md) — alternative small-scale protein production
+
+[← Back to Animals](index.md)

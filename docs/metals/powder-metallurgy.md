@@ -3,15 +3,24 @@
 > **Node ID**: metals.powder-metallurgy
 > **Domain**: [Metals](./index.md)
 > **Dependencies**: [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md), [`energy.electric-furnaces`](../energy/electric-furnaces.md), [`metals.alloys`](alloys.md)
-> **Enables**: `measurement`
+> **Enables**: [`measurement`](../measurement/index.md), [`semiconductors`](../semiconductors/index.md)
 > **Timeline**: Years 30-60
 > **Outputs**: tungsten products, cemented carbides, PM structural parts, MIM components, additive manufactured parts
+> **Critical**: Yes — tungsten filaments, cemented carbide tooling, and specialty alloys cannot be produced any other way
 
-### Overview
+### Problem
 
 Powder metallurgy (PM) encompasses all processes that form metal components from powdered feedstock rather than molten metal. This distinction is critical because many important metals — tungsten (mp 3422°C), molybdenum (mp 2623°C), tantalum (mp 3017°C) — have melting points so extreme that conventional casting is impractical or impossible. PM also enables near-net-shape manufacturing with minimal material waste (95-98% material utilization vs. 50-70% for machining from billet), compositional freedom (immiscible alloys, graded structures), and microstructural control impossible in ingot metallurgy.
 
 The technology chain runs from powder production → blending → compaction → sintering → post-processing. Each stage is a distinct industrial process with its own equipment, quality parameters, and failure modes. The field has expanded dramatically from simple pressed-and-sintered iron bushings (1920s) to metal injection molded surgical instruments, hot isostatically pressed superalloy turbine disks, and laser-sintered titanium aerospace brackets.
+
+### Prerequisites
+
+- [Alloys](alloys.md) — alloy design, phase diagrams, heat treatment fundamentals
+- [Electric furnaces](../energy/electric-furnaces.md) — sintering temperatures (1100-2500°C)
+- [Hydrogen and silane](../chemistry/hydrogen-silane.md) — reducing atmospheres for sintering
+- [Machine tools](../machine-tools/index.md) — post-sintering machining and grinding
+- [Metallurgy fundamentals](index.md) — metal properties and processing concepts
 
 ### Powder Production
 
@@ -209,6 +218,25 @@ SHS (also called combustion synthesis) exploits highly exothermic powder reactio
 - Nickel carbonyl Ni(CO)₄: Extremely toxic gas (TLV 0.001 ppm). Colorless, volatile (bp 43°C), readily absorbed through lungs and skin. Symptoms: headache, nausea, chest pain at low exposure; pulmonary edema and death at high exposure. Carbonyl nickel plants require continuous air monitoring, sealed process equipment, and thermal destructors on exhaust streams. Emergency response: immediate evacuation, SCBA for rescue, chelation therapy (sodium diethyldithiocarbamate) for exposed personnel.
 - Iron pentacarbonyl Fe(CO)₅: Less toxic than Ni(CO)₄ but still hazardous (TLV 0.1 ppm). Decomposes to fine iron oxide fume — both the carbonyl and decomposition products require exposure control.
 
----
+### Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Sintered part has low density (>15% porosity) | Insufficient compaction pressure or short sinter time | Increase compaction pressure (target 600-800 MPa for iron); extend sinter hold time; verify sintering temperature |
+| Part cracks during sintering | Binder removal too fast, or uneven heating | Slow dewax/burnoff ramp (1-2°C/min through binder decomposition range); ensure uniform furnace temperature |
+| Carbide tool chipping in use | Grain growth during sintering (WC >2 µm) | Reduce sinter temperature/time; add grain growth inhibitors (VC, Cr₃C₂ at 0.3-0.6 wt%); verify Co content |
+| Powder won't flow into die | Irregular particle shape or moisture absorption | Use gas-atomized spherical powder; dry powder before use; add stearate lubricant (0.5-1 wt%) |
+| Excessive shrinkage (>20%) | Green density too low or powder compressibility poor | Increase compaction pressure; use higher-apparent-density powder; recalculate die dimensions for shrinkage allowance |
+| Tungsten part brittle after sintering | Insufficient sinter temperature or contamination | Sinter at ≥2200°C in H₂ atmosphere; check for oxide contamination; verify powder purity (>99.9% W) |
+
+## See Also
+
+- [Alloys](alloys.md) — alloy design, heat treatment, and phase diagrams
+- [Electric furnaces](../energy/electric-furnaces.md) — sintering and heat treatment equipment
+- [Machine tools](../machine-tools/index.md) — post-sintering grinding and machining
+- [Casting](../machine-tools/casting.md) — alternative forming method for lower-melting metals
+- [Copper](copper.md) — conductor materials for electrical applications
+- [Semiconductors](../semiconductors/index.md) — high-purity silicon and germanium production
+- [Measurement](../measurement/index.md) — density, hardness, and dimensional inspection
+
+[← Back to Metals](index.md)

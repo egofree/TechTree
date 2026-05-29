@@ -8,6 +8,36 @@
 > **Outputs**: leather, rawhide, tanned_hides
 > **Critical**: Yes — leather drive belts, gaskets, and protective gear are essential for pre-industrial machinery
 
+## Problem
+
+Before synthetic rubber and plastics, leather was the only flexible, durable, abrasion-resistant sheet material available. It drives factory machinery — leather belts transmit power from steam engines to individual machines. It protects workers — heat-resistant gloves and aprons shield against molten metal and hot surfaces. It carries goods — harness, saddles, and straps are the backbone of animal-drawn transport. It provides footwear — the single most important protective equipment for human labor. No other material combines leather's tensile strength (20-50 MPa), flex endurance (50,000+ cycles), and workability with hand tools.
+
+Without leather: no power transmission belts (every pre-electrical factory runs on leather drive belts — without them, line shaft power cannot reach individual machines), no durable footwear (humans walking 10-20 km/day on rough ground wear out shoes in weeks without leather soles), no watertight gaskets and seals for pumps and engines, no harness for draft animals (no plowing, no cart transport without leather harness), no protective clothing for foundry work and welding, no bookbinding material that lasts centuries, no drum heads or bellows for musical instruments and forge equipment.
+
+Leather production requires livestock (cattle, sheep, goats) for hides, lime (Ca(OH)₂) from limestone for dehairing, and tannins from tree bark or chromium salts for tanning. The process takes 2-8 weeks for vegetable tanning or 1 day for chrome tanning. Each adult cattle hide yields 1.5-3.0 m² of finished leather — enough for one pair of boots or 2-3 drive belts.
+
+## Prerequisites
+
+- **Materials**: [Cattle, sheep, and goat hides](./cattle.md) (25-45 kg fresh per cattle hide, must be processed within 4-6 hours in warm climates), [salt (NaCl)](../chemistry/acids.md) for curing (25-35 kg per cattle hide), [lime (Ca(OH)₂)](../ceramics/lime.md) for dehairing (6-10% on hide weight), [sodium sulfide (Na₂S)](../chemistry/index.md) for unhairing (1.5-3.0% on hide weight), [tannin source](../plants/fiber-plants.md) (oak bark 15-25 kg per cattle hide, or quebracho/mimosa extract), [oils and fats](./animal-materials.md) for fat-liquoring (cod liver oil, neat's-foot oil, or fish oil at 4-10% on leather weight)
+- **Tools**: [Fleshing knife](../machine-tools/index.md) (curved blade, 30-40 cm wide), [fleshing beam](../machine-tools/index.md) (wooden cylinder, 20-30 cm diameter), [tanning pits or drums](./index.md) (stone/concrete pits 2×2×2 m, or wooden drums 1.5-3.0 m diameter), [bark mill](../machine-tools/index.md) (stone or iron rollers for grinding tannin bark), [splitting machine](../machine-tools/machining.md) (band-knife type for splitting hides), [clicker press](../machine-tools/index.md) (hydraulic, 10-30 tonnes, for cutting shapes)
+- **Knowledge**: Collagen chemistry (cross-linking mechanisms for each tanning method), pH management (lime swelling at pH 12-13, deliming to pH 8-9, chrome fixation at pH 3.5-4.0), tannin extraction and concentration measurement (Barkometer degrees), leather grading and defect identification, stitching and edge finishing techniques
+- **Infrastructure**: Water supply (30-50 m³ wastewater per tonne of raw hide — tanneries are water-intensive), lime and chemical storage (dry, ventilated), tanning pits with drainage, drying frames or rooms (30-40°C, good ventilation), wastewater treatment (BOD 2,000-8,000 mg/L requires biological treatment before discharge)
+
+## Bill of Materials — Vegetable Tanning (1 cattle hide, ~2.5 m² finished leather)
+
+| Item | Specification | Quantity | Notes |
+|------|--------------|----------|-------|
+| Fresh cattle hide | 25-45 kg, with hair | 1 hide | Process within 4-6 hours (warm) or 12-24 hours (cool) |
+| Salt (NaCl) | Granular, food grade acceptable | 25-35 kg | For curing; draws moisture from 65% to 40-45% |
+| Lime (Ca(OH)₂) | Hydrated, from [limestone](../ceramics/lime.md) | 2-4 kg | 6-10% on hide weight for dehairing and swelling |
+| Sodium sulfide (Na₂S) | Flakes or granules | 0.5-1.5 kg | 1.5-3.0% on hide weight; dissolves keratin (hair protein) |
+| Oak bark (or other tannin source) | Dried, ground to 5-20 mm chips | 15-25 kg | 8-12% tannin content; alternatives: quebracho (20-30%), mimosa (25-35%) |
+| Ammonium sulfate ((NH₄)₂SO₄) | For deliming | 0.5-1.0 kg | 2-3% on hide weight; neutralizes lime |
+| Bating enzyme (pancreatin) | For scudding | 0.05-0.25 kg | 0.1-0.5% on hide weight; removes non-collagen proteins |
+| Fat-liquor (fish oil emulsion) | Sulfated cod liver oil or synthetic | 0.2-0.5 kg | 4-10% on leather weight; lubricates fibers for flexibility |
+| Water | Clean, 15-20°C for soaking | 1,500-3,000 L | 300-500% of hide weight for soaking; 30-50 m³ total process water |
+| Dye (optional) | Acid or direct dye | 0.05-0.25 kg | 1-5% on leather weight; for colored leather |
+
 ## Overview
 
 Leather — animal hide preserved through tanning — provides durable, flexible material for belts, footwear, harnesses, gaskets, book covers, and protective clothing. Vegetable tanning (tannins from bark) and chrome tanning (dichromate salts) are the primary methods. Leather drive belts were the universal power transmission medium in factories before electricity.
@@ -111,6 +141,21 @@ Leather — animal hide preserved through tanning — provides durable, flexible
 
 **Color fastness**: Measured by ISO 11640 (rub fastness) and ISO 105-B02 (light fastness). Rub fastness: rub a felt pad under 10 N load for 500 cycles — assess color transfer to the pad on a 1-5 grey scale (grade 4 minimum acceptable). Light fastness: expose to xenon arc lamp equivalent to 100 hours of sunlight — assess fading on 1-8 blue wool scale (grade 4 minimum for upholstery, grade 5 for automotive). Vegetable-tanned leather yellows and darkens with UV exposure; chrome-tanned leather is more light-stable.
 
+## Troubleshooting — Leather Production Problems
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Uneven tanning (raw spots in cross-section) | Tanning too rapid (case hardening); insufficient pit progression; hide too thick for drum tanning alone | Use slower pit progression (6-12 pits, 1-3 days each); combine drum and pit tanning (drum for initial uptake, pit for finish); reduce tannin concentration in early pits |
+| Grain cracking on finished leather | Over-liming (excessive swelling damages grain); under-bating (non-collagen proteins remain); drying too fast | Reduce lime to 6-8% on hide weight; extend bating time 15-30 min; dry at 30-40°C with 50-60% RH (not >50°C) |
+| Leather too stiff after tanning | Insufficient fat-liquor; over-tanning (excessive tannin uptake); shaving too thick | Increase fat-liquor to 6-10% on leather weight; reduce tanning time; shave to target thickness (1.0-1.4 mm for garment, 3-5 mm for belting) |
+| Loose grain (grain layer separates from corium) | Bacterial damage before curing; poor fleshing (fat blocks tannin penetration); under-liming | Cure hides within 4-6 hours of slaughter; flesh thoroughly to remove all fat; ensure proper liming (pH 12-13, 12-24 hours) |
+| Chrome spots (green patches) | Uneven chrome penetration; pH too high during basification; insufficient drumming | Reduce basification rate (add NaHCO₃ in smaller increments over 3-4 hours); extend drumming to 8-10 hours; ensure thorough pickling to pH 2.0-3.0 before chrome addition |
+| Mold on tanned leather during storage | High storage humidity (>70% RH); leather not dried to target moisture; contaminated storage area | Dry leather to 12-14% moisture content; store at 18-22°C, 45-55% RH; treat storage area with fungicide; inspect monthly |
+| Color bleeding from dyed leather | Insufficient dye fixation; pH wrong during dyeing; inadequate washing after dyeing | Fix dye at correct pH (5-6 for acid dyes); extend dyeing time to 60 min; wash thoroughly in cold water after dyeing; apply fixative (formic acid 0.5-1.0%) |
+| H₂S gas in dehairing area (rotten egg smell) | Sodium sulfide at low pH releases H₂S gas; deadly at 300-500 ppm | Maintain dehairing bath at pH >9; ventilate work area; install H₂S detector (alarm at 10 ppm); never add acid to sulfide solutions |
+| Hide putrefaction during soaking (slippery, foul smell) | Bacterial growth in warm soak water; insufficient bactericide; soak time too long | Add 0.1-0.5% sodium hypochlorite to soak water; keep water below 20°C; change water every 8-12 hours; reduce soak time to minimum needed for rehydration |
+| Leather shrinks excessively when heated | Incomplete tanning; vegetable-tanned leather exposed to >70°C; chrome-tanned exposed to >100°C | Ensure full tannin penetration (check cross-section); keep vegetable-tanned leather below 60°C in use; switch to chrome tanning if heat resistance is required |
+
 ## Combined Tanning Methods
 
 **Semi-chrome tanning**: First vegetable-tan for 3-5 days to build firmness and body, then re-tan with 2-4% basic chromium sulfate for softness, heat resistance, and dye uniformity. Combines the best properties of both methods — the dense, full hand of vegetable tanning with the thermal stability and color range of chrome tanning. Used for high-quality upholstery leather, boot legs, and equestrian leather.
@@ -188,15 +233,21 @@ Leather — animal hide preserved through tanning — provides durable, flexible
 
 **Brain tanning**: Native American method using animal brains (1-2 brains per deer hide) emulsified in warm water as the tanning agent. Lecithin and other phospholipids in brain tissue lubricate and preserve the collagen fibers. Work the brain emulsion into the dehaired hide by repeated stretching and softening over 2-3 days. Smoke the finished leather over a smoky fire (creosote from smoldering wood fixes the tan and provides water resistance) for 4-8 hours. Produces buckskin — soft, washable, cream-colored suede leather with excellent drape and comfort. Yield: 1-2 m² per deer hide. Labor-intensive (8-16 hours of hands-on work per hide) but requires no purchased chemicals.
 
-## Cross-Domain Links
+## See Also
 
-- **[Iron & Steel](../metals/iron-steel.md)**: tools for fleshing, shaving, and cutting leather
-- **[Chemical Industry](../chemistry/index.md)**: tanning chemicals (chromium sulfate, sodium sulfide, formic acid)
-- **[Machine Tools](../machine-tools/index.md)**: splitting machines, shaving machines, embossing presses
-- **[Machine Tools](../machine-tools/machining.md)**: leather drive belts for factory power systems
-- **[Food & Agriculture](../foundations/food-agriculture.md)**: livestock production as the source of hides
-- **[Textiles](../textiles/fibers.md)**: complementary fiber-based materials
-- **[Animal-Derived Materials](animal-materials.md)**: overview of all animal-derived materials including leather tanning basics
+- [Animal-Derived Materials](animal-materials.md) — overview of all animal-derived materials including tallow, horn, bone, sinew
+- [Cattle](cattle.md) — primary source of hides for leather production
+- [Sheep](sheep.md) — sheepskin for garment leather and parchment
+- [Goats](goats.md) — goatskin for fine leather and bookbinding
+- [Lime](../ceramics/lime.md) — calcium hydroxide for dehairing
+- [Chemical Industry](../chemistry/index.md) — tanning chemicals (chromium sulfate, sodium sulfide, formic acid)
+- [Machine Tools](../machine-tools/machining.md) — leather drive belts for factory power systems
+- [Machine Tools](../machine-tools/index.md) — splitting, shaving, and embossing machinery
+- [Iron & Steel](../metals/iron-steel.md) — tools for fleshing, cutting, and working leather
+- [Textiles: Fibers](../textiles/fibers.md) — complementary fiber-based materials
+- [Food & Agriculture](../foundations/food-agriculture.md) — livestock production as the source of hides
+- [Knowledge: Writing](../knowledge/writing.md) — parchment and vellum for manuscripts
+- [Energy: Steam Power](../energy/steam-power.md) — leather belts for power transmission from steam engines
 
 ---
 

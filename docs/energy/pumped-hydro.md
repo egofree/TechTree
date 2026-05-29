@@ -3,12 +3,22 @@
 > **Node ID**: energy.storage.pumped-hydro
 > **Domain**: [Energy](./index.md)
 > **Dependencies**: [`energy.electricity`](electricity.md), [`energy.gravity`](gravity.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`energy.electricity.power-systems`](electricity.md), [`energy.wind`](wind.md)
 > **Timeline**: Years 25-40
 > **Outputs**: grid_storage, peak_shaving, frequency_regulation
 > **Critical**: No — pumped hydro is the most efficient large-scale storage technology but is geographically limited to sites with suitable elevation difference
 
-### Overview
+## Problem
+
+Pumped hydroelectric storage is the oldest and most proven large-scale energy storage technology: pump water uphill when electricity is cheap, release it through turbines when demand peaks. Round-trip efficiency of 70-85% and 50-100+ year operational lifetime make it the benchmark against which all other storage technologies are measured. The challenge is finding suitable geography — two reservoirs separated by 100-1000+ meters of elevation — and building the massive civil engineering infrastructure required.
+
+## Prerequisites
+
+- [Electricity Generation](electricity.md) — grid infrastructure and motor/generator technology
+- [Gravity Systems](gravity.md) — gravity-based power principles
+- [Water Turbines](water-turbines.md) — reversible pump-turbine design
+
+### Strengths and Weaknesses
 
 **Strengths**:
 - Round-trip efficiency 70-85% — the most efficient large-scale energy storage technology
@@ -219,15 +229,24 @@ Pumped hydro storage has a large physical footprint and several environmental im
 - **Environmental impact**: Upper reservoir construction often involves significant land disturbance. Pumping/generation affects downstream flow regimes.
 - **Minimum economic scale**: Pumped hydro is cost-effective only at large scale (>100 MW). Small installations have unfavorable economics compared to battery storage.
 
-### See Also
+## Troubleshooting
 
-- [Water Turbines](water-turbines.md) — Turbine types used in pumped hydro
-- [Energy Storage](storage.md) — Overview of storage technologies
-- [Electricity Generation](electricity.md) — Grid integration of storage
-- [Wind Power](wind.md) — Intermittent generation complemented by pumped hydro
-- [Redox Flow Batteries](sem-tech-redox-flow-batteries.md) — Alternative grid-scale storage
-- [Gravity Power](gravity.md) — Other gravity-based energy storage
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Round-trip efficiency below 70% | Turbine wear or excessive friction losses in penstock | Inspect turbine runner for cavitation damage; check penstock for scale buildup; verify gate valve sealing |
+| Upper reservoir losing water | Seepage through reservoir lining or excessive evaporation | Inspect lining for cracks; install geomembrane liner; add make-up water system; consider floating cover for evaporation |
+| Pump-turbine cavitation damage | Operating at low head or part-load conditions | Avoid operating below minimum head; install cavitation-resistant runner coating; adjust operating range |
+| Penstock pressure surges | Rapid valve closure causing water hammer | Install surge tank or surge chamber; program slower valve actuation; verify air vent function |
+| Generator overheating during peak generation | Prolonged overload or inadequate cooling | Monitor winding temperature; verify cooling water flow; limit generation to rated capacity |
+| Reservoir sediment accumulation | Erosion in upper catchment or tunnel debris | Install debris rack at tunnel intake; periodic sediment survey; dredge upper reservoir as needed |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+- [Water Turbines](water-turbines.md) — turbine types used in pumped hydro
+- [Energy Storage](storage.md) — overview of storage technologies
+- [Electricity Generation](electricity.md) — grid integration of storage
+- [Wind Power](wind.md) — intermittent generation complemented by pumped hydro
+- [Redox Flow Batteries](sem-tech-redox-flow-batteries.md) — alternative grid-scale storage
+- [Gravity Power](gravity.md) — other gravity-based energy storage
+
+[← Back to Energy](index.md)

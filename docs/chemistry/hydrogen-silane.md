@@ -8,6 +8,18 @@
 > **Outputs**: hydrogen, silane, trichlorosilane
 > **Critical**: Yes — silane (SiH₄) is the primary silicon source for semiconductor CVD processes. Trichlorosilane (SiHCl₃) feeds the Siemens polysilicon process. Ultra-pure hydrogen is required for semiconductor fabrication and ammonia synthesis.
 
+### Problem
+
+Semiconductor manufacturing and ammonia synthesis both require ultra-pure hydrogen and silicon-bearing gases. Silane (SiH₄) is the primary silicon source for CVD deposition; trichlorosilane (SiHCl₃) feeds the Siemens polysilicon process. Neither gas occurs naturally — both must be synthesized from metallurgical-grade silicon through multi-step chemical processes with extreme purity requirements (<1 ppb impurities for semiconductor grade). The gases are pyrophoric, toxic, and corrosive, demanding inert-atmosphere handling at every stage.
+
+### Prerequisites
+
+- [Electrolysis](electrolysis.md) — alkaline water electrolysis for hydrogen production
+- [Gas handling](../gas-handling/basic.md) — piping, valves, and inert-atmosphere systems
+- [Silicon purification](../silicon/purification.md) — metallurgical-grade silicon as feedstock
+- [Refractories and furnaces](../energy/electric-furnaces.md) — high-temperature reactors
+- [Chemistry fundamentals](./index.md) — acid-base reactions, distillation, gas laws
+
 ### Hydrogen Production
 
 **Electrolysis of water**:
@@ -213,11 +225,24 @@ For bootstrapping, alkaline electrolysis is the clear choice: proven technology 
 - **Ultra-purification difficulty**: Semiconductor-grade polysilicon requires impurity levels below 1 ppb for most elements (10⁻¹⁰ atomic fraction). Achieving this from metallurgical-grade silicon (98-99% purity) requires multiple chemical conversion and distillation steps. Each step introduces yield loss and contamination risk.
 - **Chlorosilane corrosion**: TCS, DCS, and STC are corrosive and hydrolyze to HCl and silicic acid on contact with moisture. Equipment must be stainless steel 316L (minimum) with welded connections — no threaded fittings. Leaks produce HCl gas, attacking both equipment and personnel.
 
+### Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| H₂ purity below 99.999% | Pd membrane failure or O₂ trace in product | Check Pd membrane integrity; verify catalytic recombination stage; replace desiccant |
+| Silane leak (spontaneous ignition) | Fitting leak or seal failure | Evacuate area; shut supply valve; N₂ purge system; never use flame to detect leaks (use thermal camera) |
+| TCS distillation poor separation | Column flooding or wrong reflux ratio | Reduce boil-up rate; increase reflux ratio; check for water ingress (corrosion source) |
+| Siemens reactor silicon deposits non-uniform | Filament temperature too low or gas flow uneven | Increase filament current (target 1100°C); verify gas inlet distribution; clean reactor walls |
+| Electrolyzer voltage rising | Electrode fouling or membrane degradation | Clean electrodes; replace diaphragm; check KOH concentration (target 25-30%) |
+| Hydrogen embrittlement in steel piping | Carbon steel exposed to high-pressure H₂ | Replace with 304L/316L stainless steel; limit carbon steel to <200°C and low-pressure service |
+
 ## See Also
 
-- **[SEM Tech Water Electrolysis](sem-tech-water-electrolysis.md)**: Green hydrogen production for polysilicon manufacturing
-- **[Dopant and Etch Gases](dopant-etch-gases.md)**: Gas delivery and abatement systems for semiconductor fabs
-- **[Vacuum Systems](../gas-handling/vacuum.md)**: Vacuum technology for CVD deposition
-- **[Electrolysis](electrolysis.md)**: Alkaline water electrolysis for hydrogen production
+- [SEM Tech Water Electrolysis](sem-tech-water-electrolysis.md) — green hydrogen production for polysilicon manufacturing
+- [Dopant and Etch Gases](dopant-etch-gases.md) — gas delivery and abatement systems for semiconductor fabs
+- [Vacuum Systems](../gas-handling/vacuum.md) — vacuum technology for CVD deposition
+- [Electrolysis](electrolysis.md) — alkaline water electrolysis for hydrogen production
+- [Silicon Purification](../silicon/purification.md) — polysilicon production from TCS
+- [Powder Metallurgy](../metals/powder-metallurgy.md) — hydrogen-reduction of metal powders
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+[← Back to Chemistry](index.md)

@@ -8,7 +8,6 @@
 > **Outputs**: water_distribution, irrigation, pressurized_water
 > **Critical**: Yes — without distribution, water procurement and treatment serve only those at the source
 
-## Overview
 
 Transporting water from source to point of use. Once a reliable water source exists (see [Water Procurement](procurement.md)), the next challenge is moving water to where people need it — for drinking, washing, irrigation, and industrial processes. Distribution systems range from simple gravity channels (achievable from Year 0) to pressurized pipe networks (requiring [metallurgy](../metals/index.md) and [pumps](../energy/steam-power.md)).
 
@@ -236,7 +235,7 @@ Storage buffers supply against variable demand and source fluctuations.
 - **Irrigation-specific distribution**: Flood irrigation (30-50% efficiency), furrow irrigation (50-70%), sprinkler systems (70-85%). Agricultural demand exceeds domestic by 10-50×.
 - **Simplified sewerage**: Small-diameter (100 mm) gravity sewer pipes using the same construction techniques. Dual-purpose infrastructure — water supply and sewage collection. See [Sewage Collection](sewage.md).
 
-## References
+## See Also
 
 - [Water Procurement](procurement.md) — must have water before distributing it
 - [Chemistry: Cement & Concrete](../chemistry/cement.md) — for reservoir and aqueduct construction

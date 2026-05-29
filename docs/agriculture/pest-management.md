@@ -8,7 +8,6 @@
 > **Outputs**: crop_protection, pest_control_methods, beneficial_habitat
 > **Critical**: No — crop losses to pests are significant (10-40%) but rarely cause total civilization-level failure
 
-## Overview
 
 Pest management is the practice of preventing, reducing, or controlling damage to crops caused by insects, pathogens, weeds, birds, and mammals. In a bootstrapping civilization without synthetic pesticides, pest management relies on biological knowledge, physical barriers, cultural practices, and targeted use of naturally occurring substances. The goal is not pest elimination — that is neither achievable nor desirable — but keeping pest populations below economic threshold levels where the cost of damage exceeds the cost of control.
 
@@ -310,7 +309,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 | Stored grain | Sealed containers | Low | Low | 90-99% | Glass, clay, or metal with tight lids |
 | Root crops | Underground wire mesh | High | High | 70-90% | Prevents vole/mole damage |
 
-## References
+## See Also
 
 - [Foundations → Agriculture & Food Production](../foundations/food-agriculture.md) — basic cultivation, harvest, and storage
 - [Agriculture → Crop Rotation](crop-rotation.md) — rotation as primary pest management strategy

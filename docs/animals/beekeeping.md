@@ -8,7 +8,6 @@
 > **Outputs**: honey, beeswax, propolis, pollination_services
 > **Critical**: yes
 
-## Overview
 
 Beekeeping (apiculture) is the managed cultivation of honey bees (*Apis mellifera*) for honey, beeswax, propolis, and pollination services. Honey bees are the only domesticated insect — they require no feeding (they forage), produce multiple high-value materials, and provide pollination that increases crop yields 20-30% on average. A single well-managed hive yields 10-25 kg honey and 0.5-2 kg beeswax per year while supporting agriculture within a 1-2 km foraging radius.
 

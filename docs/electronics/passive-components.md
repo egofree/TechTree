@@ -8,7 +8,6 @@
 > **Outputs**: resistors, capacitors, inductors, transformers
 > **Critical**: Yes — every electronic circuit requires passive components for filtering, timing, impedance matching, and energy storage
 
-## Overview
 
 Passive components — resistors, capacitors, and inductors — are the fundamental building blocks of every electronic circuit. Unlike active devices (transistors, diodes), passive components do not amplify signals. They control current flow, store energy, filter signals, set time constants, and provide impedance matching. A typical circuit board contains 5-20 passive components for every active device.
 
@@ -337,7 +336,7 @@ A workshop producing 500-1000 passive components per week justifies dedicated wi
 - Where petrochemical-derived polymer films are unavailable, use oil-impregnated paper as capacitor dielectric. Voltage rating and reliability are lower, but functional.
 - Where nickel-chromium alloy is unavailable for resistance wire, use iron wire (ρ = 0.97 × 10⁻⁷ Ω·m, high TCR of +5000 ppm/°C) or constantan if copper-nickel alloy is available.
 
-## References
+## See Also
 
 - **[Electronics Assembly](assembly.md)**: passive component mounting and soldering on PCBs
 - **[Electrical Systems](electrical-systems.md)**: power distribution using transformers and inductors

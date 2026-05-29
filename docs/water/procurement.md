@@ -8,7 +8,6 @@
 > **Outputs**: raw_water, groundwater, rainwater
 > **Critical**: Yes — no water source means no settlement, no agriculture, no industry
 
-## Overview
 
 Locating and extracting water from natural sources. Before any distribution network or treatment plant can function, a reliable source must be found, developed, and maintained. This capability covers the full range of procurement methods available from stone-age conditions through early industrial development.
 
@@ -289,7 +288,7 @@ The jump from village to town scale is the critical threshold: it requires mecha
 | River intake | Large settlements | Unlimited | Moderate | 5+ |
 | Qanat | Arid regions, hills | 43,200-4,320,000 L/day | High | 5+ |
 
-## References
+## See Also
 
 - [Water Distribution](distribution.md) — procurement is prerequisite for distribution
 - [Basic Water Treatment](basic-treatment.md) — raw water requires treatment for safe consumption

@@ -8,7 +8,6 @@
 > **Outputs**: compost, humus, biochar, amended_soil, mulch, green_manure
 > **Critical**: Yes — depleted soils collapse within 3-5 years of continuous cropping; soil management is the foundation of agricultural permanence
 
-## Overview
 
 Soil management is the foundation of sustainable agriculture. Every civilization that has exhausted its soils has collapsed; every civilization that has maintained soil fertility has endured. The core principle is simple: return to the soil what you take from it, and add more than you remove. In practice this means composting organic waste, rotating crops, managing pH and mineral balance, and building organic matter content over years and decades.
 
@@ -424,7 +423,7 @@ Collect soil from established, healthy plant communities (forest floor, long-ter
 | Low phosphorus | Mycorrhizal inoculation + bone meal | 1 handful forest soil per planting hole; 200-500 kg/ha bone meal | +20-50% P uptake efficiency |
 | Compacted soil | Deep-rooted cover crop (daikon radish, alfalfa) | Sow at standard rate; allow roots to penetrate 30-60 cm | Improved infiltration and aeration |
 
-## References
+## See Also
 
 - [Vermiculture](./soil-management-vermiculture.md) — worm-based composting produces the highest-quality soil amendment
 - [Foundations → Agriculture](../foundations/food-agriculture.md) — soil management is the foundation of sustainable crop production

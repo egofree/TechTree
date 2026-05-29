@@ -8,7 +8,6 @@
 > **Outputs**: wiring_harnesses, switches, connectors, circuit_breakers, transformers, motors
 > **Critical**: Yes — electrical systems deliver power from generators to every industrial machine, lighting circuit, and electronic device; without reliable wiring, switchgear, and protection, electrification is impossible
 
-## Overview
 
 Electrical systems cover power distribution wiring, switches, connectors, fuses, breakers, transformers, and motor-generator sets — the infrastructure that delivers electricity from generators to loads. Reliable electrical systems are a prerequisite for industrial machinery, lighting, communications, and all post-steam power applications.
 
@@ -299,7 +298,7 @@ Decision criterion: Use HRC fuses when available fault current >65 kA or when pr
 
 **Short-circuit current**: For a 1000 kVA transformer at 480V with 5.75% impedance: I_sc = kVA × 1000 / (√3 × V × %Z/100) = 1,000,000 / (1.732 × 480 × 0.0575) = 20,900A symmetrical RMS.
 
-## References
+## See Also
 
 - **[Basic Semiconductor Devices](../silicon/basic-devices.md)**: semiconductor devices used in power electronics and control circuits
 - **[Electronics Assembly](assembly.md)**: PCB fabrication and soldering for control electronics

@@ -8,7 +8,6 @@
 > **Outputs**: medicinal_herbs, therapeutic_compounds, herbal_remedies
 > **Critical**: Yes — herbal remedies are the earliest and most accessible healthcare technology, directly reducing mortality
 
-## Overview
 
 Identification, cultivation, preparation, and application of plant species with therapeutic properties for treating illness, injury, and disease. Plants synthesize hundreds of chemical compounds for defense against insects, fungi, and herbivores — many of these compounds have pharmacological effects on humans. Medicinal plants are the foundation of all pharmacology and the earliest healthcare technology available from Year 0.
 

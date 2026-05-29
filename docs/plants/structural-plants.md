@@ -8,7 +8,6 @@
 > **Outputs**: structural_timber, building_materials, thatch, wattle, poles
 > **Critical**: Yes — all early construction depends on plant-derived structural materials
 
-## Overview
 
 Plant species harvested for their structural properties — timber, poles, thatch, and woven building materials. Before fired brick, concrete, or steel, all construction depended on plant-derived materials: timber frames for buildings, woven wattle panels plastered with clay, thatched reed or straw roofs, and split-lath fencing. Even after stone and metal become available, wood remains indispensable for scaffolding, formwork, tool handles, and temporary structures.
 

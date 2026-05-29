@@ -8,7 +8,6 @@
 > **Outputs**: diodes, transistors, thyristors, voltage_references
 > **Critical**: Yes — diodes and transistors are the fundamental active components enabling all power conversion, signal processing, and digital logic
 
-## Overview
 
 This document covers the physics, construction, and application of discrete semiconductor devices at the component level — diodes, bipolar junction transistors (BJTs), field-effect transistors (FETs), and thyristors. These are the active devices that make amplification, switching, rectification, and logic possible.
 
@@ -314,7 +313,7 @@ Power semiconductor capability scales with die area and blocking voltage. Key tr
 4. **Power MOSFET** (Year 35-45): Vertical DMOS structure enables high voltage and high current. Rds(on) steadily decreasing with each generation.
 5. **IGBT** (Year 40-50): Combines MOS gate drive with bipolar conduction. Dominates medium-to-high power conversion (1 kW to 10 MW).
 
-## References
+## See Also
 
 - **[Basic Semiconductor Devices](../silicon/basic-devices.md)**: wafer-level processes for creating pn junctions and basic devices
 - **[Passive Components](passive-components.md)**: resistors, capacitors, and inductors used in circuits with semiconductor devices

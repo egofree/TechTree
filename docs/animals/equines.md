@@ -8,7 +8,6 @@
 > **Outputs**: draft_power, transport, manure, hides
 > **Critical**: Yes — primary large draft and transport animals for field work, hauling, and riding
 
-## Overview
 
 Equines — horses (*Equus caballus*) and donkeys (*Equus africanus asinus*) — are the primary large draft and transport animals for a bootstrapping civilization. Horses provide the greatest pulling power per animal, while donkeys offer superior endurance, disease resistance, and ability to thrive on poor forage. Together they cover the full range of traction, packing, and riding needs from farm work to long-distance transport. Both species were domesticated by 3500-4000 BCE and have been central to every major agricultural and transport system since.
 

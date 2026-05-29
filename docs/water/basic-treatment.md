@@ -8,7 +8,6 @@
 > **Outputs**: potable_water, filtered_water
 > **Critical**: Yes — waterborne diseases are among the greatest killers in pre-industrial civilizations; treatment reduces mortality by 50-80%
 
-## Overview
 
 Purifying raw water for safe human consumption. Waterborne diseases — cholera (Vibrio cholerae), typhoid (Salmonella typhi), dysentery (Shigella spp.), and giardiasis (Giardia lamblia) — are among the greatest killers in all pre-industrial civilizations. The 1854 Broad Street cholera outbreak in London killed 616 people in two weeks from a single contaminated well. Simple treatment methods dramatically reduce disease burden and are achievable with minimal technology.
 
@@ -275,7 +274,7 @@ The key scaling breakpoint is the jump from household to community scale: this r
 - **Distillation**: Boil water and condense the steam. Removes all contaminants (biological, chemical, dissolved solids). Energy-intensive: 620 kWh per 1,000 L (latent heat of vaporization). Practical only for small volumes or where energy is abundant.
 - **Biosand filter**: A household-scale adaptation of slow sand filtration using a concrete or plastic container (~0.3 m² filter area). Intermittent operation (pour water through, collect from outlet). Removes 95-99% bacteria after biological layer develops. Flow rate: 0.5-1.0 L/minute.
 
-## References
+## See Also
 
 - [Water Procurement](procurement.md) — raw water must be collected before treatment
 - [Ceramics](../ceramics/index.md) — ceramic filter elements, tank construction

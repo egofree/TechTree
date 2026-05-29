@@ -8,7 +8,6 @@
 > **Outputs**: pcb_bare_boards, copper_clad_laminate, etched_circuits
 > **Critical**: Yes — PCBs are the universal interconnection substrate for all electronic assemblies from simple controllers to multi-GHz computers
 
-## Overview
 
 Printed circuit board (PCB) fabrication transforms copper-clad insulating substrates into precise patterned circuit interconnects. The PCB provides mechanical support, electrical connections between components, thermal management, and electromagnetic shielding. Every electronic device — from a 555-timer circuit to a GPU — mounts on a PCB.
 
@@ -325,7 +324,7 @@ A workshop with UV exposure, spray etch tank, and drill press can produce functi
 4. **Multi-layer** (Year 38): Vacuum laminating press + inner layer AOI. 4-8 layer boards. Required for high-speed digital (impedance control) and complex computing.
 5. **HDI** (Year 50+): Laser drilling + sequential lamination. Fine-line (0.05 mm) with microvias. Required for advanced computing and high-density packaging.
 
-## References
+## See Also
 
 - **[Electronics Assembly](assembly.md)**: component placement and soldering onto fabricated PCBs
 - **[Passive Components](passive-components.md)**: components mounted on PCBs

@@ -8,7 +8,6 @@
 > **Outputs**: pork, lard, bacon, bristles, leather, manure, waste_disposal
 > **Critical**: Yes — fastest feed-to-meat conversion, waste recycling
 
-## Overview
 
 Pigs are the most efficient converter of feed to meat among domesticated livestock. They produce 70-80% of their live weight as usable carcass (compared to 55-60% for cattle), and they consume virtually anything organic — crop residues, kitchen scraps, whey from cheese making, culled fruits and vegetables, and forest mast (acorns, beechnuts). Mature weight ranges from 150-300 kg for modern breeds, 100-180 kg for traditional landraces. Gestation is 114 days ("three months, three weeks, three days"), with litter sizes of 8-12 piglets for improved breeds and 6-8 for traditional types.
 

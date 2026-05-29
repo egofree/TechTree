@@ -9,7 +9,6 @@
 > **Critical**: Yes — every permanent structure from houses to factories requires structural engineering to avoid collapse
 
 
-## Overview
 
 Structural engineering ensures buildings and structures support their intended loads without excessive deflection, cracking, or collapse. Three fundamental principles govern all structural design: equilibrium (forces must balance), compatibility (deformations must be physically possible), and constitutive relations (material behavior under stress defines capacity).
 
@@ -382,7 +381,7 @@ The capability depends on [iron and steel](../metals/iron-steel.md) for structur
 - **Use arches when**: only compression materials available (stone, brick), no tensile capacity in the structural material.
 
 
-## References
+## See Also
 
 - [Building Materials & Methods](./building-materials.md) — Timber, masonry, and roofing material properties
 - [Industrial Buildings & Heavy Foundations](./industrial-buildings.md) — Machine foundations and vibration isolation

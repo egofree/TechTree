@@ -9,7 +9,6 @@
 > **Critical**: No
 
 
-## Overview
 
 Governance and institutional design is the creation and maintenance of decision-making structures for large-scale resource allocation, dispute resolution, and collective action. Where [division of labor](./division-of-labor.md) coordinates individual tasks, governance coordinates organizations — establishing rules, authority structures, and mechanisms for making collective decisions that affect hundreds or thousands of people.
 
@@ -236,7 +235,7 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 | Feudal hierarchy | Nested personal loyalty oaths | 1,000-100,000 | Clear authority chain; military coordination | Exploitation; rigidity; succession crises |
 
 
-## References
+## See Also
 
 - [Writing](../knowledge/writing.md) — the documentation system for laws, contracts, and administrative records
 - [Division of Labor](./division-of-labor.md) — the specialization that governance formalizes and coordinates

@@ -8,7 +8,6 @@
 > **Outputs**: fiber, packing_transport, guard_services, manure
 > **Critical**: No — valuable for luxury fiber and guard services but not essential for basic food security
 
-## Overview
 
 South American camelids — alpacas (*Vicugna pacos*) and llamas (*Lama glama*) — are dual-purpose livestock providing luxury fiber (alpacas) and pack transport plus guard duties (llamas). Domesticated in the Andes over 6,000 years ago, they are exceptionally well-adapted to marginal land, require minimal infrastructure compared to other livestock, and have few health problems. Alpacas produce 2-5 kg of fine fleece every 12-18 months in a range of 22 natural colors. Llamas carry 25-30% of their body weight as pack animals and a single llama can serve as an effective guardian for a flock of 200+ sheep against canine and coyote predators.
 

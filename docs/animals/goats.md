@@ -8,7 +8,6 @@
 > **Outputs**: goat_milk, chevon, cashmere, mohair, goatskins, manure, brush_clearing
 > **Critical**: No — versatile but replaceable by sheep/cattle combination
 
-## Overview
 
 Goats are the most adaptable and resilient domesticated livestock species. They thrive in arid, mountainous, and marginal environments where cattle and sheep struggle, browsing on woody vegetation that other ruminants refuse. Mature weight ranges from 30-80 kg (does 30-55 kg, bucks 50-80 kg), making them manageable without specialized handling equipment. Gestation is 150 days (range 145-155), producing litters of 1-3 kids with twins as the most common outcome. A doe's productive lifespan is 8-12 years.
 

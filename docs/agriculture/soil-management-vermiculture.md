@@ -8,7 +8,6 @@
 > **Outputs**: vermicompost, worm_castings, worm_tea, worms
 > **Critical**: No — vermiculture produces premium compost but is not the only path to soil fertility; thermophilic composting is a viable alternative
 
-## Overview
 
 Vermiculture is the controlled breeding of earthworms to process organic waste into vermicompost — a dark, crumbly, nutrient-rich soil amendment superior to thermophilic compost in plant-available nutrients, microbial diversity, and growth-stimulating compounds. The primary species used is *Eisenia fetida* (red wiggler), a surface-dwelling worm adapted to decomposing organic matter rather than soil.
 
@@ -433,7 +432,7 @@ Application:
 | [Aquaponics](./aquaponics.md) | Worm tea as supplemental plant nutrient source | Provides micronutrients and growth hormones not in fish waste |
 | [Garden beds](./soil-management.md) | Apply castings as top-dressing or mix into potting soil | Improves soil structure, water retention, and microbial activity |
 
-## References
+## See Also
 
 - [Soil Management](./soil-management.md) — parent article covering all composting methods, biochar, green manures, and soil amendments
 - [Insect Farming](../animals/insect-farming.md) — BSF frass as worm feed; two-stage waste processing

@@ -8,7 +8,6 @@
 > **Outputs**: residual_metals, reprocessed_concentrate, backfill_material, construction_sand
 > **Critical**: No — improves resource efficiency but does not unlock new capabilities
 
-## Overview
 
 Tailings reprocessing recovers residual metals, minerals, and useful materials from mine waste — the finely ground rock left after initial ore processing. Historical mines often left tailings containing 20–60% of the original metal value because the extraction technology of the day was insufficient to recover it. Modern techniques can extract this stranded value.
 
@@ -264,7 +263,7 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 - Environmental risk of excavation exceeds benefit
 - Access to tailings deposit is difficult (under water, under infrastructure)
 
-## References
+## See Also
 
 - [Mining Extraction](extraction.md) — Primary mining methods
 - [Ore Processing](processing.md) — Crushing, grinding, flotation, gravity separation

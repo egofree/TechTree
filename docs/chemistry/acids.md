@@ -8,7 +8,6 @@
 > **Outputs**: sulfuric_acid, nitric_acid, hydrochloric_acid, hydrofluoric_acid, oleum
 > **Critical**: Yes — sulfuric acid is the single most important industrial chemical; the contact process enables fertilizer production, metal pickling, petroleum refining, and semiconductor wafer processing. No chemical industry operates without mineral acids.
 
-## Overview
 
 Sulfuric acid (H₂SO₄) is the single most important industrial chemical. It is used in every subsequent phase: steel pickling, petroleum refining, fertilizer production, etching, and semiconductor processing. A civilization's industrial maturity can be measured by its sulfuric acid production.
 
@@ -378,7 +377,7 @@ Semiconductor processing requires ultra-pure acids (trace metal impurities at pp
 7. **1960s**: Semiconductor-grade acid purification begins. Sub-boiling distillation, PTFE containers, ppb trace metal specifications.
 8. **Present**: Global H₂SO₄ production ~250 million tonnes/year (largest-volume chemical).
 
-## References
+## See Also
 
 - [Alkalis](alkalis.md) — complementary acid-base chemistry (NaOH, Na₂CO₃ production)
 - [Electrolysis](electrolysis.md) — chlor-alkali process producing HCl and Cl₂

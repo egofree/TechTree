@@ -21,7 +21,6 @@ Every human settlement needs reliable caloric intake to survive, work, and repro
 - [Soil Management](../agriculture/soil-management.md) — maintaining fertility through rotation and amendment
 - [Seed Saving](../agriculture/seed-saving.md) — maintaining viable planting stock year to year
 
-## Overview
 
 Edible plants are the primary caloric and nutritional source for any human population. Before agriculture, wild foraging provides immediate food security — roots, greens, fruits, seeds, and stems sustain small groups with minimal tools. As populations grow, deliberate cultivation of staple crops becomes essential to produce surplus, which in turn enables specialist labor and all downstream civilization.
 

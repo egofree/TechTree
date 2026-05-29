@@ -8,7 +8,6 @@
 > **Outputs**: viable_seed, adapted_varieties, seed_stock
 > **Critical**: Yes — without saved seed, each growing season depends on finding wild seed; saved seed is the foundation of agricultural continuity
 
-## Overview
 
 Seed saving is the practice of harvesting, processing, drying, storing, and testing seeds from one growing season to plant in the next. It is the oldest biotechnology: for 10,000+ years, every farmer on Earth was a seed saver and plant breeder. The transition from wild seed gathering to deliberate seed saving and selection marks the beginning of agriculture itself. Without saved seed, each generation of crops must be re-established from wild populations — a process that wastes a growing season and loses any genetic improvements made by previous selection.
 
@@ -392,7 +391,7 @@ In a crisis (impending crop failure, seed stock at risk), these shortcuts preser
 | Variety collection | Maintain 5-10 varieties of each staple crop | Maximum diversity; breeding material | Each variety needs isolation and separate processing |
 | Community seed bank | Centralized cool storage with shared inventory | Pool of diverse genetics accessible to all | Requires governance and trust |
 
-## References
+## See Also
 
 - [Foundations → Agriculture & Food Production](../foundations/food-agriculture.md) — basic grain cultivation, harvesting, and storage
 - [Agriculture → Crop Rotation](crop-rotation.md) — diverse seed stock requirements for rotation systems

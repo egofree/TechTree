@@ -8,7 +8,6 @@
 > **Outputs**: copper, bronze, castings, ingots
 > **Critical**: No
 
-## Overview
 
 Copper was the first metal smelted (~5000 BCE) and remains the backbone of electrical infrastructure worldwide. This article covers the full chain: primitive copper smelting from carbonate and sulfide ores, bronze alloying, casting methods, work-hardening, electrolytic refining, brass production, and industrial-scale copper smelting. Copper's combination of conductivity (58.0 MS/m at 20 °C for pure annealed copper), corrosion resistance, and ductility makes it irreplaceable for electrical, marine, and structural applications.
 

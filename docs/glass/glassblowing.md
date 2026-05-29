@@ -8,7 +8,6 @@
 > **Outputs**: glass_apparatus, laboratory_glassware
 > **Critical**: Yes — laboratory glassware (flasks, condensers, tubing) is required for all wet chemistry, distillation, and gas handling in the bootstrap sequence.
 
-## Overview
 
 Glassblowing transforms glass tubing and rod into scientific apparatus, containers, and precision instruments. Two main techniques exist: **furnace glassblowing** (gathering molten glass on a blowpipe) for containers and window glass, and **lampworking** (bench-scale torch work) for precision laboratory glassware. Lampworking is the primary technique for producing the flasks, condensers, distillation columns, and tubing assemblies required by [chemistry](../chemistry/index.md), [silicon purification](../silicon/purification.md), and [gas handling](../gas-handling/index.md).
 
@@ -386,7 +385,7 @@ This capability depends on [advanced glass production](advanced.md) for borosili
 
 **Iridescence**: Spray hot glass surface with tin chloride or lead chloride vapor. Metal compounds deposit as an ultra-thin film (~100-300 nm) that refracts light into rainbow colors through thin-film interference.
 
-## References
+## See Also
 
 - [Advanced Glass Production](advanced.md) — borosilicate and fused silica glass compositions
 - [Basic Glass Production](basic.md) — soda-lime glass melting fundamentals

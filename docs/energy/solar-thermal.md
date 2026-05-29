@@ -8,7 +8,6 @@
 > **Outputs**: solar_heat, solar_steam, concentrated_solar_power, solar_furnace_heat
 > **Critical**: No — supplemental energy source that reduces fuel consumption and enables high-temperature processes without electricity
 
-## Overview
 
 Solar thermal energy captures concentrated sunlight to produce heat at temperatures from 80°C (water heating) to 3,500°C (solar furnaces). Unlike photovoltaic panels that convert light directly to electricity, solar thermal systems use mirrors and lenses to focus sunlight onto a receiver, generating intense heat that can drive steam turbines, power industrial processes, or melt metals. The technology spans from simple flat-plate water heaters (achievable with wood, glass, and copper) to heliostat fields with central towers (requiring precision optics and control systems).
 
@@ -334,7 +333,7 @@ Low-temperature solar thermal applications do not require concentration:
 - **Solar box cooker**: Insulated box with glass lid and reflector panels. Interior reaches 120-160°C. Cooks food in 1-3 hours. Construction: cardboard, aluminum foil, glass. Buildable at any tech level.
 - **Solar food dryer**: Cabinet with solar-heated air intake. Drying temperature 50-70°C. Preserves fruits, vegetables, meat without fuel consumption. Construction: wood, glass, wire mesh.
 
-## References
+## See Also
 
 - **[Steam Power](steam-power.md)** — Steam engines driven by solar-generated steam
 - **[Steam Turbines](steam-turbines.md)** — Turbine-generator sets for CSP power conversion

@@ -8,7 +8,6 @@
 > **Outputs**: polyethylene, PVC, nylon, polystyrene, PTFE
 > **Critical**: No — thermoplastics expand material capability but the critical path uses metals and ceramics at earlier stages
 
-## Overview
 
 Thermoplastic polymers soften when heated and harden when cooled — a reversible process that enables melting, shaping, and recycling. Unlike [thermosets](./thermosets.md) (which permanently crosslink during cure), thermoplastics can be repeatedly remelted and reprocessed, making them the dominant class of polymers by volume. Global thermoplastic production exceeds 350 million tonnes/year, with polyethylene alone accounting for over 100 million tonnes.
 
@@ -420,7 +419,7 @@ The thermoplastics covered here span from polyethylene (achievable at Chemistry 
 - **Acrylic (PMMA)**: Light transmission 92%; aircraft canopies; aquariums. See [Synthetic Polymers](./synthetic.md).
 - **Polypropylene (PP)**: Density 0.90 g/cm³ (lightest commodity plastic); living hinge (0.2-0.5 mm, millions of flex cycles); autoclavable at 121°C. Similar to PE but higher service temperature.
 
-## References
+## See Also
 
 - **[Thermosets](thermosets.md)**: Irreversibly crosslinked polymers — higher temperature capability but cannot be reprocessed
 - **[Composites](composites.md)**: Fiber-reinforced polymers using thermoplastic or thermoset matrices

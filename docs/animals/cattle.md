@@ -8,7 +8,6 @@
 > **Outputs**: beef, dairy, tallow, leather_hides, manure, draft_power
 > **Critical**: Yes — most productive multi-purpose livestock species
 
-## Overview
 
 Cattle are the single most productive domesticated species for a bootstrapping civilization. A mature cow converts pasture and roughage into high-value protein (meat and milk), provides draft power for plowing and transport, produces leather and tallow as industrial materials, and generates 30-40 kg of nitrogen-rich manure per day that sustains soil fertility. Mature weight ranges from 400-800 kg (cows at the lower end, bulls and oxen at the upper). Gestation is 283 days (range 279-290), producing a single calf per pregnancy (twins in roughly 1-2% of births).
 

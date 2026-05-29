@@ -8,7 +8,6 @@
 > **Outputs**: treated_wastewater, sewage_disposal, biogas
 > **Critical**: Yes — cholera epidemics in 19th-century cities demonstrated that sewage management is a prerequisite for urban civilization at any scale
 
-## Overview
 
 Collection, conveyance, and treatment of wastewater and sewage. In any settled community, the volume of wastewater generated (drinking, cooking, washing, latrine flush) rapidly contaminates surface and groundwater sources if not managed. Cholera epidemics in 19th-century cities demonstrated that sewage management is not optional — it is a prerequisite for urban civilization at any scale.
 
@@ -257,7 +256,7 @@ The most common secondary treatment method in industrialized nations. Requires e
 - **Constructed wetlands**: Emergent aquatic plants (reed, cattail, bulrush) growing in gravel beds treat wastewater through plant uptake and rhizosphere microbial activity. BOD removal 70-90%, pathogen removal 90-99%. Land area: 2-5 m² per person. Aesthetic and ecological co-benefits.
 - **Composting toilets**: Waterless systems that aerobically decompose feces and urine with carbon-rich bulking material (sawdust, straw). Produces compost suitable for non-food agriculture. No water or sewer infrastructure required. Suitable for water-scarce areas.
 
-## References
+## See Also
 
 - [Water Distribution](distribution.md) — pipe and channel construction skills transfer to sewage collection
 - [Chemistry: Cement & Concrete](../chemistry/cement.md) — tanks, pipes, and treatment structures

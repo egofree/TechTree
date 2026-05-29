@@ -8,7 +8,6 @@
 > **Outputs**: argon, nitrogen, oxygen
 > **Critical**: Yes — high-purity argon is the inert atmosphere for CZ silicon crystal growth; bulk oxygen is required for steelmaking and welding; nitrogen is the universal inert blanket gas for chemistry and metallurgy.
 
-## Overview
 
 Air separation produces bulk quantities of nitrogen (N₂), oxygen (O₂), and argon (Ar) from atmospheric air by cryogenic fractional distillation. Air is 78% N₂ (boiling point -196°C), 21% O₂ (bp -183°C), and 0.93% Ar (bp -186°C). The Linde double-column distillation process cools air until it liquefies, then separates the components by exploiting their different boiling points.
 
@@ -327,7 +326,7 @@ Lithium-exchanged zeolite (LiLSX) selectively adsorbs N₂ from air at near-ambi
 3. **Small cryogenic ASU**: Compressor + countercurrent heat exchanger + insulated cold box + double distillation column. Produces liquid O₂/N₂ and crude argon. Entry point for semiconductor-capable gas production.
 4. **Full-scale ASU**: Rare gas recovery (Ne, Kr, Xe), expansion turbines (not just J-T valves), product liquefaction. Supports all downstream processes at scale.
 
-## References
+## See Also
 
 - [Cryogenics](../cryogenics/air-separation.md) — cryogenic engineering fundamentals
 - [Gas Handling](../gas-handling/basic.md) — compressed gas systems, piping, cylinders

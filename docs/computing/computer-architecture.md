@@ -8,7 +8,6 @@
 > **Outputs**: cpu_designs, memory_hierarchy, bus_architecture, io_systems
 > **Critical**: Yes — the architecture determines whether logic gates become a useful processor or an unorganized collection of transistors
 
-## Overview
 
 Computer architecture defines the structure and behavior of a computing system as seen by the programmer: the instruction set, register organization, memory hierarchy, I/O mechanisms, and interconnect (bus) topology. It is the contract between hardware and software — the ISA specifies what the hardware must do, and the microarchitecture specifies how the hardware does it.
 
@@ -248,7 +247,7 @@ The compiler explicitly schedules parallel operations. Each instruction contains
 | 32-bit RISC (16 regs) | ~20,000 | Moderate | Medium | Third |
 | 32-bit CISC | ~50,000+ | Complex | High | Last |
 
-## References
+## See Also
 
 - [`computing.logic-design`](logic-design.md) — Gate-level design methodology used to implement processor datapaths and control units.
 - [`computing.electronic`](electronic.md) — Vacuum tube and transistor computing history; stored-program architecture origins.

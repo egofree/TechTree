@@ -8,7 +8,6 @@
 > **Outputs**: rubber, elastomers, gaskets, seals
 > **Critical**: Yes — flexible seals and vibration isolation required for all mechanical systems, pneumatic tires, and chemical-resistant barriers
 
-## Overview
 
 Elastomers are polymers that recover shape after large deformation (elongation 400-650% with full recovery). They fill roles no rigid material can: flexible seals, vibration dampers, tires, hoses, chemical-resistant gloves, electrical insulation, and adhesives. The rubber family divides into two branches — natural rubber (from latex) and synthetic elastomers (from petrochemical or fermentation monomers) — with different feedstocks and property profiles.
 
@@ -384,7 +383,7 @@ When natural rubber properties are insufficient, synthetic elastomers fill speci
 - **Polyurethane (PU)**: Tunable from rigid foam to abrasion-resistant elastomer
 - **EPDM**: Ozone and weather resistant, roofing and automotive seals
 
-## References
+## See Also
 
 - **[Natural Rubber & Vulcanization](natural.md)**: Detailed tapping techniques, latex chemistry, and cure control
 - **[Vulcanization & Hardness Scales](rubber.vulcanization.md)**: Cure systems (CV, EV, SEV), Shore A/D hardness scales, compounding ingredients

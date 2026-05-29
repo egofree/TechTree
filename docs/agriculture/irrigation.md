@@ -8,7 +8,6 @@
 > **Outputs**: irrigation_water, irrigated_land, water_delivery_infrastructure
 > **Critical**: Yes — in arid and semi-arid climates, irrigation is the difference between productive agriculture and subsistence failure
 
-## Overview
 
 Irrigation is the controlled delivery of water to crops at times and quantities that natural rainfall does not provide. Without irrigation, agriculture is limited to regions and seasons where precipitation meets crop water requirements — roughly 500-800 mm during the growing season for most cereals. Irrigation extends cultivation into arid regions, lengthens growing seasons, and stabilizes yields against drought. The earliest irrigation systems — simple diversion canals from rivers — predate written records and were the enabling technology for the first civilizations in Mesopotamia, the Nile valley, the Indus valley, and China.
 
@@ -295,7 +294,7 @@ Flow estimates assume earthen canal with Manning's roughness coefficient n ≈ 0
 | Drip vs. flood (reduce total application) | 30-50% | Higher infrastructure cost, more maintenance |
 | deficit irrigation (apply less than full ET) | 20-40% | 10-30% yield reduction; acceptable for some crops |
 
-## References
+## See Also
 
 - [Foundations → Agriculture & Food Production](../foundations/food-agriculture.md) — basic cultivation, grain yields, food preservation
 - [Water → Procurement](../water/procurement.md) — water sources, well digging, spring capture

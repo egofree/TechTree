@@ -8,7 +8,6 @@
 > **Outputs**: meat, eggs, feathers, manure, pest_control
 > **Critical**: Yes — fastest-converting livestock; first animals to establish after securing grain production
 
-## Overview
 
 Poultry farming is the managed raising of domesticated birds for meat, eggs, feathers, and other products. Poultry are the fastest-converting livestock — turning grain and forage into high-quality protein within weeks rather than months. They require less space, less feed, and less infrastructure than any mammalian livestock, making them the first animals a settlement should establish after securing grain production. Seven primary species span a wide range of sizes, temperaments, and specializations, from the universal chicken to the pest-hunting guinea fowl to the self-foraging pigeon.
 

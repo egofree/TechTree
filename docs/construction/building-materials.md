@@ -9,7 +9,6 @@
 > **Critical**: Yes — all permanent structures require building materials; without them, civilization remains limited to temporary shelters
 
 
-## Overview
 
 Building materials and methods cover the production and use of timber, stone, brick, roofing, waterproofing, scaffolding, and hoisting systems for permanent construction. These materials form the structural backbone of every building in the bootstrap chain — from houses and workshops to factories and fortifications.
 
@@ -423,7 +422,7 @@ Position in the dependency chain: [basic tools](../foundations/tools-basic.md) e
 - **Use mud brick only when**: climate is dry (<500 mm annual rainfall), no kiln firing is available, temporary construction is acceptable.
 
 
-## References
+## See Also
 
 - [Lime Production](../ceramics/lime.md) — Lime mortar for masonry construction
 - [Cement & Concrete](../chemistry/cement.md) — Portland cement and concrete for industrial construction

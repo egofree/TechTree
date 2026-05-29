@@ -8,7 +8,6 @@
 > **Outputs**: distribution_transformers, power_transformers, substations, switchgear, distribution_panels, instrument_transformers
 > **Critical**: Yes — Without transformers, AC power distribution beyond 1-2 km is impractical. No long-distance transmission means no centralized generation means no industrial-scale power.
 
-## Overview
 
 Transformers are the enabling technology for alternating-current power distribution. They convert voltage levels with no moving parts — stepping generator output up to thousands of volts for efficient long-distance transmission, then stepping back down to safe utilization voltages at the point of use. Without transformers, every electrical load must be within 1-2 km of its generator, making centralized power generation useless and forcing every factory to operate its own power plant.
 
@@ -389,7 +388,7 @@ A single winding with a tap point serves as both primary and secondary. The comm
 - **Current transformer (CT)**: Produces secondary current proportional to primary current. Typical ratio: 100:5A. Secondary must never be open-circuited while primary carries current — open secondary develops dangerous high voltage (kV range). Always short the secondary terminals before disconnecting the burden.
 - **Potential transformer (PT)**: Steps down voltage for metering. Typical ratio: 11,000:110V. Accuracy: ±0.3-1.0%. Used for watt-hour meters, protective relays, and voltage indicators.
 
-## References
+## See Also
 
 - **[Electricity Generation & Distribution](electricity.md)** — generators, AC/DC systems, wire drawing, transmission line design. This document is the parent capability.
 - **[Electrical Systems](../electronics/electrical-systems.md)** — wiring, switches, breakers, panelboards, power electronics, and motor control. Complements this document with secondary-side distribution details.

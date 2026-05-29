@@ -8,7 +8,6 @@
 > **Outputs**: borosilicate_glass, fused_silica, quartz_crucibles, glass_tubing, glass_apparatus
 > **Critical**: Yes — borosilicate enables laboratory glassware for all chemistry; fused silica crucibles are consumables for CZ crystal growth (semiconductor-grade silicon).
 
-## Overview
 
 Advanced glass production extends basic glassmaking ([basic glass](basic.md)) into specialty compositions and precision forming methods required for scientific apparatus, optical components, and semiconductor manufacturing. Three product families define this capability:
 
@@ -417,7 +416,7 @@ Immerse thin glass (1-3 mm) in molten KNO₃ at 400-450°C for 4-16 hours. Large
 
 **When to use**: Thin glass (1-3 mm) that cannot be thermally tempered — smartphone screens, aircraft windshields.
 
-## References
+## See Also
 
 - [Basic Glass Production](basic.md) — soda-lime glass melting, the prerequisite for all advanced glass
 - [Glassblowing & Scientific Apparatus](glassblowing.md) — lampworking and furnace glassblowing techniques using borosilicate

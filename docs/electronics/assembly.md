@@ -8,7 +8,6 @@
 > **Outputs**: pcb_assemblies, soldered_joints, packaged_components
 > **Critical**: Yes — electronics assembly bridges semiconductor device fabrication and functional electronic systems, without which no transistor or IC becomes a usable circuit
 
-## Overview
 
 Electronics assembly encompasses PCB fabrication, component placement, soldering (through-hole and surface mount), conformal coating, and testing. It bridges semiconductor device fabrication and functional electronic systems — from discrete transistor circuits to multi-chip modules and early integrated circuit packaging.
 
@@ -361,7 +360,7 @@ Refrigerated storage at 2-10°C. Allow 4-8 hours to equilibrate to room temperat
 | Conformal coating (spray) | General environmental protection | Fast application; uneven thickness; requires masking |
 | Conformal coating (selective dispense) | High-volume, precision coating | Consistent thickness; no masking needed; robot cost $30K-$100K |
 
-## References
+## See Also
 
 - **[Basic Semiconductor Devices](../silicon/basic-devices.md)**: the devices being assembled into circuits
 - **[Electrical Systems](electrical-systems.md)**: power distribution and wiring infrastructure

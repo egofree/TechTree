@@ -8,7 +8,6 @@
 > **Outputs**: geothermal_heat, geothermal_steam, geothermal_electricity, ground_source_heat_pump
 > **Critical**: No — geothermal energy is regionally specific, providing baseload power where geological conditions permit
 
-## Overview
 
 Geothermal energy harnesses heat from the Earth's interior, accessed either through natural hydrothermal manifestations (hot springs, geysers, fumaroles) or by drilling wells into hot rock formations. The Earth's interior heat flows outward at an average rate of 0.06 W/m² at the surface — too diffuse for economic extraction in most locations. However, in tectonically active regions (volcanic zones, fault boundaries, hot spot tracks), heat flow is 10-100× the average, making geothermal energy extraction practical and economically competitive.
 
@@ -335,7 +334,7 @@ In locations without natural hydrothermal resources (most of the world), EGS cre
 
 Ground-source heat pumps achieve COP 3.0-5.0 year-round because the ground temperature is stable (10-16°C). Air-source heat pumps achieve COP 2.5-4.0 in mild weather but COP drops to 1.5-2.0 in extreme cold (-15°C to -25°C) when heating demand is highest. The ground-source system's higher installed cost (drilling) is offset by lower operating cost over its 20-30 year lifetime.
 
-## References
+## See Also
 
 - **[Steam Power](steam-power.md)** — Steam cycles, boilers, and prime movers
 - **[Steam Turbines](steam-turbines.md)** — Turbine-generator sets for geothermal flash and dry steam plants

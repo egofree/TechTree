@@ -8,7 +8,6 @@
 > **Outputs**: microcontroller_systems, firmware, real_time_control, sensor_interfaces
 > **Critical**: Yes — embedded systems bridge computing hardware and physical process control; without them, semiconductor fab tools cannot be automated
 
-## Overview
 
 An embedded system is a computer designed for a dedicated control function within a larger physical system, with real-time constraints, limited resources, and direct hardware interfaces to sensors and actuators. Unlike general-purpose computers that run varied software, an embedded system runs a single firmware program that must respond to physical events within guaranteed time limits.
 
@@ -354,7 +353,7 @@ Industrial control using standardized PLC hardware: rack-mounted I/O modules, la
 | FPGA + soft processor | Weeks-months | Excellent (ns) | $15-50 | Very high |
 | PLC | Hours-days | Good (ms) | $50-200/channel | Low (fixed I/O types) |
 
-## References
+## See Also
 
 - [`computing.computer-architecture`](computer-architecture.md) — CPU design, instruction sets, memory hierarchy, bus architecture. The hardware foundation for embedded processors.
 - [`computing.logic-design`](logic-design.md) — Gate-level design and FPGA methodology used for custom embedded hardware.

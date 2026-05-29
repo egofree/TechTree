@@ -8,7 +8,6 @@
 > **Outputs**: natural_dyes, plant_pigments
 > **Critical**: No — color is important for signaling and trade but not strictly required for survival
 
-## Overview
 
 Plants that yield natural colorants for dyeing textiles, leather, wood, ink, and coatings. Natural dyes have been the primary source of color for human material culture from prehistory through the 19th century, when synthetic aniline dyes superseded them. In a bootstrap context, dye plants provide the only practical path to colored textiles before the organic chemistry infrastructure needed for synthetic dyes exists. Color serves not only aesthetics but signaling (military uniforms, trade goods, social markers) and functional purposes (UV protection, mildew resistance from tannin-rich dyes).
 
@@ -256,7 +255,7 @@ Indigo is the most labor-intensive dye per unit color — roughly 4-5 kg of fres
 - **Wood ash lye (potassium carbonate)**: pH 11-12. Causes severe chemical burns to skin and eyes. Always add lye to water (never water to lye — causes splashing). Wear eye protection when preparing lye solutions.
 - **General dye plant hazards**: Some dye plants (dyer's broom, broom) contain quinolizidine alkaloids — toxic if ingested in large quantities. Handle dye plants as you would any mildly toxic plant: wash hands after handling, keep away from food preparation areas.
 
-## References
+## See Also
 
 - [Textiles: Dyeing](../textiles/dyeing.md) — downstream application of natural dyes to fiber and cloth
 - [Fiber Plants](./fiber-plants.md) — companion capability for fiber production

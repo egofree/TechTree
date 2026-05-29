@@ -8,7 +8,6 @@
 > **Outputs**: nitrile_rubber, neoprene, silicone_elastomers, polyurethane
 > **Critical**: No — synthetic elastomers expand capability beyond natural rubber but are not on the critical path
 
-## Overview
 
 Synthetic polymers fill gaps natural rubber cannot: oil resistance (NBR), flame retardancy (neoprene), extreme-temperature service (silicone, -60 to +250°C), and tunable hardness (polyurethane, Shore A 70 to Shore D 75). Each requires specific monomer feedstocks and controlled polymerization conditions.
 
@@ -404,7 +403,7 @@ See [Rubber Production](./rubber.md) for natural rubber vulcanization and compou
 - **Butyl rubber (IIR)**: Copolymer of isobutylene (97-99%) + isoprene (1-3%). 10-20× less gas-permeable than NR — the only practical material for tire inner liners and inner tubes. Polymerized at -80 to -100°C in methyl chloride with AlCl₃ catalyst. Halobutyl (CIIR, BIIR) enables covulcanization with NR/SBR for tubeless tire inner liners.
 - **Thermoplastic elastomers (TPE)**: SBS, SEBS, TPU — rubber-like elasticity with thermoplastic processability (no vulcanization). Hard domains (physical cross-links that melt above Tg) dispersed in soft matrix. Used for shoe soles, soft-touch grips, cable jacketing.
 
-## References
+## See Also
 
 - **[Natural Polymers](natural.md)**: Natural rubber tapping, processing, and vulcanization
 - **[Thermoplastics](thermoplastics.md)**: Melt-processable polymers (PE, PVC, nylon, PS, PTFE, polycarbonate)

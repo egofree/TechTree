@@ -8,7 +8,6 @@
 > **Outputs**: wool, mutton, milk, lanolin, sheepskins, manure
 > **Critical**: Yes — premier fiber and meat species with lowest infrastructure requirements
 
-## Overview
 
 Sheep are the most versatile small ruminant for a bootstrapping civilization — producing wool (the premier natural fiber for textiles), meat (lamb and mutton), milk (for cheese and fermented products), and pelts. Their modest size (mature weight 60-120 kg depending on breed) makes them easier to handle than cattle, and their gregarious flocking instinct simplifies herding. Gestation is 147 days (range 144-152), with typical litters of singles for hill breeds, twins for lowland breeds, and occasional triplets. A well-managed flock of 50-100 ewes on 10-15 hectares of improved pasture can sustain a small community with food, fiber, and fertilizer.
 

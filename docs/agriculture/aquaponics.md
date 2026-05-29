@@ -8,7 +8,6 @@
 > **Outputs**: fish, vegetables, herbs, filtered_water
 > **Critical**: No — aquaponics provides high-density integrated food production but is not the only path to reliable agriculture; conventional soil-based farming and separate aquaculture are viable alternatives
 
-## Overview
 
 Aquaponics is an integrated food production system that combines fish farming (aquaculture) with soil-less plant cultivation in a single recirculating water loop. Fish produce ammonia-rich waste; bacteria convert that ammonia to nitrate; plants absorb the nitrate as fertilizer; the cleaned water returns to the fish tank. The result is two crops (fish and plants) from one water input, with the plants serving as the water filtration system for the fish and the fish providing free fertilizer for the plants.
 
@@ -393,7 +392,7 @@ Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium
 | Semi-arid, water-scarce | NFT pipes + tilapia + greens | Lowest water use of any food production method |
 | Integration with BSF farming | Media bed + tilapia + fruiting crops | BSF larvae feed fish; fish waste feeds plants |
 
-## References
+## See Also
 
 - [Aquaculture](../animals/aquaculture.md) — fish farming techniques, pond construction, fish species, and feeding that underpin aquaponic fish production
 - [Insect Farming](../animals/insect-farming.md) — BSF larvae as fish feed, closing the nutrient loop

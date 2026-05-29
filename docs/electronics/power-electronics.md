@@ -8,7 +8,6 @@
 > **Outputs**: rectifiers, inverters, converters, motor_drives, ups_systems
 > **Critical**: Yes — power electronics enables efficient energy conversion, motor control, and solar/grid integration without which industrial electrification is impossible
 
-## Overview
 
 Power electronics is the technology of converting and controlling electrical power using semiconductor switching devices. It encompasses rectifiers (AC→DC), inverters (DC→AC), DC-DC converters, and AC-AC converters. Every modern power system — from [solar inverters](../energy/index.md) to variable-frequency motor drives to welding machines to [computer power supplies](../computing/electronic.md) — relies on power electronics.
 
@@ -347,7 +346,7 @@ Higher switching frequency shrinks magnetic components but increases switching l
 | Hysteresis (bang-bang) | Comparator with hysteresis band | Fastest response, variable frequency | Very low |
 | Sliding mode | State-space control with discontinuous surface | Very robust, handles large perturbations | Medium |
 
-## References
+## See Also
 
 - **[Semiconductor Devices](semiconductor-devices.md)**: diodes, MOSFETs, IGBTs, and thyristors used as switching elements
 - **[Passive Components](passive-components.md)**: inductors, capacitors, and transformers used in power converters

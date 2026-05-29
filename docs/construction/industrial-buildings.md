@@ -9,7 +9,6 @@
 > **Critical**: Yes — precision manufacturing requires vibration-isolated foundations; heavy industry requires crane runways and reinforced floors
 
 
-## Overview
 
 Industrial buildings differ fundamentally from residential construction. They must support heavy point loads from machinery (5-50 tonnes per machine), resist dynamic forces from forging hammers and stamping presses (5-50 kJ per blow), provide clear spans of 15-30 m for production lines, and accommodate overhead cranes moving 5-50 tonnes. The building is not just shelter — it is an integral part of the production system.
 
@@ -355,7 +354,7 @@ This capability depends on [building materials](./building-materials.md) for bas
 - **Use direct mount when**: light equipment (<500 kg), no dynamic loads, vibration not a concern.
 
 
-## References
+## See Also
 
 - [Building Materials & Methods](./building-materials.md) — Timber framing, masonry, scaffolding
 - [Structural Engineering](./structural-engineering.md) — Beam design, column design, foundation theory

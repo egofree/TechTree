@@ -8,7 +8,6 @@
 > **Outputs**: balanced_nutrient_solution
 > **Critical**: No — this is an advanced optimization of hydroponic nutrient management; conventional hydroponics with manual pH adjustment is a functional alternative
 
-## Overview
 
 The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech](../chemistry/sem-tech.md)) enable precise nutrient ion management in hydroponic growing systems. While SEM Tech's primary application is chlor-alkali electrolysis, the same membrane platform — pulverized pre-functionalized resin beads in a PVC/CPVC binder — can be applied to electrodialysis for controlled-environment agriculture.
 
@@ -321,7 +320,7 @@ In a recirculating hydroponic system, plants selectively absorb ions at differen
 | Cucumber | 2.0-3.0 | 5.5-6.0 | Balanced N-P-K | Fast growth; frequent correction needed |
 | Herbs (basil, mint) | 1.0-2.0 | 5.5-6.5 | Moderate nitrogen | Continuous harvest; steady demand |
 
-## References
+## See Also
 
 - [SEM Tech Ion Exchange Membrane](../chemistry/sem-tech.md) — parent article on SEM Tech membrane manufacturing and properties
 - [Electrodialysis](../chemistry/sem-tech-electrodialysis.md) — electrochemical ion separation using SEM Tech membranes

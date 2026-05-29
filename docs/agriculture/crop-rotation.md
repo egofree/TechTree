@@ -8,7 +8,6 @@
 > **Outputs**: sustained_soil_fertility, nitrogen_fixation, diversified_crops
 > **Critical**: Yes — without rotation, continuous cropping depletes soil in 3-5 years, making long-term agriculture impossible
 
-## Overview
 
 Crop rotation is the practice of growing a planned sequence of different crop species on the same land across successive growing seasons. The fundamental principle is that different crops have different nutrient demands, root depths, pest associations, and growth habits. By alternating crops, the farmer exploits these differences to break pest cycles, replenish soil nutrients, manage soil structure, and reduce weed pressure — all without external chemical inputs.
 
@@ -282,7 +281,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 - **Medieval 3-field**: Grain → legume → fallow. Introduced legume phase (beans, peas). The first systematic rotation. Increased carrying capacity by 30-50% over 2-field.
 - **Norfolk 4-field** (18th century): Wheat → turnips → barley → clover. Eliminated fallow, integrated livestock, doubled output per hectare. The agricultural basis for the Industrial Revolution's freed labor.
 
-## References
+## See Also
 
 - [Foundations → Agriculture & Food Production](../foundations/food-agriculture.md) — basic cultivation methods, grain yields, food preservation
 - [Agriculture → Soil Management](soil-management.md) — composting, biochar, pH management, organic matter building

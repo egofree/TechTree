@@ -9,7 +9,6 @@
 > **Critical**: Yes — semiconductor manufacturing is impossible without supply chain coordination involving hundreds of specialist inputs
 
 
-## Overview
 
 Supply chain coordination is the planning and management of multi-step production sequences, procurement of inputs from diverse sources, and inventory management across distributed operations. It extends [trade](./trade.md) from simple bilateral exchange to planned, multi-party procurement networks; it extends [accounting](./accounting.md) from passive record-keeping to active planning and optimization.
 
@@ -244,7 +243,7 @@ Supply chain coordination is an organizational capability. The "materials" are d
 | Buffer-heavy (strategic stockpiling) | Large inventories maintained as insurance against disruption | Any era | When supply is unreliable or strategically critical |
 
 
-## References
+## See Also
 
 - [Transport](../transport/index.md) — the physical infrastructure that moves materials through the supply chain
 - [Writing](../knowledge/writing.md) — the documentation system for orders, manifests, and records

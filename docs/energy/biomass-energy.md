@@ -8,7 +8,6 @@
 > **Outputs**: biogas, producer_gas, biofuel, biomass_heat, biomass_electricity
 > **Critical**: No — biomass supplements other energy sources and provides fuel security when petroleum and coal are unavailable
 
-## Overview
 
 Biomass energy converts organic material — wood, agricultural residues, animal manure, food waste, and purpose-grown energy crops — into useful heat, combustible gas, or liquid fuels. It is the oldest energy source (fire) and remains relevant at every stage of industrial development: from simple wood fires for heating, through biogas digesters for gas production, to biomass gasification powering internal combustion engines for electricity generation.
 
@@ -350,7 +349,7 @@ Updraft gasifiers pass gas upward through the fuel bed. The gas exits through th
 - **Biodiesel**: Transesterification of vegetable oils or animal fats with methanol and NaOH catalyst. Energy density: 37-38 MJ/kg (similar to diesel). Used as diesel substitute or blend. Requires oilseed press and methanol production (chemistry-dependent).
 - **Wood diesel (Fischer-Tropsch)**: Catalytic conversion of syngas (from gasification) to liquid hydrocarbons. Complex catalyst system (iron or cobalt-based). Efficiency: 30-45% (fuel-to-liquid). Requires advanced chemical engineering — late bootstrap technology.
 
-## References
+## See Also
 
 - **[Charcoal Production](charcoal.md)** — Charcoal as gasifier fuel, pyrolysis chemistry
 - **[Heat Engines](engine.md)** — Internal combustion engines modified for gas fuel

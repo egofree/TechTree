@@ -237,6 +237,24 @@ For 300 mm fabs, SEMI E38 (GEM300) adds capabilities specific to automated wafer
 - **Local operation mode**: If all communication with MES is lost, the tool must continue operating in local mode. The operator selects recipes manually from the tool's control panel and monitors the process using the tool's built-in displays. Local operation is logged and reported when communication is restored.
 - **Message queuing**: During brief communication interruptions (<30 seconds), the HSMS gateway queues messages and delivers them when the connection recovers. Longer interruptions (>30 seconds) trigger the tool to enter local mode and alert the operator.
 
----
+## Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Automation & Robotics](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| HSMS connection refused | Equipment controller not running or firewall blocking | Verify equipment controller process is active; check TCP port 5000 (default); verify network path and firewall rules |
+| Message timeout (T3 timer) | Network congestion or equipment slow to respond | Increase T3 timeout; check network switch load; verify equipment CPU not overloaded |
+| S1F13 error (communication establishment fails) | Incompatible SECS/GEM version or device ID mismatch | Verify device ID matches host configuration; check SECS/GEM version compatibility; review equipment logs |
+| Duplicate message received | Network retransmission or equipment sending twice | Check for network packet duplication; verify T5 (connect separation timer) configuration |
+| Equipment alarm flood | Process upset generating hundreds of alarms | Configure alarm filtering at gateway; group related alarms; check equipment-side alarm thresholds |
+| Data collection events missing | Equipment not configured to send trace data | Verify S2F33/S2F35 trace setup; check event enable flags; confirm recipe includes trace parameters |
+
+## See Also
+
+- [Process Control](process-control.md) — the automation system that consumes equipment data
+- [Material Transport](material-transport.md) — automated wafer and carrier movement
+- [Electronics](../electronics/index.md) — electronic hardware underlying communication
+- [Computing](../computing/index.md) — computing infrastructure for fab control systems
+- [Photolithography / Fab Processes](../photolithography/fab-processes.md) — the tools being controlled
+- [Cleanrooms](../photolithography/cleanrooms.md) — the environment housing the equipment
+
+[← Back to Automation & Robotics](index.md)

@@ -8,7 +8,9 @@
 > **Outputs**: cloth, canvas
 > **Critical**: No
 
-### Weaving & Cloth Production
+Weaving interlaces warp (lengthwise) and weft (crosswise) yarns to create cloth — the fundamental textile manufacturing step between spinning yarn and finishing fabric. Loom technology evolved from simple frame looms producing 0.5-1 m²/hour to power looms exceeding 150 picks/minute. The weave structure (plain, twill, satin) determines cloth properties: strength, drape, abrasion resistance, and appearance.
+
+## Weaving & Cloth Production
 
 **[Frame loom](../glossary/frame-loom.md)** (simplest):
 - **Construction**: Rectangular wooden frame. Warp (lengthwise) threads tied top and bottom. Weft (crosswise) thread passed over and under warp by hand. Heddle bar (flat stick with holes and slots) lifts alternate warp threads to create shed (gap for weft passage). Width: 30-60 cm. Length limited by frame size.
@@ -230,10 +232,24 @@ Inspect each piece of finished cloth for defects before grading:
 - **Uneven beat-up**: Variation in weft density visible as horizontal bands of different density. Indicates inconsistent beating pressure or varying let-off tension. Structural concern in severe cases — thin bands are weaker.
 - **Reed marks**: Parallel vertical lines at the spacing of the reed dents, caused by the reed pressing too hard or by oil on the reed. Primarily cosmetic. Reduce beating pressure or clean the reed.
 
-### Cross-Domain Dependencies
+## Troubleshooting
 
-- Yarn from [Spinning](../textiles/spinning.md), cloth finished via [Finishing](../textiles/finishing.md) and [Dyeing](../textiles/dyeing.md). Loom uses [Wood](../plants/structural-plants.md) and [Metals](../metals/iron-steel.md). Power from [Steam](../energy/steam-power.md) and [Electricity](../energy/electricity.md).
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Broken warp threads (frequent) | Yarn too weak for tension or abrasive heddles | Use stronger warp yarn (higher twist); sand heddle eyes smooth; reduce tension; size the warp (starch coating) |
+| Uneven beat-up (density bands) | Inconsistent beating force or let-off tension variation | Standardize beater stroke; check warp beam brake; add tension-regulating device |
+| Shuttle sticking or jamming | Race uneven or shuttle worn | Smooth the race; check shuttle for burrs; verify shuttle weight matches loom |
+| Selvedge drawing in (narrowing at edges) | Too much weft tension or insufficient temple width | Reduce weft take-up tension; use temple (stretcher) to hold cloth width; check bobbin winding |
+| Cloth cockling (puckered surface) | Uneven warp tension across width | Re-beam warp with even tension; check for tangled warp threads; adjust weighting on individual warp ends |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*
+- [Spinning](spinning.md) — yarn production as input to weaving
+- [Finishing](finishing.md) — fulling, calendering, and waterproofing woven cloth
+- [Dyeing](dyeing.md) — coloring cloth before or after weaving
+- [Fibers](fibers.md) — fiber preparation and properties
+- [Sewing & Tailoring](sewing-tailoring.md) — garment construction from woven cloth
+- [Steam Power](../energy/steam-power.md) — power for mechanized looms
+- [Electricity](../energy/electricity.md) — power for power looms
+
+[← Back to Textiles](index.md)

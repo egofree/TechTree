@@ -3,12 +3,20 @@
 > **Node ID**: textiles.finishing
 > **Domain**: [Textiles](./index.md)
 > **Dependencies**: [`chemistry.alkalis`](../chemistry/alkalis.md), [`textiles`](./index.md), [`textiles.weaving`](weaving.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`textiles.dyeing`](dyeing.md), [`polymers.rubber`](../polymers/rubber.md)
 > **Timeline**: Years 8-14
 > **Outputs**: finished_cloth, waterproof_fabric, fireproofed_textiles
 > **Critical**: No
 
-### Fulling
+Fabric finishing transforms raw woven cloth into functional textiles: denser wool through fulling, smoother surfaces through calendering, whiter fabric through bleaching, stronger cotton through mercerization, and water-resistant or fire-resistant cloth through chemical treatments. Each finishing process alters specific cloth properties without changing the underlying fiber or weave structure.
+
+## Prerequisites
+
+- [Alkalis](../chemistry/alkalis.md) — caustic soda for mercerization and bleaching
+- [Weaving](weaving.md) — woven cloth as input material
+- [Dyeing](dyeing.md) — color processes that interact with finishing
+
+## Fulling
 
 Fulling cleans, shrinks, and felts woven cloth. The process transforms a loose, open weave into a compact, dense fabric by matting the fiber scales together. Wool is the primary candidate because its scaly fiber structure felts readily under moisture, heat, and mechanical action. Cotton and linen can also be fulled, but the effect is less pronounced because these fibers lack the scales that drive wool felting.
 
@@ -227,13 +235,24 @@ Decating is a finishing process for wool fabrics that sets the surface and impro
 - Decating for wool fabric surface setting
 - Understanding of finishing sequence and dyeing interactions
 
-### Cross-References
+## Troubleshooting
 
-- **Woven cloth input**: [weaving](weaving.md)
-- **Caustic soda for mercerization**: [acids and bases](../chemistry/alkalis.md)
-- **Rubber processing**: [rubber](../polymers/rubber.md)
-- **Dyeing finished cloth**: [dyeing](dyeing.md)
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Uneven fulling (patchy density) | Inconsistent agitation or temperature across cloth | Ensure even mechanical action; maintain uniform temperature (40-50°C); rotate cloth regularly during process |
+| Fabric yellowing after bleaching | Insufficient rinsing or peroxide residue | Rinse thoroughly after bleaching; neutralize with mild acid rinse (dilute acetic acid); reduce peroxide concentration |
+| Mercerization uneven (patchy sheen) | Uneven tension or incomplete caustic penetration | Maintain uniform tension on cloth frame; ensure full immersion in 20-25% NaOH; increase dwell time |
+| Waterproofing washing out | Insufficient wax/oil penetration or no heat set | Heat-set wax treatment at 150-170°C; increase number of coating passes; verify fabric is clean before coating |
+| Calender glazing uneven | Roll pressure not uniform or fabric moisture inconsistent | Adjust roll pressure across width; dry fabric to uniform moisture before calendering; check roll parallelism |
+| Fireproofing ineffective | Inadequate boron/phosphate concentration or insufficient curing | Increase chemical concentration; extend cure time at specified temperature; verify salt penetration into fiber |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*
+- [Weaving](weaving.md) — woven cloth as input to finishing
+- [Dyeing](dyeing.md) — color processes that interact with finishing
+- [Alkalis](../chemistry/alkalis.md) — caustic soda for mercerization and bleaching
+- [Rubber](../polymers/rubber.md) — rubber coating for waterproof textiles
+- [Fibers](fibers.md) — fiber properties that determine finishing behavior
+- [Sewing & Tailoring](sewing-tailoring.md) — finished cloth goes to garment construction
+
+[← Back to Textiles](index.md)

@@ -8,13 +8,11 @@
 > **Outputs**: packaged_ics, tested_ics, yield_data
 > **Critical**: Yes — semiconductor packaging protects the die from physical damage, moisture, and contamination. Without packaging, fabricated integrated circuits cannot be used in any electronic system.
 
-## Overview
-
 Semiconductor packaging and testing transforms bare silicon die into reliable, handled integrated circuits ready for assembly onto circuit boards. After wafer fabrication produces functioning die, they must be singulated, attached to a substrate, electrically connected (wire bonding), encapsulated for protection, and tested at multiple stages to ensure functionality and long-term reliability. Packaging determines the IC's physical form factor, thermal performance, and environmental protection; testing verifies that every device meets its electrical, mechanical, and lifetime specifications.
 
-The packaging and testing stage is often the bottleneck for semiconductor production — while a modern fab produces thousands of wafers per month, the test floor must probe every die individually, package the good ones, and burn-in test each packaged part. Test cost can represent 5-10% of total die cost for complex devices, and yield at wafer sort directly determines fab economics (a 10% yield improvement on a high-volume product is worth millions). This article covers cleanroom infrastructure, die preparation, packaging processes, wire bonding, test methods, reliability qualification, and quality control systems.
+The packaging and testing stage is often the bottleneck for semiconductor production — while a modern fab produces thousands of wafers per month, the test floor must probe every die individually, package the good ones, and burn-in test each packaged part. Test cost can represent 5-10% of total die cost for complex devices, and yield at wafer sort directly determines fab economics.
 
-### Cleanroom Consumables
+## Cleanroom Consumables
 
 **HEPA/ULPA filter media**:
 - **HEPA (High Efficiency Particulate Air)**: Remove 99.97% of particles ≥0.3 μm. Construction: fine fiberglass mat (fiber diameter 0.5-2 μm), folded into accordion pleats (increases surface area 20-50x). Separator: corrugated aluminum or hot-melt bead between pleats. Frame: wood, metal, or plastic. Air velocity through filter: 0.025 m/s. Pressure drop: 250 Pa at rated flow.
@@ -222,16 +220,26 @@ ICH (International Council for Harmonisation) guidelines define standard conditi
 - **Moisture sensitivity**: Plastic packages absorb moisture (MSL — moisture sensitivity level). During solder reflow, absorbed moisture rapidly expands, causing "popcorn cracking" of the package. MSL-rated parts must be baked dry and used within a specified floor life after opening the moisture-barrier bag.
 - **Probe card wear**: Tungsten-rhenium probe needles degrade after 100,000-500,000 touchdowns, increasing contact resistance and causing false test failures. Probe card replacement is a significant recurring cost ($5,000-50,000 per card).
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+- Wire bond lifting (non-stick on pad) | Pad contamination or incorrect bond parameters | Clean pad with plasma descum; verify ultrasonic power and force; check capillary wear |
+| Die attach voids (X-ray shows gaps) | Insufficient epoxy or trapped air during dispensing | Optimize epoxy dispense pattern; add vacuum step during cure; verify epoxy viscosity |
+| Package cracking after solder reflow | Moisture absorption (popcorn cracking) | Bake parts per MSL rating before reflow; track floor life after bag opening; use dry pack |
+| High contact resistance at probe | Probe tip contamination or insufficient overtravel | Clean probe tips; increase overtravel (10-25 μm typical); replace worn probes |
+| Burn-in failures exceeding 2% | Infant mortality from fab defect density | Review wafer sort yield; tighten wafer sort limits; investigate failure modes with FA |
+| Delamination between die and molding compound | Poor adhesion from contaminated die surface | Apply silane adhesion promoter; verify die attach cure; check for moisture before molding |
+
 ## See Also
 
-- **[Dopant and Etch Gases](dopant-etch-gases.md)**: Gas supply for etching and doping during wafer fabrication
-- **[Hydrogen and Silane](hydrogen-silane.md)**: Feedstock gases for CVD silicon deposition
-- **[Vacuum Systems](../gas-handling/vacuum.md)**: Vacuum technology for deposition and etch processes
-- **[Solvents](solvents.md)**: Ultra-pure solvents for wafer cleaning (RCA clean)
-- **[Thermoplastics](../polymers/thermoplastics.md)**: Polymer materials for packaging and cleanroom consumables
-- **[Thermosets](../polymers/thermosets.md)**: Epoxy molding compounds for IC encapsulation
-- **[Analytical Testing](solvents.md)**: Titration, spectrophotometry, and chromatography methods
+- [Dopant and Etch Gases](dopant-etch-gases.md) — gas supply for etching and doping during wafer fabrication
+- [Hydrogen and Silane](hydrogen-silane.md) — feedstock gases for CVD silicon deposition
+- [Vacuum Systems](../gas-handling/vacuum.md) — vacuum technology for deposition and etch processes
+- [Solvents](solvents.md) — ultra-pure solvents for wafer cleaning (RCA clean)
+- [Thermoplastics](../polymers/thermoplastics.md) — polymer materials for packaging and cleanroom consumables
+- [Thermosets](../polymers/thermosets.md) — epoxy molding compounds for IC encapsulation
+- [Fab Processes](../photolithography/fab-processes.md) — the wafer fabrication processes that precede packaging
+- [Analytical Verification](../ultra-pure/analytical-verification.md) — contamination analysis methods
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+[← Back to Chemistry](index.md)

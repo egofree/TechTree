@@ -8,7 +8,17 @@
 > **Outputs**: producer_gas, charcoal, wood_tar
 > **Critical**: No — wood gasification provides fuel gas and chemical feedstocks from biomass but is superseded by coal and petroleum routes
 
-### Producer Gas
+## Problem
+
+Wood gasification converts solid biomass (wood, agricultural waste) into a combustible gas mixture (producer gas) through partial combustion in a restricted-oxygen environment. The resulting gas — ~25% CO, ~10% H₂, ~60% N₂ — can power internal combustion engines and furnaces when petroleum is unavailable. The process also yields charcoal and wood tar as valuable byproducts. This is a pragmatic backup energy technology, not a primary industrial fuel, but critical during petroleum supply disruptions.
+
+## Prerequisites
+
+- [Petroleum Alternatives](petroleum-alternatives.md) — context for fossil fuel substitution strategies
+- [Charcoal](../energy/charcoal.md) — charcoal production knowledge and kiln technology
+- [Distillation](distillation.md) — fractional distillation of wood tar and creosote
+
+## Producer Gas
 
 **Composition**: ~25% CO (carbon monoxide), ~10% H₂ (hydrogen), ~60% N₂ (nitrogen from air), ~5% CO₂. Heating value ~5-6 MJ/m³ (low compared to natural gas at ~35 MJ/m³, but usable for engines and furnaces). The gas is a product of incomplete combustion — carbon reacts with limited oxygen to form CO rather than CO₂.
 
@@ -214,14 +224,24 @@ Wood gasification technology occupies a pragmatic niche in the energy landscape:
 - **Feedstock variability**: Wood moisture content (15-60% depending on seasoning), species density, and piece size all affect gasifier performance. Gasifiers must be derated for wet fuel (10-30% capacity loss). Consistent fuel preparation (drying, chipping to uniform size) adds cost and complexity.
 - **Scale limitations**: Wood gasification is practical up to ~10 MW thermal output. Above this scale, fuel supply logistics (gathering, transporting, and drying wood for a 10+ MW plant consuming 2-5 tonnes/hour of dry wood) become prohibitive. Coal or natural gas gasification is preferred for large-scale syngas production.
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Gasifier producing mostly CO₂ (low-quality gas) | Too much air (over-oxidation) or channeling | Reduce air intake; check for channeling around fuel edges; repack fuel bed; verify grate sealing |
+| Tar plugging downstream pipes | Gas exit temperature too low (<350°C) | Insulate gas outlet; add tar cracking zone at 800-1000°C; install tar separator before cooling |
+| Engine running rough on producer gas | Tar contamination or gas too lean | Clean gas filter; check for tar in intake manifold; enrich gas by reducing air/fuel ratio |
+| Gasifier bridging (fuel stops feeding) | Irregular fuel size or high moisture | Use uniformly sized fuel (5-10 cm chunks); dry wood below 20% moisture; agitate grate mechanically |
+| Excessive smoke from gasifier air inlet | Back-pressure or blocked gas outlet | Clean gas outlet pipe; check for tar buildup in filter; verify engine suction is pulling gas through |
+| Low gas output despite full fuel bed | Channeling — air bypasses fuel bed | Repack fuel; use smaller, more uniform fuel pieces; install agitation or stirring mechanism |
+
 ## See Also
 
-- **[Petroleum Alternatives](petroleum-alternatives.md)**: Fossil fuel substitutes including biomass
-- **[Distillation](distillation.md)**: Fractional distillation of wood tar and creosote
-- **[Solvents](solvents.md)**: Turpentine and methanol from wood pyrolysis
-- **[Explosives](explosives.md)**: Charcoal as a component of black powder
-- **[Energy](../energy/index.md)**: Power generation from producer gas
+- [Petroleum Alternatives](petroleum-alternatives.md) — fossil fuel substitutes including biomass
+- [Distillation](distillation.md) — fractional distillation of wood tar and creosote
+- [Solvents](solvents.md) — turpentine and methanol from wood pyrolysis
+- [Explosives](explosives.md) — charcoal as a component of black powder
+- [Energy](../energy/index.md) — power generation from producer gas
+- [Charcoal](../energy/charcoal.md) — charcoal production as a gasification byproduct
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+[← Back to Chemistry](index.md)

@@ -24,7 +24,7 @@ The efficiency gap between a bad harness and a good one is enormous. A horse in 
 
 ## Harness Systems
 
-### Neck Yoke (Oxen)
+## Neck Yoke (Oxen)
 
 The neck yoke is a wooden beam that clips to the horns or sits behind the poll of two oxen working as a pair. It is the simplest effective harness for bovine draft.
 
@@ -34,7 +34,7 @@ The neck yoke is a wooden beam that clips to the horns or sits behind the poll o
 - **Advantages**: oxen push with their necks and shoulders naturally. The neck yoke aligns with their anatomy. Simple to construct, durable (a hardwood yoke lasts 10-20 years).
 - **Limitation**: only works for bovines. Horses have different neck anatomy and cannot use a neck yoke effectively.
 
-### Withers Yoke (Horses)
+## Withers Yoke (Horses)
 
 For horses and mules, the withers yoke rests on the ridge of the withers rather than engaging the neck.
 
@@ -42,7 +42,7 @@ For horses and mules, the withers yoke rests on the ridge of the withers rather 
 - **Position**: sits forward on the withers, held in place by a belly band and breeching strap. The horse pulls by leaning into a breast strap or collar; the withers yoke mainly stabilizes the load.
 - **Use case**: common in regions where horses replaced oxen but yoke tradition persisted (northern Europe, parts of Asia). Less efficient than a full collar harness but simpler to make.
 
-### Breast Strap Harness
+## Breast Strap Harness
 
 A single leather strap, 6-8 cm wide, passing across the lower chest of the horse and connecting to the traces (pulling straps) on each side.
 
@@ -51,7 +51,7 @@ A single leather strap, 6-8 cm wide, passing across the lower chest of the horse
 - **Advantages**: fastest harness to build. Minimal materials. Adequate for light carts, skids, and sprint work.
 - **Critical flaw**: the pulling force concentrates on a narrow band across the sternum. Under heavy load, the strap rides up onto the throat. This is not a comfort issue. It is an asphyxiation issue. The breast strap harness is responsible for the widespread ancient misconception that horses are weaker than oxen. They are not weaker. They were being strangled.
 
-### Collar Harness (Improved)
+## Collar Harness (Improved)
 
 The collar harness distributes pulling force across the shoulders and chest through a padded, rigid or semi-rigid collar that encircles the horse's neck without contacting the throat.
 
@@ -61,7 +61,7 @@ The collar harness distributes pulling force across the shoulders and chest thro
 - **Origin**: documented in China by the 5th century CE. Arrived in Europe by the 9th century. The adoption of the collar harness in medieval Europe roughly tripled agricultural output per horse and is considered a major factor in the population expansion of the High Middle Ages.
 - **Construction sequence**: measure the horse's neck at the shoulder. Cut collar body from heavy leather in two halves. Stitch padding pocket, stuff firmly with oat straw or horsehair. Sew halves together. Fit hames into the groove. Attach traces (2-3 m leather straps, 4-5 cm wide).
 
-### Breeching (Braking)
+## Breeching (Braking)
 
 Breeching is a leather strap, 8-10 cm wide, passing around the horse's haunches and connecting to the shafts of the vehicle. When the animal slows or the vehicle pushes forward on a downhill, the breeching bears against the haunches and brakes the load.
 
@@ -69,7 +69,7 @@ Without breeching, a loaded wagon on a downhill runs into the horse. The options
 
 ## Plowing Applications
 
-### Ard Plow (Scratch Plow)
+## Ard Plow (Scratch Plow)
 
 The ard is the simplest plow: a wooden beam with an angled share that scratches a furrow into the soil without inverting it.
 
@@ -79,7 +79,7 @@ The ard is the simplest plow: a wooden beam with an angled share that scratches 
 - **Limitation**: the ard does not invert the sod. It opens a furrow but does not bury weeds or crop residue. Useful in Mediterranean and arid climates where soils are light and weed pressure is low. Inadequate for heavy northern European or temperate soils where sod inversion is necessary for seedbed preparation.
 - **Draft requirement**: 200-400 kg draw for an ox pair in average soil. A single ox can pull an ard in light soil.
 
-### Moldboard Plow
+## Moldboard Plow
 
 The moldboard plow adds a curved plate (the moldboard) behind the share that lifts and inverts the furrow slice. This buries weeds, incorporates crop residue, and produces a proper seedbed in a single pass.
 
@@ -89,7 +89,7 @@ The moldboard plow adds a curved plate (the moldboard) behind the share that lif
 - **Coverage**: 0.2-0.5 ha/day with an ox pair, depending on soil and plow weight.
 - **Draft requirement**: 400-800 kg in medium soil with an ox pair. Heavy clay requires 2-4 oxen (800-1600 kg draw). This is where the collar harness becomes critical: a 4-ox team in breast straps is a choke hazard. In collar harness, the same team handles the load safely.
 
-### Plowing Calendar
+## Plowing Calendar
 
 Timing depends on soil type and climate, but general principles hold:
 
@@ -99,7 +99,7 @@ Timing depends on soil type and climate, but general principles hold:
 
 ## Carts and Wagons
 
-### Two-Wheel Cart
+## Two-Wheel Cart
 
 The simplest load-carrying vehicle. Single axle, solid wooden wheels, open bed.
 
@@ -110,7 +110,7 @@ The simplest load-carrying vehicle. Single axle, solid wooden wheels, open bed.
 - **Advantages**: fast to build (a skilled wheelwright makes one in 2-3 days), few moving parts, handles rough terrain. The pivot-free single axle means the cart follows the animal's path without steering mechanism.
 - **Limitation**: the load rests partly on the animal's back through the shafts. Heavy loads cause back strain. Not suitable for long-distance haulage above 300 kg.
 
-### Four-Wheel Wagon
+## Four-Wheel Wagon
 
 Larger capacity, steerable front axle, spoked wheels with iron tires. The wagon is the primary long-distance freight vehicle of the pre-industrial world.
 
@@ -119,7 +119,7 @@ Larger capacity, steerable front axle, spoked wheels with iron tires. The wagon 
 - **Draft**: 2-4 oxen or 1-2 horses. Ox teams are slower (2-3 km/h) but steady and able to handle rough roads. Horse teams are faster (4-6 km/h) but need better road surfaces.
 - **Bed**: 2.5-3.5 m long, 1.2-1.5 m wide. Side boards 0.3-0.5 m high for bulk cargo. Tailgate drops for loading.
 
-### Wheel Construction (Spoked)
+## Wheel Construction (Spoked)
 
 The spoked wheel is a significant step up from solid disc wheels. Lighter, stronger, and faster-rolling.
 
@@ -132,11 +132,11 @@ The spoked wheel is a significant step up from solid disc wheels. Lighter, stron
 
 The horse whim (also called a whim gin or horse gin) converts animal walking motion into rotational power for hoisting loads from mine shafts.
 
-### Construction
+## Construction
 
 A vertical wooden drum, 6-10 m in diameter, mounted on a central pivot post. The drum has horizontal sweep arms extending from the center. One or two horses are hitched to the sweep arms and walk in a circle at 1-1.5 m/s.
 
-### Mechanism
+## Mechanism
 
 - **Rope winding**: a hemp or manila rope, 2-4 cm diameter, is wound around the drum. As the drum rotates, the rope winds or unwinds, raising or lowering a bucket or platform in the mine shaft.
 - **Headframe**: a wooden frame above the mine shaft, 4-8 m tall, carrying pulleys (sheaves) that redirect the rope from the horizontal drum to the vertical shaft. The headframe must be stout: it carries the full weight of the load plus dynamic forces from starting and stopping.
@@ -144,13 +144,13 @@ A vertical wooden drum, 6-10 m in diameter, mounted on a central pivot post. The
 - **Lift capacity**: 200-500 kg at 0.5-1 m/s rope speed. The capacity is limited by rope strength and the horse's sustained effort. Multiple horses on longer sweep arms increase capacity proportionally.
 - **Rope guide**: a wooden or iron guide at the drum edge ensures the rope winds evenly in a single layer. Overlapping wraps cause jamming and uneven loading.
 
-### Operation
+## Operation
 
 The horse whim replaced hand winding for shafts deeper than about 20 m. Below that depth, the weight of rope plus ore makes manual winding impractical. A whim can service shafts to 100-150 m depth, beyond which the rope weight becomes prohibitive and steam winding engines take over.
 
 ## Milling Applications
 
-### Animal-Powered Millstones
+## Animal-Powered Millstones
 
 A donkey, mule, or ox walks in a circle, turning a horizontal gear that drives a vertical millstone through a gear reduction. The basic setup turns a 1-1.5 m diameter stone weighing 200-400 kg at 5-15 RPM.
 
@@ -158,7 +158,7 @@ A donkey, mule, or ox walks in a circle, turning a horizontal gear that drives a
 - **Stone dressing**: the millstone faces must be periodically dressed (grooved) with a chisel to maintain grinding efficiency. A dull stone produces coarse flour and generates excess heat that degrades the flour.
 - **Throughput**: 50-100 kg of grain per hour with a 1.2 m stone, depending on grain type and stone condition.
 
-### Treadmill
+## Treadmill
 
 An inclined or vertical wheel, 1.5-2.5 m diameter, with cleated steps on the inner or outer surface. The animal (horse, donkey, dog) walks on the steps, turning the wheel. The wheel shaft drives machinery via wooden gears or crank mechanisms.
 
@@ -166,7 +166,7 @@ An inclined or vertical wheel, 1.5-2.5 m diameter, with cleated steps on the inn
 - **Power**: 1-3 HP depending on wheel diameter and animal size. A horse treadmill drives a threshing machine, a saw, or a small grain mill.
 - **Construction**: wooden frame, 8-12 cleated steps on a heavy timber rim, iron or wooden axle. The incline angle is 15-25° from horizontal. Steeper angles deliver more torque but exhaust the animal faster.
 
-### Sakia (Animal-Driven Water Wheel)
+## Sakia (Animal-Driven Water Wheel)
 
 A vertical water wheel, 3-5 m diameter, carrying pottery or metal buckets along its rim. An animal (donkey, camel, ox) walks in a circle, turning the wheel via a right-angle gear drive. Buckets fill at the bottom of the rotation and empty into a trough at the top.
 
@@ -199,19 +199,19 @@ Connecting animal power to machinery requires mechanical transmission systems. T
 
 Working with draft animals involves predictable hazards. Most injuries fall into three categories.
 
-### Kicking Zones
+## Kicking Zones
 
 Horses and mules kick backward with considerable force. A full-force horse kick delivers enough energy to shatter bone. The danger zone extends 3-4 m directly behind the animal and 1-2 m to each side at a 45° angle. Never stand directly behind a draft animal. Approach from the front or the near side (left side, by convention). Speak to the animal before touching it so it knows you are there.
 
 Oxen are less prone to kicking but can trample. An ox stepping backward onto a foot causes crush injury. Keep feet clear when hitching and unhitching.
 
-### Crush Injuries
+## Crush Injuries
 
 Wagons and carts are heavy. A loaded 4-wheel wagon weighs 500-1000 kg plus cargo. Pinch points between the wagon and a wall, fence, or another wagon will crush anything caught in them. Specific hazards: between the wheel and the wagon bed, between the wagon tongue and the singletree, under a jack during wheel removal.
 
 Runaway wagons on downhill grades are the most dangerous scenario. Prevention: breeching on all teams, driver-present brake lever on the wagon (a wooden or iron shoe pressed against the wheel by a lever), and block-and-tackle lowering on steep grades.
 
-### Harness Inspection
+## Harness Inspection
 
 Inspect harness leather before each work day. Check for:
 

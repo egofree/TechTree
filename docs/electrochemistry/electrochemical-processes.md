@@ -3,16 +3,24 @@
 > **Node ID**: electrochemistry.electrochemical-processes
 > **Domain**: [Electrochemistry & Plating](./index.md)
 > **Dependencies**: [`chemistry.acids`](../chemistry/acids.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`semiconductors`](../semiconductors/index.md), [`electronics.assembly`](../electronics/assembly.md)
 > **Timeline**: Years 30-80
 > **Outputs**: electropolished_surfaces, electroformed_parts, electroless_nickel, ENIG_surfaces, electroless_copper
 > **Critical**: Yes — electropolishing produces ultra-low-outgassing vacuum chamber surfaces; ENIG is the dominant PCB surface finish with no practical alternative
 
-### Overview
+### Problem
 
 This capability covers three electrochemical surface processes that are critical to semiconductor manufacturing and advanced engineering: electropolishing (controlled anodic dissolution for ultrasmooth surfaces), electroforming (building precision metal structures by electrodeposition onto a mandrel), and electroless plating (autocatalytic metal deposition without external current). Unlike the processes covered in [Electroplating](electroplating.md) (which deposits metal from an external source onto a cathode), these processes either dissolve material from the workpiece surface (electropolishing), build freestanding metal parts (electroforming), or deposit metal by chemical reduction without applied current (electroless plating).
 
 For semiconductor manufacturing, electropolishing produces the ultra-smooth, chromium-enriched surfaces required for process chamber interiors (surface roughness Ra <0.1 μm, outgassing rate <10⁻¹⁰ Torr·L/s·cm²). Electroforming creates precision stampers for optical disc mastering and microfluidic device molds with sub-micron feature replication. Electroless nickel immersion gold (ENIG) is the dominant surface finish for PCBs, providing a flat, solderable, wire-bondable surface for BGA and QFP packages.
+
+### Prerequisites
+
+- [Acids](../chemistry/acids.md) — sulfuric, phosphoric, and hydrochloric acids for electropolishing baths
+- [Electrolysis](../chemistry/electrolysis.md) — fundamental electrochemistry principles and power supplies
+- [Electroplating](electroplating.md) — related electrodeposition processes and equipment
+- [Metals / Alloys](../metals/alloys.md) — stainless steel, nickel, copper, and gold source materials
+- [Electricity](../energy/electricity.md) — rectified DC power supplies for electropolishing
 
 ### Electropolishing
 
@@ -207,13 +215,24 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 
 **Nickel sensitization**: Nickel and nickel compounds are skin sensitizers (allergic contact dermatitis affects 10-20% of the general population). Repeated skin contact with nickel plating solutions causes sensitization that is permanent — once sensitized, even trace nickel exposure causes dermatitis. Wear nitrile gloves (double-gloved) when handling nickel solutions. Do not touch nickel-plated parts with bare hands.
 
-### See Also
+### Troubleshooting
 
-- **[Electroplating](electroplating.md)**: Copper damascene and electrolytic plating processes
-- **[Anodizing](anodizing.md)**: Electrochemical oxide growth on aluminum and titanium
-- **[Electrolysis](../chemistry/electrolysis.md)**: Fundamental electrochemistry principles
-- **[Metal Finishing](../metals/finishing.md)**: Broader context of surface treatment processes
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Electropolished surface pitted | Gas bubbles clinging to surface during polishing | Agitate or recirculate electrolyte; increase current density slightly; use cathode with gas-release grooves |
+| Electroformed part too thin | Deposition time too short or current density too low | Extend plating time; verify current density against bath specification; check anode-cathode spacing |
+| Electroless nickel bath decomposes (runaway) | Temperature exceeded 95°C or stabilizer depleted | Maintain ±2°C control; monitor stabilizer concentration; install automatic dump/dilution system |
+| ENIG surface black pad | Excessive gold immersion attacking nickel layer | Limit gold immersion time to 8-12 minutes; verify nickel phosphorus content (7-9% P); reduce gold bath temperature |
+| Electroless copper poor adhesion | Surface not properly catalyzed or contaminated | Verify catalyst (Pd-Sn) activation step; clean substrate thoroughly; check etch uniformity |
+| Uneven electropolish (edge burning) | Current density too high at edges | Use current robbers/shields at part edges; reduce overall current density; fix part orientation |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Electrochemistry & Plating](./index.md) • [All Domains](../index.md)*
+- [Electroplating](electroplating.md) — copper damascene and electrolytic plating processes
+- [Anodizing](anodizing.md) — electrochemical oxide growth on aluminum and titanium
+- [Electrolysis](../chemistry/electrolysis.md) — fundamental electrochemistry principles
+- [Metal Finishing](../metals/finishing.md) — broader context of surface treatment processes
+- [Semiconductors](../semiconductors/index.md) — vacuum chamber and PCB surface requirements
+- [Electronics Assembly](../electronics/assembly.md) — ENIG surface finish in PCB manufacturing
+
+[← Back to Electrochemistry](index.md)

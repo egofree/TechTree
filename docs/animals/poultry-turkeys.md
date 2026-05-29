@@ -3,14 +3,12 @@
 > **Node ID**: animals.poultry.turkeys
 > **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.poultry`](poultry.md), [`agriculture`](../agriculture/soil-management.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`agriculture.soil-management`](../agriculture/soil-management.md)
 > **Timeline**: Years 1-10+
 > **Outputs**: turkey_meat, feathers, manure
 > **Critical**: No — premium meat bird but chickens are more versatile and productive
 
-### Overview
-
-Domestic turkeys (*Meleagris gallopavo*) are the largest poultry species commonly raised for meat. Originating from the wild turkey of North America, domestic turkeys produce substantially more meat per bird than chickens — mature toms reach 8-15 kg while hens reach 4-8 kg. Turkeys require more space and different management than chickens but yield a premium carcass with a distinctive flavor profile valued for special occasions and diverse culinary applications. Their manure is nitrogen-rich (approximately 1.3% N, 1.0% P, 0.5% K), making it a valuable soil amendment.
+Domestic turkeys (*Meleagris gallopavo*) are the largest poultry species commonly raised for meat. Mature toms reach 8-15 kg, hens 4-8 kg — substantially more per bird than chickens. They require more space, higher-protein feed, and different management, but yield a premium carcass. Their manure is nitrogen-rich (1.3% N, 1.0% P, 0.5% K). Heritage breeds breed naturally, eliminating the need for artificial insemination — a key advantage for bootstrapping.
 
 ## Prerequisites
 
@@ -233,6 +231,24 @@ Acorns provide exceptional feed value in autumn — white oak acorns contain 6-8
 
 **Economic benchmarks**: A heritage tom reaching 10 kg live weight at 28 weeks consumes 25-30 kg of feed ($10-18) and yields 7.5-8.0 kg dressed carcass ($60-120 retail). Net margin per bird: $42-102. A small flock of 20 heritage turkeys on 400 m² of range produces 100-160 kg of dressed meat valued at $800-2,400 with feed costs of $200-360. Heritage breeds breed naturally, eliminating the need for artificial insemination equipment — the key advantage for bootstrapping.
 
----
+## Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Poults dying in first week (starve-out) | Poults not finding feed/water | Dip each poult's beak in water on arrival; place feed on paper towels for first 3 days; ensure brooder temperature 35-38°C |
+| Leg problems (perosis, splayed legs) | Niacin or manganese deficiency | Supplement brewer's yeast at 3-5% of diet; ensure starter has 70-90 mg/kg niacin; provide riboflavin supplement |
+| Cannibalism (pecking) | Overcrowding, poor nutrition, or bright light | Reduce density; provide range or pecking objects; dim lighting; add methionine to diet |
+| Poor hatch rate from natural mating | Hens too heavy (broad-breasted) or male-to-female ratio wrong | Use heritage breeds for natural mating; maintain 1 tom per 8-10 hens; check tom fertility |
+- Blackhead disease (histomoniasis) | Earthworms carrying parasite on range previously used by chickens | Rotate range away from chicken areas; treat with metronidazole if available; avoid mixing turkeys with chickens |
+| Frostbite on wattles and combs | Sub-zero temperatures with wind exposure | Provide windbreak shelter; apply petroleum jelly to wattles before cold snaps; consider housing during extreme cold |
+
+## See Also
+
+- [Poultry Overview](poultry.md) — general poultry husbandry and biosecurity
+- [Chickens](poultry-chickens.md) — primary poultry for comparison
+- [Coturnix Quail](poultry-coturnix.md) — small-scale poultry alternative
+- [Pigeons](poultry-pigeons.md) — minimal-input poultry
+- [Soil Management](../agriculture/soil-management.md) — turkey manure as fertilizer
+- [Animal Husbandry](animal-husbandry.md) — general livestock management
+
+[← Back to Animals](index.md)

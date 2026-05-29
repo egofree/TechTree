@@ -82,7 +82,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 2. **Sanitation**: Remove and destroy crop residues after harvest. Plow under or compost all plant debris. Many pests overwinter in crop residue — removing it eliminates their shelter. Burn heavily infested material (do not compost diseased plants).
 3. **Planting timing**: Plant before or after peak pest emergence. Early-planted wheat avoids Hessian fly emergence. Late-planted sweet corn avoids corn earworm peak. Know the emergence timing of key local pests and adjust planting dates by 2-4 weeks.
 4. **Trap cropping**: Plant a small area (5-10% of main crop) of a preferred host 1-2 weeks before the main crop. Pests concentrate on the trap crop, which is then destroyed (pulled and burned, or heavily treated with botanical spray). Example: plant mustard trap crop 2 weeks before cabbage to attract flea beetles.
- 5. **Resistant varieties**: When saving seed (see [Seed Saving](seed-saving.md)), select plants that showed pest resistance. Over generations, this builds locally adapted, pest-resistant crop populations.
+5. **Resistant varieties**: When saving seed (see [Seed Saving](seed-saving.md)), select plants that showed pest resistance. Over generations, this builds locally adapted, pest-resistant crop populations.
 
 **Strengths**:
 - No additional materials or cost — modifies existing farming practices only
@@ -100,7 +100,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 2. **Barriers — row covers**: Drape lightweight fabric or netting over wire hoops placed along crop rows. Bury or weigh down edges to exclude flying insects. Remove covers when plants flower (to allow pollination). Row covers reduce cabbage moth damage by 80-95%, carrot rust fly by 90%+.
 3. **Barriers — collars**: Place 5-10 cm diameter collars of cardboard, tin, or bark around transplant stems at soil level. Collars prevent cutworms from reaching stems. Effective and low-effort for transplanted crops (cabbage, tomato, pepper).
 4. **Sticky traps**: Coat yellow boards or cards with sticky material (pine resin + oil, or purchased Tanglefoot). Hang at crop height. Aphids, whiteflies, and thrips are attracted to yellow and become trapped. Use 10-20 traps per 100 m² for monitoring; 50-100 for mass trapping.
- 5. **Water spray**: A strong jet of water from a hose or pump dislodges aphids and mites from plant leaves. Repeat every 2-3 days. Does not kill all pests but reduces populations below damage thresholds on sturdy crops.
+5. **Water spray**: A strong jet of water from a hose or pump dislodges aphids and mites from plant leaves. Repeat every 2-3 days. Does not kill all pests but reduces populations below damage thresholds on sturdy crops.
 
 **Strengths**:
 - Row covers provide 80-95% protection from flying insects with zero chemical input
@@ -118,7 +118,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 2. **Ladybug conservation**: Ladybugs (Coccinellidae) eat 50-100 aphids per day per adult. Avoid spraying broad-spectrum botanical insecticides when ladybugs are active. Provide overwintering habitat: piles of rocks, leaf litter at field edges, wooden shelters with bark.
 3. **Lacewing habitat**: Green lacewings (Chrysopidae) larvae consume 200-300 aphids per week. Adults are attracted to light-colored flowers. Plant alyssum, buckwheat, or coriander as lacewing attractants.
 4. **Poultry for pest control**: Allow chickens or ducks to forage in fields after harvest. Poultry consume insects, weed seeds, and slugs at rates of 50-200 g animal feed equivalent per bird per day. Time poultry access to avoid crop damage — before planting or after harvest.
- 5. **Predatory mites**: In fruit trees and vines, predatory mites (Phytoseiulus, Amblyseius) control spider mites. Introduce by placing mite-infested leaves from healthy ecosystems onto affected plants. Establish if broad-spectrum sprays are avoided.
+5. **Predatory mites**: In fruit trees and vines, predatory mites (Phytoseiulus, Amblyseius) control spider mites. Introduce by placing mite-infested leaves from healthy ecosystems onto affected plants. Establish if broad-spectrum sprays are avoided.
 
 **Strengths**:
 - Ladybug adults consume 50-100 aphids per day — a single ladybug population can control aphids across 50-100 m²
@@ -136,7 +136,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 
 1. **Harvest seeds**: Collect fallen neem fruit. Remove pulp, dry seeds in sun 3-5 days. Shell to extract kernels.
 2. **Prepare extract**: Crush 200-500 g neem kernels. Soak in 10 L water for 12-24 hours at room temperature. Strain through fine cloth.
- 3. **Add emulsifier**: Mix 20-50 mL liquid soap into the filtered extract. Soap helps the neem oil disperse and stick to plant surfaces.
+3. **Add emulsifier**: Mix 20-50 mL liquid soap into the filtered extract. Soap helps the neem oil disperse and stick to plant surfaces.
 4. **Apply**: Spray onto plant leaves (both upper and lower surfaces) in early morning or late evening (avoid midday heat, which causes leaf burn). Apply at first sign of pest damage. Repeat every 7-14 days as needed.
 5. **Effective against**: Aphids, whiteflies, caterpillars, beetles, leafhoppers, thrips. Less effective against mites. Disrupts insect hormone systems — larvae fail to molt, eggs fail to hatch.
 
@@ -154,7 +154,7 @@ Cultural controls modify the farming environment to make it less hospitable to p
 
 1. **Harvest flowers**: Pick pyrethrum (Chrysanthemum cinerariaefolium) flowers in full bloom on a dry day. Dry in shade (sunlight degrades pyrethrins).
 2. **Prepare dust or extract**: Grind dried flowers to fine powder. For spray: steep 50-100 g powder in 10 L water for 24 hours, strain. For dust: mix powder 1:5 with fine clay or talc.
- 3. **Apply**: Spray or dust onto infested plants. Pyrethrum degrades rapidly in sunlight (half-life 12 hours) — apply in late afternoon for maximum overnight effectiveness. Repeat every 3-5 days for persistent infestations.
+3. **Apply**: Spray or dust onto infested plants. Pyrethrum degrades rapidly in sunlight (half-life 12 hours) — apply in late afternoon for maximum overnight effectiveness. Repeat every 3-5 days for persistent infestations.
 4. **Effective against**: Most insects (broad-spectrum). Kills on contact by disrupting nerve signals. Non-selective — also kills beneficial insects. Use only for spot-treatment of severe outbreaks, not as routine preventative.
 
 **Strengths (pyrethrum spray)**:

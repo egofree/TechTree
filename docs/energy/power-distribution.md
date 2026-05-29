@@ -67,7 +67,7 @@ This document covers transformer construction, core and winding manufacturing, i
 
 4. **Stack laminations** in the core frame, alternating the overlap pattern by one lamination per layer (two-over-two or three-over-three pattern). This eliminates air gaps at the joints — each joint is bridged by the overlapping layer. Tighten clamping bolts to 20-30 Nm, maintaining uniform pressure across the core cross-section.
 
- 5. **Anneal the assembled core** (if grain-oriented steel is not available): heat to 800-850°C in a reducing atmosphere (to prevent oxidation), hold 2-4 hours, cool slowly at 50°C/hour to below 200°C. This relieves mechanical stresses from cutting and improves magnetic permeability by 20-40%.
+5. **Anneal the assembled core** (if grain-oriented steel is not available): heat to 800-850°C in a reducing atmosphere (to prevent oxidation), hold 2-4 hours, cool slowly at 50°C/hour to below 200°C. This relieves mechanical stresses from cutting and improves magnetic permeability by 20-40%.
 
 **Materials**:
 - [Silicon steel sheet](../metals/iron-steel.md) (0.3 mm thick, 3% Si, 280-320 kg for 100 kVA core)
@@ -111,7 +111,7 @@ This document covers transformer construction, core and winding manufacturing, i
 
 10. **Wind primary (high voltage)** over the insulation barrier. Layer-wound with 0.1 mm kraft paper between each layer. At 1,100 turns and ~100 turns per layer, expect ~11 layers. Provide tapping points at ±2.5% and ±5% of rated voltage by bringing out looped turns at calculated positions (typically at turns 1,045 and 1,055 for ±5%).
 
- 11. **Secure and tie** all windings with cotton or glass tape at regular intervals (every 50-100 mm). Apply varnish by brushing or dipping. Bake at 110-130°C for 4-8 hours to cure varnish and drive out moisture.
+11. **Secure and tie** all windings with cotton or glass tape at regular intervals (every 50-100 mm). Apply varnish by brushing or dipping. Bake at 110-130°C for 4-8 hours to cure varnish and drive out moisture.
 
 **Materials**:
 - [Copper magnet wire](../chemistry/electrolysis.md) (enamel-insulated, 0.5-3.0 mm diameter, 85-110 kg for 100 kVA)
@@ -161,7 +161,7 @@ This document covers transformer construction, core and winding manufacturing, i
 
 18. **Fill with transformer oil** under vacuum if possible (removes air bubbles from insulation, extends oil life). Fill rate: slow, to allow air to escape. Fill to the marked oil level on the sight glass.
 
- 19. **Seal and allow oil to impregnate** the paper and pressboard insulation for 24-48 hours before testing. Oil penetrates cellulose insulation, dramatically increasing dielectric strength.
+19. **Seal and allow oil to impregnate** the paper and pressboard insulation for 24-48 hours before testing. Oil penetrates cellulose insulation, dramatically increasing dielectric strength.
 
 **Materials**:
 - [Transformer oil](../chemistry/petroleum-alternatives.md) (refined mineral oil, flash point >140°C, 180-250 liters for 100 kVA)

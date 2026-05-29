@@ -129,6 +129,14 @@ Mechanized spinning multiplies output by 10-100× over hand spinning:
 - Open-end rotor yarn is hairier and 10-20% weaker than ring-spun — limited to coarse fabrics
 
 
+## Safety & Hazards
+
+- **Spinning wheel injuries**: The wheel and flyer rotate at high speed. Loose clothing, hair, or jewelry can catch in the drive band or flyer. Tie back long hair. Wear fitted sleeves. Keep fingers clear of the flyer hooks when treadling.
+- **Spindle punctures**: Drop spindles are heavy (50-150 g) with sharp points. A dropped spindle can puncture a foot. Store point-down in a stand or holder when not in use.
+- **Fiber dust**: Carding and combing generate fine fiber dust. Prolonged inhalation causes respiratory irritation. Work in a ventilated area. A damp cloth over the carding surface reduces airborne fiber.
+- **Repetitive strain**: Hand spinning involves repeated treadling and arm motions. Take breaks every 30-60 minutes. Vary posture. Ergonomic wheel height reduces shoulder strain — wheel should be at elbow height when seated.
+- **Industrial machinery**: Powered spinning frames (water frame, ring frame, mule) have numerous pinch points between rollers, belts, and rotating spindles. Guard all moving parts. Emergency stop required on each frame. Ring spinning travelers can fly off at speed — eye protection in ring spinning rooms.
+
 ## See Also
 
 - [Weaving](weaving.md) — loom-based cloth production from spun yarn

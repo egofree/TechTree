@@ -83,7 +83,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 4. **Dig the canal**: Excavate a trapezoidal channel: bottom width 30-50 cm, top width 50-80 cm, depth 30-50 cm. Pile excavated earth on the downhill side to form a levee. Compact the canal bed and sides by tamping with wooden block or driving livestock along the wetted surface.
 5. **Install sluice gates**: At 100-200 m intervals, insert wooden or stone gates into grooves cut into the canal walls. Gates control flow distribution to different field sections. A simple sliding gate: a flat board that drops into a slot across the canal.
 6. **Seal leaks**: If the soil is sandy or gravelly, line the canal with puddled clay (clay mixed with water to a plastic consistency, smeared 5-10 cm thick on the canal bed and sides). Compact thoroughly. A well-sealed earthen canal loses 10-20% of flow to seepage; an unlined sandy canal loses 40-60%.
- 7. **Test the flow**: Open the intake and observe water movement. Flow should be steady, not turbulent. If water backs up at any point, the gradient is insufficient — re-dig that section deeper. If erosion occurs at any point, widen the canal or reduce the gradient.
+7. **Test the flow**: Open the intake and observe water movement. Flow should be steady, not turbulent. If water backs up at any point, the gradient is insufficient — re-dig that section deeper. If erosion occurs at any point, widen the canal or reduce the gradient.
 
 **Strengths**:
 - Gravity-fed operation requires no energy input after construction — water flows continuously without pumps or fuel
@@ -101,7 +101,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 2. **Set the siphon or gate**: At the head of each furrow, install a small gate (wooden slide) or use a siphon (clay tube over the field boundary) to control flow into each furrow.
 3. **Apply water**: Open the head gate and allow water to flow down the furrow. Target flow rate: 0.5-2.0 L/sec per furrow. Water should reach the end of the furrow in 30-60 minutes for most soils.
 4. **Monitor infiltration**: After water reaches the furrow end, close the gate. The water in the furrow infiltrates into the soil over 1-6 hours depending on soil type. Clay soils absorb slowly; sandy soils absorb rapidly.
- 5. **Repeat as needed**: Irrigate when the top 15-20 cm of soil feels dry to the touch. Typical frequency: every 3-7 days in dry season, every 7-14 days in moderate climate.
+5. **Repeat as needed**: Irrigate when the top 15-20 cm of soil feels dry to the touch. Typical frequency: every 3-7 days in dry season, every 7-14 days in moderate climate.
 
 **Strengths**:
 - 50-70% application efficiency — better than flood irrigation with less water waste
@@ -119,7 +119,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 2. **Fill the bucket**: Pull the bucket end down to the water source (river, canal, or well). The counterweight assists the pull. Submerge the bucket to fill — allow 10-20 liters.
 3. **Lift and swing**: Release tension. The counterweight swings the bucket upward. Guide the bucket over the irrigation channel or field.
 4. **Dump the water**: Tip the bucket by pulling a release cord or rotating the handle. Water flows into the distribution channel.
- 5. **Cycle rate**: An experienced operator lifts 10-15 buckets per minute. At 15 L per bucket: 150-225 L/min, or 9,000-13,500 L/hour. One shaduf can irrigate 0.1-0.2 hectares per day.
+5. **Cycle rate**: An experienced operator lifts 10-15 buckets per minute. At 15 L per bucket: 150-225 L/min, or 9,000-13,500 L/hour. One shaduf can irrigate 0.1-0.2 hectares per day.
 
 **Strengths**:
 - Simplest water-lifting device — can be built in 2-4 hours from a wooden beam, rope, bucket, and counterweight
@@ -137,7 +137,7 @@ Position in the dependency chain: irrigation requires [Water Procurement](../wat
 2. **Install at the water source**: Place the lower end submerged in the water source. The upper end empties into an irrigation channel or reservoir.
 3. **Turn the screw**: Rotate the screw by hand crank, foot treadle, or animal gear. Each rotation lifts a pocket of water one blade-pitch up the incline.
 4. **Flow rate**: A 30 cm diameter screw turning at 40-60 RPM lifts 5-15 L/sec through 1-3 m of head. Two operators can sustain this output for several hours.
- 5. **Maintenance**: Check the cylinder seal (gap between blade and casing should be <5 mm). Large gaps allow backflow and reduce efficiency. Re-line the trough with clay or replace leather seals as needed.
+5. **Maintenance**: Check the cylinder seal (gap between blade and casing should be <5 mm). Large gaps allow backflow and reduce efficiency. Re-line the trough with clay or replace leather seals as needed.
 
 **Strengths**:
 - Moves 5-15 L/sec through 1-3 m of head — 3-10× the output of a shaduf

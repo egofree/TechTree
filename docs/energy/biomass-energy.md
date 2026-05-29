@@ -76,7 +76,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 6. **Collect and use the biogas**: Biogas (~60% CH₄, ~35-40% CO₂, trace H₂S) rises to the gas holder. Calorific value: 21-24 MJ/m³ (60% of natural gas). Pipe to burners for cooking, lamps, or an engine-generator. Remove H₂S with iron oxide chips (iron sponge) in a filter before the engine — H₂S corrodes engine parts and produces sulfuric acid in crankcase oil.
 
- 7. **Utilize the digestate**: The spent slurry exiting the digester is a nitrogen-rich organic fertilizer (higher plant-available nitrogen than raw manure, since anaerobic digestion mineralizes organic nitrogen). Apply to fields or compost further.
+7. **Utilize the digestate**: The spent slurry exiting the digester is a nitrogen-rich organic fertilizer (higher plant-available nitrogen than raw manure, since anaerobic digestion mineralizes organic nitrogen). Apply to fields or compost further.
 
 **Materials**:
 - [Brick or concrete](../ceramics/index.md) (2,000-3,000 bricks or 3 m³ concrete for 6 m³ digester walls)
@@ -128,7 +128,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 5. **Clean and cool the gas**: Raw gas exits at 400-600°C containing ash, soot, tars, and water vapor. Clean with: (a) cyclone separator (removes >90% of particles >10 μm), (b) cooling tube (reduce to <30°C — cooler gas is denser, improves engine volumetric efficiency), (c) sawdust or fabric filter (final particulate removal to <50 mg/m³).
 
- 6. **Feed to engine**: Connect the cleaned, cooled gas to the engine intake via a gas-air mixer. Adjust air-to-gas ratio (stoichiometric: ~1.0:1.2 for producer gas, compared to ~1.0:6.5 for gasoline). Engine power output on producer gas: 40-60% of gasoline rating due to lower energy density and slower combustion.
+6. **Feed to engine**: Connect the cleaned, cooled gas to the engine intake via a gas-air mixer. Adjust air-to-gas ratio (stoichiometric: ~1.0:1.2 for producer gas, compared to ~1.0:6.5 for gasoline). Engine power output on producer gas: 40-60% of gasoline rating due to lower energy density and slower combustion.
 
 **Materials**:
 - [Steel plate](../metals/iron-steel.md) (6-10 mm thick, 150-300 kg for gasifier body)
@@ -171,7 +171,7 @@ Three primary conversion pathways are covered here: direct combustion for heat, 
 
 2. **Combust in furnace or boiler**: Grate-fired furnace for chunky biomass (wood pieces, briquettes). Fluidized bed combustor for fine material (sawdust, rice husks) — air blown upward through a sand bed suspends and burns fine particles uniformly.
 
- 3. **Recover heat**: Boiler tubes in the combustion chamber generate steam. Flue gas exits at 150-250°C (below this, condensation causes corrosion). Overall combustion efficiency: 60-75% for well-designed grate furnaces, 80-90% for fluidized bed combustors.
+3. **Recover heat**: Boiler tubes in the combustion chamber generate steam. Flue gas exits at 150-250°C (below this, condensation causes corrosion). Overall combustion efficiency: 60-75% for well-designed grate furnaces, 80-90% for fluidized bed combustors.
 
 **Materials**:
 - [Seasoned firewood](../plants/index.md) (moisture <20%, 14-16 MJ/kg, hardwood preferred)

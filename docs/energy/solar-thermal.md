@@ -71,7 +71,7 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 
 4. **Fill and bleed**: Fill the system with water. Bleed all air from the collector tubing (air pockets block thermosiphon flow).
 
- 5. **Operate**: The collector heats water to 50-80°C on sunny days. A 2 m² collector in a temperate climate produces 6-10 kWh thermal per day in summer, 2-4 kWh in winter.
+5. **Operate**: The collector heats water to 50-80°C on sunny days. A 2 m² collector in a temperate climate produces 6-10 kWh thermal per day in summer, 2-4 kWh in winter.
 
 **Materials**:
 - [Copper tubing](../metals/copper-bronze.md) (15 mm OD, 1 mm wall, 15-20 m serpentine)
@@ -118,7 +118,7 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 
 4. **Connect the heat transfer loop**: Pump heat transfer fluid (mineral oil for 150-300°C, synthetic oil for 300-400°C, molten salt for 400-560°C) through the receiver tubes. The heated fluid circulates to a heat exchanger that generates steam.
 
- 5. **Generate power or process heat**: Route steam to a turbine-generator set (see [Steam Turbines](steam-turbines.md)) or use the heat directly for industrial processes (drying, distillation, cooking, metal melting).
+5. **Generate power or process heat**: Route steam to a turbine-generator set (see [Steam Turbines](steam-turbines.md)) or use the heat directly for industrial processes (drying, distillation, cooking, metal melting).
 
 **Materials**:
 - [Curved glass mirror](../glass/index.md) (4 mm thick, 10 m² aperture, silvered glass reflectivity 90-95%)
@@ -160,7 +160,7 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 
 2. **Build the central receiver**: A heat exchanger mounted on a tower (50-150 m height). The receiver absorbs concentrated sunlight from all heliostats simultaneously. Flux densities reach 200-1,000 kW/m². Construct from high-temperature alloy tubes (Inconel or stainless steel) carrying molten salt or supercritical steam.
 
- 3. **Thermal storage**: Store heat in a two-tank molten salt system — one hot tank (565°C), one cold tank (290°C). Draw hot salt through a steam generator when power is needed. Storage capacity of 2-15 hours enables nighttime generation. Molten salt: 60% NaNO₃ + 40% KNO₃ (Solar Salt), melting point 220°C.
+3. **Thermal storage**: Store heat in a two-tank molten salt system — one hot tank (565°C), one cold tank (290°C). Draw hot salt through a steam generator when power is needed. Storage capacity of 2-15 hours enables nighttime generation. Molten salt: 60% NaNO₃ + 40% KNO₃ (Solar Salt), melting point 220°C.
 
 **Materials**:
 - [Flat glass mirrors](../glass/index.md) (2-10 m² per heliostat, silvered, 4 mm thick)

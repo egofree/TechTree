@@ -111,7 +111,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 1. **Inoculate seed** (if needed): If planting legumes on land that has not grown legumes in 3+ years, coat seed with appropriate Rhizobium inoculant. Mix inoculant powder with seed at planting using a sticky solution (milk or sugar water) to adhere bacteria to seed coat.
 2. **Plant at correct depth**: Beans 3-5 cm, peas 2-4 cm, clover 0.5-1.5 cm. Legume seeds are sensitive to planting depth — too deep and they cannot emerge.
 3. **Check nodulation** (4-6 weeks after emergence): Carefully dig up 5-10 plants across the field. Examine roots for nodules (small round bumps 1-5 mm diameter). Cut open a nodule: pink/red interior = active N fixation (leghemoglobin indicates functioning). Green/white interior = inactive or ineffective Rhizobium strain.
- 4. **If nodulation is poor** (<5 nodules per plant, or white interior): The soil may lack the correct Rhizobium strain. Re-inoculate by applying Rhizobium culture in solution to the soil surface, or transfer soil from a field where the same legume species nodulated successfully.
+4. **If nodulation is poor** (<5 nodules per plant, or white interior): The soil may lack the correct Rhizobium strain. Re-inoculate by applying Rhizobium culture in solution to the soil surface, or transfer soil from a field where the same legume species nodulated successfully.
 
 **Strengths**:
 - Biological nitrogen fixation provides 40-200 kg N/ha per season at zero energy cost
@@ -128,7 +128,7 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 1. **Sow the green manure crop**: After grain harvest, broadcast clover, vetch, or rye seed onto the field. Lightly rake to cover seed. Target seeding rate: 10-20 kg/ha for clover, 15-25 kg/ha for vetch, 80-120 kg/ha for rye.
 2. **Allow growth**: Green manure grows through the fallow period, protecting soil from erosion, suppressing weeds, and (if legume) fixing nitrogen.
 3. **Terminate at the right time**: For legumes, plow under at early flowering (maximum N content in biomass). For rye, terminate before seed set to prevent volunteering. Cut or mow the stand, then incorporate into the top 15-20 cm of soil with a plow or heavy hoe.
- 4. **Wait 2-4 weeks before planting**: Green manure biomass needs time to decompose. Fresh green material can tie up nitrogen temporarily as soil microbes consume it. After decomposition, the nitrogen is released in plant-available form.
+4. **Wait 2-4 weeks before planting**: Green manure biomass needs time to decompose. Fresh green material can tie up nitrogen temporarily as soil microbes consume it. After decomposition, the nitrogen is released in plant-available form.
 
 **Strengths**:
 - Legume green manures fix 40-120 kg N/ha while protecting soil from erosion

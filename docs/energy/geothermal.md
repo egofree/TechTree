@@ -73,7 +73,7 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 
 5. **Distribute heat**: Pump heated secondary water through insulated pipes to end users — building heating (radiators or underfloor), greenhouse heating, fish farming ponds, industrial drying, or lumber kilns.
 
- 6. **Reinject or dispose**: Spent geothermal fluid (cooled to 30-50°C) is reinjected into the reservoir through an injection well. Reinjection maintains reservoir pressure, prevents subsidence, and avoids surface water contamination. Locate injection well at least 500-1,000 m from production well to prevent premature thermal breakthrough.
+6. **Reinject or dispose**: Spent geothermal fluid (cooled to 30-50°C) is reinjected into the reservoir through an injection well. Reinjection maintains reservoir pressure, prevents subsidence, and avoids surface water contamination. Locate injection well at least 500-1,000 m from production well to prevent premature thermal breakthrough.
 
 **Materials**:
 - [Steel well casing](../metals/iron-steel.md) (200 mm OD, 8 mm wall, API J55 grade), 200-500 m per well
@@ -118,7 +118,7 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 
 4. **Condense and reinject**: Exhaust steam from the turbine enters a condenser (either water-cooled surface condenser or direct-contact condenser). Non-condensable gases (NCG — CO₂, H₂S, NH₃, CH₄, N₂) are removed by a gas extraction system (steam jet ejectors or vacuum pumps). NCG is 1-10% of steam flow by weight and must be removed to maintain condenser vacuum. Condensed water and remaining brine are reinjected.
 
- 5. **Treat NCG**: H₂S in NCG stream is toxic and odorous. Remove with a chemical scrubber (iron chelate or caustic soda) before venting CO₂ to atmosphere. Alternatively, convert H₂S to elemental sulfur via the Claus process for sale as a byproduct.
+5. **Treat NCG**: H₂S in NCG stream is toxic and odorous. Remove with a chemical scrubber (iron chelate or caustic soda) before venting CO₂ to atmosphere. Alternatively, convert H₂S to elemental sulfur via the Claus process for sale as a byproduct.
 
 **Materials**:
 - [Steel well casing](../metals/iron-steel.md) (200-300 mm OD, 8-12 mm wall, API K55 grade), 1,000-3,000 m per well
@@ -162,7 +162,7 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 
 2. **Connect to heat pump**: The ground loop circulates a water-antifreeze mixture at 5-15°C (heating mode) or 20-30°C (cooling mode). The heat pump's evaporator extracts heat from the ground loop (heating mode) and the compressor raises the temperature to 40-60°C for distribution. In cooling mode, the cycle reverses — the heat pump rejects building heat into the ground loop.
 
- 3. **Distribute heating/cooling**: Heated water (40-60°C) feeds underfloor heating, radiators, or fan-coil units. Cooled water (7-12°C) feeds fan-coil units or chilled beams. COP (coefficient of performance): 3.0-5.0 for heating, 3.5-6.0 for cooling. A heat pump delivering 10 kW of heating draws only 2.5-3.5 kW of electricity — the remaining 6.5-7.5 kW comes from the ground.
+3. **Distribute heating/cooling**: Heated water (40-60°C) feeds underfloor heating, radiators, or fan-coil units. Cooled water (7-12°C) feeds fan-coil units or chilled beams. COP (coefficient of performance): 3.0-5.0 for heating, 3.5-6.0 for cooling. A heat pump delivering 10 kW of heating draws only 2.5-3.5 kW of electricity — the remaining 6.5-7.5 kW comes from the ground.
 
 **Materials**:
 - [HDPE ground loop pipe](../polymers/index.md) (32 mm OD, 2.9 mm wall, PN16 rated, PE100 grade), 300-500 m per 10 kW unit

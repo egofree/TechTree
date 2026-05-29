@@ -190,6 +190,15 @@ Continuous inline monitoring is essential for UPW quality assurance. The system 
 | Bacteria detected in product water | Biofilm in dead legs or insufficient sanitization | Eliminate dead legs (no pipe runs >6× diameter without flow); hot water sanitize at 80°C for 2 hours; increase UV dose |
 | Resistivity drops at point of use but not at system outlet | Contamination pickup in distribution piping | Flush loop; replace aging piping sections; verify all connections are sanitary (no threaded fittings) |
 
+## Safety & Hazards
+
+- **High-pressure RO systems**: RO pumps operate at 10-80 bar. A burst pipe or failed fitting at these pressures causes whip-lash injuries and high-velocity water jets that can cut skin. Pressure-relief valves on all high-pressure sections. Never open a pressurized RO housing — depressurize first.
+- **UV radiation**: UV lamps (185 nm and 254 nm) used for TOC destruction and disinfection cause severe eye and skin damage. Enclose all UV chambers. Interlock UV power with access doors — lamp must shut off when housing is opened. Replace UV lamps on schedule (output degrades after 6-12 months).
+- **Chemical handling**: Hydrochloric acid, sodium hydroxide, and hydrogen peroxide used for CIP (clean-in-place) and resin regeneration. Chemical-resistant gloves, face shield, and apron when handling. Sodium hydroxide at 2-5% causes chemical burns. Hydrogen peroxide at 30%+ causes severe burns and is a fire risk with organic materials. Neutralization stations near all chemical storage.
+- **Ozone**: Ozone generators used for sanitization produce O₃ at 10-50 g/h. Ozone is toxic — TLV 0.1 ppm. Ozone destruct units required on all ozone loops. Ventilate ozone generation rooms. Ozone has a sharp, distinctive odor detectable well below hazardous levels — if you can smell it strongly, evacuate and ventilate.
+- **Electrical hazard**: UPW systems draw 500-1500 kW in large fabs. High-voltage motors for RO pumps. Lock-out/tag-out procedures for all maintenance. Conductive UPW on wet surfaces creates electrocution risk — ground all equipment.
+- **Hot water sanitization**: Loop sanitization at 80°C for 2+ hours. Contact causes scald burns. Insulate all hot surfaces. Warning signs during sanitization cycles. Cool-down period before opening piping.
+
 ## Cross-Domain Dependencies
 
 - **[Water Treatment](../water/sem-tech-water-treatment.md)**: Provides pretreated feed water (RO permeate or deionized water at <10 mg/L TDS) as UPW system input.

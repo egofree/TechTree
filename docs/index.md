@@ -14,7 +14,7 @@ Three levels, top to bottom:
 
 **Process** — a detailed method or operation, like Czochralski pulling or blast furnace operation. These carry two dots: `silicon.crystal-growth.cz-pulling`.
 
-Dependencies use these dotted IDs. When photolithography requires silicon, the edge reads `{from: "photolithography", to: "silicon"}`. The full graph lives in [edges.json](../data/edges.json).
+Dependencies use these dotted IDs. When photolithography requires silicon, the edge reads `{from: "photolithography", to: "silicon"}`. The full graph lives in [edges.json](../data/archive/edges.json).
 
 ## Quick Start Path
 
@@ -98,8 +98,8 @@ These domains and capabilities can begin early, independent of the main critical
 
 Structured data files backing this tree:
 
-- [nodes.json](../data/nodes.json) — complete node definitions (domains, capabilities, processes)
-- [edges.json](../data/edges.json) — dependency graph (directed, acyclic)
+- [nodes.json](../data/archive/nodes.json) — complete node definitions (domains, capabilities, processes)
+- [edges.json](../data/archive/edges.json) — dependency graph (directed, acyclic)
 - [glossary.json](../data/glossary.json) — glossary terms with relevance ratings and cross-references
 - [checklist.yaml](../data/checklist.yaml) — milestone checklist with progression tracking
 - [resources.json](../data/resources.json) — raw material catalog with criticality ratings

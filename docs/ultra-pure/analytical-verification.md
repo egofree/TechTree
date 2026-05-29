@@ -236,6 +236,14 @@ Every batch of electronic-grade chemical must be tested before release to the fa
 
 **Metallic contamination** (ICP-MS): Trace contamination to source — incoming chemical, resin leaching, pipe corrosion, or new component contamination. Quarantine affected lots. Replace or regenerate purification media.
 
+## Safety & Hazards
+
+- **ICP-MS plasma**: The inductively coupled plasma operates at 6000-10000 K. The torch assembly becomes extremely hot during operation. Allow 15-30 minutes cool-down after plasma shutdown before servicing. RF generator operates at 27-40 MHz — keep metallic objects clear of the RF coil. Argon gas supply requires proper ventilation — argon is an asphyxiant in confined spaces.
+- **Strong acids**: Sample preparation involves concentrated HF, HNO₃, HCl, and H₂SO₄. Hydrofluoric acid (HF) is particularly dangerous — penetrates skin, binds calcium, causes deep tissue necrosis and potentially fatal hypocalcemia. Calcium gluconate gel must be available at every HF work station. Apply immediately to any HF skin contact, then seek medical attention. All acid handling under fume hood with face shield, acid-resistant gloves (neoprene for HF, nitrile for others), and apron.
+- **UV radiation**: TOC analyzers use UV lamps (185 nm, 254 nm) for persulfate oxidation. Enclose UV sources. Interlock access panels. Replace lamps per schedule.
+- **High-pressure components**: IC and TOC analyzers may operate at 5-15 MPa (50-150 bar) in sample introduction systems. Ensure all fittings are rated for operating pressure. Replace worn ferrules and fittings on schedule — a failed high-pressure fitting releases chemical spray.
+- **Nanoparticle exposure**: Laser particle counters handle ultra-pure water samples that may contain nanoparticles. While sample volumes are small (<100 mL), avoid aerosol generation. Work in ventilated area.
+
 ## Cross-Domain Dependencies
 
 - **[Measurement](../measurement/index.md)**: Precision metrology and calibration infrastructure. Temperature and pressure sensors.

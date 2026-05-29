@@ -8,19 +8,14 @@
 > **Outputs**: financial_records, inventory_ledgers, cost_accounting
 > **Critical**: No
 
----
-
-## 1. Overview
-
 Accounting is the systematic recording, classification, and summarization of economic transactions — production inputs consumed, goods produced, trades completed, debts incurred and settled, and inventories on hand. It provides the information infrastructure for rational economic decision-making: without accounting, a community cannot know whether it is producing at a profit or a loss, which activities generate the most value, or whether resources are being wasted.
 
 Accounting emerges when the volume of economic activity exceeds what can be tracked mentally. This threshold is approximately 50 specialists or 200+ regular transactions per month — beyond this, the human mind cannot maintain an accurate running tally of who owes what to whom, what materials are in stock, and what production costs have been incurred.
 
 The capability depends on [core mathematics](../mathematics/core-mathematics.md) for arithmetic operations (addition, subtraction, multiplication for quantities and values) and on [writing](../knowledge/writing.md) for permanent records that can be reviewed, audited, and referenced over time. Accounting transforms economic activity from a memory-based oral system into a document-based system that scales indefinitely.
 
----
 
-## 2. Prerequisites
+## Prerequisites
 
 ### Materials
 
@@ -43,9 +38,8 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 - Secure records storage: Dry, fire-protected space for ledgers. Accounting records are irreplaceable — loss of records means loss of economic memory.
 - Work surfaces: Tables or desks for writing and calculation.
 
----
 
-## 3. Bill of Materials (BOM)
+## Bill of Materials (BOM)
 
 | Material | Quantity per Year (Community of 1,000) | Source | Alternatives |
 |----------|----------------------------------------|--------|-------------|
@@ -55,9 +49,8 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 | Abacus or counting board | 1-2 | [Woodworking](../foundations/index.md) | Pebbles on lined surface (less efficient) |
 | Storage chests/shelves | 2-5 | [Woodworking](../foundations/index.md) | Niche in stone wall (fireproof) |
 
----
 
-## 4. Process Description
+## Process Description
 
 ### 4.1 Setting Up an Accounting System
 
@@ -125,9 +118,8 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 - Physical inventory counting is labor-intensive — requires temporary halt to production for accurate count
 - Summary reports simplify complex reality — a single net income figure can mask important details
 
----
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
 ### Accounting Precision Requirements
 
@@ -151,9 +143,8 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 | Waste ratio | Spoilage + defects / Total production | <5% | >10% (process quality problem) |
 | Debt-to-income | Total liabilities / Annual income | <0.5 | >1.0 (debt crisis) |
 
----
 
-## 6. Scaling Notes
+## Scaling Notes
 
 - **Minimum viable accounting**: A single clay tablet or sheet tracking 3-5 categories (food stores, tool inventory, trade debts, outstanding obligations). Viable for communities of 50-100 people.
 - **Double-entry threshold**: At ~50 regular trading partners or ~200 monthly transactions, single-entry accounting (just recording inflows and outflows) becomes unreliable — errors accumulate undetected. Switch to double-entry at this point.
@@ -161,9 +152,8 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 - **Archive growth**: Accounting records accumulate at 200-500 tablets/pages per year. Within 10 years, storage becomes a significant concern. Designate a records room with fire protection and climate control (dry conditions for clay; moderate humidity for paper).
 - **Transition to computing**: Manual accounting limits practical transaction volume to ~500/day per bookkeeper. Beyond this, computing aids (mechanical calculators, then electronic computers) are needed. See [computing](../computing/index.md).
 
----
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -174,18 +164,16 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 | Accountant overwhelmed with volume | Transaction growth exceeded staffing | Hire additional bookkeeper; subdivide accounts by type; implement batch processing for routine transactions |
 | Fraudulent entries discovered | Insider manipulation of records | Segregate duties (one person records, another approves); require dual signatures on payments; conduct surprise audits |
 
----
 
-## 8. Safety
+## Safety
 
 - **Fire risk**: Accounting records are typically stored on flammable media (papyrus, paper). A fire that destroys the ledgers erases the community's economic memory. Mitigate with fireproof storage (stone vaults), duplicate records stored in a separate building, and fire suppression (sand buckets, water access).
 - **Ergonomic hazards**: Bookkeepers work hunched over ledgers for 6-10 hours/day, risking back pain, eye strain, and repetitive wrist injury. Mandate breaks every 60-90 minutes; provide proper seating and lighting; limit daily accounting work to 8 hours.
 - **Ink toxicity**: Iron gall ink (common for permanent records) contains ferrous sulfate and tannins — mildly toxic with chronic skin exposure. Carbon ink is safer. Ensure adequate ventilation in writing areas.
 - **Information security**: Accounting records reveal the community's financial position, inventories, and vulnerabilities. Restrict access to authorized personnel only. Maintain a log of who accesses the ledgers.
 
----
 
-## 9. Quality Control
+## Quality Control
 
 - **Daily reconciliation**: Total debits must equal total credits. Any imbalance halts further recording until resolved.
 - **Monthly physical audit**: Count all inventory, weigh all stored metals/grain, and reconcile with ledger values. Acceptable discrepancy: <2% by value.
@@ -193,9 +181,8 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 - **Transaction documentation**: Every ledger entry must reference a source document (receipt, invoice, tally stick). Entries without source documents are flagged for investigation.
 - **Archival integrity**: Records older than 1 year are sealed and stored. Any access to archived records is logged and requires authorization.
 
----
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 | Accounting Method | Description | Best For | Limitations |
 |-------------------|-------------|----------|-------------|
@@ -228,9 +215,8 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 | Industrial | Paper ledgers | Mechanical calculator | 50,000-500,000 entries | Standardized financial statements |
 | Modern | Electronic | Digital computer | Unlimited | Real-time accounting, automated reconciliation |
 
----
 
-## 11. References
+## See Also
 
 - [Core Mathematics](../mathematics/core-mathematics.md) — the arithmetic foundation for all accounting
 - [Writing](../knowledge/writing.md) — the recording technology that makes permanent accounting possible
@@ -238,6 +224,4 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 - [Division of Labor](./division-of-labor.md) — specialization creates the economic complexity that requires accounting
 - [Supply Chain Coordination](./supply-chain.md) — the planning system that depends on accounting data
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Economics & Organization](./index.md) • [All Domains](../index.md)*
+[← Back to Economics & Organization](index.md)

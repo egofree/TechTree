@@ -8,8 +8,6 @@
 > **Outputs**: coke, coal_gas, coal_tar, ammonia_liquor, benzol
 > **Critical**: Yes — coke is the only fuel that sustains blast furnace temperatures (1800-2100°C); without coke, iron production remains limited to small bloomeries
 
-## Overview
-
 Coke is to coal what charcoal is to wood — the refined, high-energy, low-impurity fuel that enables high-temperature industrial processes. Raw coal contains 10-30% volatile matter (tars, gases, moisture) that interferes with metallurgical processes: tars contaminate metal, volatile gases cause uneven combustion, and sulfur transfers from fuel to iron, degrading its quality. Coke — nearly pure carbon, hard, porous, and consistent — eliminates these problems.
 
 Coke is the only solid fuel capable of sustaining the 1800-2100°C temperatures required for blast furnace ironmaking and silicon reduction. Without coke, iron production remains limited to small-scale bloomery operations. With coke, blast furnaces produce iron by the tonne, enabling the full industrial bootstrap.
@@ -88,7 +86,7 @@ The modern method — captures all volatile byproducts while producing higher-qu
 
 CSR and CRI are the critical metrics for blast furnace coke — high CSR means the coke maintains structural strength even while being consumed by the CO₂ reaction, supporting the heavy burden of iron ore and limestone above. Low CRI means the coke doesn't react prematurely.
 
-### Field Quality Tests
+## Field Quality Tests
 
 - **Drop test**: Drop a piece of coke from 2 m onto a steel plate. Good coke fractures into a few large pieces. Poor coke shatters into many small fragments.
 - **Appearance**: Silver-gray, metallic luster, cellular (visible pores), lightweight for its size. Black, dense, non-porous = undercoked. Powdery, light, white-edged = overcoked.
@@ -96,14 +94,14 @@ CSR and CRI are the critical metrics for blast furnace coke — high CSR means t
 
 ## Quenching Methods & Safety
 
-### Wet Quenching (Standard)
+## Wet Quenching (Standard)
 
 - Spray water onto incandescent coke in the quenching car. Produces massive steam plume (5-10 tonnes of steam per tonne of coke). Quenching time: 3-5 minutes.
 - **Risk**: Water trapped in porous coke can cause steam explosion if coke is handled too soon. Always allow 30+ minutes cooling after quenching before handling.
 - **[Never quench in confined spaces](../glossary/never-quench-in-confined-spaces.md)** — steam displaces oxygen. Workers have asphyxiated in quenching stations.
 - **Water pollution**: Quench water picks up phenols, cyanides, and ammonia from the coke. Treat before discharge.
 
-### Dry Quenching (Advanced)
+## Dry Quenching (Advanced)
 
 - Pass inert gas (nitrogen) over hot coke to cool it in a sealed chamber. Recovers sensible heat (~1.5 MJ/kg) for steam generation via waste heat boiler. No water contact, no steam cloud.
 - **Advantages**: No water pollution. Recovered heat generates electricity or process steam. Drier coke (no absorbed moisture). Better coke quality (no thermal shock from water).
@@ -224,21 +222,19 @@ Coke screening produces several marketable size fractions beyond blast furnace a
 
 Domestic coke (15-40 mm) is a smokeless fuel valued for urban heating before natural gas distribution.
 
-### Limitations
+## Limitations
 
 - **Coking coal requirement**: Not all coal is suitable for coking. Only specific bituminous coals with appropriate swelling, fluidity, and ash characteristics produce metallurgical-grade coke.
 - **Emissions**: Beehive ovens vent all volatiles to atmosphere (coal tar, ammonia, benzene). By-product ovens capture these but require chemical processing infrastructure.
 - **Energy loss**: Coke production drives off 25-30% of the coal's energy content as volatile matter. If not captured, this energy is wasted.
 - **Supply bottleneck**: Steel production requires roughly 0.5-0.7 tonnes of coke per tonne of pig iron. Coke supply often limits steel production capacity.
 
-### See Also
+## See Also
 
 - [Coal](coal.md) — Coal types and properties
 - [Blast Furnace Iron](../metals/iron-steel.md) — Primary consumer of metallurgical coke
 - [Steel Production](../metals/iron-steel.md) — Steel manufacturing requiring coke
 - [Ammonia Production](../chemistry/ammonia.md) — Ammonia from coke oven gas byproduct
-- [Fuels](fuels.md) — Comparative fuel properties
+- [Fuels](fuels.md) — comparative fuel properties
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+[← Back to Energy](index.md)

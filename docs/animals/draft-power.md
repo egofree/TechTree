@@ -8,13 +8,19 @@
 > **Outputs**: plowing, hauling, milling, mine hoisting, irrigation pumping
 > **Critical**: Yes — draft power is the primary motive force for agriculture, transport, and mining before steam engines
 
-## Overview
+## Problem
 
 Draft animals were the primary motive force for agriculture, transport, mining, and milling from the Neolithic through the early Industrial Revolution. A single ox delivers 0.5-0.75 HP sustained, a horse 0.75-1.5 HP. These numbers look modest compared to steam engines, but the infrastructure to harness animal power is simple: wood, leather, rope, and iron. No boilers. No machined cylinders. No high-temperature fuel.
 
 The efficiency gap between a bad harness and a good one is enormous. A horse in a breast strap harness tops out around 500 kg of draw. The same horse in a proper collar harness pulls 1500-2000 kg. That threefold improvement costs nothing but knowledge and some padded leather. Getting harnessing right is the single highest-return investment in the draft power chain.
 
-This page covers the full chain: harness systems, plowing, carts and wagons, mine hoisting via horse whim, animal-powered milling, and the mechanical transmissions that connect animal effort to useful work.
+### Prerequisites
+
+- [Cattle](cattle.md) — oxen as the primary draft animals
+- [Equines](equines.md) — horses and mules for faster draft work
+- [Domestication](domestication.md) — animal husbandry and training
+- [Basic tools](../foundations/tools-basic.md) — wood and leather working for harness and vehicles
+- [Leather](leather.md) — harness and collar materials
 
 ## Harness Systems
 
@@ -216,6 +222,24 @@ Inspect harness leather before each work day. Check for:
 
 A broken trace under full load causes the animal to lunge sideways, potentially spooking, bolting, or overturning the load. The harness is a safety-critical system, not just a convenience.
 
----
+### Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Animal refusing to pull | Sore shoulders from poor collar fit, or overload | Check collar fit (should be able to slide flat hand between collar and shoulder); reduce load; rest animal |
+| Harness breaking under load | Dry rot, cracked leather, or worn stitching | Inspect harness daily; condition leather with neatsfoot oil monthly; replace any strap with visible cracks |
+| Wagon bogging down in soft ground | Too narrow wheels or overloaded | Use wider-rim wheels (100+ mm); reduce load; double-team for soft ground |
+| Plow not cutting (skidding) | Dull share or wrong hitch angle | Sharpen or replace plow share; adjust hitch point to maintain correct draft angle |
+| Horse bolting | Poor training, loud noise, or harness failure | Train with gradual desensitization; use breeching for brake control; never tie to load by bit alone |
+| Whim (horse gin) running unevenly | Uneven sweep arm or worn pivot | Balance sweep arms; lubricate pivot bearing; check gear engagement depth |
+
+## See Also
+
+- [Cattle](cattle.md) — oxen for draft and agricultural work
+- [Equines](equines.md) — horses, donkeys, and mules
+- [Leather](leather.md) — harness and collar manufacturing
+- [Mining / Extraction](../mining/extraction.md) — horse whims for mine hoisting
+- [Transport / Roads](../transport/roads.md) — wagon roads and infrastructure
+- [Energy / Steam Power](../energy/steam-power.md) — the successor to animal draft power
+
+[← Back to Animals](index.md)

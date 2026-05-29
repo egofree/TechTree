@@ -3,16 +3,24 @@
 > **Node ID**: marine.propulsion
 > **Domain**: [Marine & Naval Engineering](./index.md)
 > **Dependencies**: [`energy.engine`](../energy/engine.md), [`energy.steam-power`](../energy/steam-power.md), [`metals.iron-steel`](../metals/iron-steel.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`transport.shipping`](../transport/shipping.md), [`marine.navigation`](navigation.md)
 > **Timeline**: Years 0-50+
 > **Outputs**: marine engines, propellers, paddle wheels
 > **Critical**: No — specialized maritime capability, not required for land-based civilization
+
+## Problem
 
 Marine propulsion evolves through four stages: oar (muscle), sail (wind), steam (coal), and internal combustion (liquid fuel). Each stage increases power density and operational independence from weather. This document covers the engineering of marine propulsion systems — the adaptation of power sources for shipboard use.
 
 For propulsion overview and hull speed calculations, see [Water Transport](../transport/shipping.md).
 
-### Oar Propulsion
+## Prerequisites
+
+- [Heat Engines](../energy/engine.md) — internal combustion engine design
+- [Steam Power](../energy/steam-power.md) — steam engine design and boiler construction
+- [Iron & Steel](../metals/iron-steel.md) — materials for engine and propeller construction
+
+## Oar Propulsion
 
 The simplest marine drive: direct conversion of human muscle to thrust.
 
@@ -217,7 +225,18 @@ For a 100 m cargo vessel at 12 knots:
 | Late Industrial | Steam turbine | 1,000-70,000 HP | 15-20% | Oil/Coal | 12-25 knots |
 | Modern | Diesel | 500-70,000 HP | 40-52% | Oil | 10-25 knots |
 
-### See Also
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Engine overheating under load | Raw water intake blocked or impeller worn | Clear intake strainer; replace impeller; check raw water pump output |
+| Propeller cavitation (vibration, erosion) | Blade loading too high or tip speed excessive | Reduce engine RPM; install larger-diameter propeller with more blades; check hull clearance |
+| Excessive vibration at cruising speed | Propeller out of balance or shaft misalignment | Dynamically balance propeller; realign shaft with dial indicators; check cutless bearing wear |
+| Steam engine losing power | Boiler scale buildup or steam leaks | Blow down boiler; descale with acid wash; inspect and repack gland packing |
+| Sail rig not pointing high enough | Sail shape too full or rigging slack | Tighten shrouds; flatten sail with outhaul and cunningham; check forestay tension |
+| Engine won't reach rated RPM | Propeller pitch too coarse or hull fouling | Clean hull; reduce propeller pitch; check fuel system for restrictions |
+
+## See Also
 
 - [Water Transport](../transport/shipping.md) — propulsion overview, hull speed, displacement calculations
 - [Steam Power](../energy/steam-power.md) — steam engine design and boiler construction
@@ -225,7 +244,6 @@ For a 100 m cargo vessel at 12 knots:
 - [Metals: Iron & Steel](../metals/iron-steel.md) — materials for engine and propeller construction
 - [Hull Construction](shipbuilding.md) — ship structural design
 - [Metal Joining](../machine-tools/joining.md) — riveting and welding for hull construction
+- [Navigation](navigation.md) — maritime navigation and piloting
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Marine & Naval](./index.md) • [All Domains](../index.md)*
+[← Back to Marine & Naval Engineering](index.md)

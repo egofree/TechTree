@@ -8,13 +8,18 @@
 > **Outputs**: fish, shellfish, fish_oil, dried_fish, smoked_fish, fish_sauce, fish_guano
 > **Critical**: Yes — highest protein conversion efficiency of any animal production system
 
-### Overview
+### Problem
 
 Aquaculture converts water surfaces into protein production systems. Fish convert feed to body mass at ratios of 1.2-2.0:1 (kg feed per kg gain), far more efficient than any land livestock. A 1000 m² pond stocked with carp can produce 200-600 kg of fish per year on minimal supplemental feeding, yielding protein that requires no pasture, no fencing, and no winter housing.
 
 The practice splits into freshwater pond farming (the primary focus here) and coastal shellfish cultivation. Both rely on the same principles: provide the right environment, stock at appropriate densities, and manage water quality. Pond fish farming works from stone-age materials alone. Clay for lining, timber for drains, woven nets for harvest, and manure for fertilizing the water column.
 
-Minimum viable startup: one clay-lined pond of 500-1000 m², a reliable water source delivering at least 5-10 liters per minute, 200-500 fingerlings from wild catch or a breeding pond, and a supply of supplemental feed (agricultural byproducts, insects, or duckweed).
+### Prerequisites
+
+- [Insect farming](insect-farming.md) — insect meal as supplemental fish feed
+- [Basic tools](../foundations/tools-basic.md) — digging, net-making, and construction implements
+- [Food and agriculture](../foundations/food-agriculture.md) — manure for pond fertilization, crop byproducts for feed
+- [Water management](../foundations/index.md) — reliable water source and drainage
 
 ### Pond Construction
 
@@ -198,13 +203,6 @@ Mussels settle on any firm surface in the intertidal zone. Cultivation uses rope
 
 Seed clams in sandy or muddy intertidal areas. Mark beds with stakes. Clams grow by filter feeding, requiring no input. Growth to harvest size (5-8 cm) takes 1.5-3 years depending on species and conditions. Harvest by digging with a fork or rake at low tide.
 
-### Cross-Domain Links
-
-- **[Basic Tools](../foundations/tools-basic.md)** — net making requires cutting tools and needles; hooks require bone working or iron forging; pond construction needs digging tools and timber framing
-- **[Food & Agriculture](../foundations/food-agriculture.md)** — pond fertilization with manure links livestock waste to fish production; agricultural byproducts (bran, oilseed cake) are supplemental fish feed; rice-fish co-culture integrates both systems
-- **[Medicine](../health/medicine.md)** — fish oil provides essential fatty acids (omega-3) and vitamin D; shellfish supply iodine and zinc; medicinal leeches come from aquatic environments
-- **[Shipping & Maritime](../transport/shipping.md)** — coastal aquaculture and shellfish harvesting overlap with maritime skills; boat building supports net-based fishing in open water
-
 ### Safety
 
 **Waterborne parasites**: Freshwater fish in warm climates carry parasitic flukes (*Clonorchis*, *Opisthorchis*) in their flesh. Infection occurs when fish is eaten raw or undercooked. Cook all freshwater fish to an internal temperature of 63°C or above. Freezing at -20°C for 7 days also kills parasites, but this is impractical without modern freezer infrastructure. Salting and smoking at adequate temperatures reduce but do not eliminate all parasitic risk.
@@ -215,6 +213,24 @@ Seed clams in sandy or muddy intertidal areas. Mark beds with stakes. Clams grow
 
 **Water quality hazards**: Stagnant pond water can harbor *Leptospira* bacteria (from rodent urine), *Naegleria fowleri* (in warm freshwater), and harmful algal blooms (cyanobacteria, recognizable by blue-green surface scum). Do not drink untreated pond water. Avoid swimming in or contacting water with visible algal scum. Filter or boil all water drawn from ponds before consumption.
 
----
+### Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Fish dying in mass | Oxygen depletion from overfeeding or overcast weather | Stop feeding; add fresh water immediately; install emergency aerator (paddle wheel or air compressor) |
+| Pond water green and murky | Algal bloom from excess nutrients (over-fertilized) | Reduce manure/fertilizer input; add fresh water to dilute; consider adding filter-feeding fish (silver carp) |
+| Fish not growing | Water too cold, overcrowded, or insufficient feed | Monitor temperature (warmwater fish need >18°C); reduce stocking density; increase supplemental feeding |
+| Pond leaking | Clay liner cracked or compromised by roots | Drain pond; repair liner with fresh clay (10-15 cm compacted); remove tree roots from pond walls |
+| Parasites on fish | Poor water quality or overcrowding | Improve water quality; reduce stocking density; salt bath treatment (3-5% NaCl for 5-10 minutes) |
+| Predation (birds, otters) | Unprotected pond | Install netting over pond; use decoy predators; maintain steep pond edges to discourage wading birds |
+
+## See Also
+
+- [Insect Farming](insect-farming.md) — insect meal as fish feed
+- [Basic Tools](../foundations/tools-basic.md) — net-making and pond construction tools
+- [Food & Agriculture](../foundations/food-agriculture.md) — manure and crop byproducts for pond management
+- [Medicine](../health/medicine.md) — fish oil nutrition and waterborne disease
+- [Shipping & Maritime](../transport/shipping.md) — coastal aquaculture and open-water fishing
+- [Aquaponics](../agriculture/aquaponics.md) — integrated fish-plant production
+
+[← Back to Animals](index.md)

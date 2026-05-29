@@ -3,18 +3,24 @@
 > **Node ID**: mining.ventilation
 > **Domain**: [Mining](./index.md)
 > **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), [`mining`](./index.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`mining.extraction`](extraction.md), [`mining.drilling`](drilling.md)
 > **Timeline**: Years 10-18
 > **Outputs**: breathable_air, methane_control, dust_suppression
 > **Critical**: No
 
-### Why Ventilation Matters
+## Problem
 
 Every underground opening consumes oxygen and produces contaminants. Miners breathe (consumes ~0.25 L/min of O₂ per person at rest, ~2-3 L/min during heavy labor). Blasting generates carbon monoxide, nitrogen oxides, and sulfur dioxide. Diesel equipment emits CO, NOₓ, and particulates. Ground releases radon and methane. Without forced air exchange, an active heading becomes lethal within 30-60 minutes.
 
 The fundamental equation: the mine must supply more fresh air than the sum of all contaminant generation rates, diluted to safe levels. This air must travel from the surface, through miles of tunnels and shafts, to every working face, and back out again.
 
-### Natural Ventilation
+## Prerequisites
+
+- [Steam Power](../energy/steam-power.md) — power for main ventilation fans
+- [Mining](./index.md) — mine layout and infrastructure
+- [Drilling](drilling.md) — compressed air supply (shared infrastructure)
+
+## Natural Ventilation
 
 The simplest ventilation relies on density differences between air columns in two mine openings (intake shaft and exhaust shaft). Warm air is less dense and rises; cool air sinks.
 
@@ -217,17 +223,28 @@ Every point where personnel must cross between intake and return airways needs a
 - Emergency ventilation procedures and backup power
 - Airlock and door construction for pressure barriers
 
-### Cross-References
-
-- **Compressed air for drills**: [drilling](drilling.md)
-- **Steam or electric power for fans**: [steam power](../energy/steam-power.md), [electricity](../energy/electricity.md)
-- **Mine extraction layout**: [extraction](extraction.md)
-- **Explosive fume clearance**: [Black Powder](black-powder.md)
-
-### Heat Stress Limits
+## Heat Stress Limits
 
 The wet bulb globe temperature (WBGT) index combines dry-bulb temperature, natural wet-bulb temperature (accounts for humidity and evaporative cooling), and globe temperature (accounts for radiant heat). ACGIH TLV thresholds: 28°C WBGT for heavy work (shoveling, hand drilling), 30°C for moderate work, and 32.5°C for light work. Above these limits, mandatory rest periods are required per the ACGIH work/rest cycle table (e.g., at 29°C WBGT, heavy work is limited to 75% of each hour with 25% rest). Deep mines without refrigeration routinely exceed these limits, making cooling infrastructure essential for sustained production.
 
----
+## Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Stale air at working face | Insufficient airflow or short-circuiting | Measure airflow at face with anemometer; check for leakage through abandoned headings; install or repair airlock doors |
+| Methane levels rising | Inadequate exhaust capacity or sudden gas inflow | Increase fan speed; open additional exhaust paths; evacuate if >1% CH₄; check for new gas emission zones |
+| Recirculation of contaminated air | Fan positioned incorrectly or missing barriers | Ensure fan is on exhaust side; install stopping walls between intake and return airways; check door seals |
+| Dust levels exceeding PEL | Inadequate water suppression or insufficient airflow | Increase water spray at dust sources; raise airflow velocity (min 0.5 m/s at face); install dust collectors |
+| Excessive heat at depth | Geothermal gradient and diesel heat load | Install cooling coils or spot coolers; restrict diesel equipment; increase airflow volume; schedule heavy work for cooler shifts |
+| Fan motor overheating | Electrical fault or airflow restriction | Check motor current draw; clear debris from fan inlet; verify belt tension; inspect for bearing wear |
+
+## See Also
+
+- [Drilling](drilling.md) — compressed air for drills and shared infrastructure
+- [Steam Power](../energy/steam-power.md) — power sources for ventilation fans
+- [Electricity](../energy/electricity.md) — electric power for main fans
+- [Extraction](extraction.md) — mine layout affecting ventilation design
+- [Black Powder](black-powder.md) — explosive fume clearance requirements
+- [Occupational Health](../health/occupational-health.md) — exposure limits and respiratory protection
+
+[← Back to Mining](index.md)

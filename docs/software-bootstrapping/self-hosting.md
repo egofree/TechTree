@@ -8,7 +8,7 @@
 > **Outputs**: self_hosting_compiler
 > **Critical**: Yes — the moment a compiler compiles itself is the moment the software chain becomes self-sustaining; no further assembly or machine code is needed to produce new versions of the compiler
 
-## Overview
+## Problem
 
 Self-hosting is the process by which a compiler for language X is itself written in language X, and can compile its own source code to produce a working copy of itself. This is the keystone of the software bootstrap chain: once achieved, the compiler is self-sustaining — it can be improved, extended, and rebuilt using only its own language, without ever returning to assembly or machine code.
 
@@ -18,6 +18,13 @@ The bootstrap sequence has three phases:
 3. **Use the full compiler to compile itself**. Discard the assembly-written version. The compiler is now self-hosting.
 
 From this point forward, any change to the compiler's source code is compiled by the previous version of the compiler. The chain is unbroken: every version of the compiler is produced by the previous version, tracing back to the original assembly-written seed.
+
+## Prerequisites
+
+- [Compiler Construction](compilers.md) — the compiler being bootstrapped
+- [Assemblers, Linkers & Loaders](assemblers.md) — tools needed to build the seed compiler
+- [Machine Code & Front-Panel Programming](machine-code.md) — the origin of the bootstrap chain
+- [Operating System Construction](operating-systems.md) — file system needed for bootstrap process
 
 ## Prerequisites
 
@@ -195,13 +202,23 @@ Once self-hosting is achieved, the compiler can be improved using itself:
 
 **The Ken Thompson trick**: In his 1984 Turing Award lecture, Thompson demonstrated that a self-hosting compiler can contain a hidden "backdoor" — the compiler can be modified to inject malicious code into a specific program (like the login command) whenever it compiles it, and this injection persists through self-compilation. The lesson: the only way to trust a self-hosted compiler is to audit the source code (and verify that the binary matches the audited source).
 
-## References
+## Troubleshooting
 
-- [Compiler Construction](compilers.md) — The compiler being bootstrapped
-- [Assemblers, Linkers & Loaders](assemblers.md) — Tools needed to build the seed compiler
-- [Machine Code & Front-Panel Programming](machine-code.md) — The origin of the bootstrap chain
-- [Operating System Construction](operating-systems.md) — File system needed for bootstrap process
-- [Electronic Computing](../computing/electronic.md) — Hardware that runs the compiled compiler
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Bootstrap fails — stage 2 compiler crashes | Stage 1 (seed) compiler has a bug in a rarely-used code path | Reduce stage 2 source to minimal subset that compiles successfully; add one feature at a time; add diagnostics to stage 1 |
+| Self-compilation produces different binary each time | Non-deterministic behavior (timestamps, hash ordering, uninitialized memory) | Eliminate all sources of non-determinism; fix uninitialized variables; use deterministic hash tables |
+| Stage 2 compiler runs but produces wrong code | Bug in code generation that only triggers when compiling complex programs | Write targeted test programs that exercise each code generation path; compare stage 2 output against stage 1 output |
+| Bootstrap works on one machine but fails on another | Endianness, word size, or ABI differences | Use fixed-width integer types; avoid pointer-to-integer casts; test on both architectures during development |
+| Compiler cannot find its own runtime library | Search path hardcoded relative to build directory | Use relative paths based on compiler executable location; add configurable library search path |
+| Regression — new compiler version breaks existing programs | Silent semantics change in language or code generation | Maintain comprehensive test suite; run all tests before accepting any compiler change; bisect to find failing commit |
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*
+## See Also
+
+- [Compiler Construction](compilers.md) — the compiler being bootstrapped
+- [Assemblers, Linkers & Loaders](assemblers.md) — tools needed to build the seed compiler
+- [Machine Code & Front-Panel Programming](machine-code.md) — the origin of the bootstrap chain
+- [Operating System Construction](operating-systems.md) — file system needed for bootstrap process
+- [Electronic Computing](../computing/electronic.md) — hardware that runs the compiled compiler
+
+[← Back to Software Bootstrapping](index.md)

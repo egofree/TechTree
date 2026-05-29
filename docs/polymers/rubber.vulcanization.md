@@ -2,8 +2,8 @@
 
 > **Node ID**: polymers.rubber.vulcanization
 > **Domain**: Polymers & Composites
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`polymers.rubber.natural`](natural.md)
+> **Enables**: [`polymers.rubber`](rubber.md), [`polymers.composites`](composites.md), [`energy.engine`](../energy/engine.md)
 > **Timeline**: Years 5-50
 > **Outputs**: vulcanized_elastomers, cured_seals, molded_rubber_parts
 
@@ -222,17 +222,25 @@ Synthetic rubbers (SBR, BR, NBR) are less prone to reversion than NR — their c
 - **Dust explosion risk**: Sulfur powder (MEC ~35 g/m³), carbon black (MEC 50–100 g/m³), and rubber crumb form explosive dust-air mixtures. Ground equipment, use local exhaust ventilation, eliminate ignition sources.
 - **Volatile organic compounds (VOCs)**: Vulcanization releases a complex mixture of volatile organic compounds including H₂S, SO₂, mercaptans, and various hydrocarbon fragments. Adequate ventilation is mandatory — typical exhaust rates of 15–20 air changes per hour for curing areas.
 
----
+## Troubleshooting
 
-### Cross-Domain Dependencies
-
-- Sulfur from [Chemistry](../chemistry/acids.md). Carbon black from [Charcoal](../energy/charcoal.md). Zinc oxide from [Metals](../metals/non-ferrous.md). Equipment from [Machine Tools](../machine-tools/joining.md). See [Natural Rubber](./natural.md) for raw material sources and [Synthetic Polymers](./synthetic.md) for synthetic rubber cure systems.
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Undercure (tacky surface, low hardness) | Insufficient cure time or temperature too low | Increase cure time; verify mold/platen temperature; check accelerator activity (may be aged) |
+| Overcure (hard, brittle rubber) | Excessive cure time or too much sulfur | Reduce cure time; decrease sulfur dosage; use delayed-action accelerator |
+| Porosity (bubbles in molded part) | Moisture in compound or trapped air | Pre-dry raw rubber; increase press pressure; add vacuum step to molding cycle |
+| Poor adhesion to metal insert | Contaminated insert surface or insufficient brass plating | Clean insert with solvent; verify brass plating quality; use bonding agent (chemical primers) |
+| Blooming (white surface deposit) | Excess sulfur or unreacted accelerators migrating to surface | Reduce sulfur below solubility limit; use efficient vulcanization (EV) system with less sulfur |
+| Uneven cure across thick section | Poor heat transfer to center of part | Increase cure time for thick sections; use step-cure profile; preheat compound before molding |
 
 ## See Also
 
-- **[Rubber Production](./rubber.md)**: Overview of rubber and elastomers
-- **[Natural Rubber](./natural.md)**: Raw rubber extraction and basic vulcanization
-- **[Synthetic Polymers](./synthetic.md)**: Synthetic rubber types and their cure systems
-- **[Semiconductor Applications](./rubber.semiconductor-apps.md)**: Elastomers in semiconductor equipment
+- [Rubber Production](rubber.md) — overview of rubber and elastomers
+- [Natural Rubber](natural.md) — raw rubber extraction and basic vulcanization
+- [Synthetic Polymers](synthetic.md) — synthetic rubber types and their cure systems
+- [Semiconductor Applications](rubber.semiconductor-apps.md) — elastomers in semiconductor equipment
+- [Acids & Chemistry](../chemistry/acids.md) — sulfur production for vulcanization
+- [Charcoal](../energy/charcoal.md) — carbon black from charcoal processes
+- [Machine Tools / Joining](../machine-tools/joining.md) — press equipment for molding
 
 [← Back to Polymers](index.md)

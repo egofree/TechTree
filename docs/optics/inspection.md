@@ -6,6 +6,19 @@
 > **Enables**: [`measurement.optical-instruments`](../measurement/optical-instruments.md), [`optics.inspection.optical-coatings`](optical-coatings.md), [`optics.precision-instruments`](precision-instruments.md), [`vlsi-scaling.advanced-lithography`](../vlsi-scaling/advanced-lithography.md)
 > **Timeline**: Years 25-40
 > **Outputs**: lenses, microscopes, optical_comparators
+> **Critical**: No — optical inspection enhances quality control but parts can be made without it
+
+### Problem
+
+Manufacturing precision components requires verifying that surfaces, dimensions, and defects meet specification. The unaided human eye resolves ~100 μm features — far too coarse for machined tolerances (±0.01 mm) or optical surfaces (λ/4 = 160 nm flatness). Without magnification, interferometry, and comparison techniques, there is no way to confirm that a lens surface is correct, a machined part meets tolerance, or a semiconductor wafer is defect-free. Optical inspection bridges the gap between what the machine produces and what the specification demands.
+
+### Prerequisites
+
+- [Glass production](../glass/index.md) — optical glass blanks for lenses and flats
+- [Machine tools](../machine-tools/index.md) — grinding, lapping, and polishing capability
+- [Abrasives](../machine-tools/bearings-abrasives.md) — SiC, emery, cerium oxide for grinding and polishing
+- [Measurement fundamentals](../measurement/index.md) — calibration and traceability concepts
+- [Light sources](../energy/electricity.md) — monochromatic light for interferometric testing
 
 ### Optics & Inspection
 
@@ -205,6 +218,17 @@ Not every optical component can be inspected 100% (batch sizes in the hundreds o
 - **Surface preparation dependency**: Inspection accuracy depends on surface cleanliness and preparation. A scratch may be hidden by oil film; contamination may be mistaken for a surface defect. Proper cleaning (solvent wash, lint-free wipes) must precede critical inspections.
 - **Traceability gaps**: Without calibrated reference standards traceable to national metrology institutes, dimensional measurements have uncertain accuracy. Gauge blocks, optical flats, and angle standards provide local references but their absolute accuracy degrades over time through wear and corrosion.
 
+### Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Interference fringes irregular (flat test) | Optical flat or test piece contaminated, or flat is worn | Clean both surfaces with solvent and lint-free wipe; re-press flat if pitch-lapped; verify flat against reference |
+| Foucault test shows no shadow transition | Knife edge not at focus, or mirror has severe zones | Adjust knife-edge position laterally; verify light source alignment; check mirror for severe astigmatism |
+| Microscope image blurry at high power | Objective not focused, oil immersion missing (for oil-type), or cover slip wrong thickness | Focus with coarse then fine adjustment; use immersion oil for 100× objectives; use 0.17 mm cover slips |
+| Scratches appear after polishing | Abrasive cross-contamination between grit stages | Clean work area, tools, and glass thoroughly between grits; use separate containers for each grit |
+| Spherometer readings inconsistent | Contact points worn, dirty, or spherometer not zeroed on reference flat | Clean contact points; zero on optical flat before each measurement session |
+| Optical comparator silhouette unclear | Projector lamp misaligned or screen dirty | Align lamp filament; clean projector screen; verify magnification with stage micrometer |
+
 ## See Also
 
 - [Precision Instruments](precision-instruments.md) — optical flats, lens manufacturing, autocollimators
@@ -212,7 +236,6 @@ Not every optical component can be inspected 100% (batch sizes in the hundreds o
 - [Measurement](../measurement/index.md) — precision metrology, optical instruments
 - [Glass](../glass/index.md) — optical glass quality and defect classification
 - [Machine Tools](../machine-tools/index.md) — surface finish standards for machined parts
+- [Photolithography](../vlsi-scaling/advanced-lithography.md) — wafer inspection at semiconductor scale
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Optics](./index.md) • [All Domains](../index.md)*
+[← Back to Optics](index.md)

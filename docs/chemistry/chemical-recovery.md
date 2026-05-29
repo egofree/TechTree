@@ -1,14 +1,12 @@
 # Chemical Recovery & Solvent Regeneration
 
 > **Node ID**: chemistry.chemical-recovery
-> **Domain**: [Chemistry](./distillation.md)
+> **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`Distillation`](distillation.md), [`Electrolysis`](electrolysis.md), [`Solvent Production`](solvents.md), [`Mineral Acids`](acids.md)
 > **Enables**: [`Chemistry`](./index.md), [`Semiconductor Chemicals`](semiconductor-chemicals.md), [`Electronics`](../electronics/index.md)
 > **Timeline**: Years 20-50+
 > **Outputs**: recovered_solvents, regenerated_acids, recovered_catalysts, distilled_water
 > **Critical**: No — reduces chemical consumption but does not enable new capabilities
-
-## 1. Overview
 
 Chemical recovery regenerates spent industrial chemicals — solvents, acids, catalysts, and process water — to a purity level suitable for reuse in manufacturing. This is distinct from waste treatment (see [Waste Management](../ehs/waste-management.md)), which converts hazardous waste into dischargeable effluent. Recovery asks: how do we make this useful again?
 
@@ -16,7 +14,7 @@ The economic case for chemical recovery strengthens as chemical production scale
 
 Three recovery mechanisms dominate: **distillation** (separating chemicals by boiling point), **membrane separation** (filtering by molecular size or charge), and **chemical regeneration** (reversing the reaction that consumed the chemical). This capability builds on existing distillation and electrolysis infrastructure — the recovery process adds separation stages to standard chemical plant equipment.
 
-## 2. Prerequisites
+## Prerequisites
 
 ### Materials
 
@@ -44,7 +42,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 - Chemical compatibility: which solvents can be mixed safely, which produce hazardous reactions
 - Membrane operation: pressure, flow rate, fouling prevention
 
-## 3. Bill of Materials
+## Bill of Materials
 
 ### BOM: Solvent Recovery by Distillation (per 1,000 L spent solvent)
 
@@ -66,7 +64,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | Deionized water (receiving stream) | 500–1,500 L | [Water Treatment](water-treatment.md) | Tap water (reduces recovery purity) |
 | Electricity | 5–15 kWh | [Energy](../energy/engine.md) | Diffusion dialysis is passive (gravity-driven) |
 
-## 4. Process Description
+## Process Description
 
 ### 4.1 Solvent Recovery by Fractional Distillation
 
@@ -108,7 +106,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 3. **Metal recovery from spent catalyst.** Dissolve catalyst support in acid or alkali. Precipitate or plate the active metal (Pt, Pd, Ni, Co). See [Electrolysis](electrolysis.md) for electrowinning details.
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
 ### Solvent Recovery Rates and Purity
 
@@ -142,7 +140,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | Acid recovery | 70–90% | 80–95% |
 | Metal rejection | 90–98% | 85–95% |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 **Minimum viable scale**: A simple pot still recovering 10–50 L/day of ethanol or IPA from laboratory waste. Requires a copper pot, condenser coil, and heat source. This is the bootstrap entry point — any settlement with distillation capability can recover solvents.
 
@@ -152,7 +150,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 **Key scaling factor**: Heat integration becomes economically critical above 1,000 L/day. Without heat recovery, distillation energy costs dominate. A feed-effluent heat exchanger recovers 60–80% of the heating energy, reducing steam demand proportionally.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -163,7 +161,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | Recovered catalyst has low activity | Incomplete coke burnoff, sintering of metal crystallites | Increase regeneration temperature by 50°C; limit regeneration time to prevent sintering |
 | Azeotrope prevents full solvent-water separation | IPA-water (12% water) or ethanol-water (4% water) form azeotropes | Use molecular sieve drying (pressure-swing adsorption) or extractive distillation with ethylene glycol |
 
-## 8. Safety
+## Safety
 
 **Flammable solvent vapors** are the primary hazard in solvent recovery. All distillation equipment must be electrically grounded to prevent static sparks. Operate in a well-ventilated area with explosion-proof electrical fittings. IPA vapor (LEL 2%, UEL 12%) ignites easily — a single spark near the condenser outlet can cause flashback into the reboiler. Install flame arrestors on all vent lines.
 
@@ -173,7 +171,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 **Nitrogen oxide (NOₓ) evolution**: Concentrated nitric acid recovery can release NO₂ (brown gas, lethal at 100 ppm). Provide local exhaust ventilation with scrubbing when recovering HNO₃. Gas detection: colorimetric tubes or electrochemical NO₂ sensor.
 
-## 9. Quality Control
+## Quality Control
 
 ### Recovered Solvent Specification
 
@@ -201,7 +199,7 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 - **Water test**: Add anhydrous copper sulfate (white) to the solvent. If it turns blue, water is present (CuSO₄ + 5H₂O → CuSO₄·5H₂O, blue).
 - **Acid concentration**: Titrate 10 mL of recovered acid with 1N NaOH using phenolphthalein indicator. Calculate concentration from volume used.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 ### Recovery Method Selection Guide
 
@@ -225,17 +223,26 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 | Applicable scale | >100 L/day economical | Any scale |
 | Regulatory | Often required for large generators | Always required |
 
-## 11. References
+## Troubleshooting
 
-- [Distillation](distillation.md) — Distillation column design and operation
-- [Electrolysis](electrolysis.md) — Electrowinning for metal recovery from spent catalyst
-- [Acid Regeneration](sem-tech-acid-regeneration.md) — Membrane-based acid recovery for semiconductor fab
-- [Solvent Production](solvents.md) — Primary solvent production processes
-- [Mineral Acids](acids.md) — Primary acid production processes
-- [Water Treatment](water-treatment.md) — Water purification for recovery process water
-- [Waste Management](../ehs/waste-management.md) — Disposal of non-recoverable chemical waste
-- [Metal Recycling](../metals/metal-recycling.md) — Metal recovery from scrap (parallel recovery domain)
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Recovered solvent purity below spec | Azeotrope formation or column flooding | Add entrainer for azeotropic distillation; reduce boil-up rate; check column packing condition |
+| Distillation column pressure drop rising | Tray fouling or packing contamination | Clean or replace fouled trays; flush packing with fresh solvent; pre-filter feed |
+| Acid regeneration recovery <90% | Membrane fouled or spent resin exhausted | Clean or replace membrane; regenerate ion exchange resin; check for organic contamination |
+| Catalyst recovery yield dropping | Leaching incomplete or precipitation pH wrong | Adjust leach solution concentration; verify pH control; check for competing ion interference |
+| Emulsion in solvent-water separator | Surfactant contamination in spent solvent | Add demulsifier; increase settling time; pre-treat with activated carbon to remove surfactants |
+| High energy consumption per kg recovered | Excessive reflux ratio or poor insulation | Reduce reflux ratio to minimum for required purity; insulate column and reboiler; add heat integration |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./distillation.md) • [All Domains](../index.md)*
+- [Distillation](distillation.md) — distillation column design and operation
+- [Electrolysis](electrolysis.md) — electrowinning for metal recovery from spent catalyst
+- [Acid Regeneration](sem-tech-acid-regeneration.md) — membrane-based acid recovery for semiconductor fab
+- [Solvent Production](solvents.md) — primary solvent production processes
+- [Mineral Acids](acids.md) — primary acid production processes
+- [Water Treatment](water-treatment.md) — water purification for recovery process water
+- [Waste Management](../ehs/waste-management.md) — disposal of non-recoverable chemical waste
+- [Metal Recycling](../metals/metal-recycling.md) — metal recovery from scrap (parallel recovery domain)
+
+[← Back to Chemistry](index.md)

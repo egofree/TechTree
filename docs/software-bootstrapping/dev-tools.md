@@ -8,8 +8,6 @@
 > **Outputs**: text_editors, debuggers, build_systems
 > **Critical**: No — programs can be written without these tools, but productivity is severely limited
 
-## Overview
-
 Development tools are the software that helps write, test, and maintain other software. A text editor creates and modifies source code; a debugger inspects and controls program execution; a build system automates compilation and linking; version control tracks changes over time.
 
 Without development tools, programming is possible but painful — source code is entered via teletype with no ability to correct errors except by re-punching the entire line or using a correction tape. Debugging means inserting print statements and recompiling. Building means manually issuing compile and link commands for each source file. Version control means keeping dated copies of source files.
@@ -231,12 +229,13 @@ program: program.o utils.o
 
 **Forth-style development**: Forth blurs the line between editor, compiler, and debugger. The Forth interpreter provides immediate feedback — type a word definition and test it instantly. No separate compile step. Development is conversational rather than batch-oriented. A Forth system with built-in editor and debugger fits in 4-8 KB.
 
-## References
+## See Also
 
-- [Compiler Construction](compilers.md) — Development tools are built with compilers
-- [Assemblers, Linkers & Loaders](assemblers.md) — Assembly-level debugging tools
+- [Compiler Construction](compilers.md) — development tools are built with compilers
+- [Assemblers, Linkers & Loaders](assemblers.md) — assembly-level debugging tools
 - [Operating System Construction](operating-systems.md) — OS provides the execution environment for development tools
-- [Electronic Computing](../computing/electronic.md) — Terminal hardware, I/O controllers
+- [Electronic Computing](../computing/electronic.md) — terminal hardware, I/O controllers
+- [Self-Hosting Toolchain](self-hosting.md) — the bootstrap chain that produces these tools
+- [Logic Design](../computing/logic-design.md) — hardware debuggers and logic analyzers
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*
+[← Back to Software Bootstrapping](index.md)

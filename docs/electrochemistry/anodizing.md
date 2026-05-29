@@ -20,7 +20,7 @@ Aluminum components in corrosive, high-wear, or high-purity environments need su
 - [Water treatment](../chemistry/alkalis.md) — clean rinse water and sealing bath chemistry
 - [Titanium](../metals/index.md) — for titanium anodizing applications
 
-### Overview
+## Overview
 
 Anodizing is an electrochemical oxidation process that converts a metal surface into a durable, controlled oxide layer. Unlike electroplating (which deposits metal onto a surface from an external source), anodizing grows the oxide from the substrate itself — the coating is integral to the metal and cannot peel, chip, or delaminate. The workpiece is the anode (hence "anodizing") in an electrolytic cell, and oxygen generated at the anode reacts with the metal to form a dense oxide.
 
@@ -28,7 +28,7 @@ For semiconductor manufacturing, anodizing serves two critical roles: (1) produc
 
 The fundamental physics of anodizing differs from plating. In plating, metal cations in solution are reduced at the cathode to form the deposit. In anodizing, the metal itself is oxidized at the anode, consuming the substrate to build the oxide. The oxide thickness is proportional to the applied voltage (1.2-1.4 nm/V for aluminum barrier oxide), giving precise control over coating properties.
 
-### Aluminum Anodizing — Type II (Sulfuric Acid)
+## Aluminum Anodizing — Type II (Sulfuric Acid)
 
 Type II sulfuric acid anodizing is the most common anodizing process, producing 5-30 μm of porous aluminum oxide. The porous structure readily absorbs dyes for coloring and can be sealed for improved corrosion resistance.
 
@@ -59,7 +59,7 @@ Type II sulfuric acid anodizing is the most common anodizing process, producing 
 - Corrosion resistance: 200-500+ hours salt spray (ASTM B117) when sealed. Unsealed: <24 hours.
 - Maximum service temperature: 200°C (above this, the sealed coating dehydrates and loses corrosion resistance).
 
-### Aluminum Anodizing — Type III (Hard Anodizing)
+## Aluminum Anodizing — Type III (Hard Anodizing)
 
 Hard anodizing produces a thick, dense, wear-resistant aluminum oxide coating (25-100 μm) by operating at low temperature and higher voltage. The coating is significantly harder and more abrasion-resistant than Type II.
 
@@ -84,7 +84,7 @@ Hard anodizing produces a thick, dense, wear-resistant aluminum oxide coating (2
 - **2000-series** (Al-Cu): Poor anodizing response. Copper particles cause soft, dark, non-uniform coatings. Not recommended for Type III. Alloy 2024 can be hard anodized with special procedures (low temperature, reduced current density) but coating quality is inferior.
 - **Cast alloys** (Al-Si): Silicon particles appear as dark spots in the anodized coating. High-silicon casting alloys (A356, 356) produce visibly mottled coatings.
 
-### Titanium Anodizing
+## Titanium Anodizing
 
 Titanium anodizing produces a thin oxide layer (TiO₂) whose thickness is precisely controlled by the applied voltage. Unlike aluminum anodizing, the titanium oxide is non-porous (barrier-type) and thin (typically <200 nm). The optical interference of the thin oxide layer produces vivid colors without dyes.
 
@@ -114,11 +114,11 @@ The colors result from thin-film optical interference — light reflected from t
 - Produces a thick, abrasion-resistant TiO₂ layer (1-5 μm). Hardness: 500-800 HV.
 - Applications: Medical implants (orthopedic, dental — TiO₂ is biocompatible and promotes osseointegration), aerospace fasteners, chemical process equipment.
 
-### Porous Anodic Aluminum Oxide (AAO) Templates
+## Porous Anodic Aluminum Oxide (AAO) Templates
 
 A specialized application of aluminum anodizing produces highly ordered nanopore arrays used as templates for nanowire and nanotube fabrication. Two-step anodizing in oxalic acid (0.3 M, 40V, 5°C) produces hexagonally close-packed pores with 50-200 nm diameter and 20-500 nm pitch, extending through membranes up to 100 μm thick. The AAO membrane serves as a template for electrodepositing metal nanowires (Cu, Ni, Au, Fe) by filling the pores from one side. After deposition, the aluminum substrate and oxide are dissolved, releasing free-standing nanowires. Applications: magnetic storage media, sensors, catalysis supports, and nanostructured electrodes for batteries.
 
-### Process Control
+## Process Control
 
 **Voltage-current monitoring**: The anodizing voltage-current curve indicates coating quality. In constant-voltage mode, the current should decrease gradually as the oxide thickens (increasing resistance). A sudden current spike indicates burning (thermal runaway). In constant-current mode, the voltage should increase gradually. A voltage plateau or decrease indicates excessive dissolution or poor contact.
 
@@ -131,7 +131,7 @@ A specialized application of aluminum anodizing produces highly ordered nanopore
 - Dye spot test: Apply a dye solution (anthraquinone-based) to the sealed surface for 5 minutes, rinse, and visually inspect. Any visible dye absorption indicates incomplete sealing.
 - Admittance test: Measures electrical admittance of the sealed coating at 1 kHz. Lower admittance = better seal. Standard: ISO 2931.
 
-### Dimensional Considerations
+## Dimensional Considerations
 
 Anodizing changes the part dimensions because the aluminum oxide occupies more volume than the aluminum consumed. The Pilling-Bedworth ratio for Al₂O₃/Al is approximately 1.6 — meaning 1 volume unit of aluminum converts to 1.6 volume units of oxide. However, the oxide grows both inward (consuming aluminum) and outward (building above the original surface):
 
@@ -142,7 +142,7 @@ Anodizing changes the part dimensions because the aluminum oxide occupies more v
 
 **Pre-anodize machining tolerances**: Parts must be machined undersize by the expected outward growth. For Type II (25 μm): machine 12 μm undersize per surface. For Type III (50 μm): machine 24 μm undersize per surface. Threads and close-tolerance fits require particular attention — the oxide on thread flanks changes the effective pitch diameter.
 
-### Color Matching and Quality Control
+## Color Matching and Quality Control
 
 **Dye color consistency**: Achieving consistent color across batches requires controlling:
 - Coating thickness (±2 μm): Thicker coatings absorb more dye, appearing darker. Controlled by anodizing time and current.
@@ -153,7 +153,7 @@ Anodizing changes the part dimensions because the aluminum oxide occupies more v
 
 **Color measurement**: Spectrophotometer (CIE L*a*b* color space) measures color coordinates. Tolerance: ΔE <2.0 for most applications, ΔE <1.0 for automotive trim. L* = lightness (0=black, 100=white), a* = red/green axis, b* = yellow/blue axis.
 
-### Anodizing in Semiconductor Manufacturing
+## Anodizing in Semiconductor Manufacturing
 
 Anodizing serves several specific functions in semiconductor equipment fabrication:
 
@@ -171,7 +171,7 @@ Anodizing serves several specific functions in semiconductor equipment fabricati
   - Pore diameter: 50 nm (40V oxalic acid). Pore pitch: 100 nm. Pore depth: up to 100 μm (aspect ratio >1000:1).
 - AAO membranes are used as templates for electrodeposition of nanowires (Cu, Ni, Au, Fe, Co), nanotubes (TiO₂, ZnO), and polymer nanostructures. After deposition, the aluminum substrate and oxide are dissolved (NaOH or H₃PO₄), releasing the nanostructures.
 
-### Anodizing Equipment
+## Anodizing Equipment
 
 **DC power supply**:
 - Silicon diode or thyristor rectifier with constant-voltage (CV) or constant-current (CC) mode. CV mode is standard for Type II anodizing (set voltage, current varies as oxide grows). CC mode is standard for Type III hard anodizing (set current, voltage increases as oxide grows — prevents burning during the critical initial phase).
@@ -187,7 +187,7 @@ Anodizing serves several specific functions in semiconductor equipment fabricati
 - Aluminum or titanium racks with spring-loaded contacts. The rack material must be the same alloy family as the workpiece (or titanium, which anodizes to a thin insulating oxide that prevents unwanted plating). Contact points leave small marks on the finished part — position contacts on non-visible or non-critical surfaces.
 - Tank material: Polypropylene, PVDF-lined steel, or lead-lined steel. H₂SO₄ attacks most metals — stainless steel is not suitable for long-term anodizing tank use.
 
-### Alloy-Specific Procedures
+## Alloy-Specific Procedures
 
 **Anodizing 6061-T6 aluminum** (most common engineering alloy):
 - Pre-treatment: Alkaline clean (NaOH 5-10%, 50-60°C, 5-10 min) → rinse → deoxidize (Na₂SO₄ + H₂SO₄ or HNO₃ dip, 1-3 min) → rinse → anodize.
@@ -198,7 +198,7 @@ Anodizing serves several specific functions in semiconductor equipment fabricati
 - The zinc content (5.1-6.1%) produces a slightly darker, less transparent oxide than 6000-series alloys. Type III hardness: 350-500 HV (lower than 6061 due to zinc interference with oxide growth).
 - Pre-treatment must remove all zinc from the surface before anodizing — residual zinc causes "spangling" (iridescent patches) in the oxide. Double deoxidize in nitric acid if necessary.
 
-### Common Defects and Troubleshooting
+## Common Defects and Troubleshooting
 
 - **Burning**: Dark, rough, powdery areas caused by excessive local current density. Occurs at sharp edges, corners, and contact points. Prevention: use shielding (plastic shields to redirect current), reduce overall current density, ensure good fixturing contact.
 - **Pitting**: Small holes in the oxide. Caused by chloride contamination in the bath (>50 ppm Cl⁻ from tap water or drag-in). Prevention: use deionized water for bath makeup, monitor chloride with ion-selective electrode.
@@ -206,7 +206,7 @@ Anodizing serves several specific functions in semiconductor equipment fabricati
 - **Powdering / chalking**: White, powdery surface after sealing. Caused by sealing at too-high pH (>7.0) or insufficient rinsing between anodize and seal. Remedy: adjust seal bath pH to 5.5-6.0, add intermediate rinse step.
 - **Galvanic burning**: Localized burning at contact points between dissimilar metals. Prevention: ensure only aluminum-to-aluminum or aluminum-to-titanium contacts in the anodizing bath.
 
-### Safety
+## Safety
 
 **Sulfuric acid burn hazard**: Type II and Type III anodizing baths contain 150-250 g/L H₂SO₄ (approximately 15-25% by weight). Skin contact causes immediate chemical burns; eye contact causes permanent corneal damage. Wear chemical splash goggles (not safety glasses — goggles seal against the face), face shield, acid-resistant apron (PVC or neoprene), and nitrile gloves (double-gloved for Type III where acid concentration and current density are higher). Emergency eyewash and safety shower within 10 seconds travel time from all anodizing stations.
 
@@ -228,13 +228,13 @@ Anodizing serves several specific functions in semiconductor equipment fabricati
 | Gray or dull finish | Impurities in bath (dissolved aluminum >15 g/L, chlorides) | Decant and replace bath; install filtration; check chloride contamination |
 | Low oxide thickness | Voltage too low or cycle time insufficient | Increase voltage (oxide grows at 1.2-1.4 nm/V); extend anodizing time |
 
-### See Also
+## See Also
 
-- **[Electroplating](electroplating.md)**: Copper damascene, nickel, gold, tin plating processes
-- **[Electrochemical Surface Processes](electrochemical-processes.md)**: Electropolishing for ultrapure surfaces
-- **[Metal Finishing](../metals/finishing.md)**: Overview of anodizing in the context of metal surface treatments
-- **[Aluminum Production](../metals/aluminum.md)**: Aluminum alloy properties and heat treatment
-- **[Semiconductor Elastomers](../polymers/rubber.semiconductor-apps.md)**: anodized components in cleanroom equipment
-- **[Cleanrooms](../photolithography/cleanrooms.md)**: particle-free surface requirements
+- [Electroplating](electroplating.md) — copper damascene, nickel, gold, tin plating processes
+- [Electrochemical Surface Processes](electrochemical-processes.md) — electropolishing for ultrapure surfaces
+- [Metal Finishing](../metals/finishing.md) — overview of anodizing in the context of metal surface treatments
+- [Aluminum Production](../metals/aluminum.md) — aluminum alloy properties and heat treatment
+- [Semiconductor Elastomers](../polymers/rubber.semiconductor-apps.md) — anodized components in cleanroom equipment
+- [Cleanrooms](../photolithography/cleanrooms.md) — particle-free surface requirements
 
 [← Back to Electrochemistry](index.md)

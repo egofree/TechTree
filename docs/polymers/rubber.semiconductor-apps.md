@@ -1,11 +1,25 @@
 # Elastomers in Semiconductor Equipment
 
-> **Node ID**: polymers.rubber
+> **Node ID**: polymers.rubber.semiconductor-apps
 > **Domain**: Polymers & Composites
+> **Dependencies**: [`polymers.rubber`](rubber.md), [`polymers.synthetic`](synthetic.md), [`polymers.rubber.vulcanization`](rubber.vulcanization.md), [`chemistry.acids`](../chemistry/acids.md)
+> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md)
 > **Timeline**: Years 40-200+
 > **Outputs**: semiconductor_seals, chemical_resistant_linings, cleanroom_elastomers
+> **Critical**: No — essential for semiconductor manufacturing but not required for basic civilization infrastructure
 
-Semiconductor fabrication equipment demands elastomeric seals, gaskets, O-rings, and liners that withstand aggressive chemicals (HF, H₂SO₄, HNO₃, H₃PO₄, organic solvents), elevated temperatures, vacuum integrity, and ultra-clean conditions where a single particle or trace contaminant can destroy a wafer. Material selection is critical — the wrong elastomer in a wet bench can leach metal ions into the process stream, killing device yield.
+### Problem
+
+Semiconductor fabrication equipment demands elastomeric seals, gaskets, O-rings, and liners that withstand aggressive chemicals (HF, H₂SO₄, HNO₃, H₃PO₄, organic solvents), elevated temperatures, vacuum integrity, and ultra-clean conditions where a single particle or trace contaminant can destroy a wafer. Material selection is critical — the wrong elastomer in a wet bench can leach metal ions into the process stream, killing device yield. Standard rubber (NR, NBR) degrades rapidly in oxidizing acids and most semiconductor process chemicals; only fluorinated elastomers (FKM, FFKM) and certain specialty grades (EPDM for UPW) survive.
+
+### Prerequisites
+
+- [Rubber production](rubber.md) — basic elastomer processing and molding
+- [Synthetic polymers](synthetic.md) — FKM, EPDM, silicone, and fluoropolymer synthesis
+- [Vulcanization](rubber.vulcanization.md) — cross-linking for heat and chemical resistance
+- [Acid production](../chemistry/acids.md) — HF, H₂SO₄, HNO₃ for wet process chemistry
+- [Vacuum technology](../gas-handling/vacuum.md) — vacuum seal requirements and outgassing
+- [Fluorine chemistry](../chemistry/fluorine-chemistry.md) — required for FKM and FFKM synthesis
 
 ### Chemical Resistance Properties Table
 
@@ -154,23 +168,43 @@ Semiconductor fabrication equipment (steppers, scanners, electron microscopes, p
    - Cleanroom (ISO 6) → Low-extractable grade FKM, pre-cleaned
    - Critical wet bench → FFKM (Kalrez) or PTFE-lined, certified to SEMI F57
 
+### Bill of Materials
+
+| Material | Grade | Application | Notes |
+|---|---|---|---|
+| FKM (Viton B) | 68% fluorine, terpolymer | O-rings, wet bench seals, vacuum seals | Standard for acid and vacuum service |
+| FFKM (Kalrez/Chemraz) | >70% fluorine, perfluorinated | Plasma etch seals, hot HNO₃ service | 100-500× cost of FKM; use only where required |
+| EPDM (peroxide-cured) | Metal oxide-free, low-extractable | UPW distribution, dilute acid, steam lines | Not resistant to hydrocarbon solvents |
+| PTFE (Teflon) | Paste-extruded liner, 1.5-3.0 mm | Pipe and hose linings | Not an elastomer — cold-flows under load |
+| PTFE-encapsulated O-rings | PTFE shell + FKM core | Mixed chemical service | PTFE chemical resistance + elastomer recovery |
+| Silicone (VMQ) | Shore A 50-70 | Non-critical vacuum, low-temperature service | Higher outgassing than FKM |
+| PVDF lining | 2-3 mm sheet | UPW and dilute acid pipe lining | Lower cost than PTFE, 140°C max |
+| NR isolation pads | Shore A 40-60 | Vibration isolation for equipment | Effective above 5-10 Hz |
+
+### Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| O-ring swelling in service | Chemical incompatibility — elastomer absorbing solvent | Check chemical against resistance table; upgrade to FKM or FFKM |
+| Seal hardening and cracking | Thermal aging or oxidation at elevated temperature | Replace with higher-temperature grade (FKM→FFKM); check operating temp |
+| Vacuum leak at O-ring seal | Compression set — seal lost elastic recovery after prolonged compression | Replace O-ring. Use lower compression-set grade (peroxide-cured FKM <20%) |
+| Particle contamination in process fluid | Elastomer shedding particles or improper cleaning | Use pre-cleaned, low-extraction grade O-rings (SEMI E49 certified) |
+| Wafer contamination (metal ions) | Elastomer leaching extractables into UPW or process stream | Switch to metal oxide-free, peroxide-cured EPDM; verify SEMI F57 compliance |
+| O-ring extrusion under pressure | Pressure exceeds seal capability or gland design is wrong | Add anti-extrusion backup ring; reduce gland clearance; use harder durometer |
+| PTFE liner cold-flow failure | Sustained pressure >10 bar at elevated temperature | Add metal reinforcement; reduce operating pressure; consider PVDF alternative |
+| FKM failure in acetone/NMP service | FKM is incompatible with ketones and esters (F-rating) | Switch to EPDM (A-rated for acetone/NMP) or PTFE-encapsulated |
+
 ---
 
-### Cross-Domain Dependencies
+### See Also
 
-- Elastomer types from [Rubber Production](./rubber.md) and [Synthetic Polymers](./synthetic.md)
-- Vulcanization processes from [Vulcanization](./rubber.vulcanization.md)
-- HF production from [Chemistry](../chemistry/acids.md)
-- Vacuum systems from [Gas Handling](../gas-handling/vacuum.md) and [Vacuum](../vacuum/pumps.md)
-- Cleanroom standards from [Photolithography](../photolithography/cleanrooms.md)
-- Semiconductor processes from [Fab Processes](../photolithography/fab-processes.md)
-
-## See Also
-
-- **[Rubber Production](./rubber.md)**: Overview of rubber and elastomers
-- **[Vulcanization](./rubber.vulcanization.md)**: Detailed vulcanization parameters and hardness scales
-- **[Synthetic Polymers](./synthetic.md)**: FKM, EPDM, and other synthetic elastomers
-- **[Gutta-Percha](./gutta-percha.md)**: Cable insulation
-- **[Vacuum Technology](../gas-handling/vacuum.md)**: Vacuum seals and gaskets
+- [Rubber Production](rubber.md) — overview of rubber and elastomer manufacturing
+- [Vulcanization](rubber.vulcanization.md) — cross-linking parameters and hardness scales
+- [Synthetic Polymers](synthetic.md) — FKM, EPDM, silicone, and fluoropolymer synthesis
+- [Gutta-Percha](gutta-percha.md) — natural polymer cable insulation
+- [Acids](../chemistry/acids.md) — HF, H₂SO₄, HNO₃ production for wet processes
+- [Gas Handling / Vacuum](../gas-handling/vacuum.md) — vacuum seal requirements and outgassing
+- [Cleanrooms](../photolithography/cleanrooms.md) — cleanroom classification and standards
+- [Fab Processes](../photolithography/fab-processes.md) — semiconductor manufacturing overview
 
 [← Back to Polymers](index.md)

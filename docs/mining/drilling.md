@@ -23,6 +23,16 @@ Before pneumatic or hydraulic drills, miners broke rock with hand steel. A steel
 - The holder faces away from the striker and times rotation to the striker's rhythm. Trust and communication are critical. The holder signals readiness by tapping the drill against the rock face between strikes. Mis-timed strikes can injure the holder's hands.
 - For deep holes, drill steels are used in sets of increasing length (300 mm, 600 mm, 900 mm, 1200 mm). Short steels start the hole, longer steels extend it. Each successive steel has a slightly wider diameter to prevent binding in the tapered hole.
 
+**Strengths**:
+- No infrastructure required — a steel bar and hammer work anywhere
+- Double-jack drilling achieves 4-6 m/day in hard rock with two workers
+- Water poured into the hole suppresses 90%+ of respirable silica dust
+
+**Weaknesses**:
+- Single-jack advance rate only 2-3 m/day in granite — labor-intensive for large headings
+- Missed strikes deform the drill steel head into sharp "mushroom" spalls — eye protection essential
+- Bit re-sharpening required every 0.5-1 m in hard rock, consuming forge time and fuel
+
 ### Drill Steel and Bit Design
 
 **[Carbon steel bits](../glossary/carbon-steel-bits.md)** (standard for hand drilling and early machine drilling):
@@ -51,6 +61,16 @@ Compressed air powers the percussive mechanism that replaces hand hammering. The
 - Water flush through hollow drill steel suppresses dust and clears cuttings. Minimum water flow: 4-8 liters per minute. Dry drilling generates respirable silica dust.
 - The operator pushes against an air-leg (pneumatic cylinder) that supports the drill weight and provides feed force. Air-leg extended length 1.2-1.8 m, providing 500-1500 N thrust at 5 bar.
 
+**Strengths**:
+- 10-20× faster than hand steel drilling (30-80 m/day vs 2-6 m/day)
+- Water flush through hollow drill steel suppresses dust at source
+- Air-leg support reduces operator fatigue and maintains consistent feed pressure
+
+**Weaknesses**:
+- Requires compressed air infrastructure (compressor, receiver, distribution piping) at 500-700 kPa
+- Noise level 110-120 dB causes hearing damage in under 2 minutes without protection
+- Jackhammer weight (15-30 kg) limits practical hole depth to 2-4 m for hand-held operation
+
 **[Drifter drill](../glossary/drifter-drill.md)** (mounted on a boom or carriage):
 - Larger piston (60-100 mm bore), heavier frame, higher feed force. Cannot be hand-held. Mounted on a drill jumbo (underground) or crawl carriage (surface).
 - Air consumption: 8-15 m³/min. Drills holes 38-64 mm diameter, 3-5 m deep. Feed force: 500-3000 N, adjustable via pneumatic chain or screw feed.
@@ -77,6 +97,16 @@ Core drilling extracts a cylindrical sample of rock for geological analysis. Unl
 - Retrieved core is extruded from the inner barrel into a split-core box (wooden or plastic tray with 5 rows of 1 m slots, holding 5 m of core per box). The core is washed, photographed, logged (geologist records rock type, mineralization, structure, and orientation), then sampled (split lengthwise with a diamond saw; one half is sent to the assay laboratory, the other half is archived).
 - Core recovery (the percentage of the drilled interval actually recovered as core) is a key quality metric. Recovery below 85% indicates broken or lost core, usually caused by fractured ground, insufficient water circulation, or excessive weight on bit. Recovery below 50% means the drilling data is unreliable for resource estimation.
 
+**Strengths**:
+- Preserves intact rock structure for visual inspection, assay, and geotechnical testing
+- Wireline retrieval collects core in 5-15 minutes vs 1-2 hours for rod tripping at 200 m depth
+- Multiple core sizes (AQ to PQ) allow cost/sampling trade-off for different exploration stages
+
+**Weaknesses**:
+- Diamond bits cost 5-20× more than tungsten carbide percussion bits per meter drilled
+- Penetration rate 2-10 m/hour in granite — slower than percussion drilling
+- Water circulation system (10-30 L/min) required continuously; freezing conditions need heated water
+
 ### Blast Hole Drilling
 
 Blast holes are drilled in a pattern (grid) across the rock face, loaded with explosive, and fired to break the rock into manageable fragments. The drilling pattern is the most important variable in blast design: hole depth, spacing, burden (distance to the free face), and angle all affect fragmentation size, throw distance, and vibration.
@@ -90,6 +120,16 @@ Blast holes are drilled in a pattern (grid) across the rock face, loaded with ex
 **[Long-hole drilling](../glossary/long-hole-drilling.md)** (mechanized underground):
 - Hydraulic or pneumatic long-hole drill on a boom mount. Diameter: 50-100 mm. Depth: 10-30 m. Used for bench mining, sub-level caving, and large stope blasting.
 - Larger diameter allows bulk emulsion or ANFO charging. A single long-hole round may contain 500-5000 kg of explosive, breaking 1000-10,000 tonnes of rock.
+
+**Strengths**:
+- One drill jumbo with 2 booms replaces 4-6 hand-held jackhammer crews
+- Long-hole rounds break 1000-10,000 tonnes per blast — high productivity per cycle
+- Larger diameter (50-100 mm) enables bulk charging with cheaper ANFO or emulsion
+
+**Weaknesses**:
+- Requires hydraulic or high-pressure pneumatic infrastructure — not feasible at small scale
+- Long-hole deviation causes uneven fragmentation and lost ore if not surveyed
+- Oversized fragments from large blasts may need secondary breaking (drop ball or re-drill)
 
 ### Drilling Fluid Circulation
 
@@ -178,6 +218,16 @@ DTH drilling places the percussive hammer directly behind the drill bit at the b
 - Air consumption: 10-25 m³/min at 7-25 bar (higher pressure than jackhammers). Hole diameter: 75-200 mm. Depth capability: 50-300+ m. Used primarily in surface mining and quarrying for large-diameter blast holes.
 - The exhaust air from the pneumatic hammer exits through the bit, providing excellent hole cleaning (cuttings are blown back up the annulus at high velocity). This self-cleaning action is a significant advantage over top-hole hammer drilling in deep holes.
 
+**Strengths**:
+- Percussive hammer at the bit eliminates 50-70% energy loss through drill string at depths >30 m
+- Exhaust air provides self-cleaning — no separate mud circulation system needed
+- Hole diameter 75-200 mm suits large-scale surface mining and quarrying blast patterns
+
+**Weaknesses**:
+- Requires 10-25 m³/min at 7-25 bar — a larger compressor than jackhammers need
+- Hammer mechanism down the hole is harder to service than surface-mounted drills
+- Limited to vertical or near-vertical holes — the hammer must slide down by gravity
+
 ### Rotary Drilling
 
 Unlike percussive drilling (which chips rock by impact), rotary drilling grinds rock by pressing a rotating bit against the formation under high load. Rotary drills are used for large-diameter holes in surface mining and oil/gas wells.
@@ -186,6 +236,16 @@ Unlike percussive drilling (which chips rock by impact), rotary drilling grinds 
 - Three conical rollers, each studded with tungsten carbide buttons, rotate on bearings as the bit turns. The buttons crush and shear the rock under the combined effect of rotation and downward pressure (weight on bit: 5-30 tonnes depending on hole diameter and rock hardness).
 - Hole diameter: 150-380 mm. Rotation speed: 60-120 RPM. Penetration rate: 10-40 m/hour in medium-hard rock (much faster than percussive drilling in large diameters).
 - Air or mud circulation clears cuttings. Air is preferred for blast holes (faster, no mud disposal); mud is required for deep or unstable holes.
+
+**Strengths**:
+- Much faster than percussive drilling in large diameters: 10-40 m/hour in medium-hard rock
+- Tricone bits handle a wide range of rock types by changing button geometry and weight on bit
+- Simple rotation mechanism (no percussive parts to wear out) — lower maintenance than DTH
+
+**Weaknesses**:
+- Requires 5-30 tonnes weight on bit — needs a heavy drill rig, not portable
+- Tricone bit cost is high ($500-5000 per bit) and wear rate is significant in abrasive rock
+- Not effective below 150 mm diameter — percussive methods are better for small blast holes
 
 ### Drill Steel Maintenance
 

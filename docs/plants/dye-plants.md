@@ -24,7 +24,53 @@ The three principal methods for extracting color from plant material, listed in 
 
 3. **Solvent extraction**: For concentrated dyes or when water extraction is inefficient. Uses alcohol (ethanol from fermentation) or alkaline solutions to pull pigments from tough plant material like bark, roots, and heartwood. Requires a closed vessel to prevent solvent evaporation. Yields more concentrated dye stuff suitable for trade or storage.
 
-### Mordanting and Color Fixation
+**Hot water extraction (decoction)**:
+
+**Strengths**:
+- Simplest method — requires only a pot, water, and heat source
+- Works for the majority of dye plants (madder, weld, walnut, onion skins)
+- No special equipment or chemicals — water is the universal solvent
+- Dye bath reusable 2-3 times — multiple dips per batch of material
+- Fast — 30-60 minutes to produce a working dye bath
+
+**Weaknesses**:
+- Cannot extract water-insoluble pigments — indigo precursors require fermentation instead
+- Heat degrades some delicate pigments — madder alizarin breaks down above 85°C
+- Dilute dye bath — large volumes of water needed relative to pigment yield
+- Bulky to store and transport — water-based dye baths are heavy and spoil within days
+- Inefficient for tough materials — bark and heartwood release little pigment in plain water
+
+**Fermentation extraction**:
+
+**Strengths**:
+- Only method for indigo precursor extraction — no alternative for blue dye production
+- Uses free materials — plant leaves, water, and alkaline ash lye (no purchased chemicals)
+- Produces concentrated, storable indigo cakes — a trade-grade commodity
+- Low technology — requires only a vat, warmth, and time
+
+**Weaknesses**:
+- Slow — 12-48 hours fermentation plus settling time
+- Unpleasant — anaerobic fermentation produces strong odors
+- Requires fresh leaf material — dried leaves lose indican content rapidly
+- Low yield — woad produces only 0.1-0.2% indigo by weight (1-2 g per kg leaves)
+- Temperature-sensitive — must maintain 40-50°C; too hot kills bacteria, too cold stalls fermentation
+
+**Solvent extraction**:
+
+**Strengths**:
+- Highest dye concentration — produces concentrated dyestuff suitable for trade and long-term storage
+- Extracts pigments from tough materials — bark, roots, and heartwood that resist water extraction
+- Smaller volumes than water extraction — concentrated product is lighter to transport
+- Works for pigments that are poorly water-soluble — alcohol and alkaline solutions reach compounds water cannot
+
+**Weaknesses**:
+- Requires closed vessel — solvent evaporation wastes alcohol and creates fire hazard
+- Higher technology threshold — needs ethanol production (distillation) or prepared alkaline solutions
+- More expensive per batch — solvent costs exceed water extraction significantly
+- Fire risk with alcohol solvents — ethanol vapors are flammable
+- Not needed for most common dye plants — overkill when simple water extraction suffices
+
+## 3. Mordanting and Color Fixation
 
 Most natural dyes are not substantive — they do not bond directly to fiber and require a mordant to achieve wash-fastness. The choice of mordant dramatically shifts the final color from a given dye plant. Common mordants available in a bootstrap context:
 

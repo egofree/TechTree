@@ -87,6 +87,16 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 
 6. **Reconcile daily**: At end of each business day, sum all debits and all credits across all accounts. Total debits must equal total credits. Any discrepancy indicates a recording error.
 
+**Strengths**:
+- Double-entry detects errors immediately — debits must equal credits for every transaction
+- Complete audit trail — every entry linked to a source document
+- Real-time financial visibility — daily reconciliation catches problems before they compound
+
+**Weaknesses**:
+- Requires trained bookkeeper — double-entry rules must be learned and applied consistently
+- Time overhead — every transaction recorded twice doubles recording time vs single-entry
+- No fraud prevention — colluding bookkeepers can create balanced but fictitious entries
+
 ### 4.3 Periodic Reporting
 
 7. **Close the books monthly**: Sum each account's balance. Calculate key metrics:
@@ -99,9 +109,21 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 8. **Conduct physical inventory count**: Monthly, physically count and weigh all stored goods. Compare to ledger values. Discrepancies >2% trigger investigation (theft, spoilage, recording error).
 
 9. **Prepare summary reports**: For the coordinator/governance, provide:
-   - Balance sheet (assets vs. liabilities)
-   - Income statement (revenue minus costs)
-   - Inventory status (stock levels vs. minimum thresholds)
+    - Balance sheet (assets vs. liabilities)
+    - Income statement (revenue minus costs)
+    - Inventory status (stock levels vs. minimum thresholds)
+
+**Decision criteria**: Close books monthly for operations exceeding 200 transactions/month. For smaller operations, quarterly closing may suffice. Close immediately if a discrepancy >5% is detected — do not wait for the scheduled close.
+
+**Strengths**:
+- Provides decision-making data — balance sheet reveals solvency, income statement reveals profitability
+- Physical inventory count detects theft and spoilage — discrepancies >2% trigger investigation
+- Standardized reports enable comparison across time periods and between operations
+
+**Weaknesses**:
+- Monthly close delays information — decisions made with data up to 30 days old
+- Physical inventory counting is labor-intensive — requires temporary halt to production for accurate count
+- Summary reports simplify complex reality — a single net income figure can mask important details
 
 ---
 

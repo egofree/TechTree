@@ -42,6 +42,19 @@ Hardwood produces denser, hotter charcoal. Softwood produces lighter, faster-bur
 
 ## Earth-Covered Pit Method (Simplest)
 
+**Strengths**:
+- No permanent construction needed — a hole in the ground with earth cover
+- Minimal tools required — shovel, hatchet, and matches
+- Can be done anywhere with hardwood trees
+
+**Weaknesses**:
+- Low yield (20-30% by weight) — most energy lost as volatiles
+- No byproduct recovery — tar, vinegar, and gas are wasted
+- Difficult to control — temperature regulation depends on air vent management by eye and experience
+- One-time use — pit is destroyed when opened to extract charcoal
+
+The earliest and simplest method.
+
 The oldest and simplest method — requires no permanent construction.
 
 - **Site selection**: Level ground, away from structures, downwind. Clay soil preferred (better seal). Clear vegetation in a 3-5 m radius to prevent fire spread.
@@ -56,6 +69,18 @@ The oldest and simplest method — requires no permanent construction.
 - **Quality indicators**: Good charcoal rings when struck, is lightweight, black throughout with retained wood grain structure. Brittle, easily crushed = underburned. White ash = overburned.
 
 ## Simple Kiln Method (Higher Yield, Reusable)
+
+**Strengths**:
+- Reusable — a well-built brick or stone kiln lasts hundreds of cycles
+- Higher yield (30-40%) than pit method due to better temperature control
+- Predictable results — fixed kiln geometry allows repeatable firing schedules
+
+**Weaknesses**:
+- Requires brick or stone construction — more upfront effort than pit method
+- Still no byproduct recovery — volatiles escape through the chimney
+- Batch process — each cycle takes 8-24 hours of firing plus 12-24 hours of cooling
+
+## Mound Kiln (Collier's Method)
 
 A permanent or semi-permanent kiln structure that significantly improves yield and consistency:
 
@@ -79,6 +104,19 @@ The traditional method used by professional charcoal burners (colliers) for cent
 - **Advantage**: Scalable to very large volumes. Traditional method used throughout pre-industrial Europe and Asia for iron production. A single large mound can fuel a bloomery for weeks.
 
 ## Retort Method (Highest Quality & Yield)
+
+**Strengths**:
+- Highest yield (35-45%) and most consistent quality of all methods
+- Full byproduct recovery — tar, wood vinegar (acetic acid), and wood gas captured
+- Temperature is controllable — produces uniform charcoal with predictable properties
+- Retort vessel is reusable indefinitely
+
+**Weaknesses**:
+- Requires a sealed metal vessel (steel or cast iron) — more complex construction
+- External heat source needed to drive pyrolysis — consumes fuel to make fuel
+- Higher capital cost — retort vessel, condenser, and gas collection system
+
+## Charcoal Briquetting
 
 - **Construction**: Sealed iron or clay chamber with a flue pipe leading to a separate combustion chamber. Wood charge goes in the retort; pyrolysis gases exit through flue and are burned to heat the retort externally.
 - **Process**: Heat retort to 400-600°C. Pyrolysis gases (CO, H₂, CH₄, wood vinegar) are routed to a burner that heats the retort — the process becomes self-sustaining once started. No combustion air touches the charcoal.

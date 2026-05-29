@@ -18,6 +18,16 @@
 - **Hackling (combing)**: Draw fibers through graduated iron or thorn combs (hackles). Coarse hackle removes remaining shives. Fine hackle separates long line fibers (30-90 cm) from short tow (5-15 cm). Line fibers become high-quality linen; tow becomes coarse cloth or rope.
 - **Yield**: ~200-400 kg fiber per hectare. Long line fiber ~30% of total; tow ~20%.
 
+**Strengths**:
+- Flax produces the finest natural bast fiber — line fibers 50-90 cm long spin into strong, smooth linen
+- Dual-purpose crop: fiber for textiles, linseed for oil (35-40% oil content)
+- Retting requires only water and time — no chemicals or energy input
+
+**Weaknesses**:
+- Retting window is narrow: 1-2 days between under-retted and over-retted in warm water
+- Hackling separates only ~30% as long line fiber; the rest is short tow for coarse applications
+- Requires 100+ days growing season and consistent moisture (600-800 mm rainfall)
+
 **Hemp**:
 - **Cultivation**: Annual, 2-4 m tall. Extremely hardy, minimal water. Harvest at pollen shedding (before seeds mature for best fiber). Processing identical to flax: ret (5-10 days in water), break, scutch, hackle.
 - **Properties**: Stronger than flax, more rot-resistant, coarser. Best for rope, canvas, and heavy cloth. Historically the primary cordage fiber before synthetic ropes.
@@ -45,6 +55,16 @@
 - **Retting**: Bundle stems and submerge in water for 2-4 weeks (or dew-ret on grass for 4-6 weeks). Bacteria decompose pectin binding bark fibers to woody core. Test by checking if fibers peel away cleanly from stem.
 - **Decortication**: Beat or crush dried retted stems to break woody core. Peel bark strips containing fiber bundles. Scrape away remaining woody fragments with blunt blade.
 - **Properties**: Similar to linen — strong, long-staple fiber. Traditionally used for sailcloth, fishing nets, and coarse cloth in northern Europe before flax became dominant. Yields less than flax per hectare but grows wild without cultivation.
+
+**Strengths**:
+- Nettle grows wild across temperate regions — no cultivation required for a usable fiber supply
+- Fiber properties similar to linen: strong, long-staple, suitable for sailcloth and fishing nets
+- Harvest in late summer provides fiber without competing with food crops for prime agricultural land
+
+**Weaknesses**:
+- Stinging hairs (formic acid, histamine) require gloves during harvest — unpleasant handling
+- Retting takes 2-4 weeks (water) or 4-6 weeks (dew) — slower than flax
+- Yield per hectare is lower than cultivated flax, making it a supplementary rather than primary source
 
 **[Sinew](../glossary/sinew.md)** (animal tendon):
 - **Source**: Leg tendons and long backstrap tendons from deer, elk, cattle. Harvest from fresh carcass — peel away surrounding tissue while tendon is still wet.

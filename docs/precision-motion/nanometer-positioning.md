@@ -39,6 +39,16 @@ Piezoelectric actuators convert electrical voltage directly to mechanical displa
 
 Multiple thin PZT ceramic discs (0.1-1 mm thick) are mechanically stacked in series and electrically connected in parallel. Each disc expands ~0.1% of its thickness at maximum field strength (2 kV/mm).
 
+**Strengths**:
+- Theoretically unlimited resolution — determined by noise floor of drive voltage (practical: 0.01-0.1 nm)
+- Extremely fast response — settling time < 1 ms for small steps, resonant frequency 10-100 kHz
+- High force generation: 1-50 kN blocking force, stiffness 50-500 N/μm
+
+**Weaknesses**:
+- Limited travel range: 5-200 μm stroke depending on stack length
+- Hysteresis ±10-15% open-loop due to ferroelectric domain switching — closed-loop feedback mandatory
+- Creep: 1-5% logarithmic drift over 10 minutes after a voltage step — requires active compensation
+
 - **Displacement**: 5-200 μm stroke depending on stack length. Typical: 30 μm for a 30 mm long stack.
 - **Resolution**: Theoretically unlimited — determined by noise floor of drive voltage. Practical resolution: 0.01-0.1 nm with low-noise amplifiers (24-bit DAC at 150V range = 0.009 nm/bit).
 - **Stiffness**: 50-500 N/μm. Extremely rigid — the stage acts as a stiff spring.
@@ -51,6 +61,16 @@ Multiple thin PZT ceramic discs (0.1-1 mm thick) are mechanically stacked in ser
 
 Stack actuators provide only raw expansion. To create useful XY or XYZ motion, the actuator is mounted in a flexure guide — a monolithic metal or silicon structure with carefully designed flexure hinges that constrain motion to the desired axis.
 
+**Strengths**:
+- Zero friction, zero wear, zero stiction — no sliding or rolling contact
+- Sub-nanometer resolution with well-constrained motion axes
+- Parasitic motion limited to <10 μrad pitch/yaw over full travel
+
+**Weaknesses**:
+- Limited travel range: 50-800 μm per axis (constrained by flexure stress limits)
+- Lower resonant frequency than bare actuator: 200-2000 Hz (flexure compliance + moving mass)
+- Flexure fatigue over billions of cycles can eventually cause crack initiation at hinge roots
+
 - **Flexure hinge design**: Notch-type or leaf-spring flexures machined into a single block of aluminum, steel, or invar. The flexure bends elastically; no sliding or rolling contact means zero friction, zero wear, zero stiction.
 - **Travel range**: 50-800 μm per axis (limited by flexure stress and actuator stroke). Larger ranges require amplification mechanisms, trading force for displacement.
 - **Parasitic motion**: Well-designed flexures limit off-axis error to < 10 μrad pitch/yaw over full travel.
@@ -59,6 +79,16 @@ Stack actuators provide only raw expansion. To create useful XY or XYZ motion, t
 ### Long-Travel Piezo Stages (Piezo-Walk / Piezo-Stepping)
 
 Conventional piezo stacks are limited to ~200 μm travel. For millimeter-to-centimeter travel with nanometer precision, two approaches extend the range:
+
+**Strengths**:
+- Travel range up to 50 mm with nanometer resolution — bridges gap between piezo and motor stages
+- Resolution 0.1-5 nm with piezo-walk drives, suitable for semiconductor inspection
+- Vacuum-compatible: no lubricants or air supply required
+
+**Weaknesses**:
+- Speed limited to 0.5-10 mm/s — too slow for high-throughput wafer scanning
+- Step size non-uniformity causes periodic errors requiring software correction
+- Force limited to 1-50 N for stick-slip drives — insufficient for heavy payloads
 
 **Inertial stick-slip drives**: A piezo actuator slowly extends (carrying the payload with it via friction), then rapidly retracts — the inertia of the payload overcomes friction and the payload stays in place while the actuator slips back. Repeat at 1-20 kHz for continuous motion.
 
@@ -79,6 +109,16 @@ Conventional piezo stacks are limited to ~200 μm travel. For millimeter-to-cent
 ## Air Bearing Slides
 
 Air bearings support the moving stage on a thin film (3-10 μm) of pressurized air (3-6 bar), eliminating mechanical contact between moving and stationary parts. Zero friction, zero wear, zero stiction, and sub-nanometer smoothness of motion.
+
+**Strengths**:
+- Zero friction and zero wear — no mechanical contact between moving and stationary parts
+- Sub-nanometer smoothness of motion: straightness 0.01-0.1 μm over 300 mm
+- High damping: air film provides viscous damping that attenuates vibration
+
+**Weaknesses**:
+- Requires continuous supply of clean, dry, oil-free air at 3-6 bar — air supply failure causes stage crash
+- Load capacity limited: 5-50 N/cm² — heavy payloads require large bearing areas
+- Resonance amplification at natural frequency (0.5-3 Hz): low-frequency vibration is amplified, not attenuated
 
 ### Aerostatic Flat Pad Bearings
 
@@ -128,6 +168,16 @@ The air supply restriction method affects bearing performance:
 
 Ball screws and lead screws (covered in [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md)) convert rotary motor motion to linear motion with excellent precision. However, they introduce mechanical compliance, backlash (even when preloaded), friction, and wear. Linear motors eliminate all mechanical transmission — the electromagnetic force acts directly on the stage.
 
+**Strengths**:
+- Zero mechanical backlash, zero friction, zero wear — direct electromagnetic drive
+- High acceleration: up to 500 m/s² (50g) for fine stages, 30 m/s² for coarse stages
+- High velocity: up to 3 m/s continuous scanning speed
+
+**Weaknesses**:
+- Iron-core motors have cogging (1-5% force ripple) — detrimental to smooth motion at low speed
+- Motor coils heat the stage — water cooling required, thermal management adds complexity
+- No self-locking: stage drifts when power removed — brakes or counterbalance required for vertical axes
+
 ### Iron-Core Linear Motors
 
 Copper windings embedded in a laminated iron core interact with permanent magnets on the stationary rail. Maximum force and efficiency, but with cogging.
@@ -168,6 +218,16 @@ The coarse-fine architecture splits the positioning problem: the coarse iron-cor
 
 A voice coil actuator is a single-phase linear motor: a coil in a permanent magnetic field. Like a loudspeaker voice coil but designed for precision positioning rather than sound reproduction.
 
+**Strengths**:
+- Essentially zero hysteresis — extremely linear force-current response (F = B × L × I)
+- Very fast bandwidth: 200-2000 Hz for disturbance rejection
+- Simple construction: no gears, no bearings, no commutation
+
+**Weaknesses**:
+- Limited stroke: 1-50 mm — cannot provide long-travel positioning
+- Force limited to 1-500 N continuous — insufficient for heavy stage acceleration
+- Heat dissipation: coil resistance generates heat that must be managed
+
 - **Force**: Proportional to current: F = B × L × I (B = magnetic field, L = wire length, I = current). Extremely linear response.
 - **Stroke**: 1-50 mm. Limited by coil length and magnetic field uniformity.
 - **Bandwidth**: 200-2000 Hz. Very fast response for disturbance rejection.
@@ -177,7 +237,17 @@ A voice coil actuator is a single-phase linear motor: a coil in a permanent magn
 
 ## Magnetic Bearings
 
-For rotary axes where air bearings cannot provide sufficient stiffness or where vacuum compatibility is required, active magnetic bearings suspend the rotor without physical contact using electromagnetic attraction:
+For rotary axes where air bearings cannot provide sufficient stiffness or where vacuum compatibility is required, active magnetic bearings suspend the rotor without physical contact using electromagnetic attraction.
+
+**Strengths**:
+- No mechanical contact — zero wear, zero friction, vacuum-compatible
+- Active control allows dynamic stiffness adjustment: 500-5,000 N/μm
+- Very high speed capability: up to 100,000 RPM (limited by rotor material strength)
+
+**Weaknesses**:
+- Active control required at all times — power failure causes rotor crash without backup bearings
+- Radial runout 0.05-0.5 μm — inferior to air bearings for nanometer positioning
+- Complexity: requires position sensors, feedback controller running at 5-20 kHz, and power electronics
 
 - **Radial runout**: 0.05-0.5 μm (inferior to air bearings but usable).
 - **Stiffness**: 500-5,000 N/μm active (controlled by feedback loop gain).

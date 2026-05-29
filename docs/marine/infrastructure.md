@@ -33,12 +33,43 @@ For basic harbor and port facility descriptions, see [Water Transport](../transp
 - Material quantity: 10,000-500,000 tonnes of stone depending on length and depth
 - Typical length: 200-1,000 m for a small-to-medium harbor
 
+**Strengths**:
+- Simplest construction — quarry stone placed by barge or crane, no precision fitting required
+- Tolerates uneven seabed — flexible structure settles into place without strict foundation preparation
+- Energy-absorbing — porous structure dissipates wave energy rather than reflecting it, reducing scour at the base
+- Easy to repair — damaged armor stones replaced individually without draining or heavy lift equipment
+- Lowest technology threshold — requires only quarry stone, cranes, and barges (no concrete, no reinforcement)
+- Proven over centuries — the fundamental design has been used since antiquity
+
+**Weaknesses**:
+- Largest material volume — 10,000-500,000 tonnes of stone for a single breakwater
+- Requires nearby quarry — transporting stone over long distances makes rubble mound uneconomic
+- Settles over time — core material shifts under wave action, requiring periodic topping up
+- Wide base footprint — 3-5× height means a 10 m breakwater occupies 30-50 m of seabed width
+- Not suitable for deep water — material volume scales with depth cubed, becoming impractical beyond ~20 m depth
+
 **Vertical wall (caisson) breakwater**:
 - Reinforced concrete caissons (hollow boxes, 15-25 m wide × 15-30 m tall × 30-60 m long) prefabricated in a dry dock
 - Floated into position, sunk onto a prepared seabed foundation
 - Filled with sand or concrete for mass
 - Resists waves by mass and vertical face (reflects wave energy)
 - Requires deep water and heavy lift capacity for caisson placement
+
+**Strengths**:
+- Narrow footprint — vertical wall uses far less seabed area than rubble mound of equivalent height
+- Suitable for deep water — caissons can be built 15-30 m tall where rubble mound becomes impractical
+- Fast installation once caissons are fabricated — float, sink, fill (days per unit)
+- Reflects wave energy — effective at creating calm water inside harbor
+- Can serve as a berth face — vertical wall provides a docking surface for vessels
+- Precise positioning — caissons placed on prepared foundation with controlled tolerances
+
+**Weaknesses**:
+- Requires reinforced concrete and dry dock for caisson fabrication — higher technology threshold
+- Heavy lift capacity required — caissons weigh 1,000-5,000 tonnes each
+- Reflects wave energy — reflected waves can cause problems at the harbor entrance (standing waves, cross-sea)
+- Intolerant of uneven seabed — foundation must be precisely leveled before caisson placement
+- Higher unit cost per meter — concrete and reinforcement are more expensive than quarry stone
+- Vulnerable to foundation scour — reflected wave energy scours seabed at the base, undermining the caisson
 
 **Harbor entrance**:
 - Width: 1.5-3× the beam of the largest vessel expected. Minimum 30 m for small craft harbor, 100-200 m for commercial ports.
@@ -82,6 +113,20 @@ For basic harbor and port facility descriptions, see [Water Transport](../transp
 - Gate types: floating caisson gate (concrete or steel box, floats into position, sinks when flooded) or miter gate (hinged doors, like canal lock gates)
 - Floor construction: reinforced concrete slab, 1.0-3.0 m thick, on a waterproof membrane. Floor must resist hydrostatic uplift pressure when the dock is empty.
 
+**Strengths**:
+- Largest vessel capacity — handles ships up to 400 m length and 100,000+ tonnes
+- Permanent, stable working platform — vessel sits on fixed keel blocks, no motion during repair
+- Full access to hull — workers can walk under and around the vessel on the dock floor
+- Heavy lifting inside the dock — cranes on the dock walls handle large components
+- Long service life — concrete graving docks last 50-100+ years with maintenance
+
+**Weaknesses**:
+- Highest capital cost — $50-200 million for a large commercial graving dock
+- Fixed location — cannot be moved or redeployed to another site
+- Long construction time — 12-36 months, requires deep excavation and dewatering
+- Siltation risk — dock entrance must be dredged periodically to maintain sill depth
+- Hydrostatic uplift — empty dock floor must resist upward water pressure, requiring massive concrete slab
+
 **Floating dry dock**:
 - U-shaped steel or timber pontoon with wing walls
 - Operates by flooding ballast tanks to sink below the vessel's keel. Vessel is positioned over the dock. Pumps empty ballast tanks, dock rises, lifting the vessel.
@@ -89,12 +134,40 @@ For basic harbor and port facility descriptions, see [Water Transport](../transp
 - Advantages: mobile (can be towed to where needed), no permanent excavation required
 - Construction: steel plate on frames (similar to ship hull construction), divided into multiple watertight compartments for stability during lifting
 
+**Strengths**:
+- Mobile — can be towed to any location, redeployed to respond to emergencies or shifting demand
+- No permanent excavation — minimal shore-side construction, just a mooring point
+- Faster to deploy than graving dock — fabricated in a shipyard, towed to site, operational in weeks
+- Scalable — smaller floating docks (1,000-5,000 tonnes) affordable for small repair yards
+- Can be beached or moored in sheltered water — flexible siting requirements
+
+**Weaknesses**:
+- Limited by structural strength — steel pontoon flexes under asymmetric vessel loading, restricting maximum vessel weight
+- Motion during work — vessel and dock move with waves and swell, making precision work difficult in exposed locations
+- Maintenance burden — steel hull requires periodic dry-docking itself for hull painting and repair
+- Pumping system complexity — multiple independent ballast compartments must be carefully managed during lifting
+- Shorter service life than graving dock — 25-40 years vs. 50-100+ years
+
 **Patent slip (marine railway)**:
 - Inclined track (1:8 to 1:12 slope) running from above the high water mark into deep water
 - A wheeled cradle rides the track, hauled by wire rope and winch
 - Vessel is floated onto the submerged cradle, then winched up the slope
 - Capacity: 100-5,000 tonnes
 - Simpler and cheaper than a graving dock. Suitable for smaller vessels and repair yards.
+
+**Strengths**:
+- Lowest cost of all dry dock types — simple track, cradle, and winch system
+- Simplest construction — inclined track on prepared foundation, no excavation or watertight gates
+- Quick vessel haul-out — winch pulls vessel up the slope in 30-60 minutes
+- Suitable for smaller vessels (100-5,000 tonnes) — fishing fleets, tugs, coastal craft
+- Can be extended — track lengthened to accommodate larger vessels incrementally
+
+**Weaknesses**:
+- Limited to smaller vessels — maximum 5,000 tonnes (wire rope and winch capacity constraints)
+- Vessel accessible only from one side — the cradle blocks hull access below the keel line
+- Restricted working area — vessel sits on an inclined cradle, not level, making some tasks awkward
+- Track maintenance underwater — submerged rail sections corrode and require periodic inspection
+- Weather-sensitive — hauling operations halted in heavy seas when vessel motion prevents safe cradle alignment
 
 ### Lighthouse Engineering
 
@@ -177,13 +250,43 @@ Seawater (3.5% NaCl, pH 8.0-8.3) is one of the most corrosive natural environmen
 - The anode corrodes preferentially, protecting the steel (cathode)
 - Zinc anode consumption rate: 10-12 kg per ampere-year. Typical hull anode: 10-30 kg, lasting 1-3 years.
 - Current density required: 10-30 mA/m² for painted steel in seawater, 50-100 mA/m² for bare steel.
-- A 5,000 m² wetted hull area at 20 mA/m² needs 100 amperes continuous protection. Annual zinc consumption: 100 A × 11 kg/A·yr = 1,100 kg.
+- A 5,000 m² wetted hull area at 20 mA/m² needs 100 amperes continuous protection. Annual zinc consumption: 100 A × 11 kg/A•yr = 1,100 kg.
+
+**Strengths**:
+- No external power required — galvanic potential difference between anode and hull drives protective current
+- Simplest installation — weld or bolt anodes directly to the hull, no wiring or electronics
+- Fail-safe — anode consumption is self-limiting; if the coating fails, anode current increases automatically
+- Lowest initial cost for small installations — zinc anodes cost $5-15 per kg
+- No maintenance during service life — anodes are inspected during dry-docking and replaced as needed
+- Works on any size vessel — from small boats (single 5 kg anode) to large ships (hundreds of anodes)
+
+**Weaknesses**:
+- Limited driving voltage — zinc provides only ~0.25 V potential difference, insufficient for large bare steel areas
+- Anode consumption requires periodic replacement — every 1-3 years during dry-docking
+- Increased hydrodynamic drag — protruding anode blocks add 1-3% to hull resistance
+- Heavy anode mass — a large vessel needs 500-2,000 kg of zinc anodes, adding weight to the hull
+- Not adjustable — current output depends on anode area and water resistivity, cannot be tuned to changing conditions
 
 **Impressed current system (ICCP)**:
 - External DC power source (rectifier, 10-50 V, 10-200 A) drives current through inert anodes (platinum-coated titanium or mixed metal oxide) to the hull
 - Reference electrode (silver/silver chloride) monitors hull potential. Control circuit maintains protection potential: -0.80 to -0.95 V vs. Ag/AgCl
 - Advantages: longer life, adjustable output, fewer anodes needed
 - Requires reliable electrical power supply
+
+**Strengths**:
+- Higher driving voltage — adjustable 10-50 V output provides adequate current for large bare steel areas
+- Fewer anodes needed — 5-20 inert anodes replace hundreds of sacrificial anodes
+- Longer anode life — inert anodes (Pt/Ti, MMO) last 10-20+ years vs. 1-3 years for zinc
+- Automatic potential control — reference electrode feedback maintains optimal protection voltage
+- No anode consumption products — inert anodes do not dissolve, no metal ions entering the marine environment
+- Adjustable output — compensates for coating degradation, water resistivity changes, and vessel operating conditions
+
+**Weaknesses**:
+- Requires continuous electrical power — power failure leaves the hull unprotected
+- Higher initial cost — rectifier, reference electrodes, inert anodes, and control electronics are expensive
+- Overprotection risk — excessive voltage can damage paint coatings (cathodic disbondment) or cause hydrogen embrittlement in high-strength steel
+- More complex to install and maintain — wiring, junction boxes, and electronics require skilled technicians
+- Reference electrode calibration drift — electrode must be verified periodically against a known standard
 
 **Protective coatings**:
 - **Primer**: zinc-rich epoxy (80-90% zinc dust in epoxy binder). Provides both barrier protection and cathodic protection at scratches.

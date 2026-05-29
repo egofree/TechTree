@@ -75,7 +75,42 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 
 4. **Fill and bleed**: Fill the system with water. Bleed all air from the collector tubing (air pockets block thermosiphon flow).
 
-5. **Operate**: The collector heats water to 50-80°C on sunny days. A 2 m² collector in a temperate climate produces 6-10 kWh thermal per day in summer, 2-4 kWh in winter.
+ 5. **Operate**: The collector heats water to 50-80°C on sunny days. A 2 m² collector in a temperate climate produces 6-10 kWh thermal per day in summer, 2-4 kWh in winter.
+
+**Materials**:
+- [Copper tubing](../metals/copper-bronze.md) (15 mm OD, 1 mm wall, 15-20 m serpentine)
+- [Flat glass sheet](../glass/index.md) (4 mm thick, 2 m², low-iron tempered glass preferred)
+- [Steel sheet](../metals/iron-steel.md) (1 mm thick, 2 m², absorber plate backing)
+- [Mineral wool insulation](../chemistry/index.md) (50 mm thick, 4 m², 50-100 kg/m³ density)
+- [Steel or copper storage tank](../metals/index.md) (200 liter, 1.5 mm wall minimum)
+- [Black paint](../chemistry/index.md) (matte, solar absorptivity >0.95)
+- [Silicone or rubber gasket](../polymers/index.md) (5 m, food-grade silicone, 3-5 mm diameter cord)
+
+**Calibration / Verification**:
+1. After assembly, pressure-test the collector loop at 2 bar for 30 minutes (no pressure drop acceptable).
+2. Fill with water and bleed all air from the collector tubing through the bleed valve at the highest point.
+3. On a clear day with solar irradiance >700 W/m², measure the temperature rise between tank bottom (cold) and collector outlet (hot) (target: 15-30°C temperature rise at peak sun).
+4. Calculate daily thermal output: Q = V × ρ × Cp × ΔT (target: 6-10 kWh/day in summer for 2 m² collector in temperate climate).
+5. Verify thermosiphon flow by touching the flow and return pipes — the flow pipe from collector top should be noticeably hotter than the return pipe from tank bottom.
+
+**Expected Performance**:
+- Thermal output: 6-10 kWh/day in summer, 2-4 kWh/day in winter (2 m² collector, temperate climate)
+- Peak water temperature: 50-80°C on sunny days
+- Collector efficiency: 40-55% (thermal energy collected / solar energy incident)
+- Stagnation temperature: 120-180°C (unpressurized, no flow — design venting to prevent steam)
+- Thermosiphon flow rate: 0.01-0.05 L/s (no pump required)
+
+**Strengths**:
+- No moving parts or pumps — thermosiphon circulation is passive and maintenance-free
+- Buildable with basic materials (copper tubing, flat glass, steel sheet)
+- 20-30 year operational lifetime with minimal maintenance (clean glass annually)
+- Reduces water heating fuel consumption by 50-70% in temperate climates
+
+**Weaknesses**:
+- No output at night or during heavy overcast — requires backup heating for hot water
+- Seasonal variation — winter output is 30-40% of summer output
+- Freezing risk in cold climates — requires drain-back design or antifreeze in closed loop
+- Low maximum temperature (80°C) limits applications to water heating and space heating
 
 ### 4.2 Parabolic Trough Concentrator
 
@@ -87,7 +122,41 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 
 4. **Connect the heat transfer loop**: Pump heat transfer fluid (mineral oil for 150-300°C, synthetic oil for 300-400°C, molten salt for 400-560°C) through the receiver tubes. The heated fluid circulates to a heat exchanger that generates steam.
 
-5. **Generate power or process heat**: Route steam to a turbine-generator set (see [Steam Turbines](steam-turbines.md)) or use the heat directly for industrial processes (drying, distillation, cooking, metal melting).
+ 5. **Generate power or process heat**: Route steam to a turbine-generator set (see [Steam Turbines](steam-turbines.md)) or use the heat directly for industrial processes (drying, distillation, cooking, metal melting).
+
+**Materials**:
+- [Curved glass mirror](../glass/index.md) (4 mm thick, 10 m² aperture, silvered glass reflectivity 90-95%)
+- [Steel receiver tube](../metals/iron-steel.md) (50 mm OD, selective coating absorptivity >0.95, emissivity <0.15)
+- [Pyrex/glass envelope tube](../glass/index.md) (80 mm OD, evacuated to <0.01 Pa)
+- [Steel support structure](../metals/iron-steel.md) (50-80 kg, galvanized or painted)
+- [Heat transfer fluid](../chemistry/index.md) (mineral oil, 50-100 liters, rated to 300°C)
+- [Tracking mechanism](../electronics/index.md) (gear motor + shadow sensor controller)
+
+**Calibration / Verification**:
+1. Align the trough to true south (northern hemisphere) and verify tracking axis is level (±0.5° tolerance using a precision spirit level).
+2. Check parabolic shape accuracy by placing a straight edge across the trough at multiple points — maximum gap should be <5 mm over the full length.
+3. Measure receiver tube focal alignment: place a target rod at the calculated focal point. Sunlight reflected from the trough should concentrate on a spot no wider than 25 mm diameter.
+4. Measure heat transfer fluid temperature rise at peak sun (target: 30-80°C rise depending on flow rate).
+5. Verify tracking accuracy by observing the concentrated line on the receiver — it should remain centered throughout the tracking day (tolerance: ±5 mm deviation from receiver center).
+
+**Expected Performance**:
+- Thermal output: 5-8 kW thermal peak per 10 m² collector in DNI >800 W/m²
+- Receiver tube temperature: 300-500°C with mineral oil or molten salt
+- Concentration ratio: 30-100x (aperture area / receiver area)
+- Collector efficiency: 55-70% at design conditions
+- Tracking accuracy: ±0.1° (motorized), ±1° (manual)
+
+**Strengths**:
+- Achieves temperatures (300-500°C) suitable for steam generation and industrial processes
+- Modular — multiple troughs can be ganged to increase output
+- Well-proven technology with decades of commercial operation
+- Thermal energy storage (molten salt) enables output after sunset
+
+**Weaknesses**:
+- Requires curved glass or precision-formed reflectors — not achievable without glass manufacturing
+- Tracking system (motorized) adds complexity, power consumption, and maintenance
+- Single-axis tracking loses 10-15% of available energy vs. two-axis tracking
+- Concentrated flux creates safety hazards (burn risk, retinal damage)
 
 ### 4.3 Heliostat Field (Central Receiver)
 
@@ -95,7 +164,42 @@ Solar thermal fills a gap in the bootstrap energy chain: it provides high-temper
 
 2. **Build the central receiver**: A heat exchanger mounted on a tower (50-150 m height). The receiver absorbs concentrated sunlight from all heliostats simultaneously. Flux densities reach 200-1,000 kW/m². Construct from high-temperature alloy tubes (Inconel or stainless steel) carrying molten salt or supercritical steam.
 
-3. **Thermal storage**: Store heat in a two-tank molten salt system — one hot tank (565°C), one cold tank (290°C). Draw hot salt through a steam generator when power is needed. Storage capacity of 2-15 hours enables nighttime generation. Molten salt: 60% NaNO₃ + 40% KNO₃ (Solar Salt), melting point 220°C.
+ 3. **Thermal storage**: Store heat in a two-tank molten salt system — one hot tank (565°C), one cold tank (290°C). Draw hot salt through a steam generator when power is needed. Storage capacity of 2-15 hours enables nighttime generation. Molten salt: 60% NaNO₃ + 40% KNO₃ (Solar Salt), melting point 220°C.
+
+**Materials**:
+- [Flat glass mirrors](../glass/index.md) (2-10 m² per heliostat, silvered, 4 mm thick)
+- [Two-axis tracking mount](../electronics/index.md) (steel frame, gear motors, azimuth + elevation actuators)
+- [Central receiver](../metals/index.md) (Inconel or stainless steel 316L tubes, 50-80 mm OD, rated to 600°C)
+- [Tower structure](../metals/iron-steel.md) (steel lattice, 50-150 m height)
+- [Molten salt](../chemistry/index.md) (60% NaNO₃ + 40% KNO₃, "Solar Salt," melting point 220°C, 500-5,000 tonnes)
+- [Hot and cold salt tanks](../metals/iron-steel.md) (carbon steel shell, insulated, 10-40 m diameter)
+
+**Calibration / Verification**:
+1. Calibrate each heliostat individually: command it to reflect sunlight onto a target on the tower. Measure beam centroid position — must be within ±1 m of receiver center at 100 m tower height (±0.5° pointing accuracy).
+2. Verify receiver tube surface temperature with infrared pyrometer during first operation (target: 500-600°C at design DNI). Exceeding 650°C risks receiver tube failure.
+3. Measure molten salt flow rate and temperature rise through receiver (target: 290°C inlet, 565°C outlet at design conditions).
+4. Test thermal storage: charge the hot tank, then discharge through steam generator at rated power. Verify discharge duration matches design (target: 2-15 hours at rated thermal output).
+5. Check salt chemistry quarterly: nitrate/nitrite ratio, chloride content (<100 ppm), and melting point (220°C ±5°C).
+
+**Expected Performance**:
+- Central receiver flux density: 200-1,000 kW/m² (at design DNI of 800-1,000 W/m²)
+- Receiver thermal output: 50-500 MW thermal depending on heliostat field size
+- Concentration ratio: 300-1,500x
+- Thermal storage capacity: 2-15 hours of full-load generation
+- Overall solar-to-electric efficiency: 15-25%
+- Heliostat field availability: >98% (individual heliostat failures do not shut down the plant)
+
+**Strengths**:
+- Highest operating temperature of any solar thermal technology (500-1,000+°C)
+- Thermal storage (molten salt) enables generation on demand, day or night
+- Decoupled energy collection (heliostats) and power conversion (receiver + turbine)
+- Utility-scale power output (50-500 MW) matches conventional power plants
+
+**Weaknesses**:
+- Most complex solar thermal technology — hundreds of precision tracking mirrors and a central control system
+- Requires tall tower (50-150 m) — major civil engineering project
+- Molten salt freezes below 220°C — all salt piping requires heat tracing and careful thermal management
+- Minimum economic scale of 50 MW — not suitable for small installations
 
 ## 5. Quantitative Parameters
 

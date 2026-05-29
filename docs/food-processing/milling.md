@@ -48,6 +48,16 @@ Two circular stones 30-50 cm diameter. Upper stone rotates on stationary lower s
 - **Labor**: One person can operate a rotary quern. Requires sustained upper-body effort.
 - **Limitation**: Hand-powered only. Throughput capped by human power output (~100W sustained).
 
+**Strengths**:
+- Constructed entirely from stone — no metal tools required, achievable at Year 0
+- 5× throughput improvement over saddle quern (1-5 kg/hour vs. 0.2-1 kg/hour) with less physical effort
+- Whole-grain flour retains 100% of nutrients (bran, germ, endosperm) — no nutrient loss from sieving
+
+**Weaknesses**:
+- Throughput of 1-5 kg/hour means 2-4 hours daily grinding to feed a family of 5 (30-40 kg flour/week)
+- Stone grit contamination from porous millstones wears teeth and introduces mineral dust into flour
+- No screening capability — flour contains bran particles and is coarser than sieved flour from water mills
+
 **Stage 2: Animal-Powered Mill** (Years 5-10)
 
 Same stone geometry as rotary quern, but power source changed to draft animal (ox, donkey, horse) walking in a circle, turning the upper stone via a wooden gear mechanism.
@@ -57,6 +67,16 @@ Same stone geometry as rotary quern, but power source changed to draft animal (o
 - **Mechanism**: Vertical shaft connected to horizontal lever arm. Animal walks in 3-5 m diameter circle. Bevel gear or direct drive connects shaft to upper millstone.
 - **Advantage**: Frees human labor for other tasks. Continuous operation possible for hours.
 - **Feed control**: Hopper above millstones regulates grain feed rate. Too fast = coarse meal, too slow = flour burns from friction heat.
+
+**Strengths**:
+- Draft animal provides 5-10× more sustained power (0.5-1 HP) than a human, producing 10-50 kg flour/hour
+- Frees human labor for agriculture, construction, and other tasks — the mill operates with one handler, not one grinder
+- Continuous operation possible for hours, limited only by animal endurance and grain supply
+
+**Weaknesses**:
+- Requires a trained draft animal (ox, donkey, horse) — represents months of animal husbandry investment
+- Bevel gear or direct-drive mechanism needs wooden or iron components with some precision — more complex than the rotary quern alone
+- Animal must be fed and cared for even when mill is idle — ongoing cost regardless of milling demand
 
 **Stage 3: Water-Powered Mill** (Years 5-15)
 
@@ -72,6 +92,16 @@ Water wheel (undershot or overshot) drives millstones through gear train. The fi
 - **Screening**: Wire mesh or silk screens sort output into flour (<180 μm), middlings (180-500 μm), and bran (>500 μm). Multiple passes through progressively finer screens improve extraction rate.
 - **Extraction rate**: Stone milling typically extracts 70-80% of the grain as flour (the rest is bran and shorts). Higher extraction = more flour but darker, coarser product.
 
+**Strengths**:
+- Water power provides 1-5 HP continuously — 50-200 kg flour/hour, enough to feed 200-800 people from a single mill
+- No human or animal labor to power the mill once the water infrastructure is built — operates on free energy from flowing water
+- Overshot wheel achieves 60-70% energy conversion efficiency — the highest mechanical efficiency achievable with medieval technology
+
+**Weaknesses**:
+- Requires a permanent water source with at least 1 m head (for overshot) or reliable flow (for undershot) — geography-dependent
+- Millstones need re-dressing every 2-4 weeks (soft stone) to 2-3 months (hard stone) — requires a skilled stone dresser
+- Wooden gear trains lose 15-25% of power to friction; poorly maintained mills lose 40-60%
+
 **Stage 4: Wind-Powered Mill** (Years 5-15)
 
 Post mill or tower mill with sail-type rotor driving millstones. Independent of water availability.
@@ -82,6 +112,16 @@ Post mill or tower mill with sail-type rotor driving millstones. Independent of 
 - **Tower mill**: Only the cap (top) with the sails rotates. Stone/brick tower is permanent. Larger, more powerful.
 - **Sail design**: Four sails, 5-12 m length each. Sail area adjustable via shutters or canvas reefing. Optimal performance at 15-25 km/h wind speed. Automatic shutdown via spring-loaded mechanism at dangerous speeds.
 - **Limitation**: Intermittent power. Requires grain storage and operational flexibility. Best combined with water mill in same community.
+
+**Strengths**:
+- Independent of water availability — works on open ridges, plains, and hilltops where water mills cannot operate
+- Power output of 2-10 HP exceeds most water wheels, producing 100-500 kg flour/hour when wind is available
+- Tower mill construction (stone/brick) is permanent — lasts centuries with periodic sail replacement
+
+**Weaknesses**:
+- Power is intermittent — wind does not blow on demand, requiring grain storage and flexible milling schedules
+- Post mill requires the entire structure to rotate to face the wind — a significant mechanical challenge in strong winds
+- Sail area must be adjusted for wind speed; failure to reef sails in high wind causes structural damage or collapse
 
 **Stage 5: Roller Mill** (Years 15-25)
 
@@ -95,6 +135,16 @@ Cast iron or steel rollers replace millstones. Each pair of rollers has progress
 - **Extraction rate**: 72-76% white flour (patent flour), up to 85% with clear flour grades.
 - **Output**: 5-50 tonnes flour/day per roller mill line. A modern mill has 3-5 lines.
 - **Power requirement**: 30-50 kW per tonne/hour of wheat milled (steam or electric motor drive).
+
+**Strengths**:
+- Produces white flour (patent flour, <150 μm particle size) that stores longer (less germ oil to go rancid) and makes lighter bread — 72-76% extraction rate
+- Throughput of 5-50 tonnes/day per roller line feeds 10,000-100,000 people from a single mill
+- Separate bran, germ, and flour streams allow byproduct utilization — bran for animal feed, germ for oil extraction
+
+**Weaknesses**:
+- Requires chilled cast iron or steel rollers with precision-machined corrugations — industrial metalworking capability essential
+- 30-50 kW power requirement per tonne/hour demands steam engine or electric motor — not achievable with water or animal power
+- Multiple break and reduction stages (12-17 roller pairs) make the system complex to operate and maintain
 
 ### Flour Grades
 

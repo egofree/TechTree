@@ -77,7 +77,40 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 
 5. **Distribute heat**: Pump heated secondary water through insulated pipes to end users — building heating (radiators or underfloor), greenhouse heating, fish farming ponds, industrial drying, or lumber kilns.
 
-6. **Reinject or dispose**: Spent geothermal fluid (cooled to 30-50°C) is reinjected into the reservoir through an injection well. Reinjection maintains reservoir pressure, prevents subsidence, and avoids surface water contamination. Locate injection well at least 500-1,000 m from production well to prevent premature thermal breakthrough.
+ 6. **Reinject or dispose**: Spent geothermal fluid (cooled to 30-50°C) is reinjected into the reservoir through an injection well. Reinjection maintains reservoir pressure, prevents subsidence, and avoids surface water contamination. Locate injection well at least 500-1,000 m from production well to prevent premature thermal breakthrough.
+
+**Materials**:
+- [Steel well casing](../metals/iron-steel.md) (200 mm OD, 8 mm wall, API J55 grade), 200-500 m per well
+- [Cement](../chemistry/index.md) (API Class G), 20-50 tonnes per well
+- [Plate heat exchanger](../metals/index.md) (316L stainless steel plates, 20-50 m² transfer area)
+- [HDPE distribution pipe](../polymers/index.md) (50-100 mm OD, PN10 rated)
+- [Circulation pump](./index.md) (5-15 kW, cast iron body, 3000 RPM)
+- [Mineral wool insulation](../chemistry/index.md) (50 mm thick, 100 kg/m³ density)
+
+**Calibration / Verification**:
+1. Measure production well flow rate with a weir tank or orifice plate — compare to design (target: 10-50 L/s).
+2. Measure production and return temperatures with calibrated thermocouples (Type K, ±1°C accuracy). Verify temperature drop across heat exchanger matches design (target: 30-60°C drop on geothermal side).
+3. Calculate thermal output: Q = ṁ × Cp × ΔT. For 20 L/s flow with 40°C drop: Q = 20 × 4.18 × 40 = 3,344 kW thermal. Compare to design specification.
+4. Check injection well pressure — should not exceed formation fracture pressure (typically 20-40 bar at 500 m depth). High injection pressure indicates formation plugging.
+5. Verify reinjection temperature is above silica saturation (typically >50°C at atmospheric pressure) to prevent silica scaling in injection piping.
+
+**Expected Performance**:
+- Thermal output: 0.5-5 MW thermal per well, depending on flow rate and temperature
+- System COP (pumping): 15-30 (thermal energy delivered / electrical energy for pumping)
+- Distribution temperature: 60-90°C at building inlet (20-30°C drop from heat exchanger outlet)
+- Well lifetime: 25-50 years with proper reinjection management
+
+**Strengths**:
+- Continuous baseload heat output unaffected by weather or season
+- Very low operating cost once wells are drilled (no fuel purchase required)
+- COP of 15-30 far exceeds any combustion-based heating system
+- Reinjection maintains reservoir sustainability
+
+**Weaknesses**:
+- High upfront drilling cost ($500-2,000 per meter of well depth)
+- Limited to regions with favorable geothermal gradients (>40°C/km)
+- Geothermal fluid is often corrosive (H₂S, chlorides) — requires corrosion-resistant materials
+- Scaling (calcite, silica) in wells and heat exchangers requires ongoing chemical treatment
 
 ### 4.2 Flash Steam Power Generation
 
@@ -89,7 +122,43 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 
 4. **Condense and reinject**: Exhaust steam from the turbine enters a condenser (either water-cooled surface condenser or direct-contact condenser). Non-condensable gases (NCG — CO₂, H₂S, NH₃, CH₄, N₂) are removed by a gas extraction system (steam jet ejectors or vacuum pumps). NCG is 1-10% of steam flow by weight and must be removed to maintain condenser vacuum. Condensed water and remaining brine are reinjected.
 
-5. **Treat NCG**: H₂S in NCG stream is toxic and odorous. Remove with a chemical scrubber (iron chelate or caustic soda) before venting CO₂ to atmosphere. Alternatively, convert H₂S to elemental sulfur via the Claus process for sale as a byproduct.
+ 5. **Treat NCG**: H₂S in NCG stream is toxic and odorous. Remove with a chemical scrubber (iron chelate or caustic soda) before venting CO₂ to atmosphere. Alternatively, convert H₂S to elemental sulfur via the Claus process for sale as a byproduct.
+
+**Materials**:
+- [Steel well casing](../metals/iron-steel.md) (200-300 mm OD, 8-12 mm wall, API K55 grade), 1,000-3,000 m per well
+- [Steel production tubing](../metals/iron-steel.md) (75-150 mm OD, API L80 or 13Cr for corrosive fluids)
+- [Flash separator vessel](../metals/index.md) (carbon steel, ASME Section VIII, 10-30 bar design pressure)
+- [Steam turbine-generator](steam-turbines.md) (20-120 MW, 1,500-3,600 RPM, rated for geothermal steam moisture content)
+- [Condenser](steam-power.md) (surface or direct-contact type, stainless steel 316L tubes)
+- [Gas extraction system](steam-power.md) (steam jet ejectors or liquid ring vacuum pumps)
+- [H₂S scrubber](../chemistry/index.md) (iron chelate or caustic soda, packed column)
+
+**Calibration / Verification**:
+1. Measure each production well's mass flow rate, enthalpy, and chemical composition during initial well testing. Plot deliverability curve (flow vs. wellhead pressure) — minimum acceptable: 3-5 MW electrical equivalent per well.
+2. Verify flash separator pressure settings: single-flash at 5-10 bar, double-flash second stage at 1-3 bar. Adjust separator pressure to maximize total steam production.
+3. Monitor steam purity — moisture carryover from separator should be <0.5% by mass. Excess moisture erodes turbine blades.
+4. Verify turbine vibration levels during first run: bearing vibration <50 μm peak-to-peak at rated speed. Higher readings indicate alignment issues or blade deposits.
+5. Measure condenser back-pressure: target <0.1 bar absolute. Higher pressure indicates NCG accumulation — increase gas extraction rate.
+6. Monitor NCG content in steam: should be <5% by weight for stable operation. Above 10% — gas extraction capacity is insufficient.
+
+**Expected Performance**:
+- Electrical output: 10-120 MW per unit, depending on resource temperature and flow
+- Thermal efficiency: 10-18% (low compared to fossil fuel plants due to low steam temperature)
+- Capacity factor: 90-97% — the highest of any renewable energy source
+- Steam consumption: 6-10 kg steam per kWh electrical output
+- Well productivity decline: 1-3% per year without reinjection; <0.5% per year with managed reinjection
+
+**Strengths**:
+- Highest capacity factor of any renewable (90-97%) — true baseload generation
+- No fuel cost — operating cost is dominated by well maintenance
+- Compact surface footprint compared to equivalent solar or wind installations
+- Double-flash configuration extracts 15-25% more power than single-flash from the same resource
+
+**Weaknesses**:
+- Requires high-temperature resource (>180°C) — limits geographic applicability to volcanic/tectonic zones
+- High drilling costs with risk of dry or low-productivity wells (exploration risk)
+- Geothermal steam contains corrosive gases (H₂S, CO₂) and dissolved solids that erode turbine blades
+- Reservoir pressure decline over decades requires make-up wells, increasing lifetime cost
 
 ### 4.3 Ground-Source Heat Pump
 
@@ -97,7 +166,42 @@ Three technology tiers are covered: direct-use heating (hot water from shallow w
 
 2. **Connect to heat pump**: The ground loop circulates a water-antifreeze mixture at 5-15°C (heating mode) or 20-30°C (cooling mode). The heat pump's evaporator extracts heat from the ground loop (heating mode) and the compressor raises the temperature to 40-60°C for distribution. In cooling mode, the cycle reverses — the heat pump rejects building heat into the ground loop.
 
-3. **Distribute heating/cooling**: Heated water (40-60°C) feeds underfloor heating, radiators, or fan-coil units. Cooled water (7-12°C) feeds fan-coil units or chilled beams. COP (coefficient of performance): 3.0-5.0 for heating, 3.5-6.0 for cooling. A heat pump delivering 10 kW of heating draws only 2.5-3.5 kW of electricity — the remaining 6.5-7.5 kW comes from the ground.
+ 3. **Distribute heating/cooling**: Heated water (40-60°C) feeds underfloor heating, radiators, or fan-coil units. Cooled water (7-12°C) feeds fan-coil units or chilled beams. COP (coefficient of performance): 3.0-5.0 for heating, 3.5-6.0 for cooling. A heat pump delivering 10 kW of heating draws only 2.5-3.5 kW of electricity — the remaining 6.5-7.5 kW comes from the ground.
+
+**Materials**:
+- [HDPE ground loop pipe](../polymers/index.md) (32 mm OD, 2.9 mm wall, PN16 rated, PE100 grade), 300-500 m per 10 kW unit
+- [Heat pump compressor](./index.md) (scroll or reciprocating, 2.5-5 kW electrical input for 10 kW thermal output)
+- [Bentonite grout](../chemistry/index.md) (thermal conductivity >0.8 W/m·K), 500-1,500 kg per borehole
+- [Antifreeze fluid](../chemistry/index.md) (propylene glycol, 25-30% by volume in water, freeze point -10°C to -15°C)
+- [Copper refrigerant tubing](../metals/copper-bronze.md) (6-12 mm OD, ACR grade, nitrogen-purged)
+- [Refrigerant](../chemistry/index.md) (R410A or R32, 1.0-2.5 kg charge per 10 kW unit)
+
+**Calibration / Verification**:
+1. After ground loop installation, pressure-test at 1.5× operating pressure (typically 6-9 bar) for 30 minutes. Zero pressure drop acceptable.
+2. Perform thermal response test: circulate fluid at constant heat injection rate (3-5 kW) for 48 hours. Monitor inlet/outlet temperatures. Calculate effective ground thermal conductivity from the response curve — compare to design value (target: 1.5-3.0 W/m·K for typical soils).
+3. Measure heat pump COP at steady-state operation: COP = thermal output / electrical input. For a 10 kW unit drawing 2.5 kW electrical: COP = 4.0. Acceptable range: 3.0-5.0 for heating mode.
+4. Verify ground loop flow rate matches design: typically 0.15-0.25 L/s per kW capacity. Low flow indicates air pockets or blockage.
+5. Check refrigerant charge: measure superheat at compressor suction (target: 5-10°C) and subcooling at condenser outlet (target: 3-8°C). Deviations indicate undercharge or overcharge.
+
+**Expected Performance**:
+- Heating COP: 3.0-5.0 (delivering 3-5 kW thermal per kW electrical input)
+- Cooling COP (EER): 15-25 (equivalent to COP 3.5-6.0)
+- Ground loop fluid temperature: 0-10°C entering heat pump in heating mode, 25-35°C in cooling mode
+- Borehole thermal resistance: 0.05-0.15 K·m/W
+- Expected borehole lifetime: 50-100+ years with no degradation
+- Seasonal performance factor (SPF): 3.0-4.5 over a full heating season
+
+**Strengths**:
+- Stable year-round performance — ground temperature is constant (10-16°C) unlike air-source heat pumps that degrade in extreme cold
+- COP of 3-5 provides 3-5 units of heat per unit of electricity — more efficient than electric resistance heating by the same factor
+- Single system provides both heating and cooling by reversing the refrigerant cycle
+- Boreholes have 50-100+ year lifetime with zero maintenance
+
+**Weaknesses**:
+- High installation cost due to drilling (boreholes cost $50-100 per meter of depth)
+- Requires 10-20 m of borehole per kW of heating capacity — significant land access needed
+- Refrigerant systems require sealed circuit with specialized charging equipment
+- Improperly grouted boreholes create preferential pathways for groundwater contamination between aquifers
 
 ## 5. Quantitative Parameters
 

@@ -243,6 +243,22 @@
 5. **Build superstructure**: Construct privacy enclosure from local materials (wood frame, corrugated metal, brick). Include a door or privacy screen. Keep interior dark to encourage flies to move toward the light at the vent top.
 6. **Test and commission**: Verify the slab is stable and the drop hole is clear. Confirm the vent pipe draws air (hold a smoking stick near the drop hole — smoke should rise through the vent). Provide handwashing station nearby.
 
+**Verification**: After construction, verify the slab is level and the drop hole is free of obstructions. Check that the vent pipe extends at least 0.5 m above the roofline. Test the airflow by holding smoke near the drop hole — it should be drawn upward through the vent. Verify the fly screen is intact and firmly attached to the vent top.
+
+**Expected outcome**: VIP latrine with a 0.5 m² × 3 m pit serves a family of 6 for 5-6 years at 0.04 m³/person/year fill rate. Fly breeding reduced by 90-95% compared to an unvented pit. Odor reduction makes the latrine more acceptable for consistent use.
+
+**Materials**: Concrete (Portland cement: 1 part, sand: 2 parts, gravel: 3 parts, water: 0.5 parts by volume). Reinforcing wire or bar (6-8 mm diameter). PVC vent pipe (minimum 150 mm diameter, 3-4 m length). Stainless steel fly screen mesh (1-2 mm openings). Wooden forms for slab casting.
+
+**Strengths**:
+- VIP design reduces fly breeding by 90-95% and odor significantly, making the latrine more likely to be used consistently
+- Concrete slab is durable for 20+ years and easy to clean with water
+- Construction uses locally available materials — no imported components required
+
+**Weaknesses**:
+- Requires concrete casting capability (Portland cement production) — not achievable at the earliest bootstrap stage
+- Pit has a finite lifespan of 5-6 years for a family — requires space to dig a replacement pit
+- VIP effectiveness depends on the superstructure being dark inside (to attract flies toward the light at the vent top) — poor construction defeats the design
+
 ### Building a Slow Sand Filter
 
 1. **Construct the tank**: Build a watertight tank (concrete, ferrocement, or brick with cement plaster). Dimensions: 2-4 m deep, area sized for demand (0.5-1.0 m² per 50-200 L/day). Include inlet and outlet structures with weirs to control flow.
@@ -253,12 +269,28 @@
 6. **Operate**: Feed raw water continuously at 0.1-0.2 m/hour filtration rate. Collect filtered water from the outlet. Monitor flow rate and turbidity.
 7. **Maintain**: When flow rate drops (every 1-3 months), drain the filter and scrape off the top 1-2 cm of sand. Resume operation. When sand depth drops below 0.5 m, add back washed sand.
 
+**Verification**: After construction, fill the filter and measure the filtration rate by timing how long it takes for the water level to drop a measured distance. Target rate: 0.1-0.2 m/hour. Test output water turbidity (should be <1 NTU) and bacterial quality (total coliforms <10 per 100 mL) after the schmutzdecke has matured (1-4 weeks of operation).
+
+**Expected outcome**: Slow sand filter produces 2-4 L/minute per m² of filter surface. Removes 95-99.5% of bacteria, 90-99% of turbidity, and significant reduction in viruses and parasites. Output water turbidity <1 NTU. Filter run time: 20-60 days between cleanings depending on raw water quality.
+
+**Materials**: Concrete tank (2-4 m deep, area sized for demand — 0.5-1.0 m² per 50-200 L/day). Fine sand (effective size 0.15-0.35 mm, uniformity coefficient 1.5-2.5, 0.6-1.2 m depth). Graded gravel (5-30 mm, 30 cm depth). Perforated underdrain pipes (clay tile or PVC, 50-100 mm diameter). Inlet and outlet weir structures.
+
+**Strengths**:
+- Removes 95-99.5% of bacteria without any chemical inputs — the biological layer provides treatment at no consumable cost
+- Operates on gravity flow alone — no electricity or pumping required
+- Simple to maintain — scraping the top 1-2 cm of sand restores full flow rate
+
+**Weaknesses**:
+- Large land area requirement — 0.5-1.0 m² per person served limits applicability in dense settlements
+- 1-4 week maturation period before output is safe — new filters require an alternative water source during startup
+- Slow filtration rate (0.1-0.2 m/hour) means the filter area must be sized for peak demand, not average demand
+
 ## Limitations
 
 - **No universal solution**: Different water sources and contamination types require different treatment approaches. No single technology addresses all pathogens, chemical contaminants, and aesthetic issues simultaneously. A multi-barrier approach is essential.
 - **Infrastructure maintenance**: Water and sanitation systems degrade without ongoing maintenance. Pumps break, pipes leak, filters clog, and chlorine supplies run out. In many developing regions, 30-50% of water infrastructure is non-functional due to lack of spare parts, trained technicians, or institutional support.
 - **Climate vulnerability**: Drought reduces surface water availability. Flooding contaminates wells and damages infrastructure. Arid regions may lack any surface water source, requiring groundwater extraction or desalination.
-- **Cultural acceptance**: Some technologies (composting toilets, water reuse, SODIS) face cultural resistance. Community engagement and education are as important as the technical design. Technology that people will not use consistently provides no public health benefit.
+- **Cultural acceptance**: Some technologies (composting toilets, water reuse, SODIS) face cultural resistance. Community engagement and education carry equal weight with the technical design. Technology that people will not use consistently provides no public health benefit.
 - **Cost barriers**: Community-scale piped water systems cost $15-40 per person served. Sewage treatment plants cost $50-200 per person served. Many communities cannot afford these capital costs without external funding.
 - **Sludge management**: Sewage sludge requires treatment (dewatering, composting, or incineration) before disposal. Improper sludge handling creates secondary pollution. The "last mile" of wastewater treatment is often neglected.
 

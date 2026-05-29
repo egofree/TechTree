@@ -82,68 +82,79 @@ Position in the dependency chain: aquaponics depends on [Aquaculture](../animals
 The grow bed to fish tank volume ratio should be 1:1 to 2:1. For a 500 L fish tank, plan 500-1000 L of grow bed volume. Three design approaches:
 
 1. **Media-based grow bed** (simplest, recommended for beginners):
-   A container filled with inert growing media — gravel (10-20 mm diameter, washed), expanded clay pebbles (hydroton), or lava rock. Media provides root support and surface area for beneficial bacteria. Flood and drain cycle: fill the bed with fish water, then drain it back (using a bell siphon or timed pump). This cycle delivers water and nutrients to roots, then draws air (oxygen) into the media as the water drains. Container depth 25-30 cm. Media size 10-20 mm (too small restricts water flow; too large provides insufficient surface area for bacteria). Avoid limestone gravel (raises pH excessively) and calcareous stone.
+   A container filled with inert growing media — gravel (10-20 mm diameter, washed), expanded clay pebbles (hydroton), or lava rock. Media provides root support and surface area for beneficial bacteria. Flood and drain cycle: fill the bed with fish water, then drain it back (using a bell siphon or timed pump). Container depth 25-30 cm. Media size 10-20 mm. Avoid limestone gravel (raises pH excessively) and calcareous stone.
 
 2. **NFT (Nutrient Film Technique)**:
-   Plants sit in small cups or net pots in horizontal pipes (PVC, 50-100 mm diameter, with holes cut for pots). A thin film of water (1-2 mm deep) flows continuously through the pipe bottom, bathing the dangling roots. More water-efficient and lighter than media beds. Requires a solids filter (media bed or clarifier) before the NFT pipes because fish solids clog the narrow channels. More complex piping and plumbing.
+   Plants sit in small cups or net pots in horizontal pipes (PVC, 50-100 mm diameter, with holes cut for pots). A thin film of water (1-2 mm deep) flows continuously through the pipe bottom, bathing the dangling roots. More water-efficient and lighter than media beds. Requires a solids filter before the NFT pipes because fish solids clog the narrow channels.
 
 3. **DWC (Deep Water Culture / Raft system)**:
-   Plants float on polystyrene rafts on a tank of water 20-30 cm deep, with roots dangling directly into the aerated water. No media needed. Excellent for leafy greens. Requires a solids filter and biofilter (separate container with bio-media) because there is no gravel to host bacteria. Highest water volume but lowest maintenance of root systems.
+   Plants float on polystyrene rafts on a tank of water 20-30 cm deep, with roots dangling directly into the aerated water. No media needed. Requires a solids filter and biofilter (separate container with bio-media).
 
-**Water pump**: Submersible pump in the fish tank, rated to cycle the total water volume 1-2 times per hour. For a 1000 L system, a pump rated at 1000-2000 L/hr. Pumps require electricity (solar panel + battery, wind generator, or grid power). For non-electric systems, a hand-operated pump or a gravity-driven flow design (fish tank above grow beds, with a solar-powered or hand-cranked pump to lift water back) is possible but labor-intensive.
+**Water pump**: Submersible pump in the fish tank, rated to cycle the total water volume 1-2 times per hour. For a 1000 L system, a pump rated at 1000-2000 L/hr. Pumps require electricity (solar panel + battery, wind generator, or grid power).
 
-**Air pump + airstones**: Continuous aeration is essential. Dissolved oxygen must remain above 5 mg/L at all times for fish health. Air pump rated at 5-10 L/min for a household system, with airstones in the fish tank and (optionally) in the biofilter or sump. During power outages, battery backup or hand-operated bellows maintain aeration. Fish begin dying within 1-2 hours without aeration at warm temperatures (>25°C).
+**Air pump + airstones**: Continuous aeration is essential. Dissolved oxygen must remain above 5 mg/L at all times for fish health.
 
-**Plumbing**: PVC pipes, connectors, and valves for water circulation. Bell siphon (for media bed flood-and-drain) or timer (for pump on/off cycling). Standpipe overflow in fish tank. Drain lines returning water from grow beds to fish tank by gravity.
+**Bell siphon** (for media beds): The key mechanism for flood-and-drain cycling. No moving parts, no timer, no electricity for the drain cycle itself.
 
-**Biofilter** (if not using media beds):
-A separate container filled with bio-media (plastic bioballs, shredded PVC bottles, lava rock, or clay shards) with water flowing through continuously. Provides surface area for nitrifying bacteria. Not needed with media-based grow beds (the media itself serves as the biofilter). For NFT and DWC systems, a biofilter is essential.
+Construction:
+- **Standpipe**: Vertical PVC pipe (25-32 mm diameter) set in the bottom of the grow bed, rising to the desired flood level (approximately 25 cm).
+- **Bell**: A wider pipe (50-75 mm diameter, 5-10 cm taller than the standpipe) with a sealed cap on top, placed over the standpipe. Small holes (3-5 mm) drilled near the bottom.
+- **Media guard**: A perforated pipe or cylinder around the bell, preventing gravel from entering the siphon.
 
-#### Bell Siphon (for media beds)
+Cycle: Water fills the grow bed to the top of the standpipe. The bell siphon triggers and drains the bed rapidly (2-5 minutes). The siphon breaks when air enters. The cycle repeats 3-4 times per hour.
 
-The bell siphon is the key mechanism for flood-and-drain cycling in media-based grow beds. It requires no moving parts, no timer, and no electricity for the drain cycle itself.
+**Strengths**:
+- Media-based system requires no separate biofilter — the gravel media provides bacterial surface area
+- Bell siphon operates without moving parts or timers — reliable and maintenance-free
+- Single water pump and air pump are the only powered components — low energy demand (50-100W)
 
-**Construction**:
-- **Standpipe**: Vertical PVC pipe (25-32 mm diameter) set in the bottom of the grow bed, rising to the desired flood level (approximately 25 cm). Water rises to the top of this pipe and begins flowing down through it.
-- **Bell**: A wider pipe (50-75 mm diameter, 5-10 cm taller than the standpipe) with a sealed cap on top, placed over the standpipe. Small holes (3-5 mm) drilled near the bottom of the bell allow water to enter. As water rises above the standpipe inside the bell, it begins to siphon, rapidly draining the bed.
-- **Media guard**: A perforated pipe or cylinder around the bell, preventing gravel from entering the siphon mechanism.
+**Weaknesses**:
+- System requires continuous electricity — pump failure kills fish within 1-2 hours in warm water
+- Gravel media (200-400 L) is heavy — grow beds weigh 300-600 kg when full and must be supported
+- PVC plumbing requires precise fitting — leaks cause water loss and can drain the fish tank
 
-**Cycle**: Water pumped into the grow bed fills it to the top of the standpipe. The bell siphon triggers and drains the bed rapidly (emptying in 2-5 minutes). The siphon breaks when air enters the bell at low water level. The cycle repeats, typically filling in 10-15 minutes and draining in 2-5 minutes, yielding 3-4 cycles per hour.
+### 4.2 Nitrogen Cycle Establishment
 
-### The Nitrogen Cycle
-
-Aquaponics depends on a biological process — the nitrogen cycle — in which bacteria convert toxic fish waste into plant-available nutrients. This cycle must be established before adding fish to the system.
+Aquaponics depends on the nitrogen cycle — bacteria convert toxic fish waste into plant-available nutrients. This cycle must be established before adding fish.
 
 **Step 1 — Ammonia (NH₃/NH₄⁺)**:
-Fish excrete ammonia through their gills and in their waste. Ammonia is highly toxic to fish — concentrations above 1 mg/L cause stress, and above 2-3 mg/L are lethal. In a cycled system, ammonia is consumed almost as fast as it is produced, maintaining near-zero levels.
+Fish excrete ammonia through their gills and in their waste. Ammonia is highly toxic to fish — concentrations above 1 mg/L cause stress, and above 2-3 mg/L are lethal.
 
 **Step 2 — Nitrite (NO₂⁻)**:
-*Nitrosomonas* bacteria oxidize ammonia to nitrite. Nitrite is also toxic to fish — it binds to hemoglobin and prevents oxygen transport (brown blood disease). Concentrations above 1 mg/L are dangerous. These bacteria colonize all wet surfaces in the system, especially the grow bed media and biofilter.
+*Nitrosomonas* bacteria oxidize ammonia to nitrite. Nitrite is also toxic to fish — it binds to hemoglobin and prevents oxygen transport (brown blood disease). Concentrations above 1 mg/L are dangerous.
 
 **Step 3 — Nitrate (NO₃⁻)**:
-*Nitrobacter* bacteria oxidize nitrite to nitrate. Nitrate is relatively non-toxic to fish (tolerated at 100-200 mg/L) and is the primary form of nitrogen that plants absorb. Plants in the grow bed consume nitrate, removing it from the water and completing the cycle.
+*Nitrobacter* bacteria oxidize nitrite to nitrate. Nitrate is relatively non-toxic to fish (tolerated at 100-200 mg/L) and is the primary form of nitrogen that plants absorb.
 
 **System cycling** (establishing the nitrogen cycle):
 Before adding fish, the system must develop sufficient bacterial colonies to process waste. This takes 4-6 weeks.
 
 1. Fill system with dechlorinated water. Run pump and aerator continuously.
-2. Add an ammonia source: pure ammonia (ammonium hydroxide, 3-5 mg/L concentration in the water) or a small amount of fish food (which decomposes to release ammonia). Alternatively, add a inoculant of bacteria from an established aquarium or pond (speeds cycling significantly).
-3. Test water daily using simple test kits (liquid reagent or test strips):
+2. Add an ammonia source: pure ammonia (ammonium hydroxide, 3-5 mg/L concentration) or a small amount of fish food (which decomposes to release ammonia). Alternatively, add inoculant bacteria from an established aquarium or pond.
+3. Test water daily using test kits:
    - Week 1-2: Ammonia rises, then begins to fall as *Nitrosomonas* colonize.
    - Week 2-3: Nitrite rises (ammonia is being converted). This is the "nitrite spike" — the highest-risk period.
    - Week 3-4: Nitrite begins to fall as *Nitrobacter* colonize. Nitrate appears.
-   - Week 4-6: Ammonia and nitrite both read near zero within 24 hours of adding ammonia. Nitrate rises steadily.
+   - Week 4-6: Ammonia and nitrite both read near zero within 24 hours of adding ammonia.
 4. When ammonia and nitrite remain at zero 24 hours after adding ammonia, the system is cycled and ready for fish.
 
 **Temperature and cycling**: Bacterial activity doubles for every 10°C increase (within the range 10-35°C). Systems cycle faster at 25-30°C than at 15-20°C. Below 10°C, cycling slows dramatically.
 
-### Fish Species
+**Strengths**:
+- Once established, the nitrogen cycle is self-sustaining — bacteria reproduce to match the ammonia load
+- Inoculant from an established aquarium or pond can reduce cycling time from 4-6 weeks to 2-3 weeks
+- The nitrogen cycle requires no chemical inputs — bacteria, ammonia, and oxygen are all that is needed
+
+**Weaknesses**:
+- 4-6 week cycling period before any fish can be added — delays system startup significantly
+- Nitrite spike during weeks 2-3 is toxic to fish — any fish added prematurely will die
+- Bacterial colonies crash if the pump stops for more than 4-6 hours (bacteria suffocate without oxygenated water flow)
+
+### 4.3 Fish Management
 
 #### Tilapia (*Oreochromis* spp.)
 
-The standard aquaponics fish. Fast growth (500 g in 6-8 months under optimal conditions), tolerate crowding (20-40 kg/m³), omnivorous (accept plant-based and insect-based feeds), and thrive at 26-30°C. Tolerate pH 6.0-9.0. Breeding is prolific — mouthbrooding females produce 100-500 fry per spawn, and generation time is 5-7 months.
-
-Drawbacks: Require warm water (>20°C for growth, >15°C to survive). In temperate climates, need heated water or indoor/greenhouse systems in winter. Susceptible to cold shock below 12°C. Not suitable for unheated outdoor systems in cold climates.
+The standard aquaponics fish. Fast growth (500 g in 6-8 months under optimal conditions), tolerate crowding (20-40 kg/m³), omnivorous (accept plant-based and insect-based feeds), and thrive at 26-30°C. Tolerate pH 6.0-9.0. Breeding is prolific — mouthbrooding females produce 100-500 fry per spawn.
 
 Feed: 2-3% body weight per day at optimal temperature. Accept BSF larvae (see [Insect Farming](../animals/insect-farming.md)), duckweed, algae, commercial pellets, agricultural byproducts (rice bran, oilseed cake). Protein requirement: 28-35% for optimal growth.
 
@@ -151,88 +162,9 @@ Feed: 2-3% body weight per day at optimal temperature. Accept BSF larvae (see [I
 
 Cold-hardy alternative to tilapia. Tolerate 4-35°C, optimal growth at 20-28°C. Accept lower water quality than tilapia. Omnivorous. Growth to 500 g-1 kg in one season with adequate feeding. Suitable for unheated outdoor systems in temperate climates.
 
-Drawbacks: Slower growth than tilapia at warm temperatures. Lower market value in many regions. More tolerant of poor water quality, which can lead to neglect of water quality management.
-
 #### Catfish (various species)
 
 Tolerate low dissolved oxygen (some species have accessory air-breathing organs), turbid water, and crowding. Optimal 24-28°C. Growth to 500 g in 4-6 months. Accept animal-based feeds (BSF larvae, fish meal, blood meal). Suitable where water quality management is less precise.
-
-#### Other options
-
-- **Trout**: Require cold water (10-15°C) and high dissolved oxygen (>6 mg/L). Not suitable for warm-water systems. Excellent growth in cold climates with clean spring water.
-- **Perch** (*Perca flavescens*): Cold-water tolerant, accept pellet feed. Moderate growth rate.
-- **Goldfish / koi**: Hardy, attractive, tolerate wide conditions. Low food value but useful for cycling a system before introducing food fish, or for ornamental aquaponics.
-
-### Plant Selection
-
-#### Excellent (leafy greens and herbs)
-
-These plants thrive on the nitrogen-rich water from fish systems and have low to moderate potassium and calcium requirements.
-
-- **Lettuce** (all varieties): 4-6 weeks from transplant to harvest. The most reliable aquaponic crop.
-- **Spinach**: 4-6 weeks. Prefers cooler temperatures (15-20°C). Bolts in heat.
-- **Basil**: 4-6 weeks. High value, strong growth, tolerates warm water.
-- **Kale**: 6-8 weeks. Cold-hardy, nutritious, continuous harvest (pick outer leaves).
-- **Swiss chard**: 6-8 weeks. Heat-tolerant alternative to spinach.
-- **Pak choi / bok choy**: 4-5 weeks. Fast-growing Asian green.
-- **Watercress**: Grows directly in water — exceptionally well-suited to DWC systems.
-- **Mint**: Aggressive grower — plant in the system to filter water, but contain it (mint will overtake other plants if not managed).
-
-#### Moderate (requires potassium and calcium supplementation)
-
-- **Tomatoes**: 12-16 weeks. Require potassium and calcium supplements (fish waste provides abundant nitrogen but insufficient K and Ca for fruiting). Add wood ash (potassium) and crushed eggshells or limestone (calcium) to the system or as a top-dressing in the grow bed.
-- **Peppers**: 12-16 weeks. Same supplementation needs as tomatoes.
-- **Cucumbers**: 8-12 weeks. Vigorous vines, require trellising.
-- **Strawberries**: 12-16 weeks to first harvest. Perennial — continues producing.
-
-**Potassium and calcium supplementation**:
-Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium are consumed by plants faster than fish waste supplies them. Supplementation options (all natural, no chemical pH adjusters needed):
-- **Potassium**: Wood ash (rich in potassium carbonate — add 1-2 tablespoons per 100 L system volume weekly), kelp meal, or banana peel extract (soak banana peels in water for 48 hours).
-- **Calcium**: Crushed eggshells, crushed oyster shells, or agricultural limestone (calcium carbonate). Place in a mesh bag in the fish tank or sump — they dissolve slowly, releasing calcium and providing natural pH buffering. This is the primary pH management strategy: calcium carbonate sources dissolve to maintain pH at 6.5-7.0 without any chemical addition.
-- **Iron**: Chelated iron (iron DTPA or iron EDTA) at 2-5 mg/L, added every 2-4 weeks. Iron deficiency shows as yellowing between leaf veins (interveinal chlorosis) on new growth. Without chelated iron supplement, most aquaponic systems develop iron deficiency over time.
-
-#### Unsuitable
-
-- **Root crops** (potatoes, carrots, onions): Grow media is too wet for most root crops. Can be grown in a separate wicking bed fed with aquaponic water.
-- **Large fruiting trees**: Root systems too large, nutrient demand exceeds what fish waste provides.
-- **Acid-loving plants** (blueberries, azaleas): Require pH 4.5-5.5; aquaponic systems run at pH 6.5-7.0.
-
-### Water Quality Management
-
-#### pH
-
-Target: 6.5-7.0. This is a compromise between fish comfort (prefer 7.0-8.0), plant nutrient availability (prefer 5.5-6.5), and bacterial activity (prefer 7.0-8.0). At pH 6.5-7.0, all three function adequately.
-
-**Natural buffering**: The key advantage of aquaponics over hydroponics. Calcium carbonate sources (crushed shells, limestone chips, concrete blocks) in the system dissolve slowly when pH drops below 7.0, releasing carbonate ions that neutralize acid and raise pH. When pH rises above 7.5, the carbonate source stops dissolving. This passive self-regulation maintains pH within a tolerable range without chemical addition or active management. This is fundamentally different from hydroponic systems, which require regular manual or automated addition of phosphoric acid or potassium hydroxide to maintain pH. The [hydroponic pH control](./sem-tech-hydroponics.md) article describes a much more advanced industrial approach using electromembrane electrodialysis — a technology that presupposes the industrial infrastructure to manufacture ion exchange membranes, power supplies, and sensor arrays. Aquaponics achieves comparable biological results using shells and bacteria.
-
-**pH drift downward** (most common): Normal in maturing systems. Fish and bacterial respiration produces carbon dioxide, which forms carbonic acid. Plants release hydrogen ions when absorbing ammonium. Natural buffering from calcium carbonate usually compensates. If pH drops below 6.0, add crushed shells or limestone. Do not use chemical bases (sodium hydroxide, potassium hydroxide) — these cause rapid pH swings that stress fish and bacteria.
-
-**pH drift upward**: Less common. May occur in new systems with concrete or limestone components still leaching alkalinity. Allow time for the system to equilibrate. If persistent, reduce calcium carbonate sources.
-
-#### Water Temperature
-
-- Tilapia systems: 26-30°C optimal. Below 20°C, growth slows. Below 15°C, fish stop eating. Below 10°C, fish die.
-- Carp systems: 20-28°C optimal. Tolerate down to 4°C.
-- Trout systems: 10-15°C optimal. Above 20°C, stress and disease risk increase. Above 25°C, lethal.
-
-Temperature management: In cold climates, greenhouse enclosure with thermal mass (water tanks, stone, or earth berms) moderates temperature swings. A 1000 L fish tank provides significant thermal inertia — it takes 24-48 hours for the water temperature to change significantly. In hot climates, shade cloth over the fish tank and partial burying of the tank (ground temperature is more stable than air temperature) prevent overheating.
-
-#### Dissolved Oxygen
-
-Maintain above 5 mg/L at all times. Warm water holds less dissolved oxygen: at 30°C, saturation is only 7.5 mg/L; at 10°C, saturation is 11.3 mg/L. This makes warm-water tilapia systems more vulnerable to oxygen depletion (warm water, high fish metabolism, low oxygen capacity).
-
-Continuous aeration with an air pump and airstones is non-negotiable. Backup: battery-powered air pump for power outages, or a venturi aerator (uses water flow from the pump to draw in air — no separate air pump needed but reduces water flow rate by 10-20%).
-
-#### Ammonia and Nitrite Monitoring
-
-Test ammonia and nitrite weekly (more frequently during system cycling and after any system disruption — pump failure, overfeeding, temperature shock). Acceptable levels:
-- Ammonia: below 0.5 mg/L (ideally near zero in a cycled system)
-- Nitrite: below 0.5 mg/L (ideally near zero)
-- Nitrate: 20-100 mg/L (below 20 suggests insufficient fish waste for plants; above 150 suggests insufficient plants or need for water exchange)
-
-**Emergency ammonia spike**: If ammonia exceeds 2 mg/L, immediately stop feeding, perform a 30-50% water change, increase aeration, and add a bacteria inoculant if available. Identify the cause (overfeeding, dead fish, pump failure, filter crash).
-
-### Fish Management
 
 #### Stocking Density
 
@@ -240,68 +172,239 @@ Test ammonia and nitrite weekly (more frequently during system cycling and after
 - **Moderate**: 30 kg/m³. Requires excellent water quality management and reliable aeration.
 - **Intensive**: 40 kg/m³ and above. Requires continuous monitoring, backup systems, and experienced management. High risk of catastrophic loss from equipment failure.
 
-Start conservative. Stock at 10-15 kg/m³ when fish are small and increase as the biofilter matures and bacterial processing capacity grows.
+Start conservative. Stock at 10-15 kg/m³ when fish are small and increase as the biofilter matures.
 
-#### Feeding
+**Feeding**: Feed 2-3% of total fish body weight per day, split into 2-3 feedings. A system with 20 kg of tilapia receives 400-600 g of feed per day.
 
-Feed 2-3% of total fish body weight per day, split into 2-3 feedings. A system with 20 kg of tilapia receives 400-600 g of feed per day.
+**Feeding rule**: Fish should consume all feed within 15 minutes. If feed remains after 15 minutes, reduce the ration. Uneaten feed decomposes to ammonia, degrading water quality.
 
-**Feed sources**:
-- Commercial fish pellets (simplest, highest quality)
-- BSF larvae (see [Insect Farming](../animals/insect-farming.md)) — excellent protein source, can replace 50-100% of commercial feed
-- Duckweed (*Lemna* spp.) — 25-35% protein, grows on the fish tank surface itself
-- Earthworms (see [Vermiculture](./soil-management-vermiculture.md))
-- Agricultural byproducts: rice bran, soybean meal, blood meal
+**Strengths**:
+- Tilapia reach harvest size (400-500 g) in 6-8 months — 2-3 crops per year with staggered stocking
+- Multiple fish species available for different climate zones — tilapia for tropical, carp for temperate, catfish for low-oxygen conditions
+- Fish feed can be produced on-site using BSF larvae and duckweed, reducing dependence on commercial pellets
 
-**Feeding rule**: Fish should consume all feed within 15 minutes. If feed remains after 15 minutes, reduce the ration. Uneaten feed decomposes to ammonia, degrading water quality. Fish appetite varies with temperature — reduce feeding when water is below 20°C (for tilapia) or above 28°C (for trout).
+**Weaknesses**:
+- Tilapia require warm water (>20°C for growth) — heated water or indoor systems needed in temperate climates, adding energy cost
+- Overfeeding is the most common cause of ammonia spikes — 15-minute feeding rule requires daily attention
+- Fish disease spreads rapidly in recirculating systems — one sick fish can infect the entire tank within 24-48 hours
 
-### System Startup
+### 4.4 Plant Management
 
-1. **Build the system**: Assemble fish tank, grow bed(s), plumbing, bell siphon, pump, and air pump. Check all connections. Fill with dechlorinated water. Test the bell siphon cycle (fill and drain 3-4 times to verify timing).
-2. **Add bio-media and plant**: Fill grow beds with washed gravel or clay pebbles. Plant seedlings in the media (or set up NFT pipes / DWC rafts). Start with fast-growing plants (lettuce, basil) to begin consuming nutrients.
+**Excellent aquaponic crops** (leafy greens and herbs — thrive on nitrogen-rich fish water):
+- **Lettuce** (all varieties): 4-6 weeks from transplant to harvest. The most reliable aquaponic crop.
+- **Spinach**: 4-6 weeks. Prefers cooler temperatures (15-20°C). Bolts in heat.
+- **Basil**: 4-6 weeks. High value, strong growth, tolerates warm water.
+- **Kale**: 6-8 weeks. Cold-hardy, nutritious, continuous harvest (pick outer leaves).
+- **Swiss chard**: 6-8 weeks. Heat-tolerant alternative to spinach.
+- **Pak choi / bok choy**: 4-5 weeks. Fast-growing Asian green.
+- **Watercress**: Grows directly in water — exceptionally well-suited to DWC systems.
+- **Mint**: Aggressive grower — plant in the system to filter water, but contain it (mint will overtake other plants).
+
+**Moderate aquaponic crops** (requires potassium and calcium supplementation):
+- **Tomatoes**: 12-16 weeks. Require potassium and calcium supplements.
+- **Peppers**: 12-16 weeks. Same supplementation needs as tomatoes.
+- **Cucumbers**: 8-12 weeks. Vigorous vines, require trellising.
+- **Strawberries**: 12-16 weeks to first harvest. Perennial.
+
+**Potassium and calcium supplementation**:
+Fish feed provides nitrogen and phosphorus abundantly, but potassium and calcium are consumed faster than fish waste supplies them.
+- **Potassium**: Wood ash (1-2 tablespoons per 100 L system volume weekly), kelp meal, or banana peel extract.
+- **Calcium**: Crushed eggshells, crushed oyster shells, or agricultural limestone. Place in a mesh bag in the fish tank or sump — they dissolve slowly, releasing calcium and providing natural pH buffering.
+- **Iron**: Chelated iron (iron DTPA or iron EDTA) at 2-5 mg/L, added every 2-4 weeks. Iron deficiency shows as yellowing between leaf veins (interveinal chlorosis) on new growth.
+
+**Strengths**:
+- Leafy greens grow 20-30% faster in aquaponics than in soil due to constant nutrient availability
+- Continuous harvest possible — pick outer leaves and the plant keeps producing
+- No weeding, no soil-borne diseases, and no crop rotation required
+
+**Weaknesses**:
+- Fruiting crops (tomatoes, peppers) require supplemental potassium and calcium that fish waste does not provide
+- Iron deficiency develops in most systems within 2-3 months without chelated iron supplement
+- Root crops and large fruiting trees are unsuitable for aquaponic growing
+
+### 4.5 Water Quality Management
+
+**pH**: Target: 6.5-7.0. This is a compromise between fish comfort (prefer 7.0-8.0), plant nutrient availability (prefer 5.5-6.5), and bacterial activity (prefer 7.0-8.0).
+
+**Natural buffering**: Calcium carbonate sources (crushed shells, limestone chips) dissolve slowly when pH drops below 7.0, releasing carbonate ions that neutralize acid. When pH rises above 7.5, the carbonate source stops dissolving. This passive self-regulation maintains pH without chemical addition. This is fundamentally different from hydroponic systems, which require regular addition of phosphoric acid or potassium hydroxide (see [SEM Tech Hydroponics](./sem-tech-hydroponics.md)).
+
+**pH drift downward** (most common): Fish and bacterial respiration produces CO₂, which forms carbonic acid. If pH drops below 6.0, add crushed shells or limestone.
+
+**Water Temperature**:
+- Tilapia systems: 26-30°C optimal. Below 20°C growth slows. Below 15°C fish stop eating. Below 10°C fish die.
+- Carp systems: 20-28°C optimal. Tolerate down to 4°C.
+- Trout systems: 10-15°C optimal. Above 20°C stress increases. Above 25°C lethal.
+
+**Dissolved Oxygen**: Maintain above 5 mg/L at all times. Warm water holds less dissolved oxygen: at 30°C, saturation is only 7.5 mg/L; at 10°C, saturation is 11.3 mg/L.
+
+**Ammonia and Nitrite Monitoring**: Test weekly (more frequently during cycling and after disruptions). Acceptable levels:
+- Ammonia: below 0.5 mg/L (ideally near zero)
+- Nitrite: below 0.5 mg/L (ideally near zero)
+- Nitrate: 20-100 mg/L
+
+**Strengths**:
+- Natural calcium carbonate buffering maintains pH 6.5-7.0 without chemical inputs
+- Once cycled, ammonia and nitrite remain near zero with proper feeding
+- Water quality testing uses simple colorimetric kits — no electronic instruments required
+
+**Weaknesses**:
+- pH below 6.0 or above 8.0 causes simultaneous stress to fish, plants, and bacteria — narrow operating window
+- Dissolved oxygen below 5 mg/L is lethal to fish within hours in warm water — continuous aeration is mandatory
+- Ammonia spikes from overfeeding or dead fish can kill an entire tank within 24 hours
+
+### 4.6 System Startup and Operation
+
+1. **Build the system**: Assemble fish tank, grow bed(s), plumbing, bell siphon, pump, and air pump. Check all connections. Fill with dechlorinated water. Test the bell siphon cycle (fill and drain 3-4 times).
+2. **Add bio-media and plant**: Fill grow beds with washed gravel or clay pebbles. Plant seedlings (start with fast-growing plants: lettuce, basil).
 3. **Cycle the system** (4-6 weeks): Add ammonia source. Test daily. Wait for ammonia and nitrite to read zero.
-4. **Add fish**: Stock at low density (10-15 kg/m³). Introduce fish gradually — add 25% of final intended stocking at first, then increase over 2-4 weeks as the bacterial colony grows to match the increasing ammonia load. Acclimate fish to water temperature before release (float transport container in the tank for 30 minutes).
-5. **Monitor daily**: Check that pump and aerator are running. Observe fish behavior (listless fish at surface = oxygen or ammonia problem). Check water flow through grow beds. Test ammonia and nitrite weekly.
+4. **Add fish**: Stock at low density (10-15 kg/m³). Acclimate fish to water temperature before release (float transport container in the tank for 30 minutes).
+5. **Monitor daily**: Check that pump and aerator are running. Observe fish behavior (listless fish at surface = oxygen or ammonia problem). Test ammonia and nitrite weekly.
 6. **Begin harvesting plants**: 4-6 weeks after planting. Harvest outer leaves of leafy greens (continuous production) or whole plants. Replant immediately.
-7. **Harvest fish**: When they reach target size (tilapia: 400-500 g at 6-8 months). Remove the largest fish and replace with fingerlings to maintain steady production.
+7. **Harvest fish**: When they reach target size (tilapia: 400-500 g at 6-8 months). Remove the largest fish and replace with fingerlings.
 
-### Aquaponics vs Hydroponics — Technology Level
+**Strengths**:
+- Step-by-step startup process is methodical — each phase builds on the previous one
+- Lettuce provides visual confirmation that the system is working within 4-6 weeks of planting
+- Staggered fish stocking allows continuous harvest once the system is established
 
-It is important to understand where aquaponics sits on the technology spectrum relative to other growing methods:
+**Weaknesses**:
+- Total startup time is 6-10 weeks (4-6 weeks cycling + 2-4 weeks plant growth before first harvest)
+- System requires daily monitoring (5-10 minutes) — neglect for more than 24 hours can kill fish
+- First-time systems commonly lose fish during the learning curve — start with inexpensive fish
 
-| Parameter | Aquaponics | Basic Hydroponics | SEM Tech Hydroponics |
-|-----------|-----------|-------------------|---------------------|
-| pH control | Natural (calcium carbonate buffering) | Manual chemical dosing | Electromembrane electrodialysis |
-| Nutrient source | Fish waste + bacteria | Dissolved mineral salts | Refined mineral solutions + ED control |
-| pH precision | ±0.3-0.5 units | ±0.3-0.5 units | ±0.1 units |
-| Required infrastructure | Tank, gravel, pump, fish | Tank, media, pump, chemicals | ED stack, membranes, sensors, power supply |
-| Industrial prerequisites | Basic plumbing, electricity | Basic chemistry, electricity | Polymer membranes, electronics, precision manufacturing |
-| Biological complexity | High (fish, bacteria, plants) | Low (plants only) | Low (plants only) |
-| Operating inputs | Fish food, seeds | Mineral salts, acid/base | Electricity |
-| Skill level | Moderate (living system management) | Moderate (chemistry management) | High (industrial process control) |
+## 5. Quantitative Parameters
 
-Aquaponics achieves functional nutrient delivery using natural biological processes and simple materials. The "advanced" aspects are biological knowledge (nitrogen cycle, fish health) rather than industrial capacity. Hydroponic pH control — and especially the SEM Tech electromembrane approach — requires manufacturing capabilities (membrane fabrication, precision electronics, chemical synthesis) that come much later in the bootstrap sequence. Aquaponics is attainable at the level of basic plumbing and electricity; hydroponic pH control requires a functioning chemical industry.
+### Fish Growth Rates in Aquaponics
 
-### Cross-Domain Links
+| Species | Optimal Temperature (°C) | Time to 500 g | Feed Conversion Ratio | Stocking Density (kg/m³) |
+|---------|-------------------------|----------------|----------------------|--------------------------|
+| Tilapia | 26-30 | 6-8 months | 1.5-2.0 | 20-40 |
+| Carp | 20-28 | 8-12 months | 2.0-3.0 | 15-30 |
+| Catfish | 24-28 | 4-6 months | 1.8-2.5 | 30-50 |
+| Trout | 10-15 | 8-12 months | 1.2-1.5 | 15-25 |
 
-- **[Aquaculture](../animals/aquaculture.md)** — fish farming techniques, pond construction, fish species, and feeding that underpin aquaponic fish production
-- **[Insect Farming](../animals/insect-farming.md)** — BSF larvae as fish feed, closing the nutrient loop
-- **[Vermiculture](./soil-management-vermiculture.md)** — worm castings and worm tea as supplemental plant nutrients in aquaponics
-- **[Soil Management](./soil-management.md)** — broader composting and soil fertility context
-- **[SEM Tech Hydroponics](./sem-tech-hydroponics.md)** — MORE ADVANCED technology that builds on aquaponics concepts; requires industrial membrane manufacturing
+### Aquaponic Crop Yield and Timeline
 
-### Safety
+| Crop | Time to Harvest (weeks) | Yield per m² per Year (kg) | Notes |
+|------|------------------------|---------------------------|-------|
+| Lettuce | 4-6 | 30-60 | Most reliable aquaponic crop |
+| Basil | 4-6 | 20-40 | High value, continuous harvest |
+| Spinach | 4-6 | 25-45 | Bolts above 25°C |
+| Kale | 6-8 | 20-40 | Continuous outer-leaf harvest |
+| Tomatoes | 12-16 | 10-20 | Requires K and Ca supplementation |
+| Cucumbers | 8-12 | 15-30 | Requires trellising |
 
-**Waterborne disease**: Aquaponic water contains fish waste and bacteria. Do not drink system water. Wash hands after handling fish, grow bed media, or system water. Fish can carry *Salmonella* and *Streptococcus* spp. — maintain good hygiene around the system, especially if children have access.
+### Aquaponic System Water Budget
 
-**Electrical safety**: Water pumps and air pumps operate in and around water. Use ground-fault circuit interrupters (GFCIs) on all electrical outlets near the system. Secure all cables above water level. Do not operate damaged pumps. Solar-powered systems with low-voltage DC pumps (12V) reduce shock risk significantly compared to mains-powered AC pumps.
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Total system volume (household) | 1,000-2,000 L | Fish tank + grow beds + plumbing |
+| Daily water loss (evaporation + transpiration) | 5-20 L/day (1-2% of system volume) | Higher in hot, dry climates |
+| Daily make-up water needed | 5-20 L/day | Replace evaporation losses |
+| Annual water use | 2,000-7,000 L/year | Compare: soil garden uses 50,000-100,000 L/year for same area |
+| Water use efficiency vs. soil | 90-95% less water than soil-based growing | Primary advantage of recirculating systems |
 
-**Fish health and water quality**: Ammonia and nitrite spikes kill fish rapidly. Test water regularly, especially in new systems. Never overfeed — excess food is the most common cause of ammonia spikes. Maintain continuous aeration — fish die within 1-2 hours without oxygen in warm water. Have a backup aeration plan (battery-powered air pump, or even a bucket brigade to splash water for emergency aeration).
+### pH, Ammonia, Nitrite, and Nitrate Targets
 
-**Heavy metals**: Do not use galvanized metal (zinc-coated) components in the system — zinc is toxic to fish at low concentrations. Copper is also toxic to fish (and to invertebrates like shrimp and snails). Use plastic, stainless steel, or ceramic components for plumbing and fittings. Lead solder in plumbing is a contamination risk — use lead-free connections.
+| Parameter | Target Range | Danger Level | Effect of Deviation |
+|-----------|-------------|-------------|-------------------|
+| pH | 6.5-7.0 | <6.0 or >8.0 | Low pH kills bacteria; high pH locks up iron |
+| Ammonia (NH₃) | <0.5 mg/L (ideally 0) | >2 mg/L | Lethal to fish at 2-3 mg/L |
+| Nitrite (NO₂⁻) | <0.5 mg/L (ideally 0) | >1 mg/L | Prevents oxygen transport in fish blood |
+| Nitrate (NO₃⁻) | 20-100 mg/L | >150 mg/L | Below 20: insufficient nutrients; above 150: water exchange needed |
+| Dissolved oxygen | >5 mg/L | <3 mg/L | Fish die within 1-2 hours below 2 mg/L in warm water |
+| Temperature (tilapia) | 26-30°C | <15°C or >33°C | Growth stops below 20°C; death below 10°C or above 35°C |
 
-**Plant food safety**: Fish waste can contain human pathogens if the fish are fed manure or contaminated feed. Use only clean feed sources (commercial pellets, BSF larvae raised on food waste, duckweed from clean water). Wash all aquaponic produce before eating. Leafy greens (lettuce, basil) grown in media beds may have media particles trapped in leaves — rinse thoroughly.
+## 6. Scaling Notes
+
+**Household system (500-1,000 L)**: Single fish tank + 1-2 grow beds. Produces 20-40 kg fish and 30-60 kg vegetables per year in 3-4 m² footprint. Daily maintenance: 5-10 minutes (feeding, visual check). Weekly maintenance: 15-30 minutes (water testing, filter cleaning). Suitable for a family's supplemental protein and greens.
+
+**Multi-tank system (2,000-5,000 L)**: 2-4 fish tanks + 4-8 grow beds. Staggered fish cohorts for continuous harvest. Produces 100-200 kg fish and 150-300 kg vegetables per year. Requires 1-2 hours of daily attention. Suitable for a small community or restaurant supply.
+
+**Commercial system (10,000+ L)**: Multiple tanks with automated monitoring and feeding. Dedicated greenhouse structure. Requires [Water Distribution](../water/distribution.md) infrastructure and backup power systems. Produces 500+ kg fish and 1,000+ kg vegetables per year. Full-time operation.
+
+**Key bottleneck**: Continuous electricity. Pumps and aerators must run 24/7. A power outage exceeding 2-4 hours in warm weather kills fish from oxygen depletion. Solar + battery backup is mandatory for any system in an area with unreliable grid power.
+
+## 7. Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Fish gasping at surface | Low dissolved oxygen or high ammonia | Increase aeration immediately; test ammonia; perform 30-50% water change if ammonia >2 mg/L |
+| Ammonia spike (>2 mg/L) | Overfeeding, dead fish, or biofilter crash | Stop feeding; remove dead fish; perform water change; add bacteria inoculant |
+| Nitrite spike (>1 mg/L) | Incomplete cycling or biofilter disruption | Add salt (1-3 g/L NaCl — reduces nitrite toxicity); stop feeding for 24 hours; increase aeration |
+| Plants yellowing (new growth) | Iron deficiency | Add chelated iron at 2-5 mg/L |
+| Plants yellowing (old leaves) | Nitrogen deficiency | Increase fish feeding rate; check that biofilter is processing ammonia to nitrate |
+| pH dropping below 6.0 | Carbonic acid accumulation from fish/bacterial respiration | Add crushed shells or limestone; check that buffer material is present in system |
+| Green water (algae bloom) | Excess light on fish tank + high nutrients | Cover fish tank to exclude light; reduce feeding; add more plants to consume nutrients |
+| Bell siphon not triggering | Clogged with debris or wrong standpipe height | Clean media guard; adjust standpipe height; check for root intrusion |
+| Fish not eating | Water temperature too low (tilapia <20°C), or disease | Check temperature; test ammonia and nitrite; observe fish for signs of disease |
+
+## 8. Safety
+
+- **Waterborne disease**: Aquaponic water contains fish waste and bacteria. Do not drink system water. Wash hands after handling fish, grow bed media, or system water. Fish can carry *Salmonella* and *Streptococcus* spp. — maintain good hygiene around the system, especially if children have access.
+- **Electrical safety near water**: Water pumps and air pumps operate in and around water. Use ground-fault circuit interrupters (GFCIs) on all electrical outlets near the system. Secure all cables above water level. Do not operate damaged pumps. Solar-powered systems with low-voltage DC pumps (12V) reduce shock risk significantly compared to mains-powered AC pumps.
+- **Fish health and water quality**: Ammonia and nitrite spikes kill fish rapidly. Test water regularly, especially in new systems. Never overfeed — excess food is the most common cause of ammonia spikes. Maintain continuous aeration — fish die within 1-2 hours without oxygen in warm water (>25°C). Have a backup aeration plan (battery-powered air pump, or a bucket brigade to splash water for emergency aeration).
+- **Heavy metals**: Do not use galvanized metal (zinc-coated) components in the system — zinc is toxic to fish at concentrations as low as 0.1 mg/L. Copper is also toxic to fish (and to invertebrates like shrimp and snails) at concentrations above 0.02 mg/L. Use plastic, stainless steel, or ceramic components for plumbing and fittings. Lead solder in plumbing is a contamination risk — use lead-free connections.
+- **Plant food safety**: Fish waste can contain human pathogens if the fish are fed manure or contaminated feed. Use only clean feed sources (commercial pellets, BSF larvae raised on food waste, duckweed from clean water). Wash all aquaponic produce before eating. Leafy greens grown in media beds may have gravel particles trapped in leaves — rinse thoroughly.
+
+## 9. Quality Control
+
+### Water Quality Monitoring Schedule
+
+| Parameter | Frequency | Target | Action Threshold |
+|-----------|-----------|--------|-----------------|
+| pH | Weekly (daily during cycling) | 6.5-7.0 | <6.0: add calcium carbonate; >8.0: reduce buffer material |
+| Ammonia (NH₃) | Weekly (daily during cycling) | <0.5 mg/L | >2 mg/L: emergency water change, stop feeding |
+| Nitrite (NO₂⁻) | Weekly (daily during cycling) | <0.5 mg/L | >1 mg/L: add salt, increase aeration |
+| Nitrate (NO₃⁻) | Weekly | 20-100 mg/L | <20: increase feeding; >150: partial water exchange |
+| Dissolved oxygen | Daily observation of fish behavior | >5 mg/L | Fish gasping at surface: increase aeration immediately |
+| Temperature | Daily | Species-dependent (see table) | Outside range: add/remove heat source |
+
+### System Performance Benchmarks
+
+| Metric | Target | Warning | Measurement Method |
+|--------|--------|---------|-------------------|
+| Fish feed conversion ratio | 1.5-2.0 | >3.0 (overfeeding or disease) | Total feed given ÷ total fish weight gain |
+| Plant growth rate | Species-specific (see table) | <50% of expected rate | Days from transplant to harvest |
+| Water clarity | Clear to slightly green | Brown or opaque | Visual inspection (turbidity indicates solids problem) |
+| Bell siphon cycle frequency | 3-4 cycles per hour | <2 or >6 per hour | Time fill and drain cycles |
+
+## 10. Variations and Alternatives
+
+### Aquaponics vs Other Growing Methods
+
+| Parameter | Aquaponics | Soil-Based Gardening | Hydroponics |
+|-----------|-----------|---------------------|-------------|
+| Water use | Very low (recirculating) | High (irrigation) | Low (recirculating) |
+| Fertilizer input | Fish food only | Compost, manure, amendments | Mineral salts, acid/base |
+| Protein output | Yes (fish) | No | No |
+| Complexity | High (living system) | Low | Medium |
+| Daily attention required | 5-10 minutes | 15-30 minutes during season | 5-15 minutes |
+| Startup time | 6-10 weeks | Days (plant seeds) | 1-2 weeks |
+| Failure mode | Fish death (catastrophic) | Pest/disease (gradual) | Nutrient imbalance (gradual) |
+
+### System Configuration Selection
+
+| Situation | Recommended Configuration | Why |
+|-----------|--------------------------|-----|
+| Beginner, warm climate | Media bed + tilapia + lettuce | Simplest setup, most forgiving |
+| Temperate climate, outdoor | Media bed + carp + kale | Carp tolerate cold water without heating |
+| Limited space, indoor | DWC raft + tilapia + herbs | Highest yield per m², compact footprint |
+| Semi-arid, water-scarce | NFT pipes + tilapia + greens | Lowest water use of any food production method |
+| Integration with BSF farming | Media bed + tilapia + fruiting crops | BSF larvae feed fish; fish waste feeds plants |
+
+## 11. References
+
+- [Aquaculture](../animals/aquaculture.md) — fish farming techniques, pond construction, fish species, and feeding that underpin aquaponic fish production
+- [Insect Farming](../animals/insect-farming.md) — BSF larvae as fish feed, closing the nutrient loop
+- [Vermiculture](./soil-management-vermiculture.md) — worm castings and worm tea as supplemental plant nutrients in aquaponics
+- [Soil Management](./soil-management.md) — broader composting and soil fertility context
+- [SEM Tech Hydroponics](./sem-tech-hydroponics.md) — more advanced technology that builds on aquaponics concepts; requires industrial membrane manufacturing
+- [Water Procurement](../water/procurement.md) — water sources for system fill and make-up water
+- [Water → Basic Treatment](../water/basic-treatment.md) — dechlorination and water quality for aquaponic use
+- [Foundations → Agriculture](../foundations/food-agriculture.md) — basic cultivation knowledge
+- [Food Processing](../food-processing/index.md) — downstream processing of aquaponic fish and vegetables
 
 ---
 
-[← Back to Agriculture](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Agriculture](./index.md) • [All Domains](../index.md)*

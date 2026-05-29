@@ -15,22 +15,52 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 
 **[Ammonia-water system](../glossary/ammonia-water-system.md)** (the first practical refrigeration cycle, industrially deployed from the 1850s):
 
-- **Working pair**: Ammonia (NH₃) as refrigerant, water (H₂O) as absorbent. Ammonia boils at -33.3°C at atmospheric pressure, making it ideal for below-freezing applications.
+**Materials**:
+- Ammonia (NH₃), 99.9% purity — refrigerant. Produced from [coke oven ammonia liquor](coke.md) or [Haber-Bosch synthesis](../chemistry/ammonia.md)
+- Water (H₂O) — absorbent
+- Steel pressure vessels rated to 15 bar (condenser, generator, absorber)
+- Copper or steel heat exchanger tubing, 15-25 mm OD, 1-2 mm wall
+- Packing for rectifier column (ceramic Raschig rings, 15-25 mm diameter)
+
+**Process**:
 - **Generator** (desorber): Strong ammonia-water solution (typically 35-40% NH₃ by weight) heated to 80-150°C by steam, flame, or waste heat. Heat drives ammonia vapor out of solution. Pressure in generator: 10-15 bar.
 - **Condenser**: Ammonia vapor flows to condenser, cooled by water jacket or air finned tubes. Vapor condenses to liquid ammonia at ~25-40°C. Condensing pressure: 10-15 bar (corresponding to ~25-40°C saturation temperature).
 - **Expansion valve**: Liquid ammonia passes through restriction (capillary or orifice), dropping pressure to 1-3 bar. Flash evaporation cools the remaining liquid to ~-10 to -30°C.
 - **Evaporator**: Low-pressure liquid ammonia evaporates in coils immersed in brine tank or air duct, absorbing heat from the surroundings. This is the cooling effect. Evaporating at -10 to -33°C depending on pressure.
 - **Absorber**: Ammonia vapor from evaporator is absorbed by weak solution returning from generator. Absorption is exothermic — requires cooling water (20-30°C). The strong solution is pumped back to generator by a small liquid pump (the ONLY moving part in the refrigerant circuit, requiring ~0.5-2 kW for a 100 kW cooling capacity unit).
-- **Solution heat exchanger**: Recover heat between hot weak solution leaving generator and cold strong solution entering generator. Improves COP from ~0.3 to ~0.5-0.7.
-- **[COP](../glossary/cop.md)** (Coefficient of Performance): 0.4-0.7 (cooling output ÷ heat input). Lower than vapor-compression, but fueled by waste heat that would otherwise be discarded.
-- **Heat source temperature**: Minimum 80°C for single-effect. Double-effect units (using two generators in series) require 150-200°C but achieve COP 1.0-1.4.
-- **Advantages**: Few moving parts, heat-driven (works with steam, exhaust gas, solar thermal), no electricity required for small units. Ideal for bootstrap phase where electricity is scarce.
-- **Limitations**: Bulky, lower COP, ammonia toxicity (see Safety).
+- **Solution heat exchanger**: Recover heat between hot weak solution leaving generator and cold strong solution entering generator. Improves [COP](../glossary/cop.md) from ~0.3 to ~0.5-0.7.
+
+**Verification**:
+1. Measure generator temperature (80-150°C) and pressure (10-15 bar) — confirm stable operation
+2. Check condenser outlet subcooling (3-5°C below saturation) — indicates proper refrigerant charge
+3. Measure evaporator temperature and compare to design setpoint — expect approach temperature of 3-8°C between refrigerant and brine
+4. Calculate COP from measured cooling output (kW) ÷ heat input (kW) — target 0.5-0.7
+
+**Expected performance**:
+- [COP](../glossary/cop.md) (Coefficient of Performance): 0.4-0.7 (cooling output ÷ heat input). Lower than vapor-compression, but fueled by waste heat that would otherwise be discarded.
+- Heat source temperature: Minimum 80°C for single-effect. Double-effect units (using two generators in series) require 150-200°C but achieve COP 1.0-1.4.
+
+**Strengths**:
+- Few moving parts (only one small solution pump) — low maintenance, long operational life
+- Heat-driven: runs on waste heat, steam, solar thermal, or flame — no electricity required for the refrigeration cycle itself
+
+**Weaknesses**:
+- COP of 0.4-0.7 means 140-250 kW of heat input per 100 kW of cooling — significant fuel consumption unless waste heat is available
+- Bulky equipment: generator, condenser, absorber, and solution heat exchanger occupy 3-5× the floor space of an equivalent vapor-compression unit
 
 ### Vapor-Compression Refrigeration
 
 **[The dominant modern cycle](../glossary/the-dominant-modern-cycle.md)** (requires electric motor or engine drive):
 
+**Materials**:
+- Compressor (reciprocating, scroll, or screw type) — see [Machining](../machine-tools/machining.md) for crankshaft and cylinder fabrication
+- Condenser (shell-and-tube or air-cooled finned tube)
+- Thermostatic expansion valve (TXV)
+- Evaporator (direct-expansion coils or flooded shell)
+- Refrigerant: ammonia (R-717), CO₂ (R-744), propane (R-290), or isobutane (R-600a)
+- Electric motor or engine drive, sized to compressor power + 10-20% margin
+
+**Process**:
 - **Compressor**: Raises refrigerant vapor from low pressure (evaporator) to high pressure (condenser). Four types, in order of complexity:
   - **Reciprocating (piston)**: 2-16 cylinders, 500-3000 RPM. Capacity 5-500 kW. Requires crankshaft, pistons, valves (reed or ring plate), connecting rods — directly builds on internal combustion engine machining skills. Volumetric efficiency ~65-85%.
   - **Rotary (scroll/screw)**: Scroll (two interleaving spiral scrolls, one orbiting) or screw (two meshing helical rotors). Capacity 10-2000 kW. Higher efficiency, fewer moving parts than reciprocating. Requires precision machining of scroll profiles (CNC or master template tracing).
@@ -42,15 +72,29 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 - **COP**: 2.5-5.0 (cooling output ÷ electrical input). Much higher than absorption, but requires reliable electricity.
 - **Compressor power**: For 100 kW cooling at COP 3.0, compressor draws ~33 kW electrical. Motor sizing: add 10-20% margin → 40 kW motor.
 
+**Verification**:
+1. Measure compressor suction and discharge pressures — confirm pressure ratio matches design
+2. Check superheat at evaporator outlet (5-10°C above saturation) — underfed evaporator causes low cooling; overfed causes liquid slugging
+3. Measure condenser subcooling (3-5°C) — indicates correct refrigerant charge
+4. Calculate COP: cooling output (kW) ÷ compressor input power (kW) — target 2.5-5.0
+
+**Strengths**:
+- COP of 2.5-5.0 is 4-10× higher than absorption — far less energy input per unit of cooling
+- Compact: a 100 kW system fits in a 2×1×1.5 m package, vs. 4-6 m² floor area for absorption
+
+**Weaknesses**:
+- Requires reliable electricity or engine drive — unusable during power outages without backup generation
+- Compressor has many moving parts (pistons, valves, bearings) requiring regular maintenance (oil changes, valve replacement every 10,000-20,000 hours)
+
 ### Refrigerant Properties
 
-| Refrigerant | Designation | Boiling point (1 atm) | ODP | GWP | Notes |
-|-------------|-------------|----------------------|-----|-----|-------|
-| Ammonia | R-717 | -33.3°C | 0 | 0 | Excellent thermodynamic properties, toxic, flammable at 15-28% in air |
-| CO₂ | R-744 | -78.5°C (sublimes) | 0 | 1 | Very high operating pressure (40-100 bar), requires robust components |
-| Propane | R-290 | -42.1°C | 0 | ~3 | Good properties, highly flammable, charge limit ~150 g for safety |
-| Isobutane | R-600a | -11.7°C | 0 | ~3 | Lower pressure, flammable, used in domestic refrigerators |
-| Water | R-718 | 100°C | 0 | 0 | Vacuum-pressure systems only, very high latent heat |
+| Refrigerant | Designation | Boiling point (1 atm) | ODP | GWP | Safety | Notes |
+|-------------|-------------|----------------------|-----|-----|--------|-------|
+| Ammonia | R-717 | -33.3°C | 0 | 0 | B2L (toxic) | Excellent thermodynamic properties, toxic, flammable at 15-28% in air |
+| CO₂ | R-744 | -78.5°C (sublimes) | 0 | 1 | A1 (safe) | Very high operating pressure (40-100 bar), requires robust components |
+| Propane | R-290 | -42.1°C | 0 | ~3 | A3 (flammable) | Good properties, highly flammable, charge limit ~150 g for safety |
+| Isobutane | R-600a | -11.7°C | 0 | ~3 | A3 (flammable) | Lower pressure, flammable, used in domestic refrigerators |
+| Water | R-718 | 100°C | 0 | 0 | A1 (safe) | Vacuum-pressure systems only, very high latent heat |
 
 - **Bootstrap recommendation**: Ammonia (R-717) is the first-choice refrigerant. It can be produced from coke oven ammonia liquor (byproduct of coke production — see [Fuel Production](fuels.md)), has excellent thermodynamic properties (high latent heat ~1370 kJ/kg), and zero environmental impact. CO₂ (R-744) is the second choice — available from combustion or fermentation, but the high operating pressures demand stronger vessel construction.
 
@@ -58,12 +102,34 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 
 **[Can ice system](../glossary/can-ice-system.md)** (the earliest industrial ice production method):
 
-- **Brine tank**: Large insulated tank (concrete or steel-lined wood) filled with calcium chloride (CaCl₂) brine, maintained at -10 to -15°C. Brine specific gravity: 1.20-1.26 (23-28% CaCl₂ by weight). Brine must not freeze at operating temperature — CaCl₂ eutectic is -55°C at 29.6%.
+**Materials**:
+- Brine tank: concrete or steel-lined wood, 3×6 m typical, insulated with 150-200 mm cork
+- Calcium chloride (CaCl₂): 23-28% by weight in water, specific gravity 1.20-1.26
+- Ice cans: galvanized sheet steel, 25-150 kg capacity each, rectangular
+- Agitator: propeller-type stirrer, 0.5-1 kW motor
+- Overhead hoist: 500-2000 kg capacity chain hoist
+- Warm water dip tank: 40-50°C water
+
+**Process**:
+- **Brine tank**: Large insulated tank filled with calcium chloride (CaCl₂) brine, maintained at -10 to -15°C. Brine specific gravity: 1.20-1.26 (23-28% CaCl₂ by weight). Brine must not freeze at operating temperature — CaCl₂ eutectic is -55°C at 29.6%.
 - **Ice cans**: Rectangular sheet-metal molds (typically 25-150 kg capacity), filled with clean water, immersed in brine tank. Brine circulates around cans by stirrer or pump.
 - **Cooling source**: Ammonia or other refrigerant coils immersed in brine tank, or shell-and-tube brine chiller. Brine cooled to -10 to -15°C.
 - **Freezing time**: 12-36 hours depending on can size. Ice freezes from outside in — center freezes last. Clear ice requires agitation of water during freezing (air bubbled through water to exclude trapped air bubbles and minerals).
-- **Harvesting**: Hoist cans from brine, dip briefly in warm water tank to release ice block from can walls. Dump ice block onto conveyor or slide.
+- **Harvesting**: Hoist cans from brine, dip briefly in warm water tank (40-50°C, 30-60 seconds) to release ice block from can walls. Dump ice block onto conveyor or slide.
 - **Daily capacity**: A 3 × 6 meter brine tank with 100-200 cans produces 5-20 tonnes of ice per day depending on refrigeration capacity and can size.
+
+**Verification**:
+1. Check brine temperature (-10 to -15°C) and specific gravity (1.20-1.26) before each production run
+2. Measure ice block temperature — should be -5 to -10°C throughout (no soft center)
+3. Verify ice clarity by visual inspection — trapped air bubbles indicate insufficient agitation
+
+**Strengths**:
+- Simple, low-technology equipment — galvanized steel cans, concrete tank, mechanical hoist
+- Produces transportable ice blocks that store cooling energy without ongoing electricity input
+
+**Weaknesses**:
+- Slow: 12-36 hours per batch limits throughput compared to continuous plate-ice systems
+- Brine is corrosive to steel — CaCl₂ requires sodium chromate or nitrite inhibitors (2000-3000 ppm) and annual tank inspection
 
 **[Plate ice and flake ice](../glossary/plate-ice-and-flake-ice.md)** (continuous production, later development):
 - Refrigerant flows inside vertical plates; water flows over outside surface. Ice forms as 5-15 mm layer, harvested by hot-gas defrost cycle. Higher throughput but more complex machinery.
@@ -72,17 +138,37 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 
 **[Insulation materials](../glossary/insulation-materials.md)** (in order of availability):
 
-| Material | Thermal conductivity (W/m·K) | Typical thickness | Notes |
-|----------|------------------------------|-------------------|-------|
-| Cork board | 0.035-0.045 | 150-300 mm | Traditional choice, rot-resistant, compressible |
-| Sawdust | 0.05-0.08 | 200-400 mm | Cheap, settles over time, fire hazard |
-| Straw bale | 0.05-0.07 | 300-500 mm | Very cheap, requires vapor barrier, pest risk |
-| Mineral wool | 0.03-0.04 | 100-200 mm | From slag or rock, fireproof, needs Chemistry stage |
-| Expanded polystyrene | 0.03-0.04 | 100-200 mm | Petrochemical product, much later |
+| Material | Thermal conductivity (W/m·K) | Typical thickness | Density (kg/m³) | Notes |
+|----------|------------------------------|-------------------|-----------------|-------|
+| Cork board | 0.035-0.045 | 150-300 mm | 100-200 | Traditional choice, rot-resistant, compressible |
+| Sawdust | 0.05-0.08 | 200-400 mm | 150-250 | Cheap, settles over time, fire hazard |
+| Straw bale | 0.05-0.07 | 300-500 mm | 80-120 | Very cheap, requires vapor barrier, pest risk |
+| Mineral wool | 0.03-0.04 | 100-200 mm | 30-100 | From slag or rock, fireproof, needs Chemistry stage |
+| Expanded polystyrene | 0.03-0.04 | 100-200 mm | 15-30 | Petrochemical product, much later |
 
 - **Vapor barrier**: Essential on the warm side of insulation. Asphalt-impregnated paper, galvanized steel sheet, or aluminum foil. Prevents moisture ingress that destroys insulation effectiveness and causes structural frost heave.
 - **Floor insulation**: 150-200 mm of insulation under concrete slab on grade. Heater cables or ventilation under slab to prevent ground freezing (frost heave destroys floors at -20°C rooms).
 - **Temperature zones**: +2 to +5°C (chill store, fruit/vegetables), -18 to -25°C (frozen store), -30 to -40°C (hard frozen / blast freezer). Each zone requires its own insulated room and evaporator.
+
+### Cold Storage Room Construction
+
+**Wall assembly (cold store at -18°C)**: A typical wall section from inside to outside consists of the inner cladding (galvanized steel or aluminum sheet, 0.5-1.0 mm), insulation layer, vapor barrier, structural wall, and outer cladding. The insulation is the critical element.
+
+**Cork insulation**: The traditional choice for cold storage from the 1890s through the 1950s. Cork board panels 100-150 mm thick provide R-value of roughly 3-4 per inch (thermal conductivity 0.035-0.045 W/m·K). Cork is naturally rot-resistant, dimensionally stable, and does not absorb moisture readily. Panels are bonded with hot asphalt or bituminous adhesive. For -18°C storage, total wall insulation thickness of 150-200 mm of cork is standard.
+
+**Strengths**:
+- Naturally rot-resistant and dimensionally stable — does not absorb moisture, maintaining insulation value over decades
+- Fire-resistant (chars but does not flame) — safer than EPS or sawdust in cold storage environments
+
+**Weaknesses**:
+- Limited supply — cork oak trees take 25 years to first harvest and 9 years between subsequent harvests
+- 150-200 mm thickness requires significant wall depth, reducing usable floor space
+
+**Expanded polystyrene (EPS)**: Modern replacement for cork, with similar thermal conductivity (0.030-0.040 W/m·K). EPS panels 150-200 mm thick are standard for frozen storage. Available as plain board or as factory-laminated sandwich panels (steel facings with EPS core) that serve as both insulation and structural wall. EPS must be kept away from heat sources above 75°C.
+
+**Vapor barrier placement**: The vapor barrier always goes on the warm side of the insulation. In a cold store, that means the exterior side. Without it, warm humid air migrates through the wall, condenses inside the cold insulation, freezes, and gradually destroys the insulation value. Materials: 0.1 mm polyethylene film (modern), asphalt-impregnated building paper, or continuous galvanized steel sheet with sealed joints. Lap all seams at least 100 mm and seal with compatible mastic.
+
+**Insulated doors**: Cold store doors are a major source of heat gain. Standard construction: 100 mm thick insulated panel (same material as walls), clad in steel or aluminum on both faces. Magnetic or compression gaskets around the perimeter maintain an air-tight seal when closed. Sliding doors preferred (no swing clearance needed). Door heaters (low-wattage electric resistance wires in the frame) prevent ice buildup on the gasket at temperatures below -10°C.
 
 ### Industrial Process Cooling
 

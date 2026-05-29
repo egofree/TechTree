@@ -39,11 +39,31 @@ Water treatment for health and sanitation focuses on making water safe for human
 
 **Lime softening**: Add Ca(OH)₂ at 50-200 mg/L to remove calcium and magnesium hardness. Ca²⁺ precipitates as CaCO₃; Mg²⁺ precipitates as Mg(OH)₂ at pH >10.5. Raises pH to 10.5-11.0 (must recarbonate with CO₂ to lower pH to 8-9 before distribution). Side benefit: kills bacteria (pH >11 is bactericidal — 99.9% kill in 2-6 hours).
 
+**Strengths**:
+- Alum coagulation removes 90-95% of turbidity and 50-90% of bacteria in a single treatment step
+- Jar test allows dose optimization for varying raw water quality — no fixed dose is universally correct
+- Lime softening simultaneously softens water and kills bacteria at pH >11
+
+**Weaknesses**:
+- Alum dose must be determined by jar testing for each water source and adjusted seasonally — incorrect dose produces poor floc or restabilized colloids
+- Coagulation produces sludge (aluminum hydroxide or ferric hydroxide) that requires disposal — 0.3-1.0% of treated water volume as sludge
+- Cold water (<5°C) slows floc formation — dose must increase 50-100% in winter, and settling time must double
+
 ## Sand Filtration
 
 **Slow sand filtration**: Filter bed: 0.6-1.2 m depth of fine sand (effective size 0.15-0.35 mm, uniformity coefficient 1.5-2.5) over 0.3-0.5 m gravel support layer. Filtration rate: 0.1-0.2 m/hour (very slow). A biological layer (schmutzdecke) forms on the sand surface within 1-2 weeks, providing biological treatment — bacteria, protozoa, and other microorganisms consume pathogens and organic matter. Pathogen removal: 95-99.5% bacteria, 99% Giardia, >90% viruses. Turbidity reduction: to <1 NTU. No chemical inputs required. Run time: 20-60 days before cleaning (scrape top 1-2 cm of sand, replace when bed depth drops below 0.5 m). Area requirement: 0.5-1.0 m² per person served (50-200 L/day/person).
 
 **Rapid sand filtration**: Coarser sand (effective size 0.4-0.8 mm) at higher filtration rate (5-10 m/hour). Must be preceded by coagulation — the sand captures pre-formed floc, not raw particles. Run time: 12-48 hours between backwashing. Backwash: reverse flow at 30-50 m/hour for 5-10 minutes expands the bed by 20-30% and flushes accumulated solids. Water waste: 2-5% of production. Pathogen removal: 90-99% when preceded by proper coagulation. Turbidity: <0.5 NTU effluent. Footprint: 10-20× smaller than slow sand for same throughput.
+
+**Strengths**:
+- Slow sand filtration removes 95-99.5% of bacteria without any chemical inputs — the biological layer is the treatment mechanism
+- Rapid sand filtration is 10-20× more compact than slow sand for the same throughput — fits in constrained spaces
+- Both methods use readily available sand and gravel — no imported consumables
+
+**Weaknesses**:
+- Slow sand requires 0.5-1.0 m² per person served — impractical for large communities without abundant land
+- Rapid sand requires coagulation pretreatment — without proper alum dosing and flocculation, rapid filters clog rapidly and produce poor quality effluent
+- Both methods require periodic maintenance (sand scraping for slow sand, backwashing for rapid sand) — neglected filters fail silently
 
 ## Disinfection
 
@@ -58,6 +78,16 @@ Dose calculation: For a 10,000 L storage tank requiring 1.0 mg/L chlorine dose: 
 **UV disinfection**: Pass water through a chamber containing a low-pressure mercury vapor UV lamp (254 nm wavelength). UV damages microbial DNA, preventing reproduction. Dose: 30-40 mJ/cm² for 99.9% bacteria kill, 40-60 mJ/cm² for 99% virus kill, 80-100 mJ/cm² for 99.9% Cryptosporidium/Giardia inactivation. Water must be pre-filtered to <10 NTU turbidity (suspended particles shield microorganisms from UV). Lamp output: 15-80 W. Flow rate: proportional to lamp power and required dose. Lamp life: 8,000-12,000 hours (output degrades ~20% over life). Advantage: no chemical residual, no taste/odor, effective against chlorine-resistant organisms. Disadvantage: no residual protection in distribution system (post-treatment contamination possible), requires electricity.
 
 **Solar disinfection (SODIS)**: Fill clear PET plastic bottles (1-2 L) with clear water. Expose to full sunlight for 6 hours (or 2 days if cloudy). UV-A radiation (320-400 nm) and thermal heating (water reaches 45-55°C) inactivate pathogens. Effectiveness: >99.9% bacteria, >99% viruses. Does not work with turbid water (>30 NTU) or bottles larger than 2 L (insufficient UV penetration). Simple, free, no chemicals or energy required — suitable as an emergency measure. Limitations: slow, weather-dependent, small batch sizes.
+
+**Strengths**:
+- Boiling kills all pathogens including Cryptosporidium and Giardia — the most reliable single-method disinfection
+- Chlorination provides residual protection in distribution pipes — treated water remains safe for hours to days after treatment
+- SODIS requires zero consumables and zero energy — effective as a backup when all other methods fail
+
+**Weaknesses**:
+- Boiling consumes ~0.3 kg wood per liter — unsustainable at community scale without managed forestry
+- Chlorine does not kill Cryptosporidium at normal doses, and high turbidity shields bacteria from chlorine contact
+- SODIS produces only 1-2 L per bottle per 6-hour cycle — insufficient for household-scale drinking water needs without dozens of bottles
 
 ## Water Quality Standards
 

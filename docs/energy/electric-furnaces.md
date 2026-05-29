@@ -15,6 +15,18 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 
 ### Electric Arc Furnace (EAF)
 
+**Strengths**:
+- Achieves 3,000-3,500°C in the arc column — the highest temperatures achievable in any industrial furnace
+- Melts 100% scrap steel — enables steel recycling without virgin iron ore
+- Quick heat cycles (30-60 minutes per batch) allow flexible scheduling
+- No combustion gases — cleaner operation than coal-fired furnaces
+
+**Weaknesses**:
+- Enormous electrical demand (20-50 MW for a typical EAF) — requires grid-scale power
+- Graphite electrodes are consumed at 2-8 kg per tonne of steel — ongoing consumable cost
+- Bootstrapping challenge: graphitization of electrodes requires 2,500-3,000°C, typically produced by an existing EAF
+- Arc instability and electromagnetic stirring require automatic impedance control systems
+
 **Principle**: An electric arc struck between graphite electrodes and the charge material produces temperatures of **[3000–3500°C](../glossary/30003500c.md)** in the arc column, heating the charge by radiation, convection, and direct resistance.
 
 **Construction**:
@@ -45,6 +57,16 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 
 ### Submerged Arc Furnace (SAF)
 
+**Strengths**:
+- Continuous operation — runs 24/7 for months between maintenance, unlike batch EAF
+- Energy efficient for reduction processes — heat generated directly within the charge material
+- Handles raw materials (ore, carbon, flux) without pre-processing
+
+**Weaknesses**:
+- Continuous power demand — power interruptions cause charge solidification, ruining the furnace
+- Electrode consumption 30-60 kg per tonne of silicon — major operating cost
+- Limited to reduction smelting — not suitable for steel recycling or heat treatment
+
 **Principle**: Similar to EAF, but electrodes are **submerged in the raw material charge**. Heat is generated primarily by the electrical resistance of the charge itself (not just the arc), making it more energy-efficient for continuous reduction processes.
 
 **Applications**:
@@ -64,6 +86,18 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 ---
 
 ### Resistance Heating Furnaces
+
+**Strengths**:
+- No electrode consumption — heating elements last thousands of hours
+- Precise temperature control (±5°C) by regulating current — better than arc furnaces
+- Lower power demand than EAF — suitable for smaller installations
+- Clean operation — no combustion gases or electrode off-gassing
+
+**Weaknesses**:
+- Maximum temperature limited by element material (1,400°C for nichrome, 1,800°C for silicon carbide)
+- Not suitable for smelting — primarily for heat treatment, melting, and sintering
+- Heating elements are consumable — they oxidize and fail over time, requiring replacement
+- Lower power density than arc furnaces — slower heating for the same furnace volume
 
 **Principle**: Current passed through a resistive heating element generates heat: P = I²R. No arc, no electrodes consumed. Element temperature is controlled by regulating current.
 

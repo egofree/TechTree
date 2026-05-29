@@ -31,6 +31,18 @@ The transition from industrial-grade (95-99.5%, or 2-3N purity) to electronic-gr
 
 The foundational technique for electronic-grade chemical production. Unlike conventional distillation (which boils the liquid, aerosolizing impurities that contaminate the distillate), sub-boiling distillation operates below the boiling point using infrared radiation or heated surfaces.
 
+**Strengths**:
+- Removes 99.99%+ of metallic impurities — single pass produces 6-7N purity from 3N feedstock
+- No aerosol formation prevents non-volatile impurity carryover
+- Applicable to wide range of acids: HF, HNO₃, HCl, H₂SO₄, CH₃COOH
+
+**Weaknesses**:
+- Low throughput: 50-500 mL/hr per unit — production scale requires massive parallel arrays
+- Requires PTFE or quartz equipment (borosilicate glass leaches Na, K, Ca)
+- Temperature control critical for H₂O₂ (decomposes above 70°C)
+
+### Isothermal Distillation
+
 **Principle**: A heated surface (quartz or PTFE) creates a thin film of evaporating liquid at 5-15°C below the normal boiling point. Vapor condenses on a cooled surface without entraining non-volatile impurities (metals, particulates). The gentle evaporation prevents aerosol formation and bumping.
 
 **Equipment**:
@@ -48,6 +60,16 @@ The foundational technique for electronic-grade chemical production. Unlike conv
 ### Isothermal Distillation
 
 For acids that cannot be sub-boiled (e.g., HF is too hazardous at elevated temperatures, HCl forms an azeotrope), isothermal (or "isopiestic") distillation purifies without heating.
+
+**Strengths**:
+- No heating above ambient — prevents thermal decomposition of sensitive chemicals
+- Produces 7-8N purity acids, particularly effective for HCl and HF
+- Simple equipment: sealed PTFE vessel with two compartments
+
+**Weaknesses**:
+- Slower than sub-boiling distillation — equilibration takes hours to days
+- Limited to volatile acids (HCl, HF) — not applicable to non-volatile chemicals
+- Lower throughput per unit volume of equipment
 
 **Principle**: Place the impure acid and high-purity water in separate containers within a sealed vessel at constant temperature. The volatile component (e.g., HCl gas, HF vapor) equilibrates between the two containers via the vapor phase. The water absorbs the purified volatile component. Non-volatile impurities (metals) remain in the source container.
 

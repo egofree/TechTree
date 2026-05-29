@@ -71,6 +71,18 @@ Trade is an organizational capability. Physical inputs are minimal:
 
 5. **Introduce informal credit**: When double-coincidence fails (A wants B's pots but B doesn't need A's grain right now), record the debt. "Owed: 5 pots to household of A, to be delivered at next market day." This requires trust and written records.
 
+**Decision criteria**: Start with direct barter when trading 2-5 goods among <10 parties. Introduce grain-reference pricing when goods exceed 10 types — all goods valued in grain equivalents reduces the N×(N-1)/2 pairwise valuation problem to N valuations. Introduce credit only when parties have established trust through repeated successful trades.
+
+**Strengths**:
+- Regular market days create predictable trading opportunities — specialists can plan production around market cycles
+- Grain-reference pricing solves the valuation problem without currency — common denominator everyone understands
+- Credit enables trade even when double-coincidence fails — extends trade volume beyond immediate exchanges
+
+**Weaknesses**:
+- Direct barter requires double-coincidence — many potential trades fail because parties don't simultaneously want each other's goods
+- Grain-reference pricing depends on stable grain supply — crop failure destabilizes the entire price system
+- Credit requires trust and enforcement — defaults destroy the credit system if not addressed
+
 ### 4.2 Scaling to Multi-Party Trade
 
 6. **Identify trade intermediaries**: Some individuals naturally facilitate exchange — they know who has what and who needs what. Encourage these individuals to act as brokers. Brokers take a small commission (5-10% of trade value) in goods.
@@ -79,11 +91,41 @@ Trade is an organizational capability. Physical inputs are minimal:
 
 8. **Create periodic fairs**: Large-scale markets held seasonally (harvest fairs, solstice markets) that draw traders from 50-200 km radius. These fairs enable exchange of goods not available locally and establish inter-regional price convergence.
 
+**Strengths**:
+- Brokers reduce search costs — they know who has what and who needs what, matching buyers and sellers faster
+- Trade routes create infrastructure benefitting all users — roads, way-stations, and river landings serve civilian and military traffic
+- Seasonal fairs enable exchange of goods not locally available — inter-regional trade accesses resources beyond local reach
+
+**Weaknesses**:
+- Brokers charge commission (5-10%) — adds cost to every traded good
+- Trade routes are vulnerable to banditry and conflict — armed escort increases transport cost
+- Fairs are seasonal — goods needed between fairs must be stockpiled, increasing storage costs
+
 ### 4.3 Trade Record-Keeping
 
 9. **Standardize measures**: Use agreed-upon volume and weight units for trade. A "bushel" of grain, a "talent" of copper, a "cubit" of cloth. These standards reduce disputes. Link to [precision metrology](../measurement/precision-metrology.md) for standardized weights.
 
 10. **Record all transactions**: Date, parties, goods exchanged, quantities, and any outstanding debts. Written records protect against memory disputes and enable credit-based trade.
+
+**Strengths**:
+- Standardized measures reduce disputes — agreed-upon units prevent arguments over quantity
+- Written transaction records enable credit — debts can be tracked and enforced across market days
+- Price documentation reveals trends — merchants can adjust production based on price signals
+
+**Weaknesses**:
+- Measure standardization requires [metrology](../measurement/precision-metrology.md) infrastructure — weights must be calibrated and maintained
+- Record-keeping requires literacy — limits this approach to communities with scribes or widespread basic literacy
+- Records are only as honest as the record-keeper — fraudulent entries undermine trust in the system
+
+### Trade System Trade-offs
+
+| System | Range | Goods Traded | Currency Required | Trust Required | Best For |
+|--------|-------|-------------|-------------------|----------------|----------|
+| Direct barter | 0-5 km | 2-5 types | No | Low (face-to-face) | Initial village exchange |
+| Commodity-reference | 5-30 km | 5-20 types | No (grain reference) | Moderate | Inter-village trade |
+| Broker-mediated | 30-200 km | 20-100 types | No | High (broker trust) | Regional trade with intermediaries |
+| Currency-based | Unlimited | Unlimited | Yes | Moderate (coin trust) | Complex economies — see [currency](./currency.md) |
+| Fair-based | 50-200 km draw | 100+ types | Optional | High (fair reputation) | Seasonal large-scale exchange |
 
 ---
 

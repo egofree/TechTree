@@ -74,6 +74,14 @@ Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas 
 
 **Location**: At every chemical storage area, chemical dispensing station, and gas cylinder storage area.
 
+**Strengths**:
+- Pre-assembled kits eliminate decision-making during emergencies — correct absorbent and PPE are already selected and co-located
+- Chemical-specific kits prevent incompatible cleanup reactions (e.g., using NaHCO₃ on HF)
+
+**Weaknesses**:
+- Contents expire (calcium gluconate gel, neutralizing agents) — monthly inspection required
+- Must be restocked immediately after any use; incomplete kits create false confidence
+
 **Contents by chemical type**:
 
 **Acid spill kit**:

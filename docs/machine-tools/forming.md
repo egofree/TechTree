@@ -39,11 +39,52 @@ Below these ranges, metal work-hardens rapidly and may crack. Above them, the me
 - **Bending**: Heat bend zone, hammer over anvil horn. Minimum radius ~2× stock thickness.
 - **Punching and drifting**: Drive punch through hot metal, enlarge with drift. Punch from both sides to meet in middle for cleaner holes.
 
+**Strengths**:
+- Requires only a forge, anvil, and hammer — no specialized tooling
+- Produces parts with favorable grain flow oriented along the part contour, improving fatigue strength by 20-30% over machined parts
+- Drawing out can reduce cross-section by 50-70% in a single heat
+
+**Weaknesses**:
+- Dimensional accuracy is limited — ±1-3 mm for hand-forged parts, requiring subsequent machining for precision surfaces
+- Slow production rate — a skilled smith produces 2-5 kg of finished forgings per hour
+- Heavy physical labor limits productive working hours to 4-6 hours per day
+
 **[Closed-die forging](../glossary/closed-die-forging.md)** (impression forging): Metal compressed between shaped dies containing the negative of the desired part. Flash (excess) squeezes out at parting line and is trimmed. Requires dies machined to tolerance (see [Iterative Bootstrap](./iterative-bootstrap.md)). Advantages: repeatable parts, good grain flow, near-net shape. Used for connecting rods, gear blanks, wrenches.
 
-### Hammer Forming
+**Strengths**:
+- Produces repeatable, near-net-shape parts with ±0.5 mm dimensional tolerance
+- Grain flow follows the die contour, producing parts with superior fatigue resistance
+- Flash is trimmed, leaving a clean parting line — minimal post-forging machining required
+
+**Weaknesses**:
+- Dies are expensive to machine — justified only at production volumes >500 parts
+- Die wear limits die life to 5,000-50,000 parts depending on material and complexity
+- Requires a press or power hammer with sufficient tonnage (5-500 tons depending on part size)
+
+## Hammer Forming
 
 **[Sledge hammer](../glossary/sledge-hammer.md)** (4–8 kg, two-handed): The fundamental heavy forging tool. One person holds work with tongs; a striker delivers sledge blows. Effective for drawing out bars 25–75 mm square, upsetting ends, driving punches. Blow force: ~10–25 kN.
+
+**Construction steps for a sledge hammer**:
+1. Forge a rectangular steel head (100 mm × 50 mm × 50 mm, ~6 kg) from medium-carbon steel (0.4-0.5% C). Punch and drift the eye hole (32 mm × 20 mm oval) through the center.
+2. Harden the striking faces: heat to 800-820°C, quench in oil, temper at 350-400°C to 40-45 HRC. Leave the center body unhardened (softer core absorbs shock, preventing catastrophic fracture).
+3. Fit an ash or hickory handle (900 mm long, 35 mm diameter at the eye, tapering to 25 mm at the grip end). Wedge the handle in the eye with a steel wedge driven diagonally.
+
+**Calibration**: Check head tightness before each use — the handle must not shift in the eye. Strike a soft wood block: the face should leave a clean, flat impression with no edge chipping. If the face mushrooms (deforms outward >2 mm), re-dress on a grinder.
+
+**Expected performance**: Blow force: 10-25 kN depending on swing arc. Striking velocity: 4-7 m/s. Production rate: 2-5 kg of shaped forging per hour (two-person team). Handle life: 50-200 working hours before replacement.
+
+**Materials specifications**: Medium-carbon steel (0.4-0.5% C) for head, ash or hickory wood for handle (35 mm diameter, 900 mm length), steel wedge (3 mm × 25 mm × 50 mm).
+
+**Strengths**:
+- No mechanization required — effective with a two-person team (smith + striker)
+- Variable blow force controlled by swing arc and hammer weight
+- Simple to manufacture and maintain in any forge shop
+
+**Weaknesses**:
+- Physically demanding — limits productive hours to 4-6/day per striker
+- Blow placement accuracy depends on striker skill — ±10 mm for a trained striker
+- Maximum blow force (~25 kN) limits the cross-section that can be forged in a single heat
 
 **[Power hammer](../glossary/power-hammer.md)** (mechanized forging):
 - **Helve hammer**: Beam pivoted at one end, hammer head at the other. Raised by cam on water-wheel shaft, falls by gravity. Stroke 30–60 cm, 50–150 kg blow equivalent. The first mechanized forging tool.
@@ -51,15 +92,34 @@ Below these ranges, metal work-hardens rapidly and may crack. Above them, the me
 - **[Spring helve hammer](../glossary/spring-helve-hammer.md)** (intermediate build): Heavy timber frame, 15–40 kg head on leaf spring. Crank-driven, 150–300 blows/minute. Constructable with basic machine tools.
 - **[Steam or air hammer](../glossary/steam-or-air-hammer.md)** (later): 500–5000 kg capacity. Requires [Steam Power](../energy/steam-power.md).
 
-### Rolling Mill
+## Rolling Mill
 
 Rolling reduces cross-section of heated metal by passing it between counter-rotating rolls. Each pass reduces thickness 10–30% and elongates proportionally.
 
 **[Hand-operated rolling mill](../glossary/hand-operated-rolling-mill.md)** (the bootstrap starting point):
-- Two hardened steel or cast iron rolls, 75–150 mm diameter, 150–300 mm face length. Mounted in a cast iron or fabricated steel frame with adjustable gap (screw-down mechanism).
-- Drive: hand crank or foot treadle through gear reduction (3:1 to 6:1). Two operators — one cranks, one feeds stock.
-- Capacity: hot rolling of copper, bronze, and soft iron bar up to ~10 mm thick. Cold rolling of copper and brass sheet to ~1 mm.
-- Roll pressure: 50–150 kN for hot steel at 15–20% reduction.
+
+**Construction steps**:
+1. Cast two rolls from chilled cast iron or forged steel, 100 mm diameter × 200 mm face length. Grind the roll faces concentric to the journals within ±0.02 mm runout. Turn journals to 30 mm diameter for bearing fit.
+2. Fabricate the frame from cast iron or heavy welded steel plate (20 mm minimum thickness). Bore the bearing housings to 30.00 mm ±0.02 mm to accept the roll journals. The frame must be rigid — deflection under load causes uneven strip thickness.
+3. Install a screw-down mechanism (M20 threaded rod, fine pitch 1.5 mm) on each side of the top roll housing. This adjusts the roll gap. Include a calibrated dial (1.5 mm per revolution, marked in 0.1 mm increments) on each screw-down.
+4. Cut gear teeth on the roll journal extensions: 20-tooth spur gears, 2.5 module, matching the roll spacing. The gears synchronize the two rolls.
+5. Mount a hand crank (300 mm radius) on one roll, with a 3:1 chain or gear reduction for added torque.
+
+**Calibration**: Set the roll gap to zero (rolls just touching). Back off each screw-down by equal amounts. Pass a 1 mm thick feeler gauge through the gap at three positions (center and both ends) — the gap must be uniform within ±0.05 mm across the face width. Check with a test strip: roll a 5 mm thick copper bar through a 3 mm gap setting. Measure the rolled thickness at three points — variation must be <0.1 mm.
+
+**Expected performance**: Roll pressure: 50-150 kN for hot steel at 15-20% reduction. Capacity: hot rolling copper, bronze, and soft iron bar up to ~10 mm thick. Cold rolling of copper and brass sheet to ~1 mm. Throughput: 2-5 kg/hour for hand operation. Minimum strip thickness: 0.5 mm (copper) with careful gap setting.
+
+**Materials specifications**: Cast iron or forged steel rolls (100 mm diameter × 200 mm face, hardened to 50-55 HRC surface), cast iron or welded steel frame (20 mm plate minimum), M20 fine-pitch threaded rod for screw-down, 20-tooth spur gears (2.5 module), hand crank (300 mm radius handle).
+
+**Strengths**:
+- Produces uniform strip and bar with consistent cross-section — impossible to achieve by hammer forging
+- Cold rolling work-hardens the metal, increasing yield strength by 50-100% for non-ferrous alloys
+- Simple mechanical design — no external power required for hand-operated version
+
+**Weaknesses**:
+- Hand-powered capacity is limited to bar <10 mm thick (hot) or sheet <1 mm thick (cold, copper)
+- Roll gap must be adjusted precisely — uneven gap produces tapered strip
+- Two operators required (one cranks, one feeds stock) for continuous operation
 
 **[Powered rolling mill](../glossary/powered-rolling-mill.md)** (water wheel or engine):
 - Rolls 200–400 mm diameter, 400–800 mm face. Drive via gears or belt from water wheel (3–10 HP minimum).
@@ -100,7 +160,17 @@ Wire drawing pulls metal rod through progressively smaller dies, reducing diamet
 
 **[Fine wire](../glossary/fine-wire.md)** (< 1 mm): Use draw bench with capstan (rotating drum). Speed 30–100 m/min for copper. Dies are tungsten carbide inserts. Copper wire down to 0.1 mm achievable — the wire for [electromagnetic coils](../energy/electricity.md).
 
-### Sheet Metal Forming
+**Strengths**:
+- Produces wire with precise, consistent diameter (±0.05 mm per die)
+- Cold drawing work-hardens the wire, increasing tensile strength by 50-100%
+- Equipment is simple — a hardened steel plate and pulling force suffice
+
+**Weaknesses**:
+- Requires annealing every 3-5 passes to prevent work-hardening embrittlement — adds time and fuel cost
+- Die wear causes diameter drift — dies must be monitored and replaced periodically
+- Maximum single-pass reduction is limited to 25% — many passes needed for large diameter changes
+
+## Sheet Metal Forming
 
 **Bending**: Clamp sheet in vise or bending brake (hinged leaf brake — constructable from flat bar and angle iron). Minimum bend radius = 1× sheet thickness for soft metals, 2–3× for harder alloys.
 
@@ -110,7 +180,17 @@ Wire drawing pulls metal rod through progressively smaller dies, reducing diamet
 
 **Spinning**: Clamp sheet against a form on a lathe. Apply pressure with a rounded tool while the mandrel rotates. Used for bowls, cups, reflectors. Requires a lathe (see [Iterative Bootstrap](./iterative-bootstrap.md)).
 
-### Annealing Between Operations
+**Strengths**:
+- Sheet forming requires no heavy equipment — hand tools and simple fixtures suffice for most operations
+- Produces complex shapes (domes, cones, cylinders) without material waste
+- Seaming creates airtight joints without soldering or welding
+
+**Weaknesses**:
+- Minimum bend radius limits geometry — sharp corners cause cracking in harder alloys
+- Hand-raising is slow — a 300 mm diameter copper bowl requires 4-8 hours of skilled hammer work
+- Springback of 2-5° in mild steel requires over-bending to hit the target angle
+
+## Annealing Between Operations
 
 Cold working accumulates strain, increasing hardness and reducing ductility. Annealing restores ductility by allowing recrystallization. **Rule of thumb**: anneal when cross-section has been reduced 40–50% from last anneal, or every 3–5 wire drawing passes.
 
@@ -140,13 +220,33 @@ Cold working accumulates strain, increasing hardness and reducing ductility. Ann
 
 **Press brake tooling**: The upper punch (V-blade) and lower V-die determine the bend geometry. Acute-angle punches (30° or 60° tip) allow bends tighter than 90°. Gooseneck punches clear previously-formed flanges on complex parts. Die shoulders should be polished to prevent marking the workpiece surface. Standard V-die widths range from 6 mm (for thin sheet) to 100 mm (for thick plate). A complete tooling set for a general shop includes punches and dies covering V = 6×, 8×, 10×, and 12× the maximum sheet thickness processed.
 
-### Roll Forming
+**Strengths**:
+- Precise, repeatable bends with ±0.5° angular accuracy on calibrated press brakes
+- V-die bending formula enables accurate force prediction — avoids under-tonning or machine overload
+- Single-stroke operation produces bends in seconds once the setup is complete
+
+**Weaknesses**:
+- Springback requires empirical compensation — 2-5° in mild steel, 5-10° in aluminum, varying with material batch
+- Large tonnage requirements for thick plate (>5 mm) or long bends (>2 m) demand heavy press capacity
+- Tooling investment is significant — a full set of punches and dies costs 20-50% of the press brake price
+
+## Roll Forming
 
 **[Progressive roll forming](../glossary/progressive-roll-forming.md)** produces long, continuous profiles from flat strip stock. The strip passes through 3-20 paired roller stations arranged in line, each station making a small incremental bend of 10-20°. Line speed: 1-2 m/min for heavy gauge material, up to 30 m/min for light gauge. The process suits high-volume production of uniform cross-sections: C-channels, hat sections, corrugated roofing panel profiles. Tooling cost is high (each station requires a matched pair of profiled rolls machined to match the incremental bend angle), but per-part cost drops rapidly once the line is set up and running.
 
 **Roll design considerations**: Each station pair consists of a top roll and bottom roll with matching profile contours. The strip enters flat at station 1 and exits fully formed at the last station. Roll material is hardened tool steel (D2 or equivalent) for wear resistance on long production runs. Roller alignment is critical: lateral misalignment exceeding 0.1 mm per station accumulates through the line and produces a twisted profile at exit. Straightening rolls at the end of the line correct minor angular and curvature deviations in the finished section.
 
-### Stamping Press Types
+**Strengths**:
+- Continuous process — produces profiles at 1-30 m/min with consistent cross-section
+- No material waste — the entire strip width becomes the finished profile
+- Long production runs (>10,000 m) amortize tooling cost to near zero per meter
+
+**Weaknesses**:
+- High tooling cost — each station requires a matched pair of profiled rolls, machined to ±0.05 mm
+- Profile changes require a complete roll changeover (4-8 hours for a 10-station line)
+- Not suitable for short runs — minimum economical run length is typically 500-1,000 m
+
+## Stamping Press Types
 
 **[Mechanical press](../glossary/mechanical-press.md)** (crank or eccentric drive): A flywheel stores rotational energy, and a crank mechanism converts it to a linear ram stroke. Tonnage range: 10-2,000 tons. Stroke rate: 30-600 strokes per minute for progressive die work. The crank press delivers peak force at bottom dead center; the eccentric gear press provides a more uniform force curve through the stroke. Mechanical presses suit blanking, piercing, bending, and shallow drawing where cycle speed is more important than full-stroke force control.
 
@@ -157,7 +257,17 @@ Cold working accumulates strain, increasing hardness and reducing ductility. Ann
 - **[D2 tool steel](../glossary/d2-tool-steel.md)** (high-carbon, high-chromium: 1.5% C, 12% Cr): Hard chromium carbides provide excellent abrasive wear resistance. Hardened to 58-62 HRC after austenitizing at 1010-980°C and air quenching. Die life 100,000+ parts. The standard choice for most production stamping dies. Machining is difficult in the hardened state; all shaping is done before heat treatment, with only grinding and lapping after hardening.
 - **Tungsten carbide inserts**: Used for high-wear die components (punch tips, die bushings). Hardness 85-92 HRA, far exceeding any steel. Die life 1,000,000+ parts. Carbide is brittle and requires steel backup plates to absorb shock. The high material cost and grinding-intensive fabrication justify carbide tooling only at production volumes above 500,000 parts.
 
-### Deep Drawing
+**Strengths**:
+- Mechanical presses: high stroke rate (30-600 SPM) enables mass production of stamped parts
+- Hydraulic presses: full tonnage at any stroke position — superior for deep drawing operations
+- Die materials scale with production volume — A2 for 50K parts, D2 for 100K+, carbide for 1M+
+
+**Weaknesses**:
+- Mechanical press tonnage peaks only at bottom dead center — unsuitable for deep draws requiring sustained force
+- Hydraulic press cycle times are 2-5× slower than mechanical presses for the same tonnage
+- Die cost dominates for small batches — tooling represents 30-60% of total part cost for runs under 10,000 parts
+
+## Deep Drawing
 
 **Draw ratio**: The ratio of blank diameter to cup diameter must not exceed 2:1 in a single drawing stage. Attempting greater reduction in one pass causes tensile tearing at the punch nose radius. For cups deeper than a 2:1 ratio, use multiple redraw stages, each reducing diameter 20-35%, with annealing between stages to restore ductility lost from work hardening.
 
@@ -167,35 +277,61 @@ Cold working accumulates strain, increasing hardness and reducing ductility. Ann
 
 **Punch and die clearance**: The gap between punch and die is set to 1.1-1.3× sheet thickness for mild steel drawing. Tighter clearance increases friction and tearing risk; wider clearance produces a thicker, less controlled cup wall with a pronounced die radius mark. The die entry radius (the rounded edge at the top of the die opening) is set to 4-10× sheet thickness: too small and the material tears at the radius, too large and the blank holder cannot control the flange.
 
-**Redrawing for deeper cups**: A first draw at 2:1 ratio produces a shallow cup. A second draw reduces diameter another 20-35%. A three-stage redraw sequence achieves overall reduction ratios of 5:1 to 8:1. Anneal between draws when the accumulated work hardening raises yield strength beyond the draw tooling capacity. Reverse redrawing (flipping the cup inside-out in the second stage) produces smoother walls than same-direction redrawing because the bend direction reverses at the die lip.
+**Strengths**:
+- Produces seamless cup-shaped parts from flat sheet — no welds or joints
+- High material utilization — only the trimmed flange becomes scrap (10-25% of blank)
+- Wall thickness is controllable through ironing passes
 
-**Ironing**: After initial drawing, the cup wall thickness can be reduced and uniformized by forcing the cup through a die slightly smaller than the cup outer diameter, with a tightly-fitted punch inside. Each ironing pass reduces wall thickness 15-30%. Beverage cans undergo 2-3 ironing passes to thin the walls to 0.1 mm from an initial draw thickness of 0.3 mm. Ironing requires good lubrication (chlorinated oil or phosphate coating) to prevent galling between the die and the cup wall.
+**Weaknesses**:
+- Limited to 2:1 draw ratio per stage — deep cups require multiple redraw stages with annealing between each
+- Blank holder force is critical — too little causes wrinkles, too much causes tears; found empirically
+- Tooling cost is high — punch, die, and blank holder are all precision-machined components
 
-### Metal Spinning
+## Metal Spinning
 
 **Process**: A flat sheet metal disc is clamped against a shaped mandrel mounted on a lathe spindle. The mandrel rotates at 300-1,000 RPM. A rounded roller tool (hardened steel, mounted on a lever arm or hydraulically controlled) presses the spinning disc against the mandrel, progressively forming it to the mandrel profile through a series of sweeping passes from center to rim. The operator applies the roller in smooth, overlapping sweeps, starting near the center and working outward. Each pass moves more material into conformity with the mandrel.
 
-**Suitable parts**: Axisymmetric shapes, meaning parts symmetric around a central axis: cones, cylinders, domes, hemispheres, parabolic reflectors, bell shapes, and nozzle contours. Spinning is economical for low-to-medium production volumes (10-1,000 pieces) where the tooling cost of matched stamping dies cannot be justified. The only tooling is the mandrel itself, which can be turned from hardwood for prototyping or machined from steel for production runs.
+**Suitable parts**: Axisymmetric shapes: cones, cylinders, domes, hemispheres, parabolic reflectors, bell shapes, and nozzle contours. Spinning is economical for low-to-medium production volumes (10-1,000 pieces) where the tooling cost of matched stamping dies cannot be justified. The only tooling is the mandrel itself, which can be turned from hardwood for prototyping or machined from steel for production runs.
 
 **Material range**: Manual spinning handles sheet thicknesses of 0.5-6 mm (softer metals like copper and aluminum toward the thicker end, steel toward the thinner). Power spinning with hydraulic assistance extends the range to 25 mm in steel. Wall thickness remains approximately constant in conventional spinning because the metal flows rather than stretches. In shear spinning, the roller deliberately thins the wall: t_final = t_initial × sin(α), where α is the cone half-angle. Shear spinning produces dimensionally precise, work-hardened parts with higher strength than the original sheet, at the cost of reduced ductility.
 
 **Lubrication and finish**: Apply beeswax, tallow, or bar soap to the disc surface before spinning to reduce friction between the roller and workpiece. Without lubrication, galling produces surface tears and the required forming force increases sharply. Spun parts show helical tool marks from the roller passes; these can be removed by polishing or, for tighter tolerances, by a final skim cut on the lathe with the part still mounted on the mandrel.
 
-### Extrusion
+**Strengths**:
+- Tooling cost is minimal — only a mandrel is needed (hardwood for prototyping, steel for production)
+- No material waste — the entire disc becomes the finished part
+- Design changes require only a new mandrel, not a matched die set
+
+**Weaknesses**:
+- Limited to axisymmetric shapes — no rectangular or asymmetric profiles
+- Operator skill is critical — uneven pressure produces wrinkled or torn parts
+- Surface finish requires secondary operations (polishing or machining) to remove helical tool marks
+
+## Extrusion
 
 **Process**: A heated billet is forced through a die opening of the desired cross-section by a ram in a container. The metal flows under pressure through the die, emerging as a continuous profile. Aluminum extrudes at 350-500°C; steel requires 1100-1250°C and much higher pressures (800-1200 MPa). Extrusion produces complex cross-sections that would be difficult or impossible to roll: I-beams, T-sections, hollow tubes (using a mandrel inside the die), and custom structural shapes.
 
 **Extrusion force**: F = A × σ × ln(A₀/A_f), where A = billet cross-section area, σ = flow stress at extrusion temperature, A₀ = billet area, A_f = die opening area. The extrusion ratio A₀/A_f typically ranges from 10:1 to 100:1. Higher ratios produce finer grain structure through more severe deformation but require greater force. For aluminum at 450°C with a 30:1 extrusion ratio, the flow stress is approximately 40-60 MPa, and a 150 mm diameter billet requires roughly 5-8 MN (500-800 ton) press capacity.
 
-**Hot vs. cold extrusion**: Hot extrusion (aluminum above 350°C, steel above 1100°C) reduces required force and allows larger reductions but produces oxide scale on the surface and tighter dimensional tolerances of ±0.5-1.0 mm. Cold extrusion (room temperature or slightly warmed) produces parts with better surface finish (±0.1-0.3 mm tolerance) and work-hardened strength but is limited to softer metals (aluminum, copper, low-carbon steel) and lower extrusion ratios (5:1 to 20:1).
+**Hot vs. cold extrusion**: Hot extrusion (aluminum above 350°C, steel above 1100°C) reduces required force and allows larger reductions but produces oxide scale on the surface and wider dimensional tolerances of ±0.5-1.0 mm. Cold extrusion (room temperature or slightly warmed) produces parts with better surface finish (±0.1-0.3 mm tolerance) and work-hardened strength but is limited to softer metals (aluminum, copper, low-carbon steel) and lower extrusion ratios (5:1 to 20:1).
 
-### Coining and Embossing
+**Strengths**:
+- Produces complex cross-sections impossible by rolling — hollow tubes, T-sections, custom profiles
+- Near-100% material utilization — the entire billet becomes the extruded profile (minus a small discard butt)
+- Continuous process — profiles of any length can be produced
+
+**Weaknesses**:
+- Requires high press capacity — 5-8 MN for aluminum, 20-50+ MN for steel extrusion
+- Die wear is significant in hot steel extrusion — dies may last only 100-500 billets
+- Surface oxide on hot extrusions must be removed by machining or chemical cleaning for critical applications
+
+## Coining and Embossing
 
 **Coining**: A closed-die striking operation that forces metal to flow into fine die details under pressures of 800-1,500 MPa. Both sides of the workpiece are confined by the dies, so metal cannot escape laterally. Used for coins, medals, and precision-flat parts. Die life is limited by the extreme pressures: steel dies last 100,000-500,000 impressions before detail degradation. The blank is typically struck at 1-5% of its thickness as pure compression, with no flash.
 
 **Embossing**: A shallow relief pattern formed by matching male and female dies that thin the sheet locally without significant stretching. The material thickness changes little overall; the pattern is created by redistribution. Used for decorative panels, tread plate, and stiffening ribs on sheet metal enclosures. Embossing pressures are modest (50-200 MPa) compared to coining because the deformation is shallow.
 
-### High-Energy Rate Forming
+## High-Energy Rate Forming
 
 **Explosive forming**: Place a sheet metal blank over a die cavity and seal the edges. Submerge the assembly in water. Detonate an explosive charge at a calculated standoff distance. The shock wave traveling through the water forces the blank into the die cavity at velocities of 100-300 m/s. Used for large, one-of-a-kind parts (rocket domes, ship hull sections up to 10 m diameter) where conventional press capacity is insufficient. Die material can be concrete or epoxy for single parts, since the forming pressure is brief. The standoff distance and charge weight control forming pressure: a 1 kg TNT charge at 1 m standoff produces approximately 30 MPa peak pressure on the blank.
 

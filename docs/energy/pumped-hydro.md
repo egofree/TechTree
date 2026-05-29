@@ -6,8 +6,21 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 25-40
 > **Outputs**: grid_storage, peak_shaving, frequency_regulation
+> **Critical**: No — pumped hydro is the most efficient large-scale storage technology but is geographically limited to sites with suitable elevation difference
 
 ### Overview
+
+**Strengths**:
+- Round-trip efficiency 70-85% — the most efficient large-scale energy storage technology
+- 50-100+ year operational lifetime — longer than any battery technology
+- Proven technology — first pumped hydro plant built in 1909, hundreds in operation worldwide
+- Storage capacity scales with reservoir volume at near-linear cost
+
+**Weaknesses**:
+- Requires specific geography — two reservoirs at different elevations with suitable terrain
+- High capital cost ($1,500-3,000 per kW installed) — major civil engineering project
+- Long construction time (5-10 years) for large installations
+- Environmental impact — reservoirs flood valleys, alter river ecosystems
 
 Pumped hydroelectric storage (pumped hydro) is the only practical method for storing energy at the scale required by an industrial civilization. During periods of surplus power generation, water is pumped from a lower reservoir to an upper reservoir. During periods of high demand, the water is released back through a turbine to generate electricity. It is a mechanical battery using water and elevation — simple in principle, massive in scale, and unmatched in longevity (plants routinely operate for 50-100 years). Round-trip efficiency is 70-85%, making it the most efficient large-scale storage technology available.
 

@@ -155,14 +155,62 @@ When reservoir pressure is insufficient for natural flow, artificial lift method
 - Depth limit: ~2,500 m (limited by rod weight and buckling). Pump rate: 10-500 bbl/day.
 - Surface unit: pumpjack (the iconic horse-head shaped beam seen in oil fields).
 
+**Strengths**:
+- Simple, well-understood mechanical system with over a century of field experience
+- Low capital cost relative to other artificial lift methods
+- Easily inspected and maintained at surface (no downhole electronics)
+- Handles viscous crude and moderate sand production without damage
+- Can be powered by electric motor, natural gas engine, or even the produced gas itself
+- Visual indicator of well status from pumpjack stroke pattern
+
+**Weaknesses**:
+- Depth limited to ~2,500 m — rod weight and buckling prevent deeper installation
+- Sucker rods subject to fatigue failure, corrosion, and rod-on-tubing wear
+- Not suitable for deviated or horizontal wells (rod friction against tubing)
+- Low flow rates compared to ESP (max ~500 bbl/day vs. 30,000 bbl/day)
+- Moving parts downhole require periodic workover (pull tubing and rods for repair)
+- Paraffin and scale buildup on rods increases friction and risk of rod failure
+
 **Gas lift**:
 - Inject compressed natural gas through the casing-tubing annulus. Gas enters the tubing through gas lift valves (pressure-operated) at depth. Gas mixes with oil, reducing the fluid density (aerating the column). The reduced hydrostatic head allows reservoir pressure to push the lighter column to surface.
 - Advantages: handles sand and deviated wells better than sucker rod pumps. No downhole moving parts to fail. Depth limit: 3,000+ m.
 - Requirement: source of compressed gas (typically produced associated gas from the same or nearby wells).
 
+**Strengths**:
+- No downhole moving parts — eliminates mechanical failures that plague rod pumps and ESPs
+- Handles sand-laden and abrasive fluids without equipment damage
+- Works in highly deviated and horizontal wells where rod pumps cannot operate
+- Deepest artificial lift method (3,000+ m depth capability)
+- Adjustable gas injection rate tunes lift capacity to changing reservoir conditions
+- Can be installed in same tubing as production, reducing completion complexity
+
+**Weaknesses**:
+- Requires reliable source of compressed gas — not feasible for isolated wells without gas production
+- Gas compression at surface consumes significant energy (compressor stations needed)
+- Less efficient than mechanical pumping — energy wasted compressing gas that also expands in the well
+- Difficult to optimize injection gas volume — over-injection wastes gas, under-injection fails to lift
+- Cannot lift very heavy (low API gravity) crude oils effectively
+- Mandrel and gas lift valve installation requires specialized wireline work
+
 **Electrical submersible pump (ESP)**:
 - Multi-stage centrifugal pump driven by an electric motor, both submerged in the well fluid at the bottom of the well. Power supplied via cable from surface. High production rates: 200-30,000 bbl/day.
 - Disadvantages: expensive, sensitive to gas locking and abrasives (sand), motor failure requires pulling the entire tubing string. Best for high-volume, clean-fluid wells.
+
+**Strengths**:
+- Highest production rates of any artificial lift method (200-30,000 bbl/day)
+- Compact downhole footprint — multi-stage centrifugal pump fits inside standard tubing
+- Efficient electrical operation — lower energy cost per barrel than gas lift for high-rate wells
+- Minimal surface footprint — only power cable and small control panel visible
+- Can handle large fluid volumes in waterflood and high-water-cut production
+- Adjustable speed with variable frequency drive (VFD) matches output to reservoir deliverability
+
+**Weaknesses**:
+- Very sensitive to free gas — gas locking shuts down the pump if gas fraction exceeds 10-15% at pump intake
+- Sand and abrasives destroy pump stages rapidly — unsuitable for unconsolidated sand formations
+- Motor failure requires pulling entire tubing string — expensive workover ($50,000-200,000+)
+- Electrical cable to motor is vulnerable to mechanical damage during installation and corrosion over time
+- High capital cost ($50,000-250,000 per unit) compared to sucker rod pumps
+- Limited tolerance for high temperature — motor insulation degrades above 120-150°C
 
 ## Enhanced Oil Recovery (EOR)
 

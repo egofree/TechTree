@@ -103,6 +103,22 @@ AGVs are self-navigating vehicles that transport FOUPs along the fab floor betwe
 - **Reliability**: 99.5-99.9% successful deliveries. Failures caused by: blocked paths (human, obstacle), low battery, navigation error, communication timeout with MES.
 - **Utilization**: Target 60-80% of AGVs active (moving or loading/unloading). Below 60% = too many AGVs. Above 80% = insufficient fleet, delivery delays increase.
 
+**Strengths**:
+- Lowest installation cost — magnetic tape on floor, no overhead rail infrastructure
+- Route flexibility — paths changed by repositioning tape or reprogramming software
+- Easy maintenance access at floor level — no ladders or lifts needed
+- Multiple navigation options (tape, laser, inertial) scalable to available technology
+- Proven technology with decades of industrial deployment in 200 mm fabs
+- Survives floor-level obstructions better than OHT (can navigate around obstacles)
+
+**Weaknesses**:
+- Slowest transport method — average speed 0.3-0.8 m/s vs. 1.5-2.0 m/s for OHT
+- Consumes valuable floor space — 1.2 m minimum aisle width reduces cleanroom area
+- Battery management required — 4-8 hour runtime, charging stations or battery swap
+- Pedestrian collision risk in shared aisles — speed limited to 0.5 m/s near people
+- Lower throughput per vehicle (6-12 FOUP/hr) requires larger fleet for same capacity
+- Navigation errors from floor contamination (metal chips, liquid spills interfere with tape sensors)
+
 ## Overhead Hoist Transport (OHT)
 
 ### Design and Operation
@@ -142,6 +158,22 @@ OHT vehicles run on ceiling-mounted rails, providing FOUP transport without cons
 
 Most 300 mm fabs use OHT as the primary transport system and AGVs as a supplement for specific routes or as a backup.
 
+**Strengths**:
+- Fastest average transport speed (1.5-2.0 m/s) — 3-4× faster than floor AGVs
+- Zero floor space consumption — rails mounted overhead, above tool enclosures
+- Highest throughput per vehicle (15-25 FOUP/hr) — smaller fleet needed for same capacity
+- No pedestrian collision risk — operates above worker head height
+- Continuous power from rail bus bar — no battery charging or swap needed
+- FOUP drop risk mitigated by redundant grip mechanisms (mechanical latch + vacuum)
+
+**Weaknesses**:
+- Highest installation cost — overhead rail infrastructure with ceiling structural reinforcement
+- Fixed routing — track changes require engineering effort and production shutdown
+- Difficult maintenance access — overhead work at 2.5-3.5 m height requires lifts
+- FOUP drop from height is catastrophic — wafer destruction and potential personnel injury
+- Vehicle density management critical — zone control prevents collisions at switches
+- Seismic vulnerability — overhead rails and vehicles add mass that amplifies building sway
+
 ## Rail-Guided Vehicles (RGV)
 
 RGVs run on floor-level rails (not overhead) for high-speed, high-throughput interbay transport.
@@ -152,6 +184,22 @@ RGVs run on floor-level rails (not overhead) for high-speed, high-throughput int
 - **Payload**: 1-4 FOUPs.
 - **Advantage**: Higher speed and throughput than AGVs or OHT on dedicated point-to-point routes.
 - **Limitation**: Fixed route — cannot deviate from the rail. Used for high-volume interbay transfer between stocker aisles.
+
+**Strengths**:
+- Fastest transport option — up to 5.0 m/s on straight sections, 2.5-3.5 m/s average
+- Highest throughput per vehicle (20-40 FOUP/hr) of any transport method
+- Flush floor rails — no trip hazard, no raised floor interference
+- Simple, reliable guidance — rail eliminates navigation errors
+- Can carry multiple FOUPs (1-4) for high-volume batch transfer
+- Lower per-vehicle cost than OHT — no overhead infrastructure required
+
+**Weaknesses**:
+- Zero route flexibility — cannot deviate from installed rail, even temporarily
+- Rail installation requires precise alignment and level tolerances
+- Single point of failure — vehicle or rail damage blocks entire route
+- No bypass capability — disabled vehicle blocks all traffic on that rail segment
+- Limited to point-to-point or linear routes — cannot serve branching destinations without switches
+- Not suitable for intrabay delivery where tools are not arranged linearly
 
 ## Stockers
 

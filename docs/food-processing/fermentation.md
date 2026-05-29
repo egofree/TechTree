@@ -79,6 +79,16 @@ Sourdough uses wild yeast (*Saccharomyces exiguus*, *Candida milleri*) and lacti
 7. **Baking**: Preheat oven with dutch oven or baking stone to 250°C. Score dough surface (5-10 mm deep cuts allow controlled expansion). Bake covered 20 minutes (steam trapped creates crust), then uncovered 20-25 minutes at 230°C. Internal temperature target: 95-98°C.
 8. **Cooling**: Rest on wire rack minimum 1 hour before cutting. Cutting hot bread compresses crumb and makes it gummy.
 
+**Strengths**:
+- Sourdough starter is self-perpetuating: once established from flour and water, it can be maintained indefinitely with daily feeding
+- Wild yeast + LAB combination lowers pH to 3.8-4.5, providing natural preservation extending bread shelf life to 4-7 days vs. 1-2 days for commercial yeast bread
+- Long cold fermentation (8-16 hours at 4°C) develops complex flavor compounds (acetic acid, lactic acid) without any added ingredients
+
+**Weaknesses**:
+- Starter establishment takes 5-7 days of daily feeding, consuming 100 g flour per day before any bread is produced
+- Sourdough timing is temperature-sensitive: ±3°C changes fermentation speed by 50%, making consistent results difficult without temperature control
+- High-humidity doughs (72%+ hydration) are sticky and difficult to handle — require practiced technique and well-floured surfaces
+
 ### Vegetable Fermentation (Sauerkraut)
 
 1. **Selection**: Fresh, compact cabbage heads. Outer leaves removed. Core retained — highest lactobacillus population.
@@ -95,6 +105,16 @@ Sourdough uses wild yeast (*Saccharomyces exiguus*, *Candida milleri*) and lacti
 9. **pH target**: Below 4.0 for full preservation. Check with pH strips after 5-7 days.
 10. **Storage**: Once desired flavor reached, move to cool storage (4-10°C). Fermentation slows dramatically but continues. Shelf life: 6-12 months in cool conditions.
 
+**Strengths**:
+- Sauerkraut preserves cabbage for 6-12 months with only salt (2-2.5%) and an anaerobic vessel — no heat, no energy, no specialized equipment
+- Fermentation produces B vitamins (B12, folate) and breaks down phytic acid, increasing mineral bioavailability vs. raw cabbage
+- LAB succession (Leuconostoc → Lactobacillus → Pediococcus) is self-organizing: no starter culture needed, just salt and anaerobic conditions
+
+**Weaknesses**:
+- Exposed cabbage (not submerged in brine) molds within 24-48 hours — submersion must be verified daily during the first week
+- Temperature above 25°C produces mushy texture and off-flavors from rapid fermentation; below 15°C fermentation stalls
+- High sodium content (600-1,500 mg per 100 g) is a health concern for workers with hypertension
+
 ### Kimchi
 
 Korean-style fermented vegetables, typically napa cabbage and Korean radish with chili, garlic, ginger, and fermented seafood:
@@ -105,6 +125,16 @@ Korean-style fermented vegetables, typically napa cabbage and Korean radish with
 4. **Packing**: Pack into fermentation vessel, pressing tightly. Seal.
 5. **Fermentation**: 18-22°C for 1-3 days (quick ferment), or 4-10°C for 2-4 weeks (slow, more complex). Kimchi is traditionally fermented in onggi (unglazed clay vessels) which allow slight gas exchange.
 6. **Storage**: Refrigerate at 0-4°C after initial fermentation. Continues to slowly age and sour over months.
+
+**Strengths**:
+- Kimchi fermentation produces a complex flavor profile (spicy, sour, umami) from simple ingredients — cabbage, salt, chili, garlic, and fish sauce
+- The Korean onggi (unglazed clay vessel) allows slight gas exchange, preventing pressure buildup while maintaining anaerobic conditions
+- Fast fermentation (1-3 days at 18-22°C) enables rapid turnaround from raw ingredients to preserved food
+
+**Weaknesses**:
+- Requires multiple specialty ingredients (gochugaru chili, fermented shrimp) that may not be available outside Korean agricultural traditions
+- Seasoning paste must coat every leaf individually — labor-intensive process requiring 20-40 minutes per cabbage head
+- Carbon dioxide from fermentation builds pressure in sealed containers; glass jars can crack if not vented
 
 ### Soy Sauce (Shoyu)
 
@@ -126,6 +156,16 @@ Soy sauce production is a two-stage fermentation spanning 6-18 months:
 9. **Pasteurization**: Heat to 70-80°C for 15-30 minutes. Kills residual microorganisms, stabilizes color and flavor, denatures enzymes.
 10. **Settling and bottling**: Sediment settles 1-2 weeks. Decant clear soy sauce. Bottle in sterilized containers.
 
+**Strengths**:
+- Soy sauce production converts inexpensive soybeans and wheat into a high-value condiment with 300+ flavor compounds developed through months of fermentation
+- Koji mold (Aspergillus oryzae) produces enzymes that break down proteins into amino acids (umami) and starches into sugars — no external enzymes needed
+- Moromi fermentation preserves food through 16-18% salt brine — shelf-stable without refrigeration
+
+**Weaknesses**:
+- Minimum 6-month fermentation time ties up vessels and storage space — 12-18 months for premium quality
+- Koji incubation temperature must stay below 40°C or the mold dies — requires daily monitoring and active cooling in hot climates
+- Pressing moromi at 50-100 kg/cm² requires a heavy-duty screw press or hydraulic press — not achievable with simple wooden presses
+
 ### Tempeh
 
 Tempeh is fermented soybean cake from Indonesia, produced by *Rhizopus oligosporus* mold:
@@ -136,6 +176,16 @@ Tempeh is fermented soybean cake from Indonesia, produced by *Rhizopus oligospor
 4. **Packing**: Pack inoculated beans into banana leaves, plastic bags with perforations, or shallow trays. Thickness: 2-3 cm. Perforations allow gas exchange — *Rhizopus* requires oxygen.
 5. **Incubation**: 30-32°C for 24-48 hours. Maintain humidity 80-90%. Mycelium knits beans into a solid cake. Temperature must stay below 38°C — the mold dies above this threshold.
 6. **Harvest**: Tempeh is ready when the cake is firm, white throughout, and beans are bound into a coherent mass. Fresh tempeh keeps 3-5 days refrigerated, 6+ months frozen.
+
+**Strengths**:
+- Tempeh fermentation (24-48 hours) is one of the fastest high-protein food processes — converts raw soybeans into a sliceable cake with 19 g protein per 100 g
+- Rhizopus mycelium binds individual beans into a solid cake, creating a meat-like texture from plant protein without any binding agent
+- The process requires only soybeans, vinegar, and Rhizopus spores — no salt, no specialized vessels, no long aging
+
+**Weaknesses**:
+- Temperature must stay below 38°C throughout the 24-48 hour fermentation — Rhizopus dies above this threshold, and spoilage bacteria take over
+- Dehulling soybeans is labor-intensive by hand (rub between palms or pass through coarse screen) — commercial dehullers save hours per batch
+- Fresh tempeh has only 3-5 days refrigerated shelf life — must be consumed or frozen soon after production
 
 ## Quantitative Parameters
 

@@ -1,13 +1,25 @@
 # Coal Mining & Combustion
 
 > **Node ID**: energy.fuels.coal
-> **Domain**: Energy
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), [`energy.fuels`](fuels.md), `mining`
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 15-25
 > **Outputs**: coal
+> **Critical**: No — coal supplements charcoal and enables steam power, but charcoal and wood can substitute where coal is unavailable
 
 ### Coal Types & Properties
+
+**Strengths**:
+- Highest energy density of any solid fuel (bituminous: 25-35 MJ/kg, anthracite: 35+ MJ/kg)
+- Abundant and geologically widespread — found on every continent
+- Stores indefinitely — no degradation over time, unlike biomass
+
+**Weaknesses**:
+- Sulfur content (0.5-5%) causes SO₂ emissions and iron contamination during smelting
+- Ash content (5-20%) reduces usable energy and creates disposal problems
+- Mining is hazardous — underground mines risk explosion (methane), collapse, and black lung disease
+- Not all coal is suitable for coking — only specific bituminous coals produce metallurgical coke
 
 Not all coal is equal. Rank (degree of metamorphism) determines energy content, impurity load, and suitable applications.
 

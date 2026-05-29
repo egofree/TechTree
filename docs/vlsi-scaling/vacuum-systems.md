@@ -31,6 +31,14 @@ Each semiconductor process has specific pressure requirements determined by the 
 
 **Mean free path (MFP)**: The average distance a molecule travels between collisions. MFP ≈ 5/P cm (with P in Torr). At 10⁻⁶ Torr, MFP ≈ 50 m — molecules travel across the chamber without gas-phase collisions. At 1 mTorr, MFP ≈ 5 cm — sufficient for sputtering but too short for e-beam or ion beam work.
 
+**Strengths**:
+- Table clearly maps each process to its required pressure, pump type, and physical rationale (MFP, beam scattering) — provides direct equipment selection guidance
+- MFP formula (≈ 5/P cm) enables quick back-of-envelope validation of vacuum requirements for any new process
+
+**Weaknesses**:
+- ALD pulsed operation (10⁻³ to 10 Torr) requires rapid pressure cycling that stresses pump systems — not captured in the steady-state pressure table
+- Actual process pressures depend on gas flow geometry and chamber design — table values are starting points, not guarantees
+
 ### Rotary Vane Pumps (Roughing Pumps)
 
 The workhorse of vacuum technology — every high-vacuum system starts with a roughing pump to bring the chamber from atmospheric pressure (~760 Torr) down to ~10⁻² to 10⁻³ Torr, where a high-vacuum pump can take over.
@@ -47,6 +55,14 @@ The workhorse of vacuum technology — every high-vacuum system starts with a ro
 - **Scroll pump**: Interleaving spiral scrolls — one fixed, one orbiting — trap and compress gas pockets. Ultimate vacuum ~10⁻² Torr. Speed: 5-60 L/s. No oil in the gas path. PTFE tip seals wear over time (12-24 month replacement interval). Preferred for clean semiconductor processes.
 - **Screw pump**: Two intermeshing helical rotors. Handles higher gas loads and particulates than scroll. Ultimate vacuum ~10⁻² to 10⁻³ Torr. Speed: 20-200 L/s. More robust for corrosive processes (RIE exhaust, CVD byproducts) with appropriate rotor coatings (Ni, Teflon).
 - **Diaphragm pump**: Flexible diaphragm driven by eccentric cam. Ultimate vacuum ~1-10 Torr. Speed: 0.5-5 L/s. Used for very small systems or as backing for molecular drag pumps. Completely oil-free with PTFE diaphragms.
+
+**Strengths**:
+- Rotary vane pumps achieve 10⁻²-10⁻³ Torr with 1-300 L/s speed — reliable, well-understood workhorse for every roughing application
+- Dry scroll pumps eliminate hydrocarbon backstreaming entirely — PTFE tip seals provide clean pumping for semiconductor processes
+
+**Weaknesses**:
+- Oil-sealed rotary vane pumps produce hydrocarbon vapor that backstreams into the chamber — unacceptable for clean semiconductor front-end processes
+- Dry pump PTFE tip seals wear out every 12-24 months — scheduled replacement required to maintain vacuum performance
 
 ### Turbomolecular Pumps
 
@@ -72,6 +88,14 @@ Hydrogen and helium are the achilles heel of turbo pumps — their high thermal 
 
 **Magnetic bearing turbos**: Advanced turbo pumps replace mechanical ball bearings with active magnetic bearings (5-axis electromagnetic levitation of the rotor). Advantages: zero friction, no lubricant contamination, 50,000+ hour maintenance interval (vs. 12,000-24,000 hours for grease-packed ceramic bearings), vibration <0.01 μm. Essential for e-beam lithography and SEM where mechanical vibration blurs the beam. Premium cost: 2-3× conventional bearing turbo pumps.
 
+**Strengths**:
+- Compression ratio of 10⁸-10¹² for N₂ with 20-40 blade stages — reaches 10⁻⁹ Torr from a 10⁻³ Torr backing pressure
+- Magnetic bearing turbos provide vibration <0.01 μm and 50,000+ hour maintenance interval — essential for e-beam lithography
+
+**Weaknesses**:
+- H₂ compression ratio only 10²-10⁴ — hydrogen accumulates in the chamber and limits ultimate vacuum without supplementary pumping
+- Blade tip speed of 150-350 m/s with 24,000-90,000 RPM — catastrophic failure mode if bearings seize or foreign object enters
+
 ### Diffusion Pumps
 
 The oldest high-vacuum pump type (invented 1915), still used in some evaporation and legacy CVD systems. Simpler and cheaper than turbo pumps for large chambers but more prone to oil backstreaming contamination.
@@ -83,6 +107,14 @@ The oldest high-vacuum pump type (invented 1915), still used in some evaporation
 **Oil backstreaming**: The fundamental contamination risk. Oil vapor that escapes the jet nozzles and travels upward into the chamber condenses on the wafer and chamber walls, contaminating the process. Mitigation: cold cap (refrigerated baffle above the top jet), chevron baffles (maze-like geometry that intercepts oil vapor), and liquid-nitrogen cold traps (77 K surface that condenses oil vapor with near-100% efficiency). With proper trapping, backstreaming can be reduced to <10⁻¹⁰ g/(cm²·min), but zero contamination is never achievable with diffusion pumps.
 
 **Advantages vs. turbo pumps**: Lower cost ($2,000-10,000 vs. $10,000-50,000 for equivalent speed), no moving parts (extremely reliable), handles high gas loads without damage, very high pumping speeds available for large chambers. Disadvantage: oil contamination risk makes them unsuitable for ultra-clean processes (semiconductor front-end processing, EUV).
+
+**Strengths**:
+- No moving parts — extremely reliable with essentially unlimited service life, unlike turbo pumps with bearing wear
+- Pumping speeds of 100-50,000 L/s at 2-5× lower cost than equivalent turbo pumps — economical for large chambers
+
+**Weaknesses**:
+- Oil backstreaming contamination is never fully eliminable — cold caps and baffles reduce but cannot zero the risk
+- Not suitable for ultra-clean semiconductor front-end processes or EUV — hydrocarbon contamination degrades film and resist quality
 
 ### Cryopumps
 
@@ -99,6 +131,14 @@ Cryopumps condense and adsorb gases on surfaces cooled to cryogenic temperatures
 
 **Advantages**: Highest pumping speed per unit cost for large systems, captures all gases (no exhaust to abate), completely clean (no oil). Ideal for sputtering systems and batch evaporators. Disadvantage: finite capacity requiring regeneration, not suitable for continuous high-throughput gas flow (LPCVD, PECVD).
 
+**Strengths**:
+- Completely oil-free with pumping speeds of 500-15,000 L/s (N₂) — highest speed per dollar for large systems
+- Charcoal cryosorbent captures H₂ and He at 10-20 K, addressing the light-gas gap in turbo pump performance
+
+**Weaknesses**:
+- Finite gas capacity (10⁴-10⁶ Torr·L) requires periodic regeneration (1-4 hours) — chamber unavailable during cycle
+- Not suitable for continuous gas-flow processes (LPCVD, PECVD) — cryopanels saturate rapidly under steady gas load
+
 ### Ion Pumps
 
 Ion pumps (sputter ion pumps, SIP) use energetic ions to bury gas molecules in a titanium cathode. They have no moving parts and achieve the lowest ultimate pressures available (~10⁻¹¹ Torr).
@@ -110,6 +150,14 @@ Ion pumps (sputter ion pumps, SIP) use energetic ions to bury gas molecules in a
 **Starting requirement**: Ion pumps must be started at low pressure (<10⁻³ Torr) to avoid arcing. A turbo or diffusion pump roughs the chamber first, then the ion pump takes over. Once started, the ion pump maintains vacuum indefinitely with no backing pump — it traps gas internally rather than exhausting it.
 
 **Applications**: E-beam lithography columns, electron microscopes, surface analysis equipment (XPS, AES), and ultra-high vacuum research systems. Ideal where absolute cleanliness and zero vibration are required (no moving parts, no fluids). Not suitable for high-throughput process tools (sputtering, CVD) due to limited pumping speed and inability to handle large gas loads.
+
+**Strengths**:
+- Achieves <10⁻¹¹ Torr with zero vibration and no moving parts — ideal for e-beam lithography and electron microscopes
+- Traps gas internally with no backing pump required — once started, maintains vacuum indefinitely
+
+**Weaknesses**:
+- Pumping speed limited to 1-500 L/s — inadequate for high-throughput process tools (sputtering, CVD)
+- Must be started at <10⁻³ Torr to avoid arcing — requires separate roughing pump for initial pump-down
 
 ### Vacuum Gauges and Pressure Measurement
 
@@ -131,6 +179,14 @@ Different pressure ranges require different measurement technologies. No single 
 
 **Gauge calibration**: Ion gauges and Pirani gauges have gas-dependent sensitivity. Their calibration is typically for N₂. For other gases, correction factors: He ×0.18, H₂ ×0.46, Ar ×1.29, CO₂ ×1.42. Capacitance manometers are gas-independent and require no correction. Annual calibration against a transfer standard (spinning rotor gauge or calibrated capacitance manometer) maintains traceability to national standards.
 
+**Strengths**:
+- Capacitance manometer provides ±0.1-0.5% accuracy gas-independently — the gold standard for process pressure control in semiconductor tools
+- Bayard-Alpert ion gauge covers 10⁻³ to 10⁻¹¹ Torr — five-decade range with a single instrument
+
+**Weaknesses**:
+- Pirani/thermocouple gauges have ±10-20% accuracy and are gas-dependent — require correction factors for non-N₂ atmospheres
+- Ion gauge X-ray limit at ~10⁻¹¹ Torr produces false current — cannot measure below this floor without extractor gauge designs
+
 ### Chamber Design and Materials
 
 Vacuum chamber design determines ultimate pressure, outgassing rate, and process uniformity. The chamber must maintain structural integrity under atmospheric pressure (14.7 psi = 101 kPa external load on every surface) while minimizing internal surface area and outgassing.
@@ -144,6 +200,14 @@ Vacuum chamber design determines ultimate pressure, outgassing rate, and process
 - **Elastomer seals (Viton, Buna-N)**: O-ring in a groove, compressed between flanges. Simple, reusable (100+ cycles). Leak rate: ~10⁻⁸ to 10⁻⁹ Torr·L/s. Temperature limit: 200°C (Viton), 120°C (Buna-N). O-ring groove design: cross-section compression 15-25% for seal. Outgassing from Viton: ~10⁻⁸ Torr·L/(s·cm²) of seal surface — acceptable for high vacuum but not UHV. Helium permeation rate through Viton: ~10⁻⁹ Torr·L/(s·cm) of seal length — limits ultimate vacuum in UHV systems.
 - **Metal seals (ConFlat, CF)**: Flat copper gasket (Oxygen-free high-conductivity copper, OFHC) compressed between knife-edge flanges. Leak rate: <10⁻¹² Torr·L/s. Bakeable to 450°C. Single-use gasket (replaced every disassembly). Required for UHV systems (<10⁻⁹ Torr). Knife-edge profile: 70° included angle, ~0.1 mm tip radius — cuts into copper to form a gas-tight seal. Bolt torque: 15-25 N·m per bolt (typically 6-24 bolts per flange depending on size).
 - **CF flange sizes**: DN16 (16 mm bore, 6 bolts) through DN350 (350 mm bore, 24 bolts). Larger flanges require thicker gaskets and more bolts for uniform compression. For semiconductor tools, common sizes: DN40, DN63, DN100, DN160, DN200.
+
+**Strengths**:
+- CF copper gasket seals achieve <10⁻¹² Torr·L/s leak rate and 450°C bakeout — gold standard for UHV systems
+- Electropolished 316L stainless steel achieves 10⁻¹² Torr·L/(s·cm²) outgassing after bakeout — enables 10⁻¹⁰ Torr base pressures
+
+**Weaknesses**:
+- CF gaskets are single-use (replaced every disassembly) — frequent maintenance access increases consumable cost
+- Viton O-rings outgas at 10⁻⁸ Torr·L/(s·cm²) and permeate helium — limits elastomer-sealed systems to ~10⁻⁸ Torr
 
 ### Outgassing and Bakeout
 
@@ -160,6 +224,14 @@ Every surface inside a vacuum chamber releases adsorbed gas molecules — primar
 **Bakeout procedure**: Heat chamber walls to 150-300°C (typically with externally mounted heater tapes or blankets) while continuously pumping. Water vapor desorbs rapidly above 100°C. Duration: 12-48 hours depending on target vacuum and chamber history. Temperature uniformity: ±10-20°C — cold spots retain water and extend bakeout. After bakeout, cool to operating temperature while continuing to pump. The improvement in ultimate vacuum after proper bakeout is typically 10-100×.
 
 **In-situ plasma cleaning**: RF or microwave plasma (Ar, O₂, or Ar/O₂ mixture at 10-100 mTorr) bombards chamber walls, desorbing and chemically removing adsorbed contaminants. More effective than thermal bakeout alone for removing organic films and polymer deposits from CVD/RIE processes. Typical recipe: 500 W RF power, 50 mTorr Ar/O₂, 30-60 min. Used as routine chamber conditioning between process runs in production fabs.
+
+**Strengths**:
+- 150-300°C bakeout for 12-48 hours improves ultimate vacuum by 10-100× — the single most effective vacuum conditioning step
+- In-situ Ar/O₂ plasma cleaning removes organic films that thermal bakeout cannot — essential for CVD/RIE chamber maintenance
+
+**Weaknesses**:
+- Bakeout duration of 12-48 hours makes chamber unavailable for production — scheduling impact on fab throughput
+- Temperature uniformity of ±10-20°C means cold spots retain water — incomplete bakeout if heating blankets have gaps
 
 ### Leak Detection
 
@@ -183,6 +255,14 @@ Even a tiny leak (10⁻⁶ Torr·L/s) can prevent a system from reaching its tar
 - E-beam lithography: <10⁻⁹ Torr·L/s (contamination deposits on electron optics)
 - UHV surface analysis: <10⁻¹⁰ Torr·L/s (any atmospheric gas contaminates surface under study)
 
+**Strengths**:
+- Helium MSLD achieves 10⁻¹² Torr·L/s sensitivity — detects leaks smaller than any process requirement
+- Helium tracer gas is inert, rare in atmosphere (5.2 ppm), and mass-4 distinguishable — zero false positives
+
+**Weaknesses**:
+- Leak hunting is sequential (spray-and-wait) — locating a single leak in a complex tool with 50+ seals takes 1-4 hours
+- MSLD equipment costs $20,000-80,000 — dedicated instrument required, not shareable with other measurement tasks
+
 ### Vacuum Feedthroughs
 
 Every vacuum chamber requires electrical, mechanical, and optical connections that penetrate the chamber wall without compromising the vacuum seal.
@@ -199,6 +279,14 @@ Every vacuum chamber requires electrical, mechanical, and optical connections th
 
 **Viewports**: Fused silica or sapphire windows in CF flanges for optical access (pyrometry, laser interferometry, visual inspection). Window thickness: 3-10 mm depending on diameter. Anti-reflection coating on both surfaces reduces reflection from ~7% to <1% per surface at the wavelength of interest. Borosilicate glass viewports for lower-cost applications (visible range only, not UV-transmitting).
 
+**Strengths**:
+- Ceramic-to-metal brazed electrical feedthroughs provide 1-5 kV isolation and 10-200 A current — hermetic seal with zero leak
+- Magnetic coupling rotary feedthroughs transfer motion through the vacuum wall with zero leak — no seals to wear
+
+**Weaknesses**:
+- Ferrofluidic seal feedthroughs have finite vapor pressure (~10⁻⁸ Torr) — limits use in UHV systems
+- Viewports under vacuum experience ~10,400 N force on 300 mm diameter — scratched glass can implode violently
+
 ### Pump System Integration for Semiconductor Tools
 
 A typical semiconductor process tool (sputtering system, etch chamber, or implanter) uses a multi-stage pumping system combining roughing and high-vacuum pumps.
@@ -213,6 +301,14 @@ A typical semiconductor process tool (sputtering system, etch chamber, or implan
 - **Process pressure control**: During sputtering, Ar gas flows at 10-50 sccm. Throttle valve (angled butterfly or gate valve with variable conductance) between chamber and turbo maintains constant process pressure (2-10 mTorr). Pressure feedback from capacitance manometer to throttle valve controller: response time <1 second, stability ±0.5% of setpoint.
 
 **Load lock design**: To avoid venting the main process chamber for every wafer exchange, a load lock (small antechamber, ~2-5 L volume) is cycled between atmosphere and high vacuum independently. Pump-down: roughing pump brings load lock to 10⁻³ Torr in ~30-60 seconds. Then gate valve to main chamber opens for wafer transfer by a robot arm. This preserves the main chamber vacuum and reduces total cycle time from hours to minutes per wafer.
+
+**Strengths**:
+- Load lock preserves main chamber vacuum during wafer exchange — reduces cycle time from hours to minutes per wafer
+- Throttle valve + capacitance manometer feedback maintains process pressure at ±0.5% setpoint with <1 second response
+
+**Weaknesses**:
+- Full pump-down to 5×10⁻⁸ Torr base pressure requires 24 hours with bakeout — unscheduled vent events cost a full day of production
+- Multi-stage pumping system (roughing + turbo + backing) has 3+ potential failure points — any single pump failure stops the tool
 
 ### Hazards & Safety
 

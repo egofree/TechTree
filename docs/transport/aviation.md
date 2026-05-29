@@ -58,6 +58,16 @@ Without propulsion technology, civilization is limited to ground and water trans
 
 **Lubrication**: Total-loss splash system (simplest for aircraft). Oil reservoir in crankcase. Splash from crankshaft dipping in oil or oil slinger throws oil onto cylinder walls, bearings, cam. Oil eventually burns or leaks out — add oil periodically. Use castor oil (high-temperature stability, excellent lubricity, doesn't break down at engine temperatures) or mineral engine oil (SAE 30 or 40 weight).
 
+**Strengths**:
+- Horizontally opposed twin (boxer) configuration provides natural balance and compact form
+- Air cooling eliminates radiator, water pump, and coolant — fewer failure points
+- Power-to-weight ratio >0.5 HP/kg achievable with 1930s-era materials and tolerances
+
+**Weaknesses**:
+- Requires ±0.01 mm tolerance on cylinder bores and crankshaft journals — precision machining essential
+- Aluminum cylinder heads demand aluminum-silicon casting capability (8-12% Si alloy)
+- Valve springs must prevent valve float at 2000-3500 RPM — requires spring steel (0.6-0.7% C, heat-treated)
+
 ### Airframe Construction
 
 **Design** (tube-and-fabric ultralight):

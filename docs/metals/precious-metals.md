@@ -31,6 +31,14 @@ Gold occurs almost exclusively as native metal (elemental Au) in geological depo
 - **Placer mining**: Gravity separation exploits gold's extreme density (19.3 g/cm³). Panning, sluice boxes, hydraulic mining, and dredging. Recovery rate: 70-90% for particles >100 μm. Fine gold (<50 μm) is lost to tailings without chemical extraction.
 - **Hard-rock beneficiation**: Crush ore to 75-150 μm. Free-milling gold (coarse particles visible to the eye) recovered by gravity circuits (centrifugal concentrators like the Falcon or Knelson). Refractory gold (locked in sulfide mineral matrix) requires flotation to produce sulfide concentrate (30-100 g/t Au), then roasting or pressure oxidation to liberate gold before leaching. Recovery rate: 85-97%.
 
+**Strengths**:
+- Gold's extreme density (19.3 g/cm³) enables simple gravity separation from gangue — placer mining recovers 70-90% of particles >100 μm with no chemical reagents.
+- Alluvial deposits require no hard-rock mining infrastructure — panning and sluicing can begin at the earliest stages of metallurgy.
+
+**Weaknesses**:
+- Hard-rock gold ore grades are very low (2-15 g/t), requiring processing of 50-500 tonnes of ore per kg of gold.
+- Refractory gold (locked in sulfide matrix) requires roasting or pressure oxidation before leaching — adding significant process complexity.
+
 ### Gold Extraction Methods
 
 **Mercury amalgamation** (ancient, hazardous, still used by artisanal miners):
@@ -54,6 +62,14 @@ Gold dissolves in dilute sodium cyanide (NaCN) solution in the presence of oxyge
 **Gravity concentration** (for free-milling ores):
 
 Centrifugal concentrators (Falcon, Knelson) apply 60-300G to a fluidized bed of crushed ore. Dense gold particles penetrate the bed and are trapped in riffles while lighter gangue overflows. Recovery: 40-70% of gold from free-milling ores. Typically used as a pre-concentration step before cyanidation to recover coarse gold (which cyanidation handles poorly).
+
+**Strengths**:
+- Cyanidation achieves 90-97% gold recovery from crushed ore (tank leaching) — the highest recovery of any industrial gold extraction method.
+- Heap leaching processes vast low-grade deposits (0.5-2 g/t) economically — enables mining ore that would be unprofitable by any other method.
+
+**Weaknesses**:
+- Mercury amalgamation recovers only 30-50% of gold and releases ~1000 tonnes/year of mercury to the environment — the largest single-source mercury pollution globally.
+- Cyanide is acutely toxic (LD₅₀ 1-3 mg/kg HCN gas) — tailings ponds require double HDPE lining with leak detection, and cyanide destruction (SO₂/air process) before discharge.
 
 ### Gold Refining
 
@@ -85,6 +101,14 @@ After dissolution, gold is recovered by:
 - **Sodium metabisulfite (Na₂S₂O₅) reduction**: SO₂ generated in situ reduces Au³⁺. More selective than ferrous sulfate. Product: 99.9% gold powder.
 - **Oxalic acid reduction**: Slow but highly selective. H₂C₂O₄ + 2Au³⁺ → 2CO₂ + 2Au + 2H⁺. Product: 99.99% gold.
 
+**Strengths**:
+- Wohlwill electrolytic refining produces 99.99%+ gold (four-nines) — semiconductor-grade purity for wire bonding.
+- Miller chlorination is fast (1-4 hours per batch) and removes most base metals and silver in a single step.
+
+**Weaknesses**:
+- Wohlwill refining requires chloroauric acid electrolyte (prepared from aqua regia), stable DC power (0.5-1.5 V, 500-1000 A/m²), and anode silver <5% — significant infrastructure.
+- Miller chlorination uses dry chlorine gas — extremely hazardous, requires enclosed ventilated systems with NaOH scrubbers.
+
 ### Gold Properties and Applications
 
 **Physical properties**:
@@ -97,6 +121,14 @@ After dissolution, gold is recovered by:
 - **Wire bonding**: 25 μm (1 mil) diameter gold wire bonds silicon die to package leads. Gold ball bonding: melt wire tip with electric spark (EFO — electronic flame-off), form a ball, thermosonically bond to aluminum bond pad (ultrasonic energy + 200-250°C + pressure), loop wire to lead frame, stitch bond. Wire length: 2-8 mm. Bond strength: 5-10 grams-force. Gold wire is preferred over aluminum for its corrosion resistance and reliable ball formation.
 - **Surface finish**: Electroless nickel / immersion gold (ENIG) on PCB pads. Gold layer 0.03-0.08 μm over 3-5 μm nickel. Protects copper from oxidation, provides solderable and wire-bondable surface.
 - **Thin-film metallization**: Sputtered or evaporated gold films (0.1-2 μm) for specialized high-reliability contacts, MEMS devices, and RF circuits.
+
+**Strengths**:
+- Gold does not oxidize in air at any temperature — contact resistance remains low indefinitely, making it irreplaceable for corrosion-free electrical contacts.
+- Exceptional ductility: 1 gram of gold can be drawn into 2.4 km of wire or hammered to 0.1 μm thickness (gold leaf).
+
+**Weaknesses**:
+- Gold's density (19.3 g/cm³) and cost limit use to thin-film and wire applications — bulk structural use is impractical.
+- Gold is soft (HV ~25 annealed) — unsuitable for wear surfaces without alloying or hardening.
 
 ### Silver
 
@@ -116,6 +148,14 @@ Unlike gold, silver rarely occurs as native metal. Most silver is produced as a 
 - **Primary silver mines (~25%)**: Vein deposits with 200-1000 g/t Ag. Major producers: Mexico, Peru, Poland (Lubin mine), Australia. Typically mined underground.
 - **Recycling (~10%)**: Electronic scrap, photographic waste (declining), jewelry, and industrial catalysts.
 
+**Strengths**:
+- Silver is overwhelmingly a byproduct metal (65% from lead-zinc and copper operations) — no dedicated silver mining infrastructure needed.
+- Highest electrical conductivity (63 × 10⁶ S/m) and thermal conductivity (429 W/(m·K)) of any element.
+
+**Weaknesses**:
+- Silver tarnishes in air (Ag₂S from H₂S) — surface degradation affects electrical contact reliability over time.
+- Primary silver ore grades (200-1000 g/t) are low relative to base metals, requiring large-scale mining operations.
+
 ### Silver Extraction
 
 **Lead ore smelting and Parkes process** (dominant route, see [Non-Ferrous Metals](non-ferrous.md) for full lead smelting details):
@@ -127,14 +167,13 @@ Silver is recovered from lead bullion via the Parkes process, which exploits the
 4. Cupel the rich lead: oxidize remaining lead in a reverberatory furnace at 950-1050°C with air blast. Lead oxidizes to PbO (litharge, which melts and flows away). Silver (and gold) do not oxidize and remain as metallic doré bullion.
 5. Recovery: >98% of silver and gold from lead bullion.
 
-**Copper anode slime treatment** (second most important silver source):
+**Strengths**:
+- Parkes process achieves >98% silver recovery from lead bullion using zinc as a selective extractant — high yield with a simple reagent.
+- Copper anode slime treatment recovers silver, gold, and PGM from a waste stream — turning a refinery byproduct into the highest-value feedstock.
 
-During electrolytic copper refining (see [Copper & Bronze](copper-bronze.md)), insoluble metals accumulate as anode slime (anode sludge) at the bottom of electrolytic cells. Typical composition: 5-25% Ag, 0.5-5% Au, 10-30% Cu, 5-15% Se, 1-5% Te, plus Pt, Pd, Ni, and sulfates. Processing sequence:
-1. **Decopperization**: Leach anode slime with hot dilute H₂SO₄ (10-15%) at 80-90°C with air sparging. Copper dissolves (Cu → CuSO₄) and is recovered by electrowinning. Selenium also partially dissolves.
-2. **Selenium/tellurium removal**: Roast decopperized slime at 500-600°C in air. Selenium volatilizes as SeO₂ (collected in wet scrubbers) and tellurium remains in the calcine.
-3. **Smelting (doré furnace)**: Melt calcine in a small reverberatory or rotary furnace at 1100-1200°C with silica flux and soda ash. Base metals oxidize and form slag. Silver and gold collect as doré bullion (95-99% Ag+Au). Doré is cast into anodes for electrolytic refining.
-4. **Silver electrolysis (Moebius or Balbach-Thum process)**: Doré anodes in nitric acid electrolyte (AgNO₃ + HNO₃). Silver deposits on stainless steel cathodes or graphite cathodes at 150-300 A/m², 1.5-2.5 V. Current efficiency: 90-95%. Product: 99.95-99.99% Ag.
-5. **Gold recovery**: Gold and PGM accumulate in the anode slime from silver electrolysis. This slime is processed by aqua regia dissolution and selective precipitation (see gold refining above).
+**Weaknesses**:
+- Parkes process requires zinc metal production and lead smelting — a two-metallurgy dependency chain.
+- Copper anode slime processing involves multiple steps (decopperization, selenium removal, doré smelting, electrolysis) — each step requires specialized equipment.
 
 ### Silver Refining
 
@@ -155,6 +194,14 @@ Melt impure silver at 1000-1100°C. Blow air or oxygen through the melt. Base me
 
 Pass a molten zone along a silver bar (zone refining — same principle as for silicon purification). Impurities segregate to one end of the bar. Multiple passes achieve five-nines (99.999%) or higher purity. Slow and expensive but necessary for semiconductor-grade silver paste used in photovoltaic cells.
 
+**Strengths**:
+- Moebius electrolytic refining produces 99.95-99.99% silver at low energy cost (~0.3 kWh/kg Ag).
+- Fire refining (99.5-99.9%) is simple and fast — melt and blow air — suitable for coinage and jewelry without electrolytic infrastructure.
+
+**Weaknesses**:
+- Zone refining for semiconductor-grade (99.999%+) is slow and expensive — multiple passes needed per bar.
+- Moebius process generates anode slime containing gold and PGM that requires separate precious metals refining — adds processing complexity.
+
 ### Silver Properties and Applications
 
 **Physical properties**:
@@ -168,6 +215,14 @@ Pass a molten zone along a silver bar (zone refining — same principle as for s
 - **Electrical contacts**: Silver and silver alloys (Ag-CdO, Ag-SnO₂, Ag-Ni) for relay and switch contacts. Low contact resistance, high current capacity.
 - **Solder and brazing**: Silver-bearing solders (96.5Sn-3.0Ag-0.5Cu, SAC305) are the lead-free solder standard for electronics assembly (see [Non-Ferrous Metals](non-ferrous.md) tin section).
 - **RF and high-frequency circuits**: Silver plating on copper traces reduces skin-effect losses at MHz-GHz frequencies. Plating thickness: 2-10 μm.
+
+**Strengths**:
+- Silver paste screen-printing metallizes >95% of crystalline silicon solar cells — the single largest industrial use of silver and irreplaceable at scale.
+- Lead-free SAC305 solder (96.5Sn-3.0Ag-0.5Cu) provides reliable electronics assembly without toxic lead.
+
+**Weaknesses**:
+- Silver tarnish (Ag₂S) increases contact resistance over time — requires protective plating or atmospheres for long-term reliability.
+- Solar cell silver consumption (~100 mg/cell) creates ~100 Moz/year demand — supply security concerns as photovoltaic production scales.
 
 ### Interdependencies and Bootstrap Sequence
 
@@ -185,6 +240,14 @@ Precious metal production depends heavily on existing metallurgical and chemical
 3. **Cyanidation and electrowinning** (Years 25-35): Requires NaCN, lime, activated carbon, and DC power. Industrial-scale gold extraction. Heap leaching for low-grade ores.
 4. **Electrolytic refining (Wohlwill, Moebius)** (Years 30-40): Requires stable DC power, aqua regia, silver nitrate electrolyte. Produces four-nines gold and silver suitable for semiconductor packaging.
 5. **Semiconductor-grade purity** (Years 40-50): Zone refining, specialized electrolyte management, cleanroom handling. Five-nines gold for wire bonding, five-nines silver paste for solar cells.
+
+**Strengths**:
+- Clear 30-year bootstrap sequence from panning to semiconductor-grade — each stage builds on the previous, enabling incremental capability growth.
+- Byproduct recovery from lead and copper operations generates revenue from existing infrastructure — no standalone mine required.
+
+**Weaknesses**:
+- Cyanidation and electrolytic refining require chemical and electrical infrastructure (NaCN, DC power, HNO₃) not available until mid-bootstrap.
+- Semiconductor-grade purity (99.999%+) requires zone refining or repeated electrolysis — slow, expensive, and energy-intensive.
 
 ### Safety & Hazards
 

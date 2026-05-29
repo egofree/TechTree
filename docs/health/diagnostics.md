@@ -63,6 +63,20 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 4. **Measure blood pressure**: Wrap cuff around upper arm at heart level. Inflate to 30 mmHg above palpated systolic pressure. Place stethoscope over brachial artery (antecubital fossa). Deflate at 2-3 mmHg per second. First sound = systolic pressure. Sound disappears = diastolic pressure. Record as systolic/diastolic (e.g., 120/80 mmHg).
 5. **Assess pulse oximetry (if available)**: Clip sensor to fingertip. Normal SpO₂: 95-100%. Below 90% = significant hypoxemia requiring supplemental oxygen. Below 85% = severe hypoxemia, risk of cardiac arrest.
 
+**Verification**: Compare measured values to the normal ranges table below. Any value outside the normal range for the patient's age group warrants repeat measurement to exclude technique error. Document all five vital signs (temperature, pulse, respiratory rate, blood pressure, SpO₂) with the time of measurement.
+
+**Expected accuracy**: Thermometer ±0.1°C (mercury) or ±0.5°C (alcohol). Blood pressure ±3 mmHg (aneroid gauge, calibrated). Pulse count ±2 bpm (60-second count). Respiratory rate ±1 breath/min (60-second count). SpO₂ ±2% (pulse oximeter).
+
+**Strengths**:
+- Provides objective, repeatable measurements that track disease progression over time
+- Requires minimal equipment (thermometer, stethoscope, BP cuff) that is reusable for years with no consumables
+- All measurements can be performed in under 5 minutes per patient
+
+**Weaknesses**:
+- Blood pressure reading varies with cuff size, arm position, and operator technique — single readings may be misleading
+- Rectal and axillary temperatures require correction factors that introduce uncertainty
+- Pulse oximetry requires electronics and may not be available at earliest bootstrap stages
+
 ### Basic Physical Examination
 
 1. **General inspection**: Observe the patient before touching. Note: level of consciousness (alert, confused, unresponsive), posture, skin color (pale, flushed, cyanotic, jaundiced), distress level (comfortable, mild, moderate, severe), nutritional state.
@@ -71,6 +85,20 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 4. **Cardiovascular**: Auscultate heart at four valve positions. Normal: two heart sounds (S1 "lub," S2 "dub"). Murmurs = turbulent flow through valves (pathology grading I-VI by intensity). Assess jugular venous distension (elevated >3 cm = right heart failure or fluid overload).
 5. **Abdominal examination**: Inspect for distension, scars. Auscultate bowel sounds (present = normal; absent >2 min = ileus or peritonitis). Percuss for shifting dullness (ascites). Palpate all quadrants — tenderness, guarding, rigidity, masses. Rebound tenderness = peritoneal irritation (appendicitis, peritonitis).
 
+**Verification**: A complete physical examination should take 10-15 minutes and cover all four examination techniques (inspection, palpation, percussion, auscultation) for each body region. Findings should be documented immediately — memory degrades within minutes for subtle details.
+
+**Expected accuracy**: Physical examination has variable sensitivity and specificity by finding. Rebound tenderness for appendicitis: sensitivity 50-70%, specificity 60-80%. Reduced breath sounds for pneumothorax: sensitivity 70-85%, specificity 80-90%. Clinical examination combined with vital signs identifies the correct diagnosis in 70-80% of common conditions.
+
+**Strengths**:
+- Requires no equipment beyond a stethoscope — can be performed anywhere
+- Provides immediate diagnostic information without waiting for laboratory results
+- Combines multiple examination techniques to cross-validate findings
+
+**Weaknesses**:
+- Highly operator-dependent — diagnostic accuracy varies with examiner experience and thoroughness
+- Many findings have low specificity (e.g., abdominal tenderness occurs in appendicitis, cystitis, mesenteric adenitis, and constipation)
+- Obese patients, uncooperative patients, and those with altered consciousness limit examination reliability
+
 ### Basic Laboratory Tests
 
 1. **Urine dipstick (if reagent strips available)**: Dip strip in fresh urine, read at specified times. Test for: glucose (diabetes), protein (kidney disease), blood (stones, infection, tumor), leukocytes (UTI), nitrites (bacterial infection), pH, specific gravity.
@@ -78,6 +106,22 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 3. **Blood smear preparation**: Prick fingertip with sterile lancet. Place a small drop of blood on one end of a glass slide. Using a second slide as a spreader at 30-45° angle, spread the blood into a thin film. Air dry. Fix with methanol for 2 minutes. Stain with Wright's stain (1-3 minutes), rinse with buffered water, air dry. Examine under oil immersion (1000×).
 4. **Blood smear interpretation**: Red blood cells: normal size and color (normocytic, normochromic), small/pale (iron deficiency), large (B12/folate deficiency). White blood cells: neutrophils (bacterial infection — elevated), lymphocytes (viral infection — elevated), eosinophils (parasites, allergy — elevated). Platelets: estimate quantity (low = bleeding risk, high = thrombosis risk).
 5. **Hemoglobin estimation**: Sahli method — add blood to HCl, dilute with water until color matches standard. Reading in g/dL. Normal: male 13-17 g/dL, female 12-15 g/dL. Anemia: <12 g/dL (female), <13 g/dL (male).
+
+**Verification**: Run a control blood smear from a known healthy donor alongside patient samples to confirm stain quality and microscope function. Compare Sahli hemoglobin readings on duplicate samples — results should agree within ±1 g/dL. For urine dipsticks, test with a known glucose solution (positive control) and distilled water (negative control) when opening a new bottle of strips.
+
+**Expected accuracy**: Blood smear differential count: ±5% for major cell types when counted by an experienced technician. Hemoglobin (Sahli method): ±1 g/dL compared to reference methods. Urine dipstick: semi-quantitative, detects glucose ≥0.25%, protein ≥30 mg/dL, blood ≥10 RBC/μL. Microscope resolution at 1000× (oil immersion): resolves structures down to 0.2 μm.
+
+**Materials specifications**: Wright's stain: methylene blue-eosin mixture in methanol, pH 6.4-6.8. Glass slides: 75 × 25 mm, 1 mm thickness, cleaned with ethanol before use. Lancets: sterile, 2-3 mm blade depth for capillary blood collection. Sahli hemoglobin tube: graduated 4-20 g/dL, ±0.5 g/dL accuracy.
+
+**Strengths**:
+- Provides objective laboratory data that confirms or refutes clinical impressions
+- Blood smear differentiates bacterial from viral infection, guiding treatment decisions
+- Hemoglobin estimation identifies anemia requiring treatment, with equipment that lasts years
+
+**Weaknesses**:
+- Requires microscope, centrifuge, stains, and trained technician — significant infrastructure investment
+- Wright's stain has a shelf life of 6-12 months once opened; fresh stain produces better results
+- Sahli hemoglobin method is less accurate than cyanmethemoglobin method (±1 g/dL vs ±0.3 g/dL)
 
 ## Quantitative Parameters
 

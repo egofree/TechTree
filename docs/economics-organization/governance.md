@@ -88,10 +88,22 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
    - How rules can be changed (amendment process)
 
 4. **Establish enforcement mechanisms**: Rules without enforcement are suggestions. Define consequences for violations:
-   - Fines (monetary penalties proportional to offense severity)
-   - Exclusion (temporary or permanent ban from markets, guilds, or community functions)
-   - Restitution (compensating the harmed party)
-   - Community service (labor contribution to public goods)
+    - Fines (monetary penalties proportional to offense severity)
+    - Exclusion (temporary or permanent ban from markets, guilds, or community functions)
+    - Restitution (compensating the harmed party)
+    - Community service (labor contribution to public goods)
+
+**Decision criteria**: Use council of elders for communities <500 where interpersonal trust is strong and decisions are routine. Use assembly (direct democracy) for communities 100-5,000 where broad participation is culturally valued and time permits deliberation. Use administrative hierarchy for >1,000 where speed and consistency matter more than participation. Use representative council for >5,000 where assembly is impractical.
+
+**Strengths**:
+- Explicit enforcement mechanisms give rules teeth — consequences deter violations
+- Defined scope prevents governance overreach — clear boundaries on decision authority
+- Written rules reduce ambiguity — disputes resolved by reference to documented text
+
+**Weaknesses**:
+- Enforcement requires resources — fines must be collected, exclusion must be monitored
+- Overly harsh penalties reduce compliance — proportional consequences work better than extreme punishment
+- Rules cannot anticipate every situation — gaps require judgment and interpretation, which creates disputes
 
 ### 4.2 Operating Governance
 
@@ -103,6 +115,16 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
 
 8. **Collect feedback and adjust**: Governance structures that ignore community feedback lose legitimacy. Establish channels for petitions, complaints, and suggestions. Review and respond within a defined timeframe (e.g., 30 days).
 
+**Strengths**:
+- Regular sessions create predictable decision-making rhythm — community knows when and how decisions are made
+- Written record of all decisions creates precedent system — consistent rulings build trust
+- Feedback channels maintain legitimacy — responsive governance prevents rebellion and withdrawal of cooperation
+
+**Weaknesses**:
+- Decision delays — regular sessions mean urgent matters may wait days or weeks for formal action
+- Record-keeping overhead — documenting every decision requires dedicated scribe time
+- Feedback processing capacity — high petition volume can overwhelm governance if no triage system exists
+
 ### 4.3 Dispute Resolution
 
 9. **Establish a formal hearing process**:
@@ -113,6 +135,26 @@ Governance depends on [writing](../knowledge/writing.md) for written laws, contr
    - Decision recorded and published
 
 10. **Provide appeal mechanism**: For significant disputes, allow one level of appeal to a higher authority (council of elders reviewing a village headman's decision, guild master reviewing a foreman's ruling).
+
+**Strengths**:
+- Formal hearing process ensures both parties are heard — reduces perception of bias
+- Evidence-based decisions (witnesses, documents) produce fairer outcomes than arbitrary judgment
+- Appeal mechanism provides safety net — errors in first-instance rulings can be corrected
+
+**Weaknesses**:
+- Formal process is slower than informal mediation — cases take 3-14 days instead of hours
+- Requires literate scribes for documentation — illiterate communities cannot maintain formal records
+- Appeals add delay and cost — every dispute potentially heard twice before final resolution
+
+### Governance Model Trade-offs
+
+| Model | Decision Speed | Legitimacy | Scalability | Corruption Risk | Best Population |
+|-------|:-:|:-:|:-:|:-:|:-:|
+| Council of elders | Fast | High (traditional authority) | Poor (limited to <500) | Low (personal reputation at stake) | 50-500 |
+| Assembly (direct) | Slow | Very high (broad participation) | Poor (limited to <5,000) | Low (transparency) | 100-5,000 |
+| Guild-based | Moderate | Moderate (domain expertise) | Moderate | Moderate (guild self-interest) | 200-50,000 |
+| Administrative hierarchy | Fast | Low-Moderate (impersonal) | Excellent | High (concentrated power) | 1,000+ |
+| Representative council | Moderate | High (elected) | Good | Moderate (accountability mechanisms) | 5,000+ |
 
 ---
 

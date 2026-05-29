@@ -32,6 +32,10 @@
 
 **Fuel requirements**: Hardwood chips (2-5 cm pieces), charcoal, or coke. Moisture content <20% (wet fuel produces steam, cools the bed, reduces gas quality). Fuel consumption: ~1-2 kg wood per kWh of engine output. Gas production: ~2-3 m³ gas per kg of dry wood.
 
+**Strengths**: Proven technology — over 1 million WWII vehicles ran on wood gas; operates on locally available biomass (energy independence); charcoal byproduct has multiple uses (metallurgy, water filtration, soil amendment); dual-fuel diesel operation gives 80-95% diesel displacement; no petroleum required.
+
+**Weaknesses**: Producer gas has only 4-6 MJ/Nm³ heating value (vs 35 for natural gas — 6× lower); engine power derated to 40-60% of gasoline rating; tar is the primary operational problem — condenses in piping and destroys engines without multi-stage cleaning; fuel must be dried to <20% moisture and chipped to uniform 2-5 cm size; startup takes 10-20 minutes from cold.
+
 ### Gas Cleaning System
 
 Producer gas contains tars, particulates, and water that will destroy engines quickly. Multi-stage cleaning required:

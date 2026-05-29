@@ -47,6 +47,10 @@ Organic chemistry feedstocks fuel the entire materials chain: solvents for semic
 - **Yield**: ~40-60% usable products from simple distillation. Residue can be cracked thermally (heat to 450-500°C in closed vessel → breaks large molecules into smaller ones, yields more gasoline/kerosene).
 - **Safety**: NEVER distill in sealed vessel — pressure explosion risk. Use open system with vent. Fire risk extreme — have sand and fire blankets ready. No open flames near crude oil. Work outdoors or in well-ventilated shed.
 
+**Strengths**: Batch still is constructible from iron/copper and basic plumbing — achievable at early metallurgical stages; produces multiple fuel grades from a single feedstock; thermal cracking extends gasoline yield from heavy residue; 40-60% of crude becomes usable products.
+
+**Weaknesses**: Poor separation compared to fractional column (overlapping boiling ranges); batch operation is labor-intensive and slow; fire/explosion risk from petroleum vapors is extreme; residue disposal (asphalt, heavy fuel oil) requires planning; no catalysts means limited conversion of heavy fractions.
+
 **[Fractional distillation column](../glossary/fractional-distillation-column.md)** (continuous):
 - **Construction**: Vertical column 5-20 m tall, 0.3-1.5 m diameter. Iron or steel construction. Internal trays (bubble-cap or sieve trays) every 0.3-0.6 m — each tray is a theoretical separation stage. 15-40 trays typical. Reboiler at bottom (steam-heated or oil-fired). Condenser at top (water-cooled).
 - **Operation**: Preheated crude oil fed into column at midpoint (~tray 10-15 of 30). Hot vapors rise through trays. Each tray holds a liquid layer. Rising vapors bubble through liquid — heavier components condense, lighter components strip out. Temperature gradient from bottom (~350°C) to top (~30°C). Draw products at appropriate side ports. Continuous operation — feed in, multiple products out.

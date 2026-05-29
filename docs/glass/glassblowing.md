@@ -1,199 +1,400 @@
 # Glassblowing & Scientific Apparatus
 
 > **Node ID**: glass.advanced.glassblowing
-> **Domain**: Glass
+> **Domain**: [Glass](./index.md)
+> **Dependencies**: [`glass.advanced`](advanced.md), [`energy.electricity`](../energy/electricity.md)
+> **Enables**: [`chemistry.distillation`](../chemistry/distillation.md), [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`silicon.crystal-growth`](../silicon/crystal-growth.md)
 > **Timeline**: Years 25-40
 > **Outputs**: glass_apparatus, laboratory_glassware
+> **Critical**: Yes — laboratory glassware (flasks, condensers, tubing) is required for all wet chemistry, distillation, and gas handling in the bootstrap sequence.
 
-### Lampworking
+## 1. Overview
 
-Bench-scale glassblowing with torch, as opposed to furnace glassblowing (gathering molten glass on a pipe). Lampworking works glass rod and tubing directly in a flame — ideal for precision scientific apparatus.
+Glassblowing transforms glass tubing and rod into scientific apparatus, containers, and precision instruments. Two main techniques exist: **furnace glassblowing** (gathering molten glass on a blowpipe) for containers and window glass, and **lampworking** (bench-scale torch work) for precision laboratory glassware. Lampworking is the primary technique for producing the flasks, condensers, distillation columns, and tubing assemblies required by [chemistry](../chemistry/index.md), [silicon purification](../silicon/purification.md), and [gas handling](../gas-handling/index.md).
 
-**Basic operations**:
-- **[Rotate tubing](../glossary/rotate-tubing.md)** in flame to heat evenly. Uneven heating causes asymmetric deformation and weak joints.
-- **Pull**: Heat section, remove from flame, pull steadily to draw thin walls or capillary tubing. Wall thickness controlled by pull speed and temperature.
-- **Push**: Heat and push ends together to thicken walls. Used to form bulbs and reservoirs.
-- **Blow**: Blow (by mouth through rubber hose or directly through tube) to expand heated section into bubble. Control expansion with breath pressure and rotation speed.
-- **Score and break**: Scratch glass surface with tungsten carbide or diamond scribe, snap with thumbs. Wet the scratch line with water to help propagate the crack cleanly.
-- **Fuse joints**: Heat overlapping pieces until both soften, press together, rotate in flame to smooth seam. Glass must be at same temperature to fuse without stress.
+This capability depends on [advanced glass production](advanced.md) for borosilicate tubing and soda-lime glass melt. Downstream, every chemical process — [distillation](../chemistry/distillation.md), [ammonia synthesis](../chemistry/ammonia.md), [electrolysis](../chemistry/electrolysis.md) — uses glass apparatus produced by this capability.
 
-### Torch Types
+## 2. Prerequisites
 
-**[Gas-air torch](../glossary/gas-air-torch.md)** (moderate temperature, ~1200°C):
-- Town gas or propane mixed with ambient air. Simple construction — single tube with gas orifice, air drawn in by Venturi effect.
-- Suitable for soft glass (soda-lime, lead glass). NOT hot enough for borosilicate (softening point ~820°C — needs higher flame temperature than glass can achieve in gas-air).
-- Advantages: Simple, cheap, no oxygen supply needed.
+**Materials**:
+- [Borosilicate glass tubing](advanced.md) (3-50 mm OD, 0.5-2.5 mm wall) — primary raw material for lampworking
+- [Soda-lime glass melt](basic.md) — for furnace glassblowing
+- [Oxygen gas](../chemistry/air-separation.md) — for gas-oxygen torches
+- Propane or natural gas — torch fuel
 
-**[Gas-oxygen torch](../glossary/gas-oxygen-torch.md)** (~2000°C):
-- Propane or natural gas mixed with compressed oxygen. Mix at torch tip (pre-mix nozzle) or at burner head (surface mix — separate gas and oxygen ports, mix at combustion point).
-- Surface mix produces softer, more controllable flame with distinct zones (inner reducing cone, outer oxidizing envelope). Preferred for borosilicate work.
-- Suitable for borosilicate glass (working range 820-1200°C) and soft glass. THE standard torch for laboratory glassblowing.
+**Tools and equipment**:
+- Gas-oxygen torch (propane-O₂ or natural gas-O₂, ~2000°C flame)
+- Oxy-hydrogen torch (~2800°C) for fused silica work
+- Annealing oven (electric or gas, 500-600°C)
+- Crossed polarizer sheets for stress testing
+- Tungsten carbide scribe or diamond cutter
 
-**[Oxy-hydrogen torch](../glossary/oxy-hydrogen-torch.md)** (~2800°C):
-- Hydrogen and oxygen burned at torch tip. Very hot, very clean (only combustion product is water vapor). Transparent blue flame.
-- Required for fused silica / quartz glass (softening point ~1600°C). Also used for glass-to-glass seals on high-silica glasses.
-- Hydrogen explosion risk — leak-check all connections before each use. Flashback arrestors required on both gas lines.
+**Infrastructure**:
+- [Electrical power](../energy/electricity.md) for annealing oven
+- Ventilation (fume hood or exhaust fan) for torch work
+- Compressed gas supply (O₂ at 0.1-0.3 MPa, fuel gas at 0.01-0.05 MPa)
 
-### Standard Laboratory Apparatus
+## 3. Bill of Materials
 
-**Round-bottom flask**:
-- Blow bubble on end of tubing, heat-seal and detach. Fire-polish neck opening. Flare rim (rotate in flame while pushing outward with carbon rod). Sizes: 50 mL to 5 L.
+| Material | Quantity per typical session (4 hours) | Source | Alternatives |
+|----------|----------------------------------------|--------|-------------|
+| Borosilicate tubing (10 mm OD, 1 mm wall) | 5-20 m | [Advanced glass](advanced.md) — Danner process | Soda-lime tubing (lower thermal shock resistance) |
+| Propane gas | 0.5-2 kg | [Petroleum alternatives](../chemistry/petroleum-alternatives.md) | Natural gas, town gas |
+| Oxygen gas | 1-5 kg | [Air separation](../chemistry/air-separation.md) | Compressed air (insufficient for borosilicate) |
+| Tungsten carbide scribe | 1 (reusable) | [Machining](../machine-tools/machining.md) | Diamond scribe, hardened steel file |
+| Annealing oven fuel/power | 2-5 kWh | [Electricity](../energy/electricity.md) | Gas-fired kiln |
+| Rubber hose (for blow tube) | 0.5-1 m | [Rubber processing](../chemistry/adhesives-coatings.md) | Latex tubing, direct mouth blow |
 
-**Condenser (Liebig)**:
-- Inner tube (10-20 mm diameter borosilicate) passes through outer jacket (25-40 mm diameter). Two side arms on jacket for water in/out. Sealed at both ends. Water flows counter-current to vapor (cool water enters at bottom, exits at top).
+## 4. Process Description
 
-**Distillation head and column**:
-- Bent or angled tube connecting round-bottom flask to condenser. Side arm at ~75° angle for condenser connection. Optional: Vigreux column (tube with indented walls — increases surface area for fractional distillation).
+### Lampworking (Bench-Scale Torch Work)
 
-**Thistle funnel**:
-- Long tube with flared top and bulbous reservoir above delivery tube. Used for adding liquids slowly to reaction vessel through a seal.
+**Principle**: Glass rod and tubing are heated in a bench-mounted torch flame until they soften, then shaped by blowing, pulling, pushing, and fusing. The flame temperature determines which glass types can be worked: gas-air (~1200°C) for soft glass, gas-oxygen (~2000°C) for borosilicate, oxy-hydrogen (~2800°C) for fused silica.
 
-**Vacuum manifold**:
-- Complex assembly with multiple ports (4-12), each with its own stopcock (glass plug valve with ground-glass taper). Stopcocks greased with silicone or hydrocarbon grease for airtight seal. Central connection to vacuum pump line. Used for Schlenk-line chemistry and multi-vessel vacuum operations.
+**Prerequisites**:
+- [Borosilicate glass tubing](advanced.md) or rod stock
+- Gas-oxygen torch with surface-mix nozzle (propane-O₂)
+- Annealing oven at 560°C
+- Tungsten carbide scribe
 
-**Drying tube and desiccator**:
-- Glass tube filled with desiccant (CaCl₂, P₂O₅, or indicating silica gel) with glass wool plugs at each end. Placed on reaction vessel vent to admit dry air while excluding moisture.
+**Materials**:
+- Borosilicate tubing, 3-50 mm OD, wall thickness 0.5-2.5 mm
+- Propane-oxygen torch gas supply
+- Carbon rod (2-5 mm diameter) for flaring and pushing
 
-**Fritted glass filter**:
-- Porous glass disc (sintered glass — fine glass particles fused into permeable membrane) sealed into glass funnel body. Pore sizes: coarse (40-60 μm), medium (10-15 μm), fine (4-5.5 μm). Used for vacuum filtration of corrosive solutions (resists all acids except HF and hot H₃PO₄).
+**Construction steps — basic operations**:
+1. **Rotate tubing in flame**: Hold tubing with both hands, rotate continuously in the flame to heat evenly. Uneven heating causes asymmetric deformation. Heat until glass softens and surface appears glossy (~820°C for borosilicate).
+2. **Pull**: Heat a 10-20 mm section, remove from flame, pull steadily to draw thin walls or capillary tubing. Pull speed: 10-50 mm/second. Wall thickness controlled by pull speed and glass temperature.
+3. **Push**: Heat section and push ends together to thicken walls. Used to form bulbs and reservoirs.
+4. **Blow**: Attach rubber hose to open end. Heat target section. Blow with steady breath pressure (5-15 kPa) to expand into bubble. Control expansion with breath pressure and rotation speed.
+5. **Score and break**: Scratch glass surface with tungsten carbide scribe. Wet the scratch with water. Snap with thumbs, applying pressure away from the scribe line.
+6. **Fuse joints**: Heat overlapping pieces until both soften to the same temperature. Press together gently. Rotate in flame to smooth the seam. Glass must be at the same temperature at both pieces to fuse without stress.
 
-### Annealing
+**Calibration**: After each joint or seal, examine the work through crossed polarizers. Stressed glass shows bright interference colors. Uniform dark field indicates stress-free work. Re-anneal any joint showing color fringes.
 
-ALL glass apparatus must be annealed after working. Residual stress from uneven cooling causes spontaneous fracture — sometimes weeks or months later, without warning.
+**Expected performance**:
+- Joint strength: ≥80% of parent tube strength when properly annealed
+- Working temperature range: 820-1200°C for borosilicate
+- Production rate: 5-15 simple joints per hour for experienced lampworker
 
-- **Process**: Place finished piece in annealing oven at appropriate temperature. Hold to equalize internal temperature throughout the glass (stress relaxation). Cool slowly through the strain point.
-- **Borosilicate**: Hold at 560°C for 30-60 minutes (thickness-dependent — 1 hour per 25 mm of wall thickness). Cool at 1-3°C/minute to below 510°C (strain point). Below strain point, can cool faster (5-10°C/minute) to room temperature.
-- **Soda-lime**: Hold at 510°C. Cool at 1-2°C/minute to below 470°C.
-- **Test for stress**: Examine glass between crossed polarizers (polarizing film sheets). Stressed glass shows bright interference fringes (colors). No fringes = fully annealed. Simple polariscope can be made from two polarizing sheets + light source.
+**Strengths**:
+- Precision work on small scale — capillary tubes, T-seals, and complex assemblies produced at bench scale
+- No furnace required — torch and annealing oven are the only major equipment
+- Direct visual feedback — glass transparency allows real-time inspection of wall thickness and joint quality
+
+**Weaknesses**:
+- Hand technique requires significant skill development — 50-200 hours of practice for basic competence
+- Production rate limited by operator skill — not scalable without more operators
+- Borosilicate requires oxygen supply — gas-air torches are insufficient for reliable borosilicate work
+
+### Furnace Glassblowing (Container Production)
+
+**Principle**: A blowpipe (hollow iron tube) is used to gather molten glass from a furnace, shape it by blowing and tooling, and transfer it to an annealing oven. Used for bottles, flasks, window glass, and large vessels.
+
+**Prerequisites**:
+- [Glass melting furnace](basic.md) with glory hole (reheating furnace)
+- Blowpipe, punty, jacks, shears, paddles, blocks, marver
+- Annealing oven at 510-560°C
+
+**Materials**:
+- Soda-lime glass melt at 1000-1200°C in furnace
+- Iron blowpipe (1.2-1.5 m long, 15-20 mm diameter, 1-2 mm wall)
+- Wooden blocks and paddles (fruitwood — cherry, apple, pear)
+- Steel jacks, shears, marver plate
+
+**Construction steps — round-bottom flask**:
+1. Heat blowpipe tip to red heat. Dip into molten glass with smooth, steady rotation. Gather 50-150 g of glass. Turn the pipe continuously as you lift.
+2. Roll the gather on the marver (flat steel plate) to shape into a smooth, symmetrical cylinder.
+3. Cap the blowpipe with your thumb and blow a short puff of air. The trapped air expands in the molten glass, forming a bubble. Reheat in glory hole, blow again to expand.
+4. Swing the blowpipe to elongate the bubble (gravity stretches it). Roll pipe on blowing bench arms. Use jacks to constrict the neck.
+5. Score the neck with jacks. Tap to break the piece off the blowpipe. Transfer to punty (solid iron rod) attached to the bottom of the vessel.
+6. Heat the neck opening in the glory hole. Flare the rim by rotating in flame while pushing outward with a carbon rod.
+7. Transfer to annealing oven at 560°C (borosilicate) or 510°C (soda-lime). Hold 30-60 minutes. Cool at 1-3°C/minute through strain point.
+
+**Calibration**: Check wall thickness by tapping — a uniform wall produces a clear ring, thin spots produce a dull thud. Verify roundness by rolling on a flat surface (no wobble). Test for stress with crossed polarizers.
+
+**Expected performance**:
+- Flask volume accuracy: ±10% for hand-blown pieces
+- Wall thickness: 1-3 mm (varies with skill)
+- Production rate: 10-30 flasks per hour (skilled 3-person team)
+- Sizes: 50 mL to 5 L
+
+**Strengths**:
+- Produces large vessels (up to 5 L) not feasible with lampworking
+- Fast production rate with a skilled team — 50-100 simple vessels per day
+- No oxygen supply required for soda-lime glass — gas-air furnace sufficient
+
+**Weaknesses**:
+- Requires furnace at glass melting temperature (1000-1200°C) — major infrastructure
+- Team-based operation — minimum 2-3 people for efficient production
+- Wall thickness and volume less precise than lampworked apparatus
+- Hot glass is invisible — high burn risk if proper protocols are not followed
+
+### Laboratory Apparatus Assembly
+
+**Principle**: Standard laboratory glassware items are assembled from borosilicate tubing using lampworking techniques. Each item has a defined construction procedure that produces a functional, annealed apparatus.
+
+**Prerequisites**:
+- Borosilicate tubing stock in multiple sizes (5, 10, 15, 25, 40 mm OD)
+- Gas-oxygen torch with surface-mix nozzle
+- Annealing oven at 560°C
+- Calipers, ruler, protractor
+
+**Materials**:
+- Borosilicate tubing: 5 mm OD (capillary), 10-15 mm OD (inner tubes), 25-40 mm OD (outer jackets)
+- Carbon rod, 2-5 mm diameter, for flaring and shaping
+
+**Construction steps — Liebig condenser**:
+1. Cut outer jacket tube to length: 200-400 mm, 25-40 mm OD, using scribe and snap.
+2. Fire-polish both ends of outer jacket by rotating in flame until edges are smooth.
+3. Cut inner tube to length: outer jacket length + 40 mm, 10-20 mm OD.
+4. Seal one end of inner tube by rotating in flame until surface tension closes the opening.
+5. Mark two points on outer jacket wall, 30 mm from each end, on opposite sides. Heat each point and blow a small hole (5-8 mm diameter) using a pointed carbon rod to open the wall.
+6. Prepare two side arm tubes: 8-10 mm OD, 40-60 mm long. Fire-polish one end of each.
+7. Fuse side arms into the holes on the outer jacket. Heat both the hole edge and the side arm end to softening temperature. Press together, rotate to smooth seam. Angle each side arm at ~45° from the jacket axis.
+8. Thread the inner tube through the outer jacket. Center it so 20 mm extends from each end.
+9. Seal the inner tube to the outer jacket at both ends. Heat the annular gap between inner tube OD and outer jacket bore. Apply a thin rod of borosilicate glass to fill the gap. Melt and smooth to form a ring seal at each end.
+10. Anneal at 560°C for 30-60 minutes. Cool at 1-2°C/minute to below 510°C.
+
+**Calibration**: Blow gently through one side arm while sealing the other and both tube ends with fingers. Submerge in water — no bubbles should escape from any seal. Pressure test to 5 kPa (light breath pressure). Fail: any visible leak.
+
+**Expected performance**:
+- Inner tube concentricity: ±1 mm within outer jacket
+- Side arm angle: 45° ± 5°
+- Seal integrity: leak-tight at 5 kPa internal pressure
+- Thermal shock resistance: survives steam condensation at 100°C with 15°C cooling water
+
+**Strengths**:
+- Condensers enable reflux and distillation — fundamental to all chemical processing
+- Borosilicate construction resists thermal shock from steam-vapor temperature cycling
+- Simple two-tube design is among the easiest complex apparatus to construct
+
+**Weaknesses**:
+- Four sealed joints (2 side arms, 2 ring seals) — each joint is a potential failure point
+- Annealing is critical — improperly annealed ring seals crack under thermal cycling
+- Inner tube alignment requires care — offset inner tube causes uneven condensation
 
 ### Glass-to-Metal Seals
 
-Sealing glass to metal allows electrical feedthroughs, electrode connections, and structural attachments in glass apparatus.
+**Principle**: Sealing glass to metal enables electrical feedthroughs, electrode connections, and structural attachments. The thermal expansion coefficient (CTE) of the glass must match the metal closely enough that the seal survives thermal cycling without cracking.
 
-**Matched seals**: Match thermal expansion coefficient of glass to metal. Tungsten and molybdenum (expansion ~5×10⁻⁶/°C) seal directly to borosilicate glass (expansion ~3×10⁻⁶/°C — close enough with proper technique). Copper (Dumet wire — copper-clad nickel-iron alloy) seals to soda-lime glass.
+**Prerequisites**:
+- [Tungsten wire](../metals/refractory-metals.md) or [molybdenum wire](../metals/refractory-metals.md) (for borosilicate seals)
+- [Copper wire](../metals/copper-bronze.md) or Dumet wire (for soda-lime seals)
+- Glass tubing matched to the metal CTE
+- Gas-oxygen torch
 
-**Technique**: Clean metal wire (etch in acid, rinse, dry). Insert through glass tubing. Heat glass around wire until it seals to metal surface. Glass must wet the metal (oxidized metal surface helps — pre-oxidize tungsten by heating in air). Cool slowly.
+**Materials**:
+- Tungsten wire: 0.5-2 mm diameter, >99.5% purity (CTE ~4.5 × 10⁻⁶/°C, matches borosilicate ~3.3 × 10⁻⁶/°C within acceptable tolerance)
+- Dumet wire: copper-clad Ni-Fe alloy (42% Ni, 58% Fe core, Cu cladding, CTE ~7 × 10⁻⁶/°C, matches soda-lime ~9 × 10⁻⁶/°C)
+- Borosilicate or soda-lime glass tubing, 3-8 mm OD
 
-**Graded seals**: When expansion mismatch is too large for a direct seal, use intermediate glasses. Series of glass sleeves with progressively changing expansion coefficient, each sealed to the next. Bridges from high-expansion metal (e.g., copper at 17×10⁻⁶/°C) to low-expansion glass (borosilicate at 3×10⁻⁶/°C) through 3-5 intermediate glasses.
+**Construction steps — tungsten-to-borosilicate seal**:
+1. Clean tungsten wire: etch in 10% NaOH solution for 30 seconds, rinse with water, dry. Remove all surface contamination.
+2. Pre-oxidize the tungsten wire by heating in air to ~800°C for 30-60 seconds until a thin blue-gray oxide layer forms. This oxide layer improves wetting — the glass flows around and bonds to the metal surface.
+3. Cut borosilicate tubing to length. Fire-polish one end.
+4. Thread the tungsten wire through the tubing, centered in the bore. The wire should have 0.1-0.3 mm clearance inside the glass bore.
+5. Heat the glass around the wire with the gas-oxygen torch, starting from one end. As the glass softens, it collapses around the wire. Rotate continuously for even sealing.
+6. Work along the wire length, sealing glass to metal over the full contact area. The seal should show no visible gap between glass and metal.
+7. Anneal at 560°C for 30 minutes. Cool at 1°C/minute to below 510°C.
 
-### Safety & Hazards
+**Calibration**: Apply 5 V across the seal with a multimeter in continuity mode. No conductivity should be measured through the glass (resistivity >10¹² Ω·cm for borosilicate at room temperature). Test seal integrity by heating to 200°C and quenching in 20°C water — no cracks after 3 cycles.
 
-- **Burns**: Glassblowing involves 800-2800°C material. Severe burns from brief contact with hot glass, torch flame, or radiant heat. Wear heat-resistant gloves (Kevlar or leather), safety glasses with side shields, long-sleeve cotton clothing. Hot glass looks identical to cold glass — assume ALL glass near the workstation is hot until proven otherwise.
-- **Cuts**: Broken glass causes deep lacerations. Clean up fragments immediately. Dispose of glass waste in designated rigid container. Never reach blindly into glass storage.
-- **Eye injury**: UV radiation from oxy-hydrogen and oxy-acetylene torches causes eye damage (welder's flash). Wear appropriate shaded lenses: #3-#5 for gas-air, #5-#7 for gas-oxygen, #8-#10 for oxy-hydrogen. Impact-resistant frame (polycarbonate or tempered glass).
-- ** Inhalation**: Soft glass (lead glass, soda-lime) releases lead or sodium fumes at working temperatures. Work in ventilated area. Respiratory protection for prolonged borosilicate work.
-- **Glass dust**: Cutting, grinding, and drilling glass produces fine silica dust — inhalation causes silicosis. Wet-grinding preferred. Wear dust mask (P100/N100) for dry grinding operations.
+**Expected performance**:
+- Seal survives thermal cycling from -50°C to +300°C
+- Electrical insulation: >10¹² Ω·cm through glass wall
+- Maximum wire diameter: 2 mm for reliable hand seal (larger wires require graded seals)
+- Service life: years under normal conditions if properly annealed
 
-### Glassblowing Tools
+**Strengths**:
+- Enables electrical feedthroughs for vacuum tubes, lamps, and sensors
+- Tungsten-borosilicate seal has <2 × 10⁻⁶/°C CTE mismatch — reliable through thousands of thermal cycles
+- Simple hand technique — no special equipment beyond torch and annealing oven
 
-**Blowpipe**: Iron tube 1.2-1.5 m long, 15-20 mm diameter, with a rounded or flared tip. Wall thickness 1-2 mm. The gather end is thickened slightly to hold molten glass. Weight: 0.5-1.5 kg depending on size. Iron must be kept clean and free of scale — rust particles contaminate the glass. Season new blowpipes by heating to red heat and dipping in dry sand several times to build a thin oxide layer that reduces glass adhesion.
+**Weaknesses**:
+- CTE mismatch must be <2 × 10⁻⁶/°C for reliable sealing — limits metal-glass combinations
+- Pre-oxidation step is required — bare metal does not wet glass reliably
+- Large diameter seals (>2 mm wire) require graded intermediate glasses to bridge CTE mismatch
 
-**Jacks**: Steel tweezers with two curved blades, 5-10 cm long, on spring-loaded handles 25-35 cm overall. Blade edges are rounded, not sharp. Used to neck in (constrict) the gather, shape the rim, and score the piece for removal from the blowpipe. The jack blade radius determines the narrowest constriction possible. Keep blades clean and lightly oiled to prevent rust.
+### Thermometer Construction
 
-**Paddles**: Flat boards of fruitwood (cherry, apple, pear) or graphite, 10-20 cm square, 1-2 cm thick, on a wooden handle 30-40 cm long. Wooden paddles are soaked in water before use — the steam layer prevents the paddle from sticking to hot glass and cools the surface slightly for controlled shaping. Graphite paddles are preferred for borosilicate work (no charring, smoother surface). Used to flatten bottoms, shape sides, and shield specific areas from reheating.
+**Principle**: A capillary tube with a bulb reservoir is filled with a temperature-sensitive liquid (alcohol or mercury) and sealed. The liquid column height changes linearly with temperature, enabling temperature measurement.
 
-**Shears**: Steel cutting shears with long handles (40-50 cm) and short blades (8-12 cm). Blade edges are ground straight, not serrated. Used to trim excess glass, cut the piece from the blowpipe, and shape hot glass. Spring-loaded models reduce hand fatigue. Shears must be kept sharp — dull blades crush rather than cut, leaving ragged edges.
+**Prerequisites**:
+- Precision bore capillary tubing (0.5-1.0 mm bore, ±0.02 mm tolerance)
+- [Alcohol](../chemistry/fermentation.md) (ethanol, dyed red) or mercury
+- Gas-oxygen torch, annealing oven
 
-**Marver**: Flat steel or cast iron plate, 30 × 40 cm minimum, polished smooth. Used to roll and shape the hot gather before and during blowing. The marver cools the glass surface slightly, stiffening the outer skin to control shape. A warm marver (heated on the furnace rim) shapes without excessive cooling. Keep the marver clean — any grit or debris imprints into the soft glass.
+**Materials**:
+- Borosilicate capillary tubing: 0.5-1.0 mm bore, 3-5 mm OD, 300-400 mm length
+- Borosilicate tubing for bulb: 5-10 mm OD, 1 mm wall
+- Ethanol (range -110°C to 80°C) or mercury (range -38°C to 357°C)
+- Dyestuff (red organic dye for alcohol, e.g., safranin)
 
-**Blocks**: Concave wooden cups (fruitwood, 8-15 cm diameter opening) on a handle, soaked in water. Used to shape the exterior of round forms. The water creates a steam cushion that prevents sticking. Different block sizes for different vessel diameters.
+**Construction steps**:
+1. Seal one end of the capillary tube by rotating in flame until surface tension closes the opening.
+2. Blow a bulb (5-10 mm diameter) at the sealed end: heat the sealed end, attach rubber hose to open end, blow gently to expand.
+3. Allow bulb and capillary to cool. Fill with dyed alcohol or mercury using a fine-tipped syringe or capillary action.
+4. Vacuum-degass the fill liquid: apply vacuum to the open end while warming the bulb. Bubbles of dissolved air rise and escape. Continue until no more bubbles appear (5-15 minutes).
+5. Seal the open end of the capillary with a flame while maintaining vacuum. The seal must be complete — any air leak invalidates the thermometer.
+6. Attach a brass or wooden scale with graduation marks. Calibrate at 0°C (ice-water bath) and 100°C (boiling water at 1 atm).
 
-### Glassblowing Technique
+**Calibration**: Immerse in ice-water slurry (0°C). Mark the liquid level. Immerse in boiling water (100°C at 1 atm sea level). Mark the liquid level. Divide the interval into 100 equal divisions. Verify at intermediate points (e.g., 50°C water bath with reference thermometer).
 
-**Gathering and initial shaping**:
-1. **Gather**: Heat the blowpipe tip to red heat. Dip into the molten glass with a smooth, steady rotation. Turn the pipe continuously as you lift — the gather forms a symmetric cylinder of molten glass. A typical gather is 50-150 g of glass. Multiple gathers (reheating and re-dipping) build up thicker walls for larger pieces.
-2. **Marver**: Roll the gather on the marver to shape it into a smooth, symmetrical cylinder. This initial shaping determines how evenly the bubble inflates. A lopsided gather produces a lopsided vessel.
-3. **Blow the bubble**: Cap the blowpipe with your thumb and blow a short puff of air into the pipe. The trapped air expands in the molten glass, forming a bubble. Reheat, blow again to expand. Glass temperature: 800-900°C for soda-lime. Blow steadily, not forcefully — the bubble expands as the glass softens under air pressure.
-4. **Shape**: Swing the blowpipe to elongate the bubble (gravity stretches it). Roll the pipe steadily on the arms of the blowing bench. Use jacks to constrict the neck. Use paddles and blocks to shape the body. Reheat in the glory hole (the working opening in the furnace) as needed — glass stiffens noticeably every 30-60 seconds at working temperature.
+**Expected performance**:
+- Range: -110°C to 80°C (alcohol) or -38°C to 357°C (mercury)
+- Accuracy: ±1°C with careful calibration (alcohol), ±0.5°C (mercury — more linear expansion)
+- Capillary bore: 0.5-1.0 mm determines sensitivity (smaller bore = more expansion per degree)
+- Response time: 10-60 seconds depending on bulb size and fluid
 
-**Transfer to punty (for rim work)**:
-- To work on the open end of the vessel (flaring the rim, adding handles), the piece must be transferred from the blowpipe to a punty (solid iron rod, 1-1.5 m). Score the neck with jacks, tap to break the piece off the blowpipe, and attach a small gather of molten glass on the punty tip to the bottom of the vessel. Now the rim faces up and can be opened, flared, or shaped.
-- The transfer must happen in under 10 seconds — the glass cools rapidly once removed from the furnace. Reheat immediately after transfer.
+**Strengths**:
+- Simple construction from standard glass tubing — no specialized components
+- Alcohol-filled thermometers are safe (non-toxic) and cover the common temperature range
+- Mercury-filled thermometers provide high accuracy (±0.5°C) over a wide range (-38°C to 357°C)
 
-### Glass Forms
+**Weaknesses**:
+- Mercury is toxic — vapor pressure at room temperature is 0.0012 mmHg, IDLH 10 mg/m³ (NIOSH)
+- Capillary must be precision-bore (±0.02 mm) — non-uniform bore causes non-linear scale
+- Glass breakage releases fill liquid — mercury contamination requires specialized cleanup
 
-**Bottle production**: Blow the bubble into a wet wooden mold (two-part hinged mold, soaked in water). The mold shapes the exterior while the interior follows the bubble shape. Neck is constricted with jacks before molding. Mold seam lines are visible on finished bottles. Production rate with a skilled team (gaffer + assistant): 30-60 bottles per hour.
+### Graduated Cylinder Construction
 
-**Window glass (crown method)**: Blow a large sphere (~30 cm diameter), transfer to punty, reheat, and spin the blowpipe rapidly. Centrifugal force flattens the sphere into a disc 1-1.5 m diameter, 2-4 mm thick. The thick center (bullion or bullseye) is discarded or used for less demanding applications. The thinner outer portions are cut into panes. Quality is uneven — the glass varies in thickness and has concentric distortion rings. Largely replaced by cylinder and float methods.
+**Principle**: A uniform cylinder with flat base is blown, annealed, and etched with volume graduation marks calibrated by weighing water (1 mL water = 1.000 g at 4°C).
 
-**Cylinder method (broad glass)**: Blow a large cylinder (2-3 m long, 15-25 cm diameter). Score lengthwise with a diamond or steel wheel, reheat, and flatten on a hot iron table. Produces larger, more uniform panes than the crown method. Common in the 18th and 19th centuries before float glass.
+**Prerequisites**:
+- Borosilicate or soda-lime glass tubing (20-50 mm OD)
+- [Analytical balance](../measurement/precision-metrology.md) (±0.01 g)
+- [Hydrofluoric acid](../chemistry/acids.md) for etching graduation marks
 
-### Lampworking for Scientific Glassware
+**Materials**:
+- Glass tubing: 20-50 mm OD, 1.5-2.5 mm wall, 250-350 mm length
+- Wax resist (beeswax or paraffin)
+- HF acid, 5-10% solution (for etching marks)
+- Deionized water for calibration
 
-Lampworking (flameworking) uses a bench torch to work glass rod and tubing, rather than gathering from a furnace. This is the technique for precision scientific apparatus:
+**Construction steps**:
+1. Blow a uniform cylinder on the end of the tubing, 200-300 mm tall. Ensure wall thickness is consistent (1.5-2.5 mm).
+2. Press the bottom against a flat marver while still soft to create a stable, flat base.
+3. Fire-polish the top rim. Flare slightly for a poured lip.
+4. Anneal thoroughly — uniform wall thickness is critical for accurate volume measurement. Hold at 560°C (borosilicate) for 60 minutes. Cool at 1°C/minute.
+5. Apply wax resist to the cylinder exterior. Scratch graduation marks through the wax at regular intervals using a sharp scribe and ruler.
+6. Apply 5-10% HF to the scratched marks for 30-60 seconds. The HF etches the exposed glass, creating permanent marks. Rinse thoroughly with water.
+7. Calibrate: weigh the empty cylinder. Add deionized water to each graduation mark. Weigh again. 1.000 g water = 1.000 mL at 4°C. Adjust marks if needed.
 
-- **Borosilicate tubing**: Standard stock sizes range from 3-50 mm outer diameter, with wall thickness 0.5-2.5 mm. Tubing is the primary raw material for laboratory glassblowing.
-- **Oxygen-gas torch**: Propane-oxygen or natural gas-oxygen produces flame temperatures of 1800-2000°C, sufficient for borosilicate (softening point ~820°C). The flame is adjustable from reducing (fuel-rich, blue inner cone) to neutral to oxidizing (oxygen-rich, shorter cone). Different flame chemistry affects glass color and surface quality.
-- **Typical operations**: Seal one end of a tube (rotate in flame, let surface tension close the opening). Make a T-seal (heat a hole in the wall of a tube, butt-join a perpendicular tube, flame-polish). Bend tubing (heat narrow zone, bend to desired angle, blow lightly to prevent collapse of the cross-section). Make a ring seal (join two tubes of different diameter end-to-end with a smooth tapered transition).
+**Calibration**: Weigh deionized water contained at each graduation mark. Acceptable accuracy: ±1% (e.g., 100 mL mark delivers 99-101 mL). Verify at 5-10 points along the scale. Record temperature during calibration — water density changes 0.02% per °C near room temperature.
 
-### Annealing After Forming
+**Expected performance**:
+- Volume accuracy: ±1% with careful calibration
+- Sizes: 10 mL (15 mm OD) to 2000 mL (80 mm OD)
+- Temperature limit: 500°C (borosilicate) before thermal expansion affects volume readings
+- Etched graduations are permanent and resistant to chemical cleaning
 
-All blown and lampworked glass must be annealed to remove internal stress introduced by uneven cooling during shaping. Even a properly made piece will crack spontaneously if not annealed:
+**Strengths**:
+- Enables precise liquid volume measurement — fundamental to all quantitative chemistry
+- Etched graduations are permanent — do not fade or wear with use
+- Borosilicate construction resists thermal shock and chemical attack
 
-- **Batch annealing oven**: A brick or ceramic fiber kiln heated electrically or by gas. Temperature monitored with a pyrometer. Load pieces through a front door.
-- **Process**: Place finished pieces in the annealing oven at 500-550°C (soda-lime) or 560°C (borosilicate). Hold for 30-60 minutes (longer for thicker pieces). Cool at 2-3°C/min through the strain point (470°C soda-lime, 510°C borosilicate). Below the strain point, cool at 5-10°C/min to room temperature.
-- **Stress test**: Examine finished pieces between crossed polarizers. Stressed areas show bright interference colors (yellow, red, blue bands). Uniform dark field indicates stress-free glass. A simple polariscope takes 10 minutes to build from two polarizing sheets and a light box.
+**Weaknesses**:
+- HF acid etching is hazardous — HF causes severe chemical burns and systemic fluoride poisoning (calcium gluconate gel must be on-site)
+- Uniform wall thickness requires skilled glassblowing — inconsistent walls distort volume readings
+- Calibration is temperature-dependent — accuracy degrades if used at temperatures far from calibration temperature
+
+## 5. Quantitative Parameters
+
+### Torch Types and Capabilities
+
+| Parameter | Gas-air | Gas-oxygen | Oxy-hydrogen |
+|-----------|---------|------------|-------------|
+| Flame temperature (°C) | ~1200 | ~2000 | ~2800 |
+| Suitable glass types | Soda-lime, lead | Borosilicate, soda-lime | Fused silica, borosilicate |
+| Gas supply needed | Town gas or propane | Propane + O₂ compressed | H₂ + O₂ compressed |
+| Oxygen consumption (L/min) | 0 (ambient air) | 2-10 | 2-8 |
+| Eye protection | Standard safety glasses | Shade #3-#5 | Shade #5-#7 (welding grade) |
+| Complexity | Low (single gas line) | Medium (two gas lines) | High (flashback arrestors mandatory) |
+
+### Annealing Parameters
+
+| Glass type | Annealing temp (°C) | Hold time | Cooling rate | Strain point (°C) |
+|-----------|---------------------|-----------|-------------|-------------------|
+| Soda-lime | 510 | 30-60 min | 1-2°C/min | 470 |
+| Borosilicate | 560 | 30-60 min (1 h per 25 mm wall) | 1-3°C/min | 510 |
+| Fused silica | 1100-1200 | 1-2 hours | 5-10°C/min | 990 |
+
+### Standard Apparatus Dimensions
+
+| Apparatus | Typical size range | Wall thickness | Key tolerance |
+|-----------|--------------------|----------------|---------------|
+| Round-bottom flask | 50 mL - 5 L | 1-3 mm | Spherical uniformity ±2 mm |
+| Liebig condenser | 200-400 mm jacket length | 1-2 mm | Inner tube concentricity ±1 mm |
+| Test tube | 12-20 mm OD, 100-150 mm long | 1-1.5 mm | Bottom radius >5 mm (no sharp corners) |
+| Capillary tubing | 0.5-1.0 mm bore | 0.3-0.5 mm wall | Bore diameter ±0.02 mm |
+| Graduated cylinder | 10-2000 mL | 1.5-2.5 mm | Volume accuracy ±1% |
+
+## 6. Scaling Notes
+
+- **Lampworking**: Solo activity. One skilled lampworker produces 5-15 joints per hour. Scaling requires more operators and more torch stations, not larger equipment.
+- **Furnace glassblowing**: Minimum team is 3 people (gaffer, assistant, servitor). A 3-person team produces 50-100 simple vessels per day, or 10-20 complex pieces.
+- **Annealing oven capacity**: Batch annealing ovens hold 10-50 vessels per load. Production is limited by annealing cycle time (4-8 hours per batch for borosilicate).
+- **Tubing stock**: The Danner process ([advanced glass](advanced.md)) produces tubing at 1-20 m/min. A single day's tubing production supplies a lampworking shop for weeks.
+- **Minimum economic scale**: A single lampworker with a torch and annealing oven can produce useful quantities of laboratory glassware. This is the entry point for the bootstrap sequence.
+
+## 7. Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Joint cracks after annealing | Stress from uneven heating during seal; insufficient annealing | Heat both pieces to same temperature before fusing. Extend annealing time to 60 min. Cool slower (1°C/min). |
+| Bubbles in seal | Glass not hot enough when pieces joined; dust on surfaces | Heat glass until surface is fully glossy. Clean tubing with alcohol before working. |
+| Capillary tube blocks during pull | Pull speed too slow; glass too hot | Increase pull speed (20-50 mm/s). Reduce flame contact time before pulling. |
+| Flask wall uneven | Inadequate rotation during bubble blowing; uneven heating | Rotate continuously in flame. Practice gathering technique — symmetrical gathers produce symmetrical bubbles. |
+| Condenser inner tube off-center | Inner tube shifted during ring seal step | Support inner tube with a centring jig (wire clip) during seal. Seal one end, verify centering, then seal other end. |
+| Graduated cylinder volume inaccurate | Non-uniform wall thickness; temperature during calibration | Blow cylinder with consistent rotation speed. Calibrate at 20°C. Note calibration temperature on the cylinder. |
+| Glass-to-metal seal leaks | Wire not pre-oxidized; CTE mismatch too large | Pre-oxidize tungsten at 800°C for 30-60 seconds. Verify CTE match is within 2 × 10⁻⁶/°C. |
+| Polarizer test shows color fringes | Residual stress from insufficient annealing or too-fast cooling | Re-anneal at 560°C for 60 minutes. Cool at 1°C/min to below strain point. |
+
+## 8. Safety
+
+- **Burns from hot glass**: Glassblowing involves 800-2800°C material. Hot glass below ~500°C looks identical to cold glass but causes severe burns on contact. Assume ALL glass near the workstation is hot until verified cold. Wear Kevlar or leather heat-resistant gloves, safety glasses with side shields, long-sleeve cotton clothing.
+- **Eye injury from UV/IR radiation**: Oxy-hydrogen and oxy-acetylene torches emit UV radiation that causes welder's flash (photokeratitis — corneal sunburn, onset 4-8 hours after exposure). Wear didymium glass lenses for soda-lime work (filters sodium D-line at 589 nm). Use shaded lenses #3-#5 for gas-oxygen, #5-#7 for oxy-hydrogen. Impact-resistant frames required.
+- **Lead exposure from lead glass**: Lead glass (PbO content 18-65%) releases lead fumes at working temperatures. Lead IDLH: 100 mg/m³ (NIOSH). Chronic exposure causes neurological, renal, and reproductive damage. Work lead glass only in ventilated areas with exhaust fan. Use borosilicate for practice and routine work.
+- **Glass dust silicosis**: Cutting, grinding, and drilling glass produces fine silica dust (<10 μm). Inhalation causes silicosis — irreversible lung scarring. OSHA PEL: 50 μg/m³ respirable silica. Wet-grind when possible. Wear P100 respirator for all dry grinding operations.
+- **Hydrogen explosion**: Oxy-hydrogen torch systems involve stored hydrogen gas. Hydrogen LEL: 4% in air. Ignition energy: 0.017 mJ (a static spark is sufficient). Leak-test all connections with soap solution before each use. Flashback arrestors mandatory on both gas lines. Store cylinders outside the work area.
+- **HF acid burns (graduated cylinder etching)**: Hydrofluoric acid used for etching graduation marks penetrates skin and causes deep tissue burns by complexing calcium. Burns may not be immediately painful. Calcium gluconate gel (2.5%) must be on-site before any HF use. Apply gel immediately to any skin contact and seek medical attention.
+
+## 9. Quality Control
+
+**Annealing verification**: Examine every finished piece between crossed polarizers. Stressed areas show bright interference colors (yellow, red, blue bands). Uniform dark field = stress-free. Build a polariscope from two polarizing sheets and a light box (10 minutes to construct).
+
+**Seal integrity**: Pressure-test all sealed apparatus at 5 kPa (light breath pressure through rubber hose). Submerge in water — no bubbles should escape from any joint.
+
+**Dimensional accuracy**: Measure critical dimensions with calipers (±0.05 mm). Check concentricity of inner tubes in condensers. Verify side arm angles with a protractor (±5°).
+
+**Volume calibration**: For graduated cylinders and volumetric glassware, calibrate by weighing deionized water. 1.000 g water = 1.000 mL at 4°C. Record calibration temperature on each piece. Re-calibrate if glass is heated above 200°C (thermal expansion affects volume).
+
+## 10. Variations and Alternatives
+
+### Window Glass Methods
+
+**Crown method**: Blow a large sphere (~30 cm diameter), transfer to punty, spin rapidly. Centrifugal force flattens the sphere into a disc 1-1.5 m diameter, 2-4 mm thick. Quality is uneven — concentric distortion rings, thick center (bullseye). Largely replaced by cylinder and float methods.
+
+**Cylinder method (broad glass)**: Blow a large cylinder (2-3 m long, 15-25 cm diameter). Score lengthwise, reheat, flatten on a hot iron table. Produces larger, more uniform panes than crown method. Common in the 18th and 19th centuries before float glass.
 
 ### Glass Color and Decoration
 
-Blown glass can be decorated during or after forming:
+**Cased glass**: Gather a second layer of differently colored glass over the first. Cut through the outer layer (wheel engraving or acid etching) to reveal the contrasting inner layer.
 
-- **Cased glass**: Gather a second layer of differently colored glass over the first. Cut through the outer layer (wheel engraving or acid etching) to reveal the contrasting inner layer. The cameo glass technique (Roman Portland Vase, 1st century CE) layers white opaque glass over dark blue, then carves the white to create relief figures.
-- **Trail decoration**: Apply a thin trail of molten colored glass to the surface of a blown vessel. Reheat and marver the trail flush with the surface, or leave it raised for a ribbed texture. Used for handles, rims, and decorative patterns.
-- **Iridescence**: Spray the hot glass surface with tin chloride or lead chloride vapor as the piece is removed from the furnace. The metal compounds deposit as an ultra-thin iridescent film that refracts light into rainbow colors (the "Tiffany glass" effect). The film thickness (~100-300 nm) determines the dominant color through thin-film interference.
-- **Cold working**: After annealing, decorate the glass surface by grinding, engraving, or polishing with abrasive wheels. Copper-wheel engraving uses a rotating copper disk charged with abrasive slurry to cut patterns into the glass surface. Sandblasting through a vinyl mask frosts selected areas while leaving others clear.
-- **Acid etching**: Apply wax resist to areas to be preserved, then immerse in hydrofluoric acid (HF). HF dissolves glass on unprotected surfaces, creating a matte, frosted texture. Dangerous — HF causes severe chemical burns and systemic fluoride poisoning. Use only with full protective equipment and calcium gluconate gel available as first aid.
+**Trail decoration**: Apply a thin trail of molten colored glass to the surface. Reheat and marver flush, or leave raised for ribbed texture.
 
-### Glassblowing Team Production
+**Iridescence**: Spray hot glass surface with tin chloride or lead chloride vapor. Metal compounds deposit as an ultra-thin film (~100-300 nm) that refracts light into rainbow colors through thin-film interference.
 
-Professional glassblowing is a team activity. A typical furnace-blowing team for production work:
+## 11. References
 
-- **[Gaffer](../glossary/gaffer.md)** (lead glassblower): Controls the blowpipe, shapes the piece, makes all critical decisions. The most skilled member.
-- **Assistant**: Shields the piece from cold drafts, reheats the piece in the glory hole between shaping steps, carries the punty for transfers, opens the furnace doors.
-- **Servitor**: Gathers glass, carries hot pieces to the annealing oven, prepares blowpipes and punties, manages the furnace temperature.
-- A 3-person team can produce 50-100 simple vessels per day, or 10-20 complex pieces (pitchers, decanters, multi-piece assemblies). Lampworking is typically a solo activity.
-
-### Safety in Glassblowing
-
-**Hot glass identification**: Hot glass (above ~500°C) glows red. Below that temperature, it looks identical to cold glass but can still cause severe burns. Train yourself to assume ALL glass at a glassblowing workstation is hot unless you have personally verified it is cold. Use heat-resistant gloves when handling any glass near the annealer or furnace.
-
-**Glory hole radiation**: The reheating furnace (glory hole) emits intense infrared and visible radiation. Prolonged exposure causes cataracts. Wear didymium glass lenses (which filter sodium flare, the bright yellow sodium emission from hot soda-lime glass) for soda-lime work. Use shaded lenses (#3-#5) for borosilicate, and #5-#7 for quartz work.
-
-**Burns treatment**: For molten glass burns, immediately cool the affected area under running cold water for 15-20 minutes. Do not attempt to remove glass that has adhered to skin — it will pull tissue with it. Seek medical attention for any burn larger than a coin or any burn on the face, hands, or joints.
-
-### Specialty Glassware Construction
-
-**Thermometer**: Seal one end of a 3-5 mm bore capillary tube. Create a bulb (5-10 mm diameter) at the sealed end by heating and blowing gently. Fill the bulb and capillary with colored alcohol (ethanol dyed red, range -110°C to 80°C) or mercury (range -38°C to 357°C). Vacuum-degass the fill liquid by boiling under vacuum before sealing to prevent bubbles. Seal the open end of the capillary with a flame after filling. Attach a brass or wooden scale graduated in degrees.
-
-**Barometer**: Seal one end of a thick-walled glass tube (~10 mm OD, 800-1000 mm long). Fill completely with mercury through a fine funnel, taking care to exclude all air bubbles. Invert the tube into a dish of mercury. The mercury column drops to ~760 mm at standard atmospheric pressure, leaving a vacuum above. Read the column height against a scale to determine atmospheric pressure. Changes in column height predict weather changes: rising pressure → clearing weather, falling pressure → approaching storm.
-
-**Graduated cylinder**: Blow a uniform cylinder (20-50 mm diameter, 200-300 mm tall) with a flat base and poured lip. Anneal carefully (uniform wall thickness is critical for accurate volume measurement). Etch graduation marks at regular intervals using hydrofluoric acid through a wax mask. Calibrate by weighing the water contained at each mark (1 mL water = 1.000 g at 4°C). Accuracy: ±1% with careful calibration.
-
-### Glassblowing for Chemical Apparatus
-
-**Retort**: A retort is a spherical flask with a long, downward-angled neck. Blow the sphere (50-100 mm diameter), then heat one side and pull the glass outward while tilting to form the neck at ~30° below horizontal. The neck acts as both vapor outlet and condenser surface. Used for simple distillation (heat the flask, vapors condense in the neck and drip into a receiver). The alembic, precursor to all distillation equipment, is a retort with a separate condensing hood.
-
-**Test tube**: Draw a 12-20 mm OD tube, seal one end by heating until surface tension closes it, then push gently to form a rounded bottom. Fire-polish the open end. Wall thickness: 1-1.5 mm. Length: 100-150 mm. Anneal. Production rate: 20-40 per hour by lampwork. Test tubes are consumable items in any chemical laboratory — produce them in quantity.
-
-**Flat-bottom flask**: Blow a sphere, then press the bottom against a flat marver while still soft to create a stable, flat base. Fire-polish the neck and flare the rim. More difficult than round-bottom flasks because the flat bottom creates stress concentration — thorough annealing is essential to prevent cracking.
-
-### Glassblowing Workshop Layout
-
-An efficient glassblowing workshop arranges equipment for a smooth workflow from furnace to annealer:
-
-- **Furnace area**: The melting furnace and glory hole (reheating furnace) are the heart of the shop. Position the glory hole at arm's reach from the blowing bench so the gaffer can reheat without walking. The furnace floor should be at waist height (90-100 cm) to minimize lifting of heavy gathers.
-- **Blowing bench**: A long, narrow bench (200 × 40 cm) with arm rests at either end. The gaffer sits sideways, rolling the blowpipe on the arm rests. The bench height positions the blowpipe at comfortable arm level. The marver sits on a stand next to the bench.
-- **Annealing oven**: Position the annealer within 3-4 meters of the blowing bench. Finished pieces must be transferred to the annealer before they cool below the strain point (a matter of seconds for thin-walled pieces). A long-handled fork or paddle helps transfer pieces quickly.
-- **Cooling area**: A rack or shelf for finished pieces waiting to be moved to the annealer. Heat-resistant surface (steel or firebrick). Keep clear of walkways — hot glass resting here is nearly invisible.
-- **Tool storage**: Jacks, shears, paddles, and blocks hang on hooks within arm's reach of the bench. Keep tools organized — searching for a specific tool while glass is cooling wastes precious seconds.
-
-### Lampworking Safety and Best Practices
-
-Lampworking carries specific hazards distinct from furnace glassblowing:
-
-- **Eye protection**: The sodium flare from heating soda-lime glass emits intense yellow light (sodium D-line, 589 nm) that masks the true glass temperature and causes eye strain. Didymium glass lenses (neodymium-praseodymium oxide in the glass) absorb the sodium emission selectively, revealing the true orange-red of the heated glass. Always wear didymium lenses when lampworking soda-lime or lead glass. For borosilicate, standard safety glasses suffice (no sodium flare). For quartz work with oxy-hydrogen, use welding-grade shade #5-#7.
-- **Ventilation**: Lampworking produces combustion products (CO, NOx from gas-oxygen torches) and volatilized glass components (sodium, lead, boron). Work in a well-ventilated area with a fume hood or exhaust fan positioned behind the torch. Lead glass lampworking without ventilation causes lead exposure — use borosilicate for practice and routine work.
-- **Torch maintenance**: Clean torch tips regularly. Carbon buildup in the gas orifice causes uneven flame and popping. Replace O-rings on gas fittings when they show cracking. Check hose connections for leaks with a soap solution before each session. Flashback arrestors on both gas and oxygen lines are mandatory — a flashback into the fuel supply causes an explosion.
+- [Advanced Glass Production](advanced.md) — borosilicate and fused silica glass compositions
+- [Basic Glass Production](basic.md) — soda-lime glass melting fundamentals
+- [Distillation](../chemistry/distillation.md) — primary consumer of glass condensers and distillation heads
+- [Electrolysis](../chemistry/electrolysis.md) — requires glass apparatus for gas collection
+- [Air Separation](../chemistry/air-separation.md) — oxygen supply for gas-oxygen torches
+- [Precision Metrology](../measurement/precision-metrology.md) — analytical balances for volumetric calibration
+- [Refractory Metals](../metals/refractory-metals.md) — tungsten wire for glass-to-metal seals
 
 ---
 

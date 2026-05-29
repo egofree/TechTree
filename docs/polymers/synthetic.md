@@ -1,218 +1,420 @@
 # Synthetic Polymers & Elastomers
 
 > **Node ID**: polymers.rubber.synthetic
-> **Domain**: Polymers
-> **Dependencies**: `chemistry`, [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), `machine-tools`
+> **Domain**: [Polymers & Composites](./index.md)
+> **Dependencies**: [`chemistry`](../chemistry/index.md), [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`machine-tools`](../machine-tools/index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 20-50
 > **Outputs**: nitrile_rubber, neoprene, silicone_elastomers, polyurethane
-
-Synthetic polymers fill gaps natural rubber cannot: oil resistance (NBR), flame retardancy (neoprene), extreme-temperature service (silicone), and tunable hardness (polyurethane). Each requires specific monomer feedstocks and controlled polymerization conditions. See [Rubber Production](./rubber.md) for natural rubber vulcanization and compounding recipes shared across all elastomers.
-
-### Nitrile Rubber (NBR, Buna-N)
-
-**Monomer source chain**:
-- **[Butadiene](../glossary/butadiene.md)** (C₄H₆): Co-product of ethylene production via steam cracking of naphtha (750-900°C, 0.1-0.5 s residence, ~4-5% butadiene yield). Also producible from ethanol via Lebedev process (2 C₂H₅OH → C₄H₆ + 2 H₂O + H₂ over ZnO/Al₂O₃ catalyst at 400-450°C) — the fermentation route, critical when petrochemicals are unavailable. Soviet Union produced butadiene from grain ethanol during WWII using the Lebedev process at industrial scale (~100,000 tonnes/year).
-- **[Acrylonitrile](../glossary/acrylonitrile.md)** (CH₂=CHCN): Propylene ammoxidation — CH₂=CHCH₃ + NH₃ + 1.5 O₂ → CH₂=CHCN + 3 H₂O over Bi-Mo oxide catalyst at 400-500°C (Soxhiet process, ~70-80% propylene conversion per pass). Requires propylene (steam cracking or FCC) and ammonia (Haber-Bosch: N₂ + 3 H₂ → 2 NH₃ at 400-500°C, 150-300 atm, Fe catalyst).
-
-**Emulsion copolymerization**:
-- Reactor: Glass-lined or stainless steel stirred tank, 5-50 m³. Jacketed for temperature control (cooling critical — the polymerization is exothermic at ~60-80 kJ/mol).
-- Charge: Butadiene (55-75 parts) + acrylonitrile (25-45 parts) + water (200 parts) + sodium dodecyl sulfate (emulsifier, 2-5 parts) + potassium persulfate or redox initiator (ferrous sulfate + hydroperoxide for cold process). Tertiary dodecyl mercaptan as chain transfer agent (0.3-0.5 parts) controls molecular weight by terminating growing chains and initiating new ones.
-- **[Cold NBR](../glossary/cold-nbr.md)** (30-50°C): Superior properties — more linear chains, less branching, higher molecular weight (Mooney viscosity ML 1+4 at 100°C: 50-90). Batch time 6-12 hours to 70-80% conversion (stopped early to prevent excessive branching and gel formation — conversion above 85% produces cross-linked "microgel" particles that degrade properties). Short-stopped with hydroquinone or DMDTC (dimethyldithiocarbamate). Coagulated with CaCl₂ or Al₂(SO₄)₃ + dilute acid. Washed, dried on hot roll dryer (80-100°C), and baled.
-- **[Hot NBR](../glossary/hot-nbr.md)** (50-70°C): Faster reaction, more branching (increased microgel), lower molecular weight. Processed more easily on mills and in extruders due to lower viscosity. Used when processing ease matters more than ultimate tensile or oil resistance.
-
-**Key property tradeoff**: Higher acrylonitrile content → better oil/fuel resistance (NBR swells <10% in IRM 903 oil at 100°C for High-ACN vs. >30% for Low-ACN), higher glass transition temperature (less flexible at low temperature — Tg increases from -50°C for Low-ACN to -15°C for High-ACN). Grades: Low-ACN (18-22%, Tg ≈ -50°C, best low-temperature flexibility), Medium-ACN (30-35%, Tg ≈ -35°C, general purpose), High-ACN (40-50%, Tg ≈ -15°C, best oil/fuel resistance).
-
-**Applications**: Fuel hoses (High-ACN, fuel lines and filler neck hoses in vehicles — NBR resists gasoline, diesel, and ethanol blends), oil seals and O-rings (Medium-ACN, rotating shaft seals in engines and gearboxes — the most common O-ring material for petroleum-based fluid service), chemical-resistant gloves for cleanroom and HF handling (Medium-ACN, 0.1-0.3 mm thin-wall dipped goods — NBR gloves provide >8 hours breakthrough time against 48% HF), printing rolls (ink resistance — printing inks contain petroleum-based solvents), conveyor belts for oily environments (meat processing, oil field applications), gaskets and diaphragms.
-
-### Neoprene (Polychloroprene, CR)
-
-**Monomer route — acetylene process**:
-- **[Acetylene](../glossary/acetylene.md)** → chloroprene via two-step route: C₂H₂ + 2 HCl → 1,1-dichloroethane (CuCl₂ catalyst, 150-200°C). Dehydrochlorination: 1,1-C₂H₂Cl₂ → CH₂=CCl-CH=CH₂ (chloroprene) at 450-550°C over activated carbon. Overall yield ~70%.
-- Alternative butadiene route (see [Rubber Production](./rubber.md)) uses butadiene + Cl₂ → dichlorobutene → chloroprene. Both routes are viable; acetylene route is simpler when calcium carbide → acetylene infrastructure exists.
-
-**Polymerization**: Emulsion polymerization at 40-50°C, 2-8 hours. Sulfur-modified grades copolymerize with elemental sulfur (0.5-1.5%) for improved processing. Gel grades contain crosslinked domains for dimensional stability.
-
-**Cure system**: Metal oxide cure — zinc oxide (5 phr) + magnesium oxide (4 phr). No sulfur required. MgO acts as acid scavenger (absorbs HCl released during processing and aging — neoprene dehydrochlorinates at elevated temperatures, and the released HCl would accelerate further degradation if not scavenged). Cure 150-180°C, 5-20 minutes via compression molding or autoclave. Neoprene can also be cured with sulfur (0.5-1 phr) for faster cure rates, but the metal oxide system produces better aging properties.
-
-**Properties**: Moderate oil resistance (inferior to NBR but adequate for intermittent contact — swells ~50-100% in IRM 903 oil at 100°C for 70 hours, vs. <20% for NBR). Excellent weather, ozone, and UV resistance (the chlorine atom on the polymer backbone provides inherent UV stability — neoprene does not crack or degrade in outdoor exposure). Self-extinguishing — flame retardant without additives (LOI — Limiting Oxygen Index — ~26%, meaning it will not sustain combustion in air with <26% oxygen; normal air is 21% oxygen). Tensile strength 10-25 MPa, elongation 300-600%, Tg ≈ -45°C.
-
-**Applications**: Wire and cable insulation (electrical insulation + flame retardant — neoprene-jacketed cables are used in mining, marine, and industrial applications where flame resistance is required), wetsuits (closed-cell foam — nitrogen-blown neoprene foam, 1.5-3 mm, provides thermal insulation in water by trapping gas bubbles in the closed cells; nitrogen gas thermal conductivity 0.026 W/(m·K) vs. water 0.60 W/(m·K) — the foam provides 20× better insulation than an equivalent thickness of water), contact adhesives (solvent-based neoprene cement — dissolve neoprene in toluene/hexane blend with phenolic resin tackifier; apply to both surfaces, dry 10-20 minutes, press together for instant bond of 2-5 MPa — used for woodworking, shoe manufacturing, and countertop lamination), conveyor belts (flame retardant for underground mining), gaskets, vibration isolation mounts.
-
-### Silicone Elastomers (PDMS)
-
-**Precursor chain**: MG-Si + CH₃Cl → dimethyl dichlorosilane via Rochow-Müller process (Cu catalyst, 250-300°C) → hydrolysis → cyclic/linear siloxanes → polydimethylsiloxane (PDMS). See [Rubber Production](./rubber.md) for detailed precursor chemistry.
-
-**Crosslinking systems** (practical selection guide):
-- **Peroxide cure (HTV — high temperature vulcanizing)**: Mix PDMS gum (high molecular weight, ~500,000 g/mol, a stiff, putty-like material) with dicumyl peroxide (0.5-2%) and fumed silica filler on two-roll mill. The two-roll milling generates heat through shear — keep roll temperature below 80°C to prevent premature peroxide decomposition. Cure 150-175°C, 5-15 min. Peroxide decomposes to free radicals that abstract hydrogen from methyl groups, creating radical sites that cross-link via carbon-carbon bond formation. Leaves volatile byproducts (acetophenone, cumyl alcohol from dicumyl peroxide decomposition) — post-cure at 200°C for 2-4 hours in a circulating air oven to drive them off. Without post-cure, volatile byproducts cause outgassing and dimensional instability in service. Cheapest system. Used for: seals, gaskets, tubing, general-purpose molded parts.
-- **Platinum addition cure (LSR — liquid silicone rubber)**: Two-part system — Part A (vinyl-functional PDMS + Pt catalyst at ~10 ppm — typically a platinum-divinyltetramethyldisiloxane complex) + Part B (vinyl PDMS + Si-H crosslinker, typically a polymethylhydrogensiloxane at 1-3%). Mix 1:1 by weight or volume (automatic dispensing equipment mixes at the point of injection into the mold). Cure at 100-150°C or room temperature (RTV grades — slower cure, 4-24 hours at 25°C). The hydrosilyation reaction (Pt-catalyzed addition of Si-H across the vinyl C=C double bond) produces zero byproducts — dimensional accuracy is superior to peroxide cure. Very fast cure at elevated temperature: 10-30 seconds at 150°C for thin-wall parts. Superior dimensional accuracy and surface finish. Used for: medical devices (catheters, seals — biocompatible grades meet USP Class VI and ISO 10993), food-contact items (baking molds, infant feeding nipples), optical components (silicone lenses), electrical potting. Pt catalyst is expensive but used at extremely low loading (~10 ppm = ~$0.10-0.50/kg of compounded silicone — negligible relative to total material cost).
-- **RTV-1 (room temperature vulcanizing, single-component)**: Acetoxy-functional silane crosslinker cures on exposure to atmospheric moisture (water vapor diffuses into the silicone from the surface inward). Skin forms in 10-30 min, full cure 24-48 hours (cure rate depends on humidity — 50% RH typical, cure time doubles at 25% RH). The reaction releases acetic acid (vinegar smell — the characteristic odor of curing silicone caulk). Familiar as "bathtub caulk" and general-purpose silicone sealant. Adhesion: good to glass, ceramics, and many metals without primer; poor to many plastics without surface treatment. Used for: sealing, bonding, potting, glass-to-glass joints, construction sealants, automotive gasketing (formed-in-place gaskets — apply RTV silicone to flange surfaces, assemble, and cure in place).
-
-**Filler**: Fumed silica (10-40 phr, 7-40 nm SiO₂ particles produced by flame hydrolysis of SiCl₄ — the same process used to produce high-purity silica for optical fiber preforms) is essential for mechanical reinforcement — unfilled PDMS has tensile strength <0.5 MPa (essentially a weak, sticky gum); filled reaches 6-10 MPa. The fumed silica particles form a three-dimensional network within the silicone matrix through hydrogen bonding between surface silanol groups (Si—OH), creating a "structure" that dramatically increases tensile strength, tear resistance, and modulus. The filler also increases hardness from Shore A 20 (unfilled gum) to Shore A 40-80 (heavily filled grades). Extending filler (ground quartz, 50-200 phr — much cheaper than fumed silica at ~$0.10/kg vs. ~$3-5/kg) reduces cost for non-critical applications (room-temperature gaskets, general-purpose moldings) but provides only modest reinforcement and reduces elongation.
-
-**Applications**: High-temperature seals and gaskets (service -60°C to +250°C — unmatched temperature range), medical tubing (biocompatible, sterilizable), electronic potting and encapsulation (excellent dielectric: ε ≈ 3, tan δ ≈ 0.001), mold-making (RTV for casting resins, low-tack release), bake-ware, food-grade tubing.
-
-### Polyurethane (PU)
-
-**Monomer sources**:
-- **Diisocyanates**: Toluene diisocyanate (TDI) — toluene → dinitrotoluene (HNO₃) → reduction to TDA (catalytic hydrogenation) → phosgenation (COCl₂, from CO + Cl₂) → TDI. Or MDI — aniline + formaldehyde → MDA → phosgenation → MDI. Phosgene is extremely toxic (1 ppm lethal) — rigorous containment mandatory.
-- **Polyols**: Polyether polyols from propylene oxide (propylene + O₂) + ethylene oxide (ethylene + O₂) polymerization initiated by glycerol or sucrose. Polyester polyols from dicarboxylic acids (adipic acid) + diols (ethylene glycol). Polyol molecular weight (200-10,000 g/mol) determines final polymer flexibility.
-- **Chain extenders**: 1,4-butanediol or ethylene glycol (short diols that form hard segments).
-
-**Foam formulations**:
-- **[Flexible foam](../glossary/flexible-foam.md)** (mattresses, cushions, upholstery): Polyether polyol (MW ~3000, 100 parts — the high MW gives long, flexible chain segments between cross-links) + TDI (50-60 parts — index 105, meaning 5% excess isocyanate for hard segment formation) + water (3-5 parts — generates CO₂ blowing agent via the reaction H₂O + NCO → urea linkage + CO₂; the CO₂ inflates the foam. More water = more CO₂ = lower density, but also more urea hard segments = stiffer foam) + silicone surfactant (1 part — stabilizes the rising foam cells, preventing collapse before the polymer gels) + stannous octoate catalyst (0.2 parts — tin catalyst accelerates the gelling reaction, ensuring the foam polymerizes before the gas escapes) + amine catalyst (0.3 parts — tertiary amine catalyzes the blowing reaction, balancing gel and blow rates). Cream time 10-15 s (initial foaming begins), rise time 60-90 s (foam reaches full height), tack-free time 120-180 s. Density 18-40 kg/m³.
-- **[Rigid foam](../glossary/rigid-foam.md)** (insulation, refrigeration, construction): Polyether polyol (MW ~400, highly functional — 4-8 hydroxyl groups per molecule, creating a dense cross-link network for rigidity, 100 parts) + polymeric MDI (130-180 parts — high index for maximum cross-linking) + water (1-2 parts — generates some CO₂) + HCFC-141b or cyclopentane blowing agent (10-20 parts — the primary blowing agent for rigid foam; pentane boils at 36°C and provides most of the expansion) + silicone surfactant (2 parts) + amine catalyst (1 part). Density 28-50 kg/m³. Thermal conductivity 0.020-0.025 W/(m·K) — among the best insulation materials available (for comparison: fiberglass batts 0.035-0.040, expanded polystyrene 0.030-0.040, mineral wool 0.035-0.040). The low thermal conductivity results from the small, closed-cell structure trapping low-conductivity blowing agent gas (pentane: 0.013 W/(m·K) vs. air 0.026).
-
-**Solid PU forms**:
-- **Cast elastomers**: Prepolymer (isocyanate-terminated — typically MDI prepolymer, 6-9% NCO content) + chain extender (1,4-butanediol, BDO, at stoichiometric ratio), mixed by hand or machine and poured into a heated mold (metal or silicone, preheated to 80-100°C). Cure 100-120°C, 30-60 minutes in the mold, then post-cure at 100°C for 16-24 hours for complete reaction. Hardness range: Shore A 70 to Shore D 75, controlled by the ratio of hard segment (isocyanate + BDO) to soft segment (polyol). Applications: industrial wheels (forklift wheels — cast PU outlasts rubber 5-10× on abrasive concrete floors), rollers (printing presses, paper mills — PU rollers resist ink and solvents), bushings (suspension components — PU provides better load capacity and fatigue life than rubber), wear pads (mining equipment — PU has the highest abrasion resistance of any elastomer, DIN abrasion loss 15-30 mm³ vs. 100-200 mm³ for natural rubber). Cast PU can be machined (turned, milled, drilled) after cure for precision dimensions.
-- **Coatings and adhesives**: Two-component PU coatings (polyol + isocyanate) cure to tough, chemical-resistant films with excellent weatherability and UV resistance (aliphatic isocyanates like HDI and IPDI provide superior UV stability vs. aromatic MDI/TDI which yellow on UV exposure). Used for: floor coatings (industrial warehouse floors — 1-3 mm thickness, chemical resistant to oils and solvents), marine finishes (wood varnishes — PU varnishes resist water and UV better than traditional spar varnishes), automotive clear coats (two-component PU topcoats — the standard finish on all production vehicles since the 1990s), protective topcoats on metal structures. Adhesives: PU construction adhesives (one-component moisture-cure — isocyanate-terminated prepolymer that cures with atmospheric humidity, developing 2-5 MPa shear strength in 24 hours).
-
-**PU in the bootstrap context**: Rigid PU foam is the highest-performance insulation achievable at moderate technology level. It dramatically reduces energy needs for furnaces, kilns, refrigeration, and building heating — a 50 mm layer of rigid PU foam (R-value ~3.5) provides the same thermal resistance as 100 mm of fiberglass or 150 mm of softwood. Flexible foam provides sealing gaskets and vibration damping. Cast PU rollers serve in wire saw wafering equipment and printing presses. The ability to produce PU foam on-site from two liquid components with simple mixing equipment makes it particularly valuable for bootstrap construction — spray PU foam can insulate an entire building in a day. However, the isocyanate feedstock requires phosgene and petrochemical infrastructure.
-
-### Historical Development of Synthetic Polymers
-
-The progression from natural to synthetic materials represents one of the most significant transitions in industrial chemistry. Each major synthetic polymer solved specific limitations of natural materials.
-
-**Celluloid (1869)**: The first practical thermoplastic. Nitrocellulose (cellulose treated with nitric acid + sulfuric acid, 10-13% nitrogen content — guncotton range) plasticized with camphor (20-30% by weight). Alexander Parkes produced "Parkesine" in 1856; John Wesley Hyatt improved it as "Celluloid" in 1869, originally to create a substitute for ivory billiard balls. The nitrocellulose-camphor blend is heated to 80-100°C and rolled or pressed into sheets, rods, and blocks. Properties: thermoplastic (softens ~90°C, moldable at 100-130°C), tough, transparent to translucent, takes dye readily. Autoignition temperature 150-170°C — highly flammable, and old celluloid film (nitrate film) is a notorious spontaneous combustion hazard in film archives. Camphor sublimates over decades, leaving brittle, cracked celluloid. Used for: photographic and motion picture film (until replaced by acetate safety film in the 1950s), billiard balls, combs, buttons, dental plates, shirt collars (detachable celluloid collars were a major consumer product). Raw materials: cellulose (cotton linters or wood pulp), nitric acid, sulfuric acid, camphor (from *Cinnamomum camphora* tree, later synthesized from α-pinene).
-
-**Casein plastic (Galalith, 1897)**: Milk protein (casein) precipitated from skim milk by acid (rennet or lactic acid), then hardened by immersion in formaldehyde solution (40% formalin, 2-7 days at room temperature or several hours at 50-60°C). The formaldehyde cross-links the protein chains via methylene bridges (—CH₂—) between amino groups on adjacent protein molecules, creating a hard, horn-like material. Properties: opaque white to cream, can be dyed with acid dyes before formaldehyde treatment (Galalith was produced in a wide range of colors for decorative applications), non-flammable (self-extinguishing — the high nitrogen content of the protein char rather than supporting combustion), resistant to oils and solvents, but swells in water and is not fully waterproof (water absorption 5-15% — casein plastic softens and warps if soaked). Used for: buttons (major application — casein buttons were produced by the billions in the early 20th century; they are still made today as a "natural" alternative to plastic), knitting needles, buckles, pen barrels, costume jewelry, radio knobs. Raw materials: skim milk (dairy by-product — 10 liters of skim milk yields ~300 g of casein, which produces ~350 g of Galalith), formaldehyde (from methanol oxidation over silver catalyst at 600-700°C). Production peaked in the 1930s-1940s, declined after WWII as petrochemical plastics became cheaper.
-
-**Bakelite (1907)**: Leo Baekeland's phenol-formaldehyde thermoset — the first fully synthetic plastic (no natural polymer component). Key innovation: the "pressure plus heat" cure in a closed mold controlled the volatile byproducts (water and formaldehyde vapor) and produced dense, void-free moldings with excellent surface finish. Bakelite's combination of electrical insulation (volume resistivity 10¹²-10¹⁴ Ω·cm — far superior to hard rubber at 10¹⁰-10¹¹), heat resistance (continuous service to 200°C — higher than any other plastic available at the time), chemical resistance (insoluble in all common solvents, resistant to dilute acids and alkalis), and low cost (phenol from coal tar was cheap and abundant) made it the dominant material for: electrical insulators and switchgear (replacement for porcelain and hard rubber in electrical applications), radio cabinets (the "cathedral" and "tombstone" radio shapes of the 1930s — Bakelite could be molded into complex Art Deco shapes impossible with wood or metal), distributor caps and rotors (high-voltage ignition components in automotive engines — Bakelite's arc resistance was adequate for the 10-30 kV ignition voltages), telephone housings (the standard black telephone of the mid-20th century was compression-molded Bakelite), jewelry (carved Bakelite bangles and brooches in bright colors — the "Bakelite jewelry" era of the 1930s-1940s produced distinctive Art Deco designs), kitchenware handles (pot handles and appliance grips — heat resistance and electrical insulation). Raw materials: phenol (from coal tar distillation or cumene process — cumene + O₂ → phenol + acetone), formaldehyde (from methanol oxidation), wood flour filler (inexpensive, reduces shrinkage and cost). See [Thermosets](./thermosets.md) for chemistry detail.
-
-**Cellophane (1912)**: Transparent regenerated cellulose film — the first clear, flexible packaging material. The viscose process (invented by Cross, Bevan, and Beadle in 1892): (1) cellulose (wood pulp, typically softwood kraft pulp, ~90% alpha-cellulose) soaked in 17-20% NaOH at 20-25°C for 30-60 minutes → alkali cellulose (sodium cellulose, a swollen, reactive material). (2) Aged 2-3 days at 25°C in air (controlled oxidation reduces molecular weight from ~500,000 to ~50,000-100,000 g/mol for manageable viscosity — the aging step is critical for controlling the final film's mechanical properties: too little aging produces viscous solution and strong but difficult-to-process film; too much aging produces weak, brittle film). (3) Treated with carbon disulfide (CS₂, 30-40% by weight of cellulose) at 25-30°C for 1-3 hours → cellulose xanthate (bright orange crumb — "viscose crumb"). (4) Dissolved in dilute NaOH (4-6%) → viscose solution (6-10% cellulose, honey-like viscosity, aged 3-5 days at 15-20°C to reach optimum "ripeness" — the xanthate groups slowly redistribute during aging, affecting filterability and spinnability). (5) Extruded through a slit die (0.1-0.3 mm gap, 1-2 m wide) into a coagulating bath (H₂SO₄ 8-12%, Na₂SO₄ 16-24%, ZnSO₄ 1-5%) → regenerated cellulose film. The acid neutralizes the NaOH and decomposes the xanthate, regenerating the cellulose as a continuous film. (6) Washed (removes acid and salts), bleached (NaOCl, removes residual color), plasticized (glycerin 5-15% — without plasticizer, cellophane is brittle and stiff; glycerin makes it flexible), dried on heated rollers (80-100°C). Cellophane is moisture-permeable — for food packaging, it is coated with nitrocellulose lacquer or PVDC (polyvinylidene chloride) to provide moisture and gas barrier properties. Raw materials: wood pulp, NaOH, CS₂ (from natural gas + sulfur), H₂SO₄.
-
-**Nylon (1935)**: Wallace Carothers at DuPont synthesized polyamide 66 (PA 66) from hexamethylenediamine (HMDA, H₂N(CH₂)₆NH₂) + adipic acid (HOOC(CH₂)₄COOH) — both 6-carbon molecules, hence "66". The nylon salt (HMDA + adipic acid in equimolar aqueous solution, pH adjusted to 7.0-7.5 with precise stoichiometric control — even 0.1% imbalance in the amine:acid ratio limits the achievable molecular weight) is concentrated and melt-polymerized in an autoclave at 250-280°C under nitrogen atmosphere, with vacuum applied in the final stage (20-30 minutes at <5 mmHg) to drive off water and push molecular weight to 12,000-15,000 g/mol (number average). The vacuum stage is critical — the condensation equilibrium (amine + carboxylic acid ⇌ amide + water) must be driven to completion by removing the water byproduct. Melt spinning at 260-280°C through a spinneret (15-100 holes, 0.2-0.5 mm diameter — each hole produces a single filament), drawn 3-5× at room temperature (cold drawing — the filament is stretched to 3-5× its original length, aligning polymer chains along the fiber axis and increasing crystallinity from ~30% to ~50-60%, which increases tensile strength from ~100 MPa to 500-900 MPa). Nylon stockings (1939 — introduced at the New York World's Fair; 64 million pairs sold in the first year of full production) were the first major consumer application. Properties: high tensile strength (fiber: 500-900 MPa; molded: 70-85 MPa), low coefficient of friction (0.1-0.3 vs. steel-on-steel 0.5-0.8 — nylon bearings run without lubrication in many applications), excellent abrasion resistance (10× better than cotton), moderate moisture absorption (2-2.5% at 50% RH — nylon dimensions change with humidity, which must be accounted for in precision molding). Used for: fibers (textile, rope, tire cord, parachute fabric — nylon parachute canopies replaced silk in WWII), engineering plastics (gears, bearings, fasteners — nylon's self-lubricating property makes it ideal for unlubricated gear applications), monofilament (fishing line, surgical suture — nylon monofilament suture has high knot pull-out strength), film (food packaging — nylon/PE laminate for vacuum-packed meat and cheese). Raw materials: adipic acid (cyclohexane → KA oil → adipic acid via HNO₃ oxidation), HMDA (butadiene → adiponitrile via HCN addition → HMDA via hydrogenation) — both from petroleum or coal tar feedstocks.
-
-**Polyester — PET (1941)**: Polyethylene terephthalate from ethylene glycol (HOCH₂CH₂OH, from ethylene → ethylene oxide → hydrolysis) + terephthalic acid (HOOC-C₆H₄-COOH, from p-xylene → oxidation with air over Co/Mn catalyst in acetic acid at 150-200°C) — or dimethyl terephthalate (DMT, the methyl ester, which was used before the Amoco process made purified terephthalic acid commercially available in the 1960s). Two-stage synthesis: (1) Ester interchange — DMT + excess ethylene glycol at 150-200°C with catalyst (zinc acetate or manganese acetate, 0.03-0.05%) → bis(2-hydroxyethyl) terephthalate (BHET) + methanol (distilled off and recovered). (2) Polycondensation — BHET heated to 250-285°C under vacuum (0.1-1 mmHg, achieved by staged vacuum — atmospheric → 100 mmHg → 10 mmHg → <1 mmHg over 2-4 hours) → PET polymer + ethylene glycol (recovered and recycled). Molecular weight controlled by vacuum level and time — intrinsic viscosity (IV) of 0.60-0.70 dL/g for bottle-grade PET, 0.55-0.65 for fiber-grade. Melt temperature 250-255°C.
-
-Properties: high tensile strength (fiber: 500-1000 MPa when drawn — PET fibers are among the strongest commodity fibers), excellent dimensional stability (low moisture absorption 0.4% at 50% RH — dimensions don't change with humidity, unlike nylon at 2-2.5%), good barrier to CO₂ (essential for carbonated beverage bottles — PET bottles withstand 4-6 bar internal CO₂ pressure at 20°C with <15% CO₂ loss over 6 months) and O₂ (used for food packaging — extends shelf life), transparent when quenched rapidly (amorphous PET, Tg ~73°C — used for clear beverage bottles), semi-crystalline when cooled slowly or heat-set (crystalline PET, Tm ~255°C — used for fibers, films, and food trays that must withstand oven temperatures). Used for: fibers (polyester fabric — 60%+ of global fiber production at ~60 million tonnes/year, blended with cotton in most apparel), bottles (PET bottles — 500+ billion/year, the dominant beverage packaging material), film (Mylar/Melinex — capacitors, magnetic tape substrate, packaging, solar cell backsheets), food packaging (ovenable trays — crystallized PET trays withstand 200°C oven temperatures). Raw materials: ethylene glycol (ethylene → ethylene oxide → hydrolysis), terephthalic acid (p-xylene from petroleum reforming → oxidation with air over Co/Mn catalyst in acetic acid).
-
-**Raw material sourcing** (bootstrap relevance — each synthetic polymer's precursor chain):
-- **Celluloid**: Cellulose (cotton linters or wood pulp — widely available natural polymer), nitric acid (ammonia oxidation over Pt/Rh catalyst or electric arc process N₂ + O₂), sulfuric acid (contact process from sulfur), camphor (from *Cinnamomum camphora* tree camphor oil, or synthesized from α-pinene in turpentine via isoborneol route). All precursors achievable at moderate technology level — celluloid was the first semi-synthetic plastic. The main hazard is the extreme flammability of nitrocellulose — celluloid fires burn intensely and are difficult to extinguish. Nitrate film archives have experienced spontaneous combustion fires causing catastrophic loss of early cinema history.
-- **Casein plastic**: Skim milk (dairy by-product), formaldehyde (from methanol + air over silver catalyst). Low technology requirement — casein plastic was produced in home workshops in the early 20th century. The main limitation is the slow formaldehyde hardening process (days at room temperature).
-- **Bakelite**: Phenol (from coal tar distillation — historically the primary source; or from cumene process requiring petroleum), formaldehyde (from methanol oxidation), wood flour filler. Achievable once coal tar or petroleum processing is established. The first plastic that requires no natural polymer input.
-- **Cellophane**: Wood pulp (cellulose), NaOH (chlor-alkali electrolysis), CS₂ (natural gas + sulfur), H₂SO₄ (contact process). The CS₂ requirement is the main hazard — carbon disulfide is extremely toxic and flammable.
-- **Nylon**: Adipic acid (cyclohexane from benzene hydrogenation → oxidation with HNO₃), HMDA (butadiene + HCN → adiponitrile → hydrogenation, or from acrylonitrile electrolytic dimerization). Both routes require significant petrochemical infrastructure. Nylon was the first synthetic fiber — its development marked the beginning of the synthetic materials age.
-- **PET (polyester)**: Ethylene glycol (ethylene → ethylene oxide → hydrolysis), terephthalic acid (p-xylene from petroleum reforming → liquid-phase oxidation). Requires petroleum cracking and aromatic extraction infrastructure. PET is the highest-volume synthetic polymer by production (after PE and PP).
-
-All synthetic polymers trace back to a small set of primary feedstocks:
-
-- **Petroleum cracking**: Steam cracking of naphtha (750-900°C, 0.1-0.5 s residence) produces ethylene (25-35% yield), propylene (10-15%), butadiene (3-5%), and aromatics (benzene, toluene, xylene). These olefins and aromatics are the building blocks for PE, PP, PVC, PS, PET, nylon, synthetic rubber, and most other synthetic polymers.
-- **Natural gas**: Methane → methanol (over Cu/Zn catalyst at 250°C, 50-100 atm) → formaldehyde (oxidation over Ag or Fe-Mo catalyst). Ethane cracking → ethylene. Propane cracking → propylene.
-- **Coal tar chemicals**: Coal carbonization (coke ovens, 1000-1200°C) produces coal tar containing phenol, cresols, naphthalene, benzene, toluene, and xylene. Historically the primary source of phenol (for Bakelite), benzene (for nylon), and other aromatic monomers before petroleum-derived routes became dominant.
-
-### Ethylene-Propylene Rubber (EPDM)
-
-EPDM is a saturated (non-diene-modified) terpolymer of ethylene, propylene, and a small amount of diene monomer (ethylidene norbornene, ENB, at 2-10%) to provide cross-linking sites. The saturated backbone provides outstanding resistance to ozone, UV radiation, and weathering — EPDM does not crack or degrade when exposed to outdoor conditions for decades.
-
-**Polymerization**: Ziegler-Natta or metallocene catalyst, solution or slurry process at 40-60°C. Ethylene/propylene ratio 50/50 to 70/30 (higher ethylene → more crystalline, higher modulus). Molecular weight 200,000-500,000 g/mol.
-
-**Vulcanization**: Sulfur cure (1-2 phr sulfur, 0.5-1.5 phr accelerator) via the ENB diene sites. Peroxide cure (dicumyl peroxide, 2-4 phr) also effective — produces carbon-carbon cross-links that are more thermally stable than sulfur cross-links.
-
-**Properties**: Tensile strength 7-21 MPa (unfilled to highly filled). Elongation 150-600%. Tg ≈ -50°C. Excellent ozone resistance (unlike natural rubber and SBR, which crack rapidly in ozone — NR tire sidewalls develop characteristic "crazing" cracks within months of outdoor exposure without protective waxes/antiozonants). Service temperature range: -50 to +150°C (peroxide-cured). Good electrical insulation (volume resistivity 10¹⁵-10¹⁶ Ω·cm). Poor oil resistance (non-polar saturated hydrocarbon — swells in hydrocarbon solvents and oils).
-
-**Applications**: Automotive weatherstripping and seals (door seals, window seals — EPDM's ozone resistance is critical for exterior automotive rubber), roofing membranes (single-ply EPDM rubber roofing, 1.0-1.5 mm thick, service life 20-30 years), radiator and heater hoses (ethylene glycol resistance, service to 125°C), wire and cable insulation (outdoor rated, UV resistant), O-rings for water and steam service, expansion joints in buildings and bridges.
-
-### Chloroprene (Neoprene) Processing Detail
-
-**Monomer synthesis — butadiene route** (alternative to the acetylene route):
-1. Butadiene + Cl₂ → 3,4-dichloro-1-butene (liquid phase, 30-50°C, FeCl₃ catalyst). The chlorine adds across the 1,4-diene system to produce a mixture of 3,4-dichlorobutenes.
-2. Isomerization: 3,4-dichloro-1-butene → 1,4-dichloro-2-butene (copper catalyst, 60-80°C). The trans-1,4 isomer is the desired intermediate.
-3. Dehydrochlorination: 1,4-dichloro-2-butene + NaOH → chloroprene (CH₂=CCl-CH=CH₂) + NaCl + H₂O (60-80°C, 95% yield). Chloroprene boils at 59°C — recovered by distillation.
-
-**Polymerization control**: Chloroprene is highly reactive — it polymerizes spontaneously unless inhibited (stored with phenothiazine or hydroquinone inhibitor at 0-5°C). Emulsion polymerization at 40°C, n-dodecyl mercaptan as chain transfer agent (0.3-0.5%) to control molecular weight. Conversion limited to 70-80% — higher conversion causes excessive branching and gel formation. Short-stopped with hydroquinone.
-
-**Neoprene adhesive formulation**: Solvent-based contact cement — dissolve neoprene (100 parts) in toluene/hexane blend (300-400 parts solvent) with magnesium oxide (4 parts, acid scavenger), zinc oxide (5 parts, cure agent), antioxidant (2 parts), and phenolic resin (30-50 parts, tackifier). Apply to both surfaces, allow solvent to evaporate (10-20 minutes dry time), then press the tacky surfaces together — instant bond. Contact bond strength: 2-5 MPa (immediate), developing to 5-10 MPa over 24-48 hours as residual solvent evaporates and the metal oxide cure progresses. Used for: plywood laminating, shoe sole attachment, countertop lamination (Formica to substrate).
-
-### Fluoroelastomers (FKM, Viton)
-
-For extreme chemical and temperature resistance beyond all other elastomers. Requires fluorine chemistry (HF from fluorspar CaF₂ + H₂SO₄) — see [Chemistry](../chemistry/electrolysis.md) for HF production.
-
-**Composition**: Copolymer of vinylidene fluoride (VDF, CH₂=CF₂) and hexafluoropropylene (HFP, CF₂=CF-CF₃). Some grades include tetrafluoroethylene (TFE) for enhanced chemical resistance. Fluorine content: 65-70% by weight.
-
-**Properties**: Service temperature range -20 to +200°C (continuous), short-term excursions to 250°C. Chemical resistance unmatched by any other elastomer — resistant to oils, fuels, solvents, acids (including concentrated H₂SO₄ and HNO₃), and aggressive chemicals that destroy NBR, neoprene, and EPDM. Tensile strength 10-20 MPa. Compression set 15-30% (higher than standard elastomers — FKM is less elastic). Cost: 20-50× natural rubber.
-
-**Applications**: O-rings and seals in aggressive chemical environments (semiconductor wet processing equipment, aerospace fuel systems, oil drilling downhole seals), automotive fuel system components (fuel injector O-rings, valve stem seals — modern engines use FKM for fuel contact where NBR would degrade), chemical pump seals.
-
-### Polybutadiene Rubber (BR)
-
-Polybutadiene is the second most-produced synthetic rubber (~3 million tonnes/year), valued primarily for its exceptional resilience, abrasion resistance, and low-temperature flexibility.
-
-**Polymerization**: Butadiene in hexane solvent with neodymium-based Ziegler-Natta catalyst (Nd(versatate)₃/Al(i-Bu)₂H/Al(i-Bu)₃) at 50-70°C. The neodymium catalyst produces very high cis-1,4 content (>97%) — a more regular chain structure than lithium or nickel catalysts. Alternative: cobalt or nickel catalysts give 95-96% cis content.
-
-**Properties**: cis-1,4 content 96-98% (higher cis = more regular packing = higher crystallinity on stretching = higher tensile). Tg ≈ -100°C (the lowest Tg of any common rubber — outstanding low-temperature flexibility). Resilience (rebound) 70-85% at room temperature (highest of all rubbers — minimal energy loss on deformation). Abrasion resistance superior to natural rubber and SBR. Tensile strength (unfilled) only 1-3 MPa — like NR, BR requires carbon black reinforcement (30-50 phr) for practical strength (17-25 MPa). Poor tear strength and poor processing characteristics (difficult to mix and extrude due to low Mooney viscosity — often blended with NR or SBR).
-
-**Applications**: Tire treads (typically blended 25-50% BR with SBR — the BR component improves abrasion resistance and rolling resistance), golf ball cores (high resilience = longer distance), conveyor belts (abrasion-resistant cover compound), shoe soles. BR is almost never used alone — it is a blending component that improves specific properties of other rubbers.
-
-### Butyl Rubber (IIR) and Halobutyl
-
-**Butyl rubber**: Copolymer of isobutylene (97-99%) with a small amount of isoprene (1-3% to provide unsaturated cross-linking sites). Polymerized at -80 to -100°C in methyl chloride solvent with AlCl₃ catalyst (carbocationic polymerization — the extreme cold is required to prevent chain transfer and achieve high molecular weight, 300,000-500,000 g/mol).
-
-**Properties**: Exceptionally low gas permeability — butyl rubber is 10-20× less permeable to air than natural rubber (the tightly packed, fully saturated isobutylene chains provide an excellent gas barrier). This makes butyl rubber the only practical material for tire inner liners and inner tubes. Tg ≈ -65°C. Damping: very high (butyl rubber has the highest hysteresis of any common rubber — it converts mechanical vibration energy to heat). Used for: tire inner liners (halobutyl — see below), inner tubes, pharmaceutical stoppers (low gas permeability preserves drug sterility), vibration isolation mounts, tank linings, roof membranes.
-
-**[Halobutyl](../glossary/halobutyl.md)** (chlorobutyl CIIR, bromobutyl BIIR): Butyl rubber halogenated with Cl₂ or Br₂ at the isoprene double bond. The halogen provides a second cross-linking site that enables covulcanization with general-purpose rubbers (NR, SBR). Regular butyl rubber cannot be covulcanized with NR/SBR — the different cure systems are incompatible. Halobutyl solved this problem, enabling the modern tubeless tire: a thin halobutyl inner liner (0.5-1.0 mm) on the inside of the tire carcass provides air retention while bonding to the NR/SBR carcass compound during vulcanization. Bromobutyl is preferred for modern tires — faster cure and better adhesion to carcass. Global halobutyl consumption: ~1 million tonnes/year, ~80% for tire inner liners.
-
-### Thermoplastic Elastomers (TPE)
-
-A family of materials that combine rubber-like elasticity with thermoplastic processability (no vulcanization required — they can be melted, molded, and remelted like thermoplastics). This is achieved through a two-phase structure: hard plastic domains (physical cross-links that melt above Tg or Tm) dispersed in a soft rubbery matrix.
-
-**Styrenic block copolymers (SBS, SEBS)**: Polystyrene-polybutadiene-polystyrene triblock (SBS) or polystyrene-poly(ethylene-butylene)-polystyrene (SEBS — hydrogenated SBS for UV and ozone stability). The polystyrene end-blocks (Tg ~100°C) form rigid domains that physically cross-link the rubbery mid-block at room temperature. Above 100°C, the polystyrene domains melt and the material flows. Used for: shoe soles, soft-touch grips, wire insulation, adhesives (hot-melt pressure-sensitive adhesives), asphalt modifier (SBS at 3-7% modifies road asphalt to improve fatigue life 5-10× and reduce rutting at high temperatures).
-
-**Thermoplastic polyurethane (TPU)**: Segmented block copolymer with alternating hard segments (isocyanate + chain extender, Tm ~150-200°C) and soft segments (polyol, Tg ~ -50 to -30°C). Hardness range Shore A 60 to Shore D 75 — the widest range of any TPE. Abrasion resistance: excellent (approaches cast PU). Used for: phone cases, cable jacketing, automotive interior trim, sports equipment, medical tubing.
-
-### Cross-References
-
-- **Monomer precursors**: Petrochemical cracking products (ethylene, propylene, butadiene) from [Petroleum & Alternative Chemistry](../chemistry/petroleum-alternatives.md). Ethanol-based butadiene from fermentation (Lebedev process — 2 mol ethanol → 1 mol butadiene + 2 mol water + 1 mol hydrogen over ZnO/Al₂O₃ at 400-450°C). The Lebedev process enables butadiene production without petrochemical infrastructure, which is critical for bootstrap contexts where oil refining may not be available.
-- **MG-Si for silicones**: [MG-Si Production](../silicon/mg-si-production.md) — metallurgical-grade silicon (98-99% Si) reacts with methyl chloride (CH₃Cl from methanol + HCl) via the Rochow-Müller process (Cu catalyst, 250-300°C) to produce methylchlorosilanes, which are hydrolyzed and polymerized to PDMS. The entire silicone supply chain starts from quartz (SiO₂), carbon (coal/coke), and methyl chloride.
-- **Phosgene for isocyanates**: CO + Cl₂ over activated carbon at 200-300°C — requires [chlor-alkali electrolysis](../chemistry/electrolysis.md) (for Cl₂) and CO from producer gas (C + H₂O → CO + H₂ at 800-1000°C). The phosgene synthesis is straightforward chemically but demands extreme safety precautions due to phosgene's extreme toxicity.
-- **Vulcanization equipment**: Two-roll mills, Banbury internal mixers, compression molds — shared with [Rubber Production](./rubber.md) and [Natural Rubber](./natural.md). The same equipment used for natural rubber compounding and vulcanization is used for synthetic rubber processing.
-- **Polymerization reactors**: Stirred tank reactors (glass-lined or stainless steel, jacketed for temperature control), autoclaves (for high-pressure PE and condensation polymerization), tubular reactors (for continuous ethylene polymerization at 1000-3000 atm). Reactor design varies by polymer: condensation polymers (nylon, PET) need vacuum capability to remove byproduct water; addition polymers (PE, PP, PVC) need pressure containment and precise temperature control to manage the exothermic polymerization reaction.
-
-### Acrylic (PMMA) and Polycarbonate
-
-**Polymethyl methacrylate (PMMA, acrylic)**: Methyl methacrylate (MMA) monomer bulk-polymerized or suspension-polymerized at 60-80°C with peroxide initiator (benzoyl peroxide 0.1-0.5%). The bulk process (casting between glass plates) produces optically clear sheet — "cast acrylic" with the best optical quality of any thermoplastic (light transmission 92%, refractive index 1.49). Tensile strength 55-75 MPa. Density 1.18 g/cm³. Glass transition temperature 105°C. Used for: aircraft canopies (WWII — acrylic replaced glass in fighter and bomber canopies, saving weight and eliminating dangerous shattering), aquariums, skylights, automotive taillights, dentures (acrylic resin with pink pigment), optical lenses, light pipes, signage. MMA production: acetone + HCN → acetone cyanohydrin → methacrylamide sulfate → MMA (via hydrolysis and esterification with methanol). Alternative route: isobutylene oxidation → methacrolein → methacrylic acid → MMA.
-
-**Polycarbonate (PC)**: Bisphenol A + phosgene interfacial polycondensation. BPA dissolved in aqueous NaOH, phosgene dissolved in dichloromethane. Reaction at 25-35°C with triethylamine catalyst. The interfacial process occurs at the boundary between aqueous and organic phases — BPA reacts with phosgene at the interface, and the growing polycarbonate chain partitions into the organic phase. Molecular weight 22,000-35,000 g/mol. Properties: outstanding impact resistance (850-1000 kJ/m² notched Izod — 20-40× that of acrylic), transparent (88-90% light transmission), glass transition temperature 147°C, tensile strength 60-70 MPa. Density 1.20 g/cm³. Used for: bullet-resistant windows, safety goggles, electronic display screens, automotive headlamp lenses, CDs/DVDs (injection-molded polycarbonate substrate, 1.2 mm thick, with reflective aluminum coating), Blu-ray discs. The phosgene route is being replaced by melt transesterification of BPA with diphenyl carbonate (non-phosgene process) for safety reasons.
-
-### Styrene-Butadiene Rubber (SBR)
-
-The highest-volume synthetic rubber (produced at ~6 million tonnes/year globally, ~40% of all synthetic rubber production). Developed in Germany in the 1930s (Buna S) and commercialized in the US during WWII when natural rubber supplies from Southeast Asia were cut off.
-
-**Emulsion copolymerization**: Styrene (23-25%) + butadiene (75-77%) + water + emulsifier (fatty acid soap, 2-5%) + initiator (potassium persulfate for hot polymerization at 50°C, or redox system — ferrous sulfate + cumene hydroperoxide — for cold polymerization at 5°C). Cold SBR has superior properties (more linear chains, less branching, higher molecular weight). Polymerization to 60-70% conversion over 8-12 hours (cold) or 5-8 hours (hot). Short-stopped with hydroquinone. Coagulated with salt/acid, washed, dried on hot drum dryer.
-
-**Properties (oil-extended SBR, typical tire tread compound)**: Tensile strength 17-25 MPa (unfilled SBR is weak — carbon black reinforcement at 50 phr raises tensile from ~2 MPa to 20+ MPa). Elongation 400-600%. Tg ≈ -55°C (lower than natural rubber, better low-temperature flexibility). Aging resistance superior to natural rubber (SBR has no unsaturated sites susceptible to ozone attack in the same way). Abrasion resistance comparable to natural rubber when properly compounded. Not oil-resistant — use NBR for oil contact.
-
-**Applications**: Passenger tire treads (SBR/carbon black compound — ~55% of SBR production goes into tires), conveyor belts, footwear soles, molded rubber goods, adhesive formulations (SBR latex as carpet backing adhesive). Blended with natural rubber for cost optimization — typical tire tread: 50% SBR + 50% NR + 50 phr carbon black + curing package.
-
-### Safety & Hazards
-
-- **Phosgene (COCl₂) for polycarbonate and isocyanate production**: A WWI chemical weapon. Odorless at low concentrations or faintly smells of newly mown hay. Causes delayed pulmonary edema — symptoms may not appear for 2-24 hours after exposure, by which time lung damage may be irreversible. Lethal at 1 ppm sustained exposure. All phosgene handling must use sealed, leak-tested systems with gas scrubbers (caustic soda NaOH scrubbers destroy phosgene). Continuous gas monitoring with alarms at 0.1 ppm. Emergency response: evacuate immediately on any leak, administer oxygen, seek medical care regardless of symptoms. Production rate: CO + Cl₂ over activated carbon at 200-300°C — the exothermic reaction must be temperature-controlled to prevent runaway.
-- **Isocyanates (TDI, MDI) for polyurethane**: The Bhopal disaster (1984) involved methyl isocyanate release killing thousands. TDI and MDI are potent respiratory sensitizers — repeated inhalation causes permanent occupational asthma. Skin contact causes sensitization and dermatitis. Use respiratory protection (supplied air or full-face respirator with organic vapor/P100 cartridge). Handle in sealed systems with local exhaust ventilation. Air monitoring required — OSHA PEL for TDI is 0.02 ppm (ceiling). Emergency response for exposure: move to fresh air, seek medical attention immediately, do not return to isocyanate work if sensitized. MDI is less volatile than TDI (lower vapor pressure at room temperature) and therefore presents lower inhalation risk in normal handling — but spray application of MDI-based coatings generates respirable aerosol that requires full respiratory protection.
-- **Vinyl chloride monomer (VCM) for PVC**: A confirmed human carcinogen (IARC Group 1) causing angiosarcoma of the liver — a rare cancer with a specific association to VCM exposure. Latency period: 10-40 years. Also flammable/explosive (LEL 3.6% in air, UEL 33%). Monomer handling requires closed systems with leak detection, continuous air monitoring, and explosion-proof electrical equipment. Ventilation must prevent accumulation of heavier-than-air VCM gas (vapor density 2.2× air — accumulates in low areas). Workers require periodic liver function monitoring and imaging. Any VCM leak is both a toxic exposure and an explosion hazard — evacuate, isolate ignition sources, and ventilate.
-- **Acrylonitrile for NBR**: Flammable liquid (flash point -1°C), toxic by inhalation and skin absorption. IARC Group 2B (possible carcinogen). Cyanide release on combustion — fires involving acrylonitrile produce hydrogen cyanide (HCN) gas. OSHA PEL 2 ppm (8-hour TWA). Handle in closed systems with leak detection. Emergency response for large spills: evacuate 100+ m radius, use self-contained breathing apparatus for approach.
-- **Styrene**: Used as reactive diluent in polyester resin (30-40%) and as monomer for PS. Flammable (flash point 31°C). CNS depressant at 100+ ppm. IARC Group 2A (probable carcinogen). OSHA PEL 50 ppm TWA. The strong, penetrating odor is detectable at 0.1 ppm — provides good warning property but also causes odor fatigue (workers stop noticing the smell after extended exposure, even though the hazard persists). Monitor with direct-reading instruments rather than relying on odor as a warning.
-
----
-
+> **Critical**: No — synthetic elastomers expand capability beyond natural rubber but are not on the critical path
+
+## 1. Overview
+
+Synthetic polymers fill gaps natural rubber cannot: oil resistance (NBR), flame retardancy (neoprene), extreme-temperature service (silicone, -60 to +250°C), and tunable hardness (polyurethane, Shore A 70 to Shore D 75). Each requires specific monomer feedstocks and controlled polymerization conditions.
+
+The synthetic polymers in this article span from semi-synthetic materials achievable at moderate technology level (celluloid, casein plastic) through fully synthetic thermoplastics requiring petrochemical infrastructure (nylon, PET, SBR) to specialty elastomers for extreme environments (fluoroelastomers). Feedstocks derive from [petrochemical cracking](../chemistry/petroleum-alternatives.md) or, for bootstrap contexts, from ethanol fermentation (Lebedev process for butadiene) and coal tar distillation.
+
+See [Rubber Production](./rubber.md) for natural rubber vulcanization and compounding recipes shared across all elastomers. See [Thermoplastics](./thermoplastics.md) for melt-processing methods (injection molding, extrusion, blow molding).
+
+## 2. Prerequisites
+
+### Materials
+- [Petrochemical monomers](../chemistry/petroleum-alternatives.md): ethylene, propylene, butadiene, styrene, acrylonitrile from steam cracking of naphtha (750-900°C, 0.1-0.5 s residence)
+- [Chlorine](../chemistry/electrolysis.md) (for neoprene, PVC — from chlor-alkali electrolysis)
+- [MG-Silicon](../silicon/mg-si-production.md) (for silicone elastomers — quartz + carbon reduction)
+- [Phosgene](../chemistry/electrolysis.md) (CO + Cl₂ over activated carbon at 200-300°C — for polycarbonate and isocyanate production)
+- Formaldehyde (from methanol oxidation over silver catalyst at 600-700°C)
+- Phenol (from coal tar distillation or cumene process)
+
+### Tools and Equipment
+- [Stirred tank reactors](../machine-tools/casting.md) (glass-lined or stainless steel, 5-50 m³, jacketed for temperature control)
+- [Two-roll mills](../machine-tools/machining.md) (for compounding)
+- Compression or injection molding presses (for vulcanization)
+- Distillation columns (for monomer purification)
+
+### Infrastructure
+- Steam supply (for reactor heating and distillation)
+- Cooling water (for exothermic polymerization control)
+- Ventilation and gas scrubbing (for toxic monomer handling)
+- Nitrogen inerting system (for moisture-sensitive polymerizations)
+
+## 3. Bill of Materials
+
+### Nitrile Rubber (NBR) — per 100 kg polymer
+
+| Material | Quantity | Source | Alternatives |
+|----------|----------|--------|-------------|
+| Butadiene (C₄H₆) | 55-75 kg | [Petrochemicals](../chemistry/petroleum-alternatives.md) — steam cracking naphtha | Lebedev process from ethanol (2 mol ethanol → 1 mol butadiene, ZnO/Al₂O₃ catalyst, 400-450°C) |
+| Acrylonitrile (CH₂=CHCN) | 25-45 kg | [Petrochemicals](../chemistry/petroleum-alternatives.md) — propylene ammoxidation | None — acrylonitrile has no practical non-petrochemical route |
+| Sodium dodecyl sulfate (emulsifier) | 2-5 kg | Organic synthesis | Fatty acid soaps |
+| Potassium persulfate (initiator) | 0.3-1.0 kg | Chemical synthesis | Redox initiator (FeSO₄ + hydroperoxide) |
+| Tertiary dodecyl mercaptan (chain transfer) | 0.3-0.5 kg | Organic synthesis | None — controls molecular weight |
+
+### Neoprene (CR) — per 100 kg polymer
+
+| Material | Quantity | Source | Alternatives |
+|----------|----------|--------|-------------|
+| Chloroprene (CH₂=CCl-CH=CH₂) | 105-110 kg | [Chemistry](../chemistry/electrolysis.md) — acetylene + HCl route or butadiene + Cl₂ route | Acetylene route when CaC₂ → C₂H₂ available; butadiene route when petrochemicals available |
+| Sodium dodecyl sulfate (emulsifier) | 2-5 kg | Organic synthesis | Fatty acid soaps |
+| N-dodecyl mercaptan (chain transfer) | 0.3-0.5 kg | Organic synthesis | None — controls MW |
+| Zinc oxide (cure agent) | 5 kg | [Chemistry](../chemistry/alkalis.md) | None |
+| Magnesium oxide (acid scavenger) | 4 kg | [Chemistry](../chemistry/alkalis.md) | None — scavenges HCl |
+
+### Polyurethane Rigid Foam — per m³ (35 kg/m³ density)
+
+| Material | Quantity | Source | Alternatives |
+|----------|----------|--------|-------------|
+| Polyether polyol (MW ~400, 4-8 OH groups) | 23-25 kg | [Petrochemicals](../chemistry/petroleum-alternatives.md) — propylene oxide + ethylene oxide | Polyester polyol from adipic acid + ethylene glycol |
+| Polymeric MDI (isocyanate) | 30-35 kg | [Chemistry](../chemistry/petroleum-alternatives.md) — aniline + formaldehyde → phosgenation | TDI (less suitable for rigid foam) |
+| Cyclopentane (blowing agent) | 2-4 kg | Petroleum refining | HCFC-141b (ozone-depleting), water (generates CO₂, less insulation) |
+| Silicone surfactant | 0.5-1.0 kg | [Silicon](../silicon/mg-si-production.md) | None — stabilizes foam cells |
+| Amine catalyst | 0.3-0.5 kg | Organic synthesis | None — controls reaction timing |
+
+## 4. Process Description
+
+### 4.1 Nitrile Rubber (NBR, Buna-N)
+
+**Principle**: Emulsion copolymerization of butadiene (55-75 parts) with acrylonitrile (25-45 parts) produces a random copolymer with polar nitrile groups (—C≡N) along the chain. The nitrile groups provide oil and fuel resistance by increasing polymer polarity, making the rubber less soluble in non-polar hydrocarbons. Higher acrylonitrile content → better oil resistance but higher glass transition temperature (less flexible at low temperature).
+
+**Prerequisites**: Butadiene (from [steam cracking](../chemistry/petroleum-alternatives.md) or Lebedev ethanol process). Acrylonitrile (from propylene ammoxidation, requiring propylene + ammonia + air). Glass-lined or stainless steel stirred tank reactor (5-50 m³) with jacket cooling. Centrifuge or screen for rubber recovery.
+
+**Materials**:
+- Butadiene (C₄H₆, >99% purity, inhibited with TBC): 55-75 parts
+- Acrylonitrile (CH₂=CHCN, >99% purity): 25-45 parts
+- Water (deionized): 200 parts (continuous phase)
+- Sodium dodecyl sulfate (emulsifier): 2-5 parts
+- Potassium persulfate or redox initiator (FeSO₄ + hydroperoxide): 0.3-1.0 parts
+- Tertiary dodecyl mercaptan (chain transfer agent): 0.3-0.5 parts
+- Hydroquinone (short-stop): 0.1-0.3 parts (stops reaction at target conversion)
+
+**Procedure**:
+1. Charge reactor with deionized water, emulsifier, and chain transfer agent. Purge with nitrogen to remove oxygen (oxygen inhibits free-radical polymerization).
+2. Add butadiene and acrylonitrile monomers. Stir to form stable emulsion.
+3. Add initiator. For cold NBR (preferred — superior properties): maintain 30-50°C via jacket cooling. Polymerization is exothermic (~60-80 kJ/mol) — cooling capacity must match heat generation rate.
+4. React for 6-12 hours, monitoring conversion by solids content measurement (gravimetric sampling every 2 hours).
+5. Stop reaction at 70-80% conversion by adding hydroquinone short-stop. Do NOT exceed 85% conversion — higher conversion produces cross-linked microgel particles that degrade properties.
+6. Coagulate latex by adding CaCl₂ (1-2%) and dilute sulfuric acid (0.5-1.0%) with stirring. Rubber precipitates as crumb.
+7. Wash crumb rubber 3× with water to remove emulsifier, salts, and residual monomer.
+8. Dry on hot-roll dryer at 80-100°C to <0.5% moisture. Bale at 33-35 kg per bale.
+
+**Calibration/Verification**:
+- Conversion check: Gravimetric solids test. Weigh 10 g emulsion, dry at 105°C for 2 hours, weigh residue. Conversion = (solids% — initial solids%) / (monomer charge%). Target: 70-80%.
+- Bound acrylonitrile content: Nitrogen analysis (Kjeldahl or Dumas). Low-ACN: 18-22%. Medium-ACN: 30-35%. High-ACN: 40-50%. Deviation >2% from target indicates inaccurate monomer charge.
+- Mooney viscosity (ML 1+4 at 100°C): 50-90 for cold NBR. Higher viscosity = higher molecular weight. Below 40 indicates excessive chain transfer; above 100 indicates insufficient chain transfer or excessive conversion.
+
+**Expected Performance**:
+- Tensile strength: 15-28 MPa (with 30-50 phr carbon black reinforcement)
+- Elongation at break: 300-600%
+- Oil swell (IRM 903, 70 hours at 100°C): <10% for High-ACN, 10-30% for Medium-ACN, >30% for Low-ACN
+- Tg: -50°C (Low-ACN) to -15°C (High-ACN)
+- Service temperature: -40°C to +120°C
+
+**Strengths**:
+- Best oil and fuel resistance of any moderate-cost elastomer — NBR swells <10% in IRM 903 oil at 100°C for High-ACN grades (vs. >50% for natural rubber)
+- Wide range of acrylonitrile content allows tuning of oil resistance vs. low-temperature flexibility
+- HF resistance — NBR gloves provide >8 hours breakthrough time against 48% hydrofluoric acid (used in semiconductor cleanroom gloves)
+
+**Weaknesses**:
+- Poor ozone and weather resistance — the carbon-carbon double bonds in the butadiene segments are attacked by ozone, causing cracking in outdoor service
+- Limited high-temperature capability — continuous service limited to 120°C; above this, nitrile groups begin to cross-link and embrittle
+- Acrylonitrile monomer is toxic and flammable — flash point -1°C, IARC Group 2B (possible carcinogen), OSHA PEL 2 ppm
+
+### 4.2 Neoprene (Polychloroprene, CR)
+
+**Principle**: Chloroprene (CH₂=CCl-CH=CH₂) polymerizes via free-radical emulsion polymerization to produce polychloroprene. The chlorine atom on the polymer backbone provides inherent UV stability, ozone resistance, and flame retardancy (LOI ~26%, self-extinguishing in normal air at 21% oxygen).
+
+**Prerequisites**: Chloroprene monomer from either (a) acetylene + HCl route (CaC₂ → C₂H₂ + 2 HCl → 1,1-dichloroethane → dehydrochlorination at 450-550°C → chloroprene, ~70% overall yield) or (b) butadiene + Cl₂ route (butadiene + Cl₂ → 3,4-dichloro-1-butene → isomerization → 1,4-dichloro-2-butene + NaOH → chloroprene + NaCl, 95% yield at 60-80°C). Jacketed stirred tank reactor (40-50°C). Stainless steel or glass-lined construction.
+
+**Materials**:
+- Chloroprene (inhibited with phenothiazine at 0-5°C, >99% purity): 100 parts
+- Water (deionized): 200 parts
+- Sodium dodecyl sulfate (emulsifier): 2-5 parts
+- N-dodecyl mercaptan (chain transfer): 0.3-0.5 parts
+- Potassium persulfate (initiator): 0.2-0.5 parts
+- Hydroquinone (short-stop): 0.1-0.3 parts
+- For sulfur-modified grades: elemental sulfur 0.5-1.5 parts (copolymerized for improved processing)
+
+**Procedure**:
+1. Store chloroprene at 0-5°C with phenothiazine inhibitor until use. Chloroprene polymerizes spontaneously at room temperature without inhibitor.
+2. Charge reactor with water, emulsifier, and chain transfer agent. Purge with nitrogen.
+3. Add chloroprene monomer. Stir to form emulsion.
+4. Add initiator. Maintain 40°C via jacket cooling (exothermic polymerization).
+5. React for 2-8 hours, monitoring conversion. Stop at 70-80% conversion by adding hydroquinone short-stop. Do NOT exceed 80% — chloroprene is highly reactive and higher conversion causes excessive branching and gel.
+6. Coagulate with CaCl₂ or Al₂(SO₄)₃ + dilute acid. Wash crumb 3× with water.
+7. Dry on hot-roll dryer at 80-100°C. Bale.
+
+**Calibration/Verification**:
+- Conversion: Gravimetric solids test. Target: 70-80%. Above 80% = gel formation risk.
+- Mooney viscosity (ML 1+4 at 100°C): 30-90. Sulfur-modified grades are softer (30-60). Gel grades contain crosslinked domains for dimensional stability.
+- Chlorine content: ~40% by weight (from polymer structure). Verify by elemental analysis. Deviations indicate contamination or incorrect monomer.
+
+**Expected Performance**:
+- Tensile strength: 10-25 MPa (unfilled to reinforced)
+- Elongation at break: 300-600%
+- Tg ≈ -45°C
+- Flame resistance: LOI ~26% (self-extinguishing in air)
+- Oil swell (IRM 903, 70 hours at 100°C): 50-100% (inferior to NBR but adequate for intermittent contact)
+- Service temperature: -40°C to +120°C
+
+**Strengths**:
+- Self-extinguishing — flame retardant without additives (the chlorine atom provides inherent flame resistance, LOI 26%)
+- Excellent ozone, UV, and weather resistance — does not crack in outdoor exposure (unlike NR and SBR)
+- Versatile adhesive — neoprene contact cement bonds wood, metal, laminate, and shoe soles with 2-5 MPa instant contact strength
+
+**Weaknesses**:
+- Inferior oil resistance compared to NBR — swells 50-100% in IRM 903 oil (vs. <20% for NBR)
+- Chloroprene monomer is highly reactive and requires refrigerated storage (0-5°C) with inhibitor to prevent spontaneous polymerization
+- HCl release during aging at elevated temperatures — MgO (4 phr) must be included as acid scavenger to prevent autocatalytic degradation
+
+### 4.3 Silicone Elastomers (PDMS)
+
+**Principle**: Polydimethylsiloxane (PDMS) is polymerized from cyclic siloxanes (D₃ or D₄, produced by hydrolysis of dimethyl dichlorosilane). Cross-linking via peroxide (free radical), platinum-catalyzed addition (hydrosilylation), or moisture cure produces a thermally stable elastomer with the widest service temperature range of any rubber (-60 to +250°C).
+
+**Prerequisites**: [MG-silicon](../silicon/mg-si-production.md) (98-99% Si, from quartz + carbon at 1800-2000°C). Methyl chloride (CH₃Cl, from methanol + HCl). Copper catalyst (for Rochow-Müller process: MG-Si + CH₃Cl → dimethyl dichlorosilane at 250-300°C). Two-roll mill for compounding. Curing oven or heated mold.
+
+**Materials**:
+- PDMS gum (high molecular weight, ~500,000 g/mol): 100 parts
+- Fumed silica (7-40 nm SiO₂ particles, from flame hydrolysis of SiCl₄): 10-40 phr
+- Dicumyl peroxide (for peroxide cure HTV grades): 0.5-2 phr
+- OR: Platinum catalyst (~10 ppm) + Si-H crosslinker (1-3%) for addition cure (LSR)
+- OR: Acetoxy silane crosslinker (for RTV-1 moisture cure)
+- Extending filler (ground quartz, optional, 50-200 phr for cost reduction in non-critical applications)
+
+**Procedure (Peroxide Cure — HTV)**:
+1. Compound PDMS gum with fumed silica on two-roll mill. Add silica gradually (4-5 portions) to ensure dispersion. Mill generates shear heat — keep roll temperature below 80°C to prevent premature peroxide decomposition.
+2. Add dicumyl peroxide (0.5-2%). Mix 2-3 minutes. Keep temperature below 80°C.
+3. Sheet off compound at 2-3 mm thickness.
+4. Preform to mold cavity shape. Place in heated mold.
+5. Cure at 150-175°C for 5-15 minutes under pressure (5-10 MPa in compression mold).
+6. Post-cure at 200°C for 2-4 hours in circulating air oven. This step is mandatory — peroxide decomposition leaves volatile byproducts (acetophenone, cumyl alcohol) that cause outgassing and dimensional instability if not removed.
+
+**Calibration/Verification**:
+- Hardness (Shore A): Measure at 3 points. Target per grade specification (typically 40-80 Shore A). Unfilled gum is ~20 Shore A; 10-40 phr fumed silica raises to 40-80.
+- Tensile test: ASTM D412. Target: 6-10 MPa (with 10-40 phr fumed silica). Below 4 MPa indicates poor silica dispersion or insufficient filler.
+- Outgassing test (post-cure verification): Heat sample at 150°C for 1 hour. Weigh before and after. Weight loss should be <0.5%. Above 1% indicates insufficient post-cure.
+- Compression set (22 hours at 175°C): Target <25%. Above 35% indicates incomplete cure or degraded peroxide.
+
+**Expected Performance**:
+- Tensile strength: 6-10 MPa (filled)
+- Elongation at break: 200-500%
+- Service temperature range: -60°C to +250°C (widest of any elastomer)
+- Dielectric constant: ε ≈ 3 (excellent electrical insulation)
+- Dissipation factor: tan δ ≈ 0.001
+
+**Strengths**:
+- Widest service temperature range of any elastomer: -60°C to +250°C continuous (natural rubber: -50°C to +100°C; nitrile: -40°C to +120°C)
+- Biocompatible — medical grades meet USP Class VI and ISO 10993; used for catheters, seals, and food-contact items
+- Excellent dielectric properties (ε ≈ 3, tan δ ≈ 0.001) — used for electronic potting and encapsulation
+
+**Weaknesses**:
+- Low mechanical strength — unfilled PDMS tensile is <0.5 MPa (essentially a weak gum); even filled, only 6-10 MPa (vs. 20-30 MPa for natural rubber)
+- Expensive — MG-Si precursor chain (quartz → silicon → methylchlorosilanes → PDMS) is energy-intensive and requires multiple chemical processing steps
+- Poor hydrocarbon resistance — silicone swells in non-polar solvents (gasoline, toluene); not suitable for fuel contact applications
+
+### 4.4 Polyurethane (PU) — Rigid Foam
+
+**Principle**: Polyol (hydroxyl-terminated polymer) reacts with isocyanate (NCO-terminated) to form a urethane linkage (—NH—CO—O—). In foam production, water reacts with excess isocyanate to generate CO₂ gas (H₂O + NCO → urea linkage + CO₂), which inflates the reacting mixture. The blowing agent (cyclopentane, boiling point 36°C) provides most of the expansion in rigid foam, creating closed cells with low thermal conductivity (0.020-0.025 W/(m·K)).
+
+**Prerequisites**: Polymeric MDI (isocyanate component — from aniline + formaldehyde → MDA → phosgenation with COCl₂). Polyether polyol (from propylene oxide + ethylene oxide polymerization initiated by glycerol or sucrose). Cyclopentane blowing agent. Mixing/dispensing equipment (hand mix or machine dispense).
+
+**Materials**:
+- Polyether polyol (MW ~400, 4-8 hydroxyl groups per molecule): 100 parts
+- Polymeric MDI (pMDI, isocyanate index 130-180): 130-180 parts
+- Water (generates CO₂): 1-2 parts
+- Cyclopentane (primary blowing agent, bp 36°C): 10-20 parts
+- Silicone surfactant (stabilizes rising foam cells): 2 parts
+- Amine catalyst (blowing reaction): 1 part
+
+**Procedure**:
+1. Mix polyol, water, cyclopentane, surfactant, and amine catalyst in a plastic or metal container (Component A). Stir 30 seconds to homogenize. Cyclopentane is flammable (LEL 1.1%) — mix in ventilated area away from ignition sources.
+2. Add polymeric MDI (Component B) to the mixture. Stir vigorously for 10-15 seconds with a mechanical mixer (500-1000 RPM). The reaction begins immediately.
+3. Pour the reacting mixture into the mold or cavity within 20 seconds of adding MDI (cream time is 10-15 seconds — initial foaming begins).
+4. Foam rises to full height in 60-90 seconds (rise time). Do NOT disturb during rise — movement causes cell collapse.
+5. Foam becomes tack-free (surface no longer sticky) in 120-180 seconds. Allow to cure in mold for 10-30 minutes before demolding.
+6. Post-cure at room temperature for 24 hours for complete reaction and dimensional stability.
+7. Trim excess foam flush with mold edges using a serrated knife or hot wire cutter.
+
+**Calibration/Verification**:
+- Density: Cut a 100 mm cube from the foam center. Weigh and calculate density. Target: 28-50 kg/m³ for rigid insulation foam. Below 25 kg/m³ = insufficient strength; above 55 kg/m³ = wasted material.
+- Thermal conductivity: Measure with heat flow meter (ASTM C518). Target: 0.020-0.025 W/(m·K). Above 0.030 W/(m·K) indicates open cells or poor blowing agent retention.
+- Compressive strength (ASTM D1621): Target: 100-400 kPa at 10% deformation (parallel to rise direction). Below 100 kPa indicates poor cell structure or insufficient cross-link density.
+- Dimensional stability (ASTM D2126): Measure dimensions before and after 72 hours at 70°C, 90% RH. Dimensional change should be <3%. Above 5% indicates incomplete cure or poor cell structure.
+
+**Expected Performance**:
+- Density: 28-50 kg/m³
+- Thermal conductivity: 0.020-0.025 W/(m·K) — best insulation among common materials (fiberglass: 0.035-0.040, EPS: 0.030-0.040)
+- Compressive strength: 100-400 kPa
+- R-value: ~3.5 per 25 mm thickness (vs. ~2.5 for fiberglass, ~2.0 for softwood)
+- Maximum service temperature: 80-100°C (above this, foam begins to soften and lose dimensional stability)
+
+**Strengths**:
+- Highest insulation performance at moderate technology level — 50 mm rigid PU foam (R-value ~3.5) equals 100 mm fiberglass or 150 mm softwood
+- On-site production — two liquid components mixed and poured in place; spray PU foam can insulate an entire building in a day
+- Closed-cell structure provides both thermal insulation and moisture barrier — eliminates need for separate vapor barrier in building construction
+
+**Weaknesses**:
+- Isocyanate (MDI) is a respiratory sensitizer — repeated inhalation causes permanent occupational asthma. Spray application generates respirable aerosol requiring supplied-air respirator
+- Requires phosgene for isocyanate production — phosgene is a WWI chemical weapon, lethal at 1 ppm; sealed, leak-tested systems with caustic scrubbers are mandatory
+- Flammable — rigid PU foam ignites readily and produces toxic smoke (hydrogen cyanide, CO). Building codes require thermal barriers (drywall) over exposed foam
+
+### 4.5 Styrene-Butadiene Rubber (SBR)
+
+**Principle**: Emulsion copolymerization of styrene (23-25%) with butadiene (75-77%) produces a random copolymer. SBR is the highest-volume synthetic rubber (~6 million tonnes/year globally, ~40% of all synthetic rubber). Cold polymerization (5°C) produces superior properties — more linear chains, less branching, higher molecular weight than hot polymerization (50°C).
+
+**Prerequisites**: Styrene (from ethylbenzene dehydrogenation). Butadiene (from [steam cracking](../chemistry/petroleum-alternatives.md) or Lebedev ethanol process). Refrigerated reactor (5°C for cold SBR). Jacketed stirred tank reactor.
+
+**Materials**:
+- Styrene (C₆H₅CH=CH₂, >99%): 23-25 parts
+- Butadiene (C₄H₆, >99%): 75-77 parts
+- Water (deionized): 200 parts
+- Fatty acid soap (emulsifier): 2-5 parts
+- Redox initiator (FeSO₄ + cumene hydroperoxide) for cold process: 0.2-0.5 parts
+- Tertiary dodecyl mercaptan (chain transfer): 0.2-0.5 parts
+- Hydroquinone (short-stop): 0.1-0.3 parts
+
+**Procedure**:
+1. Charge reactor with water, emulsifier, and chain transfer agent. Purge with nitrogen.
+2. Add styrene and butadiene monomers. Stir to form emulsion.
+3. Add redox initiator. For cold SBR: maintain 5°C via refrigerated jacket (ice brine or ammonia refrigeration). React for 8-12 hours.
+4. Monitor conversion. Stop at 60-70% by adding hydroquinone short-stop.
+5. Coagulate with salt/acid (NaCl + H₂SO₄). Wash crumb. Dry on hot drum dryer at 80-100°C.
+6. Bale at 33-35 kg.
+
+**Calibration/Verification**:
+- Conversion: Gravimetric solids test. Target: 60-70%. Cold SBR is stopped earlier than NBR to prevent branching.
+- Bound styrene: 23-25% (verified by UV spectroscopy or refractive index). Deviations affect Tg and properties.
+- Mooney viscosity (ML 1+4 at 100°C): 45-55 for oil-extended SBR (most common form — extended with 37.5 phr aromatic oil).
+
+**Expected Performance** (oil-extended SBR with 50 phr carbon black):
+- Tensile strength: 17-25 MPa (unfilled SBR is ~2 MPa — carbon black reinforcement is essential)
+- Elongation at break: 400-600%
+- Tg ≈ -55°C (better low-temperature flexibility than natural rubber)
+- Abrasion resistance: Comparable to natural rubber when properly compounded
+- Not oil-resistant — swells significantly in hydrocarbon solvents
+
+**Strengths**:
+- Lower cost than natural rubber — monomers from abundant petrochemical feedstocks; SBR production is not limited by tropical growing conditions
+- Better aging resistance than natural rubber — fewer reactive double bonds per chain segment than NR
+- Good abrasion resistance when compounded with carbon black — standard tire tread material (typically 50% SBR + 50% NR blend)
+
+**Weaknesses**:
+- Requires carbon black reinforcement — unfilled SBR has negligible tensile strength (~2 MPa); cannot achieve useful properties without reinforcing filler
+- Poor oil resistance — SBR swells in all hydrocarbon solvents; use NBR for oil/fuel contact
+- Lower green strength (unvulcanized) than natural rubber — SBR is tacky and weak before cure, making tire building more difficult than with NR
+
+## 5. Quantitative Parameters
 
 ### Synthetic Polymer Development Timeline
 
 | Year | Polymer | Type | Key Innovation |
-|---|---|---|---|
+|------|---------|------|---------------|
 | 1869 | Celluloid | Semi-synthetic thermoplastic | First practical plastic (nitrocellulose + camphor) |
 | 1897 | Casein (Galalith) | Semi-synthetic thermoset | Protein-formaldehyde cross-linking |
-| 1907 | Bakelite | Fully synthetic thermoset | First fully synthetic plastic (phenol-formaldehyde) |
+| 1907 | [Bakelite](./thermosets.md) | Fully synthetic thermoset | First fully synthetic plastic (phenol-formaldehyde) |
 | 1912 | Cellophane | Regenerated cellulose | First transparent film (viscose process) |
-| 1935 | Nylon 66 | Fully synthetic thermoplastic | First synthetic fiber (polyamide condensation) |
-| 1941 | PET (polyester) | Fully synthetic thermoplastic | Highest-volume synthetic fiber (ethylene glycol + terephthalic acid) |
+| 1935 | [Nylon 66](./thermoplastics.md) | Fully synthetic thermoplastic | First synthetic fiber (polyamide condensation) |
+| 1941 | [PET (polyester)](./thermoplastics.md) | Fully synthetic thermoplastic | Highest-volume synthetic fiber |
+| 1943 | Polyurethane | Synthetic elastomer/foam | Tunable from rigid foam to cast elastomer |
 
-## See Also
+### Monomer Source Chain Comparison
 
-- **[Natural Polymers](natural.md)**: Rubber, gutta-percha, shellac, and other bio-based materials
-- **[Thermoplastics](thermoplastics.md)**: Melt-processable polymers (PE, PVC, nylon, PS)
-- **[Thermosets](thermosets.md)**: Crosslinked polymers (phenolic, epoxy, polyurethane)
+| Polymer | Primary Monomers | Feedstock Origin | Bootstrap Route |
+|---------|-----------------|------------------|-----------------|
+| NBR | Butadiene + acrylonitrile | Petrochemical | Lebedev process for butadiene from ethanol; acrylonitrile requires petrochemicals |
+| Neoprene | Chloroprene | Acetylene + HCl or butadiene + Cl₂ | Calcium carbide → acetylene route feasible at moderate tech level |
+| Silicone | Dimethyl dichlorosilane | MG-Si + CH₃Cl | [MG-Si](../silicon/mg-si-production.md) from quartz + carbon; methyl chloride from methanol + HCl |
+| PU foam | Polyol + MDI | Petrochemical | MDI requires phosgene (CO + Cl₂); polyol from propylene oxide |
+| SBR | Styrene + butadiene | Petrochemical | Lebedev process for butadiene; styrene from ethylbenzene dehydrogenation |
+
+### Elastomer Property Comparison
+
+| Property | NR | NBR (Med-ACN) | Neoprene | Silicone | PU Cast | EPDM |
+|----------|-----|---------------|----------|----------|---------|------|
+| Tensile (MPa) | 20-30 | 15-28 | 10-25 | 6-10 | 30-55 | 7-21 |
+| Elongation (%) | 400-650 | 300-600 | 300-600 | 200-500 | 300-600 | 150-600 |
+| Tg (°C) | -70 | -35 | -45 | -120 | -40 to -20 | -50 |
+| Service max (°C) | 100 | 120 | 120 | 250 | 80-120 | 150 |
+| Oil resistance | Poor | Excellent | Moderate | Poor | Good | Poor |
+| Ozone resistance | Poor | Poor | Excellent | Excellent | Good | Excellent |
+| Flame resistance | Poor | Poor | Self-extinguishing | Fair | Poor | Poor |
+
+## 6. Scaling Notes
+
+- **NBR**: Batch emulsion polymerization in 5-50 m³ reactors. A 20 m³ reactor produces 5-8 tonnes NBR per batch (8-12 hour cycle). Scaling adds reactors; polymerization time does not decrease with scale.
+- **Neoprene**: Similar batch scale to NBR. DuPont's Louisville plant operated at ~100,000 tonnes/year capacity.
+- **PU foam**: Continuous dispensing machines produce 50-200 kg/minute of mixed foam. Rigid foam panel production lines run at 5-15 m/minute (1.2 m wide, 25-100 mm thick). Hand-mixing (bucket and stirrer) produces 1-10 kg batches — adequate for insulation of small equipment.
+- **SBR**: Largest synthetic rubber plants produce 100,000+ tonnes/year. A 30 m³ reactor produces 8-12 tonnes per batch.
+- **Minimum bootstrap scale**: PU rigid foam is achievable at the smallest scale — hand-mix two liquid components in a bucket and pour in place. No reactor required. NBR and neoprene require sealed, jacketed reactors for emulsion polymerization.
+
+## 7. Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| NBR gel formation (grainy texture, poor processing) | Conversion exceeded 85%; excessive branching | Stop polymerization earlier (60-75%); add chain transfer agent; check short-stop timing |
+| Neoprene spontaneous polymerization in storage | Temperature too high; inhibitor depleted | Store chloroprene at 0-5°C; verify phenothiazine inhibitor concentration; use within 3 months |
+| Silicone foam bubbles or voids | Moisture contamination in PDMS gum or filler; trapped air | Dry all materials before compounding (105°C, 2 hours); deaerate under vacuum before molding |
+| PU foam collapse (no rise, dense slab) | Insufficient catalyst; contaminated polyol (moisture); incorrect isocyanate:polyol ratio | Verify amine catalyst added; check polyol for water contamination (Karl Fischer titration); verify MDI dispensed by weight |
+| PU foam brittle or friable | Isocyanate index too high; insufficient post-cure | Reduce MDI to 130-150 parts; verify 24-hour room temperature cure before handling |
+| SBR low tensile strength | Insufficient carbon black; poor dispersion | Increase carbon black to 50 phr; extend mixing time on mill; check for 100% dispersion by stretching thin film (no visible white streaks) |
+
+## 8. Safety
+
+- **Phosgene (COCl₂) for polycarbonate and isocyanate production**: Odorless at low concentrations or faintly smells of newly mown hay. Causes delayed pulmonary edema — symptoms may not appear for 2-24 hours after exposure. Lethal at 1 ppm sustained exposure. Sealed, leak-tested systems with NaOH gas scrubbers mandatory. Continuous monitoring at 0.1 ppm with audible alarms. Emergency: evacuate immediately on any leak, administer oxygen, seek medical care regardless of symptoms.
+- **Isocyanates (TDI, MDI) for polyurethane**: Potent respiratory sensitizers — repeated inhalation causes permanent occupational asthma. TDI: OSHA PEL 0.02 ppm (ceiling). MDI is less volatile (lower vapor pressure) but spray application generates respirable aerosol. Full-face respirator with organic vapor/P100 cartridge or supplied air. Do not return to isocyanate work if sensitized.
+- **Acrylonitrile for NBR**: Flash point -1°C (flammable). IARC Group 2B (possible carcinogen). Cyanide release on combustion — fires produce HCN gas. OSHA PEL 2 ppm (8-hour TWA). Handle in closed systems with leak detection. Large spill: evacuate 100+ m radius.
+- **Vinyl chloride monomer (VCM)**: IARC Group 1 carcinogen causing angiosarcoma of the liver (latency 10-40 years). LEL 3.6%, UEL 33% in air. Closed systems, continuous air monitoring, explosion-proof equipment. See [Thermoplastics](./thermoplastics.md) for full VCM hazard data.
+- **Styrene**: Flash point 31°C. IARC Group 2A (probable carcinogen). CNS depressant at 100+ ppm. OSHA PEL 50 ppm TWA. Odor detectable at 0.1 ppm but causes odor fatigue — use direct-reading instruments, not smell, as warning.
+
+## 9. Quality Control
+
+### NBR Quality Tests
+- **Bound acrylonitrile**: Nitrogen analysis (Kjeldahl). Target ±2% of specification for grade.
+- **Mooney viscosity**: ML 1+4 at 100°C. Target range per grade specification. Out-of-range viscosity indicates MW control issues.
+- **Oil swell**: Immerse 25 × 50 × 2 mm sample in IRM 903 oil at 100°C for 70 hours. Weigh before/after. Volume swell <10% for High-ACN, <25% for Medium-ACN.
+- **Gel content**: Dissolve 0.5 g NBR in 100 ml MEK. Filter through 200-mesh screen. Gel content should be <5%. Above 10% indicates excessive cross-linking during polymerization.
+
+### PU Foam Quality Tests
+- **Density**: Cut 100 mm cube, weigh. Target ±10% of specification.
+- **Thermal conductivity**: Heat flow meter (ASTM C518). Target <0.025 W/(m·K).
+- **Compressive strength**: ASTM D1621. Target >100 kPa at 10% deformation.
+
+### General Elastomer Tests
+- **Tensile/elongation**: ASTM D412 dumbbell specimen. All elastomers.
+- **Hardness**: Shore A durometer (ASTM D2240). Measure at 3 points, ±2 units agreement.
+- **Compression set**: ASTM D395 Method B. 22 hours at 70°C, 25% deflection.
+
+## 10. Variations and Alternatives
+
+### Semi-Synthetic Polymers (Lower Technology Level)
+
+- **Celluloid (1869)**: Nitrocellulose (cellulose + HNO₃/H₂SO₄, 10-13% N) plasticized with camphor (20-30%). Thermoplastic at 80-130°C. Autoignition at 150-170°C — extremely flammable. Used for photographic film, billiard balls, combs. Precursors: [cellulose](./natural.md) (cotton linters or wood pulp), [nitric acid](../chemistry/acids.md), camphor. Achievable at moderate technology level.
+- **Casein plastic (Galalith, 1897)**: Milk protein (casein) precipitated from skim milk by acid, hardened in 40% formalin (2-7 days at room temperature or several hours at 50-60°C). Non-flammable, takes dye well, but swells in water (5-15% water absorption). Used for buttons, knitting needles. Precursors: skim milk (dairy by-product — 10 liters yields ~300 g casein), formaldehyde. Producible in home workshops.
+- **Bakelite (1907)**: Phenol-formaldehyde thermoset — the first fully synthetic plastic. Phenol from [coal tar](../chemistry/petroleum-alternatives.md) or cumene process. Excellent electrical insulation (10¹²-10¹⁴ Ω·cm), heat resistant to 200°C. See [Thermosets](./thermosets.md) for full details.
+
+### Bootstrap Feedstock Routes
+
+- **Butadiene from ethanol** (Lebedev process): 2 C₂H₅OH → C₄H₆ + 2 H₂O + H₂ over ZnO/Al₂O₃ at 400-450°C. The USSR produced ~100,000 tonnes/year during WWII from grain ethanol. Enables NBR, SBR, and neoprene (via butadiene route) without petrochemical infrastructure.
+- **Coal tar monomers**: Coal carbonization at 1000-1200°C produces phenol, benzene, toluene, and xylene. Historically the primary source of aromatic monomers before petroleum. Enables Bakelite (phenol) and nylon (benzene → cyclohexane → adipic acid).
+
+### Specialty Elastomers
+
+- **EPDM**: Saturated terpolymer of ethylene/propylene/diene. Outstanding ozone resistance (20-30 year outdoor service). Used for automotive weatherstripping, roofing membranes, radiator hoses. See Section 4.5 above and [Rubber Production](./rubber.md) for vulcanization details.
+- **Fluoroelastomers (FKM, Viton)**: Copolymer of vinylidene fluoride + hexafluoropropylene. Service to 200°C, resistant to concentrated H₂SO₄ and HNO₃. Cost: 20-50× natural rubber. Requires [fluorine chemistry](../chemistry/electrolysis.md) (HF from fluorspar CaF₂ + H₂SO₄). Used for semiconductor wet bench O-rings, aerospace fuel seals.
+- **Polybutadiene (BR)**: Second most-produced synthetic rubber. Tg ≈ -100°C (lowest of any common rubber). Exceptional resilience (70-85% rebound). Used as blending component in tire treads (25-50% BR + SBR). Nd-based Ziegler-Natta catalyst gives >97% cis-1,4 content.
+- **Butyl rubber (IIR)**: Copolymer of isobutylene (97-99%) + isoprene (1-3%). 10-20× less gas-permeable than NR — the only practical material for tire inner liners and inner tubes. Polymerized at -80 to -100°C in methyl chloride with AlCl₃ catalyst. Halobutyl (CIIR, BIIR) enables covulcanization with NR/SBR for tubeless tire inner liners.
+- **Thermoplastic elastomers (TPE)**: SBS, SEBS, TPU — rubber-like elasticity with thermoplastic processability (no vulcanization). Hard domains (physical cross-links that melt above Tg) dispersed in soft matrix. Used for shoe soles, soft-touch grips, cable jacketing.
+
+## 11. References
+
+- **[Natural Polymers](natural.md)**: Natural rubber tapping, processing, and vulcanization
+- **[Thermoplastics](thermoplastics.md)**: Melt-processable polymers (PE, PVC, nylon, PS, PTFE, polycarbonate)
+- **[Thermosets](thermosets.md)**: Crosslinked polymers (phenolic, epoxy, polyester)
 - **[Composites](composites.md)**: Fiber-reinforced polymer matrix materials
+- **[Rubber Production](rubber.md)**: Natural rubber compounding, vulcanization, and molding methods
 - **[Petrochemicals](../chemistry/petroleum-alternatives.md)**: Monomer feedstock production
-- **[Rubber](rubber.md)**: Detailed rubber compounding and vulcanization
+- **[MG-Si Production](../silicon/mg-si-production.md)**: Metallurgical-grade silicon for silicone elastomers
+- **[Chlor-Alkali Electrolysis](../chemistry/electrolysis.md)**: Chlorine and NaOH production for PVC, neoprene, and phosgene
+- **[Coatings](../chemistry/coatings.md)**: Polyurethane and neoprene-based coatings
 
-[← Back to Polymers](index.md)
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Polymers & Composites](./index.md) • [All Domains](../index.md)*

@@ -32,6 +32,14 @@ This is the standard industrial route to semiconductor-grade polysilicon (99.999
 - **Energy**: ~100-200 kWh/kg polysilicon (electricity for heating + H₂ production).
 - **Purity**: 9N-11N (99.9999999% - 99.999999999% Si). Electronic grade.
 
+**Strengths**:
+- Achieves 9N-11N purity — the only route to electronic-grade silicon required for all integrated circuits
+- Closed-loop TCS recycling recovers >98% of chlorosilane feedstock, reducing raw material waste
+
+**Weaknesses**:
+- Three-step process (hydrochlorination → distillation → CVD) with 100-200 kWh/kg energy consumption — the most energy-intensive step in the silicon chain
+- BCl₃/SiHCl₃ separation requires distillation columns >30 m tall with >50 theoretical plates at reflux ratio >50:1
+
 #### Option B: Physical Purification (Zone Refining / Directional Solidification)
 
 Lower purity than Siemens, but much simpler chemistry. Sufficient for solar cells (~5-7N).
@@ -46,6 +54,14 @@ Lower purity than Siemens, but much simpler chemistry. Sufficient for solar cell
 - **Process**: Pass molten zone (narrow band of liquid) along solid silicon rod, repeatedly. Each pass sweeps impurities toward one end. 10-20 passes achieve ~8-9N purity.
 - **Equipment**: RF induction coil or focused IR lamp creates moving molten zone. Rod rotates slowly. Under inert atmosphere (Ar) or vacuum. Very slow — ~1-5 cm/hour travel speed.
 - **Limitation**: Still cannot remove boron effectively (k ≈ 0.8). Combine with another boron removal step (slag treatment: add CaO-Na₂O flux to molten Si, B partitions into slag).
+
+**Strengths**:
+- Directional solidification requires only melting and controlled cooling — no complex chemistry or hazardous gases
+- Zone refining achieves ~8-9N purity with 10-20 passes, sufficient for many specialty applications
+
+**Weaknesses**:
+- Boron segregation coefficient k ≈ 0.8 makes segregation-based methods nearly useless for boron removal
+- Zone refining is extremely slow at 1-5 cm/hour — throughput is orders of magnitude below Siemens process
 
 #### Boron Removal via Slag Treatment
 
@@ -70,6 +86,14 @@ Directional solidification and zone refining effectively remove most metallic im
 
 **Integration with directional solidification**: Slag treatment is performed first on molten MG-Si to remove boron, followed by directional solidification to remove remaining metallic impurities. This two-step sequence produces solar-grade silicon (~5-6N) without requiring the energy-intensive Siemens chemical route.
 
+**Strengths**:
+- CaO-SiO₂ slag uses only lime and silica — both available early in the bootstrap chain with no exotic reagents
+- 70-90% boron removal per pass achieves <1 ppm B from 15-40 ppm MG-Si in 2-3 passes
+
+**Weaknesses**:
+- 3-8% silicon yield loss per pass from slag entrainment — direct product waste
+- Boron distribution ratio L_B of only 2-5 requires multiple passes and high slag-to-silicon ratios (up to 2:1 by weight)
+
 ### Czochralski (CZ) Crystal Growth
 
 See [Crystal Growth & Wafering](crystal-growth.md) for CZ pulling details.
@@ -81,6 +105,14 @@ The Siemens process requires large volumes of H₂ for both the hydrochlorinatio
 - **Chlor-alkali byproduct**: 2NaCl + 2H₂O → Cl₂ + H₂ + 2NaOH. The H₂ is a co-product. If a chlor-alkali plant exists (needed for HCl production anyway), its H₂ output can feed the silicon purification line. Synergy: Cl₂ from chlor-alkali is burned with H₂ to make HCl → HCl reacts with MG-Si → trichlorosilane.
 - **Storage and delivery**: H₂ stored as compressed gas (200-350 bar) or cryogenic liquid (-253°C). Piping must be stainless steel (H₂ embrittlement of carbon steel is a long-term failure risk).
 
+**Strengths**:
+- Chlor-alkali byproduct synergy: Cl₂ → HCl → trichlorosilane, while H₂ feeds the CVD reactor — one plant supplies both key inputs
+- Water electrolysis produces H₂ at 99.999%+ purity suitable for semiconductor processes
+
+**Weaknesses**:
+- A 1000 t/yr polysilicon plant needs 3,000-5,000 Nm³ H₂/hour — a dedicated electrolysis plant consuming 15-25 MW
+- H₂ storage at 200-350 bar or -253°C requires specialized pressure vessels or cryogenic infrastructure
+
 ### SiCl₄ Byproduct Management
 
 The Siemens process generates ~3-5 kg SiCl₄ per kg of polysilicon. This is a significant waste stream that must be managed:
@@ -88,12 +120,28 @@ The Siemens process generates ~3-5 kg SiCl₄ per kg of polysilicon. This is a s
 - **Convert to fumed silica**: Burn SiCl₄ in H₂/O₂ flame: SiCl₄ + 2H₂ + O₂ → SiO₂ + 4HCl. Produces fumed silica (Aerosil) — extremely fine amorphous SiO₂ particles (7-40 nm). Used as thickening agent, desiccant, and CMP slurry component. Valuable co-product.
 - **Sell as feedstock**: SiCl₄ is used in optical fiber production (SiO₂ deposition) and as a raw material for other silicon chemicals.
 
+**Strengths**:
+- Closed-loop hydrogenation (3SiCl₄ + Si + 2H₂ → 4SiHCl₃) recycles 3-5 kg SiCl₄ per kg polysilicon back into useful feedstock
+- Fumed silica co-product (Aerosil, 7-40 nm particles) commands $5-15/kg as a specialty additive
+
+**Weaknesses**:
+- SiCl₄ is produced in large volumes — a 1000 t/yr polysilicon plant generates 3,000-5,000 t/yr SiCl₄ requiring dedicated handling
+- Fumed silica conversion requires H₂/O₂ flame at high temperature, adding energy cost and combustion complexity
+
 ### Waste Handling
 
 The chlorosilane purification process generates several hazardous waste streams:
 - **HCl neutralization**: Scrubber systems (packed column, caustic recirculation) neutralize HCl gas from CVD reactor exhaust. NaOH or Ca(OH)₂ scrubbing solution absorbs HCl → NaCl or CaCl₂ brine. Brine is disposed as industrial wastewater or evaporated to dry salt.
 - **Chlorosilane disposal**: Unreacted or off-spec chlorosilanes cannot be dumped — they react violently with water. Controlled hydrolysis in a dedicated treatment system: spray chlorosilane into a controlled excess of water in a sealed, vented vessel. Products: SiO₂ sludge + HCl solution. Neutralize HCl, filter and dispose SiO₂ sludge as non-hazardous waste.
 - **Heavy metal chlorides**: Distillation bottoms contain FeCl₃, AlCl₃, CuCl₂ collected from impurity removal. These are hazardous — treat with caustic to precipitate metal hydroxides, then dispose as hazardous waste. Recover copper from CuCl₂ if economically viable.
+
+**Strengths**:
+- NaOH scrubbing converts hazardous HCl gas to harmless NaCl brine — simple, well-established chemistry
+- Controlled hydrolysis converts reactive chlorosilanes to inert SiO₂ sludge + HCl, eliminating pyrophoric hazard
+
+**Weaknesses**:
+- Chlorosilane hydrolysis generates large volumes of acidic wastewater requiring neutralization before discharge
+- Heavy metal chloride distillation bottoms classify as hazardous waste, incurring $200-500/tonne disposal costs
 
 ### Energy Comparison
 
@@ -133,6 +181,14 @@ Silicon purification involves some of the most dangerous chemicals in semiconduc
 - **Energy consumption**: 100-200 kWh/kg polysilicon. This is the highest energy consumption step in the entire silicon production chain. The electricity heats the rods and drives the chemical reaction. A single reactor producing 50-200 kg per run (50-100 hours) draws 50-200 kW continuously.
 - **Gas conversion efficiency**: ~20-30% of TCS fed to the reactor deposits as silicon on the rods. The remainder exits as unreacted TCS and intermediate species. Exhaust gas is recovered, condensed, and recycled through the distillation columns for purification and reuse. Closed-loop operation recovers >98% of the TCS.
 
+**Strengths**:
+- Produces 9N-11N purity polysilicon — the gold standard for all electronic-grade semiconductor devices
+- Closed-loop TCS recycling achieves >98% feedstock recovery, keeping raw material costs manageable
+
+**Weaknesses**:
+- 100-200 kWh/kg energy consumption is the highest in the entire silicon chain — dominated by resistive rod heating
+- Only 20-30% gas conversion efficiency per pass means 70-80% of TCS must be recycled through distillation columns
+
 ### Alternative Purification Methods
 
 **Fluidized bed reactor (FBR)**:
@@ -147,6 +203,14 @@ Silicon purification involves some of the most dangerous chemicals in semiconduc
 - **Directional solidification**: Melt leached MG-Si and directionally solidify (see Option B above). Most remaining metallic impurities segregate to the last-to-freeze region (segregation coefficient k << 1 for Fe, Al, Ca). Cut off and discard the impure tail. Multiple passes improve purity.
 - **Plasma refining**: Pass argon-oxygen plasma over molten silicon. The reactive plasma oxidizes boron and phosphorus (the two most difficult impurities to remove by solidification, since k ≈ 0.8 and 0.35 respectively). Boron oxidizes to B₂O₃ and evaporates; phosphorus oxidizes to P₂O₅ and evaporates. Removal efficiency: 50-80% per pass for B and P. Requires plasma torch equipment (RF or DC arc, 10-50 kW).
 - **Result**: 99.99% (4N) silicon at roughly half the cost of Siemens polysilicon, sufficient for standard-efficiency solar cells (14-16%). Not pure enough for semiconductor devices.
+
+**Strengths**:
+- FBR uses 30-50 kWh/kg — 3-5× less energy than Siemens process, with continuous rather than batch operation
+- UMG-Si achieves solar-grade purity at ~50% of Siemens cost, using only physical/chemical refining without complex chlorosilane chemistry
+
+**Weaknesses**:
+- FBR granular product has higher surface contamination than Siemens rods due to greater surface-area-to-volume ratio
+- UMG-Si limited to 4N purity — insufficient for semiconductor devices or high-efficiency (>20%) solar cells
 
 ### Analytical Methods for Silicon Purity
 

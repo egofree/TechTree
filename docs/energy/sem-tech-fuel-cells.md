@@ -1,14 +1,28 @@
 # SEM Tech Fuel Cells: Electrochemical Power Generation
 
 > **Node ID**: energy.fuel-cell
-> **Domain**: Energy
+> **Domain**: [Energy](./index.md)
+> **Dependencies**: [`energy.electricity`](electricity.md), [`chemistry.sem-tech`](../chemistry/sem-tech.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 25-40
 > **Outputs**: electrical_energy, water
-> **Tags**: materials=[polymers], era=industrial
+> **Critical**: No — fuel cells are not on the critical bootstrap path; SEM Tech fuel cell application remains speculative at TRL 5
 
 ## Overview
 
 Fuel cells convert chemical energy directly into electricity through electrochemical reactions, bypassing the thermodynamic inefficiencies of heat engines. When hydrogen is supplied to a fuel cell, it produces electricity and water as the only byproduct -- no combustion, no moving parts, and theoretical efficiencies of 50-60% (80-90% in combined heat-and-power configurations).
+
+**Strengths**:
+- Theoretical efficiency 50-60% electrical — higher than any heat engine
+- SEM Tech membranes at <$1/ft² could replace Nafion ($100-400/ft²)
+- No moving parts — silent, minimal maintenance
+- Direct conversion — no combustion, no NOₓ or particulates
+
+**Weaknesses**:
+- SEM Tech membrane for fuel cells is untested — TRL 5 for electrolysis only
+- Requires hydrogen or alcohol fuel — fuel production itself requires energy
+- Platinum catalysts needed for PEMFC — precious metal dependency
+- Membrane durability under fuel cell conditions is unproven
 
 The [SEM Tech membrane](../chemistry/sem-tech.md) developed by Robert Karas of Rowow LLC offers a pathway to fuel cells at a fraction of conventional cost. Where commercial proton exchange membrane (PEM) fuel cells rely on Nafion membranes costing $100-400 per square foot, SEM Tech membranes -- pulverized pre-functionalized ion exchange resin in a PVC/CPVC binder -- cost less than $1 per square foot. This cost reduction could make fuel cells viable for applications where Nafion-based systems are economically prohibitive.
 

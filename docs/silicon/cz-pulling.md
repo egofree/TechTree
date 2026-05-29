@@ -17,6 +17,20 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 - Viewport: Fused silica window (50-80 mm diameter, 10-15 mm thick) with O-ring seal (Viton or metal C-ring) for visual observation of melt meniscus and crystal diameter. Pyrometer or optical diameter measurement through this port.
 - Seals: All flanged connections use Viton O-rings for argon atmosphere (leak rate <10⁻⁶ mbar·L/s). Metal-sealed (ConFlat-type copper gaskets) preferred for ultra-low leak but require higher machining precision.
 
+**Materials list**:
+- Stainless steel 304/316 plate, 5-10 mm thick (chamber shells)
+- Fused silica viewport window, 50-80 mm diameter, 10-15 mm thick
+- Viton O-rings (size per flange diameter) or ConFlat copper gaskets
+- Water cooling fittings: 1/2" NPT or ISO hydraulic fittings, stainless steel
+
+**Strengths**:
+- Water-cooled stainless steel construction provides robust thermal management and long service life (years between chamber replacements)
+- Gate valve between pull and furnace chambers allows crystal removal without breaking furnace vacuum, reducing pump-down time for the next run
+
+**Weaknesses**:
+- 5-10 mm stainless steel plate requires heavy welding (TIG or MIG) with full-penetration seams — challenging for small workshops
+- Water cooling channels are prone to mineral scale buildup in hard-water regions, requiring periodic descaling with inhibited HCl
+
 ### Pull Mechanism — Precision Motion System
 
 **Seed holder and pull rod**:
@@ -34,6 +48,14 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 - Pull speed: 0.5-2.0 mm/min during body growth, 3-5 mm/min during Dash neck. Speed stability ±0.5% required — fluctuations cause diameter oscillations and dopant striations.
 - Linear guide rails (ground steel shafts with linear ball bearings) constrain pull rod to vertical travel only.
 
+**Strengths**:
+- Precision leadscrew with microstepping provides 0.001-0.01 mm resolution — sufficient for ±0.5% speed stability during crystal growth
+- Counter-rotating seed and crucible homogenize both temperature and dopant distribution in the melt, producing uniform crystal properties
+
+**Weaknesses**:
+- Ferrofluidic vacuum feedthrough (zero leak, preferred) requires ferrofluid synthesis — magnetic coupling is buildable but has slightly higher leak rate (~10⁻⁸ mbar·L/s)
+- Vibration isolation adds 1-5 tonnes of concrete inertia block, requiring reinforced floor and crane access for installation
+
 ### Thermal System
 
 **Graphite resistance heater**:
@@ -48,6 +70,14 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 - Thermocouple (type B or type C: W-5%Re/W-26%Re) in graphite well near crucible. Read to ±0.1°C. Pyrometer (two-color ratio, 0.8-1.1 μm wavelength) aimed at melt surface through viewport as secondary reference.
 - Silicon melts at 1414°C. Growth temperature: 1415-1430°C. The melt-solid interface must be maintained within ±0.5°C — a 1°C change shifts pull rate by ~10% and alters crystal diameter. Automatic diameter control via pull speed adjustment based on meniscus shape (observed through viewport or inferred from crystal weight measurement by load cell on pull rod).
 
+**Strengths**:
+- Graphite resistance heating is simple and reliable — no RF generator, no moving parts in the hot zone, no precision coil winding required
+- ±0.1% power stability (achievable with SCR/IGBT supply and PID control) maintains melt temperature within ±0.5°C
+
+**Weaknesses**:
+- 500-3000 A current requires massive water-cooled copper bus bars (25-50 mm² cross section) — a cooling water leak near bus bars causes electrolysis and eventual arc flash
+- Graphite heater lifetime is limited to 6-12 months by sublimation at 1400°C in argon; replacement requires full hot zone rebuild (8-16 hours downtime)
+
 ### Crucible and Support
 
 **Fused silica (SiO₂) crucible**:
@@ -61,13 +91,29 @@ This document covers the CZ puller as a **machine** — design, materials, fabri
 **Crucible lift**:
 - Hydraulic or screw-driven platform raises/lowers the crucible assembly during charging and growth. Allows crucible position adjustment to maintain optimal thermal centering as melt level drops during pulling.
 
+**Strengths**:
+- Fused silica crucible is chemically compatible with molten silicon — introduces only oxygen (a manageable impurity) rather than metallic contaminants
+- Graphite susceptor provides mechanical support and thermal uniformity while being reusable for 50-100 pulls
+
+**Weaknesses**:
+- Single-use fused silica crucible is the highest consumable cost per crystal — each crucible requires arc-fusion fabrication from high-purity SiO₂ powder
+- Crucible dissolution introduces 10-20 ppma oxygen into the crystal, limiting electrical properties compared to float-zone (oxygen-free) silicon
+
 ### Atmosphere Control
 
 **Argon inert gas system**:
 - Flow rate: 10-30 L/min, continuous. Slight positive pressure in chamber (5-50 mbar above ambient). Argon prevents oxidation of graphite heater/insulation (C + O₂ → CO/CO₂ at >400°C) and suppresses SiO volatilization from melt surface.
 - Argon source: Cryogenic air separation (0.93% Ar in atmosphere) — see [Air Separation](../chemistry/air-separation.md). Argon is the third most abundant atmospheric gas but requires distillation at -186°C to isolate.
 - Gas flow path: Enter from top of pull chamber (above crystal), flow downward past crystal and melt, exit from bottom of furnace chamber through exhaust. This sweeps SiO and CO away from the crystal.
-- Chamber evacuation before backfill: Rotary vane pump to <1 mbar, then backfill with Ar. Repeat 3x purge cycle to reduce residual O₂ and H₂O to <1 ppm. Oxygen in graphite hot zone produces CO, which dissolves into melt as carbon contamination (<1 ppma C target).
+- Chamber evacuation before backfill: Rotary vane pump to <1 mbar, then backfill with Ar. Repeat 3× purge cycle to reduce residual O₂ and H₂O to <1 ppm. Oxygen in graphite hot zone produces CO, which dissolves into melt as carbon contamination (<1 ppma C target).
+
+**Strengths**:
+- Argon is inert and non-reactive with silicon, graphite, and silica at 1400°C — provides a clean growth environment
+- 3× purge cycle reduces residual O₂ and H₂O to <1 ppm without requiring high-vacuum pumps
+
+**Weaknesses**:
+- Argon consumption of 2-5 m³ per crystal run is a significant ongoing cost — requires a dedicated air separation unit or regular gas deliveries
+- Argon is heavier than air — any leak pools at floor level, creating an asphyxiation hazard in enclosed spaces
 
 ### Defect Mechanisms and Mitigation
 
@@ -148,6 +194,14 @@ The pull cycle runs 24-48 hours for a single crystal. Each phase has specific sp
 **Dash neck**:
 - Pull at 3-5 mm/min to form a thin neck, ~3 mm diameter, 50-100 mm long. This is the most critical step for crystal quality. Dislocations from the seed cannot propagate through such a thin cross-section. They grow out to the free surface within the first 20-30 mm of neck. If the neck is too thick (>5 mm), dislocations survive and thread into the crystal body, ruining it for semiconductor use.
 
+**Strengths**:
+- Dash necking eliminates dislocations with no additional equipment — the geometry of a thin neck naturally forces dislocations to the surface
+- Works for all crystal orientations (<100>, <111>) and dopant types
+
+**Weaknesses**:
+- The 3 mm neck is fragile — a momentary speed fluctuation or vibration snaps it, requiring a restart (lost polysilicon charge and crucible)
+- Requires skilled operator observation through the viewport or a well-tuned automated controller
+
 **Diameter control**:
 - After the neck, reduce pull speed to grow the shoulder and then the body. Pull speed during body growth: 0.5-2.0 mm/min.
 - Diameter is controlled by a PID loop that adjusts pull speed and heater power simultaneously. If the crystal grows too thick, the PID increases pull speed (pulls faster, less time for radial growth) and/or raises heater power slightly (melts more material at the interface). If too thin, the opposite. Feedback comes from either optical meniscus observation through the viewport or load cell weight measurement on the pull rod.
@@ -164,6 +218,14 @@ The pull cycle runs 24-48 hours for a single crystal. Each phase has specific sp
 - For boron: add at the start, dissolved boron distributes uniformly in the melt before pulling begins.
 - For phosphorus: add at the start, but expect axial variation. Alternatively, use co-rotation/counter-rotation melt stirring to homogenize, but the segregation effect at the interface is fundamental and cannot be eliminated.
 
+**Strengths**:
+- Boron segregation coefficient (k ≈ 0.8) produces axially uniform p-type crystals — ±5-10% resistivity variation from seed to tail
+- Boron is available as borax (Na₂B₄O₇·10H₂O), a widely available industrial chemical — no exotic precursor needed
+
+**Weaknesses**:
+- Phosphorus segregation coefficient (k ≈ 0.35) causes significant axial resistivity gradient in n-type crystals — the tail end has 2-3× lower resistivity than the seed end
+- Tight resistivity tolerances (±5%) require charge calculations specific to each crystal size and target length
+
 #### Crystal Properties and Grading
 
 **Oxygen content**: 5-20 ppma, introduced by crucible dissolution. Oxygen is higher at the seed end (crucible wall is thickest) and decreases toward the tail. Oxygen forms thermal donors (electrically active complexes) if the crystal is not annealed. Standard practice: heat-treat wafers at 600-800°C to precipitate oxygen into inert SiO₂ particles.
@@ -171,6 +233,14 @@ The pull cycle runs 24-48 hours for a single crystal. Each phase has specific sp
 **Carbon content**: <1 ppma target, from CO produced by graphite heater/insulation. Carbon above 5 ppma forms SiC precipitates, hard particles that damage wire saw blades and disrupt device fabrication.
 
 **Dislocation density**: <100/cm² for electronic grade (ideally zero after Dash necking). Solar grade crystals tolerate >5000/cm² because grain boundaries in solar cells already dominate recombination.
+
+**Strengths**:
+- CZ silicon with Dash necking achieves near-zero dislocation density (<10/cm²), suitable for all semiconductor device types
+- 10-20 ppma oxygen provides built-in gettering: oxygen precipitates in the wafer bulk trap metallic impurities away from the active device region
+
+**Weaknesses**:
+- Oxygen concentration varies along the crystal length (higher at seed end), causing resistivity variation that must be characterized and managed
+- Carbon contamination from graphite hot zone must be kept below 1 ppma — requires high-purity argon and tight chamber seals
 
 #### Hot Zone Design
 
@@ -181,6 +251,14 @@ The hot zone is everything inside the furnace chamber between the heater and the
 **Argon flow design**: Gas enters above the crystal, flows down past the crystal and melt, exits at the bottom. Flow rate 20-60 L/min. The flow path must avoid dead zones where SiO or CO accumulates and re-deposits on the crystal surface. Baffles direct flow along the crucible wall to sweep SiO downward and away.
 
 **Crucible life**: 100-300 hours of cumulative hot time before the thinned wall cracks under thermal stress or the weight of a fresh charge. Some operations track crucible hours and retire them on a schedule. A crucible failure during a pull is catastrophic: molten silicon spills onto the susceptor and heater, destroying the hot zone and requiring a full rebuild (days of downtime).
+
+**Strengths**:
+- Radiation shields reduce heat loss by 30-50%, cutting power consumption from 80-100 kW down to 50-70 kW for a 200 mm pull
+- Well-designed argon flow sweeps SiO and CO away from the crystal, keeping the growth interface clean
+
+**Weaknesses**:
+- Hot zone rebuild after 100-300 hours takes 8-16 hours of downtime — new crucible, susceptor inspection, insulation replacement, SiO deposit cleaning
+- Radiation shields add thermal mass that slows temperature changes, reducing the response time of the diameter control PID loop
 
 ### Pulling Procedure, Step by Step
 

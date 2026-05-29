@@ -85,7 +85,17 @@ Cultural controls modify the farming environment to make it less hospitable to p
 2. **Sanitation**: Remove and destroy crop residues after harvest. Plow under or compost all plant debris. Many pests overwinter in crop residue — removing it eliminates their shelter. Burn heavily infested material (do not compost diseased plants).
 3. **Planting timing**: Plant before or after peak pest emergence. Early-planted wheat avoids Hessian fly emergence. Late-planted sweet corn avoids corn earworm peak. Know the emergence timing of key local pests and adjust planting dates by 2-4 weeks.
 4. **Trap cropping**: Plant a small area (5-10% of main crop) of a preferred host 1-2 weeks before the main crop. Pests concentrate on the trap crop, which is then destroyed (pulled and burned, or heavily treated with botanical spray). Example: plant mustard trap crop 2 weeks before cabbage to attract flea beetles.
-5. **Resistant varieties**: When saving seed (see [Seed Saving](seed-saving.md)), select plants that showed pest resistance. Over generations, this builds locally adapted, pest-resistant crop populations.
+ 5. **Resistant varieties**: When saving seed (see [Seed Saving](seed-saving.md)), select plants that showed pest resistance. Over generations, this builds locally adapted, pest-resistant crop populations.
+
+**Strengths**:
+- No additional materials or cost — modifies existing farming practices only
+- Crop rotation breaks pest cycles for 80-95% of soil-borne pathogens and host-specific insects
+- Builds long-term soil health and pest resistance rather than treating symptoms reactively
+
+**Weaknesses**:
+- Requires advance planning (rotation maps, planting schedules) and discipline across multiple seasons
+- Trap cropping sacrifices 5-10% of planted area and requires timely destruction of the trap crop
+- Sanitation removes beneficial insect habitat along with pest sheltering sites
 
 ### 4.2 Physical Controls
 
@@ -93,7 +103,17 @@ Cultural controls modify the farming environment to make it less hospitable to p
 2. **Barriers — row covers**: Drape lightweight fabric or netting over wire hoops placed along crop rows. Bury or weigh down edges to exclude flying insects. Remove covers when plants flower (to allow pollination). Row covers reduce cabbage moth damage by 80-95%, carrot rust fly by 90%+.
 3. **Barriers — collars**: Place 5-10 cm diameter collars of cardboard, tin, or bark around transplant stems at soil level. Collars prevent cutworms from reaching stems. Effective and low-effort for transplanted crops (cabbage, tomato, pepper).
 4. **Sticky traps**: Coat yellow boards or cards with sticky material (pine resin + oil, or purchased Tanglefoot). Hang at crop height. Aphids, whiteflies, and thrips are attracted to yellow and become trapped. Use 10-20 traps per 100 m² for monitoring; 50-100 for mass trapping.
-5. **Water spray**: A strong jet of water from a hose or pump dislodges aphids and mites from plant leaves. Repeat every 2-3 days. Does not kill all pests but reduces populations below damage thresholds on sturdy crops.
+ 5. **Water spray**: A strong jet of water from a hose or pump dislodges aphids and mites from plant leaves. Repeat every 2-3 days. Does not kill all pests but reduces populations below damage thresholds on sturdy crops.
+
+**Strengths**:
+- Row covers provide 80-95% protection from flying insects with zero chemical input
+- Hand-picking is immediately effective and requires no materials — suitable for small plots
+- Sticky traps provide quantitative monitoring data for pest population tracking
+
+**Weaknesses**:
+- Labor-intensive at scale — hand-picking requires 15-30 minutes per 100 m² daily during peak pest season
+- Row covers must be removed at flowering for pollination, creating a vulnerability window
+- Physical barriers exclude beneficial insects along with pests, disrupting biological control
 
 ### 4.3 Biological Controls
 
@@ -101,7 +121,17 @@ Cultural controls modify the farming environment to make it less hospitable to p
 2. **Ladybug conservation**: Ladybugs (Coccinellidae) eat 50-100 aphids per day per adult. Avoid spraying broad-spectrum botanical insecticides when ladybugs are active. Provide overwintering habitat: piles of rocks, leaf litter at field edges, wooden shelters with bark.
 3. **Lacewing habitat**: Green lacewings (Chrysopidae) larvae consume 200-300 aphids per week. Adults are attracted to light-colored flowers. Plant alyssum, buckwheat, or coriander as lacewing attractants.
 4. **Poultry for pest control**: Allow chickens or ducks to forage in fields after harvest. Poultry consume insects, weed seeds, and slugs at rates of 50-200 g animal feed equivalent per bird per day. Time poultry access to avoid crop damage — before planting or after harvest.
-5. **Predatory mites**: In fruit trees and vines, predatory mites (Phytoseiulus, Amblyseius) control spider mites. Introduce by placing mite-infested leaves from healthy ecosystems onto affected plants. Establish if broad-spectrum sprays are avoided.
+ 5. **Predatory mites**: In fruit trees and vines, predatory mites (Phytoseiulus, Amblyseius) control spider mites. Introduce by placing mite-infested leaves from healthy ecosystems onto affected plants. Establish if broad-spectrum sprays are avoided.
+
+**Strengths**:
+- Ladybug adults consume 50-100 aphids per day — a single ladybug population can control aphids across 50-100 m²
+- Beneficial insect borders (1-2 m wide) increase predator populations 2-5× with minimal land sacrifice
+- Poultry foraging after harvest destroys 60-80% of overwintering pests and weed seeds
+
+**Weaknesses**:
+- Biological control is slow to establish — 2-4 weeks from habitat planting to measurable pest reduction
+- Broad-spectrum botanical sprays (pyrethrum) kill beneficial insects along with pests, undermining the system
+- Predatory mites and parasitic wasps require specific habitat conditions (humidity, shelter) that may not exist in all field margins
 
 ### 4.4 Botanical Insecticide Preparation and Application
 

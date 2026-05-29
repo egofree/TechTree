@@ -2,110 +2,142 @@
 
 > **Node ID**: animals.bison
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: `animals`
+> **Dependencies**: [`animals.domestication`](domestication.md), [`agriculture`](../agriculture/index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 3-20+
-> **Outputs**: meat, hides, horn, manure
+> **Outputs**: meat, hides, horn, bone, manure
+> **Critical**: No — valuable grassland livestock but specialized; cattle are more versatile
 
-### Overview
+## 1. Overview
 
-The American bison (*Bison bison*) is the largest terrestrial animal in North America, with mature bulls weighing 700-900 kg and cows 400-550 kg. Bison are naturally hardy — they evolved on the Great Plains and require no shelter in most climates, no grain finishing, and have resistance to many cattle diseases. Bison meat is significantly leaner and higher in protein than beef, commanding premium prices. However, their wild temperament demands specialized handling facilities and experienced management. Bison production is a long-term investment: 18-24 months to slaughter on grass, but with far lower input costs than cattle once the infrastructure is established.
+The American bison (*Bison bison*) is the largest terrestrial animal in North America, with mature bulls weighing 700-900 kg and cows 400-550 kg. Bison are naturally hardy — they evolved on the Great Plains and require no shelter in most climates, no grain finishing, and have resistance to many cattle diseases. Bison meat is significantly leaner and higher in protein than beef. However, their wild temperament demands specialized handling facilities and experienced management. Bison production is a long-term investment: 18-24 months to slaughter on grass, but with far lower input costs than cattle once the infrastructure is established.
 
-### Bison vs Cattle Comparison
-
-| Feature | Bison | Cattle (Beef) |
-|---------|-------|---------------|
-| Mature bull weight | 700-900 kg | 800-1200 kg |
+| Parameter | Bison | Cattle (Beef) |
+|-----------|-------|---------------|
+| Mature bull weight | 700-900 kg | 800-1,200 kg |
 | Mature cow weight | 400-550 kg | 500-700 kg |
 | Meat fat content | 2-3% | 10-15% |
-| Meat protein | 22-24 g/100g | 18-20 g/100g |
-| Vitamin B12 | 2.5-3.0 μg/100g | 1.5-2.5 μg/100g |
 | Feed requirements | Grass only (no grain) | Grain finishing standard |
-| Disease susceptibility | Low | Moderate |
 | Shelter needed | No (most climates) | Yes (calving, extreme cold) |
-| Handling temperament | Wild, reactive | Domesticated, manageable |
 | Fencing height | 1.8 m minimum | 1.2-1.5 m |
-| Breeding season | Seasonal (late summer) | Year-round (most breeds) |
-| Calving ease | Excellent (minimal assistance) | Variable by breed |
 | Slaughter age (grass) | 18-24 months | 20-28 months (grass-finished) |
 | Working lifespan (cows) | 20-25 years | 10-15 years |
 
-### Physical Characteristics
+## 2. Prerequisites
 
-**Size and conformation**:
-- Massive forward-leaning build: the hump over the shoulders is composed of muscle (not fat), supporting the massive head used for snow-plowing in winter and fighting during rut. Head is disproportionately large relative to body — a mature bull skull weighs 15-20 kg with horns.
-- Horns: curved upward and inward, 30-60 cm length (measured along the outer curve). Horn core is bone, sheath is keratin. Both sexes have horns; bull horns are thicker, cow horns are more curved.
-- Coat: thick, woolly undercoat with long guard hairs. The coat provides insulation to -40°C. Bison shed their winter coat in large ragged patches each spring — the shaggy appearance is normal.
+| Requirement | Source | Notes |
+|-------------|--------|-------|
+| Native grassland pasture (2-4 ha/pair) | [`agriculture`](../agriculture/index.md) | Bison graze wider variety than cattle |
+| Reinforced fencing (1.8 m minimum) | [`metals`](../metals/index.md) | Steel posts, heavy woven wire |
+| Steel pipe corral system | [`metals`](../metals/index.md) | Hydraulic squeeze chute required |
+| Water source (25-35 L/day) | [`water`](../water/index.md) | Stock tanks or natural water |
+| Hay for winter supplement | [`agriculture`](../agriculture/index.md) | Only during ice crusting or deep snow |
 
-**Athletic capability**:
-- Jump height: 1.8 m vertical (necessitates tall fencing). Can clear standard cattle fencing from a standing start.
-- Speed: 55-65 km/h at full gallop — faster than a horse over short distances. Unpredictable directional changes.
-- Swimming: capable swimmers, crossing rivers willingly.
-- Aggression: mature bulls are dangerous, especially during rut (July-September). Bisons' fight-or-flight response is strongly biased toward "fight." A charging bison is faster than a human can run and delivers lethal force.
+## 3. Bill of Materials
 
-### Handling Facilities
+Materials listed per 20-cow bison herd per year.
 
-Bison cannot be handled like cattle. Their wild temperament, speed, and strength require purpose-built, reinforced facilities.
+| Material | Quantity | Source | Alternatives |
+|----------|----------|--------|-------------|
+| Grass pasture | 40-80 hectares | [`agriculture`](../agriculture/index.md) | Native prairie, seeded grassland |
+| Supplemental hay (winter) | 5,000-10,000 kg | [`agriculture`](../agriculture/index.md) | Standing winter pasture preferred |
+| Fencing (1.8 m woven wire) | Perimeter of pasture | [`metals`](../metals/index.md) | Steel posts at 3-5 m intervals |
+| Steel pipe corral | 50-100 m panels | [`metals`](../metals/index.md) | Schedule 40, 5 cm pipe minimum |
+| Hydraulic squeeze chute | 1 unit | [`metals`](../metals/index.md) | Essential for veterinary work |
+| Salt and mineral | 200-400 kg | [`mining`](../mining/index.md) | Free-choice loose mineral |
 
-**Fencing**:
-- Exterior perimeter: 1.8 m minimum height (2.0 m preferred). Heavy-duty woven wire (hinged joint or fixed knot) with steel posts at 3-5 m intervals. Top wire must be high-tensile. Many producers add a single strand of barbed wire at the top as a visual and psychological deterrent (bison test fences with their heads — barbed wire discourages testing).
-- Interior fencing: 1.5-1.8 m. Same construction. Bison respect solid fencing they cannot see through — solid wood or steel panel fencing (1.8 m) is more effective than wire for handling areas.
-- Gates: heavy steel frame, 1.8 m height, self-closing latches. Bison learn to open simple latches — use latch designs that require manual dexterity. Gate posts set in concrete.
-- Never use electric fencing as primary containment — bison charge through it. Electric fencing may work as a psychological deterrent for interior paddock division after bison are trained to it, but not for perimeter.
+## 4. Process Description
 
-**Corrals and handling systems**:
-- Steel pipe construction throughout — wood is destroyed by bison impact. Minimum 2-inch (5 cm) schedule 40 steel pipe for panels. Posts set in concrete.
-- Hydraulic squeeze chute: essential for safe veterinary work, tagging, and loading. A manual cattle chute will be destroyed — bison exert 3-4× the force of cattle against restraint. Hydraulic systems provide controlled, consistent pressure.
-- Curved sweep tub and solid-sided alley: bison move better when they cannot see handlers and follow the animal ahead of them. Solid sides prevent bison from seeing escape routes. Curved design uses their natural circling behavior.
-- Working radius: maintain 5+ meter safety zone between handlers on foot and bison in open pens. Handlers should always have an escape route (climb-over gates, designated safe areas). Never enter a confined space with bison without a solid barrier between you and the animal.
+### 4.1 Grass-Finished Meat Production
 
-**Handling principles**:
-- Work bison in groups — solitary bison become aggressive. Minimum group size for calm handling: 5-6 animals.
-- Move slowly and quietly. Yelling and rapid movement trigger flight responses that lead to fence-breaking and injuries.
-- Use flag sticks (PVC pole with a flag or plastic bag) to direct movement — never use electric prods (causes panic and charging).
-- Plan handling for cool weather (below 20°C). Heat stress during handling causes collapse and death. Early morning is best.
-- Limit time in confined handling to 30-60 minutes per session. Extended confinement causes extreme stress.
+**Principle**: Bison convert native grass to lean meat (2-3% fat) without grain supplementation. They graze a wider variety of plants than cattle, including tough native grasses (switchgrass, big bluestem, Indiangrass) that cattle avoid. Bison reach 350-450 kg slaughter weight at 18-24 months on grass alone.
 
-### Reproduction and Calving
+**Prerequisites**: Native or seeded grassland (2-4 ha per cow-calf pair), rotational grazing paddocks, water access in each paddock.
 
-**Breeding**:
-- Seasonal breeders: rut occurs July-September. Bulls join the cow herd during rut and are removed afterward to prevent fighting outside the breeding season.
-- Bull-to-cow ratio: 1 bull per 10-15 cows. Multiple bulls in the same herd during rut will fight — dominance hierarchies are established through head-butting charges that can be fatal.
-- Gestation: 270-285 days (average 283). Single calf per pregnancy; twins are rare.
+**Materials**: Fencing, water infrastructure, mineral supplement.
 
-**Calving**:
-- Calves born in spring (April-June) with minimal assistance needed. Calving difficulty (dystocia) is extremely rare in bison — they have been selected by nature for easy calving on open range. Over 95% of births are unassisted.
-- Calf birth weight: 15-25 kg. Up and nursing within 30 minutes. Calves are red-brown at birth (called "red dogs") — coat darkens to brown by 3-4 months.
-- Calves nurse for 6-8 months but begin grazing at 2-3 weeks. Wean naturally or separate at 6-7 months.
-- Calf mortality: 5-10% in well-managed herds (compared to 3-8% for beef cattle). Main causes: predation, exposure (severe storms), and abandonment.
+**Procedure**:
+1. Establish rotational grazing paddocks. Rotate bison every 3-7 days; rest paddocks 30-60 days for grass recovery.
+2. Stock at 2-4 hectares per cow-calf pair on native grassland (varies by rainfall and region).
+3. Provide free-choice salt and mineral supplement year-round.
+4. In northern climates, bison maintain on standing winter pasture (stockpiled grass). They use their massive heads to sweep snow aside and access forage. Supplemental hay only during ice crusting or deep snow.
+5. Select finished animals at 18-20 months for optimal tenderness. Animals over 24 months produce tougher meat.
+6. Process at USDA or equivalent facility. Bison require reinforced handling systems — standard cattle chutes will be destroyed.
 
-**Cow productivity**:
-- Bison cows remain productive for 20-25 years (vs 10-15 for cattle). Annual calving rate: 85-95% in good conditions.
-- First calving at 3 years (later than cattle at 2 years). The longer productive lifespan compensates for later maturity.
+**Expected yield**: A 400 kg live bison yields 225-240 kg dressed carcass (56-60% dressing percentage), producing 160-190 kg of retail cuts. Premium cuts: tenderloin, ribeye, strip loin. Ground bison is 40-50% of total meat by weight.
 
-### Grass-Finished Production
+**Strengths**:
+- Zero grain required — grass-only finishing reduces feed costs by 40-60% compared to beef cattle
+- Bison withstand -40°C without shelter — their woolly undercoat provides insulation unmatched by any cattle breed
+- Cows remain productive for 20-25 years (vs 10-15 for cattle) — far longer productive lifespan
+- Bison improve native grassland health through wallowing (creates shallow depressions that collect water and support diverse plant communities)
 
-Bison are ideally suited to grass-finishing — no grain is needed or desired for quality meat.
+**Weaknesses**:
+- Wild temperament requires purpose-built, reinforced handling facilities — steel pipe throughout, hydraulic squeeze chute mandatory
+- 1.8 m minimum fencing height — bison jump 1.8 m vertically from a standing start
+- First calving at 3 years (later than cattle at 2 years) — slower herd growth rate
+- Bison kill more people in North America than any other large animal, including bears
 
-**Pasture management**:
-- Stocking rate: 2-4 hectares per cow-calf pair on native grassland (varies widely by region and rainfall). Bison range further than cattle and utilize rough terrain more effectively.
-- Bison graze a wider variety of plants than cattle, including tough native grasses (switchgrass, big bluestem, little bluestem, Indiangrass) that cattle avoid. They also readily eat sedges, forbs, and brush.
-- Rotational grazing works well: divide pasture into paddocks, rotate bison every 3-7 days. Rest periods of 30-60 days allow grass recovery. Bison actually improve native grassland health — their wallowing (rolling in dirt) creates shallow depressions that collect water and support diverse plant communities.
-- Winter feeding: in northern climates, bison can be maintained on standing winter pasture (stockpiled grass) with supplemental hay only during ice crusting or deep snow. They use their massive heads to sweep snow aside and access forage. This dramatically reduces winter feed costs compared to cattle.
+### 4.2 Reproduction and Calving
 
-**Finishing for slaughter**:
-- 18-24 months on grass to reach slaughter weight (350-450 kg live weight for a 20-month grass-finished bison).
-- No grain feeding needed. Grain-finished bison meat loses the leanness advantage that the market values. Grass-finished is the standard and premium product.
-- Slaughter at 18-20 months for optimal tenderness. Older animals (24+ months) produce tougher meat.
+**Principle**: Bison are seasonal breeders with rut in July-September. Cows calve in spring (April-June) with minimal assistance — over 95% of births are unassisted. Calves are born small (15-25 kg) and grow rapidly on grass and mother's milk.
 
-**Meat yield**:
-- Dressing percentage: 56-60% of live weight (comparable to beef cattle).
-- A 400 kg live animal yields approximately 225-240 kg dressed carcass, producing 160-190 kg of retail cuts.
-- Premium cuts: tenderloin, ribeye, strip loin, T-bone. Ground bison is the most common retail product (40-50% of total meat by weight).
+**Prerequisites**: Breeding bull (1 per 10-15 cows), separated from cow herd outside rut to prevent fighting. Spring calving pasture with adequate nutrition.
 
-### Bison Meat Characteristics
+**Materials**: Record book for breeding dates, calf tags, vaccination supplies.
 
-**Nutritional profile (per 100 g, cooked)**:
+**Procedure**:
+1. Introduce bull to cow herd in July for rut. Remove bull after September to prevent off-season fighting.
+2. Gestation: 270-285 days (average 283). Single calf per pregnancy; twins are rare.
+3. Calves born April-June. Calving difficulty (dystocia) is extremely rare — bison have been selected by nature for easy calving on open range.
+4. Calves ("red dogs" — red-brown at birth) are up and nursing within 30 minutes. Coat darkens to brown by 3-4 months.
+5. Calves nurse 6-8 months but begin grazing at 2-3 weeks. Wean at 6-7 months.
+6. Calf mortality: 5-10% in well-managed herds. Main causes: predation, exposure (severe storms), abandonment.
+
+**Expected yield**: 85-95% annual calving rate. Cows productive for 20-25 years. First calving at 3 years.
+
+**Strengths**:
+- Over 95% unassisted calving — far easier than most beef cattle breeds
+- Calves hardy from birth — up and nursing within 30 minutes on open range
+- Calf mortality only 5-10% despite minimal intervention — natural hardiness
+- Long productive lifespan (20-25 years) compensates for later first calving
+
+**Weaknesses**:
+- Seasonal breeding limits reproductive management flexibility
+- Bulls fight during rut — dominance contests through head-butting charges can be fatal
+- First calving at 3 years vs 2 years for cattle — 50% longer wait for first offspring
+
+### 4.3 Hide and Horn Processing
+
+**Principle**: Bison hide is thick (8-12 mm on the back, 4-6 mm on the sides) and extremely durable. Horn sheaths separate from the bony core after death and are worked like cattle horn. Both are valuable secondary products.
+
+**Prerequisites**: Skinning knives, fleshing beam, tanning materials (oak or chestnut bark for vegetable tanning), boiling water for horn processing.
+
+**Materials**: Salt for hide preservation (10-15 kg per hide), oak or chestnut tannin solution (10-15% concentration), borax for horn cleaning.
+
+**Procedure**:
+1. Skin bison within 2 hours of slaughter. Flesh carefully — hide is thick and requires longer processing than cattle.
+2. Salt flesh side heavily with 10-15 kg fine salt. Fold flesh-to-flesh. Cure 3-5 days.
+3. For vegetable tanning: liming requires 7-10 days (vs 3-5 for cattle) due to hide thickness. Soak in 10-15% oak or chestnut tannin solution for 4-8 weeks.
+4. One adult bison hide yields 3-5 m² of leather. Used for heavy goods: belts, harnesses, saddles.
+5. Horn sheaths: soak in boiling water (100°C) for 15-20 minutes to soften keratin. Press into shapes: spoons, cups, combs, powder flasks.
+6. Each animal yields two horns, 30-60 cm length, 150-300 g each.
+
+**Expected yield**: One adult hide = 3-5 m² leather. Two horn sheaths = 2-4 finished items each. Winter robe (hide with woolly undercoat) provides exceptional insulation.
+
+**Strengths**:
+- Bison hide is among the thickest and most durable leathers available — ideal for heavy-duty applications
+- Woolly winter robe is warmer than any sheep wool blanket — premium insulation product
+- Horn sheaths are large (30-60 cm) and yield substantial raw material per animal
+
+**Weaknesses**:
+- Thick hide requires extended tanning time (7-10 days liming vs 3-5 for cattle)
+- Large hide size demands more tanning materials and larger vats
+- Wild temperament makes hide recovery more labor-intensive than cattle processing
+
+## 5. Quantitative Parameters
+
+### Bison vs Cattle Nutritional Comparison (per 100 g, cooked)
 
 | Nutrient | Bison | Beef (lean) |
 |----------|-------|-------------|

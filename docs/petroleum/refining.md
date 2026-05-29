@@ -107,6 +107,21 @@ Preheated gas oil feed (350°C) contacts hot regenerated catalyst (680-720°C) a
 
 **FCC gasoline quality**: High research octane number (RON 88-93) but contains olefins and aromatics that may be limited by environmental regulations. FCC gasoline is the largest single component of the US gasoline pool (~35-40% of total).
 
+**Strengths**:
+- Highest gasoline yield of any conversion process (45-60% of feed)
+- Thermally balanced — coke combustion provides all heat for endothermic cracking
+- Continuous catalyst regeneration enables uninterrupted operation for years
+- Handles wide range of feedstocks including heavy, high-sulfur gas oils
+- Produces valuable propylene byproduct for petrochemical use
+- Lower capital cost than hydrocracking per barrel of capacity
+
+**Weaknesses**:
+- Maximizes gasoline at the expense of diesel/jet fuel (poor middle distillate selectivity)
+- FCC light cycle oil (LCO) has low cetane number (20-35) and high aromatics — requires hydroprocessing before use as diesel
+- Gasoline contains olefins subject to environmental regulations
+- Catalyst deactivates from metals contamination (vanadium, nickel from feed) and requires continuous makeup (0.5-2 tonnes/day)
+- Particulate emissions from catalyst fines require electrostatic precipitators on regenerator flue gas
+
 ### FCC Catalyst
 
 Zeolite Y (synthetic faujasite, Na₅₆[(AlO₂)₅₆(SiO₂)₁₃₆]·250H₂O after sodium removal) in an amorphous silica-alumina matrix. Zeolite provides the strong acid sites for cracking; matrix provides macroporosity for pre-cracking large molecules before they enter zeolite pores (pore diameter ~0.74 nm). Catalyst inventory: 100-300 tonnes per unit. Make-up rate: 0.5-2 tonnes/day (catalyst deactivates over time from metals contamination and hydrothermal degradation).
@@ -144,6 +159,22 @@ A catalytic process that converts heavy feedstocks (vacuum gas oil, heavy gas oi
 ### Disadvantage
 
 High hydrogen consumption (150-400 Nm³/tonne) requires a dedicated hydrogen production unit (steam methane reformer, ~9 Nm³ H₂ per Nm³ natural gas). High pressure (80-200 bar) demands thick-walled alloy steel reactors — the most expensive single pieces of equipment in a refinery. Capital cost: $3,000-8,000 per daily barrel of capacity.
+
+**Strengths**:
+- Best diesel and jet fuel quality of any conversion process (cetane 55-65, meets Jet A-1 directly)
+- Flexible product slate — adjustable from gasoline to middle distillate by changing catalyst and conditions
+- Handles heaviest, highest-sulfur feeds including coker gas oil and deasphalted oil
+- Built-in desulfurization — hydrogen atmosphere removes sulfur as H₂S
+- No coke byproduct — all feed converted to liquid products and gases
+- Produces high-quality naphtha for petrochemical feedstock
+
+**Weaknesses**:
+- Very high hydrogen consumption (150-400 Nm³/tonne) requires dedicated hydrogen plant
+- Highest capital cost of any refinery unit ($3,000-8,000 per daily barrel)
+- Thick-walled alloy steel reactors (1.25Cr-0.5Mo or 2.25Cr-1Mo) are long-lead procurement items
+- High operating pressure (80-200 bar) creates hydrogen embrittlement risk in carbon steel piping
+- Catalyst poisoned by nitrogen compounds and metals — feed pretreatment often required
+- Lower throughput per unit volume than FCC due to lower space velocity (LHSV 0.5-2.0 h⁻¹)
 
 ## Catalytic Reforming
 

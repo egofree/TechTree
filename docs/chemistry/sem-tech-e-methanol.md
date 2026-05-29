@@ -44,6 +44,10 @@ A side reaction also occurs — the reverse water-gas shift:
 
 The water produced must be separated from the methanol product via distillation. The reaction equilibrium favors methanol at lower temperatures, but kinetics require elevated temperatures — hence the compromise operating range of 220-280°C.
 
+**Strengths**: Methanol is a liquid at room temperature (easy storage and transport, unlike H₂); well-established Cu/ZnO/Al₂O₃ catalyst from conventional methanol industry; exothermic reaction generates useful heat; methanol is a versatile chemical feedstock (formaldehyde, acetic acid, MTBE, DME); carbon-neutral when using green H₂ + captured CO₂.
+
+**Weaknesses**: Requires 50-55 kWh/kg H₂ for green hydrogen — energy-intensive first step; CO₂ capture and purification adds cost; per-pass conversion only 40-60% (requires large recycle loop); water byproduct must be distilled from methanol (additional energy); catalyst deactivated by sulfur and chlorine impurities in feed gas.
+
 ## Role of SEM Tech Membranes
 
 SEM Tech's contribution to e-methanol synthesis is **indirect** — it reduces the cost of the water electrolysis step that produces green hydrogen. The membrane itself is not used in the methanol synthesis reactor.

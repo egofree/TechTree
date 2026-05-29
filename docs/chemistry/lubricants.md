@@ -74,6 +74,10 @@ Every machine with moving parts generates friction and heat. Without lubrication
   5. Add additives (graphite, molybdenum disulfide (MoS₂), zinc dialkyldithiophosphate (ZDDP — anti-wear/antioxidant)) if required. Mix thoroughly.
   6. Test: penetration (cone penetration test — measure how far standardized cone sinks into grease at 25°C → NLGI grade: 000 = very soft, 2 = typical bearing grease, 6 = very hard). Dropping point (heat until grease melts and drips → maximum usable temperature).
 
+**Strengths**: Soap-thickened grease stays in place (doesn't drain from bearings like oil); lithium grease is multi-purpose — single grease type covers most applications; calcium soap provides water resistance for marine and pump applications; additives (MoS₂, graphite) extend performance into extreme pressure and temperature regimes.
+
+**Weaknesses**: Lithium supply chain depends on rare ore (spodumene/lepidolite); dropping point limits soap greases to ~190°C (calcium only ~90°C); over-greasing bearings causes churning and overheating; grease cannot be filtered and reused like oil — consumed and replaced.
+
 **[Clay-thickened grease](../glossary/clay-thickened-grease.md)** (non-soap):
 - Bentonite clay (organically modified — treated with quaternary ammonium salts to make it oil-compatible) + base oil. No dropping point (clay doesn't melt) → usable to 250°C+. For high-temperature applications where soap grease fails. Simpler to make than lithium grease if bentonite clay is available.
 

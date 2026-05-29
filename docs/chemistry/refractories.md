@@ -43,6 +43,10 @@ Refractories are heat-resistant ceramic materials that line furnaces, kilns, inc
 4. **Drying**: Remove moisture at 80-110°C (24-48 hours). Prevents steam spalling during firing.
 5. **Firing (sintering)**: Tunnel kiln at 1300-1800°C (temperature depends on composition). 12-48 hours. Sintering bonds particles by partial melting (liquid-phase sintering) or solid-state diffusion. Fireclay: 1300-1400°C. High-alumina: 1500-1600°C. Magnesite: 1700-1800°C. Shrinkage: 2-8% (controlled by raw material selection and pressing density).
 
+**Strengths**: Standardized brick shapes enable modular furnace construction and repair; particle size grading maximizes density and slag resistance; tunnel kiln firing is continuous and energy-efficient at scale; fireclay bricks are inexpensive and adequate for most applications below 1400°C.
+
+**Weaknesses**: Tunnel kiln requires 1300-1800°C — significant energy investment; magnesite and high-alumina bricks are 3-6× more expensive than fireclay; refractory linings are consumable (6-15 kg per tonne of steel produced); thermal shock spalling limits lifetime during temperature cycling; silica bricks catastrophically fail below 600°C (α→β quartz transition).
+
 **Unshaped refractories (monolithics)**:
 - **Castables**: Refractory aggregate + calcium aluminate cement (CAC) binder. Mixed with water on-site, poured or pumped into forms, vibrated to consolidate. CAC hydrates and sets like Portland cement but withstands 1500-1700°C after firing. Low-cement castables (LCC, 3-8% CaO) use ultra-fine alumina powder (fume) to improve particle packing and reduce cement content — higher density, better hot strength, superior slag resistance. Ultra-low-cement castables (ULCC, <3% CaO) for the most demanding applications.
 - **Gunning mixes**: Dry or pre-mixed refractory material pneumatically sprayed onto hot furnace surfaces to repair worn areas without cooling the furnace. Applied at 20-40 m/s impact velocity. Adhesion by impact bonding. Used for in-situ repair of BOF linings, cement kilns, and incinerators — extends campaign life without costly shutdowns.

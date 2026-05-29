@@ -29,6 +29,10 @@ The triple bond in N₂ (945 kJ/mol) is one of the strongest in chemistry. Break
 - **Conversion per pass**: Only 10-15% of the N₂+H₂ feed converts to NH₃ per pass through the converter. The unreacted gas is recycled — this is critical to process economics.
 - **Equilibrium conversion**: At 450°C and 20 MPa with a 3:1 H₂:N₂ feed, equilibrium gives ~16% NH₃. At 30 MPa, ~27%. The gap between equilibrium and actual conversion represents the catalyst's kinetic limitation.
 
+**Strengths**: Simple, well-understood reaction chemistry (N₂ + 3H₂ → 2NH₃); iron catalyst is cheap and robust (5-10 year life); feedstocks (N₂ from air, H₂ from SMR or electrolysis) are abundant; product is liquid at moderate pressure (easily stored and transported).
+
+**Weaknesses**: Extreme pressure required (15-30 MPa) demands specialized alloy steel vessels; only 10-15% conversion per pass requires large recycle compressors; hydrogen embrittlement risk in high-pressure equipment; energy-intensive compression (0.5-0.8 MWh/t NH₃ for synthesis loop alone).
+
 **Converter design principles**:
 - The reaction is exothermic, so the converter must remove heat to maintain the 400-500°C operating window while achieving high conversion.
 - Feed gas enters cold and is preheated by the hot product gas in internal heat exchangers. The temperature profile through the catalyst beds is the primary design variable.
@@ -45,11 +49,19 @@ Three major converter designs represent the historical progression of Haber-Bosc
 - Maximum bed inlet temperature controlled by quench flow rate. Typical profile: bed 1 inlet 400°C → outlet 500°C, quench to 425°C, bed 2 inlet 425°C → outlet 475°C, quench to 430°C, bed 3 inlet 430°C → outlet 460°C.
 - Still used in some older plants due to mechanical simplicity and ease of catalyst loading.
 
+**Strengths**: Simple mechanical construction — no internal cooling tubes; easy catalyst loading and unloading; well-proven design (100+ years of operation); lowest capital cost of the three converter types.
+
+**Weaknesses**: Crude temperature control — quench dilutes reacting gas with cold feed, reducing conversion; lowest single-pass conversion (10-13%); inefficient use of catalyst volume; higher recycle gas flow increases compressor energy.
+
 **Tube-cooled (TVA-type) converter**:
 - Catalyst packed outside tubes; cold feed gas flows through tubes embedded in the catalyst bed. Heat transfers continuously from catalyst to tube gas, providing near-isothermal operation.
 - Better temperature control than quench design. Higher conversion per pass (12-17% vs. 10-13%).
 - Disadvantage: tubes complicate catalyst loading and unloading. Tube leaks are difficult to repair — require complete shutdown and catalyst removal.
 - Internal heat exchanger at the top of the vessel preheats incoming gas using hot product gas.
+
+**Strengths**: Near-isothermal operation provides better temperature control than quench design; higher conversion per pass (12-17%); more efficient catalyst use.
+
+**Weaknesses**: Tubes complicate catalyst loading and unloading; tube leaks require complete shutdown and catalyst removal; higher manufacturing cost than quench converter; limited to moderate-capacity plants.
 
 **[Radial-flow converter](../glossary/radial-flow-converter.md)** (modern, 1960s-present):
 - Gas flows radially inward through an annular catalyst bed (from outer perimeter to central collection pipe) rather than axially through a cylindrical bed.
@@ -57,6 +69,10 @@ Three major converter designs represent the historical progression of Haber-Bosc
 - Typically 2-3 beds in series with inter-stage cooling (indirect heat exchangers or quench).
 - Highest single-pass conversion of the three designs (14-18%). Favored for modern large-capacity plants (1,000-3,000 tonnes NH₃/day).
 - Examples: Haldor Topsøe S-200/S-250, KBR advanced ammonia process (KAAP) using ruthenium-based catalyst on graphite support for the top bed.
+
+**Strengths**: Lowest pressure drop (0.2-0.5 MPa vs. 1-2 MPa axial) allows smaller catalyst particles with higher activity; highest single-pass conversion (14-18%); favored for modern large-capacity plants (1,000-3,000 t NH₃/day); can use Ru catalyst in top bed for even higher efficiency.
+
+**Weaknesses**: Most complex mechanical design of the three types; higher capital cost; catalyst loading requires careful distribution to avoid flow maldistribution; maintenance access to internal components is limited.
 
 ### Recycle Loop and Product Recovery
 

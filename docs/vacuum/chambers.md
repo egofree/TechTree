@@ -30,6 +30,16 @@ where E is Young's modulus (~200 GPa for stainless steel), t is wall thickness, 
 ### Chamber Materials
 
 **Stainless steel 304L (primary material)**:
+
+**Strengths**:
+- Excellent weldability with matching 308L filler — all standard joining processes applicable
+- Low outgassing after electropolishing: 10⁻⁸ to 10⁻⁹ Pa·m³/s·m² after 24h bake at 250°C
+- Widely available, well-characterized mechanical properties, proven vacuum performance
+
+**Weaknesses**:
+- Heavy (density 8.0 g/cm³) — large chambers require cranes for handling
+- Low thermal conductivity (16 W/m·K) — slow to heat uniformly during bake-out
+- Susceptible to sensitization at >300°C (chromium carbide precipitation) if not "L" grade
 - **Composition**: 18% Cr, 8% Ni, ≤0.03% C (the "L" = low carbon, prevents sensitization and intergranular corrosion at welds)
 - **Properties**: Yield strength ~170-200 MPa, thermal conductivity ~16 W/m·K (low — helps with thermal isolation), coefficient of thermal expansion ~17.3 μm/m·K
 - **Outgassing**: 2×10⁻⁶ Pa·m³/s·m² unbaked, 10⁻⁸ to 10⁻⁹ Pa·m³/s·m² after 24h bake at 250°C
@@ -49,19 +59,28 @@ where E is Young's modulus (~200 GPa for stainless steel), t is wall thickness, 
 ### Flange Systems
 
 **CF (ConFlat) flanges — the UHV standard**:
-- **Design**: Two flat-faced flanges clamp a soft metal gasket (OFHC copper, typically 2 mm thick) between knife-edge grooves machined into each flange face. As bolts are tightened, knife edges (typically 70° included angle, 0.4 mm tip width) cut ~0.8 mm deep into the copper, creating a cold-welded metal-to-metal seal.
-- **Leak rate**: <10⁻¹² Pa·m³/s (helium leak-tight to below detection limit)
-- **Bake temperature**: 450°C maximum (limited by copper gasket oxidation and bolt relaxation)
-- **Gasket**: OFHC copper (C10100 or C10200), 2 mm thick. Gaskets are single-use — must be replaced each time the flange is opened. Standard sizes: 1.33" (DN16 CF), 2.75" (DN40 CF), 4.5" (DN63 CF), 6" (DN100 CF), 8" (DN160 CF), 10" (DN200 CF), 12" (DN250 CF).
-- **Bolt torque**: 20-30 N·m for 2.75" CF flanges (6 bolts, M6). Larger flanges: 25-35 N·m for 6" (12 bolts, M8). Tighten in a star (cross) pattern, gradually increasing torque in 3-4 stages. Overtightening deforms the knife edges — the flanges become permanently damaged and will not seal reliably again.
-- **Anti-seize**: Apply a thin film of silver-based anti-seize compound to bolt threads to prevent galling (stainless steel bolts in stainless steel flanges are prone to galling — cold welding of threads under torque). Do NOT use copper-based anti-seize (contaminates vacuum system if it enters the chamber).
+
+**Strengths**:
+- Leak rate <10⁻¹² Pa·m³/s — helium leak-tight to below detection limit
+- Bakeable to 450°C — suitable for UHV systems requiring high-temperature bake-out
+- Metal-to-metal seal (copper gasket) — no elastomer outgassing
+
+**Weaknesses**:
+- Single-use gaskets — must be replaced each time flange is opened (consumable cost)
+- Overtightening permanently damages knife edges — requires careful torque procedure
+- Bolt tightening in star pattern with 3-4 stages — time-consuming for large flanges
 
 **ISO-KF flanges — the quick-connect standard for roughing/medium vacuum**:
-- **Design**: Two symmetrical flanges (typically stainless steel or aluminum) with a centered O-ring groove. A centered O-ring (typically Viton) sits in a dovetail groove. A clamping ring (wing nut or quick-release clamp) holds the flanges together.
-- **Leak rate**: ~10⁻⁸ Pa·m³/s (Viton permeation-limited). Adequate for roughing lines and medium-vacuum applications, not suitable for UHV.
-- **Sizes**: KF-10 (10 mm ID), KF-16, KF-25, KF-40, KF-50. Larger sizes use ISO-K (with claw clamps and O-ring carrier).
-- **Bake temperature**: ≤150°C (Viton O-ring limit). For higher bake temperatures, replace Viton with silicone (to 230°C, but higher outgassing) or metal seal CF flanges.
-- **Advantages**: Quick to connect/disconnect (no bolt tightening), universal compatibility, inexpensive. **Disadvantages**: O-ring outgassing limits ultimate vacuum, O-rings degrade over time (compression set, chemical attack, radiation damage).
+
+**Strengths**:
+- Quick connect/disconnect: clamp closure in seconds — no bolt tightening
+- Universal compatibility across manufacturers
+- Low cost: stamped flanges and molded O-rings
+
+**Weaknesses**:
+- O-ring outgassing limits ultimate vacuum to ~10⁻⁸ Pa·m³/s — not UHV compatible
+- Viton O-rings limited to 150°C bake — silicone alternative has higher outgassing
+- O-rings degrade over time: compression set, chemical attack, radiation damage
 
 **ISO-K flanges — larger sizes for roughing/medium vacuum**:
 - **Design**: Similar to KF but for larger diameters (DN63 through DN500). Uses a rubber O-ring on a metal carrier ring, held by claw clamps that engage grooves in the flange OD.

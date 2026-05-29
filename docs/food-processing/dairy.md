@@ -64,6 +64,16 @@ The first step in most dairy processing. Fat globules (1-10 μm diameter) are li
 - **Skim milk fat content**: <0.1% (vs. 0.5-1.0% from gravity separation)
 - **Materials**: Bowl is stainless steel or tinned copper. Precision machining required for balance at high RPM.
 
+**Strengths**:
+- Mechanical separation achieves <0.1% fat in skim milk vs. 0.5-1.0% from gravity separation — higher cream yield per liter
+- Continuous processing at 100-5,000+ L/hour replaces 12-24 hour gravity settling, enabling same-day processing of fresh milk
+- Cream fat content adjustable (20-50%) by regulating the cream outlet valve on the separator bowl
+
+**Weaknesses**:
+- Centrifugal separator bowl at 6,000-8,000 RPM requires dynamic balancing to 0.01 mm — imbalance causes destructive vibration
+- Bearings at high radial loads need regular lubrication and replacement (every 1-3 years for industrial units)
+- Stainless steel or tinned copper construction demands precision metalworking capability
+
 ### Butter Production
 
 Butter is 80-82% milk fat, 15-16% water, 1-2% milk solids, and 1-2% salt (if salted).
@@ -78,6 +88,16 @@ Butter is 80-82% milk fat, 15-16% water, 1-2% milk solids, and 1-2% salt (if sal
 7. **Yield**: 22-25 kg butter from 500 kg whole milk (4% fat). Or equivalently, ~5 kg butter per 100 kg milk.
 
 **Clarified butter (ghee)**: Heat butter to 110-120°C until all water evaporates (foaming stops) and milk solids brown and precipitate. Filter through cloth. Shelf life: 6-12 months at room temperature without refrigeration. Ghee is 99.5% fat, no water = no microbial growth. Essential in hot climates where refrigeration is unavailable.
+
+**Strengths**:
+- Butter stores 2-4 weeks refrigerated and preserves 80% of milk's caloric value in a concentrated form — 5 kg butter from 100 kg milk
+- Churning is mechanically simple: a dash churn requires only a wooden vessel and plunger, achievable with stone-age technology
+- Salted butter (1-2% NaCl) resists microbial spoilage for weeks longer than unsalted, extending shelf life without refrigeration
+
+**Weaknesses**:
+- Low yield: 100 kg whole milk (4% fat) produces only 4.5-5.5 kg butter — requires large dairy herd for meaningful production
+- Butter melts above 32°C, limiting storage and transport in hot climates without cooling infrastructure
+- Churning temperature is critical: 8-12°C in summer, 12-15°C in winter — deviation produces soft or granular butter
 
 ### Cheese Making
 
@@ -113,11 +133,31 @@ Cheese making is controlled coagulation of milk protein (casein) to separate cur
 
 **Yield**: 10 kg cheese from 100 kg milk (10:1 ratio for hard cheese). 6-8 kg from 100 kg for soft cheese (higher moisture).
 
+**Strengths**:
+- Hard cheese preserves milk protein for 3-18 months without refrigeration — the most calorie-efficient dairy preservation method (17 MJ stored per kg cheese)
+- Coagulation with acid (vinegar, lemon juice) produces fresh cheese with no special equipment — accessible from Year 0
+- Whey byproduct (80-90 L per 10 kg cheese) is nutritious livestock feed containing 0.8% protein and 5% lactose
+
+**Weaknesses**:
+- 10:1 milk-to-cheese ratio means 90% of milk volume becomes whey — large-scale cheese production generates enormous whey volumes requiring disposal or processing
+- Aging hard cheese for 3-18 months requires temperature-controlled storage (8-15°C, 80-90% humidity) — a dedicated cellar or cave
+- Rennet extraction requires calf stomach lining, creating a dependency on slaughter byproducts; vegetable rennet (cardoon thistle) is less consistent
+
 ### Yogurt and Fermented Dairy
 
 **Yogurt**: Heat milk to 85°C for 30 minutes (denatures whey proteins for thicker texture). Cool to 42-45°C. Inoculate with 2-3% starter culture (Lactobacillus delbrueckii subsp. bulgaricus + Streptococcus thermophilus). Incubate at 42°C for 4-6 hours until pH reaches 4.4-4.6. Cool immediately to 4°C. Shelf life: 2-3 weeks refrigerated.
 
 **Kefir**: Add kefir grains (symbiotic culture of LAB + yeast) to milk at 22°C. Ferment 18-24 hours. Produces slightly carbonated, tangy drink. Shelf life: 1-2 weeks refrigerated.
+
+**Strengths**:
+- Yogurt production preserves milk for 2-3 weeks (refrigerated) vs. 4-6 hours for raw milk — extends usable life by 20-80×
+- Fermentation at 42-45°C needs only a warm location near a hearth — no specialized equipment beyond a container and thermometer
+- Kefir grains are self-perpetuating: a single batch produces grains for the next, requiring no purchased starter culture
+
+**Weaknesses**:
+- Yogurt requires continuous refrigeration (0-4°C) after fermentation — shelf life drops to hours at room temperature
+- Precise incubation temperature (42°C ±2°C) is needed — too cool stalls fermentation, too hot kills the culture
+- Kefir's carbonation from yeast fermentation causes pressure buildup in sealed containers — risk of explosion in glass jars
 
 ## Quantitative Parameters
 

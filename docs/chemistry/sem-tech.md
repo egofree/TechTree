@@ -56,6 +56,10 @@ The polymer-to-solvent ratio is approximately 3:7 by weight, producing a viscous
 
 **Step 5 -- Dry and cure**: The applied film dries at ambient temperature as the solvent evaporates. No heating is required. Drying time depends on solvent choice, film thickness, and ambient conditions. The result is a homogeneous ion exchange membrane with functional groups distributed throughout the PVC/CPVC matrix.
 
+**Strengths**: Materials cost <$1/ft² vs $100-400/ft² for Nafion — 100-400× cheaper; no fluoropolymer chemistry required (PVC + water softener resin); ambient temperature processing — no heating, curing, or cleanroom; resin beads arrive pre-functionalized — no post-sulfonation or amination; tunable properties via resin loading (10-70% by volume).
+
+**Weaknesses**: TRL 5 — validated in lab but not yet proven at industrial scale; PVC binder has limited chemical resistance vs perfluorinated polymers; mechanical strength lower than commercial membranes (needs structural reinforcement); solvent handling (THF, cyclohexanone) requires ventilation; long-term durability in harsh electrochemical environments not yet characterized.
+
 **Step 6 -- Optional structural enhancement**: Fiberglass, fumed silica, or sand can be incorporated into the mixture to improve mechanical strength, dimensional stability, or abrasion resistance. This is useful for membranes that will be subjected to physical stress in electrochemical cells.
 
 **Step 7 -- Remove or retain**: The dried membrane can be peeled from the application surface as a free-standing film, or left in place as a permanent coating on a cell component (such as a cell divider or wall).

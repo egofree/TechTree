@@ -14,6 +14,17 @@ Energy refining covers the processing of crude fuels into usable forms: fraction
 
 ## Petroleum Fractional Distillation
 
+**Strengths**:
+- Single column separates crude oil into 6+ useful fractions by boiling point
+- Heat integration (feed-product exchange) recovers 60-70% of distillation energy
+- Well-understood process — atmospheric distillation has been practiced since the 1850s
+
+**Weaknesses**:
+- Requires crude oil supply — a depleting geological resource
+- Fired heater consumes 30-40% of crude throughput as fuel gas
+- Atmospheric residue (15-30% of crude) needs vacuum distillation for further processing
+- Sulfur, nitrogen, and metal contaminants in crude require downstream treatment
+
 Crude petroleum is a complex mixture of hydrocarbons (C₁-C₆₀+) that must be separated into fractions by boiling point. Atmospheric distillation is the primary separation step.
 
 **Atmospheric distillation unit (ADU)**:

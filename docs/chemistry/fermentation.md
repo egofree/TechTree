@@ -38,6 +38,10 @@
 - For anhydrous ethanol (>99%): add quicklime (CaO) to absorb water, re-distill. Or use molecular sieves (zeolites — selectively adsorb water).
 - Discard foreshots (first 50-100 mL — contains methanol and other low-boiling congeners, toxic). Discard fusel oils (last fraction — higher alcohols with unpleasant odor).
 
+**Strengths**: Well-understood process with 5000+ years of practice; multiple feedstock options (grain, sugar, fruit, potatoes); 90-95% theoretical yield achievable; byproducts have value (spent grain as livestock feed, CO₂ for carbonation or dry ice).
+
+**Weaknesses**: Azeotrope limits distillation to 95.6% ABV (anhydrous requires extra steps); 12-15% ABV ceiling from batch fermentation (dilute feedstock means large volumes to distill); energy-intensive distillation (2.5-4.0 kg steam per liter of 95% ethanol); competes with food supply for grain feedstock.
+
 ### Weizmann Acetone-Butanol Process
 
 **Organism**: *Clostridium acetobutylicum* (anaerobic bacterium, Gram-positive, spore-forming). Can be isolated from soil or maintained as preserved culture on agar slants.
@@ -54,6 +58,10 @@
 
 **Applications**: Acetone — solvent for resins, fats, plastics; key ingredient in nitrocellulose dope. n-Butanol — solvent, feedstock for butyl rubber and esters. This process was THE primary source of acetone for British cordite production during World War I.
 
+**Strengths**: Produces three valuable solvents from starch in a single fermentation; butanol is a superior fuel to ethanol (29.2 MJ/L vs 21.2 MJ/L, miscible with gasoline); historically proven at industrial scale (WWI cordite production); anaerobic process — no aeration equipment needed.
+
+**Weaknesses**: Butanol toxicity limits product concentration to 12-15 g/L (dilute broth = high distillation cost); strict anaerobic requirements increase contamination risk; product ratio (3:6:1 acetone:butanol:ethanol) is fixed by organism — not tunable; bacterium forms spores that complicate continuous fermentation.
+
 ### Acetic Acid Production
 
 **[Vinegar method](../glossary/vinegar-method.md)** (biological):
@@ -67,6 +75,10 @@
 - Ethanol oxidizes to acetaldehyde (CH₃CHO), then to acetic acid. Faster, higher concentration achievable.
 - Applications: food preservation (vinegar), cellulose acetate (photographic film, synthetic fibers), acetic anhydride (aspirin synthesis, cellulose acetate production), metal etching, solvent.
 
+**Strengths**: Biological route (vinegar method) requires no special equipment — just ethanol, air, and Acetobacter bacteria; chemical oxidation achieves higher concentrations (>12% vs biological limit); acetic acid is a versatile chemical intermediate (cellulose acetate, aspirin, vinyl acetate); multiple production routes offer flexibility.
+
+**Weaknesses**: Biological route is slow (days to weeks) and limited to 12-14% acid concentration; chemical oxidation requires 300-400°C copper catalyst and careful temperature control; vinegar method needs continuous aeration (energy for air pumping); both routes consume ethanol feedstock that could be used for fuel.
+
 ### Methanol from Wood Pyrolysis
 
 **Process**: Heat hardwood in closed iron retort to 400-500°C. Destructive distillation produces: charcoal (solid), wood tar (liquid), pyroligneous acid (aqueous condensate containing methanol, acetic acid, acetone).
@@ -74,6 +86,10 @@
 - Distill pyroligneous acid — methanol boils at 64.7°C (lowest-boiling fraction, collected first).
 - Yield: ~1-2% methanol by weight of wood. Low yield but works with basic metallurgy-stage technology.
 - **Synthetic methanol**: React CO + 2H₂ over ZnO/Cr₂O₃ catalyst at 300-400°C, 20-30 MPa. Requires purified synthesis gas from coal gasification. Much higher yield and purity.
+
+**Strengths**: Wood pyrolysis requires only basic iron retort technology — achievable at early metallurgical stages; methanol is a versatile solvent and fuel; pyrolysis co-produces charcoal (fuel) and wood tar (preservative); synthetic route from syngas gives much higher yields at industrial scale.
+
+**Weaknesses**: Wood pyrolysis yield is extremely low (~1-2% by weight of wood); methanol is highly toxic (10 mL causes blindness, 30 mL death); requires careful fractionation to separate from acetic acid and acetone in pyroligneous acid; synthetic route needs coal gasification infrastructure (high pressure, catalyst).
 
 ### Temperature Control
 
@@ -91,13 +107,17 @@ The **[Weizmann process](../glossary/weizmann-process.md)** (Clostridium acetobu
 
 Lactic acid bacteria (Lactobacillus, Streptococcus, Pediococcus) convert sugars to lactic acid (C₃H₆O₃) via homofermentative pathway (2 mol lactic acid per mol glucose, yield >90%) or heterofermentative pathway (lactic acid + ethanol + CO₂). Industrial production: 30-45°C, pH 5-7 (neutralized with CaCO₃ or NaOH to prevent acid inhibition). Feedstock: glucose from corn starch or cane sugar. Downstream: calcium lactate filtered, acidified with H₂SO₄ to free lactic acid, purified. **Polylactic acid (PLA)**: Lactic acid oligomerized to lactide (cyclic dimer), then ring-opening polymerized to PLA — biodegradable thermoplastic for packaging, textiles, 3D printing filament. NatureWorks (USA) produces 150,000 tonnes/year PLA.
 
-### Citric Acid Production
+**Strengths**: Homofermentative strains achieve >90% theoretical yield from glucose; PLA bioplastic is compostable and petroleum-independent; lactic acid is a versatile platform chemical (food preservative, pharmaceutical, leather tanning); fermentation operates at moderate conditions (37-45°C, ambient pressure).
 
-*Aspergillus niger* mold produces citric acid from sucrose or glucose at 25-30°C, pH 2-3 (acidic conditions suppress oxalic acid byproduct). The key industrial fermentation by volume (~2 million tonnes/year). Process: submerged fermentation in 100-200 m³ stirred tanks, 5-7 days. Yield: 80-95% of theoretical (1 mol citric acid per mol glucose). Downstream: filter mycelium, precipitate calcium citrate with Ca(OH)₂, redissolve with H₂SO₄, crystallize. Applications: food acidulant (60%), detergent builder (chelates Ca²⁺/Mg²⁺ — replaces phosphates), pharmaceutical effervescent tablets, metal cleaning.
+**Weaknesses**: Product inhibition requires pH control via base addition (CaCO₃ or NaOH); downstream purification adds cost (calcium lactate → H₂SO₄ acidification → crystallization); PLA has low Tg (55-65°C) limiting heat resistance; composting requires industrial composting conditions (>58°C, not home compost).
 
-### Biogas (Anaerobic Digestion)
+**Strengths**: Highest-volume industrial fermentation product (~2 million tonnes/year); low pH (2-3) prevents bacterial contamination naturally; 80-95% theoretical yield from glucose; A. niger is robust and non-pathogenic; multiple applications (food acidulant, detergent builder, pharmaceuticals).
 
-Organic waste (manure, food waste, sewage sludge, agricultural residues) decomposed by mixed microbial consortium in the absence of oxygen. Four stages: (1) hydrolysis — complex polymers → monomers, (2) acidogenesis — monomers → volatile fatty acids, (3) acetogenesis — fatty acids → acetic acid + H₂ + CO₂, (4) methanogenesis — acetic acid → CH₄ + CO₂ (aceticlastic), H₂ + CO₂ → CH₄ (hydrogenotrophic). Product: biogas (55-70% CH₄, 30-45% CO₂, trace H₂S). Operating temperature: mesophilic (35-40°C, stable, most common) or thermophilic (50-60°C, faster, higher gas yield but less stable). Hydraulic retention time: 15-30 days (mesophilic). CSTR (completely stirred tank reactor) is standard design. Biogas upgraded to biomethane (>95% CH₄) by removing CO₂ (water scrubbing, PSA, or membrane separation) — can substitute for natural gas. Energy yield: 0.3-0.5 m³ biogas per kg volatile solids added. Small-scale: 2-50 kW digesters for farm or village use. Large-scale: 1-10 MW plants processing municipal waste.
+**Weaknesses**: Requires strict trace metal limitation (especially iron and manganese) to trigger citric acid overflow; 5-7 day fermentation cycle; downstream purification is multi-step (filtration, calcium citrate precipitation, acid liberation, crystallization); nitrogen limitation strategy reduces cell growth rate (longer batch time).
+
+**Strengths** (biogas): Converts organic waste (manure, food waste, sewage) into useful fuel; mesophilic operation at 35-40°C is stable and low-energy; biogas can replace natural gas after upgrading to biomethane; digestate is nutrient-rich fertilizer; continuous operation (CSTR) with 15-30 day HRT.
+
+**Weaknesses** (biogas): Biogas only 55-70% CH₄ (requires upgrading for pipeline quality); HRT of 15-30 days requires large reactor volume; ammonia inhibition above 1500 mg/L NH₃-N with protein-rich feedstocks; thermophilic operation (higher yield) is less stable and more energy-intensive to maintain.
 
 ### Fermentation Equipment Design
 

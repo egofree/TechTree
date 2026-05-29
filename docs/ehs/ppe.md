@@ -72,6 +72,22 @@ Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silan
 - Cartridge change schedule: Based on breakthrough time, not subjective detection. For semiconductor applications, establish change schedule from manufacturer data or air sampling results. Typical: organic vapor cartridges changed after 8 hours of use or when odor detected (whichever first). Acid gas cartridges changed after each shift in continuous acid exposure.
 - Fit testing: Required annually (OSHA 29 CFR 1910.134). Qualitative (taste test with saccharin or bitrex) or quantitative (portapcount, measured fit factor ≥100 for half-face). No facial hair in seal area
 
+**Strengths**:
+- Lowest cost respiratory protection ($30-50 per unit) for moderate exposure levels
+- Lightweight and compact — minimal interference with vision, communication, and manual tasks
+- Widest cartridge selection — color-coded cartridges for every chemical class encountered in fabs
+- Compatible with safety glasses and hard hats — no interference with other PPE
+- Comfortable for extended wear (2-4 hours) in non-IDLH environments
+- Simple donning/doffing — quick seal check before each use
+
+**Weaknesses**:
+- Lowest protection factor (10×) — insufficient for exposures above 10× PEL
+- No eye protection — separate goggles or face shield required for chemical splash protection
+- Requires tight face seal — facial hair, glasses, or facial structure can prevent adequate fit
+- Cartridge breakthrough is invisible — no warning when acid gas cartridges are exhausted
+- Breathing resistance increases as filters load — fatiguing during heavy physical exertion
+- Cannot be used in oxygen-deficient atmospheres (<19.5% O₂)
+
 **Full-face elastomeric respirator**:
 - Protection factor: 50× (reduces exposure to 1/50th ambient)
 - Use when: Airborne concentrations up to 50× PEL, eye protection needed against gas/vapor, splash risk
@@ -79,12 +95,43 @@ Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silan
 - Same cartridge selection as half-face
 - Fit factor requirement: ≥500 (quantitative fit test)
 
+**Strengths**:
+- 5× higher protection factor than half-face (50× vs. 10×) — covers exposures up to 50× PEL
+- Integrated face shield — simultaneous eye and respiratory protection from chemical splash
+- Tighter seal than half-face — larger sealing surface improves fit reliability
+- Same cartridge ecosystem as half-face — no separate supply chain
+- Better for acid and solvent operations — splash protection combined with respiratory protection
+
+**Weaknesses**:
+- More fatiguing for extended wear (1-2 hours) — larger seal area causes facial pressure and sweat
+- Muffled communication — full facepiece distorts speech, making verbal instructions difficult
+- Fogging risk — exhaled moisture condenses on lens unless anti-fog coating or nose cup is used
+- Higher cost than half-face ($80-150 per unit)
+- Requires quantitative fit testing (more expensive than qualitative)
+- Peripheral vision reduced — facepiece frame limits side vision compared to half-face with safety glasses
+
 **Powered air-purifying respirator (PAPR)**:
 - Protection factor: 25-1,000× depending on facepiece type (loose-fitting hood: 25×; tight-fitting full-face: 1,000×)
 - Use when: Extended wear required, facial hair prevents tight-fitting respirator seal, higher protection factor needed
 - Battery-powered blower draws air through filters/cartridges and delivers filtered air to headpiece at 4-6 CFM
 - Advantage: No breathing resistance (positive pressure), cooling airflow, integrated head/face/neck protection
 - Typical semiconductor use: HF bench maintenance, chemical spill cleanup, bulk chemical dispensing
+
+**Strengths**:
+- No breathing resistance — battery-powered blower pushes filtered air, reducing worker fatigue
+- Higher protection factor with loose-fitting hood (25×) — accommodates facial hair and glasses
+- Up to 1,000× protection with tight-fitting full-face PAPR
+- Cooling airflow — positive pressure air circulation reduces heat stress during extended operations
+- Most comfortable respirator for long-duration tasks (4-8 hours continuous wear)
+- Integrated head, face, and neck protection with hood-style headpiece
+
+**Weaknesses**:
+- High cost ($800-1,500 per unit) — 10-20× more expensive than half-face respirator
+- Battery management required — 4-8 hour runtime, batteries need daily charging and replacement scheduling
+- Bulky — battery pack and blower unit add weight and limit mobility in confined spaces
+- Motor and blower generate noise — may interfere with hearing warning alarms
+- Moving parts require more maintenance — blower, filters, and battery all need periodic inspection
+- Loose-fitting hoods offer lower protection (25×) than tight-fitting versions
 
 **Self-contained breathing apparatus (SCBA)**:
 - Protection factor: 10,000×

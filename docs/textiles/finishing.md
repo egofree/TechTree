@@ -27,6 +27,16 @@ Fulling cleans, shrinks, and felts woven cloth. The process transforms a loose, 
 - Fulling stocks: two wooden hammers (each 15-25 kg, elm or oak) mounted on a cam shaft driven by a water wheel or later a steam engine. The hammers alternately pound the cloth in a wooden trough (1.5-2 m long, 0.5-0.8 m wide). The cam lifts each hammer 0.3-0.5 m, then drops it. Cycle rate: 30-60 blows per minute per hammer. The cloth is folded in the trough and slowly turned by hand between hammering sessions.
 - Rotary fulling mill: two large wooden rollers (0.3-0.5 m diameter, 1-2 m long) mounted in a heavy timber frame. The cloth passes between the rollers under pressure (adjusted by adding weights to the top roller bearing). The rollers compress and stretch the cloth alternately, driving felting without the violent impact of stocks. Throughput: 50-100 m of cloth per batch, compared to 10-20 m for stocks.
 
+**Strengths**:
+- Fulling increases fabric density 10-30% without adding material — same fiber in smaller area
+- Wool felting creates natural water repellency from interlocked fiber scales
+- Rotary fulling mill processes 5-10× more cloth per batch than hammer stocks
+
+**Weaknesses**:
+- Wool shrinks 10-20% during fulling — cloth must be woven oversize to compensate
+- Fulling stocks require water wheel or steam power for the cam shaft
+- Incomplete rinsing leaves chalky residue that stiffens fabric and attracts dirt
+
 ### Napping (Raising)
 
 Napping pulls fiber ends to the surface of the cloth, creating a soft, fuzzy pile. This improves insulation (trapped air in the nap) and gives the fabric a warmer hand feel.
@@ -56,6 +66,16 @@ Calendering presses cloth between heavy rollers under heat and pressure to produ
 - **Embossing**: an engraved steel roller presses a pattern into the heated fabric. The pattern holds until the fabric is wetted and relaxed. Used for decorative effects on tablecloths and upholstery.
 - **Schreiner calendering**: fine engraved lines (200-500 per cm) on a steel roller produce a subtle, silk-like luster without changing the fabric surface structure. Used on cotton to simulate the appearance of more expensive fabrics.
 - **Friction calendering**: a single hard roller running 50-300% faster than fabric speed creates an intense glaze on one side. The high friction generates localized heating that partially melts and re-orients surface fibers. Produces the characteristic glazed surface on chintz and polished cotton.
+
+**Strengths**:
+- Calendering produces polished, professional fabric surfaces from rough loomstate cloth
+- Multiple finish types (glazing, embossing, Schreiner) from the same machine with different roller setups
+- Heated rollers at 100-150°C set the finish so it survives normal handling
+
+**Weaknesses**:
+- Heavy cast iron frame and 50-200 kN hydraulic rams require significant industrial investment
+- Calender finishes are not permanent — washing and wear diminish glazed and embossed effects
+- Roller temperature must be uniform across full width or finish is uneven edge-to-edge
 
 ### Singeing
 
@@ -88,6 +108,16 @@ Mercerization treats cotton with concentrated sodium hydroxide (NaOH) solution u
 **Mercerizing equipment**:
 - A chain mercerizing range consists of: a padding mangle (two rubber-covered rollers that impregnate the fabric with caustic), a chain stenter (clips the fabric edges and stretches it to width under controlled tension while the caustic reacts), a washing zone (hot water sprays and squeeze rollers remove caustic), and a neutralizing bath (acetic acid dip, then final rinse). Total length: 20-40 m. Fabric speed: 20-50 m/min.
 - The chain stenter is the critical component. It must hold the fabric at its target width (typically 10-15% wider than the gray fabric width) against the strong shrinkage force of the caustic-treated cotton. The clips grip the selvedge without marking the fabric surface. Chain tension and clip timing must be synchronized to prevent the fabric from bagging (loose) or overstretching (narrow).
+
+**Strengths**:
+- Mercerization increases cotton tensile strength 20-30% and dye affinity in a single treatment
+- Treated fibers accept deeper, more vibrant dye shades — improves value of dyed cloth
+- Caustic soda recoverable from wash water by evaporation — reduces ongoing reagent cost
+
+**Weaknesses**:
+- Requires 20-25% NaOH solution (200-250 g/L) — chlor-alkali or lime causticization needed
+- Must treat fabric under tension at 15-20°C — chain stenter is a 20-40 m long machine
+- Without tension, fabric shrinks 20-25% and becomes weaker (slack mercerization)
 
 ### Waterproofing
 

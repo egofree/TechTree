@@ -41,6 +41,10 @@ A practical electrodialysis stack consists of many membrane pairs arranged in se
 
 A commercial stack may contain 100-600 cell pairs. The voltage drop across each pair is small (0.5-1.5V), so the total stack voltage scales linearly with the number of pairs. Current density typically ranges from 10-50 mA/cm² depending on feed concentration and membrane properties.
 
+**Strengths**: No electrochemical reactions at electrodes (only ion transport) — inherently more energy-efficient than electrolysis for separation; SEM Tech membranes at <$1/ft² make ED economically viable before fluoropolymer chemistry; 100-600 cell pairs per stack provide massive throughput in compact footprint; purely physical separation — no chemical addition to feed stream; simultaneous diluate (purified water) and concentrate (brine) production.
+
+**Weaknesses**: Membrane fouling by organics, scale, and colloids requires periodic cleaning; multivalent cations (Ca²⁺, Mg²⁺) can precipitate in concentrate channels; spacer gaskets (0.5-2 mm) are flow restrictions that create pressure drop; current efficiency decreases at very low or very high feed concentrations; requires stable DC power supply and careful voltage control to avoid water splitting.
+
 **Flow configuration**: Diluate and concentrate solutions flow through their respective channels in parallel, typically in a tortuous-path or sheet-flow spacer design. Solutions are recirculated until the desired level of ion removal or concentration is achieved.
 
 **Spacer gaskets**: Thin polymeric mesh spacers (0.5-2mm thick) separate the membranes and create flow channels. These spacers also promote turbulent mixing at the membrane surface, reducing concentration polarization — the buildup of depleted or enriched ion layers that impede transport.

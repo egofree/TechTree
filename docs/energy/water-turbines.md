@@ -29,6 +29,18 @@ Water turbines replace water wheels where higher heads, higher efficiencies, and
 
 **Multi-jet arrangements**: 2-6 nozzles arranged around a single runner increase power without increasing runner diameter or speed. Each nozzle independently regulated for partial-load efficiency. Horizontal shaft (1-2 jets) or vertical shaft (4-6 jets) configurations.
 
+**Strengths**:
+- Highest efficiency at high-head sites (85-91% at design flow)
+- Simple, robust construction — runner operates in air, not submerged
+- Large bucket openings tolerate moderate debris without clogging
+- Multiple nozzles allow efficient partial-load operation
+
+**Weaknesses**:
+- Limited to high-head sites (30-1000+ m) — useless on low-gradient rivers
+- Requires precision machining of bucket profiles (±1 mm) for good efficiency
+- Nozzle erosion from high-velocity water with suspended sediment needs periodic repair
+- Single-jet units have poor efficiency below 30% of rated flow
+
 ### Francis Turbine (Reaction Turbine)
 
 **Principle**: Water enters the runner radially from a spiral casing (volute), passes through adjustable guide vanes (wicket gates) that direct flow at the optimal angle, then flows through the curved runner blades and exits axially downward through a draft tube. Both pressure and velocity drop across the runner — it is a true reaction machine. The runner is fully submerged in water; the entire casing is pressurized.
@@ -44,9 +56,17 @@ Water turbines replace water wheels where higher heads, higher efficiencies, and
 
 **Efficiency**: 80-94% at design flow. Francis turbines achieve the highest peak efficiency of any hydraulic turbine type. However, efficiency drops off more steeply at partial flow than Pelton or Kaplan (because the wicket gate angle becomes suboptimal at partial opening). Maintains above 80% from roughly 50-110% of rated flow.
 
-**Power output**: 10-100,000+ HP. Scalable from small village installations to the largest hydroelectric stations in the world.
+**Strengths**:
+- Highest peak efficiency of any hydraulic turbine (up to 94%)
+- Most versatile head range (3-300 m) — covers the widest range of sites
+- Wicket gate mechanism provides excellent speed regulation for grid frequency control
+- Scalable from village installations (10 HP) to major hydroelectric stations (100,000+ HP)
 
-**Cavitation**: The primary operational hazard. As water accelerates through the runner, local pressure can drop below vapor pressure — microscopic bubbles form and then collapse violently against blade surfaces, pitting and eroding the metal. Prevention: install the runner sufficiently below tailwater level (submergence margin), keep runner surfaces smooth, avoid operating at very low flows where flow angles cause local low-pressure zones. Stainless steel runner blades resist cavitation damage better than carbon steel.
+**Weaknesses**:
+- Complex runner blade profiles require precision casting and machining (±1 mm tolerance)
+- Pressurized casing must withstand full hydrostatic head at the inlet
+- Cavitation risk if runner is not set sufficiently below tailwater level
+- Efficiency drops steeply below 50% of rated flow — poor for highly variable flow sites
 
 ### Kaplan Turbine (Axial-Flow Reaction Turbine)
 
@@ -65,6 +85,17 @@ Water turbines replace water wheels where higher heads, higher efficiencies, and
 **Power output**: 50-100,000+ HP. Typically installed in large run-of-river or low-head dam sites where enormous flow volumes are available.
 
 **Precision requirements**: Kaplan turbines require the highest manufacturing precision of any turbine type. The blade-to-hub seals must be watertight under pressure. The blade pitch mechanism must move smoothly and synchronously. Cavitation risk is high at low heads — runner submergence is critical.
+
+**Strengths**:
+- Maintains high efficiency (85%+) over wide flow range (30-100% of rated) due to adjustable blade pitch
+- Only practical turbine for very low-head sites (1-15 m) with high flow volumes
+- Compact runner diameter compared to Francis for the same low-head application
+
+**Weaknesses**:
+- Most complex turbine to manufacture — blade pitch mechanism inside a submerged hub
+- Blade-to-hub seals must be watertight under pressure while allowing rotation
+- High cavitation risk at low heads — runner must be set well below tailwater level
+- Requires precision engineering beyond what early machine shops can deliver
 
 ### Material Requirements
 

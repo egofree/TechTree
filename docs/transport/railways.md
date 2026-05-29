@@ -23,6 +23,16 @@
 - **Power**: 50-200 HP. Speed: 30-80 km/h. Tractive effort: 2000-10000 kgf. Haul 50-200 tonnes on level track.
 - **Driving wheels**: 4-8 driven wheels (coupled by connecting rods). Leading and trailing trucks (unpowered wheels) for stability.
 
+**Strengths**:
+- Hauls 50-200 tonnes on level track at 30-80 km/h — far beyond animal-drawn cart capacity
+- Steam locomotives can be built with iron/steel and coal — no petroleum required
+- Standard gauge (1435 mm) enables network interoperability across all connected lines
+
+**Weaknesses**:
+- Maximum 2-3% grade for steam locomotives — requires heavy earthwork for gentle gradients
+- Iron or steel T-rails (15-30 kg/m) require a rolling mill — significant industrial investment
+- Coal consumption ~2-5 kg/km per locomotive — logistics chain must keep pace
+
 ### Telegraph Communication
 
 Railway signaling depends on telegraph circuits for block control and dispatch. See [Telegraph Communication](./telegraph.md) for the complete telegraph system. Key railway integration points: block instruments at each signal box, dispatcher circuits between stations, and point-to-point lines for train orders.

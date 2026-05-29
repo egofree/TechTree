@@ -52,12 +52,40 @@ Atmospheric robots operate in cleanroom ambient (ISO Class 3-5) environments, tr
 - **Cleanroom compatibility**: Robots must not generate particles. Bearings sealed with cleanroom-grade grease (low-volatility perfluorinated polyether, PFPE). Motor housings sealed. Exposed surfaces electropolished stainless steel or anodized aluminum. Particle generation specification: ≤0.01 particles per cycle (≥0.1 μm), measured by particle counter in ISO Class 1 chamber.
 - **Applications**: Wafer transfer between load port and load lock, wafer alignment, wafer flipping (turning wafer upside down for backside processing).
 
+**Strengths**:
+- Fastest wafer transfer cycle (4-8 seconds) — well-suited for high-throughput atmospheric operations
+- Compact footprint — fits at center of cluster tool arrangement without consuming much space
+- Proven cleanroom design — decades of production deployment with established seal and bearing designs
+- Simple inverse kinematics — two-link arm allows straightforward trajectory planning
+- Lower cost than cylindrical coordinate robots ($50,000-100,000 per unit)
+- Wide availability from multiple vendors with standardized mounting interfaces
+
+**Weaknesses**:
+- Less rigid than cylindrical (R-theta-Z) robots — arm deflection increases at extended reach
+- Limited vertical force control — articulated joints provide less precise Z-axis placement
+- Arm reach limited to 400-700 mm radius — constrains chamber layout around robot
+- Two-arm configurations possible but increase control complexity
+- Bearing wear at joints generates particles despite sealed bearings and cleanroom grease
+
 **Cylindrical coordinate robots (R-theta-Z)**:
 - **Configuration**: One radial arm (R-axis, linear), one rotational axis (theta), one vertical axis (Z). The R-axis extends/retracts the arm radially; the theta axis rotates the arm about the central column; the Z-axis raises/lowers the entire assembly.
 - **Workspace**: Cylindrical annular region. R-axis range: 200-600 mm. Theta range: ±180° or ±360° (continuous rotation models). Z-axis range: 50-300 mm.
 - **Advantage over SCARA**: The straight-line R-axis provides more rigid wafer support and better control of vertical placement forces (important for gentle wafer loading onto susceptors or chucks).
 - **Speed**: Transfer time 3-6 seconds for typical moves. R-axis maximum speed: 2,000 mm/s. Theta maximum speed: 270°/s. Z-axis maximum speed: 500 mm/s.
 - **Applications**: Cluster tool wafer handling, multi-chamber CVD/etch systems, inspection tool loading.
+
+**Strengths**:
+- More rigid than SCARA — straight-line R-axis provides precise wafer support without arm deflection
+- Superior vertical force control — dedicated Z-axis enables gentle wafer placement on susceptors and chucks
+- Cylindrical workspace matches cluster tool layout — chambers arranged in ring around central robot
+- Faster transfer time (3-6 seconds) for typical moves due to direct radial extension
+- Better suited for multi-chamber tools where gentle placement is critical (CVD susceptors, hot chucks)
+
+**Weaknesses**:
+- Larger footprint than SCARA — requires central column with R-axis and Z-axis mechanisms
+- Higher cost than SCARA for equivalent reach
+- Theta rotation limited to ±180° or ±360° — some chamber positions unreachable depending on design
+- More complex mechanical design — three independent axes (R, theta, Z) with separate motors and encoders
 
 ### Vacuum Robots
 
@@ -87,6 +115,21 @@ The end effector is the gripper that contacts the wafer during transfer. Design 
 - **Particle generation**: <5 particles ≥0.1 μm per wafer pick-place cycle. Measured by in-situ particle counter during handling test.
 - **Advantage**: Positive mechanical grip, works with wafers of varying flatness and thickness. Handles both 200 mm and 300 mm wafers with changeable finger sets.
 
+**Strengths**:
+- Positive mechanical grip — reliable hold regardless of wafer flatness, warpage, or thickness variation
+- Simple, proven design — spring-loaded fingers with no pneumatic or air supply required
+- Fast pick-place cycle — mechanical grip engages and releases in milliseconds
+- Compatible with both 200 mm and 300 mm wafers via interchangeable finger sets
+- Works in both atmospheric and vacuum environments
+- Low particle generation (<5 particles ≥0.1 μm/cycle) with PEEK/PTFE finger materials
+
+**Weaknesses**:
+- Contact only at wafer edge (3 mm exclusion zone) — cannot grip center or backside
+- Not suitable for ultra-thin wafers (<200 μm) — edge contact causes bending and breakage
+- Spring force must be precisely calibrated — too tight chips silicon, too loose drops wafer during acceleration
+- Finger wear changes grip geometry over time — periodic replacement needed (500,000-1,000,000 cycles)
+- Cannot handle wafers with damaged or chipped edges — fingers may not engage properly
+
 **Vacuum (Bernoulli) end effectors**:
 - **Principle**: High-speed air flow through a narrow nozzle creates a low-pressure region (Bernoulli effect) that levitates the wafer above the end effector surface. No physical contact with wafer — wafer floats on an air bearing.
 - **Air supply**: Clean, dry, filtered air (ISO Class 1 particle level, dew point below -40°C). Pressure: 0.2-0.5 MPa. Flow rate: 5-20 L/min depending on wafer size.
@@ -94,11 +137,39 @@ The end effector is the gripper that contacts the wafer during transfer. Design 
 - **Applications**: Ultra-thin wafers (<200 μm thick) that would bend or break under edge grip. Backside handling where edge contact is insufficient.
 - **Limitation**: Only works in atmospheric environments. Not usable in vacuum.
 
+**Strengths**:
+- Zero physical contact with wafer — air bearing levitation eliminates mechanical damage risk
+- Ideal for ultra-thin wafers (<200 μm) that would bend or break under edge grip
+- Very low particle generation — no contact surfaces to generate debris
+- Uniform support across wafer area — no localized stress points
+- Works with warped or bowed wafers that edge grips cannot reliably hold
+
+**Weaknesses**:
+- Atmospheric operation only — air supply required, cannot function in vacuum chambers
+- Requires clean, dry, filtered air supply (ISO Class 1 particle level) — adds utility requirement
+- Lower throughput than edge grip — levitation requires stable positioning before pick
+- Levitation height only 0.05-0.2 mm — wafer can contact end effector if disturbed
+- Not suitable for heavy or oversized substrates — lift force limited by Bernoulli effect
+
 **Surface-contact (paddle) end effectors**:
 - **Principle**: Flat paddle supports wafer from below. Wafer rests on the paddle surface by gravity. Edge stops or vacuum suction on the paddle prevent wafer sliding during motion.
 - **Contact surface**: The entire backside of the wafer rests on the paddle. Paddle material: ceramic-coated aluminum, Vespel, or PEEK. Surface roughness <0.5 μm Ra to prevent scratching wafer backside.
 - **Advantage**: Most gentle handling for thin wafers. Uniform support prevents bending. Simple design, no moving grip fingers.
 - **Limitation**: Wafer must be placed on the paddle from above (requires coordination with wafer holder or cassette slot). Slower pick-place cycle than edge-grip.
+
+**Strengths**:
+- Most gentle handling for thin wafers — uniform backside support prevents bending
+- Simple design with no moving grip fingers — fewer wear parts and lower particle generation
+- Handles wafers of any thickness including ultra-thin (<100 μm)
+- Can load multiple wafers for batch processing equipment
+- Works in both atmospheric and vacuum environments
+
+**Weaknesses**:
+- Slower pick-place cycle — wafer must be placed from above onto paddle, requiring precise coordination
+- Full backside contact risks particle transfer from paddle surface to wafer
+- Cannot pick wafer from cassette slot directly — paddle must approach from above
+- Paddle surface must be maintained to <0.5 μm Ra roughness to prevent scratching
+- Not suitable for wafers with backside coatings or patterns that must not be contacted
 
 ### Load Lock Systems
 

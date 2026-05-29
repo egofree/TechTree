@@ -37,6 +37,16 @@ The earliest and most reliable form of navigation. Operates within sight of land
 - Leading marks: two fixed objects (towers, beacons) aligned on a specific bearing mark the safe channel centerline. When the marks appear in line, the vessel is in the channel.
 - Clearing bearings: bearing to a landmark that must not be exceeded to avoid a hazard. "Do not allow the lighthouse to bear more than 045° or less than 030°."
 
+**Strengths**:
+- No instruments required beyond eyes and memory
+- Reliable in all weather with visible landmarks
+- Foundation skill for all other navigation methods
+
+**Weaknesses**:
+- Limited to sight of land (10-30 nm typical)
+- Unusable in fog, darkness, or heavy rain
+- Requires local knowledge — a stranger to the coast has none
+
 ### Celestial Navigation
 
 Using celestial bodies to determine position on the open ocean, beyond sight of land.
@@ -68,6 +78,17 @@ Using celestial bodies to determine position on the open ocean, beyond sight of 
 - Read the angle from the calibrated arc (0-120° range, 1 arcminute resolution)
 - Apply corrections: index error (instrument calibration), dip (observer height above water), refraction (atmospheric bending), semi-diameter (sun/moon angular size)
 - Total correction typically 5-15 arcminutes depending on conditions
+
+**Strengths**:
+- Works anywhere on the open ocean with no land references
+- Provides absolute position (latitude directly, longitude with chronometer)
+- Reliable for thousands of years of recorded use
+
+**Weaknesses**:
+- Requires clear sky — clouds block celestial bodies
+- Complex calculations requiring nautical almanac and tables
+- Chronometer method for longitude depends on precision timepiece (not available until 18th century)
+- Accuracy limited to ±1-15 nm depending on instrument
 
 ### Navigation Instruments
 
@@ -147,6 +168,17 @@ Estimating current position from a known starting point by tracking course and d
 - Rocks and wrecks marked with danger symbols
 - Tidal stream arrows show direction and rate (spring/neap)
 - Light characteristics: flash pattern, color, range (in nautical miles)
+
+**Strengths**:
+- Permanent record that enables consistent route planning
+- Allows knowledge transfer between navigators
+- Mercator projection simplifies course plotting
+
+**Weaknesses**:
+- Coastal surveying requires significant labor and time
+- Charts become outdated as coastlines and depths change
+- Mercator distortion increases dramatically at high latitudes
+- Printing and reproduction requires [printing capability](../knowledge/printing.md)
 
 ### Navigation Accuracy Specifications
 

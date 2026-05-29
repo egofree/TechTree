@@ -70,6 +70,16 @@ Power electronics depends on [semiconductor devices](semiconductor-devices.md) (
 
 Replace diodes with thyristors (SCRs). Control firing angle α (0-180°) to vary output voltage: Vdc = 1.35 × VLL × cos(α) for three-phase bridge. At α = 0°: full output (same as diode bridge). At α = 90°: zero average output. Above 90°: inverter mode (power flows from DC to AC — used in HVDC transmission). Disadvantages: draws reactive power from AC line (power factor = cos(α)), generates line harmonics (5th, 7th, 11th, 13th...). For industrial DC motor drives and electroplating power supplies.
 
+**Strengths**:
+- Diode bridge rectification provides the highest reliability of any power conversion topology — no active switches, no control circuitry, and MTBF >1,000,000 hours for a properly derated design
+- Three-phase bridge achieves 95% efficiency with only 6 passive components (diodes) — lowest component count per watt of any power converter
+- Thyristor-controlled rectifiers enable continuous output voltage adjustment from 0-100% without any switching losses (line-frequency commutation), making them ideal for high-power DC motor drives and electroplating
+
+**Weaknesses**:
+- Uncontrolled rectifiers cannot regulate output voltage — the DC bus voltage varies with AC line voltage (±10% typical utility tolerance), requiring downstream regulation for sensitive loads
+- Rectifiers draw non-sinusoidal input current (flat-topped waveform with current peaks near voltage peaks), generating harmonics (5th, 7th, 11th) that distort the AC supply — IEEE 519 limits total harmonic distortion to 5% at the point of common coupling, often requiring input harmonic filters
+- Thyristor rectifiers draw reactive power proportional to firing angle (power factor = cos(α)) — at half output voltage, power factor is only 0.5, requiring capacitor banks for correction
+
 ### 4.2 DC-DC Converters
 
 #### Buck Converter (Step-Down)
@@ -110,6 +120,16 @@ Buck-boost: inverting output (negative voltage). Vout = -D × Vin / (1 - D). Use
 - **Forward**: Single switch + true transformer + output inductor + reset winding. Power: 50-500W. Lower output ripple than flyback. Reset mechanism (tertiary winding or RCD clamp) resets transformer core each cycle.
 - **Half-bridge, full-bridge, push-pull**: Higher power (200W to 10 kW+). Full bridge: 4 switches, highest utilization of transformer core. Used in server power supplies, EV chargers, welding machines.
 
+**Strengths**:
+- Buck and boost converters achieve 90-97% efficiency with only 1 active switch, 1 diode, 1 inductor, and 1 capacitor — the simplest possible power conversion topology
+- High-frequency operation (50-500 kHz) shrinks inductors and capacitors by 100-1000× compared to 50/60 Hz designs — a 100 kHz, 100W buck converter inductor is <5 cm³ vs. >500 cm³ at 60 Hz
+- Wide input-to-output ratio capability: boost converters can step up 12V to 400V (33:1) and buck-boost/SEPIC can handle input voltages both above and below the output
+
+**Weaknesses**:
+- Non-isolated topologies (buck, boost, SEPIC) provide no galvanic isolation between input and output — a single component failure can connect mains voltage directly to the load
+- Flyback converters (the simplest isolated topology) store all energy in the transformer air gap during each cycle, limiting practical power to ~200W — above this, forward or bridge topologies are required with increased component count
+- All DC-DC converters generate conducted and radiated EMI from high di/dt and dv/dt switching — compliance with FCC Part 15 or CISPR 32 requires input EMI filters that add 10-20% to converter cost and volume
+
 ### 4.3 Inverters (DC → AC)
 
 #### Single-Phase H-Bridge Inverter
@@ -128,12 +148,32 @@ Buck-boost: inverting output (negative voltage). Vout = -D × Vin / (1 - D). Use
 
 6 switches (3 half-bridge legs). Three PWM outputs, 120° phase-shifted sinusoidal references. Standard for motor drives above ~1 kW. Output: three-phase AC, 0-400 Hz (for motor speed control) or 50/60 Hz (for grid-tie). Space vector modulation (SVM) provides 15% better DC bus utilization than sinusoidal PWM.
 
+**Strengths**:
+- PWM synthesis produces clean sinusoidal AC output (THD <3%) with an LC filter orders of magnitude smaller than a 50/60 Hz transformer — the entire inverter stage for a 5 kW system fits in <2 L volume
+- Three-phase inverter with space vector modulation achieves 15% higher output voltage from the same DC bus compared to sinusoidal PWM — reduces DC bus capacitor requirements proportionally
+- Bidirectional power flow capability: the same inverter hardware can operate as a rectifier (AC→DC) by reversing the PWM control — essential for regenerative braking in motor drives
+
+**Weaknesses**:
+- Dead time between complementary switches (0.5-2.0 μs) causes output voltage distortion proportional to switching frequency — at 20 kHz with 1 μs dead time, distortion is 2% of the output period, introducing low-order harmonics (5th, 7th) that are difficult to filter
+- Shoot-through fault (both switches in one leg conducting simultaneously) creates a DC bus short circuit that destroys both switches in microseconds — requires careful gate drive timing and fast overcurrent protection (desaturation detection for IGBTs, current-sense comparator for MOSFETs)
+- Output LC filter resonant frequency must be carefully placed between the output frequency (50/60 Hz) and switching frequency (5-20 kHz) — too low degrades transient response, too high allows switching harmonics into the load
+
 ### 4.4 Motor Drives (VFD — Variable Frequency Drive)
 
 1. **Rectifier stage**: Three-phase diode bridge converts AC line to DC. 575V DC bus for 480V AC input.
 2. **DC bus**: Capacitor bank (1000-10,000 μF) smooths DC ripple. Bus voltage: 300V (240V input), 575V (480V input), 1150V (960V input).
 3. **Inverter stage**: Six IGBTs (for 480V systems: 1200V rated) generate three-phase PWM output at 0-400 Hz. Carrier frequency: 2-16 kHz. Higher carrier = smoother motor current but higher switching losses (derate drive by 1-2% per kHz above 4 kHz).
 4. **Control**: V/f (volts-per-hertz) for simple applications. Vector control (field-oriented control) for precision: measures motor current, transforms to rotating reference frame, independently controls torque and flux. Speed regulation: ±0.5% (V/f), ±0.01% (vector with encoder).
+
+**Strengths**:
+- Reduces motor energy consumption by 20-60% in variable-torque applications (pumps, fans) by matching motor speed to actual load demand instead of running at full speed with throttle or damper
+- Soft-start capability limits motor inrush current to 1.5-2× rated (vs. 5-8× across-the-line starting) — reduces mechanical stress on couplings, bearings, and gearboxes, extending equipment life by 2-3×
+- Vector control achieves ±0.01% speed regulation with encoder feedback — enables precision speed applications (paper mills, textile machines, CNC spindle drives) that are impossible with mechanical speed control
+
+**Weaknesses**:
+- VFD output PWM waveform (5-16 kHz carrier with 0-400 Hz modulation) causes motor winding insulation stress — standard motors rated for sinusoidal power experience 2-3× higher peak voltage at motor terminals from reflected wave phenomena on long cables (>30 m), requiring VFD-rated motors with reinforced insulation (NEMA MG1 Part 31)
+- High carrier frequency increases switching losses by 1-2% per kHz above 4 kHz — a 16 kHz carrier reduces drive efficiency from 97% to ~85% and requires derating the drive output current by 15-20%
+- VFDs generate common-mode voltage on the motor shaft, causing bearing current flow that produces electrical discharge machining (EDM) pits in bearing races — shaft grounding rings or insulated bearings are required for reliable long-term operation
 
 ### 4.5 UPS (Uninterruptible Power Supply)
 
@@ -144,6 +184,16 @@ Online (double-conversion) UPS topology:
 4. Static bypass: If inverter fails, thyristor switch transfers load to utility AC in <4 ms
 
 Efficiency: 90-95% (double conversion always active). Battery runtime: 5-30 minutes at full load (sized for orderly shutdown or generator start). Typical sizing: 1-500 kVA.
+
+**Strengths**:
+- Zero transfer time (0 ms) — the inverter is always supplying the load, so utility failure produces no output interruption, making double-conversion UPS suitable for life-safety systems and critical computing
+- Continuous power conditioning: the rectifier-inverter chain isolates the load from all utility power quality issues (sags, surges, harmonics, frequency variations) — output is regenerated to ±1% voltage and ±0.5% frequency
+- Static bypass provides redundant power path — if the inverter fails, a thyristor switch transfers the load to utility power in <4 ms, maintaining continuity while the inverter is repaired
+
+**Weaknesses**:
+- Double conversion topology processes power twice (AC→DC→AC), resulting in 5-10% continuous energy loss as heat — for a 500 kVA data center UPS, this wastes 25-50 kW continuously, requiring substantial cooling infrastructure
+- Battery bank replacement every 3-5 years for VRLA lead-acid types is the largest lifecycle cost — battery replacement typically exceeds the original UPS purchase price over a 15-year system life
+- Battery runtime is inherently limited (5-30 minutes at full load) — a UPS alone cannot sustain operation through extended outages and must be paired with a standby generator for continuous availability
 
 ## 5. Quantitative Parameters
 

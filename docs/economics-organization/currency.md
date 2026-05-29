@@ -74,6 +74,18 @@ The development of currency requires [metals](../metals/index.md) for producing 
 
 4. **Produce the first coin run**: Cast or cut coin blanks (flans) to the standard weight. Strike each flan between obverse and reverse dies with a hammer blow. Inspect each coin for weight (±2% tolerance) and design clarity.
 
+**Decision criteria**: Select copper when the community produces copper locally and daily transactions are small (<10 kg grain equivalent). Select silver when trade volumes exceed local copper supply or when long-distance trade requires portable high-value units. Select gold only when gold is locally available and the economy supports very large transactions (>1,000 kg grain equivalent per transaction).
+
+**Strengths**:
+- Establishes a universal medium of exchange — eliminates double-coincidence problem of barter
+- Enables price comparison across dissimilar goods — unit of account function
+- Facilitates savings and deferred payment — store of value function (metal does not decay)
+
+**Weaknesses**:
+- Requires metallurgical infrastructure — metal smelting, refining, and minting add cost and complexity
+- Susceptible to debasement — reducing metal content erodes trust and triggers Gresham's Law
+- Initial adoption requires state backing — coins must be accepted for tax payment or they circulate poorly
+
 ### 4.2 Minting Operations
 
 5. **Melt the metal**: Heat copper to 1,085°C (melting point) in a crucible. Skim slag and impurities from the surface. Pour into molds to create flans (coin blanks).
@@ -83,6 +95,16 @@ The development of currency requires [metals](../metals/index.md) for producing 
 7. **Strike the coins**: Place a flan on the obverse die (fixed in an anvil or block). Position the reverse die on top. Strike with a 1-3 kg hammer in a single sharp blow. Inspect the result: full design impression, no cracks, proper weight.
 
 8. **Weigh the finished coins**: Each struck coin is weighed against the standard. Coins outside ±2% tolerance are remelted. Target: <5% rejection rate for experienced minters.
+
+**Strengths**:
+- Standardized weight provides predictable value — merchants can verify coins by weighing
+- Inscribed designs resist counterfeiting — complex imagery requires skilled diesinking to replicate
+- Physical durability — metal coins survive decades of circulation with minimal wear
+
+**Weaknesses**:
+- Slow manual production — 100-300 coins/day per team limits monetary expansion
+- Weight tolerance enforcement is labor-intensive — every coin must be individually checked
+- Die wear requires periodic replacement — each die lasts 5,000-20,000 coins before quality degrades
 
 ### 4.3 Circulation Management
 

@@ -52,11 +52,15 @@ Diethyl ether (C₂H₅OC₂H₅, bp 34.6°C) is the simplest practical ether an
 
 **Synthesis**:
 - **Sulfuric acid dehydration of ethanol**: Add ethanol to concentrated H₂SO₄ at 130-140°C. The acid protonates ethanol, promoting nucleophilic substitution by a second ethanol molecule. Product: diethyl ether + water.
-  - C₂H₅OH + H₂SO₄ → C₂H₅OSO₃H + H₂O (ethyl hydrogen sulfate intermediate, ~100°C)
-  - C₂H₅OSO₃H + C₂H₅OH → (C₂H₅)₂O + H₂SO₄ (ether formation, 130-140°C)
-  - Temperature control is critical: below 130°C the reaction is too slow; above 170°C ethylene forms preferentially (C₂H₅OH → C₂H₄ + H₂O).
-  - Distill ether continuously as it forms (bp 34.6°C). The low boiling point separates it from ethanol (bp 78.3°C) and water.
+- C₂H₅OH + H₂SO₄ → C₂H₅OSO₃H + H₂O (ethyl hydrogen sulfate intermediate, ~100°C)
+- C₂H₅OSO₃H + C₂H₅OH → (C₂H₅)₂O + H₂SO₄ (ether formation, 130-140°C)
+- Temperature control is critical: below 130°C the reaction is too slow; above 170°C ethylene forms preferentially (C₂H₅OH → C₂H₄ + H₂O).
+- Distill ether continuously as it forms (bp 34.6°C). The low boiling point separates it from ethanol (bp 78.3°C) and water.
 - **Yield**: ~60-70% based on ethanol consumed. Sulfuric acid is regenerated and recycled, though dilution and charring gradually degrade it.
+
+**Strengths**: Exceptional extraction solvent — easily removed by evaporation (bp 34.6°C); immiscible with water enables liquid-liquid extraction of organic compounds; simple synthesis from ethanol + sulfuric acid (no petroleum required); essential for alkaloid extraction and Grignard reactions.
+
+**Weaknesses**: Extremely flammable (flash point -45°C, autoignition 180°C — hot steam pipes ignite it); forms explosive peroxides on storage (test before distilling old stock); vapor heavier than air — accumulates in low spots and ignites from distant sources; explosive range 1.9-36% in air (very wide).
 
 **Solvent properties**:
 - Very low boiling point (34.6°C) — highly volatile. Excellent for extractions where easy removal by evaporation is desired.
@@ -134,6 +138,10 @@ Hydrogen peroxide (H₂O₂) is not a solvent in the traditional sense but plays
 
 **Applications**: Bleaching (paper pulp, textiles — the largest single use). Wastewater oxidation (destroys organic contaminants). Rocket oxidizer (concentrated H₂O₂ + catalyst → steam + O₂ + heat; monopropellant or bipropellant with kerosene). Disinfectant and sterilization. Etching (copper PCB manufacturing). Semiconductor cleaning (RCA clean).
 
+**Strengths**: Anthraquinone process is a closed-loop cycle (catalyst recycled indefinitely); produces H₂O₂ in aqueous solution (safe to transport at 30-35%); semiconductor RCA clean is the universal wafer cleaning standard; versatile oxidizer — replaces chlorine in many bleaching applications (no organochlorine byproducts).
+
+**Weaknesses**: Concentrated H₂O₂ (>50%) decomposes violently with trace metal contamination (Fe, Cu, Mn); vacuum distillation for concentration requires scrupulously clean equipment; Pd or Ni hydrogenation catalyst adds cost; H₂O₂ degrades in storage (lose ~1% potency/year at 30%); incompatible with organic solvents (explosion risk in concentrated form).
+
 ### Chlorinated Solvents
 
 Carbon tetrachloride (CCl₄, bp 76.7°C), trichloroethylene (TCE, bp 87°C), and perchloroethylene (perc, tetrachloroethylene, bp 121°C) are powerful non-flammable degreasing solvents — but carry serious health and environmental hazards.
@@ -142,6 +150,10 @@ Carbon tetrachloride (CCl₄, bp 76.7°C), trichloroethylene (TCE, bp 87°C), an
 - **CCl₄**: Chlorinate methane at 400-500°C or carbon disulfide with chlorine (CS₂ + 3Cl₂ → CCl₄ + S₂Cl₂). Sequential substitution: CH₄ → CH₃Cl → CH₂Cl₂ → CHCl₃ → CCl₄. Fractionate to separate the chloromethanes.
 - **TCE**: From acetylene + Cl₂ → tetrachloroethane, then dehydrochlorination with Ca(OH)₂ or thermal cracking. Or from ethylene via perchloroethylene + HCl.
 - **Perc**: Oxychlorination of C₂H₄ or direct chlorination of C₂Cl₄ precursors. Also from C₁-C₂ hydrocarbon high-temperature chlorination.
+
+**Strengths**: Non-flammable — chlorine atoms suppress combustion (unique advantage for vapor degreasing near ignition sources); excellent solvency for oils, greases, and fats; dense liquids sink below water (easy phase separation in cleaning); vapor degreasing is automated and highly effective for machined parts.
+
+**Weaknesses**: All three are probable or confirmed carcinogens; CCl₄ depletes ozone layer (Montreal Protocol phase-out); TCE and perc are persistent groundwater contaminants (DNAPLs sink to aquifer bottom, remediation costs $millions); environmental regulations increasingly restrict or ban all chlorinated solvents.
 
 **Properties and applications**:
 - Non-flammable — the chlorine atoms suppress combustion. This is their primary advantage over hydrocarbon solvents for vapor degreasing.

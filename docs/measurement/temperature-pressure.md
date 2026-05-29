@@ -31,15 +31,63 @@ Type K is the workhorse — low cost, wide range, good accuracy (±1.5°C or ±0
 
 **Construction**: Thermocouple wire (0.25-3 mm diameter) welded at junction. Insulated with ceramic beads or mineral-packed metal sheath (MgO insulation in Inconel sheath for harsh environments). Sheath protects from corrosion and electrical noise.
 
+**Strengths**:
+- Self-powered — Seebeck voltage requires no external power supply
+- Widest temperature range of any contact sensor (-200°C to +1820°C depending on type)
+- Rugged construction — mineral-packed sheathed thermocouples withstand vibration, pressure, and corrosive atmospheres
+- Fast response time — small junction diameter (0.25 mm) responds in milliseconds
+- Low cost — simple wire junction, no semiconductor or precision resistor required
+- Interchangeable — standard types (K, J, T, S, B, R) with published voltage tables
+
+**Weaknesses**:
+- Low output voltage requires sensitive measurement — millivolt-range signals susceptible to electrical noise
+- Cold junction compensation required — reference junction temperature must be measured independently and subtracted
+- Lower accuracy than RTDs — ±1.5°C or ±0.25% for Type K vs. ±0.1°C for RTD
+- Thermocouple wire drifts over time at high temperature — recalibration needed periodically
+- Type-specific wire required — wrong wire type or reversed polarity produces incorrect readings
+- Nonlinear voltage-temperature relationship — requires lookup table or polynomial conversion
+
 ## Resistance Temperature Detectors (RTDs)
 
 Platinum wire (or thin-film) sensor whose resistance increases predictably with temperature. Pt100 standard: 100.0 Ω at 0°C, temperature coefficient +0.385 Ω/°C. Accuracy: ±0.1°C (Class A) to ±0.3°C (Class B) over 0-100°C range. Range: -200°C to +850°C.
 
 **Measurement**: Four-wire (Kelvin) connection eliminates lead resistance errors. Constant current source drives sensor, measure voltage drop → R = V/I → temperature from lookup table or Callendar-Van Dusen equation. For semiconductor furnace control, RTDs handle the low-to-mid range; thermocouples handle the high end.
 
+**Strengths**:
+- Highest accuracy of any contact temperature sensor — ±0.1°C (Class A) over 0-100°C
+- Excellent long-term stability — platinum RTDs drift <0.1°C per year
+- Linear resistance-temperature relationship — simplifies signal conditioning and calibration
+- Highly repeatable — returns to same reading at same temperature with negligible hysteresis
+- Standardized (Pt100, Pt1000) — interchangeable between manufacturers
+- Four-wire measurement eliminates lead resistance errors entirely
+
+**Weaknesses**:
+- Limited upper temperature range — 850°C maximum vs. 1600°C+ for Type S thermocouples
+- Requires external current source and measurement circuitry — not self-powered like thermocouples
+- Slower response time than thermocouples — RTD element has larger thermal mass
+- Fragile — thin platinum wire or film element susceptible to vibration and mechanical shock
+- Higher cost than thermocouples — platinum content and precision manufacturing
+- Self-heating error — measurement current dissipates power (I²R) in sensor, adding thermal offset
+
 ## Bimetallic Strips
 
 Two metals bonded together with different thermal expansion coefficients (e.g., steel + invar, or brass + steel). Temperature change causes differential expansion → strip bends. Calibrated to indicate temperature on a dial (coil-spring bimetallic thermometer). Accuracy: ±1-2% of span. Range: -50°C to +500°C. No electrical power needed — useful as backup sensors and in thermostatic switches (furnace safety cutoffs).
+
+**Strengths**:
+- No external power required — purely mechanical, works during power outages
+- Rugged and reliable — no fragile wire junctions or semiconductor elements
+- Wide operating range (-50°C to +500°C) for basic industrial temperature indication
+- Low cost — stamped bimetallic element with simple dial mechanism
+- Built-in safety function — strip bending directly actuates switches for thermal cutoff
+- Long service life — no calibration drift, no electrical degradation
+
+**Weaknesses**:
+- Low accuracy — ±1-2% of span, insufficient for process control tighter than ±5°C
+- Slow response time — large thermal mass of metal strip delays reading changes
+- Limited temperature range compared to thermocouples (500°C max vs. 1600°C+)
+- Subject to permanent drift if overheated beyond rated range — bimetallic bond can separate
+- No electrical output — cannot connect to digital control systems without separate transducer
+- Calibration shifts with mechanical stress or shock — bent strip reads incorrectly
 
 ## Pyrometers (Radiation Thermometry)
 

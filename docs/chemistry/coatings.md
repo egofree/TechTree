@@ -55,9 +55,17 @@ Protective and decorative coatings prevent corrosion (the largest single cause o
 
 **Powder coating**: Dry thermosetting powder (epoxy, polyester, or hybrid) applied electrostatically, then cured in oven at 180-200°C for 10-20 minutes. No solvent — zero VOC. Transfer efficiency: 95-99% (overspray collected and reused). Film thickness: 50-150 µm. Used for metal furniture, appliances, automotive wheels, architectural aluminum. Limitation: only works on substrates that can withstand the curing temperature.
 
+**Strengths**: Powder coating achieves near-zero VOC (no solvent); 95-99% material utilization (overspray recycled); E-coat provides uniform coverage including recessed/hidden areas; electrostatic spray wraps paint around edges and backside of workpiece.
+
+**Weaknesses**: Powder coating requires 180-200°C cure (excludes wood, plastics, heat-sensitive substrates); E-coat needs large immersion bath and 200-350 V DC power supply; electrostatic spray requires electrically conductive substrate (metal only); dip coating has limited thickness control vs. spray.
+
 ## Specialty Coatings
 
 **Anticorrosion systems for steel**: Multi-layer system: (1) **[Abrasive blast](../glossary/abrasive-blast.md)** to Sa 2.5 (near-white metal, ISO 8501-1). (2) **[Zinc-rich primer](../glossary/zinc-rich-primers.md)** (organic or inorganic) — galvanic protection (zinc corrodes preferentially, protecting steel). 50-75 µm. (3) **[Epoxy intermediate coat](../glossary/epoxy-intermediate-coat.md)** — barrier protection. 100-200 µm. (4) **[Polyurethane topcoat](../glossary/polyurethane-topcoat.md)** — UV resistance, color/gloss retention, weatherability. 50-75 µm. Total system: 200-350 µm. Service life: 15-25 years to first maintenance in moderate environment (ISO 12944 C3).
+
+**Strengths**: 15-25 year service life in moderate environments; zinc-rich primer provides cathodic protection even at scratches; multi-layer system separates functions (galvanic → barrier → UV); well-standardized (ISO 12944) with predictable performance by corrosivity category.
+
+**Weaknesses**: Surface preparation (abrasive blast to Sa 2.5) is 60-80% of the labor cost; zinc-rich primers require >80% zinc dust in dry film (heavy, expensive); epoxy intermediate chalks in UV — must be topcoated; multi-coat system requires 3+ application steps with inter-coat curing windows.
 
 **[Thermal barrier coatings (TBCs)](../glossary/thermal-barrier-coatings-tbcs.md)** for gas turbine blades: (1) **Bond coat**: MCrAlY (M = Ni, Co) — 100-150 µm, applied by plasma spray or PVD. Forms Al₂O₃ thermally grown oxide (TGO) that bonds the ceramic topcoat. (2) **Topcoat**: Yttria-stabilized zirconia (YSZ, 6-8% Y₂O₃-ZrO₂) — 200-500 µm, applied by electron beam PVD (columnar microstructure, superior strain tolerance) or atmospheric plasma spray (lamellar structure). Enables gas turbine inlet temperatures 200-300°C above the melting point of the nickel superalloy substrate — dramatically increases engine efficiency. Used in jet engines and industrial gas turbines.
 
@@ -78,6 +86,10 @@ Protective and decorative coatings prevent corrosion (the largest single cause o
 **Negative photoresist**: Epoxy or cross-linking chemistry — exposure causes polymerization/cross-linking, making exposed regions insoluble. Higher chemical resistance than positive resists but lower resolution (swelling during development limits feature size). Used for thick-film applications, PCB solder mask, and MEMS structures (SU-8 epoxy resist — single-coat thickness up to 500 µm, enabling high-aspect-ratio microstructures).
 
 **Extreme ultraviolet (EUV) resist**: 13.5 nm exposure wavelength. Challenges: (1) Photon shot noise — at 13.5 nm, photon density is low enough that statistical variations cause line-edge roughness. (2) Outgassing — resist decomposition products contaminate EUV optics ($200M+ replacement cost). Chemically amplified resists (CAR): photoacid generator (PAG) releases acid upon exposure; acid catalyzes deprotection of polymer side groups during post-exposure bake (80-130°C) — one photon triggers 10-100 deprotection reactions, amplifying sensitivity. Metal-oxide resists (MOR): tin or zirconium oxide nanoparticles — higher EUV absorption than organic resists → higher sensitivity and potentially better resolution.
+
+**Strengths**: Positive resist achieves resolution ~0.5× exposure wavelength (sub-50 nm with 193 nm immersion); chemically amplified resists provide 10-100× sensitivity amplification; positive-tone development uses benign aqueous TMAH (no organic solvents); SU-8 negative resist enables 500 µm thick structures for MEMS.
+
+**Weaknesses**: EUV resists face fundamental photon shot noise limit at 13.5 nm; outgassing from resist can contaminate $200M+ EUV optics; chemically amplified resists sensitive to airborne base contamination (requires amine-free cleanroom); post-exposure bake window is narrow (±2°C tolerance for some resists).
 
 ## Safety & Hazards
 

@@ -133,6 +133,21 @@ Stage 2 — Polishing (if needed to achieve <10 ppm fluoride):
   - Pb(OH)₂: minimum solubility at pH 9-10, achieves <0.5 mg/L Pb
 - Caution: pH must be carefully controlled. Above pH 10.5, some metal hydroxides (Zn, Pb, Al, Cr) re-dissolve as soluble metal complexes (amphoteric dissolution)
 
+**Strengths**:
+- Lowest reagent cost — NaOH is inexpensive and widely available from chlor-alkali production
+- Simple pH-based control — single parameter (pH 8.5-10) governs precipitation for most metals
+- Well-established technology — decades of industrial operating data and design guidelines
+- Compatible with standard clarification equipment — no special materials beyond corrosion-resistant tanks
+- Metal hydroxide sludge is stable and non-reactive — safe for landfill after dewatering
+- Simultaneous treatment of mixed metal waste streams — most metals precipitate in the same pH range
+
+**Weaknesses**:
+- Cannot achieve <0.1 mg/L for most metals — solubility limit of hydroxides sets floor at 0.5-1 mg/L
+- Amphoteric re-dissolution above pH 10.5 — Zn, Pb, Al, Cr dissolve again if pH is not tightly controlled
+- Large sludge volume — metal hydroxides are gelatinous and difficult to dewater (1-3% solids from clarifier)
+- Not selective — all metals precipitate together, preventing metal-specific recovery for recycling
+- Requires pH monitoring and control — automatic pH probe and chemical feed system needed for reliable operation
+
 **Sulfide precipitation** (for metals with very low discharge limits):
 - Add Na₂S or NaHS → metal sulfide precipitates
 - Metal sulfides are orders of magnitude less soluble than metal hydroxides:
@@ -141,6 +156,21 @@ Stage 2 — Polishing (if needed to achieve <10 ppm fluoride):
 - Achieves effluent concentrations of <0.1 mg/L for most metals
 - Disadvantage: H₂S gas evolution risk if pH drops below 7 (extremely toxic — H₂S IDLH 100 ppm). Must maintain pH >8 during sulfide treatment.
 - Application: Polishing step after hydroxide precipitation to achieve stringent discharge limits
+
+**Strengths**:
+- Achieves effluent concentrations <0.1 mg/L — orders of magnitude lower than hydroxide precipitation
+- Metal sulfide sludge is extremely stable — sulfides do not re-dissolve over wide pH range (2-12)
+- More selective than hydroxide precipitation — can target specific metals by controlling sulfide dose and pH
+- Smaller sludge volume — metal sulfides are denser and less gelatinous than metal hydroxides
+- Effective for metals that hydroxide precipitation handles poorly (Cd, Hg, Ag)
+
+**Weaknesses**:
+- H₂S gas hazard — if pH drops below 7, hydrogen sulfide evolves (IDLH 100 ppm, lethal at 500+ ppm)
+- Higher reagent cost than hydroxide — Na₂S and NaHS are more expensive than NaOH
+- Requires strict pH control above 8 — H₂S monitoring and emergency ventilation mandatory
+- Sulfide residual in effluent — excess sulfide consumes dissolved oxygen in receiving waters
+- More complex operator training — sulfide chemistry and H₂S safety require specialized knowledge
+- Metal sulfide sludge classified as hazardous — disposal costs higher than hydroxide sludge
 
 **Chromium(VI) reduction**:
 - Cr(VI) is highly toxic and cannot be precipitated directly — must be reduced to Cr(III) first
@@ -173,12 +203,40 @@ Stage 2 — Polishing (if needed to achieve <10 ppm fluoride):
 - NMP recovery: Distillation under vacuum (NMP bp 202°C — high boiling, vacuum distillation at 50-80°C prevents thermal degradation)
 - PGMEA recovery: Distill at 146°C. Purity requirements for reuse in photoresist are very high — may require additional polishing (activated carbon treatment to remove color bodies)
 
+**Strengths**:
+- Recovers valuable solvents for reuse — 90-98% recovery reduces virgin solvent purchasing costs
+- Reduces hazardous waste volume — recovered solvent is a product, not a waste
+- Well-established separation technique — boiling point differences provide clean fractionation
+- Compatible with multiple solvent types — same distillation unit handles IPA, acetone, NMP with different temperature settings
+- Vacuum distillation handles high-boiling solvents (NMP, PGMEA) without thermal degradation
+
+**Weaknesses**:
+- Highest capital cost of any solvent treatment — distillation units cost $50,000-500,000 depending on capacity
+- Energy-intensive — heating and condensation require 2-5 MJ per liter of solvent recovered
+- Cannot handle highly mixed solvent waste — cross-contamination between solvent types requires separate distillation runs
+- Purity may not meet semiconductor-grade specifications — recovered solvent often needs activated carbon polishing before reuse
+- Fire and explosion risk — distilling flammable solvents requires explosion-proof equipment and inert atmosphere (N₂ blanket)
+
 **Incineration** (for non-recoverable solvent waste):
 - Rotary kiln or fixed-hearth incinerator at 800-1,200°C
 - Complete combustion: CₓHᵧO₂ + O₂ → CO₂ + H₂O
 - Scrubbing required for combustion gases (NOₓ, SO₂ if sulfur present)
 - Halogenated solvents (if present) require special incineration with HCl scrubbing — typically sent to permitted hazardous waste incinerators
 - Energy recovery: Heat from incineration used for process heating or steam generation
+
+**Strengths**:
+- Complete destruction of organic waste — 99.99% DRE for all non-halogenated solvents
+- Handles mixed and contaminated solvents that cannot be recovered by distillation
+- Energy recoverable from combustion exhaust — waste heat generates steam or process heating
+- Smallest residual waste volume — combustion reduces solvent to CO₂ + H₂O (plus scrubber ash)
+- No solvent purity concerns — destroys rather than recovers, eliminating quality control requirements
+
+**Weaknesses**:
+- No solvent recovery — destroys valuable material that could be reclaimed by distillation
+- Requires combustion chamber rated for hazardous waste — rotary kiln or fixed-hearth at 800-1,200°C
+- Generates combustion byproducts requiring scrubbing — NOₓ, SO₂, HCl (if halogens present)
+- Higher regulatory burden — hazardous waste incineration requires permits, continuous emission monitoring, and compliance reporting
+- Not cost-effective for high-volume recoverable solvents — waste of material value compared to distillation
 
 ### TMAH (Tetramethylammonium Hydroxide) Waste
 

@@ -31,8 +31,17 @@
 - Masking oxide (for ion implant or diffusion): 50-200 nm (dry or wet)
 - Passivation: 500-1000 nm (CVD SiO₂ or SiNₓ, not thermal)
 
+- **Furnace design**: Horizontal or vertical quartz tube furnace, 3-zone resistive heating (±1°C uniformity over 150 mm zone). O₂ or H₂O (bubbler at 95-98°C) flows through tube at 1-10 L/min. Boat holds 25-200 wafers. Push/pull rate <5 cm/min to avoid thermal stress (warp).
+
+**Strengths**:
+- Dry oxidation produces gate oxide with breakdown field >10 MV/cm — the highest-quality dielectric achievable
+- Deal-Grove model provides predictable oxide thickness from time and temperature, enabling precise process control
+
+**Weaknesses**:
+- Gate oxide growth at 2 nm/min means a 100 nm layer takes ~2 hours — slow for thick field oxides
+- Wet oxidation oxide contains more OH bonds, slightly lower quality — not suitable for gate dielectrics
+
 #### Etching
-- **Wet etching**: HF for SiO₂, KOH or TMAH for anisotropic Si etching, H₃PO₄ for Si₃N₄
 - **Dry/plasma etching** (later): Reactive ion etching (RIE) with fluorine or chlorine plasmas
   - Better pattern fidelity, anisotropic profiles
 
@@ -47,6 +56,14 @@
 | Al | H₃PO₄:CH₃COOH:HNO₃ (16:3:1, 50°C) | ~0.5-1.0 μm/min | ~5:1 (Al:PR) | Standard Al wet etch |
 | Poly-Si | CF₄/O₂ plasma (RIE) | ~50-100 nm/min | ~5:1 (poly-Si:SiO₂) | Anisotropic with sidewall passivation |
 | Si | SF₆ or CF₄ plasma (RIE) | ~100-500 nm/min | Variable | Selectivity depends on chemistry and bias |
+
+**Strengths**:
+- KOH anisotropic etching achieves <100>:<111> selectivity of 100:1 — produces precise V-grooves and pyramidal pits
+- BHF provides controlled, repeatable SiO₂ etching at 70-100 nm/min with ~5:1 selectivity to photoresist
+
+**Weaknesses**:
+- Wet etching is inherently isotropic (except KOH/TMAH on Si) — limits pattern fidelity for sub-micron features
+- Hot H₃PO₄ at 155-180°C for Si₃N₄ requires reflux condenser and poses severe burn hazard
 
 #### Deposition
 - **Chemical Vapor Deposition (CVD)**: Gas-phase reaction deposits thin films
@@ -64,6 +81,14 @@
 | LPCVD (Low Pressure) | 0.1-1 Torr | 550-900°C | 2-10 nm/min | ±2-5% | Excellent uniformity and conformality. Hot-wall batch process (50-200 wafers). Used for poly-Si (SiH₄ at 620°C), Si₃N₄ (SiH₂Cl₂+NH₃ at 750-850°C), undoped SiO₂ (SiH₄+O₂ at 450°C). Slow but high quality. |
 | PECVD (Plasma-Enhanced) | 0.5-5 Torr | 200-400°C | 5-50 nm/min | ±3-7% | Plasma provides reaction energy → low temperature compatible with metallized wafers. Used for SiNₓ passivation (SiH₄+NH₃+N₂ at 300-400°C), SiO₂ interlayer dielectric. Parallel plate reactor, RF (13.56 MHz) or HF (100-400 kHz) excitation. Slightly higher hydrogen content in films. |
 
+**Strengths**:
+- LPCVD provides ±2-5% uniformity across 50-200 wafers per batch — excellent for gate polysilicon and nitride layers
+- PECVD enables deposition at 200-400°C, compatible with aluminum interconnects (melting point 660°C)
+
+**Weaknesses**:
+- APCVD has poor step coverage (±5-10% uniformity) — unsuitable for sub-micron gap fill
+- PECVD films contain 15-30 at% hydrogen, degrading dielectric quality compared to LPCVD or thermal growth
+
 #### Doping
 - **Diffusion**: Expose wafer to dopant source at high temperature
   - n-type: phosphorus (POCl₃ gas, or solid P₂O₅)
@@ -72,11 +97,27 @@
 - **[Ion implantation](../glossary/ion-implantation.md)** (later, more precise): Accelerate dopant ions into wafer
   - Requires: high-voltage accelerator, vacuum, mass separator (magnets), beam scanning
 
+**Strengths**:
+- Diffusion doping uses simple furnace equipment already required for oxidation — no additional capital
+- Ion implantation provides precise dose control (±1%) and independent depth/profile control via energy selection
+
+**Weaknesses**:
+- Diffusion cannot independently control dose and junction depth — both are coupled to temperature and time
+- Ion implantation requires high-voltage accelerator (50-300 keV) and vacuum — significant capital and maintenance
+
 #### Metallization
 - Aluminum (or later copper) interconnects
 - Vacuum evaporation or sputtering of metal
 - Photolithographic patterning of metal lines
 - Multiple metal layers with inter-layer dielectrics (later)
+
+**Strengths**:
+- Aluminum sputtering provides 5-30 nm/min deposition with good adhesion and moderate step coverage
+- Multiple metal layers with inter-layer dielectrics enable complex multi-level interconnect routing
+
+**Weaknesses**:
+- Evaporation has poor step coverage (line-of-sight) — shadows at step edges cause thin spots
+- Aluminum melts at 660°C, limiting all subsequent processing to below ~450°C
 
 ### Process Metrology
 Every process step must be measured. "If you can't measure it, you can't control it."
@@ -86,6 +127,14 @@ Every process step must be measured. "If you can't measure it, you can't control
 - **[Dektak / profilometer](../glossary/dektak-profilometer.md)** (step height): Diamond-tipped stylus (12.5-50 μm radius, 1-15 mg force) scans across a step in the film surface (e.g., where resist or oxide was etched away). Measures vertical displacement with sub-nm resolution (typically ±1-5 nm over 1 μm step range). Used for: etch depth verification, film thickness (after patterning a step), planarization uniformity. Trade-off: higher stylus force = better surface contact but risks scratching soft films (photoresist, aluminum). Also measures surface roughness (Ra, Rq).
 - **Optical microscope inspection**: Brightfield and darkfield illumination. Detects pattern defects (missing features, bridges, particles), alignment errors, etch completeness. Magnification 50×-1000×. Essential for yield troubleshooting. Operators visually inspect sample wafers from each lot.
 - **Particle counting**: Laser scattering particle counters measure airborne particles (in cleanroom monitoring) or on wafer surfaces (bare wafer or patterned wafer inspection). Defect density (particles/cm² per process step) directly predicts yield: Yield = (1 - D·A)ⁿ where D = defect density, A = die area, n = process steps.
+
+**Strengths**:
+- Ellipsometry measures film thickness to ±0.5 nm non-destructively in ~1 second per site — fast enough for in-line process control
+- Four-point probe gives ±1% sheet resistance accuracy with simple, robust equipment usable at any fab maturity level
+
+**Weaknesses**:
+- Dektak profilometer stylus (12.5-50 μm radius) can scratch soft films (photoresist, aluminum) at higher forces
+- Yield model (1 - D·A)ⁿ assumes independent defects — real defect clustering makes predictions optimistic
 
 ### Planar Process & Integration
 - The fundamental IC manufacturing method: sequential layers of patterned oxide, doped regions, and metal on a flat silicon surface
@@ -106,6 +155,14 @@ Every process step must be measured. "If you can't measure it, you can't control
 10. **Test, dice, package, wire bond**: See [Specialty Gases](../chemistry/packaging-testing.md).
 
 **Yield expectations**: First IC runs will have <1% yield. Iteration is essential. Defect density, contamination control, and process uniformity all improve with practice. A mature process might achieve 50-90% yield on simple circuits.
+
+**Strengths**:
+- Self-aligned gate process (polysilicon gate masks source/drain implant) eliminates critical alignment tolerance — key breakthrough enabling scaling
+- 7-mask NMOS flow covers the complete transistor fabrication sequence with proven, repeatable steps
+
+**Weaknesses**:
+- First IC runs expect <1% yield — requires extensive iteration on contamination control and process uniformity
+- Gate oxide quality (breakdown >8 MV/cm) is the single most critical step — any compromise kills transistor performance
 
 ### Hazards & Safety
 
@@ -129,6 +186,14 @@ Every process step must be measured. "If you can't measure it, you can't control
 - **KOH (potassium hydroxide)**: 30-45% KOH in water at 70-85°C. Etch rate for Si <100>: ~1.1 μm/min (at 30%, 80°C). Etch rate ratio <100>:<111> ≈ 100:1. The {111} crystal planes etch ~100× slower than {100} planes, producing precise V-grooves, pyramidal pits, and thin membranes bounded by {111} sidewalls. Alignment of mask features to the <110> flat is critical: a 1° misalignment produces significant undercut.
 - **TMAH (tetramethylammonium hydroxide)**: 5-25% in water at 70-90°C. Etch rate ~0.6 μm/min at 25%, 80°C. CMOS-compatible (TMAH is an organic base — no alkali metal contamination). Selectivity to SiO₂: ~20:1 (lower than KOH's ~50:1). Smoother sidewalls than KOH but slower etch rate.
 
+**Strengths**:
+- BHF provides controlled, stable SiO₂ etch rate (70-100 nm/min) with excellent selectivity to silicon (>100:1)
+- KOH anisotropic etching achieves 100:1 <100>:<111> selectivity — produces precise V-grooves bounded by crystal planes
+
+**Weaknesses**:
+- TMAH selectivity to SiO₂ (~20:1) is lower than KOH (~50:1), requiring thicker oxide masks
+- Hot H₃PO₄ at 155-180°C for Si₃N₄ requires reflux condenser and poses severe burn/chemical hazard
+
 ### Dry Etch Processes
 
 **Reactive Ion Etching (RIE)**:
@@ -144,6 +209,14 @@ Every process step must be measured. "If you can't measure it, you can't control
 - **Principle**: Alternating cycles of isotropic etching (SF₈ plasma) and polymer passivation (C₄F₈ plasma). Each etch cycle removes silicon isotropically for a few seconds. Each passivation cycle deposits a thin fluorocarbon polymer on all surfaces. In the next etch cycle, directional ion bombardment clears the polymer from horizontal surfaces, allowing etching to continue vertically while the polymer on sidewalls protects them.
 - **Result**: Very deep, high-aspect-ratio features. Aspect ratios >20:1 achievable (e.g., 100 μm deep trenches that are 5 μm wide). Etch rate: 2-5 μm/min for silicon. Sidewall scalloping: each etch-passivation cycle creates a small notch on the sidewall, producing a characteristic scalloped texture with 50-200 nm amplitude.
 - **Applications**: MEMS devices (accelerometers, gyroscopes, microfluidic channels), through-silicon vias (TSVs for 3D IC stacking), silicon trench isolation, deep trench capacitors.
+
+**Strengths**:
+- RIE produces anisotropic (vertical) sidewalls — essential for pattern fidelity at sub-micron feature sizes
+- Bosch DRIE achieves aspect ratios >20:1 at 2-5 μm/min — enables deep MEMS structures and TSVs
+
+**Weaknesses**:
+- RIE selectivity to resist is only 5-10:1 — thick resist or hard mask required for deep etches
+- Bosch DRIE produces scalloped sidewalls (50-200 nm amplitude) from alternating etch/passivation cycles
 
 ### Deposition Processes
 
@@ -166,6 +239,14 @@ Every process step must be measured. "If you can't measure it, you can't control
 - **Sputtering**: Ar⁺ ions at 3-5 mTorr, accelerated by 100-500 W RF (for insulating targets) or DC (for conducting targets). Sputter yield: 0.5-3 atoms per incident ion depending on target material. Deposition rate: 5-30 nm/min. Film properties depend on Ar pressure, power, and substrate temperature. Step coverage: moderate (better than evaporation, worse than CVD). Alloys (Al-Si 1%, Al-Cu 0.5%) sputtered from alloy targets.
 - **Evaporation**: Thermal evaporation (resistive heating of W or Mo boat) or electron-beam evaporation (focused e-beam heats source material in water-cooled copper crucible). Chamber pressure: 10⁻⁶ Torr. Atoms travel in straight lines from source to substrate (line-of-sight deposition). Deposition rate: 5-100 nm/min. Film purity depends on source purity and vacuum quality. Poor step coverage (shadowing at step edges) limits use for advanced multi-level metallization.
 
+**Strengths**:
+- LPCVD Si₃N₄ at 3-5 nm/min is an excellent diffusion barrier — blocks Na, K, and water contamination
+- TEOS-based LPCVD SiO₂ provides better step coverage and gap fill than silane-based oxide
+
+**Weaknesses**:
+- Sputtering step coverage is moderate — insufficient for high-aspect-ratio contact holes without collimation
+- Evaporation is line-of-sight only — cannot fill re-entrant features or high-aspect-ratio trenches
+
 ### Chemical-Mechanical Planarization (CMP)
 
 **Process principle**: Simultaneous chemical and mechanical removal of material to create a flat surface. The wafer is pressed face-down against a rotating polishing pad while slurry flows between wafer and pad. The slurry chemistry attacks the material; the mechanical action of the pad and slurry particles removes the reaction products.
@@ -174,6 +255,14 @@ Every process step must be measured. "If you can't measure it, you can't control
 - **Slurry**: Colloidal silica (SiO₂ particles, 20-100 nm diameter) suspended in KOH or ammonium hydroxide solution, pH 10-11. The alkaline slurry softens the SiO₂ surface by forming a hydrated layer; the silica particles mechanically abrade this softened layer. Removal rate: 100-300 nm/min. Downforce: 2-5 psi.
 - **Endpoint detection**: Motor current monitoring (removal rate changes when the oxide layer is cleared and the underlying material is exposed). Optical endpoint (interference fringes from the thinning oxide layer change periodically; the endpoint corresponds to the last fringe). Both methods provide ~10 nm accuracy.
 - **Post-CMP cleaning**: Scrub with PVA brush and dilute (0.5%) HF to remove slurry particles and chemical residues. DI water rinse. Spin dry. Particle count target: <50 adders ≥0.16 μm.
+
+**Strengths**:
+- CMP achieves global planarization — enables multi-level metal interconnect by eliminating topography
+- Motor current and optical endpoint detection provide ~10 nm accuracy for stopping on target layer
+
+**Weaknesses**:
+- Colloidal silica slurry at pH 10-11 is a chemical burn hazard requiring dedicated waste treatment
+- Post-CMP cleaning adds a PVA brush scrub and dilute HF step — extra process complexity and HF handling
 
 ### Tungsten (W) Plug Process
 
@@ -184,6 +273,14 @@ Every process step must be measured. "If you can't measure it, you can't control
 - **Tungsten deposition**: WF₆ + 3H₂ → W + 6HF at 300-400°C, 1-10 Torr, in a cold-wall CVD reactor. Tungsten nucleates on the TiN and grows from the bottom and sidewalls of the contact hole simultaneously, filling without voids. Deposition rate: 50-200 nm/min.
 - **Etchback**: After filling the holes, excess tungsten on the flat field areas is removed by CMP (tungsten CMP using Fe(NO₃)₃ or H₂O₂-based slurry with Al₂O₃ abrasive). Etchback continues until only tungsten plugs remain in the holes, flush with the surrounding oxide surface.
 - **Selectivity**: Tungsten CMP removal rate: 200-400 nm/min. Oxide removal rate during W CMP: <20 nm/min. Selectivity >10:1.
+
+**Strengths**:
+- Tungsten CVD fills high-aspect-ratio contact/via holes from the bottom up — no voids
+- W CMP selectivity >10:1 (W:SiO₂) leaves oxide surface undamaged during plug etchback
+
+**Weaknesses**:
+- WF₆ source gas reacts with moisture to produce HF — requires TiN barrier layer and careful gas handling
+- Additional CMP step (tungsten etchback) adds process complexity and cost beyond simple aluminum patterning
 
 ### Process Integration
 
@@ -201,6 +298,14 @@ Every process step must be measured. "If you can't measure it, you can't control
 11. Electrical testing, dicing, packaging
 
 **Thermal budget management**: Total thermal exposure after source/drain implant must be limited to prevent excessive dopant diffusion. Each high-temperature step (>800°C) widens the junctions. A typical thermal budget allows no more than 2-3 hours cumulative exposure above 900°C after implant. This constraint drives the adoption of low-temperature processes (PECVD at <400°C, sputtering at <300°C) for back-end-of-line (BEOL) steps.
+
+**Strengths**:
+- Two-level metal CMOS flow (11 steps) covers the complete fabrication sequence from isolation through packaging
+- Thermal budget constraint drives process discipline — BEOL steps at <400°C protect junction profiles
+
+**Weaknesses**:
+- 11-step process means 11 opportunities for yield loss — each step must achieve >99% yield for overall >90% wafer yield
+- Cumulative thermal budget of 2-3 hours above 900°C limits flexibility for rework or additional high-temperature steps
 
 ---
 

@@ -46,6 +46,32 @@ Armor production consumes significant resources. A full plate harness requires 2
 
 **Padded jack**: Canvas or leather outer shell stuffed with raw cotton, wool, or shredded fabric. 25-40 mm thickness. Weight: 5-8 kg. Standard infantry protection in medieval Europe. Test: surviving examples stop sword cut and reduce bodkin arrow penetration to 3-5 cm (potentially survivable wound vs 15-25 cm without).
 
+**Construction (quilted gambeson)**:
+
+1. Cut linen panels: front and back pieces, 2× shoulder pieces, 2× arm pieces. Each panel 15-30 layers thick. Cut each layer 25 mm larger than finished size to allow quilting shrinkage.
+
+2. Stack 15-30 layers of linen for each panel. Baste layers together with running stitch at 100 mm intervals to prevent shifting during quilting.
+
+3. Quilt in diamond pattern: stitch through all layers with running stitch at 25-30 mm spacing in diagonal lines, creating diamond pattern. Each line runs at 45° to panel edge. Thread: linen, 2-ply, waxed for smooth passage.
+
+4. Assemble panels: sew front and back at shoulders and sides with linen binding strip (50 mm wide, folded over raw edges). Attach arm pieces at shoulder openings.
+
+5. Add closing ties: 4-6 pairs of linen cord ties at center front opening for closure.
+
+**Verification**: Strike completed gambeson with sharp sword blade at 30° angle. Accept: no cut penetration through >5 mm of quilted layers. Test arrow resistance: bodkin arrow from 50 lb bow at 10 m range — penetration must not exceed 8 cm (survivable wound).
+
+**Expected performance**: Stops slashing attacks. Reduces arrow penetration by 40-60% vs unprotected target. Absorbs blunt force from mace and club strikes (15-25 mm compressed felt distributes impact). Weight: 4-7 kg. Production time: 5-10 days by single seamstress.
+
+**Strengths**:
+- No metal required — producible by any community with textile capability
+- Worn as standalone armor by infantry or as essential padding under mail or plate
+- Provides blunt force absorption that metal armor alone cannot offer
+
+**Weaknesses**:
+- Arrow penetration 5-8 cm — potentially survivable but still a serious wound
+- Hot in summer — 15-30 layers of linen trap body heat; heat exhaustion risk in sustained combat
+- Degrades when wet — soaked gambeson loses 20-30% of protective value and triples in weight
+
 ### Scale & Lamellar Armor (Years 5-15)
 
 **Scale armor**: Small rectangular or rounded plates (scales) of bronze, iron, or rawhide (3-6 cm long x 2-4 cm wide x 1-2 mm thick), laced or riveted in overlapping rows to fabric or leather backing. Each scale overlaps the one below by 50-70%. Rows spaced 1.5-2.5 cm apart. Weight: 10-15 kg for full torso. Advantages: relatively easy to manufacture (individual scales are simple cast or cut pieces), repairable by replacing damaged scales. Disadvantages: scales can be lifted by upward thrust, lacing vulnerable to cutting.
@@ -53,6 +79,32 @@ Armor production consumes significant resources. A full plate harness requires 2
 **Lamellar armor**: Small rectangular plates (lames) laced directly to each other without fabric backing, forming rigid bands. Plate dimensions: 5-10 cm x 3-5 cm x 1-2 mm (iron or bronze). Lacing pattern: each plate laced to 4 neighbors (above, below, left, right). Construction: 200-400 plates for full torso cuirass. Weight: 8-12 kg. Superior to scale: no fabric backing to rot or cut, plates cannot be lifted by upward thrust (interlocked), more rigid = better blunt force distribution.
 
 **Brigandine**: Small steel or iron plates (2-5 cm x 1-3 cm x 1-1.5 mm) riveted inside cloth or leather garment with decorative rivet pattern visible on exterior. 200-500 plates for full torso. Tailored to body shape. Weight: 7-12 kg. Popular 14th-16th century -- cheaper than plate armor, allows mobility, easy to repair (replace individual plates). Protection: approaches plate armor against cutting and thrusting, less effective vs blunt impact (plates too small for good force distribution).
+
+**Construction (brigandine)**:
+
+1. Cut canvas or leather outer shell to body measurements: front panel, back panel, 2 side panels. Allow 25 mm seam allowance.
+
+2. Cut steel plates: 200-500 pieces, each 2-5 cm × 1-3 cm × 1-1.5 mm. Use medium-carbon steel (0.3-0.5% C), heat-treated to HRC 30-40. Deburr all edges.
+
+3. Mark rivet positions on inside of outer shell in overlapping rows: plates overlap by 50-70%. Rows spaced 15-25 mm apart.
+
+4. Rivet plates from inside: place plate on marked position, drive iron rivet (3-4 mm diameter, 8-12 mm length) through fabric and plate, peen rivet end flat on exterior side. Decorative pattern on exterior (visible rivets).
+
+5. Assemble panels: sew front to sides to back at shoulder and side seams. Add leather straps (25 mm wide) and iron buckles at front closure and shoulders.
+
+**Verification**: Strike completed brigandine on anvil with sword (full force, perpendicular). Accept: no plate deformation >2 mm, no rivet failure. Test bodkin arrow at 10 m: accept if arrow does not fully penetrate.
+
+**Expected performance**: Stops slashing attacks. Resists thrusting weapons to 3-5 cm penetration with gambeson underneath. Deflects glancing arrow strikes. Weight: 7-12 kg. Production time: 2-4 weeks.
+
+**Strengths**:
+- Cheaper than plate armor — uses small plates requiring less skill to produce
+- Tailored to individual body shape — good fit improves protection and mobility
+- Field-repairable — individual damaged plates can be replaced without replacing the entire garment
+
+**Weaknesses**:
+- Less effective vs blunt impact than plate — small plates cannot distribute force across a large area
+- Rivets are failure points — if rivets shear, plates separate from backing
+- Interior difficult to inspect — damaged backing fabric or loose rivets may go unnoticed until failure
 
 ### Mail Armor (Years 10-25)
 
@@ -63,6 +115,34 @@ Armor production consumes significant resources. A full plate harness requires 2
 **Protection properties**: Mail defeats slashing attacks entirely -- ring structure distributes cut force across multiple rings. Moderate thrusting protection: bodkin arrow point can wedge between rings and spread them at 60-80 J impact. Mail worn over gambeson (quilted padding) provides combined defense: mail stops slash, gambeson absorbs residual thrust energy and prevents broken rings from entering wound. Blunt force: mail alone provides almost no blunt protection -- the rings are flexible and transmit impact directly. Gambeson essential.
 
 **Butted vs riveted mail**: Butted mail (rings bent closed without rivet) is historically inaccurate and substantially weaker -- rings open under 20-30 J of force. Riveted mail rings resist opening to 80-120 J. Butted mail: re-enactment only. Riveted mail: actual defensive armor.
+
+**Construction (riveted mail hauberk)**:
+
+1. Draw wire: Iron or steel rod drawn through successively smaller holes in steel draw plate to 1.0-2.0 mm wire diameter. Lubricate with tallow. Check diameter with gauge plate every 500 mm — reject if outside ±0.1 mm tolerance.
+
+2. Wind rings: Wrap wire on mandrel (6-12 mm diameter rod) to form coil. Cut coil into individual rings with chisel. Production: 250-500 rings per worker per day.
+
+3. Flatten ring ends: Every other ring hammered flat at overlap (3-4 mm overlap). Punch hole through overlap with drift punch (1.0-1.5 mm diameter).
+
+4. Rivet rings: Insert rivet (0.5-1.0 mm iron wire, 2-3 mm length) through punched hole. Peen rivet head with small hammer. Each riveted ring: ~20 seconds.
+
+5. Assemble 4-in-1 pattern: Each ring passes through 4 others. Alternate rows: solid punched rings (stamped from sheet metal — no riveting needed) and riveted rings. This halves the riveting labor.
+
+6. Shape to body: Assemble flat sheets of mail, then shape into hauberk (knee-length shirt) by adding and removing rings at edges. Add sleeves (elbow or wrist length). Neck opening with slit.
+
+**Verification**: Hang completed hauberk on stand. Strike with sword at full force — rings must not separate. Test individual ring: apply 80 J impact — riveted ring must hold. Weight check: 10-15 kg for full hauberk.
+
+**Expected performance**: Defeats all slashing attacks. With gambeson: reduces bodkin arrow penetration to 3-5 cm. Thrusting protection: bodkin arrow penetrates at 60-80 J without gambeson; 80-120 J threshold for riveted ring failure. Weight: 10-15 kg for full hauberk. Production time: 50-180 worker-days.
+
+**Strengths**:
+- Defeats all slashing attacks — ring structure distributes cut force across multiple rings
+- Flexible — conforms to body movement, does not restrict mobility
+- Repairable — damaged rings replaced individually without disassembling the entire hauberk
+
+**Weaknesses**:
+- Almost no blunt force protection — flexible rings transmit impact directly to body
+- Time-consuming production — 50-180 worker-days for a single hauberk
+- Arrow vulnerability — bodkin points can wedge between rings at 60-80 J impact
 
 ### Plate Armor (Years 15-30)
 
@@ -90,6 +170,36 @@ Armor production consumes significant resources. A full plate harness requires 2
 
 **Articulation**: Plates connected by sliding rivets (allow movement in one plane) or internal leather straps (allow multi-axis movement). Key articulation points: shoulder (3-4 plates per pauldron, overlapping downward), elbow (couter with wing, 2-3 lames above and below), knee (poleyn with wing, 2-3 lames above and below), hand (gauntlet with 20-40 small overlapping plates per hand). Properly articulated plate armor allows full range of motion -- a knight in full harness can run, jump, climb, and recover from a fall unaided.
 
+**Construction (breastplate)**:
+
+1. Select medium-carbon steel plate (0.3-0.5% C), 2.0-3.0 mm thick, dimensions approximately 500 × 600 mm. Check thickness with calipers at 9 points (center, corners, edges): accept ±0.2 mm variation.
+
+2. Mark breastplate outline on plate with chalk or scribe. Mark center ridge line (midline reinforcing rib) and arm/neck openings.
+
+3. Cut outline with chisel and hammer (or shears if available). File all edges smooth — no burrs or sharp edges ( injury hazard during wear). Edge tolerance: ±2 mm of scribed line.
+
+4. Heat plate to cherry red (780-830°C). Hammer over stake (shaped anvil) to form globose curvature — curve outward at belly, concave at chest. Shape center ridge by hammering along midline with cross-peen hammer. Multiple heats required (4-8 heats for full shaping).
+
+5. Heat-treat: heat to 780-830°C, quench in water or brine. Temper at 300-450°C for 30-60 minutes. Target hardness: HRC 30-45 for body plates. Test with file — file should skid on surface without cutting (indicates HRC >40).
+
+6. Drill rivet holes for strapping: 8-12 holes, 4-5 mm diameter, at edges for leather strap attachment (shoulder straps, waist belt, side closure). Deburr all holes.
+
+7. Attach leather straps (cowhide, 3-5 mm thick, 25-40 mm wide) with solid rivets (4 mm iron or copper). Buckles: iron, 25-30 mm. Stitch strap keepers with linen thread.
+
+**Verification**: Strike completed breastplate with sword at full force perpendicular to surface — accept if dent depth <3 mm. Test with bodkin arrow at 10 m from 50 lb bow — accept if no penetration. Thickness check: verify ≥2.0 mm at all points with calipers.
+
+**Expected performance**: Deflects all edged weapons, arrows, and crossbow bolts (80-95% deflection rate). Stops musket balls at >30 m range. Weight: 3.5-5.5 kg for breastplate alone, 20-30 kg for full harness. Heat treatment: HRC 30-45 body plates, HRC 50-55 helm. Production time: 200-500 worker-hours (2-6 months workshop time).
+
+**Strengths**:
+- Best personal protection available pre-firearms — deflects all edged weapons and most missiles
+- Weight well-distributed across body — less fatiguing than concentrated mail load on shoulders
+- Glancing surface design — curved plates cause weapons to deflect rather than penetrate
+
+**Weaknesses**:
+- Extremely labor-intensive — 200-500 worker-hours per harness from a skilled armorer
+- Enclosed armor creates heat exhaustion risk — internal temperature reaches 40-50°C within 15 minutes in sun
+- Firearm vulnerability — musket balls penetrate plate armor at <30 m range
+
 ### Shields (Years 0-30)
 
 **Materials and construction**: Wooden core (lime, poplar, or fir -- lightweight, resistant to splitting), covered with rawhide or leather (glued and stitched), painted surface. Rim: rawhide or iron binding. Center grip or enarmes (leather straps for forearm and hand).
@@ -101,6 +211,36 @@ Armor production consumes significant resources. A full plate harness requires 2
 - **Pavise** (80-120 cm x 50-80 cm, 5-8 kg): Late medieval. Large rectangular shield for crossbowmen -- propped on ground as portable cover while spanning crossbow. Often painted with heraldic device.
 
 **Shield effectiveness**: Wood-core shield stops arrows and cutting attacks. Arrows embed in wood without penetrating (rawhide facing increases stopping power 30-50%). Shield edge vulnerable to axe blows (splitting). Expected combat lifespan: 15-30 minutes of sustained melee before shield is too damaged to be effective -- discarded and replaced from baggage train.
+
+**Construction (round shield, 80 cm diameter)**:
+
+1. Select 5-8 lime or poplar planks, each 80-90 cm long × 100-120 mm wide × 8-10 mm thick. Arrange edge-to-edge on flat surface. Check flatness: gap between planks <1 mm.
+
+2. Glue planks together with hide glue or casein glue. Clamp with bar clamps at 150 mm intervals. Cure 24 hours.
+
+3. Cut circular disk: 80 cm diameter circle. Mark center with compass. Cut with saw or drawknife. Tolerance: ±5 mm diameter.
+
+4. Soak rawhide in water for 2-4 hours until pliable. Stretch wet rawhide over both faces of shield, overlap at rim by 25 mm. Secure with small iron tacks at 30 mm spacing around rim. Rawhide shrinks as it dries, tightening shield face.
+
+5. Cut center hole: 100-150 mm diameter for hand grip. Install iron boss (domed iron plate, 10-15 cm diameter, 1.5-2.0 mm thick) over center hole with 4-6 iron rivets (5 mm diameter).
+
+6. Attach enarmes (leather grip straps): two straps (25 mm wide, 3-4 mm thick leather) riveted to inside face, one for forearm, one for hand grip. Position at 90° to each other for cross-body carry.
+
+7. Optional: attach iron rim band (2-3 mm × 15-20 mm flat iron) around circumference with 8-12 iron nails. Rim protects shield edge from splitting.
+
+**Verification**: Strike completed shield center with sword (full force) — accept if no penetration through rawhide facing. Strike rim with axe — accept if rim band prevents splitting on first 3-5 blows. Weight check: 3-5 kg for 80 cm round shield.
+
+**Expected performance**: Stops arrows (embed in wood without penetrating). Rawhide facing increases arrow stopping power 30-50%. Shield edge vulnerable to axe blows — rim band extends shield life. Combat lifespan: 15-30 minutes sustained melee. Weight: 3-5 kg (round), 4-6 kg (kite), 5-8 kg (pavise).
+
+**Strengths**:
+- Rapid production — wooden shield can be made in 1-2 days by a carpenter
+- Protects entire body from missile and melee attacks — mobile cover
+- Disposable in combat — shields are expected to be destroyed and replaced during battle
+
+**Weaknesses**:
+- Limited combat lifespan — 15-30 minutes of sustained melee before shield is too damaged
+- Encumbers one arm — shield bearer has reduced offensive capability
+- Bulky to carry on march — shields are awkward to transport when not in combat formation
 
 ---
 

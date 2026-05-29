@@ -189,6 +189,16 @@ Where s_total is calculated from all individual measurements (not from R̄/d₂)
 
 Six Sigma aims to reduce process variation to achieve defect rates below 3.4 defects per million opportunities (DPMO), corresponding to Cpk ≥ 1.50 with a 1.5σ mean shift assumption.
 
+**Strengths**:
+- Structured DMAIC methodology provides repeatable framework for quality improvement
+- Quantitative approach: every improvement measured against baseline Cpk with statistical validation
+- Compounding gains: improving per-step yield from 99.9% to 99.95% increases 500-step total yield from 60.6% to 77.8%
+
+**Weaknesses**:
+- Requires extensive data collection infrastructure (SECS/GEM integration, FDC systems)
+- DMAIC cycle time of 2-6 weeks per improvement project — too slow for rapid process development
+- Assumes approximately normal data distributions — non-normal processes require transformations
+
 ### DMAIC Cycle
 
 The structured improvement methodology:

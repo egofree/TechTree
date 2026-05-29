@@ -10,6 +10,16 @@
 
 ### Electricity Generation
 
+**Strengths**:
+- Voltaic piles provide the first electrical source — no moving parts, works with basic materials (copper, zinc, brine)
+- Daniell cell produces stable 1.1V — sufficient for telegraph operation and electroplating
+- Generators convert any rotational power (water, steam, wind, diesel) into electricity
+
+**Weaknesses**:
+- Batteries have low energy density (lead-acid: 25-35 Wh/kg) — not practical for industrial power
+- Wire drawing is a chicken-and-egg problem: you need wire for generators, but hardened steel dies for drawing wire require powered machinery
+- Early generators are inefficient (70-90%) — significant mechanical energy is lost as heat
+
 **[Voltaic piles / batteries](../glossary/voltaic-piles-batteries.md)** (first electrical source):
 - **Construction**: Stack alternating disks: copper plate → cardboard soaked in brine (or sulfuric acid) → zinc plate → repeat. 10-20 cells produce 10-20V DC at low current.
 - **Output**: ~1V per cell, ~50-100 mA. Sufficient for early electroplating experiments, telegraph operation, electrochemistry exploration. Not sufficient for industrial power.

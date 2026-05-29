@@ -21,6 +21,16 @@ Mordants are chemical intermediaries that bond dye molecules to fiber. Without a
 - **Copper (copper sulfate, CuSO₄)**: Brightens greens and shifts yellows toward green. Use 2-5% of fiber weight. Toxic in high concentrations — handle with care. Copper mordant also improves light fastness of many yellow and green dyes by forming stable copper-dye complexes.
 - **Tannin (from oak galls, sumac, chestnut, pomegranate rind)**: Essential pre-mordant for cellulose fibers. Boil 20-30% of fiber weight of tannin-rich material, strain, soak fiber 2-4 hours before alum mordanting. Tannins form hydrogen bonds with cellulose hydroxyl groups and provide sites for alum attachment. Oak galls contain 50-70% tannin by weight — the most concentrated natural source. Sumac leaves contain 20-30% tannin. Pomegranate rind contains 25-28% tannin.
 
+**Strengths**:
+- Alum mordant works on both protein and cellulose fibers at 10-20% WOF — universal applicability
+- Tannin pre-mordant enables cellulose fibers to accept dye nearly as well as protein fibers
+- Iron and copper mordants shift hues predictably (darkening or greening) without additional dye
+
+**Weaknesses**:
+- Iron mordant above 5% WOF embrittles protein fibers through oxidative degradation over months
+- Copper sulfate is toxic if ingested — requires careful handling and waste disposal
+- Chrome mordant (K₂Cr₂O₇) is a known carcinogen — health risk may outweigh color benefits
+
 **Mordant chemistry**: Alum forms aluminum hydroxide complexes that bridge between fiber hydroxyl groups and dye carbonyl/hydroxyl groups. The aluminum ion (Al³⁺) coordinates with both the fiber surface and the dye molecule, creating a stable three-way bond. This coordination chemistry is why alum-mordanted fiber retains color through dozens of wash cycles while unmordanted fiber fades in 2-3 washes. Iron (Fe²⁺) and copper (Cu²⁺) function similarly but also form dark-colored metal-dye complexes that shift the hue.
 
 ### Dye Plant Cultivation
@@ -48,6 +58,16 @@ Indigo pigment (indigotin) is insoluble in water. It must be chemically reduced 
 1. **[Fermentation vat](../glossary/fermentation-vat.md)** (traditional): Fill a tall narrow vessel with warm water (40-50°C). Add woad or indigo powder (50-100 g/L), wheat bran (nutrient for bacteria), and wood ash lye (pH 9-10). Maintain 35-45°C for 3-7 days until the liquor turns yellow-green and a coppery scum forms. Stir gently, wait for sediment to settle.
 2. **Dipping**: Wet fiber thoroughly, squeeze out excess water. Submerge in vat for 5-15 minutes. Squeeze gently — do not wring. Expose to air. Color develops from yellow-green → blue as indigo oxidizes. Repeat dips for darker shades (each dip adds a layer). Rinse after final dip.
 3. **Troubleshooting**: Vat too cold → slow/failed reduction. Too hot (>55°C) → kills bacteria. pH too low → incomplete reduction. Stale vat (not used regularly) → add fresh bran and re-warm.
+
+**Strengths**:
+- Indigo bonds directly to fiber through oxidation — no mordant required for any fiber type
+- Multiple dips build color intensity progressively from pale blue to deep navy
+- Fermentation vat uses only plant materials (woad, bran, wood ash lye) — no industrial chemicals
+
+**Weaknesses**:
+- Fermentation vat requires 3-7 days to develop and must be kept at 35-45°C continuously
+- Indigotin is insoluble in water — requires careful reduction chemistry to make a working dye bath
+- Vat is sensitive to temperature and pH excursions; a failed vat wastes all ingredients
 
 ### Protein vs Cellulose Fiber Differences
 

@@ -77,6 +77,16 @@ This document covers construction methods for each passive component type at thr
 
 **Achievable range**: 1 Ω to 22 MΩ. Power ratings: ¼W to 2W. Tolerance: ±10-20% (hand-made), ±5% (controlled process).
 
+**Strengths**:
+- Simple construction from two abundant materials (carbon and ceramic binder) — no precision wire or thin-film deposition equipment needed
+- Excellent pulse-energy handling: carbon mass absorbs transient energy that would vaporize a thin film (useful for spark-gap protection and surge suppression)
+- Wide resistance range (1 Ω to 22 MΩ) from a single construction method by varying carbon-to-binder ratio
+
+**Weaknesses**:
+- Poor long-term stability: moisture absorption and carbon oxidation cause 5-15% drift over 1000 hours at 70°C
+- High noise: carbon granularity generates current noise 10-100× higher than film types — unusable for low-level audio or precision measurement circuits
+- Large voltage coefficient (200-2000 ppm/V): resistance changes with applied voltage, introducing distortion in AC circuits
+
 #### Wire-Wound Resistors
 
 1. Select resistance wire: nichrome (Ni-Cr 80/20, ρ = 1.10 × 10⁻⁶ Ω·m) or constantan (Cu-Ni 55/45, ρ = 0.49 × 10⁻⁶ Ω·m).
@@ -87,6 +97,16 @@ This document covers construction methods for each passive component type at thr
 
 **Achievable range**: 0.1 Ω to 100 kΩ. Power ratings: 1W to 200W. Tolerance: ±1-5%. Inductance is a concern — use bifilar winding for precision or high-frequency applications.
 
+**Strengths**:
+- Highest power dissipation of all resistor types (up to 200W) — wire and ceramic core tolerate extreme temperatures
+- Excellent long-term stability (±0.1-1% over 1000 hours at 70°C) and lowest temperature coefficient (±20-100 ppm/°C with nichrome or constantan)
+- Tight tolerance (±1-5%) achievable through precise wire length calculation and measurement
+
+**Weaknesses**:
+- Parasitic inductance from helical winding makes them unsuitable above ~100 kHz without bifilar winding technique (which doubles wire consumption)
+- Limited resistance range (0.1 Ω to 100 kΩ) — high values require impractically long, thin wire
+- Bulky and expensive compared to film types — a 2W wire-wound resistor is 5-10× larger than a 2W metal film
+
 #### Film Resistors (Metal Film / Carbon Film)
 
 1. Deposit thin resistive film onto ceramic rod (2-4 mm dia × 6-12 mm long). Carbon film: pyrolytic deposition from hydrocarbon gas at 900-1100°C. Metal film: sputtering or evaporation of Ni-Cr alloy (50-200 nm thick).
@@ -94,6 +114,16 @@ This document covers construction methods for each passive component type at thr
 3. Crimp end caps with lead wires. Coat with epoxy.
 
 **Achievable range**: 1 Ω to 10 MΩ. Power: ⅛W to 1W. Tolerance: ±0.1-1%. Best stability and lowest noise of all types.
+
+**Strengths**:
+- Tightest tolerance (±0.1-1%) and best stability (±0.1-0.5% over 1000 hours at 70°C) — laser-trimmed helical groove enables precision matching
+- Lowest noise of any resistor type (no carbon granularity, no inductive winding) — required for precision analog circuits and medical instrumentation
+- Excellent frequency response (>100 MHz) due to non-inductive construction and thin resistive layer
+
+**Weaknesses**:
+- Requires sputtering or evaporation equipment for metal film deposition — not achievable at bench scale without vacuum systems
+- Limited power handling (⅛W to 1W) — thin film (50-200 nm) cannot dissipate high energy without damage
+- Sensitive to electrostatic discharge during handling — the thin film can be damaged by voltage spikes that a carbon composition resistor would absorb
 
 ### 4.2 Capacitor Construction
 
@@ -107,6 +137,16 @@ This document covers construction methods for each passive component type at thr
 
 **Achievable range**: 1 pF to 100 nF (Class 1, NP0/C0G), 100 pF to 10 μF (Class 2, X7R/Y5V). Voltage ratings: 50V to 5000V. Tolerance: ±5% (Class 1), +80/-20% (Class 2).
 
+**Strengths**:
+- Excellent frequency characteristics: Class 1 (C0G/NP0) types have near-zero temperature coefficient (0 ±30 ppm/°C) and negligible dissipation factor (<0.1%), making them ideal for RF tuning and oscillator circuits
+- High voltage capability (up to 5000V) in a compact disc format — no other capacitor type matches this voltage-per-volume ratio at low capacitance values
+- Simple construction from BaTiO₃ ceramic and silver paste — no electrolyte, no polymer film, minimal equipment beyond a kiln
+
+**Weaknesses**:
+- Class 2 ceramics (X7R/Y5V) exhibit severe capacitance change with temperature (+80/-20% over -55 to 125°C for Y5V) and applied voltage (capacitance drops 30-80% at rated DC voltage)
+- Barium titanate powder is toxic if ingested — requires careful handling during production, and fired components pose dust hazard if cracked or machined
+- Limited maximum capacitance for Class 1 types (≤100 nF) — larger values require physically impractical disc sizes or stacked configurations
+
 #### Electrolytic Capacitors (Wet)
 
 1. Etch aluminum foil (0.05-0.1 mm thick) in HCl or NaOH solution to increase surface area 20-200×. Etch pit depth: 1-50 μm.
@@ -116,6 +156,16 @@ This document covers construction methods for each passive component type at thr
 5. Seal with rubber bung and aluminum lid. Crimp or weld closure. Form safety vent (scored aluminum or rubber plug that releases at 2-10 atm).
 
 **Achievable range**: 0.1 μF to 1 F. Voltage: 3V to 600V. Tolerance: ±20%. ESR: 0.01-10 Ω depending on size/frequency. Lifetime: 2000-15,000 hours at rated temperature (85°C or 105°C).
+
+**Strengths**:
+- Highest capacitance per unit volume of any capacitor type — etched aluminum foil increases effective surface area 20-200×, enabling 1 F in a 35 mm diameter can
+- Lowest cost per microfarad for bulk energy storage — standard filtering and decoupling in every power supply design
+- Self-healing oxide layer: the Al₂O₃ dielectric can re-form during operation if minor localized breakdowns occur (the anodization process continues in the electrolyte)
+
+**Weaknesses**:
+- Polarized — reverse polarity or AC voltage causes rapid gas generation, pressure buildup, and violent venting or explosion of the aluminum can
+- Limited lifetime: electrolyte gradually dries out and decomposes, causing ESR to increase and capacitance to drop 20% per 1000 hours at 85°C — the component has a defined wear-out mechanism
+- Wide tolerance (±20%) and high temperature coefficient (±0.5-2%/°C) — unsuitable for precision timing or filtering applications
 
 #### Film Capacitors
 
@@ -127,6 +177,16 @@ This document covers construction methods for each passive component type at thr
 
 **Achievable range**: 100 pF to 100 μF. Voltage: 50V to 2000V. Tolerance: ±1-5%. Self-healing: metallized types clear localized shorts by evaporating the thin metal around the fault.
 
+**Strengths**:
+- Self-healing metallized construction: localized dielectric breakdowns evaporate the surrounding 20-50 nm aluminum layer, isolating the fault without catastrophic failure — critical for high-reliability applications
+- Tight tolerance (±1-5%) and excellent long-term stability with no wear-out mechanism — no electrolyte to dry out, no oxide to degrade
+- Very low dissipation factor (<0.1% for polypropylene) makes film capacitors ideal for high-frequency resonant circuits, snubbers, and AC motor run applications
+
+**Weaknesses**:
+- Large physical size per unit capacitance compared to ceramic or electrolytic types — a 10 μF film capacitor is 10-50× larger than an equivalent ceramic
+- Metallization step requires vacuum deposition equipment (thermal evaporation of aluminum at 10⁻³ to 10⁻² mbar) — adds process complexity not needed for ceramic or electrolytic types
+- Upper capacitance limit (~100 μF) constrained by physical winding dimensions — cannot replace electrolytic capacitors for bulk energy storage
+
 ### 4.3 Inductor Construction
 
 1. Select core material: air core (no core, lowest inductance), iron powder (μᵣ = 10-100), ferrite (μᵣ = 500-15,000). Core geometry: rod, toroid, E-core, pot core.
@@ -137,6 +197,16 @@ This document covers construction methods for each passive component type at thr
 6. Tin lead ends by removing enamel (mechanically or with solder pot at 400-450°C).
 
 **Achievable range**: 1 nH to 100 H. Current: 1 mA to 1000A (size-dependent). Frequency: DC to 100 MHz (core-dependent).
+
+**Strengths**:
+- Wide parameter range from a single construction method: changing core material, wire gauge, and turn count tunes inductance over 11 orders of magnitude (1 nH to 100 H)
+- Energy storage capability (½LI²) enables switching power converter operation — no other passive component stores current-based energy
+- Ferrite core inductors achieve high inductance in small volumes (μᵣ up to 15,000) — a 10 mH toroidal inductor fits in a 25 mm diameter × 15 mm height package
+
+**Weaknesses**:
+- Core saturation: increasing DC bias current beyond the core's flux density limit (0.3-0.5 T for ferrite, 1.0-1.5 T for iron powder) causes inductance to drop precipitously, potentially damaging the switching transistor
+- Parasitic capacitance between winding layers limits high-frequency performance — self-resonant frequency (SRF) typically 1-100 MHz, above which the inductor behaves as a capacitor
+- Manual winding of toroidal cores is labor-intensive and inconsistent — production-scale toroid winding machines are specialized equipment that take significant effort to construct
 
 ## 5. Quantitative Parameters
 

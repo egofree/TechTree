@@ -1,14 +1,27 @@
 # SEM Tech Membranes in Redox Flow Batteries
 
 > **Node ID**: energy.redox-flow-battery
-> **Domain**: Energy
+> **Domain**: [Energy](./index.md)
+> **Dependencies**: [`energy.electricity`](electricity.md), [`energy.storage`](storage.md), [`chemistry.sem-tech`](../chemistry/sem-tech.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 25-40
 > **Outputs**: stored_electrical_energy
-> **Tags**: materials=[polymers], era=industrial
+> **Critical**: No — SEM Tech redox flow battery application remains at TRL 5; conventional lead-acid batteries can provide grid storage
 
 **Credit**: SEM Tech (Salt Electro Mining Technology) membranes were developed by **Robert Karas**, founder of Rowow LLC. The technology is released under **CC0 1.0 Universal** (public domain). This article covers the application of SEM Tech membranes to redox flow battery energy storage.
 
 ## Overview
+
+**Strengths**:
+- Decoupled power and energy — storage capacity scales linearly with tank volume at $20-50/kWh for electrolyte
+- Long cycle life (>10,000 cycles) with no capacity degradation — vanadium electrolyte is reusable indefinitely
+- SEM Tech membranes at <$1/ft² could reduce stack costs to ~$5/kWh vs. $100+/kWh for lithium-ion
+
+**Weaknesses**:
+- SEM Tech membrane performance in flow batteries is untested — remains at TRL 5
+- Low energy density (15-35 Wh/L) — requires large electrolyte tanks for utility-scale storage
+- Pumping energy overhead — pumps consume 2-5% of stored energy during charge/discharge
+- Vanadium electrolyte cost ($20-50/kWh) dominates total system cost even with cheap membranes
 
 Redox flow batteries (RFBs) are the **origin story** of SEM Tech membranes. According to the Rowow LLC Technical Volume, these "membranes originally developed for redox flow battery applications" before being extended to chlor-alkali electrolysis, mining, and other electrochemical processes. The low-cost ion exchange membrane described in [SEM Tech](../chemistry/sem-tech.md) was conceived first and foremost as a separator for flow battery cell stacks, where membrane cost is the single largest barrier to commercial viability.
 

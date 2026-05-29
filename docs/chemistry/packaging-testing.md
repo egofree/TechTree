@@ -45,6 +45,10 @@ The packaging and testing stage is often the bottleneck for semiconductor produc
 - **Aluminum wedge bonding**: 25-50 μm Al wire. Ultrasonic energy only (room temperature). Wedge tool presses wire against pad. Lower cost but slower. Used for power devices (thicker wire carries more current).
 - **Wire drawing for bonding wire**: Draw gold wire through successively smaller diamond dies. Start with 2 mm rod → draw through 20+ dies to 25 μm. Anneal between passes (heat to 500-600°C to restore ductility). Final tensile strength ~200-300 MPa, elongation 2-5%.
 
+**Strengths**: Gold ball bonding is fast (10-20 bonds/second) and reliable — industry standard for 50+ years; thermosonic bonding works at moderate temperature (200-250°C) protecting the die; wire drawing from 2 mm to 25 μm uses standard metalworking techniques; aluminum wedge bonding is cheaper and avoids gold cost.
+
+**Weaknesses**: Gold wire is expensive ($50-80/g); bond pad damage from ultrasonic energy can cause latent failures; wire sweep during molding (flowing epoxy displaces wires) limits loop height and wire length; 25 μm wire is fragile — requires cleanroom handling; bond placement accuracy must be ±5 μm for fine-pitch pads.
+
 **Encapsulation**:
 - **[Transfer molding](../glossary/transfer-molding.md)** (most common for plastic packages): Place die + wire-bonded lead frame in mold cavity. Inject molding compound (epoxy resin + silica filler 70-80% by weight + catalyst + mold release agent) at 175°C, 6-10 MPa pressure. Cure 2-5 minutes. Mold compound protects die from moisture, mechanical damage, contamination. Silica filler reduces thermal expansion coefficient (match silicon → less stress).
 - **[Ceramic hermetic packages](../glossary/ceramic-hermetic-packages.md)** (high-reliability): Multi-layer ceramic (alumina) with tungsten metallization traces. Co-fired at 1500-1600°C. Seal lid to package with gold-tin eutectic solder (Au-20Sn, mp 280°C) in dry nitrogen atmosphere. Hermetic (gas-tight) — moisture cannot penetrate. For military, aerospace, high-temperature applications.

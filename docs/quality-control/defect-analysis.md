@@ -144,6 +144,16 @@ For manufacturing defect analysis, causes are organized into six categories (the
 
 FMEA is a systematic, proactive method for identifying potential failure modes, assessing their risk, and prioritizing corrective actions before failures occur in production. It is performed during process design — before manufacturing begins — to build quality into the process.
 
+**Strengths**:
+- Proactive — identifies and mitigates risks before production begins, preventing costly yield loss
+- Structured prioritization via RPN (S × O × D) focuses engineering effort on highest-impact items
+- Creates institutional knowledge: documented failure modes and corrective actions serve as training reference
+
+**Weaknesses**:
+- Quality depends on team experience — unknown failure modes escape analysis until they manifest
+- Time-intensive: comprehensive FMEA for a 500-step process requires weeks of cross-functional team effort
+- RPN prioritization can miss interactions: individually low-RPN items may combine to cause significant failures
+
 ### FMEA Structure
 
 | Column | Description |

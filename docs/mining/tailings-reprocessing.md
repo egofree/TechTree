@@ -92,6 +92,16 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 6. **Dewater and dispatch.** Thicken and filter the final concentrate to 8–12% moisture. Ship to smelter. Process tailings from the flotation circuit are re-deposited in a engineered facility.
 
+**Strengths**:
+- Tailings are already crushed and ground — saves 20-40% processing cost vs. primary ore
+- Desliming and regrinding improve flotation recovery by 10-20 percentage points over original processing
+- Proven circuit design (rougher → scavenger → cleaner) adapts directly from primary flotation practice
+
+**Weaknesses**:
+- Fine particles (<10 μm) consume reagents without floating — desliming loses some contained metal
+- Tailings impoundment excavation can destabilize the dam structure if not geotechnically engineered
+- Recovered concentrate grade may be lower than primary ore due to complex mineral locking
+
 ### 4.2 Acid Leaching of Metal-Bearing Tailings
 
 1. **Characterize the tailings.** Assay for target metals (Cu, Zn, Co, Ni, REE). Determine mineralogy (oxide vs. sulfide), acid consumption (carbonate content), and permeability. High carbonate tailings (>5% CaCO₃) consume excessive acid — consider alkaline leaching instead.
@@ -106,6 +116,16 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 
 6. **Neutralize spent leach solution.** Raise pH to 8–9 with limestone or lime. Precipitate remaining metals as hydroxides. Discharge clarified solution or recycle to leach circuit.
 
+**Strengths**:
+- Dissolves oxide and some sulfide metals at 65-85% recovery with simple chemistry (H₂SO₄ + oxidant)
+- Heap leaching handles large volumes (>100,000 tonnes) at low capital cost
+- Tank leaching completes in 24-96 hours — fast kinetics for high-value metals
+
+**Weaknesses**:
+- High carbonate tailings (>5% CaCO₃) consume excessive acid — may be uneconomic without pre-treatment
+- Heap leach cycles run 30-120 days — slow return on capital invested in leach pad construction
+- Spent leach solution must be neutralized to pH 8-9 before discharge — continuous limestone consumption
+
 ### 4.3 Bioleaching of Sulfide Tailings
 
 1. **Inoculate with bacteria.** Culture iron- and sulfur-oxidizing bacteria (Acidithiobacillus ferrooxidans, Acidithiobacillus thiooxidans). These microorganisms oxidize sulfide minerals, releasing metals into solution. Optimal conditions: pH 1.5–2.5, temperature 30–40°C.
@@ -115,6 +135,16 @@ The boundary between tailings reprocessing and primary ore processing is that ta
 3. **Maintain biological activity.** Monitor pH, redox potential (Eh >600 mV), temperature, and iron concentration. Add nutrients (NH₄⁺, PO₄³⁻) at trace levels if deficient. Bioleach cycle: 6–24 months (heap) or 3–10 days (tank).
 
 4. **Recover metals from bioleach solution.** Same as acid leaching — solvent extraction, electrowinning, or precipitation.
+
+**Strengths**:
+- Bacteria generate their own leaching agent (sulfuric acid) from sulfide minerals — low reagent cost
+- Operates at ambient temperature (30-40°C) and atmospheric pressure — no energy-intensive heating
+- Recovers metals from low-grade sulfide tailings (0.1-0.5% Cu) that acid leaching cannot process economically
+
+**Weaknesses**:
+- Bioleach cycle is slow: 6-24 months for heap leaching vs. 30-120 days for acid heap leach
+- Bacteria are sensitive to temperature excursions, toxic metals (As, Hg), and nutrient deficiency
+- Requires continuous aeration of heap or reactor — compressor energy cost over months of operation
 
 ## 5. Quantitative Parameters
 

@@ -80,6 +80,16 @@ Olive oil is unique among vegetable oils because it is extracted from the fruit 
 6. **Settling**: Allow oil to settle 1-3 weeks in stainless steel or glass containers. Sediment falls to bottom. Rack (decant) clear oil off sediment.
 7. **Storage**: Dark glass bottles or stainless steel containers, 14-18°C, away from light and heat. Olive oil oxidizes when exposed to light — rancidity develops in weeks in clear bottles.
 
+**Strengths**:
+- Cold pressing below 27°C preserves polyphenols, tocopherols, and flavor compounds — extra virgin olive oil has the highest antioxidant content of any cooking oil
+- Olive trees produce fruit for 100+ years with minimal maintenance — a permanent oil-producing asset once established
+- Pit fragments in the paste create channels that aid oil release without any chemical processing
+
+**Weaknesses**:
+- Olives must be processed within 24 hours of harvest — oxidation begins immediately after picking, requiring proximity of press to grove
+- Cold pressing extracts only 70-85% of available oil — the remaining pomace requires solvent extraction or is wasted
+- Olive trees take 5-8 years to reach productive maturity and require Mediterranean climate (hot dry summers, mild winters)
+
 ### Seed Oil Pressing (Expeller Method)
 
 1. **Seed preparation**: Clean seeds to remove chaff, stones, and stems. Dry to 8-10% moisture. Moist seeds clog the press; overly dry seeds produce dusty meal and lower yield.
@@ -93,6 +103,16 @@ Olive oil is unique among vegetable oils because it is extracted from the fruit 
    - **Neutralization**: Add 12-16% NaOH solution to neutralize free fatty acids. Soap stock forms and settles. Centrifuge.
    - **Bleaching**: Add 1-3% activated bleaching earth at 90-110°C under vacuum. Removes pigments and residual soap.
    - **Deodorization**: Steam distillation at 230-260°C under high vacuum (1-5 mmHg) for 30-60 minutes. Removes volatile flavor compounds and free fatty acids. Produces neutral-flavored, high smoke-point oil.
+
+**Strengths**:
+- Expeller pressing handles multiple seed types (sunflower, rapeseed, peanut, sesame) with the same equipment — one press serves all oilseeds
+- Press cake byproduct contains 30-45% protein and is valuable as animal feed — dual revenue stream from single input
+- Conditioning at 60-90°C doubles yield vs. cold pressing while maintaining acceptable oil quality
+
+**Weaknesses**:
+- Expeller screw and cage bars require hardened steel to withstand 50-150 bar pressure and abrasive seed particles — demands industrial metallurgy
+- Hot pressing above 80°C degrades heat-sensitive nutrients (vitamin E, polyphenols) and requires refining to remove off-flavors
+- Refining sequence (degumming, neutralization, bleaching, deodorization) requires 4 separate processing steps with chemical inputs (NaOH, bleaching earth)
 
 ### Animal Fat Rendering
 

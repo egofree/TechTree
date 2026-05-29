@@ -27,6 +27,16 @@ Steam turbines replace reciprocating engines for power generation by converting 
 - **Rateau staging**: Pressure-compound — multiple nozzles in series, each expanding the steam through a pressure drop, each feeding its own row of moving blades. Each row runs at lower steam velocity than a single-stage design.
 - **Combined**: Large turbines use Curtis stages at the high-pressure end (compact, handle high energy density) and Rateau stages for intermediate and low-pressure sections.
 
+**Strengths**:
+- Simple rotor design — no pressure differential across blades, reducing thrust bearing loads
+- Nozzle-based design allows partial admission (only some nozzles active) for efficient operation at reduced load
+- Multi-stage designs (Curtis, Rateau) extract far more energy per unit than single-stage impulse
+
+**Weaknesses**:
+- Single-stage requires 10,000-30,000 RPM — reduction gearing is mandatory for generator coupling
+- Multi-stage designs require precision-machined blade profiles and nozzle clearances (tolerances ±0.1 mm)
+- No casing pressure seal needed for pure impulse, but multi-stage designs lose this advantage
+
 ### Reaction Turbines (Parsons)
 
 **Principle**: Steam expands through both stationary guide blades (nozzles) AND rotating blades. The rotating blades act as moving nozzles — pressure drops continuously across both fixed and moving rows. The rotor is pushed both by impulse (velocity change) and reaction (pressure difference across the blade).
@@ -43,6 +53,16 @@ Steam turbines replace reciprocating engines for power generation by converting 
 - **IP section**: Medium blade heights (200-400 mm), moderate conditions. Materials: chromium-molybdenum steel.
 - **LP section**: Very long blades (300-1200 mm, last-row blades are the longest precision blades ever manufactured), near-vacuum exhaust (0.05-0.1 bar absolute). Materials: precipitation-hardened stainless steel or titanium for last-row blades.
 - **Double-flow LP**: The low-pressure section is often split into two flows (steam enters the center and exits both ends) to keep blade lengths manageable and reduce thrust bearing loads.
+
+**Strengths**:
+- Direct-drive to 50/60 Hz generators at 1,500-3,600 RPM — no reduction gearing needed
+- Highest peak efficiency of any steam turbine type (80-94% stage efficiency)
+- 20-50 stages extract nearly all available energy from the steam expansion
+
+**Weaknesses**:
+- Requires pressure-tight casing — casing must withstand full steam pressure at HP inlet (10-100+ bar)
+- Thrust bearings must handle significant axial force from pressure differential across rotor discs
+- LP last-row blades (300-1200 mm) are among the longest precision-machined components in manufacturing
 
 ### Impulse-Reaction Combination
 

@@ -72,6 +72,16 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 - **Relay mechanism**: Sensitive polarized relay (two electromagnets, permanent magnet bias) responds to weak incoming signal. Contacts close on local circuit → transmits strong signal to next section.
 - **Staffing**: One operator per relay station, 24-hour shifts. Reads incoming messages, logs, re-transmits.
 
+**Strengths**:
+- Single wire + ground return minimizes infrastructure — one wire per circuit instead of two
+- Trained operators achieve 20-40 words per minute with Morse code
+- Daniell cells provide stable 1.1 V per cell for months of continuous operation
+
+**Weaknesses**:
+- DC from batteries effective only to ~50-100 km — relay stations needed every 50-100 km
+- Iron wire has high resistance (~10-50 Ω/km) — limits range without relay stations
+- Glass/ceramic insulators critical in rain and fog — leakage through wet poles degrades signal
+
 ### Network Topology
 
 **Hub-and-spoke**: Central station connects to multiple outstations. Switchboard (manual patch panel) connects any pair of lines. Message routing: operator receives message, re-transmits to destination line.

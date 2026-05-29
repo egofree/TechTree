@@ -20,6 +20,16 @@
 - **Treadle wheel (Saxony/flax wheel)**: Foot treadle drives wheel via crank, leaving both hands free for fiber control. Flyer and bobbin assembly: flyer (U-shaped bracket with hooks) adds twist, bobbin winds yarn at slightly different speed (controlled by Scotch tension or double-drive band). Ratios 8:1 to 20:1 (spindle revolutions per wheel revolution). Fine linen requires high ratio. Production: 300-800 m/hour. Requires precision woodwork and iron fittings for bearings.
 - **Charka (book charka)**: Small portable wheel, hand-cranked. For cotton. High speed, fine yarn.
 
+**Strengths**:
+- Drop spindle produces usable yarn with only a fired clay whorl and wooden shaft
+- Treadle wheel leaves both hands free for fiber control — 300-800 m/hour vs 50-100 m/hour for drop spindle
+- Z-twist/S-twist convention ensures consistent yarn direction across all spinners
+
+**Weaknesses**:
+- Drop spindle limited to 50-100 m/hour — a single garment needs days of spinning
+- Treadle wheel requires precision woodwork and iron fittings for bearings
+- Great wheel requires one hand to turn, reducing drafting control
+
 ### Spinning Wheel Construction
 
 Building a treadle spinning wheel requires woodcraft skill and basic iron hardware. Key dimensions and components:
@@ -36,6 +46,16 @@ Building a treadle spinning wheel requires woodcraft skill and basic iron hardwa
 - **[Irish tension](../glossary/irish-tension.md)** (bobbin-led): Drive band connects wheel to bobbin whorl; brake on the flyer. Less common, produces a softer take-up. Suitable for bulky yarns.
 
 **Treadle mechanism**: Foot treadle (hardwood plank, 15-20 cm × 8-10 cm) connected to wheel crank via a pitman rod (wooden or iron connecting rod, 30-50 cm). Crank offset 3-5 cm from wheel axle — this converts rotary motion to the reciprocating treadle. The treadle pivots at its rear end on a metal pin or leather hinge. Iron bearings at the crank pitman joint reduce wear.
+
+**Strengths**:
+- Scotch tension mechanism uses only a brake cord and spring — simple to build and adjust
+- Multi-groove whorl offers 2-3 drive ratios on one wheel — versatile for different yarn weights
+- Treadle converts foot motion to continuous spindle rotation — both hands stay on the fiber
+
+**Weaknesses**:
+- Wheel must run true — wobble causes uneven twist and vibration
+- Bobbin must turn freely on spindle; brass tubing or polished iron washers needed at each end
+- Steam-bent rim segments with scarf joints require woodcraft skill to execute properly
 
 ### Thread Sizing Systems
 
@@ -97,6 +117,16 @@ Mechanized spinning multiplies output by 10-100× over hand spinning:
 
 **Open-end (rotor) spinning (1967)**:
 - Fibers fed into a rotating drum (rotor, 30,000-150,000 rpm) that assembles them into yarn by centrifugal force. No spindle or traveler — twist inserted by rotor rotation. 3-5× faster than ring spinning. Yarn is hairier and weaker than ring-spun — acceptable for denim, towels, and industrial fabrics. Rotor diameter 28-56 mm. Not applicable to long-staple fibers (flax, wool top).
+
+**Strengths**:
+- Water frame produces firm, even warp yarn — breaks the hand-spinning bottleneck
+- Ring spinning is continuous motion (no carriage stroke) — simpler and faster than mule
+- Spinning mule produces the finest, most uniform yarn — fine enough to match hand-spun muslin
+
+**Weaknesses**:
+- Water frame requires precision-turned iron rollers and reliable bearings
+- Ring spinning traveler runs at 3000-15,000 rpm — hardened steel C-rings wear out
+- Open-end rotor yarn is hairier and 10-20% weaker than ring-spun — limited to coarse fabrics
 
 ---
 

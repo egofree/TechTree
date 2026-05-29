@@ -40,6 +40,10 @@ Two main technologies exist for water electrolysis:
 - Advantages: compact (high current density), rapid dynamic response (sub-second), no liquid electrolyte, high purity, operates under pressure
 - Disadvantages: expensive membrane ($100-400/sq ft for Nafion), precious metal catalysts, acidic environment demands corrosion-resistant materials
 
+**Strengths**: PEM electrolysis produces 99.99%+ pure H₂ directly (no downstream purification needed for most applications); sub-second dynamic response matches intermittent renewable electricity perfectly; 5-10× higher current density than alkaline means compact footprint; no corrosive liquid electrolyte (KOH) to handle; operates under pressure (reduces compression cost for H₂ storage).
+
+**Weaknesses**: Nafion membrane costs $100-400/ft² (dominant capital cost); Ir and Pt catalysts are scarce and expensive; acidic environment requires titanium or gold-coated cell components; membrane degradation from peroxide radical attack limits lifetime; SEM Tech PVC-based membrane has NOT yet been demonstrated for PEM water electrolysis — performance is theoretical.
+
 The critical barrier to PEM adoption is membrane cost. SEM Tech membranes, at less than $1 per square foot, could eliminate this barrier entirely -- but only if they perform adequately in the PEM water electrolysis environment.
 
 ## SEM Tech Membrane in Water Electrolysis

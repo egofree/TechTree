@@ -49,6 +49,10 @@ This water-splitting reaction requires approximately 0.83V at the bipolar juncti
 
 A BMED stack contains many such repeating units between two electrodes. The electrodes serve only to apply the driving voltage; no electrochemical reaction occurs at the electrodes beyond minor water splitting.
 
+**Strengths**: BMED regenerates both acid AND base from waste salt — dual product recovery; water splitting at bipolar junction requires only 0.83V (vs 1.23V for electrode electrolysis — 33% less energy); no electrode consumption or chlorine gas generation; SEM Tech membranes make BMED economically viable at <$1/ft² membrane cost; closes the material loop for steel pickling and metal finishing acids.
+
+**Weaknesses**: Bipolar membrane fabrication is more complex than single-layer membranes (requires lamination of cation + anion layers); feed stream must be pre-filtered to prevent membrane fouling; iron and multivalent cations can precipitate as hydroxides in the base compartment (scaling); current efficiency decreases at higher acid/base concentrations (back-diffusion); membrane lifetime under BMED conditions not yet characterized for SEM Tech membranes.
+
 ## SEM Tech Membrane Application
 
 The SEM Tech membrane manufacturing process (see [SEM Tech](sem-tech.md)) produces all three membrane types required for BMED:

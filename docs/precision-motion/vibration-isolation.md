@@ -54,6 +54,16 @@ The precision equipment itself generates vibration during operation:
 
 Passive isolation uses mechanical elements (springs, dampers, pneumatic air springs) to attenuate floor vibration before it reaches the payload. No sensors, no electronics, no power required.
 
+**Strengths**:
+- No power required — passive systems work during power outages
+- >99% isolation above 5× natural frequency (e.g., >99% at 50 Hz for 1.5 Hz fn system)
+- Proven reliability: pneumatic isolators last 10-20 years with minimal maintenance
+
+**Weaknesses**:
+- Amplifies vibration at resonance (natural frequency): 3-10× amplification at fn
+- Limited low-frequency isolation: cannot attenuate vibration below ~1 Hz
+- Settling time 2-5 seconds after disturbance — too slow for active wafer stage compensation
+
 ### Pneumatic Air Spring Isolation
 
 The most common passive isolation for precision equipment. Three or four air springs (also called air isolators or pneumatic mounts) support the equipment on a rigid platform.
@@ -108,7 +118,17 @@ Simple rubber pads or molded mounts provide minimal isolation:
 
 ## Active Vibration Isolation
 
-Active isolation adds sensors and actuators to the passive system, enabling:
+Active isolation adds sensors and actuators to the passive system, enabling better low-frequency isolation, narrow-band cancellation, and active leveling.
+
+**Strengths**:
+- Attenuates vibration below passive natural frequency: transmissibility <0.5 at 1 Hz
+- Fast settling: 0.2-0.5 s after disturbance (10× faster than passive)
+- Can target specific disturbance frequencies (e.g., 50/60 Hz mains harmonics)
+
+**Weaknesses**:
+- Requires continuous power: 50-500 W per isolation axis
+- 3-10× higher cost than passive-only systems
+- Active system failure reverts to passive mode with possible transient oscillation
 
 1. **Better low-frequency isolation**: Cancel vibration below the passive natural frequency where passive systems amplify.
 2. **Narrow-band cancellation**: Target specific disturbance frequencies (e.g., 50 Hz from electrical mains).

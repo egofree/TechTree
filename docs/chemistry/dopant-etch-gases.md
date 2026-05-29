@@ -45,6 +45,10 @@
 - **Cryogenic trapping**: Cool gas stream to very low temperature (liquid N₂ temperature, -196°C). Impurities condense/freeze out while target gas remains volatile. For final ultra-purification.
 - **Palladium membrane**: For H₂ purification only. Pd alloy tube heated to 300-400°C. Only hydrogen diffuses through Pd lattice — produces 99.999999% pure H₂.
 
+**Strengths**: Multiple complementary purification methods allow targeting specific impurities; catalytic getters and molecular sieves are regenerable (not consumable); palladium membrane achieves 8N hydrogen purity; cryogenic trapping provides final ultra-purification for semiconductor-grade gases.
+
+**Weaknesses**: Pd membrane is expensive and fragile (poisoned by sulfur compounds); molecular sieves require periodic thermal regeneration (energy cost); cryogenic trapping needs liquid N₂ supply; all purification stages add pressure drop and complexity to gas distribution system; getters are consumed and require replacement.
+
 ### Gas Distribution System
 
 **Piping**: Electropolished 316L stainless steel tubing. Internal surface roughness <0.5 μm Ra (electropolishing removes micro-roughness where particles and contaminants could trap). Orbital-welded joints (automated TIG welding in inert atmosphere — no internal weld beads or discoloration). VCR-type face-seal fittings for connections to equipment. Minimum dead legs (no T-connections pointing down where gas stagnates).

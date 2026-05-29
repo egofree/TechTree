@@ -34,17 +34,30 @@ The oldest solid-state welding method, achievable as soon as wrought iron is pro
 - **Faggot weld**: Bundle of bars or strips welded together into a single billet. Used for pattern-welded (Damascus) steel — alternate layers of high- and low-carbon steel, welded and folded repeatedly to create 100+ layer composite. Also used to build up larger stock from smaller pieces.
 - **T-joint and cross weld**: One bar welded perpendicular to another. Requires careful fluxing on the contact surfaces and firm hammering to close the joint at the intersection.
 
-**Procedure**:
-1. Clean joint surfaces to bare metal (wire brush or file).
-2. Apply flux to both surfaces.
-3. Heat evenly in forge (charcoal or coal, forced air from bellows) to bright yellow-white (~1250-1300°C). The surface should appear to shimmer or "sweat" — scale flakes away exposing bright metal.
-4. Remove from forge quickly. Position pieces on anvil face.
-5. Strike immediately with firm, rapid blows — first a light tap to set alignment, then heavy hammering to expel slag and consolidate the weld. Work from the center outward to squeeze flux and scale out of the joint.
-6. Reheat and re-strike if the joint is longer than one hammering session allows (metal cools below welding temperature in ~10-20 seconds).
+**Construction steps (scarf joint)**:
+1. Taper both bar ends to a scarf angle of 10-15°. Overlap length: 2-3× bar thickness (for 20 mm bar, scarf length 40-60 mm). Shape the scarf so the thin edges of each piece will overlap the thick body of the other.
+2. Clean both scarf surfaces to bare metal with a wire brush or file. Remove all scale and dirt.
+3. Apply borax flux as a dry powder to both scarf surfaces. Coat evenly — any unfluxed area will not weld.
+4. Heat both pieces simultaneously in a charcoal or coal forge with forced air from bellows. Bring to bright yellow-white (~1250-1300°C). The surface should appear to shimmer or "sweat" — scale flakes away exposing bright metal. Do not exceed 1300°C (metal burns).
+5. Remove from forge. Position pieces on the anvil face with the scarfs overlapping in the correct orientation.
+6. Strike immediately with firm, rapid blows — first a light tap to set alignment, then heavy hammering to expel slag and consolidate the weld. Work from the center outward to squeeze flux and scale out of the joint. Complete the weld within 10-20 seconds before the metal cools below welding temperature.
+7. Reheat and re-strike if the joint is longer than one hammering session allows.
 
-**Quality testing**: Bend the welded bar in a vise or over the anvil horn. A sound weld bends without opening. A poor weld cracks at the seam — caused by oxide inclusion, insufficient heat, or insufficient flux.
+**Calibration**: Bend the welded bar in a vise or over the anvil horn through 90°. A sound weld bends without opening at the seam. A poor weld cracks at the seam — caused by oxide inclusion, insufficient heat, or insufficient flux. For critical applications (chains, tools), test a sample weld to destruction: clamp one end and hammer the other until it breaks. The weld should fail in the parent metal, not at the seam.
 
-**Limitations**: Only joins iron and low-carbon steel (wrought iron welds most reliably). High-carbon steel and cast iron cannot be forge welded by conventional methods. Joint strength is 80-95% of parent metal for a skilled smith.
+**Expected performance**: Joint strength: 80-95% of parent metal for a skilled smith on wrought iron or low-carbon steel. Scarf joint tensile strength: 250-350 MPa. Weld time: 10-20 seconds of hammering per joint (after heating). Forge cycle: 5-15 minutes including heating.
+
+**Materials specifications**: Wrought iron or low-carbon steel bar stock (0.05-0.3% C), borax flux (Na₂B₄O₇, commercial grade), charcoal or coal forge fuel, 2-4 kg blacksmith's hammer.
+
+**Strengths**:
+- Requires only a forge, anvil, and hammer — no industrial infrastructure needed
+- Produces a solid-state weld with no melted zone — no cast metal microstructure, no porosity
+- Can join wrought iron and low-carbon steel without any filler material
+
+**Weaknesses**:
+- Only joins iron and low-carbon steel — high-carbon steel, cast iron, and non-ferrous metals cannot be forge welded by conventional methods
+- Operator skill is critical — temperature judgment and hammer timing determine weld quality
+- Joint strength is 80-95% of parent metal at best — not suitable for the highest-strength applications
 
 ## Brazing
 
@@ -58,6 +71,30 @@ Brazing joins metals using a filler alloy that melts above 450°C but below the 
 - **Joint strength**: Shear strength ~150-250 MPa in the filler. Stronger than soft solder by 5-10×.
 - **Applications**: Bicycle frames, tool handles, pipe fittings, tank seams, cast iron repairs (cast iron is difficult to forge weld but braze-joins well), joining dissimilar metals (steel to copper, steel to brass).
 
+**Construction steps for a brass-brazed lap joint**:
+1. Clean both joint surfaces to bright metal with abrasive cloth or file. Remove all oxide, oil, and dirt — contamination prevents filler wetting.
+2. Position the parts with 0.05-0.20 mm joint clearance. Clamp or wire the parts together to maintain alignment during heating.
+3. Apply borax flux paste to the joint area, coating both surfaces and the joint line.
+4. Heat the joint area uniformly with a forge or torch. Bring the entire joint to bright red (~950°C). Heat the base metal, not the filler — the hot base metal melts the filler on contact.
+5. Touch the brazing rod to the joint edge. The brass melts and flows into the gap by capillary action. Feed rod until a continuous fillet appears at both ends of the joint.
+6. Allow the joint to cool slowly in still air. Do not quench — thermal shock cracks the brittle brass filler.
+
+**Calibration**: Inspect the joint visually — a continuous fillet of brass should be visible at both ends of the joint with no gaps, voids, or bare spots. Pull-test a sample joint: brass-brazed mild steel lap joint fails at 150-250 MPa shear stress in the filler.
+
+**Expected performance**: Shear strength: 150-250 MPa. Temperature resistance: up to ~300°C continuous (filler weakens above this). Joint clearance: 0.05-0.20 mm. Brazing temperature: 900-950°C.
+
+**Materials specifications**: Brass brazing rod (60% Cu / 40% Zn, 1.5-3 mm diameter), borax flux (powder, mixed with water to paste consistency), mild steel or copper workpieces.
+
+**Strengths**:
+- Joins dissimilar metals — steel to copper, steel to brass, cast iron to steel
+- Low distortion — base metal never melts, heat-affected zone is narrow
+- Filler flows by capillary action into complex joint geometries, producing a continuous seal
+
+**Weaknesses**:
+- Joint is limited to ~300°C service temperature — brass filler softens above this
+- Joint clearance must be precisely controlled (0.05-0.20 mm) — too tight or too wide and capillary action fails
+- Brass filler contains zinc — heating above 900°C generates toxic zinc oxide fumes, requiring ventilation
+
 **Silver brazing (silver soldering, hard soldering)**:
 - **Filler alloy**: Silver-copper-zinc ternary. Compositions and melting ranges:
   - Easy-flo: 50% Ag / 15% Cu / 35% Zn — melts 620-690°C. Lowest temperature, flows easily.
@@ -66,6 +103,16 @@ Brazing joins metals using a filler alloy that melts above 450°C but below the 
 - **Flux**: Borax-based or fluoride-based paste. Fluoride fluxes are more aggressive at dissolving stubborn oxides (stainless steel, nickel alloys) but produce toxic fumes — use with ventilation.
 - **Advantages over brass brazing**: Lower temperature (less thermal distortion), narrower joint gap capability, stronger joints in thin-wall assemblies. Critical for instrument work, jewelry, and fine mechanisms.
 - **Cost consideration**: Silver is expensive. Reserve silver brazing for applications where the lower temperature or higher strength justifies the cost.
+
+**Strengths**:
+- Lower temperature than brass brazing (620-780°C vs. 900-950°C) — less thermal distortion
+- Higher joint strength (150-300 MPa shear) with narrower joint gaps
+- Excellent for thin-wall assemblies and fine mechanisms
+
+**Weaknesses**:
+- Silver is expensive — filler cost is 10-50× that of brass brazing rod
+- Fluoride fluxes produce toxic fumes requiring forced ventilation
+- Narrow melting range on some alloys requires precise temperature control
 
 ## Soft Soldering
 
@@ -80,12 +127,29 @@ The lowest-temperature joining method. Soldering fills joints with a low-melting
 - **Zinc chloride (killed spirits)**: Dissolve zinc metal in hydrochloric acid until bubbling stops. Aggressive flux — removes heavy oxidation. MUST be washed off after soldering or it corrodes the joint. Used for plumbing and sheet metal work.
 - **Plumbing flux (tallow + sal ammoniac)**: Rendered fat mixed with ammonium chloride. Greasy paste that sticks to pipe surfaces, cleans oxides, and displaces water. Standard for copper pipe soldering.
 
-**Procedure**:
-1. Clean joint surfaces to bright metal (abrasive cloth, file, or wire brush).
-2. Apply flux to both surfaces.
-3. Heat the joint (not the solder) with a copper soldering iron or direct flame. Copper bit: 50-200 g copper block on iron shank, heated in flame or on stove. Tip temperature ~300-400°C.
-4. Touch solder to the heated joint — solder melts on contact and flows by capillary action into the gap. The solder should flow smoothly; if it balls up, the surface is dirty or too cold.
-5. Remove heat, hold parts still until solder solidifies (2-5 seconds). Movement during solidification produces a weak, crystalline ("cold") joint.
+**Construction steps for a soldered copper pipe joint**:
+1. Clean the outside of the pipe and the inside of the fitting with abrasive cloth or wire brush to bright metal. Clean at least 10 mm beyond the joint depth.
+2. Apply flux to both cleaned surfaces. Use rosin flux for electronics, zinc chloride or tallow/sal ammoniac for plumbing.
+3. Assemble the joint — push the pipe fully into the fitting. Twist slightly to spread the flux evenly.
+4. Heat the joint with a torch (propane or butane, flame temperature ~1900°C). Heat the fitting, not the pipe — the fitting mass conducts heat to the joint. Touch solder to the joint edge — when the joint is hot enough, solder melts and flows into the gap by capillary action (the "sweat" method).
+5. Feed solder until a continuous fillet appears around the entire joint circumference. Remove heat.
+6. Hold the joint still until the solder solidifies (2-5 seconds). Movement during solidification produces a weak, crystalline ("cold") joint with matte, grainy appearance instead of bright, shiny surface.
+
+**Calibration**: Inspect the joint — solder fillet should be continuous, smooth, and shiny. A dull, grainy fillet indicates a "cold" joint (moved during solidification or insufficient heat). Pressure-test plumbing joints at 1.5× working pressure (hold for 15 minutes, no leaks). Electrical joints: pull-test with 10 N force — the wire must not separate from the terminal.
+
+**Expected performance**: Joint shear strength: 20-50 MPa (Sn-Pb). Service temperature: up to ~120°C continuous (60/40 Sn-Pb softens above 150°C). Soldering temperature: 220-260°C for 60/40 Sn-Pb. Joint gap: 0.05-0.15 mm for capillary flow.
+
+**Materials specifications**: Tin-lead solder (60/40 Sn/Pb, 1-3 mm diameter wire with rosin core for electronics, or bar solder for plumbing), rosin flux (electronics) or zinc chloride flux (plumbing), propane torch, abrasive cloth.
+
+**Strengths**:
+- Lowest temperature joining method — minimal heat distortion, safe for heat-sensitive components
+- Excellent for electrical connections — low resistance, reliable contact
+- Simple equipment — soldering iron or small torch suffices
+
+**Weaknesses**:
+- Low mechanical strength (20-50 MPa shear) — not suitable for structural loads
+- Lead-containing solders are toxic — lead exposure causes neurological damage, especially in children
+- Service temperature limited to ~120°C — joints weaken and fail above 150°C
 
 ## Riveting
 
@@ -96,6 +160,30 @@ Mechanical joining with no heat applied to the joint itself. Rivets are installe
 - **Sizes**: Shank diameter 6-25 mm for structural work. Length = grip thickness (total plate thickness) + 1.5× shank diameter (to form the second head).
 - **Hot riveting**: Heat rivet to bright red (~900-1000°C). Insert into hole. Hold manufactured head with a dolly (heavy steel bar held by helper). Hammer the protruding shank to form the second head (use a snap — a shaped tool that forms a hemispherical head). As the rivet cools, it contracts, clamping the plates together with enormous force. This contraction-induced clamping is the key advantage of hot riveting — produces a preload that makes the joint leak-tight and resistant to vibration loosening.
 - **Cold riveting**: Drive rivet at room temperature with hammer or hydraulic riveter. No contraction clamping. Weaker joint. Used for small rivets (<10 mm) and non-critical applications. Aluminum and copper rivets are typically driven cold.
+
+**Construction steps for a hot-riveted structural joint**:
+1. Drill matching holes through both plates. Hole diameter: rivet diameter + 1.0-1.5 mm clearance (for a 20 mm rivet, drill 21.0-21.5 mm hole). Deburr both sides.
+2. Align the plates with drift pins in two holes at each end of the joint. Insert drift pins to hold alignment.
+3. Heat rivets to bright red (900-1000°C) in a forge or portable rivet heater. One rivet at a time — they cool quickly.
+4. Insert the hot rivet through the hole from the outside. Hold the manufactured head with a dolly (heavy steel bar, 5-10 kg, held against the head by a helper on the opposite side).
+5. Hammer the protruding shank with a rivet snap (shaped cup tool matching the desired head profile). Two to four blows form the second head. Work quickly — the rivet must be formed before it cools below ~500°C.
+6. The rivet contracts as it cools, clamping the plates with an estimated preload of 20-50 kN for a 20 mm rivet (proportional to the thermal contraction from 900°C to ambient).
+
+**Calibration**: Inspect each rivet head — must be full-formed, concentric, and tight against the plate surface. Tap each rivet with a 200 g hammer: a tight rivet rings clearly, a loose rivet produces a dull thud and may vibrate. Reject and replace any loose rivets. Measure grip with feeler gauges — plates must be in full contact with no gaps >0.3 mm between rivets.
+
+**Expected performance**: Single rivet shear strength: 80-150 MPa (depending on rivet material). Plate bearing stress: 200-400 MPa. Joint efficiency (riveted vs. solid plate): 55-75% for single-riveted lap joints, 80-95% for double-riveted double-cover butt joints. Contraction preload: 20-50 kN for 20 mm rivet.
+
+**Materials specifications**: Mild steel rivets (0.1-0.2% C, shank diameter 6-25 mm, length = grip + 1.5× diameter), rivet snap (hardened steel, shaped to hemispherical head profile), dolly (heavy steel bar, 5-10 kg), drift pins (tapered steel, matching rivet hole diameter), forge for heating rivets.
+
+**Strengths**:
+- No heat applied to the plates being joined — no metallurgical changes, no distortion of the parent metal
+- Hot rivets contract on cooling, producing a preload that resists vibration loosening and creates leak-tight joints
+- Riveted joints are inspectable — a trained inspector can detect loose rivets by tap testing
+
+**Weaknesses**:
+- Holes reduce the effective cross-section of the plates by 15-25%, weakening the structure
+- Two-person operation minimum (one hammers, one holds the dolly) — labor-intensive
+- Rivets cannot be disassembled without destructive removal (chiseling or drilling out)
 
 **Joint configurations**:
 - **Lap joint**: Two plates overlap, single row of rivets through both. Simplest. Used for thin sheet and non-structural work.
@@ -117,14 +205,37 @@ The first practical gas welding method, enabled by the ability to produce calciu
 - **Hoses**: Rubber with fabric reinforcement. Color-coded: red = fuel gas, blue or green = oxygen. Different thread connections to prevent cross-connection (left-hand thread for fuel, right-hand for oxygen).
 - **Filler rod**: Mild steel wire, 1.5-3 mm diameter, matching base metal composition. Coat with thin flux for some applications.
 
+**Construction steps for oxy-acetylene welding setup**:
+1. Secure both cylinders upright in a cart or chained to a wall. Install regulators — oxygen first (right-hand thread), then acetylene (left-hand thread). Tighten connections with a wrench — do not over-tighten (brass fittings deform).
+2. Connect hoses: green/blue hose to oxygen regulator outlet, red hose to acetylene regulator outlet. Connect torch end — verify correct hose-to-valve matching before proceeding.
+3. Set regulator pressures: open oxygen cylinder valve fully, then adjust regulator screw to set working pressure to 0.2-0.3 MPa (for 1.6 mm tip, 2 mm steel plate). Open acetylene cylinder valve 1/2 turn only, set working pressure to 0.03-0.05 MPa.
+4. Open torch acetylene valve 1/4 turn. Ignite with a spark lighter (not a match or lighter — keep hands away from the tip). Adjust to a soft, sooty flame ~50 mm long.
+5. Gradually open torch oxygen valve until the flame becomes neutral: sharp inner cone 2-5 mm long, blue-white, with a pale blue outer envelope. This is the welding flame (~3100°C).
+
+**Calibration**: Check flame type — neutral flame has a sharp, well-defined inner cone with no feather. A carburizing flame shows a distinct secondary feather beyond the inner cone (excess acetylene). An oxidizing flame has a shorter, noisier inner cone (excess oxygen). For most steel welding, use a neutral flame. Test by welding a bead on scrap plate — the bead should be smooth, convex, and uniform width with no porosity, spatter, or undercut.
+
+**Expected performance**: Welding speed: 2-5 mm/second. Penetration: 1-3 mm per pass on steel (full penetration up to 3 mm in single pass, bevel for thicker plate). Tensile strength: 300-450 MPa (matching mild steel base metal). Cutting speed: 200-500 mm/min on 6 mm plate.
+
+**Materials specifications**: Oxygen cylinder (40 L, 15 MPa, rated for gas service), acetylene cylinder (40 L, 1.5 MPa, acetone-filled with porous mass), welding torch (brass body, 0.5-3 mm tips), regulators (diaphragm type, dual gauge), hoses (rubber, reinforced, 3-5 m length), mild steel filler rod (1.5-3 mm diameter).
+
 **Flame types and adjustment**:
-- **Neutral flame**: Equal O₂ and C₂H₂ flow. Inner cone ~2-5 mm, blue-white, sharp-edged. Outer envelope pale blue. Temperature ~3100°C. The standard flame for welding steel — neither adds nor removes carbon from the weld pool.
-- **Carburizing (reducing) flame**: Excess acetylene. Longer, feathered inner cone with a distinct secondary feather. Adds carbon to the weld pool. Used for brazing, welding aluminum alloys, and soft soldering (with low heat).
-- **Oxidizing flame**: Excess oxygen. Shorter inner cone, noisy, pale. Adds oxygen to weld pool — causes porosity in steel but useful for brazing brass and copper (the oxide layer helps filler wet the surface).
+- **Neutral flame**: Equal O₂ and C₂H₂ flow. Inner cone ~2-5 mm, blue-white, sharp-edged. Outer envelope pale blue. Temperature ~3100°C. The standard flame for welding steel.
+- **Carburizing (reducing) flame**: Excess acetylene. Longer, feathered inner cone with a distinct secondary feather. Adds carbon to the weld pool. Used for brazing and welding aluminum alloys.
+- **Oxidizing flame**: Excess oxygen. Shorter inner cone, noisy, pale. Adds oxygen to weld pool — causes porosity in steel but useful for brazing brass and copper.
 
-**Welding technique**: Open acetylene valve, ignite (sooty orange flame). Gradually open oxygen until neutral flame is achieved. Hold torch at ~45° angle to work. Move steadily along joint at 2-5 mm/second. Dip filler rod into leading edge of the molten puddle — rod melts and adds metal to the joint. Joint types: butt (square or beveled for plate >3 mm), lap, fillet, and corner.
+**Welding technique**: Hold torch at ~45° angle to work. Move steadily along joint at 2-5 mm/second. Dip filler rod into leading edge of the molten puddle — rod melts and adds metal to the joint.
 
-**Cutting**: Fitted with a cutting attachment (additional oxygen lever and preheat flames). Heat steel to bright red (~900°C) with preheat flames, then press the oxygen lever — a jet of pure O₂ reacts exothermically with hot steel (iron burns). Molten iron oxide is blown through the cut by the oxygen jet. Kerf width 1-3 mm. Cuts steel up to 300+ mm thick. Cannot cut copper, aluminum, or stainless steel (they conduct heat away too fast or form refractory oxides).
+**Cutting**: Fitted with a cutting attachment (additional oxygen lever and preheat flames). Heat steel to bright red (~900°C) with preheat flames, then press the oxygen lever — a jet of pure O₂ reacts exothermically with hot steel. Molten iron oxide is blown through the cut by the oxygen jet. Kerf width 1-3 mm. Cuts steel up to 300+ mm thick. Cannot cut copper, aluminum, or stainless steel.
+
+**Strengths**:
+- Portable — gas cylinders can be brought to any work site without electrical power
+- Dual-purpose: welds and cuts steel with the same equipment (torch + cutting attachment)
+- Flame temperature (3100°C) is easily controlled by adjusting gas ratios
+
+**Weaknesses**:
+- Acetylene generation requires calcium carbide, which requires an electric arc furnace — not available at the earliest bootstrap stage
+- Wide heat-affected zone (5-15 mm) causes significant distortion in thin sheet metal
+- Oxygen and acetylene cylinders are heavy and require careful handling — acetylene can detonate under pressure
 
 ## Arc Welding (SMAW / Stick Welding)
 
@@ -142,22 +253,31 @@ Shielded Metal Arc Welding uses an electric arc to melt both the consumable elec
 - **E7018**: Low-hydrogen coating (limestone/CaCO₃ base). Iron powder in coating increases deposition rate. High tensile strength (70 ksi / 480 MPa minimum). The structural welding electrode — required for bridges, buildings, pressure vessels. Resists hydrogen-induced cracking. MUST be stored dry (bake at 120-200°C if exposed to humidity). DC preferred, AC usable.
 - **Electrode size selection**: 2.5 mm for sheet metal and light work (60-90 A). 3.2 mm for general fabrication (90-130 A). 4.0 mm for heavy structural work (130-170 A). 5.0 mm for thick plate (170-250 A).
 
-**Procedure**:
-1. Clean joint to bare metal (grind or file — remove rust, paint, oil, moisture).
-2. Prepare edges: bevel plates >6 mm thick to 30-60° included angle, 1-3 mm root gap, 1-2 mm root face.
-3. Clamp workpiece to grounded steel welding table. Connect return lead (ground clamp) to workpiece.
-4. Insert electrode in insulated holder. Set amperage on power supply (start at manufacturer's recommendation, adjust by sound — correct arc sounds like frying bacon; too high sounds like loud buzzing with excessive spatter; too low produces a sticky, irregular arc).
+**Construction steps for a SMAW butt weld (mild steel, 6 mm plate)**:
+1. Clean joint to bare metal (grind or file — remove rust, paint, oil, moisture). Clean at least 25 mm back from each edge.
+2. Prepare edges: bevel plates to 30° included angle (60° total), 2 mm root gap, 1.5 mm root face. Clamp in position with a backing bar if available.
+3. Clamp workpiece to grounded steel welding table. Connect return lead (ground clamp) to workpiece, ensuring clean metal-to-metal contact.
+4. Insert electrode in insulated holder. Set amperage to 100-120 A for 3.2 mm E7018 electrode (start at manufacturer's recommendation, adjust by sound — correct arc sounds like frying bacon; too high sounds like loud buzzing with excessive spatter; too low produces a sticky, irregular arc).
 5. Strike arc by tapping or scraping electrode on work (like a match), then lifting to maintain 2-4 mm arc length (~1× electrode diameter). Maintain this distance as electrode melts and you move along the joint.
 6. Travel speed: 2-5 mm/second. Angle: 10-15° from vertical in the direction of travel (drag angle). The molten pool should be 10-15 mm long and slightly wider than the electrode.
-7. Multi-pass technique for thick joints: stringer beads (no weave) for root pass, weave beads (oscillate electrode side-to-side 2-3× electrode diameter) for fill and cap passes. Clean slag between each pass (chip with hammer, wire brush).
+7. Multi-pass technique for 6 mm plate: root pass (stringer bead, no weave), fill passes (weave beads, oscillate electrode side-to-side 2-3× electrode diameter), cap pass (slight weave for uniform bead appearance). Clean slag between each pass (chip with chipping hammer, wire brush).
 8. Slag removal: After each pass, chip slag with chipping hammer. Wire brush the bead. Inspect for porosity, undercut, and slag inclusion before the next pass.
 
-**Safety** (non-negotiable):
-- **Eye protection**: Welding helmet with shade #10-#14 filter lens. UV radiation from the arc causes "welder's flash" (photokeratitis — sunburn of the cornea, 24-48 hours of extreme pain and temporary blindness). Auto-darkening helmets are a modern luxury — fixed-shade helmets with flip-up filter are the bootstrap standard.
-- **Skin protection**: Leather gloves (gauntlet length), leather apron or heavy cotton jacket (no synthetic fabrics — they melt onto skin). Arc UV burns exposed skin exactly like sunburn, in seconds.
-- **Ventilation**: Welding fumes contain metal oxides (iron, manganese, chromium, zinc). Galvanized steel produces zinc oxide fume — causes "metal fume fever" (flu-like symptoms for 24 hours). ALWAYS weld in well-ventilated areas. Forced ventilation or fume extraction for confined spaces.
-- **Fire hazard**: Sparks travel 5-10 m. Clear combustibles 10+ m from work area. Have fire extinguisher present. Hot slag can smolder in cracks and clothing for hours.
-- **Electrical safety**: Dry gloves, dry clothing, insulated electrode holder. Never weld in wet conditions. Secondary voltage (20-80 V) can be lethal in damp environments.
+**Calibration**: Run a test bead on scrap plate of the same material and thickness. Check: bead width should be 2-3× electrode diameter. Penetration: break the test coupon and examine the cross-section — root penetration must be full through the plate thickness. Hardness: file test the weld metal and heat-affected zone — both should resist a standard file equally. Visual: bead should be uniform, convex, with smooth transition to base metal (no undercut >0.5 mm).
+
+**Expected performance**: Weld tensile strength: 350-480 MPa (E7018 on mild steel). Deposition rate: 1-3 kg/hour. Duty cycle: 60% at rated current (weld 6 minutes, cool 4). Electrode consumption: ~0.5-1.0 electrodes per 100 mm of weld (3.2 mm, 6 mm plate).
+
+**Materials specifications**: Mild steel plate (0.15-0.25% C, 6 mm thickness), E7018 electrodes (3.2 mm diameter, stored dry at 80-120°C in electrode oven), angle grinder with grinding disc, wire brush, chipping hammer, welding table (steel, grounded).
+
+**Strengths**:
+- Simple equipment — power supply, electrode holder, and electrodes suffice; no gas supply needed
+- Works outdoors in wind (unlike MIG/TIG where wind disrupts gas shielding)
+- Electrode selection covers all positions (flat, horizontal, vertical, overhead) and material conditions (clean, rusty, painted)
+
+**Weaknesses**:
+- Slow deposition rate (1-3 kg/hour) compared to MIG (2-8 kg/hour)
+- Slag must be chipped and brushed between passes — adds time and labor
+- Requires stopping to change electrodes every 250-350 mm of weld (electrode consumption)
 
 ## Method Selection Guide
 
@@ -190,14 +310,23 @@ Weld inspection ensures structural integrity in pressure vessels, load-bearing s
 
 **Magnetic particle testing (MT)**: For ferromagnetic materials only (carbon steel, alloy steel, cast iron). Magnetize the weld area using a portable electromagnetic yoke (AC or DC) or permanent magnets. Spray the surface with fine iron particles (dry powder, or wet suspension in oil/water with fluorescent coating). Magnetic flux leakage at surface and near-surface cracks attracts the iron particles, forming a visible indication that outlines the defect. Detects surface cracks and near-surface flaws to a depth of ~2-6 mm below the surface (depending on flaw size and orientation). Fluorescent magnetic particle testing under UV light is the most sensitive variation, detecting cracks as fine as 0.025 mm wide. Faster and more sensitive than dye penetrant for steel, but limited to ferromagnetic materials.
 
-**Radiographic testing (RT)**: X-ray or gamma-ray imaging reveals internal defects that no surface method can detect. Procedure: Place a radiation source (X-ray tube, 100-300 kV for steel up to 50 mm thick; or iridium-192 gamma source for field work) on one side of the weld. Place photographic film or a digital detector on the opposite side. Radiation passes through the weld; internal defects (porosity, slag inclusions, incomplete fusion, cracking) absorb less radiation than solid metal and appear as dark spots or lines on the radiograph. Exposure time: 1-10 minutes for film, seconds for digital. Interpretation requires training — the radiograph is a 2D projection of a 3D object, so flaw depth is indeterminate without multiple exposures at different angles. RT detects volumetric defects (porosity >1-2% of wall thickness, slag inclusions >2% of wall thickness) reliably. Does not detect tight, planar cracks oriented perpendicular to the radiation beam.
+**Radiographic testing (RT)**: X-ray or gamma-ray imaging reveals internal defects that no surface method can detect. Procedure: Place a radiation source (X-ray tube, 100-300 kV for steel up to 50 mm thick; or iridium-192 gamma source for field work) on one side of the weld. Place photographic film or a digital detector on the opposite side. Radiation passes through the weld; internal defects (porosity, slag inclusions, incomplete fusion, cracking) absorb less radiation than solid metal and appear as dark spots or lines on the radiograph. Exposure time: 1-10 minutes for film, seconds for digital. Interpretation requires training — the radiograph is a 2D projection of a 3D object, so flaw depth is indeterminate without multiple exposures at different angles.
 
-**Ultrasonic testing (UT)**: A piezoelectric transducer (1-10 MHz probe, typically 2-5 MHz for steel welds) sends high-frequency sound waves into the weld. Sound reflects from internal boundaries (cracks, lack of fusion, porosity) and returns to the transducer. The time-of-flight and amplitude of reflected signals reveal flaw depth, size, and orientation. UT detects planar defects (cracks, lack of sidewall fusion) that radiography misses, and provides depth information that RT cannot. Requires: calibration blocks (IIW V1 block or DIN block) of the same material and thickness as the weld, couplant gel (water, oil, or glycerin to transmit sound between probe and workpiece), and a trained operator to interpret the A-scan display. Surface must be smooth (grind weld cap flush for best contact). UT is the most versatile single technique for weld inspection but requires the most operator skill. Combining RT and UT provides complementary detection of both volumetric and planar defects for critical welds.
+**Ultrasonic testing (UT)**: A piezoelectric transducer (1-10 MHz probe, typically 2-5 MHz for steel welds) sends high-frequency sound waves into the weld. Sound reflects from internal boundaries (cracks, lack of fusion, porosity) and returns to the transducer. The time-of-flight and amplitude of reflected signals reveal flaw depth, size, and orientation. UT detects planar defects (cracks, lack of sidewall fusion) that radiography misses, and provides depth information that RT cannot. Requires: calibration blocks (IIW V1 block or DIN block) of the same material and thickness as the weld, couplant gel (water, oil, or glycerin to transmit sound between probe and workpiece), and a trained operator to interpret the A-scan display.
 
-**Acceptance criteria**: Define defect acceptance limits before inspection begins. Common standards: porosity shall not exceed 2% of weld cross-sectional area; any single pore shall not exceed 3 mm diameter; cracks are unacceptable in structural welds; incomplete penetration limited to 10% of weld depth for non-critical joints, zero for pressure-containing welds. slag inclusions shall not exceed 10 mm length or 2 mm width. For pressure vessels and structural steel, follow established codes (ASME Section IX for pressure vessels, AWS D1.1 for structural steel) which specify permitted defect sizes by weld joint category and inspection method.
+**Acceptance criteria**: Define defect acceptance limits before inspection begins. Common standards: porosity shall not exceed 2% of weld cross-sectional area; any single pore shall not exceed 3 mm diameter; cracks are unacceptable in structural welds; incomplete penetration limited to 10% of weld depth for non-critical joints, zero for pressure-containing welds. Slag inclusions shall not exceed 10 mm length or 2 mm width. For pressure vessels and structural steel, follow established codes (ASME Section IX for pressure vessels, AWS D1.1 for structural steel).
 
-**Inspection sequence**: For a critical structural weld, apply methods in order: (1) visual inspection of every weld, no exceptions; (2) magnetic particle or dye penetrant for all surface-breaking defect detection on steel; (3) radiographic or ultrasonic testing for internal defects on designated critical joints (pressure vessel seams, structural column splices, crane hook welds). Document all inspection results in the weld map — a drawing showing every weld joint, its inspection method, acceptance status, and inspector's initials. Rejects are marked for repair (gouge out defective weld metal, re-weld, re-inspect using the same method that detected the defect). Repair welds are limited to two attempts; if the defect persists after two repairs, the joint must be cut out and rewelded entirely, and the welding procedure re-evaluated. Non-critical welds (shop fixtures, non-structural brackets, temporary jigs) require only visual inspection, freeing inspection resources for the joints where failure would be consequential.
-- **Welder qualification**: Each welder performs a qualification test coupon (welding sample) that is destructively tested (bend test and macro-etch) to verify their technique before they are authorized to weld production joints. Qualification records document the process (SMAW, GTAW, etc.), position (flat, horizontal, vertical, overhead), material thickness range, and electrode type. A welder qualified in the flat position is not authorized to weld overhead without separate qualification testing.
+**Welder qualification**: Each welder performs a qualification test coupon (welding sample) that is destructively tested (bend test and macro-etch) to verify their technique before they are authorized to weld production joints. Qualification records document the process (SMAW, GTAW, etc.), position (flat, horizontal, vertical, overhead), material thickness range, and electrode type.
+
+**Strengths**:
+- Visual + PT/MT + RT/UT covers surface, near-surface, and internal defects comprehensively
+- VT alone catches 80-90% of defects when performed by a trained inspector
+- UT provides depth information on internal flaws that no other method can
+
+**Weaknesses**:
+- Radiographic testing requires radiation sources (X-ray tube or gamma isotope) — significant safety infrastructure
+- UT interpretation requires extensive training — 40-80 hours minimum for basic certification
+- No single method detects all defect types — multiple methods must be combined for critical welds
 
 ## TIG Welding (GTAW — Gas Tungsten Arc Welding)
 
@@ -229,13 +358,19 @@ Tungsten Inert Gas welding uses a non-consumable tungsten electrode to establish
 
 **DCEN (electrode negative)**: 70% heat in workpiece — deeper penetration. Used for steel, stainless, titanium, copper, nickel alloys.
 
-**AC**: Alternates between DCEP (electrode positive half-cycle — cleans aluminum oxide surface) and DCEN (workpiece positive half-cycle — penetration). Required for aluminum and magnesium. Modern inverter power supplies provide adjustable AC balance (60-90% EN) to control cleaning vs. penetration.
+**AC**: Alternates between DCEP (electrode positive half-cycle — cleans aluminum oxide surface) and DCEN (workpiece positive half-cycle — penetration). Required for aluminum and magnesium.
 
 **Titanium welding — critical precautions**: Titanium absorbs oxygen, nitrogen, and hydrogen at temperatures above 500°C, causing severe embrittlement. The entire heat-affected zone (HAZ) and root side must be shielded. Use a trailing gas shield (a cup or shoe extending 25-50 mm behind the torch) and back-purge the root with argon. Discoloration indicates contamination: silver = good, straw = acceptable, blue/purple = marginal, white/gray = reject.
 
-**Applications for semiconductor equipment**: Orbital TIG welding of stainless steel tubing for gas distribution systems (orbital weld heads rotate the torch 360° around the tube joint automatically — produces repeatable, X-ray-quality welds). Vacuum chamber internal corners and penetrations. Titanium process tube welding with trailing shields.
+**Strengths**:
+- Highest weld quality of any arc process — no spatter, no slag, precise heat control
+- Works on all metals including stainless steel, aluminum, titanium, copper, and nickel alloys
+- AC mode provides oxide cleaning on aluminum — no mechanical cleaning needed during welding
 
-**Orbital TIG for tube welding**: Automated orbital welding uses a enclosed weld head that clamps around the tube, with the tungsten electrode and gas cup rotating around the joint. Parameters: tube OD 6-76 mm, wall thickness 0.5-3 mm, current 30-150 A depending on wall thickness. Produces consistent, repeatable welds with full penetration and minimal oxidation — essential for high-purity gas distribution in semiconductor fabs. Computer-controlled power supplies store weld programs (pulse/sync frequency, current levels, rotation speed) for each tube size.
+**Weaknesses**:
+- Slow deposition rate (0.5-2 kg/hour) — 2-4× slower than MIG
+- Requires external shielding gas supply (argon cylinders) — not portable for field work
+- Higher operator skill required — both hands are occupied (torch + filler rod), and foot pedal amperage control adds complexity
 
 ## MIG Welding (GMAW — Gas Metal Arc Welding)
 
@@ -262,17 +397,21 @@ Gas Metal Arc Welding uses a continuously fed consumable wire electrode, melted 
 | 1.0 mm | Al 5356 | 150-250 | 20-26 | 7-14 | Spray/pulse | Ar |
 | 1.2 mm | SS 308L | 180-280 | 22-28 | 5-10 | Short/pulse | 98Ar/2O₂ |
 
-**Advantages over SMAW**: 2-4× faster deposition rate, no slag removal (flux-core MIG has slag, solid wire MIG does not), continuous welding without stopping to change electrodes, better suitability for automation and robotics.
+**Strengths**:
+- 2-4× faster deposition rate than SMAW — continuous wire feed eliminates electrode changes
+- No slag to remove (solid wire MIG) — cleaner finished welds
+- Easy to learn — single-hand operation, no filler rod manipulation needed
 
-**Limitations**: Equipment is more complex (wire feeder, gas supply), less portable than SMAW, wind disrupts gas shielding (outdoor use impractical), and weld quality is sensitive to parameter settings (voltage, wire feed speed, stick-out length must be matched).
+**Weaknesses**:
+- Wind disrupts gas shielding — outdoor use impractical without wind screens
+- Equipment is more complex (wire feeder, gas supply) and less portable than SMAW
+- Weld quality is sensitive to parameter settings — voltage, wire feed speed, and stick-out length must be matched
 
 ## Resistance Welding (Spot & Seam)
 
 > **Node ID**: machine-tools.joining.resistance-welding
 
-Resistance welding generates heat by passing high current through the workpieces held together under pressure between two electrodes. No filler metal, no shielding gas, no flux — the process uses the electrical resistance of the workpieces themselves to produce the weld. Extremely fast (cycle times measured in cycles of AC mains — 0.02-0.5 seconds) and easily automated.
-
-**Principle**: Two copper alloy electrodes clamp the overlapping workpieces. A high current (typically 5,000-20,000 A) flows through the stack. The highest resistance in the circuit is at the interface between the two workpieces (sheet-to-sheet contact resistance), generating a molten nugget. Electrode force (1-10 kN) maintains contact and consolidates the nugget as it solidifies.
+Resistance welding generates heat by passing high current through the workpieces held together under pressure between two electrodes. No filler metal, no shielding gas, no flux. Extremely fast (cycle times 0.02-0.5 seconds) and easily automated.
 
 **Spot welding parameters**:
 
@@ -287,21 +426,21 @@ Resistance welding generates heat by passing high current through the workpieces
 
 *Note: 1 cycle at 50 Hz = 20 ms; at 60 Hz = 16.7 ms*
 
-**Electrode materials**: Class 2 copper-chromium-zirconium (CuCrZr) electrodes — high conductivity (≥75% IACS), hardness 130-150 HV, maintained tip diameter by periodic dressing (machining the tip face flat). RWMA (Resistance Welder Manufacturers Association) standardized electrode shapes: pointed (Type A), dome (Type B), flat (Type C), offset (Type D).
+**Strengths**:
+- Extremely fast — cycle times of 0.02-0.5 seconds per weld
+- No consumables (no filler metal, no shielding gas, no flux)
+- Easily automated — consistent weld quality at high production rates (4,000-6,000 spot welds per car)
 
-**Seam welding**: Roller electrodes replace stationary tips. The rollers rotate continuously, producing a series of overlapping spot welds that form a continuous gas-tight or liquid-tight seam. Used for fuel tanks, radiators, drums, and container bodies. Wheel width 5-12 mm, current 8-15 kA, speed 0.5-5 m/min. Overlap between spots: 30-50% of nugget diameter.
-
-**Projection welding**: Small embossed projections (dimples) stamped into one workpiece concentrate current at discrete points. Multiple projections welded simultaneously — ideal for nuts, bolts, and brackets welded to sheet metal. The projection collapses during welding, providing a self-aligning joint.
-
-**Applications**: Automotive body assembly (4,000-6,000 spot welds per car), appliance cabinets, battery tab welding (resistance welding of thin nickel tabs to lithium-ion cell terminals — 0.5-2 kA, 5-20 ms), and electrical contacts.
+**Weaknesses**:
+- Limited to overlapping sheet metal joints — cannot join plates edge-to-edge
+- Electrode tips wear and require periodic dressing (machining flat) to maintain weld quality
+- No non-destructive inspection method for internal nugget quality — peel testing or destructive cross-sectioning required for process qualification
 
 ## Electron Beam Welding (EBW)
 
 > **Node ID**: machine-tools.joining.electron-beam
 
-Electron beam welding uses a focused beam of high-velocity electrons to melt and fuse metals in a vacuum chamber. The beam produces an extremely deep, narrow weld (depth-to-width ratio 10:1 to 30:1) with minimal heat input, minimal distortion, and no oxidation. EBW is the premier process for joining refractory metals, dissimilar metals, and precision components that must maintain dimensional stability — including vacuum chambers and semiconductor equipment.
-
-**Principle**: A heated tungsten or lanthanum hexaboride (LaB₆) cathode emits electrons (thermionic emission). An accelerating voltage of 30-150 kV accelerates the electrons to 0.3-0.6 times the speed of light. Electromagnetic focusing coils (magnetic lenses) focus the beam to a spot diameter of 0.1-1.0 mm on the workpiece. Kinetic energy converts to heat on impact, producing a deep keyhole that penetrates the full thickness of the joint. The workpiece is mounted on a CNC-controlled motion stage inside a vacuum chamber.
+Electron beam welding uses a focused beam of high-velocity electrons to melt and fuse metals in a vacuum chamber. The beam produces an extremely deep, narrow weld (depth-to-width ratio 10:1 to 30:1) with minimal heat input, minimal distortion, and no oxidation.
 
 **Equipment parameters**:
 
@@ -310,33 +449,26 @@ Electron beam welding uses a focused beam of high-velocity electrons to melt and
 | Accelerating voltage | 30-60 kV (low-voltage), 60-150 kV (high-voltage) | Higher voltage = deeper penetration, smaller spot |
 | Beam current | 10-100 mA (low-voltage), 1-50 mA (high-voltage) | Beam power = voltage × current |
 | Beam power | 0.3-30 kW (typical), up to 100 kW (heavy section) | Penetration depth proportional to power |
-| Vacuum level | 10⁻² to 10⁻⁴ mbar (medium vacuum), 10⁻⁴ to 10⁻⁶ mbar (high vacuum) | Better vacuum = less beam scattering = deeper penetration |
+| Vacuum level | 10⁻² to 10⁻⁴ mbar (medium vacuum), 10⁻⁴ to 10⁻⁶ mbar (high vacuum) | Better vacuum = less beam scattering |
 | Travel speed | 5-100 mm/s | Higher speed = narrower weld, lower penetration |
 | Spot size | 0.1-1.0 mm | Focused by electromagnetic lenses |
 | Penetration depth | Up to 200 mm in steel, 300 mm in aluminum | Single-pass, full penetration |
 
-**Penetration capability by material and power**:
+**Strengths**:
+- Deep, narrow welds with depth-to-width ratio 10:1 to 30:1 — minimal heat input and distortion
+- Vacuum environment eliminates all oxidation — critical for reactive metals (titanium, zirconium)
+- Single-pass welding of thick sections (up to 200 mm steel) — no multi-pass requirement
 
-| Material | 5 kW | 10 kW | 20 kW | 50 kW |
-|----------|------|-------|-------|-------|
-| Steel | 12 mm | 20 mm | 35 mm | 60 mm |
-| Aluminum | 18 mm | 30 mm | 50 mm | 80 mm |
-| Titanium | 15 mm | 25 mm | 40 mm | 70 mm |
-| Copper | 8 mm | 14 mm | 22 mm | 40 mm |
-
-**Vacuum chamber requirements**: The workpiece chamber must be evacuated before each weld cycle. Chamber sizes range from 0.01 m³ (small parts) to 100+ m³ (large aerospace structures). Pumping time: 1-10 minutes for medium vacuum (rotary vane + roots blower), 5-30 minutes for high vacuum (rotary vane + turbomolecular). Chamber construction: stainless steel (304L or 316L), water-cooled, with viewing ports and sealed feedthroughs for electrical connections and motion stages.
-
-**Non-vacuum EBW**: The beam exits the vacuum through a series of differential pressure stages. No vacuum chamber needed for the workpiece, but beam scattering limits penetration to ~25 mm in steel and working distance to 10-25 mm. Used for high-speed welding of automotive components.
-
-**Critical for vacuum chamber fabrication**: EBW produces welds with zero porosity and zero contamination — the vacuum environment prevents oxidation and the deep narrow penetration eliminates the need for multiple passes on thick sections. For UHV (ultra-high vacuum) chambers, EB welds have significantly lower outgassing rates than TIG welds because the narrow heat-affected zone minimizes the volume of material that absorbs and later releases gases. Leak rates at EB welds: ≤10⁻¹⁰ mbar·L/s (measured by helium mass spectrometer leak detector), compared to 10⁻⁸ to 10⁻⁹ mbar·L/s for TIG welds.
+**Weaknesses**:
+- Requires a vacuum chamber — chamber sizes limited, pump-down time 1-30 minutes per cycle
+- Very high capital cost — $200,000-2,000,000 for EB welding systems
+- X-ray generation at high voltages requires lead shielding and radiation safety protocols
 
 ## Ultrasonic Welding & Wire Bonding
 
 > **Node ID**: machine-tools.joining.ultrasonic-bonding
 
-Ultrasonic welding joins metals by applying high-frequency mechanical vibration under pressure — no melting, no filler, no flux. The ultrasonic vibration breaks surface oxides and brings the clean metal surfaces into intimate contact, forming a solid-state metallurgical bond. This is the dominant process for wire bonding in semiconductor packaging, as well as for joining thin foils, wires, and dissimilar metal combinations.
-
-**Principle**: A piezoelectric transducer (typically PZT — lead zirconate titanate) converts electrical energy at 20-60 kHz into mechanical vibration. A booster amplifies the vibration amplitude (typically 2-30 μm peak-to-peak at the tool tip). A sonotrode (wedge or capillary tip) applies the vibration to the workpiece under clamping force (0.5-50 N). The cyclic shear stress at the interface breaks oxide layers and creates metal-to-metal contact at asperities. Bonding occurs through diffusion and micro-welding at the contact points.
+Ultrasonic welding joins metals by applying high-frequency mechanical vibration under pressure — no melting, no filler, no flux. The ultrasonic vibration breaks surface oxides and brings the clean metal surfaces into intimate contact, forming a solid-state metallurgical bond.
 
 **Wire bonding parameters (semiconductor packaging)**:
 
@@ -349,25 +481,24 @@ Ultrasonic welding joins metals by applying high-frequency mechanical vibration 
 | Bonding force | 0.1-0.5 N | 0.2-1.0 N |
 | Bonding time | 10-50 ms | 20-100 ms |
 | Temperature | 150-250°C (thermosonic) or 25°C (room temp) | 25°C (room temperature) |
-| Bond shape | Ball (first bond) + wedge (second bond) | Wedge-wedge |
 | Pull strength (25μm Au) | 40-80 mN | — |
 | Pull strength (25μm Al) | — | 30-60 mN |
 
-**Gold ball bonding (thermosonic)**: A small spark (EFO — electronic flame-off) melts the end of the gold wire, forming a free-air ball (1.5-2.5× wire diameter). The capillary descends, pressing the ball onto the bond pad while applying ultrasonic energy and heat (150-250°C). The ball deforms into a "nail head" shape. The capillary then rises, feeding wire to the second bond position, where it forms a stitch (wedge) bond. Wire is then clamped and broken. Typical throughput: 8-15 bonds/second. For gold wire, thermosonic bonding (heat + ultrasonic) produces the strongest bonds.
+**Strengths**:
+- Solid-state bond — no melting, no intermetallic formation, no thermal damage to nearby components
+- Room-temperature aluminum bonding requires no heat — compatible with temperature-sensitive devices
+- Extremely fast: 8-15 bonds/second for gold ball bonding
 
-**Aluminum wedge bonding (ultrasonic)**: A wedge tool presses the aluminum wire against the bond pad while applying ultrasonic vibration. No heat required — room-temperature bonding. The second bond is formed similarly. Aluminum wire is preferred for high-reliability applications (avoiding gold-aluminum intermetallic "purple plague" formation at elevated temperatures). Also used for heavy aluminum ribbon (0.5-2.0 mm × 0.1-0.3 mm) for power semiconductor packaging.
-
-**Larger-scale ultrasonic metal welding**: For joining sheet metal, foils, and battery tabs. Parameters: 20 kHz frequency, amplitude 30-50 μm, clamping force 0.5-5 kN, weld time 0.1-1.0 seconds. Joins aluminum to copper (battery interconnects), copper to copper (bus bars), and multiple layers of thin foil (lithium battery electrode tabs). No melting — the solid-state bond preserves the metallurgical structure and avoids brittle intermetallic phases that form when dissimilar metals are melted together.
-
-**Applications in semiconductor equipment**: Wire bonding is the most common interconnection method in IC packaging (>10 trillion wire bonds produced annually worldwide). Also used for sensor packaging, MEMS device interconnection, and hybrid microcircuit assembly.
+**Weaknesses**:
+- Limited to thin wires and foils — cannot join structural metal thicknesses (>0.5 mm)
+- Gold-aluminum bonds can develop "purple plague" (AuAl₂ intermetallic) at elevated temperatures — reliability concern
+- Requires precise control of bonding force, power, and time — parameter windows are narrow (±10-20%)
 
 ## Friction Stir Welding (FSW)
 
 > **Node ID**: machine-tools.joining.friction-stir
 
-Friction stir welding is a solid-state joining process — the metal is heated to a plasticized state but never melted. A rotating cylindrical tool with a profiled probe pin is plunged into the joint line between two abutting workpieces and traversed along the seam. Frictional heat from the rotating tool softens the metal, and the tool's pin stirs the plasticized material from both sides together, creating a consolidated joint on cooling. No filler metal, no shielding gas, no consumables beyond the tool itself.
-
-**Principle**: The tool consists of a shoulder (typically Ø 10-25 mm) and a probe pin (Ø 3-10 mm, length matching workpiece thickness). The rotating tool (500-1500 RPM) generates frictional heat at the shoulder-workpiece interface (primary heat source) and the pin-workpiece interface. Material temperature rises to 70-90% of melting point but does not melt. The rotating pin stirs the plasticized material, and the shoulder's forging action consolidates the weld nugget behind the pin.
+Friction stir welding is a solid-state joining process — the metal is heated to a plasticized state but never melted. A rotating cylindrical tool with a profiled probe pin is plunged into the joint line between two abutting workpieces and traversed along the seam.
 
 **Parameters**:
 
@@ -378,39 +509,22 @@ Friction stir welding is a solid-state joining process — the metal is heated t
 | Tool tilt angle | 1-3° from vertical | Ensures shoulder contact at trailing edge |
 | Plunge depth | Shoulder penetrates 0.1-0.3 mm below surface | Controls forging force |
 | Downward force | 5-50 kN | Machine rigidity essential |
-| Tool material (for Al) | H13 tool steel, MP159 (nickel-cobalt alloy) | Good to 600°C surface temperature |
-| Tool material (for steel) | PCBN (polycrystalline cubic boron nitride), tungsten-rhenium | Must withstand 1000°C+ |
 
-**Key advantages**: No porosity (no solidification from liquid), no cracking (no melt), lower distortion than fusion welding (lower peak temperature), ability to join unweldable aluminum alloys (2xxx, 7xxx series — aerospace alloys that are hot-crack susceptible in fusion welding), and dissimilar metal joints (aluminum to steel, aluminum to copper) without brittle intermetallic layers.
+**Strengths**:
+- No porosity (no solidification from liquid), no cracking (no melt)
+- Can join unweldable aluminum alloys (2xxx, 7xxx series — aerospace alloys)
+- Dissimilar metal joints (aluminum to steel, aluminum to copper) without brittle intermetallic layers
 
-**Aluminum welding by alloy and thickness**:
-
-| Alloy Series | Thickness Range | Rotation (RPM) | Feed (mm/min) | Application |
-|--------------|----------------|----------------|----------------|-------------|
-| 2xxx (e.g., 2024) | 3-12 mm | 800-1200 | 100-400 | Aerospace fuselage panels |
-| 5xxx (e.g., 5083) | 3-25 mm | 500-1000 | 100-600 | Marine, cryogenic tanks |
-| 6xxx (e.g., 6061) | 3-15 mm | 800-1500 | 200-800 | Structural, general fabrication |
-| 7xxx (e.g., 7075) | 3-12 mm | 800-1200 | 80-300 | Aerospace wing spars |
-
-**Limitations**: Keyhole at tool exit point (must be filled or trimmed), requires rigid clamping and backing bar, limited to straight or gently curved joints (tool must access both sides), and tool wear in steel welding (PCBN tools cost $2,000-10,000 each).
+**Weaknesses**:
+- Keyhole at tool exit point — must be filled or trimmed in finished parts
+- Requires rigid clamping and backing bar — the tool applies 5-50 kN downward force
+- Tool wear in steel welding: PCBN tools cost $2,000-10,000 each
 
 ## Laser Welding
 
 > **Node ID**: machine-tools.joining.laser-welding
 
-Laser welding uses a focused high-power laser beam to melt and fuse metal. The process offers extremely high power density (10⁴-10⁷ W/cm²), producing deep narrow welds with minimal heat input and minimal thermal distortion. Laser welding is easily automated and can weld at high speeds with precise control of penetration depth.
-
-**Laser types for welding**:
-
-- **CO₂ laser**: Gas laser, wavelength 10.6 μm (far infrared). Power range 100 W to 20 kW. Cannot be delivered through fiber optic — must use mirror beam delivery. High absorption in non-metals, moderate absorption in metals (reflectivity issue with copper and aluminum at 10.6 μm). Wall-plug efficiency 5-10%. Used for steel, stainless steel, and polymer welding.
-- **Fiber laser**: Solid-state laser, wavelength 1.06-1.09 μm (near infrared). Power range 100 W to 30 kW. Delivered through flexible fiber optic cable — easily integrated with robots and CNC machines. Higher absorption in metals than CO₂. Wall-plug efficiency 25-35%. The dominant choice for modern industrial laser welding. Ytterbium-doped fiber.
-- **Disk laser**: Solid-state laser, wavelength 1.03 μm. Power range 100 W to 16 kW. Similar to fiber laser but with a thin disk crystal gain medium. Excellent beam quality at high power.
-- **Pulsed Nd:YAG laser**: Wavelength 1.064 μm. Peak power up to 20 kW in pulsed mode, average power 100-500 W. Used for spot welding, seam welding of thin materials, and micro-welding (medical devices, electronics). Pulse duration 0.1-20 ms.
-
-**Welding modes**:
-
-- **Conduction mode**: Low power density (10⁴-10⁵ W/cm²). Laser heats the surface; heat conducts into the workpiece. Shallow, wide weld profile. Depth-to-width ratio ~1:1. Used for thin materials (<1 mm), spot welding, and aesthetic welds. Power: 100-500 W. Speed: 0.5-10 m/min.
-- **Keyhole mode**: High power density (10⁶-10⁷ W/cm²). Laser vaporizes a narrow channel (keyhole) through the workpiece thickness. The keyhole is stabilized by the balance between vapor pressure (opening) and surface tension/molten metal hydrostatic pressure (closing). Deep, narrow weld. Depth-to-width ratio 5:1 to 15:1. Power: 1-20 kW. Speed: 1-20 m/min. The standard mode for industrial laser welding.
+Laser welding uses a focused high-power laser beam to melt and fuse metal. The process offers extremely high power density (10⁴-10⁷ W/cm²), producing deep narrow welds with minimal heat input and minimal thermal distortion.
 
 **Parameters by material and thickness (fiber laser, keyhole mode)**:
 
@@ -420,28 +534,25 @@ Laser welding uses a focused high-power laser beam to melt and fuse metal. The p
 | Mild steel | 5 mm | 4-6 | 1.5-3 | Ar | Full penetration, square butt |
 | Mild steel | 10 mm | 8-12 | 0.8-1.5 | Ar | Deep keyhole welding |
 | Stainless 304 | 2 mm | 2-3 | 3-8 | Ar or He | Excellent results |
-| Stainless 304 | 5 mm | 4-6 | 1-3 | Ar | High-quality, low distortion |
 | Aluminum 6061 | 2 mm | 3-4 | 4-8 | Ar | High reflectivity — need high power density |
-| Aluminum 6061 | 5 mm | 5-8 | 1.5-4 | Ar/He | He addition improves coupling |
-| Copper C110 | 2 mm | 4-6 | 2-5 | Ar | Very high reflectivity at 1 μm — challenging |
+| Copper C110 | 2 mm | 4-6 | 2-5 | Ar | Very high reflectivity at 1 μm |
 | Titanium Gr.2 | 2 mm | 2-3 | 3-6 | Ar + trailing shield | Must shield HAZ from oxygen |
 
-**Advantages**: Very high welding speed (5-20× faster than TIG for thin materials), minimal distortion (narrow HAZ), easy automation (no contact, no electrode wear), ability to weld difficult geometries (line-of-sight access only), and clean welds (no slag, no spatter in keyhole mode with proper parameters).
+**Strengths**:
+- Very high welding speed (5-20× faster than TIG for thin materials)
+- Minimal distortion — narrow HAZ and low total heat input
+- Easy automation — no contact, no electrode wear, programmable beam path
 
-**Limitations**: High capital cost ($50,000-500,000 for laser + optics), high reflectivity of copper and gold at common laser wavelengths (requires high power density to initiate keyhole), strict joint fit-up requirements (gap tolerance typically <0.15× material thickness), and safety requirements (Class IV laser — enclosed work cell with interlocked doors, laser safety eyewear rated for the wavelength).
+**Weaknesses**:
+- High capital cost ($50,000-500,000 for laser + optics)
+- Strict joint fit-up requirements (gap tolerance typically <0.15× material thickness)
+- Class IV laser safety requirements — enclosed work cell with interlocked doors, laser safety eyewear rated for the wavelength
 
 ## Diffusion Bonding (Hot Isostatic Press Joining)
 
 > **Node ID**: machine-tools.joining.diffusion-bonding
 
-Diffusion bonding is a solid-state joining process where two atomically clean metal surfaces are brought into intimate contact under pressure at elevated temperature. Atomic diffusion across the interface eliminates the joint line, producing a bond indistinguishable from the parent metal. No melting, no filler, no cast microstructure — the process preserves the wrought microstructure and properties of the base metal.
-
-**Principle**: Three conditions are required simultaneously:
-1. **Temperature**: 50-80% of the absolute melting point (Kelvin). At this temperature, atomic mobility is sufficient for diffusion across the interface within practical timescales.
-2. **Pressure**: 1-10 MPa (uniaxial) or 50-200 MPa (isostatic, via hot isostatic pressing — HIP). Pressure ensures intimate surface contact by plastically deforming surface asperities (microscopic peaks).
-3. **Time**: 30-120 minutes at temperature. Sufficient time for diffusion to eliminate the interface porosity.
-
-**Surface preparation**: Critical — surfaces must be flat and clean. Machine to ≤0.4 μm Ra surface finish, degrease in acetone or alcohol, and assemble immediately. Surface oxide films must be broken by the applied pressure or dissolved by the elevated temperature. Some material combinations benefit from a thin interlayer (e.g., nickel foil between steel and titanium).
+Diffusion bonding is a solid-state joining process where two atomically clean metal surfaces are brought into intimate contact under pressure at elevated temperature. Atomic diffusion across the interface eliminates the joint line, producing a bond indistinguishable from the parent metal.
 
 **Parameters by material combination**:
 
@@ -453,13 +564,16 @@ Diffusion bonding is a solid-state joining process where two atomically clean me
 | Cu-Cu (OFHC) | 800-900 | 3-8 | 30-90 | Vacuum | 95-100% parent |
 | Al 6061 to itself | 450-525 | 5-15 | 60-180 | Vacuum | 85-95% parent |
 | Ti to SS 304 (with Ni interlayer) | 850-950 | 5-10 | 60-120 | Vacuum | 80-90% weaker |
-| Cu to Al (with Ni interlayer) | 450-525 | 5-15 | 60-180 | Vacuum | 80-90% weaker |
 
-**Dissimilar metal joining**: Diffusion bonding excels at joining metals that cannot be fusion-welded together due to formation of brittle intermetallic compounds. The solid-state process limits intermetallic growth to a thin diffusion zone (1-10 μm) rather than the thick, brittle intermetallic layers that form in fusion welding. With appropriate interlayers (Ni, Ag, or Cu foils 1-10 μm thick), joints between titanium/steel, copper/steel, aluminum/steel, and other difficult pairs achieve 80-95% of the weaker parent metal's strength.
+**Strengths**:
+- Joint strength approaches 100% of parent metal — no cast microstructure, no porosity
+- Can join dissimilar metals that are impossible to fusion-weld (titanium to steel, copper to aluminum)
+- Produces zero-distortion joints — no thermal stresses, no warping
 
-**Hot Isostatic Pressing (HIP) bonding**: Instead of uniaxial press, the assembly is placed in a HIP vessel. Argon gas pressure (50-200 MPa) is applied isostatically at elevated temperature. The uniform pressure bonds complex internal surfaces that cannot be reached by uniaxial loading. Used for bonding honeycomb core sandwich panels, internal cooling channels in turbine blades, and complex hollow structures.
-
-**Applications for semiconductor equipment**: Diffusion bonding creates ultra-high vacuum (UHV) chamber joints with zero internal voids and no outgassing weld metal. Used for bonding copper heat sinks to silicon carbide substrates in power electronics, creating hermetic feedthrough assemblies, and fabricating complex internal-channel heat exchangers for laser and power semiconductor cooling.
+**Weaknesses**:
+- Requires vacuum furnace or HIP vessel — major capital equipment
+- Surface preparation is critical — surfaces must be machined to ≤0.4 μm Ra and kept scrupulously clean
+- Long cycle times (30-180 minutes at temperature) — not suitable for high-volume production
 
 ## Vacuum-Specific Welding Applications
 

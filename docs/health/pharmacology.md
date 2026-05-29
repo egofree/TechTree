@@ -66,6 +66,22 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 4. **Strain**: Filter through clean cloth or filter paper. Squeeze marc to recover liquid.
 5. **Dose**: 1 cup (150-200 mL) for pain or fever. Repeat every 4-6 hours. Use within 24 hours.
 
+**Verification**: Taste the decoction — should be bitter (indicating salicin content). Compare color to a previous batch from the same willow species; darker color generally indicates higher extraction yield. No laboratory verification of potency is possible without TLC or HPLC.
+
+**Expected outcome**: Willow bark decoction provides mild analgesic and antipyretic effect comparable to 300-600 mg aspirin, with onset at 30-60 minutes and duration of 4-6 hours. Potency varies 3-fold between batches depending on bark source and preparation.
+
+**Materials**: Willow bark (Salix spp., 30 g dried). Water (500 mL). Pot with lid. Filter cloth or paper. Cup for dosing (150-200 mL).
+
+**Strengths**:
+- Requires no chemical synthesis — bark, water, and heat are the only inputs
+- Willow trees grow in temperate climates worldwide — raw material is widely available
+- Decoction provides analgesic effect even without isolation of the active compound
+
+**Weaknesses**:
+- Potency varies 3-fold between batches due to seasonal variation, tree age, and bark drying conditions
+- Water-based decoction spoils within 24 hours at room temperature — must be prepared fresh daily
+- Salicin is less potent than synthetic aspirin — patients need to consume large volumes of bitter liquid
+
 ### Performing TLC Drug Identity Testing
 
 1. **Prepare plate**: Cut silica-gel TLC plate to size. Draw pencil line 1 cm from bottom (origin).
@@ -73,6 +89,22 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 3. **Develop**: Place in sealed chamber with mobile phase solvent. Remove when solvent reaches ~1 cm from top.
 4. **Visualize**: Dry plate. Examine under UV light (254 nm, 366 nm) or spray with detection reagent.
 5. **Interpret**: Calculate Rf values. Match between test sample and standard confirms identity.
+
+**Verification**: Run a known reference standard on the same plate as the test sample. The Rf value of the test spot must match the standard within ±0.05. Run a blank (solvent only) to confirm no interfering spots from the mobile phase. Document Rf values and spot colors for batch records.
+
+**Expected outcome**: TLC resolves compounds with Rf precision ±0.03 on the same plate. Detection limit: 1-10 μg per spot for UV-active compounds, 0.1-1 μg with spray reagents. Running time: 20-45 minutes per plate depending on mobile phase and plate length.
+
+**Materials**: Silica-gel TLC plate (glass or aluminum backing, 0.2 mm layer thickness). Capillary tubes (1 mm diameter) for sample application. Glass developing chamber with tight lid (e.g., glass jar with ground-glass rim). Mobile phase solvents (ethyl acetate, methanol, chloroform, etc.). UV lamp (254 nm and 366 nm) for visualization. Spray reagents: Dragendorff's (alkaloids), ninhydrin (amino acids), FeCl₃ (phenolics).
+
+**Strengths**:
+- Confirms drug identity against a known reference in under 1 hour — faster and cheaper than any alternative analytical method
+- Requires no electricity for basic operation (UV lamp is the only powered component, and visual spray reagents work without it)
+- Multiple samples can be run on a single plate, enabling batch comparison and impurity screening simultaneously
+
+**Weaknesses**:
+- TLC confirms identity but not purity or potency — two different compounds can have the same Rf value
+- Silica-gel plates require manufacturing capability (sodium silicate + acid precipitation → silica gel → coating on glass/aluminum)
+- Rf values shift with temperature, humidity, and solvent batch — always requires a same-plate reference standard
 
 ### Solvent Extraction Methods
 

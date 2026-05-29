@@ -6,8 +6,20 @@
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 20-35
 > **Outputs**: graphite_electrodes, carbon_electrodes, electrode_paste
+> **Critical**: Yes — electrodes are the critical consumable in electric arc and submerged arc furnaces; no electrodes means no electric furnace operation
 
 ### Overview
+
+**Strengths**:
+- Electrodes enable the highest-temperature industrial processes (EAF, SAF) that no other furnace type can achieve
+- Self-baking (Søderberg) electrodes simplify manufacturing — no separate graphitization step
+- Carbon electrodes work at reduced performance without graphitization — bootstrapping is possible
+
+**Weaknesses**:
+- Graphitization requires 2,500-3,000°C — typically produced by the same electric furnaces that consume the electrodes (circular dependency)
+- Petroleum coke is a petroleum refining byproduct — supply depends on oil industry
+- Baking cycle takes 2-4 weeks — slow production rate limits throughput
+- Electrode quality directly affects furnace performance — impurities cause premature failure
 
 Electrodes are the critical consumable component of electric arc furnaces (EAF) and submerged arc furnaces (SAF). They conduct electrical current into the furnace, withstand temperatures of 3000°C in the arc zone, and resist oxidation and thermal shock while being slowly consumed at 2-8 kg per tonne of steel (EAF) or 30-60 kg per tonne of silicon (SAF). Manufacturing graphite electrodes is a multi-step process that requires baking and graphitization at extremely high temperatures — creating a bootstrapping challenge since those high temperatures are themselves typically produced by electric arc furnaces running on the very electrodes being produced. For the furnace context, see [electric-furnaces.md](electric-furnaces.md).
 

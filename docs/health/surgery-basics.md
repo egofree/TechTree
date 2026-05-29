@@ -68,6 +68,22 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 4. **Debride dead tissue**: Excise necrotic (gray, non-bleeding) tissue and contaminated wound edges with scalpel or scissors. Healthy tissue bleeds when cut. Debridement converts a contaminated wound into a clean surgical wound.
 5. **Disinfect the wound edges**: Paint the skin surrounding the wound with povidone-iodine (10% solution, diluted to 1% for open wounds) or 70% ethanol. Do not put disinfectant inside the wound itself — it damages healthy tissue and impairs healing.
 
+**Verification**: After preparation, confirm that all visible debris has been removed, bleeding is controlled, and wound edges are clean and viable (pink, bleeding). Check distal neurovascular status (pulse, sensation, motor function). Document wound dimensions and classification (clean, clean-contaminated, contaminated, dirty).
+
+**Expected outcome**: Proper wound preparation reduces bacterial load by >99% through combined mechanical irrigation and chemical antisepsis. Clean wounds prepared within 6 hours of injury have <5% infection rate with primary closure.
+
+**Materials**: Syringe (20-60 mL) with 18-gauge needle for pressurized irrigation. Sterile saline or clean water (200-500 mL per wound). Povidone-iodine 10% solution (diluted to 1% for wound edges). Sterile gauze (10×10 cm squares). Scalpel or scissors for debridement. Forceps for debris removal.
+
+**Strengths**:
+- Pressurized irrigation mechanically removes bacteria and debris more effectively than any chemical antiseptic alone
+- Debridement converts a contaminated irregular wound into a clean surgical wound with predictable healing
+- Technique is achievable with basic equipment — syringe, clean water, and antiseptic
+
+**Weaknesses**:
+- Wound age >6 hours dramatically increases infection risk regardless of preparation quality
+- Antiseptics (povidone-iodine, ethanol) damage healthy tissue in the wound bed — use only on intact skin surrounding the wound
+- Irrigation fluid volume of 200-500 mL per wound requires significant clean water supply in mass casualty situations
+
 ### Suturing Technique
 
 1. **Select suture material**: Non-absorbable (silk, nylon) for skin closure. Absorbable (catgut) for deep tissue and ligatures. Suture sizes: 3-0 or 4-0 for skin, 2-0 for fascia, 0 or 1 for deep tissue.
@@ -76,12 +92,44 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 4. **Check approximation**: Wound edges should be everted (slightly turned outward) — this produces a flat scar. Inverted edges heal with a depressed scar. If edges are under tension, use mattress sutures (vertical or horizontal) to distribute force.
 5. **Dress the wound**: Apply thin layer of antiseptic ointment if available. Cover with sterile gauze. Secure with bandage. Change dressing at 24-48 hours, then every 2-3 days unless signs of infection develop.
 
+**Verification**: After suturing, inspect wound approximation under good lighting — edges should be everted (slightly turned outward) with no gaps. Verify hemostasis (no bleeding through the suture line). Check distal neurovascular status (pulse, sensation, motor function). Document number of sutures placed and suture material used.
+
+**Expected outcome**: Properly approximated wounds heal by primary intention with tensile strength reaching 20% at 3 weeks, 50% at 4 months, and 80% at 1 year. Infection rate for clean wounds closed with sterile technique: <5%. Suture marks (from leaving sutures too long) are avoidable by removing at the correct interval.
+
+**Materials**: Suture material: silk 3-0 or 4-0 for skin (diameter 0.15-0.20 mm, breaking strength 1.0-2.5 kg). Needle holder (Mayo-Hegar, 6 inch). Tissue forceps (Adson, 1×2 teeth). Scalpel with #15 blade. Sterile gauze (10×10 cm). Antiseptic ointment (optional). Bandage material (cotton/linen, 1-3 m).
+
+**Strengths**:
+- Simple interrupted sutures allow individual removal and wound inspection without disrupting the entire closure
+- Square knots (2 throws for silk, 3-4 for monofilament) provide reliable wound approximation without special instruments
+- Technique is learnable in 10-20 practice sessions on pig feet or banana peels before patient contact
+
+**Weaknesses**:
+- Suturing under tension causes tissue ischemia and wound dehiscence — wound edges must approximate without force
+- Needlestick injuries during suturing are a leading cause of bloodborne pathogen exposure for the operator
+- Suture removal requires the correct timing per body area (5-7 days for face, 10-14 days for extremities) — missed removal causes scarring
+
 ### Sterilization Procedures
 
 1. **Steam sterilization (autoclave)**: Wrap instruments in cloth or place in sterilization container. Process at 121°C (15 psi steam pressure) for 15 minutes (unwrapped) or 30 minutes (wrapped). For larger packs or porous loads: 132°C (27 psi) for 4 minutes (prevacuum) or 121°C for 30 minutes (gravity). Allow to dry before removing. Instruments remain sterile in sealed packs for up to 30 days.
 2. **Boiling**: Submerge instruments in boiling water (100°C) for 30 minutes. Kills vegetative bacteria and most viruses. Does NOT kill bacterial spores (Clostridium tetani, C. perfringens). Boiling is a fallback method when no autoclave is available.
 3. **Chemical sterilization**: Soak in 2% glutaraldehyde for 10 hours (full sterilization) or 70% ethanol for 30 minutes (high-level disinfection). Glutaraldehyde requires advanced chemical synthesis. Ethanol soak is the most practical bootstrap option for heat-sensitive items.
 4. **Dry heat**: Bake instruments in oven at 160°C for 2 hours or 170°C for 1 hour. Kills all organisms including spores. Suitable for metal instruments and glass syringes. Does not corrode sharp edges (unlike steam).
+
+**Verification**: For each autoclave load, include a biological indicator (Geobacillus stearothermophilus spore strip) in the most difficult-to-sterilize location (center of wrapped pack). Incubate at 55-60°C for 48 hours. No growth = sterile. Chemical indicators (autoclave tape) on every pack confirm temperature reached but do not confirm sterility.
+
+**Expected outcome**: Autoclave at 121°C for 30 minutes achieves sterility assurance level (SAL) of 10⁻⁶. Boiling at 100°C for 30 minutes kills vegetative bacteria and most viruses but NOT bacterial spores (Clostridium tetani, C. perfringens). Instruments remain sterile in sealed cloth packs for up to 30 days.
+
+**Materials**: Autoclave (pressure vessel rated to 30 psi, temperature gauge 0-150°C, safety relief valve set to 20 psi). Sterilization wrap (cotton muslin or paper pouches). Biological indicators (spore strips). Chemical indicators (autoclave tape, changes pattern at 121°C). Heat-resistant gloves for loading/unloading.
+
+**Strengths**:
+- Steam sterilization kills all organisms including spores — the only method that guarantees complete sterility
+- Chemical indicators on every pack provide immediate visual confirmation that the cycle ran correctly
+- Wrapped instruments remain sterile for 30 days, allowing advance preparation of instrument sets
+
+**Weaknesses**:
+- Autoclave requires a pressure vessel — construction demands competent welding and hydrostatic testing at 1.5× working pressure
+- Boiling does not kill spores — instruments used for penetrating wounds (where tetanus risk is high) must be autoclaved or dry-heated
+- Sterile technique breaks down if packs are touched with non-sterile hands or placed on contaminated surfaces
 
 ## Quantitative Parameters
 

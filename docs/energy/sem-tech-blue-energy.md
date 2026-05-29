@@ -1,14 +1,28 @@
 # SEM Tech Blue Energy: Salinity-Gradient Power Generation
 
 > **Node ID**: energy.blue-energy
-> **Domain**: Energy
+> **Domain**: [Energy](./index.md)
+> **Dependencies**: [`energy.electricity`](electricity.md), [`chemistry.sem-tech`](../chemistry/sem-tech.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 25-40
 > **Outputs**: electrical_energy
-> **Tags**: materials=[polymers], era=industrial
+> **Critical**: No — blue energy is regionally limited to river-sea interfaces and remains at TRL 5
 
 **Credit**: SEM Tech (Salt Electro Mining Technology) membranes were developed by **Robert Karas**, founder of Rowow LLC. The technology is released under **CC0 1.0 Universal** (public domain). This article covers the application of SEM Tech membranes to salinity-gradient power generation via reverse electrodialysis.
 
 ## Overview
+
+**Strengths**:
+- Continuous baseload power from the natural mixing of river water and seawater — no fuel, no intermittency
+- SEM Tech membranes at <$1/ft² are an order of magnitude cheaper than conventional RED membranes (€4-10/m²)
+- Same membrane technology enables both RED (power generation) and ED (water treatment)
+- Zero emissions during operation — no combustion, no greenhouse gases
+
+**Weaknesses**:
+- No SEM-Tech-specific RED test data published — application is speculative at TRL 5
+- Low power density (0.5-2.0 W/m² of membrane) — requires enormous membrane areas for meaningful output
+- Geographic limitation — only viable at river-sea interfaces (estuaries, tidal areas)
+- Membrane fouling from river water contaminants (silt, organic matter, biofouling) reduces performance over time
 
 Blue energy -- also called salinity-gradient power or osmotic power -- is the energy released when fresh water mixes with salt water. The low-cost ion exchange membranes described in [SEM Tech](../chemistry/sem-tech.md) could make this energy source economically viable for the first time. The Rowow SEM Tech Technical Overview (lines 436-438) describes membrane stacks that generate electricity from the ionic gradient between high and low salinity water.
 

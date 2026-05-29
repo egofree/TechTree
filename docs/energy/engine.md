@@ -34,6 +34,16 @@ Invented by Nikolaus Otto (1876). The dominant engine for road vehicles and smal
 
 **Ignition system**: Battery-powered ignition coil steps 6-12V to 10,000-40,000V. Distributor routes high voltage to spark plugs in firing order. Spark timing: 5-40° before TDC (advances with engine speed). Later: electronic ignition replaces points and distributor.
 
+**Strengths**:
+- High power-to-weight ratio (0.5-5 kW/kg) enables motorized transport and aviation
+- Thermal efficiency 25-35% — better than any steam engine of comparable size
+- Starts quickly — reaches operating temperature in seconds, no boiler warm-up
+
+**Weaknesses**:
+- Requires refined liquid fuel (gasoline) or precise fuel injection (diesel)
+- Complex moving parts (valves, pistons, crankshaft) require precision machining
+- High operating temperatures stress materials — cylinder heads exceed 200°C sustained
+
 ### Diesel Cycle
 
 Invented by Rudolf Diesel (1892). Higher efficiency than Otto cycle, used for trucks, heavy equipment, ships, and generators.
@@ -51,6 +61,16 @@ Invented by Rudolf Diesel (1892). Higher efficiency than Otto cycle, used for tr
 - **Glow plugs**: Electric heaters in combustion chamber for cold starting (heat compressed air above auto-ignition temperature). Required below ~5°C ambient. Draw 5-15A each, preheat 3-15 seconds before cranking.
 
 **Turbocharging**: Exhaust gas turbine drives compressor that forces more air into cylinders. Increases power output 30-100% for same displacement. Nearly universal on modern diesels. Boost pressure 0.5-2.5 bar gauge. Turbocharger spins at 80,000-250,000 RPM — requires precision bearings lubricated by engine oil. Intercooler cools compressed air before intake (cooler air = denser = more oxygen = more power).
+
+**Strengths**:
+- Highest thermal efficiency of any internal combustion engine (35-45%)
+- Runs on less refined fuel than gasoline engines — diesel fuel is easier to produce
+- Higher torque at low RPM — better for heavy loads and generators
+
+**Weaknesses**:
+- Requires extremely high-pressure fuel injection (100-2000 bar) — precision machining of injector nozzles (0.1-0.3 mm orifices)
+- Heavier construction needed to withstand higher cylinder pressures (80-200 bar peak)
+- Cold starting below 5°C requires glow plugs — electrical preheating adds complexity
 
 ### Materials of Construction
 

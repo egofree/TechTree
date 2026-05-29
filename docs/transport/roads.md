@@ -25,6 +25,16 @@
 - **Stone arch bridge**: Spans 5-30+ m. Build timber centering (temporary falsework) in arch shape. Lay stone voussoirs (wedge-shaped stones) from both abutments toward center. Place keystone. Remove centering. Arch is self-supporting — load transfers horizontally to abutments. Extremely durable (centuries). Requires skilled masonry.
 - **[Truss bridge](../glossary/truss-bridge.md)** (the Machine Tools-Energy stage transition): Triangular framework of iron or steel members. Pratt or Howe truss design. Spans 20-100+ m. Calculate member sizes from expected loads (dead load + live load + wind load with safety factor of 2-4). Connections: riveted or pinned. Much faster to erect than stone arch.
 
+**Strengths**:
+- Macadam road (three layers of progressively finer stone) handles heavy cart traffic in all weather
+- Stone arch bridges last centuries with minimal maintenance — load transfers horizontally to abutments
+- Truss bridges span 20-100+ m with iron/steel — far beyond timber beam limits
+
+**Weaknesses**:
+- Dirt roads become impassable mud in wet weather — require gravel or macadam surfacing
+- Timber beam bridges limited to 10 m spans and need replacement every 10-20 years
+- Stone arch construction requires skilled masonry and timber centering (temporary falsework)
+
 ### Wheeled Vehicles
 
 **Cart construction** (Metallurgy):

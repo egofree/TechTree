@@ -37,33 +37,65 @@ The distinction matters: a library of technical manuals without a structured pat
 
 Break each target capability into discrete, assessable sub-skills. For example, machining decomposes into: tool sharpening, basic turning, facing, drilling, boring, threading, milling, and grinding. Each sub-skill has defined entry requirements, practice hours, and assessment criteria.
 
+**Strengths**: Produces explicit, testable skill units — no ambiguity about what "competent" means for each sub-skill. Enables parallel development of curriculum modules by different instructors.
+
+**Weaknesses**: Over-decomposition risks fragmenting holistic skills into disconnected micro-tasks. Requires domain experts to define meaningful sub-skill boundaries — no generic method works across all trades.
+
 ### 2. Curriculum Sequencing
 
 Order sub-skills so that each builds on previously mastered ones. The prerequisite chain must be acyclic — no skill requires a skill that depends on it. Map the skill dependency graph explicitly before designing the curriculum.
+
+**Strengths**: Ensures every student encounters prerequisites before advanced material — eliminates the "you should already know this" failure mode. The acyclic dependency graph prevents circular teaching deadlocks.
+
+**Weaknesses**: Long prerequisite chains create bottlenecks — a student who struggles at one gate blocks all downstream skills. Real-world skills sometimes have mutual dependencies that resist clean linear ordering.
 
 ### 3. Assessment Gate Design
 
 At each gate, the student demonstrates competency under observation. Pass criteria are quantitative: dimensional tolerance ±X mm, surface finish ≤X μm Ra, calculation accuracy within X%. Students who fail a gate repeat the preceding module — no advancement with gaps.
 
+**Strengths**: Quantitative pass criteria (±0.05 mm, 1.6 μm Ra) produce objective, reproducible assessments — two examiners reach the same verdict. Prevents advancement with skill gaps that would cause failures in downstream modules.
+
+**Weaknesses**: Gate failures require repeating the entire preceding module — costly in time and materials. Rigid gate criteria may not accommodate students who are competent by alternative methods.
+
 ### 4. Certification Levels
 
 Define named certification levels with explicit requirements. A journeyman machinist certification requires passing all gates in the machining curriculum, producing a journeyman piece to specification, and passing a written examination on theory.
+
+**Strengths**: Named levels (novice → journeyman → master) provide clear career progression and enable employers to specify minimum qualification requirements. Certification is portable between workshops — a journeyman's credential is recognized civilization-wide.
+
+**Weaknesses**: Certification standards must be maintained consistently across all training sites — without calibration, a journeyman from one site may have very different skills than a journeyman from another. Certification creates a bureaucratic layer that requires administrative resources.
 
 ### 5. Curriculum Maintenance
 
 Review and update each curriculum annually. Collect performance data from recent graduates: time to first independent production, error rate in first year, supervisor assessments of readiness. Compare against curriculum objectives. Modules where more than 30% of students struggle may need redesign — either the prerequisites are insufficient, the teaching method is ineffective, or the module scope is too large.
 
+**Strengths**: Data-driven curriculum revision (30% struggle threshold) catches failing modules before they produce cohorts of underprepared graduates. Graduate tracking provides objective feedback on curriculum effectiveness — not just instructor opinion.
+
+**Weaknesses**: Annual review requires data collection infrastructure and master practitioners willing to serve on review committees — ongoing labor cost. Frequent revisions frustrate instructors who must continuously update their teaching materials.
+
 ### 6. Cross-Domain Bridge Modules
 
 Design short modules (20-40 hours) that connect knowledge between domains. A machinist who understands basic metallurgy makes better cutting parameter decisions. A chemist who has operated a furnace scales up reactions more reliably. Bridge modules are not full cross-training but targeted conceptual links that improve decision quality in the practitioner's primary domain.
+
+**Strengths**: Short duration (20-40 hours) delivers high value per hour — practitioners gain cross-domain insight without full retraining. Improves decision quality in the primary domain — a machinist who understands phase diagrams selects better cutting parameters.
+
+**Weaknesses**: Bridge modules compete for time in an already crowded curriculum — adding modules means extending the training timeline or cutting depth elsewhere. Designing effective bridge modules requires instructors who understand both domains — a scarce combination.
 
 ### 7. Annual Curriculum Review Cycle
 
 Establish a fixed annual cycle for curriculum updates. Month 1: collect data from the past year (assessment results, graduate feedback, employer reports). Month 2-3: working group of 3-5 master practitioners reviews data and proposes revisions. Month 4: revised curriculum draft circulated for comment. Month 5: final revisions approved. Month 6: updated materials printed and distributed. This cycle ensures the curriculum evolves with practice while maintaining stability (most revisions are minor adjustments, not overhauls).
 
+**Strengths**: Fixed 6-month cycle prevents curriculum drift — revisions happen on schedule, not when someone remembers to initiate them. Working group of 3-5 masters prevents single-viewpoint bias in revision decisions.
+
+**Weaknesses**: 6-month cycle from data collection to distribution means curriculum lags behind practice by up to a year. Printing and distributing updated materials requires [Printing](printing.md) capacity each cycle.
+
 ### 8. Practitioner Exchange Program
 
 Arrange for journeymen from one workshop to spend 2-4 weeks at another workshop, learning different methods and approaches. This prevents local skill stagnation and spreads innovations. Budget one exchange per journeyman per year. The hosting workshop benefits from the visiting practitioner's fresh perspective; the visitor brings back new techniques to their home workshop.
+
+**Strengths**: Prevents local skill stagnation — each workshop's methods are stress-tested against alternatives from visiting practitioners. 2-4 week duration is short enough to avoid production disruption but long enough for meaningful skill transfer.
+
+**Weaknesses**: Travel logistics and accommodation costs may be prohibitive for distant workshops. The visiting practitioner is temporarily less productive than a local worker familiar with the specific equipment and procedures.
 
 ## Quantitative Parameters
 
@@ -143,17 +175,33 @@ Arrange for journeymen from one workshop to spend 2-4 weeks at another workshop,
 
 The historical default: a single master trains 1-3 apprentices over 4-7 years. Maximum skill depth, minimum throughput. Viable when: practitioner demand is low (a few dozen specialists), the knowledge is predominantly tacit (hands-on skill that cannot be written down), and time pressure is low.
 
+**Strengths**: Maximum skill depth — 4-7 years of one-on-one mentorship produces practitioners with deep tacit knowledge. Minimal infrastructure — a single workshop with a master practitioner suffices.
+
+**Weaknesses**: Throughput of 1-3 graduates per master per cycle is insufficient for rapid civilization-scale scaling. Knowledge quality depends entirely on a single master's competence — no peer review or standardization.
+
 ### Polytechnic/Trade School Pathway
 
 Formalized 2-4 year program with structured curriculum, multiple instructors, standardized assessments. Moderate skill depth, high throughput (20-40 graduates per year per school). Viable when: textbook infrastructure exists ([Printing](printing.md)), demand exceeds apprenticeship capacity, and standardized quality is required across multiple production sites.
+
+**Strengths**: High throughput (20-40 graduates/year/school) meets industrial demand that apprenticeship cannot. Standardized assessments ensure consistent quality across all graduates.
+
+**Weaknesses**: Requires textbook infrastructure ([Printing](printing.md)) and multiple qualified instructors — unavailable at the earliest bootstrap stages. Shorter duration than apprenticeship may sacrifice deep tacit skill development.
 
 ### University Research Pathway
 
 4-8 year program combining theoretical foundations with original research. Produces innovators, not just practitioners. Required for advancing beyond known techniques into novel territory (semiconductor physics, advanced metallurgy). Minimum viable university: 5-10 faculty, 30-50 students, library of 1,000+ volumes, laboratory facilities.
 
+**Strengths**: Produces innovators who can advance beyond known techniques — required for breakthroughs in semiconductor physics, advanced metallurgy, and other frontiers. Research output generates new knowledge for the civilization.
+
+**Weaknesses**: Highest infrastructure requirement (library, labs, qualified faculty) — only viable at later stages of development. 4-8 year program length and theoretical emphasis means graduates may lack hands-on production skills.
+
 ### Competency-Based Training
 
 No fixed time requirements — students advance when they demonstrate competency, not when calendar time expires. Efficient for experienced practitioners crossing domains (e.g., a blacksmith learning machining). Requires robust assessment infrastructure and self-paced learning materials.
+
+**Strengths**: Efficient for experienced practitioners crossing domains — a skilled blacksmith may achieve machining competency in months rather than years. Self-paced materials allow individuals to learn at their own speed without holding back a class.
+
+**Weaknesses**: Requires robust assessment infrastructure to verify competency at each gate — more assessment events per student than time-based programs. Self-paced learning demands high student motivation and discipline — not all learners thrive without structured schedules.
 
 ### Comparison Table
 

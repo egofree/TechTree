@@ -53,6 +53,34 @@ Water power converts the gravitational potential energy of flowing or falling wa
 - **Power output**: 2-8 HP at typical flows. Well-suited to moderate-gradient streams.
 - **Advantages**: Good efficiency without requiring the tall structure of an overshot wheel. Works with heads too low for overshot but too high for undershot efficiency gains.
 
+**Materials**:
+- [Oak frame and spokes](../plants/index.md) (5-10 cm thick structural members)
+- [Curved paddles or iron buckets](../metals/iron-steel.md) (2-3 mm sheet iron, shaped to hold water)
+- [Iron bands and tie-rods](../metals/iron-steel.md) (15-25 mm round bar)
+- [Iron axle](../metals/iron-steel.md) (30-50 cm diameter) or [wooden axle](../plants/index.md)
+- [Stone or timber breast wall](../mining/index.md) (fitted around lower wheel arc with <10 mm clearance)
+
+**Calibration / Verification**:
+1. Measure head between headrace water level and tailrace water level (target: 1-3 m).
+2. Verify breast wall clearance around the wheel — maximum 10 mm gap. Gaps larger than 20 mm allow water to spill without doing work.
+3. Measure wheel RPM at design flow (target: 3-12 RPM).
+4. Check bucket filling — at operating speed, buckets should fill to 60-80% capacity without spilling over the sides.
+
+**Expected Performance**:
+- Efficiency: 35-50% (improved by breast wall seal quality)
+- Power output: 2-8 HP (1.5-6 kW) at typical flows
+- Shaft speed: 3-12 RPM
+
+**Strengths**:
+- Good efficiency (35-50%) without requiring tall headrace structures
+- Works with moderate heads (1-3 m) that are common on small streams
+- Iron buckets and tight breast wall push efficiency toward 55%
+
+**Weaknesses**:
+- Efficiency depends heavily on breast wall seal — worn or loose walls waste 10-20% of power
+- Requires a headrace delivering water at axle height — more civil engineering than undershot
+- Seasonal flow variation reduces output during dry periods
+
 **[Overshot wheel](../glossary/overshot-wheel.md)** (highest efficiency water wheel — requires significant head):
 - **Principle**: Water is delivered to the top of the wheel via a headrace and sluice, filling buckets at the crown. Water's weight in descending buckets drives the wheel — primarily a gravity machine, not an impulse machine. Buckets empty at the bottom into the tailrace.
 - **Efficiency**: ~60-70%. Approaches the theoretical maximum for a gravity wheel because nearly all potential energy is captured.
@@ -62,6 +90,36 @@ Water power converts the gravitational potential energy of flowing or falling wa
 - **Power output**: 3-15+ HP for typical installations. Exceptional historical wheels reached 50-60 HP.
 - **Advantages**: Highest efficiency of all water wheels, relatively constant power output if pond level is maintained, works well even with variable stream flow (pond acts as buffer).
 - **Limitations**: Requires significant head (at least 2-3 m, ideally 4-8 m). Needs a dam or weir to create the mill pond. More complex civil engineering (headrace, sluice, tailrace). Vulnerable to floods and ice damage.
+
+**Materials**:
+- [Oak frame with closely spaced buckets](../plants/index.md) (5-10 cm thick members, 30-80 buckets per wheel)
+- [Iron tie-rods and bolts](../metals/iron-steel.md) (15-25 mm round bar, prevents spreading)
+- [Iron axle](../metals/iron-steel.md) (40-60 cm diameter, forged or cast) preferred; wooden axle acceptable for smaller wheels
+- [Stone or iron bearings](../metals/index.md) lubricated with [tallow](../animals/index.md)
+- [Wooden headrace/flume](../plants/index.md) (timber, 0.5-1.0 m wide, 10-100+ m length)
+
+**Calibration / Verification**:
+1. Measure available head from mill pond surface to tailrace water level (target: 3-10 m).
+2. Verify sluice gate opens and closes freely — gate must seal within 5 mm when fully closed to stop the wheel.
+3. Check bucket spacing: buckets should retain water throughout descent with no spill over the crown. Maximum bucket gap: 50-80 mm.
+4. Measure wheel RPM at full sluice opening (target: 3-10 RPM). Faster indicates undersized wheel; slower indicates excessive friction.
+5. Verify tailrace clearance: at maximum flow, tailrace water level must be at least 30 cm below the lowest bucket to prevent back-drag.
+
+**Expected Performance**:
+- Efficiency: 60-70% (highest of all water wheel types)
+- Power output: 3-15+ HP (2.2-11+ kW) depending on head and flow
+- Shaft speed: 3-10 RPM
+- Mill pond buffer: 50-200 m³ provides hours of full-power operation during low-flow periods
+
+**Strengths**:
+- Highest efficiency of all water wheels (60-70%)
+- Pond acts as buffer — relatively constant output even with variable stream flow
+- Gravity-driven — lower mechanical stress than impulse-type wheels
+
+**Weaknesses**:
+- Requires significant head (2-3 m minimum, 4-8 m ideal) — limits site selection
+- Needs dam or weir plus headrace — substantial civil engineering
+- Vulnerable to flood damage and winter icing of headrace
 
 ### Dam and Mill Pond Construction
 
@@ -82,6 +140,34 @@ Water turbines replace water wheels where higher heads and efficiencies are avai
 - **Construction**: Cast iron or bronze runner with forged steel buckets. Buckets split the jet in half (splitter ridge) and redirect it ~165° for maximum momentum transfer. Nozzle diameter 5-50 mm, jet velocity = √(2gH) — at 100 m head, jet velocity ~44 m/s. Often multiple nozzles (2-6) on a single runner for more power at partial flow.
 - **Power output**: 1-500+ HP. Small units (5-20 HP) are practical for mountainous sites.
 - **Advantages**: Excellent for high-head, low-flow sites. Simple, robust, tolerant of debris (large buckets don't clog easily). Easy to govern (deflect jet or vary nozzle opening).
+
+**Materials**:
+- [Cast iron or bronze runner hub](../metals/index.md) (200-500 mm diameter)
+- [Forged steel buckets](../metals/iron-steel.md) (bolted to hub, splitter ridge machined to ±1 mm)
+- [Converging needle nozzle](../metals/iron-steel.md) (bronze or steel, 5-50 mm jet diameter)
+- [Steel penstock pipe](../metals/iron-steel.md) (100-300 mm diameter, rated to 10-50 bar)
+
+**Calibration / Verification**:
+1. Measure jet velocity: v = √(2gH). At 100 m head, v ≈ 44 m/s. Verify nozzle diameter produces target flow (Q = A × v).
+2. Check bucket splitter ridge alignment — must bisect the jet within ±2 mm. Misalignment wastes 5-10% efficiency.
+3. Measure runner speed at full flow (target: approximately half the jet velocity for maximum efficiency).
+4. Verify bearing temperature after 2 hours of operation (target: <60°C with grease lubrication).
+
+**Expected Performance**:
+- Efficiency: 85-91% at design flow
+- Power output: 1-500+ HP (0.7-370+ kW)
+- Runner speed: 200-1,000 RPM
+- Head range: 30-1,000+ m
+
+**Strengths**:
+- Highest efficiency of any turbine type at high head sites (up to 91%)
+- Operates in air — no submerged runner, simplifies maintenance
+- Tolerant of debris — large bucket openings don't clog
+
+**Weaknesses**:
+- Limited to high-head sites (>30 m) — useless on low-gradient rivers
+- Nozzle erosion from high-velocity water and suspended sediment requires periodic replacement
+- Jet deflection for governing wastes water — less efficient at partial load than variable-guide-vane designs
 
 **[Francis turbine](../glossary/francis-turbine.md)** (reaction turbine — medium head, medium flow):
 - **Principle**: Water enters the runner radially from a spiral casing (volute), passes through adjustable guide vanes (wicket gates) that direct flow at the optimal angle, then flows through the runner blades and exits axially via the draft tube. Both pressure and velocity drop across the runner — a true reaction machine.

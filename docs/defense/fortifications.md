@@ -45,6 +45,32 @@ The critical design principle for all fortifications is layered defense in depth
 
 **Ditch and bank**: Earth excavated from ditch (2-3 m wide x 1.5-2.0 m deep) thrown up as rampart on inner side. Rampart height: 1.5-3.0 m above ground level. Ditch profile: V-shaped (harder to climb out) or rectangular with revetted walls (requires timber or stone facing). Multiple ditches increase obstacle depth: 3 ditches x 2 m spacing = 10 m total obstacle zone.
 
+**Construction (palisade, per 20 m section)**:
+
+1. Fell and debark 100-150 hardwood logs (oak or chestnut), 15-30 cm diameter, 3-4 m length. Point one end with axe (60° point, 15-20 cm taper). Fire-harden pointed tips: hold over fire 5-10 minutes to char surface — hardens wood and deters rot.
+
+2. Dig continuous trench: 0.5 m wide × 1.0 m deep along the defensive line. Trench bottom level within ±50 mm over 20 m run.
+
+3. Set logs vertically in trench: pointed end up, spaced touching or with ≤50 mm gaps. Place 5-10 logs at a time, brace temporarily with cross-poles. Fill trench around logs with compacted earth and rubble — tamp in 100 mm lifts.
+
+4. Backfill and compact: earth and rubble packed around log bases to within 100 mm of ground level. Top with clay cap to shed water away from log bases.
+
+5. Optional: plaster exposed surfaces with clay or smear with wet earth to improve fire resistance.
+
+**Verification**: Push test — 2 men push horizontally at log top. Accept: no visible deflection >50 mm. Fire test: apply torch to clay-plastered section for 30 seconds — accept if clay layer prevents ignition of log beneath.
+
+**Expected performance**: Stops infantry assault and cavalry charge. Log wall resists hand weapons. Vulnerable to fire (counter: clay plaster), sapping (counter: counter-mining), and determined ram assault (counter: reinforced gate). Construction rate: 8-12 m per 20-person work party per day. Log lifespan: 5-15 years (ground contact rot; extends to 15-20 years if charred at ground line or set in stone plinth).
+
+**Strengths**:
+- Rapid construction — 8-12 m per day with 20 workers; full village perimeter possible in 3-5 days
+- No specialized skills required — basic woodworking and digging only
+- Effective barrier against infantry assault and cavalry charge with minimal resources
+
+**Weaknesses**:
+- Vulnerable to fire — dry logs ignite readily; clay plaster is a partial counter only
+- Logs rot at ground contact — 5-15 year lifespan unless replaced at ground line with stone
+- No protection against determined ram assault — requires supplementary ditch and abatis
+
 ### Earthwork Fortifications (Years 5-15)
 
 **Earthen rampart**: Compacted earth and clay, 3-8 m height, 60 degree slope on outer face (steeper requires revetment), 30-45 degrees on inner face for easy access. Crown width: 2-4 m (accommodates defenders walking and fighting). Construction: layered earth (0.3-0.5 m lifts) compacted by tamping. Core: alternate layers of earth and gravel for drainage. Turf facing on outer slope prevents erosion. Rampart volume: 1 m of 5 m high rampart requires ~15 m3 of earth -- 200-300 worker-days per 100 m of rampart.
@@ -64,6 +90,32 @@ The critical design principle for all fortifications is layered defense in depth
 **Gatehouse**: Most vulnerable point -- heaviest fortification. Twin flanking towers (8-12 m diameter) flanking gate passage (3-4 m wide x 4-5 m high). Defensive features: portcullis (iron-bound oak grating, 3-5 m wide x 3-4 m high, 500-1500 kg, raised by winch chain), murder holes (holes in gatehouse ceiling for pouring boiling water/oil or dropping rocks), drawbridge (3-4 m span, counterweighted or chain-lifted), iron-bound oak gates (5-10 cm thick planks, reinforced with iron straps). Second portcullis creates trapped killing zone between inner and outer gates.
 
 **Machicolations**: Stone projections at wall top with openings (machicoulis) for dropping projectiles vertically onto attackers at wall base. Projection: 0.5-1.0 m beyond wall face. Opening width: 20-30 cm. Replaced wooden hoarding (covered wooden gallery projecting from wall, vulnerable to fire).
+
+**Construction (stone curtain wall section, per 10 m run)**:
+
+1. Excavate foundation trench: 1.5-2.0 m deep to subsoil, width = wall base width + 500 mm each side. Bottom must be level and on competent soil (bearing >100 kN/m²). Compact subgrade.
+
+2. Lay foundation course: largest, flattest stones, bedded in lime mortar. Full bearing on each stone — no rocking. Level within ±5 mm per stone. Course height: 300-500 mm.
+
+3. Build ashlar facing (outer and inner): Dress each stone to ±3 mm on all faces. Lay in courses 150-300 mm high. Maintain bond pattern (overlap ≥100 mm or ≥1/3 stone length). Mortar joints: 5-10 mm, filled flush.
+
+4. Fill core with rubble and mortar: angular stone fragments 50-200 mm, bedded in lime mortar poured and tamped in 300 mm lifts. Insert through-stones (full-width stones) every 1.5 m vertically and every 2 m horizontally.
+
+5. Build wall walk: 1.5-2.5 m wide behind parapet. Stone flags or timber decking on corbeled stone supports. Parapet height: 1.5-2.0 m with crenellations (merlon width 1.5-2.5 m, crenel width 0.5-0.8 m).
+
+**Verification**: Plumb check every 1 m height — deviation ≤10 mm per 3 m. Tap test each stone — solid ring confirms full mortar bed. Joint measurement: 5-10 mm, checked on 20 random joints per course. Rate: 2-5 m of wall height per year for 100-m crew (dressing stone is the bottleneck at 5-10 stones per mason per day).
+
+**Expected performance**: Wall resists hand weapons, arrows, and small siege engines. Requires cannon bombardment or mining to breach (50-200 shots to open 2 m breach in 2 m wall). Construction time: 6-18 months per 100 m of curtain wall with 50-100 workers. Material: 1,600 m³ stone and 200 m³ mortar per 100 m of 8 m × 2 m wall.
+
+**Strengths**:
+- Extremely durable — stone walls last centuries with minimal maintenance
+- Resists all pre-gunpowder siege weapons except mining
+- Provides elevated fighting platform with cover for defenders
+
+**Weaknesses**:
+- Extremely labor-intensive — 5,000-10,000 worker-days per 100 m of curtain wall
+- Requires skilled stonemasons and organized lime mortar production
+- Vertical profile vulnerable to cannon fire — post-gunpowder fortifications require lower, thicker earthwork design
 
 ### Castle Architecture (Years 15-40)
 

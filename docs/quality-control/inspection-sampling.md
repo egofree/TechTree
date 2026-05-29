@@ -48,11 +48,64 @@ The gap between AQL and LTPD defines the discrimination ability of the sampling 
 
 **Single sampling**: Draw one sample of size n from the lot. If the number of defects d ≤ acceptance number c, accept the lot. If d > c, reject. Simplest plan, easiest to administer.
 
+**Strengths**:
+- Simplest plan to administer — one sample, one decision, no ambiguous intermediate states
+- Easiest for inspector training — clear accept/reject criterion with no follow-up needed
+- Predictable sample size — every lot requires exactly n units regardless of quality
+- Minimum handling damage risk — units inspected only once
+- Straightforward OC curve — easy to calculate and verify producer/consumer risk
+
+**Weaknesses**:
+- Largest average sample size for equivalent statistical protection — all lots get full sample
+- No second chance for borderline lots — a lot with d = c+1 is rejected despite being nearly acceptable
+- Highest total inspection cost in high-volume operations — every lot inspected at full sample size
+- Sharp accept/reject boundary — small changes in defect count cause large changes in lot disposition
+- Less discrimination between marginally good and marginally bad lots
+
 **Double sampling**: Draw a first sample of n₁. If d₁ ≤ c₁, accept. If d₁ > r₁, reject. If c₁ < d₁ ≤ r₁, draw a second sample of n₂. Combine: if d₁ + d₂ ≤ c₂, accept; otherwise reject. Reduces average sample size for lots that are clearly good or clearly bad, at the cost of occasional second samples and more complex administration.
+
+**Strengths**:
+- Smaller average sample size than single sampling — clearly good or bad lots resolved on first sample
+- Second chance for borderline lots — avoids rejecting marginally acceptable lots on a small sample
+- Lower total inspection cost when most lots are clearly good or clearly bad (common in mature production)
+- Better discrimination — the two-stage decision provides more statistical information per unit inspected
+
+**Weaknesses**:
+- Variable sample size — some lots require two samples, making labor planning unpredictable
+- More complex administration — inspectors must track first sample results and calculate combined counts
+- Longer decision time for borderline lots — second sample delays lot disposition
+- Risk of "force to conclusion" bias — inspectors may unconsciously adjust second sample expectations
+- Requires more training than single sampling — switching criteria must be understood and followed
 
 **Multiple (sequential) sampling**: Extend the double sampling concept to 5-7 stages. Each stage has accept/reject/continue criteria. Minimum average sample number (ASN) for any given OC curve, but most complex to administer.
 
+**Strengths**:
+- Minimum average sample number (ASN) of any plan with equivalent OC curve
+- Maximum discrimination — multiple decision points provide finest resolution between good and bad lots
+- Earliest possible rejection of clearly bad lots — can stop after first few samples
+- Best statistical efficiency per unit inspected — most information extracted from each sample
+
+**Weaknesses**:
+- Most complex to administer — 5-7 stages with different accept/reject criteria at each stage
+- Variable and unpredictable sample size — lot disposition could require 1 sample or maximum samples
+- Highest inspector training burden — must understand multi-stage switching rules
+- Record-keeping intensive — cumulative defect counts must be tracked across all stages
+- Rarely worth the administrative overhead unless inspection is very expensive or destructive
+
 **Continuous sampling**: For flow production (no discrete lots). Start with 100% inspection. After i consecutive conforming units (clearance number, typically i = 15-50), switch to sampling at frequency f (typically f = 1/5 to 1/20). If a defective unit is found during sampling, resume 100% inspection and restart the count.
+
+**Strengths**:
+- Only method suitable for continuous flow production — no lot formation required
+- Automatically adapts to quality level — 100% inspection during quality lapses, sampling during stability
+- Minimal average inspection when process is stable — sampling frequency as low as 1/20
+- Built-in feedback loop — defect discovery triggers immediate return to full inspection
+
+**Weaknesses**:
+- Not suitable for batch or lot-based production — requires continuous flow of individual units
+- Complex switching logic — tracking consecutive conforming units requires careful counting
+- Risk of producing defective units between sampling inspections — defects caught only at sample frequency
+- Does not provide lot-level quality statistics — individual unit tracking complicates supplier quality records
+- Clearance number (i = 15-50) creates delay before sampling begins after process restart
 
 ## MIL-STD-105E Sampling Tables
 

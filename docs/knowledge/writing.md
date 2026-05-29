@@ -37,6 +37,16 @@
 - **Numerals**: Separate symbol set for digits 0-9 (positional notation with zero — critical for engineering calculations). Decimal point symbol. Plus, minus, multiply, divide, equals symbols.
 - **Technical notation**: Standardize symbols for units (°C, mm, kg, MPa, A, V, Ω, Hz, mol), chemical elements (H, C, O, Fe, Cu, Si, etc. — use the modern abbreviation system), mathematical operations, electrical circuits, and process diagrams.
 
+**Strengths**:
+- A phonetic alphabet of 20-30 symbols is learnable in 1-3 months, enabling rapid literacy spread across the population
+- Standardized technical notation (numerals, chemical symbols, mathematical operators) is language-independent — works identically regardless of the spoken language
+- Symbol design based on straight lines and simple curves is compatible with all carving, writing, and stamping media
+
+**Weaknesses**:
+- Alphabet design is a one-time foundational decision — changing a writing system after adoption requires retraining the entire literate population and reprinting all documents
+- Technical notation symbols must be agreed upon before any two workshops can exchange unambiguous specifications
+- Numerals and mathematical operators are abstract conventions with no self-evident meaning — every new reader must be explicitly taught the notation system
+
 ### Historical Development of Writing Systems
 
 **[Cuneiform development](../glossary/cuneiform-development.md)** (Mesopotamia, ~3400 BCE onward):
@@ -50,6 +60,16 @@
 - **[Phoenician alphabet](../glossary/phoenician-alphabet.md)** (~1050 BCE): Standardized 22-consonant alphabet developed in the Phoenician city-states (Tyre, Sidon, Byblos). Written right-to-left. Letter names: *aleph* (ox), *bet* (house), *gimel* (camel), *dalet* (door) — each derived from the pictograph it originally represented. Phoenician merchants carried this script across the entire Mediterranean — found in inscriptions from Lebanon to Spain. Direct ancestor of nearly every alphabet in use today.
 - **[Greek alphabet](../glossary/greek-alphabet.md)** (~800 BCE): Greeks adopted the Phoenician alphabet, adding symbols for vowels (Phoenician *aleph* → Greek *alpha*, *he* → *epsilon*, *ayin* → *omega*). Added letters for sounds absent in Semitic languages (phi, chi, psi). Letter order and names closely preserved from Phoenician. First alphabet to fully represent both consonants and vowels — unambiguous phonetic notation.
 - **[Latin alphabet](../glossary/latin-alphabet.md)** (~600 BCE): Derived from Greek via Etruscan intermediaries. Early Latin: 21 letters. Classical Latin added G (modified C) and differentiated Y and Z for Greek loanwords. Modern Latin alphabet: 26 letters. Worldwide standard for technical notation and international communication.
+
+**Strengths**:
+- Historical evolution shows a clear trend from complex to simple — 900 cuneiform signs → 600 → 22 Phoenician consonants → 24 Greek letters (with vowels) → 26 Latin letters. Each step reduces learning time
+- The Phoenician/Greek/Latin transmission chain demonstrates that alphabetic writing spreads rapidly through trade contact — merchants carried scripts across the entire Mediterranean
+- Adding vowels (Greek innovation) eliminated ambiguity in phonetic representation — a critical feature for recording technical terminology precisely
+
+**Weaknesses**:
+- Cuneiform required 5-10 years of specialized training — only 1-5% of the population was literate, creating a scribal bottleneck
+- Logographic systems (Chinese) require thousands of symbols, making literacy a years-long commitment that limits the educated population
+- Spoken language drift means historical documents become progressively harder to read — Sumerian was a dead language within centuries of the last native speakers
 
 ### Writing Surfaces & Materials
 
@@ -82,6 +102,16 @@
 - For detailed paper production processes (mechanical pulping, chemical pulping, hand papermaking, sizing), see [Printing & Book Production](printing.md).
 - **Advantages over parchment**: Lower cost (plant fiber vs. animal skin), higher production rate, lighter weight, foldable without cracking. Rag paper (cotton/linen fiber) is archival-quality (pH neutral, long cellulose fibers). Wood pulp paper varies: kraft process (chemical) produces archival paper; groundwood process (mechanical) produces acidic, short-lived paper.
 
+**Strengths**:
+- Clay tablets fired at 800-1000°C become ceramic — virtually indestructible, surviving 5000+ years. The most durable writing medium available
+- Paper is lightweight, foldable, and can be produced from multiple plant sources — far cheaper and more portable than clay or parchment
+- Waxed wooden tablets are infinitely reusable — the wax surface can be smoothed and rewritten indefinitely for drafts and calculations
+
+**Weaknesses**:
+- Papyrus grows only in the Nile Valley — supply is geographically constrained, requiring alternative media for settlements far from marshlands
+- Parchment requires animal skins (1 sheep = 2-4 pages), creating a high per-page cost and competing with food production for livestock
+- Paper is susceptible to moisture, mold, insects, and fire — requires controlled storage conditions (18-22°C, 40-55% RH) for long-term survival
+
 ### Writing Instruments & Tools
 
 **Reed pen (calamus)**:
@@ -96,6 +126,16 @@
 **[Steel nib pen](../glossary/steel-nib-pen.md)** (requires wire-drawing and stamping capability):
 - Press-formed steel nib with slit, vent hole (prevents cracking and regulates ink flow), and shaped point. Fitted into wooden or metal holder. Mass-produced from the 1820s onward. More durable and consistent than quill — no resharpening. Could be dipped in ink (dip pen) or fitted with a rubber sac reservoir (fountain pen, patented 1884 by Lewis Waterman).
 
+**Strengths**:
+- Quill pens provide natural stroke-width variation — thick downstrokes and thin upstrokes improve legibility without extra effort
+- Reed pens are made from widely available marsh plants — no animal products required, accessible in any region with reed beds
+- Steel nib pens (once wire-drawing capability exists) are mass-producible, consistent, and durable — no resharpening, enabling standardized writing across all practitioners
+
+**Weaknesses**:
+- Quill and reed pens require frequent resharpening (every 2-3 pages for reed, weekly for quill), interrupting writing flow
+- Steel nib production requires wire-drawing and stamping infrastructure — unavailable at the earliest bootstrap stages
+- Brush writing requires practiced hand control for consistent strokes — longer learning curve than pen-based instruments for technical drawing
+
 ### Ink Formulation & Technical Drawing
 
 **Ink production**:
@@ -107,6 +147,16 @@
 - **Pencil grades**: Graphite-clay mixture fired at varying temperatures. Hard (H, 2H, 4H — light lines for construction lines). Medium (HB, F — general writing). Soft (B, 2B, 4B — dark lines for visible outlines). Harder clay ratio = harder pencil, lighter line.
 - **Ruling pen**: Two adjustable steel jaws with screw gap setting. Dip in ink, draw straight lines along straightedge. Gap width controls line weight. Essential for technical drawings before fountain pens.
 - **Compass and dividers**: Compass for circles and arcs (pivot leg + pencil/pen leg, adjustable radius). Dividers (two sharp points) for transferring measurements, dividing lines into equal parts, stepping off distances on maps. Both with friction hinge to hold setting.
+
+**Strengths**:
+- Iron gall ink chemically bonds to cellulose — permanent and waterproof once dry, surviving centuries on archival paper and parchment
+- Carbon ink (soot + gum arabic) uses universally available materials and does not fade — the ink on 2000-year-old Dead Sea Scrolls remains legible
+- Pencil grades (H through B) provide controlled line weight for technical drawing — construction lines in hard pencil, visible outlines in soft
+
+**Weaknesses**:
+- Iron gall ink is acidic (pH 2-3) and slowly degrades paper over centuries — "iron gall ink corrosion" causes inked lines to burn through the page
+- Iron sulfate (green vitriol) requires specific chemical preparation — not as simply sourced as carbon soot from a lamp
+- Sepia ink supply depends on cuttlefish fishing — limited and seasonally variable, making it impractical as a primary ink
 
 ### Record Keeping
 
@@ -141,6 +191,16 @@
 - Chemical resistance data
 - Process parameters for production
 
+**Strengths**:
+- Standardized record formats (process recipes, failure logs, material tables) ensure no critical parameter is omitted — any practitioner can reproduce the process from the record alone
+- Failure logs convert mistakes into institutional knowledge — each recorded failure prevents future repetition of the same error
+- Material property tables enable rational engineering design — a builder selects materials based on measured properties, not guesswork
+
+**Weaknesses**:
+- Record keeping discipline is difficult to maintain under production pressure — operators skip entries, use vague language, or omit "obvious" details that are not obvious to the next reader
+- Failure logs require a culture of honesty about mistakes — organizations that punish failure produce incomplete or falsified logs
+- Maintaining comprehensive material property tables requires testing equipment and standardized measurement procedures
+
 ### Early Record-Keeping Systems
 
 **[Clay token system](../glossary/clay-token-system.md)** (~8000 BCE, Near East):
@@ -158,6 +218,16 @@
 - **Materials**: Clay tablets for permanent exercises. Wax tablets for practice (erasable, reusable). Reference tablets: teacher writes model on left column, student copies on right column. Errors corrected by teacher's mark.
 - **Duration**: 5-10 years to achieve full scribal competence. Scribes held high social status — literacy was a rare, valuable technical skill. In ancient Mesopotamia, roughly 1-5% of the population was literate; in medieval Europe, similar rates until the printing press.
 - **Modern analog**: In a bootstrap context, a literacy training program for adults can achieve functional reading and writing with a phonetic alphabet in 3-6 months (phonetic systems are far easier to learn than logographic systems). Full technical literacy (reading technical drawings, chemical formulas, mathematical notation) requires 2-4 additional years of specialized instruction.
+
+**Strengths**:
+- Phonetics-based writing (one symbol per sound) can be taught to adults in 3-6 months — far faster than logographic systems requiring years of memorization
+- Scribal training model (copy → correct → compose) is field-proven over 5000 years — the same pedagogical sequence works for modern technical education
+- The apprentice's notebook becomes a permanent personal reference, preserving accumulated knowledge beyond any single practitioner's memory
+
+**Weaknesses**:
+- 5-10 years for full scribal competence is a major investment — the civilization must support trainees who produce no economic output during training
+- Literacy rates of 1-5% (historical norm without mass education) severely limit the pool of people who can read technical documents
+- Technical literacy (reading drawings, formulas, notation) is an additional layer beyond basic reading — requires specialized instruction that few practitioners can provide
 
 ### Numeracy & Mathematical Notation
 
@@ -194,6 +264,16 @@
 - **Inter-word spacing**: Latin script uses spaces between words. Classical Latin and Greek did not — *scriptio continua* made reading slow and required oral recitation to parse. Spaces dramatically improve reading speed and are now universal in alphabetic scripts.
 - **Punctuation**: Period (end of sentence), comma (pause/clause boundary), colon (introduction or ratio), semicolon (related clauses), parentheses (aside), quotation marks. Standardize all of these — ambiguous punctuation causes misreading of technical instructions. Decimal point vs. comma: choose one convention and enforce it (the cost of switching is trivial compared to the cost of confusion).
 
+**Strengths**:
+- Hindu-Arabic numerals with positional notation and zero reduce all arithmetic to mechanical procedures — calculation speed increases 10-100× over additive systems like Roman numerals
+- Chemical notation (Berzelius) conveys exact composition in minimal space (H₂O vs. "two hydrogen atoms bonded to one oxygen atom") — essential for compact technical documentation
+- Standardized engineering drawing conventions enable any two workshops to exchange manufacturing specifications without ambiguity
+
+**Weaknesses**:
+- Mathematical and scientific notation evolved over centuries — compressing this development into a bootstrap requires deliberate adoption of the full modern notation system at once
+- Punctuation and decimal conventions vary between cultures (decimal point vs. comma) — choosing one requires enforcing it consistently or risking calculation errors
+- Chemical element symbols (Fe, Cu, Si) are arbitrary conventions with no self-evident meaning — every practitioner must memorize the symbol set
+
 ### Sealing, Authentication & Documents
 
 **Seal systems**:
@@ -204,6 +284,16 @@
 - **Standard form design**: Every common document type should have a pre-printed (or pre-drawn) form with labeled fields — spaces for date, originator, recipient, subject, quantities, signatures/witnesses. Forms reduce ambiguity, ensure completeness, and speed up recording. Critical form types: work orders, material requisitions, inspection reports, inventory tallies, property records, contracts.
 - **Copy and counterfoil**: For important transactions, produce two copies on a single sheet — one for each party — separated by a line and torn or cut apart. The irregular cut edge serves as authentication (matching the two pieces proves they are the original pair). Carbon paper (coated with ink on one side) allows simultaneous creation of duplicate copies.
 - **Witness and signature**: Every significant document should be signed by the parties and witnessed by at least one neutral third party. Witnesses attest that the document genuinely represents the agreement or record as made. This is the foundation of legal and commercial trust systems.
+
+**Strengths**:
+- Cylinder seals and signet rings provide tamper-evident authentication — broken seal = opened document, enabling trust in commercial and legal transactions
+- Standard form design reduces ambiguity and ensures completeness — pre-printed fields prevent omission of critical information (dates, quantities, parties)
+- Copy-and-counterfoil system provides duplicate authentication without complex technology — the irregular torn edge uniquely matches the two copies
+
+**Weaknesses**:
+- Seal systems require individualized manufacturing (carved stone cylinders, engraved rings) — not scalable to high-volume document authentication
+- Wax seals are fragile — heat softens wax, cracking breaks the seal, and rough handling damages the impression
+- Standard forms require [Printing](printing.md) infrastructure for mass production; hand-drawn forms are slow and inconsistent
 
 ### Printing & Book Production
 
@@ -218,6 +308,16 @@ For paper production, movable type, press construction, typesetting, printing in
 **Paper deacidification**: Acidic paper (groundwood pulp, alum-rosin sizing, common 1850-1990) self-destructs as acid catalyzes hydrolysis of cellulose chains. Paper becomes brittle and brown, losing 50-90% of fold endurance within 50-100 years. Deacidification treatments: spray or immerse in alkaline buffer solution. Magnesium bicarbonate (Mg(HCO₃)₂) solution applied by spraying deposits magnesium carbonate reserve (pH 8-9) that neutralizes existing acid and provides alkaline buffer against future acid formation. Calcium hydroxide (Ca(OH)₂) solution at 0.1-0.5% concentration works similarly. Mass deacidification can extend paper life by 3-5×.
 
 **Digitization for redundancy**: Photograph or scan critical documents at 300-600 DPI minimum for text, 600-1200 DPI for illustrations and technical drawings. Store in lossless formats (TIFF for archival masters, PDF/A for access copies). Maintain at least two geographically separate copies. Digitization does not replace physical preservation — digital media degrade (bit rot, format obsolescence) — but provides access and insurance against catastrophic physical loss.
+
+**Strengths**:
+- Fired clay tablets survive 5000+ years with no special storage — the most durable medium known, resistant to water, fire, insects, and mold
+- Deacidification with magnesium bicarbonate extends acidic paper life by 3-5× at modest cost — a practical intervention for existing collections
+- Digitization at 300-600 DPI provides access copies and insurance against physical loss — scanned documents can be reproduced indefinitely
+
+**Weaknesses**:
+- Parchment requires narrow humidity control (45-55% RH) — curls below 40%, softens above 60%, making stable storage difficult without active climate control
+- Acidic paper (groundwood pulp) self-destructs within 50-100 years — the majority of mass-produced paper from 1850-1990 is already brittle
+- Digital formats have short proven lifespans (10-30 years for magnetic media) and risk format obsolescence — digitization supplements but cannot replace physical media
 
 ---
 

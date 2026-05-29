@@ -40,6 +40,10 @@ The workhorse resist for feature sizes down to ~0.35 μm (i-line, 365 nm). Two-c
 5. **Development**: 2.38% TMAH aqueous solution (see TMAH section below). 60-90 seconds with gentle agitation. Dissolves exposed regions. Development rate ratio (exposed:unexposed) >1000:1 for high-contrast resists.
 6. **Hard bake**: 120-140°C for 60 seconds. Crosslinks residual resin to improve etch resistance and adhesion. Must stay below Tg of the resist to prevent thermal flow.
 
+**Strengths**: DNQ/novolac resist system is well-proven for 350 nm+ features with >1000:1 dissolution contrast; spin coating produces uniform films across 200-300 mm wafers; aqueous TMAH developer is non-toxic compared to organic solvent developers; six-step process is standardized across the entire industry.
+
+**Weaknesses**: DNQ/novolac cannot resolve below ~250 nm (absorbs at DUV wavelengths); CAR resists are extremely sensitive to airborne amine contamination at ppb levels (requires filtered cleanroom air); spin coating wastes ~95% of dispensed resist; photoresist is a single-use consumable with no recovery path; tight process windows (±0.5°C temperature, ±5% thickness) require precise equipment control.
+
 **Resolution vs sensitivity tradeoff**: Higher PAC loading increases contrast (steeper dissolution curve) but requires higher exposure dose. Thinner resist films resolve smaller features but provide less etch resistance. For i-line lithography at 0.35 μm: ~1.0 μm resist thickness, ~150 mJ/cm² dose, contrast (γ) ≈ 3-5.
 
 #### Chemically Amplified Resists (CAR)

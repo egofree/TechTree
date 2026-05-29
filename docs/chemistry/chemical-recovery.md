@@ -72,6 +72,10 @@ Three recovery mechanisms dominate: **distillation** (separating chemicals by bo
 
 1. **Collect and segregate spent solvents.** Store each solvent type in dedicated tanks. Never mix solvent families — halogenated and non-halogenated solvents require separate recovery trains. Label all containers with solvent identity and estimated purity.
 
+**Strengths**: Distillation recovery achieves 85-95% solvent purity suitable for reuse; energy cost (2-5 MJ/kg) is 5-10× cheaper than purchasing fresh solvent; reduces hazardous waste volume by 80-90%; well-understood technology with standard equipment.
+
+**Weaknesses**: Azeotropes limit recovery purity for some solvent mixtures (e.g., ethanol-water); energy-intensive for high-boiling solvents; halogenated solvents require dedicated corrosion-resistant equipment; spent activated carbon and still bottoms remain as hazardous waste requiring disposal.
+
 2. **Pre-treat.** Filter spent solvent through a 10–50 μm cartridge filter to remove suspended solids. Pass through activated carbon if color bodies or dissolved organics are present. This protects the distillation column from fouling.
 
 3. **Charge the still.** Fill the reboiler with 500–2,000 L of pre-treated spent solvent. Seal the system and verify all connections. Open cooling water to the condenser.

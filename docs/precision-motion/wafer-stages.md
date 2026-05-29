@@ -1,19 +1,27 @@
 # Wafer Stages & Scanner Systems
 
 > **Node ID**: precision-motion.wafer-stages
-> **Domain**: Precision Motion Control
+> **Domain**: [Precision Motion Control](./index.md)
 > **Timeline**: Years 45-80
 > **Outputs**: wafer_stages, reticle_stages, scanner_systems
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [Nanometer Positioning](./nanometer-positioning.md), [Precision Encoders & Feedback](./precision-encoders.md), [Vibration Isolation](./vibration-isolation.md), [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md)
+> **Enables**: [Advanced Lithography](../vlsi-scaling/advanced-lithography.md), [Vacuum Systems](../vacuum/index.md)
 
 The wafer stage is the most mechanically demanding single assembly in semiconductor manufacturing. It must position a 300 mm silicon wafer with ±5 nm accuracy while accelerating at 2-10g, scanning at 1-2 m/s, and maintaining flatness below 50 nm — all in a vacuum or controlled atmosphere. This document covers the architecture of stepper and scanner wafer stages, reticle (mask) stages, and the synchronization between them during exposure. For the underlying actuation technologies, see [Nanometer Positioning](./nanometer-positioning.md); for vibration isolation of the stage platform, see [Vibration Isolation](./vibration-isolation.md).
 
 ## Wafer Stage Architecture
 
-### 6-DOF Motion Requirements
-
 The wafer stage provides six degrees of freedom (6-DOF): X, Y, Z linear translation plus θx (pitch), θy (roll), and θz (yaw) rotation. All six axes must be controlled simultaneously with nanometer-level precision.
+
+**Strengths**:
+- Coarse-fine hierarchy achieves ±5 nm positioning over 600 mm travel range
+- Air bearing guidance provides 0.01 μm straightness with zero friction
+- Dual-stage architecture enables parallel processing, doubling throughput
+
+**Weaknesses**:
+- Extremely complex: 6-DOF simultaneous control with 100+ feedback parameters
+- Reaction forces from high acceleration (2-10g) transmit vibration to machine base
+- Thermal sensitivity: 0.1°C change causes 70 nm expansion on 300 mm silicon wafer
 
 | DOF | Travel Range | Accuracy | Resolution | Typical Drive |
 |-----|-------------|----------|------------|---------------|
@@ -139,6 +147,16 @@ Position error during scanning is characterized by two metrics:
 ## Reticle Stage
 
 The reticle (photomask) stage holds and positions the mask during exposure. It operates at higher speed than the wafer stage (4× for 4× reduction lens) but with similar positioning accuracy.
+
+**Strengths**:
+- Lighter moving mass (15-30 kg) enables higher acceleration than wafer stage
+- Ironless linear motors provide zero cogging for smooth scanning motion
+- Reticle clamping maintains flatness <100 nm over 152 mm × 152 mm
+
+**Weaknesses**:
+- 4× higher scan speed demands 4× faster servo bandwidth — more challenging control
+- Reticle contamination in ultra-pure nitrogen environment requires ISO Class 1 particle control
+- Synchronization with wafer stage must be <1 nm — most demanding sync requirement in industrial machinery
 
 ### Reticle Stage Design
 

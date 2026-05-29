@@ -76,7 +76,17 @@ The simplest effective rotation. Divide available land into three equal sections
 
 **Year 3 — Rotate: Field A → Fallow / Field B → Grain / Field C → Legume**
 
-After three years, each field has been through one cycle of grain (depletes N), legume (restores N), and fallow (recovers structure). The cycle repeats indefinitely.
+ After three years, each field has been through one cycle of grain (depletes N), legume (restores N), and fallow (recovers structure). The cycle repeats indefinitely.
+
+**Strengths**:
+- Simple to plan and execute — only 3 fields and 3 phases to track
+- Requires no additional inputs beyond seed — the legume phase generates nitrogen biologically
+- Fallow year allows soil moisture recovery in semi-arid climates (saves 50-100 mm of water)
+
+**Weaknesses**:
+- 33% of land is unproductive (fallow) each year — reduces total output by one-third
+- Nitrogen balance is marginal — net balance of -2 to +5 kg N/ha/year means slow fertility building
+- No livestock integration — animal manure, a major fertility source, is not part of the system
 
 ### 4.2 Four-Field Norfolk Rotation
 
@@ -87,21 +97,51 @@ Eliminates the unproductive fallow year by substituting a root crop that cleans 
 **Year 3: Barley or oats** — Moderate nitrogen feeder. Straw used for animal bedding and thatch.
 **Year 4: Clover** — Nitrogen fixer (80-150 kg N/ha). Grazed by animals (manure deposited directly on field) or cut for hay, then plowed under as green manure before autumn wheat sowing.
 
-The Norfolk rotation doubled agricultural output per hectare compared to the three-field system by eliminating fallow and integrating livestock. It was the agricultural foundation of the British Agricultural Revolution (18th century).
+ The Norfolk rotation doubled agricultural output per hectare compared to the three-field system by eliminating fallow and integrating livestock. It was the agricultural foundation of the British Agricultural Revolution (18th century).
+
+**Strengths**:
+- 100% of land is productive every year — no fallow period wastes space
+- Root crop phase provides intensive weed control through hand-weeding, cleaning the field for subsequent crops
+- Integrates livestock through clover grazing — manure deposited directly on the field recycles nutrients
+
+**Weaknesses**:
+- Requires 4 distinct crop types and sufficient seed stock for all 4 — higher seed management complexity
+- Root crops (turnips) have lower market value than grain in many economies
+- Demands more labor than the three-field system, particularly during the root crop weeding phase (10-20 person-hours/ha)
 
 ### 4.3 Legume Planting and Nodulation Check
 
 1. **Inoculate seed** (if needed): If planting legumes on land that has not grown legumes in 3+ years, coat seed with appropriate Rhizobium inoculant. Mix inoculant powder with seed at planting using a sticky solution (milk or sugar water) to adhere bacteria to seed coat.
 2. **Plant at correct depth**: Beans 3-5 cm, peas 2-4 cm, clover 0.5-1.5 cm. Legume seeds are sensitive to planting depth — too deep and they cannot emerge.
 3. **Check nodulation** (4-6 weeks after emergence): Carefully dig up 5-10 plants across the field. Examine roots for nodules (small round bumps 1-5 mm diameter). Cut open a nodule: pink/red interior = active N fixation (leghemoglobin indicates functioning). Green/white interior = inactive or ineffective Rhizobium strain.
-4. **If nodulation is poor** (<5 nodules per plant, or white interior): The soil may lack the correct Rhizobium strain. Re-inoculate by applying Rhizobium culture in solution to the soil surface, or transfer soil from a field where the same legume species nodulated successfully.
+ 4. **If nodulation is poor** (<5 nodules per plant, or white interior): The soil may lack the correct Rhizobium strain. Re-inoculate by applying Rhizobium culture in solution to the soil surface, or transfer soil from a field where the same legume species nodulated successfully.
+
+**Strengths**:
+- Biological nitrogen fixation provides 40-200 kg N/ha per season at zero energy cost
+- Nodulation check is a simple visual test (dig, inspect, cut open) requiring no instruments
+- Rhizobium inoculant, once established, persists in soil for years without re-application
+
+**Weaknesses**:
+- Rhizobium strains are species-specific — the wrong strain produces white, ineffective nodules
+- Acidic soils (pH <5.5) inhibit Rhizobium survival — pH correction with lime is required before legumes will nodulate
+- Inoculant may not be available in a bootstrap scenario — relies on transferring soil from existing legume fields
 
 ### 4.4 Green Manure Management
 
 1. **Sow the green manure crop**: After grain harvest, broadcast clover, vetch, or rye seed onto the field. Lightly rake to cover seed. Target seeding rate: 10-20 kg/ha for clover, 15-25 kg/ha for vetch, 80-120 kg/ha for rye.
 2. **Allow growth**: Green manure grows through the fallow period, protecting soil from erosion, suppressing weeds, and (if legume) fixing nitrogen.
 3. **Terminate at the right time**: For legumes, plow under at early flowering (maximum N content in biomass). For rye, terminate before seed set to prevent volunteering. Cut or mow the stand, then incorporate into the top 15-20 cm of soil with a plow or heavy hoe.
-4. **Wait 2-4 weeks before planting**: Green manure biomass needs time to decompose. Fresh green material can tie up nitrogen temporarily as soil microbes consume it. After decomposition, the nitrogen is released in plant-available form.
+ 4. **Wait 2-4 weeks before planting**: Green manure biomass needs time to decompose. Fresh green material can tie up nitrogen temporarily as soil microbes consume it. After decomposition, the nitrogen is released in plant-available form.
+
+**Strengths**:
+- Legume green manures fix 40-120 kg N/ha while protecting soil from erosion
+- Cover crops suppress weeds physically (canopy competition) and chemically (rye allelopathy)
+- Increases soil organic matter by 0.2-0.5% per year with regular cover cropping
+
+**Weaknesses**:
+- 2-4 week waiting period between incorporation and planting delays the next crop
+- Fresh green material causes temporary nitrogen tie-up as soil microbes decompose it
+- Rye cover crop must be terminated before seed set or it volunteers as a weed in the next crop
 
 ## 5. Quantitative Parameters
 

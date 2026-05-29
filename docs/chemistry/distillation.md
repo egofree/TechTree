@@ -3,29 +3,54 @@
 > **Node ID**: chemistry.distillation
 > **Domain**: [Chemistry](./index.md)
 > **Dependencies**: None (root capability)
-> **Enables**: [`chemistry.solvents`](solvents.md), [`health.pharmacology`](../health/pharmacology.md), [`petroleum.refining`](../petroleum/refining.md), [`polymers.rubber.shellac`](../polymers/shellac.md), [`silicon.purification`](../silicon/purification.md)
+> **Enables**: [`chemistry.solvents`](solvents.md), [`health.pharmacology`](../health/pharmacology.md), [`petroleum.refining`](../petroleum/refining.md), [`polymers.shellac`](../polymers/shellac.md), [`silicon.purification`](../silicon/purification.md)
 > **Timeline**: Years 20-35
 > **Outputs**: distillation_capability, fractionated_chemicals
+> **Critical**: Yes — distillation is the most important separation technique in the chemical industry, accounting for 40-60% of capital cost in a typical chemical plant. Petroleum refining, solvent purification, silicon chlorosilane separation, and alcohol concentration all depend on distillation. No chemical industry operates without it.
 
 ### Types of Distillation
 
 **Simple distillation**:
 Single vaporization-condensation step (1 theoretical plate). Heated vessel + condenser. Batch operation. Sufficient for rough separations: water from dissolved salts, alcohol concentration to ~40-50%. No reflux control. Fast setup — a copper pot with a condensing coil suffices. Yield and purity limited by single-stage equilibrium. Used for: water purification, crude alcohol concentration, essential oil steam distillation, solvent recovery from waste streams.
 
+**Strengths**: Simplest possible distillation apparatus (pot + condenser); fast to build and operate; no reflux control needed; works with any heat source (wood, waste heat, electricity); sufficient for rough separations and water purification.
+
+**Weaknesses**: Only 1 theoretical plate — very poor separation sharpness; cannot approach azeotrope concentrations; batch-only operation (low throughput); high energy per unit of separation achieved; product purity limited by single-stage equilibrium.
+
 **Fractional distillation**:
 Packed or plated column between boiler and condenser provides multiple equilibrium stages (5-50+ theoretical plates). Reflux ratio controls sharpness of separation. Batch or continuous operation. Used for petroleum fractions, alcohol purification to azeotrope (95.6%), chlorosilane separation for silicon purification, solvent purification. The workhorse of industrial chemical separation — accounts for 40-60% of capital cost in a typical chemical plant.
+
+**Strengths**: Multiple theoretical plates (5-50+) enable sharp separations; continuous operation possible (high throughput); reflux ratio provides precise control over product purity; scalable from laboratory to industrial (petroleum refinery columns 30-50 m tall); handles multicomponent mixtures with side-draw fractions.
+
+**Weaknesses**: Energy-intensive — reboiler duty proportional to reflux + product draw; tall columns require structural support and high clearance; azeotropes limit maximum separation (e.g., ethanol-water at 95.6%); column diameter increases with throughput, creating mechanical design challenges; 40-60% of chemical plant capital cost.
 
 **Vacuum distillation**:
 Reduce column pressure to 10-100 mmHg using a vacuum system (steam ejector or mechanical vacuum pump). Lowers boiling points by 50-150°C, enabling distillation of heat-sensitive compounds (fatty acids, vitamins, certain polymers, pharmaceutical intermediates) and high-boiling materials (heavy petroleum residues, waxes, long-chain alcohols). Column diameter increases at lower pressure because vapor specific volume expands. Typical application: atmospheric residue from crude distillation (bp >350°C) is vacuum-distilled to produce lubricating oil base stocks, waxes, and feedstock for catalytic cracking. Vacuum column operates at 10-30 mmHg with 0.3-0.5 m/s vapor velocity.
 
+**Strengths**: Reduces boiling points 50-150°C — avoids thermal degradation of heat-sensitive compounds; enables distillation of high-boiling materials (>350°C) without cracking; essential for petroleum VDU (vacuum gas oil, lubricating oil base stocks); lower temperatures reduce energy input per unit of vaporization.
+
+**Weaknesses**: Vacuum equipment adds capital and operating cost (steam ejectors, mechanical pumps); column diameter must increase at lower pressure (larger equipment); air leaks introduce oxygen — fire/explosion risk with flammable materials; vacuum pump capacity limits throughput; cannot achieve deep vacuum (<1 mmHg) with simple steam ejectors alone.
+
 **Steam distillation**:
 Inject live steam directly into the still pot. Water and the organic compound form a heterogeneous azeotrope — both boil at a temperature below either pure component's boiling point. The combined vapor pressure equals atmospheric pressure at a temperature lower than either boiling point alone. Essential oils (lavender, peppermint, eucalyptus, tea tree) are extracted this way at 95-100°C instead of their native 200-300°C boiling points, preserving thermally labile fragrance compounds. Equipment: steam boiler + still pot + condenser + Florentine flask (separates condensate into oil and water layers). Steam consumption: 2-5 kg steam per kg of organic product.
+
+**Strengths**: Preserves thermally labile compounds by reducing boiling point 50-200°C; no high-vacuum equipment needed; simple equipment (steam + pot + condenser + separator); works for immiscible water-organic systems; essential oils extracted at ~100°C instead of 200-300°C.
+
+**Weaknesses**: Only works for immiscible or poorly miscible compounds with water; high steam consumption (2-5 kg/kg product); product diluted in large volume of condensate; not suitable for miscible organic-organic separations; Florentine flask separation requires density difference between oil and water.
 
 **Azeotropic distillation**:
 Add an entrainer (third component) that forms a new, lower-boiling azeotrope with one component, breaking the original azeotrope. Example: ethanol-water azeotrope at 95.6% ethanol — add benzene or cyclohexane to form a ternary azeotrope (bp 64.9°C) that carries water overhead, leaving anhydrous ethanol (>99.5%) in the bottoms. The overhead ternary mixture separates into two liquid phases in a decanter — the entrainer-rich phase is returned as reflux. The entrainer is recovered and recycled. Widely used before molecular sieves became available. Disadvantage: benzene is carcinogenic; modern plants use cyclohexane or n-pentane as entrainer.
 
+**Strengths**: Breaks azeotropes that simple distillation cannot; produces anhydrous products (>99.5%); entrainer is recovered and recycled in a closed loop; well-established industrial process for ethanol dehydration.
+
+**Weaknesses**: Requires a third component (entrainer) that must be completely separated from both products; benzene (traditional entrainer) is carcinogenic — modern alternatives (cyclohexane, n-pentane) are safer but more expensive; adds 2-3 additional columns to the process; entrainer losses increase operating cost; liquid-liquid decanter must operate reliably.
+
 **Extractive distillation**:
 Add a high-boiling solvent (extractive agent) that selectively alters relative volatility of the components. The extractive agent does not form an azeotrope — it stays in the liquid phase and preferentially associates with one component, making the other more volatile. Example: adding glycerol or ethylene glycol to ethanol-water feed increases water's effective boiling point, allowing ethanol to be drawn off as near-pure distillate without azeotrope interference. The extractive agent (now water-rich) exits the column bottoms and is separated from water in a second column, then recycled. Preferred over azeotropic distillation when the entrainer is non-toxic and readily available.
+
+**Strengths**: Non-toxic extractive agents (glycerol, ethylene glycol) are safer than azeotropic entrainers (benzene); no new azeotrope formed — extractive agent stays in liquid phase; preferred for ethanol-water dehydration; extractive agent is easily recovered by simple distillation in a second column.
+
+**Weaknesses**: Requires a solvent recovery column (additional equipment); extractive agent must be completely free of product contamination; high-boiling solvent increases reboiler energy; solvent losses increase operating cost; not as effective as molecular sieves for small-scale ethanol dehydration.
 
 ### Column Internals
 

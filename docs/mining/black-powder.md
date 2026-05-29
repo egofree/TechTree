@@ -51,6 +51,16 @@ KNO₃ is the bottleneck ingredient — it does not occur in large natural depos
 - **FFFg grain (extra-fine, 0.3-0.6 mm)**: Fast burn. Used for priming, small arms, fuses.
 - **FFFFg (pulverized, <0.3 mm)**: Fastest burn. Used for priming flash pans and fuse composition.
 
+**Strengths**:
+- Can be produced with basic equipment (mortar, sieve, screw press) and three natural ingredients
+- Scales from individual 1 kg batches to industrial wheel mills processing tonnes per day
+- Corning produces dense, uniform grains with predictable burn rates for consistent blasting
+
+**Weaknesses**:
+- Each ingredient must be ground separately to avoid accidental ignition (triples grinding time)
+- Friction and impact sensitivity demands non-sparking (copper, brass, wood) tools throughout
+- Wet mixing, pressing, drying, and sieving require 24-48 hours per batch
+
 ### Safety Fuse
 
 Essential for timing blasts — allows the blaster to retreat before detonation.
@@ -71,6 +81,16 @@ Essential for timing blasts — allows the blaster to retreat before detonation.
 
 **Yield**: 1-2 kg of black powder breaks 2-10 m³ of rock depending on rock hardness, hole placement, burden-to-spacing ratio, and stemming quality. Properly placed shots in soft sedimentary rock achieve the high end; hard igneous rock the low end.
 
+**Strengths**:
+- Predictable fragmentation with proper burden, spacing, and stemming calculations
+- Multiple-hole patterns connected to a single slow match allow large-volume extraction per round
+- Safety fuse provides a controllable 30-60 second delay for personnel to retreat 200+ m
+
+**Weaknesses**:
+- Deflagration (heaving force) is less effective than detonation (shattering force) in hard igneous rock
+- Water in blast holes degrades powder charge unless wrapped in waterproofed canvas or copper tubes
+- Misfires require 30+ minute wait followed by careful stemming removal — downtime risk
+
 ### Safety & Hazards
 
 - **Explosion and fire**: Black powder is a low explosive (deflagrates rather than detonates), but it is extremely flammable and can transition to detonation under confinement. Friction, impact, spark, static electricity, and heat can all cause ignition. Ground all equipment. Use non-sparking (copper, brass, wood) tools exclusively when handling powder. NEVER grind mixed powder. Keep powder storage separate from manufacturing area — earth embankments between buildings.
@@ -89,6 +109,16 @@ Essential for timing blasts — allows the blaster to retreat before detonation.
 **Charcoal grades**: The choice of wood affects burn rate and powder performance. Fast-burning charcoals (from willow, alder, grapevine) have an open pore structure and low density (~0.25-0.35 g/cm³). They produce faster-burning powder suitable for small arms and priming. Slow-burning charcoals (from oak, beech, maple) are denser (~0.35-0.50 g/cm³) and produce powder with a longer burn time, better for lifting charges and blasting. Carbonize wood in a sealed retort or covered pit with limited air supply. Heat until smoke stops (350-450°C internal temperature). Quench with water. Dry thoroughly before grinding. Grind in a mortar or ball mill to ~100 mesh (150 μm).
 
 **Sulfur purification**: Raw sulfur from volcanic deposits or pyrite roasting contains arsenic and organic impurities. Purify by sublimation: heat sulfur to 445°C in a sealed retort (sulfur boils at this temperature). Sulfur vapor condenses on a cooled surface as bright yellow crystalline "flowers of sulfur." The impurities remain in the retort as residue. Alternatively, melt sulfur at 115°C (well below the boiling point) and filter the liquid through cloth to remove insoluble impurities. Solidify by pouring into cold water.
+
+**Strengths**:
+- KNO₃ recrystallization exploits a large solubility gap (38 g/100 mL at 100°C vs 13 g/100 mL at 20°C) for high-purity output
+- Sulfur sublimation removes arsenic and organics in a single pass with no reagents
+- Purity verifiable by simple burn test (pure KNO₃ leaves no residue) without laboratory equipment
+
+**Weaknesses**:
+- Nitre beds require 12-24 months of biological processing before any saltpeter can be harvested
+- Multiple recrystallization cycles needed for >95% KNO₃ purity, each consuming fuel and water
+- Sulfur sublimation requires a sealed retort rated for 445°C — glass or ceramic, not simple metal
 
 ### Standard Composition and Performance
 
@@ -151,6 +181,16 @@ The safety fuse is the critical link between the blaster and the charge. A well-
 - **Crimper**: A small hand tool for crimping the fuse into the blasting cap or directly into the powder charge. Crimping creates a gas-tight seal that prevents the flame from escaping sideways and ensures it propagates into the charge.
 - **Pricker**: A thin brass or copper wire used to clear any blockage in the fuse end before insertion into the cap. Never use an iron or steel wire — sparks are a hazard.
 
+**Strengths**:
+- Controllable delay (100-200 seconds/meter) calculated from tested burn rate per batch
+- Waterproof tar or wax coating allows reliable use in damp underground conditions
+- Simple construction from available materials (powder, jute yarn, tar) without specialized machinery
+
+**Weaknesses**:
+- Burn rate varies ±10-20% between production batches, requiring test burns before every use
+- Core gaps or thin spots from manufacturing defects cause misfires
+- Not suitable for very short delays — minimum practical fuse length is ~30 cm (3-6 seconds)
+
 ### Alternative Black Powder Applications
 
 Beyond mining, black powder enabled several technologies in the bootstrap sequence:
@@ -169,6 +209,16 @@ The corning process is what transforms loose meal powder into reliable blasting 
 **Cracking and sieving**: Break the pressed cake with corrugated rollers or a light impact mill. Sieve the broken grains through standard mesh screens to sort by size. Oversize grains are re-cracked; undersize fines are re-pressed. The sieving operation must be done with non-sparking equipment (brass or copper sieves, wooden frames) in a well-ventilated area with humidity above 50%.
 
 **Drying**: Spread the graded grains on trays in a drying room at 30-40°C with good air circulation. Dry to below 1% moisture content (test by weighing a sample before and after oven drying at 105°C). Residual moisture causes caking and degradation during storage. Drying time: 24-48 hours depending on grain size and ambient humidity. Never dry powder above 50°C or near open flame.
+
+**Strengths**:
+- Pressed grains (1.6-1.8 g/cm³) burn at a controlled, predictable rate from the surface inward
+- Sieving allows precise grain size sorting for different applications (Fg through FFFFg)
+- Dense grains resist moisture absorption better than loose meal powder
+
+**Weaknesses**:
+- Pressing at 10-20 MPa requires a hydraulic or heavy screw press (significant mechanical infrastructure)
+- Cracking and sieving generate fine, airborne powder dust — hazardous during processing
+- Multiple passes (crack oversize, re-press undersize) add labor and handling risk
 
 ### Black Powder Performance in Different Rock Types
 
@@ -196,6 +246,16 @@ Proper storage facilities prevent accidental explosions and protect the powder s
 - **Construction**: Thick masonry walls (30-50 cm stone or brick) with an earth embankment on three sides. The front wall (door side) is the "weak wall" — designed to blow out in an explosion, directing blast energy away from the earth-retained walls. Lightweight wooden roof that lifts easily in a blast. No iron fittings inside the magazine (use wooden pegs, copper nails). Concrete floor with drainage.
 - **Interior**: Wooden shelves for powder containers, at least 15 cm above the floor. Non-sparking tools only (copper, brass, wood). Good ventilation (louvered openings) to prevent moisture buildup and temperature extremes. Thermometer mounted inside. Temperature indicator: if the interior exceeds 30°C, improve ventilation or insulate the magazine.
 - **Quantity limits**: A single magazine should not store more than 500 kg of finished powder. Larger quantities require multiple magazines separated by earth embankments. Store KNO₃, charcoal, and sulfur in separate magazines from finished powder. Ingredients individually are far less hazardous than the mixed product.
+
+**Strengths**:
+- Lightweight roof and weak front wall direct blast energy away from occupied areas
+- Earth embankment on three sides absorbs accidental detonation without collapsing the structure
+- Separate ingredient storage means an individual magazine fire is far less catastrophic than a powder magazine fire
+
+**Weaknesses**:
+- Must be located 50+ m from occupied buildings (200+ m for >500 kg), consuming valuable land
+- Interior temperature must stay below 30°C — requires louvered ventilation or insulation in hot climates
+- Lightning protection (grounded iron rod to buried copper plate) adds construction complexity
 
 ---
 

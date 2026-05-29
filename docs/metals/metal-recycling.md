@@ -8,8 +8,6 @@
 > **Outputs**: recycled_steel, recycled_copper, recycled_aluminum, secondary_metal_feedstock
 > **Critical**: No — reduces primary ore demand but does not unlock new capabilities
 
-## 1. Overview
-
 Metal scrap recycling converts end-of-life metal products, manufacturing offcuts, and demolition debris back into usable metal feedstock through sorting, preparation, and remelting. Unlike primary metal production from ore, recycling requires 5–95% less energy depending on the metal: recycled aluminum uses 5% of primary energy, recycled steel uses 25–35%, and recycled copper uses 15–20%.
 
 Recycling does not replace primary metal production — it supplements it. In a bootstrapping civilization, scrap recycling becomes significant once enough metal has been produced and discarded to create viable collection streams. This typically begins 20–30 years after iron production starts, when the first generation of tools, structures, and machines reaches end-of-life.
@@ -17,6 +15,13 @@ Recycling does not replace primary metal production — it supplements it. In a 
 The capability spans four metal groups with different recycling economics: ferrous scrap (iron and steel, highest volume), aluminum scrap (highest energy savings), copper scrap (highest value), and specialty metals (titanium, nickel alloys, precious metals). Each group has distinct sorting requirements, contamination tolerances, and remelting processes.
 
 This document covers the recovery side: collecting, sorting, preparing, and remelting scrap. It does not cover waste disposal of non-recyclable residues — see [Waste Management](../ehs/waste-management.md) for that.
+
+## Prerequisites
+
+- [Iron & Steel Production](iron-steel.md) — primary iron smelting and steelmaking processes
+- [Steelmaking](steelmaking.md) — EAF and BOF steelmaking details
+- [Mining Extraction](../mining/extraction.md) — ore extraction (the upstream process recycling reduces)
+- [Energy](../energy/engine.md) — power supply for electric furnaces
 
 ## 2. Prerequisites
 
@@ -221,17 +226,26 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 
 Bronze Age metalworkers recycled bronze routinely — broken tools and weapons were simply remelted and recast. This was not "recycling" as a concept but the default behavior: metal was too valuable to discard. The modern concept of industrial scrap recycling emerged with the Bessemer and open-hearth processes in the 1860s, when steelmakers began purchasing scrap as a supplementary charge material. The EAF mini-mill revolution (1960s–present) made scrap the primary feedstock for steel production.
 
-## 11. References
+## Troubleshooting
 
-- [Iron & Steel Production](iron-steel.md) — Primary iron smelting and steelmaking processes
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Contaminated melt (wrong alloy elements) | Mixed scrap not properly sorted | Use spark testing or XRF for incoming sorting; keep alloy families separated; charge only known scrap |
+| Low recovery yield (excessive dross) | Oxidation during melting or high contamination | Use protective flux cover; minimize melt time; pre-clean scrap of oil, paint, and coatings |
+| Copper contamination in steel scrap | Copper wire mixed in ferrous scrap (copper ennobles steel, causes hot shortness) | Remove all copper wire and motors before charging; use hand-picking or eddy current separation |
+| Aluminum melt hydrogen porosity | Moisture on scrap or in furnace atmosphere | Pre-dry scrap; use chlorine or argon degassing; keep melt covered with flux |
+| Lead contamination in copper scrap | Solder or bearings mixed in copper charge | Sort out soldered joints and bearings; test melt for Pb content; dilute with clean copper |
+| Explosive eruption during charging | Closed containers or wet scrap in molten metal | Puncture all containers before charging; pre-dry scrap; never charge wet material into molten bath |
+
+## See Also
+
+- [Iron & Steel Production](iron-steel.md) — primary iron smelting and steelmaking processes
 - [Steelmaking](steelmaking.md) — EAF and BOF modern steelmaking details
-- [Aluminum Production](aluminum.md) — Primary aluminum smelting (the process recycling avoids)
-- [Copper & Bronze](copper-bronze.md) — Primary copper smelting and electrolytic refining
-- [Mining Extraction](../mining/extraction.md) — Ore extraction (the upstream process recycling reduces)
-- [Energy](../energy/engine.md) — Power supply for electric furnaces
-- [Waste Management](../ehs/waste-management.md) — Disposal of non-recyclable residues
-- [Chemical Recovery](../chemistry/chemical-recovery.md) — Solvent and acid recovery from metal processing
+- [Aluminum Production](aluminum.md) — primary aluminum smelting (the process recycling avoids)
+- [Copper & Bronze](copper-bronze.md) — primary copper smelting and electrolytic refining
+- [Mining Extraction](../mining/extraction.md) — ore extraction (the upstream process recycling reduces)
+- [Energy](../energy/engine.md) — power supply for electric furnaces
+- [Waste Management](../ehs/waste-management.md) — disposal of non-recyclable residues
+- [Chemical Recovery](../chemistry/chemical-recovery.md) — solvent and acid recovery from metal processing
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) · [Metals](./index.md) · [All Domains](../index.md)*
+[← Back to Metals](index.md)

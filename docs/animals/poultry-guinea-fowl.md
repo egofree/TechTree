@@ -8,8 +8,6 @@
 > **Outputs**: guinea_meat, guinea_eggs, pest_control, feathers, manure
 > **Critical**: No — unmatched for pest control but chickens are more productive for food
 
-### Overview
-
 Helmeted guinea fowl (*Numida meleagris*) are hardy, disease-resistant poultry originally domesticated in Africa. Weighing just 1.2-1.6 kg, they are smaller than chickens but excel in two unique roles: pest control and guardianship. Guinea fowl actively hunt ticks, insects, small rodents, and snakes — a flock of 20-30 birds can significantly reduce tick populations across 1-2 hectares. Their loud, raucous alarm calls at the approach of predators or strangers make them effective living alarms for other poultry and livestock. Guinea fowl are extremely hardy, disease-resistant, and thrive on free-range systems with minimal supplemental feed.
 
 ## Prerequisites
@@ -22,7 +20,7 @@ Helmeted guinea fowl (*Numida meleagris*) are hardy, disease-resistant poultry o
 | High-protein keet starter (24-28%) | [`agriculture`](../agriculture/soil-management.md) | Higher than chicken starter; first 6 weeks |
 | Clean water | [`water`](../water/basic-treatment.md) | 100-200 mL/day per bird |
 
-### Bill of Materials
+## Bill of Materials
 
 Materials listed for a 25-bird guinea fowl flock per year.
 
@@ -34,7 +32,7 @@ Materials listed for a 25-bird guinea fowl flock per year.
 | Coop with high roosts | 4-6 m² floor area | [`construction`](../construction/building-materials.md) | Must train keets to return at dusk |
 | Oyster shell and grit | 10-20 kg | [`mining`](../mining/index.md) | For breeding hens in lay |
 
-### Breeds and Varieties
+## Breeds and Varieties
 
 - **Pearl Grey**: The most common variety. Dark grey plumage densely spotted with white pearled dots. Excellent foragers, good egg production. Standard size: 1.3-1.6 kg. Wild-type coloration provides excellent camouflage from aerial predators on range.
 - **Lavender**: Light silver-grey plumage with white pearling. Same size and productivity as Pearl Grey. Preferred by some keepers for calmer temperament and distinctive appearance. Feather coloration is a single-gene dilute of the pearl grey.
@@ -42,7 +40,7 @@ Materials listed for a 25-bird guinea fowl flock per year.
 - **Royal Purple**: Iridescent purple-grey plumage. Less common but same utility as Pearl Grey.
 - **Vulturine**: A distinct species (*Acryllium vulturine*) rather than a variety. Striking blue and white plumage with long hackle feathers. More ornamental, less cold-hardy. Rarely raised for meat outside tropical climates.
 
-### Housing and Range
+## Housing and Range
 
 **Adult housing**:
 Guinea fowl are strong fliers and roost high in trees if given the choice. For managed flocks, provide a secure coop with high roosts (1.5-2.0 m) and a roof or covered run. They prefer to roost as a tight group on the highest available perch. Allow 0.3-0.4 m² per bird in the coop. They will return to the same roost every night once habituated, but training them to use a coop requires confining keets (young guinea fowl) in the coop for the first 6-8 weeks so they imprint on it as home.
@@ -53,7 +51,7 @@ Guinea fowl are free-range specialists — they forage actively across large are
 **Integration with other poultry**:
 Guinea fowl can share range with chickens, ducks, and turkeys without disease issues — they are resistant to most poultry diseases including blackhead. However, they should have separate roosting quarters because they are noisy at dawn and can disturb other birds. Their alarm-calling benefits all poultry in the area by providing early warning of aerial and ground predators.
 
-### Pest Control
+## Pest Control
 
 **Tick and insect hunting**:
 Guinea fowl are among the most effective natural tick control agents available. A flock of 20 birds can reduce tick populations by 70-90% on their range within a single season. They methodically work through tall grass and leaf litter, snapping up ticks, grasshoppers, crickets, beetles, caterpillars, Japanese beetles, and other arthropods. They also consume small rodents (mice, voles), small snakes, and frogs. Unlike chickens, guinea fowl do not scratch and destroy garden plants — they walk between plants picking insects without uprooting seedlings.
@@ -64,7 +62,7 @@ Guinea fowl are exceptionally vigilant and vocal. Their alarm call is a loud, re
 **Orchard and vineyard use**:
 Guinea fowl are employed in orchards and vineyards for organic pest management. They control codling moth, plum curculio, Japanese beetles, and grasshoppers without damaging fruit or vines. They do not eat fruit readily and prefer insects, making them better orchard guardians than chickens (which peck at ripening fruit).
 
-### Feeding and Nutrition
+## Feeding and Nutrition
 
 **Adult diet on range**:
 On good range with adequate insect populations, adult guinea fowl obtain 60-80% of their nutritional needs from foraging. This is significantly higher than chickens, making them very economical to keep. Supplement with 30-50 g of grain (wheat, milo, or mixed grain) per bird per day during spring through autumn. Increase to 60-80 g per day during winter when insect prey is scarce.
@@ -75,7 +73,7 @@ Breeding hens in active lay require higher protein (18-20%). Provide layer ratio
 **Water**:
 Clean water must always be available. Guinea fowl drink 100-200 mL per day, more in hot weather. They are messy drinkers — use poultry waterers with narrow basins or nipple waterers to reduce contamination and spillage.
 
-### Reproduction
+## Reproduction
 
 **Egg production**:
 Guinea hens lay 80-130 eggs per year during spring and summer (seasonal layers, governed by daylight hours). Eggs weigh 35-40 g — roughly two-thirds the size of a chicken egg. Shells are extremely hard and thick, ranging from pale cream to medium brown with dark speckles. The thick shells give guinea eggs a long shelf life (3-4 weeks at room temperature vs 2 weeks for chicken eggs). Guinea eggs are edible with a slightly richer yolk than chicken eggs. Two guinea eggs approximate one chicken egg in recipes.
@@ -93,7 +91,7 @@ Keets (guinea fowl chicks) are tiny and extremely fragile during the first 2 wee
 
 After 6 weeks, keets are hardy and mortality drops sharply. By 8 weeks they can be moved to a grow-out pen with range access.
 
-### Growth and Processing
+## Growth and Processing
 
 **Growth timeline**:
 - Market weight (1.0-1.5 kg dressed) reached at 12-16 weeks
@@ -106,7 +104,7 @@ Guinea fowl meat is dark, lean, and flavorful — often described as a game bird
 **Processing**:
 Same method as chickens: slaughter, scald (55-60°C for 30-45 seconds), pluck, eviscerate. Guinea fowl feathers are harder to pluck than chicken feathers due to dense plumage. Singeing after plucking removes fine feather remnants. Dressed yield: approximately 70-75% of live weight.
 
-### Health and Hardiness
+## Health and Hardiness
 
 Guinea fowl are among the hardiest and most disease-resistant of all domestic poultry. They are resistant to:
 - Marek's disease
@@ -123,11 +121,11 @@ Guinea fowl are among the hardiest and most disease-resistant of all domestic po
 **Lifespan**:
 Guinea fowl live 10-15 years in managed conditions, remaining productive for 5-7 years. This is significantly longer than chickens (5-8 years), making them a long-term investment.
 
-### Manure
+## Manure
 
 Guinea fowl manure is nitrogen-rich and similar in composition to chicken manure (approximately 1.5% N, 1.0% P, 0.5% K). One adult guinea fowl produces approximately 5-8 kg manure per month. Compost before garden application. The relatively small individual output is offset by the fact that guinea fowl deposit most manure on range while foraging, distributing fertility across pasture and orchard ground rather than concentrating it in bedding.
 
-### Cross-Domain Links
+## Cross-Domain Links
 
 - **[animals.poultry](poultry.md)** — shared poultry infrastructure, biosecurity, and feed formulation
 - **[animals.domestication](domestication.md)** — general animal husbandry principles
@@ -135,7 +133,7 @@ Guinea fowl manure is nitrogen-rich and similar in composition to chicken manure
 - **[food.preservation](../food-processing/index.md)** — meat preservation for guinea fowl carcasses
 - **[animals.pest-management](pest-management.md)** — integrated pest management strategies
 
-### Safety
+## Safety
 
 **Noise**:
 Guinea fowl are loud. Their alarm call reaches 80-90 decibels and they call frequently — at dawn, at any perceived threat, and sometimes for no apparent reason. They are NOT suitable for urban or suburban settings where neighbors are within earshot. Consider this the primary drawback of the species.
@@ -146,7 +144,7 @@ Guinea fowl are flighty and difficult to catch on range. They do not tame easily
 **Aggression during breeding season**:
 Toms become territorial during spring breeding season and may chase or peck at humans entering their range. This is bluster more than danger — a standard-length stick held at arm's length keeps aggressive toms at bay.
 
-### Historical Development
+## Historical Development
 
 Helmeted guinea fowl (*Numida meleagris*) were domesticated in West Africa approximately 2,000-3,000 years ago, with archaeological evidence from Mali and Ghana dating guinea fowl remains in human settlements to 500 BCE.
 
@@ -168,7 +166,7 @@ In traditional West African villages, guinea fowl remain the most common poultry
 
 Selective breeding programs in France and Italy during the 20th century focused on improving growth rate and carcass conformation for commercial production, resulting in lines that reach 1.5 kg at 12 weeks compared to 1.0-1.2 kg for unimproved village stock.
 
-### Regional Adaptations
+## Regional Adaptations
 
 **Tropical and subtropical climates**: Guinea fowl originate from sub-Saharan Africa and thrive in hot, dry conditions (30-40°C daytime temperatures). They tolerate heat significantly better than chickens and continue foraging actively when chickens seek shade.
 
@@ -186,7 +184,7 @@ Frostbite of wattles and combs occurs below -15°C in mature birds. Apply petrol
 
 In arid regions with lower insect populations, supplement range feeding with 60-80 g of grain per bird per day. Provide water at minimum twice daily (morning and evening) to maintain hydration in dry heat exceeding 35°C.
 
-### Processing and Products
+## Processing and Products
 
 **Meat processing**: Guinea fowl reach market weight of 1.0-1.5 kg dressed at 12-16 weeks. Process identically to chickens: dispatch, bleed 60-90 seconds, scald at 55-60°C for 30-45 seconds, pluck, eviscerate.
 
@@ -210,7 +208,7 @@ A single bird yields 8-12 g of usable craft feathers from the hackle, breast, an
 
 One adult guinea fowl produces 5-8 kg manure per month, deposited primarily on range during foraging rather than concentrated in bedding — this distributed deposition pattern builds soil fertility across 0.5-1.0 hectares of pasture and orchard ground.
 
-### Record Keeping
+## Record Keeping
 
 **Flock inventory**: Maintain a running count of birds by age group and sex. Guinea fowl are long-lived (10-15 years) but egg production declines after year 5-6, dropping to 40-60% of peak output and warranting culling for meat.
 
@@ -238,6 +236,12 @@ Guinea fowl typically achieve a feed cost of $0.15-0.25 per dozen eggs and $2.50
 
 Cull hens producing fewer than 60 eggs per season and toms showing aggressive behavior toward keets. Maintain detailed pedigrees if possible to avoid inbreeding — guinea fowl tolerate moderate inbreeding but fertility drops significantly after 3-4 generations of close breeding.
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+- [Poultry Overview](poultry.md) — all poultry species comparison
+- [Chickens](poultry-chickens.md) — primary poultry species for eggs and meat
+- [Pest Management](pest-management.md) — guinea fowl as biological pest control
+- [Food Processing](../food-processing/index.md) — egg and meat preservation
+- [Agriculture / Soil Management](../agriculture/soil-management.md) — guinea fowl manure as fertilizer
+
+[← Back to Animals](index.md)

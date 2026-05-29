@@ -3,14 +3,20 @@
 > **Node ID**: animals.bison
 > **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.domestication`](domestication.md), [`agriculture`](../agriculture/index.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`textiles.fibers`](../textiles/fibers.md), [`food-processing`](../food-processing/index.md)
 > **Timeline**: Years 3-20+
 > **Outputs**: meat, hides, horn, bone, manure
 > **Critical**: No — valuable grassland livestock but specialized; cattle are more versatile
 
-## 1. Overview
+## Problem
 
 The American bison (*Bison bison*) is the largest terrestrial animal in North America, with mature bulls weighing 700-900 kg and cows 400-550 kg. Bison are naturally hardy — they evolved on the Great Plains and require no shelter in most climates, no grain finishing, and have resistance to many cattle diseases. Bison meat is significantly leaner and higher in protein than beef. However, their wild temperament demands specialized handling facilities and experienced management. Bison production is a long-term investment: 18-24 months to slaughter on grass, but with far lower input costs than cattle once the infrastructure is established.
+
+## Prerequisites
+
+- [Domestication](domestication.md) — livestock handling, taming, and herd management principles
+- [Agriculture](../agriculture/index.md) — pasture management and rotational grazing systems
+- [Basic tools](../foundations/tools-basic.md) — fencing materials and handling facility construction
 
 | Parameter | Bison | Cattle (Beef) |
 |-----------|-------|---------------|
@@ -23,7 +29,7 @@ The American bison (*Bison bison*) is the largest terrestrial animal in North Am
 | Slaughter age (grass) | 18-24 months | 20-28 months (grass-finished) |
 | Working lifespan (cows) | 20-25 years | 10-15 years |
 
-## 2. Prerequisites
+## Prerequisites
 
 | Requirement | Source | Notes |
 |-------------|--------|-------|
@@ -33,7 +39,7 @@ The American bison (*Bison bison*) is the largest terrestrial animal in North Am
 | Water source (25-35 L/day) | [`water`](../water/index.md) | Stock tanks or natural water |
 | Hay for winter supplement | [`agriculture`](../agriculture/index.md) | Only during ice crusting or deep snow |
 
-## 3. Bill of Materials
+## Bill of Materials
 
 Materials listed per 20-cow bison herd per year.
 
@@ -46,7 +52,7 @@ Materials listed per 20-cow bison herd per year.
 | Hydraulic squeeze chute | 1 unit | [`metals`](../metals/index.md) | Essential for veterinary work |
 | Salt and mineral | 200-400 kg | [`mining`](../mining/index.md) | Free-choice loose mineral |
 
-## 4. Process Description
+## Process Description
 
 ### 4.1 Grass-Finished Meat Production
 
@@ -135,7 +141,7 @@ Materials listed per 20-cow bison herd per year.
 - Large hide size demands more tanning materials and larger vats
 - Wild temperament makes hide recovery more labor-intensive than cattle processing
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
 ### Bison vs Cattle Nutritional Comparison (per 100 g, cooked)
 
@@ -161,7 +167,7 @@ Materials listed per 20-cow bison herd per year.
 | Water requirement | 25-35 L/day | Vs 40-60 L/day for cattle in same conditions |
 | Manure production | 10-15 kg/day | "Buffalo chips" — historically used as fuel |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 A 20-cow bison herd on 40-80 hectares of native grassland produces 17-19 calves per year (85-95% calving rate). At 18-20 months, each calf dresses 225-240 kg — total annual meat production of 3,800-4,560 kg dressed carcass.
 
@@ -171,7 +177,7 @@ A 20-cow bison herd on 40-80 hectares of native grassland produces 17-19 calves 
 
 **Revenue**: Approximately $800-1,200 per cow per year from calf sales at 18-20 months, with minimal input costs (no grain, no shelter, veterinary costs under $50 per animal per year).
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -181,7 +187,7 @@ A 20-cow bison herd on 40-80 hectares of native grassland produces 17-19 calves 
 | Low calving rate | Nutritional deficiency, old cows | Assess body condition; cull cows over 20 years; ensure adequate summer pasture |
 | Parasite load | Overstocking, wet conditions | Fecal egg counts; deworm annually if needed; rotate pastures to break parasite cycle |
 
-## 8. Safety
+## Safety
 
 **Working with bison is inherently dangerous.** They are not domesticated animals — they are managed wildlife. Even "tame" bison can react unpredictably.
 
@@ -192,7 +198,7 @@ A 20-cow bison herd on 40-80 hectares of native grassland produces 17-19 calves 
 - **Escape planning**: every handling area must have a designated safe zone (climb-over gate, elevated platform, or vehicle access). Practice emergency procedures before working bison.
 - **Response to charge**: do not run (bison reach 55-65 km/h). Move laterally to get behind a solid barrier. If no barrier, lie flat — bison may lose interest or step over rather than trample. Last resort only.
 
-## 9. Quality Control
+## Quality Control
 
 **Meat quality**: Cook bison to medium-rare (57°C internal) for steaks and roasts — the low fat content (2-3%) makes it cook faster than beef and overcooking produces dry, tough meat. Ground bison to 71°C. Carcass aging at 0-2°C for 10-14 days improves tenderness (shorter than beef's 21-28 days due to lower fat content).
 
@@ -200,7 +206,7 @@ A 20-cow bison herd on 40-80 hectares of native grassland produces 17-19 calves 
 
 **Handling stress**: Bison meat quality degrades with pre-slaughter stress (dark-cutting condition). Minimize handling time, work in cool weather, and process promptly after handling. Stress cortisol levels in bison rise 3-5× during extended confinement.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
 **Cattle alternative**: Domestic cattle ([`cattle`](cattle.md)) are more manageable, reach slaughter weight faster with grain, and have established handling infrastructure. Bison trade ease of handling for lower input costs and superior grassland adaptation.
 
@@ -208,13 +214,12 @@ A 20-cow bison herd on 40-80 hectares of native grassland produces 17-19 calves 
 
 **Predator management**: Bison defend themselves and calves against predators more effectively than cattle. Defensive circling (calves in center, adults facing outward) deters most predators. Predation losses typically 2-5% of calves vs 5-15% for cattle under similar conditions.
 
-## 11. Cross-Domain Links
+## Cross-Domain Links
 
 - [`animals.domestication`](domestication.md) — comparative livestock domestication timelines and species profiles
 - [`animals.cattle`](cattle.md) — cattle as an alternative domesticated bovine for meat and dairy
 - [`textiles`](../textiles/index.md) — hide tanning and leather processing from bison hides
 - [`food-processing`](../food-processing/index.md) — meat preservation methods for bison
-- [`agriculture`](../agriculture/index.md) — pasture management and rotational grazing for bison herds
+- [Agriculture](../agriculture/index.md) — pasture management and rotational grazing for bison herds
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+[← Back to Animals](index.md)

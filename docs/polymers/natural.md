@@ -2,10 +2,23 @@
 
 > **Node ID**: polymers.rubber.natural
 > **Domain**: Polymers & Composites
-> **Dependencies**: `foundations`
-> **Enables**: None (leaf capability)
+> **Dependencies**: [`foundations`](../foundations/index.md), [`chemistry.distillation`](../chemistry/distillation.md)
+> **Enables**: [`polymers.rubber.vulcanization`](rubber.vulcanization.md), [`energy.engine`](../energy/engine.md), [`machine-tools.casting`](../machine-tools/casting.md)
 > **Timeline**: Years 5-30
 > **Outputs**: vulcanized_rubber, tires, drive_belts
+> **Critical**: Yes — rubber is the only natural elastomer; seals, belts, tires, and hoses all depend on it
+
+### Problem
+
+Industrial machinery requires flexible, elastic materials that can seal gaps, transmit power, absorb vibration, and conform to irregular surfaces. Metal is rigid, wood is brittle, leather stretches permanently, and textiles are porous. Natural rubber — the only naturally occurring elastomer — uniquely combines elasticity (400-650% elongation with full recovery), water resistance, electrical insulation, and moldability. Before synthetic elastomers (which require petrochemical infrastructure), natural rubber from *Hevea brasiliensis* or temperate alternatives (guayule, Russian dandelion) is the only option for tires, drive belts, gaskets, hoses, and vibration dampers. Vulcanization with sulfur transforms raw rubber from a sticky, temperature-sensitive gum into a durable engineering material.
+
+### Prerequisites
+
+- [Foundations](../foundations/index.md) — basic agricultural and processing infrastructure
+- [Distillation](../chemistry/distillation.md) — ethanol for shellac dissolution and ammonia for latex preservation
+- [Sulfur production](../chemistry/elements.md) — cross-linking agent for vulcanization
+- [Zinc oxide](../chemistry/alkalis.md) — accelerator activator in vulcanization
+- Tropical climate (for *Hevea*) or arid/temperate regions (for guayule/dandelion alternatives)
 
 ### Natural Rubber
 
@@ -198,10 +211,30 @@ Beyond rubber and shellac, several natural materials provide adhesive properties
 - **Vulcanization burns**: Autoclave steam at 3-10 bar causes severe scalds on contact. Press platens at 140-180°C cause thermal burns. Use thermal gloves and face shields when loading/unloading presses. Depressurize autoclaves fully before opening. Steam burns are particularly severe because the latent heat of condensation (2260 kJ/kg at 1 atm) transfers far more energy than an equivalent mass of hot water.
 - **Nitrosamine formation**: Certain rubber accelerators (particularly nitrosatable secondary amines like TMTD and DTDM) can form N-nitrosamines during vulcanization. Several nitrosamines are confirmed carcinogens (IARC Group 2A). Monitor airborne nitrosamine levels during mixing and curing operations. Use nitrosamine-safe accelerator systems (TBzTD, ZBEC) where possible — they generate non-carcinogenic nitrosamines.
 
----
+### Troubleshooting
 
-### Cross-Domain Dependencies
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Rubber won't cure (stays tacky) | Insufficient sulfur, dead accelerator, or low temperature | Check sulfur dose (1.5-3 phr); verify accelerator freshness; increase cure temperature to 140-160°C |
+| Overcured (brittle, cracked) | Excessive cure time or sulfur content | Reduce cure time; test with strip stretch (should spring back, not snap) |
+| Poor latex coagulation | Acid concentration too low or latex too dilute | Increase formic/acetic acid to 0.5%; ensure latex is 30-40% DRC |
+| Mold growth on drying sheets | Smokehouse too cool (<50°C) or poor ventilation | Maintain 60-70°C; increase ventilation; tend fire continuously |
+| Sticky finished rubber | Undercured or insufficient washing of raw rubber | Increase cure time; wash coagulum more thoroughly before sheeting |
+| Latex allergy reaction | Residual Hevea proteins in product | Use low-protein latex (<50 μg/g); switch to nitrile (NBR) for sensitive users |
+| Carbon black dust explosion | Airborne dust concentration above MEC (50-100 g/m³) | Local exhaust ventilation; ground equipment; avoid enclosed mixing |
+| Rubber perishing (surface cracks) | Ozone/UV degradation and aging | Add antioxidants (1-2 phr); store in dark, cool location away from electrical ozone sources |
 
-- Natural rubber from plantation agriculture. Shellac from lac insects, related to [Animals](../animals/domestication.md). Cellulose from [Pulp Chemicals](../chemistry/pulp-chemicals.md). Supplemented by [Synthetic](../polymers/synthetic.md) polymers.
+### See Also
+
+- [Rubber Vulcanization](rubber.vulcanization.md) — detailed vulcanization chemistry and process control
+- [Synthetic Polymers](synthetic.md) — synthetic rubber, plastics, and elastomers that supplement natural materials
+- [Shellac](shellac.md) — detailed lac insect resin processing and applications
+- [Gutta-Percha](gutta-percha.md) — trans-polyisoprene for cable insulation and dental applications
+- [Semiconductor-Grade Elastomers](rubber.semiconductor-apps.md) — high-purity elastomers for cleanroom service
+- [Animal Domestication](../animals/domestication.md) — lac insect cultivation for shellac
+- [Chemistry / Acids](../chemistry/acids.md) — formic and acetic acid for latex coagulation
+- [Chemistry / Alkalis](../chemistry/alkalis.md) — ammonia for latex preservation, lime for casein glue
+- [Pulp Chemicals](../chemistry/pulp-chemicals.md) — cellulose as a natural polymer feedstock
+- [Engine](../energy/engine.md) — rubber seals, hoses, and drive belts in internal combustion engines
 
 [← Back to Polymers](index.md)

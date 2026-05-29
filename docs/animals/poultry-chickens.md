@@ -8,8 +8,6 @@
 > **Outputs**: eggs, chicken_meat, feathers, manure
 > **Critical**: Yes — gateway livestock for settlement food systems; lowest barriers to entry of any domestic animal
 
-## Problem
-
 Chickens are the most widely kept poultry species worldwide, descended from the red junglefowl (*Gallus gallus*) of Southeast Asia. Domesticated approximately 8,000 years ago, chickens provide eggs, meat, feathers, and manure with relatively modest infrastructure requirements. A small flock of 10-20 hens supplies a household with 15-30 eggs per week while producing nitrogen-rich manure (1.5% N — the highest of any common livestock) for garden fertility. Chickens are the gateway livestock for settlement food systems: they accept a wide range of feeds, reproduce readily, reach slaughter weight quickly, and require no specialized butchering equipment.
 
 Mature weight ranges from 1.5-2.5 kg for hens to 2.5-3.5 kg for roosters in dual-purpose breeds. Point-of-lay occurs at 18-22 weeks. Broilers reach slaughter weight (2.0-2.5 kg) at 6-8 weeks on intensive feed, or 12-16 weeks on range. A well-managed laying hen produces 200-300 eggs per year in modern breeds, 150-200 in heritage breeds, with each egg weighing 50-65 g.
@@ -25,7 +23,7 @@ Mature weight ranges from 1.5-2.5 kg for hens to 2.5-3.5 kg for roosters in dual
 | Clean water system | [`water`](../water/basic-treatment.md) | 250-400 mL/bird/day |
 | Brooder with heat source | [`foundations.tools-basic`](../foundations/tools-basic.md) | 35°C initial for chicks |
 
-### Bill of Materials
+## Bill of Materials
 
 Materials listed for a 25-hen flock per year.
 
@@ -37,7 +35,7 @@ Materials listed for a 25-hen flock per year.
 | Feed storage (metal bins) | 2-3 units (35-50 L) | [`metals`](../metals/index.md) | Rodent-proof containers |
 | Wire mesh (hardware cloth) | 10-20 m² | [`metals`](../metals/index.md) | For coop vents and run |
 
-### Breed Selection
+## Breed Selection
 
 **Layer breeds**:
 Optimized for egg production. Leghorn hens produce 280-320 white eggs per year at 100-150 g feed/day. Rhode Island Red hens produce 250-300 brown eggs per year and are more cold-hardy and disease-resistant than Leghorns. Sussex hens yield 240-260 eggs per year and are calm, reliable foragers. Layer breeds are lightweight (1.5-2.0 kg hens) and convert feed efficiently to eggs (2-2.5 kg feed per kg of egg mass).
@@ -48,7 +46,7 @@ Optimized for rapid meat production. Cornish Cross reaches 2.0-2.5 kg live weigh
 **Dual-purpose breeds**:
 Balanced for both eggs and meat. Rhode Island Red, Plymouth Rock, Orpington, Sussex, and Wyandotte hens produce 200-260 eggs per year while reaching 3-4 kg live weight — large enough for a respectable carcass at the end of their productive laying life (2-3 years). Dual-purpose breeds are the practical choice for self-sufficient settlements: a single flock provides ongoing eggs and periodic meat without maintaining separate layer and broiler breeding programs. Roosters of these breeds reach 3.5-4.5 kg.
 
-### Housing and Coop Construction
+## Housing and Coop Construction
 
 **Coop dimensions**:
 Allow 0.1-0.2 m² floor space per bird inside the coop and 4-6 m² per bird in outdoor runs. A flock of 20 hens requires a minimum 2-4 m² coop plus 80-120 m² outdoor run. Coop height: 1.5-2.0 m at the peak for human access during cleaning.
@@ -68,7 +66,7 @@ Critical for respiratory health. Ammonia from droppings causes respiratory disea
 **Predator protection**:
 Woven wire mesh (hardware cloth) with openings under 2.5 cm on all windows, vents, and openings — chicken wire (2.5-5 cm hexagonal mesh) excludes chickens but not weasels, mink, or rats. Solid floor or buried wire apron: extend wire mesh 30 cm outward from the coop foundation, then bury it 15-20 cm deep, or pour a concrete slab floor. Raccoons, foxes, and dogs dig under coop walls. Automatic or manually operated pop door closes at dusk to prevent nocturnal predator access. Enclose outdoor run with wire mesh roof (hawks, owls) and buried wire apron along the perimeter.
 
-### Feeding and Nutrition
+## Feeding and Nutrition
 
 **Layer feed requirements**:
 100-150 g layer feed per day per hen, containing 16-18% protein, 3.5-4.0% calcium (essential for eggshell formation). Calcium supplementation: offer free-choice oyster shell or crushed limestone in a separate hopper — hens regulate their own calcium intake. Grit (small stones, 2-5 mm) must also be available free-choice for digestion since chickens have no teeth and rely on the gizzard to grind feed.
@@ -82,7 +80,7 @@ Free-ranging hens forage insects, seeds, worms, and greens, supplementing 20-40%
 **Feed storage**:
 Store feed in rodent-proof containers (metal trash cans or sealed plastic barrels). Mice and rats consume and contaminate feed — a single rat eats 20-30 g of feed per day and spreads disease. Keep feed dry to prevent mold; aflatoxin from *Aspergillus flavus* mold is lethal to chickens at low concentrations.
 
-### Brooding and Incubation
+## Brooding and Incubation
 
 **Natural brooding**:
 A broody hen sits on a clutch of 10-14 eggs for 21 days, leaving the nest briefly once or twice daily to eat, drink, and defecate. She turns the eggs, maintains incubation temperature, and protects the chicks after hatching. Heritage breeds (Cochin, Silkie, Orpington) go broody readily; commercial layers (Leghorn) have had broodiness bred out almost entirely. A broody hen is the simplest incubation method — no equipment required.
@@ -93,7 +91,7 @@ Maintain incubator temperature at 37-38°C (37.5°C optimal) with 50-65% relativ
 **Chick brooding (0-6 weeks)**:
 Provide a heat source (brooder lamp or heat plate) maintaining 32-35°C in the first week, decreasing by 2-3°C per week until ambient temperature is reached at 5-6 weeks. Feed chick starter (18-21% protein) for the first 6-8 weeks. Provide clean water in shallow dishes to prevent drowning. Floor space: 250 cm² per chick initially, increasing as they grow. Mortality should be under 5% with proper management.
 
-### Egg Production
+## Egg Production
 
 **Laying cycle**:
 Hens begin laying at 18-22 weeks of age. Peak production occurs at 26-30 weeks, with 90-95% of the flock laying daily. Production gradually declines 10-15% per year thereafter. A hen's ovary releases a yolk every 24-26 hours during active laying; the egg traverses the oviduct over 24-25 hours, receiving albumen, shell membranes, and a calcium carbonate shell.
@@ -107,7 +105,7 @@ Hens require 14-16 hours of light per day to maintain egg production. In tempera
 **Egg collection and storage**:
 Collect eggs daily, ideally twice daily in warm weather. Fresh unwashed eggs keep 2-3 weeks at room temperature (15-20°C) — the bloom (cuticle) on the shell protects against bacterial penetration. Washing removes the bloom; washed eggs must be refrigerated (4°C) and consumed within 2 weeks. For longer storage, coat eggs in food-grade mineral oil or waterglass (sodium silicate solution) to seal shell pores, extending shelf life to 6-12 months at cool temperatures.
 
-### Meat Production
+## Meat Production
 
 **Dressed carcass yield**:
 70-75% of live weight after plucking and evisceration. A 2.0 kg live broiler yields approximately 1.4-1.5 kg dressed carcass. A 3.0 kg dual-purpose hen yields 2.1-2.3 kg dressed carcass. Broilers reach 2.0-2.5 kg at 6-8 weeks on intensive feed; heritage breeds reach the same weight at 12-16 weeks on range.
@@ -118,7 +116,7 @@ Slaughter by cervical dislocation (small birds) or cone killing (insert head thr
 **Feed conversion**:
 Broilers: 1.5-1.8 kg feed per kg of live weight gain (highly efficient — among the best of any livestock). Layers: 2.0-2.5 kg feed per kg of egg mass. Dual-purpose on range: 2.5-3.5 kg feed per kg of live weight, supplemented by 20-40% foraged intake.
 
-### Health and Disease
+## Health and Disease
 
 **Common diseases**:
 - **Coccidiosis**: Protozoan parasite (*Eimeria* spp.) causing bloody diarrhea and weight loss in young birds. Prevent with clean dry litter and coccidiostat in feed (or allow controlled exposure to build immunity). Treat with amprolium in water.
@@ -135,18 +133,18 @@ Broilers: 1.5-1.8 kg feed per kg of live weight gain (highly efficient — among
 **Biosecurity measures**:
 Quarantine new birds for 30 days before integrating with the flock. Disinfect coop and equipment between flocks. Limit visitor access to the coop area. Control rodents (rats carry disease and consume feed). Provide dust bathing areas (sand, wood ash, diatomaceous earth) for natural parasite control. Remove dead birds immediately and determine cause of death.
 
-### Manure Management
+## Manure Management
 
 Chicken manure is the highest-nitrogen common livestock manure at approximately 1.5% N, 1.0% P₂O₅, and 0.5% K₂O by fresh weight. Production rate: 0.05-0.1 kg per bird per day. Fresh chicken manure is too hot (high nitrogen) to apply directly to plants — it burns roots. Compost for 6-8 weeks with carbonaceous bedding material (straw, wood shavings, leaves) at a carbon-to-nitrogen ratio of 25-30:1. The deep litter system in the coop effectively pre-composts manure. After composting, apply at 2-5 kg per m² of garden bed as a complete fertilizer. A flock of 20 hens produces approximately 500-700 kg of compost-ready manure per year.
 
-### Cross-Domain Links
+## Cross-Domain Links
 
 - **[Beekeeping](beekeeping.md)** — complementary pollination and honey-wax production
 - **[Domestication](domestication.md)** — species domestication history and breed development
 - **[Farming](../agriculture/index.md)** — chicken manure as fertilizer, pest control in crop rotations
 - **[Food Preservation](../food-processing/index.md)** — egg storage, meat curing, and preservation
 
-### Safety
+## Safety
 
 **Pathogen handling**:
 Raw chicken meat commonly carries *Salmonella* and *Campylobacter* bacteria. Wash hands thoroughly after handling live chickens, raw meat, or eggs. Cook chicken to an internal temperature of 74°C to kill pathogens. Clean and disinfect processing surfaces and tools after butchering. Do not wash raw chicken under running water — this splashes bacteria up to 50 cm in all directions.
@@ -157,27 +155,27 @@ Roosters defend their flock and may attack humans, especially during breeding se
 **Dust and respiratory protection**:
 Poultry dust (feather dander, dried manure, bedding particles) causes respiratory irritation and can carry bacteria. Wear a dust mask when cleaning the coop. Ventilation in the coop is the primary control measure. Histoplasmosis (fungal infection from soil enriched with bird droppings) is a risk when cleaning accumulations of old manure — wear respiratory protection and wet down dry material before disturbance.
 
-### Production Metrics
+## Production Metrics
 
 **Egg production benchmarks**: Modern hybrid layers (Leghorn-derived) produce 280-320 eggs per year at peak, consuming 100-130 g of feed per day (2.0-2.2 kg feed per kg of egg mass). Heritage dual-purpose breeds produce 200-260 eggs per year at 110-150 g feed per day (2.5-3.0 kg feed per kg of egg mass). Egg weight progression: pullets (first-year hens) lay 48-54 g eggs; second-year hens lay 58-65 g eggs; third-year hens lay 62-70 g eggs with declining frequency. Annual egg mass per hen: 15-18 kg (hybrids) or 12-15 kg (heritage). At $0.40-0.60 per kg feed, each dozen eggs costs $0.80-1.20 in feed. A flock of 25 hens produces 5,000-7,500 eggs per year (approximately 300-450 kg of egg mass), generating $750-2,500 in annual retail value at $3-5 per dozen.
 
 **Meat production benchmarks**: Cornish Cross broilers reach 2.5 kg live weight at 42-49 days on 4.5-5.0 kg of feed (FCR 1.6-1.8). Heritage breeds (Delaware, Wyandotte) reach 2.0-2.5 kg at 84-112 days on 6-8 kg of feed (FCR 2.5-3.5). Dressed yield: 70-75% of live weight. A batch of 25 Cornish Cross broilers produces 44-47 kg of dressed carcass from 110-125 kg of feed in 6-7 weeks. Annual production potential from a breeding flock of 5 hens and 1 rooster: 60-80 chicks hatched (assuming 6-8 clutches of 10-12 fertile eggs with 80-85% hatch rate), yielding 84-100 kg of dressed chicken at 1.2-1.3 kg each at 12-16 weeks.
 
-### Regional Adaptations
+## Regional Adaptations
 
 Chickens adapt to virtually every inhabited climate on Earth, from equatorial tropics to subarctic homesteads. In hot climates (above 35°C), chicken feed intake drops 10-20% and eggshell quality deteriorates (thinner shells, more cracks) — providing shade, misters, or wet feed restores 80-90% of normal production. Lightweight breeds (Leghorn, Ancona) with large combs and wattles radiate heat more efficiently and tolerate heat 3-5°C better than heavy breeds. In cold climates (below -10°C), large single combs suffer frostbite at temperatures below -12°C; rose comb and pea comb breeds (Wyandotte, Brahma, Ameraucana) are hardier. Supplemental lighting (14-16 hours total per day using a single 5-10 watt LED bulb on a timer) prevents the 40-60% egg production decline that occurs naturally from November through February at latitudes above 40°N. Deep litter bedding (30-40 cm) in the coop generates composting heat that raises coop temperature 5-10°C above ambient. Free-ranging hens in temperate climates forage 20-40% of their diet from insects and vegetation during spring through autumn; this drops to under 5% during winter when snow cover eliminates ground forage.
 
-### Historical Development
+## Historical Development
 
 Chickens descend from the red junglefowl (*Gallus gallus*) of Southeast and South Asia, domesticated approximately 8,000-10,000 years ago. The earliest undisputed chicken bones come from northern China (5400 BCE), with additional early sites in Pakistan (Mehrgarh, 4000 BCE) and Thailand (Ban Non Wat, 2000 BCE). Initial domestication was likely for cockfighting and religious purposes rather than food — egg and meat production were secondary benefits. Dispersal to Europe occurred via two routes: overland through Central Asia and the Caucasus (reaching Greece by 800 BCE) and maritime through the Indian Ocean to East Africa and the Mediterranean. The Roman Empire developed the first intensive poultry systems, including artificial incubation using warmed clay ovens capable of hatching 10,000+ chicks simultaneously. Selective breed development accelerated in 19th-century Europe and North America — the first poultry exhibition (London, 1845) showcased dozens of standardized breeds. Modern hybrid layer and broiler lines were developed in the 1940s-1960s through crossing genetically distinct inbred lines, creating birds that outperform purebreds by 20-40% through heterosis (hybrid vigor). For bootstrapping, a founding flock of 10 hens and 2 roosters of a dual-purpose breed (Rhode Island Red, Plymouth Rock, or Sussex) provides 2,000-2,600 eggs and 40-60 kg of dressed chicken in the first year, with self-sustaining reproduction producing 60-100 chicks per year from the second year onward.
 
-### Nutritional Requirements
+## Nutritional Requirements
 
 **Protein requirements by age**: Chicks require 20-24% crude protein in starter feed (0-6 weeks), decreasing to 16-18% in grower (6-12 weeks), and 15-16% in layer ration (16+ weeks). Broilers need higher sustained protein: 23-24% starter (0-3 weeks), 20-21% grower (3-6 weeks), 18-19% finisher (6-8 weeks). Protein deficiency below 14% causes reduced growth, poor feathering, and a 30-50% drop in egg production within 7-10 days. The limiting amino acid for poultry is methionine — supplement at 0.3-0.5% of diet using fish meal (2.3% methionine), sunflower seeds (0.6%), or synthetic DL-methionine. A basic all-grain ration of 50% cracked corn, 25% wheat, 20% peas or soybean meal, and 5% supplement (oyster shell, grit, mineral mix) provides approximately 16-18% protein suitable for layers.
 
 **Calcium and vitamin requirements**: Each egg shell contains 2.0-2.5 g of calcium carbonate, deposited during 18-20 hours of shell formation — the hen mobilizes 10-15% of her total skeletal calcium for each egg. Laying hens require 3.5-4.0% dietary calcium, provided as free-choice oyster shell (38% calcium) or limestone (33-38% calcium) in particles of 2-5 mm diameter. Vitamin D3 (cholecalciferol) at 3,000-4,000 IU per kg of feed is essential for calcium absorption — deficiency produces thin-shelled eggs, reduced lay rates, and skeletal deformity (rickets in growing birds). Free-range hens obtain vitamin D from sunlight exposure (15-30 minutes of direct sun on unfeathered skin synthesizes adequate D3), but confined hens require dietary supplementation.
 
-### Processing and Products
+## Processing and Products
 
 **Egg grading and storage**: Grade AA eggs have a thick, firm albumen (white height above 6 mm when measured with a micrometer on a flat glass plate), a centered, firm yolk, and a clean, unbroken shell. Grade A allows slightly thinner whites (4-6 mm height). Fresh egg specific gravity (measured by float test in salt water solutions): eggs that sink in 1.025 SG water are under 3 days old; eggs that float in 1.080 SG water are over 21 days old. Storage at 4°C extends grade A quality from 7-10 days (room temperature) to 4-6 weeks. Waterglass preservation (sodium silicate, 1:10 ratio with water) extends storage to 6-12 months at 10-15°C.
 
@@ -185,7 +183,7 @@ Chickens descend from the red junglefowl (*Gallus gallus*) of Southeast and Sout
 
 **Feather and byproduct utilization**: A processed chicken yields 80-120 g of feathers (90% keratin protein), usable as insulation in bedding or, when hydrolyzed under pressure (140°C, 30-60 minutes), as a slow-release nitrogen fertilizer (12-14% N) applied at 50-100 g per m². Blood (30-50 mL per bird, 16-18% protein) is collected at slaughter for blood sausage or dried as blood meal (80-85% protein, 12-13% nitrogen) — an extremely fast-acting nitrogen fertilizer. Chicken feet (40-60 g each) are edible and produce excellent broth; heads and intestines are fed to other livestock or composted.
 
-### Health Management Calendar
+## Health Management Calendar
 
 **Vaccination schedule**: Marek's disease vaccine administered subcutaneously (0.2 mL) at day 1 in the hatchery or brooder — this herpesvirus vaccine is nearly 100% effective at preventing tumor formation when given before exposure. Newcastle disease and infectious bronchitis vaccine: first dose at 10-14 days via eye drop or drinking water, booster at 4-6 weeks. Fowl pox vaccine: wing web stab at 6-8 weeks. Laryngotracheitis vaccine (where endemic): eye drop at 4-6 weeks. Coccidiosis prevention: anticoccidial medication in starter feed (lasalocid, monensin, or salinomycin) for the first 12-16 weeks, or controlled exposure through litter contact to build natural immunity. Vaccination costs approximately $0.05-0.15 per bird for the full schedule — one of the highest-return investments in poultry management, preventing losses of 30-60% in unvaccinated flocks.
 
@@ -193,7 +191,7 @@ Chickens descend from the red junglefowl (*Gallus gallus*) of Southeast and Sout
 
 **Seasonal management**: Spring (March-May): introduce replacement pullets, begin pasture access when grass reaches 10-15 cm, increase nesting box availability. Summer (June-August): provide shade and extra water (consumption doubles above 30°C), collect eggs twice daily to prevent heat spoilage, monitor for fly populations. Autumn (September-November): cull spent hens (those that have completed their second laying season), process surplus roosters, deep-clean and lime-wash the coop, stockpile feed for winter. Winter (December-February): install supplemental lighting (14-16 hours total, using a timer on a 5-10 watt LED bulb), add extra bedding (build deep litter to 20-30 cm for composting heat), prevent water from freezing (heated waterers or twice-daily replacement), reduce ventilation to balance moisture removal with heat retention.
 
-### Economic Analysis
+## Economic Analysis
 
 **Cost of production**: A small-scale layer operation of 25 hens incurs annual costs of approximately $200-350: feed ($150-250 at $0.40-0.60 per kg, 5-7.5 kg per hen per day), bedding ($10-20), supplemental calcium and grit ($5-10), replacement pullets ($30-60 at $3-6 each for 10 birds). Revenue from egg sales: 5,000-7,500 eggs per year at $0.20-0.50 each ($1,000-3,750). Net annual profit: $650-3,400 depending on market and management. A broiler batch of 25 birds incurs costs of $75-135 (chicks at $2-3 each, feed at $45-60, processing supplies $5-10) and produces 35-47 kg of dressed chicken valued at $175-470 at $5-10 per kg. Return on investment: 2-4× per batch, with 4-6 batches possible per year in a continuous production system.
 
@@ -201,7 +199,7 @@ Chickens descend from the red junglefowl (*Gallus gallus*) of Southeast and Sout
 
 **Flock reproduction calculations**: A breeding flock of 8 hens and 2 roosters (heritage dual-purpose breed) produces 72-96 fertile eggs per clutch (assuming 9-12 eggs per hen × 8 hens, 85-90% fertility rate). Incubation hatch rate of 80-90% yields 58-86 chicks per clutch. Three natural hatches per year (spring, summer, early autumn) produce 174-258 chicks annually — sufficient to maintain the laying flock (replace 8-10 hens per year), produce 100-150 broilers for meat, and retain 30-50 surplus birds for sale or trade. This self-sustaining reproduction rate makes chickens the most demographically productive livestock species per unit of feed and management input.
 
-### Housing Design Specifications
+## Housing Design Specifications
 
 **Coop construction details**: A well-built coop for 25 hens measures 3.0 × 2.5 m (7.5 m² floor area) with 1.8 m ceiling height at the peak. Frame: 50 × 100 mm timber posts at 60 cm spacing, sheathed with 20 mm tongue-and-groove boards or 12 mm plywood. Roof: corrugated galvanized steel or cedar shingles on 25 × 50 mm rafters at 60 cm spacing, with 20-30° pitch. Floor: pressure-treated 25 mm boards on 50 × 100 mm joists at 40 cm spacing, or concrete slab (100 mm thick over compacted gravel). Insulation (for cold climates): 50 mm rigid foam between studs, covered with 6 mm plywood interior sheathing. Two windows (30 × 40 cm) on the south wall with hardware cloth and hinged shutters. Pop hole: 30 × 30 cm on the east wall with a sliding door operated by cord from outside.
 

@@ -20,7 +20,7 @@ Manufacturing precision components requires verifying that surfaces, dimensions,
 - [Measurement fundamentals](../measurement/index.md) — calibration and traceability concepts
 - [Light sources](../energy/electricity.md) — monochromatic light for interferometric testing
 
-### Optics & Inspection
+## Optics & Inspection
 
 **Lens grinding and polishing**:
 - **Rough grinding**: Fix glass blank to convex or concave cast iron tool (curve matched to desired radius). Add coarse abrasive (60-120 grit SiC or emery) and water. Stroke blank across tool in random pattern. Check radius with spherometer or template. Duration: 2-8 hours depending on size and depth.
@@ -45,7 +45,7 @@ Manufacturing precision components requires verifying that surfaces, dimensions,
 - **Flame spectroscopy**: Dip sample in flame → characteristic color (Na = yellow, Cu = green/blue, Li = red, K = violet). Quick qualitative analysis.
 - **Applications**: Ore identification, alloy verification, chemical analysis, astronomical observation.
 
-### Telescope Construction
+## Telescope Construction
 
 **[Refracting telescopes](../glossary/refracting-telescopes.md)** (lens-based):
 - **Objective lens**: Grind and polish a large plano-convex or biconvex lens (crown glass). Focal length f = R/(n-1) for plano-convex. Typical amateur: 50-80 mm diameter, f/10-f/15 (500-1200 mm focal length).
@@ -57,7 +57,7 @@ Manufacturing precision components requires verifying that surfaces, dimensions,
 - **Newtonian**: Flat diagonal (secondary) mirror deflects focus to side of tube. Simplest reflecting design. Primary mirror: parabolic. Most common amateur design.
 - **Cassegrain**: Hyperbolic secondary reflects focus back through hole in primary. Compact tube, long effective focal length. More complex optics (two non-spherical surfaces).
 
-### Mirror Grinding Procedure
+## Mirror Grinding Procedure
 
 **[Rough grinding](../glossary/rough-grinding.md)** (generating the curve):
 - Fix glass blank (borosilicate or soda-lime) to workbench. Use cast iron or glass tool of equal diameter.
@@ -80,14 +80,14 @@ Manufacturing precision components requires verifying that surfaces, dimensions,
 - **Petal lap**: Modify pitch lap by cutting away petals — selective contact controls which zones are polished. Advanced technique for precise figure control.
 - **[Foucault test](../glossary/foucault-test.md)** (knife-edge test): Place point light source at radius of curvature. Move razor blade across returning cone of light. Shadows reveal zones: sphere shows uniform gray; paraboloid shows characteristic "doughnut" shadow pattern. Measure zonal radii with Couder mask to quantify deviation from paraboloid.
 
-### Prism Fabrication
+## Prism Fabrication
 
 - **Blank preparation**: Select optical glass block (BK7 equivalent or flint glass). Cut to rough prism shape with diamond saw or wire saw with SiC slurry.
 - **Angle control**: Grind two refracting faces to specified angle (60° for equilateral dispersing prism, other angles for special purposes). Use sine bar or angle gauge to set grinding fixture. Tolerance: ±0.1° for spectroscopic use, ±0.01° for precision optics.
 - **Fine grinding and polishing**: Same sequence as lens work (220 → 1200 grit → CeO₂ polish). Polish each face individually on flat lap. Faces must be flat to λ/4 (quarter-wavelength) over full aperture.
 - **Testing**: Illuminate with collimated white light through slit → prism → observe spectrum on screen or with telescope. Sharp spectral lines indicate good polish and correct angle. Spectroscope built from own output — first instrument can certify subsequent ones.
 
-### Optical Coatings
+## Optical Coatings
 
 - **[Anti-reflection coating](../glossary/anti-reflection-coating.md)** (single-layer MgF₂):
   - Magnesium fluoride (MgF₂) deposited on lens surface. Thickness: λ/4 (quarter-wavelength, ~100 nm for center of visible spectrum). Refractive index n ≈ 1.38, between air (1.0) and glass (~1.5).
@@ -100,7 +100,7 @@ Manufacturing precision components requires verifying that surfaces, dimensions,
   - Reflectivity: ~92% for fresh aluminum (vs ~85% for silver, which tarnishes). Protective overcoat of SiO₂ (quarter-wave) extends lifetime.
   - **Requires**: same vacuum infrastructure as anti-reflection coating, plus aluminum source material.
 
-### Optional: Vacuum Tube Electronics
+## Optional: Vacuum Tube Electronics
 
 - Not strictly required for semiconductor path, but provides:
   - Amplification experience (useful for test equipment)
@@ -109,13 +109,13 @@ Manufacturing precision components requires verifying that surfaces, dimensions,
 - **Requires**: Glass envelopes (glassblowing capability above), vacuum (rotary vane pump sufficient), cathode material (tungsten or thoriated tungsten — heated to emit electrons), anode (nickel plate), grid (fine wire spiral for triode), base and pins (glass-to-metal seals).
 - **Evacuation**: Pump down to 10⁻⁴ Torr, bake tube to 300-400°C during pumping to drive off adsorbed gases, seal off. Getter (barium or magnesium flash strip) inside tube — flashes during initial activation, absorbs residual gases.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Laser eye hazards**: Alignment and testing lasers (even low-power HeNe at 1-5 mW) can cause permanent retinal burns from direct or reflected beam exposure. Never look into beam path. Use laser safety goggles matched to wavelength. Enclose beam paths where feasible.
 - **Chemical etchants**: Lens and prism preparation may use hydrofluoric acid (HF) for glass etching — HF penetrates skin, attacks bone, causes delayed deep-tissue necrosis. Calcium gluconate gel must be available as first aid. Cerium oxide and rouge (Fe₂O₃) polishing slurries are low hazard but avoid inhalation of dried powders.
 - **Vacuum chamber implosion**: Glass vacuum tubes and bell jars under vacuum can collapse violently. Wrap with tape or mesh, wear face shield during evacuation. Never use chipped or scratched glassware under vacuum.
 
-### Visual Inspection Standards
+## Visual Inspection Standards
 
 **Scratch and dig classification (MIL-PRF-13830)**:
 - The military specification for optical component surface quality. Every polished optical surface has minor imperfections. Scratch/dig specifies the maximum allowable size.
@@ -124,7 +124,7 @@ Manufacturing precision components requires verifying that surfaces, dimensions,
 - **Typical specifications**: 60/40 for general visual optics (eyepieces, finderscopes). 40/20 for camera lenses and binoculars. 20/10 for imaging optics and precision instruments. 10/5 for laser optics and photolithography lenses (any defect scatters laser energy or creates imaging artifacts).
 - **Inspection method**: View the surface against a dark background with a bright, collimated light source at 5-10× magnification for routine inspection. Use 20-50× magnification for scratch/dig 20/10 and better. Compare suspect features against certified standard scratches on a reference piece. The inspection is subjective and requires trained operators.
 
-### Interferometric Flatness Measurement
+## Interferometric Flatness Measurement
 
 **Fizeau interferometer**:
 - The workhorse instrument for measuring surface flatness and transmitted wavefront quality of optical components. A laser beam (typically HeNe, 632.8 nm) is expanded and collimated, then directed through a reference flat (a fused silica reference surface of known flatness, typically λ/20 or better). The reference flat and the test surface are placed in close proximity with a small wedge angle. Reflected beams from the two surfaces interfere, producing fringe patterns.
@@ -136,7 +136,7 @@ Manufacturing precision components requires verifying that surfaces, dimensions,
 - A variant suited for testing transmitted wavefront through a complete optical system (lenses, prisms, windows). The beam is split into reference and test arms. The test arm passes through the optic under test. The recombined beams form interference fringes that reveal the total wavefront error (surface figure + internal homogeneity + refractive index variations).
 - Used to certify complete lens assemblies and imaging systems. A camera lens specified as λ/4 wavefront error is tested on a Twyman-Green or similar interferometer.
 
-### Surface Roughness Measurement
+## Surface Roughness Measurement
 
 **Stylus profilometer**:
 - A diamond-tipped stylus (tip radius 2-5 μm) is drawn across the surface at constant speed (10-100 μm/s) with a light contact force (0.5-1.0 mg). The stylus rides over surface irregularities, and its vertical displacement is measured by an inductive or capacitive transducer. The vertical signal is recorded as a profile of surface height vs. position.
@@ -151,7 +151,7 @@ Manufacturing precision components requires verifying that surfaces, dimensions,
 - **Advantage over stylus**: non-contact (no damage risk), fast (full 3D map in seconds), higher vertical resolution. Especially suited for measuring polished optical surfaces, thin film step heights, and MEMS devices.
 - **Limitation**: requires a reflective surface (transparent samples may need a thin metallic coating). Vibration-sensitive during measurement.
 
-### Dimensional Inspection
+## Dimensional Inspection
 
 **Optical comparator**:
 - Projects a magnified silhouette of the part onto a screen (10-100× magnification). The operator compares the shadow against a mylar overlay drawing with tolerance bands, or measures dimensions directly on the screen with digital readout.
@@ -162,7 +162,7 @@ Manufacturing precision components requires verifying that surfaces, dimensions,
 - A precision measuring microscope with a coordinate stage (X-Y travel 50-150 mm, readout resolution 0.001 mm). The stage uses linear encoder scales for direct digital position readout. Crosshair eyepiece or video camera with on-screen measurement cursors. Magnification: 10-200×.
 - Applications: measure small feature dimensions (hole diameters, thread pitch, gear tooth spacing), angles (rotary stage or protractor eyepiece with 1 arc-minute resolution), and distances between features. The 0.001 mm (1 μm) resolution makes it suitable for inspecting precision machined parts, gauge blocks, and small optical components.
 
-### Defect Classification for Optical Glass
+## Defect Classification for Optical Glass
 
 Per MIL-G-174B (military specification for optical glass), defects are classified by type:
 
@@ -172,7 +172,7 @@ Per MIL-G-174B (military specification for optical glass), defects are classifie
 - **Inclusions (stones, cords)**: Solid particles (unmelted batch material, refractory fragments) or streaks (composition variation from incomplete mixing) within the glass body. Stones scatter light and cause localized stress. Cords produce refractive index variations that distort transmitted wavefront. Both detected by schlieren or shadowgraph inspection.
 - **Striae**: Thread-like regions of slightly different refractive index, caused by incomplete homogenization during melting. Visible as wavy distortions when viewing a grid pattern through the glass. Grade A striae (none visible) required for precision lenses. Grade B (minor striae) acceptable for illumination and condenser optics.
 
-### Optical Assembly and Alignment
+## Optical Assembly and Alignment
 
 Building functional optical instruments from individual components requires systematic alignment:
 
@@ -180,7 +180,7 @@ Building functional optical instruments from individual components requires syst
 - **Collimation testing**: Point a laser through the assembled optical system. Project the output beam onto a distant wall (10-30 m). A collimated beam maintains constant diameter at all distances. A converging beam shrinks; a diverging beam expands. Adjust spacing between lens elements until the beam diameter is constant across the test distance.
 - **Star test**: Observe a point source (distant star or artificial pinhole) through the completed optical instrument. A perfect optical system produces a clean Airy disk (bright central spot surrounded by concentric diffraction rings). Aberrations distort the pattern: spherical aberration shows rings that are too bright; astigmatism shows a cross pattern; coma shows an asymmetric comet-shaped flare. This is the most sensitive test for overall image quality, capable of detecting wavefront errors of λ/10 or less.
 
-### Environmental Testing of Optical Components
+## Environmental Testing of Optical Components
 
 Optical components used in field instruments, military systems, and industrial environments must maintain performance under harsh conditions. Environmental testing verifies that coatings, cements, and substrate materials survive thermal, humidity, and mechanical stress without degradation.
 
@@ -192,7 +192,7 @@ Optical components used in field instruments, military systems, and industrial e
 
 **Adhesion testing**: Cross-hatch tape test per ASTM D3359: score a grid pattern (11 cuts in each direction, 1 mm spacing) through the coating to the substrate. Apply pressure-sensitive tape over the grid. Rub to ensure contact. Pull tape off rapidly at 180° angle. Inspect grid squares for coating removal. Rating 5B (no removal) required for military optics. Rating 3B or below indicates adhesion failure requiring process correction (typically insufficient substrate cleaning or missing plasma pretreatment step).
 
-### Acceptance Sampling and Quality Assurance
+## Acceptance Sampling and Quality Assurance
 
 Not every optical component can be inspected 100% (batch sizes in the hundreds or thousands make full inspection impractical). Statistical acceptance sampling determines how many pieces from a lot to inspect and what defect rate is acceptable.
 

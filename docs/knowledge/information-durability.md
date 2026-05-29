@@ -3,12 +3,12 @@
 > **Node ID**: knowledge.information-durability
 > **Domain**: [Knowledge Preservation & Education](./index.md)
 > **Dependencies**: [`knowledge.writing`](writing.md), [`knowledge.printing`](printing.md), [`knowledge.libraries`](libraries.md), [`knowledge.standards-bodies`](standards-bodies.md)
-> **Enables**: None (leaf capability — supports all downstream knowledge preservation)
+> **Enables**: [`computing.data-storage`](../computing/data-storage.md), [`software-bootstrapping`](../software-bootstrapping/index.md)
 > **Timeline**: Years 0-200+
 > **Outputs**: archival_media, migration_protocols, preservation_standards
 > **Critical**: Yes — the bootstrapping effort spans 50-200+ years; without durable information preservation, critical knowledge is lost between generations
 
-## Overview
+## Problem
 
 Information durability is the systematic practice of ensuring that knowledge survives the passage of time. It encompasses the selection of storage media based on projected lifespan, environmental controls for archival storage, periodic migration of content from degrading media to fresh copies, format preservation strategies that ensure future readers can decode stored information, and the organizational discipline to maintain all of these continuously across generations.
 
@@ -212,7 +212,18 @@ When a threat to the archive is detected (fire, flood, structural failure, pest 
 5. **Assess and recover**: After the emergency, assess damage to each affected item. Prioritize recovery by criticality tier. Professional conservation treatment for severely damaged Tier 1 items.
 6. **Document the incident**: Record what happened, what was affected, what was recovered, and what preventive measures will be implemented to avoid recurrence.
 
-## References
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Paper yellowing and becoming brittle | Acidic paper (lignin not removed) or UV exposure | Switch to alkaline-buffered paper (pH 7.5-9.0); store in dark archive; deacidify existing stock with magnesium bicarbonate spray |
+| Mold on stored documents | Relative humidity above 65% or water intrusion | Reduce RH to 30-50% with ventilation; isolate affected items; treat with 70% ethanol; freeze if widespread |
+| Ink fading on archival copies | Iron gall ink corrosion or UV-sensitive dye | Re-copy to fresh media immediately; store originals in dark, cool conditions; use carbon-based inks for new copies |
+| Digital media read errors | Media degradation (bit rot, demagnetization) | Verify checksums annually; migrate to fresh media on schedule; maintain redundant copies on different media types |
+| Missing or incomplete archive inventory | Staff turnover without handoff procedures | Maintain duplicate inventory in separate location; assign backup custodian; review inventory quarterly |
+| Format obsolescence (cannot read old files) | Software/hardware no longer available | Maintain format migration plan; keep reference readers for all formats in use; prioritize migration of at-risk formats |
+
+## See Also
 
 - [Writing & Record-Keeping](writing.md) — the writing and media systems that durability protects
 - [Printing & Book Production](printing.md) — reproduction technology for creating archive copies
@@ -222,6 +233,4 @@ When a threat to the archive is detected (fire, flood, structural failure, pest 
 - [Ceramics](../ceramics/pottery.md) — clay tablet production for permanent records
 - [Education Pathways](education-pathways.md) — training archivists and preservation specialists
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) · [Knowledge Preservation & Education](./index.md) · [All Domains](../index.md)*
+[← Back to Knowledge Preservation & Education](index.md)

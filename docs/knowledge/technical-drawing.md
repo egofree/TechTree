@@ -8,8 +8,6 @@
 > **Outputs**: engineering_drawings, blueprints, assembly_diagrams
 > **Critical**: Yes — without standardized drawing conventions, no two workshops can exchange manufacturing specifications
 
-## Overview
-
 Technical drawing is the graphical language of engineering. It translates three-dimensional objects and assemblies into unambiguous two-dimensional representations that any trained reader can interpret to manufacture the described part exactly as designed. A machinist who has never met the designer must produce a part that fits precisely with parts made in other workshops — the engineering drawing is the contract between design intent and manufactured reality.
 
 This capability covers manual drafting (pencil, ink, T-square, compass) as the bootstrap entry point, and the conventions that make drawings universally readable: projection methods, dimensioning systems, line types, section views, tolerances, and title blocks. The transition to computer-aided design (CAD) occurs later in the bootstrap sequence and requires [Computing](../computing/index.md) infrastructure. The drawing conventions themselves are technology-independent — the same standards apply whether the drawing is made with a pencil or a computer.
@@ -225,7 +223,7 @@ Surface texture is specified using Ra (roughness average) values in micrometers 
 
 Surface finish is indicated on drawings with a checkmark symbol (√) followed by the Ra value. The symbol points to the surface being specified. A machining symbol without a number indicates "standard finish" as defined in the title block general note.
 
-## References
+## See Also
 
 - [Writing & Record-Keeping](writing.md) — ink, paper, and writing instruments foundational to drafting
 - [Printing & Book Production](printing.md) — paper production and reproduction of drawing standards
@@ -235,6 +233,4 @@ Surface finish is indicated on drawings with a checkmark symbol (√) followed b
 - [Standards Bodies](standards-bodies.md) — standardization of drawing conventions
 - [Computing](../computing/index.md) — the computing infrastructure needed for CAD transition
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) · [Knowledge Preservation & Education](./index.md) · [All Domains](../index.md)*
+[← Back to Knowledge Preservation & Education](index.md)

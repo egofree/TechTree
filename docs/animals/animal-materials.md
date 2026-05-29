@@ -8,11 +8,19 @@
 > **Outputs**: leather, buckskin, rawhide, tallow, lard, wool_fleece, horn_sheets, bone_tools, sinew_thread, hide_glue, blood_meal
 > **Critical**: Yes — tallow, hide glue, horn, and bone are irreplaceable materials for pre-industrial technology
 
-## Overview
+## Problem
 
 Animals supply a suite of structural, binding, and chemical materials that no plant or mineral source can replicate. Leather, tallow, wool, horn, bone, sinew, and hide glue each fill niches where alternatives are either weaker, less durable, or nonexistent. These materials are harvestable from the first domesticated livestock without specialized infrastructure, and they scale from campside hand-processing to industrial production.
 
 The chain runs from the carcass to finished material through a series of mechanical and chemical steps: fleshing and dehairing hides, rendering fat at controlled temperatures, scouring and carding wool, soaking and pressing horn, and boiling collagen into glue. Each process has specific temperature windows, reagent ratios, and time requirements that determine the quality of the output.
+
+### Prerequisites
+
+- [Cattle](cattle.md) — hides, tallow, horn, bone, and sinew supply
+- [Sheep](sheep.md) — wool and sheepskin
+- [Domestication](domestication.md) — livestock management and husbandry
+- [Lime production](../ceramics/lime.md) — quicklime and limewater for hide processing
+- [Fire and heat](../energy/index.md) — controlled temperatures for rendering and glue making
 
 ## Leather Tanning
 
@@ -195,16 +203,6 @@ Animal blood, often wasted, has several industrial uses.
 - **Blood waterproofing for concrete**: Blood was historically used as an air-entraining and waterproofing admixture for mortar and concrete at 1-3% by weight of cement. The albumin creates microscopic air bubbles that improve workability and freeze-thaw resistance.
 - **Blood-based tempera paint**: Mix blood with chalk or lime to produce a red-brown paint for marking livestock, painting buildings, and coating tools.
 
-## Cross-Domain Links
-
-| Domain | Connection |
-|--------|------------|
-| [Lime Production](../ceramics/lime.md) | Quicklime for dehairing hides in beamhouse processing; limewater for deliming and scudding |
-| [Fiber Preparation](../textiles/fibers.md) | Wool is the primary animal fiber in the textiles chain; scouring alkali from wood ash |
-| [Lubricants](../chemistry/index.md) | Tallow as the baseline grease for machine slides and bearings before petroleum products |
-| [Writing & Records](../knowledge/writing.md) | Parchment from sheep and goat skins (limed, dehaired, stretched on frame, scraped thin, dried under tension) |
-| [Forming & Shaping](../metals/forming.md) | Tallow lubricant for wire drawing dies and metal forming operations |
-
 ## Safety
 
 - **Lime burns**: Quicklime and limewater are strongly alkaline (pH 12-13). Wear thick leather gloves when handling hides in lime solutions. Rinse skin immediately with clean water if contacted. Eye exposure requires immediate and prolonged flushing.
@@ -214,6 +212,25 @@ Animal blood, often wasted, has several industrial uses.
 - **Rendering fumes**: Heating fat produces acrolein and other irritating fumes. Render outdoors or in a space with good cross-ventilation. Prolonged exposure to rendering smoke causes respiratory irritation.
 - **Hide glue temperature**: The glue pot operates at 50-60°C, hot enough to cause burns. Use tongs or a brush for application, not bare hands.
 
----
+### Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Leather rotting despite tanning | Incomplete tan penetration (hide too thick) or insufficient tannin concentration | Split thick hides before tanning; extend tanning time; test cut cross-section for uniform color |
+| Tallow rancid smell | Rendered at too high a temperature or stored wet | Render at 80-90°C (not above 100°C); filter through cloth; store in cool, dry place in sealed containers |
+| Hide glue weak bond | Glue too dilute, wood too smooth, or temperature too low | Concentrate glue (coat a finger, let cool — should gel firmly); roughen mating surfaces; warm glue to 50-60°C before application |
+| Wool felted (matted) before spinning | Scouring water too hot or agitation too vigorous | Keep scouring water below 50°C; minimize agitation; dry wool on racks, not in piles |
+| Horn splitting during pressing | Heated too fast or pressed while unevenly heated | Heat slowly over steam or hot water (not direct flame); press in stages with even pressure |
+| Rawhide shrinking unevenly | Dried too fast or uneven tension on frame | Dry slowly in shade (not sun); maintain even tension with multiple pegs around perimeter |
+
+## See Also
+
+- [Lime Production](../ceramics/lime.md) — quicklime for dehairing and beamhouse processing
+- [Fiber Preparation](../textiles/fibers.md) — wool scouring and spinning into yarn
+- [Lubricants](../chemistry/lubricants.md) — tallow as baseline grease for machinery
+- [Writing & Records](../knowledge/writing.md) — parchment from sheep and goat skins
+- [Forming & Shaping](../metals/forming.md) — tallow lubricant for wire drawing and metal forming
+- [Leather](leather.md) — detailed leather tanning and processing
+- [Sericulture](sericulture.md) — silk as an alternative animal fiber
+
+[← Back to Animals](index.md)

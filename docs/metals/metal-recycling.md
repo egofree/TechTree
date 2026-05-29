@@ -23,9 +23,9 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 - [Mining Extraction](../mining/extraction.md) — ore extraction (the upstream process recycling reduces)
 - [Energy](../energy/engine.md) — power supply for electric furnaces
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 
 | Material | Specification | Source |
 |----------|--------------|--------|
@@ -34,7 +34,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Refractories | Furnace linings rated for target temperature | [Refractories](../chemistry/refractories.md) |
 | Fuel or electricity | 300–700 kWh/tonne for EAF steel; 5–20 kWh/kg for Al remelt | [Energy](../energy/engine.md) |
 
-### Tools & Equipment
+## Tools & Equipment
 
 | Equipment | Purpose | Source |
 |-----------|---------|--------|
@@ -44,15 +44,15 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Crucible furnace or reverberatory furnace | Non-ferrous remelting | [Copper & Bronze](copper-bronze.md) |
 | Spectrometer or spark tester | Alloy identification | [Measurement](../measurement/index.md) |
 
-### Knowledge
+## Knowledge
 
 - Ability to distinguish metal families by visual inspection, spark testing, magnetic response, and weight
 - Understanding of alloy contamination: a single piece of leaded steel in a stainless steel heat ruins the entire batch
 - Furnace operation and temperature control for the target metal group
 
-## 3. Bill of Materials
+## Bill of Materials
 
-### BOM: Steel Scrap Recycling via EAF (per tonne of recycled steel)
+## BOM: Steel Scrap Recycling via EAF (per tonne of recycled steel)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -63,7 +63,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Electricity | 350–500 kWh | [Power Generation](../energy/index.md) | No alternative for EAF |
 | Oxygen | 10–25 m³ | [Air Separation](../chemistry/air-separation.md) | Air lancing (less efficient) |
 
-### BOM: Aluminum Scrap Recycling (per tonne of recycled aluminum)
+## BOM: Aluminum Scrap Recycling (per tonne of recycled aluminum)
 
 | Material | Quantity | Source | Alternatives |
 |----------|----------|--------|-------------|
@@ -73,9 +73,9 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Natural gas or electricity | 5–20 kWh | [Energy](../energy/engine.md) | Oil firing |
 | Nitrogen or argon cover gas | 1–5 m³ | [Air Separation](../chemistry/air-separation.md) | SO₂ cover gas (toxic) |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Ferrous Scrap Recycling (EAF Route)
+## 4.1 Ferrous Scrap Recycling (EAF Route)
 
 1. **Collect and sort scrap.** Receive scrap from demolition sites, manufacturing offcuts, and end-of-life products. Sort into categories: heavy melting steel (HMS), plate and structural, shredded scrap, turnings, and baled tin plate. Remove obvious contaminants: rubber, plastic, concrete, non-ferrous metals.
 
@@ -89,7 +89,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 
 6. **Cast.** Continuous cast into billets, slabs, or blooms; or pour into ingot molds. Yield: 88–94% of input scrap weight becomes usable steel product.
 
-### 4.2 Aluminum Scrap Recycling
+## 4.2 Aluminum Scrap Recycling
 
 1. **Sort by alloy.** Separate cast alloys (Al-Si) from wrought alloys (1xxx, 3xxx, 5xxx, 6xxx series). Remove iron attachments, plastic coatings, and other metals. Test uncertain pieces with a portable spectrometer.
 
@@ -103,7 +103,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 
 6. **Cast.** Cast into ingots, sows, or billets. Yield: 85–95% depending on scrap cleanliness.
 
-### 4.3 Copper Scrap Recycling
+## 4.3 Copper Scrap Recycling
 
 1. **Sort and grade.** Classify copper scrap: No. 1 copper (clean, >99% Cu, bare bright wire), No. 2 copper (≥94% Cu, some oxidation/solder), light copper (88–92% Cu), and refinery brass (mixed Cu-Zn). Separate by visual inspection, file testing, and density.
 
@@ -113,9 +113,9 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 
 4. **Electrolytic refine (if required).** For semiconductor-grade or electrical-grade copper, dissolve anodes in CuSO₄/H₂SO₄ electrolyte and plate onto starter cathodes at 200–300 A/m². See [Copper & Bronze](copper-bronze.md).
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Energy Requirements by Metal
+## Energy Requirements by Metal
 
 | Metal | Primary Energy (from ore) | Recycling Energy | Energy Savings | CO₂ Reduction |
 |-------|--------------------------|-------------------|----------------|---------------|
@@ -125,7 +125,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Zinc | 35–45 GJ/tonne | 10–15 GJ/tonne | 65–75% | 60–70% |
 | Lead | 25–35 GJ/tonne | 5–10 GJ/tonne | 70–85% | 65–80% |
 
-### Steel Scrap Categories and Yields
+## Steel Scrap Categories and Yields
 
 | Scrap Grade | Description | Typical Analysis | EAF Yield |
 |-------------|-------------|-----------------|-----------|
@@ -135,7 +135,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Turnings | Machine shop chips and borings | Fe 90–95%, oil contamination | 80–88% |
 | Baled tin plate | Compacted food cans | Fe 93–96%, Sn 0.3–0.5% | 85–90% |
 
-### Aluminum Scrap Recycling Parameters
+## Aluminum Scrap Recycling Parameters
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
@@ -146,7 +146,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Chlorine treatment | 0.1–0.3 kg Cl₂/tonne Al | Removes H₂ and Mg; environmental controls required |
 | Casting yield | 85–95% | Depends on scrap cleanliness and alloy type |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 **Minimum viable scale**: A single crucible furnace remelting 50–200 kg of copper or aluminum scrap per batch requires no infrastructure beyond basic furnace tools. This is the bootstrap entry point — any settlement with metal production capability can recycle.
 
@@ -156,7 +156,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 
 **Scale breakpoints**: The critical threshold is not technology but **scrap availability**. A community that has produced <1,000 tonnes of steel has insufficient scrap stream to justify a dedicated recycling furnace. Below this threshold, scrap is a supplement to the primary furnace charge (10–30% of total charge weight) rather than the primary feedstock.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -167,7 +167,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Explosive eruptions during charging | Wet or oily scrap in hot furnace — steam explosions | Pre-dry all scrap; never charge wet material into molten metal; use closed-door charging |
 | Off-grade chemistry in recycled steel | Unidentified alloy scrap in charge (e.g., stainless in carbon steel charge) | Pre-sort using spark testing or handheld XRF; maintain segregation of alloy families |
 
-## 8. Safety
+## Safety
 
 **Steam explosions** are the primary lethal hazard in scrap remelting. Moisture trapped in closed containers, hollow sections, or oil-soaked scrap vaporizes instantly on contact with molten metal (>1500°C for steel, >660°C for aluminum). The resulting steam expansion ratio is 1700:1, producing explosive ejection of molten metal. Prevention: shred all closed containers before charging; pre-heat scrap to >200°C to drive off moisture; never charge sealed containers.
 
@@ -177,9 +177,9 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 
 **Lead exposure**: Lead-acid batteries and leaded solder in mixed scrap produce lead fume and dust. Blood lead monitoring required for workers with regular exposure. PPE: half-face respirator with P100 filters, disposable coveralls, hand washing before eating.
 
-## 9. Quality Control
+## Quality Control
 
-### Steel Scrap Incoming Inspection
+## Steel Scrap Incoming Inspection
 
 | Test | Method | Acceptance Criteria |
 |------|--------|-------------------|
@@ -189,7 +189,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Heavy metals (Pb, Hg) | Visual check for batteries, switches | None detected |
 | Closed containers | Visual + shake test | All hollow sections opened or shredded |
 
-### Recycled Metal Chemistry Verification
+## Recycled Metal Chemistry Verification
 
 | Metal | Key Elements | Method | Typical Spec |
 |-------|-------------|--------|-------------|
@@ -197,15 +197,15 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Recycled aluminum | Si, Fe, Cu, Mn, Mg, Zn | OES or XRF | Per alloy designation (e.g., 6061, 356) |
 | Recycled copper | Cu, Ag, As, Sb, Bi, Pb, O | OES or titration | Cu ≥99.90% for No. 1, ≥99.75% for No. 2 |
 
-### Field Tests (No Lab Required)
+## Field Tests (No Lab Required)
 
 - **Spark testing**: Grind steel on an abrasive wheel. Carbon steel sparks are straight with moderate forking. Cast iron sparks are dense with short bursts. Stainless steel produces few sparks (red/orange).
 - **Magnetic test**: Ferrous metals are magnetic; austenitic stainless (300-series) is weakly magnetic or non-magnetic; aluminum, copper, brass, and lead are non-magnetic.
 - **Density test**: Weigh a piece and measure volume by water displacement. Aluminum ≈2.7 g/cm³, steel ≈7.8, copper ≈8.9, lead ≈11.3.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Steel Recycling Routes Compared
+## Steel Recycling Routes Compared
 
 | Route | Furnace | Scrap Input | Energy Source | Throughput | Capital Cost |
 |-------|---------|-------------|---------------|------------|-------------|
@@ -214,7 +214,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | BOF supplement | Basic oxygen | 15–30% scrap with hot metal | Oxygen + heat | 200–350 tonnes/heat | Very high |
 | Induction furnace | Coreless induction | 100% scrap | Electricity | 1–30 tonnes/heat | Low–Medium |
 
-### Aluminum Recycling Compared
+## Aluminum Recycling Compared
 
 | Route | Furnace | Scrap Type | Yield | Notes |
 |-------|---------|------------|-------|-------|
@@ -222,7 +222,7 @@ This document covers the recovery side: collecting, sorting, preparing, and reme
 | Crucible remelt | Gas or electric | Clean, known alloy | 90–95% | Small scale, low capital |
 | Rotary furnace | Salt-fluxed | Dirty, mixed, dross | 75–88% | Handles high-contamination scrap |
 
-### Historical Context
+## Historical Context
 
 Bronze Age metalworkers recycled bronze routinely — broken tools and weapons were simply remelted and recast. This was not "recycling" as a concept but the default behavior: metal was too valuable to discard. The modern concept of industrial scrap recycling emerged with the Bessemer and open-hearth processes in the 1860s, when steelmakers began purchasing scrap as a supplementary charge material. The EAF mini-mill revolution (1960s–present) made scrap the primary feedstock for steel production.
 

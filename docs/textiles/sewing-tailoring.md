@@ -43,7 +43,7 @@ A sewing needle is a slender steel shaft with a point at one end and an eye (hol
 - Hand needles are sized by number (1-12 in the Singer system). A size 9 needle (most common for general sewing) is about 0.8 mm diameter × 40 mm long. A size 1 (heavy duty) is about 1.5 mm × 55 mm.
 - Machine needles are sized in the metric system (60-130, where the number × 0.01 = shaft diameter in mm). A size 80 needle is 0.80 mm diameter. Needle choice depends on thread size and fabric weight: size 60-70 for silk and fine cotton, 80-90 for shirting, 100-110 for canvas, 120-130 for heavy leather.
 
-### Thread
+## Thread
 
 Thread must be strong enough to hold seams under stress, fine enough to pass through the needle eye without fraying, and smooth enough to slide through fabric without snagging.
 
@@ -63,7 +63,7 @@ Thread must be strong enough to hold seams under stress, fine enough to pass thr
 - Thread is usually 2 or 3 ply (two or three single yarns twisted together). The twist direction (S or Z) alternates between singles and plying twist to produce a balanced thread that does not kink or curl when relaxed.
 - Thread size: numbered systems vary. In the ticket number system, higher numbers indicate finer thread. A No. 50 cotton thread has a breaking strength of about 8-10 N. A No. 10 linen thread has about 40-50 N.
 
-### Seam Types and Strength
+## Seam Types and Strength
 
 A seam is only as strong as its construction. Different seam types suit different applications, trading strength, bulk, fabrication time, and appearance.
 
@@ -97,7 +97,7 @@ A seam is only as strong as its construction. Different seam types suit differen
 - Flat-felled seam requires precision folding; hand sewing needs basting before final stitching
 - Plain seam raw edges fray unless finished separately (zigzag, overlock, or binding)
 
-### Garment Construction
+## Garment Construction
 
 **Pattern drafting**:
 - A pattern is a 2D template for each fabric piece. Patterns are drafted from body measurements: chest, waist, hip, shoulder width, arm length, torso length, inseam. A basic bodice block (the foundation pattern) requires 8-12 measurements.
@@ -108,7 +108,7 @@ A seam is only as strong as its construction. Different seam types suit differen
 - Fabric is spread flat (single layer for precision cutting, multiple layers up to 10-20 for production cutting). Pattern pieces traced or pinned to the fabric, then cut with shears or a rotary cutter.
 - Marking: seam lines, notches (matching points between pieces), and dart lines are transferred to the fabric with tailor's chalk, tracing wheel and carbon paper, or thread basting. Accuracy at this stage determines fit quality.
 
-### Specific Products
+## Specific Products
 
 **Tents** (shelter):
 - Canvas (cotton duck, 300-400 g/m²) is the standard tent fabric. Heavy but waterproof when wet (cotton fibers swell to close the pores), breathable (reduces condensation inside), and repairable with needle and thread in the field.
@@ -129,7 +129,7 @@ A seam is only as strong as its construction. Different seam types suit differen
 - Leather belts are cut from heavy hides (3-5 mm thick, cattle or horse). Multiple layers are riveted together with copper or iron rivets (4-6 mm shank diameter) for extra strength. A 2-ply leather belt, 50 mm wide, can support 500-1000 N before permanent stretching.
 - Buckles are cast brass or forged iron, with a tongue (prong) that engages holes punched in the belt at 20-25 mm spacing. The bar of the buckle must be wider than the belt and strong enough to resist deformation under load.
 
-### Industrial Sewing Machine
+## Industrial Sewing Machine
 
 The lockstitch machine (invented by Elias Howe, 1846; refined by Isaac Singer) creates a stitch that looks identical on both sides of the fabric. It uses two threads: a needle thread (top) and a bobbin thread (bottom), interlocked in the middle of the fabric.
 
@@ -157,7 +157,7 @@ The lockstitch machine (invented by Elias Howe, 1846; refined by Isaac Singer) c
 - Thread tension must be balanced per fabric/thread combination — setup skill required
 - Bobbin runs out and must be replaced frequently during long seams
 
-### Hand Sewing Stitches
+## Hand Sewing Stitches
 
 Not all sewing is done by machine. Many construction steps and field repairs require hand stitching.
 
@@ -166,7 +166,7 @@ Not all sewing is done by machine. Many construction steps and field repairs req
 - **Whip stitch (overcast)**: needle passes over the edge of the fabric at an angle. Used to finish raw edges and prevent fraying. Quick but adds bulk.
 - **Slip stitch (ladder stitch)**: needle catches a thread on each side of the fold, creating an invisible join. Used to close stuffed items (pillows, cushions) and attach linings. Nearly invisible on the finished surface.
 
-### Pressing Equipment
+## Pressing Equipment
 
 Pressing (ironing) sets seams, removes wrinkles, and shapes garments during construction. It is not cosmetic; it is structural. Unpressed seams are puffy, do not lie flat, and the garment does not hold its shape.
 
@@ -183,7 +183,7 @@ Pressing (ironing) sets seams, removes wrinkles, and shapes garments during cons
 **Pressing cloth**:
 - A layer of muslin or linen placed between the iron and the fabric. Prevents shine (a glossy mark caused by the iron pressing the fabric surface too directly). Essential for dark fabrics, wool, and any fabric with a textured surface.
 
-### Fasteners
+## Fasteners
 
 **Buttons**:
 - Flat disks (10-25 mm diameter) with two or four holes, sewn to the fabric with matching or contrasting thread. Materials: bone, wood, metal (brass, iron), mother-of-pearl, or pressed horn. A 4-hole button is sewn with an X pattern through the holes, creating a shank of thread between button and fabric that allows the buttonhole to close over the button without strain.
@@ -192,7 +192,7 @@ Pressing (ironing) sets seams, removes wrinkles, and shapes garments during cons
 - Copper or iron rivets (4-6 mm shank diameter, 6-12 mm cap diameter) for high-stress joints. The rivet shank passes through all fabric layers, then is set (flattened) with a hammer and anvil set. Standard for jeans pockets, bag corners, and belt loops.
 - Rivets do not loosen with vibration or flexing the way stitches can. They are permanent: removing a set rivet requires destroying it.
 
-### Measuring and Fitting
+## Measuring and Fitting
 
 Proper fit requires systematic body measurement and pattern adjustment. A poorly fitted garment is uncomfortable, restricts movement, and fails at its job (a loose cuff catches on machinery; a tight shoulder seam tears under load).
 
@@ -205,7 +205,7 @@ Proper fit requires systematic body measurement and pattern adjustment. A poorly
 - A muslin mockup (a quick-sewn prototype in cheap unbleached cotton) is fitted on the wearer before cutting into the final fabric. Adjustments are pinned and marked, then transferred back to the pattern. This catches fitting problems before they become expensive mistakes in the good fabric.
 - Common adjustments: shoulder slope (most people have one shoulder slightly higher), back width (broader backs need more fabric across the upper back), and armhole depth (too tight restricts arm lift; too loose looks baggy).
 
-### Thimbles and Sewing Accessories
+## Thimbles and Sewing Accessories
 
 **Thimble**:
 - A small cap (15-25 mm diameter) worn on the middle finger of the pushing hand. The surface is dimpled or textured to catch the needle head and push it through thick fabric without the needle slipping and puncturing the finger.
@@ -217,7 +217,7 @@ Proper fit requires systematic body measurement and pattern adjustment. A poorly
 - Pincushion: a fabric pad stuffed with wool or hair, holding steel pins (25-35 mm long, 0.5-0.7 mm diameter) for temporary fabric alignment during construction. The wool stuffing keeps pins slightly lubricated and rust-free.
 - Tailor's chalk: flat pieces of chalk (white, blue, or yellow) for marking seam lines, darts, and construction points on fabric. Brushes off easily after sewing. Available in triangular or square shapes; a sharp edge is maintained by breaking off a corner.
 
-### Key Deliverables
+## Key Deliverables
 
 - Needle manufacturing capability (hand and machine needles)
 - Thread production and selection (linen, cotton, silk)

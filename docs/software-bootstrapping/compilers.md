@@ -8,7 +8,6 @@
 > **Outputs**: compiled_programs, high_level_languages
 > **Critical**: Yes — compilers enable programming at human-readable abstraction levels, a 5-10× productivity multiplier over assembly language
 
-## Overview
 
 A compiler translates programs written in a high-level language (Fortran, C, Pascal, or any similar language) into machine code or assembly language. Where assembly language provides a one-to-one mnemonic mapping to machine instructions, a high-level language lets the programmer express algorithms in terms of variables, expressions, loops, and functions — the compiler handles register allocation, instruction selection, and address management.
 
@@ -18,17 +17,17 @@ Compilers unlock a fundamental productivity leap. A programmer can write 5-10× 
 
 ## Prerequisites
 
-### Software
+## Software
 - **Working assembler** ([assemblers](assemblers.md)): The compiler's code generator produces assembly output (or object code directly). The assembler is part of the toolchain.
 - **Linker and loader** ([assemblers](assemblers.md)): Compiled programs may reference external libraries; the linker resolves these references.
 
-### Knowledge
+## Knowledge
 - **Formal language theory**: Regular expressions (for lexical analysis), context-free grammars (for parsing), automata theory.
 - **Data structures**: Trees (abstract syntax trees), hash tables (symbol tables), stacks (parsing, code generation).
 - **Algorithms**: Tree traversal, graph coloring (register allocation), topological sort (dependency analysis).
 - **Target ISA**: Complete knowledge of the machine's instruction set, register set, and calling conventions.
 
-### Hardware
+## Hardware
 - **Computer with ≥32 KB memory**: A compiler needs significantly more memory than an assembler — the symbol table, parse tree, and intermediate representations are all memory-intensive. 32-128 KB is realistic for a basic compiler.
 - **Adequate storage**: Source files, intermediate files, and generated assembly/object files. Magnetic storage (disk or tape) is essentially required; paper tape is too slow for compiler I/O.
 
@@ -43,7 +42,7 @@ Compilers unlock a fundamental productivity leap. A programmer can write 5-10× 
 
 ## Process Description
 
-### Phase 1: Lexical Analysis (Scanning)
+## Phase 1: Lexical Analysis (Scanning)
 
 The lexical analyzer (scanner) reads the source program character by character and groups characters into tokens — the smallest meaningful units of the language.
 
@@ -61,7 +60,7 @@ The lexical analyzer (scanner) reads the source program character by character a
 
 **Output**: A stream of tokens, each with type and value. Example: `x = 42 + y;` → `IDENT(x) ASSIGN NUMBER(42) PLUS IDENT(y) SEMI`
 
-### Phase 2: Parsing (Syntax Analysis)
+## Phase 2: Parsing (Syntax Analysis)
 
 The parser consumes the token stream and builds a parse tree (or abstract syntax tree — AST) that represents the program's grammatical structure.
 
@@ -115,14 +114,14 @@ parseFactor():
          42     y
 ```
 
-### Phase 3: Semantic Analysis
+## Phase 3: Semantic Analysis
 
 Walk the AST and perform:
 - **Type checking**: Verify that operators have compatible operand types. `int + int → int`. Flag type mismatches as errors.
 - **Symbol table construction**: For each scope (global, function, block), record variable names, types, and storage locations (stack offset, register, memory address).
 - **Declaration checking**: Verify that every variable used has been declared (or is a built-in).
 
-### Phase 4: Code Generation
+## Phase 4: Code Generation
 
 Walk the AST and emit assembly code (or machine code directly) for each node:
 
@@ -154,7 +153,7 @@ genCode(VARIABLE node):
 5. Callee pops saved registers, executes RET
 6. Caller pops arguments from the stack
 
-### Phase 5: Basic Optimization
+## Phase 5: Basic Optimization
 
 Even a simple compiler should perform these optimizations:
 
@@ -180,7 +179,7 @@ Even a simple compiler should perform these optimizations:
 | Optimizing compiler size | 20,000-100,000 lines | Significant optimization passes |
 | Symbol table size (1,000 names) | 10-30 KB | Name + type + scope + address |
 
-### Language Feature Complexity
+## Language Feature Complexity
 
 | Feature | Additional Lines of Code | Difficulty |
 |---------|------------------------|------------|
@@ -242,7 +241,7 @@ Even a simple compiler should perform these optimizations:
 | Threaded code interpreter (Forth-style) | Low (1-3K LOC) | 3-10× slower than compiled | Minimal footprint, fast implementation |
 | Transpiler (to C or assembly) | Medium | Depends on target compiler | Leveraging existing compiler back end |
 
-## References
+## See Also
 
 - [Assemblers, Linkers & Loaders](assemblers.md) — The prerequisite toolchain
 - [Self-Hosting Compiler Bootstrap](self-hosting.md) — Making the compiler compile itself
@@ -250,5 +249,5 @@ Even a simple compiler should perform these optimizations:
 - [Electronic Computing](../computing/electronic.md) — Target ISA and processor architecture
 - [Development Tools](dev-tools.md) — Editors and debuggers for writing compilers
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Software Bootstrapping](./index.md) • [All Domains](../index.md)*
+
+[← Back to Software Bootstrapping](index.md)

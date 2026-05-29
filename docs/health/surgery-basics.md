@@ -8,7 +8,6 @@
 > **Outputs**: surgical_capability, wound_management, sterile_technique
 > **Critical**: Yes — without surgical capability, traumatic injuries and complicated births are routinely fatal
 
-## Overview
 
 Surgery basics covers wound management, basic surgical techniques, sterilization, and anesthesia fundamentals for a bootstrap medical system. Before modern hospitals, the majority of preventable deaths came from infected wounds, uncontrolled bleeding, and obstructed labor. Establishing sterile technique, hemostasis (bleeding control), and reliable wound closure transforms a 50% mortality rate for serious wounds into a 5-10% rate.
 
@@ -16,7 +15,7 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 
 ## Prerequisites
 
-### Materials
+## Materials
 
 - Sterile suture material: silk ([sericulture](../animals/sericulture.md)), catgut (sheep/cattle intestine), or cotton thread
 - Bandaging: clean linen or cotton cloth, [wool](../animals/sheep.md) for absorbent padding
@@ -24,7 +23,7 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 - Anesthetic agents: diethyl ether or chloroform (see [pharmacology](pharmacology.md))
 - Clean water: boiled or filtered (see [sanitation](sanitation.md))
 
-### Tools and Equipment
+## Tools and Equipment
 
 - [Surgical instruments](medical-instruments.md): scalpel, forceps, scissors, needle holder, retractors, hemostats
 - Autoclave or pressure cooker for sterilization (121°C, 15 psi, 15+ minutes)
@@ -32,14 +31,14 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 - Clean workspace: dedicated room or area with washable surfaces
 - Lighting: bright, shadow-free — surgical headlamp or positioned lamps
 
-### Knowledge
+## Knowledge
 
 - Anatomy: surface anatomy, major blood vessels, nerve locations, organ positions
 - Wound healing: inflammatory phase (days 0-5), proliferative phase (days 3-21), remodeling (21+ days)
 - Infection signs: rubor (redness), calor (heat), tumor (swelling), dolor (pain), functio laesa (loss of function)
 - Fluid resuscitation principles: replace blood loss with 3× volume of crystalloid (saline or Ringer's solution)
 
-### Infrastructure
+## Infrastructure
 
 - Clean water supply
 - Waste disposal system for contaminated materials
@@ -60,7 +59,7 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 
 ## Process Description
 
-### Wound Assessment and Preparation
+## Wound Assessment and Preparation
 
 1. **Assess the wound**: Determine depth, length, involvement of structures (tendons, nerves, vessels, bone), and contamination level. Clean wounds (<6 hours old, no debris) are primary closure candidates. Contaminated wounds (>6 hours, visible debris, bite wounds) require debridement and may need delayed closure.
 2. **Control bleeding**: Apply direct pressure with sterile gauze for 10-15 minutes. If bleeding continues, apply a pressure dressing. For arterial bleeding, apply a tourniquet proximal to the wound (record time — release every 30 minutes for 5 minutes to prevent ischemia). Maximum tourniquet time: 2 hours.
@@ -84,7 +83,7 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 - Antiseptics (povidone-iodine, ethanol) damage healthy tissue in the wound bed — use only on intact skin surrounding the wound
 - Irrigation fluid volume of 200-500 mL per wound requires significant clean water supply in mass casualty situations
 
-### Suturing Technique
+## Suturing Technique
 
 1. **Select suture material**: Non-absorbable (silk, nylon) for skin closure. Absorbable (catgut) for deep tissue and ligatures. Suture sizes: 3-0 or 4-0 for skin, 2-0 for fascia, 0 or 1 for deep tissue.
 2. **Use sterile technique**: Wash hands with soap and water for 5 minutes. Wear sterile gloves if available. Touch only sterile surfaces. If gloves unavailable, use "no-touch" technique — handle the needle only with instruments, never bare fingers.
@@ -108,7 +107,7 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 - Needlestick injuries during suturing are a leading cause of bloodborne pathogen exposure for the operator
 - Suture removal requires the correct timing per body area (5-7 days for face, 10-14 days for extremities) — missed removal causes scarring
 
-### Sterilization Procedures
+## Sterilization Procedures
 
 1. **Steam sterilization (autoclave)**: Wrap instruments in cloth or place in sterilization container. Process at 121°C (15 psi steam pressure) for 15 minutes (unwrapped) or 30 minutes (wrapped). For larger packs or porous loads: 132°C (27 psi) for 4 minutes (prevacuum) or 121°C for 30 minutes (gravity). Allow to dry before removing. Instruments remain sterile in sealed packs for up to 30 days.
 2. **Boiling**: Submerge instruments in boiling water (100°C) for 30 minutes. Kills vegetative bacteria and most viruses. Does NOT kill bacterial spores (Clostridium tetani, C. perfringens). Boiling is a fallback method when no autoclave is available.
@@ -133,7 +132,7 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 
 ## Quantitative Parameters
 
-### Sterilization Parameters
+## Sterilization Parameters
 
 | Method | Temperature | Time | Pressure | Kills Spores? | Suitable For |
 |--------|------------|------|----------|--------------|-------------|
@@ -145,7 +144,7 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 | Ethanol soak | 20-25°C | 30 min | Ambient | No | Heat-sensitive items |
 | Glutaraldehyde 2% | 20-25°C | 10 hr | Ambient | Yes | Endoscopes, heat-sensitive |
 
-### Suture Sizes and Applications
+## Suture Sizes and Applications
 
 | Size | Diameter (mm) | Typical Use | Breaking Strength (kg) |
 |------|--------------|-------------|----------------------|
@@ -156,7 +155,7 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 | 4-0 | 0.15 | Skin (face, hands), small vessels | 1.0-1.5 |
 | 5-0 | 0.10 | Facial skin, nerve repair | 0.5-0.8 |
 
-### Wound Healing Timeline
+## Wound Healing Timeline
 
 | Phase | Timeframe | Key Events | Clinical Significance |
 |-------|-----------|------------|---------------------|
@@ -165,7 +164,7 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 | Proliferation | 3-21 days | Granulation tissue fills defect; epithelialization | Wound contracts; new tissue fragile — avoid stress |
 | Remodeling | 21 days - 1 year | Collagen reorganization; scar matures | Scar gains tensile strength: 20% at 3 weeks, 50% at 4 months, 80% at 1 year |
 
-### Skin Suture Removal Times
+## Skin Suture Removal Times
 
 | Body Area | Removal Time | Reason |
 |-----------|-------------|--------|
@@ -214,7 +213,7 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 
 ## Variations and Alternatives
 
-### Wound Closure Methods
+## Wound Closure Methods
 
 | Method | When to Use | Advantages | Disadvantages |
 |--------|------------|------------|--------------|
@@ -225,7 +224,7 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 | Secondary intention (leave open) | Heavily contaminated wounds, bites | Lowest infection risk | Slow healing, larger scar |
 | Delayed primary closure | Contaminated wounds at 3-5 days | Allows infection to declare before closure | Requires two procedures |
 
-### Anesthesia Options
+## Anesthesia Options
 
 | Method | Agents | Onset | Duration | Risks |
 |--------|--------|-------|----------|-------|
@@ -234,13 +233,13 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 | General anesthesia (inhalation) | Ether or chloroform via mask | 3-10 min | Continuous | Explosive (ether), hepatotoxic (chloroform), airway loss |
 | Ketamine (if available) | IM 5-10 mg/kg or IV 1-2 mg/kg | 1-3 min (IV), 3-5 min (IM) | 15-30 min | Emergence reactions, hypertension; preserves airway reflexes |
 
-### Historical Methods
+## Historical Methods
 
 - **Cauterization**: Apply heated metal to bleeding vessels or wound edges. Effective for hemostasis but causes extensive tissue destruction and promotes infection. Use only as a last resort when suture ligation is impossible.
 - **Ligature (historical)**: Hippocrates and Celsus described using linen thread to tie off bleeding vessels, but the technique was largely lost in Western medicine until Ambroise Paré reintroduced it in the 16th century. Before ligatures, boiling oil was poured into wounds — the shift to ligatures dramatically reduced mortality.
 - **Tourniquet**:最早 documented by Heliodorus (2nd century AD). A tightly wrapped band proximal to the surgical site provides a bloodless field. Essential for extremity surgery.
 
-## References
+## See Also
 
 - [Medicine & Surgery](medicine.md) — general medical practice, infection control
 - [Medical Instruments](medical-instruments.md) — surgical tool fabrication
@@ -250,6 +249,6 @@ The prerequisite chain runs: [sanitation](sanitation.md) → clean environment �
 - [Chemistry](../chemistry/index.md) — ethanol production, chemical sterilants
 - [Textiles](../textiles/index.md) — bandage and suture material sourcing
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*
+
+[← Back to Health](index.md)

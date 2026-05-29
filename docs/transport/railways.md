@@ -8,7 +8,7 @@
 > **Outputs**: railways
 > **Critical**: No
 
-### Railways
+## Railways
 
 **Track construction**:
 - **Subgrade**: Graded and compacted earth foundation. Ballast: crushed stone (10-15 cm layer) for drainage and load distribution.
@@ -33,11 +33,11 @@
 - Iron or steel T-rails (15-30 kg/m) require a rolling mill — significant industrial investment
 - Coal consumption ~2-5 kg/km per locomotive — logistics chain must keep pace
 
-### Telegraph Communication
+## Telegraph Communication
 
 Railway signaling depends on telegraph circuits for block control and dispatch. See [Telegraph Communication](./telegraph.md) for the complete telegraph system. Key railway integration points: block instruments at each signal box, dispatcher circuits between stations, and point-to-point lines for train orders.
 
-### Logistics Management
+## Logistics Management
 
 **Standardized containers**:
 - Wooden crates in standard sizes (0.5 m³, 1.0 m³, 2.0 m³). Stackable. Labeled with contents, weight, destination, handling instructions. Enables efficient loading of carts, wagons, rail cars.
@@ -50,7 +50,7 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 **Warehouse design**:
 - Dry, well-ventilated building. Organized by material type. Heavy materials on ground floor (structural load). Flammables in separate fireproof building. Chemicals in ventilated, bunded (liquid-tight containment) area. Shelving for small items. Open floor for bulk materials. Loading dock for vehicle access. Inventory control at entry/exit.
 
-### Signaling & Rolling Stock
+## Signaling & Rolling Stock
 
 **Railway signaling**:
 - **Semaphore signals**: Blade (arm) pivoted on mast. Horizontal = stop (danger). Angled down 45° = proceed (clear). Night indication: red lamp (stop), green lamp (clear). Operated by wire pull from signal box (lever frame). Visible 300-500 m in daylight.
@@ -63,7 +63,7 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - **Tank car**: Cylindrical tank on frame. For liquids (water, oil, chemicals). Fill dome on top, drain valve at bottom. 15-30 m³ capacity.
 - **Passenger coach**: Wooden or steel body with bench or individual seating. Sprung suspension (leaf springs or elliptic springs on bogies). 40-80 passengers per coach. Oil lamp lighting (later electric). Hardy vacuum or air brake system continuous through train — brake applies automatically if train parts or air pressure is lost.
 
-### Track Engineering Detail
+## Track Engineering Detail
 
 **Rail specifications**:
 - Standard gauge 1435 mm (measured between inner faces of rail heads at 14 mm below the top surface). This gauge originated from the coal railways of northern England and became the global standard. Broad gauge (1676 mm, used in India, Argentina) offers better stability at speed. Narrow gauge (1000 mm, 1067 mm) is cheaper to build on difficult terrain but limits speed and axle load.
@@ -83,7 +83,7 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - A pair of switch rails (tapered rails that move laterally) divert the train from one track to another. The switch rails are pivoted at the heel (one end) and moved by a lever (manual) or point motor (powered). A curved closure rail guides the wheels from the switch to the crossing (where the rails intersect at the "frog" — a gap in the rail that the wheel flanges pass through).
 - Turnout radius: typically 150-300 m (sharper turnouts for low-speed yard work, gentler for main line diverging routes at speed). Number designation (No. 7, No. 10, No. 12): the ratio of the frog angle tangent. A No. 10 turnout has a frog angle of arctan(1/10) = 5.7°, suitable for 30-40 km/h diverging speed.
 
-### Locomotive Engineering
+## Locomotive Engineering
 
 **Firebox and boiler**:
 - The firebox is a steel or copper chamber (copper conducts heat better, steel is stronger) where coal burns on a grate. Grate area 1.5-3.5 m². Coal consumption 2-5 kg/HP/hour (a 200 HP locomotive burns 400-1000 kg coal per hour at full power). The firebox is surrounded on three sides by water (the "water legs"), absorbing radiant heat directly from the fire. Firebox temperature: 1200-1400°C at the firebed.
@@ -99,7 +99,7 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - Driving wheels: 4-8 coupled wheels connected by coupling rods. Wheel diameter 1.0-1.8 m. Larger wheels give higher speed (more ground covered per revolution) but lower tractive effort. Smaller wheels give better pulling power at lower speed. The Whyte classification system describes wheel arrangement: 4-4-0 (4 leading, 4 driving, 0 trailing), 2-6-2, 4-6-2 (Pacific), 2-8-0 (Consolidation).
 - Valve gear linkage converts the rotary motion of the driving wheels into the back-and-forth motion of the slide valve (or piston valve) that admits steam to the cylinder. The Stephenson link motion uses two eccentrics per cylinder, connected by a curved link. Moving the link up or down changes which eccentric dominates, reversing the engine and adjusting cutoff in one motion.
 
-### Rolling Stock Detail
+## Rolling Stock Detail
 
 **Freight wagons**:
 - Capacity 15-20 tonnes per car (standard 2-axle design). Bogie (4-wheel truck) cars carry 30-50 tonnes. Underframe: steel I-beam or channel construction. Body: wood planking on steel frame (for box cars), flat steel deck (for flat cars), riveted steel plate (for tank cars).
@@ -111,7 +111,7 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - Heating: steam from the locomotive passed through pipes under the seats (effective but risks scalding). Later: hot water heating with a coal stove at one end of the coach.
 - Lighting: oil lamps (kerosene, 1880s), then gas lighting (coal gas stored in pressure tanks under the coach, piped to mantle lamps inside), then electric lighting (dynamo on the car axle charging a battery bank, 32 V DC system).
 
-### Railway Bridge Types
+## Railway Bridge Types
 
 **Timber trestle**:
 - Pile bents (driven timber piles, 25-35 cm diameter) with caps and bracing. Spans 5-10 m between bents. Stringers (timber beams, 25-40 cm depth) carry rail loads to the caps. Suitable for low-speed lines and temporary construction. Creosote-treated timber lasts 25-40 years. Height limit: 10-15 m (taller trestles become unstable under wind and lateral train loads).
@@ -121,7 +121,7 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - Truss bridge (through truss): the track runs through the truss (top chords overhead). Pratt or Warren truss configuration. Spans 30-100 m. Pin-connected for field erection without heavy riveting equipment. Member forces: bottom chord in tension, top chord in compression, diagonals carry shear. Design for Cooper's E-50 or E-60 loading (a standardized axle-load sequence representing a steam locomotive followed by loaded freight cars).
 - Steel requires a rolling mill for structural shapes (I-beams, channels, angles, plates) and a riveting crew for assembly. Stone abutments carry the vertical and horizontal reactions. Foundation design must account for scour (water erosion around pier bases in rivers). Foundations to below the maximum scour depth, typically 3-8 m below riverbed.
 
-### Locomotive Fuel and Water
+## Locomotive Fuel and Water
 
 **Coal supply**:
 - A medium freight locomotive (150 HP) burns 2-4 kg coal per HP-hour at full working rate. At 150 HP, that is 300-600 kg/hour. For a 200 km main line run at 40 km/h (5 hours), coal consumption is 1500-3000 kg. Tender capacity: 5-10 tonnes of coal and 10,000-15,000 liters of water.
@@ -135,7 +135,7 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - Water column: a vertical pipe with a swiveling funnel spout, fed from an elevated tank (timber trestle supporting a 50,000-100,000 liter wooden or steel tank). Gravity feeds water to the locomotive tender at 200-500 liters/minute. Filling a 10,000 liter tender takes 20-50 minutes.
 - Coaling stage: an elevated platform (timber or steel) from which coal is shoveled or gravity-fed into the locomotive tender. A 5-tonne tender refill takes 15-30 minutes by hand. Mechanical coaling (bucket elevator or grab crane) reduces this to 5 minutes.
 
-### Track Maintenance
+## Track Maintenance
 
 **Inspection regime**:
 - Daily visual inspection of main line track by section men walking their assigned 5-10 km section. Look for broken rails, loose bolts, displaced ballast, drainage blockages, and encroaching vegetation.
@@ -146,7 +146,7 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - Track settles over time under repeated loading. Lift and level the track by pumping ballast under the sleepers. Manual tamping: use a lining bar (steel crowbar) to lift the rail, then pack crushed stone under the sleeper with a ballast fork. Mechanical tamper: vibrating tines insert into the ballast, compact it under the sleeper, and lift the track to the correct elevation in one operation.
 - Tamping cycle: every 2-5 years on main line track, more frequently on heavy-traffic routes. Poorly maintained track develops geometry defects that cause rough riding, excessive wheel wear, and eventual derailment.
 
-### Station Design and Yard Operations
+## Station Design and Yard Operations
 
 **Station layout**:
 - A through station has a main line with passing loops (sidings parallel to the main line, connected by points at each end). The passing loop allows faster trains to overtake slower ones, or trains to pass in opposite directions on single-track lines. Minimum loop length: longest expected train + 20 m clearance at each end. For 20-car freight trains (200 m), the loop needs 240 m.
@@ -160,7 +160,7 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - A turntable is a steel bridge (10-20 m long) pivoting on a central bearing in a pit. The locomotive drives onto the bridge, which rotates to align with any stall track in the roundhouse (a semicircular engine shed with 5-15 stalls radiating from the turntable). Each stall has an inspection pit (a trench in the floor allowing access to the locomotive underside for maintenance).
 - Turntable diameter must exceed the longest locomotive wheelbase (the distance between the outermost axles). For a 2-6-2 locomotive with 12 m rigid wheelbase, a 15 m turntable is required. The turntable is balanced: a single person can rotate it by hand with the locomotive centered on the pivot.
 
-### Locomotive Maintenance
+## Locomotive Maintenance
 
 **Daily inspection (before each run)**:
 - Boiler water level: visible in the gauge glass (two try-cocks as backup: top one blows steam, bottom one blows water, confirming level between them). If water is below the bottom try-cock, drop the fire immediately (boiler explosion risk from exposed crown sheet).
@@ -172,14 +172,14 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - Monthly: examine all brake rigging, coupler pockets, draft gear, and spring hangers for cracks and wear. Measure flange thickness on driving wheels (minimum 18 mm, replace at 15 mm). Check track gauge under the locomotive (distance between wheel flanges; if gauge has spread, the wheels must be re-turned or replaced).
 - Annual: hydraulic boiler test. Fill boiler with water, pressurize to 1.5× working pressure (e.g., 15 bar test for a 10 bar working boiler). Hold for 10 minutes. Inspect all joints, stays, and tube expansions for leaks. Any leak at test pressure requires repair before the locomotive returns to service. The boiler certificate is valid for one year.
 
-### Railway Economics
+## Railway Economics
 
 **Operating costs**:
 - Fuel: coal costs represent 15-25% of total operating costs for a steam railway. A 100 km main line with 10 trains per day consuming 2 tonnes of coal each burns 20 tonnes/day or 7300 tonnes/year. At bulk coal prices, this is a major ongoing expense.
 - Labor: the largest single cost (40-50% of total). A steam locomotive needs a driver and a fireman. A station needs at least one operator (signalman, dispatcher, ticket agent). Track maintenance requires 1 section man per 2-3 km of track.
 - Capital cost: locomotive (comparable to a small factory in cost and complexity), rolling stock, track, bridges, stations, and signaling. A 100 km single-track railway with 10 stations represents an investment equivalent to 5-10 years of regional economic output. The payoff comes from the 10-50× reduction in transport cost per tonne-km compared to road transport.
 
-### Railway Gauge and Standards
+## Railway Gauge and Standards
 
 **Gauge standardization**:
 - The cost of gauge breaks (transferring cargo between different-gauge railways at junction points) is enormous: every item must be unloaded from one gauge car and loaded onto another, adding 12-24 hours and significant labor cost to each shipment. Standardize on one gauge from the start, even if it means building wider or narrower than local tradition dictates.
@@ -189,7 +189,7 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - The maximum permitted cross-section of a rail car (height and width above the rails). A standard British loading gauge is 3.9 m height × 2.7 m width. American loading gauge is larger (5.3 m × 3.3 m), allowing bigger cars and double-stack container trains. Tunnels, bridges, and station platforms must all provide clearance for the loading gauge plus a safety margin (typically 150-300 mm on each side).
 - The structure gauge defines the minimum clearance envelope around the track that must be kept free of obstructions. Any bridge, tunnel lining, signal mast, or platform edge within this envelope is a fouling point and must be removed or the track realigned.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Boiler explosions**: Steam locomotive boilers can explode from low water, overpressure, or corrosion. Two safety valves, water gauge, regular inspection required.
 - **Runaway trains**: Brake failure on gradients. Dead-man's control. Fail-safe brakes.
@@ -208,9 +208,8 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - **Slip and fall on ballast**: Walking on loose crushed stone ballast is inherently unstable. Rail workers frequently sprain ankles or fall, especially at night or when carrying equipment. Wear ankle-supporting boots with stiff soles. Walk between the rails (on the sleeper tops) rather than on the ballast shoulder. Use a lantern after dark.
 - **Electrification hazard** (later stage): Once electric traction is introduced, overhead catenary wires carry 1500-25,000 V. Any contact with or near these wires is immediately lethal. Clearance below the wire: minimum 4.5 m at maximum wire sag (hot weather, maximum span). Maintenance on or near the catenary requires the section to be de-energized and grounded. Never raise any object (pole, ladder, scaffold) within 2 m of a live catenary wire.
 
----
 
-### Materials
+## Materials
 
 - **Rails**: Wrought iron (early) or steel T-rails, 0.5-0.8% carbon, 0.8-1.3% manganese, 30-60 kg/m. Produced in iron/steel rolling mills.
 - **Sleepers (ties)**: Treated timber (creosote or tar), 2.4-2.7 m × 20-25 cm × 12-15 cm. Alternatively, concrete sleepers for longer service life.
@@ -219,14 +218,14 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - **Rolling stock**: Steel I-beam and channel underframes, wood or steel body panels, cast iron brake shoes, steel coupler heads.
 - **Fuel**: Bituminous coal (25-30 MJ/kg) for steam locomotives. Water (treated for hardness) at 5-10 kg/HP/hour.
 
-### Equipment
+## Equipment
 
 - **Track laying**: Rail lifts, spike mauls, track gauges, tamping bars, ballast forks, lining bars.
 - **Maintenance**: Mechanical tampers, track geometry measurement tools, ultrasonic rail testing equipment, ballast regulators.
 - **Yard operations**: Turntable (10-20 m), coaling stage, water columns with elevated tanks, classification hump with retarders.
 - **Workshop**: Overhead traveling cranes (5-20 tonne), boiler shop with hydraulic test pump, wheel lathe for re-turning driving wheels, riveting equipment.
 
-### Limitations
+## Limitations
 
 - **Capital intensity**: A 100 km single-track railway represents 5-10 years of regional economic output. Returns come over decades.
 - **Fixed infrastructure**: Railways cannot reroute. Changes in industry or settlement patterns can strand railway investment.
@@ -235,7 +234,7 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - **Boiler maintenance**: Annual hydraulic test, weekly washout, tube replacement every 5-10 years. Boiler failure is catastrophic.
 - **Gauge standardization lock-in**: Once a gauge is chosen, all rolling stock, infrastructure, and maintenance facilities are locked to it. Changing gauge later is prohibitively expensive.
 
-### See Also
+## See Also
 
 - [Roads & Bridges](roads.md) — Complementary road transport network
 - [Water Transport](shipping.md) — Alternative bulk transport
@@ -245,8 +244,8 @@ Railway signaling depends on telegraph circuits for block control and dispatch. 
 - [Coal](../energy/coal.md) — Locomotive fuel supply
 - [Machine Tools](../machine-tools/index.md) — Precision machining for locomotive components
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*
 
 
+
+
+[← Back to Transport](index.md)

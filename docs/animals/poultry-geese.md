@@ -8,7 +8,7 @@
 > **Outputs**: goose_meat, goose_eggs, down, feathers, manure, guardian_services
 > **Critical**: No — most feed-efficient poultry on pasture but slow-reproducing and seasonal
 
-### Overview
+## Overview
 
 Domestic geese are the largest poultry species commonly kept, derived primarily from the greylag goose (*Anser anser domesticus*) in Europe and the swan goose (*Anser cygnoides domesticus*) in Asia. Adults weigh 5-12 kg depending on breed, with ganders (males) consistently heavier than geese (females). Geese are long-lived (20-30 years in managed care), exceptionally hardy, and among the most efficient converters of pasture to meat of any livestock — on good grass, geese obtain 70-80% of their dietary needs from grazing alone, requiring minimal supplemental feed.
 
@@ -27,7 +27,7 @@ Egg production is modest (30-50 eggs per year) but each egg is substantial (150-
 | Low fencing (90-120 cm) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Most breeds too heavy to fly |
 | Gosling starter (18-20% protein) | [`agriculture`](../agriculture/soil-management.md) | Non-medicated; 3-4 weeks only |
 
-### Bill of Materials
+## Bill of Materials
 
 Materials listed for a 10-goose flock per year.
 
@@ -39,7 +39,7 @@ Materials listed for a 10-goose flock per year.
 | Nesting material (straw) | 50-100 kg | [`plants`](../plants/index.md) | For shelter bedding and nests |
 | Fencing (90-120 cm) | Perimeter of range | [`metals`](../metals/index.md) | Standard woven wire or electric |
 
-### Key Breeds
+## Key Breeds
 
 **Embden**:
 The most popular large meat goose. Pure white plumage, orange bill and feet. Adults: ganders 11-14 kg, geese 8-10 kg. Fast-growing goslings reach 5-6 kg at 12-14 weeks on pasture alone. Calm temperament, good foragers. The standard commercial meat goose in Europe and North America. Egg production: 30-40 eggs per year.
@@ -68,7 +68,7 @@ An auto-sexing breed — males are white, females are gray. This is one of the f
 | Guardian ability | Good | Moderate | Excellent | Good |
 | Meat yield | High | High | Moderate | High |
 
-### Pasture and Foraging
+## Pasture and Foraging
 
 **Grazing efficiency**:
 Geese are primarily grazers — their serrated bills are adapted for clipping grasses and forbs close to the ground. On productive pasture (mixed grass-clover), geese obtain 70-80% of their dietary needs from grazing during the growing season. This makes them the most feed-efficient poultry on pasture, requiring only 20-30% supplemental grain or concentrate. Stocking rate: 4-6 m² of good pasture per goose during the growing season, more on poorer pasture.
@@ -82,7 +82,7 @@ Geese prefer young, tender grass shoots, clover, dandelion, chickweed, and other
 **Supplemental feed**:
 During the growing season on good pasture, geese require 50-100 g of grain (wheat, corn, or mixed grain) per day as supplement. During winter or on poor pasture, increase to 150-250 g per day. Breeding geese in the pre-laying period (January-February) benefit from increased protein (16-18% layer pellet) to support egg production. Goslings require 18-20% protein starter feed for the first 3-4 weeks.
 
-### Housing
+## Housing
 
 **Shelter requirements**:
 Geese are cold-hardy and can tolerate freezing temperatures, but they need shelter from wind, rain, and predators. A simple three-sided shelter with a solid roof suffices in moderate climates. Floor space: 0.5-1.0 m² per bird in the shelter. Bed with straw — geese produce large, wet droppings that saturate bedding quickly. Replace bedding weekly or as needed. Geese do not roost; they sleep on the ground.
@@ -93,7 +93,7 @@ Geese respect most fencing and can be contained with a 90-120 cm fence. They do 
 **Water access**:
 Geese require water for drinking and head-washing (same as ducks — they need to submerge their heads to clear their nares). Swimming water is beneficial but not required. A stock tank, child's pool, or natural pond is adequate. As with ducks, geese rapidly contaminate standing water — provide fresh water daily and clean containers regularly. On pasture with dew or rain, geese obtain much of their water from grass.
 
-### Reproduction and Incubation
+## Reproduction and Incubation
 
 **Breeding behavior**:
 Geese form strong pair bonds and may remain bonded for multiple seasons. Breeding ratio: 1 gander per 2-4 geese (2-3 is optimal). Ganders are territorial during breeding season and may become aggressive toward other males and humans. Sexual maturity: geese begin laying at 9-12 months (first spring after hatching). Egg production peaks in years 2-4 and gradually declines.
@@ -110,7 +110,7 @@ Incubator temperature: 37.2-37.5°C, humidity 55-65% for first 27 days. Turn 3-5
 **Gosling rearing**:
 Brood at 30-32°C for the first week, decreasing by 2-3°C per week until ambient temperature. Goslings grow rapidly — they can go to pasture at 2-3 weeks in warm weather. Feed starter (18-20% protein, non-medicated) for the first 3-4 weeks, then transition to grower (15-16% protein) and increasingly rely on pasture. Goslings on good pasture grow to 4-5 kg in 10-12 weeks with minimal supplemental feed. Protect goslings from predators — crows, hawks, rats, and cats will take small goslings.
 
-### Egg Production
+## Egg Production
 
 **Goose egg characteristics**:
 150-200 g each (roughly 3 times a chicken egg). Thick, hard white shell. Very large yolk with proportionally less white than chicken eggs. Rich, slightly stronger flavor than chicken eggs — preferred for baking and custards. One goose egg equals approximately 3 chicken eggs in volume. Seasonal availability only (spring).
@@ -118,7 +118,7 @@ Brood at 30-32°C for the first week, decreasing by 2-3°C per week until ambien
 **Uses**:
 Baking (excellent for cakes, rich custards, and pasta dough due to high yolk content). Hard-boiled (12-15 minutes). Pickled (same method as chicken and duck eggs, but longer brining time due to shell thickness). Painted and decorated as decorative objects (a tradition in many European cultures).
 
-### Meat Production
+## Meat Production
 
 **Carcass yield**:
 Dressed yield: 60-70% of live weight. A 7 kg Embden gander yields approximately 4.5-5.0 kg dressed carcass. A 9 kg goose yields approximately 6.0-6.5 kg. Goose meat is dark throughout (all flight and walking muscles are dark). The carcass carries a high proportion of fat, particularly under the skin — goose fat yield is 500-1000 g per carcass.
@@ -129,7 +129,7 @@ Traditional slaughter timing is at 20-24 weeks for spring-hatched goslings, or a
 **Goose fat**:
 Rendered goose fat is a premium cooking fat, similar to duck fat but with a slightly richer flavor. Smoke point approximately 190°C. Used for roasting potatoes, confit, and pastry. A single goose produces 500-1000 g of rendered fat. Goose fat preserves well refrigerated (months) or frozen (years).
 
-### Down and Feathers
+## Down and Feathers
 
 **Down harvest**:
 Down is the fine, fluffy underplumage that provides geese with exceptional insulation. Raw down yield per goose: 100-150 g. Processed (cleaned and sorted) usable down: 60-100 g per goose. Down is 10-15% of total feather weight.
@@ -153,17 +153,17 @@ Down is the fine, fluffy underplumage that provides geese with exceptional insul
 **Feather uses**:
 Larger contour feathers are used for: quill pens (primary flight feathers of geese were the standard writing instrument for over 1,000 years before steel nibs), arrows (fletching), fishing lures, and decorative items. Feather meal (ground feathers) is a slow-release nitrogen fertilizer (approximately 12-14% N) — feathers are composed primarily of keratin protein.
 
-### Guardian Behavior
+## Guardian Behavior
 
 Geese are naturally territorial and alert. They recognize strangers (both human and animal) and respond with loud, raucous alarm calls that can be heard at considerable distance. Chinese geese are the most vocal and alert breed, but all geese exhibit guardian behavior to some degree. Geese have been used as guardians for: chicken and duck flocks (alerting to aerial and ground predators), farmsteads (alarms for approaching strangers), and military installations (notably, a flock of geese alerted Roman defenders during the Gallic sack of Rome in 390 BCE). Ganders during breeding season will charge and bite intruders — a 10 kg gander is a credible deterrent.
 
 **Limitations**: Geese cannot physically deter large predators (coyotes, wolves, large birds of prey). They are effective as alarm systems and small-predator deterrents. Pair guardian geese with secure nighttime housing for the rest of the flock.
 
-### Longevity and Culling
+## Longevity and Culling
 
 Geese are exceptionally long-lived for poultry — 20-30 years in managed care, with documented individuals reaching 40+ years. A productive breeding goose remains useful for 8-10 years (egg production gradually declines but foraging and guardian behavior persist). This longevity means geese are a long-term investment — slow to replace but persistent once established. Cull spent geese for meat and down; the carcass of a mature goose is flavorful but tougher than a young bird — best suited for slow-cooked preparations (stew, confit, sausage).
 
-### Health and Disease
+## Health and Disease
 
 **Hardiness**:
 Geese are among the hardiest poultry species. They are resistant to most common poultry diseases and thrive in cold, wet conditions that challenge chickens. Their primary health issues relate to water quality (if swimming water is not kept clean), foot problems from rough surfaces, and nutritional deficiencies during rapid gosling growth.
@@ -175,11 +175,11 @@ Geese are among the hardiest poultry species. They are resistant to most common 
 - **Gapeworm**: Acquired from eating earthworms. Causes gasping and neck stretching. Treat with fenbendazole.
 - **Predation**: Goslings are vulnerable to all small predators. Adult geese are large enough to deter most raptors and small mammals, but foxes, coyotes, and loose dogs will kill adult geese. Secure housing at night is essential.
 
-### Manure
+## Manure
 
 Goose manure is nutrient-rich: approximately 1.0-1.3% N, 0.8-1.0% P₂O₅, 0.4-0.6% K₂O by fresh weight. A single goose produces 0.2-0.3 kg of manure per day. On pasture, geese distribute manure directly as they graze, fertilizing the sward. When confined, collect and compost with carbonaceous material for 6-8 weeks before garden application. A flock of 10 geese on rotational pasture provides significant fertility to the grazing area — one reason goose-managed orchards and vineyards report improved soil health.
 
-### Cross-Domain Links
+## Cross-Domain Links
 
 - **[Ducks](poultry-ducks.md)** — shared waterfowl management, similar housing and water needs
 - **[Chickens](poultry-chickens.md)** — complementary poultry species, shared infrastructure
@@ -188,7 +188,7 @@ Goose manure is nutrient-rich: approximately 1.0-1.3% N, 0.8-1.0% P₂O₅, 0.4-
 - **[Knowledge — Writing](../knowledge/writing.md)** — goose quill pens as writing instruments
 - **[Food Preservation](../food-processing/index.md)** — goose fat preservation, egg storage, cured meat
 
-### Safety
+## Safety
 
 **Gander aggression**:
 Ganders defend their mates and territory aggressively during breeding season (February through June). A charging gander stretches his neck low, hisses loudly, and bites with surprising force — the serrated bill can bruise and pinch skin severely. Response: carry a stick or shield, never turn your back on an aggressive gander, and cull individuals that attack without provocation outside the breeding season. Children should not be left unattended with breeding ganders.
@@ -199,7 +199,7 @@ Adult geese are large, strong birds (5-14 kg) that resist handling vigorously. T
 **Hygiene**:
 As with all poultry, wash hands after handling geese, eggs, or equipment. Goose manure is voluminous and wet — maintain clean living conditions to prevent disease transmission. Cook goose meat and eggs to 74°C internal temperature.
 
-### Historical Development
+## Historical Development
 
 Geese were among the first poultry species domesticated, with archaeological evidence dating greylag goose (*Anser anser*) domestication to approximately 3,000-4,000 years ago in Egypt, Mesopotamia, and southeastern Europe.
 
@@ -217,7 +217,7 @@ Toulouse geese were selected in the Languedoc region of southern France over cen
 
 The Pilgrim goose, an American auto-sexing breed developed in Iowa in the early 20th century, is one of the few poultry breeds where males (white) and females (gray) can be distinguished by down color at hatching — simplifying flock management.
 
-### Processing and Products
+## Processing and Products
 
 **Goose fat rendering**: The average goose carcass contains 800-1200 g of subcutaneous fat, considerably more than duck — a single Embden goose yields 500-1000 g of rendered fat with a smoke point of approximately 190°C.
 
@@ -235,7 +235,7 @@ Quill preparation: select the first five flight feathers (outermost primaries), 
 
 A well-made goose quill pen writes 4-6 pages before requiring recutting and lasts approximately 1-2 weeks of regular use before the keratin becomes too soft to hold a clean edge.
 
-### Record Keeping
+## Record Keeping
 
 **Egg production**: Record laying start date, total eggs per goose per season, and average clutch size. Target: 30-50 eggs per goose per year for production breeds, 50-80 for Chinese geese.
 
@@ -249,6 +249,6 @@ Track egg weight (target 150-200 g for standard breeds, 140-160 g for Chinese ge
 
 **Down yield**: Record weight of raw down per bird at processing. Target: 100-150 g per mature goose. Track processed down quality (fill power, measured as cubic inches per ounce) to optimize harvest timing and processing methods.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Animals](index.md)

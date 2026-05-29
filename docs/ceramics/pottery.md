@@ -18,7 +18,7 @@ Pottery provides containers for storage, transport, cooking, and — critically 
 - [Basic tools](../foundations/tools-basic.md) — digging, crushing, and forming implements
 - [Clay sources](../foundations/index.md) — river banks, floodplains, geological deposits
 
-### Pottery & Kilns
+## Pottery & Kilns
 
 **Clay identification and processing**:
 - **Source**: River banks, lake shores, floodplains. Clay = earth that becomes plastic and holds shape when wet, hardens permanently when fired.
@@ -46,7 +46,7 @@ Pottery provides containers for storage, transport, cooking, and — critically 
 **Drying**:
 - Air dry slowly for 3-7 days (longer for thick walls). Cover loosely to prevent uneven drying. Rapid drying causes cracking. Bone-dry clay is lighter in color and cool to touch.
 
-### Potter's Wheel
+## Potter's Wheel
 
 The potter's wheel enables rapid, symmetrical vessel production — transforming pottery from a hand-building craft into a production-capable technology.
 
@@ -65,7 +65,7 @@ The potter's wheel enables rapid, symmetrical vessel production — transforming
 **Throwing technique**:
 - Center clay on spinning wheel head. Press down and inward simultaneously. Open center with thumbs. Pull walls upward between thumb and fingers. Shape with ribs (wood or metal scrapers). Wire-cut from wheel head. Dry slowly.
 
-### Firing Methods
+## Firing Methods
 
 **[Bonfire / open firing](../glossary/bonfire-open-firing.md)** (simplest, earliest — temperatures 600-900°C):
 1. **[Air dry](../glossary/air-dry.md)** pots for 3-7 days until bone dry. Any moisture causes steam explosions.
@@ -101,7 +101,7 @@ The potter's wheel enables rapid, symmetrical vessel production — transforming
 - **Advantage**: More uniform temperature throughout ware chamber. Reaches stoneware temperatures (1200-1300°C) where clay vitrifies fully — non-porous, very strong.
 - **Construction**: Requires fireclay bricks for interior. Larger than updraft kiln — typically 1.5-2 m interior height.
 
-### Glazing Methods
+## Glazing Methods
 
 Glazes seal pottery surfaces — making vessels waterproof, easier to clean, and decorative.
 
@@ -125,7 +125,7 @@ Glazes seal pottery surfaces — making vessels waterproof, easier to clean, and
 - **Produces**: Brilliant, glossy, transparent glaze. Bright colors with added copper (green) or iron (amber/brown). Historically widespread because it fires at earthenware temperatures.
 - **WARNING**: Lead is a cumulative neurotoxin. Lead glazes on food-contact surfaces cause lead poisoning. **[Never use lead-glazed vessels for food or drink.](../glossary/never-use-lead-glazed-vessels-for-food-or-drink.md)** Lead glaze production also hazards workers (inhalation of lead dust, fumes during firing). Use only for non-food decorative ware or industrial containers, with respiratory protection during manufacture.
 
-### Crucible Production
+## Crucible Production
 
 Clay crucibles are essential for melting and casting metals — one of pottery's most critical industrial applications.
 
@@ -140,7 +140,7 @@ Clay crucibles are essential for melting and casting metals — one of pottery's
 - **Composition**: Fireclay + 30% grog. Form by coil or press-mold. Fire to 1200°C.
 - **Adequate for**: Copper (1085°C), bronze (950°C), tin (232°C), lead (327°C). Not suitable for iron (1538°C — softens clay).
 
-### Brick and Tile Production
+## Brick and Tile Production
 
 **Mud brick (sun-dried)**:
 - Mix clay-rich soil with temper (straw, 10-20%). Press into wooden mold (typical 25 × 12 × 8 cm). Dry in sun 2-4 weeks. No firing required. Adequate for dry climates. Deteriorates in rain. Oldest building material.
@@ -159,7 +159,7 @@ Clay crucibles are essential for melting and casting metals — one of pottery's
 **Drain pipe**:
 - Extrude clay through die (circular cross-section, 10-30 cm diameter). Cut to length (30-60 cm). Socket end formed by reaming. Fire to 1000-1100°C. Vitreous, non-porous pipes for drainage and sewage.
 
-### Integration Points
+## Integration Points
 
 | Phase | Contribution |
 |-------|-------------|
@@ -171,7 +171,7 @@ Clay crucibles are essential for melting and casting metals — one of pottery's
 | Chemistry | Acid-resistant containers; distillation apparatus; reaction vessels; retorts |
 | Glass & Optics | Kiln furniture for glass annealing; refractory pots for glass melting |
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Silica dust inhalation**: Clay processing (drying, crushing, grinding) and tempering with sand or grog generates respirable crystalline silica dust. Silicosis is an irreversible, progressive lung disease. Wear particulate respirators (P100) during dry clay processing. Use wet methods (slaking, wet grinding) whenever possible. Work outdoors or with ventilation.
 - **Kiln burns and heat exposure**: Pottery kilns fire at 900-1400°C. Loading/unloading even warm kilns causes severe contact burns. Wear heavy leather or heat-resistant gloves. Allow adequate cooling before handling ware.
@@ -179,7 +179,7 @@ Clay crucibles are essential for melting and casting metals — one of pottery's
 - **Carbon monoxide**: Wood and charcoal-fired kilns produce CO, especially during reduction firing (deliberately fuel-rich atmosphere). CO is odorless and lethal. Fire kilns in open or well-ventilated areas. Use CO detectors in enclosed spaces. Headache, nausea, or dizziness near a firing kiln = evacuate immediately.
 - **Lead glaze toxicity**: Lead oxide (PbO) is a cumulative neurotoxin affecting the nervous system, kidneys, and reproductive system. Inhalation of lead dust during glaze mixing and lead fumes during firing are both hazardous. **Never use lead glazes on food-contact surfaces.** Use respiratory protection and gloves when handling lead compounds. Wash hands thoroughly after any contact.
 
-### Clay Body Formulation
+## Clay Body Formulation
 
 Specific clay recipes for each major ware type:
 
@@ -196,20 +196,20 @@ Specific clay recipes for each major ware type:
 - Porcelain vitrifies completely at peak temperature, becoming translucent in thin sections (1-3 mm). The challenge is reaching 1300°C without deforming the ware. Supports (saggar firing, kiln furniture) prevent slumping.
 - Porcelain is the most demanding clay body to work with: low plasticity makes it difficult to throw, and the high firing temperature means warping and bloating defects are common. Practice with stoneware before attempting porcelain.
 
-### Forming Detail
+## Forming Detail
 
 **Coil building**: Build walls 15-20 cm in height per session, then let the clay firm to leather-hard before adding more coils. Adding too much height at once causes slumping under the weight of wet clay. Blend each new coil into the one below by smoothing inside and out with a wooden rib or fingers. A 30 cm tall vessel typically requires 3-4 coil-building sessions over 2-3 days.
 
 **Slab building**: Roll clay to 5-8 mm wall thickness for most vessels. Thicker than 10 mm risks trapping moisture that causes explosions during firing. Score and slip all joining surfaces (scratch with a fork, apply water-clay paste) to create a strong bond. Slab-built corners are the weakest point — reinforce with a thin coil of clay pressed into the interior joint.
 
-### Trimming
+## Trimming
 
 Trim the foot ring and refine the profile when the pot reaches leather-hard stage (15-20% moisture content — firm but yields to a thumbnail). The pot should hold its shape when inverted but still be cuttable:
 
 - **Foot ring dimensions**: Ring width 5-8 mm, height 3-5 mm, inner diameter 50-70% of base diameter. A well-cut foot ring elevates the pot, prevents base wobble, and allows glaze to pool attractively inside.
 - Secure the leather-hard pot to the wheel head with three small dabs of clay (wads). Center carefully. Trim with a loop tool (steel ribbon), working from the center outward. Cut the foot ring last, defining it with a square-tipped trimming tool.
 
-### Bisque Firing Schedule Detail
+## Bisque Firing Schedule Detail
 
 A precise bisque schedule prevents loss and produces optimal absorbency for glazing:
 
@@ -219,7 +219,7 @@ A precise bisque schedule prevents loss and produces optimal absorbency for glaz
 4. **[Soak at peak](../glossary/soak-at-peak.md)** (30 minutes): Ensures uniform temperature throughout the kiln.
 5. **Cool to room temperature** (8-12 hours): Do not open the kiln until below 200°C. Rapid cooling through quartz inversion on the way down causes dunting (cracking).
 
-### Glaze Application Methods
+## Glaze Application Methods
 
 **Dipping**: Submerge the bisqued pot in glaze slurry, lift out in one smooth motion, drain for 3-5 seconds, then set aside. Specific gravity of the glaze slurry: 1.4-1.6 (measured with a hydrometer). A 3-second dip in a glaze at SG 1.5 typically deposits a 0.3-0.5 mm glaze layer, which fires to a smooth coating. Fast, consistent, good for production.
 

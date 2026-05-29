@@ -24,16 +24,16 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 - [Semiconductor Devices](../electronics/semiconductor-devices.md) — diodes, transistors, and thyristors
 - [PCB Fabrication](../electronics/pcb-fabrication.md) — PCB manufacturing for logic assemblies
 
-## 2. Prerequisites
+## Prerequisites
 
-### Materials
+## Materials
 
 - Semiconductor devices: diodes, BJTs, MOSFETs from [`electronics.semiconductor-devices`](../electronics/semiconductor-devices.md)
 - Passive components: resistors, capacitors for pull-ups, decoupling, timing from [`electronics.passive-components`](../electronics/passive-components.md)
 - Printed circuit boards from [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md)
 - Logic ICs: TTL 74xx series or CMOS 4000/74HC series (requires semiconductor fab or trade)
 
-### Tools and Equipment
+## Tools and Equipment
 
 - Oscilloscope (50+ MHz bandwidth for TTL timing verification)
 - Logic analyzer (16+ channels for bus debugging)
@@ -41,14 +41,14 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 - Soldering station (temperature-controlled, 25-80 W)
 - Multimeter for continuity and voltage checks
 
-### Knowledge
+## Knowledge
 
 - Boolean algebra and De Morgan's laws (see [`computing.digital-logic`](digital-logic.md))
 - Binary number representation (two's complement, fixed-point)
 - Basic circuit analysis (Ohm's law, RC time constants)
 - Clock discipline: setup/hold times, propagation delay
 
-## 3. Bill of Materials
+## Bill of Materials
 
 | Material | Quantity (per prototyping board) | Source | Alternatives |
 |----------|----------------------------------|--------|-------------|
@@ -62,9 +62,9 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 | Prototyping PCB or breadboard | 1 board | [`electronics.pcb-fabrication`](../electronics/pcb-fabrication.md) | Wire-wrap board (reliable for DIP ICs) |
 | 5V regulated power supply (1A) | 1 unit | [`electronics.power-electronics`](../electronics/power-electronics.md) | 7805 voltage regulator + transformer |
 
-## 4. Process Description
+## Process Description
 
-### 4.1 Combinational Circuit Design
+## 4.1 Combinational Circuit Design
 
 1. **Write the truth table.** List all 2ⁿ input combinations and the desired output for each. For a 4-input function, this is a 16-row table.
 
@@ -78,7 +78,7 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 
 6. **Verify with a test bench.** Apply all input combinations to the physical circuit. Compare measured outputs against the truth table. For 8+ input circuits (256+ rows), use a logic analyzer in automated stimulus mode.
 
-### 4.2 Sequential Circuit Design
+## 4.2 Sequential Circuit Design
 
 1. **Define the state diagram.** Draw circles for each state, arrows for transitions. Label each arrow with the input condition that triggers the transition and the output produced.
 
@@ -93,7 +93,7 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 
 5. **Implement and verify.** Wire the flip-flops, combinational next-state logic, and output logic. Test by stepping through all states manually (single-step clock) and at speed.
 
-### 4.3 Programmable Logic Design Flow (FPGA/CPLD)
+## 4.3 Programmable Logic Design Flow (FPGA/CPLD)
 
 1. **Write HDL description.** Specify the design in a hardware description language (Verilog or VHDL). This is a software activity — see software-bootstrapping domain for HDL methodology.
 
@@ -105,9 +105,9 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 
 5. **Generate bitstream and program.** The place-and-route result generates a configuration bitstream. Load into the FPGA via JTAG or serial programming interface. For CPLDs, the configuration is non-volatile (EEPROM/flash).
 
-## 5. Quantitative Parameters
+## Quantitative Parameters
 
-### Gate-Level Timing
+## Gate-Level Timing
 
 | Parameter | 74LS TTL | 74HC CMOS | 4000 CMOS | 180nm ASIC |
 |-----------|----------|-----------|-----------|------------|
@@ -118,7 +118,7 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 | Power per gate (dynamic) | 2 mW | CV²f | CV²f | CV²f |
 | Fan-out | 10 | 50+ | 50+ | — |
 
-### State Machine Encoding Comparison
+## State Machine Encoding Comparison
 
 | Encoding | Flip-flops (8 states) | Next-state logic | Decoding logic | Use case |
 |----------|-----------------------|------------------|----------------|----------|
@@ -126,7 +126,7 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 | One-hot | 8 | Minimal | Minimal | FPGA (LUT-optimized) |
 | Gray code | 3 | Moderate | Minimal | Low-glitch, async interfaces |
 
-### Programmable Logic Device Comparison
+## Programmable Logic Device Comparison
 
 | Device | Logic capacity | Max f_max | I/O pins | Configuration | Cost/unit |
 |--------|---------------|-----------|----------|---------------|-----------|
@@ -135,7 +135,7 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 | FPGA (Spartan-6) | 147K logic cells | 400 MHz | 300+ | SRAM (volatile) | $15-50 |
 | FPGA (Artix-7) | 350K logic cells | 450 MHz | 500+ | SRAM (volatile) | $30-100 |
 
-### Truth Table Sizes and K-map Limits
+## Truth Table Sizes and K-map Limits
 
 | Inputs (n) | Truth table rows | K-map dimensions | Practical? |
 |-------------|-----------------|------------------|------------|
@@ -146,7 +146,7 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 | 6 | 64 | 4×(4×4) | Impractical |
 | 7+ | 128+ | — | Use Quine-McCluskey algorithm |
 
-## 6. Scaling Notes
+## Scaling Notes
 
 **From TTL prototype to FPGA**: A design prototyped with 50 TTL ICs on a breadboard (500 gates, 200 MHz max) translates to a single CPLD or small FPGA. The HDL rewrite replaces physical wiring with synthesizable code. Timing constraints change from gate propagation delays (ns) to place-and-route delays (ps to ns).
 
@@ -165,7 +165,7 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 
 **Minimum useful scale**: A single GAL 22V10 (10 macrocells) implements a state machine with up to 10 states plus combinational glue logic. This is the entry point for programmable logic design. Below this, use discrete TTL/CMOS gates.
 
-## 7. Troubleshooting
+## Troubleshooting
 
 | Problem | Probable Cause | Solution |
 |---------|---------------|----------|
@@ -176,49 +176,49 @@ Logic design sits between gate-level physics (digital-logic) and processor-level
 | Race condition in asynchronous design | Multiple paths with different delays to same element | Synchronize all signals to a single clock; avoid asynchronous reset/set unless absolutely necessary |
 | FPGA configuration fails | Incorrect bitstream format or voltage levels on JTAG pins | Verify bitstream matches device and revision; check VCCIO voltage matches programming adapter |
 
-## 8. Safety
+## Safety
 
 - **Electrostatic discharge (ESD)**: CMOS inputs are protected by diode clamps but remain sensitive. A 100 V discharge (imperceptible to humans) destroys gate oxide. Handle all ICs on grounded mats with wrist straps. Store in conductive foam. Damage is cumulative — even sub-lethal discharges degrade reliability.
 - **Supply voltage**: TTL is strictly 5V ±0.25V. CMOS tolerates wider ranges but exceeding maximum VDD (7V for HC, 15V for 4000 series) causes latchup — a parasitic thyristor fires, shorting VDD to ground, destroying the chip. Use current-limited bench supplies (100-200 mA) during prototyping.
 - **Ground loops**: In mixed analog/digital prototyping, ground loops inject noise into sensitive logic inputs. Use a single ground point (star ground) for all power supply returns. Keep digital ground currents separate from analog ground returns.
 - **Hot insertion**: Never insert or remove ICs with power applied. The momentary short between adjacent pins as the IC enters the socket can destroy both the IC and the socket. Power off, insert, then power on.
 
-## 9. Quality Control
+## Quality Control
 
-### Functional Verification
+## Functional Verification
 
 - **Truth table check**: Apply all input combinations to combinational circuits. Verify every output against the specification. For a 4-input circuit, this is 16 tests. Automate with a logic analyzer in stimulus-response mode.
 - **State machine coverage**: Walk through every state transition in the state diagram. Verify correct next state and output for each transition. Use a logic analyzer to capture state sequences. A fully verified state machine covers all (state, input) pairs.
 
-### Timing Verification
+## Timing Verification
 
 - **Propagation delay measurement**: Use an oscilloscope to measure the delay from input transition to output transition. Compare against the worst-case specification in the datasheet. Add 10-20% margin for temperature and voltage variation.
 - **Setup/hold margin check**: Measure the time from data valid to clock edge (setup) and from clock edge to data change (hold). Setup margin must be positive and exceed the flip-flop's t_su specification. Hold margin must exceed t_h.
 
-### Testability
+## Testability
 
 - **Scan chain insertion** (ASIC): Replace each flip-flop with a scan flip-flop that can be chained into a serial shift register. In test mode, shift in any desired state, apply one clock, shift out the resulting state. Full controllability and observability of all flip-flops.
 - **Boundary scan (JTAG)**: IEEE 1149.1 standard. Shift register around the IC perimeter allows testing board-level interconnections without physical probes. Supported by all modern FPGAs and complex ICs.
 
-## 10. Variations and Alternatives
+## Variations and Alternatives
 
-### Discrete Gate Implementation
+## Discrete Gate Implementation
 
 Build combinational and sequential logic from individual SSI/MSI TTL or CMOS ICs. Each 14-pin DIP package contains 4 gates (NAND, NOR, XOR) or 2 flip-flops. A 32-bit counter requires 8 ICs. Practical for prototyping and low-volume production. Maximum complexity: ~100 ICs on a single board before wire management becomes unmanageable.
 
-### Programmable Logic (GAL/CPLD)
+## Programmable Logic (GAL/CPLD)
 
 Replace discrete glue logic with a single programmable device. A GAL 22V10 replaces up to 10 discrete ICs. EEPROM-based configuration is non-volatile (retains programming without power). In-system programmable (ISP) via JTAG. Ideal for state machines, address decoders, and interface glue logic.
 
-### FPGA Implementation
+## FPGA Implementation
 
 Map the entire design to a field-programmable gate array. SRAM-based configuration allows infinite reprogramming. Modern FPGAs contain 10K to 10M+ logic elements, embedded RAM, DSP multipliers, and hardened I/O interfaces (PCIe, Ethernet, DDR memory controllers). The standard platform for digital prototyping and medium-volume production.
 
-### ASIC Implementation
+## ASIC Implementation
 
 Commit the design to a custom silicon fabrication. Highest performance, lowest per-unit cost at volume (>100K units), but highest NRE (non-recurring engineering) cost ($100K-$10M for mask sets). The final step in the scaling path: prototype on FPGA, verify, then commit to ASIC for production.
 
-### Design Methodology Comparison
+## Design Methodology Comparison
 
 | Method | Time to prototype | Unit cost | Max complexity | Performance |
 |--------|-------------------|-----------|----------------|-------------|

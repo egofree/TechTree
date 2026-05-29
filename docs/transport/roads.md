@@ -45,7 +45,7 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 - Timber beam bridges limited to 10 m spans and need replacement every 10-20 years
 - Stone arch construction requires skilled masonry and timber centering (temporary falsework)
 
-### Wheeled Vehicles
+## Wheeled Vehicles
 
 **Cart construction** (Metallurgy):
 - **Wheels**: Wooden spoke wheels (hub, 8-12 spokes, felloes/rim). Hub: turned on lathe from elm or oak (interlocking grain resists splitting). Spokes: ash (strong, flexible). Rim: bent oak or ash felloes, joined by iron strakes (iron bands shrunk on — heat band, place on wheel, cool → tight fit). Wheel diameter 1-1.5 m.
@@ -56,7 +56,7 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 **[Wagon](../glossary/wagon.md)** (heavier, the Metallurgy-Machine Tools stage transition):
 - Larger version of cart, 2-4 wheels, covered or open. Leaf spring suspension (stacked steel strips, improve ride over rough roads). Load 2-5 tonnes. Four-horse team typical for long-distance freight.
 
-### Tunnels & Drainage
+## Tunnels & Drainage
 
 **Tunnel construction**:
 - **Heading and bench method**: Advance a small heading (1.5 × 2 m pilot tunnel) first, then widen by removing bench below. Heading provides advance knowledge of ground conditions. Timber support sets (posts + cap + lagging boards) installed immediately after excavation. Spacing 0.5-1.5 m depending on rock quality. In solid rock, support may be unnecessary.
@@ -68,7 +68,7 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 - **Side ditches**: V-shaped or trapezoidal, 30-50 cm deep, 50-80 cm top width. Minimum 1% longitudinal slope for flow. Line with stone in erodible soils. Ditch outlets every 100-200 m.
 - **Culverts**: Pipe or box drain under road at low points and stream crossings. Size: diameter ≥ 2× expected peak flow width. Minimum 30 cm diameter for small drainage. Construct from stone slabs (box culvert), iron pipe, or concrete pipe. Install with 2-5% gradient, compacted base, headwall at inlet and outlet to prevent erosion.
 
-### Detailed Road Types
+## Detailed Road Types
 
 **[Earth road](../glossary/earth-road.md)** (improved dirt):
 - Crown the surface 2-4% (center 10-15 cm higher than edges on a 3-5 m road). Grade the subgrade to this profile using a scraper blade behind animals or a tractor.
@@ -95,7 +95,7 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 - Joints: transverse contraction joints every 3-5 m (15-25 mm deep saw cut at 1/4 to 1/3 of slab thickness). Joints control where shrinkage cracks occur. Seal joints with rubberized bitumen to keep water and grit out. Expansion joints every 15-30 m with compressible filler (bitumen-impregnated fiberboard).
 - Curing: keep surface moist for 7 days (wet burlap, plastic sheeting, or curing compound). Concrete reaches 70% of 28-day strength in 7 days. Traffic opening typically at 7-14 days. Full strength at 28 days: 25-35 MPa compressive.
 
-### Bridge Engineering
+## Bridge Engineering
 
 **Timber trestle bridge**:
 - Bents (vertical supports): 4-6 timber piles (25-35 cm diameter) driven 3-5 m into the riverbed or ground. Caps (horizontal beams, 30 × 30 cm) bolted across pile tops. Sway bracing (diagonal timbers) between piles resists lateral loads.
@@ -117,7 +117,7 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 - Connections: riveted (steel rivets heated to cherry red, driven through matched holes, peened over with pneumatic hammer). Pinned (steel pins through forged eye-bars at panel points, allows field assembly without riveting equipment). Pin connections faster to erect, riveted connections stiffer and more durable.
 - Deck loading: design for dead load (self-weight) + live load (vehicles at 4-8 kN/m² depending on traffic class) + wind load (1.5-2.5 kPa on exposed surface) with safety factor 2-4.
 
-### Road Maintenance
+## Road Maintenance
 
 **Resurfacing cycle**:
 - Gravel roads: re-grade every 2-4 weeks on busy routes. Re-gravel every 1-2 years (add 50-75 mm fresh gravel, re-compact). Patch potholes immediately with crushed stone and compact.
@@ -134,7 +134,7 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 - **Cold patch**: Pre-mixed asphalt emulsion and aggregate. Shovel into cleaned pothole, tamp with hand compactor or truck tires. Temporary repair (lasts 2-6 months). Apply in any weather.
 - **Hot mix**: Saw-cut pothole to rectangular shape with vertical sides. Clean and tack coat (liquid bitumen on edges and bottom). Place hot mix asphalt, compact with plate compactor or roller. Permanent repair. Requires dry weather and mix plant nearby.
 
-### Earthworks and Grading
+## Earthworks and Grading
 
 **Cut and fill**:
 - Measure cross-sections along the route at 20-30 m intervals. Calculate cut volume (material removed from high ground) and fill volume (material placed in low ground). Balance cut and fill to minimize haul distance: ideally, excavated material from cuts goes directly into adjacent fills.
@@ -146,7 +146,7 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 - Crib wall: timber or concrete interlocking boxes filled with crushed stone. Permeable (drains freely). Flexible (accommodates minor foundation settlement without cracking). Suitable for heights 2-6 m. Timber cribs require treatment for durability.
 - Drainage behind any retaining wall is essential. Hydrostatic pressure from trapped water doubles or triples the lateral force on the wall. Install weep holes (50-100 mm diameter pipes through the wall at 1-2 m spacing, at the base) and a gravel drainage blanket (300 mm thick) behind the wall.
 
-### Road Surface Performance
+## Road Surface Performance
 
 **Traffic loading**:
 - Equivalent single axle load (ESAL): the standard unit of road damage. One ESAL = one 80 kN (8.2 tonne) single axle load. A passenger car (1 tonne per axle) causes roughly 0.0001 ESAL of damage per pass. A fully loaded truck (10 tonne per axle) causes roughly 3-5 ESAL per pass. Road damage scales with the fourth power of axle load: doubling the axle load causes 16× the damage.
@@ -158,7 +158,7 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 - **Pumping**: Fine material from the subgrade mixes with water and is ejected through cracks in the pavement under wheel loading. Indicates poor drainage and loss of subgrade support. Correct by improving drainage and sealing cracks.
 - **Ravelling**: Aggregate particles dislodge from the surface. Caused by aging and hardening of the bitumen binder losing its adhesive grip. Indicates the surface course has reached end of life.
 
-### Road Signs and Markings
+## Road Signs and Markings
 
 **Sign types**:
 - **Regulatory signs**: Enforce traffic laws. Stop signs (octagonal, red), speed limits (circular with number), yield signs (inverted triangle). Made from painted timber or cast iron plates. Mount on timber posts at 2.0-2.5 m height at the road edge. Minimum letter height 100 mm for legibility at 50 m distance.
@@ -170,7 +170,7 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 - Edge lines: solid white lines at road edges. Help drivers stay on the pavement at night and in poor visibility. Particularly important on roads without curbs.
 - Paint composition: alkyd or chlorinated rubber binder with titanium dioxide (white) or lead chromate (yellow) pigment. Apply at 0.3-0.5 kg/m². Glass beads (0.5-1.0 mm diameter) dropped onto wet paint provide retroreflectivity for night visibility (headlight beam reflects back toward the driver).
 
-### Traffic Engineering
+## Traffic Engineering
 
 **Sight distance**:
 - Stopping sight distance: the distance a driver needs to see an obstacle and stop before hitting it. At 50 km/h (13.9 m/s): reaction time (2.5 s) × speed = 35 m + braking distance (v²/2μg, where μ = 0.35 for wet pavement) = 13.9²/(2 × 0.35 × 9.81) = 28 m. Total: 63 m minimum sight distance. At 80 km/h: 135 m.
@@ -180,7 +180,7 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 - At-grade intersections: the simplest junction. Sight triangles must be clear of obstructions (buildings, vegetation, signs) so drivers on both roads can see each other. For two roads with 60 km/h design speed, each approach needs a clear sight triangle of 60 m × 60 m.
 - Roundabout (traffic circle): traffic flows one way around a central island. Entering traffic yields to circulating traffic. Handles 15,000-25,000 vehicles per day with lower injury rates than signalized intersections (all traffic moves in the same direction, eliminating head-on and left-turn conflicts). Central island diameter 15-40 m depending on design vehicle turning radius.
 
-### Road Construction Equipment
+## Road Construction Equipment
 
 **Grader**:
 - A motor grader (or animal-drawn blade grader) has a long frame with a centrally mounted moldboard blade (3-4 m wide, adjustable for angle, height, and lateral offset). The blade cuts, moves, and spreads earth to create the crowned road profile. A skilled grader operator can shape a road to ±10 mm of the design cross-section in a single pass.
@@ -194,7 +194,7 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 **Asphalt paving machine**:
 - A tracked or wheeled machine that receives hot mix from dump trucks, spreads it to the specified thickness, and provides initial compaction with a vibrating screed. Paving width: 2.5-4.0 m per pass. Paving speed: 3-8 m/minute. The screed is heated (gas or electric) to prevent the hot mix from sticking. A paver can lay 200-400 tonnes of asphalt per hour. For early stage construction without a paving machine, spread hot mix by hand from dump trucks using rakes and lutes, then compact with rollers.
 
-### Snow and Ice Management
+## Snow and Ice Management
 
 **Snow clearance**:
 - Plow trucks (or horse-drawn snow plows): a steel blade (3-4 m wide, angled 30° from the direction of travel) mounted on the front of a vehicle. Pushes snow to the side of the road. Plowing speed 20-40 km/h. Depth capacity: 30-60 cm of unpacked snow per pass.
@@ -204,7 +204,7 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 - Abrasives: spread sand or crushed stone (2-5 mm) on icy surfaces at 50-100 g/m². Provides traction but does not melt ice. Sweep up and reuse in spring.
 - Salt (NaCl): effective de-icer above -10°C. Apply at 20-40 g/m². Salt lowers the freezing point of water, melting ice and preventing refreezing. Corrosive to steel (vehicles, bridges, reinforcement). Damages concrete (freeze-thaw cycles accelerated by salt). Environmental impact: contaminates roadside soil and groundwater. Use sparingly on critical slopes and intersections only.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Construction falls**: Bridge/tunnel construction at height. Safety harnesses, scaffolding, guardrails.
 - **Structural collapse**: Temporary bracing during construction. Never work under unsupported structures.
@@ -221,7 +221,7 @@ Roads and bridges are the vascular system of civilization: they connect settleme
 
 ---
 
-### Limitations
+## Limitations
 
 - **Weather vulnerability**: Earth and gravel roads become impassable in sustained wet weather. Even macadam roads degrade rapidly without drainage maintenance.
 - **Maintenance burden**: Gravel roads need re-grading every 2-4 weeks on busy routes. Macadam requires resurfacing every 8-12 years. Drainage cleaning twice annually.

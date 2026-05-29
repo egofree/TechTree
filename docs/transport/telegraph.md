@@ -16,7 +16,7 @@ Electrical current through wire produces electromagnetic effect at receiver. Inf
 
 **Circuit**: Battery (or generator) → telegraph key (switch) → transmission wire → sounder (electromagnet + armature) → ground return (earth completes circuit — single wire sufficient for most installations).
 
-### Telegraph Key
+## Telegraph Key
 
 Spring-loaded lever with electrical contacts. Press lever → contacts close → current flows → remote sounder clicks. Release → spring opens contacts → sounder clacks.
 
@@ -28,7 +28,7 @@ Spring-loaded lever with electrical contacts. Press lever → contacts close →
 
 Construction: brass contacts, steel spring, hardwood lever mounted on cast iron base. Contacts adjustable with set screws for feel and gap. Wear-resistant contact points (silver or platinum for longevity). Multiple keys per station for operators sending on different lines simultaneously.
 
-### Sounder
+## Sounder
 
 Electromagnet (iron core with many turns of fine copper wire — 5-20 Ω resistance). Armature (iron bar) held above electromagnet core by spring. When current flows → electromagnet pulls armature down → "click" sound. When current stops → spring pulls armature up → "clack" sound. Operator listens to click-clack pattern and translates to letters. Trained operators achieve 20-40 words per minute.
 
@@ -36,7 +36,7 @@ Electromagnet (iron core with many turns of fine copper wire — 5-20 Ω resista
 - **Armature**: Mild steel bar, hinged at one end. Adjustable spring tension controls click force and response speed.
 - **Mounting**: Wood or iron base, adjustable feet for stable placement on operator's desk.
 
-### Morse Code
+## Morse Code
 
 Standardized international code:
 ```
@@ -50,7 +50,7 @@ Y -.--  Z --..
 
 Prosigns (procedure signals): `AR` (end of message), `SK` (end of work), `R` (received), `GA` (go ahead), `ERR` (error — cancel last word).
 
-### Wire and Line Construction
+## Wire and Line Construction
 
 **Wire**: Iron or copper wire, 2-4 mm diameter. Iron stronger (less sag between poles) but higher resistance (poor conductor). Copper better conductor but requires more support. Galvanized iron wire (zinc-coated for corrosion resistance) is the common compromise. Resistance: ~10-50 Ω/km depending on wire gauge.
 
@@ -60,14 +60,14 @@ Prosigns (procedure signals): `AR` (end of message), `SK` (end of work), `R` (re
 
 **Range**: Direct current from batteries effective to ~50-100 km (voltage drop in wire limits range). For longer distances: relay stations every 50-100 km. Or use higher voltage (100-200 V from generator). Transcontinental telegraph: ~5000 km with ~50-100 relay stations.
 
-### Battery Supply
+## Battery Supply
 
 **Daniell cell**: Copper electrode in CuSO₄ solution | unglazed porcelain separator | zinc electrode in ZnSO₄ or dilute H₂SO₄ solution. Voltage: 1.1 V per cell. Stack 10-50 cells in series for desired line voltage (10-50 V). Stable output, long life (months of continuous operation).
 
 - **Construction**: Glass or earthenware jars. Copper plate in outer compartment filled with saturated CuSO₄ solution (blue). Zinc plate in inner porous pot filled with dilute H₂SO₄. Replace zinc electrode as it corrodes.
 - **Alternative**: Leclanché cell (carbon-zinc, 1.5 V, cheaper but less stable). Or use DC generator for higher voltage and no consumable electrodes.
 
-### Relay Stations
+## Relay Stations
 
 At ~50-100 km intervals along long lines. Incoming signal activates electromechanical relay → re-transmits signal on fresh battery power to next station. Each relay station needs: battery bank, relay mechanism, operator (or automatic relay), shelter.
 
@@ -84,7 +84,7 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 - Iron wire has high resistance (~10-50 Ω/km) — limits range without relay stations
 - Glass/ceramic insulators critical in rain and fog — leakage through wet poles degrades signal
 
-### Network Topology
+## Network Topology
 
 **Hub-and-spoke**: Central station connects to multiple outstations. Switchboard (manual patch panel) connects any pair of lines. Message routing: operator receives message, re-transmits to destination line.
 
@@ -92,7 +92,7 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 
 **Throughput**: 20-40 words/minute per line. For coordination of distant mining, manufacturing, and construction operations, this is transformative — decisions that took days by courier now take minutes.
 
-### Wire Technology
+## Wire Technology
 
 **Iron wire**: The standard telegraph conductor for decades. Drawn from wrought iron rod through successive dies to 3-4 mm diameter. Tensile strength 350-450 MPa. Breaking load for 4 mm wire: ~4500 N (450 kg). Resistance approximately 50-80 Ω/km for 3 mm wire, 30-50 Ω/km for 4 mm. Galvanized (zinc-coated by hot-dipping at 450°C) for corrosion resistance. Galvanized coating thickness 40-80 μm, extends service life from 2-5 years (bare iron rusts quickly outdoors) to 15-25 years.
 
@@ -104,7 +104,7 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 - Poles: treated timber (creosote or pentachlorophenol), 6-10 m tall, 15-20 cm diameter at the top. Set in augured holes 1.2-1.5 m deep, backfilled and tamped. Pole spacing 40-60 m (closer on curves and in heavy ice regions). A single pole supports 1-6 wires on cross-arms (timber brackets bolted to the pole, each arm carrying 4-8 wires).
 - Guy wires (steel wire rope, 6-8 mm) brace corner poles and terminal poles against the unbalanced wire tension. Anchor guy wires to a buried log or screw anchor rated at 5000-10000 N holding power.
 
-### Electrical Specifications
+## Electrical Specifications
 
 **Line current**: A typical telegraph circuit draws 20-50 mA when the key is closed. The sounder relay pulls in at 5-10 mA (sensitivity threshold). Below 5 mA, the armature won't reliably pull in, and characters are lost. The operator has to request re-transmission.
 
@@ -114,7 +114,7 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 
 **Relay sensitivity**: Polarized relay uses a permanent magnet to bias the armature. The signal current creates a magnetic field that adds to or opposes the permanent magnet bias. Sensitivity down to 1-5 mA with careful adjustment. The relay contacts switch a local circuit powered by a fresh battery, regenerating the signal at full strength for the next line segment. This is the fundamental repeater principle.
 
-### Morse Code Timing
+## Morse Code Timing
 
 **Element timing**:
 - Dot duration: 0.1-0.2 seconds (operator dependent). This is the basic time unit.
@@ -127,7 +127,7 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 
 **Signal propagation**: Electrical signals travel at near light speed (~200,000-280,000 km/s on iron wire, slower than in free space due to the velocity factor of the conductor). A 3000 km line has roughly 10-15 ms propagation delay, negligible for Morse code. The bottleneck is always the human operator.
 
-### Network Architecture
+## Network Architecture
 
 **Main office switchboard**:
 - A manually operated patch panel (copper bus bars with spring clips or plug-and-jack connections). The switchboard operator connects any incoming line to any outgoing line by inserting a patch cord. A busy main office handles 20-50 lines simultaneously.
@@ -137,7 +137,7 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 - Incoming message: operator copies by ear onto a message form (time, date, origin, destination, text, number of words). Verifies word count. Routes to destination line and re-transmits.
 - Billing: by the word (distance-independent within the network, or distance-tiered). A 20-word message between cities costs roughly equivalent to a day's wages for a laborer. Expensive enough to keep messages concise, cheap enough to transform business coordination.
 
-### Telephone Development
+## Telephone Development
 
 **[Bell telephone](../glossary/bell-telephone.md)** (1876):
 - A diaphragm (thin iron disc, 0.3-0.5 mm thick, 50-60 mm diameter) vibrates in response to sound waves. A permanent magnet with a coil of fine wire (0.1-0.2 mm, 50-100 Ω) sits near the diaphragm. Vibration changes the magnetic flux through the coil, inducing a current that is an electrical analog of the sound.
@@ -153,7 +153,7 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 **Switchboard (manual exchange)**:
 - An operator at a cord board connects calling and called parties by plugging patch cords into jacks. Each subscriber line has a calling indicator (a metal flap that drops when the subscriber cranks their magneto). The operator speaks to the caller, determines the destination, rings the called party, and connects the two lines. Capacity: one operator handles 50-100 subscriber lines.
 
-### Wireless Telegraphy
+## Wireless Telegraphy
 
 **Spark gap transmitter**:
 - A high-voltage transformer (or induction coil) charges a capacitor (Leyden jar: glass plate with tin foil on both sides, 500-2000 pF, rated to 20-50 kV). When voltage exceeds the breakdown voltage of the spark gap (adjustable brass balls, 1-5 mm gap), a spark arcs across. The spark excites a tuned circuit (inductor + capacitor) connected to an antenna wire, producing a damped radio-frequency oscillation at 100-1000 kHz (wavelengths 300-3000 m).
@@ -166,7 +166,7 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 
 **Antenna**: A vertical wire or mast radiator. For wavelengths around 600 m (500 kHz), an efficient quarter-wave antenna would be 150 m tall, which is impractical for most installations. Short antennas (20-50 m) work but with reduced efficiency. Ground the antenna system with buried copper wire radials (10-20 wires, each at least 0.1 wavelength long) to provide a low-resistance return path.
 
-### Line Testing and Maintenance
+## Line Testing and Maintenance
 
 **Testing instruments**:
 - **Galvanometer**: A sensitive current detector (moving-coil or moving-magnet type). A mirror galvanometer can detect currents below 1 μA. For telegraph line testing, a milliammeter (0-100 mA range) suffices to verify that line current is above the 5 mA relay threshold.
@@ -178,7 +178,7 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 - Retension wires that have sagged below specification (especially after heavy ice loading in winter). A slack wire whips in the wind, accelerating fatigue failure at the insulator attachment.
 - Clean and re-adjust relay contacts monthly. Burned or pitted contacts increase resistance and cause missed signals. File contacts smooth with a points file (fine abrasive strip), then adjust gap to manufacturer specification.
 
-### Telegraph in Practice
+## Telegraph in Practice
 
 **Message formats**:
 - Standard telegraph message structure: start mark → addressee (city, office, recipient name) → text → signature → end mark. Operators count words as they copy (billing is per word). A typical business message is 15-30 words. A stock quotation message might be 50-100 words.
@@ -194,7 +194,7 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 
 **Quadruplex telegraphy**: Sending four messages on a single wire (two in each direction). Combines duplex operation with a polarized relay that responds to current direction (positive/negative) as well as current on/off. One message uses current polarity, the other uses current on/off, and both are independent. Invented by Edison in 1874. Quadruplex increased line revenue 4× without new construction, making long-distance telegraphy far more profitable.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Lightning**: Telegraph wires attract lightning strikes. Install lightning arresters (spark gaps to ground) at each station and at regular intervals along the line. Disconnect lines during electrical storms.
 - **Electrocution**: Line voltages (10-200 V DC) can be lethal under wet conditions. Insulate all exposed contacts. Ground all equipment frames. Never touch wires during storms.
@@ -211,7 +211,7 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 - **Animal hazards on pole lines**: Pole line construction crews work outdoors in all weather. Snake bites, insect stings, and large animal encounters are real risks in rural and wilderness line construction. Carry a first aid kit with antivenin protocols, tourniquets, and epinephrine for anaphylactic reactions to stings. Line crews typically work in pairs for this reason.
 - **Repetitive message errors**: Under high-volume traffic (stock exchanges, news wires), operators copying at speed make character errors that distort meaning. A single misplaced dot can change "BUY" to "BUT" or "SEND" to "SOLD". Financial telegraph offices use a verification operator who reads back each message to the sending operator before transmission. Accuracy above 99.5% is the target; at 20 WPM, this means fewer than 1 error per 400 characters.
 
-### Telegraph Economics and Social Impact
+## Telegraph Economics and Social Impact
 
 **Cost per word**: The first transatlantic telegraph cable (1866) charged $0.25-1.00 per word for a minimum 10-word message — a full day's wages for a laborer. By 1900, competition from multiple cable companies (Anglo-American, Commercial, Direct Spanish) drove the transatlantic rate down to $0.05 per word. Domestic US rates: Western Union charged $0.50-1.00 for a 10-word message between major cities in 1870, falling to $0.30 by 1900.
 
@@ -221,7 +221,7 @@ At ~50-100 km intervals along long lines. Incoming signal activates electromecha
 
 **Speed of information transformation**: Before the telegraph, transatlantic information traveled at ship speed — 10-14 days by fast sailing packet, 7-10 days by steamship. After the 1866 cable, the same information crossed in minutes. On land, news traveled at telegraph speed (~15 words per minute on a single line, multiplied by hundreds of parallel lines) versus courier or pony express speed (8-15 km/h, with relay stations every 15-25 km). The telegraph compressed information transit time by a factor of 10,000-100,000 for intercontinental communication.
 
-### Limitations
+## Limitations
 
 - **Single-channel capacity**: A single telegraph wire carries one message at a time at 15-25 words per minute. Multiplexing (duplex, quadruplex) increases this to 4 channels max on one wire. High-traffic routes require many parallel wires.
 - **Line maintenance**: Overhead wires break from ice loading, wind, tree falls, and vandalism. Underground cables are vulnerable to water ingress and excavation damage. A single break halts all traffic on that circuit.

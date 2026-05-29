@@ -38,7 +38,6 @@ Leather production requires livestock (cattle, sheep, goats) for hides, lime (Ca
 | Water | Clean, 15-20°C for soaking | 1,500-3,000 L | 300-500% of hide weight for soaking; 30-50 m³ total process water |
 | Dye (optional) | Acid or direct dye | 0.05-0.25 kg | 1-5% on leather weight; for colored leather |
 
-## Overview
 
 Leather — animal hide preserved through tanning — provides durable, flexible material for belts, footwear, harnesses, gaskets, book covers, and protective clothing. Vegetable tanning (tannins from bark) and chrome tanning (dichromate salts) are the primary methods. Leather drive belts were the universal power transmission medium in factories before electricity.
 
@@ -249,6 +248,6 @@ Leather — animal hide preserved through tanning — provides durable, flexible
 - [Knowledge: Writing](../knowledge/writing.md) — parchment and vellum for manuscripts
 - [Energy: Steam Power](../energy/steam-power.md) — leather belts for power transmission from steam engines
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Animals](index.md)

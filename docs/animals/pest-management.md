@@ -38,7 +38,6 @@ No single animal or method provides complete protection. Effective pest manageme
 | Poultry coop and run | Predator-proof, ventilated, 0.1 m² per bird indoor | 1 unit | Covered run essential — hawks, foxes, raccoons |
 | Owl box mounting hardware | Lag bolts, brackets, mounting plate | Per box | Must support box + owl weight (~1.5 kg) at 4-6 m height |
 
-## Overview
 
 Biological pest control uses domesticated and managed animals to suppress rodents, insects, and predators that threaten food stores and crops. Before synthetic pesticides (which require industrial chemistry), animal-based pest management was the primary defense. It still works. A single barn owl family kills 1000-2000 rodents per year. A flock of 15 guinea fowl per hectare can suppress tick and grasshopper populations by 80% without touching the crops. Guardian dogs reduce predator losses in sheep flocks by 80-95%.
 
@@ -46,7 +45,7 @@ This page covers four strategies: rodent control via cats, terriers, and raptors
 
 ## Rodent Control
 
-### Domestic Cats (Felis catus)
+## Domestic Cats (Felis catus)
 
 Cats were domesticated roughly 10,000 years ago in the Near East, specifically for grain storage protection. The relationship is straightforward: rodents eat stored grain, cats eat rodents.
 
@@ -55,7 +54,7 @@ Cats were domesticated roughly 10,000 years ago in the Near East, specifically f
 - **Preferred breeds for mousing**: no specialized breeding is required. Mixed-breed farm cats from working barn cat lines consistently outperform purebred show cats. Select for lean build, high activity, and maternal hunting instruction (kittens learn hunting technique from the mother in the first 12-16 weeks).
 - **Management**: provide shelter (barn or outbuilding access), fresh water, and minimal supplementary feeding. Overfed cats hunt less. Underfed cats leave the area to find food. The balance is 20-30% of caloric needs supplemented, with the rest from hunting.
 
-### Rat Terriers
+## Rat Terriers
 
 Small terrier dogs (rat terrier, Jack Russell, feist types) are purpose-bred for rodent killing in granaries and barns. Where cats stalk and ambush individual prey, terriers flush and kill in bursts.
 
@@ -64,7 +63,7 @@ Small terrier dogs (rat terrier, Jack Russell, feist types) are purpose-bred for
 - **Size**: 5-8 kg ideal. Large enough to kill rats quickly, small enough to navigate between stored grain sacks and under floorboards.
 - **Training**: expose puppies to rat scent at 8-12 weeks. Progress to controlled ratting exercises with caged rats, then supervised barn sessions. A fully trained ratting dog is effective by 12-18 months.
 
-### Barn Owls (Tyto alba)
+## Barn Owls (Tyto alba)
 
 Barn owls are nocturnal raptors that hunt rodents almost exclusively. They require no training, feeding, or management beyond providing nesting sites.
 
@@ -74,13 +73,13 @@ Barn owls are nocturnal raptors that hunt rodents almost exclusively. They requi
 - **Placement**: within 100-200 m of rodent habitat (grain fields, storage buildings, pastures). Barn owls hunt by low, slow flight (5-10 m altitude), scanning the ground for movement. Open ground with short vegetation is ideal. Dense forest reduces hunting success.
 - **Range**: a breeding pair hunts within a 0.5-3 km radius of the nest site. This covers 80-280 hectares of potential rodent habitat.
 
-### Combined Rodent Strategy
+## Combined Rodent Strategy
 
 Deploy cats for daytime interior patrol (barns, granaries), terriers for targeted clearing of heavy infestations, and owl boxes for continuous nocturnal suppression in surrounding fields. The three methods are complementary: cats work buildings, terriers work below-floor burrows, owls work open ground. A farm with all three active sees rodent damage to stored grain drop by 70-90%.
 
 ## Avian Pest Control
 
-### Free-Range Chickens
+## Free-Range Chickens
 
 Chickens are omnivorous foragers. Given access to pasture or crop land, they consume large numbers of insects, slugs, and weed seeds while also producing eggs and meat.
 
@@ -89,7 +88,7 @@ Chickens are omnivorous foragers. Given access to pasture or crop land, they con
 - **Timing**: morning foraging is most productive (insects are active, dew brings slugs to the surface). Chickens forage 4-6 hours per day if given range access. Confine during crop establishment (seedling stage) to prevent scratching damage; release after plants are 15-20 cm tall.
 - **Breeds**: heritage dual-purpose breeds (Rhode Island Red, Plymouth Rock, Sussex) are better foragers than commercial layers (Leghorn) or broiler hybrids. Dual-purpose birds maintain foraging instinct while producing 150-220 eggs per year.
 
-### Ducks (Indian Runner, Khaki Campbell)
+## Ducks (Indian Runner, Khaki Campbell)
 
 Ducks outperform chickens in wet conditions and for slug and snail control. Their broad bills sift through mud and leaf litter without damaging plant roots the way chicken scratching can.
 
@@ -98,7 +97,7 @@ Ducks outperform chickens in wet conditions and for slug and snail control. Thei
 - **Snail control**: ducks consume 30-50 snails per day, including the aquatic snails that host liver fluke parasites. Running ducks through wet pastures reduces liver fluke infection in grazing livestock.
 - **Stocking density**: 5-10 ducks per hectare for general garden pest control. Up to 20 per hectare for intensive slug infestations.
 
-### Guinea Fowl (Numida meleagris)
+## Guinea Fowl (Numida meleagris)
 
 Guinea fowl are the premier tick-control bird. They range wider than chickens, vocalize loudly at predators, and consume insects without scratching or damaging crops.
 
@@ -108,7 +107,7 @@ Guinea fowl are the premier tick-control bird. They range wider than chickens, v
 - **Noise advantage**: their alarm calls (a sharp "buck-wheat" at 80-90 dB) alert farmers to predators, snakes, and intruders. This dual function (pest control plus sentinel) makes them valuable on diversified farms.
 - **Limitation**: guinea fowl are semi-wild and resist close handling. They are not as docile as chickens. Flocks tend to wander if not trained to return to a coop. Start with keets (guinea fowl chicks) raised by a chicken hen to imprint the coop location.
 
-### Species Selection Summary
+## Species Selection Summary
 
 | Species | Best Target | Conditions | Density (per ha) |
 |---|---|---|---|
@@ -118,7 +117,7 @@ Guinea fowl are the premier tick-control bird. They range wider than chickens, v
 
 ## Livestock Guardian Animals
 
-### Guardian Dogs
+## Guardian Dogs
 
 Livestock guardian dogs (LGDs) live with the flock or herd as full-time residents. Breeds developed for this work over millennia include the Great Pyrenees (France/Spain), Anatolian Shepherd (Turkey), Maremma (Italy), Kuvasz (Hungary), and Tibetan Mastiff.
 
@@ -128,7 +127,7 @@ Livestock guardian dogs (LGDs) live with the flock or herd as full-time resident
 - **Effectiveness**: 80-95% reduction in predator losses when dogs are properly trained and maintained. Studies in the western United States show sheep flocks with LGDs lose 1-3% of lambs to predators annually, compared to 10-30% in unprotected flocks.
 - **Feeding**: guardian dogs require 1-2 kg of dry food per day (or equivalent in table scraps, meat, and grain). They must be fed near the flock, not at the farmhouse. Feeding at the farmhouse trains the dog to leave the flock and go home.
 
-### Donkeys (Equus asinus)
+## Donkeys (Equus asinus)
 
 Donkeys have a natural hostility toward canines (dogs, coyotes, foxes) that makes them effective flock guards. They do not bond with the flock the way dogs do. Instead, they treat the flock as part of their territory and attack intruding canines.
 
@@ -138,7 +137,7 @@ Donkeys have a natural hostility toward canines (dogs, coyotes, foxes) that make
 - **Advantages over dogs**: donkeys do not require training (the behavior is innate), do not require daily feeding beyond pasture, and do not wander as far as dogs. They graze with the flock naturally.
 - **Limitations**: donkeys are ineffective against avian predators (eagles, hawks) and may be hostile to herding dogs. Some individual donkeys ignore predators. temperament varies. Test each animal's response before relying on it as a sole guardian.
 
-### Llamas (Lama glama)
+## Llamas (Lama glama)
 
 Llamas are South American camelids with strong territorial instincts. They alert to predators, approach and investigate intruders, and charge and kick if the intruder does not retreat.
 
@@ -150,14 +149,14 @@ Llamas are South American camelids with strong territorial instincts. They alert
 
 ## Insect Pest Management
 
-### Orchard Chickens (Codling Moth Control)
+## Orchard Chickens (Codling Moth Control)
 
 Codling moth (Cydia pomonella) is the primary pest of apple and pear orchards worldwide. Larvae bore into fruit, causing 20-80% damage in untreated orchards. Chickens disrupt the lifecycle by eating overwintering larvae and pupae that shelter in bark crevices and leaf litter at the tree base.
 
 - **Method**: run chickens in the orchard during fall and early spring, when codling moth larvae are in the leaf litter and tree trunk crevices. 15-20 chickens per hectare of orchard. The chickens scratch through the litter, consuming larvae and pupae.
 - **Timing**: September-November (fall cleanup, larvae seeking overwintering sites) and March-April (spring, larvae emerging from pupation). During these windows, chickens can reduce overwintering populations by 40-60%.
 
-### Ducks in Rice Paddies
+## Ducks in Rice Paddies
 
 Traditional Asian rice farming uses ducks for snail and insect control. The practice (called "aigamo method" in Japan) dates back centuries and has been revived as an organic pest management technique.
 
@@ -166,7 +165,7 @@ Traditional Asian rice farming uses ducks for snail and insect control. The prac
 - **Impact**: 70-90% reduction in golden apple snail populations. 50-70% reduction in planthopper damage. Ducks also fertilize the paddy with droppings (roughly 10-15 kg nitrogen per hectare per growing season from 300 ducks).
 - **Management**: ducks are removed before rice heading (grain formation) to prevent grain consumption. Total duck deployment: roughly 60-80 days during vegetative growth. Ducks are then moved to post-harvest fields for cleanup.
 
-### Geese for Weed Control
+## Geese for Weed Control
 
 Geese graze grasses and broadleaf weeds but avoid many crop plants, making them selective weeders. This has been used commercially in cotton, strawberry, orchard, and nursery crops.
 
@@ -179,11 +178,11 @@ Geese graze grasses and broadleaf weeds but avoid many crop plants, making them 
 
 Effective pest control combines animals with cultural practices, physical barriers, and monitoring. No single method is sufficient on its own.
 
-### Monitoring (Scouting)
+## Monitoring (Scouting)
 
 Walk fields weekly during the growing season. Count pest populations using standardized methods: sweep net sampling (10 sweeps per location, 5 locations per hectare for insect counts), visual inspection of 10 plants per location for damage assessment, sticky traps (1 per 0.5-1 hectare) for flying insect monitoring. Record numbers. Treatment decisions are based on economic thresholds (the pest density at which control cost equals the value of crop damage prevented).
 
-### Seasonal Deployment Calendar
+## Seasonal Deployment Calendar
 
 | Season | Rodent Control | Avian Insect Control | Guardian Animals |
 |---|---|---|---|
@@ -192,7 +191,7 @@ Walk fields weekly during the growing season. Count pest populations using stand
 | Fall | Terriers clear harvest infestations; cats protect stored grain | Chickens in orchards for overwintering codling moth larvae; geese for post-harvest weed cleanup | Dogs remain with flocks through breeding season |
 | Winter | Owl boxes maintained; cats in barns | Poultry confined or reduced; ducks removed from paddies | Guardian animals with winter-grazing or housed flocks |
 
-### Combining Methods
+## Combining Methods
 
 - **Cultural practices**: crop rotation breaks pest lifecycles (rotate grain with legumes to disrupt grain-specific insects). Companion planting repels pests (marigolds emit thiophenes that deter nematodes; basil masks tomato scent from hornworm moths). Clean cultivation removes overwintering habitat.
 - **Physical barriers**: fencing (woven wire, 1.2-1.5 m height, with a bottom apron buried 15-20 cm to prevent digging) excludes ground predators. Netting (bird net, 2-5 cm mesh) protects fruit from avian pests. Row covers (spun-bonded polypropylene or fine mesh) exclude flying insects from seedlings.
@@ -227,27 +226,27 @@ Walk fields weekly during the growing season. Count pest populations using stand
 
 ## Safety
 
-### Zoonotic Diseases
+## Zoonotic Diseases
 
 Pest animals carry diseases transmissible to humans. Rodent droppings can contain hantavirus (inhalation of dried fecal dust causes hantavirus pulmonary syndrome, with a 36% mortality rate). Cats near food storage areas can shed Toxoplasma gondii oocysts in feces, causing toxoplasmosis (particularly dangerous during pregnancy). Birds can carry Salmonella and Campylobacter.
 
 - **Prevention**: exclude cats from direct contact with stored grain (cats patrol the perimeter, not the grain pile). Wear gloves and an N95 mask when cleaning rodent-contaminated areas. Wash hands after handling any pest control animal. Do not use poultry manure from pest-control flocks directly on edible crops without 90-day composting at 55°C+ to kill pathogens.
 
-### Dog Bite Prevention
+## Dog Bite Prevention
 
 Guardian dogs are large, protective, and can misinterpret human approach to their flock as a threat. Great Pyrenees and Anatolian Shepherds weigh 40-65 kg. A bite from a dog this size causes serious injury.
 
 - **Protocol**: announce yourself verbally when approaching a guarded flock. Do not make direct eye contact with the dog. Do not walk between the dog and the livestock. If the dog approaches, stand still and let it investigate. Do not run.
 - **Children**: children should not enter pastures with active guardian dogs without an adult. A running, squealing child triggers chase instincts.
 
-### Quarantine for New Animals
+## Quarantine for New Animals
 
 Any new guardian or pest control animal should be quarantined for 14-30 days before introduction to the flock or farm. Test for rabies (vaccinate all dogs and cats), internal parasites (fecal float test), and communicable diseases. Quarantine pens should be 10-20 m from existing livestock with no shared water or feed sources.
 
-### Rabies Awareness
+## Rabies Awareness
 
 All mammals are potential rabies vectors. Bats, raccoons, skunks, and foxes are the primary wildlife reservoirs. Unvaccinated cats that hunt outdoors are at elevated risk. If a pest control animal shows neurological symptoms (aggression, lethargy, difficulty swallowing, excessive salivation), isolate it immediately and consult a veterinarian. Rabies is fatal once symptoms appear. Vaccinate all dogs and cats on the farm.
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Animals](index.md)

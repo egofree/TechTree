@@ -22,7 +22,7 @@ Domestic pigeons (*Columba livia*) are among the most productive and low-mainten
 | Grit and oyster shell | [`mining`](../mining/processing.md) | Free-choice; pigeons eat whole grains |
 | Nest bowls (20-25 cm diameter) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Clay or wire mesh, with nesting material |
 
-### Bill of Materials
+## Bill of Materials
 
 Materials listed for a 20-pair breeding loft per year.
 
@@ -34,7 +34,7 @@ Materials listed for a 20-pair breeding loft per year.
 | Nesting material (straw, pine needles) | 10-20 kg | [`plants`](../plants/index.md) | 10-15 cm lengths |
 | Loft construction materials | 4 m² floor area | [`construction`](../construction/building-materials.md) | Wood frame, solid walls, wire aviary |
 
-### Breeds
+## Breeds
 
 **Squab production breeds** (meat-focused):
 - **King**: The primary squab breed worldwide. Large-bodied, 600-800 g live weight. Squab reach 450-550 g at 26-28 days. White, silver, red, and yellow varieties. Reliable breeders, producing 10-14 squab pairs per year. Good temperament, adapt well to loft confinement.
@@ -46,7 +46,7 @@ Materials listed for a 20-pair breeding loft per year.
 - **Homing pigeon (Racing homer)**: Medium-sized (350-450 g), bred for navigation and endurance. Can carry messages over 1000+ km. Squab production is moderate (6-8 pairs per year) but the breed's homing ability is irreplaceable for communication.
 - **Duchess**: Large utility breed, good for squab and as a foster parent for other breeds. Calm temperament.
 
-### Loft Construction
+## Loft Construction
 
 **Basic loft design**:
 A pigeon loft is fundamentally simpler than poultry housing. Requirements: weatherproof shelter, ventilation without drafts, nest boxes, perches, and entry/exit openings (trap holes or open flight). Allow 1 m² of floor space per 5 breeding pairs. Nest boxes: 30 × 30 × 30 cm each, arranged in banks along interior walls. Each breeding pair needs two nest boxes (one for current squab, one for the next clutch — pigeons often begin a new clutch before the previous squab have fledged).
@@ -60,7 +60,7 @@ One-way trap doors (bobs) allow pigeons to enter but not exit through the trap h
 **Nest bowls**:
 Each nest box contains a nest bowl (20-25 cm diameter, 5-8 cm deep). Clay, wood, or wire mesh bowls. Provide nesting material: straw, pine needles, or twigs (10-15 cm lengths). Pigeons build flimsy platform nests — the bowl shape prevents eggs from rolling out. Keep nest bowls clean between broods.
 
-### Feeding and Nutrition
+## Feeding and Nutrition
 
 **Adult diet**:
 Pigeons are grainivorous — their natural diet is whole grains, seeds, and legumes. A basic ration:
@@ -81,7 +81,7 @@ Both male and female pigeons produce crop milk (a curd-like secretion from the c
 **Grit and minerals**:
 Pigeons need grit (small stones 2-5 mm) for grinding grain in the gizzard, since they eat whole grains rather than mash. Provide free-choice grit in a separate container. Calcium supplementation: crushed oyster shell or limestone grit for breeding hens. Salt and mineral supplement: provide a pigeon mineral mix or red clay block.
 
-### Reproduction and Squab Production
+## Reproduction and Squab Production
 
 **Mating and pairing**:
 Pigeons are monogamous and form long-term pair bonds. Introduce unmated birds together in a loft and they will pair within 1-2 weeks (courtship involves billing, mutual preening, and the male's courtship dance — strutting, bowing, and cooing). Once paired, they remain bonded unless separated. A well-managed breeding pair produces 8-14 squab per year (4-7 clutches of 2 eggs each). Pairs that lose a mate will re-pair within 2-3 weeks.
@@ -103,7 +103,7 @@ This overlapping cycle means a productive pair can be rearing squab in one nest 
 **Squab harvest**:
 Squab are harvested at 26-30 days of age, before they fledge. At this age, they are at maximum weight (350-550 g dressed) with tender meat. After fledging (around 30-35 days), squab begin flying and exercising, rapidly losing fat and becoming tougher — harvest timing is critical for meat quality.
 
-### Guano as Premium Fertilizer
+## Guano as Premium Fertilizer
 
 Pigeon guano is the most nutrient-concentrated common animal manure:
 
@@ -120,7 +120,7 @@ Guano accumulates on the loft floor. Scrape and collect weekly to prevent ammoni
 **Value as fertilizer**:
 At 4-5% nitrogen, pigeon guano is comparable to blood meal (12% N) in nitrogen concentration per dry weight, and far exceeds other livestock manures. For a settlement producing its own fertilizer, pigeon guano is the highest-quality animal-derived fertilizer available without industrial processing. Particularly valuable for heavy-feeding crops (brassicas, tomatoes, corn).
 
-### Homing and Messaging
+## Homing and Messaging
 
 Pigeons have an extraordinary navigational ability using a combination of:
 - Magnetic field sensing (magnetite particles in the upper beak)
@@ -131,7 +131,7 @@ Pigeons have an extraordinary navigational ability using a combination of:
 **Training homing pigeons**:
 Begin training at 8-12 weeks of age. Start with short releases (1-2 km from loft), gradually increasing distance. Train in good weather first. A well-trained homer can return from 500-1000+ km. Racing pigeons average 60-80 km/h over moderate distances. For messaging: attach a small tube or capsule to the leg or a lightweight message carrier on the back (maximum 20-30 g payload). One-way communication only — the bird returns to its home loft.
 
-### Health and Disease
+## Health and Disease
 
 Pigeons are generally hardy but susceptible to several conditions:
 - **Paramyxovirus (PMV)**: Neurological disease causing twisting of the neck, incoordination, and death. Preventable by vaccination. Highly contagious — vaccinate all birds annually.
@@ -143,7 +143,7 @@ Pigeons are generally hardy but susceptible to several conditions:
 **Lifespan**:
 Domestic pigeons live 10-15 years in managed conditions. Breeding productivity declines after 5-7 years. Cull non-productive breeders for meat and replace with younger stock.
 
-### Growth and Processing
+## Growth and Processing
 
 **Squab processing**:
 Kill by cervical dislocation or knife. Pluck feathers (squab have few feathers at 26-30 days — mostly pin feathers that pluck easily). Eviscerate. Dressed yield: 65-70% of live weight. The carcass is compact with large, well-developed breast muscles. Squab meat is dark, tender, and rich — often considered a delicacy. Cook by roasting, braising, or grilling. One squab serves one person as a main course.
@@ -151,7 +151,7 @@ Kill by cervical dislocation or knife. Pluck feathers (squab have few feathers a
 **Feed conversion**:
 Because parents feed squab from their own foraged or supplemented diet, the effective feed conversion for squab is difficult to measure precisely. Approximately 3-4 kg of adult feed produces 1 kg of squab (live weight). This is competitive with chickens and significantly better than turkeys, especially considering that free-flight pigeons forage much of their own feed.
 
-### Cross-Domain Links
+## Cross-Domain Links
 
 - **[animals.poultry](poultry.md)** — shared poultry infrastructure, biosecurity, and feed formulation
 - **[animals.domestication](domestication.md)** — general animal husbandry principles
@@ -160,7 +160,7 @@ Because parents feed squab from their own foraged or supplemented diet, the effe
 - **[knowledge.communication](../knowledge/index.md)** — homing pigeons for message delivery
 - **[plants.agriculture](../plants/index.md)** — pigeon guano fertilizer for crop production
 
-### Safety
+## Safety
 
 **Zoonotic diseases**:
 Pigeons can carry psittacosis (ornithosis, *Chlamydia psittaci*), causing flu-like illness in humans. Rare with good hygiene but wear a mask when cleaning heavily soiled lofts. Histoplasmosis (fungal disease from accumulated droppings) is a risk in poorly ventilated, damp lofts with thick guano buildup — keep lofts clean and dry.
@@ -172,7 +172,7 @@ Pigeons are docile and easily hand-tamed. Catch by reaching over the back and gr
 Pigeons on free flight are vulnerable to hawks, falcons, and cats. Loft-kept birds are safe if the structure is predator-proof. The main predator threat is rats and weasels entering through small openings — mesh all ventilation openings with 1 cm wire mesh. Secure all doors and access panels at night.
 The combination of self-foraging behavior (reducing daily feeding labor to zero for free-flight lofts), premium fertilizer production (4-5% nitrogen guano), and gourmet meat (squab at 350-500 g per bird) makes pigeons uniquely suited to resource-constrained environments where labor is scarce and feed costs must be minimized. A free-flight pigeon loft is the only livestock system where the animals harvest 100% of their own feed while producing multiple valuable products — a true minimum-intervention, maximum-output production system.
 
-### Historical Development
+## Historical Development
 
 Rock doves (*Columba livia*) were domesticated in the Mediterranean region over 5,000 years ago, making pigeons one of the earliest domesticated bird species. Archaeological evidence from Mesopotamia (circa 3000 BCE) shows pigeon keeping in dovecotes.
 
@@ -186,7 +186,7 @@ The invention of the telegraph (1830s) and later the telephone (1870s) gradually
 
 Organized pigeon racing emerged in Belgium in the early 1800s and became a major sport. Modern racing pigeons sell for $100-10,000 for proven breeders, with the record price exceeding $400,000 for a champion racer sold in China in 2020.
 
-### Processing and Products
+## Processing and Products
 
 **Squab processing**: Squab are harvested at 26-30 days (before fledging) at 350-550 g dressed weight. Process by cervical dislocation or knife, pluck (few feathers at this age — mostly pin feathers that pull easily), eviscerate. Dressed yield: 65-70% of live weight.
 
@@ -200,7 +200,7 @@ For liquid fertilizer application, steep 500 g dried guano in 10 L water for 24-
 
 **Feather uses**: Pigeon feathers are soft and downy, suitable for pillow stuffing and insulation. A single pigeon yields 15-25 g of mixed feathers. Pigeon primary flight feathers were historically used as quill pens for fine writing before being superseded by goose quills.
 
-### Record Keeping
+## Record Keeping
 
 **Pair production tracking**: Record squab produced per pair per year. Target: 10-14 squab pairs per year for King pigeons, 8-10 for Mondains. A pair producing fewer than 6 squab in 6 months should be evaluated for replacement.
 
@@ -214,7 +214,7 @@ Track days between clutches for each pair. Target: a new clutch every 5-6 weeks.
 
 **Health records**: Record all mortality with date, age, and symptoms. Target annual mortality: under 10% for adult breeders. Investigate any month with mortality exceeding 2% of the flock — paramyxovirus and canker are the most common causes of elevated losses.
 
-### Regional Adaptations
+## Regional Adaptations
 
 **Mediterranean and arid climates**: Pigeons thrive in hot, dry conditions (35-45°C) with minimal water. In the Middle East and North Africa, traditional dovecotes (burj al-hamam) house 500-2,000 pairs with zero supplemental feed — birds forage entirely on wild seeds and agricultural waste within a 5 km radius.
 
@@ -226,7 +226,7 @@ Shorter winter daylight (under 10 hours) reduces or halts breeding in temperate 
 
 **Urban and settlement integration**: Pigeons are uniquely suited to urban environments — they nest on building ledges, forage on waste grain and food scraps, and require minimal land area. A rooftop loft measuring 4 × 3 m can house 30-50 breeding pairs producing 240-700 squab per year in a space that no other livestock could utilize.
 
-### Production Metrics
+## Production Metrics
 
 **Squab production**: A productive King pigeon pair produces 10-14 squab per year (5-7 clutches × 2 squab). Each squab reaches 450-550 g dressed weight at 26-30 days — annual meat per pair: 4.5-7.7 kg dressed. A loft of 20 pairs produces 200-280 squab per year (90-154 kg dressed meat) while consuming 584 kg of grain ($234-350). At $8-15/kg, annual squab revenue: $720-2,310. Net margin: $282-1,875 per loft — one of the highest revenue-per-square-meter ratios of any livestock enterprise.
 

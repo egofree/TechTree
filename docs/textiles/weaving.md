@@ -31,7 +31,7 @@ Weaving interlaces warp (lengthwise) and weft (crosswise) yarns to create cloth 
 - Treadle loom requires 20-30 board-feet of hardwood and iron hardware (ratchets, pins, bearings)
 - Warp threads break under tension — each broken thread must be hand-tied before weaving continues
 
-### Treadle Loom Construction Plans
+## Treadle Loom Construction Plans
 
 Building a floor loom requires ~20-30 board-feet of hardwood (ash, oak, or maple preferred) and basic iron hardware.
 
@@ -58,7 +58,7 @@ Building a floor loom requires ~20-30 board-feet of hardwood (ash, oak, or maple
 - Iron ratchet mechanisms need a foundry or blacksmith for the pawl, ratchet wheel, and bolts
 - Reed at 12 dpi needs ~470 individual cane or metal dents — time-consuming to make by hand
 
-### Heddle Making
+## Heddle Making
 
 Heddles are the loops that hold individual warp threads and allow them to be raised and lowered in groups:
 
@@ -66,7 +66,7 @@ Heddles are the loops that hold individual warp threads and allow them to be rai
 - **[Wire heddles](../glossary/wire-heddles.md)** (standard production): Bend thin iron or brass wire (0.5-0.8 mm diameter) into flat loops with a centered eye. Wire heddles are thinner, more durable, and faster to make with a simple bending jig. A wire-heddle bending jig: wooden block with steel pins that form the wire shape; lever press bends each heddle in seconds. Wire heddles last for years of continuous use; string heddles stretch and break with heavy use.
 - **[Rigid heddle](../glossary/rigid-heddle.md)** (single-shaft loom): A flat frame with alternating slots and holes. Warp threads pass through either a slot (moves with the frame) or a hole (raises/lowers when the frame is lifted/dropped). Simplest shedding mechanism — one rigid heddle replaces all individual heddles and shafts for plain weave. Width: 30-100 cm. Materials: flat cane, bamboo, or plastic (historically: reed, bone, or wood). Produces plain weave only. Good for beginners and simple fabrics.
 
-### Reed Making
+## Reed Making
 
 The reed is a comb-like beater that spaces warp threads evenly and packs weft against the fell:
 
@@ -74,7 +74,7 @@ The reed is a comb-like beater that spaces warp threads evenly and packs weft ag
 - **Construction**: Split cane or flattened bamboo dents (0.5-1 mm thick, 5-8 mm wide) set between two wooden half-round bars (the reed frame). Dents are spaced and held in place by pitch or tar between the bars. Alternatively, thin iron or brass strips can replace cane for durability. A 100 cm reed at 12 dpi requires ~470 individual dents.
 - **Alternative (temporary)**: Use a smooth wooden comb or carved wooden beater with carved teeth for low-production or field use. Less precise spacing but functional.
 
-### Weave Structures
+## Weave Structures
 
 **Basic weaves**:
 - **Tabby (plain weave)**: Over 1, under 1, alternating. Simplest, strongest, least flexible. For canvas, sheeting, bandages. 2 shafts required. Balanced tabby (same yarn weight for warp and weft) produces uniform, stable cloth.
@@ -98,7 +98,7 @@ The reed is a comb-like beater that spaces warp threads evenly and packs weft ag
 - Complex structures (double weave, leno) require 8+ shafts and special heddles
 - Each additional shaft adds mechanical complexity to the treadle tie-up
 
-### Warping Procedure
+## Warping Procedure
 
 Preparing the warp (lengthwise) threads before they go on the loom:
 
@@ -108,7 +108,7 @@ Preparing the warp (lengthwise) threads before they go on the loom:
 4. **Threading order**: Transfer warp to loom. Thread each warp end through a heddle (one per shaft) in the pattern sequence — for plain weave: shaft 1, shaft 2, repeat. For twill: shaft 1, 2, 3, 4, repeat. Sley through reed (determine ends per inch / dent spacing) for proper cloth width.
 5. **Tie onto front beam**: Divide warp into 1-inch bundles. Tie each bundle to the cloth beam with even tension. Check tension by plucking — all bundles should sound the same pitch.
 
-### Shuttle Construction
+## Shuttle Construction
 
 Tools for passing weft yarn through the shed:
 
@@ -117,7 +117,7 @@ Tools for passing weft yarn through the shed:
 - **Ski shuttle**: For heavy weft yarns (rag rugs, bulky wool). Flat bottom, upturned front end. Slides across warp.
 - **Rag shuttle**: Wide flat shuttle for weaving rag strips (rag rugs). Holds pre-cut fabric strips. Width: 15-20 cm to accommodate folded rag strips.
 
-### Sailcloth Specifications
+## Sailcloth Specifications
 
 Canvas weights for maritime applications:
 
@@ -130,7 +130,7 @@ Canvas weights for maritime applications:
 
 Hemp canvas preferred for sails (rot-resistant, strong when wet) until cotton canvas replaced it in the 19th century. Flax canvas was the Mediterranean standard for millennia. All sailcloth must be fulled and proofed (treated with tar, wax, or oil) for water resistance.
 
-### Fabric Finishing Basics
+## Fabric Finishing Basics
 
 Woven cloth straight off the loom ("loomstate" or "greige" goods) requires finishing to become usable fabric:
 
@@ -139,7 +139,7 @@ Woven cloth straight off the loom ("loomstate" or "greige" goods) requires finis
 - **Stretching (tentering)**: Stretch damp cloth on a tenter frame (wooden frame with hooks on adjustable bars spaced every 2-5 cm along both edges). Cloth dries under tension to the desired width and straight grain. Tenter hooks give us the phrase "on tenterhooks." Dry in shade — sun yellows wool and fades dyed cloth.
 - **Pressing**: Iron or press with a flat stone or heavy wooden beam to set the cloth flat and smooth the surface.
 
-### Power Loom Transition
+## Power Loom Transition
 
 Mechanizing the hand loom was one of the central achievements of the Industrial Revolution:
 
@@ -148,7 +148,7 @@ Mechanizing the hand loom was one of the central achievements of the Industrial 
 - **Northrop automatic loom (1894)**: Automatically replaced empty bobbins in the shuttle without stopping the loom. Eliminated the need for a skilled weaver to stop and reload. One weaver could tend 12-16 Northrop looms. The basis of 20th-century weaving. Required precision-manufactured bobbins and shuttle boxes.
 - **Shuttleless looms (1950s+)**: Projectile (Gripper), rapier, and air-jet looms eliminate the shuttle entirely — weft is carried across by a projectile, flexible rapier, or puff of air. Higher speed (300-600 picks/minute vs. 150-200 for shuttle looms), quieter, less waste. The modern standard.
 
-### Cloth Quality Inspection
+## Cloth Quality Inspection
 
 Systematic inspection catches defects before cloth is cut or sold:
 
@@ -161,7 +161,7 @@ For dyeing processes (mordanting, indigo vat, dye plant cultivation, fastness te
 
 ---
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Loom machinery**: Power looms have numerous pinch points where warp threads, heddles, and shuttle mechanisms move rapidly. Guard moving parts. Keep hands clear during operation. Emergency stop mechanism required.
 - **Shuttle injuries**: Flying shuttles move at speed and can injure if loom is improperly adjusted or shuttle escapes track. Maintain shuttle race in good condition. Early power loom shuttles regularly "flew" — guard bars were added to prevent this.
@@ -173,7 +173,7 @@ For dyeing processes (mordanting, indigo vat, dye plant cultivation, fastness te
 
 *Dependencies: [Spinning](spinning.md) for yarn, [Fiber Preparation](fibers.md) for raw fiber, [Finishing](finishing.md) for post-weave processing*
 
-### Loom Construction Plans
+## Loom Construction Plans
 
 **Timber selection**: Oak or ash for the frame members. These hardwoods resist warping and provide the rigidity needed to withstand warp tension. A 100 cm weaving width loom requires approximately 25-30 board-feet of hardwood. Avoid softwoods (pine, spruce) for structural members — they compress under sustained load and the loom goes out of alignment.
 
@@ -195,7 +195,7 @@ For dyeing processes (mordanting, indigo vat, dye plant cultivation, fastness te
 - Steel dents (0.3-0.5 mm thick flat wire) set in wooden baulks at specified density. A 12 dpi reed requires ~470 dents per 100 cm width. Dents are spaced with a setting jig (a comb-like tool with teeth at the desired spacing) and secured with pitch or epoxy between the baulks.
 - Alternative: split cane or bamboo dents for areas where steel wire is unavailable. Cane dents are 0.5-1 mm thick, less durable, and produce a slightly less uniform beat. Serviceable for production use, with a lifespan of 1-3 years of heavy use before replacement.
 
-### Complex Weave Structures
+## Complex Weave Structures
 
 **[Twill](../glossary/twill.md)** (2/2 interlacing): Each weft thread passes over two warp threads and under two, with the interlacing point shifting one thread on each successive pick. This creates the characteristic diagonal rib visible on the fabric surface. The diagonal angle depends on the ratio of warp density to weft density: equal densities produce a 45° diagonal. Twill drapes better than plain weave because the longer floats allow more yarn mobility. 4 shafts minimum for basic 2/2 twill. Variants: 1/3 twill (steeper diagonal, one side smoother), 2/1 twill (unbalanced, one side dominant).
 
@@ -205,14 +205,14 @@ For dyeing processes (mordanting, indigo vat, dye plant cultivation, fastness te
 
 **Double-weave**: Two separate cloth layers woven simultaneously on the same loom, connected at one or both edges to form a tube, or at intervals to create pockets. Uses twice as many shafts as a single layer. Produces: tube fabric (bags, sleeves, belts), double-width cloth (wider than the loom's nominal weaving width), and double-thickness cloth for heavy applications. 8+ shafts for basic double-weave.
 
-### Fabric Finishing Detail
+## Fabric Finishing Detail
 
 **[Wet finishing](../glossary/wet-finishing.md)** (loom-state cloth): Cloth fresh off the loom contains spinning oils, sizing residue, and loose fiber ends. The weave structure has not yet "settled" — the yarns are straight and parallel, not fully interlocked. Wet finishing remedies this:
 - **[Fulling](../glossary/fulling.md)** (wool): Agitate cloth in hot water (40-60°C) with mild alkali. The scales on wool fibers open and interlock (felting), causing the cloth to shrink 15-25% in length and width. Fulling densifies the fabric, makes it warmer and more windproof, and locks the weave structure permanently. Control the shrinkage carefully — over-fulling produces stiff, narrow cloth.
 - **Washing/scouring** (cotton and linen): Wash in hot water (60-80°C) with soap or soda ash to remove spinning oil, warp sizing (starch or flour paste applied to warp for strength during weaving), and dirt. Cotton and linen shrink 3-8% in the first wash. Multiple wash cycles may be needed for heavily sized warps.
 - **Calendering**: Press the dried, finished cloth between heated rollers (calender) to smooth the surface and impart a slight sheen. Not essential but improves the hand (feel) and appearance. A flat stone or heavy wooden beam dragged across the cloth on a flat table is the simplest calendering method.
 
-### Power Loom Performance Comparison
+## Power Loom Performance Comparison
 
 | Loom Type | Year | Picks/min | Weavers per loom | Notes |
 |-----------|------|-----------|-------------------|-------|
@@ -223,7 +223,7 @@ For dyeing processes (mordanting, indigo vat, dye plant cultivation, fastness te
 | Shuttleless (rapier) | 1970s | 300-450 | 1 tending 4-8 | No shuttle, higher speed |
 | Air-jet | 1980s+ | 600-1000 | 1 tending 4-8 | Fastest, limited to short weft |
 
-### Cloth Quality Inspection Detail
+## Cloth Quality Inspection Detail
 
 Inspect each piece of finished cloth for defects before grading:
 

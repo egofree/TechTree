@@ -34,7 +34,7 @@ where E is Young's modulus (~200 GPa for stainless steel), t is wall thickness, 
 
 **Spherical vs. cylindrical**: Spherical chambers are the most efficient shape for vacuum (uniform stress distribution, minimum surface area for given volume). But they are expensive to manufacture and difficult to fit with ports and viewports. Most semiconductor vacuum chambers are cylindrical with dished (ellipsoidal or torispherical) end caps, or rectangular (for batch processing tools with internal wafer transport).
 
-### Chamber Materials
+## Chamber Materials
 
 **Stainless steel 304L (primary material)**:
 
@@ -63,7 +63,7 @@ where E is Young's modulus (~200 GPa for stainless steel), t is wall thickness, 
 - **Disadvantages**: Porous to helium (He permeation rate ~10⁻⁹ Pa·L/s per cm² at room temperature — problematic for He leak detection, as He diffuses through the chamber walls, creating a false background signal). Aluminum develops a surface oxide (Al₂O₃) that is very stable but relatively thick (~5-10 nm), providing adsorption sites for water vapor. Cannot be easily welded to stainless steel flanges (thermal expansion mismatch, galvanic corrosion).
 - **Sealing approach**: Aluminum chambers typically use wire seals (aluminum, indium, or copper wire in a groove) rather than CF knife-edge seals, because aluminum is too soft to maintain the knife edges. Or use stainless steel flanges brazed or transition-fit onto aluminum chamber bodies.
 
-### Flange Systems
+## Flange Systems
 
 **CF (ConFlat) flanges — the UHV standard**:
 
@@ -93,7 +93,7 @@ where E is Young's modulus (~200 GPa for stainless steel), t is wall thickness, 
 - **Design**: Similar to KF but for larger diameters (DN63 through DN500). Uses a rubber O-ring on a metal carrier ring, held by claw clamps that engage grooves in the flange OD.
 - **Application**: Main pump lines, large foreline manifolds, roughing lines for large chambers.
 
-### Viewports
+## Viewports
 
 **Purpose**: Optical access to the vacuum chamber interior for visual inspection, optical pyrometry, laser entrance/exit, and UV curing.
 
@@ -110,7 +110,7 @@ where E is Young's modulus (~200 GPa for stainless steel), t is wall thickness, 
 
 **Design considerations**: Viewports are the weakest point in a UHV system — the glass-to-metal seal can develop micro-cracks from thermal cycling, and the glass itself can fracture from mechanical shock. Install viewports on the side or top of the chamber (not the bottom, where they are vulnerable to dropped objects). Protect viewport exteriors with removable caps when not in use. Never touch viewport glass with bare hands (skin oils deposit a film that is difficult to clean and absorbs UV). Clean viewports with acetone followed by IPA on lint-free wipes.
 
-### Gate Valves
+## Gate Valves
 
 **Purpose**: Isolate the high-vacuum pump from the chamber, allowing the pump to remain under vacuum while the chamber is vented (or vice versa). Essential for: (1) protecting turbo pumps from sudden pressure bursts during chamber venting, (2) allowing pump maintenance without venting the entire system, and (3) load lock isolation.
 
@@ -123,7 +123,7 @@ where E is Young's modulus (~200 GPa for stainless steel), t is wall thickness, 
 
 **Conductance**: When open, a gate valve has nearly the full bore of the connected flange — very high conductance. This is why gate valves are preferred over angle valves on high-vacuum pump lines (where maximum conductance is critical).
 
-### Load Locks
+## Load Locks
 
 **Purpose**: Transfer samples into and out of the vacuum chamber without venting the main chamber to atmosphere. Every vent-and-repump cycle exposes the main chamber to water vapor and contaminants, requiring hours of pumping to recover base pressure. A load lock limits contamination to the small lock volume.
 
@@ -135,7 +135,7 @@ where E is Young's modulus (~200 GPa for stainless steel), t is wall thickness, 
 
 **Vent gas**: Always vent load locks with dry nitrogen (N₂) rather than atmospheric air. Dry N₂ leaves only a thin physisorbed N₂ layer on internal surfaces, which pumps away quickly. Atmospheric air deposits multiple monolayers of water vapor, requiring extended pumping. Connect a N₂ supply with a pressure regulator set to 1.0-1.2 bar absolute (slightly above atmospheric) and a 0.2 μm particle filter to prevent dust ingress.
 
-### Outgassing Rate Table — Materials for Chamber Design
+## Outgassing Rate Table — Materials for Chamber Design
 
 | Material | Outgassing Rate (Pa·m³/s·m²) | After 10h pumping | After 24h bake at 250°C | Notes |
 |---|---|---|---|---|
@@ -150,7 +150,7 @@ where E is Young's modulus (~200 GPa for stainless steel), t is wall thickness, 
 | Glass (borosilicate) | 10⁻⁷ | ~10⁻⁸ | ~10⁻⁹ | Viewport material |
 | Alumina ceramic | 10⁻⁷ | ~10⁻⁸ | ~10⁻⁹ | Electrical feedthrough insulator |
 
-### Virtual Leaks
+## Virtual Leaks
 
 A virtual leak is a trapped volume of gas inside the vacuum system that slowly releases into the chamber over time, causing slow pressure decay that mimics a real leak but cannot be detected by helium leak detection.
 
@@ -162,7 +162,7 @@ A virtual leak is a trapped volume of gas inside the vacuum system that slowly r
 
 **Diagnostic signature**: A virtual leak causes a characteristic pressure vs. time curve that follows 1/t decay (outgassing) rather than the exponential decay of a real leak. The system pressure asymptotically approaches a steady-state value that is higher than expected. Helium spray testing finds nothing. RGA shows atmospheric gas composition (N₂, O₂) rather than He.
 
-### Chamber Cleaning Protocol
+## Chamber Cleaning Protocol
 
 **New chamber preparation** (before first pump-down):
 1. **Degrease**: Wipe all interior surfaces with lint-free cloth soaked in acetone. Remove machining oils, cutting fluids, and handling residues. Acetone dissolves organic contaminants.
@@ -176,14 +176,14 @@ A virtual leak is a trapped volume of gas inside the vacuum system that slowly r
 2. **Stubborn deposits**: For thick metal deposits (e.g., aluminum from evaporation), soak with dilute NaOH solution (10%, room temperature, 5-10 minutes) — NaOH dissolves aluminum without attacking stainless steel. Rinse thoroughly with DI water, then IPA, then dry.
 3. **Plasma clean**: For organic contamination, run an O₂ plasma (100-300 W, 0.5-1 Torr, 10-30 minutes) in the chamber. Oxygen plasma oxidizes organic residues to CO₂ and H₂O, which are pumped away. The chamber must be equipped with an RF electrode for this.
 
-### Bake-Out Hardware
+## Bake-Out Hardware
 
 - **Heating tape**: Silicone rubber insulated heating tape (nichrome wire element) wrapped around the chamber exterior. Available in widths 10-50 mm, power density 0.5-2 W/cm². Attach with aluminum foil tape (good thermal contact). Cover with fiberglass insulation blanket (25-50 mm thick) to minimize heat loss.
 - **Band heaters**: Custom-fitted aluminum or stainless steel heating bands with embedded cartridge heaters. Better thermal contact than tape, more uniform heating. Used on production equipment.
 - **Temperature monitoring**: Attach Type K thermocouples to the chamber exterior at 4-8 locations (top, bottom, sides, flanges). Monitor during bake to ensure uniformity ±20°C. Hot spots above 300°C on stainless steel can cause sensitization (chromium carbide precipitation at grain boundaries) — avoid.
 - **Cooling**: After bake, turn off heaters and allow natural cooling under vacuum. Do not force-cool with fans (creates thermal gradients that warp flanges). Do not vent until chamber exterior is below 50°C.
 
-### Electrical Feedthroughs
+## Electrical Feedthroughs
 
 **Purpose**: Pass electrical signals and power through the vacuum chamber wall while maintaining vacuum integrity.
 
@@ -203,7 +203,7 @@ A virtual leak is a trapped volume of gas inside the vacuum system that slowly r
 
 **Design rule**: Always specify feedthroughs with more pins than currently needed. Adding a feedthrough to an existing chamber requires welding, which is expensive and risks damaging other components. Include 20-30% spare pins for future instrumentation.
 
-### Water Cooling Lines
+## Water Cooling Lines
 
 **Purpose**: Remove heat from chamber walls during processing (plasma processes generate significant heat: 100-5000 W at the chamber walls).
 
@@ -214,7 +214,7 @@ A virtual leak is a trapped volume of gas inside the vacuum system that slowly r
 - **Example**: Removing 1000 W with 5 L/min water flow: ΔT = 1000 / (4186 × 1000/60 × 0.005) = 2.9°C. Modest temperature rise — adequate cooling.
 - Water connections: Use Swagelok or compression fittings on the atmospheric side. Ensure water lines do not create a leak path into the vacuum chamber — all welds between cooling channels and the vacuum wall must be leak-tested.
 
-### Chamber Design Checklist
+## Chamber Design Checklist
 
 - [ ] Minimum internal surface area (smooth surfaces, no crevices, no blind holes)
 - [ ] All vacuum-side welds are full-penetration, ground smooth, and inspected

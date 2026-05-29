@@ -38,7 +38,7 @@ BSF farming closes the loop between waste and food production. Settlement waste 
 | Drying screens | Wire mesh on wooden frames, 1 × 2 m | 2-3 frames | For sun-drying harvested prepupae |
 | Storage containers | Sealed buckets or barrels with tight lids | 2-4 | For dried larvae; must be rodent-proof and dry |
 
-### Overview
+## Overview
 
 Insect farming with Black Soldier Fly (BSF, *Hermetia illucens*) converts organic waste into high-protein animal feed and nutrient-rich fertilizer using minimal land, water, and infrastructure. BSF larvae consume almost any organic matter — food waste, manure, brewery grain, slaughter byproducts — and convert it to body mass at remarkable efficiency: 1 tonne of biowaste yields 150-200 kg of fresh larvae in just 14-18 days.
 
@@ -46,7 +46,7 @@ Unlike bees (the only truly domesticated insect), BSF are managed rather than do
 
 BSF farming fills a critical niche in a bootstrapping civilization: it closes the nutrient loop by converting waste streams into animal feed protein, reducing dependence on wild-caught fish meal or imported soybean meal. The system scales from a single household bin (processing 5 kg waste per day) to industrial operations handling tonnes per day.
 
-### Life Cycle
+## Life Cycle
 
 **Egg**: Female flies lay 500-900 eggs in clusters near decaying organic matter, in crevices or on cardboard strips provided as ovitraps (egg-laying traps). Eggs are 1 mm long, cream-colored. Incubation: 3-5 days at 25-30°C.
 
@@ -65,7 +65,7 @@ The workhorse stage. Larvae are cream-colored, legless grubs reaching 20-25 mm l
 - Humidity: 60-80% for all stages. Below 50%, eggs desiccate; above 90%, fungal problems develop.
 - Substrate moisture: 65-75% for larval feed (squeezing a handful should yield a few drops of water).
 
-### BSF Bin Construction
+## BSF Bin Construction
 
 **Small-scale bin** (household, 5-10 kg waste/day):
 
@@ -83,7 +83,7 @@ Install a drain at the lowest point of the bin (pipe or channel) to collect leac
 **Medium-scale unit** (50-200 kg waste/day):
 Concrete or concrete-block construction, 3-5 m × 1-2 m × 0.6 m. Multiple ramp channels feeding into central collection troughs. Partition into sections for continuous production: one section receives fresh waste daily while another section's larvae mature and self-harvest. This rotation ensures continuous output. Cover with a roof structure for weather protection.
 
-### Feed Substrates
+## Feed Substrates
 
 BSF larvae consume nearly any organic matter except materials high in cellulose/lignin (woody material, paper) or toxic compounds.
 
@@ -109,7 +109,7 @@ BSF larvae consume nearly any organic matter except materials high in cellulose/
 
 **Preparation**: Chop or shred substrate to particles under 5 cm for fastest consumption. Mix wet and dry materials to achieve 65-75% moisture. Pre-composting for 1-2 days (allowing microbial breakdown to begin) increases palatability and larval growth rate by 10-20%.
 
-### Nutritional Profile and Processing
+## Nutritional Profile and Processing
 
 **Fresh whole larvae** (prepupae, ~44% dry matter):
 - Crude protein: 40-45% of dry weight
@@ -128,7 +128,7 @@ BSF larvae consume nearly any organic matter except materials high in cellulose/
 
 4. **Milling**: Grind dried larvae (whole or defatted) in a stone mill or hammer mill to produce protein meal. Particle size 0.5-2 mm for mixing into animal feed rations.
 
-### Products and Applications
+## Products and Applications
 
 **Live larvae** (fresh):
 - Direct feed for chickens, ducks, and pigs. Chickens consume 20-50 g larvae per day, providing 30-50% of their protein needs. Feed live by scattering in poultry range or in troughs.
@@ -154,7 +154,7 @@ BSF larvae consume nearly any organic matter except materials high in cellulose/
 - Apply at 1-2 kg/m² as soil amendment or top-dressing. Can be mixed into potting soil at 10-20% by volume.
 - Not as biologically active as vermicompost (see [soil management](../agriculture/soil-management.md)), but faster to produce and higher in mineral nutrients.
 
-### Comparison with Other Edible Insects
+## Comparison with Other Edible Insects
 
 | Feature | Black Soldier Fly | Mealworm (*Tenebrio molitor*) | House Cricket (*Acheta domesticus*) |
 |---------|-------------------|-------------------------------|-------------------------------------|
@@ -171,7 +171,7 @@ BSF larvae consume nearly any organic matter except materials high in cellulose/
 
 BSF excels at waste conversion and animal feed production. Mealworms and crickets are better suited for direct human consumption due to higher protein content and better flavor, but they require higher-quality feed (grain-based) and lack self-harvesting capability.
 
-### Colony Establishment and Management
+## Colony Establishment and Management
 
 **Obtaining starter colony**:
 Wild BSF are found on every continent except Antarctica in temperate and tropical regions. They naturally colonize compost piles, manure heaps, and decaying organic matter. To attract wild flies: place an open container of rotting fruit or kitchen waste in a warm, shaded outdoor location. Within 1-4 weeks (depending on local BSF population and season), wild females will lay eggs in the substrate. Provide ovitraps (corrugated cardboard strips) for egg collection. Transfer egg-laden cardboard to a prepared rearing bin with fresh substrate.
@@ -206,7 +206,7 @@ BSF larvae outcompete most other insects (including houseflies) for food resourc
 | Bad odor from bin | Anaerobic decomposition (waterlogged substrate); overfeeding (waste accumulates faster than larvae consume) | Improve drainage; reduce daily feed input; add dry carbon material; stir substrate gently to aerate |
 | Larvae escaping bin | Substrate too wet (larvae flee flooding); bin walls too low; overcrowding | Reduce moisture to 65-75%; raise bin walls to >50 cm; split colony into additional bins |
 
-### Bootstrap Sequence
+## Bootstrap Sequence
 
 1. **Wild-colonized compost** (Year 0-1): Begin by attracting wild BSF to compost heaps with food waste and manure. Observe life cycle. Collect prepupae by hand from compost pile edges. Feed directly to chickens. No infrastructure needed — BSF naturally colonize suitable organic matter in most climates.
 
@@ -228,7 +228,7 @@ BSF larvae outcompete most other insects (including houseflies) for food resourc
 - [Waste Management](../ehs/index.md) — organic waste processing and sanitation
 - [Chemistry: Oils & Fats](../chemistry/index.md) — BSF oil extraction and processing
 
-### Safety
+## Safety
 
 **Adult BSF are not pests**:
 Black Soldier Fly adults do not bite, sting, or carry diseases. They are not attracted to human food, living spaces, or garbage cans (they prefer decomposing organic matter for egg-laying). They are often mistaken for wasps due to their black-and-clear-wing appearance, but they are entirely harmless. BSF presence actually reduces housefly and blowfly populations by competitive exclusion.
@@ -248,6 +248,6 @@ BSF larvae bioaccumulate certain contaminants from their substrate: heavy metals
 - Do not feed BSF larvae raised on manure to other animals without drying or cooking (pathogen risk from substrate)
 - Dry larvae to below 10% moisture for safe long-term storage — above 15%, mold and aflatoxin risk increases rapidly
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Animals](index.md)

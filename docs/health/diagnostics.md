@@ -8,7 +8,6 @@
 > **Outputs**: diagnostic_capability, vital_signs_monitoring, laboratory_testing, imaging_capability
 > **Critical**: No — enhances treatment outcomes but medicine can function at a basic level without formal diagnostics
 
-## Overview
 
 Diagnostics covers physical examination, vital signs measurement, basic laboratory testing, and fundamental imaging. In a bootstrap medical system, diagnosis relies primarily on clinical observation and hands-on examination — the same approach that served medicine from Hippocrates through the 19th century. The stethoscope, thermometer, pulse oximeter (if electronics available), and basic blood/urine tests provide the majority of diagnostic information needed to guide treatment decisions.
 
@@ -16,7 +15,7 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 
 ## Prerequisites
 
-### Materials
+## Materials
 
 - Glass thermometers (mercury or alcohol): 0-50°C range, 0.1°C graduations
 - Stethoscope: see [medical-instruments](medical-instruments.md) for fabrication
@@ -26,7 +25,7 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 - Litmus paper or pH indicator strips
 - Clean collection containers (glass jars, urine cups)
 
-### Tools and Equipment
+## Tools and Equipment
 
 - Microscope (see [medical-instruments](medical-instruments.md)): 100× to 1000× magnification
 - Centrifuge (hand-cranked or electric): 1000-3000 RPM for separating blood components
@@ -34,7 +33,7 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 - Timer or clock with second hand: for pulse and respiration counting
 - Heat source: for preparing stains and reagents
 
-### Knowledge
+## Knowledge
 
 - Anatomy and physiology: organ systems, normal function, common pathology
 - Vital sign ranges: know normal values by age group
@@ -55,7 +54,7 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 
 ## Process Description
 
-### Vital Signs Assessment
+## Vital Signs Assessment
 
 1. **Measure temperature**: Place thermometer under the tongue (oral) for 3-5 minutes with mouth closed. Axillary (armpit) reading: add 0.5°C to approximate core temperature. Rectal: most accurate core temperature, add 0.3°C for oral equivalent. Normal: 36.5-37.5°C (oral). Fever: >38.0°C. Hypothermia: <35.0°C.
 2. **Count pulse (heart rate)**: Place two fingers (index and middle) on the radial artery at the wrist. Count beats for 30 seconds and multiply by 2 (or count for 60 seconds for irregular rhythms). Note rhythm (regular vs. irregular) and quality (strong, weak, thready).
@@ -77,7 +76,7 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 - Rectal and axillary temperatures require correction factors that introduce uncertainty
 - Pulse oximetry requires electronics and may not be available at earliest bootstrap stages
 
-### Basic Physical Examination
+## Basic Physical Examination
 
 1. **General inspection**: Observe the patient before touching. Note: level of consciousness (alert, confused, unresponsive), posture, skin color (pale, flushed, cyanotic, jaundiced), distress level (comfortable, mild, moderate, severe), nutritional state.
 2. **Head and neck**: Examine pupils (equal, round, reactive to light). Inspect conjunctiva for pallor (anemia) or jaundice (liver disease). Examine throat for redness, exudate, or swelling. Palpate neck lymph nodes (enlarged = infection or malignancy).
@@ -99,7 +98,7 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 - Many findings have low specificity (e.g., abdominal tenderness occurs in appendicitis, cystitis, mesenteric adenitis, and constipation)
 - Obese patients, uncooperative patients, and those with altered consciousness limit examination reliability
 
-### Basic Laboratory Tests
+## Basic Laboratory Tests
 
 1. **Urine dipstick (if reagent strips available)**: Dip strip in fresh urine, read at specified times. Test for: glucose (diabetes), protein (kidney disease), blood (stones, infection, tumor), leukocytes (UTI), nitrites (bacterial infection), pH, specific gravity.
 2. **Urine examination without reagents**: Visual inspection — color (pale yellow = normal; dark = dehydration; red = blood; brown = old blood or bilirubin). Odor (foul = infection; sweet/fruity = ketones/diabetes). Cloudiness (bacteria, crystals, or blood cells).
@@ -125,7 +124,7 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 
 ## Quantitative Parameters
 
-### Vital Signs — Normal Ranges by Age
+## Vital Signs — Normal Ranges by Age
 
 | Parameter | Adult | Child (6-12 yr) | Child (1-5 yr) | Infant (0-1 yr) | Critical Values (Adult) |
 |-----------|-------|-----------------|----------------|-----------------|----------------------|
@@ -136,7 +135,7 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 | Temperature (°C, oral) | 36.5-37.5 | 36.5-37.5 | 36.5-37.5 | 36.5-37.7 | <35.0 or >40.5 |
 | SpO₂ (%) | 95-100 | 95-100 | 95-100 | 95-100 | <90% |
 
-### Common Laboratory Reference Values
+## Common Laboratory Reference Values
 
 | Test | Normal Range | Unit | Low Indicates | High Indicates |
 |------|-------------|------|--------------|---------------|
@@ -149,7 +148,7 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 | Urine specific gravity | 1.005-1.030 | — | Overhydration | Dehydration |
 | Urine pH | 4.5-8.0 | — | Acidosis | UTI, alkalosis |
 
-### Diagnostic Sensitivity and Specificity (Common Tests)
+## Diagnostic Sensitivity and Specificity (Common Tests)
 
 | Test | Condition | Sensitivity | Specificity | Notes |
 |------|-----------|-------------|-------------|-------|
@@ -195,7 +194,7 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 
 ## Variations and Alternatives
 
-### Diagnostic Methods by Technology Level
+## Diagnostic Methods by Technology Level
 
 | Level | Methods Available | Conditions Diagnosable | Accuracy |
 |-------|-------------------|----------------------|----------|
@@ -204,20 +203,20 @@ The diagnostic chain progresses from simple observation (vital signs, inspection
 | Industrial (lab tests, BP cuff) | All above + blood smear, urine analysis, hemoglobin, blood pressure | Anemia, infection type, kidney disease, diabetes, hypertension | 70-80% |
 | Electronic (X-ray, ECG) | All above + plain radiography, electrocardiography | Fractures (radiographic), pneumonia extent, heart rhythm, cardiac ischemia | 85-90% |
 
-### Imaging Fundamentals
+## Imaging Fundamentals
 
 - **X-ray (plain radiography)**: Requires vacuum tube, high-voltage power supply, photographic film or phosphor screen. Ionizing radiation — see [radiation-safety](../ehs/radiation-safety.md). Useful for: fractures, pneumonia, pleural effusion, bowel obstruction (air-fluid levels), foreign bodies. Typical dose: chest X-ray = 0.1 mSv (10 days of natural background radiation).
 - **Ultrasound**: Requires piezoelectric crystals and electronics. Non-ionizing — safe for pregnancy. Useful for: abdominal masses, cardiac function (echocardiography), pregnancy (fetal monitoring), vascular assessment, guiding needle aspiration. Resolution: 1-2 mm for superficial structures, decreasing with depth.
 - **ECG (electrocardiography)**: Records electrical activity of the heart. Requires electrodes, amplifier, and recording device. 12-lead ECG: standard diagnostic. Single-lead (portable): screening. Detects: arrhythmias, myocardial infarction, conduction blocks, electrolyte abnormalities (peaked T waves in hyperkalemia). Paper speed: 25 mm/s. Calibration: 10 mm/mV.
 
-### Neurological Assessment
+## Neurological Assessment
 
 1. **Level of consciousness**: Use AVPU scale — Alert (awake, talking), responds to Voice, responds to Pain, Unresponsive. Document baseline at admission and reassess with any change. More detailed: Glasgow Coma Scale (GCS) — Eye opening (1-4), Verbal response (1-5), Motor response (1-6). GCS 15 = normal. GCS ≤8 = intubation required (cannot protect airway).
 2. **Pupil examination**: Shine light into each eye separately. Normal: equal, round, reactive to light (3-5 mm, constrict to 1-2 mm). Unequal pupils (anisocoria >1 mm): consider intracranial pressure elevation, brain herniation, or direct orbital trauma. Fixed and dilated: ominous — cranial nerve III compression.
 3. **Motor examination**: Test grip strength in both hands simultaneously (have patient squeeze your fingers). Compare side to side. Asymmetric weakness suggests stroke or spinal cord lesion. Test plantar flexion/dorsiflexion of feet. Babinski sign (toes extend upward when sole stroked): abnormal in adults — upper motor neuron lesion.
 4. **Sensory examination**: Test light touch (cotton wisp), pinprick (sterile needle), and vibration (tuning fork 128 Hz) in all four extremities. Map any area of sensory loss to dermatome level to localize spinal cord or nerve root lesion.
 
-### Emergency Triage Assessment
+## Emergency Triage Assessment
 
 Rapid assessment framework for sorting patients by severity when resources are limited:
 
@@ -229,7 +228,7 @@ Rapid assessment framework for sorting patients by severity when resources are l
 | Expectant | Unsurvivable injuries (massive head trauma, >80% full-thickness burns) | Blue | Comfort measures only |
 | Minor | Walking wounded, minor wounds, sprains | White | Self-care or minimal treatment |
 
-### Fluid and Electrolyte Assessment
+## Fluid and Electrolyte Assessment
 
 Dehydration severity guides fluid resuscitation:
 
@@ -239,7 +238,7 @@ Dehydration severity guides fluid resuscitation:
 | Moderate | Tachycardia, decreased skin turgor, sunken eyes, oliguria | 5-10% | 2-4 L | IV fluids: NS or RL 20-30 mL/kg over first hour |
 | Severe | Hypotension, altered consciousness, anuria, shock | >10% | >4 L | Aggressive IV: 40-60 mL/kg over first hour; monitor for fluid overload |
 
-## References
+## See Also
 
 - [Medicine & Surgery](medicine.md) — clinical decision-making based on diagnostic findings
 - [Medical Instruments](medical-instruments.md) — stethoscope, thermometer, microscope fabrication
@@ -249,6 +248,6 @@ Dehydration severity guides fluid resuscitation:
 - [Glass](../glass/index.md) — thermometer, microscope slide, laboratory glassware
 - [Toxicology](../ehs/toxicology.md) — diagnostic testing for toxic exposures
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*
+
+[← Back to Health](index.md)

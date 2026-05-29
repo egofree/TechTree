@@ -8,7 +8,7 @@
 > **Outputs**: cement, concrete, reinforced_concrete
 > **Critical**: Yes — Portland cement is the second most consumed material on Earth after water. Reinforced concrete is the structural backbone of all industrial infrastructure: factory foundations, dams, roads, chemical plants, and semiconductor fabs.
 
-### Portland Cement Manufacture
+## Portland Cement Manufacture
 
 **Raw materials**:
 - **[Limestone](../glossary/limestone.md)** (CaCO₃): 60-65% of raw mix. Provides CaO. Mine, crush to <20 mm.
@@ -31,7 +31,7 @@
 
 **Weaknesses**: Extremely energy-intensive (3-5 GJ/t clinker, 1450°C kiln); responsible for ~8% of global CO₂ emissions; heavy and bulky — transport beyond 200-300 km is uneconomical; quality requires precise raw material proportioning and kiln temperature control; water/cement ratio must be tightly controlled for structural strength.
 
-### Concrete Production
+## Concrete Production
 
 **[Mix design](../glossary/mix-design.md)** (by volume, typical structural concrete):
 - **Cement**: 1 part
@@ -53,7 +53,7 @@
 - **Early strength**: 1 day ≈ 20-30% of final. 7 days ≈ 65-70%. **28 days = design strength** (20-50 MPa depending on mix).
 - **Moist curing is critical**: Keep concrete wet (cover with damp burlap, pond with water, or seal with plastic sheet) for minimum 7 days. Early drying causes capillary pores to empty → microcracks → dramatic strength loss (30-50% reduction). Concrete continues gaining strength for months/years if moisture is present.
 
-### Reinforced Concrete
+## Reinforced Concrete
 
 Concrete excels in compression but fails in tension at only 2-5 MPa (roughly 10% of compressive strength). Steel rebar handles the tension.
 
@@ -65,7 +65,7 @@ Concrete excels in compression but fails in tension at only 2-5 MPa (roughly 10%
 
 **Corrosion protection**: Steel in alkaline concrete (pH 12-13) forms passive oxide film — naturally protected. Carbonation (CO₂ penetration) and chloride ions (de-icing salt, seawater) destroy passivation → rust → expansion → concrete spalls. Solutions: adequate cover, dense low-permeability concrete (low water-cement ratio), epoxy-coated rebar for aggressive environments.
 
-### Alternative Cements
+## Alternative Cements
 
 **[Lime mortar](../glossary/lime-mortar.md)** (pre-Portland, simplest):
 - **Manufacture**: Heat limestone (CaCO₃) to 900-1000°C in lime kiln → quicklime (CaO). Slake with water → slaked lime (Ca(OH)₂). Mix with sand at 1:2.5-3 (lime:sand by volume).
@@ -91,7 +91,7 @@ Concrete excels in compression but fails in tension at only 2-5 MPa (roughly 10%
 
 **Weaknesses**: Much more expensive than Portland cement (bauxite feedstock); loss of strength over time ("conversion" of hydrated phases) in warm, humid conditions; requires higher kiln temperature (1400-1600°C vs. 1450°C); limited to specialty applications due to cost and long-term durability concerns.
 
-### Concrete Properties
+## Concrete Properties
 
 | Property | Typical Range | Notes |
 |----------|--------------|-------|
@@ -103,7 +103,7 @@ Concrete excels in compression but fails in tension at only 2-5 MPa (roughly 10%
 | Thermal conductivity | 1.0-1.8 W/(m·K) | Moderate — provides fire resistance (2-4 hour rating for structural members) |
 | Shrinkage | 0.03-0.08% | Occurs over months as concrete dries. Reinforcement controls cracking |
 
-### Key Applications
+## Key Applications
 
 - **Factory foundations**: Heavy machine tools require massive, vibration-damping pads (1-3 m thick). Low water-cement ratio (0.45) for strength and minimal shrinkage.
 - **Dams**: Gravity dams rely on mass concrete (millions of cubic meters). Low heat of hydration mixes (high pozzolan content) prevent thermal cracking.
@@ -111,7 +111,7 @@ Concrete excels in compression but fails in tension at only 2-5 MPa (roughly 10%
 - **Chemical plant flooring**: Acid-resistant concrete (use calcium aluminate cement + acid-resistant aggregate).
 - **Vibration isolation**: Inertia blocks for precision equipment (silicon wafer processing stages, precision grinders). Heavy concrete masses on isolation pads.
 
-### Raw Material Preparation
+## Raw Material Preparation
 
 **Limestone quarrying**: Open-pit mining of high-calcium limestone (CaCO₃ >90%). Drill and blast, then load into trucks with excavators. Primary crushing to <150 mm (jaw crusher), secondary crushing to <25 mm (hammer or cone crusher). Typical limestone consumption: 1.3-1.5 tonnes per tonne of clinker.
 
@@ -121,7 +121,7 @@ Concrete excels in compression but fails in tension at only 2-5 MPa (roughly 10%
 
 **Homogenization**: Raw meal stored in silos with air-fluidized mixing to ensure chemical uniformity. Variations in CaCO₃ content cause kiln instability and clinker quality problems.
 
-### Rotary Kiln Detail
+## Rotary Kiln Detail
 
 **Kiln design**: The heart of cement production. A steel tube 50-80 m long, 3-5 m diameter, lined with refractory brick, rotating at 1-4 RPM (supported on rollers at 2-3 points), inclined 3-4° from horizontal. Feed enters the upper (cold) end, flame and combustion gases enter the lower (hot) end. Material moves through by gravity and rotation.
 
@@ -136,11 +136,11 @@ Concrete excels in compression but fails in tension at only 2-5 MPa (roughly 10%
 
 **Fuel options**: Coal (pulverized, most common globally), natural gas, heavy fuel oil, petroleum coke, waste tires, municipal solid waste-derived fuel. Fuel consumption: 3.0-3.5 GJ/tonne clinker (modern dry process), 5.0-6.5 GJ/tonne (wet process). Kiln burner: 40-120 MW thermal input for a 3000 tonnes/day kiln.
 
-### Clinker Grinding
+## Clinker Grinding
 
 Clinker is cooled, stored, then ground with 3-5% gypsum (CaSO₄·2H₂O) in a cement mill (ball mill or vertical roller mill). Gypsum controls setting time — without it, C₃A reacts rapidly with water, causing flash set (concrete hardens in minutes instead of hours). Grinding to Blaine fineness 300-400 m²/kg (ordinary Portland cement). Finer grinding (500+ m²/kg) produces rapid-hardening cement. Particle size distribution: 1-100 µm, median ~15 µm. Energy: 30-50 kWh/tonne cement.
 
-### Concrete Technology
+## Concrete Technology
 
 **[Admixtures](../glossary/admixtures.md)** (chemical additives mixed into concrete to modify properties):
 - **[Plasticizers](../glossary/plasticizers.md)** (water reducers): Lignosulfonates or polycarboxylate ethers. Reduce water content 5-15% while maintaining workability → higher strength (lower water/cement ratio).
@@ -153,7 +153,7 @@ Clinker is cooled, stored, then ground with 3-5% gypsum (CaSO₄·2H₂O) in a c
 
 **Mix design**: Typical 25 MPa concrete: 350 kg cement, 180 kg water (w/c = 0.51), 700 kg fine aggregate (sand), 1100 kg coarse aggregate (gravel) per m³. Higher strength (50 MPa): reduce w/c to 0.35-0.40, increase cement to 400-450 kg/m³, use superplasticizer.
 
-### Specialty Cements
+## Specialty Cements
 
 - **Oil-well cement**: Retarded setting (downhole temperatures 50-200°C, pressures up to 100 MPa). Class G or H cement with retarders (lignosulfonate, cellulose derivatives).
 - **White cement**: Made from pure white limestone and kaolin clay (low Fe₂O₃ <0.4%). Fired with natural gas or oil (no coal ash contamination). 3× cost of OPC. Architectural applications.
@@ -161,7 +161,7 @@ Clinker is cooled, stored, then ground with 3-5% gypsum (CaSO₄·2H₂O) in a c
 - **Sulfate-resistant cement**: Low C₃A content (<5%). Resists sulfate attack from groundwater and seawater. For foundations in sulfate-bearing soils.
 - **Low-heat cement**: High C₂S, low C₃S and C₃A. Slower hydration generates less heat — prevents thermal cracking in mass concrete pours (dams, large foundations).
 
-### Construction Applications
+## Construction Applications
 
 - **Foundations**: Machine pads (vibrate-isolated, precision-leveled), building footings, bridge abutments.
 - **Dams**: Mass concrete (low-heat cement, aggregate cooling with ice water, post-cooling with embedded water pipes to control thermal cracking). Hoover Dam: 3.25 million m³ concrete.
@@ -169,11 +169,11 @@ Clinker is cooled, stored, then ground with 3-5% gypsum (CaSO₄·2H₂O) in a c
 - **Tanks and pipes**: Water tanks, sewage digesters, pressure pipes — often prestressed concrete (steel tendons under tension compress the concrete, preventing cracking under internal pressure).
 - **Reinforced concrete**: Steel rebar embedded in concrete provides tensile strength (concrete alone has ~10× higher compressive than tensile strength). Rebar: 10-40 mm diameter deformed bars, yield strength 400-500 MPa. Cover depth: 25-50 mm (protects steel from corrosion).
 
-### Environmental Impact
+## Environmental Impact
 
 Cement production is responsible for ~8% of global CO₂ emissions. Sources: calcination (CaCO₃ → CaO + CO₂) produces ~50% of emissions (process-inherent, cannot be eliminated without alternative chemistry). Fuel combustion: ~40%. Electricity: ~10%. Mitigation strategies: (1) clinker substitution with fly ash (coal power plant waste), slag (steel mill waste), or limestone filler — reduces clinker factor from 0.95 to 0.60-0.70. (2) Alternative fuels (waste-derived). (3) Carbon capture and storage (CCS) on kiln exhaust — technically feasible but not yet economic. (4) Alternative cements (geopolymers, calcium sulfoaluminate) — lower temperature processing.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Kiln temperatures (1450°C)**: Severe thermal burns. Insulated clothing, face shield, heat-resistant gloves.
 - **Silica dust**: Raw material crushing generates crystalline silica dust causing silicosis. Respirators, wet methods.
@@ -182,7 +182,6 @@ Cement production is responsible for ~8% of global CO₂ emissions. Sources: cal
 
  ---
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
 
 ## Hydration Chemistry
 
@@ -226,7 +225,7 @@ The four clinker minerals hydrate at different rates and contribute to concrete 
 
 **Curing methods**: Proper curing maintains moisture in the concrete during the critical first 7-28 days. Methods: (1) Water curing: ponding, spraying, or wet burlap continuously for 7 days. (2) Membrane curing: spray-on curing compound (wax or resin emulsion) that forms a vapor barrier on the surface, applied immediately after finishing. (3) Plastic sheeting: polyethylene film sealed at edges, trapping evaporation moisture. (4) Steam curing: for precast concrete, steam at 60-80°C accelerates strength gain to achieve 28-day strength in 16-24 hours (but may reduce ultimate strength by 10-15% compared to moist curing).
 
-### Cement Testing Standards
+## Cement Testing Standards
 
 **Blaine fineness**: Measured by air permeability (Wagner turbidimeter or Blaine apparatus). Air is drawn through a compacted bed of cement powder at controlled pressure; the time to pass a fixed volume of air is inversely proportional to specific surface area. OPC Type I: 300-500 m²/kg. Finer grinding (500+ m²/kg) produces rapid-hardening cement with higher early strength but also higher heat of hydration and faster workability loss.
 
@@ -249,6 +248,6 @@ The four clinker minerals hydrate at different rates and contribute to concrete 
 - **[Lime](../ceramics/lime.md)**: Calcium oxide production, a precursor to cement chemistry
 - **[Construction](../construction/index.md)**: Concrete and building applications
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

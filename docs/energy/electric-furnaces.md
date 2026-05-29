@@ -8,13 +8,12 @@
 > **Outputs**: electric_arc_furnaces, resistance_heaters, eaf_steel
 > **Critical**: Yes — electric furnaces are the only route to temperatures above 1500°C in controlled atmosphere; essential for steel recycling, silicon reduction, and ferroalloy production
 
-### Overview
+## Overview
 
 Electric furnaces convert electrical energy into high-temperature heat for smelting, melting, and heat treatment. They are the only practical route to temperatures above ~1500°C in a controlled atmosphere, making them indispensable for steel recycling, silicon reduction, ferroalloy production, and advanced ceramics. Three main families exist: **[electric arc furnaces](../glossary/electric-arc-furnaces.md)** (EAF), **[submerged arc furnaces](../glossary/submerged-arc-furnaces.md)** (SAF), and **resistance heating furnaces**. For a broader electrical context, see [electricity.md](electricity.md); for silicon-specific EAF operation, see [mg-si-production.md](../silicon/mg-si-production.md).
 
----
 
-### Electric Arc Furnace (EAF)
+## Electric Arc Furnace (EAF)
 
 **Strengths**:
 - Achieves 3,000-3,500°C in the arc column — the highest temperatures achievable in any industrial furnace
@@ -54,9 +53,8 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 - Connected power: 10–80 MW for a modern furnace (three-phase AC, 100–800V secondary, 20–100 kA).
 - Furnace transformer is a specialized item: high current, low voltage, with tap changer for power regulation.
 
----
 
-### Submerged Arc Furnace (SAF)
+## Submerged Arc Furnace (SAF)
 
 **Strengths**:
 - Continuous operation — runs 24/7 for months between maintenance, unlike batch EAF
@@ -84,9 +82,8 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 
 **SAF vs EAF**: SAF is for **[continuous smelting](../glossary/continuous-smelting.md)** (reduction of ores). EAF is for **[batch melting](../glossary/batch-melting.md)** (steel recycling). They are not interchangeable.
 
----
 
-### Resistance Heating Furnaces
+## Resistance Heating Furnaces
 
 **Strengths**:
 - No electrode consumption — heating elements last thousands of hours
@@ -121,9 +118,8 @@ Electric furnaces convert electrical energy into high-temperature heat for smelt
 - **Temperature control**: Thermocouple feedback → PID controller → thyristor (SCR) or variac power regulation.
 - **Applications**: Annealing, stress-relief, tempering, sintering, crystal growth, glass melting (small scale), laboratory work, baking/curing.
 
----
 
-### Furnace Linings
+## Furnace Linings
 
 The refractory lining determines what the furnace can melt and how long it lasts:
 
@@ -132,9 +128,8 @@ The refractory lining determines what the furnace can melt and how long it lasts
 - **Neutral (Al₂O₃, Cr₂O₃, carbon)**: Broad compatibility. Alumina brick for general-purpose. Carbon/graphite for reducing environments (SAF silicon, calcium carbide).
 - **Thermal conductivity tradeoff**: Denser refractories conduct more heat (more loss through walls) but resist erosion better. Insulating brick (low density) reduces heat loss but is mechanically weak.
 
----
 
-### Power Supply Considerations
+## Power Supply Considerations
 
 Electric furnaces are among the most demanding electrical loads in any industrial economy:
 - **Flicker**: EAF arcs cause rapid current swings, creating voltage flicker on the grid. Requires dedicated supply or static VAR compensators.
@@ -142,9 +137,8 @@ Electric furnaces are among the most demanding electrical loads in any industria
 - **Transformer**: Furnace transformers are custom-built — high current (tens of kA), low voltage (100–800V), with on-load tap changers. Not a standard distribution transformer.
 - **Grounding**: Furnace shell must be solidly grounded. Leakage current through the lining is a constant hazard.
 
----
 
-### Dependencies & Bootstrap Sequence
+## Dependencies & Bootstrap Sequence
 
 1. **[Electricity generation](../glossary/electricity-generation.md)** (generators, turbines) → provides power.
 2. **[Graphite electrodes](../glossary/graphite-electrodes.md)** → requires baking ovens (resistance-heated or gas-fired), eventually graphitization at 2500–3000°C (chicken-and-egg with EAF). Amorphous carbon electrodes bridge the gap.
@@ -154,14 +148,14 @@ Electric furnaces are among the most demanding electrical loads in any industria
 
 The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you need it to make quality steel from scrap. Early EAFs can use lower-grade materials (carbon electrodes, thinner linings, smaller capacity) and upgrade as production improves.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Arc flash (30,000°C)**: Arc-rated face shield, FR clothing, leather gloves. 1m minimum boundary.
 - **Electrocution (100-800V, kA)**: Ground equipment. Lock-out/tag-out. Insulated tools.
 - **Molten metal splash**: Pre-dry all charge. Face shield, leather apron.
 - **IR radiation cataracts**: Shaded lenses for furnace viewing.
 
-### EAF Construction Details
+## EAF Construction Details
 
 **Shell geometry**: The EAF shell is a deep bowl-shaped cylindrical vessel, typically 3-8 m in diameter for commercial units. The bottom section is spherical or conical to collect molten steel. Shell construction is thick steel plate (25-50 mm) with external reinforcement rings. Water-cooled panels replace refractory on the upper sidewalls in modern designs: pipe coils (50-80 mm diameter copper or steel tube) welded to a steel backing plate, with water flowing through at 20-40 L/min per panel. These panels absorb the intense radiation from the arc zone and dramatically reduce refractory consumption.
 
@@ -171,7 +165,7 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 
 **Tap-to-tap cycle**: A complete heat cycle (tap-to-tap time) runs 45-90 minutes. Breakdown: charging (5-10 min), melting (20-40 min at full power), refining and temperature adjustment (5-15 min), tapping (3-5 min). Productivity: 20-30 heats per day for a well-run furnace. Modern high-power EAFs with scrap preheating and oxygen lancing approach 45-minute cycles.
 
-### Submerged Arc Furnace Detail
+## Submerged Arc Furnace Detail
 
 **Shell and lining**: The SAF shell is a large-diameter (3-12 m), relatively shallow steel cylinder lined with carbon blocks or rammed carbon mass. The carbon lining withstands the strongly reducing environment and temperatures above 1800°C that would destroy MgO or Al₂O₃ refractories. Lining life: 2-5 years for the sidewalls, though the hearth may last 10+ years. The shell is often open-top or semi-covered, with fume extraction hoods above.
 
@@ -179,7 +173,7 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 
 **Electrical system**: Three-phase AC power at 50-60 Hz, with 1-3 electrodes arranged in a line or triangle. Furnace transformer secondary voltage: 100-250 V. Current: 20-150 kA. Power factor is low (0.65-0.85) due to the long arc and resistance path; capacitor banks are required for correction. Electrode positioning controls power distribution across the charge bed.
 
-### Resistance Furnace Construction
+## Resistance Furnace Construction
 
 **Heating element materials in detail**:
 
@@ -191,7 +185,7 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 
 **Silicon carbide (SiC)**: Rod or tubular elements operating to 1600°C. Non-metallic. Electrical resistance increases with age (silicon oxidation changes the composition), requiring periodic voltage adjustment to maintain power output. Very long service life under proper conditions (10,000+ hours at 1400°C). Silicon carbide has high thermal conductivity, reducing thermal gradients in the element.
 
-### Induction Heating
+## Induction Heating
 
 **Coreless induction furnace**: A water-cooled copper coil surrounds a ceramic crucible containing the metal charge. Alternating current in the coil generates an oscillating magnetic field, inducing eddy currents in the conductive charge. The eddy currents heat the metal by I²R losses. No electrodes, no combustion gases, no contamination of the melt.
 
@@ -201,7 +195,7 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 
 **Power density**: Coreless furnaces operate at 200-800 kW per tonne of capacity. A 1-tonne steel furnace at 500 kW melts cold scrap to 1600°C in roughly 45-60 minutes. Electrical efficiency: 60-75% (coil losses, thermal losses account for the rest).
 
-### EAF Shell and Electrode Construction
+## EAF Shell and Electrode Construction
 
 **Shell geometry**: The EAF shell is a deep bowl-shaped cylindrical vessel, typically 3-8 m diameter for commercial units. The bottom section is spherical or conical to collect molten steel. Shell construction is thick steel plate (25-50 mm) with external reinforcement rings. Water-cooled panels replace refractory on the upper sidewalls: pipe coils (50-80 mm diameter copper or steel tube) welded to a steel backing plate, with water flowing at 20-40 L/min per panel. These panels absorb intense radiation from the arc zone and reduce refractory consumption.
 
@@ -211,7 +205,7 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 
 **Tap-to-tap cycle**: A complete heat cycle runs 45-90 minutes. Breakdown: charging (5-10 min), melting (20-40 min at full power), refining (5-15 min), tapping (3-5 min). Productivity: 20-30 heats per day.
 
-### Submerged Arc Furnace Detail
+## Submerged Arc Furnace Detail
 
 **Shell and lining**: The SAF shell is a large-diameter (3-12 m), shallow steel cylinder lined with carbon blocks or rammed carbon. The carbon lining withstands the reducing environment and temperatures above 1800°C that would destroy MgO or Al₂O₃ refractories. Lining life: 2-5 years for sidewalls, 10+ years for the hearth.
 
@@ -219,7 +213,7 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 
 **Electrical system**: Three-phase AC at 50-60 Hz, with 1-3 electrodes. Furnace transformer secondary: 100-250 V, 20-150 kA. Power factor is low (0.65-0.85); capacitor banks required for correction.
 
-### Resistance Heating Elements in Detail
+## Resistance Heating Elements in Detail
 
 **[Nichrome 80/20](../glossary/nichrome-8020.md)** (80% nickel, 20% chromium): Workhorse for furnaces up to 1150°C. Forms a thin Cr₂O₃ scale protecting the alloy from further oxidation. Ductile when new, easily wound into coils. Resistivity: 1.08 Ω·mm²/m at 20°C. Life at 1100°C in air: 5,000-20,000 hours.
 
@@ -229,11 +223,11 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 
 **Silicon carbide (SiC)**: Rod elements operating to 1600°C. Non-metallic. Resistance increases with age, requiring periodic voltage adjustment. Service life: 10,000+ hours at 1400°C.
 
-### Induction Heating
+## Induction Heating
 
 **Skin depth formula**: δ = 5030 × √(ρ / (μ × f)) mm.
 
-### Limitations
+## Limitations
 
 - **Electrode consumption**: Graphite electrodes erode during EAF operation at 2-5 kg per tonne of steel. Electrode manufacturing is a specialized, energy-intensive process.
 - **Power quality impact**: EAFs are heavy intermittent loads causing voltage flicker and harmonic distortion on the electrical grid. Requires power factor correction and harmonic filtering.
@@ -241,7 +235,7 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 - **Capital cost**: Electric furnaces require substantial electrical infrastructure (transformers, rectifiers, bus bars) in addition to the furnace vessel itself.
 - **Water cooling complexity**: EAF walls and roofs use water-cooled panels. A cooling water failure leads to rapid equipment damage. Redundant pumping and emergency water storage required.
 
-### See Also
+## See Also
 
 - [Electricity Generation](electricity.md) — Power supply for electric furnaces
 - [Electrode Manufacturing](electrode-manufacturing.md) — Carbon electrode production
@@ -249,6 +243,6 @@ The EAF is a **bootstrapping bottleneck**: you need steel to build it, but you n
 - [Refractories](../chemistry/refractories.md) — Furnace lining materials
 - [Cooling Systems](cooling.md) — Industrial process cooling
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+
+[← Back to Energy](index.md)

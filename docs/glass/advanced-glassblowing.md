@@ -38,7 +38,6 @@ The dependency chain: advanced glassblowing requires borosilicate glass (which r
 | Didymium safety glasses | Shade 3-5, sodium flare filter | Per worker | Non-negotiable — sodium flare causes eye damage without filters |
 | Silicon carbide abrasive | 220, 400, 600, 1200 grit | 1 kg each | For grinding ground glass joints to precision taper |
 
-## Overview
 
 Advanced glassblowing extends basic glass forming into precision scientific and industrial apparatus: thermometer capillaries, condensers, distillation columns, vacuum-tight enclosures, and complex multi-port vessels. It requires borosilicate or lead glass for thermal shock resistance, lathe-assisted forming, and annealing ovens for stress relief.
 
@@ -247,6 +246,6 @@ Glassblowing as a craft dates to ~1500 BCE (Egyptian core-formed glass). Free-bl
 - [Machine Tools: Machining](../machine-tools/machining.md) — lathes and precision tooling
 - [Energy: Fuels](../energy/fuels.md) — propane, natural gas, and oxygen supply
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Glass](./index.md) • [All Domains](../index.md)*
+
+[← Back to Glass](index.md)

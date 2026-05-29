@@ -35,7 +35,6 @@ The bootstrap chain runs: zinc enables galvanized steel → long-life infrastruc
 | Zinc dust (for cementation purification) | 30-50 kg | Internal production — atomize zinc | None — zinc dust is the standard purification reagent |
 | Copper sulfate (CuSO₄, flotation activator) | 2-5 kg per tonne of ore | [Chemistry](../chemistry/index.md) | None — CuSO₄ is essential for sphalerite flotation activation |
 
-## Overview
 
 Zinc (mp 420°C, bp 907°C) is produced by roasting sphalerite (ZnS) to ZnO, then reducing with carbon and distilling the zinc vapor. Its low boiling point makes it one of the harder metals to produce — it vaporizes before it melts under ordinary conditions. Zinc is essential for brass (Cu-Zn alloy), galvanizing steel, zinc oxide pigment, and die-casting alloys.
 
@@ -248,6 +247,6 @@ Zinc (mp 420°C, bp 907°C) is produced by roasting sphalerite (ZnS) to ZnO, the
 - [Semiconductor: Basic Devices](../silicon/basic-devices.md) — CZTS solar cells and ZnO transparent conductors
 - [Food Processing: Canning](../food-processing/canning.md) — galvanized steel for food preservation equipment
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+
+[← Back to Metals](index.md)

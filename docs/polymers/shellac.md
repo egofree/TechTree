@@ -20,7 +20,7 @@ Before synthetic polymers are available, civilization needs a fast-drying, non-t
 - Basic crushing and washing equipment — rollers or mortar, water tanks, cloth for filtration
 - Optional: sodium hypochlorite for bleached shellac, hydraulic press for industrial-scale refining
 
-### Source and Biology
+## Source and Biology
 
 Shellac is a natural resin secreted by the lac bug (*Kerria lacca*), a tiny scale insect (order Hemiptera, family Kerriidae) that feeds on the sap of certain trees in India and Southeast Asia. The insect is roughly 1-2 mm long as an adult. It is not a beetle — the name "lac bug" is a misnomer from older classification systems.
 
@@ -28,14 +28,14 @@ Shellac is a natural resin secreted by the lac bug (*Kerria lacca*), a tiny scal
 
 **Life cycle**: Female lac bugs insert their proboscis into the tree bark and remain stationary for life, secreting a resinous cocoon (the "lac") around their bodies. Each insect secretes ~0.5 mg of resin over its lifetime. The resin forms a continuous encrustation on branches, 5-10 mm thick, called "sticklac." The life cycle from egg to adult is approximately 6 months, with two generations per year in most regions — corresponding to two harvest seasons (June-July and October-November in India, timed with the monsoon and post-monsoon periods). The first generation (crop from October-November brood) is harvested in June-July; the second generation (from June-July brood) is harvested in October-November. The two cycles are named differently in different regions of India.
 
-### Cultivation
+## Cultivation
 
 - **Host tree management**: Plant host trees (or utilize existing forest trees). Maintain spacing of 5-8 m between trees (150-400 trees per hectare depending on species and management intensity). Prune lower branches to facilitate access and air circulation — good airflow reduces fungal disease and allows lac insects to colonize branches effectively. *Butea monosperma* can be grown from seed or root cuttings; trees reach lac-producing age in 5-7 years. *Schleichera oleosa* is slower to establish but produces higher-quality lac.
 - **Inoculation**: Collect "brood lac" (sticklac containing developing larvae from the previous season — identified by the presence of female insects with eggs visible through the resin). Cut brood lac into 5-10 cm sections. Tie brood lac bundles to fresh branches of host trees at the start of the growing season using cotton twine (the twine must be biodegradable so it doesn't girdle the growing branch). Timing: inoculate when the new generation of larvae is about to emerge (the eggs hatch 2-3 weeks after being laid, so brood lac must be harvested and tied to new host branches within this window). Emerging larvae (tiny crawlers, 0.3-0.5 mm) disperse from the brood lac onto the fresh branch, settle, insert their proboscis, and begin feeding and secreting resin. Inoculation success rate: 60-80% under good conditions — losses occur from predation, weather (heavy rain washes crawlers off branches), and disease.
 - **Parasites and predators**: Lac cultivation is threatened by several natural enemies that can devastate entire colonies. Predatory mites (*Tetranychus* spp.) feed on lac insect nymphs. Parasitic wasps (*Tachardiaephagus* spp., *Erencyrtus* spp.) lay eggs inside lac insect bodies — the wasp larvae consume the insect from within, killing it before it can secrete significant resin. The lac predator *Eublemma amabilis* (a moth whose larvae feed on lac insects) is particularly damaging — the moth lays eggs on the sticklac, and the hatching caterpillars eat through the lac encrustation, consuming the insects. Losses of 20-40% of a lac crop to predators are not uncommon without active pest management. Ants (especially *Oecophylla smaragdina*, the weaver ant) often protect lac colonies from predators in exchange for honeydew secreted by the lac insects — a beneficial mutualistic relationship to encourage in lac cultivation. Traditional cultivators actively promote ant colonies on lac-producing trees for this reason.
 - **Yield**: A single tree yields 1-3 kg of raw sticklac per harvest. India historically produced 30,000-50,000 tonnes of raw lac per year at peak production (early 20th century — the world's primary supplier, with ~85% market share). Yields vary by host species, tree age, climate, and pest pressure. A well-managed plantation of *Butea monosperma* trees at 100 trees per hectare can yield 200-600 kg of raw sticklac per hectare per year (two harvests combined). After processing losses (washing removes ~30-40% as dye, water-soluble matter, and insect debris), the yield of marketable shellac is ~150-350 kg/ha/year.
 
-### Bill of Materials
+## Bill of Materials
 
 | Material | Quantity | Notes |
 |---|---|---|
@@ -50,7 +50,7 @@ Shellac is a natural resin secreted by the lac bug (*Kerria lacca*), a tiny scal
 | Sodium hypochlorite (optional) | 3-5% available chlorine solution | For bleached/white shellac only |
 | Flat drying surfaces | Marble, glass, or metal trays | For flake formation (Step 5) |
 
-### Harvesting and Processing
+## Harvesting and Processing
 
 **Step 1 — Sticklac collection**:
 - Cut lac-encrusted branches from host trees with a sharp knife or pruning saw. Timing is important — harvest when the lac layer is at maximum thickness (5-10 mm) and the next generation of insects has not yet emerged. The lac crop is mature when the resin encrustation is thick and the insect bodies inside are no longer actively feeding (they have completed their life cycle and laid eggs for the next generation). Premature harvesting (before eggs are laid) wastes the brood potential for the next crop. Sticklac contains the resin (~60-70%), insect bodies (~15-20%), twigs and woody debris (~5-10%), lac dye (~1-3%, water-soluble), and wax (~3-5%).
@@ -71,7 +71,7 @@ Shellac is a natural resin secreted by the lac bug (*Kerria lacca*), a tiny scal
 **Step 6 — Bleaching (optional)**:
 - For white or blond shellac: Dissolve seed lac in warm (~50°C) sodium hypochlorite (NaOCl, bleach) solution at 3-5% available chlorine. Stir for 1-2 hours. The chlorine oxidizes the natural pigments (erythrolaccin — a red hydroxyanthraquinone, and related chromophores) to colorless compounds. Neutralize with dilute sulfuric or acetic acid to pH 7. Wash thoroughly with water. Redissolve in ethanol, filter, and re-flake. Bleached shellac (also called "blonde shellac") is nearly colorless and used where a light-colored finish is desired — finishing maple, birch, and other light woods where amber tint would be undesirable. Bleaching reduces shelf life — bleached shellac polymerizes faster than unbleached (the oxidation during bleaching creates additional reactive sites for esterification). Store bleached flakes at 10-15°C for maximum shelf life (6-12 months).
 
-### Lac Chemistry
+## Lac Chemistry
 
 Shellac is a complex natural polyester composed primarily of hydroxy fatty acid esters and sesquiterpene acid esters. The major components are:
 
@@ -85,7 +85,7 @@ Shellac is a complex natural polyester composed primarily of hydroxy fatty acid 
 
 **Thermal behavior**: Shellac softens at 65-75°C and melts at 75-85°C (a lower melting point than most synthetic resins, reflecting shellac's low molecular weight of 1000-2000 g/mol). Above the melting point, it can be hot-pressed, extruded, or molded (the basis for traditional button lac production — molten shellac poured into pans to form disc-shaped "buttons" — and phonograph record pressing — shellac compound compression-molded at 120-130°C). The thermoplastic behavior allows shellac to be reheated and reformed multiple times without chemical degradation (unlike thermosetting resins, which cure irreversibly). At temperatures above 200°C, shellac begins to decompose — releasing acetic acid and other volatile decomposition products. The decomposition is exothermic at higher temperatures — large masses of hot shellac (e.g., in a record-pressing factory with multiple hot presses operating simultaneously) can undergo self-heating and thermal runaway if not temperature-controlled. This thermal runaway hazard is one reason shellac record factories maintained strict temperature monitoring on their presses.
 
-### Adhesive Applications
+## Adhesive Applications
 
 Beyond its use as a coating, shellac has significant adhesive applications:
 
@@ -94,7 +94,7 @@ Beyond its use as a coating, shellac has significant adhesive applications:
 - **Hat stiffening**: Shellac solution brushed into the brims and crowns of felt hats (top hats, bowler hats) provides permanent stiffness and shape retention — a major application in the 19th century hatting industry. The phrase "mad as a hatter" relates to mercury exposure in felt processing, not shellac — but shellac workers did face ethanol exposure hazards.
 - **Abrasive bonding**: Shellac is used as a binder for abrasive grains on grinding wheels and sandpaper. The shellac holds abrasive particles (aluminum oxide, silicon carbide) firmly to the backing material while being heat-resistant enough for moderate grinding operations. Shellac-bonded grinding wheels are still manufactured for specific applications requiring cool cutting.
 
-### Properties
+## Properties
 
 Shellac has a unique combination of properties among natural resins: rapid drying, excellent adhesion, food safety, and electrical insulation. No single synthetic material matches all of these properties simultaneously.
 
@@ -105,7 +105,7 @@ Shellac has a unique combination of properties among natural resins: rapid dryin
 - **Electrical properties**: Good electrical insulator. Volume resistivity ~10¹⁴-10¹⁵ Ω·cm. Dielectric strength 300-500 V/mil (12-20 kV/mm). Dielectric constant ~3.5 at 1 kHz. Used historically for coil insulation and early electronics — adequate for low-voltage (<1000 V) applications but replaced by synthetic varnishes for high-temperature and high-voltage service.
 - **Thermal properties**: Softens at ~65-75°C (below the boiling point of water — hot coffee mugs can leave ring marks on shellac-finished tables). Decomposes above ~200°C. Cannot withstand soldering iron temperatures (~350°C). For heat-resistant applications, use synthetic varnishes instead.
 
-### Applications
+## Applications
 
 - **French polish**: The highest-quality traditional wood finish. Shellac dissolved in ethanol (typically 2 lb cut = 1 lb shellac per gallon alcohol = ~240 g/L) applied by hand with a rubber — a pad of cloth wrapped around a wad of cotton, charged with shellac and a drop of oil (linseed or mineral oil to lubricate). The rubber is stroked rapidly across the wood surface in overlapping passes, building up thin coats. After 20-40 coats: a deep, glossy, mirror-like finish with extraordinary depth of color. French polishing is labor-intensive (4-8 hours per typical tabletop) but produces results unattainable with brush-applied finishes. The technique demands skill — too much pressure or too much shellac per pass creates ridges ("piling"); too much oil causes "oiling off" (oily film prevents shellac adhesion). Still used for fine furniture restoration, musical instruments (violin varnishing — shellac French polish is the standard finish for student to intermediate violins), and museum-quality conservation.
 - **Phonograph records**: Shellac was the primary binder in 78 RPM records from the 1890s through the 1950s. The record material was a composite: ~25% shellac binder, ~75% filler (crushed slate ~40%, limestone ~20%, carbon black for color ~5%, cotton flock for strength ~10%), plus small amounts of plasticizer (stearic acid ~2%) and lubricant (zinc stearate ~1%). Records were compression-molded: the shellac compound powder placed in a steam-heated mold (120-130°C, 15-30 MPa), pressed for 20-30 seconds, then cooled before demolding. The fast cure of shellac was essential — each record required only 30 seconds of press time, enabling production rates of 100+ records per hour per press. Shellac records are brittle — they shatter if dropped, and the stylus gradually grinds away the groove walls, giving a playing life of ~80-100 plays before surface noise becomes unacceptable. Replaced by vinyl (PVC) records in the late 1940s-1950s — PVC offered lower surface noise, longer playing time (33⅓ RPM microgroove vs. 78 RPM standard groove — 25 minutes per side vs. 5 minutes), and unbreakability.
@@ -114,7 +114,7 @@ Shellac has a unique combination of properties among natural resins: rapid dryin
 - **Pharmaceutical and food**: "Confectioner's glaze" — purified, de-waxed shellac used as a coating on candies (jelly beans, candy corn, chocolate-covered almonds — provides gloss and prevents sticking), pills, and tablets. Provides gloss, moisture barrier (extends shelf life of hygroscopic products by 2-5×), and controlled release. Enteric coating: shellac resists dissolution in stomach acid (pH 1-3) but dissolves in the alkaline intestinal environment (pH >7) — this allows tablets to pass through the stomach intact and release their drug payload in the intestine. Classified as food-safe (GRAS status in the US — Generally Recognized As Safe by FDA). Typical coating thickness: 5-20 μm on candies, 20-50 μm on tablets. Applied by pan coating (tablets tumbled in a rotating drum while shellac solution is sprayed) or fluidized bed coating.
 - **Sealing wax**: Traditional document seals combine shellac with turpentine (plasticizer, 5-10%), pigments (vermillion red, lamp black, titanium white), and filler (chalk, talc). When melted at 80-100°C and pressed with a signet ring, shellac provides the binding and hardening properties. Shellac-based sealing wax is harder and more brittle than wax-based (beeswax) alternatives, producing a crisp, detailed impression that is difficult to tamper with without visible damage.
 
-### Grading and Classification
+## Grading and Classification
 
 Shellac is sold in several grades based on color and processing:
 
@@ -125,7 +125,7 @@ Shellac is sold in several grades based on color and processing:
 
 **Button lac**: An intermediate form. Melt-filtered shellac poured into shallow pans to form disc-shaped "buttons" (50-80 mm diameter, 5-10 mm thick). Button lac is a traditional trade form — broken into pieces and weighed for sale. Less processed than flakes, containing more natural wax and impurities.
 
-### Dissolution and Working Solutions
+## Dissolution and Working Solutions
 
 Shellac dissolves readily in ethanol (ethyl alcohol) at room temperature. The standard measure is the "cut" — pounds of shellac per gallon of ethanol:
 
@@ -138,7 +138,7 @@ Shellac dissolves readily in ethanol (ethyl alcohol) at room temperature. The st
 
 **Shelf life of mixed solution**: 250-350 g/L shellac in ethanol begins esterifying within weeks. The esterification reaction (shellac's hydroxyl and carboxyl groups react with ethanol to form ethyl esters) progressively makes the shellac insoluble. Signs of degraded solution: cloudy appearance, slow drying, gummy or rubbery film. Discard solution older than 3-6 months. Mix only what will be used within 2-3 months.
 
-### Applications Detail
+## Applications Detail
 
 **French polish technique**: The premier wood finishing technique. Equipment: a "rubber" (pad) made from a core of clean cotton wadding wrapped in a clean, lint-free cloth (linen or cotton). Charge the rubber with 2 lb cut shellac solution and a few drops of linseed oil (lubricant — allows the rubber to glide smoothly). Apply with rapid, sweeping strokes in a figure-8 pattern across the wood surface. Each pass deposits a microscopically thin film. After 20-40 coats applied over several sessions (allowing each session's coats to dry 24 hours), the result is a deep, mirror-like gloss with extraordinary clarity and warmth. French polishing a dining table top requires 4-8 hours of active application spread over 3-5 days. The technique demands skill and patience but produces a finish unattainable by any other method. Still practiced for antique restoration, fine furniture, and musical instruments (violins, guitars, pianos).
 
@@ -148,7 +148,7 @@ Shellac dissolves readily in ethanol (ethyl alcohol) at room temperature. The st
 
 **Gramophone record pressing (1895-1948)**: Before vinyl records, 78 RPM discs were made from shellac-based compounds. The formulation: ~25% shellac binder, ~75% mineral filler (crushed slate, limestone, carbon black pigment), and trace plasticizer. Records were compression-molded: the shellac compound powder was placed in a steam-heated mold (120-130°C), pressed at 15-30 MPa for 20-30 seconds, then cooled before demolding. Shellac records are hard and brittle — they shatter if dropped, and the stylus gradually grinds away the groove walls, giving a playing life of ~80-100 plays before surface noise becomes unacceptable. Shellac's rapid curing was essential for the economics of record production. Vinyl (PVC) records replaced shellac in the late 1940s, offering lower surface noise, longer playing time (33⅓ RPM microgroove vs. 78 RPM standard groove), and unbreakability.
 
-### Aging and Shelf Life
+## Aging and Shelf Life
 
 Shellac undergoes gradual esterification with its solvent (ethanol). Over months to years, the ester bonds formed during storage make the shellac increasingly resistant to redissolution. Old shellac may leave a cloudy, lumpy film or fail to dry properly. The esterification rate is temperature-dependent — storage at 30°C ages shellac ~3× faster than storage at 15°C.
 
@@ -159,7 +159,7 @@ Shellac undergoes gradual esterification with its solvent (ethanol). Over months
 
 **Polymerization test**: A simple field test for shellac freshness — dissolve 5 g of shellac flakes in 15 ml of ethanol. If the solution is clear and pourable after 4 hours with stirring, the shellac is usable. If the solution is cloudy, gel-like, or contains undissolved lumps, the shellac has polymerized beyond usefulness.
 
-### Lac Cultivation Detail
+## Lac Cultivation Detail
 
 The lac insect (*Kerria lacca*) is a scale insect of the family Kerriidae, order Hemiptera. Adult females are sessile — they attach permanently to host tree branches, insert their proboscis into the phloem, and remain stationary for life, secreting the resinous cocoon that becomes shellac.
 
@@ -177,7 +177,7 @@ The lac insect (*Kerria lacca*) is a scale insect of the family Kerriidae, order
 - **[Katki crop](../glossary/katki-crop.md)** (June-July): Harvested during the monsoon. Brood lac from this harvest is used for the next inoculation.
 - **[Baisakhi crop](../glossary/baisakhi-crop.md)** (October-November): Harvested in the post-monsoon period. Generally larger yield than Katki.
 
-### Traditional Processing Methods
+## Traditional Processing Methods
 
 Before modern industrial processing, shellac was refined by hand using traditional techniques that have been practiced in India for centuries:
 
@@ -204,7 +204,7 @@ Before modern industrial processing, shellac was refined by hand using tradition
 | Poor adhesion to substrate | Wax content or contaminated surface | Use de-waxed shellac. Clean substrate with ethanol or naphtha before coating |
 | Solution thickens in storage | Esterification progressing in can | Normal if used within 2-3 months. Discard if gelled or stringy. Mix smaller batches |
 
-### Safety & Hazards
+## Safety & Hazards
 
 Shellac is one of the safest finishing materials available — the primary hazards come from the ethanol solvent, not the shellac resin itself (shellac is non-toxic, food-safe, and GRAS-approved).
 
@@ -214,7 +214,7 @@ Shellac is one of the safest finishing materials available — the primary hazar
 - **Lac bug allergens**: Workers handling raw sticklac may develop respiratory or dermal sensitization to insect proteins. Dust from crushing sticklac can trigger allergic reactions. Wear dust mask and gloves during initial processing steps. The crushing and washing steps generate the most dust — wet processing (crushing under water) significantly reduces airborne allergen exposure.
 - **Shellac dust explosion**: Dry shellac flakes ground or crushed into fine powder present a dust explosion hazard. Shellac is an organic material with sufficient calorific value (~25 MJ/kg) to sustain combustion when dispersed as a fine dust in air. Maintain good housekeeping in flake processing areas. Ground equipment to prevent static discharge.
 
-### Historical Note
+## Historical Note
 
 Shellac was one of the first materials traded on a large scale between Asia and Europe. The British East India Company exported shellac from India starting in the late 18th century, with peak exports reaching 30,000-50,000 tonnes per year in the early 20th century (India produced ~85% of the world's shellac supply — the state of Bihar was the center of production). The development of synthetic substitutes gradually reduced demand: phenolic resins replaced shellac in electrical insulation (1920s-1930s), vinyl records replaced shellac 78 RPM records (late 1940s-1950s), synthetic varnishes (polyurethane, polyester) replaced shellac in wood finishing (1950s-1960s), and synthetic dyes replaced lac dye in textiles (late 19th century). By the 1970s, global shellac production had fallen to ~10,000 tonnes/year. Current production is estimated at 5,000-10,000 tonnes/year, primarily for food/pharmaceutical coatings (confectioner's glaze and enteric tablet coatings — shellac's food safety and controlled-release properties remain unmatched by synthetic alternatives), wood finishing (French polish for antique restoration and fine furniture — the aesthetic qualities of shellac finish are prized by woodworkers), and niche applications where its unique properties (fast drying, food safety, natural origin, reversibility with ethanol) remain valuable.
 
@@ -223,7 +223,7 @@ Shellac was one of the first materials traded on a large scale between Asia and 
 ---
 
 
-### Comparison with Synthetic Finishes
+## Comparison with Synthetic Finishes
 
 | Property | Shellac | Nitrocellulose Lacquer | Polyurethane Varnish |
 |---|---|---|---|
@@ -239,7 +239,7 @@ Shellac was one of the first materials traded on a large scale between Asia and 
 | Ease of application | Moderate (French polish requires skill) | Easy (spray) | Easy (brush) |
 | Color depth | Excellent (warm amber) | Good (clear to amber) | Good (clear to amber) |
 
-### See Also
+## See Also
 
 - [Distillation](../chemistry/distillation.md) — ethanol production for shellac solvent
 - [Solvents](../chemistry/solvents.md) — solvent chemistry and properties

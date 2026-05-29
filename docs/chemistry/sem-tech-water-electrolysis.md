@@ -8,7 +8,6 @@
 > **Outputs**: hydrogen, oxygen
 > **Critical**: No — SEM Tech membranes enable lower-cost PEM water electrolysis but are an alternative to alkaline electrolysis, not a unique enabler
 
-## Overview
 
 Water electrolysis splits water into hydrogen and oxygen using electrical energy. When powered by renewable electricity, the resulting hydrogen is called "green hydrogen" -- produced with zero carbon emissions. Proton Exchange Membrane (PEM) electrolysis is the most promising route for green hydrogen production due to its compact design, rapid response to variable power input, and high-purity output.
 
@@ -48,13 +47,13 @@ The critical barrier to PEM adoption is membrane cost. SEM Tech membranes, at le
 
 ## SEM Tech Membrane in Water Electrolysis
 
-### Theoretical Application
+## Theoretical Application
 
 The SEM Tech membrane uses strong acid cation exchange resin beads (sulfonic acid functional groups) embedded in a PVC/CPVC matrix -- the same type of functional groups found in Nafion membranes. In principle, this membrane could serve as the solid polymer electrolyte in a PEM water electrolysis cell, selectively conducting protons (H⁺ ions) from anode to cathode while preventing gas crossover.
 
 The Rowow LLC Technical Volume notes that these membranes were originally developed for electrochemical applications beyond chlor-alkali, including fuel cells and electrodialysis. The demonstrated chemical durability (months of operation at pH 0, ORP >1.5V) suggests the acidic environment of a PEM cell (pH 2-4 at the anode) should be within the membrane's tolerance range.
 
-### Key Differences from Chlor-Alkali Use
+## Key Differences from Chlor-Alkali Use
 
 Using the SEM Tech membrane for water electrolysis differs from its demonstrated chlor-alkali application in several important ways:
 
@@ -83,7 +82,7 @@ A PEM water electrolysis cell using SEM Tech membranes would follow the standard
 
 ## Operating Parameters
 
-### Demonstrated Range (Chlor-Alkali)
+## Demonstrated Range (Chlor-Alkali)
 
 SEM Tech membranes are demonstrated at:
 - **Temperature**: Ambient (20-30C)
@@ -92,7 +91,7 @@ SEM Tech membranes are demonstrated at:
 - **ORP tolerance**: >1.5V continuous
 - **Pressure**: Atmospheric
 
-### Projected PEM Operating Range
+## Projected PEM Operating Range
 
 Based on membrane properties and general PEM electrolysis principles, projected operating parameters are:
 
@@ -105,7 +104,7 @@ Based on membrane properties and general PEM electrolysis principles, projected 
 
 **The following performance projections are speculative. SEM Tech membranes have NOT been tested in PEM water electrolysis. Actual performance may differ significantly.**
 
-### Projected Performance Characteristics
+## Projected Performance Characteristics
 
 - **Hydrogen purity**: PEM cells typically produce 99.99%+ pure hydrogen. The SEM Tech membrane's gas barrier properties would determine whether this purity level is achievable. Higher gas crossover would reduce purity and create safety concerns.
 - **Energy consumption**: Theoretical minimum is 39.4 kWh/kg H₂ (thermoneutral voltage). Practical PEM systems consume 50-65 kWh/kg H₂. SEM Tech membrane resistivity may increase this -- the membrane's ionic resistance in proton conduction mode is unknown.
@@ -113,7 +112,7 @@ Based on membrane properties and general PEM electrolysis principles, projected 
 - **Membrane lifetime**: Demonstrated at months to ~1 year in chlor-alkali service (pH 0, ORP >1.5V). PEM water electrolysis operates under milder chemical conditions but potentially higher current densities. Projected lifetime is uncertain.
 - **Faradaic efficiency**: PEM cells typically achieve 95-99% Faradaic efficiency. SEM Tech membrane performance in this regard is unknown.
 
-### Comparison: PEM Water Electrolysis Technologies
+## Comparison: PEM Water Electrolysis Technologies
 
 | Parameter | Conventional PEM (Nafion) | SEM Tech PEM (Projected) | Alkaline |
 |-----------|--------------------------|--------------------------|----------|
@@ -152,7 +151,7 @@ Water electrolysis involves specific hazards that require careful management:
 
 ## Limitations
 
-### Technology Readiness
+## Technology Readiness
 
 SEM Tech membranes are at **TRL 5 for chlor-alkali applications**. For PEM water electrolysis specifically, the technology is at approximately **TRL 2-3** (conceptual, with basic laboratory characterization needed). Key gaps:
 
@@ -162,7 +161,7 @@ SEM Tech membranes are at **TRL 5 for chlor-alkali applications**. For PEM water
 - **No elevated temperature data**: PEM cells benefit from temperatures above ambient. SEM Tech membrane performance at 50-80C is uncharacterized.
 - **No long-term durability data in PEM environment**: Months of operation in chlor-alkali conditions does not guarantee equivalent lifetime in continuous PEM water electrolysis.
 
-### Economic Considerations
+## Economic Considerations
 
 Even if technically successful, SEM Tech PEM electrolysis would face challenges:
 
@@ -175,7 +174,7 @@ Even if technically successful, SEM Tech PEM electrolysis would face challenges:
 
 The following procedure describes construction and operation of a bench-scale PEM water electrolysis cell using a SEM Tech membrane. This is a **projected procedure** — SEM Tech membranes have not been tested in PEM water electrolysis. Parameters are adapted from conventional PEM practice and SEM Tech's demonstrated chlor-alkali properties.
 
-### Phase 1: Fabricate PEM Membrane
+## Phase 1: Fabricate PEM Membrane
 
 1. **Source cation exchange resin**: Strong acid cation resin (sulfonated polystyrene, IEC 1.8-2.2 meq/g, gel-type preferred for higher conductivity). Pulverize by ball milling to <150 μm. Sieve to remove >200 μm particles.
 2. **Prepare binder solution**: Dissolve PVC or CPVC (K-value 55-65) in THF at 12-18% w/v. Stir 2-4 hours until homogeneous. CPVC preferred for higher temperature tolerance in PEM service.
@@ -183,20 +182,20 @@ The following procedure describes construction and operation of a bench-scale PE
 4. **Cast thin membrane**: Using a precision drawdown bar, cast slurry onto clean glass at 100-200 μm wet thickness. **Thinner is better** for PEM — target dry thickness 50-100 μm to minimize proton transport resistance. Multiple thin coats (2-3 layers at 50-80 μm wet) give better uniformity than one thick coat.
 5. **Dry and condition**: Air-dry 2-4 hours. Peel from glass. Condition in 0.5M H₂SO₄ for 12 hours (protonates all sulfonic acid sites). Rinse with deionized water. Store in DI water — never let dry.
 
-### Phase 2: Prepare Electrodes
+## Phase 2: Prepare Electrodes
 
 6. **Anode preparation (oxygen evolution)**: For bench-scale testing, use porous titanium felt or sintered titanium fiber (1-3 mm thick, porosity 70-80%). If catalyst coating is available, apply IrO₂ by thermal decomposition: paint with H₂IrCl₆ solution in isopropanol, dry at 100°C, calcine at 400°C for 10 minutes. Repeat 5-10 times for loading of 1-3 mg Ir/cm². For lowest-cost testing, use uncoated graphite plate — it will erode over days/weeks but suffices for proof-of-concept.
 7. **Cathode preparation (hydrogen evolution)**: Carbon cloth or carbon paper (toray paper, 200-400 μm thick). If catalyst is available, apply Pt/C catalyst ink (40% Pt on Vulcan XC-72 carbon, dispersed in Nafion solution + isopropanol) by brush painting or spray coating. Target: 0.5-2.0 mg Pt/cm². For lowest-cost testing, uncoated carbon cloth works — higher overpotential but functional.
 8. **Cut to size**: Cut membrane and both electrodes to identical active area (e.g., 50 mm × 50 mm for bench-scale cell). Mark electrode sides clearly (anode vs cathode).
 
-### Phase 3: Assemble the Cell
+## Phase 3: Assemble the Cell
 
 9. **Prepare end plates**: Two titanium or stainless steel plates (10-15 mm thick) with machined flow fields (parallel channels, 1-2 mm wide × 1-2 mm deep, at 2-3 mm pitch). Drill inlet and outlet ports (3-6 mm) for water feed and gas exit on each plate. Install O-ring gaskets (Viton or EPDM) around the active area perimeter on each plate.
 10. **Assemble sandwich**: Place components on bottom end plate in order: (a) anode electrode (Ti felt or graphite, facing up), (b) SEM Tech membrane (hydrated, centered), (c) cathode electrode (carbon cloth, facing down), (d) top end plate. Ensure membrane completely covers both electrodes — any exposed electrode area causes direct gas mixing.
 11. **Clamp**: Bolt end plates together with 4-8 bolts in a symmetric pattern. Tighten gradually in a cross pattern to 2-5 N·m torque. Over-compression damages the membrane; under-compression causes leaks.
 12. **Seal test**: Pressurize the water feed channel with DI water at 0.1-0.3 bar. Check for cross-leakage (water appearing on the gas side). Verify electrical isolation between end plates (no short circuit through the assembly).
 
-### Phase 4: Connect Systems and Commission
+## Phase 4: Connect Systems and Commission
 
 13. **Connect water feed**: Plumb a DI water reservoir to the anode inlet using PTFE or PVC tubing. Use a peristaltic pump at 5-20 mL/min (low flow rate for bench-scale). Water flows through the anode chamber, contacts the anode, and carries away produced oxygen gas.
 14. **Connect gas collection**: Connect anode gas outlet to an inverted water-filled graduated cylinder (to collect and measure O₂ volume). Connect cathode gas outlet to a separate cylinder (to collect H₂). Ensure both gas paths vent to a well-ventilated area or fume hood.
@@ -207,7 +206,7 @@ The following procedure describes construction and operation of a bench-scale PE
 19. **Monitor gas production**: H₂ should appear at the cathode gas outlet within seconds of applying current. Measure H₂ flow rate — at 100% Faradaic efficiency, 1 A produces 0.21 L/h of H₂ at STP. Compare measured vs theoretical to estimate Faradaic efficiency. Check H₂ purity with a gas analyzer if available — target >99.5%.
 20. **Steady-state operation**: Once stable at target current, log voltage, current, gas production rate, and temperatures every 15-30 minutes. A well-functioning cell maintains stable voltage for hours. Gradual voltage increase over days/weeks indicates membrane degradation or catalyst deactivation.
 
-### Phase 5: Shutdown and Maintenance
+## Phase 5: Shutdown and Maintenance
 
 21. **Shutdown**: Reduce current to zero. Turn off power supply. Continue water flow for 5 minutes to flush gases. Turn off pump. Drain water from both sides.
 22. **Membrane storage**: Remove membrane from cell. Store in DI water in a sealed container. Label with date and operating hours. Do not allow to dry — dried SEM Tech membranes may crack.
@@ -249,6 +248,6 @@ Even with a conservative 50% reduction in stack cost (not the full 95% membrane 
 - [SEM Tech Fuel Cells](../energy/sem-tech-fuel-cells.md) -- consuming hydrogen in fuel cells (forthcoming)
 - [SEM Tech e-Methanol](sem-tech-e-methanol.md) -- converting hydrogen to liquid fuel (forthcoming)
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) | [Chemistry](./index.md) | [All Domains](../index.md)*
+
+[← Back to Chemistry](index.md)

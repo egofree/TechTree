@@ -22,7 +22,7 @@ Beyond hygiene, soap and its derivatives are critical for textile processing (wo
 - [Animals / fats](../animals/index.md) — tallow and lard as soap feedstocks
 - [Plants / oils](../plants/index.md) — vegetable oils as soap feedstocks
 
-### Saponification Chemistry
+## Saponification Chemistry
 
 **Core reaction**: Triglyceride (fat/oil) + 3 NaOH → 3 soap molecules + glycerol (glycerin)
 
@@ -39,7 +39,7 @@ Beyond hygiene, soap and its derivatives are critical for textile processing (wo
 - **Superfatting**: Using 3-8% less alkali than stoichiometric leaves unreacted fat in the finished soap. Improves skin feel and reduces irritation. Measured as "lye discount" — a 5% superfat formula uses 95% of the calculated NaOH.
 - **Saponification value (SV)**: Milligrams of KOH required to saponify 1 gram of fat. Coconut oil: SV 250-260. Olive oil: SV 185-196. Tallow: SV 190-200. Palm oil: SV 195-205. These values determine exact lye quantities for complete reaction.
 
-### Traditional Soap Making
+## Traditional Soap Making
 
 All traditional methods share the same chemistry: fat + alkali → soap + glycerol. The differences are in temperature, curing time, and whether glycerol is retained or recovered.
 
@@ -82,7 +82,7 @@ All traditional methods share the same chemistry: fat + alkali → soap + glycer
 - Hardwood ash (oak, beech, maple) leached with water produces KOH solution. Boil to concentrate. Test concentration: float a fresh egg — if it bobs with ~2 cm (dime-sized area) exposed, concentration is approximately 10% KOH, suitable for soap making. This method produces soft soap (potassium-based). See [Alkalis](alkalis.md) for potash production details.
 - Once [Alkalis](alkalis.md) production is established (Leblanc or Solvay process), NaOH from the lime-soda process or chlor-alkali electrolysis replaces wood-ash lye, enabling hard bar soap.
 
-### Industrial Soap Production
+## Industrial Soap Production
 
 **[Continuous saponification](../glossary/continuous-saponification.md)** (modern, large-scale):
 - Fat and concentrated NaOH solution (30-50%) fed continuously into a saponification reactor at controlled ratio. The Sharples or Mazzoni continuous process uses a high-shear mixing column — fat and lye enter at bottom, react during upward flow, and fully saponified soap exits at top. Residence time: 15-30 minutes. Temperature: 70-80°C. Throughput: 1-10 tonnes/hour.
@@ -109,7 +109,7 @@ All traditional methods share the same chemistry: fat + alkali → soap + glycer
 **[Detergent formulation](../glossary/detergent-formulation.md)** (complete laundry powder):
 - LAS (surfactant): 8-15%. Sodium tripolyphosphate or zeolite (builder — softens water, suspends dirt): 20-35%. Sodium silicate (corrosion inhibitor, alkalinity): 5-10%. Sodium carbonate (alkalinity booster): 10-20%. Sodium perborate or sodium percarbonate (bleach): 10-20%. Enzymes (protease, lipase, amylase — protein, fat, starch stain removal): 0.5-2%. Optical brighteners: 0.1-0.3%. Sodium sulfate (filler/bulking agent): balance to 100%. The builder is critical — without it, surfactant efficiency drops dramatically in hard water. Phosphate builders (STPP) are most effective but cause eutrophication in waterways — zeolite A is the modern replacement.
 
-### Glycerol Recovery
+## Glycerol Recovery
 
 Glycerol (C₃H₈O₃, 1,2,3-propanetriol) is the critical byproduct of saponification. Before synthetic glycerol, soap making was the only source — and wartime demand for nitroglycerin explosives made glycerol recovery strategically essential.
 
@@ -137,7 +137,7 @@ Glycerol (C₃H₈O₃, 1,2,3-propanetriol) is the critical byproduct of saponif
 - **Cosmetics**: Moisturizer, skin protectant in soaps, lotions, and shaving products.
 - **Dynamite**: Nitroglycerin absorbed onto diatomaceous earth or other porous material produces dynamite — safer to handle than liquid nitroglycerin. Glycerol supply chain directly determines explosives manufacturing capacity.
 
-### Synthetic Detergents
+## Synthetic Detergents
 
 Soap has a critical limitation: in hard water, calcium and magnesium ions precipitate soap as insoluble "soap scum" (calcium/magnesium salts of fatty acids). Synthetic detergents — surfactants derived from petroleum or oleochemical feedstocks — resist hard water precipitation and function across a wider pH range.
 
@@ -170,7 +170,7 @@ Soap has a critical limitation: in hard water, calcium and magnesium ions precip
 - **Sodium citrate**: Mild builder, biodegradable. Used in "eco" formulations. Less effective than STPP or zeolite at high water hardness.
 - **Sodium carbonate (washing soda)**: Provides alkalinity and precipitates calcium as CaCO₃. Cheap but produces insoluble precipitate (deposits on fabrics and machine parts). Best as co-builder rather than primary.
 
-### Specialty Soaps
+## Specialty Soaps
 
 **Textile scouring soap**:
 - Raw wool contains 30-50% impurities: lanolin (wool wax), suint (dried sweat, water-soluble), dirt, vegetable matter. Scouring removes these before carding, spinning, and dyeing. Use warm (45-55°C) aqueous solution of KOH soft soap or nonionic surfactant (0.5-2% concentration). Multiple wash stages: first scour (heavy soil removal), second scour (residual wax), rinse. Recover lanitin from spent scouring liquor by acidification and centrifugation — lanolin is a valuable byproduct used in cosmetics and corrosion inhibitors. Cotton scouring removes natural waxes and pectins using NaOH solution (1-3% at 90-100°C under pressure) — not soap but related alkaline cleaning.
@@ -186,7 +186,7 @@ Soap has a critical limitation: in hard water, calcium and magnesium ions precip
 **Floating soap and translucent soap**:
 - Floating soap: whip air into the soap mass before molding. Reduces density to ~0.9 g/cm³ — soap floats in water. Historically an accidental discovery during over-mixing, later commercialized. Translucent soap: dissolve soap in alcohol, let alcohol evaporate slowly — slow recrystallization produces transparent or translucent bars. Both are novelty products with no functional advantage but significant commercial history.
 
-### Applications Table
+## Applications Table
 
 | Application | Product Type | Key Properties | Notes |
 |-------------|-------------|----------------|-------|
@@ -200,7 +200,7 @@ Soap has a critical limitation: in hard water, calcium and magnesium ions precip
 | Medical/hygiene | Antimicrobial soap (chlorhexidine, PCMX) | Broad-spectrum antimicrobial | Additive to soap base |
 | Explosives feedstock | Glycerol (from spent lye) | Nitration to nitroglycerin | Strategic wartime material |
 
-### Safety
+## Safety
 
 - **NaOH and KOH handling**: Concentrated lye solutions (30-50%) cause severe chemical burns. Dissolve lye pellets in water slowly — the dissolution is strongly exothermic (solution temperature can exceed 90°C). Always add lye to water, never the reverse (prevents violent spattering). Wear chemical splash goggles, nitrile or neoprene gloves, and long sleeves. If skin contact occurs, flush with copious cool water for 15+ minutes.
 - **Exothermic saponification**: The fat + lye reaction releases heat. In cold process, this is moderate (internal temperature 60-70°C during gel phase). In hot process and kettle process, the combination of external heating plus reaction heat can cause boiling and splattering. Add lye to fat gradually with continuous stirring.
@@ -210,7 +210,7 @@ Soap has a critical limitation: in hard water, calcium and magnesium ions precip
 - **Benzene exposure** (LAS production): Benzene is a confirmed human carcinogen (leukemia). Alkylation units handling benzene require closed systems, vapor recovery, and exposure monitoring. Occupational exposure limit: 0.5-1 ppm (8-hour TWA). Any detectable benzene in air warrants investigation.
 - **Ethylene oxide** (ethoxylated surfactants): Ethylene oxide is a flammable gas (explosive range 3-100% in air), a confirmed carcinogen, and a reproductive toxin. Ethoxylation reactors operate under nitrogen atmosphere at 10-20 bar, 120-180°C. Strict containment, continuous gas monitoring, and emergency scrubbers required.
 
-### Scale and Economics
+## Scale and Economics
 
 - **Small-scale (cold process)**: 5-50 kg/batch. Equipment: stainless steel or enamel pot, stick blender, silicone molds, scale. Capital cost: <$500. Throughput limited by curing time (4-6 weeks). Suitable for community-scale production.
 - **Medium-scale (kettle process)**: 1-5 tonnes/batch. Equipment: iron or steel kettle (2-5 m³), steam heating, mechanical stirrer, salt supply, pressing frames. Capital cost: $5,000-20,000. Batch cycle: 1-2 days saponification + graining, plus pressing and drying. Glycerol recovery adds distillation equipment ($10,000-50,000). Suitable for regional production.
@@ -218,7 +218,7 @@ Soap has a critical limitation: in hard water, calcium and magnesium ions precip
 - **Detergent plant (LAS)**: 20,000-100,000 tonnes/year. Requires sulfonation unit, spray-drying tower, and blending/packaging lines. Capital cost: $10-50 million. Feedstock cost dominates (petroleum-derived alkenes, benzene). Co-located with petroleum refinery or chemical complex for feedstock access.
 - **[Fat/oil feedstock is the primary cost driver](../glossary/fatoil-feedstock-is-the-primary-cost-driver.md)** for all soap production. Tallow prices track beef production. Coconut oil and palm oil prices track tropical agriculture. A tonne of finished bar soap requires ~750-800 kg of fat/oil feedstock. Synthetic detergents are less dependent on agricultural commodities but tie to petroleum markets.
 
-### Bootstrap Sequence
+## Bootstrap Sequence
 
 Soap production scales with the alkali supply chain. The progression is:
 

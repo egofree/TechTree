@@ -20,7 +20,7 @@ Domestic turkeys (*Meleagris gallopavo*) are the largest poultry species commonl
 | Secure fencing (1.5-2 m high) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Turkeys can fly over low fences |
 | Oyster shell and grit | [`mining`](../mining/processing.md) | Free-choice for breeders |
 
-### Bill of Materials
+## Bill of Materials
 
 Materials listed for a 20-bird heritage turkey flock per year.
 
@@ -32,7 +32,7 @@ Materials listed for a 20-bird heritage turkey flock per year.
 | Fencing (1.5-2 m) | Perimeter | [`metals`](../metals/index.md) | Electric fencing for predator control |
 | Bedding (straw/shavings) | 200-300 kg | [`plants`](../plants/index.md) | Deep litter in shelter |
 
-### Breeds
+## Breeds
 
 **Heritage breeds** (naturally mating, slow growth):
 Heritage turkeys maintain the ability to breed naturally, forage actively, and live normal lifespans. They grow to market weight in 24-30 weeks, yielding a more flavorful but leaner carcass than commercial types.
@@ -48,7 +48,7 @@ Selected for rapid growth and maximum breast meat yield. Cannot mate naturally d
 - **Broad Breasted Bronze**: Large, coppery-bronze plumage. Toms 15-20 kg at maturity, hens 8-12 kg. Fast-growing, heavy breast yield. Most common commercial variety.
 - **Broad Breasted White**: White-feathered commercial standard. Toms 16-22 kg, hens 8-14 kg. White feathers leave clean skin appearance after plucking. Industry standard for supermarket production.
 
-### Housing and Range
+## Housing and Range
 
 **Indoor housing**:
 Turkeys need taller housing than chickens — minimum 1.2 m ceiling height. Allow 0.5-0.7 m² per bird for growing turkeys, 0.8-1.0 m² for breeding adults. Roosts should be 60-90 cm high with flat boards (8-10 cm wide) rather than round perches — turkeys have large feet and need stable footing. Floor bedding: 10-15 cm of wood shavings or straw, replaced or topped up regularly. Ventilation must be excellent — turkeys are susceptible to respiratory disease in damp, ammonia-laden air.
@@ -59,7 +59,7 @@ Turkeys are active foragers and need significantly more space than chickens. Min
 **Separation from chickens**:
 Turkeys MUST be housed separately from chickens. Blackhead disease (*Histomonas meleagridis*) is carried asymptomatically by chickens but is frequently fatal to turkeys. The protozoan is transmitted through cecal nematode eggs (*Heterakis gallinarum*). Turkeys infected with blackhead develop liver necrosis and cecal lesions with 70-100% mortality. Maintaining separate facilities with at least 30 m distance between turkey and chicken housing is essential. Do not range turkeys on ground previously used by chickens — *Heterakis* eggs survive in soil for 3+ years.
 
-### Feeding and Nutrition
+## Feeding and Nutrition
 
 **Starter ration** (0-8 weeks):
 28-30% protein for rapid early growth. Crumble form preferred over mash for poults. Feed ad libitum. Poults are notoriously slow to start eating and drinking — place feed on shallow trays or cardboard for the first few days so they can see it easily. Add clean marbles or small stones to water dishes to prevent drowning and attract attention to the water. Starter feed consumption: approximately 1-1.5 kg per poult over 8 weeks.
@@ -76,7 +76,7 @@ Turkeys MUST be housed separately from chickens. Blackhead disease (*Histomonas 
 **Foraging contribution**:
 On good range, turkeys obtain 20-40% of their diet from forage (insects, seeds, vegetation, small amphibians) during spring through autumn. This significantly reduces purchased feed costs and improves meat flavor. Range-fed turkeys develop darker, more flavorful meat with higher omega-3 fatty acid content.
 
-### Reproduction
+## Reproduction
 
 **Egg production**:
 Heritage turkey hens lay 80-120 eggs per year in a seasonal pattern (spring through mid-summer). Commercial breeds lay fewer eggs (60-80 per year). Eggs weigh 70-80 g with speckled brown or cream shells. Turkey eggs are edible and nutritionally similar to chicken eggs but are rarely eaten because each egg represents significant potential for meat production.
@@ -87,7 +87,7 @@ Heritage turkey hens lay 80-120 eggs per year in a seasonal pattern (spring thro
 **Poult care** (0-6 weeks):
 Poults are more fragile than chicks during the first 2 weeks. Brooding temperature: start at 35-38°C, reduce by 3°C per week until ambient temperature reached. Critical: poults must learn to eat and drink quickly. Dip each poult's beak in water upon placement to teach drinking. Place feed on visible flat surfaces. Keep brooder draft-free but well-ventilated. Mortality can reach 10-20% in first 2 weeks if management is poor — good brooding practices reduce this to under 5%. Guard rings or brooder surrounds prevent piling in corners.
 
-### Growth and Processing
+## Growth and Processing
 
 **Growth timeline**:
 - Heritage breeds: market weight (6-12 kg) at 24-30 weeks
@@ -100,7 +100,7 @@ Dressed yield is approximately 75-80% of live weight. Breast meat constitutes 25
 **Seasonal breeding**:
 Unlike chickens, turkeys are seasonal breeders. Egg production begins in spring as daylight hours increase and ceases by mid-summer. This natural cycle means turkey meat is traditionally a late-summer through autumn product. Artificial lighting (14-16 hours per day) can extend the laying season for commercial production.
 
-### Health and Disease
+## Health and Disease
 
 **[Blackhead disease](../glossary/blackhead-disease.md)** (*Histomonas meleagridis*):
 The most critical disease concern for turkeys. Transmitted by cecal worm (*Heterakis gallinarum*) eggs ingested from contaminated soil or earthworms. Symptoms: sulfur-yellow droppings, lethargy, darkened skin of head (cyanosis), weight loss. Mortality: 70-100% in turkeys. Prevention: strict separation from chickens, avoid ranging on land used by chickens within the past 3 years. No reliable treatment available in many regions — prevention is the only strategy.
@@ -114,11 +114,11 @@ Protozoan intestinal parasite. Prevent with clean, dry bedding and coccidiostat 
 **Predation**:
 Poults are vulnerable to all predators (hawks, owls, foxes, raccoons, cats, dogs). Growing and adult turkeys are large enough to deter most aerial predators but remain vulnerable to foxes, coyotes, and free-roaming dogs. Secure housing at night is essential — turkeys are calm and easily captured by predators after dark. Electric fencing around range areas significantly reduces losses.
 
-### Manure Management
+## Manure Management
 
 Turkey manure is nutrient-dense: approximately 1.3% nitrogen, 1.0% phosphorus, 0.5% potassium (NPK 1.3-1.0-0.5). Fresh manure is too hot (high ammonia) for direct garden application. Compost with carbon-rich bedding (straw, wood shavings) for 3-6 months before use. One adult turkey produces approximately 25-35 kg of manure per month. Composted turkey manure is an excellent nitrogen source for vegetable production.
 
-### Cross-Domain Links
+## Cross-Domain Links
 
 - **[animals.poultry](poultry.md)** — shared poultry infrastructure, biosecurity, and feed formulation
 - **[animals.domestication](domestication.md)** — animal husbandry principles and predator protection
@@ -126,7 +126,7 @@ Turkey manure is nutrient-dense: approximately 1.3% nitrogen, 1.0% phosphorus, 0
 - **[plants.agriculture](../plants/index.md)** — range management, pasture rotation, feed crop production
 - **[foundations.soil](../foundations/index.md)** — manure composting and soil amendment
 
-### Safety
+## Safety
 
 **Handling**:
 Toms can become aggressive during breeding season, especially heritage breeds. A 15 kg tom can inflict significant injury with spurs and wings. Use a catch net or hook for aggressive birds. Handle poults gently — they stress easily and can pile, smothering birds at the bottom.
@@ -137,7 +137,7 @@ Maintain strict separation from chickens (blackhead disease). Disinfect footwear
 **Processing safety**:
 Turkeys are large birds requiring sturdy processing equipment. Sharp knives, a clean killing cone or restrained slaughter setup, and adequate scalding water (60-65°C for 30-60 seconds) for feather removal. Large toms may require two people for safe handling during processing.
 
-### Egg and Breeding Management
+## Egg and Breeding Management
 
 **Egg handling and incubation**: Turkey eggs (70-80 g, speckled brown or cream) should be collected at least twice daily and stored pointed-end-down at 12-15°C with 75-80% relative humidity for up to 7-10 days before setting in the incubator. Turn stored eggs 90° twice daily to prevent yolk adhesion. Incubator settings: 37.5°C, 55-60% humidity for days 1-25, turning 3-5 times daily. Increase to 65-70% humidity for days 26-28 (lockdown). Hatch rate from fertile eggs: 70-85% with proper incubation. Cool eggs for 5-10 minutes daily after day 10 (opening the incubator briefly) to mimic the hen leaving the nest — this improves hatch rates by 3-5% in turkey eggs.
 
@@ -145,7 +145,7 @@ Turkeys are large birds requiring sturdy processing equipment. Sharp knives, a c
 
 **Breeding flock management**: Maintain a breeding ratio of 1 tom per 8-10 hens for heritage breeds. Toms become territorial during breeding season — house breeding groups separately to prevent fighting. Select breeding stock based on: conformation (broad breast, straight back, sound legs), growth rate (select fastest-growing 20% of toms and largest-framed 20% of hens), and disease history (never breed from birds that have survived blackhead or respiratory disease). Heritage turkeys maintain fertility for 3-5 years, with peak reproduction in years 2-3. Replace 20-25% of the breeding flock annually with young stock to maintain vigor.
 
-### Historical Development
+## Historical Development
 
 Wild turkeys (*Meleagris gallopavo*) were first domesticated by indigenous peoples of Mesoamerica approximately 2,000-2,500 years ago. Archaeological evidence from the Maya region (Guatemala, Mexico) dates turkey remains in domestic contexts to 200 BCE.
 
@@ -161,7 +161,7 @@ The Standard Bronze was the dominant commercial turkey in the United States from
 
 Heritage breeds nearly disappeared by the 1990s (fewer than 1,500 breeding Narragansett turkeys remained) but have experienced a revival through the Slow Food movement and farm-to-table demand, with breeding populations now exceeding 10,000 for the major heritage varieties.
 
-### Regional Adaptations
+## Regional Adaptations
 
 **Cold climate management**: Turkeys are surprisingly cold-hardy once mature — heritage breeds tolerate temperatures to -20°C with dry, draft-free shelter and adequate feed. Increase feed by 15-20% during sustained cold (below -10°C) as metabolic rate rises to maintain body temperature.
 
@@ -175,7 +175,7 @@ In subtropical regions, schedule breeding for autumn poults that mature during t
 
 Oak woodland provides exceptional turkey range — a mature oak tree produces 20-70 kg of acorns per year, and turkeys consume acorns enthusiastically, gaining 100-200 g of additional weight per week during the autumn mast drop compared to pasture-only birds.
 
-### Processing and Products
+## Processing and Products
 
 **Turkey processing**: Slaughter at 14-30 weeks depending on breed type. Scald at 60-65°C for 30-60 seconds (longer than chickens due to heavier feathering). Large toms may require two people for safe handling during processing.
 
@@ -193,7 +193,7 @@ Turkey "beards" (the modified feather cluster on the chest of toms, 15-25 cm lon
 
 Turkey jerky: slice breast meat 5-8 mm thick, marinate in salt/soy sauce solution (4-5% salt, 12-24 hours), dehydrate at 60-70°C for 4-8 hours to moisture content below 20%. Yield: 30-35% of fresh breast weight becomes jerky.
 
-### Record Keeping
+## Record Keeping
 
 **Growth tracking**: Weigh a sample of 15-20 birds weekly from hatch to processing. Heritage breeds should follow a growth curve reaching 200-300 g/week gain during weeks 8-16. Commercial breeds gain 350-500 g/week during the same period.
 
@@ -211,7 +211,7 @@ Common mortality causes by age: 0-2 weeks (starvation/dehydration from failure t
 
 Maintain a treatment log recording all medications administered, including drug name, dose (mg/kg), duration, withdrawal period, and reason for treatment. This is essential for food safety compliance and avoiding drug residues in meat.
 
-### Nutritional Requirements
+## Nutritional Requirements
 
 **Protein requirements by age**: Turkey poults require the highest protein content of any domestic poultry — 28-30% crude protein for the first 8 weeks, declining to 20-24% during weeks 8-16, and 16-18% for finishing. Adult breeder hens require 14-16% protein with 2.5-3.0% calcium during the laying season.
 
@@ -225,7 +225,7 @@ Supplement niacin with brewer's yeast (35 mg/g niacin) at 3-5% of diet if commer
 
 Acorns provide exceptional feed value in autumn — white oak acorns contain 6-8% crude protein and 40-50% carbohydrate by dry weight. Turkeys on oak woodland range gain 100-200 g/week more than pasture-only birds during September-November mast drop.
 
-### Production Metrics
+## Production Metrics
 
 **Growth performance**: Heritage turkey breeds reach 6-12 kg live weight at 24-30 weeks on pasture with a feed conversion ratio of 2.5-3.0 kg feed per kg gain. Commercial broad-breasted types reach 8-18 kg at 14-20 weeks with FCR of 2.0-2.5. Toms grow 30-40% faster and heavier than hens. Dressed yield: 75-80% of live weight — the highest dressing percentage of any common poultry. Breast meat constitutes 25-35% of live weight in commercial types. Heritage hens lay 80-120 eggs per year at 70-80 g each, concentrated in a 12-16 week spring season. Fertility rate in heritage breeds: 85-95% of eggs from naturally mated hens are fertile. Hatch rate from fertile eggs: 70-85%.
 

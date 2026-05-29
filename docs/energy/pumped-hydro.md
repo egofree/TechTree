@@ -18,7 +18,7 @@ Pumped hydroelectric storage is the oldest and most proven large-scale energy st
 - [Gravity Systems](gravity.md) — gravity-based power principles
 - [Water Turbines](water-turbines.md) — reversible pump-turbine design
 
-### Strengths and Weaknesses
+## Strengths and Weaknesses
 
 **Strengths**:
 - Round-trip efficiency 70-85% — the most efficient large-scale energy storage technology
@@ -34,7 +34,7 @@ Pumped hydroelectric storage is the oldest and most proven large-scale energy st
 
 Pumped hydroelectric storage (pumped hydro) is the only practical method for storing energy at the scale required by an industrial civilization. During periods of surplus power generation, water is pumped from a lower reservoir to an upper reservoir. During periods of high demand, the water is released back through a turbine to generate electricity. It is a mechanical battery using water and elevation — simple in principle, massive in scale, and unmatched in longevity (plants routinely operate for 50-100 years). Round-trip efficiency is 70-85%, making it the most efficient large-scale storage technology available.
 
-### Operating Principle
+## Operating Principle
 
 **[Pumping mode](../glossary/pumping-mode.md)** (charging):
 - Surplus electrical power drives a pump-motor unit. Water is drawn from the lower reservoir and pumped uphill to the upper reservoir. The pump adds gravitational potential energy to the water: E = ρ × g × h × V, where ρ = water density (1000 kg/m³), g = 9.81 m/s², h = elevation difference between reservoir surfaces, V = volume pumped.
@@ -46,7 +46,7 @@ Pumped hydroelectric storage (pumped hydro) is the only practical method for sto
 
 **Reversible pump-turbine**: Modern installations use a single machine that operates as a turbine in one direction of rotation and as a pump in the opposite direction. This eliminates the need for separate pump and turbine units, reducing cost and civil works complexity. The motor-generator operates as a motor during pumping and as a generator during generation — the same electrical machine, different operating mode.
 
-### Energy Storage Capacity
+## Energy Storage Capacity
 
 **Energy stored**: E = ρ × g × h × V × η
 
@@ -64,7 +64,7 @@ Where:
 
 **Energy density comparison**: Even at 500 m head, water stores only ~1.36 kWh per cubic meter (before efficiency losses). Pumped hydro requires enormous volumes of water and land. It is viable only where geography provides natural elevation differences.
 
-### Reversible Pump-Turbines
+## Reversible Pump-Turbines
 
 **[Francis pump-turbine](../glossary/francis-pump-turbine.md)** (most common):
 - A Francis turbine runner operates efficiently in reverse as a centrifugal pump. The same spiral casing, runner, and draft tube serve both modes. Rotation direction reverses between pumping and generating.
@@ -80,7 +80,7 @@ Where:
 **[Three-machine sets](../glossary/three-machine-sets.md)** (older installations):
 - Separate pump, turbine, and motor-generator on a common shaft. Allows simultaneous starting of pump while turbine is stopped (the turbine acts as a starting motor via water filling). Simpler individual machines but more complex civil works (three machines in one powerhouse). Largely superseded by reversible units.
 
-### Upper and Lower Reservoirs
+## Upper and Lower Reservoirs
 
 **Upper reservoir**:
 - Natural lake, existing reservoir, or purpose-built basin on elevated ground. Must be watertight — lined with clay, concrete, or geomembrane if the natural geology is permeable.
@@ -98,7 +98,7 @@ Where:
 - Geology: Stable rock formations for dam foundations and underground powerhouse. Impermeable rock or clay to minimize reservoir seepage. Seismic stability — dams must withstand earthquakes.
 - Water supply: While pumped-hydro is essentially a closed loop, initial filling requires water, and ongoing evaporation and seepage must be replaced. A reliable water source (stream, river) at the lower reservoir level is needed.
 
-### Dam Construction
+## Dam Construction
 
 **Upper reservoir dam**:
 - Height determined by storage requirements and topography. Typical heights: 10-100 m for purpose-built basins.
@@ -112,13 +112,13 @@ Where:
 - Cutoff trench: Excavate a deep trench into impermeable material below the dam base and backfill with clay or concrete.
 - Drainage blanket: Layer of gravel and drain pipes downstream of the dam core to safely collect and discharge seepage water.
 
-### Head Requirements
+## Head Requirements
 
 - **Minimum practical head**: ~50 m. Below this, the energy density is too low — enormous reservoir volumes are needed for useful storage.
 - **Optimal head range**: 100-500 m. Balances civil works cost (lower heads require larger reservoirs and larger-diameter penstocks) against equipment cost (higher heads require stronger penstocks and higher-pressure pump-turbines).
 - **Maximum head**: ~700-1000 m with multi-stage pump-turbines. Single-stage Francis machines become impractical above ~600-700 m due to excessive runner peripheral speed and cavitation risk. Multi-stage machines stack two or more runners on a common shaft, each handling a fraction of the total head.
 
-### Grid Applications
+## Grid Applications
 
 **Peak shaving**: Store cheap off-peak power and generate during peak demand periods. Economics depend on the price spread between off-peak and peak electricity — the wider the spread, the more profitable pumped hydro.
 
@@ -130,7 +130,7 @@ Where:
 
 **Capacity factor**: Typical pumped-hydro units cycle daily. Annual capacity factor: 10-25% (not continuously generating — spends significant time pumping or idle). High capital cost but very low operating cost per cycle.
 
-### Safety and Hazards
+## Safety and Hazards
 
 - **Dam failure**: Both upper and lower reservoir dams must be designed and maintained to prevent catastrophic failure. A dam breach at the upper reservoir releases the full stored volume downhill — potentially devastating. Regular inspection (annual visual, detailed engineering every 5-10 years), instrumentation (piezometers to monitor seepage, survey markers to detect settlement), and emergency action plans.
 - **Penstock rupture**: The penstock (pipe connecting upper reservoir to powerhouse) operates at high pressure. A rupture releases the full static head of water through the breach. Steel penstocks require regular inspection for corrosion, weld cracks, and wall thinning. Pressure relief valves and emergency shutdown gates.
@@ -138,14 +138,14 @@ Where:
 - **Confined spaces**: The powerhouse, penstock gallery, and valve chambers are confined spaces. Atmospheric testing (oxygen, hydrogen sulfide, carbon monoxide) before entry. Ventilation, rescue equipment, and buddy system required.
 - **Pump-turbine runaway**: If load is lost during generating mode and the guide vanes fail to close, the unit accelerates to runaway speed. Overspeed trip bolts and independent guide-vane closing systems prevent this. Test all protection systems regularly.
 
-### Cross-References
+## Cross-References
 
 - **Water turbines for generating mode**: [water-turbines.md](water-turbines.md)
 - **Energy storage overview**: [storage.md](storage.md)
 - **Grid infrastructure**: [electricity.md](electricity.md)
  - **Dam and civil engineering foundations**: [Foundations](../foundations/index.md)
 
-### Reversible Pump-Turbine Design
+## Reversible Pump-Turbine Design
 
 The Francis-type reversible pump-turbine is the standard machine for pumped hydro. The runner (3-6 m diameter for medium installations) has curved vanes that function efficiently in both directions of rotation. In generating mode, water enters radially through a spiral casing, passes through adjustable guide vanes (wicket gates) that control flow, turns 90° through the runner, and exits axially into the draft tube. In pumping mode, the sequence reverses: the motor drives the runner in the opposite direction, drawing water up through the draft tube and discharging radially through the spiral casing into the penstock.
 
@@ -153,7 +153,7 @@ Operating speed for grid-connected units must be synchronous: 300, 333, 375, 428
 
 Generator-motor efficiency runs 95-98% in both modes. Combined with hydraulic efficiency of 85-92% for the pump-turbine, this gives the overall round-trip efficiency of 70-85%. Large units (100+ MW) tend toward the upper end of each range due to reduced relative losses. The motor-generator is typically a vertical-shaft synchronous machine mounted directly above the pump-turbine, with the shaft running through the bearing housing. Thrust bearing (supports the entire rotating mass plus hydraulic downthrust) is one of the most critical components: Kingsbury or tilting-pad type, oil-lubricated, rated for loads of 500-5000 tonnes depending on unit size.
 
-### Penstock Construction
+## Penstock Construction
 
 The penstock carries water between the upper reservoir and the powerhouse under full static head pressure. Material and construction depend on head and diameter:
 
@@ -170,7 +170,7 @@ The penstock carries water between the upper reservoir and the powerhouse under 
 - Corrosion protection: Interior coating with coal tar epoxy or cement mortar lining. Exterior painting or wrapping. Cathodic protection (sacrificial zinc or magnesium anodes, or impressed current) for buried sections.
 - Pressure rating must include water hammer allowance. Sudden closure of turbine guide vanes can generate a pressure surge of 10-50% above static head, depending on closure time and penstock length. Surge tanks or pressure relief valves mitigate this.
 
-### Surge Tank
+## Surge Tank
 
 A surge tank is a vertical shaft or standpipe connected to the penstock near the powerhouse, designed to absorb pressure transients from rapid load changes:
 
@@ -178,7 +178,7 @@ A surge tank is a vertical shaft or standpipe connected to the penstock near the
 - **Sizing**: Surge tank cross-sectional area must be large enough to keep the maximum surge level below the tank top and the minimum surge level above the penstock connection. A rule of thumb: the surge tank area should be 1.5-3× the penstock cross-sectional area. The volume between maximum and minimum surge levels should accommodate the full kinetic energy of the water column in the penstock (½ρALv², where A is penstock area, L is penstock length, v is water velocity).
 - **Restricted orifice surge tank**: An orifice plate at the base of the surge tank throttles flow in and out, providing additional damping. The orifice area is typically 30-50% of the penstock area. Higher damping means faster oscillation decay but more energy loss during transients.
 
-### Head Loss Calculation
+## Head Loss Calculation
 
 Friction losses in the penstock reduce the effective head available at the turbine. The Hazen-Williams formula provides a practical estimate:
 
@@ -194,7 +194,7 @@ For a penstock of total length L, total head loss: H_f = h_f × L. The net effec
 
 Minor losses from bends, valves, and transitions add 5-15% to the straight-pipe friction loss. Each bend contributes a loss of K × v² / (2g), where K = 0.1-0.5 depending on bend angle and radius.
 
-### Site Selection Criteria
+## Site Selection Criteria
 
 Practical pumped hydro site evaluation requires matching four parameters:
 
@@ -203,7 +203,7 @@ Practical pumped hydro site evaluation requires matching four parameters:
 - **Horizontal distance between reservoirs**: Shorter is better. The ratio of head to horizontal distance (the "head-to-distance ratio") determines penstock length and cost. A site with 300 m head over 1 km horizontal distance (ratio 0.3) is far more economical than 300 m over 5 km (ratio 0.06). Steep terrain near river valleys or coastal cliffs offers the best ratios.
 - **Geological stability**: Bedrock capable of supporting dam foundations and (for underground powerhouses) stable rock for tunneling. No active faulting. Low permeability for the upper reservoir basin (or economically amendable with clay or geomembrane lining). Seismic risk assessment mandatory.
 
-### Powerhouse Design
+## Powerhouse Design
 
 The powerhouse houses the pump-turbine, motor-generator, and associated equipment. For a pumped hydro installation, it is typically located at the lower reservoir level, either surface or underground:
 
@@ -211,7 +211,7 @@ The powerhouse houses the pump-turbine, motor-generator, and associated equipmen
 - **Underground powerhouse**: Excavated cavern in stable rock, accessible by tunnel. Unaffected by surface weather, flooding, or landslides. Permits shorter penstock runs (the tunnel to the upper reservoir can follow the most direct underground route). Common for high-head installations in mountainous terrain. Cavern dimensions for a 100 MW unit: approximately 20 m wide × 40 m tall × 50 m long. Requires ventilation shaft and access tunnel.
 - **Auxiliary systems**: Cooling water system for generator bearings and transformers (heat exchanger using lower reservoir water). Compressed air system for turbine dewatering (blowing water out of the runner to reduce drag when spinning in air during pump startup). Governor system (hydraulic actuator controlling wicket gate position to regulate turbine speed and power output).
 
-### Environmental Considerations
+## Environmental Considerations
 
 Pumped hydro storage has a large physical footprint and several environmental impacts to manage:
 
@@ -220,7 +220,7 @@ Pumped hydro storage has a large physical footprint and several environmental im
 - **Evaporation losses**: Open reservoirs lose water to evaporation at 2-6 mm per day depending on climate (arid regions lose more). For a 10-hectare upper reservoir in a semi-arid climate: 10,000 m² × 4 mm/day = 40 m³/day lost, or ~14,600 m³/year. This must be replaced from a water source at the lower reservoir level. Net consumptive water use is modest compared to thermal power plant cooling but is not zero.
 - **Fish passage**: If the lower reservoir is on a river, fish passage (fish ladders or lifts) around the lower dam may be required to maintain migratory fish populations.
 
-### Limitations
+## Limitations
 
 - **Geography dependency**: Requires significant elevation difference (100-1000+ m) between upper and lower reservoirs with suitable terrain. Few sites meet requirements.
 - **Long construction time**: 5-10 years for major pumped hydro projects. Civil engineering on the scale of major dams.

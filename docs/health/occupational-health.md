@@ -3,7 +3,7 @@
 > **Node ID**: health.occupational-health
 > **Domain**: [Health](./index.md)
 > **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`health.medicine`](medicine.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`health.medicine`](medicine.md), [`mining.processing`](../mining/processing.md)
 > **Timeline**: Years 10-25
 > **Outputs**: hazard_controls, exposure_monitoring, protective_equipment, safety_protocols
 > **Critical**: No — reduces chronic illness and disability but production can proceed at higher human cost without formal occupational health programs
@@ -11,6 +11,12 @@
 ## Problem
 
 Industrial processes generate hazards: toxic fumes from smelting, silica dust from mining and glassmaking, noise from forging and machining, chemical exposures from acid production and electroplating, radiation from welding and X-ray sources. Without systematic hazard identification and control, workers suffer chronic illness, disability, and premature death. Occupational health practice applies a control hierarchy (eliminate, substitute, engineer, administrate, protect) to reduce exposures to safe levels. This page covers the specific hazards encountered in bootstrapping an industrial civilization and the control measures for each.
+
+## Prerequisites
+
+- [Acids](../chemistry/acids.md) — acid production and handling hazards
+- [Medicine](medicine.md) — medical treatment and surveillance programs
+- [Mining / Processing](../mining/processing.md) — dust and ventilation controls
 
 ## Hazard Identification
 
@@ -221,8 +227,28 @@ Injury and illness logs (OSHA 300 log or equivalent) track every recordable inci
 
 Training records document who received what training, when, and from whom. Refresher training intervals: annual for hazard communication and respiratory protection, periodic for lockout/tagout (whenever procedures change or when audits reveal deficiencies), and initial for all new hires before they begin work with hazardous materials or equipment.
 
----
+## Emergency Response
 
-**Emergency Response**: Every industrial facility needs an emergency action plan covering fire (extinguisher types: ABC dry chemical for general, CO₂ for electrical, water for paper/wood only), chemical spill (absorbent materials, neutralization agents, evacuation distances for toxic releases — H₂SO₄ spill: evacuate 50 m radius minimum), medical emergency (first aid station location, AED placement within 3-minute walk of any point, emergency phone numbers posted), and rescue (confined space rescue team with SCBA, rope rescue capability for elevated work). Drill frequency: fire evacuation quarterly, chemical release annually, full response exercise annually.
+Every industrial facility needs an emergency action plan covering fire (extinguisher types: ABC dry chemical for general, CO₂ for electrical, water for paper/wood only), chemical spill (absorbent materials, neutralization agents, evacuation distances for toxic releases — H₂SO₄ spill: evacuate 50 m radius minimum), medical emergency (first aid station location, AED placement within 3-minute walk of any point, emergency phone numbers posted), and rescue (confined space rescue team with SCBA, rope rescue capability for elevated work). Drill frequency: fire evacuation quarterly, chemical release annually, full response exercise annually.
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Workers reporting headaches/dizziness | CO exposure, poor ventilation, or solvent vapors | Evacuate area immediately; test air for CO (<50 ppm PEL); increase ventilation rate; check exhaust fan operation |
+| Persistent cough among foundry workers | Silica or metal fume exposure above PEL | Issue N95 or P100 respirators; install local exhaust ventilation at melt furnace; implement rotation schedule to reduce exposure time |
+| Hearing loss on annual audiograms | Noise exposure exceeding 85 dBA TWA | Install engineering controls (enclosures, dampeners); enforce hearing protection in >85 dBA zones; post noise hazard signage |
+| Skin dermatitis from chemical handling | Direct contact with acids, alkalis, or solvents | Mandate chemical-resistant gloves (nitrile for solvents, neoprene for acids); install emergency eyewash and shower within 10 seconds travel |
+| Lead levels rising in blood tests | Inadequate hygiene or engineering controls in lead areas | Separate eating/smoking areas from work zones; install HEPA vacuum for dust; enforce hand washing; review PPE program |
+| Repeated near-misses on same machine | Machine guarding deficiency or procedural gap | Conduct incident investigation; install or repair physical guards; retrain operators; add interlock if feasible |
+
+## See Also
+
+- [Medicine](medicine.md) — medical treatment infrastructure and capabilities
+- [Acids](../chemistry/acids.md) — acid production, handling, and burn treatment
+- [Mining / Processing](../mining/processing.md) — mine ventilation and dust control
+- [Metals / Steelmaking](../metals/steelmaking.md) — fume and heat exposure controls
+- [Chemistry / Electroplating](../electrochemistry/electroplating.md) — cyanide and heavy metal exposure
+- [Ceramics / Kiln Firing](../ceramics/kiln-firing.md) — silica dust and heat stress
+
+[← Back to Health](index.md)

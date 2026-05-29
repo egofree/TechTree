@@ -8,6 +8,19 @@
 > **Outputs**: automated_machines, punch_cards
 > **Critical**: No — computing enhances capability but is not strictly required for survival
 
+### Problem
+
+Before electronic computers, automated computation and control require electromechanical systems — relays, cams, solenoids, and punch card machines that process information using physical motion rather than electron flow. These machines bridge the gap between purely mechanical automation (gears and cams) and electronic computing (transistors and integrated circuits). Relay logic can perform any Boolean operation; punch card systems can sort, tabulate, and process datasets of millions of records; magnetic drums provide random-access storage. The challenge is that electromechanical devices are slow (relay switching at 5-15 ms vs. transistors at nanoseconds), power-hungry (1-4 kW for a 2,000-relay computer), and failure-prone (MTBF ~10⁷ operations per relay). Understanding these systems is essential for the computing bootstrap path from mechanical to electronic.
+
+### Prerequisites
+
+- [Mechanical computing](mechanical.md) — cams, linkages, governors, and mechanical automation
+- [Electricity](../energy/electricity.md) — power generation and distribution for relay and solenoid systems
+- [Iron and steel](../metals/iron-steel.md) — relay contacts, cam blanks, spring wire, armature cores
+- [Copper wire](../metals/copper.md) — relay coils, motor windings, solenoid coils
+- [Paper production](../foundations/paper.md) — punch card stock and paper tape
+- [Precision machining](../machine-tools/index.md) — cam profiles, drum bearings, relay armature tolerances
+
 ### Automation & Control
 
 **Cams and followers**:
@@ -200,7 +213,29 @@
 - **Exchange sizing**: A 1,000-line exchange uses 100 two-motion selectors (10 groups of 10). Each subscriber line connects to a line finder (which hunts for an idle selector when the subscriber lifts the handset). The selector then receives dialed pulses and routes the call. For 10,000 subscribers, add a second selector stage: first two digits route through a "group selector" to one of 100 final selectors, last two digits select the line. Switching time: 2-5 seconds per digit.
 - **Mechanical life**: Each selector performs millions of stepping operations. Contact wear and wiper alignment drift require periodic maintenance. A 10,000-line exchange contains roughly 200-400 selectors and requires full-time maintenance staff.
 
----
+### Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Relay contacts stuck closed | Welding from inrush current or arc damage | Replace relay; add arc suppressor (RC snubber or diode) across load |
+| Intermittent relay operation | Oxidized or pitted contact surfaces | Clean contacts with burnishing tool; replace if pitting severe |
+| Punch card misreads | Card warp, worn pins, chad (confetti) in reader | Use flat, undamaged cards; clean reader mechanism; blow out chad |
+| Magnetic drum read errors | Head gap too large, oxide wear, surface contamination | Adjust head spacing to 5-25 μm; re-coat drum; clean with isopropyl alcohol |
+| Strowger switch misrouted calls | Wiper alignment drift, contact corrosion | Realign wiper assembly; clean contacts; check pulse timing from dial |
+| Teletype garbled output | Motor speed drift, timing misalignment | Check synchronous motor speed; adjust stop bit timing; verify baud rate |
+| Cam follower skipping | Worn cam surface or weak return spring | Re-harden cam surface; replace follower spring; check lubrication |
+| Excessive relay coil heating | Overvoltage or continuous duty beyond rating | Verify supply voltage matches coil rating; check for shorted turns; add heat sink |
+
+### See Also
+
+- [Mechanical Computing](mechanical.md) — cams, linkages, and pre-electrical automation
+- [Electronic Computing](electronic.md) — transistor-based computing that replaced relay systems
+- [Data Storage](data-storage.md) — punch cards, magnetic media, and solid-state storage
+- [Electricity](../energy/electricity.md) — power generation for electromechanical systems
+- [Precision Instruments](../measurement/precision-instruments.md) — meters, galvanometers, and measurement
+- [Telecom / Radio](../telecom/radio.md) — telegraph and telephone switching systems
+- [Metals / Iron and Steel](../metals/iron-steel.md) — relay frames, contacts, and spring materials
+- [Machine Tools](../machine-tools/index.md) — cam cutting, precision boring, and grinding
+
+[← Back to Computing](index.md)
 

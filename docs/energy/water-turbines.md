@@ -8,11 +8,11 @@
 > **Outputs**: hydraulic_power, electrical_generation, high_rpm_rotation
 > **Critical**: No — water turbines provide efficient hydroelectric generation but are limited to sites with suitable head and flow
 
-### Overview
+## Overview
 
 Water turbines replace water wheels where higher heads, higher efficiencies, and faster rotation speeds are needed. They convert the gravitational potential energy of falling water into continuous rotary motion at 100-1000+ RPM — directly usable for electrical generators without the massive gear reductions that water wheels require. All turbine types require iron or steel construction and precision machining, making them dependent on the machine-tools stage. For lower-head applications with simpler construction, see [gravity.md](gravity.md) for water wheel types.
 
-### Pelton Wheel (Impulse Turbine)
+## Pelton Wheel (Impulse Turbine)
 
 **Principle**: One or more high-velocity water jets from a nozzle strike spoon-shaped buckets mounted on the perimeter of a runner. All pressure conversion to kinetic energy happens at the nozzle — the runner operates in atmospheric pressure (not submerged). The jet's momentum transfers to the bucket, spinning the runner.
 
@@ -42,7 +42,7 @@ Water turbines replace water wheels where higher heads, higher efficiencies, and
 - Nozzle erosion from high-velocity water with suspended sediment needs periodic repair
 - Single-jet units have poor efficiency below 30% of rated flow
 
-### Francis Turbine (Reaction Turbine)
+## Francis Turbine (Reaction Turbine)
 
 **Principle**: Water enters the runner radially from a spiral casing (volute), passes through adjustable guide vanes (wicket gates) that direct flow at the optimal angle, then flows through the curved runner blades and exits axially downward through a draft tube. Both pressure and velocity drop across the runner — it is a true reaction machine. The runner is fully submerged in water; the entire casing is pressurized.
 
@@ -69,7 +69,7 @@ Water turbines replace water wheels where higher heads, higher efficiencies, and
 - Cavitation risk if runner is not set sufficiently below tailwater level
 - Efficiency drops steeply below 50% of rated flow — poor for highly variable flow sites
 
-### Kaplan Turbine (Axial-Flow Reaction Turbine)
+## Kaplan Turbine (Axial-Flow Reaction Turbine)
 
 **Principle**: Propeller-type runner with adjustable blade pitch. Water flows axially (horizontally or vertically) through the runner — no radial component. The blade pitch adjusts automatically to match the flow angle for maximum efficiency across a wide range of flows. Conceptually similar to an outboard motor propeller running in reverse.
 
@@ -98,7 +98,7 @@ Water turbines replace water wheels where higher heads, higher efficiencies, and
 - High cavitation risk at low heads — runner must be set well below tailwater level
 - Requires precision engineering beyond what early machine shops can deliver
 
-### Material Requirements
+## Material Requirements
 
 | Component | Pelton | Francis | Kaplan |
 |-----------|--------|---------|--------|
@@ -108,7 +108,7 @@ Water turbines replace water wheels where higher heads, higher efficiencies, and
 | Shaft | Carbon steel | Carbon or alloy steel | Alloy steel (hollow for blade linkage) |
 | Draft tube | N/A | Steel plate or concrete | Steel plate or concrete |
 
-### Site Selection
+## Site Selection
 
 Choosing the correct turbine type depends entirely on the site's head and flow characteristics:
 
@@ -117,21 +117,21 @@ Choosing the correct turbine type depends entirely on the site's head and flow c
 - **Low head (1-15 m), high flow**: Kaplan turbine. Large rivers, low dams, tidal barrages. Francis turbines are impractical here because the runner diameter would be enormous.
 - **Very low head (<3 m), variable flow**: Bulb turbine (Kaplan variant). Run-of-river on large flat rivers.
 
-### Safety and Hazards
+## Safety and Hazards
 
 - **Cavitation damage**: Causes pitting of runner blades, vibration, and eventual structural failure. Monitor for noise (sounds like gravel in the turbine), vibration, and performance drop. Repair pitted surfaces promptly — cavitation accelerates once pits form (they act as nucleation sites for more bubbles).
 - **Water hammer**: Rapid valve closure on a long penstock creates a pressure shock wave that travels at the speed of sound in water (~1400 m/s). The resulting pressure spike can burst pipes or damage turbine casings. Prevention: surge tanks (standpipe on the penstock that absorbs the shock), slow-closing valves, jet deflectors (Pelton) that reduce power without closing the nozzle.
 - **Runner runaway**: If the generator disconnects from the grid (load rejection) and the wicket gates fail to close, the turbine accelerates to runaway speed — typically 1.8-2.5× rated speed. Centrifugal forces scale with the square of speed — a 2× overspeed quadruples stress. Structural failure is possible. Prevention: governor-closed wicket gates with independent overspeed trip, jet deflectors (Pelton), and emergency gate upstream that can drop closed.
 - **Entrapment and drowning**: Turbine pits and draft tube areas are confined spaces with water hazards. Lock-out/tag-out before entering. Ventilate confined spaces. Never enter a turbine pit without verifying isolation.
 
-### Cross-References
+## Cross-References
 
 - **Water wheels (simpler predecessors)**: [gravity.md](gravity.md)
 - **Pumped hydro (reversible turbines)**: [storage.md](storage.md), [pumped-hydro.md](pumped-hydro.md)
 - **Electrical generators driven by turbines**: [electricity.md](electricity.md)
 - **Machine tools required for precision components**: [forming.md](../machine-tools/forming.md)
 
-### Pelton Turbine: Bucket Geometry and Performance
+## Pelton Turbine: Bucket Geometry and Performance
 
 **Bucket design**: Each Pelton bucket is a double-hemispherical cup with a central splitter ridge that divides the incoming jet into two equal halves. The splitter ridge must be sharp (knife-edge) and aligned exactly with the jet centerline. The jet enters through a notch cut in the bucket rim so that the bucket can pass through the jet without interference from the preceding bucket. Bucket width is 3-4 times the jet diameter to fully contain the splashing water.
 
@@ -143,7 +143,7 @@ Choosing the correct turbine type depends entirely on the site's head and flow c
 
 **Head range**: Pelton wheels are the standard choice for high-head sites from 200 m to 2000 m. The jet velocity at 200 m head is roughly 63 m/s; at 1000 m head, roughly 140 m/s. These velocities demand precise bucket profiles and robust construction to resist erosion from the high-speed water jet.
 
-### Francis Turbine: Runner Design and Specific Speed
+## Francis Turbine: Runner Design and Specific Speed
 
 **Runner geometry**: The Francis runner has 12-20 curved blades mounted between an upper crown (band) and a lower band (shroud). Water enters radially at the outer diameter and exits axially at the inner diameter (the "eye"). The blades are three-dimensionally twisted: the inlet edge is nearly radial, while the outlet edge is nearly axial. This twist accommodates the changing flow direction as water passes through the runner. The blade profiles must be accurate to within 1-2 mm for good efficiency.
 
@@ -155,7 +155,7 @@ Choosing the correct turbine type depends entirely on the site's head and flow c
 
 **Efficiency**: 90-95% peak efficiency at the design point for well-constructed Francis turbines. This is the highest peak efficiency of any hydraulic turbine type. However, efficiency falls off more steeply at part-load than either Pelton or Kaplan turbines, because the fixed blade angles cannot adapt to the changed flow conditions.
 
-### Kaplan Turbine: Adjustable Blades and Low-Head Performance
+## Kaplan Turbine: Adjustable Blades and Low-Head Performance
 
 **Runner blade design**: The Kaplan runner has 4-8 propeller blades mounted on a central hub. Each blade rotates on its own trunnion (pivot bearing) within the hub. An internal linkage mechanism (pushrods, levers, or a hydraulic piston inside the hub shaft) moves all blades in unison. The blade angle adjusts from roughly 15° (low flow, fine pitch) to 40° (high flow, coarse pitch) relative to the plane of rotation. The mechanism must be watertight: oil-filled hubs with rotary shaft seals keep river water out of the linkage.
 
@@ -165,7 +165,7 @@ Choosing the correct turbine type depends entirely on the site's head and flow c
 
 **Cavitation management**: At low heads, the runner operates close to the tailwater level, and the pressure drop across the blades can easily fall below the vapor pressure of water. Kaplan runners are typically installed with the blade centerline 2-5 m below the minimum tailwater level (submergence). This hydrostatic pressure head suppresses cavitation. The required submergence increases with specific speed. Stainless steel blade surfaces resist cavitation pitting better than carbon steel.
 
-### Site Selection Worked Example
+## Site Selection Worked Example
 
 Consider a site with 50 m of available head and a reliable flow of 5 m³/s.
 
@@ -177,7 +177,7 @@ Consider a site with 50 m of available head and a reliable flow of 5 m³/s.
 
 **Annual energy**: If the flow is available 80% of the year (operating 7,000 hours), annual energy production is roughly 2,085 × 7,000 = 14,595 MWh ≈ 14.6 GWh. At a capacity factor of roughly 80%, this is a productive mid-scale installation suitable for powering a small town or industrial facility.
 
-### Pelton Turbine: Bucket Geometry and Performance
+## Pelton Turbine: Bucket Geometry and Performance
 
 **Bucket design**: Each Pelton bucket is a double-hemispherical cup with a central splitter ridge dividing the incoming jet into two equal halves. The splitter ridge must be knife-edge sharp and aligned exactly with the jet centerline. The jet enters through a notch cut in the bucket rim. Bucket width is 3-4 times the jet diameter to fully contain the splashing water.
 
@@ -189,7 +189,7 @@ Consider a site with 50 m of available head and a reliable flow of 5 m³/s.
 
 **Head range**: Standard for high-head sites from 200 m to 2000 m. Jet velocity at 200 m: ~63 m/s; at 1000 m: ~140 m/s. These velocities demand precise bucket profiles and robust construction.
 
-### Francis Turbine: Runner Design and Specific Speed
+## Francis Turbine: Runner Design and Specific Speed
 
 **Runner geometry**: 12-20 curved blades between an upper crown and lower band (shroud). Water enters radially at the outer diameter and exits axially at the inner diameter. Blades are three-dimensionally twisted: inlet nearly radial, outlet nearly axial. Blade profiles must be accurate within 1-2 mm for good efficiency.
 
@@ -201,7 +201,7 @@ Consider a site with 50 m of available head and a reliable flow of 5 m³/s.
 
 **Efficiency**: 90-95% peak, highest of any hydraulic turbine type. Falls off more steeply at part-load than Pelton or Kaplan because fixed blade angles cannot adapt to changed flow conditions.
 
-### Kaplan Turbine: Adjustable Blades
+## Kaplan Turbine: Adjustable Blades
 
 **Runner blades**: 4-8 propeller blades mounted on a central hub, each rotating on its own trunnion. An internal linkage (pushrods or hydraulic piston inside the hub) moves all blades in unison. Blade angle: 15-40° relative to the rotation plane. The mechanism must be watertight: oil-filled hubs with rotary shaft seals keep river water out.
 
@@ -211,7 +211,7 @@ Consider a site with 50 m of available head and a reliable flow of 5 m³/s.
 
 **Cavitation management**: Kaplan runners are installed with blade centerline 2-5 m below minimum tailwater level (submergence) to suppress cavitation. Required submergence increases with specific speed. Stainless steel blades resist pitting better than carbon steel.
 
-### Penstock Design for High-Head Installations
+## Penstock Design for High-Head Installations
 
 **Penstock sizing**: The penstock (pressure pipe from the intake to the turbine) is a major civil works component for high-head sites. Diameter is selected to balance capital cost (larger pipe costs more) against head loss from friction (smaller pipe loses more head). The Darcy-Weisbach equation gives friction loss: h_f = f × (L/D) × (v²/2g), where f is the friction factor, L is pipe length, D is diameter, and v is flow velocity. Typical penstock velocities: 2-5 m/s. Economic diameter typically results in head loss of 3-8% of gross head.
 
@@ -219,7 +219,7 @@ Consider a site with 50 m of available head and a reliable flow of 5 m³/s.
 
 **Surge protection**: Rapid valve closure on a long penstock creates water hammer, a pressure shock wave traveling at the speed of sound in water (~1400 m/s). The resulting pressure spike ΔP = ρ × c × Δv, where c is the wave speed and Δv is the velocity change. For a penstock flowing at 3 m/s: ΔP = 1000 × 1400 × 3 = 4.2 MPa (42 bar). A surge tank (standpipe connected to the penstock near the powerhouse) absorbs this shock by allowing water level to rise freely.
 
-### Turbine Selection Guide
+## Turbine Selection Guide
 
 **Head-based selection**: High head (>100 m), low flow: Pelton wheel, the only practical choice. Medium head (10-300 m), medium flow: Francis turbine, the dominant choice for most hydroelectric sites. Low head (1-15 m), high flow: Kaplan turbine, for large rivers and low dams. Very low head (<3 m): Bulb turbine (Kaplan variant) for run-of-river on flat rivers.
 
@@ -227,7 +227,7 @@ Consider a site with 50 m of available head and a reliable flow of 5 m³/s.
 
 **Power calculation reminder**: The fundamental formula P = η × ρ × g × Q × H applies to all turbine types.
 
-### Limitations
+## Limitations
 
 - **Site specificity**: Hydroelectric potential depends entirely on local geography (head and flow). Not all locations have viable hydro resources.
 - **Seasonal variation**: River flow varies seasonally. Dry-season power output may be 20-50% of wet-season output, requiring seasonal storage or supplemental generation.
@@ -236,7 +236,7 @@ Consider a site with 50 m of available head and a reliable flow of 5 m³/s.
 - **Long construction time**: Dam and powerhouse construction is a multi-year civil engineering project requiring heavy equipment and skilled labor.
 - **Freezing**: In cold climates, ice formation on intakes and draft tubes can block flow. Trash racks require heating or mechanical raking in winter.
 
-### See Also
+## See Also
 
 - [Energy Storage](storage.md) — Pumped hydroelectric storage
 - [Pumped Hydro](pumped-hydro.md) — Large-scale energy storage using hydro infrastructure
@@ -244,6 +244,5 @@ Consider a site with 50 m of available head and a reliable flow of 5 m³/s.
 - [Steam Turbines](steam-turbines.md) — Turbine technology for thermal power
 - [Electricity Generation](electricity.md) — Generators and power distribution
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Energy](./index.md) • [All Domains](../index.md)*
+[← Back to Energy](index.md)

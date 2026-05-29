@@ -18,23 +18,23 @@ A settlement of 1,000 people at 50 L/person/day requires 50 m³/day of distribut
 
 ## 2. Prerequisites
 
-### Materials
+## Materials
 - [Water source](procurement.md) with reliable yield
 - Stone, brick, or [concrete](../chemistry/cement.md) for channels and aqueducts
 - [Clay pipes](../ceramics/kilns.md) or [metal pipes](../metals/iron-steel.md) for sealed conveyance
 - Sand and gravel for pipe bedding
 
-### Tools
+## Tools
 - Surveying instruments (level, plumb bob, measuring cord) for gradient control
 - Digging tools for trench excavation
 - Lifting equipment (ropes, pulleys, levers) for pipe and stone placement
 
-### Knowledge
+## Knowledge
 - Basic surveying and gradient calculation
 - Hydraulic principles (flow, pressure, friction)
 - Joint sealing techniques for the pipe material chosen
 
-### Infrastructure
+## Infrastructure
 - Labor force (10-100+ people depending on scale)
 - Access route along the distribution corridor
 
@@ -50,7 +50,7 @@ A settlement of 1,000 people at 50 L/person/day requires 50 m³/day of distribut
 
 ## 4. Process Description
 
-### Gravity-Fed Open Channels
+## Gravity-Fed Open Channels
 
 The simplest and most energy-efficient distribution method. Used from the earliest civilizations through modern irrigation.
 
@@ -83,7 +83,7 @@ The simplest and most energy-efficient distribution method. Used from the earlie
 - Freezing in cold climates stops flow
 - Seepage losses significant without lining
 
-### Aqueducts
+## Aqueducts
 
 Covered or elevated channels for long-distance water transport across varying terrain.
 
@@ -113,7 +113,7 @@ Covered or elevated channels for long-distance water transport across varying te
 - Arcaded bridges require advanced [stone construction](../construction/index.md)
 - Fixed route — cannot be easily modified or extended
 
-### Pipe Systems
+## Pipe Systems
 
 Sealed pipes deliver water with minimal contamination and evaporation losses. Material selection determines pressure capability and longevity.
 
@@ -158,7 +158,7 @@ Typical distribution pressure: 2-6 bar (20-60 m head). Higher pressures require 
 - Pressure surges (water hammer) can burst pipes if not controlled
 - Freezing risk in cold climates (must bury below frost line or drain in winter)
 
-### Reservoirs and Storage
+## Reservoirs and Storage
 
 Storage buffers supply against variable demand and source fluctuations.
 
@@ -245,5 +245,5 @@ Storage buffers supply against variable demand and source fluctuations.
 - [Sewage Collection](sewage.md) — distribution infrastructure parallels sewage collection
 - [Basic Water Treatment](basic-treatment.md) — treatment plants receive water via distribution
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Water](./index.md) • [All Domains](../index.md)*
+
+[← Back to Water](index.md)

@@ -7,13 +7,13 @@
 > **Timeline**: Years 15-40
 > **Outputs**: galvanized steel, plated parts, anodized aluminum, hardened surfaces, coated components
 
-### Overview
+## Overview
 
 Metal finishing transforms the surface properties of metals without altering bulk chemistry. A thin surface layer — sometimes only micrometers thick — provides corrosion resistance, wear resistance, electrical conductivity, or decorative appearance that the base metal cannot. The economic importance is enormous: roughly half the steel produced globally receives some form of protective coating, and virtually every electronic device depends on electroplated connectors. Surface treatment processes range from simple acid dips (passivation) to complex electrochemical systems (hard chromium plating) and high-energy thermal processes (plasma spraying).
 
 For a bootstrapping civilization, metal finishing unlocks the longevity of infrastructure. Uncoated carbon steel corrodes at 25-50 µm/year in moderate atmospheres — a 6 mm structural member loses half its cross-section within 30 years. Galvanizing extends service life to 50-100+ years. Case hardening transforms cheap low-carbon steel into gear and bearing surfaces that rival much more expensive alloy tool steels. Anodizing gives aluminum the wear resistance needed for mechanical components. These processes are the difference between infrastructure that lasts generations and infrastructure that rusts away in decades.
 
-### Galvanizing
+## Galvanizing
 
 Galvanizing applies a zinc coating to steel for corrosion protection. Zinc is sacrificial — it has a more negative electrochemical potential than iron (-0.76 V vs. -0.44 V vs. SHE), so even when the coating is scratched and bare steel is exposed, the surrounding zinc corrodes preferentially, providing cathodic protection. A galvanized coating protects steel mechanically (barrier) and electrochemically (sacrificial anode).
 
@@ -33,7 +33,7 @@ Galvanizing applies a zinc coating to steel for corrosion protection. Zinc is sa
 - Hot-dip galvanized steel is immediately heated above the zinc melting point (419°C) in an annealing furnace, allowing complete iron-zinc alloying. The entire coating becomes Fe-Zn intermetallic (δ₁ + Γ phases), with no free zinc layer.
 - Coating composition: 8-12% Fe, remainder Zn. Surface is matte gray, harder than pure zinc, and has excellent weldability and paint adhesion. Dominates automotive exposed panels.
 
-### Electroplating
+## Electroplating
 
 Electroplating deposits a thin metallic layer on a substrate by reducing metal cations from solution at the cathode (workpiece). Requires DC power supply, electrolyte bath, anode (soluble or inert), and careful process control. See [Electrolysis](../chemistry/electrolysis.md) for fundamental electrochemistry.
 
@@ -62,7 +62,7 @@ Electroplating deposits a thin metallic layer on a substrate by reducing metal c
 
 **Gold and silver plating**: Gold for electronics (edge connectors, wire bonding, 0.05-2.5 µm) — excellent conductivity, tarnish resistance, wire bondability. Cyanide-based baths (KAu(CN)₂). Acid gold (pH 3.5-5.0) for hard gold (60-90 HK, 0.1-0.3% Co or Ni). Silver for electrical contacts and RF conductors. Cyanide or non-cyanide (methanesulfonate) baths.
 
-### Electroless Plating
+## Electroless Plating
 
 Electroless (autocatalytic) plating deposits metal from solution without external current. The reducing agent (sodium hypophosphite for Ni-P, formaldehyde or glyoxylic acid for Cu) reduces metal ions on the catalyzed surface. The deposit itself catalyzes further deposition — the reaction is autocatalytic and self-sustaining once initiated.
 
@@ -77,7 +77,7 @@ Electroless (autocatalytic) plating deposits metal from solution without externa
 
 **Surface preparation for electroless**: The substrate must be catalytically active. Steel and nickel are self-catalytic for electroless nickel. Non-conductors (plastics, ceramics) require etch → sensitize → activate sequence: chromic acid etch (creates micro-roughness), SnCl₂ sensitization, PdCl₂ activation (palladium nuclei serve as catalytic sites). Aluminum requires zincate treatment (double zincate for best adhesion).
 
-### Anodizing
+## Anodizing
 
 Anodizing converts the aluminum surface to a controlled aluminum oxide (Al₂O₃) layer by electrochemical oxidation. The workpiece is the anode in an electrolytic cell — oxygen generated at the anode reacts with aluminum to form a dense, hard oxide. The resulting coating is integral to the substrate (not deposited), so it cannot peel or chip.
 
@@ -98,7 +98,7 @@ Anodizing converts the aluminum surface to a controlled aluminum oxide (Al₂O�
 - **Oxalic acid**: Used in Japan and Europe for architectural aluminum. Produces a yellowish, hard coating without dyeing. 30-50 µm at 30-60 V.
 - **Phosphoric acid**: Used primarily as a surface preparation for adhesive bonding in aerospace (Boeing process). Creates a micro-porous oxide ideal for adhesive mechanical interlocking.
 
-### Phosphating
+## Phosphating
 
 Phosphating produces an insoluble crystalline phosphate conversion coating on steel, zinc, or aluminum by immersion in a dilute metal phosphate + phosphoric acid solution. The coating forms by chemical reaction with the substrate (no external current). The phosphate crystals are microscopically rough, providing excellent adhesion for paints and oils.
 
@@ -114,7 +114,7 @@ Phosphating produces an insoluble crystalline phosphate conversion coating on st
 
 **Iron phosphate**: Lightest conversion coating (0.2-1 g/m²). Used primarily as a paint base on architectural steel and appliances. Spray or immersion application. Simple chemistry, minimal sludge generation. Not suitable for severe corrosion environments.
 
-### Case Hardening
+## Case Hardening
 
 Case hardening creates a hard, wear-resistant surface layer (the "case") on a ductile, tough core. Low-carbon steel (0.1-0.25% C) is processed so the surface reaches 0.6-1.0% carbon while the core remains at the original low carbon content — after quenching, the surface is hard martensite while the core is soft ferrite/pearlite.
 
@@ -146,7 +146,7 @@ Case hardening creates a hard, wear-resistant surface layer (the "case") on a du
 - Flame hardening: Progressive or spot heating with torch. Lower equipment cost than induction. Used for large parts (machine ways, large gear teeth) where induction coils would be impractical.
 - Core properties depend on prior heat treatment — the core is not affected by the brief surface heating. Selective hardening possible by masking or directing the flame/induction to specific areas.
 
-### Passivation
+## Passivation
 
 Passivation removes free iron from the surface of stainless steel and promotes the formation of a continuous, transparent chromium oxide (Cr₂O₃) passive film that provides corrosion resistance. Stainless steel self-passivates in air, but surface contamination (embedded iron particles from machining, grinding, or wire brushing) disrupts the passive film and initiates localized rusting. Passivation dissolves these contaminants.
 
@@ -163,7 +163,7 @@ Passivation removes free iron from the surface of stainless steel and promotes t
 - The workpiece is the anode in a concentrated H₂SO₄ + H₃PO₄ electrolyte at 50-70°C. Controlled dissolution removes a thin layer (5-40 µm) of the surface, preferentially attacking peaks (micro-polishing) and enriching the surface in chromium (Cr dissolves slower than Fe in the electropolishing electrolyte). The result: a smooth, chromium-enriched, exceptionally passive surface.
 - Used where both surface finish and maximum corrosion resistance are required: pharmaceutical equipment ( sanitary tubing), semiconductor process chambers, food processing equipment, and medical implants.
 
-### Thermal Spraying
+## Thermal Spraying
 
 Thermal spraying deposits molten or semi-molten material onto a surface by propelling heated particles at high velocity. The particles impact, flatten ("splat"), and bond mechanically (and sometimes metallurgically) to the substrate. The coating is built up by overlapping splats — lamellar structure with some porosity (1-15% depending on process).
 
@@ -188,7 +188,7 @@ Thermal spraying deposits molten or semi-molten material onto a surface by prope
 - The only thermal spray process that can fully melt ceramics (melting points >2500°C). Primary application: **[Thermal barrier coatings (TBCs)](../glossary/thermal-barrier-coatings-tbcs.md)** — yttria-stabilized zirconia (YSZ, ZrO₂-8%Y₂O₃) on gas turbine blades and combustion liners. TBC thickness: 100-500 µm. Temperature drop across TBC: 100-300°C, allowing higher operating temperatures and improved efficiency.
 - Bond coat: MCrAlY (M = Ni, Co, or NiCo) applied by plasma or HVOF before the YSZ topcoat. The bond coat provides oxidation/corrosion resistance and a rough surface for mechanical bonding of the ceramic. A thermally grown oxide (TGO, α-Al₂O₃) forms at the bond coat-topcoat interface during service — TGO growth is the ultimate life-limiting mechanism for TBCs.
 
-### Pickling and Descaling
+## Pickling and Descaling
 
 Pickling removes oxide scale (mill scale, heat tint, welding discoloration) from metal surfaces by chemical dissolution in acid. Descaling may refer to mechanical removal (shot blasting) or chemical (acid pickling). Pickling is a surface preparation step preceding galvanizing, plating, passivation, or welding.
 
@@ -207,7 +207,7 @@ Pickling removes oxide scale (mill scale, heat tint, welding discoloration) from
 - Pickling generates acid mist and hydrogen gas. Enclosed tanks with lip exhaust ventilation (15-20 m³/s per m² of tank surface) capture fumes. Scrubbers (packed tower with NaOH or Ca(OH)₂ solution) neutralize exhaust gases.
 - Spent pickle liquor contains dissolved metals (Fe²⁺, Cr³⁺, Ni²⁺) and free acid. Treatment: neutralize with lime (Ca(OH)₂) to precipitate metal hydroxides, filter the sludge for landfill disposal. Acid recovery possible by crystallizing FeCl₂·4H₂O from HCl pickle liquor (Ruthner process: spray roasting — FeCl₂ + H₂O + O₂ → Fe₂O₃ + HCl, regenerated acid recycled).
 
-### Metal Painting Considerations
+## Metal Painting Considerations
 
 Paint is the most widely used protective coating for metals, but paint performance depends critically on surface preparation and primer selection. Poor preparation is responsible for 80-90% of premature paint failures on metal structures.
 
@@ -224,7 +224,7 @@ Paint is the most widely used protective coating for metals, but paint performan
 - Moderate environments: IOZ primer (50-75 µm) + epoxy intermediate (100-150 µm) + polyurethane topcoat (50-75 µm) = 200-300 µm total. Service life: 15-25 years to first maintenance.
 - Severe marine/industrial: IOZ primer + two epoxy intermediate coats + polysiloxane or fluoropolymer topcoat = 350-500 µm total. Service life: 25-40+ years.
 
-### Safety & Hazards
+## Safety & Hazards
 
 **Acid handling** (pickling, passivation, anodizing):
 - HCl, H₂SO₄, HNO₃, and HF require full acid-resistant PPE (face shield, chemical suit, gauntlet gloves, rubber boots). Emergency shower and eyewash within 10 seconds travel. HF-specific: calcium gluconate gel at every workstation — apply immediately to any skin contact, seek emergency medical attention even if pain is initially minimal.
@@ -244,6 +244,5 @@ Paint is the most widely used protective coating for metals, but paint performan
 - Heavy metal exposure: Cd, Cr⁶⁺, Ni, Pb, and Hg compounds are regulated carcinogens or systemic toxins. Engineering controls (enclosed processes, ventilation) preferred over PPE. Biological monitoring (blood/urine testing) for workers in high-exposure areas.
 - Wastewater treatment: Plating and finishing shops generate wastewater containing heavy metals, cyanide, acids, and organic compounds. Treatment: cyanide destruction → chromium reduction (Cr⁶⁺ → Cr³⁺ by NaHSO₃ at pH 2-3) → metal hydroxide precipitation (lime or NaOH at pH 8-10) → settling/filtration → discharge to meet local effluent standards (typically <0.5 mg/L for Cr, Ni, Cu; <0.1 mg/L for Cd).
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*
+[← Back to Metals](index.md)

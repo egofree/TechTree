@@ -10,8 +10,6 @@
 
 The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech](sem-tech.md)) enable electrodialysis (ED) as a practical separation technology well before conventional fluoropolymer membranes become available. While SEM Tech's primary application is chlor-alkali electrolysis, the same membrane manufacturing process — pulverizing pre-functionalized resin beads in a PVC/CPVC binder — produces membranes suitable for electrodialysis at less than $1 per square foot.
 
-## Overview
-
 Electrodialysis is an electrochemical separation process that uses ion exchange membranes and an electric field to transport ions from one solution to another. Unlike electrolysis, which drives redox reactions at electrodes to produce new chemical species, electrodialysis performs purely physical ion transport — no chemical reaction occurs at the electrodes beyond minor water splitting at the boundary membranes. The goal is separation, not synthesis.
 
 The Rowow LLC Technical Volume (lines 82-84) describes the discovery of related electro-separation approaches, including electrodialysis and a multi-cell configuration that enables single-stage elemental separation. Combined with the SEM Tech patent's specialized ion resins for selectivity (patent line 105), this positions electrodialysis as a key downstream technology enabled by the SEM Tech membrane platform.
@@ -63,7 +61,7 @@ The SEM Tech membrane manufacturing process (see [SEM Tech](sem-tech.md)) produc
 
 ## Process Variants
 
-### Conventional Electrodialysis (ED)
+## Conventional Electrodialysis (ED)
 
 Standard ED for desalination and ion concentration. Feed solution passes through diluate channels; ions migrate to concentrate channels under applied voltage. Produces desalted water and concentrated brine simultaneously. See [SEM Tech Water Treatment](../water/sem-tech-water-treatment.md) for desalination applications.
 
@@ -72,13 +70,13 @@ Typical performance:
 - Water recovery: 75-90%
 - Energy consumption: 0.5-3.0 kWh per cubic meter of product water (feed dependent)
 
-### Reverse Electrodialysis (RED)
+## Reverse Electrodialysis (RED)
 
 Reverse ED generates electricity from the mixing of fresh and salt water — the inverse of conventional ED. Concentrated brine and fresh water flow through alternate channels; the salinity gradient drives ion transport through the membranes, generating electrical current. This is salinity-gradient power, also called **[blue energy](../energy/sem-tech-blue-energy.md)**. See [SEM Tech Blue Energy](../energy/sem-tech-blue-energy.md).
 
 RED viability depends critically on membrane cost, since large membrane areas are needed for modest power output. SEM Tech membranes at less than $1/sq ft could make RED economically feasible for the first time.
 
-### Bipolar Membrane Electrodialysis (BMED)
+## Bipolar Membrane Electrodialysis (BMED)
 
 Bipolar membranes consist of a cation exchange layer bonded to an anion exchange layer. Under applied voltage, water splits at the junction into H⁺ and OH⁻ ions. In a BMED stack, this produces acid and base from their corresponding salts without electrolysis:
 
@@ -118,7 +116,7 @@ A SEM Tech electrodialysis stack is constructed from readily available materials
 
 ## Step-by-Step Procedure
 
-### Phase 1: Fabricate Ion Exchange Membranes
+## Phase 1: Fabricate Ion Exchange Membranes
 
 1. **Source cation exchange resin**: Strong acid cation resin beads (sulfonated polystyrene, gel or macroporous, IEC 1.8-2.2 meq/g). If pre-functionalized beads are unavailable, chloromethylate polystyrene beads and sulfonate with concentrated H₂SO₄ at 80-100°C for 4-8 hours. Wash until effluent pH >5.
 2. **Source anion exchange resin**: Strong base anion resin beads (quaternary ammonium functional groups, IEC 1.2-1.8 meq/g). Type I (trimethylamine) or Type II (dimethylethanolamine). Same SEM Tech manufacturing process applies.
@@ -129,13 +127,13 @@ A SEM Tech electrodialysis stack is constructed from readily available materials
 7. **Cast membranes**: Using a drawdown bar or adjustable film applicator, cast each slurry onto a clean glass plate at 200-400 μm wet thickness. Target dry thickness: 100-200 μm. For thicker membranes (higher mechanical strength, higher resistance), cast at 400-600 μm wet.
 8. **Dry and cure**: Air-dry for 2-4 hours until solvent evaporates. Peel membrane from glass plate. Post-condition in 1M NaCl solution for 12-24 hours to hydrate the resin phase and activate ion exchange sites. Rinse with deionized water. Store moist until use.
 
-### Phase 2: Fabricate Stack Components
+## Phase 2: Fabricate Stack Components
 
 9. **Cut spacer gaskets**: Cut PVC or CPVC sheets (0.5-2.0 mm thick) to frame dimensions (e.g., 250 mm × 500 mm outer, 200 mm × 400 mm inner window). Drill manifold holes (inlet/outlet, 6-10 mm diameter) at corresponding positions on each frame. Diluate and concentrate frames have manifold holes on opposite sides to route flows through correct channels.
 10. **Prepare electrodes**: Cut graphite plates to match frame dimensions (200 mm × 400 mm active area). Drill or machine tab connections for power supply attachment. Clean surfaces with isopropanol. For longer life, coat anode with mixed metal oxide (RuO₂/IrO₂ on Ti expanded mesh) — but graphite is acceptable for ED where electrode reactions are minimal.
 11. **Cut end plates**: Prepare two thick PVC or steel plates (15-25 mm) with bolt holes matching the stack bolt pattern. Machine a recess for the electrode and a gasket groove for sealing.
 
-### Phase 3: Assemble the ED Stack
+## Phase 3: Assemble the ED Stack
 
 12. **Layout and alignment**: Place bottom end plate on a flat surface. Position anode electrode in the recess. Place a rubber or PVC gasket around the electrode perimeter.
 13. **Stack cell pairs**: For each cell pair, place in order: (a) CEM membrane, (b) diluate spacer frame (manifold on diluate side), (c) AEM membrane, (d) concentrate spacer frame (manifold on concentrate side). Align manifold holes precisely — misaligned holes block flow.
@@ -143,7 +141,7 @@ A SEM Tech electrodialysis stack is constructed from readily available materials
 15. **Clamp**: Place top end plate. Insert tie rods through bolt holes. Hand-tighten all nuts in a star (cross) pattern. Then torque to 0.5-2.0 MPa in 3-4 incremental passes, maintaining even compression. Uneven compression causes internal leakage between diluate and concentrate channels.
 16. **Pressure test**: Connect a water supply to the diluate inlet. Flow deionized water at low pressure (0.1-0.3 bar). Check all seams and manifold connections for leaks. Tighten as needed. Repeat for concentrate channel.
 
-### Phase 4: Connect Systems and Commission
+## Phase 4: Connect Systems and Commission
 
 17. **Connect plumbing**: Install two separate recirculation loops — one for diluate and one for concentrate. Each loop: feed tank → circulation pump (mag-drive or diaphragm, 5-50 L/min) → stack inlet manifold → stack outlet → back to tank. Install flow meters, pressure gauges, and sampling ports on both loops.
 18. **Connect power supply**: Connect a DC power supply (0-100V, 0-50A for bench-scale) to the electrodes. Positive terminal to anode, negative to cathode. Verify polarity with a multimeter before energizing — reversed polarity damages membranes.
@@ -153,7 +151,7 @@ A SEM Tech electrodialysis stack is constructed from readily available materials
 22. **Monitor performance**: Track diluate conductivity (should decrease over time) and concentrate conductivity (should increase). Measure product quality every 15-30 minutes. Typical batch desalination run: 30-120 minutes depending on starting TDS and target purity.
 23. **Shutdown**: When target conductivity is reached, turn off power supply, then turn off pumps. Drain and rinse both circuits with deionized water. Store membranes moist (do not let dry out — dried membranes crack and lose performance).
 
-### Phase 5: Maintenance and Cleaning
+## Phase 5: Maintenance and Cleaning
 
 24. **Routine cleaning (weekly)**: Circulate 0.1M HCl through both channels for 30 minutes to dissolve carbonate and hydroxide scale. Rinse with deionized water. Then circulate 0.1M NaOH for 30 minutes to remove organic fouling. Rinse thoroughly.
 25. **Polarity reversal (EDR mode)**: For scaling-prone feeds, reverse electrode polarity every 15-30 minutes. This reverses ion transport direction, dissolving nascent scale deposits before they harden. Requires a reversible DC power supply and double-throw valve arrangement to swap diluate and concentrate streams.
@@ -244,6 +242,5 @@ At each scale, the SEM Tech membrane cost is so low relative to other system com
 - [Acid Regeneration](sem-tech-acid-regeneration.md) — acid-base recovery via bipolar membrane electrodialysis
 - [Blue Energy](../energy/sem-tech-blue-energy.md) — reverse electrodialysis for salinity-gradient power generation
 
----
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+[← Back to Chemistry](index.md)

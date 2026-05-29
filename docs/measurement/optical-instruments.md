@@ -3,7 +3,7 @@
 > **Node ID**: measurement.optical-instruments
 > **Domain**: [Measurement](./index.md)
 > **Dependencies**: [`measurement`](./index.md), [`optics.inspection`](../optics/inspection.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`photolithography`](../photolithography/index.md), [`semiconductors`](../semiconductors/index.md)
 > **Timeline**: Years 30-45
 > **Outputs**: spectroscopy, refractometry, polarimetry, photometry, interferometry
 > **Critical**: No — measurement improves quality but civilization can function without precision instruments
@@ -11,6 +11,14 @@
 ## Problem
 
 Chemical analysis, material identification, and dimensional metrology at sub-micrometer precision all depend on optical instruments that measure how light interacts with matter. Spectroscopy identifies elements by their emission and absorption fingerprints. Refractometry quantifies solution concentration. Interferometry measures length to nanometer resolution. Without these instruments, semiconductor process control is guesswork.
+
+### Prerequisites
+
+- [Measurement fundamentals](./index.md) — calibration philosophy and traceability
+- [Optics / Inspection](../optics/inspection.md) — lens grinding, polishing, and surface quality
+- [Glass](../glass/index.md) — optical glass and fused silica for prisms and windows
+- [Chemistry](../chemistry/index.md) — emission spectra, solutions, and chemical analysis
+- [Precision metrology](precision-metrology.md) — length standards and calibration chains
 
 ## Spectroscopes
 
@@ -212,6 +220,17 @@ A filar micrometer eyepiece contains a movable crosshair driven by a precision m
 - **Environmental sensitivity**: Interferometric measurements are sensitive to vibration (blurs fringes), temperature drift (shifts fringe pattern), and air turbulence (refractive index variations). These instruments work best on vibration-isolated tables in temperature-controlled rooms — infrastructure that may not be available.
 - **Scale limitations**: Visual spectroscopy detects absorption and emission features at ~0.1-1 nm resolution. Photographic recording extends this to ~0.01 nm. True high-resolution spectroscopy (grating spectrometers with CCD detectors at <0.001 nm) requires electronics and computing capability.
 
+### Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Spectral lines blurry | Collimator not focused or slit too wide | Adjust collimator lens to focus slit at infinity; narrow slit to 0.05-0.1 mm |
+| Fringe pattern drifting | Thermal drift or air turbulence | Enclose interferometer path; allow thermal equilibrium; isolate table from vibration |
+| Refractometer reading inconsistent | Temperature variation or prism surface dirty | Control sample temperature (±0.1°C); clean prism with lens tissue and alcohol |
+| Polarimeter zero drift | Polarizer rotation or strained optics | Check polarizer alignment; verify no stress birefringence in sample cell windows |
+| Spectral plates underexposed | Exposure time too short or developer exhausted | Increase exposure time (test strip method); mix fresh developer |
+| Diffraction grating ghosts (spurious lines) | Grating ruling errors or surface contamination | Use higher-quality grating; clean with lens tissue; check for scratches |
+
 ## See Also
 
 - [Precision Metrology](precision-metrology.md) — base standards, calibration, gauge blocks
@@ -219,5 +238,6 @@ A filar micrometer eyepiece contains a movable crosshair driven by a precision m
 - [Electrical Instruments](electrical-instruments.md) — multimeters, oscilloscopes
 - [Optics](../optics/index.md) — optical coatings, precision instruments, inspection
 - [Chemistry](../chemistry/index.md) — optical glass materials, chemical analysis applications
+- [Photolithography](../photolithography/index.md) — overlay metrology and alignment measurement
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Measurement](./index.md) • [All Domains](../index.md)*
+[← Back to Measurement](index.md)

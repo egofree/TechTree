@@ -18,11 +18,11 @@ Without petrochemical feedstocks, a civilization can produce polymers only from 
 
 The most important petrochemical process. Steam cracking produces ethylene (C₂H₄) and propylene (C₃H₆) — the two highest-volume organic chemicals in the world. Global ethylene production exceeds 200 million tonnes/year. Together, ethylene and propylene are the building blocks for more than half of all petrochemical products.
 
-### Principle
+## Principle
 
 Hydrocarbon feedstock (ethane, propane, naphtha, or gas oil) is mixed with steam (diluent) and heated to 750-900°C in a tubular furnace for an extremely short residence time (0.1-0.5 seconds). The high temperature causes thermal decomposition (free-radical mechanism) of C-C and C-H bonds. The short residence time maximizes primary cracking products (ethylene, propylene) while minimizing secondary reactions (aromatization, coking).
 
-### Feedstock Selection
+## Feedstock Selection
 
 | Feedstock | Ethylene Yield | Propylene Yield | BTX Yield | Typical Source |
 |-----------|----------------|-----------------|-----------|----------------|
@@ -33,7 +33,7 @@ Hydrocarbon feedstock (ethane, propane, naphtha, or gas oil) is mixed with steam
 
 Ethane is the preferred feedstock where available (highest ethylene yield, simplest separations). The United States, with abundant natural gas, cracks predominantly ethane (75%+ of ethylene production). Europe and Asia, with less natural gas, crack predominantly naphtha (70%+ of ethylene production).
 
-### Furnace Design
+## Furnace Design
 
 **Cracking coil**: Centrifugally cast HK-40 alloy (25Cr-20Ni-Fe, ASTM A297 Grade HK40) or HP-modified (35Cr-45Ni-Fe with microalloying additions of Nb, Ti, W). Inside diameter: 50-150 mm. Wall thickness: 8-15 mm. Tube length: 30-80 m per coil (arranged in multiple vertical passes within the furnace firebox). The high nickel-chrome alloy resists carburization and creep at operating temperatures.
 
@@ -41,7 +41,7 @@ Ethane is the preferred feedstock where available (highest ethylene yield, simpl
 
 **Coking**: Carbon deposits build up on the inner tube wall over 20-60 days of operation, increasing tube wall temperature and pressure drop. When tube metal temperature approaches the design limit (typically 1,050-1,100°C), the furnace must be decoked: steam-air mixture at 800-900°C burns out the coke over 12-24 hours. Modern furnaces use online decoking (one coil at a time while others remain in production).
 
-### Product Recovery & Separation
+## Product Recovery & Separation
 
 Cracked gas exits the furnace at 800-900°C and must be quenched within 0.02-0.05 seconds to stop secondary reactions. The transfer line exchanger (TLE, also called waste heat boiler) cools the gas to 300-400°C while generating high-pressure steam (10-14 MPa, saturated, for process use or power generation).
 
@@ -54,7 +54,7 @@ Cracked gas exits the furnace at 800-900°C and must be quenched within 0.02-0.0
 5. **C₃ splitter**: Separates propylene product (overhead, 99.5% chemical grade or 99.9% polymer grade) from propane (bottoms, recycled to furnace or sold as LPG).
 6. **Debutanizer**: C₄ fraction (overhead, containing butadiene, isobutene, n-butenes) from C₅+ gasoline (bottoms, pyrolysis gasoline rich in BTX aromatics).
 
-### Refrigeration System
+## Refrigeration System
 
 The cryogenic separations require refrigeration at multiple temperature levels. The classic cascade uses three pure-component refrigeration cycles:
 
@@ -68,7 +68,7 @@ Total refrigeration power: 15-30 MW for a 500,000 tonne/year ethylene plant. Ref
 
 The three primary aromatics — benzene, toluene, and xylene (BTX) — are produced from two main sources: catalytic reforming (covered in [Refining](refining.md)) and pyrolysis gasoline (a byproduct of steam cracking naphtha/gas oil). Both routes produce a complex mixture that must be separated into pure components.
 
-### BTX Separation Sequence
+## BTX Separation Sequence
 
 1. **Hydrotreating**: Raw reformate or pyrolysis gasoline contains di-olefins and styrene that polymerize and foul downstream equipment. Selective hydrogenation over Pd/Al₂O₃ at 40-80°C saturates di-olefins to mono-olefins while preserving aromatics.
 2. **Extraction**: Aromatics are separated from non-aromatics (paraffins, naphthenes) by liquid-liquid extraction. Modern solvent: sulfolane (tetrahydrothiophene-1,1-dioxide). Aromatics are highly soluble in sulfolane; paraffins are not. Extract (aromatics + sulfolane) is separated in a recovery column where aromatics are distilled overhead and sulfolane is recycled.
@@ -78,7 +78,7 @@ The three primary aromatics — benzene, toluene, and xylene (BTX) — are produ
    - **Toluene column**: Toluene overhead (99.8% purity, bp 110.6°C)
    - **Xylene column**: Mixed xylenes overhead (bp 138-144°C), C₉+ aromatics bottoms
 
-### Xylene Isomer Separation
+## Xylene Isomer Separation
 
 Mixed xylenes contain three isomers with very close boiling points: para-xylene (px, bp 138.4°C), meta-xylene (mx, bp 139.1°C), ortho-xylene (ox, bp 144.4°C), and ethylbenzene (eb, bp 136.2°C). Para-xylene is by far the most valuable (PET polyester feedstock) and must be separated to >99.7% purity.
 
@@ -120,7 +120,7 @@ Mixed xylenes contain three isomers with very close boiling points: para-xylene 
 
 ## Key Downstream Derivatives
 
-### From Ethylene
+## From Ethylene
 
 **Polyethylene** (largest single plastics product, ~120 million tonnes/year):
 - **HDPE** (high-density): Polymerized at 60-90°C, 5-30 bar using Ziegler-Natta (TiCl₄/AlEt₃) or chromium oxide catalyst. Linear chains, density 0.94-0.97 g/cm³. Used for: bottles, pipes, containers, geomembranes.
@@ -133,7 +133,7 @@ Mixed xylenes contain three isomers with very close boiling points: para-xylene 
 
 **Styrene**: From benzene + ethylene → ethylbenzene (acid catalyst, 80-95% yield). Ethylbenzene dehydrogenated to styrene over Fe₂O₃/Cr₂O₃/K₂O catalyst at 580-650°C, 0.4-1.0 bar, with steam diluent (80-90% conversion per pass). Styrene → polystyrene (via suspension or bulk polymerization with peroxide initiators). Expanded polystyrene (EPS): polystyrene beads containing pentane blowing agent, steam-expanded in molds. Insulation, packaging.
 
-### From Propylene
+## From Propylene
 
 **Polypropylene**: Propylene polymerized at 60-80°C, 10-35 bar using Ziegler-Natta (TiCl₄/MgCl₂ support with AlEt₃ cocatalyst) or metallocene catalyst. Isotactic polypropylene (stereoregular, >95% isotactic pentads) is the commercially useful form — crystalline, rigid, melting point 160-165°C. Used for: fibers, films, containers, automotive parts. Global production ~80 million tonnes/year.
 
@@ -141,7 +141,7 @@ Mixed xylenes contain three isomers with very close boiling points: para-xylene 
 
 **Propylene oxide**: Propylene + organic hydroperoxide (from isobutane or ethylbenzene) over Mo or Ti catalyst → propylene oxide + coproduct (tert-butanol or styrene). Co-product process economics depend on market for the coproduct. Chlorohydrin route (propylene + Cl₂ + Ca(OH)₂) is older, generates CaCl₂ waste.
 
-### From BTX Aromatics
+## From BTX Aromatics
 
 **Benzene derivatives**:
 - **Cumene → phenol + acetone**: Benzene + propylene → cumene (isopropylbenzene). Cumene + O₂ → cumene hydroperoxide. Acid-catalyzed cleavage → phenol + acetone (Hock process, >99% purity). Phenol → phenolic resins (Bakelite, foundry resins), polycarbonate (via bisphenol-A), nylon-6 (via cyclohexane → caprolactam).
@@ -195,20 +195,20 @@ The ethanol-to-ethylene route is the most important alternative: fermentation et
 
 ## Safety & Environmental Concerns
 
-### Toxic and Carcinogenic Exposures
+## Toxic and Carcinogenic Exposures
 
 - **Benzene**: Confirmed human carcinogen (leukemia, especially acute myeloid leukemia). TLV-TWA: 0.5 ppm. All benzene handling must be in closed systems with continuous atmospheric monitoring. Workers in aromatics units must wear personal benzene monitors. Substitute with toluene or xylene wherever chemically feasible.
 - **1,3-Butadiene**: Probable human carcinogen. TLV-TWA: 1 ppm. Volatile gas (bp -4.4°C). Leak detection and repair (LDAR) programs for all valves, flanges, and connectors in butadiene service.
 - **Ethylene oxide**: Carcinogen, mutagen, and reproductive toxin. TLV-TWA: 1 ppm. Used in sterilization and ethylene glycol production. Closed systems with negative pressure enclosure around handling areas.
 
-### Process Safety
+## Process Safety
 
 - **High-pressure systems**: Hydrocracking operates at 80-200 bar. Steam cracking furnaces at 0.3-0.5 bar gauge but with high-temperature gas at 800-900°C. Design all high-pressure equipment per ASME Boiler and Pressure Vessel Code Section VIII. Hydrostatic test at 1.3× MAWP.
 - **Flammable gas handling**: Ethylene (LEL 2.7%, UEL 36%) and propylene (LEL 2.0%, UEL 11.1%) form explosive mixtures with air at low concentrations. All olefin processing equipment must be electrically classified Class I Division 1 or 2. Nitrogen purge before introducing hydrocarbons.
 - **Runaway reactions**: Polymerization reactors (polyethylene, polypropylene) can experience runaway if temperature control fails. Emergency quench systems (inject inhibitor into reactor) and pressure relief to blowdown system.
 - **Cryogenic hazards**: Ethylene plant cold section operates at -100 to -160°C. Skin contact with uninsulated cryogenic piping causes immediate frostbite. Oxygen condensation on uninsulated surfaces at these temperatures creates extreme fire hazard. Insulate all cold equipment. Monitor for oxygen enrichment in confined spaces.
 
-### Environmental Management
+## Environmental Management
 
 - **VOC emissions**: Fugitive emissions from valves, flanges, pumps, and compressors are the largest source of VOCs in a petrochemical complex. LDAR programs reduce emissions by 60-80%.
 - **Wastewater**: Process water from steam cracking, aromatic extraction, and polymerization contains hydrocarbons, phenols, and suspended solids. Treatment: API separator (gravity oil removal) → dissolved air flotation (DAF) → biological treatment (activated sludge) → discharge.
@@ -236,6 +236,12 @@ The ethanol-to-ethylene route is the most important alternative: fermentation et
 | Selectivity | Fraction of converted feedstock that becomes the desired product |
 | Conversion | Fraction of feedstock that reacts (does not exit unchanged) |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Petroleum Extraction & Refining](./index.md) • [All Domains](../index.md)*
+- [Refining](refining.md) — petroleum distillation and fractionation that produce petrochemical feedstocks
+- [Petroleum Alternatives](../chemistry/petroleum-alternatives.md) — ethanol-to-ethylene and coal tar routes without petroleum
+- [Polymers / Synthetic](../polymers/synthetic.md) — polymerization of ethylene, propylene, and other monomers
+- [Distillation](../chemistry/distillation.md) — fractionation column design fundamentals
+- [Chemistry](../chemistry/index.md) — bulk inorganic chemical production
+
+[← Back to Petroleum Extraction & Refining](index.md)

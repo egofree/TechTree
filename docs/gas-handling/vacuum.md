@@ -8,9 +8,17 @@
 > **Outputs**: vacuum_pumps, vacuum_chambers, vacuum_measurement, leak_detection
 > **Critical**: Yes — vacuum technology is required for semiconductor thin-film deposition, lithography, and packaging; no alternative exists
 
-### Vacuum Technology
+## Problem
 
-**[Mechanical pumps](../glossary/mechanical-pumps.md)** (foundation of all vacuum work):
+Vacuum technology creates and maintains low-pressure environments essential for semiconductor manufacturing, optical coatings, and metallurgy. Thin-film deposition, ion implantation, and electron-beam lithography all require controlled atmospheres at pressures from rough vacuum (10-50 Torr) to ultra-high vacuum (10⁻¹⁰ Torr). Each decade of lower pressure demands progressively more sophisticated pumps, seals, and measurement instruments. Without vacuum capability, semiconductor fabrication is impossible.
+
+## Prerequisites
+
+- [Gas Handling Basics](basic.md) — positive-pressure gas distribution, piping, and valves
+- [Mechanical Manufacturing](../machine-tools/index.md) — precision machining for pump components
+- [Metals](../metals/index.md) — materials for vacuum chambers and fittings
+
+## Pump Types
 
 **[Piston pump](../glossary/piston-pump.md)** (simplest, lower vacuum):
 - **Construction**: Cast iron cylinder, machined piston with leather cup seal, inlet and outlet check valves (leather or steel flappers). Driven by crank from motor or hand wheel.
@@ -216,8 +224,6 @@ The cleanliness of components installed in a vacuum system directly determines t
 
 **Vacuum system cost scaling**: The cost of a vacuum system scales roughly with the chamber volume raised to the 0.7 power and with the inverse of the target pressure. A system for 10⁻⁶ Pa costs ~10× more than one for 10⁻³ Pa of the same volume, primarily due to the need for higher-performance pumps, metal-sealed flanges, and bake-out capability. For bootstrap semiconductor manufacturing, the vacuum requirements for basic evaporation (10⁻⁵ to 10⁻⁶ Torr) are achievable with a rotary vane roughing pump plus a small diffusion pump, at modest cost.
 
----
-
 ## Limitations
 
 - **Ultimate pressure limits**: Each pump type has a practical lower pressure limit: rotary vane ~10⁻³ Torr, diffusion pump ~10⁻⁸ Torr, turbomolecular ~10⁻¹⁰ Torr, cryopump ~10⁻¹¹ Torr. Achieving lower pressures requires combining pump types (roughing pump + high-vacuum pump) and careful management of outgassing from chamber walls and internal surfaces.
@@ -225,11 +231,23 @@ The cleanliness of components installed in a vacuum system directly determines t
 - **Vibration**: Turbomolecular pumps spinning at 40,000-60,000 RPM transmit vibration to the chamber. Vibration-sensitive applications (SEM, TEM, atomic force microscopy) require vibration isolation or alternative pump technology (ion pumps + NEG for UHV, which have no moving parts).
 - **Maintenance intervals**: Rotary vane pumps require oil changes every 3-6 months. Diffusion pump fluid degrades over 1-3 years. Turbomolecular pump bearings last 3-5 years. Cryopumps require regeneration (warm-up to release captured gas) every 4-24 hours depending on gas load. Vacuum system maintenance is a recurring operational cost.
 
+## Troubleshooting
+
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Cannot reach base pressure | Real leak or virtual leak (outgassing) | Leak-check with helium mass spectrometer; if no leak found, bake chamber at 150-200°C for 24h to drive off water |
+| Rotary vane pump oil turning dark | Oil contamination from process gases or moisture | Change oil; install foreline trap; check for condensable vapors entering pump |
+| Pressure creep after reaching base | Outgassing from new internal components | Bake all new components before installation; pre-bake in auxiliary oven; extend initial pump-down |
+| Turbomolecular pump vibration | Bearing wear or rotor imbalance | Monitor bearing vibration spectrum; replace bearings at recommended interval; check for particulate ingestion |
+| Diffusion pump backstreaming | Excessive inlet pressure or inadequate cold trap | Keep foreline pressure below critical value; fill cold trap; add chevron baffle |
+| Thermocouple gauge reading erratic | Filament contamination or electrical noise | Clean or replace gauge tube; check cable shielding; verify gauge calibration against known standard |
+
 ## See Also
 
-- **[Gas Handling Basics](basic.md)**: Positive-pressure gas distribution, piping, and valves
-- **[Dopant and Etch Gases](../chemistry/dopant-etch-gases.md)**: Gas panel design and scrubber systems for semiconductor fabs
-- **[Hydrogen and Silane](../chemistry/hydrogen-silane.md)**: Vacuum requirements for CVD silicon deposition
-- **[Packaging and Testing](../chemistry/packaging-testing.md)**: Vacuum requirements for IC packaging (hermetic sealing)
+- [Gas Handling Basics](basic.md) — positive-pressure gas distribution, piping, and valves
+- [Dopant and Etch Gases](../chemistry/dopant-etch-gases.md) — gas panel design and scrubber systems for semiconductor fabs
+- [Hydrogen and Silane](../chemistry/hydrogen-silane.md) — vacuum requirements for CVD silicon deposition
+- [Packaging and Testing](../chemistry/packaging-testing.md) — vacuum requirements for IC packaging (hermetic sealing)
+- [SEM Tech](../chemistry/sem-tech.md) — membrane technology for gas purification
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Gas Handling](./index.md) • [All Domains](../index.md)*
+[← Back to Gas Handling](index.md)

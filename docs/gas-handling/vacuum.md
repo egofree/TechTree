@@ -16,12 +16,30 @@
 - **Performance**: ~10-100 L/min pumping speed. Ultimate vacuum ~10-50 Torr (rough vacuum).
 - **Applications**: Initial roughing pump, gas transfer, compression.
 
+**Strengths:**
+- Simple construction: cast iron cylinder, leather seals, no precision components — can be built with basic machining capability
+- Tolerates dirty and wet gas streams; leather seals are forgiving of particulate contamination
+- Low cost: no precision bearings, no oil filtration system, minimal maintenance
+
+**Weaknesses:**
+- Limited ultimate vacuum (~10-50 Torr) — insufficient for any thin-film process
+- Low pumping speed (10-100 L/min) compared to rotary vane pumps of similar size
+- Leather seals wear and require periodic replacement (every 500-2000 hours depending on service)
+
 **[Rotary vane pump](../glossary/rotary-vane-pump.md)** (workhorse — achieves medium vacuum):
 - **Principle**: Eccentric rotor in cylindrical stator. Spring-loaded vanes slide in rotor slots, maintaining contact with stator wall. Gas enters inlet port, trapped between vanes and stator, compressed, expelled through exhaust valve.
 - **Construction**: Cast iron stator (bored to ~0.01 mm tolerance on Machine Tools lathe/boring machine). Steel rotor. Steel or carbon fiber vanes. Oil-filled for sealing and lubrication (oil seals microscopic gaps between vanes and stator).
 - **Oil requirements**: Low vapor pressure vacuum oil (see [Lubricants](../chemistry/lubricants.md)). Mineral oil with low volatility, or silicone oil. Oil changed regularly — contaminated oil limits ultimate vacuum.
 - **Performance**: 1-50 L/min (small), 50-500 L/min (medium). Ultimate vacuum: ~10⁻² to 10⁻³ Torr (0.01-0.001 Pa). Single-stage: ~10⁻² Torr. Two-stage: ~10⁻³ Torr.
 - **Gas ballast**: Small valve admits air during compression phase to prevent condensation of vapors (water, solvents) in pump oil. Essential when pumping wet systems.
+
+**Strengths:**
+- Achieves 10⁻² to 10⁻³ Torr (medium vacuum) in a compact, oil-sealed package — sufficient backing for diffusion and turbomolecular pumps
+- Gas ballast prevents vapor condensation in pump oil, extending oil life when pumping wet systems
+
+**Weaknesses:**
+- Oil-sealed design introduces backstreaming risk — hot oil vapor migrates toward the vacuum chamber, contaminating sensitive surfaces
+- Oil changes required every 3-6 months; contaminated oil limits ultimate vacuum and produces objectionable odor
 
 **[Diffusion pump](../glossary/diffusion-pump.md)** (high vacuum, no moving parts):
 - **Principle**: Boiler heats silicone or hydrocarbon oil → vapor jets shoot downward → gas molecules from vacuum chamber diffuse into vapor stream → carried to exhaust → removed by backing pump. No moving parts, very reliable.

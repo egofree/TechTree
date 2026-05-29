@@ -199,4 +199,4 @@ BSF larvae bioaccumulate certain contaminants from their substrate: heavy metals
 
 ---
 
-[← Back to Animals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

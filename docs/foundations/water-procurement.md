@@ -2,7 +2,7 @@
 
 > **Node ID**: foundations.water-procurement
 > **Domain**: [Foundations](./index.md)
-> **Dependencies**: `foundations`, [`foundations.tools-basic`](tools-basic.md)
+> **Dependencies**: [`foundations`](./index.md), [`foundations.tools-basic`](tools-basic.md)
 > **Enables**: [`health.sanitation`](../health/sanitation.md)
 > **Timeline**: Years 0-5
 > **Outputs**: fresh_water, stored_water
@@ -199,4 +199,6 @@ Standing water breeds mosquitoes that carry malaria, dengue, and other diseases.
 
 **Seasonal inspection cycle**: Before the wet season, clean gutters and first-flush diverters, check cistern lids and screens for integrity, and verify overflow pipes are clear. After the wet season, inspect cistern interiors for sediment accumulation (drain and remove silt if depth exceeds 5 cm), check lime plaster for cracks or spalling, and repair before the next refill cycle. Annual maintenance of catchment infrastructure prevents the gradual capacity losses that accumulate when small problems go unaddressed for years.
 
-[← Back to Foundations](./index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Foundations](./index.md) • [All Domains](../index.md)*

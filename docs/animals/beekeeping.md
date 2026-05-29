@@ -143,52 +143,43 @@ A single honey bee colony forages within a 1-2 km radius from the hive (up to 5 
 **Hive placement for pollination**:
 Position hives 50-100 m from crop boundary. Shelter from prevailing wind. Morning sun exposure warms the colony early, initiating foraging sooner. Provide a clean water source within 50 m (bees need water for hive temperature regulation and brood food dilution). Standard pollination contract: 2-4 hives per hectare of orchard; 1-2 per hectare for field crops.
 
-### Seasonal Calendar
+**Scale estimate**: At 2-4 hives per hectare of orchard, pollination services increase fruit yield by 80-90%. Revenue from pollination contracts often exceeds honey revenue for commercial beekeepers (typical pollination fee: $50-150 USD per hive per season for almond pollination in California).
 
-**Spring** (colony buildup):
-First inspection when temperature exceeds 15°C. Check for queen presence (eggs and young larvae present). Assess food stores — feed sugar syrup (1:1 sugar:water by weight) if stores are low before nectar flow begins. Add supers or bars as population expands. Monitor for swarm cells (queen cups on comb bottom edges) and split colonies or add space to prevent swarming. Replace old or damaged comb. Entrance reducer open to medium setting as temperatures rise. Pollen availability drives brood production — protein from pollen is essential for larval development. A colony consumes 15-30 kg pollen per year.
+## 9. Bootstrap Sequence
 
-**Summer** (honey flow):
-Peak nectar collection period. Add supers ahead of colony needs (bees need space to store incoming nectar). Inspect every 7-10 days for swarm signs, queen health, and disease. Harvest honey when frames are 80%+ capped. Maintain water source. In hot climates, provide shade or ventilation to prevent bees from expending energy on hive cooling rather than foraging. Monitor for robbing behavior (bees from other colonies stealing honey) — reduce entrance if robbing is observed. Queen may slow laying during extreme heat.
+1. **Log hive / tree colony** (Year 0-2): Harvest honey from wild colonies in hollow trees. Observe bee behavior. Learn to use smoke. Minimal investment — follow bees to their nests, cut out comb. Establish first managed log hives near settlements. Risk: destructive harvest weakens or kills colonies.
+2. **Skep beekeeping** (Year 2-5): Construct woven skeps. Bait and capture swarms. Learn seasonal management by observation. Harvest by cutting comb — accept colony losses. Begin rendering beeswax. Multiply colonies by collecting multiple swarms each spring.
+3. **Top-bar hive** (Year 5-8): Construct top-bar hives from sawn lumber. Transfer colonies from skeps. Non-destructive inspection enables disease monitoring and swarm prevention. Honey yields double. Begin systematic pollination of adjacent crops. Select calm colonies for breeding.
+4. **Frame hive with extraction** (Year 8-10+): Precision woodworking enables Langstroth-style frame hives. Centrifugal extractor preserves comb. Multiple supers per colony. Maximum yield. Queen rearing and colony multiplication under control. Pollination contracts for agriculture. Full product range (honey, wax, propolis) at commercial scale.
 
-**Autumn** (preparation):
-Final honey harvest — leave 15-20 kg honey on the hive for winter food. Assess colony strength; combine weak colonies. Treat for varroa mites if present (primary bee parasite — monitoring and treatment essential). Reduce entrance size to prevent robbing by other bees and wasp intrusion. Install mouse guard at hive entrance. Ensure hive is weather-tight. Tilt hive slightly forward (2-3°) so rainwater drains out rather than pooling on the floor board. Remove queen excluders if used — the cluster must be able to move upward through the hive during winter.
+## 10. Safety
 
-**Winter** (dormancy):
-Minimal intervention. Bees form a tight cluster around the queen, maintaining 20-35°C at cluster center by vibrating flight muscles. The cluster slowly moves upward through the honey stores over winter. Do not open hive below 10°C — breaking the cluster exposes brood to cold and wastes energy. Heft hive periodically to estimate remaining honey stores by weight (a full deep frame weighs ~3.5 kg, empty ~0.5 kg — experienced beekeepers can judge stores by tilting the hive from the back). If dangerously light, feed fondant or candy board on top bars (not liquid syrup — bees cannot evaporate moisture in cold weather). Clear dead bees from entrance to maintain ventilation. Check for animal damage (woodpeckers, mice). Ensure hive is not exposed to persistent cold wind.
+### Bee Stings
 
-### Bootstrap Sequence
-
-1. **[Log hive / tree colony](../glossary/log-hive-tree-colony.md)** (Year 0-2): Harvest honey from wild colonies in hollow trees. Observe bee behavior. Learn to use smoke. Minimal investment — follow bees to their nests, cut out comb. Establish first managed log hives near settlements. Risk: destructive harvest weakens or kills colonies.
-2. **[Skep beekeeping](../glossary/skep-beekeeping.md)** (Year 2-5): Construct woven skeps. Bait and capture swarms. Learn seasonal management by observation. Harvest by cutting comb — accept colony losses. Begin rendering beeswax. Multiply colonies by collecting multiple swarms each spring.
-3. **[Top-bar hive](../glossary/top-bar-hive.md)** (Year 5-8): Construct top-bar hives from sawn lumber. Transfer colonies from skeps. Non-destructive inspection enables disease monitoring and swarm prevention. Honey yields double. Begin systematic pollination of adjacent crops. Select calm colonies for breeding.
-4. **[Frame hive with extraction](../glossary/frame-hive-with-extraction.md)** (Year 8-10+): Precision woodworking enables Langstroth-style frame hives. Centrifugal extractor preserves comb. Multiple supers per colony. Maximum yield. Queen rearing and colony multiplication under control. Pollination contracts for agriculture. Full product range (honey, wax, propolis) at commercial scale.
-
-### Cross-Domain Links
-
-- **[foundations.fire](../foundations/index.md)** — smoker fuel and fire for wax melting
-- **[metals.copper-bronze](../metals/copper-bronze.md)** — lost-wax investment casting using beeswax patterns
-- **[knowledge.writing](../knowledge/writing.md)** — beeswax writing tablets
-- **[health.medicine](../health/medicine.md)** — honey wound treatment (osmotic + H₂O₂ antibacterial)
-- **[health.pharmacology](../health/pharmacology.md)** — honey as medicinal binder and preservative
-- **[chemistry.lubricants](../chemistry/lubricants.md)** — beeswax belt dressing for machinery
-
-### Safety
-
-**Bee stings**:
 Each sting delivers 50-140 μg venom (apitoxin). Pain response is immediate (melittin damages cell membranes). Remove stinger promptly by scraping sideways with a fingernail or hive tool (pinching injects more venom from the attached venom sac, which continues pulsing for 2-3 minutes after detachment). Lethal dose: approximately 10 stings per kg body weight (500-700 stings for a 70 kg adult). Most healthy adults tolerate 10-20 stings without systemic effects beyond local swelling lasting 24-48 hours. Beekeepers develop tolerance over repeated exposure — higher baseline IgG blocks allergic response.
 
-**Anaphylaxis**:
+### Anaphylaxis
+
 1-3% of the population is hypersensitive to bee venom (IgE-mediated). Symptoms: generalized hives, throat swelling, difficulty breathing, rapid pulse, drop in blood pressure. Onset within 5-30 minutes. Fatal if untreated (airway obstruction or cardiovascular collapse). Treatment: epinephrine auto-injector (0.3 mg IM for adults, 0.15 mg for children) injected into outer thigh. Second dose after 5-15 minutes if symptoms persist. Emergency medical attention required even after epinephrine — biphasic reactions recur 4-12 hours later in 20% of cases. Anyone keeping bees should identify hypersensitive individuals in the household and keep an emergency plan.
 
-**Protective equipment**:
+### Smoke Inhalation
+
+Smoker fuel produces carbon monoxide and particulate matter. Use in well-ventilated outdoor areas only. Avoid inhaling smoke directly — position yourself upwind. Never use synthetic materials as smoker fuel (plastics, rubber) — toxic fumes harm bees and beekeeper. Symptoms of CO exposure: headache, dizziness, nausea at 100-200 ppm; loss of consciousness at 600-700 ppm.
+
+### Falls from Height
+
+Log hives positioned 1-3 m above ground in trees require ladder access. Inspect ladder condition before each use. Maintain three points of contact when climbing. Work with a partner when accessing elevated hives. A fall from 2 m onto hard ground causes fractures in 10-15% of cases.
+
+### Protective Equipment
+
 - **Veil**: Mesh hood preventing stings to face and neck — the most critical protection. Bees target the face and breath (CO₂ attracts them). Round veil (Elizabethan style) or folding veil attached to a hat.
 - **Gloves**: Leather or canvas, reaching to elbow. Cuff should overlap with sleeve. Experienced beekeepers often work without gloves for dexterity, accepting occasional stings.
 - **Smoker**: Essential tool. Maintained lit throughout hive work. Reduces stings by 80-90%. Fuel: dried wood chips, burlap, pine needles, dried herb stalks. Never use synthetic materials (toxic fumes harm bees).
 - **Hive tool**: Flat steel bar (20-25 cm) for prying apart frames glued together with propolis. Never force frames — pry gently at multiple points. Also used for scraping propolis and wax buildup.
 - **Suit or coveralls**: Light-colored (bees are less defensive around light colors — dark colors resemble predators like bears), smooth fabric (bees snag on wool and become agitated). Tuck pants into boots or secure with straps to prevent bees crawling up legs.
 
-**Apiary safety practices**:
+### Apiary Safety Practices
+
 - Work hives during midday (10:00-15:00) when most foragers are away from the hive.
 - Move slowly and deliberately — rapid movements trigger defensive response.
 - Never block the flight path (stand to the side or behind the hive, not in front of the entrance).
@@ -198,4 +189,16 @@ Each sting delivers 50-140 μg venom (apitoxin). Pain response is immediate (mel
 - Inspect hives every 7-10 days during active season for signs of disease (foulbrood, nosema, chalkbrood) or queen failure.
 - Maintain apiary hygiene: sterilize tools between hives using lye solution or flame, replace old comb every 3-5 years to reduce pathogen buildup.
 
-[← Back to Animals](index.md)
+## 11. Cross-Domain Links
+
+- [`foundations.fire`](../foundations/fire.md) — smoker fuel and fire for wax melting
+- [`metals.copper-bronze`](../metals/copper-bronze.md) — lost-wax investment casting using beeswax patterns
+- [`knowledge.writing`](../knowledge/writing.md) — beeswax writing tablets
+- [`health.medicine`](../health/medicine.md) — honey wound treatment (osmotic + H₂O₂ antibacterial)
+- [`health.pharmacology`](../health/pharmacology.md) — honey as medicinal binder and preservative
+- [`chemistry.lubricants`](../chemistry/lubricants.md) — beeswax belt dressing for machinery
+- [`agriculture.crop-rotation`](../agriculture/crop-rotation.md) — pollination services increase crop yields
+- [`agriculture.seed-saving`](../agriculture/seed-saving.md) — bee pollination essential for seed production in many crops
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

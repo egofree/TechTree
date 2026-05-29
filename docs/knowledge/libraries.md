@@ -1,11 +1,32 @@
 # Libraries & Information Systems
 
 > **Node ID**: knowledge.libraries
-> **Domain**: Knowledge Preservation & Education
+> **Domain**: [Knowledge Preservation & Education](./index.md)
 > **Dependencies**: [`knowledge.education`](education.md), [`knowledge.writing`](writing.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 10-200+
 > **Outputs**: libraries
+> **Critical**: Yes — a library is the institutional memory of a civilization; without organized storage and retrieval, accumulated knowledge becomes inaccessible
+
+## Prerequisites
+
+- **Materials**: Paper, ink, binding materials from [Printing](printing.md); shelving lumber (oak, ash) or steel angle-iron; acid-free folders and boxes for archival storage
+- **Tools**: [Writing](writing.md) instruments for catalog cards, measuring tools for environmental monitoring (thermometers, hygrometers), basic woodworking tools for shelving
+- **Knowledge**: [Writing](writing.md) for documentation and cataloging, [Education](education.md) for trained librarians, classification system design
+- **Infrastructure**: Fireproof building (stone or brick walls, minimum 300 mm thick), climate-controlled storage (18-22°C, 40-55% RH), reading room (minimum 6 m × 8 m)
+
+## Bill of Materials
+
+| Material | Quantity per 5,000-volume library | Source | Alternatives |
+|----------|----------------------------------|--------|-------------|
+| Shelving (oak) | 500-800 linear meters | Forestry + [Machine Tools](../machine-tools/index.md) | Steel angle-iron (heavier, requires welding) |
+| Card stock (catalog) | 10,000-15,000 cards | [Printing](printing.md) | Ledger-bound catalog (less flexible) |
+| Acid-free folders | 2,000-5,000 | [Chemistry](../chemistry/index.md) (alkaline paper) | Regular folders (acid migration degrades contents) |
+| Environmental monitors | 4-8 hygrometers + thermometers | [Measurement](../measurement/index.md) | Hair-tension hygrometer (less precise) |
+| Binding repair materials | Japanese tissue, wheat starch paste, linen thread | [Textiles](../textiles/fibers.md), [Agriculture](../agriculture/index.md) | Standard paper patches (less durable) |
+| Fire suppression equipment | Sand buckets, water pumps, CO₂ extinguishers | [Chemistry](../chemistry/index.md) | Water buckets only (limited effectiveness) |
+
+## Process Description
 
 ### Library Construction
 
@@ -225,4 +246,4 @@ Once semiconductor manufacturing is available:
 
 ---
 
-*Part of the [Knowledge Domain](index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

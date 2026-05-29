@@ -2,7 +2,7 @@
 
 > **Node ID**: food-processing.brewing
 > **Domain**: [Food Processing](./index.md)
-> **Dependencies**: [`chemistry.petroleum-alternatives.fermentation`](../chemistry/fermentation.md), `energy`
+> **Dependencies**: [`chemistry.petroleum-alternatives.fermentation`](../chemistry/fermentation.md), [`energy`](../energy/index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 0-25+
 > **Outputs**: beer, wine, spirits, industrial_ethanol, spent_grain, vinegar
@@ -106,9 +106,9 @@ Distillation separates ethanol (boiling point 78.3°C) from water (100°C) by se
 - **Design**: Copper pot (50-2000 L) with swan neck, lyne arm, and condenser (worm coil in cold water bath). Copper catalytically removes sulfur compounds (dimethyl sulfide, hydrogen sulfide) that cause off-flavors.
 - **First distillation (stripping run)**: Distill fermented wash at 85-95°C. Collect "low wines" at 20-30% ABV. Discard first 2-5% ("foreshots" — methanol, acetone, highly toxic). Stop collecting at 5-10% ABV ("tails" — fusel oils, congeners).
 - **Second distillation (spirit run)**: Redistill low wines with finer cuts:
-  - **Heads/foreshots** (first 2-5%): Methanol (boiling point 64.7°C), acetone (56°C), ethyl acetate. **Discard — methanol causes blindness and death.** Methanol content in heads: 0.5-2% of distillate.
-  - **Hearts** (middle 60-70%): Clean ethanol at 65-80% ABV. The drinkable product.
-  - **Tails** (last 20-30%): Fusel alcohols (propanol, butanol, amyl alcohol), fatty acids. May be redistilled or discarded.
+   - **Heads/foreshots** (first 2-5%): Methanol (boiling point 64.7°C), acetone (56°C), ethyl acetate. **Discard — methanol causes blindness and death.** Methanol content in heads: 0.5-2% of distillate.
+   - **Hearts** (middle 60-70%): Clean ethanol at 65-80% ABV. The drinkable product.
+   - **Tails** (last 20-30%): Fusel alcohols (propanol, butanol, amyl alcohol), fatty acids. May be redistilled or discarded.
 - **Yield**: 1 kg fermentable sugar yields ~0.51 kg ethanol (theoretical maximum by mass). Practical yield: 0.40-0.45 kg ethanol per kg sugar. For grain: 1 kg malted barley yields ~0.35 L pure ethanol.
 
 **Column still distillation** (continuous):

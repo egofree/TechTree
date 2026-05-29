@@ -1,11 +1,12 @@
 # Road & Bridge Construction
 
 > **Node ID**: transport.roads
-> **Domain**: Transportation & Logistics
-> **Dependencies**: [`animals.draft-power`](../animals/draft-power.md), [`foundations.tools-basic`](../foundations/tools-basic.md), `mining`
+> **Domain**: [Transport](./index.md)
+> **Dependencies**: [`animals.draft-power`](../animals/draft-power.md), [`foundations.tools-basic`](../foundations/tools-basic.md), [`mining`](../mining/index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 5-30
 > **Outputs**: roads, bridges
+> **Critical**: No
 
 ### Road Construction
 

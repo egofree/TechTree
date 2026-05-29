@@ -1,11 +1,12 @@
 # Silicon Purification
 
 > **Node ID**: silicon.purification
-> **Domain**: Silicon
+> **Domain**: [Silicon](./index.md)
 > **Dependencies**: [`chemistry.distillation`](../chemistry/distillation.md), [`chemistry.hydrogen-silane`](../chemistry/hydrogen-silane.md), [`gas-handling.basic`](../gas-handling/basic.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 30-50
 > **Outputs**: purified_silicon, polysilicon, chlorosilanes
+> **Critical**: Yes — 9N+ purity polysilicon is required for all electronic-grade semiconductor devices
 
 ### Purification Pathways
 

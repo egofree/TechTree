@@ -1,11 +1,12 @@
 # Paints, Coatings & Inks
 
 > **Node ID**: `chemistry.coatings`
+> **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`chemistry.acids`](acids.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md)
-> **Enables**: [`metals.finishing`](../metals/finishing.md), `transport`
-> **Parent**: [Chemistry](index.md)
-> **Era**: Early Industrial
-> **Tags**: `material`, `capability`, `early-win`
+> **Enables**: [`metals.finishing`](../metals/finishing.md), [`electronics.electrical-systems`](../electronics/electrical-systems.md)
+> **Timeline**: Early Industrial
+> **Outputs**: paints, coatings, inks, photoresists
+> **Critical**: No — protective coatings extend infrastructure lifespan but do not enable new capabilities directly
 
 ## Overview
 
@@ -206,3 +207,7 @@ The coatings industry continues to evolve toward lower VOC, higher durability, a
 
 - Paint formulation depends on [Solvents](../chemistry/solvents.md) and [Polymers](../polymers/natural.md) resins. Coatings protect [Metals](../metals/finishing.md) from corrosion. Related to [Textiles](../textiles/dyeing.md) dyeing chemistry.
 
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

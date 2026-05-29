@@ -1,11 +1,12 @@
 # Coke Production
 
 > **Node ID**: energy.fuels.coke
-> **Domain**: Energy
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), [`energy.fuels`](fuels.md), `mining`
 > **Enables**: [`metals.iron-steel.blast-furnace`](../metals/blast-furnace.md)
 > **Timeline**: Years 15-25
 > **Outputs**: coke, coal_gas, coal_tar, ammonia_liquor, benzol
+> **Critical**: Yes — coke is the only fuel that sustains blast furnace temperatures (1800-2100°C); without coke, iron production remains limited to small bloomeries
 
 ## Overview
 

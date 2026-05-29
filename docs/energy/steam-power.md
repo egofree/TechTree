@@ -6,8 +6,19 @@
 > **Enables**: [`energy.steam-power.steam-turbines`](steam-turbines.md), [`health.medical-instruments`](../health/medical-instruments.md), [`marine.propulsion`](../marine/propulsion.md), [`mining.drilling`](../mining/drilling.md), [`mining.ventilation`](../mining/ventilation.md), `petroleum.extraction.cable-tool`, [`transport.railways`](../transport/railways.md)
 > **Timeline**: Years 15-25
 > **Outputs**: steam_engines, boilers, rotary_power
+> **Critical**: Yes — steam power is the first mechanical energy source independent of geography (unlike water and wind), enabling factories, railways, and mining at any location
 
 ### Steam Engines
+
+**Strengths** (applies to all steam engines):
+- First mechanical power source independent of geography — works anywhere with fuel and water
+- Can burn any solid, liquid, or gaseous fuel — fuel flexibility unmatched by internal combustion engines
+- External combustion allows continuous combustion at optimal conditions — cleaner than internal combustion
+
+**Weaknesses** (applies to all steam engines):
+- Low power-to-weight ratio (0.01-0.05 kW/kg) — far heavier than internal combustion engines
+- Requires time to raise steam from cold — 30 minutes to several hours before power is available
+- Boiler explosion risk — pressurized steam vessels contain enormous stored energy
 
 **[Newcomen-style atmospheric engine](../glossary/newcomen-style-atmospheric-engine.md)** (first practical steam engine, ~1712):
 - **Principle**: Steam at atmospheric pressure fills cylinder. Cold water injected into cylinder condenses steam → vacuum → atmospheric pressure pushes piston down → work stroke.

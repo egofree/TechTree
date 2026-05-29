@@ -1,9 +1,12 @@
 # Water Treatment (Health & Sanitation)
 
 > **Node ID**: health.water-treatment
-> **Domain**: Health
+> **Domain**: [Health](./index.md)
+> **Dependencies**: [`health.sanitation`](sanitation.md), [`chemistry.electrolysis`](../chemistry/electrolysis.md)
+> **Enables**: [`health.medicine`](medicine.md), [`health.surgery-basics`](surgery-basics.md)
 > **Timeline**: Years 5-15
 > **Outputs**: potable_water, sanitized_water
+> **Critical**: Yes — safe drinking water is the single most impactful public health intervention
 
 ## Overview
 
@@ -272,4 +275,4 @@ Dose calculation: For a 10,000 L storage tank requiring 1.0 mg/L chlorine dose: 
 
 ---
 
-*Part of the [Health Domain](index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*

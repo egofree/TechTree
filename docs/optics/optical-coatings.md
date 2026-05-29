@@ -83,11 +83,23 @@ Precise control of coating thickness is essential — the difference between a f
 - **Stress cracking**: Coating cracks after removal from vacuum. Caused by excessive thermal stress (substrate too hot during deposition) or intrinsic stress in the film. MgF₂ tends toward compressive stress; aluminum has tensile stress. Control deposition rate and substrate temperature.
 - **Haze/scattering**: Coated surface appears foggy rather than clear. Caused by porous film (deposited at too high a chamber pressure), or by micro-particles from a dirty chamber. Clean chamber regularly. Ensure adequate base pressure before deposition.
 
+### Coating Performance Summary
+
+| Coating Type | Layers | Thickness (nm) | Reflection (%) | Bandwidth | Durability |
+|---|---|---|---|---|---|
+| Bare glass | 0 | 0 | 4.0 per surface | Broad | N/A |
+| Single-layer MgF₂ | 1 | ~100 | 1.3 at 550 nm | Moderate | Good (Mohs 5-6) |
+| V-coat (2-layer) | 2 | ~200 total | <0.2 at design λ | Narrow (±20 nm) | Good |
+| Broadband AR (4-layer) | 4 | ~400 total | <0.25 across 400-700 nm | Broad | Moderate |
+| Bare aluminum | 1 | 80-150 | ~92 across 400-700 nm | Broad | Poor (soft) |
+| Protected aluminum (Al+SiO₂) | 2 | 100+80 | ~91 across 400-700 nm | Broad | Good |
+| Dielectric mirror (HL)⁵H | 11 | ~1500 total | >99.5 at design λ | ±90 nm | Excellent |
+
 ### Safety & Hazards
 
 - **Vacuum chamber implosion**: Glass bell jars and vacuum chambers under vacuum can collapse violently if cracked or chipped. Wrap glass bell jars with tape or mesh for fragmentation retention. Inspect for chips, scratches, and star cracks before every use — never use damaged glassware under vacuum. Metal chambers are preferred for safety. Wear face shield when pumping down or venting.
 - **Hot evaporation sources**: Tungsten boats and baskets operate at 1200-2000°C during deposition — glowing yellow-white. Severe thermal burns on contact. Allow sources to cool fully (10-20 minutes) before opening chamber. Handle boats with tongs during loading and unloading.
-- **Toxic coating materials**: MgF₂ dust is moderately toxic if inhaled (fluoride compounds affect bone and kidneys). Handle powder source material with gloves and dust mask. Avoid generating dust. Aluminum is lower hazard but fine powder is a fire and inhalation risk.
+- **Toxic coating materials**: MgF₂ dust is moderately toxic if inhaled (fluoride compounds affect bone and kidneys at chronic doses >3 mg/day). Handle powder source material with N95 or better respirator and nitrile gloves. Avoid generating dust. Aluminum is lower hazard but fine powder is a fire and inhalation risk.
 - **Vacuum pump fluids**: Diffusion pumps use silicone or hydrocarbon oil that can backstream into the chamber and contaminate coatings. Use a cold trap (liquid nitrogen or chilled baffle) between pump and chamber. Diffusion pump oil is hot during operation (~200°C) — thermal burn risk if pump is opened while hot.
 - **Electrical hazards**: Evaporation sources carry high current (10-50 A) at low voltage (3-10 V) from a heavy-duty power supply. The current is sufficient to cause severe burns or fire if cables short. Insulate all connections. Use properly rated cables and connectors. Interlock the chamber door to cut power when opened.
 

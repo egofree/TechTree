@@ -197,6 +197,5 @@ Each layer is roughly 10-100× slower but 10-100× cheaper per bit than the laye
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Computing](./index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*
 
-[← Back to Computing](index.md)

@@ -1,11 +1,12 @@
 # Crystal Growth & Wafering
 
 > **Node ID**: silicon.crystal-growth
-> **Domain**: Silicon
+> **Domain**: [Silicon](./index.md)
 > **Dependencies**: [`chemistry.air-separation`](../chemistry/air-separation.md), [`cryogenics.liquefaction-storage`](../cryogenics/liquefaction-storage.md), [`glass.advanced`](../glass/advanced.md), [`measurement.precision-metrology`](../measurement/precision-metrology.md)
 > **Enables**: [`silicon.basic-devices`](basic-devices.md), [`silicon.crystal-growth.cz-pulling`](cz-pulling.md), [`silicon.wafering`](wafering.md)
 > **Timeline**: Years 30-50
 > **Outputs**: single_crystal_ingots, wafers, polished_wafers
+> **Critical**: Yes — single-crystal silicon is required for all semiconductor devices and efficient solar cells
 
 
 The CZ puller is the most mechanically demanding piece of equipment in the silicon path. It requires precision motion control, high-temperature furnace, and contamination control.
@@ -25,6 +26,30 @@ Three principal methods produce single crystal silicon ingots. Each trades off p
 **Float zone (FZ)**: No crucible contact. Highest purity silicon. Described in detail below. Used for power devices where high resistivity (>10,000 Ω·cm) and low oxygen content are required.
 
 **Bridgman**: Directional solidification in a shaped mold. Simpler but produces more defects. Described below. Common for III-V compound semiconductors (GaAs, InP) where CZ pulling is impractical.
+
+**Strengths of CZ pulling**:
+- Well-established process producing >90% of all semiconductor-grade silicon wafers
+- Scalable to 300 mm diameter with high throughput (one 15-30 kg ingot per 24-48 hour cycle)
+
+**Weaknesses of CZ pulling**:
+- Quartz crucible dissolution introduces 10-20 ppma oxygen, limiting use for high-power and radiation-hard devices
+- Single-use crucible is a significant consumable cost and supply chain bottleneck
+
+**Strengths of FZ**:
+- Oxygen content <1 ppma and resistivity >10,000 Ω·cm — the purest silicon available
+- No crucible means no metallic contamination source
+
+**Weaknesses of FZ**:
+- Maximum diameter ~200 mm (surface tension cannot stabilize larger molten zones)
+- Requires expensive RF generator and precise coil alignment
+
+**Strengths of Bridgman**:
+- Simple equipment — two-zone furnace and translation mechanism, no precision pull mechanism required
+- Compatible with III-V compounds (GaAs, InP) that decompose at their melting point under open atmosphere
+
+**Weaknesses of Bridgman**:
+- Higher defect density than CZ or FZ due to contact with crucible walls during solidification
+- Not used for silicon IC production — relegated to compound semiconductors and specialty applications
 
 ### Seed Crystal Preparation
 

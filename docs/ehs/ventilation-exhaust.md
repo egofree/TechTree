@@ -11,6 +11,36 @@
 
 Semiconductor fabrication releases toxic, pyrophoric, and corrosive gases and vapors that must be captured at the source and rendered safe before discharge to atmosphere. General dilution ventilation is entirely inadequate — a 1 ppm silane leak in a fab ballroom would require 25,000 room air changes per hour to dilute below the TLV. Local exhaust ventilation (LEV), gas cabinets with dedicated exhaust, and point-of-use abatement systems are the primary engineering controls for semiconductor chemical hazards. This document covers the design, operation, and maintenance of ventilation and exhaust systems specific to semiconductor manufacturing.
 
+## Decision Framework: Exhaust System Selection
+
+| Exhaust Source | Recommended System | Key Design Parameter | Abatement Required |
+|---------------|-------------------|---------------------|-------------------|
+| Wet bench (acids: HF, HNO₃, H₂SO₄) | Enclosed bench with LEV + central acid scrubber | 150-250 CFM/ft, PVDF duct | Yes — caustic scrubber (>99% acid removal) |
+| Wet bench (solvents: IPA, acetone, NMP) | Enclosed bench with LEV + carbon adsorber | 150-250 CFM/ft, galvanized duct | Yes — activated carbon or thermal oxidizer |
+| Gas cabinet (toxic: AsH₃, PH₃) | Dedicated exhaust + POU oxidizing scrubber | 250-400 CFM/cabinet, 316L SS duct | Yes — oxidizing scrubber (NaOCl/KMnO₄) |
+| Gas cabinet (pyrophoric: SiH₄) | Dedicated exhaust + POU thermal oxidizer | 250-400 CFM/cabinet, 316L SS duct | Yes — burner box (>99% DRE) |
+| Etch tool exhaust (PFCs, Cl₂) | POU plasma abater + central scrubber | 100-300 CFM/tool, fluoropolymer-lined duct | Yes — plasma destruction (>90% DRE for CF₄) |
+| General fab return air | HEPA filtration + chemical filtration | 500-750 ACH for ISO Class 1-5 | No — recirculated with filtration |
+
+### Implementation Steps
+
+1. **Classify all exhaust sources**: Inventory every process tool, wet bench, gas cabinet, and chemical dispensing point. For each, identify chemical class (acid, solvent, toxic gas, pyrophoric, inert) and flow requirement.
+2. **Segregate exhaust systems**: Never combine incompatible streams (acid + solvent, toxic gas + general). Design separate duct systems for each chemical class.
+3. **Size abatement systems**: Calculate total contaminant load from all sources on each exhaust system. Select POU abatement for high-concentration sources and central scrubbers for aggregated low-concentration streams.
+4. **Install monitoring**: Continuous flow sensors in every exhaust duct (alarm at <80% design flow). Continuous gas detection at scrubber outlets. pH monitoring on scrubber liquor.
+5. **Validate with smoke tests**: After installation, verify capture at every hood and bench with visible smoke. All points must show complete capture with no escape to breathing zone.
+6. **Establish maintenance schedule**: Quarterly duct inspection, monthly scrubber efficiency testing, quarterly fan performance checks, annual face velocity verification.
+
+### Abatement Technology Trade-offs
+
+| Technology | Target Contaminants | DRE | Energy Use | Waste Stream | Cost |
+|-----------|---------------------|-----|-----------|-------------|------|
+| Thermal oxidizer (burner box) | SiH₄, PH₃, flammable organics | >99% | High (natural gas/H₂ fuel) | Acid scrub water (HF, HCl) | High |
+| Plasma abatement | PFCs (CF₄, C₂F₆, NF₃) | 90-97% | Medium (RF power) | HF scrub water | Medium-High |
+| Wet packed-bed scrubber | Acid gases (HF, HCl, Cl₂) | >99% | Low (pump energy) | Spent caustic solution | Medium |
+| Dry adsorbent cartridge | Low-flow organics, backup polishing | 90-99% (until breakthrough) | Very low | Spent media (hazardous waste) | Low-Medium |
+| Central acid scrubber (multi-stage) | Aggregated acid exhaust | >99.9% | Medium | Spent NaOH + CaF₂ sludge | High |
+
 ## Local Exhaust Ventilation (LEV)
 
 ### Principles

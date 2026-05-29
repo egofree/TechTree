@@ -1,11 +1,12 @@
 # Semiconductor Packaging & Testing
 
 > **Node ID**: chemistry.packaging-testing
-> **Domain**: Chemistry
-> **Dependencies**: `machine-tools`, `machine-tools.joining.ultrasonic-bonding`, [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`polymers.thermosets`](../polymers/thermosets.md)
-> **Enables**: None (leaf capability)
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`machine-tools.machining`](../machine-tools/machining.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`polymers.thermosets`](../polymers/thermosets.md)
+> **Enables**: [`electronics.electrical-systems`](../electronics/electrical-systems.md)
 > **Timeline**: Years 40-70
 > **Outputs**: packaged_ics, tested_ics, yield_data
+> **Critical**: Yes — semiconductor packaging protects the die from physical damage, moisture, and contamination. Without packaging, fabricated integrated circuits cannot be used in any electronic system.
 
 ## Overview
 
@@ -226,3 +227,7 @@ ICH (International Council for Harmonisation) guidelines define standard conditi
 - **[Thermoplastics](../polymers/thermoplastics.md)**: Polymer materials for packaging and cleanroom consumables
 - **[Thermosets](../polymers/thermosets.md)**: Epoxy molding compounds for IC encapsulation
 - **[Analytical Testing](solvents.md)**: Titration, spectrophotometry, and chromatography methods
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

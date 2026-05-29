@@ -2,51 +2,77 @@
 
 > **Node ID**: agriculture.soil-management
 > **Domain**: [Agriculture](./index.md)
-> **Dependencies**: `agriculture`
-> **Enables**: [`agriculture.soil-management.vermiculture`](soil-management-vermiculture.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
+> **Dependencies**: [`agriculture`](./index.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
+> **Enables**: [`agriculture.soil-management.vermiculture`](soil-management-vermiculture.md), [`agriculture.crop-rotation`](crop-rotation.md), [`agriculture.pest-management`](pest-management.md)
 > **Timeline**: Years 0-10+
 > **Outputs**: compost, humus, biochar, amended_soil, mulch, green_manure
+> **Critical**: Yes — depleted soils collapse within 3-5 years of continuous cropping; soil management is the foundation of agricultural permanence
 
-### Overview
+## 1. Overview
 
 Soil management is the foundation of sustainable agriculture. Every civilization that has exhausted its soils has collapsed; every civilization that has maintained soil fertility has endured. The core principle is simple: return to the soil what you take from it, and add more than you remove. In practice this means composting organic waste, rotating crops, managing pH and mineral balance, and building organic matter content over years and decades.
 
 A well-managed agricultural soil contains 3-5% organic matter by weight, holds water like a sponge (200-300 liters per cubic meter), supports billions of microorganisms per gram, and produces higher crop yields with fewer inputs than depleted soil. A degraded soil with less than 1% organic matter compacts, crusts, erodes, and requires ever-increasing fertilizer to maintain yields — a losing spiral.
 
-This article covers composting methods (turned windrow, static pile, vermicompost), soil amendments (biochar, lime, greensand), green manures and cover crops, crop rotation, mulching, soil testing, and mycorrhizal inoculation. The companion article on [vermiculture](./soil-management-vermiculture.md) covers worm-based composting in detail.
+This article covers composting methods (turned windrow, static pile, vermicompost), soil amendments (biochar, lime, greensand), green manures and cover crops, mulching, soil testing, and mycorrhizal inoculation. The companion article on [Vermiculture](./soil-management-vermiculture.md) covers worm-based composting in detail.
 
-### Composting Fundamentals
+Position in the dependency chain: soil management depends on [Foundations → Agriculture](../foundations/food-agriculture.md) (basic cultivation and harvest knowledge) and supports [Crop Rotation](crop-rotation.md) (rotation builds on soil fertility), [Pest Management](pest-management.md) (healthy soil produces pest-resistant plants), and [Irrigation](irrigation.md) (soil structure determines water infiltration).
 
-Composting is controlled biological decomposition of organic matter into a stable, humus-rich material. Four factors control the process:
+## 2. Prerequisites
 
-1. **Carbon-to-nitrogen ratio (C:N)**: Target 25-30:1 by weight. Microorganisms need carbon for energy and nitrogen for protein synthesis. Too much carbon (C:N > 40:1) = slow decomposition. Too much nitrogen (C:N < 15:1) = ammonia loss, foul odors, nitrogen waste. Mix carbon-rich "browns" (straw, leaves, sawdust, paper) with nitrogen-rich "greens" (manure, kitchen waste, fresh grass clippings, legume residues).
+**Materials**:
+- Organic waste (crop residues, kitchen waste, manure, leaves, straw)
+- Carbon-rich "browns" (straw, dry leaves, sawdust, wood chips) and nitrogen-rich "greens" (manure, fresh grass, kitchen waste)
+- Clay or earth for compost bin construction
+- Wood ash or agricultural lime for pH amendment (see [Ceramics → Lime](../ceramics/lime.md))
+- Biomass for biochar production (branches, pruning waste, crop residues)
 
-2. **Moisture**: Target 40-60% by weight. Squeeze a handful of compost — it should feel like a wrung-out sponge, yielding 1-2 drops of water when squeezed firmly. Too dry: microbial activity stops. Too wet: anaerobic conditions develop, producing foul odors and methane rather than carbon dioxide.
+**Tools and equipment**:
+- [Pitchfork or compost fork](../foundations/tools-basic.md) for turning compost piles
+- [Shovel](../foundations/tools-basic.md) for moving materials and excavating
+- [Wheelbarrow or carrying baskets](../foundations/tools-basic.md) for transporting amendments
+- Soil probe (metal rod, 1 m length) for monitoring compost temperature
+- Sieve or screen (1-2 cm mesh) for sifting finished compost
 
-3. **Oxygen**: Aerobic decomposition (with oxygen) is faster, produces less odor, and generates heat that kills pathogens. Anaerobic decomposition (without oxygen) is slower, produces foul-smelling compounds (hydrogen sulfide, ammonia, volatile fatty acids), and preserves more nitrogen but at the cost of quality. Turn piles or provide aeration to maintain aerobic conditions.
+**Knowledge**:
+- Carbon-to-nitrogen ratio calculation (C:N target 25-30:1)
+- Compost moisture assessment (squeeze test)
+- Temperature monitoring for pathogen kill (55°C+ for 3+ days)
+- Basic soil pH testing (indicator paper or liquid kit)
+- Cover crop species selection and management
 
-4. **Temperature**: Microbial metabolism generates heat. A well-built compost pile reaches 55-65°C within 2-5 days as thermophilic bacteria proliferate. This temperature range kills most pathogens, weed seeds, and parasite eggs. Below 40°C, decomposition is slow; above 70°C, beneficial organisms die and the process stalls.
+**Infrastructure**:
+- Composting area with access to water and drainage
+- Storage for finished compost (covered area or bins)
+- Space for cover crop cultivation within rotation system
 
-**Compost feedstock C:N ratios** (common materials):
+## 3. Bill of Materials
 
-| Material | C:N Ratio | Category |
-|----------|-----------|----------|
-| Fresh grass clippings | 15-20:1 | Green (nitrogen) |
-| Kitchen vegetable waste | 15-20:1 | Green (nitrogen) |
-| Poultry manure | 10-15:1 | Green (nitrogen) |
-| Cattle manure | 15-25:1 | Green (nitrogen) |
-| Horse manure + bedding | 25-40:1 | Balanced |
-| Dry autumn leaves | 50-80:1 | Brown (carbon) |
-| Wheat straw | 80-120:1 | Brown (carbon) |
-| Sawdust | 200-500:1 | Brown (carbon) |
-| Shredded newspaper | 150-200:1 | Brown (carbon) |
-| Wood chips | 400-800:1 | Brown (carbon) |
+### Turned Windrow Composting System (5 tonnes capacity)
 
-### Composting Methods
+| Material | Quantity | Source | Alternatives |
+|----------|----------|--------|-------------|
+| Green feedstock (manure, grass, kitchen waste) | 2-3 tonnes per batch | Farm waste, [Animals → Cattle](../animals/cattle.md) | Food waste collection |
+| Brown feedstock (straw, leaves, sawdust) | 2-3 tonnes per batch | Crop residue, [Agriculture](./index.md) | Shredded cardboard, wood chips |
+| Water (for moisture adjustment) | 200-500 L per batch | [Water Procurement](../water/procurement.md) | Rainwater collection |
+| Pitchfork | 1-2 | [Tools → Woodworking](../foundations/tools-basic.md) | Compost aerator tool |
+| Temperature probe (metal rod, 1 m) | 1 | Metalworking or repurposed | Wooden stick (less precise) |
+| Compost bin or windrow markers | As needed | [Tools → Woodworking](../foundations/tools-basic.md) | Earth berms, concrete blocks |
 
-#### Turned Windrow Composting
+### Biochar Production (Batch Kiln)
 
-The most common and reliable method. Organic materials are piled in long, trapezoidal windrows and turned periodically to reintroduce oxygen.
+| Material | Quantity | Source | Alternatives |
+|----------|----------|--------|-------------|
+| Woody biomass (branches, pruning waste) | 500-1,000 kg per batch | [Forestry](../plants/index.md), orchard pruning | Crop residues (corn stover, husks) |
+| Metal drum with lid (200 L) | 1-2 | [Metals](../metals/index.md) or scavenged | Earth pit kiln |
+| Water (for quenching) | 50-200 L | [Water Procurement](../water/procurement.md) | — |
+| Compost or manure (for biochar activation) | 100-200 kg | On-site compost | Manure slurry, compost tea |
+
+## 4. Process Description
+
+### 4.1 Turned Windrow Composting
+
+The most common and reliable composting method. Organic materials are piled in long, trapezoidal windrows and turned periodically to reintroduce oxygen.
 
 **Windrow construction**:
 - Dimensions: 1.5-2 m tall, 2-3 m wide at base, length as needed (typical: 3-10 m for small operations). Pile on bare soil (allows earthworm migration and drainage) or on a concrete pad (easier to collect leachate, cleaner product).

@@ -2,22 +2,79 @@
 
 > **Node ID**: agriculture.aquaponics
 > **Domain**: [Agriculture](./index.md)
-> **Dependencies**: `agriculture`, [`animals.aquaculture`](../animals/aquaculture.md)
-> **Enables**: `agriculture.hydroponic-ph-control`
+> **Dependencies**: [`agriculture`](./index.md), [`animals.aquaculture`](../animals/aquaculture.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
+> **Enables**: [`agriculture.hydroponic-ph-control`](sem-tech-hydroponics.md), [`food-processing`](../food-processing/index.md)
 > **Timeline**: Years 3-10+
 > **Outputs**: fish, vegetables, herbs, filtered_water
+> **Critical**: No — aquaponics provides high-density integrated food production but is not the only path to reliable agriculture; conventional soil-based farming and separate aquaculture are viable alternatives
 
-### Overview
+## 1. Overview
 
 Aquaponics is an integrated food production system that combines fish farming (aquaculture) with soil-less plant cultivation in a single recirculating water loop. Fish produce ammonia-rich waste; bacteria convert that ammonia to nitrate; plants absorb the nitrate as fertilizer; the cleaned water returns to the fish tank. The result is two crops (fish and plants) from one water input, with the plants serving as the water filtration system for the fish and the fish providing free fertilizer for the plants.
 
 Aquaponics is a **lower-technology** approach than chemical hydroponic systems. Where hydroponics requires precise chemical pH adjustment (adding phosphoric acid or potassium hydroxide), aquaponics achieves pH stability through natural biological buffering — calcium carbonate from crushed shells, bones, or limestone dissolves slowly to maintain pH in the 6.5-7.0 range. The nitrogen cycle is driven entirely by naturally occurring bacteria. No chemical inputs are needed for the core system beyond fish food and supplemental minerals (iron, calcium, potassium) that fish food does not provide in sufficient quantity. The more advanced [hydroponic pH control](./sem-tech-hydroponics.md) systems, which use electromembrane electrodialysis for ion-by-ion nutrient management, build upon the principles established by aquaponics but require substantially more industrial infrastructure.
 
-A small aquaponic system — a 500-1000 L fish tank, a 1-2 m² grow bed, an air pump, and a water pump — produces 20-40 kg of fish and 30-60 kg of vegetables per year in a footprint of 3-4 m². This is meaningful protein and vegetable production from a system small enough to operate in a courtyard, greenhouse, or indoor room.
+A small aquaponic system — a 500-1000 L fish tank, a 1-2 m² grow bed, an air pump, and a water pump — produces 20-40 kg of fish and 30-60 kg of vegetables per year in a footprint of 3-4 m².
 
-### System Design
+Position in the dependency chain: aquaponics depends on [Aquaculture](../animals/aquaculture.md) (fish farming knowledge) and [Agriculture](./index.md) (plant cultivation). It enables the more advanced [SEM Tech Hydroponics](./sem-tech-hydroponics.md) systems and supports [Food Processing](../food-processing/index.md) with consistent fish and vegetable harvests.
 
-#### Components
+## 2. Prerequisites
+
+**Materials**:
+- Fish tank (500-1000 L for household system): food-grade polyethylene, or concrete/brick tank lined with pond liner
+- Grow bed containers: watertight boxes, tubs, or custom-built beds (25-30 cm depth)
+- Growing media: gravel (10-20 mm, washed), expanded clay pebbles, or lava rock
+- PVC pipes, connectors, and valves for water circulation
+- Submersible water pump rated at 1000-2000 L/hr for 1000 L system
+- Air pump + airstones (5-10 L/min rating)
+- Fish: tilapia, carp, or catfish fingerlings (see [Aquaculture](../animals/aquaculture.md))
+- Fish food: commercial pellets, BSF larvae, or duckweed (see [Insect Farming](../animals/insect-farming.md))
+
+**Tools and equipment**:
+- [Carpentry tools](../foundations/tools-basic.md) for grow bed and frame construction
+- [PVC cutting and joining tools](../foundations/tools-basic.md) for plumbing
+- [Ceramics](../ceramics/pottery.md) or plastic containers for sump and filter
+- Water test kit (ammonia, nitrite, nitrate, pH) — liquid reagent or test strips
+- Thermometer for water temperature monitoring
+
+**Knowledge**:
+- Nitrogen cycle (ammonia → nitrite → nitrate) and bacterial colonization requirements
+- Fish health assessment (gill color, swimming behavior, feeding response)
+- Water chemistry: pH, ammonia, nitrite, nitrate testing and interpretation
+- Bell siphon construction and flood-and-drain cycling
+
+**Infrastructure**:
+- Reliable electricity supply (solar + battery, wind, or grid) for continuous pump and aerator operation
+- Sheltered location (greenhouse, indoor room, or covered area) for temperature control
+- Water source for initial fill and make-up water (see [Water Procurement](../water/procurement.md))
+
+## 3. Bill of Materials
+
+### Household Aquaponic System (1000 L fish tank)
+
+| Material | Quantity | Source | Alternatives |
+|----------|----------|--------|-------------|
+| Fish tank (500-1000 L) | 1 | [Ceramics](../ceramics/pottery.md), polyethylene tank, or concrete | IBC tote, stock tank |
+| Grow bed container (25-30 cm deep) | 1-2 (total 500-1000 L volume) | [Tools → Woodworking](../foundations/tools-basic.md) with pond liner | Plastic tubs, concrete boxes |
+| Growing media (gravel 10-20 mm) | 200-400 L | Local quarry or river gravel | Expanded clay (hydroton), lava rock |
+| Submersible water pump (1000-2000 L/hr) | 1 | [Electronics](../electronics/index.md) or commercial | Hand pump (labor-intensive) |
+| Air pump (5-10 L/min) + airstones | 1 | [Electronics](../electronics/index.md) or commercial | Bellows aerator (manual) |
+| PVC pipes and fittings (25-50 mm) | 5-10 m | [Chemistry → PVC](../chemistry/index.md) or plumbing supply | Bamboo tubes, rubber hose |
+| Bell siphon components (PVC pipes) | 1 set | Plumbing supply | Hand-drilled holes with manual drain |
+| Fish fingerlings | 20-50 | [Aquaculture](../animals/aquaculture.md) | Wild-caught (disease risk) |
+| Water test kit (ammonia, nitrite, nitrate, pH) | 1 | Chemical supply | Visual observation (less precise) |
+
+### Supplemental Mineral Amendments
+
+| Material | Quantity | Purpose | Source |
+|----------|----------|---------|--------|
+| Crushed eggshells or oyster shells | 500 g-2 kg | Calcium supplement + pH buffer | Kitchen waste, coastal collection |
+| Wood ash | 100-200 g per 100 L weekly | Potassium supplement | [Fire-Making](../foundations/fire.md) |
+| Chelated iron (iron DTPA) | 2-5 mg/L every 2-4 weeks | Iron supplement (prevents chlorosis) | [Chemistry](../chemistry/index.md) or commercial |
+
+## 4. Process Description
+
+### 4.1 System Design and Assembly
 
 **Fish tank**: 500-1000 L for a household system. Food-grade polyethylene tank, or a concrete/brick tank lined with pond liner or waterproofed with cement render. Opaque or dark-colored to reduce algae growth. Minimum depth 40-60 cm. Located at or below the level of the grow beds to allow gravity drain-back.
 

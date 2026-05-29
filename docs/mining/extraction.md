@@ -1,11 +1,12 @@
 # Mining Extraction
 
 > **Node ID**: mining.extraction
-> **Domain**: Mining Engineering & Extractive Metallurgy
+> **Domain**: [Mining](./index.md)
 > **Dependencies**: [`animals.draft-power`](../animals/draft-power.md), [`foundations.tools-basic`](../foundations/tools-basic.md), [`mining.prospecting`](prospecting.md)
-> **Enables**: [`mining.extraction.black-powder`](black-powder.md), [`mining.processing`](processing.md), `transport`
+> **Enables**: [`mining.extraction.black-powder`](black-powder.md), [`mining.processing`](processing.md), [`transport`](../transport/index.md)
 > **Timeline**: Years 0-20
 > **Outputs**: raw_ore
+> **Critical**: No
 
 ### Mining Methods
 

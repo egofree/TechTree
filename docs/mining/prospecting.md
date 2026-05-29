@@ -6,7 +6,7 @@
 > **Enables**: [`mining.extraction`](extraction.md)
 > **Timeline**: Years 0-50+
 > **Outputs**: copper_ore, iron_ore, tin_ore, coal, quartz, sulfur, fluorite, concentrated_ore
-> **Note**: Mining is a separate domain; this file covers early surface prospecting techniques.
+> **Critical**: No
 
 ### Mining & Prospecting
 
@@ -202,4 +202,6 @@ Stream sediment sampling is the most cost-effective regional exploration method 
 
 - Prospecting finds ore for [Extraction](../mining/extraction.md) and [Processing](../mining/processing.md). Uses [Measurement](../measurement/precision-metrology.md) instruments. [Black Powder](../mining/black-powder.md) for test blasting.
 
-[← Back to Mining](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*

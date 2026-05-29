@@ -1,9 +1,12 @@
 # Lithography
 
 > **Node ID**: vlsi-scaling.lithography
-> **Domain**: VLSI Scaling
+> **Domain**: [VLSI Scaling & Advanced Semiconductor](./index.md)
+> **Dependencies**: [`photolithography.resists-masks`](../photolithography/resists-masks.md), [`optics.inspection`](../optics/inspection.md), [`vlsi-scaling.vacuum-systems`](vacuum-systems.md)
+> **Enables**: [`vlsi-scaling.advanced-processes`](advanced-processes.md), [`vlsi-scaling.continuous-scaling`](continuous-scaling.md)
 > **Timeline**: Years 40-60
 > **Outputs**: patterned_wafers, photomasks, exposure_systems
+> **Critical**: Yes — lithography resolution is the primary determinant of achievable feature size
 
 ## Overview
 

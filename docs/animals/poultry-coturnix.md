@@ -2,16 +2,40 @@
 
 > **Node ID**: animals.poultry.coturnix
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.poultry`](poultry.md)
+> **Dependencies**: [`animals.poultry`](poultry.md), [`agriculture`](../agriculture/soil-management.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 0-3
 > **Outputs**: quail_eggs, quail_meat, manure
+> **Critical**: No — fastest-producing micro-livestock but too small for primary protein source
 
 ### Overview
 
 The Japanese quail (*Coturnix japonica*) is the smallest domesticated poultry species, offering extraordinary feed efficiency, rapid reproduction, and compact space requirements. Adults weigh 150-200 g (males 100-130 g, females 140-200 g), making them ideal for urban settings, smallholdings, and stealth food production where larger poultry would be impractical or conspicuous. Hens begin laying at 6-7 weeks of age and produce 250-320 eggs per year, each weighing 10-12 g — a remarkable output relative to body weight. Quail reach processing weight at 6-8 weeks, completing an entire production cycle from egg to table in under two months.
 
 Quail have been domesticated for over 1,000 years, originally in Japan and East Asia for song and egg production. Their small size, quiet nature, and minimal infrastructure requirements make them the fastest poultry species to establish productive output from scratch. A setup of 20 quail hens in 0.5 m² of floor space produces 15-20 eggs per day while consuming less than 500 g of feed daily.
+
+### Prerequisites
+
+| Requirement | Source | Notes |
+|-------------|--------|-------|
+| High-protein feed (24-28% starter, 20-22% layer) | [`agriculture`](../agriculture/soil-management.md) | Highest protein requirement of any poultry |
+| Wire-bottom cages (1 × 1 cm mesh) | [`metals`](../metals/iron-steel.md) | 25 × 25 cm per bird; stackable |
+| Temperature-controlled shelter (20-25°C) | [`construction`](../construction/building-materials.md) | Below 10°C production drops; below 5°C mortality risk |
+| 14-16 hours light per day | [`energy`](../energy/engine.md) | 5W LED suffices for small flock |
+| Incubator (37.5°C ± 0.5°C) | [`foundations.tools-basic`](../foundations/tools-basic.md) | No broody instinct — artificial incubation required |
+| Shallow water access (under 1 cm) | [`water`](../water/basic-treatment.md) | Chicks drown easily; use marbles in water dishes |
+
+### Bill of Materials
+
+Materials listed for a 20-hen operation per year.
+
+| Material | Quantity | Source | Alternatives |
+|----------|----------|--------|-------------|
+| Layer feed (20-22% protein) | 150-190 kg | [`agriculture`](../agriculture/soil-management.md) | Turkey starter can substitute |
+| Starter feed (24-28% protein) | 20-40 kg per batch | [`agriculture`](../agriculture/soil-management.md) | Finest crumble or mash required |
+| Cage system (4-tier bank) | 1 unit (60 × 40 × 120 cm) | [`metals`](../metals/iron-steel.md) | DIY from welded wire mesh |
+| Oyster shell and grit | 10-15 kg | [`mining`](../mining/index.md) | Crushed eggshells supplement |
+| Incubator (Styrofoam, 50-120 egg) | 1 unit | [`foundations.tools-basic`](../foundations/tools-basic.md) | $30-80 commercial or $15-40 DIY |
 
 ### Housing Systems
 
@@ -197,4 +221,4 @@ For bootstrapping purposes, a starting kit of 30 day-old chicks, 50 kg of starte
 
 ---
 
-[← Back to Animals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

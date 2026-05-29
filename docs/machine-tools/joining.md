@@ -1,11 +1,12 @@
 # Metal Joining
 
 > **Node ID**: machine-tools.joining
-> **Domain**: Machine Tools Bootstrap
-> **Dependencies**: `chemistry`, [`energy.electricity`](../energy/electricity.md), [`metals.alloys`](../metals/alloys.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Domain**: [Machine Tools Bootstrap](./index.md)
+> **Dependencies**: [`chemistry`](../chemistry/index.md), [`energy.electricity`](../energy/electricity.md), [`metals.alloys`](../metals/alloys.md), [`metals.iron-steel`](../metals/iron-steel.md)
 > **Enables**: [`energy.steam-power`](../energy/steam-power.md), `machine-tools.joining.diffusion-bonding`, `machine-tools.joining.electron-beam`, `machine-tools.joining.friction-stir`, `machine-tools.joining.laser-welding`, `machine-tools.joining.mig-welding`, `machine-tools.joining.resistance-welding`, `machine-tools.joining.tig-welding`, `machine-tools.joining.ultrasonic-bonding`
 > **Timeline**: Years 5-70
 > **Outputs**: forge_welds, brazed_joints, soldered_joints, riveted_joints, welded_joints, acetylene, tig_welds, mig_welds, resistance_welds, electron_beam_welds, ultrasonic_bonds, friction_stir_welds, laser_welds, diffusion_bonds, hermetic_seals, wire_bonds
+> **Critical**: Yes — makes machinery possible by assembling individual parts into structures, mechanisms, and pressure vessels
 
 ## Overview
 
@@ -172,11 +173,12 @@ Shielded Metal Arc Welding uses an electric arc to melt both the consumable elec
 
 ## Safety Common to All Methods
 
-- **Eye protection**: Safety glasses at all times in the shop. Goggles or face shield for grinding, chipping, and wire brushing. Full welding helmet for arc and oxy-acetylene work.
-- **Fire prevention**: Hot metal, sparks, and slag are ignition sources. Clear the area. Have water bucket, sand, and fire extinguisher ready. Hot work permits for industrial settings.
-- **Burns**: All joining methods involve temperatures above 180°C. Use pliers, tongs, and leather gloves to handle hot work. Assume all metal in the shop is hot until confirmed otherwise.
-- **Fumes and ventilation**: Soldering fumes (lead, flux acids), brazing fumes (zinc oxide from brass), welding fumes (metal oxides, ozone). Work in well-ventilated areas. Respirators for confined-space work.
-- **Hearing protection**: Hammering (forge welding, riveting) produces impulse noise >100 dB. Chipping slag is similarly loud. Earplugs or earmuffs.
+- **Eye protection**: Safety glasses (ANSI Z87.1 rated) at all times in the shop. Goggles or face shield for grinding, chipping, and wire brushing. Full welding helmet with shade #10-#14 filter lens for arc and oxy-acetylene work. UV radiation from the arc causes "welder's flash" (photokeratitis — sunburn of the cornea, 24-48 hours of extreme pain and temporary blindness).
+- **Fire prevention**: Hot metal, sparks, and slag are ignition sources. Clear the area 10+ m of combustibles. Have water bucket, sand, and fire extinguisher ready. Hot work permits for industrial settings. Sparks travel 5-10 m from welding and cutting operations.
+- **Burns**: All joining methods involve temperatures above 180°C. Use pliers, tongs, and leather gloves to handle hot work. Assume all metal in the shop is hot until confirmed otherwise. Leather gloves (gauntlet length) for arc welding; leather apron or heavy cotton jacket (no synthetic fabrics — they melt onto skin).
+- **Fumes and ventilation**: Soldering fumes (lead, flux acids), brazing fumes (zinc oxide from brass — causes "metal fume fever," flu-like symptoms for 24 hours), welding fumes (metal oxides, ozone). Work in well-ventilated areas. Respirators (N95 minimum) for confined-space work. Forced ventilation or fume extraction for enclosed spaces.
+- **Hearing protection**: Hammering (forge welding, riveting) produces impulse noise >100 dB. Chipping slag is similarly loud. Earplugs or earmuffs rated NRR 25+.
+- **Electrical safety**: Dry gloves, dry clothing, insulated electrode holder for arc welding. Secondary voltage (20-80 V open circuit) can be lethal in damp environments. Never weld in wet conditions.
 
 ## Weld Quality Inspection
 
@@ -245,16 +247,9 @@ Gas Metal Arc Welding uses a continuously fed consumable wire electrode, melted 
 
 **Shielding gases by material**:
 - **Mild steel**: 75% Ar / 25% CO₂ (C25 mix — most common, good penetration and bead appearance). Pure CO₂ is cheaper but produces more spatter and a harsher arc. Flow rate 12-20 L/min.
-- **Stainless steel**: 98% Ar / 2% O₂ or 90% He / 7.5% Ar / 2.5% CO₂ (tri-mix). The small O₂ or CO₂ addition stabilizes the arc and improves wetting.
+- **Stainless steel**: 98% Ar / 2% O₂ or 90% He / 7.5% Ar / 2.5% CO₂ (tri-mix).
 - **Aluminum**: 100% Ar (always). Flow rate 20-30 L/min — aluminum requires higher flow due to its high thermal conductivity.
 - **Copper alloys**: 100% Ar or Ar/He mix. High preheat (200-400°C) required for thick sections.
-
-**Transfer modes** (determined by current, voltage, and wire diameter):
-
-- **Short-circuit transfer (dip transfer)**: Low voltage (16-20 V), low current (100-180 A for 0.8 mm wire). Wire touches the weld pool, creating a short circuit. Pinch force detaches the droplet. Works in all positions (flat, horizontal, vertical, overhead). Lowest heat input — suitable for thin sheet metal (0.8-3 mm). Some spatter.
-- **Globular transfer**: Medium voltage (22-26 V), medium current (180-250 A). Large droplets form at wire tip and detach by gravity. Restricted to flat and horizontal positions. Moderate spatter. Rarely used in production — a transition mode between short-circuit and spray.
-- **Spray transfer**: High voltage (26-32 V), high current (220-350 A for 0.8-1.0 mm wire). Fine droplets stream across the arc in a conical spray pattern. Very stable, virtually spatter-free. Restricted to flat and horizontal positions. High deposition rate (3-6 kg/hour). Requires >80% argon in shielding gas.
-- **Pulsed spray transfer**: Inverter power supply alternates between a high peak current (spray transfer) and a low background current (no transfer). Provides spray-transfer quality in all positions at lower average heat input. The most versatile MIG mode — requires a synergic (programmed) power supply.
 
 **Typical parameters**:
 
@@ -479,23 +474,10 @@ Advanced joining processes are critical enablers for vacuum technology and semic
 | UHV systems | ≤10⁻⁹ | Helium leak detector (MSLD) |
 | Semiconductor process chambers | ≤10⁻⁹ | Helium leak detector (MSLD) |
 | Hermetic IC packages | ≤10⁻⁸ (MIL-STD-883) | Helium bomb + leak detect |
-| Cryogenic vessels | ≤10⁻⁸ | Helium leak detector (MSLD) |
-
-**Helium mass spectrometer leak detection (MSLD)**: The most sensitive leak detection method. A mass spectrometer tuned to helium (mass 4) detects helium leaking into or out of the test volume. Two modes:
-- **Vacuum mode (outside-in)**: Evacuate the test volume. Spray helium on the exterior. The MSLD samples the interior — any helium detected indicates a leak path. Sensitivity: 10⁻¹² mbar·L/s.
-- **Sniffer mode (inside-out)**: Pressurize the test volume with helium. Scan the exterior with a sniffer probe connected to the MSLD. Sensitivity: 10⁻⁷ mbar·L/s. Used for large vessels where evacuation is impractical.
-
-**Virtual leaks**: Trapped volumes inside a vacuum chamber that slowly release gas, preventing the chamber from reaching its ultimate pressure. Caused by: unvented threaded holes (blind holes with screws — always drill a vent hole through the screw or use vented screws), gaps between overlapping surfaces (diffusion-bond or weld continuously), and porous weld metal (use EB welding or high-quality TIG with proper shielding).
-
-**Internal bore welding**: Many vacuum chambers require welding on internal surfaces (e.g., welding a fitting to the inside of a tube). TIG with a specialized bore welding torch — a long, slender torch body with a 90° or 180° head that reaches inside tubes ≥50 mm diameter. Orbital bore weld heads are available for automated internal welds.
-
-**Stainless steel for vacuum chambers**: Type 304L or 316L stainless steel (the "L" designates low carbon ≤0.03%, which prevents sensitization and intergranular corrosion in the heat-affected zone). For UHV: electropolished internal surfaces (Ra ≤0.1 μm) reduce outgassing by removing the amorphous surface layer and creating a thin, protective chromium oxide passive layer. All internal welds must be full-penetration with backpurge shielding.
 
 **Dissimilar metal joining for vacuum**: Vacuum feedthroughs require joining ceramic (alumina) insulators to metal flanges (stainless steel or Kovar). Methods: active metal brazing (using Ti-containing braze alloy that wets both ceramic and metal), or diffusion bonding. For glass-to-metal seals, matched expansion coefficient glasses and metals (e.g., borosilicate glass with Kovar alloy, both ~5×10⁻⁶/°C expansion). See [Glass — Advanced](../glass/advanced.md) for glass-to-metal seal techniques.
 
 ## Expanded Method Selection Guide
-
-The table below expands the earlier selection guide to include all joining methods covered in this file.
 
 | Method | Temp Range | Joint Strength | Equipment | Best For |
 |--------|-----------|---------------|-----------|----------|

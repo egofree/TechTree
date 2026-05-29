@@ -101,7 +101,7 @@ Glass-to-metal seals are critical for vacuum tubes, feedthroughs, and hermetic e
 
 **Matched seal** (CTE-matched): Use Kovar alloy (29% Ni, 17% Co, 54% Fe, CTE 5.5 × 10⁻⁶/°C) sealed to borosilicate glass (CTE 3.3-5.0 × 10⁻⁶/°C). The small remaining CTE mismatch (2 × 10⁻⁶/°C) creates tolerable compressive stress in the glass. Process: oxidize Kovar surface slightly in air at 800°C to form Fe/Ni/Co oxides that bond chemically with the glass. Heat glass and metal together to 900-1000°C. The molten glass wets the oxidized metal surface and forms an oxide bond. Cool through annealing range at 2-3°C/min.
 
-**Housekeeper seal** (copper-to-glass): Thin copper edge (0.1-0.3 mm thick, flared outward at 5-10°) sealed to borosilicate or soda-lime glass. The thin copper deforms plastically during cooling, absorbing the CTE mismatch. Used for electrical feedthroughs in vacuum systems and [vacuum tubes](../electronics/vacuum-tubes.md). The copper edge is machined or spun to a knife-edge, then heated with the glass until the glass wets and bonds to the oxide layer.
+**Housekeeper seal** (copper-to-glass): Thin copper edge (0.1-0.3 mm thick, flared outward at 5-10°) sealed to borosilicate or soda-lime glass. The thin copper deforms plastically during cooling, absorbing the CTE mismatch. Used for electrical feedthroughs in vacuum systems and vacuum tubes. The copper edge is machined or spun to a knife-edge, then heated with the glass until the glass wets and bonds to the oxide layer.
 
 **Frit seal**: Low-melting-point glass frit (powdered glass, mp 400-500°C, CTE matched to both substrates) applied as paste between two glass or ceramic surfaces. Fire at 450-500°C for 10-30 minutes. The frit melts, wets both surfaces, and forms a hermetic seal on cooling. Used for sealing CRT faceplates, flat panel displays, and semiconductor packages. Frit composition: lead borate or zinc borate glass (low melting point, good wetting).
 
@@ -193,8 +193,8 @@ Glassblowing as a craft dates to ~1500 BCE (Egyptian core-formed glass). Free-bl
 - **[Glass Fibers](fibers.md)**: fiberglass, glass wool, and optical fiber production
 - **[Electronics Assembly](../electronics/assembly.md)**: glass substrates for PCB and display manufacturing
 - **[Vacuum Systems](../vlsi-scaling/vacuum-systems.md)**: glass vacuum envelopes and bell jars
-- **[Wafer Production](../silicon/wafer-production.md)**: fused silica crucibles for CZ crystal pulling
-- **[Chemistry Lab Equipment](../chemistry/lab-equipment.md)**: specific apparatus designs for chemical processing
+- **[Wafer Production](../silicon/wafering.md)**: fused silica crucibles for CZ crystal pulling
+- **[Glassworking](../glass/basic.md)**: specific apparatus designs for chemical processing
 
 ---
 

@@ -187,6 +187,17 @@ The development of currency requires [metals](../metals/index.md) for producing 
 | Paper money (representative) | Paper notes backed by metal reserves | Medieval (China) | Lightweight; portable; scalable | Requires trust in issuing authority; counterfeiting risk |
 | Fiat money | Currency with value by decree | Modern | Flexible supply; no metal backing needed | Requires strong governance; inflation risk |
 
+### Currency System Trade-offs
+
+| Currency Type | Durability | Divisibility | Portability | Trust Required | Inflation Risk | Best Community Size |
+|--------------|:-:|:-:|:-:|:-:|:-:|:-:|
+| Commodity money (grain) | Low (rots) | Moderate | Low (bulky) | None (intrinsic value) | Low (limited by harvest) | <200 |
+| Shell money (cowrie) | High | High (count) | High (lightweight) | Low (scarce by nature) | Low | 200-2,000 |
+| Metal bullion (weighed) | High | Low (requires scale) | Moderate | Low (intrinsic value) | Low | 200-5,000 |
+| Copper coinage | High | High (denominations) | Moderate | Moderate (weight check) | Moderate (debasement) | 500-50,000 |
+| Silver coinage | High | High | High | Moderate (purity check) | Low-Moderate | 2,000+ |
+| Paper money (representative) | Low | High | Very high | High (issuer solvency) | High (over-issuance) | 10,000+ |
+
 ---
 
 ## 11. References

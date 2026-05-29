@@ -1,17 +1,55 @@
 # Electrical Systems
 
 > **Node ID**: electronics.electrical-systems
-> **Domain**: Electronics
+> **Domain**: [Electronics](./index.md)
 > **Dependencies**: [`chemistry.electrolysis`](../chemistry/electrolysis.md), [`energy.electricity`](../energy/electricity.md), [`polymers.thermoplastics`](../polymers/thermoplastics.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`electronics.assembly`](assembly.md), [`electronics.power-electronics`](power-electronics.md)
 > **Timeline**: Years 15-30
-> **Outputs**: wiring_harnesses, switches, connectors, circuit_breakers, transformers
+> **Outputs**: wiring_harnesses, switches, connectors, circuit_breakers, transformers, motors
+> **Critical**: Yes — electrical systems deliver power from generators to every industrial machine, lighting circuit, and electronic device; without reliable wiring, switchgear, and protection, electrification is impossible
 
-## Overview
+## 1. Overview
 
 Electrical systems cover power distribution wiring, switches, connectors, fuses, breakers, transformers, and motor-generator sets — the infrastructure that delivers electricity from generators to loads. Reliable electrical systems are a prerequisite for industrial machinery, lighting, communications, and all post-steam power applications.
 
-## Wire and Cable Production
+This document is a Conceptual/Organizational guide: it provides decision criteria for selecting components, implementation steps for building power distribution systems, and trade-off comparisons between alternatives. Construction details for individual passive components are in [Passive Components](passive-components.md).
+
+## 2. Prerequisites
+
+### Materials
+- **Copper wire**: Drawn from [electrolytic copper](../chemistry/electrolysis.md), diameters 0.05-10 mm, purity >99.9%
+- **Insulation materials**: [Thermoplastics](../polymers/thermoplastics.md) — PVC (160-200°C extrusion), XLPE (150-180°C + cross-linking), PTFE (350-400°C)
+- **Silicon steel laminations**: 3% Si-Fe, 0.23-0.35 mm thick, for transformer and motor cores
+- **Ceramic and thermoplastic insulators**: For switches, breaker housings, and terminal blocks
+- **Solder and flux**: From [metals processing](../metals/iron-steel.md) for wire termination
+
+### Tools
+- [Wire drawing dies](../machine-tools/machining.md) for consistent wire diameters
+- Insulation resistance tester (megger, 500-5000V DC)
+- Multimeter (voltage, current, resistance measurement)
+- Conduit benders, cable pullers, and termination crimp tools
+- [Electrical measurement](../measurement/electrical-instruments.md) instruments
+
+### Knowledge
+- Ohm's Law: V = IR; Power: P = VI = I²R = V²/R
+- Three-phase AC theory: 120° phase relationship, line-to-line vs. line-to-neutral voltage
+- NEC (NFPA 70) code requirements for conductor sizing, overcurrent protection, and grounding
+- Lockout/tagout procedures for safe equipment isolation
+
+## 3. Bill of Materials
+
+| Material | Quantity (per 100m industrial power circuit, 480V 3-phase, 100A) | Source | Alternatives |
+|----------|------------------------------------------------------------------|--------|-------------|
+| Copper conductor (3 AWG, 26.7 mm²) | 300 m (3 phases) | [Electrolysis](../chemistry/electrolysis.md) | Aluminum (larger gauge for same ampacity, lower cost) |
+| Ground conductor (6 AWG, 13.3 mm²) | 100 m | [Electrolysis](../chemistry/electrolysis.md) | — |
+| XLPE insulation + PVC jacket | 400 m cable | [Thermoplastics](../polymers/thermoplastics.md) | PVC insulation (lower temp rating, 75°C max) |
+| Steel conduit (41 mm, 3 m lengths) | 35 sections | [Steel production](../metals/iron-steel.md) | EMT (lighter, indoor only), cable tray |
+| Circuit breaker (100A, 480V, 3-pole) | 1 unit | [Metals](../metals/index.md) + [Plastics](../polymers/thermoplastics.md) | Fused disconnect (lower cost, one-time protection) |
+| Terminal lugs (2-hole, 3 AWG) | 6 pcs | [Metals](../metals/index.md) | Mechanical connectors (spring type) |
+
+## 4. Process Description
+
+### 4.1 Wire and Cable Production
 
 **Copper wire drawing**: Copper rod (8 mm diameter, from [electrorefining](../chemistry/electrolysis.md) at 99.99% purity) drawn through a series of progressively smaller tungsten carbide dies. Each die reduces diameter by 20-30%. Drawing speed: 500-2000 m/min. Lubrication: soap solution or oil emulsion. Annealing between passes at 400-600°C to restore ductility (cold drawing work-hardens copper). Final wire diameter: 0.05-10 mm.
 
@@ -194,9 +232,9 @@ Minimum clearances per NEC: Working space in front of electrical panels: 1.0 m d
 - **[Electricity Generation](../energy/electricity.md)**: generators supplying power to distribution systems
 - **[Energy Storage](../energy/storage.md)**: lead-acid batteries for DC backup power
 - **[Polymers](../polymers/thermoplastics.md)**: PVC, XLPE, and PTFE insulation materials
+- **[Power Electronics](power-electronics.md)**: VFDs, inverters, and converters for motor control
+- **[Passive Components](passive-components.md)**: transformers, inductors for power distribution
 
 ---
 
-*Part of the [Electronics Domain](index.md) · [All Domains](../index.md)*
-
-[← Back to Electronics](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*

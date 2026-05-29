@@ -233,4 +233,4 @@ Armor production consumes significant resources. A full plate harness requires 2
 
 ---
 
- *Part of the [Bootciv Tech Tree](../index.md) • [Defense & Military](./index.md) • [All Domains](../index.md)*
+ *Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*

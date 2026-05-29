@@ -1,9 +1,12 @@
 # Refractory Metals
 
 > **Node ID**: metals.refractory-metals
-> **Domain**: Metals
+> **Domain**: [Metals](./index.md)
+> **Dependencies**: [`metals.iron-steel`](iron-steel.md), [`metals.non-ferrous`](non-ferrous.md), [`chemistry.acids`](../chemistry/acids.md), [`energy.electric-furnaces`](../energy/electric-furnaces.md)
+> **Enables**: [`electronics.passive-components`](../electronics/passive-components.md), [`machine-tools.machining`](../machine-tools/machining.md)
 > **Timeline**: Years 25-40
 > **Outputs**: tungsten, molybdenum, tantalum, niobium
+> **Critical**: true
 
 ## Overview
 
@@ -199,7 +202,7 @@ Sintering (1200-3100°C), swaging (600-1200°C), hot forming, and VAR melting al
 
 ### Thoriated Tungsten Electrodes
 
-TIG welding electrodes containing 1-2% ThO₂ (thorium oxide) are a low-level radiological hazard. Thorium-232 is an alpha emitter (half-life 1.4 × 10¹⁰ years). The primary risk is inhalation of thorium-containing grinding dust when electrode tips are sharpened. Alpha particles cannot penetrate skin but are highly carcinogenic if lodged in lung tissue. Controls: grind thoriated electrodes with local exhaust ventilation and a dust mask (N95 minimum). Collect grinding residue as low-level radioactive waste. Lanthanated (La₂O₃) or ceriated (CeO₂) electrodes are non-radioactive substitutes that perform comparably for most applications — prefer these where available. See [Radiation Safety](../chemistry/radiation-safety.md).
+TIG welding electrodes containing 1-2% ThO₂ (thorium oxide) are a low-level radiological hazard. Thorium-232 is an alpha emitter (half-life 1.4 × 10¹⁰ years). The primary risk is inhalation of thorium-containing grinding dust when electrode tips are sharpened. Alpha particles cannot penetrate skin but are highly carcinogenic if lodged in lung tissue. Controls: grind thoriated electrodes with local exhaust ventilation and a dust mask (N95 minimum). Collect grinding residue as low-level radioactive waste. Lanthanated (La₂O₃) or ceriated (CeO₂) electrodes are non-radioactive substitutes that perform comparably for most applications — prefer these where available.
 
 ### Chromium(VI) Compounds
 
@@ -227,12 +230,10 @@ VAR furnaces draw 2,000-20,000 A at 20-40 V DC. While the voltage is low, the av
 - **[Refractories](../chemistry/refractories.md)**: furnace linings for extreme-temperature processing
 - **[Vacuum Systems](../vlsi-scaling/vacuum-systems.md)**: vacuum arc melting and sintering equipment
 - **[Electronics Assembly](../electronics/assembly.md)**: Ta and Nb capacitors in electronic circuits
-- **[Cutting Tools](../machine-tools/cutting-tools.md)**: WC-Co cemented carbide tooling
+- **[Machine Tools](../machine-tools/machining.md)**: WC-Co cemented carbide tooling
 - **[Lighting](../energy/index.md)**: tungsten filaments for incandescent and halogen lamps
-- **[Superalloys](superalloys.md)**: Nb and Mo in nickel-base superalloys for turbines
+- **[Specialty Alloys](alloys.md)**: Nb and Mo in nickel-base superalloys for turbines
 
 ---
 
-*Part of the [Metals Domain](index.md) · [All Domains](../index.md)*
-
-[← Back to Metals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Metals](./index.md) • [All Domains](../index.md)*

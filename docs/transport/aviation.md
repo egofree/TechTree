@@ -1,11 +1,12 @@
 # Aircraft Development
 
 > **Node ID**: transport.aviation
-> **Domain**: [Aircraft Development](./index.md)
-> **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`energy.engine`](../energy/engine.md), `machine-tools`, [`metals.aluminum`](../metals/aluminum.md), `textiles`
+> **Domain**: [Transport](./index.md)
+> **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`energy.engine`](../energy/engine.md), [`machine-tools`](../machine-tools/index.md), [`metals.aluminum`](../metals/aluminum.md), [`textiles`](../textiles/index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 10-50+
 > **Outputs**: aircraft, aircraft_engines, propellers, aviation_fuel
+> **Critical**: No
 
 ## Problem
 

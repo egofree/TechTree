@@ -2,10 +2,11 @@
 
 > **Node ID**: textiles.finishing
 > **Domain**: [Textiles](./index.md)
-> **Dependencies**: [`chemistry.alkalis`](../chemistry/alkalis.md), `textiles`, [`textiles.weaving`](weaving.md)
+> **Dependencies**: [`chemistry.alkalis`](../chemistry/alkalis.md), [`textiles`](./index.md), [`textiles.weaving`](weaving.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 8-14
 > **Outputs**: finished_cloth, waterproof_fabric, fireproofed_textiles
+> **Critical**: No
 
 ### Fulling
 
@@ -205,6 +206,4 @@ Decating is a finishing process for wool fabrics that sets the surface and impro
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Textiles](./index.md) · [All Domains](../index.md)*
-
-[← Back to Textiles](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

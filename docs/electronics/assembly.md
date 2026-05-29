@@ -1,19 +1,61 @@
 # Electronics Assembly
 
 > **Node ID**: electronics.assembly
-> **Domain**: Electronics
+> **Domain**: [Electronics](./index.md)
 > **Dependencies**: [`glass.fibers`](../glass/fibers.md), [`polymers.thermosets`](../polymers/thermosets.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
 > **Enables**: [`computing.electronic`](../computing/electronic.md), [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
 > **Timeline**: Years 30-50
 > **Outputs**: pcb_assemblies, soldered_joints, packaged_components
+> **Critical**: Yes — electronics assembly bridges semiconductor device fabrication and functional electronic systems, without which no transistor or IC becomes a usable circuit
 
-## Overview
+## 1. Overview
 
 Electronics assembly encompasses PCB fabrication, component placement, soldering (through-hole and surface mount), conformal coating, and testing. It bridges semiconductor device fabrication and functional electronic systems — from discrete transistor circuits to multi-chip modules and early integrated circuit packaging.
 
-## PCB Fabrication
+## 2. Prerequisites
 
-Printed circuit boards (PCBs) provide the interconnection substrate for all electronic assemblies. The most basic PCB is a single-sided copper-clad laminate with etched traces. Advanced boards have multiple layers (2-32+), plated through-holes, and controlled-impedance traces.
+### Materials
+- **Copper-clad laminate**: FR-4 substrate (woven [fiberglass](../glass/fibers.md) + [epoxy resin](../polymers/thermosets.md)), copper foil 17.5-35 μm thickness
+- **Solder alloys**: Sn63/Pb37 eutectic (melts 183°C), SAC305 lead-free (melts 217-220°C), from [metals processing](../metals/iron-steel.md)
+- **Solder paste**: Flux + solder powder (20-45 μm particles, Type 3), stored at 2-10°C
+- **Flux**: Rosin-core (colophony, abietic acid), no-clean, or water-soluble types
+- **Conformal coating**: Acrylic, epoxy, urethane, silicone, or parylene from [polymers](../polymers/thermosets.md)
+- **Electronic components**: [Semiconductor devices](../silicon/basic-devices.md), [passive components](passive-components.md), connectors
+- **Photoresist**: Dry film (25-50 μm) or liquid, for PCB patterning
+- **Etchant chemicals**: Ferric chloride (FeCl₃) or ammonium persulfate from [chemical supply](../chemistry/acids.md)
+
+### Tools
+- Soldering iron (25-80W, tip temperature 320-420°C) or reflow oven
+- Pick-and-place machine (10,000-100,000+ components/hour) or manual placement tools
+- [Wire drawing dies](../machine-tools/machining.md) for consistent wire diameters
+- Wave soldering machine for through-hole assembly
+- Stencil printer for solder paste application (stainless steel stencil, 100-150 μm)
+- [Oscilloscope](../measurement/electrical-instruments.md) and multimeter for testing
+
+### Knowledge
+- Soldering metallurgy: wetting, intermetallic formation, surface tension
+- Reflow profile optimization: preheat → soak → reflow → cool
+- ESD (electrostatic discharge) control procedures
+- IPC-A-610 workmanship standards for solder joint acceptability
+
+## 3. Bill of Materials
+
+| Material | Quantity (per 100 boards, 100 × 100 mm, mixed SMT/TH) | Source | Alternatives |
+|----------|-------------------------------------------------------|--------|-------------|
+| FR-4 copper-clad laminate (1.6 mm, 1 oz Cu) | 1.0 m² | [Glass Fibers](../glass/fibers.md) + [Thermosets](../polymers/thermosets.md) | Paper/phenolic (FR-2, lower cost/performance) |
+| Solder paste (SAC305, Type 3) | 200-500 g | [Metals](../metals/index.md) | Sn/Pb 63/37 (lower melting, toxic lead) |
+| Solder wire (Sn/Pb 63/37, 0.8 mm) | 50-200 g | [Metals](../metals/index.md) | Lead-free wire (higher melting temperature) |
+| Flux (rosin-core or no-clean) | 50-100 mL | [Chemical supply](../chemistry/acids.md) | — |
+| Conformal coating (acrylic) | 100-200 mL | [Polymers](../polymers/thermosets.md) | Urethane, silicone, epoxy (longer cure) |
+| Components (resistors, capacitors, ICs) | Per BOM | [Passive Components](passive-components.md), [Semiconductors](semiconductor-devices.md) | — |
+| Ferric chloride etchant (42° Baumé) | 2-4 L | [Chemical supply](../chemistry/acids.md) | Ammonium persulfate (slower, cleaner) |
+| Photoresist (dry film, 38 μm) | 1-2 sheets | Photochemical supply | Liquid photoresist (screen-printed) |
+
+## 4. Process Description
+
+### 4.1 PCB Fabrication (Single-Sided)
+
+Printed circuit boards (PCBs) provide the interconnection substrate for all electronic assemblies. The most basic PCB is a single-sided copper-clad laminate with etched traces.
 
 **Substrate materials**:
 - FR-4: Woven fiberglass cloth impregnated with epoxy resin. Dielectric constant εᵣ = 4.2-4.8 at 1 MHz. Dissipation factor tan δ = 0.01-0.02. Glass transition temperature Tg = 130-140°C (standard) or 170-180°C (high-Tg). Thickness: 0.2-3.2 mm. The workhorse substrate for 95%+ of PCBs. See [Glass Fibers](../glass/fibers.md) for fiberglass production.
@@ -152,9 +194,25 @@ Semiconductor die must be packaged for handling, electrical connection, and envi
 | Lifted pad | Excessive heat or mechanical stress | Reduce soldering temperature/time; avoid flexing board |
 | Component shift | Surface tension imbalance during reflow | Symmetrical pad design; adequate paste volume |
 
-**X-ray void measurement**: For BGA solder joints, void area measured by 2D X-ray imaging. IPC-7095 standard: Class 1 (consumer) allows up to 30% void area; Class 2 (industrial) allows 25%; Class 3 (military/medical) allows 15% maximum. Large voids (>25% area) under the die shadow area are most critical — they cause hot spots and reduce thermal transfer to the PCB.
+### PCB Design Rules
 
-## Assembly Process Flow
+**Trace width by current**: Standard 1 oz (35 μm) copper at 10°C temperature rise:
+- 0.25 mm trace: 1.0 A (external), 0.5 A (internal)
+- 0.50 mm trace: 2.0 A (external), 1.0 A (internal)
+- 1.00 mm trace: 3.5 A (external), 1.8 A (internal)
+- 2.00 mm trace: 5.5 A (external), 3.0 A (internal)
+
+**Impedance control**: For high-speed signals (clocks, USB, HDMI, Ethernet), trace impedance must match the system impedance (typically 50 Ω single-ended, 100 Ω differential). Microstrip impedance: Z₀ ≈ (87/√(εᵣ+1.41)) × ln(5.98h/(0.8w+t)). For FR-4 (εᵣ = 4.5), 50 Ω requires approximately 0.18 mm trace over 0.2 mm dielectric.
+
+**Via specifications**: Standard through-hole via: 0.3 mm finished hole diameter, 0.6 mm capture pad. Via resistance: 0.5-5 mΩ. Via inductance: ~1 nH per mm of board thickness.
+
+**Clearance and creepage**: Electrical safety requires minimum distances between conductors at different potentials:
+- 30V: 0.1 mm clearance, 0.1 mm creepage
+- 150V: 0.5 mm clearance, 0.5 mm creepage
+- 300V: 1.5 mm clearance, 1.5 mm creepage
+- 500V: 3.0 mm clearance, 3.0 mm creepage
+
+### Assembly Process Flow
 
 Typical surface mount assembly sequence for a mixed-technology board (SMT + through-hole):
 
@@ -173,22 +231,46 @@ Typical surface mount assembly sequence for a mixed-technology board (SMT + thro
 
 Typical first-pass yield for a well-controlled SMT line: 98-99.5%. Defects per million opportunities (DPMO) target: <500 for mature products. Process capability index Cpk >1.33 for all critical parameters (stencil printing volume, reflow peak temperature, placement accuracy).
 
-## Environmental and Process Controls
+### Reliability and Failure Modes
 
-**Cleanroom requirements**: Solder paste printing and component placement require ISO Class 7 (10,000) or better. Temperature: 22 ± 3°C. Humidity: 40-60% RH (critical — low humidity increases ESD risk, high humidity affects solder paste viscosity and reduces shelf life). Particle count: <352,000 particles/m³ ≥0.5 μm. Positive pressure: 10-15 Pa relative to surrounding areas. Air changes: 20-60 per hour with HEPA filtration.
+**Solder joint fatigue**: Thermal cycling (-40 to +125°C, 1000-5000 cycles) causes cracking from CTE mismatch. Component ceramic: 6-7 ppm/°C, PCB FR-4: 14-17 ppm/°C. SAC305 (lead-free) stiffer than Sn/Pb — transfers more stress. Life: 5-20 years depending on severity.
 
-**Moisture sensitivity level (MSL)**: IC packages absorb moisture through the mold compound. During reflow, this moisture vaporizes rapidly, causing internal delamination or cracking (popcorning). MSL ratings define maximum floor life before baking is required:
+**PCB failures**: Delamination from moisture vaporizing during reflow (FR-4 absorbs 0.1-0.3% water — bake at 125°C for 4-24 hours before assembly). PTH barrel cracking (Z-axis CTE mismatch). CAF (conductive anodic filament) growth — Cu migration along glass-epoxy interface under DC bias in humidity, causing shorts over months to years.
+
+**Component failures**: Electrolytic capacitor drying (ESR increases, capacitance drops 20%/1000 hours at 85°C, rated life 2000-10,000 hours). Ceramic capacitor flex cracking from board bending. MOSFET gate oxide rupture (ESD/overvoltage). IC bond wire lift-off (thermal cycling). Mold compound popcorning (moisture in package vaporizes during reflow — bake components at 125°C/24h before assembly if stored in humidity >60% RH).
+
+### Moisture Sensitivity Levels
+
+IC packages absorb moisture through the mold compound. During reflow, this moisture vaporizes rapidly, causing internal delamination or cracking (popcorning). MSL ratings define maximum floor life before baking is required:
 - MSL 1: Unlimited floor life at ≤30°C/85% RH
 - MSL 2: 1 year at ≤30°C/60% RH
 - MSL 3: 168 hours (1 week) at ≤30°C/60% RH
 - MSL 4: 72 hours at ≤30°C/60% RH
 - MSL 5: 48 hours at ≤30°C/60% RH
 - MSL 6: Must bake before use (mandatory bake at 125°C for 5-48 hours depending on package thickness)
-- Components stored in dry cabinets (<5% RH) have indefinite floor life. Dry pack bags (moisture barrier bag + desiccant + humidity indicator card) provide 12+ months shelf life.
 
-**Solder paste management**: Refrigerated storage at 2-10°C. Allow 4-8 hours to equilibrate to room temperature before opening (condensation from opening cold paste ruins it). Stir before use (1-2 minutes with plastic spatula — do not use metal, which generates solder particles). Working life on stencil: 4-8 hours. Discard paste that has been on stencil >8 hours or shows viscosity changes.
+Components stored in dry cabinets (<5% RH) have indefinite floor life. Dry pack bags (moisture barrier bag + desiccant + humidity indicator card) provide 12+ months shelf life.
 
-## Safety & Hazards
+## 6. Scaling Notes
+
+- **Bench scale (prototyping)**: Hand soldering + toner transfer PCBs. Output: 1-10 boards per day. Single-sided, no plated holes. Suitable for prototype circuits and one-off designs.
+- **Workshop scale**: Reflow oven + pick-and-place machine + UV exposure PCB. Output: 10-100 boards per day. Double-sided with through-hole plating. Sufficient for small-batch production.
+- **Production scale**: Fully automated SMT line (stencil printer, pick-and-place, reflow, AOI, ICT). Output: 1000-10,000+ boards per day. Mixed SMT/through-hole. BGA capability with X-ray inspection.
+
+## 7. Troubleshooting
+
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Cold solder joints | Iron temperature too low or contact time <2 sec | Increase tip temperature to 350°C (Sn/Pb) or 380°C (lead-free); ensure 2-5 sec contact |
+| Solder bridges between fine-pitch leads | Excess paste volume or paste slump | Reduce stencil thickness; use Type 4 paste (20-25 μm particles) for 0.5 mm pitch |
+| Tombstoning of chip components | Uneven pad thermal mass or reflow profile | Equalize pad sizes; extend soak zone to 120s; verify reflow zone uniformity ±5°C |
+| BGA voids >25% area | Outgassing from moisture or flux | Bake boards at 125°C/24h; use longer soak profile; vacuum reflow for Class 3 assemblies |
+| Component misalignment after reflow | Paste volume uneven or pad design asymmetry | Check stencil aperture blockage; verify pad symmetry per IPC-7351 |
+| Delamination during reflow | Moisture in FR-4 substrate (>0.1%) | Bake bare boards at 125°C for 4-24h before assembly; control storage humidity <30% RH |
+| ICT false failures | Fixture pin contact resistance, fixture contamination | Clean probe tips; verify pin spring force (>0.5 N); recalibrate fixture |
+| Electrolytic capacitor venting | Reverse polarity installation or excessive ripple current | Verify polarity marking on BOM and board; derate ripple current to <70% of rated |
+
+## 8. Safety
 
 Electronics assembly involves hot solder, chemical exposures, electrical testing, and mechanical operations — each requiring specific protective measures.
 
@@ -200,38 +282,62 @@ Electronics assembly involves hot solder, chemical exposures, electrical testing
 
 **Chemical hazards (PCB fabrication)**:
 - **Ferric chloride (FeCl₃) etchant**: Corrosive (pH <1), causes skin and eye irritation. Stains clothing and skin brown (the iron hydrolyzes to Fe(OH)₃ on contact with skin). Splash goggles and nitrile gloves required. Spills: neutralize with sodium bicarbonate, then absorb with inert material.
-- **Ammonium persulfate and sodium persulfate etchants**: Strong oxidizers. Contact with organic materials can cause fire. Skin irritation. Eye protection required.
 - **Sodium hydroxide (NaOH) for resist stripping**: Concentrated (3-5%) at 50-60°C causes chemical burns. The hot alkali is particularly hazardous to eyes. Chemical splash goggles required (not just safety glasses).
 - **PCB drilling**: Fiberglass dust from FR-4 substrate is a mechanical irritant (glass fibers embed in skin and respiratory tract). Use dust extraction at the drill head. Carbide drill bits (0.3-3.0 mm) rotate at 50,000-100,000 RPM — bit breakage sends high-velocity fragments outward. Safety glasses mandatory.
-- **Surface finish chemicals**: HASL involves molten Sn/Pb at 235-260°C (thermal burn risk). ENIG uses nickel sulfate and gold potassium cyanide — both are skin sensitizers and toxic. Cyanide compounds in gold plating require strict handling protocols and emergency cyanide antidote kits (amyl nitrite, sodium nitrite, sodium thiosulfate) at the workstation.
-
-**Conformal coating**:
-- Acrylic, epoxy, urethane, and silicone coatings are applied from solvent-based formulations containing toluene, xylene, methyl ethyl ketone (MEK), or other volatile organic compounds (VOCs). These solvents are flammable and toxic by inhalation (toluene and xylene cause central nervous system depression at moderate concentrations; MEK is an irritant). Apply only in ventilated spray booths or fume hoods. Wear organic vapor respirator (cartridge type A) if ventilation is insufficient to keep solvent vapor below exposure limits (toluene TWA 20 ppm, xylene TWA 100 ppm, MEK TWA 200 ppm). No ignition sources in coating areas — solvents have low flash points (MEK -6°C, toluene 4°C).
 
 **Electrical testing**:
 - In-circuit test (ICT) and functional test apply power (3.3V, 5V, ±12V DC) to assemblies. While these voltages are generally safe, high-current power supplies and energy storage in large capacitors pose hazards. Verify power is disconnected before probing live circuits. Capacitor discharge: large electrolytic capacitors (>1000 μF) can deliver significant current even after power removal — discharge through a bleeder resistor before handling.
-- X-ray inspection equipment (20-160 kV) produces ionizing radiation. Modern X-ray systems are fully enclosed with interlocked shields that disable the X-ray tube when the enclosure is opened. Never bypass interlocks. Operators should wear dosimeter badges for cumulative exposure monitoring. Monthly radiation survey with a Geiger-Müller counter should confirm <0.02 mSv/hour at 10 cm from the enclosure surface (IEC 61010-1 requirement for X-ray inspection equipment).
+- X-ray inspection equipment (20-160 kV) produces ionizing radiation. Modern X-ray systems are fully enclosed with interlocked shields that disable the X-ray tube when the enclosure is opened. Never bypass interlocks. Operators should wear dosimeter badges for cumulative exposure monitoring.
+
+**ESD Control**: Semiconductor devices damaged by ESD at 100V (MOSFET gate oxide) to 2000V (bipolar junctions). Human body model: 100 pF through 1.5 kΩ — walking on carpet generates 10,000-25,000V. Control measures: grounded wrist straps (<1 MΩ to ground), ESD-safe mats (10⁶-10⁹ Ω/sq), ionizing air blowers, humidity 40-60% RH, antistatic bags for storage.
 
 **General PPE and workstation requirements**:
 - Safety glasses with side shields at all times in assembly areas
 - Nitrile gloves for chemical handling and solder paste work
 - Heat-resistant gloves for wave soldering and hot plate operations
-- ESD wrist strap (grounded through <1 MΩ resistor) when handling components and assemblies — simultaneously serves as an ESD control and is mandatory at all assembly workstations (see ESD Control section above)
+- ESD wrist strap (grounded through <1 MΩ resistor) when handling components and assemblies
 - No food or drink in assembly areas (lead contamination risk from Sn/Pb solder)
 - First aid kit and eyewash station accessible within 10 seconds travel from all chemical and soldering workstations
 - Fire extinguisher (CO₂ for electrical fires, dry chemical for general) at each soldering station
 
-## Cross-Domain Links
+## 9. Quality Control
+
+### Design for Reliability
+- Use components rated 25°C above maximum operating temperature
+- Derate voltage to 50-80% of rated maximum
+- Derate current to 50-70% of rated
+- Provide thermal relief pads for high-power components (4-8 thermal spokes connecting pad to copper pour)
+- Maintain minimum 0.5 mm clearance between traces and board edge
+- Avoid 90° trace corners (use 45° miters or curved traces to reduce EMI reflections)
+
+### X-ray Void Measurement
+For BGA solder joints, void area measured by 2D X-ray imaging. IPC-7095 standard: Class 1 (consumer) allows up to 30% void area; Class 2 (industrial) allows 25%; Class 3 (military/medical) allows 15% maximum. Large voids (>25% area) under the die shadow area are most critical — they cause hot spots and reduce thermal transfer to the PCB.
+
+### Solder Paste Management
+Refrigerated storage at 2-10°C. Allow 4-8 hours to equilibrate to room temperature before opening (condensation from opening cold paste ruins it). Stir before use (1-2 minutes with plastic spatula — do not use metal, which generates solder particles). Working life on stencil: 4-8 hours. Discard paste that has been on stencil >8 hours or shows viscosity changes.
+
+## 10. Variations and Alternatives
+
+| Assembly Method | Best For | Trade-off |
+|----------------|----------|-----------|
+| Hand soldering | Prototyping, field repair, low-volume (<50 units) | Slowest, lowest consistency; requires no automation equipment |
+| Wave soldering | Through-hole boards, high-volume (>500 units) | Fast for TH; requires flux and preheat; incompatible with SMT on bottom side |
+| Reflow soldering | SMT boards, all volumes | Highest throughput for SMT; requires stencil printer and oven; BGA inspection needs X-ray |
+| Selective soldering | Mixed SMT/TH boards | Eliminates wave soldering mask step; slower than wave (point-by-point); robot cost $50K-$200K |
+| Conformal coating (spray) | General environmental protection | Fast application; uneven thickness; requires masking |
+| Conformal coating (selective dispense) | High-volume, precision coating | Consistent thickness; no masking needed; robot cost $30K-$100K |
+
+## 11. References
 
 - **[Basic Semiconductor Devices](../silicon/basic-devices.md)**: the devices being assembled into circuits
 - **[Electrical Systems](electrical-systems.md)**: power distribution and wiring infrastructure
 - **[Glass Fibers](../glass/fibers.md)**: fiberglass cloth for PCB substrate (FR-4)
 - **[Electrolysis](../chemistry/electrolysis.md)**: copper production for PCB traces and wire
-- **[Wafer Production](../silicon/wafer-production.md)**: silicon wafers that become IC die
-- **[Vacuum Systems](../vlsi-scaling/vacuum-systems.md)**: vacuum requirements for packaging processes
+- **[Wafer Production](../silicon/wafering.md)**: silicon wafers that become IC die
+- **[Passive Components](passive-components.md)**: resistors, capacitors, inductors mounted on PCBs
+- **[Power Electronics](power-electronics.md)**: converters assembled using these techniques
+- **[Polymers](../polymers/thermosets.md)**: epoxy resin for laminate and conformal coating
 
 ---
 
-*Part of the [Electronics Domain](index.md) · [All Domains](../index.md)*
-
-[← Back to Electronics](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Electronics](./index.md) • [All Domains](../index.md)*

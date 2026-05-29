@@ -2,12 +2,13 @@
 
 > **Node ID**: plants.medicinal-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
-> **Dependencies**: [`health.pharmacology`](../health/pharmacology.md), `plants`
+> **Dependencies**: [`health.pharmacology`](../health/pharmacology.md), [`plants`](./index.md)
 > **Enables**: `plants.medicinal-plants.agrimonia-pilosa`, `plants.medicinal-plants.aloe-officinalis`, `plants.medicinal-plants.artemisia-douglasiana`, `plants.medicinal-plants.artemisia-inculta`, `plants.medicinal-plants.botryodiscia`
 > **Timeline**: Years 0-10
 > **Outputs**: medicinal_herbs, therapeutic_compounds, herbal_remedies
+> **Critical**: Yes — herbal remedies are the earliest and most accessible healthcare technology, directly reducing mortality
 
-### Overview
+## 1. Overview
 
 Identification, cultivation, preparation, and application of plant species with therapeutic properties for treating illness, injury, and disease. Plants synthesize hundreds of chemical compounds for defense against insects, fungi, and herbivores — many of these compounds have pharmacological effects on humans. Medicinal plants are the foundation of all pharmacology and the earliest healthcare technology available from Year 0.
 
@@ -199,4 +200,4 @@ Medicinal plant preparation shelf life under proper storage conditions (cool, da
 
 ---
 
-[← Back to Plants](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*

@@ -1,9 +1,12 @@
 # Animal Husbandry
 
 > **Node ID**: animals.animal-husbandry
-> **Domain**: Animals
+> **Domain**: [Animals](./index.md)
+> **Dependencies**: [`animals.domestication`](domestication.md)
+> **Enables**: [`animals.draft-power`](draft-power.md), [`animals.animal-materials`](animal-materials.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md)
 > **Timeline**: Years 0-10
 > **Outputs**: draft_animals, wool, hides, milk, meat, dung
+> **Critical**: Yes — core knowledge for managing all livestock species productively
 
 ## Overview
 
@@ -189,13 +192,11 @@ Wolves, coyotes, foxes, big cats, and birds of prey all threaten livestock. Loss
 
 - **[Livestock Domestication](domestication.md)**: species-specific husbandry for all fifteen farmed species
 - **[Draft Power & Harnessing](draft-power.md)**: working oxen, horses, and donkeys for plowing, transport, and milling
-- **[Animal-Derived Materials](animal-materials.md)**: [leather](../materials/leather.md), tallow, wool, horn, bone, sinew, and hide glue
+- **[Animal-Derived Materials](animal-materials.md)**: [leather](../animals/leather.md), tallow, wool, horn, bone, sinew, and hide glue
 - **[Food & Agriculture](../foundations/food-agriculture.md)**: manure sustains crop yields; meat, milk, eggs are primary protein sources
 - **[Medicine](../health/medicine.md)**: disease diagnosis, treatment, and zoonotic disease prevention
 - **[Insect Farming](insect-farming.md)**: black soldier fly larvae for waste conversion and animal feed protein
 
 ---
 
-*Part of the [Animals Domain](index.md) • [All Domains](../index.md)*
-
-[← Back to Animals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

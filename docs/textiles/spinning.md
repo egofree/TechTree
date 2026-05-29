@@ -1,11 +1,12 @@
 # Spinning
 
 > **Node ID**: textiles.spinning
-> **Domain**: Textiles, Fiber & Cordage
+> **Domain**: [Textiles](./index.md)
 > **Dependencies**: [`textiles.weaving`](weaving.md)
 > **Enables**: [`plants.fiber-plants`](../plants/fiber-plants.md), [`textiles.fibers`](fibers.md), [`textiles.rope-making`](rope-making.md)
 > **Timeline**: Years 0-5
 > **Outputs**: yarn, thread
+> **Critical**: No
 
 ### Spinning (converting fiber to yarn/thread)
 
@@ -148,7 +149,9 @@ Mechanized spinning multiplies output by 10-100× over hand spinning:
 
 - Converts [Fibers](../textiles/fibers.md) to yarn for [Weaving](../textiles/weaving.md) and [Rope Making](../textiles/rope-making.md). Industrial spinning by [Steam](../energy/steam-power.md). Yarn dyed via [Dyeing](../textiles/dyeing.md) with [Alkalis](../chemistry/alkalis.md) mordants.
 
-[← Back to Textiles](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*
 
 ### Spinning for Specific Applications
 
@@ -211,4 +214,6 @@ A well-maintained spinning wheel produces consistent yarn with minimal frustrati
 - **Flyer hooks**: Check that the metal hooks on the flyer arms are smooth and free of burrs. A rough hook snags the yarn, causing breaks and uneven winding. Smooth rough hooks with fine sandpaper or replace them.
 - **Wheel trueness**: Check that the wheel runs true (no wobble) by spinning it and observing the rim. If the rim wobbles more than 3-5 mm, adjust the spoke tensions (if the wheel has adjustable spokes) or shim the hub on the axle. A wobbling wheel causes jerky rotation and uneven twist insertion.
 
-[← Back to Textiles](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

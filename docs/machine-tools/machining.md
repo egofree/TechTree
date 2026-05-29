@@ -1,13 +1,16 @@
 # Machining
 
 > **Node ID**: machine-tools.machining
-> **Domain**: Machine Tools Bootstrap
+> **Domain**: [Machine Tools Bootstrap](./index.md)
 > **Timeline**: Years 10-25
 > **Outputs**: machined_parts
 > **Dependencies**: [`machine-tools.bearings-abrasives`](bearings-abrasives.md), [`machine-tools.iterative-bootstrap`](iterative-bootstrap.md)
 > **Enables**: [`energy.gravity.water-turbines`](../energy/water-turbines.md), [`energy.steam-power.steam-turbines`](../energy/steam-turbines.md), [`knowledge.printing`](../knowledge/printing.md), [`machine-tools.edm-cnc`](edm-cnc.md), `machine-tools.joining.friction-stir`, [`mining.drilling`](../mining/drilling.md)
+> **Critical**: Yes — achieves the precise geometry, surface finish, and dimensional tolerance that make interchangeable parts possible
 
-Machining removes material from a workpiece to achieve precise geometry, surface finish, and dimensional tolerance. This document covers the cutting operations themselves — for machine construction, see [Iterative Bootstrap](./iterative-bootstrap.md); for cutting tool materials and abrasives, see [Bearings & Abrasives](./bearings-abrasives.md).
+## Overview
+
+Machining removes material from a workpiece to achieve precise geometry, surface finish, and dimensional tolerance. This document covers the cutting operations themselves — for machine construction, see [Iterative Bootstrap](./iterative-bootstrap.md); for cutting tool materials and abrasives, see [Bearings & Abrasives](./bearings-abrasives.md); for the formed stock that feeds machining, see [Forming](./forming.md).
 
 ## Lathe Operations
 
@@ -192,19 +195,21 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 
 ## Safety
 
-- **[Eye protection mandatory](../glossary/eye-protection-mandatory.md)** for all machining. Chips are hot and sharp.
-- **[No loose clothing, gloves, rings, or long sleeves](../glossary/no-loose-clothing-gloves-rings-or-long-sleeves.md)** near rotating machinery. Lathe chucks and drill presses are entanglement hazards.
-- **Chip management**: Use chip hook or brush — never hands. Steel chips are razor-sharp and hot (blue = 300°C+).
-- **Workpiece security**: Verify clamping before every cut. A thrown workpiece is lethal.
-- **Abrasive wheels**: Ring test before mounting. Never exceed rated speed. Use wheel guards. Dress wheels regularly to maintain sharpness and concentricity.
-- **Grinding dust**: Use extraction or dust collection. Inhaling fine metal dust causes lung damage. Grinding cast iron and steel produces respirable particles.
+- **[Eye protection mandatory](../glossary/eye-protection-mandatory.md)** for all machining. Safety glasses (ANSI Z87.1 rated) at minimum. Face shield for grinding and boring operations that produce large chips. Chips are hot and sharp — steel chips at 300°C+ cause instant burns and lacerations.
+- **[No loose clothing, gloves, rings, or long sleeves](../glossary/no-loose-clothing-gloves-rings-or-long-sleeves.md)** near rotating machinery. Lathe chucks and drill presses are entanglement hazards — loose items are pulled in within one revolution.
+- **Chip management**: Use chip hook or brush — never hands. Steel chips are razor-sharp and hot (blue = 300°C+). Compressed air clearing produces airborne chips — wear safety glasses and point the air stream away from people.
+- **Workpiece security**: Verify clamping before every cut. A thrown workpiece is a lethal projectile — 5 kg at 500 RPM has kinetic energy of ~700 J.
+- **Abrasive wheels**: Ring test before mounting (suspend wheel, tap with hardwood dowel — clear ring = sound, dull thud = cracked and must be discarded). Never exceed rated speed. Use wheel guards (steel, covering 180° of wheel periphery). Dress wheels regularly to maintain sharpness and concentricity.
+- **Grinding dust**: Use extraction or dust collection. Inhaling fine metal dust causes lung damage. Grinding cast iron and steel produces respirable particles (<10 μm) that penetrate deep into the lungs. Wet grinding is preferred — eliminates airborne dust.
 
 ## References
 
 - Machine tool construction sequence: [Iterative Bootstrap](./iterative-bootstrap.md)
 - Cutting tool materials and abrasives: [Bearings & Abrasives](./bearings-abrasives.md)
 - Cutting fluid production and properties: [Lubricants](../chemistry/lubricants.md)
+- Formed stock feeding machining operations: [Forming](./forming.md)
 - Precision achievement milestones: See [Iterative Bootstrap](./iterative-bootstrap.md) precision table
+- Iron and steel production: [Iron & Steel](../metals/iron-steel.md)
 
 ### Limitations
 
@@ -212,7 +217,7 @@ Cutting fluids cool the tool and workpiece, lubricate the chip-tool interface, a
 - **Tool wear**: Cutting tools dull through abrasion, adhesion, diffusion, and fatigue. Tool life follows Taylor's equation: VTⁿ = C. Carbide tools last 15-60 minutes of cutting time depending on speed and material.
 - **Thermal distortion**: Cutting generates heat (80% goes into chip, 15% into tool, 5% into workpiece). Thin workpieces distort from thermal expansion, requiring cool-down periods between roughing and finishing passes.
 - **Vibration and chatter**: At certain depth-of-cut / speed combinations, the cutting process becomes unstable, causing chatter — self-excited vibration that degrades surface finish and can damage the tool. Requires stiffness analysis and parameter tuning.
-- **Surface integrity**: Machining creates a worked surface layer (residual stress, microstructural changes, micro-cracks) 10-200 µm deep. Fatigue-critical parts may require post-machining treatments (shot peening, stress relief annealing).
+- **Surface integrity**: Machining creates a worked surface layer (residual stress, microstructural changes, micro-cracks) 10-200 μm deep. Fatigue-critical parts may require post-machining treatments (shot peening, stress relief annealing).
 - **Skill requirement**: Manual machining requires significant operator skill for setup, tool selection, and process control. CNC machining transfers this to programming but requires software expertise.
 
 ### See Also

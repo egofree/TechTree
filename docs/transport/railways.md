@@ -1,11 +1,12 @@
 # Railways
 
 > **Node ID**: transport.railways
-> **Domain**: Transportation & Logistics
+> **Domain**: [Transport](./index.md)
 > **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), [`metals.forming`](../metals/forming.md), [`metals.iron-steel`](../metals/iron-steel.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 20-50+
 > **Outputs**: railways
+> **Critical**: No
 
 ### Railways
 

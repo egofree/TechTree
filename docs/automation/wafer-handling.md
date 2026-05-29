@@ -11,6 +11,33 @@
 
 A 300 mm semiconductor wafer contains billions of transistors across a silicon surface that must remain particle-free to within ISO Class 1 (≤1 particle ≥0.1 μm per cubic foot). Human handling introduces skin cells, lint, and oils that destroy yield. Automated wafer handling robots operate inside process equipment and between tools, transferring wafers with sub-millimeter positional accuracy while generating virtually no particles. This capability is essential for any fab processing wafers below 250 nm feature sizes.
 
+## Decision Framework: Robot Selection
+
+| Scenario | Recommended Robot | Rationale |
+|----------|------------------|-----------|
+| Atmospheric wafer transfer (load port to load lock) | SCARA robot | Fast (4-8 s cycle), compact, proven cleanroom design |
+| Multi-chamber cluster tool handling | Cylindrical (R-theta-Z) robot | Better vertical force control for gentle wafer placement on susceptors |
+| Vacuum chamber wafer transfer | Magnetic feedthrough robot | Zero particle generation, no seals to outgas, long life |
+| Ultra-thin wafer (<200 μm) handling | Bernoulli end effector | Non-contact levitation prevents bending and breakage |
+| High-throughput cluster tool (>15 wafers/hr) | Dual-arm robot | Exchange move eliminates deadhead travel, 15-30% throughput gain |
+
+### End Effector Trade-offs
+
+| End Effector Type | Contact | Wafer Sizes | Particle Generation | Throughput | Best For |
+|-----------------|---------|-------------|--------------------|-----------|---------|
+| Edge-grip | Edge only (3 mm exclusion zone) | 200 mm, 300 mm | <5 particles ≥0.1 μm/cycle | High (fast pick-place) | Standard production wafer handling |
+| Bernoulli (air levitation) | None | 300 mm, thin wafers | Very low (air bearing) | Medium | Ultra-thin wafers, backside handling |
+| Surface-contact (paddle) | Full backside | All sizes | Low (depending on paddle surface) | Lower (placement from above) | Thin wafers, batch loading |
+
+### Implementation Steps
+
+1. **Select robot architecture** based on operating environment (atmospheric vs. vacuum) and throughput requirements
+2. **Choose end effector** based on wafer thickness, particle requirements, and handling mode (pick-place vs. float)
+3. **Design load lock interface**: Specify pump-down time (30-90 s), vent gas (N₂), and slit valve type (O-ring vs. metal seal)
+4. **Install and teach**: Jog robot to each waypoint (pick, align, place), record positions. Verify teach point accuracy ≤0.1 mm
+5. **Qualify particle performance**: Run 100 pick-place cycles with particle counter monitoring. Verify ≤0.01 particles/cycle ≥0.1 μm
+6. **Integrate with cluster tool scheduler**: Configure robot motion timing to avoid conflicts between chambers. Implement residency time constraints
+
 ## Robot Architectures
 
 ### Atmospheric Robots

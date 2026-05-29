@@ -2,18 +2,19 @@
 
 > **Node ID**: plants.dye-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
-> **Dependencies**: `plants`, [`textiles.dyeing`](../textiles/dyeing.md)
+> **Dependencies**: [`plants`](./index.md), [`textiles.dyeing`](../textiles/dyeing.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 5-10
 > **Outputs**: natural_dyes, plant_pigments
+> **Critical**: No — color is important for signaling and trade but not strictly required for survival
 
-### Overview
+## 1. Overview
 
 Plants that yield natural colorants for dyeing textiles, leather, wood, ink, and coatings. Natural dyes have been the primary source of color for human material culture from prehistory through the 19th century, when synthetic aniline dyes superseded them. In a bootstrap context, dye plants provide the only practical path to colored textiles before the organic chemistry infrastructure needed for synthetic dyes exists. Color serves not only aesthetics but signaling (military uniforms, trade goods, social markers) and functional purposes (UV protection, mildew resistance from tannin-rich dyes).
 
 This capability covers the cultivation, harvesting, and primary extraction of dye substances from plant material. The downstream application of dyes to fiber and cloth is covered in [Dyeing](../textiles/dyeing.md).
 
-### Dye Extraction Methods
+## 2. Dye Extraction Methods
 
 The three principal methods for extracting color from plant material, listed in order of increasing complexity:
 
@@ -34,7 +35,7 @@ Most natural dyes are not substantive — they do not bond directly to fiber and
 
 See [Dyeing](../textiles/dyeing.md) for detailed mordant preparation procedures and fiber-specific protocols.
 
-### Color Range by Plant Source
+## 4. Color Range and Key Species
 
 Different plant organs produce different color families. Understanding which part to harvest and when is essential for predictable results:
 
@@ -200,12 +201,21 @@ Approximate dry plant material needed per 100g of wool fiber (alum-mordanted):
 
 Indigo is the most labor-intensive dye per unit color — roughly 4-5 kg of fresh woad leaves yield 1 gram of indigo pigment. True indigo (*Indigofera*) is roughly 5-10x more productive per leaf weight than woad, making it the preferred species wherever climate allows.
 
-### Dependencies
+## 9. Safety
 
-- Requires: [Plants & Botanical Resources](./index.md) (tool)
-- Feeds into: [Dyeing](../textiles/dyeing.md) (material — natural_dyes, plant_pigments)
-- Related: [Fiber Plants](./fiber-plants.md) (companion capability — fiber production)
+- **Alum (potassium aluminum sulfate)**: The most common mordant. Irritant to skin and eyes at concentrated solutions (20%+ w/v). Inhalation of alum powder irritates respiratory tract. Handle with gloves when preparing solutions. Dissolve in hot water in a ventilated area.
+- **Copper sulfate**: Toxic by ingestion (vomiting at 100 mg dose, lethal at 10-20 g). Blue crystals resemble candy — store in labeled containers away from food. Causes liver and kidney damage with chronic exposure. Handle with gloves; never pour copper-laden dye bath into waterways — toxic to aquatic life at <1 mg/L.
+- **Iron sulfate**: Moderately toxic. Causes gastrointestinal distress at 1-5 g doses. Overuse on fiber degrades protein fibers (wool, silk) — iron acts as a catalyst for oxidative fiber damage, causing blackened, brittle fabric over years. Limit to 5-10% WOF on protein fibers.
+- **Indigo vat (alkaline reducing solution)**: Traditional urine vats reach pH 9-10 (skin irritant). Chemical reduction vats using sodium hydrosulfite release sulfur dioxide gas — use in ventilated area. Alkaline solutions cause chemical burns on prolonged skin contact.
+- **Wood ash lye (potassium carbonate)**: pH 11-12. Causes severe chemical burns to skin and eyes. Always add lye to water (never water to lye — causes splashing). Wear eye protection when preparing lye solutions.
+- **General dye plant hazards**: Some dye plants (dyer's broom, broom) contain quinolizidine alkaloids — toxic if ingested in large quantities. Handle dye plants as you would any mildly toxic plant: wash hands after handling, keep away from food preparation areas.
+
+## 10. References
+
+- [Textiles: Dyeing](../textiles/dyeing.md) — downstream application of natural dyes to fiber and cloth
+- [Fiber Plants](./fiber-plants.md) — companion capability for fiber production
+- [Chemistry](../chemistry/index.md) — alum, copper sulfate, and other mordant production
+- [Plants & Botanical Resources](./index.md) — species catalog and botanical knowledge
 
 ---
-
-[← Back to Plants](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*

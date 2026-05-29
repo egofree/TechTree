@@ -263,4 +263,4 @@ The critical design principle for all fortifications is layered defense in depth
 
 ---
 
- *Part of the [Bootciv Tech Tree](../index.md) • [Defense & Military](./index.md) • [All Domains](../index.md)*
+ *Part of the [Bootciv Tech Tree](../index.md) • [Defense](./index.md) • [All Domains](../index.md)*

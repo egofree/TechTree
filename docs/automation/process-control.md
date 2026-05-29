@@ -11,6 +11,34 @@
 
 A semiconductor wafer undergoes 400-700 individual process steps over 4-8 weeks of fabrication. Each step has precise recipe parameters (temperature ramp rates, gas flows, RF powers, etch times) that must be executed exactly. A single parameter deviation at step 200 may not produce a detectable defect until electrical test at step 600 — by which time 400 steps of value have been added to a wafer that must now be scrapped. Automated process control and lot tracking ensure every wafer receives the correct process at every step, with full traceability from raw silicon to finished die.
 
+## Decision Framework: Process Control Architecture
+
+| Process Characteristic | Recommended Control Method | Rationale |
+|----------------------|--------------------------|-----------|
+| Stable, well-characterized process | Standard recipe execution + SPC monitoring | Process is repeatable; detect drift via control charts |
+| Systematic drift over time (pad wear, chamber seasoning) | Run-to-run (R2R) control with EWMA | Compensates gradual shifts between runs using post-process metrology feedback |
+| Rapid within-run anomalies (MFC drift, plasma instability) | Fault Detection and Classification (FDC) | Real-time trace analysis detects anomalies within a single wafer processing |
+| New process with unknown parameter sensitivities | Design of Experiments (DOE) + FMEA | Systematically explore parameter space before production commitment |
+| Critical dimension with tight tolerance (±2 nm) | R2R + FDC + inline metrology | Layered defense: FDC catches acute faults, R2R compensates chronic drift |
+
+### Implementation Steps
+
+1. **Define process flows in MES**: Enter complete fabrication sequence (800-1,000 steps) with tool type, recipe, and qualification requirements for each operation
+2. **Deploy recipe management**: Load approved recipes into MES with version control, approval workflows, and safety limit enforcement
+3. **Enable lot tracking**: Configure RFID-based FOUP tracking at all load ports. Implement track-in/track-out verification against process flow
+4. **Install FDC on critical tools**: Deploy real-time trace analysis on etch, CVD, and implant tools. Train multivariate models on 50-100 baseline runs per chamber
+5. **Implement R2R control**: For CMP (thickness) and lithography (CD), connect post-process metrology to R2R controller with EWMA algorithm. Start with λ=0.2
+6. **Establish equipment qualification**: Define IQ/OQ/PQ protocols for each tool type. Schedule monitor wafers at regular intervals (every 100 wafers or 24 hours)
+
+### Process Control Trade-offs
+
+| Method | Detection Speed | Implementation Cost | Skill Required | Best Application | Limitation |
+|--------|----------------|--------------------|---------------|-----------------|------------|
+| SPC monitoring | Hours to days | Low | Medium | Stable processes, long-term trend detection | Lagging indicator — detects after shift occurs |
+| FDC (real-time) | Seconds | High | High | Critical tools with fast process dynamics | Requires baseline data and model training |
+| R2R control | Per-run | Medium | Medium | Processes with systematic drift (CMP, litho) | Cannot compensate sudden shifts or random excursions |
+| DOE optimization | Weeks (one-time) | Medium | High | New process development, yield improvement | Not a continuous control method; periodic application |
+
 ## Recipe Management
 
 ### Recipe Structure

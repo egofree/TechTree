@@ -2,10 +2,11 @@
 
 > **Node ID**: textiles.sewing-tailoring
 > **Domain**: [Textiles](./index.md)
-> **Dependencies**: [`metals.copper-bronze`](../metals/copper-bronze.md), `textiles`, [`textiles.weaving`](weaving.md)
+> **Dependencies**: [`metals.copper-bronze`](../metals/copper-bronze.md), [`textiles`](./index.md), [`textiles.weaving`](weaving.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 5-10
 > **Outputs**: garments, tents, sails, bags, belting
+> **Critical**: No
 
 ### Needle Making
 
@@ -195,11 +196,9 @@ Proper fit requires systematic body measurement and pattern adjustment. A poorly
 - **Woven cloth**: [weaving](weaving.md)
 - **Steel for needles**: [iron and steel](../metals/iron-steel.md)
 - **Canvas and fabric**: [weaving](weaving.md)
-- **Leather for belts**: [leather](../materials/index.md)
+- **Leather for belts**: [leather](../animals/leather.md)
 - **Sewn products used in mining**: [mining equipment](../mining/index.md)
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Textiles](./index.md) · [All Domains](../index.md)*
-
-[← Back to Textiles](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

@@ -1,11 +1,12 @@
 # Fermentation Chemistry
 
-> **Node ID**: chemistry.petroleum-alternatives.fermentation
-> **Domain**: Chemistry
-> **Dependencies**: [`chemistry.petroleum-alternatives`](petroleum-alternatives.md)
+> **Node ID**: chemistry.fermentation
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`foundations.food-agriculture`](../foundations/food-agriculture.md)
 > **Enables**: [`chemistry.solvents`](solvents.md), [`food-processing.brewing`](../food-processing/brewing.md), [`food-processing.preservation`](../food-processing/preservation.md)
 > **Timeline**: Years 5-20
 > **Outputs**: ethanol, acetone, butanol, acetic_acid, methanol
+> **Critical**: No — fermentation provides solvents and fuels at early development stages but is superseded by petrochemical routes
 
 ### Ethanol Production
 
@@ -208,3 +209,7 @@ Aspergillus niger produces citric acid as a metabolic overflow product when grow
 - **[Soap](soap.md)**: Glycerol byproduct from saponification, also produced by fermentation
 - **[SEM Tech](sem-tech.md)**: Membrane-based separation for fermentation product recovery
 - **[Distillation](distillation.md)**: Ethanol recovery from fermentation broth
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

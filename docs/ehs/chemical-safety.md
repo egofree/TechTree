@@ -11,6 +11,27 @@
 
 Semiconductor fabrication uses the most hazardous chemicals in industrial production: hydrofluoric acid (HF) for silicon etching, silane (SiH₄) for silicon deposition, arsine (AsH₃) for N-type doping, phosphine (PH₃) for N-type doping, and dozens of corrosive, pyrophoric, and carcinogenic compounds. These chemicals demand safety protocols far beyond general industrial hygiene. A single silane leak can auto-ignite at concentrations above 1.4% in air; arsine exposure at 0.05 ppm for extended periods causes hemolytic anemia and renal failure. This document establishes the chemical safety knowledge base specific to semiconductor manufacturing environments.
 
+## Decision Framework: Chemical Hazard Response
+
+| Detection Scenario | Initial Response | PPE Required | Follow-Up |
+|-------------------|-----------------|-------------|-----------|
+| Gas alarm (low — 50% TLV) | Investigate source, verify reading | Half-face respirator with appropriate cartridge | Locate source, repair if possible |
+| Gas alarm (high — TLV) | Evacuate area, activate emergency shutoff | Full-face SCBA or supplied air | Emergency response team investigates |
+| Gas alarm (critical — 2× TLV) | Immediate evacuation, building alarm | SCBA only | Fire department hazmat notification |
+| Liquid acid spill (<1 L) | Don PPE, contain with absorbent | Neoprene gloves, goggles, apron | Neutralize, collect, dispose as hazardous waste |
+| HF spill (any size) | Don HF-specific PPE, contain with CaCO₃ | Double neoprene gloves, face shield, apron + calcium gluconate ready | Neutralize to CaF₂, medical evaluation for any skin contact |
+| Solvent spill (<1 L) | Eliminate ignition sources, absorb | Nitrile gloves, safety glasses | Collect in solvent waste container |
+| Unknown chemical release | Treat as worst case (toxic + flammable) | Full SCBA + chemical suit | Identify chemical before approach |
+
+### Chemical Response Trade-offs
+
+| Response Approach | Speed | Safety Margin | Resource Cost | Best For |
+|------------------|-------|--------------|---------------|---------|
+| Immediate evacuation + SCBA team | Minutes | Highest | High (team on standby) | Toxic gas releases (AsH₃, PH₃) |
+| Shelter-in-place + isolate source | Seconds | Moderate | Low | Confined leaks in gas cabinets with working exhaust |
+| Contain + neutralize in place | 10-30 min | Moderate | Low | Known liquid spills with trained responders |
+| Full-building evacuation + fire dept | 5-15 min | Highest | Very high | Large releases, fires, explosions |
+
 ## Semiconductor Process Chemicals
 
 ### Hydrofluoric Acid (HF)

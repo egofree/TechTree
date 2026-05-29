@@ -1,11 +1,33 @@
 # Writing & Record-Keeping
 
 > **Node ID**: knowledge.writing
-> **Domain**: Knowledge Preservation & Education
-> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`animals.beekeeping`](../animals/beekeeping.md), `chemistry`, [`foundations.food-agriculture`](../foundations/food-agriculture.md), [`foundations.tools-basic`](../foundations/tools-basic.md), [`health.sanitation`](../health/sanitation.md)
-> **Enables**: [`health.medicine`](../health/medicine.md), [`knowledge.education`](education.md), [`knowledge.libraries`](libraries.md), [`marine.navigation`](../marine/navigation.md), `mathematics`, [`mining.prospecting`](../mining/prospecting.md), `telecom`, [`telecom.pre-electric`](../telecom/pre-electric.md)
+> **Domain**: [Knowledge Preservation & Education](./index.md)
+> **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`animals.beekeeping`](../animals/beekeeping.md), [`chemistry`](../chemistry/index.md), [`foundations.food-agriculture`](../foundations/food-agriculture.md), [`foundations.tools-basic`](../foundations/tools-basic.md), [`health.sanitation`](../health/sanitation.md)
+> **Enables**: [`health.medicine`](../health/medicine.md), [`knowledge.education`](education.md), [`knowledge.libraries`](libraries.md), [`marine.navigation`](../marine/navigation.md), `mathematics`, [`mining.prospecting`](../mining/prospecting.md), [`telecom`](../telecom/index.md), [`telecom.pre-electric`](../telecom/pre-electric.md)
 > **Timeline**: Years 0-10
 > **Outputs**: writing_system
+> **Critical**: Yes — without writing, all knowledge is limited to oral transmission; no complex civilization can function without written records for administration, engineering, and science
+
+## Prerequisites
+
+- **Materials**: Clay for tablets, reeds for styluses, animal skins for parchment, plant fibers for paper, soot and iron salts for ink, beeswax for writing tablets
+- **Tools**: [Basic Tools](../foundations/tools-basic.md) (knives for quill cutting, moulds for paper), reeds and quills for pens, kilns for firing clay tablets
+- **Knowledge**: Spoken language, basic counting and numeracy, observation of natural materials (clay properties, plant fibers, animal skins)
+- **Infrastructure**: Clay sources, water supply for paper and ink production, drying and firing facilities for tablets, storage for writing materials
+
+## Bill of Materials
+
+| Material | Quantity per 100 pages of text | Source | Alternatives |
+|----------|-------------------------------|--------|-------------|
+| Clay (for tablets) | 5-20 kg (fired tablets) | River clay deposits | Stone slabs (heavier, slower to inscribe) |
+| Papyrus reeds | 50-100 stems per roll | [Agriculture](../agriculture/index.md) (Nile-type marshes) | Parchment (animal skin, higher cost) |
+| Parchment (sheep/goat skin) | 2-4 skins per 100 pages | [Animals](../animals/animal-materials.md) | Paper (plant fiber, lower cost) |
+| Paper (rag) | 50-100 sheets | [Printing](printing.md) | Parchment (more durable, higher cost) |
+| Ink (iron gall) | 50-100 mL | Iron sulfate + oak galls + gum arabic | Carbon ink (soot + gum arabic, waterproof) |
+| Beeswax (tablets) | 200-500 g per tablet | [Animals: Beekeeping](../animals/beekeeping.md) | Pitch or resin (less pleasant to write in) |
+| Quill pens (goose) | 5-10 per month | [Animals](../animals/animal-materials.md) | Reed pens (wear faster), steel nibs (require wire-drawing) |
+
+## Process Description
 
 ### Writing System Development
 
@@ -225,4 +247,4 @@ For paper production, movable type, press construction, typesetting, printing in
 
 ---
 
-*Part of the [Knowledge Domain](index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

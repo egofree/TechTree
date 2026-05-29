@@ -1,11 +1,12 @@
 # Ammonia Production
 
 > **Node ID**: chemistry.ammonia
-> **Domain**: Chemistry
-> **Dependencies**: [`chemistry.air-separation`](air-separation.md), [`chemistry.electrolysis`](electrolysis.md), `energy`, `metals`
-> **Enables**: [`chemistry.acids`](acids.md), `health`
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.air-separation`](air-separation.md), [`chemistry.electrolysis`](electrolysis.md), [`energy.electricity`](../energy/electricity.md), [`metals.iron-steel`](../metals/iron-steel.md)
+> **Enables**: [`chemistry.acids`](acids.md), [`chemistry.alkalis`](alkalis.md), [`health.pharmacology`](../health/pharmacology.md), [`chemistry.explosives`](explosives.md)
 > **Timeline**: Years 20-50
 > **Outputs**: ammonia, ammonium_nitrate, urea, nitric_acid
+> **Critical**: Yes — the Haber-Bosch process feeds roughly half the world's population through synthetic fertilizers. Without industrial ammonia, agriculture is limited to natural nitrogen sources. The nitrogen constraint is one of the hardest limits on civilization growth.
 
 ### Overview
 
@@ -85,11 +86,19 @@ The two feedstocks — hydrogen and nitrogen — come from very different source
 - **Step 5 — Methanation**: Residual CO and CO₂ (0.2-0.5%) are hydrogenated back to CH₄ over Ni catalyst at 300-400°C. CO and CO₂ are severe catalyst poisons for the Haber-Bosch iron catalyst — must be reduced to <10 ppm total. The small amount of CH₄ formed is tolerated as an inert.
 - **Overall SMR stoichiometry**: CH₄ + 2H₂O → CO₂ + 4H₂ (after shift and CO₂ removal). Plus N₂ from the air in the secondary reformer. Feed gas to synthesis: ~74% H₂, ~24% N₂, ~1-2% CH₄, <10 ppm CO+CO₂.
 
+**Strengths (SMR)**: Lowest-cost hydrogen route at scale; secondary reformer introduces N₂ from air — no separate air separation unit needed; well-established 5-step process with 100+ years of optimization; natural gas is energy-dense and transportable.
+
+**Weaknesses (SMR)**: Emits ~1.6 tonnes CO₂ per tonne NH₃ (largest single source of GHG in ammonia production); requires natural gas infrastructure (pipelines or LNG); sulfur in feed gas permanently poisons Ni reforming catalyst; primary reformer furnace is the most expensive single equipment item.
+
 **[Hydrogen from electrolysis](../glossary/hydrogen-from-electrolysis.md)** (clean route, growing):
 - Water electrolysis produces pure H₂ and O₂. See [Electrolysis](electrolysis.md) for detailed cell designs.
 - N₂ must be supplied separately (from air separation) since there is no secondary reformer to introduce air.
 - Energy: ~50-55 kWh per kg H₂ (alkaline electrolysis). Ammonia requires ~178 kg H₂ per tonne NH₃ → ~9-10 MWh per tonne NH₃ just for hydrogen. This is 5-10× the energy cost of SMR-derived hydrogen, but produces zero CO₂ emissions if the electricity is renewable.
 - Currently economic only where electricity is very cheap (<$0.02/kWh) or where carbon pricing is high.
+
+**Strengths (electrolysis)**: Zero CO₂ emissions with renewable electricity; produces ultra-pure H₂ (no sulfur or CO contamination); decouples ammonia production from natural gas supply; modular — can be scaled incrementally.
+
+**Weaknesses (electrolysis)**: 5-10× higher energy cost than SMR per tonne NH₃; requires dedicated air separation unit for N₂; currently economic only with very cheap electricity (<$0.02/kWh); electrolyzer capital cost is significant.
 
 **Nitrogen from air separation**:
 - See [Air Separation](air-separation.md) for detailed plant design.
@@ -175,6 +184,10 @@ The Ostwald process converts ammonia to nitric acid (HNO₃) via catalytic oxida
 
 See [Mineral Acid Production](acids.md) for complete Ostwald process detail including plant scale, energy balance, and higher-concentration methods.
 
+**Strengths (Ostwald)**: 95-98% conversion from NH₃ to NO; net energy exporter (waste heat generates high-pressure steam); Pt-Rh catalyst is recoverable from downstream filters; scalable to thousands of tonnes/day; feeds directly into fertilizer (NH₄NO₃) and explosives production.
+
+**Weaknesses (Ostwald)**: Pt-Rh gauze is expensive and slowly evaporates (0.05-0.5 g Pt lost per tonne HNO₃); NO oxidation is slow (third-order kinetics) requiring large equipment or high pressure; product limited to 55-68% by azeotrope — higher concentrations need dehydration with H₂SO₄ or Mg(NO₃)₂; NO₂ tail gas emissions must be scrubbed.
+
 ### Other Applications
 
 **Solvay ammonia supply**: The Solvay process (see [Alkali Production](alkalis.md)) uses NH₃ as a recyclable intermediate in soda ash production. While most NH₃ is recovered internally, the 1-2 kg/tonne makeup requirement plus initial plant charge demand a continuous ammonia source. Haber-Bosch ammonia replaced coke-oven gas as the primary Solvay NH₃ supply after 1910.
@@ -196,11 +209,19 @@ The Haber-Bosch iron catalyst is itself a product of industrial chemistry:
 - The promoters serve distinct functions: Al₂O₃ and CaO form structural "scaffolding" within the reduced iron particles, preventing sintering (loss of surface area) during years of operation at 400-500°C. K₂O is an electronic promoter — it donates electrons to the iron surface, weakening N₂ adsorption and facilitating hydrogenation of surface nitrogen atoms.
 - **Activation**: The magnetite (Fe₃O₄) must be reduced to metallic iron in-situ by flowing H₂/N₂ synthesis gas at 350-450°C for 24-72 hours. Reduction is exothermic — must be controlled carefully to avoid sintering the freshly formed iron. The reduced catalyst is pyrophoric — ignites spontaneously in air. Must be passivated (thin oxide layer) for safe handling and transport.
 
+**Strengths (iron catalyst)**: Cheap raw materials (Fe₃O₄ + promoter oxides); long service life (5-10 years); tolerant of trace poisons (robust); well-understood activation and passivation procedures; effective across 400-500°C operating range.
+
+**Weaknesses (iron catalyst)**: Requires 24-72 hour in-situ reduction before operation; reduced catalyst is pyrophoric (dangerous if exposed to air); irreversible poisoning by sulfur, chlorine, and phosphorus compounds; promoter distribution affects activity uniformly; must be replaced as whole bed (cannot replace individual granules).
+
 **[Ruthenium catalyst](../glossary/ruthenium-catalyst.md)** (advanced, used in KBR KAAP process):
 - Ru on graphite (activated carbon) support, promoted with Ba and K. 10-20× higher activity per unit mass than iron catalyst.
 - Enables operation at lower pressure (7-10 MPa) and moderate temperature (350-450°C).
 - Cost: Ruthenium is rare (~$500-1000/oz). Only economic for the top bed of a multi-bed converter, where it handles the most kinetically demanding conversion.
 - Sensitivity: Ru catalyst is poisoned by trace oxygen compounds. Requires very clean synthesis gas (<1 ppm O₂, H₂O, CO, CO₂).
+
+**Strengths (Ru catalyst)**: 10-20× higher activity per unit mass than iron catalyst; enables operation at lower pressure (7-10 MPa); reduces energy consumption for synthesis gas compression.
+
+**Weaknesses (Ru catalyst)**: Ruthenium is extremely rare and expensive (~$500-1000/oz); only economic for the top bed of a multi-bed converter; extremely sensitive to oxygen compound poisoning (requires <1 ppm O₂, H₂O, CO, CO₂); limited commercial availability.
 
 ### Bootstrap Sequence
 

@@ -1,11 +1,12 @@
 # Pulp & Paper Chemicals
 
 > **Node ID**: `chemistry.pulp-chemicals`
+> **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`chemistry.alkalis`](alkalis.md), [`chemistry.electrolysis`](electrolysis.md)
-> **Enables**: `knowledge`, `textiles`
-> **Parent**: [Chemistry](index.md)
-> **Era**: Early Industrial
-> **Tags**: `material`, `capability`, `early-win`
+> **Enables**: [`textiles.finishing`](../textiles/finishing.md), [`foundations.knowledge-preservation`](../foundations/index.md)
+> **Timeline**: Years 15-35
+> **Outputs**: wood_pulp, paper, kraft_liquor, tall_oil
+> **Critical**: No — pulp chemicals support paper and textile production but are not prerequisites for core industrial capabilities
 
 ## Overview
 
@@ -206,3 +207,7 @@ The global shift toward sustainable packaging is driving renewed investment in c
 
 - Paper supports [Printing](../knowledge/printing.md) and [Libraries](../knowledge/libraries.md). Kraft process uses [Alkalis](../chemistry/alkalis.md). Bleaching via [Air Separation](../chemistry/air-separation.md) chlorine. Cellulose feeds [Polymers](../polymers/synthetic.md).
 
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

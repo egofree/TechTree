@@ -2,10 +2,11 @@
 
 > **Node ID**: mathematics.core-mathematics
 > **Domain**: [Mathematics & Formal Sciences](./index.md)
-> **Dependencies**: `foundations`
+> **Dependencies**: [`foundations`](../foundations/index.md)
 > **Enables**: [`computing.mechanical`](../computing/mechanical.md), [`mathematics.applied-mathematics`](applied-mathematics.md), [`mathematics.formal-systems`](formal-systems.md)
 > **Timeline**: Years 0-25
 > **Outputs**: arithmetic, algebra, geometry, trigonometry, number_systems
+> **Critical**: Yes — mathematics is the shared language of quantitative reasoning for all engineering
 
 ## Problem
 
@@ -253,3 +254,6 @@ Recognizing proportionality lets engineers scale designs: if a 10 cm beam deflec
 - **Writing system** (`knowledge.writing`): Mathematical notation requires a writing system — symbols for digits, operators, variables, and geometric construction
 - **Basic tools** (`foundations`): Measurement requires tools (rulers, compasses, sighting instruments); counting emerges from trade and resource management
 - **Enables**: All downstream engineering disciplines, applied mathematics, computing, and formal systems
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Mathematics & Formal Sciences](./index.md) • [All Domains](../index.md)*

@@ -2,10 +2,11 @@
 
 > **Node ID**: photolithography.cleanrooms
 > **Domain**: [Photolithography & IC Fabrication](./index.md)
-> **Dependencies**: `ceramics`, `chemistry`
+> **Dependencies**: [`ceramics.refractories`](../ceramics/index.md), [`chemistry.basic`](../chemistry/index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-70
 > **Outputs**: cleanrooms, ultra_pure_water, cleanroom_consumables
+> **Critical**: Yes — contamination control is the single largest yield determinant in semiconductor manufacturing
 
 ### Cleanrooms
 Contamination is the enemy of yield. A single 1 μm particle on a wafer can kill an entire chip. Cleanroom class determines minimum feature size achievable: Class 1000 (ISO 6) for >5 μm features, Class 100 (ISO 5) for 1-5 μm, Class 10 (ISO 4) for sub-micron.

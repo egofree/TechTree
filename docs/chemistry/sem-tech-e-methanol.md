@@ -1,10 +1,12 @@
 # SEM Tech in e-Methanol Synthesis (Power-to-Liquids)
 
-> **Node ID**: chemistry.e-methanol
-> **Domain**: Chemistry
+> **Node ID**: chemistry.sem-tech-e-methanol
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.sem-tech`](sem-tech.md), [`chemistry.electrolysis`](electrolysis.md)
+> **Enables**: [`energy.fuels`](../energy/index.md), [`chemistry.solvents`](solvents.md)
 > **Timeline**: Years 25-40
 > **Outputs**: methanol
-> **Tags**: materials=[chemicals, polymers], era=industrial
+> **Critical**: No — e-methanol provides a liquid fuel route but requires cheap hydrogen and captured CO₂
 
 The [SEM Tech membrane](sem-tech.md) enables low-cost ion exchange membrane manufacturing at less than $1 per square foot. This article examines how that cost advantage applies to e-methanol synthesis — a power-to-liquids technology that converts green hydrogen and captured CO₂ into methanol.
 

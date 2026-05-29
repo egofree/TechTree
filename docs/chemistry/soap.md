@@ -1,11 +1,12 @@
 # Soap & Detergents
 
 > **Node ID**: chemistry.soap
-> **Domain**: Chemistry
+> **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`chemistry.alkalis`](alkalis.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`metals.non-ferrous`](../metals/non-ferrous.md)
-> **Enables**: `health`
+> **Enables**: [`health.occupational-health`](../health/occupational-health.md)
 > **Timeline**: Years 5-30
 > **Outputs**: soap, glycerol, detergent
+> **Critical**: No — soap and detergents improve sanitation but are not prerequisites for core industrial capabilities
 
 ### Overview
 

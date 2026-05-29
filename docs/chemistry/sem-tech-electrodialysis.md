@@ -1,10 +1,12 @@
 # SEM Tech Electrodialysis: Electrochemical Ion Separation
 
-> **Node ID**: chemistry.electrodialysis
-> **Domain**: Chemistry
+> **Node ID**: chemistry.sem-tech-electrodialysis
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.sem-tech`](sem-tech.md), [`energy.electricity`](../energy/electricity.md)
+> **Enables**: [`chemistry.chemical-recovery`](chemical-recovery.md), [`chemistry.sem-tech-acid-regeneration`](sem-tech-acid-regeneration.md), [`chemistry.sem-tech-lithium-separation`](sem-tech-lithium-separation.md)
 > **Timeline**: Years 20-35
 > **Outputs**: separated_ions, desalted_water, concentrated_brine
-> **Tags**: materials=[chemicals, polymers], era=industrial
+> **Critical**: No — electrodialysis enables efficient ion separation but requires SEM Tech membranes and electricity
 
 The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech](sem-tech.md)) enable electrodialysis (ED) as a practical separation technology well before conventional fluoropolymer membranes become available. While SEM Tech's primary application is chlor-alkali electrolysis, the same membrane manufacturing process — pulverizing pre-functionalized resin beads in a PVC/CPVC binder — produces membranes suitable for electrodialysis at less than $1 per square foot.
 

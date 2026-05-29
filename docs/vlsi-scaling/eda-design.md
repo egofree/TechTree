@@ -2,10 +2,11 @@
 
 > **Node ID**: vlsi-scaling.eda-design
 > **Domain**: [VLSI Scaling & Advanced Semiconductor](./index.md)
-> **Dependencies**: [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md), `computing`, [`electronics.assembly`](../electronics/assembly.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
+> **Dependencies**: [`chemistry.dopant-etch-gases`](../chemistry/dopant-etch-gases.md), [`computing.basic`](../computing/index.md), [`electronics.assembly`](../electronics/assembly.md), [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.basic-devices`](../silicon/basic-devices.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 70-200+
 > **Outputs**: eda_tools, gpus, advanced_packaging, vlsi_designs
+> **Critical**: No — EDA tools accelerate design but are not a manufacturing capability themselves
 
 ### Electronic Design Automation (EDA)
 

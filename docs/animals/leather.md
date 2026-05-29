@@ -1,11 +1,12 @@
 # Leather Production
 
 > **Node ID**: animals.leather
-> **Domain**: Animals & Animal Husbandry
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Domain**: [Animals](./index.md)
+> **Dependencies**: [`animals.cattle`](cattle.md), [`animals.sheep`](sheep.md), [`animals.goats`](goats.md), [`ceramics.lime`](../ceramics/lime.md)
+> **Enables**: [`machine-tools.machining`](../machine-tools/machining.md), [`knowledge.writing`](../knowledge/writing.md)
 > **Timeline**: Years 5-15
 > **Outputs**: leather, rawhide, tanned_hides
+> **Critical**: Yes — leather drive belts, gaskets, and protective gear are essential for pre-industrial machinery
 
 ## Overview
 
@@ -74,7 +75,7 @@ Leather — animal hide preserved through tanning — provides durable, flexible
 
 ## Leather Products and Applications
 
-**Drive belts** (pre-electrical power transmission): Oak-bark vegetable-tanned belting leather, 4-8 mm thick, 50-300 mm wide, joined into endless loops by wire lacing or cemented splices. Power capacity: a 150 mm wide × 6 mm thick belt running at 10 m/s transmits ~15 kW. Tension: 15-25 N per mm of width. Efficiency: 95-98% per pulley junction (vs. ~90% for flat rubber belts). See [Mechanical Power Transmission](../machine-tools/power-transmission.md).
+**Drive belts** (pre-electrical power transmission): Oak-bark vegetable-tanned belting leather, 4-8 mm thick, 50-300 mm wide, joined into endless loops by wire lacing or cemented splices. Power capacity: a 150 mm wide × 6 mm thick belt running at 10 m/s transmits ~15 kW. Tension: 15-25 N per mm of width. Efficiency: 95-98% per pulley junction (vs. ~90% for flat rubber belts). See [Machine Tools](../machine-tools/machining.md).
 
 **Shoe construction**: Upper leather (chrome-tanned, 1.0-1.8 mm) + insole (vegetable-tanned, 2.5-3.5 mm) + outsole (vegetable-tanned, 4-6 mm) + heel lifts (compressed leather layers). Standard pair of men's shoes uses 0.35-0.50 m² of leather (~1.2-1.8 kg). Welt construction: sew the upper to the insole through a leather welt strip (15-20 mm wide, 2-3 mm thick) using waxed linen thread. The outsole is then sewn to the welt. This allows the sole to be replaced without disturbing the upper. A well-made welted shoe lasts 5-15 years with resoling every 1-2 years.
 
@@ -192,13 +193,11 @@ Leather — animal hide preserved through tanning — provides durable, flexible
 - **[Iron & Steel](../metals/iron-steel.md)**: tools for fleshing, shaving, and cutting leather
 - **[Chemical Industry](../chemistry/index.md)**: tanning chemicals (chromium sulfate, sodium sulfide, formic acid)
 - **[Machine Tools](../machine-tools/index.md)**: splitting machines, shaving machines, embossing presses
-- **[Power Transmission](../machine-tools/power-transmission.md)**: leather drive belts for factory power systems
+- **[Machine Tools](../machine-tools/machining.md)**: leather drive belts for factory power systems
 - **[Food & Agriculture](../foundations/food-agriculture.md)**: livestock production as the source of hides
 - **[Textiles](../textiles/fibers.md)**: complementary fiber-based materials
 - **[Animal-Derived Materials](animal-materials.md)**: overview of all animal-derived materials including leather tanning basics
 
 ---
 
-*Part of the [Animals & Animal Husbandry Domain](index.md) · [All Domains](../index.md)*
-
-[← Back to Animals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

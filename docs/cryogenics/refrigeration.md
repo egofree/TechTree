@@ -43,6 +43,14 @@ The workhorse of industrial refrigeration. Operates between approximately +10°C
 
 **Coefficient of Performance**: For an ideal (Carnot) refrigerator operating between -20°C and 35°C: COP = 253/(308-253) = 4.6. Real vapor-compression systems achieve COP of 2.0-3.5 depending on temperature lift, compressor efficiency (60-80% isentropic), and heat exchanger effectiveness. The gap from Carnot is due to: finite temperature differences in heat exchangers (5-10°C approach), pressure drops in piping, compressor inefficiency, and throttling losses in the expansion valve.
 
+**Strengths:**
+- Mature technology with COP of 2.0-3.5 (20-35% of Carnot), proven reliable in millions of installations with 10-20 year service life
+- Ammonia refrigerant (R-717) has excellent thermodynamic properties (high latent heat of vaporization at 1,370 kJ/kg) and low cost
+
+**Weaknesses:**
+- COP drops sharply as temperature lift increases — refrigerating to -40°C from 35°C ambient gives COP ~1.0-1.5 (high energy cost per unit of cooling)
+- Ammonia is toxic (IDLH 300 ppm) and flammable at 15-28% in air; leaks in enclosed spaces are life-threatening
+
 **Refrigerant selection**:
 - **Ammonia (NH₃, R-717)**: Excellent thermodynamic properties (high latent heat, low molecular weight). Boiling point -33°C at 1 atm. Toxic and flammable but has a characteristic pungent odor that provides early warning. Standard for industrial refrigeration (cold storage, ice production, chemical plants). Cannot be used with copper (forms complexes) — steel piping required.
 - **Carbon dioxide (CO₂, R-744)**: Boiling point -57°C at 5.2 bar (requires high-pressure operation). Non-flammable, non-toxic, environmentally benign (GWP = 1). Transcritical CO₂ systems achieve -50°C for frozen food. High operating pressure (40-100 bar transcritical) demands robust equipment.
@@ -63,6 +71,14 @@ An alternative to vapor-compression that uses heat energy rather than mechanical
 - **Solution pump**: Pumps liquid (not gas) from low to high pressure — requires only 1-2% of the total energy input (the rest is heat).
 - **COP**: 0.5-0.7 (single-effect). Low but uses cheap heat. A double-effect system (using the condenser heat to drive a second generator) achieves COP 1.0-1.2.
 
+**Strengths:**
+- Uses waste heat (100-150°C) instead of mechanical work — the solution pump consumes only 1-2% of total energy input, enabling operation from solar thermal or geothermal sources
+- No compressor means fewer moving parts, lower maintenance, and quieter operation than vapor-compression systems
+
+**Weaknesses:**
+- COP of 0.5-0.7 is far below vapor-compression (2.0-3.5), requiring 3-6× more heat energy for the same cooling effect
+- Ammonia-water system operates with toxic ammonia refrigerant — leaks pose inhalation hazards and the generator operates at 100-150°C with associated burn risks
+
 ### Cascade Refrigeration
 
 When a single refrigerant cannot span the required temperature range (too low evaporator pressure or too high condenser pressure), cascade systems couple two or more refrigeration cycles operating with different refrigerants.
@@ -74,6 +90,14 @@ When a single refrigerant cannot span the required temperature range (too low ev
 - **Temperature range**: Two-stage cascade covers +40°C to -60°C. Three-stage cascade (adding a methane cycle, bp -161°C) extends to -120°C. Four-stage (adding nitrogen) reaches -180°C.
 
 **Autocascade (mixed-refrigerant) system**: A single compressor circulates a mixture of refrigerants with progressively lower boiling points. A series of phase separators separates the mixture by boiling point — the highest-boiling component condenses first and provides the warmest refrigeration stage, while the lowest-boiling component provides the coldest stage. Simpler mechanically (one compressor) but more complex thermodynamically. Used in small cryocoolers for laboratory and medical applications (reaching -150°C to -196°C with a single compressor).
+
+**Strengths:**
+- Each stage uses a refrigerant optimized for its temperature range, avoiding the poor performance of a single refrigerant pushed beyond its design envelope
+- Three-stage cascade extends reach to -120°C; four stages reach -180°C, approaching cryogenic territory from conventional refrigeration technology
+
+**Weaknesses:**
+- Each additional stage adds a complete compressor-condenser-evaporator assembly, roughly doubling cost and complexity per stage
+- The cascade condenser (thermal bridge between stages) is a single point of failure — loss of the high-temperature stage stops the entire system
 
 ### Joule-Thomson and Linde Cycle
 
@@ -89,6 +113,14 @@ The Joule-Thomson (J-T) effect alone produces only a small temperature drop per 
 **Linde dual-pressure cycle**: Improves efficiency by splitting the gas stream. Only a portion (~30-50%) is expanded from full pressure to atmospheric; the remainder is expanded to an intermediate pressure and recycled, reducing the compressor work per unit of liquefaction. Typical improvement: 30-50% reduction in specific energy consumption.
 
 **Limitations of J-T cooling**: The temperature drop per unit pressure drop is small for most gases at practical pressures. The Linde cycle requires high pressures (100-200 bar) and achieves thermodynamic efficiencies of only 5-10% of Carnot. Despite this, it remains widely used because of its mechanical simplicity — the cold box has no moving parts.
+
+**Strengths:**
+- No moving parts in the cold box (only a throttle valve and heat exchanger) — extremely reliable for continuous unattended operation
+- Countercurrent heat exchanger accumulates small J-T drops into a large total temperature reduction over many passes, enabling liquefaction from ambient temperature
+
+**Weaknesses:**
+- Requires 100-200 bar operating pressure — high-pressure equipment is expensive and poses significant safety hazards (stored energy in compressed gas)
+- Thermodynamic efficiency of only 5-10% of Carnot means 10-20× more energy input than the theoretical minimum per kg of liquefied gas
 
 ### Claude Cycle and Expansion Engines
 
@@ -120,6 +152,14 @@ The Claude cycle (developed by Georges Claude, 1902) replaces (or supplements) J
 
 The Claude cycle is standard for all modern air separation plants larger than ~50 tonnes/day. The Linde cycle remains used in small liquefiers and laboratory-scale systems where mechanical simplicity outweighs energy cost.
 
+**Strengths:**
+- Claude cycle achieves 15-25% of Carnot efficiency (vs. 5-10% for Linde), reducing specific energy by 60-70% for the same liquefaction output
+- Lower operating pressure (20-40 bar vs. 100-200 bar for Linde) reduces equipment cost and safety risk
+
+**Weaknesses:**
+- Expansion turbine at 20,000-80,000 RPM requires precision machining and high-quality bearings — a significant manufacturing capability threshold
+- Turbine wheel failure at operating speed releases fragments with high kinetic energy, requiring blast-resistant containment
+
 ### Stirling Cycle Cryocoolers
 
 The Stirling cycle achieves cryogenic temperatures in a single closed-cycle machine with no valves. Used for small-scale cryogenic cooling (1-100 W at 20-80 K) — ideal for cooling infrared detectors, superconducting devices, and small cryostats.
@@ -134,6 +174,14 @@ The Stirling cycle achieves cryogenic temperatures in a single closed-cycle mach
 
 **Performance**: Achieves 40-80 K (liquid nitrogen range) with COP of 5-10% of Carnot. Cooling capacity 1-100 W. Compact and reliable (some Stirling cryocoolers run 10,000+ hours continuously). Limited to relatively small cooling loads.
 
+**Strengths:**
+- Single closed-cycle machine with no valves — few wear surfaces and proven 10,000+ hour continuous operation
+- Regenerator (porous matrix) stores and releases heat each cycle, providing effective heat pumping in a compact package
+
+**Weaknesses:**
+- Cooling capacity limited to 1-100 W — cannot liquefy bulk gases or cool large loads
+- Displacer piston at the cold end generates vibration that can interfere with sensitive instrumentation (SQUIDs, infrared detectors)
+
 ### Pulse Tube Refrigerators
 
 A refinement of the Stirling concept that eliminates the displacer piston from the cold end. Only the compression piston (at ambient temperature) moves — the "pulse tube" section has no moving parts at cryogenic temperature.
@@ -144,6 +192,14 @@ A refinement of the Stirling concept that eliminates the displacer piston from t
 
 **Performance**: Achieves temperatures down to 20-30 K (single stage) or 4 K (two-stage with helium). Cooling capacity 0.1-10 W. COP slightly lower than Stirling due to orifice losses.
 
+**Strengths:**
+- No moving parts at the cold end — eliminates cold-end wear and vibration, achieving MTBF >50,000 hours for space applications
+- Cold head can be separated from the compressor by several meters of flexible hose, simplifying integration into existing systems
+
+**Weaknesses:**
+- COP slightly lower than Stirling due to orifice and reservoir losses — typically 3-7% of Carnot vs. 5-10% for Stirling
+- Cooling capacity limited to 0.1-10 W — suitable only for instrument cooling, not bulk liquefaction
+
 ### Gifford-McMahon Cryocoolers
 
 A variant using a pressure swing (valved) cycle rather than the continuous oscillation of Stirling/pulse tube systems. Uses a standard commercial compressor at room temperature connected by flexible hoses to the cold head.
@@ -151,6 +207,14 @@ A variant using a pressure swing (valved) cycle rather than the continuous oscil
 **Cycle**: Pressurize the cold head from the compressor → displace gas to the cold end through the regenerator → close high-pressure valve, open low-pressure valve → gas expands in the cold space → open the exhaust valve, displace gas back through the regenerator to the warm end.
 
 **Performance**: 10-80 K, 1-500 W cooling. Slower than Stirling (1-5 Hz valve cycling vs 30-60 Hz Stirling) but uses standard oil-lubricated compressors (much cheaper and more reliable). The cold head can be separated from the compressor by several meters of flexible hose, simplifying installation.
+
+**Strengths:**
+- Uses standard oil-lubricated compressors (commodity HVAC components) — far cheaper and more reliable than specialized gas bearings or dry-running compressors
+- Cold head separated from compressor by flexible hoses allows installation in constrained spaces and simplifies maintenance
+
+**Weaknesses:**
+- Slower cycle rate (1-5 Hz) produces temperature oscillations of 1-5 K at the cold end, problematic for temperature-sensitive loads
+- Valve sequencing mechanism adds mechanical complexity and is the most common failure point in G-M cryocoolers
 
 ### Kapitza Cycle and Further Optimizations
 
@@ -163,6 +227,14 @@ The Kapitza cycle (Peter Kapitza, 1939) further optimizes the Claude cycle by us
 - Recovery of turbine shaft work to drive booster compressors
 
 **Achievable performance**: Modern Kapitza-cycle air separation plants achieve specific energy consumption of 0.35-0.45 kWh/Nm³ O₂ (gas product) — within 10-15% of the theoretical minimum of 0.06 kWh/Nm³.
+
+**Strengths:**
+- Achieves 10-15% of Carnot limit — best-in-class for large-scale air separation, saving millions of kWh/year versus Claude cycle
+- Recovery of turbine shaft work to drive booster compressors reduces net power input by 5-10%
+
+**Weaknesses:**
+- Requires turbocompressors and very tight heat exchanger approaches (<2°C), demanding precision manufacturing not available in early bootstrap stages
+- Optimal only at large scale (>1,000 t/d O₂); small plants cannot justify the complexity
 
 ### Material Considerations at Low Temperatures
 
@@ -179,6 +251,14 @@ The Kapitza cycle (Peter Kapitza, 1939) further optimizes the Claude cycle by us
 
 This contraction has major design implications: long runs of cryogenic piping must have expansion loops or bellows, supports must allow sliding, and differential contraction between dissimilar metals creates stresses at joints.
 
+**Strengths:**
+- Austenitic stainless steels (304L, 316L) remain ductile to -270°C with no ductile-to-brittle transition, enabling safe pressure vessel construction at all cryogenic temperatures
+- Copper's thermal conductivity increases at low temperatures (~600 W/m·K at 20 K), making it ideal for thermal straps and heat exchange surfaces
+
+**Weaknesses:**
+- Carbon steel becomes brittle below -20°C — catastrophic brittle fracture risk makes it unsuitable for any cryogenic service
+- Differential thermal contraction between dissimilar metals (e.g., stainless steel at 0.29% vs. aluminum at 0.39%) creates shear stresses at brazed or bolted joints that can cause fatigue failure over thermal cycles
+
 ### Thermometry at Cryogenic Temperatures
 
 **Resistance temperature detectors (RTDs)**: Platinum RTDs (Pt100, Pt1000) are accurate from -200°C to +600°C. Below -200°C, sensitivity drops. Carbon-glass and rhodium-iron RTDs extend to 1 K.
@@ -186,6 +266,14 @@ This contraction has major design implications: long runs of cryogenic piping mu
 **Thermocouples**: Type T (copper-constantan) works from -200°C to +350°C with ±0.5°C accuracy. Type E (chromel-constantan) provides higher sensitivity at low temperatures. Type K is unreliable below -180°C (inhomogeneity errors).
 
 **Silicon diode thermometers**: Forward voltage drop of a silicon diode changes linearly with temperature below ~100 K. Accuracy ±0.5 K from 1 K to 400 K. Simple two-lead measurement. Standard for laboratory cryogenics.
+
+**Strengths:**
+- Platinum RTDs (Pt100) provide ±0.1°C accuracy from -200°C to +600°C with excellent long-term stability and no reference junction needed
+- Silicon diode thermometers cover the full range from 1 K to 400 K with a simple two-lead measurement and ±0.5 K accuracy
+
+**Weaknesses:**
+- Thermocouples require a reference junction (ice point or electronic compensation) and are susceptible to inhomogeneity errors from cold-working of the wires
+- No single sensor technology covers the entire range from 1 K to 600 K — multi-sensor installations are required for systems spanning wide temperature ranges
 
 ### Energy Requirements by Temperature Range
 

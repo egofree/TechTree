@@ -1,12 +1,12 @@
 # Marine Navigation
 
 > **Node ID**: marine.navigation
-> **Domain**: Marine & Naval Engineering
-> **Dependencies**: [`knowledge.writing`](../knowledge/writing.md), `metals`
+> **Domain**: [Marine & Naval Engineering](./index.md)
+> **Dependencies**: [`knowledge.writing`](../knowledge/writing.md), [`metals`](../metals/index.md)
 > **Enables**: None (leaf capability)
-> **Parent**: marine
 > **Timeline**: Years 0-50+
 > **Outputs**: navigation instruments, nautical charts, position fixing
+> **Critical**: No — specialized maritime capability, not required for land-based civilization
 
 Marine navigation is the science and craft of determining position and directing a vessel's course across water. The progression from coastal piloting to celestial navigation to dead reckoning tracks the development of instruments, mathematics, and timekeeping.
 

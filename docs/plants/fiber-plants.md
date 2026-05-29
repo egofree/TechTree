@@ -2,12 +2,13 @@
 
 > **Node ID**: plants.fiber-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
-> **Dependencies**: `plants`, [`textiles.spinning`](../textiles/spinning.md)
+> **Dependencies**: [`plants`](./index.md), [`textiles.spinning`](../textiles/spinning.md)
 > **Enables**: `plants.fiber-plants.allium-paniculatum`, `plants.fiber-plants.amaranthus-albus`, [`textiles.fibers`](../textiles/fibers.md)
 > **Timeline**: Years 0-10
 > **Outputs**: plant_fibers, raw_fiber
+> **Critical**: Yes — cordage and textiles from plant fibers are Year 0 necessities for shelter, tools, and clothing
 
-### Overview
+## 1. Overview
 
 Fiber plants are the botanical source of the cordage, thread, and woven materials that underpin every stage of civilization bootstrapping. Before metal wire or synthetic polymers, all rope, twine, netting, basketry, and textiles came from plant (and animal) fibers. Cordage is a Year 0 necessity — binding spear points to shafts, lashing shelter frames, making snares and fishnets, carrying loads with simple bags. As material culture advances, spun and woven plant fibers become clothing, sailcloth, canvas, sacks, hammocks, and eventually the belts and drive bands for early machinery.
 
@@ -225,4 +226,4 @@ Different applications benefit from combining fibers with complementary properti
 
 ---
 
-[← Back to Plants](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*

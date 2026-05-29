@@ -193,6 +193,16 @@ Anodizing serves several specific functions in semiconductor equipment fabricati
 - **Powdering / chalking**: White, powdery surface after sealing. Caused by sealing at too-high pH (>7.0) or insufficient rinsing between anodize and seal. Remedy: adjust seal bath pH to 5.5-6.0, add intermediate rinse step.
 - **Galvanic burning**: Localized burning at contact points between dissimilar metals. Prevention: ensure only aluminum-to-aluminum or aluminum-to-titanium contacts in the anodizing bath.
 
+### Safety
+
+**Sulfuric acid burn hazard**: Type II and Type III anodizing baths contain 150-250 g/L H₂SO₄ (approximately 15-25% by weight). Skin contact causes immediate chemical burns; eye contact causes permanent corneal damage. Wear chemical splash goggles (not safety glasses — goggles seal against the face), face shield, acid-resistant apron (PVC or neoprene), and nitrile gloves (double-gloved for Type III where acid concentration and current density are higher). Emergency eyewash and safety shower within 10 seconds travel time from all anodizing stations.
+
+**Electrical hazard**: Anodizing operates at 12-75 V DC with currents of 500-10,000 A. At 50+ V DC (Type III hard anodizing), the voltage exceeds the physiological threshold for electrical shock through wet skin. The electrolyte is conductive — immersion of hands in the bath while the power is on can deliver a lethal shock through the current path: power supply → rack → workpiece → electrolyte → hands → body → ground. De-energize power supply before inserting or removing workpieces. Never reach into the bath while current is flowing.
+
+**Hydrogen gas evolution**: Hydrogen gas is generated at the cathode during anodizing at a rate proportional to the current. For a 5000 A Type III bath, hydrogen evolution is approximately 2.1 L/min at STP. In an enclosed tank area, hydrogen accumulates above the LEL (4% in air) and ignites from any spark. Ensure adequate ventilation (minimum 1 m³/min per m² of bath surface area). No smoking, open flames, or spark-generating tools near anodizing tanks.
+
+**Oxalic acid additive toxicity**: Oxalic acid (5-15 g/L) used as a burning suppressant in Type III baths is toxic if ingested (LD₅₀ ~375 mg/kg) and causes kidney damage from calcium oxalate crystal formation. Avoid skin contact. Do not eat or drink in the anodizing area.
+
 ### See Also
 
 - **[Electroplating](electroplating.md)**: Copper damascene, nickel, gold, tin plating processes

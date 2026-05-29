@@ -224,6 +224,18 @@ Adds FCC or hydrocracking + alkylation + coking. Can process heavy sour crudes a
 
 A refinery consumes 5-10% of its crude oil throughput as fuel (for furnaces, steam generation, hydrogen production). Heat integration (crude preheat train, pumparound heat recovery, cold feed-effluent exchangers) recovers 50-70% of available process heat. The remaining energy is supplied by burning refinery gas (produced internally), fuel oil, and purchased natural gas.
 
+## Safety
+
+**Hydrogen sulfide (H₂S) exposure**: Crude oil and many intermediate streams contain dissolved H₂S. At concentrations above 100 ppm, H₂S paralyzes the olfactory nerve (rotten-egg odor disappears), giving a false sense of safety. At 300 ppm, H₂S causes pulmonary edema; at 700 ppm, rapid unconsciousness and death. Continuous H₂S monitors with alarms at 10 ppm (TWA) and 15 ppm (STEL) are mandatory in all process areas. Emergency SCBA (self-contained breathing apparatus) must be staged within 30 seconds travel time of any H₂S hazard area.
+
+**Hydrocarbon fire and explosion**: Refinery process streams contain flammable hydrocarbons across a wide boiling range. Ethylene (LEL 2.7%, UEL 36%) and hydrogen (LEL 4%, UEL 75%) form explosive mixtures at low concentrations in air. All process equipment handling flammable materials is electrically classified per API 500 (Class I Division 1 or 2). Nitrogen purge before introducing hydrocarbons into any equipment. Firewater system with monitors and foam injection must cover all process areas.
+
+**High-pressure hydrogen embrittlement**: Hydrocracking operates at 80-200 bar with hydrogen-rich gas. Hydrogen diffuses into carbon steel at these conditions, causing embrittlement and sudden brittle fracture. All hydrogen service piping and vessels must use low-alloy Cr-Mo steel (1.25Cr-0.5Mo or 2.25Cr-1Mo) per API 941 (Nelson curves). Inspect welds annually by ultrasonic testing for hydrogen-induced cracking.
+
+**Sulfuric acid and HF alkylation hazards**: Sulfuric acid alkylation units operate with 90-98% H₂SO₄ at 2-10°C. Skin contact causes immediate chemical burns. HF (hydrofluoric acid) alkylation units use 90% HF — HF penetrates skin and attacks bone calcium, causing deep tissue necrosis that may not be immediately painful. Calcium gluconate gel antidote must be available at all HF exposure points. Workers in HF units carry personal calcium gluconate kits.
+
+**Confined space entry**: Vessel entry during turnarounds (planned maintenance shutdowns) requires atmospheric testing (O₂ 19.5-23.5%, LEL <1%, H₂S <10 ppm), rescue plan, and attendant at the entry point. Lockout/tagout all connected piping and energy sources before entry. Hot work permits required for any welding or cutting inside vessels.
+
 ## Cross-References
 
 - **Crude oil supply**: [Crude Oil Extraction](extraction.md)

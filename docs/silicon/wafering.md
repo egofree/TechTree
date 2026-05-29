@@ -2,10 +2,11 @@
 
 > **Node ID**: silicon.wafering
 > **Domain**: [Silicon](./index.md)
-> **Dependencies**: `silicon`, [`silicon.crystal-growth`](crystal-growth.md)
-> **Enables**: [`silicon.basic-devices`](basic-devices.md), `silicon.wafering.epitaxy`, `silicon.wafering.soi`
+> **Dependencies**: [`silicon.crystal-growth`](crystal-growth.md)
+> **Enables**: [`silicon.basic-devices`](basic-devices.md)
 > **Timeline**: Years 45-60
 > **Outputs**: silicon_wafers, polished_substrates, epitaxial_wafers
+> **Critical**: Yes — polished wafers are the substrate for all semiconductor device fabrication
 
 ### Overview
 
@@ -361,11 +362,8 @@ Wafering involves mechanical cutting, chemical etching, and polishing with hazar
 - **Polishing pad and slurry chemistry**: [polymers](../polymers/index.md)
 - **Photolithography (wafer flatness requirements)**: [lithography](../vlsi-scaling/lithography.md)
 - **CMP equipment and slurries**: [advanced processes](../vlsi-scaling/advanced-processes.md)
-- **Cleanroom design**: [cleanrooms](../vlsi-scaling/cleanrooms.md)
+- **Cleanroom design**: [cleanrooms](../photolithography/cleanrooms.md)
 - **Electronics assembly (die attach, wire bonding)**: [assembly](../electronics/assembly.md)
 
 ---
-
-*Part of the [Bootciv Tech Tree](../index.md) · [Silicon](./index.md) · [All Domains](../index.md)*
-
-[← Back to Silicon](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*

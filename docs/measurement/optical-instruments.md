@@ -2,10 +2,11 @@
 
 > **Node ID**: measurement.optical-instruments
 > **Domain**: [Measurement](./index.md)
-> **Dependencies**: `measurement`, [`optics.inspection`](../optics/inspection.md)
+> **Dependencies**: [`measurement`](./index.md), [`optics.inspection`](../optics/inspection.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 30-45
 > **Outputs**: spectroscopy, refractometry, polarimetry, photometry, interferometry
+> **Critical**: No — measurement improves quality but civilization can function without precision instruments
 
 ## Problem
 

@@ -1,12 +1,12 @@
 # Sericulture
 
 > **Node ID**: animals.sericulture
-> **Domain**: Animals & Animal Husbandry
+> **Domain**: [Animals](./index.md)
 > **Dependencies**: [`animals.domestication`](domestication.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`textiles.fibers`](../textiles/fibers.md)
 > **Timeline**: Years 2-15
 > **Outputs**: raw_silk, silk_thread, cocoons, sericin
-> **Tags**: material: [biomass], capability: [textile], era: stone-age
+> **Critical**: No — silk is valuable but not essential for bootstrapping
 
 ## Overview
 
@@ -205,4 +205,6 @@ Silk's combination of high strength, low weight, and resistance to sudden loadin
 - **Steam exposure during stifling**: Steam at 100°C causes scalds faster than hot water. Use tongs or thick gloves when loading and unloading steaming racks. Do not lean over the steam source.
 - **Dermestid beetles and stored cocoons**: Dried cocoons stored for extended periods attract dermestid beetles, which bore through the cocoon wall and consume the pupal remains. Infested cocoons cannot be reeled for quality silk. Store dried cocoons in sealed containers or bags, and inspect regularly for signs of insect damage.
 
-[← Back to Animals](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

@@ -1,11 +1,12 @@
 # Black Powder Manufacture
 
 > **Node ID**: mining.extraction.black-powder
-> **Domain**: Mining Engineering & Extractive Metallurgy
+> **Domain**: [Mining](./index.md)
 > **Dependencies**: [`chemistry.explosives`](../chemistry/explosives.md), [`mining.extraction`](extraction.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 5-15
 > **Outputs**: black_powder, safety_fuse, blasted_rock
+> **Critical**: No
 
 ### Composition
 

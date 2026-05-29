@@ -11,6 +11,37 @@
 
 A 300 mm semiconductor fab processes 40,000-100,000 wafers per month. Each wafer visits 400-700 process steps across dozens of different tools. At any moment, thousands of FOUPs (each holding 25 wafers) must move between stockers (storage), process tools, and inspection stations. A single mis-delivered or delayed FOUP can idle a $20 million tool. Automated material transport is the logistics backbone that keeps the fab running at peak throughput.
 
+## Decision Framework: Transport System Selection
+
+| Scenario | Recommended System | Rationale |
+|----------|-------------------|-----------|
+| 300 mm high-volume fab (>30K wafers/month) | OHT primary + AGV supplement | OHT provides speed (1.5-2.0 m/s), zero floor space; AGVs handle overflow and special routes |
+| 200 mm fab with manual/semi-auto operation | AGV with magnetic tape guidance | Lower installation cost, flexible routing, compatible with existing floor layout |
+| High-throughput interbay transfer (>200 FOUPs/hr) | RGV on dedicated rails | Fastest transport (up to 5.0 m/s), highest throughput per vehicle |
+| Development or low-volume fab | Manual transport with push carts | Lowest cost, maximum flexibility, acceptable when throughput is not critical |
+| Mixed 200/300 mm fab | OHT for 300 mm bay + AGV for 200 mm bay | Each bay uses appropriate automation level for its wafer size |
+
+### Implementation Steps
+
+1. **Map material flow**: Analyze process flow to determine interbay and intrabay transport volumes, peak demand times, and delivery time requirements
+2. **Design track layout**: Plan OHT rail network (or AGV paths) with stocker placement at bay boundaries. Minimize distance between high-traffic tool pairs
+3. **Size the vehicle fleet**: Calculate required vehicles based on throughput targets (target 60-80% utilization). Include spares for maintenance
+4. **Deploy stocker systems**: Install stockers at interbay transfer points with capacity for 4-8 hours of WIP buffer
+5. **Integrate with MES**: Configure [Equipment Communication](equipment-communication.md) for FOUP RFID tracking, transport request dispatch, and delivery confirmation
+6. **Commission and tune**: Run production simulations, adjust dispatch algorithms, optimize traffic management zones. Allow 3-6 months for system tuning
+
+### Transport System Trade-offs
+
+| Parameter | OHT | Floor AGV | RGV |
+|-----------|-----|-----------|-----|
+| Transport speed (avg) | 1.5-2.0 m/s | 0.3-0.8 m/s | 2.5-3.5 m/s |
+| FOUP delivery time | 1-4 min | 3-8 min | 1-3 min |
+| Floor space consumed | None (overhead) | 1.2 m aisle width | Flush rail in floor |
+| Installation cost | High (rail infrastructure) | Low (tape/markers) | Medium (rail installation) |
+| Route flexibility | Low (fixed rails) | Moderate (re-tape floor) | None (fixed rails) |
+| Maintenance access | Difficult (overhead work) | Easy (floor level) | Medium (floor rails) |
+| Throughput per vehicle | 15-25 FOUP/hr | 6-12 FOUP/hr | 20-40 FOUP/hr |
+
 ## FOUP (Front-Opening Unified Pod)
 
 ### Design Standards

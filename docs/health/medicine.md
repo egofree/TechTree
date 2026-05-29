@@ -1,11 +1,12 @@
 # Medicine & Surgery
 
 > **Node ID**: health.medicine
-> **Domain**: Public Health, Sanitation & Medicine
+> **Domain**: [Health](./index.md)
 > **Dependencies**: [`animals.beekeeping`](../animals/beekeeping.md), [`health.sanitation`](sanitation.md), [`knowledge.writing`](../knowledge/writing.md)
-> **Enables**: [`health.pharmacology`](pharmacology.md)
+> **Enables**: [`health.pharmacology`](pharmacology.md), [`health.surgery-basics`](surgery-basics.md), [`health.diagnostics`](diagnostics.md)
 > **Timeline**: Years 5-100+
 > **Outputs**: surgical_capability, medical_treatment
+> **Critical**: Yes — basic medical capability reduces preventable death more than any other single intervention
 
 ## Overview
 
@@ -207,7 +208,7 @@ Access to even basic medical capability — wound irrigation, fracture immobiliz
 ### Wound Management in Detail
 
 **Wound irrigation**:
-- **Technique**: Use a syringe (20-60 mL) with an 18-gauge needle to irrigate under pressure. Apply 8-12 psi by forcefully expressing the syringe. Use 200-500 mL of clean (boiled then cooled) water or sterile saline. Direct the stream at the wound surface from 2-3 cm distance. Irrigation pressure is more important than solution type — mechanical removal of bacteria and debris does the heavy lifting.
+- **Technique**: Use a syringe (20-60 mL) with an 18-gauge needle to irrigate under pressure. Apply 8-12 psi by forcefully expressing the syringe. Use 200-500 mL of clean (boiled then cooled) water or sterile saline. Direct the stream at the wound surface from 2-3 cm distance. Irrigation pressure matters more than solution type — mechanical removal of bacteria and debris does the heavy lifting.
 - **Solutions**: Clean water is nearly as effective as sterile saline for wound irrigation. Dilute povidone-iodine solution (1%) adds antibacterial activity. Do NOT use hydrogen peroxide for wound irrigation (it damages healthy tissue and has minimal antimicrobial benefit in wounds).
 
 **Debridement**:

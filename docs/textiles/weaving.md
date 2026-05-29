@@ -1,11 +1,12 @@
 # Weaving
 
 > **Node ID**: textiles.weaving
-> **Domain**: Textiles, Fiber & Cordage
+> **Domain**: [Textiles](./index.md)
 > **Dependencies**: [`textiles.dyeing`](dyeing.md)
 > **Enables**: [`textiles.finishing`](finishing.md), [`textiles.sewing-tailoring`](sewing-tailoring.md), [`textiles.spinning`](spinning.md)
 > **Timeline**: Years 0-10
 > **Outputs**: cloth, canvas
+> **Critical**: No
 
 ### Weaving & Cloth Production
 
@@ -203,4 +204,6 @@ Inspect each piece of finished cloth for defects before grading:
 
 - Yarn from [Spinning](../textiles/spinning.md), cloth finished via [Finishing](../textiles/finishing.md) and [Dyeing](../textiles/dyeing.md). Loom uses [Wood](../plants/structural-plants.md) and [Metals](../metals/iron-steel.md). Power from [Steam](../energy/steam-power.md) and [Electricity](../energy/electricity.md).
 
-[← Back to Textiles](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

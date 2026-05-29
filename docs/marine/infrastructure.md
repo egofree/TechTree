@@ -1,12 +1,12 @@
 # Maritime Infrastructure & Underwater Engineering
 
 > **Node ID**: marine.infrastructure
-> **Domain**: Marine & Naval Engineering
-> **Dependencies**: `machine-tools`, [`metals.iron-steel`](../metals/iron-steel.md), [`polymers.rubber.gutta-percha`](../polymers/gutta-percha.md)
+> **Domain**: [Marine & Naval Engineering](./index.md)
+> **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`metals.iron-steel`](../metals/iron-steel.md), [`polymers.rubber.gutta-percha`](../polymers/gutta-percha.md)
 > **Enables**: None (leaf capability)
-> **Parent**: marine
 > **Timeline**: Years 5-50+
 > **Outputs**: harbor works, dry docks, submarine cables, lighthouses, corrosion protection
+> **Critical**: No — specialized maritime capability, not required for land-based civilization
 
 Maritime infrastructure enables vessels to operate safely: harbors for shelter, docks for construction and repair, lighthouses for navigation, and underwater cables for communication. This capability also covers corrosion prevention — the perpetual battle against seawater's destruction of metal structures.
 
@@ -129,7 +129,7 @@ For basic harbor and port facility descriptions, see [Water Transport](../transp
 - Weight in seawater: 0.5-3.0 tonnes/km (positive = sinks)
 - Breaking strength: 50-200 kN (5-20 tonnes)
 - Electrical resistance: 5-15 Ω/km (conductor)
-- Insulation resistance: >1,000 MΩ·km
+- Insulation resistance: >1,000 MΩ•km
 - Maximum laying depth: 5,000-8,000 m (deepest oceans)
 
 **Cable laying process**:

@@ -14,6 +14,34 @@ Toxicology covers the identification, quantification, and management of toxic su
 
 The core principle of toxicology (Paracelsus, 1538): "The dose makes the poison." Every substance is toxic at sufficient dose; the task is to define safe exposure limits and manage risks accordingly. For industrial chemicals, this means establishing TLV-TWA (Threshold Limit Value — Time Weighted Average) concentrations that workers can breathe for 8 hours per day, 40 hours per week, over a working lifetime without adverse effect. For acute exposures, it means knowing IDLH (Immediately Dangerous to Life or Health) concentrations and having antidotes available.
 
+## Decision Framework: Exposure Assessment Method
+
+| Scenario | Recommended Method | Accuracy | Cost | Turnaround |
+|----------|-------------------|----------|------|------------|
+| Quick check during operation | Colorimetric detector tube | ±25% | $5-15 per tube | Immediate (2-5 min) |
+| Compliance TWA measurement | Personal air sampling pump + sorbent tube | ±10% | $50-150 per sample | Days (lab analysis) |
+| Real-time area monitoring | Direct-reading electronic monitor | ±5-10% | $500-5,000 instrument | Continuous |
+| Chemical identification (unknown) | GC-MS or FTIR analysis | ±1-5% | $200-500 per sample | Hours to days |
+| Biological exposure assessment | Blood/urine biomarker analysis | ±10-20% | $50-300 per test | Days (lab analysis) |
+
+### Implementation Steps
+
+1. **Inventory all chemical hazards**: Document every chemical in use with SDS on file. For each, identify exposure route, TLV, and IDLH.
+2. **Establish baseline monitoring**: Conduct initial full-shift personal air sampling for all job categories with chemical exposure potential. Use results to prioritize control efforts.
+3. **Deploy detector tubes for routine checks**: Station colorimetric tubes at each process area. Train operators to use them for quick spot-checks before and during chemical operations.
+4. **Implement medical surveillance**: For workers above 50% of TLV, establish annual biological monitoring (blood lead, urinary mercury, cholinesterase activity per chemical).
+5. **Build antidote stockpile**: Ensure calcium gluconate gel (HF), sodium thiosulfate (cyanide), and atropine (organophosphates) are available at every first aid station.
+6. **Review quarterly**: Analyze exposure trends. Investigate any result above 50% of TLV. Update monitoring strategy when processes change.
+
+### Toxic Response Trade-offs
+
+| Response Strategy | Speed | Effectiveness | Risk | Best For |
+|------------------|-------|--------------|------|---------|
+| Immediate decontamination (flush/discard clothing) | Seconds | High for dermal exposure | Low | Acid/base skin contact, solvent splash |
+| Specific antidote administration | Minutes | High for specific poisons | Medium (wrong antidote can harm) | Known poison with available antidote (HF → Ca gluconate, cyanide → thiosulfate) |
+| Supportive care only (O₂, fluids, monitoring) | Minutes | Variable | Low | Unknown poison, no specific antidote available |
+| Gastric lavage / activated charcoal | Minutes-Hours | Moderate (time-dependent) | Medium (aspiration risk) | Recent oral ingestion (<1 hour) |
+
 ## Prerequisites
 
 ### Materials

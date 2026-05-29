@@ -1,11 +1,12 @@
 # Hydrogen & Silane Production
 
 > **Node ID**: chemistry.hydrogen-silane
-> **Domain**: Chemistry
+> **Domain**: [Chemistry](./index.md)
 > **Dependencies**: [`chemistry.electrolysis`](electrolysis.md), [`gas-handling.basic`](../gas-handling/basic.md)
-> **Enables**: [`metals.powder-metallurgy`](../metals/powder-metallurgy.md), [`silicon.purification`](../silicon/purification.md)
+> **Enables**: [`metals.powder-metallurgy`](../metals/powder-metallurgy.md), [`silicon.purification`](../silicon/purification.md), [`semiconductor-chemicals`](semiconductor-chemicals.md)
 > **Timeline**: Years 25-50
 > **Outputs**: hydrogen, silane, trichlorosilane
+> **Critical**: Yes — silane (SiH₄) is the primary silicon source for semiconductor CVD processes. Trichlorosilane (SiHCl₃) feeds the Siemens polysilicon process. Ultra-pure hydrogen is required for semiconductor fabrication and ammonia synthesis.
 
 ### Hydrogen Production
 

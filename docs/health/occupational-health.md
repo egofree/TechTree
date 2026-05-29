@@ -2,10 +2,11 @@
 
 > **Node ID**: health.occupational-health
 > **Domain**: [Health](./index.md)
-> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), `health`
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`health.medicine`](medicine.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 10-25
 > **Outputs**: hazard_controls, exposure_monitoring, protective_equipment, safety_protocols
+> **Critical**: No — reduces chronic illness and disability but production can proceed at higher human cost without formal occupational health programs
 
 ## Problem
 
@@ -196,6 +197,4 @@ Training records document who received what training, when, and from whom. Refre
 
 **Emergency Response**: Every industrial facility needs an emergency action plan covering fire (extinguisher types: ABC dry chemical for general, CO₂ for electrical, water for paper/wood only), chemical spill (absorbent materials, neutralization agents, evacuation distances for toxic releases — H₂SO₄ spill: evacuate 50 m radius minimum), medical emergency (first aid station location, AED placement within 3-minute walk of any point, emergency phone numbers posted), and rescue (confined space rescue team with SCBA, rope rescue capability for elevated work). Drill frequency: fire evacuation quarterly, chemical release annually, full response exercise annually.
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Health](./index.md) · [All Domains](../index.md)*
-
-[← Back to Health](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Health](./index.md) • [All Domains](../index.md)*

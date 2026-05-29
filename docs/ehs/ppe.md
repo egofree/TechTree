@@ -11,6 +11,36 @@
 
 Semiconductor fabrication exposes workers to hydrofluoric acid, pyrophoric silane, toxic hydride gases, strong oxidizers, and organic solvents — often simultaneously in the same work area. PPE selection for semiconductor manufacturing must account for multiple hazard types, chemical compatibility with specific process chemicals, cleanroom compatibility (low particle generation), and the potential for rapid escalation (a silane leak can flash to fire within seconds). This document defines PPE requirements specific to semiconductor fab operations, supplementing the general PPE guidance in [Occupational Health](../health/occupational-health.md).
 
+## Decision Framework: Respiratory Protection Selection
+
+| Hazard Level | Concentration Range | Required Respirator | Protection Factor | Use Case |
+|-------------|-------------------|--------------------|--------------------|----------|
+| Below PEL | <PEL | None (or surgical mask for particulate) | N/A | Routine cleanroom work |
+| Up to 10× PEL | PEL to 10× PEL | Half-face elastomeric with appropriate cartridge | 10× | Wet bench acid work, solvent handling |
+| Up to 50× PEL | 10× PEL to 50× PEL | Full-face elastomeric with appropriate cartridge | 50× | Acid dispensing, piranha preparation |
+| Up to 1,000× PEL | 50× PEL to 1,000× PEL | PAPR (tight-fitting full-face) or supplied air | 1,000× | HF bench maintenance, bulk chemical handling |
+| IDLH or unknown | Any IDLH atmosphere | SCBA (45-min cylinder) | 10,000× | Gas leak response, confined space rescue |
+
+### PPE Selection Trade-offs
+
+| Factor | Half-Face Respirator | Full-Face Respirator | PAPR | SCBA |
+|--------|---------------------|---------------------|------|------|
+| Protection factor | 10× | 50× | 25-1,000× | 10,000× |
+| Wear time (comfort) | 2-4 hours | 1-2 hours | 4-8 hours | 30-60 min (cylinder limit) |
+| Mobility | Full | Full | Moderate (battery pack) | Limited (cylinder weight) |
+| Communication | Clear | Muffled | Good (positive pressure) | Difficult |
+| Cost per unit | $30-50 | $80-150 | $800-1,500 | $3,000-6,000 |
+| Training required | Annual fit test | Annual fit test | Annual fit test + battery care | Monthly drill + medical clearance |
+
+### Implementation Steps
+
+1. **Conduct hazard assessment**: Document every chemical operation with exposure potential. For each, identify chemical(s), exposure route(s), and maximum foreseeable concentration.
+2. **Select PPE by operation**: Use the PPE Selection Matrix below. Match cartridge type to chemical class (acid gas = yellow, organic vapor = black, P100 = magenta).
+3. **Fit test all respirator users**: Qualitative (saccharin/bitrex taste test) or quantitative (portacount, fit factor ≥100 for half-face, ≥500 for full-face). Annual retest.
+4. **Establish cartridge change schedule**: Based on breakthrough time data, not subjective detection. Post change schedule at every respirator storage location.
+5. **Train on donning/doffing**: Practice prevents self-contamination during removal. Verify seal check before every use.
+6. **Inspect and maintain**: Daily user inspection. Monthly SCBA inspection. Annual flow test for PAPR/SCBA.
+
 ## PPE Selection Matrix
 
 ### Chemical Handling PPE by Operation

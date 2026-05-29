@@ -2,12 +2,13 @@
 
 > **Node ID**: plants.edible-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
-> **Dependencies**: `health`, `plants`
+> **Dependencies**: [`health`](../health/index.md), [`plants`](./index.md)
 > **Enables**: [`foundations.food-agriculture`](../foundations/food-agriculture.md), `plants.edible-plants.agave`, `plants.edible-plants.allium-ampeloprasum`, `plants.edible-plants.artemisia-absinthium`, `plants.edible-plants.balanites-aegyptiaca`, `plants.edible-plants.bitter-orange`
 > **Timeline**: Years 0-10
 > **Outputs**: edible_plants, food_crops, vegetables, fruits, seeds
+> **Critical**: Yes — edible plants are the caloric foundation of all human civilization
 
-### Overview
+## 1. Overview
 
 Edible plants are the primary caloric and nutritional source for any human population. Before agriculture, wild foraging provides immediate food security — roots, greens, fruits, seeds, and stems sustain small groups with minimal tools. As populations grow, deliberate cultivation of staple crops becomes essential to produce surplus, which in turn enables specialist labor and all downstream civilization.
 
@@ -202,4 +203,4 @@ Choosing the right staple crop for the local climate is the single most importan
 
 ---
 
-[← Back to Plants](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*

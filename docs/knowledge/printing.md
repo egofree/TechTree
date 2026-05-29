@@ -1,11 +1,33 @@
 # Printing & Book Production
 
 > **Node ID**: knowledge.printing
-> **Domain**: Knowledge Preservation & Education
+> **Domain**: [Knowledge Preservation & Education](./index.md)
 > **Dependencies**: [`machine-tools.machining`](../machine-tools/machining.md), [`metals.iron-steel`](../metals/iron-steel.md), [`textiles.fibers`](../textiles/fibers.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 10-20
 > **Outputs**: printing_press, books
+> **Critical**: Yes — mass reproduction of technical knowledge is the single greatest multiplier for civilization-scale knowledge transmission; without printing, every copy requires hand labor
+
+## Prerequisites
+
+- **Materials**: Wood pulp or cotton/linen rag for paper, soot and linseed oil for ink, lead/antimony/tin for type metal, leather or cloth for binding
+- **Tools**: [Machine Tools: Machining](../machine-tools/machining.md) for precision type molds and press parts, [Metals: Iron & Steel](../metals/iron-steel.md) for press frame and components, [Textiles: Fibers](../textiles/fibers.md) for paper felts and binding thread
+- **Knowledge**: [Writing](writing.md) systems and literacy, basic chemistry for pulping and ink formulation
+- **Infrastructure**: Workshop with water or animal power for paper beating, covered drying loft, press assembly area
+
+## Bill of Materials
+
+| Material | Quantity per 500-copy edition (200 pages) | Source | Alternatives |
+|----------|------------------------------------------|--------|-------------|
+| Paper (80 gsm) | 250 kg (~10,000 sheets) | Wood pulp or rag paper | Vellum (10× cost), papyrus (limited supply) |
+| Type metal (Pb/Sb/Sn) | 50-100 kg per font size | [Metals](../metals/iron-steel.md) | Carved wood type (wears quickly) |
+| Printing ink (carbon base) | 5-10 kg | Soot + linseed oil + rosin | Iron gall ink (poor for letterpress) |
+| Linseed oil | 10-20 L (ink binder + press lubrication) | Flax seed pressing | Other drying oils (tung, walnut) |
+| Linen thread | 2-5 kg (binding) | [Textiles](../textiles/fibers.md) | Hemp cord (coarser) |
+| Leather or cloth | 50-100 m² (binding covers) | [Animals](../animals/animal-materials.md) or [Textiles](../textiles/fibers.md) | Paper covers (less durable) |
+| Wood (press frame) | 200-300 kg oak or elm | Forestry | Cast iron frame (heavier, more rigid) |
+
+## Process Description
 
 ### Paper Production
 
@@ -224,4 +246,4 @@ Printing enables mass distribution of technical knowledge — process recipes, e
 
 ---
 
-*Part of the [Knowledge Domain](index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

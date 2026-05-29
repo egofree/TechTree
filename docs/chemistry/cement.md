@@ -1,11 +1,12 @@
 # Cement & Concrete
 
 > **Node ID**: chemistry.cement
-> **Domain**: Chemistry
-> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), `mining`
-> **Enables**: `construction`
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), [`mining.processing`](../mining/processing.md)
+> **Enables**: [`construction.foundation`](../construction/index.md), [`machine-tools.machining`](../machine-tools/machining.md)
 > **Timeline**: Years 20-35
 > **Outputs**: cement, concrete, reinforced_concrete
+> **Critical**: Yes — Portland cement is the second most consumed material on Earth after water. Reinforced concrete is the structural backbone of all industrial infrastructure: factory foundations, dams, roads, chemical plants, and semiconductor fabs.
 
 ### Portland Cement Manufacture
 
@@ -230,4 +231,8 @@ The four clinker minerals hydrate at different rates and contribute to concrete 
 - **[Mining](../mining/index.md)**: Limestone quarrying and raw material extraction
 - **[Ceramics](../ceramics/index.md)**: Related high-temperature materials processing
 - **[Lime](../ceramics/lime.md)**: Calcium oxide production, a precursor to cement chemistry
-- **[Construction Materials](../materials/index.md)**: Concrete and building applications
+- **[Construction](../construction/index.md)**: Concrete and building applications
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

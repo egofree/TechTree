@@ -214,3 +214,7 @@ Distillation remains the backbone of chemical separation worldwide, and its mast
 - **[Petroleum](petroleum-alternatives.md)**: Crude oil distillation and fractionation
 - **[Fermentation](fermentation.md)**: Ethanol recovery from fermentation broth
 - **[Wood Gasification](wood-gasification.md)**: Tar and wood vinegar distillation from producer gas
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

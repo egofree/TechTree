@@ -27,6 +27,24 @@ Water power converts the gravitational potential energy of flowing or falling wa
 - **Advantages**: Simplest construction, works on flat terrain with no elevation change, easiest to maintain. Paddles can be replaced individually.
 - **Limitations**: Low efficiency, output varies directly with stream flow (seasonal variability), ice and debris can damage paddles in flood.
 
+**Materials**:
+- [Oak or elm paddles](../plants/index.md) (5-10 cm thick, 0.5-2 m long, 20-40 per wheel)
+- [Wooden spokes](../plants/index.md) (oak, 10-15 cm diameter, 8-16 per wheel)
+- [Iron axle](../metals/iron-steel.md) (30-50 cm diameter, 1-3 m long) or [wooden axle](../plants/index.md) (oak, 40-60 cm diameter)
+- [Iron bolts and bands](../metals/iron-steel.md) (10-20 mm bolts, 30-50 mm flat bar bands)
+
+**Calibration / Verification**:
+1. Measure wheel RPM with a stopwatch over 10 revolutions (target: 3-10 RPM depending on wheel diameter and water velocity).
+2. Measure water velocity at the paddle face with a float test (target: >0.5 m/s for practical output).
+3. Verify paddle clearance from the mill race floor (target: 20-40 cm immersion in flowing water).
+4. Check bearing temperature after 1 hour of operation — if bearings are hot to touch (>60°C), increase lubrication with tallow.
+
+**Expected Performance**:
+- Efficiency: 20-30% (hydraulic power input to shaft power output)
+- Power output: 0.5-3 HP (0.4-2.2 kW) depending on water velocity and wheel size
+- Shaft speed: 3-10 RPM
+- Bearing friction loss: 5-10% of output
+
 **[Breastshot wheel](../glossary/breastshot-wheel.md)** (intermediate — requires moderate head):
 - **Principle**: Water enters buckets or paddles at roughly the axle height (breast level) and exits at the bottom. Combines impulse (water hitting buckets) with partial gravity (water weight in buckets as they descend). Requires a headrace delivering water at or near the axle height.
 - **Efficiency**: ~35-50%. Significant improvement over undershot because buckets capture water and gravity assists through the descent.

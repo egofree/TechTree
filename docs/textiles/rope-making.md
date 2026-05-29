@@ -1,11 +1,12 @@
 # Rope Making
 
 > **Node ID**: textiles.rope-making
-> **Domain**: Textiles, Fiber & Cordage
+> **Domain**: [Textiles](./index.md)
 > **Dependencies**: [`textiles.fibers`](fibers.md), [`textiles.spinning`](spinning.md)
-> **Enables**: `construction`
+> **Enables**: [`construction`](../construction/index.md)
 > **Timeline**: Years 0-10
 > **Outputs**: rope, tarred_rope, spliced_rope, lifting_slings
+> **Critical**: No
 
 ### Fiber Selection
 
@@ -207,4 +208,6 @@ Rope for lifting and life-safety applications must be proof-tested and certified
 
 - Fibers from [Fiber Preparation](../textiles/fibers.md). Rope for [Mining](../mining/extraction.md) hoisting and [Shipping](../transport/shipping.md) rigging. Power transmission in [Gravity](../energy/gravity.md) systems. Yarn from [Spinning](../textiles/spinning.md).
 
-[← Back to Textiles](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

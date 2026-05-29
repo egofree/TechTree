@@ -1,11 +1,12 @@
 # Ore Processing
 
 > **Node ID**: mining.processing
-> **Domain**: Mining Engineering & Extractive Metallurgy
+> **Domain**: [Mining](./index.md)
 > **Dependencies**: [`energy.fuels`](../energy/fuels.md), [`mining.extraction`](extraction.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 0-20
 > **Outputs**: concentrated_ore
+> **Critical**: No
 
 ### Ore Dressing (processing raw rock to concentrated ore)
 

@@ -1,10 +1,12 @@
 # PEM Water Electrolysis with SEM Tech Membranes
 
-> **Node ID**: chemistry.water-electrolysis
-> **Domain**: Chemistry
+> **Node ID**: chemistry.sem-tech-water-electrolysis
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.sem-tech`](sem-tech.md), [`energy.electricity`](../energy/electricity.md)
+> **Enables**: [`chemistry.hydrogen-silane`](hydrogen-silane.md), [`chemistry.ammonia`](ammonia.md)
 > **Timeline**: Years 20-35
 > **Outputs**: hydrogen, oxygen
-> **Tags**: materials=[chemicals, polymers], era=industrial
+> **Critical**: No — SEM Tech membranes enable lower-cost PEM water electrolysis but are an alternative to alkaline electrolysis, not a unique enabler
 
 ## Overview
 

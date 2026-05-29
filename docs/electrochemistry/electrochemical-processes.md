@@ -194,6 +194,18 @@ ENIG is the dominant surface finish for printed circuit boards, providing a flat
 - **Bath decomposition**: Spontaneous nickel plating throughout the bath (on tank walls, particles, everywhere) caused by too-high temperature, too-low stabilizer, or phosphite accumulation. The bath turns dark and must be discarded. Prevention: maintain temperature ±2°C, monitor stabilizer concentration, replace bath before phosphite exceeds limit.
 - **Skip plating**: Unplated areas on an otherwise properly activated surface. Caused by insufficient surface activation (palladium coverage incomplete), contamination masking the surface, or insufficient etch. Remedy: verify activation solution freshness, increase etch time, clean the surface.
 
+### Safety
+
+**Perchloric acid explosion hazard**: Aluminum electropolishing uses 5-20% HClO₄ in ethanol or acetic acid. Perchloric acid is a powerful oxidizer that forms explosive perchlorate esters with organic solvents. Perchloric acid electropolishing MUST be performed in a dedicated fume hood with wash-down capability (perchloric acid fumes condense in ductwork and form explosive crystalline deposits). Never store perchloric acid near organic materials. A perchloric acid spill on organic flooring can cause delayed explosion.
+
+**Electroless nickel bath decomposition**: Electroless nickel baths operate at 85-95°C with sodium hypophosphite (a reducing agent). If the bath temperature exceeds 95°C, or if stabilizer concentration drops too low, the bath undergoes uncontrolled autocatalytic decomposition — nickel plates out on all surfaces (tank walls, particles, plumbing) in an exothermic runaway reaction. The resulting nickel dust is pyrophoric when dry. Maintain temperature within ±2°C. Install high-temperature automatic bath dump or dilution system.
+
+**Hexavalent chromium exposure**: Chromic acid (CrO₃) used in aluminum electropolishing and plastic etching contains hexavalent chromium (Cr⁶⁺), a confirmed human carcinogen (lung cancer). TLV-TWA: 0.025 mg/m³ (extremely low). All Cr⁶⁺ handling must be in closed systems with local exhaust ventilation. Workers must wear respiratory protection (P100 cartridge or supplied air). Replace chromic acid etching with permanganate etching where possible.
+
+**Cyanide waste from gold baths**: Gold immersion baths contain potassium gold cyanide (KAu(CN)₂). Cyanide waste must be destroyed by alkaline chlorination (NaOCl at pH 10-11) BEFORE acidification — acidifying cyanide waste releases HCN gas, which is lethal at 300 ppm. Cyanide treatment must occur in a well-ventilated area with H₂S/HCN monitors.
+
+**Nickel sensitization**: Nickel and nickel compounds are skin sensitizers (allergic contact dermatitis affects 10-20% of the general population). Repeated skin contact with nickel plating solutions causes sensitization that is permanent — once sensitized, even trace nickel exposure causes dermatitis. Wear nitrile gloves (double-gloved) when handling nickel solutions. Do not touch nickel-plated parts with bare hands.
+
 ### See Also
 
 - **[Electroplating](electroplating.md)**: Copper damascene and electrolytic plating processes

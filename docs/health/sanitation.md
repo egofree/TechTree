@@ -1,11 +1,12 @@
 # Water Supply & Sanitation
 
 > **Node ID**: health.sanitation
-> **Domain**: Public Health, Sanitation & Medicine
-> **Dependencies**: `ceramics`, [`foundations.water-procurement`](../foundations/water-procurement.md)
-> **Enables**: `food-processing`, [`food-processing.dairy`](../food-processing/dairy.md), [`food-processing.preservation`](../food-processing/preservation.md), [`health.medicine`](medicine.md), [`knowledge.writing`](../knowledge/writing.md)
+> **Domain**: [Health](./index.md)
+> **Dependencies**: [`ceramics`](../ceramics/index.md), [`foundations.water-procurement`](../foundations/water-procurement.md)
+> **Enables**: [`food-processing`](../food-processing/index.md), [`food-processing.dairy`](../food-processing/dairy.md), [`food-processing.preservation`](../food-processing/preservation.md), [`health.medicine`](medicine.md), [`knowledge.writing`](../knowledge/writing.md)
 > **Timeline**: Years 0-50+
 > **Outputs**: clean_water, sanitation
+> **Critical**: Yes — clean water and sewage disposal prevent more disease than all medical treatments combined
 
 ### Water Supply & Purification
 

@@ -2,14 +2,37 @@
 
 > **Node ID**: animals.poultry.turkeys
 > **Domain**: [Animals](./index.md)
-> **Dependencies**: [`animals.poultry`](poultry.md)
+> **Dependencies**: [`animals.poultry`](poultry.md), [`agriculture`](../agriculture/soil-management.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 1-10+
 > **Outputs**: turkey_meat, feathers, manure
+> **Critical**: No — premium meat bird but chickens are more versatile and productive
 
 ### Overview
 
 Domestic turkeys (*Meleagris gallopavo*) are the largest poultry species commonly raised for meat. Originating from the wild turkey of North America, domestic turkeys produce substantially more meat per bird than chickens — mature toms reach 8-15 kg while hens reach 4-8 kg. Turkeys require more space and different management than chickens but yield a premium carcass with a distinctive flavor profile valued for special occasions and diverse culinary applications. Their manure is nitrogen-rich (approximately 1.3% N, 1.0% P, 0.5% K), making it a valuable soil amendment.
+
+### Prerequisites
+
+| Requirement | Source | Notes |
+|-------------|--------|-------|
+| High-protein starter (28-30%) | [`agriculture`](../agriculture/soil-management.md) | Most expensive poultry feed per kg |
+| Range pasture (20 m²/bird minimum) | [`agriculture`](../agriculture/soil-management.md) | Mixed pasture and woodland ideal |
+| Separate housing from chickens | [`construction`](../construction/building-materials.md) | 30+ m distance, blackhead prevention |
+| Secure fencing (1.5-2 m high) | [`foundations.tools-basic`](../foundations/tools-basic.md) | Turkeys can fly over low fences |
+| Oyster shell and grit | [`mining`](../mining/processing.md) | Free-choice for breeders |
+
+### Bill of Materials
+
+Materials listed for a 20-bird heritage turkey flock per year.
+
+| Material | Quantity | Source | Alternatives |
+|----------|----------|--------|-------------|
+| Turkey starter (28-30% protein) | 20-30 kg | [`agriculture`](../agriculture/soil-management.md) | Highest-cost feed phase |
+| Grower feed (20-24% protein) | 200-400 kg | [`agriculture`](../agriculture/soil-management.md) | Pasture reduces needs 20-40% |
+| Range pasture | 400+ m² | [`agriculture`](../agriculture/soil-management.md) | Oak woodland is premium range |
+| Fencing (1.5-2 m) | Perimeter | [`metals`](../metals/index.md) | Electric fencing for predator control |
+| Bedding (straw/shavings) | 200-300 kg | [`plants`](../plants/index.md) | Deep litter in shelter |
 
 ### Breeds
 
@@ -212,4 +235,4 @@ Acorns provide exceptional feed value in autumn — white oak acorns contain 6-8
 
 ---
 
-[← Back to Animals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

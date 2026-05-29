@@ -1,13 +1,25 @@
 # Fuel Production
 
 > **Node ID**: energy.fuels
-> **Domain**: Energy
+> **Domain**: [Energy](./index.md)
 > **Dependencies**: [`foundations.fire`](../foundations/fire.md)
 > **Enables**: [`energy.engine`](engine.md), [`energy.fuels.charcoal`](charcoal.md), [`energy.fuels.coal`](coal.md), [`energy.fuels.coke`](coke.md), [`glass.advanced.glassblowing`](../glass/advanced-glassblowing.md), [`machine-tools.forming`](../machine-tools/forming.md), [`metals.alloys`](../metals/alloys.md), [`metals.steelmaking`](../metals/steelmaking.md), [`mining.processing`](../mining/processing.md), `plants`, `transport`
 > **Timeline**: Years 0-25
 > **Outputs**: solid_fuels, liquid_fuels, gaseous_fuels
+> **Critical**: Yes — every industrial process requires fuel matched to its temperature and energy-density requirements; no fuels means no smelting, no steam, no engines
 
 ## Why Fuels Matter
+
+**Strengths** (wood as fuel):
+- Universally available — grows on every continent except Antarctica
+- Renewable — trees regrow in 20-80 years
+- Burns at 700-900°C with natural draft — sufficient for pottery, copper smelting, space heating
+
+**Weaknesses** (wood as fuel):
+- Low energy density (14-16 MJ/kg) — large volumes needed for industrial processes
+- Seasonal supply — green wood requires 6-12 months of air drying before use
+- Deforestation risk — industrial-scale consumption can deplete local forests faster than regrowth
+- Inadequate for iron smelting without charcoal conversion (temperature and atmosphere control)
 
 Fuels are the energy carriers that convert stored chemical energy into heat, motion, and light. Every industrial process — smelting iron, firing ceramics, generating electricity, powering engines — requires a fuel matched to its temperature, cleanliness, and energy-density requirements. Selecting the wrong fuel wastes effort and limits output; selecting the right one unlocks the next capability tier.
 

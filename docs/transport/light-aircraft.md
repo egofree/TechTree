@@ -1,9 +1,12 @@
 # Light Aircraft
 
 > **Node ID**: transport.light-aircraft
-> **Domain**: Transport
+> **Domain**: [Transport](./index.md)
+> **Dependencies**: [`transport.aviation`](aviation.md)
+> **Enables**: None (leaf capability)
 > **Timeline**: Years 30-50
 > **Outputs**: light_aircraft, aerial_reconnaissance, short_range_cargo
+> **Critical**: No
 
 ## Overview
 
@@ -195,6 +198,4 @@ Light aircraft — single-engine propeller planes of wood-and-fabric or aluminum
 
 ---
 
-*Part of the [Transport Domain](index.md) · [All Domains](../index.md)*
-
-[← Back to Transport](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Transport](./index.md) • [All Domains](../index.md)*

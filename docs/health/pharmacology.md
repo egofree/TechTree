@@ -1,11 +1,12 @@
 # Pharmacology
 
 > **Node ID**: health.pharmacology
-> **Domain**: Health
+> **Domain**: [Health](./index.md)
 > **Dependencies**: [`animals.beekeeping`](../animals/beekeeping.md), [`chemistry.distillation`](../chemistry/distillation.md), [`health.medicine`](medicine.md)
-> **Enables**: [`plants.medicinal-plants`](../plants/medicinal-plants.md)
+> **Enables**: [`health.pharmaceutical-production`](pharmaceutical-production.md), [`plants.medicinal-plants`](../plants/medicinal-plants.md)
 > **Timeline**: Years 10-100+
 > **Outputs**: pharmaceuticals
+> **Critical**: Yes — without pharmacological knowledge, drug preparation is unstandardized and potentially dangerous
 
 ## Overview
 
@@ -249,7 +250,7 @@ The transition from "herbal medicine" to "reproducible pharmaceutical production
 ### Regulatory and Ethical Considerations
 
 **Informed consent in a bootstrap context**:
-- Every patient has the right to know: what drug is being given, what it is expected to do, what the known side effects are, and what alternatives exist. In a resource-limited setting where options are fewer, informed consent is even more important because the patient bears greater risk.
+- Every patient has the right to know: what drug is being given, what it is expected to do, what the known side effects are, and what alternatives exist. In a resource-limited setting where options are fewer, informed consent carries greater weight because the patient bears greater risk.
 - Document consent: patient name, drug and dose, date, witness signature. For patients who cannot consent (unconscious, minors), a designated decision-maker provides consent.
 
 **Drug supply chain integrity**:

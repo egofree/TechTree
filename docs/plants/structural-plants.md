@@ -2,12 +2,13 @@
 
 > **Node ID**: plants.structural-plants
 > **Domain**: [Plants & Botanical Resources](./index.md)
-> **Dependencies**: `plants`
+> **Dependencies**: [`plants`](./index.md)
 > **Enables**: `plants.structural-plants.artemisia-capillaris`
 > **Timeline**: Years 0-10
 > **Outputs**: structural_timber, building_materials, thatch, wattle, poles
+> **Critical**: Yes — all early construction depends on plant-derived structural materials
 
-### Overview
+## 1. Overview
 
 Plant species harvested for their structural properties — timber, poles, thatch, and woven building materials. Before fired brick, concrete, or steel, all construction depended on plant-derived materials: timber frames for buildings, woven wattle panels plastered with clay, thatched reed or straw roofs, and split-lath fencing. Even after stone and metal become available, wood remains indispensable for scaffolding, formwork, tool handles, and temporary structures.
 
@@ -203,4 +204,4 @@ Wall thickness: 100-150 mm. Insulation value: moderate (poorer than solid masonr
 
 ---
 
-[← Back to Plants](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Plants & Botanical Resources](./index.md) • [All Domains](../index.md)*

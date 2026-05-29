@@ -16,6 +16,25 @@ Semiconductor yield runs 60-90% for mature process nodes but drops below 50% for
 
 Control charts are the primary SPC tool. They plot process measurements over time with statistically-derived control limits that distinguish common-cause variation (inherent noise) from special-cause variation (assignable problems requiring correction).
 
+### Decision Framework: Selecting the Right Control Chart
+
+| Data Type | Distribution | Recommended Chart | Example Application |
+|-----------|-------------|-------------------|---------------------|
+| Continuous measurements (dimensions, temperatures) | Normal | X-bar and R charts | Gate CD, oxide thickness, etch rate |
+| Proportion defective per subgroup | Binomial | p-chart | Wafer sort yield, visual defect rate |
+| Count of defects per unit | Poisson | c-chart | Particles per wafer, scratches per panel |
+| Defect density (variable area) | Poisson | u-chart | Defects per cm² across different wafer sizes |
+| Individual measurements (no subgroup) | Normal | Individuals (I-MR) chart | Furnace temperature readings taken once per run |
+
+### Control Chart Trade-offs
+
+| Chart Type | Sensitivity to Shifts | Sample Size | Complexity | False Alarm Rate | Best For |
+|-----------|----------------------|-------------|------------|-----------------|----------|
+| X-bar/R | High (detects ±1σ shift in ~5 samples) | n=2-10 per subgroup | Medium | 0.27% (3σ limits) | High-volume parameters with rational subgroups |
+| p-chart | Moderate (requires large n for sensitivity) | n=50-500 | Low | Varies with p and n | Attribute pass/fail data, yield tracking |
+| c-chart | Moderate | Fixed unit area | Low | Varies with c̄ | Particle counts, defect counts per wafer |
+| I-MR | Lower than X-bar/R | n=1 | Low | Higher (no subgroup averaging) | Low-frequency measurements, expensive tests |
+
 ### X-bar and R Charts (Variables Data)
 
 The most widely used control chart pair for continuous measurements (dimensions, temperatures, voltages, weights).

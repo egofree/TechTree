@@ -1,10 +1,12 @@
 # SEM Tech Lithium Separation: Selective Ion Recovery
 
-> **Node ID**: chemistry.lithium-separation
-> **Domain**: Chemistry
+> **Node ID**: chemistry.sem-tech-lithium-separation
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.sem-tech`](sem-tech.md), [`chemistry.sem-tech-electrodialysis`](sem-tech-electrodialysis.md)
+> **Enables**: [`metals.battery-materials`](../metals/index.md)
 > **Timeline**: Years 25-40
 > **Outputs**: lithium_compounds
-> **Tags**: materials=[chemicals, polymers], era=industrial
+> **Critical**: No — lithium separation supports battery manufacturing but is downstream of core chemical capabilities
 
 The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech](sem-tech.md)) enable selective lithium ion separation as a downstream application of the membrane platform. The SEM Tech patent describes a microporous ion-selective separator configured for lithium separation — blocking larger sodium ions while allowing lithium passage (patent line 107). Electrodialysis (see [SEM Tech Electrodialysis](sem-tech-electrodialysis.md)) is the primary mechanism by which this selective transport is achieved at scale.
 

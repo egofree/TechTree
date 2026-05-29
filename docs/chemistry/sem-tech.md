@@ -1,12 +1,12 @@
 # SEM Tech: Low-Cost Ion Exchange Membrane Electrolysis
 
-> **Node ID**: chemistry.electrolysis.sem-tech
-> **Domain**: Chemistry
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Node ID**: chemistry.sem-tech
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.electrolysis`](electrolysis.md), [`polymers.thermoplastics`](../polymers/thermoplastics.md)
+> **Enables**: [`chemistry.electrolysis`](electrolysis.md), [`chemistry.sem-tech-electrodialysis`](sem-tech-electrodialysis.md), [`chemistry.sem-tech-acid-regeneration`](sem-tech-acid-regeneration.md)
 > **Timeline**: Years 20-30
 > **Outputs**: chlorine, hydrogen, caustic_soda, ion_exchange_membrane, critical_minerals
-> **Tags**: materials=[chemicals, membranes], era=industrial
+> **Critical**: Yes — SEM Tech's low-cost ion exchange membranes (<$1/ft² vs $500-2000/m² for Nafion) enable chlor-alkali electrolysis, electrodialysis, and metal recovery well before fluoropolymer chemistry is available. This is a bootstrap-critical technology for the chemical industry.
 
 **Credit**: SEM Tech (Salt Electro Mining Technology) was developed by **Robert Karas**, founder of Rowow LLC. The technology is released under **CC0 1.0 Universal** (public domain). Technical details are drawn from the open-source patent application (see Rowow1/Open-sourced-off-the-shelf-ion-exchange-membrane on GitHub).
 

@@ -1,11 +1,12 @@
 # Water Transport
 
 > **Node ID**: transport.shipping
-> **Domain**: Transportation & Logistics
-> **Dependencies**: `textiles`
-> **Enables**: `marine`, [`marine.shipbuilding`](../marine/shipbuilding.md), [`telecom.submarine-cables`](../telecom/submarine-cables.md)
+> **Domain**: [Transport](./index.md)
+> **Dependencies**: [`textiles`](../textiles/index.md)
+> **Enables**: [`marine`](../marine/index.md), [`marine.shipbuilding`](../marine/shipbuilding.md), [`telecom.submarine-cables`](../telecom/submarine-cables.md)
 > **Timeline**: Years 5-50+
 > **Outputs**: canals, water_transport
+> **Critical**: No
 
 ### Water Transport
 

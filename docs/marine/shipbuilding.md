@@ -1,12 +1,12 @@
 # Hull Construction & Shipbuilding
 
 > **Node ID**: marine.shipbuilding
-> **Domain**: Marine & Naval Engineering
-> **Dependencies**: `machine-tools`, [`metals.iron-steel`](../metals/iron-steel.md), [`transport.shipping`](../transport/shipping.md)
+> **Domain**: [Marine & Naval Engineering](./index.md)
+> **Dependencies**: [`machine-tools`](../machine-tools/index.md), [`metals.iron-steel`](../metals/iron-steel.md), [`transport.shipping`](../transport/shipping.md)
 > **Enables**: None (leaf capability)
-> **Parent**: marine
 > **Timeline**: Years 0-50+
 > **Outputs**: vessels, wooden hulls, iron hulls, steel hulls
+> **Critical**: No — specialized maritime capability, not required for land-based civilization
 
 Shipbuilding evolves through four major construction methods, each enabled by advances in materials and tools. The progression from hollowed logs to iron-hulled steamships spans millennia and requires increasingly sophisticated metallurgy, woodworking, and eventually machine tools.
 

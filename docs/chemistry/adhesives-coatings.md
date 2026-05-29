@@ -1,11 +1,12 @@
 # Adhesives & Specialty Coatings
 
 > **Node ID**: `chemistry.adhesives-coatings`
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
-> **Parent**: [Chemistry](index.md)
-> **Era**: Stone-Age through Semiconductor
-> **Tags**: `material: chemicals`, `capability: []`, `era: industrial`
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.acids`](acids.md), [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`chemistry.coatings`](coatings.md)
+> **Enables**: [`metals.finishing`](../metals/finishing.md), [`electronics.electrical-systems`](../electronics/electrical-systems.md)
+> **Timeline**: Stone-Age through Semiconductor
+> **Outputs**: adhesives, coatings, anodized_aluminum, galvanized_steel
+> **Critical**: No — adhesives and coatings enhance product durability but do not enable new capabilities until semiconductor packaging
 
 ## Overview
 
@@ -178,6 +179,10 @@ Adhesives bond materials by surface attachment rather than mechanical fastening.
 
 **Die attach paste (comparison)**: Silver-filled epoxy paste dispensed as a liquid. Typical: 65-85% silver by weight for electrical conductivity (resistivity <0.001 Ω·cm) and thermal conductivity (1.5-6.0 W/m·K). Cure: 150-175°C for 30-60 minutes. Applied by stencil printing, dispensing, or pin transfer. Bond line thickness: 15-50 μm.
 
+**Strengths (DAF)**: Precisely controlled bond line thickness (10-40 μm); no dispensing variation — film thickness is uniform; compatible with high-speed pick-and-place; available in electrically conductive (silver-filled) and insulating (alumina-filled) versions.
+
+**Weaknesses (DAF)**: Expensive vs. paste adhesives; limited shelf life (B-stage epoxy must be refrigerated); film must be cut or patterned for each die size; voids trapped under large die if lamination pressure insufficient.
+
 ### Photoresist as Coating
 
 Photoresist functions as a temporary protective coating during semiconductor fabrication. See [Paints, Coatings & Inks](coatings.md) for detailed photoresist chemistry. Key coating parameters for semiconductor use:
@@ -259,4 +264,6 @@ See [Paints, Coatings & Inks](coatings.md) for detailed galvanizing process para
 - Anodizing depends on [Acids](acids.md) (sulfuric acid electrolyte) and [Electrolysis](electrolysis.md) (DC power supply)
 - Galvanizing depends on [Metals](../metals/index.md) (zinc supply) and [Energy](../energy/index.md) (process heat at 460°C)
 
-[↑ Back to Chemistry](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

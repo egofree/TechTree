@@ -1,11 +1,12 @@
 # Fiber Preparation
 
 > **Node ID**: textiles.fibers
-> **Domain**: Textiles, Fiber & Cordage
+> **Domain**: [Textiles](./index.md)
 > **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`animals.camelids`](../animals/camelids.md), [`animals.goats`](../animals/goats.md), [`animals.rabbits`](../animals/rabbits.md), [`animals.sheep`](../animals/sheep.md), [`foundations.tools-basic`](../foundations/tools-basic.md), [`plants.fiber-plants`](../plants/fiber-plants.md), [`textiles.spinning`](spinning.md)
 > **Enables**: [`knowledge.printing`](../knowledge/printing.md), [`textiles.rope-making`](rope-making.md)
 > **Timeline**: Years 0-5
 > **Outputs**: prepared_fibers
+> **Critical**: No
 
 ### Fiber Sources
 
@@ -203,4 +204,6 @@ Proper storage prevents fiber degradation before processing:
 - **Flax and hemp line fiber**: Store in dry, well-ventilated conditions. Line fibers (long, combed) are bundled into stricks (twisted hanks, 200-400 g each) and packed in burlap sacks. Tow (short fibers) is baled. Bast fibers are less vulnerable to insects than wool but will mildew if stored damp.
 - **Silk**: Store raw silk in dry, dark conditions. Sunlight degrades silk fibroin (UV breaks peptide bonds), causing yellowing and progressive weakening. Moths also attack silk. Acid-free tissue paper wrapping for fine silk hanks. Degummed silk is more vulnerable than raw silk because the sericin coating provides some UV and abrasion protection.
 
-[← Back to Textiles](index.md)
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

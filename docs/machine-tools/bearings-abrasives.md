@@ -1,19 +1,24 @@
 # Bearings, Abrasives & Cutting Tools
 
 > **Node ID**: machine-tools.bearings-abrasives
-> **Domain**: Machine Tools Bootstrap
+> **Domain**: [Machine Tools Bootstrap](./index.md)
 > **Dependencies**: [`machine-tools.iterative-bootstrap`](iterative-bootstrap.md)
 > **Enables**: [`machine-tools.machining`](machining.md)
 > **Timeline**: Years 10-25
 > **Outputs**: bearings, ball_bearings, abrasives, cutting_tools, taps, dies, hss_tool_bits
+> **Critical**: Yes — precision enablers for all machine tool construction
 
 ## Overview
 
 Bearings, abrasives, and cutting tools are the precision enablers of machine tool construction. Without bearings, shafts seize and machines destroy themselves from friction. Without abrasives and cutting tools, metal cannot be shaped to the tolerances that make interchangeable parts possible. This capability represents the transition from "rough iron castings" to "precision machines" — the difference between a crude lathe that wobbles and a precision lathe that can turn a true cylinder to ±0.01 mm.
 
+For the machine tool construction sequence, see [Iterative Bootstrap](./iterative-bootstrap.md). For the machining operations that use these tools, see [Machining](./machining.md).
+
 ## Abrasives & Grinding Media
 
 ### Natural Abrasives (Available Immediately)
+
+Natural abrasives require no industrial infrastructure — they are collected from geological deposits and graded by sieving. They provide the starting point for all precision grinding and polishing.
 
 - **Emery**: Natural aluminum oxide (50-80% Al₂O₃) + iron oxide. Found in Greece, Turkey, and other locations. Grit grades: coarse (24-60), medium (80-120), fine (150-240). For grinding and polishing metals and stone.
 - **Pumice**: Volcanic glass, porous and lightweight. Fine polishing of wood, metal, and stone. Available near volcanic regions.
@@ -171,11 +176,11 @@ Grind tool bits on abrasive wheel to correct geometry:
 
 ## Safety & Hazards
 
-- **Abrasives dust inhalation**: Grinding and polishing generates fine dust from both the abrasive and the workpiece. Silica dust from sandstone wheels causes silicosis. Aluminum oxide and silicon carbide dust are respiratory irritants. Wear respirators during dry grinding. Wet grinding preferred — eliminates airborne dust and improves surface finish.
-- **High-speed machinery**: Grinding wheels and machine tools rotate at high speeds (1000-3000 RPM for grinding, 100-3000 RPM for lathes). Loose clothing, long hair, or jewelry can be caught. Guard all rotating parts. Eye protection mandatory — grinding wheels can shatter and eject fragments at high velocity.
+- **Abrasives dust inhalation**: Grinding and polishing generates fine dust from both the abrasive and the workpiece. Silica dust from sandstone wheels causes silicosis (lung scarring, irreversible, latency period 10-30 years). Aluminum oxide and silicon carbide dust are respiratory irritants. Wear N95 or better respirators during dry grinding. Wet grinding preferred — eliminates airborne dust and improves surface finish.
+- **High-speed machinery**: Grinding wheels and machine tools rotate at high speeds (1000-3000 RPM for grinding, 100-3000 RPM for lathes). Loose clothing, long hair, or jewelry can be caught. Guard all rotating parts. Eye protection mandatory (ANSI Z87.1 rated safety glasses minimum) — grinding wheels can shatter and eject fragments at velocities exceeding 100 m/s.
 - **Cutting tool hazards**: Sharp cutting tools (taps, dies, tool bits) cause severe lacerations. Handle with care. Use tool holders, not bare hands, when possible. Cut away from body.
 - **Hot metal chips**: Machining metal produces hot, sharp chips (especially steel). Do not handle with bare hands. Clear chips with brush, not hands or compressed air (compressed air blows chips into eyes and skin).
-- **Grinding wheel explosions**: A cracked grinding wheel can detonate at operating speed. Ring test every wheel before mounting. Never exceed rated speed. Use wheel guards. Dress wheels regularly to maintain balance and sharpness.
+- **Grinding wheel explosions**: A cracked grinding wheel can detonate at operating speed, releasing fragments with kinetic energy equivalent to a bullet. Ring test every wheel before mounting. Never exceed rated speed. Use wheel guards (steel, 1.5-3 mm thick, covering 180° of the wheel periphery). Dress wheels regularly to maintain balance and sharpness.
 
 ## Cross-References
 
@@ -204,7 +209,7 @@ The Federation of European Producers of Abrasives (FEPA) defines two standard gr
 - **Abrasives embedment**: Loose abrasive particles embed in soft workpiece surfaces during lapping and honing, contaminating the surface. Thorough cleaning required between operations and before assembly.
 - **Bearing fatigue life**: Rolling element bearings fail by subsurface fatigue (spalling) after a statistical number of stress cycles. Rated life (L10) is the cycles at which 10% of bearings fail. Design life typically 20,000-100,000 hours.
 - **Grinding wheel dressing**: Grinding wheels require periodic dressing (truing and sharpening) with diamond tools to restore geometry and expose fresh abrasive grains. Wheel wear limits dimensional consistency in long production runs.
-- **Contamination sensitivity**: Bearing performance degrades rapidly with particulate contamination. Even 1-5 µm particles cause surface damage. Clean assembly environments and effective sealing are essential.
+- **Contamination sensitivity**: Bearing performance degrades rapidly with particulate contamination. Even 1-5 μm particles cause surface damage. Clean assembly environments and effective sealing are essential.
 
 ### See Also
 

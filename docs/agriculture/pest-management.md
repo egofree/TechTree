@@ -109,16 +109,36 @@ Cultural controls modify the farming environment to make it less hospitable to p
 
 1. **Harvest seeds**: Collect fallen neem fruit. Remove pulp, dry seeds in sun 3-5 days. Shell to extract kernels.
 2. **Prepare extract**: Crush 200-500 g neem kernels. Soak in 10 L water for 12-24 hours at room temperature. Strain through fine cloth.
-3. **Add emulsifier**: Mix 20-50 mL liquid soap into the filtered extract. Soap helps the neem oil disperse and stick to plant surfaces.
+ 3. **Add emulsifier**: Mix 20-50 mL liquid soap into the filtered extract. Soap helps the neem oil disperse and stick to plant surfaces.
 4. **Apply**: Spray onto plant leaves (both upper and lower surfaces) in early morning or late evening (avoid midday heat, which causes leaf burn). Apply at first sign of pest damage. Repeat every 7-14 days as needed.
 5. **Effective against**: Aphids, whiteflies, caterpillars, beetles, leafhoppers, thrips. Less effective against mites. Disrupts insect hormone systems — larvae fail to molt, eggs fail to hatch.
+
+**Strengths (neem spray)**:
+- Disrupts insect growth hormones at multiple life stages (eggs, larvae, adults) — resistance develops slowly
+- Low mammalian toxicity (LD50 >5,000 mg/kg in rats) — safer to handle than synthetic pesticides
+- Repels as well as kills — treated plants become unpalatable to pests for 7-14 days
+
+**Weaknesses (neem spray)**:
+- Requires 200-500 g neem kernels per 10 L — substantial seed harvest dedicated to pest control rather than other uses
+- Degrades in UV light within 48-72 hours — must be reapplied frequently
+- Concentrated neem oil causes contact dermatitis in some individuals
 
 **Pyrethrum spray** (fast-acting contact insecticide):
 
 1. **Harvest flowers**: Pick pyrethrum (Chrysanthemum cinerariaefolium) flowers in full bloom on a dry day. Dry in shade (sunlight degrades pyrethrins).
 2. **Prepare dust or extract**: Grind dried flowers to fine powder. For spray: steep 50-100 g powder in 10 L water for 24 hours, strain. For dust: mix powder 1:5 with fine clay or talc.
-3. **Apply**: Spray or dust onto infested plants. Pyrethrum degrades rapidly in sunlight (half-life 12 hours) — apply in late afternoon for maximum overnight effectiveness. Repeat every 3-5 days for persistent infestations.
+ 3. **Apply**: Spray or dust onto infested plants. Pyrethrum degrades rapidly in sunlight (half-life 12 hours) — apply in late afternoon for maximum overnight effectiveness. Repeat every 3-5 days for persistent infestations.
 4. **Effective against**: Most insects (broad-spectrum). Kills on contact by disrupting nerve signals. Non-selective — also kills beneficial insects. Use only for spot-treatment of severe outbreaks, not as routine preventative.
+
+**Strengths (pyrethrum spray)**:
+- Fast-acting — kills insects on contact within minutes by disrupting nerve cell sodium channels
+- Degrades rapidly in sunlight (half-life 12 hours) — no persistent residue on crops or in soil
+- Can be produced locally from pyrethrum daisy flowers with minimal processing (dry, grind, steep)
+
+**Weaknesses (pyrethrum spray)**:
+- Non-selective — kills beneficial insects (ladybugs, lacewings, parasitic wasps) at the same rate as pests
+- Highly toxic to fish and aquatic invertebrates — cannot be used near waterways
+- UV degradation means short effective window — must be applied in late afternoon and repeated every 3-5 days
 
 ## 5. Quantitative Parameters
 

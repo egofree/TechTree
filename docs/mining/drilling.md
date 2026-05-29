@@ -2,10 +2,11 @@
 
 > **Node ID**: mining.drilling
 > **Domain**: [Mining](./index.md)
-> **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), [`machine-tools.machining`](../machine-tools/machining.md), `mining`
+> **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), [`machine-tools.machining`](../machine-tools/machining.md), [`mining`](./index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 12-20
 > **Outputs**: blast_holes, core_samples, exploration_data
+> **Critical**: No
 
 ### Hand Steel Drilling
 
@@ -215,6 +216,4 @@ Unlike percussive drilling (which chips rock by impact), rotary drilling grinds 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Mining](./index.md) · [All Domains](../index.md)*
-
-[← Back to Mining](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*

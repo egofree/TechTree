@@ -2,14 +2,14 @@
 
 > **Node ID**: computing.digital-logic
 > **Domain**: [Computing](./index.md)
-> **Dependencies**: `computing`, [`computing.electronic`](electronic.md), [`mathematics.formal-systems`](../mathematics/formal-systems.md)
+> **Dependencies**: [`computing`](./index.md), [`computing.electronic`](electronic.md), [`mathematics.formal-systems`](../mathematics/formal-systems.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 40-50
 > **Outputs**: logic_gates, combinational_circuits, sequential_circuits, arithmetic_units, memory_elements
 
 ## Problem
 
-Every computation a processor performs reduces to operations on binary signals: voltage present or absent, stored charge or no charge. Digital logic provides the foundational building blocks that manipulate these binary states. Without a solid grasp of gate-level design, building anything from a simple counter to a full CPU is impossible. This page covers the theory and transistor-level implementation of the logic families, combinational circuits, sequential elements, and arithmetic units that form the hardware layer of all computing.
+Every computation a processor performs reduces to operations on binary signals: voltage present or absent, stored charge or no charge. Digital logic provides the foundational building blocks that manipulate these binary states. Without a solid grasp of gate-level design, building anything from a simple counter to a full CPU is impossible. This page covers the theory and transistor-level implementation of the logic families, combinational circuits, sequential elements, and arithmetic units that form the hardware layer of all [computing](./index.md).
 
 ## Boolean Algebra Fundamentals
 
@@ -205,6 +205,4 @@ Building digital logic from discrete transistors is educational but impractical 
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Computing](./index.md) · [All Domains](../index.md)*
-
-[← Back to Computing](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Computing](./index.md) • [All Domains](../index.md)*

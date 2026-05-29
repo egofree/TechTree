@@ -15,6 +15,26 @@ In semiconductor manufacturing, incoming inspection validates raw materials (pho
 
 ## Acceptance Sampling Fundamentals
 
+### Decision Framework: Choosing a Sampling Plan
+
+| Scenario | Recommended Plan | Rationale |
+|----------|-----------------|-----------|
+| High-volume production, destructive testing | Variables sampling (known sigma) | 30-50% fewer samples than attribute plans for equivalent protection |
+| Multiple defect types, pass/fail classification | Single attribute sampling (MIL-STD-105E) | Simple to administer, well-standardized |
+| Expensive inspection, need to reduce average sample size | Double sampling | Accept/reject clearly good/bad lots quickly; second sample only for borderline lots |
+| Supplier with proven quality history (>20 lots accepted) | Skip-lot sampling | Reduces inspection cost by 50-75% while maintaining statistical protection |
+| Continuous flow production (no discrete lots) | Continuous sampling (CSP-1) | Starts at 100% inspection, transitions to sampling after clearance number |
+| Critical safety items (AQL <0.1%) | Tightened inspection with 100% final test | Maximum consumer protection; accept on zero defects only |
+
+### Implementation Steps
+
+1. **Classify all incoming materials** by criticality: Assign AQL values based on failure consequence (0.10% for safety-critical, 0.65% for standard semiconductor materials)
+2. **Establish sampling procedures**: Document lot size determination, sample size selection, and accept/reject criteria for each material category using MIL-STD-105E tables
+3. **Train inspection personnel**: Qualify inspectors on measurement equipment ([Precision Metrology](../measurement/precision-metrology.md)), defect recognition, and switching rules
+4. **Deploy switching rule logic**: Implement normal → tightened → reduced transitions in quality management system, tracking consecutive lot accept/reject history automatically
+5. **Integrate with [SPC](statistical-process-control.md)**: Feed inspection results into control charts for trend detection before lots reach action limits
+6. **Review quarterly**: Assess supplier quality trends, adjust AQL targets, and evaluate skip-lot eligibility
+
 ### Operating Characteristic (OC) Curve
 
 Every sampling plan has an OC curve that plots the probability of accepting a lot against the actual defect rate. Two key points define the curve:

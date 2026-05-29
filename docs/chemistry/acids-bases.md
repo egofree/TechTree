@@ -1,11 +1,12 @@
 # Acids & Bases
 
 > **Node ID**: chemistry.acids-bases
-> **Domain**: Chemistry
+> **Domain**: [Chemistry](./index.md)
 > **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Enables**: [`chemistry.acids`](acids.md), [`chemistry.alkalis`](alkalis.md), [`chemistry.soap`](soap.md), [`metals.finishing`](../metals/finishing.md)
 > **Timeline**: Years 10-30
 > **Outputs**: sulfuric_acid, hydrochloric_acid, nitric_acid, sodium_hydroxide, sodium_carbonate
+> **Critical**: No — overview capability linking acid and base production; see individual articles for detailed processes
 
 ## Overview
 
@@ -212,6 +213,4 @@ Lead is uniquely suited for dilute H₂SO₄ (<78%) — forms protective PbSO₄
 
 ---
 
-*Part of the [Chemistry Domain](index.md) • [All Domains](../index.md)*
-
-[← Back to Chemistry](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

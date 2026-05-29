@@ -392,6 +392,14 @@ Before a fab begins production, the entire electrical system undergoes rigorous 
 
 ### Limitations
 
+**Strengths** (of the overall electrical system):
+- Electricity is the most versatile energy carrier — converts to heat, light, mechanical work, and chemical reactions
+- AC transmission with transformers enables long-distance power distribution (hundreds of km)
+- Electric motors are more efficient (85-95%) than any heat engine at converting energy to mechanical work
+- Semiconductor fabrication equipment demands ultra-clean, ultra-reliable electricity — driving power quality standards that benefit all electrical systems
+
+**Weaknesses** (of the overall electrical system):
+
 - **Clean power cost**: UPS and backup generation infrastructure can add 30-50% to the electrical system cost of a semiconductor fab. Double-conversion UPS wastes 6-10% of all power passing through it as heat, requiring additional cooling capacity.
 - **Generator emissions**: Diesel generators produce NOₓ, particulate matter, and CO₂. Emissions permits may limit annual run hours. Catalytic converters and diesel particulate filters reduce but do not eliminate emissions.
 - **Battery maintenance**: Lead-acid UPS batteries require periodic replacement (3-7 year typical life in float service), equalizing charges, electrolyte maintenance, and environmental controls (20-25°C). A neglected battery bank fails when needed most.

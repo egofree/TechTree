@@ -1,10 +1,12 @@
 # SEM Tech Acid Regeneration: Bipolar Membrane Electrodialysis for Acid Recovery
 
-> **Node ID**: chemistry.acid-regeneration
-> **Domain**: Chemistry
+> **Node ID**: chemistry.sem-tech-acid-regeneration
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.sem-tech`](sem-tech.md), [`chemistry.sem-tech-electrodialysis`](sem-tech-electrodialysis.md)
+> **Enables**: [`chemistry.chemical-recovery`](chemical-recovery.md), [`metals.finishing`](../metals/finishing.md)
 > **Timeline**: Years 20-35
 > **Outputs**: regenerated_acid, recovered_base
-> **Tags**: materials=[chemicals, polymers], era=industrial
+> **Critical**: No — acid regeneration reduces chemical waste and cost but does not enable new capabilities
 
 The low-cost ion exchange membranes developed by SEM Tech (see [SEM Tech](sem-tech.md)) enable acid recovery and regeneration via bipolar membrane electrodialysis (BMED), a process variant of [SEM Tech Electrodialysis](sem-tech-electrodialysis.md). Where conventional electrodialysis separates ions from water, BMED goes further: it splits water into protons and hydroxide ions at a membrane junction, producing concentrated acid and base from waste salt solutions without electrode-driven electrolysis.
 

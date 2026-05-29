@@ -1,11 +1,12 @@
 # Dyeing
 
 > **Node ID**: textiles.dyeing
-> **Domain**: Textiles, Fiber & Cordage
-> **Dependencies**: `chemistry`
+> **Domain**: [Textiles](./index.md)
+> **Dependencies**: [`chemistry`](../chemistry/index.md)
 > **Enables**: [`plants.dye-plants`](../plants/dye-plants.md), [`textiles.weaving`](weaving.md)
 > **Timeline**: Years 5-10
 > **Outputs**: dyed_cloth
+> **Critical**: No
 
 ### Overview
 
@@ -136,7 +137,7 @@ Resist dyeing creates patterns by blocking dye from reaching selected areas of t
 
 ---
 
-[← Back to Textiles](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*
 
 ### Mordant Chemistry Detail
 
@@ -203,4 +204,4 @@ Quantifying dye permanence allows consistent quality control across batches:
 
 ---
 
-[← Back to Textiles](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*

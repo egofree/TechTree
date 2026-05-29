@@ -1,11 +1,32 @@
 # Education & Training
 
 > **Node ID**: knowledge.education
-> **Domain**: Knowledge Preservation & Education
+> **Domain**: [Knowledge Preservation & Education](./index.md)
 > **Dependencies**: [`knowledge.writing`](writing.md)
 > **Enables**: [`knowledge.libraries`](libraries.md)
 > **Timeline**: Years 5-200+
 > **Outputs**: education_system
+> **Critical**: Yes — without structured education, each generation must rediscover knowledge independently; civilization cannot advance beyond what a single lifetime can learn
+
+## Prerequisites
+
+- **Materials**: Paper, ink, and printed textbooks from [Printing](printing.md); workshop consumables (metal stock, chemicals, wood) for hands-on practice
+- **Tools**: Drafting instruments, measurement tools from [Measurement](../measurement/precision-metrology.md), workshop equipment for practical exercises (lathe, mill, forge, chemistry glassware)
+- **Knowledge**: [Writing](writing.md) system for documentation, spoken language for instruction, mathematical literacy (arithmetic minimum) for technical subjects
+- **Infrastructure**: Classroom space (20-30 m² per 8 students), workshop with individual workstations (1.5 m × 0.8 m bench per student), library access for reference materials
+
+## Bill of Materials
+
+| Material | Quantity per 8-student cohort/year | Source | Alternatives |
+|----------|-----------------------------------|--------|-------------|
+| Paper (exercise) | 2,000-4,000 sheets | [Printing](printing.md) | Slates with chalk (reusable, no record) |
+| Textbooks (printed) | 1 per student per subject | [Printing](printing.md) | Hand-copied manuscripts (10× slower to produce) |
+| Workshop consumables | 50-200 kg metal stock, chemicals | [Metals](../metals/index.md), [Chemistry](../chemistry/index.md) | Scavenged materials (inconsistent quality) |
+| Drafting instruments | 1 set per student | [Metals](../metals/index.md) | Shared sets (4 students per set) |
+| Measurement tools | 1 set per 2 students | [Measurement](../measurement/precision-metrology.md) | Shared with scheduled access |
+| Safety equipment (PPE) | 1 set per student | [Chemistry](../chemistry/index.md), [Textiles](../textiles/fibers.md) | Improvised protection (lower safety) |
+
+## Process Description
 
 ### Education System
 
@@ -216,8 +237,8 @@
 - [Printing](printing.md) — textbook and curriculum production
 - [Libraries](libraries.md) — reference collections and research materials
 - [Machine Tools](../machine-tools/iterative-bootstrap.md) — the primary technical skill set requiring education
-- [Measurement](../measurement/index.md) — precision skills taught in technical education
+- [Measurement](../measurement/precision-metrology.md) — precision skills taught in technical education
 
 ---
 
-*Part of the [Knowledge Domain](index.md) · [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Knowledge Preservation & Education](./index.md) • [All Domains](../index.md)*

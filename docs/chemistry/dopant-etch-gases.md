@@ -1,11 +1,12 @@
 # Dopant & Etch Gases
 
 > **Node ID**: chemistry.dopant-etch-gases
-> **Domain**: Chemistry
-> **Dependencies**: `chemistry`, [`chemistry.electrolysis`](electrolysis.md)
-> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), `silicon.wafering.epitaxy`, [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.electrolysis`](electrolysis.md), [`chemistry.hydrogen-silane`](hydrogen-silane.md)
+> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`silicon.crystal-growth`](../silicon/crystal-growth.md), [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
 > **Timeline**: Years 30-70
 > **Outputs**: dopant_gases, etch_gases, fluorine
+> **Critical**: Yes — dopant gases (PH₃, AsH₃, B₂H₆) enable semiconductor doping, and etch gases (CF₄, Cl₂, SF₆) enable pattern transfer in photolithography. Without these gases, semiconductor manufacturing is impossible.
 
 ### Dopant Gases
 
@@ -216,3 +217,7 @@ A typical semiconductor etch or CVD tool requires 6-12 gas lines converging at t
 - **[Gas Handling Basics](../gas-handling/basic.md)**: Piping, valves, and gas distribution infrastructure
 - **[Packaging and Testing](packaging-testing.md)**: Post-fabrication IC testing and reliability
 - **[SEM Tech](sem-tech.md)**: Membrane technology for gas purification applications
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

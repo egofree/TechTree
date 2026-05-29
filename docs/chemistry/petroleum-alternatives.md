@@ -1,11 +1,12 @@
 # Petroleum & Alternative Chemistry
 
 > **Node ID**: chemistry.petroleum-alternatives
-> **Domain**: [Petroleum & Alternative Chemistry](./index.md)
-> **Dependencies**: `foundations`
-> **Enables**: [`chemistry.coatings`](coatings.md), [`chemistry.lubricants`](lubricants.md), [`chemistry.petroleum-alternatives.fermentation`](fermentation.md), [`chemistry.petroleum-alternatives.wood-gasification`](wood-gasification.md), [`chemistry.soap`](soap.md), [`chemistry.solvents`](solvents.md), [`energy.cooling`](../energy/cooling.md), [`energy.electric-furnaces.electrode-manufacturing`](../energy/electrode-manufacturing.md), [`polymers.rubber.synthetic`](../polymers/synthetic.md), [`polymers.thermoplastics`](../polymers/thermoplastics.md), [`polymers.thermosets`](../polymers/thermosets.md), [`transport.aviation`](../transport/aviation.md)
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`foundations.tools-basic`](../foundations/tools-basic.md)
+> **Enables**: [`chemistry.coatings`](coatings.md), [`chemistry.lubricants`](lubricants.md), [`chemistry.fermentation`](fermentation.md), [`chemistry.wood-gasification`](wood-gasification.md), [`chemistry.soap`](soap.md), [`chemistry.solvents`](solvents.md), [`energy.cooling`](../energy/cooling.md), [`polymers.synthetic`](../polymers/synthetic.md), [`polymers.thermoplastics`](../polymers/thermoplastics.md), [`polymers.thermosets`](../polymers/thermosets.md), [`transport.aviation`](../transport/aviation.md)
 > **Timeline**: Years 5-50+
-> **Outputs**: gasoline, kerosene, diesel, lubricating_oil, benzene, phenol, ethanol, acetone, methanol, producer_gas, ...
+> **Outputs**: gasoline, kerosene, diesel, lubricating_oil, benzene, phenol, ethanol, acetone, methanol, producer_gas
+> **Critical**: No — petroleum alternatives provide chemical feedstocks but individual capabilities depend on specific downstream processes
 
 ## Problem
 

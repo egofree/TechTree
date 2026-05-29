@@ -2,7 +2,7 @@
 
 > **Node ID**: silicon.basic-devices
 > **Domain**: [Silicon](./index.md)
-> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md), `metals.aluminum.semiconductor-grade`, [`silicon.crystal-growth`](crystal-growth.md), [`silicon.wafering`](wafering.md), [`vacuum.pumps`](../vacuum/pumps.md)
+> **Dependencies**: [`chemistry.acids`](../chemistry/acids.md), [`gas-handling.vacuum`](../gas-handling/vacuum.md), [`metals.aluminum`](../metals/aluminum.md), [`silicon.crystal-growth`](crystal-growth.md), [`silicon.wafering`](wafering.md), [`vacuum.pumps`](../vacuum/pumps.md)
 > **Enables**: [`computing.electronic`](../computing/electronic.md), [`electronics.assembly`](../electronics/assembly.md), [`vlsi-scaling.eda-design`](../vlsi-scaling/eda-design.md)
 > **Timeline**: Years 30-50
 > **Outputs**: solar_cells, diodes, transistors
@@ -12,6 +12,14 @@
 #### Solar Cells (Primary Target — simplest useful semiconductor device)
 
 **Structure**: Large-area (100-300 cm²) pn junction on single-crystal or multicrystalline silicon wafer.
+
+**Materials**:
+- P-type (boron-doped) silicon wafer, 1-10 Ω·cm, <100> orientation, 180-300 μm thick
+- POCl₃ gas (phosphorus oxychloride) for n-type emitter diffusion
+- HF (hydrofluoric acid), 5-10% concentration, for phosphorus glass removal
+- SiNₓ (silicon nitride) for anti-reflection coating, deposited by PECVD
+- Silver paste (front contacts): finger width 50-100 μm, bus bar 1-2 mm
+- Aluminum paste (rear contact): full-area coverage
 
 **Process flow**:
 1. **Starting wafer**: p-type (boron-doped), 1-10 Ω·cm, <100> orientation, 180-300 μm thick. Saw-damage etch in NaOH or KOH (20-40%, 80°C, 2-5 min) to remove ~10-20 μm of damaged surface.
@@ -23,6 +31,12 @@
 7. **Metallization — rear contact**: Screen-print Al paste (full area). Fire simultaneously with front. Al alloys with Si, forms p+ back surface field (BSF) — reduces recombination at rear surface.
 8. **Edge isolation**: Laser scribe or plasma etch around wafer edge to prevent front-rear short circuit through junction that wraps around edges.
 9. **Testing**: I-V curve under simulated sunlight (AM1.5, 1000 W/m²). Measure Voc, Isc, fill factor, efficiency.
+
+**Verification**:
+1. Measure I-V curve under AM1.5 solar simulator (1000 W/m², 25°C)
+2. Check Voc > 0.58V and Isc > 8.0A for a 156×156 mm cell
+3. Measure fill factor (FF) > 0.75; if lower, check for shunts via dark I-V measurement
+4. Verify no front-rear short by measuring isolation resistance > 1 MΩ at 500V
 
 **Expected performance**:
 - First cells: 5-10% efficiency (poor passivation, simple contacts)
@@ -188,13 +202,23 @@ Semiconductor device fabrication uses some of the most dangerous chemicals in in
 10. Edge isolation (laser scribe or plasma etch)
 11. I-V testing and sorting
 
-**Typical yield**: First runs 30-50%, improving to 80-95% with process optimization. Key yield limiters: contamination (particles on wafer surface kill cells), uniformity (non-uniform diffusion creates shunts), and mechanical breakage (thin wafers are fragile). Each step requires process control and monitoring to maintain yield. For integrated circuits, typical IC yield at the 180nm node runs 80-90% for simple logic and 50-70% for large SoC designs. Yield follows the Poisson model: yield = (1-D×A)^N, where D is defect density (defects/cm² per masking level), A is chip area (cm²), and N is the number of masking levels. Cost per good die = wafer cost / (dies per wafer × yield), which means yield improvement has a direct, leveraged impact on cost.
+**Typical yield**: First runs 30-50%, improving to 80-95% with process optimization. Key yield limiters: contamination (particles on wafer surface kill cells), uniformity (non-uniform diffusion creates shunts), and mechanical breakage (thin wafers are fragile). Each step requires process control and monitoring to maintain yield. For integrated circuits, typical IC yield at the 180nm node runs 80-90% for simple logic and 50-70% for large SoC designs. Yield follows the Poisson model: yield = (1-D×A)^N, where D is defect density (defects/cm² per masking level), A is chip area (cm²), and N is the number of masking levels. Cost per good die = wafer cost / (dies per wafer × yield), which means yield improvement has a direct, multiplied impact on cost.
 
 **Solar cell parameter relationships**:
 - **Efficiency**: η = (Voc × Jsc × FF) / Pin, where Voc is open-circuit voltage (V), Jsc is short-circuit current density (mA/cm²), FF is fill factor (dimensionless, 0.7-0.85), and Pin is incident power density (100 mW/cm² at AM1.5).
 - **Voc**: Typically 0.55-0.72V for crystalline silicon. Increases with: higher base resistivity (lower doping → less Auger recombination), better surface passivation, and lower temperature (Voc decreases ~2.2 mV/°C).
 - **Jsc**: Typically 30-42 mA/cm² for crystalline silicon. Increases with: better light trapping (texturing, anti-reflection coating), higher minority carrier lifetime in the base, and thinner metal grid lines (less shading).
 - **Temperature sensitivity**: Solar cell efficiency decreases ~0.3-0.5% per °C above 25°C. A module at 60°C produces ~10-15% less power than at 25°C. This is a fundamental semiconductor property (increased temperature increases dark current, reducing Voc).
+
+**Device parameter comparison**:
+
+| Parameter | Rectifier diode | Zener diode | BJT (small signal) | MOSFET (logic) | Solar cell |
+|---|---|---|---|---|---|
+| Forward voltage | 0.6-0.7V | N/A (reverse) | Vce(sat) ~0.2V | RDS(on) × Id | N/A |
+| Breakdown voltage | 50-2000V | 2.7-200V | BVceo 20-80V | 10-20V (logic) | N/A |
+| Speed (tr/tf) | 1-50 μs | N/A | 10-100 ns | 1-10 ns | N/A |
+| Current range | 0.1-50A | 5-1000 mA | 1 mA-1A | 1 μA-50A | 0-9A (156mm cell) |
+| Key metric | Vf at rated I | Vz tolerance | β (50-300) | Vth (0.5-2V) | η (15-18%) |
 
 ### Circuit Design Examples
 

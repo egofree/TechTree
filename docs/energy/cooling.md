@@ -2,7 +2,7 @@
 
 > **Node ID**: energy.cooling
 > **Domain**: [Energy](./index.md)
-> **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), `machine-tools`, [`metals.iron-steel`](../metals/iron-steel.md)
+> **Dependencies**: [`chemistry.petroleum-alternatives`](../chemistry/petroleum-alternatives.md), [`machine-tools.machining`](../machine-tools/machining.md), [`metals.iron-steel`](../metals/iron-steel.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 20-30
 > **Outputs**: refrigeration, industrial_cooling, ice_production
@@ -91,6 +91,18 @@ Refrigeration moves heat from a cold region to a hot region using external energ
 - **Bearing and machine tool cooling**: Continuous oil or water cooling on heavy machine tools (grinders, large lathes) removes cutting heat. Typically 15-25°C cooling water circulated through machine.
 - **Semiconductor fab cooling**: Cleanrooms require precise temperature control (22 ± 0.5°C) and humidity control (40-50% RH). Chilled water (5-7°C) feeds air handling units. Process tools (implanters, CVD reactors) may require glycol-chilled water at -10 to +10°C.
 
+### Refrigeration Load Calculation
+
+The total refrigeration load for a cold storage room has four components that must be calculated independently and summed.
+
+**Transmission load (Q_transmission)**: Heat conducting through walls, floor, and ceiling. Q = U × A × ΔT, where U is the overall heat transfer coefficient (W/m²·K) of the wall assembly, A is the surface area (m²), and ΔT is the temperature difference between inside and outside. Example: a 10 × 8 × 4 m room at -18°C in a 30°C ambient. Walls + ceiling + floor area ≈ 304 m². With 150 mm cork (U ≈ 0.25 W/m²·K), Q = 0.25 × 304 × 48 ≈ 3,648 W ≈ 3.6 kW continuous.
+
+**Product load**: Heat that must be removed from goods entering the room to cool or freeze them to storage temperature. Includes sensible heat above freezing, latent heat of fusion (for freezing), and sensible heat below freezing. Example: 5,000 kg of beef entering at 10°C, frozen to -18°C. Specific heat above freezing ≈ 3.2 kJ/kg·K (cool 10°C to -1°C = 35.2 kJ/kg). Latent heat of fusion ≈ 230 kJ/kg. Specific heat below freezing ≈ 1.7 kJ/kg·K (cool -1°C to -18°C = 28.9 kJ/kg). Total per kg = 294.1 kJ. Total = 1,471 MJ. If this must occur in 24 hours: 1,471 MJ / 86,400 s ≈ 17 kW average.
+
+**Infiltration load**: Warm air entering through door openings. Each air change introduces warm, humid air that must be cooled and dehumidified. Estimate: 1-2 air changes per hour for rooms with moderate door traffic. The enthalpy difference between outside and inside air determines the load. At 30°C ambient and -18°C room temperature, each kilogram of infiltrated air carries roughly 60-80 kJ of heat that the refrigeration system must remove.
+
+**Equipment load**: Heat from lights, motors, and people inside the room. Electric lights: 10-20 W/m² of floor area. Fan motors on evaporator coils: 0.5-2 kW each. Workers: each person contributes roughly 250-300 W of sensible and latent heat. Sum all internal heat sources.
+
 ### Safety
 
 - **Ammonia (NH₃)**: IDLH (Immediately Dangerous to Life or Health) = 300 ppm. Irritating at 25-50 ppm. Lethal at 5000+ ppm. Flammable range 15-28% in air. Detectors mandatory in all ammonia plant rooms. Emergency ventilation at 30+ air changes per hour. Full-face respirator with ammonia cartridges for entry into plant rooms. Ammonia leaks detected by smell at 5 ppm (excellent self-alarming property).
@@ -134,30 +146,6 @@ The ammonia absorption cycle runs on four main temperature zones, each correspon
 **Clear ice production**: Trapped air bubbles and dissolved minerals make ice cloudy. To produce clear blocks (preferred for food display and transport), compressed air is bubbled through the water in each can during freezing. This pushes dissolved air and minerals toward the last-unfrozen center. Some producers also pre-boil the water to remove dissolved gases. The center core, where impurities concentrate, can be reamed out and discarded after harvesting.
 
 **Harvesting cycle**: After the freeze period, an overhead hoist lifts can racks from the brine. Each can is dipped in a warm water trough (40-50°C) for 30-60 seconds, melting a thin layer against the can wall. The block slides out onto a gravity conveyor. Cans are refilled with fresh water and returned to the brine tank. A well-run plant turns over cans 1-2 times per day.
-
-### Cold Storage Room Construction
-
-**Wall assembly (cold store at -18°C)**: A typical wall section from inside to outside consists of the inner cladding (galvanized steel or aluminum sheet, 0.5-1.0 mm), insulation layer, vapor barrier, structural wall, and outer cladding. The insulation is the critical element.
-
-**Cork insulation**: The traditional choice for cold storage from the 1890s through the 1950s. Cork board panels 100-150 mm thick provide R-value of roughly 3-4 per inch (thermal conductivity 0.035-0.045 W/m·K). Cork is naturally rot-resistant, dimensionally stable, and does not absorb moisture readily. Panels are bonded with hot asphalt or bituminous adhesive. For -18°C storage, total wall insulation thickness of 150-200 mm of cork is standard.
-
-**Expanded polystyrene (EPS)**: Modern replacement for cork, with similar thermal conductivity (0.030-0.040 W/m·K). EPS panels 150-200 mm thick are standard for frozen storage. Available as plain board or as factory-laminated sandwich panels (steel facings with EPS core) that serve as both insulation and structural wall. EPS must be kept away from heat sources above 75°C.
-
-**Vapor barrier placement**: The vapor barrier always goes on the warm side of the insulation. In a cold store, that means the exterior side. Without it, warm humid air migrates through the wall, condenses inside the cold insulation, freezes, and gradually destroys the insulation value. Materials: 0.1 mm polyethylene film (modern), asphalt-impregnated building paper, or continuous galvanized steel sheet with sealed joints. Lap all seams at least 100 mm and seal with compatible mastic.
-
-**Insulated doors**: Cold store doors are a major source of heat gain. Standard construction: 100 mm thick insulated panel (same material as walls), clad in steel or aluminum on both faces. Magnetic or compression gaskets around the perimeter maintain an air-tight seal when closed. Sliding doors preferred (no swing clearance needed). Door heaters (low-wattage electric resistance wires in the frame) prevent ice buildup on the gasket at temperatures below -10°C.
-
-### Refrigeration Load Calculation
-
-The total refrigeration load for a cold storage room has four components that must be calculated independently and summed.
-
-**Transmission load (Q_transmission)**: Heat conducting through walls, floor, and ceiling. Q = U × A × ΔT, where U is the overall heat transfer coefficient (W/m²·K) of the wall assembly, A is the surface area (m²), and ΔT is the temperature difference between inside and outside. Example: a 10 × 8 × 4 m room at -18°C in a 30°C ambient. Walls + ceiling + floor area ≈ 304 m². With 150 mm cork (U ≈ 0.25 W/m²·K), Q = 0.25 × 304 × 48 ≈ 3,648 W ≈ 3.6 kW continuous.
-
-**Product load**: Heat that must be removed from goods entering the room to cool or freeze them to storage temperature. Includes sensible heat above freezing, latent heat of fusion (for freezing), and sensible heat below freezing. Example: 5,000 kg of beef entering at 10°C, frozen to -18°C. Specific heat above freezing ≈ 3.2 kJ/kg·K (cool 10°C to -1°C = 35.2 kJ/kg). Latent heat of fusion ≈ 230 kJ/kg. Specific heat below freezing ≈ 1.7 kJ/kg·K (cool -1°C to -18°C = 28.9 kJ/kg). Total per kg = 294.1 kJ. Total = 1,471 MJ. If this must occur in 24 hours: 1,471 MJ / 86,400 s ≈ 17 kW average.
-
-**Infiltration load**: Warm air entering through door openings. Each air change introduces warm, humid air that must be cooled and dehumidified. Estimate: 1-2 air changes per hour for rooms with moderate door traffic. The enthalpy difference between outside and inside air determines the load. At 30°C ambient and -18°C room temperature, each kilogram of infiltrated air carries roughly 60-80 kJ of heat that the refrigeration system must remove.
-
-**Equipment load**: Heat from lights, motors, and people inside the room. Electric lights: 10-20 W/m² of floor area. Fan motors on evaporator coils: 0.5-2 kW each. Workers: each person contributes roughly 250-300 W of sensible and latent heat. Sum all internal heat sources.
 
 ### Materials
 

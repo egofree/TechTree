@@ -252,6 +252,21 @@ The fused silica crucible dissolves at 0.01-0.03 mm per hour into the melt. A cr
 **Power efficiency and thermal balance**:
 A 200 mm CZ puller running a 20 kg crystal consumes roughly 200-400 kWh over its 24-48 hour cycle. Of the total heater input power (50-100 kW), only about 10-15 kW goes into maintaining the melt at 1420°C. The rest is lost to radiation, convection in the argon, and conduction through supports. Good insulation and radiation shielding are not luxury features; they are the difference between a puller that runs on 50 kW and one that needs 100 kW, which matters enormously when your electricity supply is limited. Every kilowatt saved on the puller is a kilowatt available for another furnace, another process step, another step up the production curve.
 
+### Process Parameter Summary
+
+| Parameter | Value | Tolerance |
+|-----------|-------|-----------|
+| Melt temperature | 1415-1430°C | ±0.5°C during body growth |
+| Pull speed (body) | 0.5-2.0 mm/min | ±0.5% |
+| Pull speed (Dash neck) | 3-5 mm/min | ±1% |
+| Seed rotation | 5-15 RPM | ±0.5 RPM |
+| Crucible counter-rotation | 3-10 RPM | ±0.5 RPM |
+| Argon flow | 20-60 L/min | ±5 L/min |
+| Base pressure | <10⁻⁴ Pa | — |
+| Crystal diameter | 100-300 mm | ±1 mm |
+| Dash neck diameter | ~3 mm | ±0.5 mm |
+| Pull rod straightness | — | <0.05 mm over 1200 mm |
+
 ---
 
 *Part of the [Bootciv Tech Tree](../index.md) • [Silicon](./index.md) • [All Domains](../index.md)*

@@ -1,17 +1,20 @@
 # Metal Forming
 
 > **Node ID**: machine-tools.forming
-> **Domain**: Machine Tools Bootstrap
+> **Domain**: [Machine Tools Bootstrap](./index.md)
 > **Dependencies**: [`animals.animal-materials`](../animals/animal-materials.md), [`energy.fuels`](../energy/fuels.md), [`foundations.fire`](../foundations/fire.md), [`metals.iron-steel`](../metals/iron-steel.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 5-15
 > **Outputs**: formed_metal_parts, bar_stock, sheet_metal, wire, plate, rod
+> **Critical**: Yes — produces the bar stock, sheet, and wire that feed every downstream process
 
-### Overview
+## Overview
 
 Metal forming reshapes solid metal through plastic deformation — applying force at controlled temperatures to change cross-section, bend, or elongate stock without removing material. Forming retains nearly 100% of the workpiece mass and produces the bar stock, sheet, wire, and shaped blanks that feed every downstream process: machine tools, construction, electrical wiring, and mechanisms.
 
 The critical variables are **temperature** (hot vs cold working), **[force](../glossary/force.md)** (hammer, press, or roll), and **[reduction ratio](../glossary/reduction-ratio.md)** (how much cross-section changes per pass). Metals deform more easily when hot — yield strength drops by 60-80% above recrystallization temperature.
+
+For the metallurgy of producing iron and steel stock, see [Iron & Steel](../metals/iron-steel.md). For the machine tools that use these formed products, see [Iterative Bootstrap](./iterative-bootstrap.md).
 
 ### Forging Temperatures by Metal
 
@@ -28,7 +31,7 @@ Every metal has a forging range — hot enough to be plastic, cool enough to avo
 
 Below these ranges, metal work-hardens rapidly and may crack. Above them, the metal burns (grain boundaries oxidize, producing a crumbly, ruined forging that cannot be salvaged).
 
-### Forge Work
+## Forge Work
 
 **[Open-die forging](../glossary/open-die-forging.md)** (hand forging): Smith heats stock in a charcoal forge, positions on anvil, strikes with hammers or sledges. Shape controlled by hammer placement, stock rotation, and tooling (swages, fullers, flatters).
 - **Drawing out**: Hammer along the length to reduce cross-section and elongate. Rotate 90° every few blows for square section.
@@ -70,11 +73,23 @@ Rolling reduces cross-section of heated metal by passing it between counter-rota
 3. Reheat every 4–6 passes. Anneal at 500–700°C when reduction exceeds 40–50% from last anneal.
 4. Target: copper sheet to 0.5 mm (hand mill) or 0.1 mm (powered mill).
 
-### Wire Drawing
+## Wire Drawing
 
 Wire drawing pulls metal rod through progressively smaller dies, reducing diameter and increasing length. Unlike rolling, wire drawing is done cold.
 
 **[Draw plate](../glossary/draw-plate.md)** (the bootstrap tool): Hardened high-carbon steel (0.8–1.0% C) plate, 10–25 mm thick, with tapered holes graduating in size (e.g., 8.0 mm down to 1.0 mm in 0.5 mm steps). Each hole: ~30° included angle entrance, short straight bearing section (~1× diameter), back-relief.
+
+**Construction steps for a draw plate**:
+1. Start with a flat plate of high-carbon steel (0.8-1.0% C), 15 mm thick × 100 mm × 200 mm. Mark hole positions in two rows, spaced 15 mm apart, with diameters from 8.0 mm down to 1.0 mm in 0.5 mm steps.
+2. Drill each hole undersized by 0.3 mm. Ream to final diameter tolerance ±0.02 mm. Use a tapered reamer (30° included angle) to form the entrance bell on one side, and a straight reamer for the bearing section (~1× diameter length) through the plate.
+3. Harden the plate: heat to 780-820°C, quench in oil or brine. Temper at 200-250°C to 58-62 HRC.
+4. Polish each die hole with progressively finer abrasive paper (180, 320, 600 grit) wrapped on a tapered mandrel, then finish with 1200 grit paste. The bearing surface must be mirror-smooth to prevent galling.
+
+**Calibration**: Pass a precision ground steel pin (known diameter, ±0.01 mm) through each die hole. The pin should pass through with light finger pressure — if it requires force, the die is undersized; if it falls through freely, the die is oversized. Measure the actual die diameter with a pin gauge set.
+
+**Expected performance**: Reduction per pass: 15-25% area reduction. Wire diameter tolerance: ±0.05 mm per die. Die life: 50-200 passes before the hole enlarges beyond tolerance (softer metals wear the die faster). Pull force: 5-30 kN depending on wire diameter and material.
+
+**Materials specifications**: High-carbon steel plate (0.8-1.0% C, 15 mm × 100 mm × 200 mm), tapered reamer (30° included angle), straight reamer set (1.0-8.0 mm in 0.5 mm steps), oil for quenching, abrasive paste (600-1200 grit) for polishing.
 
 **Procedure**:
 1. **Point the rod**: File one end to a taper that fits through the first die.
@@ -107,15 +122,15 @@ Cold working accumulates strain, increasing hardness and reducing ductility. Ann
 | Wrought iron | 700–900°C | 30–60 min | Air cool |
 | Steel (low carbon) | 700–900°C | 30–60 min | Furnace cool (slow) |
 
-### Safety Concerns
+## Safety Concerns
 
-- **Flying sparks and scale**: Forge work produces hot metal fragments. Leather apron, safety glasses, and face shield for bloom consolidation. Keep fire extinguishing sand nearby.
+- **Flying sparks and scale**: Forge work produces hot metal fragments. Leather apron, safety glasses (ANSI Z87.1 rated), and face shield for bloom consolidation. Keep fire extinguishing sand nearby.
 - **Burns**: Metal at forging temperature (700–1200°C) causes instant deep burns on contact. Use properly fitting tongs — if stock slips from tongs, it flies. Test tongs by clamping cold stock and shaking hard before using on hot work.
-- **Pinch points**: Rolling mills and draw benches produce crushing forces. Never place hands between rolls or near draw chain.
+- **Pinch points**: Rolling mills and draw benches produce crushing forces (5-150 kN). Never place hands between rolls or near draw chain.
 - **Repetitive strain**: Hammer forging limits productive hours to 4–6/day. Power hammers reduce this.
-- **Carbon monoxide**: Charcoal and coal forges produce CO in enclosed spaces. Ventilate smithies — work outdoors or with open doors and roof vents.
+- **Carbon monoxide**: Charcoal and coal forges produce CO (lethal at 0.1% concentration in air for 1 hour) in enclosed spaces. Ventilate smithies — work outdoors or with open doors and roof vents.
 
-### Press Brake Forming
+## Press Brake Forming
 
 **[Tonnage calculation](../glossary/tonnage-calculation.md)** for V-die bending: P = 650 × S² × L / V, where P = bending force (kN), S = sheet thickness (mm), L = bend length (mm), V = V-die opening width (mm). For example, bending 3 mm mild steel sheet 1000 mm long in a 24 mm V-die requires P = 650 × 9 × 1000 / 24 = 243.75 kN (~25 tonnes). The V-die opening is selected as V = 6-12 × S for mild steel; wider openings reduce tonnage but increase the inside bend radius.
 
@@ -188,11 +203,11 @@ Cold working accumulates strain, increasing hardness and reducing ductility. Ann
 
 **Electrohydraulic forming**: Similar to explosive forming but uses an electric arc discharge between two submerged electrodes instead of chemical explosive. The arc vaporizes water, creating a shock wave that forms the blank into the die. Energy input is controlled by capacitor voltage (5-20 kV) and electrode gap (10-50 mm), offering better repeatability than explosive charges. Energy range: 10-200 kJ per discharge. Suitable for medium-sized parts (up to 1 m diameter) in a workshop environment where explosive storage is impractical. The discharge chamber must be robust (forged steel or thick-walled cast iron) to withstand repeated shock loading without fatigue cracking.
 
-### Forming Process Selection Guide
+## Forming Process Selection Guide
 
 The choice of forming method depends on production volume, part geometry, material, and available equipment. Forging produces the strongest parts with favorable grain flow. Rolling is fastest for uniform cross-sections in bar, rod, and sheet. Deep drawing suits cup-shaped parts in high volume. Spinning wins for low-volume axisymmetric shapes where die cost must be minimal. Extrusion creates complex profiles impossible by rolling. Stamping with progressive dies is the most productive method for flat or shallow-formed parts at volumes above 10,000 pieces, but demands the highest tooling investment.
 
-### Rubber Pad Forming (Guerin Process)
+## Rubber Pad Forming (Guerin Process)
 
 **Process**: A thick rubber pad (150-250 mm, typically natural rubber or polyurethane of Shore A 60-80 hardness) sits in a steel container on the press bed. Sheet metal blank is placed over a single male die (form block). The press ram descends, pressing the rubber pad against the blank and form block. The rubber flows around the die, applying uniform hydrostatic pressure that forces the sheet into conformity with the die contour. Forming pressure: 7-14 MPa depending on material thickness and complexity.
 
@@ -202,12 +217,14 @@ The choice of forming method depends on production volume, part geometry, materi
 
 **Typical applications**: Low-volume production of complex shallow shapes: aircraft panel segments, lighting reflectors, decorative architectural metal, prototype enclosures. Production quantity range: 10-1,000 pieces where dedicated tooling cannot be justified.
 
-### Cross-References
+## Cross-References
 
 - [Iron & Steel](../metals/iron-steel.md) — bloom smelting, carburization, heat treatment
 - [Iterative Bootstrap](./iterative-bootstrap.md) — building the rolling mill and draw bench from castings
 - [Bearings & Abrasives](./bearings-abrasives.md) — grinding and finishing formed parts
 - [Electricity](../energy/electricity.md) — drawn copper wire for generators and motors
+- [Machining](./machining.md) — finishing operations for precision surfaces on formed parts
+- [Lubricants](../chemistry/lubricants.md) — forming lubricants and coolants
 
 ### Limitations
 

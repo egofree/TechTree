@@ -227,18 +227,209 @@ What to include:
 
 ---
 
+## Format Variants
+
+The 11 mandatory sections define the universal structure. But not every capability is a furnace process. The thermostat article (1,460 lines, 22 types across 4 tiers) revealed that different subject matter needs different internal organization. The format variant you choose determines how you populate the mandatory sections, especially Process Description (Section 4).
+
+Choose the variant that matches your subject. When a capability spans multiple variants, pick the dominant one and borrow elements from others as needed.
+
+### 1. Physical-Process (Workshop Manual)
+
+The default variant. Use for any capability where the reader builds, operates, or maintains a physical process or device.
+
+**Characteristics**: Construction steps with dimensions and tolerances, calibration procedures, expected performance numbers, per-method comparison tables.
+
+**Process Description structure**: Group by method or variant. Each method gets its own subsection with:
+- Principle (how it works, with governing equations where relevant)
+- Prerequisites (linked to their capability docs)
+- Materials (linked to their capability docs, with dimensions and quantities)
+- Construction (numbered steps, imperative mood)
+- Calibration or testing procedure
+- Expected performance (accuracy, throughput, yield, with units)
+- Applications (when to use this method vs. others)
+- Strengths
+- Weaknesses
+
+**Examples**: [`metals/iron-steel.md`](../metals/iron-steel.md), [`glass/advanced.md`](../glass/advanced.md), [`measurement/thermostat.md`](../measurement/thermostat.md)
+
+**When in doubt, use this variant.** It is the most general format and the one the existing template was designed around.
+
+### 2. Conceptual/Organizational
+
+Use for capabilities that are frameworks, decision criteria, or organizational systems, not physical construction processes.
+
+**Characteristics**: Decision trees, comparison matrices, implementation criteria, organizational patterns. No dimensions or tolerances.
+
+**Process Description structure**: Group by framework element or decision point. Each element gets:
+- Principle (what it is and why it matters)
+- Prerequisites (linked, as with Physical-Process)
+- Implementation steps (what to do, not what to build)
+- Decision criteria (how to choose between alternatives)
+- Expected outcomes
+- Strengths
+- Weaknesses
+
+**Examples**: [`economics-organization/governance.md`](../economics-organization/governance.md), [`knowledge/education.md`](../knowledge/education.md)
+
+**Key difference from Physical-Process**: "Construction" becomes "Implementation." No dimensions, no tolerances. Focus on criteria, trade-offs, and decision support tables.
+
+### 3. Biological/Agricultural
+
+Use for capabilities involving living organisms, cultivation, or species-specific processes.
+
+**Characteristics**: Species-specific data tables, seasonal timing, yield data, climate adaptation notes, propagation procedures.
+
+**Process Description structure**: Group by species or cultivation method. Each entry gets:
+- Principle (the biological mechanism)
+- Prerequisites (linked to capability docs for tools, infrastructure)
+- Materials (linked, with quantities per unit area or per animal)
+- Cultivation or rearing procedure (seasonal calendar, step-by-step)
+- Expected yield (with units, ranges, and conditions)
+- Applications (products and uses)
+- Strengths
+- Weaknesses
+
+**Examples**: [`animals/beekeeping.md`](../animals/beekeeping.md), [`agriculture/crop-rotation.md`](../agriculture/crop-rotation.md)
+
+**Key difference from Physical-Process**: Time scales are weeks to years, not hours. Weather, season, and climate are first-class parameters. Yield data replaces throughput data.
+
+### 4. Informational/Knowledge
+
+Use for capabilities that reproduce, preserve, or transmit information rather than produce physical goods.
+
+**Characteristics**: Reproduction procedures (how to copy), material requirements for the medium, preservation methods, quality metrics for the output.
+
+**Process Description structure**: Group by method or medium. Each entry gets:
+- Principle (how the reproduction or transmission works)
+- Prerequisites (linked to capability docs)
+- Materials (linked, the physical medium and tools)
+- Procedure (step-by-step, imperative mood)
+- Expected output quality (legibility, durability, error rate, with metrics)
+- Applications (what this method is good for)
+- Strengths
+- Weaknesses
+
+**Examples**: [`knowledge/printing.md`](../knowledge/printing.md), [`knowledge/writing.md`](../knowledge/writing.md)
+
+**Key difference from Physical-Process**: The product is information on a medium. Quality metrics emphasize accuracy of reproduction, durability of the record, and speed of transmission rather than dimensional tolerances.
+
+---
+
+## Per-Subsection Elements
+
+When Process Description (Section 4) contains multiple methods, types, or variants organized as subsections, each subsection MUST include the following elements. The thermostat article demonstrated this pattern across 22 types and it produced consistently useful, scannable content.
+
+### Mandatory per subsection
+
+| Element | Purpose | Present in thermostat as |
+|---------|---------|--------------------------|
+| **Principle** | How this method works, with governing equation or mechanism | Each type opens with "Principle:" and the physics |
+| **Prerequisites** | What you need before starting (linked) | Bullet list with `[name](../path/to/doc.md)` links |
+| **Materials** | Physical inputs with quantities (linked) | Bullet list with linked material names and specs |
+| **Procedure** | Step-by-step instructions (Construction, Cultivation, Implementation, or Reproduction) | Numbered steps, imperative mood |
+| **Calibration / Verification** | How to test that it works correctly | Numbered steps with reference instruments |
+| **Expected performance** | Quantitative output specs (accuracy, yield, throughput) | "Expected accuracy:" paragraph with ranges and units |
+| **Applications** | When to use this method and what it is good for | "Applications:" paragraph |
+| **Strengths** | Bullet list of advantages | "Strengths:" bullet list |
+| **Weaknesses** | Bullet list of limitations | "Weaknesses:" bullet list |
+
+**Strengths and Weaknesses are mandatory.** Every subsection must list them. This is the single biggest improvement the thermostat article makes over the original template. Without Strengths and Weaknesses, the reader cannot make informed trade-off decisions between methods. A subsection that only lists advantages is a sales pitch, not a workshop manual.
+
+---
+
+## Writing Rules
+
+Three rules extracted from the thermostat article. These apply to all format variants.
+
+### Self-Containment Rule
+
+Every subsection must be fully self-contained. A reader who jumps directly to subsection 12 (Pneumatic Thermostat) must understand it without reading subsections 1-11.
+
+This means:
+- Do NOT write "same prerequisites as Type 3 above." List the prerequisites again.
+- Do NOT write "the construction method is similar to the rod-and-tube." Describe the construction fully.
+- Do NOT write "see the previous section for calibration." Give the calibration procedure.
+
+Repetition between subsections is acceptable. Linking to shared prerequisite capability docs is expected. But each subsection must stand alone as a complete reference for that method.
+
+**Why**: Readers rarely read linearly. They jump to the method they need. If that method references material three pages up, the article has failed its purpose as a workshop manual.
+
+### Linking Rule
+
+Every prerequisite and every material entry must be a working relative Markdown link to its capability doc.
+
+**Correct**:
+```
+- [Iron rod](../metals/iron-steel.md) (10-15 mm diameter, 400-600 mm length)
+- [Glassblowing capability](../glass/glassblowing.md)
+```
+
+**Wrong**:
+```
+- Iron rod (10-15 mm diameter, 400-600 mm length)
+- Glassblowing capability
+```
+
+Unlinked names are dead ends. The reader cannot navigate from your article to the capability they need. This defeats the purpose of a tech tree.
+
+The linking rule applies to Prerequisites (Section 2), BOM (Section 3), and all per-subsection prerequisite/material lists. It does NOT require linking every casual mention of a technology in prose, though that is good practice when feasible.
+
+### Citation Rule
+
+Specific quantitative claims must cite their source or state the basis for the number inline.
+
+**What counts as a "specific claim"**:
+- Exact temperatures, pressures, dimensions, voltages, concentrations
+- Performance numbers (accuracy, yield, throughput, lifetime)
+- Safety thresholds (IDLH concentrations, exposure limits, pressure ratings)
+- Material properties (thermal expansion coefficients, resistivity, melting points)
+
+**How to cite**:
+- For well-known physical constants: state the value and the source principle. "Mercury boiling point: 357°C at 1 atm." No further citation needed.
+- For empirical process data: state the range and the source. "Charcoal yield by weight: 20-35% for pit method (tested values from [Charcoal](../energy/charcoal.md))."
+- For safety thresholds: state the standard or authority. "Mercury IDLH: 10 mg/m³ (NIOSH)." "CO lethal at 0.1% in air for 1 hour."
+
+**What does NOT need citation**: General descriptions, qualitative observations, procedural instructions ("heat until the metal glows cherry red"), and common knowledge within the domain.
+
+---
+
+## Scaled Detail Guidance
+
+Not every capability needs 1,460 lines. The thermostat article covers 22 distinct types across a 55-year technology span, which justifies its length. A capability with a single method and no variants will be much shorter.
+
+### Core (mandatory for all articles)
+
+The 11 mandatory sections plus the per-subsection elements defined above. For a single-method capability with no variants, this typically produces 200-400 lines.
+
+### Scaled detail (depth proportional to complexity)
+
+Add scaled detail when the capability has any of:
+
+| Complexity indicator | What to add | Example |
+|----------------------|-------------|---------|
+| Multiple methods or variants | Full per-subsection treatment for each method (Principle through Weaknesses) | Thermostat: 22 types, each fully documented |
+| Wide operating range | Parameter tables split by range or scale | Thermostat: selection guide table covering -200 to 3000°C |
+| Tiered technology progression | Organize methods into tiers (primitive to advanced), with a progression narrative | Thermostat: 4 tiers from pre-industrial to semiconductor |
+| Integration with many other capabilities | Integration points table or "Key Deliverables by Phase" section | Thermostat: integration points across 7 bootstrap phases |
+| Safety hazards varying by method | Per-method safety warnings (in addition to the Safety section) | Thermostat: mercury safety warnings embedded in Types 5 and 6 |
+
+**Do NOT pad to reach a line count.** A 250-line article covering one method thoroughly is better than a 500-line article that repeats itself. The 200-line minimum exists to prevent stubs, not to encourage filler.
+
+---
+
 ## Exemplar Files
 
 These existing files demonstrate the workshop-manual standard at or above 200 lines:
 
 | File | Lines | Strengths |
 |------|-------|-----------|
+| [Thermostat](../measurement/thermostat.md) | 1460 | Gold standard. 22 types across 4 tiers, every prerequisite/material linked, per-type Strengths/Weaknesses, inline citations for all numerical claims, self-contained subsections, selection guide table |
 | [MG-Si Production](../silicon/mg-si-production.md) | 207 | Reaction chemistry, energy balance, electrode consumption rates, off-gas handling |
 | [Charcoal](../energy/charcoal.md) | 202 | Four methods with comparison data, byproduct recovery, scale estimates table |
 | [Adhesives & Coatings](../chemistry/adhesives-coatings.md) | 262 | Decision-support selection tables, chemical resistance matrix, cure parameters |
 | [Machining](../machine-tools/machining.md) | 228 | Feeds & speeds table, tolerance summary by operation, troubleshooting table |
 
-Study these files before writing. They show the target density: specific numbers, practical procedures, safety with severity data, and decision-support tables.
+Study the thermostat article first. It demonstrates every rule and pattern described in this template. The other files show the target density for simpler capabilities: specific numbers, practical procedures, safety with severity data, and decision-support tables.
 
 ---
 

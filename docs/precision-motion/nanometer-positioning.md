@@ -1,13 +1,35 @@
 # Nanometer Positioning
 
 > **Node ID**: precision-motion.nanometer-positioning
-> **Domain**: Precision Motion Control
+> **Domain**: [Precision Motion Control](./index.md)
 > **Timeline**: Years 35-55
 > **Outputs**: nano_positioning_stages, air_bearing_slides, linear_motor_drives
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Dependencies**: [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md), [Precision Encoders & Feedback](./precision-encoders.md), [Vibration Isolation](./vibration-isolation.md)
+> **Enables**: [Wafer Stages & Scanner Systems](./wafer-stages.md), [Advanced Lithography](../vlsi-scaling/advanced-lithography.md)
 
 The [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md) domain achieves ±0.5 μm positioning on ultra-precision CNC machines. Semiconductor lithography demands three orders of magnitude better: wafer stages must position to ±5 nm over 300 mm travel, reticle stages to ±2 nm, and inspection stages to ±1 nm. This document covers the actuation technologies — piezoelectric stages, air bearings, and linear motors — that make nanometer positioning possible. For the measurement systems providing position feedback, see [Precision Encoders](./precision-encoders.md); for the vibration environment that nanometer positioning requires, see [Vibration Isolation](./vibration-isolation.md).
+
+## Prerequisites
+
+- [EDM, CNC & Precision Grinding](../machine-tools/edm-cnc.md): Precision machining of stage components to sub-micron tolerance, surface grinding of guide rails
+- [Precision Encoders & Feedback](./precision-encoders.md): Position measurement systems (optical encoders, laser interferometers) for closed-loop control
+- [Vibration Isolation](./vibration-isolation.md): Passive or active isolation systems providing VC-D or better floor environment
+- [Electricity Generation & Distribution](../energy/electricity.md): Stable power supply for motor drives, amplifiers, and control electronics
+- [Precision Metrology](../measurement/precision-metrology.md): Calibration standards and interferometric measurement for stage qualification
+
+## Bill of Materials
+
+| Component | Specification | Source |
+|-----------|--------------|--------|
+| PZT ceramic discs | PZT-5A or PZT-5H, 0.1-1 mm thick, d33 > 400 pC/N | [Ceramics](../ceramics/index.md) |
+| Flexure guide block | Aluminum 6061-T6 or Invar-36, machined <5 μm tolerance | [Machine Tools](../machine-tools/edm-cnc.md) |
+| Air bearing pads | 316L stainless steel or carbon-graphite porous, 50-100 mm diameter | [Metals](../metals/index.md) |
+| Linear motor coils | Copper windings, AWG 18-24 magnet wire, class H insulation | [Electronics](../electronics/index.md) |
+| Permanent magnets | NdFeB N42-N52, Br > 1.3 T, operating temp <80°C | [Magnetic Materials](../metals/index.md) |
+| Guide surface (granite) | Black granite, flatness <0.1 μm/300 mm, Ra <0.05 μm | [Stone Processing](../construction/index.md) |
+| Invar metrology frame | Fe-36Ni, CTE 0.6-1.2 × 10⁻⁶/°C, stress-relieved | [Metals](../metals/index.md) |
+| Granite machine base | 500-5,000 kg, flatness <1 μm/m, damping ratio >2% | [Stone Processing](../construction/index.md) |
+| HeNe laser (interferometer) | 632.8 nm, frequency stability ±2 × 10⁻⁹, power >0.5 mW | [Optics](../optics/index.md) |
 
 ## Piezoelectric Positioning Stages
 

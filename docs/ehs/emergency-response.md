@@ -11,6 +11,28 @@
 
 Semiconductor manufacturing presents unique emergency scenarios: pyrophoric gas leaks that ignite spontaneously, toxic hydride gas releases at concentrations measured in parts per billion, hydrofluoric acid exposures that cause systemic poisoning through skin absorption, and mixed-chemical fires producing toxic combustion products. Standard industrial emergency response is insufficient — a firefighter applying water to a silane fire could spread the burning gas; a first responder entering an arsine release without SCBA becomes a victim within minutes. This document defines emergency response procedures specific to semiconductor chemical hazards.
 
+## Decision Framework: Emergency Response Level
+
+| Trigger | Response Level | Actions | Who |
+|---------|---------------|---------|-----|
+| Gas alarm low (50% TLV) | Alert | Investigate, verify reading, prepare for escalation | Nearest qualified person |
+| Gas alarm high (TLV) | Evacuation | Evacuate area, activate shutoff, call ERT | All area personnel + ERT |
+| Gas alarm critical (2× TLV) | Full evacuation | Building alarm, evacuate all, fire dept notification | All building occupants |
+| Acid spill <1 L, known chemical | Containment | Don PPE, absorb, neutralize, dispose | Trained operator |
+| Acid spill >1 L or unknown | ERT activation | Evacuate immediate area, ERT response with spill kit | ERT |
+| HF spill (any size) | ERT + medical | HF PPE, CaCO₃ absorbent, medical evaluation mandatory | ERT + medical |
+| Fire or explosion | Full evacuation + fire dept | Pull fire alarm, evacuate, call emergency services | All personnel |
+| Multiple casualties | Mass casualty protocol | Triage, mutual aid activation, hospital notification | ERT + EMS + management |
+
+### Implementation Steps
+
+1. **Establish emergency response team**: Minimum 6 trained members on duty during all operating hours. All trained in SCBA, chemical spill response, and first aid. Conduct quarterly drills.
+2. **Install emergency equipment**: Eyewash stations and deluge showers within 10 seconds travel of every chemical hazard. Spill kits at every chemical storage and dispensing point. SCBA pre-positioned near gas cabinet areas.
+3. **Develop gas-specific response cards**: For each gas used in the facility, document properties, hazards, PPE, containment, and first aid. Post at gas cabinet locations.
+4. **Configure alarm system**: Three-tier (alert, evacuation, shelter-in-place) with distinct tones and strobes. Gas detection hardwired to alarm panel.
+5. **Train all personnel**: Annual emergency response training for all fab workers. Quarterly drills (evacuation, spill, tabletop). Document attendance.
+6. **Establish external contacts**: Pre-arrange hazmat response with local fire department. Notify hospital of potential chemical exposures (HF, arsine) so they stock antidotes.
+
 ## Emergency Equipment Placement
 
 ### Eyewash Stations

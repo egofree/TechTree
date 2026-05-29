@@ -73,6 +73,16 @@ Same process as standard diode but with heavily doped p and n regions to achieve
 
 Metal-semiconductor junction (no p-type region). Aluminum, platinum, or titanium deposited directly on n-type silicon. Forward voltage drop: 0.2-0.4V (vs. 0.6-0.7V for silicon pn junction). Faster switching (no minority carrier storage). Used in high-frequency rectification and power conversion. Reverse leakage higher than pn diodes: 1-100 μA at rated voltage (increases exponentially with temperature).
 
+**Strengths** (diode family):
+- PN junction diodes are the simplest semiconductor device (single diffusion step after oxidation) — process complexity is minimal, enabling early bootstrap production with a single furnace and basic photolithography
+- Zener diodes provide voltage reference and regulation from a two-terminal device with no external bias circuitry — available in 24 standard voltages from 3.3V to 47V
+- Schottky diodes have 50-70% lower forward voltage drop (0.2-0.4V) than PN diodes, reducing rectifier power loss proportionally — critical for high-efficiency power converters
+
+**Weaknesses** (diode family):
+- PN junction diodes have relatively slow reverse recovery (2-10 μs for rectifier types) due to stored minority carrier charge — this limits usable switching frequency to <100 kHz for standard diodes
+- Zener diodes below 5V have soft knee characteristics and high temperature coefficient — voltage regulation degrades significantly with load current and temperature variation
+- Schottky diodes have high reverse leakage current (1-100 μA) that doubles every 10°C — at elevated temperatures, leakage power dissipation can exceed forward conduction savings
+
 ### 4.2 Bipolar Junction Transistor (BJT)
 
 #### NPN Transistor Construction

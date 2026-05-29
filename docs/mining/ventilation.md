@@ -2,10 +2,11 @@
 
 > **Node ID**: mining.ventilation
 > **Domain**: [Mining](./index.md)
-> **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), `mining`
+> **Dependencies**: [`energy.steam-power`](../energy/steam-power.md), [`mining`](./index.md)
 > **Enables**: None (leaf capability)
 > **Timeline**: Years 10-18
 > **Outputs**: breathable_air, methane_control, dust_suppression
+> **Critical**: No
 
 ### Why Ventilation Matters
 
@@ -199,6 +200,4 @@ The wet bulb globe temperature (WBGT) index combines dry-bulb temperature, natur
 
 ---
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Mining](./index.md) · [All Domains](../index.md)*
-
-[← Back to Mining](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Mining](./index.md) • [All Domains](../index.md)*

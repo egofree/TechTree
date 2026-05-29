@@ -1,11 +1,12 @@
 # Alkali Production
 
 > **Node ID**: chemistry.alkalis
-> **Domain**: Chemistry
-> **Dependencies**: `mining`
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`mining.processing`](../mining/processing.md)
 > **Enables**: [`chemistry.explosives`](explosives.md), [`chemistry.pulp-chemicals`](pulp-chemicals.md), [`chemistry.soap`](soap.md), [`metals.aluminum`](../metals/aluminum.md), [`textiles.finishing`](../textiles/finishing.md)
 > **Timeline**: Years 20-35
 > **Outputs**: soda_ash, caustic_soda, sodium_carbonate
+> **Critical**: Yes — soda ash (Na₂CO₃) and caustic soda (NaOH) are essential for glass manufacturing, soap production, paper pulping, and aluminum extraction. The Solvay process is one of the foundational chemical industries.
 
 ### Alkali Production
 
@@ -78,6 +79,10 @@ The Solvay (ammonia-soda) process produces sodium carbonate (Na₂CO₃, soda as
 - NH₃ makeup: ~1-2 kg
 - Energy: ~7-10 GJ/tonne Na₂CO₃
 
+**Strengths (Solvay detailed)**: Near-complete ammonia recycle (only 1-2 kg makeup per tonne); CO₂ also recycled from calciner and lime kiln; well-established continuous process operable by medium-skilled workforce; 100-3000 tonnes/day throughput.
+
+**Weaknesses (Solvay detailed)**: CaCl₂ waste (10 t per t Na₂CO₃) with limited market; NaCl conversion limited to 72-75% — remainder recycled but increases brine handling; carbonation tower temperature must be precisely controlled (15-20°C optimal); requires parallel lime kiln and ammonia still operations.
+
 ### Leblanc Process — Detailed Steps
 
 The Leblanc process was the first industrial method for producing soda ash from salt (patented 1791). It is more polluting and less efficient than Solvay but requires no ammonia, making it potentially relevant for bootstrapping:
@@ -120,6 +125,10 @@ Before synthetic alkalis, potash (K₂CO₃) was the primary alkali source for g
 **Lime mortar setting**: Ca(OH)₂ + CO₂ (from air) → CaCO₃ + H₂O. Sets by carbonation — absorbs CO₂ from atmosphere over weeks to months. Hydraulic lime (containing clay impurities) also sets by hydration of calcium silicates — sets underwater. Roman concrete (opus caecementicium) used hydraulic lime + volcanic ash (pozzolana) — 2000-year durability.
 
 **Lime kiln designs**: (1) Flare kiln (batch): stone arch with fuel underneath, limestone stacked above. Simple, labor-intensive. (2) Shaft kiln (continuous): feed at top, discharge at bottom, fuel injected at middle. Most common for moderate scale. (3) Rotary kiln: inclined rotating tube 30-60 m long. Fuel and limestone enter same end, product exits the other. Best quality and throughput.
+
+**Strengths (lime cycle)**: Limestone is abundant worldwide; shaft kiln is simple continuous equipment; CaCO₃ → CaO → Ca(OH)₂ → CaCO₃ loop is closable; lime has dozens of uses (mortar, causticization, water treatment, flue gas desulfurization, steel flux); 56 kg CaO per 100 kg CaCO₃ with 90-95% practical yield.
+
+**Weaknesses (lime cycle)**: Calcination is strongly endothermic (+178 kJ/mol) — fuel-intensive; quicklime is hazardous (violent reaction with water, caustic burns); slaked lime has limited solubility (1.73 g/L at 20°C); kiln thermal efficiency only 50-70%; CO₂ emissions are intrinsic to the chemistry.
 
 ### Ammonia Sources for Solvay
 
@@ -228,3 +237,7 @@ The lime cycle (CaCO₃ → CaO → Ca(OH)₂ → CaCO₃) is central to alkali 
 - **[Solvay Process](solvay.md)**: Detailed sodium carbonate production
 - **[Acids](acids.md)**: Complementary acid-base chemistry
 - **[Soap](soap.md)**: NaOH in saponification
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

@@ -232,3 +232,6 @@ Replace continuous derivatives with discrete differences: ∂T/∂t ≈ (Tᵢⁿ
 
 - **Core mathematics** (`mathematics.core-mathematics`): Algebra, trigonometry, and coordinate geometry are prerequisites for calculus and all subsequent applied topics
 - **Enables**: Process modeling (chemistry), circuit design (electronics), structural analysis (machine tools), quality control (manufacturing), and all numerical computation (computing)
+
+---
+*Part of the [Bootciv Tech Tree](../index.md) • [Mathematics & Formal Sciences](./index.md) • [All Domains](../index.md)*

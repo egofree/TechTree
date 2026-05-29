@@ -1,11 +1,12 @@
 # Explosives
 
 > **Node ID**: chemistry.explosives
-> **Domain**: Chemistry
-> **Dependencies**: [`chemistry.acids`](acids.md), [`chemistry.alkalis`](alkalis.md), [`energy.fuels.charcoal`](../energy/charcoal.md)
-> **Enables**: `defense`, [`mining.extraction.black-powder`](../mining/black-powder.md)
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.acids`](acids.md), [`chemistry.alkalis`](alkalis.md), [`energy.charcoal`](../energy/charcoal.md)
+> **Enables**: [`mining.black-powder`](../mining/black-powder.md), [`metals.finishing`](../metals/finishing.md)
 > **Timeline**: Years 5-30+
 > **Outputs**: black_powder, nitrocellulose, dynamite, smokeless_powder
+> **Critical**: No — explosives accelerate mining and construction but are not prerequisites for core capabilities
 
 ### Black Powder
 
@@ -216,3 +217,7 @@ Toluene nitrates in three stages, each requiring progressively stronger mixed ac
 - **[Wood Gasification](wood-gasification.md)**: Charcoal production for black powder
 - **[Petrochemicals](petroleum-alternatives.md)**: Hydrocarbon feedstocks for modern explosives
 - **[Nitric Acid](acids.md)**: Ostwald process producing nitric acid for nitration
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

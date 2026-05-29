@@ -114,6 +114,26 @@ Rendering melts fat from animal tissues by heating. Two methods:
 3. **Duration**: 2-6 hours depending on batch size and temperature. Stir occasionally to prevent sticking.
 4. **Strain and cool**: Same as wet rendering step 4-6.
 
+**Strengths (Wet Rendering)**:
+- Wet rendering requires only a pot, water, and fire — achievable from Year 0 with ceramic or iron vessels
+- Water prevents scorching at 90-95°C simmer, producing cleaner fat than dry rendering
+- Cracklings (pressed solids) are high-protein food or animal feed — 60-70% protein by dry weight
+
+**Weaknesses (Wet Rendering)**:
+- Wet-rendered fat contains residual water (1-3%) that limits shelf life to 2-4 months unless clarified by reheating to 110-120°C
+- Emulsification risk if boiled vigorously — fat and water form a cloudy mixture that does not separate on cooling
+- Duration of 2-4 hours of simmering per batch requires constant attention and significant fuel
+
+**Strengths (Dry Rendering)**:
+- Dry rendering produces clearer fat with no emulsification risk and longer shelf life (6-12 months)
+- Higher rendering temperature (110-130°C) extracts fat more completely — yield 0.70-0.85 kg fat per kg raw beef suet
+- No water addition means no separate clarification step needed
+
+**Weaknesses (Dry Rendering)**:
+- Requires heavier pot (cast iron preferred) to distribute heat evenly without water as a temperature buffer
+- Higher temperature (110-130°C) increases fire risk and burn hazard compared to wet rendering's 90-95°C simmer
+- Fat can scorch if not stirred regularly — scorched fat has off-flavors and reduced shelf life
+
 ## Quantitative Parameters
 
 ### Pressing Parameters by Oilseed

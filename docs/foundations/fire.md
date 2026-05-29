@@ -1,9 +1,9 @@
 # Fire-Making
 
 > **Node ID**: foundations.fire
-> **Domain**: Foundations
+> **Domain**: [Foundations](./index.md)
 > **Dependencies**: None (root capability)
-> **Enables**: [`animals.beekeeping`](../animals/beekeeping.md), [`ceramics.pottery`](../ceramics/pottery.md), [`energy.fuels`](../energy/fuels.md), [`machine-tools.forming`](../machine-tools/forming.md), [`metals.copper-bronze`](../metals/copper-bronze.md), `plants`
+> **Enables**: [`animals.beekeeping`](../animals/beekeeping.md), [`ceramics.pottery`](../ceramics/pottery.md), [`energy.fuels`](../energy/fuels.md), [`machine-tools.forming`](../machine-tools/forming.md), [`metals.copper-bronze`](../metals/copper-bronze.md), [`plants`](../plants/index.md)
 > **Timeline**: Years 0-5
 > **Outputs**: fire
 

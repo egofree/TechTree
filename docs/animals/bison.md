@@ -118,84 +118,71 @@ Bison are ideally suited to grass-finishing — no grain is needed or desired fo
 | Vitamin B12 | 2.5-3.0 μg | 1.5-2.5 μg |
 | Zinc | 4.5-5.0 mg | 4.0-5.0 mg |
 
-**Cooking considerations**:
-- Low fat content means bison cooks faster than beef. Overcooking produces dry, tough meat.
-- Cook to medium-rare (internal temperature 57°C) for steaks and roasts. Ground bison to 71°C (same safety standard as ground beef).
-- Sear at high heat to develop crust, then finish at lower temperature. The lack of insulating fat makes careful temperature control essential.
+### Bison Physical Capabilities
 
-### Products Beyond Meat
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Jump height | 1.8 m vertical | From standing start |
+| Gallop speed | 55-65 km/h | Faster than horse over short distance |
+| Cold tolerance | -40°C | With woolly undercoat |
+| Metabolic efficiency vs cattle | 15-20% better in cold | 25-30% less winter feed per kg body weight |
+| Water requirement | 25-35 L/day | Vs 40-60 L/day for cattle in same conditions |
+| Manure production | 10-15 kg/day | "Buffalo chips" — historically used as fuel |
 
-**Hides**:
-- Bison hide is thick (8-12 mm on the back, 4-6 mm on the sides) and extremely durable. Used for heavy leather goods: belts, harnesses, saddles, heavy-duty bags. One adult bison hide yields 3-5 m² of leather.
-- Tanning bison hide is similar to cattle hide but requires longer processing due to thickness. Hair-on hides are used for rugs and wall hangings.
-- Robe (winter hide with thick woolly undercoat): historically a primary winter garment. The woolly undercoat provides exceptional insulation — a bison robe is warmer than any sheep wool blanket.
+## 6. Scaling Notes
 
-**Horn**:
-- Hollow horn sheath separates from the bony core after death. Keratin sheath is worked like cattle horn: heated in boiling water to soften, then pressed into shapes (spoons, cups, combs, powder flasks). Each animal yields two horns, 30-60 cm length.
-- Horn buttons, knife handles, and decorative items.
+A 20-cow bison herd on 40-80 hectares of native grassland produces 17-19 calves per year (85-95% calving rate). At 18-20 months, each calf dresses 225-240 kg — total annual meat production of 3,800-4,560 kg dressed carcass.
 
-**Bone**:
-- Heavy, dense bone. Useful for tools, bone meal fertilizer, and bone char for filtration. Large bones (femur, pelvis) are substantial raw material.
+**Minimum viable scale**: 5-6 animals is the minimum herd size for psychological well-being (solitary bison become stressed and aggressive).
 
-**Wool (shed undercoat)**:
-- Bison shed their winter undercoat each spring in large clumps. Collection is possible but labor-intensive — the shed wool is scattered across the pasture. Bison wool (down) is extremely fine (15-20 microns) and warm, but yield is low (0.5-1.0 kg per animal per year if collected). Mostly a curiosity — commercial collection is not practical at scale.
+**Fencing investment**: $8-15 per linear meter for 1.8 m steel post and woven wire construction. A 100-hectare perimeter (approximately 4 km) requires $32,000-60,000 amortized over 20-30 years.
 
-**Manure**:
-- "Buffalo chips": 10-15 kg/day per adult. Dry, fibrous, low-odor. Historically used as fuel on the treeless Great Plains — burns steadily with moderate heat output. Also valuable as fertilizer (comparable to cattle manure: 0.5-0.7% N, 0.3-0.5% P, 0.4-0.6% K fresh weight).
+**Revenue**: Approximately $800-1,200 per cow per year from calf sales at 18-20 months, with minimal input costs (no grain, no shelter, veterinary costs under $50 per animal per year).
 
-### Herd Management
+## 7. Troubleshooting
 
-**Social structure**:
-- Bison are herd animals with a strong social hierarchy. Maintain them in groups — solitary bison become stressed and aggressive. Minimum herd size: 5-6 animals for psychological well-being.
-- Cow herds are matriarchal — older cows lead group movement and establish grazing patterns.
-- Bulls are segregated outside of breeding season to prevent fighting. Bachelor groups of bulls can be maintained together if space is adequate.
+| Problem | Probable Cause | Solution |
+|---------|---------------|----------|
+| Bison testing/breaking fence | Inadequate height or construction | Upgrade to 2.0 m; steel pipe panels in high-traffic areas; barbed wire strand at top as deterrent |
+| Aggressive behavior during handling | Heat stress, solitary confinement | Work bison in groups (5+ minimum); work in cool weather (below 20°C); limit confined time to 30-60 minutes |
+| Weight loss in winter | Ice crusting preventing grazing | Provide supplemental hay; bison normally maintain on standing pasture |
+| Low calving rate | Nutritional deficiency, old cows | Assess body condition; cull cows over 20 years; ensure adequate summer pasture |
+| Parasite load | Overstocking, wet conditions | Fecal egg counts; deworm annually if needed; rotate pastures to break parasite cycle |
 
-**Predator management**:
-- Bison defend themselves and their calves against predators more effectively than cattle. Wolf and grizzly bear predation is limited primarily to calves and weak animals. A group of adult bison can deter most predators through defensive circling (calves in the center, adults facing outward).
-- In areas with large predators, predation losses are typically 2-5% of calves, compared to 5-15% for cattle under similar conditions.
-
-**Disease profile**:
-- Bison are resistant to many cattle diseases. They do not contract bovine respiratory disease complex (shipping fever) at the rate cattle do. They are not susceptible to malignant catarrhal fever (a disease cattle catch from sheep).
-- Bison can contract brucellosis (a bacterial disease causing abortion). This is a significant management issue in areas where bison range overlaps with cattle — testing and vaccination may be required by regulation.
-- Internal parasites: similar to cattle, but bison carry lower parasite loads on native range. Deworm annually if needed, based on fecal testing.
-
-### Cultural Significance
-
-The American bison holds deep cultural and ecological significance. Bison were the foundational resource for Plains indigenous cultures, providing food, shelter (hide tipis), clothing, tools (bone and horn), fuel (dried manure), and spiritual meaning. The near-extinction of the bison in the 19th century (from an estimated 30-60 million to fewer than 1,000) is one of the most dramatic population collapses of any large animal. Recovery to approximately 500,000 animals today represents one of the most successful conservation efforts in North America. For a bootstrapping civilization, bison represent the most natural and lowest-input large livestock option for grassland ecosystems — they evolved for exactly the conditions they are raised in.
-
-### Cross-Domain Links
-
-- **[domestication](./domestication.md)** — comparative livestock domestication timelines and species profiles
-- **[textiles/leather](../textiles/index.md)** — hide tanning and leather processing from bison hides
-- **[food-preservation](../food-processing/index.md)** — meat preservation methods for bison
-- **[agriculture](../agriculture/index.md)** — pasture management and rotational grazing for bison herds
-
-### Safety
+## 8. Safety
 
 **Working with bison is inherently dangerous.** They are not domesticated animals — they are managed wildlife. Even "tame" bison can react unpredictably.
 
 - **Never** enter a pen with mature bison on foot without a solid escape route. Bison kill more people in North America than any other large animal (including bears).
 - **Bull behavior during rut**: testosterone-driven bulls are extremely dangerous July-September. They charge without warning, attack vehicles, and can overturn small tractors. Do not enter bull pastures during rut on foot.
 - **Cow protection of calves**: bison cows defend calves aggressively. Maintain maximum distance during calving season.
-- **Vehicle safety**: use a truck or tractor when checking bison in open pasture. A bison can outrun and overturn an ATV. Stay in a vehicle if bison show signs of agitation (head-lowering, pawing, snorting, hunching the back).
+- **Vehicle safety**: use a truck or tractor when checking bison in open pasture. A bison can outrun and overturn an ATV. Stay in a vehicle if bison show agitation signs (head-lowering, pawing, snorting, hunching the back).
 - **Escape planning**: every handling area must have a designated safe zone (climb-over gate, elevated platform, or vehicle access). Practice emergency procedures before working bison.
-- **Response to charge**: if charged, do not run (bison are faster). Move laterally to get behind a solid barrier. If no barrier exists, lie flat — bison may lose interest or step over rather than trample. This is a last resort.
+- **Response to charge**: do not run (bison reach 55-65 km/h). Move laterally to get behind a solid barrier. If no barrier, lie flat — bison may lose interest or step over rather than trample. Last resort only.
 
+## 9. Quality Control
 
-### Processing and Products
+**Meat quality**: Cook bison to medium-rare (57°C internal) for steaks and roasts — the low fat content (2-3%) makes it cook faster than beef and overcooking produces dry, tough meat. Ground bison to 71°C. Carcass aging at 0-2°C for 10-14 days improves tenderness (shorter than beef's 21-28 days due to lower fat content).
 
-Bison carcasses require specialized handling due to the animal's size and the lean nature of the meat. A 400 kg live bison yields a 230-240 kg dressed carcass that must be aged at 0-2°C for 10-14 days for optimal tenderness (shorter than beef's 21-28 days due to lower fat content). Bison hide thickness (8-12 mm on the back) requires industrial-grade tanning equipment or extended liming (7-10 days vs 3-5 days for cattle) in traditional bark-tanning processes using 10-15% oak or chestnut tannin solution. Bison horn sheaths (30-60 cm length, 150-300 g each) are worked by soaking in boiling water at 100°C for 15-20 minutes to soften the keratin for pressing into spoons, cups, or powder flasks; each horn yields 2-4 finished items. Rendered bison tallow from kidney fat yields approximately 2-4 kg per adult animal with a melting point of 42-45°C — suitable for soap making (saponification value 195-200 mg KOH/g), candle production, and waterproofing leather.
+**Body condition scoring**: Assess ribs, spine, and hip bones. Working bison should carry moderate flesh — ribs felt but not visible. Winter weight loss of 10-15% is normal and expected on standing pasture.
 
-### Regional Adaptations
+**Handling stress**: Bison meat quality degrades with pre-slaughter stress (dark-cutting condition). Minimize handling time, work in cool weather, and process promptly after handling. Stress cortisol levels in bison rise 3-5× during extended confinement.
 
-Bison thrive across a wide range of North American ecosystems, from the shortgrass prairies of the Great Plains to the subtropical grasslands of the Southeast. In the northern Great Plains, bison withstand winter temperatures to -40°C using their massive heads as snowplows to access forage beneath 30-60 cm of snow crust. Their metabolic efficiency in cold conditions exceeds that of cattle by 15-20%, requiring 25-30% less feed per unit of body weight during winter months. In southern climates (Oklahoma, Texas, Georgia), bison adjust readily to heat but benefit from shade access above 32°C; shade reduces heat-stress-related feed intake reduction from 25% to under 10%. Bison stocked at 2-4 hectares per cow-calf pair on native tallgrass prairie in Kansas maintain body condition scores of 5-7 on a 9-point scale year-round without supplemental feed. On semi-arid shortgrass prairie in eastern Colorado (annual precipitation 30-40 cm), stocking rates drop to 6-10 hectares per pair, but bison still outperform cattle by 20-30% in calf-weaning weights per hectare due to their broader diet selection and lower water requirements (25-35 L/day vs 40-60 L/day for cattle in the same conditions).
+## 10. Variations and Alternatives
 
-### Historical Development
+**Cattle alternative**: Domestic cattle ([`cattle`](cattle.md)) are more manageable, reach slaughter weight faster with grain, and have established handling infrastructure. Bison trade ease of handling for lower input costs and superior grassland adaptation.
 
-Bison have never been fully domesticated in the manner of cattle — they remain managed wildlife. The first sustained bison ranching efforts began in the 1880s with fewer than 1,000 surviving animals. The American Bison Society (founded 1905) coordinated early conservation herds. Commercial bison meat production expanded from under 10,000 animals processed annually in 1980 to over 60,000 by 2020, with mature bull carcasses averaging 350-400 kg dressed weight. The USDA reports bison meat retail prices averaging $18-25 per kg in 2023, roughly 3-4 times the price of commodity beef. The total North American bison population now exceeds 500,000 across private ranches (approximately 400,000) and public conservation herds (approximately 100,000). For bootstrapping purposes, bison herds can be established from captured wild stock using drive corrals — the initial capture requires 5-8 km of temporary fencing funneling into a 0.5-hectare holding pen with 2.0 m steel pipe construction.
+**Regional adaptations**: In northern Great Plains, bison withstand -40°C and use heads as snowplows to access forage under 30-60 cm of snow. In southern climates (Oklahoma, Texas), bison adjust to heat but benefit from shade above 32°C. On semi-arid shortgrass prairie (30-40 cm annual precipitation), bison outperform cattle by 20-30% in calf weaning weights per hectare.
 
-Annual revenue per bison cow: approximately $800-1,200 from a 350-400 kg calf sold at 18-20 months, with minimal input costs (no grain, no shelter, veterinary costs under $50 per animal per year). Compare to beef cattle at $600-900 revenue per cow per year with 30-50% higher input costs. The 2.0 m fencing infrastructure costs $8-15 per linear meter for steel post and woven wire construction — a 100-hectare perimeter (approximately 4 km of fence) requires $32,000-60,000 in fencing investment amortized over 20-30 years.
+**Predator management**: Bison defend themselves and calves against predators more effectively than cattle. Defensive circling (calves in center, adults facing outward) deters most predators. Predation losses typically 2-5% of calves vs 5-15% for cattle under similar conditions.
+
+## 11. Cross-Domain Links
+
+- [`animals.domestication`](domestication.md) — comparative livestock domestication timelines and species profiles
+- [`animals.cattle`](cattle.md) — cattle as an alternative domesticated bovine for meat and dairy
+- [`textiles`](../textiles/index.md) — hide tanning and leather processing from bison hides
+- [`food-processing`](../food-processing/index.md) — meat preservation methods for bison
+- [`agriculture`](../agriculture/index.md) — pasture management and rotational grazing for bison herds
 
 ---
-
-[← Back to Animals](index.md)
+*Part of the [Bootciv Tech Tree](../index.md) • [Animals](./index.md) • [All Domains](../index.md)*

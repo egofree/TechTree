@@ -74,6 +74,8 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
    Date | Description | Debit (value in) | Credit (value out) | Balance
    ```
 
+**Decision criteria**: Use single-entry (cash book) when transaction volume is <50/month and the community has <50 regular trading partners. Switch to double-entry when any of these thresholds is exceeded, or when error rates in single-entry exceed 3% per 100 entries.
+
 ### 4.2 Recording Transactions
 
 4. **Record each transaction in real-time**: Do not batch — record as transactions occur. For each trade, purchase, or production input consumed:
@@ -181,6 +183,17 @@ The capability depends on [core mathematics](../mathematics/core-mathematics.md)
 | Quipu (knotted cord) | Knot patterns encode numerical data | Communities without writing | Limited to numerical data; no narrative descriptions |
 | Clay token accounting | Shaped clay tokens represent goods quantities | Earliest accounting (pre-writing) | No written detail; limited to simple counting |
 | Spreadsheet (paper) | Tabular format with rows and columns | Multi-category analysis | Labor-intensive for large datasets |
+
+### Accounting Method Trade-offs
+
+| Method | Error Detection | Scalability | Training Required | Setup Cost | Best Transaction Volume |
+|--------|:-:|:-:|:-:|:-:|:-:|
+| Single-entry | None | Poor (<50/month) | Low (hours) | Near zero | <50/month |
+| Double-entry | High (daily balance) | Good (500+/day) | Moderate (weeks) | Low (1-2 days) | 50-500/day |
+| Tally stick | None | Very poor | Low (hours) | Near zero | <20/month |
+| Quipu | Low (visual check) | Moderate | Moderate (weeks) | Low | 50-200/month |
+| Clay tokens | Low (physical count) | Poor | Low (hours) | Near zero | <30/month |
+| Spreadsheet | Moderate (formula check) | Moderate | Moderate | Low | 100-1000/month |
 
 ### Accounting System Evolution by Era
 

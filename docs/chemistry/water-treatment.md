@@ -1,11 +1,12 @@
 # Industrial Water Treatment
 
 > **Node ID**: chemistry.water-treatment
-> **Domain**: Chemistry
-> **Dependencies**: None (root capability)
-> **Enables**: None (leaf capability)
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.alkalis`](alkalis.md), [`chemistry.acids`](acids.md), [`energy.electricity`](../energy/electricity.md)
+> **Enables**: [`semiconductor-chemicals`](semiconductor-chemicals.md), [`health.occupational-health`](../health/occupational-health.md), [`chemistry.electrolysis`](electrolysis.md)
 > **Timeline**: Years 10-30
 > **Outputs**: deionized_water, purified_water, ultrapure_water
+> **Critical**: Yes — ultrapure water (UPW, >18.2 MΩ·cm resistivity) is consumed at 5-10 tonnes per day per semiconductor fab. Without UPW, semiconductor manufacturing is impossible. Industrial water treatment is also required for boiler feed, cooling, and process water in all chemical plants.
 
 ## Overview
 
@@ -276,4 +277,4 @@ Industrial water treatment includes treating used water before discharge. The st
 
 ---
 
-*Part of the [Chemistry Domain](index.md) • [All Domains](../index.md)*
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

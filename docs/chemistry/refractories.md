@@ -1,11 +1,12 @@
 # Refractory Materials
 
 > **Node ID**: `chemistry.refractories`
-> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), `mining`
-> **Enables**: `glass`, `metals`, [`metals.steelmaking`](../metals/steelmaking.md)
-> **Parent**: [Chemistry](index.md)
-> **Era**: Early Industrial
-> **Tags**: `material`, `capability`, `critical`
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`ceramics.kilns`](../ceramics/kilns.md), [`mining.processing`](../mining/processing.md)
+> **Enables**: [`glass.basic`](../glass/basic.md), [`metals.steelmaking`](../metals/steelmaking.md), [`chemistry.cement`](cement.md)
+> **Timeline**: Years 15-35
+> **Outputs**: firebrick, magnesia_refractory, alumina_refractory, silica_refractory
+> **Critical**: Yes — refractory linings are required for every high-temperature industrial process: blast furnaces, cement kilns, glass tanks, ceramic kilns, and incinerators. Without refractories, industrial metallurgy and ceramics are impossible.
 
 ## Overview
 
@@ -205,3 +206,7 @@ Magnesite bricks (MgO >85%) are the foundation of basic steelmaking refractories
 
 - Refractories line [Kilns](../ceramics/kilns.md), [Blast Furnaces](../metals/blast-furnace.md), and [Steelmaking](../metals/steelmaking.md) vessels. Alumina from [Aluminum](../metals/aluminum.md) refining. Silica from [Mining](../mining/processing.md) quartz.
 
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

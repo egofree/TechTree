@@ -1,9 +1,12 @@
 # Vacuum Systems
 
 > **Node ID**: vlsi-scaling.vacuum-systems
-> **Domain**: VLSI Scaling
+> **Domain**: [VLSI Scaling & Advanced Semiconductor](./index.md)
+> **Dependencies**: [`gas-handling.vacuum`](../gas-handling/vacuum.md), [`metals.steel`](../metals/index.md), [`measurement.precision-metrology`](../measurement/precision-metrology.md)
+> **Enables**: [`photolithography.fab-processes`](../photolithography/fab-processes.md), [`vlsi-scaling.advanced-processes`](advanced-processes.md), [`vlsi-scaling.advanced-lithography`](advanced-lithography.md)
 > **Timeline**: Years 30-50
 > **Outputs**: vacuum_pumps, vacuum_chambers, vacuum_gauges
+> **Critical**: Yes — vacuum is required for sputtering, evaporation, ion implantation, and e-beam lithography
 
 ## Overview
 

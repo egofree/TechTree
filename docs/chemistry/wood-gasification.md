@@ -1,11 +1,12 @@
 # Wood Gasification
 
-> **Node ID**: chemistry.petroleum-alternatives.wood-gasification
-> **Domain**: Chemistry
-> **Dependencies**: [`chemistry.petroleum-alternatives`](petroleum-alternatives.md)
-> **Enables**: None (leaf capability)
+> **Node ID**: chemistry.wood-gasification
+> **Domain**: [Chemistry](./index.md)
+> **Dependencies**: [`chemistry.petroleum-alternatives`](petroleum-alternatives.md), [`energy.charcoal`](../energy/charcoal.md)
+> **Enables**: [`energy.fuels`](../energy/index.md), [`chemistry.solvents`](solvents.md)
 > **Timeline**: Years 10-30
 > **Outputs**: producer_gas, charcoal, wood_tar
+> **Critical**: No — wood gasification provides fuel gas and chemical feedstocks from biomass but is superseded by coal and petroleum routes
 
 ### Producer Gas
 
@@ -216,3 +217,7 @@ Wood gasification technology occupies a pragmatic niche in the energy landscape:
 - **[Solvents](solvents.md)**: Turpentine and methanol from wood pyrolysis
 - **[Explosives](explosives.md)**: Charcoal as a component of black powder
 - **[Energy](../energy/index.md)**: Power generation from producer gas
+
+---
+
+*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*

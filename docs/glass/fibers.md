@@ -8,8 +8,6 @@
 > **Outputs**: fiberglass, insulation_wool, optical_fiber, composite_reinforcement
 > **Critical**: No — glass fibers improve composites and insulation but alternatives (metal, ceramic wool) exist
 
-## Problem
-
 Glass fibers are filaments of glass drawn to diameters of 5-25 μm (a human hair is 50-100 μm). At these dimensions, glass becomes flexible: it can be woven, felted, or chopped and embedded in a polymer matrix to make composite materials. The three main product families are continuous fiberglass (for structural composites), glass wool (for thermal insulation), and optical fiber (for signal transmission).
 
 Each product family uses a different glass composition, forming process, and post-processing, but they all start from the same fundamental principle: molten glass, attenuated to fine filaments by mechanical force, then cooled below its glass transition temperature fast enough to prevent crystallization (devitrification), which would make the fibers brittle and opaque.

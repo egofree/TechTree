@@ -2,18 +2,27 @@
 
 > **Node ID**: glass.fibers
 > **Domain**: [Glass](./index.md)
-> **Dependencies**: `glass`, [`glass.advanced`](advanced.md)
+> **Dependencies**: [`glass`](./index.md), [`glass.advanced`](advanced.md)
 > **Enables**: [`electronics.assembly`](../electronics/assembly.md), [`polymers.composites`](../polymers/composites.md)
 > **Timeline**: Years 30-45
 > **Outputs**: fiberglass, insulation_wool, optical_fiber, composite_reinforcement
+> **Critical**: No — glass fibers improve composites and insulation but alternatives (metal, ceramic wool) exist
 
-### Overview
+### Problem
 
 Glass fibers are filaments of glass drawn to diameters of 5-25 μm (a human hair is 50-100 μm). At these dimensions, glass becomes flexible: it can be woven, felted, or chopped and embedded in a polymer matrix to make composite materials. The three main product families are continuous fiberglass (for structural composites), glass wool (for thermal insulation), and optical fiber (for signal transmission).
 
 Each product family uses a different glass composition, forming process, and post-processing, but they all start from the same fundamental principle: molten glass, attenuated to fine filaments by mechanical force, then cooled below its glass transition temperature fast enough to prevent crystallization (devitrification), which would make the fibers brittle and opaque.
 
 The ratio of glass surface area to volume increases by a factor of 10,000-100,000 when going from bulk glass to fiber form. This enormous surface area makes glass fibers chemically active (vulnerable to moisture attack) and is the reason sizing (protective coating) must be applied immediately after forming.
+
+### Prerequisites
+
+- [Glass production](./index.md) — basic glass melting and forming
+- [Advanced glass](advanced.md) — specialty glass compositions (E-glass, fused silica)
+- [Polymers](../polymers/index.md) — sizing coatings and resin matrices for composites
+- [Energy / furnaces](../energy/index.md) — high-temperature melting (1400-1600°C for E-glass)
+- [Machine tools](../machine-tools/index.md) — bushing manufacturing and fiber-handling equipment
 
 ### Fiberglass Production (Continuous Filament)
 
@@ -208,8 +217,24 @@ Fiberglass is rarely used as bare fiber. Its value is as reinforcement in a poly
 
 **Vacuum bag improvements**: Applying vacuum (80-95 kPa) over the hand layup compresses the laminate, squeezing out excess resin and increasing fiber content from 25-35% to 40-55% by weight. The resulting laminate has 30-50% higher flexural strength and 20-30% lower weight than a hand layup of the same thickness. The vacuum also eliminates voids (trapped air) that concentrate stress and initiate cracks.
 
----
+### Troubleshooting
 
-*Part of the [Bootciv Tech Tree](../index.md) · [Glass](./index.md) · [All Domains](../index.md)*
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Fibers breaking during draw | Viscosity too low (glass too hot) or devitrification in bushing | Reduce furnace temperature 10-20°C; clean bushing tips; verify glass composition |
+| Fiber diameter inconsistent | Bushing tip wear or temperature gradient across bushing | Replace worn bushing tips; ensure uniform heating across bushing plate |
+| Poor resin wetting in composite | Fiber sizing degraded or contaminated | Store fiberglass in dry conditions; use within shelf life (sizing degrades after 12-18 months) |
+| Laminate voids (white spots) | Insufficient consolidation — trapped air | Use washer roller thoroughly; apply vacuum bag for critical parts |
+| Insulation wool settles over time | Binder content too low or moisture ingress | Increase phenolic binder to 5-8%; install vapor barrier in building envelopes |
+| Gel coat not curing | Insufficient MEKP catalyst or cold temperature | Increase catalyst to 2%; ensure workspace ≥18°C; check resin expiration date |
+
+## See Also
+
+- [Basic glass](basic.md) — glass melting and composition fundamentals
+- [Advanced glass](advanced.md) — specialty glass compositions
+- [Polymers / Composites](../polymers/composites.md) — fiberglass-reinforced polymer materials
+- [Electronics / Assembly](../electronics/assembly.md) — PCB substrate materials (fiberglass-epoxy)
+- [Ceramics](../ceramics/index.md) — ceramic fiber insulation alternatives
+- [Inspection](../optics/inspection.md) — fiber diameter and quality measurement
 
 [← Back to Glass](index.md)

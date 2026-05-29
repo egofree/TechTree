@@ -3,12 +3,22 @@
 > **Node ID**: textiles.sewing-tailoring
 > **Domain**: [Textiles](./index.md)
 > **Dependencies**: [`metals.copper-bronze`](../metals/copper-bronze.md), [`textiles`](./index.md), [`textiles.weaving`](weaving.md)
-> **Enables**: None (leaf capability)
+> **Enables**: [`construction`](../construction/index.md), [`transport.shipping`](../transport/shipping.md)
 > **Timeline**: Years 5-10
 > **Outputs**: garments, tents, sails, bags, belting
 > **Critical**: No
 
-### Needle Making
+## Problem
+
+Sewing transforms flat woven cloth into shaped, functional products: garments, tents, sails, bags, and belting. The craft demands precision — a needle eye with any burr shreds thread, a dull point tears fabric instead of piercing it, and a poorly constructed seam fails under load. Sewing technology bridges from hand stitching with bone needles to industrial lockstitch machines, enabling mass production of textile goods.
+
+## Prerequisites
+
+- [Weaving](weaving.md) — woven cloth as the primary material
+- [Iron & Steel](../metals/iron-steel.md) — steel wire for needle manufacture
+- [Copper & Bronze](../metals/copper-bronze.md) — early needle and thimble materials
+
+## Needle Making
 
 A sewing needle is a slender steel shaft with a point at one end and an eye (hole) at the other. The precision required is surprisingly high: the eye must be smooth-edged (any burr shreds the thread), the point must be sharp enough to pierce fabric without widening the hole, and the shaft must be straight and flexible enough to pass through the material without bending permanently.
 
@@ -221,14 +231,24 @@ Proper fit requires systematic body measurement and pattern adjustment. A poorly
 - Thimbles and sewing accessories
 - Fastener types and applications
 
-### Cross-References
+## Troubleshooting
 
-- **Woven cloth**: [weaving](weaving.md)
-- **Steel for needles**: [iron and steel](../metals/iron-steel.md)
-- **Canvas and fabric**: [weaving](weaving.md)
-- **Leather for belts**: [leather](../animals/leather.md)
-- **Sewn products used in mining**: [mining equipment](../mining/index.md)
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Thread shredding at needle eye | Burr on needle eye or wrong thread weight | Deburr eye with fine abrasive; match thread weight to needle size; replace worn needle |
+| Skipped stitches (machine) | Needle bent, wrong needle type, or timing off | Replace needle; use ball-point for knits, sharp for wovens; check hook-to-needle timing |
+| Seam puckering | Thread tension too high or fabric stretched during sewing | Reduce thread tension; let feed dogs move fabric naturally; use shorter stitch length |
+| Needle breaking | Wrong needle for fabric thickness or hitting pin | Use heavier needle for thick fabric; remove pins before sewing; check needle alignment |
+| Seam pulling apart under load | Stitch type wrong or seam allowance too narrow | Use backstitch or lockstitch for load-bearing seams; increase seam allowance to 15 mm minimum |
+| Fabric stretching during cutting | Not using pattern weights or cutting on bias | Pin pattern to fabric or use weights; cut on grain (parallel to selvage); mark grain line |
 
----
+## See Also
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Textiles](./index.md) • [All Domains](../index.md)*
+- [Weaving](weaving.md) — woven cloth production
+- [Iron & Steel](../metals/iron-steel.md) — steel for needles and pins
+- [Leather](../animals/leather.md) — leather for belts and accessories
+- [Spinning](spinning.md) — thread and yarn production
+- [Dyeing](dyeing.md) — colored fabrics for garments
+- [Mining Equipment](../mining/index.md) — sewn products used in mining
+
+[← Back to Textiles](index.md)

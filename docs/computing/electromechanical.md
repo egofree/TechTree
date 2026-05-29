@@ -21,7 +21,7 @@ Before electronic computers, automated computation and control require electrome
 - [Paper production](../chemistry/pulp-chemicals.md) — punch card stock and paper tape
 - [Precision machining](../machine-tools/index.md) — cam profiles, drum bearings, relay armature tolerances
 
-### Automation & Control
+## Automation & Control
 
 **Cams and followers**:
 - **Cam**: Rotating or sliding piece with shaped profile. **Follower**: lever or rod that moves in response to cam profile. Convert continuous rotary motion into complex, pre-programmed linear or oscillating motion.
@@ -44,7 +44,7 @@ Before electronic computers, automated computation and control require electrome
 - **Pressure regulator**: Spring-loaded diaphragm or piston. Downstream pressure pushes against spring. If pressure exceeds setpoint → valve closes. If below → valve opens. Maintains constant delivery pressure despite upstream fluctuations. For steam, compressed air, gas distribution.
 - **Float valve**: Buoyant float on lever arm operates valve. Water level rises → float rises → valve closes inlet. Level drops → float drops → valve opens. Simple, reliable liquid level control for tanks, boilers, reservoirs.
 
-### Integration with Manufacturing
+## Integration with Manufacturing
 
 **Cam-operated turret lathe**:
 - **Turret**: Indexable tool holder (6-8 positions). Each position holds a different cutting tool (turning, facing, drilling, boring, threading, parting). Cam drum rotates → trip levers index turret → advance tool → cut → retract → index to next tool. Cycle repeats automatically. One operator can run 3-5 machines simultaneously.
@@ -56,7 +56,7 @@ Before electronic computers, automated computation and control require electrome
 **[Pattern-following milling](../glossary/pattern-following-milling.md)** (tracing):
 - **Tracer mill**: Stylus follows a master template (wood, plaster, or metal pattern). Hydraulic or electrical linkage drives milling cutter to duplicate pattern in workpiece. Enables production of complex 3D shapes (dies, molds, turbine blades) without direct CNC capability. Accuracy: ±0.05-0.1 mm depending on tracer mechanism.
 
-### Punch Card Systems
+## Punch Card Systems
 
 **[Punch card](../glossary/punch-card.md)** (for data and program storage):
 - **Card**: Stiff paper card (187 × 83 mm, the "IBM card" or "Hollerith card"). 12 rows × 80 columns. Each column represents one character. Punch holes in specific row positions to encode data (numeric 0-9, or alphanumeric via zone punches in rows 0, 11, 12 combined with digit punches).
@@ -65,7 +65,7 @@ Before electronic computers, automated computation and control require electrome
 - **Tabulating machine**: Reads punch cards, counts, sorts, and accumulates data. Electromagnetic counters and relays perform basic arithmetic and logical operations. Herman Hollerith's 1890 census machine was the breakthrough — processed 1890 US census data in months vs. years.
 - **Application**: Census data, inventory tracking, payroll, process recipes (encode process parameters on cards → feed into machine that controls cam timing), and later (Photolithography) as program input for early computers.
 
-### Relay Logic & Switching
+## Relay Logic & Switching
 
 **Relay logic circuits**:
 - **AND circuit**: Two relay coils in series (both must energize to complete circuit). Output on only when both inputs are active. Used for safety interlocks (e.g., door closed AND guard in place before machine starts).
@@ -77,7 +77,7 @@ Before electronic computers, automated computation and control require electrome
 - **Design**: Two-motion selector — vertical (10 levels) then horizontal (10 positions) = 100-contact array per switch. Input pulse train from rotary dial: first digit selects vertical level, second digit selects horizontal position. Routes one telephone line to any of 100 destination lines automatically.
 - **Application**: Automatic telephone exchanges eliminating human operators. Hundreds of Strowger switches per exchange, cascaded for multi-digit numbers (10,000 subscribers with 4-digit dialing). Electromechanical switching enabled communications networks before transistor electronics.
 
-### Relay Computing Machines
+## Relay Computing Machines
 
 **[Konrad Zuse Z3](../glossary/konrad-zuse-z3.md)** (1941, first working programmable computer):
 - **Architecture**: 64 words of 22-bit floating-point memory (relays), arithmetic unit using relay logic, program on punched 35 mm film strip. Binary floating-point representation: 1 sign bit, 7 exponent bits, 14 mantissa bits.
@@ -99,7 +99,7 @@ Before electronic computers, automated computation and control require electrome
 - **Coil power**: 0.5-2 W per relay. A 2,000-relay computer draws 1-4 kW just for coil power, plus additional power for signal circuits.
 - **Failure modes**: Contact sticking (welding from inrush current), contact corrosion (oxidation increases resistance), coil burnout (overheating), armature binding (mechanical wear). MTBF ~10⁷ operations per relay. A 2,000-relay machine expects a failure every few hours.
 
-### Punch Card Tabulating Systems
+## Punch Card Tabulating Systems
 
 **[Hollerith tabulating machine](../glossary/hollerith-tabulating-machine.md)** (1890 census):
 - **Card format**: Original 1890 card: 24 columns × 12 rows. Punched holes represent data values. Later standardized to 80 columns × 12 rows (the "IBM card," 187 × 83 mm, 0.18 mm card stock).
@@ -107,7 +107,7 @@ Before electronic computers, automated computation and control require electrome
 - **Counting**: Electromagnetic counters (one per category) increment when circuit completes. Sorter bin: card drops into the bin corresponding to the selected category. 80-column tabulator handles 100-200 cards per minute.
 - **Sorting**: Separate sorting machine reads one column at a time, routes each card to one of 13 pockets (digits 0-9, two zone positions, and a reject pocket). Multi-column sort requires multiple passes.
 
-### Electromagnetic Storage
+## Electromagnetic Storage
 
 **Magnetic drum memory**:
 - **Construction**: Rotating cylinder (100-400 mm diameter, 200-600 mm long) coated with ferromagnetic material (iron oxide or nickel-cobalt alloy). Read/write heads mounted on adjustable arms, one per track, positioned 5-25 μm from drum surface. Rotation: 1,000-4,000 RPM (higher RPM = shorter access time but tighter mechanical tolerances).
@@ -119,13 +119,13 @@ Before electronic computers, automated computation and control require electrome
 - **Latching relay memory**: Each relay stores one bit. Set coil writes 1, reset coil writes 0. Contact state indicates stored value. Non-volatile (retains state without power). Used in: telephone exchanges (store routing digits), early calculators, process control systems.
 - **Cost and scale**: A 1 KB relay memory requires 8,192 latching relays. At ~$5 per relay (1950s pricing), that is ~$40,000 for 1 KB. Impractical for large-scale memory, but adequate for registers and small buffers.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Moving machinery pinch points**: Relays, gears, cam followers, and Strowger switches have moving parts that can crush or amputate fingers. Install physical guards over exposed mechanisms. Use interlocks that disconnect power when guard panels are opened. Never reach into operating machinery.
 - **High-voltage relay contacts**: Electromechanical relays switching inductive loads (motors, solenoids) produce arc flash across contact gaps — temperatures exceed 10,000°C at the arc root. Risk of electrocution and flash burns. Always disconnect and lock out power before servicing relay panels. Use insulated tools rated for the circuit voltage. Wear safety glasses when working near energized contacts.
 - **Fire from relay contact arcing**: Repeated arcing at relay contacts generates metal vapors and carbon deposits that accumulate as combustible dust. Combined with the arc's ignition energy, this causes fires in relay cabinets. Keep relay panels clean and dust-free. Use arc suppressors (RC snubber circuits or diodes across inductive loads) to reduce arcing. Maintain smoke detection in equipment rooms.
 
-### Electromagnetic Components
+## Electromagnetic Components
 
 **[Solenoids](../glossary/solenoids.md)** (linear actuators):
 - **Construction**: Cylindrical coil wound on a bobbin, with a soft iron plunger (armature) that slides freely in the bore. When current flows through the coil, magnetic field pulls the plunger into the coil center. Spring returns plunger when current stops.
@@ -141,14 +141,14 @@ Before electronic computers, automated computation and control require electrome
 - **Principle**: AC motor whose rotor rotation is synchronized with the AC supply frequency. At 50 Hz supply, a 2-pole synchronous motor runs at exactly 3,000 RPM; at 60 Hz, 3,600 RPM. Speed does not vary with load (up to the pull-out torque limit).
 - **Applications**: Clocks, timer mechanisms, chart recorders, phonograph turntables, telescopic drive motors. Any application requiring precise, constant speed tied to the power line frequency.
 
-### Electromagnetic Power Control
+## Electromagnetic Power Control
 
 **Motor starters and contactors**:
 - **Contactor**: Heavy-duty electromagnetic switch rated for motor starting currents (5-8× full load current). Coil energizes → contacts close → motor starts. Coil de-energizes → contacts open (spring return). Rated by current capacity: 10-1,000 A.
 - **Overload protection**: Thermal overload relay (bimetallic strip heated by motor current). If motor draws excessive current for too long, bimetallic strip bends and trips a mechanical latch that opens the contactor coil circuit, shutting down the motor. Protects motor from sustained overload without nuisance tripping on normal starting current surges.
 - **Reversing starter**: Two contactors with electrical and mechanical interlocking. One contactor applies forward phase sequence; the other reverses two phases, reversing a 3-phase motor. Interlock prevents both contactors from closing simultaneously (which would create a line-to-line short circuit).
 
-### Electromagnetic Instruments
+## Electromagnetic Instruments
 
 **Moving-coil meter (D'Arsonval movement)**:
 - **Principle**: Coil of fine wire suspended in the field of a permanent magnet. Current through the coil creates a magnetic field that interacts with the permanent field, producing torque. A spiral spring provides restoring torque proportional to deflection angle. At equilibrium, pointer deflection is proportional to current.
@@ -161,7 +161,7 @@ Before electronic computers, automated computation and control require electrome
 - **Register**: Gear train from the disc shaft drives odometer-type registers displaying kilowatt-hours. The gear ratio (disc revolutions per kWh) is the meter constant, typically labeled on the meter nameplate (e.g., Kh = 7.2 watt-hours per revolution).
 - **Calibration**: Adjust by changing the strength of the braking magnet (screws that shift the magnet position relative to the disc). Test with known load (standard resistor and voltage source). Accuracy: ±1-2% over the rated load range.
 
-### Magnetic Recording
+## Magnetic Recording
 
 **[Wire recording](../glossary/wire-recording.md)** (early audio and data storage):
 - **Principle**: Steel wire (0.1-0.25 mm diameter) passes over an electromagnet (recording head). Audio signal drives the electromagnet, magnetizing the wire in a pattern corresponding to the signal waveform. Playback: wire passes over a similar head, and the varying magnetic field induces a voltage proportional to the recorded signal.
@@ -172,7 +172,7 @@ Before electronic computers, automated computation and control require electrome
 - **Paper-based tape**: Paper strip (6-12 mm wide) coated with iron oxide powder in a cellulose binder. Coating process: mix Fe₃O₄ powder (~0.5 μm particle size) with binder, coat onto paper, dry, calender for smooth surface. Coercivity: 200-400 Oe. The simplest magnetic recording medium.
 - **Plastic-based tape**: Cellulose acetate or PVC backing with gamma-Fe₂O₃ coating. Superior to paper in strength and uniformity. Tape width: 6.35 mm (¼ inch) for audio, 12.7 mm (½ inch) for instrumentation. The basis of the recording industry from ~1950 onward.
 
-### Telegraph and Teletype Systems
+## Telegraph and Teletype Systems
 
 **Telegraph relay**:
 - **Function**: Amplify weak telegraph signals over long distances. A small current in the incoming line coil operates a sensitive relay, which closes a contact carrying a stronger local current to drive the next line segment or a sounder. Repeaters every 100-300 km extend telegraph lines across continents.
@@ -182,7 +182,7 @@ Before electronic computers, automated computation and control require electrome
 - **[Baudot code](../glossary/baudot-code.md)** (5-bit): 32 characters. Two shift states (letters shift and figures shift) double the effective character set to ~60. Each character: 1 start bit (space), 5 data bits, 1.42 stop bits (mark). At 45.5 baud (standard teletype speed), one character takes 163 ms (6 characters/second). Synchronous motor drives both sender and receiver at the same speed.
 - **[ASCII code](../glossary/ascii-code.md)** (7-bit, later standard): 128 characters including uppercase, lowercase, digits, punctuation, and control codes. 8-bit transmission with parity. Used in later teletypes and all computer terminals.
 
-### Detailed Relay Computing Specifications
+## Detailed Relay Computing Specifications
 
 **DPDT relay characteristics**:
 - **Contact configuration**: Double-pole, double-throw (2 form-C contacts per relay). Each pole has a common (C), normally-open (NO), and normally-closed (NC) terminal. Both poles switch simultaneously when the coil energizes. Provides two independent signal paths per relay.
@@ -226,7 +226,7 @@ Before electronic computers, automated computation and control require electrome
 | Cam follower skipping | Worn cam surface or weak return spring | Re-harden cam surface; replace follower spring; check lubrication |
 | Excessive relay coil heating | Overvoltage or continuous duty beyond rating | Verify supply voltage matches coil rating; check for shorted turns; add heat sink |
 
-### See Also
+## See Also
 
 - [Mechanical Computing](mechanical.md) — cams, linkages, and pre-electrical automation
 - [Electronic Computing](electronic.md) — transistor-based computing that replaced relay systems

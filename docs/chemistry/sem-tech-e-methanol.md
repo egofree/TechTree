@@ -10,8 +10,6 @@
 
 The [SEM Tech membrane](sem-tech.md) enables low-cost ion exchange membrane manufacturing at less than $1 per square foot. This article examines how that cost advantage applies to e-methanol synthesis — a power-to-liquids technology that converts green hydrogen and captured CO₂ into methanol.
 
-## Overview
-
 e-Methanol is a synthetic fuel and chemical feedstock produced by combining hydrogen (from water electrolysis) with carbon dioxide (from carbon capture) in a catalytic reactor. The "e-" prefix denotes that the hydrogen is produced using renewable electricity, making the overall process potentially carbon-neutral when the electricity source is clean.
 
 Methanol (CH₃OH) is the simplest alcohol and one of the most widely traded chemical commodities globally, with annual production exceeding 100 million tonnes. Conventional methanol is produced from natural gas via steam reforming (syngas route). e-Methanol replaces the fossil-derived syngas with green hydrogen and captured CO₂, closing the carbon cycle.
@@ -128,12 +126,12 @@ The key limitation is energy input: producing 1 tonne of e-methanol requires app
 
 The following procedure describes the construction and operation of a bench-scale e-methanol synthesis system. The synthesis reactor and catalyst are conventional (Cu/ZnO/Al₂O₃); SEM Tech's role is reducing hydrogen production cost in the upstream electrolysis step.
 
-### Phase 1: Prepare Catalyst
+## Phase 1: Prepare Catalyst
 
 1. **Source Cu/ZnO/Al₂O₃ catalyst**: Commercial methanol synthesis catalyst (e.g., 60% CuO, 30% ZnO, 10% Al₂O₃ in pellet or granule form, 3-6 mm diameter). Alternatively, prepare by co-precipitation: dissolve Cu(NO₃)₂, Zn(NO₃)₂, and Al(NO₃)₃ in the desired molar ratio in deionized water. Add Na₂CO₃ solution slowly at 60-80°C with vigorous stirring to pH 7-8. Filter, wash precipitate, dry at 110°C for 12 hours, calcine at 300-350°C for 4 hours. Pelletize and crush to 3-6 mm granules.
 2. **Reduce catalyst**: Before first use, reduce the CuO to metallic Cu in situ. Place catalyst in the reactor. Flow 5% H₂ in N₂ at 50-100 mL/min (STP) while heating at 1-2°C/min to 200-220°C. Hold at 220°C for 4-8 hours until no further temperature exotherm is observed (indicates reduction complete). CuO + H₂ → Cu + H₂O. Never expose reduced catalyst to air — it pyrophorically re-oxidizes. Keep under N₂ or H₂ blanket.
 
-### Phase 2: Assemble Synthesis System
+## Phase 2: Assemble Synthesis System
 
 3. **Construct synthesis reactor**: Use a stainless steel 316L tube (25-50 mm ID, 300-600 mm length, rated to 100+ bar) as a shell-and-tube reactor. Load reduced catalyst into the tube (supported between quartz wool plugs). Install thermocouples at inlet, midpoint, and outlet of the catalyst bed. For bench-scale, a single-tube reactor suffices; commercial plants use multi-tubular designs with hundreds of tubes.
 4. **Install gas delivery system**: Connect H₂ and CO₂ supply cylinders (or electrolysis H₂ output + CO₂ from capture system) through mass flow controllers (MFCs) to the reactor inlet. Include a check valve on each gas line to prevent backflow. Install a mixing chamber (stainless steel cylinder, 100-500 mL) upstream of the reactor to ensure homogeneous H₂/CO₂ mixture.
@@ -141,7 +139,7 @@ The following procedure describes the construction and operation of a bench-scal
 6. **Install product separation**: Connect the reactor outlet to a condenser (shell-and-tube heat exchanger cooled to 10-25°C). Methanol and water condense; unreacted H₂ and CO₂ pass through to the recycle compressor. Collect condensed liquid in a separator vessel. Route the liquid to a distillation column for methanol-water separation.
 7. **Install pressure relief**: Install a burst disc or relief valve on the reactor set to 10% above maximum operating pressure (e.g., 88 bar for 80 bar operation). This is mandatory safety equipment for high-pressure hydrogen service.
 
-### Phase 3: Startup and Operation
+## Phase 3: Startup and Operation
 
 8. **Pressure test**: With N₂ (inert), pressurize the entire system to 1.1× operating pressure (e.g., 88 bar for 80 bar operation). Hold for 2 hours. Check all fittings, valves, and welds for leaks using soap solution or helium leak detector. Depressurize and fix any leaks before proceeding.
 9. **Purge with inert gas**: Flow N₂ through the system at 5-10 bar for 15 minutes to displace air. This prevents forming flammable H₂/air mixtures during hydrogen introduction.
@@ -150,12 +148,12 @@ The following procedure describes the construction and operation of a bench-scal
 12. **Establish recycle loop**: Once the reactor reaches steady-state temperature and pressure, open the recycle line. Unreacted H₂ and CO₂ return to the reactor inlet via the recycle compressor. Adjust recycle ratio to 4-6× (4-6 volumes of recycle gas per volume of fresh feed). Monitor the purge stream — it should be 2-5% of total gas flow.
 13. **Collect and analyze product**: Condensed liquid collects in the separator. Sample every 30-60 minutes. Analyze by gas chromatography (GC) for methanol, water, and any byproducts (DME, higher alcohols). Target methanol purity >80% in crude condensate (further purified to >99.85% by distillation). Typical single-pass conversion: 15-25% of CO₂ converted per pass.
 
-### Phase 4: Product Purification
+## Phase 4: Product Purification
 
 14. **Distill crude methanol**: Feed crude condensate to a distillation column (packed column, 20-40 theoretical plates). Separate light ends (dissolved CO₂, DME) at the top, methanol at the mid-point (bp 64.7°C), and water at the bottom. Product methanol purity: >99.85% (Grade AA). Water from the column bottom is recycled to the electrolysis system.
 15. **Quality verification**: Verify methanol meets specifications: water content <0.10% (Karl Fischer titration), acidity <30 ppm as acetic acid (titration), permanganate time >30 minutes (ASTM D1363, measures reducing impurities), distillation range 64.0-65.5°C (ASTM D1078).
 
-### Phase 5: Shutdown and Safety
+## Phase 5: Shutdown and Safety
 
 16. **Normal shutdown**: Stop fresh feed gas flow. Continue N₂ purge to displace H₂ and CO₂ from the system. Cool reactor to below 100°C at 2-3°C/min (rapid cooling thermal-shocks the catalyst). Once below 100°C and fully purged with N₂, depressurize to atmospheric. Leave catalyst under N₂ blanket — reduced Cu catalyst must never contact air.
 17. **Emergency shutdown**: If temperature exceeds 300°C (runaway reaction), immediately: (a) shut off H₂ feed, (b) open the emergency vent to depressurize, (c) flood the reactor with N₂ at maximum flow rate to dilute reactants and cool the catalyst bed. Never use water or steam to quench a hot catalyst bed — steam oxidizes reduced copper.
@@ -238,6 +236,4 @@ For regions with both cheap renewable electricity and access to point-source CO�
 - [Water Electrolysis](sem-tech-water-electrolysis.md) — SEM Tech membrane application to hydrogen production
 - [Fuel Cells](../energy/sem-tech-fuel-cells.md) — fuel cell application of SEM Tech membranes
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+[← Back to Chemistry](index.md)

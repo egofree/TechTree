@@ -12,6 +12,14 @@
 
 Refractories are heat-resistant ceramic materials that line furnaces, kilns, incinerators, and reactors — maintaining structural integrity at temperatures above 1500°C while resisting chemical attack by molten metals, slags, and hot gases. Without refractories, no metallurgy, glass melting, cement production, or high-temperature chemical processing is possible. They are consumable materials — furnace linings wear and must be periodically replaced. A typical steelmaking shop consumes 6-15 kg of refractories per tonne of steel produced.
 
+### Prerequisites
+
+- [Ceramic kilns](../ceramics/kilns.md) — firing refractory bricks to 1200-1600°C
+- [Mining and processing](../mining/processing.md) — clay, bauxite, magnesite, and silica raw materials
+- [Metals / Iron and steel](../metals/iron-steel.md) — steel for kiln furniture, handling equipment, and furnace structures
+- [Chemistry / Cement](cement.md) — calcium aluminate cement for castable refractories
+- [Fuel supply](../energy/fuels.md) — large quantities of fuel for calcination and firing
+
 ## Raw Materials
 
 **[Alumina-silicate system](../glossary/alumina-silicate-system.md)** (fireclay and high-alumina):
@@ -206,11 +214,27 @@ Magnesite bricks (MgO >85%) are the foundation of basic steelmaking refractories
 
 **Refractory selection decision tree**: Start with process temperature (determines refractoriness requirement), then consider the chemical environment (basic vs. acidic slag, reducing vs. oxidizing atmosphere), then mechanical loading (abrasion, impact, structural load), then thermal cycling frequency (determines thermal shock requirement), and finally cost and availability. For most applications, fireclay bricks are the first choice and are upgraded only when they fail prematurely.
 
-### Cross-Domain Dependencies
+### Troubleshooting
 
-- Refractories line [Kilns](../ceramics/kilns.md), [Blast Furnaces](../metals/blast-furnace.md), and [Steelmaking](../metals/steelmaking.md) vessels. Alumina from [Aluminum](../metals/aluminum.md) refining. Silica from [Mining](../mining/processing.md) quartz.
+| Symptom | Likely Cause | Solution |
+|---|---|---|
+| Rapid lining wear in BOF | Basic slag attacking silica refractory | Switch to magnesite or dolomite brick (basic refractory for basic slag) |
+| Spalling (flaking) of brick surface | Thermal shock from rapid heating/cooling | Use thermal-shock-resistant grades (fireclay 50-60% Al₂O₃); preheat furnaces slowly (50-100°C/hr) |
+| Structural collapse of lining | Inadequate expansion joints or creep at temperature | Leave 1-3% expansion gaps; use steel shell restraint; check hot modulus of rupture rating |
+| Castable cracking on drying | Too-rapid moisture removal causing steam explosion | Follow cure schedule: 24 hr wet cure, then dry at 50-110°C slowly (5-10°C/hr) |
+| Glass penetration of tank blocks | AZS block dissolved by aggressive glass composition | Increase ZrO₂ content to 40%+; cool glass contact surface to form frozen glass skin |
+| Dolomite brick hydration in storage | CaO component absorbs atmospheric moisture | Store in dry conditions; use tar-bonded dolomite for moisture protection |
+| Hot spot on furnace shell | Refractory failure — lining worn through | Shut down and inspect; patch with gunning mix or replace failed bricks |
 
+### See Also
 
----
+- [Ceramic Kilns](../ceramics/kilns.md) — kiln design and firing (primary consumer of refractories)
+- [Blast Furnace](../metals/blast-furnace.md) — refractory-lined iron smelting
+- [Steelmaking](../metals/steelmaking.md) — BOF and EAF refractory linings
+- [Glass Melting](../glass/basic.md) — glass tank furnace refractories
+- [Cement](cement.md) — cement kiln refractory requirements
+- [Aluminum](../metals/aluminum.md) — alumina feedstock for high-alumina refractories
+- [Mining / Processing](../mining/processing.md) — raw material extraction (clay, magnesite, bauxite)
+- [Fuels](../energy/fuels.md) — fuel requirements for calcination and firing
 
-*Part of the [Bootciv Tech Tree](../index.md) • [Chemistry](./index.md) • [All Domains](../index.md)*
+[← Back to Chemistry](index.md)

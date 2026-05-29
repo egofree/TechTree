@@ -20,7 +20,7 @@ The blast furnace is the key advancement from bloomery smelting. Where a bloomer
 - [Energy / fuels](../energy/index.md) — air preheating and blast supply
 - [Mining](../mining/index.md) — iron ore and limestone extraction
 
-### Blast Furnace Operation
+## Blast Furnace Operation
 - **Shell**: Cylindrical shaft of stone or brick, typically 6-10 m tall, widening from throat (top, ~2 m diameter) to bosh (widest part, ~4 m diameter), then narrowing to the hearth (bottom, ~1.5 m diameter). The bosh angle (the outward slope of the walls) is critical — typically 20-25° from vertical — to allow the solid charge to descend as it shrinks during melting.
 - **Tuyeres**: Water-cooled copper or cast iron nozzles near the bottom of the bosh, connected to a blowing engine (bellows or, later, steam-driven blower). Deliver preheated air blast into the furnace. Multiple tuyeres (4-8) evenly spaced around circumference for uniform blast distribution.
 - **Hearth**: Below the tuyeres, lined with refractory clay or carbon blocks. Collects molten iron and slag. Tap hole at one side near the bottom for iron, slag notch slightly above for slag removal (slag floats on denser molten iron).
@@ -42,13 +42,13 @@ The blast furnace is the key advancement from bloomery smelting. Where a bloomer
 
 **Production rates**: A small charcoal blast furnace (5-6 m shaft height) produces 0.5-2 tonnes of pig iron per day. A larger furnace (10+ m) with coke fuel and steam-powered blast produces 10-50 tonnes per day. Continuous operation — once lit, a blast furnace runs for years between relinings (campaign life 5-10 years). Stopping and restarting is extremely difficult.
 
-### Pig Iron
+## Pig Iron
 
 **Composition**: ~3.5-4.5% C, ~1-3% Si, ~0.5-1.5% Mn, ~0.02-0.1% S, ~0.05-0.3% P. The high carbon content is the defining characteristic — it lowers the melting point from pure iron's 1538°C to ~1150-1200°C, which is why the blast furnace can produce fully liquid metal while a bloomery cannot.
 
 **Properties**: Very hard and brittle. Cannot be forged or rolled — cracks under hammer. Excellent fluidity when molten — fills complex molds. Used primarily as an intermediate product, remelted in cupola furnaces for casting, or refined to steel.
 
-### Cupola Furnace
+## Cupola Furnace
 
 The cupola is the foundry workhorse for remelting pig iron and scrap into cast iron castings. Simpler and cheaper than a blast furnace — it melts existing iron rather than reducing ore.
 
@@ -56,13 +56,13 @@ The cupola is the foundry workhorse for remelting pig iron and scrap into cast i
 - **Operation**: Layer coke bed and iron charge (pig iron + scrap cast iron, often with steel scrap for composition adjustment) alternately through the charging door. Ignite coke bed, start blast. Metal melts and drips through the coke bed into the well at the bottom. Open tap hole to pour iron into ladles.
 - **Capacity**: 1-30 tonnes/hour depending on size. Intermittent operation — can be started and stopped as needed. This makes the cupola ideal for batch foundry work, unlike the continuous blast furnace.
 
-### Cast Iron Types
+## Cast Iron Types
 
 - **Gray cast iron**: Carbon present as graphite flakes in a pearlite/ferrite matrix. Graphite gives characteristic gray fracture surface. Excellent machinability (graphite breaks chips), superior vibration damping (ideal for machine tool bases), good thermal conductivity. Tensile strength 150-400 MPa. Casts easily — good fluidity, minimal shrinkage (~1%). Used for: machine frames, engine blocks, cookware, pipes.
 - **White cast iron**: Carbon present as cementite (Fe₃C) rather than graphite. Very hard (HV 400-600), extremely brittle. Produced by rapid cooling (chilling against metal mold) or by low silicon content. Used for wear surfaces (crusher jaws, mill liners) and as precursor to malleable iron.
 - **Malleable iron**: Produced by annealing white iron castings at 850-950°C for 40-80 hours. Cementite decomposes into irregular graphite nodules (temper carbon). The nodules eliminate stress concentrations → improved ductility and impact resistance vs. gray iron. Elongation 2-10% (vs. <1% for gray iron). Used for pipe fittings, brackets, agricultural hardware, gear cases.
 
-### Sand Casting
+## Sand Casting
 
 The primary molding method for cast iron. Sand molds are cheap, reusable, and can produce shapes impossible to forge.
 
@@ -75,7 +75,7 @@ The primary molding method for cast iron. Sand molds are cheap, reusable, and ca
 7. **Cooling**: Wait 30 minutes to several hours depending on section thickness. Thicker sections cool slower. Shake out (break sand mold away) when casting is below ~400°C.
 8. **Finishing**: Cut off sprue, risers, and gates with abrasive saw or chisel. Grind flash (thin metal where cope and drag meet). Inspect for defects: porosity (gas holes), shrinkage cavities, sand inclusions, cold shuts (incomplete fusion).
 
-### Hot Blast Stoves
+## Hot Blast Stoves
 
 Preheating the blast air is the single most impactful energy efficiency improvement for blast furnace operation. The Cowper stove (invented by Edward Alfred Cowper, 1857) is a regenerative heat exchanger that captures heat from blast furnace gas and transfers it to the incoming blast air.
 
@@ -94,7 +94,7 @@ Preheating the blast air is the single most impactful energy efficiency improvem
 
 **Fuel savings**: Preheating blast air to 1000-1250°C saves 20-30% of the coke that would otherwise be needed to achieve the same hearth temperature. This is because the blast air carries significant sensible heat into the combustion zone — roughly 25-35% of the total heat input to the furnace comes from the hot blast. Without stoves, coke consumption roughly doubles.
 
-### Blast Furnace Gas Utilization
+## Blast Furnace Gas Utilization
 
 The gas exiting the top of the blast furnace (top gas, also called blast furnace gas or BFG) is a valuable fuel byproduct. Capturing and using this gas is essential for the energy economics of an integrated ironworks.
 
@@ -120,7 +120,7 @@ The gas exiting the top of the blast furnace (top gas, also called blast furnace
 
 **Gas holder**: A large gasholder (50,000-200,000 Nm³ capacity) buffers the variable production rate of BFG against the variable demand of its consumers. Without buffering, mismatches between furnace gas production and stove/boiler demand would require flaring (wasting the gas).
 
-### Slag Processing and Utilization
+## Slag Processing and Utilization
 
 Blast furnace slag is the non-metallic byproduct formed when limestone flux reacts with silica and alumina gangue from the iron ore. A blast furnace produces 250-400 kg of slag per tonne of pig iron — roughly 0.25-0.4 tonnes of slag for every tonne of iron. This is a massive material flow that must be managed, and processed slag has significant commercial value.
 
@@ -136,7 +136,7 @@ Blast furnace slag is the non-metallic byproduct formed when limestone flux reac
 
 4. **Slag wool**: Molten slag can be fiberized by spinning or steam jetting to produce mineral wool (rock wool / slag wool) insulation. The fibers (3-10 μm diameter, 20-100 mm long) are collected on a conveyor, bonded with phenolic resin, and formed into batts, boards, or loose-fill insulation. Slag wool insulation is non-combustible, provides both thermal and acoustic insulation, and is widely used in building construction and industrial insulation. This is one of the oldest value-added uses of blast furnace slag, dating to the 1840s.
 
-### Modern Blast Furnace Operation
+## Modern Blast Furnace Operation
 
 Modern blast furnaces have evolved far beyond the charcoal-fired shafts of the early industrial era. Today's large blast furnaces are computer-controlled, continuously monitored, and optimized for fuel efficiency, production rate, and campaign life.
 
@@ -157,7 +157,7 @@ The key control objective is maintaining a **[central gas flow](../glossary/cent
 
 **Campaign life**: Modern blast furnace campaigns (the period between major relinings) last 10-20 years. A campaign ends when the refractory lining in the hearth or bosh has worn to the point where it must be replaced to avoid a breakoff (catastrophic shell failure due to molten metal contact). Campaign life depends on cooling system effectiveness, lining quality (carbon blocks, ceramic cups), and operating practice (avoiding thermal cycling). A relining requires 3-6 months of downtime and costs $100-300 million for a large furnace. During the campaign, minor repairs (tuyere replacement, gunning of worn lining sections) are performed during brief maintenance stops.
 
-### Sintering and Pelletizing
+## Sintering and Pelletizing
 
 Iron ore as mined is rarely suitable for direct charging to a blast furnace. The ore must be agglomerated into larger, stronger, and more uniform pieces that maintain permeability in the furnace shaft and have consistent composition. Two processes dominate: sintering and pelletizing.
 
@@ -183,7 +183,7 @@ Iron ore as mined is rarely suitable for direct charging to a blast furnace. The
 - **Product**: Uniform, hard, spherical pellets with 65%+ Fe content (higher than sinter because pellets are made from beneficiated concentrate with less gangue). Pellets have excellent permeability in the blast furnace due to their uniform size and shape, and their high iron content reduces slag volume and coke consumption.
 - **Comparison with sinter**: Sintering handles coarser fines and is cheaper per tonne. Pelletizing produces higher-grade feed and is better suited to low-grade ores that require fine grinding and beneficiation. Many blast furnaces operate on a blend of sinter, pellets, and lump ore.
 
-### Direct Reduced Iron (DRI)
+## Direct Reduced Iron (DRI)
 
 Direct reduction is an alternative to the blast furnace that produces solid iron (sponge iron) without melting the ore. DRI is an important supplementary ironmaking route and a potential stepping stone in the bootstrap sequence — it requires lower capital investment and lower operating temperatures than a blast furnace, though it cannot match blast furnace scale.
 
@@ -216,7 +216,7 @@ Direct reduction is an alternative to the blast furnace that produces solid iron
 
 **Bootstrap relevance**: A small DRI shaft furnace or rotary kiln is technically achievable at a smaller scale and lower capital cost than a blast furnace. It does not require coke (coal-based rotary kiln) or high-temperature refractory (no molten iron contact). However, DRI production rates per unit are much lower than blast furnaces, and the gangue remains in the product (requiring slag-forming fluxes in the subsequent melting step). For a bootstrap civilization, DRI may serve as an intermediate step between bloomery iron and full blast furnace ironmaking.
 
-### Safety & Hazards
+## Safety & Hazards
 
 - **Molten metal contact**: Pig iron and cast iron melt at 1150-1250°C. Splash from tapping or pouring causes catastrophic burns — molten iron retains enough heat to ignite clothing and burn through leather. Full protective equipment: face shield, leather apron, leggings, aluminized coat, spats over boots. Never stand directly in front of tap hole when opening. Keep pouring area dry — water on floor turns to steam explosively on contact with molten metal.
 - **Carbon monoxide**: Blast furnace produces large volumes of CO in the off-gas (20-30% CO). CO is colorless, odorless, lethal. Ensure furnace area is open-air or well-ventilated. Monitor with CO detectors if working indoors. Historical blast furnaces had open tops and natural draft; modern enclosed tops require gas handling systems.

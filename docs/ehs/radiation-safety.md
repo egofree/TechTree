@@ -8,15 +8,13 @@
 > **Outputs**: radiation_protection, shielding_design, dosimetry, contamination_control
 > **Critical**: No — radiation safety becomes essential only when X-ray, nuclear, or semiconductor ion implantation equipment is in use
 
-## Overview
-
 Radiation safety covers ionizing radiation fundamentals, shielding design, dose monitoring, and contamination control. In a bootstrap civilization, radiation exposure arises from four sources: medical X-rays (diagnostic imaging), industrial radiography (weld inspection), naturally occurring radioactive materials (uranium, thorium, radon), and semiconductor manufacturing (ion implantation uses radioactive dopant sources). Understanding radiation safety is essential before any of these capabilities are deployed — radiation injuries are invisible, cumulative, and often manifest years after exposure.
 
 The fundamental principle: ALARA — As Low As Reasonably Achievable. No level of ionizing radiation is considered completely safe. All exposure must be justified by benefit and minimized by shielding, distance, and time management. The three pillars of radiation protection: time (minimize time near source), distance (increase distance — dose falls with the square of distance), and shielding (interpose absorbing material between source and person).
 
 ## Prerequisites
 
-### Materials
+## Materials
 
 - Shielding materials: lead sheet (0.5-3 mm for X-ray), concrete (15-30 cm for general shielding), steel plate, barium sulfate (for painted shielding)
 - Dosimetry materials: photographic film (film badge dosimeter), thermoluminescent crystals (TLD — LiF:Mg,Ti), or optically stimulated luminescence (OSL) badges (requires electronics)
@@ -24,21 +22,21 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 - Survey instruments: Geiger-Müller counter, ionization chamber, or scintillation detector (requires [electronics](../electronics/assembly.md))
 - Decontamination supplies: absorbent paper, detergent, chelating agents (EDTA, DTPA) for radioactive metal contamination
 
-### Tools and Equipment
+## Tools and Equipment
 
 - Radiation survey meter: Geiger-Müller (GM) counter for contamination surveys, ionization chamber for exposure rate measurement
 - Personal dosimeters: film badge, TLD, or electronic personal dosimeter (EPD)
 - Shielding test equipment: lead thickness gauge, concrete density verification
 - Calibration sources: known-activity check sources (Cs-137, Co-60, or Am-241) for instrument calibration
 
-### Knowledge
+## Knowledge
 
 - Radiation physics: alpha, beta, gamma, X-ray, neutron radiation characteristics
 - Units: gray (Gy) for absorbed dose, sievert (Sv) for equivalent dose, becquerel (Bq) for activity, coulomb/kg (C/kg) for exposure
 - Biological effects: deterministic (threshold dose, severity increases with dose) vs. stochastic (probability increases with dose, no threshold)
 - Shielding calculations: half-value layer (HVL), tenth-value layer (TVL), buildup factors
 
-### Infrastructure
+## Infrastructure
 
 - Shielded enclosure for radiation sources (lead-lined room or concrete bunker)
 - Restricted access area with posted warning signs
@@ -57,7 +55,7 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 
 ## Process Description
 
-### Shielding Design for X-Ray Room
+## Shielding Design for X-Ray Room
 
 **Strengths**:
 - Concrete shielding is widely available, inexpensive, and provides structural walls simultaneously
@@ -75,7 +73,7 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 4. **Select shielding material and thickness**: Use HVL data to determine required thickness. For lead: each HVL reduces dose by 50%. For diagnostic X-ray (100 kVp): HVL = 0.24 mm Pb. Required transmission 0.01 (1%) needs 6.6 HVLs = 1.6 mm Pb.
 5. **Verify with survey meter**: After construction, measure actual dose rates outside barriers with calibrated survey meter. All points must be below regulatory limits. Document measurements.
 
-### Personal Dosimetry Program
+## Personal Dosimetry Program
 
 **Strengths**:
 - Film badges and TLDs require no electronics — can be deployed at any technology level
@@ -92,7 +90,7 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 3. **Investigate overexposures**: Any dosimeter reading >10% of annual limit triggers investigation. Determine cause (unusual workload, shielding failure, improper technique). Implement corrective action.
 4. **Maintain lifetime records**: Cumulative dose records maintained for each worker's entire career plus 30 years. Many radiation effects (cancer) have long latency periods.
 
-### Contamination Control
+## Contamination Control
 
 **Strengths**:
 - GM counter provides immediate feedback on decontamination effectiveness — no laboratory analysis needed
@@ -109,7 +107,7 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 
 ## Quantitative Parameters
 
-### Radiation Dose Limits
+## Radiation Dose Limits
 
 | Category | Whole Body (mSv/yr) | Lens of Eye (mSv/yr) | Skin (mSv/yr) | Extremities (mSv/yr) | Embryo/Fetus (mSv/gestation) |
 |----------|--------------------|--------------------|---------------|---------------------|---------------------------|
@@ -118,7 +116,7 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 | General public | 1 | 15 | 50 | — | — |
 | Emergency (lifesaving) | 500 (single event, voluntary) | — | — | — | — |
 
-### Half-Value Layers for Common Shielding Materials
+## Half-Value Layers for Common Shielding Materials
 
 | Material | Density (g/cm³) | 100 kVp X-ray HVL | 200 kVp X-ray HVL | Co-60 (1.17/1.33 MeV) γ HVL |
 |----------|----------------|--------------------|--------------------|-----------------------------|
@@ -130,7 +128,7 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 | Barytes concrete | 3.50 | 8 mm | 15 mm | 40 mm |
 | Aluminum | 2.70 | 20 mm | 35 mm | — |
 
-### Tenth-Value Layers (TVL) — Co-60 Gamma
+## Tenth-Value Layers (TVL) — Co-60 Gamma
 
 | Material | TVL (mm) | Practical Thickness for Shielding |
 |----------|----------|----------------------------------|
@@ -138,7 +136,7 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 | Steel | 70 | 80 mm for industrial radiography |
 | Concrete | 200 | 250 mm for Co-60, 150 mm for Cs-137 |
 
-### Radiation Characteristics by Type
+## Radiation Characteristics by Type
 
 | Radiation | Mass | Charge | Range in Air | Range in Tissue | Stopped By | Relative Hazard |
 |-----------|------|--------|-------------|----------------|-----------|----------------|
@@ -148,7 +146,7 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 | X-ray | 0 | 0 | Tens of meters | Passes through | Dense materials (Pb, concrete) | Same as gamma; lower energy = more easily shielded |
 | Neutron (n) | 1 amu | 0 | Tens of meters | Passes through | Hydrogenous materials (water, polyethylene, concrete) | Highly penetrating; causes secondary gamma; most damaging per unit dose |
 
-### Common Radionuclides
+## Common Radionuclides
 
 | Nuclide | Half-Life | Emission | Energy (MeV) | Primary Use | HVL (Pb) |
 |---------|-----------|----------|-------------|-------------|----------|
@@ -161,7 +159,7 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 | Sr-90 / Y-90 | 28.8 yr / 64 hr | Beta | 0.546 / 2.28 | Radioisotope thermoelectric generators (RTG) | Plastic 5 mm |
 | Pu-239 | 24,100 yr | Alpha | 5.15 | Nuclear fuel, weapons | Paper (external hazard only if inhaled/ingested) |
 
-### Biological Effects by Dose
+## Biological Effects by Dose
 
 | Dose (Sv) | Acute Whole-Body Effect | Onset | Prognosis |
 |-----------|------------------------|-------|-----------|
@@ -209,7 +207,7 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 
 ## Variations and Alternatives
 
-### Shielding Materials Comparison
+## Shielding Materials Comparison
 
 | Material | Cost | Availability | Best Application | Limitation |
 |----------|------|-------------|-----------------|------------|
@@ -220,7 +218,7 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 | Water | Very low | Everywhere | Temporary shielding, storage pools | No structural strength, evaporates |
 | Tungsten | Very high | Specialized mining | Compact shields, collimators | Expensive, difficult to machine |
 
-### Detection Methods by Radiation Type
+## Detection Methods by Radiation Type
 
 | Detector | Detects | Energy Range | Sensitivity | Response Time | Cost |
 |----------|---------|-------------|-------------|--------------|------|
@@ -231,7 +229,7 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 | TLD (LiF) | β, γ, X-ray, neutron | >10 keV | Moderate | Weeks (processing) | Medium |
 | Semiconductor (HPGe) | γ | >40 keV | Highest | μs | Very high |
 
-## References
+## See Also
 
 - [Chemical Safety](chemical-safety.md) — semiconductor process gas safety (arsine, phosphine) used in ion implantation
 - [Emergency Response](emergency-response.md) — radiation emergency procedures, contamination events
@@ -242,6 +240,4 @@ The fundamental principle: ALARA — As Low As Reasonably Achievable. No level o
 - [Electronics](../electronics/index.md) — Geiger-Müller tubes, scintillation detectors, dosimetry electronics
 - [Metals](../metals/index.md) — lead production for shielding
 
----
-
-*Part of the [Bootciv Tech Tree](../index.md) • [EHS](./index.md) • [All Domains](../index.md)*
+[← Back to EHS](index.md)

@@ -8,13 +8,11 @@
 > **Outputs**: telegraph_networks, block_signaling_systems, message_routing
 > **Critical**: No — communication accelerates coordination but is not strictly required for survival
 
-## Overview
-
 This node covers the **network architecture** of electrical telegraph systems — how point-to-point telegraph circuits become information networks that route messages between cities, countries, and continents. For hardware details (telegraph keys, sounders, batteries, pole-line construction), see [Telegraph Communication](../transport/telegraph.md).
 
 The key insight: a single telegraph wire between two stations is a communication channel. A network of wires connecting dozens of stations through central switching offices is an information infrastructure that transforms civilization's coordination speed by orders of magnitude.
 
-### Network Topology
+## Network Topology
 
 **Hub-and-spoke**: The dominant telegraph network architecture. A central office (hub) connects to multiple outstations (spokes) via dedicated wire pairs. Messages between outstations are routed through the hub, where an operator receives the incoming message and re-transmits it on the destination line.
 
@@ -24,7 +22,7 @@ The key insight: a single telegraph wire between two stations is a communication
 
 **Star network capacity**: A hub with *n* lines can theoretically route between any pair. Maximum simultaneous connections: *n*/2 (each connection uses 2 lines). A 50-line hub can carry 25 simultaneous conversations. In practice, not all stations transmit simultaneously, so the hub handles far more message traffic by time-sharing lines.
 
-### Message Routing
+## Message Routing
 
 **Direct routing**: If a dedicated wire exists between source and destination, the message travels directly. This is the fastest path — no relay delays.
 
@@ -32,7 +30,7 @@ The key insight: a single telegraph wire between two stations is a communication
 
 **Routing table**: Each central office maintains a routing directory listing which destination offices are reachable via which outgoing lines. For complex networks with multiple possible paths, operators choose based on line availability and current congestion. Formal routing protocols did not exist until the teleprinter/telex era (1920s+).
 
-### Multiplexing: Doubling and Quadrupling Line Capacity
+## Multiplexing: Doubling and Quadrupling Line Capacity
 
 A single telegraph wire carries one message at a time. Multiplexing techniques allow multiple simultaneous messages on one wire, dramatically increasing line revenue without new construction.
 
@@ -49,7 +47,7 @@ A single telegraph wire carries one message at a time. Multiplexing techniques a
 - **Practical effect**: Quadruples line capacity. Revenue per wire increases 4x. Made long-distance telegraphy enormously profitable — Western Union's profits surged after deploying quadruplex on major routes.
 - **Difficulty**: Maintaining balance on quadruplex circuits required skilled technicians. A 5% impedance mismatch caused crosstalk between channels. Regular maintenance every 4-8 hours was standard.
 
-### Railway Block Signaling
+## Railway Block Signaling
 
 The first automatic safety system enabled by telegraph technology. Block signaling prevents rear-end train collisions by ensuring that only one train occupies a given section (block) of track at a time.
 
@@ -67,7 +65,7 @@ The first automatic safety system enabled by telegraph technology. Block signali
 
 ## Bill of Materials
 
-### Overhead Pole Line (per km)
+## Overhead Pole Line (per km)
 
 | Material | Quantity per km | Specification | Source |
 |----------|----------------|---------------|--------|
@@ -78,7 +76,7 @@ The first automatic safety system enabled by telegraph technology. Block signali
 | Cross-arms (timber) | 6-10 | 1.0-1.5 m pine or oak, bolted to pole | [Forestry](../plants/index.md) |
 | Pole hardware | 12-20 sets | Wrought iron brackets, bolts, pins | [Metals](../metals/index.md) |
 
-### Central Office Equipment (50-line hub)
+## Central Office Equipment (50-line hub)
 
 | Material | Quantity | Specification | Source |
 |----------|----------|---------------|--------|
@@ -91,7 +89,7 @@ The first automatic safety system enabled by telegraph technology. Block signali
 
 ## Quantitative Parameters
 
-### Signal Propagation
+## Signal Propagation
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
@@ -104,7 +102,7 @@ The first automatic safety system enabled by telegraph technology. Block signali
 | Signaling speed (manual Morse) | 15-25 WPM | Trained operator; ~20 WPM sustained |
 | Signaling speed (automatic) | 60-200 WPM | Paper tape punched off-line, transmitted mechanically |
 
-### Multiplexing Capacity
+## Multiplexing Capacity
 
 | Technique | Channels per Wire | Equipment per Station | Revenue Multiplier |
 |-----------|-------------------|----------------------|-------------------|
@@ -112,7 +110,7 @@ The first automatic safety system enabled by telegraph technology. Block signali
 | Duplex | 2 | Differential relay + balance network | 2x |
 | Quadruplex | 4 | 2 polarized relays + balance + polarity key | 4x |
 
-### Block Signaling Parameters
+## Block Signaling Parameters
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
@@ -125,15 +123,15 @@ The first automatic safety system enabled by telegraph technology. Block signali
 
 ## Scaling Notes
 
-### Local Network (10-50 km, single city)
+## Local Network (10-50 km, single city)
 
 A single central office with 10-30 lines covers a city and immediate surroundings. Construction: 1-3 months. Staff: 5-15 operators. Single-wire construction is adequate; copper preferred for reliability. Revenue: sufficient to cover operating costs at 50-200 messages/day. A 30 km overhead line costs $6,000-15,000 (1880s USD).
 
-### Regional Network (100-500 km, connecting cities)
+## Regional Network (100-500 km, connecting cities)
 
 Multiple central offices connected by trunk lines carrying 1-4 channels (simplex to quadruplex). Relay stations at 50-100 km intervals. Construction: 6-18 months. Staff: 50-200 operators across all offices. Key constraint: trunk line construction cost ($200-500/km overhead). Quadruplex on trunk lines reduces per-message cost by 4x. A 300 km regional network with 5 offices costs $60,000-150,000.
 
-### Continental Network (1,000-5,000 km)
+## Continental Network (1,000-5,000 km)
 
 Requires massive capital investment ($500,000-2,000,000 for a transcontinental network). Repeater stations every 200-400 km. Multiple trunk routes for redundancy. 24-hour staffing at all offices. Construction: 2-5 years with 500+ linemen. Key bottleneck: not wire or poles, but skilled operators and maintenance crews. The first US transcontinental telegraph (1861, 3,200 km) took 2 years to build with 50+ relay stations.
 
@@ -180,7 +178,7 @@ SIG        [sender's name or code]
 - Peak traffic: stock exchange hours (10 AM - 3 PM), when financial wires consumed 30-40% of line capacity.
 - Average delivery time: 30 minutes for same-city, 1-4 hours cross-country, 10-30 minutes transatlantic.
 
-### Code Books and Compression
+## Code Books and Compression
 
 Commercial enterprises used pre-arranged **code books** to compress common phrases into single code words, reducing both cost and transmission time:
 
@@ -189,7 +187,7 @@ Commercial enterprises used pre-arranged **code books** to compress common phras
 - **Security benefit**: Code books provided rudimentary commercial confidentiality. Without the code book, an intercepted message reads as nonsense.
 - **Error risk**: A single misread dot could change a code word, potentially inverting "BUY" to "SELL". Verification operators re-read critical messages before transmission.
 
-### Telegraph Economics
+## Telegraph Economics
 
 **Construction costs** (approximate, 1880s US):
 - Single-wire overhead line: $200-500 per km (poles, wire, insulators, labor).
@@ -203,7 +201,7 @@ Commercial enterprises used pre-arranged **code books** to compress common phras
 - Operating expenses: ~60% of revenue (labor was the largest cost — operators, linemen, clerks).
 - Net profit margin: ~25-30%.
 
-### Telegraph and Social Transformation
+## Telegraph and Social Transformation
 
 **Speed compression**: Before the telegraph, information traveled at physical transport speed — 5-15 km/h by horse, 20-40 km/h by rail. After the telegraph, information traveled at ~280,000 km/s on wire (velocity factor ~0.93c for iron wire). For a 3,000 km distance, the telegraph compressed information transit from 3-5 days (rail) to instantaneous (~10 ms propagation delay). This 10,000x speedup transformed:
 - **Financial markets**: Stock and commodity prices synchronized across cities in minutes rather than days.
@@ -236,12 +234,11 @@ The telegraph network established the infrastructure (pole lines, wire, right-of
 - 1874: Edison invents quadruplex.
 - 1915: AT&T opens first transcontinental telephone line.
 
-### See Also
+## See Also
 
-- [Telegraph Communication](../transport/telegraph.md) — Hardware details: keys, sounders, batteries, pole-line construction
-- [Telephone Systems](telephone.md) — The voice successor to telegraph networks
-- [Submarine Cable Systems](submarine-cables.md) — Intercontinental telegraph connections
-- [Railways](../transport/railways.md) — Railway infrastructure that telegraph block signaling protects
+- [Telegraph Communication](../transport/telegraph.md) — hardware details: keys, sounders, batteries, pole-line construction
+- [Telephone Systems](telephone.md) — the voice successor to telegraph networks
+- [Submarine Cable Systems](submarine-cables.md) — intercontinental telegraph connections
+- [Railways](../transport/railways.md) — railway infrastructure that telegraph block signaling protects
 
----
-*Part of the [Bootciv Tech Tree](../index.md) • [Telecommunications](./index.md) • [All Domains](../index.md)*
+[← Back to Telecommunications](index.md)
